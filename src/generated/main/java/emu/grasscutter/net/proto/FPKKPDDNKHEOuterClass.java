@@ -19,13 +19,13 @@ public final class FPKKPDDNKHEOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 object_id = 2;</code>
+     * <code>uint32 object_id = 6;</code>
      * @return The objectId.
      */
     int getObjectId();
 
     /**
-     * <code>uint32 finish_time = 11;</code>
+     * <code>uint32 finish_time = 1;</code>
      * @return The finishTime.
      */
     int getFinishTime();
@@ -75,14 +75,14 @@ public final class FPKKPDDNKHEOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
-
-              objectId_ = input.readUInt32();
-              break;
-            }
-            case 88: {
+            case 8: {
 
               finishTime_ = input.readUInt32();
+              break;
+            }
+            case 48: {
+
+              objectId_ = input.readUInt32();
               break;
             }
             default: {
@@ -117,10 +117,10 @@ public final class FPKKPDDNKHEOuterClass {
               emu.grasscutter.net.proto.FPKKPDDNKHEOuterClass.FPKKPDDNKHE.class, emu.grasscutter.net.proto.FPKKPDDNKHEOuterClass.FPKKPDDNKHE.Builder.class);
     }
 
-    public static final int OBJECT_ID_FIELD_NUMBER = 2;
+    public static final int OBJECT_ID_FIELD_NUMBER = 6;
     private int objectId_;
     /**
-     * <code>uint32 object_id = 2;</code>
+     * <code>uint32 object_id = 6;</code>
      * @return The objectId.
      */
     @java.lang.Override
@@ -128,10 +128,10 @@ public final class FPKKPDDNKHEOuterClass {
       return objectId_;
     }
 
-    public static final int FINISH_TIME_FIELD_NUMBER = 11;
+    public static final int FINISH_TIME_FIELD_NUMBER = 1;
     private int finishTime_;
     /**
-     * <code>uint32 finish_time = 11;</code>
+     * <code>uint32 finish_time = 1;</code>
      * @return The finishTime.
      */
     @java.lang.Override
@@ -153,11 +153,11 @@ public final class FPKKPDDNKHEOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (objectId_ != 0) {
-        output.writeUInt32(2, objectId_);
-      }
       if (finishTime_ != 0) {
-        output.writeUInt32(11, finishTime_);
+        output.writeUInt32(1, finishTime_);
+      }
+      if (objectId_ != 0) {
+        output.writeUInt32(6, objectId_);
       }
       unknownFields.writeTo(output);
     }
@@ -168,13 +168,13 @@ public final class FPKKPDDNKHEOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (objectId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, objectId_);
-      }
       if (finishTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, finishTime_);
+          .computeUInt32Size(1, finishTime_);
+      }
+      if (objectId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(6, objectId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -460,7 +460,7 @@ public final class FPKKPDDNKHEOuterClass {
 
       private int objectId_ ;
       /**
-       * <code>uint32 object_id = 2;</code>
+       * <code>uint32 object_id = 6;</code>
        * @return The objectId.
        */
       @java.lang.Override
@@ -468,7 +468,7 @@ public final class FPKKPDDNKHEOuterClass {
         return objectId_;
       }
       /**
-       * <code>uint32 object_id = 2;</code>
+       * <code>uint32 object_id = 6;</code>
        * @param value The objectId to set.
        * @return This builder for chaining.
        */
@@ -479,7 +479,7 @@ public final class FPKKPDDNKHEOuterClass {
         return this;
       }
       /**
-       * <code>uint32 object_id = 2;</code>
+       * <code>uint32 object_id = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearObjectId() {
@@ -491,7 +491,7 @@ public final class FPKKPDDNKHEOuterClass {
 
       private int finishTime_ ;
       /**
-       * <code>uint32 finish_time = 11;</code>
+       * <code>uint32 finish_time = 1;</code>
        * @return The finishTime.
        */
       @java.lang.Override
@@ -499,7 +499,7 @@ public final class FPKKPDDNKHEOuterClass {
         return finishTime_;
       }
       /**
-       * <code>uint32 finish_time = 11;</code>
+       * <code>uint32 finish_time = 1;</code>
        * @param value The finishTime to set.
        * @return This builder for chaining.
        */
@@ -510,7 +510,7 @@ public final class FPKKPDDNKHEOuterClass {
         return this;
       }
       /**
-       * <code>uint32 finish_time = 11;</code>
+       * <code>uint32 finish_time = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearFinishTime() {
@@ -587,7 +587,7 @@ public final class FPKKPDDNKHEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021FPKKPDDNKHE.proto\"5\n\013FPKKPDDNKHE\022\021\n\tob" +
-      "ject_id\030\002 \001(\r\022\023\n\013finish_time\030\013 \001(\rB2\n\031em" +
+      "ject_id\030\006 \001(\r\022\023\n\013finish_time\030\001 \001(\rB2\n\031em" +
       "u.grasscutter.net.protoB\025FPKKPDDNKHEOute" +
       "rClassb\006proto3"
     };

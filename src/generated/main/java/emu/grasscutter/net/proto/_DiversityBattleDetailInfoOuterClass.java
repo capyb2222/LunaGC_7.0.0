@@ -19,7 +19,7 @@ public final class _DiversityBattleDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 last_difficulty_id = 4;</code>
+     * <code>uint32 last_difficulty_id = 14;</code>
      * @return The lastDifficultyId.
      */
     int getLastDifficultyId();
@@ -69,7 +69,7 @@ public final class _DiversityBattleDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 112: {
 
               lastDifficultyId_ = input.readUInt32();
               break;
@@ -106,10 +106,10 @@ public final class _DiversityBattleDetailInfoOuterClass {
               emu.grasscutter.net.proto._DiversityBattleDetailInfoOuterClass._DiversityBattleDetailInfo.class, emu.grasscutter.net.proto._DiversityBattleDetailInfoOuterClass._DiversityBattleDetailInfo.Builder.class);
     }
 
-    public static final int LAST_DIFFICULTY_ID_FIELD_NUMBER = 4;
+    public static final int LAST_DIFFICULTY_ID_FIELD_NUMBER = 14;
     private int lastDifficultyId_;
     /**
-     * <code>uint32 last_difficulty_id = 4;</code>
+     * <code>uint32 last_difficulty_id = 14;</code>
      * @return The lastDifficultyId.
      */
     @java.lang.Override
@@ -132,7 +132,7 @@ public final class _DiversityBattleDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (lastDifficultyId_ != 0) {
-        output.writeUInt32(4, lastDifficultyId_);
+        output.writeUInt32(14, lastDifficultyId_);
       }
       unknownFields.writeTo(output);
     }
@@ -145,7 +145,7 @@ public final class _DiversityBattleDetailInfoOuterClass {
       size = 0;
       if (lastDifficultyId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, lastDifficultyId_);
+          .computeUInt32Size(14, lastDifficultyId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -421,7 +421,7 @@ public final class _DiversityBattleDetailInfoOuterClass {
 
       private int lastDifficultyId_ ;
       /**
-       * <code>uint32 last_difficulty_id = 4;</code>
+       * <code>uint32 last_difficulty_id = 14;</code>
        * @return The lastDifficultyId.
        */
       @java.lang.Override
@@ -429,7 +429,7 @@ public final class _DiversityBattleDetailInfoOuterClass {
         return lastDifficultyId_;
       }
       /**
-       * <code>uint32 last_difficulty_id = 4;</code>
+       * <code>uint32 last_difficulty_id = 14;</code>
        * @param value The lastDifficultyId to set.
        * @return This builder for chaining.
        */
@@ -440,7 +440,7 @@ public final class _DiversityBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 last_difficulty_id = 4;</code>
+       * <code>uint32 last_difficulty_id = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearLastDifficultyId() {
@@ -518,7 +518,7 @@ public final class _DiversityBattleDetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n _DiversityBattleDetailInfo.proto\"8\n\032_D" +
       "iversityBattleDetailInfo\022\032\n\022last_difficu" +
-      "lty_id\030\004 \001(\rBA\n\031emu.grasscutter.net.prot" +
+      "lty_id\030\016 \001(\rBA\n\031emu.grasscutter.net.prot" +
       "oB$_DiversityBattleDetailInfoOuterClassb" +
       "\006proto3"
     };

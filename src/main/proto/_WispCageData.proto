@@ -8,11 +8,11 @@ import "Vector.proto";
 import "_WispCageState.proto";
 
 message _WispCageData {
-	Vector rot = 2;
-	uint32 scene_id = 5;
-	uint32 gadget_entity_id = 10;
-	Vector pos = 11;
-	repeated ItemParam _last_used_material_list = 13;
-	_WispCageState state = 14;
-	uint32 _collect_finish_time = 15;
+	Vector rot = 9;
+	uint32 scene_id = 11;
+	uint32 gadget_entity_id = 6;
+	Vector pos = 14;
+	repeated ItemParam _last_used_material_list = 10;
+	_WispCageState state = 12;
+	uint32 _collect_finish_time = 8;
 }

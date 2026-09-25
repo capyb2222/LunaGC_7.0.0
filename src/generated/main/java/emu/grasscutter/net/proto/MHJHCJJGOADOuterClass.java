@@ -19,13 +19,13 @@ public final class MHJHCJJGOADOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 progress = 10;</code>
+     * <code>uint32 progress = 15;</code>
      * @return The progress.
      */
     int getProgress();
 
     /**
-     * <code>uint32 POBNCEDDLGD = 15;</code>
+     * <code>uint32 POBNCEDDLGD = 13;</code>
      * @return The pOBNCEDDLGD.
      */
     int getPOBNCEDDLGD();
@@ -75,14 +75,14 @@ public final class MHJHCJJGOADOuterClass {
             case 0:
               done = true;
               break;
-            case 80: {
+            case 104: {
 
-              progress_ = input.readUInt32();
+              pOBNCEDDLGD_ = input.readUInt32();
               break;
             }
             case 120: {
 
-              pOBNCEDDLGD_ = input.readUInt32();
+              progress_ = input.readUInt32();
               break;
             }
             default: {
@@ -117,10 +117,10 @@ public final class MHJHCJJGOADOuterClass {
               emu.grasscutter.net.proto.MHJHCJJGOADOuterClass.MHJHCJJGOAD.class, emu.grasscutter.net.proto.MHJHCJJGOADOuterClass.MHJHCJJGOAD.Builder.class);
     }
 
-    public static final int PROGRESS_FIELD_NUMBER = 10;
+    public static final int PROGRESS_FIELD_NUMBER = 15;
     private int progress_;
     /**
-     * <code>uint32 progress = 10;</code>
+     * <code>uint32 progress = 15;</code>
      * @return The progress.
      */
     @java.lang.Override
@@ -128,10 +128,10 @@ public final class MHJHCJJGOADOuterClass {
       return progress_;
     }
 
-    public static final int POBNCEDDLGD_FIELD_NUMBER = 15;
+    public static final int POBNCEDDLGD_FIELD_NUMBER = 13;
     private int pOBNCEDDLGD_;
     /**
-     * <code>uint32 POBNCEDDLGD = 15;</code>
+     * <code>uint32 POBNCEDDLGD = 13;</code>
      * @return The pOBNCEDDLGD.
      */
     @java.lang.Override
@@ -153,11 +153,11 @@ public final class MHJHCJJGOADOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (progress_ != 0) {
-        output.writeUInt32(10, progress_);
-      }
       if (pOBNCEDDLGD_ != 0) {
-        output.writeUInt32(15, pOBNCEDDLGD_);
+        output.writeUInt32(13, pOBNCEDDLGD_);
+      }
+      if (progress_ != 0) {
+        output.writeUInt32(15, progress_);
       }
       unknownFields.writeTo(output);
     }
@@ -168,13 +168,13 @@ public final class MHJHCJJGOADOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (progress_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, progress_);
-      }
       if (pOBNCEDDLGD_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, pOBNCEDDLGD_);
+          .computeUInt32Size(13, pOBNCEDDLGD_);
+      }
+      if (progress_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(15, progress_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -460,7 +460,7 @@ public final class MHJHCJJGOADOuterClass {
 
       private int progress_ ;
       /**
-       * <code>uint32 progress = 10;</code>
+       * <code>uint32 progress = 15;</code>
        * @return The progress.
        */
       @java.lang.Override
@@ -468,7 +468,7 @@ public final class MHJHCJJGOADOuterClass {
         return progress_;
       }
       /**
-       * <code>uint32 progress = 10;</code>
+       * <code>uint32 progress = 15;</code>
        * @param value The progress to set.
        * @return This builder for chaining.
        */
@@ -479,7 +479,7 @@ public final class MHJHCJJGOADOuterClass {
         return this;
       }
       /**
-       * <code>uint32 progress = 10;</code>
+       * <code>uint32 progress = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearProgress() {
@@ -491,7 +491,7 @@ public final class MHJHCJJGOADOuterClass {
 
       private int pOBNCEDDLGD_ ;
       /**
-       * <code>uint32 POBNCEDDLGD = 15;</code>
+       * <code>uint32 POBNCEDDLGD = 13;</code>
        * @return The pOBNCEDDLGD.
        */
       @java.lang.Override
@@ -499,7 +499,7 @@ public final class MHJHCJJGOADOuterClass {
         return pOBNCEDDLGD_;
       }
       /**
-       * <code>uint32 POBNCEDDLGD = 15;</code>
+       * <code>uint32 POBNCEDDLGD = 13;</code>
        * @param value The pOBNCEDDLGD to set.
        * @return This builder for chaining.
        */
@@ -510,7 +510,7 @@ public final class MHJHCJJGOADOuterClass {
         return this;
       }
       /**
-       * <code>uint32 POBNCEDDLGD = 15;</code>
+       * <code>uint32 POBNCEDDLGD = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearPOBNCEDDLGD() {
@@ -587,7 +587,7 @@ public final class MHJHCJJGOADOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021MHJHCJJGOAD.proto\"4\n\013MHJHCJJGOAD\022\020\n\010pr" +
-      "ogress\030\n \001(\r\022\023\n\013POBNCEDDLGD\030\017 \001(\rB2\n\031emu" +
+      "ogress\030\017 \001(\r\022\023\n\013POBNCEDDLGD\030\r \001(\rB2\n\031emu" +
       ".grasscutter.net.protoB\025MHJHCJJGOADOuter" +
       "Classb\006proto3"
     };

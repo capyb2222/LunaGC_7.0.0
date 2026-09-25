@@ -4,5 +4,5 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "GroupUnloadNotifyOuterClass";
 
 message GroupUnloadNotify {
-	repeated uint32 group_list = 8;
+	repeated uint32 group_list = 7;
 }

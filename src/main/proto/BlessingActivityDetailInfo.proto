@@ -4,12 +4,12 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "BlessingActivityDetailInfoOuterClass";
 
 message BlessingActivityDetailInfo {
-	uint32 HLGJOMHPMDA = 1;
+	uint32 HLGJOMHPMDA = 10;
 	bool is_content_closed = 5;
-	uint32 next_refresh_time = 7;
-	uint32 ppbchanjknf = 9;
-	bool is_activated = 11;
-	map<uint32, uint32> pic_num_map = 12;
-	uint32 DKHOJDNIKGN = 13;
-	uint32 content_close_time = 14;
+	uint32 next_refresh_time = 13;
+	uint32 ppbchanjknf = 3;
+	bool is_activated = 15;
+	map<uint32, uint32> pic_num_map = 2;
+	uint32 DKHOJDNIKGN = 7;
+	uint32 content_close_time = 8;
 }

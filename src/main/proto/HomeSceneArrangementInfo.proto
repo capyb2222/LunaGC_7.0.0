@@ -10,19 +10,19 @@ import "Vector.proto";
 
 message HomeSceneArrangementInfo {
 	repeated HomeBlockArrangementInfo block_arrangement_info_list = 1;
-	uint32 scene_id = 2;
-	repeated HomeFurnitureData stair_list = 3;
-	Vector IILKHACKPAI = 4;
-	HomeFurnitureData main_house = 5;
-	Vector born_pos = 6;
-	bool KGGKIAHPDGO = 8;
-	uint32 bgm_id = 9;
-	Vector djinn_pos = 10;
-	Vector KAPPOHDCAKP = 11;
-	uint32 tmp_version = 12;
-	uint32 comfort_value = 13;
-	bool OADJEMPMKIF = 14;
-	repeated HomeFurnitureData door_list = 15;
-	Vector MEEACPBAEJN = 300;
-	repeated MLLBFLGFLDN CKDKECLLALB = 1350;
+	uint32 scene_id = 13;
+	repeated HomeFurnitureData stair_list = 50000;
+	Vector IILKHACKPAI = 50001;
+	HomeFurnitureData main_house = 10;
+	Vector born_pos = 14;
+	bool KGGKIAHPDGO = 50002;
+	uint32 bgm_id = 4;
+	Vector djinn_pos = 9;
+	Vector KAPPOHDCAKP = 3;
+	uint32 tmp_version = 7;
+	uint32 comfort_value = 15;
+	bool OADJEMPMKIF = 50003;
+	repeated HomeFurnitureData door_list = 50004;
+	Vector MEEACPBAEJN = 50005;
+	repeated MLLBFLGFLDN CKDKECLLALB = 1071;
 }

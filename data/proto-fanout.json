@@ -1,0 +1,115 @@
+{
+ "AvatarFightPropNotify": [
+  {
+   "cmdId": 6516,
+   "symbol": "JGDNAAMONPO",
+   "fields": {
+    "fight_prop_map": 3,
+    "avatar_guid": 2
+   }
+  },
+  {
+   "cmdId": 26318,
+   "symbol": "FIIBFNCNGEB",
+   "fields": {
+    "fight_prop_map": 6,
+    "avatar_guid": 11
+   }
+  }
+ ],
+ "BlossomBriefInfoNotify": [
+  {
+   "cmdId": 6743,
+   "symbol": "ABJOMOIIDHH",
+   "fields": {
+    "brief_info_list": 10
+   }
+  },
+  {
+   "cmdId": 20484,
+   "symbol": "GIIGDONJFPJ",
+   "fields": {
+    "brief_info_list": 14
+   }
+  }
+ ],
+ "DelTeamEntityNotify": [
+  {
+   "cmdId": 2050,
+   "symbol": "HHDADFOPFFM",
+   "fields": {
+    "scene_id": 15,
+    "del_entity_id_list": 11
+   }
+  },
+  {
+   "cmdId": 26830,
+   "symbol": "HAFBDBHDKHD",
+   "fields": {
+    "scene_id": 15,
+    "del_entity_id_list": 3
+   }
+  }
+ ],
+ "FinishedParentQuestNotify": [
+  {
+   "cmdId": 3062,
+   "symbol": "BJEBOLJAGJG",
+   "fields": {
+    "parent_quest_list": 4
+   }
+  },
+  {
+   "cmdId": 23631,
+   "symbol": "FOJNCJINLBK",
+   "fields": {
+    "parent_quest_list": 12
+   }
+  }
+ ],
+ "QuestListNotify": [
+  {
+   "cmdId": 3610,
+   "symbol": "JDLMELOENCN",
+   "fields": {
+    "quest_list": 7
+   }
+  },
+  {
+   "cmdId": 7638,
+   "symbol": "MBABEMAMDEM",
+   "fields": {
+    "quest_list": 15
+   }
+  }
+ ],
+ "SceneEntityAppearNotify": [
+  {
+   "cmdId": 27685,
+   "symbol": "KIIKIELOHOG",
+   "fields": {
+    "entity_list": 8,
+    "param": 3,
+    "appear_type": 10
+   }
+  },
+  {
+   "cmdId": 28129,
+   "symbol": "POLMCKBNLDF",
+   "fields": {
+    "entity_list": 14,
+    "param": 7,
+    "appear_type": 13
+   }
+  },
+  {
+   "cmdId": 29756,
+   "symbol": "IDOJBDCIAAE",
+   "fields": {
+    "entity_list": 15,
+    "param": 7,
+    "appear_type": 5
+   }
+  }
+ ]
+}

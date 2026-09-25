@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "MonsterAlertChangeNotifyOuterClass";
 
 message MonsterAlertChangeNotify {
-	repeated uint32 monster_entity_list = 3;
-	uint32 is_alert = 4;
+	repeated uint32 monster_entity_list = 11;
+	uint32 is_alert = 9;
 	uint32 avatar_entity_id = 15;
 }

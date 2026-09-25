@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "AvatarTeamOuterClass";
 
 message AvatarTeam {
-	string team_name = 7;
-	repeated uint64 avatar_guid_list = 13;
+	string team_name = 9;
+	repeated uint64 avatar_guid_list = 12;
 }

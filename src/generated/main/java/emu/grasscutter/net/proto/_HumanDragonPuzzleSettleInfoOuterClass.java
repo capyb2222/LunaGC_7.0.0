@@ -19,13 +19,13 @@ public final class _HumanDragonPuzzleSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 collect_num = 12;</code>
+     * <code>uint32 collect_num = 8;</code>
      * @return The collectNum.
      */
     int getCollectNum();
 
     /**
-     * <code>uint32 level_id = 15;</code>
+     * <code>uint32 level_id = 1;</code>
      * @return The levelId.
      */
     int getLevelId();
@@ -75,14 +75,14 @@ public final class _HumanDragonPuzzleSettleInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 96: {
-
-              collectNum_ = input.readUInt32();
-              break;
-            }
-            case 120: {
+            case 8: {
 
               levelId_ = input.readUInt32();
+              break;
+            }
+            case 64: {
+
+              collectNum_ = input.readUInt32();
               break;
             }
             default: {
@@ -117,10 +117,10 @@ public final class _HumanDragonPuzzleSettleInfoOuterClass {
               emu.grasscutter.net.proto._HumanDragonPuzzleSettleInfoOuterClass._HumanDragonPuzzleSettleInfo.class, emu.grasscutter.net.proto._HumanDragonPuzzleSettleInfoOuterClass._HumanDragonPuzzleSettleInfo.Builder.class);
     }
 
-    public static final int COLLECT_NUM_FIELD_NUMBER = 12;
+    public static final int COLLECT_NUM_FIELD_NUMBER = 8;
     private int collectNum_;
     /**
-     * <code>uint32 collect_num = 12;</code>
+     * <code>uint32 collect_num = 8;</code>
      * @return The collectNum.
      */
     @java.lang.Override
@@ -128,10 +128,10 @@ public final class _HumanDragonPuzzleSettleInfoOuterClass {
       return collectNum_;
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 15;
+    public static final int LEVEL_ID_FIELD_NUMBER = 1;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 15;</code>
+     * <code>uint32 level_id = 1;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -153,11 +153,11 @@ public final class _HumanDragonPuzzleSettleInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (collectNum_ != 0) {
-        output.writeUInt32(12, collectNum_);
-      }
       if (levelId_ != 0) {
-        output.writeUInt32(15, levelId_);
+        output.writeUInt32(1, levelId_);
+      }
+      if (collectNum_ != 0) {
+        output.writeUInt32(8, collectNum_);
       }
       unknownFields.writeTo(output);
     }
@@ -168,13 +168,13 @@ public final class _HumanDragonPuzzleSettleInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (collectNum_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, collectNum_);
-      }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, levelId_);
+          .computeUInt32Size(1, levelId_);
+      }
+      if (collectNum_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(8, collectNum_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -460,7 +460,7 @@ public final class _HumanDragonPuzzleSettleInfoOuterClass {
 
       private int collectNum_ ;
       /**
-       * <code>uint32 collect_num = 12;</code>
+       * <code>uint32 collect_num = 8;</code>
        * @return The collectNum.
        */
       @java.lang.Override
@@ -468,7 +468,7 @@ public final class _HumanDragonPuzzleSettleInfoOuterClass {
         return collectNum_;
       }
       /**
-       * <code>uint32 collect_num = 12;</code>
+       * <code>uint32 collect_num = 8;</code>
        * @param value The collectNum to set.
        * @return This builder for chaining.
        */
@@ -479,7 +479,7 @@ public final class _HumanDragonPuzzleSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 collect_num = 12;</code>
+       * <code>uint32 collect_num = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearCollectNum() {
@@ -491,7 +491,7 @@ public final class _HumanDragonPuzzleSettleInfoOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 15;</code>
+       * <code>uint32 level_id = 1;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -499,7 +499,7 @@ public final class _HumanDragonPuzzleSettleInfoOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 15;</code>
+       * <code>uint32 level_id = 1;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -510,7 +510,7 @@ public final class _HumanDragonPuzzleSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 15;</code>
+       * <code>uint32 level_id = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -588,7 +588,7 @@ public final class _HumanDragonPuzzleSettleInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\"_HumanDragonPuzzleSettleInfo.proto\"E\n\034" +
       "_HumanDragonPuzzleSettleInfo\022\023\n\013collect_" +
-      "num\030\014 \001(\r\022\020\n\010level_id\030\017 \001(\rBC\n\031emu.grass" +
+      "num\030\010 \001(\r\022\020\n\010level_id\030\001 \001(\rBC\n\031emu.grass" +
       "cutter.net.protoB&_HumanDragonPuzzleSett" +
       "leInfoOuterClassb\006proto3"
     };

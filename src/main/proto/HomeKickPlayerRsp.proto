@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "HomeKickPlayerRspOuterClass";
 
 message HomeKickPlayerRsp {
-	uint32 target_uid = 4;
-	int32 retcode = 8;
-	bool is_kick_all = 12;
+	uint32 target_uid = 13;
+	int32 retcode = 6;
+	bool is_kick_all = 4;
 }

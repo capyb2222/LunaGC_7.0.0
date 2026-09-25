@@ -6,9 +6,9 @@ option java_outer_classname = "_TakeDailyTaskScoreRewardRspOuterClass";
 import "ItemParam.proto";
 
 message _TakeDailyTaskScoreRewardRsp {
-	repeated ItemParam item_list = 5;
-	bool _is_claim_daily_attendance = 6;
-	int32 retcode = 7;
-	repeated uint32 AOABLDACGEB = 12;
-	repeated uint32 HCDBMIBOAJA = 15;
+	repeated ItemParam item_list = 10;
+	bool _is_claim_daily_attendance = 3;
+	int32 retcode = 8;
+	repeated uint32 AOABLDACGEB = 50000;
+	repeated uint32 HCDBMIBOAJA = 50001;
 }

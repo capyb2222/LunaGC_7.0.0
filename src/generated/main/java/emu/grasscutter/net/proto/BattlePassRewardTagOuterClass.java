@@ -30,7 +30,7 @@ public final class BattlePassRewardTagOuterClass {
     emu.grasscutter.net.proto.BattlePassUnlockStatusOuterClass.BattlePassUnlockStatus getUnlockStatus();
 
     /**
-     * <code>uint32 reward_id = 7;</code>
+     * <code>uint32 reward_id = 8;</code>
      * @return The rewardId.
      */
     int getRewardId();
@@ -42,7 +42,7 @@ public final class BattlePassRewardTagOuterClass {
     int getGamkmjljind();
 
     /**
-     * <code>uint32 level = 15;</code>
+     * <code>uint32 level = 13;</code>
      * @return The level.
      */
     int getLevel();
@@ -99,19 +99,19 @@ public final class BattlePassRewardTagOuterClass {
               unlockStatus_ = rawValue;
               break;
             }
-            case 56: {
+            case 64: {
 
               rewardId_ = input.readUInt32();
+              break;
+            }
+            case 104: {
+
+              level_ = input.readUInt32();
               break;
             }
             case 112: {
 
               gamkmjljind_ = input.readUInt32();
-              break;
-            }
-            case 120: {
-
-              level_ = input.readUInt32();
               break;
             }
             default: {
@@ -165,10 +165,10 @@ public final class BattlePassRewardTagOuterClass {
       return result == null ? emu.grasscutter.net.proto.BattlePassUnlockStatusOuterClass.BattlePassUnlockStatus.UNRECOGNIZED : result;
     }
 
-    public static final int REWARD_ID_FIELD_NUMBER = 7;
+    public static final int REWARD_ID_FIELD_NUMBER = 8;
     private int rewardId_;
     /**
-     * <code>uint32 reward_id = 7;</code>
+     * <code>uint32 reward_id = 8;</code>
      * @return The rewardId.
      */
     @java.lang.Override
@@ -187,10 +187,10 @@ public final class BattlePassRewardTagOuterClass {
       return gamkmjljind_;
     }
 
-    public static final int LEVEL_FIELD_NUMBER = 15;
+    public static final int LEVEL_FIELD_NUMBER = 13;
     private int level_;
     /**
-     * <code>uint32 level = 15;</code>
+     * <code>uint32 level = 13;</code>
      * @return The level.
      */
     @java.lang.Override
@@ -216,13 +216,13 @@ public final class BattlePassRewardTagOuterClass {
         output.writeEnum(4, unlockStatus_);
       }
       if (rewardId_ != 0) {
-        output.writeUInt32(7, rewardId_);
+        output.writeUInt32(8, rewardId_);
+      }
+      if (level_ != 0) {
+        output.writeUInt32(13, level_);
       }
       if (gamkmjljind_ != 0) {
         output.writeUInt32(14, gamkmjljind_);
-      }
-      if (level_ != 0) {
-        output.writeUInt32(15, level_);
       }
       unknownFields.writeTo(output);
     }
@@ -239,15 +239,15 @@ public final class BattlePassRewardTagOuterClass {
       }
       if (rewardId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, rewardId_);
+          .computeUInt32Size(8, rewardId_);
+      }
+      if (level_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(13, level_);
       }
       if (gamkmjljind_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(14, gamkmjljind_);
-      }
-      if (level_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, level_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -606,7 +606,7 @@ public final class BattlePassRewardTagOuterClass {
 
       private int rewardId_ ;
       /**
-       * <code>uint32 reward_id = 7;</code>
+       * <code>uint32 reward_id = 8;</code>
        * @return The rewardId.
        */
       @java.lang.Override
@@ -614,7 +614,7 @@ public final class BattlePassRewardTagOuterClass {
         return rewardId_;
       }
       /**
-       * <code>uint32 reward_id = 7;</code>
+       * <code>uint32 reward_id = 8;</code>
        * @param value The rewardId to set.
        * @return This builder for chaining.
        */
@@ -625,7 +625,7 @@ public final class BattlePassRewardTagOuterClass {
         return this;
       }
       /**
-       * <code>uint32 reward_id = 7;</code>
+       * <code>uint32 reward_id = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearRewardId() {
@@ -668,7 +668,7 @@ public final class BattlePassRewardTagOuterClass {
 
       private int level_ ;
       /**
-       * <code>uint32 level = 15;</code>
+       * <code>uint32 level = 13;</code>
        * @return The level.
        */
       @java.lang.Override
@@ -676,7 +676,7 @@ public final class BattlePassRewardTagOuterClass {
         return level_;
       }
       /**
-       * <code>uint32 level = 15;</code>
+       * <code>uint32 level = 13;</code>
        * @param value The level to set.
        * @return This builder for chaining.
        */
@@ -687,7 +687,7 @@ public final class BattlePassRewardTagOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level = 15;</code>
+       * <code>uint32 level = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevel() {
@@ -766,8 +766,8 @@ public final class BattlePassRewardTagOuterClass {
       "\n\031BattlePassRewardTag.proto\032\034BattlePassU" +
       "nlockStatus.proto\"|\n\023BattlePassRewardTag" +
       "\022.\n\runlock_status\030\004 \001(\0162\027.BattlePassUnlo" +
-      "ckStatus\022\021\n\treward_id\030\007 \001(\r\022\023\n\013gamkmjlji" +
-      "nd\030\016 \001(\r\022\r\n\005level\030\017 \001(\rB:\n\031emu.grasscutt" +
+      "ckStatus\022\021\n\treward_id\030\010 \001(\r\022\023\n\013gamkmjlji" +
+      "nd\030\016 \001(\r\022\r\n\005level\030\r \001(\rB:\n\031emu.grasscutt" +
       "er.net.protoB\035BattlePassRewardTagOuterCl" +
       "assb\006proto3"
     };

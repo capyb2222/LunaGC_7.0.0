@@ -6,9 +6,9 @@ option java_outer_classname = "AsterLittleDetailInfoOuterClass";
 import "AsterLittleStageState.proto";
 
 message AsterLittleDetailInfo {
-	uint32 begin_time = 1;
-	uint32 stage_begin_time = 2;
-	AsterLittleStageState stage_state = 3;
-	bool is_open = 8;
-	uint32 stage_id = 13;
+	uint32 begin_time = 11;
+	uint32 stage_begin_time = 3;
+	AsterLittleStageState stage_state = 6;
+	bool is_open = 7;
+	uint32 stage_id = 8;
 }

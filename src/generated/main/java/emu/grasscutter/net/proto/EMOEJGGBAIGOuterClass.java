@@ -19,25 +19,25 @@ public final class EMOEJGGBAIGOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 15;</code>
+     * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 14;</code>
      */
     java.util.List<emu.grasscutter.net.proto.JLCGGDBJIJMOuterClass.JLCGGDBJIJM> 
         getMAOIOICPLBGList();
     /**
-     * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 15;</code>
+     * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 14;</code>
      */
     emu.grasscutter.net.proto.JLCGGDBJIJMOuterClass.JLCGGDBJIJM getMAOIOICPLBG(int index);
     /**
-     * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 15;</code>
+     * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 14;</code>
      */
     int getMAOIOICPLBGCount();
     /**
-     * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 15;</code>
+     * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 14;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.JLCGGDBJIJMOuterClass.JLCGGDBJIJMOrBuilder> 
         getMAOIOICPLBGOrBuilderList();
     /**
-     * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 15;</code>
+     * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 14;</code>
      */
     emu.grasscutter.net.proto.JLCGGDBJIJMOuterClass.JLCGGDBJIJMOrBuilder getMAOIOICPLBGOrBuilder(
         int index);
@@ -89,7 +89,7 @@ public final class EMOEJGGBAIGOuterClass {
             case 0:
               done = true;
               break;
-            case 122: {
+            case 114: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 mAOIOICPLBG_ = new java.util.ArrayList<emu.grasscutter.net.proto.JLCGGDBJIJMOuterClass.JLCGGDBJIJM>();
                 mutable_bitField0_ |= 0x00000001;
@@ -133,17 +133,17 @@ public final class EMOEJGGBAIGOuterClass {
               emu.grasscutter.net.proto.EMOEJGGBAIGOuterClass.EMOEJGGBAIG.class, emu.grasscutter.net.proto.EMOEJGGBAIGOuterClass.EMOEJGGBAIG.Builder.class);
     }
 
-    public static final int MAOIOICPLBG_FIELD_NUMBER = 15;
+    public static final int MAOIOICPLBG_FIELD_NUMBER = 14;
     private java.util.List<emu.grasscutter.net.proto.JLCGGDBJIJMOuterClass.JLCGGDBJIJM> mAOIOICPLBG_;
     /**
-     * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 15;</code>
+     * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 14;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.JLCGGDBJIJMOuterClass.JLCGGDBJIJM> getMAOIOICPLBGList() {
       return mAOIOICPLBG_;
     }
     /**
-     * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 15;</code>
+     * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 14;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.JLCGGDBJIJMOuterClass.JLCGGDBJIJMOrBuilder> 
@@ -151,21 +151,21 @@ public final class EMOEJGGBAIGOuterClass {
       return mAOIOICPLBG_;
     }
     /**
-     * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 15;</code>
+     * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 14;</code>
      */
     @java.lang.Override
     public int getMAOIOICPLBGCount() {
       return mAOIOICPLBG_.size();
     }
     /**
-     * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 15;</code>
+     * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 14;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.JLCGGDBJIJMOuterClass.JLCGGDBJIJM getMAOIOICPLBG(int index) {
       return mAOIOICPLBG_.get(index);
     }
     /**
-     * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 15;</code>
+     * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 14;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.JLCGGDBJIJMOuterClass.JLCGGDBJIJMOrBuilder getMAOIOICPLBGOrBuilder(
@@ -188,7 +188,7 @@ public final class EMOEJGGBAIGOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < mAOIOICPLBG_.size(); i++) {
-        output.writeMessage(15, mAOIOICPLBG_.get(i));
+        output.writeMessage(14, mAOIOICPLBG_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -201,7 +201,7 @@ public final class EMOEJGGBAIGOuterClass {
       size = 0;
       for (int i = 0; i < mAOIOICPLBG_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, mAOIOICPLBG_.get(i));
+          .computeMessageSize(14, mAOIOICPLBG_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -528,7 +528,7 @@ public final class EMOEJGGBAIGOuterClass {
           emu.grasscutter.net.proto.JLCGGDBJIJMOuterClass.JLCGGDBJIJM, emu.grasscutter.net.proto.JLCGGDBJIJMOuterClass.JLCGGDBJIJM.Builder, emu.grasscutter.net.proto.JLCGGDBJIJMOuterClass.JLCGGDBJIJMOrBuilder> mAOIOICPLBGBuilder_;
 
       /**
-       * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 15;</code>
+       * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 14;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.JLCGGDBJIJMOuterClass.JLCGGDBJIJM> getMAOIOICPLBGList() {
         if (mAOIOICPLBGBuilder_ == null) {
@@ -538,7 +538,7 @@ public final class EMOEJGGBAIGOuterClass {
         }
       }
       /**
-       * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 15;</code>
+       * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 14;</code>
        */
       public int getMAOIOICPLBGCount() {
         if (mAOIOICPLBGBuilder_ == null) {
@@ -548,7 +548,7 @@ public final class EMOEJGGBAIGOuterClass {
         }
       }
       /**
-       * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 15;</code>
+       * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 14;</code>
        */
       public emu.grasscutter.net.proto.JLCGGDBJIJMOuterClass.JLCGGDBJIJM getMAOIOICPLBG(int index) {
         if (mAOIOICPLBGBuilder_ == null) {
@@ -558,7 +558,7 @@ public final class EMOEJGGBAIGOuterClass {
         }
       }
       /**
-       * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 15;</code>
+       * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 14;</code>
        */
       public Builder setMAOIOICPLBG(
           int index, emu.grasscutter.net.proto.JLCGGDBJIJMOuterClass.JLCGGDBJIJM value) {
@@ -575,7 +575,7 @@ public final class EMOEJGGBAIGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 15;</code>
+       * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 14;</code>
        */
       public Builder setMAOIOICPLBG(
           int index, emu.grasscutter.net.proto.JLCGGDBJIJMOuterClass.JLCGGDBJIJM.Builder builderForValue) {
@@ -589,7 +589,7 @@ public final class EMOEJGGBAIGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 15;</code>
+       * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 14;</code>
        */
       public Builder addMAOIOICPLBG(emu.grasscutter.net.proto.JLCGGDBJIJMOuterClass.JLCGGDBJIJM value) {
         if (mAOIOICPLBGBuilder_ == null) {
@@ -605,7 +605,7 @@ public final class EMOEJGGBAIGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 15;</code>
+       * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 14;</code>
        */
       public Builder addMAOIOICPLBG(
           int index, emu.grasscutter.net.proto.JLCGGDBJIJMOuterClass.JLCGGDBJIJM value) {
@@ -622,7 +622,7 @@ public final class EMOEJGGBAIGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 15;</code>
+       * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 14;</code>
        */
       public Builder addMAOIOICPLBG(
           emu.grasscutter.net.proto.JLCGGDBJIJMOuterClass.JLCGGDBJIJM.Builder builderForValue) {
@@ -636,7 +636,7 @@ public final class EMOEJGGBAIGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 15;</code>
+       * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 14;</code>
        */
       public Builder addMAOIOICPLBG(
           int index, emu.grasscutter.net.proto.JLCGGDBJIJMOuterClass.JLCGGDBJIJM.Builder builderForValue) {
@@ -650,7 +650,7 @@ public final class EMOEJGGBAIGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 15;</code>
+       * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 14;</code>
        */
       public Builder addAllMAOIOICPLBG(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.JLCGGDBJIJMOuterClass.JLCGGDBJIJM> values) {
@@ -665,7 +665,7 @@ public final class EMOEJGGBAIGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 15;</code>
+       * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 14;</code>
        */
       public Builder clearMAOIOICPLBG() {
         if (mAOIOICPLBGBuilder_ == null) {
@@ -678,7 +678,7 @@ public final class EMOEJGGBAIGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 15;</code>
+       * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 14;</code>
        */
       public Builder removeMAOIOICPLBG(int index) {
         if (mAOIOICPLBGBuilder_ == null) {
@@ -691,14 +691,14 @@ public final class EMOEJGGBAIGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 15;</code>
+       * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 14;</code>
        */
       public emu.grasscutter.net.proto.JLCGGDBJIJMOuterClass.JLCGGDBJIJM.Builder getMAOIOICPLBGBuilder(
           int index) {
         return getMAOIOICPLBGFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 15;</code>
+       * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 14;</code>
        */
       public emu.grasscutter.net.proto.JLCGGDBJIJMOuterClass.JLCGGDBJIJMOrBuilder getMAOIOICPLBGOrBuilder(
           int index) {
@@ -708,7 +708,7 @@ public final class EMOEJGGBAIGOuterClass {
         }
       }
       /**
-       * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 15;</code>
+       * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 14;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.JLCGGDBJIJMOuterClass.JLCGGDBJIJMOrBuilder> 
            getMAOIOICPLBGOrBuilderList() {
@@ -719,14 +719,14 @@ public final class EMOEJGGBAIGOuterClass {
         }
       }
       /**
-       * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 15;</code>
+       * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 14;</code>
        */
       public emu.grasscutter.net.proto.JLCGGDBJIJMOuterClass.JLCGGDBJIJM.Builder addMAOIOICPLBGBuilder() {
         return getMAOIOICPLBGFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.JLCGGDBJIJMOuterClass.JLCGGDBJIJM.getDefaultInstance());
       }
       /**
-       * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 15;</code>
+       * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 14;</code>
        */
       public emu.grasscutter.net.proto.JLCGGDBJIJMOuterClass.JLCGGDBJIJM.Builder addMAOIOICPLBGBuilder(
           int index) {
@@ -734,7 +734,7 @@ public final class EMOEJGGBAIGOuterClass {
             index, emu.grasscutter.net.proto.JLCGGDBJIJMOuterClass.JLCGGDBJIJM.getDefaultInstance());
       }
       /**
-       * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 15;</code>
+       * <code>repeated .JLCGGDBJIJM MAOIOICPLBG = 14;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.JLCGGDBJIJMOuterClass.JLCGGDBJIJM.Builder> 
            getMAOIOICPLBGBuilderList() {
@@ -822,7 +822,7 @@ public final class EMOEJGGBAIGOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021EMOEJGGBAIG.proto\032\021JLCGGDBJIJM.proto\"0" +
-      "\n\013EMOEJGGBAIG\022!\n\013MAOIOICPLBG\030\017 \003(\0132\014.JLC" +
+      "\n\013EMOEJGGBAIG\022!\n\013MAOIOICPLBG\030\016 \003(\0132\014.JLC" +
       "GGDBJIJMB2\n\031emu.grasscutter.net.protoB\025E" +
       "MOEJGGBAIGOuterClassb\006proto3"
     };

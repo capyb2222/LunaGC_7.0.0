@@ -19,7 +19,7 @@ public final class AvatarGainFlycloakNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 flycloak_id = 6;</code>
+     * <code>uint32 flycloak_id = 13;</code>
      * @return The flycloakId.
      */
     int getFlycloakId();
@@ -69,7 +69,7 @@ public final class AvatarGainFlycloakNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
+            case 104: {
 
               flycloakId_ = input.readUInt32();
               break;
@@ -106,10 +106,10 @@ public final class AvatarGainFlycloakNotifyOuterClass {
               emu.grasscutter.net.proto.AvatarGainFlycloakNotifyOuterClass.AvatarGainFlycloakNotify.class, emu.grasscutter.net.proto.AvatarGainFlycloakNotifyOuterClass.AvatarGainFlycloakNotify.Builder.class);
     }
 
-    public static final int FLYCLOAK_ID_FIELD_NUMBER = 6;
+    public static final int FLYCLOAK_ID_FIELD_NUMBER = 13;
     private int flycloakId_;
     /**
-     * <code>uint32 flycloak_id = 6;</code>
+     * <code>uint32 flycloak_id = 13;</code>
      * @return The flycloakId.
      */
     @java.lang.Override
@@ -132,7 +132,7 @@ public final class AvatarGainFlycloakNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (flycloakId_ != 0) {
-        output.writeUInt32(6, flycloakId_);
+        output.writeUInt32(13, flycloakId_);
       }
       unknownFields.writeTo(output);
     }
@@ -145,7 +145,7 @@ public final class AvatarGainFlycloakNotifyOuterClass {
       size = 0;
       if (flycloakId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, flycloakId_);
+          .computeUInt32Size(13, flycloakId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -421,7 +421,7 @@ public final class AvatarGainFlycloakNotifyOuterClass {
 
       private int flycloakId_ ;
       /**
-       * <code>uint32 flycloak_id = 6;</code>
+       * <code>uint32 flycloak_id = 13;</code>
        * @return The flycloakId.
        */
       @java.lang.Override
@@ -429,7 +429,7 @@ public final class AvatarGainFlycloakNotifyOuterClass {
         return flycloakId_;
       }
       /**
-       * <code>uint32 flycloak_id = 6;</code>
+       * <code>uint32 flycloak_id = 13;</code>
        * @param value The flycloakId to set.
        * @return This builder for chaining.
        */
@@ -440,7 +440,7 @@ public final class AvatarGainFlycloakNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 flycloak_id = 6;</code>
+       * <code>uint32 flycloak_id = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearFlycloakId() {
@@ -517,7 +517,7 @@ public final class AvatarGainFlycloakNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\036AvatarGainFlycloakNotify.proto\"/\n\030Avat" +
-      "arGainFlycloakNotify\022\023\n\013flycloak_id\030\006 \001(" +
+      "arGainFlycloakNotify\022\023\n\013flycloak_id\030\r \001(" +
       "\rB?\n\031emu.grasscutter.net.protoB\"AvatarGa" +
       "inFlycloakNotifyOuterClassb\006proto3"
     };

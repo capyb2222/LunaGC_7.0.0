@@ -19,24 +19,24 @@ public final class _RankedMatchPuzzleSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.GalleryStopReason reason = 2;</code>
+     * <code>.GalleryStopReason reason = 12;</code>
      * @return The enum numeric value on the wire for reason.
      */
     int getReasonValue();
     /**
-     * <code>.GalleryStopReason reason = 2;</code>
+     * <code>.GalleryStopReason reason = 12;</code>
      * @return The reason.
      */
     emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason getReason();
 
     /**
-     * <code>uint32 item_num = 11;</code>
+     * <code>uint32 item_num = 9;</code>
      * @return The itemNum.
      */
     int getItemNum();
 
     /**
-     * <code>uint32 level_id = 15;</code>
+     * <code>uint32 level_id = 14;</code>
      * @return The levelId.
      */
     int getLevelId();
@@ -87,18 +87,18 @@ public final class _RankedMatchPuzzleSettleInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 72: {
+
+              itemNum_ = input.readUInt32();
+              break;
+            }
+            case 96: {
               int rawValue = input.readEnum();
 
               reason_ = rawValue;
               break;
             }
-            case 88: {
-
-              itemNum_ = input.readUInt32();
-              break;
-            }
-            case 120: {
+            case 112: {
 
               levelId_ = input.readUInt32();
               break;
@@ -135,17 +135,17 @@ public final class _RankedMatchPuzzleSettleInfoOuterClass {
               emu.grasscutter.net.proto._RankedMatchPuzzleSettleInfoOuterClass._RankedMatchPuzzleSettleInfo.class, emu.grasscutter.net.proto._RankedMatchPuzzleSettleInfoOuterClass._RankedMatchPuzzleSettleInfo.Builder.class);
     }
 
-    public static final int REASON_FIELD_NUMBER = 2;
+    public static final int REASON_FIELD_NUMBER = 12;
     private int reason_;
     /**
-     * <code>.GalleryStopReason reason = 2;</code>
+     * <code>.GalleryStopReason reason = 12;</code>
      * @return The enum numeric value on the wire for reason.
      */
     @java.lang.Override public int getReasonValue() {
       return reason_;
     }
     /**
-     * <code>.GalleryStopReason reason = 2;</code>
+     * <code>.GalleryStopReason reason = 12;</code>
      * @return The reason.
      */
     @java.lang.Override public emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason getReason() {
@@ -154,10 +154,10 @@ public final class _RankedMatchPuzzleSettleInfoOuterClass {
       return result == null ? emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason.UNRECOGNIZED : result;
     }
 
-    public static final int ITEM_NUM_FIELD_NUMBER = 11;
+    public static final int ITEM_NUM_FIELD_NUMBER = 9;
     private int itemNum_;
     /**
-     * <code>uint32 item_num = 11;</code>
+     * <code>uint32 item_num = 9;</code>
      * @return The itemNum.
      */
     @java.lang.Override
@@ -165,10 +165,10 @@ public final class _RankedMatchPuzzleSettleInfoOuterClass {
       return itemNum_;
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 15;
+    public static final int LEVEL_ID_FIELD_NUMBER = 14;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 15;</code>
+     * <code>uint32 level_id = 14;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -190,14 +190,14 @@ public final class _RankedMatchPuzzleSettleInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (reason_ != emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason.GalleryStopReason_GALLERY_STOP_NONE.getNumber()) {
-        output.writeEnum(2, reason_);
-      }
       if (itemNum_ != 0) {
-        output.writeUInt32(11, itemNum_);
+        output.writeUInt32(9, itemNum_);
+      }
+      if (reason_ != emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason.GalleryStopReason_GALLERY_STOP_NONE.getNumber()) {
+        output.writeEnum(12, reason_);
       }
       if (levelId_ != 0) {
-        output.writeUInt32(15, levelId_);
+        output.writeUInt32(14, levelId_);
       }
       unknownFields.writeTo(output);
     }
@@ -208,17 +208,17 @@ public final class _RankedMatchPuzzleSettleInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (reason_ != emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason.GalleryStopReason_GALLERY_STOP_NONE.getNumber()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(2, reason_);
-      }
       if (itemNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, itemNum_);
+          .computeUInt32Size(9, itemNum_);
+      }
+      if (reason_ != emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason.GalleryStopReason_GALLERY_STOP_NONE.getNumber()) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeEnumSize(12, reason_);
       }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, levelId_);
+          .computeUInt32Size(14, levelId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -513,14 +513,14 @@ public final class _RankedMatchPuzzleSettleInfoOuterClass {
 
       private int reason_ = 0;
       /**
-       * <code>.GalleryStopReason reason = 2;</code>
+       * <code>.GalleryStopReason reason = 12;</code>
        * @return The enum numeric value on the wire for reason.
        */
       @java.lang.Override public int getReasonValue() {
         return reason_;
       }
       /**
-       * <code>.GalleryStopReason reason = 2;</code>
+       * <code>.GalleryStopReason reason = 12;</code>
        * @param value The enum numeric value on the wire for reason to set.
        * @return This builder for chaining.
        */
@@ -531,7 +531,7 @@ public final class _RankedMatchPuzzleSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>.GalleryStopReason reason = 2;</code>
+       * <code>.GalleryStopReason reason = 12;</code>
        * @return The reason.
        */
       @java.lang.Override
@@ -541,7 +541,7 @@ public final class _RankedMatchPuzzleSettleInfoOuterClass {
         return result == null ? emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason.UNRECOGNIZED : result;
       }
       /**
-       * <code>.GalleryStopReason reason = 2;</code>
+       * <code>.GalleryStopReason reason = 12;</code>
        * @param value The reason to set.
        * @return This builder for chaining.
        */
@@ -555,7 +555,7 @@ public final class _RankedMatchPuzzleSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>.GalleryStopReason reason = 2;</code>
+       * <code>.GalleryStopReason reason = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearReason() {
@@ -567,7 +567,7 @@ public final class _RankedMatchPuzzleSettleInfoOuterClass {
 
       private int itemNum_ ;
       /**
-       * <code>uint32 item_num = 11;</code>
+       * <code>uint32 item_num = 9;</code>
        * @return The itemNum.
        */
       @java.lang.Override
@@ -575,7 +575,7 @@ public final class _RankedMatchPuzzleSettleInfoOuterClass {
         return itemNum_;
       }
       /**
-       * <code>uint32 item_num = 11;</code>
+       * <code>uint32 item_num = 9;</code>
        * @param value The itemNum to set.
        * @return This builder for chaining.
        */
@@ -586,7 +586,7 @@ public final class _RankedMatchPuzzleSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 item_num = 11;</code>
+       * <code>uint32 item_num = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearItemNum() {
@@ -598,7 +598,7 @@ public final class _RankedMatchPuzzleSettleInfoOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 15;</code>
+       * <code>uint32 level_id = 14;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -606,7 +606,7 @@ public final class _RankedMatchPuzzleSettleInfoOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 15;</code>
+       * <code>uint32 level_id = 14;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -617,7 +617,7 @@ public final class _RankedMatchPuzzleSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 15;</code>
+       * <code>uint32 level_id = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -695,9 +695,9 @@ public final class _RankedMatchPuzzleSettleInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\"_RankedMatchPuzzleSettleInfo.proto\032\027Ga" +
       "lleryStopReason.proto\"f\n\034_RankedMatchPuz" +
-      "zleSettleInfo\022\"\n\006reason\030\002 \001(\0162\022.GalleryS" +
-      "topReason\022\020\n\010item_num\030\013 \001(\r\022\020\n\010level_id\030" +
-      "\017 \001(\rBC\n\031emu.grasscutter.net.protoB&_Ran" +
+      "zleSettleInfo\022\"\n\006reason\030\014 \001(\0162\022.GalleryS" +
+      "topReason\022\020\n\010item_num\030\t \001(\r\022\020\n\010level_id\030" +
+      "\016 \001(\rBC\n\031emu.grasscutter.net.protoB&_Ran" +
       "kedMatchPuzzleSettleInfoOuterClassb\006prot" +
       "o3"
     };

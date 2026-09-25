@@ -7,7 +7,7 @@ import "BattlePassUnlockStatus.proto";
 
 message BattlePassRewardTag {
 	BattlePassUnlockStatus unlock_status = 4;
-	uint32 reward_id = 7;
+	uint32 reward_id = 8;
 	uint32 gamkmjljind = 14;
-	uint32 level = 15;
+	uint32 level = 13;
 }

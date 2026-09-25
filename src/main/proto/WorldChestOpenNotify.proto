@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "WorldChestOpenNotifyOuterClass";
 
 message WorldChestOpenNotify {
-	uint32 scene_id = 4;
-	uint32 group_id = 11;
-	uint32 config_id = 12;
+	uint32 scene_id = 2;
+	uint32 group_id = 12;
+	uint32 config_id = 11;
 }

@@ -19,25 +19,25 @@ public final class _PenumbraAdventureTargetShootingInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 3;</code>
+     * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 11;</code>
      */
     java.util.List<emu.grasscutter.net.proto._PenumbraAdventureTargetShootingLevelInfoOuterClass._PenumbraAdventureTargetShootingLevelInfo> 
         getTargetShootingLevelInfoListList();
     /**
-     * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 3;</code>
+     * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 11;</code>
      */
     emu.grasscutter.net.proto._PenumbraAdventureTargetShootingLevelInfoOuterClass._PenumbraAdventureTargetShootingLevelInfo getTargetShootingLevelInfoList(int index);
     /**
-     * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 3;</code>
+     * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 11;</code>
      */
     int getTargetShootingLevelInfoListCount();
     /**
-     * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 3;</code>
+     * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 11;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto._PenumbraAdventureTargetShootingLevelInfoOuterClass._PenumbraAdventureTargetShootingLevelInfoOrBuilder> 
         getTargetShootingLevelInfoListOrBuilderList();
     /**
-     * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 3;</code>
+     * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 11;</code>
      */
     emu.grasscutter.net.proto._PenumbraAdventureTargetShootingLevelInfoOuterClass._PenumbraAdventureTargetShootingLevelInfoOrBuilder getTargetShootingLevelInfoListOrBuilder(
         int index);
@@ -89,7 +89,7 @@ public final class _PenumbraAdventureTargetShootingInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 26: {
+            case 90: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 TargetShootingLevelInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto._PenumbraAdventureTargetShootingLevelInfoOuterClass._PenumbraAdventureTargetShootingLevelInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -133,17 +133,17 @@ public final class _PenumbraAdventureTargetShootingInfoOuterClass {
               emu.grasscutter.net.proto._PenumbraAdventureTargetShootingInfoOuterClass._PenumbraAdventureTargetShootingInfo.class, emu.grasscutter.net.proto._PenumbraAdventureTargetShootingInfoOuterClass._PenumbraAdventureTargetShootingInfo.Builder.class);
     }
 
-    public static final int _TARGET_SHOOTING_LEVEL_INFO_LIST_FIELD_NUMBER = 3;
+    public static final int _TARGET_SHOOTING_LEVEL_INFO_LIST_FIELD_NUMBER = 11;
     private java.util.List<emu.grasscutter.net.proto._PenumbraAdventureTargetShootingLevelInfoOuterClass._PenumbraAdventureTargetShootingLevelInfo> TargetShootingLevelInfoList_;
     /**
-     * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 3;</code>
+     * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 11;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto._PenumbraAdventureTargetShootingLevelInfoOuterClass._PenumbraAdventureTargetShootingLevelInfo> getTargetShootingLevelInfoListList() {
       return TargetShootingLevelInfoList_;
     }
     /**
-     * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 3;</code>
+     * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 11;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto._PenumbraAdventureTargetShootingLevelInfoOuterClass._PenumbraAdventureTargetShootingLevelInfoOrBuilder> 
@@ -151,21 +151,21 @@ public final class _PenumbraAdventureTargetShootingInfoOuterClass {
       return TargetShootingLevelInfoList_;
     }
     /**
-     * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 3;</code>
+     * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 11;</code>
      */
     @java.lang.Override
     public int getTargetShootingLevelInfoListCount() {
       return TargetShootingLevelInfoList_.size();
     }
     /**
-     * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 3;</code>
+     * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 11;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._PenumbraAdventureTargetShootingLevelInfoOuterClass._PenumbraAdventureTargetShootingLevelInfo getTargetShootingLevelInfoList(int index) {
       return TargetShootingLevelInfoList_.get(index);
     }
     /**
-     * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 3;</code>
+     * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 11;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._PenumbraAdventureTargetShootingLevelInfoOuterClass._PenumbraAdventureTargetShootingLevelInfoOrBuilder getTargetShootingLevelInfoListOrBuilder(
@@ -188,7 +188,7 @@ public final class _PenumbraAdventureTargetShootingInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < TargetShootingLevelInfoList_.size(); i++) {
-        output.writeMessage(3, TargetShootingLevelInfoList_.get(i));
+        output.writeMessage(11, TargetShootingLevelInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -201,7 +201,7 @@ public final class _PenumbraAdventureTargetShootingInfoOuterClass {
       size = 0;
       for (int i = 0; i < TargetShootingLevelInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, TargetShootingLevelInfoList_.get(i));
+          .computeMessageSize(11, TargetShootingLevelInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -528,7 +528,7 @@ public final class _PenumbraAdventureTargetShootingInfoOuterClass {
           emu.grasscutter.net.proto._PenumbraAdventureTargetShootingLevelInfoOuterClass._PenumbraAdventureTargetShootingLevelInfo, emu.grasscutter.net.proto._PenumbraAdventureTargetShootingLevelInfoOuterClass._PenumbraAdventureTargetShootingLevelInfo.Builder, emu.grasscutter.net.proto._PenumbraAdventureTargetShootingLevelInfoOuterClass._PenumbraAdventureTargetShootingLevelInfoOrBuilder> TargetShootingLevelInfoListBuilder_;
 
       /**
-       * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 3;</code>
+       * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 11;</code>
        */
       public java.util.List<emu.grasscutter.net.proto._PenumbraAdventureTargetShootingLevelInfoOuterClass._PenumbraAdventureTargetShootingLevelInfo> getTargetShootingLevelInfoListList() {
         if (TargetShootingLevelInfoListBuilder_ == null) {
@@ -538,7 +538,7 @@ public final class _PenumbraAdventureTargetShootingInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 3;</code>
+       * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 11;</code>
        */
       public int getTargetShootingLevelInfoListCount() {
         if (TargetShootingLevelInfoListBuilder_ == null) {
@@ -548,7 +548,7 @@ public final class _PenumbraAdventureTargetShootingInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 3;</code>
+       * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 11;</code>
        */
       public emu.grasscutter.net.proto._PenumbraAdventureTargetShootingLevelInfoOuterClass._PenumbraAdventureTargetShootingLevelInfo getTargetShootingLevelInfoList(int index) {
         if (TargetShootingLevelInfoListBuilder_ == null) {
@@ -558,7 +558,7 @@ public final class _PenumbraAdventureTargetShootingInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 3;</code>
+       * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 11;</code>
        */
       public Builder setTargetShootingLevelInfoList(
           int index, emu.grasscutter.net.proto._PenumbraAdventureTargetShootingLevelInfoOuterClass._PenumbraAdventureTargetShootingLevelInfo value) {
@@ -575,7 +575,7 @@ public final class _PenumbraAdventureTargetShootingInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 3;</code>
+       * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 11;</code>
        */
       public Builder setTargetShootingLevelInfoList(
           int index, emu.grasscutter.net.proto._PenumbraAdventureTargetShootingLevelInfoOuterClass._PenumbraAdventureTargetShootingLevelInfo.Builder builderForValue) {
@@ -589,7 +589,7 @@ public final class _PenumbraAdventureTargetShootingInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 3;</code>
+       * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 11;</code>
        */
       public Builder addTargetShootingLevelInfoList(emu.grasscutter.net.proto._PenumbraAdventureTargetShootingLevelInfoOuterClass._PenumbraAdventureTargetShootingLevelInfo value) {
         if (TargetShootingLevelInfoListBuilder_ == null) {
@@ -605,7 +605,7 @@ public final class _PenumbraAdventureTargetShootingInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 3;</code>
+       * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 11;</code>
        */
       public Builder addTargetShootingLevelInfoList(
           int index, emu.grasscutter.net.proto._PenumbraAdventureTargetShootingLevelInfoOuterClass._PenumbraAdventureTargetShootingLevelInfo value) {
@@ -622,7 +622,7 @@ public final class _PenumbraAdventureTargetShootingInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 3;</code>
+       * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 11;</code>
        */
       public Builder addTargetShootingLevelInfoList(
           emu.grasscutter.net.proto._PenumbraAdventureTargetShootingLevelInfoOuterClass._PenumbraAdventureTargetShootingLevelInfo.Builder builderForValue) {
@@ -636,7 +636,7 @@ public final class _PenumbraAdventureTargetShootingInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 3;</code>
+       * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 11;</code>
        */
       public Builder addTargetShootingLevelInfoList(
           int index, emu.grasscutter.net.proto._PenumbraAdventureTargetShootingLevelInfoOuterClass._PenumbraAdventureTargetShootingLevelInfo.Builder builderForValue) {
@@ -650,7 +650,7 @@ public final class _PenumbraAdventureTargetShootingInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 3;</code>
+       * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 11;</code>
        */
       public Builder addAllTargetShootingLevelInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto._PenumbraAdventureTargetShootingLevelInfoOuterClass._PenumbraAdventureTargetShootingLevelInfo> values) {
@@ -665,7 +665,7 @@ public final class _PenumbraAdventureTargetShootingInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 3;</code>
+       * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 11;</code>
        */
       public Builder clearTargetShootingLevelInfoList() {
         if (TargetShootingLevelInfoListBuilder_ == null) {
@@ -678,7 +678,7 @@ public final class _PenumbraAdventureTargetShootingInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 3;</code>
+       * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 11;</code>
        */
       public Builder removeTargetShootingLevelInfoList(int index) {
         if (TargetShootingLevelInfoListBuilder_ == null) {
@@ -691,14 +691,14 @@ public final class _PenumbraAdventureTargetShootingInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 3;</code>
+       * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 11;</code>
        */
       public emu.grasscutter.net.proto._PenumbraAdventureTargetShootingLevelInfoOuterClass._PenumbraAdventureTargetShootingLevelInfo.Builder getTargetShootingLevelInfoListBuilder(
           int index) {
         return getTargetShootingLevelInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 3;</code>
+       * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 11;</code>
        */
       public emu.grasscutter.net.proto._PenumbraAdventureTargetShootingLevelInfoOuterClass._PenumbraAdventureTargetShootingLevelInfoOrBuilder getTargetShootingLevelInfoListOrBuilder(
           int index) {
@@ -708,7 +708,7 @@ public final class _PenumbraAdventureTargetShootingInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 3;</code>
+       * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 11;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto._PenumbraAdventureTargetShootingLevelInfoOuterClass._PenumbraAdventureTargetShootingLevelInfoOrBuilder> 
            getTargetShootingLevelInfoListOrBuilderList() {
@@ -719,14 +719,14 @@ public final class _PenumbraAdventureTargetShootingInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 3;</code>
+       * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 11;</code>
        */
       public emu.grasscutter.net.proto._PenumbraAdventureTargetShootingLevelInfoOuterClass._PenumbraAdventureTargetShootingLevelInfo.Builder addTargetShootingLevelInfoListBuilder() {
         return getTargetShootingLevelInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto._PenumbraAdventureTargetShootingLevelInfoOuterClass._PenumbraAdventureTargetShootingLevelInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 3;</code>
+       * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 11;</code>
        */
       public emu.grasscutter.net.proto._PenumbraAdventureTargetShootingLevelInfoOuterClass._PenumbraAdventureTargetShootingLevelInfo.Builder addTargetShootingLevelInfoListBuilder(
           int index) {
@@ -734,7 +734,7 @@ public final class _PenumbraAdventureTargetShootingInfoOuterClass {
             index, emu.grasscutter.net.proto._PenumbraAdventureTargetShootingLevelInfoOuterClass._PenumbraAdventureTargetShootingLevelInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 3;</code>
+       * <code>repeated ._PenumbraAdventureTargetShootingLevelInfo _target_shooting_level_info_list = 11;</code>
        */
       public java.util.List<emu.grasscutter.net.proto._PenumbraAdventureTargetShootingLevelInfoOuterClass._PenumbraAdventureTargetShootingLevelInfo.Builder> 
            getTargetShootingLevelInfoListBuilderList() {
@@ -825,7 +825,7 @@ public final class _PenumbraAdventureTargetShootingInfoOuterClass {
       "roto\032/_PenumbraAdventureTargetShootingLe" +
       "velInfo.proto\"|\n$_PenumbraAdventureTarge" +
       "tShootingInfo\022T\n _target_shooting_level_" +
-      "info_list\030\003 \003(\0132*._PenumbraAdventureTarg" +
+      "info_list\030\013 \003(\0132*._PenumbraAdventureTarg" +
       "etShootingLevelInfoBK\n\031emu.grasscutter.n" +
       "et.protoB._PenumbraAdventureTargetShooti" +
       "ngInfoOuterClassb\006proto3"

@@ -8,8 +8,8 @@ import "ChannellerSlabBuffInfo.proto";
 import "ChannellerSlabLoopDungeonStageInfo.proto";
 
 message ChannelerSlabActivityDetailInfo {
-	repeated ChannelerSlabChallengeStage stage_list = 2;
+	repeated ChannelerSlabChallengeStage stage_list = 14;
 	uint32 play_end_time = 4;
 	ChannellerSlabLoopDungeonStageInfo loop_dungeon_stage_info = 7;
-	ChannellerSlabBuffInfo buff_info = 14;
+	ChannellerSlabBuffInfo buff_info = 12;
 }

@@ -6,12 +6,12 @@ option java_outer_classname = "_UgcShortVideoRecordOuterClass";
 import "Vector.proto";
 
 message _UgcShortVideoRecord {
-	Vector FKEJGKDKMNF = 1;
-	float COKFPGMKCHI = 2;
-	uint32 _camera_config_id = 3;
-	repeated string _replay_config_name_list = 5;
-	bool HIMEMDELPIO = 6;
-	Vector LCLFPBMNJHF = 12;
-	bool FOJNJFAHNBH = 14;
-	float KKHKIILOLLN = 15;
+	Vector FKEJGKDKMNF = 50000;
+	float COKFPGMKCHI = 50001;
+	uint32 _camera_config_id = 6;
+	repeated string _replay_config_name_list = 2;
+	bool HIMEMDELPIO = 50002;
+	Vector LCLFPBMNJHF = 50003;
+	bool FOJNJFAHNBH = 50004;
+	float KKHKIILOLLN = 50005;
 }

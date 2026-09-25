@@ -19,31 +19,31 @@ public final class AvatarUpgradeReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .ItemParam item_param_list = 1;</code>
+     * <code>repeated .ItemParam item_param_list = 12;</code>
      */
     java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> 
         getItemParamListList();
     /**
-     * <code>repeated .ItemParam item_param_list = 1;</code>
+     * <code>repeated .ItemParam item_param_list = 12;</code>
      */
     emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getItemParamList(int index);
     /**
-     * <code>repeated .ItemParam item_param_list = 1;</code>
+     * <code>repeated .ItemParam item_param_list = 12;</code>
      */
     int getItemParamListCount();
     /**
-     * <code>repeated .ItemParam item_param_list = 1;</code>
+     * <code>repeated .ItemParam item_param_list = 12;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
         getItemParamListOrBuilderList();
     /**
-     * <code>repeated .ItemParam item_param_list = 1;</code>
+     * <code>repeated .ItemParam item_param_list = 12;</code>
      */
     emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getItemParamListOrBuilder(
         int index);
 
     /**
-     * <code>uint64 avatar_guid = 2;</code>
+     * <code>uint64 avatar_guid = 11;</code>
      * @return The avatarGuid.
      */
     long getAvatarGuid();
@@ -95,18 +95,18 @@ public final class AvatarUpgradeReqOuterClass {
             case 0:
               done = true;
               break;
-            case 10: {
+            case 88: {
+
+              avatarGuid_ = input.readUInt64();
+              break;
+            }
+            case 98: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 itemParamList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>();
                 mutable_bitField0_ |= 0x00000001;
               }
               itemParamList_.add(
                   input.readMessage(emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.parser(), extensionRegistry));
-              break;
-            }
-            case 16: {
-
-              avatarGuid_ = input.readUInt64();
               break;
             }
             default: {
@@ -144,17 +144,17 @@ public final class AvatarUpgradeReqOuterClass {
               emu.grasscutter.net.proto.AvatarUpgradeReqOuterClass.AvatarUpgradeReq.class, emu.grasscutter.net.proto.AvatarUpgradeReqOuterClass.AvatarUpgradeReq.Builder.class);
     }
 
-    public static final int ITEM_PARAM_LIST_FIELD_NUMBER = 1;
+    public static final int ITEM_PARAM_LIST_FIELD_NUMBER = 12;
     private java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> itemParamList_;
     /**
-     * <code>repeated .ItemParam item_param_list = 1;</code>
+     * <code>repeated .ItemParam item_param_list = 12;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> getItemParamListList() {
       return itemParamList_;
     }
     /**
-     * <code>repeated .ItemParam item_param_list = 1;</code>
+     * <code>repeated .ItemParam item_param_list = 12;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
@@ -162,21 +162,21 @@ public final class AvatarUpgradeReqOuterClass {
       return itemParamList_;
     }
     /**
-     * <code>repeated .ItemParam item_param_list = 1;</code>
+     * <code>repeated .ItemParam item_param_list = 12;</code>
      */
     @java.lang.Override
     public int getItemParamListCount() {
       return itemParamList_.size();
     }
     /**
-     * <code>repeated .ItemParam item_param_list = 1;</code>
+     * <code>repeated .ItemParam item_param_list = 12;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getItemParamList(int index) {
       return itemParamList_.get(index);
     }
     /**
-     * <code>repeated .ItemParam item_param_list = 1;</code>
+     * <code>repeated .ItemParam item_param_list = 12;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getItemParamListOrBuilder(
@@ -184,10 +184,10 @@ public final class AvatarUpgradeReqOuterClass {
       return itemParamList_.get(index);
     }
 
-    public static final int AVATAR_GUID_FIELD_NUMBER = 2;
+    public static final int AVATAR_GUID_FIELD_NUMBER = 11;
     private long avatarGuid_;
     /**
-     * <code>uint64 avatar_guid = 2;</code>
+     * <code>uint64 avatar_guid = 11;</code>
      * @return The avatarGuid.
      */
     @java.lang.Override
@@ -209,11 +209,11 @@ public final class AvatarUpgradeReqOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      for (int i = 0; i < itemParamList_.size(); i++) {
-        output.writeMessage(1, itemParamList_.get(i));
-      }
       if (avatarGuid_ != 0L) {
-        output.writeUInt64(2, avatarGuid_);
+        output.writeUInt64(11, avatarGuid_);
+      }
+      for (int i = 0; i < itemParamList_.size(); i++) {
+        output.writeMessage(12, itemParamList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -224,13 +224,13 @@ public final class AvatarUpgradeReqOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < itemParamList_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, itemParamList_.get(i));
-      }
       if (avatarGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(2, avatarGuid_);
+          .computeUInt64Size(11, avatarGuid_);
+      }
+      for (int i = 0; i < itemParamList_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(12, itemParamList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -568,7 +568,7 @@ public final class AvatarUpgradeReqOuterClass {
           emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> itemParamListBuilder_;
 
       /**
-       * <code>repeated .ItemParam item_param_list = 1;</code>
+       * <code>repeated .ItemParam item_param_list = 12;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> getItemParamListList() {
         if (itemParamListBuilder_ == null) {
@@ -578,7 +578,7 @@ public final class AvatarUpgradeReqOuterClass {
         }
       }
       /**
-       * <code>repeated .ItemParam item_param_list = 1;</code>
+       * <code>repeated .ItemParam item_param_list = 12;</code>
        */
       public int getItemParamListCount() {
         if (itemParamListBuilder_ == null) {
@@ -588,7 +588,7 @@ public final class AvatarUpgradeReqOuterClass {
         }
       }
       /**
-       * <code>repeated .ItemParam item_param_list = 1;</code>
+       * <code>repeated .ItemParam item_param_list = 12;</code>
        */
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getItemParamList(int index) {
         if (itemParamListBuilder_ == null) {
@@ -598,7 +598,7 @@ public final class AvatarUpgradeReqOuterClass {
         }
       }
       /**
-       * <code>repeated .ItemParam item_param_list = 1;</code>
+       * <code>repeated .ItemParam item_param_list = 12;</code>
        */
       public Builder setItemParamList(
           int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam value) {
@@ -615,7 +615,7 @@ public final class AvatarUpgradeReqOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam item_param_list = 1;</code>
+       * <code>repeated .ItemParam item_param_list = 12;</code>
        */
       public Builder setItemParamList(
           int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder builderForValue) {
@@ -629,7 +629,7 @@ public final class AvatarUpgradeReqOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam item_param_list = 1;</code>
+       * <code>repeated .ItemParam item_param_list = 12;</code>
        */
       public Builder addItemParamList(emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam value) {
         if (itemParamListBuilder_ == null) {
@@ -645,7 +645,7 @@ public final class AvatarUpgradeReqOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam item_param_list = 1;</code>
+       * <code>repeated .ItemParam item_param_list = 12;</code>
        */
       public Builder addItemParamList(
           int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam value) {
@@ -662,7 +662,7 @@ public final class AvatarUpgradeReqOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam item_param_list = 1;</code>
+       * <code>repeated .ItemParam item_param_list = 12;</code>
        */
       public Builder addItemParamList(
           emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder builderForValue) {
@@ -676,7 +676,7 @@ public final class AvatarUpgradeReqOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam item_param_list = 1;</code>
+       * <code>repeated .ItemParam item_param_list = 12;</code>
        */
       public Builder addItemParamList(
           int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder builderForValue) {
@@ -690,7 +690,7 @@ public final class AvatarUpgradeReqOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam item_param_list = 1;</code>
+       * <code>repeated .ItemParam item_param_list = 12;</code>
        */
       public Builder addAllItemParamList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> values) {
@@ -705,7 +705,7 @@ public final class AvatarUpgradeReqOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam item_param_list = 1;</code>
+       * <code>repeated .ItemParam item_param_list = 12;</code>
        */
       public Builder clearItemParamList() {
         if (itemParamListBuilder_ == null) {
@@ -718,7 +718,7 @@ public final class AvatarUpgradeReqOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam item_param_list = 1;</code>
+       * <code>repeated .ItemParam item_param_list = 12;</code>
        */
       public Builder removeItemParamList(int index) {
         if (itemParamListBuilder_ == null) {
@@ -731,14 +731,14 @@ public final class AvatarUpgradeReqOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam item_param_list = 1;</code>
+       * <code>repeated .ItemParam item_param_list = 12;</code>
        */
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder getItemParamListBuilder(
           int index) {
         return getItemParamListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .ItemParam item_param_list = 1;</code>
+       * <code>repeated .ItemParam item_param_list = 12;</code>
        */
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getItemParamListOrBuilder(
           int index) {
@@ -748,7 +748,7 @@ public final class AvatarUpgradeReqOuterClass {
         }
       }
       /**
-       * <code>repeated .ItemParam item_param_list = 1;</code>
+       * <code>repeated .ItemParam item_param_list = 12;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
            getItemParamListOrBuilderList() {
@@ -759,14 +759,14 @@ public final class AvatarUpgradeReqOuterClass {
         }
       }
       /**
-       * <code>repeated .ItemParam item_param_list = 1;</code>
+       * <code>repeated .ItemParam item_param_list = 12;</code>
        */
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder addItemParamListBuilder() {
         return getItemParamListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.getDefaultInstance());
       }
       /**
-       * <code>repeated .ItemParam item_param_list = 1;</code>
+       * <code>repeated .ItemParam item_param_list = 12;</code>
        */
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder addItemParamListBuilder(
           int index) {
@@ -774,7 +774,7 @@ public final class AvatarUpgradeReqOuterClass {
             index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.getDefaultInstance());
       }
       /**
-       * <code>repeated .ItemParam item_param_list = 1;</code>
+       * <code>repeated .ItemParam item_param_list = 12;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder> 
            getItemParamListBuilderList() {
@@ -797,7 +797,7 @@ public final class AvatarUpgradeReqOuterClass {
 
       private long avatarGuid_ ;
       /**
-       * <code>uint64 avatar_guid = 2;</code>
+       * <code>uint64 avatar_guid = 11;</code>
        * @return The avatarGuid.
        */
       @java.lang.Override
@@ -805,7 +805,7 @@ public final class AvatarUpgradeReqOuterClass {
         return avatarGuid_;
       }
       /**
-       * <code>uint64 avatar_guid = 2;</code>
+       * <code>uint64 avatar_guid = 11;</code>
        * @param value The avatarGuid to set.
        * @return This builder for chaining.
        */
@@ -816,7 +816,7 @@ public final class AvatarUpgradeReqOuterClass {
         return this;
       }
       /**
-       * <code>uint64 avatar_guid = 2;</code>
+       * <code>uint64 avatar_guid = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearAvatarGuid() {
@@ -894,7 +894,7 @@ public final class AvatarUpgradeReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\026AvatarUpgradeReq.proto\032\017ItemParam.prot" +
       "o\"L\n\020AvatarUpgradeReq\022#\n\017item_param_list" +
-      "\030\001 \003(\0132\n.ItemParam\022\023\n\013avatar_guid\030\002 \001(\004B" +
+      "\030\014 \003(\0132\n.ItemParam\022\023\n\013avatar_guid\030\013 \001(\004B" +
       "7\n\031emu.grasscutter.net.protoB\032AvatarUpgr" +
       "adeReqOuterClassb\006proto3"
     };

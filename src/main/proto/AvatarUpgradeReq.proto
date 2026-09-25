@@ -6,6 +6,6 @@ option java_outer_classname = "AvatarUpgradeReqOuterClass";
 import "ItemParam.proto";
 
 message AvatarUpgradeReq {
-	repeated ItemParam item_param_list = 1;
-	uint64 avatar_guid = 2;
+	repeated ItemParam item_param_list = 12;
+	uint64 avatar_guid = 11;
 }

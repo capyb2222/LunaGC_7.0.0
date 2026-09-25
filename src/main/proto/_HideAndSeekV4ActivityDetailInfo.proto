@@ -6,9 +6,9 @@ option java_outer_classname = "_HideAndSeekV4ActivityDetailInfoOuterClass";
 import "BCMGBIKCCFB.proto";
 
 message _HideAndSeekV4ActivityDetailInfo {
-	repeated uint32 KNDGADIAKME = 1;
-	repeated BCMGBIKCCFB LINFLLHOJEE = 3;
-	repeated uint32 BBKJJPHJADK = 5;
-	bool LBCGNOOJDIC = 7;
-	repeated BCMGBIKCCFB EDECCPJFDAF = 9;
+	repeated uint32 KNDGADIAKME = 50000;
+	repeated BCMGBIKCCFB LINFLLHOJEE = 50001;
+	repeated uint32 BBKJJPHJADK = 50002;
+	bool LBCGNOOJDIC = 10;
+	repeated BCMGBIKCCFB EDECCPJFDAF = 50003;
 }

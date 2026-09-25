@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "AvatarDieAnimationEndRspOuterClass";
 
 message AvatarDieAnimationEndRsp {
-	uint64 die_guid = 8;
-	uint32 skill_id = 9;
-	int32 retcode = 15;
+	uint64 die_guid = 14;
+	uint32 skill_id = 11;
+	int32 retcode = 5;
 }

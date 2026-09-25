@@ -6,10 +6,10 @@ option java_outer_classname = "PhotoPosDataOuterClass";
 import "Vector.proto";
 
 message PhotoPosData {
-	bool is_view = 3;
-	bool is_open = 4;
-	uint32 pos_id = 7;
-	uint32 open_time = 8;
-	Vector center = 11;
-	repeated uint32 MNLKHICGNNH = 15;
+	bool is_view = 9;
+	bool is_open = 2;
+	uint32 pos_id = 10;
+	uint32 open_time = 11;
+	Vector center = 7;
+	repeated uint32 MNLKHICGNNH = 4;
 }

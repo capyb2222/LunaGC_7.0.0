@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "SceneTimeNotifyOuterClass";
 
 message SceneTimeNotify {
-	uint32 scene_id = 6;
-	bool is_paused = 7;
-	uint64 scene_time = 14;
+	uint32 scene_id = 10;
+	bool is_paused = 1;
+	uint64 scene_time = 6;
 }

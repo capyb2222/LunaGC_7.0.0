@@ -6,6 +6,6 @@ option java_outer_classname = "SyncTeamEntityNotifyOuterClass";
 import "TeamEntityInfo.proto";
 
 message SyncTeamEntityNotify {
-	uint32 scene_id = 4;
-	repeated TeamEntityInfo team_entity_info_list = 15;
+	uint32 scene_id = 9;
+	repeated TeamEntityInfo team_entity_info_list = 6;
 }

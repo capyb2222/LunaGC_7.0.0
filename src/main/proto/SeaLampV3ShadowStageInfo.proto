@@ -6,7 +6,7 @@ option java_outer_classname = "SeaLampV3ShadowStageInfoOuterClass";
 import "SeaLampV3ShadowLevelInfo.proto";
 
 message SeaLampV3ShadowStageInfo {
-	bool is_open = 7;
-	uint32 stage_id = 12;
-	repeated SeaLampV3ShadowLevelInfo level_info_list = 15;
+	bool is_open = 10;
+	uint32 stage_id = 1;
+	repeated SeaLampV3ShadowLevelInfo level_info_list = 8;
 }

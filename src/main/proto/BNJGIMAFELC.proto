@@ -7,8 +7,8 @@ import "Vector.proto";
 
 message BNJGIMAFELC {
 	uint32 gadget_id = 1;
-	uint32 type = 3;
+	uint32 type = 7;
 	uint32 group_id = 8;
-	Vector pos = 12;
-	uint32 config_id = 14;
+	Vector pos = 11;
+	uint32 config_id = 4;
 }

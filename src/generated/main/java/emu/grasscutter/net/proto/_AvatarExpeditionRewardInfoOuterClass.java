@@ -19,64 +19,64 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .ItemParam extra_item_list = 2;</code>
+     * <code>repeated .ItemParam extra_item_list = 10;</code>
      */
     java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> 
         getExtraItemListList();
     /**
-     * <code>repeated .ItemParam extra_item_list = 2;</code>
+     * <code>repeated .ItemParam extra_item_list = 10;</code>
      */
     emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getExtraItemList(int index);
     /**
-     * <code>repeated .ItemParam extra_item_list = 2;</code>
+     * <code>repeated .ItemParam extra_item_list = 10;</code>
      */
     int getExtraItemListCount();
     /**
-     * <code>repeated .ItemParam extra_item_list = 2;</code>
+     * <code>repeated .ItemParam extra_item_list = 10;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
         getExtraItemListOrBuilderList();
     /**
-     * <code>repeated .ItemParam extra_item_list = 2;</code>
+     * <code>repeated .ItemParam extra_item_list = 10;</code>
      */
     emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getExtraItemListOrBuilder(
         int index);
 
     /**
-     * <code>._AvatarExpeditionBasicInfo basic_info = 7;</code>
+     * <code>._AvatarExpeditionBasicInfo basic_info = 5;</code>
      * @return Whether the basicInfo field is set.
      */
     boolean hasBasicInfo();
     /**
-     * <code>._AvatarExpeditionBasicInfo basic_info = 7;</code>
+     * <code>._AvatarExpeditionBasicInfo basic_info = 5;</code>
      * @return The basicInfo.
      */
     emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo getBasicInfo();
     /**
-     * <code>._AvatarExpeditionBasicInfo basic_info = 7;</code>
+     * <code>._AvatarExpeditionBasicInfo basic_info = 5;</code>
      */
     emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfoOrBuilder getBasicInfoOrBuilder();
 
     /**
-     * <code>repeated .ItemParam item_list = 13;</code>
+     * <code>repeated .ItemParam item_list = 4;</code>
      */
     java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> 
         getItemListList();
     /**
-     * <code>repeated .ItemParam item_list = 13;</code>
+     * <code>repeated .ItemParam item_list = 4;</code>
      */
     emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getItemList(int index);
     /**
-     * <code>repeated .ItemParam item_list = 13;</code>
+     * <code>repeated .ItemParam item_list = 4;</code>
      */
     int getItemListCount();
     /**
-     * <code>repeated .ItemParam item_list = 13;</code>
+     * <code>repeated .ItemParam item_list = 4;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
         getItemListOrBuilderList();
     /**
-     * <code>repeated .ItemParam item_list = 13;</code>
+     * <code>repeated .ItemParam item_list = 4;</code>
      */
     emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getItemListOrBuilder(
         int index);
@@ -129,16 +129,16 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 18: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                extraItemList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>();
-                mutable_bitField0_ |= 0x00000001;
+            case 34: {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                itemList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>();
+                mutable_bitField0_ |= 0x00000002;
               }
-              extraItemList_.add(
+              itemList_.add(
                   input.readMessage(emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.parser(), extensionRegistry));
               break;
             }
-            case 58: {
+            case 42: {
               emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.Builder subBuilder = null;
               if (basicInfo_ != null) {
                 subBuilder = basicInfo_.toBuilder();
@@ -151,12 +151,12 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
 
               break;
             }
-            case 106: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                itemList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>();
-                mutable_bitField0_ |= 0x00000002;
+            case 82: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                extraItemList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>();
+                mutable_bitField0_ |= 0x00000001;
               }
-              itemList_.add(
+              extraItemList_.add(
                   input.readMessage(emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.parser(), extensionRegistry));
               break;
             }
@@ -175,11 +175,11 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          extraItemList_ = java.util.Collections.unmodifiableList(extraItemList_);
-        }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
           itemList_ = java.util.Collections.unmodifiableList(itemList_);
+        }
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          extraItemList_ = java.util.Collections.unmodifiableList(extraItemList_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -198,17 +198,17 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
               emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfo.class, emu.grasscutter.net.proto._AvatarExpeditionRewardInfoOuterClass._AvatarExpeditionRewardInfo.Builder.class);
     }
 
-    public static final int EXTRA_ITEM_LIST_FIELD_NUMBER = 2;
+    public static final int EXTRA_ITEM_LIST_FIELD_NUMBER = 10;
     private java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> extraItemList_;
     /**
-     * <code>repeated .ItemParam extra_item_list = 2;</code>
+     * <code>repeated .ItemParam extra_item_list = 10;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> getExtraItemListList() {
       return extraItemList_;
     }
     /**
-     * <code>repeated .ItemParam extra_item_list = 2;</code>
+     * <code>repeated .ItemParam extra_item_list = 10;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
@@ -216,21 +216,21 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
       return extraItemList_;
     }
     /**
-     * <code>repeated .ItemParam extra_item_list = 2;</code>
+     * <code>repeated .ItemParam extra_item_list = 10;</code>
      */
     @java.lang.Override
     public int getExtraItemListCount() {
       return extraItemList_.size();
     }
     /**
-     * <code>repeated .ItemParam extra_item_list = 2;</code>
+     * <code>repeated .ItemParam extra_item_list = 10;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getExtraItemList(int index) {
       return extraItemList_.get(index);
     }
     /**
-     * <code>repeated .ItemParam extra_item_list = 2;</code>
+     * <code>repeated .ItemParam extra_item_list = 10;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getExtraItemListOrBuilder(
@@ -238,10 +238,10 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
       return extraItemList_.get(index);
     }
 
-    public static final int BASIC_INFO_FIELD_NUMBER = 7;
+    public static final int BASIC_INFO_FIELD_NUMBER = 5;
     private emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo basicInfo_;
     /**
-     * <code>._AvatarExpeditionBasicInfo basic_info = 7;</code>
+     * <code>._AvatarExpeditionBasicInfo basic_info = 5;</code>
      * @return Whether the basicInfo field is set.
      */
     @java.lang.Override
@@ -249,7 +249,7 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
       return basicInfo_ != null;
     }
     /**
-     * <code>._AvatarExpeditionBasicInfo basic_info = 7;</code>
+     * <code>._AvatarExpeditionBasicInfo basic_info = 5;</code>
      * @return The basicInfo.
      */
     @java.lang.Override
@@ -257,24 +257,24 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
       return basicInfo_ == null ? emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.getDefaultInstance() : basicInfo_;
     }
     /**
-     * <code>._AvatarExpeditionBasicInfo basic_info = 7;</code>
+     * <code>._AvatarExpeditionBasicInfo basic_info = 5;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfoOrBuilder getBasicInfoOrBuilder() {
       return getBasicInfo();
     }
 
-    public static final int ITEM_LIST_FIELD_NUMBER = 13;
+    public static final int ITEM_LIST_FIELD_NUMBER = 4;
     private java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> itemList_;
     /**
-     * <code>repeated .ItemParam item_list = 13;</code>
+     * <code>repeated .ItemParam item_list = 4;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> getItemListList() {
       return itemList_;
     }
     /**
-     * <code>repeated .ItemParam item_list = 13;</code>
+     * <code>repeated .ItemParam item_list = 4;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
@@ -282,21 +282,21 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
       return itemList_;
     }
     /**
-     * <code>repeated .ItemParam item_list = 13;</code>
+     * <code>repeated .ItemParam item_list = 4;</code>
      */
     @java.lang.Override
     public int getItemListCount() {
       return itemList_.size();
     }
     /**
-     * <code>repeated .ItemParam item_list = 13;</code>
+     * <code>repeated .ItemParam item_list = 4;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getItemList(int index) {
       return itemList_.get(index);
     }
     /**
-     * <code>repeated .ItemParam item_list = 13;</code>
+     * <code>repeated .ItemParam item_list = 4;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getItemListOrBuilder(
@@ -318,14 +318,14 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      for (int i = 0; i < extraItemList_.size(); i++) {
-        output.writeMessage(2, extraItemList_.get(i));
+      for (int i = 0; i < itemList_.size(); i++) {
+        output.writeMessage(4, itemList_.get(i));
       }
       if (basicInfo_ != null) {
-        output.writeMessage(7, getBasicInfo());
+        output.writeMessage(5, getBasicInfo());
       }
-      for (int i = 0; i < itemList_.size(); i++) {
-        output.writeMessage(13, itemList_.get(i));
+      for (int i = 0; i < extraItemList_.size(); i++) {
+        output.writeMessage(10, extraItemList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -336,17 +336,17 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < extraItemList_.size(); i++) {
+      for (int i = 0; i < itemList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, extraItemList_.get(i));
+          .computeMessageSize(4, itemList_.get(i));
       }
       if (basicInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, getBasicInfo());
+          .computeMessageSize(5, getBasicInfo());
       }
-      for (int i = 0; i < itemList_.size(); i++) {
+      for (int i = 0; i < extraItemList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, itemList_.get(i));
+          .computeMessageSize(10, extraItemList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -744,7 +744,7 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
           emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> extraItemListBuilder_;
 
       /**
-       * <code>repeated .ItemParam extra_item_list = 2;</code>
+       * <code>repeated .ItemParam extra_item_list = 10;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> getExtraItemListList() {
         if (extraItemListBuilder_ == null) {
@@ -754,7 +754,7 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ItemParam extra_item_list = 2;</code>
+       * <code>repeated .ItemParam extra_item_list = 10;</code>
        */
       public int getExtraItemListCount() {
         if (extraItemListBuilder_ == null) {
@@ -764,7 +764,7 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ItemParam extra_item_list = 2;</code>
+       * <code>repeated .ItemParam extra_item_list = 10;</code>
        */
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getExtraItemList(int index) {
         if (extraItemListBuilder_ == null) {
@@ -774,7 +774,7 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ItemParam extra_item_list = 2;</code>
+       * <code>repeated .ItemParam extra_item_list = 10;</code>
        */
       public Builder setExtraItemList(
           int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam value) {
@@ -791,7 +791,7 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam extra_item_list = 2;</code>
+       * <code>repeated .ItemParam extra_item_list = 10;</code>
        */
       public Builder setExtraItemList(
           int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder builderForValue) {
@@ -805,7 +805,7 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam extra_item_list = 2;</code>
+       * <code>repeated .ItemParam extra_item_list = 10;</code>
        */
       public Builder addExtraItemList(emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam value) {
         if (extraItemListBuilder_ == null) {
@@ -821,7 +821,7 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam extra_item_list = 2;</code>
+       * <code>repeated .ItemParam extra_item_list = 10;</code>
        */
       public Builder addExtraItemList(
           int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam value) {
@@ -838,7 +838,7 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam extra_item_list = 2;</code>
+       * <code>repeated .ItemParam extra_item_list = 10;</code>
        */
       public Builder addExtraItemList(
           emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder builderForValue) {
@@ -852,7 +852,7 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam extra_item_list = 2;</code>
+       * <code>repeated .ItemParam extra_item_list = 10;</code>
        */
       public Builder addExtraItemList(
           int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder builderForValue) {
@@ -866,7 +866,7 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam extra_item_list = 2;</code>
+       * <code>repeated .ItemParam extra_item_list = 10;</code>
        */
       public Builder addAllExtraItemList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> values) {
@@ -881,7 +881,7 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam extra_item_list = 2;</code>
+       * <code>repeated .ItemParam extra_item_list = 10;</code>
        */
       public Builder clearExtraItemList() {
         if (extraItemListBuilder_ == null) {
@@ -894,7 +894,7 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam extra_item_list = 2;</code>
+       * <code>repeated .ItemParam extra_item_list = 10;</code>
        */
       public Builder removeExtraItemList(int index) {
         if (extraItemListBuilder_ == null) {
@@ -907,14 +907,14 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam extra_item_list = 2;</code>
+       * <code>repeated .ItemParam extra_item_list = 10;</code>
        */
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder getExtraItemListBuilder(
           int index) {
         return getExtraItemListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .ItemParam extra_item_list = 2;</code>
+       * <code>repeated .ItemParam extra_item_list = 10;</code>
        */
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getExtraItemListOrBuilder(
           int index) {
@@ -924,7 +924,7 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ItemParam extra_item_list = 2;</code>
+       * <code>repeated .ItemParam extra_item_list = 10;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
            getExtraItemListOrBuilderList() {
@@ -935,14 +935,14 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ItemParam extra_item_list = 2;</code>
+       * <code>repeated .ItemParam extra_item_list = 10;</code>
        */
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder addExtraItemListBuilder() {
         return getExtraItemListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.getDefaultInstance());
       }
       /**
-       * <code>repeated .ItemParam extra_item_list = 2;</code>
+       * <code>repeated .ItemParam extra_item_list = 10;</code>
        */
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder addExtraItemListBuilder(
           int index) {
@@ -950,7 +950,7 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
             index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.getDefaultInstance());
       }
       /**
-       * <code>repeated .ItemParam extra_item_list = 2;</code>
+       * <code>repeated .ItemParam extra_item_list = 10;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder> 
            getExtraItemListBuilderList() {
@@ -975,14 +975,14 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo, emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.Builder, emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfoOrBuilder> basicInfoBuilder_;
       /**
-       * <code>._AvatarExpeditionBasicInfo basic_info = 7;</code>
+       * <code>._AvatarExpeditionBasicInfo basic_info = 5;</code>
        * @return Whether the basicInfo field is set.
        */
       public boolean hasBasicInfo() {
         return basicInfoBuilder_ != null || basicInfo_ != null;
       }
       /**
-       * <code>._AvatarExpeditionBasicInfo basic_info = 7;</code>
+       * <code>._AvatarExpeditionBasicInfo basic_info = 5;</code>
        * @return The basicInfo.
        */
       public emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo getBasicInfo() {
@@ -993,7 +993,7 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
         }
       }
       /**
-       * <code>._AvatarExpeditionBasicInfo basic_info = 7;</code>
+       * <code>._AvatarExpeditionBasicInfo basic_info = 5;</code>
        */
       public Builder setBasicInfo(emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo value) {
         if (basicInfoBuilder_ == null) {
@@ -1009,7 +1009,7 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
         return this;
       }
       /**
-       * <code>._AvatarExpeditionBasicInfo basic_info = 7;</code>
+       * <code>._AvatarExpeditionBasicInfo basic_info = 5;</code>
        */
       public Builder setBasicInfo(
           emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.Builder builderForValue) {
@@ -1023,7 +1023,7 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
         return this;
       }
       /**
-       * <code>._AvatarExpeditionBasicInfo basic_info = 7;</code>
+       * <code>._AvatarExpeditionBasicInfo basic_info = 5;</code>
        */
       public Builder mergeBasicInfo(emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo value) {
         if (basicInfoBuilder_ == null) {
@@ -1041,7 +1041,7 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
         return this;
       }
       /**
-       * <code>._AvatarExpeditionBasicInfo basic_info = 7;</code>
+       * <code>._AvatarExpeditionBasicInfo basic_info = 5;</code>
        */
       public Builder clearBasicInfo() {
         if (basicInfoBuilder_ == null) {
@@ -1055,7 +1055,7 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
         return this;
       }
       /**
-       * <code>._AvatarExpeditionBasicInfo basic_info = 7;</code>
+       * <code>._AvatarExpeditionBasicInfo basic_info = 5;</code>
        */
       public emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.Builder getBasicInfoBuilder() {
         
@@ -1063,7 +1063,7 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
         return getBasicInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>._AvatarExpeditionBasicInfo basic_info = 7;</code>
+       * <code>._AvatarExpeditionBasicInfo basic_info = 5;</code>
        */
       public emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfoOrBuilder getBasicInfoOrBuilder() {
         if (basicInfoBuilder_ != null) {
@@ -1074,7 +1074,7 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
         }
       }
       /**
-       * <code>._AvatarExpeditionBasicInfo basic_info = 7;</code>
+       * <code>._AvatarExpeditionBasicInfo basic_info = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo, emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.Builder, emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfoOrBuilder> 
@@ -1103,7 +1103,7 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
           emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> itemListBuilder_;
 
       /**
-       * <code>repeated .ItemParam item_list = 13;</code>
+       * <code>repeated .ItemParam item_list = 4;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> getItemListList() {
         if (itemListBuilder_ == null) {
@@ -1113,7 +1113,7 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ItemParam item_list = 13;</code>
+       * <code>repeated .ItemParam item_list = 4;</code>
        */
       public int getItemListCount() {
         if (itemListBuilder_ == null) {
@@ -1123,7 +1123,7 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ItemParam item_list = 13;</code>
+       * <code>repeated .ItemParam item_list = 4;</code>
        */
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getItemList(int index) {
         if (itemListBuilder_ == null) {
@@ -1133,7 +1133,7 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ItemParam item_list = 13;</code>
+       * <code>repeated .ItemParam item_list = 4;</code>
        */
       public Builder setItemList(
           int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam value) {
@@ -1150,7 +1150,7 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam item_list = 13;</code>
+       * <code>repeated .ItemParam item_list = 4;</code>
        */
       public Builder setItemList(
           int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder builderForValue) {
@@ -1164,7 +1164,7 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam item_list = 13;</code>
+       * <code>repeated .ItemParam item_list = 4;</code>
        */
       public Builder addItemList(emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam value) {
         if (itemListBuilder_ == null) {
@@ -1180,7 +1180,7 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam item_list = 13;</code>
+       * <code>repeated .ItemParam item_list = 4;</code>
        */
       public Builder addItemList(
           int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam value) {
@@ -1197,7 +1197,7 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam item_list = 13;</code>
+       * <code>repeated .ItemParam item_list = 4;</code>
        */
       public Builder addItemList(
           emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder builderForValue) {
@@ -1211,7 +1211,7 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam item_list = 13;</code>
+       * <code>repeated .ItemParam item_list = 4;</code>
        */
       public Builder addItemList(
           int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder builderForValue) {
@@ -1225,7 +1225,7 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam item_list = 13;</code>
+       * <code>repeated .ItemParam item_list = 4;</code>
        */
       public Builder addAllItemList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> values) {
@@ -1240,7 +1240,7 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam item_list = 13;</code>
+       * <code>repeated .ItemParam item_list = 4;</code>
        */
       public Builder clearItemList() {
         if (itemListBuilder_ == null) {
@@ -1253,7 +1253,7 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam item_list = 13;</code>
+       * <code>repeated .ItemParam item_list = 4;</code>
        */
       public Builder removeItemList(int index) {
         if (itemListBuilder_ == null) {
@@ -1266,14 +1266,14 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam item_list = 13;</code>
+       * <code>repeated .ItemParam item_list = 4;</code>
        */
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder getItemListBuilder(
           int index) {
         return getItemListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .ItemParam item_list = 13;</code>
+       * <code>repeated .ItemParam item_list = 4;</code>
        */
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getItemListOrBuilder(
           int index) {
@@ -1283,7 +1283,7 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ItemParam item_list = 13;</code>
+       * <code>repeated .ItemParam item_list = 4;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
            getItemListOrBuilderList() {
@@ -1294,14 +1294,14 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ItemParam item_list = 13;</code>
+       * <code>repeated .ItemParam item_list = 4;</code>
        */
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder addItemListBuilder() {
         return getItemListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.getDefaultInstance());
       }
       /**
-       * <code>repeated .ItemParam item_list = 13;</code>
+       * <code>repeated .ItemParam item_list = 4;</code>
        */
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder addItemListBuilder(
           int index) {
@@ -1309,7 +1309,7 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
             index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.getDefaultInstance());
       }
       /**
-       * <code>repeated .ItemParam item_list = 13;</code>
+       * <code>repeated .ItemParam item_list = 4;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder> 
            getItemListBuilderList() {
@@ -1399,9 +1399,9 @@ public final class _AvatarExpeditionRewardInfoOuterClass {
       "\n!_AvatarExpeditionRewardInfo.proto\032\017Ite" +
       "mParam.proto\032 _AvatarExpeditionBasicInfo" +
       ".proto\"\222\001\n\033_AvatarExpeditionRewardInfo\022#" +
-      "\n\017extra_item_list\030\002 \003(\0132\n.ItemParam\022/\n\nb" +
-      "asic_info\030\007 \001(\0132\033._AvatarExpeditionBasic" +
-      "Info\022\035\n\titem_list\030\r \003(\0132\n.ItemParamBB\n\031e" +
+      "\n\017extra_item_list\030\n \003(\0132\n.ItemParam\022/\n\nb" +
+      "asic_info\030\005 \001(\0132\033._AvatarExpeditionBasic" +
+      "Info\022\035\n\titem_list\030\004 \003(\0132\n.ItemParamBB\n\031e" +
       "mu.grasscutter.net.protoB%_AvatarExpedit" +
       "ionRewardInfoOuterClassb\006proto3"
     };

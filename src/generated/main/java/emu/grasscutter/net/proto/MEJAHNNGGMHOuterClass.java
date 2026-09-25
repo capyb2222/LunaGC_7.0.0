@@ -19,25 +19,25 @@ public final class MEJAHNNGGMHOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 level_id = 3;</code>
+     * <code>uint32 level_id = 5;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>bool is_open = 9;</code>
+     * <code>bool is_open = 6;</code>
      * @return The isOpen.
      */
     boolean getIsOpen();
 
     /**
-     * <code>uint32 camp_id = 12;</code>
+     * <code>uint32 camp_id = 1;</code>
      * @return The campId.
      */
     int getCampId();
 
     /**
-     * <code>bool is_finish = 15;</code>
+     * <code>bool is_finish = 4;</code>
      * @return The isFinish.
      */
     boolean getIsFinish();
@@ -87,24 +87,24 @@ public final class MEJAHNNGGMHOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
-
-              levelId_ = input.readUInt32();
-              break;
-            }
-            case 72: {
-
-              isOpen_ = input.readBool();
-              break;
-            }
-            case 96: {
+            case 8: {
 
               campId_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 32: {
 
               isFinish_ = input.readBool();
+              break;
+            }
+            case 40: {
+
+              levelId_ = input.readUInt32();
+              break;
+            }
+            case 48: {
+
+              isOpen_ = input.readBool();
               break;
             }
             default: {
@@ -139,10 +139,10 @@ public final class MEJAHNNGGMHOuterClass {
               emu.grasscutter.net.proto.MEJAHNNGGMHOuterClass.MEJAHNNGGMH.class, emu.grasscutter.net.proto.MEJAHNNGGMHOuterClass.MEJAHNNGGMH.Builder.class);
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 3;
+    public static final int LEVEL_ID_FIELD_NUMBER = 5;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 3;</code>
+     * <code>uint32 level_id = 5;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class MEJAHNNGGMHOuterClass {
       return levelId_;
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 9;
+    public static final int IS_OPEN_FIELD_NUMBER = 6;
     private boolean isOpen_;
     /**
-     * <code>bool is_open = 9;</code>
+     * <code>bool is_open = 6;</code>
      * @return The isOpen.
      */
     @java.lang.Override
@@ -161,10 +161,10 @@ public final class MEJAHNNGGMHOuterClass {
       return isOpen_;
     }
 
-    public static final int CAMP_ID_FIELD_NUMBER = 12;
+    public static final int CAMP_ID_FIELD_NUMBER = 1;
     private int campId_;
     /**
-     * <code>uint32 camp_id = 12;</code>
+     * <code>uint32 camp_id = 1;</code>
      * @return The campId.
      */
     @java.lang.Override
@@ -172,10 +172,10 @@ public final class MEJAHNNGGMHOuterClass {
       return campId_;
     }
 
-    public static final int IS_FINISH_FIELD_NUMBER = 15;
+    public static final int IS_FINISH_FIELD_NUMBER = 4;
     private boolean isFinish_;
     /**
-     * <code>bool is_finish = 15;</code>
+     * <code>bool is_finish = 4;</code>
      * @return The isFinish.
      */
     @java.lang.Override
@@ -197,17 +197,17 @@ public final class MEJAHNNGGMHOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (levelId_ != 0) {
-        output.writeUInt32(3, levelId_);
-      }
-      if (isOpen_ != false) {
-        output.writeBool(9, isOpen_);
-      }
       if (campId_ != 0) {
-        output.writeUInt32(12, campId_);
+        output.writeUInt32(1, campId_);
       }
       if (isFinish_ != false) {
-        output.writeBool(15, isFinish_);
+        output.writeBool(4, isFinish_);
+      }
+      if (levelId_ != 0) {
+        output.writeUInt32(5, levelId_);
+      }
+      if (isOpen_ != false) {
+        output.writeBool(6, isOpen_);
       }
       unknownFields.writeTo(output);
     }
@@ -218,21 +218,21 @@ public final class MEJAHNNGGMHOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (levelId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, levelId_);
-      }
-      if (isOpen_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, isOpen_);
-      }
       if (campId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, campId_);
+          .computeUInt32Size(1, campId_);
       }
       if (isFinish_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(15, isFinish_);
+          .computeBoolSize(4, isFinish_);
+      }
+      if (levelId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(5, levelId_);
+      }
+      if (isOpen_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(6, isOpen_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -540,7 +540,7 @@ public final class MEJAHNNGGMHOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 3;</code>
+       * <code>uint32 level_id = 5;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -548,7 +548,7 @@ public final class MEJAHNNGGMHOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 3;</code>
+       * <code>uint32 level_id = 5;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -559,7 +559,7 @@ public final class MEJAHNNGGMHOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 3;</code>
+       * <code>uint32 level_id = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -571,7 +571,7 @@ public final class MEJAHNNGGMHOuterClass {
 
       private boolean isOpen_ ;
       /**
-       * <code>bool is_open = 9;</code>
+       * <code>bool is_open = 6;</code>
        * @return The isOpen.
        */
       @java.lang.Override
@@ -579,7 +579,7 @@ public final class MEJAHNNGGMHOuterClass {
         return isOpen_;
       }
       /**
-       * <code>bool is_open = 9;</code>
+       * <code>bool is_open = 6;</code>
        * @param value The isOpen to set.
        * @return This builder for chaining.
        */
@@ -590,7 +590,7 @@ public final class MEJAHNNGGMHOuterClass {
         return this;
       }
       /**
-       * <code>bool is_open = 9;</code>
+       * <code>bool is_open = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsOpen() {
@@ -602,7 +602,7 @@ public final class MEJAHNNGGMHOuterClass {
 
       private int campId_ ;
       /**
-       * <code>uint32 camp_id = 12;</code>
+       * <code>uint32 camp_id = 1;</code>
        * @return The campId.
        */
       @java.lang.Override
@@ -610,7 +610,7 @@ public final class MEJAHNNGGMHOuterClass {
         return campId_;
       }
       /**
-       * <code>uint32 camp_id = 12;</code>
+       * <code>uint32 camp_id = 1;</code>
        * @param value The campId to set.
        * @return This builder for chaining.
        */
@@ -621,7 +621,7 @@ public final class MEJAHNNGGMHOuterClass {
         return this;
       }
       /**
-       * <code>uint32 camp_id = 12;</code>
+       * <code>uint32 camp_id = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearCampId() {
@@ -633,7 +633,7 @@ public final class MEJAHNNGGMHOuterClass {
 
       private boolean isFinish_ ;
       /**
-       * <code>bool is_finish = 15;</code>
+       * <code>bool is_finish = 4;</code>
        * @return The isFinish.
        */
       @java.lang.Override
@@ -641,7 +641,7 @@ public final class MEJAHNNGGMHOuterClass {
         return isFinish_;
       }
       /**
-       * <code>bool is_finish = 15;</code>
+       * <code>bool is_finish = 4;</code>
        * @param value The isFinish to set.
        * @return This builder for chaining.
        */
@@ -652,7 +652,7 @@ public final class MEJAHNNGGMHOuterClass {
         return this;
       }
       /**
-       * <code>bool is_finish = 15;</code>
+       * <code>bool is_finish = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsFinish() {
@@ -729,8 +729,8 @@ public final class MEJAHNNGGMHOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021MEJAHNNGGMH.proto\"T\n\013MEJAHNNGGMH\022\020\n\010le" +
-      "vel_id\030\003 \001(\r\022\017\n\007is_open\030\t \001(\010\022\017\n\007camp_id" +
-      "\030\014 \001(\r\022\021\n\tis_finish\030\017 \001(\010B2\n\031emu.grasscu" +
+      "vel_id\030\005 \001(\r\022\017\n\007is_open\030\006 \001(\010\022\017\n\007camp_id" +
+      "\030\001 \001(\r\022\021\n\tis_finish\030\004 \001(\010B2\n\031emu.grasscu" +
       "tter.net.protoB\025MEJAHNNGGMHOuterClassb\006p" +
       "roto3"
     };

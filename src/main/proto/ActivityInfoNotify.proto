@@ -6,5 +6,5 @@ option java_outer_classname = "ActivityInfoNotifyOuterClass";
 import "ActivityInfo.proto";
 
 message ActivityInfoNotify {
-	ActivityInfo activity_info = 14;
+	ActivityInfo activity_info = 6;
 }

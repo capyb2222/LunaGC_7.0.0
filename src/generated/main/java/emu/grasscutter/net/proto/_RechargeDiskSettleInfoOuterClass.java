@@ -19,42 +19,42 @@ public final class _RechargeDiskSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 NNOCIHNFLNI = 4;</code>
+     * <code>uint32 NNOCIHNFLNI = 10;</code>
      * @return The nNOCIHNFLNI.
      */
     int getNNOCIHNFLNI();
 
     /**
-     * <code>uint32 difficulty = 5;</code>
+     * <code>uint32 difficulty = 14;</code>
      * @return The difficulty.
      */
     int getDifficulty();
 
     /**
-     * <code>uint32 level_id = 12;</code>
+     * <code>uint32 level_id = 9;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>repeated uint32 score_list = 14;</code>
+     * <code>repeated uint32 score_list = 12;</code>
      * @return A list containing the scoreList.
      */
     java.util.List<java.lang.Integer> getScoreListList();
     /**
-     * <code>repeated uint32 score_list = 14;</code>
+     * <code>repeated uint32 score_list = 12;</code>
      * @return The count of scoreList.
      */
     int getScoreListCount();
     /**
-     * <code>repeated uint32 score_list = 14;</code>
+     * <code>repeated uint32 score_list = 12;</code>
      * @param index The index of the element to return.
      * @return The scoreList at the given index.
      */
     int getScoreList(int index);
 
     /**
-     * <code>bool is_new_record = 15;</code>
+     * <code>bool is_new_record = 11;</code>
      * @return The isNewRecord.
      */
     boolean getIsNewRecord();
@@ -106,22 +106,22 @@ public final class _RechargeDiskSettleInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
-
-              nNOCIHNFLNI_ = input.readUInt32();
-              break;
-            }
-            case 40: {
-
-              difficulty_ = input.readUInt32();
-              break;
-            }
-            case 96: {
+            case 72: {
 
               levelId_ = input.readUInt32();
               break;
             }
-            case 112: {
+            case 80: {
+
+              nNOCIHNFLNI_ = input.readUInt32();
+              break;
+            }
+            case 88: {
+
+              isNewRecord_ = input.readBool();
+              break;
+            }
+            case 96: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 scoreList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -129,7 +129,7 @@ public final class _RechargeDiskSettleInfoOuterClass {
               scoreList_.addInt(input.readUInt32());
               break;
             }
-            case 114: {
+            case 98: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -142,9 +142,9 @@ public final class _RechargeDiskSettleInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 120: {
+            case 112: {
 
-              isNewRecord_ = input.readBool();
+              difficulty_ = input.readUInt32();
               break;
             }
             default: {
@@ -182,10 +182,10 @@ public final class _RechargeDiskSettleInfoOuterClass {
               emu.grasscutter.net.proto._RechargeDiskSettleInfoOuterClass._RechargeDiskSettleInfo.class, emu.grasscutter.net.proto._RechargeDiskSettleInfoOuterClass._RechargeDiskSettleInfo.Builder.class);
     }
 
-    public static final int NNOCIHNFLNI_FIELD_NUMBER = 4;
+    public static final int NNOCIHNFLNI_FIELD_NUMBER = 10;
     private int nNOCIHNFLNI_;
     /**
-     * <code>uint32 NNOCIHNFLNI = 4;</code>
+     * <code>uint32 NNOCIHNFLNI = 10;</code>
      * @return The nNOCIHNFLNI.
      */
     @java.lang.Override
@@ -193,10 +193,10 @@ public final class _RechargeDiskSettleInfoOuterClass {
       return nNOCIHNFLNI_;
     }
 
-    public static final int DIFFICULTY_FIELD_NUMBER = 5;
+    public static final int DIFFICULTY_FIELD_NUMBER = 14;
     private int difficulty_;
     /**
-     * <code>uint32 difficulty = 5;</code>
+     * <code>uint32 difficulty = 14;</code>
      * @return The difficulty.
      */
     @java.lang.Override
@@ -204,10 +204,10 @@ public final class _RechargeDiskSettleInfoOuterClass {
       return difficulty_;
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 12;
+    public static final int LEVEL_ID_FIELD_NUMBER = 9;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 12;</code>
+     * <code>uint32 level_id = 9;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -215,10 +215,10 @@ public final class _RechargeDiskSettleInfoOuterClass {
       return levelId_;
     }
 
-    public static final int SCORE_LIST_FIELD_NUMBER = 14;
+    public static final int SCORE_LIST_FIELD_NUMBER = 12;
     private com.google.protobuf.Internal.IntList scoreList_;
     /**
-     * <code>repeated uint32 score_list = 14;</code>
+     * <code>repeated uint32 score_list = 12;</code>
      * @return A list containing the scoreList.
      */
     @java.lang.Override
@@ -227,14 +227,14 @@ public final class _RechargeDiskSettleInfoOuterClass {
       return scoreList_;
     }
     /**
-     * <code>repeated uint32 score_list = 14;</code>
+     * <code>repeated uint32 score_list = 12;</code>
      * @return The count of scoreList.
      */
     public int getScoreListCount() {
       return scoreList_.size();
     }
     /**
-     * <code>repeated uint32 score_list = 14;</code>
+     * <code>repeated uint32 score_list = 12;</code>
      * @param index The index of the element to return.
      * @return The scoreList at the given index.
      */
@@ -243,10 +243,10 @@ public final class _RechargeDiskSettleInfoOuterClass {
     }
     private int scoreListMemoizedSerializedSize = -1;
 
-    public static final int IS_NEW_RECORD_FIELD_NUMBER = 15;
+    public static final int IS_NEW_RECORD_FIELD_NUMBER = 11;
     private boolean isNewRecord_;
     /**
-     * <code>bool is_new_record = 15;</code>
+     * <code>bool is_new_record = 11;</code>
      * @return The isNewRecord.
      */
     @java.lang.Override
@@ -269,24 +269,24 @@ public final class _RechargeDiskSettleInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (nNOCIHNFLNI_ != 0) {
-        output.writeUInt32(4, nNOCIHNFLNI_);
-      }
-      if (difficulty_ != 0) {
-        output.writeUInt32(5, difficulty_);
-      }
       if (levelId_ != 0) {
-        output.writeUInt32(12, levelId_);
+        output.writeUInt32(9, levelId_);
+      }
+      if (nNOCIHNFLNI_ != 0) {
+        output.writeUInt32(10, nNOCIHNFLNI_);
+      }
+      if (isNewRecord_ != false) {
+        output.writeBool(11, isNewRecord_);
       }
       if (getScoreListList().size() > 0) {
-        output.writeUInt32NoTag(114);
+        output.writeUInt32NoTag(98);
         output.writeUInt32NoTag(scoreListMemoizedSerializedSize);
       }
       for (int i = 0; i < scoreList_.size(); i++) {
         output.writeUInt32NoTag(scoreList_.getInt(i));
       }
-      if (isNewRecord_ != false) {
-        output.writeBool(15, isNewRecord_);
+      if (difficulty_ != 0) {
+        output.writeUInt32(14, difficulty_);
       }
       unknownFields.writeTo(output);
     }
@@ -297,17 +297,17 @@ public final class _RechargeDiskSettleInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (nNOCIHNFLNI_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, nNOCIHNFLNI_);
-      }
-      if (difficulty_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, difficulty_);
-      }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, levelId_);
+          .computeUInt32Size(9, levelId_);
+      }
+      if (nNOCIHNFLNI_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(10, nNOCIHNFLNI_);
+      }
+      if (isNewRecord_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(11, isNewRecord_);
       }
       {
         int dataSize = 0;
@@ -323,9 +323,9 @@ public final class _RechargeDiskSettleInfoOuterClass {
         }
         scoreListMemoizedSerializedSize = dataSize;
       }
-      if (isNewRecord_ != false) {
+      if (difficulty_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(15, isNewRecord_);
+          .computeUInt32Size(14, difficulty_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -657,7 +657,7 @@ public final class _RechargeDiskSettleInfoOuterClass {
 
       private int nNOCIHNFLNI_ ;
       /**
-       * <code>uint32 NNOCIHNFLNI = 4;</code>
+       * <code>uint32 NNOCIHNFLNI = 10;</code>
        * @return The nNOCIHNFLNI.
        */
       @java.lang.Override
@@ -665,7 +665,7 @@ public final class _RechargeDiskSettleInfoOuterClass {
         return nNOCIHNFLNI_;
       }
       /**
-       * <code>uint32 NNOCIHNFLNI = 4;</code>
+       * <code>uint32 NNOCIHNFLNI = 10;</code>
        * @param value The nNOCIHNFLNI to set.
        * @return This builder for chaining.
        */
@@ -676,7 +676,7 @@ public final class _RechargeDiskSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 NNOCIHNFLNI = 4;</code>
+       * <code>uint32 NNOCIHNFLNI = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearNNOCIHNFLNI() {
@@ -688,7 +688,7 @@ public final class _RechargeDiskSettleInfoOuterClass {
 
       private int difficulty_ ;
       /**
-       * <code>uint32 difficulty = 5;</code>
+       * <code>uint32 difficulty = 14;</code>
        * @return The difficulty.
        */
       @java.lang.Override
@@ -696,7 +696,7 @@ public final class _RechargeDiskSettleInfoOuterClass {
         return difficulty_;
       }
       /**
-       * <code>uint32 difficulty = 5;</code>
+       * <code>uint32 difficulty = 14;</code>
        * @param value The difficulty to set.
        * @return This builder for chaining.
        */
@@ -707,7 +707,7 @@ public final class _RechargeDiskSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 difficulty = 5;</code>
+       * <code>uint32 difficulty = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearDifficulty() {
@@ -719,7 +719,7 @@ public final class _RechargeDiskSettleInfoOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 12;</code>
+       * <code>uint32 level_id = 9;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -727,7 +727,7 @@ public final class _RechargeDiskSettleInfoOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 12;</code>
+       * <code>uint32 level_id = 9;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -738,7 +738,7 @@ public final class _RechargeDiskSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 12;</code>
+       * <code>uint32 level_id = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -756,7 +756,7 @@ public final class _RechargeDiskSettleInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 score_list = 14;</code>
+       * <code>repeated uint32 score_list = 12;</code>
        * @return A list containing the scoreList.
        */
       public java.util.List<java.lang.Integer>
@@ -765,14 +765,14 @@ public final class _RechargeDiskSettleInfoOuterClass {
                  java.util.Collections.unmodifiableList(scoreList_) : scoreList_;
       }
       /**
-       * <code>repeated uint32 score_list = 14;</code>
+       * <code>repeated uint32 score_list = 12;</code>
        * @return The count of scoreList.
        */
       public int getScoreListCount() {
         return scoreList_.size();
       }
       /**
-       * <code>repeated uint32 score_list = 14;</code>
+       * <code>repeated uint32 score_list = 12;</code>
        * @param index The index of the element to return.
        * @return The scoreList at the given index.
        */
@@ -780,7 +780,7 @@ public final class _RechargeDiskSettleInfoOuterClass {
         return scoreList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 score_list = 14;</code>
+       * <code>repeated uint32 score_list = 12;</code>
        * @param index The index to set the value at.
        * @param value The scoreList to set.
        * @return This builder for chaining.
@@ -793,7 +793,7 @@ public final class _RechargeDiskSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 score_list = 14;</code>
+       * <code>repeated uint32 score_list = 12;</code>
        * @param value The scoreList to add.
        * @return This builder for chaining.
        */
@@ -804,7 +804,7 @@ public final class _RechargeDiskSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 score_list = 14;</code>
+       * <code>repeated uint32 score_list = 12;</code>
        * @param values The scoreList to add.
        * @return This builder for chaining.
        */
@@ -817,7 +817,7 @@ public final class _RechargeDiskSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 score_list = 14;</code>
+       * <code>repeated uint32 score_list = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearScoreList() {
@@ -829,7 +829,7 @@ public final class _RechargeDiskSettleInfoOuterClass {
 
       private boolean isNewRecord_ ;
       /**
-       * <code>bool is_new_record = 15;</code>
+       * <code>bool is_new_record = 11;</code>
        * @return The isNewRecord.
        */
       @java.lang.Override
@@ -837,7 +837,7 @@ public final class _RechargeDiskSettleInfoOuterClass {
         return isNewRecord_;
       }
       /**
-       * <code>bool is_new_record = 15;</code>
+       * <code>bool is_new_record = 11;</code>
        * @param value The isNewRecord to set.
        * @return This builder for chaining.
        */
@@ -848,7 +848,7 @@ public final class _RechargeDiskSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_new_record = 15;</code>
+       * <code>bool is_new_record = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsNewRecord() {
@@ -925,9 +925,9 @@ public final class _RechargeDiskSettleInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\035_RechargeDiskSettleInfo.proto\"\177\n\027_Rech" +
-      "argeDiskSettleInfo\022\023\n\013NNOCIHNFLNI\030\004 \001(\r\022" +
-      "\022\n\ndifficulty\030\005 \001(\r\022\020\n\010level_id\030\014 \001(\r\022\022\n" +
-      "\nscore_list\030\016 \003(\r\022\025\n\ris_new_record\030\017 \001(\010" +
+      "argeDiskSettleInfo\022\023\n\013NNOCIHNFLNI\030\n \001(\r\022" +
+      "\022\n\ndifficulty\030\016 \001(\r\022\020\n\010level_id\030\t \001(\r\022\022\n" +
+      "\nscore_list\030\014 \003(\r\022\025\n\ris_new_record\030\013 \001(\010" +
       "B>\n\031emu.grasscutter.net.protoB!_Recharge" +
       "DiskSettleInfoOuterClassb\006proto3"
     };

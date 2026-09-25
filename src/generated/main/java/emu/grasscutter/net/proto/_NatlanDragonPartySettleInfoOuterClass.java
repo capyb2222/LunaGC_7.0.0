@@ -43,48 +43,48 @@ public final class _NatlanDragonPartySettleInfoOuterClass {
         int index);
 
     /**
-     * <code>repeated uint32 winner_uid_list = 9;</code>
+     * <code>repeated uint32 winner_uid_list = 6;</code>
      * @return A list containing the winnerUidList.
      */
     java.util.List<java.lang.Integer> getWinnerUidListList();
     /**
-     * <code>repeated uint32 winner_uid_list = 9;</code>
+     * <code>repeated uint32 winner_uid_list = 6;</code>
      * @return The count of winnerUidList.
      */
     int getWinnerUidListCount();
     /**
-     * <code>repeated uint32 winner_uid_list = 9;</code>
+     * <code>repeated uint32 winner_uid_list = 6;</code>
      * @param index The index of the element to return.
      * @return The winnerUidList at the given index.
      */
     int getWinnerUidList(int index);
 
     /**
-     * <code>uint32 level_id = 13;</code>
+     * <code>uint32 level_id = 5;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 15;</code>
+     * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 3;</code>
      */
     java.util.List<emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo> 
         getJANGDIMHCACList();
     /**
-     * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 15;</code>
+     * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 3;</code>
      */
     emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo getJANGDIMHCAC(int index);
     /**
-     * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 15;</code>
+     * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 3;</code>
      */
     int getJANGDIMHCACCount();
     /**
-     * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 15;</code>
+     * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 3;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfoOrBuilder> 
         getJANGDIMHCACOrBuilderList();
     /**
-     * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 15;</code>
+     * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 3;</code>
      */
     emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfoOrBuilder getJANGDIMHCACOrBuilder(
         int index);
@@ -138,16 +138,21 @@ public final class _NatlanDragonPartySettleInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 66: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                pPENJHKDFHJ_ = new java.util.ArrayList<emu.grasscutter.net.proto.PBNLFGAMIGIOuterClass.PBNLFGAMIGI>();
-                mutable_bitField0_ |= 0x00000001;
+            case 26: {
+              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
+                jANGDIMHCAC_ = new java.util.ArrayList<emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo>();
+                mutable_bitField0_ |= 0x00000004;
               }
-              pPENJHKDFHJ_.add(
-                  input.readMessage(emu.grasscutter.net.proto.PBNLFGAMIGIOuterClass.PBNLFGAMIGI.parser(), extensionRegistry));
+              jANGDIMHCAC_.add(
+                  input.readMessage(emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo.parser(), extensionRegistry));
               break;
             }
-            case 72: {
+            case 40: {
+
+              levelId_ = input.readUInt32();
+              break;
+            }
+            case 48: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 winnerUidList_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
@@ -155,7 +160,7 @@ public final class _NatlanDragonPartySettleInfoOuterClass {
               winnerUidList_.addInt(input.readUInt32());
               break;
             }
-            case 74: {
+            case 50: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
@@ -168,18 +173,13 @@ public final class _NatlanDragonPartySettleInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 104: {
-
-              levelId_ = input.readUInt32();
-              break;
-            }
-            case 122: {
-              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
-                jANGDIMHCAC_ = new java.util.ArrayList<emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo>();
-                mutable_bitField0_ |= 0x00000004;
+            case 66: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                pPENJHKDFHJ_ = new java.util.ArrayList<emu.grasscutter.net.proto.PBNLFGAMIGIOuterClass.PBNLFGAMIGI>();
+                mutable_bitField0_ |= 0x00000001;
               }
-              jANGDIMHCAC_.add(
-                  input.readMessage(emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo.parser(), extensionRegistry));
+              pPENJHKDFHJ_.add(
+                  input.readMessage(emu.grasscutter.net.proto.PBNLFGAMIGIOuterClass.PBNLFGAMIGI.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -197,14 +197,14 @@ public final class _NatlanDragonPartySettleInfoOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          pPENJHKDFHJ_ = java.util.Collections.unmodifiableList(pPENJHKDFHJ_);
+        if (((mutable_bitField0_ & 0x00000004) != 0)) {
+          jANGDIMHCAC_ = java.util.Collections.unmodifiableList(jANGDIMHCAC_);
         }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
           winnerUidList_.makeImmutable(); // C
         }
-        if (((mutable_bitField0_ & 0x00000004) != 0)) {
-          jANGDIMHCAC_ = java.util.Collections.unmodifiableList(jANGDIMHCAC_);
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          pPENJHKDFHJ_ = java.util.Collections.unmodifiableList(pPENJHKDFHJ_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -263,10 +263,10 @@ public final class _NatlanDragonPartySettleInfoOuterClass {
       return pPENJHKDFHJ_.get(index);
     }
 
-    public static final int WINNER_UID_LIST_FIELD_NUMBER = 9;
+    public static final int WINNER_UID_LIST_FIELD_NUMBER = 6;
     private com.google.protobuf.Internal.IntList winnerUidList_;
     /**
-     * <code>repeated uint32 winner_uid_list = 9;</code>
+     * <code>repeated uint32 winner_uid_list = 6;</code>
      * @return A list containing the winnerUidList.
      */
     @java.lang.Override
@@ -275,14 +275,14 @@ public final class _NatlanDragonPartySettleInfoOuterClass {
       return winnerUidList_;
     }
     /**
-     * <code>repeated uint32 winner_uid_list = 9;</code>
+     * <code>repeated uint32 winner_uid_list = 6;</code>
      * @return The count of winnerUidList.
      */
     public int getWinnerUidListCount() {
       return winnerUidList_.size();
     }
     /**
-     * <code>repeated uint32 winner_uid_list = 9;</code>
+     * <code>repeated uint32 winner_uid_list = 6;</code>
      * @param index The index of the element to return.
      * @return The winnerUidList at the given index.
      */
@@ -291,10 +291,10 @@ public final class _NatlanDragonPartySettleInfoOuterClass {
     }
     private int winnerUidListMemoizedSerializedSize = -1;
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 13;
+    public static final int LEVEL_ID_FIELD_NUMBER = 5;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 13;</code>
+     * <code>uint32 level_id = 5;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -302,17 +302,17 @@ public final class _NatlanDragonPartySettleInfoOuterClass {
       return levelId_;
     }
 
-    public static final int JANGDIMHCAC_FIELD_NUMBER = 15;
+    public static final int JANGDIMHCAC_FIELD_NUMBER = 3;
     private java.util.List<emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo> jANGDIMHCAC_;
     /**
-     * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 15;</code>
+     * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 3;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo> getJANGDIMHCACList() {
       return jANGDIMHCAC_;
     }
     /**
-     * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 15;</code>
+     * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 3;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfoOrBuilder> 
@@ -320,21 +320,21 @@ public final class _NatlanDragonPartySettleInfoOuterClass {
       return jANGDIMHCAC_;
     }
     /**
-     * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 15;</code>
+     * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 3;</code>
      */
     @java.lang.Override
     public int getJANGDIMHCACCount() {
       return jANGDIMHCAC_.size();
     }
     /**
-     * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 15;</code>
+     * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 3;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo getJANGDIMHCAC(int index) {
       return jANGDIMHCAC_.get(index);
     }
     /**
-     * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 15;</code>
+     * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 3;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfoOrBuilder getJANGDIMHCACOrBuilder(
@@ -357,21 +357,21 @@ public final class _NatlanDragonPartySettleInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      for (int i = 0; i < pPENJHKDFHJ_.size(); i++) {
-        output.writeMessage(8, pPENJHKDFHJ_.get(i));
+      for (int i = 0; i < jANGDIMHCAC_.size(); i++) {
+        output.writeMessage(3, jANGDIMHCAC_.get(i));
+      }
+      if (levelId_ != 0) {
+        output.writeUInt32(5, levelId_);
       }
       if (getWinnerUidListList().size() > 0) {
-        output.writeUInt32NoTag(74);
+        output.writeUInt32NoTag(50);
         output.writeUInt32NoTag(winnerUidListMemoizedSerializedSize);
       }
       for (int i = 0; i < winnerUidList_.size(); i++) {
         output.writeUInt32NoTag(winnerUidList_.getInt(i));
       }
-      if (levelId_ != 0) {
-        output.writeUInt32(13, levelId_);
-      }
-      for (int i = 0; i < jANGDIMHCAC_.size(); i++) {
-        output.writeMessage(15, jANGDIMHCAC_.get(i));
+      for (int i = 0; i < pPENJHKDFHJ_.size(); i++) {
+        output.writeMessage(8, pPENJHKDFHJ_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -382,9 +382,13 @@ public final class _NatlanDragonPartySettleInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < pPENJHKDFHJ_.size(); i++) {
+      for (int i = 0; i < jANGDIMHCAC_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, pPENJHKDFHJ_.get(i));
+          .computeMessageSize(3, jANGDIMHCAC_.get(i));
+      }
+      if (levelId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(5, levelId_);
       }
       {
         int dataSize = 0;
@@ -400,13 +404,9 @@ public final class _NatlanDragonPartySettleInfoOuterClass {
         }
         winnerUidListMemoizedSerializedSize = dataSize;
       }
-      if (levelId_ != 0) {
+      for (int i = 0; i < pPENJHKDFHJ_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, levelId_);
-      }
-      for (int i = 0; i < jANGDIMHCAC_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, jANGDIMHCAC_.get(i));
+          .computeMessageSize(8, pPENJHKDFHJ_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1049,7 +1049,7 @@ public final class _NatlanDragonPartySettleInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 winner_uid_list = 9;</code>
+       * <code>repeated uint32 winner_uid_list = 6;</code>
        * @return A list containing the winnerUidList.
        */
       public java.util.List<java.lang.Integer>
@@ -1058,14 +1058,14 @@ public final class _NatlanDragonPartySettleInfoOuterClass {
                  java.util.Collections.unmodifiableList(winnerUidList_) : winnerUidList_;
       }
       /**
-       * <code>repeated uint32 winner_uid_list = 9;</code>
+       * <code>repeated uint32 winner_uid_list = 6;</code>
        * @return The count of winnerUidList.
        */
       public int getWinnerUidListCount() {
         return winnerUidList_.size();
       }
       /**
-       * <code>repeated uint32 winner_uid_list = 9;</code>
+       * <code>repeated uint32 winner_uid_list = 6;</code>
        * @param index The index of the element to return.
        * @return The winnerUidList at the given index.
        */
@@ -1073,7 +1073,7 @@ public final class _NatlanDragonPartySettleInfoOuterClass {
         return winnerUidList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 winner_uid_list = 9;</code>
+       * <code>repeated uint32 winner_uid_list = 6;</code>
        * @param index The index to set the value at.
        * @param value The winnerUidList to set.
        * @return This builder for chaining.
@@ -1086,7 +1086,7 @@ public final class _NatlanDragonPartySettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 winner_uid_list = 9;</code>
+       * <code>repeated uint32 winner_uid_list = 6;</code>
        * @param value The winnerUidList to add.
        * @return This builder for chaining.
        */
@@ -1097,7 +1097,7 @@ public final class _NatlanDragonPartySettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 winner_uid_list = 9;</code>
+       * <code>repeated uint32 winner_uid_list = 6;</code>
        * @param values The winnerUidList to add.
        * @return This builder for chaining.
        */
@@ -1110,7 +1110,7 @@ public final class _NatlanDragonPartySettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 winner_uid_list = 9;</code>
+       * <code>repeated uint32 winner_uid_list = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearWinnerUidList() {
@@ -1122,7 +1122,7 @@ public final class _NatlanDragonPartySettleInfoOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 13;</code>
+       * <code>uint32 level_id = 5;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -1130,7 +1130,7 @@ public final class _NatlanDragonPartySettleInfoOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 13;</code>
+       * <code>uint32 level_id = 5;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -1141,7 +1141,7 @@ public final class _NatlanDragonPartySettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 13;</code>
+       * <code>uint32 level_id = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -1164,7 +1164,7 @@ public final class _NatlanDragonPartySettleInfoOuterClass {
           emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo, emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo.Builder, emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfoOrBuilder> jANGDIMHCACBuilder_;
 
       /**
-       * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 15;</code>
+       * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 3;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo> getJANGDIMHCACList() {
         if (jANGDIMHCACBuilder_ == null) {
@@ -1174,7 +1174,7 @@ public final class _NatlanDragonPartySettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 15;</code>
+       * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 3;</code>
        */
       public int getJANGDIMHCACCount() {
         if (jANGDIMHCACBuilder_ == null) {
@@ -1184,7 +1184,7 @@ public final class _NatlanDragonPartySettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 15;</code>
+       * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 3;</code>
        */
       public emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo getJANGDIMHCAC(int index) {
         if (jANGDIMHCACBuilder_ == null) {
@@ -1194,7 +1194,7 @@ public final class _NatlanDragonPartySettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 15;</code>
+       * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 3;</code>
        */
       public Builder setJANGDIMHCAC(
           int index, emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo value) {
@@ -1211,7 +1211,7 @@ public final class _NatlanDragonPartySettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 15;</code>
+       * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 3;</code>
        */
       public Builder setJANGDIMHCAC(
           int index, emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo.Builder builderForValue) {
@@ -1225,7 +1225,7 @@ public final class _NatlanDragonPartySettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 15;</code>
+       * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 3;</code>
        */
       public Builder addJANGDIMHCAC(emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo value) {
         if (jANGDIMHCACBuilder_ == null) {
@@ -1241,7 +1241,7 @@ public final class _NatlanDragonPartySettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 15;</code>
+       * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 3;</code>
        */
       public Builder addJANGDIMHCAC(
           int index, emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo value) {
@@ -1258,7 +1258,7 @@ public final class _NatlanDragonPartySettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 15;</code>
+       * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 3;</code>
        */
       public Builder addJANGDIMHCAC(
           emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo.Builder builderForValue) {
@@ -1272,7 +1272,7 @@ public final class _NatlanDragonPartySettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 15;</code>
+       * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 3;</code>
        */
       public Builder addJANGDIMHCAC(
           int index, emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo.Builder builderForValue) {
@@ -1286,7 +1286,7 @@ public final class _NatlanDragonPartySettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 15;</code>
+       * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 3;</code>
        */
       public Builder addAllJANGDIMHCAC(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo> values) {
@@ -1301,7 +1301,7 @@ public final class _NatlanDragonPartySettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 15;</code>
+       * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 3;</code>
        */
       public Builder clearJANGDIMHCAC() {
         if (jANGDIMHCACBuilder_ == null) {
@@ -1314,7 +1314,7 @@ public final class _NatlanDragonPartySettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 15;</code>
+       * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 3;</code>
        */
       public Builder removeJANGDIMHCAC(int index) {
         if (jANGDIMHCACBuilder_ == null) {
@@ -1327,14 +1327,14 @@ public final class _NatlanDragonPartySettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 15;</code>
+       * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 3;</code>
        */
       public emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo.Builder getJANGDIMHCACBuilder(
           int index) {
         return getJANGDIMHCACFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 15;</code>
+       * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 3;</code>
        */
       public emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfoOrBuilder getJANGDIMHCACOrBuilder(
           int index) {
@@ -1344,7 +1344,7 @@ public final class _NatlanDragonPartySettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 15;</code>
+       * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 3;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfoOrBuilder> 
            getJANGDIMHCACOrBuilderList() {
@@ -1355,14 +1355,14 @@ public final class _NatlanDragonPartySettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 15;</code>
+       * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 3;</code>
        */
       public emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo.Builder addJANGDIMHCACBuilder() {
         return getJANGDIMHCACFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 15;</code>
+       * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 3;</code>
        */
       public emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo.Builder addJANGDIMHCACBuilder(
           int index) {
@@ -1370,7 +1370,7 @@ public final class _NatlanDragonPartySettleInfoOuterClass {
             index, emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 15;</code>
+       * <code>repeated .ExhibitionDisplayInfo JANGDIMHCAC = 3;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo.Builder> 
            getJANGDIMHCACBuilderList() {
@@ -1461,8 +1461,8 @@ public final class _NatlanDragonPartySettleInfoOuterClass {
       "hibitionDisplayInfo.proto\032\021PBNLFGAMIGI.p" +
       "roto\"\231\001\n\034_NatlanDragonPartySettleInfo\022!\n" +
       "\013PPENJHKDFHJ\030\010 \003(\0132\014.PBNLFGAMIGI\022\027\n\017winn" +
-      "er_uid_list\030\t \003(\r\022\020\n\010level_id\030\r \001(\r\022+\n\013J" +
-      "ANGDIMHCAC\030\017 \003(\0132\026.ExhibitionDisplayInfo" +
+      "er_uid_list\030\006 \003(\r\022\020\n\010level_id\030\005 \001(\r\022+\n\013J" +
+      "ANGDIMHCAC\030\003 \003(\0132\026.ExhibitionDisplayInfo" +
       "BC\n\031emu.grasscutter.net.protoB&_NatlanDr" +
       "agonPartySettleInfoOuterClassb\006proto3"
     };

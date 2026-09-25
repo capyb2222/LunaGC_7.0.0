@@ -6,8 +6,8 @@ option java_outer_classname = "EvtAnimatorParameterInfoOuterClass";
 import "AnimatorParameterValueInfo.proto";
 
 message EvtAnimatorParameterInfo {
-	bool is_server_cache = 4;
-	int32 name_id = 5;
-	AnimatorParameterValueInfo value = 13;
-	uint32 entity_id = 15;
+	bool is_server_cache = 12;
+	int32 name_id = 14;
+	AnimatorParameterValueInfo value = 6;
+	uint32 entity_id = 9;
 }

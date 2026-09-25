@@ -19,23 +19,23 @@ public final class OPOHILFOCHPOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 IAMHNPDGKNA = 2;</code>
+     * <code>uint32 IAMHNPDGKNA = 12;</code>
      * @return The iAMHNPDGKNA.
      */
     int getIAMHNPDGKNA();
 
     /**
-     * <code>repeated uint32 CNIPLLIJAFD = 4;</code>
+     * <code>repeated uint32 CNIPLLIJAFD = 8;</code>
      * @return A list containing the cNIPLLIJAFD.
      */
     java.util.List<java.lang.Integer> getCNIPLLIJAFDList();
     /**
-     * <code>repeated uint32 CNIPLLIJAFD = 4;</code>
+     * <code>repeated uint32 CNIPLLIJAFD = 8;</code>
      * @return The count of cNIPLLIJAFD.
      */
     int getCNIPLLIJAFDCount();
     /**
-     * <code>repeated uint32 CNIPLLIJAFD = 4;</code>
+     * <code>repeated uint32 CNIPLLIJAFD = 8;</code>
      * @param index The index of the element to return.
      * @return The cNIPLLIJAFD at the given index.
      */
@@ -66,13 +66,13 @@ public final class OPOHILFOCHPOuterClass {
         int index);
 
     /**
-     * <code>uint32 HMJDEIANCKN = 12;</code>
+     * <code>uint32 HMJDEIANCKN = 15;</code>
      * @return The hMJDEIANCKN.
      */
     int getHMJDEIANCKN();
 
     /**
-     * <code>uint32 _win_count = 15;</code>
+     * <code>uint32 _win_count = 14;</code>
      * @return The winCount.
      */
     int getWinCount();
@@ -125,12 +125,16 @@ public final class OPOHILFOCHPOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
-
-              iAMHNPDGKNA_ = input.readUInt32();
+            case 50: {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                levelInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.OJMLCFIPPAMOuterClass.OJMLCFIPPAM>();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              levelInfoList_.add(
+                  input.readMessage(emu.grasscutter.net.proto.OJMLCFIPPAMOuterClass.OJMLCFIPPAM.parser(), extensionRegistry));
               break;
             }
-            case 32: {
+            case 64: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 cNIPLLIJAFD_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -138,7 +142,7 @@ public final class OPOHILFOCHPOuterClass {
               cNIPLLIJAFD_.addInt(input.readUInt32());
               break;
             }
-            case 34: {
+            case 66: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -151,23 +155,19 @@ public final class OPOHILFOCHPOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 50: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                levelInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.OJMLCFIPPAMOuterClass.OJMLCFIPPAM>();
-                mutable_bitField0_ |= 0x00000002;
-              }
-              levelInfoList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.OJMLCFIPPAMOuterClass.OJMLCFIPPAM.parser(), extensionRegistry));
-              break;
-            }
             case 96: {
 
-              hMJDEIANCKN_ = input.readUInt32();
+              iAMHNPDGKNA_ = input.readUInt32();
+              break;
+            }
+            case 112: {
+
+              WinCount_ = input.readUInt32();
               break;
             }
             case 120: {
 
-              WinCount_ = input.readUInt32();
+              hMJDEIANCKN_ = input.readUInt32();
               break;
             }
             default: {
@@ -185,11 +185,11 @@ public final class OPOHILFOCHPOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          cNIPLLIJAFD_.makeImmutable(); // C
-        }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
           levelInfoList_ = java.util.Collections.unmodifiableList(levelInfoList_);
+        }
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          cNIPLLIJAFD_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -208,10 +208,10 @@ public final class OPOHILFOCHPOuterClass {
               emu.grasscutter.net.proto.OPOHILFOCHPOuterClass.OPOHILFOCHP.class, emu.grasscutter.net.proto.OPOHILFOCHPOuterClass.OPOHILFOCHP.Builder.class);
     }
 
-    public static final int IAMHNPDGKNA_FIELD_NUMBER = 2;
+    public static final int IAMHNPDGKNA_FIELD_NUMBER = 12;
     private int iAMHNPDGKNA_;
     /**
-     * <code>uint32 IAMHNPDGKNA = 2;</code>
+     * <code>uint32 IAMHNPDGKNA = 12;</code>
      * @return The iAMHNPDGKNA.
      */
     @java.lang.Override
@@ -219,10 +219,10 @@ public final class OPOHILFOCHPOuterClass {
       return iAMHNPDGKNA_;
     }
 
-    public static final int CNIPLLIJAFD_FIELD_NUMBER = 4;
+    public static final int CNIPLLIJAFD_FIELD_NUMBER = 8;
     private com.google.protobuf.Internal.IntList cNIPLLIJAFD_;
     /**
-     * <code>repeated uint32 CNIPLLIJAFD = 4;</code>
+     * <code>repeated uint32 CNIPLLIJAFD = 8;</code>
      * @return A list containing the cNIPLLIJAFD.
      */
     @java.lang.Override
@@ -231,14 +231,14 @@ public final class OPOHILFOCHPOuterClass {
       return cNIPLLIJAFD_;
     }
     /**
-     * <code>repeated uint32 CNIPLLIJAFD = 4;</code>
+     * <code>repeated uint32 CNIPLLIJAFD = 8;</code>
      * @return The count of cNIPLLIJAFD.
      */
     public int getCNIPLLIJAFDCount() {
       return cNIPLLIJAFD_.size();
     }
     /**
-     * <code>repeated uint32 CNIPLLIJAFD = 4;</code>
+     * <code>repeated uint32 CNIPLLIJAFD = 8;</code>
      * @param index The index of the element to return.
      * @return The cNIPLLIJAFD at the given index.
      */
@@ -287,10 +287,10 @@ public final class OPOHILFOCHPOuterClass {
       return levelInfoList_.get(index);
     }
 
-    public static final int HMJDEIANCKN_FIELD_NUMBER = 12;
+    public static final int HMJDEIANCKN_FIELD_NUMBER = 15;
     private int hMJDEIANCKN_;
     /**
-     * <code>uint32 HMJDEIANCKN = 12;</code>
+     * <code>uint32 HMJDEIANCKN = 15;</code>
      * @return The hMJDEIANCKN.
      */
     @java.lang.Override
@@ -298,10 +298,10 @@ public final class OPOHILFOCHPOuterClass {
       return hMJDEIANCKN_;
     }
 
-    public static final int _WIN_COUNT_FIELD_NUMBER = 15;
+    public static final int _WIN_COUNT_FIELD_NUMBER = 14;
     private int WinCount_;
     /**
-     * <code>uint32 _win_count = 15;</code>
+     * <code>uint32 _win_count = 14;</code>
      * @return The winCount.
      */
     @java.lang.Override
@@ -324,24 +324,24 @@ public final class OPOHILFOCHPOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (iAMHNPDGKNA_ != 0) {
-        output.writeUInt32(2, iAMHNPDGKNA_);
+      for (int i = 0; i < levelInfoList_.size(); i++) {
+        output.writeMessage(6, levelInfoList_.get(i));
       }
       if (getCNIPLLIJAFDList().size() > 0) {
-        output.writeUInt32NoTag(34);
+        output.writeUInt32NoTag(66);
         output.writeUInt32NoTag(cNIPLLIJAFDMemoizedSerializedSize);
       }
       for (int i = 0; i < cNIPLLIJAFD_.size(); i++) {
         output.writeUInt32NoTag(cNIPLLIJAFD_.getInt(i));
       }
-      for (int i = 0; i < levelInfoList_.size(); i++) {
-        output.writeMessage(6, levelInfoList_.get(i));
-      }
-      if (hMJDEIANCKN_ != 0) {
-        output.writeUInt32(12, hMJDEIANCKN_);
+      if (iAMHNPDGKNA_ != 0) {
+        output.writeUInt32(12, iAMHNPDGKNA_);
       }
       if (WinCount_ != 0) {
-        output.writeUInt32(15, WinCount_);
+        output.writeUInt32(14, WinCount_);
+      }
+      if (hMJDEIANCKN_ != 0) {
+        output.writeUInt32(15, hMJDEIANCKN_);
       }
       unknownFields.writeTo(output);
     }
@@ -352,9 +352,9 @@ public final class OPOHILFOCHPOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (iAMHNPDGKNA_ != 0) {
+      for (int i = 0; i < levelInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, iAMHNPDGKNA_);
+          .computeMessageSize(6, levelInfoList_.get(i));
       }
       {
         int dataSize = 0;
@@ -370,17 +370,17 @@ public final class OPOHILFOCHPOuterClass {
         }
         cNIPLLIJAFDMemoizedSerializedSize = dataSize;
       }
-      for (int i = 0; i < levelInfoList_.size(); i++) {
+      if (iAMHNPDGKNA_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, levelInfoList_.get(i));
-      }
-      if (hMJDEIANCKN_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, hMJDEIANCKN_);
+          .computeUInt32Size(12, iAMHNPDGKNA_);
       }
       if (WinCount_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, WinCount_);
+          .computeUInt32Size(14, WinCount_);
+      }
+      if (hMJDEIANCKN_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(15, hMJDEIANCKN_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -749,7 +749,7 @@ public final class OPOHILFOCHPOuterClass {
 
       private int iAMHNPDGKNA_ ;
       /**
-       * <code>uint32 IAMHNPDGKNA = 2;</code>
+       * <code>uint32 IAMHNPDGKNA = 12;</code>
        * @return The iAMHNPDGKNA.
        */
       @java.lang.Override
@@ -757,7 +757,7 @@ public final class OPOHILFOCHPOuterClass {
         return iAMHNPDGKNA_;
       }
       /**
-       * <code>uint32 IAMHNPDGKNA = 2;</code>
+       * <code>uint32 IAMHNPDGKNA = 12;</code>
        * @param value The iAMHNPDGKNA to set.
        * @return This builder for chaining.
        */
@@ -768,7 +768,7 @@ public final class OPOHILFOCHPOuterClass {
         return this;
       }
       /**
-       * <code>uint32 IAMHNPDGKNA = 2;</code>
+       * <code>uint32 IAMHNPDGKNA = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearIAMHNPDGKNA() {
@@ -786,7 +786,7 @@ public final class OPOHILFOCHPOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 CNIPLLIJAFD = 4;</code>
+       * <code>repeated uint32 CNIPLLIJAFD = 8;</code>
        * @return A list containing the cNIPLLIJAFD.
        */
       public java.util.List<java.lang.Integer>
@@ -795,14 +795,14 @@ public final class OPOHILFOCHPOuterClass {
                  java.util.Collections.unmodifiableList(cNIPLLIJAFD_) : cNIPLLIJAFD_;
       }
       /**
-       * <code>repeated uint32 CNIPLLIJAFD = 4;</code>
+       * <code>repeated uint32 CNIPLLIJAFD = 8;</code>
        * @return The count of cNIPLLIJAFD.
        */
       public int getCNIPLLIJAFDCount() {
         return cNIPLLIJAFD_.size();
       }
       /**
-       * <code>repeated uint32 CNIPLLIJAFD = 4;</code>
+       * <code>repeated uint32 CNIPLLIJAFD = 8;</code>
        * @param index The index of the element to return.
        * @return The cNIPLLIJAFD at the given index.
        */
@@ -810,7 +810,7 @@ public final class OPOHILFOCHPOuterClass {
         return cNIPLLIJAFD_.getInt(index);
       }
       /**
-       * <code>repeated uint32 CNIPLLIJAFD = 4;</code>
+       * <code>repeated uint32 CNIPLLIJAFD = 8;</code>
        * @param index The index to set the value at.
        * @param value The cNIPLLIJAFD to set.
        * @return This builder for chaining.
@@ -823,7 +823,7 @@ public final class OPOHILFOCHPOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 CNIPLLIJAFD = 4;</code>
+       * <code>repeated uint32 CNIPLLIJAFD = 8;</code>
        * @param value The cNIPLLIJAFD to add.
        * @return This builder for chaining.
        */
@@ -834,7 +834,7 @@ public final class OPOHILFOCHPOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 CNIPLLIJAFD = 4;</code>
+       * <code>repeated uint32 CNIPLLIJAFD = 8;</code>
        * @param values The cNIPLLIJAFD to add.
        * @return This builder for chaining.
        */
@@ -847,7 +847,7 @@ public final class OPOHILFOCHPOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 CNIPLLIJAFD = 4;</code>
+       * <code>repeated uint32 CNIPLLIJAFD = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearCNIPLLIJAFD() {
@@ -1099,7 +1099,7 @@ public final class OPOHILFOCHPOuterClass {
 
       private int hMJDEIANCKN_ ;
       /**
-       * <code>uint32 HMJDEIANCKN = 12;</code>
+       * <code>uint32 HMJDEIANCKN = 15;</code>
        * @return The hMJDEIANCKN.
        */
       @java.lang.Override
@@ -1107,7 +1107,7 @@ public final class OPOHILFOCHPOuterClass {
         return hMJDEIANCKN_;
       }
       /**
-       * <code>uint32 HMJDEIANCKN = 12;</code>
+       * <code>uint32 HMJDEIANCKN = 15;</code>
        * @param value The hMJDEIANCKN to set.
        * @return This builder for chaining.
        */
@@ -1118,7 +1118,7 @@ public final class OPOHILFOCHPOuterClass {
         return this;
       }
       /**
-       * <code>uint32 HMJDEIANCKN = 12;</code>
+       * <code>uint32 HMJDEIANCKN = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearHMJDEIANCKN() {
@@ -1130,7 +1130,7 @@ public final class OPOHILFOCHPOuterClass {
 
       private int WinCount_ ;
       /**
-       * <code>uint32 _win_count = 15;</code>
+       * <code>uint32 _win_count = 14;</code>
        * @return The winCount.
        */
       @java.lang.Override
@@ -1138,7 +1138,7 @@ public final class OPOHILFOCHPOuterClass {
         return WinCount_;
       }
       /**
-       * <code>uint32 _win_count = 15;</code>
+       * <code>uint32 _win_count = 14;</code>
        * @param value The winCount to set.
        * @return This builder for chaining.
        */
@@ -1149,7 +1149,7 @@ public final class OPOHILFOCHPOuterClass {
         return this;
       }
       /**
-       * <code>uint32 _win_count = 15;</code>
+       * <code>uint32 _win_count = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearWinCount() {
@@ -1226,10 +1226,10 @@ public final class OPOHILFOCHPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021OPOHILFOCHP.proto\032\021OJMLCFIPPAM.proto\"\207" +
-      "\001\n\013OPOHILFOCHP\022\023\n\013IAMHNPDGKNA\030\002 \001(\r\022\023\n\013C" +
-      "NIPLLIJAFD\030\004 \003(\r\022%\n\017level_info_list\030\006 \003(" +
-      "\0132\014.OJMLCFIPPAM\022\023\n\013HMJDEIANCKN\030\014 \001(\r\022\022\n\n" +
-      "_win_count\030\017 \001(\rB2\n\031emu.grasscutter.net." +
+      "\001\n\013OPOHILFOCHP\022\023\n\013IAMHNPDGKNA\030\014 \001(\r\022\023\n\013C" +
+      "NIPLLIJAFD\030\010 \003(\r\022%\n\017level_info_list\030\006 \003(" +
+      "\0132\014.OJMLCFIPPAM\022\023\n\013HMJDEIANCKN\030\017 \001(\r\022\022\n\n" +
+      "_win_count\030\016 \001(\rB2\n\031emu.grasscutter.net." +
       "protoB\025OPOHILFOCHPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

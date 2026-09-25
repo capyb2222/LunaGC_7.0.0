@@ -19,25 +19,25 @@ public final class IGNEGGFGNHBOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 OMNIHFNCEIN = 4;</code>
+     * <code>uint32 OMNIHFNCEIN = 9;</code>
      * @return The oMNIHFNCEIN.
      */
     int getOMNIHFNCEIN();
 
     /**
-     * <code>uint32 coin_num = 5;</code>
+     * <code>uint32 coin_num = 8;</code>
      * @return The coinNum.
      */
     int getCoinNum();
 
     /**
-     * <code>bool is_finish = 10;</code>
+     * <code>bool is_finish = 14;</code>
      * @return The isFinish.
      */
     boolean getIsFinish();
 
     /**
-     * <code>bool KIEMHBNNEBF = 11;</code>
+     * <code>bool KIEMHBNNEBF = 3;</code>
      * @return The kIEMHBNNEBF.
      */
     boolean getKIEMHBNNEBF();
@@ -87,24 +87,24 @@ public final class IGNEGGFGNHBOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 24: {
 
-              oMNIHFNCEIN_ = input.readUInt32();
+              kIEMHBNNEBF_ = input.readBool();
               break;
             }
-            case 40: {
+            case 64: {
 
               coinNum_ = input.readUInt32();
               break;
             }
-            case 80: {
+            case 72: {
 
-              isFinish_ = input.readBool();
+              oMNIHFNCEIN_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 112: {
 
-              kIEMHBNNEBF_ = input.readBool();
+              isFinish_ = input.readBool();
               break;
             }
             default: {
@@ -139,10 +139,10 @@ public final class IGNEGGFGNHBOuterClass {
               emu.grasscutter.net.proto.IGNEGGFGNHBOuterClass.IGNEGGFGNHB.class, emu.grasscutter.net.proto.IGNEGGFGNHBOuterClass.IGNEGGFGNHB.Builder.class);
     }
 
-    public static final int OMNIHFNCEIN_FIELD_NUMBER = 4;
+    public static final int OMNIHFNCEIN_FIELD_NUMBER = 9;
     private int oMNIHFNCEIN_;
     /**
-     * <code>uint32 OMNIHFNCEIN = 4;</code>
+     * <code>uint32 OMNIHFNCEIN = 9;</code>
      * @return The oMNIHFNCEIN.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class IGNEGGFGNHBOuterClass {
       return oMNIHFNCEIN_;
     }
 
-    public static final int COIN_NUM_FIELD_NUMBER = 5;
+    public static final int COIN_NUM_FIELD_NUMBER = 8;
     private int coinNum_;
     /**
-     * <code>uint32 coin_num = 5;</code>
+     * <code>uint32 coin_num = 8;</code>
      * @return The coinNum.
      */
     @java.lang.Override
@@ -161,10 +161,10 @@ public final class IGNEGGFGNHBOuterClass {
       return coinNum_;
     }
 
-    public static final int IS_FINISH_FIELD_NUMBER = 10;
+    public static final int IS_FINISH_FIELD_NUMBER = 14;
     private boolean isFinish_;
     /**
-     * <code>bool is_finish = 10;</code>
+     * <code>bool is_finish = 14;</code>
      * @return The isFinish.
      */
     @java.lang.Override
@@ -172,10 +172,10 @@ public final class IGNEGGFGNHBOuterClass {
       return isFinish_;
     }
 
-    public static final int KIEMHBNNEBF_FIELD_NUMBER = 11;
+    public static final int KIEMHBNNEBF_FIELD_NUMBER = 3;
     private boolean kIEMHBNNEBF_;
     /**
-     * <code>bool KIEMHBNNEBF = 11;</code>
+     * <code>bool KIEMHBNNEBF = 3;</code>
      * @return The kIEMHBNNEBF.
      */
     @java.lang.Override
@@ -197,17 +197,17 @@ public final class IGNEGGFGNHBOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (oMNIHFNCEIN_ != 0) {
-        output.writeUInt32(4, oMNIHFNCEIN_);
+      if (kIEMHBNNEBF_ != false) {
+        output.writeBool(3, kIEMHBNNEBF_);
       }
       if (coinNum_ != 0) {
-        output.writeUInt32(5, coinNum_);
+        output.writeUInt32(8, coinNum_);
+      }
+      if (oMNIHFNCEIN_ != 0) {
+        output.writeUInt32(9, oMNIHFNCEIN_);
       }
       if (isFinish_ != false) {
-        output.writeBool(10, isFinish_);
-      }
-      if (kIEMHBNNEBF_ != false) {
-        output.writeBool(11, kIEMHBNNEBF_);
+        output.writeBool(14, isFinish_);
       }
       unknownFields.writeTo(output);
     }
@@ -218,21 +218,21 @@ public final class IGNEGGFGNHBOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (oMNIHFNCEIN_ != 0) {
+      if (kIEMHBNNEBF_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, oMNIHFNCEIN_);
+          .computeBoolSize(3, kIEMHBNNEBF_);
       }
       if (coinNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, coinNum_);
+          .computeUInt32Size(8, coinNum_);
+      }
+      if (oMNIHFNCEIN_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(9, oMNIHFNCEIN_);
       }
       if (isFinish_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(10, isFinish_);
-      }
-      if (kIEMHBNNEBF_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(11, kIEMHBNNEBF_);
+          .computeBoolSize(14, isFinish_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -540,7 +540,7 @@ public final class IGNEGGFGNHBOuterClass {
 
       private int oMNIHFNCEIN_ ;
       /**
-       * <code>uint32 OMNIHFNCEIN = 4;</code>
+       * <code>uint32 OMNIHFNCEIN = 9;</code>
        * @return The oMNIHFNCEIN.
        */
       @java.lang.Override
@@ -548,7 +548,7 @@ public final class IGNEGGFGNHBOuterClass {
         return oMNIHFNCEIN_;
       }
       /**
-       * <code>uint32 OMNIHFNCEIN = 4;</code>
+       * <code>uint32 OMNIHFNCEIN = 9;</code>
        * @param value The oMNIHFNCEIN to set.
        * @return This builder for chaining.
        */
@@ -559,7 +559,7 @@ public final class IGNEGGFGNHBOuterClass {
         return this;
       }
       /**
-       * <code>uint32 OMNIHFNCEIN = 4;</code>
+       * <code>uint32 OMNIHFNCEIN = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearOMNIHFNCEIN() {
@@ -571,7 +571,7 @@ public final class IGNEGGFGNHBOuterClass {
 
       private int coinNum_ ;
       /**
-       * <code>uint32 coin_num = 5;</code>
+       * <code>uint32 coin_num = 8;</code>
        * @return The coinNum.
        */
       @java.lang.Override
@@ -579,7 +579,7 @@ public final class IGNEGGFGNHBOuterClass {
         return coinNum_;
       }
       /**
-       * <code>uint32 coin_num = 5;</code>
+       * <code>uint32 coin_num = 8;</code>
        * @param value The coinNum to set.
        * @return This builder for chaining.
        */
@@ -590,7 +590,7 @@ public final class IGNEGGFGNHBOuterClass {
         return this;
       }
       /**
-       * <code>uint32 coin_num = 5;</code>
+       * <code>uint32 coin_num = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearCoinNum() {
@@ -602,7 +602,7 @@ public final class IGNEGGFGNHBOuterClass {
 
       private boolean isFinish_ ;
       /**
-       * <code>bool is_finish = 10;</code>
+       * <code>bool is_finish = 14;</code>
        * @return The isFinish.
        */
       @java.lang.Override
@@ -610,7 +610,7 @@ public final class IGNEGGFGNHBOuterClass {
         return isFinish_;
       }
       /**
-       * <code>bool is_finish = 10;</code>
+       * <code>bool is_finish = 14;</code>
        * @param value The isFinish to set.
        * @return This builder for chaining.
        */
@@ -621,7 +621,7 @@ public final class IGNEGGFGNHBOuterClass {
         return this;
       }
       /**
-       * <code>bool is_finish = 10;</code>
+       * <code>bool is_finish = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsFinish() {
@@ -633,7 +633,7 @@ public final class IGNEGGFGNHBOuterClass {
 
       private boolean kIEMHBNNEBF_ ;
       /**
-       * <code>bool KIEMHBNNEBF = 11;</code>
+       * <code>bool KIEMHBNNEBF = 3;</code>
        * @return The kIEMHBNNEBF.
        */
       @java.lang.Override
@@ -641,7 +641,7 @@ public final class IGNEGGFGNHBOuterClass {
         return kIEMHBNNEBF_;
       }
       /**
-       * <code>bool KIEMHBNNEBF = 11;</code>
+       * <code>bool KIEMHBNNEBF = 3;</code>
        * @param value The kIEMHBNNEBF to set.
        * @return This builder for chaining.
        */
@@ -652,7 +652,7 @@ public final class IGNEGGFGNHBOuterClass {
         return this;
       }
       /**
-       * <code>bool KIEMHBNNEBF = 11;</code>
+       * <code>bool KIEMHBNNEBF = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearKIEMHBNNEBF() {
@@ -729,8 +729,8 @@ public final class IGNEGGFGNHBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021IGNEGGFGNHB.proto\"\\\n\013IGNEGGFGNHB\022\023\n\013OM" +
-      "NIHFNCEIN\030\004 \001(\r\022\020\n\010coin_num\030\005 \001(\r\022\021\n\tis_" +
-      "finish\030\n \001(\010\022\023\n\013KIEMHBNNEBF\030\013 \001(\010B2\n\031emu" +
+      "NIHFNCEIN\030\t \001(\r\022\020\n\010coin_num\030\010 \001(\r\022\021\n\tis_" +
+      "finish\030\016 \001(\010\022\023\n\013KIEMHBNNEBF\030\003 \001(\010B2\n\031emu" +
       ".grasscutter.net.protoB\025IGNEGGFGNHBOuter" +
       "Classb\006proto3"
     };

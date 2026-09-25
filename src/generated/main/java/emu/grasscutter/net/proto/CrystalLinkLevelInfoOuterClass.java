@@ -19,43 +19,43 @@ public final class CrystalLinkLevelInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 level_id = 8;</code>
+     * <code>uint32 level_id = 6;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>uint32 best_score = 10;</code>
+     * <code>uint32 best_score = 14;</code>
      * @return The bestScore.
      */
     int getBestScore();
 
     /**
-     * <code>bool is_open = 12;</code>
+     * <code>bool is_open = 15;</code>
      * @return The isOpen.
      */
     boolean getIsOpen();
 
     /**
-     * <code>repeated .CrystalLinkTeamInfo team_info_list = 13;</code>
+     * <code>repeated .CrystalLinkTeamInfo team_info_list = 11;</code>
      */
     java.util.List<emu.grasscutter.net.proto.CrystalLinkTeamInfoOuterClass.CrystalLinkTeamInfo> 
         getTeamInfoListList();
     /**
-     * <code>repeated .CrystalLinkTeamInfo team_info_list = 13;</code>
+     * <code>repeated .CrystalLinkTeamInfo team_info_list = 11;</code>
      */
     emu.grasscutter.net.proto.CrystalLinkTeamInfoOuterClass.CrystalLinkTeamInfo getTeamInfoList(int index);
     /**
-     * <code>repeated .CrystalLinkTeamInfo team_info_list = 13;</code>
+     * <code>repeated .CrystalLinkTeamInfo team_info_list = 11;</code>
      */
     int getTeamInfoListCount();
     /**
-     * <code>repeated .CrystalLinkTeamInfo team_info_list = 13;</code>
+     * <code>repeated .CrystalLinkTeamInfo team_info_list = 11;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.CrystalLinkTeamInfoOuterClass.CrystalLinkTeamInfoOrBuilder> 
         getTeamInfoListOrBuilderList();
     /**
-     * <code>repeated .CrystalLinkTeamInfo team_info_list = 13;</code>
+     * <code>repeated .CrystalLinkTeamInfo team_info_list = 11;</code>
      */
     emu.grasscutter.net.proto.CrystalLinkTeamInfoOuterClass.CrystalLinkTeamInfoOrBuilder getTeamInfoListOrBuilder(
         int index);
@@ -107,28 +107,28 @@ public final class CrystalLinkLevelInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 64: {
+            case 48: {
 
               levelId_ = input.readUInt32();
               break;
             }
-            case 80: {
-
-              bestScore_ = input.readUInt32();
-              break;
-            }
-            case 96: {
-
-              isOpen_ = input.readBool();
-              break;
-            }
-            case 106: {
+            case 90: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 teamInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.CrystalLinkTeamInfoOuterClass.CrystalLinkTeamInfo>();
                 mutable_bitField0_ |= 0x00000001;
               }
               teamInfoList_.add(
                   input.readMessage(emu.grasscutter.net.proto.CrystalLinkTeamInfoOuterClass.CrystalLinkTeamInfo.parser(), extensionRegistry));
+              break;
+            }
+            case 112: {
+
+              bestScore_ = input.readUInt32();
+              break;
+            }
+            case 120: {
+
+              isOpen_ = input.readBool();
               break;
             }
             default: {
@@ -166,10 +166,10 @@ public final class CrystalLinkLevelInfoOuterClass {
               emu.grasscutter.net.proto.CrystalLinkLevelInfoOuterClass.CrystalLinkLevelInfo.class, emu.grasscutter.net.proto.CrystalLinkLevelInfoOuterClass.CrystalLinkLevelInfo.Builder.class);
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 8;
+    public static final int LEVEL_ID_FIELD_NUMBER = 6;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 8;</code>
+     * <code>uint32 level_id = 6;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -177,10 +177,10 @@ public final class CrystalLinkLevelInfoOuterClass {
       return levelId_;
     }
 
-    public static final int BEST_SCORE_FIELD_NUMBER = 10;
+    public static final int BEST_SCORE_FIELD_NUMBER = 14;
     private int bestScore_;
     /**
-     * <code>uint32 best_score = 10;</code>
+     * <code>uint32 best_score = 14;</code>
      * @return The bestScore.
      */
     @java.lang.Override
@@ -188,10 +188,10 @@ public final class CrystalLinkLevelInfoOuterClass {
       return bestScore_;
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 12;
+    public static final int IS_OPEN_FIELD_NUMBER = 15;
     private boolean isOpen_;
     /**
-     * <code>bool is_open = 12;</code>
+     * <code>bool is_open = 15;</code>
      * @return The isOpen.
      */
     @java.lang.Override
@@ -199,17 +199,17 @@ public final class CrystalLinkLevelInfoOuterClass {
       return isOpen_;
     }
 
-    public static final int TEAM_INFO_LIST_FIELD_NUMBER = 13;
+    public static final int TEAM_INFO_LIST_FIELD_NUMBER = 11;
     private java.util.List<emu.grasscutter.net.proto.CrystalLinkTeamInfoOuterClass.CrystalLinkTeamInfo> teamInfoList_;
     /**
-     * <code>repeated .CrystalLinkTeamInfo team_info_list = 13;</code>
+     * <code>repeated .CrystalLinkTeamInfo team_info_list = 11;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.CrystalLinkTeamInfoOuterClass.CrystalLinkTeamInfo> getTeamInfoListList() {
       return teamInfoList_;
     }
     /**
-     * <code>repeated .CrystalLinkTeamInfo team_info_list = 13;</code>
+     * <code>repeated .CrystalLinkTeamInfo team_info_list = 11;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.CrystalLinkTeamInfoOuterClass.CrystalLinkTeamInfoOrBuilder> 
@@ -217,21 +217,21 @@ public final class CrystalLinkLevelInfoOuterClass {
       return teamInfoList_;
     }
     /**
-     * <code>repeated .CrystalLinkTeamInfo team_info_list = 13;</code>
+     * <code>repeated .CrystalLinkTeamInfo team_info_list = 11;</code>
      */
     @java.lang.Override
     public int getTeamInfoListCount() {
       return teamInfoList_.size();
     }
     /**
-     * <code>repeated .CrystalLinkTeamInfo team_info_list = 13;</code>
+     * <code>repeated .CrystalLinkTeamInfo team_info_list = 11;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.CrystalLinkTeamInfoOuterClass.CrystalLinkTeamInfo getTeamInfoList(int index) {
       return teamInfoList_.get(index);
     }
     /**
-     * <code>repeated .CrystalLinkTeamInfo team_info_list = 13;</code>
+     * <code>repeated .CrystalLinkTeamInfo team_info_list = 11;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.CrystalLinkTeamInfoOuterClass.CrystalLinkTeamInfoOrBuilder getTeamInfoListOrBuilder(
@@ -254,16 +254,16 @@ public final class CrystalLinkLevelInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (levelId_ != 0) {
-        output.writeUInt32(8, levelId_);
-      }
-      if (bestScore_ != 0) {
-        output.writeUInt32(10, bestScore_);
-      }
-      if (isOpen_ != false) {
-        output.writeBool(12, isOpen_);
+        output.writeUInt32(6, levelId_);
       }
       for (int i = 0; i < teamInfoList_.size(); i++) {
-        output.writeMessage(13, teamInfoList_.get(i));
+        output.writeMessage(11, teamInfoList_.get(i));
+      }
+      if (bestScore_ != 0) {
+        output.writeUInt32(14, bestScore_);
+      }
+      if (isOpen_ != false) {
+        output.writeBool(15, isOpen_);
       }
       unknownFields.writeTo(output);
     }
@@ -276,19 +276,19 @@ public final class CrystalLinkLevelInfoOuterClass {
       size = 0;
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, levelId_);
-      }
-      if (bestScore_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, bestScore_);
-      }
-      if (isOpen_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, isOpen_);
+          .computeUInt32Size(6, levelId_);
       }
       for (int i = 0; i < teamInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, teamInfoList_.get(i));
+          .computeMessageSize(11, teamInfoList_.get(i));
+      }
+      if (bestScore_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(14, bestScore_);
+      }
+      if (isOpen_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(15, isOpen_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -635,7 +635,7 @@ public final class CrystalLinkLevelInfoOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 8;</code>
+       * <code>uint32 level_id = 6;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -643,7 +643,7 @@ public final class CrystalLinkLevelInfoOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 8;</code>
+       * <code>uint32 level_id = 6;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -654,7 +654,7 @@ public final class CrystalLinkLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 8;</code>
+       * <code>uint32 level_id = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -666,7 +666,7 @@ public final class CrystalLinkLevelInfoOuterClass {
 
       private int bestScore_ ;
       /**
-       * <code>uint32 best_score = 10;</code>
+       * <code>uint32 best_score = 14;</code>
        * @return The bestScore.
        */
       @java.lang.Override
@@ -674,7 +674,7 @@ public final class CrystalLinkLevelInfoOuterClass {
         return bestScore_;
       }
       /**
-       * <code>uint32 best_score = 10;</code>
+       * <code>uint32 best_score = 14;</code>
        * @param value The bestScore to set.
        * @return This builder for chaining.
        */
@@ -685,7 +685,7 @@ public final class CrystalLinkLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 best_score = 10;</code>
+       * <code>uint32 best_score = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearBestScore() {
@@ -697,7 +697,7 @@ public final class CrystalLinkLevelInfoOuterClass {
 
       private boolean isOpen_ ;
       /**
-       * <code>bool is_open = 12;</code>
+       * <code>bool is_open = 15;</code>
        * @return The isOpen.
        */
       @java.lang.Override
@@ -705,7 +705,7 @@ public final class CrystalLinkLevelInfoOuterClass {
         return isOpen_;
       }
       /**
-       * <code>bool is_open = 12;</code>
+       * <code>bool is_open = 15;</code>
        * @param value The isOpen to set.
        * @return This builder for chaining.
        */
@@ -716,7 +716,7 @@ public final class CrystalLinkLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_open = 12;</code>
+       * <code>bool is_open = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsOpen() {
@@ -739,7 +739,7 @@ public final class CrystalLinkLevelInfoOuterClass {
           emu.grasscutter.net.proto.CrystalLinkTeamInfoOuterClass.CrystalLinkTeamInfo, emu.grasscutter.net.proto.CrystalLinkTeamInfoOuterClass.CrystalLinkTeamInfo.Builder, emu.grasscutter.net.proto.CrystalLinkTeamInfoOuterClass.CrystalLinkTeamInfoOrBuilder> teamInfoListBuilder_;
 
       /**
-       * <code>repeated .CrystalLinkTeamInfo team_info_list = 13;</code>
+       * <code>repeated .CrystalLinkTeamInfo team_info_list = 11;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.CrystalLinkTeamInfoOuterClass.CrystalLinkTeamInfo> getTeamInfoListList() {
         if (teamInfoListBuilder_ == null) {
@@ -749,7 +749,7 @@ public final class CrystalLinkLevelInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .CrystalLinkTeamInfo team_info_list = 13;</code>
+       * <code>repeated .CrystalLinkTeamInfo team_info_list = 11;</code>
        */
       public int getTeamInfoListCount() {
         if (teamInfoListBuilder_ == null) {
@@ -759,7 +759,7 @@ public final class CrystalLinkLevelInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .CrystalLinkTeamInfo team_info_list = 13;</code>
+       * <code>repeated .CrystalLinkTeamInfo team_info_list = 11;</code>
        */
       public emu.grasscutter.net.proto.CrystalLinkTeamInfoOuterClass.CrystalLinkTeamInfo getTeamInfoList(int index) {
         if (teamInfoListBuilder_ == null) {
@@ -769,7 +769,7 @@ public final class CrystalLinkLevelInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .CrystalLinkTeamInfo team_info_list = 13;</code>
+       * <code>repeated .CrystalLinkTeamInfo team_info_list = 11;</code>
        */
       public Builder setTeamInfoList(
           int index, emu.grasscutter.net.proto.CrystalLinkTeamInfoOuterClass.CrystalLinkTeamInfo value) {
@@ -786,7 +786,7 @@ public final class CrystalLinkLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CrystalLinkTeamInfo team_info_list = 13;</code>
+       * <code>repeated .CrystalLinkTeamInfo team_info_list = 11;</code>
        */
       public Builder setTeamInfoList(
           int index, emu.grasscutter.net.proto.CrystalLinkTeamInfoOuterClass.CrystalLinkTeamInfo.Builder builderForValue) {
@@ -800,7 +800,7 @@ public final class CrystalLinkLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CrystalLinkTeamInfo team_info_list = 13;</code>
+       * <code>repeated .CrystalLinkTeamInfo team_info_list = 11;</code>
        */
       public Builder addTeamInfoList(emu.grasscutter.net.proto.CrystalLinkTeamInfoOuterClass.CrystalLinkTeamInfo value) {
         if (teamInfoListBuilder_ == null) {
@@ -816,7 +816,7 @@ public final class CrystalLinkLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CrystalLinkTeamInfo team_info_list = 13;</code>
+       * <code>repeated .CrystalLinkTeamInfo team_info_list = 11;</code>
        */
       public Builder addTeamInfoList(
           int index, emu.grasscutter.net.proto.CrystalLinkTeamInfoOuterClass.CrystalLinkTeamInfo value) {
@@ -833,7 +833,7 @@ public final class CrystalLinkLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CrystalLinkTeamInfo team_info_list = 13;</code>
+       * <code>repeated .CrystalLinkTeamInfo team_info_list = 11;</code>
        */
       public Builder addTeamInfoList(
           emu.grasscutter.net.proto.CrystalLinkTeamInfoOuterClass.CrystalLinkTeamInfo.Builder builderForValue) {
@@ -847,7 +847,7 @@ public final class CrystalLinkLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CrystalLinkTeamInfo team_info_list = 13;</code>
+       * <code>repeated .CrystalLinkTeamInfo team_info_list = 11;</code>
        */
       public Builder addTeamInfoList(
           int index, emu.grasscutter.net.proto.CrystalLinkTeamInfoOuterClass.CrystalLinkTeamInfo.Builder builderForValue) {
@@ -861,7 +861,7 @@ public final class CrystalLinkLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CrystalLinkTeamInfo team_info_list = 13;</code>
+       * <code>repeated .CrystalLinkTeamInfo team_info_list = 11;</code>
        */
       public Builder addAllTeamInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.CrystalLinkTeamInfoOuterClass.CrystalLinkTeamInfo> values) {
@@ -876,7 +876,7 @@ public final class CrystalLinkLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CrystalLinkTeamInfo team_info_list = 13;</code>
+       * <code>repeated .CrystalLinkTeamInfo team_info_list = 11;</code>
        */
       public Builder clearTeamInfoList() {
         if (teamInfoListBuilder_ == null) {
@@ -889,7 +889,7 @@ public final class CrystalLinkLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CrystalLinkTeamInfo team_info_list = 13;</code>
+       * <code>repeated .CrystalLinkTeamInfo team_info_list = 11;</code>
        */
       public Builder removeTeamInfoList(int index) {
         if (teamInfoListBuilder_ == null) {
@@ -902,14 +902,14 @@ public final class CrystalLinkLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CrystalLinkTeamInfo team_info_list = 13;</code>
+       * <code>repeated .CrystalLinkTeamInfo team_info_list = 11;</code>
        */
       public emu.grasscutter.net.proto.CrystalLinkTeamInfoOuterClass.CrystalLinkTeamInfo.Builder getTeamInfoListBuilder(
           int index) {
         return getTeamInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .CrystalLinkTeamInfo team_info_list = 13;</code>
+       * <code>repeated .CrystalLinkTeamInfo team_info_list = 11;</code>
        */
       public emu.grasscutter.net.proto.CrystalLinkTeamInfoOuterClass.CrystalLinkTeamInfoOrBuilder getTeamInfoListOrBuilder(
           int index) {
@@ -919,7 +919,7 @@ public final class CrystalLinkLevelInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .CrystalLinkTeamInfo team_info_list = 13;</code>
+       * <code>repeated .CrystalLinkTeamInfo team_info_list = 11;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.CrystalLinkTeamInfoOuterClass.CrystalLinkTeamInfoOrBuilder> 
            getTeamInfoListOrBuilderList() {
@@ -930,14 +930,14 @@ public final class CrystalLinkLevelInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .CrystalLinkTeamInfo team_info_list = 13;</code>
+       * <code>repeated .CrystalLinkTeamInfo team_info_list = 11;</code>
        */
       public emu.grasscutter.net.proto.CrystalLinkTeamInfoOuterClass.CrystalLinkTeamInfo.Builder addTeamInfoListBuilder() {
         return getTeamInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.CrystalLinkTeamInfoOuterClass.CrystalLinkTeamInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .CrystalLinkTeamInfo team_info_list = 13;</code>
+       * <code>repeated .CrystalLinkTeamInfo team_info_list = 11;</code>
        */
       public emu.grasscutter.net.proto.CrystalLinkTeamInfoOuterClass.CrystalLinkTeamInfo.Builder addTeamInfoListBuilder(
           int index) {
@@ -945,7 +945,7 @@ public final class CrystalLinkLevelInfoOuterClass {
             index, emu.grasscutter.net.proto.CrystalLinkTeamInfoOuterClass.CrystalLinkTeamInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .CrystalLinkTeamInfo team_info_list = 13;</code>
+       * <code>repeated .CrystalLinkTeamInfo team_info_list = 11;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.CrystalLinkTeamInfoOuterClass.CrystalLinkTeamInfo.Builder> 
            getTeamInfoListBuilderList() {
@@ -1034,8 +1034,8 @@ public final class CrystalLinkLevelInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032CrystalLinkLevelInfo.proto\032\031CrystalLin" +
       "kTeamInfo.proto\"{\n\024CrystalLinkLevelInfo\022" +
-      "\020\n\010level_id\030\010 \001(\r\022\022\n\nbest_score\030\n \001(\r\022\017\n" +
-      "\007is_open\030\014 \001(\010\022,\n\016team_info_list\030\r \003(\0132\024" +
+      "\020\n\010level_id\030\006 \001(\r\022\022\n\nbest_score\030\016 \001(\r\022\017\n" +
+      "\007is_open\030\017 \001(\010\022,\n\016team_info_list\030\013 \003(\0132\024" +
       ".CrystalLinkTeamInfoB;\n\031emu.grasscutter." +
       "net.protoB\036CrystalLinkLevelInfoOuterClas" +
       "sb\006proto3"

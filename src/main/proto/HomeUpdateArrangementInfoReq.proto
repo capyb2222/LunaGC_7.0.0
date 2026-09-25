@@ -6,5 +6,5 @@ option java_outer_classname = "HomeUpdateArrangementInfoReqOuterClass";
 import "HomeSceneArrangementInfo.proto";
 
 message HomeUpdateArrangementInfoReq {
-	HomeSceneArrangementInfo scene_arrangement_info = 2;
+	HomeSceneArrangementInfo scene_arrangement_info = 3;
 }

@@ -6,5 +6,5 @@ option java_outer_classname = "BuoyantCombatDetailInfoOuterClass";
 import "BuoyantCombatDailyInfo.proto";
 
 message BuoyantCombatDetailInfo {
-	repeated BuoyantCombatDailyInfo daily_info_list = 12;
+	repeated BuoyantCombatDailyInfo daily_info_list = 10;
 }

@@ -19,13 +19,13 @@ public final class SetOpenStateReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 value = 2;</code>
+     * <code>uint32 value = 14;</code>
      * @return The value.
      */
     int getValue();
 
     /**
-     * <code>uint32 key = 3;</code>
+     * <code>uint32 key = 7;</code>
      * @return The key.
      */
     int getKey();
@@ -75,14 +75,14 @@ public final class SetOpenStateReqOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
-
-              value_ = input.readUInt32();
-              break;
-            }
-            case 24: {
+            case 56: {
 
               key_ = input.readUInt32();
+              break;
+            }
+            case 112: {
+
+              value_ = input.readUInt32();
               break;
             }
             default: {
@@ -117,10 +117,10 @@ public final class SetOpenStateReqOuterClass {
               emu.grasscutter.net.proto.SetOpenStateReqOuterClass.SetOpenStateReq.class, emu.grasscutter.net.proto.SetOpenStateReqOuterClass.SetOpenStateReq.Builder.class);
     }
 
-    public static final int VALUE_FIELD_NUMBER = 2;
+    public static final int VALUE_FIELD_NUMBER = 14;
     private int value_;
     /**
-     * <code>uint32 value = 2;</code>
+     * <code>uint32 value = 14;</code>
      * @return The value.
      */
     @java.lang.Override
@@ -128,10 +128,10 @@ public final class SetOpenStateReqOuterClass {
       return value_;
     }
 
-    public static final int KEY_FIELD_NUMBER = 3;
+    public static final int KEY_FIELD_NUMBER = 7;
     private int key_;
     /**
-     * <code>uint32 key = 3;</code>
+     * <code>uint32 key = 7;</code>
      * @return The key.
      */
     @java.lang.Override
@@ -153,11 +153,11 @@ public final class SetOpenStateReqOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (value_ != 0) {
-        output.writeUInt32(2, value_);
-      }
       if (key_ != 0) {
-        output.writeUInt32(3, key_);
+        output.writeUInt32(7, key_);
+      }
+      if (value_ != 0) {
+        output.writeUInt32(14, value_);
       }
       unknownFields.writeTo(output);
     }
@@ -168,13 +168,13 @@ public final class SetOpenStateReqOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (value_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, value_);
-      }
       if (key_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, key_);
+          .computeUInt32Size(7, key_);
+      }
+      if (value_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(14, value_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -460,7 +460,7 @@ public final class SetOpenStateReqOuterClass {
 
       private int value_ ;
       /**
-       * <code>uint32 value = 2;</code>
+       * <code>uint32 value = 14;</code>
        * @return The value.
        */
       @java.lang.Override
@@ -468,7 +468,7 @@ public final class SetOpenStateReqOuterClass {
         return value_;
       }
       /**
-       * <code>uint32 value = 2;</code>
+       * <code>uint32 value = 14;</code>
        * @param value The value to set.
        * @return This builder for chaining.
        */
@@ -479,7 +479,7 @@ public final class SetOpenStateReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 value = 2;</code>
+       * <code>uint32 value = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearValue() {
@@ -491,7 +491,7 @@ public final class SetOpenStateReqOuterClass {
 
       private int key_ ;
       /**
-       * <code>uint32 key = 3;</code>
+       * <code>uint32 key = 7;</code>
        * @return The key.
        */
       @java.lang.Override
@@ -499,7 +499,7 @@ public final class SetOpenStateReqOuterClass {
         return key_;
       }
       /**
-       * <code>uint32 key = 3;</code>
+       * <code>uint32 key = 7;</code>
        * @param value The key to set.
        * @return This builder for chaining.
        */
@@ -510,7 +510,7 @@ public final class SetOpenStateReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 key = 3;</code>
+       * <code>uint32 key = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearKey() {
@@ -587,7 +587,7 @@ public final class SetOpenStateReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\025SetOpenStateReq.proto\"-\n\017SetOpenStateR" +
-      "eq\022\r\n\005value\030\002 \001(\r\022\013\n\003key\030\003 \001(\rB6\n\031emu.gr" +
+      "eq\022\r\n\005value\030\016 \001(\r\022\013\n\003key\030\007 \001(\rB6\n\031emu.gr" +
       "asscutter.net.protoB\031SetOpenStateReqOute" +
       "rClassb\006proto3"
     };

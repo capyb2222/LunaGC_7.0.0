@@ -19,13 +19,13 @@ public final class BBJEJOLHJGLOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 uid = 6;</code>
+     * <code>uint32 uid = 3;</code>
      * @return The uid.
      */
     int getUid();
 
     /**
-     * <code>uint32 PIIOLOFCOLB = 11;</code>
+     * <code>uint32 PIIOLOFCOLB = 9;</code>
      * @return The pIIOLOFCOLB.
      */
     int getPIIOLOFCOLB();
@@ -75,12 +75,12 @@ public final class BBJEJOLHJGLOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
+            case 24: {
 
               uid_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 72: {
 
               pIIOLOFCOLB_ = input.readUInt32();
               break;
@@ -117,10 +117,10 @@ public final class BBJEJOLHJGLOuterClass {
               emu.grasscutter.net.proto.BBJEJOLHJGLOuterClass.BBJEJOLHJGL.class, emu.grasscutter.net.proto.BBJEJOLHJGLOuterClass.BBJEJOLHJGL.Builder.class);
     }
 
-    public static final int UID_FIELD_NUMBER = 6;
+    public static final int UID_FIELD_NUMBER = 3;
     private int uid_;
     /**
-     * <code>uint32 uid = 6;</code>
+     * <code>uint32 uid = 3;</code>
      * @return The uid.
      */
     @java.lang.Override
@@ -128,10 +128,10 @@ public final class BBJEJOLHJGLOuterClass {
       return uid_;
     }
 
-    public static final int PIIOLOFCOLB_FIELD_NUMBER = 11;
+    public static final int PIIOLOFCOLB_FIELD_NUMBER = 9;
     private int pIIOLOFCOLB_;
     /**
-     * <code>uint32 PIIOLOFCOLB = 11;</code>
+     * <code>uint32 PIIOLOFCOLB = 9;</code>
      * @return The pIIOLOFCOLB.
      */
     @java.lang.Override
@@ -154,10 +154,10 @@ public final class BBJEJOLHJGLOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (uid_ != 0) {
-        output.writeUInt32(6, uid_);
+        output.writeUInt32(3, uid_);
       }
       if (pIIOLOFCOLB_ != 0) {
-        output.writeUInt32(11, pIIOLOFCOLB_);
+        output.writeUInt32(9, pIIOLOFCOLB_);
       }
       unknownFields.writeTo(output);
     }
@@ -170,11 +170,11 @@ public final class BBJEJOLHJGLOuterClass {
       size = 0;
       if (uid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, uid_);
+          .computeUInt32Size(3, uid_);
       }
       if (pIIOLOFCOLB_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, pIIOLOFCOLB_);
+          .computeUInt32Size(9, pIIOLOFCOLB_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -460,7 +460,7 @@ public final class BBJEJOLHJGLOuterClass {
 
       private int uid_ ;
       /**
-       * <code>uint32 uid = 6;</code>
+       * <code>uint32 uid = 3;</code>
        * @return The uid.
        */
       @java.lang.Override
@@ -468,7 +468,7 @@ public final class BBJEJOLHJGLOuterClass {
         return uid_;
       }
       /**
-       * <code>uint32 uid = 6;</code>
+       * <code>uint32 uid = 3;</code>
        * @param value The uid to set.
        * @return This builder for chaining.
        */
@@ -479,7 +479,7 @@ public final class BBJEJOLHJGLOuterClass {
         return this;
       }
       /**
-       * <code>uint32 uid = 6;</code>
+       * <code>uint32 uid = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearUid() {
@@ -491,7 +491,7 @@ public final class BBJEJOLHJGLOuterClass {
 
       private int pIIOLOFCOLB_ ;
       /**
-       * <code>uint32 PIIOLOFCOLB = 11;</code>
+       * <code>uint32 PIIOLOFCOLB = 9;</code>
        * @return The pIIOLOFCOLB.
        */
       @java.lang.Override
@@ -499,7 +499,7 @@ public final class BBJEJOLHJGLOuterClass {
         return pIIOLOFCOLB_;
       }
       /**
-       * <code>uint32 PIIOLOFCOLB = 11;</code>
+       * <code>uint32 PIIOLOFCOLB = 9;</code>
        * @param value The pIIOLOFCOLB to set.
        * @return This builder for chaining.
        */
@@ -510,7 +510,7 @@ public final class BBJEJOLHJGLOuterClass {
         return this;
       }
       /**
-       * <code>uint32 PIIOLOFCOLB = 11;</code>
+       * <code>uint32 PIIOLOFCOLB = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearPIIOLOFCOLB() {
@@ -587,7 +587,7 @@ public final class BBJEJOLHJGLOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021BBJEJOLHJGL.proto\"/\n\013BBJEJOLHJGL\022\013\n\003ui" +
-      "d\030\006 \001(\r\022\023\n\013PIIOLOFCOLB\030\013 \001(\rB2\n\031emu.gras" +
+      "d\030\003 \001(\r\022\023\n\013PIIOLOFCOLB\030\t \001(\rB2\n\031emu.gras" +
       "scutter.net.protoB\025BBJEJOLHJGLOuterClass" +
       "b\006proto3"
     };

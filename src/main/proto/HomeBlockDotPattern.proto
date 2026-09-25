@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "HomeBlockDotPatternOuterClass";
 
 message HomeBlockDotPattern {
-	uint32 height = 1;
-	bytes data = 11;
-	uint32 width = 13;
+	uint32 height = 2;
+	bytes data = 7;
+	uint32 width = 6;
 }

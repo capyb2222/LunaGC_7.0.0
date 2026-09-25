@@ -4,5 +4,5 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "PIJIEDJBGCNOuterClass";
 
 message PIJIEDJBGCN {
-	bool DMOAFJHLHMH = 14;
+	bool DMOAFJHLHMH = 7;
 }

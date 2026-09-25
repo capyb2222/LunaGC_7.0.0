@@ -6,6 +6,6 @@ option java_outer_classname = "EvtDestroyGadgetNotifyOuterClass";
 import "ForwardType.proto";
 
 message EvtDestroyGadgetNotify {
-	ForwardType forward_type = 7;
-	uint32 entity_id = 8;
+	ForwardType forward_type = 10;
+	uint32 entity_id = 15;
 }

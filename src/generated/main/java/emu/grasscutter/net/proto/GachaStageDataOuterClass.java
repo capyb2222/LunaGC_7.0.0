@@ -19,23 +19,23 @@ public final class GachaStageDataOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 stage_id = 6;</code>
+     * <code>uint32 stage_id = 11;</code>
      * @return The stageId.
      */
     int getStageId();
 
     /**
-     * <code>bool is_open = 12;</code>
+     * <code>bool is_open = 8;</code>
      * @return The isOpen.
      */
     boolean getIsOpen();
 
     /**
-     * <code>map&lt;uint32, uint32&gt; target_num_map = 13;</code>
+     * <code>map&lt;uint32, uint32&gt; target_num_map = 15;</code>
      */
     int getTargetNumMapCount();
     /**
-     * <code>map&lt;uint32, uint32&gt; target_num_map = 13;</code>
+     * <code>map&lt;uint32, uint32&gt; target_num_map = 15;</code>
      */
     boolean containsTargetNumMap(
         int key);
@@ -46,19 +46,19 @@ public final class GachaStageDataOuterClass {
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getTargetNumMap();
     /**
-     * <code>map&lt;uint32, uint32&gt; target_num_map = 13;</code>
+     * <code>map&lt;uint32, uint32&gt; target_num_map = 15;</code>
      */
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getTargetNumMapMap();
     /**
-     * <code>map&lt;uint32, uint32&gt; target_num_map = 13;</code>
+     * <code>map&lt;uint32, uint32&gt; target_num_map = 15;</code>
      */
 
     int getTargetNumMapOrDefault(
         int key,
         int defaultValue);
     /**
-     * <code>map&lt;uint32, uint32&gt; target_num_map = 13;</code>
+     * <code>map&lt;uint32, uint32&gt; target_num_map = 15;</code>
      */
 
     int getTargetNumMapOrThrow(
@@ -110,17 +110,17 @@ public final class GachaStageDataOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
-
-              stageId_ = input.readUInt32();
-              break;
-            }
-            case 96: {
+            case 64: {
 
               isOpen_ = input.readBool();
               break;
             }
-            case 106: {
+            case 88: {
+
+              stageId_ = input.readUInt32();
+              break;
+            }
+            case 122: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 targetNumMap_ = com.google.protobuf.MapField.newMapField(
                     TargetNumMapDefaultEntryHolder.defaultEntry);
@@ -162,7 +162,7 @@ public final class GachaStageDataOuterClass {
     protected com.google.protobuf.MapField internalGetMapField(
         int number) {
       switch (number) {
-        case 13:
+        case 15:
           return internalGetTargetNumMap();
         default:
           throw new RuntimeException(
@@ -177,10 +177,10 @@ public final class GachaStageDataOuterClass {
               emu.grasscutter.net.proto.GachaStageDataOuterClass.GachaStageData.class, emu.grasscutter.net.proto.GachaStageDataOuterClass.GachaStageData.Builder.class);
     }
 
-    public static final int STAGE_ID_FIELD_NUMBER = 6;
+    public static final int STAGE_ID_FIELD_NUMBER = 11;
     private int stageId_;
     /**
-     * <code>uint32 stage_id = 6;</code>
+     * <code>uint32 stage_id = 11;</code>
      * @return The stageId.
      */
     @java.lang.Override
@@ -188,10 +188,10 @@ public final class GachaStageDataOuterClass {
       return stageId_;
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 12;
+    public static final int IS_OPEN_FIELD_NUMBER = 8;
     private boolean isOpen_;
     /**
-     * <code>bool is_open = 12;</code>
+     * <code>bool is_open = 8;</code>
      * @return The isOpen.
      */
     @java.lang.Override
@@ -199,7 +199,7 @@ public final class GachaStageDataOuterClass {
       return isOpen_;
     }
 
-    public static final int TARGET_NUM_MAP_FIELD_NUMBER = 13;
+    public static final int TARGET_NUM_MAP_FIELD_NUMBER = 15;
     private static final class TargetNumMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, java.lang.Integer> defaultEntry =
@@ -226,7 +226,7 @@ public final class GachaStageDataOuterClass {
       return internalGetTargetNumMap().getMap().size();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; target_num_map = 13;</code>
+     * <code>map&lt;uint32, uint32&gt; target_num_map = 15;</code>
      */
 
     @java.lang.Override
@@ -244,7 +244,7 @@ public final class GachaStageDataOuterClass {
       return getTargetNumMapMap();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; target_num_map = 13;</code>
+     * <code>map&lt;uint32, uint32&gt; target_num_map = 15;</code>
      */
     @java.lang.Override
 
@@ -252,7 +252,7 @@ public final class GachaStageDataOuterClass {
       return internalGetTargetNumMap().getMap();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; target_num_map = 13;</code>
+     * <code>map&lt;uint32, uint32&gt; target_num_map = 15;</code>
      */
     @java.lang.Override
 
@@ -265,7 +265,7 @@ public final class GachaStageDataOuterClass {
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; target_num_map = 13;</code>
+     * <code>map&lt;uint32, uint32&gt; target_num_map = 15;</code>
      */
     @java.lang.Override
 
@@ -294,18 +294,18 @@ public final class GachaStageDataOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (stageId_ != 0) {
-        output.writeUInt32(6, stageId_);
-      }
       if (isOpen_ != false) {
-        output.writeBool(12, isOpen_);
+        output.writeBool(8, isOpen_);
+      }
+      if (stageId_ != 0) {
+        output.writeUInt32(11, stageId_);
       }
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
           output,
           internalGetTargetNumMap(),
           TargetNumMapDefaultEntryHolder.defaultEntry,
-          13);
+          15);
       unknownFields.writeTo(output);
     }
 
@@ -315,13 +315,13 @@ public final class GachaStageDataOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (stageId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, stageId_);
-      }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, isOpen_);
+          .computeBoolSize(8, isOpen_);
+      }
+      if (stageId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(11, stageId_);
       }
       for (java.util.Map.Entry<java.lang.Integer, java.lang.Integer> entry
            : internalGetTargetNumMap().getMap().entrySet()) {
@@ -331,7 +331,7 @@ public final class GachaStageDataOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(13, targetNumMap__);
+            .computeMessageSize(15, targetNumMap__);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -485,7 +485,7 @@ public final class GachaStageDataOuterClass {
       protected com.google.protobuf.MapField internalGetMapField(
           int number) {
         switch (number) {
-          case 13:
+          case 15:
             return internalGetTargetNumMap();
           default:
             throw new RuntimeException(
@@ -496,7 +496,7 @@ public final class GachaStageDataOuterClass {
       protected com.google.protobuf.MapField internalGetMutableMapField(
           int number) {
         switch (number) {
-          case 13:
+          case 15:
             return internalGetMutableTargetNumMap();
           default:
             throw new RuntimeException(
@@ -653,7 +653,7 @@ public final class GachaStageDataOuterClass {
 
       private int stageId_ ;
       /**
-       * <code>uint32 stage_id = 6;</code>
+       * <code>uint32 stage_id = 11;</code>
        * @return The stageId.
        */
       @java.lang.Override
@@ -661,7 +661,7 @@ public final class GachaStageDataOuterClass {
         return stageId_;
       }
       /**
-       * <code>uint32 stage_id = 6;</code>
+       * <code>uint32 stage_id = 11;</code>
        * @param value The stageId to set.
        * @return This builder for chaining.
        */
@@ -672,7 +672,7 @@ public final class GachaStageDataOuterClass {
         return this;
       }
       /**
-       * <code>uint32 stage_id = 6;</code>
+       * <code>uint32 stage_id = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearStageId() {
@@ -684,7 +684,7 @@ public final class GachaStageDataOuterClass {
 
       private boolean isOpen_ ;
       /**
-       * <code>bool is_open = 12;</code>
+       * <code>bool is_open = 8;</code>
        * @return The isOpen.
        */
       @java.lang.Override
@@ -692,7 +692,7 @@ public final class GachaStageDataOuterClass {
         return isOpen_;
       }
       /**
-       * <code>bool is_open = 12;</code>
+       * <code>bool is_open = 8;</code>
        * @param value The isOpen to set.
        * @return This builder for chaining.
        */
@@ -703,7 +703,7 @@ public final class GachaStageDataOuterClass {
         return this;
       }
       /**
-       * <code>bool is_open = 12;</code>
+       * <code>bool is_open = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsOpen() {
@@ -740,7 +740,7 @@ public final class GachaStageDataOuterClass {
         return internalGetTargetNumMap().getMap().size();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; target_num_map = 13;</code>
+       * <code>map&lt;uint32, uint32&gt; target_num_map = 15;</code>
        */
 
       @java.lang.Override
@@ -758,7 +758,7 @@ public final class GachaStageDataOuterClass {
         return getTargetNumMapMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; target_num_map = 13;</code>
+       * <code>map&lt;uint32, uint32&gt; target_num_map = 15;</code>
        */
       @java.lang.Override
 
@@ -766,7 +766,7 @@ public final class GachaStageDataOuterClass {
         return internalGetTargetNumMap().getMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; target_num_map = 13;</code>
+       * <code>map&lt;uint32, uint32&gt; target_num_map = 15;</code>
        */
       @java.lang.Override
 
@@ -779,7 +779,7 @@ public final class GachaStageDataOuterClass {
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; target_num_map = 13;</code>
+       * <code>map&lt;uint32, uint32&gt; target_num_map = 15;</code>
        */
       @java.lang.Override
 
@@ -800,7 +800,7 @@ public final class GachaStageDataOuterClass {
         return this;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; target_num_map = 13;</code>
+       * <code>map&lt;uint32, uint32&gt; target_num_map = 15;</code>
        */
 
       public Builder removeTargetNumMap(
@@ -819,7 +819,7 @@ public final class GachaStageDataOuterClass {
         return internalGetMutableTargetNumMap().getMutableMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; target_num_map = 13;</code>
+       * <code>map&lt;uint32, uint32&gt; target_num_map = 15;</code>
        */
       public Builder putTargetNumMap(
           int key,
@@ -831,7 +831,7 @@ public final class GachaStageDataOuterClass {
         return this;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; target_num_map = 13;</code>
+       * <code>map&lt;uint32, uint32&gt; target_num_map = 15;</code>
        */
 
       public Builder putAllTargetNumMap(
@@ -913,8 +913,8 @@ public final class GachaStageDataOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\024GachaStageData.proto\"\243\001\n\016GachaStageDat" +
-      "a\022\020\n\010stage_id\030\006 \001(\r\022\017\n\007is_open\030\014 \001(\010\0229\n\016" +
-      "target_num_map\030\r \003(\0132!.GachaStageData.Ta" +
+      "a\022\020\n\010stage_id\030\013 \001(\r\022\017\n\007is_open\030\010 \001(\010\0229\n\016" +
+      "target_num_map\030\017 \003(\0132!.GachaStageData.Ta" +
       "rgetNumMapEntry\0323\n\021TargetNumMapEntry\022\013\n\003" +
       "key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B5\n\031emu.gras" +
       "scutter.net.protoB\030GachaStageDataOuterCl" +

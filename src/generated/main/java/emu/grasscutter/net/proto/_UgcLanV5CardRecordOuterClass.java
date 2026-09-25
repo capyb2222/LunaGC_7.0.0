@@ -19,25 +19,25 @@ public final class _UgcLanV5CardRecordOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+     * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 4;</code>
      */
     java.util.List<emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL> 
         getLCFBHOGGFHBList();
     /**
-     * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+     * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 4;</code>
      */
     emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL getLCFBHOGGFHB(int index);
     /**
-     * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+     * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 4;</code>
      */
     int getLCFBHOGGFHBCount();
     /**
-     * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+     * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 4;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLLOrBuilder> 
         getLCFBHOGGFHBOrBuilderList();
     /**
-     * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+     * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 4;</code>
      */
     emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLLOrBuilder getLCFBHOGGFHBOrBuilder(
         int index);
@@ -89,7 +89,7 @@ public final class _UgcLanV5CardRecordOuterClass {
             case 0:
               done = true;
               break;
-            case 10: {
+            case 34: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 lCFBHOGGFHB_ = new java.util.ArrayList<emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL>();
                 mutable_bitField0_ |= 0x00000001;
@@ -133,17 +133,17 @@ public final class _UgcLanV5CardRecordOuterClass {
               emu.grasscutter.net.proto._UgcLanV5CardRecordOuterClass._UgcLanV5CardRecord.class, emu.grasscutter.net.proto._UgcLanV5CardRecordOuterClass._UgcLanV5CardRecord.Builder.class);
     }
 
-    public static final int LCFBHOGGFHB_FIELD_NUMBER = 1;
+    public static final int LCFBHOGGFHB_FIELD_NUMBER = 4;
     private java.util.List<emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL> lCFBHOGGFHB_;
     /**
-     * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+     * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 4;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL> getLCFBHOGGFHBList() {
       return lCFBHOGGFHB_;
     }
     /**
-     * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+     * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 4;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLLOrBuilder> 
@@ -151,21 +151,21 @@ public final class _UgcLanV5CardRecordOuterClass {
       return lCFBHOGGFHB_;
     }
     /**
-     * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+     * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 4;</code>
      */
     @java.lang.Override
     public int getLCFBHOGGFHBCount() {
       return lCFBHOGGFHB_.size();
     }
     /**
-     * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+     * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 4;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL getLCFBHOGGFHB(int index) {
       return lCFBHOGGFHB_.get(index);
     }
     /**
-     * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+     * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 4;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLLOrBuilder getLCFBHOGGFHBOrBuilder(
@@ -188,7 +188,7 @@ public final class _UgcLanV5CardRecordOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < lCFBHOGGFHB_.size(); i++) {
-        output.writeMessage(1, lCFBHOGGFHB_.get(i));
+        output.writeMessage(4, lCFBHOGGFHB_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -201,7 +201,7 @@ public final class _UgcLanV5CardRecordOuterClass {
       size = 0;
       for (int i = 0; i < lCFBHOGGFHB_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, lCFBHOGGFHB_.get(i));
+          .computeMessageSize(4, lCFBHOGGFHB_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -528,7 +528,7 @@ public final class _UgcLanV5CardRecordOuterClass {
           emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL, emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL.Builder, emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLLOrBuilder> lCFBHOGGFHBBuilder_;
 
       /**
-       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 4;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL> getLCFBHOGGFHBList() {
         if (lCFBHOGGFHBBuilder_ == null) {
@@ -538,7 +538,7 @@ public final class _UgcLanV5CardRecordOuterClass {
         }
       }
       /**
-       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 4;</code>
        */
       public int getLCFBHOGGFHBCount() {
         if (lCFBHOGGFHBBuilder_ == null) {
@@ -548,7 +548,7 @@ public final class _UgcLanV5CardRecordOuterClass {
         }
       }
       /**
-       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 4;</code>
        */
       public emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL getLCFBHOGGFHB(int index) {
         if (lCFBHOGGFHBBuilder_ == null) {
@@ -558,7 +558,7 @@ public final class _UgcLanV5CardRecordOuterClass {
         }
       }
       /**
-       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 4;</code>
        */
       public Builder setLCFBHOGGFHB(
           int index, emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL value) {
@@ -575,7 +575,7 @@ public final class _UgcLanV5CardRecordOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 4;</code>
        */
       public Builder setLCFBHOGGFHB(
           int index, emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL.Builder builderForValue) {
@@ -589,7 +589,7 @@ public final class _UgcLanV5CardRecordOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 4;</code>
        */
       public Builder addLCFBHOGGFHB(emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL value) {
         if (lCFBHOGGFHBBuilder_ == null) {
@@ -605,7 +605,7 @@ public final class _UgcLanV5CardRecordOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 4;</code>
        */
       public Builder addLCFBHOGGFHB(
           int index, emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL value) {
@@ -622,7 +622,7 @@ public final class _UgcLanV5CardRecordOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 4;</code>
        */
       public Builder addLCFBHOGGFHB(
           emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL.Builder builderForValue) {
@@ -636,7 +636,7 @@ public final class _UgcLanV5CardRecordOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 4;</code>
        */
       public Builder addLCFBHOGGFHB(
           int index, emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL.Builder builderForValue) {
@@ -650,7 +650,7 @@ public final class _UgcLanV5CardRecordOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 4;</code>
        */
       public Builder addAllLCFBHOGGFHB(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL> values) {
@@ -665,7 +665,7 @@ public final class _UgcLanV5CardRecordOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 4;</code>
        */
       public Builder clearLCFBHOGGFHB() {
         if (lCFBHOGGFHBBuilder_ == null) {
@@ -678,7 +678,7 @@ public final class _UgcLanV5CardRecordOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 4;</code>
        */
       public Builder removeLCFBHOGGFHB(int index) {
         if (lCFBHOGGFHBBuilder_ == null) {
@@ -691,14 +691,14 @@ public final class _UgcLanV5CardRecordOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 4;</code>
        */
       public emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL.Builder getLCFBHOGGFHBBuilder(
           int index) {
         return getLCFBHOGGFHBFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 4;</code>
        */
       public emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLLOrBuilder getLCFBHOGGFHBOrBuilder(
           int index) {
@@ -708,7 +708,7 @@ public final class _UgcLanV5CardRecordOuterClass {
         }
       }
       /**
-       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 4;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLLOrBuilder> 
            getLCFBHOGGFHBOrBuilderList() {
@@ -719,14 +719,14 @@ public final class _UgcLanV5CardRecordOuterClass {
         }
       }
       /**
-       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 4;</code>
        */
       public emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL.Builder addLCFBHOGGFHBBuilder() {
         return getLCFBHOGGFHBFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL.getDefaultInstance());
       }
       /**
-       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 4;</code>
        */
       public emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL.Builder addLCFBHOGGFHBBuilder(
           int index) {
@@ -734,7 +734,7 @@ public final class _UgcLanV5CardRecordOuterClass {
             index, emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL.getDefaultInstance());
       }
       /**
-       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 4;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL.Builder> 
            getLCFBHOGGFHBBuilderList() {
@@ -823,7 +823,7 @@ public final class _UgcLanV5CardRecordOuterClass {
     java.lang.String[] descriptorData = {
       "\n\031_UgcLanV5CardRecord.proto\032\021IOIOBABMMLL" +
       ".proto\"8\n\023_UgcLanV5CardRecord\022!\n\013LCFBHOG" +
-      "GFHB\030\001 \003(\0132\014.IOIOBABMMLLB:\n\031emu.grasscut" +
+      "GFHB\030\004 \003(\0132\014.IOIOBABMMLLB:\n\031emu.grasscut" +
       "ter.net.protoB\035_UgcLanV5CardRecordOuterC" +
       "lassb\006proto3"
     };

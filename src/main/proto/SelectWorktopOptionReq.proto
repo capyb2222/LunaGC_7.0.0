@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "SelectWorktopOptionReqOuterClass";
 
 message SelectWorktopOptionReq {
-	uint32 gadget_entity_id = 5;
-	uint32 hebnjoabfoo = 11;
-	uint32 option_id = 13;
+	uint32 gadget_entity_id = 4;
+	uint32 hebnjoabfoo = 5;
+	uint32 option_id = 3;
 }

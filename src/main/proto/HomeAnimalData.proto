@@ -6,7 +6,7 @@ option java_outer_classname = "HomeAnimalDataOuterClass";
 import "Vector.proto";
 
 message HomeAnimalData {
-	Vector spawn_pos = 7;
-	uint32 furniture_id = 8;
-	Vector spawn_rot = 14;
+	Vector spawn_pos = 9;
+	uint32 furniture_id = 6;
+	Vector spawn_rot = 12;
 }

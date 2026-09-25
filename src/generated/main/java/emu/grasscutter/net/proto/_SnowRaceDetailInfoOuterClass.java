@@ -19,23 +19,23 @@ public final class _SnowRaceDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 EHDNIFLECDH = 7;</code>
+     * <code>uint32 EHDNIFLECDH = 2;</code>
      * @return The eHDNIFLECDH.
      */
     int getEHDNIFLECDH();
 
     /**
-     * <code>.LKEKPAMJHDK NFFJFIEHDLH = 15;</code>
+     * <code>.LKEKPAMJHDK NFFJFIEHDLH = 3;</code>
      * @return Whether the nFFJFIEHDLH field is set.
      */
     boolean hasNFFJFIEHDLH();
     /**
-     * <code>.LKEKPAMJHDK NFFJFIEHDLH = 15;</code>
+     * <code>.LKEKPAMJHDK NFFJFIEHDLH = 3;</code>
      * @return The nFFJFIEHDLH.
      */
     emu.grasscutter.net.proto.LKEKPAMJHDKOuterClass.LKEKPAMJHDK getNFFJFIEHDLH();
     /**
-     * <code>.LKEKPAMJHDK NFFJFIEHDLH = 15;</code>
+     * <code>.LKEKPAMJHDK NFFJFIEHDLH = 3;</code>
      */
     emu.grasscutter.net.proto.LKEKPAMJHDKOuterClass.LKEKPAMJHDKOrBuilder getNFFJFIEHDLHOrBuilder();
   }
@@ -84,12 +84,12 @@ public final class _SnowRaceDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 56: {
+            case 16: {
 
               eHDNIFLECDH_ = input.readUInt32();
               break;
             }
-            case 122: {
+            case 26: {
               emu.grasscutter.net.proto.LKEKPAMJHDKOuterClass.LKEKPAMJHDK.Builder subBuilder = null;
               if (nFFJFIEHDLH_ != null) {
                 subBuilder = nFFJFIEHDLH_.toBuilder();
@@ -134,10 +134,10 @@ public final class _SnowRaceDetailInfoOuterClass {
               emu.grasscutter.net.proto._SnowRaceDetailInfoOuterClass._SnowRaceDetailInfo.class, emu.grasscutter.net.proto._SnowRaceDetailInfoOuterClass._SnowRaceDetailInfo.Builder.class);
     }
 
-    public static final int EHDNIFLECDH_FIELD_NUMBER = 7;
+    public static final int EHDNIFLECDH_FIELD_NUMBER = 2;
     private int eHDNIFLECDH_;
     /**
-     * <code>uint32 EHDNIFLECDH = 7;</code>
+     * <code>uint32 EHDNIFLECDH = 2;</code>
      * @return The eHDNIFLECDH.
      */
     @java.lang.Override
@@ -145,10 +145,10 @@ public final class _SnowRaceDetailInfoOuterClass {
       return eHDNIFLECDH_;
     }
 
-    public static final int NFFJFIEHDLH_FIELD_NUMBER = 15;
+    public static final int NFFJFIEHDLH_FIELD_NUMBER = 3;
     private emu.grasscutter.net.proto.LKEKPAMJHDKOuterClass.LKEKPAMJHDK nFFJFIEHDLH_;
     /**
-     * <code>.LKEKPAMJHDK NFFJFIEHDLH = 15;</code>
+     * <code>.LKEKPAMJHDK NFFJFIEHDLH = 3;</code>
      * @return Whether the nFFJFIEHDLH field is set.
      */
     @java.lang.Override
@@ -156,7 +156,7 @@ public final class _SnowRaceDetailInfoOuterClass {
       return nFFJFIEHDLH_ != null;
     }
     /**
-     * <code>.LKEKPAMJHDK NFFJFIEHDLH = 15;</code>
+     * <code>.LKEKPAMJHDK NFFJFIEHDLH = 3;</code>
      * @return The nFFJFIEHDLH.
      */
     @java.lang.Override
@@ -164,7 +164,7 @@ public final class _SnowRaceDetailInfoOuterClass {
       return nFFJFIEHDLH_ == null ? emu.grasscutter.net.proto.LKEKPAMJHDKOuterClass.LKEKPAMJHDK.getDefaultInstance() : nFFJFIEHDLH_;
     }
     /**
-     * <code>.LKEKPAMJHDK NFFJFIEHDLH = 15;</code>
+     * <code>.LKEKPAMJHDK NFFJFIEHDLH = 3;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.LKEKPAMJHDKOuterClass.LKEKPAMJHDKOrBuilder getNFFJFIEHDLHOrBuilder() {
@@ -186,10 +186,10 @@ public final class _SnowRaceDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (eHDNIFLECDH_ != 0) {
-        output.writeUInt32(7, eHDNIFLECDH_);
+        output.writeUInt32(2, eHDNIFLECDH_);
       }
       if (nFFJFIEHDLH_ != null) {
-        output.writeMessage(15, getNFFJFIEHDLH());
+        output.writeMessage(3, getNFFJFIEHDLH());
       }
       unknownFields.writeTo(output);
     }
@@ -202,11 +202,11 @@ public final class _SnowRaceDetailInfoOuterClass {
       size = 0;
       if (eHDNIFLECDH_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, eHDNIFLECDH_);
+          .computeUInt32Size(2, eHDNIFLECDH_);
       }
       if (nFFJFIEHDLH_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, getNFFJFIEHDLH());
+          .computeMessageSize(3, getNFFJFIEHDLH());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -505,7 +505,7 @@ public final class _SnowRaceDetailInfoOuterClass {
 
       private int eHDNIFLECDH_ ;
       /**
-       * <code>uint32 EHDNIFLECDH = 7;</code>
+       * <code>uint32 EHDNIFLECDH = 2;</code>
        * @return The eHDNIFLECDH.
        */
       @java.lang.Override
@@ -513,7 +513,7 @@ public final class _SnowRaceDetailInfoOuterClass {
         return eHDNIFLECDH_;
       }
       /**
-       * <code>uint32 EHDNIFLECDH = 7;</code>
+       * <code>uint32 EHDNIFLECDH = 2;</code>
        * @param value The eHDNIFLECDH to set.
        * @return This builder for chaining.
        */
@@ -524,7 +524,7 @@ public final class _SnowRaceDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 EHDNIFLECDH = 7;</code>
+       * <code>uint32 EHDNIFLECDH = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearEHDNIFLECDH() {
@@ -538,14 +538,14 @@ public final class _SnowRaceDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.LKEKPAMJHDKOuterClass.LKEKPAMJHDK, emu.grasscutter.net.proto.LKEKPAMJHDKOuterClass.LKEKPAMJHDK.Builder, emu.grasscutter.net.proto.LKEKPAMJHDKOuterClass.LKEKPAMJHDKOrBuilder> nFFJFIEHDLHBuilder_;
       /**
-       * <code>.LKEKPAMJHDK NFFJFIEHDLH = 15;</code>
+       * <code>.LKEKPAMJHDK NFFJFIEHDLH = 3;</code>
        * @return Whether the nFFJFIEHDLH field is set.
        */
       public boolean hasNFFJFIEHDLH() {
         return nFFJFIEHDLHBuilder_ != null || nFFJFIEHDLH_ != null;
       }
       /**
-       * <code>.LKEKPAMJHDK NFFJFIEHDLH = 15;</code>
+       * <code>.LKEKPAMJHDK NFFJFIEHDLH = 3;</code>
        * @return The nFFJFIEHDLH.
        */
       public emu.grasscutter.net.proto.LKEKPAMJHDKOuterClass.LKEKPAMJHDK getNFFJFIEHDLH() {
@@ -556,7 +556,7 @@ public final class _SnowRaceDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.LKEKPAMJHDK NFFJFIEHDLH = 15;</code>
+       * <code>.LKEKPAMJHDK NFFJFIEHDLH = 3;</code>
        */
       public Builder setNFFJFIEHDLH(emu.grasscutter.net.proto.LKEKPAMJHDKOuterClass.LKEKPAMJHDK value) {
         if (nFFJFIEHDLHBuilder_ == null) {
@@ -572,7 +572,7 @@ public final class _SnowRaceDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.LKEKPAMJHDK NFFJFIEHDLH = 15;</code>
+       * <code>.LKEKPAMJHDK NFFJFIEHDLH = 3;</code>
        */
       public Builder setNFFJFIEHDLH(
           emu.grasscutter.net.proto.LKEKPAMJHDKOuterClass.LKEKPAMJHDK.Builder builderForValue) {
@@ -586,7 +586,7 @@ public final class _SnowRaceDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.LKEKPAMJHDK NFFJFIEHDLH = 15;</code>
+       * <code>.LKEKPAMJHDK NFFJFIEHDLH = 3;</code>
        */
       public Builder mergeNFFJFIEHDLH(emu.grasscutter.net.proto.LKEKPAMJHDKOuterClass.LKEKPAMJHDK value) {
         if (nFFJFIEHDLHBuilder_ == null) {
@@ -604,7 +604,7 @@ public final class _SnowRaceDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.LKEKPAMJHDK NFFJFIEHDLH = 15;</code>
+       * <code>.LKEKPAMJHDK NFFJFIEHDLH = 3;</code>
        */
       public Builder clearNFFJFIEHDLH() {
         if (nFFJFIEHDLHBuilder_ == null) {
@@ -618,7 +618,7 @@ public final class _SnowRaceDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.LKEKPAMJHDK NFFJFIEHDLH = 15;</code>
+       * <code>.LKEKPAMJHDK NFFJFIEHDLH = 3;</code>
        */
       public emu.grasscutter.net.proto.LKEKPAMJHDKOuterClass.LKEKPAMJHDK.Builder getNFFJFIEHDLHBuilder() {
         
@@ -626,7 +626,7 @@ public final class _SnowRaceDetailInfoOuterClass {
         return getNFFJFIEHDLHFieldBuilder().getBuilder();
       }
       /**
-       * <code>.LKEKPAMJHDK NFFJFIEHDLH = 15;</code>
+       * <code>.LKEKPAMJHDK NFFJFIEHDLH = 3;</code>
        */
       public emu.grasscutter.net.proto.LKEKPAMJHDKOuterClass.LKEKPAMJHDKOrBuilder getNFFJFIEHDLHOrBuilder() {
         if (nFFJFIEHDLHBuilder_ != null) {
@@ -637,7 +637,7 @@ public final class _SnowRaceDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.LKEKPAMJHDK NFFJFIEHDLH = 15;</code>
+       * <code>.LKEKPAMJHDK NFFJFIEHDLH = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.LKEKPAMJHDKOuterClass.LKEKPAMJHDK, emu.grasscutter.net.proto.LKEKPAMJHDKOuterClass.LKEKPAMJHDK.Builder, emu.grasscutter.net.proto.LKEKPAMJHDKOuterClass.LKEKPAMJHDKOrBuilder> 
@@ -721,7 +721,7 @@ public final class _SnowRaceDetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\031_SnowRaceDetailInfo.proto\032\021LKEKPAMJHDK" +
       ".proto\"M\n\023_SnowRaceDetailInfo\022\023\n\013EHDNIFL" +
-      "ECDH\030\007 \001(\r\022!\n\013NFFJFIEHDLH\030\017 \001(\0132\014.LKEKPA" +
+      "ECDH\030\002 \001(\r\022!\n\013NFFJFIEHDLH\030\003 \001(\0132\014.LKEKPA" +
       "MJHDKB:\n\031emu.grasscutter.net.protoB\035_Sno" +
       "wRaceDetailInfoOuterClassb\006proto3"
     };

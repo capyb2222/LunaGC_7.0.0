@@ -6,5 +6,5 @@ option java_outer_classname = "AvatarFetterDataNotifyOuterClass";
 import "AvatarFetterInfo.proto";
 
 message AvatarFetterDataNotify {
-	map<uint64, AvatarFetterInfo> fetter_info_map = 6;
+	map<uint64, AvatarFetterInfo> fetter_info_map = 8;
 }

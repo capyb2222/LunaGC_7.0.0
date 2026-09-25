@@ -7,7 +7,7 @@ import "DuelHeartLevelDifficultyInfo.proto";
 
 message DuelHeartLevelInfo {
 	bool is_cg_viewed = 1;
-	bool is_open = 4;
-	repeated DuelHeartLevelDifficultyInfo difficulty_info_list = 6;
-	uint32 level_id = 15;
+	bool is_open = 6;
+	repeated DuelHeartLevelDifficultyInfo difficulty_info_list = 8;
+	uint32 level_id = 10;
 }

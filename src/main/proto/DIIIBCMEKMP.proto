@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "DIIIBCMEKMPOuterClass";
 
 message DIIIBCMEKMP {
-	uint32 KDKJKANOHIK = 2;
-	float NGDDIOBGGCN = 3;
-	uint32 score = 7;
+	uint32 KDKJKANOHIK = 12;
+	float NGDDIOBGGCN = 15;
+	uint32 score = 2;
 }

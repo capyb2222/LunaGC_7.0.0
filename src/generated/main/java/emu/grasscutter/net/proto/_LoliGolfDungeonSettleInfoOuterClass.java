@@ -19,103 +19,103 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 BMMIKCIJLHN = 1;</code>
+     * <code>uint32 BMMIKCIJLHN = 50000;</code>
      * @return The bMMIKCIJLHN.
      */
     int getBMMIKCIJLHN();
 
     /**
-     * <code>uint32 FHKOLIDKNBA = 2;</code>
+     * <code>uint32 FHKOLIDKNBA = 50001;</code>
      * @return The fHKOLIDKNBA.
      */
     int getFHKOLIDKNBA();
 
     /**
-     * <code>uint32 JOELLBHNGDL = 3;</code>
+     * <code>uint32 JOELLBHNGDL = 50002;</code>
      * @return The jOELLBHNGDL.
      */
     int getJOELLBHNGDL();
 
     /**
-     * <code>uint32 qte_count = 4;</code>
+     * <code>uint32 qte_count = 13;</code>
      * @return The qteCount.
      */
     int getQteCount();
 
     /**
-     * <code>uint32 level_id = 5;</code>
+     * <code>uint32 level_id = 1;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>uint32 IDJGDOGIJFE = 6;</code>
+     * <code>uint32 IDJGDOGIJFE = 50003;</code>
      * @return The iDJGDOGIJFE.
      */
     int getIDJGDOGIJFE();
 
     /**
-     * <code>repeated .Uint32Pair NKOOPGKMHEK = 7;</code>
+     * <code>repeated .Uint32Pair NKOOPGKMHEK = 50004;</code>
      */
     java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> 
         getNKOOPGKMHEKList();
     /**
-     * <code>repeated .Uint32Pair NKOOPGKMHEK = 7;</code>
+     * <code>repeated .Uint32Pair NKOOPGKMHEK = 50004;</code>
      */
     emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getNKOOPGKMHEK(int index);
     /**
-     * <code>repeated .Uint32Pair NKOOPGKMHEK = 7;</code>
+     * <code>repeated .Uint32Pair NKOOPGKMHEK = 50004;</code>
      */
     int getNKOOPGKMHEKCount();
     /**
-     * <code>repeated .Uint32Pair NKOOPGKMHEK = 7;</code>
+     * <code>repeated .Uint32Pair NKOOPGKMHEK = 50004;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
         getNKOOPGKMHEKOrBuilderList();
     /**
-     * <code>repeated .Uint32Pair NKOOPGKMHEK = 7;</code>
+     * <code>repeated .Uint32Pair NKOOPGKMHEK = 50004;</code>
      */
     emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getNKOOPGKMHEKOrBuilder(
         int index);
 
     /**
-     * <code>uint32 AFOELHPKJOP = 9;</code>
+     * <code>uint32 AFOELHPKJOP = 50005;</code>
      * @return The aFOELHPKJOP.
      */
     int getAFOELHPKJOP();
 
     /**
-     * <code>repeated .Uint32Pair KHEMPDGCLGG = 10;</code>
+     * <code>repeated .Uint32Pair KHEMPDGCLGG = 50006;</code>
      */
     java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> 
         getKHEMPDGCLGGList();
     /**
-     * <code>repeated .Uint32Pair KHEMPDGCLGG = 10;</code>
+     * <code>repeated .Uint32Pair KHEMPDGCLGG = 50006;</code>
      */
     emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getKHEMPDGCLGG(int index);
     /**
-     * <code>repeated .Uint32Pair KHEMPDGCLGG = 10;</code>
+     * <code>repeated .Uint32Pair KHEMPDGCLGG = 50006;</code>
      */
     int getKHEMPDGCLGGCount();
     /**
-     * <code>repeated .Uint32Pair KHEMPDGCLGG = 10;</code>
+     * <code>repeated .Uint32Pair KHEMPDGCLGG = 50006;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
         getKHEMPDGCLGGOrBuilderList();
     /**
-     * <code>repeated .Uint32Pair KHEMPDGCLGG = 10;</code>
+     * <code>repeated .Uint32Pair KHEMPDGCLGG = 50006;</code>
      */
     emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getKHEMPDGCLGGOrBuilder(
         int index);
 
     /**
-     * <code>uint32 score = 14;</code>
+     * <code>uint32 score = 12;</code>
      * @return The score.
      */
     int getScore();
 
     /**
-     * <code>bool is_new_record = 15;</code>
+     * <code>bool is_new_record = 5;</code>
      * @return The isNewRecord.
      */
     boolean getIsNewRecord();
@@ -170,35 +170,45 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
               break;
             case 8: {
 
-              bMMIKCIJLHN_ = input.readUInt32();
-              break;
-            }
-            case 16: {
-
-              fHKOLIDKNBA_ = input.readUInt32();
-              break;
-            }
-            case 24: {
-
-              jOELLBHNGDL_ = input.readUInt32();
-              break;
-            }
-            case 32: {
-
-              qteCount_ = input.readUInt32();
+              levelId_ = input.readUInt32();
               break;
             }
             case 40: {
 
-              levelId_ = input.readUInt32();
+              isNewRecord_ = input.readBool();
               break;
             }
-            case 48: {
+            case 96: {
+
+              score_ = input.readUInt32();
+              break;
+            }
+            case 104: {
+
+              qteCount_ = input.readUInt32();
+              break;
+            }
+            case 400000: {
+
+              bMMIKCIJLHN_ = input.readUInt32();
+              break;
+            }
+            case 400008: {
+
+              fHKOLIDKNBA_ = input.readUInt32();
+              break;
+            }
+            case 400016: {
+
+              jOELLBHNGDL_ = input.readUInt32();
+              break;
+            }
+            case 400024: {
 
               iDJGDOGIJFE_ = input.readUInt32();
               break;
             }
-            case 58: {
+            case 400034: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 nKOOPGKMHEK_ = new java.util.ArrayList<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair>();
                 mutable_bitField0_ |= 0x00000001;
@@ -207,28 +217,18 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.parser(), extensionRegistry));
               break;
             }
-            case 72: {
+            case 400040: {
 
               aFOELHPKJOP_ = input.readUInt32();
               break;
             }
-            case 82: {
+            case 400050: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 kHEMPDGCLGG_ = new java.util.ArrayList<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair>();
                 mutable_bitField0_ |= 0x00000002;
               }
               kHEMPDGCLGG_.add(
                   input.readMessage(emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.parser(), extensionRegistry));
-              break;
-            }
-            case 112: {
-
-              score_ = input.readUInt32();
-              break;
-            }
-            case 120: {
-
-              isNewRecord_ = input.readBool();
               break;
             }
             default: {
@@ -269,10 +269,10 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
               emu.grasscutter.net.proto._LoliGolfDungeonSettleInfoOuterClass._LoliGolfDungeonSettleInfo.class, emu.grasscutter.net.proto._LoliGolfDungeonSettleInfoOuterClass._LoliGolfDungeonSettleInfo.Builder.class);
     }
 
-    public static final int BMMIKCIJLHN_FIELD_NUMBER = 1;
+    public static final int BMMIKCIJLHN_FIELD_NUMBER = 50000;
     private int bMMIKCIJLHN_;
     /**
-     * <code>uint32 BMMIKCIJLHN = 1;</code>
+     * <code>uint32 BMMIKCIJLHN = 50000;</code>
      * @return The bMMIKCIJLHN.
      */
     @java.lang.Override
@@ -280,10 +280,10 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
       return bMMIKCIJLHN_;
     }
 
-    public static final int FHKOLIDKNBA_FIELD_NUMBER = 2;
+    public static final int FHKOLIDKNBA_FIELD_NUMBER = 50001;
     private int fHKOLIDKNBA_;
     /**
-     * <code>uint32 FHKOLIDKNBA = 2;</code>
+     * <code>uint32 FHKOLIDKNBA = 50001;</code>
      * @return The fHKOLIDKNBA.
      */
     @java.lang.Override
@@ -291,10 +291,10 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
       return fHKOLIDKNBA_;
     }
 
-    public static final int JOELLBHNGDL_FIELD_NUMBER = 3;
+    public static final int JOELLBHNGDL_FIELD_NUMBER = 50002;
     private int jOELLBHNGDL_;
     /**
-     * <code>uint32 JOELLBHNGDL = 3;</code>
+     * <code>uint32 JOELLBHNGDL = 50002;</code>
      * @return The jOELLBHNGDL.
      */
     @java.lang.Override
@@ -302,10 +302,10 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
       return jOELLBHNGDL_;
     }
 
-    public static final int QTE_COUNT_FIELD_NUMBER = 4;
+    public static final int QTE_COUNT_FIELD_NUMBER = 13;
     private int qteCount_;
     /**
-     * <code>uint32 qte_count = 4;</code>
+     * <code>uint32 qte_count = 13;</code>
      * @return The qteCount.
      */
     @java.lang.Override
@@ -313,10 +313,10 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
       return qteCount_;
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 5;
+    public static final int LEVEL_ID_FIELD_NUMBER = 1;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 5;</code>
+     * <code>uint32 level_id = 1;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -324,10 +324,10 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
       return levelId_;
     }
 
-    public static final int IDJGDOGIJFE_FIELD_NUMBER = 6;
+    public static final int IDJGDOGIJFE_FIELD_NUMBER = 50003;
     private int iDJGDOGIJFE_;
     /**
-     * <code>uint32 IDJGDOGIJFE = 6;</code>
+     * <code>uint32 IDJGDOGIJFE = 50003;</code>
      * @return The iDJGDOGIJFE.
      */
     @java.lang.Override
@@ -335,17 +335,17 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
       return iDJGDOGIJFE_;
     }
 
-    public static final int NKOOPGKMHEK_FIELD_NUMBER = 7;
+    public static final int NKOOPGKMHEK_FIELD_NUMBER = 50004;
     private java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> nKOOPGKMHEK_;
     /**
-     * <code>repeated .Uint32Pair NKOOPGKMHEK = 7;</code>
+     * <code>repeated .Uint32Pair NKOOPGKMHEK = 50004;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> getNKOOPGKMHEKList() {
       return nKOOPGKMHEK_;
     }
     /**
-     * <code>repeated .Uint32Pair NKOOPGKMHEK = 7;</code>
+     * <code>repeated .Uint32Pair NKOOPGKMHEK = 50004;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
@@ -353,21 +353,21 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
       return nKOOPGKMHEK_;
     }
     /**
-     * <code>repeated .Uint32Pair NKOOPGKMHEK = 7;</code>
+     * <code>repeated .Uint32Pair NKOOPGKMHEK = 50004;</code>
      */
     @java.lang.Override
     public int getNKOOPGKMHEKCount() {
       return nKOOPGKMHEK_.size();
     }
     /**
-     * <code>repeated .Uint32Pair NKOOPGKMHEK = 7;</code>
+     * <code>repeated .Uint32Pair NKOOPGKMHEK = 50004;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getNKOOPGKMHEK(int index) {
       return nKOOPGKMHEK_.get(index);
     }
     /**
-     * <code>repeated .Uint32Pair NKOOPGKMHEK = 7;</code>
+     * <code>repeated .Uint32Pair NKOOPGKMHEK = 50004;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getNKOOPGKMHEKOrBuilder(
@@ -375,10 +375,10 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
       return nKOOPGKMHEK_.get(index);
     }
 
-    public static final int AFOELHPKJOP_FIELD_NUMBER = 9;
+    public static final int AFOELHPKJOP_FIELD_NUMBER = 50005;
     private int aFOELHPKJOP_;
     /**
-     * <code>uint32 AFOELHPKJOP = 9;</code>
+     * <code>uint32 AFOELHPKJOP = 50005;</code>
      * @return The aFOELHPKJOP.
      */
     @java.lang.Override
@@ -386,17 +386,17 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
       return aFOELHPKJOP_;
     }
 
-    public static final int KHEMPDGCLGG_FIELD_NUMBER = 10;
+    public static final int KHEMPDGCLGG_FIELD_NUMBER = 50006;
     private java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> kHEMPDGCLGG_;
     /**
-     * <code>repeated .Uint32Pair KHEMPDGCLGG = 10;</code>
+     * <code>repeated .Uint32Pair KHEMPDGCLGG = 50006;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> getKHEMPDGCLGGList() {
       return kHEMPDGCLGG_;
     }
     /**
-     * <code>repeated .Uint32Pair KHEMPDGCLGG = 10;</code>
+     * <code>repeated .Uint32Pair KHEMPDGCLGG = 50006;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
@@ -404,21 +404,21 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
       return kHEMPDGCLGG_;
     }
     /**
-     * <code>repeated .Uint32Pair KHEMPDGCLGG = 10;</code>
+     * <code>repeated .Uint32Pair KHEMPDGCLGG = 50006;</code>
      */
     @java.lang.Override
     public int getKHEMPDGCLGGCount() {
       return kHEMPDGCLGG_.size();
     }
     /**
-     * <code>repeated .Uint32Pair KHEMPDGCLGG = 10;</code>
+     * <code>repeated .Uint32Pair KHEMPDGCLGG = 50006;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getKHEMPDGCLGG(int index) {
       return kHEMPDGCLGG_.get(index);
     }
     /**
-     * <code>repeated .Uint32Pair KHEMPDGCLGG = 10;</code>
+     * <code>repeated .Uint32Pair KHEMPDGCLGG = 50006;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getKHEMPDGCLGGOrBuilder(
@@ -426,10 +426,10 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
       return kHEMPDGCLGG_.get(index);
     }
 
-    public static final int SCORE_FIELD_NUMBER = 14;
+    public static final int SCORE_FIELD_NUMBER = 12;
     private int score_;
     /**
-     * <code>uint32 score = 14;</code>
+     * <code>uint32 score = 12;</code>
      * @return The score.
      */
     @java.lang.Override
@@ -437,10 +437,10 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
       return score_;
     }
 
-    public static final int IS_NEW_RECORD_FIELD_NUMBER = 15;
+    public static final int IS_NEW_RECORD_FIELD_NUMBER = 5;
     private boolean isNewRecord_;
     /**
-     * <code>bool is_new_record = 15;</code>
+     * <code>bool is_new_record = 5;</code>
      * @return The isNewRecord.
      */
     @java.lang.Override
@@ -462,38 +462,38 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (bMMIKCIJLHN_ != 0) {
-        output.writeUInt32(1, bMMIKCIJLHN_);
-      }
-      if (fHKOLIDKNBA_ != 0) {
-        output.writeUInt32(2, fHKOLIDKNBA_);
-      }
-      if (jOELLBHNGDL_ != 0) {
-        output.writeUInt32(3, jOELLBHNGDL_);
-      }
-      if (qteCount_ != 0) {
-        output.writeUInt32(4, qteCount_);
-      }
       if (levelId_ != 0) {
-        output.writeUInt32(5, levelId_);
-      }
-      if (iDJGDOGIJFE_ != 0) {
-        output.writeUInt32(6, iDJGDOGIJFE_);
-      }
-      for (int i = 0; i < nKOOPGKMHEK_.size(); i++) {
-        output.writeMessage(7, nKOOPGKMHEK_.get(i));
-      }
-      if (aFOELHPKJOP_ != 0) {
-        output.writeUInt32(9, aFOELHPKJOP_);
-      }
-      for (int i = 0; i < kHEMPDGCLGG_.size(); i++) {
-        output.writeMessage(10, kHEMPDGCLGG_.get(i));
-      }
-      if (score_ != 0) {
-        output.writeUInt32(14, score_);
+        output.writeUInt32(1, levelId_);
       }
       if (isNewRecord_ != false) {
-        output.writeBool(15, isNewRecord_);
+        output.writeBool(5, isNewRecord_);
+      }
+      if (score_ != 0) {
+        output.writeUInt32(12, score_);
+      }
+      if (qteCount_ != 0) {
+        output.writeUInt32(13, qteCount_);
+      }
+      if (bMMIKCIJLHN_ != 0) {
+        output.writeUInt32(50000, bMMIKCIJLHN_);
+      }
+      if (fHKOLIDKNBA_ != 0) {
+        output.writeUInt32(50001, fHKOLIDKNBA_);
+      }
+      if (jOELLBHNGDL_ != 0) {
+        output.writeUInt32(50002, jOELLBHNGDL_);
+      }
+      if (iDJGDOGIJFE_ != 0) {
+        output.writeUInt32(50003, iDJGDOGIJFE_);
+      }
+      for (int i = 0; i < nKOOPGKMHEK_.size(); i++) {
+        output.writeMessage(50004, nKOOPGKMHEK_.get(i));
+      }
+      if (aFOELHPKJOP_ != 0) {
+        output.writeUInt32(50005, aFOELHPKJOP_);
+      }
+      for (int i = 0; i < kHEMPDGCLGG_.size(); i++) {
+        output.writeMessage(50006, kHEMPDGCLGG_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -504,49 +504,49 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (bMMIKCIJLHN_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, bMMIKCIJLHN_);
-      }
-      if (fHKOLIDKNBA_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, fHKOLIDKNBA_);
-      }
-      if (jOELLBHNGDL_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, jOELLBHNGDL_);
-      }
-      if (qteCount_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, qteCount_);
-      }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, levelId_);
-      }
-      if (iDJGDOGIJFE_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, iDJGDOGIJFE_);
-      }
-      for (int i = 0; i < nKOOPGKMHEK_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, nKOOPGKMHEK_.get(i));
-      }
-      if (aFOELHPKJOP_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, aFOELHPKJOP_);
-      }
-      for (int i = 0; i < kHEMPDGCLGG_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, kHEMPDGCLGG_.get(i));
-      }
-      if (score_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, score_);
+          .computeUInt32Size(1, levelId_);
       }
       if (isNewRecord_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(15, isNewRecord_);
+          .computeBoolSize(5, isNewRecord_);
+      }
+      if (score_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(12, score_);
+      }
+      if (qteCount_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(13, qteCount_);
+      }
+      if (bMMIKCIJLHN_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50000, bMMIKCIJLHN_);
+      }
+      if (fHKOLIDKNBA_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50001, fHKOLIDKNBA_);
+      }
+      if (jOELLBHNGDL_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50002, jOELLBHNGDL_);
+      }
+      if (iDJGDOGIJFE_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50003, iDJGDOGIJFE_);
+      }
+      for (int i = 0; i < nKOOPGKMHEK_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(50004, nKOOPGKMHEK_.get(i));
+      }
+      if (aFOELHPKJOP_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50005, aFOELHPKJOP_);
+      }
+      for (int i = 0; i < kHEMPDGCLGG_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(50006, kHEMPDGCLGG_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1001,7 +1001,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
 
       private int bMMIKCIJLHN_ ;
       /**
-       * <code>uint32 BMMIKCIJLHN = 1;</code>
+       * <code>uint32 BMMIKCIJLHN = 50000;</code>
        * @return The bMMIKCIJLHN.
        */
       @java.lang.Override
@@ -1009,7 +1009,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         return bMMIKCIJLHN_;
       }
       /**
-       * <code>uint32 BMMIKCIJLHN = 1;</code>
+       * <code>uint32 BMMIKCIJLHN = 50000;</code>
        * @param value The bMMIKCIJLHN to set.
        * @return This builder for chaining.
        */
@@ -1020,7 +1020,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 BMMIKCIJLHN = 1;</code>
+       * <code>uint32 BMMIKCIJLHN = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearBMMIKCIJLHN() {
@@ -1032,7 +1032,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
 
       private int fHKOLIDKNBA_ ;
       /**
-       * <code>uint32 FHKOLIDKNBA = 2;</code>
+       * <code>uint32 FHKOLIDKNBA = 50001;</code>
        * @return The fHKOLIDKNBA.
        */
       @java.lang.Override
@@ -1040,7 +1040,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         return fHKOLIDKNBA_;
       }
       /**
-       * <code>uint32 FHKOLIDKNBA = 2;</code>
+       * <code>uint32 FHKOLIDKNBA = 50001;</code>
        * @param value The fHKOLIDKNBA to set.
        * @return This builder for chaining.
        */
@@ -1051,7 +1051,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 FHKOLIDKNBA = 2;</code>
+       * <code>uint32 FHKOLIDKNBA = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearFHKOLIDKNBA() {
@@ -1063,7 +1063,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
 
       private int jOELLBHNGDL_ ;
       /**
-       * <code>uint32 JOELLBHNGDL = 3;</code>
+       * <code>uint32 JOELLBHNGDL = 50002;</code>
        * @return The jOELLBHNGDL.
        */
       @java.lang.Override
@@ -1071,7 +1071,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         return jOELLBHNGDL_;
       }
       /**
-       * <code>uint32 JOELLBHNGDL = 3;</code>
+       * <code>uint32 JOELLBHNGDL = 50002;</code>
        * @param value The jOELLBHNGDL to set.
        * @return This builder for chaining.
        */
@@ -1082,7 +1082,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 JOELLBHNGDL = 3;</code>
+       * <code>uint32 JOELLBHNGDL = 50002;</code>
        * @return This builder for chaining.
        */
       public Builder clearJOELLBHNGDL() {
@@ -1094,7 +1094,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
 
       private int qteCount_ ;
       /**
-       * <code>uint32 qte_count = 4;</code>
+       * <code>uint32 qte_count = 13;</code>
        * @return The qteCount.
        */
       @java.lang.Override
@@ -1102,7 +1102,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         return qteCount_;
       }
       /**
-       * <code>uint32 qte_count = 4;</code>
+       * <code>uint32 qte_count = 13;</code>
        * @param value The qteCount to set.
        * @return This builder for chaining.
        */
@@ -1113,7 +1113,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 qte_count = 4;</code>
+       * <code>uint32 qte_count = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearQteCount() {
@@ -1125,7 +1125,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 5;</code>
+       * <code>uint32 level_id = 1;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -1133,7 +1133,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 5;</code>
+       * <code>uint32 level_id = 1;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -1144,7 +1144,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 5;</code>
+       * <code>uint32 level_id = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -1156,7 +1156,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
 
       private int iDJGDOGIJFE_ ;
       /**
-       * <code>uint32 IDJGDOGIJFE = 6;</code>
+       * <code>uint32 IDJGDOGIJFE = 50003;</code>
        * @return The iDJGDOGIJFE.
        */
       @java.lang.Override
@@ -1164,7 +1164,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         return iDJGDOGIJFE_;
       }
       /**
-       * <code>uint32 IDJGDOGIJFE = 6;</code>
+       * <code>uint32 IDJGDOGIJFE = 50003;</code>
        * @param value The iDJGDOGIJFE to set.
        * @return This builder for chaining.
        */
@@ -1175,7 +1175,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 IDJGDOGIJFE = 6;</code>
+       * <code>uint32 IDJGDOGIJFE = 50003;</code>
        * @return This builder for chaining.
        */
       public Builder clearIDJGDOGIJFE() {
@@ -1198,7 +1198,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
           emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> nKOOPGKMHEKBuilder_;
 
       /**
-       * <code>repeated .Uint32Pair NKOOPGKMHEK = 7;</code>
+       * <code>repeated .Uint32Pair NKOOPGKMHEK = 50004;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> getNKOOPGKMHEKList() {
         if (nKOOPGKMHEKBuilder_ == null) {
@@ -1208,7 +1208,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair NKOOPGKMHEK = 7;</code>
+       * <code>repeated .Uint32Pair NKOOPGKMHEK = 50004;</code>
        */
       public int getNKOOPGKMHEKCount() {
         if (nKOOPGKMHEKBuilder_ == null) {
@@ -1218,7 +1218,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair NKOOPGKMHEK = 7;</code>
+       * <code>repeated .Uint32Pair NKOOPGKMHEK = 50004;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getNKOOPGKMHEK(int index) {
         if (nKOOPGKMHEKBuilder_ == null) {
@@ -1228,7 +1228,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair NKOOPGKMHEK = 7;</code>
+       * <code>repeated .Uint32Pair NKOOPGKMHEK = 50004;</code>
        */
       public Builder setNKOOPGKMHEK(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
@@ -1245,7 +1245,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair NKOOPGKMHEK = 7;</code>
+       * <code>repeated .Uint32Pair NKOOPGKMHEK = 50004;</code>
        */
       public Builder setNKOOPGKMHEK(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder builderForValue) {
@@ -1259,7 +1259,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair NKOOPGKMHEK = 7;</code>
+       * <code>repeated .Uint32Pair NKOOPGKMHEK = 50004;</code>
        */
       public Builder addNKOOPGKMHEK(emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
         if (nKOOPGKMHEKBuilder_ == null) {
@@ -1275,7 +1275,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair NKOOPGKMHEK = 7;</code>
+       * <code>repeated .Uint32Pair NKOOPGKMHEK = 50004;</code>
        */
       public Builder addNKOOPGKMHEK(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
@@ -1292,7 +1292,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair NKOOPGKMHEK = 7;</code>
+       * <code>repeated .Uint32Pair NKOOPGKMHEK = 50004;</code>
        */
       public Builder addNKOOPGKMHEK(
           emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder builderForValue) {
@@ -1306,7 +1306,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair NKOOPGKMHEK = 7;</code>
+       * <code>repeated .Uint32Pair NKOOPGKMHEK = 50004;</code>
        */
       public Builder addNKOOPGKMHEK(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder builderForValue) {
@@ -1320,7 +1320,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair NKOOPGKMHEK = 7;</code>
+       * <code>repeated .Uint32Pair NKOOPGKMHEK = 50004;</code>
        */
       public Builder addAllNKOOPGKMHEK(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> values) {
@@ -1335,7 +1335,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair NKOOPGKMHEK = 7;</code>
+       * <code>repeated .Uint32Pair NKOOPGKMHEK = 50004;</code>
        */
       public Builder clearNKOOPGKMHEK() {
         if (nKOOPGKMHEKBuilder_ == null) {
@@ -1348,7 +1348,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair NKOOPGKMHEK = 7;</code>
+       * <code>repeated .Uint32Pair NKOOPGKMHEK = 50004;</code>
        */
       public Builder removeNKOOPGKMHEK(int index) {
         if (nKOOPGKMHEKBuilder_ == null) {
@@ -1361,14 +1361,14 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair NKOOPGKMHEK = 7;</code>
+       * <code>repeated .Uint32Pair NKOOPGKMHEK = 50004;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder getNKOOPGKMHEKBuilder(
           int index) {
         return getNKOOPGKMHEKFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .Uint32Pair NKOOPGKMHEK = 7;</code>
+       * <code>repeated .Uint32Pair NKOOPGKMHEK = 50004;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getNKOOPGKMHEKOrBuilder(
           int index) {
@@ -1378,7 +1378,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair NKOOPGKMHEK = 7;</code>
+       * <code>repeated .Uint32Pair NKOOPGKMHEK = 50004;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
            getNKOOPGKMHEKOrBuilderList() {
@@ -1389,14 +1389,14 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair NKOOPGKMHEK = 7;</code>
+       * <code>repeated .Uint32Pair NKOOPGKMHEK = 50004;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder addNKOOPGKMHEKBuilder() {
         return getNKOOPGKMHEKFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.getDefaultInstance());
       }
       /**
-       * <code>repeated .Uint32Pair NKOOPGKMHEK = 7;</code>
+       * <code>repeated .Uint32Pair NKOOPGKMHEK = 50004;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder addNKOOPGKMHEKBuilder(
           int index) {
@@ -1404,7 +1404,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
             index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.getDefaultInstance());
       }
       /**
-       * <code>repeated .Uint32Pair NKOOPGKMHEK = 7;</code>
+       * <code>repeated .Uint32Pair NKOOPGKMHEK = 50004;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder> 
            getNKOOPGKMHEKBuilderList() {
@@ -1427,7 +1427,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
 
       private int aFOELHPKJOP_ ;
       /**
-       * <code>uint32 AFOELHPKJOP = 9;</code>
+       * <code>uint32 AFOELHPKJOP = 50005;</code>
        * @return The aFOELHPKJOP.
        */
       @java.lang.Override
@@ -1435,7 +1435,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         return aFOELHPKJOP_;
       }
       /**
-       * <code>uint32 AFOELHPKJOP = 9;</code>
+       * <code>uint32 AFOELHPKJOP = 50005;</code>
        * @param value The aFOELHPKJOP to set.
        * @return This builder for chaining.
        */
@@ -1446,7 +1446,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 AFOELHPKJOP = 9;</code>
+       * <code>uint32 AFOELHPKJOP = 50005;</code>
        * @return This builder for chaining.
        */
       public Builder clearAFOELHPKJOP() {
@@ -1469,7 +1469,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
           emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> kHEMPDGCLGGBuilder_;
 
       /**
-       * <code>repeated .Uint32Pair KHEMPDGCLGG = 10;</code>
+       * <code>repeated .Uint32Pair KHEMPDGCLGG = 50006;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> getKHEMPDGCLGGList() {
         if (kHEMPDGCLGGBuilder_ == null) {
@@ -1479,7 +1479,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair KHEMPDGCLGG = 10;</code>
+       * <code>repeated .Uint32Pair KHEMPDGCLGG = 50006;</code>
        */
       public int getKHEMPDGCLGGCount() {
         if (kHEMPDGCLGGBuilder_ == null) {
@@ -1489,7 +1489,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair KHEMPDGCLGG = 10;</code>
+       * <code>repeated .Uint32Pair KHEMPDGCLGG = 50006;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getKHEMPDGCLGG(int index) {
         if (kHEMPDGCLGGBuilder_ == null) {
@@ -1499,7 +1499,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair KHEMPDGCLGG = 10;</code>
+       * <code>repeated .Uint32Pair KHEMPDGCLGG = 50006;</code>
        */
       public Builder setKHEMPDGCLGG(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
@@ -1516,7 +1516,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair KHEMPDGCLGG = 10;</code>
+       * <code>repeated .Uint32Pair KHEMPDGCLGG = 50006;</code>
        */
       public Builder setKHEMPDGCLGG(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder builderForValue) {
@@ -1530,7 +1530,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair KHEMPDGCLGG = 10;</code>
+       * <code>repeated .Uint32Pair KHEMPDGCLGG = 50006;</code>
        */
       public Builder addKHEMPDGCLGG(emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
         if (kHEMPDGCLGGBuilder_ == null) {
@@ -1546,7 +1546,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair KHEMPDGCLGG = 10;</code>
+       * <code>repeated .Uint32Pair KHEMPDGCLGG = 50006;</code>
        */
       public Builder addKHEMPDGCLGG(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
@@ -1563,7 +1563,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair KHEMPDGCLGG = 10;</code>
+       * <code>repeated .Uint32Pair KHEMPDGCLGG = 50006;</code>
        */
       public Builder addKHEMPDGCLGG(
           emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder builderForValue) {
@@ -1577,7 +1577,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair KHEMPDGCLGG = 10;</code>
+       * <code>repeated .Uint32Pair KHEMPDGCLGG = 50006;</code>
        */
       public Builder addKHEMPDGCLGG(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder builderForValue) {
@@ -1591,7 +1591,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair KHEMPDGCLGG = 10;</code>
+       * <code>repeated .Uint32Pair KHEMPDGCLGG = 50006;</code>
        */
       public Builder addAllKHEMPDGCLGG(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> values) {
@@ -1606,7 +1606,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair KHEMPDGCLGG = 10;</code>
+       * <code>repeated .Uint32Pair KHEMPDGCLGG = 50006;</code>
        */
       public Builder clearKHEMPDGCLGG() {
         if (kHEMPDGCLGGBuilder_ == null) {
@@ -1619,7 +1619,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair KHEMPDGCLGG = 10;</code>
+       * <code>repeated .Uint32Pair KHEMPDGCLGG = 50006;</code>
        */
       public Builder removeKHEMPDGCLGG(int index) {
         if (kHEMPDGCLGGBuilder_ == null) {
@@ -1632,14 +1632,14 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair KHEMPDGCLGG = 10;</code>
+       * <code>repeated .Uint32Pair KHEMPDGCLGG = 50006;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder getKHEMPDGCLGGBuilder(
           int index) {
         return getKHEMPDGCLGGFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .Uint32Pair KHEMPDGCLGG = 10;</code>
+       * <code>repeated .Uint32Pair KHEMPDGCLGG = 50006;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getKHEMPDGCLGGOrBuilder(
           int index) {
@@ -1649,7 +1649,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair KHEMPDGCLGG = 10;</code>
+       * <code>repeated .Uint32Pair KHEMPDGCLGG = 50006;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
            getKHEMPDGCLGGOrBuilderList() {
@@ -1660,14 +1660,14 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair KHEMPDGCLGG = 10;</code>
+       * <code>repeated .Uint32Pair KHEMPDGCLGG = 50006;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder addKHEMPDGCLGGBuilder() {
         return getKHEMPDGCLGGFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.getDefaultInstance());
       }
       /**
-       * <code>repeated .Uint32Pair KHEMPDGCLGG = 10;</code>
+       * <code>repeated .Uint32Pair KHEMPDGCLGG = 50006;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder addKHEMPDGCLGGBuilder(
           int index) {
@@ -1675,7 +1675,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
             index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.getDefaultInstance());
       }
       /**
-       * <code>repeated .Uint32Pair KHEMPDGCLGG = 10;</code>
+       * <code>repeated .Uint32Pair KHEMPDGCLGG = 50006;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder> 
            getKHEMPDGCLGGBuilderList() {
@@ -1698,7 +1698,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
 
       private int score_ ;
       /**
-       * <code>uint32 score = 14;</code>
+       * <code>uint32 score = 12;</code>
        * @return The score.
        */
       @java.lang.Override
@@ -1706,7 +1706,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         return score_;
       }
       /**
-       * <code>uint32 score = 14;</code>
+       * <code>uint32 score = 12;</code>
        * @param value The score to set.
        * @return This builder for chaining.
        */
@@ -1717,7 +1717,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 score = 14;</code>
+       * <code>uint32 score = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearScore() {
@@ -1729,7 +1729,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
 
       private boolean isNewRecord_ ;
       /**
-       * <code>bool is_new_record = 15;</code>
+       * <code>bool is_new_record = 5;</code>
        * @return The isNewRecord.
        */
       @java.lang.Override
@@ -1737,7 +1737,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         return isNewRecord_;
       }
       /**
-       * <code>bool is_new_record = 15;</code>
+       * <code>bool is_new_record = 5;</code>
        * @param value The isNewRecord to set.
        * @return This builder for chaining.
        */
@@ -1748,7 +1748,7 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_new_record = 15;</code>
+       * <code>bool is_new_record = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsNewRecord() {
@@ -1825,16 +1825,16 @@ public final class _LoliGolfDungeonSettleInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n _LoliGolfDungeonSettleInfo.proto\032\020Uint" +
-      "32Pair.proto\"\224\002\n\032_LoliGolfDungeonSettleI" +
-      "nfo\022\023\n\013BMMIKCIJLHN\030\001 \001(\r\022\023\n\013FHKOLIDKNBA\030" +
-      "\002 \001(\r\022\023\n\013JOELLBHNGDL\030\003 \001(\r\022\021\n\tqte_count\030" +
-      "\004 \001(\r\022\020\n\010level_id\030\005 \001(\r\022\023\n\013IDJGDOGIJFE\030\006" +
-      " \001(\r\022 \n\013NKOOPGKMHEK\030\007 \003(\0132\013.Uint32Pair\022\023" +
-      "\n\013AFOELHPKJOP\030\t \001(\r\022 \n\013KHEMPDGCLGG\030\n \003(\013" +
-      "2\013.Uint32Pair\022\r\n\005score\030\016 \001(\r\022\025\n\ris_new_r" +
-      "ecord\030\017 \001(\010BA\n\031emu.grasscutter.net.proto" +
-      "B$_LoliGolfDungeonSettleInfoOuterClassb\006" +
-      "proto3"
+      "32Pair.proto\"\242\002\n\032_LoliGolfDungeonSettleI" +
+      "nfo\022\025\n\013BMMIKCIJLHN\030\320\206\003 \001(\r\022\025\n\013FHKOLIDKNB" +
+      "A\030\321\206\003 \001(\r\022\025\n\013JOELLBHNGDL\030\322\206\003 \001(\r\022\021\n\tqte_" +
+      "count\030\r \001(\r\022\020\n\010level_id\030\001 \001(\r\022\025\n\013IDJGDOG" +
+      "IJFE\030\323\206\003 \001(\r\022\"\n\013NKOOPGKMHEK\030\324\206\003 \003(\0132\013.Ui" +
+      "nt32Pair\022\025\n\013AFOELHPKJOP\030\325\206\003 \001(\r\022\"\n\013KHEMP" +
+      "DGCLGG\030\326\206\003 \003(\0132\013.Uint32Pair\022\r\n\005score\030\014 \001" +
+      "(\r\022\025\n\ris_new_record\030\005 \001(\010BA\n\031emu.grasscu" +
+      "tter.net.protoB$_LoliGolfDungeonSettleIn" +
+      "foOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

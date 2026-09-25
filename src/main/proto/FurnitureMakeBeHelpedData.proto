@@ -6,9 +6,9 @@ option java_outer_classname = "FurnitureMakeBeHelpedDataOuterClass";
 import "ProfilePicture.proto";
 
 message FurnitureMakeBeHelpedData {
-	string player_name = 2;
-	uint32 uid = 7;
-	uint32 icon = 8;
-	ProfilePicture profile_picture = 12;
-	fixed32 time = 14;
+	string player_name = 5;
+	uint32 uid = 6;
+	uint32 icon = 9;
+	ProfilePicture profile_picture = 13;
+	fixed32 time = 4;
 }

@@ -4,5 +4,5 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "SeaLampSectionInfoOuterClass";
 
 message SeaLampSectionInfo {
-	uint32 section_id = 6;
+	uint32 section_id = 7;
 }

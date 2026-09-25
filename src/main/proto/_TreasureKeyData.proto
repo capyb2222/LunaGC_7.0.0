@@ -6,5 +6,5 @@ option java_outer_classname = "_TreasureKeyDataOuterClass";
 import "_TreasureKeyMarkPoint.proto";
 
 message _TreasureKeyData {
-	_TreasureKeyMarkPoint _mark_point = 4;
+	_TreasureKeyMarkPoint _mark_point = 7;
 }

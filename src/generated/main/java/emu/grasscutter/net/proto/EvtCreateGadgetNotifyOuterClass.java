@@ -19,102 +19,102 @@ public final class EvtCreateGadgetNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 camp_id = 1;</code>
+     * <code>uint32 camp_id = 7;</code>
      * @return The campId.
      */
     int getCampId();
 
     /**
-     * <code>bool LMLMALLLGBB = 2;</code>
+     * <code>bool LMLMALLLGBB = 50000;</code>
      * @return The lMLMALLLGBB.
      */
     boolean getLMLMALLLGBB();
 
     /**
-     * <code>.Vector init_euler_angles = 3;</code>
+     * <code>.Vector init_euler_angles = 50001;</code>
      * @return Whether the initEulerAngles field is set.
      */
     boolean hasInitEulerAngles();
     /**
-     * <code>.Vector init_euler_angles = 3;</code>
+     * <code>.Vector init_euler_angles = 50001;</code>
      * @return The initEulerAngles.
      */
     emu.grasscutter.net.proto.VectorOuterClass.Vector getInitEulerAngles();
     /**
-     * <code>.Vector init_euler_angles = 3;</code>
+     * <code>.Vector init_euler_angles = 50001;</code>
      */
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getInitEulerAnglesOrBuilder();
 
     /**
-     * <code>.Vector init_pos = 4;</code>
+     * <code>.Vector init_pos = 15;</code>
      * @return Whether the initPos field is set.
      */
     boolean hasInitPos();
     /**
-     * <code>.Vector init_pos = 4;</code>
+     * <code>.Vector init_pos = 15;</code>
      * @return The initPos.
      */
     emu.grasscutter.net.proto.VectorOuterClass.Vector getInitPos();
     /**
-     * <code>.Vector init_pos = 4;</code>
+     * <code>.Vector init_pos = 15;</code>
      */
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getInitPosOrBuilder();
 
     /**
-     * <code>uint32 config_id = 5;</code>
+     * <code>uint32 config_id = 11;</code>
      * @return The configId.
      */
     int getConfigId();
 
     /**
-     * <code>uint64 guid = 6;</code>
+     * <code>uint64 guid = 13;</code>
      * @return The guid.
      */
     long getGuid();
 
     /**
-     * <code>uint32 target_entity_id = 7;</code>
+     * <code>uint32 target_entity_id = 10;</code>
      * @return The targetEntityId.
      */
     int getTargetEntityId();
 
     /**
-     * <code>uint32 owner_entity_id = 8;</code>
+     * <code>uint32 owner_entity_id = 6;</code>
      * @return The ownerEntityId.
      */
     int getOwnerEntityId();
 
     /**
-     * <code>uint32 room_id = 9;</code>
+     * <code>uint32 room_id = 5;</code>
      * @return The roomId.
      */
     int getRoomId();
 
     /**
-     * <code>.ForwardType forward_type = 10;</code>
+     * <code>.ForwardType forward_type = 9;</code>
      * @return The enum numeric value on the wire for forwardType.
      */
     int getForwardTypeValue();
     /**
-     * <code>.ForwardType forward_type = 10;</code>
+     * <code>.ForwardType forward_type = 9;</code>
      * @return The forwardType.
      */
     emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType getForwardType();
 
     /**
-     * <code>uint32 entity_id = 11;</code>
+     * <code>uint32 entity_id = 3;</code>
      * @return The entityId.
      */
     int getEntityId();
 
     /**
-     * <code>bool PBLACGNNCDF = 12;</code>
+     * <code>bool PBLACGNNCDF = 50002;</code>
      * @return The pBLACGNNCDF.
      */
     boolean getPBLACGNNCDF();
 
     /**
-     * <code>uint32 camp_type = 13;</code>
+     * <code>uint32 camp_type = 2;</code>
      * @return The campType.
      */
     int getCampType();
@@ -126,124 +126,124 @@ public final class EvtCreateGadgetNotifyOuterClass {
     int getAAMABJDMIFN();
 
     /**
-     * <code>uint32 prop_owner_entity_id = 15;</code>
+     * <code>uint32 prop_owner_entity_id = 1;</code>
      * @return The propOwnerEntityId.
      */
     int getPropOwnerEntityId();
 
     /**
-     * <code>uint32 KMDOFBPMGAI = 400;</code>
+     * <code>uint32 KMDOFBPMGAI = 80;</code>
      * @return The kMDOFBPMGAI.
      */
     int getKMDOFBPMGAI();
 
     /**
-     * <code>int32 local_id = 408;</code>
+     * <code>int32 local_id = 1451;</code>
      * @return The localId.
      */
     int getLocalId();
 
     /**
-     * <code>bool NHNFGNMNDDE = 516;</code>
+     * <code>bool NHNFGNMNDDE = 50003;</code>
      * @return The nHNFGNMNDDE.
      */
     boolean getNHNFGNMNDDE();
 
     /**
-     * <code>bool is_peer_id_from_player = 564;</code>
+     * <code>bool is_peer_id_from_player = 141;</code>
      * @return The isPeerIdFromPlayer.
      */
     boolean getIsPeerIdFromPlayer();
 
     /**
-     * <code>repeated uint32 target_lock_point_index_list = 780;</code>
+     * <code>repeated uint32 target_lock_point_index_list = 50004;</code>
      * @return A list containing the targetLockPointIndexList.
      */
     java.util.List<java.lang.Integer> getTargetLockPointIndexListList();
     /**
-     * <code>repeated uint32 target_lock_point_index_list = 780;</code>
+     * <code>repeated uint32 target_lock_point_index_list = 50004;</code>
      * @return The count of targetLockPointIndexList.
      */
     int getTargetLockPointIndexListCount();
     /**
-     * <code>repeated uint32 target_lock_point_index_list = 780;</code>
+     * <code>repeated uint32 target_lock_point_index_list = 50004;</code>
      * @param index The index of the element to return.
      * @return The targetLockPointIndexList at the given index.
      */
     int getTargetLockPointIndexList(int index);
 
     /**
-     * <code>.CEAFBJOBFJE BHJNCGINIJB = 850;</code>
+     * <code>.CEAFBJOBFJE BHJNCGINIJB = 1732;</code>
      * @return Whether the bHJNCGINIJB field is set.
      */
     boolean hasBHJNCGINIJB();
     /**
-     * <code>.CEAFBJOBFJE BHJNCGINIJB = 850;</code>
+     * <code>.CEAFBJOBFJE BHJNCGINIJB = 1732;</code>
      * @return The bHJNCGINIJB.
      */
     emu.grasscutter.net.proto.CEAFBJOBFJEOuterClass.CEAFBJOBFJE getBHJNCGINIJB();
     /**
-     * <code>.CEAFBJOBFJE BHJNCGINIJB = 850;</code>
+     * <code>.CEAFBJOBFJE BHJNCGINIJB = 1732;</code>
      */
     emu.grasscutter.net.proto.CEAFBJOBFJEOuterClass.CEAFBJOBFJEOrBuilder getBHJNCGINIJBOrBuilder();
 
     /**
-     * <code>.LifeByOwnerType _life_by_owner_type = 885;</code>
+     * <code>.LifeByOwnerType _life_by_owner_type = 50005;</code>
      * @return The enum numeric value on the wire for lifeByOwnerType.
      */
     int getLifeByOwnerTypeValue();
     /**
-     * <code>.LifeByOwnerType _life_by_owner_type = 885;</code>
+     * <code>.LifeByOwnerType _life_by_owner_type = 50005;</code>
      * @return The lifeByOwnerType.
      */
     emu.grasscutter.net.proto.LifeByOwnerTypeOuterClass.LifeByOwnerType getLifeByOwnerType();
 
     /**
-     * <code>repeated uint32 target_entity_id_list = 1239;</code>
+     * <code>repeated uint32 target_entity_id_list = 50006;</code>
      * @return A list containing the targetEntityIdList.
      */
     java.util.List<java.lang.Integer> getTargetEntityIdListList();
     /**
-     * <code>repeated uint32 target_entity_id_list = 1239;</code>
+     * <code>repeated uint32 target_entity_id_list = 50006;</code>
      * @return The count of targetEntityIdList.
      */
     int getTargetEntityIdListCount();
     /**
-     * <code>repeated uint32 target_entity_id_list = 1239;</code>
+     * <code>repeated uint32 target_entity_id_list = 50006;</code>
      * @param index The index of the element to return.
      * @return The targetEntityIdList at the given index.
      */
     int getTargetEntityIdList(int index);
 
     /**
-     * <code>uint32 LDAODDFLPGB = 1328;</code>
+     * <code>uint32 LDAODDFLPGB = 1349;</code>
      * @return The lDAODDFLPGB.
      */
     int getLDAODDFLPGB();
 
     /**
-     * <code>uint32 born_slot_index = 1378;</code>
+     * <code>uint32 born_slot_index = 421;</code>
      * @return The bornSlotIndex.
      */
     int getBornSlotIndex();
 
     /**
-     * <code>.AbilityString ability_name = 1396;</code>
+     * <code>.AbilityString ability_name = 988;</code>
      * @return Whether the abilityName field is set.
      */
     boolean hasAbilityName();
     /**
-     * <code>.AbilityString ability_name = 1396;</code>
+     * <code>.AbilityString ability_name = 988;</code>
      * @return The abilityName.
      */
     emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString getAbilityName();
     /**
-     * <code>.AbilityString ability_name = 1396;</code>
+     * <code>.AbilityString ability_name = 988;</code>
      */
     emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder getAbilityNameOrBuilder();
 
     /**
-     * <code>uint32 init_pose_id = 1525;</code>
+     * <code>uint32 init_pose_id = 810;</code>
      * @return The initPoseId.
      */
     int getInitPoseId();
@@ -300,28 +300,61 @@ public final class EvtCreateGadgetNotifyOuterClass {
               break;
             case 8: {
 
-              campId_ = input.readUInt32();
+              propOwnerEntityId_ = input.readUInt32();
               break;
             }
             case 16: {
 
-              lMLMALLLGBB_ = input.readBool();
+              campType_ = input.readUInt32();
               break;
             }
-            case 26: {
-              emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
-              if (initEulerAngles_ != null) {
-                subBuilder = initEulerAngles_.toBuilder();
-              }
-              initEulerAngles_ = input.readMessage(emu.grasscutter.net.proto.VectorOuterClass.Vector.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(initEulerAngles_);
-                initEulerAngles_ = subBuilder.buildPartial();
-              }
+            case 24: {
 
+              entityId_ = input.readUInt32();
               break;
             }
-            case 34: {
+            case 40: {
+
+              roomId_ = input.readUInt32();
+              break;
+            }
+            case 48: {
+
+              ownerEntityId_ = input.readUInt32();
+              break;
+            }
+            case 56: {
+
+              campId_ = input.readUInt32();
+              break;
+            }
+            case 72: {
+              int rawValue = input.readEnum();
+
+              forwardType_ = rawValue;
+              break;
+            }
+            case 80: {
+
+              targetEntityId_ = input.readUInt32();
+              break;
+            }
+            case 88: {
+
+              configId_ = input.readUInt32();
+              break;
+            }
+            case 104: {
+
+              guid_ = input.readUInt64();
+              break;
+            }
+            case 112: {
+
+              aAMABJDMIFN_ = input.readUInt32();
+              break;
+            }
+            case 122: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (initPos_ != null) {
                 subBuilder = initPos_.toBuilder();
@@ -334,154 +367,27 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
               break;
             }
-            case 40: {
-
-              configId_ = input.readUInt32();
-              break;
-            }
-            case 48: {
-
-              guid_ = input.readUInt64();
-              break;
-            }
-            case 56: {
-
-              targetEntityId_ = input.readUInt32();
-              break;
-            }
-            case 64: {
-
-              ownerEntityId_ = input.readUInt32();
-              break;
-            }
-            case 72: {
-
-              roomId_ = input.readUInt32();
-              break;
-            }
-            case 80: {
-              int rawValue = input.readEnum();
-
-              forwardType_ = rawValue;
-              break;
-            }
-            case 88: {
-
-              entityId_ = input.readUInt32();
-              break;
-            }
-            case 96: {
-
-              pBLACGNNCDF_ = input.readBool();
-              break;
-            }
-            case 104: {
-
-              campType_ = input.readUInt32();
-              break;
-            }
-            case 112: {
-
-              aAMABJDMIFN_ = input.readUInt32();
-              break;
-            }
-            case 120: {
-
-              propOwnerEntityId_ = input.readUInt32();
-              break;
-            }
-            case 3200: {
+            case 640: {
 
               kMDOFBPMGAI_ = input.readUInt32();
               break;
             }
-            case 3264: {
-
-              localId_ = input.readInt32();
-              break;
-            }
-            case 4128: {
-
-              nHNFGNMNDDE_ = input.readBool();
-              break;
-            }
-            case 4512: {
+            case 1128: {
 
               isPeerIdFromPlayer_ = input.readBool();
               break;
             }
-            case 6240: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                targetLockPointIndexList_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              targetLockPointIndexList_.addInt(input.readUInt32());
-              break;
-            }
-            case 6242: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                targetLockPointIndexList_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                targetLockPointIndexList_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
-              break;
-            }
-            case 6802: {
-              emu.grasscutter.net.proto.CEAFBJOBFJEOuterClass.CEAFBJOBFJE.Builder subBuilder = null;
-              if (bHJNCGINIJB_ != null) {
-                subBuilder = bHJNCGINIJB_.toBuilder();
-              }
-              bHJNCGINIJB_ = input.readMessage(emu.grasscutter.net.proto.CEAFBJOBFJEOuterClass.CEAFBJOBFJE.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(bHJNCGINIJB_);
-                bHJNCGINIJB_ = subBuilder.buildPartial();
-              }
-
-              break;
-            }
-            case 7080: {
-              int rawValue = input.readEnum();
-
-              LifeByOwnerType_ = rawValue;
-              break;
-            }
-            case 9912: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                targetEntityIdList_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
-              }
-              targetEntityIdList_.addInt(input.readUInt32());
-              break;
-            }
-            case 9914: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
-                targetEntityIdList_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                targetEntityIdList_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
-              break;
-            }
-            case 10624: {
-
-              lDAODDFLPGB_ = input.readUInt32();
-              break;
-            }
-            case 11024: {
+            case 3368: {
 
               bornSlotIndex_ = input.readUInt32();
               break;
             }
-            case 11170: {
+            case 6480: {
+
+              initPoseId_ = input.readUInt32();
+              break;
+            }
+            case 7906: {
               emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder subBuilder = null;
               if (abilityName_ != null) {
                 subBuilder = abilityName_.toBuilder();
@@ -494,9 +400,103 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
               break;
             }
-            case 12200: {
+            case 10792: {
 
-              initPoseId_ = input.readUInt32();
+              lDAODDFLPGB_ = input.readUInt32();
+              break;
+            }
+            case 11608: {
+
+              localId_ = input.readInt32();
+              break;
+            }
+            case 13858: {
+              emu.grasscutter.net.proto.CEAFBJOBFJEOuterClass.CEAFBJOBFJE.Builder subBuilder = null;
+              if (bHJNCGINIJB_ != null) {
+                subBuilder = bHJNCGINIJB_.toBuilder();
+              }
+              bHJNCGINIJB_ = input.readMessage(emu.grasscutter.net.proto.CEAFBJOBFJEOuterClass.CEAFBJOBFJE.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(bHJNCGINIJB_);
+                bHJNCGINIJB_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 400000: {
+
+              lMLMALLLGBB_ = input.readBool();
+              break;
+            }
+            case 400010: {
+              emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
+              if (initEulerAngles_ != null) {
+                subBuilder = initEulerAngles_.toBuilder();
+              }
+              initEulerAngles_ = input.readMessage(emu.grasscutter.net.proto.VectorOuterClass.Vector.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(initEulerAngles_);
+                initEulerAngles_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 400016: {
+
+              pBLACGNNCDF_ = input.readBool();
+              break;
+            }
+            case 400024: {
+
+              nHNFGNMNDDE_ = input.readBool();
+              break;
+            }
+            case 400032: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                targetLockPointIndexList_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              targetLockPointIndexList_.addInt(input.readUInt32());
+              break;
+            }
+            case 400034: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
+                targetLockPointIndexList_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                targetLockPointIndexList_.addInt(input.readUInt32());
+              }
+              input.popLimit(limit);
+              break;
+            }
+            case 400040: {
+              int rawValue = input.readEnum();
+
+              LifeByOwnerType_ = rawValue;
+              break;
+            }
+            case 400048: {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                targetEntityIdList_ = newIntList();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              targetEntityIdList_.addInt(input.readUInt32());
+              break;
+            }
+            case 400050: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
+                targetEntityIdList_ = newIntList();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                targetEntityIdList_.addInt(input.readUInt32());
+              }
+              input.popLimit(limit);
               break;
             }
             default: {
@@ -537,10 +537,10 @@ public final class EvtCreateGadgetNotifyOuterClass {
               emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify.class, emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify.Builder.class);
     }
 
-    public static final int CAMP_ID_FIELD_NUMBER = 1;
+    public static final int CAMP_ID_FIELD_NUMBER = 7;
     private int campId_;
     /**
-     * <code>uint32 camp_id = 1;</code>
+     * <code>uint32 camp_id = 7;</code>
      * @return The campId.
      */
     @java.lang.Override
@@ -548,10 +548,10 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return campId_;
     }
 
-    public static final int LMLMALLLGBB_FIELD_NUMBER = 2;
+    public static final int LMLMALLLGBB_FIELD_NUMBER = 50000;
     private boolean lMLMALLLGBB_;
     /**
-     * <code>bool LMLMALLLGBB = 2;</code>
+     * <code>bool LMLMALLLGBB = 50000;</code>
      * @return The lMLMALLLGBB.
      */
     @java.lang.Override
@@ -559,10 +559,10 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return lMLMALLLGBB_;
     }
 
-    public static final int INIT_EULER_ANGLES_FIELD_NUMBER = 3;
+    public static final int INIT_EULER_ANGLES_FIELD_NUMBER = 50001;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector initEulerAngles_;
     /**
-     * <code>.Vector init_euler_angles = 3;</code>
+     * <code>.Vector init_euler_angles = 50001;</code>
      * @return Whether the initEulerAngles field is set.
      */
     @java.lang.Override
@@ -570,7 +570,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return initEulerAngles_ != null;
     }
     /**
-     * <code>.Vector init_euler_angles = 3;</code>
+     * <code>.Vector init_euler_angles = 50001;</code>
      * @return The initEulerAngles.
      */
     @java.lang.Override
@@ -578,17 +578,17 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return initEulerAngles_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : initEulerAngles_;
     }
     /**
-     * <code>.Vector init_euler_angles = 3;</code>
+     * <code>.Vector init_euler_angles = 50001;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getInitEulerAnglesOrBuilder() {
       return getInitEulerAngles();
     }
 
-    public static final int INIT_POS_FIELD_NUMBER = 4;
+    public static final int INIT_POS_FIELD_NUMBER = 15;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector initPos_;
     /**
-     * <code>.Vector init_pos = 4;</code>
+     * <code>.Vector init_pos = 15;</code>
      * @return Whether the initPos field is set.
      */
     @java.lang.Override
@@ -596,7 +596,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return initPos_ != null;
     }
     /**
-     * <code>.Vector init_pos = 4;</code>
+     * <code>.Vector init_pos = 15;</code>
      * @return The initPos.
      */
     @java.lang.Override
@@ -604,17 +604,17 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return initPos_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : initPos_;
     }
     /**
-     * <code>.Vector init_pos = 4;</code>
+     * <code>.Vector init_pos = 15;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getInitPosOrBuilder() {
       return getInitPos();
     }
 
-    public static final int CONFIG_ID_FIELD_NUMBER = 5;
+    public static final int CONFIG_ID_FIELD_NUMBER = 11;
     private int configId_;
     /**
-     * <code>uint32 config_id = 5;</code>
+     * <code>uint32 config_id = 11;</code>
      * @return The configId.
      */
     @java.lang.Override
@@ -622,10 +622,10 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return configId_;
     }
 
-    public static final int GUID_FIELD_NUMBER = 6;
+    public static final int GUID_FIELD_NUMBER = 13;
     private long guid_;
     /**
-     * <code>uint64 guid = 6;</code>
+     * <code>uint64 guid = 13;</code>
      * @return The guid.
      */
     @java.lang.Override
@@ -633,10 +633,10 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return guid_;
     }
 
-    public static final int TARGET_ENTITY_ID_FIELD_NUMBER = 7;
+    public static final int TARGET_ENTITY_ID_FIELD_NUMBER = 10;
     private int targetEntityId_;
     /**
-     * <code>uint32 target_entity_id = 7;</code>
+     * <code>uint32 target_entity_id = 10;</code>
      * @return The targetEntityId.
      */
     @java.lang.Override
@@ -644,10 +644,10 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return targetEntityId_;
     }
 
-    public static final int OWNER_ENTITY_ID_FIELD_NUMBER = 8;
+    public static final int OWNER_ENTITY_ID_FIELD_NUMBER = 6;
     private int ownerEntityId_;
     /**
-     * <code>uint32 owner_entity_id = 8;</code>
+     * <code>uint32 owner_entity_id = 6;</code>
      * @return The ownerEntityId.
      */
     @java.lang.Override
@@ -655,10 +655,10 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return ownerEntityId_;
     }
 
-    public static final int ROOM_ID_FIELD_NUMBER = 9;
+    public static final int ROOM_ID_FIELD_NUMBER = 5;
     private int roomId_;
     /**
-     * <code>uint32 room_id = 9;</code>
+     * <code>uint32 room_id = 5;</code>
      * @return The roomId.
      */
     @java.lang.Override
@@ -666,17 +666,17 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return roomId_;
     }
 
-    public static final int FORWARD_TYPE_FIELD_NUMBER = 10;
+    public static final int FORWARD_TYPE_FIELD_NUMBER = 9;
     private int forwardType_;
     /**
-     * <code>.ForwardType forward_type = 10;</code>
+     * <code>.ForwardType forward_type = 9;</code>
      * @return The enum numeric value on the wire for forwardType.
      */
     @java.lang.Override public int getForwardTypeValue() {
       return forwardType_;
     }
     /**
-     * <code>.ForwardType forward_type = 10;</code>
+     * <code>.ForwardType forward_type = 9;</code>
      * @return The forwardType.
      */
     @java.lang.Override public emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType getForwardType() {
@@ -685,10 +685,10 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return result == null ? emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.UNRECOGNIZED : result;
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 11;
+    public static final int ENTITY_ID_FIELD_NUMBER = 3;
     private int entityId_;
     /**
-     * <code>uint32 entity_id = 11;</code>
+     * <code>uint32 entity_id = 3;</code>
      * @return The entityId.
      */
     @java.lang.Override
@@ -696,10 +696,10 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return entityId_;
     }
 
-    public static final int PBLACGNNCDF_FIELD_NUMBER = 12;
+    public static final int PBLACGNNCDF_FIELD_NUMBER = 50002;
     private boolean pBLACGNNCDF_;
     /**
-     * <code>bool PBLACGNNCDF = 12;</code>
+     * <code>bool PBLACGNNCDF = 50002;</code>
      * @return The pBLACGNNCDF.
      */
     @java.lang.Override
@@ -707,10 +707,10 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return pBLACGNNCDF_;
     }
 
-    public static final int CAMP_TYPE_FIELD_NUMBER = 13;
+    public static final int CAMP_TYPE_FIELD_NUMBER = 2;
     private int campType_;
     /**
-     * <code>uint32 camp_type = 13;</code>
+     * <code>uint32 camp_type = 2;</code>
      * @return The campType.
      */
     @java.lang.Override
@@ -729,10 +729,10 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return aAMABJDMIFN_;
     }
 
-    public static final int PROP_OWNER_ENTITY_ID_FIELD_NUMBER = 15;
+    public static final int PROP_OWNER_ENTITY_ID_FIELD_NUMBER = 1;
     private int propOwnerEntityId_;
     /**
-     * <code>uint32 prop_owner_entity_id = 15;</code>
+     * <code>uint32 prop_owner_entity_id = 1;</code>
      * @return The propOwnerEntityId.
      */
     @java.lang.Override
@@ -740,10 +740,10 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return propOwnerEntityId_;
     }
 
-    public static final int KMDOFBPMGAI_FIELD_NUMBER = 400;
+    public static final int KMDOFBPMGAI_FIELD_NUMBER = 80;
     private int kMDOFBPMGAI_;
     /**
-     * <code>uint32 KMDOFBPMGAI = 400;</code>
+     * <code>uint32 KMDOFBPMGAI = 80;</code>
      * @return The kMDOFBPMGAI.
      */
     @java.lang.Override
@@ -751,10 +751,10 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return kMDOFBPMGAI_;
     }
 
-    public static final int LOCAL_ID_FIELD_NUMBER = 408;
+    public static final int LOCAL_ID_FIELD_NUMBER = 1451;
     private int localId_;
     /**
-     * <code>int32 local_id = 408;</code>
+     * <code>int32 local_id = 1451;</code>
      * @return The localId.
      */
     @java.lang.Override
@@ -762,10 +762,10 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return localId_;
     }
 
-    public static final int NHNFGNMNDDE_FIELD_NUMBER = 516;
+    public static final int NHNFGNMNDDE_FIELD_NUMBER = 50003;
     private boolean nHNFGNMNDDE_;
     /**
-     * <code>bool NHNFGNMNDDE = 516;</code>
+     * <code>bool NHNFGNMNDDE = 50003;</code>
      * @return The nHNFGNMNDDE.
      */
     @java.lang.Override
@@ -773,10 +773,10 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return nHNFGNMNDDE_;
     }
 
-    public static final int IS_PEER_ID_FROM_PLAYER_FIELD_NUMBER = 564;
+    public static final int IS_PEER_ID_FROM_PLAYER_FIELD_NUMBER = 141;
     private boolean isPeerIdFromPlayer_;
     /**
-     * <code>bool is_peer_id_from_player = 564;</code>
+     * <code>bool is_peer_id_from_player = 141;</code>
      * @return The isPeerIdFromPlayer.
      */
     @java.lang.Override
@@ -784,10 +784,10 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return isPeerIdFromPlayer_;
     }
 
-    public static final int TARGET_LOCK_POINT_INDEX_LIST_FIELD_NUMBER = 780;
+    public static final int TARGET_LOCK_POINT_INDEX_LIST_FIELD_NUMBER = 50004;
     private com.google.protobuf.Internal.IntList targetLockPointIndexList_;
     /**
-     * <code>repeated uint32 target_lock_point_index_list = 780;</code>
+     * <code>repeated uint32 target_lock_point_index_list = 50004;</code>
      * @return A list containing the targetLockPointIndexList.
      */
     @java.lang.Override
@@ -796,14 +796,14 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return targetLockPointIndexList_;
     }
     /**
-     * <code>repeated uint32 target_lock_point_index_list = 780;</code>
+     * <code>repeated uint32 target_lock_point_index_list = 50004;</code>
      * @return The count of targetLockPointIndexList.
      */
     public int getTargetLockPointIndexListCount() {
       return targetLockPointIndexList_.size();
     }
     /**
-     * <code>repeated uint32 target_lock_point_index_list = 780;</code>
+     * <code>repeated uint32 target_lock_point_index_list = 50004;</code>
      * @param index The index of the element to return.
      * @return The targetLockPointIndexList at the given index.
      */
@@ -812,10 +812,10 @@ public final class EvtCreateGadgetNotifyOuterClass {
     }
     private int targetLockPointIndexListMemoizedSerializedSize = -1;
 
-    public static final int BHJNCGINIJB_FIELD_NUMBER = 850;
+    public static final int BHJNCGINIJB_FIELD_NUMBER = 1732;
     private emu.grasscutter.net.proto.CEAFBJOBFJEOuterClass.CEAFBJOBFJE bHJNCGINIJB_;
     /**
-     * <code>.CEAFBJOBFJE BHJNCGINIJB = 850;</code>
+     * <code>.CEAFBJOBFJE BHJNCGINIJB = 1732;</code>
      * @return Whether the bHJNCGINIJB field is set.
      */
     @java.lang.Override
@@ -823,7 +823,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return bHJNCGINIJB_ != null;
     }
     /**
-     * <code>.CEAFBJOBFJE BHJNCGINIJB = 850;</code>
+     * <code>.CEAFBJOBFJE BHJNCGINIJB = 1732;</code>
      * @return The bHJNCGINIJB.
      */
     @java.lang.Override
@@ -831,24 +831,24 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return bHJNCGINIJB_ == null ? emu.grasscutter.net.proto.CEAFBJOBFJEOuterClass.CEAFBJOBFJE.getDefaultInstance() : bHJNCGINIJB_;
     }
     /**
-     * <code>.CEAFBJOBFJE BHJNCGINIJB = 850;</code>
+     * <code>.CEAFBJOBFJE BHJNCGINIJB = 1732;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.CEAFBJOBFJEOuterClass.CEAFBJOBFJEOrBuilder getBHJNCGINIJBOrBuilder() {
       return getBHJNCGINIJB();
     }
 
-    public static final int _LIFE_BY_OWNER_TYPE_FIELD_NUMBER = 885;
+    public static final int _LIFE_BY_OWNER_TYPE_FIELD_NUMBER = 50005;
     private int LifeByOwnerType_;
     /**
-     * <code>.LifeByOwnerType _life_by_owner_type = 885;</code>
+     * <code>.LifeByOwnerType _life_by_owner_type = 50005;</code>
      * @return The enum numeric value on the wire for lifeByOwnerType.
      */
     @java.lang.Override public int getLifeByOwnerTypeValue() {
       return LifeByOwnerType_;
     }
     /**
-     * <code>.LifeByOwnerType _life_by_owner_type = 885;</code>
+     * <code>.LifeByOwnerType _life_by_owner_type = 50005;</code>
      * @return The lifeByOwnerType.
      */
     @java.lang.Override public emu.grasscutter.net.proto.LifeByOwnerTypeOuterClass.LifeByOwnerType getLifeByOwnerType() {
@@ -857,10 +857,10 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return result == null ? emu.grasscutter.net.proto.LifeByOwnerTypeOuterClass.LifeByOwnerType.UNRECOGNIZED : result;
     }
 
-    public static final int TARGET_ENTITY_ID_LIST_FIELD_NUMBER = 1239;
+    public static final int TARGET_ENTITY_ID_LIST_FIELD_NUMBER = 50006;
     private com.google.protobuf.Internal.IntList targetEntityIdList_;
     /**
-     * <code>repeated uint32 target_entity_id_list = 1239;</code>
+     * <code>repeated uint32 target_entity_id_list = 50006;</code>
      * @return A list containing the targetEntityIdList.
      */
     @java.lang.Override
@@ -869,14 +869,14 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return targetEntityIdList_;
     }
     /**
-     * <code>repeated uint32 target_entity_id_list = 1239;</code>
+     * <code>repeated uint32 target_entity_id_list = 50006;</code>
      * @return The count of targetEntityIdList.
      */
     public int getTargetEntityIdListCount() {
       return targetEntityIdList_.size();
     }
     /**
-     * <code>repeated uint32 target_entity_id_list = 1239;</code>
+     * <code>repeated uint32 target_entity_id_list = 50006;</code>
      * @param index The index of the element to return.
      * @return The targetEntityIdList at the given index.
      */
@@ -885,10 +885,10 @@ public final class EvtCreateGadgetNotifyOuterClass {
     }
     private int targetEntityIdListMemoizedSerializedSize = -1;
 
-    public static final int LDAODDFLPGB_FIELD_NUMBER = 1328;
+    public static final int LDAODDFLPGB_FIELD_NUMBER = 1349;
     private int lDAODDFLPGB_;
     /**
-     * <code>uint32 LDAODDFLPGB = 1328;</code>
+     * <code>uint32 LDAODDFLPGB = 1349;</code>
      * @return The lDAODDFLPGB.
      */
     @java.lang.Override
@@ -896,10 +896,10 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return lDAODDFLPGB_;
     }
 
-    public static final int BORN_SLOT_INDEX_FIELD_NUMBER = 1378;
+    public static final int BORN_SLOT_INDEX_FIELD_NUMBER = 421;
     private int bornSlotIndex_;
     /**
-     * <code>uint32 born_slot_index = 1378;</code>
+     * <code>uint32 born_slot_index = 421;</code>
      * @return The bornSlotIndex.
      */
     @java.lang.Override
@@ -907,10 +907,10 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return bornSlotIndex_;
     }
 
-    public static final int ABILITY_NAME_FIELD_NUMBER = 1396;
+    public static final int ABILITY_NAME_FIELD_NUMBER = 988;
     private emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString abilityName_;
     /**
-     * <code>.AbilityString ability_name = 1396;</code>
+     * <code>.AbilityString ability_name = 988;</code>
      * @return Whether the abilityName field is set.
      */
     @java.lang.Override
@@ -918,7 +918,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return abilityName_ != null;
     }
     /**
-     * <code>.AbilityString ability_name = 1396;</code>
+     * <code>.AbilityString ability_name = 988;</code>
      * @return The abilityName.
      */
     @java.lang.Override
@@ -926,17 +926,17 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return abilityName_ == null ? emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.getDefaultInstance() : abilityName_;
     }
     /**
-     * <code>.AbilityString ability_name = 1396;</code>
+     * <code>.AbilityString ability_name = 988;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder getAbilityNameOrBuilder() {
       return getAbilityName();
     }
 
-    public static final int INIT_POSE_ID_FIELD_NUMBER = 1525;
+    public static final int INIT_POSE_ID_FIELD_NUMBER = 810;
     private int initPoseId_;
     /**
-     * <code>uint32 init_pose_id = 1525;</code>
+     * <code>uint32 init_pose_id = 810;</code>
      * @return The initPoseId.
      */
     @java.lang.Override
@@ -959,94 +959,94 @@ public final class EvtCreateGadgetNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (campId_ != 0) {
-        output.writeUInt32(1, campId_);
-      }
-      if (lMLMALLLGBB_ != false) {
-        output.writeBool(2, lMLMALLLGBB_);
-      }
-      if (initEulerAngles_ != null) {
-        output.writeMessage(3, getInitEulerAngles());
-      }
-      if (initPos_ != null) {
-        output.writeMessage(4, getInitPos());
-      }
-      if (configId_ != 0) {
-        output.writeUInt32(5, configId_);
-      }
-      if (guid_ != 0L) {
-        output.writeUInt64(6, guid_);
-      }
-      if (targetEntityId_ != 0) {
-        output.writeUInt32(7, targetEntityId_);
-      }
-      if (ownerEntityId_ != 0) {
-        output.writeUInt32(8, ownerEntityId_);
-      }
-      if (roomId_ != 0) {
-        output.writeUInt32(9, roomId_);
-      }
-      if (forwardType_ != emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.ForwardType_FORWARD_LOCAL.getNumber()) {
-        output.writeEnum(10, forwardType_);
-      }
-      if (entityId_ != 0) {
-        output.writeUInt32(11, entityId_);
-      }
-      if (pBLACGNNCDF_ != false) {
-        output.writeBool(12, pBLACGNNCDF_);
+      if (propOwnerEntityId_ != 0) {
+        output.writeUInt32(1, propOwnerEntityId_);
       }
       if (campType_ != 0) {
-        output.writeUInt32(13, campType_);
+        output.writeUInt32(2, campType_);
+      }
+      if (entityId_ != 0) {
+        output.writeUInt32(3, entityId_);
+      }
+      if (roomId_ != 0) {
+        output.writeUInt32(5, roomId_);
+      }
+      if (ownerEntityId_ != 0) {
+        output.writeUInt32(6, ownerEntityId_);
+      }
+      if (campId_ != 0) {
+        output.writeUInt32(7, campId_);
+      }
+      if (forwardType_ != emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.ForwardType_FORWARD_LOCAL.getNumber()) {
+        output.writeEnum(9, forwardType_);
+      }
+      if (targetEntityId_ != 0) {
+        output.writeUInt32(10, targetEntityId_);
+      }
+      if (configId_ != 0) {
+        output.writeUInt32(11, configId_);
+      }
+      if (guid_ != 0L) {
+        output.writeUInt64(13, guid_);
       }
       if (aAMABJDMIFN_ != 0) {
         output.writeUInt32(14, aAMABJDMIFN_);
       }
-      if (propOwnerEntityId_ != 0) {
-        output.writeUInt32(15, propOwnerEntityId_);
+      if (initPos_ != null) {
+        output.writeMessage(15, getInitPos());
       }
       if (kMDOFBPMGAI_ != 0) {
-        output.writeUInt32(400, kMDOFBPMGAI_);
-      }
-      if (localId_ != 0) {
-        output.writeInt32(408, localId_);
-      }
-      if (nHNFGNMNDDE_ != false) {
-        output.writeBool(516, nHNFGNMNDDE_);
+        output.writeUInt32(80, kMDOFBPMGAI_);
       }
       if (isPeerIdFromPlayer_ != false) {
-        output.writeBool(564, isPeerIdFromPlayer_);
+        output.writeBool(141, isPeerIdFromPlayer_);
+      }
+      if (bornSlotIndex_ != 0) {
+        output.writeUInt32(421, bornSlotIndex_);
+      }
+      if (initPoseId_ != 0) {
+        output.writeUInt32(810, initPoseId_);
+      }
+      if (abilityName_ != null) {
+        output.writeMessage(988, getAbilityName());
+      }
+      if (lDAODDFLPGB_ != 0) {
+        output.writeUInt32(1349, lDAODDFLPGB_);
+      }
+      if (localId_ != 0) {
+        output.writeInt32(1451, localId_);
+      }
+      if (bHJNCGINIJB_ != null) {
+        output.writeMessage(1732, getBHJNCGINIJB());
+      }
+      if (lMLMALLLGBB_ != false) {
+        output.writeBool(50000, lMLMALLLGBB_);
+      }
+      if (initEulerAngles_ != null) {
+        output.writeMessage(50001, getInitEulerAngles());
+      }
+      if (pBLACGNNCDF_ != false) {
+        output.writeBool(50002, pBLACGNNCDF_);
+      }
+      if (nHNFGNMNDDE_ != false) {
+        output.writeBool(50003, nHNFGNMNDDE_);
       }
       if (getTargetLockPointIndexListList().size() > 0) {
-        output.writeUInt32NoTag(6242);
+        output.writeUInt32NoTag(400034);
         output.writeUInt32NoTag(targetLockPointIndexListMemoizedSerializedSize);
       }
       for (int i = 0; i < targetLockPointIndexList_.size(); i++) {
         output.writeUInt32NoTag(targetLockPointIndexList_.getInt(i));
       }
-      if (bHJNCGINIJB_ != null) {
-        output.writeMessage(850, getBHJNCGINIJB());
-      }
       if (LifeByOwnerType_ != emu.grasscutter.net.proto.LifeByOwnerTypeOuterClass.LifeByOwnerType.LifeByOwnerType_LIFE_BY_OWNER_NONE.getNumber()) {
-        output.writeEnum(885, LifeByOwnerType_);
+        output.writeEnum(50005, LifeByOwnerType_);
       }
       if (getTargetEntityIdListList().size() > 0) {
-        output.writeUInt32NoTag(9914);
+        output.writeUInt32NoTag(400050);
         output.writeUInt32NoTag(targetEntityIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < targetEntityIdList_.size(); i++) {
         output.writeUInt32NoTag(targetEntityIdList_.getInt(i));
-      }
-      if (lDAODDFLPGB_ != 0) {
-        output.writeUInt32(1328, lDAODDFLPGB_);
-      }
-      if (bornSlotIndex_ != 0) {
-        output.writeUInt32(1378, bornSlotIndex_);
-      }
-      if (abilityName_ != null) {
-        output.writeMessage(1396, getAbilityName());
-      }
-      if (initPoseId_ != 0) {
-        output.writeUInt32(1525, initPoseId_);
       }
       unknownFields.writeTo(output);
     }
@@ -1057,81 +1057,101 @@ public final class EvtCreateGadgetNotifyOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (campId_ != 0) {
+      if (propOwnerEntityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, campId_);
-      }
-      if (lMLMALLLGBB_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(2, lMLMALLLGBB_);
-      }
-      if (initEulerAngles_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, getInitEulerAngles());
-      }
-      if (initPos_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, getInitPos());
-      }
-      if (configId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, configId_);
-      }
-      if (guid_ != 0L) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(6, guid_);
-      }
-      if (targetEntityId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, targetEntityId_);
-      }
-      if (ownerEntityId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, ownerEntityId_);
-      }
-      if (roomId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, roomId_);
-      }
-      if (forwardType_ != emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.ForwardType_FORWARD_LOCAL.getNumber()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(10, forwardType_);
-      }
-      if (entityId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, entityId_);
-      }
-      if (pBLACGNNCDF_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, pBLACGNNCDF_);
+          .computeUInt32Size(1, propOwnerEntityId_);
       }
       if (campType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, campType_);
+          .computeUInt32Size(2, campType_);
+      }
+      if (entityId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(3, entityId_);
+      }
+      if (roomId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(5, roomId_);
+      }
+      if (ownerEntityId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(6, ownerEntityId_);
+      }
+      if (campId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(7, campId_);
+      }
+      if (forwardType_ != emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.ForwardType_FORWARD_LOCAL.getNumber()) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeEnumSize(9, forwardType_);
+      }
+      if (targetEntityId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(10, targetEntityId_);
+      }
+      if (configId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(11, configId_);
+      }
+      if (guid_ != 0L) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt64Size(13, guid_);
       }
       if (aAMABJDMIFN_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(14, aAMABJDMIFN_);
       }
-      if (propOwnerEntityId_ != 0) {
+      if (initPos_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, propOwnerEntityId_);
+          .computeMessageSize(15, getInitPos());
       }
       if (kMDOFBPMGAI_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(400, kMDOFBPMGAI_);
-      }
-      if (localId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(408, localId_);
-      }
-      if (nHNFGNMNDDE_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(516, nHNFGNMNDDE_);
+          .computeUInt32Size(80, kMDOFBPMGAI_);
       }
       if (isPeerIdFromPlayer_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(564, isPeerIdFromPlayer_);
+          .computeBoolSize(141, isPeerIdFromPlayer_);
+      }
+      if (bornSlotIndex_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(421, bornSlotIndex_);
+      }
+      if (initPoseId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(810, initPoseId_);
+      }
+      if (abilityName_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(988, getAbilityName());
+      }
+      if (lDAODDFLPGB_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(1349, lDAODDFLPGB_);
+      }
+      if (localId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt32Size(1451, localId_);
+      }
+      if (bHJNCGINIJB_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(1732, getBHJNCGINIJB());
+      }
+      if (lMLMALLLGBB_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(50000, lMLMALLLGBB_);
+      }
+      if (initEulerAngles_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(50001, getInitEulerAngles());
+      }
+      if (pBLACGNNCDF_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(50002, pBLACGNNCDF_);
+      }
+      if (nHNFGNMNDDE_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(50003, nHNFGNMNDDE_);
       }
       {
         int dataSize = 0;
@@ -1141,19 +1161,15 @@ public final class EvtCreateGadgetNotifyOuterClass {
         }
         size += dataSize;
         if (!getTargetLockPointIndexListList().isEmpty()) {
-          size += 2;
+          size += 3;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
         targetLockPointIndexListMemoizedSerializedSize = dataSize;
       }
-      if (bHJNCGINIJB_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(850, getBHJNCGINIJB());
-      }
       if (LifeByOwnerType_ != emu.grasscutter.net.proto.LifeByOwnerTypeOuterClass.LifeByOwnerType.LifeByOwnerType_LIFE_BY_OWNER_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(885, LifeByOwnerType_);
+          .computeEnumSize(50005, LifeByOwnerType_);
       }
       {
         int dataSize = 0;
@@ -1163,27 +1179,11 @@ public final class EvtCreateGadgetNotifyOuterClass {
         }
         size += dataSize;
         if (!getTargetEntityIdListList().isEmpty()) {
-          size += 2;
+          size += 3;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
         targetEntityIdListMemoizedSerializedSize = dataSize;
-      }
-      if (lDAODDFLPGB_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1328, lDAODDFLPGB_);
-      }
-      if (bornSlotIndex_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1378, bornSlotIndex_);
-      }
-      if (abilityName_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1396, getAbilityName());
-      }
-      if (initPoseId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1525, initPoseId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1802,7 +1802,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
       private int campId_ ;
       /**
-       * <code>uint32 camp_id = 1;</code>
+       * <code>uint32 camp_id = 7;</code>
        * @return The campId.
        */
       @java.lang.Override
@@ -1810,7 +1810,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return campId_;
       }
       /**
-       * <code>uint32 camp_id = 1;</code>
+       * <code>uint32 camp_id = 7;</code>
        * @param value The campId to set.
        * @return This builder for chaining.
        */
@@ -1821,7 +1821,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 camp_id = 1;</code>
+       * <code>uint32 camp_id = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearCampId() {
@@ -1833,7 +1833,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
       private boolean lMLMALLLGBB_ ;
       /**
-       * <code>bool LMLMALLLGBB = 2;</code>
+       * <code>bool LMLMALLLGBB = 50000;</code>
        * @return The lMLMALLLGBB.
        */
       @java.lang.Override
@@ -1841,7 +1841,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return lMLMALLLGBB_;
       }
       /**
-       * <code>bool LMLMALLLGBB = 2;</code>
+       * <code>bool LMLMALLLGBB = 50000;</code>
        * @param value The lMLMALLLGBB to set.
        * @return This builder for chaining.
        */
@@ -1852,7 +1852,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>bool LMLMALLLGBB = 2;</code>
+       * <code>bool LMLMALLLGBB = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearLMLMALLLGBB() {
@@ -1866,14 +1866,14 @@ public final class EvtCreateGadgetNotifyOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> initEulerAnglesBuilder_;
       /**
-       * <code>.Vector init_euler_angles = 3;</code>
+       * <code>.Vector init_euler_angles = 50001;</code>
        * @return Whether the initEulerAngles field is set.
        */
       public boolean hasInitEulerAngles() {
         return initEulerAnglesBuilder_ != null || initEulerAngles_ != null;
       }
       /**
-       * <code>.Vector init_euler_angles = 3;</code>
+       * <code>.Vector init_euler_angles = 50001;</code>
        * @return The initEulerAngles.
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector getInitEulerAngles() {
@@ -1884,7 +1884,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         }
       }
       /**
-       * <code>.Vector init_euler_angles = 3;</code>
+       * <code>.Vector init_euler_angles = 50001;</code>
        */
       public Builder setInitEulerAngles(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (initEulerAnglesBuilder_ == null) {
@@ -1900,7 +1900,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.Vector init_euler_angles = 3;</code>
+       * <code>.Vector init_euler_angles = 50001;</code>
        */
       public Builder setInitEulerAngles(
           emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
@@ -1914,7 +1914,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.Vector init_euler_angles = 3;</code>
+       * <code>.Vector init_euler_angles = 50001;</code>
        */
       public Builder mergeInitEulerAngles(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (initEulerAnglesBuilder_ == null) {
@@ -1932,7 +1932,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.Vector init_euler_angles = 3;</code>
+       * <code>.Vector init_euler_angles = 50001;</code>
        */
       public Builder clearInitEulerAngles() {
         if (initEulerAnglesBuilder_ == null) {
@@ -1946,7 +1946,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.Vector init_euler_angles = 3;</code>
+       * <code>.Vector init_euler_angles = 50001;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getInitEulerAnglesBuilder() {
         
@@ -1954,7 +1954,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return getInitEulerAnglesFieldBuilder().getBuilder();
       }
       /**
-       * <code>.Vector init_euler_angles = 3;</code>
+       * <code>.Vector init_euler_angles = 50001;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getInitEulerAnglesOrBuilder() {
         if (initEulerAnglesBuilder_ != null) {
@@ -1965,7 +1965,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         }
       }
       /**
-       * <code>.Vector init_euler_angles = 3;</code>
+       * <code>.Vector init_euler_angles = 50001;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
@@ -1985,14 +1985,14 @@ public final class EvtCreateGadgetNotifyOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> initPosBuilder_;
       /**
-       * <code>.Vector init_pos = 4;</code>
+       * <code>.Vector init_pos = 15;</code>
        * @return Whether the initPos field is set.
        */
       public boolean hasInitPos() {
         return initPosBuilder_ != null || initPos_ != null;
       }
       /**
-       * <code>.Vector init_pos = 4;</code>
+       * <code>.Vector init_pos = 15;</code>
        * @return The initPos.
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector getInitPos() {
@@ -2003,7 +2003,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         }
       }
       /**
-       * <code>.Vector init_pos = 4;</code>
+       * <code>.Vector init_pos = 15;</code>
        */
       public Builder setInitPos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (initPosBuilder_ == null) {
@@ -2019,7 +2019,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.Vector init_pos = 4;</code>
+       * <code>.Vector init_pos = 15;</code>
        */
       public Builder setInitPos(
           emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
@@ -2033,7 +2033,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.Vector init_pos = 4;</code>
+       * <code>.Vector init_pos = 15;</code>
        */
       public Builder mergeInitPos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (initPosBuilder_ == null) {
@@ -2051,7 +2051,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.Vector init_pos = 4;</code>
+       * <code>.Vector init_pos = 15;</code>
        */
       public Builder clearInitPos() {
         if (initPosBuilder_ == null) {
@@ -2065,7 +2065,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.Vector init_pos = 4;</code>
+       * <code>.Vector init_pos = 15;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getInitPosBuilder() {
         
@@ -2073,7 +2073,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return getInitPosFieldBuilder().getBuilder();
       }
       /**
-       * <code>.Vector init_pos = 4;</code>
+       * <code>.Vector init_pos = 15;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getInitPosOrBuilder() {
         if (initPosBuilder_ != null) {
@@ -2084,7 +2084,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         }
       }
       /**
-       * <code>.Vector init_pos = 4;</code>
+       * <code>.Vector init_pos = 15;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
@@ -2102,7 +2102,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
       private int configId_ ;
       /**
-       * <code>uint32 config_id = 5;</code>
+       * <code>uint32 config_id = 11;</code>
        * @return The configId.
        */
       @java.lang.Override
@@ -2110,7 +2110,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return configId_;
       }
       /**
-       * <code>uint32 config_id = 5;</code>
+       * <code>uint32 config_id = 11;</code>
        * @param value The configId to set.
        * @return This builder for chaining.
        */
@@ -2121,7 +2121,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 config_id = 5;</code>
+       * <code>uint32 config_id = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearConfigId() {
@@ -2133,7 +2133,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
       private long guid_ ;
       /**
-       * <code>uint64 guid = 6;</code>
+       * <code>uint64 guid = 13;</code>
        * @return The guid.
        */
       @java.lang.Override
@@ -2141,7 +2141,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return guid_;
       }
       /**
-       * <code>uint64 guid = 6;</code>
+       * <code>uint64 guid = 13;</code>
        * @param value The guid to set.
        * @return This builder for chaining.
        */
@@ -2152,7 +2152,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint64 guid = 6;</code>
+       * <code>uint64 guid = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearGuid() {
@@ -2164,7 +2164,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
       private int targetEntityId_ ;
       /**
-       * <code>uint32 target_entity_id = 7;</code>
+       * <code>uint32 target_entity_id = 10;</code>
        * @return The targetEntityId.
        */
       @java.lang.Override
@@ -2172,7 +2172,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return targetEntityId_;
       }
       /**
-       * <code>uint32 target_entity_id = 7;</code>
+       * <code>uint32 target_entity_id = 10;</code>
        * @param value The targetEntityId to set.
        * @return This builder for chaining.
        */
@@ -2183,7 +2183,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 target_entity_id = 7;</code>
+       * <code>uint32 target_entity_id = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearTargetEntityId() {
@@ -2195,7 +2195,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
       private int ownerEntityId_ ;
       /**
-       * <code>uint32 owner_entity_id = 8;</code>
+       * <code>uint32 owner_entity_id = 6;</code>
        * @return The ownerEntityId.
        */
       @java.lang.Override
@@ -2203,7 +2203,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return ownerEntityId_;
       }
       /**
-       * <code>uint32 owner_entity_id = 8;</code>
+       * <code>uint32 owner_entity_id = 6;</code>
        * @param value The ownerEntityId to set.
        * @return This builder for chaining.
        */
@@ -2214,7 +2214,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 owner_entity_id = 8;</code>
+       * <code>uint32 owner_entity_id = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearOwnerEntityId() {
@@ -2226,7 +2226,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
       private int roomId_ ;
       /**
-       * <code>uint32 room_id = 9;</code>
+       * <code>uint32 room_id = 5;</code>
        * @return The roomId.
        */
       @java.lang.Override
@@ -2234,7 +2234,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return roomId_;
       }
       /**
-       * <code>uint32 room_id = 9;</code>
+       * <code>uint32 room_id = 5;</code>
        * @param value The roomId to set.
        * @return This builder for chaining.
        */
@@ -2245,7 +2245,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 room_id = 9;</code>
+       * <code>uint32 room_id = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearRoomId() {
@@ -2257,14 +2257,14 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
       private int forwardType_ = 0;
       /**
-       * <code>.ForwardType forward_type = 10;</code>
+       * <code>.ForwardType forward_type = 9;</code>
        * @return The enum numeric value on the wire for forwardType.
        */
       @java.lang.Override public int getForwardTypeValue() {
         return forwardType_;
       }
       /**
-       * <code>.ForwardType forward_type = 10;</code>
+       * <code>.ForwardType forward_type = 9;</code>
        * @param value The enum numeric value on the wire for forwardType to set.
        * @return This builder for chaining.
        */
@@ -2275,7 +2275,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.ForwardType forward_type = 10;</code>
+       * <code>.ForwardType forward_type = 9;</code>
        * @return The forwardType.
        */
       @java.lang.Override
@@ -2285,7 +2285,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return result == null ? emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.UNRECOGNIZED : result;
       }
       /**
-       * <code>.ForwardType forward_type = 10;</code>
+       * <code>.ForwardType forward_type = 9;</code>
        * @param value The forwardType to set.
        * @return This builder for chaining.
        */
@@ -2299,7 +2299,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.ForwardType forward_type = 10;</code>
+       * <code>.ForwardType forward_type = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearForwardType() {
@@ -2311,7 +2311,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
       private int entityId_ ;
       /**
-       * <code>uint32 entity_id = 11;</code>
+       * <code>uint32 entity_id = 3;</code>
        * @return The entityId.
        */
       @java.lang.Override
@@ -2319,7 +2319,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return entityId_;
       }
       /**
-       * <code>uint32 entity_id = 11;</code>
+       * <code>uint32 entity_id = 3;</code>
        * @param value The entityId to set.
        * @return This builder for chaining.
        */
@@ -2330,7 +2330,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 entity_id = 11;</code>
+       * <code>uint32 entity_id = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearEntityId() {
@@ -2342,7 +2342,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
       private boolean pBLACGNNCDF_ ;
       /**
-       * <code>bool PBLACGNNCDF = 12;</code>
+       * <code>bool PBLACGNNCDF = 50002;</code>
        * @return The pBLACGNNCDF.
        */
       @java.lang.Override
@@ -2350,7 +2350,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return pBLACGNNCDF_;
       }
       /**
-       * <code>bool PBLACGNNCDF = 12;</code>
+       * <code>bool PBLACGNNCDF = 50002;</code>
        * @param value The pBLACGNNCDF to set.
        * @return This builder for chaining.
        */
@@ -2361,7 +2361,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>bool PBLACGNNCDF = 12;</code>
+       * <code>bool PBLACGNNCDF = 50002;</code>
        * @return This builder for chaining.
        */
       public Builder clearPBLACGNNCDF() {
@@ -2373,7 +2373,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
       private int campType_ ;
       /**
-       * <code>uint32 camp_type = 13;</code>
+       * <code>uint32 camp_type = 2;</code>
        * @return The campType.
        */
       @java.lang.Override
@@ -2381,7 +2381,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return campType_;
       }
       /**
-       * <code>uint32 camp_type = 13;</code>
+       * <code>uint32 camp_type = 2;</code>
        * @param value The campType to set.
        * @return This builder for chaining.
        */
@@ -2392,7 +2392,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 camp_type = 13;</code>
+       * <code>uint32 camp_type = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearCampType() {
@@ -2435,7 +2435,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
       private int propOwnerEntityId_ ;
       /**
-       * <code>uint32 prop_owner_entity_id = 15;</code>
+       * <code>uint32 prop_owner_entity_id = 1;</code>
        * @return The propOwnerEntityId.
        */
       @java.lang.Override
@@ -2443,7 +2443,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return propOwnerEntityId_;
       }
       /**
-       * <code>uint32 prop_owner_entity_id = 15;</code>
+       * <code>uint32 prop_owner_entity_id = 1;</code>
        * @param value The propOwnerEntityId to set.
        * @return This builder for chaining.
        */
@@ -2454,7 +2454,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 prop_owner_entity_id = 15;</code>
+       * <code>uint32 prop_owner_entity_id = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearPropOwnerEntityId() {
@@ -2466,7 +2466,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
       private int kMDOFBPMGAI_ ;
       /**
-       * <code>uint32 KMDOFBPMGAI = 400;</code>
+       * <code>uint32 KMDOFBPMGAI = 80;</code>
        * @return The kMDOFBPMGAI.
        */
       @java.lang.Override
@@ -2474,7 +2474,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return kMDOFBPMGAI_;
       }
       /**
-       * <code>uint32 KMDOFBPMGAI = 400;</code>
+       * <code>uint32 KMDOFBPMGAI = 80;</code>
        * @param value The kMDOFBPMGAI to set.
        * @return This builder for chaining.
        */
@@ -2485,7 +2485,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 KMDOFBPMGAI = 400;</code>
+       * <code>uint32 KMDOFBPMGAI = 80;</code>
        * @return This builder for chaining.
        */
       public Builder clearKMDOFBPMGAI() {
@@ -2497,7 +2497,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
       private int localId_ ;
       /**
-       * <code>int32 local_id = 408;</code>
+       * <code>int32 local_id = 1451;</code>
        * @return The localId.
        */
       @java.lang.Override
@@ -2505,7 +2505,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return localId_;
       }
       /**
-       * <code>int32 local_id = 408;</code>
+       * <code>int32 local_id = 1451;</code>
        * @param value The localId to set.
        * @return This builder for chaining.
        */
@@ -2516,7 +2516,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>int32 local_id = 408;</code>
+       * <code>int32 local_id = 1451;</code>
        * @return This builder for chaining.
        */
       public Builder clearLocalId() {
@@ -2528,7 +2528,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
       private boolean nHNFGNMNDDE_ ;
       /**
-       * <code>bool NHNFGNMNDDE = 516;</code>
+       * <code>bool NHNFGNMNDDE = 50003;</code>
        * @return The nHNFGNMNDDE.
        */
       @java.lang.Override
@@ -2536,7 +2536,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return nHNFGNMNDDE_;
       }
       /**
-       * <code>bool NHNFGNMNDDE = 516;</code>
+       * <code>bool NHNFGNMNDDE = 50003;</code>
        * @param value The nHNFGNMNDDE to set.
        * @return This builder for chaining.
        */
@@ -2547,7 +2547,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>bool NHNFGNMNDDE = 516;</code>
+       * <code>bool NHNFGNMNDDE = 50003;</code>
        * @return This builder for chaining.
        */
       public Builder clearNHNFGNMNDDE() {
@@ -2559,7 +2559,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
       private boolean isPeerIdFromPlayer_ ;
       /**
-       * <code>bool is_peer_id_from_player = 564;</code>
+       * <code>bool is_peer_id_from_player = 141;</code>
        * @return The isPeerIdFromPlayer.
        */
       @java.lang.Override
@@ -2567,7 +2567,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return isPeerIdFromPlayer_;
       }
       /**
-       * <code>bool is_peer_id_from_player = 564;</code>
+       * <code>bool is_peer_id_from_player = 141;</code>
        * @param value The isPeerIdFromPlayer to set.
        * @return This builder for chaining.
        */
@@ -2578,7 +2578,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>bool is_peer_id_from_player = 564;</code>
+       * <code>bool is_peer_id_from_player = 141;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsPeerIdFromPlayer() {
@@ -2596,7 +2596,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 target_lock_point_index_list = 780;</code>
+       * <code>repeated uint32 target_lock_point_index_list = 50004;</code>
        * @return A list containing the targetLockPointIndexList.
        */
       public java.util.List<java.lang.Integer>
@@ -2605,14 +2605,14 @@ public final class EvtCreateGadgetNotifyOuterClass {
                  java.util.Collections.unmodifiableList(targetLockPointIndexList_) : targetLockPointIndexList_;
       }
       /**
-       * <code>repeated uint32 target_lock_point_index_list = 780;</code>
+       * <code>repeated uint32 target_lock_point_index_list = 50004;</code>
        * @return The count of targetLockPointIndexList.
        */
       public int getTargetLockPointIndexListCount() {
         return targetLockPointIndexList_.size();
       }
       /**
-       * <code>repeated uint32 target_lock_point_index_list = 780;</code>
+       * <code>repeated uint32 target_lock_point_index_list = 50004;</code>
        * @param index The index of the element to return.
        * @return The targetLockPointIndexList at the given index.
        */
@@ -2620,7 +2620,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return targetLockPointIndexList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 target_lock_point_index_list = 780;</code>
+       * <code>repeated uint32 target_lock_point_index_list = 50004;</code>
        * @param index The index to set the value at.
        * @param value The targetLockPointIndexList to set.
        * @return This builder for chaining.
@@ -2633,7 +2633,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 target_lock_point_index_list = 780;</code>
+       * <code>repeated uint32 target_lock_point_index_list = 50004;</code>
        * @param value The targetLockPointIndexList to add.
        * @return This builder for chaining.
        */
@@ -2644,7 +2644,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 target_lock_point_index_list = 780;</code>
+       * <code>repeated uint32 target_lock_point_index_list = 50004;</code>
        * @param values The targetLockPointIndexList to add.
        * @return This builder for chaining.
        */
@@ -2657,7 +2657,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 target_lock_point_index_list = 780;</code>
+       * <code>repeated uint32 target_lock_point_index_list = 50004;</code>
        * @return This builder for chaining.
        */
       public Builder clearTargetLockPointIndexList() {
@@ -2671,14 +2671,14 @@ public final class EvtCreateGadgetNotifyOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.CEAFBJOBFJEOuterClass.CEAFBJOBFJE, emu.grasscutter.net.proto.CEAFBJOBFJEOuterClass.CEAFBJOBFJE.Builder, emu.grasscutter.net.proto.CEAFBJOBFJEOuterClass.CEAFBJOBFJEOrBuilder> bHJNCGINIJBBuilder_;
       /**
-       * <code>.CEAFBJOBFJE BHJNCGINIJB = 850;</code>
+       * <code>.CEAFBJOBFJE BHJNCGINIJB = 1732;</code>
        * @return Whether the bHJNCGINIJB field is set.
        */
       public boolean hasBHJNCGINIJB() {
         return bHJNCGINIJBBuilder_ != null || bHJNCGINIJB_ != null;
       }
       /**
-       * <code>.CEAFBJOBFJE BHJNCGINIJB = 850;</code>
+       * <code>.CEAFBJOBFJE BHJNCGINIJB = 1732;</code>
        * @return The bHJNCGINIJB.
        */
       public emu.grasscutter.net.proto.CEAFBJOBFJEOuterClass.CEAFBJOBFJE getBHJNCGINIJB() {
@@ -2689,7 +2689,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         }
       }
       /**
-       * <code>.CEAFBJOBFJE BHJNCGINIJB = 850;</code>
+       * <code>.CEAFBJOBFJE BHJNCGINIJB = 1732;</code>
        */
       public Builder setBHJNCGINIJB(emu.grasscutter.net.proto.CEAFBJOBFJEOuterClass.CEAFBJOBFJE value) {
         if (bHJNCGINIJBBuilder_ == null) {
@@ -2705,7 +2705,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.CEAFBJOBFJE BHJNCGINIJB = 850;</code>
+       * <code>.CEAFBJOBFJE BHJNCGINIJB = 1732;</code>
        */
       public Builder setBHJNCGINIJB(
           emu.grasscutter.net.proto.CEAFBJOBFJEOuterClass.CEAFBJOBFJE.Builder builderForValue) {
@@ -2719,7 +2719,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.CEAFBJOBFJE BHJNCGINIJB = 850;</code>
+       * <code>.CEAFBJOBFJE BHJNCGINIJB = 1732;</code>
        */
       public Builder mergeBHJNCGINIJB(emu.grasscutter.net.proto.CEAFBJOBFJEOuterClass.CEAFBJOBFJE value) {
         if (bHJNCGINIJBBuilder_ == null) {
@@ -2737,7 +2737,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.CEAFBJOBFJE BHJNCGINIJB = 850;</code>
+       * <code>.CEAFBJOBFJE BHJNCGINIJB = 1732;</code>
        */
       public Builder clearBHJNCGINIJB() {
         if (bHJNCGINIJBBuilder_ == null) {
@@ -2751,7 +2751,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.CEAFBJOBFJE BHJNCGINIJB = 850;</code>
+       * <code>.CEAFBJOBFJE BHJNCGINIJB = 1732;</code>
        */
       public emu.grasscutter.net.proto.CEAFBJOBFJEOuterClass.CEAFBJOBFJE.Builder getBHJNCGINIJBBuilder() {
         
@@ -2759,7 +2759,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return getBHJNCGINIJBFieldBuilder().getBuilder();
       }
       /**
-       * <code>.CEAFBJOBFJE BHJNCGINIJB = 850;</code>
+       * <code>.CEAFBJOBFJE BHJNCGINIJB = 1732;</code>
        */
       public emu.grasscutter.net.proto.CEAFBJOBFJEOuterClass.CEAFBJOBFJEOrBuilder getBHJNCGINIJBOrBuilder() {
         if (bHJNCGINIJBBuilder_ != null) {
@@ -2770,7 +2770,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         }
       }
       /**
-       * <code>.CEAFBJOBFJE BHJNCGINIJB = 850;</code>
+       * <code>.CEAFBJOBFJE BHJNCGINIJB = 1732;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.CEAFBJOBFJEOuterClass.CEAFBJOBFJE, emu.grasscutter.net.proto.CEAFBJOBFJEOuterClass.CEAFBJOBFJE.Builder, emu.grasscutter.net.proto.CEAFBJOBFJEOuterClass.CEAFBJOBFJEOrBuilder> 
@@ -2788,14 +2788,14 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
       private int LifeByOwnerType_ = 0;
       /**
-       * <code>.LifeByOwnerType _life_by_owner_type = 885;</code>
+       * <code>.LifeByOwnerType _life_by_owner_type = 50005;</code>
        * @return The enum numeric value on the wire for lifeByOwnerType.
        */
       @java.lang.Override public int getLifeByOwnerTypeValue() {
         return LifeByOwnerType_;
       }
       /**
-       * <code>.LifeByOwnerType _life_by_owner_type = 885;</code>
+       * <code>.LifeByOwnerType _life_by_owner_type = 50005;</code>
        * @param value The enum numeric value on the wire for lifeByOwnerType to set.
        * @return This builder for chaining.
        */
@@ -2806,7 +2806,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.LifeByOwnerType _life_by_owner_type = 885;</code>
+       * <code>.LifeByOwnerType _life_by_owner_type = 50005;</code>
        * @return The lifeByOwnerType.
        */
       @java.lang.Override
@@ -2816,7 +2816,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return result == null ? emu.grasscutter.net.proto.LifeByOwnerTypeOuterClass.LifeByOwnerType.UNRECOGNIZED : result;
       }
       /**
-       * <code>.LifeByOwnerType _life_by_owner_type = 885;</code>
+       * <code>.LifeByOwnerType _life_by_owner_type = 50005;</code>
        * @param value The lifeByOwnerType to set.
        * @return This builder for chaining.
        */
@@ -2830,7 +2830,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.LifeByOwnerType _life_by_owner_type = 885;</code>
+       * <code>.LifeByOwnerType _life_by_owner_type = 50005;</code>
        * @return This builder for chaining.
        */
       public Builder clearLifeByOwnerType() {
@@ -2848,7 +2848,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 target_entity_id_list = 1239;</code>
+       * <code>repeated uint32 target_entity_id_list = 50006;</code>
        * @return A list containing the targetEntityIdList.
        */
       public java.util.List<java.lang.Integer>
@@ -2857,14 +2857,14 @@ public final class EvtCreateGadgetNotifyOuterClass {
                  java.util.Collections.unmodifiableList(targetEntityIdList_) : targetEntityIdList_;
       }
       /**
-       * <code>repeated uint32 target_entity_id_list = 1239;</code>
+       * <code>repeated uint32 target_entity_id_list = 50006;</code>
        * @return The count of targetEntityIdList.
        */
       public int getTargetEntityIdListCount() {
         return targetEntityIdList_.size();
       }
       /**
-       * <code>repeated uint32 target_entity_id_list = 1239;</code>
+       * <code>repeated uint32 target_entity_id_list = 50006;</code>
        * @param index The index of the element to return.
        * @return The targetEntityIdList at the given index.
        */
@@ -2872,7 +2872,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return targetEntityIdList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 target_entity_id_list = 1239;</code>
+       * <code>repeated uint32 target_entity_id_list = 50006;</code>
        * @param index The index to set the value at.
        * @param value The targetEntityIdList to set.
        * @return This builder for chaining.
@@ -2885,7 +2885,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 target_entity_id_list = 1239;</code>
+       * <code>repeated uint32 target_entity_id_list = 50006;</code>
        * @param value The targetEntityIdList to add.
        * @return This builder for chaining.
        */
@@ -2896,7 +2896,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 target_entity_id_list = 1239;</code>
+       * <code>repeated uint32 target_entity_id_list = 50006;</code>
        * @param values The targetEntityIdList to add.
        * @return This builder for chaining.
        */
@@ -2909,7 +2909,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 target_entity_id_list = 1239;</code>
+       * <code>repeated uint32 target_entity_id_list = 50006;</code>
        * @return This builder for chaining.
        */
       public Builder clearTargetEntityIdList() {
@@ -2921,7 +2921,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
       private int lDAODDFLPGB_ ;
       /**
-       * <code>uint32 LDAODDFLPGB = 1328;</code>
+       * <code>uint32 LDAODDFLPGB = 1349;</code>
        * @return The lDAODDFLPGB.
        */
       @java.lang.Override
@@ -2929,7 +2929,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return lDAODDFLPGB_;
       }
       /**
-       * <code>uint32 LDAODDFLPGB = 1328;</code>
+       * <code>uint32 LDAODDFLPGB = 1349;</code>
        * @param value The lDAODDFLPGB to set.
        * @return This builder for chaining.
        */
@@ -2940,7 +2940,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 LDAODDFLPGB = 1328;</code>
+       * <code>uint32 LDAODDFLPGB = 1349;</code>
        * @return This builder for chaining.
        */
       public Builder clearLDAODDFLPGB() {
@@ -2952,7 +2952,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
       private int bornSlotIndex_ ;
       /**
-       * <code>uint32 born_slot_index = 1378;</code>
+       * <code>uint32 born_slot_index = 421;</code>
        * @return The bornSlotIndex.
        */
       @java.lang.Override
@@ -2960,7 +2960,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return bornSlotIndex_;
       }
       /**
-       * <code>uint32 born_slot_index = 1378;</code>
+       * <code>uint32 born_slot_index = 421;</code>
        * @param value The bornSlotIndex to set.
        * @return This builder for chaining.
        */
@@ -2971,7 +2971,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 born_slot_index = 1378;</code>
+       * <code>uint32 born_slot_index = 421;</code>
        * @return This builder for chaining.
        */
       public Builder clearBornSlotIndex() {
@@ -2985,14 +2985,14 @@ public final class EvtCreateGadgetNotifyOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder> abilityNameBuilder_;
       /**
-       * <code>.AbilityString ability_name = 1396;</code>
+       * <code>.AbilityString ability_name = 988;</code>
        * @return Whether the abilityName field is set.
        */
       public boolean hasAbilityName() {
         return abilityNameBuilder_ != null || abilityName_ != null;
       }
       /**
-       * <code>.AbilityString ability_name = 1396;</code>
+       * <code>.AbilityString ability_name = 988;</code>
        * @return The abilityName.
        */
       public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString getAbilityName() {
@@ -3003,7 +3003,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         }
       }
       /**
-       * <code>.AbilityString ability_name = 1396;</code>
+       * <code>.AbilityString ability_name = 988;</code>
        */
       public Builder setAbilityName(emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString value) {
         if (abilityNameBuilder_ == null) {
@@ -3019,7 +3019,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.AbilityString ability_name = 1396;</code>
+       * <code>.AbilityString ability_name = 988;</code>
        */
       public Builder setAbilityName(
           emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder builderForValue) {
@@ -3033,7 +3033,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.AbilityString ability_name = 1396;</code>
+       * <code>.AbilityString ability_name = 988;</code>
        */
       public Builder mergeAbilityName(emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString value) {
         if (abilityNameBuilder_ == null) {
@@ -3051,7 +3051,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.AbilityString ability_name = 1396;</code>
+       * <code>.AbilityString ability_name = 988;</code>
        */
       public Builder clearAbilityName() {
         if (abilityNameBuilder_ == null) {
@@ -3065,7 +3065,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.AbilityString ability_name = 1396;</code>
+       * <code>.AbilityString ability_name = 988;</code>
        */
       public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder getAbilityNameBuilder() {
         
@@ -3073,7 +3073,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return getAbilityNameFieldBuilder().getBuilder();
       }
       /**
-       * <code>.AbilityString ability_name = 1396;</code>
+       * <code>.AbilityString ability_name = 988;</code>
        */
       public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder getAbilityNameOrBuilder() {
         if (abilityNameBuilder_ != null) {
@@ -3084,7 +3084,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         }
       }
       /**
-       * <code>.AbilityString ability_name = 1396;</code>
+       * <code>.AbilityString ability_name = 988;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder> 
@@ -3102,7 +3102,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
       private int initPoseId_ ;
       /**
-       * <code>uint32 init_pose_id = 1525;</code>
+       * <code>uint32 init_pose_id = 810;</code>
        * @return The initPoseId.
        */
       @java.lang.Override
@@ -3110,7 +3110,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return initPoseId_;
       }
       /**
-       * <code>uint32 init_pose_id = 1525;</code>
+       * <code>uint32 init_pose_id = 810;</code>
        * @param value The initPoseId to set.
        * @return This builder for chaining.
        */
@@ -3121,7 +3121,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 init_pose_id = 1525;</code>
+       * <code>uint32 init_pose_id = 810;</code>
        * @return This builder for chaining.
        */
       public Builder clearInitPoseId() {
@@ -3200,27 +3200,27 @@ public final class EvtCreateGadgetNotifyOuterClass {
       "\n\033EvtCreateGadgetNotify.proto\032\023AbilitySt" +
       "ring.proto\032\021CEAFBJOBFJE.proto\032\021ForwardTy" +
       "pe.proto\032\025LifeByOwnerType.proto\032\014Vector." +
-      "proto\"\334\005\n\025EvtCreateGadgetNotify\022\017\n\007camp_" +
-      "id\030\001 \001(\r\022\023\n\013LMLMALLLGBB\030\002 \001(\010\022\"\n\021init_eu" +
-      "ler_angles\030\003 \001(\0132\007.Vector\022\031\n\010init_pos\030\004 " +
-      "\001(\0132\007.Vector\022\021\n\tconfig_id\030\005 \001(\r\022\014\n\004guid\030" +
-      "\006 \001(\004\022\030\n\020target_entity_id\030\007 \001(\r\022\027\n\017owner" +
-      "_entity_id\030\010 \001(\r\022\017\n\007room_id\030\t \001(\r\022\"\n\014for" +
-      "ward_type\030\n \001(\0162\014.ForwardType\022\021\n\tentity_" +
-      "id\030\013 \001(\r\022\023\n\013PBLACGNNCDF\030\014 \001(\010\022\021\n\tcamp_ty" +
-      "pe\030\r \001(\r\022\023\n\013AAMABJDMIFN\030\016 \001(\r\022\034\n\024prop_ow" +
-      "ner_entity_id\030\017 \001(\r\022\024\n\013KMDOFBPMGAI\030\220\003 \001(" +
-      "\r\022\021\n\010local_id\030\230\003 \001(\005\022\024\n\013NHNFGNMNDDE\030\204\004 \001" +
-      "(\010\022\037\n\026is_peer_id_from_player\030\264\004 \001(\010\022%\n\034t" +
-      "arget_lock_point_index_list\030\214\006 \003(\r\022\"\n\013BH" +
-      "JNCGINIJB\030\322\006 \001(\0132\014.CEAFBJOBFJE\022.\n\023_life_" +
-      "by_owner_type\030\365\006 \001(\0162\020.LifeByOwnerType\022\036" +
-      "\n\025target_entity_id_list\030\327\t \003(\r\022\024\n\013LDAODD" +
-      "FLPGB\030\260\n \001(\r\022\030\n\017born_slot_index\030\342\n \001(\r\022%" +
-      "\n\014ability_name\030\364\n \001(\0132\016.AbilityString\022\025\n" +
-      "\014init_pose_id\030\365\013 \001(\rB<\n\031emu.grasscutter." +
-      "net.protoB\037EvtCreateGadgetNotifyOuterCla" +
-      "ssb\006proto3"
+      "proto\"\345\005\n\025EvtCreateGadgetNotify\022\017\n\007camp_" +
+      "id\030\007 \001(\r\022\025\n\013LMLMALLLGBB\030\320\206\003 \001(\010\022$\n\021init_" +
+      "euler_angles\030\321\206\003 \001(\0132\007.Vector\022\031\n\010init_po" +
+      "s\030\017 \001(\0132\007.Vector\022\021\n\tconfig_id\030\013 \001(\r\022\014\n\004g" +
+      "uid\030\r \001(\004\022\030\n\020target_entity_id\030\n \001(\r\022\027\n\017o" +
+      "wner_entity_id\030\006 \001(\r\022\017\n\007room_id\030\005 \001(\r\022\"\n" +
+      "\014forward_type\030\t \001(\0162\014.ForwardType\022\021\n\tent" +
+      "ity_id\030\003 \001(\r\022\025\n\013PBLACGNNCDF\030\322\206\003 \001(\010\022\021\n\tc" +
+      "amp_type\030\002 \001(\r\022\023\n\013AAMABJDMIFN\030\016 \001(\r\022\034\n\024p" +
+      "rop_owner_entity_id\030\001 \001(\r\022\023\n\013KMDOFBPMGAI" +
+      "\030P \001(\r\022\021\n\010local_id\030\253\013 \001(\005\022\025\n\013NHNFGNMNDDE" +
+      "\030\323\206\003 \001(\010\022\037\n\026is_peer_id_from_player\030\215\001 \001(" +
+      "\010\022&\n\034target_lock_point_index_list\030\324\206\003 \003(" +
+      "\r\022\"\n\013BHJNCGINIJB\030\304\r \001(\0132\014.CEAFBJOBFJE\022/\n" +
+      "\023_life_by_owner_type\030\325\206\003 \001(\0162\020.LifeByOwn" +
+      "erType\022\037\n\025target_entity_id_list\030\326\206\003 \003(\r\022" +
+      "\024\n\013LDAODDFLPGB\030\305\n \001(\r\022\030\n\017born_slot_index" +
+      "\030\245\003 \001(\r\022%\n\014ability_name\030\334\007 \001(\0132\016.Ability" +
+      "String\022\025\n\014init_pose_id\030\252\006 \001(\rB<\n\031emu.gra" +
+      "sscutter.net.protoB\037EvtCreateGadgetNotif" +
+      "yOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

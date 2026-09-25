@@ -19,43 +19,43 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool pdkdbgnjpdl = 1;</code>
+     * <code>bool pdkdbgnjpdl = 8;</code>
      * @return The pdkdbgnjpdl.
      */
     boolean getPdkdbgnjpdl();
 
     /**
-     * <code>uint32 difficulty_id = 3;</code>
+     * <code>uint32 difficulty_id = 2;</code>
      * @return The difficultyId.
      */
     int getDifficultyId();
 
     /**
-     * <code>uint32 kill_elite_monster_num = 8;</code>
+     * <code>uint32 kill_elite_monster_num = 7;</code>
      * @return The killEliteMonsterNum.
      */
     int getKillEliteMonsterNum();
 
     /**
-     * <code>uint32 kill_normal_mosnter_num = 9;</code>
+     * <code>uint32 kill_normal_mosnter_num = 14;</code>
      * @return The killNormalMosnterNum.
      */
     int getKillNormalMosnterNum();
 
     /**
-     * <code>bool is_new_record = 10;</code>
+     * <code>bool is_new_record = 3;</code>
      * @return The isNewRecord.
      */
     boolean getIsNewRecord();
 
     /**
-     * <code>uint32 level_id = 13;</code>
+     * <code>uint32 level_id = 5;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>uint32 final_score = 15;</code>
+     * <code>uint32 final_score = 4;</code>
      * @return The finalScore.
      */
     int getFinalScore();
@@ -105,39 +105,39 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
-
-              pdkdbgnjpdl_ = input.readBool();
-              break;
-            }
-            case 24: {
+            case 16: {
 
               difficultyId_ = input.readUInt32();
               break;
             }
-            case 64: {
-
-              killEliteMonsterNum_ = input.readUInt32();
-              break;
-            }
-            case 72: {
-
-              killNormalMosnterNum_ = input.readUInt32();
-              break;
-            }
-            case 80: {
+            case 24: {
 
               isNewRecord_ = input.readBool();
               break;
             }
-            case 104: {
+            case 32: {
+
+              finalScore_ = input.readUInt32();
+              break;
+            }
+            case 40: {
 
               levelId_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 56: {
 
-              finalScore_ = input.readUInt32();
+              killEliteMonsterNum_ = input.readUInt32();
+              break;
+            }
+            case 64: {
+
+              pdkdbgnjpdl_ = input.readBool();
+              break;
+            }
+            case 112: {
+
+              killNormalMosnterNum_ = input.readUInt32();
               break;
             }
             default: {
@@ -172,10 +172,10 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
               emu.grasscutter.net.proto.CrystalLinkDungeonSettleInfoOuterClass.CrystalLinkDungeonSettleInfo.class, emu.grasscutter.net.proto.CrystalLinkDungeonSettleInfoOuterClass.CrystalLinkDungeonSettleInfo.Builder.class);
     }
 
-    public static final int PDKDBGNJPDL_FIELD_NUMBER = 1;
+    public static final int PDKDBGNJPDL_FIELD_NUMBER = 8;
     private boolean pdkdbgnjpdl_;
     /**
-     * <code>bool pdkdbgnjpdl = 1;</code>
+     * <code>bool pdkdbgnjpdl = 8;</code>
      * @return The pdkdbgnjpdl.
      */
     @java.lang.Override
@@ -183,10 +183,10 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
       return pdkdbgnjpdl_;
     }
 
-    public static final int DIFFICULTY_ID_FIELD_NUMBER = 3;
+    public static final int DIFFICULTY_ID_FIELD_NUMBER = 2;
     private int difficultyId_;
     /**
-     * <code>uint32 difficulty_id = 3;</code>
+     * <code>uint32 difficulty_id = 2;</code>
      * @return The difficultyId.
      */
     @java.lang.Override
@@ -194,10 +194,10 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
       return difficultyId_;
     }
 
-    public static final int KILL_ELITE_MONSTER_NUM_FIELD_NUMBER = 8;
+    public static final int KILL_ELITE_MONSTER_NUM_FIELD_NUMBER = 7;
     private int killEliteMonsterNum_;
     /**
-     * <code>uint32 kill_elite_monster_num = 8;</code>
+     * <code>uint32 kill_elite_monster_num = 7;</code>
      * @return The killEliteMonsterNum.
      */
     @java.lang.Override
@@ -205,10 +205,10 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
       return killEliteMonsterNum_;
     }
 
-    public static final int KILL_NORMAL_MOSNTER_NUM_FIELD_NUMBER = 9;
+    public static final int KILL_NORMAL_MOSNTER_NUM_FIELD_NUMBER = 14;
     private int killNormalMosnterNum_;
     /**
-     * <code>uint32 kill_normal_mosnter_num = 9;</code>
+     * <code>uint32 kill_normal_mosnter_num = 14;</code>
      * @return The killNormalMosnterNum.
      */
     @java.lang.Override
@@ -216,10 +216,10 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
       return killNormalMosnterNum_;
     }
 
-    public static final int IS_NEW_RECORD_FIELD_NUMBER = 10;
+    public static final int IS_NEW_RECORD_FIELD_NUMBER = 3;
     private boolean isNewRecord_;
     /**
-     * <code>bool is_new_record = 10;</code>
+     * <code>bool is_new_record = 3;</code>
      * @return The isNewRecord.
      */
     @java.lang.Override
@@ -227,10 +227,10 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
       return isNewRecord_;
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 13;
+    public static final int LEVEL_ID_FIELD_NUMBER = 5;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 13;</code>
+     * <code>uint32 level_id = 5;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -238,10 +238,10 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
       return levelId_;
     }
 
-    public static final int FINAL_SCORE_FIELD_NUMBER = 15;
+    public static final int FINAL_SCORE_FIELD_NUMBER = 4;
     private int finalScore_;
     /**
-     * <code>uint32 final_score = 15;</code>
+     * <code>uint32 final_score = 4;</code>
      * @return The finalScore.
      */
     @java.lang.Override
@@ -263,26 +263,26 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (pdkdbgnjpdl_ != false) {
-        output.writeBool(1, pdkdbgnjpdl_);
-      }
       if (difficultyId_ != 0) {
-        output.writeUInt32(3, difficultyId_);
-      }
-      if (killEliteMonsterNum_ != 0) {
-        output.writeUInt32(8, killEliteMonsterNum_);
-      }
-      if (killNormalMosnterNum_ != 0) {
-        output.writeUInt32(9, killNormalMosnterNum_);
+        output.writeUInt32(2, difficultyId_);
       }
       if (isNewRecord_ != false) {
-        output.writeBool(10, isNewRecord_);
-      }
-      if (levelId_ != 0) {
-        output.writeUInt32(13, levelId_);
+        output.writeBool(3, isNewRecord_);
       }
       if (finalScore_ != 0) {
-        output.writeUInt32(15, finalScore_);
+        output.writeUInt32(4, finalScore_);
+      }
+      if (levelId_ != 0) {
+        output.writeUInt32(5, levelId_);
+      }
+      if (killEliteMonsterNum_ != 0) {
+        output.writeUInt32(7, killEliteMonsterNum_);
+      }
+      if (pdkdbgnjpdl_ != false) {
+        output.writeBool(8, pdkdbgnjpdl_);
+      }
+      if (killNormalMosnterNum_ != 0) {
+        output.writeUInt32(14, killNormalMosnterNum_);
       }
       unknownFields.writeTo(output);
     }
@@ -293,33 +293,33 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (pdkdbgnjpdl_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1, pdkdbgnjpdl_);
-      }
       if (difficultyId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, difficultyId_);
-      }
-      if (killEliteMonsterNum_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, killEliteMonsterNum_);
-      }
-      if (killNormalMosnterNum_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, killNormalMosnterNum_);
+          .computeUInt32Size(2, difficultyId_);
       }
       if (isNewRecord_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(10, isNewRecord_);
-      }
-      if (levelId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, levelId_);
+          .computeBoolSize(3, isNewRecord_);
       }
       if (finalScore_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, finalScore_);
+          .computeUInt32Size(4, finalScore_);
+      }
+      if (levelId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(5, levelId_);
+      }
+      if (killEliteMonsterNum_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(7, killEliteMonsterNum_);
+      }
+      if (pdkdbgnjpdl_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(8, pdkdbgnjpdl_);
+      }
+      if (killNormalMosnterNum_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(14, killNormalMosnterNum_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -657,7 +657,7 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
 
       private boolean pdkdbgnjpdl_ ;
       /**
-       * <code>bool pdkdbgnjpdl = 1;</code>
+       * <code>bool pdkdbgnjpdl = 8;</code>
        * @return The pdkdbgnjpdl.
        */
       @java.lang.Override
@@ -665,7 +665,7 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
         return pdkdbgnjpdl_;
       }
       /**
-       * <code>bool pdkdbgnjpdl = 1;</code>
+       * <code>bool pdkdbgnjpdl = 8;</code>
        * @param value The pdkdbgnjpdl to set.
        * @return This builder for chaining.
        */
@@ -676,7 +676,7 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool pdkdbgnjpdl = 1;</code>
+       * <code>bool pdkdbgnjpdl = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearPdkdbgnjpdl() {
@@ -688,7 +688,7 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
 
       private int difficultyId_ ;
       /**
-       * <code>uint32 difficulty_id = 3;</code>
+       * <code>uint32 difficulty_id = 2;</code>
        * @return The difficultyId.
        */
       @java.lang.Override
@@ -696,7 +696,7 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
         return difficultyId_;
       }
       /**
-       * <code>uint32 difficulty_id = 3;</code>
+       * <code>uint32 difficulty_id = 2;</code>
        * @param value The difficultyId to set.
        * @return This builder for chaining.
        */
@@ -707,7 +707,7 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 difficulty_id = 3;</code>
+       * <code>uint32 difficulty_id = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearDifficultyId() {
@@ -719,7 +719,7 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
 
       private int killEliteMonsterNum_ ;
       /**
-       * <code>uint32 kill_elite_monster_num = 8;</code>
+       * <code>uint32 kill_elite_monster_num = 7;</code>
        * @return The killEliteMonsterNum.
        */
       @java.lang.Override
@@ -727,7 +727,7 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
         return killEliteMonsterNum_;
       }
       /**
-       * <code>uint32 kill_elite_monster_num = 8;</code>
+       * <code>uint32 kill_elite_monster_num = 7;</code>
        * @param value The killEliteMonsterNum to set.
        * @return This builder for chaining.
        */
@@ -738,7 +738,7 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 kill_elite_monster_num = 8;</code>
+       * <code>uint32 kill_elite_monster_num = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearKillEliteMonsterNum() {
@@ -750,7 +750,7 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
 
       private int killNormalMosnterNum_ ;
       /**
-       * <code>uint32 kill_normal_mosnter_num = 9;</code>
+       * <code>uint32 kill_normal_mosnter_num = 14;</code>
        * @return The killNormalMosnterNum.
        */
       @java.lang.Override
@@ -758,7 +758,7 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
         return killNormalMosnterNum_;
       }
       /**
-       * <code>uint32 kill_normal_mosnter_num = 9;</code>
+       * <code>uint32 kill_normal_mosnter_num = 14;</code>
        * @param value The killNormalMosnterNum to set.
        * @return This builder for chaining.
        */
@@ -769,7 +769,7 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 kill_normal_mosnter_num = 9;</code>
+       * <code>uint32 kill_normal_mosnter_num = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearKillNormalMosnterNum() {
@@ -781,7 +781,7 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
 
       private boolean isNewRecord_ ;
       /**
-       * <code>bool is_new_record = 10;</code>
+       * <code>bool is_new_record = 3;</code>
        * @return The isNewRecord.
        */
       @java.lang.Override
@@ -789,7 +789,7 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
         return isNewRecord_;
       }
       /**
-       * <code>bool is_new_record = 10;</code>
+       * <code>bool is_new_record = 3;</code>
        * @param value The isNewRecord to set.
        * @return This builder for chaining.
        */
@@ -800,7 +800,7 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_new_record = 10;</code>
+       * <code>bool is_new_record = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsNewRecord() {
@@ -812,7 +812,7 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 13;</code>
+       * <code>uint32 level_id = 5;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -820,7 +820,7 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 13;</code>
+       * <code>uint32 level_id = 5;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -831,7 +831,7 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 13;</code>
+       * <code>uint32 level_id = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -843,7 +843,7 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
 
       private int finalScore_ ;
       /**
-       * <code>uint32 final_score = 15;</code>
+       * <code>uint32 final_score = 4;</code>
        * @return The finalScore.
        */
       @java.lang.Override
@@ -851,7 +851,7 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
         return finalScore_;
       }
       /**
-       * <code>uint32 final_score = 15;</code>
+       * <code>uint32 final_score = 4;</code>
        * @param value The finalScore to set.
        * @return This builder for chaining.
        */
@@ -862,7 +862,7 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 final_score = 15;</code>
+       * <code>uint32 final_score = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearFinalScore() {
@@ -940,10 +940,10 @@ public final class CrystalLinkDungeonSettleInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\"CrystalLinkDungeonSettleInfo.proto\"\311\001\n" +
       "\034CrystalLinkDungeonSettleInfo\022\023\n\013pdkdbgn" +
-      "jpdl\030\001 \001(\010\022\025\n\rdifficulty_id\030\003 \001(\r\022\036\n\026kil" +
-      "l_elite_monster_num\030\010 \001(\r\022\037\n\027kill_normal" +
-      "_mosnter_num\030\t \001(\r\022\025\n\ris_new_record\030\n \001(" +
-      "\010\022\020\n\010level_id\030\r \001(\r\022\023\n\013final_score\030\017 \001(\r" +
+      "jpdl\030\010 \001(\010\022\025\n\rdifficulty_id\030\002 \001(\r\022\036\n\026kil" +
+      "l_elite_monster_num\030\007 \001(\r\022\037\n\027kill_normal" +
+      "_mosnter_num\030\016 \001(\r\022\025\n\ris_new_record\030\003 \001(" +
+      "\010\022\020\n\010level_id\030\005 \001(\r\022\023\n\013final_score\030\004 \001(\r" +
       "BC\n\031emu.grasscutter.net.protoB&CrystalLi" +
       "nkDungeonSettleInfoOuterClassb\006proto3"
     };

@@ -19,19 +19,19 @@ public final class HEEIDHNNCDMOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 level_id = 4;</code>
+     * <code>uint32 level_id = 6;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>uint32 LNBCBJKMHCO = 7;</code>
+     * <code>uint32 LNBCBJKMHCO = 8;</code>
      * @return The lNBCBJKMHCO.
      */
     int getLNBCBJKMHCO();
 
     /**
-     * <code>bool is_finished = 8;</code>
+     * <code>bool is_finished = 3;</code>
      * @return The isFinished.
      */
     boolean getIsFinished();
@@ -81,19 +81,19 @@ public final class HEEIDHNNCDMOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 24: {
+
+              isFinished_ = input.readBool();
+              break;
+            }
+            case 48: {
 
               levelId_ = input.readUInt32();
               break;
             }
-            case 56: {
-
-              lNBCBJKMHCO_ = input.readUInt32();
-              break;
-            }
             case 64: {
 
-              isFinished_ = input.readBool();
+              lNBCBJKMHCO_ = input.readUInt32();
               break;
             }
             default: {
@@ -128,10 +128,10 @@ public final class HEEIDHNNCDMOuterClass {
               emu.grasscutter.net.proto.HEEIDHNNCDMOuterClass.HEEIDHNNCDM.class, emu.grasscutter.net.proto.HEEIDHNNCDMOuterClass.HEEIDHNNCDM.Builder.class);
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 4;
+    public static final int LEVEL_ID_FIELD_NUMBER = 6;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 4;</code>
+     * <code>uint32 level_id = 6;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -139,10 +139,10 @@ public final class HEEIDHNNCDMOuterClass {
       return levelId_;
     }
 
-    public static final int LNBCBJKMHCO_FIELD_NUMBER = 7;
+    public static final int LNBCBJKMHCO_FIELD_NUMBER = 8;
     private int lNBCBJKMHCO_;
     /**
-     * <code>uint32 LNBCBJKMHCO = 7;</code>
+     * <code>uint32 LNBCBJKMHCO = 8;</code>
      * @return The lNBCBJKMHCO.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class HEEIDHNNCDMOuterClass {
       return lNBCBJKMHCO_;
     }
 
-    public static final int IS_FINISHED_FIELD_NUMBER = 8;
+    public static final int IS_FINISHED_FIELD_NUMBER = 3;
     private boolean isFinished_;
     /**
-     * <code>bool is_finished = 8;</code>
+     * <code>bool is_finished = 3;</code>
      * @return The isFinished.
      */
     @java.lang.Override
@@ -175,14 +175,14 @@ public final class HEEIDHNNCDMOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (isFinished_ != false) {
+        output.writeBool(3, isFinished_);
+      }
       if (levelId_ != 0) {
-        output.writeUInt32(4, levelId_);
+        output.writeUInt32(6, levelId_);
       }
       if (lNBCBJKMHCO_ != 0) {
-        output.writeUInt32(7, lNBCBJKMHCO_);
-      }
-      if (isFinished_ != false) {
-        output.writeBool(8, isFinished_);
+        output.writeUInt32(8, lNBCBJKMHCO_);
       }
       unknownFields.writeTo(output);
     }
@@ -193,17 +193,17 @@ public final class HEEIDHNNCDMOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (isFinished_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(3, isFinished_);
+      }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, levelId_);
+          .computeUInt32Size(6, levelId_);
       }
       if (lNBCBJKMHCO_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, lNBCBJKMHCO_);
-      }
-      if (isFinished_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(8, isFinished_);
+          .computeUInt32Size(8, lNBCBJKMHCO_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -500,7 +500,7 @@ public final class HEEIDHNNCDMOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 4;</code>
+       * <code>uint32 level_id = 6;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -508,7 +508,7 @@ public final class HEEIDHNNCDMOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 4;</code>
+       * <code>uint32 level_id = 6;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -519,7 +519,7 @@ public final class HEEIDHNNCDMOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 4;</code>
+       * <code>uint32 level_id = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -531,7 +531,7 @@ public final class HEEIDHNNCDMOuterClass {
 
       private int lNBCBJKMHCO_ ;
       /**
-       * <code>uint32 LNBCBJKMHCO = 7;</code>
+       * <code>uint32 LNBCBJKMHCO = 8;</code>
        * @return The lNBCBJKMHCO.
        */
       @java.lang.Override
@@ -539,7 +539,7 @@ public final class HEEIDHNNCDMOuterClass {
         return lNBCBJKMHCO_;
       }
       /**
-       * <code>uint32 LNBCBJKMHCO = 7;</code>
+       * <code>uint32 LNBCBJKMHCO = 8;</code>
        * @param value The lNBCBJKMHCO to set.
        * @return This builder for chaining.
        */
@@ -550,7 +550,7 @@ public final class HEEIDHNNCDMOuterClass {
         return this;
       }
       /**
-       * <code>uint32 LNBCBJKMHCO = 7;</code>
+       * <code>uint32 LNBCBJKMHCO = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearLNBCBJKMHCO() {
@@ -562,7 +562,7 @@ public final class HEEIDHNNCDMOuterClass {
 
       private boolean isFinished_ ;
       /**
-       * <code>bool is_finished = 8;</code>
+       * <code>bool is_finished = 3;</code>
        * @return The isFinished.
        */
       @java.lang.Override
@@ -570,7 +570,7 @@ public final class HEEIDHNNCDMOuterClass {
         return isFinished_;
       }
       /**
-       * <code>bool is_finished = 8;</code>
+       * <code>bool is_finished = 3;</code>
        * @param value The isFinished to set.
        * @return This builder for chaining.
        */
@@ -581,7 +581,7 @@ public final class HEEIDHNNCDMOuterClass {
         return this;
       }
       /**
-       * <code>bool is_finished = 8;</code>
+       * <code>bool is_finished = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsFinished() {
@@ -658,8 +658,8 @@ public final class HEEIDHNNCDMOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021HEEIDHNNCDM.proto\"I\n\013HEEIDHNNCDM\022\020\n\010le" +
-      "vel_id\030\004 \001(\r\022\023\n\013LNBCBJKMHCO\030\007 \001(\r\022\023\n\013is_" +
-      "finished\030\010 \001(\010B2\n\031emu.grasscutter.net.pr" +
+      "vel_id\030\006 \001(\r\022\023\n\013LNBCBJKMHCO\030\010 \001(\r\022\023\n\013is_" +
+      "finished\030\003 \001(\010B2\n\031emu.grasscutter.net.pr" +
       "otoB\025HEEIDHNNCDMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

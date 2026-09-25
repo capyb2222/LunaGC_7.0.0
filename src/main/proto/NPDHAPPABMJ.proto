@@ -6,6 +6,6 @@ option java_outer_classname = "NPDHAPPABMJOuterClass";
 message NPDHAPPABMJ {
 	uint32 best_score = 1;
 	bool is_open = 3;
-	uint32 stage_id = 4;
-	bool is_finish = 13;
+	uint32 stage_id = 14;
+	bool is_finish = 4;
 }

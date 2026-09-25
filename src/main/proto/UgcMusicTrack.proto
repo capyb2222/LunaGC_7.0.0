@@ -6,5 +6,5 @@ option java_outer_classname = "UgcMusicTrackOuterClass";
 import "UgcMusicNote.proto";
 
 message UgcMusicTrack {
-	repeated UgcMusicNote music_note_list = 13;
+	repeated UgcMusicNote music_note_list = 7;
 }

@@ -19,17 +19,17 @@ public final class _HireLevelUpgradeBuffInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 MOLFPGIEHLM = 12;</code>
+     * <code>repeated uint32 MOLFPGIEHLM = 9;</code>
      * @return A list containing the mOLFPGIEHLM.
      */
     java.util.List<java.lang.Integer> getMOLFPGIEHLMList();
     /**
-     * <code>repeated uint32 MOLFPGIEHLM = 12;</code>
+     * <code>repeated uint32 MOLFPGIEHLM = 9;</code>
      * @return The count of mOLFPGIEHLM.
      */
     int getMOLFPGIEHLMCount();
     /**
-     * <code>repeated uint32 MOLFPGIEHLM = 12;</code>
+     * <code>repeated uint32 MOLFPGIEHLM = 9;</code>
      * @param index The index of the element to return.
      * @return The mOLFPGIEHLM at the given index.
      */
@@ -82,7 +82,7 @@ public final class _HireLevelUpgradeBuffInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 96: {
+            case 72: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 mOLFPGIEHLM_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -90,7 +90,7 @@ public final class _HireLevelUpgradeBuffInfoOuterClass {
               mOLFPGIEHLM_.addInt(input.readUInt32());
               break;
             }
-            case 98: {
+            case 74: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -138,10 +138,10 @@ public final class _HireLevelUpgradeBuffInfoOuterClass {
               emu.grasscutter.net.proto._HireLevelUpgradeBuffInfoOuterClass._HireLevelUpgradeBuffInfo.class, emu.grasscutter.net.proto._HireLevelUpgradeBuffInfoOuterClass._HireLevelUpgradeBuffInfo.Builder.class);
     }
 
-    public static final int MOLFPGIEHLM_FIELD_NUMBER = 12;
+    public static final int MOLFPGIEHLM_FIELD_NUMBER = 9;
     private com.google.protobuf.Internal.IntList mOLFPGIEHLM_;
     /**
-     * <code>repeated uint32 MOLFPGIEHLM = 12;</code>
+     * <code>repeated uint32 MOLFPGIEHLM = 9;</code>
      * @return A list containing the mOLFPGIEHLM.
      */
     @java.lang.Override
@@ -150,14 +150,14 @@ public final class _HireLevelUpgradeBuffInfoOuterClass {
       return mOLFPGIEHLM_;
     }
     /**
-     * <code>repeated uint32 MOLFPGIEHLM = 12;</code>
+     * <code>repeated uint32 MOLFPGIEHLM = 9;</code>
      * @return The count of mOLFPGIEHLM.
      */
     public int getMOLFPGIEHLMCount() {
       return mOLFPGIEHLM_.size();
     }
     /**
-     * <code>repeated uint32 MOLFPGIEHLM = 12;</code>
+     * <code>repeated uint32 MOLFPGIEHLM = 9;</code>
      * @param index The index of the element to return.
      * @return The mOLFPGIEHLM at the given index.
      */
@@ -182,7 +182,7 @@ public final class _HireLevelUpgradeBuffInfoOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getMOLFPGIEHLMList().size() > 0) {
-        output.writeUInt32NoTag(98);
+        output.writeUInt32NoTag(74);
         output.writeUInt32NoTag(mOLFPGIEHLMMemoizedSerializedSize);
       }
       for (int i = 0; i < mOLFPGIEHLM_.size(); i++) {
@@ -506,7 +506,7 @@ public final class _HireLevelUpgradeBuffInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 MOLFPGIEHLM = 12;</code>
+       * <code>repeated uint32 MOLFPGIEHLM = 9;</code>
        * @return A list containing the mOLFPGIEHLM.
        */
       public java.util.List<java.lang.Integer>
@@ -515,14 +515,14 @@ public final class _HireLevelUpgradeBuffInfoOuterClass {
                  java.util.Collections.unmodifiableList(mOLFPGIEHLM_) : mOLFPGIEHLM_;
       }
       /**
-       * <code>repeated uint32 MOLFPGIEHLM = 12;</code>
+       * <code>repeated uint32 MOLFPGIEHLM = 9;</code>
        * @return The count of mOLFPGIEHLM.
        */
       public int getMOLFPGIEHLMCount() {
         return mOLFPGIEHLM_.size();
       }
       /**
-       * <code>repeated uint32 MOLFPGIEHLM = 12;</code>
+       * <code>repeated uint32 MOLFPGIEHLM = 9;</code>
        * @param index The index of the element to return.
        * @return The mOLFPGIEHLM at the given index.
        */
@@ -530,7 +530,7 @@ public final class _HireLevelUpgradeBuffInfoOuterClass {
         return mOLFPGIEHLM_.getInt(index);
       }
       /**
-       * <code>repeated uint32 MOLFPGIEHLM = 12;</code>
+       * <code>repeated uint32 MOLFPGIEHLM = 9;</code>
        * @param index The index to set the value at.
        * @param value The mOLFPGIEHLM to set.
        * @return This builder for chaining.
@@ -543,7 +543,7 @@ public final class _HireLevelUpgradeBuffInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 MOLFPGIEHLM = 12;</code>
+       * <code>repeated uint32 MOLFPGIEHLM = 9;</code>
        * @param value The mOLFPGIEHLM to add.
        * @return This builder for chaining.
        */
@@ -554,7 +554,7 @@ public final class _HireLevelUpgradeBuffInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 MOLFPGIEHLM = 12;</code>
+       * <code>repeated uint32 MOLFPGIEHLM = 9;</code>
        * @param values The mOLFPGIEHLM to add.
        * @return This builder for chaining.
        */
@@ -567,7 +567,7 @@ public final class _HireLevelUpgradeBuffInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 MOLFPGIEHLM = 12;</code>
+       * <code>repeated uint32 MOLFPGIEHLM = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearMOLFPGIEHLM() {
@@ -644,7 +644,7 @@ public final class _HireLevelUpgradeBuffInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\037_HireLevelUpgradeBuffInfo.proto\"0\n\031_Hi" +
-      "reLevelUpgradeBuffInfo\022\023\n\013MOLFPGIEHLM\030\014 " +
+      "reLevelUpgradeBuffInfo\022\023\n\013MOLFPGIEHLM\030\t " +
       "\003(\rB@\n\031emu.grasscutter.net.protoB#_HireL" +
       "evelUpgradeBuffInfoOuterClassb\006proto3"
     };

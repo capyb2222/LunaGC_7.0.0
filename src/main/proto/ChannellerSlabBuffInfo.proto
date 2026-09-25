@@ -7,8 +7,8 @@ import "ChannellerSlabAssistInfo.proto";
 import "MFLOIKPJCDI.proto";
 
 message ChannellerSlabBuffInfo {
-	repeated uint32 buff_id_list = 2;
-	MFLOIKPJCDI AKKLDFFAGMI = 3;
-	repeated ChannellerSlabAssistInfo assist_info_list = 6;
-	MFLOIKPJCDI EBICDMABNFJ = 12;
+	repeated uint32 buff_id_list = 13;
+	MFLOIKPJCDI AKKLDFFAGMI = 50000;
+	repeated ChannellerSlabAssistInfo assist_info_list = 12;
+	MFLOIKPJCDI EBICDMABNFJ = 50001;
 }

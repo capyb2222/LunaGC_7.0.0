@@ -19,32 +19,32 @@ public final class _LanV6LanternGiftDetailOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>._LanV6CardDetail card = 7;</code>
+     * <code>._LanV6CardDetail card = 6;</code>
      * @return Whether the card field is set.
      */
     boolean hasCard();
     /**
-     * <code>._LanV6CardDetail card = 7;</code>
+     * <code>._LanV6CardDetail card = 6;</code>
      * @return The card.
      */
     emu.grasscutter.net.proto._LanV6CardDetailOuterClass._LanV6CardDetail getCard();
     /**
-     * <code>._LanV6CardDetail card = 7;</code>
+     * <code>._LanV6CardDetail card = 6;</code>
      */
     emu.grasscutter.net.proto._LanV6CardDetailOuterClass._LanV6CardDetailOrBuilder getCardOrBuilder();
 
     /**
-     * <code>._LanV6LanternGiftSource source = 9;</code>
+     * <code>._LanV6LanternGiftSource source = 7;</code>
      * @return Whether the source field is set.
      */
     boolean hasSource();
     /**
-     * <code>._LanV6LanternGiftSource source = 9;</code>
+     * <code>._LanV6LanternGiftSource source = 7;</code>
      * @return The source.
      */
     emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource getSource();
     /**
-     * <code>._LanV6LanternGiftSource source = 9;</code>
+     * <code>._LanV6LanternGiftSource source = 7;</code>
      */
     emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSourceOrBuilder getSourceOrBuilder();
   }
@@ -93,7 +93,7 @@ public final class _LanV6LanternGiftDetailOuterClass {
             case 0:
               done = true;
               break;
-            case 58: {
+            case 50: {
               emu.grasscutter.net.proto._LanV6CardDetailOuterClass._LanV6CardDetail.Builder subBuilder = null;
               if (card_ != null) {
                 subBuilder = card_.toBuilder();
@@ -106,7 +106,7 @@ public final class _LanV6LanternGiftDetailOuterClass {
 
               break;
             }
-            case 74: {
+            case 58: {
               emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource.Builder subBuilder = null;
               if (source_ != null) {
                 subBuilder = source_.toBuilder();
@@ -151,10 +151,10 @@ public final class _LanV6LanternGiftDetailOuterClass {
               emu.grasscutter.net.proto._LanV6LanternGiftDetailOuterClass._LanV6LanternGiftDetail.class, emu.grasscutter.net.proto._LanV6LanternGiftDetailOuterClass._LanV6LanternGiftDetail.Builder.class);
     }
 
-    public static final int CARD_FIELD_NUMBER = 7;
+    public static final int CARD_FIELD_NUMBER = 6;
     private emu.grasscutter.net.proto._LanV6CardDetailOuterClass._LanV6CardDetail card_;
     /**
-     * <code>._LanV6CardDetail card = 7;</code>
+     * <code>._LanV6CardDetail card = 6;</code>
      * @return Whether the card field is set.
      */
     @java.lang.Override
@@ -162,7 +162,7 @@ public final class _LanV6LanternGiftDetailOuterClass {
       return card_ != null;
     }
     /**
-     * <code>._LanV6CardDetail card = 7;</code>
+     * <code>._LanV6CardDetail card = 6;</code>
      * @return The card.
      */
     @java.lang.Override
@@ -170,17 +170,17 @@ public final class _LanV6LanternGiftDetailOuterClass {
       return card_ == null ? emu.grasscutter.net.proto._LanV6CardDetailOuterClass._LanV6CardDetail.getDefaultInstance() : card_;
     }
     /**
-     * <code>._LanV6CardDetail card = 7;</code>
+     * <code>._LanV6CardDetail card = 6;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._LanV6CardDetailOuterClass._LanV6CardDetailOrBuilder getCardOrBuilder() {
       return getCard();
     }
 
-    public static final int SOURCE_FIELD_NUMBER = 9;
+    public static final int SOURCE_FIELD_NUMBER = 7;
     private emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource source_;
     /**
-     * <code>._LanV6LanternGiftSource source = 9;</code>
+     * <code>._LanV6LanternGiftSource source = 7;</code>
      * @return Whether the source field is set.
      */
     @java.lang.Override
@@ -188,7 +188,7 @@ public final class _LanV6LanternGiftDetailOuterClass {
       return source_ != null;
     }
     /**
-     * <code>._LanV6LanternGiftSource source = 9;</code>
+     * <code>._LanV6LanternGiftSource source = 7;</code>
      * @return The source.
      */
     @java.lang.Override
@@ -196,7 +196,7 @@ public final class _LanV6LanternGiftDetailOuterClass {
       return source_ == null ? emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource.getDefaultInstance() : source_;
     }
     /**
-     * <code>._LanV6LanternGiftSource source = 9;</code>
+     * <code>._LanV6LanternGiftSource source = 7;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSourceOrBuilder getSourceOrBuilder() {
@@ -218,10 +218,10 @@ public final class _LanV6LanternGiftDetailOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (card_ != null) {
-        output.writeMessage(7, getCard());
+        output.writeMessage(6, getCard());
       }
       if (source_ != null) {
-        output.writeMessage(9, getSource());
+        output.writeMessage(7, getSource());
       }
       unknownFields.writeTo(output);
     }
@@ -234,11 +234,11 @@ public final class _LanV6LanternGiftDetailOuterClass {
       size = 0;
       if (card_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, getCard());
+          .computeMessageSize(6, getCard());
       }
       if (source_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, getSource());
+          .computeMessageSize(7, getSource());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -552,14 +552,14 @@ public final class _LanV6LanternGiftDetailOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._LanV6CardDetailOuterClass._LanV6CardDetail, emu.grasscutter.net.proto._LanV6CardDetailOuterClass._LanV6CardDetail.Builder, emu.grasscutter.net.proto._LanV6CardDetailOuterClass._LanV6CardDetailOrBuilder> cardBuilder_;
       /**
-       * <code>._LanV6CardDetail card = 7;</code>
+       * <code>._LanV6CardDetail card = 6;</code>
        * @return Whether the card field is set.
        */
       public boolean hasCard() {
         return cardBuilder_ != null || card_ != null;
       }
       /**
-       * <code>._LanV6CardDetail card = 7;</code>
+       * <code>._LanV6CardDetail card = 6;</code>
        * @return The card.
        */
       public emu.grasscutter.net.proto._LanV6CardDetailOuterClass._LanV6CardDetail getCard() {
@@ -570,7 +570,7 @@ public final class _LanV6LanternGiftDetailOuterClass {
         }
       }
       /**
-       * <code>._LanV6CardDetail card = 7;</code>
+       * <code>._LanV6CardDetail card = 6;</code>
        */
       public Builder setCard(emu.grasscutter.net.proto._LanV6CardDetailOuterClass._LanV6CardDetail value) {
         if (cardBuilder_ == null) {
@@ -586,7 +586,7 @@ public final class _LanV6LanternGiftDetailOuterClass {
         return this;
       }
       /**
-       * <code>._LanV6CardDetail card = 7;</code>
+       * <code>._LanV6CardDetail card = 6;</code>
        */
       public Builder setCard(
           emu.grasscutter.net.proto._LanV6CardDetailOuterClass._LanV6CardDetail.Builder builderForValue) {
@@ -600,7 +600,7 @@ public final class _LanV6LanternGiftDetailOuterClass {
         return this;
       }
       /**
-       * <code>._LanV6CardDetail card = 7;</code>
+       * <code>._LanV6CardDetail card = 6;</code>
        */
       public Builder mergeCard(emu.grasscutter.net.proto._LanV6CardDetailOuterClass._LanV6CardDetail value) {
         if (cardBuilder_ == null) {
@@ -618,7 +618,7 @@ public final class _LanV6LanternGiftDetailOuterClass {
         return this;
       }
       /**
-       * <code>._LanV6CardDetail card = 7;</code>
+       * <code>._LanV6CardDetail card = 6;</code>
        */
       public Builder clearCard() {
         if (cardBuilder_ == null) {
@@ -632,7 +632,7 @@ public final class _LanV6LanternGiftDetailOuterClass {
         return this;
       }
       /**
-       * <code>._LanV6CardDetail card = 7;</code>
+       * <code>._LanV6CardDetail card = 6;</code>
        */
       public emu.grasscutter.net.proto._LanV6CardDetailOuterClass._LanV6CardDetail.Builder getCardBuilder() {
         
@@ -640,7 +640,7 @@ public final class _LanV6LanternGiftDetailOuterClass {
         return getCardFieldBuilder().getBuilder();
       }
       /**
-       * <code>._LanV6CardDetail card = 7;</code>
+       * <code>._LanV6CardDetail card = 6;</code>
        */
       public emu.grasscutter.net.proto._LanV6CardDetailOuterClass._LanV6CardDetailOrBuilder getCardOrBuilder() {
         if (cardBuilder_ != null) {
@@ -651,7 +651,7 @@ public final class _LanV6LanternGiftDetailOuterClass {
         }
       }
       /**
-       * <code>._LanV6CardDetail card = 7;</code>
+       * <code>._LanV6CardDetail card = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._LanV6CardDetailOuterClass._LanV6CardDetail, emu.grasscutter.net.proto._LanV6CardDetailOuterClass._LanV6CardDetail.Builder, emu.grasscutter.net.proto._LanV6CardDetailOuterClass._LanV6CardDetailOrBuilder> 
@@ -671,14 +671,14 @@ public final class _LanV6LanternGiftDetailOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource, emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource.Builder, emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSourceOrBuilder> sourceBuilder_;
       /**
-       * <code>._LanV6LanternGiftSource source = 9;</code>
+       * <code>._LanV6LanternGiftSource source = 7;</code>
        * @return Whether the source field is set.
        */
       public boolean hasSource() {
         return sourceBuilder_ != null || source_ != null;
       }
       /**
-       * <code>._LanV6LanternGiftSource source = 9;</code>
+       * <code>._LanV6LanternGiftSource source = 7;</code>
        * @return The source.
        */
       public emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource getSource() {
@@ -689,7 +689,7 @@ public final class _LanV6LanternGiftDetailOuterClass {
         }
       }
       /**
-       * <code>._LanV6LanternGiftSource source = 9;</code>
+       * <code>._LanV6LanternGiftSource source = 7;</code>
        */
       public Builder setSource(emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource value) {
         if (sourceBuilder_ == null) {
@@ -705,7 +705,7 @@ public final class _LanV6LanternGiftDetailOuterClass {
         return this;
       }
       /**
-       * <code>._LanV6LanternGiftSource source = 9;</code>
+       * <code>._LanV6LanternGiftSource source = 7;</code>
        */
       public Builder setSource(
           emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource.Builder builderForValue) {
@@ -719,7 +719,7 @@ public final class _LanV6LanternGiftDetailOuterClass {
         return this;
       }
       /**
-       * <code>._LanV6LanternGiftSource source = 9;</code>
+       * <code>._LanV6LanternGiftSource source = 7;</code>
        */
       public Builder mergeSource(emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource value) {
         if (sourceBuilder_ == null) {
@@ -737,7 +737,7 @@ public final class _LanV6LanternGiftDetailOuterClass {
         return this;
       }
       /**
-       * <code>._LanV6LanternGiftSource source = 9;</code>
+       * <code>._LanV6LanternGiftSource source = 7;</code>
        */
       public Builder clearSource() {
         if (sourceBuilder_ == null) {
@@ -751,7 +751,7 @@ public final class _LanV6LanternGiftDetailOuterClass {
         return this;
       }
       /**
-       * <code>._LanV6LanternGiftSource source = 9;</code>
+       * <code>._LanV6LanternGiftSource source = 7;</code>
        */
       public emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource.Builder getSourceBuilder() {
         
@@ -759,7 +759,7 @@ public final class _LanV6LanternGiftDetailOuterClass {
         return getSourceFieldBuilder().getBuilder();
       }
       /**
-       * <code>._LanV6LanternGiftSource source = 9;</code>
+       * <code>._LanV6LanternGiftSource source = 7;</code>
        */
       public emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSourceOrBuilder getSourceOrBuilder() {
         if (sourceBuilder_ != null) {
@@ -770,7 +770,7 @@ public final class _LanV6LanternGiftDetailOuterClass {
         }
       }
       /**
-       * <code>._LanV6LanternGiftSource source = 9;</code>
+       * <code>._LanV6LanternGiftSource source = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource, emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource.Builder, emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSourceOrBuilder> 
@@ -855,7 +855,7 @@ public final class _LanV6LanternGiftDetailOuterClass {
       "\n\035_LanV6LanternGiftDetail.proto\032\026_LanV6C" +
       "ardDetail.proto\032\035_LanV6LanternGiftSource" +
       ".proto\"d\n\027_LanV6LanternGiftDetail\022\037\n\004car" +
-      "d\030\007 \001(\0132\021._LanV6CardDetail\022(\n\006source\030\t \001" +
+      "d\030\006 \001(\0132\021._LanV6CardDetail\022(\n\006source\030\007 \001" +
       "(\0132\030._LanV6LanternGiftSourceB>\n\031emu.gras" +
       "scutter.net.protoB!_LanV6LanternGiftDeta" +
       "ilOuterClassb\006proto3"

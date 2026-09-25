@@ -7,5 +7,5 @@ import "WidgetSlotData.proto";
 
 message GetWidgetSlotRsp {
 	int32 retcode = 8;
-	repeated WidgetSlotData slot_list = 15;
+	repeated WidgetSlotData slot_list = 3;
 }

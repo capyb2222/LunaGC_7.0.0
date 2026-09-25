@@ -25,13 +25,13 @@ public final class QuestUpdateQuestVarReqOuterClass {
     int getParentQuestVarSeq();
 
     /**
-     * <code>uint32 quest_id = 4;</code>
+     * <code>uint32 quest_id = 7;</code>
      * @return The questId.
      */
     int getQuestId();
 
     /**
-     * <code>uint32 parent_quest_id = 12;</code>
+     * <code>uint32 parent_quest_id = 13;</code>
      * @return The parentQuestId.
      */
     int getParentQuestId();
@@ -86,12 +86,12 @@ public final class QuestUpdateQuestVarReqOuterClass {
               parentQuestVarSeq_ = input.readUInt32();
               break;
             }
-            case 32: {
+            case 56: {
 
               questId_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 104: {
 
               parentQuestId_ = input.readUInt32();
               break;
@@ -139,10 +139,10 @@ public final class QuestUpdateQuestVarReqOuterClass {
       return parentQuestVarSeq_;
     }
 
-    public static final int QUEST_ID_FIELD_NUMBER = 4;
+    public static final int QUEST_ID_FIELD_NUMBER = 7;
     private int questId_;
     /**
-     * <code>uint32 quest_id = 4;</code>
+     * <code>uint32 quest_id = 7;</code>
      * @return The questId.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class QuestUpdateQuestVarReqOuterClass {
       return questId_;
     }
 
-    public static final int PARENT_QUEST_ID_FIELD_NUMBER = 12;
+    public static final int PARENT_QUEST_ID_FIELD_NUMBER = 13;
     private int parentQuestId_;
     /**
-     * <code>uint32 parent_quest_id = 12;</code>
+     * <code>uint32 parent_quest_id = 13;</code>
      * @return The parentQuestId.
      */
     @java.lang.Override
@@ -179,10 +179,10 @@ public final class QuestUpdateQuestVarReqOuterClass {
         output.writeUInt32(1, parentQuestVarSeq_);
       }
       if (questId_ != 0) {
-        output.writeUInt32(4, questId_);
+        output.writeUInt32(7, questId_);
       }
       if (parentQuestId_ != 0) {
-        output.writeUInt32(12, parentQuestId_);
+        output.writeUInt32(13, parentQuestId_);
       }
       unknownFields.writeTo(output);
     }
@@ -199,11 +199,11 @@ public final class QuestUpdateQuestVarReqOuterClass {
       }
       if (questId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, questId_);
+          .computeUInt32Size(7, questId_);
       }
       if (parentQuestId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, parentQuestId_);
+          .computeUInt32Size(13, parentQuestId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -530,7 +530,7 @@ public final class QuestUpdateQuestVarReqOuterClass {
 
       private int questId_ ;
       /**
-       * <code>uint32 quest_id = 4;</code>
+       * <code>uint32 quest_id = 7;</code>
        * @return The questId.
        */
       @java.lang.Override
@@ -538,7 +538,7 @@ public final class QuestUpdateQuestVarReqOuterClass {
         return questId_;
       }
       /**
-       * <code>uint32 quest_id = 4;</code>
+       * <code>uint32 quest_id = 7;</code>
        * @param value The questId to set.
        * @return This builder for chaining.
        */
@@ -549,7 +549,7 @@ public final class QuestUpdateQuestVarReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 quest_id = 4;</code>
+       * <code>uint32 quest_id = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearQuestId() {
@@ -561,7 +561,7 @@ public final class QuestUpdateQuestVarReqOuterClass {
 
       private int parentQuestId_ ;
       /**
-       * <code>uint32 parent_quest_id = 12;</code>
+       * <code>uint32 parent_quest_id = 13;</code>
        * @return The parentQuestId.
        */
       @java.lang.Override
@@ -569,7 +569,7 @@ public final class QuestUpdateQuestVarReqOuterClass {
         return parentQuestId_;
       }
       /**
-       * <code>uint32 parent_quest_id = 12;</code>
+       * <code>uint32 parent_quest_id = 13;</code>
        * @param value The parentQuestId to set.
        * @return This builder for chaining.
        */
@@ -580,7 +580,7 @@ public final class QuestUpdateQuestVarReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 parent_quest_id = 12;</code>
+       * <code>uint32 parent_quest_id = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearParentQuestId() {
@@ -658,8 +658,8 @@ public final class QuestUpdateQuestVarReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034QuestUpdateQuestVarReq.proto\"a\n\026QuestU" +
       "pdateQuestVarReq\022\034\n\024parent_quest_var_seq" +
-      "\030\001 \001(\r\022\020\n\010quest_id\030\004 \001(\r\022\027\n\017parent_quest" +
-      "_id\030\014 \001(\rB=\n\031emu.grasscutter.net.protoB " +
+      "\030\001 \001(\r\022\020\n\010quest_id\030\007 \001(\r\022\027\n\017parent_quest" +
+      "_id\030\r \001(\rB=\n\031emu.grasscutter.net.protoB " +
       "QuestUpdateQuestVarReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

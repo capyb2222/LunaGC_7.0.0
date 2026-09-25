@@ -7,10 +7,10 @@ import "SceneReliquaryInfo.proto";
 import "SceneWeaponInfo.proto";
 
 message AvatarEquipChangeNotify {
-	uint32 item_id = 3;
-	uint64 equip_guid = 8;
+	uint32 item_id = 15;
+	uint64 equip_guid = 12;
 	uint64 avatar_guid = 9;
-	SceneReliquaryInfo reliquary = 10;
-	uint32 equip_type = 12;
+	SceneReliquaryInfo reliquary = 4;
+	uint32 equip_type = 10;
 	SceneWeaponInfo weapon = 13;
 }

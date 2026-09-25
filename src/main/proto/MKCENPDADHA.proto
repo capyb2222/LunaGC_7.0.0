@@ -6,8 +6,8 @@ option java_outer_classname = "MKCENPDADHAOuterClass";
 import "BCFNIJFCBJK.proto";
 
 message MKCENPDADHA {
-	BCFNIJFCBJK dungeon_info = 4;
-	string EFAEIFOKMDL = 8;
-	bool is_trial = 9;
-	string PJBGKFGIKBA = 10;
+	BCFNIJFCBJK dungeon_info = 13;
+	string EFAEIFOKMDL = 1;
+	bool is_trial = 11;
+	string PJBGKFGIKBA = 12;
 }

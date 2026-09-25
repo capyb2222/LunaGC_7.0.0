@@ -7,6 +7,6 @@ import "CGPKHBGAFMM.proto";
 import "OMNMAIIHHDJ.proto";
 
 message _Mvm2DetailInfo {
-	repeated CGPKHBGAFMM OGDLCAIMFHD = 6;
-	OMNMAIIHHDJ PNBPGDLCHNC = 8;
+	repeated CGPKHBGAFMM OGDLCAIMFHD = 11;
+	OMNMAIIHHDJ PNBPGDLCHNC = 5;
 }

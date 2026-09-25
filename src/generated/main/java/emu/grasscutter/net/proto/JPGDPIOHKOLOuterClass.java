@@ -19,25 +19,25 @@ public final class JPGDPIOHKOLOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool is_finish = 4;</code>
+     * <code>bool is_finish = 10;</code>
      * @return The isFinish.
      */
     boolean getIsFinish();
 
     /**
-     * <code>uint64 ugc_guid = 10;</code>
+     * <code>uint64 ugc_guid = 2;</code>
      * @return The ugcGuid.
      */
     long getUgcGuid();
 
     /**
-     * <code>bool is_open = 12;</code>
+     * <code>bool is_open = 8;</code>
      * @return The isOpen.
      */
     boolean getIsOpen();
 
     /**
-     * <code>uint32 level_id = 13;</code>
+     * <code>uint32 level_id = 9;</code>
      * @return The levelId.
      */
     int getLevelId();
@@ -87,24 +87,24 @@ public final class JPGDPIOHKOLOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
-
-              isFinish_ = input.readBool();
-              break;
-            }
-            case 80: {
+            case 16: {
 
               ugcGuid_ = input.readUInt64();
               break;
             }
-            case 96: {
+            case 64: {
 
               isOpen_ = input.readBool();
               break;
             }
-            case 104: {
+            case 72: {
 
               levelId_ = input.readUInt32();
+              break;
+            }
+            case 80: {
+
+              isFinish_ = input.readBool();
               break;
             }
             default: {
@@ -139,10 +139,10 @@ public final class JPGDPIOHKOLOuterClass {
               emu.grasscutter.net.proto.JPGDPIOHKOLOuterClass.JPGDPIOHKOL.class, emu.grasscutter.net.proto.JPGDPIOHKOLOuterClass.JPGDPIOHKOL.Builder.class);
     }
 
-    public static final int IS_FINISH_FIELD_NUMBER = 4;
+    public static final int IS_FINISH_FIELD_NUMBER = 10;
     private boolean isFinish_;
     /**
-     * <code>bool is_finish = 4;</code>
+     * <code>bool is_finish = 10;</code>
      * @return The isFinish.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class JPGDPIOHKOLOuterClass {
       return isFinish_;
     }
 
-    public static final int UGC_GUID_FIELD_NUMBER = 10;
+    public static final int UGC_GUID_FIELD_NUMBER = 2;
     private long ugcGuid_;
     /**
-     * <code>uint64 ugc_guid = 10;</code>
+     * <code>uint64 ugc_guid = 2;</code>
      * @return The ugcGuid.
      */
     @java.lang.Override
@@ -161,10 +161,10 @@ public final class JPGDPIOHKOLOuterClass {
       return ugcGuid_;
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 12;
+    public static final int IS_OPEN_FIELD_NUMBER = 8;
     private boolean isOpen_;
     /**
-     * <code>bool is_open = 12;</code>
+     * <code>bool is_open = 8;</code>
      * @return The isOpen.
      */
     @java.lang.Override
@@ -172,10 +172,10 @@ public final class JPGDPIOHKOLOuterClass {
       return isOpen_;
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 13;
+    public static final int LEVEL_ID_FIELD_NUMBER = 9;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 13;</code>
+     * <code>uint32 level_id = 9;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -197,17 +197,17 @@ public final class JPGDPIOHKOLOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (isFinish_ != false) {
-        output.writeBool(4, isFinish_);
-      }
       if (ugcGuid_ != 0L) {
-        output.writeUInt64(10, ugcGuid_);
+        output.writeUInt64(2, ugcGuid_);
       }
       if (isOpen_ != false) {
-        output.writeBool(12, isOpen_);
+        output.writeBool(8, isOpen_);
       }
       if (levelId_ != 0) {
-        output.writeUInt32(13, levelId_);
+        output.writeUInt32(9, levelId_);
+      }
+      if (isFinish_ != false) {
+        output.writeBool(10, isFinish_);
       }
       unknownFields.writeTo(output);
     }
@@ -218,21 +218,21 @@ public final class JPGDPIOHKOLOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (isFinish_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(4, isFinish_);
-      }
       if (ugcGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(10, ugcGuid_);
+          .computeUInt64Size(2, ugcGuid_);
       }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, isOpen_);
+          .computeBoolSize(8, isOpen_);
       }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, levelId_);
+          .computeUInt32Size(9, levelId_);
+      }
+      if (isFinish_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(10, isFinish_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -541,7 +541,7 @@ public final class JPGDPIOHKOLOuterClass {
 
       private boolean isFinish_ ;
       /**
-       * <code>bool is_finish = 4;</code>
+       * <code>bool is_finish = 10;</code>
        * @return The isFinish.
        */
       @java.lang.Override
@@ -549,7 +549,7 @@ public final class JPGDPIOHKOLOuterClass {
         return isFinish_;
       }
       /**
-       * <code>bool is_finish = 4;</code>
+       * <code>bool is_finish = 10;</code>
        * @param value The isFinish to set.
        * @return This builder for chaining.
        */
@@ -560,7 +560,7 @@ public final class JPGDPIOHKOLOuterClass {
         return this;
       }
       /**
-       * <code>bool is_finish = 4;</code>
+       * <code>bool is_finish = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsFinish() {
@@ -572,7 +572,7 @@ public final class JPGDPIOHKOLOuterClass {
 
       private long ugcGuid_ ;
       /**
-       * <code>uint64 ugc_guid = 10;</code>
+       * <code>uint64 ugc_guid = 2;</code>
        * @return The ugcGuid.
        */
       @java.lang.Override
@@ -580,7 +580,7 @@ public final class JPGDPIOHKOLOuterClass {
         return ugcGuid_;
       }
       /**
-       * <code>uint64 ugc_guid = 10;</code>
+       * <code>uint64 ugc_guid = 2;</code>
        * @param value The ugcGuid to set.
        * @return This builder for chaining.
        */
@@ -591,7 +591,7 @@ public final class JPGDPIOHKOLOuterClass {
         return this;
       }
       /**
-       * <code>uint64 ugc_guid = 10;</code>
+       * <code>uint64 ugc_guid = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearUgcGuid() {
@@ -603,7 +603,7 @@ public final class JPGDPIOHKOLOuterClass {
 
       private boolean isOpen_ ;
       /**
-       * <code>bool is_open = 12;</code>
+       * <code>bool is_open = 8;</code>
        * @return The isOpen.
        */
       @java.lang.Override
@@ -611,7 +611,7 @@ public final class JPGDPIOHKOLOuterClass {
         return isOpen_;
       }
       /**
-       * <code>bool is_open = 12;</code>
+       * <code>bool is_open = 8;</code>
        * @param value The isOpen to set.
        * @return This builder for chaining.
        */
@@ -622,7 +622,7 @@ public final class JPGDPIOHKOLOuterClass {
         return this;
       }
       /**
-       * <code>bool is_open = 12;</code>
+       * <code>bool is_open = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsOpen() {
@@ -634,7 +634,7 @@ public final class JPGDPIOHKOLOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 13;</code>
+       * <code>uint32 level_id = 9;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -642,7 +642,7 @@ public final class JPGDPIOHKOLOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 13;</code>
+       * <code>uint32 level_id = 9;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -653,7 +653,7 @@ public final class JPGDPIOHKOLOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 13;</code>
+       * <code>uint32 level_id = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -730,8 +730,8 @@ public final class JPGDPIOHKOLOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021JPGDPIOHKOL.proto\"U\n\013JPGDPIOHKOL\022\021\n\tis" +
-      "_finish\030\004 \001(\010\022\020\n\010ugc_guid\030\n \001(\004\022\017\n\007is_op" +
-      "en\030\014 \001(\010\022\020\n\010level_id\030\r \001(\rB2\n\031emu.grassc" +
+      "_finish\030\n \001(\010\022\020\n\010ugc_guid\030\002 \001(\004\022\017\n\007is_op" +
+      "en\030\010 \001(\010\022\020\n\010level_id\030\t \001(\rB2\n\031emu.grassc" +
       "utter.net.protoB\025JPGDPIOHKOLOuterClassb\006" +
       "proto3"
     };

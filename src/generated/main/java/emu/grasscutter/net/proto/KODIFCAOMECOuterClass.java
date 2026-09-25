@@ -19,25 +19,25 @@ public final class KODIFCAOMECOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 level_id = 3;</code>
+     * <code>uint32 level_id = 5;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>uint32 DEADDOKKEHM = 5;</code>
+     * <code>uint32 DEADDOKKEHM = 4;</code>
      * @return The dEADDOKKEHM.
      */
     int getDEADDOKKEHM();
 
     /**
-     * <code>uint32 CHJDGMGPDPE = 8;</code>
+     * <code>uint32 CHJDGMGPDPE = 11;</code>
      * @return The cHJDGMGPDPE.
      */
     int getCHJDGMGPDPE();
 
     /**
-     * <code>bool is_open = 12;</code>
+     * <code>bool is_open = 8;</code>
      * @return The isOpen.
      */
     boolean getIsOpen();
@@ -87,24 +87,24 @@ public final class KODIFCAOMECOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
-
-              levelId_ = input.readUInt32();
-              break;
-            }
-            case 40: {
+            case 32: {
 
               dEADDOKKEHM_ = input.readUInt32();
               break;
             }
-            case 64: {
+            case 40: {
 
-              cHJDGMGPDPE_ = input.readUInt32();
+              levelId_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 64: {
 
               isOpen_ = input.readBool();
+              break;
+            }
+            case 88: {
+
+              cHJDGMGPDPE_ = input.readUInt32();
               break;
             }
             default: {
@@ -139,10 +139,10 @@ public final class KODIFCAOMECOuterClass {
               emu.grasscutter.net.proto.KODIFCAOMECOuterClass.KODIFCAOMEC.class, emu.grasscutter.net.proto.KODIFCAOMECOuterClass.KODIFCAOMEC.Builder.class);
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 3;
+    public static final int LEVEL_ID_FIELD_NUMBER = 5;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 3;</code>
+     * <code>uint32 level_id = 5;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class KODIFCAOMECOuterClass {
       return levelId_;
     }
 
-    public static final int DEADDOKKEHM_FIELD_NUMBER = 5;
+    public static final int DEADDOKKEHM_FIELD_NUMBER = 4;
     private int dEADDOKKEHM_;
     /**
-     * <code>uint32 DEADDOKKEHM = 5;</code>
+     * <code>uint32 DEADDOKKEHM = 4;</code>
      * @return The dEADDOKKEHM.
      */
     @java.lang.Override
@@ -161,10 +161,10 @@ public final class KODIFCAOMECOuterClass {
       return dEADDOKKEHM_;
     }
 
-    public static final int CHJDGMGPDPE_FIELD_NUMBER = 8;
+    public static final int CHJDGMGPDPE_FIELD_NUMBER = 11;
     private int cHJDGMGPDPE_;
     /**
-     * <code>uint32 CHJDGMGPDPE = 8;</code>
+     * <code>uint32 CHJDGMGPDPE = 11;</code>
      * @return The cHJDGMGPDPE.
      */
     @java.lang.Override
@@ -172,10 +172,10 @@ public final class KODIFCAOMECOuterClass {
       return cHJDGMGPDPE_;
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 12;
+    public static final int IS_OPEN_FIELD_NUMBER = 8;
     private boolean isOpen_;
     /**
-     * <code>bool is_open = 12;</code>
+     * <code>bool is_open = 8;</code>
      * @return The isOpen.
      */
     @java.lang.Override
@@ -197,17 +197,17 @@ public final class KODIFCAOMECOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (levelId_ != 0) {
-        output.writeUInt32(3, levelId_);
-      }
       if (dEADDOKKEHM_ != 0) {
-        output.writeUInt32(5, dEADDOKKEHM_);
+        output.writeUInt32(4, dEADDOKKEHM_);
       }
-      if (cHJDGMGPDPE_ != 0) {
-        output.writeUInt32(8, cHJDGMGPDPE_);
+      if (levelId_ != 0) {
+        output.writeUInt32(5, levelId_);
       }
       if (isOpen_ != false) {
-        output.writeBool(12, isOpen_);
+        output.writeBool(8, isOpen_);
+      }
+      if (cHJDGMGPDPE_ != 0) {
+        output.writeUInt32(11, cHJDGMGPDPE_);
       }
       unknownFields.writeTo(output);
     }
@@ -218,21 +218,21 @@ public final class KODIFCAOMECOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (levelId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, levelId_);
-      }
       if (dEADDOKKEHM_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, dEADDOKKEHM_);
+          .computeUInt32Size(4, dEADDOKKEHM_);
       }
-      if (cHJDGMGPDPE_ != 0) {
+      if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, cHJDGMGPDPE_);
+          .computeUInt32Size(5, levelId_);
       }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, isOpen_);
+          .computeBoolSize(8, isOpen_);
+      }
+      if (cHJDGMGPDPE_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(11, cHJDGMGPDPE_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -539,7 +539,7 @@ public final class KODIFCAOMECOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 3;</code>
+       * <code>uint32 level_id = 5;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -547,7 +547,7 @@ public final class KODIFCAOMECOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 3;</code>
+       * <code>uint32 level_id = 5;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -558,7 +558,7 @@ public final class KODIFCAOMECOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 3;</code>
+       * <code>uint32 level_id = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -570,7 +570,7 @@ public final class KODIFCAOMECOuterClass {
 
       private int dEADDOKKEHM_ ;
       /**
-       * <code>uint32 DEADDOKKEHM = 5;</code>
+       * <code>uint32 DEADDOKKEHM = 4;</code>
        * @return The dEADDOKKEHM.
        */
       @java.lang.Override
@@ -578,7 +578,7 @@ public final class KODIFCAOMECOuterClass {
         return dEADDOKKEHM_;
       }
       /**
-       * <code>uint32 DEADDOKKEHM = 5;</code>
+       * <code>uint32 DEADDOKKEHM = 4;</code>
        * @param value The dEADDOKKEHM to set.
        * @return This builder for chaining.
        */
@@ -589,7 +589,7 @@ public final class KODIFCAOMECOuterClass {
         return this;
       }
       /**
-       * <code>uint32 DEADDOKKEHM = 5;</code>
+       * <code>uint32 DEADDOKKEHM = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearDEADDOKKEHM() {
@@ -601,7 +601,7 @@ public final class KODIFCAOMECOuterClass {
 
       private int cHJDGMGPDPE_ ;
       /**
-       * <code>uint32 CHJDGMGPDPE = 8;</code>
+       * <code>uint32 CHJDGMGPDPE = 11;</code>
        * @return The cHJDGMGPDPE.
        */
       @java.lang.Override
@@ -609,7 +609,7 @@ public final class KODIFCAOMECOuterClass {
         return cHJDGMGPDPE_;
       }
       /**
-       * <code>uint32 CHJDGMGPDPE = 8;</code>
+       * <code>uint32 CHJDGMGPDPE = 11;</code>
        * @param value The cHJDGMGPDPE to set.
        * @return This builder for chaining.
        */
@@ -620,7 +620,7 @@ public final class KODIFCAOMECOuterClass {
         return this;
       }
       /**
-       * <code>uint32 CHJDGMGPDPE = 8;</code>
+       * <code>uint32 CHJDGMGPDPE = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearCHJDGMGPDPE() {
@@ -632,7 +632,7 @@ public final class KODIFCAOMECOuterClass {
 
       private boolean isOpen_ ;
       /**
-       * <code>bool is_open = 12;</code>
+       * <code>bool is_open = 8;</code>
        * @return The isOpen.
        */
       @java.lang.Override
@@ -640,7 +640,7 @@ public final class KODIFCAOMECOuterClass {
         return isOpen_;
       }
       /**
-       * <code>bool is_open = 12;</code>
+       * <code>bool is_open = 8;</code>
        * @param value The isOpen to set.
        * @return This builder for chaining.
        */
@@ -651,7 +651,7 @@ public final class KODIFCAOMECOuterClass {
         return this;
       }
       /**
-       * <code>bool is_open = 12;</code>
+       * <code>bool is_open = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsOpen() {
@@ -728,8 +728,8 @@ public final class KODIFCAOMECOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KODIFCAOMEC.proto\"Z\n\013KODIFCAOMEC\022\020\n\010le" +
-      "vel_id\030\003 \001(\r\022\023\n\013DEADDOKKEHM\030\005 \001(\r\022\023\n\013CHJ" +
-      "DGMGPDPE\030\010 \001(\r\022\017\n\007is_open\030\014 \001(\010B2\n\031emu.g" +
+      "vel_id\030\005 \001(\r\022\023\n\013DEADDOKKEHM\030\004 \001(\r\022\023\n\013CHJ" +
+      "DGMGPDPE\030\013 \001(\r\022\017\n\007is_open\030\010 \001(\010B2\n\031emu.g" +
       "rasscutter.net.protoB\025KODIFCAOMECOuterCl" +
       "assb\006proto3"
     };

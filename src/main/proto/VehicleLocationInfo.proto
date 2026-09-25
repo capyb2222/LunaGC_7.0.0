@@ -6,12 +6,12 @@ option java_outer_classname = "VehicleLocationInfoOuterClass";
 import "Vector.proto";
 
 message VehicleLocationInfo {
-	uint32 gadget_id = 1;
-	repeated uint32 uid_list = 2;
-	float max_hp = 3;
-	uint32 entity_id = 6;
-	Vector rot = 8;
-	uint32 owner_uid = 11;
-	Vector pos = 13;
-	float cur_hp = 15;
+	uint32 gadget_id = 7;
+	repeated uint32 uid_list = 13;
+	float max_hp = 14;
+	uint32 entity_id = 12;
+	Vector rot = 5;
+	uint32 owner_uid = 2;
+	Vector pos = 1;
+	float cur_hp = 8;
 }

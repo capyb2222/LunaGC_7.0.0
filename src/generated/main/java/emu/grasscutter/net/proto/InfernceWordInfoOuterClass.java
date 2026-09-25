@@ -19,7 +19,7 @@ public final class InfernceWordInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 associate_word_id = 1;</code>
+     * <code>uint32 associate_word_id = 9;</code>
      * @return The associateWordId.
      */
     int getAssociateWordId();
@@ -31,25 +31,25 @@ public final class InfernceWordInfoOuterClass {
     int getWordId();
 
     /**
-     * <code>uint32 unlock_by_word_id = 8;</code>
+     * <code>uint32 unlock_by_word_id = 10;</code>
      * @return The unlockByWordId.
      */
     int getUnlockByWordId();
 
     /**
-     * <code>bool dgmljikfami = 11;</code>
+     * <code>bool dgmljikfami = 50000;</code>
      * @return The dgmljikfami.
      */
     boolean getDgmljikfami();
 
     /**
-     * <code>bool DKHJIGMFFOG = 13;</code>
+     * <code>bool DKHJIGMFFOG = 50001;</code>
      * @return The dKHJIGMFFOG.
      */
     boolean getDKHJIGMFFOG();
 
     /**
-     * <code>bool IAFPDGKDPPH = 14;</code>
+     * <code>bool IAFPDGKDPPH = 50002;</code>
      * @return The iAFPDGKDPPH.
      */
     boolean getIAFPDGKDPPH();
@@ -99,32 +99,32 @@ public final class InfernceWordInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
-
-              associateWordId_ = input.readUInt32();
-              break;
-            }
             case 48: {
 
               wordId_ = input.readUInt32();
               break;
             }
-            case 64: {
+            case 72: {
+
+              associateWordId_ = input.readUInt32();
+              break;
+            }
+            case 80: {
 
               unlockByWordId_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 400000: {
 
               dgmljikfami_ = input.readBool();
               break;
             }
-            case 104: {
+            case 400008: {
 
               dKHJIGMFFOG_ = input.readBool();
               break;
             }
-            case 112: {
+            case 400016: {
 
               iAFPDGKDPPH_ = input.readBool();
               break;
@@ -161,10 +161,10 @@ public final class InfernceWordInfoOuterClass {
               emu.grasscutter.net.proto.InfernceWordInfoOuterClass.InfernceWordInfo.class, emu.grasscutter.net.proto.InfernceWordInfoOuterClass.InfernceWordInfo.Builder.class);
     }
 
-    public static final int ASSOCIATE_WORD_ID_FIELD_NUMBER = 1;
+    public static final int ASSOCIATE_WORD_ID_FIELD_NUMBER = 9;
     private int associateWordId_;
     /**
-     * <code>uint32 associate_word_id = 1;</code>
+     * <code>uint32 associate_word_id = 9;</code>
      * @return The associateWordId.
      */
     @java.lang.Override
@@ -183,10 +183,10 @@ public final class InfernceWordInfoOuterClass {
       return wordId_;
     }
 
-    public static final int UNLOCK_BY_WORD_ID_FIELD_NUMBER = 8;
+    public static final int UNLOCK_BY_WORD_ID_FIELD_NUMBER = 10;
     private int unlockByWordId_;
     /**
-     * <code>uint32 unlock_by_word_id = 8;</code>
+     * <code>uint32 unlock_by_word_id = 10;</code>
      * @return The unlockByWordId.
      */
     @java.lang.Override
@@ -194,10 +194,10 @@ public final class InfernceWordInfoOuterClass {
       return unlockByWordId_;
     }
 
-    public static final int DGMLJIKFAMI_FIELD_NUMBER = 11;
+    public static final int DGMLJIKFAMI_FIELD_NUMBER = 50000;
     private boolean dgmljikfami_;
     /**
-     * <code>bool dgmljikfami = 11;</code>
+     * <code>bool dgmljikfami = 50000;</code>
      * @return The dgmljikfami.
      */
     @java.lang.Override
@@ -205,10 +205,10 @@ public final class InfernceWordInfoOuterClass {
       return dgmljikfami_;
     }
 
-    public static final int DKHJIGMFFOG_FIELD_NUMBER = 13;
+    public static final int DKHJIGMFFOG_FIELD_NUMBER = 50001;
     private boolean dKHJIGMFFOG_;
     /**
-     * <code>bool DKHJIGMFFOG = 13;</code>
+     * <code>bool DKHJIGMFFOG = 50001;</code>
      * @return The dKHJIGMFFOG.
      */
     @java.lang.Override
@@ -216,10 +216,10 @@ public final class InfernceWordInfoOuterClass {
       return dKHJIGMFFOG_;
     }
 
-    public static final int IAFPDGKDPPH_FIELD_NUMBER = 14;
+    public static final int IAFPDGKDPPH_FIELD_NUMBER = 50002;
     private boolean iAFPDGKDPPH_;
     /**
-     * <code>bool IAFPDGKDPPH = 14;</code>
+     * <code>bool IAFPDGKDPPH = 50002;</code>
      * @return The iAFPDGKDPPH.
      */
     @java.lang.Override
@@ -241,23 +241,23 @@ public final class InfernceWordInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (associateWordId_ != 0) {
-        output.writeUInt32(1, associateWordId_);
-      }
       if (wordId_ != 0) {
         output.writeUInt32(6, wordId_);
       }
+      if (associateWordId_ != 0) {
+        output.writeUInt32(9, associateWordId_);
+      }
       if (unlockByWordId_ != 0) {
-        output.writeUInt32(8, unlockByWordId_);
+        output.writeUInt32(10, unlockByWordId_);
       }
       if (dgmljikfami_ != false) {
-        output.writeBool(11, dgmljikfami_);
+        output.writeBool(50000, dgmljikfami_);
       }
       if (dKHJIGMFFOG_ != false) {
-        output.writeBool(13, dKHJIGMFFOG_);
+        output.writeBool(50001, dKHJIGMFFOG_);
       }
       if (iAFPDGKDPPH_ != false) {
-        output.writeBool(14, iAFPDGKDPPH_);
+        output.writeBool(50002, iAFPDGKDPPH_);
       }
       unknownFields.writeTo(output);
     }
@@ -268,29 +268,29 @@ public final class InfernceWordInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (associateWordId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, associateWordId_);
-      }
       if (wordId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(6, wordId_);
       }
+      if (associateWordId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(9, associateWordId_);
+      }
       if (unlockByWordId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, unlockByWordId_);
+          .computeUInt32Size(10, unlockByWordId_);
       }
       if (dgmljikfami_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(11, dgmljikfami_);
+          .computeBoolSize(50000, dgmljikfami_);
       }
       if (dKHJIGMFFOG_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(13, dKHJIGMFFOG_);
+          .computeBoolSize(50001, dKHJIGMFFOG_);
       }
       if (iAFPDGKDPPH_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(14, iAFPDGKDPPH_);
+          .computeBoolSize(50002, iAFPDGKDPPH_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -619,7 +619,7 @@ public final class InfernceWordInfoOuterClass {
 
       private int associateWordId_ ;
       /**
-       * <code>uint32 associate_word_id = 1;</code>
+       * <code>uint32 associate_word_id = 9;</code>
        * @return The associateWordId.
        */
       @java.lang.Override
@@ -627,7 +627,7 @@ public final class InfernceWordInfoOuterClass {
         return associateWordId_;
       }
       /**
-       * <code>uint32 associate_word_id = 1;</code>
+       * <code>uint32 associate_word_id = 9;</code>
        * @param value The associateWordId to set.
        * @return This builder for chaining.
        */
@@ -638,7 +638,7 @@ public final class InfernceWordInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 associate_word_id = 1;</code>
+       * <code>uint32 associate_word_id = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearAssociateWordId() {
@@ -681,7 +681,7 @@ public final class InfernceWordInfoOuterClass {
 
       private int unlockByWordId_ ;
       /**
-       * <code>uint32 unlock_by_word_id = 8;</code>
+       * <code>uint32 unlock_by_word_id = 10;</code>
        * @return The unlockByWordId.
        */
       @java.lang.Override
@@ -689,7 +689,7 @@ public final class InfernceWordInfoOuterClass {
         return unlockByWordId_;
       }
       /**
-       * <code>uint32 unlock_by_word_id = 8;</code>
+       * <code>uint32 unlock_by_word_id = 10;</code>
        * @param value The unlockByWordId to set.
        * @return This builder for chaining.
        */
@@ -700,7 +700,7 @@ public final class InfernceWordInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 unlock_by_word_id = 8;</code>
+       * <code>uint32 unlock_by_word_id = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearUnlockByWordId() {
@@ -712,7 +712,7 @@ public final class InfernceWordInfoOuterClass {
 
       private boolean dgmljikfami_ ;
       /**
-       * <code>bool dgmljikfami = 11;</code>
+       * <code>bool dgmljikfami = 50000;</code>
        * @return The dgmljikfami.
        */
       @java.lang.Override
@@ -720,7 +720,7 @@ public final class InfernceWordInfoOuterClass {
         return dgmljikfami_;
       }
       /**
-       * <code>bool dgmljikfami = 11;</code>
+       * <code>bool dgmljikfami = 50000;</code>
        * @param value The dgmljikfami to set.
        * @return This builder for chaining.
        */
@@ -731,7 +731,7 @@ public final class InfernceWordInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool dgmljikfami = 11;</code>
+       * <code>bool dgmljikfami = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearDgmljikfami() {
@@ -743,7 +743,7 @@ public final class InfernceWordInfoOuterClass {
 
       private boolean dKHJIGMFFOG_ ;
       /**
-       * <code>bool DKHJIGMFFOG = 13;</code>
+       * <code>bool DKHJIGMFFOG = 50001;</code>
        * @return The dKHJIGMFFOG.
        */
       @java.lang.Override
@@ -751,7 +751,7 @@ public final class InfernceWordInfoOuterClass {
         return dKHJIGMFFOG_;
       }
       /**
-       * <code>bool DKHJIGMFFOG = 13;</code>
+       * <code>bool DKHJIGMFFOG = 50001;</code>
        * @param value The dKHJIGMFFOG to set.
        * @return This builder for chaining.
        */
@@ -762,7 +762,7 @@ public final class InfernceWordInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool DKHJIGMFFOG = 13;</code>
+       * <code>bool DKHJIGMFFOG = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearDKHJIGMFFOG() {
@@ -774,7 +774,7 @@ public final class InfernceWordInfoOuterClass {
 
       private boolean iAFPDGKDPPH_ ;
       /**
-       * <code>bool IAFPDGKDPPH = 14;</code>
+       * <code>bool IAFPDGKDPPH = 50002;</code>
        * @return The iAFPDGKDPPH.
        */
       @java.lang.Override
@@ -782,7 +782,7 @@ public final class InfernceWordInfoOuterClass {
         return iAFPDGKDPPH_;
       }
       /**
-       * <code>bool IAFPDGKDPPH = 14;</code>
+       * <code>bool IAFPDGKDPPH = 50002;</code>
        * @param value The iAFPDGKDPPH to set.
        * @return This builder for chaining.
        */
@@ -793,7 +793,7 @@ public final class InfernceWordInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool IAFPDGKDPPH = 14;</code>
+       * <code>bool IAFPDGKDPPH = 50002;</code>
        * @return This builder for chaining.
        */
       public Builder clearIAFPDGKDPPH() {
@@ -869,13 +869,13 @@ public final class InfernceWordInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\026InfernceWordInfo.proto\"\230\001\n\020InfernceWor" +
-      "dInfo\022\031\n\021associate_word_id\030\001 \001(\r\022\017\n\007word" +
-      "_id\030\006 \001(\r\022\031\n\021unlock_by_word_id\030\010 \001(\r\022\023\n\013" +
-      "dgmljikfami\030\013 \001(\010\022\023\n\013DKHJIGMFFOG\030\r \001(\010\022\023" +
-      "\n\013IAFPDGKDPPH\030\016 \001(\010B7\n\031emu.grasscutter.n" +
-      "et.protoB\032InfernceWordInfoOuterClassb\006pr" +
-      "oto3"
+      "\n\026InfernceWordInfo.proto\"\236\001\n\020InfernceWor" +
+      "dInfo\022\031\n\021associate_word_id\030\t \001(\r\022\017\n\007word" +
+      "_id\030\006 \001(\r\022\031\n\021unlock_by_word_id\030\n \001(\r\022\025\n\013" +
+      "dgmljikfami\030\320\206\003 \001(\010\022\025\n\013DKHJIGMFFOG\030\321\206\003 \001" +
+      "(\010\022\025\n\013IAFPDGKDPPH\030\322\206\003 \001(\010B7\n\031emu.grasscu" +
+      "tter.net.protoB\032InfernceWordInfoOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

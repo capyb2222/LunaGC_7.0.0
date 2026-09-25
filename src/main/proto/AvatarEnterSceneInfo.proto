@@ -8,13 +8,13 @@ import "SceneWeaponInfo.proto";
 import "ServerBuff.proto";
 
 message AvatarEnterSceneInfo {
-	uint64 weapon_guid = 1;
-	repeated ServerBuff server_buff_list = 2;
-	repeated uint32 buff_id_list = 5;
-	repeated SceneWeaponInfo DGGJCMNHDOJ = 6;
-	uint32 weapon_entity_id = 8;
+	uint64 weapon_guid = 4;
+	repeated ServerBuff server_buff_list = 6;
+	repeated uint32 buff_id_list = 14;
+	repeated SceneWeaponInfo DGGJCMNHDOJ = 13;
+	uint32 weapon_entity_id = 2;
 	uint32 avatar_entity_id = 9;
-	AbilitySyncStateInfo avatar_ability_info = 10;
-	AbilitySyncStateInfo weapon_ability_info = 12;
-	uint64 avatar_guid = 15;
+	AbilitySyncStateInfo avatar_ability_info = 50000;
+	AbilitySyncStateInfo weapon_ability_info = 50001;
+	uint64 avatar_guid = 12;
 }

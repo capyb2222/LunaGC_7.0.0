@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "FungusTrainingDungeonDetailOuterClass";
 
 message FungusTrainingDungeonDetail {
-	uint32 best_score = 1;
+	uint32 best_score = 6;
 	bool is_open = 9;
-	uint32 dungeon_id = 11;
+	uint32 dungeon_id = 8;
 }

@@ -4,5 +4,5 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "_TakeDailyTaskScoreRewardReqOuterClass";
 
 message _TakeDailyTaskScoreRewardReq {
-	bool _is_claim_daily_attendance = 9;
+	bool _is_claim_daily_attendance = 7;
 }

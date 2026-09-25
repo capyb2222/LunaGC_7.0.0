@@ -6,6 +6,6 @@ option java_outer_classname = "BargainStartNotifyOuterClass";
 import "BargainSnapshot.proto";
 
 message BargainStartNotify {
-	BargainSnapshot snapshot = 8;
-	uint32 bargain_id = 11;
+	BargainSnapshot snapshot = 7;
+	uint32 bargain_id = 5;
 }

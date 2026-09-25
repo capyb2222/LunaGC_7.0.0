@@ -19,76 +19,76 @@ public final class _AutochessLevelInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated ._AutochessRecordSocialBrief record_list = 1;</code>
+     * <code>repeated ._AutochessRecordSocialBrief record_list = 12;</code>
      */
     java.util.List<emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief> 
         getRecordListList();
     /**
-     * <code>repeated ._AutochessRecordSocialBrief record_list = 1;</code>
+     * <code>repeated ._AutochessRecordSocialBrief record_list = 12;</code>
      */
     emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief getRecordList(int index);
     /**
-     * <code>repeated ._AutochessRecordSocialBrief record_list = 1;</code>
+     * <code>repeated ._AutochessRecordSocialBrief record_list = 12;</code>
      */
     int getRecordListCount();
     /**
-     * <code>repeated ._AutochessRecordSocialBrief record_list = 1;</code>
+     * <code>repeated ._AutochessRecordSocialBrief record_list = 12;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBriefOrBuilder> 
         getRecordListOrBuilderList();
     /**
-     * <code>repeated ._AutochessRecordSocialBrief record_list = 1;</code>
+     * <code>repeated ._AutochessRecordSocialBrief record_list = 12;</code>
      */
     emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBriefOrBuilder getRecordListOrBuilder(
         int index);
 
     /**
-     * <code>.KLCNKCBIENB HGLPHFNBEDC = 4;</code>
+     * <code>.KLCNKCBIENB HGLPHFNBEDC = 3;</code>
      * @return Whether the hGLPHFNBEDC field is set.
      */
     boolean hasHGLPHFNBEDC();
     /**
-     * <code>.KLCNKCBIENB HGLPHFNBEDC = 4;</code>
+     * <code>.KLCNKCBIENB HGLPHFNBEDC = 3;</code>
      * @return The hGLPHFNBEDC.
      */
     emu.grasscutter.net.proto.KLCNKCBIENBOuterClass.KLCNKCBIENB getHGLPHFNBEDC();
     /**
-     * <code>.KLCNKCBIENB HGLPHFNBEDC = 4;</code>
+     * <code>.KLCNKCBIENB HGLPHFNBEDC = 3;</code>
      */
     emu.grasscutter.net.proto.KLCNKCBIENBOuterClass.KLCNKCBIENBOrBuilder getHGLPHFNBEDCOrBuilder();
 
     /**
-     * <code>.Uint32Pair ONNMHEPKCIL = 5;</code>
+     * <code>.Uint32Pair ONNMHEPKCIL = 6;</code>
      * @return Whether the oNNMHEPKCIL field is set.
      */
     boolean hasONNMHEPKCIL();
     /**
-     * <code>.Uint32Pair ONNMHEPKCIL = 5;</code>
+     * <code>.Uint32Pair ONNMHEPKCIL = 6;</code>
      * @return The oNNMHEPKCIL.
      */
     emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getONNMHEPKCIL();
     /**
-     * <code>.Uint32Pair ONNMHEPKCIL = 5;</code>
+     * <code>.Uint32Pair ONNMHEPKCIL = 6;</code>
      */
     emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getONNMHEPKCILOrBuilder();
 
     /**
-     * <code>._AutochessRecordSocialBrief best_record = 9;</code>
+     * <code>._AutochessRecordSocialBrief best_record = 7;</code>
      * @return Whether the bestRecord field is set.
      */
     boolean hasBestRecord();
     /**
-     * <code>._AutochessRecordSocialBrief best_record = 9;</code>
+     * <code>._AutochessRecordSocialBrief best_record = 7;</code>
      * @return The bestRecord.
      */
     emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief getBestRecord();
     /**
-     * <code>._AutochessRecordSocialBrief best_record = 9;</code>
+     * <code>._AutochessRecordSocialBrief best_record = 7;</code>
      */
     emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBriefOrBuilder getBestRecordOrBuilder();
 
     /**
-     * <code>uint32 JMGKOJGILKC = 12;</code>
+     * <code>uint32 JMGKOJGILKC = 4;</code>
      * @return The jMGKOJGILKC.
      */
     int getJMGKOJGILKC();
@@ -140,16 +140,7 @@ public final class _AutochessLevelInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 10: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                recordList_ = new java.util.ArrayList<emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief>();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              recordList_.add(
-                  input.readMessage(emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief.parser(), extensionRegistry));
-              break;
-            }
-            case 34: {
+            case 26: {
               emu.grasscutter.net.proto.KLCNKCBIENBOuterClass.KLCNKCBIENB.Builder subBuilder = null;
               if (hGLPHFNBEDC_ != null) {
                 subBuilder = hGLPHFNBEDC_.toBuilder();
@@ -162,7 +153,12 @@ public final class _AutochessLevelInfoOuterClass {
 
               break;
             }
-            case 42: {
+            case 32: {
+
+              jMGKOJGILKC_ = input.readUInt32();
+              break;
+            }
+            case 50: {
               emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder subBuilder = null;
               if (oNNMHEPKCIL_ != null) {
                 subBuilder = oNNMHEPKCIL_.toBuilder();
@@ -175,7 +171,7 @@ public final class _AutochessLevelInfoOuterClass {
 
               break;
             }
-            case 74: {
+            case 58: {
               emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief.Builder subBuilder = null;
               if (bestRecord_ != null) {
                 subBuilder = bestRecord_.toBuilder();
@@ -188,9 +184,13 @@ public final class _AutochessLevelInfoOuterClass {
 
               break;
             }
-            case 96: {
-
-              jMGKOJGILKC_ = input.readUInt32();
+            case 98: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                recordList_ = new java.util.ArrayList<emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief>();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              recordList_.add(
+                  input.readMessage(emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -228,17 +228,17 @@ public final class _AutochessLevelInfoOuterClass {
               emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfo.class, emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfo.Builder.class);
     }
 
-    public static final int RECORD_LIST_FIELD_NUMBER = 1;
+    public static final int RECORD_LIST_FIELD_NUMBER = 12;
     private java.util.List<emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief> recordList_;
     /**
-     * <code>repeated ._AutochessRecordSocialBrief record_list = 1;</code>
+     * <code>repeated ._AutochessRecordSocialBrief record_list = 12;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief> getRecordListList() {
       return recordList_;
     }
     /**
-     * <code>repeated ._AutochessRecordSocialBrief record_list = 1;</code>
+     * <code>repeated ._AutochessRecordSocialBrief record_list = 12;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBriefOrBuilder> 
@@ -246,21 +246,21 @@ public final class _AutochessLevelInfoOuterClass {
       return recordList_;
     }
     /**
-     * <code>repeated ._AutochessRecordSocialBrief record_list = 1;</code>
+     * <code>repeated ._AutochessRecordSocialBrief record_list = 12;</code>
      */
     @java.lang.Override
     public int getRecordListCount() {
       return recordList_.size();
     }
     /**
-     * <code>repeated ._AutochessRecordSocialBrief record_list = 1;</code>
+     * <code>repeated ._AutochessRecordSocialBrief record_list = 12;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief getRecordList(int index) {
       return recordList_.get(index);
     }
     /**
-     * <code>repeated ._AutochessRecordSocialBrief record_list = 1;</code>
+     * <code>repeated ._AutochessRecordSocialBrief record_list = 12;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBriefOrBuilder getRecordListOrBuilder(
@@ -268,10 +268,10 @@ public final class _AutochessLevelInfoOuterClass {
       return recordList_.get(index);
     }
 
-    public static final int HGLPHFNBEDC_FIELD_NUMBER = 4;
+    public static final int HGLPHFNBEDC_FIELD_NUMBER = 3;
     private emu.grasscutter.net.proto.KLCNKCBIENBOuterClass.KLCNKCBIENB hGLPHFNBEDC_;
     /**
-     * <code>.KLCNKCBIENB HGLPHFNBEDC = 4;</code>
+     * <code>.KLCNKCBIENB HGLPHFNBEDC = 3;</code>
      * @return Whether the hGLPHFNBEDC field is set.
      */
     @java.lang.Override
@@ -279,7 +279,7 @@ public final class _AutochessLevelInfoOuterClass {
       return hGLPHFNBEDC_ != null;
     }
     /**
-     * <code>.KLCNKCBIENB HGLPHFNBEDC = 4;</code>
+     * <code>.KLCNKCBIENB HGLPHFNBEDC = 3;</code>
      * @return The hGLPHFNBEDC.
      */
     @java.lang.Override
@@ -287,17 +287,17 @@ public final class _AutochessLevelInfoOuterClass {
       return hGLPHFNBEDC_ == null ? emu.grasscutter.net.proto.KLCNKCBIENBOuterClass.KLCNKCBIENB.getDefaultInstance() : hGLPHFNBEDC_;
     }
     /**
-     * <code>.KLCNKCBIENB HGLPHFNBEDC = 4;</code>
+     * <code>.KLCNKCBIENB HGLPHFNBEDC = 3;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.KLCNKCBIENBOuterClass.KLCNKCBIENBOrBuilder getHGLPHFNBEDCOrBuilder() {
       return getHGLPHFNBEDC();
     }
 
-    public static final int ONNMHEPKCIL_FIELD_NUMBER = 5;
+    public static final int ONNMHEPKCIL_FIELD_NUMBER = 6;
     private emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair oNNMHEPKCIL_;
     /**
-     * <code>.Uint32Pair ONNMHEPKCIL = 5;</code>
+     * <code>.Uint32Pair ONNMHEPKCIL = 6;</code>
      * @return Whether the oNNMHEPKCIL field is set.
      */
     @java.lang.Override
@@ -305,7 +305,7 @@ public final class _AutochessLevelInfoOuterClass {
       return oNNMHEPKCIL_ != null;
     }
     /**
-     * <code>.Uint32Pair ONNMHEPKCIL = 5;</code>
+     * <code>.Uint32Pair ONNMHEPKCIL = 6;</code>
      * @return The oNNMHEPKCIL.
      */
     @java.lang.Override
@@ -313,17 +313,17 @@ public final class _AutochessLevelInfoOuterClass {
       return oNNMHEPKCIL_ == null ? emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.getDefaultInstance() : oNNMHEPKCIL_;
     }
     /**
-     * <code>.Uint32Pair ONNMHEPKCIL = 5;</code>
+     * <code>.Uint32Pair ONNMHEPKCIL = 6;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getONNMHEPKCILOrBuilder() {
       return getONNMHEPKCIL();
     }
 
-    public static final int BEST_RECORD_FIELD_NUMBER = 9;
+    public static final int BEST_RECORD_FIELD_NUMBER = 7;
     private emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief bestRecord_;
     /**
-     * <code>._AutochessRecordSocialBrief best_record = 9;</code>
+     * <code>._AutochessRecordSocialBrief best_record = 7;</code>
      * @return Whether the bestRecord field is set.
      */
     @java.lang.Override
@@ -331,7 +331,7 @@ public final class _AutochessLevelInfoOuterClass {
       return bestRecord_ != null;
     }
     /**
-     * <code>._AutochessRecordSocialBrief best_record = 9;</code>
+     * <code>._AutochessRecordSocialBrief best_record = 7;</code>
      * @return The bestRecord.
      */
     @java.lang.Override
@@ -339,17 +339,17 @@ public final class _AutochessLevelInfoOuterClass {
       return bestRecord_ == null ? emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief.getDefaultInstance() : bestRecord_;
     }
     /**
-     * <code>._AutochessRecordSocialBrief best_record = 9;</code>
+     * <code>._AutochessRecordSocialBrief best_record = 7;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBriefOrBuilder getBestRecordOrBuilder() {
       return getBestRecord();
     }
 
-    public static final int JMGKOJGILKC_FIELD_NUMBER = 12;
+    public static final int JMGKOJGILKC_FIELD_NUMBER = 4;
     private int jMGKOJGILKC_;
     /**
-     * <code>uint32 JMGKOJGILKC = 12;</code>
+     * <code>uint32 JMGKOJGILKC = 4;</code>
      * @return The jMGKOJGILKC.
      */
     @java.lang.Override
@@ -371,20 +371,20 @@ public final class _AutochessLevelInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      for (int i = 0; i < recordList_.size(); i++) {
-        output.writeMessage(1, recordList_.get(i));
-      }
       if (hGLPHFNBEDC_ != null) {
-        output.writeMessage(4, getHGLPHFNBEDC());
-      }
-      if (oNNMHEPKCIL_ != null) {
-        output.writeMessage(5, getONNMHEPKCIL());
-      }
-      if (bestRecord_ != null) {
-        output.writeMessage(9, getBestRecord());
+        output.writeMessage(3, getHGLPHFNBEDC());
       }
       if (jMGKOJGILKC_ != 0) {
-        output.writeUInt32(12, jMGKOJGILKC_);
+        output.writeUInt32(4, jMGKOJGILKC_);
+      }
+      if (oNNMHEPKCIL_ != null) {
+        output.writeMessage(6, getONNMHEPKCIL());
+      }
+      if (bestRecord_ != null) {
+        output.writeMessage(7, getBestRecord());
+      }
+      for (int i = 0; i < recordList_.size(); i++) {
+        output.writeMessage(12, recordList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -395,25 +395,25 @@ public final class _AutochessLevelInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < recordList_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, recordList_.get(i));
-      }
       if (hGLPHFNBEDC_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, getHGLPHFNBEDC());
-      }
-      if (oNNMHEPKCIL_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, getONNMHEPKCIL());
-      }
-      if (bestRecord_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, getBestRecord());
+          .computeMessageSize(3, getHGLPHFNBEDC());
       }
       if (jMGKOJGILKC_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, jMGKOJGILKC_);
+          .computeUInt32Size(4, jMGKOJGILKC_);
+      }
+      if (oNNMHEPKCIL_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(6, getONNMHEPKCIL());
+      }
+      if (bestRecord_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(7, getBestRecord());
+      }
+      for (int i = 0; i < recordList_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(12, recordList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -819,7 +819,7 @@ public final class _AutochessLevelInfoOuterClass {
           emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief, emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief.Builder, emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBriefOrBuilder> recordListBuilder_;
 
       /**
-       * <code>repeated ._AutochessRecordSocialBrief record_list = 1;</code>
+       * <code>repeated ._AutochessRecordSocialBrief record_list = 12;</code>
        */
       public java.util.List<emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief> getRecordListList() {
         if (recordListBuilder_ == null) {
@@ -829,7 +829,7 @@ public final class _AutochessLevelInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._AutochessRecordSocialBrief record_list = 1;</code>
+       * <code>repeated ._AutochessRecordSocialBrief record_list = 12;</code>
        */
       public int getRecordListCount() {
         if (recordListBuilder_ == null) {
@@ -839,7 +839,7 @@ public final class _AutochessLevelInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._AutochessRecordSocialBrief record_list = 1;</code>
+       * <code>repeated ._AutochessRecordSocialBrief record_list = 12;</code>
        */
       public emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief getRecordList(int index) {
         if (recordListBuilder_ == null) {
@@ -849,7 +849,7 @@ public final class _AutochessLevelInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._AutochessRecordSocialBrief record_list = 1;</code>
+       * <code>repeated ._AutochessRecordSocialBrief record_list = 12;</code>
        */
       public Builder setRecordList(
           int index, emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief value) {
@@ -866,7 +866,7 @@ public final class _AutochessLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AutochessRecordSocialBrief record_list = 1;</code>
+       * <code>repeated ._AutochessRecordSocialBrief record_list = 12;</code>
        */
       public Builder setRecordList(
           int index, emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief.Builder builderForValue) {
@@ -880,7 +880,7 @@ public final class _AutochessLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AutochessRecordSocialBrief record_list = 1;</code>
+       * <code>repeated ._AutochessRecordSocialBrief record_list = 12;</code>
        */
       public Builder addRecordList(emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief value) {
         if (recordListBuilder_ == null) {
@@ -896,7 +896,7 @@ public final class _AutochessLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AutochessRecordSocialBrief record_list = 1;</code>
+       * <code>repeated ._AutochessRecordSocialBrief record_list = 12;</code>
        */
       public Builder addRecordList(
           int index, emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief value) {
@@ -913,7 +913,7 @@ public final class _AutochessLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AutochessRecordSocialBrief record_list = 1;</code>
+       * <code>repeated ._AutochessRecordSocialBrief record_list = 12;</code>
        */
       public Builder addRecordList(
           emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief.Builder builderForValue) {
@@ -927,7 +927,7 @@ public final class _AutochessLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AutochessRecordSocialBrief record_list = 1;</code>
+       * <code>repeated ._AutochessRecordSocialBrief record_list = 12;</code>
        */
       public Builder addRecordList(
           int index, emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief.Builder builderForValue) {
@@ -941,7 +941,7 @@ public final class _AutochessLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AutochessRecordSocialBrief record_list = 1;</code>
+       * <code>repeated ._AutochessRecordSocialBrief record_list = 12;</code>
        */
       public Builder addAllRecordList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief> values) {
@@ -956,7 +956,7 @@ public final class _AutochessLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AutochessRecordSocialBrief record_list = 1;</code>
+       * <code>repeated ._AutochessRecordSocialBrief record_list = 12;</code>
        */
       public Builder clearRecordList() {
         if (recordListBuilder_ == null) {
@@ -969,7 +969,7 @@ public final class _AutochessLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AutochessRecordSocialBrief record_list = 1;</code>
+       * <code>repeated ._AutochessRecordSocialBrief record_list = 12;</code>
        */
       public Builder removeRecordList(int index) {
         if (recordListBuilder_ == null) {
@@ -982,14 +982,14 @@ public final class _AutochessLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AutochessRecordSocialBrief record_list = 1;</code>
+       * <code>repeated ._AutochessRecordSocialBrief record_list = 12;</code>
        */
       public emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief.Builder getRecordListBuilder(
           int index) {
         return getRecordListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated ._AutochessRecordSocialBrief record_list = 1;</code>
+       * <code>repeated ._AutochessRecordSocialBrief record_list = 12;</code>
        */
       public emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBriefOrBuilder getRecordListOrBuilder(
           int index) {
@@ -999,7 +999,7 @@ public final class _AutochessLevelInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._AutochessRecordSocialBrief record_list = 1;</code>
+       * <code>repeated ._AutochessRecordSocialBrief record_list = 12;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBriefOrBuilder> 
            getRecordListOrBuilderList() {
@@ -1010,14 +1010,14 @@ public final class _AutochessLevelInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._AutochessRecordSocialBrief record_list = 1;</code>
+       * <code>repeated ._AutochessRecordSocialBrief record_list = 12;</code>
        */
       public emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief.Builder addRecordListBuilder() {
         return getRecordListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief.getDefaultInstance());
       }
       /**
-       * <code>repeated ._AutochessRecordSocialBrief record_list = 1;</code>
+       * <code>repeated ._AutochessRecordSocialBrief record_list = 12;</code>
        */
       public emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief.Builder addRecordListBuilder(
           int index) {
@@ -1025,7 +1025,7 @@ public final class _AutochessLevelInfoOuterClass {
             index, emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief.getDefaultInstance());
       }
       /**
-       * <code>repeated ._AutochessRecordSocialBrief record_list = 1;</code>
+       * <code>repeated ._AutochessRecordSocialBrief record_list = 12;</code>
        */
       public java.util.List<emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief.Builder> 
            getRecordListBuilderList() {
@@ -1050,14 +1050,14 @@ public final class _AutochessLevelInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.KLCNKCBIENBOuterClass.KLCNKCBIENB, emu.grasscutter.net.proto.KLCNKCBIENBOuterClass.KLCNKCBIENB.Builder, emu.grasscutter.net.proto.KLCNKCBIENBOuterClass.KLCNKCBIENBOrBuilder> hGLPHFNBEDCBuilder_;
       /**
-       * <code>.KLCNKCBIENB HGLPHFNBEDC = 4;</code>
+       * <code>.KLCNKCBIENB HGLPHFNBEDC = 3;</code>
        * @return Whether the hGLPHFNBEDC field is set.
        */
       public boolean hasHGLPHFNBEDC() {
         return hGLPHFNBEDCBuilder_ != null || hGLPHFNBEDC_ != null;
       }
       /**
-       * <code>.KLCNKCBIENB HGLPHFNBEDC = 4;</code>
+       * <code>.KLCNKCBIENB HGLPHFNBEDC = 3;</code>
        * @return The hGLPHFNBEDC.
        */
       public emu.grasscutter.net.proto.KLCNKCBIENBOuterClass.KLCNKCBIENB getHGLPHFNBEDC() {
@@ -1068,7 +1068,7 @@ public final class _AutochessLevelInfoOuterClass {
         }
       }
       /**
-       * <code>.KLCNKCBIENB HGLPHFNBEDC = 4;</code>
+       * <code>.KLCNKCBIENB HGLPHFNBEDC = 3;</code>
        */
       public Builder setHGLPHFNBEDC(emu.grasscutter.net.proto.KLCNKCBIENBOuterClass.KLCNKCBIENB value) {
         if (hGLPHFNBEDCBuilder_ == null) {
@@ -1084,7 +1084,7 @@ public final class _AutochessLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>.KLCNKCBIENB HGLPHFNBEDC = 4;</code>
+       * <code>.KLCNKCBIENB HGLPHFNBEDC = 3;</code>
        */
       public Builder setHGLPHFNBEDC(
           emu.grasscutter.net.proto.KLCNKCBIENBOuterClass.KLCNKCBIENB.Builder builderForValue) {
@@ -1098,7 +1098,7 @@ public final class _AutochessLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>.KLCNKCBIENB HGLPHFNBEDC = 4;</code>
+       * <code>.KLCNKCBIENB HGLPHFNBEDC = 3;</code>
        */
       public Builder mergeHGLPHFNBEDC(emu.grasscutter.net.proto.KLCNKCBIENBOuterClass.KLCNKCBIENB value) {
         if (hGLPHFNBEDCBuilder_ == null) {
@@ -1116,7 +1116,7 @@ public final class _AutochessLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>.KLCNKCBIENB HGLPHFNBEDC = 4;</code>
+       * <code>.KLCNKCBIENB HGLPHFNBEDC = 3;</code>
        */
       public Builder clearHGLPHFNBEDC() {
         if (hGLPHFNBEDCBuilder_ == null) {
@@ -1130,7 +1130,7 @@ public final class _AutochessLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>.KLCNKCBIENB HGLPHFNBEDC = 4;</code>
+       * <code>.KLCNKCBIENB HGLPHFNBEDC = 3;</code>
        */
       public emu.grasscutter.net.proto.KLCNKCBIENBOuterClass.KLCNKCBIENB.Builder getHGLPHFNBEDCBuilder() {
         
@@ -1138,7 +1138,7 @@ public final class _AutochessLevelInfoOuterClass {
         return getHGLPHFNBEDCFieldBuilder().getBuilder();
       }
       /**
-       * <code>.KLCNKCBIENB HGLPHFNBEDC = 4;</code>
+       * <code>.KLCNKCBIENB HGLPHFNBEDC = 3;</code>
        */
       public emu.grasscutter.net.proto.KLCNKCBIENBOuterClass.KLCNKCBIENBOrBuilder getHGLPHFNBEDCOrBuilder() {
         if (hGLPHFNBEDCBuilder_ != null) {
@@ -1149,7 +1149,7 @@ public final class _AutochessLevelInfoOuterClass {
         }
       }
       /**
-       * <code>.KLCNKCBIENB HGLPHFNBEDC = 4;</code>
+       * <code>.KLCNKCBIENB HGLPHFNBEDC = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.KLCNKCBIENBOuterClass.KLCNKCBIENB, emu.grasscutter.net.proto.KLCNKCBIENBOuterClass.KLCNKCBIENB.Builder, emu.grasscutter.net.proto.KLCNKCBIENBOuterClass.KLCNKCBIENBOrBuilder> 
@@ -1169,14 +1169,14 @@ public final class _AutochessLevelInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> oNNMHEPKCILBuilder_;
       /**
-       * <code>.Uint32Pair ONNMHEPKCIL = 5;</code>
+       * <code>.Uint32Pair ONNMHEPKCIL = 6;</code>
        * @return Whether the oNNMHEPKCIL field is set.
        */
       public boolean hasONNMHEPKCIL() {
         return oNNMHEPKCILBuilder_ != null || oNNMHEPKCIL_ != null;
       }
       /**
-       * <code>.Uint32Pair ONNMHEPKCIL = 5;</code>
+       * <code>.Uint32Pair ONNMHEPKCIL = 6;</code>
        * @return The oNNMHEPKCIL.
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getONNMHEPKCIL() {
@@ -1187,7 +1187,7 @@ public final class _AutochessLevelInfoOuterClass {
         }
       }
       /**
-       * <code>.Uint32Pair ONNMHEPKCIL = 5;</code>
+       * <code>.Uint32Pair ONNMHEPKCIL = 6;</code>
        */
       public Builder setONNMHEPKCIL(emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
         if (oNNMHEPKCILBuilder_ == null) {
@@ -1203,7 +1203,7 @@ public final class _AutochessLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>.Uint32Pair ONNMHEPKCIL = 5;</code>
+       * <code>.Uint32Pair ONNMHEPKCIL = 6;</code>
        */
       public Builder setONNMHEPKCIL(
           emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder builderForValue) {
@@ -1217,7 +1217,7 @@ public final class _AutochessLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>.Uint32Pair ONNMHEPKCIL = 5;</code>
+       * <code>.Uint32Pair ONNMHEPKCIL = 6;</code>
        */
       public Builder mergeONNMHEPKCIL(emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
         if (oNNMHEPKCILBuilder_ == null) {
@@ -1235,7 +1235,7 @@ public final class _AutochessLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>.Uint32Pair ONNMHEPKCIL = 5;</code>
+       * <code>.Uint32Pair ONNMHEPKCIL = 6;</code>
        */
       public Builder clearONNMHEPKCIL() {
         if (oNNMHEPKCILBuilder_ == null) {
@@ -1249,7 +1249,7 @@ public final class _AutochessLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>.Uint32Pair ONNMHEPKCIL = 5;</code>
+       * <code>.Uint32Pair ONNMHEPKCIL = 6;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder getONNMHEPKCILBuilder() {
         
@@ -1257,7 +1257,7 @@ public final class _AutochessLevelInfoOuterClass {
         return getONNMHEPKCILFieldBuilder().getBuilder();
       }
       /**
-       * <code>.Uint32Pair ONNMHEPKCIL = 5;</code>
+       * <code>.Uint32Pair ONNMHEPKCIL = 6;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getONNMHEPKCILOrBuilder() {
         if (oNNMHEPKCILBuilder_ != null) {
@@ -1268,7 +1268,7 @@ public final class _AutochessLevelInfoOuterClass {
         }
       }
       /**
-       * <code>.Uint32Pair ONNMHEPKCIL = 5;</code>
+       * <code>.Uint32Pair ONNMHEPKCIL = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
@@ -1288,14 +1288,14 @@ public final class _AutochessLevelInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief, emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief.Builder, emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBriefOrBuilder> bestRecordBuilder_;
       /**
-       * <code>._AutochessRecordSocialBrief best_record = 9;</code>
+       * <code>._AutochessRecordSocialBrief best_record = 7;</code>
        * @return Whether the bestRecord field is set.
        */
       public boolean hasBestRecord() {
         return bestRecordBuilder_ != null || bestRecord_ != null;
       }
       /**
-       * <code>._AutochessRecordSocialBrief best_record = 9;</code>
+       * <code>._AutochessRecordSocialBrief best_record = 7;</code>
        * @return The bestRecord.
        */
       public emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief getBestRecord() {
@@ -1306,7 +1306,7 @@ public final class _AutochessLevelInfoOuterClass {
         }
       }
       /**
-       * <code>._AutochessRecordSocialBrief best_record = 9;</code>
+       * <code>._AutochessRecordSocialBrief best_record = 7;</code>
        */
       public Builder setBestRecord(emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief value) {
         if (bestRecordBuilder_ == null) {
@@ -1322,7 +1322,7 @@ public final class _AutochessLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>._AutochessRecordSocialBrief best_record = 9;</code>
+       * <code>._AutochessRecordSocialBrief best_record = 7;</code>
        */
       public Builder setBestRecord(
           emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief.Builder builderForValue) {
@@ -1336,7 +1336,7 @@ public final class _AutochessLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>._AutochessRecordSocialBrief best_record = 9;</code>
+       * <code>._AutochessRecordSocialBrief best_record = 7;</code>
        */
       public Builder mergeBestRecord(emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief value) {
         if (bestRecordBuilder_ == null) {
@@ -1354,7 +1354,7 @@ public final class _AutochessLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>._AutochessRecordSocialBrief best_record = 9;</code>
+       * <code>._AutochessRecordSocialBrief best_record = 7;</code>
        */
       public Builder clearBestRecord() {
         if (bestRecordBuilder_ == null) {
@@ -1368,7 +1368,7 @@ public final class _AutochessLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>._AutochessRecordSocialBrief best_record = 9;</code>
+       * <code>._AutochessRecordSocialBrief best_record = 7;</code>
        */
       public emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief.Builder getBestRecordBuilder() {
         
@@ -1376,7 +1376,7 @@ public final class _AutochessLevelInfoOuterClass {
         return getBestRecordFieldBuilder().getBuilder();
       }
       /**
-       * <code>._AutochessRecordSocialBrief best_record = 9;</code>
+       * <code>._AutochessRecordSocialBrief best_record = 7;</code>
        */
       public emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBriefOrBuilder getBestRecordOrBuilder() {
         if (bestRecordBuilder_ != null) {
@@ -1387,7 +1387,7 @@ public final class _AutochessLevelInfoOuterClass {
         }
       }
       /**
-       * <code>._AutochessRecordSocialBrief best_record = 9;</code>
+       * <code>._AutochessRecordSocialBrief best_record = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief, emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief.Builder, emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBriefOrBuilder> 
@@ -1405,7 +1405,7 @@ public final class _AutochessLevelInfoOuterClass {
 
       private int jMGKOJGILKC_ ;
       /**
-       * <code>uint32 JMGKOJGILKC = 12;</code>
+       * <code>uint32 JMGKOJGILKC = 4;</code>
        * @return The jMGKOJGILKC.
        */
       @java.lang.Override
@@ -1413,7 +1413,7 @@ public final class _AutochessLevelInfoOuterClass {
         return jMGKOJGILKC_;
       }
       /**
-       * <code>uint32 JMGKOJGILKC = 12;</code>
+       * <code>uint32 JMGKOJGILKC = 4;</code>
        * @param value The jMGKOJGILKC to set.
        * @return This builder for chaining.
        */
@@ -1424,7 +1424,7 @@ public final class _AutochessLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 JMGKOJGILKC = 12;</code>
+       * <code>uint32 JMGKOJGILKC = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearJMGKOJGILKC() {
@@ -1503,11 +1503,11 @@ public final class _AutochessLevelInfoOuterClass {
       "\n\031_AutochessLevelInfo.proto\032\021KLCNKCBIENB" +
       ".proto\032\020Uint32Pair.proto\032!_AutochessReco" +
       "rdSocialBrief.proto\"\325\001\n\023_AutochessLevelI" +
-      "nfo\0221\n\013record_list\030\001 \003(\0132\034._AutochessRec" +
-      "ordSocialBrief\022!\n\013HGLPHFNBEDC\030\004 \001(\0132\014.KL" +
-      "CNKCBIENB\022 \n\013ONNMHEPKCIL\030\005 \001(\0132\013.Uint32P" +
-      "air\0221\n\013best_record\030\t \001(\0132\034._AutochessRec" +
-      "ordSocialBrief\022\023\n\013JMGKOJGILKC\030\014 \001(\rB:\n\031e" +
+      "nfo\0221\n\013record_list\030\014 \003(\0132\034._AutochessRec" +
+      "ordSocialBrief\022!\n\013HGLPHFNBEDC\030\003 \001(\0132\014.KL" +
+      "CNKCBIENB\022 \n\013ONNMHEPKCIL\030\006 \001(\0132\013.Uint32P" +
+      "air\0221\n\013best_record\030\007 \001(\0132\034._AutochessRec" +
+      "ordSocialBrief\022\023\n\013JMGKOJGILKC\030\004 \001(\rB:\n\031e" +
       "mu.grasscutter.net.protoB\035_AutochessLeve" +
       "lInfoOuterClassb\006proto3"
     };

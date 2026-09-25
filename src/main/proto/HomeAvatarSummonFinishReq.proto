@@ -4,5 +4,5 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "HomeAvatarSummonFinishReqOuterClass";
 
 message HomeAvatarSummonFinishReq {
-	uint32 event_id = 8;
+	uint32 event_id = 7;
 }

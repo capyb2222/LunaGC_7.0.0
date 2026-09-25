@@ -19,65 +19,65 @@ public final class _MonsterChessRecordInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 _win_round_list = 1;</code>
+     * <code>repeated uint32 _win_round_list = 5;</code>
      * @return A list containing the winRoundList.
      */
     java.util.List<java.lang.Integer> getWinRoundListList();
     /**
-     * <code>repeated uint32 _win_round_list = 1;</code>
+     * <code>repeated uint32 _win_round_list = 5;</code>
      * @return The count of winRoundList.
      */
     int getWinRoundListCount();
     /**
-     * <code>repeated uint32 _win_round_list = 1;</code>
+     * <code>repeated uint32 _win_round_list = 5;</code>
      * @param index The index of the element to return.
      * @return The winRoundList at the given index.
      */
     int getWinRoundList(int index);
 
     /**
-     * <code>repeated ._MonsterChessCardDetail monster_list = 9;</code>
+     * <code>repeated ._MonsterChessCardDetail monster_list = 10;</code>
      */
     java.util.List<emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail> 
         getMonsterListList();
     /**
-     * <code>repeated ._MonsterChessCardDetail monster_list = 9;</code>
+     * <code>repeated ._MonsterChessCardDetail monster_list = 10;</code>
      */
     emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail getMonsterList(int index);
     /**
-     * <code>repeated ._MonsterChessCardDetail monster_list = 9;</code>
+     * <code>repeated ._MonsterChessCardDetail monster_list = 10;</code>
      */
     int getMonsterListCount();
     /**
-     * <code>repeated ._MonsterChessCardDetail monster_list = 9;</code>
+     * <code>repeated ._MonsterChessCardDetail monster_list = 10;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetailOrBuilder> 
         getMonsterListOrBuilderList();
     /**
-     * <code>repeated ._MonsterChessCardDetail monster_list = 9;</code>
+     * <code>repeated ._MonsterChessCardDetail monster_list = 10;</code>
      */
     emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetailOrBuilder getMonsterListOrBuilder(
         int index);
 
     /**
-     * <code>repeated uint32 OHBPLEJNHBF = 11;</code>
+     * <code>repeated uint32 OHBPLEJNHBF = 3;</code>
      * @return A list containing the oHBPLEJNHBF.
      */
     java.util.List<java.lang.Integer> getOHBPLEJNHBFList();
     /**
-     * <code>repeated uint32 OHBPLEJNHBF = 11;</code>
+     * <code>repeated uint32 OHBPLEJNHBF = 3;</code>
      * @return The count of oHBPLEJNHBF.
      */
     int getOHBPLEJNHBFCount();
     /**
-     * <code>repeated uint32 OHBPLEJNHBF = 11;</code>
+     * <code>repeated uint32 OHBPLEJNHBF = 3;</code>
      * @param index The index of the element to return.
      * @return The oHBPLEJNHBF at the given index.
      */
     int getOHBPLEJNHBF(int index);
 
     /**
-     * <code>uint32 timestamp = 15;</code>
+     * <code>uint32 timestamp = 14;</code>
      * @return The timestamp.
      */
     int getTimestamp();
@@ -131,37 +131,7 @@ public final class _MonsterChessRecordInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                WinRoundList_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              WinRoundList_.addInt(input.readUInt32());
-              break;
-            }
-            case 10: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                WinRoundList_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                WinRoundList_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
-              break;
-            }
-            case 74: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                monsterList_ = new java.util.ArrayList<emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail>();
-                mutable_bitField0_ |= 0x00000002;
-              }
-              monsterList_.add(
-                  input.readMessage(emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail.parser(), extensionRegistry));
-              break;
-            }
-            case 88: {
+            case 24: {
               if (!((mutable_bitField0_ & 0x00000004) != 0)) {
                 oHBPLEJNHBF_ = newIntList();
                 mutable_bitField0_ |= 0x00000004;
@@ -169,7 +139,7 @@ public final class _MonsterChessRecordInfoOuterClass {
               oHBPLEJNHBF_.addInt(input.readUInt32());
               break;
             }
-            case 90: {
+            case 26: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000004) != 0) && input.getBytesUntilLimit() > 0) {
@@ -182,7 +152,37 @@ public final class _MonsterChessRecordInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 120: {
+            case 40: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                WinRoundList_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              WinRoundList_.addInt(input.readUInt32());
+              break;
+            }
+            case 42: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
+                WinRoundList_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                WinRoundList_.addInt(input.readUInt32());
+              }
+              input.popLimit(limit);
+              break;
+            }
+            case 82: {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                monsterList_ = new java.util.ArrayList<emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail>();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              monsterList_.add(
+                  input.readMessage(emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail.parser(), extensionRegistry));
+              break;
+            }
+            case 112: {
 
               timestamp_ = input.readUInt32();
               break;
@@ -202,14 +202,14 @@ public final class _MonsterChessRecordInfoOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
+        if (((mutable_bitField0_ & 0x00000004) != 0)) {
+          oHBPLEJNHBF_.makeImmutable(); // C
+        }
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
           WinRoundList_.makeImmutable(); // C
         }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
           monsterList_ = java.util.Collections.unmodifiableList(monsterList_);
-        }
-        if (((mutable_bitField0_ & 0x00000004) != 0)) {
-          oHBPLEJNHBF_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -228,10 +228,10 @@ public final class _MonsterChessRecordInfoOuterClass {
               emu.grasscutter.net.proto._MonsterChessRecordInfoOuterClass._MonsterChessRecordInfo.class, emu.grasscutter.net.proto._MonsterChessRecordInfoOuterClass._MonsterChessRecordInfo.Builder.class);
     }
 
-    public static final int _WIN_ROUND_LIST_FIELD_NUMBER = 1;
+    public static final int _WIN_ROUND_LIST_FIELD_NUMBER = 5;
     private com.google.protobuf.Internal.IntList WinRoundList_;
     /**
-     * <code>repeated uint32 _win_round_list = 1;</code>
+     * <code>repeated uint32 _win_round_list = 5;</code>
      * @return A list containing the winRoundList.
      */
     @java.lang.Override
@@ -240,14 +240,14 @@ public final class _MonsterChessRecordInfoOuterClass {
       return WinRoundList_;
     }
     /**
-     * <code>repeated uint32 _win_round_list = 1;</code>
+     * <code>repeated uint32 _win_round_list = 5;</code>
      * @return The count of winRoundList.
      */
     public int getWinRoundListCount() {
       return WinRoundList_.size();
     }
     /**
-     * <code>repeated uint32 _win_round_list = 1;</code>
+     * <code>repeated uint32 _win_round_list = 5;</code>
      * @param index The index of the element to return.
      * @return The winRoundList at the given index.
      */
@@ -256,17 +256,17 @@ public final class _MonsterChessRecordInfoOuterClass {
     }
     private int WinRoundListMemoizedSerializedSize = -1;
 
-    public static final int MONSTER_LIST_FIELD_NUMBER = 9;
+    public static final int MONSTER_LIST_FIELD_NUMBER = 10;
     private java.util.List<emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail> monsterList_;
     /**
-     * <code>repeated ._MonsterChessCardDetail monster_list = 9;</code>
+     * <code>repeated ._MonsterChessCardDetail monster_list = 10;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail> getMonsterListList() {
       return monsterList_;
     }
     /**
-     * <code>repeated ._MonsterChessCardDetail monster_list = 9;</code>
+     * <code>repeated ._MonsterChessCardDetail monster_list = 10;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetailOrBuilder> 
@@ -274,21 +274,21 @@ public final class _MonsterChessRecordInfoOuterClass {
       return monsterList_;
     }
     /**
-     * <code>repeated ._MonsterChessCardDetail monster_list = 9;</code>
+     * <code>repeated ._MonsterChessCardDetail monster_list = 10;</code>
      */
     @java.lang.Override
     public int getMonsterListCount() {
       return monsterList_.size();
     }
     /**
-     * <code>repeated ._MonsterChessCardDetail monster_list = 9;</code>
+     * <code>repeated ._MonsterChessCardDetail monster_list = 10;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail getMonsterList(int index) {
       return monsterList_.get(index);
     }
     /**
-     * <code>repeated ._MonsterChessCardDetail monster_list = 9;</code>
+     * <code>repeated ._MonsterChessCardDetail monster_list = 10;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetailOrBuilder getMonsterListOrBuilder(
@@ -296,10 +296,10 @@ public final class _MonsterChessRecordInfoOuterClass {
       return monsterList_.get(index);
     }
 
-    public static final int OHBPLEJNHBF_FIELD_NUMBER = 11;
+    public static final int OHBPLEJNHBF_FIELD_NUMBER = 3;
     private com.google.protobuf.Internal.IntList oHBPLEJNHBF_;
     /**
-     * <code>repeated uint32 OHBPLEJNHBF = 11;</code>
+     * <code>repeated uint32 OHBPLEJNHBF = 3;</code>
      * @return A list containing the oHBPLEJNHBF.
      */
     @java.lang.Override
@@ -308,14 +308,14 @@ public final class _MonsterChessRecordInfoOuterClass {
       return oHBPLEJNHBF_;
     }
     /**
-     * <code>repeated uint32 OHBPLEJNHBF = 11;</code>
+     * <code>repeated uint32 OHBPLEJNHBF = 3;</code>
      * @return The count of oHBPLEJNHBF.
      */
     public int getOHBPLEJNHBFCount() {
       return oHBPLEJNHBF_.size();
     }
     /**
-     * <code>repeated uint32 OHBPLEJNHBF = 11;</code>
+     * <code>repeated uint32 OHBPLEJNHBF = 3;</code>
      * @param index The index of the element to return.
      * @return The oHBPLEJNHBF at the given index.
      */
@@ -324,10 +324,10 @@ public final class _MonsterChessRecordInfoOuterClass {
     }
     private int oHBPLEJNHBFMemoizedSerializedSize = -1;
 
-    public static final int TIMESTAMP_FIELD_NUMBER = 15;
+    public static final int TIMESTAMP_FIELD_NUMBER = 14;
     private int timestamp_;
     /**
-     * <code>uint32 timestamp = 15;</code>
+     * <code>uint32 timestamp = 14;</code>
      * @return The timestamp.
      */
     @java.lang.Override
@@ -350,25 +350,25 @@ public final class _MonsterChessRecordInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
+      if (getOHBPLEJNHBFList().size() > 0) {
+        output.writeUInt32NoTag(26);
+        output.writeUInt32NoTag(oHBPLEJNHBFMemoizedSerializedSize);
+      }
+      for (int i = 0; i < oHBPLEJNHBF_.size(); i++) {
+        output.writeUInt32NoTag(oHBPLEJNHBF_.getInt(i));
+      }
       if (getWinRoundListList().size() > 0) {
-        output.writeUInt32NoTag(10);
+        output.writeUInt32NoTag(42);
         output.writeUInt32NoTag(WinRoundListMemoizedSerializedSize);
       }
       for (int i = 0; i < WinRoundList_.size(); i++) {
         output.writeUInt32NoTag(WinRoundList_.getInt(i));
       }
       for (int i = 0; i < monsterList_.size(); i++) {
-        output.writeMessage(9, monsterList_.get(i));
-      }
-      if (getOHBPLEJNHBFList().size() > 0) {
-        output.writeUInt32NoTag(90);
-        output.writeUInt32NoTag(oHBPLEJNHBFMemoizedSerializedSize);
-      }
-      for (int i = 0; i < oHBPLEJNHBF_.size(); i++) {
-        output.writeUInt32NoTag(oHBPLEJNHBF_.getInt(i));
+        output.writeMessage(10, monsterList_.get(i));
       }
       if (timestamp_ != 0) {
-        output.writeUInt32(15, timestamp_);
+        output.writeUInt32(14, timestamp_);
       }
       unknownFields.writeTo(output);
     }
@@ -379,6 +379,20 @@ public final class _MonsterChessRecordInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      {
+        int dataSize = 0;
+        for (int i = 0; i < oHBPLEJNHBF_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeUInt32SizeNoTag(oHBPLEJNHBF_.getInt(i));
+        }
+        size += dataSize;
+        if (!getOHBPLEJNHBFList().isEmpty()) {
+          size += 1;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        oHBPLEJNHBFMemoizedSerializedSize = dataSize;
+      }
       {
         int dataSize = 0;
         for (int i = 0; i < WinRoundList_.size(); i++) {
@@ -395,25 +409,11 @@ public final class _MonsterChessRecordInfoOuterClass {
       }
       for (int i = 0; i < monsterList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, monsterList_.get(i));
-      }
-      {
-        int dataSize = 0;
-        for (int i = 0; i < oHBPLEJNHBF_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(oHBPLEJNHBF_.getInt(i));
-        }
-        size += dataSize;
-        if (!getOHBPLEJNHBFList().isEmpty()) {
-          size += 1;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        oHBPLEJNHBFMemoizedSerializedSize = dataSize;
+          .computeMessageSize(10, monsterList_.get(i));
       }
       if (timestamp_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, timestamp_);
+          .computeUInt32Size(14, timestamp_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -791,7 +791,7 @@ public final class _MonsterChessRecordInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 _win_round_list = 1;</code>
+       * <code>repeated uint32 _win_round_list = 5;</code>
        * @return A list containing the winRoundList.
        */
       public java.util.List<java.lang.Integer>
@@ -800,14 +800,14 @@ public final class _MonsterChessRecordInfoOuterClass {
                  java.util.Collections.unmodifiableList(WinRoundList_) : WinRoundList_;
       }
       /**
-       * <code>repeated uint32 _win_round_list = 1;</code>
+       * <code>repeated uint32 _win_round_list = 5;</code>
        * @return The count of winRoundList.
        */
       public int getWinRoundListCount() {
         return WinRoundList_.size();
       }
       /**
-       * <code>repeated uint32 _win_round_list = 1;</code>
+       * <code>repeated uint32 _win_round_list = 5;</code>
        * @param index The index of the element to return.
        * @return The winRoundList at the given index.
        */
@@ -815,7 +815,7 @@ public final class _MonsterChessRecordInfoOuterClass {
         return WinRoundList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 _win_round_list = 1;</code>
+       * <code>repeated uint32 _win_round_list = 5;</code>
        * @param index The index to set the value at.
        * @param value The winRoundList to set.
        * @return This builder for chaining.
@@ -828,7 +828,7 @@ public final class _MonsterChessRecordInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 _win_round_list = 1;</code>
+       * <code>repeated uint32 _win_round_list = 5;</code>
        * @param value The winRoundList to add.
        * @return This builder for chaining.
        */
@@ -839,7 +839,7 @@ public final class _MonsterChessRecordInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 _win_round_list = 1;</code>
+       * <code>repeated uint32 _win_round_list = 5;</code>
        * @param values The winRoundList to add.
        * @return This builder for chaining.
        */
@@ -852,7 +852,7 @@ public final class _MonsterChessRecordInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 _win_round_list = 1;</code>
+       * <code>repeated uint32 _win_round_list = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearWinRoundList() {
@@ -875,7 +875,7 @@ public final class _MonsterChessRecordInfoOuterClass {
           emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail, emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail.Builder, emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetailOrBuilder> monsterListBuilder_;
 
       /**
-       * <code>repeated ._MonsterChessCardDetail monster_list = 9;</code>
+       * <code>repeated ._MonsterChessCardDetail monster_list = 10;</code>
        */
       public java.util.List<emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail> getMonsterListList() {
         if (monsterListBuilder_ == null) {
@@ -885,7 +885,7 @@ public final class _MonsterChessRecordInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._MonsterChessCardDetail monster_list = 9;</code>
+       * <code>repeated ._MonsterChessCardDetail monster_list = 10;</code>
        */
       public int getMonsterListCount() {
         if (monsterListBuilder_ == null) {
@@ -895,7 +895,7 @@ public final class _MonsterChessRecordInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._MonsterChessCardDetail monster_list = 9;</code>
+       * <code>repeated ._MonsterChessCardDetail monster_list = 10;</code>
        */
       public emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail getMonsterList(int index) {
         if (monsterListBuilder_ == null) {
@@ -905,7 +905,7 @@ public final class _MonsterChessRecordInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._MonsterChessCardDetail monster_list = 9;</code>
+       * <code>repeated ._MonsterChessCardDetail monster_list = 10;</code>
        */
       public Builder setMonsterList(
           int index, emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail value) {
@@ -922,7 +922,7 @@ public final class _MonsterChessRecordInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._MonsterChessCardDetail monster_list = 9;</code>
+       * <code>repeated ._MonsterChessCardDetail monster_list = 10;</code>
        */
       public Builder setMonsterList(
           int index, emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail.Builder builderForValue) {
@@ -936,7 +936,7 @@ public final class _MonsterChessRecordInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._MonsterChessCardDetail monster_list = 9;</code>
+       * <code>repeated ._MonsterChessCardDetail monster_list = 10;</code>
        */
       public Builder addMonsterList(emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail value) {
         if (monsterListBuilder_ == null) {
@@ -952,7 +952,7 @@ public final class _MonsterChessRecordInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._MonsterChessCardDetail monster_list = 9;</code>
+       * <code>repeated ._MonsterChessCardDetail monster_list = 10;</code>
        */
       public Builder addMonsterList(
           int index, emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail value) {
@@ -969,7 +969,7 @@ public final class _MonsterChessRecordInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._MonsterChessCardDetail monster_list = 9;</code>
+       * <code>repeated ._MonsterChessCardDetail monster_list = 10;</code>
        */
       public Builder addMonsterList(
           emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail.Builder builderForValue) {
@@ -983,7 +983,7 @@ public final class _MonsterChessRecordInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._MonsterChessCardDetail monster_list = 9;</code>
+       * <code>repeated ._MonsterChessCardDetail monster_list = 10;</code>
        */
       public Builder addMonsterList(
           int index, emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail.Builder builderForValue) {
@@ -997,7 +997,7 @@ public final class _MonsterChessRecordInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._MonsterChessCardDetail monster_list = 9;</code>
+       * <code>repeated ._MonsterChessCardDetail monster_list = 10;</code>
        */
       public Builder addAllMonsterList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail> values) {
@@ -1012,7 +1012,7 @@ public final class _MonsterChessRecordInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._MonsterChessCardDetail monster_list = 9;</code>
+       * <code>repeated ._MonsterChessCardDetail monster_list = 10;</code>
        */
       public Builder clearMonsterList() {
         if (monsterListBuilder_ == null) {
@@ -1025,7 +1025,7 @@ public final class _MonsterChessRecordInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._MonsterChessCardDetail monster_list = 9;</code>
+       * <code>repeated ._MonsterChessCardDetail monster_list = 10;</code>
        */
       public Builder removeMonsterList(int index) {
         if (monsterListBuilder_ == null) {
@@ -1038,14 +1038,14 @@ public final class _MonsterChessRecordInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._MonsterChessCardDetail monster_list = 9;</code>
+       * <code>repeated ._MonsterChessCardDetail monster_list = 10;</code>
        */
       public emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail.Builder getMonsterListBuilder(
           int index) {
         return getMonsterListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated ._MonsterChessCardDetail monster_list = 9;</code>
+       * <code>repeated ._MonsterChessCardDetail monster_list = 10;</code>
        */
       public emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetailOrBuilder getMonsterListOrBuilder(
           int index) {
@@ -1055,7 +1055,7 @@ public final class _MonsterChessRecordInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._MonsterChessCardDetail monster_list = 9;</code>
+       * <code>repeated ._MonsterChessCardDetail monster_list = 10;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetailOrBuilder> 
            getMonsterListOrBuilderList() {
@@ -1066,14 +1066,14 @@ public final class _MonsterChessRecordInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._MonsterChessCardDetail monster_list = 9;</code>
+       * <code>repeated ._MonsterChessCardDetail monster_list = 10;</code>
        */
       public emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail.Builder addMonsterListBuilder() {
         return getMonsterListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail.getDefaultInstance());
       }
       /**
-       * <code>repeated ._MonsterChessCardDetail monster_list = 9;</code>
+       * <code>repeated ._MonsterChessCardDetail monster_list = 10;</code>
        */
       public emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail.Builder addMonsterListBuilder(
           int index) {
@@ -1081,7 +1081,7 @@ public final class _MonsterChessRecordInfoOuterClass {
             index, emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail.getDefaultInstance());
       }
       /**
-       * <code>repeated ._MonsterChessCardDetail monster_list = 9;</code>
+       * <code>repeated ._MonsterChessCardDetail monster_list = 10;</code>
        */
       public java.util.List<emu.grasscutter.net.proto._MonsterChessCardDetailOuterClass._MonsterChessCardDetail.Builder> 
            getMonsterListBuilderList() {
@@ -1110,7 +1110,7 @@ public final class _MonsterChessRecordInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 OHBPLEJNHBF = 11;</code>
+       * <code>repeated uint32 OHBPLEJNHBF = 3;</code>
        * @return A list containing the oHBPLEJNHBF.
        */
       public java.util.List<java.lang.Integer>
@@ -1119,14 +1119,14 @@ public final class _MonsterChessRecordInfoOuterClass {
                  java.util.Collections.unmodifiableList(oHBPLEJNHBF_) : oHBPLEJNHBF_;
       }
       /**
-       * <code>repeated uint32 OHBPLEJNHBF = 11;</code>
+       * <code>repeated uint32 OHBPLEJNHBF = 3;</code>
        * @return The count of oHBPLEJNHBF.
        */
       public int getOHBPLEJNHBFCount() {
         return oHBPLEJNHBF_.size();
       }
       /**
-       * <code>repeated uint32 OHBPLEJNHBF = 11;</code>
+       * <code>repeated uint32 OHBPLEJNHBF = 3;</code>
        * @param index The index of the element to return.
        * @return The oHBPLEJNHBF at the given index.
        */
@@ -1134,7 +1134,7 @@ public final class _MonsterChessRecordInfoOuterClass {
         return oHBPLEJNHBF_.getInt(index);
       }
       /**
-       * <code>repeated uint32 OHBPLEJNHBF = 11;</code>
+       * <code>repeated uint32 OHBPLEJNHBF = 3;</code>
        * @param index The index to set the value at.
        * @param value The oHBPLEJNHBF to set.
        * @return This builder for chaining.
@@ -1147,7 +1147,7 @@ public final class _MonsterChessRecordInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 OHBPLEJNHBF = 11;</code>
+       * <code>repeated uint32 OHBPLEJNHBF = 3;</code>
        * @param value The oHBPLEJNHBF to add.
        * @return This builder for chaining.
        */
@@ -1158,7 +1158,7 @@ public final class _MonsterChessRecordInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 OHBPLEJNHBF = 11;</code>
+       * <code>repeated uint32 OHBPLEJNHBF = 3;</code>
        * @param values The oHBPLEJNHBF to add.
        * @return This builder for chaining.
        */
@@ -1171,7 +1171,7 @@ public final class _MonsterChessRecordInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 OHBPLEJNHBF = 11;</code>
+       * <code>repeated uint32 OHBPLEJNHBF = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearOHBPLEJNHBF() {
@@ -1183,7 +1183,7 @@ public final class _MonsterChessRecordInfoOuterClass {
 
       private int timestamp_ ;
       /**
-       * <code>uint32 timestamp = 15;</code>
+       * <code>uint32 timestamp = 14;</code>
        * @return The timestamp.
        */
       @java.lang.Override
@@ -1191,7 +1191,7 @@ public final class _MonsterChessRecordInfoOuterClass {
         return timestamp_;
       }
       /**
-       * <code>uint32 timestamp = 15;</code>
+       * <code>uint32 timestamp = 14;</code>
        * @param value The timestamp to set.
        * @return This builder for chaining.
        */
@@ -1202,7 +1202,7 @@ public final class _MonsterChessRecordInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 timestamp = 15;</code>
+       * <code>uint32 timestamp = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearTimestamp() {
@@ -1280,9 +1280,9 @@ public final class _MonsterChessRecordInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\035_MonsterChessRecordInfo.proto\032\035_Monste" +
       "rChessCardDetail.proto\"\212\001\n\027_MonsterChess" +
-      "RecordInfo\022\027\n\017_win_round_list\030\001 \003(\r\022.\n\014m" +
-      "onster_list\030\t \003(\0132\030._MonsterChessCardDet" +
-      "ail\022\023\n\013OHBPLEJNHBF\030\013 \003(\r\022\021\n\ttimestamp\030\017 " +
+      "RecordInfo\022\027\n\017_win_round_list\030\005 \003(\r\022.\n\014m" +
+      "onster_list\030\n \003(\0132\030._MonsterChessCardDet" +
+      "ail\022\023\n\013OHBPLEJNHBF\030\003 \003(\r\022\021\n\ttimestamp\030\016 " +
       "\001(\rB>\n\031emu.grasscutter.net.protoB!_Monst" +
       "erChessRecordInfoOuterClassb\006proto3"
     };

@@ -6,10 +6,10 @@ option java_outer_classname = "GetAllMailResultNotifyOuterClass";
 import "MailData.proto";
 
 message GetAllMailResultNotify {
-	bool is_collected = 2;
-	repeated MailData mail_list = 5;
-	int32 retcode = 6;
-	string transaction = 7;
-	uint32 page_index = 8;
-	uint32 total_page_count = 10;
+	bool is_collected = 3;
+	repeated MailData mail_list = 10;
+	int32 retcode = 2;
+	string transaction = 9;
+	uint32 page_index = 50000;
+	uint32 total_page_count = 50001;
 }

@@ -6,6 +6,6 @@ option java_outer_classname = "HomeResourceNotifyOuterClass";
 import "HomeResource.proto";
 
 message HomeResourceNotify {
-	HomeResource home_coin = 3;
-	HomeResource fetter_exp = 7;
+	HomeResource home_coin = 50000;
+	HomeResource fetter_exp = 50001;
 }

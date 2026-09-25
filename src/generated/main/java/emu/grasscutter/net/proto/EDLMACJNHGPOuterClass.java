@@ -19,88 +19,88 @@ public final class EDLMACJNHGPOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>string _xbox_gamertag = 1;</code>
+     * <code>string _xbox_gamertag = 10;</code>
      * @return The xboxGamertag.
      */
     java.lang.String getXboxGamertag();
     /**
-     * <code>string _xbox_gamertag = 1;</code>
+     * <code>string _xbox_gamertag = 10;</code>
      * @return The bytes for xboxGamertag.
      */
     com.google.protobuf.ByteString
         getXboxGamertagBytes();
 
     /**
-     * <code>string _creator_online_id = 2;</code>
+     * <code>string _creator_online_id = 13;</code>
      * @return The creatorOnlineId.
      */
     java.lang.String getCreatorOnlineId();
     /**
-     * <code>string _creator_online_id = 2;</code>
+     * <code>string _creator_online_id = 13;</code>
      * @return The bytes for creatorOnlineId.
      */
     com.google.protobuf.ByteString
         getCreatorOnlineIdBytes();
 
     /**
-     * <code>string psn_id = 8;</code>
+     * <code>string psn_id = 6;</code>
      * @return The psnId.
      */
     java.lang.String getPsnId();
     /**
-     * <code>string psn_id = 8;</code>
+     * <code>string psn_id = 6;</code>
      * @return The bytes for psnId.
      */
     com.google.protobuf.ByteString
         getPsnIdBytes();
 
     /**
-     * <code>string nickname = 10;</code>
+     * <code>string nickname = 2;</code>
      * @return The nickname.
      */
     java.lang.String getNickname();
     /**
-     * <code>string nickname = 10;</code>
+     * <code>string nickname = 2;</code>
      * @return The bytes for nickname.
      */
     com.google.protobuf.ByteString
         getNicknameBytes();
 
     /**
-     * <code>.ProfilePicture profile_picture = 12;</code>
+     * <code>.ProfilePicture profile_picture = 5;</code>
      * @return Whether the profilePicture field is set.
      */
     boolean hasProfilePicture();
     /**
-     * <code>.ProfilePicture profile_picture = 12;</code>
+     * <code>.ProfilePicture profile_picture = 5;</code>
      * @return The profilePicture.
      */
     emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture getProfilePicture();
     /**
-     * <code>.ProfilePicture profile_picture = 12;</code>
+     * <code>.ProfilePicture profile_picture = 5;</code>
      */
     emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePictureOrBuilder getProfilePictureOrBuilder();
 
     /**
-     * <code>fixed64 LPGBINFHLJD = 13;</code>
+     * <code>fixed64 LPGBINFHLJD = 15;</code>
      * @return The lPGBINFHLJD.
      */
     long getLPGBINFHLJD();
 
     /**
-     * <code>string _xuid = 14;</code>
+     * <code>string _xuid = 7;</code>
      * @return The xuid.
      */
     java.lang.String getXuid();
     /**
-     * <code>string _xuid = 14;</code>
+     * <code>string _xuid = 7;</code>
      * @return The bytes for xuid.
      */
     com.google.protobuf.ByteString
         getXuidBytes();
 
     /**
-     * <code>uint32 uid = 15;</code>
+     * <code>uint32 uid = 12;</code>
      * @return The uid.
      */
     int getUid();
@@ -155,31 +155,13 @@ public final class EDLMACJNHGPOuterClass {
             case 0:
               done = true;
               break;
-            case 10: {
-              java.lang.String s = input.readStringRequireUtf8();
-
-              XboxGamertag_ = s;
-              break;
-            }
             case 18: {
-              java.lang.String s = input.readStringRequireUtf8();
-
-              CreatorOnlineId_ = s;
-              break;
-            }
-            case 66: {
-              java.lang.String s = input.readStringRequireUtf8();
-
-              psnId_ = s;
-              break;
-            }
-            case 82: {
               java.lang.String s = input.readStringRequireUtf8();
 
               nickname_ = s;
               break;
             }
-            case 98: {
+            case 42: {
               emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture.Builder subBuilder = null;
               if (profilePicture_ != null) {
                 subBuilder = profilePicture_.toBuilder();
@@ -192,20 +174,38 @@ public final class EDLMACJNHGPOuterClass {
 
               break;
             }
-            case 105: {
+            case 50: {
+              java.lang.String s = input.readStringRequireUtf8();
 
-              lPGBINFHLJD_ = input.readFixed64();
+              psnId_ = s;
               break;
             }
-            case 114: {
+            case 58: {
               java.lang.String s = input.readStringRequireUtf8();
 
               Xuid_ = s;
               break;
             }
-            case 120: {
+            case 82: {
+              java.lang.String s = input.readStringRequireUtf8();
+
+              XboxGamertag_ = s;
+              break;
+            }
+            case 96: {
 
               uid_ = input.readUInt32();
+              break;
+            }
+            case 106: {
+              java.lang.String s = input.readStringRequireUtf8();
+
+              CreatorOnlineId_ = s;
+              break;
+            }
+            case 121: {
+
+              lPGBINFHLJD_ = input.readFixed64();
               break;
             }
             default: {
@@ -240,10 +240,10 @@ public final class EDLMACJNHGPOuterClass {
               emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGP.class, emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGP.Builder.class);
     }
 
-    public static final int _XBOX_GAMERTAG_FIELD_NUMBER = 1;
+    public static final int _XBOX_GAMERTAG_FIELD_NUMBER = 10;
     private volatile java.lang.Object XboxGamertag_;
     /**
-     * <code>string _xbox_gamertag = 1;</code>
+     * <code>string _xbox_gamertag = 10;</code>
      * @return The xboxGamertag.
      */
     @java.lang.Override
@@ -260,7 +260,7 @@ public final class EDLMACJNHGPOuterClass {
       }
     }
     /**
-     * <code>string _xbox_gamertag = 1;</code>
+     * <code>string _xbox_gamertag = 10;</code>
      * @return The bytes for xboxGamertag.
      */
     @java.lang.Override
@@ -278,10 +278,10 @@ public final class EDLMACJNHGPOuterClass {
       }
     }
 
-    public static final int _CREATOR_ONLINE_ID_FIELD_NUMBER = 2;
+    public static final int _CREATOR_ONLINE_ID_FIELD_NUMBER = 13;
     private volatile java.lang.Object CreatorOnlineId_;
     /**
-     * <code>string _creator_online_id = 2;</code>
+     * <code>string _creator_online_id = 13;</code>
      * @return The creatorOnlineId.
      */
     @java.lang.Override
@@ -298,7 +298,7 @@ public final class EDLMACJNHGPOuterClass {
       }
     }
     /**
-     * <code>string _creator_online_id = 2;</code>
+     * <code>string _creator_online_id = 13;</code>
      * @return The bytes for creatorOnlineId.
      */
     @java.lang.Override
@@ -316,10 +316,10 @@ public final class EDLMACJNHGPOuterClass {
       }
     }
 
-    public static final int PSN_ID_FIELD_NUMBER = 8;
+    public static final int PSN_ID_FIELD_NUMBER = 6;
     private volatile java.lang.Object psnId_;
     /**
-     * <code>string psn_id = 8;</code>
+     * <code>string psn_id = 6;</code>
      * @return The psnId.
      */
     @java.lang.Override
@@ -336,7 +336,7 @@ public final class EDLMACJNHGPOuterClass {
       }
     }
     /**
-     * <code>string psn_id = 8;</code>
+     * <code>string psn_id = 6;</code>
      * @return The bytes for psnId.
      */
     @java.lang.Override
@@ -354,10 +354,10 @@ public final class EDLMACJNHGPOuterClass {
       }
     }
 
-    public static final int NICKNAME_FIELD_NUMBER = 10;
+    public static final int NICKNAME_FIELD_NUMBER = 2;
     private volatile java.lang.Object nickname_;
     /**
-     * <code>string nickname = 10;</code>
+     * <code>string nickname = 2;</code>
      * @return The nickname.
      */
     @java.lang.Override
@@ -374,7 +374,7 @@ public final class EDLMACJNHGPOuterClass {
       }
     }
     /**
-     * <code>string nickname = 10;</code>
+     * <code>string nickname = 2;</code>
      * @return The bytes for nickname.
      */
     @java.lang.Override
@@ -392,10 +392,10 @@ public final class EDLMACJNHGPOuterClass {
       }
     }
 
-    public static final int PROFILE_PICTURE_FIELD_NUMBER = 12;
+    public static final int PROFILE_PICTURE_FIELD_NUMBER = 5;
     private emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture profilePicture_;
     /**
-     * <code>.ProfilePicture profile_picture = 12;</code>
+     * <code>.ProfilePicture profile_picture = 5;</code>
      * @return Whether the profilePicture field is set.
      */
     @java.lang.Override
@@ -403,7 +403,7 @@ public final class EDLMACJNHGPOuterClass {
       return profilePicture_ != null;
     }
     /**
-     * <code>.ProfilePicture profile_picture = 12;</code>
+     * <code>.ProfilePicture profile_picture = 5;</code>
      * @return The profilePicture.
      */
     @java.lang.Override
@@ -411,17 +411,17 @@ public final class EDLMACJNHGPOuterClass {
       return profilePicture_ == null ? emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture.getDefaultInstance() : profilePicture_;
     }
     /**
-     * <code>.ProfilePicture profile_picture = 12;</code>
+     * <code>.ProfilePicture profile_picture = 5;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePictureOrBuilder getProfilePictureOrBuilder() {
       return getProfilePicture();
     }
 
-    public static final int LPGBINFHLJD_FIELD_NUMBER = 13;
+    public static final int LPGBINFHLJD_FIELD_NUMBER = 15;
     private long lPGBINFHLJD_;
     /**
-     * <code>fixed64 LPGBINFHLJD = 13;</code>
+     * <code>fixed64 LPGBINFHLJD = 15;</code>
      * @return The lPGBINFHLJD.
      */
     @java.lang.Override
@@ -429,10 +429,10 @@ public final class EDLMACJNHGPOuterClass {
       return lPGBINFHLJD_;
     }
 
-    public static final int _XUID_FIELD_NUMBER = 14;
+    public static final int _XUID_FIELD_NUMBER = 7;
     private volatile java.lang.Object Xuid_;
     /**
-     * <code>string _xuid = 14;</code>
+     * <code>string _xuid = 7;</code>
      * @return The xuid.
      */
     @java.lang.Override
@@ -449,7 +449,7 @@ public final class EDLMACJNHGPOuterClass {
       }
     }
     /**
-     * <code>string _xuid = 14;</code>
+     * <code>string _xuid = 7;</code>
      * @return The bytes for xuid.
      */
     @java.lang.Override
@@ -467,10 +467,10 @@ public final class EDLMACJNHGPOuterClass {
       }
     }
 
-    public static final int UID_FIELD_NUMBER = 15;
+    public static final int UID_FIELD_NUMBER = 12;
     private int uid_;
     /**
-     * <code>uint32 uid = 15;</code>
+     * <code>uint32 uid = 12;</code>
      * @return The uid.
      */
     @java.lang.Override
@@ -492,29 +492,29 @@ public final class EDLMACJNHGPOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(XboxGamertag_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 1, XboxGamertag_);
-      }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(CreatorOnlineId_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 2, CreatorOnlineId_);
-      }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(psnId_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 8, psnId_);
-      }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(nickname_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 10, nickname_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 2, nickname_);
       }
       if (profilePicture_ != null) {
-        output.writeMessage(12, getProfilePicture());
+        output.writeMessage(5, getProfilePicture());
       }
-      if (lPGBINFHLJD_ != 0L) {
-        output.writeFixed64(13, lPGBINFHLJD_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(psnId_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 6, psnId_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(Xuid_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 14, Xuid_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 7, Xuid_);
+      }
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(XboxGamertag_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 10, XboxGamertag_);
       }
       if (uid_ != 0) {
-        output.writeUInt32(15, uid_);
+        output.writeUInt32(12, uid_);
+      }
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(CreatorOnlineId_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 13, CreatorOnlineId_);
+      }
+      if (lPGBINFHLJD_ != 0L) {
+        output.writeFixed64(15, lPGBINFHLJD_);
       }
       unknownFields.writeTo(output);
     }
@@ -525,32 +525,32 @@ public final class EDLMACJNHGPOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(XboxGamertag_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1, XboxGamertag_);
-      }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(CreatorOnlineId_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(2, CreatorOnlineId_);
-      }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(psnId_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(8, psnId_);
-      }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(nickname_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(10, nickname_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(2, nickname_);
       }
       if (profilePicture_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, getProfilePicture());
+          .computeMessageSize(5, getProfilePicture());
       }
-      if (lPGBINFHLJD_ != 0L) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeFixed64Size(13, lPGBINFHLJD_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(psnId_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(6, psnId_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(Xuid_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(14, Xuid_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(7, Xuid_);
+      }
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(XboxGamertag_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(10, XboxGamertag_);
       }
       if (uid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, uid_);
+          .computeUInt32Size(12, uid_);
+      }
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(CreatorOnlineId_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(13, CreatorOnlineId_);
+      }
+      if (lPGBINFHLJD_ != 0L) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeFixed64Size(15, lPGBINFHLJD_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -915,7 +915,7 @@ public final class EDLMACJNHGPOuterClass {
 
       private java.lang.Object XboxGamertag_ = "";
       /**
-       * <code>string _xbox_gamertag = 1;</code>
+       * <code>string _xbox_gamertag = 10;</code>
        * @return The xboxGamertag.
        */
       public java.lang.String getXboxGamertag() {
@@ -931,7 +931,7 @@ public final class EDLMACJNHGPOuterClass {
         }
       }
       /**
-       * <code>string _xbox_gamertag = 1;</code>
+       * <code>string _xbox_gamertag = 10;</code>
        * @return The bytes for xboxGamertag.
        */
       public com.google.protobuf.ByteString
@@ -948,7 +948,7 @@ public final class EDLMACJNHGPOuterClass {
         }
       }
       /**
-       * <code>string _xbox_gamertag = 1;</code>
+       * <code>string _xbox_gamertag = 10;</code>
        * @param value The xboxGamertag to set.
        * @return This builder for chaining.
        */
@@ -963,7 +963,7 @@ public final class EDLMACJNHGPOuterClass {
         return this;
       }
       /**
-       * <code>string _xbox_gamertag = 1;</code>
+       * <code>string _xbox_gamertag = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearXboxGamertag() {
@@ -973,7 +973,7 @@ public final class EDLMACJNHGPOuterClass {
         return this;
       }
       /**
-       * <code>string _xbox_gamertag = 1;</code>
+       * <code>string _xbox_gamertag = 10;</code>
        * @param value The bytes for xboxGamertag to set.
        * @return This builder for chaining.
        */
@@ -991,7 +991,7 @@ public final class EDLMACJNHGPOuterClass {
 
       private java.lang.Object CreatorOnlineId_ = "";
       /**
-       * <code>string _creator_online_id = 2;</code>
+       * <code>string _creator_online_id = 13;</code>
        * @return The creatorOnlineId.
        */
       public java.lang.String getCreatorOnlineId() {
@@ -1007,7 +1007,7 @@ public final class EDLMACJNHGPOuterClass {
         }
       }
       /**
-       * <code>string _creator_online_id = 2;</code>
+       * <code>string _creator_online_id = 13;</code>
        * @return The bytes for creatorOnlineId.
        */
       public com.google.protobuf.ByteString
@@ -1024,7 +1024,7 @@ public final class EDLMACJNHGPOuterClass {
         }
       }
       /**
-       * <code>string _creator_online_id = 2;</code>
+       * <code>string _creator_online_id = 13;</code>
        * @param value The creatorOnlineId to set.
        * @return This builder for chaining.
        */
@@ -1039,7 +1039,7 @@ public final class EDLMACJNHGPOuterClass {
         return this;
       }
       /**
-       * <code>string _creator_online_id = 2;</code>
+       * <code>string _creator_online_id = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearCreatorOnlineId() {
@@ -1049,7 +1049,7 @@ public final class EDLMACJNHGPOuterClass {
         return this;
       }
       /**
-       * <code>string _creator_online_id = 2;</code>
+       * <code>string _creator_online_id = 13;</code>
        * @param value The bytes for creatorOnlineId to set.
        * @return This builder for chaining.
        */
@@ -1067,7 +1067,7 @@ public final class EDLMACJNHGPOuterClass {
 
       private java.lang.Object psnId_ = "";
       /**
-       * <code>string psn_id = 8;</code>
+       * <code>string psn_id = 6;</code>
        * @return The psnId.
        */
       public java.lang.String getPsnId() {
@@ -1083,7 +1083,7 @@ public final class EDLMACJNHGPOuterClass {
         }
       }
       /**
-       * <code>string psn_id = 8;</code>
+       * <code>string psn_id = 6;</code>
        * @return The bytes for psnId.
        */
       public com.google.protobuf.ByteString
@@ -1100,7 +1100,7 @@ public final class EDLMACJNHGPOuterClass {
         }
       }
       /**
-       * <code>string psn_id = 8;</code>
+       * <code>string psn_id = 6;</code>
        * @param value The psnId to set.
        * @return This builder for chaining.
        */
@@ -1115,7 +1115,7 @@ public final class EDLMACJNHGPOuterClass {
         return this;
       }
       /**
-       * <code>string psn_id = 8;</code>
+       * <code>string psn_id = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearPsnId() {
@@ -1125,7 +1125,7 @@ public final class EDLMACJNHGPOuterClass {
         return this;
       }
       /**
-       * <code>string psn_id = 8;</code>
+       * <code>string psn_id = 6;</code>
        * @param value The bytes for psnId to set.
        * @return This builder for chaining.
        */
@@ -1143,7 +1143,7 @@ public final class EDLMACJNHGPOuterClass {
 
       private java.lang.Object nickname_ = "";
       /**
-       * <code>string nickname = 10;</code>
+       * <code>string nickname = 2;</code>
        * @return The nickname.
        */
       public java.lang.String getNickname() {
@@ -1159,7 +1159,7 @@ public final class EDLMACJNHGPOuterClass {
         }
       }
       /**
-       * <code>string nickname = 10;</code>
+       * <code>string nickname = 2;</code>
        * @return The bytes for nickname.
        */
       public com.google.protobuf.ByteString
@@ -1176,7 +1176,7 @@ public final class EDLMACJNHGPOuterClass {
         }
       }
       /**
-       * <code>string nickname = 10;</code>
+       * <code>string nickname = 2;</code>
        * @param value The nickname to set.
        * @return This builder for chaining.
        */
@@ -1191,7 +1191,7 @@ public final class EDLMACJNHGPOuterClass {
         return this;
       }
       /**
-       * <code>string nickname = 10;</code>
+       * <code>string nickname = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearNickname() {
@@ -1201,7 +1201,7 @@ public final class EDLMACJNHGPOuterClass {
         return this;
       }
       /**
-       * <code>string nickname = 10;</code>
+       * <code>string nickname = 2;</code>
        * @param value The bytes for nickname to set.
        * @return This builder for chaining.
        */
@@ -1221,14 +1221,14 @@ public final class EDLMACJNHGPOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture, emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture.Builder, emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePictureOrBuilder> profilePictureBuilder_;
       /**
-       * <code>.ProfilePicture profile_picture = 12;</code>
+       * <code>.ProfilePicture profile_picture = 5;</code>
        * @return Whether the profilePicture field is set.
        */
       public boolean hasProfilePicture() {
         return profilePictureBuilder_ != null || profilePicture_ != null;
       }
       /**
-       * <code>.ProfilePicture profile_picture = 12;</code>
+       * <code>.ProfilePicture profile_picture = 5;</code>
        * @return The profilePicture.
        */
       public emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture getProfilePicture() {
@@ -1239,7 +1239,7 @@ public final class EDLMACJNHGPOuterClass {
         }
       }
       /**
-       * <code>.ProfilePicture profile_picture = 12;</code>
+       * <code>.ProfilePicture profile_picture = 5;</code>
        */
       public Builder setProfilePicture(emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture value) {
         if (profilePictureBuilder_ == null) {
@@ -1255,7 +1255,7 @@ public final class EDLMACJNHGPOuterClass {
         return this;
       }
       /**
-       * <code>.ProfilePicture profile_picture = 12;</code>
+       * <code>.ProfilePicture profile_picture = 5;</code>
        */
       public Builder setProfilePicture(
           emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture.Builder builderForValue) {
@@ -1269,7 +1269,7 @@ public final class EDLMACJNHGPOuterClass {
         return this;
       }
       /**
-       * <code>.ProfilePicture profile_picture = 12;</code>
+       * <code>.ProfilePicture profile_picture = 5;</code>
        */
       public Builder mergeProfilePicture(emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture value) {
         if (profilePictureBuilder_ == null) {
@@ -1287,7 +1287,7 @@ public final class EDLMACJNHGPOuterClass {
         return this;
       }
       /**
-       * <code>.ProfilePicture profile_picture = 12;</code>
+       * <code>.ProfilePicture profile_picture = 5;</code>
        */
       public Builder clearProfilePicture() {
         if (profilePictureBuilder_ == null) {
@@ -1301,7 +1301,7 @@ public final class EDLMACJNHGPOuterClass {
         return this;
       }
       /**
-       * <code>.ProfilePicture profile_picture = 12;</code>
+       * <code>.ProfilePicture profile_picture = 5;</code>
        */
       public emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture.Builder getProfilePictureBuilder() {
         
@@ -1309,7 +1309,7 @@ public final class EDLMACJNHGPOuterClass {
         return getProfilePictureFieldBuilder().getBuilder();
       }
       /**
-       * <code>.ProfilePicture profile_picture = 12;</code>
+       * <code>.ProfilePicture profile_picture = 5;</code>
        */
       public emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePictureOrBuilder getProfilePictureOrBuilder() {
         if (profilePictureBuilder_ != null) {
@@ -1320,7 +1320,7 @@ public final class EDLMACJNHGPOuterClass {
         }
       }
       /**
-       * <code>.ProfilePicture profile_picture = 12;</code>
+       * <code>.ProfilePicture profile_picture = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture, emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePicture.Builder, emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePictureOrBuilder> 
@@ -1338,7 +1338,7 @@ public final class EDLMACJNHGPOuterClass {
 
       private long lPGBINFHLJD_ ;
       /**
-       * <code>fixed64 LPGBINFHLJD = 13;</code>
+       * <code>fixed64 LPGBINFHLJD = 15;</code>
        * @return The lPGBINFHLJD.
        */
       @java.lang.Override
@@ -1346,7 +1346,7 @@ public final class EDLMACJNHGPOuterClass {
         return lPGBINFHLJD_;
       }
       /**
-       * <code>fixed64 LPGBINFHLJD = 13;</code>
+       * <code>fixed64 LPGBINFHLJD = 15;</code>
        * @param value The lPGBINFHLJD to set.
        * @return This builder for chaining.
        */
@@ -1357,7 +1357,7 @@ public final class EDLMACJNHGPOuterClass {
         return this;
       }
       /**
-       * <code>fixed64 LPGBINFHLJD = 13;</code>
+       * <code>fixed64 LPGBINFHLJD = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearLPGBINFHLJD() {
@@ -1369,7 +1369,7 @@ public final class EDLMACJNHGPOuterClass {
 
       private java.lang.Object Xuid_ = "";
       /**
-       * <code>string _xuid = 14;</code>
+       * <code>string _xuid = 7;</code>
        * @return The xuid.
        */
       public java.lang.String getXuid() {
@@ -1385,7 +1385,7 @@ public final class EDLMACJNHGPOuterClass {
         }
       }
       /**
-       * <code>string _xuid = 14;</code>
+       * <code>string _xuid = 7;</code>
        * @return The bytes for xuid.
        */
       public com.google.protobuf.ByteString
@@ -1402,7 +1402,7 @@ public final class EDLMACJNHGPOuterClass {
         }
       }
       /**
-       * <code>string _xuid = 14;</code>
+       * <code>string _xuid = 7;</code>
        * @param value The xuid to set.
        * @return This builder for chaining.
        */
@@ -1417,7 +1417,7 @@ public final class EDLMACJNHGPOuterClass {
         return this;
       }
       /**
-       * <code>string _xuid = 14;</code>
+       * <code>string _xuid = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearXuid() {
@@ -1427,7 +1427,7 @@ public final class EDLMACJNHGPOuterClass {
         return this;
       }
       /**
-       * <code>string _xuid = 14;</code>
+       * <code>string _xuid = 7;</code>
        * @param value The bytes for xuid to set.
        * @return This builder for chaining.
        */
@@ -1445,7 +1445,7 @@ public final class EDLMACJNHGPOuterClass {
 
       private int uid_ ;
       /**
-       * <code>uint32 uid = 15;</code>
+       * <code>uint32 uid = 12;</code>
        * @return The uid.
        */
       @java.lang.Override
@@ -1453,7 +1453,7 @@ public final class EDLMACJNHGPOuterClass {
         return uid_;
       }
       /**
-       * <code>uint32 uid = 15;</code>
+       * <code>uint32 uid = 12;</code>
        * @param value The uid to set.
        * @return This builder for chaining.
        */
@@ -1464,7 +1464,7 @@ public final class EDLMACJNHGPOuterClass {
         return this;
       }
       /**
-       * <code>uint32 uid = 15;</code>
+       * <code>uint32 uid = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearUid() {
@@ -1541,11 +1541,11 @@ public final class EDLMACJNHGPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021EDLMACJNHGP.proto\032\024ProfilePicture.prot" +
-      "o\"\276\001\n\013EDLMACJNHGP\022\026\n\016_xbox_gamertag\030\001 \001(" +
-      "\t\022\032\n\022_creator_online_id\030\002 \001(\t\022\016\n\006psn_id\030" +
-      "\010 \001(\t\022\020\n\010nickname\030\n \001(\t\022(\n\017profile_pictu" +
-      "re\030\014 \001(\0132\017.ProfilePicture\022\023\n\013LPGBINFHLJD" +
-      "\030\r \001(\006\022\r\n\005_xuid\030\016 \001(\t\022\013\n\003uid\030\017 \001(\rB2\n\031em" +
+      "o\"\276\001\n\013EDLMACJNHGP\022\026\n\016_xbox_gamertag\030\n \001(" +
+      "\t\022\032\n\022_creator_online_id\030\r \001(\t\022\016\n\006psn_id\030" +
+      "\006 \001(\t\022\020\n\010nickname\030\002 \001(\t\022(\n\017profile_pictu" +
+      "re\030\005 \001(\0132\017.ProfilePicture\022\023\n\013LPGBINFHLJD" +
+      "\030\017 \001(\006\022\r\n\005_xuid\030\007 \001(\t\022\013\n\003uid\030\014 \001(\rB2\n\031em" +
       "u.grasscutter.net.protoB\025EDLMACJNHGPOute" +
       "rClassb\006proto3"
     };

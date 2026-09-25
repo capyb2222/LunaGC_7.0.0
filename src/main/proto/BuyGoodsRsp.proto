@@ -6,9 +6,9 @@ option java_outer_classname = "BuyGoodsRspOuterClass";
 import "ShopGoods.proto";
 
 message BuyGoodsRsp {
-	int32 retcode = 5;
-	ShopGoods goods = 8;
-	uint32 buy_count = 9;
-	uint32 shop_type = 13;
-	repeated ShopGoods goods_list = 14;
+	int32 retcode = 4;
+	ShopGoods goods = 50000;
+	uint32 buy_count = 7;
+	uint32 shop_type = 15;
+	repeated ShopGoods goods_list = 5;
 }

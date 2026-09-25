@@ -4,12 +4,12 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "_TowerDefenseSettleInfoOuterClass";
 
 message _TowerDefenseSettleInfo {
-	uint32 _left_hp = 2;
-	bool is_new_record = 5;
-	uint32 kill_num = 6;
-	uint32 _succ_wave = 7;
-	uint32 level_id = 8;
-	bool is_succ = 11;
-	uint32 max_hp = 14;
-	uint32 _max_wave = 15;
+	uint32 _left_hp = 9;
+	bool is_new_record = 13;
+	uint32 kill_num = 15;
+	uint32 _succ_wave = 5;
+	uint32 level_id = 4;
+	bool is_succ = 2;
+	uint32 max_hp = 3;
+	uint32 _max_wave = 10;
 }

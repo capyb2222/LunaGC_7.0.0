@@ -19,31 +19,31 @@ public final class _GCGPveDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .LDGCGLKMJFO level_data_list = 7;</code>
+     * <code>repeated .LDGCGLKMJFO level_data_list = 4;</code>
      */
     java.util.List<emu.grasscutter.net.proto.LDGCGLKMJFOOuterClass.LDGCGLKMJFO> 
         getLevelDataListList();
     /**
-     * <code>repeated .LDGCGLKMJFO level_data_list = 7;</code>
+     * <code>repeated .LDGCGLKMJFO level_data_list = 4;</code>
      */
     emu.grasscutter.net.proto.LDGCGLKMJFOOuterClass.LDGCGLKMJFO getLevelDataList(int index);
     /**
-     * <code>repeated .LDGCGLKMJFO level_data_list = 7;</code>
+     * <code>repeated .LDGCGLKMJFO level_data_list = 4;</code>
      */
     int getLevelDataListCount();
     /**
-     * <code>repeated .LDGCGLKMJFO level_data_list = 7;</code>
+     * <code>repeated .LDGCGLKMJFO level_data_list = 4;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.LDGCGLKMJFOOuterClass.LDGCGLKMJFOOrBuilder> 
         getLevelDataListOrBuilderList();
     /**
-     * <code>repeated .LDGCGLKMJFO level_data_list = 7;</code>
+     * <code>repeated .LDGCGLKMJFO level_data_list = 4;</code>
      */
     emu.grasscutter.net.proto.LDGCGLKMJFOOuterClass.LDGCGLKMJFOOrBuilder getLevelDataListOrBuilder(
         int index);
 
     /**
-     * <code>bool LFAFBLMLCKG = 14;</code>
+     * <code>bool LFAFBLMLCKG = 1;</code>
      * @return The lFAFBLMLCKG.
      */
     boolean getLFAFBLMLCKG();
@@ -95,18 +95,18 @@ public final class _GCGPveDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 58: {
+            case 8: {
+
+              lFAFBLMLCKG_ = input.readBool();
+              break;
+            }
+            case 34: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 levelDataList_ = new java.util.ArrayList<emu.grasscutter.net.proto.LDGCGLKMJFOOuterClass.LDGCGLKMJFO>();
                 mutable_bitField0_ |= 0x00000001;
               }
               levelDataList_.add(
                   input.readMessage(emu.grasscutter.net.proto.LDGCGLKMJFOOuterClass.LDGCGLKMJFO.parser(), extensionRegistry));
-              break;
-            }
-            case 112: {
-
-              lFAFBLMLCKG_ = input.readBool();
               break;
             }
             default: {
@@ -144,17 +144,17 @@ public final class _GCGPveDetailInfoOuterClass {
               emu.grasscutter.net.proto._GCGPveDetailInfoOuterClass._GCGPveDetailInfo.class, emu.grasscutter.net.proto._GCGPveDetailInfoOuterClass._GCGPveDetailInfo.Builder.class);
     }
 
-    public static final int LEVEL_DATA_LIST_FIELD_NUMBER = 7;
+    public static final int LEVEL_DATA_LIST_FIELD_NUMBER = 4;
     private java.util.List<emu.grasscutter.net.proto.LDGCGLKMJFOOuterClass.LDGCGLKMJFO> levelDataList_;
     /**
-     * <code>repeated .LDGCGLKMJFO level_data_list = 7;</code>
+     * <code>repeated .LDGCGLKMJFO level_data_list = 4;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.LDGCGLKMJFOOuterClass.LDGCGLKMJFO> getLevelDataListList() {
       return levelDataList_;
     }
     /**
-     * <code>repeated .LDGCGLKMJFO level_data_list = 7;</code>
+     * <code>repeated .LDGCGLKMJFO level_data_list = 4;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.LDGCGLKMJFOOuterClass.LDGCGLKMJFOOrBuilder> 
@@ -162,21 +162,21 @@ public final class _GCGPveDetailInfoOuterClass {
       return levelDataList_;
     }
     /**
-     * <code>repeated .LDGCGLKMJFO level_data_list = 7;</code>
+     * <code>repeated .LDGCGLKMJFO level_data_list = 4;</code>
      */
     @java.lang.Override
     public int getLevelDataListCount() {
       return levelDataList_.size();
     }
     /**
-     * <code>repeated .LDGCGLKMJFO level_data_list = 7;</code>
+     * <code>repeated .LDGCGLKMJFO level_data_list = 4;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.LDGCGLKMJFOOuterClass.LDGCGLKMJFO getLevelDataList(int index) {
       return levelDataList_.get(index);
     }
     /**
-     * <code>repeated .LDGCGLKMJFO level_data_list = 7;</code>
+     * <code>repeated .LDGCGLKMJFO level_data_list = 4;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.LDGCGLKMJFOOuterClass.LDGCGLKMJFOOrBuilder getLevelDataListOrBuilder(
@@ -184,10 +184,10 @@ public final class _GCGPveDetailInfoOuterClass {
       return levelDataList_.get(index);
     }
 
-    public static final int LFAFBLMLCKG_FIELD_NUMBER = 14;
+    public static final int LFAFBLMLCKG_FIELD_NUMBER = 1;
     private boolean lFAFBLMLCKG_;
     /**
-     * <code>bool LFAFBLMLCKG = 14;</code>
+     * <code>bool LFAFBLMLCKG = 1;</code>
      * @return The lFAFBLMLCKG.
      */
     @java.lang.Override
@@ -209,11 +209,11 @@ public final class _GCGPveDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      for (int i = 0; i < levelDataList_.size(); i++) {
-        output.writeMessage(7, levelDataList_.get(i));
-      }
       if (lFAFBLMLCKG_ != false) {
-        output.writeBool(14, lFAFBLMLCKG_);
+        output.writeBool(1, lFAFBLMLCKG_);
+      }
+      for (int i = 0; i < levelDataList_.size(); i++) {
+        output.writeMessage(4, levelDataList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -224,13 +224,13 @@ public final class _GCGPveDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < levelDataList_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, levelDataList_.get(i));
-      }
       if (lFAFBLMLCKG_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(14, lFAFBLMLCKG_);
+          .computeBoolSize(1, lFAFBLMLCKG_);
+      }
+      for (int i = 0; i < levelDataList_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(4, levelDataList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -568,7 +568,7 @@ public final class _GCGPveDetailInfoOuterClass {
           emu.grasscutter.net.proto.LDGCGLKMJFOOuterClass.LDGCGLKMJFO, emu.grasscutter.net.proto.LDGCGLKMJFOOuterClass.LDGCGLKMJFO.Builder, emu.grasscutter.net.proto.LDGCGLKMJFOOuterClass.LDGCGLKMJFOOrBuilder> levelDataListBuilder_;
 
       /**
-       * <code>repeated .LDGCGLKMJFO level_data_list = 7;</code>
+       * <code>repeated .LDGCGLKMJFO level_data_list = 4;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.LDGCGLKMJFOOuterClass.LDGCGLKMJFO> getLevelDataListList() {
         if (levelDataListBuilder_ == null) {
@@ -578,7 +578,7 @@ public final class _GCGPveDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .LDGCGLKMJFO level_data_list = 7;</code>
+       * <code>repeated .LDGCGLKMJFO level_data_list = 4;</code>
        */
       public int getLevelDataListCount() {
         if (levelDataListBuilder_ == null) {
@@ -588,7 +588,7 @@ public final class _GCGPveDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .LDGCGLKMJFO level_data_list = 7;</code>
+       * <code>repeated .LDGCGLKMJFO level_data_list = 4;</code>
        */
       public emu.grasscutter.net.proto.LDGCGLKMJFOOuterClass.LDGCGLKMJFO getLevelDataList(int index) {
         if (levelDataListBuilder_ == null) {
@@ -598,7 +598,7 @@ public final class _GCGPveDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .LDGCGLKMJFO level_data_list = 7;</code>
+       * <code>repeated .LDGCGLKMJFO level_data_list = 4;</code>
        */
       public Builder setLevelDataList(
           int index, emu.grasscutter.net.proto.LDGCGLKMJFOOuterClass.LDGCGLKMJFO value) {
@@ -615,7 +615,7 @@ public final class _GCGPveDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LDGCGLKMJFO level_data_list = 7;</code>
+       * <code>repeated .LDGCGLKMJFO level_data_list = 4;</code>
        */
       public Builder setLevelDataList(
           int index, emu.grasscutter.net.proto.LDGCGLKMJFOOuterClass.LDGCGLKMJFO.Builder builderForValue) {
@@ -629,7 +629,7 @@ public final class _GCGPveDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LDGCGLKMJFO level_data_list = 7;</code>
+       * <code>repeated .LDGCGLKMJFO level_data_list = 4;</code>
        */
       public Builder addLevelDataList(emu.grasscutter.net.proto.LDGCGLKMJFOOuterClass.LDGCGLKMJFO value) {
         if (levelDataListBuilder_ == null) {
@@ -645,7 +645,7 @@ public final class _GCGPveDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LDGCGLKMJFO level_data_list = 7;</code>
+       * <code>repeated .LDGCGLKMJFO level_data_list = 4;</code>
        */
       public Builder addLevelDataList(
           int index, emu.grasscutter.net.proto.LDGCGLKMJFOOuterClass.LDGCGLKMJFO value) {
@@ -662,7 +662,7 @@ public final class _GCGPveDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LDGCGLKMJFO level_data_list = 7;</code>
+       * <code>repeated .LDGCGLKMJFO level_data_list = 4;</code>
        */
       public Builder addLevelDataList(
           emu.grasscutter.net.proto.LDGCGLKMJFOOuterClass.LDGCGLKMJFO.Builder builderForValue) {
@@ -676,7 +676,7 @@ public final class _GCGPveDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LDGCGLKMJFO level_data_list = 7;</code>
+       * <code>repeated .LDGCGLKMJFO level_data_list = 4;</code>
        */
       public Builder addLevelDataList(
           int index, emu.grasscutter.net.proto.LDGCGLKMJFOOuterClass.LDGCGLKMJFO.Builder builderForValue) {
@@ -690,7 +690,7 @@ public final class _GCGPveDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LDGCGLKMJFO level_data_list = 7;</code>
+       * <code>repeated .LDGCGLKMJFO level_data_list = 4;</code>
        */
       public Builder addAllLevelDataList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.LDGCGLKMJFOOuterClass.LDGCGLKMJFO> values) {
@@ -705,7 +705,7 @@ public final class _GCGPveDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LDGCGLKMJFO level_data_list = 7;</code>
+       * <code>repeated .LDGCGLKMJFO level_data_list = 4;</code>
        */
       public Builder clearLevelDataList() {
         if (levelDataListBuilder_ == null) {
@@ -718,7 +718,7 @@ public final class _GCGPveDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LDGCGLKMJFO level_data_list = 7;</code>
+       * <code>repeated .LDGCGLKMJFO level_data_list = 4;</code>
        */
       public Builder removeLevelDataList(int index) {
         if (levelDataListBuilder_ == null) {
@@ -731,14 +731,14 @@ public final class _GCGPveDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LDGCGLKMJFO level_data_list = 7;</code>
+       * <code>repeated .LDGCGLKMJFO level_data_list = 4;</code>
        */
       public emu.grasscutter.net.proto.LDGCGLKMJFOOuterClass.LDGCGLKMJFO.Builder getLevelDataListBuilder(
           int index) {
         return getLevelDataListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .LDGCGLKMJFO level_data_list = 7;</code>
+       * <code>repeated .LDGCGLKMJFO level_data_list = 4;</code>
        */
       public emu.grasscutter.net.proto.LDGCGLKMJFOOuterClass.LDGCGLKMJFOOrBuilder getLevelDataListOrBuilder(
           int index) {
@@ -748,7 +748,7 @@ public final class _GCGPveDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .LDGCGLKMJFO level_data_list = 7;</code>
+       * <code>repeated .LDGCGLKMJFO level_data_list = 4;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.LDGCGLKMJFOOuterClass.LDGCGLKMJFOOrBuilder> 
            getLevelDataListOrBuilderList() {
@@ -759,14 +759,14 @@ public final class _GCGPveDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .LDGCGLKMJFO level_data_list = 7;</code>
+       * <code>repeated .LDGCGLKMJFO level_data_list = 4;</code>
        */
       public emu.grasscutter.net.proto.LDGCGLKMJFOOuterClass.LDGCGLKMJFO.Builder addLevelDataListBuilder() {
         return getLevelDataListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.LDGCGLKMJFOOuterClass.LDGCGLKMJFO.getDefaultInstance());
       }
       /**
-       * <code>repeated .LDGCGLKMJFO level_data_list = 7;</code>
+       * <code>repeated .LDGCGLKMJFO level_data_list = 4;</code>
        */
       public emu.grasscutter.net.proto.LDGCGLKMJFOOuterClass.LDGCGLKMJFO.Builder addLevelDataListBuilder(
           int index) {
@@ -774,7 +774,7 @@ public final class _GCGPveDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.LDGCGLKMJFOOuterClass.LDGCGLKMJFO.getDefaultInstance());
       }
       /**
-       * <code>repeated .LDGCGLKMJFO level_data_list = 7;</code>
+       * <code>repeated .LDGCGLKMJFO level_data_list = 4;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.LDGCGLKMJFOOuterClass.LDGCGLKMJFO.Builder> 
            getLevelDataListBuilderList() {
@@ -797,7 +797,7 @@ public final class _GCGPveDetailInfoOuterClass {
 
       private boolean lFAFBLMLCKG_ ;
       /**
-       * <code>bool LFAFBLMLCKG = 14;</code>
+       * <code>bool LFAFBLMLCKG = 1;</code>
        * @return The lFAFBLMLCKG.
        */
       @java.lang.Override
@@ -805,7 +805,7 @@ public final class _GCGPveDetailInfoOuterClass {
         return lFAFBLMLCKG_;
       }
       /**
-       * <code>bool LFAFBLMLCKG = 14;</code>
+       * <code>bool LFAFBLMLCKG = 1;</code>
        * @param value The lFAFBLMLCKG to set.
        * @return This builder for chaining.
        */
@@ -816,7 +816,7 @@ public final class _GCGPveDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool LFAFBLMLCKG = 14;</code>
+       * <code>bool LFAFBLMLCKG = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearLFAFBLMLCKG() {
@@ -894,8 +894,8 @@ public final class _GCGPveDetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\027_GCGPveDetailInfo.proto\032\021LDGCGLKMJFO.p" +
       "roto\"O\n\021_GCGPveDetailInfo\022%\n\017level_data_" +
-      "list\030\007 \003(\0132\014.LDGCGLKMJFO\022\023\n\013LFAFBLMLCKG\030" +
-      "\016 \001(\010B8\n\031emu.grasscutter.net.protoB\033_GCG" +
+      "list\030\004 \003(\0132\014.LDGCGLKMJFO\022\023\n\013LFAFBLMLCKG\030" +
+      "\001 \001(\010B8\n\031emu.grasscutter.net.protoB\033_GCG" +
       "PveDetailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

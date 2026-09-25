@@ -6,5 +6,5 @@ option java_outer_classname = "GivingRecordNotifyOuterClass";
 import "GivingRecord.proto";
 
 message GivingRecordNotify {
-	repeated GivingRecord giving_record_list = 10;
+	repeated GivingRecord giving_record_list = 2;
 }

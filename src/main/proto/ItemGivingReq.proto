@@ -6,7 +6,7 @@ option java_outer_classname = "ItemGivingReqOuterClass";
 import "ItemParam.proto";
 
 message ItemGivingReq {
-	repeated ItemParam item_param_list = 6;
-	map<uint64, uint32> item_guid_count_map = 8;
-	uint32 giving_id = 10;
+	repeated ItemParam item_param_list = 4;
+	map<uint64, uint32> item_guid_count_map = 13;
+	uint32 giving_id = 14;
 }

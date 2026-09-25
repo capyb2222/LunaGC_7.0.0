@@ -4,5 +4,5 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "PlayerLevelRewardUpdateNotifyOuterClass";
 
 message PlayerLevelRewardUpdateNotify {
-	repeated uint32 level_list = 2;
+	repeated uint32 level_list = 13;
 }

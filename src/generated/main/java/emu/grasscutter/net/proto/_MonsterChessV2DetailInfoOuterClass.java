@@ -19,41 +19,41 @@ public final class _MonsterChessV2DetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 3;</code>
+     * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 9;</code>
      */
     java.util.List<emu.grasscutter.net.proto._MonsterChessV2RecordInfoOuterClass._MonsterChessV2RecordInfo> 
         getMonsterChessRecordInfoList();
     /**
-     * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 3;</code>
+     * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 9;</code>
      */
     emu.grasscutter.net.proto._MonsterChessV2RecordInfoOuterClass._MonsterChessV2RecordInfo getMonsterChessRecordInfo(int index);
     /**
-     * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 3;</code>
+     * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 9;</code>
      */
     int getMonsterChessRecordInfoCount();
     /**
-     * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 3;</code>
+     * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 9;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto._MonsterChessV2RecordInfoOuterClass._MonsterChessV2RecordInfoOrBuilder> 
         getMonsterChessRecordInfoOrBuilderList();
     /**
-     * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 3;</code>
+     * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 9;</code>
      */
     emu.grasscutter.net.proto._MonsterChessV2RecordInfoOuterClass._MonsterChessV2RecordInfoOrBuilder getMonsterChessRecordInfoOrBuilder(
         int index);
 
     /**
-     * <code>._MonsterChessV2CombatDetail _combat_detail = 12;</code>
+     * <code>._MonsterChessV2CombatDetail _combat_detail = 7;</code>
      * @return Whether the combatDetail field is set.
      */
     boolean hasCombatDetail();
     /**
-     * <code>._MonsterChessV2CombatDetail _combat_detail = 12;</code>
+     * <code>._MonsterChessV2CombatDetail _combat_detail = 7;</code>
      * @return The combatDetail.
      */
     emu.grasscutter.net.proto._MonsterChessV2CombatDetailOuterClass._MonsterChessV2CombatDetail getCombatDetail();
     /**
-     * <code>._MonsterChessV2CombatDetail _combat_detail = 12;</code>
+     * <code>._MonsterChessV2CombatDetail _combat_detail = 7;</code>
      */
     emu.grasscutter.net.proto._MonsterChessV2CombatDetailOuterClass._MonsterChessV2CombatDetailOrBuilder getCombatDetailOrBuilder();
   }
@@ -104,16 +104,7 @@ public final class _MonsterChessV2DetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 26: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                MonsterChessRecordInfo_ = new java.util.ArrayList<emu.grasscutter.net.proto._MonsterChessV2RecordInfoOuterClass._MonsterChessV2RecordInfo>();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              MonsterChessRecordInfo_.add(
-                  input.readMessage(emu.grasscutter.net.proto._MonsterChessV2RecordInfoOuterClass._MonsterChessV2RecordInfo.parser(), extensionRegistry));
-              break;
-            }
-            case 98: {
+            case 58: {
               emu.grasscutter.net.proto._MonsterChessV2CombatDetailOuterClass._MonsterChessV2CombatDetail.Builder subBuilder = null;
               if (CombatDetail_ != null) {
                 subBuilder = CombatDetail_.toBuilder();
@@ -124,6 +115,15 @@ public final class _MonsterChessV2DetailInfoOuterClass {
                 CombatDetail_ = subBuilder.buildPartial();
               }
 
+              break;
+            }
+            case 74: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                MonsterChessRecordInfo_ = new java.util.ArrayList<emu.grasscutter.net.proto._MonsterChessV2RecordInfoOuterClass._MonsterChessV2RecordInfo>();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              MonsterChessRecordInfo_.add(
+                  input.readMessage(emu.grasscutter.net.proto._MonsterChessV2RecordInfoOuterClass._MonsterChessV2RecordInfo.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -161,17 +161,17 @@ public final class _MonsterChessV2DetailInfoOuterClass {
               emu.grasscutter.net.proto._MonsterChessV2DetailInfoOuterClass._MonsterChessV2DetailInfo.class, emu.grasscutter.net.proto._MonsterChessV2DetailInfoOuterClass._MonsterChessV2DetailInfo.Builder.class);
     }
 
-    public static final int _MONSTER_CHESS_RECORD_INFO_FIELD_NUMBER = 3;
+    public static final int _MONSTER_CHESS_RECORD_INFO_FIELD_NUMBER = 9;
     private java.util.List<emu.grasscutter.net.proto._MonsterChessV2RecordInfoOuterClass._MonsterChessV2RecordInfo> MonsterChessRecordInfo_;
     /**
-     * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 3;</code>
+     * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 9;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto._MonsterChessV2RecordInfoOuterClass._MonsterChessV2RecordInfo> getMonsterChessRecordInfoList() {
       return MonsterChessRecordInfo_;
     }
     /**
-     * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 3;</code>
+     * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 9;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto._MonsterChessV2RecordInfoOuterClass._MonsterChessV2RecordInfoOrBuilder> 
@@ -179,21 +179,21 @@ public final class _MonsterChessV2DetailInfoOuterClass {
       return MonsterChessRecordInfo_;
     }
     /**
-     * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 3;</code>
+     * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 9;</code>
      */
     @java.lang.Override
     public int getMonsterChessRecordInfoCount() {
       return MonsterChessRecordInfo_.size();
     }
     /**
-     * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 3;</code>
+     * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 9;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._MonsterChessV2RecordInfoOuterClass._MonsterChessV2RecordInfo getMonsterChessRecordInfo(int index) {
       return MonsterChessRecordInfo_.get(index);
     }
     /**
-     * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 3;</code>
+     * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 9;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._MonsterChessV2RecordInfoOuterClass._MonsterChessV2RecordInfoOrBuilder getMonsterChessRecordInfoOrBuilder(
@@ -201,10 +201,10 @@ public final class _MonsterChessV2DetailInfoOuterClass {
       return MonsterChessRecordInfo_.get(index);
     }
 
-    public static final int _COMBAT_DETAIL_FIELD_NUMBER = 12;
+    public static final int _COMBAT_DETAIL_FIELD_NUMBER = 7;
     private emu.grasscutter.net.proto._MonsterChessV2CombatDetailOuterClass._MonsterChessV2CombatDetail CombatDetail_;
     /**
-     * <code>._MonsterChessV2CombatDetail _combat_detail = 12;</code>
+     * <code>._MonsterChessV2CombatDetail _combat_detail = 7;</code>
      * @return Whether the combatDetail field is set.
      */
     @java.lang.Override
@@ -212,7 +212,7 @@ public final class _MonsterChessV2DetailInfoOuterClass {
       return CombatDetail_ != null;
     }
     /**
-     * <code>._MonsterChessV2CombatDetail _combat_detail = 12;</code>
+     * <code>._MonsterChessV2CombatDetail _combat_detail = 7;</code>
      * @return The combatDetail.
      */
     @java.lang.Override
@@ -220,7 +220,7 @@ public final class _MonsterChessV2DetailInfoOuterClass {
       return CombatDetail_ == null ? emu.grasscutter.net.proto._MonsterChessV2CombatDetailOuterClass._MonsterChessV2CombatDetail.getDefaultInstance() : CombatDetail_;
     }
     /**
-     * <code>._MonsterChessV2CombatDetail _combat_detail = 12;</code>
+     * <code>._MonsterChessV2CombatDetail _combat_detail = 7;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._MonsterChessV2CombatDetailOuterClass._MonsterChessV2CombatDetailOrBuilder getCombatDetailOrBuilder() {
@@ -241,11 +241,11 @@ public final class _MonsterChessV2DetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      for (int i = 0; i < MonsterChessRecordInfo_.size(); i++) {
-        output.writeMessage(3, MonsterChessRecordInfo_.get(i));
-      }
       if (CombatDetail_ != null) {
-        output.writeMessage(12, getCombatDetail());
+        output.writeMessage(7, getCombatDetail());
+      }
+      for (int i = 0; i < MonsterChessRecordInfo_.size(); i++) {
+        output.writeMessage(9, MonsterChessRecordInfo_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -256,13 +256,13 @@ public final class _MonsterChessV2DetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < MonsterChessRecordInfo_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, MonsterChessRecordInfo_.get(i));
-      }
       if (CombatDetail_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, getCombatDetail());
+          .computeMessageSize(7, getCombatDetail());
+      }
+      for (int i = 0; i < MonsterChessRecordInfo_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(9, MonsterChessRecordInfo_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -612,7 +612,7 @@ public final class _MonsterChessV2DetailInfoOuterClass {
           emu.grasscutter.net.proto._MonsterChessV2RecordInfoOuterClass._MonsterChessV2RecordInfo, emu.grasscutter.net.proto._MonsterChessV2RecordInfoOuterClass._MonsterChessV2RecordInfo.Builder, emu.grasscutter.net.proto._MonsterChessV2RecordInfoOuterClass._MonsterChessV2RecordInfoOrBuilder> MonsterChessRecordInfoBuilder_;
 
       /**
-       * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 3;</code>
+       * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 9;</code>
        */
       public java.util.List<emu.grasscutter.net.proto._MonsterChessV2RecordInfoOuterClass._MonsterChessV2RecordInfo> getMonsterChessRecordInfoList() {
         if (MonsterChessRecordInfoBuilder_ == null) {
@@ -622,7 +622,7 @@ public final class _MonsterChessV2DetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 3;</code>
+       * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 9;</code>
        */
       public int getMonsterChessRecordInfoCount() {
         if (MonsterChessRecordInfoBuilder_ == null) {
@@ -632,7 +632,7 @@ public final class _MonsterChessV2DetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 3;</code>
+       * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 9;</code>
        */
       public emu.grasscutter.net.proto._MonsterChessV2RecordInfoOuterClass._MonsterChessV2RecordInfo getMonsterChessRecordInfo(int index) {
         if (MonsterChessRecordInfoBuilder_ == null) {
@@ -642,7 +642,7 @@ public final class _MonsterChessV2DetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 3;</code>
+       * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 9;</code>
        */
       public Builder setMonsterChessRecordInfo(
           int index, emu.grasscutter.net.proto._MonsterChessV2RecordInfoOuterClass._MonsterChessV2RecordInfo value) {
@@ -659,7 +659,7 @@ public final class _MonsterChessV2DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 3;</code>
+       * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 9;</code>
        */
       public Builder setMonsterChessRecordInfo(
           int index, emu.grasscutter.net.proto._MonsterChessV2RecordInfoOuterClass._MonsterChessV2RecordInfo.Builder builderForValue) {
@@ -673,7 +673,7 @@ public final class _MonsterChessV2DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 3;</code>
+       * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 9;</code>
        */
       public Builder addMonsterChessRecordInfo(emu.grasscutter.net.proto._MonsterChessV2RecordInfoOuterClass._MonsterChessV2RecordInfo value) {
         if (MonsterChessRecordInfoBuilder_ == null) {
@@ -689,7 +689,7 @@ public final class _MonsterChessV2DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 3;</code>
+       * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 9;</code>
        */
       public Builder addMonsterChessRecordInfo(
           int index, emu.grasscutter.net.proto._MonsterChessV2RecordInfoOuterClass._MonsterChessV2RecordInfo value) {
@@ -706,7 +706,7 @@ public final class _MonsterChessV2DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 3;</code>
+       * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 9;</code>
        */
       public Builder addMonsterChessRecordInfo(
           emu.grasscutter.net.proto._MonsterChessV2RecordInfoOuterClass._MonsterChessV2RecordInfo.Builder builderForValue) {
@@ -720,7 +720,7 @@ public final class _MonsterChessV2DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 3;</code>
+       * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 9;</code>
        */
       public Builder addMonsterChessRecordInfo(
           int index, emu.grasscutter.net.proto._MonsterChessV2RecordInfoOuterClass._MonsterChessV2RecordInfo.Builder builderForValue) {
@@ -734,7 +734,7 @@ public final class _MonsterChessV2DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 3;</code>
+       * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 9;</code>
        */
       public Builder addAllMonsterChessRecordInfo(
           java.lang.Iterable<? extends emu.grasscutter.net.proto._MonsterChessV2RecordInfoOuterClass._MonsterChessV2RecordInfo> values) {
@@ -749,7 +749,7 @@ public final class _MonsterChessV2DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 3;</code>
+       * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 9;</code>
        */
       public Builder clearMonsterChessRecordInfo() {
         if (MonsterChessRecordInfoBuilder_ == null) {
@@ -762,7 +762,7 @@ public final class _MonsterChessV2DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 3;</code>
+       * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 9;</code>
        */
       public Builder removeMonsterChessRecordInfo(int index) {
         if (MonsterChessRecordInfoBuilder_ == null) {
@@ -775,14 +775,14 @@ public final class _MonsterChessV2DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 3;</code>
+       * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 9;</code>
        */
       public emu.grasscutter.net.proto._MonsterChessV2RecordInfoOuterClass._MonsterChessV2RecordInfo.Builder getMonsterChessRecordInfoBuilder(
           int index) {
         return getMonsterChessRecordInfoFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 3;</code>
+       * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 9;</code>
        */
       public emu.grasscutter.net.proto._MonsterChessV2RecordInfoOuterClass._MonsterChessV2RecordInfoOrBuilder getMonsterChessRecordInfoOrBuilder(
           int index) {
@@ -792,7 +792,7 @@ public final class _MonsterChessV2DetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 3;</code>
+       * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 9;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto._MonsterChessV2RecordInfoOuterClass._MonsterChessV2RecordInfoOrBuilder> 
            getMonsterChessRecordInfoOrBuilderList() {
@@ -803,14 +803,14 @@ public final class _MonsterChessV2DetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 3;</code>
+       * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 9;</code>
        */
       public emu.grasscutter.net.proto._MonsterChessV2RecordInfoOuterClass._MonsterChessV2RecordInfo.Builder addMonsterChessRecordInfoBuilder() {
         return getMonsterChessRecordInfoFieldBuilder().addBuilder(
             emu.grasscutter.net.proto._MonsterChessV2RecordInfoOuterClass._MonsterChessV2RecordInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 3;</code>
+       * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 9;</code>
        */
       public emu.grasscutter.net.proto._MonsterChessV2RecordInfoOuterClass._MonsterChessV2RecordInfo.Builder addMonsterChessRecordInfoBuilder(
           int index) {
@@ -818,7 +818,7 @@ public final class _MonsterChessV2DetailInfoOuterClass {
             index, emu.grasscutter.net.proto._MonsterChessV2RecordInfoOuterClass._MonsterChessV2RecordInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 3;</code>
+       * <code>repeated ._MonsterChessV2RecordInfo _monster_chess_record_info = 9;</code>
        */
       public java.util.List<emu.grasscutter.net.proto._MonsterChessV2RecordInfoOuterClass._MonsterChessV2RecordInfo.Builder> 
            getMonsterChessRecordInfoBuilderList() {
@@ -843,14 +843,14 @@ public final class _MonsterChessV2DetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._MonsterChessV2CombatDetailOuterClass._MonsterChessV2CombatDetail, emu.grasscutter.net.proto._MonsterChessV2CombatDetailOuterClass._MonsterChessV2CombatDetail.Builder, emu.grasscutter.net.proto._MonsterChessV2CombatDetailOuterClass._MonsterChessV2CombatDetailOrBuilder> CombatDetailBuilder_;
       /**
-       * <code>._MonsterChessV2CombatDetail _combat_detail = 12;</code>
+       * <code>._MonsterChessV2CombatDetail _combat_detail = 7;</code>
        * @return Whether the combatDetail field is set.
        */
       public boolean hasCombatDetail() {
         return CombatDetailBuilder_ != null || CombatDetail_ != null;
       }
       /**
-       * <code>._MonsterChessV2CombatDetail _combat_detail = 12;</code>
+       * <code>._MonsterChessV2CombatDetail _combat_detail = 7;</code>
        * @return The combatDetail.
        */
       public emu.grasscutter.net.proto._MonsterChessV2CombatDetailOuterClass._MonsterChessV2CombatDetail getCombatDetail() {
@@ -861,7 +861,7 @@ public final class _MonsterChessV2DetailInfoOuterClass {
         }
       }
       /**
-       * <code>._MonsterChessV2CombatDetail _combat_detail = 12;</code>
+       * <code>._MonsterChessV2CombatDetail _combat_detail = 7;</code>
        */
       public Builder setCombatDetail(emu.grasscutter.net.proto._MonsterChessV2CombatDetailOuterClass._MonsterChessV2CombatDetail value) {
         if (CombatDetailBuilder_ == null) {
@@ -877,7 +877,7 @@ public final class _MonsterChessV2DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>._MonsterChessV2CombatDetail _combat_detail = 12;</code>
+       * <code>._MonsterChessV2CombatDetail _combat_detail = 7;</code>
        */
       public Builder setCombatDetail(
           emu.grasscutter.net.proto._MonsterChessV2CombatDetailOuterClass._MonsterChessV2CombatDetail.Builder builderForValue) {
@@ -891,7 +891,7 @@ public final class _MonsterChessV2DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>._MonsterChessV2CombatDetail _combat_detail = 12;</code>
+       * <code>._MonsterChessV2CombatDetail _combat_detail = 7;</code>
        */
       public Builder mergeCombatDetail(emu.grasscutter.net.proto._MonsterChessV2CombatDetailOuterClass._MonsterChessV2CombatDetail value) {
         if (CombatDetailBuilder_ == null) {
@@ -909,7 +909,7 @@ public final class _MonsterChessV2DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>._MonsterChessV2CombatDetail _combat_detail = 12;</code>
+       * <code>._MonsterChessV2CombatDetail _combat_detail = 7;</code>
        */
       public Builder clearCombatDetail() {
         if (CombatDetailBuilder_ == null) {
@@ -923,7 +923,7 @@ public final class _MonsterChessV2DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>._MonsterChessV2CombatDetail _combat_detail = 12;</code>
+       * <code>._MonsterChessV2CombatDetail _combat_detail = 7;</code>
        */
       public emu.grasscutter.net.proto._MonsterChessV2CombatDetailOuterClass._MonsterChessV2CombatDetail.Builder getCombatDetailBuilder() {
         
@@ -931,7 +931,7 @@ public final class _MonsterChessV2DetailInfoOuterClass {
         return getCombatDetailFieldBuilder().getBuilder();
       }
       /**
-       * <code>._MonsterChessV2CombatDetail _combat_detail = 12;</code>
+       * <code>._MonsterChessV2CombatDetail _combat_detail = 7;</code>
        */
       public emu.grasscutter.net.proto._MonsterChessV2CombatDetailOuterClass._MonsterChessV2CombatDetailOrBuilder getCombatDetailOrBuilder() {
         if (CombatDetailBuilder_ != null) {
@@ -942,7 +942,7 @@ public final class _MonsterChessV2DetailInfoOuterClass {
         }
       }
       /**
-       * <code>._MonsterChessV2CombatDetail _combat_detail = 12;</code>
+       * <code>._MonsterChessV2CombatDetail _combat_detail = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._MonsterChessV2CombatDetailOuterClass._MonsterChessV2CombatDetail, emu.grasscutter.net.proto._MonsterChessV2CombatDetailOuterClass._MonsterChessV2CombatDetail.Builder, emu.grasscutter.net.proto._MonsterChessV2CombatDetailOuterClass._MonsterChessV2CombatDetailOrBuilder> 
@@ -1028,8 +1028,8 @@ public final class _MonsterChessV2DetailInfoOuterClass {
       "terChessV2CombatDetail.proto\032\037_MonsterCh" +
       "essV2RecordInfo.proto\"\221\001\n\031_MonsterChessV" +
       "2DetailInfo\022>\n\032_monster_chess_record_inf" +
-      "o\030\003 \003(\0132\032._MonsterChessV2RecordInfo\0224\n\016_" +
-      "combat_detail\030\014 \001(\0132\034._MonsterChessV2Com" +
+      "o\030\t \003(\0132\032._MonsterChessV2RecordInfo\0224\n\016_" +
+      "combat_detail\030\007 \001(\0132\034._MonsterChessV2Com" +
       "batDetailB@\n\031emu.grasscutter.net.protoB#" +
       "_MonsterChessV2DetailInfoOuterClassb\006pro" +
       "to3"

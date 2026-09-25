@@ -19,13 +19,13 @@ public final class _PenumbraAdventureTargetShootingLevelInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 level_id = 3;</code>
+     * <code>uint32 level_id = 11;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>uint32 _max_combo_num = 7;</code>
+     * <code>uint32 _max_combo_num = 3;</code>
      * @return The maxComboNum.
      */
     int getMaxComboNum();
@@ -37,13 +37,13 @@ public final class _PenumbraAdventureTargetShootingLevelInfoOuterClass {
     int getMaxScore();
 
     /**
-     * <code>bool is_finish = 12;</code>
+     * <code>bool is_finish = 8;</code>
      * @return The isFinish.
      */
     boolean getIsFinish();
 
     /**
-     * <code>bool is_open = 13;</code>
+     * <code>bool is_open = 6;</code>
      * @return The isOpen.
      */
     boolean getIsOpen();
@@ -95,12 +95,17 @@ public final class _PenumbraAdventureTargetShootingLevelInfoOuterClass {
               break;
             case 24: {
 
-              levelId_ = input.readUInt32();
+              MaxComboNum_ = input.readUInt32();
               break;
             }
-            case 56: {
+            case 48: {
 
-              MaxComboNum_ = input.readUInt32();
+              isOpen_ = input.readBool();
+              break;
+            }
+            case 64: {
+
+              isFinish_ = input.readBool();
               break;
             }
             case 80: {
@@ -108,14 +113,9 @@ public final class _PenumbraAdventureTargetShootingLevelInfoOuterClass {
               maxScore_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 88: {
 
-              isFinish_ = input.readBool();
-              break;
-            }
-            case 104: {
-
-              isOpen_ = input.readBool();
+              levelId_ = input.readUInt32();
               break;
             }
             default: {
@@ -150,10 +150,10 @@ public final class _PenumbraAdventureTargetShootingLevelInfoOuterClass {
               emu.grasscutter.net.proto._PenumbraAdventureTargetShootingLevelInfoOuterClass._PenumbraAdventureTargetShootingLevelInfo.class, emu.grasscutter.net.proto._PenumbraAdventureTargetShootingLevelInfoOuterClass._PenumbraAdventureTargetShootingLevelInfo.Builder.class);
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 3;
+    public static final int LEVEL_ID_FIELD_NUMBER = 11;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 3;</code>
+     * <code>uint32 level_id = 11;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -161,10 +161,10 @@ public final class _PenumbraAdventureTargetShootingLevelInfoOuterClass {
       return levelId_;
     }
 
-    public static final int _MAX_COMBO_NUM_FIELD_NUMBER = 7;
+    public static final int _MAX_COMBO_NUM_FIELD_NUMBER = 3;
     private int MaxComboNum_;
     /**
-     * <code>uint32 _max_combo_num = 7;</code>
+     * <code>uint32 _max_combo_num = 3;</code>
      * @return The maxComboNum.
      */
     @java.lang.Override
@@ -183,10 +183,10 @@ public final class _PenumbraAdventureTargetShootingLevelInfoOuterClass {
       return maxScore_;
     }
 
-    public static final int IS_FINISH_FIELD_NUMBER = 12;
+    public static final int IS_FINISH_FIELD_NUMBER = 8;
     private boolean isFinish_;
     /**
-     * <code>bool is_finish = 12;</code>
+     * <code>bool is_finish = 8;</code>
      * @return The isFinish.
      */
     @java.lang.Override
@@ -194,10 +194,10 @@ public final class _PenumbraAdventureTargetShootingLevelInfoOuterClass {
       return isFinish_;
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 13;
+    public static final int IS_OPEN_FIELD_NUMBER = 6;
     private boolean isOpen_;
     /**
-     * <code>bool is_open = 13;</code>
+     * <code>bool is_open = 6;</code>
      * @return The isOpen.
      */
     @java.lang.Override
@@ -219,20 +219,20 @@ public final class _PenumbraAdventureTargetShootingLevelInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (levelId_ != 0) {
-        output.writeUInt32(3, levelId_);
-      }
       if (MaxComboNum_ != 0) {
-        output.writeUInt32(7, MaxComboNum_);
+        output.writeUInt32(3, MaxComboNum_);
+      }
+      if (isOpen_ != false) {
+        output.writeBool(6, isOpen_);
+      }
+      if (isFinish_ != false) {
+        output.writeBool(8, isFinish_);
       }
       if (maxScore_ != 0) {
         output.writeUInt32(10, maxScore_);
       }
-      if (isFinish_ != false) {
-        output.writeBool(12, isFinish_);
-      }
-      if (isOpen_ != false) {
-        output.writeBool(13, isOpen_);
+      if (levelId_ != 0) {
+        output.writeUInt32(11, levelId_);
       }
       unknownFields.writeTo(output);
     }
@@ -243,25 +243,25 @@ public final class _PenumbraAdventureTargetShootingLevelInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (levelId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, levelId_);
-      }
       if (MaxComboNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, MaxComboNum_);
+          .computeUInt32Size(3, MaxComboNum_);
+      }
+      if (isOpen_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(6, isOpen_);
+      }
+      if (isFinish_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(8, isFinish_);
       }
       if (maxScore_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(10, maxScore_);
       }
-      if (isFinish_ != false) {
+      if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, isFinish_);
-      }
-      if (isOpen_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(13, isOpen_);
+          .computeUInt32Size(11, levelId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -579,7 +579,7 @@ public final class _PenumbraAdventureTargetShootingLevelInfoOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 3;</code>
+       * <code>uint32 level_id = 11;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -587,7 +587,7 @@ public final class _PenumbraAdventureTargetShootingLevelInfoOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 3;</code>
+       * <code>uint32 level_id = 11;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -598,7 +598,7 @@ public final class _PenumbraAdventureTargetShootingLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 3;</code>
+       * <code>uint32 level_id = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -610,7 +610,7 @@ public final class _PenumbraAdventureTargetShootingLevelInfoOuterClass {
 
       private int MaxComboNum_ ;
       /**
-       * <code>uint32 _max_combo_num = 7;</code>
+       * <code>uint32 _max_combo_num = 3;</code>
        * @return The maxComboNum.
        */
       @java.lang.Override
@@ -618,7 +618,7 @@ public final class _PenumbraAdventureTargetShootingLevelInfoOuterClass {
         return MaxComboNum_;
       }
       /**
-       * <code>uint32 _max_combo_num = 7;</code>
+       * <code>uint32 _max_combo_num = 3;</code>
        * @param value The maxComboNum to set.
        * @return This builder for chaining.
        */
@@ -629,7 +629,7 @@ public final class _PenumbraAdventureTargetShootingLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 _max_combo_num = 7;</code>
+       * <code>uint32 _max_combo_num = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearMaxComboNum() {
@@ -672,7 +672,7 @@ public final class _PenumbraAdventureTargetShootingLevelInfoOuterClass {
 
       private boolean isFinish_ ;
       /**
-       * <code>bool is_finish = 12;</code>
+       * <code>bool is_finish = 8;</code>
        * @return The isFinish.
        */
       @java.lang.Override
@@ -680,7 +680,7 @@ public final class _PenumbraAdventureTargetShootingLevelInfoOuterClass {
         return isFinish_;
       }
       /**
-       * <code>bool is_finish = 12;</code>
+       * <code>bool is_finish = 8;</code>
        * @param value The isFinish to set.
        * @return This builder for chaining.
        */
@@ -691,7 +691,7 @@ public final class _PenumbraAdventureTargetShootingLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_finish = 12;</code>
+       * <code>bool is_finish = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsFinish() {
@@ -703,7 +703,7 @@ public final class _PenumbraAdventureTargetShootingLevelInfoOuterClass {
 
       private boolean isOpen_ ;
       /**
-       * <code>bool is_open = 13;</code>
+       * <code>bool is_open = 6;</code>
        * @return The isOpen.
        */
       @java.lang.Override
@@ -711,7 +711,7 @@ public final class _PenumbraAdventureTargetShootingLevelInfoOuterClass {
         return isOpen_;
       }
       /**
-       * <code>bool is_open = 13;</code>
+       * <code>bool is_open = 6;</code>
        * @param value The isOpen to set.
        * @return This builder for chaining.
        */
@@ -722,7 +722,7 @@ public final class _PenumbraAdventureTargetShootingLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_open = 13;</code>
+       * <code>bool is_open = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsOpen() {
@@ -800,9 +800,9 @@ public final class _PenumbraAdventureTargetShootingLevelInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n/_PenumbraAdventureTargetShootingLevelI" +
       "nfo.proto\"\214\001\n)_PenumbraAdventureTargetSh" +
-      "ootingLevelInfo\022\020\n\010level_id\030\003 \001(\r\022\026\n\016_ma" +
-      "x_combo_num\030\007 \001(\r\022\021\n\tmax_score\030\n \001(\r\022\021\n\t" +
-      "is_finish\030\014 \001(\010\022\017\n\007is_open\030\r \001(\010BP\n\031emu." +
+      "ootingLevelInfo\022\020\n\010level_id\030\013 \001(\r\022\026\n\016_ma" +
+      "x_combo_num\030\003 \001(\r\022\021\n\tmax_score\030\n \001(\r\022\021\n\t" +
+      "is_finish\030\010 \001(\010\022\017\n\007is_open\030\006 \001(\010BP\n\031emu." +
       "grasscutter.net.protoB3_PenumbraAdventur" +
       "eTargetShootingLevelInfoOuterClassb\006prot" +
       "o3"

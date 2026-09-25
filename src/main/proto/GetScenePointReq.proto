@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "GetScenePointReqOuterClass";
 
 message GetScenePointReq {
-	bool is_relogin = 9;
-	uint32 belong_uid = 12;
-	uint32 scene_id = 13;
+	bool is_relogin = 13;
+	uint32 belong_uid = 1;
+	uint32 scene_id = 15;
 }

@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "BlitzRushStageOuterClass";
 
 message BlitzRushStage {
-	bool is_open = 4;
-	uint32 open_time = 8;
+	bool is_open = 14;
+	uint32 open_time = 1;
 }

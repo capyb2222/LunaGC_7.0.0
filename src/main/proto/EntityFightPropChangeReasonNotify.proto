@@ -10,15 +10,15 @@ import "JMPGPKCBGKP.proto";
 import "PropChangeReason.proto";
 
 message EntityFightPropChangeReasonNotify {
-	ChangeEnergyReason change_energy_reson = 1;
+	ChangeEnergyReason change_energy_reson = 50000;
 	uint32 EFIBMPKIJJH = 3;
-	ChangeHpReason change_hp_reason = 4;
-	uint32 entity_id = 6;
-	JMPGPKCBGKP detail_info = 7;
-	float prop_delta = 9;
-	float _paid_hp_debts = 10;
-	ChangeHpDebtsReason _change_hp_debts_reason = 12;
-	uint32 prop_type = 13;
-	repeated uint32 param_list = 14;
-	PropChangeReason reason = 15;
+	ChangeHpReason change_hp_reason = 50001;
+	uint32 entity_id = 10;
+	JMPGPKCBGKP detail_info = 50002;
+	float prop_delta = 5;
+	float _paid_hp_debts = 4;
+	ChangeHpDebtsReason _change_hp_debts_reason = 50003;
+	uint32 prop_type = 9;
+	repeated uint32 param_list = 2;
+	PropChangeReason reason = 1;
 }

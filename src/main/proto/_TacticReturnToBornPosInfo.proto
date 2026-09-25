@@ -4,10 +4,10 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "_TacticReturnToBornPosInfoOuterClass";
 
 message _TacticReturnToBornPosInfo {
-	bool FDNGGBDBPKC = 1;
+	bool FDNGGBDBPKC = 50000;
 	int32 speed_level = 2;
-	bool GHCPHBOKLLO = 3;
-	float IGGBLACBJMO = 4;
-	float PBIFLPFDKCE = 5;
-	bool CLDHGCJEHHF = 6;
+	bool GHCPHBOKLLO = 50001;
+	float IGGBLACBJMO = 50002;
+	float PBIFLPFDKCE = 50003;
+	bool CLDHGCJEHHF = 50004;
 }

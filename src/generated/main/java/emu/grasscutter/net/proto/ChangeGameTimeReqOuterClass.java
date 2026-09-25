@@ -19,19 +19,19 @@ public final class ChangeGameTimeReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 extra_days = 1;</code>
+     * <code>uint32 extra_days = 11;</code>
      * @return The extraDays.
      */
     int getExtraDays();
 
     /**
-     * <code>bool is_force_set = 4;</code>
+     * <code>bool is_force_set = 1;</code>
      * @return The isForceSet.
      */
     boolean getIsForceSet();
 
     /**
-     * <code>uint32 game_time = 13;</code>
+     * <code>uint32 game_time = 12;</code>
      * @return The gameTime.
      */
     int getGameTime();
@@ -83,15 +83,15 @@ public final class ChangeGameTimeReqOuterClass {
               break;
             case 8: {
 
-              extraDays_ = input.readUInt32();
-              break;
-            }
-            case 32: {
-
               isForceSet_ = input.readBool();
               break;
             }
-            case 104: {
+            case 88: {
+
+              extraDays_ = input.readUInt32();
+              break;
+            }
+            case 96: {
 
               gameTime_ = input.readUInt32();
               break;
@@ -128,10 +128,10 @@ public final class ChangeGameTimeReqOuterClass {
               emu.grasscutter.net.proto.ChangeGameTimeReqOuterClass.ChangeGameTimeReq.class, emu.grasscutter.net.proto.ChangeGameTimeReqOuterClass.ChangeGameTimeReq.Builder.class);
     }
 
-    public static final int EXTRA_DAYS_FIELD_NUMBER = 1;
+    public static final int EXTRA_DAYS_FIELD_NUMBER = 11;
     private int extraDays_;
     /**
-     * <code>uint32 extra_days = 1;</code>
+     * <code>uint32 extra_days = 11;</code>
      * @return The extraDays.
      */
     @java.lang.Override
@@ -139,10 +139,10 @@ public final class ChangeGameTimeReqOuterClass {
       return extraDays_;
     }
 
-    public static final int IS_FORCE_SET_FIELD_NUMBER = 4;
+    public static final int IS_FORCE_SET_FIELD_NUMBER = 1;
     private boolean isForceSet_;
     /**
-     * <code>bool is_force_set = 4;</code>
+     * <code>bool is_force_set = 1;</code>
      * @return The isForceSet.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class ChangeGameTimeReqOuterClass {
       return isForceSet_;
     }
 
-    public static final int GAME_TIME_FIELD_NUMBER = 13;
+    public static final int GAME_TIME_FIELD_NUMBER = 12;
     private int gameTime_;
     /**
-     * <code>uint32 game_time = 13;</code>
+     * <code>uint32 game_time = 12;</code>
      * @return The gameTime.
      */
     @java.lang.Override
@@ -175,14 +175,14 @@ public final class ChangeGameTimeReqOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (extraDays_ != 0) {
-        output.writeUInt32(1, extraDays_);
-      }
       if (isForceSet_ != false) {
-        output.writeBool(4, isForceSet_);
+        output.writeBool(1, isForceSet_);
+      }
+      if (extraDays_ != 0) {
+        output.writeUInt32(11, extraDays_);
       }
       if (gameTime_ != 0) {
-        output.writeUInt32(13, gameTime_);
+        output.writeUInt32(12, gameTime_);
       }
       unknownFields.writeTo(output);
     }
@@ -193,17 +193,17 @@ public final class ChangeGameTimeReqOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (extraDays_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, extraDays_);
-      }
       if (isForceSet_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(4, isForceSet_);
+          .computeBoolSize(1, isForceSet_);
+      }
+      if (extraDays_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(11, extraDays_);
       }
       if (gameTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, gameTime_);
+          .computeUInt32Size(12, gameTime_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -500,7 +500,7 @@ public final class ChangeGameTimeReqOuterClass {
 
       private int extraDays_ ;
       /**
-       * <code>uint32 extra_days = 1;</code>
+       * <code>uint32 extra_days = 11;</code>
        * @return The extraDays.
        */
       @java.lang.Override
@@ -508,7 +508,7 @@ public final class ChangeGameTimeReqOuterClass {
         return extraDays_;
       }
       /**
-       * <code>uint32 extra_days = 1;</code>
+       * <code>uint32 extra_days = 11;</code>
        * @param value The extraDays to set.
        * @return This builder for chaining.
        */
@@ -519,7 +519,7 @@ public final class ChangeGameTimeReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 extra_days = 1;</code>
+       * <code>uint32 extra_days = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearExtraDays() {
@@ -531,7 +531,7 @@ public final class ChangeGameTimeReqOuterClass {
 
       private boolean isForceSet_ ;
       /**
-       * <code>bool is_force_set = 4;</code>
+       * <code>bool is_force_set = 1;</code>
        * @return The isForceSet.
        */
       @java.lang.Override
@@ -539,7 +539,7 @@ public final class ChangeGameTimeReqOuterClass {
         return isForceSet_;
       }
       /**
-       * <code>bool is_force_set = 4;</code>
+       * <code>bool is_force_set = 1;</code>
        * @param value The isForceSet to set.
        * @return This builder for chaining.
        */
@@ -550,7 +550,7 @@ public final class ChangeGameTimeReqOuterClass {
         return this;
       }
       /**
-       * <code>bool is_force_set = 4;</code>
+       * <code>bool is_force_set = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsForceSet() {
@@ -562,7 +562,7 @@ public final class ChangeGameTimeReqOuterClass {
 
       private int gameTime_ ;
       /**
-       * <code>uint32 game_time = 13;</code>
+       * <code>uint32 game_time = 12;</code>
        * @return The gameTime.
        */
       @java.lang.Override
@@ -570,7 +570,7 @@ public final class ChangeGameTimeReqOuterClass {
         return gameTime_;
       }
       /**
-       * <code>uint32 game_time = 13;</code>
+       * <code>uint32 game_time = 12;</code>
        * @param value The gameTime to set.
        * @return This builder for chaining.
        */
@@ -581,7 +581,7 @@ public final class ChangeGameTimeReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 game_time = 13;</code>
+       * <code>uint32 game_time = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearGameTime() {
@@ -658,8 +658,8 @@ public final class ChangeGameTimeReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\027ChangeGameTimeReq.proto\"P\n\021ChangeGameT" +
-      "imeReq\022\022\n\nextra_days\030\001 \001(\r\022\024\n\014is_force_s" +
-      "et\030\004 \001(\010\022\021\n\tgame_time\030\r \001(\rB8\n\031emu.grass" +
+      "imeReq\022\022\n\nextra_days\030\013 \001(\r\022\024\n\014is_force_s" +
+      "et\030\001 \001(\010\022\021\n\tgame_time\030\014 \001(\rB8\n\031emu.grass" +
       "cutter.net.protoB\033ChangeGameTimeReqOuter" +
       "Classb\006proto3"
     };

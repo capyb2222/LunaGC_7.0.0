@@ -7,8 +7,8 @@ import "EquipParam.proto";
 import "ItemHint.proto";
 
 message GetMailItemRsp {
-	int32 retcode = 1;
-	repeated uint32 mail_id_list = 13;
-	repeated ItemHint _beyond_item_hint = 14;
-	repeated EquipParam item_list = 15;
+	int32 retcode = 15;
+	repeated uint32 mail_id_list = 6;
+	repeated ItemHint _beyond_item_hint = 5;
+	repeated EquipParam item_list = 3;
 }

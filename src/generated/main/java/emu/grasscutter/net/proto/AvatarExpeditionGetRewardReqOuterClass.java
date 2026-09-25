@@ -19,7 +19,7 @@ public final class AvatarExpeditionGetRewardReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool _is_claim_all = 1;</code>
+     * <code>bool _is_claim_all = 13;</code>
      * @return The isClaimAll.
      */
     boolean getIsClaimAll();
@@ -75,14 +75,14 @@ public final class AvatarExpeditionGetRewardReqOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
-
-              IsClaimAll_ = input.readBool();
-              break;
-            }
             case 88: {
 
               avatarGuid_ = input.readUInt64();
+              break;
+            }
+            case 104: {
+
+              IsClaimAll_ = input.readBool();
               break;
             }
             default: {
@@ -117,10 +117,10 @@ public final class AvatarExpeditionGetRewardReqOuterClass {
               emu.grasscutter.net.proto.AvatarExpeditionGetRewardReqOuterClass.AvatarExpeditionGetRewardReq.class, emu.grasscutter.net.proto.AvatarExpeditionGetRewardReqOuterClass.AvatarExpeditionGetRewardReq.Builder.class);
     }
 
-    public static final int _IS_CLAIM_ALL_FIELD_NUMBER = 1;
+    public static final int _IS_CLAIM_ALL_FIELD_NUMBER = 13;
     private boolean IsClaimAll_;
     /**
-     * <code>bool _is_claim_all = 1;</code>
+     * <code>bool _is_claim_all = 13;</code>
      * @return The isClaimAll.
      */
     @java.lang.Override
@@ -153,11 +153,11 @@ public final class AvatarExpeditionGetRewardReqOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (IsClaimAll_ != false) {
-        output.writeBool(1, IsClaimAll_);
-      }
       if (avatarGuid_ != 0L) {
         output.writeUInt64(11, avatarGuid_);
+      }
+      if (IsClaimAll_ != false) {
+        output.writeBool(13, IsClaimAll_);
       }
       unknownFields.writeTo(output);
     }
@@ -168,13 +168,13 @@ public final class AvatarExpeditionGetRewardReqOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (IsClaimAll_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1, IsClaimAll_);
-      }
       if (avatarGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt64Size(11, avatarGuid_);
+      }
+      if (IsClaimAll_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(13, IsClaimAll_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -462,7 +462,7 @@ public final class AvatarExpeditionGetRewardReqOuterClass {
 
       private boolean IsClaimAll_ ;
       /**
-       * <code>bool _is_claim_all = 1;</code>
+       * <code>bool _is_claim_all = 13;</code>
        * @return The isClaimAll.
        */
       @java.lang.Override
@@ -470,7 +470,7 @@ public final class AvatarExpeditionGetRewardReqOuterClass {
         return IsClaimAll_;
       }
       /**
-       * <code>bool _is_claim_all = 1;</code>
+       * <code>bool _is_claim_all = 13;</code>
        * @param value The isClaimAll to set.
        * @return This builder for chaining.
        */
@@ -481,7 +481,7 @@ public final class AvatarExpeditionGetRewardReqOuterClass {
         return this;
       }
       /**
-       * <code>bool _is_claim_all = 1;</code>
+       * <code>bool _is_claim_all = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsClaimAll() {
@@ -590,7 +590,7 @@ public final class AvatarExpeditionGetRewardReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\"AvatarExpeditionGetRewardReq.proto\"J\n\034" +
       "AvatarExpeditionGetRewardReq\022\025\n\r_is_clai" +
-      "m_all\030\001 \001(\010\022\023\n\013avatar_guid\030\013 \001(\004BC\n\031emu." +
+      "m_all\030\r \001(\010\022\023\n\013avatar_guid\030\013 \001(\004BC\n\031emu." +
       "grasscutter.net.protoB&AvatarExpeditionG" +
       "etRewardReqOuterClassb\006proto3"
     };

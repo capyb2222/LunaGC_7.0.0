@@ -19,120 +19,120 @@ public final class _AutochessRecordSocialBriefOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 _artifact_id_list = 2;</code>
+     * <code>repeated uint32 _artifact_id_list = 10;</code>
      * @return A list containing the artifactIdList.
      */
     java.util.List<java.lang.Integer> getArtifactIdListList();
     /**
-     * <code>repeated uint32 _artifact_id_list = 2;</code>
+     * <code>repeated uint32 _artifact_id_list = 10;</code>
      * @return The count of artifactIdList.
      */
     int getArtifactIdListCount();
     /**
-     * <code>repeated uint32 _artifact_id_list = 2;</code>
+     * <code>repeated uint32 _artifact_id_list = 10;</code>
      * @param index The index of the element to return.
      * @return The artifactIdList at the given index.
      */
     int getArtifactIdList(int index);
 
     /**
-     * <code>uint32 coin = 3;</code>
+     * <code>uint32 coin = 9;</code>
      * @return The coin.
      */
     int getCoin();
 
     /**
-     * <code>repeated uint32 HDKMGJJKEMA = 4;</code>
+     * <code>repeated uint32 HDKMGJJKEMA = 1;</code>
      * @return A list containing the hDKMGJJKEMA.
      */
     java.util.List<java.lang.Integer> getHDKMGJJKEMAList();
     /**
-     * <code>repeated uint32 HDKMGJJKEMA = 4;</code>
+     * <code>repeated uint32 HDKMGJJKEMA = 1;</code>
      * @return The count of hDKMGJJKEMA.
      */
     int getHDKMGJJKEMACount();
     /**
-     * <code>repeated uint32 HDKMGJJKEMA = 4;</code>
+     * <code>repeated uint32 HDKMGJJKEMA = 1;</code>
      * @param index The index of the element to return.
      * @return The hDKMGJJKEMA at the given index.
      */
     int getHDKMGJJKEMA(int index);
 
     /**
-     * <code>bool NBCEKJJNAHJ = 5;</code>
+     * <code>bool NBCEKJJNAHJ = 14;</code>
      * @return The nBCEKJJNAHJ.
      */
     boolean getNBCEKJJNAHJ();
 
     /**
-     * <code>uint32 timestamp = 6;</code>
+     * <code>uint32 timestamp = 3;</code>
      * @return The timestamp.
      */
     int getTimestamp();
 
     /**
-     * <code>uint32 GBAIFJIKOON = 7;</code>
+     * <code>uint32 GBAIFJIKOON = 12;</code>
      * @return The gBAIFJIKOON.
      */
     int getGBAIFJIKOON();
 
     /**
-     * <code>uint32 HOAOJBKJFLE = 8;</code>
+     * <code>uint32 HOAOJBKJFLE = 5;</code>
      * @return The hOAOJBKJFLE.
      */
     int getHOAOJBKJFLE();
 
     /**
-     * <code>uint32 AFDKEOOHHPA = 9;</code>
+     * <code>uint32 AFDKEOOHHPA = 13;</code>
      * @return The aFDKEOOHHPA.
      */
     int getAFDKEOOHHPA();
 
     /**
-     * <code>uint32 hp = 10;</code>
+     * <code>uint32 hp = 15;</code>
      * @return The hp.
      */
     int getHp();
 
     /**
-     * <code>.KHFBAMPCPPF DNBEJHIILMM = 11;</code>
+     * <code>.KHFBAMPCPPF DNBEJHIILMM = 4;</code>
      * @return Whether the dNBEJHIILMM field is set.
      */
     boolean hasDNBEJHIILMM();
     /**
-     * <code>.KHFBAMPCPPF DNBEJHIILMM = 11;</code>
+     * <code>.KHFBAMPCPPF DNBEJHIILMM = 4;</code>
      * @return The dNBEJHIILMM.
      */
     emu.grasscutter.net.proto.KHFBAMPCPPFOuterClass.KHFBAMPCPPF getDNBEJHIILMM();
     /**
-     * <code>.KHFBAMPCPPF DNBEJHIILMM = 11;</code>
+     * <code>.KHFBAMPCPPF DNBEJHIILMM = 4;</code>
      */
     emu.grasscutter.net.proto.KHFBAMPCPPFOuterClass.KHFBAMPCPPFOrBuilder getDNBEJHIILMMOrBuilder();
 
     /**
-     * <code>uint32 LKPNNFDCJLF = 12;</code>
+     * <code>uint32 LKPNNFDCJLF = 7;</code>
      * @return The lKPNNFDCJLF.
      */
     int getLKPNNFDCJLF();
 
     /**
-     * <code>uint32 max_hp = 14;</code>
+     * <code>uint32 max_hp = 2;</code>
      * @return The maxHp.
      */
     int getMaxHp();
 
     /**
-     * <code>.Uint32Pair progress = 15;</code>
+     * <code>.Uint32Pair progress = 6;</code>
      * @return Whether the progress field is set.
      */
     boolean hasProgress();
     /**
-     * <code>.Uint32Pair progress = 15;</code>
+     * <code>.Uint32Pair progress = 6;</code>
      * @return The progress.
      */
     emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getProgress();
     /**
-     * <code>.Uint32Pair progress = 15;</code>
+     * <code>.Uint32Pair progress = 6;</code>
      */
     emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getProgressOrBuilder();
   }
@@ -184,33 +184,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                ArtifactIdList_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              ArtifactIdList_.addInt(input.readUInt32());
-              break;
-            }
-            case 18: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                ArtifactIdList_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                ArtifactIdList_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
-              break;
-            }
-            case 24: {
-
-              coin_ = input.readUInt32();
-              break;
-            }
-            case 32: {
+            case 8: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 hDKMGJJKEMA_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
@@ -218,7 +192,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
               hDKMGJJKEMA_.addInt(input.readUInt32());
               break;
             }
-            case 34: {
+            case 10: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
@@ -231,37 +205,17 @@ public final class _AutochessRecordSocialBriefOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 40: {
+            case 16: {
 
-              nBCEKJJNAHJ_ = input.readBool();
+              maxHp_ = input.readUInt32();
               break;
             }
-            case 48: {
+            case 24: {
 
               timestamp_ = input.readUInt32();
               break;
             }
-            case 56: {
-
-              gBAIFJIKOON_ = input.readUInt32();
-              break;
-            }
-            case 64: {
-
-              hOAOJBKJFLE_ = input.readUInt32();
-              break;
-            }
-            case 72: {
-
-              aFDKEOOHHPA_ = input.readUInt32();
-              break;
-            }
-            case 80: {
-
-              hp_ = input.readUInt32();
-              break;
-            }
-            case 90: {
+            case 34: {
               emu.grasscutter.net.proto.KHFBAMPCPPFOuterClass.KHFBAMPCPPF.Builder subBuilder = null;
               if (dNBEJHIILMM_ != null) {
                 subBuilder = dNBEJHIILMM_.toBuilder();
@@ -274,17 +228,12 @@ public final class _AutochessRecordSocialBriefOuterClass {
 
               break;
             }
-            case 96: {
+            case 40: {
 
-              lKPNNFDCJLF_ = input.readUInt32();
+              hOAOJBKJFLE_ = input.readUInt32();
               break;
             }
-            case 112: {
-
-              maxHp_ = input.readUInt32();
-              break;
-            }
-            case 122: {
+            case 50: {
               emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder subBuilder = null;
               if (progress_ != null) {
                 subBuilder = progress_.toBuilder();
@@ -295,6 +244,57 @@ public final class _AutochessRecordSocialBriefOuterClass {
                 progress_ = subBuilder.buildPartial();
               }
 
+              break;
+            }
+            case 56: {
+
+              lKPNNFDCJLF_ = input.readUInt32();
+              break;
+            }
+            case 72: {
+
+              coin_ = input.readUInt32();
+              break;
+            }
+            case 80: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                ArtifactIdList_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              ArtifactIdList_.addInt(input.readUInt32());
+              break;
+            }
+            case 82: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
+                ArtifactIdList_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                ArtifactIdList_.addInt(input.readUInt32());
+              }
+              input.popLimit(limit);
+              break;
+            }
+            case 96: {
+
+              gBAIFJIKOON_ = input.readUInt32();
+              break;
+            }
+            case 104: {
+
+              aFDKEOOHHPA_ = input.readUInt32();
+              break;
+            }
+            case 112: {
+
+              nBCEKJJNAHJ_ = input.readBool();
+              break;
+            }
+            case 120: {
+
+              hp_ = input.readUInt32();
               break;
             }
             default: {
@@ -312,11 +312,11 @@ public final class _AutochessRecordSocialBriefOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          ArtifactIdList_.makeImmutable(); // C
-        }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
           hDKMGJJKEMA_.makeImmutable(); // C
+        }
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          ArtifactIdList_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -335,10 +335,10 @@ public final class _AutochessRecordSocialBriefOuterClass {
               emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief.class, emu.grasscutter.net.proto._AutochessRecordSocialBriefOuterClass._AutochessRecordSocialBrief.Builder.class);
     }
 
-    public static final int _ARTIFACT_ID_LIST_FIELD_NUMBER = 2;
+    public static final int _ARTIFACT_ID_LIST_FIELD_NUMBER = 10;
     private com.google.protobuf.Internal.IntList ArtifactIdList_;
     /**
-     * <code>repeated uint32 _artifact_id_list = 2;</code>
+     * <code>repeated uint32 _artifact_id_list = 10;</code>
      * @return A list containing the artifactIdList.
      */
     @java.lang.Override
@@ -347,14 +347,14 @@ public final class _AutochessRecordSocialBriefOuterClass {
       return ArtifactIdList_;
     }
     /**
-     * <code>repeated uint32 _artifact_id_list = 2;</code>
+     * <code>repeated uint32 _artifact_id_list = 10;</code>
      * @return The count of artifactIdList.
      */
     public int getArtifactIdListCount() {
       return ArtifactIdList_.size();
     }
     /**
-     * <code>repeated uint32 _artifact_id_list = 2;</code>
+     * <code>repeated uint32 _artifact_id_list = 10;</code>
      * @param index The index of the element to return.
      * @return The artifactIdList at the given index.
      */
@@ -363,10 +363,10 @@ public final class _AutochessRecordSocialBriefOuterClass {
     }
     private int ArtifactIdListMemoizedSerializedSize = -1;
 
-    public static final int COIN_FIELD_NUMBER = 3;
+    public static final int COIN_FIELD_NUMBER = 9;
     private int coin_;
     /**
-     * <code>uint32 coin = 3;</code>
+     * <code>uint32 coin = 9;</code>
      * @return The coin.
      */
     @java.lang.Override
@@ -374,10 +374,10 @@ public final class _AutochessRecordSocialBriefOuterClass {
       return coin_;
     }
 
-    public static final int HDKMGJJKEMA_FIELD_NUMBER = 4;
+    public static final int HDKMGJJKEMA_FIELD_NUMBER = 1;
     private com.google.protobuf.Internal.IntList hDKMGJJKEMA_;
     /**
-     * <code>repeated uint32 HDKMGJJKEMA = 4;</code>
+     * <code>repeated uint32 HDKMGJJKEMA = 1;</code>
      * @return A list containing the hDKMGJJKEMA.
      */
     @java.lang.Override
@@ -386,14 +386,14 @@ public final class _AutochessRecordSocialBriefOuterClass {
       return hDKMGJJKEMA_;
     }
     /**
-     * <code>repeated uint32 HDKMGJJKEMA = 4;</code>
+     * <code>repeated uint32 HDKMGJJKEMA = 1;</code>
      * @return The count of hDKMGJJKEMA.
      */
     public int getHDKMGJJKEMACount() {
       return hDKMGJJKEMA_.size();
     }
     /**
-     * <code>repeated uint32 HDKMGJJKEMA = 4;</code>
+     * <code>repeated uint32 HDKMGJJKEMA = 1;</code>
      * @param index The index of the element to return.
      * @return The hDKMGJJKEMA at the given index.
      */
@@ -402,10 +402,10 @@ public final class _AutochessRecordSocialBriefOuterClass {
     }
     private int hDKMGJJKEMAMemoizedSerializedSize = -1;
 
-    public static final int NBCEKJJNAHJ_FIELD_NUMBER = 5;
+    public static final int NBCEKJJNAHJ_FIELD_NUMBER = 14;
     private boolean nBCEKJJNAHJ_;
     /**
-     * <code>bool NBCEKJJNAHJ = 5;</code>
+     * <code>bool NBCEKJJNAHJ = 14;</code>
      * @return The nBCEKJJNAHJ.
      */
     @java.lang.Override
@@ -413,10 +413,10 @@ public final class _AutochessRecordSocialBriefOuterClass {
       return nBCEKJJNAHJ_;
     }
 
-    public static final int TIMESTAMP_FIELD_NUMBER = 6;
+    public static final int TIMESTAMP_FIELD_NUMBER = 3;
     private int timestamp_;
     /**
-     * <code>uint32 timestamp = 6;</code>
+     * <code>uint32 timestamp = 3;</code>
      * @return The timestamp.
      */
     @java.lang.Override
@@ -424,10 +424,10 @@ public final class _AutochessRecordSocialBriefOuterClass {
       return timestamp_;
     }
 
-    public static final int GBAIFJIKOON_FIELD_NUMBER = 7;
+    public static final int GBAIFJIKOON_FIELD_NUMBER = 12;
     private int gBAIFJIKOON_;
     /**
-     * <code>uint32 GBAIFJIKOON = 7;</code>
+     * <code>uint32 GBAIFJIKOON = 12;</code>
      * @return The gBAIFJIKOON.
      */
     @java.lang.Override
@@ -435,10 +435,10 @@ public final class _AutochessRecordSocialBriefOuterClass {
       return gBAIFJIKOON_;
     }
 
-    public static final int HOAOJBKJFLE_FIELD_NUMBER = 8;
+    public static final int HOAOJBKJFLE_FIELD_NUMBER = 5;
     private int hOAOJBKJFLE_;
     /**
-     * <code>uint32 HOAOJBKJFLE = 8;</code>
+     * <code>uint32 HOAOJBKJFLE = 5;</code>
      * @return The hOAOJBKJFLE.
      */
     @java.lang.Override
@@ -446,10 +446,10 @@ public final class _AutochessRecordSocialBriefOuterClass {
       return hOAOJBKJFLE_;
     }
 
-    public static final int AFDKEOOHHPA_FIELD_NUMBER = 9;
+    public static final int AFDKEOOHHPA_FIELD_NUMBER = 13;
     private int aFDKEOOHHPA_;
     /**
-     * <code>uint32 AFDKEOOHHPA = 9;</code>
+     * <code>uint32 AFDKEOOHHPA = 13;</code>
      * @return The aFDKEOOHHPA.
      */
     @java.lang.Override
@@ -457,10 +457,10 @@ public final class _AutochessRecordSocialBriefOuterClass {
       return aFDKEOOHHPA_;
     }
 
-    public static final int HP_FIELD_NUMBER = 10;
+    public static final int HP_FIELD_NUMBER = 15;
     private int hp_;
     /**
-     * <code>uint32 hp = 10;</code>
+     * <code>uint32 hp = 15;</code>
      * @return The hp.
      */
     @java.lang.Override
@@ -468,10 +468,10 @@ public final class _AutochessRecordSocialBriefOuterClass {
       return hp_;
     }
 
-    public static final int DNBEJHIILMM_FIELD_NUMBER = 11;
+    public static final int DNBEJHIILMM_FIELD_NUMBER = 4;
     private emu.grasscutter.net.proto.KHFBAMPCPPFOuterClass.KHFBAMPCPPF dNBEJHIILMM_;
     /**
-     * <code>.KHFBAMPCPPF DNBEJHIILMM = 11;</code>
+     * <code>.KHFBAMPCPPF DNBEJHIILMM = 4;</code>
      * @return Whether the dNBEJHIILMM field is set.
      */
     @java.lang.Override
@@ -479,7 +479,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
       return dNBEJHIILMM_ != null;
     }
     /**
-     * <code>.KHFBAMPCPPF DNBEJHIILMM = 11;</code>
+     * <code>.KHFBAMPCPPF DNBEJHIILMM = 4;</code>
      * @return The dNBEJHIILMM.
      */
     @java.lang.Override
@@ -487,17 +487,17 @@ public final class _AutochessRecordSocialBriefOuterClass {
       return dNBEJHIILMM_ == null ? emu.grasscutter.net.proto.KHFBAMPCPPFOuterClass.KHFBAMPCPPF.getDefaultInstance() : dNBEJHIILMM_;
     }
     /**
-     * <code>.KHFBAMPCPPF DNBEJHIILMM = 11;</code>
+     * <code>.KHFBAMPCPPF DNBEJHIILMM = 4;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.KHFBAMPCPPFOuterClass.KHFBAMPCPPFOrBuilder getDNBEJHIILMMOrBuilder() {
       return getDNBEJHIILMM();
     }
 
-    public static final int LKPNNFDCJLF_FIELD_NUMBER = 12;
+    public static final int LKPNNFDCJLF_FIELD_NUMBER = 7;
     private int lKPNNFDCJLF_;
     /**
-     * <code>uint32 LKPNNFDCJLF = 12;</code>
+     * <code>uint32 LKPNNFDCJLF = 7;</code>
      * @return The lKPNNFDCJLF.
      */
     @java.lang.Override
@@ -505,10 +505,10 @@ public final class _AutochessRecordSocialBriefOuterClass {
       return lKPNNFDCJLF_;
     }
 
-    public static final int MAX_HP_FIELD_NUMBER = 14;
+    public static final int MAX_HP_FIELD_NUMBER = 2;
     private int maxHp_;
     /**
-     * <code>uint32 max_hp = 14;</code>
+     * <code>uint32 max_hp = 2;</code>
      * @return The maxHp.
      */
     @java.lang.Override
@@ -516,10 +516,10 @@ public final class _AutochessRecordSocialBriefOuterClass {
       return maxHp_;
     }
 
-    public static final int PROGRESS_FIELD_NUMBER = 15;
+    public static final int PROGRESS_FIELD_NUMBER = 6;
     private emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair progress_;
     /**
-     * <code>.Uint32Pair progress = 15;</code>
+     * <code>.Uint32Pair progress = 6;</code>
      * @return Whether the progress field is set.
      */
     @java.lang.Override
@@ -527,7 +527,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
       return progress_ != null;
     }
     /**
-     * <code>.Uint32Pair progress = 15;</code>
+     * <code>.Uint32Pair progress = 6;</code>
      * @return The progress.
      */
     @java.lang.Override
@@ -535,7 +535,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
       return progress_ == null ? emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.getDefaultInstance() : progress_;
     }
     /**
-     * <code>.Uint32Pair progress = 15;</code>
+     * <code>.Uint32Pair progress = 6;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getProgressOrBuilder() {
@@ -557,52 +557,52 @@ public final class _AutochessRecordSocialBriefOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (getArtifactIdListList().size() > 0) {
-        output.writeUInt32NoTag(18);
-        output.writeUInt32NoTag(ArtifactIdListMemoizedSerializedSize);
-      }
-      for (int i = 0; i < ArtifactIdList_.size(); i++) {
-        output.writeUInt32NoTag(ArtifactIdList_.getInt(i));
-      }
-      if (coin_ != 0) {
-        output.writeUInt32(3, coin_);
-      }
       if (getHDKMGJJKEMAList().size() > 0) {
-        output.writeUInt32NoTag(34);
+        output.writeUInt32NoTag(10);
         output.writeUInt32NoTag(hDKMGJJKEMAMemoizedSerializedSize);
       }
       for (int i = 0; i < hDKMGJJKEMA_.size(); i++) {
         output.writeUInt32NoTag(hDKMGJJKEMA_.getInt(i));
       }
-      if (nBCEKJJNAHJ_ != false) {
-        output.writeBool(5, nBCEKJJNAHJ_);
+      if (maxHp_ != 0) {
+        output.writeUInt32(2, maxHp_);
       }
       if (timestamp_ != 0) {
-        output.writeUInt32(6, timestamp_);
-      }
-      if (gBAIFJIKOON_ != 0) {
-        output.writeUInt32(7, gBAIFJIKOON_);
-      }
-      if (hOAOJBKJFLE_ != 0) {
-        output.writeUInt32(8, hOAOJBKJFLE_);
-      }
-      if (aFDKEOOHHPA_ != 0) {
-        output.writeUInt32(9, aFDKEOOHHPA_);
-      }
-      if (hp_ != 0) {
-        output.writeUInt32(10, hp_);
+        output.writeUInt32(3, timestamp_);
       }
       if (dNBEJHIILMM_ != null) {
-        output.writeMessage(11, getDNBEJHIILMM());
+        output.writeMessage(4, getDNBEJHIILMM());
       }
-      if (lKPNNFDCJLF_ != 0) {
-        output.writeUInt32(12, lKPNNFDCJLF_);
-      }
-      if (maxHp_ != 0) {
-        output.writeUInt32(14, maxHp_);
+      if (hOAOJBKJFLE_ != 0) {
+        output.writeUInt32(5, hOAOJBKJFLE_);
       }
       if (progress_ != null) {
-        output.writeMessage(15, getProgress());
+        output.writeMessage(6, getProgress());
+      }
+      if (lKPNNFDCJLF_ != 0) {
+        output.writeUInt32(7, lKPNNFDCJLF_);
+      }
+      if (coin_ != 0) {
+        output.writeUInt32(9, coin_);
+      }
+      if (getArtifactIdListList().size() > 0) {
+        output.writeUInt32NoTag(82);
+        output.writeUInt32NoTag(ArtifactIdListMemoizedSerializedSize);
+      }
+      for (int i = 0; i < ArtifactIdList_.size(); i++) {
+        output.writeUInt32NoTag(ArtifactIdList_.getInt(i));
+      }
+      if (gBAIFJIKOON_ != 0) {
+        output.writeUInt32(12, gBAIFJIKOON_);
+      }
+      if (aFDKEOOHHPA_ != 0) {
+        output.writeUInt32(13, aFDKEOOHHPA_);
+      }
+      if (nBCEKJJNAHJ_ != false) {
+        output.writeBool(14, nBCEKJJNAHJ_);
+      }
+      if (hp_ != 0) {
+        output.writeUInt32(15, hp_);
       }
       unknownFields.writeTo(output);
     }
@@ -613,24 +613,6 @@ public final class _AutochessRecordSocialBriefOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      {
-        int dataSize = 0;
-        for (int i = 0; i < ArtifactIdList_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(ArtifactIdList_.getInt(i));
-        }
-        size += dataSize;
-        if (!getArtifactIdListList().isEmpty()) {
-          size += 1;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        ArtifactIdListMemoizedSerializedSize = dataSize;
-      }
-      if (coin_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, coin_);
-      }
       {
         int dataSize = 0;
         for (int i = 0; i < hDKMGJJKEMA_.size(); i++) {
@@ -645,45 +627,63 @@ public final class _AutochessRecordSocialBriefOuterClass {
         }
         hDKMGJJKEMAMemoizedSerializedSize = dataSize;
       }
-      if (nBCEKJJNAHJ_ != false) {
+      if (maxHp_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(5, nBCEKJJNAHJ_);
+          .computeUInt32Size(2, maxHp_);
       }
       if (timestamp_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, timestamp_);
-      }
-      if (gBAIFJIKOON_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, gBAIFJIKOON_);
-      }
-      if (hOAOJBKJFLE_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, hOAOJBKJFLE_);
-      }
-      if (aFDKEOOHHPA_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, aFDKEOOHHPA_);
-      }
-      if (hp_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, hp_);
+          .computeUInt32Size(3, timestamp_);
       }
       if (dNBEJHIILMM_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, getDNBEJHIILMM());
+          .computeMessageSize(4, getDNBEJHIILMM());
       }
-      if (lKPNNFDCJLF_ != 0) {
+      if (hOAOJBKJFLE_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, lKPNNFDCJLF_);
-      }
-      if (maxHp_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, maxHp_);
+          .computeUInt32Size(5, hOAOJBKJFLE_);
       }
       if (progress_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, getProgress());
+          .computeMessageSize(6, getProgress());
+      }
+      if (lKPNNFDCJLF_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(7, lKPNNFDCJLF_);
+      }
+      if (coin_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(9, coin_);
+      }
+      {
+        int dataSize = 0;
+        for (int i = 0; i < ArtifactIdList_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeUInt32SizeNoTag(ArtifactIdList_.getInt(i));
+        }
+        size += dataSize;
+        if (!getArtifactIdListList().isEmpty()) {
+          size += 1;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        ArtifactIdListMemoizedSerializedSize = dataSize;
+      }
+      if (gBAIFJIKOON_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(12, gBAIFJIKOON_);
+      }
+      if (aFDKEOOHHPA_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(13, aFDKEOOHHPA_);
+      }
+      if (nBCEKJJNAHJ_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(14, nBCEKJJNAHJ_);
+      }
+      if (hp_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(15, hp_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1140,7 +1140,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 _artifact_id_list = 2;</code>
+       * <code>repeated uint32 _artifact_id_list = 10;</code>
        * @return A list containing the artifactIdList.
        */
       public java.util.List<java.lang.Integer>
@@ -1149,14 +1149,14 @@ public final class _AutochessRecordSocialBriefOuterClass {
                  java.util.Collections.unmodifiableList(ArtifactIdList_) : ArtifactIdList_;
       }
       /**
-       * <code>repeated uint32 _artifact_id_list = 2;</code>
+       * <code>repeated uint32 _artifact_id_list = 10;</code>
        * @return The count of artifactIdList.
        */
       public int getArtifactIdListCount() {
         return ArtifactIdList_.size();
       }
       /**
-       * <code>repeated uint32 _artifact_id_list = 2;</code>
+       * <code>repeated uint32 _artifact_id_list = 10;</code>
        * @param index The index of the element to return.
        * @return The artifactIdList at the given index.
        */
@@ -1164,7 +1164,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
         return ArtifactIdList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 _artifact_id_list = 2;</code>
+       * <code>repeated uint32 _artifact_id_list = 10;</code>
        * @param index The index to set the value at.
        * @param value The artifactIdList to set.
        * @return This builder for chaining.
@@ -1177,7 +1177,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 _artifact_id_list = 2;</code>
+       * <code>repeated uint32 _artifact_id_list = 10;</code>
        * @param value The artifactIdList to add.
        * @return This builder for chaining.
        */
@@ -1188,7 +1188,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 _artifact_id_list = 2;</code>
+       * <code>repeated uint32 _artifact_id_list = 10;</code>
        * @param values The artifactIdList to add.
        * @return This builder for chaining.
        */
@@ -1201,7 +1201,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 _artifact_id_list = 2;</code>
+       * <code>repeated uint32 _artifact_id_list = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearArtifactIdList() {
@@ -1213,7 +1213,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
 
       private int coin_ ;
       /**
-       * <code>uint32 coin = 3;</code>
+       * <code>uint32 coin = 9;</code>
        * @return The coin.
        */
       @java.lang.Override
@@ -1221,7 +1221,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
         return coin_;
       }
       /**
-       * <code>uint32 coin = 3;</code>
+       * <code>uint32 coin = 9;</code>
        * @param value The coin to set.
        * @return This builder for chaining.
        */
@@ -1232,7 +1232,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
         return this;
       }
       /**
-       * <code>uint32 coin = 3;</code>
+       * <code>uint32 coin = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearCoin() {
@@ -1250,7 +1250,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 HDKMGJJKEMA = 4;</code>
+       * <code>repeated uint32 HDKMGJJKEMA = 1;</code>
        * @return A list containing the hDKMGJJKEMA.
        */
       public java.util.List<java.lang.Integer>
@@ -1259,14 +1259,14 @@ public final class _AutochessRecordSocialBriefOuterClass {
                  java.util.Collections.unmodifiableList(hDKMGJJKEMA_) : hDKMGJJKEMA_;
       }
       /**
-       * <code>repeated uint32 HDKMGJJKEMA = 4;</code>
+       * <code>repeated uint32 HDKMGJJKEMA = 1;</code>
        * @return The count of hDKMGJJKEMA.
        */
       public int getHDKMGJJKEMACount() {
         return hDKMGJJKEMA_.size();
       }
       /**
-       * <code>repeated uint32 HDKMGJJKEMA = 4;</code>
+       * <code>repeated uint32 HDKMGJJKEMA = 1;</code>
        * @param index The index of the element to return.
        * @return The hDKMGJJKEMA at the given index.
        */
@@ -1274,7 +1274,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
         return hDKMGJJKEMA_.getInt(index);
       }
       /**
-       * <code>repeated uint32 HDKMGJJKEMA = 4;</code>
+       * <code>repeated uint32 HDKMGJJKEMA = 1;</code>
        * @param index The index to set the value at.
        * @param value The hDKMGJJKEMA to set.
        * @return This builder for chaining.
@@ -1287,7 +1287,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 HDKMGJJKEMA = 4;</code>
+       * <code>repeated uint32 HDKMGJJKEMA = 1;</code>
        * @param value The hDKMGJJKEMA to add.
        * @return This builder for chaining.
        */
@@ -1298,7 +1298,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 HDKMGJJKEMA = 4;</code>
+       * <code>repeated uint32 HDKMGJJKEMA = 1;</code>
        * @param values The hDKMGJJKEMA to add.
        * @return This builder for chaining.
        */
@@ -1311,7 +1311,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 HDKMGJJKEMA = 4;</code>
+       * <code>repeated uint32 HDKMGJJKEMA = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearHDKMGJJKEMA() {
@@ -1323,7 +1323,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
 
       private boolean nBCEKJJNAHJ_ ;
       /**
-       * <code>bool NBCEKJJNAHJ = 5;</code>
+       * <code>bool NBCEKJJNAHJ = 14;</code>
        * @return The nBCEKJJNAHJ.
        */
       @java.lang.Override
@@ -1331,7 +1331,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
         return nBCEKJJNAHJ_;
       }
       /**
-       * <code>bool NBCEKJJNAHJ = 5;</code>
+       * <code>bool NBCEKJJNAHJ = 14;</code>
        * @param value The nBCEKJJNAHJ to set.
        * @return This builder for chaining.
        */
@@ -1342,7 +1342,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
         return this;
       }
       /**
-       * <code>bool NBCEKJJNAHJ = 5;</code>
+       * <code>bool NBCEKJJNAHJ = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearNBCEKJJNAHJ() {
@@ -1354,7 +1354,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
 
       private int timestamp_ ;
       /**
-       * <code>uint32 timestamp = 6;</code>
+       * <code>uint32 timestamp = 3;</code>
        * @return The timestamp.
        */
       @java.lang.Override
@@ -1362,7 +1362,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
         return timestamp_;
       }
       /**
-       * <code>uint32 timestamp = 6;</code>
+       * <code>uint32 timestamp = 3;</code>
        * @param value The timestamp to set.
        * @return This builder for chaining.
        */
@@ -1373,7 +1373,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
         return this;
       }
       /**
-       * <code>uint32 timestamp = 6;</code>
+       * <code>uint32 timestamp = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearTimestamp() {
@@ -1385,7 +1385,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
 
       private int gBAIFJIKOON_ ;
       /**
-       * <code>uint32 GBAIFJIKOON = 7;</code>
+       * <code>uint32 GBAIFJIKOON = 12;</code>
        * @return The gBAIFJIKOON.
        */
       @java.lang.Override
@@ -1393,7 +1393,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
         return gBAIFJIKOON_;
       }
       /**
-       * <code>uint32 GBAIFJIKOON = 7;</code>
+       * <code>uint32 GBAIFJIKOON = 12;</code>
        * @param value The gBAIFJIKOON to set.
        * @return This builder for chaining.
        */
@@ -1404,7 +1404,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
         return this;
       }
       /**
-       * <code>uint32 GBAIFJIKOON = 7;</code>
+       * <code>uint32 GBAIFJIKOON = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearGBAIFJIKOON() {
@@ -1416,7 +1416,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
 
       private int hOAOJBKJFLE_ ;
       /**
-       * <code>uint32 HOAOJBKJFLE = 8;</code>
+       * <code>uint32 HOAOJBKJFLE = 5;</code>
        * @return The hOAOJBKJFLE.
        */
       @java.lang.Override
@@ -1424,7 +1424,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
         return hOAOJBKJFLE_;
       }
       /**
-       * <code>uint32 HOAOJBKJFLE = 8;</code>
+       * <code>uint32 HOAOJBKJFLE = 5;</code>
        * @param value The hOAOJBKJFLE to set.
        * @return This builder for chaining.
        */
@@ -1435,7 +1435,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
         return this;
       }
       /**
-       * <code>uint32 HOAOJBKJFLE = 8;</code>
+       * <code>uint32 HOAOJBKJFLE = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearHOAOJBKJFLE() {
@@ -1447,7 +1447,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
 
       private int aFDKEOOHHPA_ ;
       /**
-       * <code>uint32 AFDKEOOHHPA = 9;</code>
+       * <code>uint32 AFDKEOOHHPA = 13;</code>
        * @return The aFDKEOOHHPA.
        */
       @java.lang.Override
@@ -1455,7 +1455,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
         return aFDKEOOHHPA_;
       }
       /**
-       * <code>uint32 AFDKEOOHHPA = 9;</code>
+       * <code>uint32 AFDKEOOHHPA = 13;</code>
        * @param value The aFDKEOOHHPA to set.
        * @return This builder for chaining.
        */
@@ -1466,7 +1466,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
         return this;
       }
       /**
-       * <code>uint32 AFDKEOOHHPA = 9;</code>
+       * <code>uint32 AFDKEOOHHPA = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearAFDKEOOHHPA() {
@@ -1478,7 +1478,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
 
       private int hp_ ;
       /**
-       * <code>uint32 hp = 10;</code>
+       * <code>uint32 hp = 15;</code>
        * @return The hp.
        */
       @java.lang.Override
@@ -1486,7 +1486,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
         return hp_;
       }
       /**
-       * <code>uint32 hp = 10;</code>
+       * <code>uint32 hp = 15;</code>
        * @param value The hp to set.
        * @return This builder for chaining.
        */
@@ -1497,7 +1497,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
         return this;
       }
       /**
-       * <code>uint32 hp = 10;</code>
+       * <code>uint32 hp = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearHp() {
@@ -1511,14 +1511,14 @@ public final class _AutochessRecordSocialBriefOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.KHFBAMPCPPFOuterClass.KHFBAMPCPPF, emu.grasscutter.net.proto.KHFBAMPCPPFOuterClass.KHFBAMPCPPF.Builder, emu.grasscutter.net.proto.KHFBAMPCPPFOuterClass.KHFBAMPCPPFOrBuilder> dNBEJHIILMMBuilder_;
       /**
-       * <code>.KHFBAMPCPPF DNBEJHIILMM = 11;</code>
+       * <code>.KHFBAMPCPPF DNBEJHIILMM = 4;</code>
        * @return Whether the dNBEJHIILMM field is set.
        */
       public boolean hasDNBEJHIILMM() {
         return dNBEJHIILMMBuilder_ != null || dNBEJHIILMM_ != null;
       }
       /**
-       * <code>.KHFBAMPCPPF DNBEJHIILMM = 11;</code>
+       * <code>.KHFBAMPCPPF DNBEJHIILMM = 4;</code>
        * @return The dNBEJHIILMM.
        */
       public emu.grasscutter.net.proto.KHFBAMPCPPFOuterClass.KHFBAMPCPPF getDNBEJHIILMM() {
@@ -1529,7 +1529,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
         }
       }
       /**
-       * <code>.KHFBAMPCPPF DNBEJHIILMM = 11;</code>
+       * <code>.KHFBAMPCPPF DNBEJHIILMM = 4;</code>
        */
       public Builder setDNBEJHIILMM(emu.grasscutter.net.proto.KHFBAMPCPPFOuterClass.KHFBAMPCPPF value) {
         if (dNBEJHIILMMBuilder_ == null) {
@@ -1545,7 +1545,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
         return this;
       }
       /**
-       * <code>.KHFBAMPCPPF DNBEJHIILMM = 11;</code>
+       * <code>.KHFBAMPCPPF DNBEJHIILMM = 4;</code>
        */
       public Builder setDNBEJHIILMM(
           emu.grasscutter.net.proto.KHFBAMPCPPFOuterClass.KHFBAMPCPPF.Builder builderForValue) {
@@ -1559,7 +1559,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
         return this;
       }
       /**
-       * <code>.KHFBAMPCPPF DNBEJHIILMM = 11;</code>
+       * <code>.KHFBAMPCPPF DNBEJHIILMM = 4;</code>
        */
       public Builder mergeDNBEJHIILMM(emu.grasscutter.net.proto.KHFBAMPCPPFOuterClass.KHFBAMPCPPF value) {
         if (dNBEJHIILMMBuilder_ == null) {
@@ -1577,7 +1577,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
         return this;
       }
       /**
-       * <code>.KHFBAMPCPPF DNBEJHIILMM = 11;</code>
+       * <code>.KHFBAMPCPPF DNBEJHIILMM = 4;</code>
        */
       public Builder clearDNBEJHIILMM() {
         if (dNBEJHIILMMBuilder_ == null) {
@@ -1591,7 +1591,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
         return this;
       }
       /**
-       * <code>.KHFBAMPCPPF DNBEJHIILMM = 11;</code>
+       * <code>.KHFBAMPCPPF DNBEJHIILMM = 4;</code>
        */
       public emu.grasscutter.net.proto.KHFBAMPCPPFOuterClass.KHFBAMPCPPF.Builder getDNBEJHIILMMBuilder() {
         
@@ -1599,7 +1599,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
         return getDNBEJHIILMMFieldBuilder().getBuilder();
       }
       /**
-       * <code>.KHFBAMPCPPF DNBEJHIILMM = 11;</code>
+       * <code>.KHFBAMPCPPF DNBEJHIILMM = 4;</code>
        */
       public emu.grasscutter.net.proto.KHFBAMPCPPFOuterClass.KHFBAMPCPPFOrBuilder getDNBEJHIILMMOrBuilder() {
         if (dNBEJHIILMMBuilder_ != null) {
@@ -1610,7 +1610,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
         }
       }
       /**
-       * <code>.KHFBAMPCPPF DNBEJHIILMM = 11;</code>
+       * <code>.KHFBAMPCPPF DNBEJHIILMM = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.KHFBAMPCPPFOuterClass.KHFBAMPCPPF, emu.grasscutter.net.proto.KHFBAMPCPPFOuterClass.KHFBAMPCPPF.Builder, emu.grasscutter.net.proto.KHFBAMPCPPFOuterClass.KHFBAMPCPPFOrBuilder> 
@@ -1628,7 +1628,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
 
       private int lKPNNFDCJLF_ ;
       /**
-       * <code>uint32 LKPNNFDCJLF = 12;</code>
+       * <code>uint32 LKPNNFDCJLF = 7;</code>
        * @return The lKPNNFDCJLF.
        */
       @java.lang.Override
@@ -1636,7 +1636,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
         return lKPNNFDCJLF_;
       }
       /**
-       * <code>uint32 LKPNNFDCJLF = 12;</code>
+       * <code>uint32 LKPNNFDCJLF = 7;</code>
        * @param value The lKPNNFDCJLF to set.
        * @return This builder for chaining.
        */
@@ -1647,7 +1647,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
         return this;
       }
       /**
-       * <code>uint32 LKPNNFDCJLF = 12;</code>
+       * <code>uint32 LKPNNFDCJLF = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearLKPNNFDCJLF() {
@@ -1659,7 +1659,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
 
       private int maxHp_ ;
       /**
-       * <code>uint32 max_hp = 14;</code>
+       * <code>uint32 max_hp = 2;</code>
        * @return The maxHp.
        */
       @java.lang.Override
@@ -1667,7 +1667,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
         return maxHp_;
       }
       /**
-       * <code>uint32 max_hp = 14;</code>
+       * <code>uint32 max_hp = 2;</code>
        * @param value The maxHp to set.
        * @return This builder for chaining.
        */
@@ -1678,7 +1678,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
         return this;
       }
       /**
-       * <code>uint32 max_hp = 14;</code>
+       * <code>uint32 max_hp = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearMaxHp() {
@@ -1692,14 +1692,14 @@ public final class _AutochessRecordSocialBriefOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> progressBuilder_;
       /**
-       * <code>.Uint32Pair progress = 15;</code>
+       * <code>.Uint32Pair progress = 6;</code>
        * @return Whether the progress field is set.
        */
       public boolean hasProgress() {
         return progressBuilder_ != null || progress_ != null;
       }
       /**
-       * <code>.Uint32Pair progress = 15;</code>
+       * <code>.Uint32Pair progress = 6;</code>
        * @return The progress.
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getProgress() {
@@ -1710,7 +1710,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
         }
       }
       /**
-       * <code>.Uint32Pair progress = 15;</code>
+       * <code>.Uint32Pair progress = 6;</code>
        */
       public Builder setProgress(emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
         if (progressBuilder_ == null) {
@@ -1726,7 +1726,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
         return this;
       }
       /**
-       * <code>.Uint32Pair progress = 15;</code>
+       * <code>.Uint32Pair progress = 6;</code>
        */
       public Builder setProgress(
           emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder builderForValue) {
@@ -1740,7 +1740,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
         return this;
       }
       /**
-       * <code>.Uint32Pair progress = 15;</code>
+       * <code>.Uint32Pair progress = 6;</code>
        */
       public Builder mergeProgress(emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
         if (progressBuilder_ == null) {
@@ -1758,7 +1758,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
         return this;
       }
       /**
-       * <code>.Uint32Pair progress = 15;</code>
+       * <code>.Uint32Pair progress = 6;</code>
        */
       public Builder clearProgress() {
         if (progressBuilder_ == null) {
@@ -1772,7 +1772,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
         return this;
       }
       /**
-       * <code>.Uint32Pair progress = 15;</code>
+       * <code>.Uint32Pair progress = 6;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder getProgressBuilder() {
         
@@ -1780,7 +1780,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
         return getProgressFieldBuilder().getBuilder();
       }
       /**
-       * <code>.Uint32Pair progress = 15;</code>
+       * <code>.Uint32Pair progress = 6;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getProgressOrBuilder() {
         if (progressBuilder_ != null) {
@@ -1791,7 +1791,7 @@ public final class _AutochessRecordSocialBriefOuterClass {
         }
       }
       /**
-       * <code>.Uint32Pair progress = 15;</code>
+       * <code>.Uint32Pair progress = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
@@ -1876,13 +1876,13 @@ public final class _AutochessRecordSocialBriefOuterClass {
       "\n!_AutochessRecordSocialBrief.proto\032\021KHF" +
       "BAMPCPPF.proto\032\020Uint32Pair.proto\"\265\002\n\033_Au" +
       "tochessRecordSocialBrief\022\031\n\021_artifact_id" +
-      "_list\030\002 \003(\r\022\014\n\004coin\030\003 \001(\r\022\023\n\013HDKMGJJKEMA" +
-      "\030\004 \003(\r\022\023\n\013NBCEKJJNAHJ\030\005 \001(\010\022\021\n\ttimestamp" +
-      "\030\006 \001(\r\022\023\n\013GBAIFJIKOON\030\007 \001(\r\022\023\n\013HOAOJBKJF" +
-      "LE\030\010 \001(\r\022\023\n\013AFDKEOOHHPA\030\t \001(\r\022\n\n\002hp\030\n \001(" +
-      "\r\022!\n\013DNBEJHIILMM\030\013 \001(\0132\014.KHFBAMPCPPF\022\023\n\013" +
-      "LKPNNFDCJLF\030\014 \001(\r\022\016\n\006max_hp\030\016 \001(\r\022\035\n\010pro" +
-      "gress\030\017 \001(\0132\013.Uint32PairBB\n\031emu.grasscut" +
+      "_list\030\n \003(\r\022\014\n\004coin\030\t \001(\r\022\023\n\013HDKMGJJKEMA" +
+      "\030\001 \003(\r\022\023\n\013NBCEKJJNAHJ\030\016 \001(\010\022\021\n\ttimestamp" +
+      "\030\003 \001(\r\022\023\n\013GBAIFJIKOON\030\014 \001(\r\022\023\n\013HOAOJBKJF" +
+      "LE\030\005 \001(\r\022\023\n\013AFDKEOOHHPA\030\r \001(\r\022\n\n\002hp\030\017 \001(" +
+      "\r\022!\n\013DNBEJHIILMM\030\004 \001(\0132\014.KHFBAMPCPPF\022\023\n\013" +
+      "LKPNNFDCJLF\030\007 \001(\r\022\016\n\006max_hp\030\002 \001(\r\022\035\n\010pro" +
+      "gress\030\006 \001(\0132\013.Uint32PairBB\n\031emu.grasscut" +
       "ter.net.protoB%_AutochessRecordSocialBri" +
       "efOuterClassb\006proto3"
     };

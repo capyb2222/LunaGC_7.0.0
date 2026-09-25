@@ -8,8 +8,8 @@ import "WidgetCreatorInfo.proto";
 
 message WidgetDoBagReq {
 	oneof op_info {
-		WidgetCreatorInfo widget_creator_info = 236;
-		WidgetCreateLocationInfo location_info = 1311;
+		WidgetCreatorInfo widget_creator_info = 1378;
+		WidgetCreateLocationInfo location_info = 623;
 	}
-	uint32 material_id = 9;
+	uint32 material_id = 2;
 }

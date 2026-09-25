@@ -19,100 +19,100 @@ public final class CoinCollectLevelDataOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool DEELGNJPPHJ = 1;</code>
+     * <code>bool DEELGNJPPHJ = 50000;</code>
      * @return The dEELGNJPPHJ.
      */
     boolean getDEELGNJPPHJ();
 
     /**
-     * <code>bool MHKPMMIOIFO = 2;</code>
+     * <code>bool MHKPMMIOIFO = 50001;</code>
      * @return The mHKPMMIOIFO.
      */
     boolean getMHKPMMIOIFO();
 
     /**
-     * <code>.CoinCollectTeamInfoData single_best_team_info = 3;</code>
+     * <code>.CoinCollectTeamInfoData single_best_team_info = 12;</code>
      * @return Whether the singleBestTeamInfo field is set.
      */
     boolean hasSingleBestTeamInfo();
     /**
-     * <code>.CoinCollectTeamInfoData single_best_team_info = 3;</code>
+     * <code>.CoinCollectTeamInfoData single_best_team_info = 12;</code>
      * @return The singleBestTeamInfo.
      */
     emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData getSingleBestTeamInfo();
     /**
-     * <code>.CoinCollectTeamInfoData single_best_team_info = 3;</code>
+     * <code>.CoinCollectTeamInfoData single_best_team_info = 12;</code>
      */
     emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoDataOrBuilder getSingleBestTeamInfoOrBuilder();
 
     /**
-     * <code>uint32 level_id = 4;</code>
+     * <code>uint32 level_id = 10;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>uint32 CLLFHBFHJFB = 8;</code>
+     * <code>uint32 CLLFHBFHJFB = 50002;</code>
      * @return The cLLFHBFHJFB.
      */
     int getCLLFHBFHJFB();
 
     /**
-     * <code>uint32 FIJFFHDFDLI = 9;</code>
+     * <code>uint32 FIJFFHDFDLI = 50003;</code>
      * @return The fIJFFHDFDLI.
      */
     int getFIJFFHDFDLI();
 
     /**
-     * <code>bool njjlelknfpl = 10;</code>
+     * <code>bool njjlelknfpl = 50004;</code>
      * @return The njjlelknfpl.
      */
     boolean getNjjlelknfpl();
 
     /**
-     * <code>uint32 oidegdjmaah = 11;</code>
+     * <code>uint32 oidegdjmaah = 50005;</code>
      * @return The oidegdjmaah.
      */
     int getOidegdjmaah();
 
     /**
-     * <code>uint32 nobhhoiapmm = 12;</code>
+     * <code>uint32 nobhhoiapmm = 50006;</code>
      * @return The nobhhoiapmm.
      */
     int getNobhhoiapmm();
 
     /**
-     * <code>bool is_level_open = 13;</code>
+     * <code>bool is_level_open = 8;</code>
      * @return The isLevelOpen.
      */
     boolean getIsLevelOpen();
 
     /**
-     * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 14;</code>
+     * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 5;</code>
      */
     java.util.List<emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData> 
         getDoubleBestTeamInfoListList();
     /**
-     * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 14;</code>
+     * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 5;</code>
      */
     emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData getDoubleBestTeamInfoList(int index);
     /**
-     * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 14;</code>
+     * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 5;</code>
      */
     int getDoubleBestTeamInfoListCount();
     /**
-     * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 14;</code>
+     * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 5;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoDataOrBuilder> 
         getDoubleBestTeamInfoListOrBuilderList();
     /**
-     * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 14;</code>
+     * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 5;</code>
      */
     emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoDataOrBuilder getDoubleBestTeamInfoListOrBuilder(
         int index);
 
     /**
-     * <code>uint32 MCGGMMLPIJP = 15;</code>
+     * <code>uint32 MCGGMMLPIJP = 50007;</code>
      * @return The mCGGMMLPIJP.
      */
     int getMCGGMMLPIJP();
@@ -164,17 +164,26 @@ public final class CoinCollectLevelDataOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
-
-              dEELGNJPPHJ_ = input.readBool();
+            case 42: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                doubleBestTeamInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData>();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              doubleBestTeamInfoList_.add(
+                  input.readMessage(emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData.parser(), extensionRegistry));
               break;
             }
-            case 16: {
+            case 64: {
 
-              mHKPMMIOIFO_ = input.readBool();
+              isLevelOpen_ = input.readBool();
               break;
             }
-            case 26: {
+            case 80: {
+
+              levelId_ = input.readUInt32();
+              break;
+            }
+            case 98: {
               emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData.Builder subBuilder = null;
               if (singleBestTeamInfo_ != null) {
                 subBuilder = singleBestTeamInfo_.toBuilder();
@@ -187,51 +196,42 @@ public final class CoinCollectLevelDataOuterClass {
 
               break;
             }
-            case 32: {
+            case 400000: {
 
-              levelId_ = input.readUInt32();
+              dEELGNJPPHJ_ = input.readBool();
               break;
             }
-            case 64: {
+            case 400008: {
+
+              mHKPMMIOIFO_ = input.readBool();
+              break;
+            }
+            case 400016: {
 
               cLLFHBFHJFB_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 400024: {
 
               fIJFFHDFDLI_ = input.readUInt32();
               break;
             }
-            case 80: {
+            case 400032: {
 
               njjlelknfpl_ = input.readBool();
               break;
             }
-            case 88: {
+            case 400040: {
 
               oidegdjmaah_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 400048: {
 
               nobhhoiapmm_ = input.readUInt32();
               break;
             }
-            case 104: {
-
-              isLevelOpen_ = input.readBool();
-              break;
-            }
-            case 114: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                doubleBestTeamInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData>();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              doubleBestTeamInfoList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData.parser(), extensionRegistry));
-              break;
-            }
-            case 120: {
+            case 400056: {
 
               mCGGMMLPIJP_ = input.readUInt32();
               break;
@@ -271,10 +271,10 @@ public final class CoinCollectLevelDataOuterClass {
               emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelData.class, emu.grasscutter.net.proto.CoinCollectLevelDataOuterClass.CoinCollectLevelData.Builder.class);
     }
 
-    public static final int DEELGNJPPHJ_FIELD_NUMBER = 1;
+    public static final int DEELGNJPPHJ_FIELD_NUMBER = 50000;
     private boolean dEELGNJPPHJ_;
     /**
-     * <code>bool DEELGNJPPHJ = 1;</code>
+     * <code>bool DEELGNJPPHJ = 50000;</code>
      * @return The dEELGNJPPHJ.
      */
     @java.lang.Override
@@ -282,10 +282,10 @@ public final class CoinCollectLevelDataOuterClass {
       return dEELGNJPPHJ_;
     }
 
-    public static final int MHKPMMIOIFO_FIELD_NUMBER = 2;
+    public static final int MHKPMMIOIFO_FIELD_NUMBER = 50001;
     private boolean mHKPMMIOIFO_;
     /**
-     * <code>bool MHKPMMIOIFO = 2;</code>
+     * <code>bool MHKPMMIOIFO = 50001;</code>
      * @return The mHKPMMIOIFO.
      */
     @java.lang.Override
@@ -293,10 +293,10 @@ public final class CoinCollectLevelDataOuterClass {
       return mHKPMMIOIFO_;
     }
 
-    public static final int SINGLE_BEST_TEAM_INFO_FIELD_NUMBER = 3;
+    public static final int SINGLE_BEST_TEAM_INFO_FIELD_NUMBER = 12;
     private emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData singleBestTeamInfo_;
     /**
-     * <code>.CoinCollectTeamInfoData single_best_team_info = 3;</code>
+     * <code>.CoinCollectTeamInfoData single_best_team_info = 12;</code>
      * @return Whether the singleBestTeamInfo field is set.
      */
     @java.lang.Override
@@ -304,7 +304,7 @@ public final class CoinCollectLevelDataOuterClass {
       return singleBestTeamInfo_ != null;
     }
     /**
-     * <code>.CoinCollectTeamInfoData single_best_team_info = 3;</code>
+     * <code>.CoinCollectTeamInfoData single_best_team_info = 12;</code>
      * @return The singleBestTeamInfo.
      */
     @java.lang.Override
@@ -312,17 +312,17 @@ public final class CoinCollectLevelDataOuterClass {
       return singleBestTeamInfo_ == null ? emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData.getDefaultInstance() : singleBestTeamInfo_;
     }
     /**
-     * <code>.CoinCollectTeamInfoData single_best_team_info = 3;</code>
+     * <code>.CoinCollectTeamInfoData single_best_team_info = 12;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoDataOrBuilder getSingleBestTeamInfoOrBuilder() {
       return getSingleBestTeamInfo();
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 4;
+    public static final int LEVEL_ID_FIELD_NUMBER = 10;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 4;</code>
+     * <code>uint32 level_id = 10;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -330,10 +330,10 @@ public final class CoinCollectLevelDataOuterClass {
       return levelId_;
     }
 
-    public static final int CLLFHBFHJFB_FIELD_NUMBER = 8;
+    public static final int CLLFHBFHJFB_FIELD_NUMBER = 50002;
     private int cLLFHBFHJFB_;
     /**
-     * <code>uint32 CLLFHBFHJFB = 8;</code>
+     * <code>uint32 CLLFHBFHJFB = 50002;</code>
      * @return The cLLFHBFHJFB.
      */
     @java.lang.Override
@@ -341,10 +341,10 @@ public final class CoinCollectLevelDataOuterClass {
       return cLLFHBFHJFB_;
     }
 
-    public static final int FIJFFHDFDLI_FIELD_NUMBER = 9;
+    public static final int FIJFFHDFDLI_FIELD_NUMBER = 50003;
     private int fIJFFHDFDLI_;
     /**
-     * <code>uint32 FIJFFHDFDLI = 9;</code>
+     * <code>uint32 FIJFFHDFDLI = 50003;</code>
      * @return The fIJFFHDFDLI.
      */
     @java.lang.Override
@@ -352,10 +352,10 @@ public final class CoinCollectLevelDataOuterClass {
       return fIJFFHDFDLI_;
     }
 
-    public static final int NJJLELKNFPL_FIELD_NUMBER = 10;
+    public static final int NJJLELKNFPL_FIELD_NUMBER = 50004;
     private boolean njjlelknfpl_;
     /**
-     * <code>bool njjlelknfpl = 10;</code>
+     * <code>bool njjlelknfpl = 50004;</code>
      * @return The njjlelknfpl.
      */
     @java.lang.Override
@@ -363,10 +363,10 @@ public final class CoinCollectLevelDataOuterClass {
       return njjlelknfpl_;
     }
 
-    public static final int OIDEGDJMAAH_FIELD_NUMBER = 11;
+    public static final int OIDEGDJMAAH_FIELD_NUMBER = 50005;
     private int oidegdjmaah_;
     /**
-     * <code>uint32 oidegdjmaah = 11;</code>
+     * <code>uint32 oidegdjmaah = 50005;</code>
      * @return The oidegdjmaah.
      */
     @java.lang.Override
@@ -374,10 +374,10 @@ public final class CoinCollectLevelDataOuterClass {
       return oidegdjmaah_;
     }
 
-    public static final int NOBHHOIAPMM_FIELD_NUMBER = 12;
+    public static final int NOBHHOIAPMM_FIELD_NUMBER = 50006;
     private int nobhhoiapmm_;
     /**
-     * <code>uint32 nobhhoiapmm = 12;</code>
+     * <code>uint32 nobhhoiapmm = 50006;</code>
      * @return The nobhhoiapmm.
      */
     @java.lang.Override
@@ -385,10 +385,10 @@ public final class CoinCollectLevelDataOuterClass {
       return nobhhoiapmm_;
     }
 
-    public static final int IS_LEVEL_OPEN_FIELD_NUMBER = 13;
+    public static final int IS_LEVEL_OPEN_FIELD_NUMBER = 8;
     private boolean isLevelOpen_;
     /**
-     * <code>bool is_level_open = 13;</code>
+     * <code>bool is_level_open = 8;</code>
      * @return The isLevelOpen.
      */
     @java.lang.Override
@@ -396,17 +396,17 @@ public final class CoinCollectLevelDataOuterClass {
       return isLevelOpen_;
     }
 
-    public static final int DOUBLE_BEST_TEAM_INFO_LIST_FIELD_NUMBER = 14;
+    public static final int DOUBLE_BEST_TEAM_INFO_LIST_FIELD_NUMBER = 5;
     private java.util.List<emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData> doubleBestTeamInfoList_;
     /**
-     * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 14;</code>
+     * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 5;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData> getDoubleBestTeamInfoListList() {
       return doubleBestTeamInfoList_;
     }
     /**
-     * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 14;</code>
+     * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 5;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoDataOrBuilder> 
@@ -414,21 +414,21 @@ public final class CoinCollectLevelDataOuterClass {
       return doubleBestTeamInfoList_;
     }
     /**
-     * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 14;</code>
+     * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 5;</code>
      */
     @java.lang.Override
     public int getDoubleBestTeamInfoListCount() {
       return doubleBestTeamInfoList_.size();
     }
     /**
-     * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 14;</code>
+     * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 5;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData getDoubleBestTeamInfoList(int index) {
       return doubleBestTeamInfoList_.get(index);
     }
     /**
-     * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 14;</code>
+     * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 5;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoDataOrBuilder getDoubleBestTeamInfoListOrBuilder(
@@ -436,10 +436,10 @@ public final class CoinCollectLevelDataOuterClass {
       return doubleBestTeamInfoList_.get(index);
     }
 
-    public static final int MCGGMMLPIJP_FIELD_NUMBER = 15;
+    public static final int MCGGMMLPIJP_FIELD_NUMBER = 50007;
     private int mCGGMMLPIJP_;
     /**
-     * <code>uint32 MCGGMMLPIJP = 15;</code>
+     * <code>uint32 MCGGMMLPIJP = 50007;</code>
      * @return The mCGGMMLPIJP.
      */
     @java.lang.Override
@@ -461,41 +461,41 @@ public final class CoinCollectLevelDataOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (dEELGNJPPHJ_ != false) {
-        output.writeBool(1, dEELGNJPPHJ_);
-      }
-      if (mHKPMMIOIFO_ != false) {
-        output.writeBool(2, mHKPMMIOIFO_);
-      }
-      if (singleBestTeamInfo_ != null) {
-        output.writeMessage(3, getSingleBestTeamInfo());
-      }
-      if (levelId_ != 0) {
-        output.writeUInt32(4, levelId_);
-      }
-      if (cLLFHBFHJFB_ != 0) {
-        output.writeUInt32(8, cLLFHBFHJFB_);
-      }
-      if (fIJFFHDFDLI_ != 0) {
-        output.writeUInt32(9, fIJFFHDFDLI_);
-      }
-      if (njjlelknfpl_ != false) {
-        output.writeBool(10, njjlelknfpl_);
-      }
-      if (oidegdjmaah_ != 0) {
-        output.writeUInt32(11, oidegdjmaah_);
-      }
-      if (nobhhoiapmm_ != 0) {
-        output.writeUInt32(12, nobhhoiapmm_);
+      for (int i = 0; i < doubleBestTeamInfoList_.size(); i++) {
+        output.writeMessage(5, doubleBestTeamInfoList_.get(i));
       }
       if (isLevelOpen_ != false) {
-        output.writeBool(13, isLevelOpen_);
+        output.writeBool(8, isLevelOpen_);
       }
-      for (int i = 0; i < doubleBestTeamInfoList_.size(); i++) {
-        output.writeMessage(14, doubleBestTeamInfoList_.get(i));
+      if (levelId_ != 0) {
+        output.writeUInt32(10, levelId_);
+      }
+      if (singleBestTeamInfo_ != null) {
+        output.writeMessage(12, getSingleBestTeamInfo());
+      }
+      if (dEELGNJPPHJ_ != false) {
+        output.writeBool(50000, dEELGNJPPHJ_);
+      }
+      if (mHKPMMIOIFO_ != false) {
+        output.writeBool(50001, mHKPMMIOIFO_);
+      }
+      if (cLLFHBFHJFB_ != 0) {
+        output.writeUInt32(50002, cLLFHBFHJFB_);
+      }
+      if (fIJFFHDFDLI_ != 0) {
+        output.writeUInt32(50003, fIJFFHDFDLI_);
+      }
+      if (njjlelknfpl_ != false) {
+        output.writeBool(50004, njjlelknfpl_);
+      }
+      if (oidegdjmaah_ != 0) {
+        output.writeUInt32(50005, oidegdjmaah_);
+      }
+      if (nobhhoiapmm_ != 0) {
+        output.writeUInt32(50006, nobhhoiapmm_);
       }
       if (mCGGMMLPIJP_ != 0) {
-        output.writeUInt32(15, mCGGMMLPIJP_);
+        output.writeUInt32(50007, mCGGMMLPIJP_);
       }
       unknownFields.writeTo(output);
     }
@@ -506,53 +506,53 @@ public final class CoinCollectLevelDataOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (dEELGNJPPHJ_ != false) {
+      for (int i = 0; i < doubleBestTeamInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1, dEELGNJPPHJ_);
-      }
-      if (mHKPMMIOIFO_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(2, mHKPMMIOIFO_);
-      }
-      if (singleBestTeamInfo_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, getSingleBestTeamInfo());
-      }
-      if (levelId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, levelId_);
-      }
-      if (cLLFHBFHJFB_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, cLLFHBFHJFB_);
-      }
-      if (fIJFFHDFDLI_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, fIJFFHDFDLI_);
-      }
-      if (njjlelknfpl_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(10, njjlelknfpl_);
-      }
-      if (oidegdjmaah_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, oidegdjmaah_);
-      }
-      if (nobhhoiapmm_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, nobhhoiapmm_);
+          .computeMessageSize(5, doubleBestTeamInfoList_.get(i));
       }
       if (isLevelOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(13, isLevelOpen_);
+          .computeBoolSize(8, isLevelOpen_);
       }
-      for (int i = 0; i < doubleBestTeamInfoList_.size(); i++) {
+      if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, doubleBestTeamInfoList_.get(i));
+          .computeUInt32Size(10, levelId_);
+      }
+      if (singleBestTeamInfo_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(12, getSingleBestTeamInfo());
+      }
+      if (dEELGNJPPHJ_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(50000, dEELGNJPPHJ_);
+      }
+      if (mHKPMMIOIFO_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(50001, mHKPMMIOIFO_);
+      }
+      if (cLLFHBFHJFB_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50002, cLLFHBFHJFB_);
+      }
+      if (fIJFFHDFDLI_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50003, fIJFFHDFDLI_);
+      }
+      if (njjlelknfpl_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(50004, njjlelknfpl_);
+      }
+      if (oidegdjmaah_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50005, oidegdjmaah_);
+      }
+      if (nobhhoiapmm_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50006, nobhhoiapmm_);
       }
       if (mCGGMMLPIJP_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, mCGGMMLPIJP_);
+          .computeUInt32Size(50007, mCGGMMLPIJP_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -995,7 +995,7 @@ public final class CoinCollectLevelDataOuterClass {
 
       private boolean dEELGNJPPHJ_ ;
       /**
-       * <code>bool DEELGNJPPHJ = 1;</code>
+       * <code>bool DEELGNJPPHJ = 50000;</code>
        * @return The dEELGNJPPHJ.
        */
       @java.lang.Override
@@ -1003,7 +1003,7 @@ public final class CoinCollectLevelDataOuterClass {
         return dEELGNJPPHJ_;
       }
       /**
-       * <code>bool DEELGNJPPHJ = 1;</code>
+       * <code>bool DEELGNJPPHJ = 50000;</code>
        * @param value The dEELGNJPPHJ to set.
        * @return This builder for chaining.
        */
@@ -1014,7 +1014,7 @@ public final class CoinCollectLevelDataOuterClass {
         return this;
       }
       /**
-       * <code>bool DEELGNJPPHJ = 1;</code>
+       * <code>bool DEELGNJPPHJ = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearDEELGNJPPHJ() {
@@ -1026,7 +1026,7 @@ public final class CoinCollectLevelDataOuterClass {
 
       private boolean mHKPMMIOIFO_ ;
       /**
-       * <code>bool MHKPMMIOIFO = 2;</code>
+       * <code>bool MHKPMMIOIFO = 50001;</code>
        * @return The mHKPMMIOIFO.
        */
       @java.lang.Override
@@ -1034,7 +1034,7 @@ public final class CoinCollectLevelDataOuterClass {
         return mHKPMMIOIFO_;
       }
       /**
-       * <code>bool MHKPMMIOIFO = 2;</code>
+       * <code>bool MHKPMMIOIFO = 50001;</code>
        * @param value The mHKPMMIOIFO to set.
        * @return This builder for chaining.
        */
@@ -1045,7 +1045,7 @@ public final class CoinCollectLevelDataOuterClass {
         return this;
       }
       /**
-       * <code>bool MHKPMMIOIFO = 2;</code>
+       * <code>bool MHKPMMIOIFO = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearMHKPMMIOIFO() {
@@ -1059,14 +1059,14 @@ public final class CoinCollectLevelDataOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData, emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData.Builder, emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoDataOrBuilder> singleBestTeamInfoBuilder_;
       /**
-       * <code>.CoinCollectTeamInfoData single_best_team_info = 3;</code>
+       * <code>.CoinCollectTeamInfoData single_best_team_info = 12;</code>
        * @return Whether the singleBestTeamInfo field is set.
        */
       public boolean hasSingleBestTeamInfo() {
         return singleBestTeamInfoBuilder_ != null || singleBestTeamInfo_ != null;
       }
       /**
-       * <code>.CoinCollectTeamInfoData single_best_team_info = 3;</code>
+       * <code>.CoinCollectTeamInfoData single_best_team_info = 12;</code>
        * @return The singleBestTeamInfo.
        */
       public emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData getSingleBestTeamInfo() {
@@ -1077,7 +1077,7 @@ public final class CoinCollectLevelDataOuterClass {
         }
       }
       /**
-       * <code>.CoinCollectTeamInfoData single_best_team_info = 3;</code>
+       * <code>.CoinCollectTeamInfoData single_best_team_info = 12;</code>
        */
       public Builder setSingleBestTeamInfo(emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData value) {
         if (singleBestTeamInfoBuilder_ == null) {
@@ -1093,7 +1093,7 @@ public final class CoinCollectLevelDataOuterClass {
         return this;
       }
       /**
-       * <code>.CoinCollectTeamInfoData single_best_team_info = 3;</code>
+       * <code>.CoinCollectTeamInfoData single_best_team_info = 12;</code>
        */
       public Builder setSingleBestTeamInfo(
           emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData.Builder builderForValue) {
@@ -1107,7 +1107,7 @@ public final class CoinCollectLevelDataOuterClass {
         return this;
       }
       /**
-       * <code>.CoinCollectTeamInfoData single_best_team_info = 3;</code>
+       * <code>.CoinCollectTeamInfoData single_best_team_info = 12;</code>
        */
       public Builder mergeSingleBestTeamInfo(emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData value) {
         if (singleBestTeamInfoBuilder_ == null) {
@@ -1125,7 +1125,7 @@ public final class CoinCollectLevelDataOuterClass {
         return this;
       }
       /**
-       * <code>.CoinCollectTeamInfoData single_best_team_info = 3;</code>
+       * <code>.CoinCollectTeamInfoData single_best_team_info = 12;</code>
        */
       public Builder clearSingleBestTeamInfo() {
         if (singleBestTeamInfoBuilder_ == null) {
@@ -1139,7 +1139,7 @@ public final class CoinCollectLevelDataOuterClass {
         return this;
       }
       /**
-       * <code>.CoinCollectTeamInfoData single_best_team_info = 3;</code>
+       * <code>.CoinCollectTeamInfoData single_best_team_info = 12;</code>
        */
       public emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData.Builder getSingleBestTeamInfoBuilder() {
         
@@ -1147,7 +1147,7 @@ public final class CoinCollectLevelDataOuterClass {
         return getSingleBestTeamInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>.CoinCollectTeamInfoData single_best_team_info = 3;</code>
+       * <code>.CoinCollectTeamInfoData single_best_team_info = 12;</code>
        */
       public emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoDataOrBuilder getSingleBestTeamInfoOrBuilder() {
         if (singleBestTeamInfoBuilder_ != null) {
@@ -1158,7 +1158,7 @@ public final class CoinCollectLevelDataOuterClass {
         }
       }
       /**
-       * <code>.CoinCollectTeamInfoData single_best_team_info = 3;</code>
+       * <code>.CoinCollectTeamInfoData single_best_team_info = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData, emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData.Builder, emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoDataOrBuilder> 
@@ -1176,7 +1176,7 @@ public final class CoinCollectLevelDataOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 4;</code>
+       * <code>uint32 level_id = 10;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -1184,7 +1184,7 @@ public final class CoinCollectLevelDataOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 4;</code>
+       * <code>uint32 level_id = 10;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -1195,7 +1195,7 @@ public final class CoinCollectLevelDataOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 4;</code>
+       * <code>uint32 level_id = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -1207,7 +1207,7 @@ public final class CoinCollectLevelDataOuterClass {
 
       private int cLLFHBFHJFB_ ;
       /**
-       * <code>uint32 CLLFHBFHJFB = 8;</code>
+       * <code>uint32 CLLFHBFHJFB = 50002;</code>
        * @return The cLLFHBFHJFB.
        */
       @java.lang.Override
@@ -1215,7 +1215,7 @@ public final class CoinCollectLevelDataOuterClass {
         return cLLFHBFHJFB_;
       }
       /**
-       * <code>uint32 CLLFHBFHJFB = 8;</code>
+       * <code>uint32 CLLFHBFHJFB = 50002;</code>
        * @param value The cLLFHBFHJFB to set.
        * @return This builder for chaining.
        */
@@ -1226,7 +1226,7 @@ public final class CoinCollectLevelDataOuterClass {
         return this;
       }
       /**
-       * <code>uint32 CLLFHBFHJFB = 8;</code>
+       * <code>uint32 CLLFHBFHJFB = 50002;</code>
        * @return This builder for chaining.
        */
       public Builder clearCLLFHBFHJFB() {
@@ -1238,7 +1238,7 @@ public final class CoinCollectLevelDataOuterClass {
 
       private int fIJFFHDFDLI_ ;
       /**
-       * <code>uint32 FIJFFHDFDLI = 9;</code>
+       * <code>uint32 FIJFFHDFDLI = 50003;</code>
        * @return The fIJFFHDFDLI.
        */
       @java.lang.Override
@@ -1246,7 +1246,7 @@ public final class CoinCollectLevelDataOuterClass {
         return fIJFFHDFDLI_;
       }
       /**
-       * <code>uint32 FIJFFHDFDLI = 9;</code>
+       * <code>uint32 FIJFFHDFDLI = 50003;</code>
        * @param value The fIJFFHDFDLI to set.
        * @return This builder for chaining.
        */
@@ -1257,7 +1257,7 @@ public final class CoinCollectLevelDataOuterClass {
         return this;
       }
       /**
-       * <code>uint32 FIJFFHDFDLI = 9;</code>
+       * <code>uint32 FIJFFHDFDLI = 50003;</code>
        * @return This builder for chaining.
        */
       public Builder clearFIJFFHDFDLI() {
@@ -1269,7 +1269,7 @@ public final class CoinCollectLevelDataOuterClass {
 
       private boolean njjlelknfpl_ ;
       /**
-       * <code>bool njjlelknfpl = 10;</code>
+       * <code>bool njjlelknfpl = 50004;</code>
        * @return The njjlelknfpl.
        */
       @java.lang.Override
@@ -1277,7 +1277,7 @@ public final class CoinCollectLevelDataOuterClass {
         return njjlelknfpl_;
       }
       /**
-       * <code>bool njjlelknfpl = 10;</code>
+       * <code>bool njjlelknfpl = 50004;</code>
        * @param value The njjlelknfpl to set.
        * @return This builder for chaining.
        */
@@ -1288,7 +1288,7 @@ public final class CoinCollectLevelDataOuterClass {
         return this;
       }
       /**
-       * <code>bool njjlelknfpl = 10;</code>
+       * <code>bool njjlelknfpl = 50004;</code>
        * @return This builder for chaining.
        */
       public Builder clearNjjlelknfpl() {
@@ -1300,7 +1300,7 @@ public final class CoinCollectLevelDataOuterClass {
 
       private int oidegdjmaah_ ;
       /**
-       * <code>uint32 oidegdjmaah = 11;</code>
+       * <code>uint32 oidegdjmaah = 50005;</code>
        * @return The oidegdjmaah.
        */
       @java.lang.Override
@@ -1308,7 +1308,7 @@ public final class CoinCollectLevelDataOuterClass {
         return oidegdjmaah_;
       }
       /**
-       * <code>uint32 oidegdjmaah = 11;</code>
+       * <code>uint32 oidegdjmaah = 50005;</code>
        * @param value The oidegdjmaah to set.
        * @return This builder for chaining.
        */
@@ -1319,7 +1319,7 @@ public final class CoinCollectLevelDataOuterClass {
         return this;
       }
       /**
-       * <code>uint32 oidegdjmaah = 11;</code>
+       * <code>uint32 oidegdjmaah = 50005;</code>
        * @return This builder for chaining.
        */
       public Builder clearOidegdjmaah() {
@@ -1331,7 +1331,7 @@ public final class CoinCollectLevelDataOuterClass {
 
       private int nobhhoiapmm_ ;
       /**
-       * <code>uint32 nobhhoiapmm = 12;</code>
+       * <code>uint32 nobhhoiapmm = 50006;</code>
        * @return The nobhhoiapmm.
        */
       @java.lang.Override
@@ -1339,7 +1339,7 @@ public final class CoinCollectLevelDataOuterClass {
         return nobhhoiapmm_;
       }
       /**
-       * <code>uint32 nobhhoiapmm = 12;</code>
+       * <code>uint32 nobhhoiapmm = 50006;</code>
        * @param value The nobhhoiapmm to set.
        * @return This builder for chaining.
        */
@@ -1350,7 +1350,7 @@ public final class CoinCollectLevelDataOuterClass {
         return this;
       }
       /**
-       * <code>uint32 nobhhoiapmm = 12;</code>
+       * <code>uint32 nobhhoiapmm = 50006;</code>
        * @return This builder for chaining.
        */
       public Builder clearNobhhoiapmm() {
@@ -1362,7 +1362,7 @@ public final class CoinCollectLevelDataOuterClass {
 
       private boolean isLevelOpen_ ;
       /**
-       * <code>bool is_level_open = 13;</code>
+       * <code>bool is_level_open = 8;</code>
        * @return The isLevelOpen.
        */
       @java.lang.Override
@@ -1370,7 +1370,7 @@ public final class CoinCollectLevelDataOuterClass {
         return isLevelOpen_;
       }
       /**
-       * <code>bool is_level_open = 13;</code>
+       * <code>bool is_level_open = 8;</code>
        * @param value The isLevelOpen to set.
        * @return This builder for chaining.
        */
@@ -1381,7 +1381,7 @@ public final class CoinCollectLevelDataOuterClass {
         return this;
       }
       /**
-       * <code>bool is_level_open = 13;</code>
+       * <code>bool is_level_open = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsLevelOpen() {
@@ -1404,7 +1404,7 @@ public final class CoinCollectLevelDataOuterClass {
           emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData, emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData.Builder, emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoDataOrBuilder> doubleBestTeamInfoListBuilder_;
 
       /**
-       * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 14;</code>
+       * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 5;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData> getDoubleBestTeamInfoListList() {
         if (doubleBestTeamInfoListBuilder_ == null) {
@@ -1414,7 +1414,7 @@ public final class CoinCollectLevelDataOuterClass {
         }
       }
       /**
-       * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 14;</code>
+       * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 5;</code>
        */
       public int getDoubleBestTeamInfoListCount() {
         if (doubleBestTeamInfoListBuilder_ == null) {
@@ -1424,7 +1424,7 @@ public final class CoinCollectLevelDataOuterClass {
         }
       }
       /**
-       * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 14;</code>
+       * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 5;</code>
        */
       public emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData getDoubleBestTeamInfoList(int index) {
         if (doubleBestTeamInfoListBuilder_ == null) {
@@ -1434,7 +1434,7 @@ public final class CoinCollectLevelDataOuterClass {
         }
       }
       /**
-       * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 14;</code>
+       * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 5;</code>
        */
       public Builder setDoubleBestTeamInfoList(
           int index, emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData value) {
@@ -1451,7 +1451,7 @@ public final class CoinCollectLevelDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 14;</code>
+       * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 5;</code>
        */
       public Builder setDoubleBestTeamInfoList(
           int index, emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData.Builder builderForValue) {
@@ -1465,7 +1465,7 @@ public final class CoinCollectLevelDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 14;</code>
+       * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 5;</code>
        */
       public Builder addDoubleBestTeamInfoList(emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData value) {
         if (doubleBestTeamInfoListBuilder_ == null) {
@@ -1481,7 +1481,7 @@ public final class CoinCollectLevelDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 14;</code>
+       * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 5;</code>
        */
       public Builder addDoubleBestTeamInfoList(
           int index, emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData value) {
@@ -1498,7 +1498,7 @@ public final class CoinCollectLevelDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 14;</code>
+       * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 5;</code>
        */
       public Builder addDoubleBestTeamInfoList(
           emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData.Builder builderForValue) {
@@ -1512,7 +1512,7 @@ public final class CoinCollectLevelDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 14;</code>
+       * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 5;</code>
        */
       public Builder addDoubleBestTeamInfoList(
           int index, emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData.Builder builderForValue) {
@@ -1526,7 +1526,7 @@ public final class CoinCollectLevelDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 14;</code>
+       * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 5;</code>
        */
       public Builder addAllDoubleBestTeamInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData> values) {
@@ -1541,7 +1541,7 @@ public final class CoinCollectLevelDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 14;</code>
+       * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 5;</code>
        */
       public Builder clearDoubleBestTeamInfoList() {
         if (doubleBestTeamInfoListBuilder_ == null) {
@@ -1554,7 +1554,7 @@ public final class CoinCollectLevelDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 14;</code>
+       * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 5;</code>
        */
       public Builder removeDoubleBestTeamInfoList(int index) {
         if (doubleBestTeamInfoListBuilder_ == null) {
@@ -1567,14 +1567,14 @@ public final class CoinCollectLevelDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 14;</code>
+       * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 5;</code>
        */
       public emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData.Builder getDoubleBestTeamInfoListBuilder(
           int index) {
         return getDoubleBestTeamInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 14;</code>
+       * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 5;</code>
        */
       public emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoDataOrBuilder getDoubleBestTeamInfoListOrBuilder(
           int index) {
@@ -1584,7 +1584,7 @@ public final class CoinCollectLevelDataOuterClass {
         }
       }
       /**
-       * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 14;</code>
+       * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 5;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoDataOrBuilder> 
            getDoubleBestTeamInfoListOrBuilderList() {
@@ -1595,14 +1595,14 @@ public final class CoinCollectLevelDataOuterClass {
         }
       }
       /**
-       * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 14;</code>
+       * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 5;</code>
        */
       public emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData.Builder addDoubleBestTeamInfoListBuilder() {
         return getDoubleBestTeamInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData.getDefaultInstance());
       }
       /**
-       * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 14;</code>
+       * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 5;</code>
        */
       public emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData.Builder addDoubleBestTeamInfoListBuilder(
           int index) {
@@ -1610,7 +1610,7 @@ public final class CoinCollectLevelDataOuterClass {
             index, emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData.getDefaultInstance());
       }
       /**
-       * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 14;</code>
+       * <code>repeated .CoinCollectTeamInfoData double_best_team_info_list = 5;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.CoinCollectTeamInfoDataOuterClass.CoinCollectTeamInfoData.Builder> 
            getDoubleBestTeamInfoListBuilderList() {
@@ -1633,7 +1633,7 @@ public final class CoinCollectLevelDataOuterClass {
 
       private int mCGGMMLPIJP_ ;
       /**
-       * <code>uint32 MCGGMMLPIJP = 15;</code>
+       * <code>uint32 MCGGMMLPIJP = 50007;</code>
        * @return The mCGGMMLPIJP.
        */
       @java.lang.Override
@@ -1641,7 +1641,7 @@ public final class CoinCollectLevelDataOuterClass {
         return mCGGMMLPIJP_;
       }
       /**
-       * <code>uint32 MCGGMMLPIJP = 15;</code>
+       * <code>uint32 MCGGMMLPIJP = 50007;</code>
        * @param value The mCGGMMLPIJP to set.
        * @return This builder for chaining.
        */
@@ -1652,7 +1652,7 @@ public final class CoinCollectLevelDataOuterClass {
         return this;
       }
       /**
-       * <code>uint32 MCGGMMLPIJP = 15;</code>
+       * <code>uint32 MCGGMMLPIJP = 50007;</code>
        * @return This builder for chaining.
        */
       public Builder clearMCGGMMLPIJP() {
@@ -1729,18 +1729,18 @@ public final class CoinCollectLevelDataOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\032CoinCollectLevelData.proto\032\035CoinCollec" +
-      "tTeamInfoData.proto\"\336\002\n\024CoinCollectLevel" +
-      "Data\022\023\n\013DEELGNJPPHJ\030\001 \001(\010\022\023\n\013MHKPMMIOIFO" +
-      "\030\002 \001(\010\0227\n\025single_best_team_info\030\003 \001(\0132\030." +
-      "CoinCollectTeamInfoData\022\020\n\010level_id\030\004 \001(" +
-      "\r\022\023\n\013CLLFHBFHJFB\030\010 \001(\r\022\023\n\013FIJFFHDFDLI\030\t " +
-      "\001(\r\022\023\n\013njjlelknfpl\030\n \001(\010\022\023\n\013oidegdjmaah\030" +
-      "\013 \001(\r\022\023\n\013nobhhoiapmm\030\014 \001(\r\022\025\n\ris_level_o" +
-      "pen\030\r \001(\010\022<\n\032double_best_team_info_list\030" +
-      "\016 \003(\0132\030.CoinCollectTeamInfoData\022\023\n\013MCGGM" +
-      "MLPIJP\030\017 \001(\rB;\n\031emu.grasscutter.net.prot" +
-      "oB\036CoinCollectLevelDataOuterClassb\006proto" +
-      "3"
+      "tTeamInfoData.proto\"\356\002\n\024CoinCollectLevel" +
+      "Data\022\025\n\013DEELGNJPPHJ\030\320\206\003 \001(\010\022\025\n\013MHKPMMIOI" +
+      "FO\030\321\206\003 \001(\010\0227\n\025single_best_team_info\030\014 \001(" +
+      "\0132\030.CoinCollectTeamInfoData\022\020\n\010level_id\030" +
+      "\n \001(\r\022\025\n\013CLLFHBFHJFB\030\322\206\003 \001(\r\022\025\n\013FIJFFHDF" +
+      "DLI\030\323\206\003 \001(\r\022\025\n\013njjlelknfpl\030\324\206\003 \001(\010\022\025\n\013oi" +
+      "degdjmaah\030\325\206\003 \001(\r\022\025\n\013nobhhoiapmm\030\326\206\003 \001(\r" +
+      "\022\025\n\ris_level_open\030\010 \001(\010\022<\n\032double_best_t" +
+      "eam_info_list\030\005 \003(\0132\030.CoinCollectTeamInf" +
+      "oData\022\025\n\013MCGGMMLPIJP\030\327\206\003 \001(\rB;\n\031emu.gras" +
+      "scutter.net.protoB\036CoinCollectLevelDataO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

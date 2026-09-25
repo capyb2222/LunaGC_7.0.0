@@ -19,7 +19,7 @@ public final class _TakeDailyTaskScoreRewardReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool _is_claim_daily_attendance = 9;</code>
+     * <code>bool _is_claim_daily_attendance = 7;</code>
      * @return The isClaimDailyAttendance.
      */
     boolean getIsClaimDailyAttendance();
@@ -69,7 +69,7 @@ public final class _TakeDailyTaskScoreRewardReqOuterClass {
             case 0:
               done = true;
               break;
-            case 72: {
+            case 56: {
 
               IsClaimDailyAttendance_ = input.readBool();
               break;
@@ -106,10 +106,10 @@ public final class _TakeDailyTaskScoreRewardReqOuterClass {
               emu.grasscutter.net.proto._TakeDailyTaskScoreRewardReqOuterClass._TakeDailyTaskScoreRewardReq.class, emu.grasscutter.net.proto._TakeDailyTaskScoreRewardReqOuterClass._TakeDailyTaskScoreRewardReq.Builder.class);
     }
 
-    public static final int _IS_CLAIM_DAILY_ATTENDANCE_FIELD_NUMBER = 9;
+    public static final int _IS_CLAIM_DAILY_ATTENDANCE_FIELD_NUMBER = 7;
     private boolean IsClaimDailyAttendance_;
     /**
-     * <code>bool _is_claim_daily_attendance = 9;</code>
+     * <code>bool _is_claim_daily_attendance = 7;</code>
      * @return The isClaimDailyAttendance.
      */
     @java.lang.Override
@@ -132,7 +132,7 @@ public final class _TakeDailyTaskScoreRewardReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (IsClaimDailyAttendance_ != false) {
-        output.writeBool(9, IsClaimDailyAttendance_);
+        output.writeBool(7, IsClaimDailyAttendance_);
       }
       unknownFields.writeTo(output);
     }
@@ -145,7 +145,7 @@ public final class _TakeDailyTaskScoreRewardReqOuterClass {
       size = 0;
       if (IsClaimDailyAttendance_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, IsClaimDailyAttendance_);
+          .computeBoolSize(7, IsClaimDailyAttendance_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -422,7 +422,7 @@ public final class _TakeDailyTaskScoreRewardReqOuterClass {
 
       private boolean IsClaimDailyAttendance_ ;
       /**
-       * <code>bool _is_claim_daily_attendance = 9;</code>
+       * <code>bool _is_claim_daily_attendance = 7;</code>
        * @return The isClaimDailyAttendance.
        */
       @java.lang.Override
@@ -430,7 +430,7 @@ public final class _TakeDailyTaskScoreRewardReqOuterClass {
         return IsClaimDailyAttendance_;
       }
       /**
-       * <code>bool _is_claim_daily_attendance = 9;</code>
+       * <code>bool _is_claim_daily_attendance = 7;</code>
        * @param value The isClaimDailyAttendance to set.
        * @return This builder for chaining.
        */
@@ -441,7 +441,7 @@ public final class _TakeDailyTaskScoreRewardReqOuterClass {
         return this;
       }
       /**
-       * <code>bool _is_claim_daily_attendance = 9;</code>
+       * <code>bool _is_claim_daily_attendance = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsClaimDailyAttendance() {
@@ -519,7 +519,7 @@ public final class _TakeDailyTaskScoreRewardReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\"_TakeDailyTaskScoreRewardReq.proto\"B\n\034" +
       "_TakeDailyTaskScoreRewardReq\022\"\n\032_is_clai" +
-      "m_daily_attendance\030\t \001(\010BC\n\031emu.grasscut" +
+      "m_daily_attendance\030\007 \001(\010BC\n\031emu.grasscut" +
       "ter.net.protoB&_TakeDailyTaskScoreReward" +
       "ReqOuterClassb\006proto3"
     };

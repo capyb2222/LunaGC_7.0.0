@@ -19,49 +19,49 @@ public final class _LanternRiteV6DanmakuLevelInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 _round_num = 1;</code>
+     * <code>uint32 _round_num = 4;</code>
      * @return The roundNum.
      */
     int getRoundNum();
 
     /**
-     * <code>uint32 IJGJCFGFPFE = 5;</code>
+     * <code>uint32 IJGJCFGFPFE = 50000;</code>
      * @return The iJGJCFGFPFE.
      */
     int getIJGJCFGFPFE();
 
     /**
-     * <code>uint32 PLAPMAGJCCA = 6;</code>
+     * <code>uint32 PLAPMAGJCCA = 50001;</code>
      * @return The pLAPMAGJCCA.
      */
     int getPLAPMAGJCCA();
 
     /**
-     * <code>uint32 level_id = 7;</code>
+     * <code>uint32 level_id = 9;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>bool is_succ = 8;</code>
+     * <code>bool is_succ = 7;</code>
      * @return The isSucc.
      */
     boolean getIsSucc();
 
     /**
-     * <code>uint32 FAMHJPHJKPE = 9;</code>
+     * <code>uint32 FAMHJPHJKPE = 50002;</code>
      * @return The fAMHJPHJKPE.
      */
     int getFAMHJPHJKPE();
 
     /**
-     * <code>uint32 BGFHONDHLIF = 10;</code>
+     * <code>uint32 BGFHONDHLIF = 50003;</code>
      * @return The bGFHONDHLIF.
      */
     int getBGFHONDHLIF();
 
     /**
-     * <code>uint32 KOJLBGECDGJ = 14;</code>
+     * <code>uint32 KOJLBGECDGJ = 50004;</code>
      * @return The kOJLBGECDGJ.
      */
     int getKOJLBGECDGJ();
@@ -111,42 +111,42 @@ public final class _LanternRiteV6DanmakuLevelInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 32: {
 
               RoundNum_ = input.readUInt32();
               break;
             }
-            case 40: {
-
-              iJGJCFGFPFE_ = input.readUInt32();
-              break;
-            }
-            case 48: {
-
-              pLAPMAGJCCA_ = input.readUInt32();
-              break;
-            }
             case 56: {
-
-              levelId_ = input.readUInt32();
-              break;
-            }
-            case 64: {
 
               isSucc_ = input.readBool();
               break;
             }
             case 72: {
 
+              levelId_ = input.readUInt32();
+              break;
+            }
+            case 400000: {
+
+              iJGJCFGFPFE_ = input.readUInt32();
+              break;
+            }
+            case 400008: {
+
+              pLAPMAGJCCA_ = input.readUInt32();
+              break;
+            }
+            case 400016: {
+
               fAMHJPHJKPE_ = input.readUInt32();
               break;
             }
-            case 80: {
+            case 400024: {
 
               bGFHONDHLIF_ = input.readUInt32();
               break;
             }
-            case 112: {
+            case 400032: {
 
               kOJLBGECDGJ_ = input.readUInt32();
               break;
@@ -183,10 +183,10 @@ public final class _LanternRiteV6DanmakuLevelInfoOuterClass {
               emu.grasscutter.net.proto._LanternRiteV6DanmakuLevelInfoOuterClass._LanternRiteV6DanmakuLevelInfo.class, emu.grasscutter.net.proto._LanternRiteV6DanmakuLevelInfoOuterClass._LanternRiteV6DanmakuLevelInfo.Builder.class);
     }
 
-    public static final int _ROUND_NUM_FIELD_NUMBER = 1;
+    public static final int _ROUND_NUM_FIELD_NUMBER = 4;
     private int RoundNum_;
     /**
-     * <code>uint32 _round_num = 1;</code>
+     * <code>uint32 _round_num = 4;</code>
      * @return The roundNum.
      */
     @java.lang.Override
@@ -194,10 +194,10 @@ public final class _LanternRiteV6DanmakuLevelInfoOuterClass {
       return RoundNum_;
     }
 
-    public static final int IJGJCFGFPFE_FIELD_NUMBER = 5;
+    public static final int IJGJCFGFPFE_FIELD_NUMBER = 50000;
     private int iJGJCFGFPFE_;
     /**
-     * <code>uint32 IJGJCFGFPFE = 5;</code>
+     * <code>uint32 IJGJCFGFPFE = 50000;</code>
      * @return The iJGJCFGFPFE.
      */
     @java.lang.Override
@@ -205,10 +205,10 @@ public final class _LanternRiteV6DanmakuLevelInfoOuterClass {
       return iJGJCFGFPFE_;
     }
 
-    public static final int PLAPMAGJCCA_FIELD_NUMBER = 6;
+    public static final int PLAPMAGJCCA_FIELD_NUMBER = 50001;
     private int pLAPMAGJCCA_;
     /**
-     * <code>uint32 PLAPMAGJCCA = 6;</code>
+     * <code>uint32 PLAPMAGJCCA = 50001;</code>
      * @return The pLAPMAGJCCA.
      */
     @java.lang.Override
@@ -216,10 +216,10 @@ public final class _LanternRiteV6DanmakuLevelInfoOuterClass {
       return pLAPMAGJCCA_;
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 7;
+    public static final int LEVEL_ID_FIELD_NUMBER = 9;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 7;</code>
+     * <code>uint32 level_id = 9;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -227,10 +227,10 @@ public final class _LanternRiteV6DanmakuLevelInfoOuterClass {
       return levelId_;
     }
 
-    public static final int IS_SUCC_FIELD_NUMBER = 8;
+    public static final int IS_SUCC_FIELD_NUMBER = 7;
     private boolean isSucc_;
     /**
-     * <code>bool is_succ = 8;</code>
+     * <code>bool is_succ = 7;</code>
      * @return The isSucc.
      */
     @java.lang.Override
@@ -238,10 +238,10 @@ public final class _LanternRiteV6DanmakuLevelInfoOuterClass {
       return isSucc_;
     }
 
-    public static final int FAMHJPHJKPE_FIELD_NUMBER = 9;
+    public static final int FAMHJPHJKPE_FIELD_NUMBER = 50002;
     private int fAMHJPHJKPE_;
     /**
-     * <code>uint32 FAMHJPHJKPE = 9;</code>
+     * <code>uint32 FAMHJPHJKPE = 50002;</code>
      * @return The fAMHJPHJKPE.
      */
     @java.lang.Override
@@ -249,10 +249,10 @@ public final class _LanternRiteV6DanmakuLevelInfoOuterClass {
       return fAMHJPHJKPE_;
     }
 
-    public static final int BGFHONDHLIF_FIELD_NUMBER = 10;
+    public static final int BGFHONDHLIF_FIELD_NUMBER = 50003;
     private int bGFHONDHLIF_;
     /**
-     * <code>uint32 BGFHONDHLIF = 10;</code>
+     * <code>uint32 BGFHONDHLIF = 50003;</code>
      * @return The bGFHONDHLIF.
      */
     @java.lang.Override
@@ -260,10 +260,10 @@ public final class _LanternRiteV6DanmakuLevelInfoOuterClass {
       return bGFHONDHLIF_;
     }
 
-    public static final int KOJLBGECDGJ_FIELD_NUMBER = 14;
+    public static final int KOJLBGECDGJ_FIELD_NUMBER = 50004;
     private int kOJLBGECDGJ_;
     /**
-     * <code>uint32 KOJLBGECDGJ = 14;</code>
+     * <code>uint32 KOJLBGECDGJ = 50004;</code>
      * @return The kOJLBGECDGJ.
      */
     @java.lang.Override
@@ -286,28 +286,28 @@ public final class _LanternRiteV6DanmakuLevelInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (RoundNum_ != 0) {
-        output.writeUInt32(1, RoundNum_);
-      }
-      if (iJGJCFGFPFE_ != 0) {
-        output.writeUInt32(5, iJGJCFGFPFE_);
-      }
-      if (pLAPMAGJCCA_ != 0) {
-        output.writeUInt32(6, pLAPMAGJCCA_);
-      }
-      if (levelId_ != 0) {
-        output.writeUInt32(7, levelId_);
+        output.writeUInt32(4, RoundNum_);
       }
       if (isSucc_ != false) {
-        output.writeBool(8, isSucc_);
+        output.writeBool(7, isSucc_);
+      }
+      if (levelId_ != 0) {
+        output.writeUInt32(9, levelId_);
+      }
+      if (iJGJCFGFPFE_ != 0) {
+        output.writeUInt32(50000, iJGJCFGFPFE_);
+      }
+      if (pLAPMAGJCCA_ != 0) {
+        output.writeUInt32(50001, pLAPMAGJCCA_);
       }
       if (fAMHJPHJKPE_ != 0) {
-        output.writeUInt32(9, fAMHJPHJKPE_);
+        output.writeUInt32(50002, fAMHJPHJKPE_);
       }
       if (bGFHONDHLIF_ != 0) {
-        output.writeUInt32(10, bGFHONDHLIF_);
+        output.writeUInt32(50003, bGFHONDHLIF_);
       }
       if (kOJLBGECDGJ_ != 0) {
-        output.writeUInt32(14, kOJLBGECDGJ_);
+        output.writeUInt32(50004, kOJLBGECDGJ_);
       }
       unknownFields.writeTo(output);
     }
@@ -320,35 +320,35 @@ public final class _LanternRiteV6DanmakuLevelInfoOuterClass {
       size = 0;
       if (RoundNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, RoundNum_);
-      }
-      if (iJGJCFGFPFE_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, iJGJCFGFPFE_);
-      }
-      if (pLAPMAGJCCA_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, pLAPMAGJCCA_);
-      }
-      if (levelId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, levelId_);
+          .computeUInt32Size(4, RoundNum_);
       }
       if (isSucc_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(8, isSucc_);
+          .computeBoolSize(7, isSucc_);
+      }
+      if (levelId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(9, levelId_);
+      }
+      if (iJGJCFGFPFE_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50000, iJGJCFGFPFE_);
+      }
+      if (pLAPMAGJCCA_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50001, pLAPMAGJCCA_);
       }
       if (fAMHJPHJKPE_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, fAMHJPHJKPE_);
+          .computeUInt32Size(50002, fAMHJPHJKPE_);
       }
       if (bGFHONDHLIF_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, bGFHONDHLIF_);
+          .computeUInt32Size(50003, bGFHONDHLIF_);
       }
       if (kOJLBGECDGJ_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, kOJLBGECDGJ_);
+          .computeUInt32Size(50004, kOJLBGECDGJ_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -695,7 +695,7 @@ public final class _LanternRiteV6DanmakuLevelInfoOuterClass {
 
       private int RoundNum_ ;
       /**
-       * <code>uint32 _round_num = 1;</code>
+       * <code>uint32 _round_num = 4;</code>
        * @return The roundNum.
        */
       @java.lang.Override
@@ -703,7 +703,7 @@ public final class _LanternRiteV6DanmakuLevelInfoOuterClass {
         return RoundNum_;
       }
       /**
-       * <code>uint32 _round_num = 1;</code>
+       * <code>uint32 _round_num = 4;</code>
        * @param value The roundNum to set.
        * @return This builder for chaining.
        */
@@ -714,7 +714,7 @@ public final class _LanternRiteV6DanmakuLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 _round_num = 1;</code>
+       * <code>uint32 _round_num = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearRoundNum() {
@@ -726,7 +726,7 @@ public final class _LanternRiteV6DanmakuLevelInfoOuterClass {
 
       private int iJGJCFGFPFE_ ;
       /**
-       * <code>uint32 IJGJCFGFPFE = 5;</code>
+       * <code>uint32 IJGJCFGFPFE = 50000;</code>
        * @return The iJGJCFGFPFE.
        */
       @java.lang.Override
@@ -734,7 +734,7 @@ public final class _LanternRiteV6DanmakuLevelInfoOuterClass {
         return iJGJCFGFPFE_;
       }
       /**
-       * <code>uint32 IJGJCFGFPFE = 5;</code>
+       * <code>uint32 IJGJCFGFPFE = 50000;</code>
        * @param value The iJGJCFGFPFE to set.
        * @return This builder for chaining.
        */
@@ -745,7 +745,7 @@ public final class _LanternRiteV6DanmakuLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 IJGJCFGFPFE = 5;</code>
+       * <code>uint32 IJGJCFGFPFE = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearIJGJCFGFPFE() {
@@ -757,7 +757,7 @@ public final class _LanternRiteV6DanmakuLevelInfoOuterClass {
 
       private int pLAPMAGJCCA_ ;
       /**
-       * <code>uint32 PLAPMAGJCCA = 6;</code>
+       * <code>uint32 PLAPMAGJCCA = 50001;</code>
        * @return The pLAPMAGJCCA.
        */
       @java.lang.Override
@@ -765,7 +765,7 @@ public final class _LanternRiteV6DanmakuLevelInfoOuterClass {
         return pLAPMAGJCCA_;
       }
       /**
-       * <code>uint32 PLAPMAGJCCA = 6;</code>
+       * <code>uint32 PLAPMAGJCCA = 50001;</code>
        * @param value The pLAPMAGJCCA to set.
        * @return This builder for chaining.
        */
@@ -776,7 +776,7 @@ public final class _LanternRiteV6DanmakuLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 PLAPMAGJCCA = 6;</code>
+       * <code>uint32 PLAPMAGJCCA = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearPLAPMAGJCCA() {
@@ -788,7 +788,7 @@ public final class _LanternRiteV6DanmakuLevelInfoOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 7;</code>
+       * <code>uint32 level_id = 9;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -796,7 +796,7 @@ public final class _LanternRiteV6DanmakuLevelInfoOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 7;</code>
+       * <code>uint32 level_id = 9;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -807,7 +807,7 @@ public final class _LanternRiteV6DanmakuLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 7;</code>
+       * <code>uint32 level_id = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -819,7 +819,7 @@ public final class _LanternRiteV6DanmakuLevelInfoOuterClass {
 
       private boolean isSucc_ ;
       /**
-       * <code>bool is_succ = 8;</code>
+       * <code>bool is_succ = 7;</code>
        * @return The isSucc.
        */
       @java.lang.Override
@@ -827,7 +827,7 @@ public final class _LanternRiteV6DanmakuLevelInfoOuterClass {
         return isSucc_;
       }
       /**
-       * <code>bool is_succ = 8;</code>
+       * <code>bool is_succ = 7;</code>
        * @param value The isSucc to set.
        * @return This builder for chaining.
        */
@@ -838,7 +838,7 @@ public final class _LanternRiteV6DanmakuLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_succ = 8;</code>
+       * <code>bool is_succ = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsSucc() {
@@ -850,7 +850,7 @@ public final class _LanternRiteV6DanmakuLevelInfoOuterClass {
 
       private int fAMHJPHJKPE_ ;
       /**
-       * <code>uint32 FAMHJPHJKPE = 9;</code>
+       * <code>uint32 FAMHJPHJKPE = 50002;</code>
        * @return The fAMHJPHJKPE.
        */
       @java.lang.Override
@@ -858,7 +858,7 @@ public final class _LanternRiteV6DanmakuLevelInfoOuterClass {
         return fAMHJPHJKPE_;
       }
       /**
-       * <code>uint32 FAMHJPHJKPE = 9;</code>
+       * <code>uint32 FAMHJPHJKPE = 50002;</code>
        * @param value The fAMHJPHJKPE to set.
        * @return This builder for chaining.
        */
@@ -869,7 +869,7 @@ public final class _LanternRiteV6DanmakuLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 FAMHJPHJKPE = 9;</code>
+       * <code>uint32 FAMHJPHJKPE = 50002;</code>
        * @return This builder for chaining.
        */
       public Builder clearFAMHJPHJKPE() {
@@ -881,7 +881,7 @@ public final class _LanternRiteV6DanmakuLevelInfoOuterClass {
 
       private int bGFHONDHLIF_ ;
       /**
-       * <code>uint32 BGFHONDHLIF = 10;</code>
+       * <code>uint32 BGFHONDHLIF = 50003;</code>
        * @return The bGFHONDHLIF.
        */
       @java.lang.Override
@@ -889,7 +889,7 @@ public final class _LanternRiteV6DanmakuLevelInfoOuterClass {
         return bGFHONDHLIF_;
       }
       /**
-       * <code>uint32 BGFHONDHLIF = 10;</code>
+       * <code>uint32 BGFHONDHLIF = 50003;</code>
        * @param value The bGFHONDHLIF to set.
        * @return This builder for chaining.
        */
@@ -900,7 +900,7 @@ public final class _LanternRiteV6DanmakuLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 BGFHONDHLIF = 10;</code>
+       * <code>uint32 BGFHONDHLIF = 50003;</code>
        * @return This builder for chaining.
        */
       public Builder clearBGFHONDHLIF() {
@@ -912,7 +912,7 @@ public final class _LanternRiteV6DanmakuLevelInfoOuterClass {
 
       private int kOJLBGECDGJ_ ;
       /**
-       * <code>uint32 KOJLBGECDGJ = 14;</code>
+       * <code>uint32 KOJLBGECDGJ = 50004;</code>
        * @return The kOJLBGECDGJ.
        */
       @java.lang.Override
@@ -920,7 +920,7 @@ public final class _LanternRiteV6DanmakuLevelInfoOuterClass {
         return kOJLBGECDGJ_;
       }
       /**
-       * <code>uint32 KOJLBGECDGJ = 14;</code>
+       * <code>uint32 KOJLBGECDGJ = 50004;</code>
        * @param value The kOJLBGECDGJ to set.
        * @return This builder for chaining.
        */
@@ -931,7 +931,7 @@ public final class _LanternRiteV6DanmakuLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 KOJLBGECDGJ = 14;</code>
+       * <code>uint32 KOJLBGECDGJ = 50004;</code>
        * @return This builder for chaining.
        */
       public Builder clearKOJLBGECDGJ() {
@@ -1007,14 +1007,15 @@ public final class _LanternRiteV6DanmakuLevelInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n$_LanternRiteV6DanmakuLevelInfo.proto\"\300" +
+      "\n$_LanternRiteV6DanmakuLevelInfo.proto\"\312" +
       "\001\n\036_LanternRiteV6DanmakuLevelInfo\022\022\n\n_ro" +
-      "und_num\030\001 \001(\r\022\023\n\013IJGJCFGFPFE\030\005 \001(\r\022\023\n\013PL" +
-      "APMAGJCCA\030\006 \001(\r\022\020\n\010level_id\030\007 \001(\r\022\017\n\007is_" +
-      "succ\030\010 \001(\010\022\023\n\013FAMHJPHJKPE\030\t \001(\r\022\023\n\013BGFHO" +
-      "NDHLIF\030\n \001(\r\022\023\n\013KOJLBGECDGJ\030\016 \001(\rBE\n\031emu" +
-      ".grasscutter.net.protoB(_LanternRiteV6Da" +
-      "nmakuLevelInfoOuterClassb\006proto3"
+      "und_num\030\004 \001(\r\022\025\n\013IJGJCFGFPFE\030\320\206\003 \001(\r\022\025\n\013" +
+      "PLAPMAGJCCA\030\321\206\003 \001(\r\022\020\n\010level_id\030\t \001(\r\022\017\n" +
+      "\007is_succ\030\007 \001(\010\022\025\n\013FAMHJPHJKPE\030\322\206\003 \001(\r\022\025\n" +
+      "\013BGFHONDHLIF\030\323\206\003 \001(\r\022\025\n\013KOJLBGECDGJ\030\324\206\003 " +
+      "\001(\rBE\n\031emu.grasscutter.net.protoB(_Lante" +
+      "rnRiteV6DanmakuLevelInfoOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

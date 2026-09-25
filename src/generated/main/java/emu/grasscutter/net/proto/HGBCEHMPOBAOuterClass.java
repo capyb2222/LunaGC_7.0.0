@@ -19,11 +19,11 @@ public final class HGBCEHMPOBAOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 13;</code>
+     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
      */
     int getMusicGameRecordMapCount();
     /**
-     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 13;</code>
+     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
      */
     boolean containsMusicGameRecordMap(
         int key);
@@ -34,19 +34,19 @@ public final class HGBCEHMPOBAOuterClass {
     java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord>
     getMusicGameRecordMap();
     /**
-     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 13;</code>
+     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
      */
     java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord>
     getMusicGameRecordMapMap();
     /**
-     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 13;</code>
+     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
      */
 
     emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord getMusicGameRecordMapOrDefault(
         int key,
         emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord defaultValue);
     /**
-     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 13;</code>
+     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
      */
 
     emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord getMusicGameRecordMapOrThrow(
@@ -98,7 +98,7 @@ public final class HGBCEHMPOBAOuterClass {
             case 0:
               done = true;
               break;
-            case 106: {
+            case 90: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 musicGameRecordMap_ = com.google.protobuf.MapField.newMapField(
                     MusicGameRecordMapDefaultEntryHolder.defaultEntry);
@@ -140,7 +140,7 @@ public final class HGBCEHMPOBAOuterClass {
     protected com.google.protobuf.MapField internalGetMapField(
         int number) {
       switch (number) {
-        case 13:
+        case 11:
           return internalGetMusicGameRecordMap();
         default:
           throw new RuntimeException(
@@ -155,7 +155,7 @@ public final class HGBCEHMPOBAOuterClass {
               emu.grasscutter.net.proto.HGBCEHMPOBAOuterClass.HGBCEHMPOBA.class, emu.grasscutter.net.proto.HGBCEHMPOBAOuterClass.HGBCEHMPOBA.Builder.class);
     }
 
-    public static final int MUSIC_GAME_RECORD_MAP_FIELD_NUMBER = 13;
+    public static final int MUSIC_GAME_RECORD_MAP_FIELD_NUMBER = 11;
     private static final class MusicGameRecordMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord> defaultEntry =
@@ -182,7 +182,7 @@ public final class HGBCEHMPOBAOuterClass {
       return internalGetMusicGameRecordMap().getMap().size();
     }
     /**
-     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 13;</code>
+     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
      */
 
     @java.lang.Override
@@ -200,7 +200,7 @@ public final class HGBCEHMPOBAOuterClass {
       return getMusicGameRecordMapMap();
     }
     /**
-     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 13;</code>
+     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
      */
     @java.lang.Override
 
@@ -208,7 +208,7 @@ public final class HGBCEHMPOBAOuterClass {
       return internalGetMusicGameRecordMap().getMap();
     }
     /**
-     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 13;</code>
+     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
      */
     @java.lang.Override
 
@@ -221,7 +221,7 @@ public final class HGBCEHMPOBAOuterClass {
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
     /**
-     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 13;</code>
+     * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
      */
     @java.lang.Override
 
@@ -255,7 +255,7 @@ public final class HGBCEHMPOBAOuterClass {
           output,
           internalGetMusicGameRecordMap(),
           MusicGameRecordMapDefaultEntryHolder.defaultEntry,
-          13);
+          11);
       unknownFields.writeTo(output);
     }
 
@@ -273,7 +273,7 @@ public final class HGBCEHMPOBAOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(13, musicGameRecordMap__);
+            .computeMessageSize(11, musicGameRecordMap__);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -418,7 +418,7 @@ public final class HGBCEHMPOBAOuterClass {
       protected com.google.protobuf.MapField internalGetMapField(
           int number) {
         switch (number) {
-          case 13:
+          case 11:
             return internalGetMusicGameRecordMap();
           default:
             throw new RuntimeException(
@@ -429,7 +429,7 @@ public final class HGBCEHMPOBAOuterClass {
       protected com.google.protobuf.MapField internalGetMutableMapField(
           int number) {
         switch (number) {
-          case 13:
+          case 11:
             return internalGetMutableMusicGameRecordMap();
           default:
             throw new RuntimeException(
@@ -599,7 +599,7 @@ public final class HGBCEHMPOBAOuterClass {
         return internalGetMusicGameRecordMap().getMap().size();
       }
       /**
-       * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 13;</code>
+       * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
        */
 
       @java.lang.Override
@@ -617,7 +617,7 @@ public final class HGBCEHMPOBAOuterClass {
         return getMusicGameRecordMapMap();
       }
       /**
-       * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 13;</code>
+       * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
        */
       @java.lang.Override
 
@@ -625,7 +625,7 @@ public final class HGBCEHMPOBAOuterClass {
         return internalGetMusicGameRecordMap().getMap();
       }
       /**
-       * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 13;</code>
+       * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
        */
       @java.lang.Override
 
@@ -638,7 +638,7 @@ public final class HGBCEHMPOBAOuterClass {
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
       /**
-       * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 13;</code>
+       * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
        */
       @java.lang.Override
 
@@ -659,7 +659,7 @@ public final class HGBCEHMPOBAOuterClass {
         return this;
       }
       /**
-       * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 13;</code>
+       * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
        */
 
       public Builder removeMusicGameRecordMap(
@@ -678,7 +678,7 @@ public final class HGBCEHMPOBAOuterClass {
         return internalGetMutableMusicGameRecordMap().getMutableMap();
       }
       /**
-       * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 13;</code>
+       * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
        */
       public Builder putMusicGameRecordMap(
           int key,
@@ -690,7 +690,7 @@ public final class HGBCEHMPOBAOuterClass {
         return this;
       }
       /**
-       * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 13;</code>
+       * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
        */
 
       public Builder putAllMusicGameRecordMap(
@@ -773,7 +773,7 @@ public final class HGBCEHMPOBAOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HGBCEHMPOBA.proto\032\025MusicGameRecord.pro" +
       "to\"\237\001\n\013HGBCEHMPOBA\022C\n\025music_game_record_" +
-      "map\030\r \003(\0132$.HGBCEHMPOBA.MusicGameRecordM" +
+      "map\030\013 \003(\0132$.HGBCEHMPOBA.MusicGameRecordM" +
       "apEntry\032K\n\027MusicGameRecordMapEntry\022\013\n\003ke" +
       "y\030\001 \001(\r\022\037\n\005value\030\002 \001(\0132\020.MusicGameRecord" +
       ":\0028\001B2\n\031emu.grasscutter.net.protoB\025HGBCE" +

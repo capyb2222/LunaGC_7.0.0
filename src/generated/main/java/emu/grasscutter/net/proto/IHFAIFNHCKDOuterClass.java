@@ -19,19 +19,19 @@ public final class IHFAIFNHCKDOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool is_finish = 9;</code>
+     * <code>bool is_finish = 8;</code>
      * @return The isFinish.
      */
     boolean getIsFinish();
 
     /**
-     * <code>uint32 score = 11;</code>
+     * <code>uint32 score = 4;</code>
      * @return The score.
      */
     int getScore();
 
     /**
-     * <code>uint32 stage_id = 12;</code>
+     * <code>uint32 stage_id = 6;</code>
      * @return The stageId.
      */
     int getStageId();
@@ -87,19 +87,19 @@ public final class IHFAIFNHCKDOuterClass {
             case 0:
               done = true;
               break;
-            case 72: {
-
-              isFinish_ = input.readBool();
-              break;
-            }
-            case 88: {
+            case 32: {
 
               score_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 48: {
 
               stageId_ = input.readUInt32();
+              break;
+            }
+            case 64: {
+
+              isFinish_ = input.readBool();
               break;
             }
             case 104: {
@@ -139,10 +139,10 @@ public final class IHFAIFNHCKDOuterClass {
               emu.grasscutter.net.proto.IHFAIFNHCKDOuterClass.IHFAIFNHCKD.class, emu.grasscutter.net.proto.IHFAIFNHCKDOuterClass.IHFAIFNHCKD.Builder.class);
     }
 
-    public static final int IS_FINISH_FIELD_NUMBER = 9;
+    public static final int IS_FINISH_FIELD_NUMBER = 8;
     private boolean isFinish_;
     /**
-     * <code>bool is_finish = 9;</code>
+     * <code>bool is_finish = 8;</code>
      * @return The isFinish.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class IHFAIFNHCKDOuterClass {
       return isFinish_;
     }
 
-    public static final int SCORE_FIELD_NUMBER = 11;
+    public static final int SCORE_FIELD_NUMBER = 4;
     private int score_;
     /**
-     * <code>uint32 score = 11;</code>
+     * <code>uint32 score = 4;</code>
      * @return The score.
      */
     @java.lang.Override
@@ -161,10 +161,10 @@ public final class IHFAIFNHCKDOuterClass {
       return score_;
     }
 
-    public static final int STAGE_ID_FIELD_NUMBER = 12;
+    public static final int STAGE_ID_FIELD_NUMBER = 6;
     private int stageId_;
     /**
-     * <code>uint32 stage_id = 12;</code>
+     * <code>uint32 stage_id = 6;</code>
      * @return The stageId.
      */
     @java.lang.Override
@@ -197,14 +197,14 @@ public final class IHFAIFNHCKDOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (isFinish_ != false) {
-        output.writeBool(9, isFinish_);
-      }
       if (score_ != 0) {
-        output.writeUInt32(11, score_);
+        output.writeUInt32(4, score_);
       }
       if (stageId_ != 0) {
-        output.writeUInt32(12, stageId_);
+        output.writeUInt32(6, stageId_);
+      }
+      if (isFinish_ != false) {
+        output.writeBool(8, isFinish_);
       }
       if (isOpen_ != false) {
         output.writeBool(13, isOpen_);
@@ -218,17 +218,17 @@ public final class IHFAIFNHCKDOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (isFinish_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, isFinish_);
-      }
       if (score_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, score_);
+          .computeUInt32Size(4, score_);
       }
       if (stageId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, stageId_);
+          .computeUInt32Size(6, stageId_);
+      }
+      if (isFinish_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(8, isFinish_);
       }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -540,7 +540,7 @@ public final class IHFAIFNHCKDOuterClass {
 
       private boolean isFinish_ ;
       /**
-       * <code>bool is_finish = 9;</code>
+       * <code>bool is_finish = 8;</code>
        * @return The isFinish.
        */
       @java.lang.Override
@@ -548,7 +548,7 @@ public final class IHFAIFNHCKDOuterClass {
         return isFinish_;
       }
       /**
-       * <code>bool is_finish = 9;</code>
+       * <code>bool is_finish = 8;</code>
        * @param value The isFinish to set.
        * @return This builder for chaining.
        */
@@ -559,7 +559,7 @@ public final class IHFAIFNHCKDOuterClass {
         return this;
       }
       /**
-       * <code>bool is_finish = 9;</code>
+       * <code>bool is_finish = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsFinish() {
@@ -571,7 +571,7 @@ public final class IHFAIFNHCKDOuterClass {
 
       private int score_ ;
       /**
-       * <code>uint32 score = 11;</code>
+       * <code>uint32 score = 4;</code>
        * @return The score.
        */
       @java.lang.Override
@@ -579,7 +579,7 @@ public final class IHFAIFNHCKDOuterClass {
         return score_;
       }
       /**
-       * <code>uint32 score = 11;</code>
+       * <code>uint32 score = 4;</code>
        * @param value The score to set.
        * @return This builder for chaining.
        */
@@ -590,7 +590,7 @@ public final class IHFAIFNHCKDOuterClass {
         return this;
       }
       /**
-       * <code>uint32 score = 11;</code>
+       * <code>uint32 score = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearScore() {
@@ -602,7 +602,7 @@ public final class IHFAIFNHCKDOuterClass {
 
       private int stageId_ ;
       /**
-       * <code>uint32 stage_id = 12;</code>
+       * <code>uint32 stage_id = 6;</code>
        * @return The stageId.
        */
       @java.lang.Override
@@ -610,7 +610,7 @@ public final class IHFAIFNHCKDOuterClass {
         return stageId_;
       }
       /**
-       * <code>uint32 stage_id = 12;</code>
+       * <code>uint32 stage_id = 6;</code>
        * @param value The stageId to set.
        * @return This builder for chaining.
        */
@@ -621,7 +621,7 @@ public final class IHFAIFNHCKDOuterClass {
         return this;
       }
       /**
-       * <code>uint32 stage_id = 12;</code>
+       * <code>uint32 stage_id = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearStageId() {
@@ -729,8 +729,8 @@ public final class IHFAIFNHCKDOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021IHFAIFNHCKD.proto\"R\n\013IHFAIFNHCKD\022\021\n\tis" +
-      "_finish\030\t \001(\010\022\r\n\005score\030\013 \001(\r\022\020\n\010stage_id" +
-      "\030\014 \001(\r\022\017\n\007is_open\030\r \001(\010B2\n\031emu.grasscutt" +
+      "_finish\030\010 \001(\010\022\r\n\005score\030\004 \001(\r\022\020\n\010stage_id" +
+      "\030\006 \001(\r\022\017\n\007is_open\030\r \001(\010B2\n\031emu.grasscutt" +
       "er.net.protoB\025IHFAIFNHCKDOuterClassb\006pro" +
       "to3"
     };

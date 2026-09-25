@@ -6,6 +6,6 @@ option java_outer_classname = "StoreItemDelNotifyOuterClass";
 import "StoreType.proto";
 
 message StoreItemDelNotify {
-	StoreType store_type = 1;
-	repeated uint64 guid_list = 7;
+	StoreType store_type = 12;
+	repeated uint64 guid_list = 13;
 }

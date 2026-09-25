@@ -4,10 +4,10 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "PlayerCookReqOuterClass";
 
 message PlayerCookReq {
-	uint32 KLACBPCPCMJ = 2;
-	uint32 assist_avatar = 4;
-	uint32 DDACKLBMIKL = 5;
-	uint32 recipe_id = 8;
-	uint32 OLLOPKLIIAC = 12;
-	uint32 JJPABEHGMCH = 15;
+	uint32 KLACBPCPCMJ = 50000;
+	uint32 assist_avatar = 50001;
+	uint32 DDACKLBMIKL = 50002;
+	uint32 recipe_id = 50003;
+	uint32 OLLOPKLIIAC = 50004;
+	uint32 JJPABEHGMCH = 50005;
 }

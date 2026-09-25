@@ -6,5 +6,5 @@ option java_outer_classname = "GECNMHDPJKNOuterClass";
 import "FEDNPBICDHB.proto";
 
 message GECNMHDPJKN {
-	repeated FEDNPBICDHB MMPCGCJGJHJ = 1;
+	repeated FEDNPBICDHB MMPCGCJGJHJ = 15;
 }

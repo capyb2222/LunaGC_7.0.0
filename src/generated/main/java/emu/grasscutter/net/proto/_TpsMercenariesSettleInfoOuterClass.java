@@ -19,101 +19,101 @@ public final class _TpsMercenariesSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 difficulty = 1;</code>
+     * <code>uint32 difficulty = 15;</code>
      * @return The difficulty.
      */
     int getDifficulty();
 
     /**
-     * <code>uint32 BKLAKFGNCIH = 2;</code>
+     * <code>uint32 BKLAKFGNCIH = 8;</code>
      * @return The bKLAKFGNCIH.
      */
     int getBKLAKFGNCIH();
 
     /**
-     * <code>uint32 DLCKFLBGLPL = 3;</code>
+     * <code>uint32 DLCKFLBGLPL = 5;</code>
      * @return The dLCKFLBGLPL.
      */
     int getDLCKFLBGLPL();
 
     /**
-     * <code>uint32 KDLJHPGCKEK = 4;</code>
+     * <code>uint32 KDLJHPGCKEK = 50000;</code>
      * @return The kDLJHPGCKEK.
      */
     int getKDLJHPGCKEK();
 
     /**
-     * <code>uint32 use_time = 5;</code>
+     * <code>uint32 use_time = 7;</code>
      * @return The useTime.
      */
     int getUseTime();
 
     /**
-     * <code>uint32 level_id = 6;</code>
+     * <code>uint32 level_id = 11;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>bool is_new_record = 7;</code>
+     * <code>bool is_new_record = 6;</code>
      * @return The isNewRecord.
      */
     boolean getIsNewRecord();
 
     /**
-     * <code>float LCGFBJHGFHF = 8;</code>
+     * <code>float LCGFBJHGFHF = 50001;</code>
      * @return The lCGFBJHGFHF.
      */
     float getLCGFBJHGFHF();
 
     /**
-     * <code>uint32 GADNKLEDPAK = 9;</code>
+     * <code>uint32 GADNKLEDPAK = 50002;</code>
      * @return The gADNKLEDPAK.
      */
     int getGADNKLEDPAK();
 
     /**
-     * <code>uint32 left_time = 10;</code>
+     * <code>uint32 left_time = 3;</code>
      * @return The leftTime.
      */
     int getLeftTime();
 
     /**
-     * <code>uint32 ICLCODDOBDM = 11;</code>
+     * <code>uint32 ICLCODDOBDM = 4;</code>
      * @return The iCLCODDOBDM.
      */
     int getICLCODDOBDM();
 
     /**
-     * <code>bool ICBLEOKBPAJ = 12;</code>
+     * <code>bool ICBLEOKBPAJ = 10;</code>
      * @return The iCBLEOKBPAJ.
      */
     boolean getICBLEOKBPAJ();
 
     /**
-     * <code>float NBFANLFNCCO = 13;</code>
+     * <code>float NBFANLFNCCO = 50003;</code>
      * @return The nBFANLFNCCO.
      */
     float getNBFANLFNCCO();
 
     /**
-     * <code>uint32 score = 14;</code>
+     * <code>uint32 score = 9;</code>
      * @return The score.
      */
     int getScore();
 
     /**
-     * <code>repeated uint32 FHINHGGMCEI = 15;</code>
+     * <code>repeated uint32 FHINHGGMCEI = 1;</code>
      * @return A list containing the fHINHGGMCEI.
      */
     java.util.List<java.lang.Integer> getFHINHGGMCEIList();
     /**
-     * <code>repeated uint32 FHINHGGMCEI = 15;</code>
+     * <code>repeated uint32 FHINHGGMCEI = 1;</code>
      * @return The count of fHINHGGMCEI.
      */
     int getFHINHGGMCEICount();
     /**
-     * <code>repeated uint32 FHINHGGMCEI = 15;</code>
+     * <code>repeated uint32 FHINHGGMCEI = 1;</code>
      * @param index The index of the element to return.
      * @return The fHINHGGMCEI at the given index.
      */
@@ -167,76 +167,6 @@ public final class _TpsMercenariesSettleInfoOuterClass {
               done = true;
               break;
             case 8: {
-
-              difficulty_ = input.readUInt32();
-              break;
-            }
-            case 16: {
-
-              bKLAKFGNCIH_ = input.readUInt32();
-              break;
-            }
-            case 24: {
-
-              dLCKFLBGLPL_ = input.readUInt32();
-              break;
-            }
-            case 32: {
-
-              kDLJHPGCKEK_ = input.readUInt32();
-              break;
-            }
-            case 40: {
-
-              useTime_ = input.readUInt32();
-              break;
-            }
-            case 48: {
-
-              levelId_ = input.readUInt32();
-              break;
-            }
-            case 56: {
-
-              isNewRecord_ = input.readBool();
-              break;
-            }
-            case 69: {
-
-              lCGFBJHGFHF_ = input.readFloat();
-              break;
-            }
-            case 72: {
-
-              gADNKLEDPAK_ = input.readUInt32();
-              break;
-            }
-            case 80: {
-
-              leftTime_ = input.readUInt32();
-              break;
-            }
-            case 88: {
-
-              iCLCODDOBDM_ = input.readUInt32();
-              break;
-            }
-            case 96: {
-
-              iCBLEOKBPAJ_ = input.readBool();
-              break;
-            }
-            case 109: {
-
-              nBFANLFNCCO_ = input.readFloat();
-              break;
-            }
-            case 112: {
-
-              score_ = input.readUInt32();
-              break;
-            }
-            case 120: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 fHINHGGMCEI_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -244,7 +174,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
               fHINHGGMCEI_.addInt(input.readUInt32());
               break;
             }
-            case 122: {
+            case 10: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -255,6 +185,76 @@ public final class _TpsMercenariesSettleInfoOuterClass {
                 fHINHGGMCEI_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
+              break;
+            }
+            case 24: {
+
+              leftTime_ = input.readUInt32();
+              break;
+            }
+            case 32: {
+
+              iCLCODDOBDM_ = input.readUInt32();
+              break;
+            }
+            case 40: {
+
+              dLCKFLBGLPL_ = input.readUInt32();
+              break;
+            }
+            case 48: {
+
+              isNewRecord_ = input.readBool();
+              break;
+            }
+            case 56: {
+
+              useTime_ = input.readUInt32();
+              break;
+            }
+            case 64: {
+
+              bKLAKFGNCIH_ = input.readUInt32();
+              break;
+            }
+            case 72: {
+
+              score_ = input.readUInt32();
+              break;
+            }
+            case 80: {
+
+              iCBLEOKBPAJ_ = input.readBool();
+              break;
+            }
+            case 88: {
+
+              levelId_ = input.readUInt32();
+              break;
+            }
+            case 120: {
+
+              difficulty_ = input.readUInt32();
+              break;
+            }
+            case 400000: {
+
+              kDLJHPGCKEK_ = input.readUInt32();
+              break;
+            }
+            case 400013: {
+
+              lCGFBJHGFHF_ = input.readFloat();
+              break;
+            }
+            case 400016: {
+
+              gADNKLEDPAK_ = input.readUInt32();
+              break;
+            }
+            case 400029: {
+
+              nBFANLFNCCO_ = input.readFloat();
               break;
             }
             default: {
@@ -292,10 +292,10 @@ public final class _TpsMercenariesSettleInfoOuterClass {
               emu.grasscutter.net.proto._TpsMercenariesSettleInfoOuterClass._TpsMercenariesSettleInfo.class, emu.grasscutter.net.proto._TpsMercenariesSettleInfoOuterClass._TpsMercenariesSettleInfo.Builder.class);
     }
 
-    public static final int DIFFICULTY_FIELD_NUMBER = 1;
+    public static final int DIFFICULTY_FIELD_NUMBER = 15;
     private int difficulty_;
     /**
-     * <code>uint32 difficulty = 1;</code>
+     * <code>uint32 difficulty = 15;</code>
      * @return The difficulty.
      */
     @java.lang.Override
@@ -303,10 +303,10 @@ public final class _TpsMercenariesSettleInfoOuterClass {
       return difficulty_;
     }
 
-    public static final int BKLAKFGNCIH_FIELD_NUMBER = 2;
+    public static final int BKLAKFGNCIH_FIELD_NUMBER = 8;
     private int bKLAKFGNCIH_;
     /**
-     * <code>uint32 BKLAKFGNCIH = 2;</code>
+     * <code>uint32 BKLAKFGNCIH = 8;</code>
      * @return The bKLAKFGNCIH.
      */
     @java.lang.Override
@@ -314,10 +314,10 @@ public final class _TpsMercenariesSettleInfoOuterClass {
       return bKLAKFGNCIH_;
     }
 
-    public static final int DLCKFLBGLPL_FIELD_NUMBER = 3;
+    public static final int DLCKFLBGLPL_FIELD_NUMBER = 5;
     private int dLCKFLBGLPL_;
     /**
-     * <code>uint32 DLCKFLBGLPL = 3;</code>
+     * <code>uint32 DLCKFLBGLPL = 5;</code>
      * @return The dLCKFLBGLPL.
      */
     @java.lang.Override
@@ -325,10 +325,10 @@ public final class _TpsMercenariesSettleInfoOuterClass {
       return dLCKFLBGLPL_;
     }
 
-    public static final int KDLJHPGCKEK_FIELD_NUMBER = 4;
+    public static final int KDLJHPGCKEK_FIELD_NUMBER = 50000;
     private int kDLJHPGCKEK_;
     /**
-     * <code>uint32 KDLJHPGCKEK = 4;</code>
+     * <code>uint32 KDLJHPGCKEK = 50000;</code>
      * @return The kDLJHPGCKEK.
      */
     @java.lang.Override
@@ -336,10 +336,10 @@ public final class _TpsMercenariesSettleInfoOuterClass {
       return kDLJHPGCKEK_;
     }
 
-    public static final int USE_TIME_FIELD_NUMBER = 5;
+    public static final int USE_TIME_FIELD_NUMBER = 7;
     private int useTime_;
     /**
-     * <code>uint32 use_time = 5;</code>
+     * <code>uint32 use_time = 7;</code>
      * @return The useTime.
      */
     @java.lang.Override
@@ -347,10 +347,10 @@ public final class _TpsMercenariesSettleInfoOuterClass {
       return useTime_;
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 6;
+    public static final int LEVEL_ID_FIELD_NUMBER = 11;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 6;</code>
+     * <code>uint32 level_id = 11;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -358,10 +358,10 @@ public final class _TpsMercenariesSettleInfoOuterClass {
       return levelId_;
     }
 
-    public static final int IS_NEW_RECORD_FIELD_NUMBER = 7;
+    public static final int IS_NEW_RECORD_FIELD_NUMBER = 6;
     private boolean isNewRecord_;
     /**
-     * <code>bool is_new_record = 7;</code>
+     * <code>bool is_new_record = 6;</code>
      * @return The isNewRecord.
      */
     @java.lang.Override
@@ -369,10 +369,10 @@ public final class _TpsMercenariesSettleInfoOuterClass {
       return isNewRecord_;
     }
 
-    public static final int LCGFBJHGFHF_FIELD_NUMBER = 8;
+    public static final int LCGFBJHGFHF_FIELD_NUMBER = 50001;
     private float lCGFBJHGFHF_;
     /**
-     * <code>float LCGFBJHGFHF = 8;</code>
+     * <code>float LCGFBJHGFHF = 50001;</code>
      * @return The lCGFBJHGFHF.
      */
     @java.lang.Override
@@ -380,10 +380,10 @@ public final class _TpsMercenariesSettleInfoOuterClass {
       return lCGFBJHGFHF_;
     }
 
-    public static final int GADNKLEDPAK_FIELD_NUMBER = 9;
+    public static final int GADNKLEDPAK_FIELD_NUMBER = 50002;
     private int gADNKLEDPAK_;
     /**
-     * <code>uint32 GADNKLEDPAK = 9;</code>
+     * <code>uint32 GADNKLEDPAK = 50002;</code>
      * @return The gADNKLEDPAK.
      */
     @java.lang.Override
@@ -391,10 +391,10 @@ public final class _TpsMercenariesSettleInfoOuterClass {
       return gADNKLEDPAK_;
     }
 
-    public static final int LEFT_TIME_FIELD_NUMBER = 10;
+    public static final int LEFT_TIME_FIELD_NUMBER = 3;
     private int leftTime_;
     /**
-     * <code>uint32 left_time = 10;</code>
+     * <code>uint32 left_time = 3;</code>
      * @return The leftTime.
      */
     @java.lang.Override
@@ -402,10 +402,10 @@ public final class _TpsMercenariesSettleInfoOuterClass {
       return leftTime_;
     }
 
-    public static final int ICLCODDOBDM_FIELD_NUMBER = 11;
+    public static final int ICLCODDOBDM_FIELD_NUMBER = 4;
     private int iCLCODDOBDM_;
     /**
-     * <code>uint32 ICLCODDOBDM = 11;</code>
+     * <code>uint32 ICLCODDOBDM = 4;</code>
      * @return The iCLCODDOBDM.
      */
     @java.lang.Override
@@ -413,10 +413,10 @@ public final class _TpsMercenariesSettleInfoOuterClass {
       return iCLCODDOBDM_;
     }
 
-    public static final int ICBLEOKBPAJ_FIELD_NUMBER = 12;
+    public static final int ICBLEOKBPAJ_FIELD_NUMBER = 10;
     private boolean iCBLEOKBPAJ_;
     /**
-     * <code>bool ICBLEOKBPAJ = 12;</code>
+     * <code>bool ICBLEOKBPAJ = 10;</code>
      * @return The iCBLEOKBPAJ.
      */
     @java.lang.Override
@@ -424,10 +424,10 @@ public final class _TpsMercenariesSettleInfoOuterClass {
       return iCBLEOKBPAJ_;
     }
 
-    public static final int NBFANLFNCCO_FIELD_NUMBER = 13;
+    public static final int NBFANLFNCCO_FIELD_NUMBER = 50003;
     private float nBFANLFNCCO_;
     /**
-     * <code>float NBFANLFNCCO = 13;</code>
+     * <code>float NBFANLFNCCO = 50003;</code>
      * @return The nBFANLFNCCO.
      */
     @java.lang.Override
@@ -435,10 +435,10 @@ public final class _TpsMercenariesSettleInfoOuterClass {
       return nBFANLFNCCO_;
     }
 
-    public static final int SCORE_FIELD_NUMBER = 14;
+    public static final int SCORE_FIELD_NUMBER = 9;
     private int score_;
     /**
-     * <code>uint32 score = 14;</code>
+     * <code>uint32 score = 9;</code>
      * @return The score.
      */
     @java.lang.Override
@@ -446,10 +446,10 @@ public final class _TpsMercenariesSettleInfoOuterClass {
       return score_;
     }
 
-    public static final int FHINHGGMCEI_FIELD_NUMBER = 15;
+    public static final int FHINHGGMCEI_FIELD_NUMBER = 1;
     private com.google.protobuf.Internal.IntList fHINHGGMCEI_;
     /**
-     * <code>repeated uint32 FHINHGGMCEI = 15;</code>
+     * <code>repeated uint32 FHINHGGMCEI = 1;</code>
      * @return A list containing the fHINHGGMCEI.
      */
     @java.lang.Override
@@ -458,14 +458,14 @@ public final class _TpsMercenariesSettleInfoOuterClass {
       return fHINHGGMCEI_;
     }
     /**
-     * <code>repeated uint32 FHINHGGMCEI = 15;</code>
+     * <code>repeated uint32 FHINHGGMCEI = 1;</code>
      * @return The count of fHINHGGMCEI.
      */
     public int getFHINHGGMCEICount() {
       return fHINHGGMCEI_.size();
     }
     /**
-     * <code>repeated uint32 FHINHGGMCEI = 15;</code>
+     * <code>repeated uint32 FHINHGGMCEI = 1;</code>
      * @param index The index of the element to return.
      * @return The fHINHGGMCEI at the given index.
      */
@@ -489,54 +489,54 @@ public final class _TpsMercenariesSettleInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (difficulty_ != 0) {
-        output.writeUInt32(1, difficulty_);
-      }
-      if (bKLAKFGNCIH_ != 0) {
-        output.writeUInt32(2, bKLAKFGNCIH_);
-      }
-      if (dLCKFLBGLPL_ != 0) {
-        output.writeUInt32(3, dLCKFLBGLPL_);
-      }
-      if (kDLJHPGCKEK_ != 0) {
-        output.writeUInt32(4, kDLJHPGCKEK_);
-      }
-      if (useTime_ != 0) {
-        output.writeUInt32(5, useTime_);
-      }
-      if (levelId_ != 0) {
-        output.writeUInt32(6, levelId_);
-      }
-      if (isNewRecord_ != false) {
-        output.writeBool(7, isNewRecord_);
-      }
-      if (lCGFBJHGFHF_ != 0F) {
-        output.writeFloat(8, lCGFBJHGFHF_);
-      }
-      if (gADNKLEDPAK_ != 0) {
-        output.writeUInt32(9, gADNKLEDPAK_);
-      }
-      if (leftTime_ != 0) {
-        output.writeUInt32(10, leftTime_);
-      }
-      if (iCLCODDOBDM_ != 0) {
-        output.writeUInt32(11, iCLCODDOBDM_);
-      }
-      if (iCBLEOKBPAJ_ != false) {
-        output.writeBool(12, iCBLEOKBPAJ_);
-      }
-      if (nBFANLFNCCO_ != 0F) {
-        output.writeFloat(13, nBFANLFNCCO_);
-      }
-      if (score_ != 0) {
-        output.writeUInt32(14, score_);
-      }
       if (getFHINHGGMCEIList().size() > 0) {
-        output.writeUInt32NoTag(122);
+        output.writeUInt32NoTag(10);
         output.writeUInt32NoTag(fHINHGGMCEIMemoizedSerializedSize);
       }
       for (int i = 0; i < fHINHGGMCEI_.size(); i++) {
         output.writeUInt32NoTag(fHINHGGMCEI_.getInt(i));
+      }
+      if (leftTime_ != 0) {
+        output.writeUInt32(3, leftTime_);
+      }
+      if (iCLCODDOBDM_ != 0) {
+        output.writeUInt32(4, iCLCODDOBDM_);
+      }
+      if (dLCKFLBGLPL_ != 0) {
+        output.writeUInt32(5, dLCKFLBGLPL_);
+      }
+      if (isNewRecord_ != false) {
+        output.writeBool(6, isNewRecord_);
+      }
+      if (useTime_ != 0) {
+        output.writeUInt32(7, useTime_);
+      }
+      if (bKLAKFGNCIH_ != 0) {
+        output.writeUInt32(8, bKLAKFGNCIH_);
+      }
+      if (score_ != 0) {
+        output.writeUInt32(9, score_);
+      }
+      if (iCBLEOKBPAJ_ != false) {
+        output.writeBool(10, iCBLEOKBPAJ_);
+      }
+      if (levelId_ != 0) {
+        output.writeUInt32(11, levelId_);
+      }
+      if (difficulty_ != 0) {
+        output.writeUInt32(15, difficulty_);
+      }
+      if (kDLJHPGCKEK_ != 0) {
+        output.writeUInt32(50000, kDLJHPGCKEK_);
+      }
+      if (lCGFBJHGFHF_ != 0F) {
+        output.writeFloat(50001, lCGFBJHGFHF_);
+      }
+      if (gADNKLEDPAK_ != 0) {
+        output.writeUInt32(50002, gADNKLEDPAK_);
+      }
+      if (nBFANLFNCCO_ != 0F) {
+        output.writeFloat(50003, nBFANLFNCCO_);
       }
       unknownFields.writeTo(output);
     }
@@ -547,62 +547,6 @@ public final class _TpsMercenariesSettleInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (difficulty_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, difficulty_);
-      }
-      if (bKLAKFGNCIH_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, bKLAKFGNCIH_);
-      }
-      if (dLCKFLBGLPL_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, dLCKFLBGLPL_);
-      }
-      if (kDLJHPGCKEK_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, kDLJHPGCKEK_);
-      }
-      if (useTime_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, useTime_);
-      }
-      if (levelId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, levelId_);
-      }
-      if (isNewRecord_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(7, isNewRecord_);
-      }
-      if (lCGFBJHGFHF_ != 0F) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(8, lCGFBJHGFHF_);
-      }
-      if (gADNKLEDPAK_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, gADNKLEDPAK_);
-      }
-      if (leftTime_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, leftTime_);
-      }
-      if (iCLCODDOBDM_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, iCLCODDOBDM_);
-      }
-      if (iCBLEOKBPAJ_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, iCBLEOKBPAJ_);
-      }
-      if (nBFANLFNCCO_ != 0F) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(13, nBFANLFNCCO_);
-      }
-      if (score_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, score_);
-      }
       {
         int dataSize = 0;
         for (int i = 0; i < fHINHGGMCEI_.size(); i++) {
@@ -616,6 +560,62 @@ public final class _TpsMercenariesSettleInfoOuterClass {
               .computeInt32SizeNoTag(dataSize);
         }
         fHINHGGMCEIMemoizedSerializedSize = dataSize;
+      }
+      if (leftTime_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(3, leftTime_);
+      }
+      if (iCLCODDOBDM_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(4, iCLCODDOBDM_);
+      }
+      if (dLCKFLBGLPL_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(5, dLCKFLBGLPL_);
+      }
+      if (isNewRecord_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(6, isNewRecord_);
+      }
+      if (useTime_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(7, useTime_);
+      }
+      if (bKLAKFGNCIH_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(8, bKLAKFGNCIH_);
+      }
+      if (score_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(9, score_);
+      }
+      if (iCBLEOKBPAJ_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(10, iCBLEOKBPAJ_);
+      }
+      if (levelId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(11, levelId_);
+      }
+      if (difficulty_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(15, difficulty_);
+      }
+      if (kDLJHPGCKEK_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50000, kDLJHPGCKEK_);
+      }
+      if (lCGFBJHGFHF_ != 0F) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeFloatSize(50001, lCGFBJHGFHF_);
+      }
+      if (gADNKLEDPAK_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50002, gADNKLEDPAK_);
+      }
+      if (nBFANLFNCCO_ != 0F) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeFloatSize(50003, nBFANLFNCCO_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1052,7 +1052,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
 
       private int difficulty_ ;
       /**
-       * <code>uint32 difficulty = 1;</code>
+       * <code>uint32 difficulty = 15;</code>
        * @return The difficulty.
        */
       @java.lang.Override
@@ -1060,7 +1060,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
         return difficulty_;
       }
       /**
-       * <code>uint32 difficulty = 1;</code>
+       * <code>uint32 difficulty = 15;</code>
        * @param value The difficulty to set.
        * @return This builder for chaining.
        */
@@ -1071,7 +1071,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 difficulty = 1;</code>
+       * <code>uint32 difficulty = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearDifficulty() {
@@ -1083,7 +1083,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
 
       private int bKLAKFGNCIH_ ;
       /**
-       * <code>uint32 BKLAKFGNCIH = 2;</code>
+       * <code>uint32 BKLAKFGNCIH = 8;</code>
        * @return The bKLAKFGNCIH.
        */
       @java.lang.Override
@@ -1091,7 +1091,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
         return bKLAKFGNCIH_;
       }
       /**
-       * <code>uint32 BKLAKFGNCIH = 2;</code>
+       * <code>uint32 BKLAKFGNCIH = 8;</code>
        * @param value The bKLAKFGNCIH to set.
        * @return This builder for chaining.
        */
@@ -1102,7 +1102,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 BKLAKFGNCIH = 2;</code>
+       * <code>uint32 BKLAKFGNCIH = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearBKLAKFGNCIH() {
@@ -1114,7 +1114,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
 
       private int dLCKFLBGLPL_ ;
       /**
-       * <code>uint32 DLCKFLBGLPL = 3;</code>
+       * <code>uint32 DLCKFLBGLPL = 5;</code>
        * @return The dLCKFLBGLPL.
        */
       @java.lang.Override
@@ -1122,7 +1122,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
         return dLCKFLBGLPL_;
       }
       /**
-       * <code>uint32 DLCKFLBGLPL = 3;</code>
+       * <code>uint32 DLCKFLBGLPL = 5;</code>
        * @param value The dLCKFLBGLPL to set.
        * @return This builder for chaining.
        */
@@ -1133,7 +1133,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 DLCKFLBGLPL = 3;</code>
+       * <code>uint32 DLCKFLBGLPL = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearDLCKFLBGLPL() {
@@ -1145,7 +1145,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
 
       private int kDLJHPGCKEK_ ;
       /**
-       * <code>uint32 KDLJHPGCKEK = 4;</code>
+       * <code>uint32 KDLJHPGCKEK = 50000;</code>
        * @return The kDLJHPGCKEK.
        */
       @java.lang.Override
@@ -1153,7 +1153,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
         return kDLJHPGCKEK_;
       }
       /**
-       * <code>uint32 KDLJHPGCKEK = 4;</code>
+       * <code>uint32 KDLJHPGCKEK = 50000;</code>
        * @param value The kDLJHPGCKEK to set.
        * @return This builder for chaining.
        */
@@ -1164,7 +1164,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 KDLJHPGCKEK = 4;</code>
+       * <code>uint32 KDLJHPGCKEK = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearKDLJHPGCKEK() {
@@ -1176,7 +1176,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
 
       private int useTime_ ;
       /**
-       * <code>uint32 use_time = 5;</code>
+       * <code>uint32 use_time = 7;</code>
        * @return The useTime.
        */
       @java.lang.Override
@@ -1184,7 +1184,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
         return useTime_;
       }
       /**
-       * <code>uint32 use_time = 5;</code>
+       * <code>uint32 use_time = 7;</code>
        * @param value The useTime to set.
        * @return This builder for chaining.
        */
@@ -1195,7 +1195,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 use_time = 5;</code>
+       * <code>uint32 use_time = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearUseTime() {
@@ -1207,7 +1207,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 6;</code>
+       * <code>uint32 level_id = 11;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -1215,7 +1215,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 6;</code>
+       * <code>uint32 level_id = 11;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -1226,7 +1226,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 6;</code>
+       * <code>uint32 level_id = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -1238,7 +1238,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
 
       private boolean isNewRecord_ ;
       /**
-       * <code>bool is_new_record = 7;</code>
+       * <code>bool is_new_record = 6;</code>
        * @return The isNewRecord.
        */
       @java.lang.Override
@@ -1246,7 +1246,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
         return isNewRecord_;
       }
       /**
-       * <code>bool is_new_record = 7;</code>
+       * <code>bool is_new_record = 6;</code>
        * @param value The isNewRecord to set.
        * @return This builder for chaining.
        */
@@ -1257,7 +1257,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_new_record = 7;</code>
+       * <code>bool is_new_record = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsNewRecord() {
@@ -1269,7 +1269,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
 
       private float lCGFBJHGFHF_ ;
       /**
-       * <code>float LCGFBJHGFHF = 8;</code>
+       * <code>float LCGFBJHGFHF = 50001;</code>
        * @return The lCGFBJHGFHF.
        */
       @java.lang.Override
@@ -1277,7 +1277,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
         return lCGFBJHGFHF_;
       }
       /**
-       * <code>float LCGFBJHGFHF = 8;</code>
+       * <code>float LCGFBJHGFHF = 50001;</code>
        * @param value The lCGFBJHGFHF to set.
        * @return This builder for chaining.
        */
@@ -1288,7 +1288,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>float LCGFBJHGFHF = 8;</code>
+       * <code>float LCGFBJHGFHF = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearLCGFBJHGFHF() {
@@ -1300,7 +1300,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
 
       private int gADNKLEDPAK_ ;
       /**
-       * <code>uint32 GADNKLEDPAK = 9;</code>
+       * <code>uint32 GADNKLEDPAK = 50002;</code>
        * @return The gADNKLEDPAK.
        */
       @java.lang.Override
@@ -1308,7 +1308,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
         return gADNKLEDPAK_;
       }
       /**
-       * <code>uint32 GADNKLEDPAK = 9;</code>
+       * <code>uint32 GADNKLEDPAK = 50002;</code>
        * @param value The gADNKLEDPAK to set.
        * @return This builder for chaining.
        */
@@ -1319,7 +1319,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 GADNKLEDPAK = 9;</code>
+       * <code>uint32 GADNKLEDPAK = 50002;</code>
        * @return This builder for chaining.
        */
       public Builder clearGADNKLEDPAK() {
@@ -1331,7 +1331,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
 
       private int leftTime_ ;
       /**
-       * <code>uint32 left_time = 10;</code>
+       * <code>uint32 left_time = 3;</code>
        * @return The leftTime.
        */
       @java.lang.Override
@@ -1339,7 +1339,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
         return leftTime_;
       }
       /**
-       * <code>uint32 left_time = 10;</code>
+       * <code>uint32 left_time = 3;</code>
        * @param value The leftTime to set.
        * @return This builder for chaining.
        */
@@ -1350,7 +1350,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 left_time = 10;</code>
+       * <code>uint32 left_time = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearLeftTime() {
@@ -1362,7 +1362,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
 
       private int iCLCODDOBDM_ ;
       /**
-       * <code>uint32 ICLCODDOBDM = 11;</code>
+       * <code>uint32 ICLCODDOBDM = 4;</code>
        * @return The iCLCODDOBDM.
        */
       @java.lang.Override
@@ -1370,7 +1370,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
         return iCLCODDOBDM_;
       }
       /**
-       * <code>uint32 ICLCODDOBDM = 11;</code>
+       * <code>uint32 ICLCODDOBDM = 4;</code>
        * @param value The iCLCODDOBDM to set.
        * @return This builder for chaining.
        */
@@ -1381,7 +1381,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 ICLCODDOBDM = 11;</code>
+       * <code>uint32 ICLCODDOBDM = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearICLCODDOBDM() {
@@ -1393,7 +1393,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
 
       private boolean iCBLEOKBPAJ_ ;
       /**
-       * <code>bool ICBLEOKBPAJ = 12;</code>
+       * <code>bool ICBLEOKBPAJ = 10;</code>
        * @return The iCBLEOKBPAJ.
        */
       @java.lang.Override
@@ -1401,7 +1401,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
         return iCBLEOKBPAJ_;
       }
       /**
-       * <code>bool ICBLEOKBPAJ = 12;</code>
+       * <code>bool ICBLEOKBPAJ = 10;</code>
        * @param value The iCBLEOKBPAJ to set.
        * @return This builder for chaining.
        */
@@ -1412,7 +1412,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool ICBLEOKBPAJ = 12;</code>
+       * <code>bool ICBLEOKBPAJ = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearICBLEOKBPAJ() {
@@ -1424,7 +1424,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
 
       private float nBFANLFNCCO_ ;
       /**
-       * <code>float NBFANLFNCCO = 13;</code>
+       * <code>float NBFANLFNCCO = 50003;</code>
        * @return The nBFANLFNCCO.
        */
       @java.lang.Override
@@ -1432,7 +1432,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
         return nBFANLFNCCO_;
       }
       /**
-       * <code>float NBFANLFNCCO = 13;</code>
+       * <code>float NBFANLFNCCO = 50003;</code>
        * @param value The nBFANLFNCCO to set.
        * @return This builder for chaining.
        */
@@ -1443,7 +1443,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>float NBFANLFNCCO = 13;</code>
+       * <code>float NBFANLFNCCO = 50003;</code>
        * @return This builder for chaining.
        */
       public Builder clearNBFANLFNCCO() {
@@ -1455,7 +1455,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
 
       private int score_ ;
       /**
-       * <code>uint32 score = 14;</code>
+       * <code>uint32 score = 9;</code>
        * @return The score.
        */
       @java.lang.Override
@@ -1463,7 +1463,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
         return score_;
       }
       /**
-       * <code>uint32 score = 14;</code>
+       * <code>uint32 score = 9;</code>
        * @param value The score to set.
        * @return This builder for chaining.
        */
@@ -1474,7 +1474,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 score = 14;</code>
+       * <code>uint32 score = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearScore() {
@@ -1492,7 +1492,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 FHINHGGMCEI = 15;</code>
+       * <code>repeated uint32 FHINHGGMCEI = 1;</code>
        * @return A list containing the fHINHGGMCEI.
        */
       public java.util.List<java.lang.Integer>
@@ -1501,14 +1501,14 @@ public final class _TpsMercenariesSettleInfoOuterClass {
                  java.util.Collections.unmodifiableList(fHINHGGMCEI_) : fHINHGGMCEI_;
       }
       /**
-       * <code>repeated uint32 FHINHGGMCEI = 15;</code>
+       * <code>repeated uint32 FHINHGGMCEI = 1;</code>
        * @return The count of fHINHGGMCEI.
        */
       public int getFHINHGGMCEICount() {
         return fHINHGGMCEI_.size();
       }
       /**
-       * <code>repeated uint32 FHINHGGMCEI = 15;</code>
+       * <code>repeated uint32 FHINHGGMCEI = 1;</code>
        * @param index The index of the element to return.
        * @return The fHINHGGMCEI at the given index.
        */
@@ -1516,7 +1516,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
         return fHINHGGMCEI_.getInt(index);
       }
       /**
-       * <code>repeated uint32 FHINHGGMCEI = 15;</code>
+       * <code>repeated uint32 FHINHGGMCEI = 1;</code>
        * @param index The index to set the value at.
        * @param value The fHINHGGMCEI to set.
        * @return This builder for chaining.
@@ -1529,7 +1529,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 FHINHGGMCEI = 15;</code>
+       * <code>repeated uint32 FHINHGGMCEI = 1;</code>
        * @param value The fHINHGGMCEI to add.
        * @return This builder for chaining.
        */
@@ -1540,7 +1540,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 FHINHGGMCEI = 15;</code>
+       * <code>repeated uint32 FHINHGGMCEI = 1;</code>
        * @param values The fHINHGGMCEI to add.
        * @return This builder for chaining.
        */
@@ -1553,7 +1553,7 @@ public final class _TpsMercenariesSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 FHINHGGMCEI = 15;</code>
+       * <code>repeated uint32 FHINHGGMCEI = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearFHINHGGMCEI() {
@@ -1629,17 +1629,18 @@ public final class _TpsMercenariesSettleInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\037_TpsMercenariesSettleInfo.proto\"\311\002\n\031_T" +
-      "psMercenariesSettleInfo\022\022\n\ndifficulty\030\001 " +
-      "\001(\r\022\023\n\013BKLAKFGNCIH\030\002 \001(\r\022\023\n\013DLCKFLBGLPL\030" +
-      "\003 \001(\r\022\023\n\013KDLJHPGCKEK\030\004 \001(\r\022\020\n\010use_time\030\005" +
-      " \001(\r\022\020\n\010level_id\030\006 \001(\r\022\025\n\ris_new_record\030" +
-      "\007 \001(\010\022\023\n\013LCGFBJHGFHF\030\010 \001(\002\022\023\n\013GADNKLEDPA" +
-      "K\030\t \001(\r\022\021\n\tleft_time\030\n \001(\r\022\023\n\013ICLCODDOBD" +
-      "M\030\013 \001(\r\022\023\n\013ICBLEOKBPAJ\030\014 \001(\010\022\023\n\013NBFANLFN" +
-      "CCO\030\r \001(\002\022\r\n\005score\030\016 \001(\r\022\023\n\013FHINHGGMCEI\030" +
-      "\017 \003(\rB@\n\031emu.grasscutter.net.protoB#_Tps" +
-      "MercenariesSettleInfoOuterClassb\006proto3"
+      "\n\037_TpsMercenariesSettleInfo.proto\"\321\002\n\031_T" +
+      "psMercenariesSettleInfo\022\022\n\ndifficulty\030\017 " +
+      "\001(\r\022\023\n\013BKLAKFGNCIH\030\010 \001(\r\022\023\n\013DLCKFLBGLPL\030" +
+      "\005 \001(\r\022\025\n\013KDLJHPGCKEK\030\320\206\003 \001(\r\022\020\n\010use_time" +
+      "\030\007 \001(\r\022\020\n\010level_id\030\013 \001(\r\022\025\n\ris_new_recor" +
+      "d\030\006 \001(\010\022\025\n\013LCGFBJHGFHF\030\321\206\003 \001(\002\022\025\n\013GADNKL" +
+      "EDPAK\030\322\206\003 \001(\r\022\021\n\tleft_time\030\003 \001(\r\022\023\n\013ICLC" +
+      "ODDOBDM\030\004 \001(\r\022\023\n\013ICBLEOKBPAJ\030\n \001(\010\022\025\n\013NB" +
+      "FANLFNCCO\030\323\206\003 \001(\002\022\r\n\005score\030\t \001(\r\022\023\n\013FHIN" +
+      "HGGMCEI\030\001 \003(\rB@\n\031emu.grasscutter.net.pro" +
+      "toB#_TpsMercenariesSettleInfoOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

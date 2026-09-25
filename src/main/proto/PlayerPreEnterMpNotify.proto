@@ -9,7 +9,7 @@ message PlayerPreEnterMpNotify {
 		State_START = 1;
 		State_TIMEOUT = 2;
 	}
-	State state = 7;
-	string nickname = 9;
-	uint32 uid = 11;
+	State state = 8;
+	string nickname = 13;
+	uint32 uid = 6;
 }

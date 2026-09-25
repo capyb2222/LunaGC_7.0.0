@@ -6,10 +6,10 @@ option java_outer_classname = "QuestCreateEntityRspOuterClass";
 import "CreateEntityInfo.proto";
 
 message QuestCreateEntityRsp {
-	CreateEntityInfo entity = 2;
-	int32 retcode = 4;
-	uint32 parent_quest_id = 7;
-	uint32 quest_id = 8;
-	uint32 entity_id = 10;
-	bool is_rewind = 12;
+	CreateEntityInfo entity = 3;
+	int32 retcode = 10;
+	uint32 parent_quest_id = 14;
+	uint32 quest_id = 12;
+	uint32 entity_id = 5;
+	bool is_rewind = 7;
 }

@@ -25,7 +25,7 @@ public final class FleurFairChapterInfoOuterClass {
     int getOpenTime();
 
     /**
-     * <code>uint32 chapter_id = 7;</code>
+     * <code>uint32 chapter_id = 5;</code>
      * @return The chapterId.
      */
     int getChapterId();
@@ -80,7 +80,7 @@ public final class FleurFairChapterInfoOuterClass {
               openTime_ = input.readUInt32();
               break;
             }
-            case 56: {
+            case 40: {
 
               chapterId_ = input.readUInt32();
               break;
@@ -128,10 +128,10 @@ public final class FleurFairChapterInfoOuterClass {
       return openTime_;
     }
 
-    public static final int CHAPTER_ID_FIELD_NUMBER = 7;
+    public static final int CHAPTER_ID_FIELD_NUMBER = 5;
     private int chapterId_;
     /**
-     * <code>uint32 chapter_id = 7;</code>
+     * <code>uint32 chapter_id = 5;</code>
      * @return The chapterId.
      */
     @java.lang.Override
@@ -157,7 +157,7 @@ public final class FleurFairChapterInfoOuterClass {
         output.writeUInt32(1, openTime_);
       }
       if (chapterId_ != 0) {
-        output.writeUInt32(7, chapterId_);
+        output.writeUInt32(5, chapterId_);
       }
       unknownFields.writeTo(output);
     }
@@ -174,7 +174,7 @@ public final class FleurFairChapterInfoOuterClass {
       }
       if (chapterId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, chapterId_);
+          .computeUInt32Size(5, chapterId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -491,7 +491,7 @@ public final class FleurFairChapterInfoOuterClass {
 
       private int chapterId_ ;
       /**
-       * <code>uint32 chapter_id = 7;</code>
+       * <code>uint32 chapter_id = 5;</code>
        * @return The chapterId.
        */
       @java.lang.Override
@@ -499,7 +499,7 @@ public final class FleurFairChapterInfoOuterClass {
         return chapterId_;
       }
       /**
-       * <code>uint32 chapter_id = 7;</code>
+       * <code>uint32 chapter_id = 5;</code>
        * @param value The chapterId to set.
        * @return This builder for chaining.
        */
@@ -510,7 +510,7 @@ public final class FleurFairChapterInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 chapter_id = 7;</code>
+       * <code>uint32 chapter_id = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearChapterId() {
@@ -588,7 +588,7 @@ public final class FleurFairChapterInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032FleurFairChapterInfo.proto\"=\n\024FleurFai" +
       "rChapterInfo\022\021\n\topen_time\030\001 \001(\r\022\022\n\nchapt" +
-      "er_id\030\007 \001(\rB;\n\031emu.grasscutter.net.proto" +
+      "er_id\030\005 \001(\rB;\n\031emu.grasscutter.net.proto" +
       "B\036FleurFairChapterInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

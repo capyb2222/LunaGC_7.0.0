@@ -7,8 +7,8 @@ import "FHNGLNCPHKA.proto";
 import "GAGPIICGHOF.proto";
 
 message _ThemeParkSimDetailInfo {
-	repeated uint32 LOAEMCLFDDF = 1;
-	GAGPIICGHOF PFPHDJPACAF = 2;
-	repeated uint32 FDFPADCAGKJ = 9;
-	FHNGLNCPHKA PHGDGOKPMEF = 12;
+	repeated uint32 LOAEMCLFDDF = 50000;
+	GAGPIICGHOF PFPHDJPACAF = 10;
+	repeated uint32 FDFPADCAGKJ = 50001;
+	FHNGLNCPHKA PHGDGOKPMEF = 1;
 }

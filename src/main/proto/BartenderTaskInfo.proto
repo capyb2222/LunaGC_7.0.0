@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "BartenderTaskInfoOuterClass";
 
 message BartenderTaskInfo {
-	bool is_finish = 9;
-	uint32 id = 14;
+	bool is_finish = 14;
+	uint32 id = 4;
 }

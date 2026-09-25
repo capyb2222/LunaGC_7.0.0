@@ -19,51 +19,51 @@ public final class _UgcShortVideoRecordOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.Vector FKEJGKDKMNF = 1;</code>
+     * <code>.Vector FKEJGKDKMNF = 50000;</code>
      * @return Whether the fKEJGKDKMNF field is set.
      */
     boolean hasFKEJGKDKMNF();
     /**
-     * <code>.Vector FKEJGKDKMNF = 1;</code>
+     * <code>.Vector FKEJGKDKMNF = 50000;</code>
      * @return The fKEJGKDKMNF.
      */
     emu.grasscutter.net.proto.VectorOuterClass.Vector getFKEJGKDKMNF();
     /**
-     * <code>.Vector FKEJGKDKMNF = 1;</code>
+     * <code>.Vector FKEJGKDKMNF = 50000;</code>
      */
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getFKEJGKDKMNFOrBuilder();
 
     /**
-     * <code>float COKFPGMKCHI = 2;</code>
+     * <code>float COKFPGMKCHI = 50001;</code>
      * @return The cOKFPGMKCHI.
      */
     float getCOKFPGMKCHI();
 
     /**
-     * <code>uint32 _camera_config_id = 3;</code>
+     * <code>uint32 _camera_config_id = 6;</code>
      * @return The cameraConfigId.
      */
     int getCameraConfigId();
 
     /**
-     * <code>repeated string _replay_config_name_list = 5;</code>
+     * <code>repeated string _replay_config_name_list = 2;</code>
      * @return A list containing the replayConfigNameList.
      */
     java.util.List<java.lang.String>
         getReplayConfigNameListList();
     /**
-     * <code>repeated string _replay_config_name_list = 5;</code>
+     * <code>repeated string _replay_config_name_list = 2;</code>
      * @return The count of replayConfigNameList.
      */
     int getReplayConfigNameListCount();
     /**
-     * <code>repeated string _replay_config_name_list = 5;</code>
+     * <code>repeated string _replay_config_name_list = 2;</code>
      * @param index The index of the element to return.
      * @return The replayConfigNameList at the given index.
      */
     java.lang.String getReplayConfigNameList(int index);
     /**
-     * <code>repeated string _replay_config_name_list = 5;</code>
+     * <code>repeated string _replay_config_name_list = 2;</code>
      * @param index The index of the value to return.
      * @return The bytes of the replayConfigNameList at the given index.
      */
@@ -71,34 +71,34 @@ public final class _UgcShortVideoRecordOuterClass {
         getReplayConfigNameListBytes(int index);
 
     /**
-     * <code>bool HIMEMDELPIO = 6;</code>
+     * <code>bool HIMEMDELPIO = 50002;</code>
      * @return The hIMEMDELPIO.
      */
     boolean getHIMEMDELPIO();
 
     /**
-     * <code>.Vector LCLFPBMNJHF = 12;</code>
+     * <code>.Vector LCLFPBMNJHF = 50003;</code>
      * @return Whether the lCLFPBMNJHF field is set.
      */
     boolean hasLCLFPBMNJHF();
     /**
-     * <code>.Vector LCLFPBMNJHF = 12;</code>
+     * <code>.Vector LCLFPBMNJHF = 50003;</code>
      * @return The lCLFPBMNJHF.
      */
     emu.grasscutter.net.proto.VectorOuterClass.Vector getLCLFPBMNJHF();
     /**
-     * <code>.Vector LCLFPBMNJHF = 12;</code>
+     * <code>.Vector LCLFPBMNJHF = 50003;</code>
      */
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getLCLFPBMNJHFOrBuilder();
 
     /**
-     * <code>bool FOJNJFAHNBH = 14;</code>
+     * <code>bool FOJNJFAHNBH = 50004;</code>
      * @return The fOJNJFAHNBH.
      */
     boolean getFOJNJFAHNBH();
 
     /**
-     * <code>float KKHKIILOLLN = 15;</code>
+     * <code>float KKHKIILOLLN = 50005;</code>
      * @return The kKHKIILOLLN.
      */
     float getKKHKIILOLLN();
@@ -150,7 +150,21 @@ public final class _UgcShortVideoRecordOuterClass {
             case 0:
               done = true;
               break;
-            case 10: {
+            case 18: {
+              java.lang.String s = input.readStringRequireUtf8();
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                ReplayConfigNameList_ = new com.google.protobuf.LazyStringArrayList();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              ReplayConfigNameList_.add(s);
+              break;
+            }
+            case 48: {
+
+              CameraConfigId_ = input.readUInt32();
+              break;
+            }
+            case 400002: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (fKEJGKDKMNF_ != null) {
                 subBuilder = fKEJGKDKMNF_.toBuilder();
@@ -163,31 +177,17 @@ public final class _UgcShortVideoRecordOuterClass {
 
               break;
             }
-            case 21: {
+            case 400013: {
 
               cOKFPGMKCHI_ = input.readFloat();
               break;
             }
-            case 24: {
-
-              CameraConfigId_ = input.readUInt32();
-              break;
-            }
-            case 42: {
-              java.lang.String s = input.readStringRequireUtf8();
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                ReplayConfigNameList_ = new com.google.protobuf.LazyStringArrayList();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              ReplayConfigNameList_.add(s);
-              break;
-            }
-            case 48: {
+            case 400016: {
 
               hIMEMDELPIO_ = input.readBool();
               break;
             }
-            case 98: {
+            case 400026: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (lCLFPBMNJHF_ != null) {
                 subBuilder = lCLFPBMNJHF_.toBuilder();
@@ -200,12 +200,12 @@ public final class _UgcShortVideoRecordOuterClass {
 
               break;
             }
-            case 112: {
+            case 400032: {
 
               fOJNJFAHNBH_ = input.readBool();
               break;
             }
-            case 125: {
+            case 400045: {
 
               kKHKIILOLLN_ = input.readFloat();
               break;
@@ -245,10 +245,10 @@ public final class _UgcShortVideoRecordOuterClass {
               emu.grasscutter.net.proto._UgcShortVideoRecordOuterClass._UgcShortVideoRecord.class, emu.grasscutter.net.proto._UgcShortVideoRecordOuterClass._UgcShortVideoRecord.Builder.class);
     }
 
-    public static final int FKEJGKDKMNF_FIELD_NUMBER = 1;
+    public static final int FKEJGKDKMNF_FIELD_NUMBER = 50000;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector fKEJGKDKMNF_;
     /**
-     * <code>.Vector FKEJGKDKMNF = 1;</code>
+     * <code>.Vector FKEJGKDKMNF = 50000;</code>
      * @return Whether the fKEJGKDKMNF field is set.
      */
     @java.lang.Override
@@ -256,7 +256,7 @@ public final class _UgcShortVideoRecordOuterClass {
       return fKEJGKDKMNF_ != null;
     }
     /**
-     * <code>.Vector FKEJGKDKMNF = 1;</code>
+     * <code>.Vector FKEJGKDKMNF = 50000;</code>
      * @return The fKEJGKDKMNF.
      */
     @java.lang.Override
@@ -264,17 +264,17 @@ public final class _UgcShortVideoRecordOuterClass {
       return fKEJGKDKMNF_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : fKEJGKDKMNF_;
     }
     /**
-     * <code>.Vector FKEJGKDKMNF = 1;</code>
+     * <code>.Vector FKEJGKDKMNF = 50000;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getFKEJGKDKMNFOrBuilder() {
       return getFKEJGKDKMNF();
     }
 
-    public static final int COKFPGMKCHI_FIELD_NUMBER = 2;
+    public static final int COKFPGMKCHI_FIELD_NUMBER = 50001;
     private float cOKFPGMKCHI_;
     /**
-     * <code>float COKFPGMKCHI = 2;</code>
+     * <code>float COKFPGMKCHI = 50001;</code>
      * @return The cOKFPGMKCHI.
      */
     @java.lang.Override
@@ -282,10 +282,10 @@ public final class _UgcShortVideoRecordOuterClass {
       return cOKFPGMKCHI_;
     }
 
-    public static final int _CAMERA_CONFIG_ID_FIELD_NUMBER = 3;
+    public static final int _CAMERA_CONFIG_ID_FIELD_NUMBER = 6;
     private int CameraConfigId_;
     /**
-     * <code>uint32 _camera_config_id = 3;</code>
+     * <code>uint32 _camera_config_id = 6;</code>
      * @return The cameraConfigId.
      */
     @java.lang.Override
@@ -293,10 +293,10 @@ public final class _UgcShortVideoRecordOuterClass {
       return CameraConfigId_;
     }
 
-    public static final int _REPLAY_CONFIG_NAME_LIST_FIELD_NUMBER = 5;
+    public static final int _REPLAY_CONFIG_NAME_LIST_FIELD_NUMBER = 2;
     private com.google.protobuf.LazyStringList ReplayConfigNameList_;
     /**
-     * <code>repeated string _replay_config_name_list = 5;</code>
+     * <code>repeated string _replay_config_name_list = 2;</code>
      * @return A list containing the replayConfigNameList.
      */
     public com.google.protobuf.ProtocolStringList
@@ -304,14 +304,14 @@ public final class _UgcShortVideoRecordOuterClass {
       return ReplayConfigNameList_;
     }
     /**
-     * <code>repeated string _replay_config_name_list = 5;</code>
+     * <code>repeated string _replay_config_name_list = 2;</code>
      * @return The count of replayConfigNameList.
      */
     public int getReplayConfigNameListCount() {
       return ReplayConfigNameList_.size();
     }
     /**
-     * <code>repeated string _replay_config_name_list = 5;</code>
+     * <code>repeated string _replay_config_name_list = 2;</code>
      * @param index The index of the element to return.
      * @return The replayConfigNameList at the given index.
      */
@@ -319,7 +319,7 @@ public final class _UgcShortVideoRecordOuterClass {
       return ReplayConfigNameList_.get(index);
     }
     /**
-     * <code>repeated string _replay_config_name_list = 5;</code>
+     * <code>repeated string _replay_config_name_list = 2;</code>
      * @param index The index of the value to return.
      * @return The bytes of the replayConfigNameList at the given index.
      */
@@ -328,10 +328,10 @@ public final class _UgcShortVideoRecordOuterClass {
       return ReplayConfigNameList_.getByteString(index);
     }
 
-    public static final int HIMEMDELPIO_FIELD_NUMBER = 6;
+    public static final int HIMEMDELPIO_FIELD_NUMBER = 50002;
     private boolean hIMEMDELPIO_;
     /**
-     * <code>bool HIMEMDELPIO = 6;</code>
+     * <code>bool HIMEMDELPIO = 50002;</code>
      * @return The hIMEMDELPIO.
      */
     @java.lang.Override
@@ -339,10 +339,10 @@ public final class _UgcShortVideoRecordOuterClass {
       return hIMEMDELPIO_;
     }
 
-    public static final int LCLFPBMNJHF_FIELD_NUMBER = 12;
+    public static final int LCLFPBMNJHF_FIELD_NUMBER = 50003;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector lCLFPBMNJHF_;
     /**
-     * <code>.Vector LCLFPBMNJHF = 12;</code>
+     * <code>.Vector LCLFPBMNJHF = 50003;</code>
      * @return Whether the lCLFPBMNJHF field is set.
      */
     @java.lang.Override
@@ -350,7 +350,7 @@ public final class _UgcShortVideoRecordOuterClass {
       return lCLFPBMNJHF_ != null;
     }
     /**
-     * <code>.Vector LCLFPBMNJHF = 12;</code>
+     * <code>.Vector LCLFPBMNJHF = 50003;</code>
      * @return The lCLFPBMNJHF.
      */
     @java.lang.Override
@@ -358,17 +358,17 @@ public final class _UgcShortVideoRecordOuterClass {
       return lCLFPBMNJHF_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : lCLFPBMNJHF_;
     }
     /**
-     * <code>.Vector LCLFPBMNJHF = 12;</code>
+     * <code>.Vector LCLFPBMNJHF = 50003;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getLCLFPBMNJHFOrBuilder() {
       return getLCLFPBMNJHF();
     }
 
-    public static final int FOJNJFAHNBH_FIELD_NUMBER = 14;
+    public static final int FOJNJFAHNBH_FIELD_NUMBER = 50004;
     private boolean fOJNJFAHNBH_;
     /**
-     * <code>bool FOJNJFAHNBH = 14;</code>
+     * <code>bool FOJNJFAHNBH = 50004;</code>
      * @return The fOJNJFAHNBH.
      */
     @java.lang.Override
@@ -376,10 +376,10 @@ public final class _UgcShortVideoRecordOuterClass {
       return fOJNJFAHNBH_;
     }
 
-    public static final int KKHKIILOLLN_FIELD_NUMBER = 15;
+    public static final int KKHKIILOLLN_FIELD_NUMBER = 50005;
     private float kKHKIILOLLN_;
     /**
-     * <code>float KKHKIILOLLN = 15;</code>
+     * <code>float KKHKIILOLLN = 50005;</code>
      * @return The kKHKIILOLLN.
      */
     @java.lang.Override
@@ -401,29 +401,29 @@ public final class _UgcShortVideoRecordOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (fKEJGKDKMNF_ != null) {
-        output.writeMessage(1, getFKEJGKDKMNF());
-      }
-      if (cOKFPGMKCHI_ != 0F) {
-        output.writeFloat(2, cOKFPGMKCHI_);
+      for (int i = 0; i < ReplayConfigNameList_.size(); i++) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 2, ReplayConfigNameList_.getRaw(i));
       }
       if (CameraConfigId_ != 0) {
-        output.writeUInt32(3, CameraConfigId_);
+        output.writeUInt32(6, CameraConfigId_);
       }
-      for (int i = 0; i < ReplayConfigNameList_.size(); i++) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 5, ReplayConfigNameList_.getRaw(i));
+      if (fKEJGKDKMNF_ != null) {
+        output.writeMessage(50000, getFKEJGKDKMNF());
+      }
+      if (cOKFPGMKCHI_ != 0F) {
+        output.writeFloat(50001, cOKFPGMKCHI_);
       }
       if (hIMEMDELPIO_ != false) {
-        output.writeBool(6, hIMEMDELPIO_);
+        output.writeBool(50002, hIMEMDELPIO_);
       }
       if (lCLFPBMNJHF_ != null) {
-        output.writeMessage(12, getLCLFPBMNJHF());
+        output.writeMessage(50003, getLCLFPBMNJHF());
       }
       if (fOJNJFAHNBH_ != false) {
-        output.writeBool(14, fOJNJFAHNBH_);
+        output.writeBool(50004, fOJNJFAHNBH_);
       }
       if (kKHKIILOLLN_ != 0F) {
-        output.writeFloat(15, kKHKIILOLLN_);
+        output.writeFloat(50005, kKHKIILOLLN_);
       }
       unknownFields.writeTo(output);
     }
@@ -434,18 +434,6 @@ public final class _UgcShortVideoRecordOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (fKEJGKDKMNF_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, getFKEJGKDKMNF());
-      }
-      if (cOKFPGMKCHI_ != 0F) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(2, cOKFPGMKCHI_);
-      }
-      if (CameraConfigId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, CameraConfigId_);
-      }
       {
         int dataSize = 0;
         for (int i = 0; i < ReplayConfigNameList_.size(); i++) {
@@ -454,21 +442,33 @@ public final class _UgcShortVideoRecordOuterClass {
         size += dataSize;
         size += 1 * getReplayConfigNameListList().size();
       }
+      if (CameraConfigId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(6, CameraConfigId_);
+      }
+      if (fKEJGKDKMNF_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(50000, getFKEJGKDKMNF());
+      }
+      if (cOKFPGMKCHI_ != 0F) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeFloatSize(50001, cOKFPGMKCHI_);
+      }
       if (hIMEMDELPIO_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(6, hIMEMDELPIO_);
+          .computeBoolSize(50002, hIMEMDELPIO_);
       }
       if (lCLFPBMNJHF_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, getLCLFPBMNJHF());
+          .computeMessageSize(50003, getLCLFPBMNJHF());
       }
       if (fOJNJFAHNBH_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(14, fOJNJFAHNBH_);
+          .computeBoolSize(50004, fOJNJFAHNBH_);
       }
       if (kKHKIILOLLN_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(15, kKHKIILOLLN_);
+          .computeFloatSize(50005, kKHKIILOLLN_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -863,14 +863,14 @@ public final class _UgcShortVideoRecordOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> fKEJGKDKMNFBuilder_;
       /**
-       * <code>.Vector FKEJGKDKMNF = 1;</code>
+       * <code>.Vector FKEJGKDKMNF = 50000;</code>
        * @return Whether the fKEJGKDKMNF field is set.
        */
       public boolean hasFKEJGKDKMNF() {
         return fKEJGKDKMNFBuilder_ != null || fKEJGKDKMNF_ != null;
       }
       /**
-       * <code>.Vector FKEJGKDKMNF = 1;</code>
+       * <code>.Vector FKEJGKDKMNF = 50000;</code>
        * @return The fKEJGKDKMNF.
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector getFKEJGKDKMNF() {
@@ -881,7 +881,7 @@ public final class _UgcShortVideoRecordOuterClass {
         }
       }
       /**
-       * <code>.Vector FKEJGKDKMNF = 1;</code>
+       * <code>.Vector FKEJGKDKMNF = 50000;</code>
        */
       public Builder setFKEJGKDKMNF(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (fKEJGKDKMNFBuilder_ == null) {
@@ -897,7 +897,7 @@ public final class _UgcShortVideoRecordOuterClass {
         return this;
       }
       /**
-       * <code>.Vector FKEJGKDKMNF = 1;</code>
+       * <code>.Vector FKEJGKDKMNF = 50000;</code>
        */
       public Builder setFKEJGKDKMNF(
           emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
@@ -911,7 +911,7 @@ public final class _UgcShortVideoRecordOuterClass {
         return this;
       }
       /**
-       * <code>.Vector FKEJGKDKMNF = 1;</code>
+       * <code>.Vector FKEJGKDKMNF = 50000;</code>
        */
       public Builder mergeFKEJGKDKMNF(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (fKEJGKDKMNFBuilder_ == null) {
@@ -929,7 +929,7 @@ public final class _UgcShortVideoRecordOuterClass {
         return this;
       }
       /**
-       * <code>.Vector FKEJGKDKMNF = 1;</code>
+       * <code>.Vector FKEJGKDKMNF = 50000;</code>
        */
       public Builder clearFKEJGKDKMNF() {
         if (fKEJGKDKMNFBuilder_ == null) {
@@ -943,7 +943,7 @@ public final class _UgcShortVideoRecordOuterClass {
         return this;
       }
       /**
-       * <code>.Vector FKEJGKDKMNF = 1;</code>
+       * <code>.Vector FKEJGKDKMNF = 50000;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getFKEJGKDKMNFBuilder() {
         
@@ -951,7 +951,7 @@ public final class _UgcShortVideoRecordOuterClass {
         return getFKEJGKDKMNFFieldBuilder().getBuilder();
       }
       /**
-       * <code>.Vector FKEJGKDKMNF = 1;</code>
+       * <code>.Vector FKEJGKDKMNF = 50000;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getFKEJGKDKMNFOrBuilder() {
         if (fKEJGKDKMNFBuilder_ != null) {
@@ -962,7 +962,7 @@ public final class _UgcShortVideoRecordOuterClass {
         }
       }
       /**
-       * <code>.Vector FKEJGKDKMNF = 1;</code>
+       * <code>.Vector FKEJGKDKMNF = 50000;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
@@ -980,7 +980,7 @@ public final class _UgcShortVideoRecordOuterClass {
 
       private float cOKFPGMKCHI_ ;
       /**
-       * <code>float COKFPGMKCHI = 2;</code>
+       * <code>float COKFPGMKCHI = 50001;</code>
        * @return The cOKFPGMKCHI.
        */
       @java.lang.Override
@@ -988,7 +988,7 @@ public final class _UgcShortVideoRecordOuterClass {
         return cOKFPGMKCHI_;
       }
       /**
-       * <code>float COKFPGMKCHI = 2;</code>
+       * <code>float COKFPGMKCHI = 50001;</code>
        * @param value The cOKFPGMKCHI to set.
        * @return This builder for chaining.
        */
@@ -999,7 +999,7 @@ public final class _UgcShortVideoRecordOuterClass {
         return this;
       }
       /**
-       * <code>float COKFPGMKCHI = 2;</code>
+       * <code>float COKFPGMKCHI = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearCOKFPGMKCHI() {
@@ -1011,7 +1011,7 @@ public final class _UgcShortVideoRecordOuterClass {
 
       private int CameraConfigId_ ;
       /**
-       * <code>uint32 _camera_config_id = 3;</code>
+       * <code>uint32 _camera_config_id = 6;</code>
        * @return The cameraConfigId.
        */
       @java.lang.Override
@@ -1019,7 +1019,7 @@ public final class _UgcShortVideoRecordOuterClass {
         return CameraConfigId_;
       }
       /**
-       * <code>uint32 _camera_config_id = 3;</code>
+       * <code>uint32 _camera_config_id = 6;</code>
        * @param value The cameraConfigId to set.
        * @return This builder for chaining.
        */
@@ -1030,7 +1030,7 @@ public final class _UgcShortVideoRecordOuterClass {
         return this;
       }
       /**
-       * <code>uint32 _camera_config_id = 3;</code>
+       * <code>uint32 _camera_config_id = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearCameraConfigId() {
@@ -1048,7 +1048,7 @@ public final class _UgcShortVideoRecordOuterClass {
          }
       }
       /**
-       * <code>repeated string _replay_config_name_list = 5;</code>
+       * <code>repeated string _replay_config_name_list = 2;</code>
        * @return A list containing the replayConfigNameList.
        */
       public com.google.protobuf.ProtocolStringList
@@ -1056,14 +1056,14 @@ public final class _UgcShortVideoRecordOuterClass {
         return ReplayConfigNameList_.getUnmodifiableView();
       }
       /**
-       * <code>repeated string _replay_config_name_list = 5;</code>
+       * <code>repeated string _replay_config_name_list = 2;</code>
        * @return The count of replayConfigNameList.
        */
       public int getReplayConfigNameListCount() {
         return ReplayConfigNameList_.size();
       }
       /**
-       * <code>repeated string _replay_config_name_list = 5;</code>
+       * <code>repeated string _replay_config_name_list = 2;</code>
        * @param index The index of the element to return.
        * @return The replayConfigNameList at the given index.
        */
@@ -1071,7 +1071,7 @@ public final class _UgcShortVideoRecordOuterClass {
         return ReplayConfigNameList_.get(index);
       }
       /**
-       * <code>repeated string _replay_config_name_list = 5;</code>
+       * <code>repeated string _replay_config_name_list = 2;</code>
        * @param index The index of the value to return.
        * @return The bytes of the replayConfigNameList at the given index.
        */
@@ -1080,7 +1080,7 @@ public final class _UgcShortVideoRecordOuterClass {
         return ReplayConfigNameList_.getByteString(index);
       }
       /**
-       * <code>repeated string _replay_config_name_list = 5;</code>
+       * <code>repeated string _replay_config_name_list = 2;</code>
        * @param index The index to set the value at.
        * @param value The replayConfigNameList to set.
        * @return This builder for chaining.
@@ -1096,7 +1096,7 @@ public final class _UgcShortVideoRecordOuterClass {
         return this;
       }
       /**
-       * <code>repeated string _replay_config_name_list = 5;</code>
+       * <code>repeated string _replay_config_name_list = 2;</code>
        * @param value The replayConfigNameList to add.
        * @return This builder for chaining.
        */
@@ -1111,7 +1111,7 @@ public final class _UgcShortVideoRecordOuterClass {
         return this;
       }
       /**
-       * <code>repeated string _replay_config_name_list = 5;</code>
+       * <code>repeated string _replay_config_name_list = 2;</code>
        * @param values The replayConfigNameList to add.
        * @return This builder for chaining.
        */
@@ -1124,7 +1124,7 @@ public final class _UgcShortVideoRecordOuterClass {
         return this;
       }
       /**
-       * <code>repeated string _replay_config_name_list = 5;</code>
+       * <code>repeated string _replay_config_name_list = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearReplayConfigNameList() {
@@ -1134,7 +1134,7 @@ public final class _UgcShortVideoRecordOuterClass {
         return this;
       }
       /**
-       * <code>repeated string _replay_config_name_list = 5;</code>
+       * <code>repeated string _replay_config_name_list = 2;</code>
        * @param value The bytes of the replayConfigNameList to add.
        * @return This builder for chaining.
        */
@@ -1152,7 +1152,7 @@ public final class _UgcShortVideoRecordOuterClass {
 
       private boolean hIMEMDELPIO_ ;
       /**
-       * <code>bool HIMEMDELPIO = 6;</code>
+       * <code>bool HIMEMDELPIO = 50002;</code>
        * @return The hIMEMDELPIO.
        */
       @java.lang.Override
@@ -1160,7 +1160,7 @@ public final class _UgcShortVideoRecordOuterClass {
         return hIMEMDELPIO_;
       }
       /**
-       * <code>bool HIMEMDELPIO = 6;</code>
+       * <code>bool HIMEMDELPIO = 50002;</code>
        * @param value The hIMEMDELPIO to set.
        * @return This builder for chaining.
        */
@@ -1171,7 +1171,7 @@ public final class _UgcShortVideoRecordOuterClass {
         return this;
       }
       /**
-       * <code>bool HIMEMDELPIO = 6;</code>
+       * <code>bool HIMEMDELPIO = 50002;</code>
        * @return This builder for chaining.
        */
       public Builder clearHIMEMDELPIO() {
@@ -1185,14 +1185,14 @@ public final class _UgcShortVideoRecordOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> lCLFPBMNJHFBuilder_;
       /**
-       * <code>.Vector LCLFPBMNJHF = 12;</code>
+       * <code>.Vector LCLFPBMNJHF = 50003;</code>
        * @return Whether the lCLFPBMNJHF field is set.
        */
       public boolean hasLCLFPBMNJHF() {
         return lCLFPBMNJHFBuilder_ != null || lCLFPBMNJHF_ != null;
       }
       /**
-       * <code>.Vector LCLFPBMNJHF = 12;</code>
+       * <code>.Vector LCLFPBMNJHF = 50003;</code>
        * @return The lCLFPBMNJHF.
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector getLCLFPBMNJHF() {
@@ -1203,7 +1203,7 @@ public final class _UgcShortVideoRecordOuterClass {
         }
       }
       /**
-       * <code>.Vector LCLFPBMNJHF = 12;</code>
+       * <code>.Vector LCLFPBMNJHF = 50003;</code>
        */
       public Builder setLCLFPBMNJHF(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (lCLFPBMNJHFBuilder_ == null) {
@@ -1219,7 +1219,7 @@ public final class _UgcShortVideoRecordOuterClass {
         return this;
       }
       /**
-       * <code>.Vector LCLFPBMNJHF = 12;</code>
+       * <code>.Vector LCLFPBMNJHF = 50003;</code>
        */
       public Builder setLCLFPBMNJHF(
           emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
@@ -1233,7 +1233,7 @@ public final class _UgcShortVideoRecordOuterClass {
         return this;
       }
       /**
-       * <code>.Vector LCLFPBMNJHF = 12;</code>
+       * <code>.Vector LCLFPBMNJHF = 50003;</code>
        */
       public Builder mergeLCLFPBMNJHF(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (lCLFPBMNJHFBuilder_ == null) {
@@ -1251,7 +1251,7 @@ public final class _UgcShortVideoRecordOuterClass {
         return this;
       }
       /**
-       * <code>.Vector LCLFPBMNJHF = 12;</code>
+       * <code>.Vector LCLFPBMNJHF = 50003;</code>
        */
       public Builder clearLCLFPBMNJHF() {
         if (lCLFPBMNJHFBuilder_ == null) {
@@ -1265,7 +1265,7 @@ public final class _UgcShortVideoRecordOuterClass {
         return this;
       }
       /**
-       * <code>.Vector LCLFPBMNJHF = 12;</code>
+       * <code>.Vector LCLFPBMNJHF = 50003;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getLCLFPBMNJHFBuilder() {
         
@@ -1273,7 +1273,7 @@ public final class _UgcShortVideoRecordOuterClass {
         return getLCLFPBMNJHFFieldBuilder().getBuilder();
       }
       /**
-       * <code>.Vector LCLFPBMNJHF = 12;</code>
+       * <code>.Vector LCLFPBMNJHF = 50003;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getLCLFPBMNJHFOrBuilder() {
         if (lCLFPBMNJHFBuilder_ != null) {
@@ -1284,7 +1284,7 @@ public final class _UgcShortVideoRecordOuterClass {
         }
       }
       /**
-       * <code>.Vector LCLFPBMNJHF = 12;</code>
+       * <code>.Vector LCLFPBMNJHF = 50003;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
@@ -1302,7 +1302,7 @@ public final class _UgcShortVideoRecordOuterClass {
 
       private boolean fOJNJFAHNBH_ ;
       /**
-       * <code>bool FOJNJFAHNBH = 14;</code>
+       * <code>bool FOJNJFAHNBH = 50004;</code>
        * @return The fOJNJFAHNBH.
        */
       @java.lang.Override
@@ -1310,7 +1310,7 @@ public final class _UgcShortVideoRecordOuterClass {
         return fOJNJFAHNBH_;
       }
       /**
-       * <code>bool FOJNJFAHNBH = 14;</code>
+       * <code>bool FOJNJFAHNBH = 50004;</code>
        * @param value The fOJNJFAHNBH to set.
        * @return This builder for chaining.
        */
@@ -1321,7 +1321,7 @@ public final class _UgcShortVideoRecordOuterClass {
         return this;
       }
       /**
-       * <code>bool FOJNJFAHNBH = 14;</code>
+       * <code>bool FOJNJFAHNBH = 50004;</code>
        * @return This builder for chaining.
        */
       public Builder clearFOJNJFAHNBH() {
@@ -1333,7 +1333,7 @@ public final class _UgcShortVideoRecordOuterClass {
 
       private float kKHKIILOLLN_ ;
       /**
-       * <code>float KKHKIILOLLN = 15;</code>
+       * <code>float KKHKIILOLLN = 50005;</code>
        * @return The kKHKIILOLLN.
        */
       @java.lang.Override
@@ -1341,7 +1341,7 @@ public final class _UgcShortVideoRecordOuterClass {
         return kKHKIILOLLN_;
       }
       /**
-       * <code>float KKHKIILOLLN = 15;</code>
+       * <code>float KKHKIILOLLN = 50005;</code>
        * @param value The kKHKIILOLLN to set.
        * @return This builder for chaining.
        */
@@ -1352,7 +1352,7 @@ public final class _UgcShortVideoRecordOuterClass {
         return this;
       }
       /**
-       * <code>float KKHKIILOLLN = 15;</code>
+       * <code>float KKHKIILOLLN = 50005;</code>
        * @return This builder for chaining.
        */
       public Builder clearKKHKIILOLLN() {
@@ -1429,14 +1429,14 @@ public final class _UgcShortVideoRecordOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\032_UgcShortVideoRecord.proto\032\014Vector.pro" +
-      "to\"\343\001\n\024_UgcShortVideoRecord\022\034\n\013FKEJGKDKM" +
-      "NF\030\001 \001(\0132\007.Vector\022\023\n\013COKFPGMKCHI\030\002 \001(\002\022\031" +
-      "\n\021_camera_config_id\030\003 \001(\r\022 \n\030_replay_con" +
-      "fig_name_list\030\005 \003(\t\022\023\n\013HIMEMDELPIO\030\006 \001(\010" +
-      "\022\034\n\013LCLFPBMNJHF\030\014 \001(\0132\007.Vector\022\023\n\013FOJNJF" +
-      "AHNBH\030\016 \001(\010\022\023\n\013KKHKIILOLLN\030\017 \001(\002B;\n\031emu." +
-      "grasscutter.net.protoB\036_UgcShortVideoRec" +
-      "ordOuterClassb\006proto3"
+      "to\"\357\001\n\024_UgcShortVideoRecord\022\036\n\013FKEJGKDKM" +
+      "NF\030\320\206\003 \001(\0132\007.Vector\022\025\n\013COKFPGMKCHI\030\321\206\003 \001" +
+      "(\002\022\031\n\021_camera_config_id\030\006 \001(\r\022 \n\030_replay" +
+      "_config_name_list\030\002 \003(\t\022\025\n\013HIMEMDELPIO\030\322" +
+      "\206\003 \001(\010\022\036\n\013LCLFPBMNJHF\030\323\206\003 \001(\0132\007.Vector\022\025" +
+      "\n\013FOJNJFAHNBH\030\324\206\003 \001(\010\022\025\n\013KKHKIILOLLN\030\325\206\003" +
+      " \001(\002B;\n\031emu.grasscutter.net.protoB\036_UgcS" +
+      "hortVideoRecordOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

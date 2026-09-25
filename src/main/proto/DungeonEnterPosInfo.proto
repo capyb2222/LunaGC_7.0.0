@@ -5,5 +5,5 @@ option java_outer_classname = "DungeonEnterPosInfoOuterClass";
 
 message DungeonEnterPosInfo {
 	uint32 point_id = 13;
-	uint32 quest_id = 14;
+	uint32 quest_id = 9;
 }

@@ -19,13 +19,13 @@ public final class WidgetCoolDownDataOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool is_success = 7;</code>
+     * <code>bool is_success = 14;</code>
      * @return The isSuccess.
      */
     boolean getIsSuccess();
 
     /**
-     * <code>uint64 cool_down_time = 9;</code>
+     * <code>uint64 cool_down_time = 7;</code>
      * @return The coolDownTime.
      */
     long getCoolDownTime();
@@ -83,17 +83,17 @@ public final class WidgetCoolDownDataOuterClass {
               break;
             case 56: {
 
-              isSuccess_ = input.readBool();
-              break;
-            }
-            case 72: {
-
               coolDownTime_ = input.readUInt64();
               break;
             }
             case 96: {
 
               id_ = input.readUInt32();
+              break;
+            }
+            case 112: {
+
+              isSuccess_ = input.readBool();
               break;
             }
             default: {
@@ -128,10 +128,10 @@ public final class WidgetCoolDownDataOuterClass {
               emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData.class, emu.grasscutter.net.proto.WidgetCoolDownDataOuterClass.WidgetCoolDownData.Builder.class);
     }
 
-    public static final int IS_SUCCESS_FIELD_NUMBER = 7;
+    public static final int IS_SUCCESS_FIELD_NUMBER = 14;
     private boolean isSuccess_;
     /**
-     * <code>bool is_success = 7;</code>
+     * <code>bool is_success = 14;</code>
      * @return The isSuccess.
      */
     @java.lang.Override
@@ -139,10 +139,10 @@ public final class WidgetCoolDownDataOuterClass {
       return isSuccess_;
     }
 
-    public static final int COOL_DOWN_TIME_FIELD_NUMBER = 9;
+    public static final int COOL_DOWN_TIME_FIELD_NUMBER = 7;
     private long coolDownTime_;
     /**
-     * <code>uint64 cool_down_time = 9;</code>
+     * <code>uint64 cool_down_time = 7;</code>
      * @return The coolDownTime.
      */
     @java.lang.Override
@@ -175,14 +175,14 @@ public final class WidgetCoolDownDataOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (isSuccess_ != false) {
-        output.writeBool(7, isSuccess_);
-      }
       if (coolDownTime_ != 0L) {
-        output.writeUInt64(9, coolDownTime_);
+        output.writeUInt64(7, coolDownTime_);
       }
       if (id_ != 0) {
         output.writeUInt32(12, id_);
+      }
+      if (isSuccess_ != false) {
+        output.writeBool(14, isSuccess_);
       }
       unknownFields.writeTo(output);
     }
@@ -193,17 +193,17 @@ public final class WidgetCoolDownDataOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (isSuccess_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(7, isSuccess_);
-      }
       if (coolDownTime_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(9, coolDownTime_);
+          .computeUInt64Size(7, coolDownTime_);
       }
       if (id_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(12, id_);
+      }
+      if (isSuccess_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(14, isSuccess_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -501,7 +501,7 @@ public final class WidgetCoolDownDataOuterClass {
 
       private boolean isSuccess_ ;
       /**
-       * <code>bool is_success = 7;</code>
+       * <code>bool is_success = 14;</code>
        * @return The isSuccess.
        */
       @java.lang.Override
@@ -509,7 +509,7 @@ public final class WidgetCoolDownDataOuterClass {
         return isSuccess_;
       }
       /**
-       * <code>bool is_success = 7;</code>
+       * <code>bool is_success = 14;</code>
        * @param value The isSuccess to set.
        * @return This builder for chaining.
        */
@@ -520,7 +520,7 @@ public final class WidgetCoolDownDataOuterClass {
         return this;
       }
       /**
-       * <code>bool is_success = 7;</code>
+       * <code>bool is_success = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsSuccess() {
@@ -532,7 +532,7 @@ public final class WidgetCoolDownDataOuterClass {
 
       private long coolDownTime_ ;
       /**
-       * <code>uint64 cool_down_time = 9;</code>
+       * <code>uint64 cool_down_time = 7;</code>
        * @return The coolDownTime.
        */
       @java.lang.Override
@@ -540,7 +540,7 @@ public final class WidgetCoolDownDataOuterClass {
         return coolDownTime_;
       }
       /**
-       * <code>uint64 cool_down_time = 9;</code>
+       * <code>uint64 cool_down_time = 7;</code>
        * @param value The coolDownTime to set.
        * @return This builder for chaining.
        */
@@ -551,7 +551,7 @@ public final class WidgetCoolDownDataOuterClass {
         return this;
       }
       /**
-       * <code>uint64 cool_down_time = 9;</code>
+       * <code>uint64 cool_down_time = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearCoolDownTime() {
@@ -659,8 +659,8 @@ public final class WidgetCoolDownDataOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\030WidgetCoolDownData.proto\"L\n\022WidgetCool" +
-      "DownData\022\022\n\nis_success\030\007 \001(\010\022\026\n\016cool_dow" +
-      "n_time\030\t \001(\004\022\n\n\002id\030\014 \001(\rB9\n\031emu.grasscut" +
+      "DownData\022\022\n\nis_success\030\016 \001(\010\022\026\n\016cool_dow" +
+      "n_time\030\007 \001(\004\022\n\n\002id\030\014 \001(\rB9\n\031emu.grasscut" +
       "ter.net.protoB\034WidgetCoolDownDataOuterCl" +
       "assb\006proto3"
     };

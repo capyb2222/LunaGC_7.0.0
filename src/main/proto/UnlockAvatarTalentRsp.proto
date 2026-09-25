@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "UnlockAvatarTalentRspOuterClass";
 
 message UnlockAvatarTalentRsp {
-	uint64 avatar_guid = 1;
-	uint32 talent_id = 5;
-	int32 retcode = 8;
+	uint64 avatar_guid = 5;
+	uint32 talent_id = 8;
+	int32 retcode = 9;
 }

@@ -6,7 +6,7 @@ option java_outer_classname = "DigMarkPointOuterClass";
 import "Vector.proto";
 
 message DigMarkPoint {
-	Vector pos = 11;
-	Vector rot = 12;
-	uint32 bundle_id = 13;
+	Vector pos = 14;
+	Vector rot = 2;
+	uint32 bundle_id = 8;
 }

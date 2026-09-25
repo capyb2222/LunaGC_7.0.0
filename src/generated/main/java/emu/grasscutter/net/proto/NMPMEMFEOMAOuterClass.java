@@ -19,24 +19,24 @@ public final class NMPMEMFEOMAOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 AGFGCHIHNEE = 2;</code>
+     * <code>repeated uint32 AGFGCHIHNEE = 6;</code>
      * @return A list containing the aGFGCHIHNEE.
      */
     java.util.List<java.lang.Integer> getAGFGCHIHNEEList();
     /**
-     * <code>repeated uint32 AGFGCHIHNEE = 2;</code>
+     * <code>repeated uint32 AGFGCHIHNEE = 6;</code>
      * @return The count of aGFGCHIHNEE.
      */
     int getAGFGCHIHNEECount();
     /**
-     * <code>repeated uint32 AGFGCHIHNEE = 2;</code>
+     * <code>repeated uint32 AGFGCHIHNEE = 6;</code>
      * @param index The index of the element to return.
      * @return The aGFGCHIHNEE at the given index.
      */
     int getAGFGCHIHNEE(int index);
 
     /**
-     * <code>uint32 difficulty_id = 3;</code>
+     * <code>uint32 difficulty_id = 1;</code>
      * @return The difficultyId.
      */
     int getDifficultyId();
@@ -88,7 +88,12 @@ public final class NMPMEMFEOMAOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 8: {
+
+              difficultyId_ = input.readUInt32();
+              break;
+            }
+            case 48: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 aGFGCHIHNEE_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -96,7 +101,7 @@ public final class NMPMEMFEOMAOuterClass {
               aGFGCHIHNEE_.addInt(input.readUInt32());
               break;
             }
-            case 18: {
+            case 50: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -107,11 +112,6 @@ public final class NMPMEMFEOMAOuterClass {
                 aGFGCHIHNEE_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
-              break;
-            }
-            case 24: {
-
-              difficultyId_ = input.readUInt32();
               break;
             }
             default: {
@@ -149,10 +149,10 @@ public final class NMPMEMFEOMAOuterClass {
               emu.grasscutter.net.proto.NMPMEMFEOMAOuterClass.NMPMEMFEOMA.class, emu.grasscutter.net.proto.NMPMEMFEOMAOuterClass.NMPMEMFEOMA.Builder.class);
     }
 
-    public static final int AGFGCHIHNEE_FIELD_NUMBER = 2;
+    public static final int AGFGCHIHNEE_FIELD_NUMBER = 6;
     private com.google.protobuf.Internal.IntList aGFGCHIHNEE_;
     /**
-     * <code>repeated uint32 AGFGCHIHNEE = 2;</code>
+     * <code>repeated uint32 AGFGCHIHNEE = 6;</code>
      * @return A list containing the aGFGCHIHNEE.
      */
     @java.lang.Override
@@ -161,14 +161,14 @@ public final class NMPMEMFEOMAOuterClass {
       return aGFGCHIHNEE_;
     }
     /**
-     * <code>repeated uint32 AGFGCHIHNEE = 2;</code>
+     * <code>repeated uint32 AGFGCHIHNEE = 6;</code>
      * @return The count of aGFGCHIHNEE.
      */
     public int getAGFGCHIHNEECount() {
       return aGFGCHIHNEE_.size();
     }
     /**
-     * <code>repeated uint32 AGFGCHIHNEE = 2;</code>
+     * <code>repeated uint32 AGFGCHIHNEE = 6;</code>
      * @param index The index of the element to return.
      * @return The aGFGCHIHNEE at the given index.
      */
@@ -177,10 +177,10 @@ public final class NMPMEMFEOMAOuterClass {
     }
     private int aGFGCHIHNEEMemoizedSerializedSize = -1;
 
-    public static final int DIFFICULTY_ID_FIELD_NUMBER = 3;
+    public static final int DIFFICULTY_ID_FIELD_NUMBER = 1;
     private int difficultyId_;
     /**
-     * <code>uint32 difficulty_id = 3;</code>
+     * <code>uint32 difficulty_id = 1;</code>
      * @return The difficultyId.
      */
     @java.lang.Override
@@ -203,15 +203,15 @@ public final class NMPMEMFEOMAOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
+      if (difficultyId_ != 0) {
+        output.writeUInt32(1, difficultyId_);
+      }
       if (getAGFGCHIHNEEList().size() > 0) {
-        output.writeUInt32NoTag(18);
+        output.writeUInt32NoTag(50);
         output.writeUInt32NoTag(aGFGCHIHNEEMemoizedSerializedSize);
       }
       for (int i = 0; i < aGFGCHIHNEE_.size(); i++) {
         output.writeUInt32NoTag(aGFGCHIHNEE_.getInt(i));
-      }
-      if (difficultyId_ != 0) {
-        output.writeUInt32(3, difficultyId_);
       }
       unknownFields.writeTo(output);
     }
@@ -222,6 +222,10 @@ public final class NMPMEMFEOMAOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (difficultyId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(1, difficultyId_);
+      }
       {
         int dataSize = 0;
         for (int i = 0; i < aGFGCHIHNEE_.size(); i++) {
@@ -235,10 +239,6 @@ public final class NMPMEMFEOMAOuterClass {
               .computeInt32SizeNoTag(dataSize);
         }
         aGFGCHIHNEEMemoizedSerializedSize = dataSize;
-      }
-      if (difficultyId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, difficultyId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -545,7 +545,7 @@ public final class NMPMEMFEOMAOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 AGFGCHIHNEE = 2;</code>
+       * <code>repeated uint32 AGFGCHIHNEE = 6;</code>
        * @return A list containing the aGFGCHIHNEE.
        */
       public java.util.List<java.lang.Integer>
@@ -554,14 +554,14 @@ public final class NMPMEMFEOMAOuterClass {
                  java.util.Collections.unmodifiableList(aGFGCHIHNEE_) : aGFGCHIHNEE_;
       }
       /**
-       * <code>repeated uint32 AGFGCHIHNEE = 2;</code>
+       * <code>repeated uint32 AGFGCHIHNEE = 6;</code>
        * @return The count of aGFGCHIHNEE.
        */
       public int getAGFGCHIHNEECount() {
         return aGFGCHIHNEE_.size();
       }
       /**
-       * <code>repeated uint32 AGFGCHIHNEE = 2;</code>
+       * <code>repeated uint32 AGFGCHIHNEE = 6;</code>
        * @param index The index of the element to return.
        * @return The aGFGCHIHNEE at the given index.
        */
@@ -569,7 +569,7 @@ public final class NMPMEMFEOMAOuterClass {
         return aGFGCHIHNEE_.getInt(index);
       }
       /**
-       * <code>repeated uint32 AGFGCHIHNEE = 2;</code>
+       * <code>repeated uint32 AGFGCHIHNEE = 6;</code>
        * @param index The index to set the value at.
        * @param value The aGFGCHIHNEE to set.
        * @return This builder for chaining.
@@ -582,7 +582,7 @@ public final class NMPMEMFEOMAOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 AGFGCHIHNEE = 2;</code>
+       * <code>repeated uint32 AGFGCHIHNEE = 6;</code>
        * @param value The aGFGCHIHNEE to add.
        * @return This builder for chaining.
        */
@@ -593,7 +593,7 @@ public final class NMPMEMFEOMAOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 AGFGCHIHNEE = 2;</code>
+       * <code>repeated uint32 AGFGCHIHNEE = 6;</code>
        * @param values The aGFGCHIHNEE to add.
        * @return This builder for chaining.
        */
@@ -606,7 +606,7 @@ public final class NMPMEMFEOMAOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 AGFGCHIHNEE = 2;</code>
+       * <code>repeated uint32 AGFGCHIHNEE = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearAGFGCHIHNEE() {
@@ -618,7 +618,7 @@ public final class NMPMEMFEOMAOuterClass {
 
       private int difficultyId_ ;
       /**
-       * <code>uint32 difficulty_id = 3;</code>
+       * <code>uint32 difficulty_id = 1;</code>
        * @return The difficultyId.
        */
       @java.lang.Override
@@ -626,7 +626,7 @@ public final class NMPMEMFEOMAOuterClass {
         return difficultyId_;
       }
       /**
-       * <code>uint32 difficulty_id = 3;</code>
+       * <code>uint32 difficulty_id = 1;</code>
        * @param value The difficultyId to set.
        * @return This builder for chaining.
        */
@@ -637,7 +637,7 @@ public final class NMPMEMFEOMAOuterClass {
         return this;
       }
       /**
-       * <code>uint32 difficulty_id = 3;</code>
+       * <code>uint32 difficulty_id = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearDifficultyId() {
@@ -714,7 +714,7 @@ public final class NMPMEMFEOMAOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NMPMEMFEOMA.proto\"9\n\013NMPMEMFEOMA\022\023\n\013AG" +
-      "FGCHIHNEE\030\002 \003(\r\022\025\n\rdifficulty_id\030\003 \001(\rB2" +
+      "FGCHIHNEE\030\006 \003(\r\022\025\n\rdifficulty_id\030\001 \001(\rB2" +
       "\n\031emu.grasscutter.net.protoB\025NMPMEMFEOMA" +
       "OuterClassb\006proto3"
     };

@@ -5,6 +5,6 @@ option java_outer_classname = "ChangeTeamNameRspOuterClass";
 
 message ChangeTeamNameRsp {
 	string team_name = 3;
-	int32 team_id = 5;
-	int32 retcode = 7;
+	int32 team_id = 14;
+	int32 retcode = 12;
 }

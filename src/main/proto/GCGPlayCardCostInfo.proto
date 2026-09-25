@@ -6,6 +6,6 @@ option java_outer_classname = "GCGPlayCardCostInfoOuterClass";
 import "NAOPGAHKGGG.proto";
 
 message GCGPlayCardCostInfo {
-	uint32 card_id = 1;
-	repeated NAOPGAHKGGG token_list = 4;
+	uint32 card_id = 6;
+	repeated NAOPGAHKGGG token_list = 10;
 }

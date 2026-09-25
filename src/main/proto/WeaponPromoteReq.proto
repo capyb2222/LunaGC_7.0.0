@@ -4,5 +4,5 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "WeaponPromoteReqOuterClass";
 
 message WeaponPromoteReq {
-	uint64 target_weapon_guid = 11;
+	uint64 target_weapon_guid = 15;
 }

@@ -43,17 +43,17 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
         int index);
 
     /**
-     * <code>repeated uint32 unlocked_area_id_list = 1765;</code>
+     * <code>repeated uint32 unlocked_area_id_list = 388;</code>
      * @return A list containing the unlockedAreaIdList.
      */
     java.util.List<java.lang.Integer> getUnlockedAreaIdListList();
     /**
-     * <code>repeated uint32 unlocked_area_id_list = 1765;</code>
+     * <code>repeated uint32 unlocked_area_id_list = 388;</code>
      * @return The count of unlockedAreaIdList.
      */
     int getUnlockedAreaIdListCount();
     /**
-     * <code>repeated uint32 unlocked_area_id_list = 1765;</code>
+     * <code>repeated uint32 unlocked_area_id_list = 388;</code>
      * @param index The index of the element to return.
      * @return The unlockedAreaIdList at the given index.
      */
@@ -116,7 +116,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.PlayerWorldSceneInfoOuterClass.PlayerWorldSceneInfo.parser(), extensionRegistry));
               break;
             }
-            case 14120: {
+            case 3104: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 unlockedAreaIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
@@ -124,7 +124,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
               unlockedAreaIdList_.addInt(input.readUInt32());
               break;
             }
-            case 14122: {
+            case 3106: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
@@ -215,10 +215,10 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
       return infoList_.get(index);
     }
 
-    public static final int UNLOCKED_AREA_ID_LIST_FIELD_NUMBER = 1765;
+    public static final int UNLOCKED_AREA_ID_LIST_FIELD_NUMBER = 388;
     private com.google.protobuf.Internal.IntList unlockedAreaIdList_;
     /**
-     * <code>repeated uint32 unlocked_area_id_list = 1765;</code>
+     * <code>repeated uint32 unlocked_area_id_list = 388;</code>
      * @return A list containing the unlockedAreaIdList.
      */
     @java.lang.Override
@@ -227,14 +227,14 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
       return unlockedAreaIdList_;
     }
     /**
-     * <code>repeated uint32 unlocked_area_id_list = 1765;</code>
+     * <code>repeated uint32 unlocked_area_id_list = 388;</code>
      * @return The count of unlockedAreaIdList.
      */
     public int getUnlockedAreaIdListCount() {
       return unlockedAreaIdList_.size();
     }
     /**
-     * <code>repeated uint32 unlocked_area_id_list = 1765;</code>
+     * <code>repeated uint32 unlocked_area_id_list = 388;</code>
      * @param index The index of the element to return.
      * @return The unlockedAreaIdList at the given index.
      */
@@ -262,7 +262,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
         output.writeMessage(5, infoList_.get(i));
       }
       if (getUnlockedAreaIdListList().size() > 0) {
-        output.writeUInt32NoTag(14122);
+        output.writeUInt32NoTag(3106);
         output.writeUInt32NoTag(unlockedAreaIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < unlockedAreaIdList_.size(); i++) {
@@ -878,7 +878,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 unlocked_area_id_list = 1765;</code>
+       * <code>repeated uint32 unlocked_area_id_list = 388;</code>
        * @return A list containing the unlockedAreaIdList.
        */
       public java.util.List<java.lang.Integer>
@@ -887,14 +887,14 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
                  java.util.Collections.unmodifiableList(unlockedAreaIdList_) : unlockedAreaIdList_;
       }
       /**
-       * <code>repeated uint32 unlocked_area_id_list = 1765;</code>
+       * <code>repeated uint32 unlocked_area_id_list = 388;</code>
        * @return The count of unlockedAreaIdList.
        */
       public int getUnlockedAreaIdListCount() {
         return unlockedAreaIdList_.size();
       }
       /**
-       * <code>repeated uint32 unlocked_area_id_list = 1765;</code>
+       * <code>repeated uint32 unlocked_area_id_list = 388;</code>
        * @param index The index of the element to return.
        * @return The unlockedAreaIdList at the given index.
        */
@@ -902,7 +902,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
         return unlockedAreaIdList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 unlocked_area_id_list = 1765;</code>
+       * <code>repeated uint32 unlocked_area_id_list = 388;</code>
        * @param index The index to set the value at.
        * @param value The unlockedAreaIdList to set.
        * @return This builder for chaining.
@@ -915,7 +915,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 unlocked_area_id_list = 1765;</code>
+       * <code>repeated uint32 unlocked_area_id_list = 388;</code>
        * @param value The unlockedAreaIdList to add.
        * @return This builder for chaining.
        */
@@ -926,7 +926,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 unlocked_area_id_list = 1765;</code>
+       * <code>repeated uint32 unlocked_area_id_list = 388;</code>
        * @param values The unlockedAreaIdList to add.
        * @return This builder for chaining.
        */
@@ -939,7 +939,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 unlocked_area_id_list = 1765;</code>
+       * <code>repeated uint32 unlocked_area_id_list = 388;</code>
        * @return This builder for chaining.
        */
       public Builder clearUnlockedAreaIdList() {
@@ -1019,7 +1019,7 @@ public final class PlayerWorldSceneInfoListNotifyOuterClass {
       "PlayerWorldSceneInfo.proto\"j\n\036PlayerWorl" +
       "dSceneInfoListNotify\022(\n\tinfo_list\030\005 \003(\0132" +
       "\025.PlayerWorldSceneInfo\022\036\n\025unlocked_area_" +
-      "id_list\030\345\r \003(\rBE\n\031emu.grasscutter.net.pr" +
+      "id_list\030\204\003 \003(\rBE\n\031emu.grasscutter.net.pr" +
       "otoB(PlayerWorldSceneInfoListNotifyOuter" +
       "Classb\006proto3"
     };

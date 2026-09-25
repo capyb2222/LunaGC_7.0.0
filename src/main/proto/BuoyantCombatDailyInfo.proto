@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "BuoyantCombatDailyInfoOuterClass";
 
 message BuoyantCombatDailyInfo {
-	uint32 start_time = 12;
-	uint32 best_score = 13;
+	uint32 start_time = 4;
+	uint32 best_score = 9;
 }

@@ -19,7 +19,7 @@ public final class WearEquipReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint64 equip_guid = 7;</code>
+     * <code>uint64 equip_guid = 2;</code>
      * @return The equipGuid.
      */
     long getEquipGuid();
@@ -75,7 +75,7 @@ public final class WearEquipReqOuterClass {
             case 0:
               done = true;
               break;
-            case 56: {
+            case 16: {
 
               equipGuid_ = input.readUInt64();
               break;
@@ -117,10 +117,10 @@ public final class WearEquipReqOuterClass {
               emu.grasscutter.net.proto.WearEquipReqOuterClass.WearEquipReq.class, emu.grasscutter.net.proto.WearEquipReqOuterClass.WearEquipReq.Builder.class);
     }
 
-    public static final int EQUIP_GUID_FIELD_NUMBER = 7;
+    public static final int EQUIP_GUID_FIELD_NUMBER = 2;
     private long equipGuid_;
     /**
-     * <code>uint64 equip_guid = 7;</code>
+     * <code>uint64 equip_guid = 2;</code>
      * @return The equipGuid.
      */
     @java.lang.Override
@@ -154,7 +154,7 @@ public final class WearEquipReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (equipGuid_ != 0L) {
-        output.writeUInt64(7, equipGuid_);
+        output.writeUInt64(2, equipGuid_);
       }
       if (avatarGuid_ != 0L) {
         output.writeUInt64(9, avatarGuid_);
@@ -170,7 +170,7 @@ public final class WearEquipReqOuterClass {
       size = 0;
       if (equipGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(7, equipGuid_);
+          .computeUInt64Size(2, equipGuid_);
       }
       if (avatarGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
@@ -462,7 +462,7 @@ public final class WearEquipReqOuterClass {
 
       private long equipGuid_ ;
       /**
-       * <code>uint64 equip_guid = 7;</code>
+       * <code>uint64 equip_guid = 2;</code>
        * @return The equipGuid.
        */
       @java.lang.Override
@@ -470,7 +470,7 @@ public final class WearEquipReqOuterClass {
         return equipGuid_;
       }
       /**
-       * <code>uint64 equip_guid = 7;</code>
+       * <code>uint64 equip_guid = 2;</code>
        * @param value The equipGuid to set.
        * @return This builder for chaining.
        */
@@ -481,7 +481,7 @@ public final class WearEquipReqOuterClass {
         return this;
       }
       /**
-       * <code>uint64 equip_guid = 7;</code>
+       * <code>uint64 equip_guid = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearEquipGuid() {
@@ -589,7 +589,7 @@ public final class WearEquipReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\022WearEquipReq.proto\"7\n\014WearEquipReq\022\022\n\n" +
-      "equip_guid\030\007 \001(\004\022\023\n\013avatar_guid\030\t \001(\004B3\n" +
+      "equip_guid\030\002 \001(\004\022\023\n\013avatar_guid\030\t \001(\004B3\n" +
       "\031emu.grasscutter.net.protoB\026WearEquipReq" +
       "OuterClassb\006proto3"
     };

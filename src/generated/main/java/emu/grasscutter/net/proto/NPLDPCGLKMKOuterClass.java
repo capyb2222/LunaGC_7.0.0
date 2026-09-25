@@ -19,92 +19,92 @@ public final class NPLDPCGLKMKOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 BGKNOBGMOIP = 1;</code>
+     * <code>repeated uint32 BGKNOBGMOIP = 4;</code>
      * @return A list containing the bGKNOBGMOIP.
      */
     java.util.List<java.lang.Integer> getBGKNOBGMOIPList();
     /**
-     * <code>repeated uint32 BGKNOBGMOIP = 1;</code>
+     * <code>repeated uint32 BGKNOBGMOIP = 4;</code>
      * @return The count of bGKNOBGMOIP.
      */
     int getBGKNOBGMOIPCount();
     /**
-     * <code>repeated uint32 BGKNOBGMOIP = 1;</code>
+     * <code>repeated uint32 BGKNOBGMOIP = 4;</code>
      * @param index The index of the element to return.
      * @return The bGKNOBGMOIP at the given index.
      */
     int getBGKNOBGMOIP(int index);
 
     /**
-     * <code>uint32 level_id = 4;</code>
+     * <code>uint32 level_id = 9;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>bool is_finish = 5;</code>
+     * <code>bool is_finish = 6;</code>
      * @return The isFinish.
      */
     boolean getIsFinish();
 
     /**
-     * <code>repeated uint32 JFAEGBAKLOB = 6;</code>
+     * <code>repeated uint32 JFAEGBAKLOB = 50000;</code>
      * @return A list containing the jFAEGBAKLOB.
      */
     java.util.List<java.lang.Integer> getJFAEGBAKLOBList();
     /**
-     * <code>repeated uint32 JFAEGBAKLOB = 6;</code>
+     * <code>repeated uint32 JFAEGBAKLOB = 50000;</code>
      * @return The count of jFAEGBAKLOB.
      */
     int getJFAEGBAKLOBCount();
     /**
-     * <code>repeated uint32 JFAEGBAKLOB = 6;</code>
+     * <code>repeated uint32 JFAEGBAKLOB = 50000;</code>
      * @param index The index of the element to return.
      * @return The jFAEGBAKLOB at the given index.
      */
     int getJFAEGBAKLOB(int index);
 
     /**
-     * <code>repeated uint32 EBFKBDLLJGC = 8;</code>
+     * <code>repeated uint32 EBFKBDLLJGC = 5;</code>
      * @return A list containing the eBFKBDLLJGC.
      */
     java.util.List<java.lang.Integer> getEBFKBDLLJGCList();
     /**
-     * <code>repeated uint32 EBFKBDLLJGC = 8;</code>
+     * <code>repeated uint32 EBFKBDLLJGC = 5;</code>
      * @return The count of eBFKBDLLJGC.
      */
     int getEBFKBDLLJGCCount();
     /**
-     * <code>repeated uint32 EBFKBDLLJGC = 8;</code>
+     * <code>repeated uint32 EBFKBDLLJGC = 5;</code>
      * @param index The index of the element to return.
      * @return The eBFKBDLLJGC at the given index.
      */
     int getEBFKBDLLJGC(int index);
 
     /**
-     * <code>uint32 score = 10;</code>
+     * <code>uint32 score = 8;</code>
      * @return The score.
      */
     int getScore();
 
     /**
-     * <code>bool is_open = 11;</code>
+     * <code>bool is_open = 3;</code>
      * @return The isOpen.
      */
     boolean getIsOpen();
 
     /**
-     * <code>repeated uint32 AHAPLEIGAPI = 14;</code>
+     * <code>repeated uint32 AHAPLEIGAPI = 50001;</code>
      * @return A list containing the aHAPLEIGAPI.
      */
     java.util.List<java.lang.Integer> getAHAPLEIGAPIList();
     /**
-     * <code>repeated uint32 AHAPLEIGAPI = 14;</code>
+     * <code>repeated uint32 AHAPLEIGAPI = 50001;</code>
      * @return The count of aHAPLEIGAPI.
      */
     int getAHAPLEIGAPICount();
     /**
-     * <code>repeated uint32 AHAPLEIGAPI = 14;</code>
+     * <code>repeated uint32 AHAPLEIGAPI = 50001;</code>
      * @param index The index of the element to return.
      * @return The aHAPLEIGAPI at the given index.
      */
@@ -160,7 +160,12 @@ public final class NPLDPCGLKMKOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 24: {
+
+              isOpen_ = input.readBool();
+              break;
+            }
+            case 32: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 bGKNOBGMOIP_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -168,7 +173,7 @@ public final class NPLDPCGLKMKOuterClass {
               bGKNOBGMOIP_.addInt(input.readUInt32());
               break;
             }
-            case 10: {
+            case 34: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -181,38 +186,7 @@ public final class NPLDPCGLKMKOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 32: {
-
-              levelId_ = input.readUInt32();
-              break;
-            }
             case 40: {
-
-              isFinish_ = input.readBool();
-              break;
-            }
-            case 48: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                jFAEGBAKLOB_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
-              }
-              jFAEGBAKLOB_.addInt(input.readUInt32());
-              break;
-            }
-            case 50: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
-                jFAEGBAKLOB_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                jFAEGBAKLOB_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
-              break;
-            }
-            case 64: {
               if (!((mutable_bitField0_ & 0x00000004) != 0)) {
                 eBFKBDLLJGC_ = newIntList();
                 mutable_bitField0_ |= 0x00000004;
@@ -220,7 +194,7 @@ public final class NPLDPCGLKMKOuterClass {
               eBFKBDLLJGC_.addInt(input.readUInt32());
               break;
             }
-            case 66: {
+            case 42: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000004) != 0) && input.getBytesUntilLimit() > 0) {
@@ -233,17 +207,43 @@ public final class NPLDPCGLKMKOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 80: {
+            case 48: {
+
+              isFinish_ = input.readBool();
+              break;
+            }
+            case 64: {
 
               score_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 72: {
 
-              isOpen_ = input.readBool();
+              levelId_ = input.readUInt32();
               break;
             }
-            case 112: {
+            case 400000: {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                jFAEGBAKLOB_ = newIntList();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              jFAEGBAKLOB_.addInt(input.readUInt32());
+              break;
+            }
+            case 400002: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
+                jFAEGBAKLOB_ = newIntList();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                jFAEGBAKLOB_.addInt(input.readUInt32());
+              }
+              input.popLimit(limit);
+              break;
+            }
+            case 400008: {
               if (!((mutable_bitField0_ & 0x00000008) != 0)) {
                 aHAPLEIGAPI_ = newIntList();
                 mutable_bitField0_ |= 0x00000008;
@@ -251,7 +251,7 @@ public final class NPLDPCGLKMKOuterClass {
               aHAPLEIGAPI_.addInt(input.readUInt32());
               break;
             }
-            case 114: {
+            case 400010: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000008) != 0) && input.getBytesUntilLimit() > 0) {
@@ -282,11 +282,11 @@ public final class NPLDPCGLKMKOuterClass {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
           bGKNOBGMOIP_.makeImmutable(); // C
         }
-        if (((mutable_bitField0_ & 0x00000002) != 0)) {
-          jFAEGBAKLOB_.makeImmutable(); // C
-        }
         if (((mutable_bitField0_ & 0x00000004) != 0)) {
           eBFKBDLLJGC_.makeImmutable(); // C
+        }
+        if (((mutable_bitField0_ & 0x00000002) != 0)) {
+          jFAEGBAKLOB_.makeImmutable(); // C
         }
         if (((mutable_bitField0_ & 0x00000008) != 0)) {
           aHAPLEIGAPI_.makeImmutable(); // C
@@ -308,10 +308,10 @@ public final class NPLDPCGLKMKOuterClass {
               emu.grasscutter.net.proto.NPLDPCGLKMKOuterClass.NPLDPCGLKMK.class, emu.grasscutter.net.proto.NPLDPCGLKMKOuterClass.NPLDPCGLKMK.Builder.class);
     }
 
-    public static final int BGKNOBGMOIP_FIELD_NUMBER = 1;
+    public static final int BGKNOBGMOIP_FIELD_NUMBER = 4;
     private com.google.protobuf.Internal.IntList bGKNOBGMOIP_;
     /**
-     * <code>repeated uint32 BGKNOBGMOIP = 1;</code>
+     * <code>repeated uint32 BGKNOBGMOIP = 4;</code>
      * @return A list containing the bGKNOBGMOIP.
      */
     @java.lang.Override
@@ -320,14 +320,14 @@ public final class NPLDPCGLKMKOuterClass {
       return bGKNOBGMOIP_;
     }
     /**
-     * <code>repeated uint32 BGKNOBGMOIP = 1;</code>
+     * <code>repeated uint32 BGKNOBGMOIP = 4;</code>
      * @return The count of bGKNOBGMOIP.
      */
     public int getBGKNOBGMOIPCount() {
       return bGKNOBGMOIP_.size();
     }
     /**
-     * <code>repeated uint32 BGKNOBGMOIP = 1;</code>
+     * <code>repeated uint32 BGKNOBGMOIP = 4;</code>
      * @param index The index of the element to return.
      * @return The bGKNOBGMOIP at the given index.
      */
@@ -336,10 +336,10 @@ public final class NPLDPCGLKMKOuterClass {
     }
     private int bGKNOBGMOIPMemoizedSerializedSize = -1;
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 4;
+    public static final int LEVEL_ID_FIELD_NUMBER = 9;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 4;</code>
+     * <code>uint32 level_id = 9;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -347,10 +347,10 @@ public final class NPLDPCGLKMKOuterClass {
       return levelId_;
     }
 
-    public static final int IS_FINISH_FIELD_NUMBER = 5;
+    public static final int IS_FINISH_FIELD_NUMBER = 6;
     private boolean isFinish_;
     /**
-     * <code>bool is_finish = 5;</code>
+     * <code>bool is_finish = 6;</code>
      * @return The isFinish.
      */
     @java.lang.Override
@@ -358,10 +358,10 @@ public final class NPLDPCGLKMKOuterClass {
       return isFinish_;
     }
 
-    public static final int JFAEGBAKLOB_FIELD_NUMBER = 6;
+    public static final int JFAEGBAKLOB_FIELD_NUMBER = 50000;
     private com.google.protobuf.Internal.IntList jFAEGBAKLOB_;
     /**
-     * <code>repeated uint32 JFAEGBAKLOB = 6;</code>
+     * <code>repeated uint32 JFAEGBAKLOB = 50000;</code>
      * @return A list containing the jFAEGBAKLOB.
      */
     @java.lang.Override
@@ -370,14 +370,14 @@ public final class NPLDPCGLKMKOuterClass {
       return jFAEGBAKLOB_;
     }
     /**
-     * <code>repeated uint32 JFAEGBAKLOB = 6;</code>
+     * <code>repeated uint32 JFAEGBAKLOB = 50000;</code>
      * @return The count of jFAEGBAKLOB.
      */
     public int getJFAEGBAKLOBCount() {
       return jFAEGBAKLOB_.size();
     }
     /**
-     * <code>repeated uint32 JFAEGBAKLOB = 6;</code>
+     * <code>repeated uint32 JFAEGBAKLOB = 50000;</code>
      * @param index The index of the element to return.
      * @return The jFAEGBAKLOB at the given index.
      */
@@ -386,10 +386,10 @@ public final class NPLDPCGLKMKOuterClass {
     }
     private int jFAEGBAKLOBMemoizedSerializedSize = -1;
 
-    public static final int EBFKBDLLJGC_FIELD_NUMBER = 8;
+    public static final int EBFKBDLLJGC_FIELD_NUMBER = 5;
     private com.google.protobuf.Internal.IntList eBFKBDLLJGC_;
     /**
-     * <code>repeated uint32 EBFKBDLLJGC = 8;</code>
+     * <code>repeated uint32 EBFKBDLLJGC = 5;</code>
      * @return A list containing the eBFKBDLLJGC.
      */
     @java.lang.Override
@@ -398,14 +398,14 @@ public final class NPLDPCGLKMKOuterClass {
       return eBFKBDLLJGC_;
     }
     /**
-     * <code>repeated uint32 EBFKBDLLJGC = 8;</code>
+     * <code>repeated uint32 EBFKBDLLJGC = 5;</code>
      * @return The count of eBFKBDLLJGC.
      */
     public int getEBFKBDLLJGCCount() {
       return eBFKBDLLJGC_.size();
     }
     /**
-     * <code>repeated uint32 EBFKBDLLJGC = 8;</code>
+     * <code>repeated uint32 EBFKBDLLJGC = 5;</code>
      * @param index The index of the element to return.
      * @return The eBFKBDLLJGC at the given index.
      */
@@ -414,10 +414,10 @@ public final class NPLDPCGLKMKOuterClass {
     }
     private int eBFKBDLLJGCMemoizedSerializedSize = -1;
 
-    public static final int SCORE_FIELD_NUMBER = 10;
+    public static final int SCORE_FIELD_NUMBER = 8;
     private int score_;
     /**
-     * <code>uint32 score = 10;</code>
+     * <code>uint32 score = 8;</code>
      * @return The score.
      */
     @java.lang.Override
@@ -425,10 +425,10 @@ public final class NPLDPCGLKMKOuterClass {
       return score_;
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 11;
+    public static final int IS_OPEN_FIELD_NUMBER = 3;
     private boolean isOpen_;
     /**
-     * <code>bool is_open = 11;</code>
+     * <code>bool is_open = 3;</code>
      * @return The isOpen.
      */
     @java.lang.Override
@@ -436,10 +436,10 @@ public final class NPLDPCGLKMKOuterClass {
       return isOpen_;
     }
 
-    public static final int AHAPLEIGAPI_FIELD_NUMBER = 14;
+    public static final int AHAPLEIGAPI_FIELD_NUMBER = 50001;
     private com.google.protobuf.Internal.IntList aHAPLEIGAPI_;
     /**
-     * <code>repeated uint32 AHAPLEIGAPI = 14;</code>
+     * <code>repeated uint32 AHAPLEIGAPI = 50001;</code>
      * @return A list containing the aHAPLEIGAPI.
      */
     @java.lang.Override
@@ -448,14 +448,14 @@ public final class NPLDPCGLKMKOuterClass {
       return aHAPLEIGAPI_;
     }
     /**
-     * <code>repeated uint32 AHAPLEIGAPI = 14;</code>
+     * <code>repeated uint32 AHAPLEIGAPI = 50001;</code>
      * @return The count of aHAPLEIGAPI.
      */
     public int getAHAPLEIGAPICount() {
       return aHAPLEIGAPI_.size();
     }
     /**
-     * <code>repeated uint32 AHAPLEIGAPI = 14;</code>
+     * <code>repeated uint32 AHAPLEIGAPI = 50001;</code>
      * @param index The index of the element to return.
      * @return The aHAPLEIGAPI at the given index.
      */
@@ -479,41 +479,41 @@ public final class NPLDPCGLKMKOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
+      if (isOpen_ != false) {
+        output.writeBool(3, isOpen_);
+      }
       if (getBGKNOBGMOIPList().size() > 0) {
-        output.writeUInt32NoTag(10);
+        output.writeUInt32NoTag(34);
         output.writeUInt32NoTag(bGKNOBGMOIPMemoizedSerializedSize);
       }
       for (int i = 0; i < bGKNOBGMOIP_.size(); i++) {
         output.writeUInt32NoTag(bGKNOBGMOIP_.getInt(i));
       }
-      if (levelId_ != 0) {
-        output.writeUInt32(4, levelId_);
-      }
-      if (isFinish_ != false) {
-        output.writeBool(5, isFinish_);
-      }
-      if (getJFAEGBAKLOBList().size() > 0) {
-        output.writeUInt32NoTag(50);
-        output.writeUInt32NoTag(jFAEGBAKLOBMemoizedSerializedSize);
-      }
-      for (int i = 0; i < jFAEGBAKLOB_.size(); i++) {
-        output.writeUInt32NoTag(jFAEGBAKLOB_.getInt(i));
-      }
       if (getEBFKBDLLJGCList().size() > 0) {
-        output.writeUInt32NoTag(66);
+        output.writeUInt32NoTag(42);
         output.writeUInt32NoTag(eBFKBDLLJGCMemoizedSerializedSize);
       }
       for (int i = 0; i < eBFKBDLLJGC_.size(); i++) {
         output.writeUInt32NoTag(eBFKBDLLJGC_.getInt(i));
       }
-      if (score_ != 0) {
-        output.writeUInt32(10, score_);
+      if (isFinish_ != false) {
+        output.writeBool(6, isFinish_);
       }
-      if (isOpen_ != false) {
-        output.writeBool(11, isOpen_);
+      if (score_ != 0) {
+        output.writeUInt32(8, score_);
+      }
+      if (levelId_ != 0) {
+        output.writeUInt32(9, levelId_);
+      }
+      if (getJFAEGBAKLOBList().size() > 0) {
+        output.writeUInt32NoTag(400002);
+        output.writeUInt32NoTag(jFAEGBAKLOBMemoizedSerializedSize);
+      }
+      for (int i = 0; i < jFAEGBAKLOB_.size(); i++) {
+        output.writeUInt32NoTag(jFAEGBAKLOB_.getInt(i));
       }
       if (getAHAPLEIGAPIList().size() > 0) {
-        output.writeUInt32NoTag(114);
+        output.writeUInt32NoTag(400010);
         output.writeUInt32NoTag(aHAPLEIGAPIMemoizedSerializedSize);
       }
       for (int i = 0; i < aHAPLEIGAPI_.size(); i++) {
@@ -528,6 +528,10 @@ public final class NPLDPCGLKMKOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (isOpen_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(3, isOpen_);
+      }
       {
         int dataSize = 0;
         for (int i = 0; i < bGKNOBGMOIP_.size(); i++) {
@@ -541,28 +545,6 @@ public final class NPLDPCGLKMKOuterClass {
               .computeInt32SizeNoTag(dataSize);
         }
         bGKNOBGMOIPMemoizedSerializedSize = dataSize;
-      }
-      if (levelId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, levelId_);
-      }
-      if (isFinish_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(5, isFinish_);
-      }
-      {
-        int dataSize = 0;
-        for (int i = 0; i < jFAEGBAKLOB_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(jFAEGBAKLOB_.getInt(i));
-        }
-        size += dataSize;
-        if (!getJFAEGBAKLOBList().isEmpty()) {
-          size += 1;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        jFAEGBAKLOBMemoizedSerializedSize = dataSize;
       }
       {
         int dataSize = 0;
@@ -578,13 +560,31 @@ public final class NPLDPCGLKMKOuterClass {
         }
         eBFKBDLLJGCMemoizedSerializedSize = dataSize;
       }
+      if (isFinish_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(6, isFinish_);
+      }
       if (score_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, score_);
+          .computeUInt32Size(8, score_);
       }
-      if (isOpen_ != false) {
+      if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(11, isOpen_);
+          .computeUInt32Size(9, levelId_);
+      }
+      {
+        int dataSize = 0;
+        for (int i = 0; i < jFAEGBAKLOB_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeUInt32SizeNoTag(jFAEGBAKLOB_.getInt(i));
+        }
+        size += dataSize;
+        if (!getJFAEGBAKLOBList().isEmpty()) {
+          size += 3;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        jFAEGBAKLOBMemoizedSerializedSize = dataSize;
       }
       {
         int dataSize = 0;
@@ -594,7 +594,7 @@ public final class NPLDPCGLKMKOuterClass {
         }
         size += dataSize;
         if (!getAHAPLEIGAPIList().isEmpty()) {
-          size += 1;
+          size += 3;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
@@ -1006,7 +1006,7 @@ public final class NPLDPCGLKMKOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 BGKNOBGMOIP = 1;</code>
+       * <code>repeated uint32 BGKNOBGMOIP = 4;</code>
        * @return A list containing the bGKNOBGMOIP.
        */
       public java.util.List<java.lang.Integer>
@@ -1015,14 +1015,14 @@ public final class NPLDPCGLKMKOuterClass {
                  java.util.Collections.unmodifiableList(bGKNOBGMOIP_) : bGKNOBGMOIP_;
       }
       /**
-       * <code>repeated uint32 BGKNOBGMOIP = 1;</code>
+       * <code>repeated uint32 BGKNOBGMOIP = 4;</code>
        * @return The count of bGKNOBGMOIP.
        */
       public int getBGKNOBGMOIPCount() {
         return bGKNOBGMOIP_.size();
       }
       /**
-       * <code>repeated uint32 BGKNOBGMOIP = 1;</code>
+       * <code>repeated uint32 BGKNOBGMOIP = 4;</code>
        * @param index The index of the element to return.
        * @return The bGKNOBGMOIP at the given index.
        */
@@ -1030,7 +1030,7 @@ public final class NPLDPCGLKMKOuterClass {
         return bGKNOBGMOIP_.getInt(index);
       }
       /**
-       * <code>repeated uint32 BGKNOBGMOIP = 1;</code>
+       * <code>repeated uint32 BGKNOBGMOIP = 4;</code>
        * @param index The index to set the value at.
        * @param value The bGKNOBGMOIP to set.
        * @return This builder for chaining.
@@ -1043,7 +1043,7 @@ public final class NPLDPCGLKMKOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 BGKNOBGMOIP = 1;</code>
+       * <code>repeated uint32 BGKNOBGMOIP = 4;</code>
        * @param value The bGKNOBGMOIP to add.
        * @return This builder for chaining.
        */
@@ -1054,7 +1054,7 @@ public final class NPLDPCGLKMKOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 BGKNOBGMOIP = 1;</code>
+       * <code>repeated uint32 BGKNOBGMOIP = 4;</code>
        * @param values The bGKNOBGMOIP to add.
        * @return This builder for chaining.
        */
@@ -1067,7 +1067,7 @@ public final class NPLDPCGLKMKOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 BGKNOBGMOIP = 1;</code>
+       * <code>repeated uint32 BGKNOBGMOIP = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearBGKNOBGMOIP() {
@@ -1079,7 +1079,7 @@ public final class NPLDPCGLKMKOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 4;</code>
+       * <code>uint32 level_id = 9;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -1087,7 +1087,7 @@ public final class NPLDPCGLKMKOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 4;</code>
+       * <code>uint32 level_id = 9;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -1098,7 +1098,7 @@ public final class NPLDPCGLKMKOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 4;</code>
+       * <code>uint32 level_id = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -1110,7 +1110,7 @@ public final class NPLDPCGLKMKOuterClass {
 
       private boolean isFinish_ ;
       /**
-       * <code>bool is_finish = 5;</code>
+       * <code>bool is_finish = 6;</code>
        * @return The isFinish.
        */
       @java.lang.Override
@@ -1118,7 +1118,7 @@ public final class NPLDPCGLKMKOuterClass {
         return isFinish_;
       }
       /**
-       * <code>bool is_finish = 5;</code>
+       * <code>bool is_finish = 6;</code>
        * @param value The isFinish to set.
        * @return This builder for chaining.
        */
@@ -1129,7 +1129,7 @@ public final class NPLDPCGLKMKOuterClass {
         return this;
       }
       /**
-       * <code>bool is_finish = 5;</code>
+       * <code>bool is_finish = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsFinish() {
@@ -1147,7 +1147,7 @@ public final class NPLDPCGLKMKOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 JFAEGBAKLOB = 6;</code>
+       * <code>repeated uint32 JFAEGBAKLOB = 50000;</code>
        * @return A list containing the jFAEGBAKLOB.
        */
       public java.util.List<java.lang.Integer>
@@ -1156,14 +1156,14 @@ public final class NPLDPCGLKMKOuterClass {
                  java.util.Collections.unmodifiableList(jFAEGBAKLOB_) : jFAEGBAKLOB_;
       }
       /**
-       * <code>repeated uint32 JFAEGBAKLOB = 6;</code>
+       * <code>repeated uint32 JFAEGBAKLOB = 50000;</code>
        * @return The count of jFAEGBAKLOB.
        */
       public int getJFAEGBAKLOBCount() {
         return jFAEGBAKLOB_.size();
       }
       /**
-       * <code>repeated uint32 JFAEGBAKLOB = 6;</code>
+       * <code>repeated uint32 JFAEGBAKLOB = 50000;</code>
        * @param index The index of the element to return.
        * @return The jFAEGBAKLOB at the given index.
        */
@@ -1171,7 +1171,7 @@ public final class NPLDPCGLKMKOuterClass {
         return jFAEGBAKLOB_.getInt(index);
       }
       /**
-       * <code>repeated uint32 JFAEGBAKLOB = 6;</code>
+       * <code>repeated uint32 JFAEGBAKLOB = 50000;</code>
        * @param index The index to set the value at.
        * @param value The jFAEGBAKLOB to set.
        * @return This builder for chaining.
@@ -1184,7 +1184,7 @@ public final class NPLDPCGLKMKOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 JFAEGBAKLOB = 6;</code>
+       * <code>repeated uint32 JFAEGBAKLOB = 50000;</code>
        * @param value The jFAEGBAKLOB to add.
        * @return This builder for chaining.
        */
@@ -1195,7 +1195,7 @@ public final class NPLDPCGLKMKOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 JFAEGBAKLOB = 6;</code>
+       * <code>repeated uint32 JFAEGBAKLOB = 50000;</code>
        * @param values The jFAEGBAKLOB to add.
        * @return This builder for chaining.
        */
@@ -1208,7 +1208,7 @@ public final class NPLDPCGLKMKOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 JFAEGBAKLOB = 6;</code>
+       * <code>repeated uint32 JFAEGBAKLOB = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearJFAEGBAKLOB() {
@@ -1226,7 +1226,7 @@ public final class NPLDPCGLKMKOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 EBFKBDLLJGC = 8;</code>
+       * <code>repeated uint32 EBFKBDLLJGC = 5;</code>
        * @return A list containing the eBFKBDLLJGC.
        */
       public java.util.List<java.lang.Integer>
@@ -1235,14 +1235,14 @@ public final class NPLDPCGLKMKOuterClass {
                  java.util.Collections.unmodifiableList(eBFKBDLLJGC_) : eBFKBDLLJGC_;
       }
       /**
-       * <code>repeated uint32 EBFKBDLLJGC = 8;</code>
+       * <code>repeated uint32 EBFKBDLLJGC = 5;</code>
        * @return The count of eBFKBDLLJGC.
        */
       public int getEBFKBDLLJGCCount() {
         return eBFKBDLLJGC_.size();
       }
       /**
-       * <code>repeated uint32 EBFKBDLLJGC = 8;</code>
+       * <code>repeated uint32 EBFKBDLLJGC = 5;</code>
        * @param index The index of the element to return.
        * @return The eBFKBDLLJGC at the given index.
        */
@@ -1250,7 +1250,7 @@ public final class NPLDPCGLKMKOuterClass {
         return eBFKBDLLJGC_.getInt(index);
       }
       /**
-       * <code>repeated uint32 EBFKBDLLJGC = 8;</code>
+       * <code>repeated uint32 EBFKBDLLJGC = 5;</code>
        * @param index The index to set the value at.
        * @param value The eBFKBDLLJGC to set.
        * @return This builder for chaining.
@@ -1263,7 +1263,7 @@ public final class NPLDPCGLKMKOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 EBFKBDLLJGC = 8;</code>
+       * <code>repeated uint32 EBFKBDLLJGC = 5;</code>
        * @param value The eBFKBDLLJGC to add.
        * @return This builder for chaining.
        */
@@ -1274,7 +1274,7 @@ public final class NPLDPCGLKMKOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 EBFKBDLLJGC = 8;</code>
+       * <code>repeated uint32 EBFKBDLLJGC = 5;</code>
        * @param values The eBFKBDLLJGC to add.
        * @return This builder for chaining.
        */
@@ -1287,7 +1287,7 @@ public final class NPLDPCGLKMKOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 EBFKBDLLJGC = 8;</code>
+       * <code>repeated uint32 EBFKBDLLJGC = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearEBFKBDLLJGC() {
@@ -1299,7 +1299,7 @@ public final class NPLDPCGLKMKOuterClass {
 
       private int score_ ;
       /**
-       * <code>uint32 score = 10;</code>
+       * <code>uint32 score = 8;</code>
        * @return The score.
        */
       @java.lang.Override
@@ -1307,7 +1307,7 @@ public final class NPLDPCGLKMKOuterClass {
         return score_;
       }
       /**
-       * <code>uint32 score = 10;</code>
+       * <code>uint32 score = 8;</code>
        * @param value The score to set.
        * @return This builder for chaining.
        */
@@ -1318,7 +1318,7 @@ public final class NPLDPCGLKMKOuterClass {
         return this;
       }
       /**
-       * <code>uint32 score = 10;</code>
+       * <code>uint32 score = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearScore() {
@@ -1330,7 +1330,7 @@ public final class NPLDPCGLKMKOuterClass {
 
       private boolean isOpen_ ;
       /**
-       * <code>bool is_open = 11;</code>
+       * <code>bool is_open = 3;</code>
        * @return The isOpen.
        */
       @java.lang.Override
@@ -1338,7 +1338,7 @@ public final class NPLDPCGLKMKOuterClass {
         return isOpen_;
       }
       /**
-       * <code>bool is_open = 11;</code>
+       * <code>bool is_open = 3;</code>
        * @param value The isOpen to set.
        * @return This builder for chaining.
        */
@@ -1349,7 +1349,7 @@ public final class NPLDPCGLKMKOuterClass {
         return this;
       }
       /**
-       * <code>bool is_open = 11;</code>
+       * <code>bool is_open = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsOpen() {
@@ -1367,7 +1367,7 @@ public final class NPLDPCGLKMKOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 AHAPLEIGAPI = 14;</code>
+       * <code>repeated uint32 AHAPLEIGAPI = 50001;</code>
        * @return A list containing the aHAPLEIGAPI.
        */
       public java.util.List<java.lang.Integer>
@@ -1376,14 +1376,14 @@ public final class NPLDPCGLKMKOuterClass {
                  java.util.Collections.unmodifiableList(aHAPLEIGAPI_) : aHAPLEIGAPI_;
       }
       /**
-       * <code>repeated uint32 AHAPLEIGAPI = 14;</code>
+       * <code>repeated uint32 AHAPLEIGAPI = 50001;</code>
        * @return The count of aHAPLEIGAPI.
        */
       public int getAHAPLEIGAPICount() {
         return aHAPLEIGAPI_.size();
       }
       /**
-       * <code>repeated uint32 AHAPLEIGAPI = 14;</code>
+       * <code>repeated uint32 AHAPLEIGAPI = 50001;</code>
        * @param index The index of the element to return.
        * @return The aHAPLEIGAPI at the given index.
        */
@@ -1391,7 +1391,7 @@ public final class NPLDPCGLKMKOuterClass {
         return aHAPLEIGAPI_.getInt(index);
       }
       /**
-       * <code>repeated uint32 AHAPLEIGAPI = 14;</code>
+       * <code>repeated uint32 AHAPLEIGAPI = 50001;</code>
        * @param index The index to set the value at.
        * @param value The aHAPLEIGAPI to set.
        * @return This builder for chaining.
@@ -1404,7 +1404,7 @@ public final class NPLDPCGLKMKOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 AHAPLEIGAPI = 14;</code>
+       * <code>repeated uint32 AHAPLEIGAPI = 50001;</code>
        * @param value The aHAPLEIGAPI to add.
        * @return This builder for chaining.
        */
@@ -1415,7 +1415,7 @@ public final class NPLDPCGLKMKOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 AHAPLEIGAPI = 14;</code>
+       * <code>repeated uint32 AHAPLEIGAPI = 50001;</code>
        * @param values The aHAPLEIGAPI to add.
        * @return This builder for chaining.
        */
@@ -1428,7 +1428,7 @@ public final class NPLDPCGLKMKOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 AHAPLEIGAPI = 14;</code>
+       * <code>repeated uint32 AHAPLEIGAPI = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearAHAPLEIGAPI() {
@@ -1504,13 +1504,13 @@ public final class NPLDPCGLKMKOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021NPLDPCGLKMK.proto\"\246\001\n\013NPLDPCGLKMK\022\023\n\013B" +
-      "GKNOBGMOIP\030\001 \003(\r\022\020\n\010level_id\030\004 \001(\r\022\021\n\tis" +
-      "_finish\030\005 \001(\010\022\023\n\013JFAEGBAKLOB\030\006 \003(\r\022\023\n\013EB" +
-      "FKBDLLJGC\030\010 \003(\r\022\r\n\005score\030\n \001(\r\022\017\n\007is_ope" +
-      "n\030\013 \001(\010\022\023\n\013AHAPLEIGAPI\030\016 \003(\rB2\n\031emu.gras" +
-      "scutter.net.protoB\025NPLDPCGLKMKOuterClass" +
-      "b\006proto3"
+      "\n\021NPLDPCGLKMK.proto\"\252\001\n\013NPLDPCGLKMK\022\023\n\013B" +
+      "GKNOBGMOIP\030\004 \003(\r\022\020\n\010level_id\030\t \001(\r\022\021\n\tis" +
+      "_finish\030\006 \001(\010\022\025\n\013JFAEGBAKLOB\030\320\206\003 \003(\r\022\023\n\013" +
+      "EBFKBDLLJGC\030\005 \003(\r\022\r\n\005score\030\010 \001(\r\022\017\n\007is_o" +
+      "pen\030\003 \001(\010\022\025\n\013AHAPLEIGAPI\030\321\206\003 \003(\rB2\n\031emu." +
+      "grasscutter.net.protoB\025NPLDPCGLKMKOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

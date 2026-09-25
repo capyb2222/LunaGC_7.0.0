@@ -6,6 +6,6 @@ option java_outer_classname = "EntityAbilityInvokeEntryOuterClass";
 import "AbilityInvokeEntry.proto";
 
 message EntityAbilityInvokeEntry {
-	uint32 entity_id = 6;
-	repeated AbilityInvokeEntry invokes = 11;
+	uint32 entity_id = 5;
+	repeated AbilityInvokeEntry invokes = 9;
 }

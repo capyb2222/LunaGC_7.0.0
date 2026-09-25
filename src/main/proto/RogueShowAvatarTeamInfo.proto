@@ -6,5 +6,5 @@ option java_outer_classname = "RogueShowAvatarTeamInfoOuterClass";
 import "RogueAvatarInfo.proto";
 
 message RogueShowAvatarTeamInfo {
-	repeated RogueAvatarInfo avatar_list = 15;
+	repeated RogueAvatarInfo avatar_list = 9;
 }

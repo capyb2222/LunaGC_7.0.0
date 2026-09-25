@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "EntityFightPropUpdateNotifyOuterClass";
 
 message EntityFightPropUpdateNotify {
-	map<uint32, float> fight_prop_map = 6;
-	uint32 entity_id = 12;
+	map<uint32, float> fight_prop_map = 13;
+	uint32 entity_id = 2;
 }

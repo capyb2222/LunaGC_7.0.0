@@ -19,43 +19,43 @@ public final class _LanV6LanternGiftSourceOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.FIEHCAPFKFI npc = 1639;</code>
+     * <code>.FIEHCAPFKFI npc = 1187;</code>
      * @return Whether the npc field is set.
      */
     boolean hasNpc();
     /**
-     * <code>.FIEHCAPFKFI npc = 1639;</code>
+     * <code>.FIEHCAPFKFI npc = 1187;</code>
      * @return The npc.
      */
     emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFI getNpc();
     /**
-     * <code>.FIEHCAPFKFI npc = 1639;</code>
+     * <code>.FIEHCAPFKFI npc = 1187;</code>
      */
     emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFIOrBuilder getNpcOrBuilder();
 
     /**
-     * <code>.EDLMACJNHGP player = 1981;</code>
+     * <code>.EDLMACJNHGP player = 150;</code>
      * @return Whether the player field is set.
      */
     boolean hasPlayer();
     /**
-     * <code>.EDLMACJNHGP player = 1981;</code>
+     * <code>.EDLMACJNHGP player = 150;</code>
      * @return The player.
      */
     emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGP getPlayer();
     /**
-     * <code>.EDLMACJNHGP player = 1981;</code>
+     * <code>.EDLMACJNHGP player = 150;</code>
      */
     emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGPOrBuilder getPlayerOrBuilder();
 
     /**
-     * <code>fixed32 timestamp = 1;</code>
+     * <code>fixed32 timestamp = 15;</code>
      * @return The timestamp.
      */
     int getTimestamp();
 
     /**
-     * <code>fixed32 BNBMJMEHPLJ = 3;</code>
+     * <code>fixed32 BNBMJMEHPLJ = 1;</code>
      * @return The bNBMJMEHPLJ.
      */
     int getBNBMJMEHPLJ();
@@ -109,31 +109,17 @@ public final class _LanV6LanternGiftSourceOuterClass {
               break;
             case 13: {
 
-              timestamp_ = input.readFixed32();
-              break;
-            }
-            case 29: {
-
               bNBMJMEHPLJ_ = input.readFixed32();
               break;
             }
-            case 13114: {
-              emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFI.Builder subBuilder = null;
-              if (detailCase_ == 1639) {
-                subBuilder = ((emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFI) detail_).toBuilder();
-              }
-              detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFI.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFI) detail_);
-                detail_ = subBuilder.buildPartial();
-              }
-              detailCase_ = 1639;
+            case 125: {
+
+              timestamp_ = input.readFixed32();
               break;
             }
-            case 15850: {
+            case 1202: {
               emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGP.Builder subBuilder = null;
-              if (detailCase_ == 1981) {
+              if (detailCase_ == 150) {
                 subBuilder = ((emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGP) detail_).toBuilder();
               }
               detail_ =
@@ -142,7 +128,21 @@ public final class _LanV6LanternGiftSourceOuterClass {
                 subBuilder.mergeFrom((emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGP) detail_);
                 detail_ = subBuilder.buildPartial();
               }
-              detailCase_ = 1981;
+              detailCase_ = 150;
+              break;
+            }
+            case 9498: {
+              emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFI.Builder subBuilder = null;
+              if (detailCase_ == 1187) {
+                subBuilder = ((emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFI) detail_).toBuilder();
+              }
+              detail_ =
+                  input.readMessage(emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFI.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFI) detail_);
+                detail_ = subBuilder.buildPartial();
+              }
+              detailCase_ = 1187;
               break;
             }
             default: {
@@ -182,8 +182,8 @@ public final class _LanV6LanternGiftSourceOuterClass {
     public enum DetailCase
         implements com.google.protobuf.Internal.EnumLite,
             com.google.protobuf.AbstractMessage.InternalOneOfEnum {
-      NPC(1639),
-      PLAYER(1981),
+      NPC(1187),
+      PLAYER(150),
       DETAIL_NOT_SET(0);
       private final int value;
       private DetailCase(int value) {
@@ -201,8 +201,8 @@ public final class _LanV6LanternGiftSourceOuterClass {
 
       public static DetailCase forNumber(int value) {
         switch (value) {
-          case 1639: return NPC;
-          case 1981: return PLAYER;
+          case 1187: return NPC;
+          case 150: return PLAYER;
           case 0: return DETAIL_NOT_SET;
           default: return null;
         }
@@ -218,72 +218,72 @@ public final class _LanV6LanternGiftSourceOuterClass {
           detailCase_);
     }
 
-    public static final int NPC_FIELD_NUMBER = 1639;
+    public static final int NPC_FIELD_NUMBER = 1187;
     /**
-     * <code>.FIEHCAPFKFI npc = 1639;</code>
+     * <code>.FIEHCAPFKFI npc = 1187;</code>
      * @return Whether the npc field is set.
      */
     @java.lang.Override
     public boolean hasNpc() {
-      return detailCase_ == 1639;
+      return detailCase_ == 1187;
     }
     /**
-     * <code>.FIEHCAPFKFI npc = 1639;</code>
+     * <code>.FIEHCAPFKFI npc = 1187;</code>
      * @return The npc.
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFI getNpc() {
-      if (detailCase_ == 1639) {
+      if (detailCase_ == 1187) {
          return (emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFI) detail_;
       }
       return emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFI.getDefaultInstance();
     }
     /**
-     * <code>.FIEHCAPFKFI npc = 1639;</code>
+     * <code>.FIEHCAPFKFI npc = 1187;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFIOrBuilder getNpcOrBuilder() {
-      if (detailCase_ == 1639) {
+      if (detailCase_ == 1187) {
          return (emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFI) detail_;
       }
       return emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFI.getDefaultInstance();
     }
 
-    public static final int PLAYER_FIELD_NUMBER = 1981;
+    public static final int PLAYER_FIELD_NUMBER = 150;
     /**
-     * <code>.EDLMACJNHGP player = 1981;</code>
+     * <code>.EDLMACJNHGP player = 150;</code>
      * @return Whether the player field is set.
      */
     @java.lang.Override
     public boolean hasPlayer() {
-      return detailCase_ == 1981;
+      return detailCase_ == 150;
     }
     /**
-     * <code>.EDLMACJNHGP player = 1981;</code>
+     * <code>.EDLMACJNHGP player = 150;</code>
      * @return The player.
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGP getPlayer() {
-      if (detailCase_ == 1981) {
+      if (detailCase_ == 150) {
          return (emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGP) detail_;
       }
       return emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGP.getDefaultInstance();
     }
     /**
-     * <code>.EDLMACJNHGP player = 1981;</code>
+     * <code>.EDLMACJNHGP player = 150;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGPOrBuilder getPlayerOrBuilder() {
-      if (detailCase_ == 1981) {
+      if (detailCase_ == 150) {
          return (emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGP) detail_;
       }
       return emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGP.getDefaultInstance();
     }
 
-    public static final int TIMESTAMP_FIELD_NUMBER = 1;
+    public static final int TIMESTAMP_FIELD_NUMBER = 15;
     private int timestamp_;
     /**
-     * <code>fixed32 timestamp = 1;</code>
+     * <code>fixed32 timestamp = 15;</code>
      * @return The timestamp.
      */
     @java.lang.Override
@@ -291,10 +291,10 @@ public final class _LanV6LanternGiftSourceOuterClass {
       return timestamp_;
     }
 
-    public static final int BNBMJMEHPLJ_FIELD_NUMBER = 3;
+    public static final int BNBMJMEHPLJ_FIELD_NUMBER = 1;
     private int bNBMJMEHPLJ_;
     /**
-     * <code>fixed32 BNBMJMEHPLJ = 3;</code>
+     * <code>fixed32 BNBMJMEHPLJ = 1;</code>
      * @return The bNBMJMEHPLJ.
      */
     @java.lang.Override
@@ -316,17 +316,17 @@ public final class _LanV6LanternGiftSourceOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (timestamp_ != 0) {
-        output.writeFixed32(1, timestamp_);
-      }
       if (bNBMJMEHPLJ_ != 0) {
-        output.writeFixed32(3, bNBMJMEHPLJ_);
+        output.writeFixed32(1, bNBMJMEHPLJ_);
       }
-      if (detailCase_ == 1639) {
-        output.writeMessage(1639, (emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFI) detail_);
+      if (timestamp_ != 0) {
+        output.writeFixed32(15, timestamp_);
       }
-      if (detailCase_ == 1981) {
-        output.writeMessage(1981, (emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGP) detail_);
+      if (detailCase_ == 150) {
+        output.writeMessage(150, (emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGP) detail_);
+      }
+      if (detailCase_ == 1187) {
+        output.writeMessage(1187, (emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFI) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -337,21 +337,21 @@ public final class _LanV6LanternGiftSourceOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (timestamp_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeFixed32Size(1, timestamp_);
-      }
       if (bNBMJMEHPLJ_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFixed32Size(3, bNBMJMEHPLJ_);
+          .computeFixed32Size(1, bNBMJMEHPLJ_);
       }
-      if (detailCase_ == 1639) {
+      if (timestamp_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1639, (emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFI) detail_);
+          .computeFixed32Size(15, timestamp_);
       }
-      if (detailCase_ == 1981) {
+      if (detailCase_ == 150) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1981, (emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGP) detail_);
+          .computeMessageSize(150, (emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGP) detail_);
+      }
+      if (detailCase_ == 1187) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(1187, (emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFI) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -374,11 +374,11 @@ public final class _LanV6LanternGiftSourceOuterClass {
           != other.getBNBMJMEHPLJ()) return false;
       if (!getDetailCase().equals(other.getDetailCase())) return false;
       switch (detailCase_) {
-        case 1639:
+        case 1187:
           if (!getNpc()
               .equals(other.getNpc())) return false;
           break;
-        case 1981:
+        case 150:
           if (!getPlayer()
               .equals(other.getPlayer())) return false;
           break;
@@ -401,11 +401,11 @@ public final class _LanV6LanternGiftSourceOuterClass {
       hash = (37 * hash) + BNBMJMEHPLJ_FIELD_NUMBER;
       hash = (53 * hash) + getBNBMJMEHPLJ();
       switch (detailCase_) {
-        case 1639:
+        case 1187:
           hash = (37 * hash) + NPC_FIELD_NUMBER;
           hash = (53 * hash) + getNpc().hashCode();
           break;
-        case 1981:
+        case 150:
           hash = (37 * hash) + PLAYER_FIELD_NUMBER;
           hash = (53 * hash) + getPlayer().hashCode();
           break;
@@ -577,14 +577,14 @@ public final class _LanV6LanternGiftSourceOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource buildPartial() {
         emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource result = new emu.grasscutter.net.proto._LanV6LanternGiftSourceOuterClass._LanV6LanternGiftSource(this);
-        if (detailCase_ == 1639) {
+        if (detailCase_ == 1187) {
           if (npcBuilder_ == null) {
             result.detail_ = detail_;
           } else {
             result.detail_ = npcBuilder_.build();
           }
         }
-        if (detailCase_ == 1981) {
+        if (detailCase_ == 150) {
           if (playerBuilder_ == null) {
             result.detail_ = detail_;
           } else {
@@ -708,33 +708,33 @@ public final class _LanV6LanternGiftSourceOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFI, emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFI.Builder, emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFIOrBuilder> npcBuilder_;
       /**
-       * <code>.FIEHCAPFKFI npc = 1639;</code>
+       * <code>.FIEHCAPFKFI npc = 1187;</code>
        * @return Whether the npc field is set.
        */
       @java.lang.Override
       public boolean hasNpc() {
-        return detailCase_ == 1639;
+        return detailCase_ == 1187;
       }
       /**
-       * <code>.FIEHCAPFKFI npc = 1639;</code>
+       * <code>.FIEHCAPFKFI npc = 1187;</code>
        * @return The npc.
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFI getNpc() {
         if (npcBuilder_ == null) {
-          if (detailCase_ == 1639) {
+          if (detailCase_ == 1187) {
             return (emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFI) detail_;
           }
           return emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFI.getDefaultInstance();
         } else {
-          if (detailCase_ == 1639) {
+          if (detailCase_ == 1187) {
             return npcBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFI.getDefaultInstance();
         }
       }
       /**
-       * <code>.FIEHCAPFKFI npc = 1639;</code>
+       * <code>.FIEHCAPFKFI npc = 1187;</code>
        */
       public Builder setNpc(emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFI value) {
         if (npcBuilder_ == null) {
@@ -746,11 +746,11 @@ public final class _LanV6LanternGiftSourceOuterClass {
         } else {
           npcBuilder_.setMessage(value);
         }
-        detailCase_ = 1639;
+        detailCase_ = 1187;
         return this;
       }
       /**
-       * <code>.FIEHCAPFKFI npc = 1639;</code>
+       * <code>.FIEHCAPFKFI npc = 1187;</code>
        */
       public Builder setNpc(
           emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFI.Builder builderForValue) {
@@ -760,15 +760,15 @@ public final class _LanV6LanternGiftSourceOuterClass {
         } else {
           npcBuilder_.setMessage(builderForValue.build());
         }
-        detailCase_ = 1639;
+        detailCase_ = 1187;
         return this;
       }
       /**
-       * <code>.FIEHCAPFKFI npc = 1639;</code>
+       * <code>.FIEHCAPFKFI npc = 1187;</code>
        */
       public Builder mergeNpc(emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFI value) {
         if (npcBuilder_ == null) {
-          if (detailCase_ == 1639 &&
+          if (detailCase_ == 1187 &&
               detail_ != emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFI.getDefaultInstance()) {
             detail_ = emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFI.newBuilder((emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFI) detail_)
                 .mergeFrom(value).buildPartial();
@@ -777,26 +777,26 @@ public final class _LanV6LanternGiftSourceOuterClass {
           }
           onChanged();
         } else {
-          if (detailCase_ == 1639) {
+          if (detailCase_ == 1187) {
             npcBuilder_.mergeFrom(value);
           }
           npcBuilder_.setMessage(value);
         }
-        detailCase_ = 1639;
+        detailCase_ = 1187;
         return this;
       }
       /**
-       * <code>.FIEHCAPFKFI npc = 1639;</code>
+       * <code>.FIEHCAPFKFI npc = 1187;</code>
        */
       public Builder clearNpc() {
         if (npcBuilder_ == null) {
-          if (detailCase_ == 1639) {
+          if (detailCase_ == 1187) {
             detailCase_ = 0;
             detail_ = null;
             onChanged();
           }
         } else {
-          if (detailCase_ == 1639) {
+          if (detailCase_ == 1187) {
             detailCase_ = 0;
             detail_ = null;
           }
@@ -805,33 +805,33 @@ public final class _LanV6LanternGiftSourceOuterClass {
         return this;
       }
       /**
-       * <code>.FIEHCAPFKFI npc = 1639;</code>
+       * <code>.FIEHCAPFKFI npc = 1187;</code>
        */
       public emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFI.Builder getNpcBuilder() {
         return getNpcFieldBuilder().getBuilder();
       }
       /**
-       * <code>.FIEHCAPFKFI npc = 1639;</code>
+       * <code>.FIEHCAPFKFI npc = 1187;</code>
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFIOrBuilder getNpcOrBuilder() {
-        if ((detailCase_ == 1639) && (npcBuilder_ != null)) {
+        if ((detailCase_ == 1187) && (npcBuilder_ != null)) {
           return npcBuilder_.getMessageOrBuilder();
         } else {
-          if (detailCase_ == 1639) {
+          if (detailCase_ == 1187) {
             return (emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFI) detail_;
           }
           return emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFI.getDefaultInstance();
         }
       }
       /**
-       * <code>.FIEHCAPFKFI npc = 1639;</code>
+       * <code>.FIEHCAPFKFI npc = 1187;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFI, emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFI.Builder, emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFIOrBuilder> 
           getNpcFieldBuilder() {
         if (npcBuilder_ == null) {
-          if (!(detailCase_ == 1639)) {
+          if (!(detailCase_ == 1187)) {
             detail_ = emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFI.getDefaultInstance();
           }
           npcBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -841,7 +841,7 @@ public final class _LanV6LanternGiftSourceOuterClass {
                   isClean());
           detail_ = null;
         }
-        detailCase_ = 1639;
+        detailCase_ = 1187;
         onChanged();;
         return npcBuilder_;
       }
@@ -849,33 +849,33 @@ public final class _LanV6LanternGiftSourceOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGP, emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGP.Builder, emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGPOrBuilder> playerBuilder_;
       /**
-       * <code>.EDLMACJNHGP player = 1981;</code>
+       * <code>.EDLMACJNHGP player = 150;</code>
        * @return Whether the player field is set.
        */
       @java.lang.Override
       public boolean hasPlayer() {
-        return detailCase_ == 1981;
+        return detailCase_ == 150;
       }
       /**
-       * <code>.EDLMACJNHGP player = 1981;</code>
+       * <code>.EDLMACJNHGP player = 150;</code>
        * @return The player.
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGP getPlayer() {
         if (playerBuilder_ == null) {
-          if (detailCase_ == 1981) {
+          if (detailCase_ == 150) {
             return (emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGP) detail_;
           }
           return emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGP.getDefaultInstance();
         } else {
-          if (detailCase_ == 1981) {
+          if (detailCase_ == 150) {
             return playerBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGP.getDefaultInstance();
         }
       }
       /**
-       * <code>.EDLMACJNHGP player = 1981;</code>
+       * <code>.EDLMACJNHGP player = 150;</code>
        */
       public Builder setPlayer(emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGP value) {
         if (playerBuilder_ == null) {
@@ -887,11 +887,11 @@ public final class _LanV6LanternGiftSourceOuterClass {
         } else {
           playerBuilder_.setMessage(value);
         }
-        detailCase_ = 1981;
+        detailCase_ = 150;
         return this;
       }
       /**
-       * <code>.EDLMACJNHGP player = 1981;</code>
+       * <code>.EDLMACJNHGP player = 150;</code>
        */
       public Builder setPlayer(
           emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGP.Builder builderForValue) {
@@ -901,15 +901,15 @@ public final class _LanV6LanternGiftSourceOuterClass {
         } else {
           playerBuilder_.setMessage(builderForValue.build());
         }
-        detailCase_ = 1981;
+        detailCase_ = 150;
         return this;
       }
       /**
-       * <code>.EDLMACJNHGP player = 1981;</code>
+       * <code>.EDLMACJNHGP player = 150;</code>
        */
       public Builder mergePlayer(emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGP value) {
         if (playerBuilder_ == null) {
-          if (detailCase_ == 1981 &&
+          if (detailCase_ == 150 &&
               detail_ != emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGP.getDefaultInstance()) {
             detail_ = emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGP.newBuilder((emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGP) detail_)
                 .mergeFrom(value).buildPartial();
@@ -918,26 +918,26 @@ public final class _LanV6LanternGiftSourceOuterClass {
           }
           onChanged();
         } else {
-          if (detailCase_ == 1981) {
+          if (detailCase_ == 150) {
             playerBuilder_.mergeFrom(value);
           }
           playerBuilder_.setMessage(value);
         }
-        detailCase_ = 1981;
+        detailCase_ = 150;
         return this;
       }
       /**
-       * <code>.EDLMACJNHGP player = 1981;</code>
+       * <code>.EDLMACJNHGP player = 150;</code>
        */
       public Builder clearPlayer() {
         if (playerBuilder_ == null) {
-          if (detailCase_ == 1981) {
+          if (detailCase_ == 150) {
             detailCase_ = 0;
             detail_ = null;
             onChanged();
           }
         } else {
-          if (detailCase_ == 1981) {
+          if (detailCase_ == 150) {
             detailCase_ = 0;
             detail_ = null;
           }
@@ -946,33 +946,33 @@ public final class _LanV6LanternGiftSourceOuterClass {
         return this;
       }
       /**
-       * <code>.EDLMACJNHGP player = 1981;</code>
+       * <code>.EDLMACJNHGP player = 150;</code>
        */
       public emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGP.Builder getPlayerBuilder() {
         return getPlayerFieldBuilder().getBuilder();
       }
       /**
-       * <code>.EDLMACJNHGP player = 1981;</code>
+       * <code>.EDLMACJNHGP player = 150;</code>
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGPOrBuilder getPlayerOrBuilder() {
-        if ((detailCase_ == 1981) && (playerBuilder_ != null)) {
+        if ((detailCase_ == 150) && (playerBuilder_ != null)) {
           return playerBuilder_.getMessageOrBuilder();
         } else {
-          if (detailCase_ == 1981) {
+          if (detailCase_ == 150) {
             return (emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGP) detail_;
           }
           return emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGP.getDefaultInstance();
         }
       }
       /**
-       * <code>.EDLMACJNHGP player = 1981;</code>
+       * <code>.EDLMACJNHGP player = 150;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGP, emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGP.Builder, emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGPOrBuilder> 
           getPlayerFieldBuilder() {
         if (playerBuilder_ == null) {
-          if (!(detailCase_ == 1981)) {
+          if (!(detailCase_ == 150)) {
             detail_ = emu.grasscutter.net.proto.EDLMACJNHGPOuterClass.EDLMACJNHGP.getDefaultInstance();
           }
           playerBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -982,14 +982,14 @@ public final class _LanV6LanternGiftSourceOuterClass {
                   isClean());
           detail_ = null;
         }
-        detailCase_ = 1981;
+        detailCase_ = 150;
         onChanged();;
         return playerBuilder_;
       }
 
       private int timestamp_ ;
       /**
-       * <code>fixed32 timestamp = 1;</code>
+       * <code>fixed32 timestamp = 15;</code>
        * @return The timestamp.
        */
       @java.lang.Override
@@ -997,7 +997,7 @@ public final class _LanV6LanternGiftSourceOuterClass {
         return timestamp_;
       }
       /**
-       * <code>fixed32 timestamp = 1;</code>
+       * <code>fixed32 timestamp = 15;</code>
        * @param value The timestamp to set.
        * @return This builder for chaining.
        */
@@ -1008,7 +1008,7 @@ public final class _LanV6LanternGiftSourceOuterClass {
         return this;
       }
       /**
-       * <code>fixed32 timestamp = 1;</code>
+       * <code>fixed32 timestamp = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearTimestamp() {
@@ -1020,7 +1020,7 @@ public final class _LanV6LanternGiftSourceOuterClass {
 
       private int bNBMJMEHPLJ_ ;
       /**
-       * <code>fixed32 BNBMJMEHPLJ = 3;</code>
+       * <code>fixed32 BNBMJMEHPLJ = 1;</code>
        * @return The bNBMJMEHPLJ.
        */
       @java.lang.Override
@@ -1028,7 +1028,7 @@ public final class _LanV6LanternGiftSourceOuterClass {
         return bNBMJMEHPLJ_;
       }
       /**
-       * <code>fixed32 BNBMJMEHPLJ = 3;</code>
+       * <code>fixed32 BNBMJMEHPLJ = 1;</code>
        * @param value The bNBMJMEHPLJ to set.
        * @return This builder for chaining.
        */
@@ -1039,7 +1039,7 @@ public final class _LanV6LanternGiftSourceOuterClass {
         return this;
       }
       /**
-       * <code>fixed32 BNBMJMEHPLJ = 3;</code>
+       * <code>fixed32 BNBMJMEHPLJ = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearBNBMJMEHPLJ() {
@@ -1117,9 +1117,9 @@ public final class _LanV6LanternGiftSourceOuterClass {
     java.lang.String[] descriptorData = {
       "\n\035_LanV6LanternGiftSource.proto\032\021EDLMACJ" +
       "NHGP.proto\032\021FIEHCAPFKFI.proto\"\212\001\n\027_LanV6" +
-      "LanternGiftSource\022\034\n\003npc\030\347\014 \001(\0132\014.FIEHCA" +
-      "PFKFIH\000\022\037\n\006player\030\275\017 \001(\0132\014.EDLMACJNHGPH\000" +
-      "\022\021\n\ttimestamp\030\001 \001(\007\022\023\n\013BNBMJMEHPLJ\030\003 \001(\007" +
+      "LanternGiftSource\022\034\n\003npc\030\243\t \001(\0132\014.FIEHCA" +
+      "PFKFIH\000\022\037\n\006player\030\226\001 \001(\0132\014.EDLMACJNHGPH\000" +
+      "\022\021\n\ttimestamp\030\017 \001(\007\022\023\n\013BNBMJMEHPLJ\030\001 \001(\007" +
       "B\010\n\006detailB>\n\031emu.grasscutter.net.protoB" +
       "!_LanV6LanternGiftSourceOuterClassb\006prot" +
       "o3"

@@ -19,37 +19,37 @@ public final class _AdShootingSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool AAPHBOOLCJJ = 2;</code>
+     * <code>bool AAPHBOOLCJJ = 50000;</code>
      * @return The aAPHBOOLCJJ.
      */
     boolean getAAPHBOOLCJJ();
 
     /**
-     * <code>bool JDOMINLKBJH = 4;</code>
+     * <code>bool JDOMINLKBJH = 50001;</code>
      * @return The jDOMINLKBJH.
      */
     boolean getJDOMINLKBJH();
 
     /**
-     * <code>repeated .Uint32Pair BGKNOBGMOIP = 5;</code>
+     * <code>repeated .Uint32Pair BGKNOBGMOIP = 12;</code>
      */
     java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> 
         getBGKNOBGMOIPList();
     /**
-     * <code>repeated .Uint32Pair BGKNOBGMOIP = 5;</code>
+     * <code>repeated .Uint32Pair BGKNOBGMOIP = 12;</code>
      */
     emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getBGKNOBGMOIP(int index);
     /**
-     * <code>repeated .Uint32Pair BGKNOBGMOIP = 5;</code>
+     * <code>repeated .Uint32Pair BGKNOBGMOIP = 12;</code>
      */
     int getBGKNOBGMOIPCount();
     /**
-     * <code>repeated .Uint32Pair BGKNOBGMOIP = 5;</code>
+     * <code>repeated .Uint32Pair BGKNOBGMOIP = 12;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
         getBGKNOBGMOIPOrBuilderList();
     /**
-     * <code>repeated .Uint32Pair BGKNOBGMOIP = 5;</code>
+     * <code>repeated .Uint32Pair BGKNOBGMOIP = 12;</code>
      */
     emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getBGKNOBGMOIPOrBuilder(
         int index);
@@ -70,30 +70,30 @@ public final class _AdShootingSettleInfoOuterClass {
     emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBriefOrBuilder getFriendBriefOrBuilder();
 
     /**
-     * <code>.NBKIIACAEDE type = 10;</code>
+     * <code>.NBKIIACAEDE type = 13;</code>
      * @return The enum numeric value on the wire for type.
      */
     int getTypeValue();
     /**
-     * <code>.NBKIIACAEDE type = 10;</code>
+     * <code>.NBKIIACAEDE type = 13;</code>
      * @return The type.
      */
     emu.grasscutter.net.proto.NBKIIACAEDEOuterClass.NBKIIACAEDE getType();
 
     /**
-     * <code>uint32 score = 12;</code>
+     * <code>uint32 score = 4;</code>
      * @return The score.
      */
     int getScore();
 
     /**
-     * <code>bool AIMJHJLEPEM = 13;</code>
+     * <code>bool AIMJHJLEPEM = 50002;</code>
      * @return The aIMJHJLEPEM.
      */
     boolean getAIMJHJLEPEM();
 
     /**
-     * <code>uint32 level_id = 15;</code>
+     * <code>uint32 level_id = 11;</code>
      * @return The levelId.
      */
     int getLevelId();
@@ -146,23 +146,9 @@ public final class _AdShootingSettleInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
-
-              aAPHBOOLCJJ_ = input.readBool();
-              break;
-            }
             case 32: {
 
-              jDOMINLKBJH_ = input.readBool();
-              break;
-            }
-            case 42: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                bGKNOBGMOIP_ = new java.util.ArrayList<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair>();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              bGKNOBGMOIP_.add(
-                  input.readMessage(emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.parser(), extensionRegistry));
+              score_ = input.readUInt32();
               break;
             }
             case 50: {
@@ -178,25 +164,39 @@ public final class _AdShootingSettleInfoOuterClass {
 
               break;
             }
-            case 80: {
+            case 88: {
+
+              levelId_ = input.readUInt32();
+              break;
+            }
+            case 98: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                bGKNOBGMOIP_ = new java.util.ArrayList<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair>();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              bGKNOBGMOIP_.add(
+                  input.readMessage(emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.parser(), extensionRegistry));
+              break;
+            }
+            case 104: {
               int rawValue = input.readEnum();
 
               type_ = rawValue;
               break;
             }
-            case 96: {
+            case 400000: {
 
-              score_ = input.readUInt32();
+              aAPHBOOLCJJ_ = input.readBool();
               break;
             }
-            case 104: {
+            case 400008: {
+
+              jDOMINLKBJH_ = input.readBool();
+              break;
+            }
+            case 400016: {
 
               aIMJHJLEPEM_ = input.readBool();
-              break;
-            }
-            case 120: {
-
-              levelId_ = input.readUInt32();
               break;
             }
             default: {
@@ -234,10 +234,10 @@ public final class _AdShootingSettleInfoOuterClass {
               emu.grasscutter.net.proto._AdShootingSettleInfoOuterClass._AdShootingSettleInfo.class, emu.grasscutter.net.proto._AdShootingSettleInfoOuterClass._AdShootingSettleInfo.Builder.class);
     }
 
-    public static final int AAPHBOOLCJJ_FIELD_NUMBER = 2;
+    public static final int AAPHBOOLCJJ_FIELD_NUMBER = 50000;
     private boolean aAPHBOOLCJJ_;
     /**
-     * <code>bool AAPHBOOLCJJ = 2;</code>
+     * <code>bool AAPHBOOLCJJ = 50000;</code>
      * @return The aAPHBOOLCJJ.
      */
     @java.lang.Override
@@ -245,10 +245,10 @@ public final class _AdShootingSettleInfoOuterClass {
       return aAPHBOOLCJJ_;
     }
 
-    public static final int JDOMINLKBJH_FIELD_NUMBER = 4;
+    public static final int JDOMINLKBJH_FIELD_NUMBER = 50001;
     private boolean jDOMINLKBJH_;
     /**
-     * <code>bool JDOMINLKBJH = 4;</code>
+     * <code>bool JDOMINLKBJH = 50001;</code>
      * @return The jDOMINLKBJH.
      */
     @java.lang.Override
@@ -256,17 +256,17 @@ public final class _AdShootingSettleInfoOuterClass {
       return jDOMINLKBJH_;
     }
 
-    public static final int BGKNOBGMOIP_FIELD_NUMBER = 5;
+    public static final int BGKNOBGMOIP_FIELD_NUMBER = 12;
     private java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> bGKNOBGMOIP_;
     /**
-     * <code>repeated .Uint32Pair BGKNOBGMOIP = 5;</code>
+     * <code>repeated .Uint32Pair BGKNOBGMOIP = 12;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> getBGKNOBGMOIPList() {
       return bGKNOBGMOIP_;
     }
     /**
-     * <code>repeated .Uint32Pair BGKNOBGMOIP = 5;</code>
+     * <code>repeated .Uint32Pair BGKNOBGMOIP = 12;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
@@ -274,21 +274,21 @@ public final class _AdShootingSettleInfoOuterClass {
       return bGKNOBGMOIP_;
     }
     /**
-     * <code>repeated .Uint32Pair BGKNOBGMOIP = 5;</code>
+     * <code>repeated .Uint32Pair BGKNOBGMOIP = 12;</code>
      */
     @java.lang.Override
     public int getBGKNOBGMOIPCount() {
       return bGKNOBGMOIP_.size();
     }
     /**
-     * <code>repeated .Uint32Pair BGKNOBGMOIP = 5;</code>
+     * <code>repeated .Uint32Pair BGKNOBGMOIP = 12;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getBGKNOBGMOIP(int index) {
       return bGKNOBGMOIP_.get(index);
     }
     /**
-     * <code>repeated .Uint32Pair BGKNOBGMOIP = 5;</code>
+     * <code>repeated .Uint32Pair BGKNOBGMOIP = 12;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getBGKNOBGMOIPOrBuilder(
@@ -322,17 +322,17 @@ public final class _AdShootingSettleInfoOuterClass {
       return getFriendBrief();
     }
 
-    public static final int TYPE_FIELD_NUMBER = 10;
+    public static final int TYPE_FIELD_NUMBER = 13;
     private int type_;
     /**
-     * <code>.NBKIIACAEDE type = 10;</code>
+     * <code>.NBKIIACAEDE type = 13;</code>
      * @return The enum numeric value on the wire for type.
      */
     @java.lang.Override public int getTypeValue() {
       return type_;
     }
     /**
-     * <code>.NBKIIACAEDE type = 10;</code>
+     * <code>.NBKIIACAEDE type = 13;</code>
      * @return The type.
      */
     @java.lang.Override public emu.grasscutter.net.proto.NBKIIACAEDEOuterClass.NBKIIACAEDE getType() {
@@ -341,10 +341,10 @@ public final class _AdShootingSettleInfoOuterClass {
       return result == null ? emu.grasscutter.net.proto.NBKIIACAEDEOuterClass.NBKIIACAEDE.UNRECOGNIZED : result;
     }
 
-    public static final int SCORE_FIELD_NUMBER = 12;
+    public static final int SCORE_FIELD_NUMBER = 4;
     private int score_;
     /**
-     * <code>uint32 score = 12;</code>
+     * <code>uint32 score = 4;</code>
      * @return The score.
      */
     @java.lang.Override
@@ -352,10 +352,10 @@ public final class _AdShootingSettleInfoOuterClass {
       return score_;
     }
 
-    public static final int AIMJHJLEPEM_FIELD_NUMBER = 13;
+    public static final int AIMJHJLEPEM_FIELD_NUMBER = 50002;
     private boolean aIMJHJLEPEM_;
     /**
-     * <code>bool AIMJHJLEPEM = 13;</code>
+     * <code>bool AIMJHJLEPEM = 50002;</code>
      * @return The aIMJHJLEPEM.
      */
     @java.lang.Override
@@ -363,10 +363,10 @@ public final class _AdShootingSettleInfoOuterClass {
       return aIMJHJLEPEM_;
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 15;
+    public static final int LEVEL_ID_FIELD_NUMBER = 11;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 15;</code>
+     * <code>uint32 level_id = 11;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -388,29 +388,29 @@ public final class _AdShootingSettleInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (aAPHBOOLCJJ_ != false) {
-        output.writeBool(2, aAPHBOOLCJJ_);
-      }
-      if (jDOMINLKBJH_ != false) {
-        output.writeBool(4, jDOMINLKBJH_);
-      }
-      for (int i = 0; i < bGKNOBGMOIP_.size(); i++) {
-        output.writeMessage(5, bGKNOBGMOIP_.get(i));
+      if (score_ != 0) {
+        output.writeUInt32(4, score_);
       }
       if (FriendBrief_ != null) {
         output.writeMessage(6, getFriendBrief());
       }
-      if (type_ != emu.grasscutter.net.proto.NBKIIACAEDEOuterClass.NBKIIACAEDE.NBKIIACAEDE_NONE.getNumber()) {
-        output.writeEnum(10, type_);
+      if (levelId_ != 0) {
+        output.writeUInt32(11, levelId_);
       }
-      if (score_ != 0) {
-        output.writeUInt32(12, score_);
+      for (int i = 0; i < bGKNOBGMOIP_.size(); i++) {
+        output.writeMessage(12, bGKNOBGMOIP_.get(i));
+      }
+      if (type_ != emu.grasscutter.net.proto.NBKIIACAEDEOuterClass.NBKIIACAEDE.NBKIIACAEDE_NONE.getNumber()) {
+        output.writeEnum(13, type_);
+      }
+      if (aAPHBOOLCJJ_ != false) {
+        output.writeBool(50000, aAPHBOOLCJJ_);
+      }
+      if (jDOMINLKBJH_ != false) {
+        output.writeBool(50001, jDOMINLKBJH_);
       }
       if (aIMJHJLEPEM_ != false) {
-        output.writeBool(13, aIMJHJLEPEM_);
-      }
-      if (levelId_ != 0) {
-        output.writeUInt32(15, levelId_);
+        output.writeBool(50002, aIMJHJLEPEM_);
       }
       unknownFields.writeTo(output);
     }
@@ -421,37 +421,37 @@ public final class _AdShootingSettleInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (aAPHBOOLCJJ_ != false) {
+      if (score_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(2, aAPHBOOLCJJ_);
-      }
-      if (jDOMINLKBJH_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(4, jDOMINLKBJH_);
-      }
-      for (int i = 0; i < bGKNOBGMOIP_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, bGKNOBGMOIP_.get(i));
+          .computeUInt32Size(4, score_);
       }
       if (FriendBrief_ != null) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(6, getFriendBrief());
       }
+      if (levelId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(11, levelId_);
+      }
+      for (int i = 0; i < bGKNOBGMOIP_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(12, bGKNOBGMOIP_.get(i));
+      }
       if (type_ != emu.grasscutter.net.proto.NBKIIACAEDEOuterClass.NBKIIACAEDE.NBKIIACAEDE_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(10, type_);
+          .computeEnumSize(13, type_);
       }
-      if (score_ != 0) {
+      if (aAPHBOOLCJJ_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, score_);
+          .computeBoolSize(50000, aAPHBOOLCJJ_);
+      }
+      if (jDOMINLKBJH_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(50001, jDOMINLKBJH_);
       }
       if (aIMJHJLEPEM_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(13, aIMJHJLEPEM_);
-      }
-      if (levelId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, levelId_);
+          .computeBoolSize(50002, aIMJHJLEPEM_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -852,7 +852,7 @@ public final class _AdShootingSettleInfoOuterClass {
 
       private boolean aAPHBOOLCJJ_ ;
       /**
-       * <code>bool AAPHBOOLCJJ = 2;</code>
+       * <code>bool AAPHBOOLCJJ = 50000;</code>
        * @return The aAPHBOOLCJJ.
        */
       @java.lang.Override
@@ -860,7 +860,7 @@ public final class _AdShootingSettleInfoOuterClass {
         return aAPHBOOLCJJ_;
       }
       /**
-       * <code>bool AAPHBOOLCJJ = 2;</code>
+       * <code>bool AAPHBOOLCJJ = 50000;</code>
        * @param value The aAPHBOOLCJJ to set.
        * @return This builder for chaining.
        */
@@ -871,7 +871,7 @@ public final class _AdShootingSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool AAPHBOOLCJJ = 2;</code>
+       * <code>bool AAPHBOOLCJJ = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearAAPHBOOLCJJ() {
@@ -883,7 +883,7 @@ public final class _AdShootingSettleInfoOuterClass {
 
       private boolean jDOMINLKBJH_ ;
       /**
-       * <code>bool JDOMINLKBJH = 4;</code>
+       * <code>bool JDOMINLKBJH = 50001;</code>
        * @return The jDOMINLKBJH.
        */
       @java.lang.Override
@@ -891,7 +891,7 @@ public final class _AdShootingSettleInfoOuterClass {
         return jDOMINLKBJH_;
       }
       /**
-       * <code>bool JDOMINLKBJH = 4;</code>
+       * <code>bool JDOMINLKBJH = 50001;</code>
        * @param value The jDOMINLKBJH to set.
        * @return This builder for chaining.
        */
@@ -902,7 +902,7 @@ public final class _AdShootingSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool JDOMINLKBJH = 4;</code>
+       * <code>bool JDOMINLKBJH = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearJDOMINLKBJH() {
@@ -925,7 +925,7 @@ public final class _AdShootingSettleInfoOuterClass {
           emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> bGKNOBGMOIPBuilder_;
 
       /**
-       * <code>repeated .Uint32Pair BGKNOBGMOIP = 5;</code>
+       * <code>repeated .Uint32Pair BGKNOBGMOIP = 12;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> getBGKNOBGMOIPList() {
         if (bGKNOBGMOIPBuilder_ == null) {
@@ -935,7 +935,7 @@ public final class _AdShootingSettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair BGKNOBGMOIP = 5;</code>
+       * <code>repeated .Uint32Pair BGKNOBGMOIP = 12;</code>
        */
       public int getBGKNOBGMOIPCount() {
         if (bGKNOBGMOIPBuilder_ == null) {
@@ -945,7 +945,7 @@ public final class _AdShootingSettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair BGKNOBGMOIP = 5;</code>
+       * <code>repeated .Uint32Pair BGKNOBGMOIP = 12;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getBGKNOBGMOIP(int index) {
         if (bGKNOBGMOIPBuilder_ == null) {
@@ -955,7 +955,7 @@ public final class _AdShootingSettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair BGKNOBGMOIP = 5;</code>
+       * <code>repeated .Uint32Pair BGKNOBGMOIP = 12;</code>
        */
       public Builder setBGKNOBGMOIP(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
@@ -972,7 +972,7 @@ public final class _AdShootingSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair BGKNOBGMOIP = 5;</code>
+       * <code>repeated .Uint32Pair BGKNOBGMOIP = 12;</code>
        */
       public Builder setBGKNOBGMOIP(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder builderForValue) {
@@ -986,7 +986,7 @@ public final class _AdShootingSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair BGKNOBGMOIP = 5;</code>
+       * <code>repeated .Uint32Pair BGKNOBGMOIP = 12;</code>
        */
       public Builder addBGKNOBGMOIP(emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
         if (bGKNOBGMOIPBuilder_ == null) {
@@ -1002,7 +1002,7 @@ public final class _AdShootingSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair BGKNOBGMOIP = 5;</code>
+       * <code>repeated .Uint32Pair BGKNOBGMOIP = 12;</code>
        */
       public Builder addBGKNOBGMOIP(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
@@ -1019,7 +1019,7 @@ public final class _AdShootingSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair BGKNOBGMOIP = 5;</code>
+       * <code>repeated .Uint32Pair BGKNOBGMOIP = 12;</code>
        */
       public Builder addBGKNOBGMOIP(
           emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder builderForValue) {
@@ -1033,7 +1033,7 @@ public final class _AdShootingSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair BGKNOBGMOIP = 5;</code>
+       * <code>repeated .Uint32Pair BGKNOBGMOIP = 12;</code>
        */
       public Builder addBGKNOBGMOIP(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder builderForValue) {
@@ -1047,7 +1047,7 @@ public final class _AdShootingSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair BGKNOBGMOIP = 5;</code>
+       * <code>repeated .Uint32Pair BGKNOBGMOIP = 12;</code>
        */
       public Builder addAllBGKNOBGMOIP(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> values) {
@@ -1062,7 +1062,7 @@ public final class _AdShootingSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair BGKNOBGMOIP = 5;</code>
+       * <code>repeated .Uint32Pair BGKNOBGMOIP = 12;</code>
        */
       public Builder clearBGKNOBGMOIP() {
         if (bGKNOBGMOIPBuilder_ == null) {
@@ -1075,7 +1075,7 @@ public final class _AdShootingSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair BGKNOBGMOIP = 5;</code>
+       * <code>repeated .Uint32Pair BGKNOBGMOIP = 12;</code>
        */
       public Builder removeBGKNOBGMOIP(int index) {
         if (bGKNOBGMOIPBuilder_ == null) {
@@ -1088,14 +1088,14 @@ public final class _AdShootingSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair BGKNOBGMOIP = 5;</code>
+       * <code>repeated .Uint32Pair BGKNOBGMOIP = 12;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder getBGKNOBGMOIPBuilder(
           int index) {
         return getBGKNOBGMOIPFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .Uint32Pair BGKNOBGMOIP = 5;</code>
+       * <code>repeated .Uint32Pair BGKNOBGMOIP = 12;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getBGKNOBGMOIPOrBuilder(
           int index) {
@@ -1105,7 +1105,7 @@ public final class _AdShootingSettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair BGKNOBGMOIP = 5;</code>
+       * <code>repeated .Uint32Pair BGKNOBGMOIP = 12;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
            getBGKNOBGMOIPOrBuilderList() {
@@ -1116,14 +1116,14 @@ public final class _AdShootingSettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair BGKNOBGMOIP = 5;</code>
+       * <code>repeated .Uint32Pair BGKNOBGMOIP = 12;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder addBGKNOBGMOIPBuilder() {
         return getBGKNOBGMOIPFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.getDefaultInstance());
       }
       /**
-       * <code>repeated .Uint32Pair BGKNOBGMOIP = 5;</code>
+       * <code>repeated .Uint32Pair BGKNOBGMOIP = 12;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder addBGKNOBGMOIPBuilder(
           int index) {
@@ -1131,7 +1131,7 @@ public final class _AdShootingSettleInfoOuterClass {
             index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.getDefaultInstance());
       }
       /**
-       * <code>repeated .Uint32Pair BGKNOBGMOIP = 5;</code>
+       * <code>repeated .Uint32Pair BGKNOBGMOIP = 12;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder> 
            getBGKNOBGMOIPBuilderList() {
@@ -1273,14 +1273,14 @@ public final class _AdShootingSettleInfoOuterClass {
 
       private int type_ = 0;
       /**
-       * <code>.NBKIIACAEDE type = 10;</code>
+       * <code>.NBKIIACAEDE type = 13;</code>
        * @return The enum numeric value on the wire for type.
        */
       @java.lang.Override public int getTypeValue() {
         return type_;
       }
       /**
-       * <code>.NBKIIACAEDE type = 10;</code>
+       * <code>.NBKIIACAEDE type = 13;</code>
        * @param value The enum numeric value on the wire for type to set.
        * @return This builder for chaining.
        */
@@ -1291,7 +1291,7 @@ public final class _AdShootingSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>.NBKIIACAEDE type = 10;</code>
+       * <code>.NBKIIACAEDE type = 13;</code>
        * @return The type.
        */
       @java.lang.Override
@@ -1301,7 +1301,7 @@ public final class _AdShootingSettleInfoOuterClass {
         return result == null ? emu.grasscutter.net.proto.NBKIIACAEDEOuterClass.NBKIIACAEDE.UNRECOGNIZED : result;
       }
       /**
-       * <code>.NBKIIACAEDE type = 10;</code>
+       * <code>.NBKIIACAEDE type = 13;</code>
        * @param value The type to set.
        * @return This builder for chaining.
        */
@@ -1315,7 +1315,7 @@ public final class _AdShootingSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>.NBKIIACAEDE type = 10;</code>
+       * <code>.NBKIIACAEDE type = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearType() {
@@ -1327,7 +1327,7 @@ public final class _AdShootingSettleInfoOuterClass {
 
       private int score_ ;
       /**
-       * <code>uint32 score = 12;</code>
+       * <code>uint32 score = 4;</code>
        * @return The score.
        */
       @java.lang.Override
@@ -1335,7 +1335,7 @@ public final class _AdShootingSettleInfoOuterClass {
         return score_;
       }
       /**
-       * <code>uint32 score = 12;</code>
+       * <code>uint32 score = 4;</code>
        * @param value The score to set.
        * @return This builder for chaining.
        */
@@ -1346,7 +1346,7 @@ public final class _AdShootingSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 score = 12;</code>
+       * <code>uint32 score = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearScore() {
@@ -1358,7 +1358,7 @@ public final class _AdShootingSettleInfoOuterClass {
 
       private boolean aIMJHJLEPEM_ ;
       /**
-       * <code>bool AIMJHJLEPEM = 13;</code>
+       * <code>bool AIMJHJLEPEM = 50002;</code>
        * @return The aIMJHJLEPEM.
        */
       @java.lang.Override
@@ -1366,7 +1366,7 @@ public final class _AdShootingSettleInfoOuterClass {
         return aIMJHJLEPEM_;
       }
       /**
-       * <code>bool AIMJHJLEPEM = 13;</code>
+       * <code>bool AIMJHJLEPEM = 50002;</code>
        * @param value The aIMJHJLEPEM to set.
        * @return This builder for chaining.
        */
@@ -1377,7 +1377,7 @@ public final class _AdShootingSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool AIMJHJLEPEM = 13;</code>
+       * <code>bool AIMJHJLEPEM = 50002;</code>
        * @return This builder for chaining.
        */
       public Builder clearAIMJHJLEPEM() {
@@ -1389,7 +1389,7 @@ public final class _AdShootingSettleInfoOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 15;</code>
+       * <code>uint32 level_id = 11;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -1397,7 +1397,7 @@ public final class _AdShootingSettleInfoOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 15;</code>
+       * <code>uint32 level_id = 11;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -1408,7 +1408,7 @@ public final class _AdShootingSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 15;</code>
+       * <code>uint32 level_id = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -1486,14 +1486,14 @@ public final class _AdShootingSettleInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033_AdShootingSettleInfo.proto\032\021FriendBri" +
       "ef.proto\032\021NBKIIACAEDE.proto\032\020Uint32Pair." +
-      "proto\"\332\001\n\025_AdShootingSettleInfo\022\023\n\013AAPHB" +
-      "OOLCJJ\030\002 \001(\010\022\023\n\013JDOMINLKBJH\030\004 \001(\010\022 \n\013BGK" +
-      "NOBGMOIP\030\005 \003(\0132\013.Uint32Pair\022#\n\r_friend_b" +
-      "rief\030\006 \001(\0132\014.FriendBrief\022\032\n\004type\030\n \001(\0162\014" +
-      ".NBKIIACAEDE\022\r\n\005score\030\014 \001(\r\022\023\n\013AIMJHJLEP" +
-      "EM\030\r \001(\010\022\020\n\010level_id\030\017 \001(\rB<\n\031emu.grassc" +
-      "utter.net.protoB\037_AdShootingSettleInfoOu" +
-      "terClassb\006proto3"
+      "proto\"\340\001\n\025_AdShootingSettleInfo\022\025\n\013AAPHB" +
+      "OOLCJJ\030\320\206\003 \001(\010\022\025\n\013JDOMINLKBJH\030\321\206\003 \001(\010\022 \n" +
+      "\013BGKNOBGMOIP\030\014 \003(\0132\013.Uint32Pair\022#\n\r_frie" +
+      "nd_brief\030\006 \001(\0132\014.FriendBrief\022\032\n\004type\030\r \001" +
+      "(\0162\014.NBKIIACAEDE\022\r\n\005score\030\004 \001(\r\022\025\n\013AIMJH" +
+      "JLEPEM\030\322\206\003 \001(\010\022\020\n\010level_id\030\013 \001(\rB<\n\031emu." +
+      "grasscutter.net.protoB\037_AdShootingSettle" +
+      "InfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

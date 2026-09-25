@@ -25,17 +25,17 @@ public final class FNGEEAFJCDGOuterClass {
     boolean getDOGLJKBLACH();
 
     /**
-     * <code>.GMLLBPCNLCC PPKGHENHBLM = 2;</code>
+     * <code>.GMLLBPCNLCC PPKGHENHBLM = 50000;</code>
      * @return Whether the pPKGHENHBLM field is set.
      */
     boolean hasPPKGHENHBLM();
     /**
-     * <code>.GMLLBPCNLCC PPKGHENHBLM = 2;</code>
+     * <code>.GMLLBPCNLCC PPKGHENHBLM = 50000;</code>
      * @return The pPKGHENHBLM.
      */
     emu.grasscutter.net.proto.GMLLBPCNLCCOuterClass.GMLLBPCNLCC getPPKGHENHBLM();
     /**
-     * <code>.GMLLBPCNLCC PPKGHENHBLM = 2;</code>
+     * <code>.GMLLBPCNLCC PPKGHENHBLM = 50000;</code>
      */
     emu.grasscutter.net.proto.GMLLBPCNLCCOuterClass.GMLLBPCNLCCOrBuilder getPPKGHENHBLMOrBuilder();
 
@@ -55,12 +55,12 @@ public final class FNGEEAFJCDGOuterClass {
     emu.grasscutter.net.proto.PPPBDOGNGALOuterClass.PPPBDOGNGALOrBuilder getBJMOMCDMAHBOrBuilder();
 
     /**
-     * <code>.HFGMPCKCFNA CABJNDKLMIE = 4;</code>
+     * <code>.HFGMPCKCFNA CABJNDKLMIE = 50001;</code>
      * @return The enum numeric value on the wire for cABJNDKLMIE.
      */
     int getCABJNDKLMIEValue();
     /**
-     * <code>.HFGMPCKCFNA CABJNDKLMIE = 4;</code>
+     * <code>.HFGMPCKCFNA CABJNDKLMIE = 50001;</code>
      * @return The cABJNDKLMIE.
      */
     emu.grasscutter.net.proto.HFGMPCKCFNAOuterClass.HFGMPCKCFNA getCABJNDKLMIE();
@@ -116,19 +116,6 @@ public final class FNGEEAFJCDGOuterClass {
               dOGLJKBLACH_ = input.readBool();
               break;
             }
-            case 18: {
-              emu.grasscutter.net.proto.GMLLBPCNLCCOuterClass.GMLLBPCNLCC.Builder subBuilder = null;
-              if (pPKGHENHBLM_ != null) {
-                subBuilder = pPKGHENHBLM_.toBuilder();
-              }
-              pPKGHENHBLM_ = input.readMessage(emu.grasscutter.net.proto.GMLLBPCNLCCOuterClass.GMLLBPCNLCC.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(pPKGHENHBLM_);
-                pPKGHENHBLM_ = subBuilder.buildPartial();
-              }
-
-              break;
-            }
             case 26: {
               emu.grasscutter.net.proto.PPPBDOGNGALOuterClass.PPPBDOGNGAL.Builder subBuilder = null;
               if (bJMOMCDMAHB_ != null) {
@@ -142,7 +129,20 @@ public final class FNGEEAFJCDGOuterClass {
 
               break;
             }
-            case 32: {
+            case 400002: {
+              emu.grasscutter.net.proto.GMLLBPCNLCCOuterClass.GMLLBPCNLCC.Builder subBuilder = null;
+              if (pPKGHENHBLM_ != null) {
+                subBuilder = pPKGHENHBLM_.toBuilder();
+              }
+              pPKGHENHBLM_ = input.readMessage(emu.grasscutter.net.proto.GMLLBPCNLCCOuterClass.GMLLBPCNLCC.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(pPKGHENHBLM_);
+                pPKGHENHBLM_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 400008: {
               int rawValue = input.readEnum();
 
               cABJNDKLMIE_ = rawValue;
@@ -191,10 +191,10 @@ public final class FNGEEAFJCDGOuterClass {
       return dOGLJKBLACH_;
     }
 
-    public static final int PPKGHENHBLM_FIELD_NUMBER = 2;
+    public static final int PPKGHENHBLM_FIELD_NUMBER = 50000;
     private emu.grasscutter.net.proto.GMLLBPCNLCCOuterClass.GMLLBPCNLCC pPKGHENHBLM_;
     /**
-     * <code>.GMLLBPCNLCC PPKGHENHBLM = 2;</code>
+     * <code>.GMLLBPCNLCC PPKGHENHBLM = 50000;</code>
      * @return Whether the pPKGHENHBLM field is set.
      */
     @java.lang.Override
@@ -202,7 +202,7 @@ public final class FNGEEAFJCDGOuterClass {
       return pPKGHENHBLM_ != null;
     }
     /**
-     * <code>.GMLLBPCNLCC PPKGHENHBLM = 2;</code>
+     * <code>.GMLLBPCNLCC PPKGHENHBLM = 50000;</code>
      * @return The pPKGHENHBLM.
      */
     @java.lang.Override
@@ -210,7 +210,7 @@ public final class FNGEEAFJCDGOuterClass {
       return pPKGHENHBLM_ == null ? emu.grasscutter.net.proto.GMLLBPCNLCCOuterClass.GMLLBPCNLCC.getDefaultInstance() : pPKGHENHBLM_;
     }
     /**
-     * <code>.GMLLBPCNLCC PPKGHENHBLM = 2;</code>
+     * <code>.GMLLBPCNLCC PPKGHENHBLM = 50000;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.GMLLBPCNLCCOuterClass.GMLLBPCNLCCOrBuilder getPPKGHENHBLMOrBuilder() {
@@ -243,17 +243,17 @@ public final class FNGEEAFJCDGOuterClass {
       return getBJMOMCDMAHB();
     }
 
-    public static final int CABJNDKLMIE_FIELD_NUMBER = 4;
+    public static final int CABJNDKLMIE_FIELD_NUMBER = 50001;
     private int cABJNDKLMIE_;
     /**
-     * <code>.HFGMPCKCFNA CABJNDKLMIE = 4;</code>
+     * <code>.HFGMPCKCFNA CABJNDKLMIE = 50001;</code>
      * @return The enum numeric value on the wire for cABJNDKLMIE.
      */
     @java.lang.Override public int getCABJNDKLMIEValue() {
       return cABJNDKLMIE_;
     }
     /**
-     * <code>.HFGMPCKCFNA CABJNDKLMIE = 4;</code>
+     * <code>.HFGMPCKCFNA CABJNDKLMIE = 50001;</code>
      * @return The cABJNDKLMIE.
      */
     @java.lang.Override public emu.grasscutter.net.proto.HFGMPCKCFNAOuterClass.HFGMPCKCFNA getCABJNDKLMIE() {
@@ -279,14 +279,14 @@ public final class FNGEEAFJCDGOuterClass {
       if (dOGLJKBLACH_ != false) {
         output.writeBool(1, dOGLJKBLACH_);
       }
-      if (pPKGHENHBLM_ != null) {
-        output.writeMessage(2, getPPKGHENHBLM());
-      }
       if (bJMOMCDMAHB_ != null) {
         output.writeMessage(3, getBJMOMCDMAHB());
       }
+      if (pPKGHENHBLM_ != null) {
+        output.writeMessage(50000, getPPKGHENHBLM());
+      }
       if (cABJNDKLMIE_ != emu.grasscutter.net.proto.HFGMPCKCFNAOuterClass.HFGMPCKCFNA.HFGMPCKCFNA_NONE.getNumber()) {
-        output.writeEnum(4, cABJNDKLMIE_);
+        output.writeEnum(50001, cABJNDKLMIE_);
       }
       unknownFields.writeTo(output);
     }
@@ -301,17 +301,17 @@ public final class FNGEEAFJCDGOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(1, dOGLJKBLACH_);
       }
-      if (pPKGHENHBLM_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, getPPKGHENHBLM());
-      }
       if (bJMOMCDMAHB_ != null) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(3, getBJMOMCDMAHB());
       }
+      if (pPKGHENHBLM_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(50000, getPPKGHENHBLM());
+      }
       if (cABJNDKLMIE_ != emu.grasscutter.net.proto.HFGMPCKCFNAOuterClass.HFGMPCKCFNA.HFGMPCKCFNA_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(4, cABJNDKLMIE_);
+          .computeEnumSize(50001, cABJNDKLMIE_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -676,14 +676,14 @@ public final class FNGEEAFJCDGOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.GMLLBPCNLCCOuterClass.GMLLBPCNLCC, emu.grasscutter.net.proto.GMLLBPCNLCCOuterClass.GMLLBPCNLCC.Builder, emu.grasscutter.net.proto.GMLLBPCNLCCOuterClass.GMLLBPCNLCCOrBuilder> pPKGHENHBLMBuilder_;
       /**
-       * <code>.GMLLBPCNLCC PPKGHENHBLM = 2;</code>
+       * <code>.GMLLBPCNLCC PPKGHENHBLM = 50000;</code>
        * @return Whether the pPKGHENHBLM field is set.
        */
       public boolean hasPPKGHENHBLM() {
         return pPKGHENHBLMBuilder_ != null || pPKGHENHBLM_ != null;
       }
       /**
-       * <code>.GMLLBPCNLCC PPKGHENHBLM = 2;</code>
+       * <code>.GMLLBPCNLCC PPKGHENHBLM = 50000;</code>
        * @return The pPKGHENHBLM.
        */
       public emu.grasscutter.net.proto.GMLLBPCNLCCOuterClass.GMLLBPCNLCC getPPKGHENHBLM() {
@@ -694,7 +694,7 @@ public final class FNGEEAFJCDGOuterClass {
         }
       }
       /**
-       * <code>.GMLLBPCNLCC PPKGHENHBLM = 2;</code>
+       * <code>.GMLLBPCNLCC PPKGHENHBLM = 50000;</code>
        */
       public Builder setPPKGHENHBLM(emu.grasscutter.net.proto.GMLLBPCNLCCOuterClass.GMLLBPCNLCC value) {
         if (pPKGHENHBLMBuilder_ == null) {
@@ -710,7 +710,7 @@ public final class FNGEEAFJCDGOuterClass {
         return this;
       }
       /**
-       * <code>.GMLLBPCNLCC PPKGHENHBLM = 2;</code>
+       * <code>.GMLLBPCNLCC PPKGHENHBLM = 50000;</code>
        */
       public Builder setPPKGHENHBLM(
           emu.grasscutter.net.proto.GMLLBPCNLCCOuterClass.GMLLBPCNLCC.Builder builderForValue) {
@@ -724,7 +724,7 @@ public final class FNGEEAFJCDGOuterClass {
         return this;
       }
       /**
-       * <code>.GMLLBPCNLCC PPKGHENHBLM = 2;</code>
+       * <code>.GMLLBPCNLCC PPKGHENHBLM = 50000;</code>
        */
       public Builder mergePPKGHENHBLM(emu.grasscutter.net.proto.GMLLBPCNLCCOuterClass.GMLLBPCNLCC value) {
         if (pPKGHENHBLMBuilder_ == null) {
@@ -742,7 +742,7 @@ public final class FNGEEAFJCDGOuterClass {
         return this;
       }
       /**
-       * <code>.GMLLBPCNLCC PPKGHENHBLM = 2;</code>
+       * <code>.GMLLBPCNLCC PPKGHENHBLM = 50000;</code>
        */
       public Builder clearPPKGHENHBLM() {
         if (pPKGHENHBLMBuilder_ == null) {
@@ -756,7 +756,7 @@ public final class FNGEEAFJCDGOuterClass {
         return this;
       }
       /**
-       * <code>.GMLLBPCNLCC PPKGHENHBLM = 2;</code>
+       * <code>.GMLLBPCNLCC PPKGHENHBLM = 50000;</code>
        */
       public emu.grasscutter.net.proto.GMLLBPCNLCCOuterClass.GMLLBPCNLCC.Builder getPPKGHENHBLMBuilder() {
         
@@ -764,7 +764,7 @@ public final class FNGEEAFJCDGOuterClass {
         return getPPKGHENHBLMFieldBuilder().getBuilder();
       }
       /**
-       * <code>.GMLLBPCNLCC PPKGHENHBLM = 2;</code>
+       * <code>.GMLLBPCNLCC PPKGHENHBLM = 50000;</code>
        */
       public emu.grasscutter.net.proto.GMLLBPCNLCCOuterClass.GMLLBPCNLCCOrBuilder getPPKGHENHBLMOrBuilder() {
         if (pPKGHENHBLMBuilder_ != null) {
@@ -775,7 +775,7 @@ public final class FNGEEAFJCDGOuterClass {
         }
       }
       /**
-       * <code>.GMLLBPCNLCC PPKGHENHBLM = 2;</code>
+       * <code>.GMLLBPCNLCC PPKGHENHBLM = 50000;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.GMLLBPCNLCCOuterClass.GMLLBPCNLCC, emu.grasscutter.net.proto.GMLLBPCNLCCOuterClass.GMLLBPCNLCC.Builder, emu.grasscutter.net.proto.GMLLBPCNLCCOuterClass.GMLLBPCNLCCOrBuilder> 
@@ -912,14 +912,14 @@ public final class FNGEEAFJCDGOuterClass {
 
       private int cABJNDKLMIE_ = 0;
       /**
-       * <code>.HFGMPCKCFNA CABJNDKLMIE = 4;</code>
+       * <code>.HFGMPCKCFNA CABJNDKLMIE = 50001;</code>
        * @return The enum numeric value on the wire for cABJNDKLMIE.
        */
       @java.lang.Override public int getCABJNDKLMIEValue() {
         return cABJNDKLMIE_;
       }
       /**
-       * <code>.HFGMPCKCFNA CABJNDKLMIE = 4;</code>
+       * <code>.HFGMPCKCFNA CABJNDKLMIE = 50001;</code>
        * @param value The enum numeric value on the wire for cABJNDKLMIE to set.
        * @return This builder for chaining.
        */
@@ -930,7 +930,7 @@ public final class FNGEEAFJCDGOuterClass {
         return this;
       }
       /**
-       * <code>.HFGMPCKCFNA CABJNDKLMIE = 4;</code>
+       * <code>.HFGMPCKCFNA CABJNDKLMIE = 50001;</code>
        * @return The cABJNDKLMIE.
        */
       @java.lang.Override
@@ -940,7 +940,7 @@ public final class FNGEEAFJCDGOuterClass {
         return result == null ? emu.grasscutter.net.proto.HFGMPCKCFNAOuterClass.HFGMPCKCFNA.UNRECOGNIZED : result;
       }
       /**
-       * <code>.HFGMPCKCFNA CABJNDKLMIE = 4;</code>
+       * <code>.HFGMPCKCFNA CABJNDKLMIE = 50001;</code>
        * @param value The cABJNDKLMIE to set.
        * @return This builder for chaining.
        */
@@ -954,7 +954,7 @@ public final class FNGEEAFJCDGOuterClass {
         return this;
       }
       /**
-       * <code>.HFGMPCKCFNA CABJNDKLMIE = 4;</code>
+       * <code>.HFGMPCKCFNA CABJNDKLMIE = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearCABJNDKLMIE() {
@@ -1031,12 +1031,13 @@ public final class FNGEEAFJCDGOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021FNGEEAFJCDG.proto\032\021GMLLBPCNLCC.proto\032\021" +
-      "HFGMPCKCFNA.proto\032\021PPPBDOGNGAL.proto\"\213\001\n" +
-      "\013FNGEEAFJCDG\022\023\n\013DOGLJKBLACH\030\001 \001(\010\022!\n\013PPK" +
-      "GHENHBLM\030\002 \001(\0132\014.GMLLBPCNLCC\022!\n\013BJMOMCDM" +
-      "AHB\030\003 \001(\0132\014.PPPBDOGNGAL\022!\n\013CABJNDKLMIE\030\004" +
-      " \001(\0162\014.HFGMPCKCFNAB2\n\031emu.grasscutter.ne" +
-      "t.protoB\025FNGEEAFJCDGOuterClassb\006proto3"
+      "HFGMPCKCFNA.proto\032\021PPPBDOGNGAL.proto\"\217\001\n" +
+      "\013FNGEEAFJCDG\022\023\n\013DOGLJKBLACH\030\001 \001(\010\022#\n\013PPK" +
+      "GHENHBLM\030\320\206\003 \001(\0132\014.GMLLBPCNLCC\022!\n\013BJMOMC" +
+      "DMAHB\030\003 \001(\0132\014.PPPBDOGNGAL\022#\n\013CABJNDKLMIE" +
+      "\030\321\206\003 \001(\0162\014.HFGMPCKCFNAB2\n\031emu.grasscutte" +
+      "r.net.protoB\025FNGEEAFJCDGOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -4,8 +4,8 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "QuestDestroyEntityRspOuterClass";
 
 message QuestDestroyEntityRsp {
-	uint32 quest_id = 4;
-	int32 retcode = 6;
-	uint32 entity_id = 9;
-	uint32 scene_id = 15;
+	uint32 quest_id = 13;
+	int32 retcode = 5;
+	uint32 entity_id = 12;
+	uint32 scene_id = 7;
 }

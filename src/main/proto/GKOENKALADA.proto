@@ -8,9 +8,9 @@ import "_RevenueBonusInfo.proto";
 
 message GKOENKALADA {
 	oneof detail {
-		_ActionPointsNoCostInfo action_points_no_cost_info = 631;
-		_RevenueBonusInfo revenue_bonus_info = 1492;
+		_ActionPointsNoCostInfo action_points_no_cost_info = 1139;
+		_RevenueBonusInfo revenue_bonus_info = 923;
 	}
-	bool HFFJGFBKIFL = 7;
-	uint32 buff_id = 11;
+	bool HFFJGFBKIFL = 6;
+	uint32 buff_id = 13;
 }

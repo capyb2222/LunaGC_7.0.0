@@ -4,8 +4,8 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "RogueDiaryDungeonRecordOuterClass";
 
 message RogueDiaryDungeonRecord {
-	uint32 difficulty = 4;
-	uint32 max_round = 7;
-	uint32 finish_time = 11;
-	bool is_finish = 15;
+	uint32 difficulty = 1;
+	uint32 max_round = 3;
+	uint32 finish_time = 6;
+	bool is_finish = 9;
 }

@@ -19,54 +19,54 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 _boss_coin_num = 1;</code>
+     * <code>uint32 _boss_coin_num = 13;</code>
      * @return The bossCoinNum.
      */
     int getBossCoinNum();
 
     /**
-     * <code>repeated uint32 _unlocked_tech_group_id_list = 3;</code>
+     * <code>repeated uint32 _unlocked_tech_group_id_list = 11;</code>
      * @return A list containing the unlockedTechGroupIdList.
      */
     java.util.List<java.lang.Integer> getUnlockedTechGroupIdListList();
     /**
-     * <code>repeated uint32 _unlocked_tech_group_id_list = 3;</code>
+     * <code>repeated uint32 _unlocked_tech_group_id_list = 11;</code>
      * @return The count of unlockedTechGroupIdList.
      */
     int getUnlockedTechGroupIdListCount();
     /**
-     * <code>repeated uint32 _unlocked_tech_group_id_list = 3;</code>
+     * <code>repeated uint32 _unlocked_tech_group_id_list = 11;</code>
      * @param index The index of the element to return.
      * @return The unlockedTechGroupIdList at the given index.
      */
     int getUnlockedTechGroupIdList(int index);
 
     /**
-     * <code>repeated .Uint32Pair _tech_node_id_level_list = 6;</code>
+     * <code>repeated .Uint32Pair _tech_node_id_level_list = 14;</code>
      */
     java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> 
         getTechNodeIdLevelListList();
     /**
-     * <code>repeated .Uint32Pair _tech_node_id_level_list = 6;</code>
+     * <code>repeated .Uint32Pair _tech_node_id_level_list = 14;</code>
      */
     emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getTechNodeIdLevelList(int index);
     /**
-     * <code>repeated .Uint32Pair _tech_node_id_level_list = 6;</code>
+     * <code>repeated .Uint32Pair _tech_node_id_level_list = 14;</code>
      */
     int getTechNodeIdLevelListCount();
     /**
-     * <code>repeated .Uint32Pair _tech_node_id_level_list = 6;</code>
+     * <code>repeated .Uint32Pair _tech_node_id_level_list = 14;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
         getTechNodeIdLevelListOrBuilderList();
     /**
-     * <code>repeated .Uint32Pair _tech_node_id_level_list = 6;</code>
+     * <code>repeated .Uint32Pair _tech_node_id_level_list = 14;</code>
      */
     emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getTechNodeIdLevelListOrBuilder(
         int index);
 
     /**
-     * <code>uint32 coin_num = 7;</code>
+     * <code>uint32 coin_num = 8;</code>
      * @return The coinNum.
      */
     int getCoinNum();
@@ -119,12 +119,12 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 64: {
 
-              BossCoinNum_ = input.readUInt32();
+              coinNum_ = input.readUInt32();
               break;
             }
-            case 24: {
+            case 88: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 UnlockedTechGroupIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -132,7 +132,7 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
               UnlockedTechGroupIdList_.addInt(input.readUInt32());
               break;
             }
-            case 26: {
+            case 90: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -145,18 +145,18 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 50: {
+            case 104: {
+
+              BossCoinNum_ = input.readUInt32();
+              break;
+            }
+            case 114: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 TechNodeIdLevelList_ = new java.util.ArrayList<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair>();
                 mutable_bitField0_ |= 0x00000002;
               }
               TechNodeIdLevelList_.add(
                   input.readMessage(emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.parser(), extensionRegistry));
-              break;
-            }
-            case 56: {
-
-              coinNum_ = input.readUInt32();
               break;
             }
             default: {
@@ -197,10 +197,10 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
               emu.grasscutter.net.proto._LanternRiteV6DanmakuTechInfoOuterClass._LanternRiteV6DanmakuTechInfo.class, emu.grasscutter.net.proto._LanternRiteV6DanmakuTechInfoOuterClass._LanternRiteV6DanmakuTechInfo.Builder.class);
     }
 
-    public static final int _BOSS_COIN_NUM_FIELD_NUMBER = 1;
+    public static final int _BOSS_COIN_NUM_FIELD_NUMBER = 13;
     private int BossCoinNum_;
     /**
-     * <code>uint32 _boss_coin_num = 1;</code>
+     * <code>uint32 _boss_coin_num = 13;</code>
      * @return The bossCoinNum.
      */
     @java.lang.Override
@@ -208,10 +208,10 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
       return BossCoinNum_;
     }
 
-    public static final int _UNLOCKED_TECH_GROUP_ID_LIST_FIELD_NUMBER = 3;
+    public static final int _UNLOCKED_TECH_GROUP_ID_LIST_FIELD_NUMBER = 11;
     private com.google.protobuf.Internal.IntList UnlockedTechGroupIdList_;
     /**
-     * <code>repeated uint32 _unlocked_tech_group_id_list = 3;</code>
+     * <code>repeated uint32 _unlocked_tech_group_id_list = 11;</code>
      * @return A list containing the unlockedTechGroupIdList.
      */
     @java.lang.Override
@@ -220,14 +220,14 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
       return UnlockedTechGroupIdList_;
     }
     /**
-     * <code>repeated uint32 _unlocked_tech_group_id_list = 3;</code>
+     * <code>repeated uint32 _unlocked_tech_group_id_list = 11;</code>
      * @return The count of unlockedTechGroupIdList.
      */
     public int getUnlockedTechGroupIdListCount() {
       return UnlockedTechGroupIdList_.size();
     }
     /**
-     * <code>repeated uint32 _unlocked_tech_group_id_list = 3;</code>
+     * <code>repeated uint32 _unlocked_tech_group_id_list = 11;</code>
      * @param index The index of the element to return.
      * @return The unlockedTechGroupIdList at the given index.
      */
@@ -236,17 +236,17 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
     }
     private int UnlockedTechGroupIdListMemoizedSerializedSize = -1;
 
-    public static final int _TECH_NODE_ID_LEVEL_LIST_FIELD_NUMBER = 6;
+    public static final int _TECH_NODE_ID_LEVEL_LIST_FIELD_NUMBER = 14;
     private java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> TechNodeIdLevelList_;
     /**
-     * <code>repeated .Uint32Pair _tech_node_id_level_list = 6;</code>
+     * <code>repeated .Uint32Pair _tech_node_id_level_list = 14;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> getTechNodeIdLevelListList() {
       return TechNodeIdLevelList_;
     }
     /**
-     * <code>repeated .Uint32Pair _tech_node_id_level_list = 6;</code>
+     * <code>repeated .Uint32Pair _tech_node_id_level_list = 14;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
@@ -254,21 +254,21 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
       return TechNodeIdLevelList_;
     }
     /**
-     * <code>repeated .Uint32Pair _tech_node_id_level_list = 6;</code>
+     * <code>repeated .Uint32Pair _tech_node_id_level_list = 14;</code>
      */
     @java.lang.Override
     public int getTechNodeIdLevelListCount() {
       return TechNodeIdLevelList_.size();
     }
     /**
-     * <code>repeated .Uint32Pair _tech_node_id_level_list = 6;</code>
+     * <code>repeated .Uint32Pair _tech_node_id_level_list = 14;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getTechNodeIdLevelList(int index) {
       return TechNodeIdLevelList_.get(index);
     }
     /**
-     * <code>repeated .Uint32Pair _tech_node_id_level_list = 6;</code>
+     * <code>repeated .Uint32Pair _tech_node_id_level_list = 14;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getTechNodeIdLevelListOrBuilder(
@@ -276,10 +276,10 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
       return TechNodeIdLevelList_.get(index);
     }
 
-    public static final int COIN_NUM_FIELD_NUMBER = 7;
+    public static final int COIN_NUM_FIELD_NUMBER = 8;
     private int coinNum_;
     /**
-     * <code>uint32 coin_num = 7;</code>
+     * <code>uint32 coin_num = 8;</code>
      * @return The coinNum.
      */
     @java.lang.Override
@@ -302,21 +302,21 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (BossCoinNum_ != 0) {
-        output.writeUInt32(1, BossCoinNum_);
+      if (coinNum_ != 0) {
+        output.writeUInt32(8, coinNum_);
       }
       if (getUnlockedTechGroupIdListList().size() > 0) {
-        output.writeUInt32NoTag(26);
+        output.writeUInt32NoTag(90);
         output.writeUInt32NoTag(UnlockedTechGroupIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < UnlockedTechGroupIdList_.size(); i++) {
         output.writeUInt32NoTag(UnlockedTechGroupIdList_.getInt(i));
       }
-      for (int i = 0; i < TechNodeIdLevelList_.size(); i++) {
-        output.writeMessage(6, TechNodeIdLevelList_.get(i));
+      if (BossCoinNum_ != 0) {
+        output.writeUInt32(13, BossCoinNum_);
       }
-      if (coinNum_ != 0) {
-        output.writeUInt32(7, coinNum_);
+      for (int i = 0; i < TechNodeIdLevelList_.size(); i++) {
+        output.writeMessage(14, TechNodeIdLevelList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -327,9 +327,9 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (BossCoinNum_ != 0) {
+      if (coinNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, BossCoinNum_);
+          .computeUInt32Size(8, coinNum_);
       }
       {
         int dataSize = 0;
@@ -345,13 +345,13 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
         }
         UnlockedTechGroupIdListMemoizedSerializedSize = dataSize;
       }
+      if (BossCoinNum_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(13, BossCoinNum_);
+      }
       for (int i = 0; i < TechNodeIdLevelList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, TechNodeIdLevelList_.get(i));
-      }
-      if (coinNum_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, coinNum_);
+          .computeMessageSize(14, TechNodeIdLevelList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -710,7 +710,7 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
 
       private int BossCoinNum_ ;
       /**
-       * <code>uint32 _boss_coin_num = 1;</code>
+       * <code>uint32 _boss_coin_num = 13;</code>
        * @return The bossCoinNum.
        */
       @java.lang.Override
@@ -718,7 +718,7 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
         return BossCoinNum_;
       }
       /**
-       * <code>uint32 _boss_coin_num = 1;</code>
+       * <code>uint32 _boss_coin_num = 13;</code>
        * @param value The bossCoinNum to set.
        * @return This builder for chaining.
        */
@@ -729,7 +729,7 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 _boss_coin_num = 1;</code>
+       * <code>uint32 _boss_coin_num = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearBossCoinNum() {
@@ -747,7 +747,7 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 _unlocked_tech_group_id_list = 3;</code>
+       * <code>repeated uint32 _unlocked_tech_group_id_list = 11;</code>
        * @return A list containing the unlockedTechGroupIdList.
        */
       public java.util.List<java.lang.Integer>
@@ -756,14 +756,14 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
                  java.util.Collections.unmodifiableList(UnlockedTechGroupIdList_) : UnlockedTechGroupIdList_;
       }
       /**
-       * <code>repeated uint32 _unlocked_tech_group_id_list = 3;</code>
+       * <code>repeated uint32 _unlocked_tech_group_id_list = 11;</code>
        * @return The count of unlockedTechGroupIdList.
        */
       public int getUnlockedTechGroupIdListCount() {
         return UnlockedTechGroupIdList_.size();
       }
       /**
-       * <code>repeated uint32 _unlocked_tech_group_id_list = 3;</code>
+       * <code>repeated uint32 _unlocked_tech_group_id_list = 11;</code>
        * @param index The index of the element to return.
        * @return The unlockedTechGroupIdList at the given index.
        */
@@ -771,7 +771,7 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
         return UnlockedTechGroupIdList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 _unlocked_tech_group_id_list = 3;</code>
+       * <code>repeated uint32 _unlocked_tech_group_id_list = 11;</code>
        * @param index The index to set the value at.
        * @param value The unlockedTechGroupIdList to set.
        * @return This builder for chaining.
@@ -784,7 +784,7 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 _unlocked_tech_group_id_list = 3;</code>
+       * <code>repeated uint32 _unlocked_tech_group_id_list = 11;</code>
        * @param value The unlockedTechGroupIdList to add.
        * @return This builder for chaining.
        */
@@ -795,7 +795,7 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 _unlocked_tech_group_id_list = 3;</code>
+       * <code>repeated uint32 _unlocked_tech_group_id_list = 11;</code>
        * @param values The unlockedTechGroupIdList to add.
        * @return This builder for chaining.
        */
@@ -808,7 +808,7 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 _unlocked_tech_group_id_list = 3;</code>
+       * <code>repeated uint32 _unlocked_tech_group_id_list = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearUnlockedTechGroupIdList() {
@@ -831,7 +831,7 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
           emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> TechNodeIdLevelListBuilder_;
 
       /**
-       * <code>repeated .Uint32Pair _tech_node_id_level_list = 6;</code>
+       * <code>repeated .Uint32Pair _tech_node_id_level_list = 14;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> getTechNodeIdLevelListList() {
         if (TechNodeIdLevelListBuilder_ == null) {
@@ -841,7 +841,7 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair _tech_node_id_level_list = 6;</code>
+       * <code>repeated .Uint32Pair _tech_node_id_level_list = 14;</code>
        */
       public int getTechNodeIdLevelListCount() {
         if (TechNodeIdLevelListBuilder_ == null) {
@@ -851,7 +851,7 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair _tech_node_id_level_list = 6;</code>
+       * <code>repeated .Uint32Pair _tech_node_id_level_list = 14;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getTechNodeIdLevelList(int index) {
         if (TechNodeIdLevelListBuilder_ == null) {
@@ -861,7 +861,7 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair _tech_node_id_level_list = 6;</code>
+       * <code>repeated .Uint32Pair _tech_node_id_level_list = 14;</code>
        */
       public Builder setTechNodeIdLevelList(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
@@ -878,7 +878,7 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair _tech_node_id_level_list = 6;</code>
+       * <code>repeated .Uint32Pair _tech_node_id_level_list = 14;</code>
        */
       public Builder setTechNodeIdLevelList(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder builderForValue) {
@@ -892,7 +892,7 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair _tech_node_id_level_list = 6;</code>
+       * <code>repeated .Uint32Pair _tech_node_id_level_list = 14;</code>
        */
       public Builder addTechNodeIdLevelList(emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
         if (TechNodeIdLevelListBuilder_ == null) {
@@ -908,7 +908,7 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair _tech_node_id_level_list = 6;</code>
+       * <code>repeated .Uint32Pair _tech_node_id_level_list = 14;</code>
        */
       public Builder addTechNodeIdLevelList(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
@@ -925,7 +925,7 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair _tech_node_id_level_list = 6;</code>
+       * <code>repeated .Uint32Pair _tech_node_id_level_list = 14;</code>
        */
       public Builder addTechNodeIdLevelList(
           emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder builderForValue) {
@@ -939,7 +939,7 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair _tech_node_id_level_list = 6;</code>
+       * <code>repeated .Uint32Pair _tech_node_id_level_list = 14;</code>
        */
       public Builder addTechNodeIdLevelList(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder builderForValue) {
@@ -953,7 +953,7 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair _tech_node_id_level_list = 6;</code>
+       * <code>repeated .Uint32Pair _tech_node_id_level_list = 14;</code>
        */
       public Builder addAllTechNodeIdLevelList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> values) {
@@ -968,7 +968,7 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair _tech_node_id_level_list = 6;</code>
+       * <code>repeated .Uint32Pair _tech_node_id_level_list = 14;</code>
        */
       public Builder clearTechNodeIdLevelList() {
         if (TechNodeIdLevelListBuilder_ == null) {
@@ -981,7 +981,7 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair _tech_node_id_level_list = 6;</code>
+       * <code>repeated .Uint32Pair _tech_node_id_level_list = 14;</code>
        */
       public Builder removeTechNodeIdLevelList(int index) {
         if (TechNodeIdLevelListBuilder_ == null) {
@@ -994,14 +994,14 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair _tech_node_id_level_list = 6;</code>
+       * <code>repeated .Uint32Pair _tech_node_id_level_list = 14;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder getTechNodeIdLevelListBuilder(
           int index) {
         return getTechNodeIdLevelListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .Uint32Pair _tech_node_id_level_list = 6;</code>
+       * <code>repeated .Uint32Pair _tech_node_id_level_list = 14;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getTechNodeIdLevelListOrBuilder(
           int index) {
@@ -1011,7 +1011,7 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair _tech_node_id_level_list = 6;</code>
+       * <code>repeated .Uint32Pair _tech_node_id_level_list = 14;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
            getTechNodeIdLevelListOrBuilderList() {
@@ -1022,14 +1022,14 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair _tech_node_id_level_list = 6;</code>
+       * <code>repeated .Uint32Pair _tech_node_id_level_list = 14;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder addTechNodeIdLevelListBuilder() {
         return getTechNodeIdLevelListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.getDefaultInstance());
       }
       /**
-       * <code>repeated .Uint32Pair _tech_node_id_level_list = 6;</code>
+       * <code>repeated .Uint32Pair _tech_node_id_level_list = 14;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder addTechNodeIdLevelListBuilder(
           int index) {
@@ -1037,7 +1037,7 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
             index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.getDefaultInstance());
       }
       /**
-       * <code>repeated .Uint32Pair _tech_node_id_level_list = 6;</code>
+       * <code>repeated .Uint32Pair _tech_node_id_level_list = 14;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder> 
            getTechNodeIdLevelListBuilderList() {
@@ -1060,7 +1060,7 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
 
       private int coinNum_ ;
       /**
-       * <code>uint32 coin_num = 7;</code>
+       * <code>uint32 coin_num = 8;</code>
        * @return The coinNum.
        */
       @java.lang.Override
@@ -1068,7 +1068,7 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
         return coinNum_;
       }
       /**
-       * <code>uint32 coin_num = 7;</code>
+       * <code>uint32 coin_num = 8;</code>
        * @param value The coinNum to set.
        * @return This builder for chaining.
        */
@@ -1079,7 +1079,7 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 coin_num = 7;</code>
+       * <code>uint32 coin_num = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearCoinNum() {
@@ -1157,10 +1157,10 @@ public final class _LanternRiteV6DanmakuTechInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n#_LanternRiteV6DanmakuTechInfo.proto\032\020U" +
       "int32Pair.proto\"\236\001\n\035_LanternRiteV6Danmak" +
-      "uTechInfo\022\026\n\016_boss_coin_num\030\001 \001(\r\022$\n\034_un" +
-      "locked_tech_group_id_list\030\003 \003(\r\022-\n\030_tech" +
-      "_node_id_level_list\030\006 \003(\0132\013.Uint32Pair\022\020" +
-      "\n\010coin_num\030\007 \001(\rBD\n\031emu.grasscutter.net." +
+      "uTechInfo\022\026\n\016_boss_coin_num\030\r \001(\r\022$\n\034_un" +
+      "locked_tech_group_id_list\030\013 \003(\r\022-\n\030_tech" +
+      "_node_id_level_list\030\016 \003(\0132\013.Uint32Pair\022\020" +
+      "\n\010coin_num\030\010 \001(\rBD\n\031emu.grasscutter.net." +
       "protoB\'_LanternRiteV6DanmakuTechInfoOute" +
       "rClassb\006proto3"
     };

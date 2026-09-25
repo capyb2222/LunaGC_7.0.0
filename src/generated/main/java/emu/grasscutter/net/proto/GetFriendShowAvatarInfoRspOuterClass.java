@@ -19,37 +19,37 @@ public final class GetFriendShowAvatarInfoRspOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>int32 retcode = 12;</code>
+     * <code>int32 retcode = 14;</code>
      * @return The retcode.
      */
     int getRetcode();
 
     /**
-     * <code>uint32 uid = 13;</code>
+     * <code>uint32 uid = 6;</code>
      * @return The uid.
      */
     int getUid();
 
     /**
-     * <code>repeated .ShowAvatarInfo show_avatar_info_list = 15;</code>
+     * <code>repeated .ShowAvatarInfo show_avatar_info_list = 13;</code>
      */
     java.util.List<emu.grasscutter.net.proto.ShowAvatarInfoOuterClass.ShowAvatarInfo> 
         getShowAvatarInfoListList();
     /**
-     * <code>repeated .ShowAvatarInfo show_avatar_info_list = 15;</code>
+     * <code>repeated .ShowAvatarInfo show_avatar_info_list = 13;</code>
      */
     emu.grasscutter.net.proto.ShowAvatarInfoOuterClass.ShowAvatarInfo getShowAvatarInfoList(int index);
     /**
-     * <code>repeated .ShowAvatarInfo show_avatar_info_list = 15;</code>
+     * <code>repeated .ShowAvatarInfo show_avatar_info_list = 13;</code>
      */
     int getShowAvatarInfoListCount();
     /**
-     * <code>repeated .ShowAvatarInfo show_avatar_info_list = 15;</code>
+     * <code>repeated .ShowAvatarInfo show_avatar_info_list = 13;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.ShowAvatarInfoOuterClass.ShowAvatarInfoOrBuilder> 
         getShowAvatarInfoListOrBuilderList();
     /**
-     * <code>repeated .ShowAvatarInfo show_avatar_info_list = 15;</code>
+     * <code>repeated .ShowAvatarInfo show_avatar_info_list = 13;</code>
      */
     emu.grasscutter.net.proto.ShowAvatarInfoOuterClass.ShowAvatarInfoOrBuilder getShowAvatarInfoListOrBuilder(
         int index);
@@ -101,23 +101,23 @@ public final class GetFriendShowAvatarInfoRspOuterClass {
             case 0:
               done = true;
               break;
-            case 96: {
-
-              retcode_ = input.readInt32();
-              break;
-            }
-            case 104: {
+            case 48: {
 
               uid_ = input.readUInt32();
               break;
             }
-            case 122: {
+            case 106: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 showAvatarInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ShowAvatarInfoOuterClass.ShowAvatarInfo>();
                 mutable_bitField0_ |= 0x00000001;
               }
               showAvatarInfoList_.add(
                   input.readMessage(emu.grasscutter.net.proto.ShowAvatarInfoOuterClass.ShowAvatarInfo.parser(), extensionRegistry));
+              break;
+            }
+            case 112: {
+
+              retcode_ = input.readInt32();
               break;
             }
             default: {
@@ -155,10 +155,10 @@ public final class GetFriendShowAvatarInfoRspOuterClass {
               emu.grasscutter.net.proto.GetFriendShowAvatarInfoRspOuterClass.GetFriendShowAvatarInfoRsp.class, emu.grasscutter.net.proto.GetFriendShowAvatarInfoRspOuterClass.GetFriendShowAvatarInfoRsp.Builder.class);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 12;
+    public static final int RETCODE_FIELD_NUMBER = 14;
     private int retcode_;
     /**
-     * <code>int32 retcode = 12;</code>
+     * <code>int32 retcode = 14;</code>
      * @return The retcode.
      */
     @java.lang.Override
@@ -166,10 +166,10 @@ public final class GetFriendShowAvatarInfoRspOuterClass {
       return retcode_;
     }
 
-    public static final int UID_FIELD_NUMBER = 13;
+    public static final int UID_FIELD_NUMBER = 6;
     private int uid_;
     /**
-     * <code>uint32 uid = 13;</code>
+     * <code>uint32 uid = 6;</code>
      * @return The uid.
      */
     @java.lang.Override
@@ -177,17 +177,17 @@ public final class GetFriendShowAvatarInfoRspOuterClass {
       return uid_;
     }
 
-    public static final int SHOW_AVATAR_INFO_LIST_FIELD_NUMBER = 15;
+    public static final int SHOW_AVATAR_INFO_LIST_FIELD_NUMBER = 13;
     private java.util.List<emu.grasscutter.net.proto.ShowAvatarInfoOuterClass.ShowAvatarInfo> showAvatarInfoList_;
     /**
-     * <code>repeated .ShowAvatarInfo show_avatar_info_list = 15;</code>
+     * <code>repeated .ShowAvatarInfo show_avatar_info_list = 13;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.ShowAvatarInfoOuterClass.ShowAvatarInfo> getShowAvatarInfoListList() {
       return showAvatarInfoList_;
     }
     /**
-     * <code>repeated .ShowAvatarInfo show_avatar_info_list = 15;</code>
+     * <code>repeated .ShowAvatarInfo show_avatar_info_list = 13;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.ShowAvatarInfoOuterClass.ShowAvatarInfoOrBuilder> 
@@ -195,21 +195,21 @@ public final class GetFriendShowAvatarInfoRspOuterClass {
       return showAvatarInfoList_;
     }
     /**
-     * <code>repeated .ShowAvatarInfo show_avatar_info_list = 15;</code>
+     * <code>repeated .ShowAvatarInfo show_avatar_info_list = 13;</code>
      */
     @java.lang.Override
     public int getShowAvatarInfoListCount() {
       return showAvatarInfoList_.size();
     }
     /**
-     * <code>repeated .ShowAvatarInfo show_avatar_info_list = 15;</code>
+     * <code>repeated .ShowAvatarInfo show_avatar_info_list = 13;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ShowAvatarInfoOuterClass.ShowAvatarInfo getShowAvatarInfoList(int index) {
       return showAvatarInfoList_.get(index);
     }
     /**
-     * <code>repeated .ShowAvatarInfo show_avatar_info_list = 15;</code>
+     * <code>repeated .ShowAvatarInfo show_avatar_info_list = 13;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ShowAvatarInfoOuterClass.ShowAvatarInfoOrBuilder getShowAvatarInfoListOrBuilder(
@@ -231,14 +231,14 @@ public final class GetFriendShowAvatarInfoRspOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (retcode_ != 0) {
-        output.writeInt32(12, retcode_);
-      }
       if (uid_ != 0) {
-        output.writeUInt32(13, uid_);
+        output.writeUInt32(6, uid_);
       }
       for (int i = 0; i < showAvatarInfoList_.size(); i++) {
-        output.writeMessage(15, showAvatarInfoList_.get(i));
+        output.writeMessage(13, showAvatarInfoList_.get(i));
+      }
+      if (retcode_ != 0) {
+        output.writeInt32(14, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -249,17 +249,17 @@ public final class GetFriendShowAvatarInfoRspOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (retcode_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(12, retcode_);
-      }
       if (uid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, uid_);
+          .computeUInt32Size(6, uid_);
       }
       for (int i = 0; i < showAvatarInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, showAvatarInfoList_.get(i));
+          .computeMessageSize(13, showAvatarInfoList_.get(i));
+      }
+      if (retcode_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt32Size(14, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -595,7 +595,7 @@ public final class GetFriendShowAvatarInfoRspOuterClass {
 
       private int retcode_ ;
       /**
-       * <code>int32 retcode = 12;</code>
+       * <code>int32 retcode = 14;</code>
        * @return The retcode.
        */
       @java.lang.Override
@@ -603,7 +603,7 @@ public final class GetFriendShowAvatarInfoRspOuterClass {
         return retcode_;
       }
       /**
-       * <code>int32 retcode = 12;</code>
+       * <code>int32 retcode = 14;</code>
        * @param value The retcode to set.
        * @return This builder for chaining.
        */
@@ -614,7 +614,7 @@ public final class GetFriendShowAvatarInfoRspOuterClass {
         return this;
       }
       /**
-       * <code>int32 retcode = 12;</code>
+       * <code>int32 retcode = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
@@ -626,7 +626,7 @@ public final class GetFriendShowAvatarInfoRspOuterClass {
 
       private int uid_ ;
       /**
-       * <code>uint32 uid = 13;</code>
+       * <code>uint32 uid = 6;</code>
        * @return The uid.
        */
       @java.lang.Override
@@ -634,7 +634,7 @@ public final class GetFriendShowAvatarInfoRspOuterClass {
         return uid_;
       }
       /**
-       * <code>uint32 uid = 13;</code>
+       * <code>uint32 uid = 6;</code>
        * @param value The uid to set.
        * @return This builder for chaining.
        */
@@ -645,7 +645,7 @@ public final class GetFriendShowAvatarInfoRspOuterClass {
         return this;
       }
       /**
-       * <code>uint32 uid = 13;</code>
+       * <code>uint32 uid = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearUid() {
@@ -668,7 +668,7 @@ public final class GetFriendShowAvatarInfoRspOuterClass {
           emu.grasscutter.net.proto.ShowAvatarInfoOuterClass.ShowAvatarInfo, emu.grasscutter.net.proto.ShowAvatarInfoOuterClass.ShowAvatarInfo.Builder, emu.grasscutter.net.proto.ShowAvatarInfoOuterClass.ShowAvatarInfoOrBuilder> showAvatarInfoListBuilder_;
 
       /**
-       * <code>repeated .ShowAvatarInfo show_avatar_info_list = 15;</code>
+       * <code>repeated .ShowAvatarInfo show_avatar_info_list = 13;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ShowAvatarInfoOuterClass.ShowAvatarInfo> getShowAvatarInfoListList() {
         if (showAvatarInfoListBuilder_ == null) {
@@ -678,7 +678,7 @@ public final class GetFriendShowAvatarInfoRspOuterClass {
         }
       }
       /**
-       * <code>repeated .ShowAvatarInfo show_avatar_info_list = 15;</code>
+       * <code>repeated .ShowAvatarInfo show_avatar_info_list = 13;</code>
        */
       public int getShowAvatarInfoListCount() {
         if (showAvatarInfoListBuilder_ == null) {
@@ -688,7 +688,7 @@ public final class GetFriendShowAvatarInfoRspOuterClass {
         }
       }
       /**
-       * <code>repeated .ShowAvatarInfo show_avatar_info_list = 15;</code>
+       * <code>repeated .ShowAvatarInfo show_avatar_info_list = 13;</code>
        */
       public emu.grasscutter.net.proto.ShowAvatarInfoOuterClass.ShowAvatarInfo getShowAvatarInfoList(int index) {
         if (showAvatarInfoListBuilder_ == null) {
@@ -698,7 +698,7 @@ public final class GetFriendShowAvatarInfoRspOuterClass {
         }
       }
       /**
-       * <code>repeated .ShowAvatarInfo show_avatar_info_list = 15;</code>
+       * <code>repeated .ShowAvatarInfo show_avatar_info_list = 13;</code>
        */
       public Builder setShowAvatarInfoList(
           int index, emu.grasscutter.net.proto.ShowAvatarInfoOuterClass.ShowAvatarInfo value) {
@@ -715,7 +715,7 @@ public final class GetFriendShowAvatarInfoRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ShowAvatarInfo show_avatar_info_list = 15;</code>
+       * <code>repeated .ShowAvatarInfo show_avatar_info_list = 13;</code>
        */
       public Builder setShowAvatarInfoList(
           int index, emu.grasscutter.net.proto.ShowAvatarInfoOuterClass.ShowAvatarInfo.Builder builderForValue) {
@@ -729,7 +729,7 @@ public final class GetFriendShowAvatarInfoRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ShowAvatarInfo show_avatar_info_list = 15;</code>
+       * <code>repeated .ShowAvatarInfo show_avatar_info_list = 13;</code>
        */
       public Builder addShowAvatarInfoList(emu.grasscutter.net.proto.ShowAvatarInfoOuterClass.ShowAvatarInfo value) {
         if (showAvatarInfoListBuilder_ == null) {
@@ -745,7 +745,7 @@ public final class GetFriendShowAvatarInfoRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ShowAvatarInfo show_avatar_info_list = 15;</code>
+       * <code>repeated .ShowAvatarInfo show_avatar_info_list = 13;</code>
        */
       public Builder addShowAvatarInfoList(
           int index, emu.grasscutter.net.proto.ShowAvatarInfoOuterClass.ShowAvatarInfo value) {
@@ -762,7 +762,7 @@ public final class GetFriendShowAvatarInfoRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ShowAvatarInfo show_avatar_info_list = 15;</code>
+       * <code>repeated .ShowAvatarInfo show_avatar_info_list = 13;</code>
        */
       public Builder addShowAvatarInfoList(
           emu.grasscutter.net.proto.ShowAvatarInfoOuterClass.ShowAvatarInfo.Builder builderForValue) {
@@ -776,7 +776,7 @@ public final class GetFriendShowAvatarInfoRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ShowAvatarInfo show_avatar_info_list = 15;</code>
+       * <code>repeated .ShowAvatarInfo show_avatar_info_list = 13;</code>
        */
       public Builder addShowAvatarInfoList(
           int index, emu.grasscutter.net.proto.ShowAvatarInfoOuterClass.ShowAvatarInfo.Builder builderForValue) {
@@ -790,7 +790,7 @@ public final class GetFriendShowAvatarInfoRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ShowAvatarInfo show_avatar_info_list = 15;</code>
+       * <code>repeated .ShowAvatarInfo show_avatar_info_list = 13;</code>
        */
       public Builder addAllShowAvatarInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.ShowAvatarInfoOuterClass.ShowAvatarInfo> values) {
@@ -805,7 +805,7 @@ public final class GetFriendShowAvatarInfoRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ShowAvatarInfo show_avatar_info_list = 15;</code>
+       * <code>repeated .ShowAvatarInfo show_avatar_info_list = 13;</code>
        */
       public Builder clearShowAvatarInfoList() {
         if (showAvatarInfoListBuilder_ == null) {
@@ -818,7 +818,7 @@ public final class GetFriendShowAvatarInfoRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ShowAvatarInfo show_avatar_info_list = 15;</code>
+       * <code>repeated .ShowAvatarInfo show_avatar_info_list = 13;</code>
        */
       public Builder removeShowAvatarInfoList(int index) {
         if (showAvatarInfoListBuilder_ == null) {
@@ -831,14 +831,14 @@ public final class GetFriendShowAvatarInfoRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ShowAvatarInfo show_avatar_info_list = 15;</code>
+       * <code>repeated .ShowAvatarInfo show_avatar_info_list = 13;</code>
        */
       public emu.grasscutter.net.proto.ShowAvatarInfoOuterClass.ShowAvatarInfo.Builder getShowAvatarInfoListBuilder(
           int index) {
         return getShowAvatarInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .ShowAvatarInfo show_avatar_info_list = 15;</code>
+       * <code>repeated .ShowAvatarInfo show_avatar_info_list = 13;</code>
        */
       public emu.grasscutter.net.proto.ShowAvatarInfoOuterClass.ShowAvatarInfoOrBuilder getShowAvatarInfoListOrBuilder(
           int index) {
@@ -848,7 +848,7 @@ public final class GetFriendShowAvatarInfoRspOuterClass {
         }
       }
       /**
-       * <code>repeated .ShowAvatarInfo show_avatar_info_list = 15;</code>
+       * <code>repeated .ShowAvatarInfo show_avatar_info_list = 13;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.ShowAvatarInfoOuterClass.ShowAvatarInfoOrBuilder> 
            getShowAvatarInfoListOrBuilderList() {
@@ -859,14 +859,14 @@ public final class GetFriendShowAvatarInfoRspOuterClass {
         }
       }
       /**
-       * <code>repeated .ShowAvatarInfo show_avatar_info_list = 15;</code>
+       * <code>repeated .ShowAvatarInfo show_avatar_info_list = 13;</code>
        */
       public emu.grasscutter.net.proto.ShowAvatarInfoOuterClass.ShowAvatarInfo.Builder addShowAvatarInfoListBuilder() {
         return getShowAvatarInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.ShowAvatarInfoOuterClass.ShowAvatarInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .ShowAvatarInfo show_avatar_info_list = 15;</code>
+       * <code>repeated .ShowAvatarInfo show_avatar_info_list = 13;</code>
        */
       public emu.grasscutter.net.proto.ShowAvatarInfoOuterClass.ShowAvatarInfo.Builder addShowAvatarInfoListBuilder(
           int index) {
@@ -874,7 +874,7 @@ public final class GetFriendShowAvatarInfoRspOuterClass {
             index, emu.grasscutter.net.proto.ShowAvatarInfoOuterClass.ShowAvatarInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .ShowAvatarInfo show_avatar_info_list = 15;</code>
+       * <code>repeated .ShowAvatarInfo show_avatar_info_list = 13;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ShowAvatarInfoOuterClass.ShowAvatarInfo.Builder> 
            getShowAvatarInfoListBuilderList() {
@@ -963,8 +963,8 @@ public final class GetFriendShowAvatarInfoRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n GetFriendShowAvatarInfoRsp.proto\032\024Show" +
       "AvatarInfo.proto\"j\n\032GetFriendShowAvatarI" +
-      "nfoRsp\022\017\n\007retcode\030\014 \001(\005\022\013\n\003uid\030\r \001(\r\022.\n\025" +
-      "show_avatar_info_list\030\017 \003(\0132\017.ShowAvatar" +
+      "nfoRsp\022\017\n\007retcode\030\016 \001(\005\022\013\n\003uid\030\006 \001(\r\022.\n\025" +
+      "show_avatar_info_list\030\r \003(\0132\017.ShowAvatar" +
       "InfoBA\n\031emu.grasscutter.net.protoB$GetFr" +
       "iendShowAvatarInfoRspOuterClassb\006proto3"
     };

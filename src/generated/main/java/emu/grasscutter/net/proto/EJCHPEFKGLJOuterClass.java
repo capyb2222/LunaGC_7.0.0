@@ -19,54 +19,54 @@ public final class EJCHPEFKGLJOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 NOBECNCCHLA = 7;</code>
+     * <code>repeated uint32 NOBECNCCHLA = 10;</code>
      * @return A list containing the nOBECNCCHLA.
      */
     java.util.List<java.lang.Integer> getNOBECNCCHLAList();
     /**
-     * <code>repeated uint32 NOBECNCCHLA = 7;</code>
+     * <code>repeated uint32 NOBECNCCHLA = 10;</code>
      * @return The count of nOBECNCCHLA.
      */
     int getNOBECNCCHLACount();
     /**
-     * <code>repeated uint32 NOBECNCCHLA = 7;</code>
+     * <code>repeated uint32 NOBECNCCHLA = 10;</code>
      * @param index The index of the element to return.
      * @return The nOBECNCCHLA at the given index.
      */
     int getNOBECNCCHLA(int index);
 
     /**
-     * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 8;</code>
+     * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 5;</code>
      */
     java.util.List<emu.grasscutter.net.proto.CPKAFPOGJKNOuterClass.CPKAFPOGJKN> 
         getPAEHFGOIMPAList();
     /**
-     * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 8;</code>
+     * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 5;</code>
      */
     emu.grasscutter.net.proto.CPKAFPOGJKNOuterClass.CPKAFPOGJKN getPAEHFGOIMPA(int index);
     /**
-     * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 8;</code>
+     * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 5;</code>
      */
     int getPAEHFGOIMPACount();
     /**
-     * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 8;</code>
+     * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 5;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.CPKAFPOGJKNOuterClass.CPKAFPOGJKNOrBuilder> 
         getPAEHFGOIMPAOrBuilderList();
     /**
-     * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 8;</code>
+     * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 5;</code>
      */
     emu.grasscutter.net.proto.CPKAFPOGJKNOuterClass.CPKAFPOGJKNOrBuilder getPAEHFGOIMPAOrBuilder(
         int index);
 
     /**
-     * <code>bool AIFBNCGPEDK = 12;</code>
+     * <code>bool AIFBNCGPEDK = 3;</code>
      * @return The aIFBNCGPEDK.
      */
     boolean getAIFBNCGPEDK();
 
     /**
-     * <code>uint32 DEIJOHMBMAO = 13;</code>
+     * <code>uint32 DEIJOHMBMAO = 9;</code>
      * @return The dEIJOHMBMAO.
      */
     int getDEIJOHMBMAO();
@@ -119,7 +119,26 @@ public final class EJCHPEFKGLJOuterClass {
             case 0:
               done = true;
               break;
-            case 56: {
+            case 24: {
+
+              aIFBNCGPEDK_ = input.readBool();
+              break;
+            }
+            case 42: {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                pAEHFGOIMPA_ = new java.util.ArrayList<emu.grasscutter.net.proto.CPKAFPOGJKNOuterClass.CPKAFPOGJKN>();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              pAEHFGOIMPA_.add(
+                  input.readMessage(emu.grasscutter.net.proto.CPKAFPOGJKNOuterClass.CPKAFPOGJKN.parser(), extensionRegistry));
+              break;
+            }
+            case 72: {
+
+              dEIJOHMBMAO_ = input.readUInt32();
+              break;
+            }
+            case 80: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 nOBECNCCHLA_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -127,7 +146,7 @@ public final class EJCHPEFKGLJOuterClass {
               nOBECNCCHLA_.addInt(input.readUInt32());
               break;
             }
-            case 58: {
+            case 82: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -138,25 +157,6 @@ public final class EJCHPEFKGLJOuterClass {
                 nOBECNCCHLA_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
-              break;
-            }
-            case 66: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                pAEHFGOIMPA_ = new java.util.ArrayList<emu.grasscutter.net.proto.CPKAFPOGJKNOuterClass.CPKAFPOGJKN>();
-                mutable_bitField0_ |= 0x00000002;
-              }
-              pAEHFGOIMPA_.add(
-                  input.readMessage(emu.grasscutter.net.proto.CPKAFPOGJKNOuterClass.CPKAFPOGJKN.parser(), extensionRegistry));
-              break;
-            }
-            case 96: {
-
-              aIFBNCGPEDK_ = input.readBool();
-              break;
-            }
-            case 104: {
-
-              dEIJOHMBMAO_ = input.readUInt32();
               break;
             }
             default: {
@@ -174,11 +174,11 @@ public final class EJCHPEFKGLJOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          nOBECNCCHLA_.makeImmutable(); // C
-        }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
           pAEHFGOIMPA_ = java.util.Collections.unmodifiableList(pAEHFGOIMPA_);
+        }
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          nOBECNCCHLA_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -197,10 +197,10 @@ public final class EJCHPEFKGLJOuterClass {
               emu.grasscutter.net.proto.EJCHPEFKGLJOuterClass.EJCHPEFKGLJ.class, emu.grasscutter.net.proto.EJCHPEFKGLJOuterClass.EJCHPEFKGLJ.Builder.class);
     }
 
-    public static final int NOBECNCCHLA_FIELD_NUMBER = 7;
+    public static final int NOBECNCCHLA_FIELD_NUMBER = 10;
     private com.google.protobuf.Internal.IntList nOBECNCCHLA_;
     /**
-     * <code>repeated uint32 NOBECNCCHLA = 7;</code>
+     * <code>repeated uint32 NOBECNCCHLA = 10;</code>
      * @return A list containing the nOBECNCCHLA.
      */
     @java.lang.Override
@@ -209,14 +209,14 @@ public final class EJCHPEFKGLJOuterClass {
       return nOBECNCCHLA_;
     }
     /**
-     * <code>repeated uint32 NOBECNCCHLA = 7;</code>
+     * <code>repeated uint32 NOBECNCCHLA = 10;</code>
      * @return The count of nOBECNCCHLA.
      */
     public int getNOBECNCCHLACount() {
       return nOBECNCCHLA_.size();
     }
     /**
-     * <code>repeated uint32 NOBECNCCHLA = 7;</code>
+     * <code>repeated uint32 NOBECNCCHLA = 10;</code>
      * @param index The index of the element to return.
      * @return The nOBECNCCHLA at the given index.
      */
@@ -225,17 +225,17 @@ public final class EJCHPEFKGLJOuterClass {
     }
     private int nOBECNCCHLAMemoizedSerializedSize = -1;
 
-    public static final int PAEHFGOIMPA_FIELD_NUMBER = 8;
+    public static final int PAEHFGOIMPA_FIELD_NUMBER = 5;
     private java.util.List<emu.grasscutter.net.proto.CPKAFPOGJKNOuterClass.CPKAFPOGJKN> pAEHFGOIMPA_;
     /**
-     * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 8;</code>
+     * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 5;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.CPKAFPOGJKNOuterClass.CPKAFPOGJKN> getPAEHFGOIMPAList() {
       return pAEHFGOIMPA_;
     }
     /**
-     * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 8;</code>
+     * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 5;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.CPKAFPOGJKNOuterClass.CPKAFPOGJKNOrBuilder> 
@@ -243,21 +243,21 @@ public final class EJCHPEFKGLJOuterClass {
       return pAEHFGOIMPA_;
     }
     /**
-     * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 8;</code>
+     * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 5;</code>
      */
     @java.lang.Override
     public int getPAEHFGOIMPACount() {
       return pAEHFGOIMPA_.size();
     }
     /**
-     * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 8;</code>
+     * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 5;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.CPKAFPOGJKNOuterClass.CPKAFPOGJKN getPAEHFGOIMPA(int index) {
       return pAEHFGOIMPA_.get(index);
     }
     /**
-     * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 8;</code>
+     * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 5;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.CPKAFPOGJKNOuterClass.CPKAFPOGJKNOrBuilder getPAEHFGOIMPAOrBuilder(
@@ -265,10 +265,10 @@ public final class EJCHPEFKGLJOuterClass {
       return pAEHFGOIMPA_.get(index);
     }
 
-    public static final int AIFBNCGPEDK_FIELD_NUMBER = 12;
+    public static final int AIFBNCGPEDK_FIELD_NUMBER = 3;
     private boolean aIFBNCGPEDK_;
     /**
-     * <code>bool AIFBNCGPEDK = 12;</code>
+     * <code>bool AIFBNCGPEDK = 3;</code>
      * @return The aIFBNCGPEDK.
      */
     @java.lang.Override
@@ -276,10 +276,10 @@ public final class EJCHPEFKGLJOuterClass {
       return aIFBNCGPEDK_;
     }
 
-    public static final int DEIJOHMBMAO_FIELD_NUMBER = 13;
+    public static final int DEIJOHMBMAO_FIELD_NUMBER = 9;
     private int dEIJOHMBMAO_;
     /**
-     * <code>uint32 DEIJOHMBMAO = 13;</code>
+     * <code>uint32 DEIJOHMBMAO = 9;</code>
      * @return The dEIJOHMBMAO.
      */
     @java.lang.Override
@@ -302,21 +302,21 @@ public final class EJCHPEFKGLJOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
+      if (aIFBNCGPEDK_ != false) {
+        output.writeBool(3, aIFBNCGPEDK_);
+      }
+      for (int i = 0; i < pAEHFGOIMPA_.size(); i++) {
+        output.writeMessage(5, pAEHFGOIMPA_.get(i));
+      }
+      if (dEIJOHMBMAO_ != 0) {
+        output.writeUInt32(9, dEIJOHMBMAO_);
+      }
       if (getNOBECNCCHLAList().size() > 0) {
-        output.writeUInt32NoTag(58);
+        output.writeUInt32NoTag(82);
         output.writeUInt32NoTag(nOBECNCCHLAMemoizedSerializedSize);
       }
       for (int i = 0; i < nOBECNCCHLA_.size(); i++) {
         output.writeUInt32NoTag(nOBECNCCHLA_.getInt(i));
-      }
-      for (int i = 0; i < pAEHFGOIMPA_.size(); i++) {
-        output.writeMessage(8, pAEHFGOIMPA_.get(i));
-      }
-      if (aIFBNCGPEDK_ != false) {
-        output.writeBool(12, aIFBNCGPEDK_);
-      }
-      if (dEIJOHMBMAO_ != 0) {
-        output.writeUInt32(13, dEIJOHMBMAO_);
       }
       unknownFields.writeTo(output);
     }
@@ -327,6 +327,18 @@ public final class EJCHPEFKGLJOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (aIFBNCGPEDK_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(3, aIFBNCGPEDK_);
+      }
+      for (int i = 0; i < pAEHFGOIMPA_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(5, pAEHFGOIMPA_.get(i));
+      }
+      if (dEIJOHMBMAO_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(9, dEIJOHMBMAO_);
+      }
       {
         int dataSize = 0;
         for (int i = 0; i < nOBECNCCHLA_.size(); i++) {
@@ -340,18 +352,6 @@ public final class EJCHPEFKGLJOuterClass {
               .computeInt32SizeNoTag(dataSize);
         }
         nOBECNCCHLAMemoizedSerializedSize = dataSize;
-      }
-      for (int i = 0; i < pAEHFGOIMPA_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, pAEHFGOIMPA_.get(i));
-      }
-      if (aIFBNCGPEDK_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, aIFBNCGPEDK_);
-      }
-      if (dEIJOHMBMAO_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, dEIJOHMBMAO_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -717,7 +717,7 @@ public final class EJCHPEFKGLJOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 NOBECNCCHLA = 7;</code>
+       * <code>repeated uint32 NOBECNCCHLA = 10;</code>
        * @return A list containing the nOBECNCCHLA.
        */
       public java.util.List<java.lang.Integer>
@@ -726,14 +726,14 @@ public final class EJCHPEFKGLJOuterClass {
                  java.util.Collections.unmodifiableList(nOBECNCCHLA_) : nOBECNCCHLA_;
       }
       /**
-       * <code>repeated uint32 NOBECNCCHLA = 7;</code>
+       * <code>repeated uint32 NOBECNCCHLA = 10;</code>
        * @return The count of nOBECNCCHLA.
        */
       public int getNOBECNCCHLACount() {
         return nOBECNCCHLA_.size();
       }
       /**
-       * <code>repeated uint32 NOBECNCCHLA = 7;</code>
+       * <code>repeated uint32 NOBECNCCHLA = 10;</code>
        * @param index The index of the element to return.
        * @return The nOBECNCCHLA at the given index.
        */
@@ -741,7 +741,7 @@ public final class EJCHPEFKGLJOuterClass {
         return nOBECNCCHLA_.getInt(index);
       }
       /**
-       * <code>repeated uint32 NOBECNCCHLA = 7;</code>
+       * <code>repeated uint32 NOBECNCCHLA = 10;</code>
        * @param index The index to set the value at.
        * @param value The nOBECNCCHLA to set.
        * @return This builder for chaining.
@@ -754,7 +754,7 @@ public final class EJCHPEFKGLJOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 NOBECNCCHLA = 7;</code>
+       * <code>repeated uint32 NOBECNCCHLA = 10;</code>
        * @param value The nOBECNCCHLA to add.
        * @return This builder for chaining.
        */
@@ -765,7 +765,7 @@ public final class EJCHPEFKGLJOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 NOBECNCCHLA = 7;</code>
+       * <code>repeated uint32 NOBECNCCHLA = 10;</code>
        * @param values The nOBECNCCHLA to add.
        * @return This builder for chaining.
        */
@@ -778,7 +778,7 @@ public final class EJCHPEFKGLJOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 NOBECNCCHLA = 7;</code>
+       * <code>repeated uint32 NOBECNCCHLA = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearNOBECNCCHLA() {
@@ -801,7 +801,7 @@ public final class EJCHPEFKGLJOuterClass {
           emu.grasscutter.net.proto.CPKAFPOGJKNOuterClass.CPKAFPOGJKN, emu.grasscutter.net.proto.CPKAFPOGJKNOuterClass.CPKAFPOGJKN.Builder, emu.grasscutter.net.proto.CPKAFPOGJKNOuterClass.CPKAFPOGJKNOrBuilder> pAEHFGOIMPABuilder_;
 
       /**
-       * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 8;</code>
+       * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 5;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.CPKAFPOGJKNOuterClass.CPKAFPOGJKN> getPAEHFGOIMPAList() {
         if (pAEHFGOIMPABuilder_ == null) {
@@ -811,7 +811,7 @@ public final class EJCHPEFKGLJOuterClass {
         }
       }
       /**
-       * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 8;</code>
+       * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 5;</code>
        */
       public int getPAEHFGOIMPACount() {
         if (pAEHFGOIMPABuilder_ == null) {
@@ -821,7 +821,7 @@ public final class EJCHPEFKGLJOuterClass {
         }
       }
       /**
-       * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 8;</code>
+       * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 5;</code>
        */
       public emu.grasscutter.net.proto.CPKAFPOGJKNOuterClass.CPKAFPOGJKN getPAEHFGOIMPA(int index) {
         if (pAEHFGOIMPABuilder_ == null) {
@@ -831,7 +831,7 @@ public final class EJCHPEFKGLJOuterClass {
         }
       }
       /**
-       * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 8;</code>
+       * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 5;</code>
        */
       public Builder setPAEHFGOIMPA(
           int index, emu.grasscutter.net.proto.CPKAFPOGJKNOuterClass.CPKAFPOGJKN value) {
@@ -848,7 +848,7 @@ public final class EJCHPEFKGLJOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 8;</code>
+       * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 5;</code>
        */
       public Builder setPAEHFGOIMPA(
           int index, emu.grasscutter.net.proto.CPKAFPOGJKNOuterClass.CPKAFPOGJKN.Builder builderForValue) {
@@ -862,7 +862,7 @@ public final class EJCHPEFKGLJOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 8;</code>
+       * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 5;</code>
        */
       public Builder addPAEHFGOIMPA(emu.grasscutter.net.proto.CPKAFPOGJKNOuterClass.CPKAFPOGJKN value) {
         if (pAEHFGOIMPABuilder_ == null) {
@@ -878,7 +878,7 @@ public final class EJCHPEFKGLJOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 8;</code>
+       * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 5;</code>
        */
       public Builder addPAEHFGOIMPA(
           int index, emu.grasscutter.net.proto.CPKAFPOGJKNOuterClass.CPKAFPOGJKN value) {
@@ -895,7 +895,7 @@ public final class EJCHPEFKGLJOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 8;</code>
+       * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 5;</code>
        */
       public Builder addPAEHFGOIMPA(
           emu.grasscutter.net.proto.CPKAFPOGJKNOuterClass.CPKAFPOGJKN.Builder builderForValue) {
@@ -909,7 +909,7 @@ public final class EJCHPEFKGLJOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 8;</code>
+       * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 5;</code>
        */
       public Builder addPAEHFGOIMPA(
           int index, emu.grasscutter.net.proto.CPKAFPOGJKNOuterClass.CPKAFPOGJKN.Builder builderForValue) {
@@ -923,7 +923,7 @@ public final class EJCHPEFKGLJOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 8;</code>
+       * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 5;</code>
        */
       public Builder addAllPAEHFGOIMPA(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.CPKAFPOGJKNOuterClass.CPKAFPOGJKN> values) {
@@ -938,7 +938,7 @@ public final class EJCHPEFKGLJOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 8;</code>
+       * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 5;</code>
        */
       public Builder clearPAEHFGOIMPA() {
         if (pAEHFGOIMPABuilder_ == null) {
@@ -951,7 +951,7 @@ public final class EJCHPEFKGLJOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 8;</code>
+       * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 5;</code>
        */
       public Builder removePAEHFGOIMPA(int index) {
         if (pAEHFGOIMPABuilder_ == null) {
@@ -964,14 +964,14 @@ public final class EJCHPEFKGLJOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 8;</code>
+       * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 5;</code>
        */
       public emu.grasscutter.net.proto.CPKAFPOGJKNOuterClass.CPKAFPOGJKN.Builder getPAEHFGOIMPABuilder(
           int index) {
         return getPAEHFGOIMPAFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 8;</code>
+       * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 5;</code>
        */
       public emu.grasscutter.net.proto.CPKAFPOGJKNOuterClass.CPKAFPOGJKNOrBuilder getPAEHFGOIMPAOrBuilder(
           int index) {
@@ -981,7 +981,7 @@ public final class EJCHPEFKGLJOuterClass {
         }
       }
       /**
-       * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 8;</code>
+       * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 5;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.CPKAFPOGJKNOuterClass.CPKAFPOGJKNOrBuilder> 
            getPAEHFGOIMPAOrBuilderList() {
@@ -992,14 +992,14 @@ public final class EJCHPEFKGLJOuterClass {
         }
       }
       /**
-       * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 8;</code>
+       * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 5;</code>
        */
       public emu.grasscutter.net.proto.CPKAFPOGJKNOuterClass.CPKAFPOGJKN.Builder addPAEHFGOIMPABuilder() {
         return getPAEHFGOIMPAFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.CPKAFPOGJKNOuterClass.CPKAFPOGJKN.getDefaultInstance());
       }
       /**
-       * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 8;</code>
+       * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 5;</code>
        */
       public emu.grasscutter.net.proto.CPKAFPOGJKNOuterClass.CPKAFPOGJKN.Builder addPAEHFGOIMPABuilder(
           int index) {
@@ -1007,7 +1007,7 @@ public final class EJCHPEFKGLJOuterClass {
             index, emu.grasscutter.net.proto.CPKAFPOGJKNOuterClass.CPKAFPOGJKN.getDefaultInstance());
       }
       /**
-       * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 8;</code>
+       * <code>repeated .CPKAFPOGJKN PAEHFGOIMPA = 5;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.CPKAFPOGJKNOuterClass.CPKAFPOGJKN.Builder> 
            getPAEHFGOIMPABuilderList() {
@@ -1030,7 +1030,7 @@ public final class EJCHPEFKGLJOuterClass {
 
       private boolean aIFBNCGPEDK_ ;
       /**
-       * <code>bool AIFBNCGPEDK = 12;</code>
+       * <code>bool AIFBNCGPEDK = 3;</code>
        * @return The aIFBNCGPEDK.
        */
       @java.lang.Override
@@ -1038,7 +1038,7 @@ public final class EJCHPEFKGLJOuterClass {
         return aIFBNCGPEDK_;
       }
       /**
-       * <code>bool AIFBNCGPEDK = 12;</code>
+       * <code>bool AIFBNCGPEDK = 3;</code>
        * @param value The aIFBNCGPEDK to set.
        * @return This builder for chaining.
        */
@@ -1049,7 +1049,7 @@ public final class EJCHPEFKGLJOuterClass {
         return this;
       }
       /**
-       * <code>bool AIFBNCGPEDK = 12;</code>
+       * <code>bool AIFBNCGPEDK = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearAIFBNCGPEDK() {
@@ -1061,7 +1061,7 @@ public final class EJCHPEFKGLJOuterClass {
 
       private int dEIJOHMBMAO_ ;
       /**
-       * <code>uint32 DEIJOHMBMAO = 13;</code>
+       * <code>uint32 DEIJOHMBMAO = 9;</code>
        * @return The dEIJOHMBMAO.
        */
       @java.lang.Override
@@ -1069,7 +1069,7 @@ public final class EJCHPEFKGLJOuterClass {
         return dEIJOHMBMAO_;
       }
       /**
-       * <code>uint32 DEIJOHMBMAO = 13;</code>
+       * <code>uint32 DEIJOHMBMAO = 9;</code>
        * @param value The dEIJOHMBMAO to set.
        * @return This builder for chaining.
        */
@@ -1080,7 +1080,7 @@ public final class EJCHPEFKGLJOuterClass {
         return this;
       }
       /**
-       * <code>uint32 DEIJOHMBMAO = 13;</code>
+       * <code>uint32 DEIJOHMBMAO = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearDEIJOHMBMAO() {
@@ -1157,9 +1157,9 @@ public final class EJCHPEFKGLJOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021EJCHPEFKGLJ.proto\032\021CPKAFPOGJKN.proto\"o" +
-      "\n\013EJCHPEFKGLJ\022\023\n\013NOBECNCCHLA\030\007 \003(\r\022!\n\013PA" +
-      "EHFGOIMPA\030\010 \003(\0132\014.CPKAFPOGJKN\022\023\n\013AIFBNCG" +
-      "PEDK\030\014 \001(\010\022\023\n\013DEIJOHMBMAO\030\r \001(\rB2\n\031emu.g" +
+      "\n\013EJCHPEFKGLJ\022\023\n\013NOBECNCCHLA\030\n \003(\r\022!\n\013PA" +
+      "EHFGOIMPA\030\005 \003(\0132\014.CPKAFPOGJKN\022\023\n\013AIFBNCG" +
+      "PEDK\030\003 \001(\010\022\023\n\013DEIJOHMBMAO\030\t \001(\rB2\n\031emu.g" +
       "rasscutter.net.protoB\025EJCHPEFKGLJOuterCl" +
       "assb\006proto3"
     };

@@ -6,9 +6,9 @@ option java_outer_classname = "DungeonEntryPointInfoOuterClass";
 import "DungeonEntryInfo.proto";
 
 message DungeonEntryPointInfo {
-	uint32 recommend_dungeon_id = 2;
-	uint32 point_id = 3;
-	uint32 _first_pass_reward_status = 5;
+	uint32 recommend_dungeon_id = 9;
+	uint32 point_id = 14;
+	uint32 _first_pass_reward_status = 8;
 	uint32 scene_id = 10;
-	repeated DungeonEntryInfo dungeon_entry_list = 12;
+	repeated DungeonEntryInfo dungeon_entry_list = 3;
 }

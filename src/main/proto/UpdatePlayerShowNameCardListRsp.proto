@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "UpdatePlayerShowNameCardListRspOuterClass";
 
 message UpdatePlayerShowNameCardListRsp {
-	repeated uint32 show_name_card_id_list = 9;
-	int32 retcode = 12;
+	repeated uint32 show_name_card_id_list = 12;
+	int32 retcode = 1;
 }

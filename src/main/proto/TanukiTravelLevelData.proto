@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "TanukiTravelLevelDataOuterClass";
 
 message TanukiTravelLevelData {
-	uint32 route_id = 2;
-	bool is_open = 6;
-	bool is_finish = 15;
+	uint32 route_id = 14;
+	bool is_open = 2;
+	bool is_finish = 6;
 }

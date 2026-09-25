@@ -7,5 +7,5 @@ import "NOJCFCNEIMJ.proto";
 
 message _SumeruAdventureGoalFightingLevelInfo {
 	NOJCFCNEIMJ MFJAFOAHPDA = 4;
-	uint32 LLGCHCADBJF = 11;
+	uint32 LLGCHCADBJF = 3;
 }

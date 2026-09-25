@@ -4,13 +4,13 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "AnnounceDataOuterClass";
 
 message AnnounceData {
-	bool is_center_system_last_5_every_minutes = 2;
-	uint32 end_time = 3;
-	uint32 begin_time = 4;
-	uint32 center_system_frequency = 5;
-	uint32 count_down_frequency = 9;
-	uint32 config_id = 10;
-	string ENGJGCGFMMM = 11;
-	string LHMGGPMCDCN = 12;
-	string KFAGDOEAIPP = 13;
+	bool is_center_system_last_5_every_minutes = 1;
+	uint32 end_time = 8;
+	uint32 begin_time = 7;
+	uint32 center_system_frequency = 50000;
+	uint32 count_down_frequency = 50001;
+	uint32 config_id = 14;
+	string ENGJGCGFMMM = 50002;
+	string LHMGGPMCDCN = 50003;
+	string KFAGDOEAIPP = 50004;
 }

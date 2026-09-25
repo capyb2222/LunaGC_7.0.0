@@ -10,10 +10,10 @@ import "FleurFairMusicGameInfo.proto";
 message FleurFairMinigameInfo {
 	oneof detail {
 		FleurFairMusicGameInfo music_info = 4;
-		FleurFairFallInfo fall_info = 14;
-		FleurFairBalloonInfo balloon_info = 15;
+		FleurFairFallInfo fall_info = 11;
+		FleurFairBalloonInfo balloon_info = 1;
 	}
-	uint32 minigame_id = 7;
-	uint32 open_time = 8;
-	bool is_open = 10;
+	uint32 minigame_id = 10;
+	uint32 open_time = 15;
+	bool is_open = 8;
 }

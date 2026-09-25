@@ -5,6 +5,6 @@ option java_outer_classname = "ShowCommonTipsNotifyOuterClass";
 
 message ShowCommonTipsNotify {
 	string title = 1;
-	string content = 9;
-	uint32 close_time = 10;
+	string content = 7;
+	uint32 close_time = 8;
 }

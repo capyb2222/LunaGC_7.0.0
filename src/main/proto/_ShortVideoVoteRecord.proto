@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "_ShortVideoVoteRecordOuterClass";
 
 message _ShortVideoVoteRecord {
-	uint32 value = 2;
-	uint64 key = 5;
+	uint32 value = 1;
+	uint64 key = 7;
 }

@@ -8,7 +8,7 @@ import "Vector.proto";
 
 message EvtBulletMoveNotify {
 	uint32 entity_id = 5;
-	Vector cur_pos = 8;
-	bool EOCBPPKDLBH = 9;
-	ForwardType forward_type = 14;
+	Vector cur_pos = 13;
+	bool EOCBPPKDLBH = 15;
+	ForwardType forward_type = 10;
 }

@@ -8,9 +8,9 @@ import "MPLevelEntityInfo.proto";
 import "TeamEnterSceneInfo.proto";
 
 message PlayerEnterSceneInfoNotify {
-	uint32 enter_scene_token = 1;
-	uint32 cur_avatar_entity_id = 3;
-	TeamEnterSceneInfo team_enter_info = 4;
-	repeated AvatarEnterSceneInfo avatar_enter_info = 5;
-	MPLevelEntityInfo mp_level_entity_info = 8;
+	uint32 enter_scene_token = 15;
+	uint32 cur_avatar_entity_id = 8;
+	TeamEnterSceneInfo team_enter_info = 13;
+	repeated AvatarEnterSceneInfo avatar_enter_info = 12;
+	MPLevelEntityInfo mp_level_entity_info = 2;
 }

@@ -19,58 +19,58 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 codex_id_list = 2;</code>
+     * <code>repeated uint32 codex_id_list = 14;</code>
      * @return A list containing the codexIdList.
      */
     java.util.List<java.lang.Integer> getCodexIdListList();
     /**
-     * <code>repeated uint32 codex_id_list = 2;</code>
+     * <code>repeated uint32 codex_id_list = 14;</code>
      * @return The count of codexIdList.
      */
     int getCodexIdListCount();
     /**
-     * <code>repeated uint32 codex_id_list = 2;</code>
+     * <code>repeated uint32 codex_id_list = 14;</code>
      * @param index The index of the element to return.
      * @return The codexIdList at the given index.
      */
     int getCodexIdList(int index);
 
     /**
-     * <code>repeated uint32 phdcolpgnbi = 3;</code>
+     * <code>repeated uint32 phdcolpgnbi = 50000;</code>
      * @return A list containing the phdcolpgnbi.
      */
     java.util.List<java.lang.Integer> getPhdcolpgnbiList();
     /**
-     * <code>repeated uint32 phdcolpgnbi = 3;</code>
+     * <code>repeated uint32 phdcolpgnbi = 50000;</code>
      * @return The count of phdcolpgnbi.
      */
     int getPhdcolpgnbiCount();
     /**
-     * <code>repeated uint32 phdcolpgnbi = 3;</code>
+     * <code>repeated uint32 phdcolpgnbi = 50000;</code>
      * @param index The index of the element to return.
      * @return The phdcolpgnbi at the given index.
      */
     int getPhdcolpgnbi(int index);
 
     /**
-     * <code>repeated uint32 dnicbjiekbm = 10;</code>
+     * <code>repeated uint32 dnicbjiekbm = 50001;</code>
      * @return A list containing the dnicbjiekbm.
      */
     java.util.List<java.lang.Integer> getDnicbjiekbmList();
     /**
-     * <code>repeated uint32 dnicbjiekbm = 10;</code>
+     * <code>repeated uint32 dnicbjiekbm = 50001;</code>
      * @return The count of dnicbjiekbm.
      */
     int getDnicbjiekbmCount();
     /**
-     * <code>repeated uint32 dnicbjiekbm = 10;</code>
+     * <code>repeated uint32 dnicbjiekbm = 50001;</code>
      * @param index The index of the element to return.
      * @return The dnicbjiekbm at the given index.
      */
     int getDnicbjiekbm(int index);
 
     /**
-     * <code>int32 retcode = 14;</code>
+     * <code>int32 retcode = 2;</code>
      * @return The retcode.
      */
     int getRetcode();
@@ -125,6 +125,11 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
               done = true;
               break;
             case 16: {
+
+              retcode_ = input.readInt32();
+              break;
+            }
+            case 112: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 codexIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -132,7 +137,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
               codexIdList_.addInt(input.readUInt32());
               break;
             }
-            case 18: {
+            case 114: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -145,7 +150,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 24: {
+            case 400000: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 phdcolpgnbi_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
@@ -153,7 +158,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
               phdcolpgnbi_.addInt(input.readUInt32());
               break;
             }
-            case 26: {
+            case 400002: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
@@ -166,7 +171,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 80: {
+            case 400008: {
               if (!((mutable_bitField0_ & 0x00000004) != 0)) {
                 dnicbjiekbm_ = newIntList();
                 mutable_bitField0_ |= 0x00000004;
@@ -174,7 +179,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
               dnicbjiekbm_.addInt(input.readUInt32());
               break;
             }
-            case 82: {
+            case 400010: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000004) != 0) && input.getBytesUntilLimit() > 0) {
@@ -185,11 +190,6 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
                 dnicbjiekbm_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
-              break;
-            }
-            case 112: {
-
-              retcode_ = input.readInt32();
               break;
             }
             default: {
@@ -233,10 +233,10 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
               emu.grasscutter.net.proto.QueryCodexMonsterBeKilledNumRspOuterClass.QueryCodexMonsterBeKilledNumRsp.class, emu.grasscutter.net.proto.QueryCodexMonsterBeKilledNumRspOuterClass.QueryCodexMonsterBeKilledNumRsp.Builder.class);
     }
 
-    public static final int CODEX_ID_LIST_FIELD_NUMBER = 2;
+    public static final int CODEX_ID_LIST_FIELD_NUMBER = 14;
     private com.google.protobuf.Internal.IntList codexIdList_;
     /**
-     * <code>repeated uint32 codex_id_list = 2;</code>
+     * <code>repeated uint32 codex_id_list = 14;</code>
      * @return A list containing the codexIdList.
      */
     @java.lang.Override
@@ -245,14 +245,14 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
       return codexIdList_;
     }
     /**
-     * <code>repeated uint32 codex_id_list = 2;</code>
+     * <code>repeated uint32 codex_id_list = 14;</code>
      * @return The count of codexIdList.
      */
     public int getCodexIdListCount() {
       return codexIdList_.size();
     }
     /**
-     * <code>repeated uint32 codex_id_list = 2;</code>
+     * <code>repeated uint32 codex_id_list = 14;</code>
      * @param index The index of the element to return.
      * @return The codexIdList at the given index.
      */
@@ -261,10 +261,10 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
     }
     private int codexIdListMemoizedSerializedSize = -1;
 
-    public static final int PHDCOLPGNBI_FIELD_NUMBER = 3;
+    public static final int PHDCOLPGNBI_FIELD_NUMBER = 50000;
     private com.google.protobuf.Internal.IntList phdcolpgnbi_;
     /**
-     * <code>repeated uint32 phdcolpgnbi = 3;</code>
+     * <code>repeated uint32 phdcolpgnbi = 50000;</code>
      * @return A list containing the phdcolpgnbi.
      */
     @java.lang.Override
@@ -273,14 +273,14 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
       return phdcolpgnbi_;
     }
     /**
-     * <code>repeated uint32 phdcolpgnbi = 3;</code>
+     * <code>repeated uint32 phdcolpgnbi = 50000;</code>
      * @return The count of phdcolpgnbi.
      */
     public int getPhdcolpgnbiCount() {
       return phdcolpgnbi_.size();
     }
     /**
-     * <code>repeated uint32 phdcolpgnbi = 3;</code>
+     * <code>repeated uint32 phdcolpgnbi = 50000;</code>
      * @param index The index of the element to return.
      * @return The phdcolpgnbi at the given index.
      */
@@ -289,10 +289,10 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
     }
     private int phdcolpgnbiMemoizedSerializedSize = -1;
 
-    public static final int DNICBJIEKBM_FIELD_NUMBER = 10;
+    public static final int DNICBJIEKBM_FIELD_NUMBER = 50001;
     private com.google.protobuf.Internal.IntList dnicbjiekbm_;
     /**
-     * <code>repeated uint32 dnicbjiekbm = 10;</code>
+     * <code>repeated uint32 dnicbjiekbm = 50001;</code>
      * @return A list containing the dnicbjiekbm.
      */
     @java.lang.Override
@@ -301,14 +301,14 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
       return dnicbjiekbm_;
     }
     /**
-     * <code>repeated uint32 dnicbjiekbm = 10;</code>
+     * <code>repeated uint32 dnicbjiekbm = 50001;</code>
      * @return The count of dnicbjiekbm.
      */
     public int getDnicbjiekbmCount() {
       return dnicbjiekbm_.size();
     }
     /**
-     * <code>repeated uint32 dnicbjiekbm = 10;</code>
+     * <code>repeated uint32 dnicbjiekbm = 50001;</code>
      * @param index The index of the element to return.
      * @return The dnicbjiekbm at the given index.
      */
@@ -317,10 +317,10 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
     }
     private int dnicbjiekbmMemoizedSerializedSize = -1;
 
-    public static final int RETCODE_FIELD_NUMBER = 14;
+    public static final int RETCODE_FIELD_NUMBER = 2;
     private int retcode_;
     /**
-     * <code>int32 retcode = 14;</code>
+     * <code>int32 retcode = 2;</code>
      * @return The retcode.
      */
     @java.lang.Override
@@ -343,29 +343,29 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
+      if (retcode_ != 0) {
+        output.writeInt32(2, retcode_);
+      }
       if (getCodexIdListList().size() > 0) {
-        output.writeUInt32NoTag(18);
+        output.writeUInt32NoTag(114);
         output.writeUInt32NoTag(codexIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < codexIdList_.size(); i++) {
         output.writeUInt32NoTag(codexIdList_.getInt(i));
       }
       if (getPhdcolpgnbiList().size() > 0) {
-        output.writeUInt32NoTag(26);
+        output.writeUInt32NoTag(400002);
         output.writeUInt32NoTag(phdcolpgnbiMemoizedSerializedSize);
       }
       for (int i = 0; i < phdcolpgnbi_.size(); i++) {
         output.writeUInt32NoTag(phdcolpgnbi_.getInt(i));
       }
       if (getDnicbjiekbmList().size() > 0) {
-        output.writeUInt32NoTag(82);
+        output.writeUInt32NoTag(400010);
         output.writeUInt32NoTag(dnicbjiekbmMemoizedSerializedSize);
       }
       for (int i = 0; i < dnicbjiekbm_.size(); i++) {
         output.writeUInt32NoTag(dnicbjiekbm_.getInt(i));
-      }
-      if (retcode_ != 0) {
-        output.writeInt32(14, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -376,6 +376,10 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (retcode_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt32Size(2, retcode_);
+      }
       {
         int dataSize = 0;
         for (int i = 0; i < codexIdList_.size(); i++) {
@@ -398,7 +402,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
         }
         size += dataSize;
         if (!getPhdcolpgnbiList().isEmpty()) {
-          size += 1;
+          size += 3;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
@@ -412,15 +416,11 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
         }
         size += dataSize;
         if (!getDnicbjiekbmList().isEmpty()) {
-          size += 1;
+          size += 3;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
         dnicbjiekbmMemoizedSerializedSize = dataSize;
-      }
-      if (retcode_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(14, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -773,7 +773,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 codex_id_list = 2;</code>
+       * <code>repeated uint32 codex_id_list = 14;</code>
        * @return A list containing the codexIdList.
        */
       public java.util.List<java.lang.Integer>
@@ -782,14 +782,14 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
                  java.util.Collections.unmodifiableList(codexIdList_) : codexIdList_;
       }
       /**
-       * <code>repeated uint32 codex_id_list = 2;</code>
+       * <code>repeated uint32 codex_id_list = 14;</code>
        * @return The count of codexIdList.
        */
       public int getCodexIdListCount() {
         return codexIdList_.size();
       }
       /**
-       * <code>repeated uint32 codex_id_list = 2;</code>
+       * <code>repeated uint32 codex_id_list = 14;</code>
        * @param index The index of the element to return.
        * @return The codexIdList at the given index.
        */
@@ -797,7 +797,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
         return codexIdList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 codex_id_list = 2;</code>
+       * <code>repeated uint32 codex_id_list = 14;</code>
        * @param index The index to set the value at.
        * @param value The codexIdList to set.
        * @return This builder for chaining.
@@ -810,7 +810,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 codex_id_list = 2;</code>
+       * <code>repeated uint32 codex_id_list = 14;</code>
        * @param value The codexIdList to add.
        * @return This builder for chaining.
        */
@@ -821,7 +821,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 codex_id_list = 2;</code>
+       * <code>repeated uint32 codex_id_list = 14;</code>
        * @param values The codexIdList to add.
        * @return This builder for chaining.
        */
@@ -834,7 +834,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 codex_id_list = 2;</code>
+       * <code>repeated uint32 codex_id_list = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearCodexIdList() {
@@ -852,7 +852,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 phdcolpgnbi = 3;</code>
+       * <code>repeated uint32 phdcolpgnbi = 50000;</code>
        * @return A list containing the phdcolpgnbi.
        */
       public java.util.List<java.lang.Integer>
@@ -861,14 +861,14 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
                  java.util.Collections.unmodifiableList(phdcolpgnbi_) : phdcolpgnbi_;
       }
       /**
-       * <code>repeated uint32 phdcolpgnbi = 3;</code>
+       * <code>repeated uint32 phdcolpgnbi = 50000;</code>
        * @return The count of phdcolpgnbi.
        */
       public int getPhdcolpgnbiCount() {
         return phdcolpgnbi_.size();
       }
       /**
-       * <code>repeated uint32 phdcolpgnbi = 3;</code>
+       * <code>repeated uint32 phdcolpgnbi = 50000;</code>
        * @param index The index of the element to return.
        * @return The phdcolpgnbi at the given index.
        */
@@ -876,7 +876,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
         return phdcolpgnbi_.getInt(index);
       }
       /**
-       * <code>repeated uint32 phdcolpgnbi = 3;</code>
+       * <code>repeated uint32 phdcolpgnbi = 50000;</code>
        * @param index The index to set the value at.
        * @param value The phdcolpgnbi to set.
        * @return This builder for chaining.
@@ -889,7 +889,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 phdcolpgnbi = 3;</code>
+       * <code>repeated uint32 phdcolpgnbi = 50000;</code>
        * @param value The phdcolpgnbi to add.
        * @return This builder for chaining.
        */
@@ -900,7 +900,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 phdcolpgnbi = 3;</code>
+       * <code>repeated uint32 phdcolpgnbi = 50000;</code>
        * @param values The phdcolpgnbi to add.
        * @return This builder for chaining.
        */
@@ -913,7 +913,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 phdcolpgnbi = 3;</code>
+       * <code>repeated uint32 phdcolpgnbi = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearPhdcolpgnbi() {
@@ -931,7 +931,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 dnicbjiekbm = 10;</code>
+       * <code>repeated uint32 dnicbjiekbm = 50001;</code>
        * @return A list containing the dnicbjiekbm.
        */
       public java.util.List<java.lang.Integer>
@@ -940,14 +940,14 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
                  java.util.Collections.unmodifiableList(dnicbjiekbm_) : dnicbjiekbm_;
       }
       /**
-       * <code>repeated uint32 dnicbjiekbm = 10;</code>
+       * <code>repeated uint32 dnicbjiekbm = 50001;</code>
        * @return The count of dnicbjiekbm.
        */
       public int getDnicbjiekbmCount() {
         return dnicbjiekbm_.size();
       }
       /**
-       * <code>repeated uint32 dnicbjiekbm = 10;</code>
+       * <code>repeated uint32 dnicbjiekbm = 50001;</code>
        * @param index The index of the element to return.
        * @return The dnicbjiekbm at the given index.
        */
@@ -955,7 +955,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
         return dnicbjiekbm_.getInt(index);
       }
       /**
-       * <code>repeated uint32 dnicbjiekbm = 10;</code>
+       * <code>repeated uint32 dnicbjiekbm = 50001;</code>
        * @param index The index to set the value at.
        * @param value The dnicbjiekbm to set.
        * @return This builder for chaining.
@@ -968,7 +968,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 dnicbjiekbm = 10;</code>
+       * <code>repeated uint32 dnicbjiekbm = 50001;</code>
        * @param value The dnicbjiekbm to add.
        * @return This builder for chaining.
        */
@@ -979,7 +979,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 dnicbjiekbm = 10;</code>
+       * <code>repeated uint32 dnicbjiekbm = 50001;</code>
        * @param values The dnicbjiekbm to add.
        * @return This builder for chaining.
        */
@@ -992,7 +992,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 dnicbjiekbm = 10;</code>
+       * <code>repeated uint32 dnicbjiekbm = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearDnicbjiekbm() {
@@ -1004,7 +1004,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
 
       private int retcode_ ;
       /**
-       * <code>int32 retcode = 14;</code>
+       * <code>int32 retcode = 2;</code>
        * @return The retcode.
        */
       @java.lang.Override
@@ -1012,7 +1012,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
         return retcode_;
       }
       /**
-       * <code>int32 retcode = 14;</code>
+       * <code>int32 retcode = 2;</code>
        * @param value The retcode to set.
        * @return This builder for chaining.
        */
@@ -1023,7 +1023,7 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
         return this;
       }
       /**
-       * <code>int32 retcode = 14;</code>
+       * <code>int32 retcode = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
@@ -1100,11 +1100,11 @@ public final class QueryCodexMonsterBeKilledNumRspOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n%QueryCodexMonsterBeKilledNumRsp.proto\"" +
-      "s\n\037QueryCodexMonsterBeKilledNumRsp\022\025\n\rco" +
-      "dex_id_list\030\002 \003(\r\022\023\n\013phdcolpgnbi\030\003 \003(\r\022\023" +
-      "\n\013dnicbjiekbm\030\n \003(\r\022\017\n\007retcode\030\016 \001(\005BF\n\031" +
-      "emu.grasscutter.net.protoB)QueryCodexMon" +
-      "sterBeKilledNumRspOuterClassb\006proto3"
+      "w\n\037QueryCodexMonsterBeKilledNumRsp\022\025\n\rco" +
+      "dex_id_list\030\016 \003(\r\022\025\n\013phdcolpgnbi\030\320\206\003 \003(\r" +
+      "\022\025\n\013dnicbjiekbm\030\321\206\003 \003(\r\022\017\n\007retcode\030\002 \001(\005" +
+      "BF\n\031emu.grasscutter.net.protoB)QueryCode" +
+      "xMonsterBeKilledNumRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

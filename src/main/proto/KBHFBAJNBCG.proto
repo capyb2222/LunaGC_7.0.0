@@ -6,5 +6,5 @@ option java_outer_classname = "KBHFBAJNBCGOuterClass";
 import "JJAAPEINGAC.proto";
 
 message KBHFBAJNBCG {
-	repeated JJAAPEINGAC ELGHIDOKCBA = 7;
+	repeated JJAAPEINGAC ELGHIDOKCBA = 2;
 }

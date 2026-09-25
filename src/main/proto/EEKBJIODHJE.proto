@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "EEKBJIODHJEOuterClass";
 
 message EEKBJIODHJE {
-	bool is_finished = 4;
-	uint32 level_id = 5;
+	bool is_finished = 7;
+	uint32 level_id = 1;
 	bool is_open = 8;
 }

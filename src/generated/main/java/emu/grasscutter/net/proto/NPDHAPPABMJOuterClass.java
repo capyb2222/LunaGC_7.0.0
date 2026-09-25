@@ -31,13 +31,13 @@ public final class NPDHAPPABMJOuterClass {
     boolean getIsOpen();
 
     /**
-     * <code>uint32 stage_id = 4;</code>
+     * <code>uint32 stage_id = 14;</code>
      * @return The stageId.
      */
     int getStageId();
 
     /**
-     * <code>bool is_finish = 13;</code>
+     * <code>bool is_finish = 4;</code>
      * @return The isFinish.
      */
     boolean getIsFinish();
@@ -99,12 +99,12 @@ public final class NPDHAPPABMJOuterClass {
             }
             case 32: {
 
-              stageId_ = input.readUInt32();
+              isFinish_ = input.readBool();
               break;
             }
-            case 104: {
+            case 112: {
 
-              isFinish_ = input.readBool();
+              stageId_ = input.readUInt32();
               break;
             }
             default: {
@@ -161,10 +161,10 @@ public final class NPDHAPPABMJOuterClass {
       return isOpen_;
     }
 
-    public static final int STAGE_ID_FIELD_NUMBER = 4;
+    public static final int STAGE_ID_FIELD_NUMBER = 14;
     private int stageId_;
     /**
-     * <code>uint32 stage_id = 4;</code>
+     * <code>uint32 stage_id = 14;</code>
      * @return The stageId.
      */
     @java.lang.Override
@@ -172,10 +172,10 @@ public final class NPDHAPPABMJOuterClass {
       return stageId_;
     }
 
-    public static final int IS_FINISH_FIELD_NUMBER = 13;
+    public static final int IS_FINISH_FIELD_NUMBER = 4;
     private boolean isFinish_;
     /**
-     * <code>bool is_finish = 13;</code>
+     * <code>bool is_finish = 4;</code>
      * @return The isFinish.
      */
     @java.lang.Override
@@ -203,11 +203,11 @@ public final class NPDHAPPABMJOuterClass {
       if (isOpen_ != false) {
         output.writeBool(3, isOpen_);
       }
-      if (stageId_ != 0) {
-        output.writeUInt32(4, stageId_);
-      }
       if (isFinish_ != false) {
-        output.writeBool(13, isFinish_);
+        output.writeBool(4, isFinish_);
+      }
+      if (stageId_ != 0) {
+        output.writeUInt32(14, stageId_);
       }
       unknownFields.writeTo(output);
     }
@@ -226,13 +226,13 @@ public final class NPDHAPPABMJOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(3, isOpen_);
       }
-      if (stageId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, stageId_);
-      }
       if (isFinish_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(13, isFinish_);
+          .computeBoolSize(4, isFinish_);
+      }
+      if (stageId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(14, stageId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -602,7 +602,7 @@ public final class NPDHAPPABMJOuterClass {
 
       private int stageId_ ;
       /**
-       * <code>uint32 stage_id = 4;</code>
+       * <code>uint32 stage_id = 14;</code>
        * @return The stageId.
        */
       @java.lang.Override
@@ -610,7 +610,7 @@ public final class NPDHAPPABMJOuterClass {
         return stageId_;
       }
       /**
-       * <code>uint32 stage_id = 4;</code>
+       * <code>uint32 stage_id = 14;</code>
        * @param value The stageId to set.
        * @return This builder for chaining.
        */
@@ -621,7 +621,7 @@ public final class NPDHAPPABMJOuterClass {
         return this;
       }
       /**
-       * <code>uint32 stage_id = 4;</code>
+       * <code>uint32 stage_id = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearStageId() {
@@ -633,7 +633,7 @@ public final class NPDHAPPABMJOuterClass {
 
       private boolean isFinish_ ;
       /**
-       * <code>bool is_finish = 13;</code>
+       * <code>bool is_finish = 4;</code>
        * @return The isFinish.
        */
       @java.lang.Override
@@ -641,7 +641,7 @@ public final class NPDHAPPABMJOuterClass {
         return isFinish_;
       }
       /**
-       * <code>bool is_finish = 13;</code>
+       * <code>bool is_finish = 4;</code>
        * @param value The isFinish to set.
        * @return This builder for chaining.
        */
@@ -652,7 +652,7 @@ public final class NPDHAPPABMJOuterClass {
         return this;
       }
       /**
-       * <code>bool is_finish = 13;</code>
+       * <code>bool is_finish = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsFinish() {
@@ -730,7 +730,7 @@ public final class NPDHAPPABMJOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021NPDHAPPABMJ.proto\"W\n\013NPDHAPPABMJ\022\022\n\nbe" +
       "st_score\030\001 \001(\r\022\017\n\007is_open\030\003 \001(\010\022\020\n\010stage" +
-      "_id\030\004 \001(\r\022\021\n\tis_finish\030\r \001(\010B2\n\031emu.gras" +
+      "_id\030\016 \001(\r\022\021\n\tis_finish\030\004 \001(\010B2\n\031emu.gras" +
       "scutter.net.protoB\025NPDHAPPABMJOuterClass" +
       "b\006proto3"
     };

@@ -19,43 +19,43 @@ public final class _SumeruAdventureTrainingSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 play_type = 1;</code>
+     * <code>uint32 play_type = 10;</code>
      * @return The playType.
      */
     int getPlayType();
 
     /**
-     * <code>uint32 difficulty = 3;</code>
+     * <code>uint32 difficulty = 13;</code>
      * @return The difficulty.
      */
     int getDifficulty();
 
     /**
-     * <code>uint32 level_id = 4;</code>
+     * <code>uint32 level_id = 9;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>uint32 use_time = 9;</code>
+     * <code>uint32 use_time = 15;</code>
      * @return The useTime.
      */
     int getUseTime();
 
     /**
-     * <code>bool is_new_record = 12;</code>
+     * <code>bool is_new_record = 2;</code>
      * @return The isNewRecord.
      */
     boolean getIsNewRecord();
 
     /**
-     * <code>uint32 score = 13;</code>
+     * <code>uint32 score = 3;</code>
      * @return The score.
      */
     int getScore();
 
     /**
-     * <code>uint32 collect_num = 15;</code>
+     * <code>uint32 collect_num = 1;</code>
      * @return The collectNum.
      */
     int getCollectNum();
@@ -107,37 +107,37 @@ public final class _SumeruAdventureTrainingSettleInfoOuterClass {
               break;
             case 8: {
 
-              playType_ = input.readUInt32();
+              collectNum_ = input.readUInt32();
               break;
             }
-            case 24: {
-
-              difficulty_ = input.readUInt32();
-              break;
-            }
-            case 32: {
-
-              levelId_ = input.readUInt32();
-              break;
-            }
-            case 72: {
-
-              useTime_ = input.readUInt32();
-              break;
-            }
-            case 96: {
+            case 16: {
 
               isNewRecord_ = input.readBool();
               break;
             }
-            case 104: {
+            case 24: {
 
               score_ = input.readUInt32();
               break;
             }
+            case 72: {
+
+              levelId_ = input.readUInt32();
+              break;
+            }
+            case 80: {
+
+              playType_ = input.readUInt32();
+              break;
+            }
+            case 104: {
+
+              difficulty_ = input.readUInt32();
+              break;
+            }
             case 120: {
 
-              collectNum_ = input.readUInt32();
+              useTime_ = input.readUInt32();
               break;
             }
             default: {
@@ -172,10 +172,10 @@ public final class _SumeruAdventureTrainingSettleInfoOuterClass {
               emu.grasscutter.net.proto._SumeruAdventureTrainingSettleInfoOuterClass._SumeruAdventureTrainingSettleInfo.class, emu.grasscutter.net.proto._SumeruAdventureTrainingSettleInfoOuterClass._SumeruAdventureTrainingSettleInfo.Builder.class);
     }
 
-    public static final int PLAY_TYPE_FIELD_NUMBER = 1;
+    public static final int PLAY_TYPE_FIELD_NUMBER = 10;
     private int playType_;
     /**
-     * <code>uint32 play_type = 1;</code>
+     * <code>uint32 play_type = 10;</code>
      * @return The playType.
      */
     @java.lang.Override
@@ -183,10 +183,10 @@ public final class _SumeruAdventureTrainingSettleInfoOuterClass {
       return playType_;
     }
 
-    public static final int DIFFICULTY_FIELD_NUMBER = 3;
+    public static final int DIFFICULTY_FIELD_NUMBER = 13;
     private int difficulty_;
     /**
-     * <code>uint32 difficulty = 3;</code>
+     * <code>uint32 difficulty = 13;</code>
      * @return The difficulty.
      */
     @java.lang.Override
@@ -194,10 +194,10 @@ public final class _SumeruAdventureTrainingSettleInfoOuterClass {
       return difficulty_;
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 4;
+    public static final int LEVEL_ID_FIELD_NUMBER = 9;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 4;</code>
+     * <code>uint32 level_id = 9;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -205,10 +205,10 @@ public final class _SumeruAdventureTrainingSettleInfoOuterClass {
       return levelId_;
     }
 
-    public static final int USE_TIME_FIELD_NUMBER = 9;
+    public static final int USE_TIME_FIELD_NUMBER = 15;
     private int useTime_;
     /**
-     * <code>uint32 use_time = 9;</code>
+     * <code>uint32 use_time = 15;</code>
      * @return The useTime.
      */
     @java.lang.Override
@@ -216,10 +216,10 @@ public final class _SumeruAdventureTrainingSettleInfoOuterClass {
       return useTime_;
     }
 
-    public static final int IS_NEW_RECORD_FIELD_NUMBER = 12;
+    public static final int IS_NEW_RECORD_FIELD_NUMBER = 2;
     private boolean isNewRecord_;
     /**
-     * <code>bool is_new_record = 12;</code>
+     * <code>bool is_new_record = 2;</code>
      * @return The isNewRecord.
      */
     @java.lang.Override
@@ -227,10 +227,10 @@ public final class _SumeruAdventureTrainingSettleInfoOuterClass {
       return isNewRecord_;
     }
 
-    public static final int SCORE_FIELD_NUMBER = 13;
+    public static final int SCORE_FIELD_NUMBER = 3;
     private int score_;
     /**
-     * <code>uint32 score = 13;</code>
+     * <code>uint32 score = 3;</code>
      * @return The score.
      */
     @java.lang.Override
@@ -238,10 +238,10 @@ public final class _SumeruAdventureTrainingSettleInfoOuterClass {
       return score_;
     }
 
-    public static final int COLLECT_NUM_FIELD_NUMBER = 15;
+    public static final int COLLECT_NUM_FIELD_NUMBER = 1;
     private int collectNum_;
     /**
-     * <code>uint32 collect_num = 15;</code>
+     * <code>uint32 collect_num = 1;</code>
      * @return The collectNum.
      */
     @java.lang.Override
@@ -263,26 +263,26 @@ public final class _SumeruAdventureTrainingSettleInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (playType_ != 0) {
-        output.writeUInt32(1, playType_);
-      }
-      if (difficulty_ != 0) {
-        output.writeUInt32(3, difficulty_);
-      }
-      if (levelId_ != 0) {
-        output.writeUInt32(4, levelId_);
-      }
-      if (useTime_ != 0) {
-        output.writeUInt32(9, useTime_);
+      if (collectNum_ != 0) {
+        output.writeUInt32(1, collectNum_);
       }
       if (isNewRecord_ != false) {
-        output.writeBool(12, isNewRecord_);
+        output.writeBool(2, isNewRecord_);
       }
       if (score_ != 0) {
-        output.writeUInt32(13, score_);
+        output.writeUInt32(3, score_);
       }
-      if (collectNum_ != 0) {
-        output.writeUInt32(15, collectNum_);
+      if (levelId_ != 0) {
+        output.writeUInt32(9, levelId_);
+      }
+      if (playType_ != 0) {
+        output.writeUInt32(10, playType_);
+      }
+      if (difficulty_ != 0) {
+        output.writeUInt32(13, difficulty_);
+      }
+      if (useTime_ != 0) {
+        output.writeUInt32(15, useTime_);
       }
       unknownFields.writeTo(output);
     }
@@ -293,33 +293,33 @@ public final class _SumeruAdventureTrainingSettleInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (playType_ != 0) {
+      if (collectNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, playType_);
-      }
-      if (difficulty_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, difficulty_);
-      }
-      if (levelId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, levelId_);
-      }
-      if (useTime_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, useTime_);
+          .computeUInt32Size(1, collectNum_);
       }
       if (isNewRecord_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, isNewRecord_);
+          .computeBoolSize(2, isNewRecord_);
       }
       if (score_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, score_);
+          .computeUInt32Size(3, score_);
       }
-      if (collectNum_ != 0) {
+      if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, collectNum_);
+          .computeUInt32Size(9, levelId_);
+      }
+      if (playType_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(10, playType_);
+      }
+      if (difficulty_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(13, difficulty_);
+      }
+      if (useTime_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(15, useTime_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -656,7 +656,7 @@ public final class _SumeruAdventureTrainingSettleInfoOuterClass {
 
       private int playType_ ;
       /**
-       * <code>uint32 play_type = 1;</code>
+       * <code>uint32 play_type = 10;</code>
        * @return The playType.
        */
       @java.lang.Override
@@ -664,7 +664,7 @@ public final class _SumeruAdventureTrainingSettleInfoOuterClass {
         return playType_;
       }
       /**
-       * <code>uint32 play_type = 1;</code>
+       * <code>uint32 play_type = 10;</code>
        * @param value The playType to set.
        * @return This builder for chaining.
        */
@@ -675,7 +675,7 @@ public final class _SumeruAdventureTrainingSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 play_type = 1;</code>
+       * <code>uint32 play_type = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearPlayType() {
@@ -687,7 +687,7 @@ public final class _SumeruAdventureTrainingSettleInfoOuterClass {
 
       private int difficulty_ ;
       /**
-       * <code>uint32 difficulty = 3;</code>
+       * <code>uint32 difficulty = 13;</code>
        * @return The difficulty.
        */
       @java.lang.Override
@@ -695,7 +695,7 @@ public final class _SumeruAdventureTrainingSettleInfoOuterClass {
         return difficulty_;
       }
       /**
-       * <code>uint32 difficulty = 3;</code>
+       * <code>uint32 difficulty = 13;</code>
        * @param value The difficulty to set.
        * @return This builder for chaining.
        */
@@ -706,7 +706,7 @@ public final class _SumeruAdventureTrainingSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 difficulty = 3;</code>
+       * <code>uint32 difficulty = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearDifficulty() {
@@ -718,7 +718,7 @@ public final class _SumeruAdventureTrainingSettleInfoOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 4;</code>
+       * <code>uint32 level_id = 9;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -726,7 +726,7 @@ public final class _SumeruAdventureTrainingSettleInfoOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 4;</code>
+       * <code>uint32 level_id = 9;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -737,7 +737,7 @@ public final class _SumeruAdventureTrainingSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 4;</code>
+       * <code>uint32 level_id = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -749,7 +749,7 @@ public final class _SumeruAdventureTrainingSettleInfoOuterClass {
 
       private int useTime_ ;
       /**
-       * <code>uint32 use_time = 9;</code>
+       * <code>uint32 use_time = 15;</code>
        * @return The useTime.
        */
       @java.lang.Override
@@ -757,7 +757,7 @@ public final class _SumeruAdventureTrainingSettleInfoOuterClass {
         return useTime_;
       }
       /**
-       * <code>uint32 use_time = 9;</code>
+       * <code>uint32 use_time = 15;</code>
        * @param value The useTime to set.
        * @return This builder for chaining.
        */
@@ -768,7 +768,7 @@ public final class _SumeruAdventureTrainingSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 use_time = 9;</code>
+       * <code>uint32 use_time = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearUseTime() {
@@ -780,7 +780,7 @@ public final class _SumeruAdventureTrainingSettleInfoOuterClass {
 
       private boolean isNewRecord_ ;
       /**
-       * <code>bool is_new_record = 12;</code>
+       * <code>bool is_new_record = 2;</code>
        * @return The isNewRecord.
        */
       @java.lang.Override
@@ -788,7 +788,7 @@ public final class _SumeruAdventureTrainingSettleInfoOuterClass {
         return isNewRecord_;
       }
       /**
-       * <code>bool is_new_record = 12;</code>
+       * <code>bool is_new_record = 2;</code>
        * @param value The isNewRecord to set.
        * @return This builder for chaining.
        */
@@ -799,7 +799,7 @@ public final class _SumeruAdventureTrainingSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_new_record = 12;</code>
+       * <code>bool is_new_record = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsNewRecord() {
@@ -811,7 +811,7 @@ public final class _SumeruAdventureTrainingSettleInfoOuterClass {
 
       private int score_ ;
       /**
-       * <code>uint32 score = 13;</code>
+       * <code>uint32 score = 3;</code>
        * @return The score.
        */
       @java.lang.Override
@@ -819,7 +819,7 @@ public final class _SumeruAdventureTrainingSettleInfoOuterClass {
         return score_;
       }
       /**
-       * <code>uint32 score = 13;</code>
+       * <code>uint32 score = 3;</code>
        * @param value The score to set.
        * @return This builder for chaining.
        */
@@ -830,7 +830,7 @@ public final class _SumeruAdventureTrainingSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 score = 13;</code>
+       * <code>uint32 score = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearScore() {
@@ -842,7 +842,7 @@ public final class _SumeruAdventureTrainingSettleInfoOuterClass {
 
       private int collectNum_ ;
       /**
-       * <code>uint32 collect_num = 15;</code>
+       * <code>uint32 collect_num = 1;</code>
        * @return The collectNum.
        */
       @java.lang.Override
@@ -850,7 +850,7 @@ public final class _SumeruAdventureTrainingSettleInfoOuterClass {
         return collectNum_;
       }
       /**
-       * <code>uint32 collect_num = 15;</code>
+       * <code>uint32 collect_num = 1;</code>
        * @param value The collectNum to set.
        * @return This builder for chaining.
        */
@@ -861,7 +861,7 @@ public final class _SumeruAdventureTrainingSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 collect_num = 15;</code>
+       * <code>uint32 collect_num = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearCollectNum() {
@@ -939,10 +939,10 @@ public final class _SumeruAdventureTrainingSettleInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n(_SumeruAdventureTrainingSettleInfo.pro" +
       "to\"\252\001\n\"_SumeruAdventureTrainingSettleInf" +
-      "o\022\021\n\tplay_type\030\001 \001(\r\022\022\n\ndifficulty\030\003 \001(\r" +
-      "\022\020\n\010level_id\030\004 \001(\r\022\020\n\010use_time\030\t \001(\r\022\025\n\r" +
-      "is_new_record\030\014 \001(\010\022\r\n\005score\030\r \001(\r\022\023\n\013co" +
-      "llect_num\030\017 \001(\rBI\n\031emu.grasscutter.net.p" +
+      "o\022\021\n\tplay_type\030\n \001(\r\022\022\n\ndifficulty\030\r \001(\r" +
+      "\022\020\n\010level_id\030\t \001(\r\022\020\n\010use_time\030\017 \001(\r\022\025\n\r" +
+      "is_new_record\030\002 \001(\010\022\r\n\005score\030\003 \001(\r\022\023\n\013co" +
+      "llect_num\030\001 \001(\rBI\n\031emu.grasscutter.net.p" +
       "rotoB,_SumeruAdventureTrainingSettleInfo" +
       "OuterClassb\006proto3"
     };

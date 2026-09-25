@@ -6,10 +6,10 @@ option java_outer_classname = "AnchorPointDataOuterClass";
 import "Vector.proto";
 
 message AnchorPointData {
-	uint32 material_id = 1;
-	uint32 end_time = 3;
-	uint32 anchor_point_id = 5;
-	Vector pos = 9;
-	Vector rot = 11;
-	uint32 scene_id = 13;
+	uint32 material_id = 3;
+	uint32 end_time = 5;
+	uint32 anchor_point_id = 10;
+	Vector pos = 7;
+	Vector rot = 14;
+	uint32 scene_id = 12;
 }

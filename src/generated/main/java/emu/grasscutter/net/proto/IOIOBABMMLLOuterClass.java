@@ -19,31 +19,31 @@ public final class IOIOBABMMLLOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>float rot = 1;</code>
+     * <code>float rot = 4;</code>
      * @return The rot.
      */
     float getRot();
 
     /**
-     * <code>bool GDNALHJEFPE = 3;</code>
+     * <code>bool GDNALHJEFPE = 2;</code>
      * @return The gDNALHJEFPE.
      */
     boolean getGDNALHJEFPE();
 
     /**
-     * <code>uint32 id = 4;</code>
+     * <code>uint32 id = 10;</code>
      * @return The id.
      */
     int getId();
 
     /**
-     * <code>float HGHDGAIHIHJ = 5;</code>
+     * <code>float HGHDGAIHIHJ = 50000;</code>
      * @return The hGHDGAIHIHJ.
      */
     float getHGHDGAIHIHJ();
 
     /**
-     * <code>float MIFLBOMJLLO = 6;</code>
+     * <code>float MIFLBOMJLLO = 50001;</code>
      * @return The mIFLBOMJLLO.
      */
     float getMIFLBOMJLLO();
@@ -55,13 +55,13 @@ public final class IOIOBABMMLLOuterClass {
     int getValue();
 
     /**
-     * <code>float JADCKOMEOGC = 9;</code>
+     * <code>float JADCKOMEOGC = 50002;</code>
      * @return The jADCKOMEOGC.
      */
     float getJADCKOMEOGC();
 
     /**
-     * <code>uint32 IPHHMCDGGCP = 11;</code>
+     * <code>uint32 IPHHMCDGGCP = 7;</code>
      * @return The iPHHMCDGGCP.
      */
     int getIPHHMCDGGCP();
@@ -111,29 +111,19 @@ public final class IOIOBABMMLLOuterClass {
             case 0:
               done = true;
               break;
-            case 13: {
-
-              rot_ = input.readFloat();
-              break;
-            }
-            case 24: {
+            case 16: {
 
               gDNALHJEFPE_ = input.readBool();
               break;
             }
-            case 32: {
+            case 37: {
 
-              id_ = input.readUInt32();
+              rot_ = input.readFloat();
               break;
             }
-            case 45: {
+            case 56: {
 
-              hGHDGAIHIHJ_ = input.readFloat();
-              break;
-            }
-            case 53: {
-
-              mIFLBOMJLLO_ = input.readFloat();
+              iPHHMCDGGCP_ = input.readUInt32();
               break;
             }
             case 64: {
@@ -141,14 +131,24 @@ public final class IOIOBABMMLLOuterClass {
               value_ = input.readUInt32();
               break;
             }
-            case 77: {
+            case 80: {
 
-              jADCKOMEOGC_ = input.readFloat();
+              id_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 400005: {
 
-              iPHHMCDGGCP_ = input.readUInt32();
+              hGHDGAIHIHJ_ = input.readFloat();
+              break;
+            }
+            case 400013: {
+
+              mIFLBOMJLLO_ = input.readFloat();
+              break;
+            }
+            case 400021: {
+
+              jADCKOMEOGC_ = input.readFloat();
               break;
             }
             default: {
@@ -183,10 +183,10 @@ public final class IOIOBABMMLLOuterClass {
               emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL.class, emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL.Builder.class);
     }
 
-    public static final int ROT_FIELD_NUMBER = 1;
+    public static final int ROT_FIELD_NUMBER = 4;
     private float rot_;
     /**
-     * <code>float rot = 1;</code>
+     * <code>float rot = 4;</code>
      * @return The rot.
      */
     @java.lang.Override
@@ -194,10 +194,10 @@ public final class IOIOBABMMLLOuterClass {
       return rot_;
     }
 
-    public static final int GDNALHJEFPE_FIELD_NUMBER = 3;
+    public static final int GDNALHJEFPE_FIELD_NUMBER = 2;
     private boolean gDNALHJEFPE_;
     /**
-     * <code>bool GDNALHJEFPE = 3;</code>
+     * <code>bool GDNALHJEFPE = 2;</code>
      * @return The gDNALHJEFPE.
      */
     @java.lang.Override
@@ -205,10 +205,10 @@ public final class IOIOBABMMLLOuterClass {
       return gDNALHJEFPE_;
     }
 
-    public static final int ID_FIELD_NUMBER = 4;
+    public static final int ID_FIELD_NUMBER = 10;
     private int id_;
     /**
-     * <code>uint32 id = 4;</code>
+     * <code>uint32 id = 10;</code>
      * @return The id.
      */
     @java.lang.Override
@@ -216,10 +216,10 @@ public final class IOIOBABMMLLOuterClass {
       return id_;
     }
 
-    public static final int HGHDGAIHIHJ_FIELD_NUMBER = 5;
+    public static final int HGHDGAIHIHJ_FIELD_NUMBER = 50000;
     private float hGHDGAIHIHJ_;
     /**
-     * <code>float HGHDGAIHIHJ = 5;</code>
+     * <code>float HGHDGAIHIHJ = 50000;</code>
      * @return The hGHDGAIHIHJ.
      */
     @java.lang.Override
@@ -227,10 +227,10 @@ public final class IOIOBABMMLLOuterClass {
       return hGHDGAIHIHJ_;
     }
 
-    public static final int MIFLBOMJLLO_FIELD_NUMBER = 6;
+    public static final int MIFLBOMJLLO_FIELD_NUMBER = 50001;
     private float mIFLBOMJLLO_;
     /**
-     * <code>float MIFLBOMJLLO = 6;</code>
+     * <code>float MIFLBOMJLLO = 50001;</code>
      * @return The mIFLBOMJLLO.
      */
     @java.lang.Override
@@ -249,10 +249,10 @@ public final class IOIOBABMMLLOuterClass {
       return value_;
     }
 
-    public static final int JADCKOMEOGC_FIELD_NUMBER = 9;
+    public static final int JADCKOMEOGC_FIELD_NUMBER = 50002;
     private float jADCKOMEOGC_;
     /**
-     * <code>float JADCKOMEOGC = 9;</code>
+     * <code>float JADCKOMEOGC = 50002;</code>
      * @return The jADCKOMEOGC.
      */
     @java.lang.Override
@@ -260,10 +260,10 @@ public final class IOIOBABMMLLOuterClass {
       return jADCKOMEOGC_;
     }
 
-    public static final int IPHHMCDGGCP_FIELD_NUMBER = 11;
+    public static final int IPHHMCDGGCP_FIELD_NUMBER = 7;
     private int iPHHMCDGGCP_;
     /**
-     * <code>uint32 IPHHMCDGGCP = 11;</code>
+     * <code>uint32 IPHHMCDGGCP = 7;</code>
      * @return The iPHHMCDGGCP.
      */
     @java.lang.Override
@@ -285,29 +285,29 @@ public final class IOIOBABMMLLOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (rot_ != 0F) {
-        output.writeFloat(1, rot_);
-      }
       if (gDNALHJEFPE_ != false) {
-        output.writeBool(3, gDNALHJEFPE_);
+        output.writeBool(2, gDNALHJEFPE_);
       }
-      if (id_ != 0) {
-        output.writeUInt32(4, id_);
+      if (rot_ != 0F) {
+        output.writeFloat(4, rot_);
       }
-      if (hGHDGAIHIHJ_ != 0F) {
-        output.writeFloat(5, hGHDGAIHIHJ_);
-      }
-      if (mIFLBOMJLLO_ != 0F) {
-        output.writeFloat(6, mIFLBOMJLLO_);
+      if (iPHHMCDGGCP_ != 0) {
+        output.writeUInt32(7, iPHHMCDGGCP_);
       }
       if (value_ != 0) {
         output.writeUInt32(8, value_);
       }
-      if (jADCKOMEOGC_ != 0F) {
-        output.writeFloat(9, jADCKOMEOGC_);
+      if (id_ != 0) {
+        output.writeUInt32(10, id_);
       }
-      if (iPHHMCDGGCP_ != 0) {
-        output.writeUInt32(11, iPHHMCDGGCP_);
+      if (hGHDGAIHIHJ_ != 0F) {
+        output.writeFloat(50000, hGHDGAIHIHJ_);
+      }
+      if (mIFLBOMJLLO_ != 0F) {
+        output.writeFloat(50001, mIFLBOMJLLO_);
+      }
+      if (jADCKOMEOGC_ != 0F) {
+        output.writeFloat(50002, jADCKOMEOGC_);
       }
       unknownFields.writeTo(output);
     }
@@ -318,37 +318,37 @@ public final class IOIOBABMMLLOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (rot_ != 0F) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(1, rot_);
-      }
       if (gDNALHJEFPE_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(3, gDNALHJEFPE_);
+          .computeBoolSize(2, gDNALHJEFPE_);
       }
-      if (id_ != 0) {
+      if (rot_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, id_);
+          .computeFloatSize(4, rot_);
       }
-      if (hGHDGAIHIHJ_ != 0F) {
+      if (iPHHMCDGGCP_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(5, hGHDGAIHIHJ_);
-      }
-      if (mIFLBOMJLLO_ != 0F) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(6, mIFLBOMJLLO_);
+          .computeUInt32Size(7, iPHHMCDGGCP_);
       }
       if (value_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(8, value_);
       }
+      if (id_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(10, id_);
+      }
+      if (hGHDGAIHIHJ_ != 0F) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeFloatSize(50000, hGHDGAIHIHJ_);
+      }
+      if (mIFLBOMJLLO_ != 0F) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeFloatSize(50001, mIFLBOMJLLO_);
+      }
       if (jADCKOMEOGC_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(9, jADCKOMEOGC_);
-      }
-      if (iPHHMCDGGCP_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, iPHHMCDGGCP_);
+          .computeFloatSize(50002, jADCKOMEOGC_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -703,7 +703,7 @@ public final class IOIOBABMMLLOuterClass {
 
       private float rot_ ;
       /**
-       * <code>float rot = 1;</code>
+       * <code>float rot = 4;</code>
        * @return The rot.
        */
       @java.lang.Override
@@ -711,7 +711,7 @@ public final class IOIOBABMMLLOuterClass {
         return rot_;
       }
       /**
-       * <code>float rot = 1;</code>
+       * <code>float rot = 4;</code>
        * @param value The rot to set.
        * @return This builder for chaining.
        */
@@ -722,7 +722,7 @@ public final class IOIOBABMMLLOuterClass {
         return this;
       }
       /**
-       * <code>float rot = 1;</code>
+       * <code>float rot = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearRot() {
@@ -734,7 +734,7 @@ public final class IOIOBABMMLLOuterClass {
 
       private boolean gDNALHJEFPE_ ;
       /**
-       * <code>bool GDNALHJEFPE = 3;</code>
+       * <code>bool GDNALHJEFPE = 2;</code>
        * @return The gDNALHJEFPE.
        */
       @java.lang.Override
@@ -742,7 +742,7 @@ public final class IOIOBABMMLLOuterClass {
         return gDNALHJEFPE_;
       }
       /**
-       * <code>bool GDNALHJEFPE = 3;</code>
+       * <code>bool GDNALHJEFPE = 2;</code>
        * @param value The gDNALHJEFPE to set.
        * @return This builder for chaining.
        */
@@ -753,7 +753,7 @@ public final class IOIOBABMMLLOuterClass {
         return this;
       }
       /**
-       * <code>bool GDNALHJEFPE = 3;</code>
+       * <code>bool GDNALHJEFPE = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearGDNALHJEFPE() {
@@ -765,7 +765,7 @@ public final class IOIOBABMMLLOuterClass {
 
       private int id_ ;
       /**
-       * <code>uint32 id = 4;</code>
+       * <code>uint32 id = 10;</code>
        * @return The id.
        */
       @java.lang.Override
@@ -773,7 +773,7 @@ public final class IOIOBABMMLLOuterClass {
         return id_;
       }
       /**
-       * <code>uint32 id = 4;</code>
+       * <code>uint32 id = 10;</code>
        * @param value The id to set.
        * @return This builder for chaining.
        */
@@ -784,7 +784,7 @@ public final class IOIOBABMMLLOuterClass {
         return this;
       }
       /**
-       * <code>uint32 id = 4;</code>
+       * <code>uint32 id = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearId() {
@@ -796,7 +796,7 @@ public final class IOIOBABMMLLOuterClass {
 
       private float hGHDGAIHIHJ_ ;
       /**
-       * <code>float HGHDGAIHIHJ = 5;</code>
+       * <code>float HGHDGAIHIHJ = 50000;</code>
        * @return The hGHDGAIHIHJ.
        */
       @java.lang.Override
@@ -804,7 +804,7 @@ public final class IOIOBABMMLLOuterClass {
         return hGHDGAIHIHJ_;
       }
       /**
-       * <code>float HGHDGAIHIHJ = 5;</code>
+       * <code>float HGHDGAIHIHJ = 50000;</code>
        * @param value The hGHDGAIHIHJ to set.
        * @return This builder for chaining.
        */
@@ -815,7 +815,7 @@ public final class IOIOBABMMLLOuterClass {
         return this;
       }
       /**
-       * <code>float HGHDGAIHIHJ = 5;</code>
+       * <code>float HGHDGAIHIHJ = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearHGHDGAIHIHJ() {
@@ -827,7 +827,7 @@ public final class IOIOBABMMLLOuterClass {
 
       private float mIFLBOMJLLO_ ;
       /**
-       * <code>float MIFLBOMJLLO = 6;</code>
+       * <code>float MIFLBOMJLLO = 50001;</code>
        * @return The mIFLBOMJLLO.
        */
       @java.lang.Override
@@ -835,7 +835,7 @@ public final class IOIOBABMMLLOuterClass {
         return mIFLBOMJLLO_;
       }
       /**
-       * <code>float MIFLBOMJLLO = 6;</code>
+       * <code>float MIFLBOMJLLO = 50001;</code>
        * @param value The mIFLBOMJLLO to set.
        * @return This builder for chaining.
        */
@@ -846,7 +846,7 @@ public final class IOIOBABMMLLOuterClass {
         return this;
       }
       /**
-       * <code>float MIFLBOMJLLO = 6;</code>
+       * <code>float MIFLBOMJLLO = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearMIFLBOMJLLO() {
@@ -889,7 +889,7 @@ public final class IOIOBABMMLLOuterClass {
 
       private float jADCKOMEOGC_ ;
       /**
-       * <code>float JADCKOMEOGC = 9;</code>
+       * <code>float JADCKOMEOGC = 50002;</code>
        * @return The jADCKOMEOGC.
        */
       @java.lang.Override
@@ -897,7 +897,7 @@ public final class IOIOBABMMLLOuterClass {
         return jADCKOMEOGC_;
       }
       /**
-       * <code>float JADCKOMEOGC = 9;</code>
+       * <code>float JADCKOMEOGC = 50002;</code>
        * @param value The jADCKOMEOGC to set.
        * @return This builder for chaining.
        */
@@ -908,7 +908,7 @@ public final class IOIOBABMMLLOuterClass {
         return this;
       }
       /**
-       * <code>float JADCKOMEOGC = 9;</code>
+       * <code>float JADCKOMEOGC = 50002;</code>
        * @return This builder for chaining.
        */
       public Builder clearJADCKOMEOGC() {
@@ -920,7 +920,7 @@ public final class IOIOBABMMLLOuterClass {
 
       private int iPHHMCDGGCP_ ;
       /**
-       * <code>uint32 IPHHMCDGGCP = 11;</code>
+       * <code>uint32 IPHHMCDGGCP = 7;</code>
        * @return The iPHHMCDGGCP.
        */
       @java.lang.Override
@@ -928,7 +928,7 @@ public final class IOIOBABMMLLOuterClass {
         return iPHHMCDGGCP_;
       }
       /**
-       * <code>uint32 IPHHMCDGGCP = 11;</code>
+       * <code>uint32 IPHHMCDGGCP = 7;</code>
        * @param value The iPHHMCDGGCP to set.
        * @return This builder for chaining.
        */
@@ -939,7 +939,7 @@ public final class IOIOBABMMLLOuterClass {
         return this;
       }
       /**
-       * <code>uint32 IPHHMCDGGCP = 11;</code>
+       * <code>uint32 IPHHMCDGGCP = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearIPHHMCDGGCP() {
@@ -1015,12 +1015,13 @@ public final class IOIOBABMMLLOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021IOIOBABMMLL.proto\"\236\001\n\013IOIOBABMMLL\022\013\n\003r" +
-      "ot\030\001 \001(\002\022\023\n\013GDNALHJEFPE\030\003 \001(\010\022\n\n\002id\030\004 \001(" +
-      "\r\022\023\n\013HGHDGAIHIHJ\030\005 \001(\002\022\023\n\013MIFLBOMJLLO\030\006 " +
-      "\001(\002\022\r\n\005value\030\010 \001(\r\022\023\n\013JADCKOMEOGC\030\t \001(\002\022" +
-      "\023\n\013IPHHMCDGGCP\030\013 \001(\rB2\n\031emu.grasscutter." +
-      "net.protoB\025IOIOBABMMLLOuterClassb\006proto3"
+      "\n\021IOIOBABMMLL.proto\"\244\001\n\013IOIOBABMMLL\022\013\n\003r" +
+      "ot\030\004 \001(\002\022\023\n\013GDNALHJEFPE\030\002 \001(\010\022\n\n\002id\030\n \001(" +
+      "\r\022\025\n\013HGHDGAIHIHJ\030\320\206\003 \001(\002\022\025\n\013MIFLBOMJLLO\030" +
+      "\321\206\003 \001(\002\022\r\n\005value\030\010 \001(\r\022\025\n\013JADCKOMEOGC\030\322\206" +
+      "\003 \001(\002\022\023\n\013IPHHMCDGGCP\030\007 \001(\rB2\n\031emu.grassc" +
+      "utter.net.protoB\025IOIOBABMMLLOuterClassb\006" +
+      "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

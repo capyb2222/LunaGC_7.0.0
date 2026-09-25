@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "ForgeFormulaDataNotifyOuterClass";
 
 message ForgeFormulaDataNotify {
-	uint32 forge_id = 2;
-	bool is_locked = 11;
+	uint32 forge_id = 9;
+	bool is_locked = 14;
 }

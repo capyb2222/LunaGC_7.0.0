@@ -19,19 +19,19 @@ public final class HomeTransferReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool _is_transfer_to_main_house_point = 3;</code>
+     * <code>bool _is_transfer_to_main_house_point = 50000;</code>
      * @return The isTransferToMainHousePoint.
      */
     boolean getIsTransferToMainHousePoint();
 
     /**
-     * <code>bool is_transfer_to_safe_point = 12;</code>
+     * <code>bool is_transfer_to_safe_point = 50001;</code>
      * @return The isTransferToSafePoint.
      */
     boolean getIsTransferToSafePoint();
 
     /**
-     * <code>uint32 guid = 14;</code>
+     * <code>uint32 guid = 1;</code>
      * @return The guid.
      */
     int getGuid();
@@ -81,19 +81,19 @@ public final class HomeTransferReqOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 8: {
+
+              guid_ = input.readUInt32();
+              break;
+            }
+            case 400000: {
 
               IsTransferToMainHousePoint_ = input.readBool();
               break;
             }
-            case 96: {
+            case 400008: {
 
               isTransferToSafePoint_ = input.readBool();
-              break;
-            }
-            case 112: {
-
-              guid_ = input.readUInt32();
               break;
             }
             default: {
@@ -128,10 +128,10 @@ public final class HomeTransferReqOuterClass {
               emu.grasscutter.net.proto.HomeTransferReqOuterClass.HomeTransferReq.class, emu.grasscutter.net.proto.HomeTransferReqOuterClass.HomeTransferReq.Builder.class);
     }
 
-    public static final int _IS_TRANSFER_TO_MAIN_HOUSE_POINT_FIELD_NUMBER = 3;
+    public static final int _IS_TRANSFER_TO_MAIN_HOUSE_POINT_FIELD_NUMBER = 50000;
     private boolean IsTransferToMainHousePoint_;
     /**
-     * <code>bool _is_transfer_to_main_house_point = 3;</code>
+     * <code>bool _is_transfer_to_main_house_point = 50000;</code>
      * @return The isTransferToMainHousePoint.
      */
     @java.lang.Override
@@ -139,10 +139,10 @@ public final class HomeTransferReqOuterClass {
       return IsTransferToMainHousePoint_;
     }
 
-    public static final int IS_TRANSFER_TO_SAFE_POINT_FIELD_NUMBER = 12;
+    public static final int IS_TRANSFER_TO_SAFE_POINT_FIELD_NUMBER = 50001;
     private boolean isTransferToSafePoint_;
     /**
-     * <code>bool is_transfer_to_safe_point = 12;</code>
+     * <code>bool is_transfer_to_safe_point = 50001;</code>
      * @return The isTransferToSafePoint.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class HomeTransferReqOuterClass {
       return isTransferToSafePoint_;
     }
 
-    public static final int GUID_FIELD_NUMBER = 14;
+    public static final int GUID_FIELD_NUMBER = 1;
     private int guid_;
     /**
-     * <code>uint32 guid = 14;</code>
+     * <code>uint32 guid = 1;</code>
      * @return The guid.
      */
     @java.lang.Override
@@ -175,14 +175,14 @@ public final class HomeTransferReqOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (guid_ != 0) {
+        output.writeUInt32(1, guid_);
+      }
       if (IsTransferToMainHousePoint_ != false) {
-        output.writeBool(3, IsTransferToMainHousePoint_);
+        output.writeBool(50000, IsTransferToMainHousePoint_);
       }
       if (isTransferToSafePoint_ != false) {
-        output.writeBool(12, isTransferToSafePoint_);
-      }
-      if (guid_ != 0) {
-        output.writeUInt32(14, guid_);
+        output.writeBool(50001, isTransferToSafePoint_);
       }
       unknownFields.writeTo(output);
     }
@@ -193,17 +193,17 @@ public final class HomeTransferReqOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (guid_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(1, guid_);
+      }
       if (IsTransferToMainHousePoint_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(3, IsTransferToMainHousePoint_);
+          .computeBoolSize(50000, IsTransferToMainHousePoint_);
       }
       if (isTransferToSafePoint_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, isTransferToSafePoint_);
-      }
-      if (guid_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, guid_);
+          .computeBoolSize(50001, isTransferToSafePoint_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -501,7 +501,7 @@ public final class HomeTransferReqOuterClass {
 
       private boolean IsTransferToMainHousePoint_ ;
       /**
-       * <code>bool _is_transfer_to_main_house_point = 3;</code>
+       * <code>bool _is_transfer_to_main_house_point = 50000;</code>
        * @return The isTransferToMainHousePoint.
        */
       @java.lang.Override
@@ -509,7 +509,7 @@ public final class HomeTransferReqOuterClass {
         return IsTransferToMainHousePoint_;
       }
       /**
-       * <code>bool _is_transfer_to_main_house_point = 3;</code>
+       * <code>bool _is_transfer_to_main_house_point = 50000;</code>
        * @param value The isTransferToMainHousePoint to set.
        * @return This builder for chaining.
        */
@@ -520,7 +520,7 @@ public final class HomeTransferReqOuterClass {
         return this;
       }
       /**
-       * <code>bool _is_transfer_to_main_house_point = 3;</code>
+       * <code>bool _is_transfer_to_main_house_point = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsTransferToMainHousePoint() {
@@ -532,7 +532,7 @@ public final class HomeTransferReqOuterClass {
 
       private boolean isTransferToSafePoint_ ;
       /**
-       * <code>bool is_transfer_to_safe_point = 12;</code>
+       * <code>bool is_transfer_to_safe_point = 50001;</code>
        * @return The isTransferToSafePoint.
        */
       @java.lang.Override
@@ -540,7 +540,7 @@ public final class HomeTransferReqOuterClass {
         return isTransferToSafePoint_;
       }
       /**
-       * <code>bool is_transfer_to_safe_point = 12;</code>
+       * <code>bool is_transfer_to_safe_point = 50001;</code>
        * @param value The isTransferToSafePoint to set.
        * @return This builder for chaining.
        */
@@ -551,7 +551,7 @@ public final class HomeTransferReqOuterClass {
         return this;
       }
       /**
-       * <code>bool is_transfer_to_safe_point = 12;</code>
+       * <code>bool is_transfer_to_safe_point = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsTransferToSafePoint() {
@@ -563,7 +563,7 @@ public final class HomeTransferReqOuterClass {
 
       private int guid_ ;
       /**
-       * <code>uint32 guid = 14;</code>
+       * <code>uint32 guid = 1;</code>
        * @return The guid.
        */
       @java.lang.Override
@@ -571,7 +571,7 @@ public final class HomeTransferReqOuterClass {
         return guid_;
       }
       /**
-       * <code>uint32 guid = 14;</code>
+       * <code>uint32 guid = 1;</code>
        * @param value The guid to set.
        * @return This builder for chaining.
        */
@@ -582,7 +582,7 @@ public final class HomeTransferReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 guid = 14;</code>
+       * <code>uint32 guid = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearGuid() {
@@ -658,11 +658,12 @@ public final class HomeTransferReqOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\025HomeTransferReq.proto\"l\n\017HomeTransferR" +
-      "eq\022(\n _is_transfer_to_main_house_point\030\003" +
-      " \001(\010\022!\n\031is_transfer_to_safe_point\030\014 \001(\010\022" +
-      "\014\n\004guid\030\016 \001(\rB6\n\031emu.grasscutter.net.pro" +
-      "toB\031HomeTransferReqOuterClassb\006proto3"
+      "\n\025HomeTransferReq.proto\"p\n\017HomeTransferR" +
+      "eq\022*\n _is_transfer_to_main_house_point\030\320" +
+      "\206\003 \001(\010\022#\n\031is_transfer_to_safe_point\030\321\206\003 " +
+      "\001(\010\022\014\n\004guid\030\001 \001(\rB6\n\031emu.grasscutter.net" +
+      ".protoB\031HomeTransferReqOuterClassb\006proto" +
+      "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

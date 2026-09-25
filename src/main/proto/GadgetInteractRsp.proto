@@ -7,10 +7,10 @@ import "InterOpType.proto";
 import "InteractType.proto";
 
 message GadgetInteractRsp {
-	InteractType interact_type = 4;
-	int32 retcode = 6;
-	uint32 hebnjoabfoo = 7;
-	uint32 gadget_id = 13;
-	uint32 gadget_entity_id = 14;
-	InterOpType op_type = 15;
+	InteractType interact_type = 11;
+	int32 retcode = 13;
+	uint32 hebnjoabfoo = 5;
+	uint32 gadget_id = 3;
+	uint32 gadget_entity_id = 15;
+	InterOpType op_type = 10;
 }

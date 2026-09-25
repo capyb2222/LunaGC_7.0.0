@@ -7,6 +7,6 @@ import "RogueDiaryDungeonRecord.proto";
 
 message RogueDiaryStageInfo {
 	uint32 stage_id = 7;
-	RogueDiaryDungeonRecord best_record = 10;
-	bool is_have_try = 15;
+	RogueDiaryDungeonRecord best_record = 4;
+	bool is_have_try = 11;
 }

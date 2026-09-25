@@ -7,9 +7,9 @@ import "ChannelerSlabChallenge.proto";
 import "ChannelerSlabOneoffDungeon.proto";
 
 message ChannelerSlabChallengeStage {
-	repeated ChannelerSlabChallenge challenge_list = 3;
-	uint32 stage_id = 5;
-	uint32 open_time = 6;
-	ChannelerSlabOneoffDungeon dungeon_info = 7;
-	bool is_open = 11;
+	repeated ChannelerSlabChallenge challenge_list = 2;
+	uint32 stage_id = 15;
+	uint32 open_time = 4;
+	ChannelerSlabOneoffDungeon dungeon_info = 14;
+	bool is_open = 12;
 }

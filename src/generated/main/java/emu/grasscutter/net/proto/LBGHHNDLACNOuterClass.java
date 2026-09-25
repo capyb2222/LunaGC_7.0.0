@@ -19,13 +19,13 @@ public final class LBGHHNDLACNOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 max_score = 12;</code>
+     * <code>uint32 max_score = 10;</code>
      * @return The maxScore.
      */
     int getMaxScore();
 
     /**
-     * <code>uint32 level_id = 14;</code>
+     * <code>uint32 level_id = 3;</code>
      * @return The levelId.
      */
     int getLevelId();
@@ -75,14 +75,14 @@ public final class LBGHHNDLACNOuterClass {
             case 0:
               done = true;
               break;
-            case 96: {
-
-              maxScore_ = input.readUInt32();
-              break;
-            }
-            case 112: {
+            case 24: {
 
               levelId_ = input.readUInt32();
+              break;
+            }
+            case 80: {
+
+              maxScore_ = input.readUInt32();
               break;
             }
             default: {
@@ -117,10 +117,10 @@ public final class LBGHHNDLACNOuterClass {
               emu.grasscutter.net.proto.LBGHHNDLACNOuterClass.LBGHHNDLACN.class, emu.grasscutter.net.proto.LBGHHNDLACNOuterClass.LBGHHNDLACN.Builder.class);
     }
 
-    public static final int MAX_SCORE_FIELD_NUMBER = 12;
+    public static final int MAX_SCORE_FIELD_NUMBER = 10;
     private int maxScore_;
     /**
-     * <code>uint32 max_score = 12;</code>
+     * <code>uint32 max_score = 10;</code>
      * @return The maxScore.
      */
     @java.lang.Override
@@ -128,10 +128,10 @@ public final class LBGHHNDLACNOuterClass {
       return maxScore_;
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 14;
+    public static final int LEVEL_ID_FIELD_NUMBER = 3;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 14;</code>
+     * <code>uint32 level_id = 3;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -153,11 +153,11 @@ public final class LBGHHNDLACNOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (maxScore_ != 0) {
-        output.writeUInt32(12, maxScore_);
-      }
       if (levelId_ != 0) {
-        output.writeUInt32(14, levelId_);
+        output.writeUInt32(3, levelId_);
+      }
+      if (maxScore_ != 0) {
+        output.writeUInt32(10, maxScore_);
       }
       unknownFields.writeTo(output);
     }
@@ -168,13 +168,13 @@ public final class LBGHHNDLACNOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (maxScore_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, maxScore_);
-      }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, levelId_);
+          .computeUInt32Size(3, levelId_);
+      }
+      if (maxScore_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(10, maxScore_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -460,7 +460,7 @@ public final class LBGHHNDLACNOuterClass {
 
       private int maxScore_ ;
       /**
-       * <code>uint32 max_score = 12;</code>
+       * <code>uint32 max_score = 10;</code>
        * @return The maxScore.
        */
       @java.lang.Override
@@ -468,7 +468,7 @@ public final class LBGHHNDLACNOuterClass {
         return maxScore_;
       }
       /**
-       * <code>uint32 max_score = 12;</code>
+       * <code>uint32 max_score = 10;</code>
        * @param value The maxScore to set.
        * @return This builder for chaining.
        */
@@ -479,7 +479,7 @@ public final class LBGHHNDLACNOuterClass {
         return this;
       }
       /**
-       * <code>uint32 max_score = 12;</code>
+       * <code>uint32 max_score = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearMaxScore() {
@@ -491,7 +491,7 @@ public final class LBGHHNDLACNOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 14;</code>
+       * <code>uint32 level_id = 3;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -499,7 +499,7 @@ public final class LBGHHNDLACNOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 14;</code>
+       * <code>uint32 level_id = 3;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -510,7 +510,7 @@ public final class LBGHHNDLACNOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 14;</code>
+       * <code>uint32 level_id = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -587,7 +587,7 @@ public final class LBGHHNDLACNOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021LBGHHNDLACN.proto\"2\n\013LBGHHNDLACN\022\021\n\tma" +
-      "x_score\030\014 \001(\r\022\020\n\010level_id\030\016 \001(\rB2\n\031emu.g" +
+      "x_score\030\n \001(\r\022\020\n\010level_id\030\003 \001(\rB2\n\031emu.g" +
       "rasscutter.net.protoB\025LBGHHNDLACNOuterCl" +
       "assb\006proto3"
     };

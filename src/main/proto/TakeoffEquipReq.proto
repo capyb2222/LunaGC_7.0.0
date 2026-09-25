@@ -5,5 +5,5 @@ option java_outer_classname = "TakeoffEquipReqOuterClass";
 
 message TakeoffEquipReq {
 	uint32 slot = 9;
-	uint64 avatar_guid = 14;
+	uint64 avatar_guid = 3;
 }

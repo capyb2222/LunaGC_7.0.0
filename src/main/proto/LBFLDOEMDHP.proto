@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "LBFLDOEMDHPOuterClass";
 
 message LBFLDOEMDHP {
-	uint32 cost_time = 4;
-	bool is_finished = 12;
+	uint32 cost_time = 2;
+	bool is_finished = 10;
 	uint32 level_id = 14;
 }

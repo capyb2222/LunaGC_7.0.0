@@ -6,5 +6,5 @@ option java_outer_classname = "ScenePlayerInfoNotifyOuterClass";
 import "ScenePlayerInfo.proto";
 
 message ScenePlayerInfoNotify {
-	repeated ScenePlayerInfo player_info_list = 8;
+	repeated ScenePlayerInfo player_info_list = 12;
 }

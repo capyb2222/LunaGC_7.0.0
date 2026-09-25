@@ -6,11 +6,11 @@ option java_outer_classname = "CIHENMDCMGJOuterClass";
 import "NHLNPMELFHM.proto";
 
 message CIHENMDCMGJ {
-	int32 local_id = 1;
-	uint32 instanced_ability_id = 5;
-	uint32 BNBBLJCDMPJ = 6;
-	NHLNPMELFHM DDEOCNGLKPN = 12;
+	int32 local_id = 2;
+	uint32 instanced_ability_id = 10;
+	uint32 BNBBLJCDMPJ = 12;
+	NHLNPMELFHM DDEOCNGLKPN = 9;
 	uint32 DLLKGHINFBJ = 13;
 	uint32 MBHKNKHKKCK = 14;
-	uint32 EKDNPKHMJIE = 15;
+	uint32 EKDNPKHMJIE = 4;
 }

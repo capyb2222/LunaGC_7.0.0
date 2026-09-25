@@ -6,8 +6,8 @@ option java_outer_classname = "QuestCreateEntityReqOuterClass";
 import "CreateEntityInfo.proto";
 
 message QuestCreateEntityReq {
-	uint32 quest_id = 1;
-	CreateEntityInfo entity = 7;
-	bool is_rewind = 12;
-	uint32 parent_quest_id = 15;
+	uint32 quest_id = 12;
+	CreateEntityInfo entity = 15;
+	bool is_rewind = 13;
+	uint32 parent_quest_id = 9;
 }

@@ -19,146 +19,146 @@ public final class _UgcShortVideoBriefInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 avatar_id_list = 1;</code>
+     * <code>repeated uint32 avatar_id_list = 4;</code>
      * @return A list containing the avatarIdList.
      */
     java.util.List<java.lang.Integer> getAvatarIdListList();
     /**
-     * <code>repeated uint32 avatar_id_list = 1;</code>
+     * <code>repeated uint32 avatar_id_list = 4;</code>
      * @return The count of avatarIdList.
      */
     int getAvatarIdListCount();
     /**
-     * <code>repeated uint32 avatar_id_list = 1;</code>
+     * <code>repeated uint32 avatar_id_list = 4;</code>
      * @param index The index of the element to return.
      * @return The avatarIdList at the given index.
      */
     int getAvatarIdList(int index);
 
     /**
-     * <code>repeated uint32 LKCCHMHJNEF = 2;</code>
+     * <code>repeated uint32 LKCCHMHJNEF = 50000;</code>
      * @return A list containing the lKCCHMHJNEF.
      */
     java.util.List<java.lang.Integer> getLKCCHMHJNEFList();
     /**
-     * <code>repeated uint32 LKCCHMHJNEF = 2;</code>
+     * <code>repeated uint32 LKCCHMHJNEF = 50000;</code>
      * @return The count of lKCCHMHJNEF.
      */
     int getLKCCHMHJNEFCount();
     /**
-     * <code>repeated uint32 LKCCHMHJNEF = 2;</code>
+     * <code>repeated uint32 LKCCHMHJNEF = 50000;</code>
      * @param index The index of the element to return.
      * @return The lKCCHMHJNEF at the given index.
      */
     int getLKCCHMHJNEF(int index);
 
     /**
-     * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 3;</code>
+     * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 12;</code>
      */
     java.util.List<emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfo> 
         getAvatarInfoListList();
     /**
-     * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 3;</code>
+     * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 12;</code>
      */
     emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfo getAvatarInfoList(int index);
     /**
-     * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 3;</code>
+     * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 12;</code>
      */
     int getAvatarInfoListCount();
     /**
-     * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 3;</code>
+     * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 12;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfoOrBuilder> 
         getAvatarInfoListOrBuilderList();
     /**
-     * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 3;</code>
+     * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 12;</code>
      */
     emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfoOrBuilder getAvatarInfoListOrBuilder(
         int index);
 
     /**
-     * <code>bool FAAOOIKCIJO = 4;</code>
+     * <code>bool FAAOOIKCIJO = 15;</code>
      * @return The fAAOOIKCIJO.
      */
     boolean getFAAOOIKCIJO();
 
     /**
-     * <code>repeated uint32 KOKGKGKFDEI = 5;</code>
+     * <code>repeated uint32 KOKGKGKFDEI = 50001;</code>
      * @return A list containing the kOKGKGKFDEI.
      */
     java.util.List<java.lang.Integer> getKOKGKGKFDEIList();
     /**
-     * <code>repeated uint32 KOKGKGKFDEI = 5;</code>
+     * <code>repeated uint32 KOKGKGKFDEI = 50001;</code>
      * @return The count of kOKGKGKFDEI.
      */
     int getKOKGKGKFDEICount();
     /**
-     * <code>repeated uint32 KOKGKGKFDEI = 5;</code>
+     * <code>repeated uint32 KOKGKGKFDEI = 50001;</code>
      * @param index The index of the element to return.
      * @return The kOKGKGKFDEI at the given index.
      */
     int getKOKGKGKFDEI(int index);
 
     /**
-     * <code>repeated uint32 tag_list = 7;</code>
+     * <code>repeated uint32 tag_list = 2;</code>
      * @return A list containing the tagList.
      */
     java.util.List<java.lang.Integer> getTagListList();
     /**
-     * <code>repeated uint32 tag_list = 7;</code>
+     * <code>repeated uint32 tag_list = 2;</code>
      * @return The count of tagList.
      */
     int getTagListCount();
     /**
-     * <code>repeated uint32 tag_list = 7;</code>
+     * <code>repeated uint32 tag_list = 2;</code>
      * @param index The index of the element to return.
      * @return The tagList at the given index.
      */
     int getTagList(int index);
 
     /**
-     * <code>uint32 AAJNACIIKAD = 9;</code>
+     * <code>uint32 AAJNACIIKAD = 50002;</code>
      * @return The aAJNACIIKAD.
      */
     int getAAJNACIIKAD();
 
     /**
-     * <code>uint32 level_id = 10;</code>
+     * <code>uint32 level_id = 6;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>uint32 IILNHLANPGC = 11;</code>
+     * <code>uint32 IILNHLANPGC = 50003;</code>
      * @return The iILNHLANPGC.
      */
     int getIILNHLANPGC();
 
     /**
-     * <code>uint32 GLEEDODENBP = 12;</code>
+     * <code>uint32 GLEEDODENBP = 50004;</code>
      * @return The gLEEDODENBP.
      */
     int getGLEEDODENBP();
 
     /**
-     * <code>string _level_name = 13;</code>
+     * <code>string _level_name = 14;</code>
      * @return The levelName.
      */
     java.lang.String getLevelName();
     /**
-     * <code>string _level_name = 13;</code>
+     * <code>string _level_name = 14;</code>
      * @return The bytes for levelName.
      */
     com.google.protobuf.ByteString
         getLevelNameBytes();
 
     /**
-     * <code>string IONHLOONKFG = 15;</code>
+     * <code>string IONHLOONKFG = 5;</code>
      * @return The iONHLOONKFG.
      */
     java.lang.String getIONHLOONKFG();
     /**
-     * <code>string IONHLOONKFG = 15;</code>
+     * <code>string IONHLOONKFG = 5;</code>
      * @return The bytes for iONHLOONKFG.
      */
     com.google.protobuf.ByteString
@@ -217,84 +217,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                avatarIdList_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              avatarIdList_.addInt(input.readUInt32());
-              break;
-            }
-            case 10: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                avatarIdList_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                avatarIdList_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
-              break;
-            }
             case 16: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                lKCCHMHJNEF_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
-              }
-              lKCCHMHJNEF_.addInt(input.readUInt32());
-              break;
-            }
-            case 18: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
-                lKCCHMHJNEF_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                lKCCHMHJNEF_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
-              break;
-            }
-            case 26: {
-              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
-                avatarInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfo>();
-                mutable_bitField0_ |= 0x00000004;
-              }
-              avatarInfoList_.add(
-                  input.readMessage(emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfo.parser(), extensionRegistry));
-              break;
-            }
-            case 32: {
-
-              fAAOOIKCIJO_ = input.readBool();
-              break;
-            }
-            case 40: {
-              if (!((mutable_bitField0_ & 0x00000008) != 0)) {
-                kOKGKGKFDEI_ = newIntList();
-                mutable_bitField0_ |= 0x00000008;
-              }
-              kOKGKGKFDEI_.addInt(input.readUInt32());
-              break;
-            }
-            case 42: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000008) != 0) && input.getBytesUntilLimit() > 0) {
-                kOKGKGKFDEI_ = newIntList();
-                mutable_bitField0_ |= 0x00000008;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                kOKGKGKFDEI_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
-              break;
-            }
-            case 56: {
               if (!((mutable_bitField0_ & 0x00000010) != 0)) {
                 tagList_ = newIntList();
                 mutable_bitField0_ |= 0x00000010;
@@ -302,7 +225,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
               tagList_.addInt(input.readUInt32());
               break;
             }
-            case 58: {
+            case 18: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000010) != 0) && input.getBytesUntilLimit() > 0) {
@@ -315,36 +238,113 @@ public final class _UgcShortVideoBriefInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 72: {
-
-              aAJNACIIKAD_ = input.readUInt32();
+            case 32: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                avatarIdList_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              avatarIdList_.addInt(input.readUInt32());
               break;
             }
-            case 80: {
+            case 34: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
+                avatarIdList_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                avatarIdList_.addInt(input.readUInt32());
+              }
+              input.popLimit(limit);
+              break;
+            }
+            case 42: {
+              java.lang.String s = input.readStringRequireUtf8();
+
+              iONHLOONKFG_ = s;
+              break;
+            }
+            case 48: {
 
               levelId_ = input.readUInt32();
               break;
             }
-            case 88: {
-
-              iILNHLANPGC_ = input.readUInt32();
+            case 98: {
+              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
+                avatarInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfo>();
+                mutable_bitField0_ |= 0x00000004;
+              }
+              avatarInfoList_.add(
+                  input.readMessage(emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfo.parser(), extensionRegistry));
               break;
             }
-            case 96: {
-
-              gLEEDODENBP_ = input.readUInt32();
-              break;
-            }
-            case 106: {
+            case 114: {
               java.lang.String s = input.readStringRequireUtf8();
 
               LevelName_ = s;
               break;
             }
-            case 122: {
-              java.lang.String s = input.readStringRequireUtf8();
+            case 120: {
 
-              iONHLOONKFG_ = s;
+              fAAOOIKCIJO_ = input.readBool();
+              break;
+            }
+            case 400000: {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                lKCCHMHJNEF_ = newIntList();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              lKCCHMHJNEF_.addInt(input.readUInt32());
+              break;
+            }
+            case 400002: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
+                lKCCHMHJNEF_ = newIntList();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                lKCCHMHJNEF_.addInt(input.readUInt32());
+              }
+              input.popLimit(limit);
+              break;
+            }
+            case 400008: {
+              if (!((mutable_bitField0_ & 0x00000008) != 0)) {
+                kOKGKGKFDEI_ = newIntList();
+                mutable_bitField0_ |= 0x00000008;
+              }
+              kOKGKGKFDEI_.addInt(input.readUInt32());
+              break;
+            }
+            case 400010: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000008) != 0) && input.getBytesUntilLimit() > 0) {
+                kOKGKGKFDEI_ = newIntList();
+                mutable_bitField0_ |= 0x00000008;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                kOKGKGKFDEI_.addInt(input.readUInt32());
+              }
+              input.popLimit(limit);
+              break;
+            }
+            case 400016: {
+
+              aAJNACIIKAD_ = input.readUInt32();
+              break;
+            }
+            case 400024: {
+
+              iILNHLANPGC_ = input.readUInt32();
+              break;
+            }
+            case 400032: {
+
+              gLEEDODENBP_ = input.readUInt32();
               break;
             }
             default: {
@@ -362,20 +362,20 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
+        if (((mutable_bitField0_ & 0x00000010) != 0)) {
+          tagList_.makeImmutable(); // C
+        }
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
           avatarIdList_.makeImmutable(); // C
-        }
-        if (((mutable_bitField0_ & 0x00000002) != 0)) {
-          lKCCHMHJNEF_.makeImmutable(); // C
         }
         if (((mutable_bitField0_ & 0x00000004) != 0)) {
           avatarInfoList_ = java.util.Collections.unmodifiableList(avatarInfoList_);
         }
+        if (((mutable_bitField0_ & 0x00000002) != 0)) {
+          lKCCHMHJNEF_.makeImmutable(); // C
+        }
         if (((mutable_bitField0_ & 0x00000008) != 0)) {
           kOKGKGKFDEI_.makeImmutable(); // C
-        }
-        if (((mutable_bitField0_ & 0x00000010) != 0)) {
-          tagList_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -394,10 +394,10 @@ public final class _UgcShortVideoBriefInfoOuterClass {
               emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfo.class, emu.grasscutter.net.proto._UgcShortVideoBriefInfoOuterClass._UgcShortVideoBriefInfo.Builder.class);
     }
 
-    public static final int AVATAR_ID_LIST_FIELD_NUMBER = 1;
+    public static final int AVATAR_ID_LIST_FIELD_NUMBER = 4;
     private com.google.protobuf.Internal.IntList avatarIdList_;
     /**
-     * <code>repeated uint32 avatar_id_list = 1;</code>
+     * <code>repeated uint32 avatar_id_list = 4;</code>
      * @return A list containing the avatarIdList.
      */
     @java.lang.Override
@@ -406,14 +406,14 @@ public final class _UgcShortVideoBriefInfoOuterClass {
       return avatarIdList_;
     }
     /**
-     * <code>repeated uint32 avatar_id_list = 1;</code>
+     * <code>repeated uint32 avatar_id_list = 4;</code>
      * @return The count of avatarIdList.
      */
     public int getAvatarIdListCount() {
       return avatarIdList_.size();
     }
     /**
-     * <code>repeated uint32 avatar_id_list = 1;</code>
+     * <code>repeated uint32 avatar_id_list = 4;</code>
      * @param index The index of the element to return.
      * @return The avatarIdList at the given index.
      */
@@ -422,10 +422,10 @@ public final class _UgcShortVideoBriefInfoOuterClass {
     }
     private int avatarIdListMemoizedSerializedSize = -1;
 
-    public static final int LKCCHMHJNEF_FIELD_NUMBER = 2;
+    public static final int LKCCHMHJNEF_FIELD_NUMBER = 50000;
     private com.google.protobuf.Internal.IntList lKCCHMHJNEF_;
     /**
-     * <code>repeated uint32 LKCCHMHJNEF = 2;</code>
+     * <code>repeated uint32 LKCCHMHJNEF = 50000;</code>
      * @return A list containing the lKCCHMHJNEF.
      */
     @java.lang.Override
@@ -434,14 +434,14 @@ public final class _UgcShortVideoBriefInfoOuterClass {
       return lKCCHMHJNEF_;
     }
     /**
-     * <code>repeated uint32 LKCCHMHJNEF = 2;</code>
+     * <code>repeated uint32 LKCCHMHJNEF = 50000;</code>
      * @return The count of lKCCHMHJNEF.
      */
     public int getLKCCHMHJNEFCount() {
       return lKCCHMHJNEF_.size();
     }
     /**
-     * <code>repeated uint32 LKCCHMHJNEF = 2;</code>
+     * <code>repeated uint32 LKCCHMHJNEF = 50000;</code>
      * @param index The index of the element to return.
      * @return The lKCCHMHJNEF at the given index.
      */
@@ -450,17 +450,17 @@ public final class _UgcShortVideoBriefInfoOuterClass {
     }
     private int lKCCHMHJNEFMemoizedSerializedSize = -1;
 
-    public static final int AVATAR_INFO_LIST_FIELD_NUMBER = 3;
+    public static final int AVATAR_INFO_LIST_FIELD_NUMBER = 12;
     private java.util.List<emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfo> avatarInfoList_;
     /**
-     * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 3;</code>
+     * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 12;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfo> getAvatarInfoListList() {
       return avatarInfoList_;
     }
     /**
-     * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 3;</code>
+     * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 12;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfoOrBuilder> 
@@ -468,21 +468,21 @@ public final class _UgcShortVideoBriefInfoOuterClass {
       return avatarInfoList_;
     }
     /**
-     * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 3;</code>
+     * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 12;</code>
      */
     @java.lang.Override
     public int getAvatarInfoListCount() {
       return avatarInfoList_.size();
     }
     /**
-     * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 3;</code>
+     * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 12;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfo getAvatarInfoList(int index) {
       return avatarInfoList_.get(index);
     }
     /**
-     * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 3;</code>
+     * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 12;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfoOrBuilder getAvatarInfoListOrBuilder(
@@ -490,10 +490,10 @@ public final class _UgcShortVideoBriefInfoOuterClass {
       return avatarInfoList_.get(index);
     }
 
-    public static final int FAAOOIKCIJO_FIELD_NUMBER = 4;
+    public static final int FAAOOIKCIJO_FIELD_NUMBER = 15;
     private boolean fAAOOIKCIJO_;
     /**
-     * <code>bool FAAOOIKCIJO = 4;</code>
+     * <code>bool FAAOOIKCIJO = 15;</code>
      * @return The fAAOOIKCIJO.
      */
     @java.lang.Override
@@ -501,10 +501,10 @@ public final class _UgcShortVideoBriefInfoOuterClass {
       return fAAOOIKCIJO_;
     }
 
-    public static final int KOKGKGKFDEI_FIELD_NUMBER = 5;
+    public static final int KOKGKGKFDEI_FIELD_NUMBER = 50001;
     private com.google.protobuf.Internal.IntList kOKGKGKFDEI_;
     /**
-     * <code>repeated uint32 KOKGKGKFDEI = 5;</code>
+     * <code>repeated uint32 KOKGKGKFDEI = 50001;</code>
      * @return A list containing the kOKGKGKFDEI.
      */
     @java.lang.Override
@@ -513,14 +513,14 @@ public final class _UgcShortVideoBriefInfoOuterClass {
       return kOKGKGKFDEI_;
     }
     /**
-     * <code>repeated uint32 KOKGKGKFDEI = 5;</code>
+     * <code>repeated uint32 KOKGKGKFDEI = 50001;</code>
      * @return The count of kOKGKGKFDEI.
      */
     public int getKOKGKGKFDEICount() {
       return kOKGKGKFDEI_.size();
     }
     /**
-     * <code>repeated uint32 KOKGKGKFDEI = 5;</code>
+     * <code>repeated uint32 KOKGKGKFDEI = 50001;</code>
      * @param index The index of the element to return.
      * @return The kOKGKGKFDEI at the given index.
      */
@@ -529,10 +529,10 @@ public final class _UgcShortVideoBriefInfoOuterClass {
     }
     private int kOKGKGKFDEIMemoizedSerializedSize = -1;
 
-    public static final int TAG_LIST_FIELD_NUMBER = 7;
+    public static final int TAG_LIST_FIELD_NUMBER = 2;
     private com.google.protobuf.Internal.IntList tagList_;
     /**
-     * <code>repeated uint32 tag_list = 7;</code>
+     * <code>repeated uint32 tag_list = 2;</code>
      * @return A list containing the tagList.
      */
     @java.lang.Override
@@ -541,14 +541,14 @@ public final class _UgcShortVideoBriefInfoOuterClass {
       return tagList_;
     }
     /**
-     * <code>repeated uint32 tag_list = 7;</code>
+     * <code>repeated uint32 tag_list = 2;</code>
      * @return The count of tagList.
      */
     public int getTagListCount() {
       return tagList_.size();
     }
     /**
-     * <code>repeated uint32 tag_list = 7;</code>
+     * <code>repeated uint32 tag_list = 2;</code>
      * @param index The index of the element to return.
      * @return The tagList at the given index.
      */
@@ -557,10 +557,10 @@ public final class _UgcShortVideoBriefInfoOuterClass {
     }
     private int tagListMemoizedSerializedSize = -1;
 
-    public static final int AAJNACIIKAD_FIELD_NUMBER = 9;
+    public static final int AAJNACIIKAD_FIELD_NUMBER = 50002;
     private int aAJNACIIKAD_;
     /**
-     * <code>uint32 AAJNACIIKAD = 9;</code>
+     * <code>uint32 AAJNACIIKAD = 50002;</code>
      * @return The aAJNACIIKAD.
      */
     @java.lang.Override
@@ -568,10 +568,10 @@ public final class _UgcShortVideoBriefInfoOuterClass {
       return aAJNACIIKAD_;
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 10;
+    public static final int LEVEL_ID_FIELD_NUMBER = 6;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 10;</code>
+     * <code>uint32 level_id = 6;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -579,10 +579,10 @@ public final class _UgcShortVideoBriefInfoOuterClass {
       return levelId_;
     }
 
-    public static final int IILNHLANPGC_FIELD_NUMBER = 11;
+    public static final int IILNHLANPGC_FIELD_NUMBER = 50003;
     private int iILNHLANPGC_;
     /**
-     * <code>uint32 IILNHLANPGC = 11;</code>
+     * <code>uint32 IILNHLANPGC = 50003;</code>
      * @return The iILNHLANPGC.
      */
     @java.lang.Override
@@ -590,10 +590,10 @@ public final class _UgcShortVideoBriefInfoOuterClass {
       return iILNHLANPGC_;
     }
 
-    public static final int GLEEDODENBP_FIELD_NUMBER = 12;
+    public static final int GLEEDODENBP_FIELD_NUMBER = 50004;
     private int gLEEDODENBP_;
     /**
-     * <code>uint32 GLEEDODENBP = 12;</code>
+     * <code>uint32 GLEEDODENBP = 50004;</code>
      * @return The gLEEDODENBP.
      */
     @java.lang.Override
@@ -601,10 +601,10 @@ public final class _UgcShortVideoBriefInfoOuterClass {
       return gLEEDODENBP_;
     }
 
-    public static final int _LEVEL_NAME_FIELD_NUMBER = 13;
+    public static final int _LEVEL_NAME_FIELD_NUMBER = 14;
     private volatile java.lang.Object LevelName_;
     /**
-     * <code>string _level_name = 13;</code>
+     * <code>string _level_name = 14;</code>
      * @return The levelName.
      */
     @java.lang.Override
@@ -621,7 +621,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
       }
     }
     /**
-     * <code>string _level_name = 13;</code>
+     * <code>string _level_name = 14;</code>
      * @return The bytes for levelName.
      */
     @java.lang.Override
@@ -639,10 +639,10 @@ public final class _UgcShortVideoBriefInfoOuterClass {
       }
     }
 
-    public static final int IONHLOONKFG_FIELD_NUMBER = 15;
+    public static final int IONHLOONKFG_FIELD_NUMBER = 5;
     private volatile java.lang.Object iONHLOONKFG_;
     /**
-     * <code>string IONHLOONKFG = 15;</code>
+     * <code>string IONHLOONKFG = 5;</code>
      * @return The iONHLOONKFG.
      */
     @java.lang.Override
@@ -659,7 +659,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
       }
     }
     /**
-     * <code>string IONHLOONKFG = 15;</code>
+     * <code>string IONHLOONKFG = 5;</code>
      * @return The bytes for iONHLOONKFG.
      */
     @java.lang.Override
@@ -692,57 +692,57 @@ public final class _UgcShortVideoBriefInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (getAvatarIdListList().size() > 0) {
-        output.writeUInt32NoTag(10);
-        output.writeUInt32NoTag(avatarIdListMemoizedSerializedSize);
-      }
-      for (int i = 0; i < avatarIdList_.size(); i++) {
-        output.writeUInt32NoTag(avatarIdList_.getInt(i));
-      }
-      if (getLKCCHMHJNEFList().size() > 0) {
-        output.writeUInt32NoTag(18);
-        output.writeUInt32NoTag(lKCCHMHJNEFMemoizedSerializedSize);
-      }
-      for (int i = 0; i < lKCCHMHJNEF_.size(); i++) {
-        output.writeUInt32NoTag(lKCCHMHJNEF_.getInt(i));
-      }
-      for (int i = 0; i < avatarInfoList_.size(); i++) {
-        output.writeMessage(3, avatarInfoList_.get(i));
-      }
-      if (fAAOOIKCIJO_ != false) {
-        output.writeBool(4, fAAOOIKCIJO_);
-      }
-      if (getKOKGKGKFDEIList().size() > 0) {
-        output.writeUInt32NoTag(42);
-        output.writeUInt32NoTag(kOKGKGKFDEIMemoizedSerializedSize);
-      }
-      for (int i = 0; i < kOKGKGKFDEI_.size(); i++) {
-        output.writeUInt32NoTag(kOKGKGKFDEI_.getInt(i));
-      }
       if (getTagListList().size() > 0) {
-        output.writeUInt32NoTag(58);
+        output.writeUInt32NoTag(18);
         output.writeUInt32NoTag(tagListMemoizedSerializedSize);
       }
       for (int i = 0; i < tagList_.size(); i++) {
         output.writeUInt32NoTag(tagList_.getInt(i));
       }
-      if (aAJNACIIKAD_ != 0) {
-        output.writeUInt32(9, aAJNACIIKAD_);
+      if (getAvatarIdListList().size() > 0) {
+        output.writeUInt32NoTag(34);
+        output.writeUInt32NoTag(avatarIdListMemoizedSerializedSize);
       }
-      if (levelId_ != 0) {
-        output.writeUInt32(10, levelId_);
-      }
-      if (iILNHLANPGC_ != 0) {
-        output.writeUInt32(11, iILNHLANPGC_);
-      }
-      if (gLEEDODENBP_ != 0) {
-        output.writeUInt32(12, gLEEDODENBP_);
-      }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(LevelName_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 13, LevelName_);
+      for (int i = 0; i < avatarIdList_.size(); i++) {
+        output.writeUInt32NoTag(avatarIdList_.getInt(i));
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(iONHLOONKFG_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 15, iONHLOONKFG_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 5, iONHLOONKFG_);
+      }
+      if (levelId_ != 0) {
+        output.writeUInt32(6, levelId_);
+      }
+      for (int i = 0; i < avatarInfoList_.size(); i++) {
+        output.writeMessage(12, avatarInfoList_.get(i));
+      }
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(LevelName_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 14, LevelName_);
+      }
+      if (fAAOOIKCIJO_ != false) {
+        output.writeBool(15, fAAOOIKCIJO_);
+      }
+      if (getLKCCHMHJNEFList().size() > 0) {
+        output.writeUInt32NoTag(400002);
+        output.writeUInt32NoTag(lKCCHMHJNEFMemoizedSerializedSize);
+      }
+      for (int i = 0; i < lKCCHMHJNEF_.size(); i++) {
+        output.writeUInt32NoTag(lKCCHMHJNEF_.getInt(i));
+      }
+      if (getKOKGKGKFDEIList().size() > 0) {
+        output.writeUInt32NoTag(400010);
+        output.writeUInt32NoTag(kOKGKGKFDEIMemoizedSerializedSize);
+      }
+      for (int i = 0; i < kOKGKGKFDEI_.size(); i++) {
+        output.writeUInt32NoTag(kOKGKGKFDEI_.getInt(i));
+      }
+      if (aAJNACIIKAD_ != 0) {
+        output.writeUInt32(50002, aAJNACIIKAD_);
+      }
+      if (iILNHLANPGC_ != 0) {
+        output.writeUInt32(50003, iILNHLANPGC_);
+      }
+      if (gLEEDODENBP_ != 0) {
+        output.writeUInt32(50004, gLEEDODENBP_);
       }
       unknownFields.writeTo(output);
     }
@@ -753,56 +753,6 @@ public final class _UgcShortVideoBriefInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      {
-        int dataSize = 0;
-        for (int i = 0; i < avatarIdList_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(avatarIdList_.getInt(i));
-        }
-        size += dataSize;
-        if (!getAvatarIdListList().isEmpty()) {
-          size += 1;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        avatarIdListMemoizedSerializedSize = dataSize;
-      }
-      {
-        int dataSize = 0;
-        for (int i = 0; i < lKCCHMHJNEF_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(lKCCHMHJNEF_.getInt(i));
-        }
-        size += dataSize;
-        if (!getLKCCHMHJNEFList().isEmpty()) {
-          size += 1;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        lKCCHMHJNEFMemoizedSerializedSize = dataSize;
-      }
-      for (int i = 0; i < avatarInfoList_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, avatarInfoList_.get(i));
-      }
-      if (fAAOOIKCIJO_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(4, fAAOOIKCIJO_);
-      }
-      {
-        int dataSize = 0;
-        for (int i = 0; i < kOKGKGKFDEI_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(kOKGKGKFDEI_.getInt(i));
-        }
-        size += dataSize;
-        if (!getKOKGKGKFDEIList().isEmpty()) {
-          size += 1;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        kOKGKGKFDEIMemoizedSerializedSize = dataSize;
-      }
       {
         int dataSize = 0;
         for (int i = 0; i < tagList_.size(); i++) {
@@ -817,27 +767,77 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         }
         tagListMemoizedSerializedSize = dataSize;
       }
-      if (aAJNACIIKAD_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, aAJNACIIKAD_);
+      {
+        int dataSize = 0;
+        for (int i = 0; i < avatarIdList_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeUInt32SizeNoTag(avatarIdList_.getInt(i));
+        }
+        size += dataSize;
+        if (!getAvatarIdListList().isEmpty()) {
+          size += 1;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        avatarIdListMemoizedSerializedSize = dataSize;
+      }
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(iONHLOONKFG_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(5, iONHLOONKFG_);
       }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, levelId_);
+          .computeUInt32Size(6, levelId_);
+      }
+      for (int i = 0; i < avatarInfoList_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(12, avatarInfoList_.get(i));
+      }
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(LevelName_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(14, LevelName_);
+      }
+      if (fAAOOIKCIJO_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(15, fAAOOIKCIJO_);
+      }
+      {
+        int dataSize = 0;
+        for (int i = 0; i < lKCCHMHJNEF_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeUInt32SizeNoTag(lKCCHMHJNEF_.getInt(i));
+        }
+        size += dataSize;
+        if (!getLKCCHMHJNEFList().isEmpty()) {
+          size += 3;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        lKCCHMHJNEFMemoizedSerializedSize = dataSize;
+      }
+      {
+        int dataSize = 0;
+        for (int i = 0; i < kOKGKGKFDEI_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeUInt32SizeNoTag(kOKGKGKFDEI_.getInt(i));
+        }
+        size += dataSize;
+        if (!getKOKGKGKFDEIList().isEmpty()) {
+          size += 3;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        kOKGKGKFDEIMemoizedSerializedSize = dataSize;
+      }
+      if (aAJNACIIKAD_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50002, aAJNACIIKAD_);
       }
       if (iILNHLANPGC_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, iILNHLANPGC_);
+          .computeUInt32Size(50003, iILNHLANPGC_);
       }
       if (gLEEDODENBP_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, gLEEDODENBP_);
-      }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(LevelName_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(13, LevelName_);
-      }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(iONHLOONKFG_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(15, iONHLOONKFG_);
+          .computeUInt32Size(50004, gLEEDODENBP_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1324,7 +1324,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 avatar_id_list = 1;</code>
+       * <code>repeated uint32 avatar_id_list = 4;</code>
        * @return A list containing the avatarIdList.
        */
       public java.util.List<java.lang.Integer>
@@ -1333,14 +1333,14 @@ public final class _UgcShortVideoBriefInfoOuterClass {
                  java.util.Collections.unmodifiableList(avatarIdList_) : avatarIdList_;
       }
       /**
-       * <code>repeated uint32 avatar_id_list = 1;</code>
+       * <code>repeated uint32 avatar_id_list = 4;</code>
        * @return The count of avatarIdList.
        */
       public int getAvatarIdListCount() {
         return avatarIdList_.size();
       }
       /**
-       * <code>repeated uint32 avatar_id_list = 1;</code>
+       * <code>repeated uint32 avatar_id_list = 4;</code>
        * @param index The index of the element to return.
        * @return The avatarIdList at the given index.
        */
@@ -1348,7 +1348,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         return avatarIdList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 avatar_id_list = 1;</code>
+       * <code>repeated uint32 avatar_id_list = 4;</code>
        * @param index The index to set the value at.
        * @param value The avatarIdList to set.
        * @return This builder for chaining.
@@ -1361,7 +1361,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 avatar_id_list = 1;</code>
+       * <code>repeated uint32 avatar_id_list = 4;</code>
        * @param value The avatarIdList to add.
        * @return This builder for chaining.
        */
@@ -1372,7 +1372,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 avatar_id_list = 1;</code>
+       * <code>repeated uint32 avatar_id_list = 4;</code>
        * @param values The avatarIdList to add.
        * @return This builder for chaining.
        */
@@ -1385,7 +1385,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 avatar_id_list = 1;</code>
+       * <code>repeated uint32 avatar_id_list = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearAvatarIdList() {
@@ -1403,7 +1403,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 LKCCHMHJNEF = 2;</code>
+       * <code>repeated uint32 LKCCHMHJNEF = 50000;</code>
        * @return A list containing the lKCCHMHJNEF.
        */
       public java.util.List<java.lang.Integer>
@@ -1412,14 +1412,14 @@ public final class _UgcShortVideoBriefInfoOuterClass {
                  java.util.Collections.unmodifiableList(lKCCHMHJNEF_) : lKCCHMHJNEF_;
       }
       /**
-       * <code>repeated uint32 LKCCHMHJNEF = 2;</code>
+       * <code>repeated uint32 LKCCHMHJNEF = 50000;</code>
        * @return The count of lKCCHMHJNEF.
        */
       public int getLKCCHMHJNEFCount() {
         return lKCCHMHJNEF_.size();
       }
       /**
-       * <code>repeated uint32 LKCCHMHJNEF = 2;</code>
+       * <code>repeated uint32 LKCCHMHJNEF = 50000;</code>
        * @param index The index of the element to return.
        * @return The lKCCHMHJNEF at the given index.
        */
@@ -1427,7 +1427,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         return lKCCHMHJNEF_.getInt(index);
       }
       /**
-       * <code>repeated uint32 LKCCHMHJNEF = 2;</code>
+       * <code>repeated uint32 LKCCHMHJNEF = 50000;</code>
        * @param index The index to set the value at.
        * @param value The lKCCHMHJNEF to set.
        * @return This builder for chaining.
@@ -1440,7 +1440,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 LKCCHMHJNEF = 2;</code>
+       * <code>repeated uint32 LKCCHMHJNEF = 50000;</code>
        * @param value The lKCCHMHJNEF to add.
        * @return This builder for chaining.
        */
@@ -1451,7 +1451,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 LKCCHMHJNEF = 2;</code>
+       * <code>repeated uint32 LKCCHMHJNEF = 50000;</code>
        * @param values The lKCCHMHJNEF to add.
        * @return This builder for chaining.
        */
@@ -1464,7 +1464,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 LKCCHMHJNEF = 2;</code>
+       * <code>repeated uint32 LKCCHMHJNEF = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearLKCCHMHJNEF() {
@@ -1487,7 +1487,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
           emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfo, emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfo.Builder, emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfoOrBuilder> avatarInfoListBuilder_;
 
       /**
-       * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 3;</code>
+       * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 12;</code>
        */
       public java.util.List<emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfo> getAvatarInfoListList() {
         if (avatarInfoListBuilder_ == null) {
@@ -1497,7 +1497,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 3;</code>
+       * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 12;</code>
        */
       public int getAvatarInfoListCount() {
         if (avatarInfoListBuilder_ == null) {
@@ -1507,7 +1507,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 3;</code>
+       * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 12;</code>
        */
       public emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfo getAvatarInfoList(int index) {
         if (avatarInfoListBuilder_ == null) {
@@ -1517,7 +1517,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 3;</code>
+       * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 12;</code>
        */
       public Builder setAvatarInfoList(
           int index, emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfo value) {
@@ -1534,7 +1534,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 3;</code>
+       * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 12;</code>
        */
       public Builder setAvatarInfoList(
           int index, emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfo.Builder builderForValue) {
@@ -1548,7 +1548,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 3;</code>
+       * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 12;</code>
        */
       public Builder addAvatarInfoList(emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfo value) {
         if (avatarInfoListBuilder_ == null) {
@@ -1564,7 +1564,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 3;</code>
+       * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 12;</code>
        */
       public Builder addAvatarInfoList(
           int index, emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfo value) {
@@ -1581,7 +1581,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 3;</code>
+       * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 12;</code>
        */
       public Builder addAvatarInfoList(
           emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfo.Builder builderForValue) {
@@ -1595,7 +1595,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 3;</code>
+       * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 12;</code>
        */
       public Builder addAvatarInfoList(
           int index, emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfo.Builder builderForValue) {
@@ -1609,7 +1609,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 3;</code>
+       * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 12;</code>
        */
       public Builder addAllAvatarInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfo> values) {
@@ -1624,7 +1624,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 3;</code>
+       * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 12;</code>
        */
       public Builder clearAvatarInfoList() {
         if (avatarInfoListBuilder_ == null) {
@@ -1637,7 +1637,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 3;</code>
+       * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 12;</code>
        */
       public Builder removeAvatarInfoList(int index) {
         if (avatarInfoListBuilder_ == null) {
@@ -1650,14 +1650,14 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 3;</code>
+       * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 12;</code>
        */
       public emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfo.Builder getAvatarInfoListBuilder(
           int index) {
         return getAvatarInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 3;</code>
+       * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 12;</code>
        */
       public emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfoOrBuilder getAvatarInfoListOrBuilder(
           int index) {
@@ -1667,7 +1667,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 3;</code>
+       * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 12;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfoOrBuilder> 
            getAvatarInfoListOrBuilderList() {
@@ -1678,14 +1678,14 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 3;</code>
+       * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 12;</code>
        */
       public emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfo.Builder addAvatarInfoListBuilder() {
         return getAvatarInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 3;</code>
+       * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 12;</code>
        */
       public emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfo.Builder addAvatarInfoListBuilder(
           int index) {
@@ -1693,7 +1693,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
             index, emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 3;</code>
+       * <code>repeated ._UgcShortVideoAvatarInfo avatar_info_list = 12;</code>
        */
       public java.util.List<emu.grasscutter.net.proto._UgcShortVideoAvatarInfoOuterClass._UgcShortVideoAvatarInfo.Builder> 
            getAvatarInfoListBuilderList() {
@@ -1716,7 +1716,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
 
       private boolean fAAOOIKCIJO_ ;
       /**
-       * <code>bool FAAOOIKCIJO = 4;</code>
+       * <code>bool FAAOOIKCIJO = 15;</code>
        * @return The fAAOOIKCIJO.
        */
       @java.lang.Override
@@ -1724,7 +1724,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         return fAAOOIKCIJO_;
       }
       /**
-       * <code>bool FAAOOIKCIJO = 4;</code>
+       * <code>bool FAAOOIKCIJO = 15;</code>
        * @param value The fAAOOIKCIJO to set.
        * @return This builder for chaining.
        */
@@ -1735,7 +1735,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool FAAOOIKCIJO = 4;</code>
+       * <code>bool FAAOOIKCIJO = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearFAAOOIKCIJO() {
@@ -1753,7 +1753,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 KOKGKGKFDEI = 5;</code>
+       * <code>repeated uint32 KOKGKGKFDEI = 50001;</code>
        * @return A list containing the kOKGKGKFDEI.
        */
       public java.util.List<java.lang.Integer>
@@ -1762,14 +1762,14 @@ public final class _UgcShortVideoBriefInfoOuterClass {
                  java.util.Collections.unmodifiableList(kOKGKGKFDEI_) : kOKGKGKFDEI_;
       }
       /**
-       * <code>repeated uint32 KOKGKGKFDEI = 5;</code>
+       * <code>repeated uint32 KOKGKGKFDEI = 50001;</code>
        * @return The count of kOKGKGKFDEI.
        */
       public int getKOKGKGKFDEICount() {
         return kOKGKGKFDEI_.size();
       }
       /**
-       * <code>repeated uint32 KOKGKGKFDEI = 5;</code>
+       * <code>repeated uint32 KOKGKGKFDEI = 50001;</code>
        * @param index The index of the element to return.
        * @return The kOKGKGKFDEI at the given index.
        */
@@ -1777,7 +1777,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         return kOKGKGKFDEI_.getInt(index);
       }
       /**
-       * <code>repeated uint32 KOKGKGKFDEI = 5;</code>
+       * <code>repeated uint32 KOKGKGKFDEI = 50001;</code>
        * @param index The index to set the value at.
        * @param value The kOKGKGKFDEI to set.
        * @return This builder for chaining.
@@ -1790,7 +1790,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 KOKGKGKFDEI = 5;</code>
+       * <code>repeated uint32 KOKGKGKFDEI = 50001;</code>
        * @param value The kOKGKGKFDEI to add.
        * @return This builder for chaining.
        */
@@ -1801,7 +1801,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 KOKGKGKFDEI = 5;</code>
+       * <code>repeated uint32 KOKGKGKFDEI = 50001;</code>
        * @param values The kOKGKGKFDEI to add.
        * @return This builder for chaining.
        */
@@ -1814,7 +1814,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 KOKGKGKFDEI = 5;</code>
+       * <code>repeated uint32 KOKGKGKFDEI = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearKOKGKGKFDEI() {
@@ -1832,7 +1832,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 tag_list = 7;</code>
+       * <code>repeated uint32 tag_list = 2;</code>
        * @return A list containing the tagList.
        */
       public java.util.List<java.lang.Integer>
@@ -1841,14 +1841,14 @@ public final class _UgcShortVideoBriefInfoOuterClass {
                  java.util.Collections.unmodifiableList(tagList_) : tagList_;
       }
       /**
-       * <code>repeated uint32 tag_list = 7;</code>
+       * <code>repeated uint32 tag_list = 2;</code>
        * @return The count of tagList.
        */
       public int getTagListCount() {
         return tagList_.size();
       }
       /**
-       * <code>repeated uint32 tag_list = 7;</code>
+       * <code>repeated uint32 tag_list = 2;</code>
        * @param index The index of the element to return.
        * @return The tagList at the given index.
        */
@@ -1856,7 +1856,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         return tagList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 tag_list = 7;</code>
+       * <code>repeated uint32 tag_list = 2;</code>
        * @param index The index to set the value at.
        * @param value The tagList to set.
        * @return This builder for chaining.
@@ -1869,7 +1869,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 tag_list = 7;</code>
+       * <code>repeated uint32 tag_list = 2;</code>
        * @param value The tagList to add.
        * @return This builder for chaining.
        */
@@ -1880,7 +1880,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 tag_list = 7;</code>
+       * <code>repeated uint32 tag_list = 2;</code>
        * @param values The tagList to add.
        * @return This builder for chaining.
        */
@@ -1893,7 +1893,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 tag_list = 7;</code>
+       * <code>repeated uint32 tag_list = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearTagList() {
@@ -1905,7 +1905,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
 
       private int aAJNACIIKAD_ ;
       /**
-       * <code>uint32 AAJNACIIKAD = 9;</code>
+       * <code>uint32 AAJNACIIKAD = 50002;</code>
        * @return The aAJNACIIKAD.
        */
       @java.lang.Override
@@ -1913,7 +1913,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         return aAJNACIIKAD_;
       }
       /**
-       * <code>uint32 AAJNACIIKAD = 9;</code>
+       * <code>uint32 AAJNACIIKAD = 50002;</code>
        * @param value The aAJNACIIKAD to set.
        * @return This builder for chaining.
        */
@@ -1924,7 +1924,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 AAJNACIIKAD = 9;</code>
+       * <code>uint32 AAJNACIIKAD = 50002;</code>
        * @return This builder for chaining.
        */
       public Builder clearAAJNACIIKAD() {
@@ -1936,7 +1936,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 10;</code>
+       * <code>uint32 level_id = 6;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -1944,7 +1944,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 10;</code>
+       * <code>uint32 level_id = 6;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -1955,7 +1955,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 10;</code>
+       * <code>uint32 level_id = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -1967,7 +1967,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
 
       private int iILNHLANPGC_ ;
       /**
-       * <code>uint32 IILNHLANPGC = 11;</code>
+       * <code>uint32 IILNHLANPGC = 50003;</code>
        * @return The iILNHLANPGC.
        */
       @java.lang.Override
@@ -1975,7 +1975,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         return iILNHLANPGC_;
       }
       /**
-       * <code>uint32 IILNHLANPGC = 11;</code>
+       * <code>uint32 IILNHLANPGC = 50003;</code>
        * @param value The iILNHLANPGC to set.
        * @return This builder for chaining.
        */
@@ -1986,7 +1986,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 IILNHLANPGC = 11;</code>
+       * <code>uint32 IILNHLANPGC = 50003;</code>
        * @return This builder for chaining.
        */
       public Builder clearIILNHLANPGC() {
@@ -1998,7 +1998,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
 
       private int gLEEDODENBP_ ;
       /**
-       * <code>uint32 GLEEDODENBP = 12;</code>
+       * <code>uint32 GLEEDODENBP = 50004;</code>
        * @return The gLEEDODENBP.
        */
       @java.lang.Override
@@ -2006,7 +2006,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         return gLEEDODENBP_;
       }
       /**
-       * <code>uint32 GLEEDODENBP = 12;</code>
+       * <code>uint32 GLEEDODENBP = 50004;</code>
        * @param value The gLEEDODENBP to set.
        * @return This builder for chaining.
        */
@@ -2017,7 +2017,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 GLEEDODENBP = 12;</code>
+       * <code>uint32 GLEEDODENBP = 50004;</code>
        * @return This builder for chaining.
        */
       public Builder clearGLEEDODENBP() {
@@ -2029,7 +2029,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
 
       private java.lang.Object LevelName_ = "";
       /**
-       * <code>string _level_name = 13;</code>
+       * <code>string _level_name = 14;</code>
        * @return The levelName.
        */
       public java.lang.String getLevelName() {
@@ -2045,7 +2045,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         }
       }
       /**
-       * <code>string _level_name = 13;</code>
+       * <code>string _level_name = 14;</code>
        * @return The bytes for levelName.
        */
       public com.google.protobuf.ByteString
@@ -2062,7 +2062,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         }
       }
       /**
-       * <code>string _level_name = 13;</code>
+       * <code>string _level_name = 14;</code>
        * @param value The levelName to set.
        * @return This builder for chaining.
        */
@@ -2077,7 +2077,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>string _level_name = 13;</code>
+       * <code>string _level_name = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelName() {
@@ -2087,7 +2087,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>string _level_name = 13;</code>
+       * <code>string _level_name = 14;</code>
        * @param value The bytes for levelName to set.
        * @return This builder for chaining.
        */
@@ -2105,7 +2105,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
 
       private java.lang.Object iONHLOONKFG_ = "";
       /**
-       * <code>string IONHLOONKFG = 15;</code>
+       * <code>string IONHLOONKFG = 5;</code>
        * @return The iONHLOONKFG.
        */
       public java.lang.String getIONHLOONKFG() {
@@ -2121,7 +2121,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         }
       }
       /**
-       * <code>string IONHLOONKFG = 15;</code>
+       * <code>string IONHLOONKFG = 5;</code>
        * @return The bytes for iONHLOONKFG.
        */
       public com.google.protobuf.ByteString
@@ -2138,7 +2138,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         }
       }
       /**
-       * <code>string IONHLOONKFG = 15;</code>
+       * <code>string IONHLOONKFG = 5;</code>
        * @param value The iONHLOONKFG to set.
        * @return This builder for chaining.
        */
@@ -2153,7 +2153,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>string IONHLOONKFG = 15;</code>
+       * <code>string IONHLOONKFG = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearIONHLOONKFG() {
@@ -2163,7 +2163,7 @@ public final class _UgcShortVideoBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>string IONHLOONKFG = 15;</code>
+       * <code>string IONHLOONKFG = 5;</code>
        * @param value The bytes for iONHLOONKFG to set.
        * @return This builder for chaining.
        */
@@ -2246,17 +2246,17 @@ public final class _UgcShortVideoBriefInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\035_UgcShortVideoBriefInfo.proto\032\036_UgcSho" +
-      "rtVideoAvatarInfo.proto\"\262\002\n\027_UgcShortVid" +
-      "eoBriefInfo\022\026\n\016avatar_id_list\030\001 \003(\r\022\023\n\013L" +
-      "KCCHMHJNEF\030\002 \003(\r\0223\n\020avatar_info_list\030\003 \003" +
-      "(\0132\031._UgcShortVideoAvatarInfo\022\023\n\013FAAOOIK" +
-      "CIJO\030\004 \001(\010\022\023\n\013KOKGKGKFDEI\030\005 \003(\r\022\020\n\010tag_l" +
-      "ist\030\007 \003(\r\022\023\n\013AAJNACIIKAD\030\t \001(\r\022\020\n\010level_" +
-      "id\030\n \001(\r\022\023\n\013IILNHLANPGC\030\013 \001(\r\022\023\n\013GLEEDOD" +
-      "ENBP\030\014 \001(\r\022\023\n\013_level_name\030\r \001(\t\022\023\n\013IONHL" +
-      "OONKFG\030\017 \001(\tB>\n\031emu.grasscutter.net.prot" +
-      "oB!_UgcShortVideoBriefInfoOuterClassb\006pr" +
-      "oto3"
+      "rtVideoAvatarInfo.proto\"\274\002\n\027_UgcShortVid" +
+      "eoBriefInfo\022\026\n\016avatar_id_list\030\004 \003(\r\022\025\n\013L" +
+      "KCCHMHJNEF\030\320\206\003 \003(\r\0223\n\020avatar_info_list\030\014" +
+      " \003(\0132\031._UgcShortVideoAvatarInfo\022\023\n\013FAAOO" +
+      "IKCIJO\030\017 \001(\010\022\025\n\013KOKGKGKFDEI\030\321\206\003 \003(\r\022\020\n\010t" +
+      "ag_list\030\002 \003(\r\022\025\n\013AAJNACIIKAD\030\322\206\003 \001(\r\022\020\n\010" +
+      "level_id\030\006 \001(\r\022\025\n\013IILNHLANPGC\030\323\206\003 \001(\r\022\025\n" +
+      "\013GLEEDODENBP\030\324\206\003 \001(\r\022\023\n\013_level_name\030\016 \001(" +
+      "\t\022\023\n\013IONHLOONKFG\030\005 \001(\tB>\n\031emu.grasscutte" +
+      "r.net.protoB!_UgcShortVideoBriefInfoOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

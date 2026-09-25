@@ -6,8 +6,8 @@ option java_outer_classname = "NOJCFCNEIMJOuterClass";
 import "_ActivityAvatarInfo.proto";
 
 message NOJCFCNEIMJ {
-	uint32 difficulty = 6;
-	repeated _ActivityAvatarInfo avatar_info_list = 9;
-	uint32 BOAKDOGPPPG = 12;
-	bool IMEPIKDEFHA = 14;
+	uint32 difficulty = 13;
+	repeated _ActivityAvatarInfo avatar_info_list = 2;
+	uint32 BOAKDOGPPPG = 15;
+	bool IMEPIKDEFHA = 4;
 }

@@ -19,25 +19,25 @@ public final class _ClientPlayDataOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated ._ClientPlayInfo play_info_list = 11;</code>
+     * <code>repeated ._ClientPlayInfo play_info_list = 4;</code>
      */
     java.util.List<emu.grasscutter.net.proto._ClientPlayInfoOuterClass._ClientPlayInfo> 
         getPlayInfoListList();
     /**
-     * <code>repeated ._ClientPlayInfo play_info_list = 11;</code>
+     * <code>repeated ._ClientPlayInfo play_info_list = 4;</code>
      */
     emu.grasscutter.net.proto._ClientPlayInfoOuterClass._ClientPlayInfo getPlayInfoList(int index);
     /**
-     * <code>repeated ._ClientPlayInfo play_info_list = 11;</code>
+     * <code>repeated ._ClientPlayInfo play_info_list = 4;</code>
      */
     int getPlayInfoListCount();
     /**
-     * <code>repeated ._ClientPlayInfo play_info_list = 11;</code>
+     * <code>repeated ._ClientPlayInfo play_info_list = 4;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto._ClientPlayInfoOuterClass._ClientPlayInfoOrBuilder> 
         getPlayInfoListOrBuilderList();
     /**
-     * <code>repeated ._ClientPlayInfo play_info_list = 11;</code>
+     * <code>repeated ._ClientPlayInfo play_info_list = 4;</code>
      */
     emu.grasscutter.net.proto._ClientPlayInfoOuterClass._ClientPlayInfoOrBuilder getPlayInfoListOrBuilder(
         int index);
@@ -89,7 +89,7 @@ public final class _ClientPlayDataOuterClass {
             case 0:
               done = true;
               break;
-            case 90: {
+            case 34: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 playInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto._ClientPlayInfoOuterClass._ClientPlayInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -133,17 +133,17 @@ public final class _ClientPlayDataOuterClass {
               emu.grasscutter.net.proto._ClientPlayDataOuterClass._ClientPlayData.class, emu.grasscutter.net.proto._ClientPlayDataOuterClass._ClientPlayData.Builder.class);
     }
 
-    public static final int PLAY_INFO_LIST_FIELD_NUMBER = 11;
+    public static final int PLAY_INFO_LIST_FIELD_NUMBER = 4;
     private java.util.List<emu.grasscutter.net.proto._ClientPlayInfoOuterClass._ClientPlayInfo> playInfoList_;
     /**
-     * <code>repeated ._ClientPlayInfo play_info_list = 11;</code>
+     * <code>repeated ._ClientPlayInfo play_info_list = 4;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto._ClientPlayInfoOuterClass._ClientPlayInfo> getPlayInfoListList() {
       return playInfoList_;
     }
     /**
-     * <code>repeated ._ClientPlayInfo play_info_list = 11;</code>
+     * <code>repeated ._ClientPlayInfo play_info_list = 4;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto._ClientPlayInfoOuterClass._ClientPlayInfoOrBuilder> 
@@ -151,21 +151,21 @@ public final class _ClientPlayDataOuterClass {
       return playInfoList_;
     }
     /**
-     * <code>repeated ._ClientPlayInfo play_info_list = 11;</code>
+     * <code>repeated ._ClientPlayInfo play_info_list = 4;</code>
      */
     @java.lang.Override
     public int getPlayInfoListCount() {
       return playInfoList_.size();
     }
     /**
-     * <code>repeated ._ClientPlayInfo play_info_list = 11;</code>
+     * <code>repeated ._ClientPlayInfo play_info_list = 4;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._ClientPlayInfoOuterClass._ClientPlayInfo getPlayInfoList(int index) {
       return playInfoList_.get(index);
     }
     /**
-     * <code>repeated ._ClientPlayInfo play_info_list = 11;</code>
+     * <code>repeated ._ClientPlayInfo play_info_list = 4;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._ClientPlayInfoOuterClass._ClientPlayInfoOrBuilder getPlayInfoListOrBuilder(
@@ -188,7 +188,7 @@ public final class _ClientPlayDataOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < playInfoList_.size(); i++) {
-        output.writeMessage(11, playInfoList_.get(i));
+        output.writeMessage(4, playInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -201,7 +201,7 @@ public final class _ClientPlayDataOuterClass {
       size = 0;
       for (int i = 0; i < playInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, playInfoList_.get(i));
+          .computeMessageSize(4, playInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -528,7 +528,7 @@ public final class _ClientPlayDataOuterClass {
           emu.grasscutter.net.proto._ClientPlayInfoOuterClass._ClientPlayInfo, emu.grasscutter.net.proto._ClientPlayInfoOuterClass._ClientPlayInfo.Builder, emu.grasscutter.net.proto._ClientPlayInfoOuterClass._ClientPlayInfoOrBuilder> playInfoListBuilder_;
 
       /**
-       * <code>repeated ._ClientPlayInfo play_info_list = 11;</code>
+       * <code>repeated ._ClientPlayInfo play_info_list = 4;</code>
        */
       public java.util.List<emu.grasscutter.net.proto._ClientPlayInfoOuterClass._ClientPlayInfo> getPlayInfoListList() {
         if (playInfoListBuilder_ == null) {
@@ -538,7 +538,7 @@ public final class _ClientPlayDataOuterClass {
         }
       }
       /**
-       * <code>repeated ._ClientPlayInfo play_info_list = 11;</code>
+       * <code>repeated ._ClientPlayInfo play_info_list = 4;</code>
        */
       public int getPlayInfoListCount() {
         if (playInfoListBuilder_ == null) {
@@ -548,7 +548,7 @@ public final class _ClientPlayDataOuterClass {
         }
       }
       /**
-       * <code>repeated ._ClientPlayInfo play_info_list = 11;</code>
+       * <code>repeated ._ClientPlayInfo play_info_list = 4;</code>
        */
       public emu.grasscutter.net.proto._ClientPlayInfoOuterClass._ClientPlayInfo getPlayInfoList(int index) {
         if (playInfoListBuilder_ == null) {
@@ -558,7 +558,7 @@ public final class _ClientPlayDataOuterClass {
         }
       }
       /**
-       * <code>repeated ._ClientPlayInfo play_info_list = 11;</code>
+       * <code>repeated ._ClientPlayInfo play_info_list = 4;</code>
        */
       public Builder setPlayInfoList(
           int index, emu.grasscutter.net.proto._ClientPlayInfoOuterClass._ClientPlayInfo value) {
@@ -575,7 +575,7 @@ public final class _ClientPlayDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._ClientPlayInfo play_info_list = 11;</code>
+       * <code>repeated ._ClientPlayInfo play_info_list = 4;</code>
        */
       public Builder setPlayInfoList(
           int index, emu.grasscutter.net.proto._ClientPlayInfoOuterClass._ClientPlayInfo.Builder builderForValue) {
@@ -589,7 +589,7 @@ public final class _ClientPlayDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._ClientPlayInfo play_info_list = 11;</code>
+       * <code>repeated ._ClientPlayInfo play_info_list = 4;</code>
        */
       public Builder addPlayInfoList(emu.grasscutter.net.proto._ClientPlayInfoOuterClass._ClientPlayInfo value) {
         if (playInfoListBuilder_ == null) {
@@ -605,7 +605,7 @@ public final class _ClientPlayDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._ClientPlayInfo play_info_list = 11;</code>
+       * <code>repeated ._ClientPlayInfo play_info_list = 4;</code>
        */
       public Builder addPlayInfoList(
           int index, emu.grasscutter.net.proto._ClientPlayInfoOuterClass._ClientPlayInfo value) {
@@ -622,7 +622,7 @@ public final class _ClientPlayDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._ClientPlayInfo play_info_list = 11;</code>
+       * <code>repeated ._ClientPlayInfo play_info_list = 4;</code>
        */
       public Builder addPlayInfoList(
           emu.grasscutter.net.proto._ClientPlayInfoOuterClass._ClientPlayInfo.Builder builderForValue) {
@@ -636,7 +636,7 @@ public final class _ClientPlayDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._ClientPlayInfo play_info_list = 11;</code>
+       * <code>repeated ._ClientPlayInfo play_info_list = 4;</code>
        */
       public Builder addPlayInfoList(
           int index, emu.grasscutter.net.proto._ClientPlayInfoOuterClass._ClientPlayInfo.Builder builderForValue) {
@@ -650,7 +650,7 @@ public final class _ClientPlayDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._ClientPlayInfo play_info_list = 11;</code>
+       * <code>repeated ._ClientPlayInfo play_info_list = 4;</code>
        */
       public Builder addAllPlayInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto._ClientPlayInfoOuterClass._ClientPlayInfo> values) {
@@ -665,7 +665,7 @@ public final class _ClientPlayDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._ClientPlayInfo play_info_list = 11;</code>
+       * <code>repeated ._ClientPlayInfo play_info_list = 4;</code>
        */
       public Builder clearPlayInfoList() {
         if (playInfoListBuilder_ == null) {
@@ -678,7 +678,7 @@ public final class _ClientPlayDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._ClientPlayInfo play_info_list = 11;</code>
+       * <code>repeated ._ClientPlayInfo play_info_list = 4;</code>
        */
       public Builder removePlayInfoList(int index) {
         if (playInfoListBuilder_ == null) {
@@ -691,14 +691,14 @@ public final class _ClientPlayDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._ClientPlayInfo play_info_list = 11;</code>
+       * <code>repeated ._ClientPlayInfo play_info_list = 4;</code>
        */
       public emu.grasscutter.net.proto._ClientPlayInfoOuterClass._ClientPlayInfo.Builder getPlayInfoListBuilder(
           int index) {
         return getPlayInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated ._ClientPlayInfo play_info_list = 11;</code>
+       * <code>repeated ._ClientPlayInfo play_info_list = 4;</code>
        */
       public emu.grasscutter.net.proto._ClientPlayInfoOuterClass._ClientPlayInfoOrBuilder getPlayInfoListOrBuilder(
           int index) {
@@ -708,7 +708,7 @@ public final class _ClientPlayDataOuterClass {
         }
       }
       /**
-       * <code>repeated ._ClientPlayInfo play_info_list = 11;</code>
+       * <code>repeated ._ClientPlayInfo play_info_list = 4;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto._ClientPlayInfoOuterClass._ClientPlayInfoOrBuilder> 
            getPlayInfoListOrBuilderList() {
@@ -719,14 +719,14 @@ public final class _ClientPlayDataOuterClass {
         }
       }
       /**
-       * <code>repeated ._ClientPlayInfo play_info_list = 11;</code>
+       * <code>repeated ._ClientPlayInfo play_info_list = 4;</code>
        */
       public emu.grasscutter.net.proto._ClientPlayInfoOuterClass._ClientPlayInfo.Builder addPlayInfoListBuilder() {
         return getPlayInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto._ClientPlayInfoOuterClass._ClientPlayInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated ._ClientPlayInfo play_info_list = 11;</code>
+       * <code>repeated ._ClientPlayInfo play_info_list = 4;</code>
        */
       public emu.grasscutter.net.proto._ClientPlayInfoOuterClass._ClientPlayInfo.Builder addPlayInfoListBuilder(
           int index) {
@@ -734,7 +734,7 @@ public final class _ClientPlayDataOuterClass {
             index, emu.grasscutter.net.proto._ClientPlayInfoOuterClass._ClientPlayInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated ._ClientPlayInfo play_info_list = 11;</code>
+       * <code>repeated ._ClientPlayInfo play_info_list = 4;</code>
        */
       public java.util.List<emu.grasscutter.net.proto._ClientPlayInfoOuterClass._ClientPlayInfo.Builder> 
            getPlayInfoListBuilderList() {
@@ -823,7 +823,7 @@ public final class _ClientPlayDataOuterClass {
     java.lang.String[] descriptorData = {
       "\n\025_ClientPlayData.proto\032\025_ClientPlayInfo" +
       ".proto\";\n\017_ClientPlayData\022(\n\016play_info_l" +
-      "ist\030\013 \003(\0132\020._ClientPlayInfoB6\n\031emu.grass" +
+      "ist\030\004 \003(\0132\020._ClientPlayInfoB6\n\031emu.grass" +
       "cutter.net.protoB\031_ClientPlayDataOuterCl" +
       "assb\006proto3"
     };

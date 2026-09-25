@@ -7,9 +7,9 @@ import "DACMDDCLPNH.proto";
 import "PHMCFKLKEDO.proto";
 
 message CGGCKMNCAKO {
-	uint32 LIGGJOPGIHJ = 7;
-	DACMDDCLPNH KOCIGEHDEPP = 8;
-	uint32 max_level = 9;
-	uint32 level = 13;
-	PHMCFKLKEDO state = 14;
+	uint32 LIGGJOPGIHJ = 10;
+	DACMDDCLPNH KOCIGEHDEPP = 9;
+	uint32 max_level = 3;
+	uint32 level = 12;
+	PHMCFKLKEDO state = 7;
 }

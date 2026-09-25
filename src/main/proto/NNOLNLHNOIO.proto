@@ -4,13 +4,13 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "NNOLNLHNOIOOuterClass";
 
 message NNOLNLHNOIO {
-	bool HCEJBKINEOB = 1;
-	uint32 count = 3;
+	bool HCEJBKINEOB = 9;
+	uint32 count = 1;
 	uint32 DNIBBKLBBJE = 4;
-	uint32 rank = 5;
-	bool is_unlocked = 6;
-	uint32 exp = 10;
-	bool GOEKPDMOLKD = 12;
-	uint32 PBBFBMDGOOH = 13;
-	uint32 IKFHIPAAFEF = 15;
+	uint32 rank = 10;
+	bool is_unlocked = 12;
+	uint32 exp = 11;
+	bool GOEKPDMOLKD = 13;
+	uint32 PBBFBMDGOOH = 50000;
+	uint32 IKFHIPAAFEF = 50001;
 }

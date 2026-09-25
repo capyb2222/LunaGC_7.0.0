@@ -6,6 +6,6 @@ option java_outer_classname = "TowerFloorRecordChangeNotifyOuterClass";
 import "TowerFloorRecord.proto";
 
 message TowerFloorRecordChangeNotify {
-	bool is_finished_entrance_floor = 7;
-	repeated TowerFloorRecord tower_floor_record_list = 10;
+	bool is_finished_entrance_floor = 9;
+	repeated TowerFloorRecord tower_floor_record_list = 5;
 }

@@ -12,7 +12,7 @@ message MarkMapReq {
 		OPERATION_DEL = 2;
 		OPERATION_GET = 3;
 	}
-	MapMarkPoint mark = 5;
-	MapMarkPoint old = 8;
-	Operation op = 10;
+	MapMarkPoint mark = 15;
+	MapMarkPoint old = 2;
+	Operation op = 11;
 }

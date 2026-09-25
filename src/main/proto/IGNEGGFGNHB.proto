@@ -4,8 +4,8 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "IGNEGGFGNHBOuterClass";
 
 message IGNEGGFGNHB {
-	uint32 OMNIHFNCEIN = 4;
-	uint32 coin_num = 5;
-	bool is_finish = 10;
-	bool KIEMHBNNEBF = 11;
+	uint32 OMNIHFNCEIN = 9;
+	uint32 coin_num = 8;
+	bool is_finish = 14;
+	bool KIEMHBNNEBF = 3;
 }

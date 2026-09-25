@@ -19,73 +19,73 @@ public final class HDHLLCCCLJMOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 difficulty = 4;</code>
+     * <code>uint32 difficulty = 11;</code>
      * @return The difficulty.
      */
     int getDifficulty();
 
     /**
-     * <code>bool OIFKDFIFIOP = 6;</code>
+     * <code>bool OIFKDFIFIOP = 14;</code>
      * @return The oIFKDFIFIOP.
      */
     boolean getOIFKDFIFIOP();
 
     /**
-     * <code>fixed64 timestamp = 7;</code>
+     * <code>fixed64 timestamp = 10;</code>
      * @return The timestamp.
      */
     long getTimestamp();
 
     /**
-     * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 8;</code>
+     * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 7;</code>
      */
     java.util.List<emu.grasscutter.net.proto.DDBNDHNGEMFOuterClass.DDBNDHNGEMF> 
         getKDFMEPMGGHJList();
     /**
-     * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 8;</code>
+     * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 7;</code>
      */
     emu.grasscutter.net.proto.DDBNDHNGEMFOuterClass.DDBNDHNGEMF getKDFMEPMGGHJ(int index);
     /**
-     * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 8;</code>
+     * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 7;</code>
      */
     int getKDFMEPMGGHJCount();
     /**
-     * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 8;</code>
+     * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 7;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.DDBNDHNGEMFOuterClass.DDBNDHNGEMFOrBuilder> 
         getKDFMEPMGGHJOrBuilderList();
     /**
-     * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 8;</code>
+     * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 7;</code>
      */
     emu.grasscutter.net.proto.DDBNDHNGEMFOuterClass.DDBNDHNGEMFOrBuilder getKDFMEPMGGHJOrBuilder(
         int index);
 
     /**
-     * <code>repeated .PFFMGFPKANE player_info_list = 9;</code>
+     * <code>repeated .PFFMGFPKANE player_info_list = 2;</code>
      */
     java.util.List<emu.grasscutter.net.proto.PFFMGFPKANEOuterClass.PFFMGFPKANE> 
         getPlayerInfoListList();
     /**
-     * <code>repeated .PFFMGFPKANE player_info_list = 9;</code>
+     * <code>repeated .PFFMGFPKANE player_info_list = 2;</code>
      */
     emu.grasscutter.net.proto.PFFMGFPKANEOuterClass.PFFMGFPKANE getPlayerInfoList(int index);
     /**
-     * <code>repeated .PFFMGFPKANE player_info_list = 9;</code>
+     * <code>repeated .PFFMGFPKANE player_info_list = 2;</code>
      */
     int getPlayerInfoListCount();
     /**
-     * <code>repeated .PFFMGFPKANE player_info_list = 9;</code>
+     * <code>repeated .PFFMGFPKANE player_info_list = 2;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.PFFMGFPKANEOuterClass.PFFMGFPKANEOrBuilder> 
         getPlayerInfoListOrBuilderList();
     /**
-     * <code>repeated .PFFMGFPKANE player_info_list = 9;</code>
+     * <code>repeated .PFFMGFPKANE player_info_list = 2;</code>
      */
     emu.grasscutter.net.proto.PFFMGFPKANEOuterClass.PFFMGFPKANEOrBuilder getPlayerInfoListOrBuilder(
         int index);
 
     /**
-     * <code>uint32 schedule_id = 15;</code>
+     * <code>uint32 schedule_id = 4;</code>
      * @return The scheduleId.
      */
     int getScheduleId();
@@ -138,31 +138,7 @@ public final class HDHLLCCCLJMOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
-
-              difficulty_ = input.readUInt32();
-              break;
-            }
-            case 48: {
-
-              oIFKDFIFIOP_ = input.readBool();
-              break;
-            }
-            case 57: {
-
-              timestamp_ = input.readFixed64();
-              break;
-            }
-            case 66: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                kDFMEPMGGHJ_ = new java.util.ArrayList<emu.grasscutter.net.proto.DDBNDHNGEMFOuterClass.DDBNDHNGEMF>();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              kDFMEPMGGHJ_.add(
-                  input.readMessage(emu.grasscutter.net.proto.DDBNDHNGEMFOuterClass.DDBNDHNGEMF.parser(), extensionRegistry));
-              break;
-            }
-            case 74: {
+            case 18: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 playerInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.PFFMGFPKANEOuterClass.PFFMGFPKANE>();
                 mutable_bitField0_ |= 0x00000002;
@@ -171,9 +147,33 @@ public final class HDHLLCCCLJMOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.PFFMGFPKANEOuterClass.PFFMGFPKANE.parser(), extensionRegistry));
               break;
             }
-            case 120: {
+            case 32: {
 
               scheduleId_ = input.readUInt32();
+              break;
+            }
+            case 58: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                kDFMEPMGGHJ_ = new java.util.ArrayList<emu.grasscutter.net.proto.DDBNDHNGEMFOuterClass.DDBNDHNGEMF>();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              kDFMEPMGGHJ_.add(
+                  input.readMessage(emu.grasscutter.net.proto.DDBNDHNGEMFOuterClass.DDBNDHNGEMF.parser(), extensionRegistry));
+              break;
+            }
+            case 81: {
+
+              timestamp_ = input.readFixed64();
+              break;
+            }
+            case 88: {
+
+              difficulty_ = input.readUInt32();
+              break;
+            }
+            case 112: {
+
+              oIFKDFIFIOP_ = input.readBool();
               break;
             }
             default: {
@@ -191,11 +191,11 @@ public final class HDHLLCCCLJMOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          kDFMEPMGGHJ_ = java.util.Collections.unmodifiableList(kDFMEPMGGHJ_);
-        }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
           playerInfoList_ = java.util.Collections.unmodifiableList(playerInfoList_);
+        }
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          kDFMEPMGGHJ_ = java.util.Collections.unmodifiableList(kDFMEPMGGHJ_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -214,10 +214,10 @@ public final class HDHLLCCCLJMOuterClass {
               emu.grasscutter.net.proto.HDHLLCCCLJMOuterClass.HDHLLCCCLJM.class, emu.grasscutter.net.proto.HDHLLCCCLJMOuterClass.HDHLLCCCLJM.Builder.class);
     }
 
-    public static final int DIFFICULTY_FIELD_NUMBER = 4;
+    public static final int DIFFICULTY_FIELD_NUMBER = 11;
     private int difficulty_;
     /**
-     * <code>uint32 difficulty = 4;</code>
+     * <code>uint32 difficulty = 11;</code>
      * @return The difficulty.
      */
     @java.lang.Override
@@ -225,10 +225,10 @@ public final class HDHLLCCCLJMOuterClass {
       return difficulty_;
     }
 
-    public static final int OIFKDFIFIOP_FIELD_NUMBER = 6;
+    public static final int OIFKDFIFIOP_FIELD_NUMBER = 14;
     private boolean oIFKDFIFIOP_;
     /**
-     * <code>bool OIFKDFIFIOP = 6;</code>
+     * <code>bool OIFKDFIFIOP = 14;</code>
      * @return The oIFKDFIFIOP.
      */
     @java.lang.Override
@@ -236,10 +236,10 @@ public final class HDHLLCCCLJMOuterClass {
       return oIFKDFIFIOP_;
     }
 
-    public static final int TIMESTAMP_FIELD_NUMBER = 7;
+    public static final int TIMESTAMP_FIELD_NUMBER = 10;
     private long timestamp_;
     /**
-     * <code>fixed64 timestamp = 7;</code>
+     * <code>fixed64 timestamp = 10;</code>
      * @return The timestamp.
      */
     @java.lang.Override
@@ -247,17 +247,17 @@ public final class HDHLLCCCLJMOuterClass {
       return timestamp_;
     }
 
-    public static final int KDFMEPMGGHJ_FIELD_NUMBER = 8;
+    public static final int KDFMEPMGGHJ_FIELD_NUMBER = 7;
     private java.util.List<emu.grasscutter.net.proto.DDBNDHNGEMFOuterClass.DDBNDHNGEMF> kDFMEPMGGHJ_;
     /**
-     * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 8;</code>
+     * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 7;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.DDBNDHNGEMFOuterClass.DDBNDHNGEMF> getKDFMEPMGGHJList() {
       return kDFMEPMGGHJ_;
     }
     /**
-     * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 8;</code>
+     * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 7;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.DDBNDHNGEMFOuterClass.DDBNDHNGEMFOrBuilder> 
@@ -265,21 +265,21 @@ public final class HDHLLCCCLJMOuterClass {
       return kDFMEPMGGHJ_;
     }
     /**
-     * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 8;</code>
+     * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 7;</code>
      */
     @java.lang.Override
     public int getKDFMEPMGGHJCount() {
       return kDFMEPMGGHJ_.size();
     }
     /**
-     * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 8;</code>
+     * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 7;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.DDBNDHNGEMFOuterClass.DDBNDHNGEMF getKDFMEPMGGHJ(int index) {
       return kDFMEPMGGHJ_.get(index);
     }
     /**
-     * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 8;</code>
+     * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 7;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.DDBNDHNGEMFOuterClass.DDBNDHNGEMFOrBuilder getKDFMEPMGGHJOrBuilder(
@@ -287,17 +287,17 @@ public final class HDHLLCCCLJMOuterClass {
       return kDFMEPMGGHJ_.get(index);
     }
 
-    public static final int PLAYER_INFO_LIST_FIELD_NUMBER = 9;
+    public static final int PLAYER_INFO_LIST_FIELD_NUMBER = 2;
     private java.util.List<emu.grasscutter.net.proto.PFFMGFPKANEOuterClass.PFFMGFPKANE> playerInfoList_;
     /**
-     * <code>repeated .PFFMGFPKANE player_info_list = 9;</code>
+     * <code>repeated .PFFMGFPKANE player_info_list = 2;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.PFFMGFPKANEOuterClass.PFFMGFPKANE> getPlayerInfoListList() {
       return playerInfoList_;
     }
     /**
-     * <code>repeated .PFFMGFPKANE player_info_list = 9;</code>
+     * <code>repeated .PFFMGFPKANE player_info_list = 2;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.PFFMGFPKANEOuterClass.PFFMGFPKANEOrBuilder> 
@@ -305,21 +305,21 @@ public final class HDHLLCCCLJMOuterClass {
       return playerInfoList_;
     }
     /**
-     * <code>repeated .PFFMGFPKANE player_info_list = 9;</code>
+     * <code>repeated .PFFMGFPKANE player_info_list = 2;</code>
      */
     @java.lang.Override
     public int getPlayerInfoListCount() {
       return playerInfoList_.size();
     }
     /**
-     * <code>repeated .PFFMGFPKANE player_info_list = 9;</code>
+     * <code>repeated .PFFMGFPKANE player_info_list = 2;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.PFFMGFPKANEOuterClass.PFFMGFPKANE getPlayerInfoList(int index) {
       return playerInfoList_.get(index);
     }
     /**
-     * <code>repeated .PFFMGFPKANE player_info_list = 9;</code>
+     * <code>repeated .PFFMGFPKANE player_info_list = 2;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.PFFMGFPKANEOuterClass.PFFMGFPKANEOrBuilder getPlayerInfoListOrBuilder(
@@ -327,10 +327,10 @@ public final class HDHLLCCCLJMOuterClass {
       return playerInfoList_.get(index);
     }
 
-    public static final int SCHEDULE_ID_FIELD_NUMBER = 15;
+    public static final int SCHEDULE_ID_FIELD_NUMBER = 4;
     private int scheduleId_;
     /**
-     * <code>uint32 schedule_id = 15;</code>
+     * <code>uint32 schedule_id = 4;</code>
      * @return The scheduleId.
      */
     @java.lang.Override
@@ -352,23 +352,23 @@ public final class HDHLLCCCLJMOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (difficulty_ != 0) {
-        output.writeUInt32(4, difficulty_);
-      }
-      if (oIFKDFIFIOP_ != false) {
-        output.writeBool(6, oIFKDFIFIOP_);
-      }
-      if (timestamp_ != 0L) {
-        output.writeFixed64(7, timestamp_);
-      }
-      for (int i = 0; i < kDFMEPMGGHJ_.size(); i++) {
-        output.writeMessage(8, kDFMEPMGGHJ_.get(i));
-      }
       for (int i = 0; i < playerInfoList_.size(); i++) {
-        output.writeMessage(9, playerInfoList_.get(i));
+        output.writeMessage(2, playerInfoList_.get(i));
       }
       if (scheduleId_ != 0) {
-        output.writeUInt32(15, scheduleId_);
+        output.writeUInt32(4, scheduleId_);
+      }
+      for (int i = 0; i < kDFMEPMGGHJ_.size(); i++) {
+        output.writeMessage(7, kDFMEPMGGHJ_.get(i));
+      }
+      if (timestamp_ != 0L) {
+        output.writeFixed64(10, timestamp_);
+      }
+      if (difficulty_ != 0) {
+        output.writeUInt32(11, difficulty_);
+      }
+      if (oIFKDFIFIOP_ != false) {
+        output.writeBool(14, oIFKDFIFIOP_);
       }
       unknownFields.writeTo(output);
     }
@@ -379,29 +379,29 @@ public final class HDHLLCCCLJMOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (difficulty_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, difficulty_);
-      }
-      if (oIFKDFIFIOP_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(6, oIFKDFIFIOP_);
-      }
-      if (timestamp_ != 0L) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeFixed64Size(7, timestamp_);
-      }
-      for (int i = 0; i < kDFMEPMGGHJ_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, kDFMEPMGGHJ_.get(i));
-      }
       for (int i = 0; i < playerInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, playerInfoList_.get(i));
+          .computeMessageSize(2, playerInfoList_.get(i));
       }
       if (scheduleId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, scheduleId_);
+          .computeUInt32Size(4, scheduleId_);
+      }
+      for (int i = 0; i < kDFMEPMGGHJ_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(7, kDFMEPMGGHJ_.get(i));
+      }
+      if (timestamp_ != 0L) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeFixed64Size(10, timestamp_);
+      }
+      if (difficulty_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(11, difficulty_);
+      }
+      if (oIFKDFIFIOP_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(14, oIFKDFIFIOP_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -807,7 +807,7 @@ public final class HDHLLCCCLJMOuterClass {
 
       private int difficulty_ ;
       /**
-       * <code>uint32 difficulty = 4;</code>
+       * <code>uint32 difficulty = 11;</code>
        * @return The difficulty.
        */
       @java.lang.Override
@@ -815,7 +815,7 @@ public final class HDHLLCCCLJMOuterClass {
         return difficulty_;
       }
       /**
-       * <code>uint32 difficulty = 4;</code>
+       * <code>uint32 difficulty = 11;</code>
        * @param value The difficulty to set.
        * @return This builder for chaining.
        */
@@ -826,7 +826,7 @@ public final class HDHLLCCCLJMOuterClass {
         return this;
       }
       /**
-       * <code>uint32 difficulty = 4;</code>
+       * <code>uint32 difficulty = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearDifficulty() {
@@ -838,7 +838,7 @@ public final class HDHLLCCCLJMOuterClass {
 
       private boolean oIFKDFIFIOP_ ;
       /**
-       * <code>bool OIFKDFIFIOP = 6;</code>
+       * <code>bool OIFKDFIFIOP = 14;</code>
        * @return The oIFKDFIFIOP.
        */
       @java.lang.Override
@@ -846,7 +846,7 @@ public final class HDHLLCCCLJMOuterClass {
         return oIFKDFIFIOP_;
       }
       /**
-       * <code>bool OIFKDFIFIOP = 6;</code>
+       * <code>bool OIFKDFIFIOP = 14;</code>
        * @param value The oIFKDFIFIOP to set.
        * @return This builder for chaining.
        */
@@ -857,7 +857,7 @@ public final class HDHLLCCCLJMOuterClass {
         return this;
       }
       /**
-       * <code>bool OIFKDFIFIOP = 6;</code>
+       * <code>bool OIFKDFIFIOP = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearOIFKDFIFIOP() {
@@ -869,7 +869,7 @@ public final class HDHLLCCCLJMOuterClass {
 
       private long timestamp_ ;
       /**
-       * <code>fixed64 timestamp = 7;</code>
+       * <code>fixed64 timestamp = 10;</code>
        * @return The timestamp.
        */
       @java.lang.Override
@@ -877,7 +877,7 @@ public final class HDHLLCCCLJMOuterClass {
         return timestamp_;
       }
       /**
-       * <code>fixed64 timestamp = 7;</code>
+       * <code>fixed64 timestamp = 10;</code>
        * @param value The timestamp to set.
        * @return This builder for chaining.
        */
@@ -888,7 +888,7 @@ public final class HDHLLCCCLJMOuterClass {
         return this;
       }
       /**
-       * <code>fixed64 timestamp = 7;</code>
+       * <code>fixed64 timestamp = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearTimestamp() {
@@ -911,7 +911,7 @@ public final class HDHLLCCCLJMOuterClass {
           emu.grasscutter.net.proto.DDBNDHNGEMFOuterClass.DDBNDHNGEMF, emu.grasscutter.net.proto.DDBNDHNGEMFOuterClass.DDBNDHNGEMF.Builder, emu.grasscutter.net.proto.DDBNDHNGEMFOuterClass.DDBNDHNGEMFOrBuilder> kDFMEPMGGHJBuilder_;
 
       /**
-       * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 8;</code>
+       * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 7;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.DDBNDHNGEMFOuterClass.DDBNDHNGEMF> getKDFMEPMGGHJList() {
         if (kDFMEPMGGHJBuilder_ == null) {
@@ -921,7 +921,7 @@ public final class HDHLLCCCLJMOuterClass {
         }
       }
       /**
-       * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 8;</code>
+       * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 7;</code>
        */
       public int getKDFMEPMGGHJCount() {
         if (kDFMEPMGGHJBuilder_ == null) {
@@ -931,7 +931,7 @@ public final class HDHLLCCCLJMOuterClass {
         }
       }
       /**
-       * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 8;</code>
+       * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 7;</code>
        */
       public emu.grasscutter.net.proto.DDBNDHNGEMFOuterClass.DDBNDHNGEMF getKDFMEPMGGHJ(int index) {
         if (kDFMEPMGGHJBuilder_ == null) {
@@ -941,7 +941,7 @@ public final class HDHLLCCCLJMOuterClass {
         }
       }
       /**
-       * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 8;</code>
+       * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 7;</code>
        */
       public Builder setKDFMEPMGGHJ(
           int index, emu.grasscutter.net.proto.DDBNDHNGEMFOuterClass.DDBNDHNGEMF value) {
@@ -958,7 +958,7 @@ public final class HDHLLCCCLJMOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 8;</code>
+       * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 7;</code>
        */
       public Builder setKDFMEPMGGHJ(
           int index, emu.grasscutter.net.proto.DDBNDHNGEMFOuterClass.DDBNDHNGEMF.Builder builderForValue) {
@@ -972,7 +972,7 @@ public final class HDHLLCCCLJMOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 8;</code>
+       * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 7;</code>
        */
       public Builder addKDFMEPMGGHJ(emu.grasscutter.net.proto.DDBNDHNGEMFOuterClass.DDBNDHNGEMF value) {
         if (kDFMEPMGGHJBuilder_ == null) {
@@ -988,7 +988,7 @@ public final class HDHLLCCCLJMOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 8;</code>
+       * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 7;</code>
        */
       public Builder addKDFMEPMGGHJ(
           int index, emu.grasscutter.net.proto.DDBNDHNGEMFOuterClass.DDBNDHNGEMF value) {
@@ -1005,7 +1005,7 @@ public final class HDHLLCCCLJMOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 8;</code>
+       * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 7;</code>
        */
       public Builder addKDFMEPMGGHJ(
           emu.grasscutter.net.proto.DDBNDHNGEMFOuterClass.DDBNDHNGEMF.Builder builderForValue) {
@@ -1019,7 +1019,7 @@ public final class HDHLLCCCLJMOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 8;</code>
+       * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 7;</code>
        */
       public Builder addKDFMEPMGGHJ(
           int index, emu.grasscutter.net.proto.DDBNDHNGEMFOuterClass.DDBNDHNGEMF.Builder builderForValue) {
@@ -1033,7 +1033,7 @@ public final class HDHLLCCCLJMOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 8;</code>
+       * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 7;</code>
        */
       public Builder addAllKDFMEPMGGHJ(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.DDBNDHNGEMFOuterClass.DDBNDHNGEMF> values) {
@@ -1048,7 +1048,7 @@ public final class HDHLLCCCLJMOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 8;</code>
+       * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 7;</code>
        */
       public Builder clearKDFMEPMGGHJ() {
         if (kDFMEPMGGHJBuilder_ == null) {
@@ -1061,7 +1061,7 @@ public final class HDHLLCCCLJMOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 8;</code>
+       * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 7;</code>
        */
       public Builder removeKDFMEPMGGHJ(int index) {
         if (kDFMEPMGGHJBuilder_ == null) {
@@ -1074,14 +1074,14 @@ public final class HDHLLCCCLJMOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 8;</code>
+       * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 7;</code>
        */
       public emu.grasscutter.net.proto.DDBNDHNGEMFOuterClass.DDBNDHNGEMF.Builder getKDFMEPMGGHJBuilder(
           int index) {
         return getKDFMEPMGGHJFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 8;</code>
+       * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 7;</code>
        */
       public emu.grasscutter.net.proto.DDBNDHNGEMFOuterClass.DDBNDHNGEMFOrBuilder getKDFMEPMGGHJOrBuilder(
           int index) {
@@ -1091,7 +1091,7 @@ public final class HDHLLCCCLJMOuterClass {
         }
       }
       /**
-       * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 8;</code>
+       * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 7;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.DDBNDHNGEMFOuterClass.DDBNDHNGEMFOrBuilder> 
            getKDFMEPMGGHJOrBuilderList() {
@@ -1102,14 +1102,14 @@ public final class HDHLLCCCLJMOuterClass {
         }
       }
       /**
-       * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 8;</code>
+       * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 7;</code>
        */
       public emu.grasscutter.net.proto.DDBNDHNGEMFOuterClass.DDBNDHNGEMF.Builder addKDFMEPMGGHJBuilder() {
         return getKDFMEPMGGHJFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.DDBNDHNGEMFOuterClass.DDBNDHNGEMF.getDefaultInstance());
       }
       /**
-       * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 8;</code>
+       * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 7;</code>
        */
       public emu.grasscutter.net.proto.DDBNDHNGEMFOuterClass.DDBNDHNGEMF.Builder addKDFMEPMGGHJBuilder(
           int index) {
@@ -1117,7 +1117,7 @@ public final class HDHLLCCCLJMOuterClass {
             index, emu.grasscutter.net.proto.DDBNDHNGEMFOuterClass.DDBNDHNGEMF.getDefaultInstance());
       }
       /**
-       * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 8;</code>
+       * <code>repeated .DDBNDHNGEMF KDFMEPMGGHJ = 7;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.DDBNDHNGEMFOuterClass.DDBNDHNGEMF.Builder> 
            getKDFMEPMGGHJBuilderList() {
@@ -1151,7 +1151,7 @@ public final class HDHLLCCCLJMOuterClass {
           emu.grasscutter.net.proto.PFFMGFPKANEOuterClass.PFFMGFPKANE, emu.grasscutter.net.proto.PFFMGFPKANEOuterClass.PFFMGFPKANE.Builder, emu.grasscutter.net.proto.PFFMGFPKANEOuterClass.PFFMGFPKANEOrBuilder> playerInfoListBuilder_;
 
       /**
-       * <code>repeated .PFFMGFPKANE player_info_list = 9;</code>
+       * <code>repeated .PFFMGFPKANE player_info_list = 2;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.PFFMGFPKANEOuterClass.PFFMGFPKANE> getPlayerInfoListList() {
         if (playerInfoListBuilder_ == null) {
@@ -1161,7 +1161,7 @@ public final class HDHLLCCCLJMOuterClass {
         }
       }
       /**
-       * <code>repeated .PFFMGFPKANE player_info_list = 9;</code>
+       * <code>repeated .PFFMGFPKANE player_info_list = 2;</code>
        */
       public int getPlayerInfoListCount() {
         if (playerInfoListBuilder_ == null) {
@@ -1171,7 +1171,7 @@ public final class HDHLLCCCLJMOuterClass {
         }
       }
       /**
-       * <code>repeated .PFFMGFPKANE player_info_list = 9;</code>
+       * <code>repeated .PFFMGFPKANE player_info_list = 2;</code>
        */
       public emu.grasscutter.net.proto.PFFMGFPKANEOuterClass.PFFMGFPKANE getPlayerInfoList(int index) {
         if (playerInfoListBuilder_ == null) {
@@ -1181,7 +1181,7 @@ public final class HDHLLCCCLJMOuterClass {
         }
       }
       /**
-       * <code>repeated .PFFMGFPKANE player_info_list = 9;</code>
+       * <code>repeated .PFFMGFPKANE player_info_list = 2;</code>
        */
       public Builder setPlayerInfoList(
           int index, emu.grasscutter.net.proto.PFFMGFPKANEOuterClass.PFFMGFPKANE value) {
@@ -1198,7 +1198,7 @@ public final class HDHLLCCCLJMOuterClass {
         return this;
       }
       /**
-       * <code>repeated .PFFMGFPKANE player_info_list = 9;</code>
+       * <code>repeated .PFFMGFPKANE player_info_list = 2;</code>
        */
       public Builder setPlayerInfoList(
           int index, emu.grasscutter.net.proto.PFFMGFPKANEOuterClass.PFFMGFPKANE.Builder builderForValue) {
@@ -1212,7 +1212,7 @@ public final class HDHLLCCCLJMOuterClass {
         return this;
       }
       /**
-       * <code>repeated .PFFMGFPKANE player_info_list = 9;</code>
+       * <code>repeated .PFFMGFPKANE player_info_list = 2;</code>
        */
       public Builder addPlayerInfoList(emu.grasscutter.net.proto.PFFMGFPKANEOuterClass.PFFMGFPKANE value) {
         if (playerInfoListBuilder_ == null) {
@@ -1228,7 +1228,7 @@ public final class HDHLLCCCLJMOuterClass {
         return this;
       }
       /**
-       * <code>repeated .PFFMGFPKANE player_info_list = 9;</code>
+       * <code>repeated .PFFMGFPKANE player_info_list = 2;</code>
        */
       public Builder addPlayerInfoList(
           int index, emu.grasscutter.net.proto.PFFMGFPKANEOuterClass.PFFMGFPKANE value) {
@@ -1245,7 +1245,7 @@ public final class HDHLLCCCLJMOuterClass {
         return this;
       }
       /**
-       * <code>repeated .PFFMGFPKANE player_info_list = 9;</code>
+       * <code>repeated .PFFMGFPKANE player_info_list = 2;</code>
        */
       public Builder addPlayerInfoList(
           emu.grasscutter.net.proto.PFFMGFPKANEOuterClass.PFFMGFPKANE.Builder builderForValue) {
@@ -1259,7 +1259,7 @@ public final class HDHLLCCCLJMOuterClass {
         return this;
       }
       /**
-       * <code>repeated .PFFMGFPKANE player_info_list = 9;</code>
+       * <code>repeated .PFFMGFPKANE player_info_list = 2;</code>
        */
       public Builder addPlayerInfoList(
           int index, emu.grasscutter.net.proto.PFFMGFPKANEOuterClass.PFFMGFPKANE.Builder builderForValue) {
@@ -1273,7 +1273,7 @@ public final class HDHLLCCCLJMOuterClass {
         return this;
       }
       /**
-       * <code>repeated .PFFMGFPKANE player_info_list = 9;</code>
+       * <code>repeated .PFFMGFPKANE player_info_list = 2;</code>
        */
       public Builder addAllPlayerInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.PFFMGFPKANEOuterClass.PFFMGFPKANE> values) {
@@ -1288,7 +1288,7 @@ public final class HDHLLCCCLJMOuterClass {
         return this;
       }
       /**
-       * <code>repeated .PFFMGFPKANE player_info_list = 9;</code>
+       * <code>repeated .PFFMGFPKANE player_info_list = 2;</code>
        */
       public Builder clearPlayerInfoList() {
         if (playerInfoListBuilder_ == null) {
@@ -1301,7 +1301,7 @@ public final class HDHLLCCCLJMOuterClass {
         return this;
       }
       /**
-       * <code>repeated .PFFMGFPKANE player_info_list = 9;</code>
+       * <code>repeated .PFFMGFPKANE player_info_list = 2;</code>
        */
       public Builder removePlayerInfoList(int index) {
         if (playerInfoListBuilder_ == null) {
@@ -1314,14 +1314,14 @@ public final class HDHLLCCCLJMOuterClass {
         return this;
       }
       /**
-       * <code>repeated .PFFMGFPKANE player_info_list = 9;</code>
+       * <code>repeated .PFFMGFPKANE player_info_list = 2;</code>
        */
       public emu.grasscutter.net.proto.PFFMGFPKANEOuterClass.PFFMGFPKANE.Builder getPlayerInfoListBuilder(
           int index) {
         return getPlayerInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .PFFMGFPKANE player_info_list = 9;</code>
+       * <code>repeated .PFFMGFPKANE player_info_list = 2;</code>
        */
       public emu.grasscutter.net.proto.PFFMGFPKANEOuterClass.PFFMGFPKANEOrBuilder getPlayerInfoListOrBuilder(
           int index) {
@@ -1331,7 +1331,7 @@ public final class HDHLLCCCLJMOuterClass {
         }
       }
       /**
-       * <code>repeated .PFFMGFPKANE player_info_list = 9;</code>
+       * <code>repeated .PFFMGFPKANE player_info_list = 2;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.PFFMGFPKANEOuterClass.PFFMGFPKANEOrBuilder> 
            getPlayerInfoListOrBuilderList() {
@@ -1342,14 +1342,14 @@ public final class HDHLLCCCLJMOuterClass {
         }
       }
       /**
-       * <code>repeated .PFFMGFPKANE player_info_list = 9;</code>
+       * <code>repeated .PFFMGFPKANE player_info_list = 2;</code>
        */
       public emu.grasscutter.net.proto.PFFMGFPKANEOuterClass.PFFMGFPKANE.Builder addPlayerInfoListBuilder() {
         return getPlayerInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.PFFMGFPKANEOuterClass.PFFMGFPKANE.getDefaultInstance());
       }
       /**
-       * <code>repeated .PFFMGFPKANE player_info_list = 9;</code>
+       * <code>repeated .PFFMGFPKANE player_info_list = 2;</code>
        */
       public emu.grasscutter.net.proto.PFFMGFPKANEOuterClass.PFFMGFPKANE.Builder addPlayerInfoListBuilder(
           int index) {
@@ -1357,7 +1357,7 @@ public final class HDHLLCCCLJMOuterClass {
             index, emu.grasscutter.net.proto.PFFMGFPKANEOuterClass.PFFMGFPKANE.getDefaultInstance());
       }
       /**
-       * <code>repeated .PFFMGFPKANE player_info_list = 9;</code>
+       * <code>repeated .PFFMGFPKANE player_info_list = 2;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.PFFMGFPKANEOuterClass.PFFMGFPKANE.Builder> 
            getPlayerInfoListBuilderList() {
@@ -1380,7 +1380,7 @@ public final class HDHLLCCCLJMOuterClass {
 
       private int scheduleId_ ;
       /**
-       * <code>uint32 schedule_id = 15;</code>
+       * <code>uint32 schedule_id = 4;</code>
        * @return The scheduleId.
        */
       @java.lang.Override
@@ -1388,7 +1388,7 @@ public final class HDHLLCCCLJMOuterClass {
         return scheduleId_;
       }
       /**
-       * <code>uint32 schedule_id = 15;</code>
+       * <code>uint32 schedule_id = 4;</code>
        * @param value The scheduleId to set.
        * @return This builder for chaining.
        */
@@ -1399,7 +1399,7 @@ public final class HDHLLCCCLJMOuterClass {
         return this;
       }
       /**
-       * <code>uint32 schedule_id = 15;</code>
+       * <code>uint32 schedule_id = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearScheduleId() {
@@ -1477,10 +1477,10 @@ public final class HDHLLCCCLJMOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HDHLLCCCLJM.proto\032\021DDBNDHNGEMF.proto\032\021" +
       "PFFMGFPKANE.proto\"\251\001\n\013HDHLLCCCLJM\022\022\n\ndif" +
-      "ficulty\030\004 \001(\r\022\023\n\013OIFKDFIFIOP\030\006 \001(\010\022\021\n\tti" +
-      "mestamp\030\007 \001(\006\022!\n\013KDFMEPMGGHJ\030\010 \003(\0132\014.DDB" +
-      "NDHNGEMF\022&\n\020player_info_list\030\t \003(\0132\014.PFF" +
-      "MGFPKANE\022\023\n\013schedule_id\030\017 \001(\rB2\n\031emu.gra" +
+      "ficulty\030\013 \001(\r\022\023\n\013OIFKDFIFIOP\030\016 \001(\010\022\021\n\tti" +
+      "mestamp\030\n \001(\006\022!\n\013KDFMEPMGGHJ\030\007 \003(\0132\014.DDB" +
+      "NDHNGEMF\022&\n\020player_info_list\030\002 \003(\0132\014.PFF" +
+      "MGFPKANE\022\023\n\013schedule_id\030\004 \001(\rB2\n\031emu.gra" +
       "sscutter.net.protoB\025HDHLLCCCLJMOuterClas" +
       "sb\006proto3"
     };

@@ -19,7 +19,7 @@ public final class ChangeTeamNameReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>int32 team_id = 7;</code>
+     * <code>int32 team_id = 9;</code>
      * @return The teamId.
      */
     int getTeamId();
@@ -82,7 +82,7 @@ public final class ChangeTeamNameReqOuterClass {
             case 0:
               done = true;
               break;
-            case 56: {
+            case 72: {
 
               teamId_ = input.readInt32();
               break;
@@ -125,10 +125,10 @@ public final class ChangeTeamNameReqOuterClass {
               emu.grasscutter.net.proto.ChangeTeamNameReqOuterClass.ChangeTeamNameReq.class, emu.grasscutter.net.proto.ChangeTeamNameReqOuterClass.ChangeTeamNameReq.Builder.class);
     }
 
-    public static final int TEAM_ID_FIELD_NUMBER = 7;
+    public static final int TEAM_ID_FIELD_NUMBER = 9;
     private int teamId_;
     /**
-     * <code>int32 team_id = 7;</code>
+     * <code>int32 team_id = 9;</code>
      * @return The teamId.
      */
     @java.lang.Override
@@ -189,7 +189,7 @@ public final class ChangeTeamNameReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (teamId_ != 0) {
-        output.writeInt32(7, teamId_);
+        output.writeInt32(9, teamId_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(teamName_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 15, teamName_);
@@ -205,7 +205,7 @@ public final class ChangeTeamNameReqOuterClass {
       size = 0;
       if (teamId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(7, teamId_);
+          .computeInt32Size(9, teamId_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(teamName_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(15, teamName_);
@@ -495,7 +495,7 @@ public final class ChangeTeamNameReqOuterClass {
 
       private int teamId_ ;
       /**
-       * <code>int32 team_id = 7;</code>
+       * <code>int32 team_id = 9;</code>
        * @return The teamId.
        */
       @java.lang.Override
@@ -503,7 +503,7 @@ public final class ChangeTeamNameReqOuterClass {
         return teamId_;
       }
       /**
-       * <code>int32 team_id = 7;</code>
+       * <code>int32 team_id = 9;</code>
        * @param value The teamId to set.
        * @return This builder for chaining.
        */
@@ -514,7 +514,7 @@ public final class ChangeTeamNameReqOuterClass {
         return this;
       }
       /**
-       * <code>int32 team_id = 7;</code>
+       * <code>int32 team_id = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearTeamId() {
@@ -667,7 +667,7 @@ public final class ChangeTeamNameReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\027ChangeTeamNameReq.proto\"7\n\021ChangeTeamN" +
-      "ameReq\022\017\n\007team_id\030\007 \001(\005\022\021\n\tteam_name\030\017 \001" +
+      "ameReq\022\017\n\007team_id\030\t \001(\005\022\021\n\tteam_name\030\017 \001" +
       "(\tB8\n\031emu.grasscutter.net.protoB\033ChangeT" +
       "eamNameReqOuterClassb\006proto3"
     };

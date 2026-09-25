@@ -6,5 +6,5 @@ option java_outer_classname = "PlayerHomeCompInfoNotifyOuterClass";
 import "PlayerHomeCompInfo.proto";
 
 message PlayerHomeCompInfoNotify {
-	PlayerHomeCompInfo comp_info = 4;
+	PlayerHomeCompInfo comp_info = 13;
 }

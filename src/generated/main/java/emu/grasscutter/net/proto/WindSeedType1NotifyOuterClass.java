@@ -19,22 +19,18 @@ public final class WindSeedType1NotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bytes payload = 11;</code>
-     * @return The payload.
-     */
-    com.google.protobuf.ByteString getPayload();
-
-    /**
-     * <code>uint32 config_id = 5;</code>
+     * <code>uint32 config_id = 10;</code>
      * @return The configId.
      */
     int getConfigId();
+
+    /**
+     * <code>bytes _payload = 5;</code>
+     * @return The payload.
+     */
+    com.google.protobuf.ByteString getPayload();
   }
   /**
-   * <pre>
-   * CmdId: 28821
-   * </pre>
-   *
    * Protobuf type {@code WindSeedType1Notify}
    */
   public static final class WindSeedType1Notify extends
@@ -47,7 +43,7 @@ public final class WindSeedType1NotifyOuterClass {
       super(builder);
     }
     private WindSeedType1Notify() {
-      payload_ = com.google.protobuf.ByteString.EMPTY;
+      Payload_ = com.google.protobuf.ByteString.EMPTY;
     }
 
     @java.lang.Override
@@ -80,14 +76,14 @@ public final class WindSeedType1NotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 40: {
+            case 42: {
 
-              configId_ = input.readUInt32();
+              Payload_ = input.readBytes();
               break;
             }
-            case 90: {
+            case 80: {
 
-              payload_ = input.readBytes();
+              configId_ = input.readUInt32();
               break;
             }
             default: {
@@ -122,26 +118,26 @@ public final class WindSeedType1NotifyOuterClass {
               emu.grasscutter.net.proto.WindSeedType1NotifyOuterClass.WindSeedType1Notify.class, emu.grasscutter.net.proto.WindSeedType1NotifyOuterClass.WindSeedType1Notify.Builder.class);
     }
 
-    public static final int PAYLOAD_FIELD_NUMBER = 11;
-    private com.google.protobuf.ByteString payload_;
-    /**
-     * <code>bytes payload = 11;</code>
-     * @return The payload.
-     */
-    @java.lang.Override
-    public com.google.protobuf.ByteString getPayload() {
-      return payload_;
-    }
-
-    public static final int CONFIG_ID_FIELD_NUMBER = 5;
+    public static final int CONFIG_ID_FIELD_NUMBER = 10;
     private int configId_;
     /**
-     * <code>uint32 config_id = 5;</code>
+     * <code>uint32 config_id = 10;</code>
      * @return The configId.
      */
     @java.lang.Override
     public int getConfigId() {
       return configId_;
+    }
+
+    public static final int _PAYLOAD_FIELD_NUMBER = 5;
+    private com.google.protobuf.ByteString Payload_;
+    /**
+     * <code>bytes _payload = 5;</code>
+     * @return The payload.
+     */
+    @java.lang.Override
+    public com.google.protobuf.ByteString getPayload() {
+      return Payload_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -158,11 +154,11 @@ public final class WindSeedType1NotifyOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (configId_ != 0) {
-        output.writeUInt32(5, configId_);
+      if (!Payload_.isEmpty()) {
+        output.writeBytes(5, Payload_);
       }
-      if (!payload_.isEmpty()) {
-        output.writeBytes(11, payload_);
+      if (configId_ != 0) {
+        output.writeUInt32(10, configId_);
       }
       unknownFields.writeTo(output);
     }
@@ -173,13 +169,13 @@ public final class WindSeedType1NotifyOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (!Payload_.isEmpty()) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(5, Payload_);
+      }
       if (configId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, configId_);
-      }
-      if (!payload_.isEmpty()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(11, payload_);
+          .computeUInt32Size(10, configId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -196,10 +192,10 @@ public final class WindSeedType1NotifyOuterClass {
       }
       emu.grasscutter.net.proto.WindSeedType1NotifyOuterClass.WindSeedType1Notify other = (emu.grasscutter.net.proto.WindSeedType1NotifyOuterClass.WindSeedType1Notify) obj;
 
-      if (!getPayload()
-          .equals(other.getPayload())) return false;
       if (getConfigId()
           != other.getConfigId()) return false;
+      if (!getPayload()
+          .equals(other.getPayload())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -211,10 +207,10 @@ public final class WindSeedType1NotifyOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + PAYLOAD_FIELD_NUMBER;
-      hash = (53 * hash) + getPayload().hashCode();
       hash = (37 * hash) + CONFIG_ID_FIELD_NUMBER;
       hash = (53 * hash) + getConfigId();
+      hash = (37 * hash) + _PAYLOAD_FIELD_NUMBER;
+      hash = (53 * hash) + getPayload().hashCode();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -311,10 +307,6 @@ public final class WindSeedType1NotifyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     * CmdId: 28821
-     * </pre>
-     *
      * Protobuf type {@code WindSeedType1Notify}
      */
     public static final class Builder extends
@@ -352,9 +344,9 @@ public final class WindSeedType1NotifyOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        payload_ = com.google.protobuf.ByteString.EMPTY;
-
         configId_ = 0;
+
+        Payload_ = com.google.protobuf.ByteString.EMPTY;
 
         return this;
       }
@@ -382,8 +374,8 @@ public final class WindSeedType1NotifyOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.WindSeedType1NotifyOuterClass.WindSeedType1Notify buildPartial() {
         emu.grasscutter.net.proto.WindSeedType1NotifyOuterClass.WindSeedType1Notify result = new emu.grasscutter.net.proto.WindSeedType1NotifyOuterClass.WindSeedType1Notify(this);
-        result.payload_ = payload_;
         result.configId_ = configId_;
+        result.Payload_ = Payload_;
         onBuilt();
         return result;
       }
@@ -432,11 +424,11 @@ public final class WindSeedType1NotifyOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.WindSeedType1NotifyOuterClass.WindSeedType1Notify other) {
         if (other == emu.grasscutter.net.proto.WindSeedType1NotifyOuterClass.WindSeedType1Notify.getDefaultInstance()) return this;
-        if (other.getPayload() != com.google.protobuf.ByteString.EMPTY) {
-          setPayload(other.getPayload());
-        }
         if (other.getConfigId() != 0) {
           setConfigId(other.getConfigId());
+        }
+        if (other.getPayload() != com.google.protobuf.ByteString.EMPTY) {
+          setPayload(other.getPayload());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -467,43 +459,9 @@ public final class WindSeedType1NotifyOuterClass {
         return this;
       }
 
-      private com.google.protobuf.ByteString payload_ = com.google.protobuf.ByteString.EMPTY;
-      /**
-       * <code>bytes payload = 11;</code>
-       * @return The payload.
-       */
-      @java.lang.Override
-      public com.google.protobuf.ByteString getPayload() {
-        return payload_;
-      }
-      /**
-       * <code>bytes payload = 11;</code>
-       * @param value The payload to set.
-       * @return This builder for chaining.
-       */
-      public Builder setPayload(com.google.protobuf.ByteString value) {
-        if (value == null) {
-    throw new NullPointerException();
-  }
-  
-        payload_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>bytes payload = 11;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearPayload() {
-        
-        payload_ = getDefaultInstance().getPayload();
-        onChanged();
-        return this;
-      }
-
       private int configId_ ;
       /**
-       * <code>uint32 config_id = 5;</code>
+       * <code>uint32 config_id = 10;</code>
        * @return The configId.
        */
       @java.lang.Override
@@ -511,7 +469,7 @@ public final class WindSeedType1NotifyOuterClass {
         return configId_;
       }
       /**
-       * <code>uint32 config_id = 5;</code>
+       * <code>uint32 config_id = 10;</code>
        * @param value The configId to set.
        * @return This builder for chaining.
        */
@@ -522,12 +480,46 @@ public final class WindSeedType1NotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 config_id = 5;</code>
+       * <code>uint32 config_id = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearConfigId() {
         
         configId_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private com.google.protobuf.ByteString Payload_ = com.google.protobuf.ByteString.EMPTY;
+      /**
+       * <code>bytes _payload = 5;</code>
+       * @return The payload.
+       */
+      @java.lang.Override
+      public com.google.protobuf.ByteString getPayload() {
+        return Payload_;
+      }
+      /**
+       * <code>bytes _payload = 5;</code>
+       * @param value The payload to set.
+       * @return This builder for chaining.
+       */
+      public Builder setPayload(com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  
+        Payload_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bytes _payload = 5;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearPayload() {
+        
+        Payload_ = getDefaultInstance().getPayload();
         onChanged();
         return this;
       }
@@ -598,10 +590,10 @@ public final class WindSeedType1NotifyOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\031WindSeedType1Notify.proto\"9\n\023WindSeedT" +
-      "ype1Notify\022\017\n\007payload\030\013 \001(\014\022\021\n\tconfig_id" +
-      "\030\005 \001(\rB\033\n\031emu.grasscutter.net.protob\006pro" +
-      "to3"
+      "\n\031WindSeedType1Notify.proto\":\n\023WindSeedT" +
+      "ype1Notify\022\021\n\tconfig_id\030\n \001(\r\022\020\n\010_payloa" +
+      "d\030\005 \001(\014B:\n\031emu.grasscutter.net.protoB\035Wi" +
+      "ndSeedType1NotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -612,7 +604,7 @@ public final class WindSeedType1NotifyOuterClass {
     internal_static_WindSeedType1Notify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_WindSeedType1Notify_descriptor,
-        new java.lang.String[] { "Payload", "ConfigId", });
+        new java.lang.String[] { "ConfigId", "Payload", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -6,7 +6,7 @@ option java_outer_classname = "_AquariumDivingLevelEventOuterClass";
 import "_AquariumDivingLevelEventType.proto";
 
 message _AquariumDivingLevelEvent {
-	uint32 level_id = 1;
-	repeated uint32 _event_param_list = 6;
-	_AquariumDivingLevelEventType event_type = 13;
+	uint32 level_id = 12;
+	repeated uint32 _event_param_list = 15;
+	_AquariumDivingLevelEventType event_type = 1;
 }

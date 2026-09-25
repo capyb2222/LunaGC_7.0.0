@@ -6,5 +6,5 @@ option java_outer_classname = "SetUpLunchBoxWidgetReqOuterClass";
 import "LunchBoxData.proto";
 
 message SetUpLunchBoxWidgetReq {
-	LunchBoxData lunch_box_data = 1;
+	LunchBoxData lunch_box_data = 4;
 }

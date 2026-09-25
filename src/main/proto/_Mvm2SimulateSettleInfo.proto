@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "_Mvm2SimulateSettleInfoOuterClass";
 
 message _Mvm2SimulateSettleInfo {
-	uint32 use_time = 4;
-	uint32 progress = 9;
+	uint32 use_time = 13;
+	uint32 progress = 7;
 }

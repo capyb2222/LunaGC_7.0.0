@@ -19,13 +19,13 @@ public final class LBFLDOEMDHPOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 cost_time = 4;</code>
+     * <code>uint32 cost_time = 2;</code>
      * @return The costTime.
      */
     int getCostTime();
 
     /**
-     * <code>bool is_finished = 12;</code>
+     * <code>bool is_finished = 10;</code>
      * @return The isFinished.
      */
     boolean getIsFinished();
@@ -81,12 +81,12 @@ public final class LBFLDOEMDHPOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 16: {
 
               costTime_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 80: {
 
               isFinished_ = input.readBool();
               break;
@@ -128,10 +128,10 @@ public final class LBFLDOEMDHPOuterClass {
               emu.grasscutter.net.proto.LBFLDOEMDHPOuterClass.LBFLDOEMDHP.class, emu.grasscutter.net.proto.LBFLDOEMDHPOuterClass.LBFLDOEMDHP.Builder.class);
     }
 
-    public static final int COST_TIME_FIELD_NUMBER = 4;
+    public static final int COST_TIME_FIELD_NUMBER = 2;
     private int costTime_;
     /**
-     * <code>uint32 cost_time = 4;</code>
+     * <code>uint32 cost_time = 2;</code>
      * @return The costTime.
      */
     @java.lang.Override
@@ -139,10 +139,10 @@ public final class LBFLDOEMDHPOuterClass {
       return costTime_;
     }
 
-    public static final int IS_FINISHED_FIELD_NUMBER = 12;
+    public static final int IS_FINISHED_FIELD_NUMBER = 10;
     private boolean isFinished_;
     /**
-     * <code>bool is_finished = 12;</code>
+     * <code>bool is_finished = 10;</code>
      * @return The isFinished.
      */
     @java.lang.Override
@@ -176,10 +176,10 @@ public final class LBFLDOEMDHPOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (costTime_ != 0) {
-        output.writeUInt32(4, costTime_);
+        output.writeUInt32(2, costTime_);
       }
       if (isFinished_ != false) {
-        output.writeBool(12, isFinished_);
+        output.writeBool(10, isFinished_);
       }
       if (levelId_ != 0) {
         output.writeUInt32(14, levelId_);
@@ -195,11 +195,11 @@ public final class LBFLDOEMDHPOuterClass {
       size = 0;
       if (costTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, costTime_);
+          .computeUInt32Size(2, costTime_);
       }
       if (isFinished_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, isFinished_);
+          .computeBoolSize(10, isFinished_);
       }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -500,7 +500,7 @@ public final class LBFLDOEMDHPOuterClass {
 
       private int costTime_ ;
       /**
-       * <code>uint32 cost_time = 4;</code>
+       * <code>uint32 cost_time = 2;</code>
        * @return The costTime.
        */
       @java.lang.Override
@@ -508,7 +508,7 @@ public final class LBFLDOEMDHPOuterClass {
         return costTime_;
       }
       /**
-       * <code>uint32 cost_time = 4;</code>
+       * <code>uint32 cost_time = 2;</code>
        * @param value The costTime to set.
        * @return This builder for chaining.
        */
@@ -519,7 +519,7 @@ public final class LBFLDOEMDHPOuterClass {
         return this;
       }
       /**
-       * <code>uint32 cost_time = 4;</code>
+       * <code>uint32 cost_time = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearCostTime() {
@@ -531,7 +531,7 @@ public final class LBFLDOEMDHPOuterClass {
 
       private boolean isFinished_ ;
       /**
-       * <code>bool is_finished = 12;</code>
+       * <code>bool is_finished = 10;</code>
        * @return The isFinished.
        */
       @java.lang.Override
@@ -539,7 +539,7 @@ public final class LBFLDOEMDHPOuterClass {
         return isFinished_;
       }
       /**
-       * <code>bool is_finished = 12;</code>
+       * <code>bool is_finished = 10;</code>
        * @param value The isFinished to set.
        * @return This builder for chaining.
        */
@@ -550,7 +550,7 @@ public final class LBFLDOEMDHPOuterClass {
         return this;
       }
       /**
-       * <code>bool is_finished = 12;</code>
+       * <code>bool is_finished = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsFinished() {
@@ -658,7 +658,7 @@ public final class LBFLDOEMDHPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021LBFLDOEMDHP.proto\"G\n\013LBFLDOEMDHP\022\021\n\tco" +
-      "st_time\030\004 \001(\r\022\023\n\013is_finished\030\014 \001(\010\022\020\n\010le" +
+      "st_time\030\002 \001(\r\022\023\n\013is_finished\030\n \001(\010\022\020\n\010le" +
       "vel_id\030\016 \001(\rB2\n\031emu.grasscutter.net.prot" +
       "oB\025LBFLDOEMDHPOuterClassb\006proto3"
     };

@@ -6,7 +6,7 @@ option java_outer_classname = "MLLGCECGGMEOuterClass";
 import "BHJLAGLDHCO.proto";
 
 message MLLGCECGGME {
-	bool is_open = 7;
-	uint32 KHJHFLNMNPC = 10;
-	repeated BHJLAGLDHCO IOEDAJLIHPC = 15;
+	bool is_open = 5;
+	uint32 KHJHFLNMNPC = 2;
+	repeated BHJLAGLDHCO IOEDAJLIHPC = 7;
 }

@@ -19,19 +19,19 @@ public final class NOIFPHKJJDOOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 max_score = 2;</code>
+     * <code>uint32 max_score = 5;</code>
      * @return The maxScore.
      */
     int getMaxScore();
 
     /**
-     * <code>bool is_unlock = 4;</code>
+     * <code>bool is_unlock = 1;</code>
      * @return The isUnlock.
      */
     boolean getIsUnlock();
 
     /**
-     * <code>uint32 music_basic_id = 5;</code>
+     * <code>uint32 music_basic_id = 14;</code>
      * @return The musicBasicId.
      */
     int getMusicBasicId();
@@ -81,17 +81,17 @@ public final class NOIFPHKJJDOOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
-
-              maxScore_ = input.readUInt32();
-              break;
-            }
-            case 32: {
+            case 8: {
 
               isUnlock_ = input.readBool();
               break;
             }
             case 40: {
+
+              maxScore_ = input.readUInt32();
+              break;
+            }
+            case 112: {
 
               musicBasicId_ = input.readUInt32();
               break;
@@ -128,10 +128,10 @@ public final class NOIFPHKJJDOOuterClass {
               emu.grasscutter.net.proto.NOIFPHKJJDOOuterClass.NOIFPHKJJDO.class, emu.grasscutter.net.proto.NOIFPHKJJDOOuterClass.NOIFPHKJJDO.Builder.class);
     }
 
-    public static final int MAX_SCORE_FIELD_NUMBER = 2;
+    public static final int MAX_SCORE_FIELD_NUMBER = 5;
     private int maxScore_;
     /**
-     * <code>uint32 max_score = 2;</code>
+     * <code>uint32 max_score = 5;</code>
      * @return The maxScore.
      */
     @java.lang.Override
@@ -139,10 +139,10 @@ public final class NOIFPHKJJDOOuterClass {
       return maxScore_;
     }
 
-    public static final int IS_UNLOCK_FIELD_NUMBER = 4;
+    public static final int IS_UNLOCK_FIELD_NUMBER = 1;
     private boolean isUnlock_;
     /**
-     * <code>bool is_unlock = 4;</code>
+     * <code>bool is_unlock = 1;</code>
      * @return The isUnlock.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class NOIFPHKJJDOOuterClass {
       return isUnlock_;
     }
 
-    public static final int MUSIC_BASIC_ID_FIELD_NUMBER = 5;
+    public static final int MUSIC_BASIC_ID_FIELD_NUMBER = 14;
     private int musicBasicId_;
     /**
-     * <code>uint32 music_basic_id = 5;</code>
+     * <code>uint32 music_basic_id = 14;</code>
      * @return The musicBasicId.
      */
     @java.lang.Override
@@ -175,14 +175,14 @@ public final class NOIFPHKJJDOOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (maxScore_ != 0) {
-        output.writeUInt32(2, maxScore_);
-      }
       if (isUnlock_ != false) {
-        output.writeBool(4, isUnlock_);
+        output.writeBool(1, isUnlock_);
+      }
+      if (maxScore_ != 0) {
+        output.writeUInt32(5, maxScore_);
       }
       if (musicBasicId_ != 0) {
-        output.writeUInt32(5, musicBasicId_);
+        output.writeUInt32(14, musicBasicId_);
       }
       unknownFields.writeTo(output);
     }
@@ -193,17 +193,17 @@ public final class NOIFPHKJJDOOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (maxScore_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, maxScore_);
-      }
       if (isUnlock_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(4, isUnlock_);
+          .computeBoolSize(1, isUnlock_);
+      }
+      if (maxScore_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(5, maxScore_);
       }
       if (musicBasicId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, musicBasicId_);
+          .computeUInt32Size(14, musicBasicId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -500,7 +500,7 @@ public final class NOIFPHKJJDOOuterClass {
 
       private int maxScore_ ;
       /**
-       * <code>uint32 max_score = 2;</code>
+       * <code>uint32 max_score = 5;</code>
        * @return The maxScore.
        */
       @java.lang.Override
@@ -508,7 +508,7 @@ public final class NOIFPHKJJDOOuterClass {
         return maxScore_;
       }
       /**
-       * <code>uint32 max_score = 2;</code>
+       * <code>uint32 max_score = 5;</code>
        * @param value The maxScore to set.
        * @return This builder for chaining.
        */
@@ -519,7 +519,7 @@ public final class NOIFPHKJJDOOuterClass {
         return this;
       }
       /**
-       * <code>uint32 max_score = 2;</code>
+       * <code>uint32 max_score = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearMaxScore() {
@@ -531,7 +531,7 @@ public final class NOIFPHKJJDOOuterClass {
 
       private boolean isUnlock_ ;
       /**
-       * <code>bool is_unlock = 4;</code>
+       * <code>bool is_unlock = 1;</code>
        * @return The isUnlock.
        */
       @java.lang.Override
@@ -539,7 +539,7 @@ public final class NOIFPHKJJDOOuterClass {
         return isUnlock_;
       }
       /**
-       * <code>bool is_unlock = 4;</code>
+       * <code>bool is_unlock = 1;</code>
        * @param value The isUnlock to set.
        * @return This builder for chaining.
        */
@@ -550,7 +550,7 @@ public final class NOIFPHKJJDOOuterClass {
         return this;
       }
       /**
-       * <code>bool is_unlock = 4;</code>
+       * <code>bool is_unlock = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsUnlock() {
@@ -562,7 +562,7 @@ public final class NOIFPHKJJDOOuterClass {
 
       private int musicBasicId_ ;
       /**
-       * <code>uint32 music_basic_id = 5;</code>
+       * <code>uint32 music_basic_id = 14;</code>
        * @return The musicBasicId.
        */
       @java.lang.Override
@@ -570,7 +570,7 @@ public final class NOIFPHKJJDOOuterClass {
         return musicBasicId_;
       }
       /**
-       * <code>uint32 music_basic_id = 5;</code>
+       * <code>uint32 music_basic_id = 14;</code>
        * @param value The musicBasicId to set.
        * @return This builder for chaining.
        */
@@ -581,7 +581,7 @@ public final class NOIFPHKJJDOOuterClass {
         return this;
       }
       /**
-       * <code>uint32 music_basic_id = 5;</code>
+       * <code>uint32 music_basic_id = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearMusicBasicId() {
@@ -658,8 +658,8 @@ public final class NOIFPHKJJDOOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NOIFPHKJJDO.proto\"K\n\013NOIFPHKJJDO\022\021\n\tma" +
-      "x_score\030\002 \001(\r\022\021\n\tis_unlock\030\004 \001(\010\022\026\n\016musi" +
-      "c_basic_id\030\005 \001(\rB2\n\031emu.grasscutter.net." +
+      "x_score\030\005 \001(\r\022\021\n\tis_unlock\030\001 \001(\010\022\026\n\016musi" +
+      "c_basic_id\030\016 \001(\rB2\n\031emu.grasscutter.net." +
       "protoB\025NOIFPHKJJDOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

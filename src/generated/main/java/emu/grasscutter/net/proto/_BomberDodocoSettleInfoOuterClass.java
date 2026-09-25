@@ -19,7 +19,7 @@ public final class _BomberDodocoSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 game_time = 6;</code>
+     * <code>uint32 game_time = 1;</code>
      * @return The gameTime.
      */
     int getGameTime();
@@ -69,7 +69,7 @@ public final class _BomberDodocoSettleInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
+            case 8: {
 
               gameTime_ = input.readUInt32();
               break;
@@ -106,10 +106,10 @@ public final class _BomberDodocoSettleInfoOuterClass {
               emu.grasscutter.net.proto._BomberDodocoSettleInfoOuterClass._BomberDodocoSettleInfo.class, emu.grasscutter.net.proto._BomberDodocoSettleInfoOuterClass._BomberDodocoSettleInfo.Builder.class);
     }
 
-    public static final int GAME_TIME_FIELD_NUMBER = 6;
+    public static final int GAME_TIME_FIELD_NUMBER = 1;
     private int gameTime_;
     /**
-     * <code>uint32 game_time = 6;</code>
+     * <code>uint32 game_time = 1;</code>
      * @return The gameTime.
      */
     @java.lang.Override
@@ -132,7 +132,7 @@ public final class _BomberDodocoSettleInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (gameTime_ != 0) {
-        output.writeUInt32(6, gameTime_);
+        output.writeUInt32(1, gameTime_);
       }
       unknownFields.writeTo(output);
     }
@@ -145,7 +145,7 @@ public final class _BomberDodocoSettleInfoOuterClass {
       size = 0;
       if (gameTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, gameTime_);
+          .computeUInt32Size(1, gameTime_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -421,7 +421,7 @@ public final class _BomberDodocoSettleInfoOuterClass {
 
       private int gameTime_ ;
       /**
-       * <code>uint32 game_time = 6;</code>
+       * <code>uint32 game_time = 1;</code>
        * @return The gameTime.
        */
       @java.lang.Override
@@ -429,7 +429,7 @@ public final class _BomberDodocoSettleInfoOuterClass {
         return gameTime_;
       }
       /**
-       * <code>uint32 game_time = 6;</code>
+       * <code>uint32 game_time = 1;</code>
        * @param value The gameTime to set.
        * @return This builder for chaining.
        */
@@ -440,7 +440,7 @@ public final class _BomberDodocoSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 game_time = 6;</code>
+       * <code>uint32 game_time = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearGameTime() {
@@ -517,7 +517,7 @@ public final class _BomberDodocoSettleInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\035_BomberDodocoSettleInfo.proto\",\n\027_Bomb" +
-      "erDodocoSettleInfo\022\021\n\tgame_time\030\006 \001(\rB>\n" +
+      "erDodocoSettleInfo\022\021\n\tgame_time\030\001 \001(\rB>\n" +
       "\031emu.grasscutter.net.protoB!_BomberDodoc" +
       "oSettleInfoOuterClassb\006proto3"
     };

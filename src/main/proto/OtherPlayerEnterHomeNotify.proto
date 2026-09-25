@@ -9,6 +9,6 @@ message OtherPlayerEnterHomeNotify {
 		ENTER = 1;
 		LEAVE = 2;
 	}
-	string nickname = 12;
-	Reason reason = 13;
+	string nickname = 3;
+	Reason reason = 7;
 }

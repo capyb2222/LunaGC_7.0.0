@@ -4,11 +4,11 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "PHPBCLPALELOuterClass";
 
 message PHPBCLPALEL {
-	uint32 HNFMJGOFMBG = 2;
-	uint32 NMHDKNDDLMC = 5;
+	uint32 HNFMJGOFMBG = 11;
+	uint32 NMHDKNDDLMC = 1;
 	uint32 level_id = 8;
-	bool is_finish = 9;
-	bool KIEMHBNNEBF = 11;
-	uint32 PDLNMDDFNPC = 13;
-	repeated uint32 NHDHPIAOEGE = 15;
+	bool is_finish = 5;
+	bool KIEMHBNNEBF = 12;
+	uint32 PDLNMDDFNPC = 2;
+	repeated uint32 NHDHPIAOEGE = 6;
 }

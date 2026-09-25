@@ -19,107 +19,107 @@ public final class _AdventurerStatueDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .ItemParam GPBHPMHGEIJ = 4;</code>
+     * <code>repeated .ItemParam GPBHPMHGEIJ = 50000;</code>
      */
     java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> 
         getGPBHPMHGEIJList();
     /**
-     * <code>repeated .ItemParam GPBHPMHGEIJ = 4;</code>
+     * <code>repeated .ItemParam GPBHPMHGEIJ = 50000;</code>
      */
     emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getGPBHPMHGEIJ(int index);
     /**
-     * <code>repeated .ItemParam GPBHPMHGEIJ = 4;</code>
+     * <code>repeated .ItemParam GPBHPMHGEIJ = 50000;</code>
      */
     int getGPBHPMHGEIJCount();
     /**
-     * <code>repeated .ItemParam GPBHPMHGEIJ = 4;</code>
+     * <code>repeated .ItemParam GPBHPMHGEIJ = 50000;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
         getGPBHPMHGEIJOrBuilderList();
     /**
-     * <code>repeated .ItemParam GPBHPMHGEIJ = 4;</code>
+     * <code>repeated .ItemParam GPBHPMHGEIJ = 50000;</code>
      */
     emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getGPBHPMHGEIJOrBuilder(
         int index);
 
     /**
-     * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 8;</code>
+     * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 50001;</code>
      */
     java.util.List<emu.grasscutter.net.proto.GAEECEOCDEJOuterClass.GAEECEOCDEJ> 
         getONPHKHNELAAList();
     /**
-     * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 8;</code>
+     * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 50001;</code>
      */
     emu.grasscutter.net.proto.GAEECEOCDEJOuterClass.GAEECEOCDEJ getONPHKHNELAA(int index);
     /**
-     * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 8;</code>
+     * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 50001;</code>
      */
     int getONPHKHNELAACount();
     /**
-     * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 8;</code>
+     * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 50001;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.GAEECEOCDEJOuterClass.GAEECEOCDEJOrBuilder> 
         getONPHKHNELAAOrBuilderList();
     /**
-     * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 8;</code>
+     * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 50001;</code>
      */
     emu.grasscutter.net.proto.GAEECEOCDEJOuterClass.GAEECEOCDEJOrBuilder getONPHKHNELAAOrBuilder(
         int index);
 
     /**
-     * <code>uint32 HAEEPFDNNIJ = 9;</code>
+     * <code>uint32 HAEEPFDNNIJ = 50002;</code>
      * @return The hAEEPFDNNIJ.
      */
     int getHAEEPFDNNIJ();
 
     /**
-     * <code>uint32 MLJLLMKIAEK = 10;</code>
+     * <code>uint32 MLJLLMKIAEK = 50003;</code>
      * @return The mLJLLMKIAEK.
      */
     int getMLJLLMKIAEK();
 
     /**
-     * <code>repeated .ItemParam LHPCAMJGPPN = 11;</code>
+     * <code>repeated .ItemParam LHPCAMJGPPN = 50004;</code>
      */
     java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> 
         getLHPCAMJGPPNList();
     /**
-     * <code>repeated .ItemParam LHPCAMJGPPN = 11;</code>
+     * <code>repeated .ItemParam LHPCAMJGPPN = 50004;</code>
      */
     emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getLHPCAMJGPPN(int index);
     /**
-     * <code>repeated .ItemParam LHPCAMJGPPN = 11;</code>
+     * <code>repeated .ItemParam LHPCAMJGPPN = 50004;</code>
      */
     int getLHPCAMJGPPNCount();
     /**
-     * <code>repeated .ItemParam LHPCAMJGPPN = 11;</code>
+     * <code>repeated .ItemParam LHPCAMJGPPN = 50004;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
         getLHPCAMJGPPNOrBuilderList();
     /**
-     * <code>repeated .ItemParam LHPCAMJGPPN = 11;</code>
+     * <code>repeated .ItemParam LHPCAMJGPPN = 50004;</code>
      */
     emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getLHPCAMJGPPNOrBuilder(
         int index);
 
     /**
-     * <code>uint32 DLKAPMLCIGN = 13;</code>
+     * <code>uint32 DLKAPMLCIGN = 50005;</code>
      * @return The dLKAPMLCIGN.
      */
     int getDLKAPMLCIGN();
 
     /**
-     * <code>repeated uint32 open_stage_list = 14;</code>
+     * <code>repeated uint32 open_stage_list = 15;</code>
      * @return A list containing the openStageList.
      */
     java.util.List<java.lang.Integer> getOpenStageListList();
     /**
-     * <code>repeated uint32 open_stage_list = 14;</code>
+     * <code>repeated uint32 open_stage_list = 15;</code>
      * @return The count of openStageList.
      */
     int getOpenStageListCount();
     /**
-     * <code>repeated uint32 open_stage_list = 14;</code>
+     * <code>repeated uint32 open_stage_list = 15;</code>
      * @param index The index of the element to return.
      * @return The openStageList at the given index.
      */
@@ -175,49 +175,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 34: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                gPBHPMHGEIJ_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              gPBHPMHGEIJ_.add(
-                  input.readMessage(emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.parser(), extensionRegistry));
-              break;
-            }
-            case 66: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                oNPHKHNELAA_ = new java.util.ArrayList<emu.grasscutter.net.proto.GAEECEOCDEJOuterClass.GAEECEOCDEJ>();
-                mutable_bitField0_ |= 0x00000002;
-              }
-              oNPHKHNELAA_.add(
-                  input.readMessage(emu.grasscutter.net.proto.GAEECEOCDEJOuterClass.GAEECEOCDEJ.parser(), extensionRegistry));
-              break;
-            }
-            case 72: {
-
-              hAEEPFDNNIJ_ = input.readUInt32();
-              break;
-            }
-            case 80: {
-
-              mLJLLMKIAEK_ = input.readUInt32();
-              break;
-            }
-            case 90: {
-              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
-                lHPCAMJGPPN_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>();
-                mutable_bitField0_ |= 0x00000004;
-              }
-              lHPCAMJGPPN_.add(
-                  input.readMessage(emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.parser(), extensionRegistry));
-              break;
-            }
-            case 104: {
-
-              dLKAPMLCIGN_ = input.readUInt32();
-              break;
-            }
-            case 112: {
+            case 120: {
               if (!((mutable_bitField0_ & 0x00000008) != 0)) {
                 openStageList_ = newIntList();
                 mutable_bitField0_ |= 0x00000008;
@@ -225,7 +183,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
               openStageList_.addInt(input.readUInt32());
               break;
             }
-            case 114: {
+            case 122: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000008) != 0) && input.getBytesUntilLimit() > 0) {
@@ -236,6 +194,48 @@ public final class _AdventurerStatueDetailInfoOuterClass {
                 openStageList_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
+              break;
+            }
+            case 400002: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                gPBHPMHGEIJ_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              gPBHPMHGEIJ_.add(
+                  input.readMessage(emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.parser(), extensionRegistry));
+              break;
+            }
+            case 400010: {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                oNPHKHNELAA_ = new java.util.ArrayList<emu.grasscutter.net.proto.GAEECEOCDEJOuterClass.GAEECEOCDEJ>();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              oNPHKHNELAA_.add(
+                  input.readMessage(emu.grasscutter.net.proto.GAEECEOCDEJOuterClass.GAEECEOCDEJ.parser(), extensionRegistry));
+              break;
+            }
+            case 400016: {
+
+              hAEEPFDNNIJ_ = input.readUInt32();
+              break;
+            }
+            case 400024: {
+
+              mLJLLMKIAEK_ = input.readUInt32();
+              break;
+            }
+            case 400034: {
+              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
+                lHPCAMJGPPN_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>();
+                mutable_bitField0_ |= 0x00000004;
+              }
+              lHPCAMJGPPN_.add(
+                  input.readMessage(emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.parser(), extensionRegistry));
+              break;
+            }
+            case 400040: {
+
+              dLKAPMLCIGN_ = input.readUInt32();
               break;
             }
             default: {
@@ -253,6 +253,9 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
+        if (((mutable_bitField0_ & 0x00000008) != 0)) {
+          openStageList_.makeImmutable(); // C
+        }
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
           gPBHPMHGEIJ_ = java.util.Collections.unmodifiableList(gPBHPMHGEIJ_);
         }
@@ -261,9 +264,6 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         }
         if (((mutable_bitField0_ & 0x00000004) != 0)) {
           lHPCAMJGPPN_ = java.util.Collections.unmodifiableList(lHPCAMJGPPN_);
-        }
-        if (((mutable_bitField0_ & 0x00000008) != 0)) {
-          openStageList_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -282,17 +282,17 @@ public final class _AdventurerStatueDetailInfoOuterClass {
               emu.grasscutter.net.proto._AdventurerStatueDetailInfoOuterClass._AdventurerStatueDetailInfo.class, emu.grasscutter.net.proto._AdventurerStatueDetailInfoOuterClass._AdventurerStatueDetailInfo.Builder.class);
     }
 
-    public static final int GPBHPMHGEIJ_FIELD_NUMBER = 4;
+    public static final int GPBHPMHGEIJ_FIELD_NUMBER = 50000;
     private java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> gPBHPMHGEIJ_;
     /**
-     * <code>repeated .ItemParam GPBHPMHGEIJ = 4;</code>
+     * <code>repeated .ItemParam GPBHPMHGEIJ = 50000;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> getGPBHPMHGEIJList() {
       return gPBHPMHGEIJ_;
     }
     /**
-     * <code>repeated .ItemParam GPBHPMHGEIJ = 4;</code>
+     * <code>repeated .ItemParam GPBHPMHGEIJ = 50000;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
@@ -300,21 +300,21 @@ public final class _AdventurerStatueDetailInfoOuterClass {
       return gPBHPMHGEIJ_;
     }
     /**
-     * <code>repeated .ItemParam GPBHPMHGEIJ = 4;</code>
+     * <code>repeated .ItemParam GPBHPMHGEIJ = 50000;</code>
      */
     @java.lang.Override
     public int getGPBHPMHGEIJCount() {
       return gPBHPMHGEIJ_.size();
     }
     /**
-     * <code>repeated .ItemParam GPBHPMHGEIJ = 4;</code>
+     * <code>repeated .ItemParam GPBHPMHGEIJ = 50000;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getGPBHPMHGEIJ(int index) {
       return gPBHPMHGEIJ_.get(index);
     }
     /**
-     * <code>repeated .ItemParam GPBHPMHGEIJ = 4;</code>
+     * <code>repeated .ItemParam GPBHPMHGEIJ = 50000;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getGPBHPMHGEIJOrBuilder(
@@ -322,17 +322,17 @@ public final class _AdventurerStatueDetailInfoOuterClass {
       return gPBHPMHGEIJ_.get(index);
     }
 
-    public static final int ONPHKHNELAA_FIELD_NUMBER = 8;
+    public static final int ONPHKHNELAA_FIELD_NUMBER = 50001;
     private java.util.List<emu.grasscutter.net.proto.GAEECEOCDEJOuterClass.GAEECEOCDEJ> oNPHKHNELAA_;
     /**
-     * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 8;</code>
+     * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 50001;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.GAEECEOCDEJOuterClass.GAEECEOCDEJ> getONPHKHNELAAList() {
       return oNPHKHNELAA_;
     }
     /**
-     * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 8;</code>
+     * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 50001;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.GAEECEOCDEJOuterClass.GAEECEOCDEJOrBuilder> 
@@ -340,21 +340,21 @@ public final class _AdventurerStatueDetailInfoOuterClass {
       return oNPHKHNELAA_;
     }
     /**
-     * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 8;</code>
+     * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 50001;</code>
      */
     @java.lang.Override
     public int getONPHKHNELAACount() {
       return oNPHKHNELAA_.size();
     }
     /**
-     * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 8;</code>
+     * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 50001;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.GAEECEOCDEJOuterClass.GAEECEOCDEJ getONPHKHNELAA(int index) {
       return oNPHKHNELAA_.get(index);
     }
     /**
-     * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 8;</code>
+     * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 50001;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.GAEECEOCDEJOuterClass.GAEECEOCDEJOrBuilder getONPHKHNELAAOrBuilder(
@@ -362,10 +362,10 @@ public final class _AdventurerStatueDetailInfoOuterClass {
       return oNPHKHNELAA_.get(index);
     }
 
-    public static final int HAEEPFDNNIJ_FIELD_NUMBER = 9;
+    public static final int HAEEPFDNNIJ_FIELD_NUMBER = 50002;
     private int hAEEPFDNNIJ_;
     /**
-     * <code>uint32 HAEEPFDNNIJ = 9;</code>
+     * <code>uint32 HAEEPFDNNIJ = 50002;</code>
      * @return The hAEEPFDNNIJ.
      */
     @java.lang.Override
@@ -373,10 +373,10 @@ public final class _AdventurerStatueDetailInfoOuterClass {
       return hAEEPFDNNIJ_;
     }
 
-    public static final int MLJLLMKIAEK_FIELD_NUMBER = 10;
+    public static final int MLJLLMKIAEK_FIELD_NUMBER = 50003;
     private int mLJLLMKIAEK_;
     /**
-     * <code>uint32 MLJLLMKIAEK = 10;</code>
+     * <code>uint32 MLJLLMKIAEK = 50003;</code>
      * @return The mLJLLMKIAEK.
      */
     @java.lang.Override
@@ -384,17 +384,17 @@ public final class _AdventurerStatueDetailInfoOuterClass {
       return mLJLLMKIAEK_;
     }
 
-    public static final int LHPCAMJGPPN_FIELD_NUMBER = 11;
+    public static final int LHPCAMJGPPN_FIELD_NUMBER = 50004;
     private java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> lHPCAMJGPPN_;
     /**
-     * <code>repeated .ItemParam LHPCAMJGPPN = 11;</code>
+     * <code>repeated .ItemParam LHPCAMJGPPN = 50004;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> getLHPCAMJGPPNList() {
       return lHPCAMJGPPN_;
     }
     /**
-     * <code>repeated .ItemParam LHPCAMJGPPN = 11;</code>
+     * <code>repeated .ItemParam LHPCAMJGPPN = 50004;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
@@ -402,21 +402,21 @@ public final class _AdventurerStatueDetailInfoOuterClass {
       return lHPCAMJGPPN_;
     }
     /**
-     * <code>repeated .ItemParam LHPCAMJGPPN = 11;</code>
+     * <code>repeated .ItemParam LHPCAMJGPPN = 50004;</code>
      */
     @java.lang.Override
     public int getLHPCAMJGPPNCount() {
       return lHPCAMJGPPN_.size();
     }
     /**
-     * <code>repeated .ItemParam LHPCAMJGPPN = 11;</code>
+     * <code>repeated .ItemParam LHPCAMJGPPN = 50004;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getLHPCAMJGPPN(int index) {
       return lHPCAMJGPPN_.get(index);
     }
     /**
-     * <code>repeated .ItemParam LHPCAMJGPPN = 11;</code>
+     * <code>repeated .ItemParam LHPCAMJGPPN = 50004;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getLHPCAMJGPPNOrBuilder(
@@ -424,10 +424,10 @@ public final class _AdventurerStatueDetailInfoOuterClass {
       return lHPCAMJGPPN_.get(index);
     }
 
-    public static final int DLKAPMLCIGN_FIELD_NUMBER = 13;
+    public static final int DLKAPMLCIGN_FIELD_NUMBER = 50005;
     private int dLKAPMLCIGN_;
     /**
-     * <code>uint32 DLKAPMLCIGN = 13;</code>
+     * <code>uint32 DLKAPMLCIGN = 50005;</code>
      * @return The dLKAPMLCIGN.
      */
     @java.lang.Override
@@ -435,10 +435,10 @@ public final class _AdventurerStatueDetailInfoOuterClass {
       return dLKAPMLCIGN_;
     }
 
-    public static final int OPEN_STAGE_LIST_FIELD_NUMBER = 14;
+    public static final int OPEN_STAGE_LIST_FIELD_NUMBER = 15;
     private com.google.protobuf.Internal.IntList openStageList_;
     /**
-     * <code>repeated uint32 open_stage_list = 14;</code>
+     * <code>repeated uint32 open_stage_list = 15;</code>
      * @return A list containing the openStageList.
      */
     @java.lang.Override
@@ -447,14 +447,14 @@ public final class _AdventurerStatueDetailInfoOuterClass {
       return openStageList_;
     }
     /**
-     * <code>repeated uint32 open_stage_list = 14;</code>
+     * <code>repeated uint32 open_stage_list = 15;</code>
      * @return The count of openStageList.
      */
     public int getOpenStageListCount() {
       return openStageList_.size();
     }
     /**
-     * <code>repeated uint32 open_stage_list = 14;</code>
+     * <code>repeated uint32 open_stage_list = 15;</code>
      * @param index The index of the element to return.
      * @return The openStageList at the given index.
      */
@@ -478,30 +478,30 @@ public final class _AdventurerStatueDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      for (int i = 0; i < gPBHPMHGEIJ_.size(); i++) {
-        output.writeMessage(4, gPBHPMHGEIJ_.get(i));
-      }
-      for (int i = 0; i < oNPHKHNELAA_.size(); i++) {
-        output.writeMessage(8, oNPHKHNELAA_.get(i));
-      }
-      if (hAEEPFDNNIJ_ != 0) {
-        output.writeUInt32(9, hAEEPFDNNIJ_);
-      }
-      if (mLJLLMKIAEK_ != 0) {
-        output.writeUInt32(10, mLJLLMKIAEK_);
-      }
-      for (int i = 0; i < lHPCAMJGPPN_.size(); i++) {
-        output.writeMessage(11, lHPCAMJGPPN_.get(i));
-      }
-      if (dLKAPMLCIGN_ != 0) {
-        output.writeUInt32(13, dLKAPMLCIGN_);
-      }
       if (getOpenStageListList().size() > 0) {
-        output.writeUInt32NoTag(114);
+        output.writeUInt32NoTag(122);
         output.writeUInt32NoTag(openStageListMemoizedSerializedSize);
       }
       for (int i = 0; i < openStageList_.size(); i++) {
         output.writeUInt32NoTag(openStageList_.getInt(i));
+      }
+      for (int i = 0; i < gPBHPMHGEIJ_.size(); i++) {
+        output.writeMessage(50000, gPBHPMHGEIJ_.get(i));
+      }
+      for (int i = 0; i < oNPHKHNELAA_.size(); i++) {
+        output.writeMessage(50001, oNPHKHNELAA_.get(i));
+      }
+      if (hAEEPFDNNIJ_ != 0) {
+        output.writeUInt32(50002, hAEEPFDNNIJ_);
+      }
+      if (mLJLLMKIAEK_ != 0) {
+        output.writeUInt32(50003, mLJLLMKIAEK_);
+      }
+      for (int i = 0; i < lHPCAMJGPPN_.size(); i++) {
+        output.writeMessage(50004, lHPCAMJGPPN_.get(i));
+      }
+      if (dLKAPMLCIGN_ != 0) {
+        output.writeUInt32(50005, dLKAPMLCIGN_);
       }
       unknownFields.writeTo(output);
     }
@@ -512,30 +512,6 @@ public final class _AdventurerStatueDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < gPBHPMHGEIJ_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, gPBHPMHGEIJ_.get(i));
-      }
-      for (int i = 0; i < oNPHKHNELAA_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, oNPHKHNELAA_.get(i));
-      }
-      if (hAEEPFDNNIJ_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, hAEEPFDNNIJ_);
-      }
-      if (mLJLLMKIAEK_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, mLJLLMKIAEK_);
-      }
-      for (int i = 0; i < lHPCAMJGPPN_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, lHPCAMJGPPN_.get(i));
-      }
-      if (dLKAPMLCIGN_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, dLKAPMLCIGN_);
-      }
       {
         int dataSize = 0;
         for (int i = 0; i < openStageList_.size(); i++) {
@@ -549,6 +525,30 @@ public final class _AdventurerStatueDetailInfoOuterClass {
               .computeInt32SizeNoTag(dataSize);
         }
         openStageListMemoizedSerializedSize = dataSize;
+      }
+      for (int i = 0; i < gPBHPMHGEIJ_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(50000, gPBHPMHGEIJ_.get(i));
+      }
+      for (int i = 0; i < oNPHKHNELAA_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(50001, oNPHKHNELAA_.get(i));
+      }
+      if (hAEEPFDNNIJ_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50002, hAEEPFDNNIJ_);
+      }
+      if (mLJLLMKIAEK_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50003, mLJLLMKIAEK_);
+      }
+      for (int i = 0; i < lHPCAMJGPPN_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(50004, lHPCAMJGPPN_.get(i));
+      }
+      if (dLKAPMLCIGN_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50005, dLKAPMLCIGN_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1024,7 +1024,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
           emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> gPBHPMHGEIJBuilder_;
 
       /**
-       * <code>repeated .ItemParam GPBHPMHGEIJ = 4;</code>
+       * <code>repeated .ItemParam GPBHPMHGEIJ = 50000;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> getGPBHPMHGEIJList() {
         if (gPBHPMHGEIJBuilder_ == null) {
@@ -1034,7 +1034,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ItemParam GPBHPMHGEIJ = 4;</code>
+       * <code>repeated .ItemParam GPBHPMHGEIJ = 50000;</code>
        */
       public int getGPBHPMHGEIJCount() {
         if (gPBHPMHGEIJBuilder_ == null) {
@@ -1044,7 +1044,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ItemParam GPBHPMHGEIJ = 4;</code>
+       * <code>repeated .ItemParam GPBHPMHGEIJ = 50000;</code>
        */
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getGPBHPMHGEIJ(int index) {
         if (gPBHPMHGEIJBuilder_ == null) {
@@ -1054,7 +1054,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ItemParam GPBHPMHGEIJ = 4;</code>
+       * <code>repeated .ItemParam GPBHPMHGEIJ = 50000;</code>
        */
       public Builder setGPBHPMHGEIJ(
           int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam value) {
@@ -1071,7 +1071,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam GPBHPMHGEIJ = 4;</code>
+       * <code>repeated .ItemParam GPBHPMHGEIJ = 50000;</code>
        */
       public Builder setGPBHPMHGEIJ(
           int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder builderForValue) {
@@ -1085,7 +1085,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam GPBHPMHGEIJ = 4;</code>
+       * <code>repeated .ItemParam GPBHPMHGEIJ = 50000;</code>
        */
       public Builder addGPBHPMHGEIJ(emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam value) {
         if (gPBHPMHGEIJBuilder_ == null) {
@@ -1101,7 +1101,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam GPBHPMHGEIJ = 4;</code>
+       * <code>repeated .ItemParam GPBHPMHGEIJ = 50000;</code>
        */
       public Builder addGPBHPMHGEIJ(
           int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam value) {
@@ -1118,7 +1118,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam GPBHPMHGEIJ = 4;</code>
+       * <code>repeated .ItemParam GPBHPMHGEIJ = 50000;</code>
        */
       public Builder addGPBHPMHGEIJ(
           emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder builderForValue) {
@@ -1132,7 +1132,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam GPBHPMHGEIJ = 4;</code>
+       * <code>repeated .ItemParam GPBHPMHGEIJ = 50000;</code>
        */
       public Builder addGPBHPMHGEIJ(
           int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder builderForValue) {
@@ -1146,7 +1146,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam GPBHPMHGEIJ = 4;</code>
+       * <code>repeated .ItemParam GPBHPMHGEIJ = 50000;</code>
        */
       public Builder addAllGPBHPMHGEIJ(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> values) {
@@ -1161,7 +1161,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam GPBHPMHGEIJ = 4;</code>
+       * <code>repeated .ItemParam GPBHPMHGEIJ = 50000;</code>
        */
       public Builder clearGPBHPMHGEIJ() {
         if (gPBHPMHGEIJBuilder_ == null) {
@@ -1174,7 +1174,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam GPBHPMHGEIJ = 4;</code>
+       * <code>repeated .ItemParam GPBHPMHGEIJ = 50000;</code>
        */
       public Builder removeGPBHPMHGEIJ(int index) {
         if (gPBHPMHGEIJBuilder_ == null) {
@@ -1187,14 +1187,14 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam GPBHPMHGEIJ = 4;</code>
+       * <code>repeated .ItemParam GPBHPMHGEIJ = 50000;</code>
        */
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder getGPBHPMHGEIJBuilder(
           int index) {
         return getGPBHPMHGEIJFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .ItemParam GPBHPMHGEIJ = 4;</code>
+       * <code>repeated .ItemParam GPBHPMHGEIJ = 50000;</code>
        */
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getGPBHPMHGEIJOrBuilder(
           int index) {
@@ -1204,7 +1204,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ItemParam GPBHPMHGEIJ = 4;</code>
+       * <code>repeated .ItemParam GPBHPMHGEIJ = 50000;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
            getGPBHPMHGEIJOrBuilderList() {
@@ -1215,14 +1215,14 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ItemParam GPBHPMHGEIJ = 4;</code>
+       * <code>repeated .ItemParam GPBHPMHGEIJ = 50000;</code>
        */
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder addGPBHPMHGEIJBuilder() {
         return getGPBHPMHGEIJFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.getDefaultInstance());
       }
       /**
-       * <code>repeated .ItemParam GPBHPMHGEIJ = 4;</code>
+       * <code>repeated .ItemParam GPBHPMHGEIJ = 50000;</code>
        */
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder addGPBHPMHGEIJBuilder(
           int index) {
@@ -1230,7 +1230,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.getDefaultInstance());
       }
       /**
-       * <code>repeated .ItemParam GPBHPMHGEIJ = 4;</code>
+       * <code>repeated .ItemParam GPBHPMHGEIJ = 50000;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder> 
            getGPBHPMHGEIJBuilderList() {
@@ -1264,7 +1264,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
           emu.grasscutter.net.proto.GAEECEOCDEJOuterClass.GAEECEOCDEJ, emu.grasscutter.net.proto.GAEECEOCDEJOuterClass.GAEECEOCDEJ.Builder, emu.grasscutter.net.proto.GAEECEOCDEJOuterClass.GAEECEOCDEJOrBuilder> oNPHKHNELAABuilder_;
 
       /**
-       * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 8;</code>
+       * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 50001;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.GAEECEOCDEJOuterClass.GAEECEOCDEJ> getONPHKHNELAAList() {
         if (oNPHKHNELAABuilder_ == null) {
@@ -1274,7 +1274,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 8;</code>
+       * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 50001;</code>
        */
       public int getONPHKHNELAACount() {
         if (oNPHKHNELAABuilder_ == null) {
@@ -1284,7 +1284,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 8;</code>
+       * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 50001;</code>
        */
       public emu.grasscutter.net.proto.GAEECEOCDEJOuterClass.GAEECEOCDEJ getONPHKHNELAA(int index) {
         if (oNPHKHNELAABuilder_ == null) {
@@ -1294,7 +1294,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 8;</code>
+       * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 50001;</code>
        */
       public Builder setONPHKHNELAA(
           int index, emu.grasscutter.net.proto.GAEECEOCDEJOuterClass.GAEECEOCDEJ value) {
@@ -1311,7 +1311,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 8;</code>
+       * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 50001;</code>
        */
       public Builder setONPHKHNELAA(
           int index, emu.grasscutter.net.proto.GAEECEOCDEJOuterClass.GAEECEOCDEJ.Builder builderForValue) {
@@ -1325,7 +1325,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 8;</code>
+       * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 50001;</code>
        */
       public Builder addONPHKHNELAA(emu.grasscutter.net.proto.GAEECEOCDEJOuterClass.GAEECEOCDEJ value) {
         if (oNPHKHNELAABuilder_ == null) {
@@ -1341,7 +1341,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 8;</code>
+       * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 50001;</code>
        */
       public Builder addONPHKHNELAA(
           int index, emu.grasscutter.net.proto.GAEECEOCDEJOuterClass.GAEECEOCDEJ value) {
@@ -1358,7 +1358,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 8;</code>
+       * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 50001;</code>
        */
       public Builder addONPHKHNELAA(
           emu.grasscutter.net.proto.GAEECEOCDEJOuterClass.GAEECEOCDEJ.Builder builderForValue) {
@@ -1372,7 +1372,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 8;</code>
+       * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 50001;</code>
        */
       public Builder addONPHKHNELAA(
           int index, emu.grasscutter.net.proto.GAEECEOCDEJOuterClass.GAEECEOCDEJ.Builder builderForValue) {
@@ -1386,7 +1386,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 8;</code>
+       * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 50001;</code>
        */
       public Builder addAllONPHKHNELAA(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.GAEECEOCDEJOuterClass.GAEECEOCDEJ> values) {
@@ -1401,7 +1401,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 8;</code>
+       * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 50001;</code>
        */
       public Builder clearONPHKHNELAA() {
         if (oNPHKHNELAABuilder_ == null) {
@@ -1414,7 +1414,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 8;</code>
+       * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 50001;</code>
        */
       public Builder removeONPHKHNELAA(int index) {
         if (oNPHKHNELAABuilder_ == null) {
@@ -1427,14 +1427,14 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 8;</code>
+       * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 50001;</code>
        */
       public emu.grasscutter.net.proto.GAEECEOCDEJOuterClass.GAEECEOCDEJ.Builder getONPHKHNELAABuilder(
           int index) {
         return getONPHKHNELAAFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 8;</code>
+       * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 50001;</code>
        */
       public emu.grasscutter.net.proto.GAEECEOCDEJOuterClass.GAEECEOCDEJOrBuilder getONPHKHNELAAOrBuilder(
           int index) {
@@ -1444,7 +1444,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 8;</code>
+       * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 50001;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.GAEECEOCDEJOuterClass.GAEECEOCDEJOrBuilder> 
            getONPHKHNELAAOrBuilderList() {
@@ -1455,14 +1455,14 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 8;</code>
+       * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 50001;</code>
        */
       public emu.grasscutter.net.proto.GAEECEOCDEJOuterClass.GAEECEOCDEJ.Builder addONPHKHNELAABuilder() {
         return getONPHKHNELAAFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.GAEECEOCDEJOuterClass.GAEECEOCDEJ.getDefaultInstance());
       }
       /**
-       * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 8;</code>
+       * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 50001;</code>
        */
       public emu.grasscutter.net.proto.GAEECEOCDEJOuterClass.GAEECEOCDEJ.Builder addONPHKHNELAABuilder(
           int index) {
@@ -1470,7 +1470,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.GAEECEOCDEJOuterClass.GAEECEOCDEJ.getDefaultInstance());
       }
       /**
-       * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 8;</code>
+       * <code>repeated .GAEECEOCDEJ ONPHKHNELAA = 50001;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.GAEECEOCDEJOuterClass.GAEECEOCDEJ.Builder> 
            getONPHKHNELAABuilderList() {
@@ -1493,7 +1493,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
 
       private int hAEEPFDNNIJ_ ;
       /**
-       * <code>uint32 HAEEPFDNNIJ = 9;</code>
+       * <code>uint32 HAEEPFDNNIJ = 50002;</code>
        * @return The hAEEPFDNNIJ.
        */
       @java.lang.Override
@@ -1501,7 +1501,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         return hAEEPFDNNIJ_;
       }
       /**
-       * <code>uint32 HAEEPFDNNIJ = 9;</code>
+       * <code>uint32 HAEEPFDNNIJ = 50002;</code>
        * @param value The hAEEPFDNNIJ to set.
        * @return This builder for chaining.
        */
@@ -1512,7 +1512,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 HAEEPFDNNIJ = 9;</code>
+       * <code>uint32 HAEEPFDNNIJ = 50002;</code>
        * @return This builder for chaining.
        */
       public Builder clearHAEEPFDNNIJ() {
@@ -1524,7 +1524,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
 
       private int mLJLLMKIAEK_ ;
       /**
-       * <code>uint32 MLJLLMKIAEK = 10;</code>
+       * <code>uint32 MLJLLMKIAEK = 50003;</code>
        * @return The mLJLLMKIAEK.
        */
       @java.lang.Override
@@ -1532,7 +1532,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         return mLJLLMKIAEK_;
       }
       /**
-       * <code>uint32 MLJLLMKIAEK = 10;</code>
+       * <code>uint32 MLJLLMKIAEK = 50003;</code>
        * @param value The mLJLLMKIAEK to set.
        * @return This builder for chaining.
        */
@@ -1543,7 +1543,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 MLJLLMKIAEK = 10;</code>
+       * <code>uint32 MLJLLMKIAEK = 50003;</code>
        * @return This builder for chaining.
        */
       public Builder clearMLJLLMKIAEK() {
@@ -1566,7 +1566,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
           emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> lHPCAMJGPPNBuilder_;
 
       /**
-       * <code>repeated .ItemParam LHPCAMJGPPN = 11;</code>
+       * <code>repeated .ItemParam LHPCAMJGPPN = 50004;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> getLHPCAMJGPPNList() {
         if (lHPCAMJGPPNBuilder_ == null) {
@@ -1576,7 +1576,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ItemParam LHPCAMJGPPN = 11;</code>
+       * <code>repeated .ItemParam LHPCAMJGPPN = 50004;</code>
        */
       public int getLHPCAMJGPPNCount() {
         if (lHPCAMJGPPNBuilder_ == null) {
@@ -1586,7 +1586,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ItemParam LHPCAMJGPPN = 11;</code>
+       * <code>repeated .ItemParam LHPCAMJGPPN = 50004;</code>
        */
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getLHPCAMJGPPN(int index) {
         if (lHPCAMJGPPNBuilder_ == null) {
@@ -1596,7 +1596,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ItemParam LHPCAMJGPPN = 11;</code>
+       * <code>repeated .ItemParam LHPCAMJGPPN = 50004;</code>
        */
       public Builder setLHPCAMJGPPN(
           int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam value) {
@@ -1613,7 +1613,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam LHPCAMJGPPN = 11;</code>
+       * <code>repeated .ItemParam LHPCAMJGPPN = 50004;</code>
        */
       public Builder setLHPCAMJGPPN(
           int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder builderForValue) {
@@ -1627,7 +1627,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam LHPCAMJGPPN = 11;</code>
+       * <code>repeated .ItemParam LHPCAMJGPPN = 50004;</code>
        */
       public Builder addLHPCAMJGPPN(emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam value) {
         if (lHPCAMJGPPNBuilder_ == null) {
@@ -1643,7 +1643,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam LHPCAMJGPPN = 11;</code>
+       * <code>repeated .ItemParam LHPCAMJGPPN = 50004;</code>
        */
       public Builder addLHPCAMJGPPN(
           int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam value) {
@@ -1660,7 +1660,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam LHPCAMJGPPN = 11;</code>
+       * <code>repeated .ItemParam LHPCAMJGPPN = 50004;</code>
        */
       public Builder addLHPCAMJGPPN(
           emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder builderForValue) {
@@ -1674,7 +1674,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam LHPCAMJGPPN = 11;</code>
+       * <code>repeated .ItemParam LHPCAMJGPPN = 50004;</code>
        */
       public Builder addLHPCAMJGPPN(
           int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder builderForValue) {
@@ -1688,7 +1688,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam LHPCAMJGPPN = 11;</code>
+       * <code>repeated .ItemParam LHPCAMJGPPN = 50004;</code>
        */
       public Builder addAllLHPCAMJGPPN(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> values) {
@@ -1703,7 +1703,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam LHPCAMJGPPN = 11;</code>
+       * <code>repeated .ItemParam LHPCAMJGPPN = 50004;</code>
        */
       public Builder clearLHPCAMJGPPN() {
         if (lHPCAMJGPPNBuilder_ == null) {
@@ -1716,7 +1716,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam LHPCAMJGPPN = 11;</code>
+       * <code>repeated .ItemParam LHPCAMJGPPN = 50004;</code>
        */
       public Builder removeLHPCAMJGPPN(int index) {
         if (lHPCAMJGPPNBuilder_ == null) {
@@ -1729,14 +1729,14 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ItemParam LHPCAMJGPPN = 11;</code>
+       * <code>repeated .ItemParam LHPCAMJGPPN = 50004;</code>
        */
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder getLHPCAMJGPPNBuilder(
           int index) {
         return getLHPCAMJGPPNFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .ItemParam LHPCAMJGPPN = 11;</code>
+       * <code>repeated .ItemParam LHPCAMJGPPN = 50004;</code>
        */
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getLHPCAMJGPPNOrBuilder(
           int index) {
@@ -1746,7 +1746,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ItemParam LHPCAMJGPPN = 11;</code>
+       * <code>repeated .ItemParam LHPCAMJGPPN = 50004;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
            getLHPCAMJGPPNOrBuilderList() {
@@ -1757,14 +1757,14 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ItemParam LHPCAMJGPPN = 11;</code>
+       * <code>repeated .ItemParam LHPCAMJGPPN = 50004;</code>
        */
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder addLHPCAMJGPPNBuilder() {
         return getLHPCAMJGPPNFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.getDefaultInstance());
       }
       /**
-       * <code>repeated .ItemParam LHPCAMJGPPN = 11;</code>
+       * <code>repeated .ItemParam LHPCAMJGPPN = 50004;</code>
        */
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder addLHPCAMJGPPNBuilder(
           int index) {
@@ -1772,7 +1772,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.getDefaultInstance());
       }
       /**
-       * <code>repeated .ItemParam LHPCAMJGPPN = 11;</code>
+       * <code>repeated .ItemParam LHPCAMJGPPN = 50004;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder> 
            getLHPCAMJGPPNBuilderList() {
@@ -1795,7 +1795,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
 
       private int dLKAPMLCIGN_ ;
       /**
-       * <code>uint32 DLKAPMLCIGN = 13;</code>
+       * <code>uint32 DLKAPMLCIGN = 50005;</code>
        * @return The dLKAPMLCIGN.
        */
       @java.lang.Override
@@ -1803,7 +1803,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         return dLKAPMLCIGN_;
       }
       /**
-       * <code>uint32 DLKAPMLCIGN = 13;</code>
+       * <code>uint32 DLKAPMLCIGN = 50005;</code>
        * @param value The dLKAPMLCIGN to set.
        * @return This builder for chaining.
        */
@@ -1814,7 +1814,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 DLKAPMLCIGN = 13;</code>
+       * <code>uint32 DLKAPMLCIGN = 50005;</code>
        * @return This builder for chaining.
        */
       public Builder clearDLKAPMLCIGN() {
@@ -1832,7 +1832,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 open_stage_list = 14;</code>
+       * <code>repeated uint32 open_stage_list = 15;</code>
        * @return A list containing the openStageList.
        */
       public java.util.List<java.lang.Integer>
@@ -1841,14 +1841,14 @@ public final class _AdventurerStatueDetailInfoOuterClass {
                  java.util.Collections.unmodifiableList(openStageList_) : openStageList_;
       }
       /**
-       * <code>repeated uint32 open_stage_list = 14;</code>
+       * <code>repeated uint32 open_stage_list = 15;</code>
        * @return The count of openStageList.
        */
       public int getOpenStageListCount() {
         return openStageList_.size();
       }
       /**
-       * <code>repeated uint32 open_stage_list = 14;</code>
+       * <code>repeated uint32 open_stage_list = 15;</code>
        * @param index The index of the element to return.
        * @return The openStageList at the given index.
        */
@@ -1856,7 +1856,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         return openStageList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 open_stage_list = 14;</code>
+       * <code>repeated uint32 open_stage_list = 15;</code>
        * @param index The index to set the value at.
        * @param value The openStageList to set.
        * @return This builder for chaining.
@@ -1869,7 +1869,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 open_stage_list = 14;</code>
+       * <code>repeated uint32 open_stage_list = 15;</code>
        * @param value The openStageList to add.
        * @return This builder for chaining.
        */
@@ -1880,7 +1880,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 open_stage_list = 14;</code>
+       * <code>repeated uint32 open_stage_list = 15;</code>
        * @param values The openStageList to add.
        * @return This builder for chaining.
        */
@@ -1893,7 +1893,7 @@ public final class _AdventurerStatueDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 open_stage_list = 14;</code>
+       * <code>repeated uint32 open_stage_list = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearOpenStageList() {
@@ -1970,15 +1970,15 @@ public final class _AdventurerStatueDetailInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n!_AdventurerStatueDetailInfo.proto\032\021GAE" +
-      "ECEOCDEJ.proto\032\017ItemParam.proto\"\332\001\n\033_Adv" +
-      "enturerStatueDetailInfo\022\037\n\013GPBHPMHGEIJ\030\004" +
-      " \003(\0132\n.ItemParam\022!\n\013ONPHKHNELAA\030\010 \003(\0132\014." +
-      "GAEECEOCDEJ\022\023\n\013HAEEPFDNNIJ\030\t \001(\r\022\023\n\013MLJL" +
-      "LMKIAEK\030\n \001(\r\022\037\n\013LHPCAMJGPPN\030\013 \003(\0132\n.Ite" +
-      "mParam\022\023\n\013DLKAPMLCIGN\030\r \001(\r\022\027\n\017open_stag" +
-      "e_list\030\016 \003(\rBB\n\031emu.grasscutter.net.prot" +
-      "oB%_AdventurerStatueDetailInfoOuterClass" +
-      "b\006proto3"
+      "ECEOCDEJ.proto\032\017ItemParam.proto\"\346\001\n\033_Adv" +
+      "enturerStatueDetailInfo\022!\n\013GPBHPMHGEIJ\030\320" +
+      "\206\003 \003(\0132\n.ItemParam\022#\n\013ONPHKHNELAA\030\321\206\003 \003(" +
+      "\0132\014.GAEECEOCDEJ\022\025\n\013HAEEPFDNNIJ\030\322\206\003 \001(\r\022\025" +
+      "\n\013MLJLLMKIAEK\030\323\206\003 \001(\r\022!\n\013LHPCAMJGPPN\030\324\206\003" +
+      " \003(\0132\n.ItemParam\022\025\n\013DLKAPMLCIGN\030\325\206\003 \001(\r\022" +
+      "\027\n\017open_stage_list\030\017 \003(\rBB\n\031emu.grasscut" +
+      "ter.net.protoB%_AdventurerStatueDetailIn" +
+      "foOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

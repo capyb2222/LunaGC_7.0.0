@@ -19,48 +19,48 @@ public final class _RankedMatchTrainSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 score = 1;</code>
+     * <code>uint32 score = 12;</code>
      * @return The score.
      */
     int getScore();
 
     /**
-     * <code>uint32 DPFLJBCLGDJ = 4;</code>
+     * <code>uint32 DPFLJBCLGDJ = 11;</code>
      * @return The dPFLJBCLGDJ.
      */
     int getDPFLJBCLGDJ();
 
     /**
-     * <code>uint32 use_time = 5;</code>
+     * <code>uint32 use_time = 13;</code>
      * @return The useTime.
      */
     int getUseTime();
 
     /**
-     * <code>bool is_new_record = 9;</code>
+     * <code>bool is_new_record = 3;</code>
      * @return The isNewRecord.
      */
     boolean getIsNewRecord();
 
     /**
-     * <code>.GalleryStopReason reason = 13;</code>
+     * <code>.GalleryStopReason reason = 5;</code>
      * @return The enum numeric value on the wire for reason.
      */
     int getReasonValue();
     /**
-     * <code>.GalleryStopReason reason = 13;</code>
+     * <code>.GalleryStopReason reason = 5;</code>
      * @return The reason.
      */
     emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason getReason();
 
     /**
-     * <code>uint32 item_num = 14;</code>
+     * <code>uint32 item_num = 1;</code>
      * @return The itemNum.
      */
     int getItemNum();
 
     /**
-     * <code>uint32 level_id = 15;</code>
+     * <code>uint32 level_id = 2;</code>
      * @return The levelId.
      */
     int getLevelId();
@@ -113,38 +113,38 @@ public final class _RankedMatchTrainSettleInfoOuterClass {
               break;
             case 8: {
 
-              score_ = input.readUInt32();
+              itemNum_ = input.readUInt32();
               break;
             }
-            case 32: {
+            case 16: {
 
-              dPFLJBCLGDJ_ = input.readUInt32();
+              levelId_ = input.readUInt32();
               break;
             }
-            case 40: {
-
-              useTime_ = input.readUInt32();
-              break;
-            }
-            case 72: {
+            case 24: {
 
               isNewRecord_ = input.readBool();
               break;
             }
-            case 104: {
+            case 40: {
               int rawValue = input.readEnum();
 
               reason_ = rawValue;
               break;
             }
-            case 112: {
+            case 88: {
 
-              itemNum_ = input.readUInt32();
+              dPFLJBCLGDJ_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 96: {
 
-              levelId_ = input.readUInt32();
+              score_ = input.readUInt32();
+              break;
+            }
+            case 104: {
+
+              useTime_ = input.readUInt32();
               break;
             }
             default: {
@@ -179,10 +179,10 @@ public final class _RankedMatchTrainSettleInfoOuterClass {
               emu.grasscutter.net.proto._RankedMatchTrainSettleInfoOuterClass._RankedMatchTrainSettleInfo.class, emu.grasscutter.net.proto._RankedMatchTrainSettleInfoOuterClass._RankedMatchTrainSettleInfo.Builder.class);
     }
 
-    public static final int SCORE_FIELD_NUMBER = 1;
+    public static final int SCORE_FIELD_NUMBER = 12;
     private int score_;
     /**
-     * <code>uint32 score = 1;</code>
+     * <code>uint32 score = 12;</code>
      * @return The score.
      */
     @java.lang.Override
@@ -190,10 +190,10 @@ public final class _RankedMatchTrainSettleInfoOuterClass {
       return score_;
     }
 
-    public static final int DPFLJBCLGDJ_FIELD_NUMBER = 4;
+    public static final int DPFLJBCLGDJ_FIELD_NUMBER = 11;
     private int dPFLJBCLGDJ_;
     /**
-     * <code>uint32 DPFLJBCLGDJ = 4;</code>
+     * <code>uint32 DPFLJBCLGDJ = 11;</code>
      * @return The dPFLJBCLGDJ.
      */
     @java.lang.Override
@@ -201,10 +201,10 @@ public final class _RankedMatchTrainSettleInfoOuterClass {
       return dPFLJBCLGDJ_;
     }
 
-    public static final int USE_TIME_FIELD_NUMBER = 5;
+    public static final int USE_TIME_FIELD_NUMBER = 13;
     private int useTime_;
     /**
-     * <code>uint32 use_time = 5;</code>
+     * <code>uint32 use_time = 13;</code>
      * @return The useTime.
      */
     @java.lang.Override
@@ -212,10 +212,10 @@ public final class _RankedMatchTrainSettleInfoOuterClass {
       return useTime_;
     }
 
-    public static final int IS_NEW_RECORD_FIELD_NUMBER = 9;
+    public static final int IS_NEW_RECORD_FIELD_NUMBER = 3;
     private boolean isNewRecord_;
     /**
-     * <code>bool is_new_record = 9;</code>
+     * <code>bool is_new_record = 3;</code>
      * @return The isNewRecord.
      */
     @java.lang.Override
@@ -223,17 +223,17 @@ public final class _RankedMatchTrainSettleInfoOuterClass {
       return isNewRecord_;
     }
 
-    public static final int REASON_FIELD_NUMBER = 13;
+    public static final int REASON_FIELD_NUMBER = 5;
     private int reason_;
     /**
-     * <code>.GalleryStopReason reason = 13;</code>
+     * <code>.GalleryStopReason reason = 5;</code>
      * @return The enum numeric value on the wire for reason.
      */
     @java.lang.Override public int getReasonValue() {
       return reason_;
     }
     /**
-     * <code>.GalleryStopReason reason = 13;</code>
+     * <code>.GalleryStopReason reason = 5;</code>
      * @return The reason.
      */
     @java.lang.Override public emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason getReason() {
@@ -242,10 +242,10 @@ public final class _RankedMatchTrainSettleInfoOuterClass {
       return result == null ? emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason.UNRECOGNIZED : result;
     }
 
-    public static final int ITEM_NUM_FIELD_NUMBER = 14;
+    public static final int ITEM_NUM_FIELD_NUMBER = 1;
     private int itemNum_;
     /**
-     * <code>uint32 item_num = 14;</code>
+     * <code>uint32 item_num = 1;</code>
      * @return The itemNum.
      */
     @java.lang.Override
@@ -253,10 +253,10 @@ public final class _RankedMatchTrainSettleInfoOuterClass {
       return itemNum_;
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 15;
+    public static final int LEVEL_ID_FIELD_NUMBER = 2;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 15;</code>
+     * <code>uint32 level_id = 2;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -278,26 +278,26 @@ public final class _RankedMatchTrainSettleInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (score_ != 0) {
-        output.writeUInt32(1, score_);
-      }
-      if (dPFLJBCLGDJ_ != 0) {
-        output.writeUInt32(4, dPFLJBCLGDJ_);
-      }
-      if (useTime_ != 0) {
-        output.writeUInt32(5, useTime_);
-      }
-      if (isNewRecord_ != false) {
-        output.writeBool(9, isNewRecord_);
-      }
-      if (reason_ != emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason.GalleryStopReason_GALLERY_STOP_NONE.getNumber()) {
-        output.writeEnum(13, reason_);
-      }
       if (itemNum_ != 0) {
-        output.writeUInt32(14, itemNum_);
+        output.writeUInt32(1, itemNum_);
       }
       if (levelId_ != 0) {
-        output.writeUInt32(15, levelId_);
+        output.writeUInt32(2, levelId_);
+      }
+      if (isNewRecord_ != false) {
+        output.writeBool(3, isNewRecord_);
+      }
+      if (reason_ != emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason.GalleryStopReason_GALLERY_STOP_NONE.getNumber()) {
+        output.writeEnum(5, reason_);
+      }
+      if (dPFLJBCLGDJ_ != 0) {
+        output.writeUInt32(11, dPFLJBCLGDJ_);
+      }
+      if (score_ != 0) {
+        output.writeUInt32(12, score_);
+      }
+      if (useTime_ != 0) {
+        output.writeUInt32(13, useTime_);
       }
       unknownFields.writeTo(output);
     }
@@ -308,33 +308,33 @@ public final class _RankedMatchTrainSettleInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (score_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, score_);
-      }
-      if (dPFLJBCLGDJ_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, dPFLJBCLGDJ_);
-      }
-      if (useTime_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, useTime_);
-      }
-      if (isNewRecord_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, isNewRecord_);
-      }
-      if (reason_ != emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason.GalleryStopReason_GALLERY_STOP_NONE.getNumber()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(13, reason_);
-      }
       if (itemNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, itemNum_);
+          .computeUInt32Size(1, itemNum_);
       }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, levelId_);
+          .computeUInt32Size(2, levelId_);
+      }
+      if (isNewRecord_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(3, isNewRecord_);
+      }
+      if (reason_ != emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason.GalleryStopReason_GALLERY_STOP_NONE.getNumber()) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeEnumSize(5, reason_);
+      }
+      if (dPFLJBCLGDJ_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(11, dPFLJBCLGDJ_);
+      }
+      if (score_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(12, score_);
+      }
+      if (useTime_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(13, useTime_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -670,7 +670,7 @@ public final class _RankedMatchTrainSettleInfoOuterClass {
 
       private int score_ ;
       /**
-       * <code>uint32 score = 1;</code>
+       * <code>uint32 score = 12;</code>
        * @return The score.
        */
       @java.lang.Override
@@ -678,7 +678,7 @@ public final class _RankedMatchTrainSettleInfoOuterClass {
         return score_;
       }
       /**
-       * <code>uint32 score = 1;</code>
+       * <code>uint32 score = 12;</code>
        * @param value The score to set.
        * @return This builder for chaining.
        */
@@ -689,7 +689,7 @@ public final class _RankedMatchTrainSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 score = 1;</code>
+       * <code>uint32 score = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearScore() {
@@ -701,7 +701,7 @@ public final class _RankedMatchTrainSettleInfoOuterClass {
 
       private int dPFLJBCLGDJ_ ;
       /**
-       * <code>uint32 DPFLJBCLGDJ = 4;</code>
+       * <code>uint32 DPFLJBCLGDJ = 11;</code>
        * @return The dPFLJBCLGDJ.
        */
       @java.lang.Override
@@ -709,7 +709,7 @@ public final class _RankedMatchTrainSettleInfoOuterClass {
         return dPFLJBCLGDJ_;
       }
       /**
-       * <code>uint32 DPFLJBCLGDJ = 4;</code>
+       * <code>uint32 DPFLJBCLGDJ = 11;</code>
        * @param value The dPFLJBCLGDJ to set.
        * @return This builder for chaining.
        */
@@ -720,7 +720,7 @@ public final class _RankedMatchTrainSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 DPFLJBCLGDJ = 4;</code>
+       * <code>uint32 DPFLJBCLGDJ = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearDPFLJBCLGDJ() {
@@ -732,7 +732,7 @@ public final class _RankedMatchTrainSettleInfoOuterClass {
 
       private int useTime_ ;
       /**
-       * <code>uint32 use_time = 5;</code>
+       * <code>uint32 use_time = 13;</code>
        * @return The useTime.
        */
       @java.lang.Override
@@ -740,7 +740,7 @@ public final class _RankedMatchTrainSettleInfoOuterClass {
         return useTime_;
       }
       /**
-       * <code>uint32 use_time = 5;</code>
+       * <code>uint32 use_time = 13;</code>
        * @param value The useTime to set.
        * @return This builder for chaining.
        */
@@ -751,7 +751,7 @@ public final class _RankedMatchTrainSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 use_time = 5;</code>
+       * <code>uint32 use_time = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearUseTime() {
@@ -763,7 +763,7 @@ public final class _RankedMatchTrainSettleInfoOuterClass {
 
       private boolean isNewRecord_ ;
       /**
-       * <code>bool is_new_record = 9;</code>
+       * <code>bool is_new_record = 3;</code>
        * @return The isNewRecord.
        */
       @java.lang.Override
@@ -771,7 +771,7 @@ public final class _RankedMatchTrainSettleInfoOuterClass {
         return isNewRecord_;
       }
       /**
-       * <code>bool is_new_record = 9;</code>
+       * <code>bool is_new_record = 3;</code>
        * @param value The isNewRecord to set.
        * @return This builder for chaining.
        */
@@ -782,7 +782,7 @@ public final class _RankedMatchTrainSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_new_record = 9;</code>
+       * <code>bool is_new_record = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsNewRecord() {
@@ -794,14 +794,14 @@ public final class _RankedMatchTrainSettleInfoOuterClass {
 
       private int reason_ = 0;
       /**
-       * <code>.GalleryStopReason reason = 13;</code>
+       * <code>.GalleryStopReason reason = 5;</code>
        * @return The enum numeric value on the wire for reason.
        */
       @java.lang.Override public int getReasonValue() {
         return reason_;
       }
       /**
-       * <code>.GalleryStopReason reason = 13;</code>
+       * <code>.GalleryStopReason reason = 5;</code>
        * @param value The enum numeric value on the wire for reason to set.
        * @return This builder for chaining.
        */
@@ -812,7 +812,7 @@ public final class _RankedMatchTrainSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>.GalleryStopReason reason = 13;</code>
+       * <code>.GalleryStopReason reason = 5;</code>
        * @return The reason.
        */
       @java.lang.Override
@@ -822,7 +822,7 @@ public final class _RankedMatchTrainSettleInfoOuterClass {
         return result == null ? emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason.UNRECOGNIZED : result;
       }
       /**
-       * <code>.GalleryStopReason reason = 13;</code>
+       * <code>.GalleryStopReason reason = 5;</code>
        * @param value The reason to set.
        * @return This builder for chaining.
        */
@@ -836,7 +836,7 @@ public final class _RankedMatchTrainSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>.GalleryStopReason reason = 13;</code>
+       * <code>.GalleryStopReason reason = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearReason() {
@@ -848,7 +848,7 @@ public final class _RankedMatchTrainSettleInfoOuterClass {
 
       private int itemNum_ ;
       /**
-       * <code>uint32 item_num = 14;</code>
+       * <code>uint32 item_num = 1;</code>
        * @return The itemNum.
        */
       @java.lang.Override
@@ -856,7 +856,7 @@ public final class _RankedMatchTrainSettleInfoOuterClass {
         return itemNum_;
       }
       /**
-       * <code>uint32 item_num = 14;</code>
+       * <code>uint32 item_num = 1;</code>
        * @param value The itemNum to set.
        * @return This builder for chaining.
        */
@@ -867,7 +867,7 @@ public final class _RankedMatchTrainSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 item_num = 14;</code>
+       * <code>uint32 item_num = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearItemNum() {
@@ -879,7 +879,7 @@ public final class _RankedMatchTrainSettleInfoOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 15;</code>
+       * <code>uint32 level_id = 2;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -887,7 +887,7 @@ public final class _RankedMatchTrainSettleInfoOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 15;</code>
+       * <code>uint32 level_id = 2;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -898,7 +898,7 @@ public final class _RankedMatchTrainSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 15;</code>
+       * <code>uint32 level_id = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -976,10 +976,10 @@ public final class _RankedMatchTrainSettleInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n!_RankedMatchTrainSettleInfo.proto\032\027Gal" +
       "leryStopReason.proto\"\262\001\n\033_RankedMatchTra" +
-      "inSettleInfo\022\r\n\005score\030\001 \001(\r\022\023\n\013DPFLJBCLG" +
-      "DJ\030\004 \001(\r\022\020\n\010use_time\030\005 \001(\r\022\025\n\ris_new_rec" +
-      "ord\030\t \001(\010\022\"\n\006reason\030\r \001(\0162\022.GalleryStopR" +
-      "eason\022\020\n\010item_num\030\016 \001(\r\022\020\n\010level_id\030\017 \001(" +
+      "inSettleInfo\022\r\n\005score\030\014 \001(\r\022\023\n\013DPFLJBCLG" +
+      "DJ\030\013 \001(\r\022\020\n\010use_time\030\r \001(\r\022\025\n\ris_new_rec" +
+      "ord\030\003 \001(\010\022\"\n\006reason\030\005 \001(\0162\022.GalleryStopR" +
+      "eason\022\020\n\010item_num\030\001 \001(\r\022\020\n\010level_id\030\002 \001(" +
       "\rBB\n\031emu.grasscutter.net.protoB%_RankedM" +
       "atchTrainSettleInfoOuterClassb\006proto3"
     };

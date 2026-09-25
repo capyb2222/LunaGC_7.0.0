@@ -6,5 +6,5 @@ option java_outer_classname = "PotionActivityDetailInfoOuterClass";
 import "PotionStageData.proto";
 
 message PotionActivityDetailInfo {
-	repeated PotionStageData stage_list = 7;
+	repeated PotionStageData stage_list = 12;
 }

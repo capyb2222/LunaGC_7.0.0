@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "AvatarChangeCostumeRspOuterClass";
 
 message AvatarChangeCostumeRsp {
-	uint32 costume_id = 2;
-	uint64 avatar_guid = 4;
+	uint32 costume_id = 13;
+	uint64 avatar_guid = 10;
 	int32 retcode = 11;
 }

@@ -7,7 +7,7 @@ import "ItemParam.proto";
 import "_AvatarExpeditionBasicInfo.proto";
 
 message _AvatarExpeditionRewardInfo {
-	repeated ItemParam extra_item_list = 2;
-	_AvatarExpeditionBasicInfo basic_info = 7;
-	repeated ItemParam item_list = 13;
+	repeated ItemParam extra_item_list = 10;
+	_AvatarExpeditionBasicInfo basic_info = 5;
+	repeated ItemParam item_list = 4;
 }

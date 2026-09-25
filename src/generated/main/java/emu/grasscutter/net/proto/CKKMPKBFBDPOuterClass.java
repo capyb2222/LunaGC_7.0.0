@@ -19,25 +19,25 @@ public final class CKKMPKBFBDPOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 IGMMOECLONN = 5;</code>
+     * <code>uint32 IGMMOECLONN = 10;</code>
      * @return The iGMMOECLONN.
      */
     int getIGMMOECLONN();
 
     /**
-     * <code>bool is_success = 10;</code>
+     * <code>bool is_success = 4;</code>
      * @return The isSuccess.
      */
     boolean getIsSuccess();
 
     /**
-     * <code>uint32 DEAAPCPBBBF = 11;</code>
+     * <code>uint32 DEAAPCPBBBF = 14;</code>
      * @return The dEAAPCPBBBF.
      */
     int getDEAAPCPBBBF();
 
     /**
-     * <code>uint32 OKKIAOILIMN = 12;</code>
+     * <code>uint32 OKKIAOILIMN = 6;</code>
      * @return The oKKIAOILIMN.
      */
     int getOKKIAOILIMN();
@@ -87,24 +87,24 @@ public final class CKKMPKBFBDPOuterClass {
             case 0:
               done = true;
               break;
-            case 40: {
-
-              iGMMOECLONN_ = input.readUInt32();
-              break;
-            }
-            case 80: {
+            case 32: {
 
               isSuccess_ = input.readBool();
               break;
             }
-            case 88: {
-
-              dEAAPCPBBBF_ = input.readUInt32();
-              break;
-            }
-            case 96: {
+            case 48: {
 
               oKKIAOILIMN_ = input.readUInt32();
+              break;
+            }
+            case 80: {
+
+              iGMMOECLONN_ = input.readUInt32();
+              break;
+            }
+            case 112: {
+
+              dEAAPCPBBBF_ = input.readUInt32();
               break;
             }
             default: {
@@ -139,10 +139,10 @@ public final class CKKMPKBFBDPOuterClass {
               emu.grasscutter.net.proto.CKKMPKBFBDPOuterClass.CKKMPKBFBDP.class, emu.grasscutter.net.proto.CKKMPKBFBDPOuterClass.CKKMPKBFBDP.Builder.class);
     }
 
-    public static final int IGMMOECLONN_FIELD_NUMBER = 5;
+    public static final int IGMMOECLONN_FIELD_NUMBER = 10;
     private int iGMMOECLONN_;
     /**
-     * <code>uint32 IGMMOECLONN = 5;</code>
+     * <code>uint32 IGMMOECLONN = 10;</code>
      * @return The iGMMOECLONN.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class CKKMPKBFBDPOuterClass {
       return iGMMOECLONN_;
     }
 
-    public static final int IS_SUCCESS_FIELD_NUMBER = 10;
+    public static final int IS_SUCCESS_FIELD_NUMBER = 4;
     private boolean isSuccess_;
     /**
-     * <code>bool is_success = 10;</code>
+     * <code>bool is_success = 4;</code>
      * @return The isSuccess.
      */
     @java.lang.Override
@@ -161,10 +161,10 @@ public final class CKKMPKBFBDPOuterClass {
       return isSuccess_;
     }
 
-    public static final int DEAAPCPBBBF_FIELD_NUMBER = 11;
+    public static final int DEAAPCPBBBF_FIELD_NUMBER = 14;
     private int dEAAPCPBBBF_;
     /**
-     * <code>uint32 DEAAPCPBBBF = 11;</code>
+     * <code>uint32 DEAAPCPBBBF = 14;</code>
      * @return The dEAAPCPBBBF.
      */
     @java.lang.Override
@@ -172,10 +172,10 @@ public final class CKKMPKBFBDPOuterClass {
       return dEAAPCPBBBF_;
     }
 
-    public static final int OKKIAOILIMN_FIELD_NUMBER = 12;
+    public static final int OKKIAOILIMN_FIELD_NUMBER = 6;
     private int oKKIAOILIMN_;
     /**
-     * <code>uint32 OKKIAOILIMN = 12;</code>
+     * <code>uint32 OKKIAOILIMN = 6;</code>
      * @return The oKKIAOILIMN.
      */
     @java.lang.Override
@@ -197,17 +197,17 @@ public final class CKKMPKBFBDPOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (iGMMOECLONN_ != 0) {
-        output.writeUInt32(5, iGMMOECLONN_);
-      }
       if (isSuccess_ != false) {
-        output.writeBool(10, isSuccess_);
-      }
-      if (dEAAPCPBBBF_ != 0) {
-        output.writeUInt32(11, dEAAPCPBBBF_);
+        output.writeBool(4, isSuccess_);
       }
       if (oKKIAOILIMN_ != 0) {
-        output.writeUInt32(12, oKKIAOILIMN_);
+        output.writeUInt32(6, oKKIAOILIMN_);
+      }
+      if (iGMMOECLONN_ != 0) {
+        output.writeUInt32(10, iGMMOECLONN_);
+      }
+      if (dEAAPCPBBBF_ != 0) {
+        output.writeUInt32(14, dEAAPCPBBBF_);
       }
       unknownFields.writeTo(output);
     }
@@ -218,21 +218,21 @@ public final class CKKMPKBFBDPOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (iGMMOECLONN_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, iGMMOECLONN_);
-      }
       if (isSuccess_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(10, isSuccess_);
-      }
-      if (dEAAPCPBBBF_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, dEAAPCPBBBF_);
+          .computeBoolSize(4, isSuccess_);
       }
       if (oKKIAOILIMN_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, oKKIAOILIMN_);
+          .computeUInt32Size(6, oKKIAOILIMN_);
+      }
+      if (iGMMOECLONN_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(10, iGMMOECLONN_);
+      }
+      if (dEAAPCPBBBF_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(14, dEAAPCPBBBF_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -539,7 +539,7 @@ public final class CKKMPKBFBDPOuterClass {
 
       private int iGMMOECLONN_ ;
       /**
-       * <code>uint32 IGMMOECLONN = 5;</code>
+       * <code>uint32 IGMMOECLONN = 10;</code>
        * @return The iGMMOECLONN.
        */
       @java.lang.Override
@@ -547,7 +547,7 @@ public final class CKKMPKBFBDPOuterClass {
         return iGMMOECLONN_;
       }
       /**
-       * <code>uint32 IGMMOECLONN = 5;</code>
+       * <code>uint32 IGMMOECLONN = 10;</code>
        * @param value The iGMMOECLONN to set.
        * @return This builder for chaining.
        */
@@ -558,7 +558,7 @@ public final class CKKMPKBFBDPOuterClass {
         return this;
       }
       /**
-       * <code>uint32 IGMMOECLONN = 5;</code>
+       * <code>uint32 IGMMOECLONN = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearIGMMOECLONN() {
@@ -570,7 +570,7 @@ public final class CKKMPKBFBDPOuterClass {
 
       private boolean isSuccess_ ;
       /**
-       * <code>bool is_success = 10;</code>
+       * <code>bool is_success = 4;</code>
        * @return The isSuccess.
        */
       @java.lang.Override
@@ -578,7 +578,7 @@ public final class CKKMPKBFBDPOuterClass {
         return isSuccess_;
       }
       /**
-       * <code>bool is_success = 10;</code>
+       * <code>bool is_success = 4;</code>
        * @param value The isSuccess to set.
        * @return This builder for chaining.
        */
@@ -589,7 +589,7 @@ public final class CKKMPKBFBDPOuterClass {
         return this;
       }
       /**
-       * <code>bool is_success = 10;</code>
+       * <code>bool is_success = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsSuccess() {
@@ -601,7 +601,7 @@ public final class CKKMPKBFBDPOuterClass {
 
       private int dEAAPCPBBBF_ ;
       /**
-       * <code>uint32 DEAAPCPBBBF = 11;</code>
+       * <code>uint32 DEAAPCPBBBF = 14;</code>
        * @return The dEAAPCPBBBF.
        */
       @java.lang.Override
@@ -609,7 +609,7 @@ public final class CKKMPKBFBDPOuterClass {
         return dEAAPCPBBBF_;
       }
       /**
-       * <code>uint32 DEAAPCPBBBF = 11;</code>
+       * <code>uint32 DEAAPCPBBBF = 14;</code>
        * @param value The dEAAPCPBBBF to set.
        * @return This builder for chaining.
        */
@@ -620,7 +620,7 @@ public final class CKKMPKBFBDPOuterClass {
         return this;
       }
       /**
-       * <code>uint32 DEAAPCPBBBF = 11;</code>
+       * <code>uint32 DEAAPCPBBBF = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearDEAAPCPBBBF() {
@@ -632,7 +632,7 @@ public final class CKKMPKBFBDPOuterClass {
 
       private int oKKIAOILIMN_ ;
       /**
-       * <code>uint32 OKKIAOILIMN = 12;</code>
+       * <code>uint32 OKKIAOILIMN = 6;</code>
        * @return The oKKIAOILIMN.
        */
       @java.lang.Override
@@ -640,7 +640,7 @@ public final class CKKMPKBFBDPOuterClass {
         return oKKIAOILIMN_;
       }
       /**
-       * <code>uint32 OKKIAOILIMN = 12;</code>
+       * <code>uint32 OKKIAOILIMN = 6;</code>
        * @param value The oKKIAOILIMN to set.
        * @return This builder for chaining.
        */
@@ -651,7 +651,7 @@ public final class CKKMPKBFBDPOuterClass {
         return this;
       }
       /**
-       * <code>uint32 OKKIAOILIMN = 12;</code>
+       * <code>uint32 OKKIAOILIMN = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearOKKIAOILIMN() {
@@ -728,8 +728,8 @@ public final class CKKMPKBFBDPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CKKMPKBFBDP.proto\"`\n\013CKKMPKBFBDP\022\023\n\013IG" +
-      "MMOECLONN\030\005 \001(\r\022\022\n\nis_success\030\n \001(\010\022\023\n\013D" +
-      "EAAPCPBBBF\030\013 \001(\r\022\023\n\013OKKIAOILIMN\030\014 \001(\rB2\n" +
+      "MMOECLONN\030\n \001(\r\022\022\n\nis_success\030\004 \001(\010\022\023\n\013D" +
+      "EAAPCPBBBF\030\016 \001(\r\022\023\n\013OKKIAOILIMN\030\006 \001(\rB2\n" +
       "\031emu.grasscutter.net.protoB\025CKKMPKBFBDPO" +
       "uterClassb\006proto3"
     };

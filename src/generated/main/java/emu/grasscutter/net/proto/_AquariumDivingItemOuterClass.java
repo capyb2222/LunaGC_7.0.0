@@ -19,35 +19,35 @@ public final class _AquariumDivingItemOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 item_id = 2;</code>
+     * <code>uint32 item_id = 5;</code>
      * @return The itemId.
      */
     int getItemId();
 
     /**
-     * <code>uint32 entity_id = 4;</code>
+     * <code>uint32 entity_id = 13;</code>
      * @return The entityId.
      */
     int getEntityId();
 
     /**
-     * <code>uint32 rot = 6;</code>
+     * <code>uint32 rot = 15;</code>
      * @return The rot.
      */
     int getRot();
 
     /**
-     * <code>.Uint32Pair pos = 7;</code>
+     * <code>.Uint32Pair pos = 9;</code>
      * @return Whether the pos field is set.
      */
     boolean hasPos();
     /**
-     * <code>.Uint32Pair pos = 7;</code>
+     * <code>.Uint32Pair pos = 9;</code>
      * @return The pos.
      */
     emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getPos();
     /**
-     * <code>.Uint32Pair pos = 7;</code>
+     * <code>.Uint32Pair pos = 9;</code>
      */
     emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getPosOrBuilder();
   }
@@ -96,22 +96,12 @@ public final class _AquariumDivingItemOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 40: {
 
               itemId_ = input.readUInt32();
               break;
             }
-            case 32: {
-
-              entityId_ = input.readUInt32();
-              break;
-            }
-            case 48: {
-
-              rot_ = input.readUInt32();
-              break;
-            }
-            case 58: {
+            case 74: {
               emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder subBuilder = null;
               if (pos_ != null) {
                 subBuilder = pos_.toBuilder();
@@ -122,6 +112,16 @@ public final class _AquariumDivingItemOuterClass {
                 pos_ = subBuilder.buildPartial();
               }
 
+              break;
+            }
+            case 104: {
+
+              entityId_ = input.readUInt32();
+              break;
+            }
+            case 120: {
+
+              rot_ = input.readUInt32();
               break;
             }
             default: {
@@ -156,10 +156,10 @@ public final class _AquariumDivingItemOuterClass {
               emu.grasscutter.net.proto._AquariumDivingItemOuterClass._AquariumDivingItem.class, emu.grasscutter.net.proto._AquariumDivingItemOuterClass._AquariumDivingItem.Builder.class);
     }
 
-    public static final int ITEM_ID_FIELD_NUMBER = 2;
+    public static final int ITEM_ID_FIELD_NUMBER = 5;
     private int itemId_;
     /**
-     * <code>uint32 item_id = 2;</code>
+     * <code>uint32 item_id = 5;</code>
      * @return The itemId.
      */
     @java.lang.Override
@@ -167,10 +167,10 @@ public final class _AquariumDivingItemOuterClass {
       return itemId_;
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 4;
+    public static final int ENTITY_ID_FIELD_NUMBER = 13;
     private int entityId_;
     /**
-     * <code>uint32 entity_id = 4;</code>
+     * <code>uint32 entity_id = 13;</code>
      * @return The entityId.
      */
     @java.lang.Override
@@ -178,10 +178,10 @@ public final class _AquariumDivingItemOuterClass {
       return entityId_;
     }
 
-    public static final int ROT_FIELD_NUMBER = 6;
+    public static final int ROT_FIELD_NUMBER = 15;
     private int rot_;
     /**
-     * <code>uint32 rot = 6;</code>
+     * <code>uint32 rot = 15;</code>
      * @return The rot.
      */
     @java.lang.Override
@@ -189,10 +189,10 @@ public final class _AquariumDivingItemOuterClass {
       return rot_;
     }
 
-    public static final int POS_FIELD_NUMBER = 7;
+    public static final int POS_FIELD_NUMBER = 9;
     private emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair pos_;
     /**
-     * <code>.Uint32Pair pos = 7;</code>
+     * <code>.Uint32Pair pos = 9;</code>
      * @return Whether the pos field is set.
      */
     @java.lang.Override
@@ -200,7 +200,7 @@ public final class _AquariumDivingItemOuterClass {
       return pos_ != null;
     }
     /**
-     * <code>.Uint32Pair pos = 7;</code>
+     * <code>.Uint32Pair pos = 9;</code>
      * @return The pos.
      */
     @java.lang.Override
@@ -208,7 +208,7 @@ public final class _AquariumDivingItemOuterClass {
       return pos_ == null ? emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.getDefaultInstance() : pos_;
     }
     /**
-     * <code>.Uint32Pair pos = 7;</code>
+     * <code>.Uint32Pair pos = 9;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getPosOrBuilder() {
@@ -230,16 +230,16 @@ public final class _AquariumDivingItemOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (itemId_ != 0) {
-        output.writeUInt32(2, itemId_);
-      }
-      if (entityId_ != 0) {
-        output.writeUInt32(4, entityId_);
-      }
-      if (rot_ != 0) {
-        output.writeUInt32(6, rot_);
+        output.writeUInt32(5, itemId_);
       }
       if (pos_ != null) {
-        output.writeMessage(7, getPos());
+        output.writeMessage(9, getPos());
+      }
+      if (entityId_ != 0) {
+        output.writeUInt32(13, entityId_);
+      }
+      if (rot_ != 0) {
+        output.writeUInt32(15, rot_);
       }
       unknownFields.writeTo(output);
     }
@@ -252,19 +252,19 @@ public final class _AquariumDivingItemOuterClass {
       size = 0;
       if (itemId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, itemId_);
-      }
-      if (entityId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, entityId_);
-      }
-      if (rot_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, rot_);
+          .computeUInt32Size(5, itemId_);
       }
       if (pos_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, getPos());
+          .computeMessageSize(9, getPos());
+      }
+      if (entityId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(13, entityId_);
+      }
+      if (rot_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(15, rot_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -583,7 +583,7 @@ public final class _AquariumDivingItemOuterClass {
 
       private int itemId_ ;
       /**
-       * <code>uint32 item_id = 2;</code>
+       * <code>uint32 item_id = 5;</code>
        * @return The itemId.
        */
       @java.lang.Override
@@ -591,7 +591,7 @@ public final class _AquariumDivingItemOuterClass {
         return itemId_;
       }
       /**
-       * <code>uint32 item_id = 2;</code>
+       * <code>uint32 item_id = 5;</code>
        * @param value The itemId to set.
        * @return This builder for chaining.
        */
@@ -602,7 +602,7 @@ public final class _AquariumDivingItemOuterClass {
         return this;
       }
       /**
-       * <code>uint32 item_id = 2;</code>
+       * <code>uint32 item_id = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearItemId() {
@@ -614,7 +614,7 @@ public final class _AquariumDivingItemOuterClass {
 
       private int entityId_ ;
       /**
-       * <code>uint32 entity_id = 4;</code>
+       * <code>uint32 entity_id = 13;</code>
        * @return The entityId.
        */
       @java.lang.Override
@@ -622,7 +622,7 @@ public final class _AquariumDivingItemOuterClass {
         return entityId_;
       }
       /**
-       * <code>uint32 entity_id = 4;</code>
+       * <code>uint32 entity_id = 13;</code>
        * @param value The entityId to set.
        * @return This builder for chaining.
        */
@@ -633,7 +633,7 @@ public final class _AquariumDivingItemOuterClass {
         return this;
       }
       /**
-       * <code>uint32 entity_id = 4;</code>
+       * <code>uint32 entity_id = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearEntityId() {
@@ -645,7 +645,7 @@ public final class _AquariumDivingItemOuterClass {
 
       private int rot_ ;
       /**
-       * <code>uint32 rot = 6;</code>
+       * <code>uint32 rot = 15;</code>
        * @return The rot.
        */
       @java.lang.Override
@@ -653,7 +653,7 @@ public final class _AquariumDivingItemOuterClass {
         return rot_;
       }
       /**
-       * <code>uint32 rot = 6;</code>
+       * <code>uint32 rot = 15;</code>
        * @param value The rot to set.
        * @return This builder for chaining.
        */
@@ -664,7 +664,7 @@ public final class _AquariumDivingItemOuterClass {
         return this;
       }
       /**
-       * <code>uint32 rot = 6;</code>
+       * <code>uint32 rot = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearRot() {
@@ -678,14 +678,14 @@ public final class _AquariumDivingItemOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> posBuilder_;
       /**
-       * <code>.Uint32Pair pos = 7;</code>
+       * <code>.Uint32Pair pos = 9;</code>
        * @return Whether the pos field is set.
        */
       public boolean hasPos() {
         return posBuilder_ != null || pos_ != null;
       }
       /**
-       * <code>.Uint32Pair pos = 7;</code>
+       * <code>.Uint32Pair pos = 9;</code>
        * @return The pos.
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getPos() {
@@ -696,7 +696,7 @@ public final class _AquariumDivingItemOuterClass {
         }
       }
       /**
-       * <code>.Uint32Pair pos = 7;</code>
+       * <code>.Uint32Pair pos = 9;</code>
        */
       public Builder setPos(emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
         if (posBuilder_ == null) {
@@ -712,7 +712,7 @@ public final class _AquariumDivingItemOuterClass {
         return this;
       }
       /**
-       * <code>.Uint32Pair pos = 7;</code>
+       * <code>.Uint32Pair pos = 9;</code>
        */
       public Builder setPos(
           emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder builderForValue) {
@@ -726,7 +726,7 @@ public final class _AquariumDivingItemOuterClass {
         return this;
       }
       /**
-       * <code>.Uint32Pair pos = 7;</code>
+       * <code>.Uint32Pair pos = 9;</code>
        */
       public Builder mergePos(emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
         if (posBuilder_ == null) {
@@ -744,7 +744,7 @@ public final class _AquariumDivingItemOuterClass {
         return this;
       }
       /**
-       * <code>.Uint32Pair pos = 7;</code>
+       * <code>.Uint32Pair pos = 9;</code>
        */
       public Builder clearPos() {
         if (posBuilder_ == null) {
@@ -758,7 +758,7 @@ public final class _AquariumDivingItemOuterClass {
         return this;
       }
       /**
-       * <code>.Uint32Pair pos = 7;</code>
+       * <code>.Uint32Pair pos = 9;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder getPosBuilder() {
         
@@ -766,7 +766,7 @@ public final class _AquariumDivingItemOuterClass {
         return getPosFieldBuilder().getBuilder();
       }
       /**
-       * <code>.Uint32Pair pos = 7;</code>
+       * <code>.Uint32Pair pos = 9;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getPosOrBuilder() {
         if (posBuilder_ != null) {
@@ -777,7 +777,7 @@ public final class _AquariumDivingItemOuterClass {
         }
       }
       /**
-       * <code>.Uint32Pair pos = 7;</code>
+       * <code>.Uint32Pair pos = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
@@ -861,8 +861,8 @@ public final class _AquariumDivingItemOuterClass {
     java.lang.String[] descriptorData = {
       "\n\031_AquariumDivingItem.proto\032\020Uint32Pair." +
       "proto\"`\n\023_AquariumDivingItem\022\017\n\007item_id\030" +
-      "\002 \001(\r\022\021\n\tentity_id\030\004 \001(\r\022\013\n\003rot\030\006 \001(\r\022\030\n" +
-      "\003pos\030\007 \001(\0132\013.Uint32PairB:\n\031emu.grasscutt" +
+      "\005 \001(\r\022\021\n\tentity_id\030\r \001(\r\022\013\n\003rot\030\017 \001(\r\022\030\n" +
+      "\003pos\030\t \001(\0132\013.Uint32PairB:\n\031emu.grasscutt" +
       "er.net.protoB\035_AquariumDivingItemOuterCl" +
       "assb\006proto3"
     };

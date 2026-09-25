@@ -19,7 +19,7 @@ public final class ModifierPropertyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>float value = 7;</code>
+     * <code>float value = 12;</code>
      * @return The value.
      */
     float getValue();
@@ -84,11 +84,6 @@ public final class ModifierPropertyOuterClass {
             case 0:
               done = true;
               break;
-            case 61: {
-
-              value_ = input.readFloat();
-              break;
-            }
             case 82: {
               emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder subBuilder = null;
               if (key_ != null) {
@@ -100,6 +95,11 @@ public final class ModifierPropertyOuterClass {
                 key_ = subBuilder.buildPartial();
               }
 
+              break;
+            }
+            case 101: {
+
+              value_ = input.readFloat();
               break;
             }
             default: {
@@ -134,10 +134,10 @@ public final class ModifierPropertyOuterClass {
               emu.grasscutter.net.proto.ModifierPropertyOuterClass.ModifierProperty.class, emu.grasscutter.net.proto.ModifierPropertyOuterClass.ModifierProperty.Builder.class);
     }
 
-    public static final int VALUE_FIELD_NUMBER = 7;
+    public static final int VALUE_FIELD_NUMBER = 12;
     private float value_;
     /**
-     * <code>float value = 7;</code>
+     * <code>float value = 12;</code>
      * @return The value.
      */
     @java.lang.Override
@@ -185,11 +185,11 @@ public final class ModifierPropertyOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (value_ != 0F) {
-        output.writeFloat(7, value_);
-      }
       if (key_ != null) {
         output.writeMessage(10, getKey());
+      }
+      if (value_ != 0F) {
+        output.writeFloat(12, value_);
       }
       unknownFields.writeTo(output);
     }
@@ -200,13 +200,13 @@ public final class ModifierPropertyOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (value_ != 0F) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(7, value_);
-      }
       if (key_ != null) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(10, getKey());
+      }
+      if (value_ != 0F) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeFloatSize(12, value_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -507,7 +507,7 @@ public final class ModifierPropertyOuterClass {
 
       private float value_ ;
       /**
-       * <code>float value = 7;</code>
+       * <code>float value = 12;</code>
        * @return The value.
        */
       @java.lang.Override
@@ -515,7 +515,7 @@ public final class ModifierPropertyOuterClass {
         return value_;
       }
       /**
-       * <code>float value = 7;</code>
+       * <code>float value = 12;</code>
        * @param value The value to set.
        * @return This builder for chaining.
        */
@@ -526,7 +526,7 @@ public final class ModifierPropertyOuterClass {
         return this;
       }
       /**
-       * <code>float value = 7;</code>
+       * <code>float value = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearValue() {
@@ -722,7 +722,7 @@ public final class ModifierPropertyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\026ModifierProperty.proto\032\023AbilityString." +
-      "proto\">\n\020ModifierProperty\022\r\n\005value\030\007 \001(\002" +
+      "proto\">\n\020ModifierProperty\022\r\n\005value\030\014 \001(\002" +
       "\022\033\n\003key\030\n \001(\0132\016.AbilityStringB7\n\031emu.gra" +
       "sscutter.net.protoB\032ModifierPropertyOute" +
       "rClassb\006proto3"

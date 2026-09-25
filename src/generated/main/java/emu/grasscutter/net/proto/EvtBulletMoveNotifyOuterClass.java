@@ -25,33 +25,33 @@ public final class EvtBulletMoveNotifyOuterClass {
     int getEntityId();
 
     /**
-     * <code>.Vector cur_pos = 8;</code>
+     * <code>.Vector cur_pos = 13;</code>
      * @return Whether the curPos field is set.
      */
     boolean hasCurPos();
     /**
-     * <code>.Vector cur_pos = 8;</code>
+     * <code>.Vector cur_pos = 13;</code>
      * @return The curPos.
      */
     emu.grasscutter.net.proto.VectorOuterClass.Vector getCurPos();
     /**
-     * <code>.Vector cur_pos = 8;</code>
+     * <code>.Vector cur_pos = 13;</code>
      */
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getCurPosOrBuilder();
 
     /**
-     * <code>bool EOCBPPKDLBH = 9;</code>
+     * <code>bool EOCBPPKDLBH = 15;</code>
      * @return The eOCBPPKDLBH.
      */
     boolean getEOCBPPKDLBH();
 
     /**
-     * <code>.ForwardType forward_type = 14;</code>
+     * <code>.ForwardType forward_type = 10;</code>
      * @return The enum numeric value on the wire for forwardType.
      */
     int getForwardTypeValue();
     /**
-     * <code>.ForwardType forward_type = 14;</code>
+     * <code>.ForwardType forward_type = 10;</code>
      * @return The forwardType.
      */
     emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType getForwardType();
@@ -107,7 +107,13 @@ public final class EvtBulletMoveNotifyOuterClass {
               entityId_ = input.readUInt32();
               break;
             }
-            case 66: {
+            case 80: {
+              int rawValue = input.readEnum();
+
+              forwardType_ = rawValue;
+              break;
+            }
+            case 106: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (curPos_ != null) {
                 subBuilder = curPos_.toBuilder();
@@ -120,15 +126,9 @@ public final class EvtBulletMoveNotifyOuterClass {
 
               break;
             }
-            case 72: {
+            case 120: {
 
               eOCBPPKDLBH_ = input.readBool();
-              break;
-            }
-            case 112: {
-              int rawValue = input.readEnum();
-
-              forwardType_ = rawValue;
               break;
             }
             default: {
@@ -174,10 +174,10 @@ public final class EvtBulletMoveNotifyOuterClass {
       return entityId_;
     }
 
-    public static final int CUR_POS_FIELD_NUMBER = 8;
+    public static final int CUR_POS_FIELD_NUMBER = 13;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector curPos_;
     /**
-     * <code>.Vector cur_pos = 8;</code>
+     * <code>.Vector cur_pos = 13;</code>
      * @return Whether the curPos field is set.
      */
     @java.lang.Override
@@ -185,7 +185,7 @@ public final class EvtBulletMoveNotifyOuterClass {
       return curPos_ != null;
     }
     /**
-     * <code>.Vector cur_pos = 8;</code>
+     * <code>.Vector cur_pos = 13;</code>
      * @return The curPos.
      */
     @java.lang.Override
@@ -193,17 +193,17 @@ public final class EvtBulletMoveNotifyOuterClass {
       return curPos_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : curPos_;
     }
     /**
-     * <code>.Vector cur_pos = 8;</code>
+     * <code>.Vector cur_pos = 13;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getCurPosOrBuilder() {
       return getCurPos();
     }
 
-    public static final int EOCBPPKDLBH_FIELD_NUMBER = 9;
+    public static final int EOCBPPKDLBH_FIELD_NUMBER = 15;
     private boolean eOCBPPKDLBH_;
     /**
-     * <code>bool EOCBPPKDLBH = 9;</code>
+     * <code>bool EOCBPPKDLBH = 15;</code>
      * @return The eOCBPPKDLBH.
      */
     @java.lang.Override
@@ -211,17 +211,17 @@ public final class EvtBulletMoveNotifyOuterClass {
       return eOCBPPKDLBH_;
     }
 
-    public static final int FORWARD_TYPE_FIELD_NUMBER = 14;
+    public static final int FORWARD_TYPE_FIELD_NUMBER = 10;
     private int forwardType_;
     /**
-     * <code>.ForwardType forward_type = 14;</code>
+     * <code>.ForwardType forward_type = 10;</code>
      * @return The enum numeric value on the wire for forwardType.
      */
     @java.lang.Override public int getForwardTypeValue() {
       return forwardType_;
     }
     /**
-     * <code>.ForwardType forward_type = 14;</code>
+     * <code>.ForwardType forward_type = 10;</code>
      * @return The forwardType.
      */
     @java.lang.Override public emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType getForwardType() {
@@ -247,14 +247,14 @@ public final class EvtBulletMoveNotifyOuterClass {
       if (entityId_ != 0) {
         output.writeUInt32(5, entityId_);
       }
+      if (forwardType_ != emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.ForwardType_FORWARD_LOCAL.getNumber()) {
+        output.writeEnum(10, forwardType_);
+      }
       if (curPos_ != null) {
-        output.writeMessage(8, getCurPos());
+        output.writeMessage(13, getCurPos());
       }
       if (eOCBPPKDLBH_ != false) {
-        output.writeBool(9, eOCBPPKDLBH_);
-      }
-      if (forwardType_ != emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.ForwardType_FORWARD_LOCAL.getNumber()) {
-        output.writeEnum(14, forwardType_);
+        output.writeBool(15, eOCBPPKDLBH_);
       }
       unknownFields.writeTo(output);
     }
@@ -269,17 +269,17 @@ public final class EvtBulletMoveNotifyOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(5, entityId_);
       }
+      if (forwardType_ != emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.ForwardType_FORWARD_LOCAL.getNumber()) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeEnumSize(10, forwardType_);
+      }
       if (curPos_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, getCurPos());
+          .computeMessageSize(13, getCurPos());
       }
       if (eOCBPPKDLBH_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, eOCBPPKDLBH_);
-      }
-      if (forwardType_ != emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.ForwardType_FORWARD_LOCAL.getNumber()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(14, forwardType_);
+          .computeBoolSize(15, eOCBPPKDLBH_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -631,14 +631,14 @@ public final class EvtBulletMoveNotifyOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> curPosBuilder_;
       /**
-       * <code>.Vector cur_pos = 8;</code>
+       * <code>.Vector cur_pos = 13;</code>
        * @return Whether the curPos field is set.
        */
       public boolean hasCurPos() {
         return curPosBuilder_ != null || curPos_ != null;
       }
       /**
-       * <code>.Vector cur_pos = 8;</code>
+       * <code>.Vector cur_pos = 13;</code>
        * @return The curPos.
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector getCurPos() {
@@ -649,7 +649,7 @@ public final class EvtBulletMoveNotifyOuterClass {
         }
       }
       /**
-       * <code>.Vector cur_pos = 8;</code>
+       * <code>.Vector cur_pos = 13;</code>
        */
       public Builder setCurPos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (curPosBuilder_ == null) {
@@ -665,7 +665,7 @@ public final class EvtBulletMoveNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.Vector cur_pos = 8;</code>
+       * <code>.Vector cur_pos = 13;</code>
        */
       public Builder setCurPos(
           emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
@@ -679,7 +679,7 @@ public final class EvtBulletMoveNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.Vector cur_pos = 8;</code>
+       * <code>.Vector cur_pos = 13;</code>
        */
       public Builder mergeCurPos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (curPosBuilder_ == null) {
@@ -697,7 +697,7 @@ public final class EvtBulletMoveNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.Vector cur_pos = 8;</code>
+       * <code>.Vector cur_pos = 13;</code>
        */
       public Builder clearCurPos() {
         if (curPosBuilder_ == null) {
@@ -711,7 +711,7 @@ public final class EvtBulletMoveNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.Vector cur_pos = 8;</code>
+       * <code>.Vector cur_pos = 13;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getCurPosBuilder() {
         
@@ -719,7 +719,7 @@ public final class EvtBulletMoveNotifyOuterClass {
         return getCurPosFieldBuilder().getBuilder();
       }
       /**
-       * <code>.Vector cur_pos = 8;</code>
+       * <code>.Vector cur_pos = 13;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getCurPosOrBuilder() {
         if (curPosBuilder_ != null) {
@@ -730,7 +730,7 @@ public final class EvtBulletMoveNotifyOuterClass {
         }
       }
       /**
-       * <code>.Vector cur_pos = 8;</code>
+       * <code>.Vector cur_pos = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
@@ -748,7 +748,7 @@ public final class EvtBulletMoveNotifyOuterClass {
 
       private boolean eOCBPPKDLBH_ ;
       /**
-       * <code>bool EOCBPPKDLBH = 9;</code>
+       * <code>bool EOCBPPKDLBH = 15;</code>
        * @return The eOCBPPKDLBH.
        */
       @java.lang.Override
@@ -756,7 +756,7 @@ public final class EvtBulletMoveNotifyOuterClass {
         return eOCBPPKDLBH_;
       }
       /**
-       * <code>bool EOCBPPKDLBH = 9;</code>
+       * <code>bool EOCBPPKDLBH = 15;</code>
        * @param value The eOCBPPKDLBH to set.
        * @return This builder for chaining.
        */
@@ -767,7 +767,7 @@ public final class EvtBulletMoveNotifyOuterClass {
         return this;
       }
       /**
-       * <code>bool EOCBPPKDLBH = 9;</code>
+       * <code>bool EOCBPPKDLBH = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearEOCBPPKDLBH() {
@@ -779,14 +779,14 @@ public final class EvtBulletMoveNotifyOuterClass {
 
       private int forwardType_ = 0;
       /**
-       * <code>.ForwardType forward_type = 14;</code>
+       * <code>.ForwardType forward_type = 10;</code>
        * @return The enum numeric value on the wire for forwardType.
        */
       @java.lang.Override public int getForwardTypeValue() {
         return forwardType_;
       }
       /**
-       * <code>.ForwardType forward_type = 14;</code>
+       * <code>.ForwardType forward_type = 10;</code>
        * @param value The enum numeric value on the wire for forwardType to set.
        * @return This builder for chaining.
        */
@@ -797,7 +797,7 @@ public final class EvtBulletMoveNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.ForwardType forward_type = 14;</code>
+       * <code>.ForwardType forward_type = 10;</code>
        * @return The forwardType.
        */
       @java.lang.Override
@@ -807,7 +807,7 @@ public final class EvtBulletMoveNotifyOuterClass {
         return result == null ? emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.UNRECOGNIZED : result;
       }
       /**
-       * <code>.ForwardType forward_type = 14;</code>
+       * <code>.ForwardType forward_type = 10;</code>
        * @param value The forwardType to set.
        * @return This builder for chaining.
        */
@@ -821,7 +821,7 @@ public final class EvtBulletMoveNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.ForwardType forward_type = 14;</code>
+       * <code>.ForwardType forward_type = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearForwardType() {
@@ -899,9 +899,9 @@ public final class EvtBulletMoveNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\031EvtBulletMoveNotify.proto\032\021ForwardType" +
       ".proto\032\014Vector.proto\"{\n\023EvtBulletMoveNot" +
-      "ify\022\021\n\tentity_id\030\005 \001(\r\022\030\n\007cur_pos\030\010 \001(\0132" +
-      "\007.Vector\022\023\n\013EOCBPPKDLBH\030\t \001(\010\022\"\n\014forward" +
-      "_type\030\016 \001(\0162\014.ForwardTypeB:\n\031emu.grasscu" +
+      "ify\022\021\n\tentity_id\030\005 \001(\r\022\030\n\007cur_pos\030\r \001(\0132" +
+      "\007.Vector\022\023\n\013EOCBPPKDLBH\030\017 \001(\010\022\"\n\014forward" +
+      "_type\030\n \001(\0162\014.ForwardTypeB:\n\031emu.grasscu" +
       "tter.net.protoB\035EvtBulletMoveNotifyOuter" +
       "Classb\006proto3"
     };

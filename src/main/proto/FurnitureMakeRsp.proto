@@ -12,9 +12,9 @@ import "FurnitureMakeSlot.proto";
 message FurnitureMakeRsp {
 	int32 retcode = 3;
 	uint32 _furniture_make_slot_num = 5;
-	repeated FurnitureMakeBeHelpedData helped_data_list = 8;
-	FurnitureMakeSlot furniture_make_slot = 9;
-	repeated BBJEJOLHJGL FGODNAPHLGL = 10;
-	repeated FurnitureMakeMakeInfo make_info_list = 13;
-	repeated CEIDAKMCDHC NDADFCDJOBK = 14;
+	repeated FurnitureMakeBeHelpedData helped_data_list = 6;
+	FurnitureMakeSlot furniture_make_slot = 15;
+	repeated BBJEJOLHJGL FGODNAPHLGL = 4;
+	repeated FurnitureMakeMakeInfo make_info_list = 1;
+	repeated CEIDAKMCDHC NDADFCDJOBK = 11;
 }

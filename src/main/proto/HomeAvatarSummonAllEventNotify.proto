@@ -6,5 +6,5 @@ option java_outer_classname = "HomeAvatarSummonAllEventNotifyOuterClass";
 import "HomeAvatarSummonEventInfo.proto";
 
 message HomeAvatarSummonAllEventNotify {
-	repeated HomeAvatarSummonEventInfo summon_event_list = 8;
+	repeated HomeAvatarSummonEventInfo summon_event_list = 9;
 }

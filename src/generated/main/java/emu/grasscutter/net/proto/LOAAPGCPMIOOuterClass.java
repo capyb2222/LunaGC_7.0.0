@@ -19,43 +19,43 @@ public final class LOAAPGCPMIOOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.DACMDDCLPNH JJFAGNLJDMN = 2;</code>
+     * <code>.DACMDDCLPNH JJFAGNLJDMN = 7;</code>
      * @return Whether the jJFAGNLJDMN field is set.
      */
     boolean hasJJFAGNLJDMN();
     /**
-     * <code>.DACMDDCLPNH JJFAGNLJDMN = 2;</code>
+     * <code>.DACMDDCLPNH JJFAGNLJDMN = 7;</code>
      * @return The jJFAGNLJDMN.
      */
     emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNH getJJFAGNLJDMN();
     /**
-     * <code>.DACMDDCLPNH JJFAGNLJDMN = 2;</code>
+     * <code>.DACMDDCLPNH JJFAGNLJDMN = 7;</code>
      */
     emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNHOrBuilder getJJFAGNLJDMNOrBuilder();
 
     /**
-     * <code>uint32 DEMNDDHDDKF = 5;</code>
+     * <code>uint32 DEMNDDHDDKF = 2;</code>
      * @return The dEMNDDHDDKF.
      */
     int getDEMNDDHDDKF();
 
     /**
-     * <code>.MHJHCJJGOAD OIIIOAEMICJ = 9;</code>
+     * <code>.MHJHCJJGOAD OIIIOAEMICJ = 5;</code>
      * @return Whether the oIIIOAEMICJ field is set.
      */
     boolean hasOIIIOAEMICJ();
     /**
-     * <code>.MHJHCJJGOAD OIIIOAEMICJ = 9;</code>
+     * <code>.MHJHCJJGOAD OIIIOAEMICJ = 5;</code>
      * @return The oIIIOAEMICJ.
      */
     emu.grasscutter.net.proto.MHJHCJJGOADOuterClass.MHJHCJJGOAD getOIIIOAEMICJ();
     /**
-     * <code>.MHJHCJJGOAD OIIIOAEMICJ = 9;</code>
+     * <code>.MHJHCJJGOAD OIIIOAEMICJ = 5;</code>
      */
     emu.grasscutter.net.proto.MHJHCJJGOADOuterClass.MHJHCJJGOADOrBuilder getOIIIOAEMICJOrBuilder();
 
     /**
-     * <code>uint32 progress = 10;</code>
+     * <code>uint32 progress = 4;</code>
      * @return The progress.
      */
     int getProgress();
@@ -67,7 +67,7 @@ public final class LOAAPGCPMIOOuterClass {
     int getNJIAIJLAFEI();
 
     /**
-     * <code>bool is_accept = 15;</code>
+     * <code>bool is_accept = 6;</code>
      * @return The isAccept.
      */
     boolean getIsAccept();
@@ -117,25 +117,17 @@ public final class LOAAPGCPMIOOuterClass {
             case 0:
               done = true;
               break;
-            case 18: {
-              emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNH.Builder subBuilder = null;
-              if (jJFAGNLJDMN_ != null) {
-                subBuilder = jJFAGNLJDMN_.toBuilder();
-              }
-              jJFAGNLJDMN_ = input.readMessage(emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNH.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(jJFAGNLJDMN_);
-                jJFAGNLJDMN_ = subBuilder.buildPartial();
-              }
-
-              break;
-            }
-            case 40: {
+            case 16: {
 
               dEMNDDHDDKF_ = input.readUInt32();
               break;
             }
-            case 74: {
+            case 32: {
+
+              progress_ = input.readUInt32();
+              break;
+            }
+            case 42: {
               emu.grasscutter.net.proto.MHJHCJJGOADOuterClass.MHJHCJJGOAD.Builder subBuilder = null;
               if (oIIIOAEMICJ_ != null) {
                 subBuilder = oIIIOAEMICJ_.toBuilder();
@@ -148,19 +140,27 @@ public final class LOAAPGCPMIOOuterClass {
 
               break;
             }
-            case 80: {
+            case 48: {
 
-              progress_ = input.readUInt32();
+              isAccept_ = input.readBool();
+              break;
+            }
+            case 58: {
+              emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNH.Builder subBuilder = null;
+              if (jJFAGNLJDMN_ != null) {
+                subBuilder = jJFAGNLJDMN_.toBuilder();
+              }
+              jJFAGNLJDMN_ = input.readMessage(emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNH.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(jJFAGNLJDMN_);
+                jJFAGNLJDMN_ = subBuilder.buildPartial();
+              }
+
               break;
             }
             case 112: {
 
               nJIAIJLAFEI_ = input.readUInt32();
-              break;
-            }
-            case 120: {
-
-              isAccept_ = input.readBool();
               break;
             }
             default: {
@@ -195,10 +195,10 @@ public final class LOAAPGCPMIOOuterClass {
               emu.grasscutter.net.proto.LOAAPGCPMIOOuterClass.LOAAPGCPMIO.class, emu.grasscutter.net.proto.LOAAPGCPMIOOuterClass.LOAAPGCPMIO.Builder.class);
     }
 
-    public static final int JJFAGNLJDMN_FIELD_NUMBER = 2;
+    public static final int JJFAGNLJDMN_FIELD_NUMBER = 7;
     private emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNH jJFAGNLJDMN_;
     /**
-     * <code>.DACMDDCLPNH JJFAGNLJDMN = 2;</code>
+     * <code>.DACMDDCLPNH JJFAGNLJDMN = 7;</code>
      * @return Whether the jJFAGNLJDMN field is set.
      */
     @java.lang.Override
@@ -206,7 +206,7 @@ public final class LOAAPGCPMIOOuterClass {
       return jJFAGNLJDMN_ != null;
     }
     /**
-     * <code>.DACMDDCLPNH JJFAGNLJDMN = 2;</code>
+     * <code>.DACMDDCLPNH JJFAGNLJDMN = 7;</code>
      * @return The jJFAGNLJDMN.
      */
     @java.lang.Override
@@ -214,17 +214,17 @@ public final class LOAAPGCPMIOOuterClass {
       return jJFAGNLJDMN_ == null ? emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNH.getDefaultInstance() : jJFAGNLJDMN_;
     }
     /**
-     * <code>.DACMDDCLPNH JJFAGNLJDMN = 2;</code>
+     * <code>.DACMDDCLPNH JJFAGNLJDMN = 7;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNHOrBuilder getJJFAGNLJDMNOrBuilder() {
       return getJJFAGNLJDMN();
     }
 
-    public static final int DEMNDDHDDKF_FIELD_NUMBER = 5;
+    public static final int DEMNDDHDDKF_FIELD_NUMBER = 2;
     private int dEMNDDHDDKF_;
     /**
-     * <code>uint32 DEMNDDHDDKF = 5;</code>
+     * <code>uint32 DEMNDDHDDKF = 2;</code>
      * @return The dEMNDDHDDKF.
      */
     @java.lang.Override
@@ -232,10 +232,10 @@ public final class LOAAPGCPMIOOuterClass {
       return dEMNDDHDDKF_;
     }
 
-    public static final int OIIIOAEMICJ_FIELD_NUMBER = 9;
+    public static final int OIIIOAEMICJ_FIELD_NUMBER = 5;
     private emu.grasscutter.net.proto.MHJHCJJGOADOuterClass.MHJHCJJGOAD oIIIOAEMICJ_;
     /**
-     * <code>.MHJHCJJGOAD OIIIOAEMICJ = 9;</code>
+     * <code>.MHJHCJJGOAD OIIIOAEMICJ = 5;</code>
      * @return Whether the oIIIOAEMICJ field is set.
      */
     @java.lang.Override
@@ -243,7 +243,7 @@ public final class LOAAPGCPMIOOuterClass {
       return oIIIOAEMICJ_ != null;
     }
     /**
-     * <code>.MHJHCJJGOAD OIIIOAEMICJ = 9;</code>
+     * <code>.MHJHCJJGOAD OIIIOAEMICJ = 5;</code>
      * @return The oIIIOAEMICJ.
      */
     @java.lang.Override
@@ -251,17 +251,17 @@ public final class LOAAPGCPMIOOuterClass {
       return oIIIOAEMICJ_ == null ? emu.grasscutter.net.proto.MHJHCJJGOADOuterClass.MHJHCJJGOAD.getDefaultInstance() : oIIIOAEMICJ_;
     }
     /**
-     * <code>.MHJHCJJGOAD OIIIOAEMICJ = 9;</code>
+     * <code>.MHJHCJJGOAD OIIIOAEMICJ = 5;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.MHJHCJJGOADOuterClass.MHJHCJJGOADOrBuilder getOIIIOAEMICJOrBuilder() {
       return getOIIIOAEMICJ();
     }
 
-    public static final int PROGRESS_FIELD_NUMBER = 10;
+    public static final int PROGRESS_FIELD_NUMBER = 4;
     private int progress_;
     /**
-     * <code>uint32 progress = 10;</code>
+     * <code>uint32 progress = 4;</code>
      * @return The progress.
      */
     @java.lang.Override
@@ -280,10 +280,10 @@ public final class LOAAPGCPMIOOuterClass {
       return nJIAIJLAFEI_;
     }
 
-    public static final int IS_ACCEPT_FIELD_NUMBER = 15;
+    public static final int IS_ACCEPT_FIELD_NUMBER = 6;
     private boolean isAccept_;
     /**
-     * <code>bool is_accept = 15;</code>
+     * <code>bool is_accept = 6;</code>
      * @return The isAccept.
      */
     @java.lang.Override
@@ -305,23 +305,23 @@ public final class LOAAPGCPMIOOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (jJFAGNLJDMN_ != null) {
-        output.writeMessage(2, getJJFAGNLJDMN());
-      }
       if (dEMNDDHDDKF_ != 0) {
-        output.writeUInt32(5, dEMNDDHDDKF_);
-      }
-      if (oIIIOAEMICJ_ != null) {
-        output.writeMessage(9, getOIIIOAEMICJ());
+        output.writeUInt32(2, dEMNDDHDDKF_);
       }
       if (progress_ != 0) {
-        output.writeUInt32(10, progress_);
+        output.writeUInt32(4, progress_);
+      }
+      if (oIIIOAEMICJ_ != null) {
+        output.writeMessage(5, getOIIIOAEMICJ());
+      }
+      if (isAccept_ != false) {
+        output.writeBool(6, isAccept_);
+      }
+      if (jJFAGNLJDMN_ != null) {
+        output.writeMessage(7, getJJFAGNLJDMN());
       }
       if (nJIAIJLAFEI_ != 0) {
         output.writeUInt32(14, nJIAIJLAFEI_);
-      }
-      if (isAccept_ != false) {
-        output.writeBool(15, isAccept_);
       }
       unknownFields.writeTo(output);
     }
@@ -332,29 +332,29 @@ public final class LOAAPGCPMIOOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (jJFAGNLJDMN_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, getJJFAGNLJDMN());
-      }
       if (dEMNDDHDDKF_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, dEMNDDHDDKF_);
-      }
-      if (oIIIOAEMICJ_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, getOIIIOAEMICJ());
+          .computeUInt32Size(2, dEMNDDHDDKF_);
       }
       if (progress_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, progress_);
+          .computeUInt32Size(4, progress_);
+      }
+      if (oIIIOAEMICJ_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(5, getOIIIOAEMICJ());
+      }
+      if (isAccept_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(6, isAccept_);
+      }
+      if (jJFAGNLJDMN_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(7, getJJFAGNLJDMN());
       }
       if (nJIAIJLAFEI_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(14, nJIAIJLAFEI_);
-      }
-      if (isAccept_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(15, isAccept_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -709,14 +709,14 @@ public final class LOAAPGCPMIOOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNH, emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNH.Builder, emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNHOrBuilder> jJFAGNLJDMNBuilder_;
       /**
-       * <code>.DACMDDCLPNH JJFAGNLJDMN = 2;</code>
+       * <code>.DACMDDCLPNH JJFAGNLJDMN = 7;</code>
        * @return Whether the jJFAGNLJDMN field is set.
        */
       public boolean hasJJFAGNLJDMN() {
         return jJFAGNLJDMNBuilder_ != null || jJFAGNLJDMN_ != null;
       }
       /**
-       * <code>.DACMDDCLPNH JJFAGNLJDMN = 2;</code>
+       * <code>.DACMDDCLPNH JJFAGNLJDMN = 7;</code>
        * @return The jJFAGNLJDMN.
        */
       public emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNH getJJFAGNLJDMN() {
@@ -727,7 +727,7 @@ public final class LOAAPGCPMIOOuterClass {
         }
       }
       /**
-       * <code>.DACMDDCLPNH JJFAGNLJDMN = 2;</code>
+       * <code>.DACMDDCLPNH JJFAGNLJDMN = 7;</code>
        */
       public Builder setJJFAGNLJDMN(emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNH value) {
         if (jJFAGNLJDMNBuilder_ == null) {
@@ -743,7 +743,7 @@ public final class LOAAPGCPMIOOuterClass {
         return this;
       }
       /**
-       * <code>.DACMDDCLPNH JJFAGNLJDMN = 2;</code>
+       * <code>.DACMDDCLPNH JJFAGNLJDMN = 7;</code>
        */
       public Builder setJJFAGNLJDMN(
           emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNH.Builder builderForValue) {
@@ -757,7 +757,7 @@ public final class LOAAPGCPMIOOuterClass {
         return this;
       }
       /**
-       * <code>.DACMDDCLPNH JJFAGNLJDMN = 2;</code>
+       * <code>.DACMDDCLPNH JJFAGNLJDMN = 7;</code>
        */
       public Builder mergeJJFAGNLJDMN(emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNH value) {
         if (jJFAGNLJDMNBuilder_ == null) {
@@ -775,7 +775,7 @@ public final class LOAAPGCPMIOOuterClass {
         return this;
       }
       /**
-       * <code>.DACMDDCLPNH JJFAGNLJDMN = 2;</code>
+       * <code>.DACMDDCLPNH JJFAGNLJDMN = 7;</code>
        */
       public Builder clearJJFAGNLJDMN() {
         if (jJFAGNLJDMNBuilder_ == null) {
@@ -789,7 +789,7 @@ public final class LOAAPGCPMIOOuterClass {
         return this;
       }
       /**
-       * <code>.DACMDDCLPNH JJFAGNLJDMN = 2;</code>
+       * <code>.DACMDDCLPNH JJFAGNLJDMN = 7;</code>
        */
       public emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNH.Builder getJJFAGNLJDMNBuilder() {
         
@@ -797,7 +797,7 @@ public final class LOAAPGCPMIOOuterClass {
         return getJJFAGNLJDMNFieldBuilder().getBuilder();
       }
       /**
-       * <code>.DACMDDCLPNH JJFAGNLJDMN = 2;</code>
+       * <code>.DACMDDCLPNH JJFAGNLJDMN = 7;</code>
        */
       public emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNHOrBuilder getJJFAGNLJDMNOrBuilder() {
         if (jJFAGNLJDMNBuilder_ != null) {
@@ -808,7 +808,7 @@ public final class LOAAPGCPMIOOuterClass {
         }
       }
       /**
-       * <code>.DACMDDCLPNH JJFAGNLJDMN = 2;</code>
+       * <code>.DACMDDCLPNH JJFAGNLJDMN = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNH, emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNH.Builder, emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNHOrBuilder> 
@@ -826,7 +826,7 @@ public final class LOAAPGCPMIOOuterClass {
 
       private int dEMNDDHDDKF_ ;
       /**
-       * <code>uint32 DEMNDDHDDKF = 5;</code>
+       * <code>uint32 DEMNDDHDDKF = 2;</code>
        * @return The dEMNDDHDDKF.
        */
       @java.lang.Override
@@ -834,7 +834,7 @@ public final class LOAAPGCPMIOOuterClass {
         return dEMNDDHDDKF_;
       }
       /**
-       * <code>uint32 DEMNDDHDDKF = 5;</code>
+       * <code>uint32 DEMNDDHDDKF = 2;</code>
        * @param value The dEMNDDHDDKF to set.
        * @return This builder for chaining.
        */
@@ -845,7 +845,7 @@ public final class LOAAPGCPMIOOuterClass {
         return this;
       }
       /**
-       * <code>uint32 DEMNDDHDDKF = 5;</code>
+       * <code>uint32 DEMNDDHDDKF = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearDEMNDDHDDKF() {
@@ -859,14 +859,14 @@ public final class LOAAPGCPMIOOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.MHJHCJJGOADOuterClass.MHJHCJJGOAD, emu.grasscutter.net.proto.MHJHCJJGOADOuterClass.MHJHCJJGOAD.Builder, emu.grasscutter.net.proto.MHJHCJJGOADOuterClass.MHJHCJJGOADOrBuilder> oIIIOAEMICJBuilder_;
       /**
-       * <code>.MHJHCJJGOAD OIIIOAEMICJ = 9;</code>
+       * <code>.MHJHCJJGOAD OIIIOAEMICJ = 5;</code>
        * @return Whether the oIIIOAEMICJ field is set.
        */
       public boolean hasOIIIOAEMICJ() {
         return oIIIOAEMICJBuilder_ != null || oIIIOAEMICJ_ != null;
       }
       /**
-       * <code>.MHJHCJJGOAD OIIIOAEMICJ = 9;</code>
+       * <code>.MHJHCJJGOAD OIIIOAEMICJ = 5;</code>
        * @return The oIIIOAEMICJ.
        */
       public emu.grasscutter.net.proto.MHJHCJJGOADOuterClass.MHJHCJJGOAD getOIIIOAEMICJ() {
@@ -877,7 +877,7 @@ public final class LOAAPGCPMIOOuterClass {
         }
       }
       /**
-       * <code>.MHJHCJJGOAD OIIIOAEMICJ = 9;</code>
+       * <code>.MHJHCJJGOAD OIIIOAEMICJ = 5;</code>
        */
       public Builder setOIIIOAEMICJ(emu.grasscutter.net.proto.MHJHCJJGOADOuterClass.MHJHCJJGOAD value) {
         if (oIIIOAEMICJBuilder_ == null) {
@@ -893,7 +893,7 @@ public final class LOAAPGCPMIOOuterClass {
         return this;
       }
       /**
-       * <code>.MHJHCJJGOAD OIIIOAEMICJ = 9;</code>
+       * <code>.MHJHCJJGOAD OIIIOAEMICJ = 5;</code>
        */
       public Builder setOIIIOAEMICJ(
           emu.grasscutter.net.proto.MHJHCJJGOADOuterClass.MHJHCJJGOAD.Builder builderForValue) {
@@ -907,7 +907,7 @@ public final class LOAAPGCPMIOOuterClass {
         return this;
       }
       /**
-       * <code>.MHJHCJJGOAD OIIIOAEMICJ = 9;</code>
+       * <code>.MHJHCJJGOAD OIIIOAEMICJ = 5;</code>
        */
       public Builder mergeOIIIOAEMICJ(emu.grasscutter.net.proto.MHJHCJJGOADOuterClass.MHJHCJJGOAD value) {
         if (oIIIOAEMICJBuilder_ == null) {
@@ -925,7 +925,7 @@ public final class LOAAPGCPMIOOuterClass {
         return this;
       }
       /**
-       * <code>.MHJHCJJGOAD OIIIOAEMICJ = 9;</code>
+       * <code>.MHJHCJJGOAD OIIIOAEMICJ = 5;</code>
        */
       public Builder clearOIIIOAEMICJ() {
         if (oIIIOAEMICJBuilder_ == null) {
@@ -939,7 +939,7 @@ public final class LOAAPGCPMIOOuterClass {
         return this;
       }
       /**
-       * <code>.MHJHCJJGOAD OIIIOAEMICJ = 9;</code>
+       * <code>.MHJHCJJGOAD OIIIOAEMICJ = 5;</code>
        */
       public emu.grasscutter.net.proto.MHJHCJJGOADOuterClass.MHJHCJJGOAD.Builder getOIIIOAEMICJBuilder() {
         
@@ -947,7 +947,7 @@ public final class LOAAPGCPMIOOuterClass {
         return getOIIIOAEMICJFieldBuilder().getBuilder();
       }
       /**
-       * <code>.MHJHCJJGOAD OIIIOAEMICJ = 9;</code>
+       * <code>.MHJHCJJGOAD OIIIOAEMICJ = 5;</code>
        */
       public emu.grasscutter.net.proto.MHJHCJJGOADOuterClass.MHJHCJJGOADOrBuilder getOIIIOAEMICJOrBuilder() {
         if (oIIIOAEMICJBuilder_ != null) {
@@ -958,7 +958,7 @@ public final class LOAAPGCPMIOOuterClass {
         }
       }
       /**
-       * <code>.MHJHCJJGOAD OIIIOAEMICJ = 9;</code>
+       * <code>.MHJHCJJGOAD OIIIOAEMICJ = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.MHJHCJJGOADOuterClass.MHJHCJJGOAD, emu.grasscutter.net.proto.MHJHCJJGOADOuterClass.MHJHCJJGOAD.Builder, emu.grasscutter.net.proto.MHJHCJJGOADOuterClass.MHJHCJJGOADOrBuilder> 
@@ -976,7 +976,7 @@ public final class LOAAPGCPMIOOuterClass {
 
       private int progress_ ;
       /**
-       * <code>uint32 progress = 10;</code>
+       * <code>uint32 progress = 4;</code>
        * @return The progress.
        */
       @java.lang.Override
@@ -984,7 +984,7 @@ public final class LOAAPGCPMIOOuterClass {
         return progress_;
       }
       /**
-       * <code>uint32 progress = 10;</code>
+       * <code>uint32 progress = 4;</code>
        * @param value The progress to set.
        * @return This builder for chaining.
        */
@@ -995,7 +995,7 @@ public final class LOAAPGCPMIOOuterClass {
         return this;
       }
       /**
-       * <code>uint32 progress = 10;</code>
+       * <code>uint32 progress = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearProgress() {
@@ -1038,7 +1038,7 @@ public final class LOAAPGCPMIOOuterClass {
 
       private boolean isAccept_ ;
       /**
-       * <code>bool is_accept = 15;</code>
+       * <code>bool is_accept = 6;</code>
        * @return The isAccept.
        */
       @java.lang.Override
@@ -1046,7 +1046,7 @@ public final class LOAAPGCPMIOOuterClass {
         return isAccept_;
       }
       /**
-       * <code>bool is_accept = 15;</code>
+       * <code>bool is_accept = 6;</code>
        * @param value The isAccept to set.
        * @return This builder for chaining.
        */
@@ -1057,7 +1057,7 @@ public final class LOAAPGCPMIOOuterClass {
         return this;
       }
       /**
-       * <code>bool is_accept = 15;</code>
+       * <code>bool is_accept = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsAccept() {
@@ -1135,10 +1135,10 @@ public final class LOAAPGCPMIOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021LOAAPGCPMIO.proto\032\021DACMDDCLPNH.proto\032\021" +
       "MHJHCJJGOAD.proto\"\242\001\n\013LOAAPGCPMIO\022!\n\013JJF" +
-      "AGNLJDMN\030\002 \001(\0132\014.DACMDDCLPNH\022\023\n\013DEMNDDHD" +
-      "DKF\030\005 \001(\r\022!\n\013OIIIOAEMICJ\030\t \001(\0132\014.MHJHCJJ" +
-      "GOAD\022\020\n\010progress\030\n \001(\r\022\023\n\013NJIAIJLAFEI\030\016 " +
-      "\001(\r\022\021\n\tis_accept\030\017 \001(\010B2\n\031emu.grasscutte" +
+      "AGNLJDMN\030\007 \001(\0132\014.DACMDDCLPNH\022\023\n\013DEMNDDHD" +
+      "DKF\030\002 \001(\r\022!\n\013OIIIOAEMICJ\030\005 \001(\0132\014.MHJHCJJ" +
+      "GOAD\022\020\n\010progress\030\004 \001(\r\022\023\n\013NJIAIJLAFEI\030\016 " +
+      "\001(\r\022\021\n\tis_accept\030\006 \001(\010B2\n\031emu.grasscutte" +
       "r.net.protoB\025LOAAPGCPMIOOuterClassb\006prot" +
       "o3"
     };

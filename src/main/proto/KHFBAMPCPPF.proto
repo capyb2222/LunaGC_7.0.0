@@ -6,5 +6,5 @@ option java_outer_classname = "KHFBAMPCPPFOuterClass";
 import "MDMMOJHDJJN.proto";
 
 message KHFBAMPCPPF {
-	repeated MDMMOJHDJJN OIKCJFGIJGA = 10;
+	repeated MDMMOJHDJJN OIKCJFGIJGA = 4;
 }

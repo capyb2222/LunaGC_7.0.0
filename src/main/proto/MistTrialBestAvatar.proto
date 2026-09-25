@@ -7,6 +7,6 @@ import "AvatarType.proto";
 
 message MistTrialBestAvatar {
 	uint32 avatar_id = 3;
-	uint32 costume_id = 13;
-	AvatarType avatar_type = 14;
+	uint32 costume_id = 4;
+	AvatarType avatar_type = 1;
 }

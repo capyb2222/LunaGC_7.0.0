@@ -19,37 +19,37 @@ public final class DigMarkPointOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.Vector pos = 11;</code>
+     * <code>.Vector pos = 14;</code>
      * @return Whether the pos field is set.
      */
     boolean hasPos();
     /**
-     * <code>.Vector pos = 11;</code>
+     * <code>.Vector pos = 14;</code>
      * @return The pos.
      */
     emu.grasscutter.net.proto.VectorOuterClass.Vector getPos();
     /**
-     * <code>.Vector pos = 11;</code>
+     * <code>.Vector pos = 14;</code>
      */
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPosOrBuilder();
 
     /**
-     * <code>.Vector rot = 12;</code>
+     * <code>.Vector rot = 2;</code>
      * @return Whether the rot field is set.
      */
     boolean hasRot();
     /**
-     * <code>.Vector rot = 12;</code>
+     * <code>.Vector rot = 2;</code>
      * @return The rot.
      */
     emu.grasscutter.net.proto.VectorOuterClass.Vector getRot();
     /**
-     * <code>.Vector rot = 12;</code>
+     * <code>.Vector rot = 2;</code>
      */
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRotOrBuilder();
 
     /**
-     * <code>uint32 bundle_id = 13;</code>
+     * <code>uint32 bundle_id = 8;</code>
      * @return The bundleId.
      */
     int getBundleId();
@@ -99,20 +99,7 @@ public final class DigMarkPointOuterClass {
             case 0:
               done = true;
               break;
-            case 90: {
-              emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
-              if (pos_ != null) {
-                subBuilder = pos_.toBuilder();
-              }
-              pos_ = input.readMessage(emu.grasscutter.net.proto.VectorOuterClass.Vector.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(pos_);
-                pos_ = subBuilder.buildPartial();
-              }
-
-              break;
-            }
-            case 98: {
+            case 18: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (rot_ != null) {
                 subBuilder = rot_.toBuilder();
@@ -125,9 +112,22 @@ public final class DigMarkPointOuterClass {
 
               break;
             }
-            case 104: {
+            case 64: {
 
               bundleId_ = input.readUInt32();
+              break;
+            }
+            case 114: {
+              emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
+              if (pos_ != null) {
+                subBuilder = pos_.toBuilder();
+              }
+              pos_ = input.readMessage(emu.grasscutter.net.proto.VectorOuterClass.Vector.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(pos_);
+                pos_ = subBuilder.buildPartial();
+              }
+
               break;
             }
             default: {
@@ -162,10 +162,10 @@ public final class DigMarkPointOuterClass {
               emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPoint.class, emu.grasscutter.net.proto.DigMarkPointOuterClass.DigMarkPoint.Builder.class);
     }
 
-    public static final int POS_FIELD_NUMBER = 11;
+    public static final int POS_FIELD_NUMBER = 14;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector pos_;
     /**
-     * <code>.Vector pos = 11;</code>
+     * <code>.Vector pos = 14;</code>
      * @return Whether the pos field is set.
      */
     @java.lang.Override
@@ -173,7 +173,7 @@ public final class DigMarkPointOuterClass {
       return pos_ != null;
     }
     /**
-     * <code>.Vector pos = 11;</code>
+     * <code>.Vector pos = 14;</code>
      * @return The pos.
      */
     @java.lang.Override
@@ -181,17 +181,17 @@ public final class DigMarkPointOuterClass {
       return pos_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : pos_;
     }
     /**
-     * <code>.Vector pos = 11;</code>
+     * <code>.Vector pos = 14;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPosOrBuilder() {
       return getPos();
     }
 
-    public static final int ROT_FIELD_NUMBER = 12;
+    public static final int ROT_FIELD_NUMBER = 2;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector rot_;
     /**
-     * <code>.Vector rot = 12;</code>
+     * <code>.Vector rot = 2;</code>
      * @return Whether the rot field is set.
      */
     @java.lang.Override
@@ -199,7 +199,7 @@ public final class DigMarkPointOuterClass {
       return rot_ != null;
     }
     /**
-     * <code>.Vector rot = 12;</code>
+     * <code>.Vector rot = 2;</code>
      * @return The rot.
      */
     @java.lang.Override
@@ -207,17 +207,17 @@ public final class DigMarkPointOuterClass {
       return rot_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : rot_;
     }
     /**
-     * <code>.Vector rot = 12;</code>
+     * <code>.Vector rot = 2;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRotOrBuilder() {
       return getRot();
     }
 
-    public static final int BUNDLE_ID_FIELD_NUMBER = 13;
+    public static final int BUNDLE_ID_FIELD_NUMBER = 8;
     private int bundleId_;
     /**
-     * <code>uint32 bundle_id = 13;</code>
+     * <code>uint32 bundle_id = 8;</code>
      * @return The bundleId.
      */
     @java.lang.Override
@@ -239,14 +239,14 @@ public final class DigMarkPointOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (pos_ != null) {
-        output.writeMessage(11, getPos());
-      }
       if (rot_ != null) {
-        output.writeMessage(12, getRot());
+        output.writeMessage(2, getRot());
       }
       if (bundleId_ != 0) {
-        output.writeUInt32(13, bundleId_);
+        output.writeUInt32(8, bundleId_);
+      }
+      if (pos_ != null) {
+        output.writeMessage(14, getPos());
       }
       unknownFields.writeTo(output);
     }
@@ -257,17 +257,17 @@ public final class DigMarkPointOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (pos_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, getPos());
-      }
       if (rot_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, getRot());
+          .computeMessageSize(2, getRot());
       }
       if (bundleId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, bundleId_);
+          .computeUInt32Size(8, bundleId_);
+      }
+      if (pos_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(14, getPos());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -591,14 +591,14 @@ public final class DigMarkPointOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> posBuilder_;
       /**
-       * <code>.Vector pos = 11;</code>
+       * <code>.Vector pos = 14;</code>
        * @return Whether the pos field is set.
        */
       public boolean hasPos() {
         return posBuilder_ != null || pos_ != null;
       }
       /**
-       * <code>.Vector pos = 11;</code>
+       * <code>.Vector pos = 14;</code>
        * @return The pos.
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector getPos() {
@@ -609,7 +609,7 @@ public final class DigMarkPointOuterClass {
         }
       }
       /**
-       * <code>.Vector pos = 11;</code>
+       * <code>.Vector pos = 14;</code>
        */
       public Builder setPos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (posBuilder_ == null) {
@@ -625,7 +625,7 @@ public final class DigMarkPointOuterClass {
         return this;
       }
       /**
-       * <code>.Vector pos = 11;</code>
+       * <code>.Vector pos = 14;</code>
        */
       public Builder setPos(
           emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
@@ -639,7 +639,7 @@ public final class DigMarkPointOuterClass {
         return this;
       }
       /**
-       * <code>.Vector pos = 11;</code>
+       * <code>.Vector pos = 14;</code>
        */
       public Builder mergePos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (posBuilder_ == null) {
@@ -657,7 +657,7 @@ public final class DigMarkPointOuterClass {
         return this;
       }
       /**
-       * <code>.Vector pos = 11;</code>
+       * <code>.Vector pos = 14;</code>
        */
       public Builder clearPos() {
         if (posBuilder_ == null) {
@@ -671,7 +671,7 @@ public final class DigMarkPointOuterClass {
         return this;
       }
       /**
-       * <code>.Vector pos = 11;</code>
+       * <code>.Vector pos = 14;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getPosBuilder() {
         
@@ -679,7 +679,7 @@ public final class DigMarkPointOuterClass {
         return getPosFieldBuilder().getBuilder();
       }
       /**
-       * <code>.Vector pos = 11;</code>
+       * <code>.Vector pos = 14;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPosOrBuilder() {
         if (posBuilder_ != null) {
@@ -690,7 +690,7 @@ public final class DigMarkPointOuterClass {
         }
       }
       /**
-       * <code>.Vector pos = 11;</code>
+       * <code>.Vector pos = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
@@ -710,14 +710,14 @@ public final class DigMarkPointOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> rotBuilder_;
       /**
-       * <code>.Vector rot = 12;</code>
+       * <code>.Vector rot = 2;</code>
        * @return Whether the rot field is set.
        */
       public boolean hasRot() {
         return rotBuilder_ != null || rot_ != null;
       }
       /**
-       * <code>.Vector rot = 12;</code>
+       * <code>.Vector rot = 2;</code>
        * @return The rot.
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector getRot() {
@@ -728,7 +728,7 @@ public final class DigMarkPointOuterClass {
         }
       }
       /**
-       * <code>.Vector rot = 12;</code>
+       * <code>.Vector rot = 2;</code>
        */
       public Builder setRot(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (rotBuilder_ == null) {
@@ -744,7 +744,7 @@ public final class DigMarkPointOuterClass {
         return this;
       }
       /**
-       * <code>.Vector rot = 12;</code>
+       * <code>.Vector rot = 2;</code>
        */
       public Builder setRot(
           emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
@@ -758,7 +758,7 @@ public final class DigMarkPointOuterClass {
         return this;
       }
       /**
-       * <code>.Vector rot = 12;</code>
+       * <code>.Vector rot = 2;</code>
        */
       public Builder mergeRot(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (rotBuilder_ == null) {
@@ -776,7 +776,7 @@ public final class DigMarkPointOuterClass {
         return this;
       }
       /**
-       * <code>.Vector rot = 12;</code>
+       * <code>.Vector rot = 2;</code>
        */
       public Builder clearRot() {
         if (rotBuilder_ == null) {
@@ -790,7 +790,7 @@ public final class DigMarkPointOuterClass {
         return this;
       }
       /**
-       * <code>.Vector rot = 12;</code>
+       * <code>.Vector rot = 2;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getRotBuilder() {
         
@@ -798,7 +798,7 @@ public final class DigMarkPointOuterClass {
         return getRotFieldBuilder().getBuilder();
       }
       /**
-       * <code>.Vector rot = 12;</code>
+       * <code>.Vector rot = 2;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRotOrBuilder() {
         if (rotBuilder_ != null) {
@@ -809,7 +809,7 @@ public final class DigMarkPointOuterClass {
         }
       }
       /**
-       * <code>.Vector rot = 12;</code>
+       * <code>.Vector rot = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
@@ -827,7 +827,7 @@ public final class DigMarkPointOuterClass {
 
       private int bundleId_ ;
       /**
-       * <code>uint32 bundle_id = 13;</code>
+       * <code>uint32 bundle_id = 8;</code>
        * @return The bundleId.
        */
       @java.lang.Override
@@ -835,7 +835,7 @@ public final class DigMarkPointOuterClass {
         return bundleId_;
       }
       /**
-       * <code>uint32 bundle_id = 13;</code>
+       * <code>uint32 bundle_id = 8;</code>
        * @param value The bundleId to set.
        * @return This builder for chaining.
        */
@@ -846,7 +846,7 @@ public final class DigMarkPointOuterClass {
         return this;
       }
       /**
-       * <code>uint32 bundle_id = 13;</code>
+       * <code>uint32 bundle_id = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearBundleId() {
@@ -923,8 +923,8 @@ public final class DigMarkPointOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\022DigMarkPoint.proto\032\014Vector.proto\"M\n\014Di" +
-      "gMarkPoint\022\024\n\003pos\030\013 \001(\0132\007.Vector\022\024\n\003rot\030" +
-      "\014 \001(\0132\007.Vector\022\021\n\tbundle_id\030\r \001(\rB3\n\031emu" +
+      "gMarkPoint\022\024\n\003pos\030\016 \001(\0132\007.Vector\022\024\n\003rot\030" +
+      "\002 \001(\0132\007.Vector\022\021\n\tbundle_id\030\010 \001(\rB3\n\031emu" +
       ".grasscutter.net.protoB\026DigMarkPointOute" +
       "rClassb\006proto3"
     };

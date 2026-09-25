@@ -6,5 +6,5 @@ option java_outer_classname = "SeaLampV3ShadowInfoOuterClass";
 import "SeaLampV3ShadowStageInfo.proto";
 
 message SeaLampV3ShadowInfo {
-	repeated SeaLampV3ShadowStageInfo stage_info_list = 2;
+	repeated SeaLampV3ShadowStageInfo stage_info_list = 8;
 }

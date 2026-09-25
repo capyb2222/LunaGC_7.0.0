@@ -19,31 +19,31 @@ public final class _ClientPlayInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated ._ClientPlayLevelInfo level_info_list = 8;</code>
+     * <code>repeated ._ClientPlayLevelInfo level_info_list = 4;</code>
      */
     java.util.List<emu.grasscutter.net.proto._ClientPlayLevelInfoOuterClass._ClientPlayLevelInfo> 
         getLevelInfoListList();
     /**
-     * <code>repeated ._ClientPlayLevelInfo level_info_list = 8;</code>
+     * <code>repeated ._ClientPlayLevelInfo level_info_list = 4;</code>
      */
     emu.grasscutter.net.proto._ClientPlayLevelInfoOuterClass._ClientPlayLevelInfo getLevelInfoList(int index);
     /**
-     * <code>repeated ._ClientPlayLevelInfo level_info_list = 8;</code>
+     * <code>repeated ._ClientPlayLevelInfo level_info_list = 4;</code>
      */
     int getLevelInfoListCount();
     /**
-     * <code>repeated ._ClientPlayLevelInfo level_info_list = 8;</code>
+     * <code>repeated ._ClientPlayLevelInfo level_info_list = 4;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto._ClientPlayLevelInfoOuterClass._ClientPlayLevelInfoOrBuilder> 
         getLevelInfoListOrBuilderList();
     /**
-     * <code>repeated ._ClientPlayLevelInfo level_info_list = 8;</code>
+     * <code>repeated ._ClientPlayLevelInfo level_info_list = 4;</code>
      */
     emu.grasscutter.net.proto._ClientPlayLevelInfoOuterClass._ClientPlayLevelInfoOrBuilder getLevelInfoListOrBuilder(
         int index);
 
     /**
-     * <code>uint32 play_type = 14;</code>
+     * <code>uint32 play_type = 10;</code>
      * @return The playType.
      */
     int getPlayType();
@@ -95,7 +95,7 @@ public final class _ClientPlayInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 66: {
+            case 34: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 levelInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto._ClientPlayLevelInfoOuterClass._ClientPlayLevelInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -104,7 +104,7 @@ public final class _ClientPlayInfoOuterClass {
                   input.readMessage(emu.grasscutter.net.proto._ClientPlayLevelInfoOuterClass._ClientPlayLevelInfo.parser(), extensionRegistry));
               break;
             }
-            case 112: {
+            case 80: {
 
               playType_ = input.readUInt32();
               break;
@@ -144,17 +144,17 @@ public final class _ClientPlayInfoOuterClass {
               emu.grasscutter.net.proto._ClientPlayInfoOuterClass._ClientPlayInfo.class, emu.grasscutter.net.proto._ClientPlayInfoOuterClass._ClientPlayInfo.Builder.class);
     }
 
-    public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 8;
+    public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 4;
     private java.util.List<emu.grasscutter.net.proto._ClientPlayLevelInfoOuterClass._ClientPlayLevelInfo> levelInfoList_;
     /**
-     * <code>repeated ._ClientPlayLevelInfo level_info_list = 8;</code>
+     * <code>repeated ._ClientPlayLevelInfo level_info_list = 4;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto._ClientPlayLevelInfoOuterClass._ClientPlayLevelInfo> getLevelInfoListList() {
       return levelInfoList_;
     }
     /**
-     * <code>repeated ._ClientPlayLevelInfo level_info_list = 8;</code>
+     * <code>repeated ._ClientPlayLevelInfo level_info_list = 4;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto._ClientPlayLevelInfoOuterClass._ClientPlayLevelInfoOrBuilder> 
@@ -162,21 +162,21 @@ public final class _ClientPlayInfoOuterClass {
       return levelInfoList_;
     }
     /**
-     * <code>repeated ._ClientPlayLevelInfo level_info_list = 8;</code>
+     * <code>repeated ._ClientPlayLevelInfo level_info_list = 4;</code>
      */
     @java.lang.Override
     public int getLevelInfoListCount() {
       return levelInfoList_.size();
     }
     /**
-     * <code>repeated ._ClientPlayLevelInfo level_info_list = 8;</code>
+     * <code>repeated ._ClientPlayLevelInfo level_info_list = 4;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._ClientPlayLevelInfoOuterClass._ClientPlayLevelInfo getLevelInfoList(int index) {
       return levelInfoList_.get(index);
     }
     /**
-     * <code>repeated ._ClientPlayLevelInfo level_info_list = 8;</code>
+     * <code>repeated ._ClientPlayLevelInfo level_info_list = 4;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._ClientPlayLevelInfoOuterClass._ClientPlayLevelInfoOrBuilder getLevelInfoListOrBuilder(
@@ -184,10 +184,10 @@ public final class _ClientPlayInfoOuterClass {
       return levelInfoList_.get(index);
     }
 
-    public static final int PLAY_TYPE_FIELD_NUMBER = 14;
+    public static final int PLAY_TYPE_FIELD_NUMBER = 10;
     private int playType_;
     /**
-     * <code>uint32 play_type = 14;</code>
+     * <code>uint32 play_type = 10;</code>
      * @return The playType.
      */
     @java.lang.Override
@@ -210,10 +210,10 @@ public final class _ClientPlayInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < levelInfoList_.size(); i++) {
-        output.writeMessage(8, levelInfoList_.get(i));
+        output.writeMessage(4, levelInfoList_.get(i));
       }
       if (playType_ != 0) {
-        output.writeUInt32(14, playType_);
+        output.writeUInt32(10, playType_);
       }
       unknownFields.writeTo(output);
     }
@@ -226,11 +226,11 @@ public final class _ClientPlayInfoOuterClass {
       size = 0;
       for (int i = 0; i < levelInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, levelInfoList_.get(i));
+          .computeMessageSize(4, levelInfoList_.get(i));
       }
       if (playType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, playType_);
+          .computeUInt32Size(10, playType_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -567,7 +567,7 @@ public final class _ClientPlayInfoOuterClass {
           emu.grasscutter.net.proto._ClientPlayLevelInfoOuterClass._ClientPlayLevelInfo, emu.grasscutter.net.proto._ClientPlayLevelInfoOuterClass._ClientPlayLevelInfo.Builder, emu.grasscutter.net.proto._ClientPlayLevelInfoOuterClass._ClientPlayLevelInfoOrBuilder> levelInfoListBuilder_;
 
       /**
-       * <code>repeated ._ClientPlayLevelInfo level_info_list = 8;</code>
+       * <code>repeated ._ClientPlayLevelInfo level_info_list = 4;</code>
        */
       public java.util.List<emu.grasscutter.net.proto._ClientPlayLevelInfoOuterClass._ClientPlayLevelInfo> getLevelInfoListList() {
         if (levelInfoListBuilder_ == null) {
@@ -577,7 +577,7 @@ public final class _ClientPlayInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._ClientPlayLevelInfo level_info_list = 8;</code>
+       * <code>repeated ._ClientPlayLevelInfo level_info_list = 4;</code>
        */
       public int getLevelInfoListCount() {
         if (levelInfoListBuilder_ == null) {
@@ -587,7 +587,7 @@ public final class _ClientPlayInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._ClientPlayLevelInfo level_info_list = 8;</code>
+       * <code>repeated ._ClientPlayLevelInfo level_info_list = 4;</code>
        */
       public emu.grasscutter.net.proto._ClientPlayLevelInfoOuterClass._ClientPlayLevelInfo getLevelInfoList(int index) {
         if (levelInfoListBuilder_ == null) {
@@ -597,7 +597,7 @@ public final class _ClientPlayInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._ClientPlayLevelInfo level_info_list = 8;</code>
+       * <code>repeated ._ClientPlayLevelInfo level_info_list = 4;</code>
        */
       public Builder setLevelInfoList(
           int index, emu.grasscutter.net.proto._ClientPlayLevelInfoOuterClass._ClientPlayLevelInfo value) {
@@ -614,7 +614,7 @@ public final class _ClientPlayInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._ClientPlayLevelInfo level_info_list = 8;</code>
+       * <code>repeated ._ClientPlayLevelInfo level_info_list = 4;</code>
        */
       public Builder setLevelInfoList(
           int index, emu.grasscutter.net.proto._ClientPlayLevelInfoOuterClass._ClientPlayLevelInfo.Builder builderForValue) {
@@ -628,7 +628,7 @@ public final class _ClientPlayInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._ClientPlayLevelInfo level_info_list = 8;</code>
+       * <code>repeated ._ClientPlayLevelInfo level_info_list = 4;</code>
        */
       public Builder addLevelInfoList(emu.grasscutter.net.proto._ClientPlayLevelInfoOuterClass._ClientPlayLevelInfo value) {
         if (levelInfoListBuilder_ == null) {
@@ -644,7 +644,7 @@ public final class _ClientPlayInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._ClientPlayLevelInfo level_info_list = 8;</code>
+       * <code>repeated ._ClientPlayLevelInfo level_info_list = 4;</code>
        */
       public Builder addLevelInfoList(
           int index, emu.grasscutter.net.proto._ClientPlayLevelInfoOuterClass._ClientPlayLevelInfo value) {
@@ -661,7 +661,7 @@ public final class _ClientPlayInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._ClientPlayLevelInfo level_info_list = 8;</code>
+       * <code>repeated ._ClientPlayLevelInfo level_info_list = 4;</code>
        */
       public Builder addLevelInfoList(
           emu.grasscutter.net.proto._ClientPlayLevelInfoOuterClass._ClientPlayLevelInfo.Builder builderForValue) {
@@ -675,7 +675,7 @@ public final class _ClientPlayInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._ClientPlayLevelInfo level_info_list = 8;</code>
+       * <code>repeated ._ClientPlayLevelInfo level_info_list = 4;</code>
        */
       public Builder addLevelInfoList(
           int index, emu.grasscutter.net.proto._ClientPlayLevelInfoOuterClass._ClientPlayLevelInfo.Builder builderForValue) {
@@ -689,7 +689,7 @@ public final class _ClientPlayInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._ClientPlayLevelInfo level_info_list = 8;</code>
+       * <code>repeated ._ClientPlayLevelInfo level_info_list = 4;</code>
        */
       public Builder addAllLevelInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto._ClientPlayLevelInfoOuterClass._ClientPlayLevelInfo> values) {
@@ -704,7 +704,7 @@ public final class _ClientPlayInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._ClientPlayLevelInfo level_info_list = 8;</code>
+       * <code>repeated ._ClientPlayLevelInfo level_info_list = 4;</code>
        */
       public Builder clearLevelInfoList() {
         if (levelInfoListBuilder_ == null) {
@@ -717,7 +717,7 @@ public final class _ClientPlayInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._ClientPlayLevelInfo level_info_list = 8;</code>
+       * <code>repeated ._ClientPlayLevelInfo level_info_list = 4;</code>
        */
       public Builder removeLevelInfoList(int index) {
         if (levelInfoListBuilder_ == null) {
@@ -730,14 +730,14 @@ public final class _ClientPlayInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._ClientPlayLevelInfo level_info_list = 8;</code>
+       * <code>repeated ._ClientPlayLevelInfo level_info_list = 4;</code>
        */
       public emu.grasscutter.net.proto._ClientPlayLevelInfoOuterClass._ClientPlayLevelInfo.Builder getLevelInfoListBuilder(
           int index) {
         return getLevelInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated ._ClientPlayLevelInfo level_info_list = 8;</code>
+       * <code>repeated ._ClientPlayLevelInfo level_info_list = 4;</code>
        */
       public emu.grasscutter.net.proto._ClientPlayLevelInfoOuterClass._ClientPlayLevelInfoOrBuilder getLevelInfoListOrBuilder(
           int index) {
@@ -747,7 +747,7 @@ public final class _ClientPlayInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._ClientPlayLevelInfo level_info_list = 8;</code>
+       * <code>repeated ._ClientPlayLevelInfo level_info_list = 4;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto._ClientPlayLevelInfoOuterClass._ClientPlayLevelInfoOrBuilder> 
            getLevelInfoListOrBuilderList() {
@@ -758,14 +758,14 @@ public final class _ClientPlayInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._ClientPlayLevelInfo level_info_list = 8;</code>
+       * <code>repeated ._ClientPlayLevelInfo level_info_list = 4;</code>
        */
       public emu.grasscutter.net.proto._ClientPlayLevelInfoOuterClass._ClientPlayLevelInfo.Builder addLevelInfoListBuilder() {
         return getLevelInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto._ClientPlayLevelInfoOuterClass._ClientPlayLevelInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated ._ClientPlayLevelInfo level_info_list = 8;</code>
+       * <code>repeated ._ClientPlayLevelInfo level_info_list = 4;</code>
        */
       public emu.grasscutter.net.proto._ClientPlayLevelInfoOuterClass._ClientPlayLevelInfo.Builder addLevelInfoListBuilder(
           int index) {
@@ -773,7 +773,7 @@ public final class _ClientPlayInfoOuterClass {
             index, emu.grasscutter.net.proto._ClientPlayLevelInfoOuterClass._ClientPlayLevelInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated ._ClientPlayLevelInfo level_info_list = 8;</code>
+       * <code>repeated ._ClientPlayLevelInfo level_info_list = 4;</code>
        */
       public java.util.List<emu.grasscutter.net.proto._ClientPlayLevelInfoOuterClass._ClientPlayLevelInfo.Builder> 
            getLevelInfoListBuilderList() {
@@ -796,7 +796,7 @@ public final class _ClientPlayInfoOuterClass {
 
       private int playType_ ;
       /**
-       * <code>uint32 play_type = 14;</code>
+       * <code>uint32 play_type = 10;</code>
        * @return The playType.
        */
       @java.lang.Override
@@ -804,7 +804,7 @@ public final class _ClientPlayInfoOuterClass {
         return playType_;
       }
       /**
-       * <code>uint32 play_type = 14;</code>
+       * <code>uint32 play_type = 10;</code>
        * @param value The playType to set.
        * @return This builder for chaining.
        */
@@ -815,7 +815,7 @@ public final class _ClientPlayInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 play_type = 14;</code>
+       * <code>uint32 play_type = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearPlayType() {
@@ -893,8 +893,8 @@ public final class _ClientPlayInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\025_ClientPlayInfo.proto\032\032_ClientPlayLeve" +
       "lInfo.proto\"T\n\017_ClientPlayInfo\022.\n\017level_" +
-      "info_list\030\010 \003(\0132\025._ClientPlayLevelInfo\022\021" +
-      "\n\tplay_type\030\016 \001(\rB6\n\031emu.grasscutter.net" +
+      "info_list\030\004 \003(\0132\025._ClientPlayLevelInfo\022\021" +
+      "\n\tplay_type\030\n \001(\rB6\n\031emu.grasscutter.net" +
       ".protoB\031_ClientPlayInfoOuterClassb\006proto" +
       "3"
     };

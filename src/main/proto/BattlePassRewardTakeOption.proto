@@ -6,7 +6,7 @@ option java_outer_classname = "BattlePassRewardTakeOptionOuterClass";
 import "BattlePassRewardTag.proto";
 
 message BattlePassRewardTakeOption {
-	uint32 option_idx = 4;
+	uint32 option_idx = 13;
 	BattlePassRewardTag tag = 7;
-	uint32 _battle_pass_plan = 9;
+	uint32 _battle_pass_plan = 10;
 }

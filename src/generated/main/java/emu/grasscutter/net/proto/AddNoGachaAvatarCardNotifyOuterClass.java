@@ -19,31 +19,31 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 item_id = 4;</code>
+     * <code>uint32 item_id = 9;</code>
      * @return The itemId.
      */
     int getItemId();
 
     /**
-     * <code>uint32 initial_level = 5;</code>
+     * <code>uint32 initial_level = 50000;</code>
      * @return The initialLevel.
      */
     int getInitialLevel();
 
     /**
-     * <code>uint32 initial_promote_level = 6;</code>
+     * <code>uint32 initial_promote_level = 50001;</code>
      * @return The initialPromoteLevel.
      */
     int getInitialPromoteLevel();
 
     /**
-     * <code>uint32 reason = 7;</code>
+     * <code>uint32 reason = 12;</code>
      * @return The reason.
      */
     int getReason();
 
     /**
-     * <code>uint32 avatar_id = 10;</code>
+     * <code>uint32 avatar_id = 2;</code>
      * @return The avatarId.
      */
     int getAvatarId();
@@ -73,7 +73,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
         int index);
 
     /**
-     * <code>bool is_transfer_to_item = 14;</code>
+     * <code>bool is_transfer_to_item = 7;</code>
      * @return The isTransferToItem.
      */
     boolean getIsTransferToItem();
@@ -125,29 +125,24 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 16: {
 
-              itemId_ = input.readUInt32();
-              break;
-            }
-            case 40: {
-
-              initialLevel_ = input.readUInt32();
-              break;
-            }
-            case 48: {
-
-              initialPromoteLevel_ = input.readUInt32();
+              avatarId_ = input.readUInt32();
               break;
             }
             case 56: {
 
-              reason_ = input.readUInt32();
+              isTransferToItem_ = input.readBool();
               break;
             }
-            case 80: {
+            case 72: {
 
-              avatarId_ = input.readUInt32();
+              itemId_ = input.readUInt32();
+              break;
+            }
+            case 96: {
+
+              reason_ = input.readUInt32();
               break;
             }
             case 106: {
@@ -159,9 +154,14 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.AddNoGachaAvatarCardTransferItemOuterClass.AddNoGachaAvatarCardTransferItem.parser(), extensionRegistry));
               break;
             }
-            case 112: {
+            case 400000: {
 
-              isTransferToItem_ = input.readBool();
+              initialLevel_ = input.readUInt32();
+              break;
+            }
+            case 400008: {
+
+              initialPromoteLevel_ = input.readUInt32();
               break;
             }
             default: {
@@ -199,10 +199,10 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
               emu.grasscutter.net.proto.AddNoGachaAvatarCardNotifyOuterClass.AddNoGachaAvatarCardNotify.class, emu.grasscutter.net.proto.AddNoGachaAvatarCardNotifyOuterClass.AddNoGachaAvatarCardNotify.Builder.class);
     }
 
-    public static final int ITEM_ID_FIELD_NUMBER = 4;
+    public static final int ITEM_ID_FIELD_NUMBER = 9;
     private int itemId_;
     /**
-     * <code>uint32 item_id = 4;</code>
+     * <code>uint32 item_id = 9;</code>
      * @return The itemId.
      */
     @java.lang.Override
@@ -210,10 +210,10 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
       return itemId_;
     }
 
-    public static final int INITIAL_LEVEL_FIELD_NUMBER = 5;
+    public static final int INITIAL_LEVEL_FIELD_NUMBER = 50000;
     private int initialLevel_;
     /**
-     * <code>uint32 initial_level = 5;</code>
+     * <code>uint32 initial_level = 50000;</code>
      * @return The initialLevel.
      */
     @java.lang.Override
@@ -221,10 +221,10 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
       return initialLevel_;
     }
 
-    public static final int INITIAL_PROMOTE_LEVEL_FIELD_NUMBER = 6;
+    public static final int INITIAL_PROMOTE_LEVEL_FIELD_NUMBER = 50001;
     private int initialPromoteLevel_;
     /**
-     * <code>uint32 initial_promote_level = 6;</code>
+     * <code>uint32 initial_promote_level = 50001;</code>
      * @return The initialPromoteLevel.
      */
     @java.lang.Override
@@ -232,10 +232,10 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
       return initialPromoteLevel_;
     }
 
-    public static final int REASON_FIELD_NUMBER = 7;
+    public static final int REASON_FIELD_NUMBER = 12;
     private int reason_;
     /**
-     * <code>uint32 reason = 7;</code>
+     * <code>uint32 reason = 12;</code>
      * @return The reason.
      */
     @java.lang.Override
@@ -243,10 +243,10 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
       return reason_;
     }
 
-    public static final int AVATAR_ID_FIELD_NUMBER = 10;
+    public static final int AVATAR_ID_FIELD_NUMBER = 2;
     private int avatarId_;
     /**
-     * <code>uint32 avatar_id = 10;</code>
+     * <code>uint32 avatar_id = 2;</code>
      * @return The avatarId.
      */
     @java.lang.Override
@@ -294,10 +294,10 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
       return transferItemList_.get(index);
     }
 
-    public static final int IS_TRANSFER_TO_ITEM_FIELD_NUMBER = 14;
+    public static final int IS_TRANSFER_TO_ITEM_FIELD_NUMBER = 7;
     private boolean isTransferToItem_;
     /**
-     * <code>bool is_transfer_to_item = 14;</code>
+     * <code>bool is_transfer_to_item = 7;</code>
      * @return The isTransferToItem.
      */
     @java.lang.Override
@@ -319,26 +319,26 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (avatarId_ != 0) {
+        output.writeUInt32(2, avatarId_);
+      }
+      if (isTransferToItem_ != false) {
+        output.writeBool(7, isTransferToItem_);
+      }
       if (itemId_ != 0) {
-        output.writeUInt32(4, itemId_);
-      }
-      if (initialLevel_ != 0) {
-        output.writeUInt32(5, initialLevel_);
-      }
-      if (initialPromoteLevel_ != 0) {
-        output.writeUInt32(6, initialPromoteLevel_);
+        output.writeUInt32(9, itemId_);
       }
       if (reason_ != 0) {
-        output.writeUInt32(7, reason_);
-      }
-      if (avatarId_ != 0) {
-        output.writeUInt32(10, avatarId_);
+        output.writeUInt32(12, reason_);
       }
       for (int i = 0; i < transferItemList_.size(); i++) {
         output.writeMessage(13, transferItemList_.get(i));
       }
-      if (isTransferToItem_ != false) {
-        output.writeBool(14, isTransferToItem_);
+      if (initialLevel_ != 0) {
+        output.writeUInt32(50000, initialLevel_);
+      }
+      if (initialPromoteLevel_ != 0) {
+        output.writeUInt32(50001, initialPromoteLevel_);
       }
       unknownFields.writeTo(output);
     }
@@ -349,33 +349,33 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (avatarId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(2, avatarId_);
+      }
+      if (isTransferToItem_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(7, isTransferToItem_);
+      }
       if (itemId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, itemId_);
-      }
-      if (initialLevel_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, initialLevel_);
-      }
-      if (initialPromoteLevel_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, initialPromoteLevel_);
+          .computeUInt32Size(9, itemId_);
       }
       if (reason_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, reason_);
-      }
-      if (avatarId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, avatarId_);
+          .computeUInt32Size(12, reason_);
       }
       for (int i = 0; i < transferItemList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(13, transferItemList_.get(i));
       }
-      if (isTransferToItem_ != false) {
+      if (initialLevel_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(14, isTransferToItem_);
+          .computeUInt32Size(50000, initialLevel_);
+      }
+      if (initialPromoteLevel_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50001, initialPromoteLevel_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -752,7 +752,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
 
       private int itemId_ ;
       /**
-       * <code>uint32 item_id = 4;</code>
+       * <code>uint32 item_id = 9;</code>
        * @return The itemId.
        */
       @java.lang.Override
@@ -760,7 +760,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
         return itemId_;
       }
       /**
-       * <code>uint32 item_id = 4;</code>
+       * <code>uint32 item_id = 9;</code>
        * @param value The itemId to set.
        * @return This builder for chaining.
        */
@@ -771,7 +771,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 item_id = 4;</code>
+       * <code>uint32 item_id = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearItemId() {
@@ -783,7 +783,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
 
       private int initialLevel_ ;
       /**
-       * <code>uint32 initial_level = 5;</code>
+       * <code>uint32 initial_level = 50000;</code>
        * @return The initialLevel.
        */
       @java.lang.Override
@@ -791,7 +791,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
         return initialLevel_;
       }
       /**
-       * <code>uint32 initial_level = 5;</code>
+       * <code>uint32 initial_level = 50000;</code>
        * @param value The initialLevel to set.
        * @return This builder for chaining.
        */
@@ -802,7 +802,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 initial_level = 5;</code>
+       * <code>uint32 initial_level = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearInitialLevel() {
@@ -814,7 +814,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
 
       private int initialPromoteLevel_ ;
       /**
-       * <code>uint32 initial_promote_level = 6;</code>
+       * <code>uint32 initial_promote_level = 50001;</code>
        * @return The initialPromoteLevel.
        */
       @java.lang.Override
@@ -822,7 +822,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
         return initialPromoteLevel_;
       }
       /**
-       * <code>uint32 initial_promote_level = 6;</code>
+       * <code>uint32 initial_promote_level = 50001;</code>
        * @param value The initialPromoteLevel to set.
        * @return This builder for chaining.
        */
@@ -833,7 +833,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 initial_promote_level = 6;</code>
+       * <code>uint32 initial_promote_level = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearInitialPromoteLevel() {
@@ -845,7 +845,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
 
       private int reason_ ;
       /**
-       * <code>uint32 reason = 7;</code>
+       * <code>uint32 reason = 12;</code>
        * @return The reason.
        */
       @java.lang.Override
@@ -853,7 +853,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
         return reason_;
       }
       /**
-       * <code>uint32 reason = 7;</code>
+       * <code>uint32 reason = 12;</code>
        * @param value The reason to set.
        * @return This builder for chaining.
        */
@@ -864,7 +864,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 reason = 7;</code>
+       * <code>uint32 reason = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearReason() {
@@ -876,7 +876,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
 
       private int avatarId_ ;
       /**
-       * <code>uint32 avatar_id = 10;</code>
+       * <code>uint32 avatar_id = 2;</code>
        * @return The avatarId.
        */
       @java.lang.Override
@@ -884,7 +884,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
         return avatarId_;
       }
       /**
-       * <code>uint32 avatar_id = 10;</code>
+       * <code>uint32 avatar_id = 2;</code>
        * @param value The avatarId to set.
        * @return This builder for chaining.
        */
@@ -895,7 +895,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 avatar_id = 10;</code>
+       * <code>uint32 avatar_id = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearAvatarId() {
@@ -1147,7 +1147,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
 
       private boolean isTransferToItem_ ;
       /**
-       * <code>bool is_transfer_to_item = 14;</code>
+       * <code>bool is_transfer_to_item = 7;</code>
        * @return The isTransferToItem.
        */
       @java.lang.Override
@@ -1155,7 +1155,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
         return isTransferToItem_;
       }
       /**
-       * <code>bool is_transfer_to_item = 14;</code>
+       * <code>bool is_transfer_to_item = 7;</code>
        * @param value The isTransferToItem to set.
        * @return This builder for chaining.
        */
@@ -1166,7 +1166,7 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
         return this;
       }
       /**
-       * <code>bool is_transfer_to_item = 14;</code>
+       * <code>bool is_transfer_to_item = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsTransferToItem() {
@@ -1243,15 +1243,15 @@ public final class AddNoGachaAvatarCardNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n AddNoGachaAvatarCardNotify.proto\032&AddN" +
-      "oGachaAvatarCardTransferItem.proto\"\342\001\n\032A" +
-      "ddNoGachaAvatarCardNotify\022\017\n\007item_id\030\004 \001" +
-      "(\r\022\025\n\rinitial_level\030\005 \001(\r\022\035\n\025initial_pro" +
-      "mote_level\030\006 \001(\r\022\016\n\006reason\030\007 \001(\r\022\021\n\tavat" +
-      "ar_id\030\n \001(\r\022=\n\022transfer_item_list\030\r \003(\0132" +
-      "!.AddNoGachaAvatarCardTransferItem\022\033\n\023is" +
-      "_transfer_to_item\030\016 \001(\010BA\n\031emu.grasscutt" +
-      "er.net.protoB$AddNoGachaAvatarCardNotify" +
-      "OuterClassb\006proto3"
+      "oGachaAvatarCardTransferItem.proto\"\346\001\n\032A" +
+      "ddNoGachaAvatarCardNotify\022\017\n\007item_id\030\t \001" +
+      "(\r\022\027\n\rinitial_level\030\320\206\003 \001(\r\022\037\n\025initial_p" +
+      "romote_level\030\321\206\003 \001(\r\022\016\n\006reason\030\014 \001(\r\022\021\n\t" +
+      "avatar_id\030\002 \001(\r\022=\n\022transfer_item_list\030\r " +
+      "\003(\0132!.AddNoGachaAvatarCardTransferItem\022\033" +
+      "\n\023is_transfer_to_item\030\007 \001(\010BA\n\031emu.grass" +
+      "cutter.net.protoB$AddNoGachaAvatarCardNo" +
+      "tifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

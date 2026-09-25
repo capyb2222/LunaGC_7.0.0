@@ -4,10 +4,10 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "ChannellerSlabLoopDungeonInfoOuterClass";
 
 message ChannellerSlabLoopDungeonInfo {
-	uint32 score = 9;
-	bool is_open = 10;
-	repeated uint32 last_condition_id_list = 12;
-	bool is_first_pass_reward_taken = 13;
-	uint32 open_time = 14;
-	uint32 dungeon_index = 15;
+	uint32 score = 7;
+	bool is_open = 5;
+	repeated uint32 last_condition_id_list = 9;
+	bool is_first_pass_reward_taken = 8;
+	uint32 open_time = 1;
+	uint32 dungeon_index = 13;
 }

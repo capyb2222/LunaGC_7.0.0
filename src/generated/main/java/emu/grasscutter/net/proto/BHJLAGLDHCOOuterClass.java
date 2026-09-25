@@ -19,7 +19,7 @@ public final class BHJLAGLDHCOOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool is_finish = 3;</code>
+     * <code>bool is_finish = 1;</code>
      * @return The isFinish.
      */
     boolean getIsFinish();
@@ -31,7 +31,7 @@ public final class BHJLAGLDHCOOuterClass {
     int getFinishTime();
 
     /**
-     * <code>uint32 BLCPLGCJEBJ = 13;</code>
+     * <code>uint32 BLCPLGCJEBJ = 4;</code>
      * @return The bLCPLGCJEBJ.
      */
     int getBLCPLGCJEBJ();
@@ -81,19 +81,19 @@ public final class BHJLAGLDHCOOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 8: {
 
               isFinish_ = input.readBool();
+              break;
+            }
+            case 32: {
+
+              bLCPLGCJEBJ_ = input.readUInt32();
               break;
             }
             case 96: {
 
               finishTime_ = input.readUInt32();
-              break;
-            }
-            case 104: {
-
-              bLCPLGCJEBJ_ = input.readUInt32();
               break;
             }
             default: {
@@ -128,10 +128,10 @@ public final class BHJLAGLDHCOOuterClass {
               emu.grasscutter.net.proto.BHJLAGLDHCOOuterClass.BHJLAGLDHCO.class, emu.grasscutter.net.proto.BHJLAGLDHCOOuterClass.BHJLAGLDHCO.Builder.class);
     }
 
-    public static final int IS_FINISH_FIELD_NUMBER = 3;
+    public static final int IS_FINISH_FIELD_NUMBER = 1;
     private boolean isFinish_;
     /**
-     * <code>bool is_finish = 3;</code>
+     * <code>bool is_finish = 1;</code>
      * @return The isFinish.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class BHJLAGLDHCOOuterClass {
       return finishTime_;
     }
 
-    public static final int BLCPLGCJEBJ_FIELD_NUMBER = 13;
+    public static final int BLCPLGCJEBJ_FIELD_NUMBER = 4;
     private int bLCPLGCJEBJ_;
     /**
-     * <code>uint32 BLCPLGCJEBJ = 13;</code>
+     * <code>uint32 BLCPLGCJEBJ = 4;</code>
      * @return The bLCPLGCJEBJ.
      */
     @java.lang.Override
@@ -176,13 +176,13 @@ public final class BHJLAGLDHCOOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (isFinish_ != false) {
-        output.writeBool(3, isFinish_);
+        output.writeBool(1, isFinish_);
+      }
+      if (bLCPLGCJEBJ_ != 0) {
+        output.writeUInt32(4, bLCPLGCJEBJ_);
       }
       if (finishTime_ != 0) {
         output.writeUInt32(12, finishTime_);
-      }
-      if (bLCPLGCJEBJ_ != 0) {
-        output.writeUInt32(13, bLCPLGCJEBJ_);
       }
       unknownFields.writeTo(output);
     }
@@ -195,15 +195,15 @@ public final class BHJLAGLDHCOOuterClass {
       size = 0;
       if (isFinish_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(3, isFinish_);
+          .computeBoolSize(1, isFinish_);
+      }
+      if (bLCPLGCJEBJ_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(4, bLCPLGCJEBJ_);
       }
       if (finishTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(12, finishTime_);
-      }
-      if (bLCPLGCJEBJ_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, bLCPLGCJEBJ_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -500,7 +500,7 @@ public final class BHJLAGLDHCOOuterClass {
 
       private boolean isFinish_ ;
       /**
-       * <code>bool is_finish = 3;</code>
+       * <code>bool is_finish = 1;</code>
        * @return The isFinish.
        */
       @java.lang.Override
@@ -508,7 +508,7 @@ public final class BHJLAGLDHCOOuterClass {
         return isFinish_;
       }
       /**
-       * <code>bool is_finish = 3;</code>
+       * <code>bool is_finish = 1;</code>
        * @param value The isFinish to set.
        * @return This builder for chaining.
        */
@@ -519,7 +519,7 @@ public final class BHJLAGLDHCOOuterClass {
         return this;
       }
       /**
-       * <code>bool is_finish = 3;</code>
+       * <code>bool is_finish = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsFinish() {
@@ -562,7 +562,7 @@ public final class BHJLAGLDHCOOuterClass {
 
       private int bLCPLGCJEBJ_ ;
       /**
-       * <code>uint32 BLCPLGCJEBJ = 13;</code>
+       * <code>uint32 BLCPLGCJEBJ = 4;</code>
        * @return The bLCPLGCJEBJ.
        */
       @java.lang.Override
@@ -570,7 +570,7 @@ public final class BHJLAGLDHCOOuterClass {
         return bLCPLGCJEBJ_;
       }
       /**
-       * <code>uint32 BLCPLGCJEBJ = 13;</code>
+       * <code>uint32 BLCPLGCJEBJ = 4;</code>
        * @param value The bLCPLGCJEBJ to set.
        * @return This builder for chaining.
        */
@@ -581,7 +581,7 @@ public final class BHJLAGLDHCOOuterClass {
         return this;
       }
       /**
-       * <code>uint32 BLCPLGCJEBJ = 13;</code>
+       * <code>uint32 BLCPLGCJEBJ = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearBLCPLGCJEBJ() {
@@ -658,8 +658,8 @@ public final class BHJLAGLDHCOOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021BHJLAGLDHCO.proto\"J\n\013BHJLAGLDHCO\022\021\n\tis" +
-      "_finish\030\003 \001(\010\022\023\n\013finish_time\030\014 \001(\r\022\023\n\013BL" +
-      "CPLGCJEBJ\030\r \001(\rB2\n\031emu.grasscutter.net.p" +
+      "_finish\030\001 \001(\010\022\023\n\013finish_time\030\014 \001(\r\022\023\n\013BL" +
+      "CPLGCJEBJ\030\004 \001(\rB2\n\031emu.grasscutter.net.p" +
       "rotoB\025BHJLAGLDHCOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

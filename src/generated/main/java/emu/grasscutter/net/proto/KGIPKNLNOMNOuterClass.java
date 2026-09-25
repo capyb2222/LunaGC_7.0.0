@@ -19,7 +19,7 @@ public final class KGIPKNLNOMNOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 GAFMIEILEPD = 12;</code>
+     * <code>uint32 GAFMIEILEPD = 2;</code>
      * @return The gAFMIEILEPD.
      */
     int getGAFMIEILEPD();
@@ -95,7 +95,7 @@ public final class KGIPKNLNOMNOuterClass {
             case 0:
               done = true;
               break;
-            case 96: {
+            case 16: {
 
               gAFMIEILEPD_ = input.readUInt32();
               break;
@@ -144,10 +144,10 @@ public final class KGIPKNLNOMNOuterClass {
               emu.grasscutter.net.proto.KGIPKNLNOMNOuterClass.KGIPKNLNOMN.class, emu.grasscutter.net.proto.KGIPKNLNOMNOuterClass.KGIPKNLNOMN.Builder.class);
     }
 
-    public static final int GAFMIEILEPD_FIELD_NUMBER = 12;
+    public static final int GAFMIEILEPD_FIELD_NUMBER = 2;
     private int gAFMIEILEPD_;
     /**
-     * <code>uint32 GAFMIEILEPD = 12;</code>
+     * <code>uint32 GAFMIEILEPD = 2;</code>
      * @return The gAFMIEILEPD.
      */
     @java.lang.Override
@@ -210,7 +210,7 @@ public final class KGIPKNLNOMNOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (gAFMIEILEPD_ != 0) {
-        output.writeUInt32(12, gAFMIEILEPD_);
+        output.writeUInt32(2, gAFMIEILEPD_);
       }
       for (int i = 0; i < stageDataList_.size(); i++) {
         output.writeMessage(13, stageDataList_.get(i));
@@ -226,7 +226,7 @@ public final class KGIPKNLNOMNOuterClass {
       size = 0;
       if (gAFMIEILEPD_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, gAFMIEILEPD_);
+          .computeUInt32Size(2, gAFMIEILEPD_);
       }
       for (int i = 0; i < stageDataList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
@@ -556,7 +556,7 @@ public final class KGIPKNLNOMNOuterClass {
 
       private int gAFMIEILEPD_ ;
       /**
-       * <code>uint32 GAFMIEILEPD = 12;</code>
+       * <code>uint32 GAFMIEILEPD = 2;</code>
        * @return The gAFMIEILEPD.
        */
       @java.lang.Override
@@ -564,7 +564,7 @@ public final class KGIPKNLNOMNOuterClass {
         return gAFMIEILEPD_;
       }
       /**
-       * <code>uint32 GAFMIEILEPD = 12;</code>
+       * <code>uint32 GAFMIEILEPD = 2;</code>
        * @param value The gAFMIEILEPD to set.
        * @return This builder for chaining.
        */
@@ -575,7 +575,7 @@ public final class KGIPKNLNOMNOuterClass {
         return this;
       }
       /**
-       * <code>uint32 GAFMIEILEPD = 12;</code>
+       * <code>uint32 GAFMIEILEPD = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearGAFMIEILEPD() {
@@ -892,7 +892,7 @@ public final class KGIPKNLNOMNOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KGIPKNLNOMN.proto\032\021NPDHAPPABMJ.proto\"I" +
-      "\n\013KGIPKNLNOMN\022\023\n\013GAFMIEILEPD\030\014 \001(\r\022%\n\017st" +
+      "\n\013KGIPKNLNOMN\022\023\n\013GAFMIEILEPD\030\002 \001(\r\022%\n\017st" +
       "age_data_list\030\r \003(\0132\014.NPDHAPPABMJB2\n\031emu" +
       ".grasscutter.net.protoB\025KGIPKNLNOMNOuter" +
       "Classb\006proto3"

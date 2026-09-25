@@ -19,19 +19,19 @@ public final class DIIIBCMEKMPOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 KDKJKANOHIK = 2;</code>
+     * <code>uint32 KDKJKANOHIK = 12;</code>
      * @return The kDKJKANOHIK.
      */
     int getKDKJKANOHIK();
 
     /**
-     * <code>float NGDDIOBGGCN = 3;</code>
+     * <code>float NGDDIOBGGCN = 15;</code>
      * @return The nGDDIOBGGCN.
      */
     float getNGDDIOBGGCN();
 
     /**
-     * <code>uint32 score = 7;</code>
+     * <code>uint32 score = 2;</code>
      * @return The score.
      */
     int getScore();
@@ -83,17 +83,17 @@ public final class DIIIBCMEKMPOuterClass {
               break;
             case 16: {
 
+              score_ = input.readUInt32();
+              break;
+            }
+            case 96: {
+
               kDKJKANOHIK_ = input.readUInt32();
               break;
             }
-            case 29: {
+            case 125: {
 
               nGDDIOBGGCN_ = input.readFloat();
-              break;
-            }
-            case 56: {
-
-              score_ = input.readUInt32();
               break;
             }
             default: {
@@ -128,10 +128,10 @@ public final class DIIIBCMEKMPOuterClass {
               emu.grasscutter.net.proto.DIIIBCMEKMPOuterClass.DIIIBCMEKMP.class, emu.grasscutter.net.proto.DIIIBCMEKMPOuterClass.DIIIBCMEKMP.Builder.class);
     }
 
-    public static final int KDKJKANOHIK_FIELD_NUMBER = 2;
+    public static final int KDKJKANOHIK_FIELD_NUMBER = 12;
     private int kDKJKANOHIK_;
     /**
-     * <code>uint32 KDKJKANOHIK = 2;</code>
+     * <code>uint32 KDKJKANOHIK = 12;</code>
      * @return The kDKJKANOHIK.
      */
     @java.lang.Override
@@ -139,10 +139,10 @@ public final class DIIIBCMEKMPOuterClass {
       return kDKJKANOHIK_;
     }
 
-    public static final int NGDDIOBGGCN_FIELD_NUMBER = 3;
+    public static final int NGDDIOBGGCN_FIELD_NUMBER = 15;
     private float nGDDIOBGGCN_;
     /**
-     * <code>float NGDDIOBGGCN = 3;</code>
+     * <code>float NGDDIOBGGCN = 15;</code>
      * @return The nGDDIOBGGCN.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class DIIIBCMEKMPOuterClass {
       return nGDDIOBGGCN_;
     }
 
-    public static final int SCORE_FIELD_NUMBER = 7;
+    public static final int SCORE_FIELD_NUMBER = 2;
     private int score_;
     /**
-     * <code>uint32 score = 7;</code>
+     * <code>uint32 score = 2;</code>
      * @return The score.
      */
     @java.lang.Override
@@ -175,14 +175,14 @@ public final class DIIIBCMEKMPOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (score_ != 0) {
+        output.writeUInt32(2, score_);
+      }
       if (kDKJKANOHIK_ != 0) {
-        output.writeUInt32(2, kDKJKANOHIK_);
+        output.writeUInt32(12, kDKJKANOHIK_);
       }
       if (nGDDIOBGGCN_ != 0F) {
-        output.writeFloat(3, nGDDIOBGGCN_);
-      }
-      if (score_ != 0) {
-        output.writeUInt32(7, score_);
+        output.writeFloat(15, nGDDIOBGGCN_);
       }
       unknownFields.writeTo(output);
     }
@@ -193,17 +193,17 @@ public final class DIIIBCMEKMPOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (score_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(2, score_);
+      }
       if (kDKJKANOHIK_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, kDKJKANOHIK_);
+          .computeUInt32Size(12, kDKJKANOHIK_);
       }
       if (nGDDIOBGGCN_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(3, nGDDIOBGGCN_);
-      }
-      if (score_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, score_);
+          .computeFloatSize(15, nGDDIOBGGCN_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -501,7 +501,7 @@ public final class DIIIBCMEKMPOuterClass {
 
       private int kDKJKANOHIK_ ;
       /**
-       * <code>uint32 KDKJKANOHIK = 2;</code>
+       * <code>uint32 KDKJKANOHIK = 12;</code>
        * @return The kDKJKANOHIK.
        */
       @java.lang.Override
@@ -509,7 +509,7 @@ public final class DIIIBCMEKMPOuterClass {
         return kDKJKANOHIK_;
       }
       /**
-       * <code>uint32 KDKJKANOHIK = 2;</code>
+       * <code>uint32 KDKJKANOHIK = 12;</code>
        * @param value The kDKJKANOHIK to set.
        * @return This builder for chaining.
        */
@@ -520,7 +520,7 @@ public final class DIIIBCMEKMPOuterClass {
         return this;
       }
       /**
-       * <code>uint32 KDKJKANOHIK = 2;</code>
+       * <code>uint32 KDKJKANOHIK = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearKDKJKANOHIK() {
@@ -532,7 +532,7 @@ public final class DIIIBCMEKMPOuterClass {
 
       private float nGDDIOBGGCN_ ;
       /**
-       * <code>float NGDDIOBGGCN = 3;</code>
+       * <code>float NGDDIOBGGCN = 15;</code>
        * @return The nGDDIOBGGCN.
        */
       @java.lang.Override
@@ -540,7 +540,7 @@ public final class DIIIBCMEKMPOuterClass {
         return nGDDIOBGGCN_;
       }
       /**
-       * <code>float NGDDIOBGGCN = 3;</code>
+       * <code>float NGDDIOBGGCN = 15;</code>
        * @param value The nGDDIOBGGCN to set.
        * @return This builder for chaining.
        */
@@ -551,7 +551,7 @@ public final class DIIIBCMEKMPOuterClass {
         return this;
       }
       /**
-       * <code>float NGDDIOBGGCN = 3;</code>
+       * <code>float NGDDIOBGGCN = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearNGDDIOBGGCN() {
@@ -563,7 +563,7 @@ public final class DIIIBCMEKMPOuterClass {
 
       private int score_ ;
       /**
-       * <code>uint32 score = 7;</code>
+       * <code>uint32 score = 2;</code>
        * @return The score.
        */
       @java.lang.Override
@@ -571,7 +571,7 @@ public final class DIIIBCMEKMPOuterClass {
         return score_;
       }
       /**
-       * <code>uint32 score = 7;</code>
+       * <code>uint32 score = 2;</code>
        * @param value The score to set.
        * @return This builder for chaining.
        */
@@ -582,7 +582,7 @@ public final class DIIIBCMEKMPOuterClass {
         return this;
       }
       /**
-       * <code>uint32 score = 7;</code>
+       * <code>uint32 score = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearScore() {
@@ -659,8 +659,8 @@ public final class DIIIBCMEKMPOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021DIIIBCMEKMP.proto\"F\n\013DIIIBCMEKMP\022\023\n\013KD" +
-      "KJKANOHIK\030\002 \001(\r\022\023\n\013NGDDIOBGGCN\030\003 \001(\002\022\r\n\005" +
-      "score\030\007 \001(\rB2\n\031emu.grasscutter.net.proto" +
+      "KJKANOHIK\030\014 \001(\r\022\023\n\013NGDDIOBGGCN\030\017 \001(\002\022\r\n\005" +
+      "score\030\002 \001(\rB2\n\031emu.grasscutter.net.proto" +
       "B\025DIIIBCMEKMPOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

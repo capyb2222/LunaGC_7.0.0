@@ -19,35 +19,35 @@ public final class EGDOCIBGAIJOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 max_score = 4;</code>
+     * <code>uint32 max_score = 11;</code>
      * @return The maxScore.
      */
     int getMaxScore();
 
     /**
-     * <code>uint32 level_id = 6;</code>
+     * <code>uint32 level_id = 4;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>uint32 CEAOGBDNNBG = 7;</code>
+     * <code>uint32 CEAOGBDNNBG = 1;</code>
      * @return The cEAOGBDNNBG.
      */
     int getCEAOGBDNNBG();
 
     /**
-     * <code>repeated uint64 JAJDEPFBKHI = 12;</code>
+     * <code>repeated uint64 JAJDEPFBKHI = 7;</code>
      * @return A list containing the jAJDEPFBKHI.
      */
     java.util.List<java.lang.Long> getJAJDEPFBKHIList();
     /**
-     * <code>repeated uint64 JAJDEPFBKHI = 12;</code>
+     * <code>repeated uint64 JAJDEPFBKHI = 7;</code>
      * @return The count of jAJDEPFBKHI.
      */
     int getJAJDEPFBKHICount();
     /**
-     * <code>repeated uint64 JAJDEPFBKHI = 12;</code>
+     * <code>repeated uint64 JAJDEPFBKHI = 7;</code>
      * @param index The index of the element to return.
      * @return The jAJDEPFBKHI at the given index.
      */
@@ -100,22 +100,17 @@ public final class EGDOCIBGAIJOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 8: {
 
-              maxScore_ = input.readUInt32();
+              cEAOGBDNNBG_ = input.readUInt32();
               break;
             }
-            case 48: {
+            case 32: {
 
               levelId_ = input.readUInt32();
               break;
             }
             case 56: {
-
-              cEAOGBDNNBG_ = input.readUInt32();
-              break;
-            }
-            case 96: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 jAJDEPFBKHI_ = newLongList();
                 mutable_bitField0_ |= 0x00000001;
@@ -123,7 +118,7 @@ public final class EGDOCIBGAIJOuterClass {
               jAJDEPFBKHI_.addLong(input.readUInt64());
               break;
             }
-            case 98: {
+            case 58: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -134,6 +129,11 @@ public final class EGDOCIBGAIJOuterClass {
                 jAJDEPFBKHI_.addLong(input.readUInt64());
               }
               input.popLimit(limit);
+              break;
+            }
+            case 88: {
+
+              maxScore_ = input.readUInt32();
               break;
             }
             default: {
@@ -171,10 +171,10 @@ public final class EGDOCIBGAIJOuterClass {
               emu.grasscutter.net.proto.EGDOCIBGAIJOuterClass.EGDOCIBGAIJ.class, emu.grasscutter.net.proto.EGDOCIBGAIJOuterClass.EGDOCIBGAIJ.Builder.class);
     }
 
-    public static final int MAX_SCORE_FIELD_NUMBER = 4;
+    public static final int MAX_SCORE_FIELD_NUMBER = 11;
     private int maxScore_;
     /**
-     * <code>uint32 max_score = 4;</code>
+     * <code>uint32 max_score = 11;</code>
      * @return The maxScore.
      */
     @java.lang.Override
@@ -182,10 +182,10 @@ public final class EGDOCIBGAIJOuterClass {
       return maxScore_;
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 6;
+    public static final int LEVEL_ID_FIELD_NUMBER = 4;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 6;</code>
+     * <code>uint32 level_id = 4;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -193,10 +193,10 @@ public final class EGDOCIBGAIJOuterClass {
       return levelId_;
     }
 
-    public static final int CEAOGBDNNBG_FIELD_NUMBER = 7;
+    public static final int CEAOGBDNNBG_FIELD_NUMBER = 1;
     private int cEAOGBDNNBG_;
     /**
-     * <code>uint32 CEAOGBDNNBG = 7;</code>
+     * <code>uint32 CEAOGBDNNBG = 1;</code>
      * @return The cEAOGBDNNBG.
      */
     @java.lang.Override
@@ -204,10 +204,10 @@ public final class EGDOCIBGAIJOuterClass {
       return cEAOGBDNNBG_;
     }
 
-    public static final int JAJDEPFBKHI_FIELD_NUMBER = 12;
+    public static final int JAJDEPFBKHI_FIELD_NUMBER = 7;
     private com.google.protobuf.Internal.LongList jAJDEPFBKHI_;
     /**
-     * <code>repeated uint64 JAJDEPFBKHI = 12;</code>
+     * <code>repeated uint64 JAJDEPFBKHI = 7;</code>
      * @return A list containing the jAJDEPFBKHI.
      */
     @java.lang.Override
@@ -216,14 +216,14 @@ public final class EGDOCIBGAIJOuterClass {
       return jAJDEPFBKHI_;
     }
     /**
-     * <code>repeated uint64 JAJDEPFBKHI = 12;</code>
+     * <code>repeated uint64 JAJDEPFBKHI = 7;</code>
      * @return The count of jAJDEPFBKHI.
      */
     public int getJAJDEPFBKHICount() {
       return jAJDEPFBKHI_.size();
     }
     /**
-     * <code>repeated uint64 JAJDEPFBKHI = 12;</code>
+     * <code>repeated uint64 JAJDEPFBKHI = 7;</code>
      * @param index The index of the element to return.
      * @return The jAJDEPFBKHI at the given index.
      */
@@ -247,21 +247,21 @@ public final class EGDOCIBGAIJOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (maxScore_ != 0) {
-        output.writeUInt32(4, maxScore_);
+      if (cEAOGBDNNBG_ != 0) {
+        output.writeUInt32(1, cEAOGBDNNBG_);
       }
       if (levelId_ != 0) {
-        output.writeUInt32(6, levelId_);
-      }
-      if (cEAOGBDNNBG_ != 0) {
-        output.writeUInt32(7, cEAOGBDNNBG_);
+        output.writeUInt32(4, levelId_);
       }
       if (getJAJDEPFBKHIList().size() > 0) {
-        output.writeUInt32NoTag(98);
+        output.writeUInt32NoTag(58);
         output.writeUInt32NoTag(jAJDEPFBKHIMemoizedSerializedSize);
       }
       for (int i = 0; i < jAJDEPFBKHI_.size(); i++) {
         output.writeUInt64NoTag(jAJDEPFBKHI_.getLong(i));
+      }
+      if (maxScore_ != 0) {
+        output.writeUInt32(11, maxScore_);
       }
       unknownFields.writeTo(output);
     }
@@ -272,17 +272,13 @@ public final class EGDOCIBGAIJOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (maxScore_ != 0) {
+      if (cEAOGBDNNBG_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, maxScore_);
+          .computeUInt32Size(1, cEAOGBDNNBG_);
       }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, levelId_);
-      }
-      if (cEAOGBDNNBG_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, cEAOGBDNNBG_);
+          .computeUInt32Size(4, levelId_);
       }
       {
         int dataSize = 0;
@@ -297,6 +293,10 @@ public final class EGDOCIBGAIJOuterClass {
               .computeInt32SizeNoTag(dataSize);
         }
         jAJDEPFBKHIMemoizedSerializedSize = dataSize;
+      }
+      if (maxScore_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(11, maxScore_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -617,7 +617,7 @@ public final class EGDOCIBGAIJOuterClass {
 
       private int maxScore_ ;
       /**
-       * <code>uint32 max_score = 4;</code>
+       * <code>uint32 max_score = 11;</code>
        * @return The maxScore.
        */
       @java.lang.Override
@@ -625,7 +625,7 @@ public final class EGDOCIBGAIJOuterClass {
         return maxScore_;
       }
       /**
-       * <code>uint32 max_score = 4;</code>
+       * <code>uint32 max_score = 11;</code>
        * @param value The maxScore to set.
        * @return This builder for chaining.
        */
@@ -636,7 +636,7 @@ public final class EGDOCIBGAIJOuterClass {
         return this;
       }
       /**
-       * <code>uint32 max_score = 4;</code>
+       * <code>uint32 max_score = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearMaxScore() {
@@ -648,7 +648,7 @@ public final class EGDOCIBGAIJOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 6;</code>
+       * <code>uint32 level_id = 4;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -656,7 +656,7 @@ public final class EGDOCIBGAIJOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 6;</code>
+       * <code>uint32 level_id = 4;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -667,7 +667,7 @@ public final class EGDOCIBGAIJOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 6;</code>
+       * <code>uint32 level_id = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -679,7 +679,7 @@ public final class EGDOCIBGAIJOuterClass {
 
       private int cEAOGBDNNBG_ ;
       /**
-       * <code>uint32 CEAOGBDNNBG = 7;</code>
+       * <code>uint32 CEAOGBDNNBG = 1;</code>
        * @return The cEAOGBDNNBG.
        */
       @java.lang.Override
@@ -687,7 +687,7 @@ public final class EGDOCIBGAIJOuterClass {
         return cEAOGBDNNBG_;
       }
       /**
-       * <code>uint32 CEAOGBDNNBG = 7;</code>
+       * <code>uint32 CEAOGBDNNBG = 1;</code>
        * @param value The cEAOGBDNNBG to set.
        * @return This builder for chaining.
        */
@@ -698,7 +698,7 @@ public final class EGDOCIBGAIJOuterClass {
         return this;
       }
       /**
-       * <code>uint32 CEAOGBDNNBG = 7;</code>
+       * <code>uint32 CEAOGBDNNBG = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearCEAOGBDNNBG() {
@@ -716,7 +716,7 @@ public final class EGDOCIBGAIJOuterClass {
          }
       }
       /**
-       * <code>repeated uint64 JAJDEPFBKHI = 12;</code>
+       * <code>repeated uint64 JAJDEPFBKHI = 7;</code>
        * @return A list containing the jAJDEPFBKHI.
        */
       public java.util.List<java.lang.Long>
@@ -725,14 +725,14 @@ public final class EGDOCIBGAIJOuterClass {
                  java.util.Collections.unmodifiableList(jAJDEPFBKHI_) : jAJDEPFBKHI_;
       }
       /**
-       * <code>repeated uint64 JAJDEPFBKHI = 12;</code>
+       * <code>repeated uint64 JAJDEPFBKHI = 7;</code>
        * @return The count of jAJDEPFBKHI.
        */
       public int getJAJDEPFBKHICount() {
         return jAJDEPFBKHI_.size();
       }
       /**
-       * <code>repeated uint64 JAJDEPFBKHI = 12;</code>
+       * <code>repeated uint64 JAJDEPFBKHI = 7;</code>
        * @param index The index of the element to return.
        * @return The jAJDEPFBKHI at the given index.
        */
@@ -740,7 +740,7 @@ public final class EGDOCIBGAIJOuterClass {
         return jAJDEPFBKHI_.getLong(index);
       }
       /**
-       * <code>repeated uint64 JAJDEPFBKHI = 12;</code>
+       * <code>repeated uint64 JAJDEPFBKHI = 7;</code>
        * @param index The index to set the value at.
        * @param value The jAJDEPFBKHI to set.
        * @return This builder for chaining.
@@ -753,7 +753,7 @@ public final class EGDOCIBGAIJOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint64 JAJDEPFBKHI = 12;</code>
+       * <code>repeated uint64 JAJDEPFBKHI = 7;</code>
        * @param value The jAJDEPFBKHI to add.
        * @return This builder for chaining.
        */
@@ -764,7 +764,7 @@ public final class EGDOCIBGAIJOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint64 JAJDEPFBKHI = 12;</code>
+       * <code>repeated uint64 JAJDEPFBKHI = 7;</code>
        * @param values The jAJDEPFBKHI to add.
        * @return This builder for chaining.
        */
@@ -777,7 +777,7 @@ public final class EGDOCIBGAIJOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint64 JAJDEPFBKHI = 12;</code>
+       * <code>repeated uint64 JAJDEPFBKHI = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearJAJDEPFBKHI() {
@@ -854,8 +854,8 @@ public final class EGDOCIBGAIJOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021EGDOCIBGAIJ.proto\"\\\n\013EGDOCIBGAIJ\022\021\n\tma" +
-      "x_score\030\004 \001(\r\022\020\n\010level_id\030\006 \001(\r\022\023\n\013CEAOG" +
-      "BDNNBG\030\007 \001(\r\022\023\n\013JAJDEPFBKHI\030\014 \003(\004B2\n\031emu" +
+      "x_score\030\013 \001(\r\022\020\n\010level_id\030\004 \001(\r\022\023\n\013CEAOG" +
+      "BDNNBG\030\001 \001(\r\022\023\n\013JAJDEPFBKHI\030\007 \003(\004B2\n\031emu" +
       ".grasscutter.net.protoB\025EGDOCIBGAIJOuter" +
       "Classb\006proto3"
     };

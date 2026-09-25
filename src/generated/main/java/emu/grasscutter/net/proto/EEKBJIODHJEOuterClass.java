@@ -19,13 +19,13 @@ public final class EEKBJIODHJEOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool is_finished = 4;</code>
+     * <code>bool is_finished = 7;</code>
      * @return The isFinished.
      */
     boolean getIsFinished();
 
     /**
-     * <code>uint32 level_id = 5;</code>
+     * <code>uint32 level_id = 1;</code>
      * @return The levelId.
      */
     int getLevelId();
@@ -81,14 +81,14 @@ public final class EEKBJIODHJEOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
-
-              isFinished_ = input.readBool();
-              break;
-            }
-            case 40: {
+            case 8: {
 
               levelId_ = input.readUInt32();
+              break;
+            }
+            case 56: {
+
+              isFinished_ = input.readBool();
               break;
             }
             case 64: {
@@ -128,10 +128,10 @@ public final class EEKBJIODHJEOuterClass {
               emu.grasscutter.net.proto.EEKBJIODHJEOuterClass.EEKBJIODHJE.class, emu.grasscutter.net.proto.EEKBJIODHJEOuterClass.EEKBJIODHJE.Builder.class);
     }
 
-    public static final int IS_FINISHED_FIELD_NUMBER = 4;
+    public static final int IS_FINISHED_FIELD_NUMBER = 7;
     private boolean isFinished_;
     /**
-     * <code>bool is_finished = 4;</code>
+     * <code>bool is_finished = 7;</code>
      * @return The isFinished.
      */
     @java.lang.Override
@@ -139,10 +139,10 @@ public final class EEKBJIODHJEOuterClass {
       return isFinished_;
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 5;
+    public static final int LEVEL_ID_FIELD_NUMBER = 1;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 5;</code>
+     * <code>uint32 level_id = 1;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -175,11 +175,11 @@ public final class EEKBJIODHJEOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (isFinished_ != false) {
-        output.writeBool(4, isFinished_);
-      }
       if (levelId_ != 0) {
-        output.writeUInt32(5, levelId_);
+        output.writeUInt32(1, levelId_);
+      }
+      if (isFinished_ != false) {
+        output.writeBool(7, isFinished_);
       }
       if (isOpen_ != false) {
         output.writeBool(8, isOpen_);
@@ -193,13 +193,13 @@ public final class EEKBJIODHJEOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (isFinished_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(4, isFinished_);
-      }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, levelId_);
+          .computeUInt32Size(1, levelId_);
+      }
+      if (isFinished_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(7, isFinished_);
       }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -501,7 +501,7 @@ public final class EEKBJIODHJEOuterClass {
 
       private boolean isFinished_ ;
       /**
-       * <code>bool is_finished = 4;</code>
+       * <code>bool is_finished = 7;</code>
        * @return The isFinished.
        */
       @java.lang.Override
@@ -509,7 +509,7 @@ public final class EEKBJIODHJEOuterClass {
         return isFinished_;
       }
       /**
-       * <code>bool is_finished = 4;</code>
+       * <code>bool is_finished = 7;</code>
        * @param value The isFinished to set.
        * @return This builder for chaining.
        */
@@ -520,7 +520,7 @@ public final class EEKBJIODHJEOuterClass {
         return this;
       }
       /**
-       * <code>bool is_finished = 4;</code>
+       * <code>bool is_finished = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsFinished() {
@@ -532,7 +532,7 @@ public final class EEKBJIODHJEOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 5;</code>
+       * <code>uint32 level_id = 1;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -540,7 +540,7 @@ public final class EEKBJIODHJEOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 5;</code>
+       * <code>uint32 level_id = 1;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -551,7 +551,7 @@ public final class EEKBJIODHJEOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 5;</code>
+       * <code>uint32 level_id = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -659,7 +659,7 @@ public final class EEKBJIODHJEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021EEKBJIODHJE.proto\"E\n\013EEKBJIODHJE\022\023\n\013is" +
-      "_finished\030\004 \001(\010\022\020\n\010level_id\030\005 \001(\r\022\017\n\007is_" +
+      "_finished\030\007 \001(\010\022\020\n\010level_id\030\001 \001(\r\022\017\n\007is_" +
       "open\030\010 \001(\010B2\n\031emu.grasscutter.net.protoB" +
       "\025EEKBJIODHJEOuterClassb\006proto3"
     };

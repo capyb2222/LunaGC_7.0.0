@@ -19,13 +19,13 @@ public final class _EquipStuffOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool MHDOFDCCPLH = 1;</code>
+     * <code>bool MHDOFDCCPLH = 50000;</code>
      * @return The mHDOFDCCPLH.
      */
     boolean getMHDOFDCCPLH();
 
     /**
-     * <code>bool BEKPAJHIHOJ = 2;</code>
+     * <code>bool BEKPAJHIHOJ = 50001;</code>
      * @return The bEKPAJHIHOJ.
      */
     boolean getBEKPAJHIHOJ();
@@ -101,16 +101,6 @@ public final class _EquipStuffOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
-
-              mHDOFDCCPLH_ = input.readBool();
-              break;
-            }
-            case 16: {
-
-              bEKPAJHIHOJ_ = input.readBool();
-              break;
-            }
             case 26: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 iDAKLGDICPC_ = new java.util.ArrayList<emu.grasscutter.net.proto.FPCEOEFHGOBOuterClass.FPCEOEFHGOB>();
@@ -118,6 +108,16 @@ public final class _EquipStuffOuterClass {
               }
               iDAKLGDICPC_.add(
                   input.readMessage(emu.grasscutter.net.proto.FPCEOEFHGOBOuterClass.FPCEOEFHGOB.parser(), extensionRegistry));
+              break;
+            }
+            case 400000: {
+
+              mHDOFDCCPLH_ = input.readBool();
+              break;
+            }
+            case 400008: {
+
+              bEKPAJHIHOJ_ = input.readBool();
               break;
             }
             default: {
@@ -155,10 +155,10 @@ public final class _EquipStuffOuterClass {
               emu.grasscutter.net.proto._EquipStuffOuterClass._EquipStuff.class, emu.grasscutter.net.proto._EquipStuffOuterClass._EquipStuff.Builder.class);
     }
 
-    public static final int MHDOFDCCPLH_FIELD_NUMBER = 1;
+    public static final int MHDOFDCCPLH_FIELD_NUMBER = 50000;
     private boolean mHDOFDCCPLH_;
     /**
-     * <code>bool MHDOFDCCPLH = 1;</code>
+     * <code>bool MHDOFDCCPLH = 50000;</code>
      * @return The mHDOFDCCPLH.
      */
     @java.lang.Override
@@ -166,10 +166,10 @@ public final class _EquipStuffOuterClass {
       return mHDOFDCCPLH_;
     }
 
-    public static final int BEKPAJHIHOJ_FIELD_NUMBER = 2;
+    public static final int BEKPAJHIHOJ_FIELD_NUMBER = 50001;
     private boolean bEKPAJHIHOJ_;
     /**
-     * <code>bool BEKPAJHIHOJ = 2;</code>
+     * <code>bool BEKPAJHIHOJ = 50001;</code>
      * @return The bEKPAJHIHOJ.
      */
     @java.lang.Override
@@ -231,14 +231,14 @@ public final class _EquipStuffOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (mHDOFDCCPLH_ != false) {
-        output.writeBool(1, mHDOFDCCPLH_);
-      }
-      if (bEKPAJHIHOJ_ != false) {
-        output.writeBool(2, bEKPAJHIHOJ_);
-      }
       for (int i = 0; i < iDAKLGDICPC_.size(); i++) {
         output.writeMessage(3, iDAKLGDICPC_.get(i));
+      }
+      if (mHDOFDCCPLH_ != false) {
+        output.writeBool(50000, mHDOFDCCPLH_);
+      }
+      if (bEKPAJHIHOJ_ != false) {
+        output.writeBool(50001, bEKPAJHIHOJ_);
       }
       unknownFields.writeTo(output);
     }
@@ -249,17 +249,17 @@ public final class _EquipStuffOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (mHDOFDCCPLH_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1, mHDOFDCCPLH_);
-      }
-      if (bEKPAJHIHOJ_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(2, bEKPAJHIHOJ_);
-      }
       for (int i = 0; i < iDAKLGDICPC_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(3, iDAKLGDICPC_.get(i));
+      }
+      if (mHDOFDCCPLH_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(50000, mHDOFDCCPLH_);
+      }
+      if (bEKPAJHIHOJ_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(50001, bEKPAJHIHOJ_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -597,7 +597,7 @@ public final class _EquipStuffOuterClass {
 
       private boolean mHDOFDCCPLH_ ;
       /**
-       * <code>bool MHDOFDCCPLH = 1;</code>
+       * <code>bool MHDOFDCCPLH = 50000;</code>
        * @return The mHDOFDCCPLH.
        */
       @java.lang.Override
@@ -605,7 +605,7 @@ public final class _EquipStuffOuterClass {
         return mHDOFDCCPLH_;
       }
       /**
-       * <code>bool MHDOFDCCPLH = 1;</code>
+       * <code>bool MHDOFDCCPLH = 50000;</code>
        * @param value The mHDOFDCCPLH to set.
        * @return This builder for chaining.
        */
@@ -616,7 +616,7 @@ public final class _EquipStuffOuterClass {
         return this;
       }
       /**
-       * <code>bool MHDOFDCCPLH = 1;</code>
+       * <code>bool MHDOFDCCPLH = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearMHDOFDCCPLH() {
@@ -628,7 +628,7 @@ public final class _EquipStuffOuterClass {
 
       private boolean bEKPAJHIHOJ_ ;
       /**
-       * <code>bool BEKPAJHIHOJ = 2;</code>
+       * <code>bool BEKPAJHIHOJ = 50001;</code>
        * @return The bEKPAJHIHOJ.
        */
       @java.lang.Override
@@ -636,7 +636,7 @@ public final class _EquipStuffOuterClass {
         return bEKPAJHIHOJ_;
       }
       /**
-       * <code>bool BEKPAJHIHOJ = 2;</code>
+       * <code>bool BEKPAJHIHOJ = 50001;</code>
        * @param value The bEKPAJHIHOJ to set.
        * @return This builder for chaining.
        */
@@ -647,7 +647,7 @@ public final class _EquipStuffOuterClass {
         return this;
       }
       /**
-       * <code>bool BEKPAJHIHOJ = 2;</code>
+       * <code>bool BEKPAJHIHOJ = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearBEKPAJHIHOJ() {
@@ -963,11 +963,11 @@ public final class _EquipStuffOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021_EquipStuff.proto\032\021FPCEOEFHGOB.proto\"Z" +
-      "\n\013_EquipStuff\022\023\n\013MHDOFDCCPLH\030\001 \001(\010\022\023\n\013BE" +
-      "KPAJHIHOJ\030\002 \001(\010\022!\n\013IDAKLGDICPC\030\003 \003(\0132\014.F" +
-      "PCEOEFHGOBB2\n\031emu.grasscutter.net.protoB" +
-      "\025_EquipStuffOuterClassb\006proto3"
+      "\n\021_EquipStuff.proto\032\021FPCEOEFHGOB.proto\"^" +
+      "\n\013_EquipStuff\022\025\n\013MHDOFDCCPLH\030\320\206\003 \001(\010\022\025\n\013" +
+      "BEKPAJHIHOJ\030\321\206\003 \001(\010\022!\n\013IDAKLGDICPC\030\003 \003(\013" +
+      "2\014.FPCEOEFHGOBB2\n\031emu.grasscutter.net.pr" +
+      "otoB\025_EquipStuffOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

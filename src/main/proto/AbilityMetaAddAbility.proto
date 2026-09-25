@@ -6,5 +6,5 @@ option java_outer_classname = "AbilityMetaAddAbilityOuterClass";
 import "AbilityAppliedAbility.proto";
 
 message AbilityMetaAddAbility {
-	AbilityAppliedAbility ability = 10;
+	AbilityAppliedAbility ability = 13;
 }

@@ -5,6 +5,6 @@ option java_outer_classname = "AFCJANIEJKCOuterClass";
 
 message AFCJANIEJKC {
 	uint32 avatar_type = 4;
-	uint32 param = 5;
-	uint32 LHBDPFNAFJO = 11;
+	uint32 param = 8;
+	uint32 LHBDPFNAFJO = 14;
 }

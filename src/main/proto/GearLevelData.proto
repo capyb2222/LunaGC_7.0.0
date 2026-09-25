@@ -4,10 +4,10 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "GearLevelDataOuterClass";
 
 message GearLevelData {
-	uint32 AEAJNEDAFJI = 1;
-	bool is_open = 2;
-	uint32 level_id = 5;
-	uint32 IOAAECDDKOC = 9;
-	bool is_finished = 11;
-	uint32 open_time = 15;
+	uint32 AEAJNEDAFJI = 12;
+	bool is_open = 8;
+	uint32 level_id = 7;
+	uint32 IOAAECDDKOC = 2;
+	bool is_finished = 3;
+	uint32 open_time = 14;
 }

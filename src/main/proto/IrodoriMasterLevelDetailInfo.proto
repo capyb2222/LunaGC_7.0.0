@@ -4,8 +4,8 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "IrodoriMasterLevelDetailInfoOuterClass";
 
 message IrodoriMasterLevelDetailInfo {
-	uint32 diffculty = 4;
-	bool is_finish = 11;
-	uint32 min_finish_time = 13;
-	bool is_have_try = 14;
+	uint32 diffculty = 8;
+	bool is_finish = 15;
+	uint32 min_finish_time = 3;
+	bool is_have_try = 12;
 }

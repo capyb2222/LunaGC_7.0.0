@@ -19,25 +19,25 @@ public final class NJOLOBINBLEOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 level_id = 2;</code>
+     * <code>uint32 level_id = 11;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>uint32 AEAJNEDAFJI = 3;</code>
+     * <code>uint32 AEAJNEDAFJI = 2;</code>
      * @return The aEAJNEDAFJI.
      */
     int getAEAJNEDAFJI();
 
     /**
-     * <code>bool is_finish = 8;</code>
+     * <code>bool is_finish = 3;</code>
      * @return The isFinish.
      */
     boolean getIsFinish();
 
     /**
-     * <code>bool is_open = 12;</code>
+     * <code>bool is_open = 5;</code>
      * @return The isOpen.
      */
     boolean getIsOpen();
@@ -89,22 +89,22 @@ public final class NJOLOBINBLEOuterClass {
               break;
             case 16: {
 
-              levelId_ = input.readUInt32();
+              aEAJNEDAFJI_ = input.readUInt32();
               break;
             }
             case 24: {
 
-              aEAJNEDAFJI_ = input.readUInt32();
-              break;
-            }
-            case 64: {
-
               isFinish_ = input.readBool();
               break;
             }
-            case 96: {
+            case 40: {
 
               isOpen_ = input.readBool();
+              break;
+            }
+            case 88: {
+
+              levelId_ = input.readUInt32();
               break;
             }
             default: {
@@ -139,10 +139,10 @@ public final class NJOLOBINBLEOuterClass {
               emu.grasscutter.net.proto.NJOLOBINBLEOuterClass.NJOLOBINBLE.class, emu.grasscutter.net.proto.NJOLOBINBLEOuterClass.NJOLOBINBLE.Builder.class);
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 2;
+    public static final int LEVEL_ID_FIELD_NUMBER = 11;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 2;</code>
+     * <code>uint32 level_id = 11;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class NJOLOBINBLEOuterClass {
       return levelId_;
     }
 
-    public static final int AEAJNEDAFJI_FIELD_NUMBER = 3;
+    public static final int AEAJNEDAFJI_FIELD_NUMBER = 2;
     private int aEAJNEDAFJI_;
     /**
-     * <code>uint32 AEAJNEDAFJI = 3;</code>
+     * <code>uint32 AEAJNEDAFJI = 2;</code>
      * @return The aEAJNEDAFJI.
      */
     @java.lang.Override
@@ -161,10 +161,10 @@ public final class NJOLOBINBLEOuterClass {
       return aEAJNEDAFJI_;
     }
 
-    public static final int IS_FINISH_FIELD_NUMBER = 8;
+    public static final int IS_FINISH_FIELD_NUMBER = 3;
     private boolean isFinish_;
     /**
-     * <code>bool is_finish = 8;</code>
+     * <code>bool is_finish = 3;</code>
      * @return The isFinish.
      */
     @java.lang.Override
@@ -172,10 +172,10 @@ public final class NJOLOBINBLEOuterClass {
       return isFinish_;
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 12;
+    public static final int IS_OPEN_FIELD_NUMBER = 5;
     private boolean isOpen_;
     /**
-     * <code>bool is_open = 12;</code>
+     * <code>bool is_open = 5;</code>
      * @return The isOpen.
      */
     @java.lang.Override
@@ -197,17 +197,17 @@ public final class NJOLOBINBLEOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (levelId_ != 0) {
-        output.writeUInt32(2, levelId_);
-      }
       if (aEAJNEDAFJI_ != 0) {
-        output.writeUInt32(3, aEAJNEDAFJI_);
+        output.writeUInt32(2, aEAJNEDAFJI_);
       }
       if (isFinish_ != false) {
-        output.writeBool(8, isFinish_);
+        output.writeBool(3, isFinish_);
       }
       if (isOpen_ != false) {
-        output.writeBool(12, isOpen_);
+        output.writeBool(5, isOpen_);
+      }
+      if (levelId_ != 0) {
+        output.writeUInt32(11, levelId_);
       }
       unknownFields.writeTo(output);
     }
@@ -218,21 +218,21 @@ public final class NJOLOBINBLEOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (levelId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, levelId_);
-      }
       if (aEAJNEDAFJI_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, aEAJNEDAFJI_);
+          .computeUInt32Size(2, aEAJNEDAFJI_);
       }
       if (isFinish_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(8, isFinish_);
+          .computeBoolSize(3, isFinish_);
       }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, isOpen_);
+          .computeBoolSize(5, isOpen_);
+      }
+      if (levelId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(11, levelId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -540,7 +540,7 @@ public final class NJOLOBINBLEOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 2;</code>
+       * <code>uint32 level_id = 11;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -548,7 +548,7 @@ public final class NJOLOBINBLEOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 2;</code>
+       * <code>uint32 level_id = 11;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -559,7 +559,7 @@ public final class NJOLOBINBLEOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 2;</code>
+       * <code>uint32 level_id = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -571,7 +571,7 @@ public final class NJOLOBINBLEOuterClass {
 
       private int aEAJNEDAFJI_ ;
       /**
-       * <code>uint32 AEAJNEDAFJI = 3;</code>
+       * <code>uint32 AEAJNEDAFJI = 2;</code>
        * @return The aEAJNEDAFJI.
        */
       @java.lang.Override
@@ -579,7 +579,7 @@ public final class NJOLOBINBLEOuterClass {
         return aEAJNEDAFJI_;
       }
       /**
-       * <code>uint32 AEAJNEDAFJI = 3;</code>
+       * <code>uint32 AEAJNEDAFJI = 2;</code>
        * @param value The aEAJNEDAFJI to set.
        * @return This builder for chaining.
        */
@@ -590,7 +590,7 @@ public final class NJOLOBINBLEOuterClass {
         return this;
       }
       /**
-       * <code>uint32 AEAJNEDAFJI = 3;</code>
+       * <code>uint32 AEAJNEDAFJI = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearAEAJNEDAFJI() {
@@ -602,7 +602,7 @@ public final class NJOLOBINBLEOuterClass {
 
       private boolean isFinish_ ;
       /**
-       * <code>bool is_finish = 8;</code>
+       * <code>bool is_finish = 3;</code>
        * @return The isFinish.
        */
       @java.lang.Override
@@ -610,7 +610,7 @@ public final class NJOLOBINBLEOuterClass {
         return isFinish_;
       }
       /**
-       * <code>bool is_finish = 8;</code>
+       * <code>bool is_finish = 3;</code>
        * @param value The isFinish to set.
        * @return This builder for chaining.
        */
@@ -621,7 +621,7 @@ public final class NJOLOBINBLEOuterClass {
         return this;
       }
       /**
-       * <code>bool is_finish = 8;</code>
+       * <code>bool is_finish = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsFinish() {
@@ -633,7 +633,7 @@ public final class NJOLOBINBLEOuterClass {
 
       private boolean isOpen_ ;
       /**
-       * <code>bool is_open = 12;</code>
+       * <code>bool is_open = 5;</code>
        * @return The isOpen.
        */
       @java.lang.Override
@@ -641,7 +641,7 @@ public final class NJOLOBINBLEOuterClass {
         return isOpen_;
       }
       /**
-       * <code>bool is_open = 12;</code>
+       * <code>bool is_open = 5;</code>
        * @param value The isOpen to set.
        * @return This builder for chaining.
        */
@@ -652,7 +652,7 @@ public final class NJOLOBINBLEOuterClass {
         return this;
       }
       /**
-       * <code>bool is_open = 12;</code>
+       * <code>bool is_open = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsOpen() {
@@ -729,8 +729,8 @@ public final class NJOLOBINBLEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NJOLOBINBLE.proto\"X\n\013NJOLOBINBLE\022\020\n\010le" +
-      "vel_id\030\002 \001(\r\022\023\n\013AEAJNEDAFJI\030\003 \001(\r\022\021\n\tis_" +
-      "finish\030\010 \001(\010\022\017\n\007is_open\030\014 \001(\010B2\n\031emu.gra" +
+      "vel_id\030\013 \001(\r\022\023\n\013AEAJNEDAFJI\030\002 \001(\r\022\021\n\tis_" +
+      "finish\030\003 \001(\010\022\017\n\007is_open\030\005 \001(\010B2\n\031emu.gra" +
       "sscutter.net.protoB\025NJOLOBINBLEOuterClas" +
       "sb\006proto3"
     };

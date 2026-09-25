@@ -5,6 +5,6 @@ option java_outer_classname = "QuestUpdateQuestVarReqOuterClass";
 
 message QuestUpdateQuestVarReq {
 	uint32 parent_quest_var_seq = 1;
-	uint32 quest_id = 4;
-	uint32 parent_quest_id = 12;
+	uint32 quest_id = 7;
+	uint32 parent_quest_id = 13;
 }

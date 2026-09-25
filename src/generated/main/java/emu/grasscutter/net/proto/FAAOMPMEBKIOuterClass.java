@@ -19,29 +19,29 @@ public final class FAAOMPMEBKIOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 difficulty = 10;</code>
+     * <code>uint32 difficulty = 13;</code>
      * @return The difficulty.
      */
     int getDifficulty();
 
     /**
-     * <code>uint32 AAKAOLKKNGC = 13;</code>
+     * <code>uint32 AAKAOLKKNGC = 15;</code>
      * @return The aAKAOLKKNGC.
      */
     int getAAKAOLKKNGC();
 
     /**
-     * <code>repeated uint32 avatar_id_list = 15;</code>
+     * <code>repeated uint32 avatar_id_list = 14;</code>
      * @return A list containing the avatarIdList.
      */
     java.util.List<java.lang.Integer> getAvatarIdListList();
     /**
-     * <code>repeated uint32 avatar_id_list = 15;</code>
+     * <code>repeated uint32 avatar_id_list = 14;</code>
      * @return The count of avatarIdList.
      */
     int getAvatarIdListCount();
     /**
-     * <code>repeated uint32 avatar_id_list = 15;</code>
+     * <code>repeated uint32 avatar_id_list = 14;</code>
      * @param index The index of the element to return.
      * @return The avatarIdList at the given index.
      */
@@ -94,17 +94,12 @@ public final class FAAOMPMEBKIOuterClass {
             case 0:
               done = true;
               break;
-            case 80: {
+            case 104: {
 
               difficulty_ = input.readUInt32();
               break;
             }
-            case 104: {
-
-              aAKAOLKKNGC_ = input.readUInt32();
-              break;
-            }
-            case 120: {
+            case 112: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 avatarIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -112,7 +107,7 @@ public final class FAAOMPMEBKIOuterClass {
               avatarIdList_.addInt(input.readUInt32());
               break;
             }
-            case 122: {
+            case 114: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -123,6 +118,11 @@ public final class FAAOMPMEBKIOuterClass {
                 avatarIdList_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
+              break;
+            }
+            case 120: {
+
+              aAKAOLKKNGC_ = input.readUInt32();
               break;
             }
             default: {
@@ -160,10 +160,10 @@ public final class FAAOMPMEBKIOuterClass {
               emu.grasscutter.net.proto.FAAOMPMEBKIOuterClass.FAAOMPMEBKI.class, emu.grasscutter.net.proto.FAAOMPMEBKIOuterClass.FAAOMPMEBKI.Builder.class);
     }
 
-    public static final int DIFFICULTY_FIELD_NUMBER = 10;
+    public static final int DIFFICULTY_FIELD_NUMBER = 13;
     private int difficulty_;
     /**
-     * <code>uint32 difficulty = 10;</code>
+     * <code>uint32 difficulty = 13;</code>
      * @return The difficulty.
      */
     @java.lang.Override
@@ -171,10 +171,10 @@ public final class FAAOMPMEBKIOuterClass {
       return difficulty_;
     }
 
-    public static final int AAKAOLKKNGC_FIELD_NUMBER = 13;
+    public static final int AAKAOLKKNGC_FIELD_NUMBER = 15;
     private int aAKAOLKKNGC_;
     /**
-     * <code>uint32 AAKAOLKKNGC = 13;</code>
+     * <code>uint32 AAKAOLKKNGC = 15;</code>
      * @return The aAKAOLKKNGC.
      */
     @java.lang.Override
@@ -182,10 +182,10 @@ public final class FAAOMPMEBKIOuterClass {
       return aAKAOLKKNGC_;
     }
 
-    public static final int AVATAR_ID_LIST_FIELD_NUMBER = 15;
+    public static final int AVATAR_ID_LIST_FIELD_NUMBER = 14;
     private com.google.protobuf.Internal.IntList avatarIdList_;
     /**
-     * <code>repeated uint32 avatar_id_list = 15;</code>
+     * <code>repeated uint32 avatar_id_list = 14;</code>
      * @return A list containing the avatarIdList.
      */
     @java.lang.Override
@@ -194,14 +194,14 @@ public final class FAAOMPMEBKIOuterClass {
       return avatarIdList_;
     }
     /**
-     * <code>repeated uint32 avatar_id_list = 15;</code>
+     * <code>repeated uint32 avatar_id_list = 14;</code>
      * @return The count of avatarIdList.
      */
     public int getAvatarIdListCount() {
       return avatarIdList_.size();
     }
     /**
-     * <code>repeated uint32 avatar_id_list = 15;</code>
+     * <code>repeated uint32 avatar_id_list = 14;</code>
      * @param index The index of the element to return.
      * @return The avatarIdList at the given index.
      */
@@ -226,17 +226,17 @@ public final class FAAOMPMEBKIOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (difficulty_ != 0) {
-        output.writeUInt32(10, difficulty_);
-      }
-      if (aAKAOLKKNGC_ != 0) {
-        output.writeUInt32(13, aAKAOLKKNGC_);
+        output.writeUInt32(13, difficulty_);
       }
       if (getAvatarIdListList().size() > 0) {
-        output.writeUInt32NoTag(122);
+        output.writeUInt32NoTag(114);
         output.writeUInt32NoTag(avatarIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < avatarIdList_.size(); i++) {
         output.writeUInt32NoTag(avatarIdList_.getInt(i));
+      }
+      if (aAKAOLKKNGC_ != 0) {
+        output.writeUInt32(15, aAKAOLKKNGC_);
       }
       unknownFields.writeTo(output);
     }
@@ -249,11 +249,7 @@ public final class FAAOMPMEBKIOuterClass {
       size = 0;
       if (difficulty_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, difficulty_);
-      }
-      if (aAKAOLKKNGC_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, aAKAOLKKNGC_);
+          .computeUInt32Size(13, difficulty_);
       }
       {
         int dataSize = 0;
@@ -268,6 +264,10 @@ public final class FAAOMPMEBKIOuterClass {
               .computeInt32SizeNoTag(dataSize);
         }
         avatarIdListMemoizedSerializedSize = dataSize;
+      }
+      if (aAKAOLKKNGC_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(15, aAKAOLKKNGC_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -578,7 +578,7 @@ public final class FAAOMPMEBKIOuterClass {
 
       private int difficulty_ ;
       /**
-       * <code>uint32 difficulty = 10;</code>
+       * <code>uint32 difficulty = 13;</code>
        * @return The difficulty.
        */
       @java.lang.Override
@@ -586,7 +586,7 @@ public final class FAAOMPMEBKIOuterClass {
         return difficulty_;
       }
       /**
-       * <code>uint32 difficulty = 10;</code>
+       * <code>uint32 difficulty = 13;</code>
        * @param value The difficulty to set.
        * @return This builder for chaining.
        */
@@ -597,7 +597,7 @@ public final class FAAOMPMEBKIOuterClass {
         return this;
       }
       /**
-       * <code>uint32 difficulty = 10;</code>
+       * <code>uint32 difficulty = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearDifficulty() {
@@ -609,7 +609,7 @@ public final class FAAOMPMEBKIOuterClass {
 
       private int aAKAOLKKNGC_ ;
       /**
-       * <code>uint32 AAKAOLKKNGC = 13;</code>
+       * <code>uint32 AAKAOLKKNGC = 15;</code>
        * @return The aAKAOLKKNGC.
        */
       @java.lang.Override
@@ -617,7 +617,7 @@ public final class FAAOMPMEBKIOuterClass {
         return aAKAOLKKNGC_;
       }
       /**
-       * <code>uint32 AAKAOLKKNGC = 13;</code>
+       * <code>uint32 AAKAOLKKNGC = 15;</code>
        * @param value The aAKAOLKKNGC to set.
        * @return This builder for chaining.
        */
@@ -628,7 +628,7 @@ public final class FAAOMPMEBKIOuterClass {
         return this;
       }
       /**
-       * <code>uint32 AAKAOLKKNGC = 13;</code>
+       * <code>uint32 AAKAOLKKNGC = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearAAKAOLKKNGC() {
@@ -646,7 +646,7 @@ public final class FAAOMPMEBKIOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 avatar_id_list = 15;</code>
+       * <code>repeated uint32 avatar_id_list = 14;</code>
        * @return A list containing the avatarIdList.
        */
       public java.util.List<java.lang.Integer>
@@ -655,14 +655,14 @@ public final class FAAOMPMEBKIOuterClass {
                  java.util.Collections.unmodifiableList(avatarIdList_) : avatarIdList_;
       }
       /**
-       * <code>repeated uint32 avatar_id_list = 15;</code>
+       * <code>repeated uint32 avatar_id_list = 14;</code>
        * @return The count of avatarIdList.
        */
       public int getAvatarIdListCount() {
         return avatarIdList_.size();
       }
       /**
-       * <code>repeated uint32 avatar_id_list = 15;</code>
+       * <code>repeated uint32 avatar_id_list = 14;</code>
        * @param index The index of the element to return.
        * @return The avatarIdList at the given index.
        */
@@ -670,7 +670,7 @@ public final class FAAOMPMEBKIOuterClass {
         return avatarIdList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 avatar_id_list = 15;</code>
+       * <code>repeated uint32 avatar_id_list = 14;</code>
        * @param index The index to set the value at.
        * @param value The avatarIdList to set.
        * @return This builder for chaining.
@@ -683,7 +683,7 @@ public final class FAAOMPMEBKIOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 avatar_id_list = 15;</code>
+       * <code>repeated uint32 avatar_id_list = 14;</code>
        * @param value The avatarIdList to add.
        * @return This builder for chaining.
        */
@@ -694,7 +694,7 @@ public final class FAAOMPMEBKIOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 avatar_id_list = 15;</code>
+       * <code>repeated uint32 avatar_id_list = 14;</code>
        * @param values The avatarIdList to add.
        * @return This builder for chaining.
        */
@@ -707,7 +707,7 @@ public final class FAAOMPMEBKIOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 avatar_id_list = 15;</code>
+       * <code>repeated uint32 avatar_id_list = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearAvatarIdList() {
@@ -784,8 +784,8 @@ public final class FAAOMPMEBKIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021FAAOMPMEBKI.proto\"N\n\013FAAOMPMEBKI\022\022\n\ndi" +
-      "fficulty\030\n \001(\r\022\023\n\013AAKAOLKKNGC\030\r \001(\r\022\026\n\016a" +
-      "vatar_id_list\030\017 \003(\rB2\n\031emu.grasscutter.n" +
+      "fficulty\030\r \001(\r\022\023\n\013AAKAOLKKNGC\030\017 \001(\r\022\026\n\016a" +
+      "vatar_id_list\030\016 \003(\rB2\n\031emu.grasscutter.n" +
       "et.protoB\025FAAOMPMEBKIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

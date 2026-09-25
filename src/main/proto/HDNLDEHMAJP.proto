@@ -6,5 +6,5 @@ option java_outer_classname = "HDNLDEHMAJPOuterClass";
 import "LOAAPGCPMIO.proto";
 
 message HDNLDEHMAJP {
-	repeated LOAAPGCPMIO EPDBOGFDEHJ = 2;
+	repeated LOAAPGCPMIO EPDBOGFDEHJ = 3;
 }

@@ -4,12 +4,12 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "IOIOBABMMLLOuterClass";
 
 message IOIOBABMMLL {
-	float rot = 1;
-	bool GDNALHJEFPE = 3;
-	uint32 id = 4;
-	float HGHDGAIHIHJ = 5;
-	float MIFLBOMJLLO = 6;
+	float rot = 4;
+	bool GDNALHJEFPE = 2;
+	uint32 id = 10;
+	float HGHDGAIHIHJ = 50000;
+	float MIFLBOMJLLO = 50001;
 	uint32 value = 8;
-	float JADCKOMEOGC = 9;
-	uint32 IPHHMCDGGCP = 11;
+	float JADCKOMEOGC = 50002;
+	uint32 IPHHMCDGGCP = 7;
 }

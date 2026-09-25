@@ -19,12 +19,12 @@ public final class ChatInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool is_mention_all = 1;</code>
+     * <code>bool is_mention_all = 2;</code>
      * @return Whether the isMentionAll field is set.
      */
     boolean hasIsMentionAll();
     /**
-     * <code>bool is_mention_all = 1;</code>
+     * <code>bool is_mention_all = 2;</code>
      * @return The isMentionAll.
      */
     boolean getIsMentionAll();
@@ -41,239 +41,239 @@ public final class ChatInfoOuterClass {
     int getMentionedUid();
 
     /**
-     * <code>.ChatInfo._BeyondTeamRecruitment beyond_team_recruitment = 386;</code>
+     * <code>.ChatInfo._BeyondTeamRecruitment beyond_team_recruitment = 686;</code>
      * @return Whether the beyondTeamRecruitment field is set.
      */
     boolean hasBeyondTeamRecruitment();
     /**
-     * <code>.ChatInfo._BeyondTeamRecruitment beyond_team_recruitment = 386;</code>
+     * <code>.ChatInfo._BeyondTeamRecruitment beyond_team_recruitment = 686;</code>
      * @return The beyondTeamRecruitment.
      */
     emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitment getBeyondTeamRecruitment();
     /**
-     * <code>.ChatInfo._BeyondTeamRecruitment beyond_team_recruitment = 386;</code>
+     * <code>.ChatInfo._BeyondTeamRecruitment beyond_team_recruitment = 686;</code>
      */
     emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitmentOrBuilder getBeyondTeamRecruitmentOrBuilder();
 
     /**
-     * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
+     * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 680;</code>
      * @return Whether the beyondCostumeShareCode field is set.
      */
     boolean hasBeyondCostumeShareCode();
     /**
-     * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
+     * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 680;</code>
      * @return The beyondCostumeShareCode.
      */
     emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode getBeyondCostumeShareCode();
     /**
-     * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
+     * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 680;</code>
      */
     emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCodeOrBuilder getBeyondCostumeShareCodeOrBuilder();
 
     /**
-     * <code>uint32 icon = 654;</code>
+     * <code>uint32 icon = 1448;</code>
      * @return Whether the icon field is set.
      */
     boolean hasIcon();
     /**
-     * <code>uint32 icon = 654;</code>
+     * <code>uint32 icon = 1448;</code>
      * @return The icon.
      */
     int getIcon();
 
     /**
-     * <code>.ChatInfo._BeyondRoomInvitation beyond_room_invitation = 763;</code>
+     * <code>.ChatInfo._BeyondRoomInvitation beyond_room_invitation = 758;</code>
      * @return Whether the beyondRoomInvitation field is set.
      */
     boolean hasBeyondRoomInvitation();
     /**
-     * <code>.ChatInfo._BeyondRoomInvitation beyond_room_invitation = 763;</code>
+     * <code>.ChatInfo._BeyondRoomInvitation beyond_room_invitation = 758;</code>
      * @return The beyondRoomInvitation.
      */
     emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitation getBeyondRoomInvitation();
     /**
-     * <code>.ChatInfo._BeyondRoomInvitation beyond_room_invitation = 763;</code>
+     * <code>.ChatInfo._BeyondRoomInvitation beyond_room_invitation = 758;</code>
      */
     emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitationOrBuilder getBeyondRoomInvitationOrBuilder();
 
     /**
-     * <code>.ChatInfo._BeyondCollectionNewCaptain beyond_collection_new_captain = 833;</code>
+     * <code>.ChatInfo._BeyondCollectionNewCaptain beyond_collection_new_captain = 188;</code>
      * @return Whether the beyondCollectionNewCaptain field is set.
      */
     boolean hasBeyondCollectionNewCaptain();
     /**
-     * <code>.ChatInfo._BeyondCollectionNewCaptain beyond_collection_new_captain = 833;</code>
+     * <code>.ChatInfo._BeyondCollectionNewCaptain beyond_collection_new_captain = 188;</code>
      * @return The beyondCollectionNewCaptain.
      */
     emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCollectionNewCaptain getBeyondCollectionNewCaptain();
     /**
-     * <code>.ChatInfo._BeyondCollectionNewCaptain beyond_collection_new_captain = 833;</code>
+     * <code>.ChatInfo._BeyondCollectionNewCaptain beyond_collection_new_captain = 188;</code>
      */
     emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCollectionNewCaptainOrBuilder getBeyondCollectionNewCaptainOrBuilder();
 
     /**
-     * <code>.ChatInfo.SystemHint system_hint = 934;</code>
+     * <code>.ChatInfo.SystemHint system_hint = 765;</code>
      * @return Whether the systemHint field is set.
      */
     boolean hasSystemHint();
     /**
-     * <code>.ChatInfo.SystemHint system_hint = 934;</code>
+     * <code>.ChatInfo.SystemHint system_hint = 765;</code>
      * @return The systemHint.
      */
     emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint getSystemHint();
     /**
-     * <code>.ChatInfo.SystemHint system_hint = 934;</code>
+     * <code>.ChatInfo.SystemHint system_hint = 765;</code>
      */
     emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHintOrBuilder getSystemHintOrBuilder();
 
     /**
-     * <code>.ChatInfo._HallInvitation hall_invitation = 1168;</code>
+     * <code>.ChatInfo._HallInvitation hall_invitation = 1815;</code>
      * @return Whether the hallInvitation field is set.
      */
     boolean hasHallInvitation();
     /**
-     * <code>.ChatInfo._HallInvitation hall_invitation = 1168;</code>
+     * <code>.ChatInfo._HallInvitation hall_invitation = 1815;</code>
      * @return The hallInvitation.
      */
     emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitation getHallInvitation();
     /**
-     * <code>.ChatInfo._HallInvitation hall_invitation = 1168;</code>
+     * <code>.ChatInfo._HallInvitation hall_invitation = 1815;</code>
      */
     emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitationOrBuilder getHallInvitationOrBuilder();
 
     /**
-     * <code>string text = 1275;</code>
+     * <code>string text = 1985;</code>
      * @return Whether the text field is set.
      */
     boolean hasText();
     /**
-     * <code>string text = 1275;</code>
+     * <code>string text = 1985;</code>
      * @return The text.
      */
     java.lang.String getText();
     /**
-     * <code>string text = 1275;</code>
+     * <code>string text = 1985;</code>
      * @return The bytes for text.
      */
     com.google.protobuf.ByteString
         getTextBytes();
 
     /**
-     * <code>.ChatInfo._BeyondTeamApplication beyond_team_application = 1351;</code>
+     * <code>.ChatInfo._BeyondTeamApplication beyond_team_application = 525;</code>
      * @return Whether the beyondTeamApplication field is set.
      */
     boolean hasBeyondTeamApplication();
     /**
-     * <code>.ChatInfo._BeyondTeamApplication beyond_team_application = 1351;</code>
+     * <code>.ChatInfo._BeyondTeamApplication beyond_team_application = 525;</code>
      * @return The beyondTeamApplication.
      */
     emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplication getBeyondTeamApplication();
     /**
-     * <code>.ChatInfo._BeyondTeamApplication beyond_team_application = 1351;</code>
+     * <code>.ChatInfo._BeyondTeamApplication beyond_team_application = 525;</code>
      */
     emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplicationOrBuilder getBeyondTeamApplicationOrBuilder();
 
     /**
-     * <code>.ChatInfo._HallRecruitingInvitation hall_recruiting_invitation = 1402;</code>
+     * <code>.ChatInfo._HallRecruitingInvitation hall_recruiting_invitation = 770;</code>
      * @return Whether the hallRecruitingInvitation field is set.
      */
     boolean hasHallRecruitingInvitation();
     /**
-     * <code>.ChatInfo._HallRecruitingInvitation hall_recruiting_invitation = 1402;</code>
+     * <code>.ChatInfo._HallRecruitingInvitation hall_recruiting_invitation = 770;</code>
      * @return The hallRecruitingInvitation.
      */
     emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallRecruitingInvitation getHallRecruitingInvitation();
     /**
-     * <code>.ChatInfo._HallRecruitingInvitation hall_recruiting_invitation = 1402;</code>
+     * <code>.ChatInfo._HallRecruitingInvitation hall_recruiting_invitation = 770;</code>
      */
     emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallRecruitingInvitationOrBuilder getHallRecruitingInvitationOrBuilder();
 
     /**
-     * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 1496;</code>
+     * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 50000;</code>
      * @return Whether the beyondGachaGift field is set.
      */
     boolean hasBeyondGachaGift();
     /**
-     * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 1496;</code>
+     * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 50000;</code>
      * @return The beyondGachaGift.
      */
     emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift getBeyondGachaGift();
     /**
-     * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 1496;</code>
+     * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 50000;</code>
      */
     emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGiftOrBuilder getBeyondGachaGiftOrBuilder();
 
     /**
-     * <code>.ChatInfo._BeyondTeamInvitation beyond_team_invitation = 1613;</code>
+     * <code>.ChatInfo._BeyondTeamInvitation beyond_team_invitation = 1953;</code>
      * @return Whether the beyondTeamInvitation field is set.
      */
     boolean hasBeyondTeamInvitation();
     /**
-     * <code>.ChatInfo._BeyondTeamInvitation beyond_team_invitation = 1613;</code>
+     * <code>.ChatInfo._BeyondTeamInvitation beyond_team_invitation = 1953;</code>
      * @return The beyondTeamInvitation.
      */
     emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamInvitation getBeyondTeamInvitation();
     /**
-     * <code>.ChatInfo._BeyondTeamInvitation beyond_team_invitation = 1613;</code>
+     * <code>.ChatInfo._BeyondTeamInvitation beyond_team_invitation = 1953;</code>
      */
     emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamInvitationOrBuilder getBeyondTeamInvitationOrBuilder();
 
     /**
-     * <code>string _xuid = 2;</code>
+     * <code>string _xuid = 13;</code>
      * @return The xuid.
      */
     java.lang.String getXuid();
     /**
-     * <code>string _xuid = 2;</code>
+     * <code>string _xuid = 13;</code>
      * @return The bytes for xuid.
      */
     com.google.protobuf.ByteString
         getXuidBytes();
 
     /**
-     * <code>uint32 to_uid = 3;</code>
+     * <code>uint32 to_uid = 9;</code>
      * @return The toUid.
      */
     int getToUid();
 
     /**
-     * <code>uint32 ALKIPKCAPFL = 5;</code>
+     * <code>uint32 ALKIPKCAPFL = 8;</code>
      * @return The aLKIPKCAPFL.
      */
     int getALKIPKCAPFL();
 
     /**
-     * <code>uint32 platform_type = 7;</code>
+     * <code>uint32 platform_type = 4;</code>
      * @return The platformType.
      */
     int getPlatformType();
 
     /**
-     * <code>uint32 uid = 8;</code>
+     * <code>uint32 uid = 5;</code>
      * @return The uid.
      */
     int getUid();
 
     /**
-     * <code>uint32 time = 9;</code>
+     * <code>uint32 time = 1;</code>
      * @return The time.
      */
     int getTime();
 
     /**
-     * <code>uint64 OIEHJMHHCFB = 10;</code>
+     * <code>uint64 OIEHJMHHCFB = 15;</code>
      * @return The oIEHJMHHCFB.
      */
     long getOIEHJMHHCFB();
 
     /**
-     * <code>bool is_read = 13;</code>
+     * <code>bool is_read = 3;</code>
      * @return The isRead.
      */
     boolean getIsRead();
 
     /**
-     * <code>uint32 sequence = 15;</code>
+     * <code>uint32 sequence = 6;</code>
      * @return The sequence.
      */
     int getSequence();
@@ -329,44 +329,43 @@ public final class ChatInfoOuterClass {
               done = true;
               break;
             case 8: {
-              mentionCase_ = 1;
-              mention_ = input.readBool();
-              break;
-            }
-            case 18: {
-              java.lang.String s = input.readStringRequireUtf8();
-
-              Xuid_ = s;
-              break;
-            }
-            case 24: {
-
-              toUid_ = input.readUInt32();
-              break;
-            }
-            case 40: {
-
-              aLKIPKCAPFL_ = input.readUInt32();
-              break;
-            }
-            case 56: {
-
-              platformType_ = input.readUInt32();
-              break;
-            }
-            case 64: {
-
-              uid_ = input.readUInt32();
-              break;
-            }
-            case 72: {
 
               time_ = input.readUInt32();
               break;
             }
-            case 80: {
+            case 16: {
+              mentionCase_ = 2;
+              mention_ = input.readBool();
+              break;
+            }
+            case 24: {
 
-              oIEHJMHHCFB_ = input.readUInt64();
+              isRead_ = input.readBool();
+              break;
+            }
+            case 32: {
+
+              platformType_ = input.readUInt32();
+              break;
+            }
+            case 40: {
+
+              uid_ = input.readUInt32();
+              break;
+            }
+            case 48: {
+
+              sequence_ = input.readUInt32();
+              break;
+            }
+            case 64: {
+
+              aLKIPKCAPFL_ = input.readUInt32();
+              break;
+            }
+            case 72: {
+
+              toUid_ = input.readUInt32();
               break;
             }
             case 96: {
@@ -374,66 +373,20 @@ public final class ChatInfoOuterClass {
               mention_ = input.readUInt32();
               break;
             }
-            case 104: {
+            case 106: {
+              java.lang.String s = input.readStringRequireUtf8();
 
-              isRead_ = input.readBool();
+              Xuid_ = s;
               break;
             }
             case 120: {
 
-              sequence_ = input.readUInt32();
+              oIEHJMHHCFB_ = input.readUInt64();
               break;
             }
-            case 3090: {
-              emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitment.Builder subBuilder = null;
-              if (contentCase_ == 386) {
-                subBuilder = ((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitment) content_).toBuilder();
-              }
-              content_ =
-                  input.readMessage(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitment.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitment) content_);
-                content_ = subBuilder.buildPartial();
-              }
-              contentCase_ = 386;
-              break;
-            }
-            case 3154: {
-              emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode.Builder subBuilder = null;
-              if (contentCase_ == 394) {
-                subBuilder = ((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode) content_).toBuilder();
-              }
-              content_ =
-                  input.readMessage(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode) content_);
-                content_ = subBuilder.buildPartial();
-              }
-              contentCase_ = 394;
-              break;
-            }
-            case 5232: {
-              contentCase_ = 654;
-              content_ = input.readUInt32();
-              break;
-            }
-            case 6106: {
-              emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitation.Builder subBuilder = null;
-              if (contentCase_ == 763) {
-                subBuilder = ((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitation) content_).toBuilder();
-              }
-              content_ =
-                  input.readMessage(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitation.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitation) content_);
-                content_ = subBuilder.buildPartial();
-              }
-              contentCase_ = 763;
-              break;
-            }
-            case 6666: {
+            case 1506: {
               emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCollectionNewCaptain.Builder subBuilder = null;
-              if (contentCase_ == 833) {
+              if (contentCase_ == 188) {
                 subBuilder = ((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCollectionNewCaptain) content_).toBuilder();
               }
               content_ =
@@ -442,46 +395,12 @@ public final class ChatInfoOuterClass {
                 subBuilder.mergeFrom((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCollectionNewCaptain) content_);
                 content_ = subBuilder.buildPartial();
               }
-              contentCase_ = 833;
+              contentCase_ = 188;
               break;
             }
-            case 7474: {
-              emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint.Builder subBuilder = null;
-              if (contentCase_ == 934) {
-                subBuilder = ((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint) content_).toBuilder();
-              }
-              content_ =
-                  input.readMessage(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint) content_);
-                content_ = subBuilder.buildPartial();
-              }
-              contentCase_ = 934;
-              break;
-            }
-            case 9346: {
-              emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitation.Builder subBuilder = null;
-              if (contentCase_ == 1168) {
-                subBuilder = ((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitation) content_).toBuilder();
-              }
-              content_ =
-                  input.readMessage(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitation.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitation) content_);
-                content_ = subBuilder.buildPartial();
-              }
-              contentCase_ = 1168;
-              break;
-            }
-            case 10202: {
-              java.lang.String s = input.readStringRequireUtf8();
-              contentCase_ = 1275;
-              content_ = s;
-              break;
-            }
-            case 10810: {
+            case 4202: {
               emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplication.Builder subBuilder = null;
-              if (contentCase_ == 1351) {
+              if (contentCase_ == 525) {
                 subBuilder = ((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplication) content_).toBuilder();
               }
               content_ =
@@ -490,12 +409,68 @@ public final class ChatInfoOuterClass {
                 subBuilder.mergeFrom((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplication) content_);
                 content_ = subBuilder.buildPartial();
               }
-              contentCase_ = 1351;
+              contentCase_ = 525;
               break;
             }
-            case 11218: {
+            case 5442: {
+              emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode.Builder subBuilder = null;
+              if (contentCase_ == 680) {
+                subBuilder = ((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode) content_).toBuilder();
+              }
+              content_ =
+                  input.readMessage(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode) content_);
+                content_ = subBuilder.buildPartial();
+              }
+              contentCase_ = 680;
+              break;
+            }
+            case 5490: {
+              emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitment.Builder subBuilder = null;
+              if (contentCase_ == 686) {
+                subBuilder = ((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitment) content_).toBuilder();
+              }
+              content_ =
+                  input.readMessage(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitment.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitment) content_);
+                content_ = subBuilder.buildPartial();
+              }
+              contentCase_ = 686;
+              break;
+            }
+            case 6066: {
+              emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitation.Builder subBuilder = null;
+              if (contentCase_ == 758) {
+                subBuilder = ((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitation) content_).toBuilder();
+              }
+              content_ =
+                  input.readMessage(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitation.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitation) content_);
+                content_ = subBuilder.buildPartial();
+              }
+              contentCase_ = 758;
+              break;
+            }
+            case 6122: {
+              emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint.Builder subBuilder = null;
+              if (contentCase_ == 765) {
+                subBuilder = ((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint) content_).toBuilder();
+              }
+              content_ =
+                  input.readMessage(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint) content_);
+                content_ = subBuilder.buildPartial();
+              }
+              contentCase_ = 765;
+              break;
+            }
+            case 6162: {
               emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallRecruitingInvitation.Builder subBuilder = null;
-              if (contentCase_ == 1402) {
+              if (contentCase_ == 770) {
                 subBuilder = ((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallRecruitingInvitation) content_).toBuilder();
               }
               content_ =
@@ -504,26 +479,31 @@ public final class ChatInfoOuterClass {
                 subBuilder.mergeFrom((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallRecruitingInvitation) content_);
                 content_ = subBuilder.buildPartial();
               }
-              contentCase_ = 1402;
+              contentCase_ = 770;
               break;
             }
-            case 11970: {
-              emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift.Builder subBuilder = null;
-              if (contentCase_ == 1496) {
-                subBuilder = ((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift) content_).toBuilder();
+            case 11584: {
+              contentCase_ = 1448;
+              content_ = input.readUInt32();
+              break;
+            }
+            case 14522: {
+              emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitation.Builder subBuilder = null;
+              if (contentCase_ == 1815) {
+                subBuilder = ((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitation) content_).toBuilder();
               }
               content_ =
-                  input.readMessage(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitation.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift) content_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitation) content_);
                 content_ = subBuilder.buildPartial();
               }
-              contentCase_ = 1496;
+              contentCase_ = 1815;
               break;
             }
-            case 12906: {
+            case 15626: {
               emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamInvitation.Builder subBuilder = null;
-              if (contentCase_ == 1613) {
+              if (contentCase_ == 1953) {
                 subBuilder = ((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamInvitation) content_).toBuilder();
               }
               content_ =
@@ -532,7 +512,27 @@ public final class ChatInfoOuterClass {
                 subBuilder.mergeFrom((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamInvitation) content_);
                 content_ = subBuilder.buildPartial();
               }
-              contentCase_ = 1613;
+              contentCase_ = 1953;
+              break;
+            }
+            case 15882: {
+              java.lang.String s = input.readStringRequireUtf8();
+              contentCase_ = 1985;
+              content_ = s;
+              break;
+            }
+            case 400002: {
+              emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift.Builder subBuilder = null;
+              if (contentCase_ == 50000) {
+                subBuilder = ((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift) content_).toBuilder();
+              }
+              content_ =
+                  input.readMessage(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift) content_);
+                content_ = subBuilder.buildPartial();
+              }
+              contentCase_ = 50000;
               break;
             }
             default: {
@@ -572,23 +572,23 @@ public final class ChatInfoOuterClass {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>uint32 type = 4;</code>
+       * <code>uint32 type = 5;</code>
        * @return The type.
        */
       int getType();
 
       /**
-       * <code>repeated uint32 uid_list = 13;</code>
+       * <code>repeated uint32 uid_list = 6;</code>
        * @return A list containing the uidList.
        */
       java.util.List<java.lang.Integer> getUidListList();
       /**
-       * <code>repeated uint32 uid_list = 13;</code>
+       * <code>repeated uint32 uid_list = 6;</code>
        * @return The count of uidList.
        */
       int getUidListCount();
       /**
-       * <code>repeated uint32 uid_list = 13;</code>
+       * <code>repeated uint32 uid_list = 6;</code>
        * @param index The index of the element to return.
        * @return The uidList at the given index.
        */
@@ -641,12 +641,12 @@ public final class ChatInfoOuterClass {
               case 0:
                 done = true;
                 break;
-              case 32: {
+              case 40: {
 
                 type_ = input.readUInt32();
                 break;
               }
-              case 104: {
+              case 48: {
                 if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                   uidList_ = newIntList();
                   mutable_bitField0_ |= 0x00000001;
@@ -654,7 +654,7 @@ public final class ChatInfoOuterClass {
                 uidList_.addInt(input.readUInt32());
                 break;
               }
-              case 106: {
+              case 50: {
                 int length = input.readRawVarint32();
                 int limit = input.pushLimit(length);
                 if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -702,10 +702,10 @@ public final class ChatInfoOuterClass {
                 emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint.class, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint.Builder.class);
       }
 
-      public static final int TYPE_FIELD_NUMBER = 4;
+      public static final int TYPE_FIELD_NUMBER = 5;
       private int type_;
       /**
-       * <code>uint32 type = 4;</code>
+       * <code>uint32 type = 5;</code>
        * @return The type.
        */
       @java.lang.Override
@@ -713,10 +713,10 @@ public final class ChatInfoOuterClass {
         return type_;
       }
 
-      public static final int UID_LIST_FIELD_NUMBER = 13;
+      public static final int UID_LIST_FIELD_NUMBER = 6;
       private com.google.protobuf.Internal.IntList uidList_;
       /**
-       * <code>repeated uint32 uid_list = 13;</code>
+       * <code>repeated uint32 uid_list = 6;</code>
        * @return A list containing the uidList.
        */
       @java.lang.Override
@@ -725,14 +725,14 @@ public final class ChatInfoOuterClass {
         return uidList_;
       }
       /**
-       * <code>repeated uint32 uid_list = 13;</code>
+       * <code>repeated uint32 uid_list = 6;</code>
        * @return The count of uidList.
        */
       public int getUidListCount() {
         return uidList_.size();
       }
       /**
-       * <code>repeated uint32 uid_list = 13;</code>
+       * <code>repeated uint32 uid_list = 6;</code>
        * @param index The index of the element to return.
        * @return The uidList at the given index.
        */
@@ -757,10 +757,10 @@ public final class ChatInfoOuterClass {
                           throws java.io.IOException {
         getSerializedSize();
         if (type_ != 0) {
-          output.writeUInt32(4, type_);
+          output.writeUInt32(5, type_);
         }
         if (getUidListList().size() > 0) {
-          output.writeUInt32NoTag(106);
+          output.writeUInt32NoTag(50);
           output.writeUInt32NoTag(uidListMemoizedSerializedSize);
         }
         for (int i = 0; i < uidList_.size(); i++) {
@@ -777,7 +777,7 @@ public final class ChatInfoOuterClass {
         size = 0;
         if (type_ != 0) {
           size += com.google.protobuf.CodedOutputStream
-            .computeUInt32Size(4, type_);
+            .computeUInt32Size(5, type_);
         }
         {
           int dataSize = 0;
@@ -1092,7 +1092,7 @@ public final class ChatInfoOuterClass {
 
         private int type_ ;
         /**
-         * <code>uint32 type = 4;</code>
+         * <code>uint32 type = 5;</code>
          * @return The type.
          */
         @java.lang.Override
@@ -1100,7 +1100,7 @@ public final class ChatInfoOuterClass {
           return type_;
         }
         /**
-         * <code>uint32 type = 4;</code>
+         * <code>uint32 type = 5;</code>
          * @param value The type to set.
          * @return This builder for chaining.
          */
@@ -1111,7 +1111,7 @@ public final class ChatInfoOuterClass {
           return this;
         }
         /**
-         * <code>uint32 type = 4;</code>
+         * <code>uint32 type = 5;</code>
          * @return This builder for chaining.
          */
         public Builder clearType() {
@@ -1129,7 +1129,7 @@ public final class ChatInfoOuterClass {
            }
         }
         /**
-         * <code>repeated uint32 uid_list = 13;</code>
+         * <code>repeated uint32 uid_list = 6;</code>
          * @return A list containing the uidList.
          */
         public java.util.List<java.lang.Integer>
@@ -1138,14 +1138,14 @@ public final class ChatInfoOuterClass {
                    java.util.Collections.unmodifiableList(uidList_) : uidList_;
         }
         /**
-         * <code>repeated uint32 uid_list = 13;</code>
+         * <code>repeated uint32 uid_list = 6;</code>
          * @return The count of uidList.
          */
         public int getUidListCount() {
           return uidList_.size();
         }
         /**
-         * <code>repeated uint32 uid_list = 13;</code>
+         * <code>repeated uint32 uid_list = 6;</code>
          * @param index The index of the element to return.
          * @return The uidList at the given index.
          */
@@ -1153,7 +1153,7 @@ public final class ChatInfoOuterClass {
           return uidList_.getInt(index);
         }
         /**
-         * <code>repeated uint32 uid_list = 13;</code>
+         * <code>repeated uint32 uid_list = 6;</code>
          * @param index The index to set the value at.
          * @param value The uidList to set.
          * @return This builder for chaining.
@@ -1166,7 +1166,7 @@ public final class ChatInfoOuterClass {
           return this;
         }
         /**
-         * <code>repeated uint32 uid_list = 13;</code>
+         * <code>repeated uint32 uid_list = 6;</code>
          * @param value The uidList to add.
          * @return This builder for chaining.
          */
@@ -1177,7 +1177,7 @@ public final class ChatInfoOuterClass {
           return this;
         }
         /**
-         * <code>repeated uint32 uid_list = 13;</code>
+         * <code>repeated uint32 uid_list = 6;</code>
          * @param values The uidList to add.
          * @return This builder for chaining.
          */
@@ -1190,7 +1190,7 @@ public final class ChatInfoOuterClass {
           return this;
         }
         /**
-         * <code>repeated uint32 uid_list = 13;</code>
+         * <code>repeated uint32 uid_list = 6;</code>
          * @return This builder for chaining.
          */
         public Builder clearUidList() {
@@ -1965,54 +1965,54 @@ public final class ChatInfoOuterClass {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>uint32 DGNNJCJPGEO = 1;</code>
+       * <code>uint32 DGNNJCJPGEO = 14;</code>
        * @return The dGNNJCJPGEO.
        */
       int getDGNNJCJPGEO();
 
       /**
-       * <code>uint64 BJFFLGDNMPL = 4;</code>
+       * <code>uint64 BJFFLGDNMPL = 1;</code>
        * @return The bJFFLGDNMPL.
        */
       long getBJFFLGDNMPL();
 
       /**
-       * <code>repeated uint32 CFPLKFNPNAM = 6;</code>
+       * <code>repeated uint32 CFPLKFNPNAM = 7;</code>
        * @return A list containing the cFPLKFNPNAM.
        */
       java.util.List<java.lang.Integer> getCFPLKFNPNAMList();
       /**
-       * <code>repeated uint32 CFPLKFNPNAM = 6;</code>
+       * <code>repeated uint32 CFPLKFNPNAM = 7;</code>
        * @return The count of cFPLKFNPNAM.
        */
       int getCFPLKFNPNAMCount();
       /**
-       * <code>repeated uint32 CFPLKFNPNAM = 6;</code>
+       * <code>repeated uint32 CFPLKFNPNAM = 7;</code>
        * @param index The index of the element to return.
        * @return The cFPLKFNPNAM at the given index.
        */
       int getCFPLKFNPNAM(int index);
 
       /**
-       * <code>uint32 GHNMBPLBBFN = 8;</code>
+       * <code>uint32 GHNMBPLBBFN = 5;</code>
        * @return The gHNMBPLBBFN.
        */
       int getGHNMBPLBBFN();
 
       /**
-       * <code>uint64 BOJNPHONGMP = 11;</code>
+       * <code>uint64 BOJNPHONGMP = 12;</code>
        * @return The bOJNPHONGMP.
        */
       long getBOJNPHONGMP();
 
       /**
-       * <code>uint32 CNFEBIOPANP = 12;</code>
+       * <code>uint32 CNFEBIOPANP = 3;</code>
        * @return The cNFEBIOPANP.
        */
       int getCNFEBIOPANP();
 
       /**
-       * <code>uint32 EPHGOMPBKJA = 15;</code>
+       * <code>uint32 EPHGOMPBKJA = 9;</code>
        * @return The ePHGOMPBKJA.
        */
       int getEPHGOMPBKJA();
@@ -2066,15 +2066,20 @@ public final class ChatInfoOuterClass {
                 break;
               case 8: {
 
-                dGNNJCJPGEO_ = input.readUInt32();
-                break;
-              }
-              case 32: {
-
                 bJFFLGDNMPL_ = input.readUInt64();
                 break;
               }
-              case 48: {
+              case 24: {
+
+                cNFEBIOPANP_ = input.readUInt32();
+                break;
+              }
+              case 40: {
+
+                gHNMBPLBBFN_ = input.readUInt32();
+                break;
+              }
+              case 56: {
                 if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                   cFPLKFNPNAM_ = newIntList();
                   mutable_bitField0_ |= 0x00000001;
@@ -2082,7 +2087,7 @@ public final class ChatInfoOuterClass {
                 cFPLKFNPNAM_.addInt(input.readUInt32());
                 break;
               }
-              case 50: {
+              case 58: {
                 int length = input.readRawVarint32();
                 int limit = input.pushLimit(length);
                 if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -2095,24 +2100,19 @@ public final class ChatInfoOuterClass {
                 input.popLimit(limit);
                 break;
               }
-              case 64: {
+              case 72: {
 
-                gHNMBPLBBFN_ = input.readUInt32();
-                break;
-              }
-              case 88: {
-
-                bOJNPHONGMP_ = input.readUInt64();
+                ePHGOMPBKJA_ = input.readUInt32();
                 break;
               }
               case 96: {
 
-                cNFEBIOPANP_ = input.readUInt32();
+                bOJNPHONGMP_ = input.readUInt64();
                 break;
               }
-              case 120: {
+              case 112: {
 
-                ePHGOMPBKJA_ = input.readUInt32();
+                dGNNJCJPGEO_ = input.readUInt32();
                 break;
               }
               default: {
@@ -2150,10 +2150,10 @@ public final class ChatInfoOuterClass {
                 emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitation.class, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitation.Builder.class);
       }
 
-      public static final int DGNNJCJPGEO_FIELD_NUMBER = 1;
+      public static final int DGNNJCJPGEO_FIELD_NUMBER = 14;
       private int dGNNJCJPGEO_;
       /**
-       * <code>uint32 DGNNJCJPGEO = 1;</code>
+       * <code>uint32 DGNNJCJPGEO = 14;</code>
        * @return The dGNNJCJPGEO.
        */
       @java.lang.Override
@@ -2161,10 +2161,10 @@ public final class ChatInfoOuterClass {
         return dGNNJCJPGEO_;
       }
 
-      public static final int BJFFLGDNMPL_FIELD_NUMBER = 4;
+      public static final int BJFFLGDNMPL_FIELD_NUMBER = 1;
       private long bJFFLGDNMPL_;
       /**
-       * <code>uint64 BJFFLGDNMPL = 4;</code>
+       * <code>uint64 BJFFLGDNMPL = 1;</code>
        * @return The bJFFLGDNMPL.
        */
       @java.lang.Override
@@ -2172,10 +2172,10 @@ public final class ChatInfoOuterClass {
         return bJFFLGDNMPL_;
       }
 
-      public static final int CFPLKFNPNAM_FIELD_NUMBER = 6;
+      public static final int CFPLKFNPNAM_FIELD_NUMBER = 7;
       private com.google.protobuf.Internal.IntList cFPLKFNPNAM_;
       /**
-       * <code>repeated uint32 CFPLKFNPNAM = 6;</code>
+       * <code>repeated uint32 CFPLKFNPNAM = 7;</code>
        * @return A list containing the cFPLKFNPNAM.
        */
       @java.lang.Override
@@ -2184,14 +2184,14 @@ public final class ChatInfoOuterClass {
         return cFPLKFNPNAM_;
       }
       /**
-       * <code>repeated uint32 CFPLKFNPNAM = 6;</code>
+       * <code>repeated uint32 CFPLKFNPNAM = 7;</code>
        * @return The count of cFPLKFNPNAM.
        */
       public int getCFPLKFNPNAMCount() {
         return cFPLKFNPNAM_.size();
       }
       /**
-       * <code>repeated uint32 CFPLKFNPNAM = 6;</code>
+       * <code>repeated uint32 CFPLKFNPNAM = 7;</code>
        * @param index The index of the element to return.
        * @return The cFPLKFNPNAM at the given index.
        */
@@ -2200,10 +2200,10 @@ public final class ChatInfoOuterClass {
       }
       private int cFPLKFNPNAMMemoizedSerializedSize = -1;
 
-      public static final int GHNMBPLBBFN_FIELD_NUMBER = 8;
+      public static final int GHNMBPLBBFN_FIELD_NUMBER = 5;
       private int gHNMBPLBBFN_;
       /**
-       * <code>uint32 GHNMBPLBBFN = 8;</code>
+       * <code>uint32 GHNMBPLBBFN = 5;</code>
        * @return The gHNMBPLBBFN.
        */
       @java.lang.Override
@@ -2211,10 +2211,10 @@ public final class ChatInfoOuterClass {
         return gHNMBPLBBFN_;
       }
 
-      public static final int BOJNPHONGMP_FIELD_NUMBER = 11;
+      public static final int BOJNPHONGMP_FIELD_NUMBER = 12;
       private long bOJNPHONGMP_;
       /**
-       * <code>uint64 BOJNPHONGMP = 11;</code>
+       * <code>uint64 BOJNPHONGMP = 12;</code>
        * @return The bOJNPHONGMP.
        */
       @java.lang.Override
@@ -2222,10 +2222,10 @@ public final class ChatInfoOuterClass {
         return bOJNPHONGMP_;
       }
 
-      public static final int CNFEBIOPANP_FIELD_NUMBER = 12;
+      public static final int CNFEBIOPANP_FIELD_NUMBER = 3;
       private int cNFEBIOPANP_;
       /**
-       * <code>uint32 CNFEBIOPANP = 12;</code>
+       * <code>uint32 CNFEBIOPANP = 3;</code>
        * @return The cNFEBIOPANP.
        */
       @java.lang.Override
@@ -2233,10 +2233,10 @@ public final class ChatInfoOuterClass {
         return cNFEBIOPANP_;
       }
 
-      public static final int EPHGOMPBKJA_FIELD_NUMBER = 15;
+      public static final int EPHGOMPBKJA_FIELD_NUMBER = 9;
       private int ePHGOMPBKJA_;
       /**
-       * <code>uint32 EPHGOMPBKJA = 15;</code>
+       * <code>uint32 EPHGOMPBKJA = 9;</code>
        * @return The ePHGOMPBKJA.
        */
       @java.lang.Override
@@ -2259,30 +2259,30 @@ public final class ChatInfoOuterClass {
       public void writeTo(com.google.protobuf.CodedOutputStream output)
                           throws java.io.IOException {
         getSerializedSize();
-        if (dGNNJCJPGEO_ != 0) {
-          output.writeUInt32(1, dGNNJCJPGEO_);
-        }
         if (bJFFLGDNMPL_ != 0L) {
-          output.writeUInt64(4, bJFFLGDNMPL_);
+          output.writeUInt64(1, bJFFLGDNMPL_);
+        }
+        if (cNFEBIOPANP_ != 0) {
+          output.writeUInt32(3, cNFEBIOPANP_);
+        }
+        if (gHNMBPLBBFN_ != 0) {
+          output.writeUInt32(5, gHNMBPLBBFN_);
         }
         if (getCFPLKFNPNAMList().size() > 0) {
-          output.writeUInt32NoTag(50);
+          output.writeUInt32NoTag(58);
           output.writeUInt32NoTag(cFPLKFNPNAMMemoizedSerializedSize);
         }
         for (int i = 0; i < cFPLKFNPNAM_.size(); i++) {
           output.writeUInt32NoTag(cFPLKFNPNAM_.getInt(i));
         }
-        if (gHNMBPLBBFN_ != 0) {
-          output.writeUInt32(8, gHNMBPLBBFN_);
+        if (ePHGOMPBKJA_ != 0) {
+          output.writeUInt32(9, ePHGOMPBKJA_);
         }
         if (bOJNPHONGMP_ != 0L) {
-          output.writeUInt64(11, bOJNPHONGMP_);
+          output.writeUInt64(12, bOJNPHONGMP_);
         }
-        if (cNFEBIOPANP_ != 0) {
-          output.writeUInt32(12, cNFEBIOPANP_);
-        }
-        if (ePHGOMPBKJA_ != 0) {
-          output.writeUInt32(15, ePHGOMPBKJA_);
+        if (dGNNJCJPGEO_ != 0) {
+          output.writeUInt32(14, dGNNJCJPGEO_);
         }
         unknownFields.writeTo(output);
       }
@@ -2293,13 +2293,17 @@ public final class ChatInfoOuterClass {
         if (size != -1) return size;
 
         size = 0;
-        if (dGNNJCJPGEO_ != 0) {
-          size += com.google.protobuf.CodedOutputStream
-            .computeUInt32Size(1, dGNNJCJPGEO_);
-        }
         if (bJFFLGDNMPL_ != 0L) {
           size += com.google.protobuf.CodedOutputStream
-            .computeUInt64Size(4, bJFFLGDNMPL_);
+            .computeUInt64Size(1, bJFFLGDNMPL_);
+        }
+        if (cNFEBIOPANP_ != 0) {
+          size += com.google.protobuf.CodedOutputStream
+            .computeUInt32Size(3, cNFEBIOPANP_);
+        }
+        if (gHNMBPLBBFN_ != 0) {
+          size += com.google.protobuf.CodedOutputStream
+            .computeUInt32Size(5, gHNMBPLBBFN_);
         }
         {
           int dataSize = 0;
@@ -2315,21 +2319,17 @@ public final class ChatInfoOuterClass {
           }
           cFPLKFNPNAMMemoizedSerializedSize = dataSize;
         }
-        if (gHNMBPLBBFN_ != 0) {
+        if (ePHGOMPBKJA_ != 0) {
           size += com.google.protobuf.CodedOutputStream
-            .computeUInt32Size(8, gHNMBPLBBFN_);
+            .computeUInt32Size(9, ePHGOMPBKJA_);
         }
         if (bOJNPHONGMP_ != 0L) {
           size += com.google.protobuf.CodedOutputStream
-            .computeUInt64Size(11, bOJNPHONGMP_);
+            .computeUInt64Size(12, bOJNPHONGMP_);
         }
-        if (cNFEBIOPANP_ != 0) {
+        if (dGNNJCJPGEO_ != 0) {
           size += com.google.protobuf.CodedOutputStream
-            .computeUInt32Size(12, cNFEBIOPANP_);
-        }
-        if (ePHGOMPBKJA_ != 0) {
-          size += com.google.protobuf.CodedOutputStream
-            .computeUInt32Size(15, ePHGOMPBKJA_);
+            .computeUInt32Size(14, dGNNJCJPGEO_);
         }
         size += unknownFields.getSerializedSize();
         memoizedSize = size;
@@ -2682,7 +2682,7 @@ public final class ChatInfoOuterClass {
 
         private int dGNNJCJPGEO_ ;
         /**
-         * <code>uint32 DGNNJCJPGEO = 1;</code>
+         * <code>uint32 DGNNJCJPGEO = 14;</code>
          * @return The dGNNJCJPGEO.
          */
         @java.lang.Override
@@ -2690,7 +2690,7 @@ public final class ChatInfoOuterClass {
           return dGNNJCJPGEO_;
         }
         /**
-         * <code>uint32 DGNNJCJPGEO = 1;</code>
+         * <code>uint32 DGNNJCJPGEO = 14;</code>
          * @param value The dGNNJCJPGEO to set.
          * @return This builder for chaining.
          */
@@ -2701,7 +2701,7 @@ public final class ChatInfoOuterClass {
           return this;
         }
         /**
-         * <code>uint32 DGNNJCJPGEO = 1;</code>
+         * <code>uint32 DGNNJCJPGEO = 14;</code>
          * @return This builder for chaining.
          */
         public Builder clearDGNNJCJPGEO() {
@@ -2713,7 +2713,7 @@ public final class ChatInfoOuterClass {
 
         private long bJFFLGDNMPL_ ;
         /**
-         * <code>uint64 BJFFLGDNMPL = 4;</code>
+         * <code>uint64 BJFFLGDNMPL = 1;</code>
          * @return The bJFFLGDNMPL.
          */
         @java.lang.Override
@@ -2721,7 +2721,7 @@ public final class ChatInfoOuterClass {
           return bJFFLGDNMPL_;
         }
         /**
-         * <code>uint64 BJFFLGDNMPL = 4;</code>
+         * <code>uint64 BJFFLGDNMPL = 1;</code>
          * @param value The bJFFLGDNMPL to set.
          * @return This builder for chaining.
          */
@@ -2732,7 +2732,7 @@ public final class ChatInfoOuterClass {
           return this;
         }
         /**
-         * <code>uint64 BJFFLGDNMPL = 4;</code>
+         * <code>uint64 BJFFLGDNMPL = 1;</code>
          * @return This builder for chaining.
          */
         public Builder clearBJFFLGDNMPL() {
@@ -2750,7 +2750,7 @@ public final class ChatInfoOuterClass {
            }
         }
         /**
-         * <code>repeated uint32 CFPLKFNPNAM = 6;</code>
+         * <code>repeated uint32 CFPLKFNPNAM = 7;</code>
          * @return A list containing the cFPLKFNPNAM.
          */
         public java.util.List<java.lang.Integer>
@@ -2759,14 +2759,14 @@ public final class ChatInfoOuterClass {
                    java.util.Collections.unmodifiableList(cFPLKFNPNAM_) : cFPLKFNPNAM_;
         }
         /**
-         * <code>repeated uint32 CFPLKFNPNAM = 6;</code>
+         * <code>repeated uint32 CFPLKFNPNAM = 7;</code>
          * @return The count of cFPLKFNPNAM.
          */
         public int getCFPLKFNPNAMCount() {
           return cFPLKFNPNAM_.size();
         }
         /**
-         * <code>repeated uint32 CFPLKFNPNAM = 6;</code>
+         * <code>repeated uint32 CFPLKFNPNAM = 7;</code>
          * @param index The index of the element to return.
          * @return The cFPLKFNPNAM at the given index.
          */
@@ -2774,7 +2774,7 @@ public final class ChatInfoOuterClass {
           return cFPLKFNPNAM_.getInt(index);
         }
         /**
-         * <code>repeated uint32 CFPLKFNPNAM = 6;</code>
+         * <code>repeated uint32 CFPLKFNPNAM = 7;</code>
          * @param index The index to set the value at.
          * @param value The cFPLKFNPNAM to set.
          * @return This builder for chaining.
@@ -2787,7 +2787,7 @@ public final class ChatInfoOuterClass {
           return this;
         }
         /**
-         * <code>repeated uint32 CFPLKFNPNAM = 6;</code>
+         * <code>repeated uint32 CFPLKFNPNAM = 7;</code>
          * @param value The cFPLKFNPNAM to add.
          * @return This builder for chaining.
          */
@@ -2798,7 +2798,7 @@ public final class ChatInfoOuterClass {
           return this;
         }
         /**
-         * <code>repeated uint32 CFPLKFNPNAM = 6;</code>
+         * <code>repeated uint32 CFPLKFNPNAM = 7;</code>
          * @param values The cFPLKFNPNAM to add.
          * @return This builder for chaining.
          */
@@ -2811,7 +2811,7 @@ public final class ChatInfoOuterClass {
           return this;
         }
         /**
-         * <code>repeated uint32 CFPLKFNPNAM = 6;</code>
+         * <code>repeated uint32 CFPLKFNPNAM = 7;</code>
          * @return This builder for chaining.
          */
         public Builder clearCFPLKFNPNAM() {
@@ -2823,7 +2823,7 @@ public final class ChatInfoOuterClass {
 
         private int gHNMBPLBBFN_ ;
         /**
-         * <code>uint32 GHNMBPLBBFN = 8;</code>
+         * <code>uint32 GHNMBPLBBFN = 5;</code>
          * @return The gHNMBPLBBFN.
          */
         @java.lang.Override
@@ -2831,7 +2831,7 @@ public final class ChatInfoOuterClass {
           return gHNMBPLBBFN_;
         }
         /**
-         * <code>uint32 GHNMBPLBBFN = 8;</code>
+         * <code>uint32 GHNMBPLBBFN = 5;</code>
          * @param value The gHNMBPLBBFN to set.
          * @return This builder for chaining.
          */
@@ -2842,7 +2842,7 @@ public final class ChatInfoOuterClass {
           return this;
         }
         /**
-         * <code>uint32 GHNMBPLBBFN = 8;</code>
+         * <code>uint32 GHNMBPLBBFN = 5;</code>
          * @return This builder for chaining.
          */
         public Builder clearGHNMBPLBBFN() {
@@ -2854,7 +2854,7 @@ public final class ChatInfoOuterClass {
 
         private long bOJNPHONGMP_ ;
         /**
-         * <code>uint64 BOJNPHONGMP = 11;</code>
+         * <code>uint64 BOJNPHONGMP = 12;</code>
          * @return The bOJNPHONGMP.
          */
         @java.lang.Override
@@ -2862,7 +2862,7 @@ public final class ChatInfoOuterClass {
           return bOJNPHONGMP_;
         }
         /**
-         * <code>uint64 BOJNPHONGMP = 11;</code>
+         * <code>uint64 BOJNPHONGMP = 12;</code>
          * @param value The bOJNPHONGMP to set.
          * @return This builder for chaining.
          */
@@ -2873,7 +2873,7 @@ public final class ChatInfoOuterClass {
           return this;
         }
         /**
-         * <code>uint64 BOJNPHONGMP = 11;</code>
+         * <code>uint64 BOJNPHONGMP = 12;</code>
          * @return This builder for chaining.
          */
         public Builder clearBOJNPHONGMP() {
@@ -2885,7 +2885,7 @@ public final class ChatInfoOuterClass {
 
         private int cNFEBIOPANP_ ;
         /**
-         * <code>uint32 CNFEBIOPANP = 12;</code>
+         * <code>uint32 CNFEBIOPANP = 3;</code>
          * @return The cNFEBIOPANP.
          */
         @java.lang.Override
@@ -2893,7 +2893,7 @@ public final class ChatInfoOuterClass {
           return cNFEBIOPANP_;
         }
         /**
-         * <code>uint32 CNFEBIOPANP = 12;</code>
+         * <code>uint32 CNFEBIOPANP = 3;</code>
          * @param value The cNFEBIOPANP to set.
          * @return This builder for chaining.
          */
@@ -2904,7 +2904,7 @@ public final class ChatInfoOuterClass {
           return this;
         }
         /**
-         * <code>uint32 CNFEBIOPANP = 12;</code>
+         * <code>uint32 CNFEBIOPANP = 3;</code>
          * @return This builder for chaining.
          */
         public Builder clearCNFEBIOPANP() {
@@ -2916,7 +2916,7 @@ public final class ChatInfoOuterClass {
 
         private int ePHGOMPBKJA_ ;
         /**
-         * <code>uint32 EPHGOMPBKJA = 15;</code>
+         * <code>uint32 EPHGOMPBKJA = 9;</code>
          * @return The ePHGOMPBKJA.
          */
         @java.lang.Override
@@ -2924,7 +2924,7 @@ public final class ChatInfoOuterClass {
           return ePHGOMPBKJA_;
         }
         /**
-         * <code>uint32 EPHGOMPBKJA = 15;</code>
+         * <code>uint32 EPHGOMPBKJA = 9;</code>
          * @param value The ePHGOMPBKJA to set.
          * @return This builder for chaining.
          */
@@ -2935,7 +2935,7 @@ public final class ChatInfoOuterClass {
           return this;
         }
         /**
-         * <code>uint32 EPHGOMPBKJA = 15;</code>
+         * <code>uint32 EPHGOMPBKJA = 9;</code>
          * @return This builder for chaining.
          */
         public Builder clearEPHGOMPBKJA() {
@@ -3002,25 +3002,25 @@ public final class ChatInfoOuterClass {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>uint32 EPHGOMPBKJA = 11;</code>
+       * <code>uint32 EPHGOMPBKJA = 7;</code>
        * @return The ePHGOMPBKJA.
        */
       int getEPHGOMPBKJA();
 
       /**
-       * <code>uint64 BOJNPHONGMP = 12;</code>
+       * <code>uint64 BOJNPHONGMP = 8;</code>
        * @return The bOJNPHONGMP.
        */
       long getBOJNPHONGMP();
 
       /**
-       * <code>uint32 GHNMBPLBBFN = 14;</code>
+       * <code>uint32 GHNMBPLBBFN = 10;</code>
        * @return The gHNMBPLBBFN.
        */
       int getGHNMBPLBBFN();
 
       /**
-       * <code>uint32 CNFEBIOPANP = 15;</code>
+       * <code>uint32 CNFEBIOPANP = 1;</code>
        * @return The cNFEBIOPANP.
        */
       int getCNFEBIOPANP();
@@ -3070,24 +3070,24 @@ public final class ChatInfoOuterClass {
               case 0:
                 done = true;
                 break;
-              case 88: {
+              case 8: {
+
+                cNFEBIOPANP_ = input.readUInt32();
+                break;
+              }
+              case 56: {
 
                 ePHGOMPBKJA_ = input.readUInt32();
                 break;
               }
-              case 96: {
+              case 64: {
 
                 bOJNPHONGMP_ = input.readUInt64();
                 break;
               }
-              case 112: {
+              case 80: {
 
                 gHNMBPLBBFN_ = input.readUInt32();
-                break;
-              }
-              case 120: {
-
-                cNFEBIOPANP_ = input.readUInt32();
                 break;
               }
               default: {
@@ -3122,10 +3122,10 @@ public final class ChatInfoOuterClass {
                 emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamInvitation.class, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamInvitation.Builder.class);
       }
 
-      public static final int EPHGOMPBKJA_FIELD_NUMBER = 11;
+      public static final int EPHGOMPBKJA_FIELD_NUMBER = 7;
       private int ePHGOMPBKJA_;
       /**
-       * <code>uint32 EPHGOMPBKJA = 11;</code>
+       * <code>uint32 EPHGOMPBKJA = 7;</code>
        * @return The ePHGOMPBKJA.
        */
       @java.lang.Override
@@ -3133,10 +3133,10 @@ public final class ChatInfoOuterClass {
         return ePHGOMPBKJA_;
       }
 
-      public static final int BOJNPHONGMP_FIELD_NUMBER = 12;
+      public static final int BOJNPHONGMP_FIELD_NUMBER = 8;
       private long bOJNPHONGMP_;
       /**
-       * <code>uint64 BOJNPHONGMP = 12;</code>
+       * <code>uint64 BOJNPHONGMP = 8;</code>
        * @return The bOJNPHONGMP.
        */
       @java.lang.Override
@@ -3144,10 +3144,10 @@ public final class ChatInfoOuterClass {
         return bOJNPHONGMP_;
       }
 
-      public static final int GHNMBPLBBFN_FIELD_NUMBER = 14;
+      public static final int GHNMBPLBBFN_FIELD_NUMBER = 10;
       private int gHNMBPLBBFN_;
       /**
-       * <code>uint32 GHNMBPLBBFN = 14;</code>
+       * <code>uint32 GHNMBPLBBFN = 10;</code>
        * @return The gHNMBPLBBFN.
        */
       @java.lang.Override
@@ -3155,10 +3155,10 @@ public final class ChatInfoOuterClass {
         return gHNMBPLBBFN_;
       }
 
-      public static final int CNFEBIOPANP_FIELD_NUMBER = 15;
+      public static final int CNFEBIOPANP_FIELD_NUMBER = 1;
       private int cNFEBIOPANP_;
       /**
-       * <code>uint32 CNFEBIOPANP = 15;</code>
+       * <code>uint32 CNFEBIOPANP = 1;</code>
        * @return The cNFEBIOPANP.
        */
       @java.lang.Override
@@ -3180,17 +3180,17 @@ public final class ChatInfoOuterClass {
       @java.lang.Override
       public void writeTo(com.google.protobuf.CodedOutputStream output)
                           throws java.io.IOException {
+        if (cNFEBIOPANP_ != 0) {
+          output.writeUInt32(1, cNFEBIOPANP_);
+        }
         if (ePHGOMPBKJA_ != 0) {
-          output.writeUInt32(11, ePHGOMPBKJA_);
+          output.writeUInt32(7, ePHGOMPBKJA_);
         }
         if (bOJNPHONGMP_ != 0L) {
-          output.writeUInt64(12, bOJNPHONGMP_);
+          output.writeUInt64(8, bOJNPHONGMP_);
         }
         if (gHNMBPLBBFN_ != 0) {
-          output.writeUInt32(14, gHNMBPLBBFN_);
-        }
-        if (cNFEBIOPANP_ != 0) {
-          output.writeUInt32(15, cNFEBIOPANP_);
+          output.writeUInt32(10, gHNMBPLBBFN_);
         }
         unknownFields.writeTo(output);
       }
@@ -3201,21 +3201,21 @@ public final class ChatInfoOuterClass {
         if (size != -1) return size;
 
         size = 0;
+        if (cNFEBIOPANP_ != 0) {
+          size += com.google.protobuf.CodedOutputStream
+            .computeUInt32Size(1, cNFEBIOPANP_);
+        }
         if (ePHGOMPBKJA_ != 0) {
           size += com.google.protobuf.CodedOutputStream
-            .computeUInt32Size(11, ePHGOMPBKJA_);
+            .computeUInt32Size(7, ePHGOMPBKJA_);
         }
         if (bOJNPHONGMP_ != 0L) {
           size += com.google.protobuf.CodedOutputStream
-            .computeUInt64Size(12, bOJNPHONGMP_);
+            .computeUInt64Size(8, bOJNPHONGMP_);
         }
         if (gHNMBPLBBFN_ != 0) {
           size += com.google.protobuf.CodedOutputStream
-            .computeUInt32Size(14, gHNMBPLBBFN_);
-        }
-        if (cNFEBIOPANP_ != 0) {
-          size += com.google.protobuf.CodedOutputStream
-            .computeUInt32Size(15, cNFEBIOPANP_);
+            .computeUInt32Size(10, gHNMBPLBBFN_);
         }
         size += unknownFields.getSerializedSize();
         memoizedSize = size;
@@ -3522,7 +3522,7 @@ public final class ChatInfoOuterClass {
 
         private int ePHGOMPBKJA_ ;
         /**
-         * <code>uint32 EPHGOMPBKJA = 11;</code>
+         * <code>uint32 EPHGOMPBKJA = 7;</code>
          * @return The ePHGOMPBKJA.
          */
         @java.lang.Override
@@ -3530,7 +3530,7 @@ public final class ChatInfoOuterClass {
           return ePHGOMPBKJA_;
         }
         /**
-         * <code>uint32 EPHGOMPBKJA = 11;</code>
+         * <code>uint32 EPHGOMPBKJA = 7;</code>
          * @param value The ePHGOMPBKJA to set.
          * @return This builder for chaining.
          */
@@ -3541,7 +3541,7 @@ public final class ChatInfoOuterClass {
           return this;
         }
         /**
-         * <code>uint32 EPHGOMPBKJA = 11;</code>
+         * <code>uint32 EPHGOMPBKJA = 7;</code>
          * @return This builder for chaining.
          */
         public Builder clearEPHGOMPBKJA() {
@@ -3553,7 +3553,7 @@ public final class ChatInfoOuterClass {
 
         private long bOJNPHONGMP_ ;
         /**
-         * <code>uint64 BOJNPHONGMP = 12;</code>
+         * <code>uint64 BOJNPHONGMP = 8;</code>
          * @return The bOJNPHONGMP.
          */
         @java.lang.Override
@@ -3561,7 +3561,7 @@ public final class ChatInfoOuterClass {
           return bOJNPHONGMP_;
         }
         /**
-         * <code>uint64 BOJNPHONGMP = 12;</code>
+         * <code>uint64 BOJNPHONGMP = 8;</code>
          * @param value The bOJNPHONGMP to set.
          * @return This builder for chaining.
          */
@@ -3572,7 +3572,7 @@ public final class ChatInfoOuterClass {
           return this;
         }
         /**
-         * <code>uint64 BOJNPHONGMP = 12;</code>
+         * <code>uint64 BOJNPHONGMP = 8;</code>
          * @return This builder for chaining.
          */
         public Builder clearBOJNPHONGMP() {
@@ -3584,7 +3584,7 @@ public final class ChatInfoOuterClass {
 
         private int gHNMBPLBBFN_ ;
         /**
-         * <code>uint32 GHNMBPLBBFN = 14;</code>
+         * <code>uint32 GHNMBPLBBFN = 10;</code>
          * @return The gHNMBPLBBFN.
          */
         @java.lang.Override
@@ -3592,7 +3592,7 @@ public final class ChatInfoOuterClass {
           return gHNMBPLBBFN_;
         }
         /**
-         * <code>uint32 GHNMBPLBBFN = 14;</code>
+         * <code>uint32 GHNMBPLBBFN = 10;</code>
          * @param value The gHNMBPLBBFN to set.
          * @return This builder for chaining.
          */
@@ -3603,7 +3603,7 @@ public final class ChatInfoOuterClass {
           return this;
         }
         /**
-         * <code>uint32 GHNMBPLBBFN = 14;</code>
+         * <code>uint32 GHNMBPLBBFN = 10;</code>
          * @return This builder for chaining.
          */
         public Builder clearGHNMBPLBBFN() {
@@ -3615,7 +3615,7 @@ public final class ChatInfoOuterClass {
 
         private int cNFEBIOPANP_ ;
         /**
-         * <code>uint32 CNFEBIOPANP = 15;</code>
+         * <code>uint32 CNFEBIOPANP = 1;</code>
          * @return The cNFEBIOPANP.
          */
         @java.lang.Override
@@ -3623,7 +3623,7 @@ public final class ChatInfoOuterClass {
           return cNFEBIOPANP_;
         }
         /**
-         * <code>uint32 CNFEBIOPANP = 15;</code>
+         * <code>uint32 CNFEBIOPANP = 1;</code>
          * @param value The cNFEBIOPANP to set.
          * @return This builder for chaining.
          */
@@ -3634,7 +3634,7 @@ public final class ChatInfoOuterClass {
           return this;
         }
         /**
-         * <code>uint32 CNFEBIOPANP = 15;</code>
+         * <code>uint32 CNFEBIOPANP = 1;</code>
          * @return This builder for chaining.
          */
         public Builder clearCNFEBIOPANP() {
@@ -3701,25 +3701,25 @@ public final class ChatInfoOuterClass {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>uint64 MIHICCAEFOM = 1;</code>
+       * <code>uint64 MIHICCAEFOM = 12;</code>
        * @return The mIHICCAEFOM.
        */
       long getMIHICCAEFOM();
 
       /**
-       * <code>uint32 GJNLFEJCKPA = 10;</code>
+       * <code>uint32 GJNLFEJCKPA = 2;</code>
        * @return The gJNLFEJCKPA.
        */
       int getGJNLFEJCKPA();
 
       /**
-       * <code>uint32 target_uid = 13;</code>
+       * <code>uint32 target_uid = 14;</code>
        * @return The targetUid.
        */
       int getTargetUid();
 
       /**
-       * <code>uint32 HDMBGALJFMK = 15;</code>
+       * <code>uint32 HDMBGALJFMK = 10;</code>
        * @return The hDMBGALJFMK.
        */
       int getHDMBGALJFMK();
@@ -3769,24 +3769,24 @@ public final class ChatInfoOuterClass {
               case 0:
                 done = true;
                 break;
-              case 8: {
-
-                mIHICCAEFOM_ = input.readUInt64();
-                break;
-              }
-              case 80: {
+              case 16: {
 
                 gJNLFEJCKPA_ = input.readUInt32();
                 break;
               }
-              case 104: {
-
-                targetUid_ = input.readUInt32();
-                break;
-              }
-              case 120: {
+              case 80: {
 
                 hDMBGALJFMK_ = input.readUInt32();
+                break;
+              }
+              case 96: {
+
+                mIHICCAEFOM_ = input.readUInt64();
+                break;
+              }
+              case 112: {
+
+                targetUid_ = input.readUInt32();
                 break;
               }
               default: {
@@ -3821,10 +3821,10 @@ public final class ChatInfoOuterClass {
                 emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplication.class, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplication.Builder.class);
       }
 
-      public static final int MIHICCAEFOM_FIELD_NUMBER = 1;
+      public static final int MIHICCAEFOM_FIELD_NUMBER = 12;
       private long mIHICCAEFOM_;
       /**
-       * <code>uint64 MIHICCAEFOM = 1;</code>
+       * <code>uint64 MIHICCAEFOM = 12;</code>
        * @return The mIHICCAEFOM.
        */
       @java.lang.Override
@@ -3832,10 +3832,10 @@ public final class ChatInfoOuterClass {
         return mIHICCAEFOM_;
       }
 
-      public static final int GJNLFEJCKPA_FIELD_NUMBER = 10;
+      public static final int GJNLFEJCKPA_FIELD_NUMBER = 2;
       private int gJNLFEJCKPA_;
       /**
-       * <code>uint32 GJNLFEJCKPA = 10;</code>
+       * <code>uint32 GJNLFEJCKPA = 2;</code>
        * @return The gJNLFEJCKPA.
        */
       @java.lang.Override
@@ -3843,10 +3843,10 @@ public final class ChatInfoOuterClass {
         return gJNLFEJCKPA_;
       }
 
-      public static final int TARGET_UID_FIELD_NUMBER = 13;
+      public static final int TARGET_UID_FIELD_NUMBER = 14;
       private int targetUid_;
       /**
-       * <code>uint32 target_uid = 13;</code>
+       * <code>uint32 target_uid = 14;</code>
        * @return The targetUid.
        */
       @java.lang.Override
@@ -3854,10 +3854,10 @@ public final class ChatInfoOuterClass {
         return targetUid_;
       }
 
-      public static final int HDMBGALJFMK_FIELD_NUMBER = 15;
+      public static final int HDMBGALJFMK_FIELD_NUMBER = 10;
       private int hDMBGALJFMK_;
       /**
-       * <code>uint32 HDMBGALJFMK = 15;</code>
+       * <code>uint32 HDMBGALJFMK = 10;</code>
        * @return The hDMBGALJFMK.
        */
       @java.lang.Override
@@ -3879,17 +3879,17 @@ public final class ChatInfoOuterClass {
       @java.lang.Override
       public void writeTo(com.google.protobuf.CodedOutputStream output)
                           throws java.io.IOException {
-        if (mIHICCAEFOM_ != 0L) {
-          output.writeUInt64(1, mIHICCAEFOM_);
-        }
         if (gJNLFEJCKPA_ != 0) {
-          output.writeUInt32(10, gJNLFEJCKPA_);
-        }
-        if (targetUid_ != 0) {
-          output.writeUInt32(13, targetUid_);
+          output.writeUInt32(2, gJNLFEJCKPA_);
         }
         if (hDMBGALJFMK_ != 0) {
-          output.writeUInt32(15, hDMBGALJFMK_);
+          output.writeUInt32(10, hDMBGALJFMK_);
+        }
+        if (mIHICCAEFOM_ != 0L) {
+          output.writeUInt64(12, mIHICCAEFOM_);
+        }
+        if (targetUid_ != 0) {
+          output.writeUInt32(14, targetUid_);
         }
         unknownFields.writeTo(output);
       }
@@ -3900,21 +3900,21 @@ public final class ChatInfoOuterClass {
         if (size != -1) return size;
 
         size = 0;
-        if (mIHICCAEFOM_ != 0L) {
-          size += com.google.protobuf.CodedOutputStream
-            .computeUInt64Size(1, mIHICCAEFOM_);
-        }
         if (gJNLFEJCKPA_ != 0) {
           size += com.google.protobuf.CodedOutputStream
-            .computeUInt32Size(10, gJNLFEJCKPA_);
-        }
-        if (targetUid_ != 0) {
-          size += com.google.protobuf.CodedOutputStream
-            .computeUInt32Size(13, targetUid_);
+            .computeUInt32Size(2, gJNLFEJCKPA_);
         }
         if (hDMBGALJFMK_ != 0) {
           size += com.google.protobuf.CodedOutputStream
-            .computeUInt32Size(15, hDMBGALJFMK_);
+            .computeUInt32Size(10, hDMBGALJFMK_);
+        }
+        if (mIHICCAEFOM_ != 0L) {
+          size += com.google.protobuf.CodedOutputStream
+            .computeUInt64Size(12, mIHICCAEFOM_);
+        }
+        if (targetUid_ != 0) {
+          size += com.google.protobuf.CodedOutputStream
+            .computeUInt32Size(14, targetUid_);
         }
         size += unknownFields.getSerializedSize();
         memoizedSize = size;
@@ -4221,7 +4221,7 @@ public final class ChatInfoOuterClass {
 
         private long mIHICCAEFOM_ ;
         /**
-         * <code>uint64 MIHICCAEFOM = 1;</code>
+         * <code>uint64 MIHICCAEFOM = 12;</code>
          * @return The mIHICCAEFOM.
          */
         @java.lang.Override
@@ -4229,7 +4229,7 @@ public final class ChatInfoOuterClass {
           return mIHICCAEFOM_;
         }
         /**
-         * <code>uint64 MIHICCAEFOM = 1;</code>
+         * <code>uint64 MIHICCAEFOM = 12;</code>
          * @param value The mIHICCAEFOM to set.
          * @return This builder for chaining.
          */
@@ -4240,7 +4240,7 @@ public final class ChatInfoOuterClass {
           return this;
         }
         /**
-         * <code>uint64 MIHICCAEFOM = 1;</code>
+         * <code>uint64 MIHICCAEFOM = 12;</code>
          * @return This builder for chaining.
          */
         public Builder clearMIHICCAEFOM() {
@@ -4252,7 +4252,7 @@ public final class ChatInfoOuterClass {
 
         private int gJNLFEJCKPA_ ;
         /**
-         * <code>uint32 GJNLFEJCKPA = 10;</code>
+         * <code>uint32 GJNLFEJCKPA = 2;</code>
          * @return The gJNLFEJCKPA.
          */
         @java.lang.Override
@@ -4260,7 +4260,7 @@ public final class ChatInfoOuterClass {
           return gJNLFEJCKPA_;
         }
         /**
-         * <code>uint32 GJNLFEJCKPA = 10;</code>
+         * <code>uint32 GJNLFEJCKPA = 2;</code>
          * @param value The gJNLFEJCKPA to set.
          * @return This builder for chaining.
          */
@@ -4271,7 +4271,7 @@ public final class ChatInfoOuterClass {
           return this;
         }
         /**
-         * <code>uint32 GJNLFEJCKPA = 10;</code>
+         * <code>uint32 GJNLFEJCKPA = 2;</code>
          * @return This builder for chaining.
          */
         public Builder clearGJNLFEJCKPA() {
@@ -4283,7 +4283,7 @@ public final class ChatInfoOuterClass {
 
         private int targetUid_ ;
         /**
-         * <code>uint32 target_uid = 13;</code>
+         * <code>uint32 target_uid = 14;</code>
          * @return The targetUid.
          */
         @java.lang.Override
@@ -4291,7 +4291,7 @@ public final class ChatInfoOuterClass {
           return targetUid_;
         }
         /**
-         * <code>uint32 target_uid = 13;</code>
+         * <code>uint32 target_uid = 14;</code>
          * @param value The targetUid to set.
          * @return This builder for chaining.
          */
@@ -4302,7 +4302,7 @@ public final class ChatInfoOuterClass {
           return this;
         }
         /**
-         * <code>uint32 target_uid = 13;</code>
+         * <code>uint32 target_uid = 14;</code>
          * @return This builder for chaining.
          */
         public Builder clearTargetUid() {
@@ -4314,7 +4314,7 @@ public final class ChatInfoOuterClass {
 
         private int hDMBGALJFMK_ ;
         /**
-         * <code>uint32 HDMBGALJFMK = 15;</code>
+         * <code>uint32 HDMBGALJFMK = 10;</code>
          * @return The hDMBGALJFMK.
          */
         @java.lang.Override
@@ -4322,7 +4322,7 @@ public final class ChatInfoOuterClass {
           return hDMBGALJFMK_;
         }
         /**
-         * <code>uint32 HDMBGALJFMK = 15;</code>
+         * <code>uint32 HDMBGALJFMK = 10;</code>
          * @param value The hDMBGALJFMK to set.
          * @return This builder for chaining.
          */
@@ -4333,7 +4333,7 @@ public final class ChatInfoOuterClass {
           return this;
         }
         /**
-         * <code>uint32 HDMBGALJFMK = 15;</code>
+         * <code>uint32 HDMBGALJFMK = 10;</code>
          * @return This builder for chaining.
          */
         public Builder clearHDMBGALJFMK() {
@@ -6858,48 +6858,48 @@ public final class ChatInfoOuterClass {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>uint64 DKLMLPNMIHN = 2;</code>
+       * <code>uint64 DKLMLPNMIHN = 14;</code>
        * @return The dKLMLPNMIHN.
        */
       long getDKLMLPNMIHN();
 
       /**
-       * <code>uint32 DELCBHHBDCJ = 5;</code>
+       * <code>uint32 DELCBHHBDCJ = 50000;</code>
        * @return The dELCBHHBDCJ.
        */
       int getDELCBHHBDCJ();
 
       /**
-       * <code>uint32 EILHBPNLEFB = 8;</code>
+       * <code>uint32 EILHBPNLEFB = 50001;</code>
        * @return The eILHBPNLEFB.
        */
       int getEILHBPNLEFB();
 
       /**
-       * <code>uint32 LMNLLOEFBOM = 10;</code>
+       * <code>uint32 LMNLLOEFBOM = 15;</code>
        * @return The lMNLLOEFBOM.
        */
       int getLMNLLOEFBOM();
 
       /**
-       * <code>repeated uint32 GOFEPGIPJNF = 14;</code>
+       * <code>repeated uint32 GOFEPGIPJNF = 7;</code>
        * @return A list containing the gOFEPGIPJNF.
        */
       java.util.List<java.lang.Integer> getGOFEPGIPJNFList();
       /**
-       * <code>repeated uint32 GOFEPGIPJNF = 14;</code>
+       * <code>repeated uint32 GOFEPGIPJNF = 7;</code>
        * @return The count of gOFEPGIPJNF.
        */
       int getGOFEPGIPJNFCount();
       /**
-       * <code>repeated uint32 GOFEPGIPJNF = 14;</code>
+       * <code>repeated uint32 GOFEPGIPJNF = 7;</code>
        * @param index The index of the element to return.
        * @return The gOFEPGIPJNF at the given index.
        */
       int getGOFEPGIPJNF(int index);
 
       /**
-       * <code>uint64 OJDIIPKINNL = 15;</code>
+       * <code>uint64 OJDIIPKINNL = 5;</code>
        * @return The oJDIIPKINNL.
        */
       long getOJDIIPKINNL();
@@ -6951,27 +6951,12 @@ public final class ChatInfoOuterClass {
               case 0:
                 done = true;
                 break;
-              case 16: {
-
-                dKLMLPNMIHN_ = input.readUInt64();
-                break;
-              }
               case 40: {
 
-                dELCBHHBDCJ_ = input.readUInt32();
+                oJDIIPKINNL_ = input.readUInt64();
                 break;
               }
-              case 64: {
-
-                eILHBPNLEFB_ = input.readUInt32();
-                break;
-              }
-              case 80: {
-
-                lMNLLOEFBOM_ = input.readUInt32();
-                break;
-              }
-              case 112: {
+              case 56: {
                 if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                   gOFEPGIPJNF_ = newIntList();
                   mutable_bitField0_ |= 0x00000001;
@@ -6979,7 +6964,7 @@ public final class ChatInfoOuterClass {
                 gOFEPGIPJNF_.addInt(input.readUInt32());
                 break;
               }
-              case 114: {
+              case 58: {
                 int length = input.readRawVarint32();
                 int limit = input.pushLimit(length);
                 if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -6992,9 +6977,24 @@ public final class ChatInfoOuterClass {
                 input.popLimit(limit);
                 break;
               }
+              case 112: {
+
+                dKLMLPNMIHN_ = input.readUInt64();
+                break;
+              }
               case 120: {
 
-                oJDIIPKINNL_ = input.readUInt64();
+                lMNLLOEFBOM_ = input.readUInt32();
+                break;
+              }
+              case 400000: {
+
+                dELCBHHBDCJ_ = input.readUInt32();
+                break;
+              }
+              case 400008: {
+
+                eILHBPNLEFB_ = input.readUInt32();
                 break;
               }
               default: {
@@ -7032,10 +7032,10 @@ public final class ChatInfoOuterClass {
                 emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallRecruitingInvitation.class, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallRecruitingInvitation.Builder.class);
       }
 
-      public static final int DKLMLPNMIHN_FIELD_NUMBER = 2;
+      public static final int DKLMLPNMIHN_FIELD_NUMBER = 14;
       private long dKLMLPNMIHN_;
       /**
-       * <code>uint64 DKLMLPNMIHN = 2;</code>
+       * <code>uint64 DKLMLPNMIHN = 14;</code>
        * @return The dKLMLPNMIHN.
        */
       @java.lang.Override
@@ -7043,10 +7043,10 @@ public final class ChatInfoOuterClass {
         return dKLMLPNMIHN_;
       }
 
-      public static final int DELCBHHBDCJ_FIELD_NUMBER = 5;
+      public static final int DELCBHHBDCJ_FIELD_NUMBER = 50000;
       private int dELCBHHBDCJ_;
       /**
-       * <code>uint32 DELCBHHBDCJ = 5;</code>
+       * <code>uint32 DELCBHHBDCJ = 50000;</code>
        * @return The dELCBHHBDCJ.
        */
       @java.lang.Override
@@ -7054,10 +7054,10 @@ public final class ChatInfoOuterClass {
         return dELCBHHBDCJ_;
       }
 
-      public static final int EILHBPNLEFB_FIELD_NUMBER = 8;
+      public static final int EILHBPNLEFB_FIELD_NUMBER = 50001;
       private int eILHBPNLEFB_;
       /**
-       * <code>uint32 EILHBPNLEFB = 8;</code>
+       * <code>uint32 EILHBPNLEFB = 50001;</code>
        * @return The eILHBPNLEFB.
        */
       @java.lang.Override
@@ -7065,10 +7065,10 @@ public final class ChatInfoOuterClass {
         return eILHBPNLEFB_;
       }
 
-      public static final int LMNLLOEFBOM_FIELD_NUMBER = 10;
+      public static final int LMNLLOEFBOM_FIELD_NUMBER = 15;
       private int lMNLLOEFBOM_;
       /**
-       * <code>uint32 LMNLLOEFBOM = 10;</code>
+       * <code>uint32 LMNLLOEFBOM = 15;</code>
        * @return The lMNLLOEFBOM.
        */
       @java.lang.Override
@@ -7076,10 +7076,10 @@ public final class ChatInfoOuterClass {
         return lMNLLOEFBOM_;
       }
 
-      public static final int GOFEPGIPJNF_FIELD_NUMBER = 14;
+      public static final int GOFEPGIPJNF_FIELD_NUMBER = 7;
       private com.google.protobuf.Internal.IntList gOFEPGIPJNF_;
       /**
-       * <code>repeated uint32 GOFEPGIPJNF = 14;</code>
+       * <code>repeated uint32 GOFEPGIPJNF = 7;</code>
        * @return A list containing the gOFEPGIPJNF.
        */
       @java.lang.Override
@@ -7088,14 +7088,14 @@ public final class ChatInfoOuterClass {
         return gOFEPGIPJNF_;
       }
       /**
-       * <code>repeated uint32 GOFEPGIPJNF = 14;</code>
+       * <code>repeated uint32 GOFEPGIPJNF = 7;</code>
        * @return The count of gOFEPGIPJNF.
        */
       public int getGOFEPGIPJNFCount() {
         return gOFEPGIPJNF_.size();
       }
       /**
-       * <code>repeated uint32 GOFEPGIPJNF = 14;</code>
+       * <code>repeated uint32 GOFEPGIPJNF = 7;</code>
        * @param index The index of the element to return.
        * @return The gOFEPGIPJNF at the given index.
        */
@@ -7104,10 +7104,10 @@ public final class ChatInfoOuterClass {
       }
       private int gOFEPGIPJNFMemoizedSerializedSize = -1;
 
-      public static final int OJDIIPKINNL_FIELD_NUMBER = 15;
+      public static final int OJDIIPKINNL_FIELD_NUMBER = 5;
       private long oJDIIPKINNL_;
       /**
-       * <code>uint64 OJDIIPKINNL = 15;</code>
+       * <code>uint64 OJDIIPKINNL = 5;</code>
        * @return The oJDIIPKINNL.
        */
       @java.lang.Override
@@ -7130,27 +7130,27 @@ public final class ChatInfoOuterClass {
       public void writeTo(com.google.protobuf.CodedOutputStream output)
                           throws java.io.IOException {
         getSerializedSize();
-        if (dKLMLPNMIHN_ != 0L) {
-          output.writeUInt64(2, dKLMLPNMIHN_);
-        }
-        if (dELCBHHBDCJ_ != 0) {
-          output.writeUInt32(5, dELCBHHBDCJ_);
-        }
-        if (eILHBPNLEFB_ != 0) {
-          output.writeUInt32(8, eILHBPNLEFB_);
-        }
-        if (lMNLLOEFBOM_ != 0) {
-          output.writeUInt32(10, lMNLLOEFBOM_);
+        if (oJDIIPKINNL_ != 0L) {
+          output.writeUInt64(5, oJDIIPKINNL_);
         }
         if (getGOFEPGIPJNFList().size() > 0) {
-          output.writeUInt32NoTag(114);
+          output.writeUInt32NoTag(58);
           output.writeUInt32NoTag(gOFEPGIPJNFMemoizedSerializedSize);
         }
         for (int i = 0; i < gOFEPGIPJNF_.size(); i++) {
           output.writeUInt32NoTag(gOFEPGIPJNF_.getInt(i));
         }
-        if (oJDIIPKINNL_ != 0L) {
-          output.writeUInt64(15, oJDIIPKINNL_);
+        if (dKLMLPNMIHN_ != 0L) {
+          output.writeUInt64(14, dKLMLPNMIHN_);
+        }
+        if (lMNLLOEFBOM_ != 0) {
+          output.writeUInt32(15, lMNLLOEFBOM_);
+        }
+        if (dELCBHHBDCJ_ != 0) {
+          output.writeUInt32(50000, dELCBHHBDCJ_);
+        }
+        if (eILHBPNLEFB_ != 0) {
+          output.writeUInt32(50001, eILHBPNLEFB_);
         }
         unknownFields.writeTo(output);
       }
@@ -7161,21 +7161,9 @@ public final class ChatInfoOuterClass {
         if (size != -1) return size;
 
         size = 0;
-        if (dKLMLPNMIHN_ != 0L) {
+        if (oJDIIPKINNL_ != 0L) {
           size += com.google.protobuf.CodedOutputStream
-            .computeUInt64Size(2, dKLMLPNMIHN_);
-        }
-        if (dELCBHHBDCJ_ != 0) {
-          size += com.google.protobuf.CodedOutputStream
-            .computeUInt32Size(5, dELCBHHBDCJ_);
-        }
-        if (eILHBPNLEFB_ != 0) {
-          size += com.google.protobuf.CodedOutputStream
-            .computeUInt32Size(8, eILHBPNLEFB_);
-        }
-        if (lMNLLOEFBOM_ != 0) {
-          size += com.google.protobuf.CodedOutputStream
-            .computeUInt32Size(10, lMNLLOEFBOM_);
+            .computeUInt64Size(5, oJDIIPKINNL_);
         }
         {
           int dataSize = 0;
@@ -7191,9 +7179,21 @@ public final class ChatInfoOuterClass {
           }
           gOFEPGIPJNFMemoizedSerializedSize = dataSize;
         }
-        if (oJDIIPKINNL_ != 0L) {
+        if (dKLMLPNMIHN_ != 0L) {
           size += com.google.protobuf.CodedOutputStream
-            .computeUInt64Size(15, oJDIIPKINNL_);
+            .computeUInt64Size(14, dKLMLPNMIHN_);
+        }
+        if (lMNLLOEFBOM_ != 0) {
+          size += com.google.protobuf.CodedOutputStream
+            .computeUInt32Size(15, lMNLLOEFBOM_);
+        }
+        if (dELCBHHBDCJ_ != 0) {
+          size += com.google.protobuf.CodedOutputStream
+            .computeUInt32Size(50000, dELCBHHBDCJ_);
+        }
+        if (eILHBPNLEFB_ != 0) {
+          size += com.google.protobuf.CodedOutputStream
+            .computeUInt32Size(50001, eILHBPNLEFB_);
         }
         size += unknownFields.getSerializedSize();
         memoizedSize = size;
@@ -7536,7 +7536,7 @@ public final class ChatInfoOuterClass {
 
         private long dKLMLPNMIHN_ ;
         /**
-         * <code>uint64 DKLMLPNMIHN = 2;</code>
+         * <code>uint64 DKLMLPNMIHN = 14;</code>
          * @return The dKLMLPNMIHN.
          */
         @java.lang.Override
@@ -7544,7 +7544,7 @@ public final class ChatInfoOuterClass {
           return dKLMLPNMIHN_;
         }
         /**
-         * <code>uint64 DKLMLPNMIHN = 2;</code>
+         * <code>uint64 DKLMLPNMIHN = 14;</code>
          * @param value The dKLMLPNMIHN to set.
          * @return This builder for chaining.
          */
@@ -7555,7 +7555,7 @@ public final class ChatInfoOuterClass {
           return this;
         }
         /**
-         * <code>uint64 DKLMLPNMIHN = 2;</code>
+         * <code>uint64 DKLMLPNMIHN = 14;</code>
          * @return This builder for chaining.
          */
         public Builder clearDKLMLPNMIHN() {
@@ -7567,7 +7567,7 @@ public final class ChatInfoOuterClass {
 
         private int dELCBHHBDCJ_ ;
         /**
-         * <code>uint32 DELCBHHBDCJ = 5;</code>
+         * <code>uint32 DELCBHHBDCJ = 50000;</code>
          * @return The dELCBHHBDCJ.
          */
         @java.lang.Override
@@ -7575,7 +7575,7 @@ public final class ChatInfoOuterClass {
           return dELCBHHBDCJ_;
         }
         /**
-         * <code>uint32 DELCBHHBDCJ = 5;</code>
+         * <code>uint32 DELCBHHBDCJ = 50000;</code>
          * @param value The dELCBHHBDCJ to set.
          * @return This builder for chaining.
          */
@@ -7586,7 +7586,7 @@ public final class ChatInfoOuterClass {
           return this;
         }
         /**
-         * <code>uint32 DELCBHHBDCJ = 5;</code>
+         * <code>uint32 DELCBHHBDCJ = 50000;</code>
          * @return This builder for chaining.
          */
         public Builder clearDELCBHHBDCJ() {
@@ -7598,7 +7598,7 @@ public final class ChatInfoOuterClass {
 
         private int eILHBPNLEFB_ ;
         /**
-         * <code>uint32 EILHBPNLEFB = 8;</code>
+         * <code>uint32 EILHBPNLEFB = 50001;</code>
          * @return The eILHBPNLEFB.
          */
         @java.lang.Override
@@ -7606,7 +7606,7 @@ public final class ChatInfoOuterClass {
           return eILHBPNLEFB_;
         }
         /**
-         * <code>uint32 EILHBPNLEFB = 8;</code>
+         * <code>uint32 EILHBPNLEFB = 50001;</code>
          * @param value The eILHBPNLEFB to set.
          * @return This builder for chaining.
          */
@@ -7617,7 +7617,7 @@ public final class ChatInfoOuterClass {
           return this;
         }
         /**
-         * <code>uint32 EILHBPNLEFB = 8;</code>
+         * <code>uint32 EILHBPNLEFB = 50001;</code>
          * @return This builder for chaining.
          */
         public Builder clearEILHBPNLEFB() {
@@ -7629,7 +7629,7 @@ public final class ChatInfoOuterClass {
 
         private int lMNLLOEFBOM_ ;
         /**
-         * <code>uint32 LMNLLOEFBOM = 10;</code>
+         * <code>uint32 LMNLLOEFBOM = 15;</code>
          * @return The lMNLLOEFBOM.
          */
         @java.lang.Override
@@ -7637,7 +7637,7 @@ public final class ChatInfoOuterClass {
           return lMNLLOEFBOM_;
         }
         /**
-         * <code>uint32 LMNLLOEFBOM = 10;</code>
+         * <code>uint32 LMNLLOEFBOM = 15;</code>
          * @param value The lMNLLOEFBOM to set.
          * @return This builder for chaining.
          */
@@ -7648,7 +7648,7 @@ public final class ChatInfoOuterClass {
           return this;
         }
         /**
-         * <code>uint32 LMNLLOEFBOM = 10;</code>
+         * <code>uint32 LMNLLOEFBOM = 15;</code>
          * @return This builder for chaining.
          */
         public Builder clearLMNLLOEFBOM() {
@@ -7666,7 +7666,7 @@ public final class ChatInfoOuterClass {
            }
         }
         /**
-         * <code>repeated uint32 GOFEPGIPJNF = 14;</code>
+         * <code>repeated uint32 GOFEPGIPJNF = 7;</code>
          * @return A list containing the gOFEPGIPJNF.
          */
         public java.util.List<java.lang.Integer>
@@ -7675,14 +7675,14 @@ public final class ChatInfoOuterClass {
                    java.util.Collections.unmodifiableList(gOFEPGIPJNF_) : gOFEPGIPJNF_;
         }
         /**
-         * <code>repeated uint32 GOFEPGIPJNF = 14;</code>
+         * <code>repeated uint32 GOFEPGIPJNF = 7;</code>
          * @return The count of gOFEPGIPJNF.
          */
         public int getGOFEPGIPJNFCount() {
           return gOFEPGIPJNF_.size();
         }
         /**
-         * <code>repeated uint32 GOFEPGIPJNF = 14;</code>
+         * <code>repeated uint32 GOFEPGIPJNF = 7;</code>
          * @param index The index of the element to return.
          * @return The gOFEPGIPJNF at the given index.
          */
@@ -7690,7 +7690,7 @@ public final class ChatInfoOuterClass {
           return gOFEPGIPJNF_.getInt(index);
         }
         /**
-         * <code>repeated uint32 GOFEPGIPJNF = 14;</code>
+         * <code>repeated uint32 GOFEPGIPJNF = 7;</code>
          * @param index The index to set the value at.
          * @param value The gOFEPGIPJNF to set.
          * @return This builder for chaining.
@@ -7703,7 +7703,7 @@ public final class ChatInfoOuterClass {
           return this;
         }
         /**
-         * <code>repeated uint32 GOFEPGIPJNF = 14;</code>
+         * <code>repeated uint32 GOFEPGIPJNF = 7;</code>
          * @param value The gOFEPGIPJNF to add.
          * @return This builder for chaining.
          */
@@ -7714,7 +7714,7 @@ public final class ChatInfoOuterClass {
           return this;
         }
         /**
-         * <code>repeated uint32 GOFEPGIPJNF = 14;</code>
+         * <code>repeated uint32 GOFEPGIPJNF = 7;</code>
          * @param values The gOFEPGIPJNF to add.
          * @return This builder for chaining.
          */
@@ -7727,7 +7727,7 @@ public final class ChatInfoOuterClass {
           return this;
         }
         /**
-         * <code>repeated uint32 GOFEPGIPJNF = 14;</code>
+         * <code>repeated uint32 GOFEPGIPJNF = 7;</code>
          * @return This builder for chaining.
          */
         public Builder clearGOFEPGIPJNF() {
@@ -7739,7 +7739,7 @@ public final class ChatInfoOuterClass {
 
         private long oJDIIPKINNL_ ;
         /**
-         * <code>uint64 OJDIIPKINNL = 15;</code>
+         * <code>uint64 OJDIIPKINNL = 5;</code>
          * @return The oJDIIPKINNL.
          */
         @java.lang.Override
@@ -7747,7 +7747,7 @@ public final class ChatInfoOuterClass {
           return oJDIIPKINNL_;
         }
         /**
-         * <code>uint64 OJDIIPKINNL = 15;</code>
+         * <code>uint64 OJDIIPKINNL = 5;</code>
          * @param value The oJDIIPKINNL to set.
          * @return This builder for chaining.
          */
@@ -7758,7 +7758,7 @@ public final class ChatInfoOuterClass {
           return this;
         }
         /**
-         * <code>uint64 OJDIIPKINNL = 15;</code>
+         * <code>uint64 OJDIIPKINNL = 5;</code>
          * @return This builder for chaining.
          */
         public Builder clearOJDIIPKINNL() {
@@ -7825,7 +7825,7 @@ public final class ChatInfoOuterClass {
     public enum MentionCase
         implements com.google.protobuf.Internal.EnumLite,
             com.google.protobuf.AbstractMessage.InternalOneOfEnum {
-      IS_MENTION_ALL(1),
+      IS_MENTION_ALL(2),
       MENTIONED_UID(12),
       MENTION_NOT_SET(0);
       private final int value;
@@ -7844,7 +7844,7 @@ public final class ChatInfoOuterClass {
 
       public static MentionCase forNumber(int value) {
         switch (value) {
-          case 1: return IS_MENTION_ALL;
+          case 2: return IS_MENTION_ALL;
           case 12: return MENTIONED_UID;
           case 0: return MENTION_NOT_SET;
           default: return null;
@@ -7866,18 +7866,18 @@ public final class ChatInfoOuterClass {
     public enum ContentCase
         implements com.google.protobuf.Internal.EnumLite,
             com.google.protobuf.AbstractMessage.InternalOneOfEnum {
-      BEYOND_TEAM_RECRUITMENT(386),
-      BEYOND_COSTUME_SHARE_CODE(394),
-      ICON(654),
-      BEYOND_ROOM_INVITATION(763),
-      BEYOND_COLLECTION_NEW_CAPTAIN(833),
-      SYSTEM_HINT(934),
-      HALL_INVITATION(1168),
-      TEXT(1275),
-      BEYOND_TEAM_APPLICATION(1351),
-      HALL_RECRUITING_INVITATION(1402),
-      BEYOND_GACHA_GIFT(1496),
-      BEYOND_TEAM_INVITATION(1613),
+      BEYOND_TEAM_RECRUITMENT(686),
+      BEYOND_COSTUME_SHARE_CODE(680),
+      ICON(1448),
+      BEYOND_ROOM_INVITATION(758),
+      BEYOND_COLLECTION_NEW_CAPTAIN(188),
+      SYSTEM_HINT(765),
+      HALL_INVITATION(1815),
+      TEXT(1985),
+      BEYOND_TEAM_APPLICATION(525),
+      HALL_RECRUITING_INVITATION(770),
+      BEYOND_GACHA_GIFT(50000),
+      BEYOND_TEAM_INVITATION(1953),
       CONTENT_NOT_SET(0);
       private final int value;
       private ContentCase(int value) {
@@ -7895,18 +7895,18 @@ public final class ChatInfoOuterClass {
 
       public static ContentCase forNumber(int value) {
         switch (value) {
-          case 386: return BEYOND_TEAM_RECRUITMENT;
-          case 394: return BEYOND_COSTUME_SHARE_CODE;
-          case 654: return ICON;
-          case 763: return BEYOND_ROOM_INVITATION;
-          case 833: return BEYOND_COLLECTION_NEW_CAPTAIN;
-          case 934: return SYSTEM_HINT;
-          case 1168: return HALL_INVITATION;
-          case 1275: return TEXT;
-          case 1351: return BEYOND_TEAM_APPLICATION;
-          case 1402: return HALL_RECRUITING_INVITATION;
-          case 1496: return BEYOND_GACHA_GIFT;
-          case 1613: return BEYOND_TEAM_INVITATION;
+          case 686: return BEYOND_TEAM_RECRUITMENT;
+          case 680: return BEYOND_COSTUME_SHARE_CODE;
+          case 1448: return ICON;
+          case 758: return BEYOND_ROOM_INVITATION;
+          case 188: return BEYOND_COLLECTION_NEW_CAPTAIN;
+          case 765: return SYSTEM_HINT;
+          case 1815: return HALL_INVITATION;
+          case 1985: return TEXT;
+          case 525: return BEYOND_TEAM_APPLICATION;
+          case 770: return HALL_RECRUITING_INVITATION;
+          case 50000: return BEYOND_GACHA_GIFT;
+          case 1953: return BEYOND_TEAM_INVITATION;
           case 0: return CONTENT_NOT_SET;
           default: return null;
         }
@@ -7922,22 +7922,22 @@ public final class ChatInfoOuterClass {
           contentCase_);
     }
 
-    public static final int IS_MENTION_ALL_FIELD_NUMBER = 1;
+    public static final int IS_MENTION_ALL_FIELD_NUMBER = 2;
     /**
-     * <code>bool is_mention_all = 1;</code>
+     * <code>bool is_mention_all = 2;</code>
      * @return Whether the isMentionAll field is set.
      */
     @java.lang.Override
     public boolean hasIsMentionAll() {
-      return mentionCase_ == 1;
+      return mentionCase_ == 2;
     }
     /**
-     * <code>bool is_mention_all = 1;</code>
+     * <code>bool is_mention_all = 2;</code>
      * @return The isMentionAll.
      */
     @java.lang.Override
     public boolean getIsMentionAll() {
-      if (mentionCase_ == 1) {
+      if (mentionCase_ == 2) {
         return (java.lang.Boolean) mention_;
       }
       return false;
@@ -7964,228 +7964,228 @@ public final class ChatInfoOuterClass {
       return 0;
     }
 
-    public static final int BEYOND_TEAM_RECRUITMENT_FIELD_NUMBER = 386;
+    public static final int BEYOND_TEAM_RECRUITMENT_FIELD_NUMBER = 686;
     /**
-     * <code>.ChatInfo._BeyondTeamRecruitment beyond_team_recruitment = 386;</code>
+     * <code>.ChatInfo._BeyondTeamRecruitment beyond_team_recruitment = 686;</code>
      * @return Whether the beyondTeamRecruitment field is set.
      */
     @java.lang.Override
     public boolean hasBeyondTeamRecruitment() {
-      return contentCase_ == 386;
+      return contentCase_ == 686;
     }
     /**
-     * <code>.ChatInfo._BeyondTeamRecruitment beyond_team_recruitment = 386;</code>
+     * <code>.ChatInfo._BeyondTeamRecruitment beyond_team_recruitment = 686;</code>
      * @return The beyondTeamRecruitment.
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitment getBeyondTeamRecruitment() {
-      if (contentCase_ == 386) {
+      if (contentCase_ == 686) {
          return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitment) content_;
       }
       return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitment.getDefaultInstance();
     }
     /**
-     * <code>.ChatInfo._BeyondTeamRecruitment beyond_team_recruitment = 386;</code>
+     * <code>.ChatInfo._BeyondTeamRecruitment beyond_team_recruitment = 686;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitmentOrBuilder getBeyondTeamRecruitmentOrBuilder() {
-      if (contentCase_ == 386) {
+      if (contentCase_ == 686) {
          return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitment) content_;
       }
       return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitment.getDefaultInstance();
     }
 
-    public static final int BEYOND_COSTUME_SHARE_CODE_FIELD_NUMBER = 394;
+    public static final int BEYOND_COSTUME_SHARE_CODE_FIELD_NUMBER = 680;
     /**
-     * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
+     * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 680;</code>
      * @return Whether the beyondCostumeShareCode field is set.
      */
     @java.lang.Override
     public boolean hasBeyondCostumeShareCode() {
-      return contentCase_ == 394;
+      return contentCase_ == 680;
     }
     /**
-     * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
+     * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 680;</code>
      * @return The beyondCostumeShareCode.
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode getBeyondCostumeShareCode() {
-      if (contentCase_ == 394) {
+      if (contentCase_ == 680) {
          return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode) content_;
       }
       return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode.getDefaultInstance();
     }
     /**
-     * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
+     * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 680;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCodeOrBuilder getBeyondCostumeShareCodeOrBuilder() {
-      if (contentCase_ == 394) {
+      if (contentCase_ == 680) {
          return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode) content_;
       }
       return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode.getDefaultInstance();
     }
 
-    public static final int ICON_FIELD_NUMBER = 654;
+    public static final int ICON_FIELD_NUMBER = 1448;
     /**
-     * <code>uint32 icon = 654;</code>
+     * <code>uint32 icon = 1448;</code>
      * @return Whether the icon field is set.
      */
     @java.lang.Override
     public boolean hasIcon() {
-      return contentCase_ == 654;
+      return contentCase_ == 1448;
     }
     /**
-     * <code>uint32 icon = 654;</code>
+     * <code>uint32 icon = 1448;</code>
      * @return The icon.
      */
     @java.lang.Override
     public int getIcon() {
-      if (contentCase_ == 654) {
+      if (contentCase_ == 1448) {
         return (java.lang.Integer) content_;
       }
       return 0;
     }
 
-    public static final int BEYOND_ROOM_INVITATION_FIELD_NUMBER = 763;
+    public static final int BEYOND_ROOM_INVITATION_FIELD_NUMBER = 758;
     /**
-     * <code>.ChatInfo._BeyondRoomInvitation beyond_room_invitation = 763;</code>
+     * <code>.ChatInfo._BeyondRoomInvitation beyond_room_invitation = 758;</code>
      * @return Whether the beyondRoomInvitation field is set.
      */
     @java.lang.Override
     public boolean hasBeyondRoomInvitation() {
-      return contentCase_ == 763;
+      return contentCase_ == 758;
     }
     /**
-     * <code>.ChatInfo._BeyondRoomInvitation beyond_room_invitation = 763;</code>
+     * <code>.ChatInfo._BeyondRoomInvitation beyond_room_invitation = 758;</code>
      * @return The beyondRoomInvitation.
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitation getBeyondRoomInvitation() {
-      if (contentCase_ == 763) {
+      if (contentCase_ == 758) {
          return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitation) content_;
       }
       return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitation.getDefaultInstance();
     }
     /**
-     * <code>.ChatInfo._BeyondRoomInvitation beyond_room_invitation = 763;</code>
+     * <code>.ChatInfo._BeyondRoomInvitation beyond_room_invitation = 758;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitationOrBuilder getBeyondRoomInvitationOrBuilder() {
-      if (contentCase_ == 763) {
+      if (contentCase_ == 758) {
          return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitation) content_;
       }
       return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitation.getDefaultInstance();
     }
 
-    public static final int BEYOND_COLLECTION_NEW_CAPTAIN_FIELD_NUMBER = 833;
+    public static final int BEYOND_COLLECTION_NEW_CAPTAIN_FIELD_NUMBER = 188;
     /**
-     * <code>.ChatInfo._BeyondCollectionNewCaptain beyond_collection_new_captain = 833;</code>
+     * <code>.ChatInfo._BeyondCollectionNewCaptain beyond_collection_new_captain = 188;</code>
      * @return Whether the beyondCollectionNewCaptain field is set.
      */
     @java.lang.Override
     public boolean hasBeyondCollectionNewCaptain() {
-      return contentCase_ == 833;
+      return contentCase_ == 188;
     }
     /**
-     * <code>.ChatInfo._BeyondCollectionNewCaptain beyond_collection_new_captain = 833;</code>
+     * <code>.ChatInfo._BeyondCollectionNewCaptain beyond_collection_new_captain = 188;</code>
      * @return The beyondCollectionNewCaptain.
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCollectionNewCaptain getBeyondCollectionNewCaptain() {
-      if (contentCase_ == 833) {
+      if (contentCase_ == 188) {
          return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCollectionNewCaptain) content_;
       }
       return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCollectionNewCaptain.getDefaultInstance();
     }
     /**
-     * <code>.ChatInfo._BeyondCollectionNewCaptain beyond_collection_new_captain = 833;</code>
+     * <code>.ChatInfo._BeyondCollectionNewCaptain beyond_collection_new_captain = 188;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCollectionNewCaptainOrBuilder getBeyondCollectionNewCaptainOrBuilder() {
-      if (contentCase_ == 833) {
+      if (contentCase_ == 188) {
          return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCollectionNewCaptain) content_;
       }
       return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCollectionNewCaptain.getDefaultInstance();
     }
 
-    public static final int SYSTEM_HINT_FIELD_NUMBER = 934;
+    public static final int SYSTEM_HINT_FIELD_NUMBER = 765;
     /**
-     * <code>.ChatInfo.SystemHint system_hint = 934;</code>
+     * <code>.ChatInfo.SystemHint system_hint = 765;</code>
      * @return Whether the systemHint field is set.
      */
     @java.lang.Override
     public boolean hasSystemHint() {
-      return contentCase_ == 934;
+      return contentCase_ == 765;
     }
     /**
-     * <code>.ChatInfo.SystemHint system_hint = 934;</code>
+     * <code>.ChatInfo.SystemHint system_hint = 765;</code>
      * @return The systemHint.
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint getSystemHint() {
-      if (contentCase_ == 934) {
+      if (contentCase_ == 765) {
          return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint) content_;
       }
       return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint.getDefaultInstance();
     }
     /**
-     * <code>.ChatInfo.SystemHint system_hint = 934;</code>
+     * <code>.ChatInfo.SystemHint system_hint = 765;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHintOrBuilder getSystemHintOrBuilder() {
-      if (contentCase_ == 934) {
+      if (contentCase_ == 765) {
          return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint) content_;
       }
       return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint.getDefaultInstance();
     }
 
-    public static final int HALL_INVITATION_FIELD_NUMBER = 1168;
+    public static final int HALL_INVITATION_FIELD_NUMBER = 1815;
     /**
-     * <code>.ChatInfo._HallInvitation hall_invitation = 1168;</code>
+     * <code>.ChatInfo._HallInvitation hall_invitation = 1815;</code>
      * @return Whether the hallInvitation field is set.
      */
     @java.lang.Override
     public boolean hasHallInvitation() {
-      return contentCase_ == 1168;
+      return contentCase_ == 1815;
     }
     /**
-     * <code>.ChatInfo._HallInvitation hall_invitation = 1168;</code>
+     * <code>.ChatInfo._HallInvitation hall_invitation = 1815;</code>
      * @return The hallInvitation.
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitation getHallInvitation() {
-      if (contentCase_ == 1168) {
+      if (contentCase_ == 1815) {
          return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitation) content_;
       }
       return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitation.getDefaultInstance();
     }
     /**
-     * <code>.ChatInfo._HallInvitation hall_invitation = 1168;</code>
+     * <code>.ChatInfo._HallInvitation hall_invitation = 1815;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitationOrBuilder getHallInvitationOrBuilder() {
-      if (contentCase_ == 1168) {
+      if (contentCase_ == 1815) {
          return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitation) content_;
       }
       return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitation.getDefaultInstance();
     }
 
-    public static final int TEXT_FIELD_NUMBER = 1275;
+    public static final int TEXT_FIELD_NUMBER = 1985;
     /**
-     * <code>string text = 1275;</code>
+     * <code>string text = 1985;</code>
      * @return Whether the text field is set.
      */
     public boolean hasText() {
-      return contentCase_ == 1275;
+      return contentCase_ == 1985;
     }
     /**
-     * <code>string text = 1275;</code>
+     * <code>string text = 1985;</code>
      * @return The text.
      */
     public java.lang.String getText() {
       java.lang.Object ref = "";
-      if (contentCase_ == 1275) {
+      if (contentCase_ == 1985) {
         ref = content_;
       }
       if (ref instanceof java.lang.String) {
@@ -8194,27 +8194,27 @@ public final class ChatInfoOuterClass {
         com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
-        if (contentCase_ == 1275) {
+        if (contentCase_ == 1985) {
           content_ = s;
         }
         return s;
       }
     }
     /**
-     * <code>string text = 1275;</code>
+     * <code>string text = 1985;</code>
      * @return The bytes for text.
      */
     public com.google.protobuf.ByteString
         getTextBytes() {
       java.lang.Object ref = "";
-      if (contentCase_ == 1275) {
+      if (contentCase_ == 1985) {
         ref = content_;
       }
       if (ref instanceof java.lang.String) {
         com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
-        if (contentCase_ == 1275) {
+        if (contentCase_ == 1985) {
           content_ = b;
         }
         return b;
@@ -8223,134 +8223,134 @@ public final class ChatInfoOuterClass {
       }
     }
 
-    public static final int BEYOND_TEAM_APPLICATION_FIELD_NUMBER = 1351;
+    public static final int BEYOND_TEAM_APPLICATION_FIELD_NUMBER = 525;
     /**
-     * <code>.ChatInfo._BeyondTeamApplication beyond_team_application = 1351;</code>
+     * <code>.ChatInfo._BeyondTeamApplication beyond_team_application = 525;</code>
      * @return Whether the beyondTeamApplication field is set.
      */
     @java.lang.Override
     public boolean hasBeyondTeamApplication() {
-      return contentCase_ == 1351;
+      return contentCase_ == 525;
     }
     /**
-     * <code>.ChatInfo._BeyondTeamApplication beyond_team_application = 1351;</code>
+     * <code>.ChatInfo._BeyondTeamApplication beyond_team_application = 525;</code>
      * @return The beyondTeamApplication.
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplication getBeyondTeamApplication() {
-      if (contentCase_ == 1351) {
+      if (contentCase_ == 525) {
          return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplication) content_;
       }
       return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplication.getDefaultInstance();
     }
     /**
-     * <code>.ChatInfo._BeyondTeamApplication beyond_team_application = 1351;</code>
+     * <code>.ChatInfo._BeyondTeamApplication beyond_team_application = 525;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplicationOrBuilder getBeyondTeamApplicationOrBuilder() {
-      if (contentCase_ == 1351) {
+      if (contentCase_ == 525) {
          return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplication) content_;
       }
       return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplication.getDefaultInstance();
     }
 
-    public static final int HALL_RECRUITING_INVITATION_FIELD_NUMBER = 1402;
+    public static final int HALL_RECRUITING_INVITATION_FIELD_NUMBER = 770;
     /**
-     * <code>.ChatInfo._HallRecruitingInvitation hall_recruiting_invitation = 1402;</code>
+     * <code>.ChatInfo._HallRecruitingInvitation hall_recruiting_invitation = 770;</code>
      * @return Whether the hallRecruitingInvitation field is set.
      */
     @java.lang.Override
     public boolean hasHallRecruitingInvitation() {
-      return contentCase_ == 1402;
+      return contentCase_ == 770;
     }
     /**
-     * <code>.ChatInfo._HallRecruitingInvitation hall_recruiting_invitation = 1402;</code>
+     * <code>.ChatInfo._HallRecruitingInvitation hall_recruiting_invitation = 770;</code>
      * @return The hallRecruitingInvitation.
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallRecruitingInvitation getHallRecruitingInvitation() {
-      if (contentCase_ == 1402) {
+      if (contentCase_ == 770) {
          return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallRecruitingInvitation) content_;
       }
       return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallRecruitingInvitation.getDefaultInstance();
     }
     /**
-     * <code>.ChatInfo._HallRecruitingInvitation hall_recruiting_invitation = 1402;</code>
+     * <code>.ChatInfo._HallRecruitingInvitation hall_recruiting_invitation = 770;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallRecruitingInvitationOrBuilder getHallRecruitingInvitationOrBuilder() {
-      if (contentCase_ == 1402) {
+      if (contentCase_ == 770) {
          return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallRecruitingInvitation) content_;
       }
       return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallRecruitingInvitation.getDefaultInstance();
     }
 
-    public static final int BEYOND_GACHA_GIFT_FIELD_NUMBER = 1496;
+    public static final int BEYOND_GACHA_GIFT_FIELD_NUMBER = 50000;
     /**
-     * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 1496;</code>
+     * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 50000;</code>
      * @return Whether the beyondGachaGift field is set.
      */
     @java.lang.Override
     public boolean hasBeyondGachaGift() {
-      return contentCase_ == 1496;
+      return contentCase_ == 50000;
     }
     /**
-     * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 1496;</code>
+     * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 50000;</code>
      * @return The beyondGachaGift.
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift getBeyondGachaGift() {
-      if (contentCase_ == 1496) {
+      if (contentCase_ == 50000) {
          return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift) content_;
       }
       return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift.getDefaultInstance();
     }
     /**
-     * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 1496;</code>
+     * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 50000;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGiftOrBuilder getBeyondGachaGiftOrBuilder() {
-      if (contentCase_ == 1496) {
+      if (contentCase_ == 50000) {
          return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift) content_;
       }
       return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift.getDefaultInstance();
     }
 
-    public static final int BEYOND_TEAM_INVITATION_FIELD_NUMBER = 1613;
+    public static final int BEYOND_TEAM_INVITATION_FIELD_NUMBER = 1953;
     /**
-     * <code>.ChatInfo._BeyondTeamInvitation beyond_team_invitation = 1613;</code>
+     * <code>.ChatInfo._BeyondTeamInvitation beyond_team_invitation = 1953;</code>
      * @return Whether the beyondTeamInvitation field is set.
      */
     @java.lang.Override
     public boolean hasBeyondTeamInvitation() {
-      return contentCase_ == 1613;
+      return contentCase_ == 1953;
     }
     /**
-     * <code>.ChatInfo._BeyondTeamInvitation beyond_team_invitation = 1613;</code>
+     * <code>.ChatInfo._BeyondTeamInvitation beyond_team_invitation = 1953;</code>
      * @return The beyondTeamInvitation.
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamInvitation getBeyondTeamInvitation() {
-      if (contentCase_ == 1613) {
+      if (contentCase_ == 1953) {
          return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamInvitation) content_;
       }
       return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamInvitation.getDefaultInstance();
     }
     /**
-     * <code>.ChatInfo._BeyondTeamInvitation beyond_team_invitation = 1613;</code>
+     * <code>.ChatInfo._BeyondTeamInvitation beyond_team_invitation = 1953;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamInvitationOrBuilder getBeyondTeamInvitationOrBuilder() {
-      if (contentCase_ == 1613) {
+      if (contentCase_ == 1953) {
          return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamInvitation) content_;
       }
       return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamInvitation.getDefaultInstance();
     }
 
-    public static final int _XUID_FIELD_NUMBER = 2;
+    public static final int _XUID_FIELD_NUMBER = 13;
     private volatile java.lang.Object Xuid_;
     /**
-     * <code>string _xuid = 2;</code>
+     * <code>string _xuid = 13;</code>
      * @return The xuid.
      */
     @java.lang.Override
@@ -8367,7 +8367,7 @@ public final class ChatInfoOuterClass {
       }
     }
     /**
-     * <code>string _xuid = 2;</code>
+     * <code>string _xuid = 13;</code>
      * @return The bytes for xuid.
      */
     @java.lang.Override
@@ -8385,10 +8385,10 @@ public final class ChatInfoOuterClass {
       }
     }
 
-    public static final int TO_UID_FIELD_NUMBER = 3;
+    public static final int TO_UID_FIELD_NUMBER = 9;
     private int toUid_;
     /**
-     * <code>uint32 to_uid = 3;</code>
+     * <code>uint32 to_uid = 9;</code>
      * @return The toUid.
      */
     @java.lang.Override
@@ -8396,10 +8396,10 @@ public final class ChatInfoOuterClass {
       return toUid_;
     }
 
-    public static final int ALKIPKCAPFL_FIELD_NUMBER = 5;
+    public static final int ALKIPKCAPFL_FIELD_NUMBER = 8;
     private int aLKIPKCAPFL_;
     /**
-     * <code>uint32 ALKIPKCAPFL = 5;</code>
+     * <code>uint32 ALKIPKCAPFL = 8;</code>
      * @return The aLKIPKCAPFL.
      */
     @java.lang.Override
@@ -8407,10 +8407,10 @@ public final class ChatInfoOuterClass {
       return aLKIPKCAPFL_;
     }
 
-    public static final int PLATFORM_TYPE_FIELD_NUMBER = 7;
+    public static final int PLATFORM_TYPE_FIELD_NUMBER = 4;
     private int platformType_;
     /**
-     * <code>uint32 platform_type = 7;</code>
+     * <code>uint32 platform_type = 4;</code>
      * @return The platformType.
      */
     @java.lang.Override
@@ -8418,10 +8418,10 @@ public final class ChatInfoOuterClass {
       return platformType_;
     }
 
-    public static final int UID_FIELD_NUMBER = 8;
+    public static final int UID_FIELD_NUMBER = 5;
     private int uid_;
     /**
-     * <code>uint32 uid = 8;</code>
+     * <code>uint32 uid = 5;</code>
      * @return The uid.
      */
     @java.lang.Override
@@ -8429,10 +8429,10 @@ public final class ChatInfoOuterClass {
       return uid_;
     }
 
-    public static final int TIME_FIELD_NUMBER = 9;
+    public static final int TIME_FIELD_NUMBER = 1;
     private int time_;
     /**
-     * <code>uint32 time = 9;</code>
+     * <code>uint32 time = 1;</code>
      * @return The time.
      */
     @java.lang.Override
@@ -8440,10 +8440,10 @@ public final class ChatInfoOuterClass {
       return time_;
     }
 
-    public static final int OIEHJMHHCFB_FIELD_NUMBER = 10;
+    public static final int OIEHJMHHCFB_FIELD_NUMBER = 15;
     private long oIEHJMHHCFB_;
     /**
-     * <code>uint64 OIEHJMHHCFB = 10;</code>
+     * <code>uint64 OIEHJMHHCFB = 15;</code>
      * @return The oIEHJMHHCFB.
      */
     @java.lang.Override
@@ -8451,10 +8451,10 @@ public final class ChatInfoOuterClass {
       return oIEHJMHHCFB_;
     }
 
-    public static final int IS_READ_FIELD_NUMBER = 13;
+    public static final int IS_READ_FIELD_NUMBER = 3;
     private boolean isRead_;
     /**
-     * <code>bool is_read = 13;</code>
+     * <code>bool is_read = 3;</code>
      * @return The isRead.
      */
     @java.lang.Override
@@ -8462,10 +8462,10 @@ public final class ChatInfoOuterClass {
       return isRead_;
     }
 
-    public static final int SEQUENCE_FIELD_NUMBER = 15;
+    public static final int SEQUENCE_FIELD_NUMBER = 6;
     private int sequence_;
     /**
-     * <code>uint32 sequence = 15;</code>
+     * <code>uint32 sequence = 6;</code>
      * @return The sequence.
      */
     @java.lang.Override
@@ -8487,77 +8487,77 @@ public final class ChatInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (mentionCase_ == 1) {
+      if (time_ != 0) {
+        output.writeUInt32(1, time_);
+      }
+      if (mentionCase_ == 2) {
         output.writeBool(
-            1, (boolean)((java.lang.Boolean) mention_));
+            2, (boolean)((java.lang.Boolean) mention_));
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(Xuid_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 2, Xuid_);
-      }
-      if (toUid_ != 0) {
-        output.writeUInt32(3, toUid_);
-      }
-      if (aLKIPKCAPFL_ != 0) {
-        output.writeUInt32(5, aLKIPKCAPFL_);
+      if (isRead_ != false) {
+        output.writeBool(3, isRead_);
       }
       if (platformType_ != 0) {
-        output.writeUInt32(7, platformType_);
+        output.writeUInt32(4, platformType_);
       }
       if (uid_ != 0) {
-        output.writeUInt32(8, uid_);
+        output.writeUInt32(5, uid_);
       }
-      if (time_ != 0) {
-        output.writeUInt32(9, time_);
+      if (sequence_ != 0) {
+        output.writeUInt32(6, sequence_);
       }
-      if (oIEHJMHHCFB_ != 0L) {
-        output.writeUInt64(10, oIEHJMHHCFB_);
+      if (aLKIPKCAPFL_ != 0) {
+        output.writeUInt32(8, aLKIPKCAPFL_);
+      }
+      if (toUid_ != 0) {
+        output.writeUInt32(9, toUid_);
       }
       if (mentionCase_ == 12) {
         output.writeUInt32(
             12, (int)((java.lang.Integer) mention_));
       }
-      if (isRead_ != false) {
-        output.writeBool(13, isRead_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(Xuid_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 13, Xuid_);
       }
-      if (sequence_ != 0) {
-        output.writeUInt32(15, sequence_);
+      if (oIEHJMHHCFB_ != 0L) {
+        output.writeUInt64(15, oIEHJMHHCFB_);
       }
-      if (contentCase_ == 386) {
-        output.writeMessage(386, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitment) content_);
+      if (contentCase_ == 188) {
+        output.writeMessage(188, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCollectionNewCaptain) content_);
       }
-      if (contentCase_ == 394) {
-        output.writeMessage(394, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode) content_);
+      if (contentCase_ == 525) {
+        output.writeMessage(525, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplication) content_);
       }
-      if (contentCase_ == 654) {
+      if (contentCase_ == 680) {
+        output.writeMessage(680, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode) content_);
+      }
+      if (contentCase_ == 686) {
+        output.writeMessage(686, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitment) content_);
+      }
+      if (contentCase_ == 758) {
+        output.writeMessage(758, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitation) content_);
+      }
+      if (contentCase_ == 765) {
+        output.writeMessage(765, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint) content_);
+      }
+      if (contentCase_ == 770) {
+        output.writeMessage(770, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallRecruitingInvitation) content_);
+      }
+      if (contentCase_ == 1448) {
         output.writeUInt32(
-            654, (int)((java.lang.Integer) content_));
+            1448, (int)((java.lang.Integer) content_));
       }
-      if (contentCase_ == 763) {
-        output.writeMessage(763, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitation) content_);
+      if (contentCase_ == 1815) {
+        output.writeMessage(1815, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitation) content_);
       }
-      if (contentCase_ == 833) {
-        output.writeMessage(833, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCollectionNewCaptain) content_);
+      if (contentCase_ == 1953) {
+        output.writeMessage(1953, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamInvitation) content_);
       }
-      if (contentCase_ == 934) {
-        output.writeMessage(934, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint) content_);
+      if (contentCase_ == 1985) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 1985, content_);
       }
-      if (contentCase_ == 1168) {
-        output.writeMessage(1168, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitation) content_);
-      }
-      if (contentCase_ == 1275) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 1275, content_);
-      }
-      if (contentCase_ == 1351) {
-        output.writeMessage(1351, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplication) content_);
-      }
-      if (contentCase_ == 1402) {
-        output.writeMessage(1402, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallRecruitingInvitation) content_);
-      }
-      if (contentCase_ == 1496) {
-        output.writeMessage(1496, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift) content_);
-      }
-      if (contentCase_ == 1613) {
-        output.writeMessage(1613, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamInvitation) content_);
+      if (contentCase_ == 50000) {
+        output.writeMessage(50000, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift) content_);
       }
       unknownFields.writeTo(output);
     }
@@ -8568,98 +8568,98 @@ public final class ChatInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (mentionCase_ == 1) {
+      if (time_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(1, time_);
+      }
+      if (mentionCase_ == 2) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(
-              1, (boolean)((java.lang.Boolean) mention_));
+              2, (boolean)((java.lang.Boolean) mention_));
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(Xuid_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(2, Xuid_);
-      }
-      if (toUid_ != 0) {
+      if (isRead_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, toUid_);
-      }
-      if (aLKIPKCAPFL_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, aLKIPKCAPFL_);
+          .computeBoolSize(3, isRead_);
       }
       if (platformType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, platformType_);
+          .computeUInt32Size(4, platformType_);
       }
       if (uid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, uid_);
+          .computeUInt32Size(5, uid_);
       }
-      if (time_ != 0) {
+      if (sequence_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, time_);
+          .computeUInt32Size(6, sequence_);
       }
-      if (oIEHJMHHCFB_ != 0L) {
+      if (aLKIPKCAPFL_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(10, oIEHJMHHCFB_);
+          .computeUInt32Size(8, aLKIPKCAPFL_);
+      }
+      if (toUid_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(9, toUid_);
       }
       if (mentionCase_ == 12) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(
               12, (int)((java.lang.Integer) mention_));
       }
-      if (isRead_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(13, isRead_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(Xuid_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(13, Xuid_);
       }
-      if (sequence_ != 0) {
+      if (oIEHJMHHCFB_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, sequence_);
+          .computeUInt64Size(15, oIEHJMHHCFB_);
       }
-      if (contentCase_ == 386) {
+      if (contentCase_ == 188) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(386, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitment) content_);
+          .computeMessageSize(188, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCollectionNewCaptain) content_);
       }
-      if (contentCase_ == 394) {
+      if (contentCase_ == 525) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(394, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode) content_);
+          .computeMessageSize(525, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplication) content_);
       }
-      if (contentCase_ == 654) {
+      if (contentCase_ == 680) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(680, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode) content_);
+      }
+      if (contentCase_ == 686) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(686, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitment) content_);
+      }
+      if (contentCase_ == 758) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(758, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitation) content_);
+      }
+      if (contentCase_ == 765) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(765, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint) content_);
+      }
+      if (contentCase_ == 770) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(770, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallRecruitingInvitation) content_);
+      }
+      if (contentCase_ == 1448) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(
-              654, (int)((java.lang.Integer) content_));
+              1448, (int)((java.lang.Integer) content_));
       }
-      if (contentCase_ == 763) {
+      if (contentCase_ == 1815) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(763, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitation) content_);
+          .computeMessageSize(1815, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitation) content_);
       }
-      if (contentCase_ == 833) {
+      if (contentCase_ == 1953) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(833, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCollectionNewCaptain) content_);
+          .computeMessageSize(1953, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamInvitation) content_);
       }
-      if (contentCase_ == 934) {
+      if (contentCase_ == 1985) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1985, content_);
+      }
+      if (contentCase_ == 50000) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(934, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint) content_);
-      }
-      if (contentCase_ == 1168) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1168, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitation) content_);
-      }
-      if (contentCase_ == 1275) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1275, content_);
-      }
-      if (contentCase_ == 1351) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1351, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplication) content_);
-      }
-      if (contentCase_ == 1402) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1402, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallRecruitingInvitation) content_);
-      }
-      if (contentCase_ == 1496) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1496, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift) content_);
-      }
-      if (contentCase_ == 1613) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1613, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamInvitation) content_);
+          .computeMessageSize(50000, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift) content_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -8696,7 +8696,7 @@ public final class ChatInfoOuterClass {
           != other.getSequence()) return false;
       if (!getMentionCase().equals(other.getMentionCase())) return false;
       switch (mentionCase_) {
-        case 1:
+        case 2:
           if (getIsMentionAll()
               != other.getIsMentionAll()) return false;
           break;
@@ -8709,51 +8709,51 @@ public final class ChatInfoOuterClass {
       }
       if (!getContentCase().equals(other.getContentCase())) return false;
       switch (contentCase_) {
-        case 386:
+        case 686:
           if (!getBeyondTeamRecruitment()
               .equals(other.getBeyondTeamRecruitment())) return false;
           break;
-        case 394:
+        case 680:
           if (!getBeyondCostumeShareCode()
               .equals(other.getBeyondCostumeShareCode())) return false;
           break;
-        case 654:
+        case 1448:
           if (getIcon()
               != other.getIcon()) return false;
           break;
-        case 763:
+        case 758:
           if (!getBeyondRoomInvitation()
               .equals(other.getBeyondRoomInvitation())) return false;
           break;
-        case 833:
+        case 188:
           if (!getBeyondCollectionNewCaptain()
               .equals(other.getBeyondCollectionNewCaptain())) return false;
           break;
-        case 934:
+        case 765:
           if (!getSystemHint()
               .equals(other.getSystemHint())) return false;
           break;
-        case 1168:
+        case 1815:
           if (!getHallInvitation()
               .equals(other.getHallInvitation())) return false;
           break;
-        case 1275:
+        case 1985:
           if (!getText()
               .equals(other.getText())) return false;
           break;
-        case 1351:
+        case 525:
           if (!getBeyondTeamApplication()
               .equals(other.getBeyondTeamApplication())) return false;
           break;
-        case 1402:
+        case 770:
           if (!getHallRecruitingInvitation()
               .equals(other.getHallRecruitingInvitation())) return false;
           break;
-        case 1496:
+        case 50000:
           if (!getBeyondGachaGift()
               .equals(other.getBeyondGachaGift())) return false;
           break;
-        case 1613:
+        case 1953:
           if (!getBeyondTeamInvitation()
               .equals(other.getBeyondTeamInvitation())) return false;
           break;
@@ -8792,7 +8792,7 @@ public final class ChatInfoOuterClass {
       hash = (37 * hash) + SEQUENCE_FIELD_NUMBER;
       hash = (53 * hash) + getSequence();
       switch (mentionCase_) {
-        case 1:
+        case 2:
           hash = (37 * hash) + IS_MENTION_ALL_FIELD_NUMBER;
           hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
               getIsMentionAll());
@@ -8805,51 +8805,51 @@ public final class ChatInfoOuterClass {
         default:
       }
       switch (contentCase_) {
-        case 386:
+        case 686:
           hash = (37 * hash) + BEYOND_TEAM_RECRUITMENT_FIELD_NUMBER;
           hash = (53 * hash) + getBeyondTeamRecruitment().hashCode();
           break;
-        case 394:
+        case 680:
           hash = (37 * hash) + BEYOND_COSTUME_SHARE_CODE_FIELD_NUMBER;
           hash = (53 * hash) + getBeyondCostumeShareCode().hashCode();
           break;
-        case 654:
+        case 1448:
           hash = (37 * hash) + ICON_FIELD_NUMBER;
           hash = (53 * hash) + getIcon();
           break;
-        case 763:
+        case 758:
           hash = (37 * hash) + BEYOND_ROOM_INVITATION_FIELD_NUMBER;
           hash = (53 * hash) + getBeyondRoomInvitation().hashCode();
           break;
-        case 833:
+        case 188:
           hash = (37 * hash) + BEYOND_COLLECTION_NEW_CAPTAIN_FIELD_NUMBER;
           hash = (53 * hash) + getBeyondCollectionNewCaptain().hashCode();
           break;
-        case 934:
+        case 765:
           hash = (37 * hash) + SYSTEM_HINT_FIELD_NUMBER;
           hash = (53 * hash) + getSystemHint().hashCode();
           break;
-        case 1168:
+        case 1815:
           hash = (37 * hash) + HALL_INVITATION_FIELD_NUMBER;
           hash = (53 * hash) + getHallInvitation().hashCode();
           break;
-        case 1275:
+        case 1985:
           hash = (37 * hash) + TEXT_FIELD_NUMBER;
           hash = (53 * hash) + getText().hashCode();
           break;
-        case 1351:
+        case 525:
           hash = (37 * hash) + BEYOND_TEAM_APPLICATION_FIELD_NUMBER;
           hash = (53 * hash) + getBeyondTeamApplication().hashCode();
           break;
-        case 1402:
+        case 770:
           hash = (37 * hash) + HALL_RECRUITING_INVITATION_FIELD_NUMBER;
           hash = (53 * hash) + getHallRecruitingInvitation().hashCode();
           break;
-        case 1496:
+        case 50000:
           hash = (37 * hash) + BEYOND_GACHA_GIFT_FIELD_NUMBER;
           hash = (53 * hash) + getBeyondGachaGift().hashCode();
           break;
-        case 1613:
+        case 1953:
           hash = (37 * hash) + BEYOND_TEAM_INVITATION_FIELD_NUMBER;
           hash = (53 * hash) + getBeyondTeamInvitation().hashCode();
           break;
@@ -9037,82 +9037,82 @@ public final class ChatInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo buildPartial() {
         emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo result = new emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo(this);
-        if (mentionCase_ == 1) {
+        if (mentionCase_ == 2) {
           result.mention_ = mention_;
         }
         if (mentionCase_ == 12) {
           result.mention_ = mention_;
         }
-        if (contentCase_ == 386) {
+        if (contentCase_ == 686) {
           if (beyondTeamRecruitmentBuilder_ == null) {
             result.content_ = content_;
           } else {
             result.content_ = beyondTeamRecruitmentBuilder_.build();
           }
         }
-        if (contentCase_ == 394) {
+        if (contentCase_ == 680) {
           if (beyondCostumeShareCodeBuilder_ == null) {
             result.content_ = content_;
           } else {
             result.content_ = beyondCostumeShareCodeBuilder_.build();
           }
         }
-        if (contentCase_ == 654) {
+        if (contentCase_ == 1448) {
           result.content_ = content_;
         }
-        if (contentCase_ == 763) {
+        if (contentCase_ == 758) {
           if (beyondRoomInvitationBuilder_ == null) {
             result.content_ = content_;
           } else {
             result.content_ = beyondRoomInvitationBuilder_.build();
           }
         }
-        if (contentCase_ == 833) {
+        if (contentCase_ == 188) {
           if (beyondCollectionNewCaptainBuilder_ == null) {
             result.content_ = content_;
           } else {
             result.content_ = beyondCollectionNewCaptainBuilder_.build();
           }
         }
-        if (contentCase_ == 934) {
+        if (contentCase_ == 765) {
           if (systemHintBuilder_ == null) {
             result.content_ = content_;
           } else {
             result.content_ = systemHintBuilder_.build();
           }
         }
-        if (contentCase_ == 1168) {
+        if (contentCase_ == 1815) {
           if (hallInvitationBuilder_ == null) {
             result.content_ = content_;
           } else {
             result.content_ = hallInvitationBuilder_.build();
           }
         }
-        if (contentCase_ == 1275) {
+        if (contentCase_ == 1985) {
           result.content_ = content_;
         }
-        if (contentCase_ == 1351) {
+        if (contentCase_ == 525) {
           if (beyondTeamApplicationBuilder_ == null) {
             result.content_ = content_;
           } else {
             result.content_ = beyondTeamApplicationBuilder_.build();
           }
         }
-        if (contentCase_ == 1402) {
+        if (contentCase_ == 770) {
           if (hallRecruitingInvitationBuilder_ == null) {
             result.content_ = content_;
           } else {
             result.content_ = hallRecruitingInvitationBuilder_.build();
           }
         }
-        if (contentCase_ == 1496) {
+        if (contentCase_ == 50000) {
           if (beyondGachaGiftBuilder_ == null) {
             result.content_ = content_;
           } else {
             result.content_ = beyondGachaGiftBuilder_.build();
           }
         }
-        if (contentCase_ == 1613) {
+        if (contentCase_ == 1953) {
           if (beyondTeamInvitationBuilder_ == null) {
             result.content_ = content_;
           } else {
@@ -9249,7 +9249,7 @@ public final class ChatInfoOuterClass {
             break;
           }
           case TEXT: {
-            contentCase_ = 1275;
+            contentCase_ = 1985;
             content_ = other.content_;
             onChanged();
             break;
@@ -9334,39 +9334,39 @@ public final class ChatInfoOuterClass {
 
 
       /**
-       * <code>bool is_mention_all = 1;</code>
+       * <code>bool is_mention_all = 2;</code>
        * @return Whether the isMentionAll field is set.
        */
       public boolean hasIsMentionAll() {
-        return mentionCase_ == 1;
+        return mentionCase_ == 2;
       }
       /**
-       * <code>bool is_mention_all = 1;</code>
+       * <code>bool is_mention_all = 2;</code>
        * @return The isMentionAll.
        */
       public boolean getIsMentionAll() {
-        if (mentionCase_ == 1) {
+        if (mentionCase_ == 2) {
           return (java.lang.Boolean) mention_;
         }
         return false;
       }
       /**
-       * <code>bool is_mention_all = 1;</code>
+       * <code>bool is_mention_all = 2;</code>
        * @param value The isMentionAll to set.
        * @return This builder for chaining.
        */
       public Builder setIsMentionAll(boolean value) {
-        mentionCase_ = 1;
+        mentionCase_ = 2;
         mention_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool is_mention_all = 1;</code>
+       * <code>bool is_mention_all = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsMentionAll() {
-        if (mentionCase_ == 1) {
+        if (mentionCase_ == 2) {
           mentionCase_ = 0;
           mention_ = null;
           onChanged();
@@ -9418,33 +9418,33 @@ public final class ChatInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitment, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitment.Builder, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitmentOrBuilder> beyondTeamRecruitmentBuilder_;
       /**
-       * <code>.ChatInfo._BeyondTeamRecruitment beyond_team_recruitment = 386;</code>
+       * <code>.ChatInfo._BeyondTeamRecruitment beyond_team_recruitment = 686;</code>
        * @return Whether the beyondTeamRecruitment field is set.
        */
       @java.lang.Override
       public boolean hasBeyondTeamRecruitment() {
-        return contentCase_ == 386;
+        return contentCase_ == 686;
       }
       /**
-       * <code>.ChatInfo._BeyondTeamRecruitment beyond_team_recruitment = 386;</code>
+       * <code>.ChatInfo._BeyondTeamRecruitment beyond_team_recruitment = 686;</code>
        * @return The beyondTeamRecruitment.
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitment getBeyondTeamRecruitment() {
         if (beyondTeamRecruitmentBuilder_ == null) {
-          if (contentCase_ == 386) {
+          if (contentCase_ == 686) {
             return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitment) content_;
           }
           return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitment.getDefaultInstance();
         } else {
-          if (contentCase_ == 386) {
+          if (contentCase_ == 686) {
             return beyondTeamRecruitmentBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitment.getDefaultInstance();
         }
       }
       /**
-       * <code>.ChatInfo._BeyondTeamRecruitment beyond_team_recruitment = 386;</code>
+       * <code>.ChatInfo._BeyondTeamRecruitment beyond_team_recruitment = 686;</code>
        */
       public Builder setBeyondTeamRecruitment(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitment value) {
         if (beyondTeamRecruitmentBuilder_ == null) {
@@ -9456,11 +9456,11 @@ public final class ChatInfoOuterClass {
         } else {
           beyondTeamRecruitmentBuilder_.setMessage(value);
         }
-        contentCase_ = 386;
+        contentCase_ = 686;
         return this;
       }
       /**
-       * <code>.ChatInfo._BeyondTeamRecruitment beyond_team_recruitment = 386;</code>
+       * <code>.ChatInfo._BeyondTeamRecruitment beyond_team_recruitment = 686;</code>
        */
       public Builder setBeyondTeamRecruitment(
           emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitment.Builder builderForValue) {
@@ -9470,15 +9470,15 @@ public final class ChatInfoOuterClass {
         } else {
           beyondTeamRecruitmentBuilder_.setMessage(builderForValue.build());
         }
-        contentCase_ = 386;
+        contentCase_ = 686;
         return this;
       }
       /**
-       * <code>.ChatInfo._BeyondTeamRecruitment beyond_team_recruitment = 386;</code>
+       * <code>.ChatInfo._BeyondTeamRecruitment beyond_team_recruitment = 686;</code>
        */
       public Builder mergeBeyondTeamRecruitment(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitment value) {
         if (beyondTeamRecruitmentBuilder_ == null) {
-          if (contentCase_ == 386 &&
+          if (contentCase_ == 686 &&
               content_ != emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitment.getDefaultInstance()) {
             content_ = emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitment.newBuilder((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitment) content_)
                 .mergeFrom(value).buildPartial();
@@ -9487,26 +9487,26 @@ public final class ChatInfoOuterClass {
           }
           onChanged();
         } else {
-          if (contentCase_ == 386) {
+          if (contentCase_ == 686) {
             beyondTeamRecruitmentBuilder_.mergeFrom(value);
           }
           beyondTeamRecruitmentBuilder_.setMessage(value);
         }
-        contentCase_ = 386;
+        contentCase_ = 686;
         return this;
       }
       /**
-       * <code>.ChatInfo._BeyondTeamRecruitment beyond_team_recruitment = 386;</code>
+       * <code>.ChatInfo._BeyondTeamRecruitment beyond_team_recruitment = 686;</code>
        */
       public Builder clearBeyondTeamRecruitment() {
         if (beyondTeamRecruitmentBuilder_ == null) {
-          if (contentCase_ == 386) {
+          if (contentCase_ == 686) {
             contentCase_ = 0;
             content_ = null;
             onChanged();
           }
         } else {
-          if (contentCase_ == 386) {
+          if (contentCase_ == 686) {
             contentCase_ = 0;
             content_ = null;
           }
@@ -9515,33 +9515,33 @@ public final class ChatInfoOuterClass {
         return this;
       }
       /**
-       * <code>.ChatInfo._BeyondTeamRecruitment beyond_team_recruitment = 386;</code>
+       * <code>.ChatInfo._BeyondTeamRecruitment beyond_team_recruitment = 686;</code>
        */
       public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitment.Builder getBeyondTeamRecruitmentBuilder() {
         return getBeyondTeamRecruitmentFieldBuilder().getBuilder();
       }
       /**
-       * <code>.ChatInfo._BeyondTeamRecruitment beyond_team_recruitment = 386;</code>
+       * <code>.ChatInfo._BeyondTeamRecruitment beyond_team_recruitment = 686;</code>
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitmentOrBuilder getBeyondTeamRecruitmentOrBuilder() {
-        if ((contentCase_ == 386) && (beyondTeamRecruitmentBuilder_ != null)) {
+        if ((contentCase_ == 686) && (beyondTeamRecruitmentBuilder_ != null)) {
           return beyondTeamRecruitmentBuilder_.getMessageOrBuilder();
         } else {
-          if (contentCase_ == 386) {
+          if (contentCase_ == 686) {
             return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitment) content_;
           }
           return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitment.getDefaultInstance();
         }
       }
       /**
-       * <code>.ChatInfo._BeyondTeamRecruitment beyond_team_recruitment = 386;</code>
+       * <code>.ChatInfo._BeyondTeamRecruitment beyond_team_recruitment = 686;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitment, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitment.Builder, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitmentOrBuilder> 
           getBeyondTeamRecruitmentFieldBuilder() {
         if (beyondTeamRecruitmentBuilder_ == null) {
-          if (!(contentCase_ == 386)) {
+          if (!(contentCase_ == 686)) {
             content_ = emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamRecruitment.getDefaultInstance();
           }
           beyondTeamRecruitmentBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -9551,7 +9551,7 @@ public final class ChatInfoOuterClass {
                   isClean());
           content_ = null;
         }
-        contentCase_ = 386;
+        contentCase_ = 686;
         onChanged();;
         return beyondTeamRecruitmentBuilder_;
       }
@@ -9559,33 +9559,33 @@ public final class ChatInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode.Builder, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCodeOrBuilder> beyondCostumeShareCodeBuilder_;
       /**
-       * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
+       * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 680;</code>
        * @return Whether the beyondCostumeShareCode field is set.
        */
       @java.lang.Override
       public boolean hasBeyondCostumeShareCode() {
-        return contentCase_ == 394;
+        return contentCase_ == 680;
       }
       /**
-       * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
+       * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 680;</code>
        * @return The beyondCostumeShareCode.
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode getBeyondCostumeShareCode() {
         if (beyondCostumeShareCodeBuilder_ == null) {
-          if (contentCase_ == 394) {
+          if (contentCase_ == 680) {
             return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode) content_;
           }
           return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode.getDefaultInstance();
         } else {
-          if (contentCase_ == 394) {
+          if (contentCase_ == 680) {
             return beyondCostumeShareCodeBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode.getDefaultInstance();
         }
       }
       /**
-       * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
+       * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 680;</code>
        */
       public Builder setBeyondCostumeShareCode(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode value) {
         if (beyondCostumeShareCodeBuilder_ == null) {
@@ -9597,11 +9597,11 @@ public final class ChatInfoOuterClass {
         } else {
           beyondCostumeShareCodeBuilder_.setMessage(value);
         }
-        contentCase_ = 394;
+        contentCase_ = 680;
         return this;
       }
       /**
-       * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
+       * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 680;</code>
        */
       public Builder setBeyondCostumeShareCode(
           emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode.Builder builderForValue) {
@@ -9611,15 +9611,15 @@ public final class ChatInfoOuterClass {
         } else {
           beyondCostumeShareCodeBuilder_.setMessage(builderForValue.build());
         }
-        contentCase_ = 394;
+        contentCase_ = 680;
         return this;
       }
       /**
-       * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
+       * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 680;</code>
        */
       public Builder mergeBeyondCostumeShareCode(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode value) {
         if (beyondCostumeShareCodeBuilder_ == null) {
-          if (contentCase_ == 394 &&
+          if (contentCase_ == 680 &&
               content_ != emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode.getDefaultInstance()) {
             content_ = emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode.newBuilder((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode) content_)
                 .mergeFrom(value).buildPartial();
@@ -9628,26 +9628,26 @@ public final class ChatInfoOuterClass {
           }
           onChanged();
         } else {
-          if (contentCase_ == 394) {
+          if (contentCase_ == 680) {
             beyondCostumeShareCodeBuilder_.mergeFrom(value);
           }
           beyondCostumeShareCodeBuilder_.setMessage(value);
         }
-        contentCase_ = 394;
+        contentCase_ = 680;
         return this;
       }
       /**
-       * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
+       * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 680;</code>
        */
       public Builder clearBeyondCostumeShareCode() {
         if (beyondCostumeShareCodeBuilder_ == null) {
-          if (contentCase_ == 394) {
+          if (contentCase_ == 680) {
             contentCase_ = 0;
             content_ = null;
             onChanged();
           }
         } else {
-          if (contentCase_ == 394) {
+          if (contentCase_ == 680) {
             contentCase_ = 0;
             content_ = null;
           }
@@ -9656,33 +9656,33 @@ public final class ChatInfoOuterClass {
         return this;
       }
       /**
-       * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
+       * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 680;</code>
        */
       public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode.Builder getBeyondCostumeShareCodeBuilder() {
         return getBeyondCostumeShareCodeFieldBuilder().getBuilder();
       }
       /**
-       * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
+       * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 680;</code>
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCodeOrBuilder getBeyondCostumeShareCodeOrBuilder() {
-        if ((contentCase_ == 394) && (beyondCostumeShareCodeBuilder_ != null)) {
+        if ((contentCase_ == 680) && (beyondCostumeShareCodeBuilder_ != null)) {
           return beyondCostumeShareCodeBuilder_.getMessageOrBuilder();
         } else {
-          if (contentCase_ == 394) {
+          if (contentCase_ == 680) {
             return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode) content_;
           }
           return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode.getDefaultInstance();
         }
       }
       /**
-       * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 394;</code>
+       * <code>.ChatInfo._BeyondCostumeShareCode beyond_costume_share_code = 680;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode.Builder, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCodeOrBuilder> 
           getBeyondCostumeShareCodeFieldBuilder() {
         if (beyondCostumeShareCodeBuilder_ == null) {
-          if (!(contentCase_ == 394)) {
+          if (!(contentCase_ == 680)) {
             content_ = emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCostumeShareCode.getDefaultInstance();
           }
           beyondCostumeShareCodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -9692,45 +9692,45 @@ public final class ChatInfoOuterClass {
                   isClean());
           content_ = null;
         }
-        contentCase_ = 394;
+        contentCase_ = 680;
         onChanged();;
         return beyondCostumeShareCodeBuilder_;
       }
 
       /**
-       * <code>uint32 icon = 654;</code>
+       * <code>uint32 icon = 1448;</code>
        * @return Whether the icon field is set.
        */
       public boolean hasIcon() {
-        return contentCase_ == 654;
+        return contentCase_ == 1448;
       }
       /**
-       * <code>uint32 icon = 654;</code>
+       * <code>uint32 icon = 1448;</code>
        * @return The icon.
        */
       public int getIcon() {
-        if (contentCase_ == 654) {
+        if (contentCase_ == 1448) {
           return (java.lang.Integer) content_;
         }
         return 0;
       }
       /**
-       * <code>uint32 icon = 654;</code>
+       * <code>uint32 icon = 1448;</code>
        * @param value The icon to set.
        * @return This builder for chaining.
        */
       public Builder setIcon(int value) {
-        contentCase_ = 654;
+        contentCase_ = 1448;
         content_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 icon = 654;</code>
+       * <code>uint32 icon = 1448;</code>
        * @return This builder for chaining.
        */
       public Builder clearIcon() {
-        if (contentCase_ == 654) {
+        if (contentCase_ == 1448) {
           contentCase_ = 0;
           content_ = null;
           onChanged();
@@ -9741,33 +9741,33 @@ public final class ChatInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitation, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitation.Builder, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitationOrBuilder> beyondRoomInvitationBuilder_;
       /**
-       * <code>.ChatInfo._BeyondRoomInvitation beyond_room_invitation = 763;</code>
+       * <code>.ChatInfo._BeyondRoomInvitation beyond_room_invitation = 758;</code>
        * @return Whether the beyondRoomInvitation field is set.
        */
       @java.lang.Override
       public boolean hasBeyondRoomInvitation() {
-        return contentCase_ == 763;
+        return contentCase_ == 758;
       }
       /**
-       * <code>.ChatInfo._BeyondRoomInvitation beyond_room_invitation = 763;</code>
+       * <code>.ChatInfo._BeyondRoomInvitation beyond_room_invitation = 758;</code>
        * @return The beyondRoomInvitation.
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitation getBeyondRoomInvitation() {
         if (beyondRoomInvitationBuilder_ == null) {
-          if (contentCase_ == 763) {
+          if (contentCase_ == 758) {
             return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitation) content_;
           }
           return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitation.getDefaultInstance();
         } else {
-          if (contentCase_ == 763) {
+          if (contentCase_ == 758) {
             return beyondRoomInvitationBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitation.getDefaultInstance();
         }
       }
       /**
-       * <code>.ChatInfo._BeyondRoomInvitation beyond_room_invitation = 763;</code>
+       * <code>.ChatInfo._BeyondRoomInvitation beyond_room_invitation = 758;</code>
        */
       public Builder setBeyondRoomInvitation(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitation value) {
         if (beyondRoomInvitationBuilder_ == null) {
@@ -9779,11 +9779,11 @@ public final class ChatInfoOuterClass {
         } else {
           beyondRoomInvitationBuilder_.setMessage(value);
         }
-        contentCase_ = 763;
+        contentCase_ = 758;
         return this;
       }
       /**
-       * <code>.ChatInfo._BeyondRoomInvitation beyond_room_invitation = 763;</code>
+       * <code>.ChatInfo._BeyondRoomInvitation beyond_room_invitation = 758;</code>
        */
       public Builder setBeyondRoomInvitation(
           emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitation.Builder builderForValue) {
@@ -9793,15 +9793,15 @@ public final class ChatInfoOuterClass {
         } else {
           beyondRoomInvitationBuilder_.setMessage(builderForValue.build());
         }
-        contentCase_ = 763;
+        contentCase_ = 758;
         return this;
       }
       /**
-       * <code>.ChatInfo._BeyondRoomInvitation beyond_room_invitation = 763;</code>
+       * <code>.ChatInfo._BeyondRoomInvitation beyond_room_invitation = 758;</code>
        */
       public Builder mergeBeyondRoomInvitation(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitation value) {
         if (beyondRoomInvitationBuilder_ == null) {
-          if (contentCase_ == 763 &&
+          if (contentCase_ == 758 &&
               content_ != emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitation.getDefaultInstance()) {
             content_ = emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitation.newBuilder((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitation) content_)
                 .mergeFrom(value).buildPartial();
@@ -9810,26 +9810,26 @@ public final class ChatInfoOuterClass {
           }
           onChanged();
         } else {
-          if (contentCase_ == 763) {
+          if (contentCase_ == 758) {
             beyondRoomInvitationBuilder_.mergeFrom(value);
           }
           beyondRoomInvitationBuilder_.setMessage(value);
         }
-        contentCase_ = 763;
+        contentCase_ = 758;
         return this;
       }
       /**
-       * <code>.ChatInfo._BeyondRoomInvitation beyond_room_invitation = 763;</code>
+       * <code>.ChatInfo._BeyondRoomInvitation beyond_room_invitation = 758;</code>
        */
       public Builder clearBeyondRoomInvitation() {
         if (beyondRoomInvitationBuilder_ == null) {
-          if (contentCase_ == 763) {
+          if (contentCase_ == 758) {
             contentCase_ = 0;
             content_ = null;
             onChanged();
           }
         } else {
-          if (contentCase_ == 763) {
+          if (contentCase_ == 758) {
             contentCase_ = 0;
             content_ = null;
           }
@@ -9838,33 +9838,33 @@ public final class ChatInfoOuterClass {
         return this;
       }
       /**
-       * <code>.ChatInfo._BeyondRoomInvitation beyond_room_invitation = 763;</code>
+       * <code>.ChatInfo._BeyondRoomInvitation beyond_room_invitation = 758;</code>
        */
       public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitation.Builder getBeyondRoomInvitationBuilder() {
         return getBeyondRoomInvitationFieldBuilder().getBuilder();
       }
       /**
-       * <code>.ChatInfo._BeyondRoomInvitation beyond_room_invitation = 763;</code>
+       * <code>.ChatInfo._BeyondRoomInvitation beyond_room_invitation = 758;</code>
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitationOrBuilder getBeyondRoomInvitationOrBuilder() {
-        if ((contentCase_ == 763) && (beyondRoomInvitationBuilder_ != null)) {
+        if ((contentCase_ == 758) && (beyondRoomInvitationBuilder_ != null)) {
           return beyondRoomInvitationBuilder_.getMessageOrBuilder();
         } else {
-          if (contentCase_ == 763) {
+          if (contentCase_ == 758) {
             return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitation) content_;
           }
           return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitation.getDefaultInstance();
         }
       }
       /**
-       * <code>.ChatInfo._BeyondRoomInvitation beyond_room_invitation = 763;</code>
+       * <code>.ChatInfo._BeyondRoomInvitation beyond_room_invitation = 758;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitation, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitation.Builder, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitationOrBuilder> 
           getBeyondRoomInvitationFieldBuilder() {
         if (beyondRoomInvitationBuilder_ == null) {
-          if (!(contentCase_ == 763)) {
+          if (!(contentCase_ == 758)) {
             content_ = emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondRoomInvitation.getDefaultInstance();
           }
           beyondRoomInvitationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -9874,7 +9874,7 @@ public final class ChatInfoOuterClass {
                   isClean());
           content_ = null;
         }
-        contentCase_ = 763;
+        contentCase_ = 758;
         onChanged();;
         return beyondRoomInvitationBuilder_;
       }
@@ -9882,33 +9882,33 @@ public final class ChatInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCollectionNewCaptain, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCollectionNewCaptain.Builder, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCollectionNewCaptainOrBuilder> beyondCollectionNewCaptainBuilder_;
       /**
-       * <code>.ChatInfo._BeyondCollectionNewCaptain beyond_collection_new_captain = 833;</code>
+       * <code>.ChatInfo._BeyondCollectionNewCaptain beyond_collection_new_captain = 188;</code>
        * @return Whether the beyondCollectionNewCaptain field is set.
        */
       @java.lang.Override
       public boolean hasBeyondCollectionNewCaptain() {
-        return contentCase_ == 833;
+        return contentCase_ == 188;
       }
       /**
-       * <code>.ChatInfo._BeyondCollectionNewCaptain beyond_collection_new_captain = 833;</code>
+       * <code>.ChatInfo._BeyondCollectionNewCaptain beyond_collection_new_captain = 188;</code>
        * @return The beyondCollectionNewCaptain.
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCollectionNewCaptain getBeyondCollectionNewCaptain() {
         if (beyondCollectionNewCaptainBuilder_ == null) {
-          if (contentCase_ == 833) {
+          if (contentCase_ == 188) {
             return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCollectionNewCaptain) content_;
           }
           return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCollectionNewCaptain.getDefaultInstance();
         } else {
-          if (contentCase_ == 833) {
+          if (contentCase_ == 188) {
             return beyondCollectionNewCaptainBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCollectionNewCaptain.getDefaultInstance();
         }
       }
       /**
-       * <code>.ChatInfo._BeyondCollectionNewCaptain beyond_collection_new_captain = 833;</code>
+       * <code>.ChatInfo._BeyondCollectionNewCaptain beyond_collection_new_captain = 188;</code>
        */
       public Builder setBeyondCollectionNewCaptain(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCollectionNewCaptain value) {
         if (beyondCollectionNewCaptainBuilder_ == null) {
@@ -9920,11 +9920,11 @@ public final class ChatInfoOuterClass {
         } else {
           beyondCollectionNewCaptainBuilder_.setMessage(value);
         }
-        contentCase_ = 833;
+        contentCase_ = 188;
         return this;
       }
       /**
-       * <code>.ChatInfo._BeyondCollectionNewCaptain beyond_collection_new_captain = 833;</code>
+       * <code>.ChatInfo._BeyondCollectionNewCaptain beyond_collection_new_captain = 188;</code>
        */
       public Builder setBeyondCollectionNewCaptain(
           emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCollectionNewCaptain.Builder builderForValue) {
@@ -9934,15 +9934,15 @@ public final class ChatInfoOuterClass {
         } else {
           beyondCollectionNewCaptainBuilder_.setMessage(builderForValue.build());
         }
-        contentCase_ = 833;
+        contentCase_ = 188;
         return this;
       }
       /**
-       * <code>.ChatInfo._BeyondCollectionNewCaptain beyond_collection_new_captain = 833;</code>
+       * <code>.ChatInfo._BeyondCollectionNewCaptain beyond_collection_new_captain = 188;</code>
        */
       public Builder mergeBeyondCollectionNewCaptain(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCollectionNewCaptain value) {
         if (beyondCollectionNewCaptainBuilder_ == null) {
-          if (contentCase_ == 833 &&
+          if (contentCase_ == 188 &&
               content_ != emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCollectionNewCaptain.getDefaultInstance()) {
             content_ = emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCollectionNewCaptain.newBuilder((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCollectionNewCaptain) content_)
                 .mergeFrom(value).buildPartial();
@@ -9951,26 +9951,26 @@ public final class ChatInfoOuterClass {
           }
           onChanged();
         } else {
-          if (contentCase_ == 833) {
+          if (contentCase_ == 188) {
             beyondCollectionNewCaptainBuilder_.mergeFrom(value);
           }
           beyondCollectionNewCaptainBuilder_.setMessage(value);
         }
-        contentCase_ = 833;
+        contentCase_ = 188;
         return this;
       }
       /**
-       * <code>.ChatInfo._BeyondCollectionNewCaptain beyond_collection_new_captain = 833;</code>
+       * <code>.ChatInfo._BeyondCollectionNewCaptain beyond_collection_new_captain = 188;</code>
        */
       public Builder clearBeyondCollectionNewCaptain() {
         if (beyondCollectionNewCaptainBuilder_ == null) {
-          if (contentCase_ == 833) {
+          if (contentCase_ == 188) {
             contentCase_ = 0;
             content_ = null;
             onChanged();
           }
         } else {
-          if (contentCase_ == 833) {
+          if (contentCase_ == 188) {
             contentCase_ = 0;
             content_ = null;
           }
@@ -9979,33 +9979,33 @@ public final class ChatInfoOuterClass {
         return this;
       }
       /**
-       * <code>.ChatInfo._BeyondCollectionNewCaptain beyond_collection_new_captain = 833;</code>
+       * <code>.ChatInfo._BeyondCollectionNewCaptain beyond_collection_new_captain = 188;</code>
        */
       public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCollectionNewCaptain.Builder getBeyondCollectionNewCaptainBuilder() {
         return getBeyondCollectionNewCaptainFieldBuilder().getBuilder();
       }
       /**
-       * <code>.ChatInfo._BeyondCollectionNewCaptain beyond_collection_new_captain = 833;</code>
+       * <code>.ChatInfo._BeyondCollectionNewCaptain beyond_collection_new_captain = 188;</code>
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCollectionNewCaptainOrBuilder getBeyondCollectionNewCaptainOrBuilder() {
-        if ((contentCase_ == 833) && (beyondCollectionNewCaptainBuilder_ != null)) {
+        if ((contentCase_ == 188) && (beyondCollectionNewCaptainBuilder_ != null)) {
           return beyondCollectionNewCaptainBuilder_.getMessageOrBuilder();
         } else {
-          if (contentCase_ == 833) {
+          if (contentCase_ == 188) {
             return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCollectionNewCaptain) content_;
           }
           return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCollectionNewCaptain.getDefaultInstance();
         }
       }
       /**
-       * <code>.ChatInfo._BeyondCollectionNewCaptain beyond_collection_new_captain = 833;</code>
+       * <code>.ChatInfo._BeyondCollectionNewCaptain beyond_collection_new_captain = 188;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCollectionNewCaptain, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCollectionNewCaptain.Builder, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCollectionNewCaptainOrBuilder> 
           getBeyondCollectionNewCaptainFieldBuilder() {
         if (beyondCollectionNewCaptainBuilder_ == null) {
-          if (!(contentCase_ == 833)) {
+          if (!(contentCase_ == 188)) {
             content_ = emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCollectionNewCaptain.getDefaultInstance();
           }
           beyondCollectionNewCaptainBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -10015,7 +10015,7 @@ public final class ChatInfoOuterClass {
                   isClean());
           content_ = null;
         }
-        contentCase_ = 833;
+        contentCase_ = 188;
         onChanged();;
         return beyondCollectionNewCaptainBuilder_;
       }
@@ -10023,33 +10023,33 @@ public final class ChatInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint.Builder, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHintOrBuilder> systemHintBuilder_;
       /**
-       * <code>.ChatInfo.SystemHint system_hint = 934;</code>
+       * <code>.ChatInfo.SystemHint system_hint = 765;</code>
        * @return Whether the systemHint field is set.
        */
       @java.lang.Override
       public boolean hasSystemHint() {
-        return contentCase_ == 934;
+        return contentCase_ == 765;
       }
       /**
-       * <code>.ChatInfo.SystemHint system_hint = 934;</code>
+       * <code>.ChatInfo.SystemHint system_hint = 765;</code>
        * @return The systemHint.
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint getSystemHint() {
         if (systemHintBuilder_ == null) {
-          if (contentCase_ == 934) {
+          if (contentCase_ == 765) {
             return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint) content_;
           }
           return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint.getDefaultInstance();
         } else {
-          if (contentCase_ == 934) {
+          if (contentCase_ == 765) {
             return systemHintBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint.getDefaultInstance();
         }
       }
       /**
-       * <code>.ChatInfo.SystemHint system_hint = 934;</code>
+       * <code>.ChatInfo.SystemHint system_hint = 765;</code>
        */
       public Builder setSystemHint(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint value) {
         if (systemHintBuilder_ == null) {
@@ -10061,11 +10061,11 @@ public final class ChatInfoOuterClass {
         } else {
           systemHintBuilder_.setMessage(value);
         }
-        contentCase_ = 934;
+        contentCase_ = 765;
         return this;
       }
       /**
-       * <code>.ChatInfo.SystemHint system_hint = 934;</code>
+       * <code>.ChatInfo.SystemHint system_hint = 765;</code>
        */
       public Builder setSystemHint(
           emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint.Builder builderForValue) {
@@ -10075,15 +10075,15 @@ public final class ChatInfoOuterClass {
         } else {
           systemHintBuilder_.setMessage(builderForValue.build());
         }
-        contentCase_ = 934;
+        contentCase_ = 765;
         return this;
       }
       /**
-       * <code>.ChatInfo.SystemHint system_hint = 934;</code>
+       * <code>.ChatInfo.SystemHint system_hint = 765;</code>
        */
       public Builder mergeSystemHint(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint value) {
         if (systemHintBuilder_ == null) {
-          if (contentCase_ == 934 &&
+          if (contentCase_ == 765 &&
               content_ != emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint.getDefaultInstance()) {
             content_ = emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint.newBuilder((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint) content_)
                 .mergeFrom(value).buildPartial();
@@ -10092,26 +10092,26 @@ public final class ChatInfoOuterClass {
           }
           onChanged();
         } else {
-          if (contentCase_ == 934) {
+          if (contentCase_ == 765) {
             systemHintBuilder_.mergeFrom(value);
           }
           systemHintBuilder_.setMessage(value);
         }
-        contentCase_ = 934;
+        contentCase_ = 765;
         return this;
       }
       /**
-       * <code>.ChatInfo.SystemHint system_hint = 934;</code>
+       * <code>.ChatInfo.SystemHint system_hint = 765;</code>
        */
       public Builder clearSystemHint() {
         if (systemHintBuilder_ == null) {
-          if (contentCase_ == 934) {
+          if (contentCase_ == 765) {
             contentCase_ = 0;
             content_ = null;
             onChanged();
           }
         } else {
-          if (contentCase_ == 934) {
+          if (contentCase_ == 765) {
             contentCase_ = 0;
             content_ = null;
           }
@@ -10120,33 +10120,33 @@ public final class ChatInfoOuterClass {
         return this;
       }
       /**
-       * <code>.ChatInfo.SystemHint system_hint = 934;</code>
+       * <code>.ChatInfo.SystemHint system_hint = 765;</code>
        */
       public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint.Builder getSystemHintBuilder() {
         return getSystemHintFieldBuilder().getBuilder();
       }
       /**
-       * <code>.ChatInfo.SystemHint system_hint = 934;</code>
+       * <code>.ChatInfo.SystemHint system_hint = 765;</code>
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHintOrBuilder getSystemHintOrBuilder() {
-        if ((contentCase_ == 934) && (systemHintBuilder_ != null)) {
+        if ((contentCase_ == 765) && (systemHintBuilder_ != null)) {
           return systemHintBuilder_.getMessageOrBuilder();
         } else {
-          if (contentCase_ == 934) {
+          if (contentCase_ == 765) {
             return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint) content_;
           }
           return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint.getDefaultInstance();
         }
       }
       /**
-       * <code>.ChatInfo.SystemHint system_hint = 934;</code>
+       * <code>.ChatInfo.SystemHint system_hint = 765;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint.Builder, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHintOrBuilder> 
           getSystemHintFieldBuilder() {
         if (systemHintBuilder_ == null) {
-          if (!(contentCase_ == 934)) {
+          if (!(contentCase_ == 765)) {
             content_ = emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo.SystemHint.getDefaultInstance();
           }
           systemHintBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -10156,7 +10156,7 @@ public final class ChatInfoOuterClass {
                   isClean());
           content_ = null;
         }
-        contentCase_ = 934;
+        contentCase_ = 765;
         onChanged();;
         return systemHintBuilder_;
       }
@@ -10164,33 +10164,33 @@ public final class ChatInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitation, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitation.Builder, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitationOrBuilder> hallInvitationBuilder_;
       /**
-       * <code>.ChatInfo._HallInvitation hall_invitation = 1168;</code>
+       * <code>.ChatInfo._HallInvitation hall_invitation = 1815;</code>
        * @return Whether the hallInvitation field is set.
        */
       @java.lang.Override
       public boolean hasHallInvitation() {
-        return contentCase_ == 1168;
+        return contentCase_ == 1815;
       }
       /**
-       * <code>.ChatInfo._HallInvitation hall_invitation = 1168;</code>
+       * <code>.ChatInfo._HallInvitation hall_invitation = 1815;</code>
        * @return The hallInvitation.
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitation getHallInvitation() {
         if (hallInvitationBuilder_ == null) {
-          if (contentCase_ == 1168) {
+          if (contentCase_ == 1815) {
             return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitation) content_;
           }
           return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitation.getDefaultInstance();
         } else {
-          if (contentCase_ == 1168) {
+          if (contentCase_ == 1815) {
             return hallInvitationBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitation.getDefaultInstance();
         }
       }
       /**
-       * <code>.ChatInfo._HallInvitation hall_invitation = 1168;</code>
+       * <code>.ChatInfo._HallInvitation hall_invitation = 1815;</code>
        */
       public Builder setHallInvitation(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitation value) {
         if (hallInvitationBuilder_ == null) {
@@ -10202,11 +10202,11 @@ public final class ChatInfoOuterClass {
         } else {
           hallInvitationBuilder_.setMessage(value);
         }
-        contentCase_ = 1168;
+        contentCase_ = 1815;
         return this;
       }
       /**
-       * <code>.ChatInfo._HallInvitation hall_invitation = 1168;</code>
+       * <code>.ChatInfo._HallInvitation hall_invitation = 1815;</code>
        */
       public Builder setHallInvitation(
           emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitation.Builder builderForValue) {
@@ -10216,15 +10216,15 @@ public final class ChatInfoOuterClass {
         } else {
           hallInvitationBuilder_.setMessage(builderForValue.build());
         }
-        contentCase_ = 1168;
+        contentCase_ = 1815;
         return this;
       }
       /**
-       * <code>.ChatInfo._HallInvitation hall_invitation = 1168;</code>
+       * <code>.ChatInfo._HallInvitation hall_invitation = 1815;</code>
        */
       public Builder mergeHallInvitation(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitation value) {
         if (hallInvitationBuilder_ == null) {
-          if (contentCase_ == 1168 &&
+          if (contentCase_ == 1815 &&
               content_ != emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitation.getDefaultInstance()) {
             content_ = emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitation.newBuilder((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitation) content_)
                 .mergeFrom(value).buildPartial();
@@ -10233,26 +10233,26 @@ public final class ChatInfoOuterClass {
           }
           onChanged();
         } else {
-          if (contentCase_ == 1168) {
+          if (contentCase_ == 1815) {
             hallInvitationBuilder_.mergeFrom(value);
           }
           hallInvitationBuilder_.setMessage(value);
         }
-        contentCase_ = 1168;
+        contentCase_ = 1815;
         return this;
       }
       /**
-       * <code>.ChatInfo._HallInvitation hall_invitation = 1168;</code>
+       * <code>.ChatInfo._HallInvitation hall_invitation = 1815;</code>
        */
       public Builder clearHallInvitation() {
         if (hallInvitationBuilder_ == null) {
-          if (contentCase_ == 1168) {
+          if (contentCase_ == 1815) {
             contentCase_ = 0;
             content_ = null;
             onChanged();
           }
         } else {
-          if (contentCase_ == 1168) {
+          if (contentCase_ == 1815) {
             contentCase_ = 0;
             content_ = null;
           }
@@ -10261,33 +10261,33 @@ public final class ChatInfoOuterClass {
         return this;
       }
       /**
-       * <code>.ChatInfo._HallInvitation hall_invitation = 1168;</code>
+       * <code>.ChatInfo._HallInvitation hall_invitation = 1815;</code>
        */
       public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitation.Builder getHallInvitationBuilder() {
         return getHallInvitationFieldBuilder().getBuilder();
       }
       /**
-       * <code>.ChatInfo._HallInvitation hall_invitation = 1168;</code>
+       * <code>.ChatInfo._HallInvitation hall_invitation = 1815;</code>
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitationOrBuilder getHallInvitationOrBuilder() {
-        if ((contentCase_ == 1168) && (hallInvitationBuilder_ != null)) {
+        if ((contentCase_ == 1815) && (hallInvitationBuilder_ != null)) {
           return hallInvitationBuilder_.getMessageOrBuilder();
         } else {
-          if (contentCase_ == 1168) {
+          if (contentCase_ == 1815) {
             return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitation) content_;
           }
           return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitation.getDefaultInstance();
         }
       }
       /**
-       * <code>.ChatInfo._HallInvitation hall_invitation = 1168;</code>
+       * <code>.ChatInfo._HallInvitation hall_invitation = 1815;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitation, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitation.Builder, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitationOrBuilder> 
           getHallInvitationFieldBuilder() {
         if (hallInvitationBuilder_ == null) {
-          if (!(contentCase_ == 1168)) {
+          if (!(contentCase_ == 1815)) {
             content_ = emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallInvitation.getDefaultInstance();
           }
           hallInvitationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -10297,34 +10297,34 @@ public final class ChatInfoOuterClass {
                   isClean());
           content_ = null;
         }
-        contentCase_ = 1168;
+        contentCase_ = 1815;
         onChanged();;
         return hallInvitationBuilder_;
       }
 
       /**
-       * <code>string text = 1275;</code>
+       * <code>string text = 1985;</code>
        * @return Whether the text field is set.
        */
       @java.lang.Override
       public boolean hasText() {
-        return contentCase_ == 1275;
+        return contentCase_ == 1985;
       }
       /**
-       * <code>string text = 1275;</code>
+       * <code>string text = 1985;</code>
        * @return The text.
        */
       @java.lang.Override
       public java.lang.String getText() {
         java.lang.Object ref = "";
-        if (contentCase_ == 1275) {
+        if (contentCase_ == 1985) {
           ref = content_;
         }
         if (!(ref instanceof java.lang.String)) {
           com.google.protobuf.ByteString bs =
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
-          if (contentCase_ == 1275) {
+          if (contentCase_ == 1985) {
             content_ = s;
           }
           return s;
@@ -10333,21 +10333,21 @@ public final class ChatInfoOuterClass {
         }
       }
       /**
-       * <code>string text = 1275;</code>
+       * <code>string text = 1985;</code>
        * @return The bytes for text.
        */
       @java.lang.Override
       public com.google.protobuf.ByteString
           getTextBytes() {
         java.lang.Object ref = "";
-        if (contentCase_ == 1275) {
+        if (contentCase_ == 1985) {
           ref = content_;
         }
         if (ref instanceof String) {
           com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
-          if (contentCase_ == 1275) {
+          if (contentCase_ == 1985) {
             content_ = b;
           }
           return b;
@@ -10356,7 +10356,7 @@ public final class ChatInfoOuterClass {
         }
       }
       /**
-       * <code>string text = 1275;</code>
+       * <code>string text = 1985;</code>
        * @param value The text to set.
        * @return This builder for chaining.
        */
@@ -10365,17 +10365,17 @@ public final class ChatInfoOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  contentCase_ = 1275;
+  contentCase_ = 1985;
         content_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>string text = 1275;</code>
+       * <code>string text = 1985;</code>
        * @return This builder for chaining.
        */
       public Builder clearText() {
-        if (contentCase_ == 1275) {
+        if (contentCase_ == 1985) {
           contentCase_ = 0;
           content_ = null;
           onChanged();
@@ -10383,7 +10383,7 @@ public final class ChatInfoOuterClass {
         return this;
       }
       /**
-       * <code>string text = 1275;</code>
+       * <code>string text = 1985;</code>
        * @param value The bytes for text to set.
        * @return This builder for chaining.
        */
@@ -10393,7 +10393,7 @@ public final class ChatInfoOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        contentCase_ = 1275;
+        contentCase_ = 1985;
         content_ = value;
         onChanged();
         return this;
@@ -10402,33 +10402,33 @@ public final class ChatInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplication, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplication.Builder, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplicationOrBuilder> beyondTeamApplicationBuilder_;
       /**
-       * <code>.ChatInfo._BeyondTeamApplication beyond_team_application = 1351;</code>
+       * <code>.ChatInfo._BeyondTeamApplication beyond_team_application = 525;</code>
        * @return Whether the beyondTeamApplication field is set.
        */
       @java.lang.Override
       public boolean hasBeyondTeamApplication() {
-        return contentCase_ == 1351;
+        return contentCase_ == 525;
       }
       /**
-       * <code>.ChatInfo._BeyondTeamApplication beyond_team_application = 1351;</code>
+       * <code>.ChatInfo._BeyondTeamApplication beyond_team_application = 525;</code>
        * @return The beyondTeamApplication.
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplication getBeyondTeamApplication() {
         if (beyondTeamApplicationBuilder_ == null) {
-          if (contentCase_ == 1351) {
+          if (contentCase_ == 525) {
             return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplication) content_;
           }
           return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplication.getDefaultInstance();
         } else {
-          if (contentCase_ == 1351) {
+          if (contentCase_ == 525) {
             return beyondTeamApplicationBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplication.getDefaultInstance();
         }
       }
       /**
-       * <code>.ChatInfo._BeyondTeamApplication beyond_team_application = 1351;</code>
+       * <code>.ChatInfo._BeyondTeamApplication beyond_team_application = 525;</code>
        */
       public Builder setBeyondTeamApplication(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplication value) {
         if (beyondTeamApplicationBuilder_ == null) {
@@ -10440,11 +10440,11 @@ public final class ChatInfoOuterClass {
         } else {
           beyondTeamApplicationBuilder_.setMessage(value);
         }
-        contentCase_ = 1351;
+        contentCase_ = 525;
         return this;
       }
       /**
-       * <code>.ChatInfo._BeyondTeamApplication beyond_team_application = 1351;</code>
+       * <code>.ChatInfo._BeyondTeamApplication beyond_team_application = 525;</code>
        */
       public Builder setBeyondTeamApplication(
           emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplication.Builder builderForValue) {
@@ -10454,15 +10454,15 @@ public final class ChatInfoOuterClass {
         } else {
           beyondTeamApplicationBuilder_.setMessage(builderForValue.build());
         }
-        contentCase_ = 1351;
+        contentCase_ = 525;
         return this;
       }
       /**
-       * <code>.ChatInfo._BeyondTeamApplication beyond_team_application = 1351;</code>
+       * <code>.ChatInfo._BeyondTeamApplication beyond_team_application = 525;</code>
        */
       public Builder mergeBeyondTeamApplication(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplication value) {
         if (beyondTeamApplicationBuilder_ == null) {
-          if (contentCase_ == 1351 &&
+          if (contentCase_ == 525 &&
               content_ != emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplication.getDefaultInstance()) {
             content_ = emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplication.newBuilder((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplication) content_)
                 .mergeFrom(value).buildPartial();
@@ -10471,26 +10471,26 @@ public final class ChatInfoOuterClass {
           }
           onChanged();
         } else {
-          if (contentCase_ == 1351) {
+          if (contentCase_ == 525) {
             beyondTeamApplicationBuilder_.mergeFrom(value);
           }
           beyondTeamApplicationBuilder_.setMessage(value);
         }
-        contentCase_ = 1351;
+        contentCase_ = 525;
         return this;
       }
       /**
-       * <code>.ChatInfo._BeyondTeamApplication beyond_team_application = 1351;</code>
+       * <code>.ChatInfo._BeyondTeamApplication beyond_team_application = 525;</code>
        */
       public Builder clearBeyondTeamApplication() {
         if (beyondTeamApplicationBuilder_ == null) {
-          if (contentCase_ == 1351) {
+          if (contentCase_ == 525) {
             contentCase_ = 0;
             content_ = null;
             onChanged();
           }
         } else {
-          if (contentCase_ == 1351) {
+          if (contentCase_ == 525) {
             contentCase_ = 0;
             content_ = null;
           }
@@ -10499,33 +10499,33 @@ public final class ChatInfoOuterClass {
         return this;
       }
       /**
-       * <code>.ChatInfo._BeyondTeamApplication beyond_team_application = 1351;</code>
+       * <code>.ChatInfo._BeyondTeamApplication beyond_team_application = 525;</code>
        */
       public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplication.Builder getBeyondTeamApplicationBuilder() {
         return getBeyondTeamApplicationFieldBuilder().getBuilder();
       }
       /**
-       * <code>.ChatInfo._BeyondTeamApplication beyond_team_application = 1351;</code>
+       * <code>.ChatInfo._BeyondTeamApplication beyond_team_application = 525;</code>
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplicationOrBuilder getBeyondTeamApplicationOrBuilder() {
-        if ((contentCase_ == 1351) && (beyondTeamApplicationBuilder_ != null)) {
+        if ((contentCase_ == 525) && (beyondTeamApplicationBuilder_ != null)) {
           return beyondTeamApplicationBuilder_.getMessageOrBuilder();
         } else {
-          if (contentCase_ == 1351) {
+          if (contentCase_ == 525) {
             return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplication) content_;
           }
           return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplication.getDefaultInstance();
         }
       }
       /**
-       * <code>.ChatInfo._BeyondTeamApplication beyond_team_application = 1351;</code>
+       * <code>.ChatInfo._BeyondTeamApplication beyond_team_application = 525;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplication, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplication.Builder, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplicationOrBuilder> 
           getBeyondTeamApplicationFieldBuilder() {
         if (beyondTeamApplicationBuilder_ == null) {
-          if (!(contentCase_ == 1351)) {
+          if (!(contentCase_ == 525)) {
             content_ = emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplication.getDefaultInstance();
           }
           beyondTeamApplicationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -10535,7 +10535,7 @@ public final class ChatInfoOuterClass {
                   isClean());
           content_ = null;
         }
-        contentCase_ = 1351;
+        contentCase_ = 525;
         onChanged();;
         return beyondTeamApplicationBuilder_;
       }
@@ -10543,33 +10543,33 @@ public final class ChatInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallRecruitingInvitation, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallRecruitingInvitation.Builder, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallRecruitingInvitationOrBuilder> hallRecruitingInvitationBuilder_;
       /**
-       * <code>.ChatInfo._HallRecruitingInvitation hall_recruiting_invitation = 1402;</code>
+       * <code>.ChatInfo._HallRecruitingInvitation hall_recruiting_invitation = 770;</code>
        * @return Whether the hallRecruitingInvitation field is set.
        */
       @java.lang.Override
       public boolean hasHallRecruitingInvitation() {
-        return contentCase_ == 1402;
+        return contentCase_ == 770;
       }
       /**
-       * <code>.ChatInfo._HallRecruitingInvitation hall_recruiting_invitation = 1402;</code>
+       * <code>.ChatInfo._HallRecruitingInvitation hall_recruiting_invitation = 770;</code>
        * @return The hallRecruitingInvitation.
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallRecruitingInvitation getHallRecruitingInvitation() {
         if (hallRecruitingInvitationBuilder_ == null) {
-          if (contentCase_ == 1402) {
+          if (contentCase_ == 770) {
             return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallRecruitingInvitation) content_;
           }
           return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallRecruitingInvitation.getDefaultInstance();
         } else {
-          if (contentCase_ == 1402) {
+          if (contentCase_ == 770) {
             return hallRecruitingInvitationBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallRecruitingInvitation.getDefaultInstance();
         }
       }
       /**
-       * <code>.ChatInfo._HallRecruitingInvitation hall_recruiting_invitation = 1402;</code>
+       * <code>.ChatInfo._HallRecruitingInvitation hall_recruiting_invitation = 770;</code>
        */
       public Builder setHallRecruitingInvitation(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallRecruitingInvitation value) {
         if (hallRecruitingInvitationBuilder_ == null) {
@@ -10581,11 +10581,11 @@ public final class ChatInfoOuterClass {
         } else {
           hallRecruitingInvitationBuilder_.setMessage(value);
         }
-        contentCase_ = 1402;
+        contentCase_ = 770;
         return this;
       }
       /**
-       * <code>.ChatInfo._HallRecruitingInvitation hall_recruiting_invitation = 1402;</code>
+       * <code>.ChatInfo._HallRecruitingInvitation hall_recruiting_invitation = 770;</code>
        */
       public Builder setHallRecruitingInvitation(
           emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallRecruitingInvitation.Builder builderForValue) {
@@ -10595,15 +10595,15 @@ public final class ChatInfoOuterClass {
         } else {
           hallRecruitingInvitationBuilder_.setMessage(builderForValue.build());
         }
-        contentCase_ = 1402;
+        contentCase_ = 770;
         return this;
       }
       /**
-       * <code>.ChatInfo._HallRecruitingInvitation hall_recruiting_invitation = 1402;</code>
+       * <code>.ChatInfo._HallRecruitingInvitation hall_recruiting_invitation = 770;</code>
        */
       public Builder mergeHallRecruitingInvitation(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallRecruitingInvitation value) {
         if (hallRecruitingInvitationBuilder_ == null) {
-          if (contentCase_ == 1402 &&
+          if (contentCase_ == 770 &&
               content_ != emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallRecruitingInvitation.getDefaultInstance()) {
             content_ = emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallRecruitingInvitation.newBuilder((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallRecruitingInvitation) content_)
                 .mergeFrom(value).buildPartial();
@@ -10612,26 +10612,26 @@ public final class ChatInfoOuterClass {
           }
           onChanged();
         } else {
-          if (contentCase_ == 1402) {
+          if (contentCase_ == 770) {
             hallRecruitingInvitationBuilder_.mergeFrom(value);
           }
           hallRecruitingInvitationBuilder_.setMessage(value);
         }
-        contentCase_ = 1402;
+        contentCase_ = 770;
         return this;
       }
       /**
-       * <code>.ChatInfo._HallRecruitingInvitation hall_recruiting_invitation = 1402;</code>
+       * <code>.ChatInfo._HallRecruitingInvitation hall_recruiting_invitation = 770;</code>
        */
       public Builder clearHallRecruitingInvitation() {
         if (hallRecruitingInvitationBuilder_ == null) {
-          if (contentCase_ == 1402) {
+          if (contentCase_ == 770) {
             contentCase_ = 0;
             content_ = null;
             onChanged();
           }
         } else {
-          if (contentCase_ == 1402) {
+          if (contentCase_ == 770) {
             contentCase_ = 0;
             content_ = null;
           }
@@ -10640,33 +10640,33 @@ public final class ChatInfoOuterClass {
         return this;
       }
       /**
-       * <code>.ChatInfo._HallRecruitingInvitation hall_recruiting_invitation = 1402;</code>
+       * <code>.ChatInfo._HallRecruitingInvitation hall_recruiting_invitation = 770;</code>
        */
       public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallRecruitingInvitation.Builder getHallRecruitingInvitationBuilder() {
         return getHallRecruitingInvitationFieldBuilder().getBuilder();
       }
       /**
-       * <code>.ChatInfo._HallRecruitingInvitation hall_recruiting_invitation = 1402;</code>
+       * <code>.ChatInfo._HallRecruitingInvitation hall_recruiting_invitation = 770;</code>
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallRecruitingInvitationOrBuilder getHallRecruitingInvitationOrBuilder() {
-        if ((contentCase_ == 1402) && (hallRecruitingInvitationBuilder_ != null)) {
+        if ((contentCase_ == 770) && (hallRecruitingInvitationBuilder_ != null)) {
           return hallRecruitingInvitationBuilder_.getMessageOrBuilder();
         } else {
-          if (contentCase_ == 1402) {
+          if (contentCase_ == 770) {
             return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallRecruitingInvitation) content_;
           }
           return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallRecruitingInvitation.getDefaultInstance();
         }
       }
       /**
-       * <code>.ChatInfo._HallRecruitingInvitation hall_recruiting_invitation = 1402;</code>
+       * <code>.ChatInfo._HallRecruitingInvitation hall_recruiting_invitation = 770;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallRecruitingInvitation, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallRecruitingInvitation.Builder, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallRecruitingInvitationOrBuilder> 
           getHallRecruitingInvitationFieldBuilder() {
         if (hallRecruitingInvitationBuilder_ == null) {
-          if (!(contentCase_ == 1402)) {
+          if (!(contentCase_ == 770)) {
             content_ = emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallRecruitingInvitation.getDefaultInstance();
           }
           hallRecruitingInvitationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -10676,7 +10676,7 @@ public final class ChatInfoOuterClass {
                   isClean());
           content_ = null;
         }
-        contentCase_ = 1402;
+        contentCase_ = 770;
         onChanged();;
         return hallRecruitingInvitationBuilder_;
       }
@@ -10684,33 +10684,33 @@ public final class ChatInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift.Builder, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGiftOrBuilder> beyondGachaGiftBuilder_;
       /**
-       * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 1496;</code>
+       * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 50000;</code>
        * @return Whether the beyondGachaGift field is set.
        */
       @java.lang.Override
       public boolean hasBeyondGachaGift() {
-        return contentCase_ == 1496;
+        return contentCase_ == 50000;
       }
       /**
-       * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 1496;</code>
+       * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 50000;</code>
        * @return The beyondGachaGift.
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift getBeyondGachaGift() {
         if (beyondGachaGiftBuilder_ == null) {
-          if (contentCase_ == 1496) {
+          if (contentCase_ == 50000) {
             return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift) content_;
           }
           return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift.getDefaultInstance();
         } else {
-          if (contentCase_ == 1496) {
+          if (contentCase_ == 50000) {
             return beyondGachaGiftBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift.getDefaultInstance();
         }
       }
       /**
-       * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 1496;</code>
+       * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 50000;</code>
        */
       public Builder setBeyondGachaGift(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift value) {
         if (beyondGachaGiftBuilder_ == null) {
@@ -10722,11 +10722,11 @@ public final class ChatInfoOuterClass {
         } else {
           beyondGachaGiftBuilder_.setMessage(value);
         }
-        contentCase_ = 1496;
+        contentCase_ = 50000;
         return this;
       }
       /**
-       * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 1496;</code>
+       * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 50000;</code>
        */
       public Builder setBeyondGachaGift(
           emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift.Builder builderForValue) {
@@ -10736,15 +10736,15 @@ public final class ChatInfoOuterClass {
         } else {
           beyondGachaGiftBuilder_.setMessage(builderForValue.build());
         }
-        contentCase_ = 1496;
+        contentCase_ = 50000;
         return this;
       }
       /**
-       * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 1496;</code>
+       * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 50000;</code>
        */
       public Builder mergeBeyondGachaGift(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift value) {
         if (beyondGachaGiftBuilder_ == null) {
-          if (contentCase_ == 1496 &&
+          if (contentCase_ == 50000 &&
               content_ != emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift.getDefaultInstance()) {
             content_ = emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift.newBuilder((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift) content_)
                 .mergeFrom(value).buildPartial();
@@ -10753,26 +10753,26 @@ public final class ChatInfoOuterClass {
           }
           onChanged();
         } else {
-          if (contentCase_ == 1496) {
+          if (contentCase_ == 50000) {
             beyondGachaGiftBuilder_.mergeFrom(value);
           }
           beyondGachaGiftBuilder_.setMessage(value);
         }
-        contentCase_ = 1496;
+        contentCase_ = 50000;
         return this;
       }
       /**
-       * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 1496;</code>
+       * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 50000;</code>
        */
       public Builder clearBeyondGachaGift() {
         if (beyondGachaGiftBuilder_ == null) {
-          if (contentCase_ == 1496) {
+          if (contentCase_ == 50000) {
             contentCase_ = 0;
             content_ = null;
             onChanged();
           }
         } else {
-          if (contentCase_ == 1496) {
+          if (contentCase_ == 50000) {
             contentCase_ = 0;
             content_ = null;
           }
@@ -10781,33 +10781,33 @@ public final class ChatInfoOuterClass {
         return this;
       }
       /**
-       * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 1496;</code>
+       * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 50000;</code>
        */
       public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift.Builder getBeyondGachaGiftBuilder() {
         return getBeyondGachaGiftFieldBuilder().getBuilder();
       }
       /**
-       * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 1496;</code>
+       * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 50000;</code>
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGiftOrBuilder getBeyondGachaGiftOrBuilder() {
-        if ((contentCase_ == 1496) && (beyondGachaGiftBuilder_ != null)) {
+        if ((contentCase_ == 50000) && (beyondGachaGiftBuilder_ != null)) {
           return beyondGachaGiftBuilder_.getMessageOrBuilder();
         } else {
-          if (contentCase_ == 1496) {
+          if (contentCase_ == 50000) {
             return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift) content_;
           }
           return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift.getDefaultInstance();
         }
       }
       /**
-       * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 1496;</code>
+       * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 50000;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift.Builder, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGiftOrBuilder> 
           getBeyondGachaGiftFieldBuilder() {
         if (beyondGachaGiftBuilder_ == null) {
-          if (!(contentCase_ == 1496)) {
+          if (!(contentCase_ == 50000)) {
             content_ = emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift.getDefaultInstance();
           }
           beyondGachaGiftBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -10817,7 +10817,7 @@ public final class ChatInfoOuterClass {
                   isClean());
           content_ = null;
         }
-        contentCase_ = 1496;
+        contentCase_ = 50000;
         onChanged();;
         return beyondGachaGiftBuilder_;
       }
@@ -10825,33 +10825,33 @@ public final class ChatInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamInvitation, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamInvitation.Builder, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamInvitationOrBuilder> beyondTeamInvitationBuilder_;
       /**
-       * <code>.ChatInfo._BeyondTeamInvitation beyond_team_invitation = 1613;</code>
+       * <code>.ChatInfo._BeyondTeamInvitation beyond_team_invitation = 1953;</code>
        * @return Whether the beyondTeamInvitation field is set.
        */
       @java.lang.Override
       public boolean hasBeyondTeamInvitation() {
-        return contentCase_ == 1613;
+        return contentCase_ == 1953;
       }
       /**
-       * <code>.ChatInfo._BeyondTeamInvitation beyond_team_invitation = 1613;</code>
+       * <code>.ChatInfo._BeyondTeamInvitation beyond_team_invitation = 1953;</code>
        * @return The beyondTeamInvitation.
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamInvitation getBeyondTeamInvitation() {
         if (beyondTeamInvitationBuilder_ == null) {
-          if (contentCase_ == 1613) {
+          if (contentCase_ == 1953) {
             return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamInvitation) content_;
           }
           return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamInvitation.getDefaultInstance();
         } else {
-          if (contentCase_ == 1613) {
+          if (contentCase_ == 1953) {
             return beyondTeamInvitationBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamInvitation.getDefaultInstance();
         }
       }
       /**
-       * <code>.ChatInfo._BeyondTeamInvitation beyond_team_invitation = 1613;</code>
+       * <code>.ChatInfo._BeyondTeamInvitation beyond_team_invitation = 1953;</code>
        */
       public Builder setBeyondTeamInvitation(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamInvitation value) {
         if (beyondTeamInvitationBuilder_ == null) {
@@ -10863,11 +10863,11 @@ public final class ChatInfoOuterClass {
         } else {
           beyondTeamInvitationBuilder_.setMessage(value);
         }
-        contentCase_ = 1613;
+        contentCase_ = 1953;
         return this;
       }
       /**
-       * <code>.ChatInfo._BeyondTeamInvitation beyond_team_invitation = 1613;</code>
+       * <code>.ChatInfo._BeyondTeamInvitation beyond_team_invitation = 1953;</code>
        */
       public Builder setBeyondTeamInvitation(
           emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamInvitation.Builder builderForValue) {
@@ -10877,15 +10877,15 @@ public final class ChatInfoOuterClass {
         } else {
           beyondTeamInvitationBuilder_.setMessage(builderForValue.build());
         }
-        contentCase_ = 1613;
+        contentCase_ = 1953;
         return this;
       }
       /**
-       * <code>.ChatInfo._BeyondTeamInvitation beyond_team_invitation = 1613;</code>
+       * <code>.ChatInfo._BeyondTeamInvitation beyond_team_invitation = 1953;</code>
        */
       public Builder mergeBeyondTeamInvitation(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamInvitation value) {
         if (beyondTeamInvitationBuilder_ == null) {
-          if (contentCase_ == 1613 &&
+          if (contentCase_ == 1953 &&
               content_ != emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamInvitation.getDefaultInstance()) {
             content_ = emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamInvitation.newBuilder((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamInvitation) content_)
                 .mergeFrom(value).buildPartial();
@@ -10894,26 +10894,26 @@ public final class ChatInfoOuterClass {
           }
           onChanged();
         } else {
-          if (contentCase_ == 1613) {
+          if (contentCase_ == 1953) {
             beyondTeamInvitationBuilder_.mergeFrom(value);
           }
           beyondTeamInvitationBuilder_.setMessage(value);
         }
-        contentCase_ = 1613;
+        contentCase_ = 1953;
         return this;
       }
       /**
-       * <code>.ChatInfo._BeyondTeamInvitation beyond_team_invitation = 1613;</code>
+       * <code>.ChatInfo._BeyondTeamInvitation beyond_team_invitation = 1953;</code>
        */
       public Builder clearBeyondTeamInvitation() {
         if (beyondTeamInvitationBuilder_ == null) {
-          if (contentCase_ == 1613) {
+          if (contentCase_ == 1953) {
             contentCase_ = 0;
             content_ = null;
             onChanged();
           }
         } else {
-          if (contentCase_ == 1613) {
+          if (contentCase_ == 1953) {
             contentCase_ = 0;
             content_ = null;
           }
@@ -10922,33 +10922,33 @@ public final class ChatInfoOuterClass {
         return this;
       }
       /**
-       * <code>.ChatInfo._BeyondTeamInvitation beyond_team_invitation = 1613;</code>
+       * <code>.ChatInfo._BeyondTeamInvitation beyond_team_invitation = 1953;</code>
        */
       public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamInvitation.Builder getBeyondTeamInvitationBuilder() {
         return getBeyondTeamInvitationFieldBuilder().getBuilder();
       }
       /**
-       * <code>.ChatInfo._BeyondTeamInvitation beyond_team_invitation = 1613;</code>
+       * <code>.ChatInfo._BeyondTeamInvitation beyond_team_invitation = 1953;</code>
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamInvitationOrBuilder getBeyondTeamInvitationOrBuilder() {
-        if ((contentCase_ == 1613) && (beyondTeamInvitationBuilder_ != null)) {
+        if ((contentCase_ == 1953) && (beyondTeamInvitationBuilder_ != null)) {
           return beyondTeamInvitationBuilder_.getMessageOrBuilder();
         } else {
-          if (contentCase_ == 1613) {
+          if (contentCase_ == 1953) {
             return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamInvitation) content_;
           }
           return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamInvitation.getDefaultInstance();
         }
       }
       /**
-       * <code>.ChatInfo._BeyondTeamInvitation beyond_team_invitation = 1613;</code>
+       * <code>.ChatInfo._BeyondTeamInvitation beyond_team_invitation = 1953;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamInvitation, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamInvitation.Builder, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamInvitationOrBuilder> 
           getBeyondTeamInvitationFieldBuilder() {
         if (beyondTeamInvitationBuilder_ == null) {
-          if (!(contentCase_ == 1613)) {
+          if (!(contentCase_ == 1953)) {
             content_ = emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamInvitation.getDefaultInstance();
           }
           beyondTeamInvitationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -10958,14 +10958,14 @@ public final class ChatInfoOuterClass {
                   isClean());
           content_ = null;
         }
-        contentCase_ = 1613;
+        contentCase_ = 1953;
         onChanged();;
         return beyondTeamInvitationBuilder_;
       }
 
       private java.lang.Object Xuid_ = "";
       /**
-       * <code>string _xuid = 2;</code>
+       * <code>string _xuid = 13;</code>
        * @return The xuid.
        */
       public java.lang.String getXuid() {
@@ -10981,7 +10981,7 @@ public final class ChatInfoOuterClass {
         }
       }
       /**
-       * <code>string _xuid = 2;</code>
+       * <code>string _xuid = 13;</code>
        * @return The bytes for xuid.
        */
       public com.google.protobuf.ByteString
@@ -10998,7 +10998,7 @@ public final class ChatInfoOuterClass {
         }
       }
       /**
-       * <code>string _xuid = 2;</code>
+       * <code>string _xuid = 13;</code>
        * @param value The xuid to set.
        * @return This builder for chaining.
        */
@@ -11013,7 +11013,7 @@ public final class ChatInfoOuterClass {
         return this;
       }
       /**
-       * <code>string _xuid = 2;</code>
+       * <code>string _xuid = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearXuid() {
@@ -11023,7 +11023,7 @@ public final class ChatInfoOuterClass {
         return this;
       }
       /**
-       * <code>string _xuid = 2;</code>
+       * <code>string _xuid = 13;</code>
        * @param value The bytes for xuid to set.
        * @return This builder for chaining.
        */
@@ -11041,7 +11041,7 @@ public final class ChatInfoOuterClass {
 
       private int toUid_ ;
       /**
-       * <code>uint32 to_uid = 3;</code>
+       * <code>uint32 to_uid = 9;</code>
        * @return The toUid.
        */
       @java.lang.Override
@@ -11049,7 +11049,7 @@ public final class ChatInfoOuterClass {
         return toUid_;
       }
       /**
-       * <code>uint32 to_uid = 3;</code>
+       * <code>uint32 to_uid = 9;</code>
        * @param value The toUid to set.
        * @return This builder for chaining.
        */
@@ -11060,7 +11060,7 @@ public final class ChatInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 to_uid = 3;</code>
+       * <code>uint32 to_uid = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearToUid() {
@@ -11072,7 +11072,7 @@ public final class ChatInfoOuterClass {
 
       private int aLKIPKCAPFL_ ;
       /**
-       * <code>uint32 ALKIPKCAPFL = 5;</code>
+       * <code>uint32 ALKIPKCAPFL = 8;</code>
        * @return The aLKIPKCAPFL.
        */
       @java.lang.Override
@@ -11080,7 +11080,7 @@ public final class ChatInfoOuterClass {
         return aLKIPKCAPFL_;
       }
       /**
-       * <code>uint32 ALKIPKCAPFL = 5;</code>
+       * <code>uint32 ALKIPKCAPFL = 8;</code>
        * @param value The aLKIPKCAPFL to set.
        * @return This builder for chaining.
        */
@@ -11091,7 +11091,7 @@ public final class ChatInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 ALKIPKCAPFL = 5;</code>
+       * <code>uint32 ALKIPKCAPFL = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearALKIPKCAPFL() {
@@ -11103,7 +11103,7 @@ public final class ChatInfoOuterClass {
 
       private int platformType_ ;
       /**
-       * <code>uint32 platform_type = 7;</code>
+       * <code>uint32 platform_type = 4;</code>
        * @return The platformType.
        */
       @java.lang.Override
@@ -11111,7 +11111,7 @@ public final class ChatInfoOuterClass {
         return platformType_;
       }
       /**
-       * <code>uint32 platform_type = 7;</code>
+       * <code>uint32 platform_type = 4;</code>
        * @param value The platformType to set.
        * @return This builder for chaining.
        */
@@ -11122,7 +11122,7 @@ public final class ChatInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 platform_type = 7;</code>
+       * <code>uint32 platform_type = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearPlatformType() {
@@ -11134,7 +11134,7 @@ public final class ChatInfoOuterClass {
 
       private int uid_ ;
       /**
-       * <code>uint32 uid = 8;</code>
+       * <code>uint32 uid = 5;</code>
        * @return The uid.
        */
       @java.lang.Override
@@ -11142,7 +11142,7 @@ public final class ChatInfoOuterClass {
         return uid_;
       }
       /**
-       * <code>uint32 uid = 8;</code>
+       * <code>uint32 uid = 5;</code>
        * @param value The uid to set.
        * @return This builder for chaining.
        */
@@ -11153,7 +11153,7 @@ public final class ChatInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 uid = 8;</code>
+       * <code>uint32 uid = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearUid() {
@@ -11165,7 +11165,7 @@ public final class ChatInfoOuterClass {
 
       private int time_ ;
       /**
-       * <code>uint32 time = 9;</code>
+       * <code>uint32 time = 1;</code>
        * @return The time.
        */
       @java.lang.Override
@@ -11173,7 +11173,7 @@ public final class ChatInfoOuterClass {
         return time_;
       }
       /**
-       * <code>uint32 time = 9;</code>
+       * <code>uint32 time = 1;</code>
        * @param value The time to set.
        * @return This builder for chaining.
        */
@@ -11184,7 +11184,7 @@ public final class ChatInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 time = 9;</code>
+       * <code>uint32 time = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearTime() {
@@ -11196,7 +11196,7 @@ public final class ChatInfoOuterClass {
 
       private long oIEHJMHHCFB_ ;
       /**
-       * <code>uint64 OIEHJMHHCFB = 10;</code>
+       * <code>uint64 OIEHJMHHCFB = 15;</code>
        * @return The oIEHJMHHCFB.
        */
       @java.lang.Override
@@ -11204,7 +11204,7 @@ public final class ChatInfoOuterClass {
         return oIEHJMHHCFB_;
       }
       /**
-       * <code>uint64 OIEHJMHHCFB = 10;</code>
+       * <code>uint64 OIEHJMHHCFB = 15;</code>
        * @param value The oIEHJMHHCFB to set.
        * @return This builder for chaining.
        */
@@ -11215,7 +11215,7 @@ public final class ChatInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint64 OIEHJMHHCFB = 10;</code>
+       * <code>uint64 OIEHJMHHCFB = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearOIEHJMHHCFB() {
@@ -11227,7 +11227,7 @@ public final class ChatInfoOuterClass {
 
       private boolean isRead_ ;
       /**
-       * <code>bool is_read = 13;</code>
+       * <code>bool is_read = 3;</code>
        * @return The isRead.
        */
       @java.lang.Override
@@ -11235,7 +11235,7 @@ public final class ChatInfoOuterClass {
         return isRead_;
       }
       /**
-       * <code>bool is_read = 13;</code>
+       * <code>bool is_read = 3;</code>
        * @param value The isRead to set.
        * @return This builder for chaining.
        */
@@ -11246,7 +11246,7 @@ public final class ChatInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_read = 13;</code>
+       * <code>bool is_read = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsRead() {
@@ -11258,7 +11258,7 @@ public final class ChatInfoOuterClass {
 
       private int sequence_ ;
       /**
-       * <code>uint32 sequence = 15;</code>
+       * <code>uint32 sequence = 6;</code>
        * @return The sequence.
        */
       @java.lang.Override
@@ -11266,7 +11266,7 @@ public final class ChatInfoOuterClass {
         return sequence_;
       }
       /**
-       * <code>uint32 sequence = 15;</code>
+       * <code>uint32 sequence = 6;</code>
        * @param value The sequence to set.
        * @return This builder for chaining.
        */
@@ -11277,7 +11277,7 @@ public final class ChatInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 sequence = 15;</code>
+       * <code>uint32 sequence = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearSequence() {
@@ -11403,57 +11403,57 @@ public final class ChatInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\016ChatInfo.proto\"\212\017\n\010ChatInfo\022\030\n\016is_ment" +
-      "ion_all\030\001 \001(\010H\000\022\027\n\rmentioned_uid\030\014 \001(\rH\000" +
-      "\022D\n\027beyond_team_recruitment\030\202\003 \001(\0132 .Cha" +
+      "\n\016ChatInfo.proto\"\217\017\n\010ChatInfo\022\030\n\016is_ment" +
+      "ion_all\030\002 \001(\010H\000\022\027\n\rmentioned_uid\030\014 \001(\rH\000" +
+      "\022D\n\027beyond_team_recruitment\030\256\005 \001(\0132 .Cha" +
       "tInfo._BeyondTeamRecruitmentH\001\022G\n\031beyond" +
-      "_costume_share_code\030\212\003 \001(\0132!.ChatInfo._B" +
-      "eyondCostumeShareCodeH\001\022\017\n\004icon\030\216\005 \001(\rH\001" +
-      "\022B\n\026beyond_room_invitation\030\373\005 \001(\0132\037.Chat" +
+      "_costume_share_code\030\250\005 \001(\0132!.ChatInfo._B" +
+      "eyondCostumeShareCodeH\001\022\017\n\004icon\030\250\013 \001(\rH\001" +
+      "\022B\n\026beyond_room_invitation\030\366\005 \001(\0132\037.Chat" +
       "Info._BeyondRoomInvitationH\001\022O\n\035beyond_c" +
-      "ollection_new_captain\030\301\006 \001(\0132%.ChatInfo." +
+      "ollection_new_captain\030\274\001 \001(\0132%.ChatInfo." +
       "_BeyondCollectionNewCaptainH\001\022,\n\013system_" +
-      "hint\030\246\007 \001(\0132\024.ChatInfo.SystemHintH\001\0225\n\017h" +
-      "all_invitation\030\220\t \001(\0132\031.ChatInfo._HallIn" +
-      "vitationH\001\022\017\n\004text\030\373\t \001(\tH\001\022D\n\027beyond_te" +
-      "am_application\030\307\n \001(\0132 .ChatInfo._Beyond" +
+      "hint\030\375\005 \001(\0132\024.ChatInfo.SystemHintH\001\0225\n\017h" +
+      "all_invitation\030\227\016 \001(\0132\031.ChatInfo._HallIn" +
+      "vitationH\001\022\017\n\004text\030\301\017 \001(\tH\001\022D\n\027beyond_te" +
+      "am_application\030\215\004 \001(\0132 .ChatInfo._Beyond" +
       "TeamApplicationH\001\022J\n\032hall_recruiting_inv" +
-      "itation\030\372\n \001(\0132#.ChatInfo._HallRecruitin" +
-      "gInvitationH\001\0228\n\021beyond_gacha_gift\030\330\013 \001(" +
-      "\0132\032.ChatInfo._BeyondGachaGiftH\001\022B\n\026beyon" +
-      "d_team_invitation\030\315\014 \001(\0132\037.ChatInfo._Bey" +
-      "ondTeamInvitationH\001\022\r\n\005_xuid\030\002 \001(\t\022\016\n\006to" +
-      "_uid\030\003 \001(\r\022\023\n\013ALKIPKCAPFL\030\005 \001(\r\022\025\n\rplatf" +
-      "orm_type\030\007 \001(\r\022\013\n\003uid\030\010 \001(\r\022\014\n\004time\030\t \001(" +
-      "\r\022\023\n\013OIEHJMHHCFB\030\n \001(\004\022\017\n\007is_read\030\r \001(\010\022" +
-      "\020\n\010sequence\030\017 \001(\r\032,\n\nSystemHint\022\014\n\004type\030" +
-      "\004 \001(\r\022\020\n\010uid_list\030\r \003(\r\032\\\n\033_BeyondCollec" +
-      "tionNewCaptain\022\023\n\013PCLIOFOLGJG\030\010 \001(\t\022\023\n\013P" +
-      "IIDPLPGDOJ\030\013 \001(\r\022\023\n\013OHANCMMCDHI\030\014 \001(\r\032\244\001" +
-      "\n\017_HallInvitation\022\023\n\013DGNNJCJPGEO\030\001 \001(\r\022\023" +
-      "\n\013BJFFLGDNMPL\030\004 \001(\004\022\023\n\013CFPLKFNPNAM\030\006 \003(\r" +
-      "\022\023\n\013GHNMBPLBBFN\030\010 \001(\r\022\023\n\013BOJNPHONGMP\030\013 \001" +
-      "(\004\022\023\n\013CNFEBIOPANP\030\014 \001(\r\022\023\n\013EPHGOMPBKJA\030\017" +
-      " \001(\r\032k\n\025_BeyondTeamInvitation\022\023\n\013EPHGOMP" +
-      "BKJA\030\013 \001(\r\022\023\n\013BOJNPHONGMP\030\014 \001(\004\022\023\n\013GHNMB" +
-      "PLBBFN\030\016 \001(\r\022\023\n\013CNFEBIOPANP\030\017 \001(\r\032k\n\026_Be" +
-      "yondTeamApplication\022\023\n\013MIHICCAEFOM\030\001 \001(\004" +
-      "\022\023\n\013GJNLFEJCKPA\030\n \001(\r\022\022\n\ntarget_uid\030\r \001(" +
-      "\r\022\023\n\013HDMBGALJFMK\030\017 \001(\r\032W\n\026_BeyondTeamRec" +
-      "ruitment\022\023\n\013OJDIIPKINNL\030\006 \001(\r\022\023\n\013FDIFPEH" +
-      "DKFD\030\n \001(\r\022\023\n\013EILHBPNLEFB\030\016 \001(\r\032\200\001\n\025_Bey" +
-      "ondRoomInvitation\022\023\n\013GHNMBPLBBFN\030\002 \001(\r\022\023" +
-      "\n\013BOJNPHONGMP\030\006 \001(\004\022\023\n\013NMAOGMMKNBG\030\010 \001(\004" +
-      "\022\023\n\013CNFEBIOPANP\030\013 \001(\r\022\023\n\013EPHGOMPBKJA\030\014 \001" +
-      "(\r\032\'\n\020_BeyondGachaGift\022\023\n\013transaction\030\004 " +
-      "\001(\t\032.\n\027_BeyondCostumeShareCode\022\023\n\013FEPAFA" +
-      "NMNLK\030\007 \001(\014\032\231\001\n\031_HallRecruitingInvitatio" +
-      "n\022\023\n\013DKLMLPNMIHN\030\002 \001(\004\022\023\n\013DELCBHHBDCJ\030\005 " +
-      "\001(\r\022\023\n\013EILHBPNLEFB\030\010 \001(\r\022\023\n\013LMNLLOEFBOM\030" +
-      "\n \001(\r\022\023\n\013GOFEPGIPJNF\030\016 \003(\r\022\023\n\013OJDIIPKINN" +
-      "L\030\017 \001(\004B\t\n\007mentionB\t\n\007contentB/\n\031emu.gra" +
-      "sscutter.net.protoB\022ChatInfoOuterClassb\006" +
-      "proto3"
+      "itation\030\202\006 \001(\0132#.ChatInfo._HallRecruitin" +
+      "gInvitationH\001\0229\n\021beyond_gacha_gift\030\320\206\003 \001" +
+      "(\0132\032.ChatInfo._BeyondGachaGiftH\001\022B\n\026beyo" +
+      "nd_team_invitation\030\241\017 \001(\0132\037.ChatInfo._Be" +
+      "yondTeamInvitationH\001\022\r\n\005_xuid\030\r \001(\t\022\016\n\006t" +
+      "o_uid\030\t \001(\r\022\023\n\013ALKIPKCAPFL\030\010 \001(\r\022\025\n\rplat" +
+      "form_type\030\004 \001(\r\022\013\n\003uid\030\005 \001(\r\022\014\n\004time\030\001 \001" +
+      "(\r\022\023\n\013OIEHJMHHCFB\030\017 \001(\004\022\017\n\007is_read\030\003 \001(\010" +
+      "\022\020\n\010sequence\030\006 \001(\r\032,\n\nSystemHint\022\014\n\004type" +
+      "\030\005 \001(\r\022\020\n\010uid_list\030\006 \003(\r\032\\\n\033_BeyondColle" +
+      "ctionNewCaptain\022\023\n\013PCLIOFOLGJG\030\010 \001(\t\022\023\n\013" +
+      "PIIDPLPGDOJ\030\013 \001(\r\022\023\n\013OHANCMMCDHI\030\014 \001(\r\032\244" +
+      "\001\n\017_HallInvitation\022\023\n\013DGNNJCJPGEO\030\016 \001(\r\022" +
+      "\023\n\013BJFFLGDNMPL\030\001 \001(\004\022\023\n\013CFPLKFNPNAM\030\007 \003(" +
+      "\r\022\023\n\013GHNMBPLBBFN\030\005 \001(\r\022\023\n\013BOJNPHONGMP\030\014 " +
+      "\001(\004\022\023\n\013CNFEBIOPANP\030\003 \001(\r\022\023\n\013EPHGOMPBKJA\030" +
+      "\t \001(\r\032k\n\025_BeyondTeamInvitation\022\023\n\013EPHGOM" +
+      "PBKJA\030\007 \001(\r\022\023\n\013BOJNPHONGMP\030\010 \001(\004\022\023\n\013GHNM" +
+      "BPLBBFN\030\n \001(\r\022\023\n\013CNFEBIOPANP\030\001 \001(\r\032k\n\026_B" +
+      "eyondTeamApplication\022\023\n\013MIHICCAEFOM\030\014 \001(" +
+      "\004\022\023\n\013GJNLFEJCKPA\030\002 \001(\r\022\022\n\ntarget_uid\030\016 \001" +
+      "(\r\022\023\n\013HDMBGALJFMK\030\n \001(\r\032W\n\026_BeyondTeamRe" +
+      "cruitment\022\023\n\013OJDIIPKINNL\030\006 \001(\r\022\023\n\013FDIFPE" +
+      "HDKFD\030\n \001(\r\022\023\n\013EILHBPNLEFB\030\016 \001(\r\032\200\001\n\025_Be" +
+      "yondRoomInvitation\022\023\n\013GHNMBPLBBFN\030\002 \001(\r\022" +
+      "\023\n\013BOJNPHONGMP\030\006 \001(\004\022\023\n\013NMAOGMMKNBG\030\010 \001(" +
+      "\004\022\023\n\013CNFEBIOPANP\030\013 \001(\r\022\023\n\013EPHGOMPBKJA\030\014 " +
+      "\001(\r\032\'\n\020_BeyondGachaGift\022\023\n\013transaction\030\004" +
+      " \001(\t\032.\n\027_BeyondCostumeShareCode\022\023\n\013FEPAF" +
+      "ANMNLK\030\007 \001(\014\032\235\001\n\031_HallRecruitingInvitati" +
+      "on\022\023\n\013DKLMLPNMIHN\030\016 \001(\004\022\025\n\013DELCBHHBDCJ\030\320" +
+      "\206\003 \001(\r\022\025\n\013EILHBPNLEFB\030\321\206\003 \001(\r\022\023\n\013LMNLLOE" +
+      "FBOM\030\017 \001(\r\022\023\n\013GOFEPGIPJNF\030\007 \003(\r\022\023\n\013OJDII" +
+      "PKINNL\030\005 \001(\004B\t\n\007mentionB\t\n\007contentB/\n\031em" +
+      "u.grasscutter.net.protoB\022ChatInfoOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

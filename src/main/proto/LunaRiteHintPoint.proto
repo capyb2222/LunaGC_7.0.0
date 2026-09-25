@@ -7,8 +7,8 @@ import "LunaRiteHintPointType.proto";
 import "Vector.proto";
 
 message LunaRiteHintPoint {
-	LunaRiteHintPointType type = 6;
-	uint32 index = 7;
-	uint32 area_id = 8;
-	Vector pos = 11;
+	LunaRiteHintPointType type = 1;
+	uint32 index = 9;
+	uint32 area_id = 2;
+	Vector pos = 6;
 }

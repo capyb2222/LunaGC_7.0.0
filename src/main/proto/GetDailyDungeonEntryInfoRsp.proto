@@ -6,6 +6,6 @@ option java_outer_classname = "GetDailyDungeonEntryInfoRspOuterClass";
 import "DailyDungeonEntryInfo.proto";
 
 message GetDailyDungeonEntryInfoRsp {
-	int32 retcode = 8;
-	repeated DailyDungeonEntryInfo daily_dungeon_info_list = 12;
+	int32 retcode = 1;
+	repeated DailyDungeonEntryInfo daily_dungeon_info_list = 15;
 }

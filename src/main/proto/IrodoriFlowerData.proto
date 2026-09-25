@@ -6,6 +6,6 @@ option java_outer_classname = "IrodoriFlowerDataOuterClass";
 import "ItemParam.proto";
 
 message IrodoriFlowerData {
-	repeated uint32 finished_theme_list = 1;
-	repeated ItemParam used_flower_list = 10;
+	repeated uint32 finished_theme_list = 9;
+	repeated ItemParam used_flower_list = 13;
 }

@@ -19,288 +19,288 @@ public final class _AquariumDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 MDCCIIFACFK = 1;</code>
+     * <code>repeated uint32 MDCCIIFACFK = 50000;</code>
      * @return A list containing the mDCCIIFACFK.
      */
     java.util.List<java.lang.Integer> getMDCCIIFACFKList();
     /**
-     * <code>repeated uint32 MDCCIIFACFK = 1;</code>
+     * <code>repeated uint32 MDCCIIFACFK = 50000;</code>
      * @return The count of mDCCIIFACFK.
      */
     int getMDCCIIFACFKCount();
     /**
-     * <code>repeated uint32 MDCCIIFACFK = 1;</code>
+     * <code>repeated uint32 MDCCIIFACFK = 50000;</code>
      * @param index The index of the element to return.
      * @return The mDCCIIFACFK at the given index.
      */
     int getMDCCIIFACFK(int index);
 
     /**
-     * <code>uint32 DGJCEMANOCM = 2;</code>
+     * <code>uint32 DGJCEMANOCM = 50001;</code>
      * @return The dGJCEMANOCM.
      */
     int getDGJCEMANOCM();
 
     /**
-     * <code>repeated uint32 GCCOJAGHNKJ = 3;</code>
+     * <code>repeated uint32 GCCOJAGHNKJ = 50002;</code>
      * @return A list containing the gCCOJAGHNKJ.
      */
     java.util.List<java.lang.Integer> getGCCOJAGHNKJList();
     /**
-     * <code>repeated uint32 GCCOJAGHNKJ = 3;</code>
+     * <code>repeated uint32 GCCOJAGHNKJ = 50002;</code>
      * @return The count of gCCOJAGHNKJ.
      */
     int getGCCOJAGHNKJCount();
     /**
-     * <code>repeated uint32 GCCOJAGHNKJ = 3;</code>
+     * <code>repeated uint32 GCCOJAGHNKJ = 50002;</code>
      * @param index The index of the element to return.
      * @return The gCCOJAGHNKJ at the given index.
      */
     int getGCCOJAGHNKJ(int index);
 
     /**
-     * <code>repeated .Uint32Pair item_count_list = 4;</code>
+     * <code>repeated .Uint32Pair item_count_list = 50003;</code>
      */
     java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> 
         getItemCountListList();
     /**
-     * <code>repeated .Uint32Pair item_count_list = 4;</code>
+     * <code>repeated .Uint32Pair item_count_list = 50003;</code>
      */
     emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getItemCountList(int index);
     /**
-     * <code>repeated .Uint32Pair item_count_list = 4;</code>
+     * <code>repeated .Uint32Pair item_count_list = 50003;</code>
      */
     int getItemCountListCount();
     /**
-     * <code>repeated .Uint32Pair item_count_list = 4;</code>
+     * <code>repeated .Uint32Pair item_count_list = 50003;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
         getItemCountListOrBuilderList();
     /**
-     * <code>repeated .Uint32Pair item_count_list = 4;</code>
+     * <code>repeated .Uint32Pair item_count_list = 50003;</code>
      */
     emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getItemCountListOrBuilder(
         int index);
 
     /**
-     * <code>repeated ._AquariumDivingTaskInfo task_list = 5;</code>
+     * <code>repeated ._AquariumDivingTaskInfo task_list = 10;</code>
      */
     java.util.List<emu.grasscutter.net.proto._AquariumDivingTaskInfoOuterClass._AquariumDivingTaskInfo> 
         getTaskListList();
     /**
-     * <code>repeated ._AquariumDivingTaskInfo task_list = 5;</code>
+     * <code>repeated ._AquariumDivingTaskInfo task_list = 10;</code>
      */
     emu.grasscutter.net.proto._AquariumDivingTaskInfoOuterClass._AquariumDivingTaskInfo getTaskList(int index);
     /**
-     * <code>repeated ._AquariumDivingTaskInfo task_list = 5;</code>
+     * <code>repeated ._AquariumDivingTaskInfo task_list = 10;</code>
      */
     int getTaskListCount();
     /**
-     * <code>repeated ._AquariumDivingTaskInfo task_list = 5;</code>
+     * <code>repeated ._AquariumDivingTaskInfo task_list = 10;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto._AquariumDivingTaskInfoOuterClass._AquariumDivingTaskInfoOrBuilder> 
         getTaskListOrBuilderList();
     /**
-     * <code>repeated ._AquariumDivingTaskInfo task_list = 5;</code>
+     * <code>repeated ._AquariumDivingTaskInfo task_list = 10;</code>
      */
     emu.grasscutter.net.proto._AquariumDivingTaskInfoOuterClass._AquariumDivingTaskInfoOrBuilder getTaskListOrBuilder(
         int index);
 
     /**
-     * <code>repeated .Uint32Pair FKCIFOHLLBM = 6;</code>
+     * <code>repeated .Uint32Pair FKCIFOHLLBM = 50004;</code>
      */
     java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> 
         getFKCIFOHLLBMList();
     /**
-     * <code>repeated .Uint32Pair FKCIFOHLLBM = 6;</code>
+     * <code>repeated .Uint32Pair FKCIFOHLLBM = 50004;</code>
      */
     emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getFKCIFOHLLBM(int index);
     /**
-     * <code>repeated .Uint32Pair FKCIFOHLLBM = 6;</code>
+     * <code>repeated .Uint32Pair FKCIFOHLLBM = 50004;</code>
      */
     int getFKCIFOHLLBMCount();
     /**
-     * <code>repeated .Uint32Pair FKCIFOHLLBM = 6;</code>
+     * <code>repeated .Uint32Pair FKCIFOHLLBM = 50004;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
         getFKCIFOHLLBMOrBuilderList();
     /**
-     * <code>repeated .Uint32Pair FKCIFOHLLBM = 6;</code>
+     * <code>repeated .Uint32Pair FKCIFOHLLBM = 50004;</code>
      */
     emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getFKCIFOHLLBMOrBuilder(
         int index);
 
     /**
-     * <code>repeated uint32 OIECMONFHBM = 7;</code>
+     * <code>repeated uint32 OIECMONFHBM = 50005;</code>
      * @return A list containing the oIECMONFHBM.
      */
     java.util.List<java.lang.Integer> getOIECMONFHBMList();
     /**
-     * <code>repeated uint32 OIECMONFHBM = 7;</code>
+     * <code>repeated uint32 OIECMONFHBM = 50005;</code>
      * @return The count of oIECMONFHBM.
      */
     int getOIECMONFHBMCount();
     /**
-     * <code>repeated uint32 OIECMONFHBM = 7;</code>
+     * <code>repeated uint32 OIECMONFHBM = 50005;</code>
      * @param index The index of the element to return.
      * @return The oIECMONFHBM at the given index.
      */
     int getOIECMONFHBM(int index);
 
     /**
-     * <code>bool LABPMPANIDK = 8;</code>
+     * <code>bool LABPMPANIDK = 50006;</code>
      * @return The lABPMPANIDK.
      */
     boolean getLABPMPANIDK();
 
     /**
-     * <code>uint32 FOPBJKEMJPF = 9;</code>
+     * <code>uint32 FOPBJKEMJPF = 50007;</code>
      * @return The fOPBJKEMJPF.
      */
     int getFOPBJKEMJPF();
 
     /**
-     * <code>uint32 IMDGIKDEBOD = 10;</code>
+     * <code>uint32 IMDGIKDEBOD = 50008;</code>
      * @return The iMDGIKDEBOD.
      */
     int getIMDGIKDEBOD();
 
     /**
-     * <code>bool PHIFBJJBPLK = 11;</code>
+     * <code>bool PHIFBJJBPLK = 50009;</code>
      * @return The pHIFBJJBPLK.
      */
     boolean getPHIFBJJBPLK();
 
     /**
-     * <code>uint32 stage_id = 12;</code>
+     * <code>uint32 stage_id = 6;</code>
      * @return The stageId.
      */
     int getStageId();
 
     /**
-     * <code>bool AKNKPOEJHBO = 13;</code>
+     * <code>bool AKNKPOEJHBO = 50010;</code>
      * @return The aKNKPOEJHBO.
      */
     boolean getAKNKPOEJHBO();
 
     /**
-     * <code>uint32 NAOEDFPLOAE = 14;</code>
+     * <code>uint32 NAOEDFPLOAE = 50011;</code>
      * @return The nAOEDFPLOAE.
      */
     int getNAOEDFPLOAE();
 
     /**
-     * <code>uint32 EDMCKBNOELC = 15;</code>
+     * <code>uint32 EDMCKBNOELC = 50012;</code>
      * @return The eDMCKBNOELC.
      */
     int getEDMCKBNOELC();
 
     /**
-     * <code>repeated uint32 PAEGHMOCAME = 122;</code>
+     * <code>repeated uint32 PAEGHMOCAME = 50013;</code>
      * @return A list containing the pAEGHMOCAME.
      */
     java.util.List<java.lang.Integer> getPAEGHMOCAMEList();
     /**
-     * <code>repeated uint32 PAEGHMOCAME = 122;</code>
+     * <code>repeated uint32 PAEGHMOCAME = 50013;</code>
      * @return The count of pAEGHMOCAME.
      */
     int getPAEGHMOCAMECount();
     /**
-     * <code>repeated uint32 PAEGHMOCAME = 122;</code>
+     * <code>repeated uint32 PAEGHMOCAME = 50013;</code>
      * @param index The index of the element to return.
      * @return The pAEGHMOCAME at the given index.
      */
     int getPAEGHMOCAME(int index);
 
     /**
-     * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 416;</code>
+     * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 178;</code>
      */
     java.util.List<emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent> 
         getPCJNHLNMKFLList();
     /**
-     * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 416;</code>
+     * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 178;</code>
      */
     emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent getPCJNHLNMKFL(int index);
     /**
-     * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 416;</code>
+     * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 178;</code>
      */
     int getPCJNHLNMKFLCount();
     /**
-     * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 416;</code>
+     * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 178;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEventOrBuilder> 
         getPCJNHLNMKFLOrBuilderList();
     /**
-     * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 416;</code>
+     * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 178;</code>
      */
     emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEventOrBuilder getPCJNHLNMKFLOrBuilder(
         int index);
 
     /**
-     * <code>uint32 JMBAEDIMHFN = 457;</code>
+     * <code>uint32 JMBAEDIMHFN = 50014;</code>
      * @return The jMBAEDIMHFN.
      */
     int getJMBAEDIMHFN();
 
     /**
-     * <code>bool OAOKCCGGMGB = 693;</code>
+     * <code>bool OAOKCCGGMGB = 50015;</code>
      * @return The oAOKCCGGMGB.
      */
     boolean getOAOKCCGGMGB();
 
     /**
-     * <code>repeated uint32 PMJLEBGOILE = 731;</code>
+     * <code>repeated uint32 PMJLEBGOILE = 50016;</code>
      * @return A list containing the pMJLEBGOILE.
      */
     java.util.List<java.lang.Integer> getPMJLEBGOILEList();
     /**
-     * <code>repeated uint32 PMJLEBGOILE = 731;</code>
+     * <code>repeated uint32 PMJLEBGOILE = 50016;</code>
      * @return The count of pMJLEBGOILE.
      */
     int getPMJLEBGOILECount();
     /**
-     * <code>repeated uint32 PMJLEBGOILE = 731;</code>
+     * <code>repeated uint32 PMJLEBGOILE = 50016;</code>
      * @param index The index of the element to return.
      * @return The pMJLEBGOILE at the given index.
      */
     int getPMJLEBGOILE(int index);
 
     /**
-     * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 1341;</code>
+     * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 50017;</code>
      */
     java.util.List<emu.grasscutter.net.proto.IIOFHFIDENJOuterClass.IIOFHFIDENJ> 
         getFLPPKAACIAAList();
     /**
-     * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 1341;</code>
+     * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 50017;</code>
      */
     emu.grasscutter.net.proto.IIOFHFIDENJOuterClass.IIOFHFIDENJ getFLPPKAACIAA(int index);
     /**
-     * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 1341;</code>
+     * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 50017;</code>
      */
     int getFLPPKAACIAACount();
     /**
-     * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 1341;</code>
+     * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 50017;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.IIOFHFIDENJOuterClass.IIOFHFIDENJOrBuilder> 
         getFLPPKAACIAAOrBuilderList();
     /**
-     * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 1341;</code>
+     * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 50017;</code>
      */
     emu.grasscutter.net.proto.IIOFHFIDENJOuterClass.IIOFHFIDENJOrBuilder getFLPPKAACIAAOrBuilder(
         int index);
 
     /**
-     * <code>repeated uint32 HFGLFBIEAAM = 2020;</code>
+     * <code>repeated uint32 HFGLFBIEAAM = 50018;</code>
      * @return A list containing the hFGLFBIEAAM.
      */
     java.util.List<java.lang.Integer> getHFGLFBIEAAMList();
     /**
-     * <code>repeated uint32 HFGLFBIEAAM = 2020;</code>
+     * <code>repeated uint32 HFGLFBIEAAM = 50018;</code>
      * @return The count of hFGLFBIEAAM.
      */
     int getHFGLFBIEAAMCount();
     /**
-     * <code>repeated uint32 HFGLFBIEAAM = 2020;</code>
+     * <code>repeated uint32 HFGLFBIEAAM = 50018;</code>
      * @param index The index of the element to return.
      * @return The hFGLFBIEAAM at the given index.
      */
@@ -363,7 +363,30 @@ public final class _AquariumDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 48: {
+
+              stageId_ = input.readUInt32();
+              break;
+            }
+            case 82: {
+              if (!((mutable_bitField0_ & 0x00000008) != 0)) {
+                taskList_ = new java.util.ArrayList<emu.grasscutter.net.proto._AquariumDivingTaskInfoOuterClass._AquariumDivingTaskInfo>();
+                mutable_bitField0_ |= 0x00000008;
+              }
+              taskList_.add(
+                  input.readMessage(emu.grasscutter.net.proto._AquariumDivingTaskInfoOuterClass._AquariumDivingTaskInfo.parser(), extensionRegistry));
+              break;
+            }
+            case 1426: {
+              if (!((mutable_bitField0_ & 0x00000080) != 0)) {
+                pCJNHLNMKFL_ = new java.util.ArrayList<emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent>();
+                mutable_bitField0_ |= 0x00000080;
+              }
+              pCJNHLNMKFL_.add(
+                  input.readMessage(emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent.parser(), extensionRegistry));
+              break;
+            }
+            case 400000: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 mDCCIIFACFK_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -371,7 +394,7 @@ public final class _AquariumDetailInfoOuterClass {
               mDCCIIFACFK_.addInt(input.readUInt32());
               break;
             }
-            case 10: {
+            case 400002: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -384,12 +407,12 @@ public final class _AquariumDetailInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 16: {
+            case 400008: {
 
               dGJCEMANOCM_ = input.readUInt32();
               break;
             }
-            case 24: {
+            case 400016: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 gCCOJAGHNKJ_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
@@ -397,7 +420,7 @@ public final class _AquariumDetailInfoOuterClass {
               gCCOJAGHNKJ_.addInt(input.readUInt32());
               break;
             }
-            case 26: {
+            case 400018: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
@@ -410,7 +433,7 @@ public final class _AquariumDetailInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 34: {
+            case 400026: {
               if (!((mutable_bitField0_ & 0x00000004) != 0)) {
                 itemCountList_ = new java.util.ArrayList<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair>();
                 mutable_bitField0_ |= 0x00000004;
@@ -419,16 +442,7 @@ public final class _AquariumDetailInfoOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.parser(), extensionRegistry));
               break;
             }
-            case 42: {
-              if (!((mutable_bitField0_ & 0x00000008) != 0)) {
-                taskList_ = new java.util.ArrayList<emu.grasscutter.net.proto._AquariumDivingTaskInfoOuterClass._AquariumDivingTaskInfo>();
-                mutable_bitField0_ |= 0x00000008;
-              }
-              taskList_.add(
-                  input.readMessage(emu.grasscutter.net.proto._AquariumDivingTaskInfoOuterClass._AquariumDivingTaskInfo.parser(), extensionRegistry));
-              break;
-            }
-            case 50: {
+            case 400034: {
               if (!((mutable_bitField0_ & 0x00000010) != 0)) {
                 fKCIFOHLLBM_ = new java.util.ArrayList<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair>();
                 mutable_bitField0_ |= 0x00000010;
@@ -437,7 +451,7 @@ public final class _AquariumDetailInfoOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.parser(), extensionRegistry));
               break;
             }
-            case 56: {
+            case 400040: {
               if (!((mutable_bitField0_ & 0x00000020) != 0)) {
                 oIECMONFHBM_ = newIntList();
                 mutable_bitField0_ |= 0x00000020;
@@ -445,7 +459,7 @@ public final class _AquariumDetailInfoOuterClass {
               oIECMONFHBM_.addInt(input.readUInt32());
               break;
             }
-            case 58: {
+            case 400042: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000020) != 0) && input.getBytesUntilLimit() > 0) {
@@ -458,47 +472,42 @@ public final class _AquariumDetailInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 64: {
+            case 400048: {
 
               lABPMPANIDK_ = input.readBool();
               break;
             }
-            case 72: {
+            case 400056: {
 
               fOPBJKEMJPF_ = input.readUInt32();
               break;
             }
-            case 80: {
+            case 400064: {
 
               iMDGIKDEBOD_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 400072: {
 
               pHIFBJJBPLK_ = input.readBool();
               break;
             }
-            case 96: {
-
-              stageId_ = input.readUInt32();
-              break;
-            }
-            case 104: {
+            case 400080: {
 
               aKNKPOEJHBO_ = input.readBool();
               break;
             }
-            case 112: {
+            case 400088: {
 
               nAOEDFPLOAE_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 400096: {
 
               eDMCKBNOELC_ = input.readUInt32();
               break;
             }
-            case 976: {
+            case 400104: {
               if (!((mutable_bitField0_ & 0x00000040) != 0)) {
                 pAEGHMOCAME_ = newIntList();
                 mutable_bitField0_ |= 0x00000040;
@@ -506,7 +515,7 @@ public final class _AquariumDetailInfoOuterClass {
               pAEGHMOCAME_.addInt(input.readUInt32());
               break;
             }
-            case 978: {
+            case 400106: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000040) != 0) && input.getBytesUntilLimit() > 0) {
@@ -519,26 +528,17 @@ public final class _AquariumDetailInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 3330: {
-              if (!((mutable_bitField0_ & 0x00000080) != 0)) {
-                pCJNHLNMKFL_ = new java.util.ArrayList<emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent>();
-                mutable_bitField0_ |= 0x00000080;
-              }
-              pCJNHLNMKFL_.add(
-                  input.readMessage(emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent.parser(), extensionRegistry));
-              break;
-            }
-            case 3656: {
+            case 400112: {
 
               jMBAEDIMHFN_ = input.readUInt32();
               break;
             }
-            case 5544: {
+            case 400120: {
 
               oAOKCCGGMGB_ = input.readBool();
               break;
             }
-            case 5848: {
+            case 400128: {
               if (!((mutable_bitField0_ & 0x00000100) != 0)) {
                 pMJLEBGOILE_ = newIntList();
                 mutable_bitField0_ |= 0x00000100;
@@ -546,7 +546,7 @@ public final class _AquariumDetailInfoOuterClass {
               pMJLEBGOILE_.addInt(input.readUInt32());
               break;
             }
-            case 5850: {
+            case 400130: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000100) != 0) && input.getBytesUntilLimit() > 0) {
@@ -559,7 +559,7 @@ public final class _AquariumDetailInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 10730: {
+            case 400138: {
               if (!((mutable_bitField0_ & 0x00000200) != 0)) {
                 fLPPKAACIAA_ = new java.util.ArrayList<emu.grasscutter.net.proto.IIOFHFIDENJOuterClass.IIOFHFIDENJ>();
                 mutable_bitField0_ |= 0x00000200;
@@ -568,7 +568,7 @@ public final class _AquariumDetailInfoOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.IIOFHFIDENJOuterClass.IIOFHFIDENJ.parser(), extensionRegistry));
               break;
             }
-            case 16160: {
+            case 400144: {
               if (!((mutable_bitField0_ & 0x00000400) != 0)) {
                 hFGLFBIEAAM_ = newIntList();
                 mutable_bitField0_ |= 0x00000400;
@@ -576,7 +576,7 @@ public final class _AquariumDetailInfoOuterClass {
               hFGLFBIEAAM_.addInt(input.readUInt32());
               break;
             }
-            case 16162: {
+            case 400146: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000400) != 0) && input.getBytesUntilLimit() > 0) {
@@ -604,6 +604,12 @@ public final class _AquariumDetailInfoOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
+        if (((mutable_bitField0_ & 0x00000008) != 0)) {
+          taskList_ = java.util.Collections.unmodifiableList(taskList_);
+        }
+        if (((mutable_bitField0_ & 0x00000080) != 0)) {
+          pCJNHLNMKFL_ = java.util.Collections.unmodifiableList(pCJNHLNMKFL_);
+        }
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
           mDCCIIFACFK_.makeImmutable(); // C
         }
@@ -613,9 +619,6 @@ public final class _AquariumDetailInfoOuterClass {
         if (((mutable_bitField0_ & 0x00000004) != 0)) {
           itemCountList_ = java.util.Collections.unmodifiableList(itemCountList_);
         }
-        if (((mutable_bitField0_ & 0x00000008) != 0)) {
-          taskList_ = java.util.Collections.unmodifiableList(taskList_);
-        }
         if (((mutable_bitField0_ & 0x00000010) != 0)) {
           fKCIFOHLLBM_ = java.util.Collections.unmodifiableList(fKCIFOHLLBM_);
         }
@@ -624,9 +627,6 @@ public final class _AquariumDetailInfoOuterClass {
         }
         if (((mutable_bitField0_ & 0x00000040) != 0)) {
           pAEGHMOCAME_.makeImmutable(); // C
-        }
-        if (((mutable_bitField0_ & 0x00000080) != 0)) {
-          pCJNHLNMKFL_ = java.util.Collections.unmodifiableList(pCJNHLNMKFL_);
         }
         if (((mutable_bitField0_ & 0x00000100) != 0)) {
           pMJLEBGOILE_.makeImmutable(); // C
@@ -654,10 +654,10 @@ public final class _AquariumDetailInfoOuterClass {
               emu.grasscutter.net.proto._AquariumDetailInfoOuterClass._AquariumDetailInfo.class, emu.grasscutter.net.proto._AquariumDetailInfoOuterClass._AquariumDetailInfo.Builder.class);
     }
 
-    public static final int MDCCIIFACFK_FIELD_NUMBER = 1;
+    public static final int MDCCIIFACFK_FIELD_NUMBER = 50000;
     private com.google.protobuf.Internal.IntList mDCCIIFACFK_;
     /**
-     * <code>repeated uint32 MDCCIIFACFK = 1;</code>
+     * <code>repeated uint32 MDCCIIFACFK = 50000;</code>
      * @return A list containing the mDCCIIFACFK.
      */
     @java.lang.Override
@@ -666,14 +666,14 @@ public final class _AquariumDetailInfoOuterClass {
       return mDCCIIFACFK_;
     }
     /**
-     * <code>repeated uint32 MDCCIIFACFK = 1;</code>
+     * <code>repeated uint32 MDCCIIFACFK = 50000;</code>
      * @return The count of mDCCIIFACFK.
      */
     public int getMDCCIIFACFKCount() {
       return mDCCIIFACFK_.size();
     }
     /**
-     * <code>repeated uint32 MDCCIIFACFK = 1;</code>
+     * <code>repeated uint32 MDCCIIFACFK = 50000;</code>
      * @param index The index of the element to return.
      * @return The mDCCIIFACFK at the given index.
      */
@@ -682,10 +682,10 @@ public final class _AquariumDetailInfoOuterClass {
     }
     private int mDCCIIFACFKMemoizedSerializedSize = -1;
 
-    public static final int DGJCEMANOCM_FIELD_NUMBER = 2;
+    public static final int DGJCEMANOCM_FIELD_NUMBER = 50001;
     private int dGJCEMANOCM_;
     /**
-     * <code>uint32 DGJCEMANOCM = 2;</code>
+     * <code>uint32 DGJCEMANOCM = 50001;</code>
      * @return The dGJCEMANOCM.
      */
     @java.lang.Override
@@ -693,10 +693,10 @@ public final class _AquariumDetailInfoOuterClass {
       return dGJCEMANOCM_;
     }
 
-    public static final int GCCOJAGHNKJ_FIELD_NUMBER = 3;
+    public static final int GCCOJAGHNKJ_FIELD_NUMBER = 50002;
     private com.google.protobuf.Internal.IntList gCCOJAGHNKJ_;
     /**
-     * <code>repeated uint32 GCCOJAGHNKJ = 3;</code>
+     * <code>repeated uint32 GCCOJAGHNKJ = 50002;</code>
      * @return A list containing the gCCOJAGHNKJ.
      */
     @java.lang.Override
@@ -705,14 +705,14 @@ public final class _AquariumDetailInfoOuterClass {
       return gCCOJAGHNKJ_;
     }
     /**
-     * <code>repeated uint32 GCCOJAGHNKJ = 3;</code>
+     * <code>repeated uint32 GCCOJAGHNKJ = 50002;</code>
      * @return The count of gCCOJAGHNKJ.
      */
     public int getGCCOJAGHNKJCount() {
       return gCCOJAGHNKJ_.size();
     }
     /**
-     * <code>repeated uint32 GCCOJAGHNKJ = 3;</code>
+     * <code>repeated uint32 GCCOJAGHNKJ = 50002;</code>
      * @param index The index of the element to return.
      * @return The gCCOJAGHNKJ at the given index.
      */
@@ -721,17 +721,17 @@ public final class _AquariumDetailInfoOuterClass {
     }
     private int gCCOJAGHNKJMemoizedSerializedSize = -1;
 
-    public static final int ITEM_COUNT_LIST_FIELD_NUMBER = 4;
+    public static final int ITEM_COUNT_LIST_FIELD_NUMBER = 50003;
     private java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> itemCountList_;
     /**
-     * <code>repeated .Uint32Pair item_count_list = 4;</code>
+     * <code>repeated .Uint32Pair item_count_list = 50003;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> getItemCountListList() {
       return itemCountList_;
     }
     /**
-     * <code>repeated .Uint32Pair item_count_list = 4;</code>
+     * <code>repeated .Uint32Pair item_count_list = 50003;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
@@ -739,21 +739,21 @@ public final class _AquariumDetailInfoOuterClass {
       return itemCountList_;
     }
     /**
-     * <code>repeated .Uint32Pair item_count_list = 4;</code>
+     * <code>repeated .Uint32Pair item_count_list = 50003;</code>
      */
     @java.lang.Override
     public int getItemCountListCount() {
       return itemCountList_.size();
     }
     /**
-     * <code>repeated .Uint32Pair item_count_list = 4;</code>
+     * <code>repeated .Uint32Pair item_count_list = 50003;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getItemCountList(int index) {
       return itemCountList_.get(index);
     }
     /**
-     * <code>repeated .Uint32Pair item_count_list = 4;</code>
+     * <code>repeated .Uint32Pair item_count_list = 50003;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getItemCountListOrBuilder(
@@ -761,17 +761,17 @@ public final class _AquariumDetailInfoOuterClass {
       return itemCountList_.get(index);
     }
 
-    public static final int TASK_LIST_FIELD_NUMBER = 5;
+    public static final int TASK_LIST_FIELD_NUMBER = 10;
     private java.util.List<emu.grasscutter.net.proto._AquariumDivingTaskInfoOuterClass._AquariumDivingTaskInfo> taskList_;
     /**
-     * <code>repeated ._AquariumDivingTaskInfo task_list = 5;</code>
+     * <code>repeated ._AquariumDivingTaskInfo task_list = 10;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto._AquariumDivingTaskInfoOuterClass._AquariumDivingTaskInfo> getTaskListList() {
       return taskList_;
     }
     /**
-     * <code>repeated ._AquariumDivingTaskInfo task_list = 5;</code>
+     * <code>repeated ._AquariumDivingTaskInfo task_list = 10;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto._AquariumDivingTaskInfoOuterClass._AquariumDivingTaskInfoOrBuilder> 
@@ -779,21 +779,21 @@ public final class _AquariumDetailInfoOuterClass {
       return taskList_;
     }
     /**
-     * <code>repeated ._AquariumDivingTaskInfo task_list = 5;</code>
+     * <code>repeated ._AquariumDivingTaskInfo task_list = 10;</code>
      */
     @java.lang.Override
     public int getTaskListCount() {
       return taskList_.size();
     }
     /**
-     * <code>repeated ._AquariumDivingTaskInfo task_list = 5;</code>
+     * <code>repeated ._AquariumDivingTaskInfo task_list = 10;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._AquariumDivingTaskInfoOuterClass._AquariumDivingTaskInfo getTaskList(int index) {
       return taskList_.get(index);
     }
     /**
-     * <code>repeated ._AquariumDivingTaskInfo task_list = 5;</code>
+     * <code>repeated ._AquariumDivingTaskInfo task_list = 10;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._AquariumDivingTaskInfoOuterClass._AquariumDivingTaskInfoOrBuilder getTaskListOrBuilder(
@@ -801,17 +801,17 @@ public final class _AquariumDetailInfoOuterClass {
       return taskList_.get(index);
     }
 
-    public static final int FKCIFOHLLBM_FIELD_NUMBER = 6;
+    public static final int FKCIFOHLLBM_FIELD_NUMBER = 50004;
     private java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> fKCIFOHLLBM_;
     /**
-     * <code>repeated .Uint32Pair FKCIFOHLLBM = 6;</code>
+     * <code>repeated .Uint32Pair FKCIFOHLLBM = 50004;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> getFKCIFOHLLBMList() {
       return fKCIFOHLLBM_;
     }
     /**
-     * <code>repeated .Uint32Pair FKCIFOHLLBM = 6;</code>
+     * <code>repeated .Uint32Pair FKCIFOHLLBM = 50004;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
@@ -819,21 +819,21 @@ public final class _AquariumDetailInfoOuterClass {
       return fKCIFOHLLBM_;
     }
     /**
-     * <code>repeated .Uint32Pair FKCIFOHLLBM = 6;</code>
+     * <code>repeated .Uint32Pair FKCIFOHLLBM = 50004;</code>
      */
     @java.lang.Override
     public int getFKCIFOHLLBMCount() {
       return fKCIFOHLLBM_.size();
     }
     /**
-     * <code>repeated .Uint32Pair FKCIFOHLLBM = 6;</code>
+     * <code>repeated .Uint32Pair FKCIFOHLLBM = 50004;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getFKCIFOHLLBM(int index) {
       return fKCIFOHLLBM_.get(index);
     }
     /**
-     * <code>repeated .Uint32Pair FKCIFOHLLBM = 6;</code>
+     * <code>repeated .Uint32Pair FKCIFOHLLBM = 50004;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getFKCIFOHLLBMOrBuilder(
@@ -841,10 +841,10 @@ public final class _AquariumDetailInfoOuterClass {
       return fKCIFOHLLBM_.get(index);
     }
 
-    public static final int OIECMONFHBM_FIELD_NUMBER = 7;
+    public static final int OIECMONFHBM_FIELD_NUMBER = 50005;
     private com.google.protobuf.Internal.IntList oIECMONFHBM_;
     /**
-     * <code>repeated uint32 OIECMONFHBM = 7;</code>
+     * <code>repeated uint32 OIECMONFHBM = 50005;</code>
      * @return A list containing the oIECMONFHBM.
      */
     @java.lang.Override
@@ -853,14 +853,14 @@ public final class _AquariumDetailInfoOuterClass {
       return oIECMONFHBM_;
     }
     /**
-     * <code>repeated uint32 OIECMONFHBM = 7;</code>
+     * <code>repeated uint32 OIECMONFHBM = 50005;</code>
      * @return The count of oIECMONFHBM.
      */
     public int getOIECMONFHBMCount() {
       return oIECMONFHBM_.size();
     }
     /**
-     * <code>repeated uint32 OIECMONFHBM = 7;</code>
+     * <code>repeated uint32 OIECMONFHBM = 50005;</code>
      * @param index The index of the element to return.
      * @return The oIECMONFHBM at the given index.
      */
@@ -869,10 +869,10 @@ public final class _AquariumDetailInfoOuterClass {
     }
     private int oIECMONFHBMMemoizedSerializedSize = -1;
 
-    public static final int LABPMPANIDK_FIELD_NUMBER = 8;
+    public static final int LABPMPANIDK_FIELD_NUMBER = 50006;
     private boolean lABPMPANIDK_;
     /**
-     * <code>bool LABPMPANIDK = 8;</code>
+     * <code>bool LABPMPANIDK = 50006;</code>
      * @return The lABPMPANIDK.
      */
     @java.lang.Override
@@ -880,10 +880,10 @@ public final class _AquariumDetailInfoOuterClass {
       return lABPMPANIDK_;
     }
 
-    public static final int FOPBJKEMJPF_FIELD_NUMBER = 9;
+    public static final int FOPBJKEMJPF_FIELD_NUMBER = 50007;
     private int fOPBJKEMJPF_;
     /**
-     * <code>uint32 FOPBJKEMJPF = 9;</code>
+     * <code>uint32 FOPBJKEMJPF = 50007;</code>
      * @return The fOPBJKEMJPF.
      */
     @java.lang.Override
@@ -891,10 +891,10 @@ public final class _AquariumDetailInfoOuterClass {
       return fOPBJKEMJPF_;
     }
 
-    public static final int IMDGIKDEBOD_FIELD_NUMBER = 10;
+    public static final int IMDGIKDEBOD_FIELD_NUMBER = 50008;
     private int iMDGIKDEBOD_;
     /**
-     * <code>uint32 IMDGIKDEBOD = 10;</code>
+     * <code>uint32 IMDGIKDEBOD = 50008;</code>
      * @return The iMDGIKDEBOD.
      */
     @java.lang.Override
@@ -902,10 +902,10 @@ public final class _AquariumDetailInfoOuterClass {
       return iMDGIKDEBOD_;
     }
 
-    public static final int PHIFBJJBPLK_FIELD_NUMBER = 11;
+    public static final int PHIFBJJBPLK_FIELD_NUMBER = 50009;
     private boolean pHIFBJJBPLK_;
     /**
-     * <code>bool PHIFBJJBPLK = 11;</code>
+     * <code>bool PHIFBJJBPLK = 50009;</code>
      * @return The pHIFBJJBPLK.
      */
     @java.lang.Override
@@ -913,10 +913,10 @@ public final class _AquariumDetailInfoOuterClass {
       return pHIFBJJBPLK_;
     }
 
-    public static final int STAGE_ID_FIELD_NUMBER = 12;
+    public static final int STAGE_ID_FIELD_NUMBER = 6;
     private int stageId_;
     /**
-     * <code>uint32 stage_id = 12;</code>
+     * <code>uint32 stage_id = 6;</code>
      * @return The stageId.
      */
     @java.lang.Override
@@ -924,10 +924,10 @@ public final class _AquariumDetailInfoOuterClass {
       return stageId_;
     }
 
-    public static final int AKNKPOEJHBO_FIELD_NUMBER = 13;
+    public static final int AKNKPOEJHBO_FIELD_NUMBER = 50010;
     private boolean aKNKPOEJHBO_;
     /**
-     * <code>bool AKNKPOEJHBO = 13;</code>
+     * <code>bool AKNKPOEJHBO = 50010;</code>
      * @return The aKNKPOEJHBO.
      */
     @java.lang.Override
@@ -935,10 +935,10 @@ public final class _AquariumDetailInfoOuterClass {
       return aKNKPOEJHBO_;
     }
 
-    public static final int NAOEDFPLOAE_FIELD_NUMBER = 14;
+    public static final int NAOEDFPLOAE_FIELD_NUMBER = 50011;
     private int nAOEDFPLOAE_;
     /**
-     * <code>uint32 NAOEDFPLOAE = 14;</code>
+     * <code>uint32 NAOEDFPLOAE = 50011;</code>
      * @return The nAOEDFPLOAE.
      */
     @java.lang.Override
@@ -946,10 +946,10 @@ public final class _AquariumDetailInfoOuterClass {
       return nAOEDFPLOAE_;
     }
 
-    public static final int EDMCKBNOELC_FIELD_NUMBER = 15;
+    public static final int EDMCKBNOELC_FIELD_NUMBER = 50012;
     private int eDMCKBNOELC_;
     /**
-     * <code>uint32 EDMCKBNOELC = 15;</code>
+     * <code>uint32 EDMCKBNOELC = 50012;</code>
      * @return The eDMCKBNOELC.
      */
     @java.lang.Override
@@ -957,10 +957,10 @@ public final class _AquariumDetailInfoOuterClass {
       return eDMCKBNOELC_;
     }
 
-    public static final int PAEGHMOCAME_FIELD_NUMBER = 122;
+    public static final int PAEGHMOCAME_FIELD_NUMBER = 50013;
     private com.google.protobuf.Internal.IntList pAEGHMOCAME_;
     /**
-     * <code>repeated uint32 PAEGHMOCAME = 122;</code>
+     * <code>repeated uint32 PAEGHMOCAME = 50013;</code>
      * @return A list containing the pAEGHMOCAME.
      */
     @java.lang.Override
@@ -969,14 +969,14 @@ public final class _AquariumDetailInfoOuterClass {
       return pAEGHMOCAME_;
     }
     /**
-     * <code>repeated uint32 PAEGHMOCAME = 122;</code>
+     * <code>repeated uint32 PAEGHMOCAME = 50013;</code>
      * @return The count of pAEGHMOCAME.
      */
     public int getPAEGHMOCAMECount() {
       return pAEGHMOCAME_.size();
     }
     /**
-     * <code>repeated uint32 PAEGHMOCAME = 122;</code>
+     * <code>repeated uint32 PAEGHMOCAME = 50013;</code>
      * @param index The index of the element to return.
      * @return The pAEGHMOCAME at the given index.
      */
@@ -985,17 +985,17 @@ public final class _AquariumDetailInfoOuterClass {
     }
     private int pAEGHMOCAMEMemoizedSerializedSize = -1;
 
-    public static final int PCJNHLNMKFL_FIELD_NUMBER = 416;
+    public static final int PCJNHLNMKFL_FIELD_NUMBER = 178;
     private java.util.List<emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent> pCJNHLNMKFL_;
     /**
-     * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 416;</code>
+     * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 178;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent> getPCJNHLNMKFLList() {
       return pCJNHLNMKFL_;
     }
     /**
-     * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 416;</code>
+     * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 178;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEventOrBuilder> 
@@ -1003,21 +1003,21 @@ public final class _AquariumDetailInfoOuterClass {
       return pCJNHLNMKFL_;
     }
     /**
-     * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 416;</code>
+     * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 178;</code>
      */
     @java.lang.Override
     public int getPCJNHLNMKFLCount() {
       return pCJNHLNMKFL_.size();
     }
     /**
-     * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 416;</code>
+     * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 178;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent getPCJNHLNMKFL(int index) {
       return pCJNHLNMKFL_.get(index);
     }
     /**
-     * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 416;</code>
+     * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 178;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEventOrBuilder getPCJNHLNMKFLOrBuilder(
@@ -1025,10 +1025,10 @@ public final class _AquariumDetailInfoOuterClass {
       return pCJNHLNMKFL_.get(index);
     }
 
-    public static final int JMBAEDIMHFN_FIELD_NUMBER = 457;
+    public static final int JMBAEDIMHFN_FIELD_NUMBER = 50014;
     private int jMBAEDIMHFN_;
     /**
-     * <code>uint32 JMBAEDIMHFN = 457;</code>
+     * <code>uint32 JMBAEDIMHFN = 50014;</code>
      * @return The jMBAEDIMHFN.
      */
     @java.lang.Override
@@ -1036,10 +1036,10 @@ public final class _AquariumDetailInfoOuterClass {
       return jMBAEDIMHFN_;
     }
 
-    public static final int OAOKCCGGMGB_FIELD_NUMBER = 693;
+    public static final int OAOKCCGGMGB_FIELD_NUMBER = 50015;
     private boolean oAOKCCGGMGB_;
     /**
-     * <code>bool OAOKCCGGMGB = 693;</code>
+     * <code>bool OAOKCCGGMGB = 50015;</code>
      * @return The oAOKCCGGMGB.
      */
     @java.lang.Override
@@ -1047,10 +1047,10 @@ public final class _AquariumDetailInfoOuterClass {
       return oAOKCCGGMGB_;
     }
 
-    public static final int PMJLEBGOILE_FIELD_NUMBER = 731;
+    public static final int PMJLEBGOILE_FIELD_NUMBER = 50016;
     private com.google.protobuf.Internal.IntList pMJLEBGOILE_;
     /**
-     * <code>repeated uint32 PMJLEBGOILE = 731;</code>
+     * <code>repeated uint32 PMJLEBGOILE = 50016;</code>
      * @return A list containing the pMJLEBGOILE.
      */
     @java.lang.Override
@@ -1059,14 +1059,14 @@ public final class _AquariumDetailInfoOuterClass {
       return pMJLEBGOILE_;
     }
     /**
-     * <code>repeated uint32 PMJLEBGOILE = 731;</code>
+     * <code>repeated uint32 PMJLEBGOILE = 50016;</code>
      * @return The count of pMJLEBGOILE.
      */
     public int getPMJLEBGOILECount() {
       return pMJLEBGOILE_.size();
     }
     /**
-     * <code>repeated uint32 PMJLEBGOILE = 731;</code>
+     * <code>repeated uint32 PMJLEBGOILE = 50016;</code>
      * @param index The index of the element to return.
      * @return The pMJLEBGOILE at the given index.
      */
@@ -1075,17 +1075,17 @@ public final class _AquariumDetailInfoOuterClass {
     }
     private int pMJLEBGOILEMemoizedSerializedSize = -1;
 
-    public static final int FLPPKAACIAA_FIELD_NUMBER = 1341;
+    public static final int FLPPKAACIAA_FIELD_NUMBER = 50017;
     private java.util.List<emu.grasscutter.net.proto.IIOFHFIDENJOuterClass.IIOFHFIDENJ> fLPPKAACIAA_;
     /**
-     * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 1341;</code>
+     * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 50017;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.IIOFHFIDENJOuterClass.IIOFHFIDENJ> getFLPPKAACIAAList() {
       return fLPPKAACIAA_;
     }
     /**
-     * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 1341;</code>
+     * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 50017;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.IIOFHFIDENJOuterClass.IIOFHFIDENJOrBuilder> 
@@ -1093,21 +1093,21 @@ public final class _AquariumDetailInfoOuterClass {
       return fLPPKAACIAA_;
     }
     /**
-     * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 1341;</code>
+     * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 50017;</code>
      */
     @java.lang.Override
     public int getFLPPKAACIAACount() {
       return fLPPKAACIAA_.size();
     }
     /**
-     * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 1341;</code>
+     * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 50017;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.IIOFHFIDENJOuterClass.IIOFHFIDENJ getFLPPKAACIAA(int index) {
       return fLPPKAACIAA_.get(index);
     }
     /**
-     * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 1341;</code>
+     * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 50017;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.IIOFHFIDENJOuterClass.IIOFHFIDENJOrBuilder getFLPPKAACIAAOrBuilder(
@@ -1115,10 +1115,10 @@ public final class _AquariumDetailInfoOuterClass {
       return fLPPKAACIAA_.get(index);
     }
 
-    public static final int HFGLFBIEAAM_FIELD_NUMBER = 2020;
+    public static final int HFGLFBIEAAM_FIELD_NUMBER = 50018;
     private com.google.protobuf.Internal.IntList hFGLFBIEAAM_;
     /**
-     * <code>repeated uint32 HFGLFBIEAAM = 2020;</code>
+     * <code>repeated uint32 HFGLFBIEAAM = 50018;</code>
      * @return A list containing the hFGLFBIEAAM.
      */
     @java.lang.Override
@@ -1127,14 +1127,14 @@ public final class _AquariumDetailInfoOuterClass {
       return hFGLFBIEAAM_;
     }
     /**
-     * <code>repeated uint32 HFGLFBIEAAM = 2020;</code>
+     * <code>repeated uint32 HFGLFBIEAAM = 50018;</code>
      * @return The count of hFGLFBIEAAM.
      */
     public int getHFGLFBIEAAMCount() {
       return hFGLFBIEAAM_.size();
     }
     /**
-     * <code>repeated uint32 HFGLFBIEAAM = 2020;</code>
+     * <code>repeated uint32 HFGLFBIEAAM = 50018;</code>
      * @param index The index of the element to return.
      * @return The hFGLFBIEAAM at the given index.
      */
@@ -1158,91 +1158,91 @@ public final class _AquariumDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
+      if (stageId_ != 0) {
+        output.writeUInt32(6, stageId_);
+      }
+      for (int i = 0; i < taskList_.size(); i++) {
+        output.writeMessage(10, taskList_.get(i));
+      }
+      for (int i = 0; i < pCJNHLNMKFL_.size(); i++) {
+        output.writeMessage(178, pCJNHLNMKFL_.get(i));
+      }
       if (getMDCCIIFACFKList().size() > 0) {
-        output.writeUInt32NoTag(10);
+        output.writeUInt32NoTag(400002);
         output.writeUInt32NoTag(mDCCIIFACFKMemoizedSerializedSize);
       }
       for (int i = 0; i < mDCCIIFACFK_.size(); i++) {
         output.writeUInt32NoTag(mDCCIIFACFK_.getInt(i));
       }
       if (dGJCEMANOCM_ != 0) {
-        output.writeUInt32(2, dGJCEMANOCM_);
+        output.writeUInt32(50001, dGJCEMANOCM_);
       }
       if (getGCCOJAGHNKJList().size() > 0) {
-        output.writeUInt32NoTag(26);
+        output.writeUInt32NoTag(400018);
         output.writeUInt32NoTag(gCCOJAGHNKJMemoizedSerializedSize);
       }
       for (int i = 0; i < gCCOJAGHNKJ_.size(); i++) {
         output.writeUInt32NoTag(gCCOJAGHNKJ_.getInt(i));
       }
       for (int i = 0; i < itemCountList_.size(); i++) {
-        output.writeMessage(4, itemCountList_.get(i));
-      }
-      for (int i = 0; i < taskList_.size(); i++) {
-        output.writeMessage(5, taskList_.get(i));
+        output.writeMessage(50003, itemCountList_.get(i));
       }
       for (int i = 0; i < fKCIFOHLLBM_.size(); i++) {
-        output.writeMessage(6, fKCIFOHLLBM_.get(i));
+        output.writeMessage(50004, fKCIFOHLLBM_.get(i));
       }
       if (getOIECMONFHBMList().size() > 0) {
-        output.writeUInt32NoTag(58);
+        output.writeUInt32NoTag(400042);
         output.writeUInt32NoTag(oIECMONFHBMMemoizedSerializedSize);
       }
       for (int i = 0; i < oIECMONFHBM_.size(); i++) {
         output.writeUInt32NoTag(oIECMONFHBM_.getInt(i));
       }
       if (lABPMPANIDK_ != false) {
-        output.writeBool(8, lABPMPANIDK_);
+        output.writeBool(50006, lABPMPANIDK_);
       }
       if (fOPBJKEMJPF_ != 0) {
-        output.writeUInt32(9, fOPBJKEMJPF_);
+        output.writeUInt32(50007, fOPBJKEMJPF_);
       }
       if (iMDGIKDEBOD_ != 0) {
-        output.writeUInt32(10, iMDGIKDEBOD_);
+        output.writeUInt32(50008, iMDGIKDEBOD_);
       }
       if (pHIFBJJBPLK_ != false) {
-        output.writeBool(11, pHIFBJJBPLK_);
-      }
-      if (stageId_ != 0) {
-        output.writeUInt32(12, stageId_);
+        output.writeBool(50009, pHIFBJJBPLK_);
       }
       if (aKNKPOEJHBO_ != false) {
-        output.writeBool(13, aKNKPOEJHBO_);
+        output.writeBool(50010, aKNKPOEJHBO_);
       }
       if (nAOEDFPLOAE_ != 0) {
-        output.writeUInt32(14, nAOEDFPLOAE_);
+        output.writeUInt32(50011, nAOEDFPLOAE_);
       }
       if (eDMCKBNOELC_ != 0) {
-        output.writeUInt32(15, eDMCKBNOELC_);
+        output.writeUInt32(50012, eDMCKBNOELC_);
       }
       if (getPAEGHMOCAMEList().size() > 0) {
-        output.writeUInt32NoTag(978);
+        output.writeUInt32NoTag(400106);
         output.writeUInt32NoTag(pAEGHMOCAMEMemoizedSerializedSize);
       }
       for (int i = 0; i < pAEGHMOCAME_.size(); i++) {
         output.writeUInt32NoTag(pAEGHMOCAME_.getInt(i));
       }
-      for (int i = 0; i < pCJNHLNMKFL_.size(); i++) {
-        output.writeMessage(416, pCJNHLNMKFL_.get(i));
-      }
       if (jMBAEDIMHFN_ != 0) {
-        output.writeUInt32(457, jMBAEDIMHFN_);
+        output.writeUInt32(50014, jMBAEDIMHFN_);
       }
       if (oAOKCCGGMGB_ != false) {
-        output.writeBool(693, oAOKCCGGMGB_);
+        output.writeBool(50015, oAOKCCGGMGB_);
       }
       if (getPMJLEBGOILEList().size() > 0) {
-        output.writeUInt32NoTag(5850);
+        output.writeUInt32NoTag(400130);
         output.writeUInt32NoTag(pMJLEBGOILEMemoizedSerializedSize);
       }
       for (int i = 0; i < pMJLEBGOILE_.size(); i++) {
         output.writeUInt32NoTag(pMJLEBGOILE_.getInt(i));
       }
       for (int i = 0; i < fLPPKAACIAA_.size(); i++) {
-        output.writeMessage(1341, fLPPKAACIAA_.get(i));
+        output.writeMessage(50017, fLPPKAACIAA_.get(i));
       }
       if (getHFGLFBIEAAMList().size() > 0) {
-        output.writeUInt32NoTag(16162);
+        output.writeUInt32NoTag(400146);
         output.writeUInt32NoTag(hFGLFBIEAAMMemoizedSerializedSize);
       }
       for (int i = 0; i < hFGLFBIEAAM_.size(); i++) {
@@ -1257,6 +1257,18 @@ public final class _AquariumDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (stageId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(6, stageId_);
+      }
+      for (int i = 0; i < taskList_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(10, taskList_.get(i));
+      }
+      for (int i = 0; i < pCJNHLNMKFL_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(178, pCJNHLNMKFL_.get(i));
+      }
       {
         int dataSize = 0;
         for (int i = 0; i < mDCCIIFACFK_.size(); i++) {
@@ -1265,7 +1277,7 @@ public final class _AquariumDetailInfoOuterClass {
         }
         size += dataSize;
         if (!getMDCCIIFACFKList().isEmpty()) {
-          size += 1;
+          size += 3;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
@@ -1273,7 +1285,7 @@ public final class _AquariumDetailInfoOuterClass {
       }
       if (dGJCEMANOCM_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, dGJCEMANOCM_);
+          .computeUInt32Size(50001, dGJCEMANOCM_);
       }
       {
         int dataSize = 0;
@@ -1283,7 +1295,7 @@ public final class _AquariumDetailInfoOuterClass {
         }
         size += dataSize;
         if (!getGCCOJAGHNKJList().isEmpty()) {
-          size += 1;
+          size += 3;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
@@ -1291,15 +1303,11 @@ public final class _AquariumDetailInfoOuterClass {
       }
       for (int i = 0; i < itemCountList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, itemCountList_.get(i));
-      }
-      for (int i = 0; i < taskList_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, taskList_.get(i));
+          .computeMessageSize(50003, itemCountList_.get(i));
       }
       for (int i = 0; i < fKCIFOHLLBM_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, fKCIFOHLLBM_.get(i));
+          .computeMessageSize(50004, fKCIFOHLLBM_.get(i));
       }
       {
         int dataSize = 0;
@@ -1309,7 +1317,7 @@ public final class _AquariumDetailInfoOuterClass {
         }
         size += dataSize;
         if (!getOIECMONFHBMList().isEmpty()) {
-          size += 1;
+          size += 3;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
@@ -1317,35 +1325,31 @@ public final class _AquariumDetailInfoOuterClass {
       }
       if (lABPMPANIDK_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(8, lABPMPANIDK_);
+          .computeBoolSize(50006, lABPMPANIDK_);
       }
       if (fOPBJKEMJPF_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, fOPBJKEMJPF_);
+          .computeUInt32Size(50007, fOPBJKEMJPF_);
       }
       if (iMDGIKDEBOD_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, iMDGIKDEBOD_);
+          .computeUInt32Size(50008, iMDGIKDEBOD_);
       }
       if (pHIFBJJBPLK_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(11, pHIFBJJBPLK_);
-      }
-      if (stageId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, stageId_);
+          .computeBoolSize(50009, pHIFBJJBPLK_);
       }
       if (aKNKPOEJHBO_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(13, aKNKPOEJHBO_);
+          .computeBoolSize(50010, aKNKPOEJHBO_);
       }
       if (nAOEDFPLOAE_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, nAOEDFPLOAE_);
+          .computeUInt32Size(50011, nAOEDFPLOAE_);
       }
       if (eDMCKBNOELC_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, eDMCKBNOELC_);
+          .computeUInt32Size(50012, eDMCKBNOELC_);
       }
       {
         int dataSize = 0;
@@ -1355,23 +1359,19 @@ public final class _AquariumDetailInfoOuterClass {
         }
         size += dataSize;
         if (!getPAEGHMOCAMEList().isEmpty()) {
-          size += 2;
+          size += 3;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
         pAEGHMOCAMEMemoizedSerializedSize = dataSize;
       }
-      for (int i = 0; i < pCJNHLNMKFL_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(416, pCJNHLNMKFL_.get(i));
-      }
       if (jMBAEDIMHFN_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(457, jMBAEDIMHFN_);
+          .computeUInt32Size(50014, jMBAEDIMHFN_);
       }
       if (oAOKCCGGMGB_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(693, oAOKCCGGMGB_);
+          .computeBoolSize(50015, oAOKCCGGMGB_);
       }
       {
         int dataSize = 0;
@@ -1381,7 +1381,7 @@ public final class _AquariumDetailInfoOuterClass {
         }
         size += dataSize;
         if (!getPMJLEBGOILEList().isEmpty()) {
-          size += 2;
+          size += 3;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
@@ -1389,7 +1389,7 @@ public final class _AquariumDetailInfoOuterClass {
       }
       for (int i = 0; i < fLPPKAACIAA_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1341, fLPPKAACIAA_.get(i));
+          .computeMessageSize(50017, fLPPKAACIAA_.get(i));
       }
       {
         int dataSize = 0;
@@ -1399,7 +1399,7 @@ public final class _AquariumDetailInfoOuterClass {
         }
         size += dataSize;
         if (!getHFGLFBIEAAMList().isEmpty()) {
-          size += 2;
+          size += 3;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
@@ -2169,7 +2169,7 @@ public final class _AquariumDetailInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 MDCCIIFACFK = 1;</code>
+       * <code>repeated uint32 MDCCIIFACFK = 50000;</code>
        * @return A list containing the mDCCIIFACFK.
        */
       public java.util.List<java.lang.Integer>
@@ -2178,14 +2178,14 @@ public final class _AquariumDetailInfoOuterClass {
                  java.util.Collections.unmodifiableList(mDCCIIFACFK_) : mDCCIIFACFK_;
       }
       /**
-       * <code>repeated uint32 MDCCIIFACFK = 1;</code>
+       * <code>repeated uint32 MDCCIIFACFK = 50000;</code>
        * @return The count of mDCCIIFACFK.
        */
       public int getMDCCIIFACFKCount() {
         return mDCCIIFACFK_.size();
       }
       /**
-       * <code>repeated uint32 MDCCIIFACFK = 1;</code>
+       * <code>repeated uint32 MDCCIIFACFK = 50000;</code>
        * @param index The index of the element to return.
        * @return The mDCCIIFACFK at the given index.
        */
@@ -2193,7 +2193,7 @@ public final class _AquariumDetailInfoOuterClass {
         return mDCCIIFACFK_.getInt(index);
       }
       /**
-       * <code>repeated uint32 MDCCIIFACFK = 1;</code>
+       * <code>repeated uint32 MDCCIIFACFK = 50000;</code>
        * @param index The index to set the value at.
        * @param value The mDCCIIFACFK to set.
        * @return This builder for chaining.
@@ -2206,7 +2206,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 MDCCIIFACFK = 1;</code>
+       * <code>repeated uint32 MDCCIIFACFK = 50000;</code>
        * @param value The mDCCIIFACFK to add.
        * @return This builder for chaining.
        */
@@ -2217,7 +2217,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 MDCCIIFACFK = 1;</code>
+       * <code>repeated uint32 MDCCIIFACFK = 50000;</code>
        * @param values The mDCCIIFACFK to add.
        * @return This builder for chaining.
        */
@@ -2230,7 +2230,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 MDCCIIFACFK = 1;</code>
+       * <code>repeated uint32 MDCCIIFACFK = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearMDCCIIFACFK() {
@@ -2242,7 +2242,7 @@ public final class _AquariumDetailInfoOuterClass {
 
       private int dGJCEMANOCM_ ;
       /**
-       * <code>uint32 DGJCEMANOCM = 2;</code>
+       * <code>uint32 DGJCEMANOCM = 50001;</code>
        * @return The dGJCEMANOCM.
        */
       @java.lang.Override
@@ -2250,7 +2250,7 @@ public final class _AquariumDetailInfoOuterClass {
         return dGJCEMANOCM_;
       }
       /**
-       * <code>uint32 DGJCEMANOCM = 2;</code>
+       * <code>uint32 DGJCEMANOCM = 50001;</code>
        * @param value The dGJCEMANOCM to set.
        * @return This builder for chaining.
        */
@@ -2261,7 +2261,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 DGJCEMANOCM = 2;</code>
+       * <code>uint32 DGJCEMANOCM = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearDGJCEMANOCM() {
@@ -2279,7 +2279,7 @@ public final class _AquariumDetailInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 GCCOJAGHNKJ = 3;</code>
+       * <code>repeated uint32 GCCOJAGHNKJ = 50002;</code>
        * @return A list containing the gCCOJAGHNKJ.
        */
       public java.util.List<java.lang.Integer>
@@ -2288,14 +2288,14 @@ public final class _AquariumDetailInfoOuterClass {
                  java.util.Collections.unmodifiableList(gCCOJAGHNKJ_) : gCCOJAGHNKJ_;
       }
       /**
-       * <code>repeated uint32 GCCOJAGHNKJ = 3;</code>
+       * <code>repeated uint32 GCCOJAGHNKJ = 50002;</code>
        * @return The count of gCCOJAGHNKJ.
        */
       public int getGCCOJAGHNKJCount() {
         return gCCOJAGHNKJ_.size();
       }
       /**
-       * <code>repeated uint32 GCCOJAGHNKJ = 3;</code>
+       * <code>repeated uint32 GCCOJAGHNKJ = 50002;</code>
        * @param index The index of the element to return.
        * @return The gCCOJAGHNKJ at the given index.
        */
@@ -2303,7 +2303,7 @@ public final class _AquariumDetailInfoOuterClass {
         return gCCOJAGHNKJ_.getInt(index);
       }
       /**
-       * <code>repeated uint32 GCCOJAGHNKJ = 3;</code>
+       * <code>repeated uint32 GCCOJAGHNKJ = 50002;</code>
        * @param index The index to set the value at.
        * @param value The gCCOJAGHNKJ to set.
        * @return This builder for chaining.
@@ -2316,7 +2316,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 GCCOJAGHNKJ = 3;</code>
+       * <code>repeated uint32 GCCOJAGHNKJ = 50002;</code>
        * @param value The gCCOJAGHNKJ to add.
        * @return This builder for chaining.
        */
@@ -2327,7 +2327,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 GCCOJAGHNKJ = 3;</code>
+       * <code>repeated uint32 GCCOJAGHNKJ = 50002;</code>
        * @param values The gCCOJAGHNKJ to add.
        * @return This builder for chaining.
        */
@@ -2340,7 +2340,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 GCCOJAGHNKJ = 3;</code>
+       * <code>repeated uint32 GCCOJAGHNKJ = 50002;</code>
        * @return This builder for chaining.
        */
       public Builder clearGCCOJAGHNKJ() {
@@ -2363,7 +2363,7 @@ public final class _AquariumDetailInfoOuterClass {
           emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> itemCountListBuilder_;
 
       /**
-       * <code>repeated .Uint32Pair item_count_list = 4;</code>
+       * <code>repeated .Uint32Pair item_count_list = 50003;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> getItemCountListList() {
         if (itemCountListBuilder_ == null) {
@@ -2373,7 +2373,7 @@ public final class _AquariumDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair item_count_list = 4;</code>
+       * <code>repeated .Uint32Pair item_count_list = 50003;</code>
        */
       public int getItemCountListCount() {
         if (itemCountListBuilder_ == null) {
@@ -2383,7 +2383,7 @@ public final class _AquariumDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair item_count_list = 4;</code>
+       * <code>repeated .Uint32Pair item_count_list = 50003;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getItemCountList(int index) {
         if (itemCountListBuilder_ == null) {
@@ -2393,7 +2393,7 @@ public final class _AquariumDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair item_count_list = 4;</code>
+       * <code>repeated .Uint32Pair item_count_list = 50003;</code>
        */
       public Builder setItemCountList(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
@@ -2410,7 +2410,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair item_count_list = 4;</code>
+       * <code>repeated .Uint32Pair item_count_list = 50003;</code>
        */
       public Builder setItemCountList(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder builderForValue) {
@@ -2424,7 +2424,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair item_count_list = 4;</code>
+       * <code>repeated .Uint32Pair item_count_list = 50003;</code>
        */
       public Builder addItemCountList(emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
         if (itemCountListBuilder_ == null) {
@@ -2440,7 +2440,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair item_count_list = 4;</code>
+       * <code>repeated .Uint32Pair item_count_list = 50003;</code>
        */
       public Builder addItemCountList(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
@@ -2457,7 +2457,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair item_count_list = 4;</code>
+       * <code>repeated .Uint32Pair item_count_list = 50003;</code>
        */
       public Builder addItemCountList(
           emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder builderForValue) {
@@ -2471,7 +2471,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair item_count_list = 4;</code>
+       * <code>repeated .Uint32Pair item_count_list = 50003;</code>
        */
       public Builder addItemCountList(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder builderForValue) {
@@ -2485,7 +2485,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair item_count_list = 4;</code>
+       * <code>repeated .Uint32Pair item_count_list = 50003;</code>
        */
       public Builder addAllItemCountList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> values) {
@@ -2500,7 +2500,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair item_count_list = 4;</code>
+       * <code>repeated .Uint32Pair item_count_list = 50003;</code>
        */
       public Builder clearItemCountList() {
         if (itemCountListBuilder_ == null) {
@@ -2513,7 +2513,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair item_count_list = 4;</code>
+       * <code>repeated .Uint32Pair item_count_list = 50003;</code>
        */
       public Builder removeItemCountList(int index) {
         if (itemCountListBuilder_ == null) {
@@ -2526,14 +2526,14 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair item_count_list = 4;</code>
+       * <code>repeated .Uint32Pair item_count_list = 50003;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder getItemCountListBuilder(
           int index) {
         return getItemCountListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .Uint32Pair item_count_list = 4;</code>
+       * <code>repeated .Uint32Pair item_count_list = 50003;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getItemCountListOrBuilder(
           int index) {
@@ -2543,7 +2543,7 @@ public final class _AquariumDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair item_count_list = 4;</code>
+       * <code>repeated .Uint32Pair item_count_list = 50003;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
            getItemCountListOrBuilderList() {
@@ -2554,14 +2554,14 @@ public final class _AquariumDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair item_count_list = 4;</code>
+       * <code>repeated .Uint32Pair item_count_list = 50003;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder addItemCountListBuilder() {
         return getItemCountListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.getDefaultInstance());
       }
       /**
-       * <code>repeated .Uint32Pair item_count_list = 4;</code>
+       * <code>repeated .Uint32Pair item_count_list = 50003;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder addItemCountListBuilder(
           int index) {
@@ -2569,7 +2569,7 @@ public final class _AquariumDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.getDefaultInstance());
       }
       /**
-       * <code>repeated .Uint32Pair item_count_list = 4;</code>
+       * <code>repeated .Uint32Pair item_count_list = 50003;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder> 
            getItemCountListBuilderList() {
@@ -2603,7 +2603,7 @@ public final class _AquariumDetailInfoOuterClass {
           emu.grasscutter.net.proto._AquariumDivingTaskInfoOuterClass._AquariumDivingTaskInfo, emu.grasscutter.net.proto._AquariumDivingTaskInfoOuterClass._AquariumDivingTaskInfo.Builder, emu.grasscutter.net.proto._AquariumDivingTaskInfoOuterClass._AquariumDivingTaskInfoOrBuilder> taskListBuilder_;
 
       /**
-       * <code>repeated ._AquariumDivingTaskInfo task_list = 5;</code>
+       * <code>repeated ._AquariumDivingTaskInfo task_list = 10;</code>
        */
       public java.util.List<emu.grasscutter.net.proto._AquariumDivingTaskInfoOuterClass._AquariumDivingTaskInfo> getTaskListList() {
         if (taskListBuilder_ == null) {
@@ -2613,7 +2613,7 @@ public final class _AquariumDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._AquariumDivingTaskInfo task_list = 5;</code>
+       * <code>repeated ._AquariumDivingTaskInfo task_list = 10;</code>
        */
       public int getTaskListCount() {
         if (taskListBuilder_ == null) {
@@ -2623,7 +2623,7 @@ public final class _AquariumDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._AquariumDivingTaskInfo task_list = 5;</code>
+       * <code>repeated ._AquariumDivingTaskInfo task_list = 10;</code>
        */
       public emu.grasscutter.net.proto._AquariumDivingTaskInfoOuterClass._AquariumDivingTaskInfo getTaskList(int index) {
         if (taskListBuilder_ == null) {
@@ -2633,7 +2633,7 @@ public final class _AquariumDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._AquariumDivingTaskInfo task_list = 5;</code>
+       * <code>repeated ._AquariumDivingTaskInfo task_list = 10;</code>
        */
       public Builder setTaskList(
           int index, emu.grasscutter.net.proto._AquariumDivingTaskInfoOuterClass._AquariumDivingTaskInfo value) {
@@ -2650,7 +2650,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AquariumDivingTaskInfo task_list = 5;</code>
+       * <code>repeated ._AquariumDivingTaskInfo task_list = 10;</code>
        */
       public Builder setTaskList(
           int index, emu.grasscutter.net.proto._AquariumDivingTaskInfoOuterClass._AquariumDivingTaskInfo.Builder builderForValue) {
@@ -2664,7 +2664,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AquariumDivingTaskInfo task_list = 5;</code>
+       * <code>repeated ._AquariumDivingTaskInfo task_list = 10;</code>
        */
       public Builder addTaskList(emu.grasscutter.net.proto._AquariumDivingTaskInfoOuterClass._AquariumDivingTaskInfo value) {
         if (taskListBuilder_ == null) {
@@ -2680,7 +2680,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AquariumDivingTaskInfo task_list = 5;</code>
+       * <code>repeated ._AquariumDivingTaskInfo task_list = 10;</code>
        */
       public Builder addTaskList(
           int index, emu.grasscutter.net.proto._AquariumDivingTaskInfoOuterClass._AquariumDivingTaskInfo value) {
@@ -2697,7 +2697,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AquariumDivingTaskInfo task_list = 5;</code>
+       * <code>repeated ._AquariumDivingTaskInfo task_list = 10;</code>
        */
       public Builder addTaskList(
           emu.grasscutter.net.proto._AquariumDivingTaskInfoOuterClass._AquariumDivingTaskInfo.Builder builderForValue) {
@@ -2711,7 +2711,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AquariumDivingTaskInfo task_list = 5;</code>
+       * <code>repeated ._AquariumDivingTaskInfo task_list = 10;</code>
        */
       public Builder addTaskList(
           int index, emu.grasscutter.net.proto._AquariumDivingTaskInfoOuterClass._AquariumDivingTaskInfo.Builder builderForValue) {
@@ -2725,7 +2725,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AquariumDivingTaskInfo task_list = 5;</code>
+       * <code>repeated ._AquariumDivingTaskInfo task_list = 10;</code>
        */
       public Builder addAllTaskList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto._AquariumDivingTaskInfoOuterClass._AquariumDivingTaskInfo> values) {
@@ -2740,7 +2740,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AquariumDivingTaskInfo task_list = 5;</code>
+       * <code>repeated ._AquariumDivingTaskInfo task_list = 10;</code>
        */
       public Builder clearTaskList() {
         if (taskListBuilder_ == null) {
@@ -2753,7 +2753,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AquariumDivingTaskInfo task_list = 5;</code>
+       * <code>repeated ._AquariumDivingTaskInfo task_list = 10;</code>
        */
       public Builder removeTaskList(int index) {
         if (taskListBuilder_ == null) {
@@ -2766,14 +2766,14 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AquariumDivingTaskInfo task_list = 5;</code>
+       * <code>repeated ._AquariumDivingTaskInfo task_list = 10;</code>
        */
       public emu.grasscutter.net.proto._AquariumDivingTaskInfoOuterClass._AquariumDivingTaskInfo.Builder getTaskListBuilder(
           int index) {
         return getTaskListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated ._AquariumDivingTaskInfo task_list = 5;</code>
+       * <code>repeated ._AquariumDivingTaskInfo task_list = 10;</code>
        */
       public emu.grasscutter.net.proto._AquariumDivingTaskInfoOuterClass._AquariumDivingTaskInfoOrBuilder getTaskListOrBuilder(
           int index) {
@@ -2783,7 +2783,7 @@ public final class _AquariumDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._AquariumDivingTaskInfo task_list = 5;</code>
+       * <code>repeated ._AquariumDivingTaskInfo task_list = 10;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto._AquariumDivingTaskInfoOuterClass._AquariumDivingTaskInfoOrBuilder> 
            getTaskListOrBuilderList() {
@@ -2794,14 +2794,14 @@ public final class _AquariumDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._AquariumDivingTaskInfo task_list = 5;</code>
+       * <code>repeated ._AquariumDivingTaskInfo task_list = 10;</code>
        */
       public emu.grasscutter.net.proto._AquariumDivingTaskInfoOuterClass._AquariumDivingTaskInfo.Builder addTaskListBuilder() {
         return getTaskListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto._AquariumDivingTaskInfoOuterClass._AquariumDivingTaskInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated ._AquariumDivingTaskInfo task_list = 5;</code>
+       * <code>repeated ._AquariumDivingTaskInfo task_list = 10;</code>
        */
       public emu.grasscutter.net.proto._AquariumDivingTaskInfoOuterClass._AquariumDivingTaskInfo.Builder addTaskListBuilder(
           int index) {
@@ -2809,7 +2809,7 @@ public final class _AquariumDetailInfoOuterClass {
             index, emu.grasscutter.net.proto._AquariumDivingTaskInfoOuterClass._AquariumDivingTaskInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated ._AquariumDivingTaskInfo task_list = 5;</code>
+       * <code>repeated ._AquariumDivingTaskInfo task_list = 10;</code>
        */
       public java.util.List<emu.grasscutter.net.proto._AquariumDivingTaskInfoOuterClass._AquariumDivingTaskInfo.Builder> 
            getTaskListBuilderList() {
@@ -2843,7 +2843,7 @@ public final class _AquariumDetailInfoOuterClass {
           emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> fKCIFOHLLBMBuilder_;
 
       /**
-       * <code>repeated .Uint32Pair FKCIFOHLLBM = 6;</code>
+       * <code>repeated .Uint32Pair FKCIFOHLLBM = 50004;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> getFKCIFOHLLBMList() {
         if (fKCIFOHLLBMBuilder_ == null) {
@@ -2853,7 +2853,7 @@ public final class _AquariumDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair FKCIFOHLLBM = 6;</code>
+       * <code>repeated .Uint32Pair FKCIFOHLLBM = 50004;</code>
        */
       public int getFKCIFOHLLBMCount() {
         if (fKCIFOHLLBMBuilder_ == null) {
@@ -2863,7 +2863,7 @@ public final class _AquariumDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair FKCIFOHLLBM = 6;</code>
+       * <code>repeated .Uint32Pair FKCIFOHLLBM = 50004;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getFKCIFOHLLBM(int index) {
         if (fKCIFOHLLBMBuilder_ == null) {
@@ -2873,7 +2873,7 @@ public final class _AquariumDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair FKCIFOHLLBM = 6;</code>
+       * <code>repeated .Uint32Pair FKCIFOHLLBM = 50004;</code>
        */
       public Builder setFKCIFOHLLBM(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
@@ -2890,7 +2890,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair FKCIFOHLLBM = 6;</code>
+       * <code>repeated .Uint32Pair FKCIFOHLLBM = 50004;</code>
        */
       public Builder setFKCIFOHLLBM(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder builderForValue) {
@@ -2904,7 +2904,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair FKCIFOHLLBM = 6;</code>
+       * <code>repeated .Uint32Pair FKCIFOHLLBM = 50004;</code>
        */
       public Builder addFKCIFOHLLBM(emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
         if (fKCIFOHLLBMBuilder_ == null) {
@@ -2920,7 +2920,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair FKCIFOHLLBM = 6;</code>
+       * <code>repeated .Uint32Pair FKCIFOHLLBM = 50004;</code>
        */
       public Builder addFKCIFOHLLBM(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
@@ -2937,7 +2937,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair FKCIFOHLLBM = 6;</code>
+       * <code>repeated .Uint32Pair FKCIFOHLLBM = 50004;</code>
        */
       public Builder addFKCIFOHLLBM(
           emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder builderForValue) {
@@ -2951,7 +2951,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair FKCIFOHLLBM = 6;</code>
+       * <code>repeated .Uint32Pair FKCIFOHLLBM = 50004;</code>
        */
       public Builder addFKCIFOHLLBM(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder builderForValue) {
@@ -2965,7 +2965,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair FKCIFOHLLBM = 6;</code>
+       * <code>repeated .Uint32Pair FKCIFOHLLBM = 50004;</code>
        */
       public Builder addAllFKCIFOHLLBM(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> values) {
@@ -2980,7 +2980,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair FKCIFOHLLBM = 6;</code>
+       * <code>repeated .Uint32Pair FKCIFOHLLBM = 50004;</code>
        */
       public Builder clearFKCIFOHLLBM() {
         if (fKCIFOHLLBMBuilder_ == null) {
@@ -2993,7 +2993,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair FKCIFOHLLBM = 6;</code>
+       * <code>repeated .Uint32Pair FKCIFOHLLBM = 50004;</code>
        */
       public Builder removeFKCIFOHLLBM(int index) {
         if (fKCIFOHLLBMBuilder_ == null) {
@@ -3006,14 +3006,14 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair FKCIFOHLLBM = 6;</code>
+       * <code>repeated .Uint32Pair FKCIFOHLLBM = 50004;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder getFKCIFOHLLBMBuilder(
           int index) {
         return getFKCIFOHLLBMFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .Uint32Pair FKCIFOHLLBM = 6;</code>
+       * <code>repeated .Uint32Pair FKCIFOHLLBM = 50004;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getFKCIFOHLLBMOrBuilder(
           int index) {
@@ -3023,7 +3023,7 @@ public final class _AquariumDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair FKCIFOHLLBM = 6;</code>
+       * <code>repeated .Uint32Pair FKCIFOHLLBM = 50004;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
            getFKCIFOHLLBMOrBuilderList() {
@@ -3034,14 +3034,14 @@ public final class _AquariumDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair FKCIFOHLLBM = 6;</code>
+       * <code>repeated .Uint32Pair FKCIFOHLLBM = 50004;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder addFKCIFOHLLBMBuilder() {
         return getFKCIFOHLLBMFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.getDefaultInstance());
       }
       /**
-       * <code>repeated .Uint32Pair FKCIFOHLLBM = 6;</code>
+       * <code>repeated .Uint32Pair FKCIFOHLLBM = 50004;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder addFKCIFOHLLBMBuilder(
           int index) {
@@ -3049,7 +3049,7 @@ public final class _AquariumDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.getDefaultInstance());
       }
       /**
-       * <code>repeated .Uint32Pair FKCIFOHLLBM = 6;</code>
+       * <code>repeated .Uint32Pair FKCIFOHLLBM = 50004;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder> 
            getFKCIFOHLLBMBuilderList() {
@@ -3078,7 +3078,7 @@ public final class _AquariumDetailInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 OIECMONFHBM = 7;</code>
+       * <code>repeated uint32 OIECMONFHBM = 50005;</code>
        * @return A list containing the oIECMONFHBM.
        */
       public java.util.List<java.lang.Integer>
@@ -3087,14 +3087,14 @@ public final class _AquariumDetailInfoOuterClass {
                  java.util.Collections.unmodifiableList(oIECMONFHBM_) : oIECMONFHBM_;
       }
       /**
-       * <code>repeated uint32 OIECMONFHBM = 7;</code>
+       * <code>repeated uint32 OIECMONFHBM = 50005;</code>
        * @return The count of oIECMONFHBM.
        */
       public int getOIECMONFHBMCount() {
         return oIECMONFHBM_.size();
       }
       /**
-       * <code>repeated uint32 OIECMONFHBM = 7;</code>
+       * <code>repeated uint32 OIECMONFHBM = 50005;</code>
        * @param index The index of the element to return.
        * @return The oIECMONFHBM at the given index.
        */
@@ -3102,7 +3102,7 @@ public final class _AquariumDetailInfoOuterClass {
         return oIECMONFHBM_.getInt(index);
       }
       /**
-       * <code>repeated uint32 OIECMONFHBM = 7;</code>
+       * <code>repeated uint32 OIECMONFHBM = 50005;</code>
        * @param index The index to set the value at.
        * @param value The oIECMONFHBM to set.
        * @return This builder for chaining.
@@ -3115,7 +3115,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 OIECMONFHBM = 7;</code>
+       * <code>repeated uint32 OIECMONFHBM = 50005;</code>
        * @param value The oIECMONFHBM to add.
        * @return This builder for chaining.
        */
@@ -3126,7 +3126,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 OIECMONFHBM = 7;</code>
+       * <code>repeated uint32 OIECMONFHBM = 50005;</code>
        * @param values The oIECMONFHBM to add.
        * @return This builder for chaining.
        */
@@ -3139,7 +3139,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 OIECMONFHBM = 7;</code>
+       * <code>repeated uint32 OIECMONFHBM = 50005;</code>
        * @return This builder for chaining.
        */
       public Builder clearOIECMONFHBM() {
@@ -3151,7 +3151,7 @@ public final class _AquariumDetailInfoOuterClass {
 
       private boolean lABPMPANIDK_ ;
       /**
-       * <code>bool LABPMPANIDK = 8;</code>
+       * <code>bool LABPMPANIDK = 50006;</code>
        * @return The lABPMPANIDK.
        */
       @java.lang.Override
@@ -3159,7 +3159,7 @@ public final class _AquariumDetailInfoOuterClass {
         return lABPMPANIDK_;
       }
       /**
-       * <code>bool LABPMPANIDK = 8;</code>
+       * <code>bool LABPMPANIDK = 50006;</code>
        * @param value The lABPMPANIDK to set.
        * @return This builder for chaining.
        */
@@ -3170,7 +3170,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool LABPMPANIDK = 8;</code>
+       * <code>bool LABPMPANIDK = 50006;</code>
        * @return This builder for chaining.
        */
       public Builder clearLABPMPANIDK() {
@@ -3182,7 +3182,7 @@ public final class _AquariumDetailInfoOuterClass {
 
       private int fOPBJKEMJPF_ ;
       /**
-       * <code>uint32 FOPBJKEMJPF = 9;</code>
+       * <code>uint32 FOPBJKEMJPF = 50007;</code>
        * @return The fOPBJKEMJPF.
        */
       @java.lang.Override
@@ -3190,7 +3190,7 @@ public final class _AquariumDetailInfoOuterClass {
         return fOPBJKEMJPF_;
       }
       /**
-       * <code>uint32 FOPBJKEMJPF = 9;</code>
+       * <code>uint32 FOPBJKEMJPF = 50007;</code>
        * @param value The fOPBJKEMJPF to set.
        * @return This builder for chaining.
        */
@@ -3201,7 +3201,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 FOPBJKEMJPF = 9;</code>
+       * <code>uint32 FOPBJKEMJPF = 50007;</code>
        * @return This builder for chaining.
        */
       public Builder clearFOPBJKEMJPF() {
@@ -3213,7 +3213,7 @@ public final class _AquariumDetailInfoOuterClass {
 
       private int iMDGIKDEBOD_ ;
       /**
-       * <code>uint32 IMDGIKDEBOD = 10;</code>
+       * <code>uint32 IMDGIKDEBOD = 50008;</code>
        * @return The iMDGIKDEBOD.
        */
       @java.lang.Override
@@ -3221,7 +3221,7 @@ public final class _AquariumDetailInfoOuterClass {
         return iMDGIKDEBOD_;
       }
       /**
-       * <code>uint32 IMDGIKDEBOD = 10;</code>
+       * <code>uint32 IMDGIKDEBOD = 50008;</code>
        * @param value The iMDGIKDEBOD to set.
        * @return This builder for chaining.
        */
@@ -3232,7 +3232,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 IMDGIKDEBOD = 10;</code>
+       * <code>uint32 IMDGIKDEBOD = 50008;</code>
        * @return This builder for chaining.
        */
       public Builder clearIMDGIKDEBOD() {
@@ -3244,7 +3244,7 @@ public final class _AquariumDetailInfoOuterClass {
 
       private boolean pHIFBJJBPLK_ ;
       /**
-       * <code>bool PHIFBJJBPLK = 11;</code>
+       * <code>bool PHIFBJJBPLK = 50009;</code>
        * @return The pHIFBJJBPLK.
        */
       @java.lang.Override
@@ -3252,7 +3252,7 @@ public final class _AquariumDetailInfoOuterClass {
         return pHIFBJJBPLK_;
       }
       /**
-       * <code>bool PHIFBJJBPLK = 11;</code>
+       * <code>bool PHIFBJJBPLK = 50009;</code>
        * @param value The pHIFBJJBPLK to set.
        * @return This builder for chaining.
        */
@@ -3263,7 +3263,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool PHIFBJJBPLK = 11;</code>
+       * <code>bool PHIFBJJBPLK = 50009;</code>
        * @return This builder for chaining.
        */
       public Builder clearPHIFBJJBPLK() {
@@ -3275,7 +3275,7 @@ public final class _AquariumDetailInfoOuterClass {
 
       private int stageId_ ;
       /**
-       * <code>uint32 stage_id = 12;</code>
+       * <code>uint32 stage_id = 6;</code>
        * @return The stageId.
        */
       @java.lang.Override
@@ -3283,7 +3283,7 @@ public final class _AquariumDetailInfoOuterClass {
         return stageId_;
       }
       /**
-       * <code>uint32 stage_id = 12;</code>
+       * <code>uint32 stage_id = 6;</code>
        * @param value The stageId to set.
        * @return This builder for chaining.
        */
@@ -3294,7 +3294,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 stage_id = 12;</code>
+       * <code>uint32 stage_id = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearStageId() {
@@ -3306,7 +3306,7 @@ public final class _AquariumDetailInfoOuterClass {
 
       private boolean aKNKPOEJHBO_ ;
       /**
-       * <code>bool AKNKPOEJHBO = 13;</code>
+       * <code>bool AKNKPOEJHBO = 50010;</code>
        * @return The aKNKPOEJHBO.
        */
       @java.lang.Override
@@ -3314,7 +3314,7 @@ public final class _AquariumDetailInfoOuterClass {
         return aKNKPOEJHBO_;
       }
       /**
-       * <code>bool AKNKPOEJHBO = 13;</code>
+       * <code>bool AKNKPOEJHBO = 50010;</code>
        * @param value The aKNKPOEJHBO to set.
        * @return This builder for chaining.
        */
@@ -3325,7 +3325,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool AKNKPOEJHBO = 13;</code>
+       * <code>bool AKNKPOEJHBO = 50010;</code>
        * @return This builder for chaining.
        */
       public Builder clearAKNKPOEJHBO() {
@@ -3337,7 +3337,7 @@ public final class _AquariumDetailInfoOuterClass {
 
       private int nAOEDFPLOAE_ ;
       /**
-       * <code>uint32 NAOEDFPLOAE = 14;</code>
+       * <code>uint32 NAOEDFPLOAE = 50011;</code>
        * @return The nAOEDFPLOAE.
        */
       @java.lang.Override
@@ -3345,7 +3345,7 @@ public final class _AquariumDetailInfoOuterClass {
         return nAOEDFPLOAE_;
       }
       /**
-       * <code>uint32 NAOEDFPLOAE = 14;</code>
+       * <code>uint32 NAOEDFPLOAE = 50011;</code>
        * @param value The nAOEDFPLOAE to set.
        * @return This builder for chaining.
        */
@@ -3356,7 +3356,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 NAOEDFPLOAE = 14;</code>
+       * <code>uint32 NAOEDFPLOAE = 50011;</code>
        * @return This builder for chaining.
        */
       public Builder clearNAOEDFPLOAE() {
@@ -3368,7 +3368,7 @@ public final class _AquariumDetailInfoOuterClass {
 
       private int eDMCKBNOELC_ ;
       /**
-       * <code>uint32 EDMCKBNOELC = 15;</code>
+       * <code>uint32 EDMCKBNOELC = 50012;</code>
        * @return The eDMCKBNOELC.
        */
       @java.lang.Override
@@ -3376,7 +3376,7 @@ public final class _AquariumDetailInfoOuterClass {
         return eDMCKBNOELC_;
       }
       /**
-       * <code>uint32 EDMCKBNOELC = 15;</code>
+       * <code>uint32 EDMCKBNOELC = 50012;</code>
        * @param value The eDMCKBNOELC to set.
        * @return This builder for chaining.
        */
@@ -3387,7 +3387,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 EDMCKBNOELC = 15;</code>
+       * <code>uint32 EDMCKBNOELC = 50012;</code>
        * @return This builder for chaining.
        */
       public Builder clearEDMCKBNOELC() {
@@ -3405,7 +3405,7 @@ public final class _AquariumDetailInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 PAEGHMOCAME = 122;</code>
+       * <code>repeated uint32 PAEGHMOCAME = 50013;</code>
        * @return A list containing the pAEGHMOCAME.
        */
       public java.util.List<java.lang.Integer>
@@ -3414,14 +3414,14 @@ public final class _AquariumDetailInfoOuterClass {
                  java.util.Collections.unmodifiableList(pAEGHMOCAME_) : pAEGHMOCAME_;
       }
       /**
-       * <code>repeated uint32 PAEGHMOCAME = 122;</code>
+       * <code>repeated uint32 PAEGHMOCAME = 50013;</code>
        * @return The count of pAEGHMOCAME.
        */
       public int getPAEGHMOCAMECount() {
         return pAEGHMOCAME_.size();
       }
       /**
-       * <code>repeated uint32 PAEGHMOCAME = 122;</code>
+       * <code>repeated uint32 PAEGHMOCAME = 50013;</code>
        * @param index The index of the element to return.
        * @return The pAEGHMOCAME at the given index.
        */
@@ -3429,7 +3429,7 @@ public final class _AquariumDetailInfoOuterClass {
         return pAEGHMOCAME_.getInt(index);
       }
       /**
-       * <code>repeated uint32 PAEGHMOCAME = 122;</code>
+       * <code>repeated uint32 PAEGHMOCAME = 50013;</code>
        * @param index The index to set the value at.
        * @param value The pAEGHMOCAME to set.
        * @return This builder for chaining.
@@ -3442,7 +3442,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 PAEGHMOCAME = 122;</code>
+       * <code>repeated uint32 PAEGHMOCAME = 50013;</code>
        * @param value The pAEGHMOCAME to add.
        * @return This builder for chaining.
        */
@@ -3453,7 +3453,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 PAEGHMOCAME = 122;</code>
+       * <code>repeated uint32 PAEGHMOCAME = 50013;</code>
        * @param values The pAEGHMOCAME to add.
        * @return This builder for chaining.
        */
@@ -3466,7 +3466,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 PAEGHMOCAME = 122;</code>
+       * <code>repeated uint32 PAEGHMOCAME = 50013;</code>
        * @return This builder for chaining.
        */
       public Builder clearPAEGHMOCAME() {
@@ -3489,7 +3489,7 @@ public final class _AquariumDetailInfoOuterClass {
           emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent, emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent.Builder, emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEventOrBuilder> pCJNHLNMKFLBuilder_;
 
       /**
-       * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 416;</code>
+       * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 178;</code>
        */
       public java.util.List<emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent> getPCJNHLNMKFLList() {
         if (pCJNHLNMKFLBuilder_ == null) {
@@ -3499,7 +3499,7 @@ public final class _AquariumDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 416;</code>
+       * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 178;</code>
        */
       public int getPCJNHLNMKFLCount() {
         if (pCJNHLNMKFLBuilder_ == null) {
@@ -3509,7 +3509,7 @@ public final class _AquariumDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 416;</code>
+       * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 178;</code>
        */
       public emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent getPCJNHLNMKFL(int index) {
         if (pCJNHLNMKFLBuilder_ == null) {
@@ -3519,7 +3519,7 @@ public final class _AquariumDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 416;</code>
+       * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 178;</code>
        */
       public Builder setPCJNHLNMKFL(
           int index, emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent value) {
@@ -3536,7 +3536,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 416;</code>
+       * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 178;</code>
        */
       public Builder setPCJNHLNMKFL(
           int index, emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent.Builder builderForValue) {
@@ -3550,7 +3550,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 416;</code>
+       * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 178;</code>
        */
       public Builder addPCJNHLNMKFL(emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent value) {
         if (pCJNHLNMKFLBuilder_ == null) {
@@ -3566,7 +3566,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 416;</code>
+       * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 178;</code>
        */
       public Builder addPCJNHLNMKFL(
           int index, emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent value) {
@@ -3583,7 +3583,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 416;</code>
+       * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 178;</code>
        */
       public Builder addPCJNHLNMKFL(
           emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent.Builder builderForValue) {
@@ -3597,7 +3597,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 416;</code>
+       * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 178;</code>
        */
       public Builder addPCJNHLNMKFL(
           int index, emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent.Builder builderForValue) {
@@ -3611,7 +3611,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 416;</code>
+       * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 178;</code>
        */
       public Builder addAllPCJNHLNMKFL(
           java.lang.Iterable<? extends emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent> values) {
@@ -3626,7 +3626,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 416;</code>
+       * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 178;</code>
        */
       public Builder clearPCJNHLNMKFL() {
         if (pCJNHLNMKFLBuilder_ == null) {
@@ -3639,7 +3639,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 416;</code>
+       * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 178;</code>
        */
       public Builder removePCJNHLNMKFL(int index) {
         if (pCJNHLNMKFLBuilder_ == null) {
@@ -3652,14 +3652,14 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 416;</code>
+       * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 178;</code>
        */
       public emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent.Builder getPCJNHLNMKFLBuilder(
           int index) {
         return getPCJNHLNMKFLFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 416;</code>
+       * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 178;</code>
        */
       public emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEventOrBuilder getPCJNHLNMKFLOrBuilder(
           int index) {
@@ -3669,7 +3669,7 @@ public final class _AquariumDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 416;</code>
+       * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 178;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEventOrBuilder> 
            getPCJNHLNMKFLOrBuilderList() {
@@ -3680,14 +3680,14 @@ public final class _AquariumDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 416;</code>
+       * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 178;</code>
        */
       public emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent.Builder addPCJNHLNMKFLBuilder() {
         return getPCJNHLNMKFLFieldBuilder().addBuilder(
             emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent.getDefaultInstance());
       }
       /**
-       * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 416;</code>
+       * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 178;</code>
        */
       public emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent.Builder addPCJNHLNMKFLBuilder(
           int index) {
@@ -3695,7 +3695,7 @@ public final class _AquariumDetailInfoOuterClass {
             index, emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent.getDefaultInstance());
       }
       /**
-       * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 416;</code>
+       * <code>repeated ._AquariumDivingLevelEvent PCJNHLNMKFL = 178;</code>
        */
       public java.util.List<emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent.Builder> 
            getPCJNHLNMKFLBuilderList() {
@@ -3718,7 +3718,7 @@ public final class _AquariumDetailInfoOuterClass {
 
       private int jMBAEDIMHFN_ ;
       /**
-       * <code>uint32 JMBAEDIMHFN = 457;</code>
+       * <code>uint32 JMBAEDIMHFN = 50014;</code>
        * @return The jMBAEDIMHFN.
        */
       @java.lang.Override
@@ -3726,7 +3726,7 @@ public final class _AquariumDetailInfoOuterClass {
         return jMBAEDIMHFN_;
       }
       /**
-       * <code>uint32 JMBAEDIMHFN = 457;</code>
+       * <code>uint32 JMBAEDIMHFN = 50014;</code>
        * @param value The jMBAEDIMHFN to set.
        * @return This builder for chaining.
        */
@@ -3737,7 +3737,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 JMBAEDIMHFN = 457;</code>
+       * <code>uint32 JMBAEDIMHFN = 50014;</code>
        * @return This builder for chaining.
        */
       public Builder clearJMBAEDIMHFN() {
@@ -3749,7 +3749,7 @@ public final class _AquariumDetailInfoOuterClass {
 
       private boolean oAOKCCGGMGB_ ;
       /**
-       * <code>bool OAOKCCGGMGB = 693;</code>
+       * <code>bool OAOKCCGGMGB = 50015;</code>
        * @return The oAOKCCGGMGB.
        */
       @java.lang.Override
@@ -3757,7 +3757,7 @@ public final class _AquariumDetailInfoOuterClass {
         return oAOKCCGGMGB_;
       }
       /**
-       * <code>bool OAOKCCGGMGB = 693;</code>
+       * <code>bool OAOKCCGGMGB = 50015;</code>
        * @param value The oAOKCCGGMGB to set.
        * @return This builder for chaining.
        */
@@ -3768,7 +3768,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool OAOKCCGGMGB = 693;</code>
+       * <code>bool OAOKCCGGMGB = 50015;</code>
        * @return This builder for chaining.
        */
       public Builder clearOAOKCCGGMGB() {
@@ -3786,7 +3786,7 @@ public final class _AquariumDetailInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 PMJLEBGOILE = 731;</code>
+       * <code>repeated uint32 PMJLEBGOILE = 50016;</code>
        * @return A list containing the pMJLEBGOILE.
        */
       public java.util.List<java.lang.Integer>
@@ -3795,14 +3795,14 @@ public final class _AquariumDetailInfoOuterClass {
                  java.util.Collections.unmodifiableList(pMJLEBGOILE_) : pMJLEBGOILE_;
       }
       /**
-       * <code>repeated uint32 PMJLEBGOILE = 731;</code>
+       * <code>repeated uint32 PMJLEBGOILE = 50016;</code>
        * @return The count of pMJLEBGOILE.
        */
       public int getPMJLEBGOILECount() {
         return pMJLEBGOILE_.size();
       }
       /**
-       * <code>repeated uint32 PMJLEBGOILE = 731;</code>
+       * <code>repeated uint32 PMJLEBGOILE = 50016;</code>
        * @param index The index of the element to return.
        * @return The pMJLEBGOILE at the given index.
        */
@@ -3810,7 +3810,7 @@ public final class _AquariumDetailInfoOuterClass {
         return pMJLEBGOILE_.getInt(index);
       }
       /**
-       * <code>repeated uint32 PMJLEBGOILE = 731;</code>
+       * <code>repeated uint32 PMJLEBGOILE = 50016;</code>
        * @param index The index to set the value at.
        * @param value The pMJLEBGOILE to set.
        * @return This builder for chaining.
@@ -3823,7 +3823,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 PMJLEBGOILE = 731;</code>
+       * <code>repeated uint32 PMJLEBGOILE = 50016;</code>
        * @param value The pMJLEBGOILE to add.
        * @return This builder for chaining.
        */
@@ -3834,7 +3834,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 PMJLEBGOILE = 731;</code>
+       * <code>repeated uint32 PMJLEBGOILE = 50016;</code>
        * @param values The pMJLEBGOILE to add.
        * @return This builder for chaining.
        */
@@ -3847,7 +3847,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 PMJLEBGOILE = 731;</code>
+       * <code>repeated uint32 PMJLEBGOILE = 50016;</code>
        * @return This builder for chaining.
        */
       public Builder clearPMJLEBGOILE() {
@@ -3870,7 +3870,7 @@ public final class _AquariumDetailInfoOuterClass {
           emu.grasscutter.net.proto.IIOFHFIDENJOuterClass.IIOFHFIDENJ, emu.grasscutter.net.proto.IIOFHFIDENJOuterClass.IIOFHFIDENJ.Builder, emu.grasscutter.net.proto.IIOFHFIDENJOuterClass.IIOFHFIDENJOrBuilder> fLPPKAACIAABuilder_;
 
       /**
-       * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 1341;</code>
+       * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 50017;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.IIOFHFIDENJOuterClass.IIOFHFIDENJ> getFLPPKAACIAAList() {
         if (fLPPKAACIAABuilder_ == null) {
@@ -3880,7 +3880,7 @@ public final class _AquariumDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 1341;</code>
+       * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 50017;</code>
        */
       public int getFLPPKAACIAACount() {
         if (fLPPKAACIAABuilder_ == null) {
@@ -3890,7 +3890,7 @@ public final class _AquariumDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 1341;</code>
+       * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 50017;</code>
        */
       public emu.grasscutter.net.proto.IIOFHFIDENJOuterClass.IIOFHFIDENJ getFLPPKAACIAA(int index) {
         if (fLPPKAACIAABuilder_ == null) {
@@ -3900,7 +3900,7 @@ public final class _AquariumDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 1341;</code>
+       * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 50017;</code>
        */
       public Builder setFLPPKAACIAA(
           int index, emu.grasscutter.net.proto.IIOFHFIDENJOuterClass.IIOFHFIDENJ value) {
@@ -3917,7 +3917,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 1341;</code>
+       * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 50017;</code>
        */
       public Builder setFLPPKAACIAA(
           int index, emu.grasscutter.net.proto.IIOFHFIDENJOuterClass.IIOFHFIDENJ.Builder builderForValue) {
@@ -3931,7 +3931,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 1341;</code>
+       * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 50017;</code>
        */
       public Builder addFLPPKAACIAA(emu.grasscutter.net.proto.IIOFHFIDENJOuterClass.IIOFHFIDENJ value) {
         if (fLPPKAACIAABuilder_ == null) {
@@ -3947,7 +3947,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 1341;</code>
+       * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 50017;</code>
        */
       public Builder addFLPPKAACIAA(
           int index, emu.grasscutter.net.proto.IIOFHFIDENJOuterClass.IIOFHFIDENJ value) {
@@ -3964,7 +3964,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 1341;</code>
+       * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 50017;</code>
        */
       public Builder addFLPPKAACIAA(
           emu.grasscutter.net.proto.IIOFHFIDENJOuterClass.IIOFHFIDENJ.Builder builderForValue) {
@@ -3978,7 +3978,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 1341;</code>
+       * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 50017;</code>
        */
       public Builder addFLPPKAACIAA(
           int index, emu.grasscutter.net.proto.IIOFHFIDENJOuterClass.IIOFHFIDENJ.Builder builderForValue) {
@@ -3992,7 +3992,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 1341;</code>
+       * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 50017;</code>
        */
       public Builder addAllFLPPKAACIAA(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.IIOFHFIDENJOuterClass.IIOFHFIDENJ> values) {
@@ -4007,7 +4007,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 1341;</code>
+       * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 50017;</code>
        */
       public Builder clearFLPPKAACIAA() {
         if (fLPPKAACIAABuilder_ == null) {
@@ -4020,7 +4020,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 1341;</code>
+       * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 50017;</code>
        */
       public Builder removeFLPPKAACIAA(int index) {
         if (fLPPKAACIAABuilder_ == null) {
@@ -4033,14 +4033,14 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 1341;</code>
+       * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 50017;</code>
        */
       public emu.grasscutter.net.proto.IIOFHFIDENJOuterClass.IIOFHFIDENJ.Builder getFLPPKAACIAABuilder(
           int index) {
         return getFLPPKAACIAAFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 1341;</code>
+       * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 50017;</code>
        */
       public emu.grasscutter.net.proto.IIOFHFIDENJOuterClass.IIOFHFIDENJOrBuilder getFLPPKAACIAAOrBuilder(
           int index) {
@@ -4050,7 +4050,7 @@ public final class _AquariumDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 1341;</code>
+       * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 50017;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.IIOFHFIDENJOuterClass.IIOFHFIDENJOrBuilder> 
            getFLPPKAACIAAOrBuilderList() {
@@ -4061,14 +4061,14 @@ public final class _AquariumDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 1341;</code>
+       * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 50017;</code>
        */
       public emu.grasscutter.net.proto.IIOFHFIDENJOuterClass.IIOFHFIDENJ.Builder addFLPPKAACIAABuilder() {
         return getFLPPKAACIAAFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.IIOFHFIDENJOuterClass.IIOFHFIDENJ.getDefaultInstance());
       }
       /**
-       * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 1341;</code>
+       * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 50017;</code>
        */
       public emu.grasscutter.net.proto.IIOFHFIDENJOuterClass.IIOFHFIDENJ.Builder addFLPPKAACIAABuilder(
           int index) {
@@ -4076,7 +4076,7 @@ public final class _AquariumDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.IIOFHFIDENJOuterClass.IIOFHFIDENJ.getDefaultInstance());
       }
       /**
-       * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 1341;</code>
+       * <code>repeated .IIOFHFIDENJ FLPPKAACIAA = 50017;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.IIOFHFIDENJOuterClass.IIOFHFIDENJ.Builder> 
            getFLPPKAACIAABuilderList() {
@@ -4105,7 +4105,7 @@ public final class _AquariumDetailInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 HFGLFBIEAAM = 2020;</code>
+       * <code>repeated uint32 HFGLFBIEAAM = 50018;</code>
        * @return A list containing the hFGLFBIEAAM.
        */
       public java.util.List<java.lang.Integer>
@@ -4114,14 +4114,14 @@ public final class _AquariumDetailInfoOuterClass {
                  java.util.Collections.unmodifiableList(hFGLFBIEAAM_) : hFGLFBIEAAM_;
       }
       /**
-       * <code>repeated uint32 HFGLFBIEAAM = 2020;</code>
+       * <code>repeated uint32 HFGLFBIEAAM = 50018;</code>
        * @return The count of hFGLFBIEAAM.
        */
       public int getHFGLFBIEAAMCount() {
         return hFGLFBIEAAM_.size();
       }
       /**
-       * <code>repeated uint32 HFGLFBIEAAM = 2020;</code>
+       * <code>repeated uint32 HFGLFBIEAAM = 50018;</code>
        * @param index The index of the element to return.
        * @return The hFGLFBIEAAM at the given index.
        */
@@ -4129,7 +4129,7 @@ public final class _AquariumDetailInfoOuterClass {
         return hFGLFBIEAAM_.getInt(index);
       }
       /**
-       * <code>repeated uint32 HFGLFBIEAAM = 2020;</code>
+       * <code>repeated uint32 HFGLFBIEAAM = 50018;</code>
        * @param index The index to set the value at.
        * @param value The hFGLFBIEAAM to set.
        * @return This builder for chaining.
@@ -4142,7 +4142,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 HFGLFBIEAAM = 2020;</code>
+       * <code>repeated uint32 HFGLFBIEAAM = 50018;</code>
        * @param value The hFGLFBIEAAM to add.
        * @return This builder for chaining.
        */
@@ -4153,7 +4153,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 HFGLFBIEAAM = 2020;</code>
+       * <code>repeated uint32 HFGLFBIEAAM = 50018;</code>
        * @param values The hFGLFBIEAAM to add.
        * @return This builder for chaining.
        */
@@ -4166,7 +4166,7 @@ public final class _AquariumDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 HFGLFBIEAAM = 2020;</code>
+       * <code>repeated uint32 HFGLFBIEAAM = 50018;</code>
        * @return This builder for chaining.
        */
       public Builder clearHFGLFBIEAAM() {
@@ -4245,23 +4245,24 @@ public final class _AquariumDetailInfoOuterClass {
       "\n\031_AquariumDetailInfo.proto\032\021IIOFHFIDENJ" +
       ".proto\032\020Uint32Pair.proto\032\037_AquariumDivin" +
       "gLevelEvent.proto\032\035_AquariumDivingTaskIn" +
-      "fo.proto\"\306\004\n\023_AquariumDetailInfo\022\023\n\013MDCC" +
-      "IIFACFK\030\001 \003(\r\022\023\n\013DGJCEMANOCM\030\002 \001(\r\022\023\n\013GC" +
-      "COJAGHNKJ\030\003 \003(\r\022$\n\017item_count_list\030\004 \003(\013" +
-      "2\013.Uint32Pair\022+\n\ttask_list\030\005 \003(\0132\030._Aqua" +
-      "riumDivingTaskInfo\022 \n\013FKCIFOHLLBM\030\006 \003(\0132" +
-      "\013.Uint32Pair\022\023\n\013OIECMONFHBM\030\007 \003(\r\022\023\n\013LAB" +
-      "PMPANIDK\030\010 \001(\010\022\023\n\013FOPBJKEMJPF\030\t \001(\r\022\023\n\013I" +
-      "MDGIKDEBOD\030\n \001(\r\022\023\n\013PHIFBJJBPLK\030\013 \001(\010\022\020\n" +
-      "\010stage_id\030\014 \001(\r\022\023\n\013AKNKPOEJHBO\030\r \001(\010\022\023\n\013" +
-      "NAOEDFPLOAE\030\016 \001(\r\022\023\n\013EDMCKBNOELC\030\017 \001(\r\022\023" +
-      "\n\013PAEGHMOCAME\030z \003(\r\0220\n\013PCJNHLNMKFL\030\240\003 \003(" +
-      "\0132\032._AquariumDivingLevelEvent\022\024\n\013JMBAEDI" +
-      "MHFN\030\311\003 \001(\r\022\024\n\013OAOKCCGGMGB\030\265\005 \001(\010\022\024\n\013PMJ" +
-      "LEBGOILE\030\333\005 \003(\r\022\"\n\013FLPPKAACIAA\030\275\n \003(\0132\014." +
-      "IIOFHFIDENJ\022\024\n\013HFGLFBIEAAM\030\344\017 \003(\rB:\n\031emu" +
-      ".grasscutter.net.protoB\035_AquariumDetailI" +
-      "nfoOuterClassb\006proto3"
+      "fo.proto\"\347\004\n\023_AquariumDetailInfo\022\025\n\013MDCC" +
+      "IIFACFK\030\320\206\003 \003(\r\022\025\n\013DGJCEMANOCM\030\321\206\003 \001(\r\022\025" +
+      "\n\013GCCOJAGHNKJ\030\322\206\003 \003(\r\022&\n\017item_count_list" +
+      "\030\323\206\003 \003(\0132\013.Uint32Pair\022+\n\ttask_list\030\n \003(\013" +
+      "2\030._AquariumDivingTaskInfo\022\"\n\013FKCIFOHLLB" +
+      "M\030\324\206\003 \003(\0132\013.Uint32Pair\022\025\n\013OIECMONFHBM\030\325\206" +
+      "\003 \003(\r\022\025\n\013LABPMPANIDK\030\326\206\003 \001(\010\022\025\n\013FOPBJKEM" +
+      "JPF\030\327\206\003 \001(\r\022\025\n\013IMDGIKDEBOD\030\330\206\003 \001(\r\022\025\n\013PH" +
+      "IFBJJBPLK\030\331\206\003 \001(\010\022\020\n\010stage_id\030\006 \001(\r\022\025\n\013A" +
+      "KNKPOEJHBO\030\332\206\003 \001(\010\022\025\n\013NAOEDFPLOAE\030\333\206\003 \001(" +
+      "\r\022\025\n\013EDMCKBNOELC\030\334\206\003 \001(\r\022\025\n\013PAEGHMOCAME\030" +
+      "\335\206\003 \003(\r\0220\n\013PCJNHLNMKFL\030\262\001 \003(\0132\032._Aquariu" +
+      "mDivingLevelEvent\022\025\n\013JMBAEDIMHFN\030\336\206\003 \001(\r" +
+      "\022\025\n\013OAOKCCGGMGB\030\337\206\003 \001(\010\022\025\n\013PMJLEBGOILE\030\340" +
+      "\206\003 \003(\r\022#\n\013FLPPKAACIAA\030\341\206\003 \003(\0132\014.IIOFHFID" +
+      "ENJ\022\025\n\013HFGLFBIEAAM\030\342\206\003 \003(\rB:\n\031emu.grassc" +
+      "utter.net.protoB\035_AquariumDetailInfoOute" +
+      "rClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -7,7 +7,7 @@ import "PlayerLocationInfo.proto";
 import "VehicleLocationInfo.proto";
 
 message ScenePlayerLocationNotify {
-	uint32 scene_id = 8;
-	repeated PlayerLocationInfo player_loc_list = 10;
-	repeated VehicleLocationInfo vehicle_loc_list = 11;
+	uint32 scene_id = 7;
+	repeated PlayerLocationInfo player_loc_list = 1;
+	repeated VehicleLocationInfo vehicle_loc_list = 8;
 }

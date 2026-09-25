@@ -19,65 +19,65 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool KPEEGKCFFBA = 1;</code>
+     * <code>bool KPEEGKCFFBA = 2;</code>
      * @return The kPEEGKCFFBA.
      */
     boolean getKPEEGKCFFBA();
 
     /**
-     * <code>uint32 PNLPELDJLFL = 3;</code>
+     * <code>uint32 PNLPELDJLFL = 10;</code>
      * @return The pNLPELDJLFL.
      */
     int getPNLPELDJLFL();
 
     /**
-     * <code>bool is_liked = 5;</code>
+     * <code>bool is_liked = 8;</code>
      * @return The isLiked.
      */
     boolean getIsLiked();
 
     /**
-     * <code>uint32 audit_state = 6;</code>
+     * <code>uint32 audit_state = 4;</code>
      * @return The auditState.
      */
     int getAuditState();
 
     /**
-     * <code>bool is_published = 7;</code>
+     * <code>bool is_published = 1;</code>
      * @return The isPublished.
      */
     boolean getIsPublished();
 
     /**
-     * <code>uint32 slot_id = 8;</code>
+     * <code>uint32 slot_id = 9;</code>
      * @return The slotId.
      */
     int getSlotId();
 
     /**
-     * <code>uint64 ugc_guid = 9;</code>
+     * <code>uint64 ugc_guid = 11;</code>
      * @return The ugcGuid.
      */
     long getUgcGuid();
 
     /**
-     * <code>uint32 BHBJOKCFMPN = 10;</code>
+     * <code>uint32 BHBJOKCFMPN = 13;</code>
      * @return The bHBJOKCFMPN.
      */
     int getBHBJOKCFMPN();
 
     /**
-     * <code>._LanV5CardSocial social = 11;</code>
+     * <code>._LanV5CardSocial social = 5;</code>
      * @return Whether the social field is set.
      */
     boolean hasSocial();
     /**
-     * <code>._LanV5CardSocial social = 11;</code>
+     * <code>._LanV5CardSocial social = 5;</code>
      * @return The social.
      */
     emu.grasscutter.net.proto._LanV5CardSocialOuterClass._LanV5CardSocial getSocial();
     /**
-     * <code>._LanV5CardSocial social = 11;</code>
+     * <code>._LanV5CardSocial social = 5;</code>
      */
     emu.grasscutter.net.proto._LanV5CardSocialOuterClass._LanV5CardSocialOrBuilder getSocialOrBuilder();
 
@@ -88,18 +88,18 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
     boolean getIsStored();
 
     /**
-     * <code>uint32 save_time = 13;</code>
+     * <code>uint32 save_time = 6;</code>
      * @return The saveTime.
      */
     int getSaveTime();
 
     /**
-     * <code>string FOGGDOBPMJO = 14;</code>
+     * <code>string FOGGDOBPMJO = 3;</code>
      * @return The fOGGDOBPMJO.
      */
     java.lang.String getFOGGDOBPMJO();
     /**
-     * <code>string FOGGDOBPMJO = 14;</code>
+     * <code>string FOGGDOBPMJO = 3;</code>
      * @return The bytes for fOGGDOBPMJO.
      */
     com.google.protobuf.ByteString
@@ -166,45 +166,26 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
               break;
             case 8: {
 
+              isPublished_ = input.readBool();
+              break;
+            }
+            case 16: {
+
               kPEEGKCFFBA_ = input.readBool();
               break;
             }
-            case 24: {
+            case 26: {
+              java.lang.String s = input.readStringRequireUtf8();
 
-              pNLPELDJLFL_ = input.readUInt32();
+              fOGGDOBPMJO_ = s;
               break;
             }
-            case 40: {
-
-              isLiked_ = input.readBool();
-              break;
-            }
-            case 48: {
+            case 32: {
 
               auditState_ = input.readUInt32();
               break;
             }
-            case 56: {
-
-              isPublished_ = input.readBool();
-              break;
-            }
-            case 64: {
-
-              slotId_ = input.readUInt32();
-              break;
-            }
-            case 72: {
-
-              ugcGuid_ = input.readUInt64();
-              break;
-            }
-            case 80: {
-
-              bHBJOKCFMPN_ = input.readUInt32();
-              break;
-            }
-            case 90: {
+            case 42: {
               emu.grasscutter.net.proto._LanV5CardSocialOuterClass._LanV5CardSocial.Builder subBuilder = null;
               if (social_ != null) {
                 subBuilder = social_.toBuilder();
@@ -217,6 +198,31 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
 
               break;
             }
+            case 48: {
+
+              saveTime_ = input.readUInt32();
+              break;
+            }
+            case 64: {
+
+              isLiked_ = input.readBool();
+              break;
+            }
+            case 72: {
+
+              slotId_ = input.readUInt32();
+              break;
+            }
+            case 80: {
+
+              pNLPELDJLFL_ = input.readUInt32();
+              break;
+            }
+            case 88: {
+
+              ugcGuid_ = input.readUInt64();
+              break;
+            }
             case 96: {
 
               isStored_ = input.readBool();
@@ -224,13 +230,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
             }
             case 104: {
 
-              saveTime_ = input.readUInt32();
-              break;
-            }
-            case 114: {
-              java.lang.String s = input.readStringRequireUtf8();
-
-              fOGGDOBPMJO_ = s;
+              bHBJOKCFMPN_ = input.readUInt32();
               break;
             }
             case 122: {
@@ -271,10 +271,10 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
               emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo.class, emu.grasscutter.net.proto._UgcLanV5CardBriefInfoOuterClass._UgcLanV5CardBriefInfo.Builder.class);
     }
 
-    public static final int KPEEGKCFFBA_FIELD_NUMBER = 1;
+    public static final int KPEEGKCFFBA_FIELD_NUMBER = 2;
     private boolean kPEEGKCFFBA_;
     /**
-     * <code>bool KPEEGKCFFBA = 1;</code>
+     * <code>bool KPEEGKCFFBA = 2;</code>
      * @return The kPEEGKCFFBA.
      */
     @java.lang.Override
@@ -282,10 +282,10 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
       return kPEEGKCFFBA_;
     }
 
-    public static final int PNLPELDJLFL_FIELD_NUMBER = 3;
+    public static final int PNLPELDJLFL_FIELD_NUMBER = 10;
     private int pNLPELDJLFL_;
     /**
-     * <code>uint32 PNLPELDJLFL = 3;</code>
+     * <code>uint32 PNLPELDJLFL = 10;</code>
      * @return The pNLPELDJLFL.
      */
     @java.lang.Override
@@ -293,10 +293,10 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
       return pNLPELDJLFL_;
     }
 
-    public static final int IS_LIKED_FIELD_NUMBER = 5;
+    public static final int IS_LIKED_FIELD_NUMBER = 8;
     private boolean isLiked_;
     /**
-     * <code>bool is_liked = 5;</code>
+     * <code>bool is_liked = 8;</code>
      * @return The isLiked.
      */
     @java.lang.Override
@@ -304,10 +304,10 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
       return isLiked_;
     }
 
-    public static final int AUDIT_STATE_FIELD_NUMBER = 6;
+    public static final int AUDIT_STATE_FIELD_NUMBER = 4;
     private int auditState_;
     /**
-     * <code>uint32 audit_state = 6;</code>
+     * <code>uint32 audit_state = 4;</code>
      * @return The auditState.
      */
     @java.lang.Override
@@ -315,10 +315,10 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
       return auditState_;
     }
 
-    public static final int IS_PUBLISHED_FIELD_NUMBER = 7;
+    public static final int IS_PUBLISHED_FIELD_NUMBER = 1;
     private boolean isPublished_;
     /**
-     * <code>bool is_published = 7;</code>
+     * <code>bool is_published = 1;</code>
      * @return The isPublished.
      */
     @java.lang.Override
@@ -326,10 +326,10 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
       return isPublished_;
     }
 
-    public static final int SLOT_ID_FIELD_NUMBER = 8;
+    public static final int SLOT_ID_FIELD_NUMBER = 9;
     private int slotId_;
     /**
-     * <code>uint32 slot_id = 8;</code>
+     * <code>uint32 slot_id = 9;</code>
      * @return The slotId.
      */
     @java.lang.Override
@@ -337,10 +337,10 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
       return slotId_;
     }
 
-    public static final int UGC_GUID_FIELD_NUMBER = 9;
+    public static final int UGC_GUID_FIELD_NUMBER = 11;
     private long ugcGuid_;
     /**
-     * <code>uint64 ugc_guid = 9;</code>
+     * <code>uint64 ugc_guid = 11;</code>
      * @return The ugcGuid.
      */
     @java.lang.Override
@@ -348,10 +348,10 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
       return ugcGuid_;
     }
 
-    public static final int BHBJOKCFMPN_FIELD_NUMBER = 10;
+    public static final int BHBJOKCFMPN_FIELD_NUMBER = 13;
     private int bHBJOKCFMPN_;
     /**
-     * <code>uint32 BHBJOKCFMPN = 10;</code>
+     * <code>uint32 BHBJOKCFMPN = 13;</code>
      * @return The bHBJOKCFMPN.
      */
     @java.lang.Override
@@ -359,10 +359,10 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
       return bHBJOKCFMPN_;
     }
 
-    public static final int SOCIAL_FIELD_NUMBER = 11;
+    public static final int SOCIAL_FIELD_NUMBER = 5;
     private emu.grasscutter.net.proto._LanV5CardSocialOuterClass._LanV5CardSocial social_;
     /**
-     * <code>._LanV5CardSocial social = 11;</code>
+     * <code>._LanV5CardSocial social = 5;</code>
      * @return Whether the social field is set.
      */
     @java.lang.Override
@@ -370,7 +370,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
       return social_ != null;
     }
     /**
-     * <code>._LanV5CardSocial social = 11;</code>
+     * <code>._LanV5CardSocial social = 5;</code>
      * @return The social.
      */
     @java.lang.Override
@@ -378,7 +378,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
       return social_ == null ? emu.grasscutter.net.proto._LanV5CardSocialOuterClass._LanV5CardSocial.getDefaultInstance() : social_;
     }
     /**
-     * <code>._LanV5CardSocial social = 11;</code>
+     * <code>._LanV5CardSocial social = 5;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._LanV5CardSocialOuterClass._LanV5CardSocialOrBuilder getSocialOrBuilder() {
@@ -396,10 +396,10 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
       return isStored_;
     }
 
-    public static final int SAVE_TIME_FIELD_NUMBER = 13;
+    public static final int SAVE_TIME_FIELD_NUMBER = 6;
     private int saveTime_;
     /**
-     * <code>uint32 save_time = 13;</code>
+     * <code>uint32 save_time = 6;</code>
      * @return The saveTime.
      */
     @java.lang.Override
@@ -407,10 +407,10 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
       return saveTime_;
     }
 
-    public static final int FOGGDOBPMJO_FIELD_NUMBER = 14;
+    public static final int FOGGDOBPMJO_FIELD_NUMBER = 3;
     private volatile java.lang.Object fOGGDOBPMJO_;
     /**
-     * <code>string FOGGDOBPMJO = 14;</code>
+     * <code>string FOGGDOBPMJO = 3;</code>
      * @return The fOGGDOBPMJO.
      */
     @java.lang.Override
@@ -427,7 +427,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
       }
     }
     /**
-     * <code>string FOGGDOBPMJO = 14;</code>
+     * <code>string FOGGDOBPMJO = 3;</code>
      * @return The bytes for fOGGDOBPMJO.
      */
     @java.lang.Override
@@ -497,41 +497,41 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (isPublished_ != false) {
+        output.writeBool(1, isPublished_);
+      }
       if (kPEEGKCFFBA_ != false) {
-        output.writeBool(1, kPEEGKCFFBA_);
+        output.writeBool(2, kPEEGKCFFBA_);
       }
-      if (pNLPELDJLFL_ != 0) {
-        output.writeUInt32(3, pNLPELDJLFL_);
-      }
-      if (isLiked_ != false) {
-        output.writeBool(5, isLiked_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(fOGGDOBPMJO_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 3, fOGGDOBPMJO_);
       }
       if (auditState_ != 0) {
-        output.writeUInt32(6, auditState_);
-      }
-      if (isPublished_ != false) {
-        output.writeBool(7, isPublished_);
-      }
-      if (slotId_ != 0) {
-        output.writeUInt32(8, slotId_);
-      }
-      if (ugcGuid_ != 0L) {
-        output.writeUInt64(9, ugcGuid_);
-      }
-      if (bHBJOKCFMPN_ != 0) {
-        output.writeUInt32(10, bHBJOKCFMPN_);
+        output.writeUInt32(4, auditState_);
       }
       if (social_ != null) {
-        output.writeMessage(11, getSocial());
+        output.writeMessage(5, getSocial());
+      }
+      if (saveTime_ != 0) {
+        output.writeUInt32(6, saveTime_);
+      }
+      if (isLiked_ != false) {
+        output.writeBool(8, isLiked_);
+      }
+      if (slotId_ != 0) {
+        output.writeUInt32(9, slotId_);
+      }
+      if (pNLPELDJLFL_ != 0) {
+        output.writeUInt32(10, pNLPELDJLFL_);
+      }
+      if (ugcGuid_ != 0L) {
+        output.writeUInt64(11, ugcGuid_);
       }
       if (isStored_ != false) {
         output.writeBool(12, isStored_);
       }
-      if (saveTime_ != 0) {
-        output.writeUInt32(13, saveTime_);
-      }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(fOGGDOBPMJO_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 14, fOGGDOBPMJO_);
+      if (bHBJOKCFMPN_ != 0) {
+        output.writeUInt32(13, bHBJOKCFMPN_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(creatorNickname_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 15, creatorNickname_);
@@ -545,52 +545,52 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (isPublished_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1, isPublished_);
+      }
       if (kPEEGKCFFBA_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1, kPEEGKCFFBA_);
+          .computeBoolSize(2, kPEEGKCFFBA_);
       }
-      if (pNLPELDJLFL_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, pNLPELDJLFL_);
-      }
-      if (isLiked_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(5, isLiked_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(fOGGDOBPMJO_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(3, fOGGDOBPMJO_);
       }
       if (auditState_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, auditState_);
-      }
-      if (isPublished_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(7, isPublished_);
-      }
-      if (slotId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, slotId_);
-      }
-      if (ugcGuid_ != 0L) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(9, ugcGuid_);
-      }
-      if (bHBJOKCFMPN_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, bHBJOKCFMPN_);
+          .computeUInt32Size(4, auditState_);
       }
       if (social_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, getSocial());
+          .computeMessageSize(5, getSocial());
+      }
+      if (saveTime_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(6, saveTime_);
+      }
+      if (isLiked_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(8, isLiked_);
+      }
+      if (slotId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(9, slotId_);
+      }
+      if (pNLPELDJLFL_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(10, pNLPELDJLFL_);
+      }
+      if (ugcGuid_ != 0L) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt64Size(11, ugcGuid_);
       }
       if (isStored_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(12, isStored_);
       }
-      if (saveTime_ != 0) {
+      if (bHBJOKCFMPN_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, saveTime_);
-      }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(fOGGDOBPMJO_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(14, fOGGDOBPMJO_);
+          .computeUInt32Size(13, bHBJOKCFMPN_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(creatorNickname_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(15, creatorNickname_);
@@ -1009,7 +1009,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
 
       private boolean kPEEGKCFFBA_ ;
       /**
-       * <code>bool KPEEGKCFFBA = 1;</code>
+       * <code>bool KPEEGKCFFBA = 2;</code>
        * @return The kPEEGKCFFBA.
        */
       @java.lang.Override
@@ -1017,7 +1017,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
         return kPEEGKCFFBA_;
       }
       /**
-       * <code>bool KPEEGKCFFBA = 1;</code>
+       * <code>bool KPEEGKCFFBA = 2;</code>
        * @param value The kPEEGKCFFBA to set.
        * @return This builder for chaining.
        */
@@ -1028,7 +1028,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool KPEEGKCFFBA = 1;</code>
+       * <code>bool KPEEGKCFFBA = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearKPEEGKCFFBA() {
@@ -1040,7 +1040,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
 
       private int pNLPELDJLFL_ ;
       /**
-       * <code>uint32 PNLPELDJLFL = 3;</code>
+       * <code>uint32 PNLPELDJLFL = 10;</code>
        * @return The pNLPELDJLFL.
        */
       @java.lang.Override
@@ -1048,7 +1048,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
         return pNLPELDJLFL_;
       }
       /**
-       * <code>uint32 PNLPELDJLFL = 3;</code>
+       * <code>uint32 PNLPELDJLFL = 10;</code>
        * @param value The pNLPELDJLFL to set.
        * @return This builder for chaining.
        */
@@ -1059,7 +1059,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 PNLPELDJLFL = 3;</code>
+       * <code>uint32 PNLPELDJLFL = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearPNLPELDJLFL() {
@@ -1071,7 +1071,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
 
       private boolean isLiked_ ;
       /**
-       * <code>bool is_liked = 5;</code>
+       * <code>bool is_liked = 8;</code>
        * @return The isLiked.
        */
       @java.lang.Override
@@ -1079,7 +1079,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
         return isLiked_;
       }
       /**
-       * <code>bool is_liked = 5;</code>
+       * <code>bool is_liked = 8;</code>
        * @param value The isLiked to set.
        * @return This builder for chaining.
        */
@@ -1090,7 +1090,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_liked = 5;</code>
+       * <code>bool is_liked = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsLiked() {
@@ -1102,7 +1102,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
 
       private int auditState_ ;
       /**
-       * <code>uint32 audit_state = 6;</code>
+       * <code>uint32 audit_state = 4;</code>
        * @return The auditState.
        */
       @java.lang.Override
@@ -1110,7 +1110,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
         return auditState_;
       }
       /**
-       * <code>uint32 audit_state = 6;</code>
+       * <code>uint32 audit_state = 4;</code>
        * @param value The auditState to set.
        * @return This builder for chaining.
        */
@@ -1121,7 +1121,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 audit_state = 6;</code>
+       * <code>uint32 audit_state = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearAuditState() {
@@ -1133,7 +1133,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
 
       private boolean isPublished_ ;
       /**
-       * <code>bool is_published = 7;</code>
+       * <code>bool is_published = 1;</code>
        * @return The isPublished.
        */
       @java.lang.Override
@@ -1141,7 +1141,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
         return isPublished_;
       }
       /**
-       * <code>bool is_published = 7;</code>
+       * <code>bool is_published = 1;</code>
        * @param value The isPublished to set.
        * @return This builder for chaining.
        */
@@ -1152,7 +1152,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_published = 7;</code>
+       * <code>bool is_published = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsPublished() {
@@ -1164,7 +1164,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
 
       private int slotId_ ;
       /**
-       * <code>uint32 slot_id = 8;</code>
+       * <code>uint32 slot_id = 9;</code>
        * @return The slotId.
        */
       @java.lang.Override
@@ -1172,7 +1172,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
         return slotId_;
       }
       /**
-       * <code>uint32 slot_id = 8;</code>
+       * <code>uint32 slot_id = 9;</code>
        * @param value The slotId to set.
        * @return This builder for chaining.
        */
@@ -1183,7 +1183,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 slot_id = 8;</code>
+       * <code>uint32 slot_id = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearSlotId() {
@@ -1195,7 +1195,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
 
       private long ugcGuid_ ;
       /**
-       * <code>uint64 ugc_guid = 9;</code>
+       * <code>uint64 ugc_guid = 11;</code>
        * @return The ugcGuid.
        */
       @java.lang.Override
@@ -1203,7 +1203,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
         return ugcGuid_;
       }
       /**
-       * <code>uint64 ugc_guid = 9;</code>
+       * <code>uint64 ugc_guid = 11;</code>
        * @param value The ugcGuid to set.
        * @return This builder for chaining.
        */
@@ -1214,7 +1214,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint64 ugc_guid = 9;</code>
+       * <code>uint64 ugc_guid = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearUgcGuid() {
@@ -1226,7 +1226,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
 
       private int bHBJOKCFMPN_ ;
       /**
-       * <code>uint32 BHBJOKCFMPN = 10;</code>
+       * <code>uint32 BHBJOKCFMPN = 13;</code>
        * @return The bHBJOKCFMPN.
        */
       @java.lang.Override
@@ -1234,7 +1234,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
         return bHBJOKCFMPN_;
       }
       /**
-       * <code>uint32 BHBJOKCFMPN = 10;</code>
+       * <code>uint32 BHBJOKCFMPN = 13;</code>
        * @param value The bHBJOKCFMPN to set.
        * @return This builder for chaining.
        */
@@ -1245,7 +1245,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 BHBJOKCFMPN = 10;</code>
+       * <code>uint32 BHBJOKCFMPN = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearBHBJOKCFMPN() {
@@ -1259,14 +1259,14 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._LanV5CardSocialOuterClass._LanV5CardSocial, emu.grasscutter.net.proto._LanV5CardSocialOuterClass._LanV5CardSocial.Builder, emu.grasscutter.net.proto._LanV5CardSocialOuterClass._LanV5CardSocialOrBuilder> socialBuilder_;
       /**
-       * <code>._LanV5CardSocial social = 11;</code>
+       * <code>._LanV5CardSocial social = 5;</code>
        * @return Whether the social field is set.
        */
       public boolean hasSocial() {
         return socialBuilder_ != null || social_ != null;
       }
       /**
-       * <code>._LanV5CardSocial social = 11;</code>
+       * <code>._LanV5CardSocial social = 5;</code>
        * @return The social.
        */
       public emu.grasscutter.net.proto._LanV5CardSocialOuterClass._LanV5CardSocial getSocial() {
@@ -1277,7 +1277,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
         }
       }
       /**
-       * <code>._LanV5CardSocial social = 11;</code>
+       * <code>._LanV5CardSocial social = 5;</code>
        */
       public Builder setSocial(emu.grasscutter.net.proto._LanV5CardSocialOuterClass._LanV5CardSocial value) {
         if (socialBuilder_ == null) {
@@ -1293,7 +1293,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>._LanV5CardSocial social = 11;</code>
+       * <code>._LanV5CardSocial social = 5;</code>
        */
       public Builder setSocial(
           emu.grasscutter.net.proto._LanV5CardSocialOuterClass._LanV5CardSocial.Builder builderForValue) {
@@ -1307,7 +1307,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>._LanV5CardSocial social = 11;</code>
+       * <code>._LanV5CardSocial social = 5;</code>
        */
       public Builder mergeSocial(emu.grasscutter.net.proto._LanV5CardSocialOuterClass._LanV5CardSocial value) {
         if (socialBuilder_ == null) {
@@ -1325,7 +1325,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>._LanV5CardSocial social = 11;</code>
+       * <code>._LanV5CardSocial social = 5;</code>
        */
       public Builder clearSocial() {
         if (socialBuilder_ == null) {
@@ -1339,7 +1339,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>._LanV5CardSocial social = 11;</code>
+       * <code>._LanV5CardSocial social = 5;</code>
        */
       public emu.grasscutter.net.proto._LanV5CardSocialOuterClass._LanV5CardSocial.Builder getSocialBuilder() {
         
@@ -1347,7 +1347,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
         return getSocialFieldBuilder().getBuilder();
       }
       /**
-       * <code>._LanV5CardSocial social = 11;</code>
+       * <code>._LanV5CardSocial social = 5;</code>
        */
       public emu.grasscutter.net.proto._LanV5CardSocialOuterClass._LanV5CardSocialOrBuilder getSocialOrBuilder() {
         if (socialBuilder_ != null) {
@@ -1358,7 +1358,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
         }
       }
       /**
-       * <code>._LanV5CardSocial social = 11;</code>
+       * <code>._LanV5CardSocial social = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._LanV5CardSocialOuterClass._LanV5CardSocial, emu.grasscutter.net.proto._LanV5CardSocialOuterClass._LanV5CardSocial.Builder, emu.grasscutter.net.proto._LanV5CardSocialOuterClass._LanV5CardSocialOrBuilder> 
@@ -1407,7 +1407,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
 
       private int saveTime_ ;
       /**
-       * <code>uint32 save_time = 13;</code>
+       * <code>uint32 save_time = 6;</code>
        * @return The saveTime.
        */
       @java.lang.Override
@@ -1415,7 +1415,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
         return saveTime_;
       }
       /**
-       * <code>uint32 save_time = 13;</code>
+       * <code>uint32 save_time = 6;</code>
        * @param value The saveTime to set.
        * @return This builder for chaining.
        */
@@ -1426,7 +1426,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 save_time = 13;</code>
+       * <code>uint32 save_time = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearSaveTime() {
@@ -1438,7 +1438,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
 
       private java.lang.Object fOGGDOBPMJO_ = "";
       /**
-       * <code>string FOGGDOBPMJO = 14;</code>
+       * <code>string FOGGDOBPMJO = 3;</code>
        * @return The fOGGDOBPMJO.
        */
       public java.lang.String getFOGGDOBPMJO() {
@@ -1454,7 +1454,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
         }
       }
       /**
-       * <code>string FOGGDOBPMJO = 14;</code>
+       * <code>string FOGGDOBPMJO = 3;</code>
        * @return The bytes for fOGGDOBPMJO.
        */
       public com.google.protobuf.ByteString
@@ -1471,7 +1471,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
         }
       }
       /**
-       * <code>string FOGGDOBPMJO = 14;</code>
+       * <code>string FOGGDOBPMJO = 3;</code>
        * @param value The fOGGDOBPMJO to set.
        * @return This builder for chaining.
        */
@@ -1486,7 +1486,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>string FOGGDOBPMJO = 14;</code>
+       * <code>string FOGGDOBPMJO = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearFOGGDOBPMJO() {
@@ -1496,7 +1496,7 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
         return this;
       }
       /**
-       * <code>string FOGGDOBPMJO = 14;</code>
+       * <code>string FOGGDOBPMJO = 3;</code>
        * @param value The bytes for fOGGDOBPMJO to set.
        * @return This builder for chaining.
        */
@@ -1656,13 +1656,13 @@ public final class _UgcLanV5CardBriefInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034_UgcLanV5CardBriefInfo.proto\032\026_LanV5Ca" +
       "rdSocial.proto\"\257\002\n\026_UgcLanV5CardBriefInf" +
-      "o\022\023\n\013KPEEGKCFFBA\030\001 \001(\010\022\023\n\013PNLPELDJLFL\030\003 " +
-      "\001(\r\022\020\n\010is_liked\030\005 \001(\010\022\023\n\013audit_state\030\006 \001" +
-      "(\r\022\024\n\014is_published\030\007 \001(\010\022\017\n\007slot_id\030\010 \001(" +
-      "\r\022\020\n\010ugc_guid\030\t \001(\004\022\023\n\013BHBJOKCFMPN\030\n \001(\r" +
-      "\022!\n\006social\030\013 \001(\0132\021._LanV5CardSocial\022\021\n\ti" +
-      "s_stored\030\014 \001(\010\022\021\n\tsave_time\030\r \001(\r\022\023\n\013FOG" +
-      "GDOBPMJO\030\016 \001(\t\022\030\n\020creator_nickname\030\017 \001(\t" +
+      "o\022\023\n\013KPEEGKCFFBA\030\002 \001(\010\022\023\n\013PNLPELDJLFL\030\n " +
+      "\001(\r\022\020\n\010is_liked\030\010 \001(\010\022\023\n\013audit_state\030\004 \001" +
+      "(\r\022\024\n\014is_published\030\001 \001(\010\022\017\n\007slot_id\030\t \001(" +
+      "\r\022\020\n\010ugc_guid\030\013 \001(\004\022\023\n\013BHBJOKCFMPN\030\r \001(\r" +
+      "\022!\n\006social\030\005 \001(\0132\021._LanV5CardSocial\022\021\n\ti" +
+      "s_stored\030\014 \001(\010\022\021\n\tsave_time\030\006 \001(\r\022\023\n\013FOG" +
+      "GDOBPMJO\030\003 \001(\t\022\030\n\020creator_nickname\030\017 \001(\t" +
       "B=\n\031emu.grasscutter.net.protoB _UgcLanV5" +
       "CardBriefInfoOuterClassb\006proto3"
     };

@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "SetOpenStateReqOuterClass";
 
 message SetOpenStateReq {
-	uint32 value = 2;
-	uint32 key = 3;
+	uint32 value = 14;
+	uint32 key = 7;
 }

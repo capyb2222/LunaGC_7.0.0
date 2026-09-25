@@ -19,136 +19,136 @@ public final class _TemplatePotionInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool GCFIADMJOCG = 1;</code>
+     * <code>bool GCFIADMJOCG = 50000;</code>
      * @return The gCFIADMJOCG.
      */
     boolean getGCFIADMJOCG();
 
     /**
-     * <code>uint32 MMENCMAFAIF = 2;</code>
+     * <code>uint32 MMENCMAFAIF = 50001;</code>
      * @return The mMENCMAFAIF.
      */
     int getMMENCMAFAIF();
 
     /**
-     * <code>uint32 ALAKKGOILIC = 3;</code>
+     * <code>uint32 ALAKKGOILIC = 10;</code>
      * @return The aLAKKGOILIC.
      */
     int getALAKKGOILIC();
 
     /**
-     * <code>uint32 LODLLMHFMPP = 4;</code>
+     * <code>uint32 LODLLMHFMPP = 50002;</code>
      * @return The lODLLMHFMPP.
      */
     int getLODLLMHFMPP();
 
     /**
-     * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 5;</code>
+     * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 11;</code>
      */
     java.util.List<emu.grasscutter.net.proto.KDHFFAMFLKCOuterClass.KDHFFAMFLKC> 
         getLABCKNEKCBLList();
     /**
-     * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 5;</code>
+     * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 11;</code>
      */
     emu.grasscutter.net.proto.KDHFFAMFLKCOuterClass.KDHFFAMFLKC getLABCKNEKCBL(int index);
     /**
-     * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 5;</code>
+     * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 11;</code>
      */
     int getLABCKNEKCBLCount();
     /**
-     * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 5;</code>
+     * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 11;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.KDHFFAMFLKCOuterClass.KDHFFAMFLKCOrBuilder> 
         getLABCKNEKCBLOrBuilderList();
     /**
-     * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 5;</code>
+     * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 11;</code>
      */
     emu.grasscutter.net.proto.KDHFFAMFLKCOuterClass.KDHFFAMFLKCOrBuilder getLABCKNEKCBLOrBuilder(
         int index);
 
     /**
-     * <code>uint32 guid = 6;</code>
+     * <code>uint32 guid = 12;</code>
      * @return The guid.
      */
     int getGuid();
 
     /**
-     * <code>bool GOEKPDMOLKD = 7;</code>
+     * <code>bool GOEKPDMOLKD = 2;</code>
      * @return The gOEKPDMOLKD.
      */
     boolean getGOEKPDMOLKD();
 
     /**
-     * <code>repeated uint32 FEFKMIBCKAN = 9;</code>
+     * <code>repeated uint32 FEFKMIBCKAN = 8;</code>
      * @return A list containing the fEFKMIBCKAN.
      */
     java.util.List<java.lang.Integer> getFEFKMIBCKANList();
     /**
-     * <code>repeated uint32 FEFKMIBCKAN = 9;</code>
+     * <code>repeated uint32 FEFKMIBCKAN = 8;</code>
      * @return The count of fEFKMIBCKAN.
      */
     int getFEFKMIBCKANCount();
     /**
-     * <code>repeated uint32 FEFKMIBCKAN = 9;</code>
+     * <code>repeated uint32 FEFKMIBCKAN = 8;</code>
      * @param index The index of the element to return.
      * @return The fEFKMIBCKAN at the given index.
      */
     int getFEFKMIBCKAN(int index);
 
     /**
-     * <code>uint32 KEGBBBJKCGN = 10;</code>
+     * <code>uint32 KEGBBBJKCGN = 50003;</code>
      * @return The kEGBBBJKCGN.
      */
     int getKEGBBBJKCGN();
 
     /**
-     * <code>repeated uint32 tag_list = 11;</code>
+     * <code>repeated uint32 tag_list = 13;</code>
      * @return A list containing the tagList.
      */
     java.util.List<java.lang.Integer> getTagListList();
     /**
-     * <code>repeated uint32 tag_list = 11;</code>
+     * <code>repeated uint32 tag_list = 13;</code>
      * @return The count of tagList.
      */
     int getTagListCount();
     /**
-     * <code>repeated uint32 tag_list = 11;</code>
+     * <code>repeated uint32 tag_list = 13;</code>
      * @param index The index of the element to return.
      * @return The tagList at the given index.
      */
     int getTagList(int index);
 
     /**
-     * <code>bool CIPDLHJCPAI = 12;</code>
+     * <code>bool CIPDLHJCPAI = 50004;</code>
      * @return The cIPDLHJCPAI.
      */
     boolean getCIPDLHJCPAI();
 
     /**
-     * <code>repeated uint32 NLGFFMHMMIC = 13;</code>
+     * <code>repeated uint32 NLGFFMHMMIC = 5;</code>
      * @return A list containing the nLGFFMHMMIC.
      */
     java.util.List<java.lang.Integer> getNLGFFMHMMICList();
     /**
-     * <code>repeated uint32 NLGFFMHMMIC = 13;</code>
+     * <code>repeated uint32 NLGFFMHMMIC = 5;</code>
      * @return The count of nLGFFMHMMIC.
      */
     int getNLGFFMHMMICCount();
     /**
-     * <code>repeated uint32 NLGFFMHMMIC = 13;</code>
+     * <code>repeated uint32 NLGFFMHMMIC = 5;</code>
      * @param index The index of the element to return.
      * @return The nLGFFMHMMIC at the given index.
      */
     int getNLGFFMHMMIC(int index);
 
     /**
-     * <code>uint32 level = 14;</code>
+     * <code>uint32 level = 7;</code>
      * @return The level.
      */
     int getLevel();
 
     /**
-     * <code>uint32 rank = 15;</code>
+     * <code>uint32 rank = 3;</code>
      * @return The rank.
      */
     int getRank();
@@ -203,46 +203,43 @@ public final class _TemplatePotionInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
-
-              gCFIADMJOCG_ = input.readBool();
-              break;
-            }
             case 16: {
-
-              mMENCMAFAIF_ = input.readUInt32();
-              break;
-            }
-            case 24: {
-
-              aLAKKGOILIC_ = input.readUInt32();
-              break;
-            }
-            case 32: {
-
-              lODLLMHFMPP_ = input.readUInt32();
-              break;
-            }
-            case 42: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                lABCKNEKCBL_ = new java.util.ArrayList<emu.grasscutter.net.proto.KDHFFAMFLKCOuterClass.KDHFFAMFLKC>();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              lABCKNEKCBL_.add(
-                  input.readMessage(emu.grasscutter.net.proto.KDHFFAMFLKCOuterClass.KDHFFAMFLKC.parser(), extensionRegistry));
-              break;
-            }
-            case 48: {
-
-              guid_ = input.readUInt32();
-              break;
-            }
-            case 56: {
 
               gOEKPDMOLKD_ = input.readBool();
               break;
             }
-            case 72: {
+            case 24: {
+
+              rank_ = input.readUInt32();
+              break;
+            }
+            case 40: {
+              if (!((mutable_bitField0_ & 0x00000008) != 0)) {
+                nLGFFMHMMIC_ = newIntList();
+                mutable_bitField0_ |= 0x00000008;
+              }
+              nLGFFMHMMIC_.addInt(input.readUInt32());
+              break;
+            }
+            case 42: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000008) != 0) && input.getBytesUntilLimit() > 0) {
+                nLGFFMHMMIC_ = newIntList();
+                mutable_bitField0_ |= 0x00000008;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                nLGFFMHMMIC_.addInt(input.readUInt32());
+              }
+              input.popLimit(limit);
+              break;
+            }
+            case 56: {
+
+              level_ = input.readUInt32();
+              break;
+            }
+            case 64: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 fEFKMIBCKAN_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
@@ -250,7 +247,7 @@ public final class _TemplatePotionInfoOuterClass {
               fEFKMIBCKAN_.addInt(input.readUInt32());
               break;
             }
-            case 74: {
+            case 66: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
@@ -265,10 +262,24 @@ public final class _TemplatePotionInfoOuterClass {
             }
             case 80: {
 
-              kEGBBBJKCGN_ = input.readUInt32();
+              aLAKKGOILIC_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 90: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                lABCKNEKCBL_ = new java.util.ArrayList<emu.grasscutter.net.proto.KDHFFAMFLKCOuterClass.KDHFFAMFLKC>();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              lABCKNEKCBL_.add(
+                  input.readMessage(emu.grasscutter.net.proto.KDHFFAMFLKCOuterClass.KDHFFAMFLKC.parser(), extensionRegistry));
+              break;
+            }
+            case 96: {
+
+              guid_ = input.readUInt32();
+              break;
+            }
+            case 104: {
               if (!((mutable_bitField0_ & 0x00000004) != 0)) {
                 tagList_ = newIntList();
                 mutable_bitField0_ |= 0x00000004;
@@ -276,7 +287,7 @@ public final class _TemplatePotionInfoOuterClass {
               tagList_.addInt(input.readUInt32());
               break;
             }
-            case 90: {
+            case 106: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000004) != 0) && input.getBytesUntilLimit() > 0) {
@@ -289,40 +300,29 @@ public final class _TemplatePotionInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 96: {
+            case 400000: {
+
+              gCFIADMJOCG_ = input.readBool();
+              break;
+            }
+            case 400008: {
+
+              mMENCMAFAIF_ = input.readUInt32();
+              break;
+            }
+            case 400016: {
+
+              lODLLMHFMPP_ = input.readUInt32();
+              break;
+            }
+            case 400024: {
+
+              kEGBBBJKCGN_ = input.readUInt32();
+              break;
+            }
+            case 400032: {
 
               cIPDLHJCPAI_ = input.readBool();
-              break;
-            }
-            case 104: {
-              if (!((mutable_bitField0_ & 0x00000008) != 0)) {
-                nLGFFMHMMIC_ = newIntList();
-                mutable_bitField0_ |= 0x00000008;
-              }
-              nLGFFMHMMIC_.addInt(input.readUInt32());
-              break;
-            }
-            case 106: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000008) != 0) && input.getBytesUntilLimit() > 0) {
-                nLGFFMHMMIC_ = newIntList();
-                mutable_bitField0_ |= 0x00000008;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                nLGFFMHMMIC_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
-              break;
-            }
-            case 112: {
-
-              level_ = input.readUInt32();
-              break;
-            }
-            case 120: {
-
-              rank_ = input.readUInt32();
               break;
             }
             default: {
@@ -340,17 +340,17 @@ public final class _TemplatePotionInfoOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          lABCKNEKCBL_ = java.util.Collections.unmodifiableList(lABCKNEKCBL_);
+        if (((mutable_bitField0_ & 0x00000008) != 0)) {
+          nLGFFMHMMIC_.makeImmutable(); // C
         }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
           fEFKMIBCKAN_.makeImmutable(); // C
         }
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          lABCKNEKCBL_ = java.util.Collections.unmodifiableList(lABCKNEKCBL_);
+        }
         if (((mutable_bitField0_ & 0x00000004) != 0)) {
           tagList_.makeImmutable(); // C
-        }
-        if (((mutable_bitField0_ & 0x00000008) != 0)) {
-          nLGFFMHMMIC_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -369,10 +369,10 @@ public final class _TemplatePotionInfoOuterClass {
               emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.class, emu.grasscutter.net.proto._TemplatePotionInfoOuterClass._TemplatePotionInfo.Builder.class);
     }
 
-    public static final int GCFIADMJOCG_FIELD_NUMBER = 1;
+    public static final int GCFIADMJOCG_FIELD_NUMBER = 50000;
     private boolean gCFIADMJOCG_;
     /**
-     * <code>bool GCFIADMJOCG = 1;</code>
+     * <code>bool GCFIADMJOCG = 50000;</code>
      * @return The gCFIADMJOCG.
      */
     @java.lang.Override
@@ -380,10 +380,10 @@ public final class _TemplatePotionInfoOuterClass {
       return gCFIADMJOCG_;
     }
 
-    public static final int MMENCMAFAIF_FIELD_NUMBER = 2;
+    public static final int MMENCMAFAIF_FIELD_NUMBER = 50001;
     private int mMENCMAFAIF_;
     /**
-     * <code>uint32 MMENCMAFAIF = 2;</code>
+     * <code>uint32 MMENCMAFAIF = 50001;</code>
      * @return The mMENCMAFAIF.
      */
     @java.lang.Override
@@ -391,10 +391,10 @@ public final class _TemplatePotionInfoOuterClass {
       return mMENCMAFAIF_;
     }
 
-    public static final int ALAKKGOILIC_FIELD_NUMBER = 3;
+    public static final int ALAKKGOILIC_FIELD_NUMBER = 10;
     private int aLAKKGOILIC_;
     /**
-     * <code>uint32 ALAKKGOILIC = 3;</code>
+     * <code>uint32 ALAKKGOILIC = 10;</code>
      * @return The aLAKKGOILIC.
      */
     @java.lang.Override
@@ -402,10 +402,10 @@ public final class _TemplatePotionInfoOuterClass {
       return aLAKKGOILIC_;
     }
 
-    public static final int LODLLMHFMPP_FIELD_NUMBER = 4;
+    public static final int LODLLMHFMPP_FIELD_NUMBER = 50002;
     private int lODLLMHFMPP_;
     /**
-     * <code>uint32 LODLLMHFMPP = 4;</code>
+     * <code>uint32 LODLLMHFMPP = 50002;</code>
      * @return The lODLLMHFMPP.
      */
     @java.lang.Override
@@ -413,17 +413,17 @@ public final class _TemplatePotionInfoOuterClass {
       return lODLLMHFMPP_;
     }
 
-    public static final int LABCKNEKCBL_FIELD_NUMBER = 5;
+    public static final int LABCKNEKCBL_FIELD_NUMBER = 11;
     private java.util.List<emu.grasscutter.net.proto.KDHFFAMFLKCOuterClass.KDHFFAMFLKC> lABCKNEKCBL_;
     /**
-     * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 5;</code>
+     * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 11;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.KDHFFAMFLKCOuterClass.KDHFFAMFLKC> getLABCKNEKCBLList() {
       return lABCKNEKCBL_;
     }
     /**
-     * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 5;</code>
+     * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 11;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.KDHFFAMFLKCOuterClass.KDHFFAMFLKCOrBuilder> 
@@ -431,21 +431,21 @@ public final class _TemplatePotionInfoOuterClass {
       return lABCKNEKCBL_;
     }
     /**
-     * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 5;</code>
+     * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 11;</code>
      */
     @java.lang.Override
     public int getLABCKNEKCBLCount() {
       return lABCKNEKCBL_.size();
     }
     /**
-     * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 5;</code>
+     * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 11;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.KDHFFAMFLKCOuterClass.KDHFFAMFLKC getLABCKNEKCBL(int index) {
       return lABCKNEKCBL_.get(index);
     }
     /**
-     * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 5;</code>
+     * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 11;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.KDHFFAMFLKCOuterClass.KDHFFAMFLKCOrBuilder getLABCKNEKCBLOrBuilder(
@@ -453,10 +453,10 @@ public final class _TemplatePotionInfoOuterClass {
       return lABCKNEKCBL_.get(index);
     }
 
-    public static final int GUID_FIELD_NUMBER = 6;
+    public static final int GUID_FIELD_NUMBER = 12;
     private int guid_;
     /**
-     * <code>uint32 guid = 6;</code>
+     * <code>uint32 guid = 12;</code>
      * @return The guid.
      */
     @java.lang.Override
@@ -464,10 +464,10 @@ public final class _TemplatePotionInfoOuterClass {
       return guid_;
     }
 
-    public static final int GOEKPDMOLKD_FIELD_NUMBER = 7;
+    public static final int GOEKPDMOLKD_FIELD_NUMBER = 2;
     private boolean gOEKPDMOLKD_;
     /**
-     * <code>bool GOEKPDMOLKD = 7;</code>
+     * <code>bool GOEKPDMOLKD = 2;</code>
      * @return The gOEKPDMOLKD.
      */
     @java.lang.Override
@@ -475,10 +475,10 @@ public final class _TemplatePotionInfoOuterClass {
       return gOEKPDMOLKD_;
     }
 
-    public static final int FEFKMIBCKAN_FIELD_NUMBER = 9;
+    public static final int FEFKMIBCKAN_FIELD_NUMBER = 8;
     private com.google.protobuf.Internal.IntList fEFKMIBCKAN_;
     /**
-     * <code>repeated uint32 FEFKMIBCKAN = 9;</code>
+     * <code>repeated uint32 FEFKMIBCKAN = 8;</code>
      * @return A list containing the fEFKMIBCKAN.
      */
     @java.lang.Override
@@ -487,14 +487,14 @@ public final class _TemplatePotionInfoOuterClass {
       return fEFKMIBCKAN_;
     }
     /**
-     * <code>repeated uint32 FEFKMIBCKAN = 9;</code>
+     * <code>repeated uint32 FEFKMIBCKAN = 8;</code>
      * @return The count of fEFKMIBCKAN.
      */
     public int getFEFKMIBCKANCount() {
       return fEFKMIBCKAN_.size();
     }
     /**
-     * <code>repeated uint32 FEFKMIBCKAN = 9;</code>
+     * <code>repeated uint32 FEFKMIBCKAN = 8;</code>
      * @param index The index of the element to return.
      * @return The fEFKMIBCKAN at the given index.
      */
@@ -503,10 +503,10 @@ public final class _TemplatePotionInfoOuterClass {
     }
     private int fEFKMIBCKANMemoizedSerializedSize = -1;
 
-    public static final int KEGBBBJKCGN_FIELD_NUMBER = 10;
+    public static final int KEGBBBJKCGN_FIELD_NUMBER = 50003;
     private int kEGBBBJKCGN_;
     /**
-     * <code>uint32 KEGBBBJKCGN = 10;</code>
+     * <code>uint32 KEGBBBJKCGN = 50003;</code>
      * @return The kEGBBBJKCGN.
      */
     @java.lang.Override
@@ -514,10 +514,10 @@ public final class _TemplatePotionInfoOuterClass {
       return kEGBBBJKCGN_;
     }
 
-    public static final int TAG_LIST_FIELD_NUMBER = 11;
+    public static final int TAG_LIST_FIELD_NUMBER = 13;
     private com.google.protobuf.Internal.IntList tagList_;
     /**
-     * <code>repeated uint32 tag_list = 11;</code>
+     * <code>repeated uint32 tag_list = 13;</code>
      * @return A list containing the tagList.
      */
     @java.lang.Override
@@ -526,14 +526,14 @@ public final class _TemplatePotionInfoOuterClass {
       return tagList_;
     }
     /**
-     * <code>repeated uint32 tag_list = 11;</code>
+     * <code>repeated uint32 tag_list = 13;</code>
      * @return The count of tagList.
      */
     public int getTagListCount() {
       return tagList_.size();
     }
     /**
-     * <code>repeated uint32 tag_list = 11;</code>
+     * <code>repeated uint32 tag_list = 13;</code>
      * @param index The index of the element to return.
      * @return The tagList at the given index.
      */
@@ -542,10 +542,10 @@ public final class _TemplatePotionInfoOuterClass {
     }
     private int tagListMemoizedSerializedSize = -1;
 
-    public static final int CIPDLHJCPAI_FIELD_NUMBER = 12;
+    public static final int CIPDLHJCPAI_FIELD_NUMBER = 50004;
     private boolean cIPDLHJCPAI_;
     /**
-     * <code>bool CIPDLHJCPAI = 12;</code>
+     * <code>bool CIPDLHJCPAI = 50004;</code>
      * @return The cIPDLHJCPAI.
      */
     @java.lang.Override
@@ -553,10 +553,10 @@ public final class _TemplatePotionInfoOuterClass {
       return cIPDLHJCPAI_;
     }
 
-    public static final int NLGFFMHMMIC_FIELD_NUMBER = 13;
+    public static final int NLGFFMHMMIC_FIELD_NUMBER = 5;
     private com.google.protobuf.Internal.IntList nLGFFMHMMIC_;
     /**
-     * <code>repeated uint32 NLGFFMHMMIC = 13;</code>
+     * <code>repeated uint32 NLGFFMHMMIC = 5;</code>
      * @return A list containing the nLGFFMHMMIC.
      */
     @java.lang.Override
@@ -565,14 +565,14 @@ public final class _TemplatePotionInfoOuterClass {
       return nLGFFMHMMIC_;
     }
     /**
-     * <code>repeated uint32 NLGFFMHMMIC = 13;</code>
+     * <code>repeated uint32 NLGFFMHMMIC = 5;</code>
      * @return The count of nLGFFMHMMIC.
      */
     public int getNLGFFMHMMICCount() {
       return nLGFFMHMMIC_.size();
     }
     /**
-     * <code>repeated uint32 NLGFFMHMMIC = 13;</code>
+     * <code>repeated uint32 NLGFFMHMMIC = 5;</code>
      * @param index The index of the element to return.
      * @return The nLGFFMHMMIC at the given index.
      */
@@ -581,10 +581,10 @@ public final class _TemplatePotionInfoOuterClass {
     }
     private int nLGFFMHMMICMemoizedSerializedSize = -1;
 
-    public static final int LEVEL_FIELD_NUMBER = 14;
+    public static final int LEVEL_FIELD_NUMBER = 7;
     private int level_;
     /**
-     * <code>uint32 level = 14;</code>
+     * <code>uint32 level = 7;</code>
      * @return The level.
      */
     @java.lang.Override
@@ -592,10 +592,10 @@ public final class _TemplatePotionInfoOuterClass {
       return level_;
     }
 
-    public static final int RANK_FIELD_NUMBER = 15;
+    public static final int RANK_FIELD_NUMBER = 3;
     private int rank_;
     /**
-     * <code>uint32 rank = 15;</code>
+     * <code>uint32 rank = 3;</code>
      * @return The rank.
      */
     @java.lang.Override
@@ -618,59 +618,59 @@ public final class _TemplatePotionInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (gCFIADMJOCG_ != false) {
-        output.writeBool(1, gCFIADMJOCG_);
-      }
-      if (mMENCMAFAIF_ != 0) {
-        output.writeUInt32(2, mMENCMAFAIF_);
-      }
-      if (aLAKKGOILIC_ != 0) {
-        output.writeUInt32(3, aLAKKGOILIC_);
-      }
-      if (lODLLMHFMPP_ != 0) {
-        output.writeUInt32(4, lODLLMHFMPP_);
-      }
-      for (int i = 0; i < lABCKNEKCBL_.size(); i++) {
-        output.writeMessage(5, lABCKNEKCBL_.get(i));
-      }
-      if (guid_ != 0) {
-        output.writeUInt32(6, guid_);
-      }
       if (gOEKPDMOLKD_ != false) {
-        output.writeBool(7, gOEKPDMOLKD_);
+        output.writeBool(2, gOEKPDMOLKD_);
       }
-      if (getFEFKMIBCKANList().size() > 0) {
-        output.writeUInt32NoTag(74);
-        output.writeUInt32NoTag(fEFKMIBCKANMemoizedSerializedSize);
-      }
-      for (int i = 0; i < fEFKMIBCKAN_.size(); i++) {
-        output.writeUInt32NoTag(fEFKMIBCKAN_.getInt(i));
-      }
-      if (kEGBBBJKCGN_ != 0) {
-        output.writeUInt32(10, kEGBBBJKCGN_);
-      }
-      if (getTagListList().size() > 0) {
-        output.writeUInt32NoTag(90);
-        output.writeUInt32NoTag(tagListMemoizedSerializedSize);
-      }
-      for (int i = 0; i < tagList_.size(); i++) {
-        output.writeUInt32NoTag(tagList_.getInt(i));
-      }
-      if (cIPDLHJCPAI_ != false) {
-        output.writeBool(12, cIPDLHJCPAI_);
+      if (rank_ != 0) {
+        output.writeUInt32(3, rank_);
       }
       if (getNLGFFMHMMICList().size() > 0) {
-        output.writeUInt32NoTag(106);
+        output.writeUInt32NoTag(42);
         output.writeUInt32NoTag(nLGFFMHMMICMemoizedSerializedSize);
       }
       for (int i = 0; i < nLGFFMHMMIC_.size(); i++) {
         output.writeUInt32NoTag(nLGFFMHMMIC_.getInt(i));
       }
       if (level_ != 0) {
-        output.writeUInt32(14, level_);
+        output.writeUInt32(7, level_);
       }
-      if (rank_ != 0) {
-        output.writeUInt32(15, rank_);
+      if (getFEFKMIBCKANList().size() > 0) {
+        output.writeUInt32NoTag(66);
+        output.writeUInt32NoTag(fEFKMIBCKANMemoizedSerializedSize);
+      }
+      for (int i = 0; i < fEFKMIBCKAN_.size(); i++) {
+        output.writeUInt32NoTag(fEFKMIBCKAN_.getInt(i));
+      }
+      if (aLAKKGOILIC_ != 0) {
+        output.writeUInt32(10, aLAKKGOILIC_);
+      }
+      for (int i = 0; i < lABCKNEKCBL_.size(); i++) {
+        output.writeMessage(11, lABCKNEKCBL_.get(i));
+      }
+      if (guid_ != 0) {
+        output.writeUInt32(12, guid_);
+      }
+      if (getTagListList().size() > 0) {
+        output.writeUInt32NoTag(106);
+        output.writeUInt32NoTag(tagListMemoizedSerializedSize);
+      }
+      for (int i = 0; i < tagList_.size(); i++) {
+        output.writeUInt32NoTag(tagList_.getInt(i));
+      }
+      if (gCFIADMJOCG_ != false) {
+        output.writeBool(50000, gCFIADMJOCG_);
+      }
+      if (mMENCMAFAIF_ != 0) {
+        output.writeUInt32(50001, mMENCMAFAIF_);
+      }
+      if (lODLLMHFMPP_ != 0) {
+        output.writeUInt32(50002, lODLLMHFMPP_);
+      }
+      if (kEGBBBJKCGN_ != 0) {
+        output.writeUInt32(50003, kEGBBBJKCGN_);
+      }
+      if (cIPDLHJCPAI_ != false) {
+        output.writeBool(50004, cIPDLHJCPAI_);
       }
       unknownFields.writeTo(output);
     }
@@ -681,69 +681,13 @@ public final class _TemplatePotionInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (gCFIADMJOCG_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1, gCFIADMJOCG_);
-      }
-      if (mMENCMAFAIF_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, mMENCMAFAIF_);
-      }
-      if (aLAKKGOILIC_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, aLAKKGOILIC_);
-      }
-      if (lODLLMHFMPP_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, lODLLMHFMPP_);
-      }
-      for (int i = 0; i < lABCKNEKCBL_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, lABCKNEKCBL_.get(i));
-      }
-      if (guid_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, guid_);
-      }
       if (gOEKPDMOLKD_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(7, gOEKPDMOLKD_);
+          .computeBoolSize(2, gOEKPDMOLKD_);
       }
-      {
-        int dataSize = 0;
-        for (int i = 0; i < fEFKMIBCKAN_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(fEFKMIBCKAN_.getInt(i));
-        }
-        size += dataSize;
-        if (!getFEFKMIBCKANList().isEmpty()) {
-          size += 1;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        fEFKMIBCKANMemoizedSerializedSize = dataSize;
-      }
-      if (kEGBBBJKCGN_ != 0) {
+      if (rank_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, kEGBBBJKCGN_);
-      }
-      {
-        int dataSize = 0;
-        for (int i = 0; i < tagList_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(tagList_.getInt(i));
-        }
-        size += dataSize;
-        if (!getTagListList().isEmpty()) {
-          size += 1;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        tagListMemoizedSerializedSize = dataSize;
-      }
-      if (cIPDLHJCPAI_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, cIPDLHJCPAI_);
+          .computeUInt32Size(3, rank_);
       }
       {
         int dataSize = 0;
@@ -761,11 +705,67 @@ public final class _TemplatePotionInfoOuterClass {
       }
       if (level_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, level_);
+          .computeUInt32Size(7, level_);
       }
-      if (rank_ != 0) {
+      {
+        int dataSize = 0;
+        for (int i = 0; i < fEFKMIBCKAN_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeUInt32SizeNoTag(fEFKMIBCKAN_.getInt(i));
+        }
+        size += dataSize;
+        if (!getFEFKMIBCKANList().isEmpty()) {
+          size += 1;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        fEFKMIBCKANMemoizedSerializedSize = dataSize;
+      }
+      if (aLAKKGOILIC_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, rank_);
+          .computeUInt32Size(10, aLAKKGOILIC_);
+      }
+      for (int i = 0; i < lABCKNEKCBL_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(11, lABCKNEKCBL_.get(i));
+      }
+      if (guid_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(12, guid_);
+      }
+      {
+        int dataSize = 0;
+        for (int i = 0; i < tagList_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeUInt32SizeNoTag(tagList_.getInt(i));
+        }
+        size += dataSize;
+        if (!getTagListList().isEmpty()) {
+          size += 1;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        tagListMemoizedSerializedSize = dataSize;
+      }
+      if (gCFIADMJOCG_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(50000, gCFIADMJOCG_);
+      }
+      if (mMENCMAFAIF_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50001, mMENCMAFAIF_);
+      }
+      if (lODLLMHFMPP_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50002, lODLLMHFMPP_);
+      }
+      if (kEGBBBJKCGN_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50003, kEGBBBJKCGN_);
+      }
+      if (cIPDLHJCPAI_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(50004, cIPDLHJCPAI_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1253,7 +1253,7 @@ public final class _TemplatePotionInfoOuterClass {
 
       private boolean gCFIADMJOCG_ ;
       /**
-       * <code>bool GCFIADMJOCG = 1;</code>
+       * <code>bool GCFIADMJOCG = 50000;</code>
        * @return The gCFIADMJOCG.
        */
       @java.lang.Override
@@ -1261,7 +1261,7 @@ public final class _TemplatePotionInfoOuterClass {
         return gCFIADMJOCG_;
       }
       /**
-       * <code>bool GCFIADMJOCG = 1;</code>
+       * <code>bool GCFIADMJOCG = 50000;</code>
        * @param value The gCFIADMJOCG to set.
        * @return This builder for chaining.
        */
@@ -1272,7 +1272,7 @@ public final class _TemplatePotionInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool GCFIADMJOCG = 1;</code>
+       * <code>bool GCFIADMJOCG = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearGCFIADMJOCG() {
@@ -1284,7 +1284,7 @@ public final class _TemplatePotionInfoOuterClass {
 
       private int mMENCMAFAIF_ ;
       /**
-       * <code>uint32 MMENCMAFAIF = 2;</code>
+       * <code>uint32 MMENCMAFAIF = 50001;</code>
        * @return The mMENCMAFAIF.
        */
       @java.lang.Override
@@ -1292,7 +1292,7 @@ public final class _TemplatePotionInfoOuterClass {
         return mMENCMAFAIF_;
       }
       /**
-       * <code>uint32 MMENCMAFAIF = 2;</code>
+       * <code>uint32 MMENCMAFAIF = 50001;</code>
        * @param value The mMENCMAFAIF to set.
        * @return This builder for chaining.
        */
@@ -1303,7 +1303,7 @@ public final class _TemplatePotionInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 MMENCMAFAIF = 2;</code>
+       * <code>uint32 MMENCMAFAIF = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearMMENCMAFAIF() {
@@ -1315,7 +1315,7 @@ public final class _TemplatePotionInfoOuterClass {
 
       private int aLAKKGOILIC_ ;
       /**
-       * <code>uint32 ALAKKGOILIC = 3;</code>
+       * <code>uint32 ALAKKGOILIC = 10;</code>
        * @return The aLAKKGOILIC.
        */
       @java.lang.Override
@@ -1323,7 +1323,7 @@ public final class _TemplatePotionInfoOuterClass {
         return aLAKKGOILIC_;
       }
       /**
-       * <code>uint32 ALAKKGOILIC = 3;</code>
+       * <code>uint32 ALAKKGOILIC = 10;</code>
        * @param value The aLAKKGOILIC to set.
        * @return This builder for chaining.
        */
@@ -1334,7 +1334,7 @@ public final class _TemplatePotionInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 ALAKKGOILIC = 3;</code>
+       * <code>uint32 ALAKKGOILIC = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearALAKKGOILIC() {
@@ -1346,7 +1346,7 @@ public final class _TemplatePotionInfoOuterClass {
 
       private int lODLLMHFMPP_ ;
       /**
-       * <code>uint32 LODLLMHFMPP = 4;</code>
+       * <code>uint32 LODLLMHFMPP = 50002;</code>
        * @return The lODLLMHFMPP.
        */
       @java.lang.Override
@@ -1354,7 +1354,7 @@ public final class _TemplatePotionInfoOuterClass {
         return lODLLMHFMPP_;
       }
       /**
-       * <code>uint32 LODLLMHFMPP = 4;</code>
+       * <code>uint32 LODLLMHFMPP = 50002;</code>
        * @param value The lODLLMHFMPP to set.
        * @return This builder for chaining.
        */
@@ -1365,7 +1365,7 @@ public final class _TemplatePotionInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 LODLLMHFMPP = 4;</code>
+       * <code>uint32 LODLLMHFMPP = 50002;</code>
        * @return This builder for chaining.
        */
       public Builder clearLODLLMHFMPP() {
@@ -1388,7 +1388,7 @@ public final class _TemplatePotionInfoOuterClass {
           emu.grasscutter.net.proto.KDHFFAMFLKCOuterClass.KDHFFAMFLKC, emu.grasscutter.net.proto.KDHFFAMFLKCOuterClass.KDHFFAMFLKC.Builder, emu.grasscutter.net.proto.KDHFFAMFLKCOuterClass.KDHFFAMFLKCOrBuilder> lABCKNEKCBLBuilder_;
 
       /**
-       * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 5;</code>
+       * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 11;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.KDHFFAMFLKCOuterClass.KDHFFAMFLKC> getLABCKNEKCBLList() {
         if (lABCKNEKCBLBuilder_ == null) {
@@ -1398,7 +1398,7 @@ public final class _TemplatePotionInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 5;</code>
+       * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 11;</code>
        */
       public int getLABCKNEKCBLCount() {
         if (lABCKNEKCBLBuilder_ == null) {
@@ -1408,7 +1408,7 @@ public final class _TemplatePotionInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 5;</code>
+       * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 11;</code>
        */
       public emu.grasscutter.net.proto.KDHFFAMFLKCOuterClass.KDHFFAMFLKC getLABCKNEKCBL(int index) {
         if (lABCKNEKCBLBuilder_ == null) {
@@ -1418,7 +1418,7 @@ public final class _TemplatePotionInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 5;</code>
+       * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 11;</code>
        */
       public Builder setLABCKNEKCBL(
           int index, emu.grasscutter.net.proto.KDHFFAMFLKCOuterClass.KDHFFAMFLKC value) {
@@ -1435,7 +1435,7 @@ public final class _TemplatePotionInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 5;</code>
+       * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 11;</code>
        */
       public Builder setLABCKNEKCBL(
           int index, emu.grasscutter.net.proto.KDHFFAMFLKCOuterClass.KDHFFAMFLKC.Builder builderForValue) {
@@ -1449,7 +1449,7 @@ public final class _TemplatePotionInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 5;</code>
+       * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 11;</code>
        */
       public Builder addLABCKNEKCBL(emu.grasscutter.net.proto.KDHFFAMFLKCOuterClass.KDHFFAMFLKC value) {
         if (lABCKNEKCBLBuilder_ == null) {
@@ -1465,7 +1465,7 @@ public final class _TemplatePotionInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 5;</code>
+       * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 11;</code>
        */
       public Builder addLABCKNEKCBL(
           int index, emu.grasscutter.net.proto.KDHFFAMFLKCOuterClass.KDHFFAMFLKC value) {
@@ -1482,7 +1482,7 @@ public final class _TemplatePotionInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 5;</code>
+       * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 11;</code>
        */
       public Builder addLABCKNEKCBL(
           emu.grasscutter.net.proto.KDHFFAMFLKCOuterClass.KDHFFAMFLKC.Builder builderForValue) {
@@ -1496,7 +1496,7 @@ public final class _TemplatePotionInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 5;</code>
+       * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 11;</code>
        */
       public Builder addLABCKNEKCBL(
           int index, emu.grasscutter.net.proto.KDHFFAMFLKCOuterClass.KDHFFAMFLKC.Builder builderForValue) {
@@ -1510,7 +1510,7 @@ public final class _TemplatePotionInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 5;</code>
+       * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 11;</code>
        */
       public Builder addAllLABCKNEKCBL(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.KDHFFAMFLKCOuterClass.KDHFFAMFLKC> values) {
@@ -1525,7 +1525,7 @@ public final class _TemplatePotionInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 5;</code>
+       * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 11;</code>
        */
       public Builder clearLABCKNEKCBL() {
         if (lABCKNEKCBLBuilder_ == null) {
@@ -1538,7 +1538,7 @@ public final class _TemplatePotionInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 5;</code>
+       * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 11;</code>
        */
       public Builder removeLABCKNEKCBL(int index) {
         if (lABCKNEKCBLBuilder_ == null) {
@@ -1551,14 +1551,14 @@ public final class _TemplatePotionInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 5;</code>
+       * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 11;</code>
        */
       public emu.grasscutter.net.proto.KDHFFAMFLKCOuterClass.KDHFFAMFLKC.Builder getLABCKNEKCBLBuilder(
           int index) {
         return getLABCKNEKCBLFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 5;</code>
+       * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 11;</code>
        */
       public emu.grasscutter.net.proto.KDHFFAMFLKCOuterClass.KDHFFAMFLKCOrBuilder getLABCKNEKCBLOrBuilder(
           int index) {
@@ -1568,7 +1568,7 @@ public final class _TemplatePotionInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 5;</code>
+       * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 11;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.KDHFFAMFLKCOuterClass.KDHFFAMFLKCOrBuilder> 
            getLABCKNEKCBLOrBuilderList() {
@@ -1579,14 +1579,14 @@ public final class _TemplatePotionInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 5;</code>
+       * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 11;</code>
        */
       public emu.grasscutter.net.proto.KDHFFAMFLKCOuterClass.KDHFFAMFLKC.Builder addLABCKNEKCBLBuilder() {
         return getLABCKNEKCBLFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.KDHFFAMFLKCOuterClass.KDHFFAMFLKC.getDefaultInstance());
       }
       /**
-       * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 5;</code>
+       * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 11;</code>
        */
       public emu.grasscutter.net.proto.KDHFFAMFLKCOuterClass.KDHFFAMFLKC.Builder addLABCKNEKCBLBuilder(
           int index) {
@@ -1594,7 +1594,7 @@ public final class _TemplatePotionInfoOuterClass {
             index, emu.grasscutter.net.proto.KDHFFAMFLKCOuterClass.KDHFFAMFLKC.getDefaultInstance());
       }
       /**
-       * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 5;</code>
+       * <code>repeated .KDHFFAMFLKC LABCKNEKCBL = 11;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.KDHFFAMFLKCOuterClass.KDHFFAMFLKC.Builder> 
            getLABCKNEKCBLBuilderList() {
@@ -1617,7 +1617,7 @@ public final class _TemplatePotionInfoOuterClass {
 
       private int guid_ ;
       /**
-       * <code>uint32 guid = 6;</code>
+       * <code>uint32 guid = 12;</code>
        * @return The guid.
        */
       @java.lang.Override
@@ -1625,7 +1625,7 @@ public final class _TemplatePotionInfoOuterClass {
         return guid_;
       }
       /**
-       * <code>uint32 guid = 6;</code>
+       * <code>uint32 guid = 12;</code>
        * @param value The guid to set.
        * @return This builder for chaining.
        */
@@ -1636,7 +1636,7 @@ public final class _TemplatePotionInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 guid = 6;</code>
+       * <code>uint32 guid = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearGuid() {
@@ -1648,7 +1648,7 @@ public final class _TemplatePotionInfoOuterClass {
 
       private boolean gOEKPDMOLKD_ ;
       /**
-       * <code>bool GOEKPDMOLKD = 7;</code>
+       * <code>bool GOEKPDMOLKD = 2;</code>
        * @return The gOEKPDMOLKD.
        */
       @java.lang.Override
@@ -1656,7 +1656,7 @@ public final class _TemplatePotionInfoOuterClass {
         return gOEKPDMOLKD_;
       }
       /**
-       * <code>bool GOEKPDMOLKD = 7;</code>
+       * <code>bool GOEKPDMOLKD = 2;</code>
        * @param value The gOEKPDMOLKD to set.
        * @return This builder for chaining.
        */
@@ -1667,7 +1667,7 @@ public final class _TemplatePotionInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool GOEKPDMOLKD = 7;</code>
+       * <code>bool GOEKPDMOLKD = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearGOEKPDMOLKD() {
@@ -1685,7 +1685,7 @@ public final class _TemplatePotionInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 FEFKMIBCKAN = 9;</code>
+       * <code>repeated uint32 FEFKMIBCKAN = 8;</code>
        * @return A list containing the fEFKMIBCKAN.
        */
       public java.util.List<java.lang.Integer>
@@ -1694,14 +1694,14 @@ public final class _TemplatePotionInfoOuterClass {
                  java.util.Collections.unmodifiableList(fEFKMIBCKAN_) : fEFKMIBCKAN_;
       }
       /**
-       * <code>repeated uint32 FEFKMIBCKAN = 9;</code>
+       * <code>repeated uint32 FEFKMIBCKAN = 8;</code>
        * @return The count of fEFKMIBCKAN.
        */
       public int getFEFKMIBCKANCount() {
         return fEFKMIBCKAN_.size();
       }
       /**
-       * <code>repeated uint32 FEFKMIBCKAN = 9;</code>
+       * <code>repeated uint32 FEFKMIBCKAN = 8;</code>
        * @param index The index of the element to return.
        * @return The fEFKMIBCKAN at the given index.
        */
@@ -1709,7 +1709,7 @@ public final class _TemplatePotionInfoOuterClass {
         return fEFKMIBCKAN_.getInt(index);
       }
       /**
-       * <code>repeated uint32 FEFKMIBCKAN = 9;</code>
+       * <code>repeated uint32 FEFKMIBCKAN = 8;</code>
        * @param index The index to set the value at.
        * @param value The fEFKMIBCKAN to set.
        * @return This builder for chaining.
@@ -1722,7 +1722,7 @@ public final class _TemplatePotionInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 FEFKMIBCKAN = 9;</code>
+       * <code>repeated uint32 FEFKMIBCKAN = 8;</code>
        * @param value The fEFKMIBCKAN to add.
        * @return This builder for chaining.
        */
@@ -1733,7 +1733,7 @@ public final class _TemplatePotionInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 FEFKMIBCKAN = 9;</code>
+       * <code>repeated uint32 FEFKMIBCKAN = 8;</code>
        * @param values The fEFKMIBCKAN to add.
        * @return This builder for chaining.
        */
@@ -1746,7 +1746,7 @@ public final class _TemplatePotionInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 FEFKMIBCKAN = 9;</code>
+       * <code>repeated uint32 FEFKMIBCKAN = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearFEFKMIBCKAN() {
@@ -1758,7 +1758,7 @@ public final class _TemplatePotionInfoOuterClass {
 
       private int kEGBBBJKCGN_ ;
       /**
-       * <code>uint32 KEGBBBJKCGN = 10;</code>
+       * <code>uint32 KEGBBBJKCGN = 50003;</code>
        * @return The kEGBBBJKCGN.
        */
       @java.lang.Override
@@ -1766,7 +1766,7 @@ public final class _TemplatePotionInfoOuterClass {
         return kEGBBBJKCGN_;
       }
       /**
-       * <code>uint32 KEGBBBJKCGN = 10;</code>
+       * <code>uint32 KEGBBBJKCGN = 50003;</code>
        * @param value The kEGBBBJKCGN to set.
        * @return This builder for chaining.
        */
@@ -1777,7 +1777,7 @@ public final class _TemplatePotionInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 KEGBBBJKCGN = 10;</code>
+       * <code>uint32 KEGBBBJKCGN = 50003;</code>
        * @return This builder for chaining.
        */
       public Builder clearKEGBBBJKCGN() {
@@ -1795,7 +1795,7 @@ public final class _TemplatePotionInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 tag_list = 11;</code>
+       * <code>repeated uint32 tag_list = 13;</code>
        * @return A list containing the tagList.
        */
       public java.util.List<java.lang.Integer>
@@ -1804,14 +1804,14 @@ public final class _TemplatePotionInfoOuterClass {
                  java.util.Collections.unmodifiableList(tagList_) : tagList_;
       }
       /**
-       * <code>repeated uint32 tag_list = 11;</code>
+       * <code>repeated uint32 tag_list = 13;</code>
        * @return The count of tagList.
        */
       public int getTagListCount() {
         return tagList_.size();
       }
       /**
-       * <code>repeated uint32 tag_list = 11;</code>
+       * <code>repeated uint32 tag_list = 13;</code>
        * @param index The index of the element to return.
        * @return The tagList at the given index.
        */
@@ -1819,7 +1819,7 @@ public final class _TemplatePotionInfoOuterClass {
         return tagList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 tag_list = 11;</code>
+       * <code>repeated uint32 tag_list = 13;</code>
        * @param index The index to set the value at.
        * @param value The tagList to set.
        * @return This builder for chaining.
@@ -1832,7 +1832,7 @@ public final class _TemplatePotionInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 tag_list = 11;</code>
+       * <code>repeated uint32 tag_list = 13;</code>
        * @param value The tagList to add.
        * @return This builder for chaining.
        */
@@ -1843,7 +1843,7 @@ public final class _TemplatePotionInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 tag_list = 11;</code>
+       * <code>repeated uint32 tag_list = 13;</code>
        * @param values The tagList to add.
        * @return This builder for chaining.
        */
@@ -1856,7 +1856,7 @@ public final class _TemplatePotionInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 tag_list = 11;</code>
+       * <code>repeated uint32 tag_list = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearTagList() {
@@ -1868,7 +1868,7 @@ public final class _TemplatePotionInfoOuterClass {
 
       private boolean cIPDLHJCPAI_ ;
       /**
-       * <code>bool CIPDLHJCPAI = 12;</code>
+       * <code>bool CIPDLHJCPAI = 50004;</code>
        * @return The cIPDLHJCPAI.
        */
       @java.lang.Override
@@ -1876,7 +1876,7 @@ public final class _TemplatePotionInfoOuterClass {
         return cIPDLHJCPAI_;
       }
       /**
-       * <code>bool CIPDLHJCPAI = 12;</code>
+       * <code>bool CIPDLHJCPAI = 50004;</code>
        * @param value The cIPDLHJCPAI to set.
        * @return This builder for chaining.
        */
@@ -1887,7 +1887,7 @@ public final class _TemplatePotionInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool CIPDLHJCPAI = 12;</code>
+       * <code>bool CIPDLHJCPAI = 50004;</code>
        * @return This builder for chaining.
        */
       public Builder clearCIPDLHJCPAI() {
@@ -1905,7 +1905,7 @@ public final class _TemplatePotionInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 NLGFFMHMMIC = 13;</code>
+       * <code>repeated uint32 NLGFFMHMMIC = 5;</code>
        * @return A list containing the nLGFFMHMMIC.
        */
       public java.util.List<java.lang.Integer>
@@ -1914,14 +1914,14 @@ public final class _TemplatePotionInfoOuterClass {
                  java.util.Collections.unmodifiableList(nLGFFMHMMIC_) : nLGFFMHMMIC_;
       }
       /**
-       * <code>repeated uint32 NLGFFMHMMIC = 13;</code>
+       * <code>repeated uint32 NLGFFMHMMIC = 5;</code>
        * @return The count of nLGFFMHMMIC.
        */
       public int getNLGFFMHMMICCount() {
         return nLGFFMHMMIC_.size();
       }
       /**
-       * <code>repeated uint32 NLGFFMHMMIC = 13;</code>
+       * <code>repeated uint32 NLGFFMHMMIC = 5;</code>
        * @param index The index of the element to return.
        * @return The nLGFFMHMMIC at the given index.
        */
@@ -1929,7 +1929,7 @@ public final class _TemplatePotionInfoOuterClass {
         return nLGFFMHMMIC_.getInt(index);
       }
       /**
-       * <code>repeated uint32 NLGFFMHMMIC = 13;</code>
+       * <code>repeated uint32 NLGFFMHMMIC = 5;</code>
        * @param index The index to set the value at.
        * @param value The nLGFFMHMMIC to set.
        * @return This builder for chaining.
@@ -1942,7 +1942,7 @@ public final class _TemplatePotionInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 NLGFFMHMMIC = 13;</code>
+       * <code>repeated uint32 NLGFFMHMMIC = 5;</code>
        * @param value The nLGFFMHMMIC to add.
        * @return This builder for chaining.
        */
@@ -1953,7 +1953,7 @@ public final class _TemplatePotionInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 NLGFFMHMMIC = 13;</code>
+       * <code>repeated uint32 NLGFFMHMMIC = 5;</code>
        * @param values The nLGFFMHMMIC to add.
        * @return This builder for chaining.
        */
@@ -1966,7 +1966,7 @@ public final class _TemplatePotionInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 NLGFFMHMMIC = 13;</code>
+       * <code>repeated uint32 NLGFFMHMMIC = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearNLGFFMHMMIC() {
@@ -1978,7 +1978,7 @@ public final class _TemplatePotionInfoOuterClass {
 
       private int level_ ;
       /**
-       * <code>uint32 level = 14;</code>
+       * <code>uint32 level = 7;</code>
        * @return The level.
        */
       @java.lang.Override
@@ -1986,7 +1986,7 @@ public final class _TemplatePotionInfoOuterClass {
         return level_;
       }
       /**
-       * <code>uint32 level = 14;</code>
+       * <code>uint32 level = 7;</code>
        * @param value The level to set.
        * @return This builder for chaining.
        */
@@ -1997,7 +1997,7 @@ public final class _TemplatePotionInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level = 14;</code>
+       * <code>uint32 level = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevel() {
@@ -2009,7 +2009,7 @@ public final class _TemplatePotionInfoOuterClass {
 
       private int rank_ ;
       /**
-       * <code>uint32 rank = 15;</code>
+       * <code>uint32 rank = 3;</code>
        * @return The rank.
        */
       @java.lang.Override
@@ -2017,7 +2017,7 @@ public final class _TemplatePotionInfoOuterClass {
         return rank_;
       }
       /**
-       * <code>uint32 rank = 15;</code>
+       * <code>uint32 rank = 3;</code>
        * @param value The rank to set.
        * @return This builder for chaining.
        */
@@ -2028,7 +2028,7 @@ public final class _TemplatePotionInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 rank = 15;</code>
+       * <code>uint32 rank = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearRank() {
@@ -2105,16 +2105,16 @@ public final class _TemplatePotionInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\031_TemplatePotionInfo.proto\032\021KDHFFAMFLKC" +
-      ".proto\"\262\002\n\023_TemplatePotionInfo\022\023\n\013GCFIAD" +
-      "MJOCG\030\001 \001(\010\022\023\n\013MMENCMAFAIF\030\002 \001(\r\022\023\n\013ALAK" +
-      "KGOILIC\030\003 \001(\r\022\023\n\013LODLLMHFMPP\030\004 \001(\r\022!\n\013LA" +
-      "BCKNEKCBL\030\005 \003(\0132\014.KDHFFAMFLKC\022\014\n\004guid\030\006 " +
-      "\001(\r\022\023\n\013GOEKPDMOLKD\030\007 \001(\010\022\023\n\013FEFKMIBCKAN\030" +
-      "\t \003(\r\022\023\n\013KEGBBBJKCGN\030\n \001(\r\022\020\n\010tag_list\030\013" +
-      " \003(\r\022\023\n\013CIPDLHJCPAI\030\014 \001(\010\022\023\n\013NLGFFMHMMIC" +
-      "\030\r \003(\r\022\r\n\005level\030\016 \001(\r\022\014\n\004rank\030\017 \001(\rB:\n\031e" +
-      "mu.grasscutter.net.protoB\035_TemplatePotio" +
-      "nInfoOuterClassb\006proto3"
+      ".proto\"\274\002\n\023_TemplatePotionInfo\022\025\n\013GCFIAD" +
+      "MJOCG\030\320\206\003 \001(\010\022\025\n\013MMENCMAFAIF\030\321\206\003 \001(\r\022\023\n\013" +
+      "ALAKKGOILIC\030\n \001(\r\022\025\n\013LODLLMHFMPP\030\322\206\003 \001(\r" +
+      "\022!\n\013LABCKNEKCBL\030\013 \003(\0132\014.KDHFFAMFLKC\022\014\n\004g" +
+      "uid\030\014 \001(\r\022\023\n\013GOEKPDMOLKD\030\002 \001(\010\022\023\n\013FEFKMI" +
+      "BCKAN\030\010 \003(\r\022\025\n\013KEGBBBJKCGN\030\323\206\003 \001(\r\022\020\n\010ta" +
+      "g_list\030\r \003(\r\022\025\n\013CIPDLHJCPAI\030\324\206\003 \001(\010\022\023\n\013N" +
+      "LGFFMHMMIC\030\005 \003(\r\022\r\n\005level\030\007 \001(\r\022\014\n\004rank\030" +
+      "\003 \001(\rB:\n\031emu.grasscutter.net.protoB\035_Tem" +
+      "platePotionInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

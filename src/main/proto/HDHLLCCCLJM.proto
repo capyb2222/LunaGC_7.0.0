@@ -7,10 +7,10 @@ import "DDBNDHNGEMF.proto";
 import "PFFMGFPKANE.proto";
 
 message HDHLLCCCLJM {
-	uint32 difficulty = 4;
-	bool OIFKDFIFIOP = 6;
-	fixed64 timestamp = 7;
-	repeated DDBNDHNGEMF KDFMEPMGGHJ = 8;
-	repeated PFFMGFPKANE player_info_list = 9;
-	uint32 schedule_id = 15;
+	uint32 difficulty = 11;
+	bool OIFKDFIFIOP = 14;
+	fixed64 timestamp = 10;
+	repeated DDBNDHNGEMF KDFMEPMGGHJ = 7;
+	repeated PFFMGFPKANE player_info_list = 2;
+	uint32 schedule_id = 4;
 }

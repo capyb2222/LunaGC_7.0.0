@@ -19,13 +19,13 @@ public final class CoopCgOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 id = 2;</code>
+     * <code>uint32 id = 13;</code>
      * @return The id.
      */
     int getId();
 
     /**
-     * <code>bool is_unlock = 6;</code>
+     * <code>bool is_unlock = 5;</code>
      * @return The isUnlock.
      */
     boolean getIsUnlock();
@@ -75,14 +75,14 @@ public final class CoopCgOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
-
-              id_ = input.readUInt32();
-              break;
-            }
-            case 48: {
+            case 40: {
 
               isUnlock_ = input.readBool();
+              break;
+            }
+            case 104: {
+
+              id_ = input.readUInt32();
               break;
             }
             default: {
@@ -117,10 +117,10 @@ public final class CoopCgOuterClass {
               emu.grasscutter.net.proto.CoopCgOuterClass.CoopCg.class, emu.grasscutter.net.proto.CoopCgOuterClass.CoopCg.Builder.class);
     }
 
-    public static final int ID_FIELD_NUMBER = 2;
+    public static final int ID_FIELD_NUMBER = 13;
     private int id_;
     /**
-     * <code>uint32 id = 2;</code>
+     * <code>uint32 id = 13;</code>
      * @return The id.
      */
     @java.lang.Override
@@ -128,10 +128,10 @@ public final class CoopCgOuterClass {
       return id_;
     }
 
-    public static final int IS_UNLOCK_FIELD_NUMBER = 6;
+    public static final int IS_UNLOCK_FIELD_NUMBER = 5;
     private boolean isUnlock_;
     /**
-     * <code>bool is_unlock = 6;</code>
+     * <code>bool is_unlock = 5;</code>
      * @return The isUnlock.
      */
     @java.lang.Override
@@ -153,11 +153,11 @@ public final class CoopCgOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (id_ != 0) {
-        output.writeUInt32(2, id_);
-      }
       if (isUnlock_ != false) {
-        output.writeBool(6, isUnlock_);
+        output.writeBool(5, isUnlock_);
+      }
+      if (id_ != 0) {
+        output.writeUInt32(13, id_);
       }
       unknownFields.writeTo(output);
     }
@@ -168,13 +168,13 @@ public final class CoopCgOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (id_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, id_);
-      }
       if (isUnlock_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(6, isUnlock_);
+          .computeBoolSize(5, isUnlock_);
+      }
+      if (id_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(13, id_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -461,7 +461,7 @@ public final class CoopCgOuterClass {
 
       private int id_ ;
       /**
-       * <code>uint32 id = 2;</code>
+       * <code>uint32 id = 13;</code>
        * @return The id.
        */
       @java.lang.Override
@@ -469,7 +469,7 @@ public final class CoopCgOuterClass {
         return id_;
       }
       /**
-       * <code>uint32 id = 2;</code>
+       * <code>uint32 id = 13;</code>
        * @param value The id to set.
        * @return This builder for chaining.
        */
@@ -480,7 +480,7 @@ public final class CoopCgOuterClass {
         return this;
       }
       /**
-       * <code>uint32 id = 2;</code>
+       * <code>uint32 id = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearId() {
@@ -492,7 +492,7 @@ public final class CoopCgOuterClass {
 
       private boolean isUnlock_ ;
       /**
-       * <code>bool is_unlock = 6;</code>
+       * <code>bool is_unlock = 5;</code>
        * @return The isUnlock.
        */
       @java.lang.Override
@@ -500,7 +500,7 @@ public final class CoopCgOuterClass {
         return isUnlock_;
       }
       /**
-       * <code>bool is_unlock = 6;</code>
+       * <code>bool is_unlock = 5;</code>
        * @param value The isUnlock to set.
        * @return This builder for chaining.
        */
@@ -511,7 +511,7 @@ public final class CoopCgOuterClass {
         return this;
       }
       /**
-       * <code>bool is_unlock = 6;</code>
+       * <code>bool is_unlock = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsUnlock() {
@@ -587,8 +587,8 @@ public final class CoopCgOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\014CoopCg.proto\"\'\n\006CoopCg\022\n\n\002id\030\002 \001(\r\022\021\n\t" +
-      "is_unlock\030\006 \001(\010B-\n\031emu.grasscutter.net.p" +
+      "\n\014CoopCg.proto\"\'\n\006CoopCg\022\n\n\002id\030\r \001(\r\022\021\n\t" +
+      "is_unlock\030\005 \001(\010B-\n\031emu.grasscutter.net.p" +
       "rotoB\020CoopCgOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

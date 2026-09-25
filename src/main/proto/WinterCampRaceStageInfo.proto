@@ -6,8 +6,8 @@ option java_outer_classname = "WinterCampRaceStageInfoOuterClass";
 import "Vector.proto";
 
 message WinterCampRaceStageInfo {
-	uint32 id = 4;
-	uint32 open_time = 6;
-	uint32 max_score = 8;
-	Vector pos = 12;
+	uint32 id = 5;
+	uint32 open_time = 13;
+	uint32 max_score = 10;
+	Vector pos = 1;
 }

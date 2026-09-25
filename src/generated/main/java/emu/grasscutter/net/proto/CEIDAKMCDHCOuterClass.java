@@ -19,7 +19,7 @@ public final class CEIDAKMCDHCOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 furniture_type = 4;</code>
+     * <code>uint32 furniture_type = 5;</code>
      * @return The furnitureType.
      */
     int getFurnitureType();
@@ -75,7 +75,7 @@ public final class CEIDAKMCDHCOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 40: {
 
               furnitureType_ = input.readUInt32();
               break;
@@ -117,10 +117,10 @@ public final class CEIDAKMCDHCOuterClass {
               emu.grasscutter.net.proto.CEIDAKMCDHCOuterClass.CEIDAKMCDHC.class, emu.grasscutter.net.proto.CEIDAKMCDHCOuterClass.CEIDAKMCDHC.Builder.class);
     }
 
-    public static final int FURNITURE_TYPE_FIELD_NUMBER = 4;
+    public static final int FURNITURE_TYPE_FIELD_NUMBER = 5;
     private int furnitureType_;
     /**
-     * <code>uint32 furniture_type = 4;</code>
+     * <code>uint32 furniture_type = 5;</code>
      * @return The furnitureType.
      */
     @java.lang.Override
@@ -154,7 +154,7 @@ public final class CEIDAKMCDHCOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (furnitureType_ != 0) {
-        output.writeUInt32(4, furnitureType_);
+        output.writeUInt32(5, furnitureType_);
       }
       if (avatarId_ != 0) {
         output.writeUInt32(9, avatarId_);
@@ -170,7 +170,7 @@ public final class CEIDAKMCDHCOuterClass {
       size = 0;
       if (furnitureType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, furnitureType_);
+          .computeUInt32Size(5, furnitureType_);
       }
       if (avatarId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -460,7 +460,7 @@ public final class CEIDAKMCDHCOuterClass {
 
       private int furnitureType_ ;
       /**
-       * <code>uint32 furniture_type = 4;</code>
+       * <code>uint32 furniture_type = 5;</code>
        * @return The furnitureType.
        */
       @java.lang.Override
@@ -468,7 +468,7 @@ public final class CEIDAKMCDHCOuterClass {
         return furnitureType_;
       }
       /**
-       * <code>uint32 furniture_type = 4;</code>
+       * <code>uint32 furniture_type = 5;</code>
        * @param value The furnitureType to set.
        * @return This builder for chaining.
        */
@@ -479,7 +479,7 @@ public final class CEIDAKMCDHCOuterClass {
         return this;
       }
       /**
-       * <code>uint32 furniture_type = 4;</code>
+       * <code>uint32 furniture_type = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearFurnitureType() {
@@ -587,7 +587,7 @@ public final class CEIDAKMCDHCOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CEIDAKMCDHC.proto\"8\n\013CEIDAKMCDHC\022\026\n\016fu" +
-      "rniture_type\030\004 \001(\r\022\021\n\tavatar_id\030\t \001(\rB2\n" +
+      "rniture_type\030\005 \001(\r\022\021\n\tavatar_id\030\t \001(\rB2\n" +
       "\031emu.grasscutter.net.protoB\025CEIDAKMCDHCO" +
       "uterClassb\006proto3"
     };

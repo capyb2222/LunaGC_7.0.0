@@ -19,25 +19,25 @@ public final class KBHFBAJNBCGOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 7;</code>
+     * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 2;</code>
      */
     java.util.List<emu.grasscutter.net.proto.JJAAPEINGACOuterClass.JJAAPEINGAC> 
         getELGHIDOKCBAList();
     /**
-     * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 7;</code>
+     * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 2;</code>
      */
     emu.grasscutter.net.proto.JJAAPEINGACOuterClass.JJAAPEINGAC getELGHIDOKCBA(int index);
     /**
-     * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 7;</code>
+     * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 2;</code>
      */
     int getELGHIDOKCBACount();
     /**
-     * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 7;</code>
+     * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 2;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.JJAAPEINGACOuterClass.JJAAPEINGACOrBuilder> 
         getELGHIDOKCBAOrBuilderList();
     /**
-     * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 7;</code>
+     * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 2;</code>
      */
     emu.grasscutter.net.proto.JJAAPEINGACOuterClass.JJAAPEINGACOrBuilder getELGHIDOKCBAOrBuilder(
         int index);
@@ -89,7 +89,7 @@ public final class KBHFBAJNBCGOuterClass {
             case 0:
               done = true;
               break;
-            case 58: {
+            case 18: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 eLGHIDOKCBA_ = new java.util.ArrayList<emu.grasscutter.net.proto.JJAAPEINGACOuterClass.JJAAPEINGAC>();
                 mutable_bitField0_ |= 0x00000001;
@@ -133,17 +133,17 @@ public final class KBHFBAJNBCGOuterClass {
               emu.grasscutter.net.proto.KBHFBAJNBCGOuterClass.KBHFBAJNBCG.class, emu.grasscutter.net.proto.KBHFBAJNBCGOuterClass.KBHFBAJNBCG.Builder.class);
     }
 
-    public static final int ELGHIDOKCBA_FIELD_NUMBER = 7;
+    public static final int ELGHIDOKCBA_FIELD_NUMBER = 2;
     private java.util.List<emu.grasscutter.net.proto.JJAAPEINGACOuterClass.JJAAPEINGAC> eLGHIDOKCBA_;
     /**
-     * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 7;</code>
+     * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 2;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.JJAAPEINGACOuterClass.JJAAPEINGAC> getELGHIDOKCBAList() {
       return eLGHIDOKCBA_;
     }
     /**
-     * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 7;</code>
+     * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 2;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.JJAAPEINGACOuterClass.JJAAPEINGACOrBuilder> 
@@ -151,21 +151,21 @@ public final class KBHFBAJNBCGOuterClass {
       return eLGHIDOKCBA_;
     }
     /**
-     * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 7;</code>
+     * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 2;</code>
      */
     @java.lang.Override
     public int getELGHIDOKCBACount() {
       return eLGHIDOKCBA_.size();
     }
     /**
-     * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 7;</code>
+     * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 2;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.JJAAPEINGACOuterClass.JJAAPEINGAC getELGHIDOKCBA(int index) {
       return eLGHIDOKCBA_.get(index);
     }
     /**
-     * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 7;</code>
+     * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 2;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.JJAAPEINGACOuterClass.JJAAPEINGACOrBuilder getELGHIDOKCBAOrBuilder(
@@ -188,7 +188,7 @@ public final class KBHFBAJNBCGOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < eLGHIDOKCBA_.size(); i++) {
-        output.writeMessage(7, eLGHIDOKCBA_.get(i));
+        output.writeMessage(2, eLGHIDOKCBA_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -201,7 +201,7 @@ public final class KBHFBAJNBCGOuterClass {
       size = 0;
       for (int i = 0; i < eLGHIDOKCBA_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, eLGHIDOKCBA_.get(i));
+          .computeMessageSize(2, eLGHIDOKCBA_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -528,7 +528,7 @@ public final class KBHFBAJNBCGOuterClass {
           emu.grasscutter.net.proto.JJAAPEINGACOuterClass.JJAAPEINGAC, emu.grasscutter.net.proto.JJAAPEINGACOuterClass.JJAAPEINGAC.Builder, emu.grasscutter.net.proto.JJAAPEINGACOuterClass.JJAAPEINGACOrBuilder> eLGHIDOKCBABuilder_;
 
       /**
-       * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 7;</code>
+       * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 2;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.JJAAPEINGACOuterClass.JJAAPEINGAC> getELGHIDOKCBAList() {
         if (eLGHIDOKCBABuilder_ == null) {
@@ -538,7 +538,7 @@ public final class KBHFBAJNBCGOuterClass {
         }
       }
       /**
-       * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 7;</code>
+       * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 2;</code>
        */
       public int getELGHIDOKCBACount() {
         if (eLGHIDOKCBABuilder_ == null) {
@@ -548,7 +548,7 @@ public final class KBHFBAJNBCGOuterClass {
         }
       }
       /**
-       * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 7;</code>
+       * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 2;</code>
        */
       public emu.grasscutter.net.proto.JJAAPEINGACOuterClass.JJAAPEINGAC getELGHIDOKCBA(int index) {
         if (eLGHIDOKCBABuilder_ == null) {
@@ -558,7 +558,7 @@ public final class KBHFBAJNBCGOuterClass {
         }
       }
       /**
-       * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 7;</code>
+       * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 2;</code>
        */
       public Builder setELGHIDOKCBA(
           int index, emu.grasscutter.net.proto.JJAAPEINGACOuterClass.JJAAPEINGAC value) {
@@ -575,7 +575,7 @@ public final class KBHFBAJNBCGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 7;</code>
+       * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 2;</code>
        */
       public Builder setELGHIDOKCBA(
           int index, emu.grasscutter.net.proto.JJAAPEINGACOuterClass.JJAAPEINGAC.Builder builderForValue) {
@@ -589,7 +589,7 @@ public final class KBHFBAJNBCGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 7;</code>
+       * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 2;</code>
        */
       public Builder addELGHIDOKCBA(emu.grasscutter.net.proto.JJAAPEINGACOuterClass.JJAAPEINGAC value) {
         if (eLGHIDOKCBABuilder_ == null) {
@@ -605,7 +605,7 @@ public final class KBHFBAJNBCGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 7;</code>
+       * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 2;</code>
        */
       public Builder addELGHIDOKCBA(
           int index, emu.grasscutter.net.proto.JJAAPEINGACOuterClass.JJAAPEINGAC value) {
@@ -622,7 +622,7 @@ public final class KBHFBAJNBCGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 7;</code>
+       * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 2;</code>
        */
       public Builder addELGHIDOKCBA(
           emu.grasscutter.net.proto.JJAAPEINGACOuterClass.JJAAPEINGAC.Builder builderForValue) {
@@ -636,7 +636,7 @@ public final class KBHFBAJNBCGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 7;</code>
+       * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 2;</code>
        */
       public Builder addELGHIDOKCBA(
           int index, emu.grasscutter.net.proto.JJAAPEINGACOuterClass.JJAAPEINGAC.Builder builderForValue) {
@@ -650,7 +650,7 @@ public final class KBHFBAJNBCGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 7;</code>
+       * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 2;</code>
        */
       public Builder addAllELGHIDOKCBA(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.JJAAPEINGACOuterClass.JJAAPEINGAC> values) {
@@ -665,7 +665,7 @@ public final class KBHFBAJNBCGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 7;</code>
+       * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 2;</code>
        */
       public Builder clearELGHIDOKCBA() {
         if (eLGHIDOKCBABuilder_ == null) {
@@ -678,7 +678,7 @@ public final class KBHFBAJNBCGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 7;</code>
+       * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 2;</code>
        */
       public Builder removeELGHIDOKCBA(int index) {
         if (eLGHIDOKCBABuilder_ == null) {
@@ -691,14 +691,14 @@ public final class KBHFBAJNBCGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 7;</code>
+       * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 2;</code>
        */
       public emu.grasscutter.net.proto.JJAAPEINGACOuterClass.JJAAPEINGAC.Builder getELGHIDOKCBABuilder(
           int index) {
         return getELGHIDOKCBAFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 7;</code>
+       * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 2;</code>
        */
       public emu.grasscutter.net.proto.JJAAPEINGACOuterClass.JJAAPEINGACOrBuilder getELGHIDOKCBAOrBuilder(
           int index) {
@@ -708,7 +708,7 @@ public final class KBHFBAJNBCGOuterClass {
         }
       }
       /**
-       * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 7;</code>
+       * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 2;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.JJAAPEINGACOuterClass.JJAAPEINGACOrBuilder> 
            getELGHIDOKCBAOrBuilderList() {
@@ -719,14 +719,14 @@ public final class KBHFBAJNBCGOuterClass {
         }
       }
       /**
-       * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 7;</code>
+       * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 2;</code>
        */
       public emu.grasscutter.net.proto.JJAAPEINGACOuterClass.JJAAPEINGAC.Builder addELGHIDOKCBABuilder() {
         return getELGHIDOKCBAFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.JJAAPEINGACOuterClass.JJAAPEINGAC.getDefaultInstance());
       }
       /**
-       * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 7;</code>
+       * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 2;</code>
        */
       public emu.grasscutter.net.proto.JJAAPEINGACOuterClass.JJAAPEINGAC.Builder addELGHIDOKCBABuilder(
           int index) {
@@ -734,7 +734,7 @@ public final class KBHFBAJNBCGOuterClass {
             index, emu.grasscutter.net.proto.JJAAPEINGACOuterClass.JJAAPEINGAC.getDefaultInstance());
       }
       /**
-       * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 7;</code>
+       * <code>repeated .JJAAPEINGAC ELGHIDOKCBA = 2;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.JJAAPEINGACOuterClass.JJAAPEINGAC.Builder> 
            getELGHIDOKCBABuilderList() {
@@ -822,7 +822,7 @@ public final class KBHFBAJNBCGOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KBHFBAJNBCG.proto\032\021JJAAPEINGAC.proto\"0" +
-      "\n\013KBHFBAJNBCG\022!\n\013ELGHIDOKCBA\030\007 \003(\0132\014.JJA" +
+      "\n\013KBHFBAJNBCG\022!\n\013ELGHIDOKCBA\030\002 \003(\0132\014.JJA" +
       "APEINGACB2\n\031emu.grasscutter.net.protoB\025K" +
       "BHFBAJNBCGOuterClassb\006proto3"
     };

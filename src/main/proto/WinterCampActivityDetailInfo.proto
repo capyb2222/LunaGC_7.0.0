@@ -8,12 +8,12 @@ import "WinterCampRaceStageInfo.proto";
 import "WinterCampStageInfo.proto";
 
 message WinterCampActivityDetailInfo {
-	repeated WinterCampRaceStageInfo race_info_list = 1;
-	repeated uint32 CNLIGPFPPDC = 2;
-	repeated uint32 LFFBHOJNFDO = 4;
-	repeated ItemParam used_item_list = 6;
-	WinterCampStageInfo explore_info = 8;
-	repeated uint32 dmjdfjojofj = 10;
-	WinterCampStageInfo battle_info = 12;
+	repeated WinterCampRaceStageInfo race_info_list = 5;
+	repeated uint32 CNLIGPFPPDC = 50000;
+	repeated uint32 LFFBHOJNFDO = 50001;
+	repeated ItemParam used_item_list = 10;
+	WinterCampStageInfo explore_info = 13;
+	repeated uint32 dmjdfjojofj = 50002;
+	WinterCampStageInfo battle_info = 11;
 	bool is_content_closed = 15;
 }

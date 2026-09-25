@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "DestroyMaterialRspOuterClass";
 
 message DestroyMaterialRsp {
-	repeated uint32 item_id_list = 6;
-	repeated uint32 item_count_list = 7;
-	int32 retcode = 11;
+	repeated uint32 item_id_list = 3;
+	repeated uint32 item_count_list = 12;
+	int32 retcode = 14;
 }

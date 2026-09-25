@@ -6,8 +6,8 @@ option java_outer_classname = "EffigyActivityDetailInfoOuterClass";
 import "EffigyDailyInfo.proto";
 
 message EffigyActivityDetailInfo {
-	uint32 last_difficulty_id = 3;
-	repeated uint32 taken_reward_index_list = 8;
-	repeated EffigyDailyInfo daily_info_list = 11;
-	uint32 cur_score = 12;
+	uint32 last_difficulty_id = 12;
+	repeated uint32 taken_reward_index_list = 14;
+	repeated EffigyDailyInfo daily_info_list = 5;
+	uint32 cur_score = 7;
 }

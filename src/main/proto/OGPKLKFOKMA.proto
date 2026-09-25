@@ -6,5 +6,5 @@ option java_outer_classname = "OGPKLKFOKMAOuterClass";
 import "MEJAHNNGGMH.proto";
 
 message OGPKLKFOKMA {
-	repeated MEJAHNNGGMH level_info_list = 13;
+	repeated MEJAHNNGGMH level_info_list = 9;
 }

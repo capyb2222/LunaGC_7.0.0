@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "PlayerTimeNotifyOuterClass";
 
 message PlayerTimeNotify {
-	uint64 player_time = 3;
-	uint64 server_time = 10;
-	bool is_paused = 13;
+	uint64 player_time = 7;
+	uint64 server_time = 6;
+	bool is_paused = 15;
 }

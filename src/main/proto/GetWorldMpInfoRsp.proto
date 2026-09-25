@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "GetWorldMpInfoRspOuterClass";
 
 message GetWorldMpInfoRsp {
-	uint32 quit_mp_valid_time = 11;
-	int32 retcode = 14;
-	bool is_in_mp_mode = 15;
+	uint32 quit_mp_valid_time = 12;
+	int32 retcode = 1;
+	bool is_in_mp_mode = 8;
 }

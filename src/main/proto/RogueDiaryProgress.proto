@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "RogueDiaryProgressOuterClass";
 
 message RogueDiaryProgress {
-	repeated uint32 optional_card_list = 1;
-	uint32 cur_round = 4;
-	uint32 difficulty = 6;
-	bool is_enter_dungeon = 9;
-	uint32 stage_id = 13;
+	repeated uint32 optional_card_list = 5;
+	uint32 cur_round = 8;
+	uint32 difficulty = 9;
+	bool is_enter_dungeon = 2;
+	uint32 stage_id = 12;
 }

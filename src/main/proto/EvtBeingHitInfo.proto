@@ -6,7 +6,7 @@ option java_outer_classname = "EvtBeingHitInfoOuterClass";
 import "AttackResult.proto";
 
 message EvtBeingHitInfo {
-	uint32 frame_num = 2;
-	uint32 peer_id = 7;
-	AttackResult attack_result = 9;
+	uint32 frame_num = 4;
+	uint32 peer_id = 3;
+	AttackResult attack_result = 7;
 }

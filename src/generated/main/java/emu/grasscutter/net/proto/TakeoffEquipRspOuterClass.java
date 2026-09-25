@@ -31,7 +31,7 @@ public final class TakeoffEquipRspOuterClass {
     int getRetcode();
 
     /**
-     * <code>uint32 slot = 10;</code>
+     * <code>uint32 slot = 4;</code>
      * @return The slot.
      */
     int getSlot();
@@ -81,6 +81,11 @@ public final class TakeoffEquipRspOuterClass {
             case 0:
               done = true;
               break;
+            case 32: {
+
+              slot_ = input.readUInt32();
+              break;
+            }
             case 48: {
 
               avatarGuid_ = input.readUInt64();
@@ -89,11 +94,6 @@ public final class TakeoffEquipRspOuterClass {
             case 72: {
 
               retcode_ = input.readInt32();
-              break;
-            }
-            case 80: {
-
-              slot_ = input.readUInt32();
               break;
             }
             default: {
@@ -150,10 +150,10 @@ public final class TakeoffEquipRspOuterClass {
       return retcode_;
     }
 
-    public static final int SLOT_FIELD_NUMBER = 10;
+    public static final int SLOT_FIELD_NUMBER = 4;
     private int slot_;
     /**
-     * <code>uint32 slot = 10;</code>
+     * <code>uint32 slot = 4;</code>
      * @return The slot.
      */
     @java.lang.Override
@@ -175,14 +175,14 @@ public final class TakeoffEquipRspOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (slot_ != 0) {
+        output.writeUInt32(4, slot_);
+      }
       if (avatarGuid_ != 0L) {
         output.writeUInt64(6, avatarGuid_);
       }
       if (retcode_ != 0) {
         output.writeInt32(9, retcode_);
-      }
-      if (slot_ != 0) {
-        output.writeUInt32(10, slot_);
       }
       unknownFields.writeTo(output);
     }
@@ -193,6 +193,10 @@ public final class TakeoffEquipRspOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (slot_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(4, slot_);
+      }
       if (avatarGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt64Size(6, avatarGuid_);
@@ -200,10 +204,6 @@ public final class TakeoffEquipRspOuterClass {
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt32Size(9, retcode_);
-      }
-      if (slot_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, slot_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -562,7 +562,7 @@ public final class TakeoffEquipRspOuterClass {
 
       private int slot_ ;
       /**
-       * <code>uint32 slot = 10;</code>
+       * <code>uint32 slot = 4;</code>
        * @return The slot.
        */
       @java.lang.Override
@@ -570,7 +570,7 @@ public final class TakeoffEquipRspOuterClass {
         return slot_;
       }
       /**
-       * <code>uint32 slot = 10;</code>
+       * <code>uint32 slot = 4;</code>
        * @param value The slot to set.
        * @return This builder for chaining.
        */
@@ -581,7 +581,7 @@ public final class TakeoffEquipRspOuterClass {
         return this;
       }
       /**
-       * <code>uint32 slot = 10;</code>
+       * <code>uint32 slot = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearSlot() {
@@ -659,7 +659,7 @@ public final class TakeoffEquipRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\025TakeoffEquipRsp.proto\"E\n\017TakeoffEquipR" +
       "sp\022\023\n\013avatar_guid\030\006 \001(\004\022\017\n\007retcode\030\t \001(\005" +
-      "\022\014\n\004slot\030\n \001(\rB6\n\031emu.grasscutter.net.pr" +
+      "\022\014\n\004slot\030\004 \001(\rB6\n\031emu.grasscutter.net.pr" +
       "otoB\031TakeoffEquipRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

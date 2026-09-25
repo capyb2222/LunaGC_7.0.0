@@ -6,7 +6,7 @@ option java_outer_classname = "GetOnlinePlayerListRspOuterClass";
 import "OnlinePlayerInfo.proto";
 
 message GetOnlinePlayerListRsp {
-	repeated OnlinePlayerInfo player_info_list = 6;
-	uint32 param = 8;
-	int32 retcode = 15;
+	repeated OnlinePlayerInfo player_info_list = 11;
+	uint32 param = 5;
+	int32 retcode = 14;
 }

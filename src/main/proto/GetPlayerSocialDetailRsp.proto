@@ -6,7 +6,7 @@ option java_outer_classname = "GetPlayerSocialDetailRspOuterClass";
 import "SocialDetail.proto";
 
 message GetPlayerSocialDetailRsp {
-	int32 retcode = 2;
-	SocialDetail detail_data = 8;
-	uint32 param = 14;
+	int32 retcode = 12;
+	SocialDetail detail_data = 6;
+	uint32 param = 5;
 }

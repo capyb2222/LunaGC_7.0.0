@@ -7,9 +7,9 @@ import "HomeMarkPointFurnitureData.proto";
 import "Vector.proto";
 
 message HomeMarkPointSceneData {
-	uint32 scene_id = 5;
-	Vector safe_point_pos = 6;
-	uint32 module_id = 7;
-	repeated HomeMarkPointFurnitureData furniture_list = 13;
-	Vector teapot_spirit_pos = 15;
+	uint32 scene_id = 12;
+	Vector safe_point_pos = 50000;
+	uint32 module_id = 14;
+	repeated HomeMarkPointFurnitureData furniture_list = 5;
+	Vector teapot_spirit_pos = 50001;
 }

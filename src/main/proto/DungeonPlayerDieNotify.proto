@@ -9,16 +9,16 @@ import "StrengthenPointData.proto";
 
 message DungeonPlayerDieNotify {
 	oneof entity {
-		uint32 gadget_id = 1;
-		uint32 monster_id = 6;
+		uint32 gadget_id = 11;
+		uint32 monster_id = 5;
 	}
-	PlayerDieType die_type = 2;
-	uint32 murderer_entity_id = 3;
-	uint32 AOMDIHGJMNK = 4;
-	AbilityString cfadgphidli = 5;
-	uint32 revive_count = 7;
-	map<uint32, StrengthenPointData> strengthen_point_data_map = 11;
-	uint32 OBOKABMLGHI = 12;
-	uint32 dungeon_id = 13;
-	uint32 wait_time = 15;
+	PlayerDieType die_type = 9;
+	uint32 murderer_entity_id = 50000;
+	uint32 AOMDIHGJMNK = 50001;
+	AbilityString cfadgphidli = 50002;
+	uint32 revive_count = 12;
+	map<uint32, StrengthenPointData> strengthen_point_data_map = 6;
+	uint32 OBOKABMLGHI = 50003;
+	uint32 dungeon_id = 2;
+	uint32 wait_time = 7;
 }

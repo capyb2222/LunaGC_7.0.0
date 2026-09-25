@@ -6,12 +6,12 @@ option java_outer_classname = "EDLMACJNHGPOuterClass";
 import "ProfilePicture.proto";
 
 message EDLMACJNHGP {
-	string _xbox_gamertag = 1;
-	string _creator_online_id = 2;
-	string psn_id = 8;
-	string nickname = 10;
-	ProfilePicture profile_picture = 12;
-	fixed64 LPGBINFHLJD = 13;
-	string _xuid = 14;
-	uint32 uid = 15;
+	string _xbox_gamertag = 10;
+	string _creator_online_id = 13;
+	string psn_id = 6;
+	string nickname = 2;
+	ProfilePicture profile_picture = 5;
+	fixed64 LPGBINFHLJD = 15;
+	string _xuid = 7;
+	uint32 uid = 12;
 }

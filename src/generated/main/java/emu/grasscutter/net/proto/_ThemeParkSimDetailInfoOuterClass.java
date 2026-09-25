@@ -19,66 +19,66 @@ public final class _ThemeParkSimDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 LOAEMCLFDDF = 1;</code>
+     * <code>repeated uint32 LOAEMCLFDDF = 50000;</code>
      * @return A list containing the lOAEMCLFDDF.
      */
     java.util.List<java.lang.Integer> getLOAEMCLFDDFList();
     /**
-     * <code>repeated uint32 LOAEMCLFDDF = 1;</code>
+     * <code>repeated uint32 LOAEMCLFDDF = 50000;</code>
      * @return The count of lOAEMCLFDDF.
      */
     int getLOAEMCLFDDFCount();
     /**
-     * <code>repeated uint32 LOAEMCLFDDF = 1;</code>
+     * <code>repeated uint32 LOAEMCLFDDF = 50000;</code>
      * @param index The index of the element to return.
      * @return The lOAEMCLFDDF at the given index.
      */
     int getLOAEMCLFDDF(int index);
 
     /**
-     * <code>.GAGPIICGHOF PFPHDJPACAF = 2;</code>
+     * <code>.GAGPIICGHOF PFPHDJPACAF = 10;</code>
      * @return Whether the pFPHDJPACAF field is set.
      */
     boolean hasPFPHDJPACAF();
     /**
-     * <code>.GAGPIICGHOF PFPHDJPACAF = 2;</code>
+     * <code>.GAGPIICGHOF PFPHDJPACAF = 10;</code>
      * @return The pFPHDJPACAF.
      */
     emu.grasscutter.net.proto.GAGPIICGHOFOuterClass.GAGPIICGHOF getPFPHDJPACAF();
     /**
-     * <code>.GAGPIICGHOF PFPHDJPACAF = 2;</code>
+     * <code>.GAGPIICGHOF PFPHDJPACAF = 10;</code>
      */
     emu.grasscutter.net.proto.GAGPIICGHOFOuterClass.GAGPIICGHOFOrBuilder getPFPHDJPACAFOrBuilder();
 
     /**
-     * <code>repeated uint32 FDFPADCAGKJ = 9;</code>
+     * <code>repeated uint32 FDFPADCAGKJ = 50001;</code>
      * @return A list containing the fDFPADCAGKJ.
      */
     java.util.List<java.lang.Integer> getFDFPADCAGKJList();
     /**
-     * <code>repeated uint32 FDFPADCAGKJ = 9;</code>
+     * <code>repeated uint32 FDFPADCAGKJ = 50001;</code>
      * @return The count of fDFPADCAGKJ.
      */
     int getFDFPADCAGKJCount();
     /**
-     * <code>repeated uint32 FDFPADCAGKJ = 9;</code>
+     * <code>repeated uint32 FDFPADCAGKJ = 50001;</code>
      * @param index The index of the element to return.
      * @return The fDFPADCAGKJ at the given index.
      */
     int getFDFPADCAGKJ(int index);
 
     /**
-     * <code>.FHNGLNCPHKA PHGDGOKPMEF = 12;</code>
+     * <code>.FHNGLNCPHKA PHGDGOKPMEF = 1;</code>
      * @return Whether the pHGDGOKPMEF field is set.
      */
     boolean hasPHGDGOKPMEF();
     /**
-     * <code>.FHNGLNCPHKA PHGDGOKPMEF = 12;</code>
+     * <code>.FHNGLNCPHKA PHGDGOKPMEF = 1;</code>
      * @return The pHGDGOKPMEF.
      */
     emu.grasscutter.net.proto.FHNGLNCPHKAOuterClass.FHNGLNCPHKA getPHGDGOKPMEF();
     /**
-     * <code>.FHNGLNCPHKA PHGDGOKPMEF = 12;</code>
+     * <code>.FHNGLNCPHKA PHGDGOKPMEF = 1;</code>
      */
     emu.grasscutter.net.proto.FHNGLNCPHKAOuterClass.FHNGLNCPHKAOrBuilder getPHGDGOKPMEFOrBuilder();
   }
@@ -130,28 +130,20 @@ public final class _ThemeParkSimDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                lOAEMCLFDDF_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              lOAEMCLFDDF_.addInt(input.readUInt32());
-              break;
-            }
             case 10: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                lOAEMCLFDDF_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
+              emu.grasscutter.net.proto.FHNGLNCPHKAOuterClass.FHNGLNCPHKA.Builder subBuilder = null;
+              if (pHGDGOKPMEF_ != null) {
+                subBuilder = pHGDGOKPMEF_.toBuilder();
               }
-              while (input.getBytesUntilLimit() > 0) {
-                lOAEMCLFDDF_.addInt(input.readUInt32());
+              pHGDGOKPMEF_ = input.readMessage(emu.grasscutter.net.proto.FHNGLNCPHKAOuterClass.FHNGLNCPHKA.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(pHGDGOKPMEF_);
+                pHGDGOKPMEF_ = subBuilder.buildPartial();
               }
-              input.popLimit(limit);
+
               break;
             }
-            case 18: {
+            case 82: {
               emu.grasscutter.net.proto.GAGPIICGHOFOuterClass.GAGPIICGHOF.Builder subBuilder = null;
               if (pFPHDJPACAF_ != null) {
                 subBuilder = pFPHDJPACAF_.toBuilder();
@@ -164,7 +156,28 @@ public final class _ThemeParkSimDetailInfoOuterClass {
 
               break;
             }
-            case 72: {
+            case 400000: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                lOAEMCLFDDF_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              lOAEMCLFDDF_.addInt(input.readUInt32());
+              break;
+            }
+            case 400002: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
+                lOAEMCLFDDF_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                lOAEMCLFDDF_.addInt(input.readUInt32());
+              }
+              input.popLimit(limit);
+              break;
+            }
+            case 400008: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 fDFPADCAGKJ_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
@@ -172,7 +185,7 @@ public final class _ThemeParkSimDetailInfoOuterClass {
               fDFPADCAGKJ_.addInt(input.readUInt32());
               break;
             }
-            case 74: {
+            case 400010: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
@@ -183,19 +196,6 @@ public final class _ThemeParkSimDetailInfoOuterClass {
                 fDFPADCAGKJ_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
-              break;
-            }
-            case 98: {
-              emu.grasscutter.net.proto.FHNGLNCPHKAOuterClass.FHNGLNCPHKA.Builder subBuilder = null;
-              if (pHGDGOKPMEF_ != null) {
-                subBuilder = pHGDGOKPMEF_.toBuilder();
-              }
-              pHGDGOKPMEF_ = input.readMessage(emu.grasscutter.net.proto.FHNGLNCPHKAOuterClass.FHNGLNCPHKA.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(pHGDGOKPMEF_);
-                pHGDGOKPMEF_ = subBuilder.buildPartial();
-              }
-
               break;
             }
             default: {
@@ -236,10 +236,10 @@ public final class _ThemeParkSimDetailInfoOuterClass {
               emu.grasscutter.net.proto._ThemeParkSimDetailInfoOuterClass._ThemeParkSimDetailInfo.class, emu.grasscutter.net.proto._ThemeParkSimDetailInfoOuterClass._ThemeParkSimDetailInfo.Builder.class);
     }
 
-    public static final int LOAEMCLFDDF_FIELD_NUMBER = 1;
+    public static final int LOAEMCLFDDF_FIELD_NUMBER = 50000;
     private com.google.protobuf.Internal.IntList lOAEMCLFDDF_;
     /**
-     * <code>repeated uint32 LOAEMCLFDDF = 1;</code>
+     * <code>repeated uint32 LOAEMCLFDDF = 50000;</code>
      * @return A list containing the lOAEMCLFDDF.
      */
     @java.lang.Override
@@ -248,14 +248,14 @@ public final class _ThemeParkSimDetailInfoOuterClass {
       return lOAEMCLFDDF_;
     }
     /**
-     * <code>repeated uint32 LOAEMCLFDDF = 1;</code>
+     * <code>repeated uint32 LOAEMCLFDDF = 50000;</code>
      * @return The count of lOAEMCLFDDF.
      */
     public int getLOAEMCLFDDFCount() {
       return lOAEMCLFDDF_.size();
     }
     /**
-     * <code>repeated uint32 LOAEMCLFDDF = 1;</code>
+     * <code>repeated uint32 LOAEMCLFDDF = 50000;</code>
      * @param index The index of the element to return.
      * @return The lOAEMCLFDDF at the given index.
      */
@@ -264,10 +264,10 @@ public final class _ThemeParkSimDetailInfoOuterClass {
     }
     private int lOAEMCLFDDFMemoizedSerializedSize = -1;
 
-    public static final int PFPHDJPACAF_FIELD_NUMBER = 2;
+    public static final int PFPHDJPACAF_FIELD_NUMBER = 10;
     private emu.grasscutter.net.proto.GAGPIICGHOFOuterClass.GAGPIICGHOF pFPHDJPACAF_;
     /**
-     * <code>.GAGPIICGHOF PFPHDJPACAF = 2;</code>
+     * <code>.GAGPIICGHOF PFPHDJPACAF = 10;</code>
      * @return Whether the pFPHDJPACAF field is set.
      */
     @java.lang.Override
@@ -275,7 +275,7 @@ public final class _ThemeParkSimDetailInfoOuterClass {
       return pFPHDJPACAF_ != null;
     }
     /**
-     * <code>.GAGPIICGHOF PFPHDJPACAF = 2;</code>
+     * <code>.GAGPIICGHOF PFPHDJPACAF = 10;</code>
      * @return The pFPHDJPACAF.
      */
     @java.lang.Override
@@ -283,17 +283,17 @@ public final class _ThemeParkSimDetailInfoOuterClass {
       return pFPHDJPACAF_ == null ? emu.grasscutter.net.proto.GAGPIICGHOFOuterClass.GAGPIICGHOF.getDefaultInstance() : pFPHDJPACAF_;
     }
     /**
-     * <code>.GAGPIICGHOF PFPHDJPACAF = 2;</code>
+     * <code>.GAGPIICGHOF PFPHDJPACAF = 10;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.GAGPIICGHOFOuterClass.GAGPIICGHOFOrBuilder getPFPHDJPACAFOrBuilder() {
       return getPFPHDJPACAF();
     }
 
-    public static final int FDFPADCAGKJ_FIELD_NUMBER = 9;
+    public static final int FDFPADCAGKJ_FIELD_NUMBER = 50001;
     private com.google.protobuf.Internal.IntList fDFPADCAGKJ_;
     /**
-     * <code>repeated uint32 FDFPADCAGKJ = 9;</code>
+     * <code>repeated uint32 FDFPADCAGKJ = 50001;</code>
      * @return A list containing the fDFPADCAGKJ.
      */
     @java.lang.Override
@@ -302,14 +302,14 @@ public final class _ThemeParkSimDetailInfoOuterClass {
       return fDFPADCAGKJ_;
     }
     /**
-     * <code>repeated uint32 FDFPADCAGKJ = 9;</code>
+     * <code>repeated uint32 FDFPADCAGKJ = 50001;</code>
      * @return The count of fDFPADCAGKJ.
      */
     public int getFDFPADCAGKJCount() {
       return fDFPADCAGKJ_.size();
     }
     /**
-     * <code>repeated uint32 FDFPADCAGKJ = 9;</code>
+     * <code>repeated uint32 FDFPADCAGKJ = 50001;</code>
      * @param index The index of the element to return.
      * @return The fDFPADCAGKJ at the given index.
      */
@@ -318,10 +318,10 @@ public final class _ThemeParkSimDetailInfoOuterClass {
     }
     private int fDFPADCAGKJMemoizedSerializedSize = -1;
 
-    public static final int PHGDGOKPMEF_FIELD_NUMBER = 12;
+    public static final int PHGDGOKPMEF_FIELD_NUMBER = 1;
     private emu.grasscutter.net.proto.FHNGLNCPHKAOuterClass.FHNGLNCPHKA pHGDGOKPMEF_;
     /**
-     * <code>.FHNGLNCPHKA PHGDGOKPMEF = 12;</code>
+     * <code>.FHNGLNCPHKA PHGDGOKPMEF = 1;</code>
      * @return Whether the pHGDGOKPMEF field is set.
      */
     @java.lang.Override
@@ -329,7 +329,7 @@ public final class _ThemeParkSimDetailInfoOuterClass {
       return pHGDGOKPMEF_ != null;
     }
     /**
-     * <code>.FHNGLNCPHKA PHGDGOKPMEF = 12;</code>
+     * <code>.FHNGLNCPHKA PHGDGOKPMEF = 1;</code>
      * @return The pHGDGOKPMEF.
      */
     @java.lang.Override
@@ -337,7 +337,7 @@ public final class _ThemeParkSimDetailInfoOuterClass {
       return pHGDGOKPMEF_ == null ? emu.grasscutter.net.proto.FHNGLNCPHKAOuterClass.FHNGLNCPHKA.getDefaultInstance() : pHGDGOKPMEF_;
     }
     /**
-     * <code>.FHNGLNCPHKA PHGDGOKPMEF = 12;</code>
+     * <code>.FHNGLNCPHKA PHGDGOKPMEF = 1;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.FHNGLNCPHKAOuterClass.FHNGLNCPHKAOrBuilder getPHGDGOKPMEFOrBuilder() {
@@ -359,25 +359,25 @@ public final class _ThemeParkSimDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
+      if (pHGDGOKPMEF_ != null) {
+        output.writeMessage(1, getPHGDGOKPMEF());
+      }
+      if (pFPHDJPACAF_ != null) {
+        output.writeMessage(10, getPFPHDJPACAF());
+      }
       if (getLOAEMCLFDDFList().size() > 0) {
-        output.writeUInt32NoTag(10);
+        output.writeUInt32NoTag(400002);
         output.writeUInt32NoTag(lOAEMCLFDDFMemoizedSerializedSize);
       }
       for (int i = 0; i < lOAEMCLFDDF_.size(); i++) {
         output.writeUInt32NoTag(lOAEMCLFDDF_.getInt(i));
       }
-      if (pFPHDJPACAF_ != null) {
-        output.writeMessage(2, getPFPHDJPACAF());
-      }
       if (getFDFPADCAGKJList().size() > 0) {
-        output.writeUInt32NoTag(74);
+        output.writeUInt32NoTag(400010);
         output.writeUInt32NoTag(fDFPADCAGKJMemoizedSerializedSize);
       }
       for (int i = 0; i < fDFPADCAGKJ_.size(); i++) {
         output.writeUInt32NoTag(fDFPADCAGKJ_.getInt(i));
-      }
-      if (pHGDGOKPMEF_ != null) {
-        output.writeMessage(12, getPHGDGOKPMEF());
       }
       unknownFields.writeTo(output);
     }
@@ -388,6 +388,14 @@ public final class _ThemeParkSimDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (pHGDGOKPMEF_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(1, getPHGDGOKPMEF());
+      }
+      if (pFPHDJPACAF_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(10, getPFPHDJPACAF());
+      }
       {
         int dataSize = 0;
         for (int i = 0; i < lOAEMCLFDDF_.size(); i++) {
@@ -396,15 +404,11 @@ public final class _ThemeParkSimDetailInfoOuterClass {
         }
         size += dataSize;
         if (!getLOAEMCLFDDFList().isEmpty()) {
-          size += 1;
+          size += 3;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
         lOAEMCLFDDFMemoizedSerializedSize = dataSize;
-      }
-      if (pFPHDJPACAF_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, getPFPHDJPACAF());
       }
       {
         int dataSize = 0;
@@ -414,15 +418,11 @@ public final class _ThemeParkSimDetailInfoOuterClass {
         }
         size += dataSize;
         if (!getFDFPADCAGKJList().isEmpty()) {
-          size += 1;
+          size += 3;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
         fDFPADCAGKJMemoizedSerializedSize = dataSize;
-      }
-      if (pHGDGOKPMEF_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, getPHGDGOKPMEF());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -788,7 +788,7 @@ public final class _ThemeParkSimDetailInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 LOAEMCLFDDF = 1;</code>
+       * <code>repeated uint32 LOAEMCLFDDF = 50000;</code>
        * @return A list containing the lOAEMCLFDDF.
        */
       public java.util.List<java.lang.Integer>
@@ -797,14 +797,14 @@ public final class _ThemeParkSimDetailInfoOuterClass {
                  java.util.Collections.unmodifiableList(lOAEMCLFDDF_) : lOAEMCLFDDF_;
       }
       /**
-       * <code>repeated uint32 LOAEMCLFDDF = 1;</code>
+       * <code>repeated uint32 LOAEMCLFDDF = 50000;</code>
        * @return The count of lOAEMCLFDDF.
        */
       public int getLOAEMCLFDDFCount() {
         return lOAEMCLFDDF_.size();
       }
       /**
-       * <code>repeated uint32 LOAEMCLFDDF = 1;</code>
+       * <code>repeated uint32 LOAEMCLFDDF = 50000;</code>
        * @param index The index of the element to return.
        * @return The lOAEMCLFDDF at the given index.
        */
@@ -812,7 +812,7 @@ public final class _ThemeParkSimDetailInfoOuterClass {
         return lOAEMCLFDDF_.getInt(index);
       }
       /**
-       * <code>repeated uint32 LOAEMCLFDDF = 1;</code>
+       * <code>repeated uint32 LOAEMCLFDDF = 50000;</code>
        * @param index The index to set the value at.
        * @param value The lOAEMCLFDDF to set.
        * @return This builder for chaining.
@@ -825,7 +825,7 @@ public final class _ThemeParkSimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 LOAEMCLFDDF = 1;</code>
+       * <code>repeated uint32 LOAEMCLFDDF = 50000;</code>
        * @param value The lOAEMCLFDDF to add.
        * @return This builder for chaining.
        */
@@ -836,7 +836,7 @@ public final class _ThemeParkSimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 LOAEMCLFDDF = 1;</code>
+       * <code>repeated uint32 LOAEMCLFDDF = 50000;</code>
        * @param values The lOAEMCLFDDF to add.
        * @return This builder for chaining.
        */
@@ -849,7 +849,7 @@ public final class _ThemeParkSimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 LOAEMCLFDDF = 1;</code>
+       * <code>repeated uint32 LOAEMCLFDDF = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearLOAEMCLFDDF() {
@@ -863,14 +863,14 @@ public final class _ThemeParkSimDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.GAGPIICGHOFOuterClass.GAGPIICGHOF, emu.grasscutter.net.proto.GAGPIICGHOFOuterClass.GAGPIICGHOF.Builder, emu.grasscutter.net.proto.GAGPIICGHOFOuterClass.GAGPIICGHOFOrBuilder> pFPHDJPACAFBuilder_;
       /**
-       * <code>.GAGPIICGHOF PFPHDJPACAF = 2;</code>
+       * <code>.GAGPIICGHOF PFPHDJPACAF = 10;</code>
        * @return Whether the pFPHDJPACAF field is set.
        */
       public boolean hasPFPHDJPACAF() {
         return pFPHDJPACAFBuilder_ != null || pFPHDJPACAF_ != null;
       }
       /**
-       * <code>.GAGPIICGHOF PFPHDJPACAF = 2;</code>
+       * <code>.GAGPIICGHOF PFPHDJPACAF = 10;</code>
        * @return The pFPHDJPACAF.
        */
       public emu.grasscutter.net.proto.GAGPIICGHOFOuterClass.GAGPIICGHOF getPFPHDJPACAF() {
@@ -881,7 +881,7 @@ public final class _ThemeParkSimDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.GAGPIICGHOF PFPHDJPACAF = 2;</code>
+       * <code>.GAGPIICGHOF PFPHDJPACAF = 10;</code>
        */
       public Builder setPFPHDJPACAF(emu.grasscutter.net.proto.GAGPIICGHOFOuterClass.GAGPIICGHOF value) {
         if (pFPHDJPACAFBuilder_ == null) {
@@ -897,7 +897,7 @@ public final class _ThemeParkSimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.GAGPIICGHOF PFPHDJPACAF = 2;</code>
+       * <code>.GAGPIICGHOF PFPHDJPACAF = 10;</code>
        */
       public Builder setPFPHDJPACAF(
           emu.grasscutter.net.proto.GAGPIICGHOFOuterClass.GAGPIICGHOF.Builder builderForValue) {
@@ -911,7 +911,7 @@ public final class _ThemeParkSimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.GAGPIICGHOF PFPHDJPACAF = 2;</code>
+       * <code>.GAGPIICGHOF PFPHDJPACAF = 10;</code>
        */
       public Builder mergePFPHDJPACAF(emu.grasscutter.net.proto.GAGPIICGHOFOuterClass.GAGPIICGHOF value) {
         if (pFPHDJPACAFBuilder_ == null) {
@@ -929,7 +929,7 @@ public final class _ThemeParkSimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.GAGPIICGHOF PFPHDJPACAF = 2;</code>
+       * <code>.GAGPIICGHOF PFPHDJPACAF = 10;</code>
        */
       public Builder clearPFPHDJPACAF() {
         if (pFPHDJPACAFBuilder_ == null) {
@@ -943,7 +943,7 @@ public final class _ThemeParkSimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.GAGPIICGHOF PFPHDJPACAF = 2;</code>
+       * <code>.GAGPIICGHOF PFPHDJPACAF = 10;</code>
        */
       public emu.grasscutter.net.proto.GAGPIICGHOFOuterClass.GAGPIICGHOF.Builder getPFPHDJPACAFBuilder() {
         
@@ -951,7 +951,7 @@ public final class _ThemeParkSimDetailInfoOuterClass {
         return getPFPHDJPACAFFieldBuilder().getBuilder();
       }
       /**
-       * <code>.GAGPIICGHOF PFPHDJPACAF = 2;</code>
+       * <code>.GAGPIICGHOF PFPHDJPACAF = 10;</code>
        */
       public emu.grasscutter.net.proto.GAGPIICGHOFOuterClass.GAGPIICGHOFOrBuilder getPFPHDJPACAFOrBuilder() {
         if (pFPHDJPACAFBuilder_ != null) {
@@ -962,7 +962,7 @@ public final class _ThemeParkSimDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.GAGPIICGHOF PFPHDJPACAF = 2;</code>
+       * <code>.GAGPIICGHOF PFPHDJPACAF = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.GAGPIICGHOFOuterClass.GAGPIICGHOF, emu.grasscutter.net.proto.GAGPIICGHOFOuterClass.GAGPIICGHOF.Builder, emu.grasscutter.net.proto.GAGPIICGHOFOuterClass.GAGPIICGHOFOrBuilder> 
@@ -986,7 +986,7 @@ public final class _ThemeParkSimDetailInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 FDFPADCAGKJ = 9;</code>
+       * <code>repeated uint32 FDFPADCAGKJ = 50001;</code>
        * @return A list containing the fDFPADCAGKJ.
        */
       public java.util.List<java.lang.Integer>
@@ -995,14 +995,14 @@ public final class _ThemeParkSimDetailInfoOuterClass {
                  java.util.Collections.unmodifiableList(fDFPADCAGKJ_) : fDFPADCAGKJ_;
       }
       /**
-       * <code>repeated uint32 FDFPADCAGKJ = 9;</code>
+       * <code>repeated uint32 FDFPADCAGKJ = 50001;</code>
        * @return The count of fDFPADCAGKJ.
        */
       public int getFDFPADCAGKJCount() {
         return fDFPADCAGKJ_.size();
       }
       /**
-       * <code>repeated uint32 FDFPADCAGKJ = 9;</code>
+       * <code>repeated uint32 FDFPADCAGKJ = 50001;</code>
        * @param index The index of the element to return.
        * @return The fDFPADCAGKJ at the given index.
        */
@@ -1010,7 +1010,7 @@ public final class _ThemeParkSimDetailInfoOuterClass {
         return fDFPADCAGKJ_.getInt(index);
       }
       /**
-       * <code>repeated uint32 FDFPADCAGKJ = 9;</code>
+       * <code>repeated uint32 FDFPADCAGKJ = 50001;</code>
        * @param index The index to set the value at.
        * @param value The fDFPADCAGKJ to set.
        * @return This builder for chaining.
@@ -1023,7 +1023,7 @@ public final class _ThemeParkSimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 FDFPADCAGKJ = 9;</code>
+       * <code>repeated uint32 FDFPADCAGKJ = 50001;</code>
        * @param value The fDFPADCAGKJ to add.
        * @return This builder for chaining.
        */
@@ -1034,7 +1034,7 @@ public final class _ThemeParkSimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 FDFPADCAGKJ = 9;</code>
+       * <code>repeated uint32 FDFPADCAGKJ = 50001;</code>
        * @param values The fDFPADCAGKJ to add.
        * @return This builder for chaining.
        */
@@ -1047,7 +1047,7 @@ public final class _ThemeParkSimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 FDFPADCAGKJ = 9;</code>
+       * <code>repeated uint32 FDFPADCAGKJ = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearFDFPADCAGKJ() {
@@ -1061,14 +1061,14 @@ public final class _ThemeParkSimDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.FHNGLNCPHKAOuterClass.FHNGLNCPHKA, emu.grasscutter.net.proto.FHNGLNCPHKAOuterClass.FHNGLNCPHKA.Builder, emu.grasscutter.net.proto.FHNGLNCPHKAOuterClass.FHNGLNCPHKAOrBuilder> pHGDGOKPMEFBuilder_;
       /**
-       * <code>.FHNGLNCPHKA PHGDGOKPMEF = 12;</code>
+       * <code>.FHNGLNCPHKA PHGDGOKPMEF = 1;</code>
        * @return Whether the pHGDGOKPMEF field is set.
        */
       public boolean hasPHGDGOKPMEF() {
         return pHGDGOKPMEFBuilder_ != null || pHGDGOKPMEF_ != null;
       }
       /**
-       * <code>.FHNGLNCPHKA PHGDGOKPMEF = 12;</code>
+       * <code>.FHNGLNCPHKA PHGDGOKPMEF = 1;</code>
        * @return The pHGDGOKPMEF.
        */
       public emu.grasscutter.net.proto.FHNGLNCPHKAOuterClass.FHNGLNCPHKA getPHGDGOKPMEF() {
@@ -1079,7 +1079,7 @@ public final class _ThemeParkSimDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.FHNGLNCPHKA PHGDGOKPMEF = 12;</code>
+       * <code>.FHNGLNCPHKA PHGDGOKPMEF = 1;</code>
        */
       public Builder setPHGDGOKPMEF(emu.grasscutter.net.proto.FHNGLNCPHKAOuterClass.FHNGLNCPHKA value) {
         if (pHGDGOKPMEFBuilder_ == null) {
@@ -1095,7 +1095,7 @@ public final class _ThemeParkSimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.FHNGLNCPHKA PHGDGOKPMEF = 12;</code>
+       * <code>.FHNGLNCPHKA PHGDGOKPMEF = 1;</code>
        */
       public Builder setPHGDGOKPMEF(
           emu.grasscutter.net.proto.FHNGLNCPHKAOuterClass.FHNGLNCPHKA.Builder builderForValue) {
@@ -1109,7 +1109,7 @@ public final class _ThemeParkSimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.FHNGLNCPHKA PHGDGOKPMEF = 12;</code>
+       * <code>.FHNGLNCPHKA PHGDGOKPMEF = 1;</code>
        */
       public Builder mergePHGDGOKPMEF(emu.grasscutter.net.proto.FHNGLNCPHKAOuterClass.FHNGLNCPHKA value) {
         if (pHGDGOKPMEFBuilder_ == null) {
@@ -1127,7 +1127,7 @@ public final class _ThemeParkSimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.FHNGLNCPHKA PHGDGOKPMEF = 12;</code>
+       * <code>.FHNGLNCPHKA PHGDGOKPMEF = 1;</code>
        */
       public Builder clearPHGDGOKPMEF() {
         if (pHGDGOKPMEFBuilder_ == null) {
@@ -1141,7 +1141,7 @@ public final class _ThemeParkSimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.FHNGLNCPHKA PHGDGOKPMEF = 12;</code>
+       * <code>.FHNGLNCPHKA PHGDGOKPMEF = 1;</code>
        */
       public emu.grasscutter.net.proto.FHNGLNCPHKAOuterClass.FHNGLNCPHKA.Builder getPHGDGOKPMEFBuilder() {
         
@@ -1149,7 +1149,7 @@ public final class _ThemeParkSimDetailInfoOuterClass {
         return getPHGDGOKPMEFFieldBuilder().getBuilder();
       }
       /**
-       * <code>.FHNGLNCPHKA PHGDGOKPMEF = 12;</code>
+       * <code>.FHNGLNCPHKA PHGDGOKPMEF = 1;</code>
        */
       public emu.grasscutter.net.proto.FHNGLNCPHKAOuterClass.FHNGLNCPHKAOrBuilder getPHGDGOKPMEFOrBuilder() {
         if (pHGDGOKPMEFBuilder_ != null) {
@@ -1160,7 +1160,7 @@ public final class _ThemeParkSimDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.FHNGLNCPHKA PHGDGOKPMEF = 12;</code>
+       * <code>.FHNGLNCPHKA PHGDGOKPMEF = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.FHNGLNCPHKAOuterClass.FHNGLNCPHKA, emu.grasscutter.net.proto.FHNGLNCPHKAOuterClass.FHNGLNCPHKA.Builder, emu.grasscutter.net.proto.FHNGLNCPHKAOuterClass.FHNGLNCPHKAOrBuilder> 
@@ -1243,13 +1243,13 @@ public final class _ThemeParkSimDetailInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\035_ThemeParkSimDetailInfo.proto\032\021FHNGLNC" +
-      "PHKA.proto\032\021GAGPIICGHOF.proto\"\211\001\n\027_Theme" +
-      "ParkSimDetailInfo\022\023\n\013LOAEMCLFDDF\030\001 \003(\r\022!" +
-      "\n\013PFPHDJPACAF\030\002 \001(\0132\014.GAGPIICGHOF\022\023\n\013FDF" +
-      "PADCAGKJ\030\t \003(\r\022!\n\013PHGDGOKPMEF\030\014 \001(\0132\014.FH" +
-      "NGLNCPHKAB>\n\031emu.grasscutter.net.protoB!" +
-      "_ThemeParkSimDetailInfoOuterClassb\006proto" +
-      "3"
+      "PHKA.proto\032\021GAGPIICGHOF.proto\"\215\001\n\027_Theme" +
+      "ParkSimDetailInfo\022\025\n\013LOAEMCLFDDF\030\320\206\003 \003(\r" +
+      "\022!\n\013PFPHDJPACAF\030\n \001(\0132\014.GAGPIICGHOF\022\025\n\013F" +
+      "DFPADCAGKJ\030\321\206\003 \003(\r\022!\n\013PHGDGOKPMEF\030\001 \001(\0132" +
+      "\014.FHNGLNCPHKAB>\n\031emu.grasscutter.net.pro" +
+      "toB!_ThemeParkSimDetailInfoOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

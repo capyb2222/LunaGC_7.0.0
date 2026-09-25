@@ -6,6 +6,6 @@ option java_outer_classname = "WidgetCoolDownNotifyOuterClass";
 import "WidgetCoolDownData.proto";
 
 message WidgetCoolDownNotify {
-	repeated WidgetCoolDownData normal_cool_down_data_list = 6;
-	repeated WidgetCoolDownData group_cool_down_data_list = 10;
+	repeated WidgetCoolDownData normal_cool_down_data_list = 10;
+	repeated WidgetCoolDownData group_cool_down_data_list = 13;
 }

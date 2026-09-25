@@ -25,30 +25,30 @@ public final class LKEKPAMJHDKOuterClass {
     boolean getMNGLBAEBKDA();
 
     /**
-     * <code>repeated uint32 EALCNKHEMHE = 3;</code>
+     * <code>repeated uint32 EALCNKHEMHE = 7;</code>
      * @return A list containing the eALCNKHEMHE.
      */
     java.util.List<java.lang.Integer> getEALCNKHEMHEList();
     /**
-     * <code>repeated uint32 EALCNKHEMHE = 3;</code>
+     * <code>repeated uint32 EALCNKHEMHE = 7;</code>
      * @return The count of eALCNKHEMHE.
      */
     int getEALCNKHEMHECount();
     /**
-     * <code>repeated uint32 EALCNKHEMHE = 3;</code>
+     * <code>repeated uint32 EALCNKHEMHE = 7;</code>
      * @param index The index of the element to return.
      * @return The eALCNKHEMHE at the given index.
      */
     int getEALCNKHEMHE(int index);
 
     /**
-     * <code>bool is_open = 9;</code>
+     * <code>bool is_open = 15;</code>
      * @return The isOpen.
      */
     boolean getIsOpen();
 
     /**
-     * <code>bool is_finish = 10;</code>
+     * <code>bool is_finish = 14;</code>
      * @return The isFinish.
      */
     boolean getIsFinish();
@@ -105,7 +105,7 @@ public final class LKEKPAMJHDKOuterClass {
               mNGLBAEBKDA_ = input.readBool();
               break;
             }
-            case 24: {
+            case 56: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 eALCNKHEMHE_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -113,7 +113,7 @@ public final class LKEKPAMJHDKOuterClass {
               eALCNKHEMHE_.addInt(input.readUInt32());
               break;
             }
-            case 26: {
+            case 58: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -126,14 +126,14 @@ public final class LKEKPAMJHDKOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 72: {
-
-              isOpen_ = input.readBool();
-              break;
-            }
-            case 80: {
+            case 112: {
 
               isFinish_ = input.readBool();
+              break;
+            }
+            case 120: {
+
+              isOpen_ = input.readBool();
               break;
             }
             default: {
@@ -182,10 +182,10 @@ public final class LKEKPAMJHDKOuterClass {
       return mNGLBAEBKDA_;
     }
 
-    public static final int EALCNKHEMHE_FIELD_NUMBER = 3;
+    public static final int EALCNKHEMHE_FIELD_NUMBER = 7;
     private com.google.protobuf.Internal.IntList eALCNKHEMHE_;
     /**
-     * <code>repeated uint32 EALCNKHEMHE = 3;</code>
+     * <code>repeated uint32 EALCNKHEMHE = 7;</code>
      * @return A list containing the eALCNKHEMHE.
      */
     @java.lang.Override
@@ -194,14 +194,14 @@ public final class LKEKPAMJHDKOuterClass {
       return eALCNKHEMHE_;
     }
     /**
-     * <code>repeated uint32 EALCNKHEMHE = 3;</code>
+     * <code>repeated uint32 EALCNKHEMHE = 7;</code>
      * @return The count of eALCNKHEMHE.
      */
     public int getEALCNKHEMHECount() {
       return eALCNKHEMHE_.size();
     }
     /**
-     * <code>repeated uint32 EALCNKHEMHE = 3;</code>
+     * <code>repeated uint32 EALCNKHEMHE = 7;</code>
      * @param index The index of the element to return.
      * @return The eALCNKHEMHE at the given index.
      */
@@ -210,10 +210,10 @@ public final class LKEKPAMJHDKOuterClass {
     }
     private int eALCNKHEMHEMemoizedSerializedSize = -1;
 
-    public static final int IS_OPEN_FIELD_NUMBER = 9;
+    public static final int IS_OPEN_FIELD_NUMBER = 15;
     private boolean isOpen_;
     /**
-     * <code>bool is_open = 9;</code>
+     * <code>bool is_open = 15;</code>
      * @return The isOpen.
      */
     @java.lang.Override
@@ -221,10 +221,10 @@ public final class LKEKPAMJHDKOuterClass {
       return isOpen_;
     }
 
-    public static final int IS_FINISH_FIELD_NUMBER = 10;
+    public static final int IS_FINISH_FIELD_NUMBER = 14;
     private boolean isFinish_;
     /**
-     * <code>bool is_finish = 10;</code>
+     * <code>bool is_finish = 14;</code>
      * @return The isFinish.
      */
     @java.lang.Override
@@ -251,17 +251,17 @@ public final class LKEKPAMJHDKOuterClass {
         output.writeBool(1, mNGLBAEBKDA_);
       }
       if (getEALCNKHEMHEList().size() > 0) {
-        output.writeUInt32NoTag(26);
+        output.writeUInt32NoTag(58);
         output.writeUInt32NoTag(eALCNKHEMHEMemoizedSerializedSize);
       }
       for (int i = 0; i < eALCNKHEMHE_.size(); i++) {
         output.writeUInt32NoTag(eALCNKHEMHE_.getInt(i));
       }
-      if (isOpen_ != false) {
-        output.writeBool(9, isOpen_);
-      }
       if (isFinish_ != false) {
-        output.writeBool(10, isFinish_);
+        output.writeBool(14, isFinish_);
+      }
+      if (isOpen_ != false) {
+        output.writeBool(15, isOpen_);
       }
       unknownFields.writeTo(output);
     }
@@ -290,13 +290,13 @@ public final class LKEKPAMJHDKOuterClass {
         }
         eALCNKHEMHEMemoizedSerializedSize = dataSize;
       }
-      if (isOpen_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, isOpen_);
-      }
       if (isFinish_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(10, isFinish_);
+          .computeBoolSize(14, isFinish_);
+      }
+      if (isOpen_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(15, isOpen_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -657,7 +657,7 @@ public final class LKEKPAMJHDKOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 EALCNKHEMHE = 3;</code>
+       * <code>repeated uint32 EALCNKHEMHE = 7;</code>
        * @return A list containing the eALCNKHEMHE.
        */
       public java.util.List<java.lang.Integer>
@@ -666,14 +666,14 @@ public final class LKEKPAMJHDKOuterClass {
                  java.util.Collections.unmodifiableList(eALCNKHEMHE_) : eALCNKHEMHE_;
       }
       /**
-       * <code>repeated uint32 EALCNKHEMHE = 3;</code>
+       * <code>repeated uint32 EALCNKHEMHE = 7;</code>
        * @return The count of eALCNKHEMHE.
        */
       public int getEALCNKHEMHECount() {
         return eALCNKHEMHE_.size();
       }
       /**
-       * <code>repeated uint32 EALCNKHEMHE = 3;</code>
+       * <code>repeated uint32 EALCNKHEMHE = 7;</code>
        * @param index The index of the element to return.
        * @return The eALCNKHEMHE at the given index.
        */
@@ -681,7 +681,7 @@ public final class LKEKPAMJHDKOuterClass {
         return eALCNKHEMHE_.getInt(index);
       }
       /**
-       * <code>repeated uint32 EALCNKHEMHE = 3;</code>
+       * <code>repeated uint32 EALCNKHEMHE = 7;</code>
        * @param index The index to set the value at.
        * @param value The eALCNKHEMHE to set.
        * @return This builder for chaining.
@@ -694,7 +694,7 @@ public final class LKEKPAMJHDKOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 EALCNKHEMHE = 3;</code>
+       * <code>repeated uint32 EALCNKHEMHE = 7;</code>
        * @param value The eALCNKHEMHE to add.
        * @return This builder for chaining.
        */
@@ -705,7 +705,7 @@ public final class LKEKPAMJHDKOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 EALCNKHEMHE = 3;</code>
+       * <code>repeated uint32 EALCNKHEMHE = 7;</code>
        * @param values The eALCNKHEMHE to add.
        * @return This builder for chaining.
        */
@@ -718,7 +718,7 @@ public final class LKEKPAMJHDKOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 EALCNKHEMHE = 3;</code>
+       * <code>repeated uint32 EALCNKHEMHE = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearEALCNKHEMHE() {
@@ -730,7 +730,7 @@ public final class LKEKPAMJHDKOuterClass {
 
       private boolean isOpen_ ;
       /**
-       * <code>bool is_open = 9;</code>
+       * <code>bool is_open = 15;</code>
        * @return The isOpen.
        */
       @java.lang.Override
@@ -738,7 +738,7 @@ public final class LKEKPAMJHDKOuterClass {
         return isOpen_;
       }
       /**
-       * <code>bool is_open = 9;</code>
+       * <code>bool is_open = 15;</code>
        * @param value The isOpen to set.
        * @return This builder for chaining.
        */
@@ -749,7 +749,7 @@ public final class LKEKPAMJHDKOuterClass {
         return this;
       }
       /**
-       * <code>bool is_open = 9;</code>
+       * <code>bool is_open = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsOpen() {
@@ -761,7 +761,7 @@ public final class LKEKPAMJHDKOuterClass {
 
       private boolean isFinish_ ;
       /**
-       * <code>bool is_finish = 10;</code>
+       * <code>bool is_finish = 14;</code>
        * @return The isFinish.
        */
       @java.lang.Override
@@ -769,7 +769,7 @@ public final class LKEKPAMJHDKOuterClass {
         return isFinish_;
       }
       /**
-       * <code>bool is_finish = 10;</code>
+       * <code>bool is_finish = 14;</code>
        * @param value The isFinish to set.
        * @return This builder for chaining.
        */
@@ -780,7 +780,7 @@ public final class LKEKPAMJHDKOuterClass {
         return this;
       }
       /**
-       * <code>bool is_finish = 10;</code>
+       * <code>bool is_finish = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsFinish() {
@@ -857,8 +857,8 @@ public final class LKEKPAMJHDKOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021LKEKPAMJHDK.proto\"[\n\013LKEKPAMJHDK\022\023\n\013MN" +
-      "GLBAEBKDA\030\001 \001(\010\022\023\n\013EALCNKHEMHE\030\003 \003(\r\022\017\n\007" +
-      "is_open\030\t \001(\010\022\021\n\tis_finish\030\n \001(\010B2\n\031emu." +
+      "GLBAEBKDA\030\001 \001(\010\022\023\n\013EALCNKHEMHE\030\007 \003(\r\022\017\n\007" +
+      "is_open\030\017 \001(\010\022\021\n\tis_finish\030\016 \001(\010B2\n\031emu." +
       "grasscutter.net.protoB\025LKEKPAMJHDKOuterC" +
       "lassb\006proto3"
     };

@@ -9,10 +9,10 @@ import "IDAKPKNODGC.proto";
 import "ILFPMCGGMOA.proto";
 
 message TeamEnterSceneInfo {
-	AbilityControlBlock ability_control_block = 3;
-	AbilitySyncStateInfo team_ability_info = 5;
-	float FOMPMBNENPH = 6;
-	repeated IDAKPKNODGC JFAHOBMFLFE = 8;
-	ILFPMCGGMOA KAHECAKOMLD = 12;
-	uint32 team_entity_id = 13;
+	AbilityControlBlock ability_control_block = 5;
+	AbilitySyncStateInfo team_ability_info = 10;
+	float FOMPMBNENPH = 8;
+	repeated IDAKPKNODGC JFAHOBMFLFE = 11;
+	ILFPMCGGMOA KAHECAKOMLD = 2;
+	uint32 team_entity_id = 3;
 }

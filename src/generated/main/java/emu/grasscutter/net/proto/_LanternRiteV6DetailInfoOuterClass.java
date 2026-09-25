@@ -19,50 +19,50 @@ public final class _LanternRiteV6DetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 like_num = 1;</code>
+     * <code>uint32 like_num = 2;</code>
      * @return The likeNum.
      */
     int getLikeNum();
 
     /**
-     * <code>._LanternRiteV6DanmakuInfo _danmaku_info = 5;</code>
+     * <code>._LanternRiteV6DanmakuInfo _danmaku_info = 7;</code>
      * @return Whether the danmakuInfo field is set.
      */
     boolean hasDanmakuInfo();
     /**
-     * <code>._LanternRiteV6DanmakuInfo _danmaku_info = 5;</code>
+     * <code>._LanternRiteV6DanmakuInfo _danmaku_info = 7;</code>
      * @return The danmakuInfo.
      */
     emu.grasscutter.net.proto._LanternRiteV6DanmakuInfoOuterClass._LanternRiteV6DanmakuInfo getDanmakuInfo();
     /**
-     * <code>._LanternRiteV6DanmakuInfo _danmaku_info = 5;</code>
+     * <code>._LanternRiteV6DanmakuInfo _danmaku_info = 7;</code>
      */
     emu.grasscutter.net.proto._LanternRiteV6DanmakuInfoOuterClass._LanternRiteV6DanmakuInfoOrBuilder getDanmakuInfoOrBuilder();
 
     /**
-     * <code>uint32 JFKNEPBHALE = 9;</code>
+     * <code>uint32 JFKNEPBHALE = 10;</code>
      * @return The jFKNEPBHALE.
      */
     int getJFKNEPBHALE();
 
     /**
-     * <code>bool is_taken_costume_reward = 10;</code>
+     * <code>bool is_taken_costume_reward = 1;</code>
      * @return The isTakenCostumeReward.
      */
     boolean getIsTakenCostumeReward();
 
     /**
-     * <code>._LanternRiteV6CardInfo _card_info = 13;</code>
+     * <code>._LanternRiteV6CardInfo _card_info = 15;</code>
      * @return Whether the cardInfo field is set.
      */
     boolean hasCardInfo();
     /**
-     * <code>._LanternRiteV6CardInfo _card_info = 13;</code>
+     * <code>._LanternRiteV6CardInfo _card_info = 15;</code>
      * @return The cardInfo.
      */
     emu.grasscutter.net.proto._LanternRiteV6CardInfoOuterClass._LanternRiteV6CardInfo getCardInfo();
     /**
-     * <code>._LanternRiteV6CardInfo _card_info = 13;</code>
+     * <code>._LanternRiteV6CardInfo _card_info = 15;</code>
      */
     emu.grasscutter.net.proto._LanternRiteV6CardInfoOuterClass._LanternRiteV6CardInfoOrBuilder getCardInfoOrBuilder();
   }
@@ -113,10 +113,15 @@ public final class _LanternRiteV6DetailInfoOuterClass {
               break;
             case 8: {
 
+              isTakenCostumeReward_ = input.readBool();
+              break;
+            }
+            case 16: {
+
               likeNum_ = input.readUInt32();
               break;
             }
-            case 42: {
+            case 58: {
               emu.grasscutter.net.proto._LanternRiteV6DanmakuInfoOuterClass._LanternRiteV6DanmakuInfo.Builder subBuilder = null;
               if (DanmakuInfo_ != null) {
                 subBuilder = DanmakuInfo_.toBuilder();
@@ -129,17 +134,12 @@ public final class _LanternRiteV6DetailInfoOuterClass {
 
               break;
             }
-            case 72: {
+            case 80: {
 
               jFKNEPBHALE_ = input.readUInt32();
               break;
             }
-            case 80: {
-
-              isTakenCostumeReward_ = input.readBool();
-              break;
-            }
-            case 106: {
+            case 122: {
               emu.grasscutter.net.proto._LanternRiteV6CardInfoOuterClass._LanternRiteV6CardInfo.Builder subBuilder = null;
               if (CardInfo_ != null) {
                 subBuilder = CardInfo_.toBuilder();
@@ -184,10 +184,10 @@ public final class _LanternRiteV6DetailInfoOuterClass {
               emu.grasscutter.net.proto._LanternRiteV6DetailInfoOuterClass._LanternRiteV6DetailInfo.class, emu.grasscutter.net.proto._LanternRiteV6DetailInfoOuterClass._LanternRiteV6DetailInfo.Builder.class);
     }
 
-    public static final int LIKE_NUM_FIELD_NUMBER = 1;
+    public static final int LIKE_NUM_FIELD_NUMBER = 2;
     private int likeNum_;
     /**
-     * <code>uint32 like_num = 1;</code>
+     * <code>uint32 like_num = 2;</code>
      * @return The likeNum.
      */
     @java.lang.Override
@@ -195,10 +195,10 @@ public final class _LanternRiteV6DetailInfoOuterClass {
       return likeNum_;
     }
 
-    public static final int _DANMAKU_INFO_FIELD_NUMBER = 5;
+    public static final int _DANMAKU_INFO_FIELD_NUMBER = 7;
     private emu.grasscutter.net.proto._LanternRiteV6DanmakuInfoOuterClass._LanternRiteV6DanmakuInfo DanmakuInfo_;
     /**
-     * <code>._LanternRiteV6DanmakuInfo _danmaku_info = 5;</code>
+     * <code>._LanternRiteV6DanmakuInfo _danmaku_info = 7;</code>
      * @return Whether the danmakuInfo field is set.
      */
     @java.lang.Override
@@ -206,7 +206,7 @@ public final class _LanternRiteV6DetailInfoOuterClass {
       return DanmakuInfo_ != null;
     }
     /**
-     * <code>._LanternRiteV6DanmakuInfo _danmaku_info = 5;</code>
+     * <code>._LanternRiteV6DanmakuInfo _danmaku_info = 7;</code>
      * @return The danmakuInfo.
      */
     @java.lang.Override
@@ -214,17 +214,17 @@ public final class _LanternRiteV6DetailInfoOuterClass {
       return DanmakuInfo_ == null ? emu.grasscutter.net.proto._LanternRiteV6DanmakuInfoOuterClass._LanternRiteV6DanmakuInfo.getDefaultInstance() : DanmakuInfo_;
     }
     /**
-     * <code>._LanternRiteV6DanmakuInfo _danmaku_info = 5;</code>
+     * <code>._LanternRiteV6DanmakuInfo _danmaku_info = 7;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._LanternRiteV6DanmakuInfoOuterClass._LanternRiteV6DanmakuInfoOrBuilder getDanmakuInfoOrBuilder() {
       return getDanmakuInfo();
     }
 
-    public static final int JFKNEPBHALE_FIELD_NUMBER = 9;
+    public static final int JFKNEPBHALE_FIELD_NUMBER = 10;
     private int jFKNEPBHALE_;
     /**
-     * <code>uint32 JFKNEPBHALE = 9;</code>
+     * <code>uint32 JFKNEPBHALE = 10;</code>
      * @return The jFKNEPBHALE.
      */
     @java.lang.Override
@@ -232,10 +232,10 @@ public final class _LanternRiteV6DetailInfoOuterClass {
       return jFKNEPBHALE_;
     }
 
-    public static final int IS_TAKEN_COSTUME_REWARD_FIELD_NUMBER = 10;
+    public static final int IS_TAKEN_COSTUME_REWARD_FIELD_NUMBER = 1;
     private boolean isTakenCostumeReward_;
     /**
-     * <code>bool is_taken_costume_reward = 10;</code>
+     * <code>bool is_taken_costume_reward = 1;</code>
      * @return The isTakenCostumeReward.
      */
     @java.lang.Override
@@ -243,10 +243,10 @@ public final class _LanternRiteV6DetailInfoOuterClass {
       return isTakenCostumeReward_;
     }
 
-    public static final int _CARD_INFO_FIELD_NUMBER = 13;
+    public static final int _CARD_INFO_FIELD_NUMBER = 15;
     private emu.grasscutter.net.proto._LanternRiteV6CardInfoOuterClass._LanternRiteV6CardInfo CardInfo_;
     /**
-     * <code>._LanternRiteV6CardInfo _card_info = 13;</code>
+     * <code>._LanternRiteV6CardInfo _card_info = 15;</code>
      * @return Whether the cardInfo field is set.
      */
     @java.lang.Override
@@ -254,7 +254,7 @@ public final class _LanternRiteV6DetailInfoOuterClass {
       return CardInfo_ != null;
     }
     /**
-     * <code>._LanternRiteV6CardInfo _card_info = 13;</code>
+     * <code>._LanternRiteV6CardInfo _card_info = 15;</code>
      * @return The cardInfo.
      */
     @java.lang.Override
@@ -262,7 +262,7 @@ public final class _LanternRiteV6DetailInfoOuterClass {
       return CardInfo_ == null ? emu.grasscutter.net.proto._LanternRiteV6CardInfoOuterClass._LanternRiteV6CardInfo.getDefaultInstance() : CardInfo_;
     }
     /**
-     * <code>._LanternRiteV6CardInfo _card_info = 13;</code>
+     * <code>._LanternRiteV6CardInfo _card_info = 15;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._LanternRiteV6CardInfoOuterClass._LanternRiteV6CardInfoOrBuilder getCardInfoOrBuilder() {
@@ -283,20 +283,20 @@ public final class _LanternRiteV6DetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (isTakenCostumeReward_ != false) {
+        output.writeBool(1, isTakenCostumeReward_);
+      }
       if (likeNum_ != 0) {
-        output.writeUInt32(1, likeNum_);
+        output.writeUInt32(2, likeNum_);
       }
       if (DanmakuInfo_ != null) {
-        output.writeMessage(5, getDanmakuInfo());
+        output.writeMessage(7, getDanmakuInfo());
       }
       if (jFKNEPBHALE_ != 0) {
-        output.writeUInt32(9, jFKNEPBHALE_);
-      }
-      if (isTakenCostumeReward_ != false) {
-        output.writeBool(10, isTakenCostumeReward_);
+        output.writeUInt32(10, jFKNEPBHALE_);
       }
       if (CardInfo_ != null) {
-        output.writeMessage(13, getCardInfo());
+        output.writeMessage(15, getCardInfo());
       }
       unknownFields.writeTo(output);
     }
@@ -307,25 +307,25 @@ public final class _LanternRiteV6DetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (isTakenCostumeReward_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1, isTakenCostumeReward_);
+      }
       if (likeNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, likeNum_);
+          .computeUInt32Size(2, likeNum_);
       }
       if (DanmakuInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, getDanmakuInfo());
+          .computeMessageSize(7, getDanmakuInfo());
       }
       if (jFKNEPBHALE_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, jFKNEPBHALE_);
-      }
-      if (isTakenCostumeReward_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(10, isTakenCostumeReward_);
+          .computeUInt32Size(10, jFKNEPBHALE_);
       }
       if (CardInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, getCardInfo());
+          .computeMessageSize(15, getCardInfo());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -668,7 +668,7 @@ public final class _LanternRiteV6DetailInfoOuterClass {
 
       private int likeNum_ ;
       /**
-       * <code>uint32 like_num = 1;</code>
+       * <code>uint32 like_num = 2;</code>
        * @return The likeNum.
        */
       @java.lang.Override
@@ -676,7 +676,7 @@ public final class _LanternRiteV6DetailInfoOuterClass {
         return likeNum_;
       }
       /**
-       * <code>uint32 like_num = 1;</code>
+       * <code>uint32 like_num = 2;</code>
        * @param value The likeNum to set.
        * @return This builder for chaining.
        */
@@ -687,7 +687,7 @@ public final class _LanternRiteV6DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 like_num = 1;</code>
+       * <code>uint32 like_num = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearLikeNum() {
@@ -701,14 +701,14 @@ public final class _LanternRiteV6DetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._LanternRiteV6DanmakuInfoOuterClass._LanternRiteV6DanmakuInfo, emu.grasscutter.net.proto._LanternRiteV6DanmakuInfoOuterClass._LanternRiteV6DanmakuInfo.Builder, emu.grasscutter.net.proto._LanternRiteV6DanmakuInfoOuterClass._LanternRiteV6DanmakuInfoOrBuilder> DanmakuInfoBuilder_;
       /**
-       * <code>._LanternRiteV6DanmakuInfo _danmaku_info = 5;</code>
+       * <code>._LanternRiteV6DanmakuInfo _danmaku_info = 7;</code>
        * @return Whether the danmakuInfo field is set.
        */
       public boolean hasDanmakuInfo() {
         return DanmakuInfoBuilder_ != null || DanmakuInfo_ != null;
       }
       /**
-       * <code>._LanternRiteV6DanmakuInfo _danmaku_info = 5;</code>
+       * <code>._LanternRiteV6DanmakuInfo _danmaku_info = 7;</code>
        * @return The danmakuInfo.
        */
       public emu.grasscutter.net.proto._LanternRiteV6DanmakuInfoOuterClass._LanternRiteV6DanmakuInfo getDanmakuInfo() {
@@ -719,7 +719,7 @@ public final class _LanternRiteV6DetailInfoOuterClass {
         }
       }
       /**
-       * <code>._LanternRiteV6DanmakuInfo _danmaku_info = 5;</code>
+       * <code>._LanternRiteV6DanmakuInfo _danmaku_info = 7;</code>
        */
       public Builder setDanmakuInfo(emu.grasscutter.net.proto._LanternRiteV6DanmakuInfoOuterClass._LanternRiteV6DanmakuInfo value) {
         if (DanmakuInfoBuilder_ == null) {
@@ -735,7 +735,7 @@ public final class _LanternRiteV6DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>._LanternRiteV6DanmakuInfo _danmaku_info = 5;</code>
+       * <code>._LanternRiteV6DanmakuInfo _danmaku_info = 7;</code>
        */
       public Builder setDanmakuInfo(
           emu.grasscutter.net.proto._LanternRiteV6DanmakuInfoOuterClass._LanternRiteV6DanmakuInfo.Builder builderForValue) {
@@ -749,7 +749,7 @@ public final class _LanternRiteV6DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>._LanternRiteV6DanmakuInfo _danmaku_info = 5;</code>
+       * <code>._LanternRiteV6DanmakuInfo _danmaku_info = 7;</code>
        */
       public Builder mergeDanmakuInfo(emu.grasscutter.net.proto._LanternRiteV6DanmakuInfoOuterClass._LanternRiteV6DanmakuInfo value) {
         if (DanmakuInfoBuilder_ == null) {
@@ -767,7 +767,7 @@ public final class _LanternRiteV6DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>._LanternRiteV6DanmakuInfo _danmaku_info = 5;</code>
+       * <code>._LanternRiteV6DanmakuInfo _danmaku_info = 7;</code>
        */
       public Builder clearDanmakuInfo() {
         if (DanmakuInfoBuilder_ == null) {
@@ -781,7 +781,7 @@ public final class _LanternRiteV6DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>._LanternRiteV6DanmakuInfo _danmaku_info = 5;</code>
+       * <code>._LanternRiteV6DanmakuInfo _danmaku_info = 7;</code>
        */
       public emu.grasscutter.net.proto._LanternRiteV6DanmakuInfoOuterClass._LanternRiteV6DanmakuInfo.Builder getDanmakuInfoBuilder() {
         
@@ -789,7 +789,7 @@ public final class _LanternRiteV6DetailInfoOuterClass {
         return getDanmakuInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>._LanternRiteV6DanmakuInfo _danmaku_info = 5;</code>
+       * <code>._LanternRiteV6DanmakuInfo _danmaku_info = 7;</code>
        */
       public emu.grasscutter.net.proto._LanternRiteV6DanmakuInfoOuterClass._LanternRiteV6DanmakuInfoOrBuilder getDanmakuInfoOrBuilder() {
         if (DanmakuInfoBuilder_ != null) {
@@ -800,7 +800,7 @@ public final class _LanternRiteV6DetailInfoOuterClass {
         }
       }
       /**
-       * <code>._LanternRiteV6DanmakuInfo _danmaku_info = 5;</code>
+       * <code>._LanternRiteV6DanmakuInfo _danmaku_info = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._LanternRiteV6DanmakuInfoOuterClass._LanternRiteV6DanmakuInfo, emu.grasscutter.net.proto._LanternRiteV6DanmakuInfoOuterClass._LanternRiteV6DanmakuInfo.Builder, emu.grasscutter.net.proto._LanternRiteV6DanmakuInfoOuterClass._LanternRiteV6DanmakuInfoOrBuilder> 
@@ -818,7 +818,7 @@ public final class _LanternRiteV6DetailInfoOuterClass {
 
       private int jFKNEPBHALE_ ;
       /**
-       * <code>uint32 JFKNEPBHALE = 9;</code>
+       * <code>uint32 JFKNEPBHALE = 10;</code>
        * @return The jFKNEPBHALE.
        */
       @java.lang.Override
@@ -826,7 +826,7 @@ public final class _LanternRiteV6DetailInfoOuterClass {
         return jFKNEPBHALE_;
       }
       /**
-       * <code>uint32 JFKNEPBHALE = 9;</code>
+       * <code>uint32 JFKNEPBHALE = 10;</code>
        * @param value The jFKNEPBHALE to set.
        * @return This builder for chaining.
        */
@@ -837,7 +837,7 @@ public final class _LanternRiteV6DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 JFKNEPBHALE = 9;</code>
+       * <code>uint32 JFKNEPBHALE = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearJFKNEPBHALE() {
@@ -849,7 +849,7 @@ public final class _LanternRiteV6DetailInfoOuterClass {
 
       private boolean isTakenCostumeReward_ ;
       /**
-       * <code>bool is_taken_costume_reward = 10;</code>
+       * <code>bool is_taken_costume_reward = 1;</code>
        * @return The isTakenCostumeReward.
        */
       @java.lang.Override
@@ -857,7 +857,7 @@ public final class _LanternRiteV6DetailInfoOuterClass {
         return isTakenCostumeReward_;
       }
       /**
-       * <code>bool is_taken_costume_reward = 10;</code>
+       * <code>bool is_taken_costume_reward = 1;</code>
        * @param value The isTakenCostumeReward to set.
        * @return This builder for chaining.
        */
@@ -868,7 +868,7 @@ public final class _LanternRiteV6DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_taken_costume_reward = 10;</code>
+       * <code>bool is_taken_costume_reward = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsTakenCostumeReward() {
@@ -882,14 +882,14 @@ public final class _LanternRiteV6DetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._LanternRiteV6CardInfoOuterClass._LanternRiteV6CardInfo, emu.grasscutter.net.proto._LanternRiteV6CardInfoOuterClass._LanternRiteV6CardInfo.Builder, emu.grasscutter.net.proto._LanternRiteV6CardInfoOuterClass._LanternRiteV6CardInfoOrBuilder> CardInfoBuilder_;
       /**
-       * <code>._LanternRiteV6CardInfo _card_info = 13;</code>
+       * <code>._LanternRiteV6CardInfo _card_info = 15;</code>
        * @return Whether the cardInfo field is set.
        */
       public boolean hasCardInfo() {
         return CardInfoBuilder_ != null || CardInfo_ != null;
       }
       /**
-       * <code>._LanternRiteV6CardInfo _card_info = 13;</code>
+       * <code>._LanternRiteV6CardInfo _card_info = 15;</code>
        * @return The cardInfo.
        */
       public emu.grasscutter.net.proto._LanternRiteV6CardInfoOuterClass._LanternRiteV6CardInfo getCardInfo() {
@@ -900,7 +900,7 @@ public final class _LanternRiteV6DetailInfoOuterClass {
         }
       }
       /**
-       * <code>._LanternRiteV6CardInfo _card_info = 13;</code>
+       * <code>._LanternRiteV6CardInfo _card_info = 15;</code>
        */
       public Builder setCardInfo(emu.grasscutter.net.proto._LanternRiteV6CardInfoOuterClass._LanternRiteV6CardInfo value) {
         if (CardInfoBuilder_ == null) {
@@ -916,7 +916,7 @@ public final class _LanternRiteV6DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>._LanternRiteV6CardInfo _card_info = 13;</code>
+       * <code>._LanternRiteV6CardInfo _card_info = 15;</code>
        */
       public Builder setCardInfo(
           emu.grasscutter.net.proto._LanternRiteV6CardInfoOuterClass._LanternRiteV6CardInfo.Builder builderForValue) {
@@ -930,7 +930,7 @@ public final class _LanternRiteV6DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>._LanternRiteV6CardInfo _card_info = 13;</code>
+       * <code>._LanternRiteV6CardInfo _card_info = 15;</code>
        */
       public Builder mergeCardInfo(emu.grasscutter.net.proto._LanternRiteV6CardInfoOuterClass._LanternRiteV6CardInfo value) {
         if (CardInfoBuilder_ == null) {
@@ -948,7 +948,7 @@ public final class _LanternRiteV6DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>._LanternRiteV6CardInfo _card_info = 13;</code>
+       * <code>._LanternRiteV6CardInfo _card_info = 15;</code>
        */
       public Builder clearCardInfo() {
         if (CardInfoBuilder_ == null) {
@@ -962,7 +962,7 @@ public final class _LanternRiteV6DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>._LanternRiteV6CardInfo _card_info = 13;</code>
+       * <code>._LanternRiteV6CardInfo _card_info = 15;</code>
        */
       public emu.grasscutter.net.proto._LanternRiteV6CardInfoOuterClass._LanternRiteV6CardInfo.Builder getCardInfoBuilder() {
         
@@ -970,7 +970,7 @@ public final class _LanternRiteV6DetailInfoOuterClass {
         return getCardInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>._LanternRiteV6CardInfo _card_info = 13;</code>
+       * <code>._LanternRiteV6CardInfo _card_info = 15;</code>
        */
       public emu.grasscutter.net.proto._LanternRiteV6CardInfoOuterClass._LanternRiteV6CardInfoOrBuilder getCardInfoOrBuilder() {
         if (CardInfoBuilder_ != null) {
@@ -981,7 +981,7 @@ public final class _LanternRiteV6DetailInfoOuterClass {
         }
       }
       /**
-       * <code>._LanternRiteV6CardInfo _card_info = 13;</code>
+       * <code>._LanternRiteV6CardInfo _card_info = 15;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._LanternRiteV6CardInfoOuterClass._LanternRiteV6CardInfo, emu.grasscutter.net.proto._LanternRiteV6CardInfoOuterClass._LanternRiteV6CardInfo.Builder, emu.grasscutter.net.proto._LanternRiteV6CardInfoOuterClass._LanternRiteV6CardInfoOrBuilder> 
@@ -1066,10 +1066,10 @@ public final class _LanternRiteV6DetailInfoOuterClass {
       "\n\036_LanternRiteV6DetailInfo.proto\032\034_Lante" +
       "rnRiteV6CardInfo.proto\032\037_LanternRiteV6Da" +
       "nmakuInfo.proto\"\302\001\n\030_LanternRiteV6Detail" +
-      "Info\022\020\n\010like_num\030\001 \001(\r\0221\n\r_danmaku_info\030" +
-      "\005 \001(\0132\032._LanternRiteV6DanmakuInfo\022\023\n\013JFK" +
-      "NEPBHALE\030\t \001(\r\022\037\n\027is_taken_costume_rewar" +
-      "d\030\n \001(\010\022+\n\n_card_info\030\r \001(\0132\027._LanternRi" +
+      "Info\022\020\n\010like_num\030\002 \001(\r\0221\n\r_danmaku_info\030" +
+      "\007 \001(\0132\032._LanternRiteV6DanmakuInfo\022\023\n\013JFK" +
+      "NEPBHALE\030\n \001(\r\022\037\n\027is_taken_costume_rewar" +
+      "d\030\001 \001(\010\022+\n\n_card_info\030\017 \001(\0132\027._LanternRi" +
       "teV6CardInfoB?\n\031emu.grasscutter.net.prot" +
       "oB\"_LanternRiteV6DetailInfoOuterClassb\006p" +
       "roto3"

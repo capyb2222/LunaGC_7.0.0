@@ -34,37 +34,37 @@ public final class _TreasureKeyMarkPointOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getMarkPosOrBuilder();
 
     /**
-     * <code>uint32 _mark_scene_id = 7;</code>
+     * <code>uint32 _mark_scene_id = 3;</code>
      * @return The markSceneId.
      */
     int getMarkSceneId();
 
     /**
-     * <code>uint32 group_id = 8;</code>
+     * <code>uint32 group_id = 4;</code>
      * @return The groupId.
      */
     int getGroupId();
 
     /**
-     * <code>uint32 _mark_map_layer_id = 9;</code>
+     * <code>uint32 _mark_map_layer_id = 8;</code>
      * @return The markMapLayerId.
      */
     int getMarkMapLayerId();
 
     /**
-     * <code>uint32 material_id = 11;</code>
+     * <code>uint32 material_id = 9;</code>
      * @return The materialId.
      */
     int getMaterialId();
 
     /**
-     * <code>uint32 config_id = 14;</code>
+     * <code>uint32 config_id = 13;</code>
      * @return The configId.
      */
     int getConfigId();
 
     /**
-     * <code>bool is_active = 15;</code>
+     * <code>bool is_active = 6;</code>
      * @return The isActive.
      */
     boolean getIsActive();
@@ -127,34 +127,34 @@ public final class _TreasureKeyMarkPointOuterClass {
 
               break;
             }
-            case 56: {
+            case 24: {
 
               MarkSceneId_ = input.readUInt32();
               break;
             }
-            case 64: {
+            case 32: {
 
               groupId_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 48: {
+
+              isActive_ = input.readBool();
+              break;
+            }
+            case 64: {
 
               MarkMapLayerId_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 72: {
 
               materialId_ = input.readUInt32();
               break;
             }
-            case 112: {
+            case 104: {
 
               configId_ = input.readUInt32();
-              break;
-            }
-            case 120: {
-
-              isActive_ = input.readBool();
               break;
             }
             default: {
@@ -215,10 +215,10 @@ public final class _TreasureKeyMarkPointOuterClass {
       return getMarkPos();
     }
 
-    public static final int _MARK_SCENE_ID_FIELD_NUMBER = 7;
+    public static final int _MARK_SCENE_ID_FIELD_NUMBER = 3;
     private int MarkSceneId_;
     /**
-     * <code>uint32 _mark_scene_id = 7;</code>
+     * <code>uint32 _mark_scene_id = 3;</code>
      * @return The markSceneId.
      */
     @java.lang.Override
@@ -226,10 +226,10 @@ public final class _TreasureKeyMarkPointOuterClass {
       return MarkSceneId_;
     }
 
-    public static final int GROUP_ID_FIELD_NUMBER = 8;
+    public static final int GROUP_ID_FIELD_NUMBER = 4;
     private int groupId_;
     /**
-     * <code>uint32 group_id = 8;</code>
+     * <code>uint32 group_id = 4;</code>
      * @return The groupId.
      */
     @java.lang.Override
@@ -237,10 +237,10 @@ public final class _TreasureKeyMarkPointOuterClass {
       return groupId_;
     }
 
-    public static final int _MARK_MAP_LAYER_ID_FIELD_NUMBER = 9;
+    public static final int _MARK_MAP_LAYER_ID_FIELD_NUMBER = 8;
     private int MarkMapLayerId_;
     /**
-     * <code>uint32 _mark_map_layer_id = 9;</code>
+     * <code>uint32 _mark_map_layer_id = 8;</code>
      * @return The markMapLayerId.
      */
     @java.lang.Override
@@ -248,10 +248,10 @@ public final class _TreasureKeyMarkPointOuterClass {
       return MarkMapLayerId_;
     }
 
-    public static final int MATERIAL_ID_FIELD_NUMBER = 11;
+    public static final int MATERIAL_ID_FIELD_NUMBER = 9;
     private int materialId_;
     /**
-     * <code>uint32 material_id = 11;</code>
+     * <code>uint32 material_id = 9;</code>
      * @return The materialId.
      */
     @java.lang.Override
@@ -259,10 +259,10 @@ public final class _TreasureKeyMarkPointOuterClass {
       return materialId_;
     }
 
-    public static final int CONFIG_ID_FIELD_NUMBER = 14;
+    public static final int CONFIG_ID_FIELD_NUMBER = 13;
     private int configId_;
     /**
-     * <code>uint32 config_id = 14;</code>
+     * <code>uint32 config_id = 13;</code>
      * @return The configId.
      */
     @java.lang.Override
@@ -270,10 +270,10 @@ public final class _TreasureKeyMarkPointOuterClass {
       return configId_;
     }
 
-    public static final int IS_ACTIVE_FIELD_NUMBER = 15;
+    public static final int IS_ACTIVE_FIELD_NUMBER = 6;
     private boolean isActive_;
     /**
-     * <code>bool is_active = 15;</code>
+     * <code>bool is_active = 6;</code>
      * @return The isActive.
      */
     @java.lang.Override
@@ -299,22 +299,22 @@ public final class _TreasureKeyMarkPointOuterClass {
         output.writeMessage(1, getMarkPos());
       }
       if (MarkSceneId_ != 0) {
-        output.writeUInt32(7, MarkSceneId_);
+        output.writeUInt32(3, MarkSceneId_);
       }
       if (groupId_ != 0) {
-        output.writeUInt32(8, groupId_);
-      }
-      if (MarkMapLayerId_ != 0) {
-        output.writeUInt32(9, MarkMapLayerId_);
-      }
-      if (materialId_ != 0) {
-        output.writeUInt32(11, materialId_);
-      }
-      if (configId_ != 0) {
-        output.writeUInt32(14, configId_);
+        output.writeUInt32(4, groupId_);
       }
       if (isActive_ != false) {
-        output.writeBool(15, isActive_);
+        output.writeBool(6, isActive_);
+      }
+      if (MarkMapLayerId_ != 0) {
+        output.writeUInt32(8, MarkMapLayerId_);
+      }
+      if (materialId_ != 0) {
+        output.writeUInt32(9, materialId_);
+      }
+      if (configId_ != 0) {
+        output.writeUInt32(13, configId_);
       }
       unknownFields.writeTo(output);
     }
@@ -331,27 +331,27 @@ public final class _TreasureKeyMarkPointOuterClass {
       }
       if (MarkSceneId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, MarkSceneId_);
+          .computeUInt32Size(3, MarkSceneId_);
       }
       if (groupId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, groupId_);
-      }
-      if (MarkMapLayerId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, MarkMapLayerId_);
-      }
-      if (materialId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, materialId_);
-      }
-      if (configId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, configId_);
+          .computeUInt32Size(4, groupId_);
       }
       if (isActive_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(15, isActive_);
+          .computeBoolSize(6, isActive_);
+      }
+      if (MarkMapLayerId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(8, MarkMapLayerId_);
+      }
+      if (materialId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(9, materialId_);
+      }
+      if (configId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(13, configId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -820,7 +820,7 @@ public final class _TreasureKeyMarkPointOuterClass {
 
       private int MarkSceneId_ ;
       /**
-       * <code>uint32 _mark_scene_id = 7;</code>
+       * <code>uint32 _mark_scene_id = 3;</code>
        * @return The markSceneId.
        */
       @java.lang.Override
@@ -828,7 +828,7 @@ public final class _TreasureKeyMarkPointOuterClass {
         return MarkSceneId_;
       }
       /**
-       * <code>uint32 _mark_scene_id = 7;</code>
+       * <code>uint32 _mark_scene_id = 3;</code>
        * @param value The markSceneId to set.
        * @return This builder for chaining.
        */
@@ -839,7 +839,7 @@ public final class _TreasureKeyMarkPointOuterClass {
         return this;
       }
       /**
-       * <code>uint32 _mark_scene_id = 7;</code>
+       * <code>uint32 _mark_scene_id = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearMarkSceneId() {
@@ -851,7 +851,7 @@ public final class _TreasureKeyMarkPointOuterClass {
 
       private int groupId_ ;
       /**
-       * <code>uint32 group_id = 8;</code>
+       * <code>uint32 group_id = 4;</code>
        * @return The groupId.
        */
       @java.lang.Override
@@ -859,7 +859,7 @@ public final class _TreasureKeyMarkPointOuterClass {
         return groupId_;
       }
       /**
-       * <code>uint32 group_id = 8;</code>
+       * <code>uint32 group_id = 4;</code>
        * @param value The groupId to set.
        * @return This builder for chaining.
        */
@@ -870,7 +870,7 @@ public final class _TreasureKeyMarkPointOuterClass {
         return this;
       }
       /**
-       * <code>uint32 group_id = 8;</code>
+       * <code>uint32 group_id = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearGroupId() {
@@ -882,7 +882,7 @@ public final class _TreasureKeyMarkPointOuterClass {
 
       private int MarkMapLayerId_ ;
       /**
-       * <code>uint32 _mark_map_layer_id = 9;</code>
+       * <code>uint32 _mark_map_layer_id = 8;</code>
        * @return The markMapLayerId.
        */
       @java.lang.Override
@@ -890,7 +890,7 @@ public final class _TreasureKeyMarkPointOuterClass {
         return MarkMapLayerId_;
       }
       /**
-       * <code>uint32 _mark_map_layer_id = 9;</code>
+       * <code>uint32 _mark_map_layer_id = 8;</code>
        * @param value The markMapLayerId to set.
        * @return This builder for chaining.
        */
@@ -901,7 +901,7 @@ public final class _TreasureKeyMarkPointOuterClass {
         return this;
       }
       /**
-       * <code>uint32 _mark_map_layer_id = 9;</code>
+       * <code>uint32 _mark_map_layer_id = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearMarkMapLayerId() {
@@ -913,7 +913,7 @@ public final class _TreasureKeyMarkPointOuterClass {
 
       private int materialId_ ;
       /**
-       * <code>uint32 material_id = 11;</code>
+       * <code>uint32 material_id = 9;</code>
        * @return The materialId.
        */
       @java.lang.Override
@@ -921,7 +921,7 @@ public final class _TreasureKeyMarkPointOuterClass {
         return materialId_;
       }
       /**
-       * <code>uint32 material_id = 11;</code>
+       * <code>uint32 material_id = 9;</code>
        * @param value The materialId to set.
        * @return This builder for chaining.
        */
@@ -932,7 +932,7 @@ public final class _TreasureKeyMarkPointOuterClass {
         return this;
       }
       /**
-       * <code>uint32 material_id = 11;</code>
+       * <code>uint32 material_id = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearMaterialId() {
@@ -944,7 +944,7 @@ public final class _TreasureKeyMarkPointOuterClass {
 
       private int configId_ ;
       /**
-       * <code>uint32 config_id = 14;</code>
+       * <code>uint32 config_id = 13;</code>
        * @return The configId.
        */
       @java.lang.Override
@@ -952,7 +952,7 @@ public final class _TreasureKeyMarkPointOuterClass {
         return configId_;
       }
       /**
-       * <code>uint32 config_id = 14;</code>
+       * <code>uint32 config_id = 13;</code>
        * @param value The configId to set.
        * @return This builder for chaining.
        */
@@ -963,7 +963,7 @@ public final class _TreasureKeyMarkPointOuterClass {
         return this;
       }
       /**
-       * <code>uint32 config_id = 14;</code>
+       * <code>uint32 config_id = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearConfigId() {
@@ -975,7 +975,7 @@ public final class _TreasureKeyMarkPointOuterClass {
 
       private boolean isActive_ ;
       /**
-       * <code>bool is_active = 15;</code>
+       * <code>bool is_active = 6;</code>
        * @return The isActive.
        */
       @java.lang.Override
@@ -983,7 +983,7 @@ public final class _TreasureKeyMarkPointOuterClass {
         return isActive_;
       }
       /**
-       * <code>bool is_active = 15;</code>
+       * <code>bool is_active = 6;</code>
        * @param value The isActive to set.
        * @return This builder for chaining.
        */
@@ -994,7 +994,7 @@ public final class _TreasureKeyMarkPointOuterClass {
         return this;
       }
       /**
-       * <code>bool is_active = 15;</code>
+       * <code>bool is_active = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsActive() {
@@ -1072,10 +1072,10 @@ public final class _TreasureKeyMarkPointOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033_TreasureKeyMarkPoint.proto\032\014Vector.pr" +
       "oto\"\264\001\n\025_TreasureKeyMarkPoint\022\032\n\t_mark_p" +
-      "os\030\001 \001(\0132\007.Vector\022\026\n\016_mark_scene_id\030\007 \001(" +
-      "\r\022\020\n\010group_id\030\010 \001(\r\022\032\n\022_mark_map_layer_i" +
-      "d\030\t \001(\r\022\023\n\013material_id\030\013 \001(\r\022\021\n\tconfig_i" +
-      "d\030\016 \001(\r\022\021\n\tis_active\030\017 \001(\010B<\n\031emu.grassc" +
+      "os\030\001 \001(\0132\007.Vector\022\026\n\016_mark_scene_id\030\003 \001(" +
+      "\r\022\020\n\010group_id\030\004 \001(\r\022\032\n\022_mark_map_layer_i" +
+      "d\030\010 \001(\r\022\023\n\013material_id\030\t \001(\r\022\021\n\tconfig_i" +
+      "d\030\r \001(\r\022\021\n\tis_active\030\006 \001(\010B<\n\031emu.grassc" +
       "utter.net.protoB\037_TreasureKeyMarkPointOu" +
       "terClassb\006proto3"
     };

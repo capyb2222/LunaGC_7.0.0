@@ -19,66 +19,66 @@ public final class IEDPGJDEMAJOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 AGILCKGHLME = 3;</code>
+     * <code>repeated uint32 AGILCKGHLME = 13;</code>
      * @return A list containing the aGILCKGHLME.
      */
     java.util.List<java.lang.Integer> getAGILCKGHLMEList();
     /**
-     * <code>repeated uint32 AGILCKGHLME = 3;</code>
+     * <code>repeated uint32 AGILCKGHLME = 13;</code>
      * @return The count of aGILCKGHLME.
      */
     int getAGILCKGHLMECount();
     /**
-     * <code>repeated uint32 AGILCKGHLME = 3;</code>
+     * <code>repeated uint32 AGILCKGHLME = 13;</code>
      * @param index The index of the element to return.
      * @return The aGILCKGHLME at the given index.
      */
     int getAGILCKGHLME(int index);
 
     /**
-     * <code>bool is_open = 5;</code>
+     * <code>bool is_open = 7;</code>
      * @return The isOpen.
      */
     boolean getIsOpen();
 
     /**
-     * <code>bool is_finish = 10;</code>
+     * <code>bool is_finish = 9;</code>
      * @return The isFinish.
      */
     boolean getIsFinish();
 
     /**
-     * <code>uint32 level_id = 12;</code>
+     * <code>uint32 level_id = 2;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>uint32 max_score = 13;</code>
+     * <code>uint32 max_score = 4;</code>
      * @return The maxScore.
      */
     int getMaxScore();
 
     /**
-     * <code>repeated ._ActivityAvatarInfo avatar_list = 14;</code>
+     * <code>repeated ._ActivityAvatarInfo avatar_list = 12;</code>
      */
     java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> 
         getAvatarListList();
     /**
-     * <code>repeated ._ActivityAvatarInfo avatar_list = 14;</code>
+     * <code>repeated ._ActivityAvatarInfo avatar_list = 12;</code>
      */
     emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo getAvatarList(int index);
     /**
-     * <code>repeated ._ActivityAvatarInfo avatar_list = 14;</code>
+     * <code>repeated ._ActivityAvatarInfo avatar_list = 12;</code>
      */
     int getAvatarListCount();
     /**
-     * <code>repeated ._ActivityAvatarInfo avatar_list = 14;</code>
+     * <code>repeated ._ActivityAvatarInfo avatar_list = 12;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder> 
         getAvatarListOrBuilderList();
     /**
-     * <code>repeated ._ActivityAvatarInfo avatar_list = 14;</code>
+     * <code>repeated ._ActivityAvatarInfo avatar_list = 12;</code>
      */
     emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder getAvatarListOrBuilder(
         int index);
@@ -131,7 +131,36 @@ public final class IEDPGJDEMAJOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 16: {
+
+              levelId_ = input.readUInt32();
+              break;
+            }
+            case 32: {
+
+              maxScore_ = input.readUInt32();
+              break;
+            }
+            case 56: {
+
+              isOpen_ = input.readBool();
+              break;
+            }
+            case 72: {
+
+              isFinish_ = input.readBool();
+              break;
+            }
+            case 98: {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                avatarList_ = new java.util.ArrayList<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo>();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              avatarList_.add(
+                  input.readMessage(emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.parser(), extensionRegistry));
+              break;
+            }
+            case 104: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 aGILCKGHLME_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -139,7 +168,7 @@ public final class IEDPGJDEMAJOuterClass {
               aGILCKGHLME_.addInt(input.readUInt32());
               break;
             }
-            case 26: {
+            case 106: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -150,35 +179,6 @@ public final class IEDPGJDEMAJOuterClass {
                 aGILCKGHLME_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
-              break;
-            }
-            case 40: {
-
-              isOpen_ = input.readBool();
-              break;
-            }
-            case 80: {
-
-              isFinish_ = input.readBool();
-              break;
-            }
-            case 96: {
-
-              levelId_ = input.readUInt32();
-              break;
-            }
-            case 104: {
-
-              maxScore_ = input.readUInt32();
-              break;
-            }
-            case 114: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                avatarList_ = new java.util.ArrayList<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo>();
-                mutable_bitField0_ |= 0x00000002;
-              }
-              avatarList_.add(
-                  input.readMessage(emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -196,11 +196,11 @@ public final class IEDPGJDEMAJOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          aGILCKGHLME_.makeImmutable(); // C
-        }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
           avatarList_ = java.util.Collections.unmodifiableList(avatarList_);
+        }
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          aGILCKGHLME_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -219,10 +219,10 @@ public final class IEDPGJDEMAJOuterClass {
               emu.grasscutter.net.proto.IEDPGJDEMAJOuterClass.IEDPGJDEMAJ.class, emu.grasscutter.net.proto.IEDPGJDEMAJOuterClass.IEDPGJDEMAJ.Builder.class);
     }
 
-    public static final int AGILCKGHLME_FIELD_NUMBER = 3;
+    public static final int AGILCKGHLME_FIELD_NUMBER = 13;
     private com.google.protobuf.Internal.IntList aGILCKGHLME_;
     /**
-     * <code>repeated uint32 AGILCKGHLME = 3;</code>
+     * <code>repeated uint32 AGILCKGHLME = 13;</code>
      * @return A list containing the aGILCKGHLME.
      */
     @java.lang.Override
@@ -231,14 +231,14 @@ public final class IEDPGJDEMAJOuterClass {
       return aGILCKGHLME_;
     }
     /**
-     * <code>repeated uint32 AGILCKGHLME = 3;</code>
+     * <code>repeated uint32 AGILCKGHLME = 13;</code>
      * @return The count of aGILCKGHLME.
      */
     public int getAGILCKGHLMECount() {
       return aGILCKGHLME_.size();
     }
     /**
-     * <code>repeated uint32 AGILCKGHLME = 3;</code>
+     * <code>repeated uint32 AGILCKGHLME = 13;</code>
      * @param index The index of the element to return.
      * @return The aGILCKGHLME at the given index.
      */
@@ -247,10 +247,10 @@ public final class IEDPGJDEMAJOuterClass {
     }
     private int aGILCKGHLMEMemoizedSerializedSize = -1;
 
-    public static final int IS_OPEN_FIELD_NUMBER = 5;
+    public static final int IS_OPEN_FIELD_NUMBER = 7;
     private boolean isOpen_;
     /**
-     * <code>bool is_open = 5;</code>
+     * <code>bool is_open = 7;</code>
      * @return The isOpen.
      */
     @java.lang.Override
@@ -258,10 +258,10 @@ public final class IEDPGJDEMAJOuterClass {
       return isOpen_;
     }
 
-    public static final int IS_FINISH_FIELD_NUMBER = 10;
+    public static final int IS_FINISH_FIELD_NUMBER = 9;
     private boolean isFinish_;
     /**
-     * <code>bool is_finish = 10;</code>
+     * <code>bool is_finish = 9;</code>
      * @return The isFinish.
      */
     @java.lang.Override
@@ -269,10 +269,10 @@ public final class IEDPGJDEMAJOuterClass {
       return isFinish_;
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 12;
+    public static final int LEVEL_ID_FIELD_NUMBER = 2;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 12;</code>
+     * <code>uint32 level_id = 2;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -280,10 +280,10 @@ public final class IEDPGJDEMAJOuterClass {
       return levelId_;
     }
 
-    public static final int MAX_SCORE_FIELD_NUMBER = 13;
+    public static final int MAX_SCORE_FIELD_NUMBER = 4;
     private int maxScore_;
     /**
-     * <code>uint32 max_score = 13;</code>
+     * <code>uint32 max_score = 4;</code>
      * @return The maxScore.
      */
     @java.lang.Override
@@ -291,17 +291,17 @@ public final class IEDPGJDEMAJOuterClass {
       return maxScore_;
     }
 
-    public static final int AVATAR_LIST_FIELD_NUMBER = 14;
+    public static final int AVATAR_LIST_FIELD_NUMBER = 12;
     private java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> avatarList_;
     /**
-     * <code>repeated ._ActivityAvatarInfo avatar_list = 14;</code>
+     * <code>repeated ._ActivityAvatarInfo avatar_list = 12;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> getAvatarListList() {
       return avatarList_;
     }
     /**
-     * <code>repeated ._ActivityAvatarInfo avatar_list = 14;</code>
+     * <code>repeated ._ActivityAvatarInfo avatar_list = 12;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder> 
@@ -309,21 +309,21 @@ public final class IEDPGJDEMAJOuterClass {
       return avatarList_;
     }
     /**
-     * <code>repeated ._ActivityAvatarInfo avatar_list = 14;</code>
+     * <code>repeated ._ActivityAvatarInfo avatar_list = 12;</code>
      */
     @java.lang.Override
     public int getAvatarListCount() {
       return avatarList_.size();
     }
     /**
-     * <code>repeated ._ActivityAvatarInfo avatar_list = 14;</code>
+     * <code>repeated ._ActivityAvatarInfo avatar_list = 12;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo getAvatarList(int index) {
       return avatarList_.get(index);
     }
     /**
-     * <code>repeated ._ActivityAvatarInfo avatar_list = 14;</code>
+     * <code>repeated ._ActivityAvatarInfo avatar_list = 12;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder getAvatarListOrBuilder(
@@ -346,27 +346,27 @@ public final class IEDPGJDEMAJOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
+      if (levelId_ != 0) {
+        output.writeUInt32(2, levelId_);
+      }
+      if (maxScore_ != 0) {
+        output.writeUInt32(4, maxScore_);
+      }
+      if (isOpen_ != false) {
+        output.writeBool(7, isOpen_);
+      }
+      if (isFinish_ != false) {
+        output.writeBool(9, isFinish_);
+      }
+      for (int i = 0; i < avatarList_.size(); i++) {
+        output.writeMessage(12, avatarList_.get(i));
+      }
       if (getAGILCKGHLMEList().size() > 0) {
-        output.writeUInt32NoTag(26);
+        output.writeUInt32NoTag(106);
         output.writeUInt32NoTag(aGILCKGHLMEMemoizedSerializedSize);
       }
       for (int i = 0; i < aGILCKGHLME_.size(); i++) {
         output.writeUInt32NoTag(aGILCKGHLME_.getInt(i));
-      }
-      if (isOpen_ != false) {
-        output.writeBool(5, isOpen_);
-      }
-      if (isFinish_ != false) {
-        output.writeBool(10, isFinish_);
-      }
-      if (levelId_ != 0) {
-        output.writeUInt32(12, levelId_);
-      }
-      if (maxScore_ != 0) {
-        output.writeUInt32(13, maxScore_);
-      }
-      for (int i = 0; i < avatarList_.size(); i++) {
-        output.writeMessage(14, avatarList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -377,6 +377,26 @@ public final class IEDPGJDEMAJOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (levelId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(2, levelId_);
+      }
+      if (maxScore_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(4, maxScore_);
+      }
+      if (isOpen_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(7, isOpen_);
+      }
+      if (isFinish_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(9, isFinish_);
+      }
+      for (int i = 0; i < avatarList_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(12, avatarList_.get(i));
+      }
       {
         int dataSize = 0;
         for (int i = 0; i < aGILCKGHLME_.size(); i++) {
@@ -390,26 +410,6 @@ public final class IEDPGJDEMAJOuterClass {
               .computeInt32SizeNoTag(dataSize);
         }
         aGILCKGHLMEMemoizedSerializedSize = dataSize;
-      }
-      if (isOpen_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(5, isOpen_);
-      }
-      if (isFinish_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(10, isFinish_);
-      }
-      if (levelId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, levelId_);
-      }
-      if (maxScore_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, maxScore_);
-      }
-      for (int i = 0; i < avatarList_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, avatarList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -796,7 +796,7 @@ public final class IEDPGJDEMAJOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 AGILCKGHLME = 3;</code>
+       * <code>repeated uint32 AGILCKGHLME = 13;</code>
        * @return A list containing the aGILCKGHLME.
        */
       public java.util.List<java.lang.Integer>
@@ -805,14 +805,14 @@ public final class IEDPGJDEMAJOuterClass {
                  java.util.Collections.unmodifiableList(aGILCKGHLME_) : aGILCKGHLME_;
       }
       /**
-       * <code>repeated uint32 AGILCKGHLME = 3;</code>
+       * <code>repeated uint32 AGILCKGHLME = 13;</code>
        * @return The count of aGILCKGHLME.
        */
       public int getAGILCKGHLMECount() {
         return aGILCKGHLME_.size();
       }
       /**
-       * <code>repeated uint32 AGILCKGHLME = 3;</code>
+       * <code>repeated uint32 AGILCKGHLME = 13;</code>
        * @param index The index of the element to return.
        * @return The aGILCKGHLME at the given index.
        */
@@ -820,7 +820,7 @@ public final class IEDPGJDEMAJOuterClass {
         return aGILCKGHLME_.getInt(index);
       }
       /**
-       * <code>repeated uint32 AGILCKGHLME = 3;</code>
+       * <code>repeated uint32 AGILCKGHLME = 13;</code>
        * @param index The index to set the value at.
        * @param value The aGILCKGHLME to set.
        * @return This builder for chaining.
@@ -833,7 +833,7 @@ public final class IEDPGJDEMAJOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 AGILCKGHLME = 3;</code>
+       * <code>repeated uint32 AGILCKGHLME = 13;</code>
        * @param value The aGILCKGHLME to add.
        * @return This builder for chaining.
        */
@@ -844,7 +844,7 @@ public final class IEDPGJDEMAJOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 AGILCKGHLME = 3;</code>
+       * <code>repeated uint32 AGILCKGHLME = 13;</code>
        * @param values The aGILCKGHLME to add.
        * @return This builder for chaining.
        */
@@ -857,7 +857,7 @@ public final class IEDPGJDEMAJOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 AGILCKGHLME = 3;</code>
+       * <code>repeated uint32 AGILCKGHLME = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearAGILCKGHLME() {
@@ -869,7 +869,7 @@ public final class IEDPGJDEMAJOuterClass {
 
       private boolean isOpen_ ;
       /**
-       * <code>bool is_open = 5;</code>
+       * <code>bool is_open = 7;</code>
        * @return The isOpen.
        */
       @java.lang.Override
@@ -877,7 +877,7 @@ public final class IEDPGJDEMAJOuterClass {
         return isOpen_;
       }
       /**
-       * <code>bool is_open = 5;</code>
+       * <code>bool is_open = 7;</code>
        * @param value The isOpen to set.
        * @return This builder for chaining.
        */
@@ -888,7 +888,7 @@ public final class IEDPGJDEMAJOuterClass {
         return this;
       }
       /**
-       * <code>bool is_open = 5;</code>
+       * <code>bool is_open = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsOpen() {
@@ -900,7 +900,7 @@ public final class IEDPGJDEMAJOuterClass {
 
       private boolean isFinish_ ;
       /**
-       * <code>bool is_finish = 10;</code>
+       * <code>bool is_finish = 9;</code>
        * @return The isFinish.
        */
       @java.lang.Override
@@ -908,7 +908,7 @@ public final class IEDPGJDEMAJOuterClass {
         return isFinish_;
       }
       /**
-       * <code>bool is_finish = 10;</code>
+       * <code>bool is_finish = 9;</code>
        * @param value The isFinish to set.
        * @return This builder for chaining.
        */
@@ -919,7 +919,7 @@ public final class IEDPGJDEMAJOuterClass {
         return this;
       }
       /**
-       * <code>bool is_finish = 10;</code>
+       * <code>bool is_finish = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsFinish() {
@@ -931,7 +931,7 @@ public final class IEDPGJDEMAJOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 12;</code>
+       * <code>uint32 level_id = 2;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -939,7 +939,7 @@ public final class IEDPGJDEMAJOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 12;</code>
+       * <code>uint32 level_id = 2;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -950,7 +950,7 @@ public final class IEDPGJDEMAJOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 12;</code>
+       * <code>uint32 level_id = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -962,7 +962,7 @@ public final class IEDPGJDEMAJOuterClass {
 
       private int maxScore_ ;
       /**
-       * <code>uint32 max_score = 13;</code>
+       * <code>uint32 max_score = 4;</code>
        * @return The maxScore.
        */
       @java.lang.Override
@@ -970,7 +970,7 @@ public final class IEDPGJDEMAJOuterClass {
         return maxScore_;
       }
       /**
-       * <code>uint32 max_score = 13;</code>
+       * <code>uint32 max_score = 4;</code>
        * @param value The maxScore to set.
        * @return This builder for chaining.
        */
@@ -981,7 +981,7 @@ public final class IEDPGJDEMAJOuterClass {
         return this;
       }
       /**
-       * <code>uint32 max_score = 13;</code>
+       * <code>uint32 max_score = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearMaxScore() {
@@ -1004,7 +1004,7 @@ public final class IEDPGJDEMAJOuterClass {
           emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder> avatarListBuilder_;
 
       /**
-       * <code>repeated ._ActivityAvatarInfo avatar_list = 14;</code>
+       * <code>repeated ._ActivityAvatarInfo avatar_list = 12;</code>
        */
       public java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> getAvatarListList() {
         if (avatarListBuilder_ == null) {
@@ -1014,7 +1014,7 @@ public final class IEDPGJDEMAJOuterClass {
         }
       }
       /**
-       * <code>repeated ._ActivityAvatarInfo avatar_list = 14;</code>
+       * <code>repeated ._ActivityAvatarInfo avatar_list = 12;</code>
        */
       public int getAvatarListCount() {
         if (avatarListBuilder_ == null) {
@@ -1024,7 +1024,7 @@ public final class IEDPGJDEMAJOuterClass {
         }
       }
       /**
-       * <code>repeated ._ActivityAvatarInfo avatar_list = 14;</code>
+       * <code>repeated ._ActivityAvatarInfo avatar_list = 12;</code>
        */
       public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo getAvatarList(int index) {
         if (avatarListBuilder_ == null) {
@@ -1034,7 +1034,7 @@ public final class IEDPGJDEMAJOuterClass {
         }
       }
       /**
-       * <code>repeated ._ActivityAvatarInfo avatar_list = 14;</code>
+       * <code>repeated ._ActivityAvatarInfo avatar_list = 12;</code>
        */
       public Builder setAvatarList(
           int index, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo value) {
@@ -1051,7 +1051,7 @@ public final class IEDPGJDEMAJOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._ActivityAvatarInfo avatar_list = 14;</code>
+       * <code>repeated ._ActivityAvatarInfo avatar_list = 12;</code>
        */
       public Builder setAvatarList(
           int index, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder builderForValue) {
@@ -1065,7 +1065,7 @@ public final class IEDPGJDEMAJOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._ActivityAvatarInfo avatar_list = 14;</code>
+       * <code>repeated ._ActivityAvatarInfo avatar_list = 12;</code>
        */
       public Builder addAvatarList(emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo value) {
         if (avatarListBuilder_ == null) {
@@ -1081,7 +1081,7 @@ public final class IEDPGJDEMAJOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._ActivityAvatarInfo avatar_list = 14;</code>
+       * <code>repeated ._ActivityAvatarInfo avatar_list = 12;</code>
        */
       public Builder addAvatarList(
           int index, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo value) {
@@ -1098,7 +1098,7 @@ public final class IEDPGJDEMAJOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._ActivityAvatarInfo avatar_list = 14;</code>
+       * <code>repeated ._ActivityAvatarInfo avatar_list = 12;</code>
        */
       public Builder addAvatarList(
           emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder builderForValue) {
@@ -1112,7 +1112,7 @@ public final class IEDPGJDEMAJOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._ActivityAvatarInfo avatar_list = 14;</code>
+       * <code>repeated ._ActivityAvatarInfo avatar_list = 12;</code>
        */
       public Builder addAvatarList(
           int index, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder builderForValue) {
@@ -1126,7 +1126,7 @@ public final class IEDPGJDEMAJOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._ActivityAvatarInfo avatar_list = 14;</code>
+       * <code>repeated ._ActivityAvatarInfo avatar_list = 12;</code>
        */
       public Builder addAllAvatarList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo> values) {
@@ -1141,7 +1141,7 @@ public final class IEDPGJDEMAJOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._ActivityAvatarInfo avatar_list = 14;</code>
+       * <code>repeated ._ActivityAvatarInfo avatar_list = 12;</code>
        */
       public Builder clearAvatarList() {
         if (avatarListBuilder_ == null) {
@@ -1154,7 +1154,7 @@ public final class IEDPGJDEMAJOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._ActivityAvatarInfo avatar_list = 14;</code>
+       * <code>repeated ._ActivityAvatarInfo avatar_list = 12;</code>
        */
       public Builder removeAvatarList(int index) {
         if (avatarListBuilder_ == null) {
@@ -1167,14 +1167,14 @@ public final class IEDPGJDEMAJOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._ActivityAvatarInfo avatar_list = 14;</code>
+       * <code>repeated ._ActivityAvatarInfo avatar_list = 12;</code>
        */
       public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder getAvatarListBuilder(
           int index) {
         return getAvatarListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated ._ActivityAvatarInfo avatar_list = 14;</code>
+       * <code>repeated ._ActivityAvatarInfo avatar_list = 12;</code>
        */
       public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder getAvatarListOrBuilder(
           int index) {
@@ -1184,7 +1184,7 @@ public final class IEDPGJDEMAJOuterClass {
         }
       }
       /**
-       * <code>repeated ._ActivityAvatarInfo avatar_list = 14;</code>
+       * <code>repeated ._ActivityAvatarInfo avatar_list = 12;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfoOrBuilder> 
            getAvatarListOrBuilderList() {
@@ -1195,14 +1195,14 @@ public final class IEDPGJDEMAJOuterClass {
         }
       }
       /**
-       * <code>repeated ._ActivityAvatarInfo avatar_list = 14;</code>
+       * <code>repeated ._ActivityAvatarInfo avatar_list = 12;</code>
        */
       public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder addAvatarListBuilder() {
         return getAvatarListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated ._ActivityAvatarInfo avatar_list = 14;</code>
+       * <code>repeated ._ActivityAvatarInfo avatar_list = 12;</code>
        */
       public emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder addAvatarListBuilder(
           int index) {
@@ -1210,7 +1210,7 @@ public final class IEDPGJDEMAJOuterClass {
             index, emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated ._ActivityAvatarInfo avatar_list = 14;</code>
+       * <code>repeated ._ActivityAvatarInfo avatar_list = 12;</code>
        */
       public java.util.List<emu.grasscutter.net.proto._ActivityAvatarInfoOuterClass._ActivityAvatarInfo.Builder> 
            getAvatarListBuilderList() {
@@ -1298,10 +1298,10 @@ public final class IEDPGJDEMAJOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021IEDPGJDEMAJ.proto\032\031_ActivityAvatarInfo" +
-      ".proto\"\226\001\n\013IEDPGJDEMAJ\022\023\n\013AGILCKGHLME\030\003 " +
-      "\003(\r\022\017\n\007is_open\030\005 \001(\010\022\021\n\tis_finish\030\n \001(\010\022" +
-      "\020\n\010level_id\030\014 \001(\r\022\021\n\tmax_score\030\r \001(\r\022)\n\013" +
-      "avatar_list\030\016 \003(\0132\024._ActivityAvatarInfoB" +
+      ".proto\"\226\001\n\013IEDPGJDEMAJ\022\023\n\013AGILCKGHLME\030\r " +
+      "\003(\r\022\017\n\007is_open\030\007 \001(\010\022\021\n\tis_finish\030\t \001(\010\022" +
+      "\020\n\010level_id\030\002 \001(\r\022\021\n\tmax_score\030\004 \001(\r\022)\n\013" +
+      "avatar_list\030\014 \003(\0132\024._ActivityAvatarInfoB" +
       "2\n\031emu.grasscutter.net.protoB\025IEDPGJDEMA" +
       "JOuterClassb\006proto3"
     };

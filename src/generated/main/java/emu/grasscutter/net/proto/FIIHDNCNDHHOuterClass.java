@@ -19,60 +19,60 @@ public final class FIIHDNCNDHHOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 start_time = 1;</code>
+     * <code>uint32 start_time = 6;</code>
      * @return The startTime.
      */
     int getStartTime();
 
     /**
-     * <code>uint64 guid = 5;</code>
+     * <code>uint64 guid = 8;</code>
      * @return The guid.
      */
     long getGuid();
 
     /**
-     * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 7;</code>
+     * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 4;</code>
      */
     java.util.List<emu.grasscutter.net.proto.FHDOGFCDKDKOuterClass.FHDOGFCDKDK> 
         getCOKFKPJNKHCList();
     /**
-     * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 7;</code>
+     * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 4;</code>
      */
     emu.grasscutter.net.proto.FHDOGFCDKDKOuterClass.FHDOGFCDKDK getCOKFKPJNKHC(int index);
     /**
-     * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 7;</code>
+     * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 4;</code>
      */
     int getCOKFKPJNKHCCount();
     /**
-     * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 7;</code>
+     * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 4;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.FHDOGFCDKDKOuterClass.FHDOGFCDKDKOrBuilder> 
         getCOKFKPJNKHCOrBuilderList();
     /**
-     * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 7;</code>
+     * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 4;</code>
      */
     emu.grasscutter.net.proto.FHDOGFCDKDKOuterClass.FHDOGFCDKDKOrBuilder getCOKFKPJNKHCOrBuilder(
         int index);
 
     /**
-     * <code>repeated uint32 winner_uid_list = 10;</code>
+     * <code>repeated uint32 winner_uid_list = 12;</code>
      * @return A list containing the winnerUidList.
      */
     java.util.List<java.lang.Integer> getWinnerUidListList();
     /**
-     * <code>repeated uint32 winner_uid_list = 10;</code>
+     * <code>repeated uint32 winner_uid_list = 12;</code>
      * @return The count of winnerUidList.
      */
     int getWinnerUidListCount();
     /**
-     * <code>repeated uint32 winner_uid_list = 10;</code>
+     * <code>repeated uint32 winner_uid_list = 12;</code>
      * @param index The index of the element to return.
      * @return The winnerUidList at the given index.
      */
     int getWinnerUidList(int index);
 
     /**
-     * <code>uint32 finish_time = 14;</code>
+     * <code>uint32 finish_time = 9;</code>
      * @return The finishTime.
      */
     int getFinishTime();
@@ -125,17 +125,7 @@ public final class FIIHDNCNDHHOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
-
-              startTime_ = input.readUInt32();
-              break;
-            }
-            case 40: {
-
-              guid_ = input.readUInt64();
-              break;
-            }
-            case 58: {
+            case 34: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 cOKFKPJNKHC_ = new java.util.ArrayList<emu.grasscutter.net.proto.FHDOGFCDKDKOuterClass.FHDOGFCDKDK>();
                 mutable_bitField0_ |= 0x00000001;
@@ -144,7 +134,22 @@ public final class FIIHDNCNDHHOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.FHDOGFCDKDKOuterClass.FHDOGFCDKDK.parser(), extensionRegistry));
               break;
             }
-            case 80: {
+            case 48: {
+
+              startTime_ = input.readUInt32();
+              break;
+            }
+            case 64: {
+
+              guid_ = input.readUInt64();
+              break;
+            }
+            case 72: {
+
+              finishTime_ = input.readUInt32();
+              break;
+            }
+            case 96: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 winnerUidList_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
@@ -152,7 +157,7 @@ public final class FIIHDNCNDHHOuterClass {
               winnerUidList_.addInt(input.readUInt32());
               break;
             }
-            case 82: {
+            case 98: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
@@ -163,11 +168,6 @@ public final class FIIHDNCNDHHOuterClass {
                 winnerUidList_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
-              break;
-            }
-            case 112: {
-
-              finishTime_ = input.readUInt32();
               break;
             }
             default: {
@@ -208,10 +208,10 @@ public final class FIIHDNCNDHHOuterClass {
               emu.grasscutter.net.proto.FIIHDNCNDHHOuterClass.FIIHDNCNDHH.class, emu.grasscutter.net.proto.FIIHDNCNDHHOuterClass.FIIHDNCNDHH.Builder.class);
     }
 
-    public static final int START_TIME_FIELD_NUMBER = 1;
+    public static final int START_TIME_FIELD_NUMBER = 6;
     private int startTime_;
     /**
-     * <code>uint32 start_time = 1;</code>
+     * <code>uint32 start_time = 6;</code>
      * @return The startTime.
      */
     @java.lang.Override
@@ -219,10 +219,10 @@ public final class FIIHDNCNDHHOuterClass {
       return startTime_;
     }
 
-    public static final int GUID_FIELD_NUMBER = 5;
+    public static final int GUID_FIELD_NUMBER = 8;
     private long guid_;
     /**
-     * <code>uint64 guid = 5;</code>
+     * <code>uint64 guid = 8;</code>
      * @return The guid.
      */
     @java.lang.Override
@@ -230,17 +230,17 @@ public final class FIIHDNCNDHHOuterClass {
       return guid_;
     }
 
-    public static final int COKFKPJNKHC_FIELD_NUMBER = 7;
+    public static final int COKFKPJNKHC_FIELD_NUMBER = 4;
     private java.util.List<emu.grasscutter.net.proto.FHDOGFCDKDKOuterClass.FHDOGFCDKDK> cOKFKPJNKHC_;
     /**
-     * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 7;</code>
+     * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 4;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.FHDOGFCDKDKOuterClass.FHDOGFCDKDK> getCOKFKPJNKHCList() {
       return cOKFKPJNKHC_;
     }
     /**
-     * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 7;</code>
+     * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 4;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.FHDOGFCDKDKOuterClass.FHDOGFCDKDKOrBuilder> 
@@ -248,21 +248,21 @@ public final class FIIHDNCNDHHOuterClass {
       return cOKFKPJNKHC_;
     }
     /**
-     * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 7;</code>
+     * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 4;</code>
      */
     @java.lang.Override
     public int getCOKFKPJNKHCCount() {
       return cOKFKPJNKHC_.size();
     }
     /**
-     * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 7;</code>
+     * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 4;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.FHDOGFCDKDKOuterClass.FHDOGFCDKDK getCOKFKPJNKHC(int index) {
       return cOKFKPJNKHC_.get(index);
     }
     /**
-     * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 7;</code>
+     * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 4;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.FHDOGFCDKDKOuterClass.FHDOGFCDKDKOrBuilder getCOKFKPJNKHCOrBuilder(
@@ -270,10 +270,10 @@ public final class FIIHDNCNDHHOuterClass {
       return cOKFKPJNKHC_.get(index);
     }
 
-    public static final int WINNER_UID_LIST_FIELD_NUMBER = 10;
+    public static final int WINNER_UID_LIST_FIELD_NUMBER = 12;
     private com.google.protobuf.Internal.IntList winnerUidList_;
     /**
-     * <code>repeated uint32 winner_uid_list = 10;</code>
+     * <code>repeated uint32 winner_uid_list = 12;</code>
      * @return A list containing the winnerUidList.
      */
     @java.lang.Override
@@ -282,14 +282,14 @@ public final class FIIHDNCNDHHOuterClass {
       return winnerUidList_;
     }
     /**
-     * <code>repeated uint32 winner_uid_list = 10;</code>
+     * <code>repeated uint32 winner_uid_list = 12;</code>
      * @return The count of winnerUidList.
      */
     public int getWinnerUidListCount() {
       return winnerUidList_.size();
     }
     /**
-     * <code>repeated uint32 winner_uid_list = 10;</code>
+     * <code>repeated uint32 winner_uid_list = 12;</code>
      * @param index The index of the element to return.
      * @return The winnerUidList at the given index.
      */
@@ -298,10 +298,10 @@ public final class FIIHDNCNDHHOuterClass {
     }
     private int winnerUidListMemoizedSerializedSize = -1;
 
-    public static final int FINISH_TIME_FIELD_NUMBER = 14;
+    public static final int FINISH_TIME_FIELD_NUMBER = 9;
     private int finishTime_;
     /**
-     * <code>uint32 finish_time = 14;</code>
+     * <code>uint32 finish_time = 9;</code>
      * @return The finishTime.
      */
     @java.lang.Override
@@ -324,24 +324,24 @@ public final class FIIHDNCNDHHOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
+      for (int i = 0; i < cOKFKPJNKHC_.size(); i++) {
+        output.writeMessage(4, cOKFKPJNKHC_.get(i));
+      }
       if (startTime_ != 0) {
-        output.writeUInt32(1, startTime_);
+        output.writeUInt32(6, startTime_);
       }
       if (guid_ != 0L) {
-        output.writeUInt64(5, guid_);
+        output.writeUInt64(8, guid_);
       }
-      for (int i = 0; i < cOKFKPJNKHC_.size(); i++) {
-        output.writeMessage(7, cOKFKPJNKHC_.get(i));
+      if (finishTime_ != 0) {
+        output.writeUInt32(9, finishTime_);
       }
       if (getWinnerUidListList().size() > 0) {
-        output.writeUInt32NoTag(82);
+        output.writeUInt32NoTag(98);
         output.writeUInt32NoTag(winnerUidListMemoizedSerializedSize);
       }
       for (int i = 0; i < winnerUidList_.size(); i++) {
         output.writeUInt32NoTag(winnerUidList_.getInt(i));
-      }
-      if (finishTime_ != 0) {
-        output.writeUInt32(14, finishTime_);
       }
       unknownFields.writeTo(output);
     }
@@ -352,17 +352,21 @@ public final class FIIHDNCNDHHOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      for (int i = 0; i < cOKFKPJNKHC_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(4, cOKFKPJNKHC_.get(i));
+      }
       if (startTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, startTime_);
+          .computeUInt32Size(6, startTime_);
       }
       if (guid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(5, guid_);
+          .computeUInt64Size(8, guid_);
       }
-      for (int i = 0; i < cOKFKPJNKHC_.size(); i++) {
+      if (finishTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, cOKFKPJNKHC_.get(i));
+          .computeUInt32Size(9, finishTime_);
       }
       {
         int dataSize = 0;
@@ -377,10 +381,6 @@ public final class FIIHDNCNDHHOuterClass {
               .computeInt32SizeNoTag(dataSize);
         }
         winnerUidListMemoizedSerializedSize = dataSize;
-      }
-      if (finishTime_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, finishTime_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -750,7 +750,7 @@ public final class FIIHDNCNDHHOuterClass {
 
       private int startTime_ ;
       /**
-       * <code>uint32 start_time = 1;</code>
+       * <code>uint32 start_time = 6;</code>
        * @return The startTime.
        */
       @java.lang.Override
@@ -758,7 +758,7 @@ public final class FIIHDNCNDHHOuterClass {
         return startTime_;
       }
       /**
-       * <code>uint32 start_time = 1;</code>
+       * <code>uint32 start_time = 6;</code>
        * @param value The startTime to set.
        * @return This builder for chaining.
        */
@@ -769,7 +769,7 @@ public final class FIIHDNCNDHHOuterClass {
         return this;
       }
       /**
-       * <code>uint32 start_time = 1;</code>
+       * <code>uint32 start_time = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearStartTime() {
@@ -781,7 +781,7 @@ public final class FIIHDNCNDHHOuterClass {
 
       private long guid_ ;
       /**
-       * <code>uint64 guid = 5;</code>
+       * <code>uint64 guid = 8;</code>
        * @return The guid.
        */
       @java.lang.Override
@@ -789,7 +789,7 @@ public final class FIIHDNCNDHHOuterClass {
         return guid_;
       }
       /**
-       * <code>uint64 guid = 5;</code>
+       * <code>uint64 guid = 8;</code>
        * @param value The guid to set.
        * @return This builder for chaining.
        */
@@ -800,7 +800,7 @@ public final class FIIHDNCNDHHOuterClass {
         return this;
       }
       /**
-       * <code>uint64 guid = 5;</code>
+       * <code>uint64 guid = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearGuid() {
@@ -823,7 +823,7 @@ public final class FIIHDNCNDHHOuterClass {
           emu.grasscutter.net.proto.FHDOGFCDKDKOuterClass.FHDOGFCDKDK, emu.grasscutter.net.proto.FHDOGFCDKDKOuterClass.FHDOGFCDKDK.Builder, emu.grasscutter.net.proto.FHDOGFCDKDKOuterClass.FHDOGFCDKDKOrBuilder> cOKFKPJNKHCBuilder_;
 
       /**
-       * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 7;</code>
+       * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 4;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.FHDOGFCDKDKOuterClass.FHDOGFCDKDK> getCOKFKPJNKHCList() {
         if (cOKFKPJNKHCBuilder_ == null) {
@@ -833,7 +833,7 @@ public final class FIIHDNCNDHHOuterClass {
         }
       }
       /**
-       * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 7;</code>
+       * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 4;</code>
        */
       public int getCOKFKPJNKHCCount() {
         if (cOKFKPJNKHCBuilder_ == null) {
@@ -843,7 +843,7 @@ public final class FIIHDNCNDHHOuterClass {
         }
       }
       /**
-       * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 7;</code>
+       * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 4;</code>
        */
       public emu.grasscutter.net.proto.FHDOGFCDKDKOuterClass.FHDOGFCDKDK getCOKFKPJNKHC(int index) {
         if (cOKFKPJNKHCBuilder_ == null) {
@@ -853,7 +853,7 @@ public final class FIIHDNCNDHHOuterClass {
         }
       }
       /**
-       * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 7;</code>
+       * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 4;</code>
        */
       public Builder setCOKFKPJNKHC(
           int index, emu.grasscutter.net.proto.FHDOGFCDKDKOuterClass.FHDOGFCDKDK value) {
@@ -870,7 +870,7 @@ public final class FIIHDNCNDHHOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 7;</code>
+       * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 4;</code>
        */
       public Builder setCOKFKPJNKHC(
           int index, emu.grasscutter.net.proto.FHDOGFCDKDKOuterClass.FHDOGFCDKDK.Builder builderForValue) {
@@ -884,7 +884,7 @@ public final class FIIHDNCNDHHOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 7;</code>
+       * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 4;</code>
        */
       public Builder addCOKFKPJNKHC(emu.grasscutter.net.proto.FHDOGFCDKDKOuterClass.FHDOGFCDKDK value) {
         if (cOKFKPJNKHCBuilder_ == null) {
@@ -900,7 +900,7 @@ public final class FIIHDNCNDHHOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 7;</code>
+       * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 4;</code>
        */
       public Builder addCOKFKPJNKHC(
           int index, emu.grasscutter.net.proto.FHDOGFCDKDKOuterClass.FHDOGFCDKDK value) {
@@ -917,7 +917,7 @@ public final class FIIHDNCNDHHOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 7;</code>
+       * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 4;</code>
        */
       public Builder addCOKFKPJNKHC(
           emu.grasscutter.net.proto.FHDOGFCDKDKOuterClass.FHDOGFCDKDK.Builder builderForValue) {
@@ -931,7 +931,7 @@ public final class FIIHDNCNDHHOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 7;</code>
+       * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 4;</code>
        */
       public Builder addCOKFKPJNKHC(
           int index, emu.grasscutter.net.proto.FHDOGFCDKDKOuterClass.FHDOGFCDKDK.Builder builderForValue) {
@@ -945,7 +945,7 @@ public final class FIIHDNCNDHHOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 7;</code>
+       * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 4;</code>
        */
       public Builder addAllCOKFKPJNKHC(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.FHDOGFCDKDKOuterClass.FHDOGFCDKDK> values) {
@@ -960,7 +960,7 @@ public final class FIIHDNCNDHHOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 7;</code>
+       * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 4;</code>
        */
       public Builder clearCOKFKPJNKHC() {
         if (cOKFKPJNKHCBuilder_ == null) {
@@ -973,7 +973,7 @@ public final class FIIHDNCNDHHOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 7;</code>
+       * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 4;</code>
        */
       public Builder removeCOKFKPJNKHC(int index) {
         if (cOKFKPJNKHCBuilder_ == null) {
@@ -986,14 +986,14 @@ public final class FIIHDNCNDHHOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 7;</code>
+       * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 4;</code>
        */
       public emu.grasscutter.net.proto.FHDOGFCDKDKOuterClass.FHDOGFCDKDK.Builder getCOKFKPJNKHCBuilder(
           int index) {
         return getCOKFKPJNKHCFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 7;</code>
+       * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 4;</code>
        */
       public emu.grasscutter.net.proto.FHDOGFCDKDKOuterClass.FHDOGFCDKDKOrBuilder getCOKFKPJNKHCOrBuilder(
           int index) {
@@ -1003,7 +1003,7 @@ public final class FIIHDNCNDHHOuterClass {
         }
       }
       /**
-       * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 7;</code>
+       * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 4;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.FHDOGFCDKDKOuterClass.FHDOGFCDKDKOrBuilder> 
            getCOKFKPJNKHCOrBuilderList() {
@@ -1014,14 +1014,14 @@ public final class FIIHDNCNDHHOuterClass {
         }
       }
       /**
-       * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 7;</code>
+       * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 4;</code>
        */
       public emu.grasscutter.net.proto.FHDOGFCDKDKOuterClass.FHDOGFCDKDK.Builder addCOKFKPJNKHCBuilder() {
         return getCOKFKPJNKHCFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.FHDOGFCDKDKOuterClass.FHDOGFCDKDK.getDefaultInstance());
       }
       /**
-       * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 7;</code>
+       * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 4;</code>
        */
       public emu.grasscutter.net.proto.FHDOGFCDKDKOuterClass.FHDOGFCDKDK.Builder addCOKFKPJNKHCBuilder(
           int index) {
@@ -1029,7 +1029,7 @@ public final class FIIHDNCNDHHOuterClass {
             index, emu.grasscutter.net.proto.FHDOGFCDKDKOuterClass.FHDOGFCDKDK.getDefaultInstance());
       }
       /**
-       * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 7;</code>
+       * <code>repeated .FHDOGFCDKDK COKFKPJNKHC = 4;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.FHDOGFCDKDKOuterClass.FHDOGFCDKDK.Builder> 
            getCOKFKPJNKHCBuilderList() {
@@ -1058,7 +1058,7 @@ public final class FIIHDNCNDHHOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 winner_uid_list = 10;</code>
+       * <code>repeated uint32 winner_uid_list = 12;</code>
        * @return A list containing the winnerUidList.
        */
       public java.util.List<java.lang.Integer>
@@ -1067,14 +1067,14 @@ public final class FIIHDNCNDHHOuterClass {
                  java.util.Collections.unmodifiableList(winnerUidList_) : winnerUidList_;
       }
       /**
-       * <code>repeated uint32 winner_uid_list = 10;</code>
+       * <code>repeated uint32 winner_uid_list = 12;</code>
        * @return The count of winnerUidList.
        */
       public int getWinnerUidListCount() {
         return winnerUidList_.size();
       }
       /**
-       * <code>repeated uint32 winner_uid_list = 10;</code>
+       * <code>repeated uint32 winner_uid_list = 12;</code>
        * @param index The index of the element to return.
        * @return The winnerUidList at the given index.
        */
@@ -1082,7 +1082,7 @@ public final class FIIHDNCNDHHOuterClass {
         return winnerUidList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 winner_uid_list = 10;</code>
+       * <code>repeated uint32 winner_uid_list = 12;</code>
        * @param index The index to set the value at.
        * @param value The winnerUidList to set.
        * @return This builder for chaining.
@@ -1095,7 +1095,7 @@ public final class FIIHDNCNDHHOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 winner_uid_list = 10;</code>
+       * <code>repeated uint32 winner_uid_list = 12;</code>
        * @param value The winnerUidList to add.
        * @return This builder for chaining.
        */
@@ -1106,7 +1106,7 @@ public final class FIIHDNCNDHHOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 winner_uid_list = 10;</code>
+       * <code>repeated uint32 winner_uid_list = 12;</code>
        * @param values The winnerUidList to add.
        * @return This builder for chaining.
        */
@@ -1119,7 +1119,7 @@ public final class FIIHDNCNDHHOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 winner_uid_list = 10;</code>
+       * <code>repeated uint32 winner_uid_list = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearWinnerUidList() {
@@ -1131,7 +1131,7 @@ public final class FIIHDNCNDHHOuterClass {
 
       private int finishTime_ ;
       /**
-       * <code>uint32 finish_time = 14;</code>
+       * <code>uint32 finish_time = 9;</code>
        * @return The finishTime.
        */
       @java.lang.Override
@@ -1139,7 +1139,7 @@ public final class FIIHDNCNDHHOuterClass {
         return finishTime_;
       }
       /**
-       * <code>uint32 finish_time = 14;</code>
+       * <code>uint32 finish_time = 9;</code>
        * @param value The finishTime to set.
        * @return This builder for chaining.
        */
@@ -1150,7 +1150,7 @@ public final class FIIHDNCNDHHOuterClass {
         return this;
       }
       /**
-       * <code>uint32 finish_time = 14;</code>
+       * <code>uint32 finish_time = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearFinishTime() {
@@ -1227,10 +1227,10 @@ public final class FIIHDNCNDHHOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021FIIHDNCNDHH.proto\032\021FHDOGFCDKDK.proto\"\200" +
-      "\001\n\013FIIHDNCNDHH\022\022\n\nstart_time\030\001 \001(\r\022\014\n\004gu" +
-      "id\030\005 \001(\004\022!\n\013COKFKPJNKHC\030\007 \003(\0132\014.FHDOGFCD" +
-      "KDK\022\027\n\017winner_uid_list\030\n \003(\r\022\023\n\013finish_t" +
-      "ime\030\016 \001(\rB2\n\031emu.grasscutter.net.protoB\025" +
+      "\001\n\013FIIHDNCNDHH\022\022\n\nstart_time\030\006 \001(\r\022\014\n\004gu" +
+      "id\030\010 \001(\004\022!\n\013COKFKPJNKHC\030\004 \003(\0132\014.FHDOGFCD" +
+      "KDK\022\027\n\017winner_uid_list\030\014 \003(\r\022\023\n\013finish_t" +
+      "ime\030\t \001(\rB2\n\031emu.grasscutter.net.protoB\025" +
       "FIIHDNCNDHHOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

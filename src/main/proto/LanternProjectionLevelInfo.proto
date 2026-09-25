@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "LanternProjectionLevelInfoOuterClass";
 
 message LanternProjectionLevelInfo {
-	uint32 min_finish_time = 3;
+	uint32 min_finish_time = 9;
 	bool is_can_start = 5;
-	bool is_show_tips = 6;
-	bool is_finished = 9;
-	uint32 id = 13;
+	bool is_show_tips = 7;
+	bool is_finished = 15;
+	uint32 id = 6;
 }

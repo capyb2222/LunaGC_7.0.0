@@ -7,8 +7,8 @@ import "ClientInputType.proto";
 import "LanternProjectionLevelInfo.proto";
 
 message LanternProjectionInfo {
-	repeated uint32 open_stage_list = 4;
-	repeated LanternProjectionLevelInfo level_list = 6;
-	repeated ClientInputType GOBNJOGJEMP = 11;
-	repeated ClientInputType PLJBMMAMJDL = 15;
+	repeated uint32 open_stage_list = 12;
+	repeated LanternProjectionLevelInfo level_list = 5;
+	repeated ClientInputType GOBNJOGJEMP = 50000;
+	repeated ClientInputType PLJBMMAMJDL = 50001;
 }

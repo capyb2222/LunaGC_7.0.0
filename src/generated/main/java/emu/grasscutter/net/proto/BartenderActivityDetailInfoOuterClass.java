@@ -19,94 +19,94 @@ public final class BartenderActivityDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .BartenderTaskInfo unlock_task_list = 5;</code>
+     * <code>repeated .BartenderTaskInfo unlock_task_list = 6;</code>
      */
     java.util.List<emu.grasscutter.net.proto.BartenderTaskInfoOuterClass.BartenderTaskInfo> 
         getUnlockTaskListList();
     /**
-     * <code>repeated .BartenderTaskInfo unlock_task_list = 5;</code>
+     * <code>repeated .BartenderTaskInfo unlock_task_list = 6;</code>
      */
     emu.grasscutter.net.proto.BartenderTaskInfoOuterClass.BartenderTaskInfo getUnlockTaskList(int index);
     /**
-     * <code>repeated .BartenderTaskInfo unlock_task_list = 5;</code>
+     * <code>repeated .BartenderTaskInfo unlock_task_list = 6;</code>
      */
     int getUnlockTaskListCount();
     /**
-     * <code>repeated .BartenderTaskInfo unlock_task_list = 5;</code>
+     * <code>repeated .BartenderTaskInfo unlock_task_list = 6;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.BartenderTaskInfoOuterClass.BartenderTaskInfoOrBuilder> 
         getUnlockTaskListOrBuilderList();
     /**
-     * <code>repeated .BartenderTaskInfo unlock_task_list = 5;</code>
+     * <code>repeated .BartenderTaskInfo unlock_task_list = 6;</code>
      */
     emu.grasscutter.net.proto.BartenderTaskInfoOuterClass.BartenderTaskInfoOrBuilder getUnlockTaskListOrBuilder(
         int index);
 
     /**
-     * <code>repeated .BartenderLevelInfo unlock_level_list = 6;</code>
+     * <code>repeated .BartenderLevelInfo unlock_level_list = 4;</code>
      */
     java.util.List<emu.grasscutter.net.proto.BartenderLevelInfoOuterClass.BartenderLevelInfo> 
         getUnlockLevelListList();
     /**
-     * <code>repeated .BartenderLevelInfo unlock_level_list = 6;</code>
+     * <code>repeated .BartenderLevelInfo unlock_level_list = 4;</code>
      */
     emu.grasscutter.net.proto.BartenderLevelInfoOuterClass.BartenderLevelInfo getUnlockLevelList(int index);
     /**
-     * <code>repeated .BartenderLevelInfo unlock_level_list = 6;</code>
+     * <code>repeated .BartenderLevelInfo unlock_level_list = 4;</code>
      */
     int getUnlockLevelListCount();
     /**
-     * <code>repeated .BartenderLevelInfo unlock_level_list = 6;</code>
+     * <code>repeated .BartenderLevelInfo unlock_level_list = 4;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.BartenderLevelInfoOuterClass.BartenderLevelInfoOrBuilder> 
         getUnlockLevelListOrBuilderList();
     /**
-     * <code>repeated .BartenderLevelInfo unlock_level_list = 6;</code>
+     * <code>repeated .BartenderLevelInfo unlock_level_list = 4;</code>
      */
     emu.grasscutter.net.proto.BartenderLevelInfoOuterClass.BartenderLevelInfoOrBuilder getUnlockLevelListOrBuilder(
         int index);
 
     /**
-     * <code>repeated uint32 ENBFJNEEJNP = 8;</code>
+     * <code>repeated uint32 ENBFJNEEJNP = 50000;</code>
      * @return A list containing the eNBFJNEEJNP.
      */
     java.util.List<java.lang.Integer> getENBFJNEEJNPList();
     /**
-     * <code>repeated uint32 ENBFJNEEJNP = 8;</code>
+     * <code>repeated uint32 ENBFJNEEJNP = 50000;</code>
      * @return The count of eNBFJNEEJNP.
      */
     int getENBFJNEEJNPCount();
     /**
-     * <code>repeated uint32 ENBFJNEEJNP = 8;</code>
+     * <code>repeated uint32 ENBFJNEEJNP = 50000;</code>
      * @param index The index of the element to return.
      * @return The eNBFJNEEJNP at the given index.
      */
     int getENBFJNEEJNP(int index);
 
     /**
-     * <code>bool is_content_closed = 9;</code>
+     * <code>bool is_content_closed = 15;</code>
      * @return The isContentClosed.
      */
     boolean getIsContentClosed();
 
     /**
-     * <code>bool is_develop_module_open = 10;</code>
+     * <code>bool is_develop_module_open = 11;</code>
      * @return The isDevelopModuleOpen.
      */
     boolean getIsDevelopModuleOpen();
 
     /**
-     * <code>repeated uint32 PCPKHLCPABB = 13;</code>
+     * <code>repeated uint32 PCPKHLCPABB = 50001;</code>
      * @return A list containing the pCPKHLCPABB.
      */
     java.util.List<java.lang.Integer> getPCPKHLCPABBList();
     /**
-     * <code>repeated uint32 PCPKHLCPABB = 13;</code>
+     * <code>repeated uint32 PCPKHLCPABB = 50001;</code>
      * @return The count of pCPKHLCPABB.
      */
     int getPCPKHLCPABBCount();
     /**
-     * <code>repeated uint32 PCPKHLCPABB = 13;</code>
+     * <code>repeated uint32 PCPKHLCPABB = 50001;</code>
      * @param index The index of the element to return.
      * @return The pCPKHLCPABB at the given index.
      */
@@ -162,16 +162,7 @@ public final class BartenderActivityDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 42: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                unlockTaskList_ = new java.util.ArrayList<emu.grasscutter.net.proto.BartenderTaskInfoOuterClass.BartenderTaskInfo>();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              unlockTaskList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.BartenderTaskInfoOuterClass.BartenderTaskInfo.parser(), extensionRegistry));
-              break;
-            }
-            case 50: {
+            case 34: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 unlockLevelList_ = new java.util.ArrayList<emu.grasscutter.net.proto.BartenderLevelInfoOuterClass.BartenderLevelInfo>();
                 mutable_bitField0_ |= 0x00000002;
@@ -180,7 +171,26 @@ public final class BartenderActivityDetailInfoOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.BartenderLevelInfoOuterClass.BartenderLevelInfo.parser(), extensionRegistry));
               break;
             }
-            case 64: {
+            case 50: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                unlockTaskList_ = new java.util.ArrayList<emu.grasscutter.net.proto.BartenderTaskInfoOuterClass.BartenderTaskInfo>();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              unlockTaskList_.add(
+                  input.readMessage(emu.grasscutter.net.proto.BartenderTaskInfoOuterClass.BartenderTaskInfo.parser(), extensionRegistry));
+              break;
+            }
+            case 88: {
+
+              isDevelopModuleOpen_ = input.readBool();
+              break;
+            }
+            case 120: {
+
+              isContentClosed_ = input.readBool();
+              break;
+            }
+            case 400000: {
               if (!((mutable_bitField0_ & 0x00000004) != 0)) {
                 eNBFJNEEJNP_ = newIntList();
                 mutable_bitField0_ |= 0x00000004;
@@ -188,7 +198,7 @@ public final class BartenderActivityDetailInfoOuterClass {
               eNBFJNEEJNP_.addInt(input.readUInt32());
               break;
             }
-            case 66: {
+            case 400002: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000004) != 0) && input.getBytesUntilLimit() > 0) {
@@ -201,17 +211,7 @@ public final class BartenderActivityDetailInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 72: {
-
-              isContentClosed_ = input.readBool();
-              break;
-            }
-            case 80: {
-
-              isDevelopModuleOpen_ = input.readBool();
-              break;
-            }
-            case 104: {
+            case 400008: {
               if (!((mutable_bitField0_ & 0x00000008) != 0)) {
                 pCPKHLCPABB_ = newIntList();
                 mutable_bitField0_ |= 0x00000008;
@@ -219,7 +219,7 @@ public final class BartenderActivityDetailInfoOuterClass {
               pCPKHLCPABB_.addInt(input.readUInt32());
               break;
             }
-            case 106: {
+            case 400010: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000008) != 0) && input.getBytesUntilLimit() > 0) {
@@ -247,11 +247,11 @@ public final class BartenderActivityDetailInfoOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          unlockTaskList_ = java.util.Collections.unmodifiableList(unlockTaskList_);
-        }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
           unlockLevelList_ = java.util.Collections.unmodifiableList(unlockLevelList_);
+        }
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          unlockTaskList_ = java.util.Collections.unmodifiableList(unlockTaskList_);
         }
         if (((mutable_bitField0_ & 0x00000004) != 0)) {
           eNBFJNEEJNP_.makeImmutable(); // C
@@ -276,17 +276,17 @@ public final class BartenderActivityDetailInfoOuterClass {
               emu.grasscutter.net.proto.BartenderActivityDetailInfoOuterClass.BartenderActivityDetailInfo.class, emu.grasscutter.net.proto.BartenderActivityDetailInfoOuterClass.BartenderActivityDetailInfo.Builder.class);
     }
 
-    public static final int UNLOCK_TASK_LIST_FIELD_NUMBER = 5;
+    public static final int UNLOCK_TASK_LIST_FIELD_NUMBER = 6;
     private java.util.List<emu.grasscutter.net.proto.BartenderTaskInfoOuterClass.BartenderTaskInfo> unlockTaskList_;
     /**
-     * <code>repeated .BartenderTaskInfo unlock_task_list = 5;</code>
+     * <code>repeated .BartenderTaskInfo unlock_task_list = 6;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.BartenderTaskInfoOuterClass.BartenderTaskInfo> getUnlockTaskListList() {
       return unlockTaskList_;
     }
     /**
-     * <code>repeated .BartenderTaskInfo unlock_task_list = 5;</code>
+     * <code>repeated .BartenderTaskInfo unlock_task_list = 6;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.BartenderTaskInfoOuterClass.BartenderTaskInfoOrBuilder> 
@@ -294,21 +294,21 @@ public final class BartenderActivityDetailInfoOuterClass {
       return unlockTaskList_;
     }
     /**
-     * <code>repeated .BartenderTaskInfo unlock_task_list = 5;</code>
+     * <code>repeated .BartenderTaskInfo unlock_task_list = 6;</code>
      */
     @java.lang.Override
     public int getUnlockTaskListCount() {
       return unlockTaskList_.size();
     }
     /**
-     * <code>repeated .BartenderTaskInfo unlock_task_list = 5;</code>
+     * <code>repeated .BartenderTaskInfo unlock_task_list = 6;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.BartenderTaskInfoOuterClass.BartenderTaskInfo getUnlockTaskList(int index) {
       return unlockTaskList_.get(index);
     }
     /**
-     * <code>repeated .BartenderTaskInfo unlock_task_list = 5;</code>
+     * <code>repeated .BartenderTaskInfo unlock_task_list = 6;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.BartenderTaskInfoOuterClass.BartenderTaskInfoOrBuilder getUnlockTaskListOrBuilder(
@@ -316,17 +316,17 @@ public final class BartenderActivityDetailInfoOuterClass {
       return unlockTaskList_.get(index);
     }
 
-    public static final int UNLOCK_LEVEL_LIST_FIELD_NUMBER = 6;
+    public static final int UNLOCK_LEVEL_LIST_FIELD_NUMBER = 4;
     private java.util.List<emu.grasscutter.net.proto.BartenderLevelInfoOuterClass.BartenderLevelInfo> unlockLevelList_;
     /**
-     * <code>repeated .BartenderLevelInfo unlock_level_list = 6;</code>
+     * <code>repeated .BartenderLevelInfo unlock_level_list = 4;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.BartenderLevelInfoOuterClass.BartenderLevelInfo> getUnlockLevelListList() {
       return unlockLevelList_;
     }
     /**
-     * <code>repeated .BartenderLevelInfo unlock_level_list = 6;</code>
+     * <code>repeated .BartenderLevelInfo unlock_level_list = 4;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.BartenderLevelInfoOuterClass.BartenderLevelInfoOrBuilder> 
@@ -334,21 +334,21 @@ public final class BartenderActivityDetailInfoOuterClass {
       return unlockLevelList_;
     }
     /**
-     * <code>repeated .BartenderLevelInfo unlock_level_list = 6;</code>
+     * <code>repeated .BartenderLevelInfo unlock_level_list = 4;</code>
      */
     @java.lang.Override
     public int getUnlockLevelListCount() {
       return unlockLevelList_.size();
     }
     /**
-     * <code>repeated .BartenderLevelInfo unlock_level_list = 6;</code>
+     * <code>repeated .BartenderLevelInfo unlock_level_list = 4;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.BartenderLevelInfoOuterClass.BartenderLevelInfo getUnlockLevelList(int index) {
       return unlockLevelList_.get(index);
     }
     /**
-     * <code>repeated .BartenderLevelInfo unlock_level_list = 6;</code>
+     * <code>repeated .BartenderLevelInfo unlock_level_list = 4;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.BartenderLevelInfoOuterClass.BartenderLevelInfoOrBuilder getUnlockLevelListOrBuilder(
@@ -356,10 +356,10 @@ public final class BartenderActivityDetailInfoOuterClass {
       return unlockLevelList_.get(index);
     }
 
-    public static final int ENBFJNEEJNP_FIELD_NUMBER = 8;
+    public static final int ENBFJNEEJNP_FIELD_NUMBER = 50000;
     private com.google.protobuf.Internal.IntList eNBFJNEEJNP_;
     /**
-     * <code>repeated uint32 ENBFJNEEJNP = 8;</code>
+     * <code>repeated uint32 ENBFJNEEJNP = 50000;</code>
      * @return A list containing the eNBFJNEEJNP.
      */
     @java.lang.Override
@@ -368,14 +368,14 @@ public final class BartenderActivityDetailInfoOuterClass {
       return eNBFJNEEJNP_;
     }
     /**
-     * <code>repeated uint32 ENBFJNEEJNP = 8;</code>
+     * <code>repeated uint32 ENBFJNEEJNP = 50000;</code>
      * @return The count of eNBFJNEEJNP.
      */
     public int getENBFJNEEJNPCount() {
       return eNBFJNEEJNP_.size();
     }
     /**
-     * <code>repeated uint32 ENBFJNEEJNP = 8;</code>
+     * <code>repeated uint32 ENBFJNEEJNP = 50000;</code>
      * @param index The index of the element to return.
      * @return The eNBFJNEEJNP at the given index.
      */
@@ -384,10 +384,10 @@ public final class BartenderActivityDetailInfoOuterClass {
     }
     private int eNBFJNEEJNPMemoizedSerializedSize = -1;
 
-    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 9;
+    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 15;
     private boolean isContentClosed_;
     /**
-     * <code>bool is_content_closed = 9;</code>
+     * <code>bool is_content_closed = 15;</code>
      * @return The isContentClosed.
      */
     @java.lang.Override
@@ -395,10 +395,10 @@ public final class BartenderActivityDetailInfoOuterClass {
       return isContentClosed_;
     }
 
-    public static final int IS_DEVELOP_MODULE_OPEN_FIELD_NUMBER = 10;
+    public static final int IS_DEVELOP_MODULE_OPEN_FIELD_NUMBER = 11;
     private boolean isDevelopModuleOpen_;
     /**
-     * <code>bool is_develop_module_open = 10;</code>
+     * <code>bool is_develop_module_open = 11;</code>
      * @return The isDevelopModuleOpen.
      */
     @java.lang.Override
@@ -406,10 +406,10 @@ public final class BartenderActivityDetailInfoOuterClass {
       return isDevelopModuleOpen_;
     }
 
-    public static final int PCPKHLCPABB_FIELD_NUMBER = 13;
+    public static final int PCPKHLCPABB_FIELD_NUMBER = 50001;
     private com.google.protobuf.Internal.IntList pCPKHLCPABB_;
     /**
-     * <code>repeated uint32 PCPKHLCPABB = 13;</code>
+     * <code>repeated uint32 PCPKHLCPABB = 50001;</code>
      * @return A list containing the pCPKHLCPABB.
      */
     @java.lang.Override
@@ -418,14 +418,14 @@ public final class BartenderActivityDetailInfoOuterClass {
       return pCPKHLCPABB_;
     }
     /**
-     * <code>repeated uint32 PCPKHLCPABB = 13;</code>
+     * <code>repeated uint32 PCPKHLCPABB = 50001;</code>
      * @return The count of pCPKHLCPABB.
      */
     public int getPCPKHLCPABBCount() {
       return pCPKHLCPABB_.size();
     }
     /**
-     * <code>repeated uint32 PCPKHLCPABB = 13;</code>
+     * <code>repeated uint32 PCPKHLCPABB = 50001;</code>
      * @param index The index of the element to return.
      * @return The pCPKHLCPABB at the given index.
      */
@@ -449,27 +449,27 @@ public final class BartenderActivityDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      for (int i = 0; i < unlockTaskList_.size(); i++) {
-        output.writeMessage(5, unlockTaskList_.get(i));
-      }
       for (int i = 0; i < unlockLevelList_.size(); i++) {
-        output.writeMessage(6, unlockLevelList_.get(i));
+        output.writeMessage(4, unlockLevelList_.get(i));
+      }
+      for (int i = 0; i < unlockTaskList_.size(); i++) {
+        output.writeMessage(6, unlockTaskList_.get(i));
+      }
+      if (isDevelopModuleOpen_ != false) {
+        output.writeBool(11, isDevelopModuleOpen_);
+      }
+      if (isContentClosed_ != false) {
+        output.writeBool(15, isContentClosed_);
       }
       if (getENBFJNEEJNPList().size() > 0) {
-        output.writeUInt32NoTag(66);
+        output.writeUInt32NoTag(400002);
         output.writeUInt32NoTag(eNBFJNEEJNPMemoizedSerializedSize);
       }
       for (int i = 0; i < eNBFJNEEJNP_.size(); i++) {
         output.writeUInt32NoTag(eNBFJNEEJNP_.getInt(i));
       }
-      if (isContentClosed_ != false) {
-        output.writeBool(9, isContentClosed_);
-      }
-      if (isDevelopModuleOpen_ != false) {
-        output.writeBool(10, isDevelopModuleOpen_);
-      }
       if (getPCPKHLCPABBList().size() > 0) {
-        output.writeUInt32NoTag(106);
+        output.writeUInt32NoTag(400010);
         output.writeUInt32NoTag(pCPKHLCPABBMemoizedSerializedSize);
       }
       for (int i = 0; i < pCPKHLCPABB_.size(); i++) {
@@ -484,13 +484,21 @@ public final class BartenderActivityDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < unlockTaskList_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, unlockTaskList_.get(i));
-      }
       for (int i = 0; i < unlockLevelList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, unlockLevelList_.get(i));
+          .computeMessageSize(4, unlockLevelList_.get(i));
+      }
+      for (int i = 0; i < unlockTaskList_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(6, unlockTaskList_.get(i));
+      }
+      if (isDevelopModuleOpen_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(11, isDevelopModuleOpen_);
+      }
+      if (isContentClosed_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(15, isContentClosed_);
       }
       {
         int dataSize = 0;
@@ -500,19 +508,11 @@ public final class BartenderActivityDetailInfoOuterClass {
         }
         size += dataSize;
         if (!getENBFJNEEJNPList().isEmpty()) {
-          size += 1;
+          size += 3;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
         eNBFJNEEJNPMemoizedSerializedSize = dataSize;
-      }
-      if (isContentClosed_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, isContentClosed_);
-      }
-      if (isDevelopModuleOpen_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(10, isDevelopModuleOpen_);
       }
       {
         int dataSize = 0;
@@ -522,7 +522,7 @@ public final class BartenderActivityDetailInfoOuterClass {
         }
         size += dataSize;
         if (!getPCPKHLCPABBList().isEmpty()) {
-          size += 1;
+          size += 3;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
@@ -969,7 +969,7 @@ public final class BartenderActivityDetailInfoOuterClass {
           emu.grasscutter.net.proto.BartenderTaskInfoOuterClass.BartenderTaskInfo, emu.grasscutter.net.proto.BartenderTaskInfoOuterClass.BartenderTaskInfo.Builder, emu.grasscutter.net.proto.BartenderTaskInfoOuterClass.BartenderTaskInfoOrBuilder> unlockTaskListBuilder_;
 
       /**
-       * <code>repeated .BartenderTaskInfo unlock_task_list = 5;</code>
+       * <code>repeated .BartenderTaskInfo unlock_task_list = 6;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.BartenderTaskInfoOuterClass.BartenderTaskInfo> getUnlockTaskListList() {
         if (unlockTaskListBuilder_ == null) {
@@ -979,7 +979,7 @@ public final class BartenderActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BartenderTaskInfo unlock_task_list = 5;</code>
+       * <code>repeated .BartenderTaskInfo unlock_task_list = 6;</code>
        */
       public int getUnlockTaskListCount() {
         if (unlockTaskListBuilder_ == null) {
@@ -989,7 +989,7 @@ public final class BartenderActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BartenderTaskInfo unlock_task_list = 5;</code>
+       * <code>repeated .BartenderTaskInfo unlock_task_list = 6;</code>
        */
       public emu.grasscutter.net.proto.BartenderTaskInfoOuterClass.BartenderTaskInfo getUnlockTaskList(int index) {
         if (unlockTaskListBuilder_ == null) {
@@ -999,7 +999,7 @@ public final class BartenderActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BartenderTaskInfo unlock_task_list = 5;</code>
+       * <code>repeated .BartenderTaskInfo unlock_task_list = 6;</code>
        */
       public Builder setUnlockTaskList(
           int index, emu.grasscutter.net.proto.BartenderTaskInfoOuterClass.BartenderTaskInfo value) {
@@ -1016,7 +1016,7 @@ public final class BartenderActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BartenderTaskInfo unlock_task_list = 5;</code>
+       * <code>repeated .BartenderTaskInfo unlock_task_list = 6;</code>
        */
       public Builder setUnlockTaskList(
           int index, emu.grasscutter.net.proto.BartenderTaskInfoOuterClass.BartenderTaskInfo.Builder builderForValue) {
@@ -1030,7 +1030,7 @@ public final class BartenderActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BartenderTaskInfo unlock_task_list = 5;</code>
+       * <code>repeated .BartenderTaskInfo unlock_task_list = 6;</code>
        */
       public Builder addUnlockTaskList(emu.grasscutter.net.proto.BartenderTaskInfoOuterClass.BartenderTaskInfo value) {
         if (unlockTaskListBuilder_ == null) {
@@ -1046,7 +1046,7 @@ public final class BartenderActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BartenderTaskInfo unlock_task_list = 5;</code>
+       * <code>repeated .BartenderTaskInfo unlock_task_list = 6;</code>
        */
       public Builder addUnlockTaskList(
           int index, emu.grasscutter.net.proto.BartenderTaskInfoOuterClass.BartenderTaskInfo value) {
@@ -1063,7 +1063,7 @@ public final class BartenderActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BartenderTaskInfo unlock_task_list = 5;</code>
+       * <code>repeated .BartenderTaskInfo unlock_task_list = 6;</code>
        */
       public Builder addUnlockTaskList(
           emu.grasscutter.net.proto.BartenderTaskInfoOuterClass.BartenderTaskInfo.Builder builderForValue) {
@@ -1077,7 +1077,7 @@ public final class BartenderActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BartenderTaskInfo unlock_task_list = 5;</code>
+       * <code>repeated .BartenderTaskInfo unlock_task_list = 6;</code>
        */
       public Builder addUnlockTaskList(
           int index, emu.grasscutter.net.proto.BartenderTaskInfoOuterClass.BartenderTaskInfo.Builder builderForValue) {
@@ -1091,7 +1091,7 @@ public final class BartenderActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BartenderTaskInfo unlock_task_list = 5;</code>
+       * <code>repeated .BartenderTaskInfo unlock_task_list = 6;</code>
        */
       public Builder addAllUnlockTaskList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.BartenderTaskInfoOuterClass.BartenderTaskInfo> values) {
@@ -1106,7 +1106,7 @@ public final class BartenderActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BartenderTaskInfo unlock_task_list = 5;</code>
+       * <code>repeated .BartenderTaskInfo unlock_task_list = 6;</code>
        */
       public Builder clearUnlockTaskList() {
         if (unlockTaskListBuilder_ == null) {
@@ -1119,7 +1119,7 @@ public final class BartenderActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BartenderTaskInfo unlock_task_list = 5;</code>
+       * <code>repeated .BartenderTaskInfo unlock_task_list = 6;</code>
        */
       public Builder removeUnlockTaskList(int index) {
         if (unlockTaskListBuilder_ == null) {
@@ -1132,14 +1132,14 @@ public final class BartenderActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BartenderTaskInfo unlock_task_list = 5;</code>
+       * <code>repeated .BartenderTaskInfo unlock_task_list = 6;</code>
        */
       public emu.grasscutter.net.proto.BartenderTaskInfoOuterClass.BartenderTaskInfo.Builder getUnlockTaskListBuilder(
           int index) {
         return getUnlockTaskListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .BartenderTaskInfo unlock_task_list = 5;</code>
+       * <code>repeated .BartenderTaskInfo unlock_task_list = 6;</code>
        */
       public emu.grasscutter.net.proto.BartenderTaskInfoOuterClass.BartenderTaskInfoOrBuilder getUnlockTaskListOrBuilder(
           int index) {
@@ -1149,7 +1149,7 @@ public final class BartenderActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BartenderTaskInfo unlock_task_list = 5;</code>
+       * <code>repeated .BartenderTaskInfo unlock_task_list = 6;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.BartenderTaskInfoOuterClass.BartenderTaskInfoOrBuilder> 
            getUnlockTaskListOrBuilderList() {
@@ -1160,14 +1160,14 @@ public final class BartenderActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BartenderTaskInfo unlock_task_list = 5;</code>
+       * <code>repeated .BartenderTaskInfo unlock_task_list = 6;</code>
        */
       public emu.grasscutter.net.proto.BartenderTaskInfoOuterClass.BartenderTaskInfo.Builder addUnlockTaskListBuilder() {
         return getUnlockTaskListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.BartenderTaskInfoOuterClass.BartenderTaskInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .BartenderTaskInfo unlock_task_list = 5;</code>
+       * <code>repeated .BartenderTaskInfo unlock_task_list = 6;</code>
        */
       public emu.grasscutter.net.proto.BartenderTaskInfoOuterClass.BartenderTaskInfo.Builder addUnlockTaskListBuilder(
           int index) {
@@ -1175,7 +1175,7 @@ public final class BartenderActivityDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.BartenderTaskInfoOuterClass.BartenderTaskInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .BartenderTaskInfo unlock_task_list = 5;</code>
+       * <code>repeated .BartenderTaskInfo unlock_task_list = 6;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.BartenderTaskInfoOuterClass.BartenderTaskInfo.Builder> 
            getUnlockTaskListBuilderList() {
@@ -1209,7 +1209,7 @@ public final class BartenderActivityDetailInfoOuterClass {
           emu.grasscutter.net.proto.BartenderLevelInfoOuterClass.BartenderLevelInfo, emu.grasscutter.net.proto.BartenderLevelInfoOuterClass.BartenderLevelInfo.Builder, emu.grasscutter.net.proto.BartenderLevelInfoOuterClass.BartenderLevelInfoOrBuilder> unlockLevelListBuilder_;
 
       /**
-       * <code>repeated .BartenderLevelInfo unlock_level_list = 6;</code>
+       * <code>repeated .BartenderLevelInfo unlock_level_list = 4;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.BartenderLevelInfoOuterClass.BartenderLevelInfo> getUnlockLevelListList() {
         if (unlockLevelListBuilder_ == null) {
@@ -1219,7 +1219,7 @@ public final class BartenderActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BartenderLevelInfo unlock_level_list = 6;</code>
+       * <code>repeated .BartenderLevelInfo unlock_level_list = 4;</code>
        */
       public int getUnlockLevelListCount() {
         if (unlockLevelListBuilder_ == null) {
@@ -1229,7 +1229,7 @@ public final class BartenderActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BartenderLevelInfo unlock_level_list = 6;</code>
+       * <code>repeated .BartenderLevelInfo unlock_level_list = 4;</code>
        */
       public emu.grasscutter.net.proto.BartenderLevelInfoOuterClass.BartenderLevelInfo getUnlockLevelList(int index) {
         if (unlockLevelListBuilder_ == null) {
@@ -1239,7 +1239,7 @@ public final class BartenderActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BartenderLevelInfo unlock_level_list = 6;</code>
+       * <code>repeated .BartenderLevelInfo unlock_level_list = 4;</code>
        */
       public Builder setUnlockLevelList(
           int index, emu.grasscutter.net.proto.BartenderLevelInfoOuterClass.BartenderLevelInfo value) {
@@ -1256,7 +1256,7 @@ public final class BartenderActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BartenderLevelInfo unlock_level_list = 6;</code>
+       * <code>repeated .BartenderLevelInfo unlock_level_list = 4;</code>
        */
       public Builder setUnlockLevelList(
           int index, emu.grasscutter.net.proto.BartenderLevelInfoOuterClass.BartenderLevelInfo.Builder builderForValue) {
@@ -1270,7 +1270,7 @@ public final class BartenderActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BartenderLevelInfo unlock_level_list = 6;</code>
+       * <code>repeated .BartenderLevelInfo unlock_level_list = 4;</code>
        */
       public Builder addUnlockLevelList(emu.grasscutter.net.proto.BartenderLevelInfoOuterClass.BartenderLevelInfo value) {
         if (unlockLevelListBuilder_ == null) {
@@ -1286,7 +1286,7 @@ public final class BartenderActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BartenderLevelInfo unlock_level_list = 6;</code>
+       * <code>repeated .BartenderLevelInfo unlock_level_list = 4;</code>
        */
       public Builder addUnlockLevelList(
           int index, emu.grasscutter.net.proto.BartenderLevelInfoOuterClass.BartenderLevelInfo value) {
@@ -1303,7 +1303,7 @@ public final class BartenderActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BartenderLevelInfo unlock_level_list = 6;</code>
+       * <code>repeated .BartenderLevelInfo unlock_level_list = 4;</code>
        */
       public Builder addUnlockLevelList(
           emu.grasscutter.net.proto.BartenderLevelInfoOuterClass.BartenderLevelInfo.Builder builderForValue) {
@@ -1317,7 +1317,7 @@ public final class BartenderActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BartenderLevelInfo unlock_level_list = 6;</code>
+       * <code>repeated .BartenderLevelInfo unlock_level_list = 4;</code>
        */
       public Builder addUnlockLevelList(
           int index, emu.grasscutter.net.proto.BartenderLevelInfoOuterClass.BartenderLevelInfo.Builder builderForValue) {
@@ -1331,7 +1331,7 @@ public final class BartenderActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BartenderLevelInfo unlock_level_list = 6;</code>
+       * <code>repeated .BartenderLevelInfo unlock_level_list = 4;</code>
        */
       public Builder addAllUnlockLevelList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.BartenderLevelInfoOuterClass.BartenderLevelInfo> values) {
@@ -1346,7 +1346,7 @@ public final class BartenderActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BartenderLevelInfo unlock_level_list = 6;</code>
+       * <code>repeated .BartenderLevelInfo unlock_level_list = 4;</code>
        */
       public Builder clearUnlockLevelList() {
         if (unlockLevelListBuilder_ == null) {
@@ -1359,7 +1359,7 @@ public final class BartenderActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BartenderLevelInfo unlock_level_list = 6;</code>
+       * <code>repeated .BartenderLevelInfo unlock_level_list = 4;</code>
        */
       public Builder removeUnlockLevelList(int index) {
         if (unlockLevelListBuilder_ == null) {
@@ -1372,14 +1372,14 @@ public final class BartenderActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BartenderLevelInfo unlock_level_list = 6;</code>
+       * <code>repeated .BartenderLevelInfo unlock_level_list = 4;</code>
        */
       public emu.grasscutter.net.proto.BartenderLevelInfoOuterClass.BartenderLevelInfo.Builder getUnlockLevelListBuilder(
           int index) {
         return getUnlockLevelListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .BartenderLevelInfo unlock_level_list = 6;</code>
+       * <code>repeated .BartenderLevelInfo unlock_level_list = 4;</code>
        */
       public emu.grasscutter.net.proto.BartenderLevelInfoOuterClass.BartenderLevelInfoOrBuilder getUnlockLevelListOrBuilder(
           int index) {
@@ -1389,7 +1389,7 @@ public final class BartenderActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BartenderLevelInfo unlock_level_list = 6;</code>
+       * <code>repeated .BartenderLevelInfo unlock_level_list = 4;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.BartenderLevelInfoOuterClass.BartenderLevelInfoOrBuilder> 
            getUnlockLevelListOrBuilderList() {
@@ -1400,14 +1400,14 @@ public final class BartenderActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BartenderLevelInfo unlock_level_list = 6;</code>
+       * <code>repeated .BartenderLevelInfo unlock_level_list = 4;</code>
        */
       public emu.grasscutter.net.proto.BartenderLevelInfoOuterClass.BartenderLevelInfo.Builder addUnlockLevelListBuilder() {
         return getUnlockLevelListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.BartenderLevelInfoOuterClass.BartenderLevelInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .BartenderLevelInfo unlock_level_list = 6;</code>
+       * <code>repeated .BartenderLevelInfo unlock_level_list = 4;</code>
        */
       public emu.grasscutter.net.proto.BartenderLevelInfoOuterClass.BartenderLevelInfo.Builder addUnlockLevelListBuilder(
           int index) {
@@ -1415,7 +1415,7 @@ public final class BartenderActivityDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.BartenderLevelInfoOuterClass.BartenderLevelInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .BartenderLevelInfo unlock_level_list = 6;</code>
+       * <code>repeated .BartenderLevelInfo unlock_level_list = 4;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.BartenderLevelInfoOuterClass.BartenderLevelInfo.Builder> 
            getUnlockLevelListBuilderList() {
@@ -1444,7 +1444,7 @@ public final class BartenderActivityDetailInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 ENBFJNEEJNP = 8;</code>
+       * <code>repeated uint32 ENBFJNEEJNP = 50000;</code>
        * @return A list containing the eNBFJNEEJNP.
        */
       public java.util.List<java.lang.Integer>
@@ -1453,14 +1453,14 @@ public final class BartenderActivityDetailInfoOuterClass {
                  java.util.Collections.unmodifiableList(eNBFJNEEJNP_) : eNBFJNEEJNP_;
       }
       /**
-       * <code>repeated uint32 ENBFJNEEJNP = 8;</code>
+       * <code>repeated uint32 ENBFJNEEJNP = 50000;</code>
        * @return The count of eNBFJNEEJNP.
        */
       public int getENBFJNEEJNPCount() {
         return eNBFJNEEJNP_.size();
       }
       /**
-       * <code>repeated uint32 ENBFJNEEJNP = 8;</code>
+       * <code>repeated uint32 ENBFJNEEJNP = 50000;</code>
        * @param index The index of the element to return.
        * @return The eNBFJNEEJNP at the given index.
        */
@@ -1468,7 +1468,7 @@ public final class BartenderActivityDetailInfoOuterClass {
         return eNBFJNEEJNP_.getInt(index);
       }
       /**
-       * <code>repeated uint32 ENBFJNEEJNP = 8;</code>
+       * <code>repeated uint32 ENBFJNEEJNP = 50000;</code>
        * @param index The index to set the value at.
        * @param value The eNBFJNEEJNP to set.
        * @return This builder for chaining.
@@ -1481,7 +1481,7 @@ public final class BartenderActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 ENBFJNEEJNP = 8;</code>
+       * <code>repeated uint32 ENBFJNEEJNP = 50000;</code>
        * @param value The eNBFJNEEJNP to add.
        * @return This builder for chaining.
        */
@@ -1492,7 +1492,7 @@ public final class BartenderActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 ENBFJNEEJNP = 8;</code>
+       * <code>repeated uint32 ENBFJNEEJNP = 50000;</code>
        * @param values The eNBFJNEEJNP to add.
        * @return This builder for chaining.
        */
@@ -1505,7 +1505,7 @@ public final class BartenderActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 ENBFJNEEJNP = 8;</code>
+       * <code>repeated uint32 ENBFJNEEJNP = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearENBFJNEEJNP() {
@@ -1517,7 +1517,7 @@ public final class BartenderActivityDetailInfoOuterClass {
 
       private boolean isContentClosed_ ;
       /**
-       * <code>bool is_content_closed = 9;</code>
+       * <code>bool is_content_closed = 15;</code>
        * @return The isContentClosed.
        */
       @java.lang.Override
@@ -1525,7 +1525,7 @@ public final class BartenderActivityDetailInfoOuterClass {
         return isContentClosed_;
       }
       /**
-       * <code>bool is_content_closed = 9;</code>
+       * <code>bool is_content_closed = 15;</code>
        * @param value The isContentClosed to set.
        * @return This builder for chaining.
        */
@@ -1536,7 +1536,7 @@ public final class BartenderActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_content_closed = 9;</code>
+       * <code>bool is_content_closed = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsContentClosed() {
@@ -1548,7 +1548,7 @@ public final class BartenderActivityDetailInfoOuterClass {
 
       private boolean isDevelopModuleOpen_ ;
       /**
-       * <code>bool is_develop_module_open = 10;</code>
+       * <code>bool is_develop_module_open = 11;</code>
        * @return The isDevelopModuleOpen.
        */
       @java.lang.Override
@@ -1556,7 +1556,7 @@ public final class BartenderActivityDetailInfoOuterClass {
         return isDevelopModuleOpen_;
       }
       /**
-       * <code>bool is_develop_module_open = 10;</code>
+       * <code>bool is_develop_module_open = 11;</code>
        * @param value The isDevelopModuleOpen to set.
        * @return This builder for chaining.
        */
@@ -1567,7 +1567,7 @@ public final class BartenderActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_develop_module_open = 10;</code>
+       * <code>bool is_develop_module_open = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsDevelopModuleOpen() {
@@ -1585,7 +1585,7 @@ public final class BartenderActivityDetailInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 PCPKHLCPABB = 13;</code>
+       * <code>repeated uint32 PCPKHLCPABB = 50001;</code>
        * @return A list containing the pCPKHLCPABB.
        */
       public java.util.List<java.lang.Integer>
@@ -1594,14 +1594,14 @@ public final class BartenderActivityDetailInfoOuterClass {
                  java.util.Collections.unmodifiableList(pCPKHLCPABB_) : pCPKHLCPABB_;
       }
       /**
-       * <code>repeated uint32 PCPKHLCPABB = 13;</code>
+       * <code>repeated uint32 PCPKHLCPABB = 50001;</code>
        * @return The count of pCPKHLCPABB.
        */
       public int getPCPKHLCPABBCount() {
         return pCPKHLCPABB_.size();
       }
       /**
-       * <code>repeated uint32 PCPKHLCPABB = 13;</code>
+       * <code>repeated uint32 PCPKHLCPABB = 50001;</code>
        * @param index The index of the element to return.
        * @return The pCPKHLCPABB at the given index.
        */
@@ -1609,7 +1609,7 @@ public final class BartenderActivityDetailInfoOuterClass {
         return pCPKHLCPABB_.getInt(index);
       }
       /**
-       * <code>repeated uint32 PCPKHLCPABB = 13;</code>
+       * <code>repeated uint32 PCPKHLCPABB = 50001;</code>
        * @param index The index to set the value at.
        * @param value The pCPKHLCPABB to set.
        * @return This builder for chaining.
@@ -1622,7 +1622,7 @@ public final class BartenderActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 PCPKHLCPABB = 13;</code>
+       * <code>repeated uint32 PCPKHLCPABB = 50001;</code>
        * @param value The pCPKHLCPABB to add.
        * @return This builder for chaining.
        */
@@ -1633,7 +1633,7 @@ public final class BartenderActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 PCPKHLCPABB = 13;</code>
+       * <code>repeated uint32 PCPKHLCPABB = 50001;</code>
        * @param values The pCPKHLCPABB to add.
        * @return This builder for chaining.
        */
@@ -1646,7 +1646,7 @@ public final class BartenderActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 PCPKHLCPABB = 13;</code>
+       * <code>repeated uint32 PCPKHLCPABB = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearPCPKHLCPABB() {
@@ -1724,14 +1724,14 @@ public final class BartenderActivityDetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n!BartenderActivityDetailInfo.proto\032\030Bar" +
       "tenderLevelInfo.proto\032\027BartenderTaskInfo" +
-      ".proto\"\340\001\n\033BartenderActivityDetailInfo\022," +
-      "\n\020unlock_task_list\030\005 \003(\0132\022.BartenderTask" +
-      "Info\022.\n\021unlock_level_list\030\006 \003(\0132\023.Barten" +
-      "derLevelInfo\022\023\n\013ENBFJNEEJNP\030\010 \003(\r\022\031\n\021is_" +
-      "content_closed\030\t \001(\010\022\036\n\026is_develop_modul" +
-      "e_open\030\n \001(\010\022\023\n\013PCPKHLCPABB\030\r \003(\rBB\n\031emu" +
-      ".grasscutter.net.protoB%BartenderActivit" +
-      "yDetailInfoOuterClassb\006proto3"
+      ".proto\"\344\001\n\033BartenderActivityDetailInfo\022," +
+      "\n\020unlock_task_list\030\006 \003(\0132\022.BartenderTask" +
+      "Info\022.\n\021unlock_level_list\030\004 \003(\0132\023.Barten" +
+      "derLevelInfo\022\025\n\013ENBFJNEEJNP\030\320\206\003 \003(\r\022\031\n\021i" +
+      "s_content_closed\030\017 \001(\010\022\036\n\026is_develop_mod" +
+      "ule_open\030\013 \001(\010\022\025\n\013PCPKHLCPABB\030\321\206\003 \003(\rBB\n" +
+      "\031emu.grasscutter.net.protoB%BartenderAct" +
+      "ivityDetailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

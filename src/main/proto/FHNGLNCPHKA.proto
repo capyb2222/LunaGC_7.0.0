@@ -6,9 +6,9 @@ option java_outer_classname = "FHNGLNCPHKAOuterClass";
 import "INJNJCALJGD.proto";
 
 message FHNGLNCPHKA {
-	map<uint32, uint32> BMPLOGFCMLG = 2;
-	uint32 BOJCAOCOAJB = 3;
-	repeated INJNJCALJGD AEIFJINONJF = 5;
-	uint32 FMMKKONOKML = 11;
-	uint32 NEPACBNDBOI = 14;
+	map<uint32, uint32> BMPLOGFCMLG = 5;
+	uint32 BOJCAOCOAJB = 50000;
+	repeated INJNJCALJGD AEIFJINONJF = 10;
+	uint32 FMMKKONOKML = 50001;
+	uint32 NEPACBNDBOI = 3;
 }

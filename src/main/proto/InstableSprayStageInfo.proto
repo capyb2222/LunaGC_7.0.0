@@ -6,8 +6,8 @@ option java_outer_classname = "InstableSprayStageInfoOuterClass";
 import "InstableSprayTeamInfo.proto";
 
 message InstableSprayStageInfo {
-	bool is_finished = 4;
-	repeated InstableSprayTeamInfo team_info_list = 6;
-	uint32 stage_id = 9;
-	uint32 max_score = 13;
+	bool is_finished = 12;
+	repeated InstableSprayTeamInfo team_info_list = 7;
+	uint32 stage_id = 13;
+	uint32 max_score = 15;
 }

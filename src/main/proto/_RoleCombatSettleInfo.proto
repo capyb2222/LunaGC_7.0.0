@@ -8,16 +8,16 @@ import "IGNEGGFGNHB.proto";
 import "NBMAFDLIACA.proto";
 
 message _RoleCombatSettleInfo {
-	bool FBHFAMPKPPK = 1;
-	DIGMMKNOMJH NAMEIDCGGIF = 3;
+	bool FBHFAMPKPPK = 9;
+	DIGMMKNOMJH NAMEIDCGGIF = 13;
 	uint32 coin_num = 4;
-	bool INIDHGHIOOO = 5;
-	repeated IGNEGGFGNHB HMINJJJIEBB = 6;
-	uint32 difficulty_id = 7;
-	repeated uint32 KNCAOGIMIJJ = 8;
-	uint32 GBNCKPFLFIM = 10;
-	uint32 use_time = 11;
-	NBMAFDLIACA PEENJAIFAEN = 13;
-	repeated uint64 HFDHOLOKLJK = 14;
-	repeated uint64 avatar_guid_list = 15;
+	bool INIDHGHIOOO = 1;
+	repeated IGNEGGFGNHB HMINJJJIEBB = 3;
+	uint32 difficulty_id = 11;
+	repeated uint32 KNCAOGIMIJJ = 14;
+	uint32 GBNCKPFLFIM = 15;
+	uint32 use_time = 7;
+	NBMAFDLIACA PEENJAIFAEN = 5;
+	repeated uint64 HFDHOLOKLJK = 12;
+	repeated uint64 avatar_guid_list = 8;
 }

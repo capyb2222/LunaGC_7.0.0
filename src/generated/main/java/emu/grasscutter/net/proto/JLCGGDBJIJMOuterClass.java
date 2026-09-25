@@ -19,19 +19,19 @@ public final class JLCGGDBJIJMOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 IILFPOGNOCO = 2;</code>
+     * <code>uint32 IILFPOGNOCO = 6;</code>
      * @return The iILFPOGNOCO.
      */
     int getIILFPOGNOCO();
 
     /**
-     * <code>uint32 JCJCKHNDFIK = 7;</code>
+     * <code>uint32 JCJCKHNDFIK = 12;</code>
      * @return The jCJCKHNDFIK.
      */
     int getJCJCKHNDFIK();
 
     /**
-     * <code>uint32 POBNCEDDLGD = 15;</code>
+     * <code>uint32 POBNCEDDLGD = 9;</code>
      * @return The pOBNCEDDLGD.
      */
     int getPOBNCEDDLGD();
@@ -81,19 +81,19 @@ public final class JLCGGDBJIJMOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 48: {
 
               iILFPOGNOCO_ = input.readUInt32();
               break;
             }
-            case 56: {
-
-              jCJCKHNDFIK_ = input.readUInt32();
-              break;
-            }
-            case 120: {
+            case 72: {
 
               pOBNCEDDLGD_ = input.readUInt32();
+              break;
+            }
+            case 96: {
+
+              jCJCKHNDFIK_ = input.readUInt32();
               break;
             }
             default: {
@@ -128,10 +128,10 @@ public final class JLCGGDBJIJMOuterClass {
               emu.grasscutter.net.proto.JLCGGDBJIJMOuterClass.JLCGGDBJIJM.class, emu.grasscutter.net.proto.JLCGGDBJIJMOuterClass.JLCGGDBJIJM.Builder.class);
     }
 
-    public static final int IILFPOGNOCO_FIELD_NUMBER = 2;
+    public static final int IILFPOGNOCO_FIELD_NUMBER = 6;
     private int iILFPOGNOCO_;
     /**
-     * <code>uint32 IILFPOGNOCO = 2;</code>
+     * <code>uint32 IILFPOGNOCO = 6;</code>
      * @return The iILFPOGNOCO.
      */
     @java.lang.Override
@@ -139,10 +139,10 @@ public final class JLCGGDBJIJMOuterClass {
       return iILFPOGNOCO_;
     }
 
-    public static final int JCJCKHNDFIK_FIELD_NUMBER = 7;
+    public static final int JCJCKHNDFIK_FIELD_NUMBER = 12;
     private int jCJCKHNDFIK_;
     /**
-     * <code>uint32 JCJCKHNDFIK = 7;</code>
+     * <code>uint32 JCJCKHNDFIK = 12;</code>
      * @return The jCJCKHNDFIK.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class JLCGGDBJIJMOuterClass {
       return jCJCKHNDFIK_;
     }
 
-    public static final int POBNCEDDLGD_FIELD_NUMBER = 15;
+    public static final int POBNCEDDLGD_FIELD_NUMBER = 9;
     private int pOBNCEDDLGD_;
     /**
-     * <code>uint32 POBNCEDDLGD = 15;</code>
+     * <code>uint32 POBNCEDDLGD = 9;</code>
      * @return The pOBNCEDDLGD.
      */
     @java.lang.Override
@@ -176,13 +176,13 @@ public final class JLCGGDBJIJMOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (iILFPOGNOCO_ != 0) {
-        output.writeUInt32(2, iILFPOGNOCO_);
-      }
-      if (jCJCKHNDFIK_ != 0) {
-        output.writeUInt32(7, jCJCKHNDFIK_);
+        output.writeUInt32(6, iILFPOGNOCO_);
       }
       if (pOBNCEDDLGD_ != 0) {
-        output.writeUInt32(15, pOBNCEDDLGD_);
+        output.writeUInt32(9, pOBNCEDDLGD_);
+      }
+      if (jCJCKHNDFIK_ != 0) {
+        output.writeUInt32(12, jCJCKHNDFIK_);
       }
       unknownFields.writeTo(output);
     }
@@ -195,15 +195,15 @@ public final class JLCGGDBJIJMOuterClass {
       size = 0;
       if (iILFPOGNOCO_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, iILFPOGNOCO_);
-      }
-      if (jCJCKHNDFIK_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, jCJCKHNDFIK_);
+          .computeUInt32Size(6, iILFPOGNOCO_);
       }
       if (pOBNCEDDLGD_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, pOBNCEDDLGD_);
+          .computeUInt32Size(9, pOBNCEDDLGD_);
+      }
+      if (jCJCKHNDFIK_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(12, jCJCKHNDFIK_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -499,7 +499,7 @@ public final class JLCGGDBJIJMOuterClass {
 
       private int iILFPOGNOCO_ ;
       /**
-       * <code>uint32 IILFPOGNOCO = 2;</code>
+       * <code>uint32 IILFPOGNOCO = 6;</code>
        * @return The iILFPOGNOCO.
        */
       @java.lang.Override
@@ -507,7 +507,7 @@ public final class JLCGGDBJIJMOuterClass {
         return iILFPOGNOCO_;
       }
       /**
-       * <code>uint32 IILFPOGNOCO = 2;</code>
+       * <code>uint32 IILFPOGNOCO = 6;</code>
        * @param value The iILFPOGNOCO to set.
        * @return This builder for chaining.
        */
@@ -518,7 +518,7 @@ public final class JLCGGDBJIJMOuterClass {
         return this;
       }
       /**
-       * <code>uint32 IILFPOGNOCO = 2;</code>
+       * <code>uint32 IILFPOGNOCO = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearIILFPOGNOCO() {
@@ -530,7 +530,7 @@ public final class JLCGGDBJIJMOuterClass {
 
       private int jCJCKHNDFIK_ ;
       /**
-       * <code>uint32 JCJCKHNDFIK = 7;</code>
+       * <code>uint32 JCJCKHNDFIK = 12;</code>
        * @return The jCJCKHNDFIK.
        */
       @java.lang.Override
@@ -538,7 +538,7 @@ public final class JLCGGDBJIJMOuterClass {
         return jCJCKHNDFIK_;
       }
       /**
-       * <code>uint32 JCJCKHNDFIK = 7;</code>
+       * <code>uint32 JCJCKHNDFIK = 12;</code>
        * @param value The jCJCKHNDFIK to set.
        * @return This builder for chaining.
        */
@@ -549,7 +549,7 @@ public final class JLCGGDBJIJMOuterClass {
         return this;
       }
       /**
-       * <code>uint32 JCJCKHNDFIK = 7;</code>
+       * <code>uint32 JCJCKHNDFIK = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearJCJCKHNDFIK() {
@@ -561,7 +561,7 @@ public final class JLCGGDBJIJMOuterClass {
 
       private int pOBNCEDDLGD_ ;
       /**
-       * <code>uint32 POBNCEDDLGD = 15;</code>
+       * <code>uint32 POBNCEDDLGD = 9;</code>
        * @return The pOBNCEDDLGD.
        */
       @java.lang.Override
@@ -569,7 +569,7 @@ public final class JLCGGDBJIJMOuterClass {
         return pOBNCEDDLGD_;
       }
       /**
-       * <code>uint32 POBNCEDDLGD = 15;</code>
+       * <code>uint32 POBNCEDDLGD = 9;</code>
        * @param value The pOBNCEDDLGD to set.
        * @return This builder for chaining.
        */
@@ -580,7 +580,7 @@ public final class JLCGGDBJIJMOuterClass {
         return this;
       }
       /**
-       * <code>uint32 POBNCEDDLGD = 15;</code>
+       * <code>uint32 POBNCEDDLGD = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearPOBNCEDDLGD() {
@@ -657,8 +657,8 @@ public final class JLCGGDBJIJMOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021JLCGGDBJIJM.proto\"L\n\013JLCGGDBJIJM\022\023\n\013II" +
-      "LFPOGNOCO\030\002 \001(\r\022\023\n\013JCJCKHNDFIK\030\007 \001(\r\022\023\n\013" +
-      "POBNCEDDLGD\030\017 \001(\rB2\n\031emu.grasscutter.net" +
+      "LFPOGNOCO\030\006 \001(\r\022\023\n\013JCJCKHNDFIK\030\014 \001(\r\022\023\n\013" +
+      "POBNCEDDLGD\030\t \001(\rB2\n\031emu.grasscutter.net" +
       ".protoB\025JLCGGDBJIJMOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

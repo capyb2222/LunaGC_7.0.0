@@ -5,5 +5,5 @@ option java_outer_classname = "HomeKickPlayerReqOuterClass";
 
 message HomeKickPlayerReq {
 	uint32 target_uid = 1;
-	bool is_kick_all = 15;
+	bool is_kick_all = 3;
 }

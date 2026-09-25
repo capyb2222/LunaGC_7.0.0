@@ -8,7 +8,7 @@ import "PBNLFGAMIGI.proto";
 
 message _NatlanDragonPartySettleInfo {
 	repeated PBNLFGAMIGI PPENJHKDFHJ = 8;
-	repeated uint32 winner_uid_list = 9;
-	uint32 level_id = 13;
-	repeated ExhibitionDisplayInfo JANGDIMHCAC = 15;
+	repeated uint32 winner_uid_list = 6;
+	uint32 level_id = 5;
+	repeated ExhibitionDisplayInfo JANGDIMHCAC = 3;
 }

@@ -6,10 +6,10 @@ option java_outer_classname = "GetGachaInfoRspOuterClass";
 import "GachaInfo.proto";
 
 message GetGachaInfoRsp {
-	bool is_under_general_restrict = 7;
-	uint32 gacha_random = 8;
-	bool is_under_minors_restrict = 10;
-	repeated GachaInfo gacha_info_list = 12;
-	uint32 daily_gacha_times = 13;
-	int32 retcode = 15;
+	bool is_under_general_restrict = 50000;
+	uint32 gacha_random = 11;
+	bool is_under_minors_restrict = 50001;
+	repeated GachaInfo gacha_info_list = 14;
+	uint32 daily_gacha_times = 1;
+	int32 retcode = 13;
 }

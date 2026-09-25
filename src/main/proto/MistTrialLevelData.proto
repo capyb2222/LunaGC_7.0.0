@@ -6,10 +6,10 @@ option java_outer_classname = "MistTrialLevelDataOuterClass";
 import "MistTrialBestAvatar.proto";
 
 message MistTrialLevelData {
-	MistTrialBestAvatar best_hit_avatar = 1;
-	uint32 first_pass_time = 4;
-	repeated MistTrialBestAvatar best_avatar_list = 8;
-	uint32 level_id = 10;
-	bool is_open = 11;
-	uint32 open_time = 15;
+	MistTrialBestAvatar best_hit_avatar = 4;
+	uint32 first_pass_time = 1;
+	repeated MistTrialBestAvatar best_avatar_list = 15;
+	uint32 level_id = 2;
+	bool is_open = 3;
+	uint32 open_time = 11;
 }

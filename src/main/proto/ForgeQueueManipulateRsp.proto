@@ -7,9 +7,9 @@ import "ForgeQueueManipulateType.proto";
 import "ItemHint.proto";
 
 message ForgeQueueManipulateRsp {
-	int32 retcode = 2;
-	repeated ItemHint extra_output_item_list = 7;
+	int32 retcode = 6;
+	repeated ItemHint extra_output_item_list = 3;
 	ForgeQueueManipulateType manipulate_type = 9;
-	repeated ItemHint return_item_list = 12;
-	repeated ItemHint output_item_list = 14;
+	repeated ItemHint return_item_list = 50000;
+	repeated ItemHint output_item_list = 50001;
 }

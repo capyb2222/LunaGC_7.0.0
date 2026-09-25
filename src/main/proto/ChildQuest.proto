@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "ChildQuestOuterClass";
 
 message ChildQuest {
-	uint32 quest_id = 2;
-	uint32 quest_config_id = 6;
-	uint32 state = 13;
+	uint32 quest_id = 5;
+	uint32 quest_config_id = 13;
+	uint32 state = 3;
 }

@@ -7,8 +7,8 @@ import "CrucibleBattleUidInfo.proto";
 import "Vector.proto";
 
 message CrucibleActivityDetailInfo {
-	uint32 battle_world_level = 3;
-	repeated CrucibleBattleUidInfo uid_info_list = 5;
-	Vector pos = 9;
-	uint32 cost_time = 12;
+	uint32 battle_world_level = 12;
+	repeated CrucibleBattleUidInfo uid_info_list = 6;
+	Vector pos = 15;
+	uint32 cost_time = 9;
 }

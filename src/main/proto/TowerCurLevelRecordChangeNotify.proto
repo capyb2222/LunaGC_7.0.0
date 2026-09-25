@@ -6,5 +6,5 @@ option java_outer_classname = "TowerCurLevelRecordChangeNotifyOuterClass";
 import "TowerCurLevelRecord.proto";
 
 message TowerCurLevelRecordChangeNotify {
-	TowerCurLevelRecord cur_level_record = 14;
+	TowerCurLevelRecord cur_level_record = 3;
 }

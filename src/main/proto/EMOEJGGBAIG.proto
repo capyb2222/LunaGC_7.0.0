@@ -6,5 +6,5 @@ option java_outer_classname = "EMOEJGGBAIGOuterClass";
 import "JLCGGDBJIJM.proto";
 
 message EMOEJGGBAIG {
-	repeated JLCGGDBJIJM MAOIOICPLBG = 15;
+	repeated JLCGGDBJIJM MAOIOICPLBG = 14;
 }

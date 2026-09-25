@@ -4,5 +4,5 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "AvatarGainCostumeNotifyOuterClass";
 
 message AvatarGainCostumeNotify {
-	uint32 costume_id = 6;
+	uint32 costume_id = 9;
 }

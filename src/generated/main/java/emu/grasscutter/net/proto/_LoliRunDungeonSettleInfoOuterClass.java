@@ -19,13 +19,13 @@ public final class _LoliRunDungeonSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 DOCOKIPMPKN = 4;</code>
+     * <code>uint32 DOCOKIPMPKN = 15;</code>
      * @return The dOCOKIPMPKN.
      */
     int getDOCOKIPMPKN();
 
     /**
-     * <code>uint32 hit_point = 5;</code>
+     * <code>uint32 hit_point = 14;</code>
      * @return The hitPoint.
      */
     int getHitPoint();
@@ -37,19 +37,19 @@ public final class _LoliRunDungeonSettleInfoOuterClass {
     int getScore();
 
     /**
-     * <code>uint32 level_id = 11;</code>
+     * <code>uint32 level_id = 3;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>uint32 collect_num = 12;</code>
+     * <code>uint32 collect_num = 13;</code>
      * @return The collectNum.
      */
     int getCollectNum();
 
     /**
-     * <code>bool is_new_record = 13;</code>
+     * <code>bool is_new_record = 9;</code>
      * @return The isNewRecord.
      */
     boolean getIsNewRecord();
@@ -99,14 +99,14 @@ public final class _LoliRunDungeonSettleInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 24: {
 
-              dOCOKIPMPKN_ = input.readUInt32();
+              levelId_ = input.readUInt32();
               break;
             }
-            case 40: {
+            case 72: {
 
-              hitPoint_ = input.readUInt32();
+              isNewRecord_ = input.readBool();
               break;
             }
             case 80: {
@@ -114,19 +114,19 @@ public final class _LoliRunDungeonSettleInfoOuterClass {
               score_ = input.readUInt32();
               break;
             }
-            case 88: {
-
-              levelId_ = input.readUInt32();
-              break;
-            }
-            case 96: {
+            case 104: {
 
               collectNum_ = input.readUInt32();
               break;
             }
-            case 104: {
+            case 112: {
 
-              isNewRecord_ = input.readBool();
+              hitPoint_ = input.readUInt32();
+              break;
+            }
+            case 120: {
+
+              dOCOKIPMPKN_ = input.readUInt32();
               break;
             }
             default: {
@@ -161,10 +161,10 @@ public final class _LoliRunDungeonSettleInfoOuterClass {
               emu.grasscutter.net.proto._LoliRunDungeonSettleInfoOuterClass._LoliRunDungeonSettleInfo.class, emu.grasscutter.net.proto._LoliRunDungeonSettleInfoOuterClass._LoliRunDungeonSettleInfo.Builder.class);
     }
 
-    public static final int DOCOKIPMPKN_FIELD_NUMBER = 4;
+    public static final int DOCOKIPMPKN_FIELD_NUMBER = 15;
     private int dOCOKIPMPKN_;
     /**
-     * <code>uint32 DOCOKIPMPKN = 4;</code>
+     * <code>uint32 DOCOKIPMPKN = 15;</code>
      * @return The dOCOKIPMPKN.
      */
     @java.lang.Override
@@ -172,10 +172,10 @@ public final class _LoliRunDungeonSettleInfoOuterClass {
       return dOCOKIPMPKN_;
     }
 
-    public static final int HIT_POINT_FIELD_NUMBER = 5;
+    public static final int HIT_POINT_FIELD_NUMBER = 14;
     private int hitPoint_;
     /**
-     * <code>uint32 hit_point = 5;</code>
+     * <code>uint32 hit_point = 14;</code>
      * @return The hitPoint.
      */
     @java.lang.Override
@@ -194,10 +194,10 @@ public final class _LoliRunDungeonSettleInfoOuterClass {
       return score_;
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 11;
+    public static final int LEVEL_ID_FIELD_NUMBER = 3;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 11;</code>
+     * <code>uint32 level_id = 3;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -205,10 +205,10 @@ public final class _LoliRunDungeonSettleInfoOuterClass {
       return levelId_;
     }
 
-    public static final int COLLECT_NUM_FIELD_NUMBER = 12;
+    public static final int COLLECT_NUM_FIELD_NUMBER = 13;
     private int collectNum_;
     /**
-     * <code>uint32 collect_num = 12;</code>
+     * <code>uint32 collect_num = 13;</code>
      * @return The collectNum.
      */
     @java.lang.Override
@@ -216,10 +216,10 @@ public final class _LoliRunDungeonSettleInfoOuterClass {
       return collectNum_;
     }
 
-    public static final int IS_NEW_RECORD_FIELD_NUMBER = 13;
+    public static final int IS_NEW_RECORD_FIELD_NUMBER = 9;
     private boolean isNewRecord_;
     /**
-     * <code>bool is_new_record = 13;</code>
+     * <code>bool is_new_record = 9;</code>
      * @return The isNewRecord.
      */
     @java.lang.Override
@@ -241,23 +241,23 @@ public final class _LoliRunDungeonSettleInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (dOCOKIPMPKN_ != 0) {
-        output.writeUInt32(4, dOCOKIPMPKN_);
+      if (levelId_ != 0) {
+        output.writeUInt32(3, levelId_);
       }
-      if (hitPoint_ != 0) {
-        output.writeUInt32(5, hitPoint_);
+      if (isNewRecord_ != false) {
+        output.writeBool(9, isNewRecord_);
       }
       if (score_ != 0) {
         output.writeUInt32(10, score_);
       }
-      if (levelId_ != 0) {
-        output.writeUInt32(11, levelId_);
-      }
       if (collectNum_ != 0) {
-        output.writeUInt32(12, collectNum_);
+        output.writeUInt32(13, collectNum_);
       }
-      if (isNewRecord_ != false) {
-        output.writeBool(13, isNewRecord_);
+      if (hitPoint_ != 0) {
+        output.writeUInt32(14, hitPoint_);
+      }
+      if (dOCOKIPMPKN_ != 0) {
+        output.writeUInt32(15, dOCOKIPMPKN_);
       }
       unknownFields.writeTo(output);
     }
@@ -268,29 +268,29 @@ public final class _LoliRunDungeonSettleInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (dOCOKIPMPKN_ != 0) {
+      if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, dOCOKIPMPKN_);
+          .computeUInt32Size(3, levelId_);
       }
-      if (hitPoint_ != 0) {
+      if (isNewRecord_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, hitPoint_);
+          .computeBoolSize(9, isNewRecord_);
       }
       if (score_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(10, score_);
       }
-      if (levelId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, levelId_);
-      }
       if (collectNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, collectNum_);
+          .computeUInt32Size(13, collectNum_);
       }
-      if (isNewRecord_ != false) {
+      if (hitPoint_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(13, isNewRecord_);
+          .computeUInt32Size(14, hitPoint_);
+      }
+      if (dOCOKIPMPKN_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(15, dOCOKIPMPKN_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -617,7 +617,7 @@ public final class _LoliRunDungeonSettleInfoOuterClass {
 
       private int dOCOKIPMPKN_ ;
       /**
-       * <code>uint32 DOCOKIPMPKN = 4;</code>
+       * <code>uint32 DOCOKIPMPKN = 15;</code>
        * @return The dOCOKIPMPKN.
        */
       @java.lang.Override
@@ -625,7 +625,7 @@ public final class _LoliRunDungeonSettleInfoOuterClass {
         return dOCOKIPMPKN_;
       }
       /**
-       * <code>uint32 DOCOKIPMPKN = 4;</code>
+       * <code>uint32 DOCOKIPMPKN = 15;</code>
        * @param value The dOCOKIPMPKN to set.
        * @return This builder for chaining.
        */
@@ -636,7 +636,7 @@ public final class _LoliRunDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 DOCOKIPMPKN = 4;</code>
+       * <code>uint32 DOCOKIPMPKN = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearDOCOKIPMPKN() {
@@ -648,7 +648,7 @@ public final class _LoliRunDungeonSettleInfoOuterClass {
 
       private int hitPoint_ ;
       /**
-       * <code>uint32 hit_point = 5;</code>
+       * <code>uint32 hit_point = 14;</code>
        * @return The hitPoint.
        */
       @java.lang.Override
@@ -656,7 +656,7 @@ public final class _LoliRunDungeonSettleInfoOuterClass {
         return hitPoint_;
       }
       /**
-       * <code>uint32 hit_point = 5;</code>
+       * <code>uint32 hit_point = 14;</code>
        * @param value The hitPoint to set.
        * @return This builder for chaining.
        */
@@ -667,7 +667,7 @@ public final class _LoliRunDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 hit_point = 5;</code>
+       * <code>uint32 hit_point = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearHitPoint() {
@@ -710,7 +710,7 @@ public final class _LoliRunDungeonSettleInfoOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 11;</code>
+       * <code>uint32 level_id = 3;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -718,7 +718,7 @@ public final class _LoliRunDungeonSettleInfoOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 11;</code>
+       * <code>uint32 level_id = 3;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -729,7 +729,7 @@ public final class _LoliRunDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 11;</code>
+       * <code>uint32 level_id = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -741,7 +741,7 @@ public final class _LoliRunDungeonSettleInfoOuterClass {
 
       private int collectNum_ ;
       /**
-       * <code>uint32 collect_num = 12;</code>
+       * <code>uint32 collect_num = 13;</code>
        * @return The collectNum.
        */
       @java.lang.Override
@@ -749,7 +749,7 @@ public final class _LoliRunDungeonSettleInfoOuterClass {
         return collectNum_;
       }
       /**
-       * <code>uint32 collect_num = 12;</code>
+       * <code>uint32 collect_num = 13;</code>
        * @param value The collectNum to set.
        * @return This builder for chaining.
        */
@@ -760,7 +760,7 @@ public final class _LoliRunDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 collect_num = 12;</code>
+       * <code>uint32 collect_num = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearCollectNum() {
@@ -772,7 +772,7 @@ public final class _LoliRunDungeonSettleInfoOuterClass {
 
       private boolean isNewRecord_ ;
       /**
-       * <code>bool is_new_record = 13;</code>
+       * <code>bool is_new_record = 9;</code>
        * @return The isNewRecord.
        */
       @java.lang.Override
@@ -780,7 +780,7 @@ public final class _LoliRunDungeonSettleInfoOuterClass {
         return isNewRecord_;
       }
       /**
-       * <code>bool is_new_record = 13;</code>
+       * <code>bool is_new_record = 9;</code>
        * @param value The isNewRecord to set.
        * @return This builder for chaining.
        */
@@ -791,7 +791,7 @@ public final class _LoliRunDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_new_record = 13;</code>
+       * <code>bool is_new_record = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsNewRecord() {
@@ -868,10 +868,10 @@ public final class _LoliRunDungeonSettleInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\037_LoliRunDungeonSettleInfo.proto\"\220\001\n\031_L" +
-      "oliRunDungeonSettleInfo\022\023\n\013DOCOKIPMPKN\030\004" +
-      " \001(\r\022\021\n\thit_point\030\005 \001(\r\022\r\n\005score\030\n \001(\r\022\020" +
-      "\n\010level_id\030\013 \001(\r\022\023\n\013collect_num\030\014 \001(\r\022\025\n" +
-      "\ris_new_record\030\r \001(\010B@\n\031emu.grasscutter." +
+      "oliRunDungeonSettleInfo\022\023\n\013DOCOKIPMPKN\030\017" +
+      " \001(\r\022\021\n\thit_point\030\016 \001(\r\022\r\n\005score\030\n \001(\r\022\020" +
+      "\n\010level_id\030\003 \001(\r\022\023\n\013collect_num\030\r \001(\r\022\025\n" +
+      "\ris_new_record\030\t \001(\010B@\n\031emu.grasscutter." +
       "net.protoB#_LoliRunDungeonSettleInfoOute" +
       "rClassb\006proto3"
     };

@@ -7,6 +7,6 @@ import "SceneEntityInfo.proto";
 import "_AvatarChangeCostumeReason.proto";
 
 message AvatarChangeCostumeNotify {
-	_AvatarChangeCostumeReason _costume_change_reason = 5;
-	SceneEntityInfo entity_info = 10;
+	_AvatarChangeCostumeReason _costume_change_reason = 1;
+	SceneEntityInfo entity_info = 8;
 }

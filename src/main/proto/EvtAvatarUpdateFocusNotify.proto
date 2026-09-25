@@ -8,6 +8,6 @@ import "Vector.proto";
 
 message EvtAvatarUpdateFocusNotify {
 	ForwardType forward_type = 3;
-	uint32 entity_id = 11;
-	Vector focus_forward = 15;
+	uint32 entity_id = 4;
+	Vector focus_forward = 9;
 }

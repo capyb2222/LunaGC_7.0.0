@@ -19,43 +19,43 @@ public final class GKOENKALADAOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
+     * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 1139;</code>
      * @return Whether the actionPointsNoCostInfo field is set.
      */
     boolean hasActionPointsNoCostInfo();
     /**
-     * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
+     * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 1139;</code>
      * @return The actionPointsNoCostInfo.
      */
     emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo getActionPointsNoCostInfo();
     /**
-     * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
+     * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 1139;</code>
      */
     emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfoOrBuilder getActionPointsNoCostInfoOrBuilder();
 
     /**
-     * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
+     * <code>._RevenueBonusInfo revenue_bonus_info = 923;</code>
      * @return Whether the revenueBonusInfo field is set.
      */
     boolean hasRevenueBonusInfo();
     /**
-     * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
+     * <code>._RevenueBonusInfo revenue_bonus_info = 923;</code>
      * @return The revenueBonusInfo.
      */
     emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo getRevenueBonusInfo();
     /**
-     * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
+     * <code>._RevenueBonusInfo revenue_bonus_info = 923;</code>
      */
     emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfoOrBuilder getRevenueBonusInfoOrBuilder();
 
     /**
-     * <code>bool HFFJGFBKIFL = 7;</code>
+     * <code>bool HFFJGFBKIFL = 6;</code>
      * @return The hFFJGFBKIFL.
      */
     boolean getHFFJGFBKIFL();
 
     /**
-     * <code>uint32 buff_id = 11;</code>
+     * <code>uint32 buff_id = 13;</code>
      * @return The buffId.
      */
     int getBuffId();
@@ -107,33 +107,19 @@ public final class GKOENKALADAOuterClass {
             case 0:
               done = true;
               break;
-            case 56: {
+            case 48: {
 
               hFFJGFBKIFL_ = input.readBool();
               break;
             }
-            case 88: {
+            case 104: {
 
               buffId_ = input.readUInt32();
               break;
             }
-            case 5050: {
-              emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo.Builder subBuilder = null;
-              if (detailCase_ == 631) {
-                subBuilder = ((emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo) detail_).toBuilder();
-              }
-              detail_ =
-                  input.readMessage(emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo) detail_);
-                detail_ = subBuilder.buildPartial();
-              }
-              detailCase_ = 631;
-              break;
-            }
-            case 11938: {
+            case 7386: {
               emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo.Builder subBuilder = null;
-              if (detailCase_ == 1492) {
+              if (detailCase_ == 923) {
                 subBuilder = ((emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo) detail_).toBuilder();
               }
               detail_ =
@@ -142,7 +128,21 @@ public final class GKOENKALADAOuterClass {
                 subBuilder.mergeFrom((emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
-              detailCase_ = 1492;
+              detailCase_ = 923;
+              break;
+            }
+            case 9114: {
+              emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo.Builder subBuilder = null;
+              if (detailCase_ == 1139) {
+                subBuilder = ((emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo) detail_).toBuilder();
+              }
+              detail_ =
+                  input.readMessage(emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo) detail_);
+                detail_ = subBuilder.buildPartial();
+              }
+              detailCase_ = 1139;
               break;
             }
             default: {
@@ -182,8 +182,8 @@ public final class GKOENKALADAOuterClass {
     public enum DetailCase
         implements com.google.protobuf.Internal.EnumLite,
             com.google.protobuf.AbstractMessage.InternalOneOfEnum {
-      ACTION_POINTS_NO_COST_INFO(631),
-      REVENUE_BONUS_INFO(1492),
+      ACTION_POINTS_NO_COST_INFO(1139),
+      REVENUE_BONUS_INFO(923),
       DETAIL_NOT_SET(0);
       private final int value;
       private DetailCase(int value) {
@@ -201,8 +201,8 @@ public final class GKOENKALADAOuterClass {
 
       public static DetailCase forNumber(int value) {
         switch (value) {
-          case 631: return ACTION_POINTS_NO_COST_INFO;
-          case 1492: return REVENUE_BONUS_INFO;
+          case 1139: return ACTION_POINTS_NO_COST_INFO;
+          case 923: return REVENUE_BONUS_INFO;
           case 0: return DETAIL_NOT_SET;
           default: return null;
         }
@@ -218,72 +218,72 @@ public final class GKOENKALADAOuterClass {
           detailCase_);
     }
 
-    public static final int ACTION_POINTS_NO_COST_INFO_FIELD_NUMBER = 631;
+    public static final int ACTION_POINTS_NO_COST_INFO_FIELD_NUMBER = 1139;
     /**
-     * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
+     * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 1139;</code>
      * @return Whether the actionPointsNoCostInfo field is set.
      */
     @java.lang.Override
     public boolean hasActionPointsNoCostInfo() {
-      return detailCase_ == 631;
+      return detailCase_ == 1139;
     }
     /**
-     * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
+     * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 1139;</code>
      * @return The actionPointsNoCostInfo.
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo getActionPointsNoCostInfo() {
-      if (detailCase_ == 631) {
+      if (detailCase_ == 1139) {
          return (emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo) detail_;
       }
       return emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo.getDefaultInstance();
     }
     /**
-     * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
+     * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 1139;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfoOrBuilder getActionPointsNoCostInfoOrBuilder() {
-      if (detailCase_ == 631) {
+      if (detailCase_ == 1139) {
          return (emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo) detail_;
       }
       return emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo.getDefaultInstance();
     }
 
-    public static final int REVENUE_BONUS_INFO_FIELD_NUMBER = 1492;
+    public static final int REVENUE_BONUS_INFO_FIELD_NUMBER = 923;
     /**
-     * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
+     * <code>._RevenueBonusInfo revenue_bonus_info = 923;</code>
      * @return Whether the revenueBonusInfo field is set.
      */
     @java.lang.Override
     public boolean hasRevenueBonusInfo() {
-      return detailCase_ == 1492;
+      return detailCase_ == 923;
     }
     /**
-     * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
+     * <code>._RevenueBonusInfo revenue_bonus_info = 923;</code>
      * @return The revenueBonusInfo.
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo getRevenueBonusInfo() {
-      if (detailCase_ == 1492) {
+      if (detailCase_ == 923) {
          return (emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo) detail_;
       }
       return emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo.getDefaultInstance();
     }
     /**
-     * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
+     * <code>._RevenueBonusInfo revenue_bonus_info = 923;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfoOrBuilder getRevenueBonusInfoOrBuilder() {
-      if (detailCase_ == 1492) {
+      if (detailCase_ == 923) {
          return (emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo) detail_;
       }
       return emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo.getDefaultInstance();
     }
 
-    public static final int HFFJGFBKIFL_FIELD_NUMBER = 7;
+    public static final int HFFJGFBKIFL_FIELD_NUMBER = 6;
     private boolean hFFJGFBKIFL_;
     /**
-     * <code>bool HFFJGFBKIFL = 7;</code>
+     * <code>bool HFFJGFBKIFL = 6;</code>
      * @return The hFFJGFBKIFL.
      */
     @java.lang.Override
@@ -291,10 +291,10 @@ public final class GKOENKALADAOuterClass {
       return hFFJGFBKIFL_;
     }
 
-    public static final int BUFF_ID_FIELD_NUMBER = 11;
+    public static final int BUFF_ID_FIELD_NUMBER = 13;
     private int buffId_;
     /**
-     * <code>uint32 buff_id = 11;</code>
+     * <code>uint32 buff_id = 13;</code>
      * @return The buffId.
      */
     @java.lang.Override
@@ -317,16 +317,16 @@ public final class GKOENKALADAOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (hFFJGFBKIFL_ != false) {
-        output.writeBool(7, hFFJGFBKIFL_);
+        output.writeBool(6, hFFJGFBKIFL_);
       }
       if (buffId_ != 0) {
-        output.writeUInt32(11, buffId_);
+        output.writeUInt32(13, buffId_);
       }
-      if (detailCase_ == 631) {
-        output.writeMessage(631, (emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo) detail_);
+      if (detailCase_ == 923) {
+        output.writeMessage(923, (emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo) detail_);
       }
-      if (detailCase_ == 1492) {
-        output.writeMessage(1492, (emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo) detail_);
+      if (detailCase_ == 1139) {
+        output.writeMessage(1139, (emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -339,19 +339,19 @@ public final class GKOENKALADAOuterClass {
       size = 0;
       if (hFFJGFBKIFL_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(7, hFFJGFBKIFL_);
+          .computeBoolSize(6, hFFJGFBKIFL_);
       }
       if (buffId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, buffId_);
+          .computeUInt32Size(13, buffId_);
       }
-      if (detailCase_ == 631) {
+      if (detailCase_ == 923) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(631, (emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo) detail_);
+          .computeMessageSize(923, (emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo) detail_);
       }
-      if (detailCase_ == 1492) {
+      if (detailCase_ == 1139) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1492, (emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo) detail_);
+          .computeMessageSize(1139, (emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -374,11 +374,11 @@ public final class GKOENKALADAOuterClass {
           != other.getBuffId()) return false;
       if (!getDetailCase().equals(other.getDetailCase())) return false;
       switch (detailCase_) {
-        case 631:
+        case 1139:
           if (!getActionPointsNoCostInfo()
               .equals(other.getActionPointsNoCostInfo())) return false;
           break;
-        case 1492:
+        case 923:
           if (!getRevenueBonusInfo()
               .equals(other.getRevenueBonusInfo())) return false;
           break;
@@ -402,11 +402,11 @@ public final class GKOENKALADAOuterClass {
       hash = (37 * hash) + BUFF_ID_FIELD_NUMBER;
       hash = (53 * hash) + getBuffId();
       switch (detailCase_) {
-        case 631:
+        case 1139:
           hash = (37 * hash) + ACTION_POINTS_NO_COST_INFO_FIELD_NUMBER;
           hash = (53 * hash) + getActionPointsNoCostInfo().hashCode();
           break;
-        case 1492:
+        case 923:
           hash = (37 * hash) + REVENUE_BONUS_INFO_FIELD_NUMBER;
           hash = (53 * hash) + getRevenueBonusInfo().hashCode();
           break;
@@ -578,14 +578,14 @@ public final class GKOENKALADAOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.GKOENKALADAOuterClass.GKOENKALADA buildPartial() {
         emu.grasscutter.net.proto.GKOENKALADAOuterClass.GKOENKALADA result = new emu.grasscutter.net.proto.GKOENKALADAOuterClass.GKOENKALADA(this);
-        if (detailCase_ == 631) {
+        if (detailCase_ == 1139) {
           if (actionPointsNoCostInfoBuilder_ == null) {
             result.detail_ = detail_;
           } else {
             result.detail_ = actionPointsNoCostInfoBuilder_.build();
           }
         }
-        if (detailCase_ == 1492) {
+        if (detailCase_ == 923) {
           if (revenueBonusInfoBuilder_ == null) {
             result.detail_ = detail_;
           } else {
@@ -709,33 +709,33 @@ public final class GKOENKALADAOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo, emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo.Builder, emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfoOrBuilder> actionPointsNoCostInfoBuilder_;
       /**
-       * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
+       * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 1139;</code>
        * @return Whether the actionPointsNoCostInfo field is set.
        */
       @java.lang.Override
       public boolean hasActionPointsNoCostInfo() {
-        return detailCase_ == 631;
+        return detailCase_ == 1139;
       }
       /**
-       * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
+       * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 1139;</code>
        * @return The actionPointsNoCostInfo.
        */
       @java.lang.Override
       public emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo getActionPointsNoCostInfo() {
         if (actionPointsNoCostInfoBuilder_ == null) {
-          if (detailCase_ == 631) {
+          if (detailCase_ == 1139) {
             return (emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo) detail_;
           }
           return emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo.getDefaultInstance();
         } else {
-          if (detailCase_ == 631) {
+          if (detailCase_ == 1139) {
             return actionPointsNoCostInfoBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
+       * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 1139;</code>
        */
       public Builder setActionPointsNoCostInfo(emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo value) {
         if (actionPointsNoCostInfoBuilder_ == null) {
@@ -747,11 +747,11 @@ public final class GKOENKALADAOuterClass {
         } else {
           actionPointsNoCostInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 631;
+        detailCase_ = 1139;
         return this;
       }
       /**
-       * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
+       * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 1139;</code>
        */
       public Builder setActionPointsNoCostInfo(
           emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo.Builder builderForValue) {
@@ -761,15 +761,15 @@ public final class GKOENKALADAOuterClass {
         } else {
           actionPointsNoCostInfoBuilder_.setMessage(builderForValue.build());
         }
-        detailCase_ = 631;
+        detailCase_ = 1139;
         return this;
       }
       /**
-       * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
+       * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 1139;</code>
        */
       public Builder mergeActionPointsNoCostInfo(emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo value) {
         if (actionPointsNoCostInfoBuilder_ == null) {
-          if (detailCase_ == 631 &&
+          if (detailCase_ == 1139 &&
               detail_ != emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo.getDefaultInstance()) {
             detail_ = emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo.newBuilder((emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo) detail_)
                 .mergeFrom(value).buildPartial();
@@ -778,26 +778,26 @@ public final class GKOENKALADAOuterClass {
           }
           onChanged();
         } else {
-          if (detailCase_ == 631) {
+          if (detailCase_ == 1139) {
             actionPointsNoCostInfoBuilder_.mergeFrom(value);
           }
           actionPointsNoCostInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 631;
+        detailCase_ = 1139;
         return this;
       }
       /**
-       * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
+       * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 1139;</code>
        */
       public Builder clearActionPointsNoCostInfo() {
         if (actionPointsNoCostInfoBuilder_ == null) {
-          if (detailCase_ == 631) {
+          if (detailCase_ == 1139) {
             detailCase_ = 0;
             detail_ = null;
             onChanged();
           }
         } else {
-          if (detailCase_ == 631) {
+          if (detailCase_ == 1139) {
             detailCase_ = 0;
             detail_ = null;
           }
@@ -806,33 +806,33 @@ public final class GKOENKALADAOuterClass {
         return this;
       }
       /**
-       * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
+       * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 1139;</code>
        */
       public emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo.Builder getActionPointsNoCostInfoBuilder() {
         return getActionPointsNoCostInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
+       * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 1139;</code>
        */
       @java.lang.Override
       public emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfoOrBuilder getActionPointsNoCostInfoOrBuilder() {
-        if ((detailCase_ == 631) && (actionPointsNoCostInfoBuilder_ != null)) {
+        if ((detailCase_ == 1139) && (actionPointsNoCostInfoBuilder_ != null)) {
           return actionPointsNoCostInfoBuilder_.getMessageOrBuilder();
         } else {
-          if (detailCase_ == 631) {
+          if (detailCase_ == 1139) {
             return (emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo) detail_;
           }
           return emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 631;</code>
+       * <code>._ActionPointsNoCostInfo action_points_no_cost_info = 1139;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo, emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo.Builder, emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfoOrBuilder> 
           getActionPointsNoCostInfoFieldBuilder() {
         if (actionPointsNoCostInfoBuilder_ == null) {
-          if (!(detailCase_ == 631)) {
+          if (!(detailCase_ == 1139)) {
             detail_ = emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo.getDefaultInstance();
           }
           actionPointsNoCostInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -842,7 +842,7 @@ public final class GKOENKALADAOuterClass {
                   isClean());
           detail_ = null;
         }
-        detailCase_ = 631;
+        detailCase_ = 1139;
         onChanged();;
         return actionPointsNoCostInfoBuilder_;
       }
@@ -850,33 +850,33 @@ public final class GKOENKALADAOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo, emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo.Builder, emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfoOrBuilder> revenueBonusInfoBuilder_;
       /**
-       * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
+       * <code>._RevenueBonusInfo revenue_bonus_info = 923;</code>
        * @return Whether the revenueBonusInfo field is set.
        */
       @java.lang.Override
       public boolean hasRevenueBonusInfo() {
-        return detailCase_ == 1492;
+        return detailCase_ == 923;
       }
       /**
-       * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
+       * <code>._RevenueBonusInfo revenue_bonus_info = 923;</code>
        * @return The revenueBonusInfo.
        */
       @java.lang.Override
       public emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo getRevenueBonusInfo() {
         if (revenueBonusInfoBuilder_ == null) {
-          if (detailCase_ == 1492) {
+          if (detailCase_ == 923) {
             return (emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo) detail_;
           }
           return emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo.getDefaultInstance();
         } else {
-          if (detailCase_ == 1492) {
+          if (detailCase_ == 923) {
             return revenueBonusInfoBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
+       * <code>._RevenueBonusInfo revenue_bonus_info = 923;</code>
        */
       public Builder setRevenueBonusInfo(emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo value) {
         if (revenueBonusInfoBuilder_ == null) {
@@ -888,11 +888,11 @@ public final class GKOENKALADAOuterClass {
         } else {
           revenueBonusInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 1492;
+        detailCase_ = 923;
         return this;
       }
       /**
-       * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
+       * <code>._RevenueBonusInfo revenue_bonus_info = 923;</code>
        */
       public Builder setRevenueBonusInfo(
           emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo.Builder builderForValue) {
@@ -902,15 +902,15 @@ public final class GKOENKALADAOuterClass {
         } else {
           revenueBonusInfoBuilder_.setMessage(builderForValue.build());
         }
-        detailCase_ = 1492;
+        detailCase_ = 923;
         return this;
       }
       /**
-       * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
+       * <code>._RevenueBonusInfo revenue_bonus_info = 923;</code>
        */
       public Builder mergeRevenueBonusInfo(emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo value) {
         if (revenueBonusInfoBuilder_ == null) {
-          if (detailCase_ == 1492 &&
+          if (detailCase_ == 923 &&
               detail_ != emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo.getDefaultInstance()) {
             detail_ = emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo.newBuilder((emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo) detail_)
                 .mergeFrom(value).buildPartial();
@@ -919,26 +919,26 @@ public final class GKOENKALADAOuterClass {
           }
           onChanged();
         } else {
-          if (detailCase_ == 1492) {
+          if (detailCase_ == 923) {
             revenueBonusInfoBuilder_.mergeFrom(value);
           }
           revenueBonusInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 1492;
+        detailCase_ = 923;
         return this;
       }
       /**
-       * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
+       * <code>._RevenueBonusInfo revenue_bonus_info = 923;</code>
        */
       public Builder clearRevenueBonusInfo() {
         if (revenueBonusInfoBuilder_ == null) {
-          if (detailCase_ == 1492) {
+          if (detailCase_ == 923) {
             detailCase_ = 0;
             detail_ = null;
             onChanged();
           }
         } else {
-          if (detailCase_ == 1492) {
+          if (detailCase_ == 923) {
             detailCase_ = 0;
             detail_ = null;
           }
@@ -947,33 +947,33 @@ public final class GKOENKALADAOuterClass {
         return this;
       }
       /**
-       * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
+       * <code>._RevenueBonusInfo revenue_bonus_info = 923;</code>
        */
       public emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo.Builder getRevenueBonusInfoBuilder() {
         return getRevenueBonusInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
+       * <code>._RevenueBonusInfo revenue_bonus_info = 923;</code>
        */
       @java.lang.Override
       public emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfoOrBuilder getRevenueBonusInfoOrBuilder() {
-        if ((detailCase_ == 1492) && (revenueBonusInfoBuilder_ != null)) {
+        if ((detailCase_ == 923) && (revenueBonusInfoBuilder_ != null)) {
           return revenueBonusInfoBuilder_.getMessageOrBuilder();
         } else {
-          if (detailCase_ == 1492) {
+          if (detailCase_ == 923) {
             return (emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo) detail_;
           }
           return emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._RevenueBonusInfo revenue_bonus_info = 1492;</code>
+       * <code>._RevenueBonusInfo revenue_bonus_info = 923;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo, emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo.Builder, emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfoOrBuilder> 
           getRevenueBonusInfoFieldBuilder() {
         if (revenueBonusInfoBuilder_ == null) {
-          if (!(detailCase_ == 1492)) {
+          if (!(detailCase_ == 923)) {
             detail_ = emu.grasscutter.net.proto._RevenueBonusInfoOuterClass._RevenueBonusInfo.getDefaultInstance();
           }
           revenueBonusInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -983,14 +983,14 @@ public final class GKOENKALADAOuterClass {
                   isClean());
           detail_ = null;
         }
-        detailCase_ = 1492;
+        detailCase_ = 923;
         onChanged();;
         return revenueBonusInfoBuilder_;
       }
 
       private boolean hFFJGFBKIFL_ ;
       /**
-       * <code>bool HFFJGFBKIFL = 7;</code>
+       * <code>bool HFFJGFBKIFL = 6;</code>
        * @return The hFFJGFBKIFL.
        */
       @java.lang.Override
@@ -998,7 +998,7 @@ public final class GKOENKALADAOuterClass {
         return hFFJGFBKIFL_;
       }
       /**
-       * <code>bool HFFJGFBKIFL = 7;</code>
+       * <code>bool HFFJGFBKIFL = 6;</code>
        * @param value The hFFJGFBKIFL to set.
        * @return This builder for chaining.
        */
@@ -1009,7 +1009,7 @@ public final class GKOENKALADAOuterClass {
         return this;
       }
       /**
-       * <code>bool HFFJGFBKIFL = 7;</code>
+       * <code>bool HFFJGFBKIFL = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearHFFJGFBKIFL() {
@@ -1021,7 +1021,7 @@ public final class GKOENKALADAOuterClass {
 
       private int buffId_ ;
       /**
-       * <code>uint32 buff_id = 11;</code>
+       * <code>uint32 buff_id = 13;</code>
        * @return The buffId.
        */
       @java.lang.Override
@@ -1029,7 +1029,7 @@ public final class GKOENKALADAOuterClass {
         return buffId_;
       }
       /**
-       * <code>uint32 buff_id = 11;</code>
+       * <code>uint32 buff_id = 13;</code>
        * @param value The buffId to set.
        * @return This builder for chaining.
        */
@@ -1040,7 +1040,7 @@ public final class GKOENKALADAOuterClass {
         return this;
       }
       /**
-       * <code>uint32 buff_id = 11;</code>
+       * <code>uint32 buff_id = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearBuffId() {
@@ -1119,10 +1119,10 @@ public final class GKOENKALADAOuterClass {
       "\n\021GKOENKALADA.proto\032\035_ActionPointsNoCost" +
       "Info.proto\032\027_RevenueBonusInfo.proto\"\261\001\n\013" +
       "GKOENKALADA\022?\n\032action_points_no_cost_inf" +
-      "o\030\367\004 \001(\0132\030._ActionPointsNoCostInfoH\000\0221\n\022" +
-      "revenue_bonus_info\030\324\013 \001(\0132\022._RevenueBonu" +
-      "sInfoH\000\022\023\n\013HFFJGFBKIFL\030\007 \001(\010\022\017\n\007buff_id\030" +
-      "\013 \001(\rB\010\n\006detailB2\n\031emu.grasscutter.net.p" +
+      "o\030\363\010 \001(\0132\030._ActionPointsNoCostInfoH\000\0221\n\022" +
+      "revenue_bonus_info\030\233\007 \001(\0132\022._RevenueBonu" +
+      "sInfoH\000\022\023\n\013HFFJGFBKIFL\030\006 \001(\010\022\017\n\007buff_id\030" +
+      "\r \001(\rB\010\n\006detailB2\n\031emu.grasscutter.net.p" +
       "rotoB\025GKOENKALADAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

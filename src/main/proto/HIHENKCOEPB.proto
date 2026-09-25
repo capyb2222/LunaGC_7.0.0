@@ -6,7 +6,7 @@ option java_outer_classname = "HIHENKCOEPBOuterClass";
 import "BACMNHCJNEM.proto";
 
 message HIHENKCOEPB {
-	repeated BACMNHCJNEM IPLOPAOAFLI = 1;
-	repeated BACMNHCJNEM ADBGKEMOLNJ = 2;
+	repeated BACMNHCJNEM IPLOPAOAFLI = 50000;
+	repeated BACMNHCJNEM ADBGKEMOLNJ = 50001;
 	repeated int32 JJMIKFGBIOM = 3;
 }

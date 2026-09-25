@@ -19,37 +19,37 @@ public final class EAOEICFJOBAOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool KEHLBIHCOBB = 1;</code>
+     * <code>bool KEHLBIHCOBB = 13;</code>
      * @return The kEHLBIHCOBB.
      */
     boolean getKEHLBIHCOBB();
 
     /**
-     * <code>repeated .Uint32Pair BGKNOBGMOIP = 11;</code>
+     * <code>repeated .Uint32Pair BGKNOBGMOIP = 8;</code>
      */
     java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> 
         getBGKNOBGMOIPList();
     /**
-     * <code>repeated .Uint32Pair BGKNOBGMOIP = 11;</code>
+     * <code>repeated .Uint32Pair BGKNOBGMOIP = 8;</code>
      */
     emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getBGKNOBGMOIP(int index);
     /**
-     * <code>repeated .Uint32Pair BGKNOBGMOIP = 11;</code>
+     * <code>repeated .Uint32Pair BGKNOBGMOIP = 8;</code>
      */
     int getBGKNOBGMOIPCount();
     /**
-     * <code>repeated .Uint32Pair BGKNOBGMOIP = 11;</code>
+     * <code>repeated .Uint32Pair BGKNOBGMOIP = 8;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
         getBGKNOBGMOIPOrBuilderList();
     /**
-     * <code>repeated .Uint32Pair BGKNOBGMOIP = 11;</code>
+     * <code>repeated .Uint32Pair BGKNOBGMOIP = 8;</code>
      */
     emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getBGKNOBGMOIPOrBuilder(
         int index);
 
     /**
-     * <code>uint32 finish_time = 13;</code>
+     * <code>uint32 finish_time = 15;</code>
      * @return The finishTime.
      */
     int getFinishTime();
@@ -101,12 +101,7 @@ public final class EAOEICFJOBAOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
-
-              kEHLBIHCOBB_ = input.readBool();
-              break;
-            }
-            case 90: {
+            case 66: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 bGKNOBGMOIP_ = new java.util.ArrayList<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair>();
                 mutable_bitField0_ |= 0x00000001;
@@ -116,6 +111,11 @@ public final class EAOEICFJOBAOuterClass {
               break;
             }
             case 104: {
+
+              kEHLBIHCOBB_ = input.readBool();
+              break;
+            }
+            case 120: {
 
               finishTime_ = input.readUInt32();
               break;
@@ -155,10 +155,10 @@ public final class EAOEICFJOBAOuterClass {
               emu.grasscutter.net.proto.EAOEICFJOBAOuterClass.EAOEICFJOBA.class, emu.grasscutter.net.proto.EAOEICFJOBAOuterClass.EAOEICFJOBA.Builder.class);
     }
 
-    public static final int KEHLBIHCOBB_FIELD_NUMBER = 1;
+    public static final int KEHLBIHCOBB_FIELD_NUMBER = 13;
     private boolean kEHLBIHCOBB_;
     /**
-     * <code>bool KEHLBIHCOBB = 1;</code>
+     * <code>bool KEHLBIHCOBB = 13;</code>
      * @return The kEHLBIHCOBB.
      */
     @java.lang.Override
@@ -166,17 +166,17 @@ public final class EAOEICFJOBAOuterClass {
       return kEHLBIHCOBB_;
     }
 
-    public static final int BGKNOBGMOIP_FIELD_NUMBER = 11;
+    public static final int BGKNOBGMOIP_FIELD_NUMBER = 8;
     private java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> bGKNOBGMOIP_;
     /**
-     * <code>repeated .Uint32Pair BGKNOBGMOIP = 11;</code>
+     * <code>repeated .Uint32Pair BGKNOBGMOIP = 8;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> getBGKNOBGMOIPList() {
       return bGKNOBGMOIP_;
     }
     /**
-     * <code>repeated .Uint32Pair BGKNOBGMOIP = 11;</code>
+     * <code>repeated .Uint32Pair BGKNOBGMOIP = 8;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
@@ -184,21 +184,21 @@ public final class EAOEICFJOBAOuterClass {
       return bGKNOBGMOIP_;
     }
     /**
-     * <code>repeated .Uint32Pair BGKNOBGMOIP = 11;</code>
+     * <code>repeated .Uint32Pair BGKNOBGMOIP = 8;</code>
      */
     @java.lang.Override
     public int getBGKNOBGMOIPCount() {
       return bGKNOBGMOIP_.size();
     }
     /**
-     * <code>repeated .Uint32Pair BGKNOBGMOIP = 11;</code>
+     * <code>repeated .Uint32Pair BGKNOBGMOIP = 8;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getBGKNOBGMOIP(int index) {
       return bGKNOBGMOIP_.get(index);
     }
     /**
-     * <code>repeated .Uint32Pair BGKNOBGMOIP = 11;</code>
+     * <code>repeated .Uint32Pair BGKNOBGMOIP = 8;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getBGKNOBGMOIPOrBuilder(
@@ -206,10 +206,10 @@ public final class EAOEICFJOBAOuterClass {
       return bGKNOBGMOIP_.get(index);
     }
 
-    public static final int FINISH_TIME_FIELD_NUMBER = 13;
+    public static final int FINISH_TIME_FIELD_NUMBER = 15;
     private int finishTime_;
     /**
-     * <code>uint32 finish_time = 13;</code>
+     * <code>uint32 finish_time = 15;</code>
      * @return The finishTime.
      */
     @java.lang.Override
@@ -231,14 +231,14 @@ public final class EAOEICFJOBAOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (kEHLBIHCOBB_ != false) {
-        output.writeBool(1, kEHLBIHCOBB_);
-      }
       for (int i = 0; i < bGKNOBGMOIP_.size(); i++) {
-        output.writeMessage(11, bGKNOBGMOIP_.get(i));
+        output.writeMessage(8, bGKNOBGMOIP_.get(i));
+      }
+      if (kEHLBIHCOBB_ != false) {
+        output.writeBool(13, kEHLBIHCOBB_);
       }
       if (finishTime_ != 0) {
-        output.writeUInt32(13, finishTime_);
+        output.writeUInt32(15, finishTime_);
       }
       unknownFields.writeTo(output);
     }
@@ -249,17 +249,17 @@ public final class EAOEICFJOBAOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (kEHLBIHCOBB_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1, kEHLBIHCOBB_);
-      }
       for (int i = 0; i < bGKNOBGMOIP_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, bGKNOBGMOIP_.get(i));
+          .computeMessageSize(8, bGKNOBGMOIP_.get(i));
+      }
+      if (kEHLBIHCOBB_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(13, kEHLBIHCOBB_);
       }
       if (finishTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, finishTime_);
+          .computeUInt32Size(15, finishTime_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -596,7 +596,7 @@ public final class EAOEICFJOBAOuterClass {
 
       private boolean kEHLBIHCOBB_ ;
       /**
-       * <code>bool KEHLBIHCOBB = 1;</code>
+       * <code>bool KEHLBIHCOBB = 13;</code>
        * @return The kEHLBIHCOBB.
        */
       @java.lang.Override
@@ -604,7 +604,7 @@ public final class EAOEICFJOBAOuterClass {
         return kEHLBIHCOBB_;
       }
       /**
-       * <code>bool KEHLBIHCOBB = 1;</code>
+       * <code>bool KEHLBIHCOBB = 13;</code>
        * @param value The kEHLBIHCOBB to set.
        * @return This builder for chaining.
        */
@@ -615,7 +615,7 @@ public final class EAOEICFJOBAOuterClass {
         return this;
       }
       /**
-       * <code>bool KEHLBIHCOBB = 1;</code>
+       * <code>bool KEHLBIHCOBB = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearKEHLBIHCOBB() {
@@ -638,7 +638,7 @@ public final class EAOEICFJOBAOuterClass {
           emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> bGKNOBGMOIPBuilder_;
 
       /**
-       * <code>repeated .Uint32Pair BGKNOBGMOIP = 11;</code>
+       * <code>repeated .Uint32Pair BGKNOBGMOIP = 8;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> getBGKNOBGMOIPList() {
         if (bGKNOBGMOIPBuilder_ == null) {
@@ -648,7 +648,7 @@ public final class EAOEICFJOBAOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair BGKNOBGMOIP = 11;</code>
+       * <code>repeated .Uint32Pair BGKNOBGMOIP = 8;</code>
        */
       public int getBGKNOBGMOIPCount() {
         if (bGKNOBGMOIPBuilder_ == null) {
@@ -658,7 +658,7 @@ public final class EAOEICFJOBAOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair BGKNOBGMOIP = 11;</code>
+       * <code>repeated .Uint32Pair BGKNOBGMOIP = 8;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getBGKNOBGMOIP(int index) {
         if (bGKNOBGMOIPBuilder_ == null) {
@@ -668,7 +668,7 @@ public final class EAOEICFJOBAOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair BGKNOBGMOIP = 11;</code>
+       * <code>repeated .Uint32Pair BGKNOBGMOIP = 8;</code>
        */
       public Builder setBGKNOBGMOIP(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
@@ -685,7 +685,7 @@ public final class EAOEICFJOBAOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair BGKNOBGMOIP = 11;</code>
+       * <code>repeated .Uint32Pair BGKNOBGMOIP = 8;</code>
        */
       public Builder setBGKNOBGMOIP(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder builderForValue) {
@@ -699,7 +699,7 @@ public final class EAOEICFJOBAOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair BGKNOBGMOIP = 11;</code>
+       * <code>repeated .Uint32Pair BGKNOBGMOIP = 8;</code>
        */
       public Builder addBGKNOBGMOIP(emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
         if (bGKNOBGMOIPBuilder_ == null) {
@@ -715,7 +715,7 @@ public final class EAOEICFJOBAOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair BGKNOBGMOIP = 11;</code>
+       * <code>repeated .Uint32Pair BGKNOBGMOIP = 8;</code>
        */
       public Builder addBGKNOBGMOIP(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
@@ -732,7 +732,7 @@ public final class EAOEICFJOBAOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair BGKNOBGMOIP = 11;</code>
+       * <code>repeated .Uint32Pair BGKNOBGMOIP = 8;</code>
        */
       public Builder addBGKNOBGMOIP(
           emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder builderForValue) {
@@ -746,7 +746,7 @@ public final class EAOEICFJOBAOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair BGKNOBGMOIP = 11;</code>
+       * <code>repeated .Uint32Pair BGKNOBGMOIP = 8;</code>
        */
       public Builder addBGKNOBGMOIP(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder builderForValue) {
@@ -760,7 +760,7 @@ public final class EAOEICFJOBAOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair BGKNOBGMOIP = 11;</code>
+       * <code>repeated .Uint32Pair BGKNOBGMOIP = 8;</code>
        */
       public Builder addAllBGKNOBGMOIP(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> values) {
@@ -775,7 +775,7 @@ public final class EAOEICFJOBAOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair BGKNOBGMOIP = 11;</code>
+       * <code>repeated .Uint32Pair BGKNOBGMOIP = 8;</code>
        */
       public Builder clearBGKNOBGMOIP() {
         if (bGKNOBGMOIPBuilder_ == null) {
@@ -788,7 +788,7 @@ public final class EAOEICFJOBAOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair BGKNOBGMOIP = 11;</code>
+       * <code>repeated .Uint32Pair BGKNOBGMOIP = 8;</code>
        */
       public Builder removeBGKNOBGMOIP(int index) {
         if (bGKNOBGMOIPBuilder_ == null) {
@@ -801,14 +801,14 @@ public final class EAOEICFJOBAOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair BGKNOBGMOIP = 11;</code>
+       * <code>repeated .Uint32Pair BGKNOBGMOIP = 8;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder getBGKNOBGMOIPBuilder(
           int index) {
         return getBGKNOBGMOIPFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .Uint32Pair BGKNOBGMOIP = 11;</code>
+       * <code>repeated .Uint32Pair BGKNOBGMOIP = 8;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getBGKNOBGMOIPOrBuilder(
           int index) {
@@ -818,7 +818,7 @@ public final class EAOEICFJOBAOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair BGKNOBGMOIP = 11;</code>
+       * <code>repeated .Uint32Pair BGKNOBGMOIP = 8;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
            getBGKNOBGMOIPOrBuilderList() {
@@ -829,14 +829,14 @@ public final class EAOEICFJOBAOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair BGKNOBGMOIP = 11;</code>
+       * <code>repeated .Uint32Pair BGKNOBGMOIP = 8;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder addBGKNOBGMOIPBuilder() {
         return getBGKNOBGMOIPFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.getDefaultInstance());
       }
       /**
-       * <code>repeated .Uint32Pair BGKNOBGMOIP = 11;</code>
+       * <code>repeated .Uint32Pair BGKNOBGMOIP = 8;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder addBGKNOBGMOIPBuilder(
           int index) {
@@ -844,7 +844,7 @@ public final class EAOEICFJOBAOuterClass {
             index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.getDefaultInstance());
       }
       /**
-       * <code>repeated .Uint32Pair BGKNOBGMOIP = 11;</code>
+       * <code>repeated .Uint32Pair BGKNOBGMOIP = 8;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder> 
            getBGKNOBGMOIPBuilderList() {
@@ -867,7 +867,7 @@ public final class EAOEICFJOBAOuterClass {
 
       private int finishTime_ ;
       /**
-       * <code>uint32 finish_time = 13;</code>
+       * <code>uint32 finish_time = 15;</code>
        * @return The finishTime.
        */
       @java.lang.Override
@@ -875,7 +875,7 @@ public final class EAOEICFJOBAOuterClass {
         return finishTime_;
       }
       /**
-       * <code>uint32 finish_time = 13;</code>
+       * <code>uint32 finish_time = 15;</code>
        * @param value The finishTime to set.
        * @return This builder for chaining.
        */
@@ -886,7 +886,7 @@ public final class EAOEICFJOBAOuterClass {
         return this;
       }
       /**
-       * <code>uint32 finish_time = 13;</code>
+       * <code>uint32 finish_time = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearFinishTime() {
@@ -963,9 +963,9 @@ public final class EAOEICFJOBAOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021EAOEICFJOBA.proto\032\020Uint32Pair.proto\"Y\n" +
-      "\013EAOEICFJOBA\022\023\n\013KEHLBIHCOBB\030\001 \001(\010\022 \n\013BGK" +
-      "NOBGMOIP\030\013 \003(\0132\013.Uint32Pair\022\023\n\013finish_ti" +
-      "me\030\r \001(\rB2\n\031emu.grasscutter.net.protoB\025E" +
+      "\013EAOEICFJOBA\022\023\n\013KEHLBIHCOBB\030\r \001(\010\022 \n\013BGK" +
+      "NOBGMOIP\030\010 \003(\0132\013.Uint32Pair\022\023\n\013finish_ti" +
+      "me\030\017 \001(\rB2\n\031emu.grasscutter.net.protoB\025E" +
       "AOEICFJOBAOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

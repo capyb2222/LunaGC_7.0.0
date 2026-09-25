@@ -9,8 +9,8 @@ import "IrodoriMasterLevelInfo.proto";
 import "IrodoriPoetryData.proto";
 
 message IrodoriActivityDetailInfo {
-	repeated IrodoriMasterLevelInfo master_level_list = 4;
-	IrodoriFlowerData flower_data = 6;
-	IrodoriChessData chess_data = 7;
-	IrodoriPoetryData poetry_data = 11;
+	repeated IrodoriMasterLevelInfo master_level_list = 3;
+	IrodoriFlowerData flower_data = 9;
+	IrodoriChessData chess_data = 8;
+	IrodoriPoetryData poetry_data = 13;
 }

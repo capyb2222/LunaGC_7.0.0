@@ -19,83 +19,83 @@ public final class BrickBreakerDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 5;</code>
+     * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 50000;</code>
      */
     java.util.List<emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo> 
         getJFKMENHOOKKList();
     /**
-     * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 5;</code>
+     * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 50000;</code>
      */
     emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo getJFKMENHOOKK(int index);
     /**
-     * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 5;</code>
+     * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 50000;</code>
      */
     int getJFKMENHOOKKCount();
     /**
-     * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 5;</code>
+     * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 50000;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfoOrBuilder> 
         getJFKMENHOOKKOrBuilderList();
     /**
-     * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 5;</code>
+     * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 50000;</code>
      */
     emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfoOrBuilder getJFKMENHOOKKOrBuilder(
         int index);
 
     /**
-     * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 9;</code>
+     * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 50001;</code>
      */
     java.util.List<emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo> 
         getBLECCFIBJPOList();
     /**
-     * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 9;</code>
+     * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 50001;</code>
      */
     emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo getBLECCFIBJPO(int index);
     /**
-     * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 9;</code>
+     * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 50001;</code>
      */
     int getBLECCFIBJPOCount();
     /**
-     * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 9;</code>
+     * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 50001;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfoOrBuilder> 
         getBLECCFIBJPOOrBuilderList();
     /**
-     * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 9;</code>
+     * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 50001;</code>
      */
     emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfoOrBuilder getBLECCFIBJPOOrBuilder(
         int index);
 
     /**
-     * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 11;</code>
+     * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 2;</code>
      */
     java.util.List<emu.grasscutter.net.proto.BrickBreakerActivityStageInfoOuterClass.BrickBreakerActivityStageInfo> 
         getStageInfoListList();
     /**
-     * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 11;</code>
+     * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 2;</code>
      */
     emu.grasscutter.net.proto.BrickBreakerActivityStageInfoOuterClass.BrickBreakerActivityStageInfo getStageInfoList(int index);
     /**
-     * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 11;</code>
+     * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 2;</code>
      */
     int getStageInfoListCount();
     /**
-     * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 11;</code>
+     * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 2;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.BrickBreakerActivityStageInfoOuterClass.BrickBreakerActivityStageInfoOrBuilder> 
         getStageInfoListOrBuilderList();
     /**
-     * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 11;</code>
+     * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 2;</code>
      */
     emu.grasscutter.net.proto.BrickBreakerActivityStageInfoOuterClass.BrickBreakerActivityStageInfoOrBuilder getStageInfoListOrBuilder(
         int index);
 
     /**
-     * <code>map&lt;uint32, uint32&gt; skill_info_map = 15;</code>
+     * <code>map&lt;uint32, uint32&gt; skill_info_map = 7;</code>
      */
     int getSkillInfoMapCount();
     /**
-     * <code>map&lt;uint32, uint32&gt; skill_info_map = 15;</code>
+     * <code>map&lt;uint32, uint32&gt; skill_info_map = 7;</code>
      */
     boolean containsSkillInfoMap(
         int key);
@@ -106,19 +106,19 @@ public final class BrickBreakerDetailInfoOuterClass {
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getSkillInfoMap();
     /**
-     * <code>map&lt;uint32, uint32&gt; skill_info_map = 15;</code>
+     * <code>map&lt;uint32, uint32&gt; skill_info_map = 7;</code>
      */
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getSkillInfoMapMap();
     /**
-     * <code>map&lt;uint32, uint32&gt; skill_info_map = 15;</code>
+     * <code>map&lt;uint32, uint32&gt; skill_info_map = 7;</code>
      */
 
     int getSkillInfoMapOrDefault(
         int key,
         int defaultValue);
     /**
-     * <code>map&lt;uint32, uint32&gt; skill_info_map = 15;</code>
+     * <code>map&lt;uint32, uint32&gt; skill_info_map = 7;</code>
      */
 
     int getSkillInfoMapOrThrow(
@@ -173,25 +173,7 @@ public final class BrickBreakerDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 42: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                jFKMENHOOKK_ = new java.util.ArrayList<emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo>();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              jFKMENHOOKK_.add(
-                  input.readMessage(emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo.parser(), extensionRegistry));
-              break;
-            }
-            case 74: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                bLECCFIBJPO_ = new java.util.ArrayList<emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo>();
-                mutable_bitField0_ |= 0x00000002;
-              }
-              bLECCFIBJPO_.add(
-                  input.readMessage(emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo.parser(), extensionRegistry));
-              break;
-            }
-            case 90: {
+            case 18: {
               if (!((mutable_bitField0_ & 0x00000004) != 0)) {
                 stageInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.BrickBreakerActivityStageInfoOuterClass.BrickBreakerActivityStageInfo>();
                 mutable_bitField0_ |= 0x00000004;
@@ -200,7 +182,7 @@ public final class BrickBreakerDetailInfoOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.BrickBreakerActivityStageInfoOuterClass.BrickBreakerActivityStageInfo.parser(), extensionRegistry));
               break;
             }
-            case 122: {
+            case 58: {
               if (!((mutable_bitField0_ & 0x00000008) != 0)) {
                 skillInfoMap_ = com.google.protobuf.MapField.newMapField(
                     SkillInfoMapDefaultEntryHolder.defaultEntry);
@@ -211,6 +193,24 @@ public final class BrickBreakerDetailInfoOuterClass {
                   SkillInfoMapDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
               skillInfoMap_.getMutableMap().put(
                   skillInfoMap__.getKey(), skillInfoMap__.getValue());
+              break;
+            }
+            case 400002: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                jFKMENHOOKK_ = new java.util.ArrayList<emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo>();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              jFKMENHOOKK_.add(
+                  input.readMessage(emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo.parser(), extensionRegistry));
+              break;
+            }
+            case 400010: {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                bLECCFIBJPO_ = new java.util.ArrayList<emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo>();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              bLECCFIBJPO_.add(
+                  input.readMessage(emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -228,14 +228,14 @@ public final class BrickBreakerDetailInfoOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
+        if (((mutable_bitField0_ & 0x00000004) != 0)) {
+          stageInfoList_ = java.util.Collections.unmodifiableList(stageInfoList_);
+        }
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
           jFKMENHOOKK_ = java.util.Collections.unmodifiableList(jFKMENHOOKK_);
         }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
           bLECCFIBJPO_ = java.util.Collections.unmodifiableList(bLECCFIBJPO_);
-        }
-        if (((mutable_bitField0_ & 0x00000004) != 0)) {
-          stageInfoList_ = java.util.Collections.unmodifiableList(stageInfoList_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -251,7 +251,7 @@ public final class BrickBreakerDetailInfoOuterClass {
     protected com.google.protobuf.MapField internalGetMapField(
         int number) {
       switch (number) {
-        case 15:
+        case 7:
           return internalGetSkillInfoMap();
         default:
           throw new RuntimeException(
@@ -266,17 +266,17 @@ public final class BrickBreakerDetailInfoOuterClass {
               emu.grasscutter.net.proto.BrickBreakerDetailInfoOuterClass.BrickBreakerDetailInfo.class, emu.grasscutter.net.proto.BrickBreakerDetailInfoOuterClass.BrickBreakerDetailInfo.Builder.class);
     }
 
-    public static final int JFKMENHOOKK_FIELD_NUMBER = 5;
+    public static final int JFKMENHOOKK_FIELD_NUMBER = 50000;
     private java.util.List<emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo> jFKMENHOOKK_;
     /**
-     * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 5;</code>
+     * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 50000;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo> getJFKMENHOOKKList() {
       return jFKMENHOOKK_;
     }
     /**
-     * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 5;</code>
+     * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 50000;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfoOrBuilder> 
@@ -284,21 +284,21 @@ public final class BrickBreakerDetailInfoOuterClass {
       return jFKMENHOOKK_;
     }
     /**
-     * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 5;</code>
+     * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 50000;</code>
      */
     @java.lang.Override
     public int getJFKMENHOOKKCount() {
       return jFKMENHOOKK_.size();
     }
     /**
-     * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 5;</code>
+     * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 50000;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo getJFKMENHOOKK(int index) {
       return jFKMENHOOKK_.get(index);
     }
     /**
-     * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 5;</code>
+     * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 50000;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfoOrBuilder getJFKMENHOOKKOrBuilder(
@@ -306,17 +306,17 @@ public final class BrickBreakerDetailInfoOuterClass {
       return jFKMENHOOKK_.get(index);
     }
 
-    public static final int BLECCFIBJPO_FIELD_NUMBER = 9;
+    public static final int BLECCFIBJPO_FIELD_NUMBER = 50001;
     private java.util.List<emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo> bLECCFIBJPO_;
     /**
-     * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 9;</code>
+     * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 50001;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo> getBLECCFIBJPOList() {
       return bLECCFIBJPO_;
     }
     /**
-     * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 9;</code>
+     * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 50001;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfoOrBuilder> 
@@ -324,21 +324,21 @@ public final class BrickBreakerDetailInfoOuterClass {
       return bLECCFIBJPO_;
     }
     /**
-     * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 9;</code>
+     * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 50001;</code>
      */
     @java.lang.Override
     public int getBLECCFIBJPOCount() {
       return bLECCFIBJPO_.size();
     }
     /**
-     * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 9;</code>
+     * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 50001;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo getBLECCFIBJPO(int index) {
       return bLECCFIBJPO_.get(index);
     }
     /**
-     * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 9;</code>
+     * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 50001;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfoOrBuilder getBLECCFIBJPOOrBuilder(
@@ -346,17 +346,17 @@ public final class BrickBreakerDetailInfoOuterClass {
       return bLECCFIBJPO_.get(index);
     }
 
-    public static final int STAGE_INFO_LIST_FIELD_NUMBER = 11;
+    public static final int STAGE_INFO_LIST_FIELD_NUMBER = 2;
     private java.util.List<emu.grasscutter.net.proto.BrickBreakerActivityStageInfoOuterClass.BrickBreakerActivityStageInfo> stageInfoList_;
     /**
-     * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 11;</code>
+     * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 2;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.BrickBreakerActivityStageInfoOuterClass.BrickBreakerActivityStageInfo> getStageInfoListList() {
       return stageInfoList_;
     }
     /**
-     * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 11;</code>
+     * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 2;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.BrickBreakerActivityStageInfoOuterClass.BrickBreakerActivityStageInfoOrBuilder> 
@@ -364,21 +364,21 @@ public final class BrickBreakerDetailInfoOuterClass {
       return stageInfoList_;
     }
     /**
-     * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 11;</code>
+     * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 2;</code>
      */
     @java.lang.Override
     public int getStageInfoListCount() {
       return stageInfoList_.size();
     }
     /**
-     * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 11;</code>
+     * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 2;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.BrickBreakerActivityStageInfoOuterClass.BrickBreakerActivityStageInfo getStageInfoList(int index) {
       return stageInfoList_.get(index);
     }
     /**
-     * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 11;</code>
+     * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 2;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.BrickBreakerActivityStageInfoOuterClass.BrickBreakerActivityStageInfoOrBuilder getStageInfoListOrBuilder(
@@ -386,7 +386,7 @@ public final class BrickBreakerDetailInfoOuterClass {
       return stageInfoList_.get(index);
     }
 
-    public static final int SKILL_INFO_MAP_FIELD_NUMBER = 15;
+    public static final int SKILL_INFO_MAP_FIELD_NUMBER = 7;
     private static final class SkillInfoMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, java.lang.Integer> defaultEntry =
@@ -413,7 +413,7 @@ public final class BrickBreakerDetailInfoOuterClass {
       return internalGetSkillInfoMap().getMap().size();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; skill_info_map = 15;</code>
+     * <code>map&lt;uint32, uint32&gt; skill_info_map = 7;</code>
      */
 
     @java.lang.Override
@@ -431,7 +431,7 @@ public final class BrickBreakerDetailInfoOuterClass {
       return getSkillInfoMapMap();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; skill_info_map = 15;</code>
+     * <code>map&lt;uint32, uint32&gt; skill_info_map = 7;</code>
      */
     @java.lang.Override
 
@@ -439,7 +439,7 @@ public final class BrickBreakerDetailInfoOuterClass {
       return internalGetSkillInfoMap().getMap();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; skill_info_map = 15;</code>
+     * <code>map&lt;uint32, uint32&gt; skill_info_map = 7;</code>
      */
     @java.lang.Override
 
@@ -452,7 +452,7 @@ public final class BrickBreakerDetailInfoOuterClass {
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; skill_info_map = 15;</code>
+     * <code>map&lt;uint32, uint32&gt; skill_info_map = 7;</code>
      */
     @java.lang.Override
 
@@ -481,21 +481,21 @@ public final class BrickBreakerDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      for (int i = 0; i < jFKMENHOOKK_.size(); i++) {
-        output.writeMessage(5, jFKMENHOOKK_.get(i));
-      }
-      for (int i = 0; i < bLECCFIBJPO_.size(); i++) {
-        output.writeMessage(9, bLECCFIBJPO_.get(i));
-      }
       for (int i = 0; i < stageInfoList_.size(); i++) {
-        output.writeMessage(11, stageInfoList_.get(i));
+        output.writeMessage(2, stageInfoList_.get(i));
       }
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
           output,
           internalGetSkillInfoMap(),
           SkillInfoMapDefaultEntryHolder.defaultEntry,
-          15);
+          7);
+      for (int i = 0; i < jFKMENHOOKK_.size(); i++) {
+        output.writeMessage(50000, jFKMENHOOKK_.get(i));
+      }
+      for (int i = 0; i < bLECCFIBJPO_.size(); i++) {
+        output.writeMessage(50001, bLECCFIBJPO_.get(i));
+      }
       unknownFields.writeTo(output);
     }
 
@@ -505,17 +505,9 @@ public final class BrickBreakerDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < jFKMENHOOKK_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, jFKMENHOOKK_.get(i));
-      }
-      for (int i = 0; i < bLECCFIBJPO_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, bLECCFIBJPO_.get(i));
-      }
       for (int i = 0; i < stageInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, stageInfoList_.get(i));
+          .computeMessageSize(2, stageInfoList_.get(i));
       }
       for (java.util.Map.Entry<java.lang.Integer, java.lang.Integer> entry
            : internalGetSkillInfoMap().getMap().entrySet()) {
@@ -525,7 +517,15 @@ public final class BrickBreakerDetailInfoOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(15, skillInfoMap__);
+            .computeMessageSize(7, skillInfoMap__);
+      }
+      for (int i = 0; i < jFKMENHOOKK_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(50000, jFKMENHOOKK_.get(i));
+      }
+      for (int i = 0; i < bLECCFIBJPO_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(50001, bLECCFIBJPO_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -688,7 +688,7 @@ public final class BrickBreakerDetailInfoOuterClass {
       protected com.google.protobuf.MapField internalGetMapField(
           int number) {
         switch (number) {
-          case 15:
+          case 7:
             return internalGetSkillInfoMap();
           default:
             throw new RuntimeException(
@@ -699,7 +699,7 @@ public final class BrickBreakerDetailInfoOuterClass {
       protected com.google.protobuf.MapField internalGetMutableMapField(
           int number) {
         switch (number) {
-          case 15:
+          case 7:
             return internalGetMutableSkillInfoMap();
           default:
             throw new RuntimeException(
@@ -981,7 +981,7 @@ public final class BrickBreakerDetailInfoOuterClass {
           emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo, emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo.Builder, emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfoOrBuilder> jFKMENHOOKKBuilder_;
 
       /**
-       * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 5;</code>
+       * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 50000;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo> getJFKMENHOOKKList() {
         if (jFKMENHOOKKBuilder_ == null) {
@@ -991,7 +991,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 5;</code>
+       * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 50000;</code>
        */
       public int getJFKMENHOOKKCount() {
         if (jFKMENHOOKKBuilder_ == null) {
@@ -1001,7 +1001,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 5;</code>
+       * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 50000;</code>
        */
       public emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo getJFKMENHOOKK(int index) {
         if (jFKMENHOOKKBuilder_ == null) {
@@ -1011,7 +1011,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 5;</code>
+       * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 50000;</code>
        */
       public Builder setJFKMENHOOKK(
           int index, emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo value) {
@@ -1028,7 +1028,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 5;</code>
+       * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 50000;</code>
        */
       public Builder setJFKMENHOOKK(
           int index, emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo.Builder builderForValue) {
@@ -1042,7 +1042,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 5;</code>
+       * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 50000;</code>
        */
       public Builder addJFKMENHOOKK(emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo value) {
         if (jFKMENHOOKKBuilder_ == null) {
@@ -1058,7 +1058,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 5;</code>
+       * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 50000;</code>
        */
       public Builder addJFKMENHOOKK(
           int index, emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo value) {
@@ -1075,7 +1075,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 5;</code>
+       * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 50000;</code>
        */
       public Builder addJFKMENHOOKK(
           emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo.Builder builderForValue) {
@@ -1089,7 +1089,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 5;</code>
+       * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 50000;</code>
        */
       public Builder addJFKMENHOOKK(
           int index, emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo.Builder builderForValue) {
@@ -1103,7 +1103,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 5;</code>
+       * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 50000;</code>
        */
       public Builder addAllJFKMENHOOKK(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo> values) {
@@ -1118,7 +1118,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 5;</code>
+       * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 50000;</code>
        */
       public Builder clearJFKMENHOOKK() {
         if (jFKMENHOOKKBuilder_ == null) {
@@ -1131,7 +1131,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 5;</code>
+       * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 50000;</code>
        */
       public Builder removeJFKMENHOOKK(int index) {
         if (jFKMENHOOKKBuilder_ == null) {
@@ -1144,14 +1144,14 @@ public final class BrickBreakerDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 5;</code>
+       * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 50000;</code>
        */
       public emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo.Builder getJFKMENHOOKKBuilder(
           int index) {
         return getJFKMENHOOKKFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 5;</code>
+       * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 50000;</code>
        */
       public emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfoOrBuilder getJFKMENHOOKKOrBuilder(
           int index) {
@@ -1161,7 +1161,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 5;</code>
+       * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 50000;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfoOrBuilder> 
            getJFKMENHOOKKOrBuilderList() {
@@ -1172,14 +1172,14 @@ public final class BrickBreakerDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 5;</code>
+       * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 50000;</code>
        */
       public emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo.Builder addJFKMENHOOKKBuilder() {
         return getJFKMENHOOKKFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 5;</code>
+       * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 50000;</code>
        */
       public emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo.Builder addJFKMENHOOKKBuilder(
           int index) {
@@ -1187,7 +1187,7 @@ public final class BrickBreakerDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 5;</code>
+       * <code>repeated .BrickBreakerLevelInfo JFKMENHOOKK = 50000;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo.Builder> 
            getJFKMENHOOKKBuilderList() {
@@ -1221,7 +1221,7 @@ public final class BrickBreakerDetailInfoOuterClass {
           emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo, emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo.Builder, emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfoOrBuilder> bLECCFIBJPOBuilder_;
 
       /**
-       * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 9;</code>
+       * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 50001;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo> getBLECCFIBJPOList() {
         if (bLECCFIBJPOBuilder_ == null) {
@@ -1231,7 +1231,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 9;</code>
+       * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 50001;</code>
        */
       public int getBLECCFIBJPOCount() {
         if (bLECCFIBJPOBuilder_ == null) {
@@ -1241,7 +1241,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 9;</code>
+       * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 50001;</code>
        */
       public emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo getBLECCFIBJPO(int index) {
         if (bLECCFIBJPOBuilder_ == null) {
@@ -1251,7 +1251,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 9;</code>
+       * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 50001;</code>
        */
       public Builder setBLECCFIBJPO(
           int index, emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo value) {
@@ -1268,7 +1268,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 9;</code>
+       * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 50001;</code>
        */
       public Builder setBLECCFIBJPO(
           int index, emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo.Builder builderForValue) {
@@ -1282,7 +1282,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 9;</code>
+       * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 50001;</code>
        */
       public Builder addBLECCFIBJPO(emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo value) {
         if (bLECCFIBJPOBuilder_ == null) {
@@ -1298,7 +1298,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 9;</code>
+       * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 50001;</code>
        */
       public Builder addBLECCFIBJPO(
           int index, emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo value) {
@@ -1315,7 +1315,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 9;</code>
+       * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 50001;</code>
        */
       public Builder addBLECCFIBJPO(
           emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo.Builder builderForValue) {
@@ -1329,7 +1329,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 9;</code>
+       * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 50001;</code>
        */
       public Builder addBLECCFIBJPO(
           int index, emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo.Builder builderForValue) {
@@ -1343,7 +1343,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 9;</code>
+       * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 50001;</code>
        */
       public Builder addAllBLECCFIBJPO(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo> values) {
@@ -1358,7 +1358,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 9;</code>
+       * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 50001;</code>
        */
       public Builder clearBLECCFIBJPO() {
         if (bLECCFIBJPOBuilder_ == null) {
@@ -1371,7 +1371,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 9;</code>
+       * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 50001;</code>
        */
       public Builder removeBLECCFIBJPO(int index) {
         if (bLECCFIBJPOBuilder_ == null) {
@@ -1384,14 +1384,14 @@ public final class BrickBreakerDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 9;</code>
+       * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 50001;</code>
        */
       public emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo.Builder getBLECCFIBJPOBuilder(
           int index) {
         return getBLECCFIBJPOFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 9;</code>
+       * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 50001;</code>
        */
       public emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfoOrBuilder getBLECCFIBJPOOrBuilder(
           int index) {
@@ -1401,7 +1401,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 9;</code>
+       * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 50001;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfoOrBuilder> 
            getBLECCFIBJPOOrBuilderList() {
@@ -1412,14 +1412,14 @@ public final class BrickBreakerDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 9;</code>
+       * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 50001;</code>
        */
       public emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo.Builder addBLECCFIBJPOBuilder() {
         return getBLECCFIBJPOFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 9;</code>
+       * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 50001;</code>
        */
       public emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo.Builder addBLECCFIBJPOBuilder(
           int index) {
@@ -1427,7 +1427,7 @@ public final class BrickBreakerDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 9;</code>
+       * <code>repeated .BrickBreakerLevelInfo BLECCFIBJPO = 50001;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.BrickBreakerLevelInfoOuterClass.BrickBreakerLevelInfo.Builder> 
            getBLECCFIBJPOBuilderList() {
@@ -1461,7 +1461,7 @@ public final class BrickBreakerDetailInfoOuterClass {
           emu.grasscutter.net.proto.BrickBreakerActivityStageInfoOuterClass.BrickBreakerActivityStageInfo, emu.grasscutter.net.proto.BrickBreakerActivityStageInfoOuterClass.BrickBreakerActivityStageInfo.Builder, emu.grasscutter.net.proto.BrickBreakerActivityStageInfoOuterClass.BrickBreakerActivityStageInfoOrBuilder> stageInfoListBuilder_;
 
       /**
-       * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 11;</code>
+       * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 2;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.BrickBreakerActivityStageInfoOuterClass.BrickBreakerActivityStageInfo> getStageInfoListList() {
         if (stageInfoListBuilder_ == null) {
@@ -1471,7 +1471,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 11;</code>
+       * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 2;</code>
        */
       public int getStageInfoListCount() {
         if (stageInfoListBuilder_ == null) {
@@ -1481,7 +1481,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 11;</code>
+       * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 2;</code>
        */
       public emu.grasscutter.net.proto.BrickBreakerActivityStageInfoOuterClass.BrickBreakerActivityStageInfo getStageInfoList(int index) {
         if (stageInfoListBuilder_ == null) {
@@ -1491,7 +1491,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 11;</code>
+       * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 2;</code>
        */
       public Builder setStageInfoList(
           int index, emu.grasscutter.net.proto.BrickBreakerActivityStageInfoOuterClass.BrickBreakerActivityStageInfo value) {
@@ -1508,7 +1508,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 11;</code>
+       * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 2;</code>
        */
       public Builder setStageInfoList(
           int index, emu.grasscutter.net.proto.BrickBreakerActivityStageInfoOuterClass.BrickBreakerActivityStageInfo.Builder builderForValue) {
@@ -1522,7 +1522,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 11;</code>
+       * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 2;</code>
        */
       public Builder addStageInfoList(emu.grasscutter.net.proto.BrickBreakerActivityStageInfoOuterClass.BrickBreakerActivityStageInfo value) {
         if (stageInfoListBuilder_ == null) {
@@ -1538,7 +1538,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 11;</code>
+       * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 2;</code>
        */
       public Builder addStageInfoList(
           int index, emu.grasscutter.net.proto.BrickBreakerActivityStageInfoOuterClass.BrickBreakerActivityStageInfo value) {
@@ -1555,7 +1555,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 11;</code>
+       * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 2;</code>
        */
       public Builder addStageInfoList(
           emu.grasscutter.net.proto.BrickBreakerActivityStageInfoOuterClass.BrickBreakerActivityStageInfo.Builder builderForValue) {
@@ -1569,7 +1569,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 11;</code>
+       * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 2;</code>
        */
       public Builder addStageInfoList(
           int index, emu.grasscutter.net.proto.BrickBreakerActivityStageInfoOuterClass.BrickBreakerActivityStageInfo.Builder builderForValue) {
@@ -1583,7 +1583,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 11;</code>
+       * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 2;</code>
        */
       public Builder addAllStageInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.BrickBreakerActivityStageInfoOuterClass.BrickBreakerActivityStageInfo> values) {
@@ -1598,7 +1598,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 11;</code>
+       * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 2;</code>
        */
       public Builder clearStageInfoList() {
         if (stageInfoListBuilder_ == null) {
@@ -1611,7 +1611,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 11;</code>
+       * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 2;</code>
        */
       public Builder removeStageInfoList(int index) {
         if (stageInfoListBuilder_ == null) {
@@ -1624,14 +1624,14 @@ public final class BrickBreakerDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 11;</code>
+       * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 2;</code>
        */
       public emu.grasscutter.net.proto.BrickBreakerActivityStageInfoOuterClass.BrickBreakerActivityStageInfo.Builder getStageInfoListBuilder(
           int index) {
         return getStageInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 11;</code>
+       * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 2;</code>
        */
       public emu.grasscutter.net.proto.BrickBreakerActivityStageInfoOuterClass.BrickBreakerActivityStageInfoOrBuilder getStageInfoListOrBuilder(
           int index) {
@@ -1641,7 +1641,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 11;</code>
+       * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 2;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.BrickBreakerActivityStageInfoOuterClass.BrickBreakerActivityStageInfoOrBuilder> 
            getStageInfoListOrBuilderList() {
@@ -1652,14 +1652,14 @@ public final class BrickBreakerDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 11;</code>
+       * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 2;</code>
        */
       public emu.grasscutter.net.proto.BrickBreakerActivityStageInfoOuterClass.BrickBreakerActivityStageInfo.Builder addStageInfoListBuilder() {
         return getStageInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.BrickBreakerActivityStageInfoOuterClass.BrickBreakerActivityStageInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 11;</code>
+       * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 2;</code>
        */
       public emu.grasscutter.net.proto.BrickBreakerActivityStageInfoOuterClass.BrickBreakerActivityStageInfo.Builder addStageInfoListBuilder(
           int index) {
@@ -1667,7 +1667,7 @@ public final class BrickBreakerDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.BrickBreakerActivityStageInfoOuterClass.BrickBreakerActivityStageInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 11;</code>
+       * <code>repeated .BrickBreakerActivityStageInfo stage_info_list = 2;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.BrickBreakerActivityStageInfoOuterClass.BrickBreakerActivityStageInfo.Builder> 
            getStageInfoListBuilderList() {
@@ -1715,7 +1715,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         return internalGetSkillInfoMap().getMap().size();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; skill_info_map = 15;</code>
+       * <code>map&lt;uint32, uint32&gt; skill_info_map = 7;</code>
        */
 
       @java.lang.Override
@@ -1733,7 +1733,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         return getSkillInfoMapMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; skill_info_map = 15;</code>
+       * <code>map&lt;uint32, uint32&gt; skill_info_map = 7;</code>
        */
       @java.lang.Override
 
@@ -1741,7 +1741,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         return internalGetSkillInfoMap().getMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; skill_info_map = 15;</code>
+       * <code>map&lt;uint32, uint32&gt; skill_info_map = 7;</code>
        */
       @java.lang.Override
 
@@ -1754,7 +1754,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; skill_info_map = 15;</code>
+       * <code>map&lt;uint32, uint32&gt; skill_info_map = 7;</code>
        */
       @java.lang.Override
 
@@ -1775,7 +1775,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; skill_info_map = 15;</code>
+       * <code>map&lt;uint32, uint32&gt; skill_info_map = 7;</code>
        */
 
       public Builder removeSkillInfoMap(
@@ -1794,7 +1794,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         return internalGetMutableSkillInfoMap().getMutableMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; skill_info_map = 15;</code>
+       * <code>map&lt;uint32, uint32&gt; skill_info_map = 7;</code>
        */
       public Builder putSkillInfoMap(
           int key,
@@ -1806,7 +1806,7 @@ public final class BrickBreakerDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; skill_info_map = 15;</code>
+       * <code>map&lt;uint32, uint32&gt; skill_info_map = 7;</code>
        */
 
       public Builder putAllSkillInfoMap(
@@ -1889,16 +1889,16 @@ public final class BrickBreakerDetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034BrickBreakerDetailInfo.proto\032#BrickBre" +
       "akerActivityStageInfo.proto\032\033BrickBreake" +
-      "rLevelInfo.proto\"\243\002\n\026BrickBreakerDetailI" +
-      "nfo\022+\n\013JFKMENHOOKK\030\005 \003(\0132\026.BrickBreakerL" +
-      "evelInfo\022+\n\013BLECCFIBJPO\030\t \003(\0132\026.BrickBre" +
-      "akerLevelInfo\0227\n\017stage_info_list\030\013 \003(\0132\036" +
-      ".BrickBreakerActivityStageInfo\022A\n\016skill_" +
-      "info_map\030\017 \003(\0132).BrickBreakerDetailInfo." +
-      "SkillInfoMapEntry\0323\n\021SkillInfoMapEntry\022\013" +
-      "\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B=\n\031emu.gr" +
-      "asscutter.net.protoB BrickBreakerDetailI" +
-      "nfoOuterClassb\006proto3"
+      "rLevelInfo.proto\"\247\002\n\026BrickBreakerDetailI" +
+      "nfo\022-\n\013JFKMENHOOKK\030\320\206\003 \003(\0132\026.BrickBreake" +
+      "rLevelInfo\022-\n\013BLECCFIBJPO\030\321\206\003 \003(\0132\026.Bric" +
+      "kBreakerLevelInfo\0227\n\017stage_info_list\030\002 \003" +
+      "(\0132\036.BrickBreakerActivityStageInfo\022A\n\016sk" +
+      "ill_info_map\030\007 \003(\0132).BrickBreakerDetailI" +
+      "nfo.SkillInfoMapEntry\0323\n\021SkillInfoMapEnt" +
+      "ry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B=\n\031em" +
+      "u.grasscutter.net.protoB BrickBreakerDet" +
+      "ailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

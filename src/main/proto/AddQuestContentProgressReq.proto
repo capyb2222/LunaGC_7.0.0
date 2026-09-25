@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "AddQuestContentProgressReqOuterClass";
 
 message AddQuestContentProgressReq {
-	uint32 param = 9;
-	uint32 add_progress = 13;
-	uint32 content_type = 15;
+	uint32 param = 12;
+	uint32 add_progress = 2;
+	uint32 content_type = 1;
 }

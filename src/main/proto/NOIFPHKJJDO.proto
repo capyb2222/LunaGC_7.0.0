@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "NOIFPHKJJDOOuterClass";
 
 message NOIFPHKJJDO {
-	uint32 max_score = 2;
-	bool is_unlock = 4;
-	uint32 music_basic_id = 5;
+	uint32 max_score = 5;
+	bool is_unlock = 1;
+	uint32 music_basic_id = 14;
 }

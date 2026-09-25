@@ -9,17 +9,17 @@ import "ModifierAction.proto";
 import "ModifierProperty.proto";
 
 message AbilityMetaModifierChange {
-	repeated ModifierProperty properties = 1;
+	repeated ModifierProperty properties = 15;
 	AbilityString parent_ability_name = 2;
-	bool NBBGHMGOALL = 3;
+	bool NBBGHMGOALL = 50000;
 	bool is_attached_parent_ability = 4;
-	uint64 OCAMKBCONED = 5;
-	AbilityString parent_ability_override = 6;
-	float MFBDIICANOF = 9;
-	uint32 apply_entity_id = 10;
-	ModifierAction action = 11;
-	uint32 server_buff_uid = 12;
-	int32 modifier_local_id = 13;
-	AbilityAttachedModifier attached_instanced_modifier = 14;
-	bool PKJMOLPCEBG = 15;
+	uint64 OCAMKBCONED = 3;
+	AbilityString parent_ability_override = 9;
+	float MFBDIICANOF = 14;
+	uint32 apply_entity_id = 5;
+	ModifierAction action = 8;
+	uint32 server_buff_uid = 7;
+	int32 modifier_local_id = 11;
+	AbilityAttachedModifier attached_instanced_modifier = 1;
+	bool PKJMOLPCEBG = 50001;
 }

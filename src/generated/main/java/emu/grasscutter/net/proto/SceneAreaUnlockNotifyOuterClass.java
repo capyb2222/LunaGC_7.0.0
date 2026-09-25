@@ -19,24 +19,24 @@ public final class SceneAreaUnlockNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 area_list = 1;</code>
+     * <code>repeated uint32 area_list = 15;</code>
      * @return A list containing the areaList.
      */
     java.util.List<java.lang.Integer> getAreaListList();
     /**
-     * <code>repeated uint32 area_list = 1;</code>
+     * <code>repeated uint32 area_list = 15;</code>
      * @return The count of areaList.
      */
     int getAreaListCount();
     /**
-     * <code>repeated uint32 area_list = 1;</code>
+     * <code>repeated uint32 area_list = 15;</code>
      * @param index The index of the element to return.
      * @return The areaList at the given index.
      */
     int getAreaList(int index);
 
     /**
-     * <code>uint32 scene_id = 3;</code>
+     * <code>uint32 scene_id = 10;</code>
      * @return The sceneId.
      */
     int getSceneId();
@@ -88,7 +88,12 @@ public final class SceneAreaUnlockNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 80: {
+
+              sceneId_ = input.readUInt32();
+              break;
+            }
+            case 120: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 areaList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -96,7 +101,7 @@ public final class SceneAreaUnlockNotifyOuterClass {
               areaList_.addInt(input.readUInt32());
               break;
             }
-            case 10: {
+            case 122: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -107,11 +112,6 @@ public final class SceneAreaUnlockNotifyOuterClass {
                 areaList_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
-              break;
-            }
-            case 24: {
-
-              sceneId_ = input.readUInt32();
               break;
             }
             default: {
@@ -149,10 +149,10 @@ public final class SceneAreaUnlockNotifyOuterClass {
               emu.grasscutter.net.proto.SceneAreaUnlockNotifyOuterClass.SceneAreaUnlockNotify.class, emu.grasscutter.net.proto.SceneAreaUnlockNotifyOuterClass.SceneAreaUnlockNotify.Builder.class);
     }
 
-    public static final int AREA_LIST_FIELD_NUMBER = 1;
+    public static final int AREA_LIST_FIELD_NUMBER = 15;
     private com.google.protobuf.Internal.IntList areaList_;
     /**
-     * <code>repeated uint32 area_list = 1;</code>
+     * <code>repeated uint32 area_list = 15;</code>
      * @return A list containing the areaList.
      */
     @java.lang.Override
@@ -161,14 +161,14 @@ public final class SceneAreaUnlockNotifyOuterClass {
       return areaList_;
     }
     /**
-     * <code>repeated uint32 area_list = 1;</code>
+     * <code>repeated uint32 area_list = 15;</code>
      * @return The count of areaList.
      */
     public int getAreaListCount() {
       return areaList_.size();
     }
     /**
-     * <code>repeated uint32 area_list = 1;</code>
+     * <code>repeated uint32 area_list = 15;</code>
      * @param index The index of the element to return.
      * @return The areaList at the given index.
      */
@@ -177,10 +177,10 @@ public final class SceneAreaUnlockNotifyOuterClass {
     }
     private int areaListMemoizedSerializedSize = -1;
 
-    public static final int SCENE_ID_FIELD_NUMBER = 3;
+    public static final int SCENE_ID_FIELD_NUMBER = 10;
     private int sceneId_;
     /**
-     * <code>uint32 scene_id = 3;</code>
+     * <code>uint32 scene_id = 10;</code>
      * @return The sceneId.
      */
     @java.lang.Override
@@ -203,15 +203,15 @@ public final class SceneAreaUnlockNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
+      if (sceneId_ != 0) {
+        output.writeUInt32(10, sceneId_);
+      }
       if (getAreaListList().size() > 0) {
-        output.writeUInt32NoTag(10);
+        output.writeUInt32NoTag(122);
         output.writeUInt32NoTag(areaListMemoizedSerializedSize);
       }
       for (int i = 0; i < areaList_.size(); i++) {
         output.writeUInt32NoTag(areaList_.getInt(i));
-      }
-      if (sceneId_ != 0) {
-        output.writeUInt32(3, sceneId_);
       }
       unknownFields.writeTo(output);
     }
@@ -222,6 +222,10 @@ public final class SceneAreaUnlockNotifyOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (sceneId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(10, sceneId_);
+      }
       {
         int dataSize = 0;
         for (int i = 0; i < areaList_.size(); i++) {
@@ -235,10 +239,6 @@ public final class SceneAreaUnlockNotifyOuterClass {
               .computeInt32SizeNoTag(dataSize);
         }
         areaListMemoizedSerializedSize = dataSize;
-      }
-      if (sceneId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, sceneId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -545,7 +545,7 @@ public final class SceneAreaUnlockNotifyOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 area_list = 1;</code>
+       * <code>repeated uint32 area_list = 15;</code>
        * @return A list containing the areaList.
        */
       public java.util.List<java.lang.Integer>
@@ -554,14 +554,14 @@ public final class SceneAreaUnlockNotifyOuterClass {
                  java.util.Collections.unmodifiableList(areaList_) : areaList_;
       }
       /**
-       * <code>repeated uint32 area_list = 1;</code>
+       * <code>repeated uint32 area_list = 15;</code>
        * @return The count of areaList.
        */
       public int getAreaListCount() {
         return areaList_.size();
       }
       /**
-       * <code>repeated uint32 area_list = 1;</code>
+       * <code>repeated uint32 area_list = 15;</code>
        * @param index The index of the element to return.
        * @return The areaList at the given index.
        */
@@ -569,7 +569,7 @@ public final class SceneAreaUnlockNotifyOuterClass {
         return areaList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 area_list = 1;</code>
+       * <code>repeated uint32 area_list = 15;</code>
        * @param index The index to set the value at.
        * @param value The areaList to set.
        * @return This builder for chaining.
@@ -582,7 +582,7 @@ public final class SceneAreaUnlockNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 area_list = 1;</code>
+       * <code>repeated uint32 area_list = 15;</code>
        * @param value The areaList to add.
        * @return This builder for chaining.
        */
@@ -593,7 +593,7 @@ public final class SceneAreaUnlockNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 area_list = 1;</code>
+       * <code>repeated uint32 area_list = 15;</code>
        * @param values The areaList to add.
        * @return This builder for chaining.
        */
@@ -606,7 +606,7 @@ public final class SceneAreaUnlockNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 area_list = 1;</code>
+       * <code>repeated uint32 area_list = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearAreaList() {
@@ -618,7 +618,7 @@ public final class SceneAreaUnlockNotifyOuterClass {
 
       private int sceneId_ ;
       /**
-       * <code>uint32 scene_id = 3;</code>
+       * <code>uint32 scene_id = 10;</code>
        * @return The sceneId.
        */
       @java.lang.Override
@@ -626,7 +626,7 @@ public final class SceneAreaUnlockNotifyOuterClass {
         return sceneId_;
       }
       /**
-       * <code>uint32 scene_id = 3;</code>
+       * <code>uint32 scene_id = 10;</code>
        * @param value The sceneId to set.
        * @return This builder for chaining.
        */
@@ -637,7 +637,7 @@ public final class SceneAreaUnlockNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 scene_id = 3;</code>
+       * <code>uint32 scene_id = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearSceneId() {
@@ -714,8 +714,8 @@ public final class SceneAreaUnlockNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\033SceneAreaUnlockNotify.proto\"<\n\025SceneAr" +
-      "eaUnlockNotify\022\021\n\tarea_list\030\001 \003(\r\022\020\n\010sce" +
-      "ne_id\030\003 \001(\rB<\n\031emu.grasscutter.net.proto" +
+      "eaUnlockNotify\022\021\n\tarea_list\030\017 \003(\r\022\020\n\010sce" +
+      "ne_id\030\n \001(\rB<\n\031emu.grasscutter.net.proto" +
       "B\037SceneAreaUnlockNotifyOuterClassb\006proto" +
       "3"
     };

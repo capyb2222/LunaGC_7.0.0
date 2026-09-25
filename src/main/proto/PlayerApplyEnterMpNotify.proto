@@ -6,8 +6,8 @@ option java_outer_classname = "PlayerApplyEnterMpNotifyOuterClass";
 import "OnlinePlayerInfo.proto";
 
 message PlayerApplyEnterMpNotify {
-	uint32 GECNDBBGLCN = 2;
-	bool chchcmbdiok = 3;
-	OnlinePlayerInfo src_player_info = 4;
-	uint32 EBDIMCHMKKD = 10;
+	uint32 GECNDBBGLCN = 15;
+	bool chchcmbdiok = 1;
+	OnlinePlayerInfo src_player_info = 12;
+	uint32 EBDIMCHMKKD = 4;
 }

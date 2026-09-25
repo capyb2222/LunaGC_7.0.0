@@ -19,25 +19,25 @@ public final class AvatarExpeditionStartReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+     * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 10;</code>
      */
     java.util.List<emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo> 
         getBasicInfoListList();
     /**
-     * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+     * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 10;</code>
      */
     emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo getBasicInfoList(int index);
     /**
-     * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+     * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 10;</code>
      */
     int getBasicInfoListCount();
     /**
-     * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+     * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 10;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfoOrBuilder> 
         getBasicInfoListOrBuilderList();
     /**
-     * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+     * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 10;</code>
      */
     emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfoOrBuilder getBasicInfoListOrBuilder(
         int index);
@@ -89,7 +89,7 @@ public final class AvatarExpeditionStartReqOuterClass {
             case 0:
               done = true;
               break;
-            case 74: {
+            case 82: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 BasicInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -133,17 +133,17 @@ public final class AvatarExpeditionStartReqOuterClass {
               emu.grasscutter.net.proto.AvatarExpeditionStartReqOuterClass.AvatarExpeditionStartReq.class, emu.grasscutter.net.proto.AvatarExpeditionStartReqOuterClass.AvatarExpeditionStartReq.Builder.class);
     }
 
-    public static final int _BASIC_INFO_LIST_FIELD_NUMBER = 9;
+    public static final int _BASIC_INFO_LIST_FIELD_NUMBER = 10;
     private java.util.List<emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo> BasicInfoList_;
     /**
-     * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+     * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 10;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo> getBasicInfoListList() {
       return BasicInfoList_;
     }
     /**
-     * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+     * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 10;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfoOrBuilder> 
@@ -151,21 +151,21 @@ public final class AvatarExpeditionStartReqOuterClass {
       return BasicInfoList_;
     }
     /**
-     * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+     * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 10;</code>
      */
     @java.lang.Override
     public int getBasicInfoListCount() {
       return BasicInfoList_.size();
     }
     /**
-     * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+     * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 10;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo getBasicInfoList(int index) {
       return BasicInfoList_.get(index);
     }
     /**
-     * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+     * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 10;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfoOrBuilder getBasicInfoListOrBuilder(
@@ -188,7 +188,7 @@ public final class AvatarExpeditionStartReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < BasicInfoList_.size(); i++) {
-        output.writeMessage(9, BasicInfoList_.get(i));
+        output.writeMessage(10, BasicInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -201,7 +201,7 @@ public final class AvatarExpeditionStartReqOuterClass {
       size = 0;
       for (int i = 0; i < BasicInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, BasicInfoList_.get(i));
+          .computeMessageSize(10, BasicInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -528,7 +528,7 @@ public final class AvatarExpeditionStartReqOuterClass {
           emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo, emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.Builder, emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfoOrBuilder> BasicInfoListBuilder_;
 
       /**
-       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 10;</code>
        */
       public java.util.List<emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo> getBasicInfoListList() {
         if (BasicInfoListBuilder_ == null) {
@@ -538,7 +538,7 @@ public final class AvatarExpeditionStartReqOuterClass {
         }
       }
       /**
-       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 10;</code>
        */
       public int getBasicInfoListCount() {
         if (BasicInfoListBuilder_ == null) {
@@ -548,7 +548,7 @@ public final class AvatarExpeditionStartReqOuterClass {
         }
       }
       /**
-       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 10;</code>
        */
       public emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo getBasicInfoList(int index) {
         if (BasicInfoListBuilder_ == null) {
@@ -558,7 +558,7 @@ public final class AvatarExpeditionStartReqOuterClass {
         }
       }
       /**
-       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 10;</code>
        */
       public Builder setBasicInfoList(
           int index, emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo value) {
@@ -575,7 +575,7 @@ public final class AvatarExpeditionStartReqOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 10;</code>
        */
       public Builder setBasicInfoList(
           int index, emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.Builder builderForValue) {
@@ -589,7 +589,7 @@ public final class AvatarExpeditionStartReqOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 10;</code>
        */
       public Builder addBasicInfoList(emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo value) {
         if (BasicInfoListBuilder_ == null) {
@@ -605,7 +605,7 @@ public final class AvatarExpeditionStartReqOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 10;</code>
        */
       public Builder addBasicInfoList(
           int index, emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo value) {
@@ -622,7 +622,7 @@ public final class AvatarExpeditionStartReqOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 10;</code>
        */
       public Builder addBasicInfoList(
           emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.Builder builderForValue) {
@@ -636,7 +636,7 @@ public final class AvatarExpeditionStartReqOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 10;</code>
        */
       public Builder addBasicInfoList(
           int index, emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.Builder builderForValue) {
@@ -650,7 +650,7 @@ public final class AvatarExpeditionStartReqOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 10;</code>
        */
       public Builder addAllBasicInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo> values) {
@@ -665,7 +665,7 @@ public final class AvatarExpeditionStartReqOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 10;</code>
        */
       public Builder clearBasicInfoList() {
         if (BasicInfoListBuilder_ == null) {
@@ -678,7 +678,7 @@ public final class AvatarExpeditionStartReqOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 10;</code>
        */
       public Builder removeBasicInfoList(int index) {
         if (BasicInfoListBuilder_ == null) {
@@ -691,14 +691,14 @@ public final class AvatarExpeditionStartReqOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 10;</code>
        */
       public emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.Builder getBasicInfoListBuilder(
           int index) {
         return getBasicInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 10;</code>
        */
       public emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfoOrBuilder getBasicInfoListOrBuilder(
           int index) {
@@ -708,7 +708,7 @@ public final class AvatarExpeditionStartReqOuterClass {
         }
       }
       /**
-       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 10;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfoOrBuilder> 
            getBasicInfoListOrBuilderList() {
@@ -719,14 +719,14 @@ public final class AvatarExpeditionStartReqOuterClass {
         }
       }
       /**
-       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 10;</code>
        */
       public emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.Builder addBasicInfoListBuilder() {
         return getBasicInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 10;</code>
        */
       public emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.Builder addBasicInfoListBuilder(
           int index) {
@@ -734,7 +734,7 @@ public final class AvatarExpeditionStartReqOuterClass {
             index, emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 9;</code>
+       * <code>repeated ._AvatarExpeditionBasicInfo _basic_info_list = 10;</code>
        */
       public java.util.List<emu.grasscutter.net.proto._AvatarExpeditionBasicInfoOuterClass._AvatarExpeditionBasicInfo.Builder> 
            getBasicInfoListBuilderList() {
@@ -823,7 +823,7 @@ public final class AvatarExpeditionStartReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036AvatarExpeditionStartReq.proto\032 _Avata" +
       "rExpeditionBasicInfo.proto\"Q\n\030AvatarExpe" +
-      "ditionStartReq\0225\n\020_basic_info_list\030\t \003(\013" +
+      "ditionStartReq\0225\n\020_basic_info_list\030\n \003(\013" +
       "2\033._AvatarExpeditionBasicInfoB?\n\031emu.gra" +
       "sscutter.net.protoB\"AvatarExpeditionStar" +
       "tReqOuterClassb\006proto3"

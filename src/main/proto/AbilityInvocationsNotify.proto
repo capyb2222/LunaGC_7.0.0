@@ -6,5 +6,5 @@ option java_outer_classname = "AbilityInvocationsNotifyOuterClass";
 import "AbilityInvokeEntry.proto";
 
 message AbilityInvocationsNotify {
-	repeated AbilityInvokeEntry invokes = 12;
+	repeated AbilityInvokeEntry invokes = 3;
 }

@@ -19,25 +19,25 @@ public final class _NodkraiTourHackSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 use_time = 1;</code>
+     * <code>uint32 use_time = 15;</code>
      * @return The useTime.
      */
     int getUseTime();
 
     /**
-     * <code>uint32 collect_num = 2;</code>
+     * <code>uint32 collect_num = 13;</code>
      * @return The collectNum.
      */
     int getCollectNum();
 
     /**
-     * <code>uint32 hit_point = 5;</code>
+     * <code>uint32 hit_point = 8;</code>
      * @return The hitPoint.
      */
     int getHitPoint();
 
     /**
-     * <code>bool is_new_record = 9;</code>
+     * <code>bool is_new_record = 7;</code>
      * @return The isNewRecord.
      */
     boolean getIsNewRecord();
@@ -87,24 +87,24 @@ public final class _NodkraiTourHackSettleInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 56: {
 
-              useTime_ = input.readUInt32();
+              isNewRecord_ = input.readBool();
               break;
             }
-            case 16: {
-
-              collectNum_ = input.readUInt32();
-              break;
-            }
-            case 40: {
+            case 64: {
 
               hitPoint_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 104: {
 
-              isNewRecord_ = input.readBool();
+              collectNum_ = input.readUInt32();
+              break;
+            }
+            case 120: {
+
+              useTime_ = input.readUInt32();
               break;
             }
             default: {
@@ -139,10 +139,10 @@ public final class _NodkraiTourHackSettleInfoOuterClass {
               emu.grasscutter.net.proto._NodkraiTourHackSettleInfoOuterClass._NodkraiTourHackSettleInfo.class, emu.grasscutter.net.proto._NodkraiTourHackSettleInfoOuterClass._NodkraiTourHackSettleInfo.Builder.class);
     }
 
-    public static final int USE_TIME_FIELD_NUMBER = 1;
+    public static final int USE_TIME_FIELD_NUMBER = 15;
     private int useTime_;
     /**
-     * <code>uint32 use_time = 1;</code>
+     * <code>uint32 use_time = 15;</code>
      * @return The useTime.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class _NodkraiTourHackSettleInfoOuterClass {
       return useTime_;
     }
 
-    public static final int COLLECT_NUM_FIELD_NUMBER = 2;
+    public static final int COLLECT_NUM_FIELD_NUMBER = 13;
     private int collectNum_;
     /**
-     * <code>uint32 collect_num = 2;</code>
+     * <code>uint32 collect_num = 13;</code>
      * @return The collectNum.
      */
     @java.lang.Override
@@ -161,10 +161,10 @@ public final class _NodkraiTourHackSettleInfoOuterClass {
       return collectNum_;
     }
 
-    public static final int HIT_POINT_FIELD_NUMBER = 5;
+    public static final int HIT_POINT_FIELD_NUMBER = 8;
     private int hitPoint_;
     /**
-     * <code>uint32 hit_point = 5;</code>
+     * <code>uint32 hit_point = 8;</code>
      * @return The hitPoint.
      */
     @java.lang.Override
@@ -172,10 +172,10 @@ public final class _NodkraiTourHackSettleInfoOuterClass {
       return hitPoint_;
     }
 
-    public static final int IS_NEW_RECORD_FIELD_NUMBER = 9;
+    public static final int IS_NEW_RECORD_FIELD_NUMBER = 7;
     private boolean isNewRecord_;
     /**
-     * <code>bool is_new_record = 9;</code>
+     * <code>bool is_new_record = 7;</code>
      * @return The isNewRecord.
      */
     @java.lang.Override
@@ -197,17 +197,17 @@ public final class _NodkraiTourHackSettleInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (useTime_ != 0) {
-        output.writeUInt32(1, useTime_);
-      }
-      if (collectNum_ != 0) {
-        output.writeUInt32(2, collectNum_);
+      if (isNewRecord_ != false) {
+        output.writeBool(7, isNewRecord_);
       }
       if (hitPoint_ != 0) {
-        output.writeUInt32(5, hitPoint_);
+        output.writeUInt32(8, hitPoint_);
       }
-      if (isNewRecord_ != false) {
-        output.writeBool(9, isNewRecord_);
+      if (collectNum_ != 0) {
+        output.writeUInt32(13, collectNum_);
+      }
+      if (useTime_ != 0) {
+        output.writeUInt32(15, useTime_);
       }
       unknownFields.writeTo(output);
     }
@@ -218,21 +218,21 @@ public final class _NodkraiTourHackSettleInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (useTime_ != 0) {
+      if (isNewRecord_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, useTime_);
-      }
-      if (collectNum_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, collectNum_);
+          .computeBoolSize(7, isNewRecord_);
       }
       if (hitPoint_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, hitPoint_);
+          .computeUInt32Size(8, hitPoint_);
       }
-      if (isNewRecord_ != false) {
+      if (collectNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, isNewRecord_);
+          .computeUInt32Size(13, collectNum_);
+      }
+      if (useTime_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(15, useTime_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -539,7 +539,7 @@ public final class _NodkraiTourHackSettleInfoOuterClass {
 
       private int useTime_ ;
       /**
-       * <code>uint32 use_time = 1;</code>
+       * <code>uint32 use_time = 15;</code>
        * @return The useTime.
        */
       @java.lang.Override
@@ -547,7 +547,7 @@ public final class _NodkraiTourHackSettleInfoOuterClass {
         return useTime_;
       }
       /**
-       * <code>uint32 use_time = 1;</code>
+       * <code>uint32 use_time = 15;</code>
        * @param value The useTime to set.
        * @return This builder for chaining.
        */
@@ -558,7 +558,7 @@ public final class _NodkraiTourHackSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 use_time = 1;</code>
+       * <code>uint32 use_time = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearUseTime() {
@@ -570,7 +570,7 @@ public final class _NodkraiTourHackSettleInfoOuterClass {
 
       private int collectNum_ ;
       /**
-       * <code>uint32 collect_num = 2;</code>
+       * <code>uint32 collect_num = 13;</code>
        * @return The collectNum.
        */
       @java.lang.Override
@@ -578,7 +578,7 @@ public final class _NodkraiTourHackSettleInfoOuterClass {
         return collectNum_;
       }
       /**
-       * <code>uint32 collect_num = 2;</code>
+       * <code>uint32 collect_num = 13;</code>
        * @param value The collectNum to set.
        * @return This builder for chaining.
        */
@@ -589,7 +589,7 @@ public final class _NodkraiTourHackSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 collect_num = 2;</code>
+       * <code>uint32 collect_num = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearCollectNum() {
@@ -601,7 +601,7 @@ public final class _NodkraiTourHackSettleInfoOuterClass {
 
       private int hitPoint_ ;
       /**
-       * <code>uint32 hit_point = 5;</code>
+       * <code>uint32 hit_point = 8;</code>
        * @return The hitPoint.
        */
       @java.lang.Override
@@ -609,7 +609,7 @@ public final class _NodkraiTourHackSettleInfoOuterClass {
         return hitPoint_;
       }
       /**
-       * <code>uint32 hit_point = 5;</code>
+       * <code>uint32 hit_point = 8;</code>
        * @param value The hitPoint to set.
        * @return This builder for chaining.
        */
@@ -620,7 +620,7 @@ public final class _NodkraiTourHackSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 hit_point = 5;</code>
+       * <code>uint32 hit_point = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearHitPoint() {
@@ -632,7 +632,7 @@ public final class _NodkraiTourHackSettleInfoOuterClass {
 
       private boolean isNewRecord_ ;
       /**
-       * <code>bool is_new_record = 9;</code>
+       * <code>bool is_new_record = 7;</code>
        * @return The isNewRecord.
        */
       @java.lang.Override
@@ -640,7 +640,7 @@ public final class _NodkraiTourHackSettleInfoOuterClass {
         return isNewRecord_;
       }
       /**
-       * <code>bool is_new_record = 9;</code>
+       * <code>bool is_new_record = 7;</code>
        * @param value The isNewRecord to set.
        * @return This builder for chaining.
        */
@@ -651,7 +651,7 @@ public final class _NodkraiTourHackSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_new_record = 9;</code>
+       * <code>bool is_new_record = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsNewRecord() {
@@ -728,9 +728,9 @@ public final class _NodkraiTourHackSettleInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n _NodkraiTourHackSettleInfo.proto\"m\n\032_N" +
-      "odkraiTourHackSettleInfo\022\020\n\010use_time\030\001 \001" +
-      "(\r\022\023\n\013collect_num\030\002 \001(\r\022\021\n\thit_point\030\005 \001" +
-      "(\r\022\025\n\ris_new_record\030\t \001(\010BA\n\031emu.grasscu" +
+      "odkraiTourHackSettleInfo\022\020\n\010use_time\030\017 \001" +
+      "(\r\022\023\n\013collect_num\030\r \001(\r\022\021\n\thit_point\030\010 \001" +
+      "(\r\022\025\n\ris_new_record\030\007 \001(\010BA\n\031emu.grasscu" +
       "tter.net.protoB$_NodkraiTourHackSettleIn" +
       "foOuterClassb\006proto3"
     };

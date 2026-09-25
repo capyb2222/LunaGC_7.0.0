@@ -6,7 +6,7 @@ option java_outer_classname = "PersonalSceneJumpRspOuterClass";
 import "Vector.proto";
 
 message PersonalSceneJumpRsp {
-	int32 retcode = 3;
-	uint32 dest_scene_id = 5;
-	Vector dest_pos = 12;
+	int32 retcode = 12;
+	uint32 dest_scene_id = 9;
+	Vector dest_pos = 6;
 }

@@ -19,24 +19,24 @@ public final class PotionStageDataOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 HLFNHDFMEEL = 7;</code>
+     * <code>repeated uint32 HLFNHDFMEEL = 50000;</code>
      * @return A list containing the hLFNHDFMEEL.
      */
     java.util.List<java.lang.Integer> getHLFNHDFMEELList();
     /**
-     * <code>repeated uint32 HLFNHDFMEEL = 7;</code>
+     * <code>repeated uint32 HLFNHDFMEEL = 50000;</code>
      * @return The count of hLFNHDFMEEL.
      */
     int getHLFNHDFMEELCount();
     /**
-     * <code>repeated uint32 HLFNHDFMEEL = 7;</code>
+     * <code>repeated uint32 HLFNHDFMEEL = 50000;</code>
      * @param index The index of the element to return.
      * @return The hLFNHDFMEEL at the given index.
      */
     int getHLFNHDFMEEL(int index);
 
     /**
-     * <code>bool is_open = 8;</code>
+     * <code>bool is_open = 6;</code>
      * @return The isOpen.
      */
     boolean getIsOpen();
@@ -66,23 +66,23 @@ public final class PotionStageDataOuterClass {
         int index);
 
     /**
-     * <code>uint32 stage_id = 14;</code>
+     * <code>uint32 stage_id = 2;</code>
      * @return The stageId.
      */
     int getStageId();
 
     /**
-     * <code>repeated uint32 MDEMNAHABEN = 15;</code>
+     * <code>repeated uint32 MDEMNAHABEN = 50001;</code>
      * @return A list containing the mDEMNAHABEN.
      */
     java.util.List<java.lang.Integer> getMDEMNAHABENList();
     /**
-     * <code>repeated uint32 MDEMNAHABEN = 15;</code>
+     * <code>repeated uint32 MDEMNAHABEN = 50001;</code>
      * @return The count of mDEMNAHABEN.
      */
     int getMDEMNAHABENCount();
     /**
-     * <code>repeated uint32 MDEMNAHABEN = 15;</code>
+     * <code>repeated uint32 MDEMNAHABEN = 50001;</code>
      * @param index The index of the element to return.
      * @return The mDEMNAHABEN at the given index.
      */
@@ -137,28 +137,12 @@ public final class PotionStageDataOuterClass {
             case 0:
               done = true;
               break;
-            case 56: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                hLFNHDFMEEL_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              hLFNHDFMEEL_.addInt(input.readUInt32());
+            case 16: {
+
+              stageId_ = input.readUInt32();
               break;
             }
-            case 58: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                hLFNHDFMEEL_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                hLFNHDFMEEL_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
-              break;
-            }
-            case 64: {
+            case 48: {
 
               isOpen_ = input.readBool();
               break;
@@ -172,12 +156,28 @@ public final class PotionStageDataOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.PotionLevelDataOuterClass.PotionLevelData.parser(), extensionRegistry));
               break;
             }
-            case 112: {
-
-              stageId_ = input.readUInt32();
+            case 400000: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                hLFNHDFMEEL_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              hLFNHDFMEEL_.addInt(input.readUInt32());
               break;
             }
-            case 120: {
+            case 400002: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
+                hLFNHDFMEEL_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                hLFNHDFMEEL_.addInt(input.readUInt32());
+              }
+              input.popLimit(limit);
+              break;
+            }
+            case 400008: {
               if (!((mutable_bitField0_ & 0x00000004) != 0)) {
                 mDEMNAHABEN_ = newIntList();
                 mutable_bitField0_ |= 0x00000004;
@@ -185,7 +185,7 @@ public final class PotionStageDataOuterClass {
               mDEMNAHABEN_.addInt(input.readUInt32());
               break;
             }
-            case 122: {
+            case 400010: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000004) != 0) && input.getBytesUntilLimit() > 0) {
@@ -213,11 +213,11 @@ public final class PotionStageDataOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          hLFNHDFMEEL_.makeImmutable(); // C
-        }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
           levelList_ = java.util.Collections.unmodifiableList(levelList_);
+        }
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          hLFNHDFMEEL_.makeImmutable(); // C
         }
         if (((mutable_bitField0_ & 0x00000004) != 0)) {
           mDEMNAHABEN_.makeImmutable(); // C
@@ -239,10 +239,10 @@ public final class PotionStageDataOuterClass {
               emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageData.class, emu.grasscutter.net.proto.PotionStageDataOuterClass.PotionStageData.Builder.class);
     }
 
-    public static final int HLFNHDFMEEL_FIELD_NUMBER = 7;
+    public static final int HLFNHDFMEEL_FIELD_NUMBER = 50000;
     private com.google.protobuf.Internal.IntList hLFNHDFMEEL_;
     /**
-     * <code>repeated uint32 HLFNHDFMEEL = 7;</code>
+     * <code>repeated uint32 HLFNHDFMEEL = 50000;</code>
      * @return A list containing the hLFNHDFMEEL.
      */
     @java.lang.Override
@@ -251,14 +251,14 @@ public final class PotionStageDataOuterClass {
       return hLFNHDFMEEL_;
     }
     /**
-     * <code>repeated uint32 HLFNHDFMEEL = 7;</code>
+     * <code>repeated uint32 HLFNHDFMEEL = 50000;</code>
      * @return The count of hLFNHDFMEEL.
      */
     public int getHLFNHDFMEELCount() {
       return hLFNHDFMEEL_.size();
     }
     /**
-     * <code>repeated uint32 HLFNHDFMEEL = 7;</code>
+     * <code>repeated uint32 HLFNHDFMEEL = 50000;</code>
      * @param index The index of the element to return.
      * @return The hLFNHDFMEEL at the given index.
      */
@@ -267,10 +267,10 @@ public final class PotionStageDataOuterClass {
     }
     private int hLFNHDFMEELMemoizedSerializedSize = -1;
 
-    public static final int IS_OPEN_FIELD_NUMBER = 8;
+    public static final int IS_OPEN_FIELD_NUMBER = 6;
     private boolean isOpen_;
     /**
-     * <code>bool is_open = 8;</code>
+     * <code>bool is_open = 6;</code>
      * @return The isOpen.
      */
     @java.lang.Override
@@ -318,10 +318,10 @@ public final class PotionStageDataOuterClass {
       return levelList_.get(index);
     }
 
-    public static final int STAGE_ID_FIELD_NUMBER = 14;
+    public static final int STAGE_ID_FIELD_NUMBER = 2;
     private int stageId_;
     /**
-     * <code>uint32 stage_id = 14;</code>
+     * <code>uint32 stage_id = 2;</code>
      * @return The stageId.
      */
     @java.lang.Override
@@ -329,10 +329,10 @@ public final class PotionStageDataOuterClass {
       return stageId_;
     }
 
-    public static final int MDEMNAHABEN_FIELD_NUMBER = 15;
+    public static final int MDEMNAHABEN_FIELD_NUMBER = 50001;
     private com.google.protobuf.Internal.IntList mDEMNAHABEN_;
     /**
-     * <code>repeated uint32 MDEMNAHABEN = 15;</code>
+     * <code>repeated uint32 MDEMNAHABEN = 50001;</code>
      * @return A list containing the mDEMNAHABEN.
      */
     @java.lang.Override
@@ -341,14 +341,14 @@ public final class PotionStageDataOuterClass {
       return mDEMNAHABEN_;
     }
     /**
-     * <code>repeated uint32 MDEMNAHABEN = 15;</code>
+     * <code>repeated uint32 MDEMNAHABEN = 50001;</code>
      * @return The count of mDEMNAHABEN.
      */
     public int getMDEMNAHABENCount() {
       return mDEMNAHABEN_.size();
     }
     /**
-     * <code>repeated uint32 MDEMNAHABEN = 15;</code>
+     * <code>repeated uint32 MDEMNAHABEN = 50001;</code>
      * @param index The index of the element to return.
      * @return The mDEMNAHABEN at the given index.
      */
@@ -372,24 +372,24 @@ public final class PotionStageDataOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
+      if (stageId_ != 0) {
+        output.writeUInt32(2, stageId_);
+      }
+      if (isOpen_ != false) {
+        output.writeBool(6, isOpen_);
+      }
+      for (int i = 0; i < levelList_.size(); i++) {
+        output.writeMessage(10, levelList_.get(i));
+      }
       if (getHLFNHDFMEELList().size() > 0) {
-        output.writeUInt32NoTag(58);
+        output.writeUInt32NoTag(400002);
         output.writeUInt32NoTag(hLFNHDFMEELMemoizedSerializedSize);
       }
       for (int i = 0; i < hLFNHDFMEEL_.size(); i++) {
         output.writeUInt32NoTag(hLFNHDFMEEL_.getInt(i));
       }
-      if (isOpen_ != false) {
-        output.writeBool(8, isOpen_);
-      }
-      for (int i = 0; i < levelList_.size(); i++) {
-        output.writeMessage(10, levelList_.get(i));
-      }
-      if (stageId_ != 0) {
-        output.writeUInt32(14, stageId_);
-      }
       if (getMDEMNAHABENList().size() > 0) {
-        output.writeUInt32NoTag(122);
+        output.writeUInt32NoTag(400010);
         output.writeUInt32NoTag(mDEMNAHABENMemoizedSerializedSize);
       }
       for (int i = 0; i < mDEMNAHABEN_.size(); i++) {
@@ -404,6 +404,18 @@ public final class PotionStageDataOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (stageId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(2, stageId_);
+      }
+      if (isOpen_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(6, isOpen_);
+      }
+      for (int i = 0; i < levelList_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(10, levelList_.get(i));
+      }
       {
         int dataSize = 0;
         for (int i = 0; i < hLFNHDFMEEL_.size(); i++) {
@@ -412,23 +424,11 @@ public final class PotionStageDataOuterClass {
         }
         size += dataSize;
         if (!getHLFNHDFMEELList().isEmpty()) {
-          size += 1;
+          size += 3;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
         hLFNHDFMEELMemoizedSerializedSize = dataSize;
-      }
-      if (isOpen_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(8, isOpen_);
-      }
-      for (int i = 0; i < levelList_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, levelList_.get(i));
-      }
-      if (stageId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, stageId_);
       }
       {
         int dataSize = 0;
@@ -438,7 +438,7 @@ public final class PotionStageDataOuterClass {
         }
         size += dataSize;
         if (!getMDEMNAHABENList().isEmpty()) {
-          size += 1;
+          size += 3;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
@@ -831,7 +831,7 @@ public final class PotionStageDataOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 HLFNHDFMEEL = 7;</code>
+       * <code>repeated uint32 HLFNHDFMEEL = 50000;</code>
        * @return A list containing the hLFNHDFMEEL.
        */
       public java.util.List<java.lang.Integer>
@@ -840,14 +840,14 @@ public final class PotionStageDataOuterClass {
                  java.util.Collections.unmodifiableList(hLFNHDFMEEL_) : hLFNHDFMEEL_;
       }
       /**
-       * <code>repeated uint32 HLFNHDFMEEL = 7;</code>
+       * <code>repeated uint32 HLFNHDFMEEL = 50000;</code>
        * @return The count of hLFNHDFMEEL.
        */
       public int getHLFNHDFMEELCount() {
         return hLFNHDFMEEL_.size();
       }
       /**
-       * <code>repeated uint32 HLFNHDFMEEL = 7;</code>
+       * <code>repeated uint32 HLFNHDFMEEL = 50000;</code>
        * @param index The index of the element to return.
        * @return The hLFNHDFMEEL at the given index.
        */
@@ -855,7 +855,7 @@ public final class PotionStageDataOuterClass {
         return hLFNHDFMEEL_.getInt(index);
       }
       /**
-       * <code>repeated uint32 HLFNHDFMEEL = 7;</code>
+       * <code>repeated uint32 HLFNHDFMEEL = 50000;</code>
        * @param index The index to set the value at.
        * @param value The hLFNHDFMEEL to set.
        * @return This builder for chaining.
@@ -868,7 +868,7 @@ public final class PotionStageDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 HLFNHDFMEEL = 7;</code>
+       * <code>repeated uint32 HLFNHDFMEEL = 50000;</code>
        * @param value The hLFNHDFMEEL to add.
        * @return This builder for chaining.
        */
@@ -879,7 +879,7 @@ public final class PotionStageDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 HLFNHDFMEEL = 7;</code>
+       * <code>repeated uint32 HLFNHDFMEEL = 50000;</code>
        * @param values The hLFNHDFMEEL to add.
        * @return This builder for chaining.
        */
@@ -892,7 +892,7 @@ public final class PotionStageDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 HLFNHDFMEEL = 7;</code>
+       * <code>repeated uint32 HLFNHDFMEEL = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearHLFNHDFMEEL() {
@@ -904,7 +904,7 @@ public final class PotionStageDataOuterClass {
 
       private boolean isOpen_ ;
       /**
-       * <code>bool is_open = 8;</code>
+       * <code>bool is_open = 6;</code>
        * @return The isOpen.
        */
       @java.lang.Override
@@ -912,7 +912,7 @@ public final class PotionStageDataOuterClass {
         return isOpen_;
       }
       /**
-       * <code>bool is_open = 8;</code>
+       * <code>bool is_open = 6;</code>
        * @param value The isOpen to set.
        * @return This builder for chaining.
        */
@@ -923,7 +923,7 @@ public final class PotionStageDataOuterClass {
         return this;
       }
       /**
-       * <code>bool is_open = 8;</code>
+       * <code>bool is_open = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsOpen() {
@@ -1175,7 +1175,7 @@ public final class PotionStageDataOuterClass {
 
       private int stageId_ ;
       /**
-       * <code>uint32 stage_id = 14;</code>
+       * <code>uint32 stage_id = 2;</code>
        * @return The stageId.
        */
       @java.lang.Override
@@ -1183,7 +1183,7 @@ public final class PotionStageDataOuterClass {
         return stageId_;
       }
       /**
-       * <code>uint32 stage_id = 14;</code>
+       * <code>uint32 stage_id = 2;</code>
        * @param value The stageId to set.
        * @return This builder for chaining.
        */
@@ -1194,7 +1194,7 @@ public final class PotionStageDataOuterClass {
         return this;
       }
       /**
-       * <code>uint32 stage_id = 14;</code>
+       * <code>uint32 stage_id = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearStageId() {
@@ -1212,7 +1212,7 @@ public final class PotionStageDataOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 MDEMNAHABEN = 15;</code>
+       * <code>repeated uint32 MDEMNAHABEN = 50001;</code>
        * @return A list containing the mDEMNAHABEN.
        */
       public java.util.List<java.lang.Integer>
@@ -1221,14 +1221,14 @@ public final class PotionStageDataOuterClass {
                  java.util.Collections.unmodifiableList(mDEMNAHABEN_) : mDEMNAHABEN_;
       }
       /**
-       * <code>repeated uint32 MDEMNAHABEN = 15;</code>
+       * <code>repeated uint32 MDEMNAHABEN = 50001;</code>
        * @return The count of mDEMNAHABEN.
        */
       public int getMDEMNAHABENCount() {
         return mDEMNAHABEN_.size();
       }
       /**
-       * <code>repeated uint32 MDEMNAHABEN = 15;</code>
+       * <code>repeated uint32 MDEMNAHABEN = 50001;</code>
        * @param index The index of the element to return.
        * @return The mDEMNAHABEN at the given index.
        */
@@ -1236,7 +1236,7 @@ public final class PotionStageDataOuterClass {
         return mDEMNAHABEN_.getInt(index);
       }
       /**
-       * <code>repeated uint32 MDEMNAHABEN = 15;</code>
+       * <code>repeated uint32 MDEMNAHABEN = 50001;</code>
        * @param index The index to set the value at.
        * @param value The mDEMNAHABEN to set.
        * @return This builder for chaining.
@@ -1249,7 +1249,7 @@ public final class PotionStageDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 MDEMNAHABEN = 15;</code>
+       * <code>repeated uint32 MDEMNAHABEN = 50001;</code>
        * @param value The mDEMNAHABEN to add.
        * @return This builder for chaining.
        */
@@ -1260,7 +1260,7 @@ public final class PotionStageDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 MDEMNAHABEN = 15;</code>
+       * <code>repeated uint32 MDEMNAHABEN = 50001;</code>
        * @param values The mDEMNAHABEN to add.
        * @return This builder for chaining.
        */
@@ -1273,7 +1273,7 @@ public final class PotionStageDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 MDEMNAHABEN = 15;</code>
+       * <code>repeated uint32 MDEMNAHABEN = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearMDEMNAHABEN() {
@@ -1350,12 +1350,12 @@ public final class PotionStageDataOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\025PotionStageData.proto\032\025PotionLevelData" +
-      ".proto\"\204\001\n\017PotionStageData\022\023\n\013HLFNHDFMEE" +
-      "L\030\007 \003(\r\022\017\n\007is_open\030\010 \001(\010\022$\n\nlevel_list\030\n" +
-      " \003(\0132\020.PotionLevelData\022\020\n\010stage_id\030\016 \001(\r" +
-      "\022\023\n\013MDEMNAHABEN\030\017 \003(\rB6\n\031emu.grasscutter" +
-      ".net.protoB\031PotionStageDataOuterClassb\006p" +
-      "roto3"
+      ".proto\"\210\001\n\017PotionStageData\022\025\n\013HLFNHDFMEE" +
+      "L\030\320\206\003 \003(\r\022\017\n\007is_open\030\006 \001(\010\022$\n\nlevel_list" +
+      "\030\n \003(\0132\020.PotionLevelData\022\020\n\010stage_id\030\002 \001" +
+      "(\r\022\025\n\013MDEMNAHABEN\030\321\206\003 \003(\rB6\n\031emu.grasscu" +
+      "tter.net.protoB\031PotionStageDataOuterClas" +
+      "sb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

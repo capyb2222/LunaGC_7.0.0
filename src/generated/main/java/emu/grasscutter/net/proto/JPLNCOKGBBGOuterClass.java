@@ -19,31 +19,31 @@ public final class JPLNCOKGBBGOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 schedule_id = 2;</code>
+     * <code>uint32 schedule_id = 12;</code>
      * @return The scheduleId.
      */
     int getScheduleId();
 
     /**
-     * <code>repeated .IHNALHEKDID HAOABGIPDMO = 14;</code>
+     * <code>repeated .IHNALHEKDID HAOABGIPDMO = 1;</code>
      */
     java.util.List<emu.grasscutter.net.proto.IHNALHEKDIDOuterClass.IHNALHEKDID> 
         getHAOABGIPDMOList();
     /**
-     * <code>repeated .IHNALHEKDID HAOABGIPDMO = 14;</code>
+     * <code>repeated .IHNALHEKDID HAOABGIPDMO = 1;</code>
      */
     emu.grasscutter.net.proto.IHNALHEKDIDOuterClass.IHNALHEKDID getHAOABGIPDMO(int index);
     /**
-     * <code>repeated .IHNALHEKDID HAOABGIPDMO = 14;</code>
+     * <code>repeated .IHNALHEKDID HAOABGIPDMO = 1;</code>
      */
     int getHAOABGIPDMOCount();
     /**
-     * <code>repeated .IHNALHEKDID HAOABGIPDMO = 14;</code>
+     * <code>repeated .IHNALHEKDID HAOABGIPDMO = 1;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.IHNALHEKDIDOuterClass.IHNALHEKDIDOrBuilder> 
         getHAOABGIPDMOOrBuilderList();
     /**
-     * <code>repeated .IHNALHEKDID HAOABGIPDMO = 14;</code>
+     * <code>repeated .IHNALHEKDID HAOABGIPDMO = 1;</code>
      */
     emu.grasscutter.net.proto.IHNALHEKDIDOuterClass.IHNALHEKDIDOrBuilder getHAOABGIPDMOOrBuilder(
         int index);
@@ -95,18 +95,18 @@ public final class JPLNCOKGBBGOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
-
-              scheduleId_ = input.readUInt32();
-              break;
-            }
-            case 114: {
+            case 10: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 hAOABGIPDMO_ = new java.util.ArrayList<emu.grasscutter.net.proto.IHNALHEKDIDOuterClass.IHNALHEKDID>();
                 mutable_bitField0_ |= 0x00000001;
               }
               hAOABGIPDMO_.add(
                   input.readMessage(emu.grasscutter.net.proto.IHNALHEKDIDOuterClass.IHNALHEKDID.parser(), extensionRegistry));
+              break;
+            }
+            case 96: {
+
+              scheduleId_ = input.readUInt32();
               break;
             }
             default: {
@@ -144,10 +144,10 @@ public final class JPLNCOKGBBGOuterClass {
               emu.grasscutter.net.proto.JPLNCOKGBBGOuterClass.JPLNCOKGBBG.class, emu.grasscutter.net.proto.JPLNCOKGBBGOuterClass.JPLNCOKGBBG.Builder.class);
     }
 
-    public static final int SCHEDULE_ID_FIELD_NUMBER = 2;
+    public static final int SCHEDULE_ID_FIELD_NUMBER = 12;
     private int scheduleId_;
     /**
-     * <code>uint32 schedule_id = 2;</code>
+     * <code>uint32 schedule_id = 12;</code>
      * @return The scheduleId.
      */
     @java.lang.Override
@@ -155,17 +155,17 @@ public final class JPLNCOKGBBGOuterClass {
       return scheduleId_;
     }
 
-    public static final int HAOABGIPDMO_FIELD_NUMBER = 14;
+    public static final int HAOABGIPDMO_FIELD_NUMBER = 1;
     private java.util.List<emu.grasscutter.net.proto.IHNALHEKDIDOuterClass.IHNALHEKDID> hAOABGIPDMO_;
     /**
-     * <code>repeated .IHNALHEKDID HAOABGIPDMO = 14;</code>
+     * <code>repeated .IHNALHEKDID HAOABGIPDMO = 1;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.IHNALHEKDIDOuterClass.IHNALHEKDID> getHAOABGIPDMOList() {
       return hAOABGIPDMO_;
     }
     /**
-     * <code>repeated .IHNALHEKDID HAOABGIPDMO = 14;</code>
+     * <code>repeated .IHNALHEKDID HAOABGIPDMO = 1;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.IHNALHEKDIDOuterClass.IHNALHEKDIDOrBuilder> 
@@ -173,21 +173,21 @@ public final class JPLNCOKGBBGOuterClass {
       return hAOABGIPDMO_;
     }
     /**
-     * <code>repeated .IHNALHEKDID HAOABGIPDMO = 14;</code>
+     * <code>repeated .IHNALHEKDID HAOABGIPDMO = 1;</code>
      */
     @java.lang.Override
     public int getHAOABGIPDMOCount() {
       return hAOABGIPDMO_.size();
     }
     /**
-     * <code>repeated .IHNALHEKDID HAOABGIPDMO = 14;</code>
+     * <code>repeated .IHNALHEKDID HAOABGIPDMO = 1;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.IHNALHEKDIDOuterClass.IHNALHEKDID getHAOABGIPDMO(int index) {
       return hAOABGIPDMO_.get(index);
     }
     /**
-     * <code>repeated .IHNALHEKDID HAOABGIPDMO = 14;</code>
+     * <code>repeated .IHNALHEKDID HAOABGIPDMO = 1;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.IHNALHEKDIDOuterClass.IHNALHEKDIDOrBuilder getHAOABGIPDMOOrBuilder(
@@ -209,11 +209,11 @@ public final class JPLNCOKGBBGOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (scheduleId_ != 0) {
-        output.writeUInt32(2, scheduleId_);
-      }
       for (int i = 0; i < hAOABGIPDMO_.size(); i++) {
-        output.writeMessage(14, hAOABGIPDMO_.get(i));
+        output.writeMessage(1, hAOABGIPDMO_.get(i));
+      }
+      if (scheduleId_ != 0) {
+        output.writeUInt32(12, scheduleId_);
       }
       unknownFields.writeTo(output);
     }
@@ -224,13 +224,13 @@ public final class JPLNCOKGBBGOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (scheduleId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, scheduleId_);
-      }
       for (int i = 0; i < hAOABGIPDMO_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, hAOABGIPDMO_.get(i));
+          .computeMessageSize(1, hAOABGIPDMO_.get(i));
+      }
+      if (scheduleId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(12, scheduleId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -556,7 +556,7 @@ public final class JPLNCOKGBBGOuterClass {
 
       private int scheduleId_ ;
       /**
-       * <code>uint32 schedule_id = 2;</code>
+       * <code>uint32 schedule_id = 12;</code>
        * @return The scheduleId.
        */
       @java.lang.Override
@@ -564,7 +564,7 @@ public final class JPLNCOKGBBGOuterClass {
         return scheduleId_;
       }
       /**
-       * <code>uint32 schedule_id = 2;</code>
+       * <code>uint32 schedule_id = 12;</code>
        * @param value The scheduleId to set.
        * @return This builder for chaining.
        */
@@ -575,7 +575,7 @@ public final class JPLNCOKGBBGOuterClass {
         return this;
       }
       /**
-       * <code>uint32 schedule_id = 2;</code>
+       * <code>uint32 schedule_id = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearScheduleId() {
@@ -598,7 +598,7 @@ public final class JPLNCOKGBBGOuterClass {
           emu.grasscutter.net.proto.IHNALHEKDIDOuterClass.IHNALHEKDID, emu.grasscutter.net.proto.IHNALHEKDIDOuterClass.IHNALHEKDID.Builder, emu.grasscutter.net.proto.IHNALHEKDIDOuterClass.IHNALHEKDIDOrBuilder> hAOABGIPDMOBuilder_;
 
       /**
-       * <code>repeated .IHNALHEKDID HAOABGIPDMO = 14;</code>
+       * <code>repeated .IHNALHEKDID HAOABGIPDMO = 1;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.IHNALHEKDIDOuterClass.IHNALHEKDID> getHAOABGIPDMOList() {
         if (hAOABGIPDMOBuilder_ == null) {
@@ -608,7 +608,7 @@ public final class JPLNCOKGBBGOuterClass {
         }
       }
       /**
-       * <code>repeated .IHNALHEKDID HAOABGIPDMO = 14;</code>
+       * <code>repeated .IHNALHEKDID HAOABGIPDMO = 1;</code>
        */
       public int getHAOABGIPDMOCount() {
         if (hAOABGIPDMOBuilder_ == null) {
@@ -618,7 +618,7 @@ public final class JPLNCOKGBBGOuterClass {
         }
       }
       /**
-       * <code>repeated .IHNALHEKDID HAOABGIPDMO = 14;</code>
+       * <code>repeated .IHNALHEKDID HAOABGIPDMO = 1;</code>
        */
       public emu.grasscutter.net.proto.IHNALHEKDIDOuterClass.IHNALHEKDID getHAOABGIPDMO(int index) {
         if (hAOABGIPDMOBuilder_ == null) {
@@ -628,7 +628,7 @@ public final class JPLNCOKGBBGOuterClass {
         }
       }
       /**
-       * <code>repeated .IHNALHEKDID HAOABGIPDMO = 14;</code>
+       * <code>repeated .IHNALHEKDID HAOABGIPDMO = 1;</code>
        */
       public Builder setHAOABGIPDMO(
           int index, emu.grasscutter.net.proto.IHNALHEKDIDOuterClass.IHNALHEKDID value) {
@@ -645,7 +645,7 @@ public final class JPLNCOKGBBGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IHNALHEKDID HAOABGIPDMO = 14;</code>
+       * <code>repeated .IHNALHEKDID HAOABGIPDMO = 1;</code>
        */
       public Builder setHAOABGIPDMO(
           int index, emu.grasscutter.net.proto.IHNALHEKDIDOuterClass.IHNALHEKDID.Builder builderForValue) {
@@ -659,7 +659,7 @@ public final class JPLNCOKGBBGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IHNALHEKDID HAOABGIPDMO = 14;</code>
+       * <code>repeated .IHNALHEKDID HAOABGIPDMO = 1;</code>
        */
       public Builder addHAOABGIPDMO(emu.grasscutter.net.proto.IHNALHEKDIDOuterClass.IHNALHEKDID value) {
         if (hAOABGIPDMOBuilder_ == null) {
@@ -675,7 +675,7 @@ public final class JPLNCOKGBBGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IHNALHEKDID HAOABGIPDMO = 14;</code>
+       * <code>repeated .IHNALHEKDID HAOABGIPDMO = 1;</code>
        */
       public Builder addHAOABGIPDMO(
           int index, emu.grasscutter.net.proto.IHNALHEKDIDOuterClass.IHNALHEKDID value) {
@@ -692,7 +692,7 @@ public final class JPLNCOKGBBGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IHNALHEKDID HAOABGIPDMO = 14;</code>
+       * <code>repeated .IHNALHEKDID HAOABGIPDMO = 1;</code>
        */
       public Builder addHAOABGIPDMO(
           emu.grasscutter.net.proto.IHNALHEKDIDOuterClass.IHNALHEKDID.Builder builderForValue) {
@@ -706,7 +706,7 @@ public final class JPLNCOKGBBGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IHNALHEKDID HAOABGIPDMO = 14;</code>
+       * <code>repeated .IHNALHEKDID HAOABGIPDMO = 1;</code>
        */
       public Builder addHAOABGIPDMO(
           int index, emu.grasscutter.net.proto.IHNALHEKDIDOuterClass.IHNALHEKDID.Builder builderForValue) {
@@ -720,7 +720,7 @@ public final class JPLNCOKGBBGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IHNALHEKDID HAOABGIPDMO = 14;</code>
+       * <code>repeated .IHNALHEKDID HAOABGIPDMO = 1;</code>
        */
       public Builder addAllHAOABGIPDMO(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.IHNALHEKDIDOuterClass.IHNALHEKDID> values) {
@@ -735,7 +735,7 @@ public final class JPLNCOKGBBGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IHNALHEKDID HAOABGIPDMO = 14;</code>
+       * <code>repeated .IHNALHEKDID HAOABGIPDMO = 1;</code>
        */
       public Builder clearHAOABGIPDMO() {
         if (hAOABGIPDMOBuilder_ == null) {
@@ -748,7 +748,7 @@ public final class JPLNCOKGBBGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IHNALHEKDID HAOABGIPDMO = 14;</code>
+       * <code>repeated .IHNALHEKDID HAOABGIPDMO = 1;</code>
        */
       public Builder removeHAOABGIPDMO(int index) {
         if (hAOABGIPDMOBuilder_ == null) {
@@ -761,14 +761,14 @@ public final class JPLNCOKGBBGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IHNALHEKDID HAOABGIPDMO = 14;</code>
+       * <code>repeated .IHNALHEKDID HAOABGIPDMO = 1;</code>
        */
       public emu.grasscutter.net.proto.IHNALHEKDIDOuterClass.IHNALHEKDID.Builder getHAOABGIPDMOBuilder(
           int index) {
         return getHAOABGIPDMOFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .IHNALHEKDID HAOABGIPDMO = 14;</code>
+       * <code>repeated .IHNALHEKDID HAOABGIPDMO = 1;</code>
        */
       public emu.grasscutter.net.proto.IHNALHEKDIDOuterClass.IHNALHEKDIDOrBuilder getHAOABGIPDMOOrBuilder(
           int index) {
@@ -778,7 +778,7 @@ public final class JPLNCOKGBBGOuterClass {
         }
       }
       /**
-       * <code>repeated .IHNALHEKDID HAOABGIPDMO = 14;</code>
+       * <code>repeated .IHNALHEKDID HAOABGIPDMO = 1;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.IHNALHEKDIDOuterClass.IHNALHEKDIDOrBuilder> 
            getHAOABGIPDMOOrBuilderList() {
@@ -789,14 +789,14 @@ public final class JPLNCOKGBBGOuterClass {
         }
       }
       /**
-       * <code>repeated .IHNALHEKDID HAOABGIPDMO = 14;</code>
+       * <code>repeated .IHNALHEKDID HAOABGIPDMO = 1;</code>
        */
       public emu.grasscutter.net.proto.IHNALHEKDIDOuterClass.IHNALHEKDID.Builder addHAOABGIPDMOBuilder() {
         return getHAOABGIPDMOFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.IHNALHEKDIDOuterClass.IHNALHEKDID.getDefaultInstance());
       }
       /**
-       * <code>repeated .IHNALHEKDID HAOABGIPDMO = 14;</code>
+       * <code>repeated .IHNALHEKDID HAOABGIPDMO = 1;</code>
        */
       public emu.grasscutter.net.proto.IHNALHEKDIDOuterClass.IHNALHEKDID.Builder addHAOABGIPDMOBuilder(
           int index) {
@@ -804,7 +804,7 @@ public final class JPLNCOKGBBGOuterClass {
             index, emu.grasscutter.net.proto.IHNALHEKDIDOuterClass.IHNALHEKDID.getDefaultInstance());
       }
       /**
-       * <code>repeated .IHNALHEKDID HAOABGIPDMO = 14;</code>
+       * <code>repeated .IHNALHEKDID HAOABGIPDMO = 1;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.IHNALHEKDIDOuterClass.IHNALHEKDID.Builder> 
            getHAOABGIPDMOBuilderList() {
@@ -892,8 +892,8 @@ public final class JPLNCOKGBBGOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021JPLNCOKGBBG.proto\032\021IHNALHEKDID.proto\"E" +
-      "\n\013JPLNCOKGBBG\022\023\n\013schedule_id\030\002 \001(\r\022!\n\013HA" +
-      "OABGIPDMO\030\016 \003(\0132\014.IHNALHEKDIDB2\n\031emu.gra" +
+      "\n\013JPLNCOKGBBG\022\023\n\013schedule_id\030\014 \001(\r\022!\n\013HA" +
+      "OABGIPDMO\030\001 \003(\0132\014.IHNALHEKDIDB2\n\031emu.gra" +
       "sscutter.net.protoB\025JPLNCOKGBBGOuterClas" +
       "sb\006proto3"
     };

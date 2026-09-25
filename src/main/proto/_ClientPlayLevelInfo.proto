@@ -6,10 +6,10 @@ option java_outer_classname = "_ClientPlayLevelInfoOuterClass";
 import "_ClientPlayDetailInfo.proto";
 
 message _ClientPlayLevelInfo {
-	uint32 level_id = 1;
-	uint32 ILGIBAJDEBD = 3;
-	uint32 best_record = 4;
-	bool is_open = 8;
-	_ClientPlayDetailInfo detail_info = 13;
-	uint32 PKBFAOEKLDP = 14;
+	uint32 level_id = 2;
+	uint32 ILGIBAJDEBD = 50000;
+	uint32 best_record = 9;
+	bool is_open = 14;
+	_ClientPlayDetailInfo detail_info = 15;
+	uint32 PKBFAOEKLDP = 50001;
 }

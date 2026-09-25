@@ -6,8 +6,8 @@ option java_outer_classname = "SkyCrystalDetectorDataOuterClass";
 import "Vector.proto";
 
 message SkyCrystalDetectorData {
-	uint32 group_id = 4;
+	uint32 group_id = 8;
 	Vector hint_center_pos = 6;
-	bool is_hint_valid = 11;
-	uint32 config_id = 12;
+	bool is_hint_valid = 2;
+	uint32 config_id = 3;
 }

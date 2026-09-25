@@ -19,7 +19,7 @@ public final class _AutochessDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 HOAOJBKJFLE = 8;</code>
+     * <code>uint32 HOAOJBKJFLE = 10;</code>
      * @return The hOAOJBKJFLE.
      */
     int getHOAOJBKJFLE();
@@ -69,7 +69,7 @@ public final class _AutochessDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 64: {
+            case 80: {
 
               hOAOJBKJFLE_ = input.readUInt32();
               break;
@@ -106,10 +106,10 @@ public final class _AutochessDetailInfoOuterClass {
               emu.grasscutter.net.proto._AutochessDetailInfoOuterClass._AutochessDetailInfo.class, emu.grasscutter.net.proto._AutochessDetailInfoOuterClass._AutochessDetailInfo.Builder.class);
     }
 
-    public static final int HOAOJBKJFLE_FIELD_NUMBER = 8;
+    public static final int HOAOJBKJFLE_FIELD_NUMBER = 10;
     private int hOAOJBKJFLE_;
     /**
-     * <code>uint32 HOAOJBKJFLE = 8;</code>
+     * <code>uint32 HOAOJBKJFLE = 10;</code>
      * @return The hOAOJBKJFLE.
      */
     @java.lang.Override
@@ -132,7 +132,7 @@ public final class _AutochessDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (hOAOJBKJFLE_ != 0) {
-        output.writeUInt32(8, hOAOJBKJFLE_);
+        output.writeUInt32(10, hOAOJBKJFLE_);
       }
       unknownFields.writeTo(output);
     }
@@ -145,7 +145,7 @@ public final class _AutochessDetailInfoOuterClass {
       size = 0;
       if (hOAOJBKJFLE_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, hOAOJBKJFLE_);
+          .computeUInt32Size(10, hOAOJBKJFLE_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -421,7 +421,7 @@ public final class _AutochessDetailInfoOuterClass {
 
       private int hOAOJBKJFLE_ ;
       /**
-       * <code>uint32 HOAOJBKJFLE = 8;</code>
+       * <code>uint32 HOAOJBKJFLE = 10;</code>
        * @return The hOAOJBKJFLE.
        */
       @java.lang.Override
@@ -429,7 +429,7 @@ public final class _AutochessDetailInfoOuterClass {
         return hOAOJBKJFLE_;
       }
       /**
-       * <code>uint32 HOAOJBKJFLE = 8;</code>
+       * <code>uint32 HOAOJBKJFLE = 10;</code>
        * @param value The hOAOJBKJFLE to set.
        * @return This builder for chaining.
        */
@@ -440,7 +440,7 @@ public final class _AutochessDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 HOAOJBKJFLE = 8;</code>
+       * <code>uint32 HOAOJBKJFLE = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearHOAOJBKJFLE() {
@@ -517,7 +517,7 @@ public final class _AutochessDetailInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\032_AutochessDetailInfo.proto\"+\n\024_Autoche" +
-      "ssDetailInfo\022\023\n\013HOAOJBKJFLE\030\010 \001(\rB;\n\031emu" +
+      "ssDetailInfo\022\023\n\013HOAOJBKJFLE\030\n \001(\rB;\n\031emu" +
       ".grasscutter.net.protoB\036_AutochessDetail" +
       "InfoOuterClassb\006proto3"
     };

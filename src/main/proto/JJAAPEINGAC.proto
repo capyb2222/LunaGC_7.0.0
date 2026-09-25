@@ -6,9 +6,9 @@ option java_outer_classname = "JJAAPEINGACOuterClass";
 import "GCGPlayCardCostInfo.proto";
 
 message JJAAPEINGAC {
-	uint32 NMKGLEHEEIN = 1;
-	repeated uint32 AJJGPPPBOAB = 6;
-	repeated uint32 EGLADOIBKMG = 7;
-	uint32 FHJEAPIGJLG = 11;
-	repeated GCGPlayCardCostInfo MNIGABGNNBK = 12;
+	uint32 NMKGLEHEEIN = 3;
+	repeated uint32 AJJGPPPBOAB = 50000;
+	repeated uint32 EGLADOIBKMG = 50001;
+	uint32 FHJEAPIGJLG = 12;
+	repeated GCGPlayCardCostInfo MNIGABGNNBK = 8;
 }

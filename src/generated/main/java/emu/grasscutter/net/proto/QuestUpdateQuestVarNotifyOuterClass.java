@@ -19,30 +19,30 @@ public final class QuestUpdateQuestVarNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 parent_quest_id = 5;</code>
+     * <code>uint32 parent_quest_id = 10;</code>
      * @return The parentQuestId.
      */
     int getParentQuestId();
 
     /**
-     * <code>repeated int32 quest_var = 10;</code>
+     * <code>repeated int32 quest_var = 15;</code>
      * @return A list containing the questVar.
      */
     java.util.List<java.lang.Integer> getQuestVarList();
     /**
-     * <code>repeated int32 quest_var = 10;</code>
+     * <code>repeated int32 quest_var = 15;</code>
      * @return The count of questVar.
      */
     int getQuestVarCount();
     /**
-     * <code>repeated int32 quest_var = 10;</code>
+     * <code>repeated int32 quest_var = 15;</code>
      * @param index The index of the element to return.
      * @return The questVar at the given index.
      */
     int getQuestVar(int index);
 
     /**
-     * <code>uint32 parent_quest_var_seq = 12;</code>
+     * <code>uint32 parent_quest_var_seq = 5;</code>
      * @return The parentQuestVarSeq.
      */
     int getParentQuestVarSeq();
@@ -96,10 +96,15 @@ public final class QuestUpdateQuestVarNotifyOuterClass {
               break;
             case 40: {
 
-              parentQuestId_ = input.readUInt32();
+              parentQuestVarSeq_ = input.readUInt32();
               break;
             }
             case 80: {
+
+              parentQuestId_ = input.readUInt32();
+              break;
+            }
+            case 120: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 questVar_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -107,7 +112,7 @@ public final class QuestUpdateQuestVarNotifyOuterClass {
               questVar_.addInt(input.readInt32());
               break;
             }
-            case 82: {
+            case 122: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -118,11 +123,6 @@ public final class QuestUpdateQuestVarNotifyOuterClass {
                 questVar_.addInt(input.readInt32());
               }
               input.popLimit(limit);
-              break;
-            }
-            case 96: {
-
-              parentQuestVarSeq_ = input.readUInt32();
               break;
             }
             default: {
@@ -160,10 +160,10 @@ public final class QuestUpdateQuestVarNotifyOuterClass {
               emu.grasscutter.net.proto.QuestUpdateQuestVarNotifyOuterClass.QuestUpdateQuestVarNotify.class, emu.grasscutter.net.proto.QuestUpdateQuestVarNotifyOuterClass.QuestUpdateQuestVarNotify.Builder.class);
     }
 
-    public static final int PARENT_QUEST_ID_FIELD_NUMBER = 5;
+    public static final int PARENT_QUEST_ID_FIELD_NUMBER = 10;
     private int parentQuestId_;
     /**
-     * <code>uint32 parent_quest_id = 5;</code>
+     * <code>uint32 parent_quest_id = 10;</code>
      * @return The parentQuestId.
      */
     @java.lang.Override
@@ -171,10 +171,10 @@ public final class QuestUpdateQuestVarNotifyOuterClass {
       return parentQuestId_;
     }
 
-    public static final int QUEST_VAR_FIELD_NUMBER = 10;
+    public static final int QUEST_VAR_FIELD_NUMBER = 15;
     private com.google.protobuf.Internal.IntList questVar_;
     /**
-     * <code>repeated int32 quest_var = 10;</code>
+     * <code>repeated int32 quest_var = 15;</code>
      * @return A list containing the questVar.
      */
     @java.lang.Override
@@ -183,14 +183,14 @@ public final class QuestUpdateQuestVarNotifyOuterClass {
       return questVar_;
     }
     /**
-     * <code>repeated int32 quest_var = 10;</code>
+     * <code>repeated int32 quest_var = 15;</code>
      * @return The count of questVar.
      */
     public int getQuestVarCount() {
       return questVar_.size();
     }
     /**
-     * <code>repeated int32 quest_var = 10;</code>
+     * <code>repeated int32 quest_var = 15;</code>
      * @param index The index of the element to return.
      * @return The questVar at the given index.
      */
@@ -199,10 +199,10 @@ public final class QuestUpdateQuestVarNotifyOuterClass {
     }
     private int questVarMemoizedSerializedSize = -1;
 
-    public static final int PARENT_QUEST_VAR_SEQ_FIELD_NUMBER = 12;
+    public static final int PARENT_QUEST_VAR_SEQ_FIELD_NUMBER = 5;
     private int parentQuestVarSeq_;
     /**
-     * <code>uint32 parent_quest_var_seq = 12;</code>
+     * <code>uint32 parent_quest_var_seq = 5;</code>
      * @return The parentQuestVarSeq.
      */
     @java.lang.Override
@@ -225,18 +225,18 @@ public final class QuestUpdateQuestVarNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
+      if (parentQuestVarSeq_ != 0) {
+        output.writeUInt32(5, parentQuestVarSeq_);
+      }
       if (parentQuestId_ != 0) {
-        output.writeUInt32(5, parentQuestId_);
+        output.writeUInt32(10, parentQuestId_);
       }
       if (getQuestVarList().size() > 0) {
-        output.writeUInt32NoTag(82);
+        output.writeUInt32NoTag(122);
         output.writeUInt32NoTag(questVarMemoizedSerializedSize);
       }
       for (int i = 0; i < questVar_.size(); i++) {
         output.writeInt32NoTag(questVar_.getInt(i));
-      }
-      if (parentQuestVarSeq_ != 0) {
-        output.writeUInt32(12, parentQuestVarSeq_);
       }
       unknownFields.writeTo(output);
     }
@@ -247,9 +247,13 @@ public final class QuestUpdateQuestVarNotifyOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (parentQuestVarSeq_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(5, parentQuestVarSeq_);
+      }
       if (parentQuestId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, parentQuestId_);
+          .computeUInt32Size(10, parentQuestId_);
       }
       {
         int dataSize = 0;
@@ -264,10 +268,6 @@ public final class QuestUpdateQuestVarNotifyOuterClass {
               .computeInt32SizeNoTag(dataSize);
         }
         questVarMemoizedSerializedSize = dataSize;
-      }
-      if (parentQuestVarSeq_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, parentQuestVarSeq_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -578,7 +578,7 @@ public final class QuestUpdateQuestVarNotifyOuterClass {
 
       private int parentQuestId_ ;
       /**
-       * <code>uint32 parent_quest_id = 5;</code>
+       * <code>uint32 parent_quest_id = 10;</code>
        * @return The parentQuestId.
        */
       @java.lang.Override
@@ -586,7 +586,7 @@ public final class QuestUpdateQuestVarNotifyOuterClass {
         return parentQuestId_;
       }
       /**
-       * <code>uint32 parent_quest_id = 5;</code>
+       * <code>uint32 parent_quest_id = 10;</code>
        * @param value The parentQuestId to set.
        * @return This builder for chaining.
        */
@@ -597,7 +597,7 @@ public final class QuestUpdateQuestVarNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 parent_quest_id = 5;</code>
+       * <code>uint32 parent_quest_id = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearParentQuestId() {
@@ -615,7 +615,7 @@ public final class QuestUpdateQuestVarNotifyOuterClass {
          }
       }
       /**
-       * <code>repeated int32 quest_var = 10;</code>
+       * <code>repeated int32 quest_var = 15;</code>
        * @return A list containing the questVar.
        */
       public java.util.List<java.lang.Integer>
@@ -624,14 +624,14 @@ public final class QuestUpdateQuestVarNotifyOuterClass {
                  java.util.Collections.unmodifiableList(questVar_) : questVar_;
       }
       /**
-       * <code>repeated int32 quest_var = 10;</code>
+       * <code>repeated int32 quest_var = 15;</code>
        * @return The count of questVar.
        */
       public int getQuestVarCount() {
         return questVar_.size();
       }
       /**
-       * <code>repeated int32 quest_var = 10;</code>
+       * <code>repeated int32 quest_var = 15;</code>
        * @param index The index of the element to return.
        * @return The questVar at the given index.
        */
@@ -639,7 +639,7 @@ public final class QuestUpdateQuestVarNotifyOuterClass {
         return questVar_.getInt(index);
       }
       /**
-       * <code>repeated int32 quest_var = 10;</code>
+       * <code>repeated int32 quest_var = 15;</code>
        * @param index The index to set the value at.
        * @param value The questVar to set.
        * @return This builder for chaining.
@@ -652,7 +652,7 @@ public final class QuestUpdateQuestVarNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated int32 quest_var = 10;</code>
+       * <code>repeated int32 quest_var = 15;</code>
        * @param value The questVar to add.
        * @return This builder for chaining.
        */
@@ -663,7 +663,7 @@ public final class QuestUpdateQuestVarNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated int32 quest_var = 10;</code>
+       * <code>repeated int32 quest_var = 15;</code>
        * @param values The questVar to add.
        * @return This builder for chaining.
        */
@@ -676,7 +676,7 @@ public final class QuestUpdateQuestVarNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated int32 quest_var = 10;</code>
+       * <code>repeated int32 quest_var = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearQuestVar() {
@@ -688,7 +688,7 @@ public final class QuestUpdateQuestVarNotifyOuterClass {
 
       private int parentQuestVarSeq_ ;
       /**
-       * <code>uint32 parent_quest_var_seq = 12;</code>
+       * <code>uint32 parent_quest_var_seq = 5;</code>
        * @return The parentQuestVarSeq.
        */
       @java.lang.Override
@@ -696,7 +696,7 @@ public final class QuestUpdateQuestVarNotifyOuterClass {
         return parentQuestVarSeq_;
       }
       /**
-       * <code>uint32 parent_quest_var_seq = 12;</code>
+       * <code>uint32 parent_quest_var_seq = 5;</code>
        * @param value The parentQuestVarSeq to set.
        * @return This builder for chaining.
        */
@@ -707,7 +707,7 @@ public final class QuestUpdateQuestVarNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 parent_quest_var_seq = 12;</code>
+       * <code>uint32 parent_quest_var_seq = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearParentQuestVarSeq() {
@@ -785,8 +785,8 @@ public final class QuestUpdateQuestVarNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\037QuestUpdateQuestVarNotify.proto\"e\n\031Que" +
       "stUpdateQuestVarNotify\022\027\n\017parent_quest_i" +
-      "d\030\005 \001(\r\022\021\n\tquest_var\030\n \003(\005\022\034\n\024parent_que" +
-      "st_var_seq\030\014 \001(\rB@\n\031emu.grasscutter.net." +
+      "d\030\n \001(\r\022\021\n\tquest_var\030\017 \003(\005\022\034\n\024parent_que" +
+      "st_var_seq\030\005 \001(\rB@\n\031emu.grasscutter.net." +
       "protoB#QuestUpdateQuestVarNotifyOuterCla" +
       "ssb\006proto3"
     };

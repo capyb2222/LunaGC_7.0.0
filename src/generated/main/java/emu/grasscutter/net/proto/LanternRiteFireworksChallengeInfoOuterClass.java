@@ -19,13 +19,13 @@ public final class LanternRiteFireworksChallengeInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool is_full_score = 4;</code>
+     * <code>bool is_full_score = 6;</code>
      * @return The isFullScore.
      */
     boolean getIsFullScore();
 
     /**
-     * <code>uint32 best_score = 6;</code>
+     * <code>uint32 best_score = 13;</code>
      * @return The bestScore.
      */
     int getBestScore();
@@ -81,19 +81,19 @@ public final class LanternRiteFireworksChallengeInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
-
-              isFullScore_ = input.readBool();
-              break;
-            }
             case 48: {
 
-              bestScore_ = input.readUInt32();
+              isFullScore_ = input.readBool();
               break;
             }
             case 88: {
 
               challengeId_ = input.readUInt32();
+              break;
+            }
+            case 104: {
+
+              bestScore_ = input.readUInt32();
               break;
             }
             default: {
@@ -128,10 +128,10 @@ public final class LanternRiteFireworksChallengeInfoOuterClass {
               emu.grasscutter.net.proto.LanternRiteFireworksChallengeInfoOuterClass.LanternRiteFireworksChallengeInfo.class, emu.grasscutter.net.proto.LanternRiteFireworksChallengeInfoOuterClass.LanternRiteFireworksChallengeInfo.Builder.class);
     }
 
-    public static final int IS_FULL_SCORE_FIELD_NUMBER = 4;
+    public static final int IS_FULL_SCORE_FIELD_NUMBER = 6;
     private boolean isFullScore_;
     /**
-     * <code>bool is_full_score = 4;</code>
+     * <code>bool is_full_score = 6;</code>
      * @return The isFullScore.
      */
     @java.lang.Override
@@ -139,10 +139,10 @@ public final class LanternRiteFireworksChallengeInfoOuterClass {
       return isFullScore_;
     }
 
-    public static final int BEST_SCORE_FIELD_NUMBER = 6;
+    public static final int BEST_SCORE_FIELD_NUMBER = 13;
     private int bestScore_;
     /**
-     * <code>uint32 best_score = 6;</code>
+     * <code>uint32 best_score = 13;</code>
      * @return The bestScore.
      */
     @java.lang.Override
@@ -176,13 +176,13 @@ public final class LanternRiteFireworksChallengeInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (isFullScore_ != false) {
-        output.writeBool(4, isFullScore_);
-      }
-      if (bestScore_ != 0) {
-        output.writeUInt32(6, bestScore_);
+        output.writeBool(6, isFullScore_);
       }
       if (challengeId_ != 0) {
         output.writeUInt32(11, challengeId_);
+      }
+      if (bestScore_ != 0) {
+        output.writeUInt32(13, bestScore_);
       }
       unknownFields.writeTo(output);
     }
@@ -195,15 +195,15 @@ public final class LanternRiteFireworksChallengeInfoOuterClass {
       size = 0;
       if (isFullScore_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(4, isFullScore_);
-      }
-      if (bestScore_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, bestScore_);
+          .computeBoolSize(6, isFullScore_);
       }
       if (challengeId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(11, challengeId_);
+      }
+      if (bestScore_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(13, bestScore_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -500,7 +500,7 @@ public final class LanternRiteFireworksChallengeInfoOuterClass {
 
       private boolean isFullScore_ ;
       /**
-       * <code>bool is_full_score = 4;</code>
+       * <code>bool is_full_score = 6;</code>
        * @return The isFullScore.
        */
       @java.lang.Override
@@ -508,7 +508,7 @@ public final class LanternRiteFireworksChallengeInfoOuterClass {
         return isFullScore_;
       }
       /**
-       * <code>bool is_full_score = 4;</code>
+       * <code>bool is_full_score = 6;</code>
        * @param value The isFullScore to set.
        * @return This builder for chaining.
        */
@@ -519,7 +519,7 @@ public final class LanternRiteFireworksChallengeInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_full_score = 4;</code>
+       * <code>bool is_full_score = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsFullScore() {
@@ -531,7 +531,7 @@ public final class LanternRiteFireworksChallengeInfoOuterClass {
 
       private int bestScore_ ;
       /**
-       * <code>uint32 best_score = 6;</code>
+       * <code>uint32 best_score = 13;</code>
        * @return The bestScore.
        */
       @java.lang.Override
@@ -539,7 +539,7 @@ public final class LanternRiteFireworksChallengeInfoOuterClass {
         return bestScore_;
       }
       /**
-       * <code>uint32 best_score = 6;</code>
+       * <code>uint32 best_score = 13;</code>
        * @param value The bestScore to set.
        * @return This builder for chaining.
        */
@@ -550,7 +550,7 @@ public final class LanternRiteFireworksChallengeInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 best_score = 6;</code>
+       * <code>uint32 best_score = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearBestScore() {
@@ -659,7 +659,7 @@ public final class LanternRiteFireworksChallengeInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\'LanternRiteFireworksChallengeInfo.prot" +
       "o\"d\n!LanternRiteFireworksChallengeInfo\022\025" +
-      "\n\ris_full_score\030\004 \001(\010\022\022\n\nbest_score\030\006 \001(" +
+      "\n\ris_full_score\030\006 \001(\010\022\022\n\nbest_score\030\r \001(" +
       "\r\022\024\n\014challenge_id\030\013 \001(\rBH\n\031emu.grasscutt" +
       "er.net.protoB+LanternRiteFireworksChalle" +
       "ngeInfoOuterClassb\006proto3"

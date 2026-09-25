@@ -19,31 +19,31 @@ public final class ElectroherculesBattleDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 2;</code>
+     * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 6;</code>
      */
     java.util.List<emu.grasscutter.net.proto.ElectroherculesBattleStageInfoOuterClass.ElectroherculesBattleStageInfo> 
         getStageInfoListList();
     /**
-     * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 2;</code>
+     * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 6;</code>
      */
     emu.grasscutter.net.proto.ElectroherculesBattleStageInfoOuterClass.ElectroherculesBattleStageInfo getStageInfoList(int index);
     /**
-     * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 2;</code>
+     * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 6;</code>
      */
     int getStageInfoListCount();
     /**
-     * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 2;</code>
+     * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 6;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.ElectroherculesBattleStageInfoOuterClass.ElectroherculesBattleStageInfoOrBuilder> 
         getStageInfoListOrBuilderList();
     /**
-     * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 2;</code>
+     * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 6;</code>
      */
     emu.grasscutter.net.proto.ElectroherculesBattleStageInfoOuterClass.ElectroherculesBattleStageInfoOrBuilder getStageInfoListOrBuilder(
         int index);
 
     /**
-     * <code>bool is_pass_all_stage = 8;</code>
+     * <code>bool is_pass_all_stage = 9;</code>
      * @return The isPassAllStage.
      */
     boolean getIsPassAllStage();
@@ -95,7 +95,7 @@ public final class ElectroherculesBattleDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 18: {
+            case 50: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 stageInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ElectroherculesBattleStageInfoOuterClass.ElectroherculesBattleStageInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -104,7 +104,7 @@ public final class ElectroherculesBattleDetailInfoOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.ElectroherculesBattleStageInfoOuterClass.ElectroherculesBattleStageInfo.parser(), extensionRegistry));
               break;
             }
-            case 64: {
+            case 72: {
 
               isPassAllStage_ = input.readBool();
               break;
@@ -144,17 +144,17 @@ public final class ElectroherculesBattleDetailInfoOuterClass {
               emu.grasscutter.net.proto.ElectroherculesBattleDetailInfoOuterClass.ElectroherculesBattleDetailInfo.class, emu.grasscutter.net.proto.ElectroherculesBattleDetailInfoOuterClass.ElectroherculesBattleDetailInfo.Builder.class);
     }
 
-    public static final int STAGE_INFO_LIST_FIELD_NUMBER = 2;
+    public static final int STAGE_INFO_LIST_FIELD_NUMBER = 6;
     private java.util.List<emu.grasscutter.net.proto.ElectroherculesBattleStageInfoOuterClass.ElectroherculesBattleStageInfo> stageInfoList_;
     /**
-     * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 2;</code>
+     * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 6;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.ElectroherculesBattleStageInfoOuterClass.ElectroherculesBattleStageInfo> getStageInfoListList() {
       return stageInfoList_;
     }
     /**
-     * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 2;</code>
+     * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 6;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.ElectroherculesBattleStageInfoOuterClass.ElectroherculesBattleStageInfoOrBuilder> 
@@ -162,21 +162,21 @@ public final class ElectroherculesBattleDetailInfoOuterClass {
       return stageInfoList_;
     }
     /**
-     * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 2;</code>
+     * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 6;</code>
      */
     @java.lang.Override
     public int getStageInfoListCount() {
       return stageInfoList_.size();
     }
     /**
-     * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 2;</code>
+     * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 6;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ElectroherculesBattleStageInfoOuterClass.ElectroherculesBattleStageInfo getStageInfoList(int index) {
       return stageInfoList_.get(index);
     }
     /**
-     * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 2;</code>
+     * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 6;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ElectroherculesBattleStageInfoOuterClass.ElectroherculesBattleStageInfoOrBuilder getStageInfoListOrBuilder(
@@ -184,10 +184,10 @@ public final class ElectroherculesBattleDetailInfoOuterClass {
       return stageInfoList_.get(index);
     }
 
-    public static final int IS_PASS_ALL_STAGE_FIELD_NUMBER = 8;
+    public static final int IS_PASS_ALL_STAGE_FIELD_NUMBER = 9;
     private boolean isPassAllStage_;
     /**
-     * <code>bool is_pass_all_stage = 8;</code>
+     * <code>bool is_pass_all_stage = 9;</code>
      * @return The isPassAllStage.
      */
     @java.lang.Override
@@ -210,10 +210,10 @@ public final class ElectroherculesBattleDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < stageInfoList_.size(); i++) {
-        output.writeMessage(2, stageInfoList_.get(i));
+        output.writeMessage(6, stageInfoList_.get(i));
       }
       if (isPassAllStage_ != false) {
-        output.writeBool(8, isPassAllStage_);
+        output.writeBool(9, isPassAllStage_);
       }
       unknownFields.writeTo(output);
     }
@@ -226,11 +226,11 @@ public final class ElectroherculesBattleDetailInfoOuterClass {
       size = 0;
       for (int i = 0; i < stageInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, stageInfoList_.get(i));
+          .computeMessageSize(6, stageInfoList_.get(i));
       }
       if (isPassAllStage_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(8, isPassAllStage_);
+          .computeBoolSize(9, isPassAllStage_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -568,7 +568,7 @@ public final class ElectroherculesBattleDetailInfoOuterClass {
           emu.grasscutter.net.proto.ElectroherculesBattleStageInfoOuterClass.ElectroherculesBattleStageInfo, emu.grasscutter.net.proto.ElectroherculesBattleStageInfoOuterClass.ElectroherculesBattleStageInfo.Builder, emu.grasscutter.net.proto.ElectroherculesBattleStageInfoOuterClass.ElectroherculesBattleStageInfoOrBuilder> stageInfoListBuilder_;
 
       /**
-       * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 2;</code>
+       * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 6;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ElectroherculesBattleStageInfoOuterClass.ElectroherculesBattleStageInfo> getStageInfoListList() {
         if (stageInfoListBuilder_ == null) {
@@ -578,7 +578,7 @@ public final class ElectroherculesBattleDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 2;</code>
+       * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 6;</code>
        */
       public int getStageInfoListCount() {
         if (stageInfoListBuilder_ == null) {
@@ -588,7 +588,7 @@ public final class ElectroherculesBattleDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 2;</code>
+       * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 6;</code>
        */
       public emu.grasscutter.net.proto.ElectroherculesBattleStageInfoOuterClass.ElectroherculesBattleStageInfo getStageInfoList(int index) {
         if (stageInfoListBuilder_ == null) {
@@ -598,7 +598,7 @@ public final class ElectroherculesBattleDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 2;</code>
+       * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 6;</code>
        */
       public Builder setStageInfoList(
           int index, emu.grasscutter.net.proto.ElectroherculesBattleStageInfoOuterClass.ElectroherculesBattleStageInfo value) {
@@ -615,7 +615,7 @@ public final class ElectroherculesBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 2;</code>
+       * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 6;</code>
        */
       public Builder setStageInfoList(
           int index, emu.grasscutter.net.proto.ElectroherculesBattleStageInfoOuterClass.ElectroherculesBattleStageInfo.Builder builderForValue) {
@@ -629,7 +629,7 @@ public final class ElectroherculesBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 2;</code>
+       * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 6;</code>
        */
       public Builder addStageInfoList(emu.grasscutter.net.proto.ElectroherculesBattleStageInfoOuterClass.ElectroherculesBattleStageInfo value) {
         if (stageInfoListBuilder_ == null) {
@@ -645,7 +645,7 @@ public final class ElectroherculesBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 2;</code>
+       * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 6;</code>
        */
       public Builder addStageInfoList(
           int index, emu.grasscutter.net.proto.ElectroherculesBattleStageInfoOuterClass.ElectroherculesBattleStageInfo value) {
@@ -662,7 +662,7 @@ public final class ElectroherculesBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 2;</code>
+       * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 6;</code>
        */
       public Builder addStageInfoList(
           emu.grasscutter.net.proto.ElectroherculesBattleStageInfoOuterClass.ElectroherculesBattleStageInfo.Builder builderForValue) {
@@ -676,7 +676,7 @@ public final class ElectroherculesBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 2;</code>
+       * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 6;</code>
        */
       public Builder addStageInfoList(
           int index, emu.grasscutter.net.proto.ElectroherculesBattleStageInfoOuterClass.ElectroherculesBattleStageInfo.Builder builderForValue) {
@@ -690,7 +690,7 @@ public final class ElectroherculesBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 2;</code>
+       * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 6;</code>
        */
       public Builder addAllStageInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.ElectroherculesBattleStageInfoOuterClass.ElectroherculesBattleStageInfo> values) {
@@ -705,7 +705,7 @@ public final class ElectroherculesBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 2;</code>
+       * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 6;</code>
        */
       public Builder clearStageInfoList() {
         if (stageInfoListBuilder_ == null) {
@@ -718,7 +718,7 @@ public final class ElectroherculesBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 2;</code>
+       * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 6;</code>
        */
       public Builder removeStageInfoList(int index) {
         if (stageInfoListBuilder_ == null) {
@@ -731,14 +731,14 @@ public final class ElectroherculesBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 2;</code>
+       * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 6;</code>
        */
       public emu.grasscutter.net.proto.ElectroherculesBattleStageInfoOuterClass.ElectroherculesBattleStageInfo.Builder getStageInfoListBuilder(
           int index) {
         return getStageInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 2;</code>
+       * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 6;</code>
        */
       public emu.grasscutter.net.proto.ElectroherculesBattleStageInfoOuterClass.ElectroherculesBattleStageInfoOrBuilder getStageInfoListOrBuilder(
           int index) {
@@ -748,7 +748,7 @@ public final class ElectroherculesBattleDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 2;</code>
+       * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 6;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.ElectroherculesBattleStageInfoOuterClass.ElectroherculesBattleStageInfoOrBuilder> 
            getStageInfoListOrBuilderList() {
@@ -759,14 +759,14 @@ public final class ElectroherculesBattleDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 2;</code>
+       * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 6;</code>
        */
       public emu.grasscutter.net.proto.ElectroherculesBattleStageInfoOuterClass.ElectroherculesBattleStageInfo.Builder addStageInfoListBuilder() {
         return getStageInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.ElectroherculesBattleStageInfoOuterClass.ElectroherculesBattleStageInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 2;</code>
+       * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 6;</code>
        */
       public emu.grasscutter.net.proto.ElectroherculesBattleStageInfoOuterClass.ElectroherculesBattleStageInfo.Builder addStageInfoListBuilder(
           int index) {
@@ -774,7 +774,7 @@ public final class ElectroherculesBattleDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.ElectroherculesBattleStageInfoOuterClass.ElectroherculesBattleStageInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 2;</code>
+       * <code>repeated .ElectroherculesBattleStageInfo stage_info_list = 6;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ElectroherculesBattleStageInfoOuterClass.ElectroherculesBattleStageInfo.Builder> 
            getStageInfoListBuilderList() {
@@ -797,7 +797,7 @@ public final class ElectroherculesBattleDetailInfoOuterClass {
 
       private boolean isPassAllStage_ ;
       /**
-       * <code>bool is_pass_all_stage = 8;</code>
+       * <code>bool is_pass_all_stage = 9;</code>
        * @return The isPassAllStage.
        */
       @java.lang.Override
@@ -805,7 +805,7 @@ public final class ElectroherculesBattleDetailInfoOuterClass {
         return isPassAllStage_;
       }
       /**
-       * <code>bool is_pass_all_stage = 8;</code>
+       * <code>bool is_pass_all_stage = 9;</code>
        * @param value The isPassAllStage to set.
        * @return This builder for chaining.
        */
@@ -816,7 +816,7 @@ public final class ElectroherculesBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_pass_all_stage = 8;</code>
+       * <code>bool is_pass_all_stage = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsPassAllStage() {
@@ -895,8 +895,8 @@ public final class ElectroherculesBattleDetailInfoOuterClass {
       "\n%ElectroherculesBattleDetailInfo.proto\032" +
       "$ElectroherculesBattleStageInfo.proto\"v\n" +
       "\037ElectroherculesBattleDetailInfo\0228\n\017stag" +
-      "e_info_list\030\002 \003(\0132\037.ElectroherculesBattl" +
-      "eStageInfo\022\031\n\021is_pass_all_stage\030\010 \001(\010BF\n" +
+      "e_info_list\030\006 \003(\0132\037.ElectroherculesBattl" +
+      "eStageInfo\022\031\n\021is_pass_all_stage\030\t \001(\010BF\n" +
       "\031emu.grasscutter.net.protoB)Electrohercu" +
       "lesBattleDetailInfoOuterClassb\006proto3"
     };

@@ -6,6 +6,6 @@ option java_outer_classname = "GetPlayerAskFriendListRspOuterClass";
 import "FriendBrief.proto";
 
 message GetPlayerAskFriendListRsp {
-	repeated FriendBrief ask_friend_list = 8;
-	int32 retcode = 14;
+	repeated FriendBrief ask_friend_list = 1;
+	int32 retcode = 7;
 }

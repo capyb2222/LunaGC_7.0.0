@@ -19,25 +19,25 @@ public final class _AquariumDivingBagDetailOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated ._AquariumDivingItem item_list = 13;</code>
+     * <code>repeated ._AquariumDivingItem item_list = 2;</code>
      */
     java.util.List<emu.grasscutter.net.proto._AquariumDivingItemOuterClass._AquariumDivingItem> 
         getItemListList();
     /**
-     * <code>repeated ._AquariumDivingItem item_list = 13;</code>
+     * <code>repeated ._AquariumDivingItem item_list = 2;</code>
      */
     emu.grasscutter.net.proto._AquariumDivingItemOuterClass._AquariumDivingItem getItemList(int index);
     /**
-     * <code>repeated ._AquariumDivingItem item_list = 13;</code>
+     * <code>repeated ._AquariumDivingItem item_list = 2;</code>
      */
     int getItemListCount();
     /**
-     * <code>repeated ._AquariumDivingItem item_list = 13;</code>
+     * <code>repeated ._AquariumDivingItem item_list = 2;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto._AquariumDivingItemOuterClass._AquariumDivingItemOrBuilder> 
         getItemListOrBuilderList();
     /**
-     * <code>repeated ._AquariumDivingItem item_list = 13;</code>
+     * <code>repeated ._AquariumDivingItem item_list = 2;</code>
      */
     emu.grasscutter.net.proto._AquariumDivingItemOuterClass._AquariumDivingItemOrBuilder getItemListOrBuilder(
         int index);
@@ -89,7 +89,7 @@ public final class _AquariumDivingBagDetailOuterClass {
             case 0:
               done = true;
               break;
-            case 106: {
+            case 18: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 itemList_ = new java.util.ArrayList<emu.grasscutter.net.proto._AquariumDivingItemOuterClass._AquariumDivingItem>();
                 mutable_bitField0_ |= 0x00000001;
@@ -133,17 +133,17 @@ public final class _AquariumDivingBagDetailOuterClass {
               emu.grasscutter.net.proto._AquariumDivingBagDetailOuterClass._AquariumDivingBagDetail.class, emu.grasscutter.net.proto._AquariumDivingBagDetailOuterClass._AquariumDivingBagDetail.Builder.class);
     }
 
-    public static final int ITEM_LIST_FIELD_NUMBER = 13;
+    public static final int ITEM_LIST_FIELD_NUMBER = 2;
     private java.util.List<emu.grasscutter.net.proto._AquariumDivingItemOuterClass._AquariumDivingItem> itemList_;
     /**
-     * <code>repeated ._AquariumDivingItem item_list = 13;</code>
+     * <code>repeated ._AquariumDivingItem item_list = 2;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto._AquariumDivingItemOuterClass._AquariumDivingItem> getItemListList() {
       return itemList_;
     }
     /**
-     * <code>repeated ._AquariumDivingItem item_list = 13;</code>
+     * <code>repeated ._AquariumDivingItem item_list = 2;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto._AquariumDivingItemOuterClass._AquariumDivingItemOrBuilder> 
@@ -151,21 +151,21 @@ public final class _AquariumDivingBagDetailOuterClass {
       return itemList_;
     }
     /**
-     * <code>repeated ._AquariumDivingItem item_list = 13;</code>
+     * <code>repeated ._AquariumDivingItem item_list = 2;</code>
      */
     @java.lang.Override
     public int getItemListCount() {
       return itemList_.size();
     }
     /**
-     * <code>repeated ._AquariumDivingItem item_list = 13;</code>
+     * <code>repeated ._AquariumDivingItem item_list = 2;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._AquariumDivingItemOuterClass._AquariumDivingItem getItemList(int index) {
       return itemList_.get(index);
     }
     /**
-     * <code>repeated ._AquariumDivingItem item_list = 13;</code>
+     * <code>repeated ._AquariumDivingItem item_list = 2;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._AquariumDivingItemOuterClass._AquariumDivingItemOrBuilder getItemListOrBuilder(
@@ -188,7 +188,7 @@ public final class _AquariumDivingBagDetailOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < itemList_.size(); i++) {
-        output.writeMessage(13, itemList_.get(i));
+        output.writeMessage(2, itemList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -201,7 +201,7 @@ public final class _AquariumDivingBagDetailOuterClass {
       size = 0;
       for (int i = 0; i < itemList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, itemList_.get(i));
+          .computeMessageSize(2, itemList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -528,7 +528,7 @@ public final class _AquariumDivingBagDetailOuterClass {
           emu.grasscutter.net.proto._AquariumDivingItemOuterClass._AquariumDivingItem, emu.grasscutter.net.proto._AquariumDivingItemOuterClass._AquariumDivingItem.Builder, emu.grasscutter.net.proto._AquariumDivingItemOuterClass._AquariumDivingItemOrBuilder> itemListBuilder_;
 
       /**
-       * <code>repeated ._AquariumDivingItem item_list = 13;</code>
+       * <code>repeated ._AquariumDivingItem item_list = 2;</code>
        */
       public java.util.List<emu.grasscutter.net.proto._AquariumDivingItemOuterClass._AquariumDivingItem> getItemListList() {
         if (itemListBuilder_ == null) {
@@ -538,7 +538,7 @@ public final class _AquariumDivingBagDetailOuterClass {
         }
       }
       /**
-       * <code>repeated ._AquariumDivingItem item_list = 13;</code>
+       * <code>repeated ._AquariumDivingItem item_list = 2;</code>
        */
       public int getItemListCount() {
         if (itemListBuilder_ == null) {
@@ -548,7 +548,7 @@ public final class _AquariumDivingBagDetailOuterClass {
         }
       }
       /**
-       * <code>repeated ._AquariumDivingItem item_list = 13;</code>
+       * <code>repeated ._AquariumDivingItem item_list = 2;</code>
        */
       public emu.grasscutter.net.proto._AquariumDivingItemOuterClass._AquariumDivingItem getItemList(int index) {
         if (itemListBuilder_ == null) {
@@ -558,7 +558,7 @@ public final class _AquariumDivingBagDetailOuterClass {
         }
       }
       /**
-       * <code>repeated ._AquariumDivingItem item_list = 13;</code>
+       * <code>repeated ._AquariumDivingItem item_list = 2;</code>
        */
       public Builder setItemList(
           int index, emu.grasscutter.net.proto._AquariumDivingItemOuterClass._AquariumDivingItem value) {
@@ -575,7 +575,7 @@ public final class _AquariumDivingBagDetailOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AquariumDivingItem item_list = 13;</code>
+       * <code>repeated ._AquariumDivingItem item_list = 2;</code>
        */
       public Builder setItemList(
           int index, emu.grasscutter.net.proto._AquariumDivingItemOuterClass._AquariumDivingItem.Builder builderForValue) {
@@ -589,7 +589,7 @@ public final class _AquariumDivingBagDetailOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AquariumDivingItem item_list = 13;</code>
+       * <code>repeated ._AquariumDivingItem item_list = 2;</code>
        */
       public Builder addItemList(emu.grasscutter.net.proto._AquariumDivingItemOuterClass._AquariumDivingItem value) {
         if (itemListBuilder_ == null) {
@@ -605,7 +605,7 @@ public final class _AquariumDivingBagDetailOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AquariumDivingItem item_list = 13;</code>
+       * <code>repeated ._AquariumDivingItem item_list = 2;</code>
        */
       public Builder addItemList(
           int index, emu.grasscutter.net.proto._AquariumDivingItemOuterClass._AquariumDivingItem value) {
@@ -622,7 +622,7 @@ public final class _AquariumDivingBagDetailOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AquariumDivingItem item_list = 13;</code>
+       * <code>repeated ._AquariumDivingItem item_list = 2;</code>
        */
       public Builder addItemList(
           emu.grasscutter.net.proto._AquariumDivingItemOuterClass._AquariumDivingItem.Builder builderForValue) {
@@ -636,7 +636,7 @@ public final class _AquariumDivingBagDetailOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AquariumDivingItem item_list = 13;</code>
+       * <code>repeated ._AquariumDivingItem item_list = 2;</code>
        */
       public Builder addItemList(
           int index, emu.grasscutter.net.proto._AquariumDivingItemOuterClass._AquariumDivingItem.Builder builderForValue) {
@@ -650,7 +650,7 @@ public final class _AquariumDivingBagDetailOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AquariumDivingItem item_list = 13;</code>
+       * <code>repeated ._AquariumDivingItem item_list = 2;</code>
        */
       public Builder addAllItemList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto._AquariumDivingItemOuterClass._AquariumDivingItem> values) {
@@ -665,7 +665,7 @@ public final class _AquariumDivingBagDetailOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AquariumDivingItem item_list = 13;</code>
+       * <code>repeated ._AquariumDivingItem item_list = 2;</code>
        */
       public Builder clearItemList() {
         if (itemListBuilder_ == null) {
@@ -678,7 +678,7 @@ public final class _AquariumDivingBagDetailOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AquariumDivingItem item_list = 13;</code>
+       * <code>repeated ._AquariumDivingItem item_list = 2;</code>
        */
       public Builder removeItemList(int index) {
         if (itemListBuilder_ == null) {
@@ -691,14 +691,14 @@ public final class _AquariumDivingBagDetailOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AquariumDivingItem item_list = 13;</code>
+       * <code>repeated ._AquariumDivingItem item_list = 2;</code>
        */
       public emu.grasscutter.net.proto._AquariumDivingItemOuterClass._AquariumDivingItem.Builder getItemListBuilder(
           int index) {
         return getItemListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated ._AquariumDivingItem item_list = 13;</code>
+       * <code>repeated ._AquariumDivingItem item_list = 2;</code>
        */
       public emu.grasscutter.net.proto._AquariumDivingItemOuterClass._AquariumDivingItemOrBuilder getItemListOrBuilder(
           int index) {
@@ -708,7 +708,7 @@ public final class _AquariumDivingBagDetailOuterClass {
         }
       }
       /**
-       * <code>repeated ._AquariumDivingItem item_list = 13;</code>
+       * <code>repeated ._AquariumDivingItem item_list = 2;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto._AquariumDivingItemOuterClass._AquariumDivingItemOrBuilder> 
            getItemListOrBuilderList() {
@@ -719,14 +719,14 @@ public final class _AquariumDivingBagDetailOuterClass {
         }
       }
       /**
-       * <code>repeated ._AquariumDivingItem item_list = 13;</code>
+       * <code>repeated ._AquariumDivingItem item_list = 2;</code>
        */
       public emu.grasscutter.net.proto._AquariumDivingItemOuterClass._AquariumDivingItem.Builder addItemListBuilder() {
         return getItemListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto._AquariumDivingItemOuterClass._AquariumDivingItem.getDefaultInstance());
       }
       /**
-       * <code>repeated ._AquariumDivingItem item_list = 13;</code>
+       * <code>repeated ._AquariumDivingItem item_list = 2;</code>
        */
       public emu.grasscutter.net.proto._AquariumDivingItemOuterClass._AquariumDivingItem.Builder addItemListBuilder(
           int index) {
@@ -734,7 +734,7 @@ public final class _AquariumDivingBagDetailOuterClass {
             index, emu.grasscutter.net.proto._AquariumDivingItemOuterClass._AquariumDivingItem.getDefaultInstance());
       }
       /**
-       * <code>repeated ._AquariumDivingItem item_list = 13;</code>
+       * <code>repeated ._AquariumDivingItem item_list = 2;</code>
        */
       public java.util.List<emu.grasscutter.net.proto._AquariumDivingItemOuterClass._AquariumDivingItem.Builder> 
            getItemListBuilderList() {
@@ -823,7 +823,7 @@ public final class _AquariumDivingBagDetailOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036_AquariumDivingBagDetail.proto\032\031_Aquar" +
       "iumDivingItem.proto\"C\n\030_AquariumDivingBa" +
-      "gDetail\022\'\n\titem_list\030\r \003(\0132\024._AquariumDi" +
+      "gDetail\022\'\n\titem_list\030\002 \003(\0132\024._AquariumDi" +
       "vingItemB?\n\031emu.grasscutter.net.protoB\"_" +
       "AquariumDivingBagDetailOuterClassb\006proto" +
       "3"

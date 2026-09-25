@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "SceneAreaUnlockNotifyOuterClass";
 
 message SceneAreaUnlockNotify {
-	repeated uint32 area_list = 1;
-	uint32 scene_id = 3;
+	repeated uint32 area_list = 15;
+	uint32 scene_id = 10;
 }

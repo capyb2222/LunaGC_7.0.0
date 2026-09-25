@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "DelMailRspOuterClass";
 
 message DelMailRsp {
-	repeated uint32 mail_id_list = 12;
-	int32 retcode = 14;
+	repeated uint32 mail_id_list = 14;
+	int32 retcode = 9;
 }

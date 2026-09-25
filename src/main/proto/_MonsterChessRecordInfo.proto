@@ -6,8 +6,8 @@ option java_outer_classname = "_MonsterChessRecordInfoOuterClass";
 import "_MonsterChessCardDetail.proto";
 
 message _MonsterChessRecordInfo {
-	repeated uint32 _win_round_list = 1;
-	repeated _MonsterChessCardDetail monster_list = 9;
-	repeated uint32 OHBPLEJNHBF = 11;
-	uint32 timestamp = 15;
+	repeated uint32 _win_round_list = 5;
+	repeated _MonsterChessCardDetail monster_list = 10;
+	repeated uint32 OHBPLEJNHBF = 3;
+	uint32 timestamp = 14;
 }

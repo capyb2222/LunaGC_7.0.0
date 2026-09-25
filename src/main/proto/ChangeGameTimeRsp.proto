@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "ChangeGameTimeRspOuterClass";
 
 message ChangeGameTimeRsp {
-	int32 retcode = 7;
-	uint32 cur_game_time = 12;
-	uint32 extra_days = 15;
+	int32 retcode = 8;
+	uint32 cur_game_time = 50000;
+	uint32 extra_days = 50001;
 }

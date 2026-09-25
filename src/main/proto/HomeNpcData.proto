@@ -6,8 +6,8 @@ option java_outer_classname = "HomeNpcDataOuterClass";
 import "Vector.proto";
 
 message HomeNpcData {
-	Vector spawn_pos = 3;
-	Vector spawn_rot = 4;
-	uint32 avatar_id = 5;
-	uint32 costume_id = 10;
+	Vector spawn_pos = 9;
+	Vector spawn_rot = 3;
+	uint32 avatar_id = 2;
+	uint32 costume_id = 1;
 }

@@ -6,7 +6,7 @@ option java_outer_classname = "SalvageStageInfoOuterClass";
 import "SalvageChallengeInfo.proto";
 
 message SalvageStageInfo {
-	bool is_open = 8;
-	repeated SalvageChallengeInfo challenge_info_list = 9;
-	uint32 stage_id = 15;
+	bool is_open = 15;
+	repeated SalvageChallengeInfo challenge_info_list = 10;
+	uint32 stage_id = 5;
 }

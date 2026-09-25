@@ -19,42 +19,42 @@ public final class _AquariumDivingTaskInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .Uint32Pair _task_progress_pair_list = 1;</code>
+     * <code>repeated .Uint32Pair _task_progress_pair_list = 14;</code>
      */
     java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> 
         getTaskProgressPairListList();
     /**
-     * <code>repeated .Uint32Pair _task_progress_pair_list = 1;</code>
+     * <code>repeated .Uint32Pair _task_progress_pair_list = 14;</code>
      */
     emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getTaskProgressPairList(int index);
     /**
-     * <code>repeated .Uint32Pair _task_progress_pair_list = 1;</code>
+     * <code>repeated .Uint32Pair _task_progress_pair_list = 14;</code>
      */
     int getTaskProgressPairListCount();
     /**
-     * <code>repeated .Uint32Pair _task_progress_pair_list = 1;</code>
+     * <code>repeated .Uint32Pair _task_progress_pair_list = 14;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
         getTaskProgressPairListOrBuilderList();
     /**
-     * <code>repeated .Uint32Pair _task_progress_pair_list = 1;</code>
+     * <code>repeated .Uint32Pair _task_progress_pair_list = 14;</code>
      */
     emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getTaskProgressPairListOrBuilder(
         int index);
 
     /**
-     * <code>._AquariumDivingTaskState _task_state = 5;</code>
+     * <code>._AquariumDivingTaskState _task_state = 9;</code>
      * @return The enum numeric value on the wire for taskState.
      */
     int getTaskStateValue();
     /**
-     * <code>._AquariumDivingTaskState _task_state = 5;</code>
+     * <code>._AquariumDivingTaskState _task_state = 9;</code>
      * @return The taskState.
      */
     emu.grasscutter.net.proto._AquariumDivingTaskStateOuterClass._AquariumDivingTaskState getTaskState();
 
     /**
-     * <code>uint32 _aquarium_diving_task_id = 15;</code>
+     * <code>uint32 _aquarium_diving_task_id = 1;</code>
      * @return The aquariumDivingTaskId.
      */
     int getAquariumDivingTaskId();
@@ -107,24 +107,24 @@ public final class _AquariumDivingTaskInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 10: {
+            case 8: {
+
+              AquariumDivingTaskId_ = input.readUInt32();
+              break;
+            }
+            case 72: {
+              int rawValue = input.readEnum();
+
+              TaskState_ = rawValue;
+              break;
+            }
+            case 114: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 TaskProgressPairList_ = new java.util.ArrayList<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair>();
                 mutable_bitField0_ |= 0x00000001;
               }
               TaskProgressPairList_.add(
                   input.readMessage(emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.parser(), extensionRegistry));
-              break;
-            }
-            case 40: {
-              int rawValue = input.readEnum();
-
-              TaskState_ = rawValue;
-              break;
-            }
-            case 120: {
-
-              AquariumDivingTaskId_ = input.readUInt32();
               break;
             }
             default: {
@@ -162,17 +162,17 @@ public final class _AquariumDivingTaskInfoOuterClass {
               emu.grasscutter.net.proto._AquariumDivingTaskInfoOuterClass._AquariumDivingTaskInfo.class, emu.grasscutter.net.proto._AquariumDivingTaskInfoOuterClass._AquariumDivingTaskInfo.Builder.class);
     }
 
-    public static final int _TASK_PROGRESS_PAIR_LIST_FIELD_NUMBER = 1;
+    public static final int _TASK_PROGRESS_PAIR_LIST_FIELD_NUMBER = 14;
     private java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> TaskProgressPairList_;
     /**
-     * <code>repeated .Uint32Pair _task_progress_pair_list = 1;</code>
+     * <code>repeated .Uint32Pair _task_progress_pair_list = 14;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> getTaskProgressPairListList() {
       return TaskProgressPairList_;
     }
     /**
-     * <code>repeated .Uint32Pair _task_progress_pair_list = 1;</code>
+     * <code>repeated .Uint32Pair _task_progress_pair_list = 14;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
@@ -180,21 +180,21 @@ public final class _AquariumDivingTaskInfoOuterClass {
       return TaskProgressPairList_;
     }
     /**
-     * <code>repeated .Uint32Pair _task_progress_pair_list = 1;</code>
+     * <code>repeated .Uint32Pair _task_progress_pair_list = 14;</code>
      */
     @java.lang.Override
     public int getTaskProgressPairListCount() {
       return TaskProgressPairList_.size();
     }
     /**
-     * <code>repeated .Uint32Pair _task_progress_pair_list = 1;</code>
+     * <code>repeated .Uint32Pair _task_progress_pair_list = 14;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getTaskProgressPairList(int index) {
       return TaskProgressPairList_.get(index);
     }
     /**
-     * <code>repeated .Uint32Pair _task_progress_pair_list = 1;</code>
+     * <code>repeated .Uint32Pair _task_progress_pair_list = 14;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getTaskProgressPairListOrBuilder(
@@ -202,17 +202,17 @@ public final class _AquariumDivingTaskInfoOuterClass {
       return TaskProgressPairList_.get(index);
     }
 
-    public static final int _TASK_STATE_FIELD_NUMBER = 5;
+    public static final int _TASK_STATE_FIELD_NUMBER = 9;
     private int TaskState_;
     /**
-     * <code>._AquariumDivingTaskState _task_state = 5;</code>
+     * <code>._AquariumDivingTaskState _task_state = 9;</code>
      * @return The enum numeric value on the wire for taskState.
      */
     @java.lang.Override public int getTaskStateValue() {
       return TaskState_;
     }
     /**
-     * <code>._AquariumDivingTaskState _task_state = 5;</code>
+     * <code>._AquariumDivingTaskState _task_state = 9;</code>
      * @return The taskState.
      */
     @java.lang.Override public emu.grasscutter.net.proto._AquariumDivingTaskStateOuterClass._AquariumDivingTaskState getTaskState() {
@@ -221,10 +221,10 @@ public final class _AquariumDivingTaskInfoOuterClass {
       return result == null ? emu.grasscutter.net.proto._AquariumDivingTaskStateOuterClass._AquariumDivingTaskState.UNRECOGNIZED : result;
     }
 
-    public static final int _AQUARIUM_DIVING_TASK_ID_FIELD_NUMBER = 15;
+    public static final int _AQUARIUM_DIVING_TASK_ID_FIELD_NUMBER = 1;
     private int AquariumDivingTaskId_;
     /**
-     * <code>uint32 _aquarium_diving_task_id = 15;</code>
+     * <code>uint32 _aquarium_diving_task_id = 1;</code>
      * @return The aquariumDivingTaskId.
      */
     @java.lang.Override
@@ -246,14 +246,14 @@ public final class _AquariumDivingTaskInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      for (int i = 0; i < TaskProgressPairList_.size(); i++) {
-        output.writeMessage(1, TaskProgressPairList_.get(i));
+      if (AquariumDivingTaskId_ != 0) {
+        output.writeUInt32(1, AquariumDivingTaskId_);
       }
       if (TaskState_ != emu.grasscutter.net.proto._AquariumDivingTaskStateOuterClass._AquariumDivingTaskState.AQUARIUM_TASK_NOT_ACCEPTED.getNumber()) {
-        output.writeEnum(5, TaskState_);
+        output.writeEnum(9, TaskState_);
       }
-      if (AquariumDivingTaskId_ != 0) {
-        output.writeUInt32(15, AquariumDivingTaskId_);
+      for (int i = 0; i < TaskProgressPairList_.size(); i++) {
+        output.writeMessage(14, TaskProgressPairList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -264,17 +264,17 @@ public final class _AquariumDivingTaskInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < TaskProgressPairList_.size(); i++) {
+      if (AquariumDivingTaskId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, TaskProgressPairList_.get(i));
+          .computeUInt32Size(1, AquariumDivingTaskId_);
       }
       if (TaskState_ != emu.grasscutter.net.proto._AquariumDivingTaskStateOuterClass._AquariumDivingTaskState.AQUARIUM_TASK_NOT_ACCEPTED.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(5, TaskState_);
+          .computeEnumSize(9, TaskState_);
       }
-      if (AquariumDivingTaskId_ != 0) {
+      for (int i = 0; i < TaskProgressPairList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, AquariumDivingTaskId_);
+          .computeMessageSize(14, TaskProgressPairList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -620,7 +620,7 @@ public final class _AquariumDivingTaskInfoOuterClass {
           emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> TaskProgressPairListBuilder_;
 
       /**
-       * <code>repeated .Uint32Pair _task_progress_pair_list = 1;</code>
+       * <code>repeated .Uint32Pair _task_progress_pair_list = 14;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> getTaskProgressPairListList() {
         if (TaskProgressPairListBuilder_ == null) {
@@ -630,7 +630,7 @@ public final class _AquariumDivingTaskInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair _task_progress_pair_list = 1;</code>
+       * <code>repeated .Uint32Pair _task_progress_pair_list = 14;</code>
        */
       public int getTaskProgressPairListCount() {
         if (TaskProgressPairListBuilder_ == null) {
@@ -640,7 +640,7 @@ public final class _AquariumDivingTaskInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair _task_progress_pair_list = 1;</code>
+       * <code>repeated .Uint32Pair _task_progress_pair_list = 14;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getTaskProgressPairList(int index) {
         if (TaskProgressPairListBuilder_ == null) {
@@ -650,7 +650,7 @@ public final class _AquariumDivingTaskInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair _task_progress_pair_list = 1;</code>
+       * <code>repeated .Uint32Pair _task_progress_pair_list = 14;</code>
        */
       public Builder setTaskProgressPairList(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
@@ -667,7 +667,7 @@ public final class _AquariumDivingTaskInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair _task_progress_pair_list = 1;</code>
+       * <code>repeated .Uint32Pair _task_progress_pair_list = 14;</code>
        */
       public Builder setTaskProgressPairList(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder builderForValue) {
@@ -681,7 +681,7 @@ public final class _AquariumDivingTaskInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair _task_progress_pair_list = 1;</code>
+       * <code>repeated .Uint32Pair _task_progress_pair_list = 14;</code>
        */
       public Builder addTaskProgressPairList(emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
         if (TaskProgressPairListBuilder_ == null) {
@@ -697,7 +697,7 @@ public final class _AquariumDivingTaskInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair _task_progress_pair_list = 1;</code>
+       * <code>repeated .Uint32Pair _task_progress_pair_list = 14;</code>
        */
       public Builder addTaskProgressPairList(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
@@ -714,7 +714,7 @@ public final class _AquariumDivingTaskInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair _task_progress_pair_list = 1;</code>
+       * <code>repeated .Uint32Pair _task_progress_pair_list = 14;</code>
        */
       public Builder addTaskProgressPairList(
           emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder builderForValue) {
@@ -728,7 +728,7 @@ public final class _AquariumDivingTaskInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair _task_progress_pair_list = 1;</code>
+       * <code>repeated .Uint32Pair _task_progress_pair_list = 14;</code>
        */
       public Builder addTaskProgressPairList(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder builderForValue) {
@@ -742,7 +742,7 @@ public final class _AquariumDivingTaskInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair _task_progress_pair_list = 1;</code>
+       * <code>repeated .Uint32Pair _task_progress_pair_list = 14;</code>
        */
       public Builder addAllTaskProgressPairList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> values) {
@@ -757,7 +757,7 @@ public final class _AquariumDivingTaskInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair _task_progress_pair_list = 1;</code>
+       * <code>repeated .Uint32Pair _task_progress_pair_list = 14;</code>
        */
       public Builder clearTaskProgressPairList() {
         if (TaskProgressPairListBuilder_ == null) {
@@ -770,7 +770,7 @@ public final class _AquariumDivingTaskInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair _task_progress_pair_list = 1;</code>
+       * <code>repeated .Uint32Pair _task_progress_pair_list = 14;</code>
        */
       public Builder removeTaskProgressPairList(int index) {
         if (TaskProgressPairListBuilder_ == null) {
@@ -783,14 +783,14 @@ public final class _AquariumDivingTaskInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair _task_progress_pair_list = 1;</code>
+       * <code>repeated .Uint32Pair _task_progress_pair_list = 14;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder getTaskProgressPairListBuilder(
           int index) {
         return getTaskProgressPairListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .Uint32Pair _task_progress_pair_list = 1;</code>
+       * <code>repeated .Uint32Pair _task_progress_pair_list = 14;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getTaskProgressPairListOrBuilder(
           int index) {
@@ -800,7 +800,7 @@ public final class _AquariumDivingTaskInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair _task_progress_pair_list = 1;</code>
+       * <code>repeated .Uint32Pair _task_progress_pair_list = 14;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
            getTaskProgressPairListOrBuilderList() {
@@ -811,14 +811,14 @@ public final class _AquariumDivingTaskInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair _task_progress_pair_list = 1;</code>
+       * <code>repeated .Uint32Pair _task_progress_pair_list = 14;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder addTaskProgressPairListBuilder() {
         return getTaskProgressPairListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.getDefaultInstance());
       }
       /**
-       * <code>repeated .Uint32Pair _task_progress_pair_list = 1;</code>
+       * <code>repeated .Uint32Pair _task_progress_pair_list = 14;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder addTaskProgressPairListBuilder(
           int index) {
@@ -826,7 +826,7 @@ public final class _AquariumDivingTaskInfoOuterClass {
             index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.getDefaultInstance());
       }
       /**
-       * <code>repeated .Uint32Pair _task_progress_pair_list = 1;</code>
+       * <code>repeated .Uint32Pair _task_progress_pair_list = 14;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder> 
            getTaskProgressPairListBuilderList() {
@@ -849,14 +849,14 @@ public final class _AquariumDivingTaskInfoOuterClass {
 
       private int TaskState_ = 0;
       /**
-       * <code>._AquariumDivingTaskState _task_state = 5;</code>
+       * <code>._AquariumDivingTaskState _task_state = 9;</code>
        * @return The enum numeric value on the wire for taskState.
        */
       @java.lang.Override public int getTaskStateValue() {
         return TaskState_;
       }
       /**
-       * <code>._AquariumDivingTaskState _task_state = 5;</code>
+       * <code>._AquariumDivingTaskState _task_state = 9;</code>
        * @param value The enum numeric value on the wire for taskState to set.
        * @return This builder for chaining.
        */
@@ -867,7 +867,7 @@ public final class _AquariumDivingTaskInfoOuterClass {
         return this;
       }
       /**
-       * <code>._AquariumDivingTaskState _task_state = 5;</code>
+       * <code>._AquariumDivingTaskState _task_state = 9;</code>
        * @return The taskState.
        */
       @java.lang.Override
@@ -877,7 +877,7 @@ public final class _AquariumDivingTaskInfoOuterClass {
         return result == null ? emu.grasscutter.net.proto._AquariumDivingTaskStateOuterClass._AquariumDivingTaskState.UNRECOGNIZED : result;
       }
       /**
-       * <code>._AquariumDivingTaskState _task_state = 5;</code>
+       * <code>._AquariumDivingTaskState _task_state = 9;</code>
        * @param value The taskState to set.
        * @return This builder for chaining.
        */
@@ -891,7 +891,7 @@ public final class _AquariumDivingTaskInfoOuterClass {
         return this;
       }
       /**
-       * <code>._AquariumDivingTaskState _task_state = 5;</code>
+       * <code>._AquariumDivingTaskState _task_state = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearTaskState() {
@@ -903,7 +903,7 @@ public final class _AquariumDivingTaskInfoOuterClass {
 
       private int AquariumDivingTaskId_ ;
       /**
-       * <code>uint32 _aquarium_diving_task_id = 15;</code>
+       * <code>uint32 _aquarium_diving_task_id = 1;</code>
        * @return The aquariumDivingTaskId.
        */
       @java.lang.Override
@@ -911,7 +911,7 @@ public final class _AquariumDivingTaskInfoOuterClass {
         return AquariumDivingTaskId_;
       }
       /**
-       * <code>uint32 _aquarium_diving_task_id = 15;</code>
+       * <code>uint32 _aquarium_diving_task_id = 1;</code>
        * @param value The aquariumDivingTaskId to set.
        * @return This builder for chaining.
        */
@@ -922,7 +922,7 @@ public final class _AquariumDivingTaskInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 _aquarium_diving_task_id = 15;</code>
+       * <code>uint32 _aquarium_diving_task_id = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearAquariumDivingTaskId() {
@@ -1001,9 +1001,9 @@ public final class _AquariumDivingTaskInfoOuterClass {
       "\n\035_AquariumDivingTaskInfo.proto\032\020Uint32P" +
       "air.proto\032\036_AquariumDivingTaskState.prot" +
       "o\"\232\001\n\027_AquariumDivingTaskInfo\022-\n\030_task_p" +
-      "rogress_pair_list\030\001 \003(\0132\013.Uint32Pair\022.\n\013" +
-      "_task_state\030\005 \001(\0162\031._AquariumDivingTaskS" +
-      "tate\022 \n\030_aquarium_diving_task_id\030\017 \001(\rB>" +
+      "rogress_pair_list\030\016 \003(\0132\013.Uint32Pair\022.\n\013" +
+      "_task_state\030\t \001(\0162\031._AquariumDivingTaskS" +
+      "tate\022 \n\030_aquarium_diving_task_id\030\001 \001(\rB>" +
       "\n\031emu.grasscutter.net.protoB!_AquariumDi" +
       "vingTaskInfoOuterClassb\006proto3"
     };

@@ -25,25 +25,25 @@ public final class IrodoriChessDataOuterClass {
     boolean getIsOpen();
 
     /**
-     * <code>repeated .IrodoriChessLevelData level_data_list = 9;</code>
+     * <code>repeated .IrodoriChessLevelData level_data_list = 5;</code>
      */
     java.util.List<emu.grasscutter.net.proto.IrodoriChessLevelDataOuterClass.IrodoriChessLevelData> 
         getLevelDataListList();
     /**
-     * <code>repeated .IrodoriChessLevelData level_data_list = 9;</code>
+     * <code>repeated .IrodoriChessLevelData level_data_list = 5;</code>
      */
     emu.grasscutter.net.proto.IrodoriChessLevelDataOuterClass.IrodoriChessLevelData getLevelDataList(int index);
     /**
-     * <code>repeated .IrodoriChessLevelData level_data_list = 9;</code>
+     * <code>repeated .IrodoriChessLevelData level_data_list = 5;</code>
      */
     int getLevelDataListCount();
     /**
-     * <code>repeated .IrodoriChessLevelData level_data_list = 9;</code>
+     * <code>repeated .IrodoriChessLevelData level_data_list = 5;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.IrodoriChessLevelDataOuterClass.IrodoriChessLevelDataOrBuilder> 
         getLevelDataListOrBuilderList();
     /**
-     * <code>repeated .IrodoriChessLevelData level_data_list = 9;</code>
+     * <code>repeated .IrodoriChessLevelData level_data_list = 5;</code>
      */
     emu.grasscutter.net.proto.IrodoriChessLevelDataOuterClass.IrodoriChessLevelDataOrBuilder getLevelDataListOrBuilder(
         int index);
@@ -95,18 +95,18 @@ public final class IrodoriChessDataOuterClass {
             case 0:
               done = true;
               break;
-            case 56: {
-
-              isOpen_ = input.readBool();
-              break;
-            }
-            case 74: {
+            case 42: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 levelDataList_ = new java.util.ArrayList<emu.grasscutter.net.proto.IrodoriChessLevelDataOuterClass.IrodoriChessLevelData>();
                 mutable_bitField0_ |= 0x00000001;
               }
               levelDataList_.add(
                   input.readMessage(emu.grasscutter.net.proto.IrodoriChessLevelDataOuterClass.IrodoriChessLevelData.parser(), extensionRegistry));
+              break;
+            }
+            case 56: {
+
+              isOpen_ = input.readBool();
               break;
             }
             default: {
@@ -155,17 +155,17 @@ public final class IrodoriChessDataOuterClass {
       return isOpen_;
     }
 
-    public static final int LEVEL_DATA_LIST_FIELD_NUMBER = 9;
+    public static final int LEVEL_DATA_LIST_FIELD_NUMBER = 5;
     private java.util.List<emu.grasscutter.net.proto.IrodoriChessLevelDataOuterClass.IrodoriChessLevelData> levelDataList_;
     /**
-     * <code>repeated .IrodoriChessLevelData level_data_list = 9;</code>
+     * <code>repeated .IrodoriChessLevelData level_data_list = 5;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.IrodoriChessLevelDataOuterClass.IrodoriChessLevelData> getLevelDataListList() {
       return levelDataList_;
     }
     /**
-     * <code>repeated .IrodoriChessLevelData level_data_list = 9;</code>
+     * <code>repeated .IrodoriChessLevelData level_data_list = 5;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.IrodoriChessLevelDataOuterClass.IrodoriChessLevelDataOrBuilder> 
@@ -173,21 +173,21 @@ public final class IrodoriChessDataOuterClass {
       return levelDataList_;
     }
     /**
-     * <code>repeated .IrodoriChessLevelData level_data_list = 9;</code>
+     * <code>repeated .IrodoriChessLevelData level_data_list = 5;</code>
      */
     @java.lang.Override
     public int getLevelDataListCount() {
       return levelDataList_.size();
     }
     /**
-     * <code>repeated .IrodoriChessLevelData level_data_list = 9;</code>
+     * <code>repeated .IrodoriChessLevelData level_data_list = 5;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.IrodoriChessLevelDataOuterClass.IrodoriChessLevelData getLevelDataList(int index) {
       return levelDataList_.get(index);
     }
     /**
-     * <code>repeated .IrodoriChessLevelData level_data_list = 9;</code>
+     * <code>repeated .IrodoriChessLevelData level_data_list = 5;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.IrodoriChessLevelDataOuterClass.IrodoriChessLevelDataOrBuilder getLevelDataListOrBuilder(
@@ -209,11 +209,11 @@ public final class IrodoriChessDataOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      for (int i = 0; i < levelDataList_.size(); i++) {
+        output.writeMessage(5, levelDataList_.get(i));
+      }
       if (isOpen_ != false) {
         output.writeBool(7, isOpen_);
-      }
-      for (int i = 0; i < levelDataList_.size(); i++) {
-        output.writeMessage(9, levelDataList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -224,13 +224,13 @@ public final class IrodoriChessDataOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      for (int i = 0; i < levelDataList_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(5, levelDataList_.get(i));
+      }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(7, isOpen_);
-      }
-      for (int i = 0; i < levelDataList_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, levelDataList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -599,7 +599,7 @@ public final class IrodoriChessDataOuterClass {
           emu.grasscutter.net.proto.IrodoriChessLevelDataOuterClass.IrodoriChessLevelData, emu.grasscutter.net.proto.IrodoriChessLevelDataOuterClass.IrodoriChessLevelData.Builder, emu.grasscutter.net.proto.IrodoriChessLevelDataOuterClass.IrodoriChessLevelDataOrBuilder> levelDataListBuilder_;
 
       /**
-       * <code>repeated .IrodoriChessLevelData level_data_list = 9;</code>
+       * <code>repeated .IrodoriChessLevelData level_data_list = 5;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.IrodoriChessLevelDataOuterClass.IrodoriChessLevelData> getLevelDataListList() {
         if (levelDataListBuilder_ == null) {
@@ -609,7 +609,7 @@ public final class IrodoriChessDataOuterClass {
         }
       }
       /**
-       * <code>repeated .IrodoriChessLevelData level_data_list = 9;</code>
+       * <code>repeated .IrodoriChessLevelData level_data_list = 5;</code>
        */
       public int getLevelDataListCount() {
         if (levelDataListBuilder_ == null) {
@@ -619,7 +619,7 @@ public final class IrodoriChessDataOuterClass {
         }
       }
       /**
-       * <code>repeated .IrodoriChessLevelData level_data_list = 9;</code>
+       * <code>repeated .IrodoriChessLevelData level_data_list = 5;</code>
        */
       public emu.grasscutter.net.proto.IrodoriChessLevelDataOuterClass.IrodoriChessLevelData getLevelDataList(int index) {
         if (levelDataListBuilder_ == null) {
@@ -629,7 +629,7 @@ public final class IrodoriChessDataOuterClass {
         }
       }
       /**
-       * <code>repeated .IrodoriChessLevelData level_data_list = 9;</code>
+       * <code>repeated .IrodoriChessLevelData level_data_list = 5;</code>
        */
       public Builder setLevelDataList(
           int index, emu.grasscutter.net.proto.IrodoriChessLevelDataOuterClass.IrodoriChessLevelData value) {
@@ -646,7 +646,7 @@ public final class IrodoriChessDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IrodoriChessLevelData level_data_list = 9;</code>
+       * <code>repeated .IrodoriChessLevelData level_data_list = 5;</code>
        */
       public Builder setLevelDataList(
           int index, emu.grasscutter.net.proto.IrodoriChessLevelDataOuterClass.IrodoriChessLevelData.Builder builderForValue) {
@@ -660,7 +660,7 @@ public final class IrodoriChessDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IrodoriChessLevelData level_data_list = 9;</code>
+       * <code>repeated .IrodoriChessLevelData level_data_list = 5;</code>
        */
       public Builder addLevelDataList(emu.grasscutter.net.proto.IrodoriChessLevelDataOuterClass.IrodoriChessLevelData value) {
         if (levelDataListBuilder_ == null) {
@@ -676,7 +676,7 @@ public final class IrodoriChessDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IrodoriChessLevelData level_data_list = 9;</code>
+       * <code>repeated .IrodoriChessLevelData level_data_list = 5;</code>
        */
       public Builder addLevelDataList(
           int index, emu.grasscutter.net.proto.IrodoriChessLevelDataOuterClass.IrodoriChessLevelData value) {
@@ -693,7 +693,7 @@ public final class IrodoriChessDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IrodoriChessLevelData level_data_list = 9;</code>
+       * <code>repeated .IrodoriChessLevelData level_data_list = 5;</code>
        */
       public Builder addLevelDataList(
           emu.grasscutter.net.proto.IrodoriChessLevelDataOuterClass.IrodoriChessLevelData.Builder builderForValue) {
@@ -707,7 +707,7 @@ public final class IrodoriChessDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IrodoriChessLevelData level_data_list = 9;</code>
+       * <code>repeated .IrodoriChessLevelData level_data_list = 5;</code>
        */
       public Builder addLevelDataList(
           int index, emu.grasscutter.net.proto.IrodoriChessLevelDataOuterClass.IrodoriChessLevelData.Builder builderForValue) {
@@ -721,7 +721,7 @@ public final class IrodoriChessDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IrodoriChessLevelData level_data_list = 9;</code>
+       * <code>repeated .IrodoriChessLevelData level_data_list = 5;</code>
        */
       public Builder addAllLevelDataList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.IrodoriChessLevelDataOuterClass.IrodoriChessLevelData> values) {
@@ -736,7 +736,7 @@ public final class IrodoriChessDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IrodoriChessLevelData level_data_list = 9;</code>
+       * <code>repeated .IrodoriChessLevelData level_data_list = 5;</code>
        */
       public Builder clearLevelDataList() {
         if (levelDataListBuilder_ == null) {
@@ -749,7 +749,7 @@ public final class IrodoriChessDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IrodoriChessLevelData level_data_list = 9;</code>
+       * <code>repeated .IrodoriChessLevelData level_data_list = 5;</code>
        */
       public Builder removeLevelDataList(int index) {
         if (levelDataListBuilder_ == null) {
@@ -762,14 +762,14 @@ public final class IrodoriChessDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IrodoriChessLevelData level_data_list = 9;</code>
+       * <code>repeated .IrodoriChessLevelData level_data_list = 5;</code>
        */
       public emu.grasscutter.net.proto.IrodoriChessLevelDataOuterClass.IrodoriChessLevelData.Builder getLevelDataListBuilder(
           int index) {
         return getLevelDataListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .IrodoriChessLevelData level_data_list = 9;</code>
+       * <code>repeated .IrodoriChessLevelData level_data_list = 5;</code>
        */
       public emu.grasscutter.net.proto.IrodoriChessLevelDataOuterClass.IrodoriChessLevelDataOrBuilder getLevelDataListOrBuilder(
           int index) {
@@ -779,7 +779,7 @@ public final class IrodoriChessDataOuterClass {
         }
       }
       /**
-       * <code>repeated .IrodoriChessLevelData level_data_list = 9;</code>
+       * <code>repeated .IrodoriChessLevelData level_data_list = 5;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.IrodoriChessLevelDataOuterClass.IrodoriChessLevelDataOrBuilder> 
            getLevelDataListOrBuilderList() {
@@ -790,14 +790,14 @@ public final class IrodoriChessDataOuterClass {
         }
       }
       /**
-       * <code>repeated .IrodoriChessLevelData level_data_list = 9;</code>
+       * <code>repeated .IrodoriChessLevelData level_data_list = 5;</code>
        */
       public emu.grasscutter.net.proto.IrodoriChessLevelDataOuterClass.IrodoriChessLevelData.Builder addLevelDataListBuilder() {
         return getLevelDataListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.IrodoriChessLevelDataOuterClass.IrodoriChessLevelData.getDefaultInstance());
       }
       /**
-       * <code>repeated .IrodoriChessLevelData level_data_list = 9;</code>
+       * <code>repeated .IrodoriChessLevelData level_data_list = 5;</code>
        */
       public emu.grasscutter.net.proto.IrodoriChessLevelDataOuterClass.IrodoriChessLevelData.Builder addLevelDataListBuilder(
           int index) {
@@ -805,7 +805,7 @@ public final class IrodoriChessDataOuterClass {
             index, emu.grasscutter.net.proto.IrodoriChessLevelDataOuterClass.IrodoriChessLevelData.getDefaultInstance());
       }
       /**
-       * <code>repeated .IrodoriChessLevelData level_data_list = 9;</code>
+       * <code>repeated .IrodoriChessLevelData level_data_list = 5;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.IrodoriChessLevelDataOuterClass.IrodoriChessLevelData.Builder> 
            getLevelDataListBuilderList() {
@@ -894,7 +894,7 @@ public final class IrodoriChessDataOuterClass {
     java.lang.String[] descriptorData = {
       "\n\026IrodoriChessData.proto\032\033IrodoriChessLe" +
       "velData.proto\"T\n\020IrodoriChessData\022\017\n\007is_" +
-      "open\030\007 \001(\010\022/\n\017level_data_list\030\t \003(\0132\026.Ir" +
+      "open\030\007 \001(\010\022/\n\017level_data_list\030\005 \003(\0132\026.Ir" +
       "odoriChessLevelDataB7\n\031emu.grasscutter.n" +
       "et.protoB\032IrodoriChessDataOuterClassb\006pr" +
       "oto3"

@@ -19,13 +19,13 @@ public final class NNOLNLHNOIOOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool HCEJBKINEOB = 1;</code>
+     * <code>bool HCEJBKINEOB = 9;</code>
      * @return The hCEJBKINEOB.
      */
     boolean getHCEJBKINEOB();
 
     /**
-     * <code>uint32 count = 3;</code>
+     * <code>uint32 count = 1;</code>
      * @return The count.
      */
     int getCount();
@@ -37,37 +37,37 @@ public final class NNOLNLHNOIOOuterClass {
     int getDNIBBKLBBJE();
 
     /**
-     * <code>uint32 rank = 5;</code>
+     * <code>uint32 rank = 10;</code>
      * @return The rank.
      */
     int getRank();
 
     /**
-     * <code>bool is_unlocked = 6;</code>
+     * <code>bool is_unlocked = 12;</code>
      * @return The isUnlocked.
      */
     boolean getIsUnlocked();
 
     /**
-     * <code>uint32 exp = 10;</code>
+     * <code>uint32 exp = 11;</code>
      * @return The exp.
      */
     int getExp();
 
     /**
-     * <code>bool GOEKPDMOLKD = 12;</code>
+     * <code>bool GOEKPDMOLKD = 13;</code>
      * @return The gOEKPDMOLKD.
      */
     boolean getGOEKPDMOLKD();
 
     /**
-     * <code>uint32 PBBFBMDGOOH = 13;</code>
+     * <code>uint32 PBBFBMDGOOH = 50000;</code>
      * @return The pBBFBMDGOOH.
      */
     int getPBBFBMDGOOH();
 
     /**
-     * <code>uint32 IKFHIPAAFEF = 15;</code>
+     * <code>uint32 IKFHIPAAFEF = 50001;</code>
      * @return The iKFHIPAAFEF.
      */
     int getIKFHIPAAFEF();
@@ -119,11 +119,6 @@ public final class NNOLNLHNOIOOuterClass {
               break;
             case 8: {
 
-              hCEJBKINEOB_ = input.readBool();
-              break;
-            }
-            case 24: {
-
               count_ = input.readUInt32();
               break;
             }
@@ -132,32 +127,37 @@ public final class NNOLNLHNOIOOuterClass {
               dNIBBKLBBJE_ = input.readUInt32();
               break;
             }
-            case 40: {
+            case 72: {
+
+              hCEJBKINEOB_ = input.readBool();
+              break;
+            }
+            case 80: {
 
               rank_ = input.readUInt32();
               break;
             }
-            case 48: {
-
-              isUnlocked_ = input.readBool();
-              break;
-            }
-            case 80: {
+            case 88: {
 
               exp_ = input.readUInt32();
               break;
             }
             case 96: {
 
-              gOEKPDMOLKD_ = input.readBool();
+              isUnlocked_ = input.readBool();
               break;
             }
             case 104: {
 
+              gOEKPDMOLKD_ = input.readBool();
+              break;
+            }
+            case 400000: {
+
               pBBFBMDGOOH_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 400008: {
 
               iKFHIPAAFEF_ = input.readUInt32();
               break;
@@ -194,10 +194,10 @@ public final class NNOLNLHNOIOOuterClass {
               emu.grasscutter.net.proto.NNOLNLHNOIOOuterClass.NNOLNLHNOIO.class, emu.grasscutter.net.proto.NNOLNLHNOIOOuterClass.NNOLNLHNOIO.Builder.class);
     }
 
-    public static final int HCEJBKINEOB_FIELD_NUMBER = 1;
+    public static final int HCEJBKINEOB_FIELD_NUMBER = 9;
     private boolean hCEJBKINEOB_;
     /**
-     * <code>bool HCEJBKINEOB = 1;</code>
+     * <code>bool HCEJBKINEOB = 9;</code>
      * @return The hCEJBKINEOB.
      */
     @java.lang.Override
@@ -205,10 +205,10 @@ public final class NNOLNLHNOIOOuterClass {
       return hCEJBKINEOB_;
     }
 
-    public static final int COUNT_FIELD_NUMBER = 3;
+    public static final int COUNT_FIELD_NUMBER = 1;
     private int count_;
     /**
-     * <code>uint32 count = 3;</code>
+     * <code>uint32 count = 1;</code>
      * @return The count.
      */
     @java.lang.Override
@@ -227,10 +227,10 @@ public final class NNOLNLHNOIOOuterClass {
       return dNIBBKLBBJE_;
     }
 
-    public static final int RANK_FIELD_NUMBER = 5;
+    public static final int RANK_FIELD_NUMBER = 10;
     private int rank_;
     /**
-     * <code>uint32 rank = 5;</code>
+     * <code>uint32 rank = 10;</code>
      * @return The rank.
      */
     @java.lang.Override
@@ -238,10 +238,10 @@ public final class NNOLNLHNOIOOuterClass {
       return rank_;
     }
 
-    public static final int IS_UNLOCKED_FIELD_NUMBER = 6;
+    public static final int IS_UNLOCKED_FIELD_NUMBER = 12;
     private boolean isUnlocked_;
     /**
-     * <code>bool is_unlocked = 6;</code>
+     * <code>bool is_unlocked = 12;</code>
      * @return The isUnlocked.
      */
     @java.lang.Override
@@ -249,10 +249,10 @@ public final class NNOLNLHNOIOOuterClass {
       return isUnlocked_;
     }
 
-    public static final int EXP_FIELD_NUMBER = 10;
+    public static final int EXP_FIELD_NUMBER = 11;
     private int exp_;
     /**
-     * <code>uint32 exp = 10;</code>
+     * <code>uint32 exp = 11;</code>
      * @return The exp.
      */
     @java.lang.Override
@@ -260,10 +260,10 @@ public final class NNOLNLHNOIOOuterClass {
       return exp_;
     }
 
-    public static final int GOEKPDMOLKD_FIELD_NUMBER = 12;
+    public static final int GOEKPDMOLKD_FIELD_NUMBER = 13;
     private boolean gOEKPDMOLKD_;
     /**
-     * <code>bool GOEKPDMOLKD = 12;</code>
+     * <code>bool GOEKPDMOLKD = 13;</code>
      * @return The gOEKPDMOLKD.
      */
     @java.lang.Override
@@ -271,10 +271,10 @@ public final class NNOLNLHNOIOOuterClass {
       return gOEKPDMOLKD_;
     }
 
-    public static final int PBBFBMDGOOH_FIELD_NUMBER = 13;
+    public static final int PBBFBMDGOOH_FIELD_NUMBER = 50000;
     private int pBBFBMDGOOH_;
     /**
-     * <code>uint32 PBBFBMDGOOH = 13;</code>
+     * <code>uint32 PBBFBMDGOOH = 50000;</code>
      * @return The pBBFBMDGOOH.
      */
     @java.lang.Override
@@ -282,10 +282,10 @@ public final class NNOLNLHNOIOOuterClass {
       return pBBFBMDGOOH_;
     }
 
-    public static final int IKFHIPAAFEF_FIELD_NUMBER = 15;
+    public static final int IKFHIPAAFEF_FIELD_NUMBER = 50001;
     private int iKFHIPAAFEF_;
     /**
-     * <code>uint32 IKFHIPAAFEF = 15;</code>
+     * <code>uint32 IKFHIPAAFEF = 50001;</code>
      * @return The iKFHIPAAFEF.
      */
     @java.lang.Override
@@ -307,32 +307,32 @@ public final class NNOLNLHNOIOOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (hCEJBKINEOB_ != false) {
-        output.writeBool(1, hCEJBKINEOB_);
-      }
       if (count_ != 0) {
-        output.writeUInt32(3, count_);
+        output.writeUInt32(1, count_);
       }
       if (dNIBBKLBBJE_ != 0) {
         output.writeUInt32(4, dNIBBKLBBJE_);
       }
-      if (rank_ != 0) {
-        output.writeUInt32(5, rank_);
+      if (hCEJBKINEOB_ != false) {
+        output.writeBool(9, hCEJBKINEOB_);
       }
-      if (isUnlocked_ != false) {
-        output.writeBool(6, isUnlocked_);
+      if (rank_ != 0) {
+        output.writeUInt32(10, rank_);
       }
       if (exp_ != 0) {
-        output.writeUInt32(10, exp_);
+        output.writeUInt32(11, exp_);
+      }
+      if (isUnlocked_ != false) {
+        output.writeBool(12, isUnlocked_);
       }
       if (gOEKPDMOLKD_ != false) {
-        output.writeBool(12, gOEKPDMOLKD_);
+        output.writeBool(13, gOEKPDMOLKD_);
       }
       if (pBBFBMDGOOH_ != 0) {
-        output.writeUInt32(13, pBBFBMDGOOH_);
+        output.writeUInt32(50000, pBBFBMDGOOH_);
       }
       if (iKFHIPAAFEF_ != 0) {
-        output.writeUInt32(15, iKFHIPAAFEF_);
+        output.writeUInt32(50001, iKFHIPAAFEF_);
       }
       unknownFields.writeTo(output);
     }
@@ -343,41 +343,41 @@ public final class NNOLNLHNOIOOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (hCEJBKINEOB_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1, hCEJBKINEOB_);
-      }
       if (count_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, count_);
+          .computeUInt32Size(1, count_);
       }
       if (dNIBBKLBBJE_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(4, dNIBBKLBBJE_);
       }
+      if (hCEJBKINEOB_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(9, hCEJBKINEOB_);
+      }
       if (rank_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, rank_);
-      }
-      if (isUnlocked_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(6, isUnlocked_);
+          .computeUInt32Size(10, rank_);
       }
       if (exp_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, exp_);
+          .computeUInt32Size(11, exp_);
+      }
+      if (isUnlocked_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(12, isUnlocked_);
       }
       if (gOEKPDMOLKD_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, gOEKPDMOLKD_);
+          .computeBoolSize(13, gOEKPDMOLKD_);
       }
       if (pBBFBMDGOOH_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, pBBFBMDGOOH_);
+          .computeUInt32Size(50000, pBBFBMDGOOH_);
       }
       if (iKFHIPAAFEF_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, iKFHIPAAFEF_);
+          .computeUInt32Size(50001, iKFHIPAAFEF_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -736,7 +736,7 @@ public final class NNOLNLHNOIOOuterClass {
 
       private boolean hCEJBKINEOB_ ;
       /**
-       * <code>bool HCEJBKINEOB = 1;</code>
+       * <code>bool HCEJBKINEOB = 9;</code>
        * @return The hCEJBKINEOB.
        */
       @java.lang.Override
@@ -744,7 +744,7 @@ public final class NNOLNLHNOIOOuterClass {
         return hCEJBKINEOB_;
       }
       /**
-       * <code>bool HCEJBKINEOB = 1;</code>
+       * <code>bool HCEJBKINEOB = 9;</code>
        * @param value The hCEJBKINEOB to set.
        * @return This builder for chaining.
        */
@@ -755,7 +755,7 @@ public final class NNOLNLHNOIOOuterClass {
         return this;
       }
       /**
-       * <code>bool HCEJBKINEOB = 1;</code>
+       * <code>bool HCEJBKINEOB = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearHCEJBKINEOB() {
@@ -767,7 +767,7 @@ public final class NNOLNLHNOIOOuterClass {
 
       private int count_ ;
       /**
-       * <code>uint32 count = 3;</code>
+       * <code>uint32 count = 1;</code>
        * @return The count.
        */
       @java.lang.Override
@@ -775,7 +775,7 @@ public final class NNOLNLHNOIOOuterClass {
         return count_;
       }
       /**
-       * <code>uint32 count = 3;</code>
+       * <code>uint32 count = 1;</code>
        * @param value The count to set.
        * @return This builder for chaining.
        */
@@ -786,7 +786,7 @@ public final class NNOLNLHNOIOOuterClass {
         return this;
       }
       /**
-       * <code>uint32 count = 3;</code>
+       * <code>uint32 count = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearCount() {
@@ -829,7 +829,7 @@ public final class NNOLNLHNOIOOuterClass {
 
       private int rank_ ;
       /**
-       * <code>uint32 rank = 5;</code>
+       * <code>uint32 rank = 10;</code>
        * @return The rank.
        */
       @java.lang.Override
@@ -837,7 +837,7 @@ public final class NNOLNLHNOIOOuterClass {
         return rank_;
       }
       /**
-       * <code>uint32 rank = 5;</code>
+       * <code>uint32 rank = 10;</code>
        * @param value The rank to set.
        * @return This builder for chaining.
        */
@@ -848,7 +848,7 @@ public final class NNOLNLHNOIOOuterClass {
         return this;
       }
       /**
-       * <code>uint32 rank = 5;</code>
+       * <code>uint32 rank = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearRank() {
@@ -860,7 +860,7 @@ public final class NNOLNLHNOIOOuterClass {
 
       private boolean isUnlocked_ ;
       /**
-       * <code>bool is_unlocked = 6;</code>
+       * <code>bool is_unlocked = 12;</code>
        * @return The isUnlocked.
        */
       @java.lang.Override
@@ -868,7 +868,7 @@ public final class NNOLNLHNOIOOuterClass {
         return isUnlocked_;
       }
       /**
-       * <code>bool is_unlocked = 6;</code>
+       * <code>bool is_unlocked = 12;</code>
        * @param value The isUnlocked to set.
        * @return This builder for chaining.
        */
@@ -879,7 +879,7 @@ public final class NNOLNLHNOIOOuterClass {
         return this;
       }
       /**
-       * <code>bool is_unlocked = 6;</code>
+       * <code>bool is_unlocked = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsUnlocked() {
@@ -891,7 +891,7 @@ public final class NNOLNLHNOIOOuterClass {
 
       private int exp_ ;
       /**
-       * <code>uint32 exp = 10;</code>
+       * <code>uint32 exp = 11;</code>
        * @return The exp.
        */
       @java.lang.Override
@@ -899,7 +899,7 @@ public final class NNOLNLHNOIOOuterClass {
         return exp_;
       }
       /**
-       * <code>uint32 exp = 10;</code>
+       * <code>uint32 exp = 11;</code>
        * @param value The exp to set.
        * @return This builder for chaining.
        */
@@ -910,7 +910,7 @@ public final class NNOLNLHNOIOOuterClass {
         return this;
       }
       /**
-       * <code>uint32 exp = 10;</code>
+       * <code>uint32 exp = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearExp() {
@@ -922,7 +922,7 @@ public final class NNOLNLHNOIOOuterClass {
 
       private boolean gOEKPDMOLKD_ ;
       /**
-       * <code>bool GOEKPDMOLKD = 12;</code>
+       * <code>bool GOEKPDMOLKD = 13;</code>
        * @return The gOEKPDMOLKD.
        */
       @java.lang.Override
@@ -930,7 +930,7 @@ public final class NNOLNLHNOIOOuterClass {
         return gOEKPDMOLKD_;
       }
       /**
-       * <code>bool GOEKPDMOLKD = 12;</code>
+       * <code>bool GOEKPDMOLKD = 13;</code>
        * @param value The gOEKPDMOLKD to set.
        * @return This builder for chaining.
        */
@@ -941,7 +941,7 @@ public final class NNOLNLHNOIOOuterClass {
         return this;
       }
       /**
-       * <code>bool GOEKPDMOLKD = 12;</code>
+       * <code>bool GOEKPDMOLKD = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearGOEKPDMOLKD() {
@@ -953,7 +953,7 @@ public final class NNOLNLHNOIOOuterClass {
 
       private int pBBFBMDGOOH_ ;
       /**
-       * <code>uint32 PBBFBMDGOOH = 13;</code>
+       * <code>uint32 PBBFBMDGOOH = 50000;</code>
        * @return The pBBFBMDGOOH.
        */
       @java.lang.Override
@@ -961,7 +961,7 @@ public final class NNOLNLHNOIOOuterClass {
         return pBBFBMDGOOH_;
       }
       /**
-       * <code>uint32 PBBFBMDGOOH = 13;</code>
+       * <code>uint32 PBBFBMDGOOH = 50000;</code>
        * @param value The pBBFBMDGOOH to set.
        * @return This builder for chaining.
        */
@@ -972,7 +972,7 @@ public final class NNOLNLHNOIOOuterClass {
         return this;
       }
       /**
-       * <code>uint32 PBBFBMDGOOH = 13;</code>
+       * <code>uint32 PBBFBMDGOOH = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearPBBFBMDGOOH() {
@@ -984,7 +984,7 @@ public final class NNOLNLHNOIOOuterClass {
 
       private int iKFHIPAAFEF_ ;
       /**
-       * <code>uint32 IKFHIPAAFEF = 15;</code>
+       * <code>uint32 IKFHIPAAFEF = 50001;</code>
        * @return The iKFHIPAAFEF.
        */
       @java.lang.Override
@@ -992,7 +992,7 @@ public final class NNOLNLHNOIOOuterClass {
         return iKFHIPAAFEF_;
       }
       /**
-       * <code>uint32 IKFHIPAAFEF = 15;</code>
+       * <code>uint32 IKFHIPAAFEF = 50001;</code>
        * @param value The iKFHIPAAFEF to set.
        * @return This builder for chaining.
        */
@@ -1003,7 +1003,7 @@ public final class NNOLNLHNOIOOuterClass {
         return this;
       }
       /**
-       * <code>uint32 IKFHIPAAFEF = 15;</code>
+       * <code>uint32 IKFHIPAAFEF = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearIKFHIPAAFEF() {
@@ -1079,13 +1079,13 @@ public final class NNOLNLHNOIOOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021NNOLNLHNOIO.proto\"\265\001\n\013NNOLNLHNOIO\022\023\n\013H" +
-      "CEJBKINEOB\030\001 \001(\010\022\r\n\005count\030\003 \001(\r\022\023\n\013DNIBB" +
-      "KLBBJE\030\004 \001(\r\022\014\n\004rank\030\005 \001(\r\022\023\n\013is_unlocke" +
-      "d\030\006 \001(\010\022\013\n\003exp\030\n \001(\r\022\023\n\013GOEKPDMOLKD\030\014 \001(" +
-      "\010\022\023\n\013PBBFBMDGOOH\030\r \001(\r\022\023\n\013IKFHIPAAFEF\030\017 " +
-      "\001(\rB2\n\031emu.grasscutter.net.protoB\025NNOLNL" +
-      "HNOIOOuterClassb\006proto3"
+      "\n\021NNOLNLHNOIO.proto\"\271\001\n\013NNOLNLHNOIO\022\023\n\013H" +
+      "CEJBKINEOB\030\t \001(\010\022\r\n\005count\030\001 \001(\r\022\023\n\013DNIBB" +
+      "KLBBJE\030\004 \001(\r\022\014\n\004rank\030\n \001(\r\022\023\n\013is_unlocke" +
+      "d\030\014 \001(\010\022\013\n\003exp\030\013 \001(\r\022\023\n\013GOEKPDMOLKD\030\r \001(" +
+      "\010\022\025\n\013PBBFBMDGOOH\030\320\206\003 \001(\r\022\025\n\013IKFHIPAAFEF\030" +
+      "\321\206\003 \001(\rB2\n\031emu.grasscutter.net.protoB\025NN" +
+      "OLNLHNOIOOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

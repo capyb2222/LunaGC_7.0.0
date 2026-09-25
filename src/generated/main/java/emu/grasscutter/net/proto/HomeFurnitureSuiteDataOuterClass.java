@@ -19,7 +19,7 @@ public final class HomeFurnitureSuiteDataOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 suite_id = 2;</code>
+     * <code>uint32 suite_id = 11;</code>
      * @return The suiteId.
      */
     int getSuiteId();
@@ -31,17 +31,17 @@ public final class HomeFurnitureSuiteDataOuterClass {
     boolean getIsAllowSummon();
 
     /**
-     * <code>repeated int32 included_furniture_index_list = 8;</code>
+     * <code>repeated int32 included_furniture_index_list = 2;</code>
      * @return A list containing the includedFurnitureIndexList.
      */
     java.util.List<java.lang.Integer> getIncludedFurnitureIndexListList();
     /**
-     * <code>repeated int32 included_furniture_index_list = 8;</code>
+     * <code>repeated int32 included_furniture_index_list = 2;</code>
      * @return The count of includedFurnitureIndexList.
      */
     int getIncludedFurnitureIndexListCount();
     /**
-     * <code>repeated int32 included_furniture_index_list = 8;</code>
+     * <code>repeated int32 included_furniture_index_list = 2;</code>
      * @param index The index of the element to return.
      * @return The includedFurnitureIndexList at the given index.
      */
@@ -54,17 +54,17 @@ public final class HomeFurnitureSuiteDataOuterClass {
     int getGuid();
 
     /**
-     * <code>.Vector spawn_pos = 15;</code>
+     * <code>.Vector spawn_pos = 7;</code>
      * @return Whether the spawnPos field is set.
      */
     boolean hasSpawnPos();
     /**
-     * <code>.Vector spawn_pos = 15;</code>
+     * <code>.Vector spawn_pos = 7;</code>
      * @return The spawnPos.
      */
     emu.grasscutter.net.proto.VectorOuterClass.Vector getSpawnPos();
     /**
-     * <code>.Vector spawn_pos = 15;</code>
+     * <code>.Vector spawn_pos = 7;</code>
      */
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getSpawnPosOrBuilder();
   }
@@ -116,16 +116,6 @@ public final class HomeFurnitureSuiteDataOuterClass {
               done = true;
               break;
             case 16: {
-
-              suiteId_ = input.readUInt32();
-              break;
-            }
-            case 32: {
-
-              isAllowSummon_ = input.readBool();
-              break;
-            }
-            case 64: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 includedFurnitureIndexList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -133,7 +123,7 @@ public final class HomeFurnitureSuiteDataOuterClass {
               includedFurnitureIndexList_.addInt(input.readInt32());
               break;
             }
-            case 66: {
+            case 18: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -146,12 +136,12 @@ public final class HomeFurnitureSuiteDataOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 112: {
+            case 32: {
 
-              guid_ = input.readUInt32();
+              isAllowSummon_ = input.readBool();
               break;
             }
-            case 122: {
+            case 58: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (spawnPos_ != null) {
                 subBuilder = spawnPos_.toBuilder();
@@ -162,6 +152,16 @@ public final class HomeFurnitureSuiteDataOuterClass {
                 spawnPos_ = subBuilder.buildPartial();
               }
 
+              break;
+            }
+            case 88: {
+
+              suiteId_ = input.readUInt32();
+              break;
+            }
+            case 112: {
+
+              guid_ = input.readUInt32();
               break;
             }
             default: {
@@ -199,10 +199,10 @@ public final class HomeFurnitureSuiteDataOuterClass {
               emu.grasscutter.net.proto.HomeFurnitureSuiteDataOuterClass.HomeFurnitureSuiteData.class, emu.grasscutter.net.proto.HomeFurnitureSuiteDataOuterClass.HomeFurnitureSuiteData.Builder.class);
     }
 
-    public static final int SUITE_ID_FIELD_NUMBER = 2;
+    public static final int SUITE_ID_FIELD_NUMBER = 11;
     private int suiteId_;
     /**
-     * <code>uint32 suite_id = 2;</code>
+     * <code>uint32 suite_id = 11;</code>
      * @return The suiteId.
      */
     @java.lang.Override
@@ -221,10 +221,10 @@ public final class HomeFurnitureSuiteDataOuterClass {
       return isAllowSummon_;
     }
 
-    public static final int INCLUDED_FURNITURE_INDEX_LIST_FIELD_NUMBER = 8;
+    public static final int INCLUDED_FURNITURE_INDEX_LIST_FIELD_NUMBER = 2;
     private com.google.protobuf.Internal.IntList includedFurnitureIndexList_;
     /**
-     * <code>repeated int32 included_furniture_index_list = 8;</code>
+     * <code>repeated int32 included_furniture_index_list = 2;</code>
      * @return A list containing the includedFurnitureIndexList.
      */
     @java.lang.Override
@@ -233,14 +233,14 @@ public final class HomeFurnitureSuiteDataOuterClass {
       return includedFurnitureIndexList_;
     }
     /**
-     * <code>repeated int32 included_furniture_index_list = 8;</code>
+     * <code>repeated int32 included_furniture_index_list = 2;</code>
      * @return The count of includedFurnitureIndexList.
      */
     public int getIncludedFurnitureIndexListCount() {
       return includedFurnitureIndexList_.size();
     }
     /**
-     * <code>repeated int32 included_furniture_index_list = 8;</code>
+     * <code>repeated int32 included_furniture_index_list = 2;</code>
      * @param index The index of the element to return.
      * @return The includedFurnitureIndexList at the given index.
      */
@@ -260,10 +260,10 @@ public final class HomeFurnitureSuiteDataOuterClass {
       return guid_;
     }
 
-    public static final int SPAWN_POS_FIELD_NUMBER = 15;
+    public static final int SPAWN_POS_FIELD_NUMBER = 7;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector spawnPos_;
     /**
-     * <code>.Vector spawn_pos = 15;</code>
+     * <code>.Vector spawn_pos = 7;</code>
      * @return Whether the spawnPos field is set.
      */
     @java.lang.Override
@@ -271,7 +271,7 @@ public final class HomeFurnitureSuiteDataOuterClass {
       return spawnPos_ != null;
     }
     /**
-     * <code>.Vector spawn_pos = 15;</code>
+     * <code>.Vector spawn_pos = 7;</code>
      * @return The spawnPos.
      */
     @java.lang.Override
@@ -279,7 +279,7 @@ public final class HomeFurnitureSuiteDataOuterClass {
       return spawnPos_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : spawnPos_;
     }
     /**
-     * <code>.Vector spawn_pos = 15;</code>
+     * <code>.Vector spawn_pos = 7;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getSpawnPosOrBuilder() {
@@ -301,24 +301,24 @@ public final class HomeFurnitureSuiteDataOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (suiteId_ != 0) {
-        output.writeUInt32(2, suiteId_);
-      }
-      if (isAllowSummon_ != false) {
-        output.writeBool(4, isAllowSummon_);
-      }
       if (getIncludedFurnitureIndexListList().size() > 0) {
-        output.writeUInt32NoTag(66);
+        output.writeUInt32NoTag(18);
         output.writeUInt32NoTag(includedFurnitureIndexListMemoizedSerializedSize);
       }
       for (int i = 0; i < includedFurnitureIndexList_.size(); i++) {
         output.writeInt32NoTag(includedFurnitureIndexList_.getInt(i));
       }
-      if (guid_ != 0) {
-        output.writeUInt32(14, guid_);
+      if (isAllowSummon_ != false) {
+        output.writeBool(4, isAllowSummon_);
       }
       if (spawnPos_ != null) {
-        output.writeMessage(15, getSpawnPos());
+        output.writeMessage(7, getSpawnPos());
+      }
+      if (suiteId_ != 0) {
+        output.writeUInt32(11, suiteId_);
+      }
+      if (guid_ != 0) {
+        output.writeUInt32(14, guid_);
       }
       unknownFields.writeTo(output);
     }
@@ -329,14 +329,6 @@ public final class HomeFurnitureSuiteDataOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (suiteId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, suiteId_);
-      }
-      if (isAllowSummon_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(4, isAllowSummon_);
-      }
       {
         int dataSize = 0;
         for (int i = 0; i < includedFurnitureIndexList_.size(); i++) {
@@ -351,13 +343,21 @@ public final class HomeFurnitureSuiteDataOuterClass {
         }
         includedFurnitureIndexListMemoizedSerializedSize = dataSize;
       }
-      if (guid_ != 0) {
+      if (isAllowSummon_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, guid_);
+          .computeBoolSize(4, isAllowSummon_);
       }
       if (spawnPos_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, getSpawnPos());
+          .computeMessageSize(7, getSpawnPos());
+      }
+      if (suiteId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(11, suiteId_);
+      }
+      if (guid_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(14, guid_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -702,7 +702,7 @@ public final class HomeFurnitureSuiteDataOuterClass {
 
       private int suiteId_ ;
       /**
-       * <code>uint32 suite_id = 2;</code>
+       * <code>uint32 suite_id = 11;</code>
        * @return The suiteId.
        */
       @java.lang.Override
@@ -710,7 +710,7 @@ public final class HomeFurnitureSuiteDataOuterClass {
         return suiteId_;
       }
       /**
-       * <code>uint32 suite_id = 2;</code>
+       * <code>uint32 suite_id = 11;</code>
        * @param value The suiteId to set.
        * @return This builder for chaining.
        */
@@ -721,7 +721,7 @@ public final class HomeFurnitureSuiteDataOuterClass {
         return this;
       }
       /**
-       * <code>uint32 suite_id = 2;</code>
+       * <code>uint32 suite_id = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearSuiteId() {
@@ -770,7 +770,7 @@ public final class HomeFurnitureSuiteDataOuterClass {
          }
       }
       /**
-       * <code>repeated int32 included_furniture_index_list = 8;</code>
+       * <code>repeated int32 included_furniture_index_list = 2;</code>
        * @return A list containing the includedFurnitureIndexList.
        */
       public java.util.List<java.lang.Integer>
@@ -779,14 +779,14 @@ public final class HomeFurnitureSuiteDataOuterClass {
                  java.util.Collections.unmodifiableList(includedFurnitureIndexList_) : includedFurnitureIndexList_;
       }
       /**
-       * <code>repeated int32 included_furniture_index_list = 8;</code>
+       * <code>repeated int32 included_furniture_index_list = 2;</code>
        * @return The count of includedFurnitureIndexList.
        */
       public int getIncludedFurnitureIndexListCount() {
         return includedFurnitureIndexList_.size();
       }
       /**
-       * <code>repeated int32 included_furniture_index_list = 8;</code>
+       * <code>repeated int32 included_furniture_index_list = 2;</code>
        * @param index The index of the element to return.
        * @return The includedFurnitureIndexList at the given index.
        */
@@ -794,7 +794,7 @@ public final class HomeFurnitureSuiteDataOuterClass {
         return includedFurnitureIndexList_.getInt(index);
       }
       /**
-       * <code>repeated int32 included_furniture_index_list = 8;</code>
+       * <code>repeated int32 included_furniture_index_list = 2;</code>
        * @param index The index to set the value at.
        * @param value The includedFurnitureIndexList to set.
        * @return This builder for chaining.
@@ -807,7 +807,7 @@ public final class HomeFurnitureSuiteDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated int32 included_furniture_index_list = 8;</code>
+       * <code>repeated int32 included_furniture_index_list = 2;</code>
        * @param value The includedFurnitureIndexList to add.
        * @return This builder for chaining.
        */
@@ -818,7 +818,7 @@ public final class HomeFurnitureSuiteDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated int32 included_furniture_index_list = 8;</code>
+       * <code>repeated int32 included_furniture_index_list = 2;</code>
        * @param values The includedFurnitureIndexList to add.
        * @return This builder for chaining.
        */
@@ -831,7 +831,7 @@ public final class HomeFurnitureSuiteDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated int32 included_furniture_index_list = 8;</code>
+       * <code>repeated int32 included_furniture_index_list = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearIncludedFurnitureIndexList() {
@@ -876,14 +876,14 @@ public final class HomeFurnitureSuiteDataOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> spawnPosBuilder_;
       /**
-       * <code>.Vector spawn_pos = 15;</code>
+       * <code>.Vector spawn_pos = 7;</code>
        * @return Whether the spawnPos field is set.
        */
       public boolean hasSpawnPos() {
         return spawnPosBuilder_ != null || spawnPos_ != null;
       }
       /**
-       * <code>.Vector spawn_pos = 15;</code>
+       * <code>.Vector spawn_pos = 7;</code>
        * @return The spawnPos.
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector getSpawnPos() {
@@ -894,7 +894,7 @@ public final class HomeFurnitureSuiteDataOuterClass {
         }
       }
       /**
-       * <code>.Vector spawn_pos = 15;</code>
+       * <code>.Vector spawn_pos = 7;</code>
        */
       public Builder setSpawnPos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (spawnPosBuilder_ == null) {
@@ -910,7 +910,7 @@ public final class HomeFurnitureSuiteDataOuterClass {
         return this;
       }
       /**
-       * <code>.Vector spawn_pos = 15;</code>
+       * <code>.Vector spawn_pos = 7;</code>
        */
       public Builder setSpawnPos(
           emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
@@ -924,7 +924,7 @@ public final class HomeFurnitureSuiteDataOuterClass {
         return this;
       }
       /**
-       * <code>.Vector spawn_pos = 15;</code>
+       * <code>.Vector spawn_pos = 7;</code>
        */
       public Builder mergeSpawnPos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (spawnPosBuilder_ == null) {
@@ -942,7 +942,7 @@ public final class HomeFurnitureSuiteDataOuterClass {
         return this;
       }
       /**
-       * <code>.Vector spawn_pos = 15;</code>
+       * <code>.Vector spawn_pos = 7;</code>
        */
       public Builder clearSpawnPos() {
         if (spawnPosBuilder_ == null) {
@@ -956,7 +956,7 @@ public final class HomeFurnitureSuiteDataOuterClass {
         return this;
       }
       /**
-       * <code>.Vector spawn_pos = 15;</code>
+       * <code>.Vector spawn_pos = 7;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getSpawnPosBuilder() {
         
@@ -964,7 +964,7 @@ public final class HomeFurnitureSuiteDataOuterClass {
         return getSpawnPosFieldBuilder().getBuilder();
       }
       /**
-       * <code>.Vector spawn_pos = 15;</code>
+       * <code>.Vector spawn_pos = 7;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getSpawnPosOrBuilder() {
         if (spawnPosBuilder_ != null) {
@@ -975,7 +975,7 @@ public final class HomeFurnitureSuiteDataOuterClass {
         }
       }
       /**
-       * <code>.Vector spawn_pos = 15;</code>
+       * <code>.Vector spawn_pos = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
@@ -1059,9 +1059,9 @@ public final class HomeFurnitureSuiteDataOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034HomeFurnitureSuiteData.proto\032\014Vector.p" +
       "roto\"\224\001\n\026HomeFurnitureSuiteData\022\020\n\010suite" +
-      "_id\030\002 \001(\r\022\027\n\017is_allow_summon\030\004 \001(\010\022%\n\035in" +
-      "cluded_furniture_index_list\030\010 \003(\005\022\014\n\004gui" +
-      "d\030\016 \001(\r\022\032\n\tspawn_pos\030\017 \001(\0132\007.VectorB=\n\031e" +
+      "_id\030\013 \001(\r\022\027\n\017is_allow_summon\030\004 \001(\010\022%\n\035in" +
+      "cluded_furniture_index_list\030\002 \003(\005\022\014\n\004gui" +
+      "d\030\016 \001(\r\022\032\n\tspawn_pos\030\007 \001(\0132\007.VectorB=\n\031e" +
       "mu.grasscutter.net.protoB HomeFurnitureS" +
       "uiteDataOuterClassb\006proto3"
     };

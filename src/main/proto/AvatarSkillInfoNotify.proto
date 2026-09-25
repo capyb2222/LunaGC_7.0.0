@@ -6,6 +6,6 @@ option java_outer_classname = "AvatarSkillInfoNotifyOuterClass";
 import "AvatarSkillInfo.proto";
 
 message AvatarSkillInfoNotify {
-	map<uint32, AvatarSkillInfo> skill_map = 11;
-	uint64 guid = 15;
+	map<uint32, AvatarSkillInfo> skill_map = 2;
+	uint64 guid = 10;
 }

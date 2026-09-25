@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "SetEquipLockStateRspOuterClass";
 
 message SetEquipLockStateRsp {
-	uint64 target_equip_guid = 4;
-	int32 retcode = 10;
-	bool is_locked = 13;
+	uint64 target_equip_guid = 13;
+	int32 retcode = 12;
+	bool is_locked = 7;
 }

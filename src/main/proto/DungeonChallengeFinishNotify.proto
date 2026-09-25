@@ -12,17 +12,17 @@ import "StrengthenPointData.proto";
 
 message DungeonChallengeFinishNotify {
 	oneof detail {
-		ChannellerSlabLoopDungeonResultInfo channeller_slab_loop_dungeon_result_info = 160;
-		PotionDungeonResultInfo potion_dungeon_result_info = 185;
-		CustomDungeonResultInfo custom_dungeon_result_info = 1326;
-		EffigyChallengeDungeonResultInfo effigy_challenge_dungeon_result_info = 1549;
+		ChannellerSlabLoopDungeonResultInfo channeller_slab_loop_dungeon_result_info = 1574;
+		PotionDungeonResultInfo potion_dungeon_result_info = 1222;
+		CustomDungeonResultInfo custom_dungeon_result_info = 1687;
+		EffigyChallengeDungeonResultInfo effigy_challenge_dungeon_result_info = 1019;
 	}
-	bool is_new_record = 1;
-	uint32 time_cost = 2;
-	uint32 challenge_record_type = 4;
-	map<uint32, StrengthenPointData> strengthen_point_data_map = 5;
-	ChallengeFinishType finish_type = 8;
-	uint32 current_value = 11;
-	uint32 challenge_index = 14;
-	bool is_success = 15;
+	bool is_new_record = 15;
+	uint32 time_cost = 3;
+	uint32 challenge_record_type = 14;
+	map<uint32, StrengthenPointData> strengthen_point_data_map = 8;
+	ChallengeFinishType finish_type = 10;
+	uint32 current_value = 6;
+	uint32 challenge_index = 4;
+	bool is_success = 7;
 }

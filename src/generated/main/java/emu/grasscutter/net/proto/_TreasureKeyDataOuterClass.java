@@ -19,17 +19,17 @@ public final class _TreasureKeyDataOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>._TreasureKeyMarkPoint _mark_point = 4;</code>
+     * <code>._TreasureKeyMarkPoint _mark_point = 7;</code>
      * @return Whether the markPoint field is set.
      */
     boolean hasMarkPoint();
     /**
-     * <code>._TreasureKeyMarkPoint _mark_point = 4;</code>
+     * <code>._TreasureKeyMarkPoint _mark_point = 7;</code>
      * @return The markPoint.
      */
     emu.grasscutter.net.proto._TreasureKeyMarkPointOuterClass._TreasureKeyMarkPoint getMarkPoint();
     /**
-     * <code>._TreasureKeyMarkPoint _mark_point = 4;</code>
+     * <code>._TreasureKeyMarkPoint _mark_point = 7;</code>
      */
     emu.grasscutter.net.proto._TreasureKeyMarkPointOuterClass._TreasureKeyMarkPointOrBuilder getMarkPointOrBuilder();
   }
@@ -78,7 +78,7 @@ public final class _TreasureKeyDataOuterClass {
             case 0:
               done = true;
               break;
-            case 34: {
+            case 58: {
               emu.grasscutter.net.proto._TreasureKeyMarkPointOuterClass._TreasureKeyMarkPoint.Builder subBuilder = null;
               if (MarkPoint_ != null) {
                 subBuilder = MarkPoint_.toBuilder();
@@ -123,10 +123,10 @@ public final class _TreasureKeyDataOuterClass {
               emu.grasscutter.net.proto._TreasureKeyDataOuterClass._TreasureKeyData.class, emu.grasscutter.net.proto._TreasureKeyDataOuterClass._TreasureKeyData.Builder.class);
     }
 
-    public static final int _MARK_POINT_FIELD_NUMBER = 4;
+    public static final int _MARK_POINT_FIELD_NUMBER = 7;
     private emu.grasscutter.net.proto._TreasureKeyMarkPointOuterClass._TreasureKeyMarkPoint MarkPoint_;
     /**
-     * <code>._TreasureKeyMarkPoint _mark_point = 4;</code>
+     * <code>._TreasureKeyMarkPoint _mark_point = 7;</code>
      * @return Whether the markPoint field is set.
      */
     @java.lang.Override
@@ -134,7 +134,7 @@ public final class _TreasureKeyDataOuterClass {
       return MarkPoint_ != null;
     }
     /**
-     * <code>._TreasureKeyMarkPoint _mark_point = 4;</code>
+     * <code>._TreasureKeyMarkPoint _mark_point = 7;</code>
      * @return The markPoint.
      */
     @java.lang.Override
@@ -142,7 +142,7 @@ public final class _TreasureKeyDataOuterClass {
       return MarkPoint_ == null ? emu.grasscutter.net.proto._TreasureKeyMarkPointOuterClass._TreasureKeyMarkPoint.getDefaultInstance() : MarkPoint_;
     }
     /**
-     * <code>._TreasureKeyMarkPoint _mark_point = 4;</code>
+     * <code>._TreasureKeyMarkPoint _mark_point = 7;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._TreasureKeyMarkPointOuterClass._TreasureKeyMarkPointOrBuilder getMarkPointOrBuilder() {
@@ -164,7 +164,7 @@ public final class _TreasureKeyDataOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (MarkPoint_ != null) {
-        output.writeMessage(4, getMarkPoint());
+        output.writeMessage(7, getMarkPoint());
       }
       unknownFields.writeTo(output);
     }
@@ -177,7 +177,7 @@ public final class _TreasureKeyDataOuterClass {
       size = 0;
       if (MarkPoint_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, getMarkPoint());
+          .computeMessageSize(7, getMarkPoint());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -468,14 +468,14 @@ public final class _TreasureKeyDataOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._TreasureKeyMarkPointOuterClass._TreasureKeyMarkPoint, emu.grasscutter.net.proto._TreasureKeyMarkPointOuterClass._TreasureKeyMarkPoint.Builder, emu.grasscutter.net.proto._TreasureKeyMarkPointOuterClass._TreasureKeyMarkPointOrBuilder> MarkPointBuilder_;
       /**
-       * <code>._TreasureKeyMarkPoint _mark_point = 4;</code>
+       * <code>._TreasureKeyMarkPoint _mark_point = 7;</code>
        * @return Whether the markPoint field is set.
        */
       public boolean hasMarkPoint() {
         return MarkPointBuilder_ != null || MarkPoint_ != null;
       }
       /**
-       * <code>._TreasureKeyMarkPoint _mark_point = 4;</code>
+       * <code>._TreasureKeyMarkPoint _mark_point = 7;</code>
        * @return The markPoint.
        */
       public emu.grasscutter.net.proto._TreasureKeyMarkPointOuterClass._TreasureKeyMarkPoint getMarkPoint() {
@@ -486,7 +486,7 @@ public final class _TreasureKeyDataOuterClass {
         }
       }
       /**
-       * <code>._TreasureKeyMarkPoint _mark_point = 4;</code>
+       * <code>._TreasureKeyMarkPoint _mark_point = 7;</code>
        */
       public Builder setMarkPoint(emu.grasscutter.net.proto._TreasureKeyMarkPointOuterClass._TreasureKeyMarkPoint value) {
         if (MarkPointBuilder_ == null) {
@@ -502,7 +502,7 @@ public final class _TreasureKeyDataOuterClass {
         return this;
       }
       /**
-       * <code>._TreasureKeyMarkPoint _mark_point = 4;</code>
+       * <code>._TreasureKeyMarkPoint _mark_point = 7;</code>
        */
       public Builder setMarkPoint(
           emu.grasscutter.net.proto._TreasureKeyMarkPointOuterClass._TreasureKeyMarkPoint.Builder builderForValue) {
@@ -516,7 +516,7 @@ public final class _TreasureKeyDataOuterClass {
         return this;
       }
       /**
-       * <code>._TreasureKeyMarkPoint _mark_point = 4;</code>
+       * <code>._TreasureKeyMarkPoint _mark_point = 7;</code>
        */
       public Builder mergeMarkPoint(emu.grasscutter.net.proto._TreasureKeyMarkPointOuterClass._TreasureKeyMarkPoint value) {
         if (MarkPointBuilder_ == null) {
@@ -534,7 +534,7 @@ public final class _TreasureKeyDataOuterClass {
         return this;
       }
       /**
-       * <code>._TreasureKeyMarkPoint _mark_point = 4;</code>
+       * <code>._TreasureKeyMarkPoint _mark_point = 7;</code>
        */
       public Builder clearMarkPoint() {
         if (MarkPointBuilder_ == null) {
@@ -548,7 +548,7 @@ public final class _TreasureKeyDataOuterClass {
         return this;
       }
       /**
-       * <code>._TreasureKeyMarkPoint _mark_point = 4;</code>
+       * <code>._TreasureKeyMarkPoint _mark_point = 7;</code>
        */
       public emu.grasscutter.net.proto._TreasureKeyMarkPointOuterClass._TreasureKeyMarkPoint.Builder getMarkPointBuilder() {
         
@@ -556,7 +556,7 @@ public final class _TreasureKeyDataOuterClass {
         return getMarkPointFieldBuilder().getBuilder();
       }
       /**
-       * <code>._TreasureKeyMarkPoint _mark_point = 4;</code>
+       * <code>._TreasureKeyMarkPoint _mark_point = 7;</code>
        */
       public emu.grasscutter.net.proto._TreasureKeyMarkPointOuterClass._TreasureKeyMarkPointOrBuilder getMarkPointOrBuilder() {
         if (MarkPointBuilder_ != null) {
@@ -567,7 +567,7 @@ public final class _TreasureKeyDataOuterClass {
         }
       }
       /**
-       * <code>._TreasureKeyMarkPoint _mark_point = 4;</code>
+       * <code>._TreasureKeyMarkPoint _mark_point = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._TreasureKeyMarkPointOuterClass._TreasureKeyMarkPoint, emu.grasscutter.net.proto._TreasureKeyMarkPointOuterClass._TreasureKeyMarkPoint.Builder, emu.grasscutter.net.proto._TreasureKeyMarkPointOuterClass._TreasureKeyMarkPointOrBuilder> 
@@ -651,7 +651,7 @@ public final class _TreasureKeyDataOuterClass {
     java.lang.String[] descriptorData = {
       "\n\026_TreasureKeyData.proto\032\033_TreasureKeyMa" +
       "rkPoint.proto\"?\n\020_TreasureKeyData\022+\n\013_ma" +
-      "rk_point\030\004 \001(\0132\026._TreasureKeyMarkPointB7" +
+      "rk_point\030\007 \001(\0132\026._TreasureKeyMarkPointB7" +
       "\n\031emu.grasscutter.net.protoB\032_TreasureKe" +
       "yDataOuterClassb\006proto3"
     };

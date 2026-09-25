@@ -6,5 +6,5 @@ option java_outer_classname = "SetPlayerPropReqOuterClass";
 import "PropValue.proto";
 
 message SetPlayerPropReq {
-	repeated PropValue prop_list = 11;
+	repeated PropValue prop_list = 15;
 }

@@ -5,5 +5,5 @@ option java_outer_classname = "AvatarFetterLevelRewardReqOuterClass";
 
 message AvatarFetterLevelRewardReq {
 	uint32 fetter_level = 3;
-	uint64 avatar_guid = 13;
+	uint64 avatar_guid = 15;
 }

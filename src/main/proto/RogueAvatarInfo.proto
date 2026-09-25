@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "RogueAvatarInfoOuterClass";
 
 message RogueAvatarInfo {
-	uint32 avatar_id = 1;
-	bool is_onstage = 9;
-	bool is_alive = 12;
+	uint32 avatar_id = 6;
+	bool is_onstage = 11;
+	bool is_alive = 1;
 }

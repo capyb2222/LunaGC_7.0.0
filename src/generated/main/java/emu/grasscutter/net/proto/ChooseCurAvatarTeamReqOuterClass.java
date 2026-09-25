@@ -19,7 +19,7 @@ public final class ChooseCurAvatarTeamReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 team_id = 3;</code>
+     * <code>uint32 team_id = 6;</code>
      * @return The teamId.
      */
     int getTeamId();
@@ -69,7 +69,7 @@ public final class ChooseCurAvatarTeamReqOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 48: {
 
               teamId_ = input.readUInt32();
               break;
@@ -106,10 +106,10 @@ public final class ChooseCurAvatarTeamReqOuterClass {
               emu.grasscutter.net.proto.ChooseCurAvatarTeamReqOuterClass.ChooseCurAvatarTeamReq.class, emu.grasscutter.net.proto.ChooseCurAvatarTeamReqOuterClass.ChooseCurAvatarTeamReq.Builder.class);
     }
 
-    public static final int TEAM_ID_FIELD_NUMBER = 3;
+    public static final int TEAM_ID_FIELD_NUMBER = 6;
     private int teamId_;
     /**
-     * <code>uint32 team_id = 3;</code>
+     * <code>uint32 team_id = 6;</code>
      * @return The teamId.
      */
     @java.lang.Override
@@ -132,7 +132,7 @@ public final class ChooseCurAvatarTeamReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (teamId_ != 0) {
-        output.writeUInt32(3, teamId_);
+        output.writeUInt32(6, teamId_);
       }
       unknownFields.writeTo(output);
     }
@@ -145,7 +145,7 @@ public final class ChooseCurAvatarTeamReqOuterClass {
       size = 0;
       if (teamId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, teamId_);
+          .computeUInt32Size(6, teamId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -421,7 +421,7 @@ public final class ChooseCurAvatarTeamReqOuterClass {
 
       private int teamId_ ;
       /**
-       * <code>uint32 team_id = 3;</code>
+       * <code>uint32 team_id = 6;</code>
        * @return The teamId.
        */
       @java.lang.Override
@@ -429,7 +429,7 @@ public final class ChooseCurAvatarTeamReqOuterClass {
         return teamId_;
       }
       /**
-       * <code>uint32 team_id = 3;</code>
+       * <code>uint32 team_id = 6;</code>
        * @param value The teamId to set.
        * @return This builder for chaining.
        */
@@ -440,7 +440,7 @@ public final class ChooseCurAvatarTeamReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 team_id = 3;</code>
+       * <code>uint32 team_id = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearTeamId() {
@@ -517,7 +517,7 @@ public final class ChooseCurAvatarTeamReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\034ChooseCurAvatarTeamReq.proto\")\n\026Choose" +
-      "CurAvatarTeamReq\022\017\n\007team_id\030\003 \001(\rB=\n\031emu" +
+      "CurAvatarTeamReq\022\017\n\007team_id\030\006 \001(\rB=\n\031emu" +
       ".grasscutter.net.protoB ChooseCurAvatarT" +
       "eamReqOuterClassb\006proto3"
     };

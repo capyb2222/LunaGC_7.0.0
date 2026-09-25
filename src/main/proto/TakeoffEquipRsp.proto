@@ -6,5 +6,5 @@ option java_outer_classname = "TakeoffEquipRspOuterClass";
 message TakeoffEquipRsp {
 	uint64 avatar_guid = 6;
 	int32 retcode = 9;
-	uint32 slot = 10;
+	uint32 slot = 4;
 }

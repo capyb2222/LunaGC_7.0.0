@@ -7,9 +7,9 @@ import "FurnitureMakeSlot.proto";
 import "ItemParam.proto";
 
 message TakeFurnitureMakeRsp {
-	uint32 make_id = 4;
-	repeated ItemParam JHDDMEHLKII = 6;
+	uint32 make_id = 2;
+	repeated ItemParam JHDDMEHLKII = 50000;
 	int32 retcode = 7;
-	repeated ItemParam NOIOACEJCBF = 10;
-	FurnitureMakeSlot furniture_make_slot = 12;
+	repeated ItemParam NOIOACEJCBF = 50001;
+	FurnitureMakeSlot furniture_make_slot = 5;
 }

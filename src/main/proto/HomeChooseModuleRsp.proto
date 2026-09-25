@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "HomeChooseModuleRspOuterClass";
 
 message HomeChooseModuleRsp {
-	int32 retcode = 4;
-	uint32 module_id = 9;
+	int32 retcode = 15;
+	uint32 module_id = 11;
 }

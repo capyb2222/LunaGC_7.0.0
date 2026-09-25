@@ -9,13 +9,13 @@ import "Uint32Pair.proto";
 
 message OMNMAIIHHDJ {
 	bool FHIOEKBKAJF = 1;
-	uint64 HALOGJLKGLB = 2;
-	repeated FIIHDNCNDHH record_list = 6;
-	uint32 PDDGCIDOLBL = 7;
-	uint32 IKADJGPFNOI = 8;
-	repeated Uint32Pair KEJAEGGMIBJ = 9;
-	repeated Uint32Pair AABFCMMGMKE = 11;
+	uint64 HALOGJLKGLB = 6;
+	repeated FIIHDNCNDHH record_list = 2;
+	uint32 PDDGCIDOLBL = 50000;
+	uint32 IKADJGPFNOI = 50001;
+	repeated Uint32Pair KEJAEGGMIBJ = 5;
+	repeated Uint32Pair AABFCMMGMKE = 50002;
 	bool is_open = 13;
-	uint32 HBCLKADPLED = 14;
-	repeated OLNDJCHOPMC PDNALAKIIKL = 15;
+	uint32 HBCLKADPLED = 15;
+	repeated OLNDJCHOPMC PDNALAKIIKL = 8;
 }

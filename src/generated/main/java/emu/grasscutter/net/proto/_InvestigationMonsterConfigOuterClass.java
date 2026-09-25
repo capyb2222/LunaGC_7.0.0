@@ -19,7 +19,7 @@ public final class _InvestigationMonsterConfigOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 scene_id = 7;</code>
+     * <code>uint32 scene_id = 5;</code>
      * @return The sceneId.
      */
     int getSceneId();
@@ -31,7 +31,7 @@ public final class _InvestigationMonsterConfigOuterClass {
     int getMonsterId();
 
     /**
-     * <code>uint32 group_id = 15;</code>
+     * <code>uint32 group_id = 14;</code>
      * @return The groupId.
      */
     int getGroupId();
@@ -81,7 +81,7 @@ public final class _InvestigationMonsterConfigOuterClass {
             case 0:
               done = true;
               break;
-            case 56: {
+            case 40: {
 
               sceneId_ = input.readUInt32();
               break;
@@ -91,7 +91,7 @@ public final class _InvestigationMonsterConfigOuterClass {
               monsterId_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 112: {
 
               groupId_ = input.readUInt32();
               break;
@@ -128,10 +128,10 @@ public final class _InvestigationMonsterConfigOuterClass {
               emu.grasscutter.net.proto._InvestigationMonsterConfigOuterClass._InvestigationMonsterConfig.class, emu.grasscutter.net.proto._InvestigationMonsterConfigOuterClass._InvestigationMonsterConfig.Builder.class);
     }
 
-    public static final int SCENE_ID_FIELD_NUMBER = 7;
+    public static final int SCENE_ID_FIELD_NUMBER = 5;
     private int sceneId_;
     /**
-     * <code>uint32 scene_id = 7;</code>
+     * <code>uint32 scene_id = 5;</code>
      * @return The sceneId.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class _InvestigationMonsterConfigOuterClass {
       return monsterId_;
     }
 
-    public static final int GROUP_ID_FIELD_NUMBER = 15;
+    public static final int GROUP_ID_FIELD_NUMBER = 14;
     private int groupId_;
     /**
-     * <code>uint32 group_id = 15;</code>
+     * <code>uint32 group_id = 14;</code>
      * @return The groupId.
      */
     @java.lang.Override
@@ -176,13 +176,13 @@ public final class _InvestigationMonsterConfigOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (sceneId_ != 0) {
-        output.writeUInt32(7, sceneId_);
+        output.writeUInt32(5, sceneId_);
       }
       if (monsterId_ != 0) {
         output.writeUInt32(10, monsterId_);
       }
       if (groupId_ != 0) {
-        output.writeUInt32(15, groupId_);
+        output.writeUInt32(14, groupId_);
       }
       unknownFields.writeTo(output);
     }
@@ -195,7 +195,7 @@ public final class _InvestigationMonsterConfigOuterClass {
       size = 0;
       if (sceneId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, sceneId_);
+          .computeUInt32Size(5, sceneId_);
       }
       if (monsterId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -203,7 +203,7 @@ public final class _InvestigationMonsterConfigOuterClass {
       }
       if (groupId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, groupId_);
+          .computeUInt32Size(14, groupId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -499,7 +499,7 @@ public final class _InvestigationMonsterConfigOuterClass {
 
       private int sceneId_ ;
       /**
-       * <code>uint32 scene_id = 7;</code>
+       * <code>uint32 scene_id = 5;</code>
        * @return The sceneId.
        */
       @java.lang.Override
@@ -507,7 +507,7 @@ public final class _InvestigationMonsterConfigOuterClass {
         return sceneId_;
       }
       /**
-       * <code>uint32 scene_id = 7;</code>
+       * <code>uint32 scene_id = 5;</code>
        * @param value The sceneId to set.
        * @return This builder for chaining.
        */
@@ -518,7 +518,7 @@ public final class _InvestigationMonsterConfigOuterClass {
         return this;
       }
       /**
-       * <code>uint32 scene_id = 7;</code>
+       * <code>uint32 scene_id = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearSceneId() {
@@ -561,7 +561,7 @@ public final class _InvestigationMonsterConfigOuterClass {
 
       private int groupId_ ;
       /**
-       * <code>uint32 group_id = 15;</code>
+       * <code>uint32 group_id = 14;</code>
        * @return The groupId.
        */
       @java.lang.Override
@@ -569,7 +569,7 @@ public final class _InvestigationMonsterConfigOuterClass {
         return groupId_;
       }
       /**
-       * <code>uint32 group_id = 15;</code>
+       * <code>uint32 group_id = 14;</code>
        * @param value The groupId to set.
        * @return This builder for chaining.
        */
@@ -580,7 +580,7 @@ public final class _InvestigationMonsterConfigOuterClass {
         return this;
       }
       /**
-       * <code>uint32 group_id = 15;</code>
+       * <code>uint32 group_id = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearGroupId() {
@@ -657,8 +657,8 @@ public final class _InvestigationMonsterConfigOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n!_InvestigationMonsterConfig.proto\"U\n\033_" +
-      "InvestigationMonsterConfig\022\020\n\010scene_id\030\007" +
-      " \001(\r\022\022\n\nmonster_id\030\n \001(\r\022\020\n\010group_id\030\017 \001" +
+      "InvestigationMonsterConfig\022\020\n\010scene_id\030\005" +
+      " \001(\r\022\022\n\nmonster_id\030\n \001(\r\022\020\n\010group_id\030\016 \001" +
       "(\rBB\n\031emu.grasscutter.net.protoB%_Invest" +
       "igationMonsterConfigOuterClassb\006proto3"
     };

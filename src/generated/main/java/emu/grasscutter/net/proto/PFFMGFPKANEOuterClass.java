@@ -19,12 +19,12 @@ public final class PFFMGFPKANEOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>string _xbox_gamertag = 6;</code>
+     * <code>string _xbox_gamertag = 15;</code>
      * @return The xboxGamertag.
      */
     java.lang.String getXboxGamertag();
     /**
-     * <code>string _xbox_gamertag = 6;</code>
+     * <code>string _xbox_gamertag = 15;</code>
      * @return The bytes for xboxGamertag.
      */
     com.google.protobuf.ByteString
@@ -43,7 +43,7 @@ public final class PFFMGFPKANEOuterClass {
         getOnlineIdBytes();
 
     /**
-     * <code>uint32 HLDCINAFEAJ = 10;</code>
+     * <code>uint32 HLDCINAFEAJ = 5;</code>
      * @return The hLDCINAFEAJ.
      */
     int getHLDCINAFEAJ();
@@ -64,25 +64,25 @@ public final class PFFMGFPKANEOuterClass {
     emu.grasscutter.net.proto.ProfilePictureOuterClass.ProfilePictureOrBuilder getProfilePictureOrBuilder();
 
     /**
-     * <code>bool NDJCMBBPOKH = 12;</code>
+     * <code>bool NDJCMBBPOKH = 1;</code>
      * @return The nDJCMBBPOKH.
      */
     boolean getNDJCMBBPOKH();
 
     /**
-     * <code>string nickname = 13;</code>
+     * <code>string nickname = 12;</code>
      * @return The nickname.
      */
     java.lang.String getNickname();
     /**
-     * <code>string nickname = 13;</code>
+     * <code>string nickname = 12;</code>
      * @return The bytes for nickname.
      */
     com.google.protobuf.ByteString
         getNicknameBytes();
 
     /**
-     * <code>uint32 uid = 14;</code>
+     * <code>uint32 uid = 6;</code>
      * @return The uid.
      */
     int getUid();
@@ -135,21 +135,25 @@ public final class PFFMGFPKANEOuterClass {
             case 0:
               done = true;
               break;
-            case 50: {
-              java.lang.String s = input.readStringRequireUtf8();
+            case 8: {
 
-              XboxGamertag_ = s;
+              nDJCMBBPOKH_ = input.readBool();
+              break;
+            }
+            case 40: {
+
+              hLDCINAFEAJ_ = input.readUInt32();
+              break;
+            }
+            case 48: {
+
+              uid_ = input.readUInt32();
               break;
             }
             case 74: {
               java.lang.String s = input.readStringRequireUtf8();
 
               onlineId_ = s;
-              break;
-            }
-            case 80: {
-
-              hLDCINAFEAJ_ = input.readUInt32();
               break;
             }
             case 90: {
@@ -165,20 +169,16 @@ public final class PFFMGFPKANEOuterClass {
 
               break;
             }
-            case 96: {
-
-              nDJCMBBPOKH_ = input.readBool();
-              break;
-            }
-            case 106: {
+            case 98: {
               java.lang.String s = input.readStringRequireUtf8();
 
               nickname_ = s;
               break;
             }
-            case 112: {
+            case 122: {
+              java.lang.String s = input.readStringRequireUtf8();
 
-              uid_ = input.readUInt32();
+              XboxGamertag_ = s;
               break;
             }
             default: {
@@ -213,10 +213,10 @@ public final class PFFMGFPKANEOuterClass {
               emu.grasscutter.net.proto.PFFMGFPKANEOuterClass.PFFMGFPKANE.class, emu.grasscutter.net.proto.PFFMGFPKANEOuterClass.PFFMGFPKANE.Builder.class);
     }
 
-    public static final int _XBOX_GAMERTAG_FIELD_NUMBER = 6;
+    public static final int _XBOX_GAMERTAG_FIELD_NUMBER = 15;
     private volatile java.lang.Object XboxGamertag_;
     /**
-     * <code>string _xbox_gamertag = 6;</code>
+     * <code>string _xbox_gamertag = 15;</code>
      * @return The xboxGamertag.
      */
     @java.lang.Override
@@ -233,7 +233,7 @@ public final class PFFMGFPKANEOuterClass {
       }
     }
     /**
-     * <code>string _xbox_gamertag = 6;</code>
+     * <code>string _xbox_gamertag = 15;</code>
      * @return The bytes for xboxGamertag.
      */
     @java.lang.Override
@@ -289,10 +289,10 @@ public final class PFFMGFPKANEOuterClass {
       }
     }
 
-    public static final int HLDCINAFEAJ_FIELD_NUMBER = 10;
+    public static final int HLDCINAFEAJ_FIELD_NUMBER = 5;
     private int hLDCINAFEAJ_;
     /**
-     * <code>uint32 HLDCINAFEAJ = 10;</code>
+     * <code>uint32 HLDCINAFEAJ = 5;</code>
      * @return The hLDCINAFEAJ.
      */
     @java.lang.Override
@@ -326,10 +326,10 @@ public final class PFFMGFPKANEOuterClass {
       return getProfilePicture();
     }
 
-    public static final int NDJCMBBPOKH_FIELD_NUMBER = 12;
+    public static final int NDJCMBBPOKH_FIELD_NUMBER = 1;
     private boolean nDJCMBBPOKH_;
     /**
-     * <code>bool NDJCMBBPOKH = 12;</code>
+     * <code>bool NDJCMBBPOKH = 1;</code>
      * @return The nDJCMBBPOKH.
      */
     @java.lang.Override
@@ -337,10 +337,10 @@ public final class PFFMGFPKANEOuterClass {
       return nDJCMBBPOKH_;
     }
 
-    public static final int NICKNAME_FIELD_NUMBER = 13;
+    public static final int NICKNAME_FIELD_NUMBER = 12;
     private volatile java.lang.Object nickname_;
     /**
-     * <code>string nickname = 13;</code>
+     * <code>string nickname = 12;</code>
      * @return The nickname.
      */
     @java.lang.Override
@@ -357,7 +357,7 @@ public final class PFFMGFPKANEOuterClass {
       }
     }
     /**
-     * <code>string nickname = 13;</code>
+     * <code>string nickname = 12;</code>
      * @return The bytes for nickname.
      */
     @java.lang.Override
@@ -375,10 +375,10 @@ public final class PFFMGFPKANEOuterClass {
       }
     }
 
-    public static final int UID_FIELD_NUMBER = 14;
+    public static final int UID_FIELD_NUMBER = 6;
     private int uid_;
     /**
-     * <code>uint32 uid = 14;</code>
+     * <code>uint32 uid = 6;</code>
      * @return The uid.
      */
     @java.lang.Override
@@ -400,26 +400,26 @@ public final class PFFMGFPKANEOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(XboxGamertag_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 6, XboxGamertag_);
+      if (nDJCMBBPOKH_ != false) {
+        output.writeBool(1, nDJCMBBPOKH_);
+      }
+      if (hLDCINAFEAJ_ != 0) {
+        output.writeUInt32(5, hLDCINAFEAJ_);
+      }
+      if (uid_ != 0) {
+        output.writeUInt32(6, uid_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(onlineId_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 9, onlineId_);
       }
-      if (hLDCINAFEAJ_ != 0) {
-        output.writeUInt32(10, hLDCINAFEAJ_);
-      }
       if (profilePicture_ != null) {
         output.writeMessage(11, getProfilePicture());
       }
-      if (nDJCMBBPOKH_ != false) {
-        output.writeBool(12, nDJCMBBPOKH_);
-      }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(nickname_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 13, nickname_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 12, nickname_);
       }
-      if (uid_ != 0) {
-        output.writeUInt32(14, uid_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(XboxGamertag_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 15, XboxGamertag_);
       }
       unknownFields.writeTo(output);
     }
@@ -430,30 +430,30 @@ public final class PFFMGFPKANEOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(XboxGamertag_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(6, XboxGamertag_);
-      }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(onlineId_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(9, onlineId_);
+      if (nDJCMBBPOKH_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1, nDJCMBBPOKH_);
       }
       if (hLDCINAFEAJ_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, hLDCINAFEAJ_);
+          .computeUInt32Size(5, hLDCINAFEAJ_);
+      }
+      if (uid_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(6, uid_);
+      }
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(onlineId_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(9, onlineId_);
       }
       if (profilePicture_ != null) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(11, getProfilePicture());
       }
-      if (nDJCMBBPOKH_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, nDJCMBBPOKH_);
-      }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(nickname_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(13, nickname_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(12, nickname_);
       }
-      if (uid_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, uid_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(XboxGamertag_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(15, XboxGamertag_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -806,7 +806,7 @@ public final class PFFMGFPKANEOuterClass {
 
       private java.lang.Object XboxGamertag_ = "";
       /**
-       * <code>string _xbox_gamertag = 6;</code>
+       * <code>string _xbox_gamertag = 15;</code>
        * @return The xboxGamertag.
        */
       public java.lang.String getXboxGamertag() {
@@ -822,7 +822,7 @@ public final class PFFMGFPKANEOuterClass {
         }
       }
       /**
-       * <code>string _xbox_gamertag = 6;</code>
+       * <code>string _xbox_gamertag = 15;</code>
        * @return The bytes for xboxGamertag.
        */
       public com.google.protobuf.ByteString
@@ -839,7 +839,7 @@ public final class PFFMGFPKANEOuterClass {
         }
       }
       /**
-       * <code>string _xbox_gamertag = 6;</code>
+       * <code>string _xbox_gamertag = 15;</code>
        * @param value The xboxGamertag to set.
        * @return This builder for chaining.
        */
@@ -854,7 +854,7 @@ public final class PFFMGFPKANEOuterClass {
         return this;
       }
       /**
-       * <code>string _xbox_gamertag = 6;</code>
+       * <code>string _xbox_gamertag = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearXboxGamertag() {
@@ -864,7 +864,7 @@ public final class PFFMGFPKANEOuterClass {
         return this;
       }
       /**
-       * <code>string _xbox_gamertag = 6;</code>
+       * <code>string _xbox_gamertag = 15;</code>
        * @param value The bytes for xboxGamertag to set.
        * @return This builder for chaining.
        */
@@ -958,7 +958,7 @@ public final class PFFMGFPKANEOuterClass {
 
       private int hLDCINAFEAJ_ ;
       /**
-       * <code>uint32 HLDCINAFEAJ = 10;</code>
+       * <code>uint32 HLDCINAFEAJ = 5;</code>
        * @return The hLDCINAFEAJ.
        */
       @java.lang.Override
@@ -966,7 +966,7 @@ public final class PFFMGFPKANEOuterClass {
         return hLDCINAFEAJ_;
       }
       /**
-       * <code>uint32 HLDCINAFEAJ = 10;</code>
+       * <code>uint32 HLDCINAFEAJ = 5;</code>
        * @param value The hLDCINAFEAJ to set.
        * @return This builder for chaining.
        */
@@ -977,7 +977,7 @@ public final class PFFMGFPKANEOuterClass {
         return this;
       }
       /**
-       * <code>uint32 HLDCINAFEAJ = 10;</code>
+       * <code>uint32 HLDCINAFEAJ = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearHLDCINAFEAJ() {
@@ -1108,7 +1108,7 @@ public final class PFFMGFPKANEOuterClass {
 
       private boolean nDJCMBBPOKH_ ;
       /**
-       * <code>bool NDJCMBBPOKH = 12;</code>
+       * <code>bool NDJCMBBPOKH = 1;</code>
        * @return The nDJCMBBPOKH.
        */
       @java.lang.Override
@@ -1116,7 +1116,7 @@ public final class PFFMGFPKANEOuterClass {
         return nDJCMBBPOKH_;
       }
       /**
-       * <code>bool NDJCMBBPOKH = 12;</code>
+       * <code>bool NDJCMBBPOKH = 1;</code>
        * @param value The nDJCMBBPOKH to set.
        * @return This builder for chaining.
        */
@@ -1127,7 +1127,7 @@ public final class PFFMGFPKANEOuterClass {
         return this;
       }
       /**
-       * <code>bool NDJCMBBPOKH = 12;</code>
+       * <code>bool NDJCMBBPOKH = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearNDJCMBBPOKH() {
@@ -1139,7 +1139,7 @@ public final class PFFMGFPKANEOuterClass {
 
       private java.lang.Object nickname_ = "";
       /**
-       * <code>string nickname = 13;</code>
+       * <code>string nickname = 12;</code>
        * @return The nickname.
        */
       public java.lang.String getNickname() {
@@ -1155,7 +1155,7 @@ public final class PFFMGFPKANEOuterClass {
         }
       }
       /**
-       * <code>string nickname = 13;</code>
+       * <code>string nickname = 12;</code>
        * @return The bytes for nickname.
        */
       public com.google.protobuf.ByteString
@@ -1172,7 +1172,7 @@ public final class PFFMGFPKANEOuterClass {
         }
       }
       /**
-       * <code>string nickname = 13;</code>
+       * <code>string nickname = 12;</code>
        * @param value The nickname to set.
        * @return This builder for chaining.
        */
@@ -1187,7 +1187,7 @@ public final class PFFMGFPKANEOuterClass {
         return this;
       }
       /**
-       * <code>string nickname = 13;</code>
+       * <code>string nickname = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearNickname() {
@@ -1197,7 +1197,7 @@ public final class PFFMGFPKANEOuterClass {
         return this;
       }
       /**
-       * <code>string nickname = 13;</code>
+       * <code>string nickname = 12;</code>
        * @param value The bytes for nickname to set.
        * @return This builder for chaining.
        */
@@ -1215,7 +1215,7 @@ public final class PFFMGFPKANEOuterClass {
 
       private int uid_ ;
       /**
-       * <code>uint32 uid = 14;</code>
+       * <code>uint32 uid = 6;</code>
        * @return The uid.
        */
       @java.lang.Override
@@ -1223,7 +1223,7 @@ public final class PFFMGFPKANEOuterClass {
         return uid_;
       }
       /**
-       * <code>uint32 uid = 14;</code>
+       * <code>uint32 uid = 6;</code>
        * @param value The uid to set.
        * @return This builder for chaining.
        */
@@ -1234,7 +1234,7 @@ public final class PFFMGFPKANEOuterClass {
         return this;
       }
       /**
-       * <code>uint32 uid = 14;</code>
+       * <code>uint32 uid = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearUid() {
@@ -1311,11 +1311,11 @@ public final class PFFMGFPKANEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021PFFMGFPKANE.proto\032\024ProfilePicture.prot" +
-      "o\"\253\001\n\013PFFMGFPKANE\022\026\n\016_xbox_gamertag\030\006 \001(" +
-      "\t\022\021\n\tonline_id\030\t \001(\t\022\023\n\013HLDCINAFEAJ\030\n \001(" +
+      "o\"\253\001\n\013PFFMGFPKANE\022\026\n\016_xbox_gamertag\030\017 \001(" +
+      "\t\022\021\n\tonline_id\030\t \001(\t\022\023\n\013HLDCINAFEAJ\030\005 \001(" +
       "\r\022(\n\017profile_picture\030\013 \001(\0132\017.ProfilePict" +
-      "ure\022\023\n\013NDJCMBBPOKH\030\014 \001(\010\022\020\n\010nickname\030\r \001" +
-      "(\t\022\013\n\003uid\030\016 \001(\rB2\n\031emu.grasscutter.net.p" +
+      "ure\022\023\n\013NDJCMBBPOKH\030\001 \001(\010\022\020\n\010nickname\030\014 \001" +
+      "(\t\022\013\n\003uid\030\006 \001(\rB2\n\031emu.grasscutter.net.p" +
       "rotoB\025PFFMGFPKANEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

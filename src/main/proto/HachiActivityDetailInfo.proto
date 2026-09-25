@@ -6,5 +6,5 @@ option java_outer_classname = "HachiActivityDetailInfoOuterClass";
 import "HachiStageInfo.proto";
 
 message HachiActivityDetailInfo {
-	map<uint32, HachiStageInfo> stage_map = 13;
+	map<uint32, HachiStageInfo> stage_map = 14;
 }

@@ -4,5 +4,5 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "PlayerSetPauseReqOuterClass";
 
 message PlayerSetPauseReq {
-	bool is_paused = 3;
+	bool is_paused = 11;
 }

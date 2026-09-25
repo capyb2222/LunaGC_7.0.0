@@ -19,45 +19,45 @@ public final class CGGCKMNCAKOOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 LIGGJOPGIHJ = 7;</code>
+     * <code>uint32 LIGGJOPGIHJ = 10;</code>
      * @return The lIGGJOPGIHJ.
      */
     int getLIGGJOPGIHJ();
 
     /**
-     * <code>.DACMDDCLPNH KOCIGEHDEPP = 8;</code>
+     * <code>.DACMDDCLPNH KOCIGEHDEPP = 9;</code>
      * @return Whether the kOCIGEHDEPP field is set.
      */
     boolean hasKOCIGEHDEPP();
     /**
-     * <code>.DACMDDCLPNH KOCIGEHDEPP = 8;</code>
+     * <code>.DACMDDCLPNH KOCIGEHDEPP = 9;</code>
      * @return The kOCIGEHDEPP.
      */
     emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNH getKOCIGEHDEPP();
     /**
-     * <code>.DACMDDCLPNH KOCIGEHDEPP = 8;</code>
+     * <code>.DACMDDCLPNH KOCIGEHDEPP = 9;</code>
      */
     emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNHOrBuilder getKOCIGEHDEPPOrBuilder();
 
     /**
-     * <code>uint32 max_level = 9;</code>
+     * <code>uint32 max_level = 3;</code>
      * @return The maxLevel.
      */
     int getMaxLevel();
 
     /**
-     * <code>uint32 level = 13;</code>
+     * <code>uint32 level = 12;</code>
      * @return The level.
      */
     int getLevel();
 
     /**
-     * <code>.PHMCFKLKEDO state = 14;</code>
+     * <code>.PHMCFKLKEDO state = 7;</code>
      * @return The enum numeric value on the wire for state.
      */
     int getStateValue();
     /**
-     * <code>.PHMCFKLKEDO state = 14;</code>
+     * <code>.PHMCFKLKEDO state = 7;</code>
      * @return The state.
      */
     emu.grasscutter.net.proto.PHMCFKLKEDOOuterClass.PHMCFKLKEDO getState();
@@ -108,12 +108,18 @@ public final class CGGCKMNCAKOOuterClass {
             case 0:
               done = true;
               break;
-            case 56: {
+            case 24: {
 
-              lIGGJOPGIHJ_ = input.readUInt32();
+              maxLevel_ = input.readUInt32();
               break;
             }
-            case 66: {
+            case 56: {
+              int rawValue = input.readEnum();
+
+              state_ = rawValue;
+              break;
+            }
+            case 74: {
               emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNH.Builder subBuilder = null;
               if (kOCIGEHDEPP_ != null) {
                 subBuilder = kOCIGEHDEPP_.toBuilder();
@@ -126,20 +132,14 @@ public final class CGGCKMNCAKOOuterClass {
 
               break;
             }
-            case 72: {
+            case 80: {
 
-              maxLevel_ = input.readUInt32();
+              lIGGJOPGIHJ_ = input.readUInt32();
               break;
             }
-            case 104: {
+            case 96: {
 
               level_ = input.readUInt32();
-              break;
-            }
-            case 112: {
-              int rawValue = input.readEnum();
-
-              state_ = rawValue;
               break;
             }
             default: {
@@ -174,10 +174,10 @@ public final class CGGCKMNCAKOOuterClass {
               emu.grasscutter.net.proto.CGGCKMNCAKOOuterClass.CGGCKMNCAKO.class, emu.grasscutter.net.proto.CGGCKMNCAKOOuterClass.CGGCKMNCAKO.Builder.class);
     }
 
-    public static final int LIGGJOPGIHJ_FIELD_NUMBER = 7;
+    public static final int LIGGJOPGIHJ_FIELD_NUMBER = 10;
     private int lIGGJOPGIHJ_;
     /**
-     * <code>uint32 LIGGJOPGIHJ = 7;</code>
+     * <code>uint32 LIGGJOPGIHJ = 10;</code>
      * @return The lIGGJOPGIHJ.
      */
     @java.lang.Override
@@ -185,10 +185,10 @@ public final class CGGCKMNCAKOOuterClass {
       return lIGGJOPGIHJ_;
     }
 
-    public static final int KOCIGEHDEPP_FIELD_NUMBER = 8;
+    public static final int KOCIGEHDEPP_FIELD_NUMBER = 9;
     private emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNH kOCIGEHDEPP_;
     /**
-     * <code>.DACMDDCLPNH KOCIGEHDEPP = 8;</code>
+     * <code>.DACMDDCLPNH KOCIGEHDEPP = 9;</code>
      * @return Whether the kOCIGEHDEPP field is set.
      */
     @java.lang.Override
@@ -196,7 +196,7 @@ public final class CGGCKMNCAKOOuterClass {
       return kOCIGEHDEPP_ != null;
     }
     /**
-     * <code>.DACMDDCLPNH KOCIGEHDEPP = 8;</code>
+     * <code>.DACMDDCLPNH KOCIGEHDEPP = 9;</code>
      * @return The kOCIGEHDEPP.
      */
     @java.lang.Override
@@ -204,17 +204,17 @@ public final class CGGCKMNCAKOOuterClass {
       return kOCIGEHDEPP_ == null ? emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNH.getDefaultInstance() : kOCIGEHDEPP_;
     }
     /**
-     * <code>.DACMDDCLPNH KOCIGEHDEPP = 8;</code>
+     * <code>.DACMDDCLPNH KOCIGEHDEPP = 9;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNHOrBuilder getKOCIGEHDEPPOrBuilder() {
       return getKOCIGEHDEPP();
     }
 
-    public static final int MAX_LEVEL_FIELD_NUMBER = 9;
+    public static final int MAX_LEVEL_FIELD_NUMBER = 3;
     private int maxLevel_;
     /**
-     * <code>uint32 max_level = 9;</code>
+     * <code>uint32 max_level = 3;</code>
      * @return The maxLevel.
      */
     @java.lang.Override
@@ -222,10 +222,10 @@ public final class CGGCKMNCAKOOuterClass {
       return maxLevel_;
     }
 
-    public static final int LEVEL_FIELD_NUMBER = 13;
+    public static final int LEVEL_FIELD_NUMBER = 12;
     private int level_;
     /**
-     * <code>uint32 level = 13;</code>
+     * <code>uint32 level = 12;</code>
      * @return The level.
      */
     @java.lang.Override
@@ -233,17 +233,17 @@ public final class CGGCKMNCAKOOuterClass {
       return level_;
     }
 
-    public static final int STATE_FIELD_NUMBER = 14;
+    public static final int STATE_FIELD_NUMBER = 7;
     private int state_;
     /**
-     * <code>.PHMCFKLKEDO state = 14;</code>
+     * <code>.PHMCFKLKEDO state = 7;</code>
      * @return The enum numeric value on the wire for state.
      */
     @java.lang.Override public int getStateValue() {
       return state_;
     }
     /**
-     * <code>.PHMCFKLKEDO state = 14;</code>
+     * <code>.PHMCFKLKEDO state = 7;</code>
      * @return The state.
      */
     @java.lang.Override public emu.grasscutter.net.proto.PHMCFKLKEDOOuterClass.PHMCFKLKEDO getState() {
@@ -266,20 +266,20 @@ public final class CGGCKMNCAKOOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (lIGGJOPGIHJ_ != 0) {
-        output.writeUInt32(7, lIGGJOPGIHJ_);
-      }
-      if (kOCIGEHDEPP_ != null) {
-        output.writeMessage(8, getKOCIGEHDEPP());
-      }
       if (maxLevel_ != 0) {
-        output.writeUInt32(9, maxLevel_);
-      }
-      if (level_ != 0) {
-        output.writeUInt32(13, level_);
+        output.writeUInt32(3, maxLevel_);
       }
       if (state_ != emu.grasscutter.net.proto.PHMCFKLKEDOOuterClass.PHMCFKLKEDO.PHMCFKLKEDO_THEME_PARK_SIM_EMPLOYEE_STATE_NONE.getNumber()) {
-        output.writeEnum(14, state_);
+        output.writeEnum(7, state_);
+      }
+      if (kOCIGEHDEPP_ != null) {
+        output.writeMessage(9, getKOCIGEHDEPP());
+      }
+      if (lIGGJOPGIHJ_ != 0) {
+        output.writeUInt32(10, lIGGJOPGIHJ_);
+      }
+      if (level_ != 0) {
+        output.writeUInt32(12, level_);
       }
       unknownFields.writeTo(output);
     }
@@ -290,25 +290,25 @@ public final class CGGCKMNCAKOOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (lIGGJOPGIHJ_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, lIGGJOPGIHJ_);
-      }
-      if (kOCIGEHDEPP_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, getKOCIGEHDEPP());
-      }
       if (maxLevel_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, maxLevel_);
-      }
-      if (level_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, level_);
+          .computeUInt32Size(3, maxLevel_);
       }
       if (state_ != emu.grasscutter.net.proto.PHMCFKLKEDOOuterClass.PHMCFKLKEDO.PHMCFKLKEDO_THEME_PARK_SIM_EMPLOYEE_STATE_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(14, state_);
+          .computeEnumSize(7, state_);
+      }
+      if (kOCIGEHDEPP_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(9, getKOCIGEHDEPP());
+      }
+      if (lIGGJOPGIHJ_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(10, lIGGJOPGIHJ_);
+      }
+      if (level_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(12, level_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -636,7 +636,7 @@ public final class CGGCKMNCAKOOuterClass {
 
       private int lIGGJOPGIHJ_ ;
       /**
-       * <code>uint32 LIGGJOPGIHJ = 7;</code>
+       * <code>uint32 LIGGJOPGIHJ = 10;</code>
        * @return The lIGGJOPGIHJ.
        */
       @java.lang.Override
@@ -644,7 +644,7 @@ public final class CGGCKMNCAKOOuterClass {
         return lIGGJOPGIHJ_;
       }
       /**
-       * <code>uint32 LIGGJOPGIHJ = 7;</code>
+       * <code>uint32 LIGGJOPGIHJ = 10;</code>
        * @param value The lIGGJOPGIHJ to set.
        * @return This builder for chaining.
        */
@@ -655,7 +655,7 @@ public final class CGGCKMNCAKOOuterClass {
         return this;
       }
       /**
-       * <code>uint32 LIGGJOPGIHJ = 7;</code>
+       * <code>uint32 LIGGJOPGIHJ = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearLIGGJOPGIHJ() {
@@ -669,14 +669,14 @@ public final class CGGCKMNCAKOOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNH, emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNH.Builder, emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNHOrBuilder> kOCIGEHDEPPBuilder_;
       /**
-       * <code>.DACMDDCLPNH KOCIGEHDEPP = 8;</code>
+       * <code>.DACMDDCLPNH KOCIGEHDEPP = 9;</code>
        * @return Whether the kOCIGEHDEPP field is set.
        */
       public boolean hasKOCIGEHDEPP() {
         return kOCIGEHDEPPBuilder_ != null || kOCIGEHDEPP_ != null;
       }
       /**
-       * <code>.DACMDDCLPNH KOCIGEHDEPP = 8;</code>
+       * <code>.DACMDDCLPNH KOCIGEHDEPP = 9;</code>
        * @return The kOCIGEHDEPP.
        */
       public emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNH getKOCIGEHDEPP() {
@@ -687,7 +687,7 @@ public final class CGGCKMNCAKOOuterClass {
         }
       }
       /**
-       * <code>.DACMDDCLPNH KOCIGEHDEPP = 8;</code>
+       * <code>.DACMDDCLPNH KOCIGEHDEPP = 9;</code>
        */
       public Builder setKOCIGEHDEPP(emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNH value) {
         if (kOCIGEHDEPPBuilder_ == null) {
@@ -703,7 +703,7 @@ public final class CGGCKMNCAKOOuterClass {
         return this;
       }
       /**
-       * <code>.DACMDDCLPNH KOCIGEHDEPP = 8;</code>
+       * <code>.DACMDDCLPNH KOCIGEHDEPP = 9;</code>
        */
       public Builder setKOCIGEHDEPP(
           emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNH.Builder builderForValue) {
@@ -717,7 +717,7 @@ public final class CGGCKMNCAKOOuterClass {
         return this;
       }
       /**
-       * <code>.DACMDDCLPNH KOCIGEHDEPP = 8;</code>
+       * <code>.DACMDDCLPNH KOCIGEHDEPP = 9;</code>
        */
       public Builder mergeKOCIGEHDEPP(emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNH value) {
         if (kOCIGEHDEPPBuilder_ == null) {
@@ -735,7 +735,7 @@ public final class CGGCKMNCAKOOuterClass {
         return this;
       }
       /**
-       * <code>.DACMDDCLPNH KOCIGEHDEPP = 8;</code>
+       * <code>.DACMDDCLPNH KOCIGEHDEPP = 9;</code>
        */
       public Builder clearKOCIGEHDEPP() {
         if (kOCIGEHDEPPBuilder_ == null) {
@@ -749,7 +749,7 @@ public final class CGGCKMNCAKOOuterClass {
         return this;
       }
       /**
-       * <code>.DACMDDCLPNH KOCIGEHDEPP = 8;</code>
+       * <code>.DACMDDCLPNH KOCIGEHDEPP = 9;</code>
        */
       public emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNH.Builder getKOCIGEHDEPPBuilder() {
         
@@ -757,7 +757,7 @@ public final class CGGCKMNCAKOOuterClass {
         return getKOCIGEHDEPPFieldBuilder().getBuilder();
       }
       /**
-       * <code>.DACMDDCLPNH KOCIGEHDEPP = 8;</code>
+       * <code>.DACMDDCLPNH KOCIGEHDEPP = 9;</code>
        */
       public emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNHOrBuilder getKOCIGEHDEPPOrBuilder() {
         if (kOCIGEHDEPPBuilder_ != null) {
@@ -768,7 +768,7 @@ public final class CGGCKMNCAKOOuterClass {
         }
       }
       /**
-       * <code>.DACMDDCLPNH KOCIGEHDEPP = 8;</code>
+       * <code>.DACMDDCLPNH KOCIGEHDEPP = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNH, emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNH.Builder, emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNHOrBuilder> 
@@ -786,7 +786,7 @@ public final class CGGCKMNCAKOOuterClass {
 
       private int maxLevel_ ;
       /**
-       * <code>uint32 max_level = 9;</code>
+       * <code>uint32 max_level = 3;</code>
        * @return The maxLevel.
        */
       @java.lang.Override
@@ -794,7 +794,7 @@ public final class CGGCKMNCAKOOuterClass {
         return maxLevel_;
       }
       /**
-       * <code>uint32 max_level = 9;</code>
+       * <code>uint32 max_level = 3;</code>
        * @param value The maxLevel to set.
        * @return This builder for chaining.
        */
@@ -805,7 +805,7 @@ public final class CGGCKMNCAKOOuterClass {
         return this;
       }
       /**
-       * <code>uint32 max_level = 9;</code>
+       * <code>uint32 max_level = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearMaxLevel() {
@@ -817,7 +817,7 @@ public final class CGGCKMNCAKOOuterClass {
 
       private int level_ ;
       /**
-       * <code>uint32 level = 13;</code>
+       * <code>uint32 level = 12;</code>
        * @return The level.
        */
       @java.lang.Override
@@ -825,7 +825,7 @@ public final class CGGCKMNCAKOOuterClass {
         return level_;
       }
       /**
-       * <code>uint32 level = 13;</code>
+       * <code>uint32 level = 12;</code>
        * @param value The level to set.
        * @return This builder for chaining.
        */
@@ -836,7 +836,7 @@ public final class CGGCKMNCAKOOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level = 13;</code>
+       * <code>uint32 level = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevel() {
@@ -848,14 +848,14 @@ public final class CGGCKMNCAKOOuterClass {
 
       private int state_ = 0;
       /**
-       * <code>.PHMCFKLKEDO state = 14;</code>
+       * <code>.PHMCFKLKEDO state = 7;</code>
        * @return The enum numeric value on the wire for state.
        */
       @java.lang.Override public int getStateValue() {
         return state_;
       }
       /**
-       * <code>.PHMCFKLKEDO state = 14;</code>
+       * <code>.PHMCFKLKEDO state = 7;</code>
        * @param value The enum numeric value on the wire for state to set.
        * @return This builder for chaining.
        */
@@ -866,7 +866,7 @@ public final class CGGCKMNCAKOOuterClass {
         return this;
       }
       /**
-       * <code>.PHMCFKLKEDO state = 14;</code>
+       * <code>.PHMCFKLKEDO state = 7;</code>
        * @return The state.
        */
       @java.lang.Override
@@ -876,7 +876,7 @@ public final class CGGCKMNCAKOOuterClass {
         return result == null ? emu.grasscutter.net.proto.PHMCFKLKEDOOuterClass.PHMCFKLKEDO.UNRECOGNIZED : result;
       }
       /**
-       * <code>.PHMCFKLKEDO state = 14;</code>
+       * <code>.PHMCFKLKEDO state = 7;</code>
        * @param value The state to set.
        * @return This builder for chaining.
        */
@@ -890,7 +890,7 @@ public final class CGGCKMNCAKOOuterClass {
         return this;
       }
       /**
-       * <code>.PHMCFKLKEDO state = 14;</code>
+       * <code>.PHMCFKLKEDO state = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearState() {
@@ -968,9 +968,9 @@ public final class CGGCKMNCAKOOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CGGCKMNCAKO.proto\032\021DACMDDCLPNH.proto\032\021" +
       "PHMCFKLKEDO.proto\"\204\001\n\013CGGCKMNCAKO\022\023\n\013LIG" +
-      "GJOPGIHJ\030\007 \001(\r\022!\n\013KOCIGEHDEPP\030\010 \001(\0132\014.DA" +
-      "CMDDCLPNH\022\021\n\tmax_level\030\t \001(\r\022\r\n\005level\030\r " +
-      "\001(\r\022\033\n\005state\030\016 \001(\0162\014.PHMCFKLKEDOB2\n\031emu." +
+      "GJOPGIHJ\030\n \001(\r\022!\n\013KOCIGEHDEPP\030\t \001(\0132\014.DA" +
+      "CMDDCLPNH\022\021\n\tmax_level\030\003 \001(\r\022\r\n\005level\030\014 " +
+      "\001(\r\022\033\n\005state\030\007 \001(\0162\014.PHMCFKLKEDOB2\n\031emu." +
       "grasscutter.net.protoB\025CGGCKMNCAKOOuterC" +
       "lassb\006proto3"
     };

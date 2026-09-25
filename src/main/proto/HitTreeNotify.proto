@@ -6,7 +6,7 @@ option java_outer_classname = "HitTreeNotifyOuterClass";
 import "Vector.proto";
 
 message HitTreeNotify {
-	uint32 tree_type = 1;
-	Vector tree_pos = 2;
-	Vector drop_pos = 12;
+	uint32 tree_type = 5;
+	Vector tree_pos = 50000;
+	Vector drop_pos = 50001;
 }

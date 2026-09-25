@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "AddQuestContentProgressRspOuterClass";
 
 message AddQuestContentProgressRsp {
-	uint32 content_type = 7;
-	int32 retcode = 12;
+	uint32 content_type = 15;
+	int32 retcode = 1;
 }

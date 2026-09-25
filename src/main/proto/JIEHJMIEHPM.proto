@@ -4,10 +4,10 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "JIEHJMIEHPMOuterClass";
 
 message JIEHJMIEHPM {
-	bool ODDFFNIOBLN = 1;
-	uint32 level_id = 5;
-	uint32 best_score = 6;
-	bool KLGNBKEEEIE = 7;
-	repeated uint32 BLFDFGAGOIG = 11;
-	repeated uint32 OJIDBAFJECO = 13;
+	bool ODDFFNIOBLN = 50000;
+	uint32 level_id = 9;
+	uint32 best_score = 10;
+	bool KLGNBKEEEIE = 50001;
+	repeated uint32 BLFDFGAGOIG = 50002;
+	repeated uint32 OJIDBAFJECO = 50003;
 }

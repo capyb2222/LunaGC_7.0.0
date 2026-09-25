@@ -19,13 +19,13 @@ public final class BargainOfferPriceReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 price = 10;</code>
+     * <code>uint32 price = 5;</code>
      * @return The price.
      */
     int getPrice();
 
     /**
-     * <code>uint32 bargain_id = 15;</code>
+     * <code>uint32 bargain_id = 11;</code>
      * @return The bargainId.
      */
     int getBargainId();
@@ -75,12 +75,12 @@ public final class BargainOfferPriceReqOuterClass {
             case 0:
               done = true;
               break;
-            case 80: {
+            case 40: {
 
               price_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 88: {
 
               bargainId_ = input.readUInt32();
               break;
@@ -117,10 +117,10 @@ public final class BargainOfferPriceReqOuterClass {
               emu.grasscutter.net.proto.BargainOfferPriceReqOuterClass.BargainOfferPriceReq.class, emu.grasscutter.net.proto.BargainOfferPriceReqOuterClass.BargainOfferPriceReq.Builder.class);
     }
 
-    public static final int PRICE_FIELD_NUMBER = 10;
+    public static final int PRICE_FIELD_NUMBER = 5;
     private int price_;
     /**
-     * <code>uint32 price = 10;</code>
+     * <code>uint32 price = 5;</code>
      * @return The price.
      */
     @java.lang.Override
@@ -128,10 +128,10 @@ public final class BargainOfferPriceReqOuterClass {
       return price_;
     }
 
-    public static final int BARGAIN_ID_FIELD_NUMBER = 15;
+    public static final int BARGAIN_ID_FIELD_NUMBER = 11;
     private int bargainId_;
     /**
-     * <code>uint32 bargain_id = 15;</code>
+     * <code>uint32 bargain_id = 11;</code>
      * @return The bargainId.
      */
     @java.lang.Override
@@ -154,10 +154,10 @@ public final class BargainOfferPriceReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (price_ != 0) {
-        output.writeUInt32(10, price_);
+        output.writeUInt32(5, price_);
       }
       if (bargainId_ != 0) {
-        output.writeUInt32(15, bargainId_);
+        output.writeUInt32(11, bargainId_);
       }
       unknownFields.writeTo(output);
     }
@@ -170,11 +170,11 @@ public final class BargainOfferPriceReqOuterClass {
       size = 0;
       if (price_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, price_);
+          .computeUInt32Size(5, price_);
       }
       if (bargainId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, bargainId_);
+          .computeUInt32Size(11, bargainId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -460,7 +460,7 @@ public final class BargainOfferPriceReqOuterClass {
 
       private int price_ ;
       /**
-       * <code>uint32 price = 10;</code>
+       * <code>uint32 price = 5;</code>
        * @return The price.
        */
       @java.lang.Override
@@ -468,7 +468,7 @@ public final class BargainOfferPriceReqOuterClass {
         return price_;
       }
       /**
-       * <code>uint32 price = 10;</code>
+       * <code>uint32 price = 5;</code>
        * @param value The price to set.
        * @return This builder for chaining.
        */
@@ -479,7 +479,7 @@ public final class BargainOfferPriceReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 price = 10;</code>
+       * <code>uint32 price = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearPrice() {
@@ -491,7 +491,7 @@ public final class BargainOfferPriceReqOuterClass {
 
       private int bargainId_ ;
       /**
-       * <code>uint32 bargain_id = 15;</code>
+       * <code>uint32 bargain_id = 11;</code>
        * @return The bargainId.
        */
       @java.lang.Override
@@ -499,7 +499,7 @@ public final class BargainOfferPriceReqOuterClass {
         return bargainId_;
       }
       /**
-       * <code>uint32 bargain_id = 15;</code>
+       * <code>uint32 bargain_id = 11;</code>
        * @param value The bargainId to set.
        * @return This builder for chaining.
        */
@@ -510,7 +510,7 @@ public final class BargainOfferPriceReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 bargain_id = 15;</code>
+       * <code>uint32 bargain_id = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearBargainId() {
@@ -587,8 +587,8 @@ public final class BargainOfferPriceReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\032BargainOfferPriceReq.proto\"9\n\024BargainO" +
-      "fferPriceReq\022\r\n\005price\030\n \001(\r\022\022\n\nbargain_i" +
-      "d\030\017 \001(\rB;\n\031emu.grasscutter.net.protoB\036Ba" +
+      "fferPriceReq\022\r\n\005price\030\005 \001(\r\022\022\n\nbargain_i" +
+      "d\030\013 \001(\rB;\n\031emu.grasscutter.net.protoB\036Ba" +
       "rgainOfferPriceReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

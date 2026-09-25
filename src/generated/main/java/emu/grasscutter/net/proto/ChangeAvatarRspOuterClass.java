@@ -19,13 +19,13 @@ public final class ChangeAvatarRspOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 skill_id = 1;</code>
+     * <code>uint32 skill_id = 4;</code>
      * @return The skillId.
      */
     int getSkillId();
 
     /**
-     * <code>int32 retcode = 2;</code>
+     * <code>int32 retcode = 14;</code>
      * @return The retcode.
      */
     int getRetcode();
@@ -81,19 +81,19 @@ public final class ChangeAvatarRspOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 32: {
 
               skillId_ = input.readUInt32();
-              break;
-            }
-            case 16: {
-
-              retcode_ = input.readInt32();
               break;
             }
             case 40: {
 
               curGuid_ = input.readUInt64();
+              break;
+            }
+            case 112: {
+
+              retcode_ = input.readInt32();
               break;
             }
             default: {
@@ -128,10 +128,10 @@ public final class ChangeAvatarRspOuterClass {
               emu.grasscutter.net.proto.ChangeAvatarRspOuterClass.ChangeAvatarRsp.class, emu.grasscutter.net.proto.ChangeAvatarRspOuterClass.ChangeAvatarRsp.Builder.class);
     }
 
-    public static final int SKILL_ID_FIELD_NUMBER = 1;
+    public static final int SKILL_ID_FIELD_NUMBER = 4;
     private int skillId_;
     /**
-     * <code>uint32 skill_id = 1;</code>
+     * <code>uint32 skill_id = 4;</code>
      * @return The skillId.
      */
     @java.lang.Override
@@ -139,10 +139,10 @@ public final class ChangeAvatarRspOuterClass {
       return skillId_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 2;
+    public static final int RETCODE_FIELD_NUMBER = 14;
     private int retcode_;
     /**
-     * <code>int32 retcode = 2;</code>
+     * <code>int32 retcode = 14;</code>
      * @return The retcode.
      */
     @java.lang.Override
@@ -176,13 +176,13 @@ public final class ChangeAvatarRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (skillId_ != 0) {
-        output.writeUInt32(1, skillId_);
-      }
-      if (retcode_ != 0) {
-        output.writeInt32(2, retcode_);
+        output.writeUInt32(4, skillId_);
       }
       if (curGuid_ != 0L) {
         output.writeUInt64(5, curGuid_);
+      }
+      if (retcode_ != 0) {
+        output.writeInt32(14, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -195,15 +195,15 @@ public final class ChangeAvatarRspOuterClass {
       size = 0;
       if (skillId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, skillId_);
-      }
-      if (retcode_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(2, retcode_);
+          .computeUInt32Size(4, skillId_);
       }
       if (curGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt64Size(5, curGuid_);
+      }
+      if (retcode_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt32Size(14, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -500,7 +500,7 @@ public final class ChangeAvatarRspOuterClass {
 
       private int skillId_ ;
       /**
-       * <code>uint32 skill_id = 1;</code>
+       * <code>uint32 skill_id = 4;</code>
        * @return The skillId.
        */
       @java.lang.Override
@@ -508,7 +508,7 @@ public final class ChangeAvatarRspOuterClass {
         return skillId_;
       }
       /**
-       * <code>uint32 skill_id = 1;</code>
+       * <code>uint32 skill_id = 4;</code>
        * @param value The skillId to set.
        * @return This builder for chaining.
        */
@@ -519,7 +519,7 @@ public final class ChangeAvatarRspOuterClass {
         return this;
       }
       /**
-       * <code>uint32 skill_id = 1;</code>
+       * <code>uint32 skill_id = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearSkillId() {
@@ -531,7 +531,7 @@ public final class ChangeAvatarRspOuterClass {
 
       private int retcode_ ;
       /**
-       * <code>int32 retcode = 2;</code>
+       * <code>int32 retcode = 14;</code>
        * @return The retcode.
        */
       @java.lang.Override
@@ -539,7 +539,7 @@ public final class ChangeAvatarRspOuterClass {
         return retcode_;
       }
       /**
-       * <code>int32 retcode = 2;</code>
+       * <code>int32 retcode = 14;</code>
        * @param value The retcode to set.
        * @return This builder for chaining.
        */
@@ -550,7 +550,7 @@ public final class ChangeAvatarRspOuterClass {
         return this;
       }
       /**
-       * <code>int32 retcode = 2;</code>
+       * <code>int32 retcode = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
@@ -658,7 +658,7 @@ public final class ChangeAvatarRspOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\025ChangeAvatarRsp.proto\"F\n\017ChangeAvatarR" +
-      "sp\022\020\n\010skill_id\030\001 \001(\r\022\017\n\007retcode\030\002 \001(\005\022\020\n" +
+      "sp\022\020\n\010skill_id\030\004 \001(\r\022\017\n\007retcode\030\016 \001(\005\022\020\n" +
       "\010cur_guid\030\005 \001(\004B6\n\031emu.grasscutter.net.p" +
       "rotoB\031ChangeAvatarRspOuterClassb\006proto3"
     };

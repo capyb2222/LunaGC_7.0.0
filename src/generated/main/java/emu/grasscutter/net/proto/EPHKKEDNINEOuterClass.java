@@ -19,13 +19,13 @@ public final class EPHKKEDNINEOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 _auto_chess_chess_id = 1;</code>
+     * <code>uint32 _auto_chess_chess_id = 4;</code>
      * @return The autoChessChessId.
      */
     int getAutoChessChessId();
 
     /**
-     * <code>uint32 _chess_level_up_id = 7;</code>
+     * <code>uint32 _chess_level_up_id = 10;</code>
      * @return The chessLevelUpId.
      */
     int getChessLevelUpId();
@@ -75,12 +75,12 @@ public final class EPHKKEDNINEOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 32: {
 
               AutoChessChessId_ = input.readUInt32();
               break;
             }
-            case 56: {
+            case 80: {
 
               ChessLevelUpId_ = input.readUInt32();
               break;
@@ -117,10 +117,10 @@ public final class EPHKKEDNINEOuterClass {
               emu.grasscutter.net.proto.EPHKKEDNINEOuterClass.EPHKKEDNINE.class, emu.grasscutter.net.proto.EPHKKEDNINEOuterClass.EPHKKEDNINE.Builder.class);
     }
 
-    public static final int _AUTO_CHESS_CHESS_ID_FIELD_NUMBER = 1;
+    public static final int _AUTO_CHESS_CHESS_ID_FIELD_NUMBER = 4;
     private int AutoChessChessId_;
     /**
-     * <code>uint32 _auto_chess_chess_id = 1;</code>
+     * <code>uint32 _auto_chess_chess_id = 4;</code>
      * @return The autoChessChessId.
      */
     @java.lang.Override
@@ -128,10 +128,10 @@ public final class EPHKKEDNINEOuterClass {
       return AutoChessChessId_;
     }
 
-    public static final int _CHESS_LEVEL_UP_ID_FIELD_NUMBER = 7;
+    public static final int _CHESS_LEVEL_UP_ID_FIELD_NUMBER = 10;
     private int ChessLevelUpId_;
     /**
-     * <code>uint32 _chess_level_up_id = 7;</code>
+     * <code>uint32 _chess_level_up_id = 10;</code>
      * @return The chessLevelUpId.
      */
     @java.lang.Override
@@ -154,10 +154,10 @@ public final class EPHKKEDNINEOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (AutoChessChessId_ != 0) {
-        output.writeUInt32(1, AutoChessChessId_);
+        output.writeUInt32(4, AutoChessChessId_);
       }
       if (ChessLevelUpId_ != 0) {
-        output.writeUInt32(7, ChessLevelUpId_);
+        output.writeUInt32(10, ChessLevelUpId_);
       }
       unknownFields.writeTo(output);
     }
@@ -170,11 +170,11 @@ public final class EPHKKEDNINEOuterClass {
       size = 0;
       if (AutoChessChessId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, AutoChessChessId_);
+          .computeUInt32Size(4, AutoChessChessId_);
       }
       if (ChessLevelUpId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, ChessLevelUpId_);
+          .computeUInt32Size(10, ChessLevelUpId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -460,7 +460,7 @@ public final class EPHKKEDNINEOuterClass {
 
       private int AutoChessChessId_ ;
       /**
-       * <code>uint32 _auto_chess_chess_id = 1;</code>
+       * <code>uint32 _auto_chess_chess_id = 4;</code>
        * @return The autoChessChessId.
        */
       @java.lang.Override
@@ -468,7 +468,7 @@ public final class EPHKKEDNINEOuterClass {
         return AutoChessChessId_;
       }
       /**
-       * <code>uint32 _auto_chess_chess_id = 1;</code>
+       * <code>uint32 _auto_chess_chess_id = 4;</code>
        * @param value The autoChessChessId to set.
        * @return This builder for chaining.
        */
@@ -479,7 +479,7 @@ public final class EPHKKEDNINEOuterClass {
         return this;
       }
       /**
-       * <code>uint32 _auto_chess_chess_id = 1;</code>
+       * <code>uint32 _auto_chess_chess_id = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearAutoChessChessId() {
@@ -491,7 +491,7 @@ public final class EPHKKEDNINEOuterClass {
 
       private int ChessLevelUpId_ ;
       /**
-       * <code>uint32 _chess_level_up_id = 7;</code>
+       * <code>uint32 _chess_level_up_id = 10;</code>
        * @return The chessLevelUpId.
        */
       @java.lang.Override
@@ -499,7 +499,7 @@ public final class EPHKKEDNINEOuterClass {
         return ChessLevelUpId_;
       }
       /**
-       * <code>uint32 _chess_level_up_id = 7;</code>
+       * <code>uint32 _chess_level_up_id = 10;</code>
        * @param value The chessLevelUpId to set.
        * @return This builder for chaining.
        */
@@ -510,7 +510,7 @@ public final class EPHKKEDNINEOuterClass {
         return this;
       }
       /**
-       * <code>uint32 _chess_level_up_id = 7;</code>
+       * <code>uint32 _chess_level_up_id = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearChessLevelUpId() {
@@ -587,8 +587,8 @@ public final class EPHKKEDNINEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021EPHKKEDNINE.proto\"G\n\013EPHKKEDNINE\022\034\n\024_a" +
-      "uto_chess_chess_id\030\001 \001(\r\022\032\n\022_chess_level" +
-      "_up_id\030\007 \001(\rB2\n\031emu.grasscutter.net.prot" +
+      "uto_chess_chess_id\030\004 \001(\r\022\032\n\022_chess_level" +
+      "_up_id\030\n \001(\rB2\n\031emu.grasscutter.net.prot" +
       "oB\025EPHKKEDNINEOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

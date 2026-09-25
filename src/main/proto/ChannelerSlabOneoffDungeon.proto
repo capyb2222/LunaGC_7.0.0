@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "ChannelerSlabOneoffDungeonOuterClass";
 
 message ChannelerSlabOneoffDungeon {
-	uint32 dungeon_id = 9;
-	uint32 reward_id = 11;
-	bool is_done = 15;
+	uint32 dungeon_id = 14;
+	uint32 reward_id = 10;
+	bool is_done = 4;
 }

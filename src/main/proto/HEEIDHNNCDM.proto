@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "HEEIDHNNCDMOuterClass";
 
 message HEEIDHNNCDM {
-	uint32 level_id = 4;
-	uint32 LNBCBJKMHCO = 7;
-	bool is_finished = 8;
+	uint32 level_id = 6;
+	uint32 LNBCBJKMHCO = 8;
+	bool is_finished = 3;
 }

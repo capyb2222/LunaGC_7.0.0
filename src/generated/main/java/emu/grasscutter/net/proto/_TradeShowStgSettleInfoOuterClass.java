@@ -19,19 +19,19 @@ public final class _TradeShowStgSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 level_id = 3;</code>
+     * <code>uint32 level_id = 8;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>bool is_new_record = 13;</code>
+     * <code>bool is_new_record = 11;</code>
      * @return The isNewRecord.
      */
     boolean getIsNewRecord();
 
     /**
-     * <code>uint32 hit_point = 14;</code>
+     * <code>uint32 hit_point = 10;</code>
      * @return The hitPoint.
      */
     int getHitPoint();
@@ -81,19 +81,19 @@ public final class _TradeShowStgSettleInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 64: {
 
               levelId_ = input.readUInt32();
               break;
             }
-            case 104: {
-
-              isNewRecord_ = input.readBool();
-              break;
-            }
-            case 112: {
+            case 80: {
 
               hitPoint_ = input.readUInt32();
+              break;
+            }
+            case 88: {
+
+              isNewRecord_ = input.readBool();
               break;
             }
             default: {
@@ -128,10 +128,10 @@ public final class _TradeShowStgSettleInfoOuterClass {
               emu.grasscutter.net.proto._TradeShowStgSettleInfoOuterClass._TradeShowStgSettleInfo.class, emu.grasscutter.net.proto._TradeShowStgSettleInfoOuterClass._TradeShowStgSettleInfo.Builder.class);
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 3;
+    public static final int LEVEL_ID_FIELD_NUMBER = 8;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 3;</code>
+     * <code>uint32 level_id = 8;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -139,10 +139,10 @@ public final class _TradeShowStgSettleInfoOuterClass {
       return levelId_;
     }
 
-    public static final int IS_NEW_RECORD_FIELD_NUMBER = 13;
+    public static final int IS_NEW_RECORD_FIELD_NUMBER = 11;
     private boolean isNewRecord_;
     /**
-     * <code>bool is_new_record = 13;</code>
+     * <code>bool is_new_record = 11;</code>
      * @return The isNewRecord.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class _TradeShowStgSettleInfoOuterClass {
       return isNewRecord_;
     }
 
-    public static final int HIT_POINT_FIELD_NUMBER = 14;
+    public static final int HIT_POINT_FIELD_NUMBER = 10;
     private int hitPoint_;
     /**
-     * <code>uint32 hit_point = 14;</code>
+     * <code>uint32 hit_point = 10;</code>
      * @return The hitPoint.
      */
     @java.lang.Override
@@ -176,13 +176,13 @@ public final class _TradeShowStgSettleInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (levelId_ != 0) {
-        output.writeUInt32(3, levelId_);
-      }
-      if (isNewRecord_ != false) {
-        output.writeBool(13, isNewRecord_);
+        output.writeUInt32(8, levelId_);
       }
       if (hitPoint_ != 0) {
-        output.writeUInt32(14, hitPoint_);
+        output.writeUInt32(10, hitPoint_);
+      }
+      if (isNewRecord_ != false) {
+        output.writeBool(11, isNewRecord_);
       }
       unknownFields.writeTo(output);
     }
@@ -195,15 +195,15 @@ public final class _TradeShowStgSettleInfoOuterClass {
       size = 0;
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, levelId_);
-      }
-      if (isNewRecord_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(13, isNewRecord_);
+          .computeUInt32Size(8, levelId_);
       }
       if (hitPoint_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, hitPoint_);
+          .computeUInt32Size(10, hitPoint_);
+      }
+      if (isNewRecord_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(11, isNewRecord_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -500,7 +500,7 @@ public final class _TradeShowStgSettleInfoOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 3;</code>
+       * <code>uint32 level_id = 8;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -508,7 +508,7 @@ public final class _TradeShowStgSettleInfoOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 3;</code>
+       * <code>uint32 level_id = 8;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -519,7 +519,7 @@ public final class _TradeShowStgSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 3;</code>
+       * <code>uint32 level_id = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -531,7 +531,7 @@ public final class _TradeShowStgSettleInfoOuterClass {
 
       private boolean isNewRecord_ ;
       /**
-       * <code>bool is_new_record = 13;</code>
+       * <code>bool is_new_record = 11;</code>
        * @return The isNewRecord.
        */
       @java.lang.Override
@@ -539,7 +539,7 @@ public final class _TradeShowStgSettleInfoOuterClass {
         return isNewRecord_;
       }
       /**
-       * <code>bool is_new_record = 13;</code>
+       * <code>bool is_new_record = 11;</code>
        * @param value The isNewRecord to set.
        * @return This builder for chaining.
        */
@@ -550,7 +550,7 @@ public final class _TradeShowStgSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_new_record = 13;</code>
+       * <code>bool is_new_record = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsNewRecord() {
@@ -562,7 +562,7 @@ public final class _TradeShowStgSettleInfoOuterClass {
 
       private int hitPoint_ ;
       /**
-       * <code>uint32 hit_point = 14;</code>
+       * <code>uint32 hit_point = 10;</code>
        * @return The hitPoint.
        */
       @java.lang.Override
@@ -570,7 +570,7 @@ public final class _TradeShowStgSettleInfoOuterClass {
         return hitPoint_;
       }
       /**
-       * <code>uint32 hit_point = 14;</code>
+       * <code>uint32 hit_point = 10;</code>
        * @param value The hitPoint to set.
        * @return This builder for chaining.
        */
@@ -581,7 +581,7 @@ public final class _TradeShowStgSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 hit_point = 14;</code>
+       * <code>uint32 hit_point = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearHitPoint() {
@@ -658,8 +658,8 @@ public final class _TradeShowStgSettleInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\035_TradeShowStgSettleInfo.proto\"U\n\027_Trad" +
-      "eShowStgSettleInfo\022\020\n\010level_id\030\003 \001(\r\022\025\n\r" +
-      "is_new_record\030\r \001(\010\022\021\n\thit_point\030\016 \001(\rB>" +
+      "eShowStgSettleInfo\022\020\n\010level_id\030\010 \001(\r\022\025\n\r" +
+      "is_new_record\030\013 \001(\010\022\021\n\thit_point\030\n \001(\rB>" +
       "\n\031emu.grasscutter.net.protoB!_TradeShowS" +
       "tgSettleInfoOuterClassb\006proto3"
     };

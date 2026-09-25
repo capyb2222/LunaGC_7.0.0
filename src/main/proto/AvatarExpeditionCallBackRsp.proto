@@ -6,6 +6,6 @@ option java_outer_classname = "AvatarExpeditionCallBackRspOuterClass";
 import "AvatarExpeditionInfo.proto";
 
 message AvatarExpeditionCallBackRsp {
-	int32 retcode = 3;
-	map<uint64, AvatarExpeditionInfo> expedition_info_map = 14;
+	int32 retcode = 12;
+	map<uint64, AvatarExpeditionInfo> expedition_info_map = 9;
 }

@@ -19,13 +19,13 @@ public final class GINPDLOONGJOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 min_finish_time = 3;</code>
+     * <code>uint32 min_finish_time = 15;</code>
      * @return The minFinishTime.
      */
     int getMinFinishTime();
 
     /**
-     * <code>uint32 level_id = 10;</code>
+     * <code>uint32 level_id = 13;</code>
      * @return The levelId.
      */
     int getLevelId();
@@ -75,14 +75,14 @@ public final class GINPDLOONGJOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
-
-              minFinishTime_ = input.readUInt32();
-              break;
-            }
-            case 80: {
+            case 104: {
 
               levelId_ = input.readUInt32();
+              break;
+            }
+            case 120: {
+
+              minFinishTime_ = input.readUInt32();
               break;
             }
             default: {
@@ -117,10 +117,10 @@ public final class GINPDLOONGJOuterClass {
               emu.grasscutter.net.proto.GINPDLOONGJOuterClass.GINPDLOONGJ.class, emu.grasscutter.net.proto.GINPDLOONGJOuterClass.GINPDLOONGJ.Builder.class);
     }
 
-    public static final int MIN_FINISH_TIME_FIELD_NUMBER = 3;
+    public static final int MIN_FINISH_TIME_FIELD_NUMBER = 15;
     private int minFinishTime_;
     /**
-     * <code>uint32 min_finish_time = 3;</code>
+     * <code>uint32 min_finish_time = 15;</code>
      * @return The minFinishTime.
      */
     @java.lang.Override
@@ -128,10 +128,10 @@ public final class GINPDLOONGJOuterClass {
       return minFinishTime_;
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 10;
+    public static final int LEVEL_ID_FIELD_NUMBER = 13;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 10;</code>
+     * <code>uint32 level_id = 13;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -153,11 +153,11 @@ public final class GINPDLOONGJOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (minFinishTime_ != 0) {
-        output.writeUInt32(3, minFinishTime_);
-      }
       if (levelId_ != 0) {
-        output.writeUInt32(10, levelId_);
+        output.writeUInt32(13, levelId_);
+      }
+      if (minFinishTime_ != 0) {
+        output.writeUInt32(15, minFinishTime_);
       }
       unknownFields.writeTo(output);
     }
@@ -168,13 +168,13 @@ public final class GINPDLOONGJOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (minFinishTime_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, minFinishTime_);
-      }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, levelId_);
+          .computeUInt32Size(13, levelId_);
+      }
+      if (minFinishTime_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(15, minFinishTime_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -460,7 +460,7 @@ public final class GINPDLOONGJOuterClass {
 
       private int minFinishTime_ ;
       /**
-       * <code>uint32 min_finish_time = 3;</code>
+       * <code>uint32 min_finish_time = 15;</code>
        * @return The minFinishTime.
        */
       @java.lang.Override
@@ -468,7 +468,7 @@ public final class GINPDLOONGJOuterClass {
         return minFinishTime_;
       }
       /**
-       * <code>uint32 min_finish_time = 3;</code>
+       * <code>uint32 min_finish_time = 15;</code>
        * @param value The minFinishTime to set.
        * @return This builder for chaining.
        */
@@ -479,7 +479,7 @@ public final class GINPDLOONGJOuterClass {
         return this;
       }
       /**
-       * <code>uint32 min_finish_time = 3;</code>
+       * <code>uint32 min_finish_time = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearMinFinishTime() {
@@ -491,7 +491,7 @@ public final class GINPDLOONGJOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 10;</code>
+       * <code>uint32 level_id = 13;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -499,7 +499,7 @@ public final class GINPDLOONGJOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 10;</code>
+       * <code>uint32 level_id = 13;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -510,7 +510,7 @@ public final class GINPDLOONGJOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 10;</code>
+       * <code>uint32 level_id = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -587,7 +587,7 @@ public final class GINPDLOONGJOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GINPDLOONGJ.proto\"8\n\013GINPDLOONGJ\022\027\n\017mi" +
-      "n_finish_time\030\003 \001(\r\022\020\n\010level_id\030\n \001(\rB2\n" +
+      "n_finish_time\030\017 \001(\r\022\020\n\010level_id\030\r \001(\rB2\n" +
       "\031emu.grasscutter.net.protoB\025GINPDLOONGJO" +
       "uterClassb\006proto3"
     };

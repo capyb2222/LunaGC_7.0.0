@@ -25,13 +25,13 @@ public final class McoinExchangeHcoinRspOuterClass {
     int getRetcode();
 
     /**
-     * <code>uint32 hcoin = 8;</code>
+     * <code>uint32 hcoin = 15;</code>
      * @return The hcoin.
      */
     int getHcoin();
 
     /**
-     * <code>uint32 mcoin_cost = 14;</code>
+     * <code>uint32 mcoin_cost = 10;</code>
      * @return The mcoinCost.
      */
     int getMcoinCost();
@@ -86,14 +86,14 @@ public final class McoinExchangeHcoinRspOuterClass {
               retcode_ = input.readInt32();
               break;
             }
-            case 64: {
-
-              hcoin_ = input.readUInt32();
-              break;
-            }
-            case 112: {
+            case 80: {
 
               mcoinCost_ = input.readUInt32();
+              break;
+            }
+            case 120: {
+
+              hcoin_ = input.readUInt32();
               break;
             }
             default: {
@@ -139,10 +139,10 @@ public final class McoinExchangeHcoinRspOuterClass {
       return retcode_;
     }
 
-    public static final int HCOIN_FIELD_NUMBER = 8;
+    public static final int HCOIN_FIELD_NUMBER = 15;
     private int hcoin_;
     /**
-     * <code>uint32 hcoin = 8;</code>
+     * <code>uint32 hcoin = 15;</code>
      * @return The hcoin.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class McoinExchangeHcoinRspOuterClass {
       return hcoin_;
     }
 
-    public static final int MCOIN_COST_FIELD_NUMBER = 14;
+    public static final int MCOIN_COST_FIELD_NUMBER = 10;
     private int mcoinCost_;
     /**
-     * <code>uint32 mcoin_cost = 14;</code>
+     * <code>uint32 mcoin_cost = 10;</code>
      * @return The mcoinCost.
      */
     @java.lang.Override
@@ -178,11 +178,11 @@ public final class McoinExchangeHcoinRspOuterClass {
       if (retcode_ != 0) {
         output.writeInt32(7, retcode_);
       }
-      if (hcoin_ != 0) {
-        output.writeUInt32(8, hcoin_);
-      }
       if (mcoinCost_ != 0) {
-        output.writeUInt32(14, mcoinCost_);
+        output.writeUInt32(10, mcoinCost_);
+      }
+      if (hcoin_ != 0) {
+        output.writeUInt32(15, hcoin_);
       }
       unknownFields.writeTo(output);
     }
@@ -197,13 +197,13 @@ public final class McoinExchangeHcoinRspOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeInt32Size(7, retcode_);
       }
-      if (hcoin_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, hcoin_);
-      }
       if (mcoinCost_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, mcoinCost_);
+          .computeUInt32Size(10, mcoinCost_);
+      }
+      if (hcoin_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(15, hcoin_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -530,7 +530,7 @@ public final class McoinExchangeHcoinRspOuterClass {
 
       private int hcoin_ ;
       /**
-       * <code>uint32 hcoin = 8;</code>
+       * <code>uint32 hcoin = 15;</code>
        * @return The hcoin.
        */
       @java.lang.Override
@@ -538,7 +538,7 @@ public final class McoinExchangeHcoinRspOuterClass {
         return hcoin_;
       }
       /**
-       * <code>uint32 hcoin = 8;</code>
+       * <code>uint32 hcoin = 15;</code>
        * @param value The hcoin to set.
        * @return This builder for chaining.
        */
@@ -549,7 +549,7 @@ public final class McoinExchangeHcoinRspOuterClass {
         return this;
       }
       /**
-       * <code>uint32 hcoin = 8;</code>
+       * <code>uint32 hcoin = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearHcoin() {
@@ -561,7 +561,7 @@ public final class McoinExchangeHcoinRspOuterClass {
 
       private int mcoinCost_ ;
       /**
-       * <code>uint32 mcoin_cost = 14;</code>
+       * <code>uint32 mcoin_cost = 10;</code>
        * @return The mcoinCost.
        */
       @java.lang.Override
@@ -569,7 +569,7 @@ public final class McoinExchangeHcoinRspOuterClass {
         return mcoinCost_;
       }
       /**
-       * <code>uint32 mcoin_cost = 14;</code>
+       * <code>uint32 mcoin_cost = 10;</code>
        * @param value The mcoinCost to set.
        * @return This builder for chaining.
        */
@@ -580,7 +580,7 @@ public final class McoinExchangeHcoinRspOuterClass {
         return this;
       }
       /**
-       * <code>uint32 mcoin_cost = 14;</code>
+       * <code>uint32 mcoin_cost = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearMcoinCost() {
@@ -658,7 +658,7 @@ public final class McoinExchangeHcoinRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033McoinExchangeHcoinRsp.proto\"K\n\025McoinEx" +
       "changeHcoinRsp\022\017\n\007retcode\030\007 \001(\005\022\r\n\005hcoin" +
-      "\030\010 \001(\r\022\022\n\nmcoin_cost\030\016 \001(\rB<\n\031emu.grassc" +
+      "\030\017 \001(\r\022\022\n\nmcoin_cost\030\n \001(\rB<\n\031emu.grassc" +
       "utter.net.protoB\037McoinExchangeHcoinRspOu" +
       "terClassb\006proto3"
     };

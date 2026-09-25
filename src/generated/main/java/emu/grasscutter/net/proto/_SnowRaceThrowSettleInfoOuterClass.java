@@ -19,25 +19,25 @@ public final class _SnowRaceThrowSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 use_time = 3;</code>
+     * <code>uint32 use_time = 7;</code>
      * @return The useTime.
      */
     int getUseTime();
 
     /**
-     * <code>uint32 level_id = 4;</code>
+     * <code>uint32 level_id = 13;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>bool is_new_record = 8;</code>
+     * <code>bool is_new_record = 2;</code>
      * @return The isNewRecord.
      */
     boolean getIsNewRecord();
 
     /**
-     * <code>uint32 score = 15;</code>
+     * <code>uint32 score = 8;</code>
      * @return The score.
      */
     int getScore();
@@ -87,24 +87,24 @@ public final class _SnowRaceThrowSettleInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
-
-              useTime_ = input.readUInt32();
-              break;
-            }
-            case 32: {
-
-              levelId_ = input.readUInt32();
-              break;
-            }
-            case 64: {
+            case 16: {
 
               isNewRecord_ = input.readBool();
               break;
             }
-            case 120: {
+            case 56: {
+
+              useTime_ = input.readUInt32();
+              break;
+            }
+            case 64: {
 
               score_ = input.readUInt32();
+              break;
+            }
+            case 104: {
+
+              levelId_ = input.readUInt32();
               break;
             }
             default: {
@@ -139,10 +139,10 @@ public final class _SnowRaceThrowSettleInfoOuterClass {
               emu.grasscutter.net.proto._SnowRaceThrowSettleInfoOuterClass._SnowRaceThrowSettleInfo.class, emu.grasscutter.net.proto._SnowRaceThrowSettleInfoOuterClass._SnowRaceThrowSettleInfo.Builder.class);
     }
 
-    public static final int USE_TIME_FIELD_NUMBER = 3;
+    public static final int USE_TIME_FIELD_NUMBER = 7;
     private int useTime_;
     /**
-     * <code>uint32 use_time = 3;</code>
+     * <code>uint32 use_time = 7;</code>
      * @return The useTime.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class _SnowRaceThrowSettleInfoOuterClass {
       return useTime_;
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 4;
+    public static final int LEVEL_ID_FIELD_NUMBER = 13;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 4;</code>
+     * <code>uint32 level_id = 13;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -161,10 +161,10 @@ public final class _SnowRaceThrowSettleInfoOuterClass {
       return levelId_;
     }
 
-    public static final int IS_NEW_RECORD_FIELD_NUMBER = 8;
+    public static final int IS_NEW_RECORD_FIELD_NUMBER = 2;
     private boolean isNewRecord_;
     /**
-     * <code>bool is_new_record = 8;</code>
+     * <code>bool is_new_record = 2;</code>
      * @return The isNewRecord.
      */
     @java.lang.Override
@@ -172,10 +172,10 @@ public final class _SnowRaceThrowSettleInfoOuterClass {
       return isNewRecord_;
     }
 
-    public static final int SCORE_FIELD_NUMBER = 15;
+    public static final int SCORE_FIELD_NUMBER = 8;
     private int score_;
     /**
-     * <code>uint32 score = 15;</code>
+     * <code>uint32 score = 8;</code>
      * @return The score.
      */
     @java.lang.Override
@@ -197,17 +197,17 @@ public final class _SnowRaceThrowSettleInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (useTime_ != 0) {
-        output.writeUInt32(3, useTime_);
-      }
-      if (levelId_ != 0) {
-        output.writeUInt32(4, levelId_);
-      }
       if (isNewRecord_ != false) {
-        output.writeBool(8, isNewRecord_);
+        output.writeBool(2, isNewRecord_);
+      }
+      if (useTime_ != 0) {
+        output.writeUInt32(7, useTime_);
       }
       if (score_ != 0) {
-        output.writeUInt32(15, score_);
+        output.writeUInt32(8, score_);
+      }
+      if (levelId_ != 0) {
+        output.writeUInt32(13, levelId_);
       }
       unknownFields.writeTo(output);
     }
@@ -218,21 +218,21 @@ public final class _SnowRaceThrowSettleInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (useTime_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, useTime_);
-      }
-      if (levelId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, levelId_);
-      }
       if (isNewRecord_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(8, isNewRecord_);
+          .computeBoolSize(2, isNewRecord_);
+      }
+      if (useTime_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(7, useTime_);
       }
       if (score_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, score_);
+          .computeUInt32Size(8, score_);
+      }
+      if (levelId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(13, levelId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -539,7 +539,7 @@ public final class _SnowRaceThrowSettleInfoOuterClass {
 
       private int useTime_ ;
       /**
-       * <code>uint32 use_time = 3;</code>
+       * <code>uint32 use_time = 7;</code>
        * @return The useTime.
        */
       @java.lang.Override
@@ -547,7 +547,7 @@ public final class _SnowRaceThrowSettleInfoOuterClass {
         return useTime_;
       }
       /**
-       * <code>uint32 use_time = 3;</code>
+       * <code>uint32 use_time = 7;</code>
        * @param value The useTime to set.
        * @return This builder for chaining.
        */
@@ -558,7 +558,7 @@ public final class _SnowRaceThrowSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 use_time = 3;</code>
+       * <code>uint32 use_time = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearUseTime() {
@@ -570,7 +570,7 @@ public final class _SnowRaceThrowSettleInfoOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 4;</code>
+       * <code>uint32 level_id = 13;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -578,7 +578,7 @@ public final class _SnowRaceThrowSettleInfoOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 4;</code>
+       * <code>uint32 level_id = 13;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -589,7 +589,7 @@ public final class _SnowRaceThrowSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 4;</code>
+       * <code>uint32 level_id = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -601,7 +601,7 @@ public final class _SnowRaceThrowSettleInfoOuterClass {
 
       private boolean isNewRecord_ ;
       /**
-       * <code>bool is_new_record = 8;</code>
+       * <code>bool is_new_record = 2;</code>
        * @return The isNewRecord.
        */
       @java.lang.Override
@@ -609,7 +609,7 @@ public final class _SnowRaceThrowSettleInfoOuterClass {
         return isNewRecord_;
       }
       /**
-       * <code>bool is_new_record = 8;</code>
+       * <code>bool is_new_record = 2;</code>
        * @param value The isNewRecord to set.
        * @return This builder for chaining.
        */
@@ -620,7 +620,7 @@ public final class _SnowRaceThrowSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_new_record = 8;</code>
+       * <code>bool is_new_record = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsNewRecord() {
@@ -632,7 +632,7 @@ public final class _SnowRaceThrowSettleInfoOuterClass {
 
       private int score_ ;
       /**
-       * <code>uint32 score = 15;</code>
+       * <code>uint32 score = 8;</code>
        * @return The score.
        */
       @java.lang.Override
@@ -640,7 +640,7 @@ public final class _SnowRaceThrowSettleInfoOuterClass {
         return score_;
       }
       /**
-       * <code>uint32 score = 15;</code>
+       * <code>uint32 score = 8;</code>
        * @param value The score to set.
        * @return This builder for chaining.
        */
@@ -651,7 +651,7 @@ public final class _SnowRaceThrowSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 score = 15;</code>
+       * <code>uint32 score = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearScore() {
@@ -728,9 +728,9 @@ public final class _SnowRaceThrowSettleInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\036_SnowRaceThrowSettleInfo.proto\"d\n\030_Sno" +
-      "wRaceThrowSettleInfo\022\020\n\010use_time\030\003 \001(\r\022\020" +
-      "\n\010level_id\030\004 \001(\r\022\025\n\ris_new_record\030\010 \001(\010\022" +
-      "\r\n\005score\030\017 \001(\rB?\n\031emu.grasscutter.net.pr" +
+      "wRaceThrowSettleInfo\022\020\n\010use_time\030\007 \001(\r\022\020" +
+      "\n\010level_id\030\r \001(\r\022\025\n\ris_new_record\030\002 \001(\010\022" +
+      "\r\n\005score\030\010 \001(\rB?\n\031emu.grasscutter.net.pr" +
       "otoB\"_SnowRaceThrowSettleInfoOuterClassb" +
       "\006proto3"
     };

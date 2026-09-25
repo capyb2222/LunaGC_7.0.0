@@ -6,9 +6,9 @@ option java_outer_classname = "CrucibleBattleUidInfoOuterClass";
 import "ProfilePicture.proto";
 
 message CrucibleBattleUidInfo {
-	string nickname = 1;
-	uint32 uid = 3;
-	string online_id = 6;
-	ProfilePicture profile_picture = 12;
-	uint32 icon = 14;
+	string nickname = 6;
+	uint32 uid = 14;
+	string online_id = 3;
+	ProfilePicture profile_picture = 7;
+	uint32 icon = 4;
 }

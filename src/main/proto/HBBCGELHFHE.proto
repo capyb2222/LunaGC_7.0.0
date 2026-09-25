@@ -6,5 +6,5 @@ option java_outer_classname = "HBBCGELHFHEOuterClass";
 import "EGDOCIBGAIJ.proto";
 
 message HBBCGELHFHE {
-	repeated EGDOCIBGAIJ level_info_list = 12;
+	repeated EGDOCIBGAIJ level_info_list = 13;
 }

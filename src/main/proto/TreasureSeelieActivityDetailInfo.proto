@@ -6,7 +6,7 @@ option java_outer_classname = "TreasureSeelieActivityDetailInfoOuterClass";
 import "TreasureSeelieRegionData.proto";
 
 message TreasureSeelieActivityDetailInfo {
-	bool is_content_closed = 5;
-	repeated TreasureSeelieRegionData region_data_list = 8;
-	uint32 treasure_close_time = 14;
+	bool is_content_closed = 8;
+	repeated TreasureSeelieRegionData region_data_list = 11;
+	uint32 treasure_close_time = 1;
 }

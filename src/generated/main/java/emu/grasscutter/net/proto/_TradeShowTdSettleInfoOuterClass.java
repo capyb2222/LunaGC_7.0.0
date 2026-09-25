@@ -19,19 +19,19 @@ public final class _TradeShowTdSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool is_new_record = 4;</code>
+     * <code>bool is_new_record = 3;</code>
      * @return The isNewRecord.
      */
     boolean getIsNewRecord();
 
     /**
-     * <code>uint32 OOEGJHCJDKI = 10;</code>
+     * <code>uint32 OOEGJHCJDKI = 4;</code>
      * @return The oOEGJHCJDKI.
      */
     int getOOEGJHCJDKI();
 
     /**
-     * <code>uint32 level_id = 13;</code>
+     * <code>uint32 level_id = 15;</code>
      * @return The levelId.
      */
     int getLevelId();
@@ -81,17 +81,17 @@ public final class _TradeShowTdSettleInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 24: {
 
               isNewRecord_ = input.readBool();
               break;
             }
-            case 80: {
+            case 32: {
 
               oOEGJHCJDKI_ = input.readUInt32();
               break;
             }
-            case 104: {
+            case 120: {
 
               levelId_ = input.readUInt32();
               break;
@@ -128,10 +128,10 @@ public final class _TradeShowTdSettleInfoOuterClass {
               emu.grasscutter.net.proto._TradeShowTdSettleInfoOuterClass._TradeShowTdSettleInfo.class, emu.grasscutter.net.proto._TradeShowTdSettleInfoOuterClass._TradeShowTdSettleInfo.Builder.class);
     }
 
-    public static final int IS_NEW_RECORD_FIELD_NUMBER = 4;
+    public static final int IS_NEW_RECORD_FIELD_NUMBER = 3;
     private boolean isNewRecord_;
     /**
-     * <code>bool is_new_record = 4;</code>
+     * <code>bool is_new_record = 3;</code>
      * @return The isNewRecord.
      */
     @java.lang.Override
@@ -139,10 +139,10 @@ public final class _TradeShowTdSettleInfoOuterClass {
       return isNewRecord_;
     }
 
-    public static final int OOEGJHCJDKI_FIELD_NUMBER = 10;
+    public static final int OOEGJHCJDKI_FIELD_NUMBER = 4;
     private int oOEGJHCJDKI_;
     /**
-     * <code>uint32 OOEGJHCJDKI = 10;</code>
+     * <code>uint32 OOEGJHCJDKI = 4;</code>
      * @return The oOEGJHCJDKI.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class _TradeShowTdSettleInfoOuterClass {
       return oOEGJHCJDKI_;
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 13;
+    public static final int LEVEL_ID_FIELD_NUMBER = 15;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 13;</code>
+     * <code>uint32 level_id = 15;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -176,13 +176,13 @@ public final class _TradeShowTdSettleInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (isNewRecord_ != false) {
-        output.writeBool(4, isNewRecord_);
+        output.writeBool(3, isNewRecord_);
       }
       if (oOEGJHCJDKI_ != 0) {
-        output.writeUInt32(10, oOEGJHCJDKI_);
+        output.writeUInt32(4, oOEGJHCJDKI_);
       }
       if (levelId_ != 0) {
-        output.writeUInt32(13, levelId_);
+        output.writeUInt32(15, levelId_);
       }
       unknownFields.writeTo(output);
     }
@@ -195,15 +195,15 @@ public final class _TradeShowTdSettleInfoOuterClass {
       size = 0;
       if (isNewRecord_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(4, isNewRecord_);
+          .computeBoolSize(3, isNewRecord_);
       }
       if (oOEGJHCJDKI_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, oOEGJHCJDKI_);
+          .computeUInt32Size(4, oOEGJHCJDKI_);
       }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, levelId_);
+          .computeUInt32Size(15, levelId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -500,7 +500,7 @@ public final class _TradeShowTdSettleInfoOuterClass {
 
       private boolean isNewRecord_ ;
       /**
-       * <code>bool is_new_record = 4;</code>
+       * <code>bool is_new_record = 3;</code>
        * @return The isNewRecord.
        */
       @java.lang.Override
@@ -508,7 +508,7 @@ public final class _TradeShowTdSettleInfoOuterClass {
         return isNewRecord_;
       }
       /**
-       * <code>bool is_new_record = 4;</code>
+       * <code>bool is_new_record = 3;</code>
        * @param value The isNewRecord to set.
        * @return This builder for chaining.
        */
@@ -519,7 +519,7 @@ public final class _TradeShowTdSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_new_record = 4;</code>
+       * <code>bool is_new_record = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsNewRecord() {
@@ -531,7 +531,7 @@ public final class _TradeShowTdSettleInfoOuterClass {
 
       private int oOEGJHCJDKI_ ;
       /**
-       * <code>uint32 OOEGJHCJDKI = 10;</code>
+       * <code>uint32 OOEGJHCJDKI = 4;</code>
        * @return The oOEGJHCJDKI.
        */
       @java.lang.Override
@@ -539,7 +539,7 @@ public final class _TradeShowTdSettleInfoOuterClass {
         return oOEGJHCJDKI_;
       }
       /**
-       * <code>uint32 OOEGJHCJDKI = 10;</code>
+       * <code>uint32 OOEGJHCJDKI = 4;</code>
        * @param value The oOEGJHCJDKI to set.
        * @return This builder for chaining.
        */
@@ -550,7 +550,7 @@ public final class _TradeShowTdSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 OOEGJHCJDKI = 10;</code>
+       * <code>uint32 OOEGJHCJDKI = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearOOEGJHCJDKI() {
@@ -562,7 +562,7 @@ public final class _TradeShowTdSettleInfoOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 13;</code>
+       * <code>uint32 level_id = 15;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -570,7 +570,7 @@ public final class _TradeShowTdSettleInfoOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 13;</code>
+       * <code>uint32 level_id = 15;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -581,7 +581,7 @@ public final class _TradeShowTdSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 13;</code>
+       * <code>uint32 level_id = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -658,8 +658,8 @@ public final class _TradeShowTdSettleInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\034_TradeShowTdSettleInfo.proto\"V\n\026_Trade" +
-      "ShowTdSettleInfo\022\025\n\ris_new_record\030\004 \001(\010\022" +
-      "\023\n\013OOEGJHCJDKI\030\n \001(\r\022\020\n\010level_id\030\r \001(\rB=" +
+      "ShowTdSettleInfo\022\025\n\ris_new_record\030\003 \001(\010\022" +
+      "\023\n\013OOEGJHCJDKI\030\004 \001(\r\022\020\n\010level_id\030\017 \001(\rB=" +
       "\n\031emu.grasscutter.net.protoB _TradeShowT" +
       "dSettleInfoOuterClassb\006proto3"
     };

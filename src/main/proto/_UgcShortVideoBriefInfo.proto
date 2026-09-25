@@ -6,16 +6,16 @@ option java_outer_classname = "_UgcShortVideoBriefInfoOuterClass";
 import "_UgcShortVideoAvatarInfo.proto";
 
 message _UgcShortVideoBriefInfo {
-	repeated uint32 avatar_id_list = 1;
-	repeated uint32 LKCCHMHJNEF = 2;
-	repeated _UgcShortVideoAvatarInfo avatar_info_list = 3;
-	bool FAAOOIKCIJO = 4;
-	repeated uint32 KOKGKGKFDEI = 5;
-	repeated uint32 tag_list = 7;
-	uint32 AAJNACIIKAD = 9;
-	uint32 level_id = 10;
-	uint32 IILNHLANPGC = 11;
-	uint32 GLEEDODENBP = 12;
-	string _level_name = 13;
-	string IONHLOONKFG = 15;
+	repeated uint32 avatar_id_list = 4;
+	repeated uint32 LKCCHMHJNEF = 50000;
+	repeated _UgcShortVideoAvatarInfo avatar_info_list = 12;
+	bool FAAOOIKCIJO = 15;
+	repeated uint32 KOKGKGKFDEI = 50001;
+	repeated uint32 tag_list = 2;
+	uint32 AAJNACIIKAD = 50002;
+	uint32 level_id = 6;
+	uint32 IILNHLANPGC = 50003;
+	uint32 GLEEDODENBP = 50004;
+	string _level_name = 14;
+	string IONHLOONKFG = 5;
 }

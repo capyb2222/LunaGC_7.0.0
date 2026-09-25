@@ -19,38 +19,38 @@ public final class _MirrorWorldSceneDetailOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.MapLayerInfo _map_layer_info = 3;</code>
+     * <code>.MapLayerInfo _map_layer_info = 14;</code>
      * @return Whether the mapLayerInfo field is set.
      */
     boolean hasMapLayerInfo();
     /**
-     * <code>.MapLayerInfo _map_layer_info = 3;</code>
+     * <code>.MapLayerInfo _map_layer_info = 14;</code>
      * @return The mapLayerInfo.
      */
     emu.grasscutter.net.proto.MapLayerInfoOuterClass.MapLayerInfo getMapLayerInfo();
     /**
-     * <code>.MapLayerInfo _map_layer_info = 3;</code>
+     * <code>.MapLayerInfo _map_layer_info = 14;</code>
      */
     emu.grasscutter.net.proto.MapLayerInfoOuterClass.MapLayerInfoOrBuilder getMapLayerInfoOrBuilder();
 
     /**
-     * <code>uint32 _mirrored_scene_id = 12;</code>
+     * <code>uint32 _mirrored_scene_id = 13;</code>
      * @return The mirroredSceneId.
      */
     int getMirroredSceneId();
 
     /**
-     * <code>repeated uint32 scene_tag_id_list = 14;</code>
+     * <code>repeated uint32 scene_tag_id_list = 4;</code>
      * @return A list containing the sceneTagIdList.
      */
     java.util.List<java.lang.Integer> getSceneTagIdListList();
     /**
-     * <code>repeated uint32 scene_tag_id_list = 14;</code>
+     * <code>repeated uint32 scene_tag_id_list = 4;</code>
      * @return The count of sceneTagIdList.
      */
     int getSceneTagIdListCount();
     /**
-     * <code>repeated uint32 scene_tag_id_list = 14;</code>
+     * <code>repeated uint32 scene_tag_id_list = 4;</code>
      * @param index The index of the element to return.
      * @return The sceneTagIdList at the given index.
      */
@@ -103,25 +103,7 @@ public final class _MirrorWorldSceneDetailOuterClass {
             case 0:
               done = true;
               break;
-            case 26: {
-              emu.grasscutter.net.proto.MapLayerInfoOuterClass.MapLayerInfo.Builder subBuilder = null;
-              if (MapLayerInfo_ != null) {
-                subBuilder = MapLayerInfo_.toBuilder();
-              }
-              MapLayerInfo_ = input.readMessage(emu.grasscutter.net.proto.MapLayerInfoOuterClass.MapLayerInfo.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(MapLayerInfo_);
-                MapLayerInfo_ = subBuilder.buildPartial();
-              }
-
-              break;
-            }
-            case 96: {
-
-              MirroredSceneId_ = input.readUInt32();
-              break;
-            }
-            case 112: {
+            case 32: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 sceneTagIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -129,7 +111,7 @@ public final class _MirrorWorldSceneDetailOuterClass {
               sceneTagIdList_.addInt(input.readUInt32());
               break;
             }
-            case 114: {
+            case 34: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -140,6 +122,24 @@ public final class _MirrorWorldSceneDetailOuterClass {
                 sceneTagIdList_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
+              break;
+            }
+            case 104: {
+
+              MirroredSceneId_ = input.readUInt32();
+              break;
+            }
+            case 114: {
+              emu.grasscutter.net.proto.MapLayerInfoOuterClass.MapLayerInfo.Builder subBuilder = null;
+              if (MapLayerInfo_ != null) {
+                subBuilder = MapLayerInfo_.toBuilder();
+              }
+              MapLayerInfo_ = input.readMessage(emu.grasscutter.net.proto.MapLayerInfoOuterClass.MapLayerInfo.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(MapLayerInfo_);
+                MapLayerInfo_ = subBuilder.buildPartial();
+              }
+
               break;
             }
             default: {
@@ -177,10 +177,10 @@ public final class _MirrorWorldSceneDetailOuterClass {
               emu.grasscutter.net.proto._MirrorWorldSceneDetailOuterClass._MirrorWorldSceneDetail.class, emu.grasscutter.net.proto._MirrorWorldSceneDetailOuterClass._MirrorWorldSceneDetail.Builder.class);
     }
 
-    public static final int _MAP_LAYER_INFO_FIELD_NUMBER = 3;
+    public static final int _MAP_LAYER_INFO_FIELD_NUMBER = 14;
     private emu.grasscutter.net.proto.MapLayerInfoOuterClass.MapLayerInfo MapLayerInfo_;
     /**
-     * <code>.MapLayerInfo _map_layer_info = 3;</code>
+     * <code>.MapLayerInfo _map_layer_info = 14;</code>
      * @return Whether the mapLayerInfo field is set.
      */
     @java.lang.Override
@@ -188,7 +188,7 @@ public final class _MirrorWorldSceneDetailOuterClass {
       return MapLayerInfo_ != null;
     }
     /**
-     * <code>.MapLayerInfo _map_layer_info = 3;</code>
+     * <code>.MapLayerInfo _map_layer_info = 14;</code>
      * @return The mapLayerInfo.
      */
     @java.lang.Override
@@ -196,17 +196,17 @@ public final class _MirrorWorldSceneDetailOuterClass {
       return MapLayerInfo_ == null ? emu.grasscutter.net.proto.MapLayerInfoOuterClass.MapLayerInfo.getDefaultInstance() : MapLayerInfo_;
     }
     /**
-     * <code>.MapLayerInfo _map_layer_info = 3;</code>
+     * <code>.MapLayerInfo _map_layer_info = 14;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.MapLayerInfoOuterClass.MapLayerInfoOrBuilder getMapLayerInfoOrBuilder() {
       return getMapLayerInfo();
     }
 
-    public static final int _MIRRORED_SCENE_ID_FIELD_NUMBER = 12;
+    public static final int _MIRRORED_SCENE_ID_FIELD_NUMBER = 13;
     private int MirroredSceneId_;
     /**
-     * <code>uint32 _mirrored_scene_id = 12;</code>
+     * <code>uint32 _mirrored_scene_id = 13;</code>
      * @return The mirroredSceneId.
      */
     @java.lang.Override
@@ -214,10 +214,10 @@ public final class _MirrorWorldSceneDetailOuterClass {
       return MirroredSceneId_;
     }
 
-    public static final int SCENE_TAG_ID_LIST_FIELD_NUMBER = 14;
+    public static final int SCENE_TAG_ID_LIST_FIELD_NUMBER = 4;
     private com.google.protobuf.Internal.IntList sceneTagIdList_;
     /**
-     * <code>repeated uint32 scene_tag_id_list = 14;</code>
+     * <code>repeated uint32 scene_tag_id_list = 4;</code>
      * @return A list containing the sceneTagIdList.
      */
     @java.lang.Override
@@ -226,14 +226,14 @@ public final class _MirrorWorldSceneDetailOuterClass {
       return sceneTagIdList_;
     }
     /**
-     * <code>repeated uint32 scene_tag_id_list = 14;</code>
+     * <code>repeated uint32 scene_tag_id_list = 4;</code>
      * @return The count of sceneTagIdList.
      */
     public int getSceneTagIdListCount() {
       return sceneTagIdList_.size();
     }
     /**
-     * <code>repeated uint32 scene_tag_id_list = 14;</code>
+     * <code>repeated uint32 scene_tag_id_list = 4;</code>
      * @param index The index of the element to return.
      * @return The sceneTagIdList at the given index.
      */
@@ -257,18 +257,18 @@ public final class _MirrorWorldSceneDetailOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (MapLayerInfo_ != null) {
-        output.writeMessage(3, getMapLayerInfo());
-      }
-      if (MirroredSceneId_ != 0) {
-        output.writeUInt32(12, MirroredSceneId_);
-      }
       if (getSceneTagIdListList().size() > 0) {
-        output.writeUInt32NoTag(114);
+        output.writeUInt32NoTag(34);
         output.writeUInt32NoTag(sceneTagIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < sceneTagIdList_.size(); i++) {
         output.writeUInt32NoTag(sceneTagIdList_.getInt(i));
+      }
+      if (MirroredSceneId_ != 0) {
+        output.writeUInt32(13, MirroredSceneId_);
+      }
+      if (MapLayerInfo_ != null) {
+        output.writeMessage(14, getMapLayerInfo());
       }
       unknownFields.writeTo(output);
     }
@@ -279,14 +279,6 @@ public final class _MirrorWorldSceneDetailOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (MapLayerInfo_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, getMapLayerInfo());
-      }
-      if (MirroredSceneId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, MirroredSceneId_);
-      }
       {
         int dataSize = 0;
         for (int i = 0; i < sceneTagIdList_.size(); i++) {
@@ -300,6 +292,14 @@ public final class _MirrorWorldSceneDetailOuterClass {
               .computeInt32SizeNoTag(dataSize);
         }
         sceneTagIdListMemoizedSerializedSize = dataSize;
+      }
+      if (MirroredSceneId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(13, MirroredSceneId_);
+      }
+      if (MapLayerInfo_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(14, getMapLayerInfo());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -625,14 +625,14 @@ public final class _MirrorWorldSceneDetailOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.MapLayerInfoOuterClass.MapLayerInfo, emu.grasscutter.net.proto.MapLayerInfoOuterClass.MapLayerInfo.Builder, emu.grasscutter.net.proto.MapLayerInfoOuterClass.MapLayerInfoOrBuilder> MapLayerInfoBuilder_;
       /**
-       * <code>.MapLayerInfo _map_layer_info = 3;</code>
+       * <code>.MapLayerInfo _map_layer_info = 14;</code>
        * @return Whether the mapLayerInfo field is set.
        */
       public boolean hasMapLayerInfo() {
         return MapLayerInfoBuilder_ != null || MapLayerInfo_ != null;
       }
       /**
-       * <code>.MapLayerInfo _map_layer_info = 3;</code>
+       * <code>.MapLayerInfo _map_layer_info = 14;</code>
        * @return The mapLayerInfo.
        */
       public emu.grasscutter.net.proto.MapLayerInfoOuterClass.MapLayerInfo getMapLayerInfo() {
@@ -643,7 +643,7 @@ public final class _MirrorWorldSceneDetailOuterClass {
         }
       }
       /**
-       * <code>.MapLayerInfo _map_layer_info = 3;</code>
+       * <code>.MapLayerInfo _map_layer_info = 14;</code>
        */
       public Builder setMapLayerInfo(emu.grasscutter.net.proto.MapLayerInfoOuterClass.MapLayerInfo value) {
         if (MapLayerInfoBuilder_ == null) {
@@ -659,7 +659,7 @@ public final class _MirrorWorldSceneDetailOuterClass {
         return this;
       }
       /**
-       * <code>.MapLayerInfo _map_layer_info = 3;</code>
+       * <code>.MapLayerInfo _map_layer_info = 14;</code>
        */
       public Builder setMapLayerInfo(
           emu.grasscutter.net.proto.MapLayerInfoOuterClass.MapLayerInfo.Builder builderForValue) {
@@ -673,7 +673,7 @@ public final class _MirrorWorldSceneDetailOuterClass {
         return this;
       }
       /**
-       * <code>.MapLayerInfo _map_layer_info = 3;</code>
+       * <code>.MapLayerInfo _map_layer_info = 14;</code>
        */
       public Builder mergeMapLayerInfo(emu.grasscutter.net.proto.MapLayerInfoOuterClass.MapLayerInfo value) {
         if (MapLayerInfoBuilder_ == null) {
@@ -691,7 +691,7 @@ public final class _MirrorWorldSceneDetailOuterClass {
         return this;
       }
       /**
-       * <code>.MapLayerInfo _map_layer_info = 3;</code>
+       * <code>.MapLayerInfo _map_layer_info = 14;</code>
        */
       public Builder clearMapLayerInfo() {
         if (MapLayerInfoBuilder_ == null) {
@@ -705,7 +705,7 @@ public final class _MirrorWorldSceneDetailOuterClass {
         return this;
       }
       /**
-       * <code>.MapLayerInfo _map_layer_info = 3;</code>
+       * <code>.MapLayerInfo _map_layer_info = 14;</code>
        */
       public emu.grasscutter.net.proto.MapLayerInfoOuterClass.MapLayerInfo.Builder getMapLayerInfoBuilder() {
         
@@ -713,7 +713,7 @@ public final class _MirrorWorldSceneDetailOuterClass {
         return getMapLayerInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>.MapLayerInfo _map_layer_info = 3;</code>
+       * <code>.MapLayerInfo _map_layer_info = 14;</code>
        */
       public emu.grasscutter.net.proto.MapLayerInfoOuterClass.MapLayerInfoOrBuilder getMapLayerInfoOrBuilder() {
         if (MapLayerInfoBuilder_ != null) {
@@ -724,7 +724,7 @@ public final class _MirrorWorldSceneDetailOuterClass {
         }
       }
       /**
-       * <code>.MapLayerInfo _map_layer_info = 3;</code>
+       * <code>.MapLayerInfo _map_layer_info = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.MapLayerInfoOuterClass.MapLayerInfo, emu.grasscutter.net.proto.MapLayerInfoOuterClass.MapLayerInfo.Builder, emu.grasscutter.net.proto.MapLayerInfoOuterClass.MapLayerInfoOrBuilder> 
@@ -742,7 +742,7 @@ public final class _MirrorWorldSceneDetailOuterClass {
 
       private int MirroredSceneId_ ;
       /**
-       * <code>uint32 _mirrored_scene_id = 12;</code>
+       * <code>uint32 _mirrored_scene_id = 13;</code>
        * @return The mirroredSceneId.
        */
       @java.lang.Override
@@ -750,7 +750,7 @@ public final class _MirrorWorldSceneDetailOuterClass {
         return MirroredSceneId_;
       }
       /**
-       * <code>uint32 _mirrored_scene_id = 12;</code>
+       * <code>uint32 _mirrored_scene_id = 13;</code>
        * @param value The mirroredSceneId to set.
        * @return This builder for chaining.
        */
@@ -761,7 +761,7 @@ public final class _MirrorWorldSceneDetailOuterClass {
         return this;
       }
       /**
-       * <code>uint32 _mirrored_scene_id = 12;</code>
+       * <code>uint32 _mirrored_scene_id = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearMirroredSceneId() {
@@ -779,7 +779,7 @@ public final class _MirrorWorldSceneDetailOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 scene_tag_id_list = 14;</code>
+       * <code>repeated uint32 scene_tag_id_list = 4;</code>
        * @return A list containing the sceneTagIdList.
        */
       public java.util.List<java.lang.Integer>
@@ -788,14 +788,14 @@ public final class _MirrorWorldSceneDetailOuterClass {
                  java.util.Collections.unmodifiableList(sceneTagIdList_) : sceneTagIdList_;
       }
       /**
-       * <code>repeated uint32 scene_tag_id_list = 14;</code>
+       * <code>repeated uint32 scene_tag_id_list = 4;</code>
        * @return The count of sceneTagIdList.
        */
       public int getSceneTagIdListCount() {
         return sceneTagIdList_.size();
       }
       /**
-       * <code>repeated uint32 scene_tag_id_list = 14;</code>
+       * <code>repeated uint32 scene_tag_id_list = 4;</code>
        * @param index The index of the element to return.
        * @return The sceneTagIdList at the given index.
        */
@@ -803,7 +803,7 @@ public final class _MirrorWorldSceneDetailOuterClass {
         return sceneTagIdList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 scene_tag_id_list = 14;</code>
+       * <code>repeated uint32 scene_tag_id_list = 4;</code>
        * @param index The index to set the value at.
        * @param value The sceneTagIdList to set.
        * @return This builder for chaining.
@@ -816,7 +816,7 @@ public final class _MirrorWorldSceneDetailOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 scene_tag_id_list = 14;</code>
+       * <code>repeated uint32 scene_tag_id_list = 4;</code>
        * @param value The sceneTagIdList to add.
        * @return This builder for chaining.
        */
@@ -827,7 +827,7 @@ public final class _MirrorWorldSceneDetailOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 scene_tag_id_list = 14;</code>
+       * <code>repeated uint32 scene_tag_id_list = 4;</code>
        * @param values The sceneTagIdList to add.
        * @return This builder for chaining.
        */
@@ -840,7 +840,7 @@ public final class _MirrorWorldSceneDetailOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 scene_tag_id_list = 14;</code>
+       * <code>repeated uint32 scene_tag_id_list = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearSceneTagIdList() {
@@ -918,9 +918,9 @@ public final class _MirrorWorldSceneDetailOuterClass {
     java.lang.String[] descriptorData = {
       "\n\035_MirrorWorldSceneDetail.proto\032\022MapLaye" +
       "rInfo.proto\"x\n\027_MirrorWorldSceneDetail\022&" +
-      "\n\017_map_layer_info\030\003 \001(\0132\r.MapLayerInfo\022\032" +
-      "\n\022_mirrored_scene_id\030\014 \001(\r\022\031\n\021scene_tag_" +
-      "id_list\030\016 \003(\rB>\n\031emu.grasscutter.net.pro" +
+      "\n\017_map_layer_info\030\016 \001(\0132\r.MapLayerInfo\022\032" +
+      "\n\022_mirrored_scene_id\030\r \001(\r\022\031\n\021scene_tag_" +
+      "id_list\030\004 \003(\rB>\n\031emu.grasscutter.net.pro" +
       "toB!_MirrorWorldSceneDetailOuterClassb\006p" +
       "roto3"
     };

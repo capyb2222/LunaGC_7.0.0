@@ -6,5 +6,5 @@ option java_outer_classname = "PlayerPropNotifyOuterClass";
 import "PropValue.proto";
 
 message PlayerPropNotify {
-	map<uint32, PropValue> prop_map = 1;
+	map<uint32, PropValue> prop_map = 2;
 }

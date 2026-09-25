@@ -19,49 +19,49 @@ public final class FNMMKAMBICNOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+     * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 11;</code>
      */
     java.util.List<emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL> 
         getLCFBHOGGFHBList();
     /**
-     * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+     * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 11;</code>
      */
     emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL getLCFBHOGGFHB(int index);
     /**
-     * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+     * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 11;</code>
      */
     int getLCFBHOGGFHBCount();
     /**
-     * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+     * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 11;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLLOrBuilder> 
         getLCFBHOGGFHBOrBuilderList();
     /**
-     * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+     * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 11;</code>
      */
     emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLLOrBuilder getLCFBHOGGFHBOrBuilder(
         int index);
 
     /**
-     * <code>uint32 slot_id = 2;</code>
+     * <code>uint32 slot_id = 6;</code>
      * @return The slotId.
      */
     int getSlotId();
 
     /**
-     * <code>string name = 9;</code>
+     * <code>string name = 4;</code>
      * @return The name.
      */
     java.lang.String getName();
     /**
-     * <code>string name = 9;</code>
+     * <code>string name = 4;</code>
      * @return The bytes for name.
      */
     com.google.protobuf.ByteString
         getNameBytes();
 
     /**
-     * <code>uint32 audit_state = 13;</code>
+     * <code>uint32 audit_state = 2;</code>
      * @return The auditState.
      */
     int getAuditState();
@@ -114,29 +114,29 @@ public final class FNMMKAMBICNOuterClass {
             case 0:
               done = true;
               break;
-            case 10: {
+            case 16: {
+
+              auditState_ = input.readUInt32();
+              break;
+            }
+            case 34: {
+              java.lang.String s = input.readStringRequireUtf8();
+
+              name_ = s;
+              break;
+            }
+            case 48: {
+
+              slotId_ = input.readUInt32();
+              break;
+            }
+            case 90: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 lCFBHOGGFHB_ = new java.util.ArrayList<emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL>();
                 mutable_bitField0_ |= 0x00000001;
               }
               lCFBHOGGFHB_.add(
                   input.readMessage(emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL.parser(), extensionRegistry));
-              break;
-            }
-            case 16: {
-
-              slotId_ = input.readUInt32();
-              break;
-            }
-            case 74: {
-              java.lang.String s = input.readStringRequireUtf8();
-
-              name_ = s;
-              break;
-            }
-            case 104: {
-
-              auditState_ = input.readUInt32();
               break;
             }
             default: {
@@ -174,17 +174,17 @@ public final class FNMMKAMBICNOuterClass {
               emu.grasscutter.net.proto.FNMMKAMBICNOuterClass.FNMMKAMBICN.class, emu.grasscutter.net.proto.FNMMKAMBICNOuterClass.FNMMKAMBICN.Builder.class);
     }
 
-    public static final int LCFBHOGGFHB_FIELD_NUMBER = 1;
+    public static final int LCFBHOGGFHB_FIELD_NUMBER = 11;
     private java.util.List<emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL> lCFBHOGGFHB_;
     /**
-     * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+     * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 11;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL> getLCFBHOGGFHBList() {
       return lCFBHOGGFHB_;
     }
     /**
-     * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+     * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 11;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLLOrBuilder> 
@@ -192,21 +192,21 @@ public final class FNMMKAMBICNOuterClass {
       return lCFBHOGGFHB_;
     }
     /**
-     * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+     * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 11;</code>
      */
     @java.lang.Override
     public int getLCFBHOGGFHBCount() {
       return lCFBHOGGFHB_.size();
     }
     /**
-     * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+     * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 11;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL getLCFBHOGGFHB(int index) {
       return lCFBHOGGFHB_.get(index);
     }
     /**
-     * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+     * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 11;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLLOrBuilder getLCFBHOGGFHBOrBuilder(
@@ -214,10 +214,10 @@ public final class FNMMKAMBICNOuterClass {
       return lCFBHOGGFHB_.get(index);
     }
 
-    public static final int SLOT_ID_FIELD_NUMBER = 2;
+    public static final int SLOT_ID_FIELD_NUMBER = 6;
     private int slotId_;
     /**
-     * <code>uint32 slot_id = 2;</code>
+     * <code>uint32 slot_id = 6;</code>
      * @return The slotId.
      */
     @java.lang.Override
@@ -225,10 +225,10 @@ public final class FNMMKAMBICNOuterClass {
       return slotId_;
     }
 
-    public static final int NAME_FIELD_NUMBER = 9;
+    public static final int NAME_FIELD_NUMBER = 4;
     private volatile java.lang.Object name_;
     /**
-     * <code>string name = 9;</code>
+     * <code>string name = 4;</code>
      * @return The name.
      */
     @java.lang.Override
@@ -245,7 +245,7 @@ public final class FNMMKAMBICNOuterClass {
       }
     }
     /**
-     * <code>string name = 9;</code>
+     * <code>string name = 4;</code>
      * @return The bytes for name.
      */
     @java.lang.Override
@@ -263,10 +263,10 @@ public final class FNMMKAMBICNOuterClass {
       }
     }
 
-    public static final int AUDIT_STATE_FIELD_NUMBER = 13;
+    public static final int AUDIT_STATE_FIELD_NUMBER = 2;
     private int auditState_;
     /**
-     * <code>uint32 audit_state = 13;</code>
+     * <code>uint32 audit_state = 2;</code>
      * @return The auditState.
      */
     @java.lang.Override
@@ -288,17 +288,17 @@ public final class FNMMKAMBICNOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      for (int i = 0; i < lCFBHOGGFHB_.size(); i++) {
-        output.writeMessage(1, lCFBHOGGFHB_.get(i));
-      }
-      if (slotId_ != 0) {
-        output.writeUInt32(2, slotId_);
+      if (auditState_ != 0) {
+        output.writeUInt32(2, auditState_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(name_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 9, name_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 4, name_);
       }
-      if (auditState_ != 0) {
-        output.writeUInt32(13, auditState_);
+      if (slotId_ != 0) {
+        output.writeUInt32(6, slotId_);
+      }
+      for (int i = 0; i < lCFBHOGGFHB_.size(); i++) {
+        output.writeMessage(11, lCFBHOGGFHB_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -309,20 +309,20 @@ public final class FNMMKAMBICNOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < lCFBHOGGFHB_.size(); i++) {
+      if (auditState_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, lCFBHOGGFHB_.get(i));
+          .computeUInt32Size(2, auditState_);
+      }
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(name_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(4, name_);
       }
       if (slotId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, slotId_);
+          .computeUInt32Size(6, slotId_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(name_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(9, name_);
-      }
-      if (auditState_ != 0) {
+      for (int i = 0; i < lCFBHOGGFHB_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, auditState_);
+          .computeMessageSize(11, lCFBHOGGFHB_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -680,7 +680,7 @@ public final class FNMMKAMBICNOuterClass {
           emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL, emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL.Builder, emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLLOrBuilder> lCFBHOGGFHBBuilder_;
 
       /**
-       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 11;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL> getLCFBHOGGFHBList() {
         if (lCFBHOGGFHBBuilder_ == null) {
@@ -690,7 +690,7 @@ public final class FNMMKAMBICNOuterClass {
         }
       }
       /**
-       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 11;</code>
        */
       public int getLCFBHOGGFHBCount() {
         if (lCFBHOGGFHBBuilder_ == null) {
@@ -700,7 +700,7 @@ public final class FNMMKAMBICNOuterClass {
         }
       }
       /**
-       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 11;</code>
        */
       public emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL getLCFBHOGGFHB(int index) {
         if (lCFBHOGGFHBBuilder_ == null) {
@@ -710,7 +710,7 @@ public final class FNMMKAMBICNOuterClass {
         }
       }
       /**
-       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 11;</code>
        */
       public Builder setLCFBHOGGFHB(
           int index, emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL value) {
@@ -727,7 +727,7 @@ public final class FNMMKAMBICNOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 11;</code>
        */
       public Builder setLCFBHOGGFHB(
           int index, emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL.Builder builderForValue) {
@@ -741,7 +741,7 @@ public final class FNMMKAMBICNOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 11;</code>
        */
       public Builder addLCFBHOGGFHB(emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL value) {
         if (lCFBHOGGFHBBuilder_ == null) {
@@ -757,7 +757,7 @@ public final class FNMMKAMBICNOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 11;</code>
        */
       public Builder addLCFBHOGGFHB(
           int index, emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL value) {
@@ -774,7 +774,7 @@ public final class FNMMKAMBICNOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 11;</code>
        */
       public Builder addLCFBHOGGFHB(
           emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL.Builder builderForValue) {
@@ -788,7 +788,7 @@ public final class FNMMKAMBICNOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 11;</code>
        */
       public Builder addLCFBHOGGFHB(
           int index, emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL.Builder builderForValue) {
@@ -802,7 +802,7 @@ public final class FNMMKAMBICNOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 11;</code>
        */
       public Builder addAllLCFBHOGGFHB(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL> values) {
@@ -817,7 +817,7 @@ public final class FNMMKAMBICNOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 11;</code>
        */
       public Builder clearLCFBHOGGFHB() {
         if (lCFBHOGGFHBBuilder_ == null) {
@@ -830,7 +830,7 @@ public final class FNMMKAMBICNOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 11;</code>
        */
       public Builder removeLCFBHOGGFHB(int index) {
         if (lCFBHOGGFHBBuilder_ == null) {
@@ -843,14 +843,14 @@ public final class FNMMKAMBICNOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 11;</code>
        */
       public emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL.Builder getLCFBHOGGFHBBuilder(
           int index) {
         return getLCFBHOGGFHBFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 11;</code>
        */
       public emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLLOrBuilder getLCFBHOGGFHBOrBuilder(
           int index) {
@@ -860,7 +860,7 @@ public final class FNMMKAMBICNOuterClass {
         }
       }
       /**
-       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 11;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLLOrBuilder> 
            getLCFBHOGGFHBOrBuilderList() {
@@ -871,14 +871,14 @@ public final class FNMMKAMBICNOuterClass {
         }
       }
       /**
-       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 11;</code>
        */
       public emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL.Builder addLCFBHOGGFHBBuilder() {
         return getLCFBHOGGFHBFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL.getDefaultInstance());
       }
       /**
-       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 11;</code>
        */
       public emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL.Builder addLCFBHOGGFHBBuilder(
           int index) {
@@ -886,7 +886,7 @@ public final class FNMMKAMBICNOuterClass {
             index, emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL.getDefaultInstance());
       }
       /**
-       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 1;</code>
+       * <code>repeated .IOIOBABMMLL LCFBHOGGFHB = 11;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.IOIOBABMMLLOuterClass.IOIOBABMMLL.Builder> 
            getLCFBHOGGFHBBuilderList() {
@@ -909,7 +909,7 @@ public final class FNMMKAMBICNOuterClass {
 
       private int slotId_ ;
       /**
-       * <code>uint32 slot_id = 2;</code>
+       * <code>uint32 slot_id = 6;</code>
        * @return The slotId.
        */
       @java.lang.Override
@@ -917,7 +917,7 @@ public final class FNMMKAMBICNOuterClass {
         return slotId_;
       }
       /**
-       * <code>uint32 slot_id = 2;</code>
+       * <code>uint32 slot_id = 6;</code>
        * @param value The slotId to set.
        * @return This builder for chaining.
        */
@@ -928,7 +928,7 @@ public final class FNMMKAMBICNOuterClass {
         return this;
       }
       /**
-       * <code>uint32 slot_id = 2;</code>
+       * <code>uint32 slot_id = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearSlotId() {
@@ -940,7 +940,7 @@ public final class FNMMKAMBICNOuterClass {
 
       private java.lang.Object name_ = "";
       /**
-       * <code>string name = 9;</code>
+       * <code>string name = 4;</code>
        * @return The name.
        */
       public java.lang.String getName() {
@@ -956,7 +956,7 @@ public final class FNMMKAMBICNOuterClass {
         }
       }
       /**
-       * <code>string name = 9;</code>
+       * <code>string name = 4;</code>
        * @return The bytes for name.
        */
       public com.google.protobuf.ByteString
@@ -973,7 +973,7 @@ public final class FNMMKAMBICNOuterClass {
         }
       }
       /**
-       * <code>string name = 9;</code>
+       * <code>string name = 4;</code>
        * @param value The name to set.
        * @return This builder for chaining.
        */
@@ -988,7 +988,7 @@ public final class FNMMKAMBICNOuterClass {
         return this;
       }
       /**
-       * <code>string name = 9;</code>
+       * <code>string name = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearName() {
@@ -998,7 +998,7 @@ public final class FNMMKAMBICNOuterClass {
         return this;
       }
       /**
-       * <code>string name = 9;</code>
+       * <code>string name = 4;</code>
        * @param value The bytes for name to set.
        * @return This builder for chaining.
        */
@@ -1016,7 +1016,7 @@ public final class FNMMKAMBICNOuterClass {
 
       private int auditState_ ;
       /**
-       * <code>uint32 audit_state = 13;</code>
+       * <code>uint32 audit_state = 2;</code>
        * @return The auditState.
        */
       @java.lang.Override
@@ -1024,7 +1024,7 @@ public final class FNMMKAMBICNOuterClass {
         return auditState_;
       }
       /**
-       * <code>uint32 audit_state = 13;</code>
+       * <code>uint32 audit_state = 2;</code>
        * @param value The auditState to set.
        * @return This builder for chaining.
        */
@@ -1035,7 +1035,7 @@ public final class FNMMKAMBICNOuterClass {
         return this;
       }
       /**
-       * <code>uint32 audit_state = 13;</code>
+       * <code>uint32 audit_state = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearAuditState() {
@@ -1112,9 +1112,9 @@ public final class FNMMKAMBICNOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021FNMMKAMBICN.proto\032\021IOIOBABMMLL.proto\"d" +
-      "\n\013FNMMKAMBICN\022!\n\013LCFBHOGGFHB\030\001 \003(\0132\014.IOI" +
-      "OBABMMLL\022\017\n\007slot_id\030\002 \001(\r\022\014\n\004name\030\t \001(\t\022" +
-      "\023\n\013audit_state\030\r \001(\rB2\n\031emu.grasscutter." +
+      "\n\013FNMMKAMBICN\022!\n\013LCFBHOGGFHB\030\013 \003(\0132\014.IOI" +
+      "OBABMMLL\022\017\n\007slot_id\030\006 \001(\r\022\014\n\004name\030\004 \001(\t\022" +
+      "\023\n\013audit_state\030\002 \001(\rB2\n\031emu.grasscutter." +
       "net.protoB\025FNMMKAMBICNOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

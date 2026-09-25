@@ -6,8 +6,8 @@ option java_outer_classname = "StartCoopPointRspOuterClass";
 import "MainCoop.proto";
 
 message StartCoopPointRsp {
-	uint32 coop_point = 1;
+	uint32 coop_point = 4;
 	MainCoop start_main_coop = 8;
-	bool is_start = 10;
-	int32 retcode = 15;
+	bool is_start = 11;
+	int32 retcode = 5;
 }

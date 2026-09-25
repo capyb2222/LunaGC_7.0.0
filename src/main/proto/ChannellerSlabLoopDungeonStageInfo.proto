@@ -6,9 +6,9 @@ option java_outer_classname = "ChannellerSlabLoopDungeonStageInfoOuterClass";
 import "ChannellerSlabLoopDungeonInfo.proto";
 
 message ChannellerSlabLoopDungeonStageInfo {
-	repeated ChannellerSlabLoopDungeonInfo dungeon_info_list = 3;
-	repeated uint32 taken_reward_index_list = 8;
-	uint32 open_time = 11;
-	uint32 last_difficulty_id = 13;
-	bool is_open = 15;
+	repeated ChannellerSlabLoopDungeonInfo dungeon_info_list = 2;
+	repeated uint32 taken_reward_index_list = 5;
+	uint32 open_time = 9;
+	uint32 last_difficulty_id = 6;
+	bool is_open = 12;
 }

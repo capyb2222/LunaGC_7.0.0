@@ -6,8 +6,8 @@ option java_outer_classname = "GBAOLFCECGMOuterClass";
 import "BNJGIMAFELC.proto";
 
 message GBAOLFCECGM {
-	bool LAOJFDMECIB = 3;
-	repeated uint32 JLGIAAGNLCO = 7;
-	repeated BNJGIMAFELC mark_list = 11;
+	bool LAOJFDMECIB = 1;
+	repeated uint32 JLGIAAGNLCO = 12;
+	repeated BNJGIMAFELC mark_list = 15;
 	bool NNBCNODJNBG = 14;
 }

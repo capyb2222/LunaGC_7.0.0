@@ -19,7 +19,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool is_viewed = 2;</code>
+     * <code>bool is_viewed = 9;</code>
      * @return The isViewed.
      */
     boolean getIsViewed();
@@ -31,7 +31,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
     boolean getHaveCurSchedule();
 
     /**
-     * <code>bool phlgoaddenj = 8;</code>
+     * <code>bool phlgoaddenj = 1;</code>
      * @return The phlgoaddenj.
      */
     boolean getPhlgoaddenj();
@@ -52,7 +52,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
     emu.grasscutter.net.proto.BattlePassScheduleOuterClass.BattlePassScheduleOrBuilder getCurScheduleOrBuilder();
 
     /**
-     * <code>uint32 _battle_pass_plan = 12;</code>
+     * <code>uint32 _battle_pass_plan = 11;</code>
      * @return The battlePassPlan.
      */
     int getBattlePassPlan();
@@ -102,9 +102,9 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 8: {
 
-              isViewed_ = input.readBool();
+              phlgoaddenj_ = input.readBool();
               break;
             }
             case 32: {
@@ -112,9 +112,9 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
               haveCurSchedule_ = input.readBool();
               break;
             }
-            case 64: {
+            case 72: {
 
-              phlgoaddenj_ = input.readBool();
+              isViewed_ = input.readBool();
               break;
             }
             case 82: {
@@ -130,7 +130,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
 
               break;
             }
-            case 96: {
+            case 88: {
 
               BattlePassPlan_ = input.readUInt32();
               break;
@@ -167,10 +167,10 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
               emu.grasscutter.net.proto.BattlePassCurScheduleUpdateNotifyOuterClass.BattlePassCurScheduleUpdateNotify.class, emu.grasscutter.net.proto.BattlePassCurScheduleUpdateNotifyOuterClass.BattlePassCurScheduleUpdateNotify.Builder.class);
     }
 
-    public static final int IS_VIEWED_FIELD_NUMBER = 2;
+    public static final int IS_VIEWED_FIELD_NUMBER = 9;
     private boolean isViewed_;
     /**
-     * <code>bool is_viewed = 2;</code>
+     * <code>bool is_viewed = 9;</code>
      * @return The isViewed.
      */
     @java.lang.Override
@@ -189,10 +189,10 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
       return haveCurSchedule_;
     }
 
-    public static final int PHLGOADDENJ_FIELD_NUMBER = 8;
+    public static final int PHLGOADDENJ_FIELD_NUMBER = 1;
     private boolean phlgoaddenj_;
     /**
-     * <code>bool phlgoaddenj = 8;</code>
+     * <code>bool phlgoaddenj = 1;</code>
      * @return The phlgoaddenj.
      */
     @java.lang.Override
@@ -226,10 +226,10 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
       return getCurSchedule();
     }
 
-    public static final int _BATTLE_PASS_PLAN_FIELD_NUMBER = 12;
+    public static final int _BATTLE_PASS_PLAN_FIELD_NUMBER = 11;
     private int BattlePassPlan_;
     /**
-     * <code>uint32 _battle_pass_plan = 12;</code>
+     * <code>uint32 _battle_pass_plan = 11;</code>
      * @return The battlePassPlan.
      */
     @java.lang.Override
@@ -251,20 +251,20 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (isViewed_ != false) {
-        output.writeBool(2, isViewed_);
+      if (phlgoaddenj_ != false) {
+        output.writeBool(1, phlgoaddenj_);
       }
       if (haveCurSchedule_ != false) {
         output.writeBool(4, haveCurSchedule_);
       }
-      if (phlgoaddenj_ != false) {
-        output.writeBool(8, phlgoaddenj_);
+      if (isViewed_ != false) {
+        output.writeBool(9, isViewed_);
       }
       if (curSchedule_ != null) {
         output.writeMessage(10, getCurSchedule());
       }
       if (BattlePassPlan_ != 0) {
-        output.writeUInt32(12, BattlePassPlan_);
+        output.writeUInt32(11, BattlePassPlan_);
       }
       unknownFields.writeTo(output);
     }
@@ -275,17 +275,17 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (isViewed_ != false) {
+      if (phlgoaddenj_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(2, isViewed_);
+          .computeBoolSize(1, phlgoaddenj_);
       }
       if (haveCurSchedule_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(4, haveCurSchedule_);
       }
-      if (phlgoaddenj_ != false) {
+      if (isViewed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(8, phlgoaddenj_);
+          .computeBoolSize(9, isViewed_);
       }
       if (curSchedule_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -293,7 +293,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
       }
       if (BattlePassPlan_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, BattlePassPlan_);
+          .computeUInt32Size(11, BattlePassPlan_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -625,7 +625,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
 
       private boolean isViewed_ ;
       /**
-       * <code>bool is_viewed = 2;</code>
+       * <code>bool is_viewed = 9;</code>
        * @return The isViewed.
        */
       @java.lang.Override
@@ -633,7 +633,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
         return isViewed_;
       }
       /**
-       * <code>bool is_viewed = 2;</code>
+       * <code>bool is_viewed = 9;</code>
        * @param value The isViewed to set.
        * @return This builder for chaining.
        */
@@ -644,7 +644,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
         return this;
       }
       /**
-       * <code>bool is_viewed = 2;</code>
+       * <code>bool is_viewed = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsViewed() {
@@ -687,7 +687,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
 
       private boolean phlgoaddenj_ ;
       /**
-       * <code>bool phlgoaddenj = 8;</code>
+       * <code>bool phlgoaddenj = 1;</code>
        * @return The phlgoaddenj.
        */
       @java.lang.Override
@@ -695,7 +695,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
         return phlgoaddenj_;
       }
       /**
-       * <code>bool phlgoaddenj = 8;</code>
+       * <code>bool phlgoaddenj = 1;</code>
        * @param value The phlgoaddenj to set.
        * @return This builder for chaining.
        */
@@ -706,7 +706,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
         return this;
       }
       /**
-       * <code>bool phlgoaddenj = 8;</code>
+       * <code>bool phlgoaddenj = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearPhlgoaddenj() {
@@ -837,7 +837,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
 
       private int BattlePassPlan_ ;
       /**
-       * <code>uint32 _battle_pass_plan = 12;</code>
+       * <code>uint32 _battle_pass_plan = 11;</code>
        * @return The battlePassPlan.
        */
       @java.lang.Override
@@ -845,7 +845,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
         return BattlePassPlan_;
       }
       /**
-       * <code>uint32 _battle_pass_plan = 12;</code>
+       * <code>uint32 _battle_pass_plan = 11;</code>
        * @param value The battlePassPlan to set.
        * @return This builder for chaining.
        */
@@ -856,7 +856,7 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 _battle_pass_plan = 12;</code>
+       * <code>uint32 _battle_pass_plan = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearBattlePassPlan() {
@@ -934,10 +934,10 @@ public final class BattlePassCurScheduleUpdateNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\'BattlePassCurScheduleUpdateNotify.prot" +
       "o\032\030BattlePassSchedule.proto\"\254\001\n!BattlePa" +
-      "ssCurScheduleUpdateNotify\022\021\n\tis_viewed\030\002" +
+      "ssCurScheduleUpdateNotify\022\021\n\tis_viewed\030\t" +
       " \001(\010\022\031\n\021have_cur_schedule\030\004 \001(\010\022\023\n\013phlgo" +
-      "addenj\030\010 \001(\010\022)\n\014cur_schedule\030\n \001(\0132\023.Bat" +
-      "tlePassSchedule\022\031\n\021_battle_pass_plan\030\014 \001" +
+      "addenj\030\001 \001(\010\022)\n\014cur_schedule\030\n \001(\0132\023.Bat" +
+      "tlePassSchedule\022\031\n\021_battle_pass_plan\030\013 \001" +
       "(\rBH\n\031emu.grasscutter.net.protoB+BattleP" +
       "assCurScheduleUpdateNotifyOuterClassb\006pr" +
       "oto3"

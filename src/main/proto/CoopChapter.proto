@@ -14,15 +14,15 @@ message CoopChapter {
 		STATE_COND_MEET = 2;
 		STATE_ACCEPT = 3;
 	}
-	map<uint32, uint32> seen_ending_map = 2;
-	repeated uint32 ODECGJCJBAB = 3;
-	uint32 total_end_count = 4;
+	map<uint32, uint32> seen_ending_map = 12;
+	repeated uint32 ODECGJCJBAB = 50000;
+	uint32 total_end_count = 50001;
 	State state = 5;
-	uint32 finished_end_count = 6;
-	uint32 id = 7;
-	repeated uint32 JKAGGEGDKOH = 8;
-	repeated uint32 lock_reason_list = 11;
-	repeated CoopPoint coop_point_list = 12;
-	repeated CoopCg coop_cg_list = 14;
-	repeated CoopReward coop_reward_list = 15;
+	uint32 finished_end_count = 50002;
+	uint32 id = 10;
+	repeated uint32 JKAGGEGDKOH = 50003;
+	repeated uint32 lock_reason_list = 50004;
+	repeated CoopPoint coop_point_list = 8;
+	repeated CoopCg coop_cg_list = 4;
+	repeated CoopReward coop_reward_list = 50005;
 }

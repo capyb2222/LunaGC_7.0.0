@@ -19,61 +19,61 @@ public final class DragonSpineActivityDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 dnodgcmpoan = 4;</code>
+     * <code>uint32 dnodgcmpoan = 50000;</code>
      * @return The dnodgcmpoan.
      */
     int getDnodgcmpoan();
 
     /**
-     * <code>uint32 ABBFOLNPGNE = 6;</code>
+     * <code>uint32 ABBFOLNPGNE = 50001;</code>
      * @return The aBBFOLNPGNE.
      */
     int getABBFOLNPGNE();
 
     /**
-     * <code>bool is_content_closed = 7;</code>
+     * <code>bool is_content_closed = 9;</code>
      * @return The isContentClosed.
      */
     boolean getIsContentClosed();
 
     /**
-     * <code>uint32 content_finish_time = 8;</code>
+     * <code>uint32 content_finish_time = 3;</code>
      * @return The contentFinishTime.
      */
     int getContentFinishTime();
 
     /**
-     * <code>uint32 weapon_enhance_level = 10;</code>
+     * <code>uint32 weapon_enhance_level = 50002;</code>
      * @return The weaponEnhanceLevel.
      */
     int getWeaponEnhanceLevel();
 
     /**
-     * <code>uint32 GNADEDJKAJM = 14;</code>
+     * <code>uint32 GNADEDJKAJM = 50003;</code>
      * @return The gNADEDJKAJM.
      */
     int getGNADEDJKAJM();
 
     /**
-     * <code>repeated .DragonSpineChapterInfo chapter_info_list = 15;</code>
+     * <code>repeated .DragonSpineChapterInfo chapter_info_list = 6;</code>
      */
     java.util.List<emu.grasscutter.net.proto.DragonSpineChapterInfoOuterClass.DragonSpineChapterInfo> 
         getChapterInfoListList();
     /**
-     * <code>repeated .DragonSpineChapterInfo chapter_info_list = 15;</code>
+     * <code>repeated .DragonSpineChapterInfo chapter_info_list = 6;</code>
      */
     emu.grasscutter.net.proto.DragonSpineChapterInfoOuterClass.DragonSpineChapterInfo getChapterInfoList(int index);
     /**
-     * <code>repeated .DragonSpineChapterInfo chapter_info_list = 15;</code>
+     * <code>repeated .DragonSpineChapterInfo chapter_info_list = 6;</code>
      */
     int getChapterInfoListCount();
     /**
-     * <code>repeated .DragonSpineChapterInfo chapter_info_list = 15;</code>
+     * <code>repeated .DragonSpineChapterInfo chapter_info_list = 6;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.DragonSpineChapterInfoOuterClass.DragonSpineChapterInfoOrBuilder> 
         getChapterInfoListOrBuilderList();
     /**
-     * <code>repeated .DragonSpineChapterInfo chapter_info_list = 15;</code>
+     * <code>repeated .DragonSpineChapterInfo chapter_info_list = 6;</code>
      */
     emu.grasscutter.net.proto.DragonSpineChapterInfoOuterClass.DragonSpineChapterInfoOrBuilder getChapterInfoListOrBuilder(
         int index);
@@ -125,43 +125,43 @@ public final class DragonSpineActivityDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
-
-              dnodgcmpoan_ = input.readUInt32();
-              break;
-            }
-            case 48: {
-
-              aBBFOLNPGNE_ = input.readUInt32();
-              break;
-            }
-            case 56: {
-
-              isContentClosed_ = input.readBool();
-              break;
-            }
-            case 64: {
+            case 24: {
 
               contentFinishTime_ = input.readUInt32();
               break;
             }
-            case 80: {
-
-              weaponEnhanceLevel_ = input.readUInt32();
-              break;
-            }
-            case 112: {
-
-              gNADEDJKAJM_ = input.readUInt32();
-              break;
-            }
-            case 122: {
+            case 50: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 chapterInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.DragonSpineChapterInfoOuterClass.DragonSpineChapterInfo>();
                 mutable_bitField0_ |= 0x00000001;
               }
               chapterInfoList_.add(
                   input.readMessage(emu.grasscutter.net.proto.DragonSpineChapterInfoOuterClass.DragonSpineChapterInfo.parser(), extensionRegistry));
+              break;
+            }
+            case 72: {
+
+              isContentClosed_ = input.readBool();
+              break;
+            }
+            case 400000: {
+
+              dnodgcmpoan_ = input.readUInt32();
+              break;
+            }
+            case 400008: {
+
+              aBBFOLNPGNE_ = input.readUInt32();
+              break;
+            }
+            case 400016: {
+
+              weaponEnhanceLevel_ = input.readUInt32();
+              break;
+            }
+            case 400024: {
+
+              gNADEDJKAJM_ = input.readUInt32();
               break;
             }
             default: {
@@ -199,10 +199,10 @@ public final class DragonSpineActivityDetailInfoOuterClass {
               emu.grasscutter.net.proto.DragonSpineActivityDetailInfoOuterClass.DragonSpineActivityDetailInfo.class, emu.grasscutter.net.proto.DragonSpineActivityDetailInfoOuterClass.DragonSpineActivityDetailInfo.Builder.class);
     }
 
-    public static final int DNODGCMPOAN_FIELD_NUMBER = 4;
+    public static final int DNODGCMPOAN_FIELD_NUMBER = 50000;
     private int dnodgcmpoan_;
     /**
-     * <code>uint32 dnodgcmpoan = 4;</code>
+     * <code>uint32 dnodgcmpoan = 50000;</code>
      * @return The dnodgcmpoan.
      */
     @java.lang.Override
@@ -210,10 +210,10 @@ public final class DragonSpineActivityDetailInfoOuterClass {
       return dnodgcmpoan_;
     }
 
-    public static final int ABBFOLNPGNE_FIELD_NUMBER = 6;
+    public static final int ABBFOLNPGNE_FIELD_NUMBER = 50001;
     private int aBBFOLNPGNE_;
     /**
-     * <code>uint32 ABBFOLNPGNE = 6;</code>
+     * <code>uint32 ABBFOLNPGNE = 50001;</code>
      * @return The aBBFOLNPGNE.
      */
     @java.lang.Override
@@ -221,10 +221,10 @@ public final class DragonSpineActivityDetailInfoOuterClass {
       return aBBFOLNPGNE_;
     }
 
-    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 7;
+    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 9;
     private boolean isContentClosed_;
     /**
-     * <code>bool is_content_closed = 7;</code>
+     * <code>bool is_content_closed = 9;</code>
      * @return The isContentClosed.
      */
     @java.lang.Override
@@ -232,10 +232,10 @@ public final class DragonSpineActivityDetailInfoOuterClass {
       return isContentClosed_;
     }
 
-    public static final int CONTENT_FINISH_TIME_FIELD_NUMBER = 8;
+    public static final int CONTENT_FINISH_TIME_FIELD_NUMBER = 3;
     private int contentFinishTime_;
     /**
-     * <code>uint32 content_finish_time = 8;</code>
+     * <code>uint32 content_finish_time = 3;</code>
      * @return The contentFinishTime.
      */
     @java.lang.Override
@@ -243,10 +243,10 @@ public final class DragonSpineActivityDetailInfoOuterClass {
       return contentFinishTime_;
     }
 
-    public static final int WEAPON_ENHANCE_LEVEL_FIELD_NUMBER = 10;
+    public static final int WEAPON_ENHANCE_LEVEL_FIELD_NUMBER = 50002;
     private int weaponEnhanceLevel_;
     /**
-     * <code>uint32 weapon_enhance_level = 10;</code>
+     * <code>uint32 weapon_enhance_level = 50002;</code>
      * @return The weaponEnhanceLevel.
      */
     @java.lang.Override
@@ -254,10 +254,10 @@ public final class DragonSpineActivityDetailInfoOuterClass {
       return weaponEnhanceLevel_;
     }
 
-    public static final int GNADEDJKAJM_FIELD_NUMBER = 14;
+    public static final int GNADEDJKAJM_FIELD_NUMBER = 50003;
     private int gNADEDJKAJM_;
     /**
-     * <code>uint32 GNADEDJKAJM = 14;</code>
+     * <code>uint32 GNADEDJKAJM = 50003;</code>
      * @return The gNADEDJKAJM.
      */
     @java.lang.Override
@@ -265,17 +265,17 @@ public final class DragonSpineActivityDetailInfoOuterClass {
       return gNADEDJKAJM_;
     }
 
-    public static final int CHAPTER_INFO_LIST_FIELD_NUMBER = 15;
+    public static final int CHAPTER_INFO_LIST_FIELD_NUMBER = 6;
     private java.util.List<emu.grasscutter.net.proto.DragonSpineChapterInfoOuterClass.DragonSpineChapterInfo> chapterInfoList_;
     /**
-     * <code>repeated .DragonSpineChapterInfo chapter_info_list = 15;</code>
+     * <code>repeated .DragonSpineChapterInfo chapter_info_list = 6;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.DragonSpineChapterInfoOuterClass.DragonSpineChapterInfo> getChapterInfoListList() {
       return chapterInfoList_;
     }
     /**
-     * <code>repeated .DragonSpineChapterInfo chapter_info_list = 15;</code>
+     * <code>repeated .DragonSpineChapterInfo chapter_info_list = 6;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.DragonSpineChapterInfoOuterClass.DragonSpineChapterInfoOrBuilder> 
@@ -283,21 +283,21 @@ public final class DragonSpineActivityDetailInfoOuterClass {
       return chapterInfoList_;
     }
     /**
-     * <code>repeated .DragonSpineChapterInfo chapter_info_list = 15;</code>
+     * <code>repeated .DragonSpineChapterInfo chapter_info_list = 6;</code>
      */
     @java.lang.Override
     public int getChapterInfoListCount() {
       return chapterInfoList_.size();
     }
     /**
-     * <code>repeated .DragonSpineChapterInfo chapter_info_list = 15;</code>
+     * <code>repeated .DragonSpineChapterInfo chapter_info_list = 6;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.DragonSpineChapterInfoOuterClass.DragonSpineChapterInfo getChapterInfoList(int index) {
       return chapterInfoList_.get(index);
     }
     /**
-     * <code>repeated .DragonSpineChapterInfo chapter_info_list = 15;</code>
+     * <code>repeated .DragonSpineChapterInfo chapter_info_list = 6;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.DragonSpineChapterInfoOuterClass.DragonSpineChapterInfoOrBuilder getChapterInfoListOrBuilder(
@@ -319,26 +319,26 @@ public final class DragonSpineActivityDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (dnodgcmpoan_ != 0) {
-        output.writeUInt32(4, dnodgcmpoan_);
-      }
-      if (aBBFOLNPGNE_ != 0) {
-        output.writeUInt32(6, aBBFOLNPGNE_);
-      }
-      if (isContentClosed_ != false) {
-        output.writeBool(7, isContentClosed_);
-      }
       if (contentFinishTime_ != 0) {
-        output.writeUInt32(8, contentFinishTime_);
-      }
-      if (weaponEnhanceLevel_ != 0) {
-        output.writeUInt32(10, weaponEnhanceLevel_);
-      }
-      if (gNADEDJKAJM_ != 0) {
-        output.writeUInt32(14, gNADEDJKAJM_);
+        output.writeUInt32(3, contentFinishTime_);
       }
       for (int i = 0; i < chapterInfoList_.size(); i++) {
-        output.writeMessage(15, chapterInfoList_.get(i));
+        output.writeMessage(6, chapterInfoList_.get(i));
+      }
+      if (isContentClosed_ != false) {
+        output.writeBool(9, isContentClosed_);
+      }
+      if (dnodgcmpoan_ != 0) {
+        output.writeUInt32(50000, dnodgcmpoan_);
+      }
+      if (aBBFOLNPGNE_ != 0) {
+        output.writeUInt32(50001, aBBFOLNPGNE_);
+      }
+      if (weaponEnhanceLevel_ != 0) {
+        output.writeUInt32(50002, weaponEnhanceLevel_);
+      }
+      if (gNADEDJKAJM_ != 0) {
+        output.writeUInt32(50003, gNADEDJKAJM_);
       }
       unknownFields.writeTo(output);
     }
@@ -349,33 +349,33 @@ public final class DragonSpineActivityDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (dnodgcmpoan_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, dnodgcmpoan_);
-      }
-      if (aBBFOLNPGNE_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, aBBFOLNPGNE_);
-      }
-      if (isContentClosed_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(7, isContentClosed_);
-      }
       if (contentFinishTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, contentFinishTime_);
-      }
-      if (weaponEnhanceLevel_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, weaponEnhanceLevel_);
-      }
-      if (gNADEDJKAJM_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, gNADEDJKAJM_);
+          .computeUInt32Size(3, contentFinishTime_);
       }
       for (int i = 0; i < chapterInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, chapterInfoList_.get(i));
+          .computeMessageSize(6, chapterInfoList_.get(i));
+      }
+      if (isContentClosed_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(9, isContentClosed_);
+      }
+      if (dnodgcmpoan_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50000, dnodgcmpoan_);
+      }
+      if (aBBFOLNPGNE_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50001, aBBFOLNPGNE_);
+      }
+      if (weaponEnhanceLevel_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50002, weaponEnhanceLevel_);
+      }
+      if (gNADEDJKAJM_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50003, gNADEDJKAJM_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -752,7 +752,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
 
       private int dnodgcmpoan_ ;
       /**
-       * <code>uint32 dnodgcmpoan = 4;</code>
+       * <code>uint32 dnodgcmpoan = 50000;</code>
        * @return The dnodgcmpoan.
        */
       @java.lang.Override
@@ -760,7 +760,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
         return dnodgcmpoan_;
       }
       /**
-       * <code>uint32 dnodgcmpoan = 4;</code>
+       * <code>uint32 dnodgcmpoan = 50000;</code>
        * @param value The dnodgcmpoan to set.
        * @return This builder for chaining.
        */
@@ -771,7 +771,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 dnodgcmpoan = 4;</code>
+       * <code>uint32 dnodgcmpoan = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearDnodgcmpoan() {
@@ -783,7 +783,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
 
       private int aBBFOLNPGNE_ ;
       /**
-       * <code>uint32 ABBFOLNPGNE = 6;</code>
+       * <code>uint32 ABBFOLNPGNE = 50001;</code>
        * @return The aBBFOLNPGNE.
        */
       @java.lang.Override
@@ -791,7 +791,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
         return aBBFOLNPGNE_;
       }
       /**
-       * <code>uint32 ABBFOLNPGNE = 6;</code>
+       * <code>uint32 ABBFOLNPGNE = 50001;</code>
        * @param value The aBBFOLNPGNE to set.
        * @return This builder for chaining.
        */
@@ -802,7 +802,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 ABBFOLNPGNE = 6;</code>
+       * <code>uint32 ABBFOLNPGNE = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearABBFOLNPGNE() {
@@ -814,7 +814,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
 
       private boolean isContentClosed_ ;
       /**
-       * <code>bool is_content_closed = 7;</code>
+       * <code>bool is_content_closed = 9;</code>
        * @return The isContentClosed.
        */
       @java.lang.Override
@@ -822,7 +822,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
         return isContentClosed_;
       }
       /**
-       * <code>bool is_content_closed = 7;</code>
+       * <code>bool is_content_closed = 9;</code>
        * @param value The isContentClosed to set.
        * @return This builder for chaining.
        */
@@ -833,7 +833,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_content_closed = 7;</code>
+       * <code>bool is_content_closed = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsContentClosed() {
@@ -845,7 +845,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
 
       private int contentFinishTime_ ;
       /**
-       * <code>uint32 content_finish_time = 8;</code>
+       * <code>uint32 content_finish_time = 3;</code>
        * @return The contentFinishTime.
        */
       @java.lang.Override
@@ -853,7 +853,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
         return contentFinishTime_;
       }
       /**
-       * <code>uint32 content_finish_time = 8;</code>
+       * <code>uint32 content_finish_time = 3;</code>
        * @param value The contentFinishTime to set.
        * @return This builder for chaining.
        */
@@ -864,7 +864,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 content_finish_time = 8;</code>
+       * <code>uint32 content_finish_time = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearContentFinishTime() {
@@ -876,7 +876,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
 
       private int weaponEnhanceLevel_ ;
       /**
-       * <code>uint32 weapon_enhance_level = 10;</code>
+       * <code>uint32 weapon_enhance_level = 50002;</code>
        * @return The weaponEnhanceLevel.
        */
       @java.lang.Override
@@ -884,7 +884,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
         return weaponEnhanceLevel_;
       }
       /**
-       * <code>uint32 weapon_enhance_level = 10;</code>
+       * <code>uint32 weapon_enhance_level = 50002;</code>
        * @param value The weaponEnhanceLevel to set.
        * @return This builder for chaining.
        */
@@ -895,7 +895,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 weapon_enhance_level = 10;</code>
+       * <code>uint32 weapon_enhance_level = 50002;</code>
        * @return This builder for chaining.
        */
       public Builder clearWeaponEnhanceLevel() {
@@ -907,7 +907,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
 
       private int gNADEDJKAJM_ ;
       /**
-       * <code>uint32 GNADEDJKAJM = 14;</code>
+       * <code>uint32 GNADEDJKAJM = 50003;</code>
        * @return The gNADEDJKAJM.
        */
       @java.lang.Override
@@ -915,7 +915,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
         return gNADEDJKAJM_;
       }
       /**
-       * <code>uint32 GNADEDJKAJM = 14;</code>
+       * <code>uint32 GNADEDJKAJM = 50003;</code>
        * @param value The gNADEDJKAJM to set.
        * @return This builder for chaining.
        */
@@ -926,7 +926,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 GNADEDJKAJM = 14;</code>
+       * <code>uint32 GNADEDJKAJM = 50003;</code>
        * @return This builder for chaining.
        */
       public Builder clearGNADEDJKAJM() {
@@ -949,7 +949,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
           emu.grasscutter.net.proto.DragonSpineChapterInfoOuterClass.DragonSpineChapterInfo, emu.grasscutter.net.proto.DragonSpineChapterInfoOuterClass.DragonSpineChapterInfo.Builder, emu.grasscutter.net.proto.DragonSpineChapterInfoOuterClass.DragonSpineChapterInfoOrBuilder> chapterInfoListBuilder_;
 
       /**
-       * <code>repeated .DragonSpineChapterInfo chapter_info_list = 15;</code>
+       * <code>repeated .DragonSpineChapterInfo chapter_info_list = 6;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.DragonSpineChapterInfoOuterClass.DragonSpineChapterInfo> getChapterInfoListList() {
         if (chapterInfoListBuilder_ == null) {
@@ -959,7 +959,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .DragonSpineChapterInfo chapter_info_list = 15;</code>
+       * <code>repeated .DragonSpineChapterInfo chapter_info_list = 6;</code>
        */
       public int getChapterInfoListCount() {
         if (chapterInfoListBuilder_ == null) {
@@ -969,7 +969,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .DragonSpineChapterInfo chapter_info_list = 15;</code>
+       * <code>repeated .DragonSpineChapterInfo chapter_info_list = 6;</code>
        */
       public emu.grasscutter.net.proto.DragonSpineChapterInfoOuterClass.DragonSpineChapterInfo getChapterInfoList(int index) {
         if (chapterInfoListBuilder_ == null) {
@@ -979,7 +979,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .DragonSpineChapterInfo chapter_info_list = 15;</code>
+       * <code>repeated .DragonSpineChapterInfo chapter_info_list = 6;</code>
        */
       public Builder setChapterInfoList(
           int index, emu.grasscutter.net.proto.DragonSpineChapterInfoOuterClass.DragonSpineChapterInfo value) {
@@ -996,7 +996,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DragonSpineChapterInfo chapter_info_list = 15;</code>
+       * <code>repeated .DragonSpineChapterInfo chapter_info_list = 6;</code>
        */
       public Builder setChapterInfoList(
           int index, emu.grasscutter.net.proto.DragonSpineChapterInfoOuterClass.DragonSpineChapterInfo.Builder builderForValue) {
@@ -1010,7 +1010,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DragonSpineChapterInfo chapter_info_list = 15;</code>
+       * <code>repeated .DragonSpineChapterInfo chapter_info_list = 6;</code>
        */
       public Builder addChapterInfoList(emu.grasscutter.net.proto.DragonSpineChapterInfoOuterClass.DragonSpineChapterInfo value) {
         if (chapterInfoListBuilder_ == null) {
@@ -1026,7 +1026,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DragonSpineChapterInfo chapter_info_list = 15;</code>
+       * <code>repeated .DragonSpineChapterInfo chapter_info_list = 6;</code>
        */
       public Builder addChapterInfoList(
           int index, emu.grasscutter.net.proto.DragonSpineChapterInfoOuterClass.DragonSpineChapterInfo value) {
@@ -1043,7 +1043,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DragonSpineChapterInfo chapter_info_list = 15;</code>
+       * <code>repeated .DragonSpineChapterInfo chapter_info_list = 6;</code>
        */
       public Builder addChapterInfoList(
           emu.grasscutter.net.proto.DragonSpineChapterInfoOuterClass.DragonSpineChapterInfo.Builder builderForValue) {
@@ -1057,7 +1057,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DragonSpineChapterInfo chapter_info_list = 15;</code>
+       * <code>repeated .DragonSpineChapterInfo chapter_info_list = 6;</code>
        */
       public Builder addChapterInfoList(
           int index, emu.grasscutter.net.proto.DragonSpineChapterInfoOuterClass.DragonSpineChapterInfo.Builder builderForValue) {
@@ -1071,7 +1071,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DragonSpineChapterInfo chapter_info_list = 15;</code>
+       * <code>repeated .DragonSpineChapterInfo chapter_info_list = 6;</code>
        */
       public Builder addAllChapterInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.DragonSpineChapterInfoOuterClass.DragonSpineChapterInfo> values) {
@@ -1086,7 +1086,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DragonSpineChapterInfo chapter_info_list = 15;</code>
+       * <code>repeated .DragonSpineChapterInfo chapter_info_list = 6;</code>
        */
       public Builder clearChapterInfoList() {
         if (chapterInfoListBuilder_ == null) {
@@ -1099,7 +1099,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DragonSpineChapterInfo chapter_info_list = 15;</code>
+       * <code>repeated .DragonSpineChapterInfo chapter_info_list = 6;</code>
        */
       public Builder removeChapterInfoList(int index) {
         if (chapterInfoListBuilder_ == null) {
@@ -1112,14 +1112,14 @@ public final class DragonSpineActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DragonSpineChapterInfo chapter_info_list = 15;</code>
+       * <code>repeated .DragonSpineChapterInfo chapter_info_list = 6;</code>
        */
       public emu.grasscutter.net.proto.DragonSpineChapterInfoOuterClass.DragonSpineChapterInfo.Builder getChapterInfoListBuilder(
           int index) {
         return getChapterInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .DragonSpineChapterInfo chapter_info_list = 15;</code>
+       * <code>repeated .DragonSpineChapterInfo chapter_info_list = 6;</code>
        */
       public emu.grasscutter.net.proto.DragonSpineChapterInfoOuterClass.DragonSpineChapterInfoOrBuilder getChapterInfoListOrBuilder(
           int index) {
@@ -1129,7 +1129,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .DragonSpineChapterInfo chapter_info_list = 15;</code>
+       * <code>repeated .DragonSpineChapterInfo chapter_info_list = 6;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.DragonSpineChapterInfoOuterClass.DragonSpineChapterInfoOrBuilder> 
            getChapterInfoListOrBuilderList() {
@@ -1140,14 +1140,14 @@ public final class DragonSpineActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .DragonSpineChapterInfo chapter_info_list = 15;</code>
+       * <code>repeated .DragonSpineChapterInfo chapter_info_list = 6;</code>
        */
       public emu.grasscutter.net.proto.DragonSpineChapterInfoOuterClass.DragonSpineChapterInfo.Builder addChapterInfoListBuilder() {
         return getChapterInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.DragonSpineChapterInfoOuterClass.DragonSpineChapterInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .DragonSpineChapterInfo chapter_info_list = 15;</code>
+       * <code>repeated .DragonSpineChapterInfo chapter_info_list = 6;</code>
        */
       public emu.grasscutter.net.proto.DragonSpineChapterInfoOuterClass.DragonSpineChapterInfo.Builder addChapterInfoListBuilder(
           int index) {
@@ -1155,7 +1155,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.DragonSpineChapterInfoOuterClass.DragonSpineChapterInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .DragonSpineChapterInfo chapter_info_list = 15;</code>
+       * <code>repeated .DragonSpineChapterInfo chapter_info_list = 6;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.DragonSpineChapterInfoOuterClass.DragonSpineChapterInfo.Builder> 
            getChapterInfoListBuilderList() {
@@ -1243,15 +1243,15 @@ public final class DragonSpineActivityDetailInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n#DragonSpineActivityDetailInfo.proto\032\034D" +
-      "ragonSpineChapterInfo.proto\"\350\001\n\035DragonSp" +
-      "ineActivityDetailInfo\022\023\n\013dnodgcmpoan\030\004 \001" +
-      "(\r\022\023\n\013ABBFOLNPGNE\030\006 \001(\r\022\031\n\021is_content_cl" +
-      "osed\030\007 \001(\010\022\033\n\023content_finish_time\030\010 \001(\r\022" +
-      "\034\n\024weapon_enhance_level\030\n \001(\r\022\023\n\013GNADEDJ" +
-      "KAJM\030\016 \001(\r\0222\n\021chapter_info_list\030\017 \003(\0132\027." +
-      "DragonSpineChapterInfoBD\n\031emu.grasscutte" +
-      "r.net.protoB\'DragonSpineActivityDetailIn" +
-      "foOuterClassb\006proto3"
+      "ragonSpineChapterInfo.proto\"\360\001\n\035DragonSp" +
+      "ineActivityDetailInfo\022\025\n\013dnodgcmpoan\030\320\206\003" +
+      " \001(\r\022\025\n\013ABBFOLNPGNE\030\321\206\003 \001(\r\022\031\n\021is_conten" +
+      "t_closed\030\t \001(\010\022\033\n\023content_finish_time\030\003 " +
+      "\001(\r\022\036\n\024weapon_enhance_level\030\322\206\003 \001(\r\022\025\n\013G" +
+      "NADEDJKAJM\030\323\206\003 \001(\r\0222\n\021chapter_info_list\030" +
+      "\006 \003(\0132\027.DragonSpineChapterInfoBD\n\031emu.gr" +
+      "asscutter.net.protoB\'DragonSpineActivity" +
+      "DetailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

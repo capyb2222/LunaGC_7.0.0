@@ -4,8 +4,8 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "WeaponPromoteRspOuterClass";
 
 message WeaponPromoteRsp {
-	int32 retcode = 4;
-	uint64 target_weapon_guid = 6;
-	uint32 old_promote_level = 7;
-	uint32 cur_promote_level = 14;
+	int32 retcode = 7;
+	uint64 target_weapon_guid = 1;
+	uint32 old_promote_level = 50000;
+	uint32 cur_promote_level = 50001;
 }

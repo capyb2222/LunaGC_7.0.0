@@ -7,8 +7,8 @@ import "WidgetSlotOp.proto";
 import "WidgetSlotTag.proto";
 
 message SetWidgetSlotRsp {
-	WidgetSlotOp op = 6;
-	int32 retcode = 9;
-	uint32 material_id = 12;
-	repeated WidgetSlotTag tag_list = 14;
+	WidgetSlotOp op = 1;
+	int32 retcode = 12;
+	uint32 material_id = 10;
+	repeated WidgetSlotTag tag_list = 6;
 }

@@ -4,5 +4,5 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "StartCoopPointReqOuterClass";
 
 message StartCoopPointReq {
-	uint32 coop_point = 14;
+	uint32 coop_point = 6;
 }

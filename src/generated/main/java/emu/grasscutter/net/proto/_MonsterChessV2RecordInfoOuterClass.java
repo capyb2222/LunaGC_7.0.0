@@ -19,17 +19,17 @@ public final class _MonsterChessV2RecordInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 _artifact_id_list = 1;</code>
+     * <code>repeated uint32 _artifact_id_list = 10;</code>
      * @return A list containing the artifactIdList.
      */
     java.util.List<java.lang.Integer> getArtifactIdListList();
     /**
-     * <code>repeated uint32 _artifact_id_list = 1;</code>
+     * <code>repeated uint32 _artifact_id_list = 10;</code>
      * @return The count of artifactIdList.
      */
     int getArtifactIdListCount();
     /**
-     * <code>repeated uint32 _artifact_id_list = 1;</code>
+     * <code>repeated uint32 _artifact_id_list = 10;</code>
      * @param index The index of the element to return.
      * @return The artifactIdList at the given index.
      */
@@ -42,54 +42,54 @@ public final class _MonsterChessV2RecordInfoOuterClass {
     int getTimestamp();
 
     /**
-     * <code>bool _is_infinite = 10;</code>
+     * <code>bool _is_infinite = 14;</code>
      * @return The isInfinite.
      */
     boolean getIsInfinite();
 
     /**
-     * <code>uint32 _infinite_win_num = 11;</code>
+     * <code>uint32 _infinite_win_num = 4;</code>
      * @return The infiniteWinNum.
      */
     int getInfiniteWinNum();
 
     /**
-     * <code>repeated uint32 _win_round_list = 14;</code>
+     * <code>repeated uint32 _win_round_list = 3;</code>
      * @return A list containing the winRoundList.
      */
     java.util.List<java.lang.Integer> getWinRoundListList();
     /**
-     * <code>repeated uint32 _win_round_list = 14;</code>
+     * <code>repeated uint32 _win_round_list = 3;</code>
      * @return The count of winRoundList.
      */
     int getWinRoundListCount();
     /**
-     * <code>repeated uint32 _win_round_list = 14;</code>
+     * <code>repeated uint32 _win_round_list = 3;</code>
      * @param index The index of the element to return.
      * @return The winRoundList at the given index.
      */
     int getWinRoundList(int index);
 
     /**
-     * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 15;</code>
+     * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 12;</code>
      */
     java.util.List<emu.grasscutter.net.proto._MonsterChessV2RecordTeamInfoOuterClass._MonsterChessV2RecordTeamInfo> 
         getTeamInfoListList();
     /**
-     * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 15;</code>
+     * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 12;</code>
      */
     emu.grasscutter.net.proto._MonsterChessV2RecordTeamInfoOuterClass._MonsterChessV2RecordTeamInfo getTeamInfoList(int index);
     /**
-     * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 15;</code>
+     * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 12;</code>
      */
     int getTeamInfoListCount();
     /**
-     * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 15;</code>
+     * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 12;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto._MonsterChessV2RecordTeamInfoOuterClass._MonsterChessV2RecordTeamInfoOrBuilder> 
         getTeamInfoListOrBuilderList();
     /**
-     * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 15;</code>
+     * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 12;</code>
      */
     emu.grasscutter.net.proto._MonsterChessV2RecordTeamInfoOuterClass._MonsterChessV2RecordTeamInfoOrBuilder getTeamInfoListOrBuilder(
         int index);
@@ -143,43 +143,7 @@ public final class _MonsterChessV2RecordInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                ArtifactIdList_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              ArtifactIdList_.addInt(input.readUInt32());
-              break;
-            }
-            case 10: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                ArtifactIdList_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                ArtifactIdList_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
-              break;
-            }
-            case 56: {
-
-              timestamp_ = input.readUInt32();
-              break;
-            }
-            case 80: {
-
-              IsInfinite_ = input.readBool();
-              break;
-            }
-            case 88: {
-
-              InfiniteWinNum_ = input.readUInt32();
-              break;
-            }
-            case 112: {
+            case 24: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 WinRoundList_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
@@ -187,7 +151,7 @@ public final class _MonsterChessV2RecordInfoOuterClass {
               WinRoundList_.addInt(input.readUInt32());
               break;
             }
-            case 114: {
+            case 26: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
@@ -200,13 +164,49 @@ public final class _MonsterChessV2RecordInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 122: {
+            case 32: {
+
+              InfiniteWinNum_ = input.readUInt32();
+              break;
+            }
+            case 56: {
+
+              timestamp_ = input.readUInt32();
+              break;
+            }
+            case 80: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                ArtifactIdList_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              ArtifactIdList_.addInt(input.readUInt32());
+              break;
+            }
+            case 82: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
+                ArtifactIdList_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                ArtifactIdList_.addInt(input.readUInt32());
+              }
+              input.popLimit(limit);
+              break;
+            }
+            case 98: {
               if (!((mutable_bitField0_ & 0x00000004) != 0)) {
                 teamInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto._MonsterChessV2RecordTeamInfoOuterClass._MonsterChessV2RecordTeamInfo>();
                 mutable_bitField0_ |= 0x00000004;
               }
               teamInfoList_.add(
                   input.readMessage(emu.grasscutter.net.proto._MonsterChessV2RecordTeamInfoOuterClass._MonsterChessV2RecordTeamInfo.parser(), extensionRegistry));
+              break;
+            }
+            case 112: {
+
+              IsInfinite_ = input.readBool();
               break;
             }
             default: {
@@ -224,11 +224,11 @@ public final class _MonsterChessV2RecordInfoOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          ArtifactIdList_.makeImmutable(); // C
-        }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
           WinRoundList_.makeImmutable(); // C
+        }
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          ArtifactIdList_.makeImmutable(); // C
         }
         if (((mutable_bitField0_ & 0x00000004) != 0)) {
           teamInfoList_ = java.util.Collections.unmodifiableList(teamInfoList_);
@@ -250,10 +250,10 @@ public final class _MonsterChessV2RecordInfoOuterClass {
               emu.grasscutter.net.proto._MonsterChessV2RecordInfoOuterClass._MonsterChessV2RecordInfo.class, emu.grasscutter.net.proto._MonsterChessV2RecordInfoOuterClass._MonsterChessV2RecordInfo.Builder.class);
     }
 
-    public static final int _ARTIFACT_ID_LIST_FIELD_NUMBER = 1;
+    public static final int _ARTIFACT_ID_LIST_FIELD_NUMBER = 10;
     private com.google.protobuf.Internal.IntList ArtifactIdList_;
     /**
-     * <code>repeated uint32 _artifact_id_list = 1;</code>
+     * <code>repeated uint32 _artifact_id_list = 10;</code>
      * @return A list containing the artifactIdList.
      */
     @java.lang.Override
@@ -262,14 +262,14 @@ public final class _MonsterChessV2RecordInfoOuterClass {
       return ArtifactIdList_;
     }
     /**
-     * <code>repeated uint32 _artifact_id_list = 1;</code>
+     * <code>repeated uint32 _artifact_id_list = 10;</code>
      * @return The count of artifactIdList.
      */
     public int getArtifactIdListCount() {
       return ArtifactIdList_.size();
     }
     /**
-     * <code>repeated uint32 _artifact_id_list = 1;</code>
+     * <code>repeated uint32 _artifact_id_list = 10;</code>
      * @param index The index of the element to return.
      * @return The artifactIdList at the given index.
      */
@@ -289,10 +289,10 @@ public final class _MonsterChessV2RecordInfoOuterClass {
       return timestamp_;
     }
 
-    public static final int _IS_INFINITE_FIELD_NUMBER = 10;
+    public static final int _IS_INFINITE_FIELD_NUMBER = 14;
     private boolean IsInfinite_;
     /**
-     * <code>bool _is_infinite = 10;</code>
+     * <code>bool _is_infinite = 14;</code>
      * @return The isInfinite.
      */
     @java.lang.Override
@@ -300,10 +300,10 @@ public final class _MonsterChessV2RecordInfoOuterClass {
       return IsInfinite_;
     }
 
-    public static final int _INFINITE_WIN_NUM_FIELD_NUMBER = 11;
+    public static final int _INFINITE_WIN_NUM_FIELD_NUMBER = 4;
     private int InfiniteWinNum_;
     /**
-     * <code>uint32 _infinite_win_num = 11;</code>
+     * <code>uint32 _infinite_win_num = 4;</code>
      * @return The infiniteWinNum.
      */
     @java.lang.Override
@@ -311,10 +311,10 @@ public final class _MonsterChessV2RecordInfoOuterClass {
       return InfiniteWinNum_;
     }
 
-    public static final int _WIN_ROUND_LIST_FIELD_NUMBER = 14;
+    public static final int _WIN_ROUND_LIST_FIELD_NUMBER = 3;
     private com.google.protobuf.Internal.IntList WinRoundList_;
     /**
-     * <code>repeated uint32 _win_round_list = 14;</code>
+     * <code>repeated uint32 _win_round_list = 3;</code>
      * @return A list containing the winRoundList.
      */
     @java.lang.Override
@@ -323,14 +323,14 @@ public final class _MonsterChessV2RecordInfoOuterClass {
       return WinRoundList_;
     }
     /**
-     * <code>repeated uint32 _win_round_list = 14;</code>
+     * <code>repeated uint32 _win_round_list = 3;</code>
      * @return The count of winRoundList.
      */
     public int getWinRoundListCount() {
       return WinRoundList_.size();
     }
     /**
-     * <code>repeated uint32 _win_round_list = 14;</code>
+     * <code>repeated uint32 _win_round_list = 3;</code>
      * @param index The index of the element to return.
      * @return The winRoundList at the given index.
      */
@@ -339,17 +339,17 @@ public final class _MonsterChessV2RecordInfoOuterClass {
     }
     private int WinRoundListMemoizedSerializedSize = -1;
 
-    public static final int TEAM_INFO_LIST_FIELD_NUMBER = 15;
+    public static final int TEAM_INFO_LIST_FIELD_NUMBER = 12;
     private java.util.List<emu.grasscutter.net.proto._MonsterChessV2RecordTeamInfoOuterClass._MonsterChessV2RecordTeamInfo> teamInfoList_;
     /**
-     * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 15;</code>
+     * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 12;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto._MonsterChessV2RecordTeamInfoOuterClass._MonsterChessV2RecordTeamInfo> getTeamInfoListList() {
       return teamInfoList_;
     }
     /**
-     * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 15;</code>
+     * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 12;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto._MonsterChessV2RecordTeamInfoOuterClass._MonsterChessV2RecordTeamInfoOrBuilder> 
@@ -357,21 +357,21 @@ public final class _MonsterChessV2RecordInfoOuterClass {
       return teamInfoList_;
     }
     /**
-     * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 15;</code>
+     * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 12;</code>
      */
     @java.lang.Override
     public int getTeamInfoListCount() {
       return teamInfoList_.size();
     }
     /**
-     * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 15;</code>
+     * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 12;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._MonsterChessV2RecordTeamInfoOuterClass._MonsterChessV2RecordTeamInfo getTeamInfoList(int index) {
       return teamInfoList_.get(index);
     }
     /**
-     * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 15;</code>
+     * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 12;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._MonsterChessV2RecordTeamInfoOuterClass._MonsterChessV2RecordTeamInfoOrBuilder getTeamInfoListOrBuilder(
@@ -394,31 +394,31 @@ public final class _MonsterChessV2RecordInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (getArtifactIdListList().size() > 0) {
-        output.writeUInt32NoTag(10);
-        output.writeUInt32NoTag(ArtifactIdListMemoizedSerializedSize);
-      }
-      for (int i = 0; i < ArtifactIdList_.size(); i++) {
-        output.writeUInt32NoTag(ArtifactIdList_.getInt(i));
-      }
-      if (timestamp_ != 0) {
-        output.writeUInt32(7, timestamp_);
-      }
-      if (IsInfinite_ != false) {
-        output.writeBool(10, IsInfinite_);
-      }
-      if (InfiniteWinNum_ != 0) {
-        output.writeUInt32(11, InfiniteWinNum_);
-      }
       if (getWinRoundListList().size() > 0) {
-        output.writeUInt32NoTag(114);
+        output.writeUInt32NoTag(26);
         output.writeUInt32NoTag(WinRoundListMemoizedSerializedSize);
       }
       for (int i = 0; i < WinRoundList_.size(); i++) {
         output.writeUInt32NoTag(WinRoundList_.getInt(i));
       }
+      if (InfiniteWinNum_ != 0) {
+        output.writeUInt32(4, InfiniteWinNum_);
+      }
+      if (timestamp_ != 0) {
+        output.writeUInt32(7, timestamp_);
+      }
+      if (getArtifactIdListList().size() > 0) {
+        output.writeUInt32NoTag(82);
+        output.writeUInt32NoTag(ArtifactIdListMemoizedSerializedSize);
+      }
+      for (int i = 0; i < ArtifactIdList_.size(); i++) {
+        output.writeUInt32NoTag(ArtifactIdList_.getInt(i));
+      }
       for (int i = 0; i < teamInfoList_.size(); i++) {
-        output.writeMessage(15, teamInfoList_.get(i));
+        output.writeMessage(12, teamInfoList_.get(i));
+      }
+      if (IsInfinite_ != false) {
+        output.writeBool(14, IsInfinite_);
       }
       unknownFields.writeTo(output);
     }
@@ -429,32 +429,6 @@ public final class _MonsterChessV2RecordInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      {
-        int dataSize = 0;
-        for (int i = 0; i < ArtifactIdList_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(ArtifactIdList_.getInt(i));
-        }
-        size += dataSize;
-        if (!getArtifactIdListList().isEmpty()) {
-          size += 1;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        ArtifactIdListMemoizedSerializedSize = dataSize;
-      }
-      if (timestamp_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, timestamp_);
-      }
-      if (IsInfinite_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(10, IsInfinite_);
-      }
-      if (InfiniteWinNum_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, InfiniteWinNum_);
-      }
       {
         int dataSize = 0;
         for (int i = 0; i < WinRoundList_.size(); i++) {
@@ -469,9 +443,35 @@ public final class _MonsterChessV2RecordInfoOuterClass {
         }
         WinRoundListMemoizedSerializedSize = dataSize;
       }
+      if (InfiniteWinNum_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(4, InfiniteWinNum_);
+      }
+      if (timestamp_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(7, timestamp_);
+      }
+      {
+        int dataSize = 0;
+        for (int i = 0; i < ArtifactIdList_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeUInt32SizeNoTag(ArtifactIdList_.getInt(i));
+        }
+        size += dataSize;
+        if (!getArtifactIdListList().isEmpty()) {
+          size += 1;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        ArtifactIdListMemoizedSerializedSize = dataSize;
+      }
       for (int i = 0; i < teamInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, teamInfoList_.get(i));
+          .computeMessageSize(12, teamInfoList_.get(i));
+      }
+      if (IsInfinite_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(14, IsInfinite_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -870,7 +870,7 @@ public final class _MonsterChessV2RecordInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 _artifact_id_list = 1;</code>
+       * <code>repeated uint32 _artifact_id_list = 10;</code>
        * @return A list containing the artifactIdList.
        */
       public java.util.List<java.lang.Integer>
@@ -879,14 +879,14 @@ public final class _MonsterChessV2RecordInfoOuterClass {
                  java.util.Collections.unmodifiableList(ArtifactIdList_) : ArtifactIdList_;
       }
       /**
-       * <code>repeated uint32 _artifact_id_list = 1;</code>
+       * <code>repeated uint32 _artifact_id_list = 10;</code>
        * @return The count of artifactIdList.
        */
       public int getArtifactIdListCount() {
         return ArtifactIdList_.size();
       }
       /**
-       * <code>repeated uint32 _artifact_id_list = 1;</code>
+       * <code>repeated uint32 _artifact_id_list = 10;</code>
        * @param index The index of the element to return.
        * @return The artifactIdList at the given index.
        */
@@ -894,7 +894,7 @@ public final class _MonsterChessV2RecordInfoOuterClass {
         return ArtifactIdList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 _artifact_id_list = 1;</code>
+       * <code>repeated uint32 _artifact_id_list = 10;</code>
        * @param index The index to set the value at.
        * @param value The artifactIdList to set.
        * @return This builder for chaining.
@@ -907,7 +907,7 @@ public final class _MonsterChessV2RecordInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 _artifact_id_list = 1;</code>
+       * <code>repeated uint32 _artifact_id_list = 10;</code>
        * @param value The artifactIdList to add.
        * @return This builder for chaining.
        */
@@ -918,7 +918,7 @@ public final class _MonsterChessV2RecordInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 _artifact_id_list = 1;</code>
+       * <code>repeated uint32 _artifact_id_list = 10;</code>
        * @param values The artifactIdList to add.
        * @return This builder for chaining.
        */
@@ -931,7 +931,7 @@ public final class _MonsterChessV2RecordInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 _artifact_id_list = 1;</code>
+       * <code>repeated uint32 _artifact_id_list = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearArtifactIdList() {
@@ -974,7 +974,7 @@ public final class _MonsterChessV2RecordInfoOuterClass {
 
       private boolean IsInfinite_ ;
       /**
-       * <code>bool _is_infinite = 10;</code>
+       * <code>bool _is_infinite = 14;</code>
        * @return The isInfinite.
        */
       @java.lang.Override
@@ -982,7 +982,7 @@ public final class _MonsterChessV2RecordInfoOuterClass {
         return IsInfinite_;
       }
       /**
-       * <code>bool _is_infinite = 10;</code>
+       * <code>bool _is_infinite = 14;</code>
        * @param value The isInfinite to set.
        * @return This builder for chaining.
        */
@@ -993,7 +993,7 @@ public final class _MonsterChessV2RecordInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool _is_infinite = 10;</code>
+       * <code>bool _is_infinite = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsInfinite() {
@@ -1005,7 +1005,7 @@ public final class _MonsterChessV2RecordInfoOuterClass {
 
       private int InfiniteWinNum_ ;
       /**
-       * <code>uint32 _infinite_win_num = 11;</code>
+       * <code>uint32 _infinite_win_num = 4;</code>
        * @return The infiniteWinNum.
        */
       @java.lang.Override
@@ -1013,7 +1013,7 @@ public final class _MonsterChessV2RecordInfoOuterClass {
         return InfiniteWinNum_;
       }
       /**
-       * <code>uint32 _infinite_win_num = 11;</code>
+       * <code>uint32 _infinite_win_num = 4;</code>
        * @param value The infiniteWinNum to set.
        * @return This builder for chaining.
        */
@@ -1024,7 +1024,7 @@ public final class _MonsterChessV2RecordInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 _infinite_win_num = 11;</code>
+       * <code>uint32 _infinite_win_num = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearInfiniteWinNum() {
@@ -1042,7 +1042,7 @@ public final class _MonsterChessV2RecordInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 _win_round_list = 14;</code>
+       * <code>repeated uint32 _win_round_list = 3;</code>
        * @return A list containing the winRoundList.
        */
       public java.util.List<java.lang.Integer>
@@ -1051,14 +1051,14 @@ public final class _MonsterChessV2RecordInfoOuterClass {
                  java.util.Collections.unmodifiableList(WinRoundList_) : WinRoundList_;
       }
       /**
-       * <code>repeated uint32 _win_round_list = 14;</code>
+       * <code>repeated uint32 _win_round_list = 3;</code>
        * @return The count of winRoundList.
        */
       public int getWinRoundListCount() {
         return WinRoundList_.size();
       }
       /**
-       * <code>repeated uint32 _win_round_list = 14;</code>
+       * <code>repeated uint32 _win_round_list = 3;</code>
        * @param index The index of the element to return.
        * @return The winRoundList at the given index.
        */
@@ -1066,7 +1066,7 @@ public final class _MonsterChessV2RecordInfoOuterClass {
         return WinRoundList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 _win_round_list = 14;</code>
+       * <code>repeated uint32 _win_round_list = 3;</code>
        * @param index The index to set the value at.
        * @param value The winRoundList to set.
        * @return This builder for chaining.
@@ -1079,7 +1079,7 @@ public final class _MonsterChessV2RecordInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 _win_round_list = 14;</code>
+       * <code>repeated uint32 _win_round_list = 3;</code>
        * @param value The winRoundList to add.
        * @return This builder for chaining.
        */
@@ -1090,7 +1090,7 @@ public final class _MonsterChessV2RecordInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 _win_round_list = 14;</code>
+       * <code>repeated uint32 _win_round_list = 3;</code>
        * @param values The winRoundList to add.
        * @return This builder for chaining.
        */
@@ -1103,7 +1103,7 @@ public final class _MonsterChessV2RecordInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 _win_round_list = 14;</code>
+       * <code>repeated uint32 _win_round_list = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearWinRoundList() {
@@ -1126,7 +1126,7 @@ public final class _MonsterChessV2RecordInfoOuterClass {
           emu.grasscutter.net.proto._MonsterChessV2RecordTeamInfoOuterClass._MonsterChessV2RecordTeamInfo, emu.grasscutter.net.proto._MonsterChessV2RecordTeamInfoOuterClass._MonsterChessV2RecordTeamInfo.Builder, emu.grasscutter.net.proto._MonsterChessV2RecordTeamInfoOuterClass._MonsterChessV2RecordTeamInfoOrBuilder> teamInfoListBuilder_;
 
       /**
-       * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 15;</code>
+       * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 12;</code>
        */
       public java.util.List<emu.grasscutter.net.proto._MonsterChessV2RecordTeamInfoOuterClass._MonsterChessV2RecordTeamInfo> getTeamInfoListList() {
         if (teamInfoListBuilder_ == null) {
@@ -1136,7 +1136,7 @@ public final class _MonsterChessV2RecordInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 15;</code>
+       * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 12;</code>
        */
       public int getTeamInfoListCount() {
         if (teamInfoListBuilder_ == null) {
@@ -1146,7 +1146,7 @@ public final class _MonsterChessV2RecordInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 15;</code>
+       * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 12;</code>
        */
       public emu.grasscutter.net.proto._MonsterChessV2RecordTeamInfoOuterClass._MonsterChessV2RecordTeamInfo getTeamInfoList(int index) {
         if (teamInfoListBuilder_ == null) {
@@ -1156,7 +1156,7 @@ public final class _MonsterChessV2RecordInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 15;</code>
+       * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 12;</code>
        */
       public Builder setTeamInfoList(
           int index, emu.grasscutter.net.proto._MonsterChessV2RecordTeamInfoOuterClass._MonsterChessV2RecordTeamInfo value) {
@@ -1173,7 +1173,7 @@ public final class _MonsterChessV2RecordInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 15;</code>
+       * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 12;</code>
        */
       public Builder setTeamInfoList(
           int index, emu.grasscutter.net.proto._MonsterChessV2RecordTeamInfoOuterClass._MonsterChessV2RecordTeamInfo.Builder builderForValue) {
@@ -1187,7 +1187,7 @@ public final class _MonsterChessV2RecordInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 15;</code>
+       * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 12;</code>
        */
       public Builder addTeamInfoList(emu.grasscutter.net.proto._MonsterChessV2RecordTeamInfoOuterClass._MonsterChessV2RecordTeamInfo value) {
         if (teamInfoListBuilder_ == null) {
@@ -1203,7 +1203,7 @@ public final class _MonsterChessV2RecordInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 15;</code>
+       * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 12;</code>
        */
       public Builder addTeamInfoList(
           int index, emu.grasscutter.net.proto._MonsterChessV2RecordTeamInfoOuterClass._MonsterChessV2RecordTeamInfo value) {
@@ -1220,7 +1220,7 @@ public final class _MonsterChessV2RecordInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 15;</code>
+       * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 12;</code>
        */
       public Builder addTeamInfoList(
           emu.grasscutter.net.proto._MonsterChessV2RecordTeamInfoOuterClass._MonsterChessV2RecordTeamInfo.Builder builderForValue) {
@@ -1234,7 +1234,7 @@ public final class _MonsterChessV2RecordInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 15;</code>
+       * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 12;</code>
        */
       public Builder addTeamInfoList(
           int index, emu.grasscutter.net.proto._MonsterChessV2RecordTeamInfoOuterClass._MonsterChessV2RecordTeamInfo.Builder builderForValue) {
@@ -1248,7 +1248,7 @@ public final class _MonsterChessV2RecordInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 15;</code>
+       * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 12;</code>
        */
       public Builder addAllTeamInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto._MonsterChessV2RecordTeamInfoOuterClass._MonsterChessV2RecordTeamInfo> values) {
@@ -1263,7 +1263,7 @@ public final class _MonsterChessV2RecordInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 15;</code>
+       * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 12;</code>
        */
       public Builder clearTeamInfoList() {
         if (teamInfoListBuilder_ == null) {
@@ -1276,7 +1276,7 @@ public final class _MonsterChessV2RecordInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 15;</code>
+       * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 12;</code>
        */
       public Builder removeTeamInfoList(int index) {
         if (teamInfoListBuilder_ == null) {
@@ -1289,14 +1289,14 @@ public final class _MonsterChessV2RecordInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 15;</code>
+       * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 12;</code>
        */
       public emu.grasscutter.net.proto._MonsterChessV2RecordTeamInfoOuterClass._MonsterChessV2RecordTeamInfo.Builder getTeamInfoListBuilder(
           int index) {
         return getTeamInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 15;</code>
+       * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 12;</code>
        */
       public emu.grasscutter.net.proto._MonsterChessV2RecordTeamInfoOuterClass._MonsterChessV2RecordTeamInfoOrBuilder getTeamInfoListOrBuilder(
           int index) {
@@ -1306,7 +1306,7 @@ public final class _MonsterChessV2RecordInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 15;</code>
+       * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 12;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto._MonsterChessV2RecordTeamInfoOuterClass._MonsterChessV2RecordTeamInfoOrBuilder> 
            getTeamInfoListOrBuilderList() {
@@ -1317,14 +1317,14 @@ public final class _MonsterChessV2RecordInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 15;</code>
+       * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 12;</code>
        */
       public emu.grasscutter.net.proto._MonsterChessV2RecordTeamInfoOuterClass._MonsterChessV2RecordTeamInfo.Builder addTeamInfoListBuilder() {
         return getTeamInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto._MonsterChessV2RecordTeamInfoOuterClass._MonsterChessV2RecordTeamInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 15;</code>
+       * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 12;</code>
        */
       public emu.grasscutter.net.proto._MonsterChessV2RecordTeamInfoOuterClass._MonsterChessV2RecordTeamInfo.Builder addTeamInfoListBuilder(
           int index) {
@@ -1332,7 +1332,7 @@ public final class _MonsterChessV2RecordInfoOuterClass {
             index, emu.grasscutter.net.proto._MonsterChessV2RecordTeamInfoOuterClass._MonsterChessV2RecordTeamInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 15;</code>
+       * <code>repeated ._MonsterChessV2RecordTeamInfo team_info_list = 12;</code>
        */
       public java.util.List<emu.grasscutter.net.proto._MonsterChessV2RecordTeamInfoOuterClass._MonsterChessV2RecordTeamInfo.Builder> 
            getTeamInfoListBuilderList() {
@@ -1422,9 +1422,9 @@ public final class _MonsterChessV2RecordInfoOuterClass {
       "\n\037_MonsterChessV2RecordInfo.proto\032#_Mons" +
       "terChessV2RecordTeamInfo.proto\"\313\001\n\031_Mons" +
       "terChessV2RecordInfo\022\031\n\021_artifact_id_lis" +
-      "t\030\001 \003(\r\022\021\n\ttimestamp\030\007 \001(\r\022\024\n\014_is_infini" +
-      "te\030\n \001(\010\022\031\n\021_infinite_win_num\030\013 \001(\r\022\027\n\017_" +
-      "win_round_list\030\016 \003(\r\0226\n\016team_info_list\030\017" +
+      "t\030\n \003(\r\022\021\n\ttimestamp\030\007 \001(\r\022\024\n\014_is_infini" +
+      "te\030\016 \001(\010\022\031\n\021_infinite_win_num\030\004 \001(\r\022\027\n\017_" +
+      "win_round_list\030\003 \003(\r\0226\n\016team_info_list\030\014" +
       " \003(\0132\036._MonsterChessV2RecordTeamInfoB@\n\031" +
       "emu.grasscutter.net.protoB#_MonsterChess" +
       "V2RecordInfoOuterClassb\006proto3"

@@ -25,13 +25,13 @@ public final class AFCJANIEJKCOuterClass {
     int getAvatarType();
 
     /**
-     * <code>uint32 param = 5;</code>
+     * <code>uint32 param = 8;</code>
      * @return The param.
      */
     int getParam();
 
     /**
-     * <code>uint32 LHBDPFNAFJO = 11;</code>
+     * <code>uint32 LHBDPFNAFJO = 14;</code>
      * @return The lHBDPFNAFJO.
      */
     int getLHBDPFNAFJO();
@@ -86,12 +86,12 @@ public final class AFCJANIEJKCOuterClass {
               avatarType_ = input.readUInt32();
               break;
             }
-            case 40: {
+            case 64: {
 
               param_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 112: {
 
               lHBDPFNAFJO_ = input.readUInt32();
               break;
@@ -139,10 +139,10 @@ public final class AFCJANIEJKCOuterClass {
       return avatarType_;
     }
 
-    public static final int PARAM_FIELD_NUMBER = 5;
+    public static final int PARAM_FIELD_NUMBER = 8;
     private int param_;
     /**
-     * <code>uint32 param = 5;</code>
+     * <code>uint32 param = 8;</code>
      * @return The param.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class AFCJANIEJKCOuterClass {
       return param_;
     }
 
-    public static final int LHBDPFNAFJO_FIELD_NUMBER = 11;
+    public static final int LHBDPFNAFJO_FIELD_NUMBER = 14;
     private int lHBDPFNAFJO_;
     /**
-     * <code>uint32 LHBDPFNAFJO = 11;</code>
+     * <code>uint32 LHBDPFNAFJO = 14;</code>
      * @return The lHBDPFNAFJO.
      */
     @java.lang.Override
@@ -179,10 +179,10 @@ public final class AFCJANIEJKCOuterClass {
         output.writeUInt32(4, avatarType_);
       }
       if (param_ != 0) {
-        output.writeUInt32(5, param_);
+        output.writeUInt32(8, param_);
       }
       if (lHBDPFNAFJO_ != 0) {
-        output.writeUInt32(11, lHBDPFNAFJO_);
+        output.writeUInt32(14, lHBDPFNAFJO_);
       }
       unknownFields.writeTo(output);
     }
@@ -199,11 +199,11 @@ public final class AFCJANIEJKCOuterClass {
       }
       if (param_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, param_);
+          .computeUInt32Size(8, param_);
       }
       if (lHBDPFNAFJO_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, lHBDPFNAFJO_);
+          .computeUInt32Size(14, lHBDPFNAFJO_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -530,7 +530,7 @@ public final class AFCJANIEJKCOuterClass {
 
       private int param_ ;
       /**
-       * <code>uint32 param = 5;</code>
+       * <code>uint32 param = 8;</code>
        * @return The param.
        */
       @java.lang.Override
@@ -538,7 +538,7 @@ public final class AFCJANIEJKCOuterClass {
         return param_;
       }
       /**
-       * <code>uint32 param = 5;</code>
+       * <code>uint32 param = 8;</code>
        * @param value The param to set.
        * @return This builder for chaining.
        */
@@ -549,7 +549,7 @@ public final class AFCJANIEJKCOuterClass {
         return this;
       }
       /**
-       * <code>uint32 param = 5;</code>
+       * <code>uint32 param = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearParam() {
@@ -561,7 +561,7 @@ public final class AFCJANIEJKCOuterClass {
 
       private int lHBDPFNAFJO_ ;
       /**
-       * <code>uint32 LHBDPFNAFJO = 11;</code>
+       * <code>uint32 LHBDPFNAFJO = 14;</code>
        * @return The lHBDPFNAFJO.
        */
       @java.lang.Override
@@ -569,7 +569,7 @@ public final class AFCJANIEJKCOuterClass {
         return lHBDPFNAFJO_;
       }
       /**
-       * <code>uint32 LHBDPFNAFJO = 11;</code>
+       * <code>uint32 LHBDPFNAFJO = 14;</code>
        * @param value The lHBDPFNAFJO to set.
        * @return This builder for chaining.
        */
@@ -580,7 +580,7 @@ public final class AFCJANIEJKCOuterClass {
         return this;
       }
       /**
-       * <code>uint32 LHBDPFNAFJO = 11;</code>
+       * <code>uint32 LHBDPFNAFJO = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearLHBDPFNAFJO() {
@@ -657,8 +657,8 @@ public final class AFCJANIEJKCOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021AFCJANIEJKC.proto\"F\n\013AFCJANIEJKC\022\023\n\013av" +
-      "atar_type\030\004 \001(\r\022\r\n\005param\030\005 \001(\r\022\023\n\013LHBDPF" +
-      "NAFJO\030\013 \001(\rB2\n\031emu.grasscutter.net.proto" +
+      "atar_type\030\004 \001(\r\022\r\n\005param\030\010 \001(\r\022\023\n\013LHBDPF" +
+      "NAFJO\030\016 \001(\rB2\n\031emu.grasscutter.net.proto" +
       "B\025AFCJANIEJKCOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

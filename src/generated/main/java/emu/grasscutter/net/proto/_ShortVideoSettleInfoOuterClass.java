@@ -19,24 +19,24 @@ public final class _ShortVideoSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 use_time = 1;</code>
+     * <code>uint32 use_time = 6;</code>
      * @return The useTime.
      */
     int getUseTime();
 
     /**
-     * <code>.GalleryStopReason reason = 11;</code>
+     * <code>.GalleryStopReason reason = 15;</code>
      * @return The enum numeric value on the wire for reason.
      */
     int getReasonValue();
     /**
-     * <code>.GalleryStopReason reason = 11;</code>
+     * <code>.GalleryStopReason reason = 15;</code>
      * @return The reason.
      */
     emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason getReason();
 
     /**
-     * <code>uint32 level_id = 15;</code>
+     * <code>uint32 level_id = 4;</code>
      * @return The levelId.
      */
     int getLevelId();
@@ -87,20 +87,20 @@ public final class _ShortVideoSettleInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 32: {
+
+              levelId_ = input.readUInt32();
+              break;
+            }
+            case 48: {
 
               useTime_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 120: {
               int rawValue = input.readEnum();
 
               reason_ = rawValue;
-              break;
-            }
-            case 120: {
-
-              levelId_ = input.readUInt32();
               break;
             }
             default: {
@@ -135,10 +135,10 @@ public final class _ShortVideoSettleInfoOuterClass {
               emu.grasscutter.net.proto._ShortVideoSettleInfoOuterClass._ShortVideoSettleInfo.class, emu.grasscutter.net.proto._ShortVideoSettleInfoOuterClass._ShortVideoSettleInfo.Builder.class);
     }
 
-    public static final int USE_TIME_FIELD_NUMBER = 1;
+    public static final int USE_TIME_FIELD_NUMBER = 6;
     private int useTime_;
     /**
-     * <code>uint32 use_time = 1;</code>
+     * <code>uint32 use_time = 6;</code>
      * @return The useTime.
      */
     @java.lang.Override
@@ -146,17 +146,17 @@ public final class _ShortVideoSettleInfoOuterClass {
       return useTime_;
     }
 
-    public static final int REASON_FIELD_NUMBER = 11;
+    public static final int REASON_FIELD_NUMBER = 15;
     private int reason_;
     /**
-     * <code>.GalleryStopReason reason = 11;</code>
+     * <code>.GalleryStopReason reason = 15;</code>
      * @return The enum numeric value on the wire for reason.
      */
     @java.lang.Override public int getReasonValue() {
       return reason_;
     }
     /**
-     * <code>.GalleryStopReason reason = 11;</code>
+     * <code>.GalleryStopReason reason = 15;</code>
      * @return The reason.
      */
     @java.lang.Override public emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason getReason() {
@@ -165,10 +165,10 @@ public final class _ShortVideoSettleInfoOuterClass {
       return result == null ? emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason.UNRECOGNIZED : result;
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 15;
+    public static final int LEVEL_ID_FIELD_NUMBER = 4;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 15;</code>
+     * <code>uint32 level_id = 4;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -190,14 +190,14 @@ public final class _ShortVideoSettleInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (levelId_ != 0) {
+        output.writeUInt32(4, levelId_);
+      }
       if (useTime_ != 0) {
-        output.writeUInt32(1, useTime_);
+        output.writeUInt32(6, useTime_);
       }
       if (reason_ != emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason.GalleryStopReason_GALLERY_STOP_NONE.getNumber()) {
-        output.writeEnum(11, reason_);
-      }
-      if (levelId_ != 0) {
-        output.writeUInt32(15, levelId_);
+        output.writeEnum(15, reason_);
       }
       unknownFields.writeTo(output);
     }
@@ -208,17 +208,17 @@ public final class _ShortVideoSettleInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (levelId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(4, levelId_);
+      }
       if (useTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, useTime_);
+          .computeUInt32Size(6, useTime_);
       }
       if (reason_ != emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason.GalleryStopReason_GALLERY_STOP_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(11, reason_);
-      }
-      if (levelId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, levelId_);
+          .computeEnumSize(15, reason_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -513,7 +513,7 @@ public final class _ShortVideoSettleInfoOuterClass {
 
       private int useTime_ ;
       /**
-       * <code>uint32 use_time = 1;</code>
+       * <code>uint32 use_time = 6;</code>
        * @return The useTime.
        */
       @java.lang.Override
@@ -521,7 +521,7 @@ public final class _ShortVideoSettleInfoOuterClass {
         return useTime_;
       }
       /**
-       * <code>uint32 use_time = 1;</code>
+       * <code>uint32 use_time = 6;</code>
        * @param value The useTime to set.
        * @return This builder for chaining.
        */
@@ -532,7 +532,7 @@ public final class _ShortVideoSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 use_time = 1;</code>
+       * <code>uint32 use_time = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearUseTime() {
@@ -544,14 +544,14 @@ public final class _ShortVideoSettleInfoOuterClass {
 
       private int reason_ = 0;
       /**
-       * <code>.GalleryStopReason reason = 11;</code>
+       * <code>.GalleryStopReason reason = 15;</code>
        * @return The enum numeric value on the wire for reason.
        */
       @java.lang.Override public int getReasonValue() {
         return reason_;
       }
       /**
-       * <code>.GalleryStopReason reason = 11;</code>
+       * <code>.GalleryStopReason reason = 15;</code>
        * @param value The enum numeric value on the wire for reason to set.
        * @return This builder for chaining.
        */
@@ -562,7 +562,7 @@ public final class _ShortVideoSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>.GalleryStopReason reason = 11;</code>
+       * <code>.GalleryStopReason reason = 15;</code>
        * @return The reason.
        */
       @java.lang.Override
@@ -572,7 +572,7 @@ public final class _ShortVideoSettleInfoOuterClass {
         return result == null ? emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason.UNRECOGNIZED : result;
       }
       /**
-       * <code>.GalleryStopReason reason = 11;</code>
+       * <code>.GalleryStopReason reason = 15;</code>
        * @param value The reason to set.
        * @return This builder for chaining.
        */
@@ -586,7 +586,7 @@ public final class _ShortVideoSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>.GalleryStopReason reason = 11;</code>
+       * <code>.GalleryStopReason reason = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearReason() {
@@ -598,7 +598,7 @@ public final class _ShortVideoSettleInfoOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 15;</code>
+       * <code>uint32 level_id = 4;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -606,7 +606,7 @@ public final class _ShortVideoSettleInfoOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 15;</code>
+       * <code>uint32 level_id = 4;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -617,7 +617,7 @@ public final class _ShortVideoSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 15;</code>
+       * <code>uint32 level_id = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -695,8 +695,8 @@ public final class _ShortVideoSettleInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033_ShortVideoSettleInfo.proto\032\027GallerySt" +
       "opReason.proto\"_\n\025_ShortVideoSettleInfo\022" +
-      "\020\n\010use_time\030\001 \001(\r\022\"\n\006reason\030\013 \001(\0162\022.Gall" +
-      "eryStopReason\022\020\n\010level_id\030\017 \001(\rB<\n\031emu.g" +
+      "\020\n\010use_time\030\006 \001(\r\022\"\n\006reason\030\017 \001(\0162\022.Gall" +
+      "eryStopReason\022\020\n\010level_id\030\004 \001(\rB<\n\031emu.g" +
       "rasscutter.net.protoB\037_ShortVideoSettleI" +
       "nfoOuterClassb\006proto3"
     };

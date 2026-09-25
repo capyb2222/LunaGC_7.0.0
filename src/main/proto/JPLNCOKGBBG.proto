@@ -6,6 +6,6 @@ option java_outer_classname = "JPLNCOKGBBGOuterClass";
 import "IHNALHEKDID.proto";
 
 message JPLNCOKGBBG {
-	uint32 schedule_id = 2;
-	repeated IHNALHEKDID HAOABGIPDMO = 14;
+	uint32 schedule_id = 12;
+	repeated IHNALHEKDID HAOABGIPDMO = 1;
 }

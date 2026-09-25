@@ -7,9 +7,9 @@ import "HomeBlockSubFieldData.proto";
 import "Vector.proto";
 
 message HomeBlockFieldData {
-	Vector rot = 1;
-	Vector pos = 9;
-	uint32 furniture_id = 10;
-	uint32 guid = 13;
-	repeated HomeBlockSubFieldData sub_field_list = 15;
+	Vector rot = 7;
+	Vector pos = 11;
+	uint32 furniture_id = 1;
+	uint32 guid = 12;
+	repeated HomeBlockSubFieldData sub_field_list = 14;
 }

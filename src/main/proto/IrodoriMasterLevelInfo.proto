@@ -6,6 +6,6 @@ option java_outer_classname = "IrodoriMasterLevelInfoOuterClass";
 import "IrodoriMasterLevelDetailInfo.proto";
 
 message IrodoriMasterLevelInfo {
-	uint32 level_id = 4;
-	repeated IrodoriMasterLevelDetailInfo detail_info = 14;
+	uint32 level_id = 1;
+	repeated IrodoriMasterLevelDetailInfo detail_info = 7;
 }

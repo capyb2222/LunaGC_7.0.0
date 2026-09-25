@@ -19,25 +19,25 @@ public final class GIMDACMEMIBOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 1;</code>
+     * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 6;</code>
      */
     java.util.List<emu.grasscutter.net.proto.GAMGGAFDDNGOuterClass.GAMGGAFDDNG> 
         getPhotoPosDataListList();
     /**
-     * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 1;</code>
+     * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 6;</code>
      */
     emu.grasscutter.net.proto.GAMGGAFDDNGOuterClass.GAMGGAFDDNG getPhotoPosDataList(int index);
     /**
-     * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 1;</code>
+     * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 6;</code>
      */
     int getPhotoPosDataListCount();
     /**
-     * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 1;</code>
+     * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 6;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.GAMGGAFDDNGOuterClass.GAMGGAFDDNGOrBuilder> 
         getPhotoPosDataListOrBuilderList();
     /**
-     * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 1;</code>
+     * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 6;</code>
      */
     emu.grasscutter.net.proto.GAMGGAFDDNGOuterClass.GAMGGAFDDNGOrBuilder getPhotoPosDataListOrBuilder(
         int index);
@@ -89,7 +89,7 @@ public final class GIMDACMEMIBOuterClass {
             case 0:
               done = true;
               break;
-            case 10: {
+            case 50: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 photoPosDataList_ = new java.util.ArrayList<emu.grasscutter.net.proto.GAMGGAFDDNGOuterClass.GAMGGAFDDNG>();
                 mutable_bitField0_ |= 0x00000001;
@@ -133,17 +133,17 @@ public final class GIMDACMEMIBOuterClass {
               emu.grasscutter.net.proto.GIMDACMEMIBOuterClass.GIMDACMEMIB.class, emu.grasscutter.net.proto.GIMDACMEMIBOuterClass.GIMDACMEMIB.Builder.class);
     }
 
-    public static final int PHOTO_POS_DATA_LIST_FIELD_NUMBER = 1;
+    public static final int PHOTO_POS_DATA_LIST_FIELD_NUMBER = 6;
     private java.util.List<emu.grasscutter.net.proto.GAMGGAFDDNGOuterClass.GAMGGAFDDNG> photoPosDataList_;
     /**
-     * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 1;</code>
+     * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 6;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.GAMGGAFDDNGOuterClass.GAMGGAFDDNG> getPhotoPosDataListList() {
       return photoPosDataList_;
     }
     /**
-     * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 1;</code>
+     * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 6;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.GAMGGAFDDNGOuterClass.GAMGGAFDDNGOrBuilder> 
@@ -151,21 +151,21 @@ public final class GIMDACMEMIBOuterClass {
       return photoPosDataList_;
     }
     /**
-     * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 1;</code>
+     * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 6;</code>
      */
     @java.lang.Override
     public int getPhotoPosDataListCount() {
       return photoPosDataList_.size();
     }
     /**
-     * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 1;</code>
+     * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 6;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.GAMGGAFDDNGOuterClass.GAMGGAFDDNG getPhotoPosDataList(int index) {
       return photoPosDataList_.get(index);
     }
     /**
-     * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 1;</code>
+     * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 6;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.GAMGGAFDDNGOuterClass.GAMGGAFDDNGOrBuilder getPhotoPosDataListOrBuilder(
@@ -188,7 +188,7 @@ public final class GIMDACMEMIBOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < photoPosDataList_.size(); i++) {
-        output.writeMessage(1, photoPosDataList_.get(i));
+        output.writeMessage(6, photoPosDataList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -201,7 +201,7 @@ public final class GIMDACMEMIBOuterClass {
       size = 0;
       for (int i = 0; i < photoPosDataList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, photoPosDataList_.get(i));
+          .computeMessageSize(6, photoPosDataList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -528,7 +528,7 @@ public final class GIMDACMEMIBOuterClass {
           emu.grasscutter.net.proto.GAMGGAFDDNGOuterClass.GAMGGAFDDNG, emu.grasscutter.net.proto.GAMGGAFDDNGOuterClass.GAMGGAFDDNG.Builder, emu.grasscutter.net.proto.GAMGGAFDDNGOuterClass.GAMGGAFDDNGOrBuilder> photoPosDataListBuilder_;
 
       /**
-       * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 1;</code>
+       * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 6;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.GAMGGAFDDNGOuterClass.GAMGGAFDDNG> getPhotoPosDataListList() {
         if (photoPosDataListBuilder_ == null) {
@@ -538,7 +538,7 @@ public final class GIMDACMEMIBOuterClass {
         }
       }
       /**
-       * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 1;</code>
+       * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 6;</code>
        */
       public int getPhotoPosDataListCount() {
         if (photoPosDataListBuilder_ == null) {
@@ -548,7 +548,7 @@ public final class GIMDACMEMIBOuterClass {
         }
       }
       /**
-       * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 1;</code>
+       * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 6;</code>
        */
       public emu.grasscutter.net.proto.GAMGGAFDDNGOuterClass.GAMGGAFDDNG getPhotoPosDataList(int index) {
         if (photoPosDataListBuilder_ == null) {
@@ -558,7 +558,7 @@ public final class GIMDACMEMIBOuterClass {
         }
       }
       /**
-       * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 1;</code>
+       * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 6;</code>
        */
       public Builder setPhotoPosDataList(
           int index, emu.grasscutter.net.proto.GAMGGAFDDNGOuterClass.GAMGGAFDDNG value) {
@@ -575,7 +575,7 @@ public final class GIMDACMEMIBOuterClass {
         return this;
       }
       /**
-       * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 1;</code>
+       * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 6;</code>
        */
       public Builder setPhotoPosDataList(
           int index, emu.grasscutter.net.proto.GAMGGAFDDNGOuterClass.GAMGGAFDDNG.Builder builderForValue) {
@@ -589,7 +589,7 @@ public final class GIMDACMEMIBOuterClass {
         return this;
       }
       /**
-       * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 1;</code>
+       * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 6;</code>
        */
       public Builder addPhotoPosDataList(emu.grasscutter.net.proto.GAMGGAFDDNGOuterClass.GAMGGAFDDNG value) {
         if (photoPosDataListBuilder_ == null) {
@@ -605,7 +605,7 @@ public final class GIMDACMEMIBOuterClass {
         return this;
       }
       /**
-       * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 1;</code>
+       * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 6;</code>
        */
       public Builder addPhotoPosDataList(
           int index, emu.grasscutter.net.proto.GAMGGAFDDNGOuterClass.GAMGGAFDDNG value) {
@@ -622,7 +622,7 @@ public final class GIMDACMEMIBOuterClass {
         return this;
       }
       /**
-       * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 1;</code>
+       * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 6;</code>
        */
       public Builder addPhotoPosDataList(
           emu.grasscutter.net.proto.GAMGGAFDDNGOuterClass.GAMGGAFDDNG.Builder builderForValue) {
@@ -636,7 +636,7 @@ public final class GIMDACMEMIBOuterClass {
         return this;
       }
       /**
-       * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 1;</code>
+       * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 6;</code>
        */
       public Builder addPhotoPosDataList(
           int index, emu.grasscutter.net.proto.GAMGGAFDDNGOuterClass.GAMGGAFDDNG.Builder builderForValue) {
@@ -650,7 +650,7 @@ public final class GIMDACMEMIBOuterClass {
         return this;
       }
       /**
-       * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 1;</code>
+       * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 6;</code>
        */
       public Builder addAllPhotoPosDataList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.GAMGGAFDDNGOuterClass.GAMGGAFDDNG> values) {
@@ -665,7 +665,7 @@ public final class GIMDACMEMIBOuterClass {
         return this;
       }
       /**
-       * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 1;</code>
+       * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 6;</code>
        */
       public Builder clearPhotoPosDataList() {
         if (photoPosDataListBuilder_ == null) {
@@ -678,7 +678,7 @@ public final class GIMDACMEMIBOuterClass {
         return this;
       }
       /**
-       * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 1;</code>
+       * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 6;</code>
        */
       public Builder removePhotoPosDataList(int index) {
         if (photoPosDataListBuilder_ == null) {
@@ -691,14 +691,14 @@ public final class GIMDACMEMIBOuterClass {
         return this;
       }
       /**
-       * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 1;</code>
+       * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 6;</code>
        */
       public emu.grasscutter.net.proto.GAMGGAFDDNGOuterClass.GAMGGAFDDNG.Builder getPhotoPosDataListBuilder(
           int index) {
         return getPhotoPosDataListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 1;</code>
+       * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 6;</code>
        */
       public emu.grasscutter.net.proto.GAMGGAFDDNGOuterClass.GAMGGAFDDNGOrBuilder getPhotoPosDataListOrBuilder(
           int index) {
@@ -708,7 +708,7 @@ public final class GIMDACMEMIBOuterClass {
         }
       }
       /**
-       * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 1;</code>
+       * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 6;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.GAMGGAFDDNGOuterClass.GAMGGAFDDNGOrBuilder> 
            getPhotoPosDataListOrBuilderList() {
@@ -719,14 +719,14 @@ public final class GIMDACMEMIBOuterClass {
         }
       }
       /**
-       * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 1;</code>
+       * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 6;</code>
        */
       public emu.grasscutter.net.proto.GAMGGAFDDNGOuterClass.GAMGGAFDDNG.Builder addPhotoPosDataListBuilder() {
         return getPhotoPosDataListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.GAMGGAFDDNGOuterClass.GAMGGAFDDNG.getDefaultInstance());
       }
       /**
-       * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 1;</code>
+       * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 6;</code>
        */
       public emu.grasscutter.net.proto.GAMGGAFDDNGOuterClass.GAMGGAFDDNG.Builder addPhotoPosDataListBuilder(
           int index) {
@@ -734,7 +734,7 @@ public final class GIMDACMEMIBOuterClass {
             index, emu.grasscutter.net.proto.GAMGGAFDDNGOuterClass.GAMGGAFDDNG.getDefaultInstance());
       }
       /**
-       * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 1;</code>
+       * <code>repeated .GAMGGAFDDNG photo_pos_data_list = 6;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.GAMGGAFDDNGOuterClass.GAMGGAFDDNG.Builder> 
            getPhotoPosDataListBuilderList() {
@@ -822,7 +822,7 @@ public final class GIMDACMEMIBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GIMDACMEMIB.proto\032\021GAMGGAFDDNG.proto\"8" +
-      "\n\013GIMDACMEMIB\022)\n\023photo_pos_data_list\030\001 \003" +
+      "\n\013GIMDACMEMIB\022)\n\023photo_pos_data_list\030\006 \003" +
       "(\0132\014.GAMGGAFDDNGB2\n\031emu.grasscutter.net." +
       "protoB\025GIMDACMEMIBOuterClassb\006proto3"
     };

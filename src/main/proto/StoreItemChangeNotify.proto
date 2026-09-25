@@ -11,7 +11,7 @@ message StoreItemChangeNotify {
 		OTHERS = 0;
 		LOCK_OR_STAR = 1;
 	}
-	repeated Item item_list = 1;
-	StoreType store_type = 10;
-	_ChangeReason reason = 14;
+	repeated Item item_list = 12;
+	StoreType store_type = 1;
+	_ChangeReason reason = 4;
 }

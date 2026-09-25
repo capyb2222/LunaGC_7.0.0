@@ -6,5 +6,5 @@ option java_outer_classname = "AchievementUpdateNotifyOuterClass";
 import "Achievement.proto";
 
 message AchievementUpdateNotify {
-	repeated Achievement achievement_list = 5;
+	repeated Achievement achievement_list = 13;
 }

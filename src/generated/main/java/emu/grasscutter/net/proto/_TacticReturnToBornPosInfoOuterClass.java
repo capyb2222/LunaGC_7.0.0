@@ -19,7 +19,7 @@ public final class _TacticReturnToBornPosInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool FDNGGBDBPKC = 1;</code>
+     * <code>bool FDNGGBDBPKC = 50000;</code>
      * @return The fDNGGBDBPKC.
      */
     boolean getFDNGGBDBPKC();
@@ -31,25 +31,25 @@ public final class _TacticReturnToBornPosInfoOuterClass {
     int getSpeedLevel();
 
     /**
-     * <code>bool GHCPHBOKLLO = 3;</code>
+     * <code>bool GHCPHBOKLLO = 50001;</code>
      * @return The gHCPHBOKLLO.
      */
     boolean getGHCPHBOKLLO();
 
     /**
-     * <code>float IGGBLACBJMO = 4;</code>
+     * <code>float IGGBLACBJMO = 50002;</code>
      * @return The iGGBLACBJMO.
      */
     float getIGGBLACBJMO();
 
     /**
-     * <code>float PBIFLPFDKCE = 5;</code>
+     * <code>float PBIFLPFDKCE = 50003;</code>
      * @return The pBIFLPFDKCE.
      */
     float getPBIFLPFDKCE();
 
     /**
-     * <code>bool CLDHGCJEHHF = 6;</code>
+     * <code>bool CLDHGCJEHHF = 50004;</code>
      * @return The cLDHGCJEHHF.
      */
     boolean getCLDHGCJEHHF();
@@ -99,32 +99,32 @@ public final class _TacticReturnToBornPosInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
-
-              fDNGGBDBPKC_ = input.readBool();
-              break;
-            }
             case 16: {
 
               speedLevel_ = input.readInt32();
               break;
             }
-            case 24: {
+            case 400000: {
+
+              fDNGGBDBPKC_ = input.readBool();
+              break;
+            }
+            case 400008: {
 
               gHCPHBOKLLO_ = input.readBool();
               break;
             }
-            case 37: {
+            case 400021: {
 
               iGGBLACBJMO_ = input.readFloat();
               break;
             }
-            case 45: {
+            case 400029: {
 
               pBIFLPFDKCE_ = input.readFloat();
               break;
             }
-            case 48: {
+            case 400032: {
 
               cLDHGCJEHHF_ = input.readBool();
               break;
@@ -161,10 +161,10 @@ public final class _TacticReturnToBornPosInfoOuterClass {
               emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo.class, emu.grasscutter.net.proto._TacticReturnToBornPosInfoOuterClass._TacticReturnToBornPosInfo.Builder.class);
     }
 
-    public static final int FDNGGBDBPKC_FIELD_NUMBER = 1;
+    public static final int FDNGGBDBPKC_FIELD_NUMBER = 50000;
     private boolean fDNGGBDBPKC_;
     /**
-     * <code>bool FDNGGBDBPKC = 1;</code>
+     * <code>bool FDNGGBDBPKC = 50000;</code>
      * @return The fDNGGBDBPKC.
      */
     @java.lang.Override
@@ -183,10 +183,10 @@ public final class _TacticReturnToBornPosInfoOuterClass {
       return speedLevel_;
     }
 
-    public static final int GHCPHBOKLLO_FIELD_NUMBER = 3;
+    public static final int GHCPHBOKLLO_FIELD_NUMBER = 50001;
     private boolean gHCPHBOKLLO_;
     /**
-     * <code>bool GHCPHBOKLLO = 3;</code>
+     * <code>bool GHCPHBOKLLO = 50001;</code>
      * @return The gHCPHBOKLLO.
      */
     @java.lang.Override
@@ -194,10 +194,10 @@ public final class _TacticReturnToBornPosInfoOuterClass {
       return gHCPHBOKLLO_;
     }
 
-    public static final int IGGBLACBJMO_FIELD_NUMBER = 4;
+    public static final int IGGBLACBJMO_FIELD_NUMBER = 50002;
     private float iGGBLACBJMO_;
     /**
-     * <code>float IGGBLACBJMO = 4;</code>
+     * <code>float IGGBLACBJMO = 50002;</code>
      * @return The iGGBLACBJMO.
      */
     @java.lang.Override
@@ -205,10 +205,10 @@ public final class _TacticReturnToBornPosInfoOuterClass {
       return iGGBLACBJMO_;
     }
 
-    public static final int PBIFLPFDKCE_FIELD_NUMBER = 5;
+    public static final int PBIFLPFDKCE_FIELD_NUMBER = 50003;
     private float pBIFLPFDKCE_;
     /**
-     * <code>float PBIFLPFDKCE = 5;</code>
+     * <code>float PBIFLPFDKCE = 50003;</code>
      * @return The pBIFLPFDKCE.
      */
     @java.lang.Override
@@ -216,10 +216,10 @@ public final class _TacticReturnToBornPosInfoOuterClass {
       return pBIFLPFDKCE_;
     }
 
-    public static final int CLDHGCJEHHF_FIELD_NUMBER = 6;
+    public static final int CLDHGCJEHHF_FIELD_NUMBER = 50004;
     private boolean cLDHGCJEHHF_;
     /**
-     * <code>bool CLDHGCJEHHF = 6;</code>
+     * <code>bool CLDHGCJEHHF = 50004;</code>
      * @return The cLDHGCJEHHF.
      */
     @java.lang.Override
@@ -241,23 +241,23 @@ public final class _TacticReturnToBornPosInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (fDNGGBDBPKC_ != false) {
-        output.writeBool(1, fDNGGBDBPKC_);
-      }
       if (speedLevel_ != 0) {
         output.writeInt32(2, speedLevel_);
       }
+      if (fDNGGBDBPKC_ != false) {
+        output.writeBool(50000, fDNGGBDBPKC_);
+      }
       if (gHCPHBOKLLO_ != false) {
-        output.writeBool(3, gHCPHBOKLLO_);
+        output.writeBool(50001, gHCPHBOKLLO_);
       }
       if (iGGBLACBJMO_ != 0F) {
-        output.writeFloat(4, iGGBLACBJMO_);
+        output.writeFloat(50002, iGGBLACBJMO_);
       }
       if (pBIFLPFDKCE_ != 0F) {
-        output.writeFloat(5, pBIFLPFDKCE_);
+        output.writeFloat(50003, pBIFLPFDKCE_);
       }
       if (cLDHGCJEHHF_ != false) {
-        output.writeBool(6, cLDHGCJEHHF_);
+        output.writeBool(50004, cLDHGCJEHHF_);
       }
       unknownFields.writeTo(output);
     }
@@ -268,29 +268,29 @@ public final class _TacticReturnToBornPosInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (fDNGGBDBPKC_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1, fDNGGBDBPKC_);
-      }
       if (speedLevel_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt32Size(2, speedLevel_);
       }
+      if (fDNGGBDBPKC_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(50000, fDNGGBDBPKC_);
+      }
       if (gHCPHBOKLLO_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(3, gHCPHBOKLLO_);
+          .computeBoolSize(50001, gHCPHBOKLLO_);
       }
       if (iGGBLACBJMO_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(4, iGGBLACBJMO_);
+          .computeFloatSize(50002, iGGBLACBJMO_);
       }
       if (pBIFLPFDKCE_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(5, pBIFLPFDKCE_);
+          .computeFloatSize(50003, pBIFLPFDKCE_);
       }
       if (cLDHGCJEHHF_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(6, cLDHGCJEHHF_);
+          .computeBoolSize(50004, cLDHGCJEHHF_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -623,7 +623,7 @@ public final class _TacticReturnToBornPosInfoOuterClass {
 
       private boolean fDNGGBDBPKC_ ;
       /**
-       * <code>bool FDNGGBDBPKC = 1;</code>
+       * <code>bool FDNGGBDBPKC = 50000;</code>
        * @return The fDNGGBDBPKC.
        */
       @java.lang.Override
@@ -631,7 +631,7 @@ public final class _TacticReturnToBornPosInfoOuterClass {
         return fDNGGBDBPKC_;
       }
       /**
-       * <code>bool FDNGGBDBPKC = 1;</code>
+       * <code>bool FDNGGBDBPKC = 50000;</code>
        * @param value The fDNGGBDBPKC to set.
        * @return This builder for chaining.
        */
@@ -642,7 +642,7 @@ public final class _TacticReturnToBornPosInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool FDNGGBDBPKC = 1;</code>
+       * <code>bool FDNGGBDBPKC = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearFDNGGBDBPKC() {
@@ -685,7 +685,7 @@ public final class _TacticReturnToBornPosInfoOuterClass {
 
       private boolean gHCPHBOKLLO_ ;
       /**
-       * <code>bool GHCPHBOKLLO = 3;</code>
+       * <code>bool GHCPHBOKLLO = 50001;</code>
        * @return The gHCPHBOKLLO.
        */
       @java.lang.Override
@@ -693,7 +693,7 @@ public final class _TacticReturnToBornPosInfoOuterClass {
         return gHCPHBOKLLO_;
       }
       /**
-       * <code>bool GHCPHBOKLLO = 3;</code>
+       * <code>bool GHCPHBOKLLO = 50001;</code>
        * @param value The gHCPHBOKLLO to set.
        * @return This builder for chaining.
        */
@@ -704,7 +704,7 @@ public final class _TacticReturnToBornPosInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool GHCPHBOKLLO = 3;</code>
+       * <code>bool GHCPHBOKLLO = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearGHCPHBOKLLO() {
@@ -716,7 +716,7 @@ public final class _TacticReturnToBornPosInfoOuterClass {
 
       private float iGGBLACBJMO_ ;
       /**
-       * <code>float IGGBLACBJMO = 4;</code>
+       * <code>float IGGBLACBJMO = 50002;</code>
        * @return The iGGBLACBJMO.
        */
       @java.lang.Override
@@ -724,7 +724,7 @@ public final class _TacticReturnToBornPosInfoOuterClass {
         return iGGBLACBJMO_;
       }
       /**
-       * <code>float IGGBLACBJMO = 4;</code>
+       * <code>float IGGBLACBJMO = 50002;</code>
        * @param value The iGGBLACBJMO to set.
        * @return This builder for chaining.
        */
@@ -735,7 +735,7 @@ public final class _TacticReturnToBornPosInfoOuterClass {
         return this;
       }
       /**
-       * <code>float IGGBLACBJMO = 4;</code>
+       * <code>float IGGBLACBJMO = 50002;</code>
        * @return This builder for chaining.
        */
       public Builder clearIGGBLACBJMO() {
@@ -747,7 +747,7 @@ public final class _TacticReturnToBornPosInfoOuterClass {
 
       private float pBIFLPFDKCE_ ;
       /**
-       * <code>float PBIFLPFDKCE = 5;</code>
+       * <code>float PBIFLPFDKCE = 50003;</code>
        * @return The pBIFLPFDKCE.
        */
       @java.lang.Override
@@ -755,7 +755,7 @@ public final class _TacticReturnToBornPosInfoOuterClass {
         return pBIFLPFDKCE_;
       }
       /**
-       * <code>float PBIFLPFDKCE = 5;</code>
+       * <code>float PBIFLPFDKCE = 50003;</code>
        * @param value The pBIFLPFDKCE to set.
        * @return This builder for chaining.
        */
@@ -766,7 +766,7 @@ public final class _TacticReturnToBornPosInfoOuterClass {
         return this;
       }
       /**
-       * <code>float PBIFLPFDKCE = 5;</code>
+       * <code>float PBIFLPFDKCE = 50003;</code>
        * @return This builder for chaining.
        */
       public Builder clearPBIFLPFDKCE() {
@@ -778,7 +778,7 @@ public final class _TacticReturnToBornPosInfoOuterClass {
 
       private boolean cLDHGCJEHHF_ ;
       /**
-       * <code>bool CLDHGCJEHHF = 6;</code>
+       * <code>bool CLDHGCJEHHF = 50004;</code>
        * @return The cLDHGCJEHHF.
        */
       @java.lang.Override
@@ -786,7 +786,7 @@ public final class _TacticReturnToBornPosInfoOuterClass {
         return cLDHGCJEHHF_;
       }
       /**
-       * <code>bool CLDHGCJEHHF = 6;</code>
+       * <code>bool CLDHGCJEHHF = 50004;</code>
        * @param value The cLDHGCJEHHF to set.
        * @return This builder for chaining.
        */
@@ -797,7 +797,7 @@ public final class _TacticReturnToBornPosInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool CLDHGCJEHHF = 6;</code>
+       * <code>bool CLDHGCJEHHF = 50004;</code>
        * @return This builder for chaining.
        */
       public Builder clearCLDHGCJEHHF() {
@@ -873,13 +873,13 @@ public final class _TacticReturnToBornPosInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n _TacticReturnToBornPosInfo.proto\"\232\001\n\032_" +
-      "TacticReturnToBornPosInfo\022\023\n\013FDNGGBDBPKC" +
-      "\030\001 \001(\010\022\023\n\013speed_level\030\002 \001(\005\022\023\n\013GHCPHBOKL" +
-      "LO\030\003 \001(\010\022\023\n\013IGGBLACBJMO\030\004 \001(\002\022\023\n\013PBIFLPF" +
-      "DKCE\030\005 \001(\002\022\023\n\013CLDHGCJEHHF\030\006 \001(\010BA\n\031emu.g" +
-      "rasscutter.net.protoB$_TacticReturnToBor" +
-      "nPosInfoOuterClassb\006proto3"
+      "\n _TacticReturnToBornPosInfo.proto\"\244\001\n\032_" +
+      "TacticReturnToBornPosInfo\022\025\n\013FDNGGBDBPKC" +
+      "\030\320\206\003 \001(\010\022\023\n\013speed_level\030\002 \001(\005\022\025\n\013GHCPHBO" +
+      "KLLO\030\321\206\003 \001(\010\022\025\n\013IGGBLACBJMO\030\322\206\003 \001(\002\022\025\n\013P" +
+      "BIFLPFDKCE\030\323\206\003 \001(\002\022\025\n\013CLDHGCJEHHF\030\324\206\003 \001(" +
+      "\010BA\n\031emu.grasscutter.net.protoB$_TacticR" +
+      "eturnToBornPosInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

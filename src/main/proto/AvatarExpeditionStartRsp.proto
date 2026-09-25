@@ -7,8 +7,8 @@ import "AvatarExpeditionInfo.proto";
 import "_AvatarExpeditionBasicInfo.proto";
 
 message AvatarExpeditionStartRsp {
-	map<uint64, AvatarExpeditionInfo> expedition_info_map = 5;
-	repeated _AvatarExpeditionBasicInfo _expedition_basic_info_list = 8;
-	int32 retcode = 12;
-	repeated int32 ILBIKNLHAKE = 14;
+	map<uint64, AvatarExpeditionInfo> expedition_info_map = 6;
+	repeated _AvatarExpeditionBasicInfo _expedition_basic_info_list = 7;
+	int32 retcode = 11;
+	repeated int32 ILBIKNLHAKE = 1;
 }

@@ -6,9 +6,9 @@ option java_outer_classname = "HomeFurnitureSuiteDataOuterClass";
 import "Vector.proto";
 
 message HomeFurnitureSuiteData {
-	uint32 suite_id = 2;
+	uint32 suite_id = 11;
 	bool is_allow_summon = 4;
-	repeated int32 included_furniture_index_list = 8;
+	repeated int32 included_furniture_index_list = 2;
 	uint32 guid = 14;
-	Vector spawn_pos = 15;
+	Vector spawn_pos = 7;
 }

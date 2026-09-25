@@ -6,9 +6,9 @@ option java_outer_classname = "_FairyTalesCombatSettleInfoOuterClass";
 import "NMBMNBEAFOB.proto";
 
 message _FairyTalesCombatSettleInfo {
-	bool is_new_record = 5;
-	uint32 level_id = 7;
-	uint32 difficulty = 8;
-	uint32 total_score = 12;
-	NMBMNBEAFOB IEAJFKDOABH = 15;
+	bool is_new_record = 9;
+	uint32 level_id = 15;
+	uint32 difficulty = 11;
+	uint32 total_score = 13;
+	NMBMNBEAFOB IEAJFKDOABH = 2;
 }

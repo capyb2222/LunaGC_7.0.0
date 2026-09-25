@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "WidgetCoolDownDataOuterClass";
 
 message WidgetCoolDownData {
-	bool is_success = 7;
-	uint64 cool_down_time = 9;
+	bool is_success = 14;
+	uint64 cool_down_time = 7;
 	uint32 id = 12;
 }

@@ -5,6 +5,6 @@ option java_outer_classname = "McoinExchangeHcoinRspOuterClass";
 
 message McoinExchangeHcoinRsp {
 	int32 retcode = 7;
-	uint32 hcoin = 8;
-	uint32 mcoin_cost = 14;
+	uint32 hcoin = 15;
+	uint32 mcoin_cost = 10;
 }

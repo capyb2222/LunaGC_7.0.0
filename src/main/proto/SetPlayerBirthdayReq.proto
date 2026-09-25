@@ -6,5 +6,5 @@ option java_outer_classname = "SetPlayerBirthdayReqOuterClass";
 import "Birthday.proto";
 
 message SetPlayerBirthdayReq {
-	Birthday birthday = 13;
+	Birthday birthday = 14;
 }

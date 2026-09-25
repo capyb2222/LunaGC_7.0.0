@@ -19,7 +19,7 @@ public final class LDGCGLKMJFOOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 game_id = 3;</code>
+     * <code>uint32 game_id = 2;</code>
      * @return The gameId.
      */
     int getGameId();
@@ -31,24 +31,24 @@ public final class LDGCGLKMJFOOuterClass {
     int getLevelId();
 
     /**
-     * <code>repeated uint32 affix_list = 5;</code>
+     * <code>repeated uint32 affix_list = 7;</code>
      * @return A list containing the affixList.
      */
     java.util.List<java.lang.Integer> getAffixListList();
     /**
-     * <code>repeated uint32 affix_list = 5;</code>
+     * <code>repeated uint32 affix_list = 7;</code>
      * @return The count of affixList.
      */
     int getAffixListCount();
     /**
-     * <code>repeated uint32 affix_list = 5;</code>
+     * <code>repeated uint32 affix_list = 7;</code>
      * @param index The index of the element to return.
      * @return The affixList at the given index.
      */
     int getAffixList(int index);
 
     /**
-     * <code>uint32 max_score = 9;</code>
+     * <code>uint32 max_score = 1;</code>
      * @return The maxScore.
      */
     int getMaxScore();
@@ -100,7 +100,12 @@ public final class LDGCGLKMJFOOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 8: {
+
+              maxScore_ = input.readUInt32();
+              break;
+            }
+            case 16: {
 
               gameId_ = input.readUInt32();
               break;
@@ -110,7 +115,7 @@ public final class LDGCGLKMJFOOuterClass {
               levelId_ = input.readUInt32();
               break;
             }
-            case 40: {
+            case 56: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 affixList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -118,7 +123,7 @@ public final class LDGCGLKMJFOOuterClass {
               affixList_.addInt(input.readUInt32());
               break;
             }
-            case 42: {
+            case 58: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -129,11 +134,6 @@ public final class LDGCGLKMJFOOuterClass {
                 affixList_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
-              break;
-            }
-            case 72: {
-
-              maxScore_ = input.readUInt32();
               break;
             }
             default: {
@@ -171,10 +171,10 @@ public final class LDGCGLKMJFOOuterClass {
               emu.grasscutter.net.proto.LDGCGLKMJFOOuterClass.LDGCGLKMJFO.class, emu.grasscutter.net.proto.LDGCGLKMJFOOuterClass.LDGCGLKMJFO.Builder.class);
     }
 
-    public static final int GAME_ID_FIELD_NUMBER = 3;
+    public static final int GAME_ID_FIELD_NUMBER = 2;
     private int gameId_;
     /**
-     * <code>uint32 game_id = 3;</code>
+     * <code>uint32 game_id = 2;</code>
      * @return The gameId.
      */
     @java.lang.Override
@@ -193,10 +193,10 @@ public final class LDGCGLKMJFOOuterClass {
       return levelId_;
     }
 
-    public static final int AFFIX_LIST_FIELD_NUMBER = 5;
+    public static final int AFFIX_LIST_FIELD_NUMBER = 7;
     private com.google.protobuf.Internal.IntList affixList_;
     /**
-     * <code>repeated uint32 affix_list = 5;</code>
+     * <code>repeated uint32 affix_list = 7;</code>
      * @return A list containing the affixList.
      */
     @java.lang.Override
@@ -205,14 +205,14 @@ public final class LDGCGLKMJFOOuterClass {
       return affixList_;
     }
     /**
-     * <code>repeated uint32 affix_list = 5;</code>
+     * <code>repeated uint32 affix_list = 7;</code>
      * @return The count of affixList.
      */
     public int getAffixListCount() {
       return affixList_.size();
     }
     /**
-     * <code>repeated uint32 affix_list = 5;</code>
+     * <code>repeated uint32 affix_list = 7;</code>
      * @param index The index of the element to return.
      * @return The affixList at the given index.
      */
@@ -221,10 +221,10 @@ public final class LDGCGLKMJFOOuterClass {
     }
     private int affixListMemoizedSerializedSize = -1;
 
-    public static final int MAX_SCORE_FIELD_NUMBER = 9;
+    public static final int MAX_SCORE_FIELD_NUMBER = 1;
     private int maxScore_;
     /**
-     * <code>uint32 max_score = 9;</code>
+     * <code>uint32 max_score = 1;</code>
      * @return The maxScore.
      */
     @java.lang.Override
@@ -247,21 +247,21 @@ public final class LDGCGLKMJFOOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
+      if (maxScore_ != 0) {
+        output.writeUInt32(1, maxScore_);
+      }
       if (gameId_ != 0) {
-        output.writeUInt32(3, gameId_);
+        output.writeUInt32(2, gameId_);
       }
       if (levelId_ != 0) {
         output.writeUInt32(4, levelId_);
       }
       if (getAffixListList().size() > 0) {
-        output.writeUInt32NoTag(42);
+        output.writeUInt32NoTag(58);
         output.writeUInt32NoTag(affixListMemoizedSerializedSize);
       }
       for (int i = 0; i < affixList_.size(); i++) {
         output.writeUInt32NoTag(affixList_.getInt(i));
-      }
-      if (maxScore_ != 0) {
-        output.writeUInt32(9, maxScore_);
       }
       unknownFields.writeTo(output);
     }
@@ -272,9 +272,13 @@ public final class LDGCGLKMJFOOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (maxScore_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(1, maxScore_);
+      }
       if (gameId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, gameId_);
+          .computeUInt32Size(2, gameId_);
       }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -293,10 +297,6 @@ public final class LDGCGLKMJFOOuterClass {
               .computeInt32SizeNoTag(dataSize);
         }
         affixListMemoizedSerializedSize = dataSize;
-      }
-      if (maxScore_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, maxScore_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -617,7 +617,7 @@ public final class LDGCGLKMJFOOuterClass {
 
       private int gameId_ ;
       /**
-       * <code>uint32 game_id = 3;</code>
+       * <code>uint32 game_id = 2;</code>
        * @return The gameId.
        */
       @java.lang.Override
@@ -625,7 +625,7 @@ public final class LDGCGLKMJFOOuterClass {
         return gameId_;
       }
       /**
-       * <code>uint32 game_id = 3;</code>
+       * <code>uint32 game_id = 2;</code>
        * @param value The gameId to set.
        * @return This builder for chaining.
        */
@@ -636,7 +636,7 @@ public final class LDGCGLKMJFOOuterClass {
         return this;
       }
       /**
-       * <code>uint32 game_id = 3;</code>
+       * <code>uint32 game_id = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearGameId() {
@@ -685,7 +685,7 @@ public final class LDGCGLKMJFOOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 affix_list = 5;</code>
+       * <code>repeated uint32 affix_list = 7;</code>
        * @return A list containing the affixList.
        */
       public java.util.List<java.lang.Integer>
@@ -694,14 +694,14 @@ public final class LDGCGLKMJFOOuterClass {
                  java.util.Collections.unmodifiableList(affixList_) : affixList_;
       }
       /**
-       * <code>repeated uint32 affix_list = 5;</code>
+       * <code>repeated uint32 affix_list = 7;</code>
        * @return The count of affixList.
        */
       public int getAffixListCount() {
         return affixList_.size();
       }
       /**
-       * <code>repeated uint32 affix_list = 5;</code>
+       * <code>repeated uint32 affix_list = 7;</code>
        * @param index The index of the element to return.
        * @return The affixList at the given index.
        */
@@ -709,7 +709,7 @@ public final class LDGCGLKMJFOOuterClass {
         return affixList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 affix_list = 5;</code>
+       * <code>repeated uint32 affix_list = 7;</code>
        * @param index The index to set the value at.
        * @param value The affixList to set.
        * @return This builder for chaining.
@@ -722,7 +722,7 @@ public final class LDGCGLKMJFOOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 affix_list = 5;</code>
+       * <code>repeated uint32 affix_list = 7;</code>
        * @param value The affixList to add.
        * @return This builder for chaining.
        */
@@ -733,7 +733,7 @@ public final class LDGCGLKMJFOOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 affix_list = 5;</code>
+       * <code>repeated uint32 affix_list = 7;</code>
        * @param values The affixList to add.
        * @return This builder for chaining.
        */
@@ -746,7 +746,7 @@ public final class LDGCGLKMJFOOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 affix_list = 5;</code>
+       * <code>repeated uint32 affix_list = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearAffixList() {
@@ -758,7 +758,7 @@ public final class LDGCGLKMJFOOuterClass {
 
       private int maxScore_ ;
       /**
-       * <code>uint32 max_score = 9;</code>
+       * <code>uint32 max_score = 1;</code>
        * @return The maxScore.
        */
       @java.lang.Override
@@ -766,7 +766,7 @@ public final class LDGCGLKMJFOOuterClass {
         return maxScore_;
       }
       /**
-       * <code>uint32 max_score = 9;</code>
+       * <code>uint32 max_score = 1;</code>
        * @param value The maxScore to set.
        * @return This builder for chaining.
        */
@@ -777,7 +777,7 @@ public final class LDGCGLKMJFOOuterClass {
         return this;
       }
       /**
-       * <code>uint32 max_score = 9;</code>
+       * <code>uint32 max_score = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearMaxScore() {
@@ -854,8 +854,8 @@ public final class LDGCGLKMJFOOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021LDGCGLKMJFO.proto\"W\n\013LDGCGLKMJFO\022\017\n\007ga" +
-      "me_id\030\003 \001(\r\022\020\n\010level_id\030\004 \001(\r\022\022\n\naffix_l" +
-      "ist\030\005 \003(\r\022\021\n\tmax_score\030\t \001(\rB2\n\031emu.gras" +
+      "me_id\030\002 \001(\r\022\020\n\010level_id\030\004 \001(\r\022\022\n\naffix_l" +
+      "ist\030\007 \003(\r\022\021\n\tmax_score\030\001 \001(\rB2\n\031emu.gras" +
       "scutter.net.protoB\025LDGCGLKMJFOOuterClass" +
       "b\006proto3"
     };

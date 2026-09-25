@@ -19,36 +19,36 @@ public final class _GoalChallengeSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 difficulty = 1;</code>
+     * <code>uint32 difficulty = 13;</code>
      * @return The difficulty.
      */
     int getDifficulty();
 
     /**
-     * <code>repeated uint32 KKBGBCAOLAP = 7;</code>
+     * <code>repeated uint32 KKBGBCAOLAP = 8;</code>
      * @return A list containing the kKBGBCAOLAP.
      */
     java.util.List<java.lang.Integer> getKKBGBCAOLAPList();
     /**
-     * <code>repeated uint32 KKBGBCAOLAP = 7;</code>
+     * <code>repeated uint32 KKBGBCAOLAP = 8;</code>
      * @return The count of kKBGBCAOLAP.
      */
     int getKKBGBCAOLAPCount();
     /**
-     * <code>repeated uint32 KKBGBCAOLAP = 7;</code>
+     * <code>repeated uint32 KKBGBCAOLAP = 8;</code>
      * @param index The index of the element to return.
      * @return The kKBGBCAOLAP at the given index.
      */
     int getKKBGBCAOLAP(int index);
 
     /**
-     * <code>bool is_new_record = 14;</code>
+     * <code>bool is_new_record = 2;</code>
      * @return The isNewRecord.
      */
     boolean getIsNewRecord();
 
     /**
-     * <code>uint32 stage_id = 15;</code>
+     * <code>uint32 stage_id = 1;</code>
      * @return The stageId.
      */
     int getStageId();
@@ -102,10 +102,15 @@ public final class _GoalChallengeSettleInfoOuterClass {
               break;
             case 8: {
 
-              difficulty_ = input.readUInt32();
+              stageId_ = input.readUInt32();
               break;
             }
-            case 56: {
+            case 16: {
+
+              isNewRecord_ = input.readBool();
+              break;
+            }
+            case 64: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 kKBGBCAOLAP_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -113,7 +118,7 @@ public final class _GoalChallengeSettleInfoOuterClass {
               kKBGBCAOLAP_.addInt(input.readUInt32());
               break;
             }
-            case 58: {
+            case 66: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -126,14 +131,9 @@ public final class _GoalChallengeSettleInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 112: {
+            case 104: {
 
-              isNewRecord_ = input.readBool();
-              break;
-            }
-            case 120: {
-
-              stageId_ = input.readUInt32();
+              difficulty_ = input.readUInt32();
               break;
             }
             default: {
@@ -171,10 +171,10 @@ public final class _GoalChallengeSettleInfoOuterClass {
               emu.grasscutter.net.proto._GoalChallengeSettleInfoOuterClass._GoalChallengeSettleInfo.class, emu.grasscutter.net.proto._GoalChallengeSettleInfoOuterClass._GoalChallengeSettleInfo.Builder.class);
     }
 
-    public static final int DIFFICULTY_FIELD_NUMBER = 1;
+    public static final int DIFFICULTY_FIELD_NUMBER = 13;
     private int difficulty_;
     /**
-     * <code>uint32 difficulty = 1;</code>
+     * <code>uint32 difficulty = 13;</code>
      * @return The difficulty.
      */
     @java.lang.Override
@@ -182,10 +182,10 @@ public final class _GoalChallengeSettleInfoOuterClass {
       return difficulty_;
     }
 
-    public static final int KKBGBCAOLAP_FIELD_NUMBER = 7;
+    public static final int KKBGBCAOLAP_FIELD_NUMBER = 8;
     private com.google.protobuf.Internal.IntList kKBGBCAOLAP_;
     /**
-     * <code>repeated uint32 KKBGBCAOLAP = 7;</code>
+     * <code>repeated uint32 KKBGBCAOLAP = 8;</code>
      * @return A list containing the kKBGBCAOLAP.
      */
     @java.lang.Override
@@ -194,14 +194,14 @@ public final class _GoalChallengeSettleInfoOuterClass {
       return kKBGBCAOLAP_;
     }
     /**
-     * <code>repeated uint32 KKBGBCAOLAP = 7;</code>
+     * <code>repeated uint32 KKBGBCAOLAP = 8;</code>
      * @return The count of kKBGBCAOLAP.
      */
     public int getKKBGBCAOLAPCount() {
       return kKBGBCAOLAP_.size();
     }
     /**
-     * <code>repeated uint32 KKBGBCAOLAP = 7;</code>
+     * <code>repeated uint32 KKBGBCAOLAP = 8;</code>
      * @param index The index of the element to return.
      * @return The kKBGBCAOLAP at the given index.
      */
@@ -210,10 +210,10 @@ public final class _GoalChallengeSettleInfoOuterClass {
     }
     private int kKBGBCAOLAPMemoizedSerializedSize = -1;
 
-    public static final int IS_NEW_RECORD_FIELD_NUMBER = 14;
+    public static final int IS_NEW_RECORD_FIELD_NUMBER = 2;
     private boolean isNewRecord_;
     /**
-     * <code>bool is_new_record = 14;</code>
+     * <code>bool is_new_record = 2;</code>
      * @return The isNewRecord.
      */
     @java.lang.Override
@@ -221,10 +221,10 @@ public final class _GoalChallengeSettleInfoOuterClass {
       return isNewRecord_;
     }
 
-    public static final int STAGE_ID_FIELD_NUMBER = 15;
+    public static final int STAGE_ID_FIELD_NUMBER = 1;
     private int stageId_;
     /**
-     * <code>uint32 stage_id = 15;</code>
+     * <code>uint32 stage_id = 1;</code>
      * @return The stageId.
      */
     @java.lang.Override
@@ -247,21 +247,21 @@ public final class _GoalChallengeSettleInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (difficulty_ != 0) {
-        output.writeUInt32(1, difficulty_);
+      if (stageId_ != 0) {
+        output.writeUInt32(1, stageId_);
+      }
+      if (isNewRecord_ != false) {
+        output.writeBool(2, isNewRecord_);
       }
       if (getKKBGBCAOLAPList().size() > 0) {
-        output.writeUInt32NoTag(58);
+        output.writeUInt32NoTag(66);
         output.writeUInt32NoTag(kKBGBCAOLAPMemoizedSerializedSize);
       }
       for (int i = 0; i < kKBGBCAOLAP_.size(); i++) {
         output.writeUInt32NoTag(kKBGBCAOLAP_.getInt(i));
       }
-      if (isNewRecord_ != false) {
-        output.writeBool(14, isNewRecord_);
-      }
-      if (stageId_ != 0) {
-        output.writeUInt32(15, stageId_);
+      if (difficulty_ != 0) {
+        output.writeUInt32(13, difficulty_);
       }
       unknownFields.writeTo(output);
     }
@@ -272,9 +272,13 @@ public final class _GoalChallengeSettleInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (difficulty_ != 0) {
+      if (stageId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, difficulty_);
+          .computeUInt32Size(1, stageId_);
+      }
+      if (isNewRecord_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(2, isNewRecord_);
       }
       {
         int dataSize = 0;
@@ -290,13 +294,9 @@ public final class _GoalChallengeSettleInfoOuterClass {
         }
         kKBGBCAOLAPMemoizedSerializedSize = dataSize;
       }
-      if (isNewRecord_ != false) {
+      if (difficulty_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(14, isNewRecord_);
-      }
-      if (stageId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, stageId_);
+          .computeUInt32Size(13, difficulty_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -618,7 +618,7 @@ public final class _GoalChallengeSettleInfoOuterClass {
 
       private int difficulty_ ;
       /**
-       * <code>uint32 difficulty = 1;</code>
+       * <code>uint32 difficulty = 13;</code>
        * @return The difficulty.
        */
       @java.lang.Override
@@ -626,7 +626,7 @@ public final class _GoalChallengeSettleInfoOuterClass {
         return difficulty_;
       }
       /**
-       * <code>uint32 difficulty = 1;</code>
+       * <code>uint32 difficulty = 13;</code>
        * @param value The difficulty to set.
        * @return This builder for chaining.
        */
@@ -637,7 +637,7 @@ public final class _GoalChallengeSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 difficulty = 1;</code>
+       * <code>uint32 difficulty = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearDifficulty() {
@@ -655,7 +655,7 @@ public final class _GoalChallengeSettleInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 KKBGBCAOLAP = 7;</code>
+       * <code>repeated uint32 KKBGBCAOLAP = 8;</code>
        * @return A list containing the kKBGBCAOLAP.
        */
       public java.util.List<java.lang.Integer>
@@ -664,14 +664,14 @@ public final class _GoalChallengeSettleInfoOuterClass {
                  java.util.Collections.unmodifiableList(kKBGBCAOLAP_) : kKBGBCAOLAP_;
       }
       /**
-       * <code>repeated uint32 KKBGBCAOLAP = 7;</code>
+       * <code>repeated uint32 KKBGBCAOLAP = 8;</code>
        * @return The count of kKBGBCAOLAP.
        */
       public int getKKBGBCAOLAPCount() {
         return kKBGBCAOLAP_.size();
       }
       /**
-       * <code>repeated uint32 KKBGBCAOLAP = 7;</code>
+       * <code>repeated uint32 KKBGBCAOLAP = 8;</code>
        * @param index The index of the element to return.
        * @return The kKBGBCAOLAP at the given index.
        */
@@ -679,7 +679,7 @@ public final class _GoalChallengeSettleInfoOuterClass {
         return kKBGBCAOLAP_.getInt(index);
       }
       /**
-       * <code>repeated uint32 KKBGBCAOLAP = 7;</code>
+       * <code>repeated uint32 KKBGBCAOLAP = 8;</code>
        * @param index The index to set the value at.
        * @param value The kKBGBCAOLAP to set.
        * @return This builder for chaining.
@@ -692,7 +692,7 @@ public final class _GoalChallengeSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 KKBGBCAOLAP = 7;</code>
+       * <code>repeated uint32 KKBGBCAOLAP = 8;</code>
        * @param value The kKBGBCAOLAP to add.
        * @return This builder for chaining.
        */
@@ -703,7 +703,7 @@ public final class _GoalChallengeSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 KKBGBCAOLAP = 7;</code>
+       * <code>repeated uint32 KKBGBCAOLAP = 8;</code>
        * @param values The kKBGBCAOLAP to add.
        * @return This builder for chaining.
        */
@@ -716,7 +716,7 @@ public final class _GoalChallengeSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 KKBGBCAOLAP = 7;</code>
+       * <code>repeated uint32 KKBGBCAOLAP = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearKKBGBCAOLAP() {
@@ -728,7 +728,7 @@ public final class _GoalChallengeSettleInfoOuterClass {
 
       private boolean isNewRecord_ ;
       /**
-       * <code>bool is_new_record = 14;</code>
+       * <code>bool is_new_record = 2;</code>
        * @return The isNewRecord.
        */
       @java.lang.Override
@@ -736,7 +736,7 @@ public final class _GoalChallengeSettleInfoOuterClass {
         return isNewRecord_;
       }
       /**
-       * <code>bool is_new_record = 14;</code>
+       * <code>bool is_new_record = 2;</code>
        * @param value The isNewRecord to set.
        * @return This builder for chaining.
        */
@@ -747,7 +747,7 @@ public final class _GoalChallengeSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_new_record = 14;</code>
+       * <code>bool is_new_record = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsNewRecord() {
@@ -759,7 +759,7 @@ public final class _GoalChallengeSettleInfoOuterClass {
 
       private int stageId_ ;
       /**
-       * <code>uint32 stage_id = 15;</code>
+       * <code>uint32 stage_id = 1;</code>
        * @return The stageId.
        */
       @java.lang.Override
@@ -767,7 +767,7 @@ public final class _GoalChallengeSettleInfoOuterClass {
         return stageId_;
       }
       /**
-       * <code>uint32 stage_id = 15;</code>
+       * <code>uint32 stage_id = 1;</code>
        * @param value The stageId to set.
        * @return This builder for chaining.
        */
@@ -778,7 +778,7 @@ public final class _GoalChallengeSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 stage_id = 15;</code>
+       * <code>uint32 stage_id = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearStageId() {
@@ -855,9 +855,9 @@ public final class _GoalChallengeSettleInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\036_GoalChallengeSettleInfo.proto\"l\n\030_Goa" +
-      "lChallengeSettleInfo\022\022\n\ndifficulty\030\001 \001(\r" +
-      "\022\023\n\013KKBGBCAOLAP\030\007 \003(\r\022\025\n\ris_new_record\030\016" +
-      " \001(\010\022\020\n\010stage_id\030\017 \001(\rB?\n\031emu.grasscutte" +
+      "lChallengeSettleInfo\022\022\n\ndifficulty\030\r \001(\r" +
+      "\022\023\n\013KKBGBCAOLAP\030\010 \003(\r\022\025\n\ris_new_record\030\002" +
+      " \001(\010\022\020\n\010stage_id\030\001 \001(\rB?\n\031emu.grasscutte" +
       "r.net.protoB\"_GoalChallengeSettleInfoOut" +
       "erClassb\006proto3"
     };

@@ -19,37 +19,37 @@ public final class _DiversityBattleSocialBriefOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 difficulty_id = 3;</code>
+     * <code>uint32 difficulty_id = 6;</code>
      * @return The difficultyId.
      */
     int getDifficultyId();
 
     /**
-     * <code>uint32 score = 9;</code>
+     * <code>uint32 score = 2;</code>
      * @return The score.
      */
     int getScore();
 
     /**
-     * <code>repeated .JHJLAHGFBEN team_list = 13;</code>
+     * <code>repeated .JHJLAHGFBEN team_list = 11;</code>
      */
     java.util.List<emu.grasscutter.net.proto.JHJLAHGFBENOuterClass.JHJLAHGFBEN> 
         getTeamListList();
     /**
-     * <code>repeated .JHJLAHGFBEN team_list = 13;</code>
+     * <code>repeated .JHJLAHGFBEN team_list = 11;</code>
      */
     emu.grasscutter.net.proto.JHJLAHGFBENOuterClass.JHJLAHGFBEN getTeamList(int index);
     /**
-     * <code>repeated .JHJLAHGFBEN team_list = 13;</code>
+     * <code>repeated .JHJLAHGFBEN team_list = 11;</code>
      */
     int getTeamListCount();
     /**
-     * <code>repeated .JHJLAHGFBEN team_list = 13;</code>
+     * <code>repeated .JHJLAHGFBEN team_list = 11;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.JHJLAHGFBENOuterClass.JHJLAHGFBENOrBuilder> 
         getTeamListOrBuilderList();
     /**
-     * <code>repeated .JHJLAHGFBEN team_list = 13;</code>
+     * <code>repeated .JHJLAHGFBEN team_list = 11;</code>
      */
     emu.grasscutter.net.proto.JHJLAHGFBENOuterClass.JHJLAHGFBENOrBuilder getTeamListOrBuilder(
         int index);
@@ -101,17 +101,17 @@ public final class _DiversityBattleSocialBriefOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
-
-              difficultyId_ = input.readUInt32();
-              break;
-            }
-            case 72: {
+            case 16: {
 
               score_ = input.readUInt32();
               break;
             }
-            case 106: {
+            case 48: {
+
+              difficultyId_ = input.readUInt32();
+              break;
+            }
+            case 90: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 teamList_ = new java.util.ArrayList<emu.grasscutter.net.proto.JHJLAHGFBENOuterClass.JHJLAHGFBEN>();
                 mutable_bitField0_ |= 0x00000001;
@@ -155,10 +155,10 @@ public final class _DiversityBattleSocialBriefOuterClass {
               emu.grasscutter.net.proto._DiversityBattleSocialBriefOuterClass._DiversityBattleSocialBrief.class, emu.grasscutter.net.proto._DiversityBattleSocialBriefOuterClass._DiversityBattleSocialBrief.Builder.class);
     }
 
-    public static final int DIFFICULTY_ID_FIELD_NUMBER = 3;
+    public static final int DIFFICULTY_ID_FIELD_NUMBER = 6;
     private int difficultyId_;
     /**
-     * <code>uint32 difficulty_id = 3;</code>
+     * <code>uint32 difficulty_id = 6;</code>
      * @return The difficultyId.
      */
     @java.lang.Override
@@ -166,10 +166,10 @@ public final class _DiversityBattleSocialBriefOuterClass {
       return difficultyId_;
     }
 
-    public static final int SCORE_FIELD_NUMBER = 9;
+    public static final int SCORE_FIELD_NUMBER = 2;
     private int score_;
     /**
-     * <code>uint32 score = 9;</code>
+     * <code>uint32 score = 2;</code>
      * @return The score.
      */
     @java.lang.Override
@@ -177,17 +177,17 @@ public final class _DiversityBattleSocialBriefOuterClass {
       return score_;
     }
 
-    public static final int TEAM_LIST_FIELD_NUMBER = 13;
+    public static final int TEAM_LIST_FIELD_NUMBER = 11;
     private java.util.List<emu.grasscutter.net.proto.JHJLAHGFBENOuterClass.JHJLAHGFBEN> teamList_;
     /**
-     * <code>repeated .JHJLAHGFBEN team_list = 13;</code>
+     * <code>repeated .JHJLAHGFBEN team_list = 11;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.JHJLAHGFBENOuterClass.JHJLAHGFBEN> getTeamListList() {
       return teamList_;
     }
     /**
-     * <code>repeated .JHJLAHGFBEN team_list = 13;</code>
+     * <code>repeated .JHJLAHGFBEN team_list = 11;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.JHJLAHGFBENOuterClass.JHJLAHGFBENOrBuilder> 
@@ -195,21 +195,21 @@ public final class _DiversityBattleSocialBriefOuterClass {
       return teamList_;
     }
     /**
-     * <code>repeated .JHJLAHGFBEN team_list = 13;</code>
+     * <code>repeated .JHJLAHGFBEN team_list = 11;</code>
      */
     @java.lang.Override
     public int getTeamListCount() {
       return teamList_.size();
     }
     /**
-     * <code>repeated .JHJLAHGFBEN team_list = 13;</code>
+     * <code>repeated .JHJLAHGFBEN team_list = 11;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.JHJLAHGFBENOuterClass.JHJLAHGFBEN getTeamList(int index) {
       return teamList_.get(index);
     }
     /**
-     * <code>repeated .JHJLAHGFBEN team_list = 13;</code>
+     * <code>repeated .JHJLAHGFBEN team_list = 11;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.JHJLAHGFBENOuterClass.JHJLAHGFBENOrBuilder getTeamListOrBuilder(
@@ -231,14 +231,14 @@ public final class _DiversityBattleSocialBriefOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (difficultyId_ != 0) {
-        output.writeUInt32(3, difficultyId_);
-      }
       if (score_ != 0) {
-        output.writeUInt32(9, score_);
+        output.writeUInt32(2, score_);
+      }
+      if (difficultyId_ != 0) {
+        output.writeUInt32(6, difficultyId_);
       }
       for (int i = 0; i < teamList_.size(); i++) {
-        output.writeMessage(13, teamList_.get(i));
+        output.writeMessage(11, teamList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -249,17 +249,17 @@ public final class _DiversityBattleSocialBriefOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (difficultyId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, difficultyId_);
-      }
       if (score_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, score_);
+          .computeUInt32Size(2, score_);
+      }
+      if (difficultyId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(6, difficultyId_);
       }
       for (int i = 0; i < teamList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, teamList_.get(i));
+          .computeMessageSize(11, teamList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -595,7 +595,7 @@ public final class _DiversityBattleSocialBriefOuterClass {
 
       private int difficultyId_ ;
       /**
-       * <code>uint32 difficulty_id = 3;</code>
+       * <code>uint32 difficulty_id = 6;</code>
        * @return The difficultyId.
        */
       @java.lang.Override
@@ -603,7 +603,7 @@ public final class _DiversityBattleSocialBriefOuterClass {
         return difficultyId_;
       }
       /**
-       * <code>uint32 difficulty_id = 3;</code>
+       * <code>uint32 difficulty_id = 6;</code>
        * @param value The difficultyId to set.
        * @return This builder for chaining.
        */
@@ -614,7 +614,7 @@ public final class _DiversityBattleSocialBriefOuterClass {
         return this;
       }
       /**
-       * <code>uint32 difficulty_id = 3;</code>
+       * <code>uint32 difficulty_id = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearDifficultyId() {
@@ -626,7 +626,7 @@ public final class _DiversityBattleSocialBriefOuterClass {
 
       private int score_ ;
       /**
-       * <code>uint32 score = 9;</code>
+       * <code>uint32 score = 2;</code>
        * @return The score.
        */
       @java.lang.Override
@@ -634,7 +634,7 @@ public final class _DiversityBattleSocialBriefOuterClass {
         return score_;
       }
       /**
-       * <code>uint32 score = 9;</code>
+       * <code>uint32 score = 2;</code>
        * @param value The score to set.
        * @return This builder for chaining.
        */
@@ -645,7 +645,7 @@ public final class _DiversityBattleSocialBriefOuterClass {
         return this;
       }
       /**
-       * <code>uint32 score = 9;</code>
+       * <code>uint32 score = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearScore() {
@@ -668,7 +668,7 @@ public final class _DiversityBattleSocialBriefOuterClass {
           emu.grasscutter.net.proto.JHJLAHGFBENOuterClass.JHJLAHGFBEN, emu.grasscutter.net.proto.JHJLAHGFBENOuterClass.JHJLAHGFBEN.Builder, emu.grasscutter.net.proto.JHJLAHGFBENOuterClass.JHJLAHGFBENOrBuilder> teamListBuilder_;
 
       /**
-       * <code>repeated .JHJLAHGFBEN team_list = 13;</code>
+       * <code>repeated .JHJLAHGFBEN team_list = 11;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.JHJLAHGFBENOuterClass.JHJLAHGFBEN> getTeamListList() {
         if (teamListBuilder_ == null) {
@@ -678,7 +678,7 @@ public final class _DiversityBattleSocialBriefOuterClass {
         }
       }
       /**
-       * <code>repeated .JHJLAHGFBEN team_list = 13;</code>
+       * <code>repeated .JHJLAHGFBEN team_list = 11;</code>
        */
       public int getTeamListCount() {
         if (teamListBuilder_ == null) {
@@ -688,7 +688,7 @@ public final class _DiversityBattleSocialBriefOuterClass {
         }
       }
       /**
-       * <code>repeated .JHJLAHGFBEN team_list = 13;</code>
+       * <code>repeated .JHJLAHGFBEN team_list = 11;</code>
        */
       public emu.grasscutter.net.proto.JHJLAHGFBENOuterClass.JHJLAHGFBEN getTeamList(int index) {
         if (teamListBuilder_ == null) {
@@ -698,7 +698,7 @@ public final class _DiversityBattleSocialBriefOuterClass {
         }
       }
       /**
-       * <code>repeated .JHJLAHGFBEN team_list = 13;</code>
+       * <code>repeated .JHJLAHGFBEN team_list = 11;</code>
        */
       public Builder setTeamList(
           int index, emu.grasscutter.net.proto.JHJLAHGFBENOuterClass.JHJLAHGFBEN value) {
@@ -715,7 +715,7 @@ public final class _DiversityBattleSocialBriefOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JHJLAHGFBEN team_list = 13;</code>
+       * <code>repeated .JHJLAHGFBEN team_list = 11;</code>
        */
       public Builder setTeamList(
           int index, emu.grasscutter.net.proto.JHJLAHGFBENOuterClass.JHJLAHGFBEN.Builder builderForValue) {
@@ -729,7 +729,7 @@ public final class _DiversityBattleSocialBriefOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JHJLAHGFBEN team_list = 13;</code>
+       * <code>repeated .JHJLAHGFBEN team_list = 11;</code>
        */
       public Builder addTeamList(emu.grasscutter.net.proto.JHJLAHGFBENOuterClass.JHJLAHGFBEN value) {
         if (teamListBuilder_ == null) {
@@ -745,7 +745,7 @@ public final class _DiversityBattleSocialBriefOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JHJLAHGFBEN team_list = 13;</code>
+       * <code>repeated .JHJLAHGFBEN team_list = 11;</code>
        */
       public Builder addTeamList(
           int index, emu.grasscutter.net.proto.JHJLAHGFBENOuterClass.JHJLAHGFBEN value) {
@@ -762,7 +762,7 @@ public final class _DiversityBattleSocialBriefOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JHJLAHGFBEN team_list = 13;</code>
+       * <code>repeated .JHJLAHGFBEN team_list = 11;</code>
        */
       public Builder addTeamList(
           emu.grasscutter.net.proto.JHJLAHGFBENOuterClass.JHJLAHGFBEN.Builder builderForValue) {
@@ -776,7 +776,7 @@ public final class _DiversityBattleSocialBriefOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JHJLAHGFBEN team_list = 13;</code>
+       * <code>repeated .JHJLAHGFBEN team_list = 11;</code>
        */
       public Builder addTeamList(
           int index, emu.grasscutter.net.proto.JHJLAHGFBENOuterClass.JHJLAHGFBEN.Builder builderForValue) {
@@ -790,7 +790,7 @@ public final class _DiversityBattleSocialBriefOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JHJLAHGFBEN team_list = 13;</code>
+       * <code>repeated .JHJLAHGFBEN team_list = 11;</code>
        */
       public Builder addAllTeamList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.JHJLAHGFBENOuterClass.JHJLAHGFBEN> values) {
@@ -805,7 +805,7 @@ public final class _DiversityBattleSocialBriefOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JHJLAHGFBEN team_list = 13;</code>
+       * <code>repeated .JHJLAHGFBEN team_list = 11;</code>
        */
       public Builder clearTeamList() {
         if (teamListBuilder_ == null) {
@@ -818,7 +818,7 @@ public final class _DiversityBattleSocialBriefOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JHJLAHGFBEN team_list = 13;</code>
+       * <code>repeated .JHJLAHGFBEN team_list = 11;</code>
        */
       public Builder removeTeamList(int index) {
         if (teamListBuilder_ == null) {
@@ -831,14 +831,14 @@ public final class _DiversityBattleSocialBriefOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JHJLAHGFBEN team_list = 13;</code>
+       * <code>repeated .JHJLAHGFBEN team_list = 11;</code>
        */
       public emu.grasscutter.net.proto.JHJLAHGFBENOuterClass.JHJLAHGFBEN.Builder getTeamListBuilder(
           int index) {
         return getTeamListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .JHJLAHGFBEN team_list = 13;</code>
+       * <code>repeated .JHJLAHGFBEN team_list = 11;</code>
        */
       public emu.grasscutter.net.proto.JHJLAHGFBENOuterClass.JHJLAHGFBENOrBuilder getTeamListOrBuilder(
           int index) {
@@ -848,7 +848,7 @@ public final class _DiversityBattleSocialBriefOuterClass {
         }
       }
       /**
-       * <code>repeated .JHJLAHGFBEN team_list = 13;</code>
+       * <code>repeated .JHJLAHGFBEN team_list = 11;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.JHJLAHGFBENOuterClass.JHJLAHGFBENOrBuilder> 
            getTeamListOrBuilderList() {
@@ -859,14 +859,14 @@ public final class _DiversityBattleSocialBriefOuterClass {
         }
       }
       /**
-       * <code>repeated .JHJLAHGFBEN team_list = 13;</code>
+       * <code>repeated .JHJLAHGFBEN team_list = 11;</code>
        */
       public emu.grasscutter.net.proto.JHJLAHGFBENOuterClass.JHJLAHGFBEN.Builder addTeamListBuilder() {
         return getTeamListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.JHJLAHGFBENOuterClass.JHJLAHGFBEN.getDefaultInstance());
       }
       /**
-       * <code>repeated .JHJLAHGFBEN team_list = 13;</code>
+       * <code>repeated .JHJLAHGFBEN team_list = 11;</code>
        */
       public emu.grasscutter.net.proto.JHJLAHGFBENOuterClass.JHJLAHGFBEN.Builder addTeamListBuilder(
           int index) {
@@ -874,7 +874,7 @@ public final class _DiversityBattleSocialBriefOuterClass {
             index, emu.grasscutter.net.proto.JHJLAHGFBENOuterClass.JHJLAHGFBEN.getDefaultInstance());
       }
       /**
-       * <code>repeated .JHJLAHGFBEN team_list = 13;</code>
+       * <code>repeated .JHJLAHGFBEN team_list = 11;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.JHJLAHGFBENOuterClass.JHJLAHGFBEN.Builder> 
            getTeamListBuilderList() {
@@ -963,8 +963,8 @@ public final class _DiversityBattleSocialBriefOuterClass {
     java.lang.String[] descriptorData = {
       "\n!_DiversityBattleSocialBrief.proto\032\021JHJ" +
       "LAHGFBEN.proto\"d\n\033_DiversityBattleSocial" +
-      "Brief\022\025\n\rdifficulty_id\030\003 \001(\r\022\r\n\005score\030\t " +
-      "\001(\r\022\037\n\tteam_list\030\r \003(\0132\014.JHJLAHGFBENBB\n\031" +
+      "Brief\022\025\n\rdifficulty_id\030\006 \001(\r\022\r\n\005score\030\002 " +
+      "\001(\r\022\037\n\tteam_list\030\013 \003(\0132\014.JHJLAHGFBENBB\n\031" +
       "emu.grasscutter.net.protoB%_DiversityBat" +
       "tleSocialBriefOuterClassb\006proto3"
     };

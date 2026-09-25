@@ -6,13 +6,13 @@ option java_outer_classname = "SeaLampActivityInfoOuterClass";
 import "SeaLampSectionInfo.proto";
 
 message SeaLampActivityInfo {
-	bool LMIKLCAMJPN = 2;
-	uint32 jdedagmgmod = 4;
-	uint32 opndpakbaeo = 5;
-	bool is_content_closed = 9;
-	uint32 first_day_start_time = 10;
-	uint32 MLCKEOGNHMF = 11;
-	uint32 day_index = 12;
-	bool gbnhbmobhnh = 13;
-	repeated SeaLampSectionInfo section_info_list = 15;
+	bool LMIKLCAMJPN = 50000;
+	uint32 jdedagmgmod = 50001;
+	uint32 opndpakbaeo = 50002;
+	bool is_content_closed = 3;
+	uint32 first_day_start_time = 6;
+	uint32 MLCKEOGNHMF = 5;
+	uint32 day_index = 11;
+	bool gbnhbmobhnh = 50003;
+	repeated SeaLampSectionInfo section_info_list = 7;
 }

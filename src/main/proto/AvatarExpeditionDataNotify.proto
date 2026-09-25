@@ -6,5 +6,5 @@ option java_outer_classname = "AvatarExpeditionDataNotifyOuterClass";
 import "AvatarExpeditionInfo.proto";
 
 message AvatarExpeditionDataNotify {
-	map<uint64, AvatarExpeditionInfo> expedition_info_map = 2;
+	map<uint64, AvatarExpeditionInfo> expedition_info_map = 3;
 }

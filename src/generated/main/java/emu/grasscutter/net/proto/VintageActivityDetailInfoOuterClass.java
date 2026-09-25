@@ -19,11 +19,11 @@ public final class VintageActivityDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>map&lt;uint32, .VintagePresentStageData&gt; present_stage_map = 1;</code>
+     * <code>map&lt;uint32, .VintagePresentStageData&gt; present_stage_map = 50000;</code>
      */
     int getPresentStageMapCount();
     /**
-     * <code>map&lt;uint32, .VintagePresentStageData&gt; present_stage_map = 1;</code>
+     * <code>map&lt;uint32, .VintagePresentStageData&gt; present_stage_map = 50000;</code>
      */
     boolean containsPresentStageMap(
         int key);
@@ -34,36 +34,36 @@ public final class VintageActivityDetailInfoOuterClass {
     java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.VintagePresentStageDataOuterClass.VintagePresentStageData>
     getPresentStageMap();
     /**
-     * <code>map&lt;uint32, .VintagePresentStageData&gt; present_stage_map = 1;</code>
+     * <code>map&lt;uint32, .VintagePresentStageData&gt; present_stage_map = 50000;</code>
      */
     java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.VintagePresentStageDataOuterClass.VintagePresentStageData>
     getPresentStageMapMap();
     /**
-     * <code>map&lt;uint32, .VintagePresentStageData&gt; present_stage_map = 1;</code>
+     * <code>map&lt;uint32, .VintagePresentStageData&gt; present_stage_map = 50000;</code>
      */
 
     emu.grasscutter.net.proto.VintagePresentStageDataOuterClass.VintagePresentStageData getPresentStageMapOrDefault(
         int key,
         emu.grasscutter.net.proto.VintagePresentStageDataOuterClass.VintagePresentStageData defaultValue);
     /**
-     * <code>map&lt;uint32, .VintagePresentStageData&gt; present_stage_map = 1;</code>
+     * <code>map&lt;uint32, .VintagePresentStageData&gt; present_stage_map = 50000;</code>
      */
 
     emu.grasscutter.net.proto.VintagePresentStageDataOuterClass.VintagePresentStageData getPresentStageMapOrThrow(
         int key);
 
     /**
-     * <code>bool is_content_closed = 2;</code>
+     * <code>bool is_content_closed = 5;</code>
      * @return The isContentClosed.
      */
     boolean getIsContentClosed();
 
     /**
-     * <code>map&lt;uint32, .VintageCampChallengeStageData&gt; camp_stage_map = 8;</code>
+     * <code>map&lt;uint32, .VintageCampChallengeStageData&gt; camp_stage_map = 15;</code>
      */
     int getCampStageMapCount();
     /**
-     * <code>map&lt;uint32, .VintageCampChallengeStageData&gt; camp_stage_map = 8;</code>
+     * <code>map&lt;uint32, .VintageCampChallengeStageData&gt; camp_stage_map = 15;</code>
      */
     boolean containsCampStageMap(
         int key);
@@ -74,60 +74,60 @@ public final class VintageActivityDetailInfoOuterClass {
     java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.VintageCampChallengeStageDataOuterClass.VintageCampChallengeStageData>
     getCampStageMap();
     /**
-     * <code>map&lt;uint32, .VintageCampChallengeStageData&gt; camp_stage_map = 8;</code>
+     * <code>map&lt;uint32, .VintageCampChallengeStageData&gt; camp_stage_map = 15;</code>
      */
     java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.VintageCampChallengeStageDataOuterClass.VintageCampChallengeStageData>
     getCampStageMapMap();
     /**
-     * <code>map&lt;uint32, .VintageCampChallengeStageData&gt; camp_stage_map = 8;</code>
+     * <code>map&lt;uint32, .VintageCampChallengeStageData&gt; camp_stage_map = 15;</code>
      */
 
     emu.grasscutter.net.proto.VintageCampChallengeStageDataOuterClass.VintageCampChallengeStageData getCampStageMapOrDefault(
         int key,
         emu.grasscutter.net.proto.VintageCampChallengeStageDataOuterClass.VintageCampChallengeStageData defaultValue);
     /**
-     * <code>map&lt;uint32, .VintageCampChallengeStageData&gt; camp_stage_map = 8;</code>
+     * <code>map&lt;uint32, .VintageCampChallengeStageData&gt; camp_stage_map = 15;</code>
      */
 
     emu.grasscutter.net.proto.VintageCampChallengeStageDataOuterClass.VintageCampChallengeStageData getCampStageMapOrThrow(
         int key);
 
     /**
-     * <code>.VintageMarketInfo market_info = 9;</code>
+     * <code>.VintageMarketInfo market_info = 14;</code>
      * @return Whether the marketInfo field is set.
      */
     boolean hasMarketInfo();
     /**
-     * <code>.VintageMarketInfo market_info = 9;</code>
+     * <code>.VintageMarketInfo market_info = 14;</code>
      * @return The marketInfo.
      */
     emu.grasscutter.net.proto.VintageMarketInfoOuterClass.VintageMarketInfo getMarketInfo();
     /**
-     * <code>.VintageMarketInfo market_info = 9;</code>
+     * <code>.VintageMarketInfo market_info = 14;</code>
      */
     emu.grasscutter.net.proto.VintageMarketInfoOuterClass.VintageMarketInfoOrBuilder getMarketInfoOrBuilder();
 
     /**
-     * <code>.VintageBoothUsedItemData booth_data = 12;</code>
+     * <code>.VintageBoothUsedItemData booth_data = 2;</code>
      * @return Whether the boothData field is set.
      */
     boolean hasBoothData();
     /**
-     * <code>.VintageBoothUsedItemData booth_data = 12;</code>
+     * <code>.VintageBoothUsedItemData booth_data = 2;</code>
      * @return The boothData.
      */
     emu.grasscutter.net.proto.VintageBoothUsedItemDataOuterClass.VintageBoothUsedItemData getBoothData();
     /**
-     * <code>.VintageBoothUsedItemData booth_data = 12;</code>
+     * <code>.VintageBoothUsedItemData booth_data = 2;</code>
      */
     emu.grasscutter.net.proto.VintageBoothUsedItemDataOuterClass.VintageBoothUsedItemDataOrBuilder getBoothDataOrBuilder();
 
     /**
-     * <code>map&lt;uint32, .VintageHuntingStageData&gt; hunting_stage_map = 15;</code>
+     * <code>map&lt;uint32, .VintageHuntingStageData&gt; hunting_stage_map = 50001;</code>
      */
     int getHuntingStageMapCount();
     /**
-     * <code>map&lt;uint32, .VintageHuntingStageData&gt; hunting_stage_map = 15;</code>
+     * <code>map&lt;uint32, .VintageHuntingStageData&gt; hunting_stage_map = 50001;</code>
      */
     boolean containsHuntingStageMap(
         int key);
@@ -138,19 +138,19 @@ public final class VintageActivityDetailInfoOuterClass {
     java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.VintageHuntingStageDataOuterClass.VintageHuntingStageData>
     getHuntingStageMap();
     /**
-     * <code>map&lt;uint32, .VintageHuntingStageData&gt; hunting_stage_map = 15;</code>
+     * <code>map&lt;uint32, .VintageHuntingStageData&gt; hunting_stage_map = 50001;</code>
      */
     java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.VintageHuntingStageDataOuterClass.VintageHuntingStageData>
     getHuntingStageMapMap();
     /**
-     * <code>map&lt;uint32, .VintageHuntingStageData&gt; hunting_stage_map = 15;</code>
+     * <code>map&lt;uint32, .VintageHuntingStageData&gt; hunting_stage_map = 50001;</code>
      */
 
     emu.grasscutter.net.proto.VintageHuntingStageDataOuterClass.VintageHuntingStageData getHuntingStageMapOrDefault(
         int key,
         emu.grasscutter.net.proto.VintageHuntingStageDataOuterClass.VintageHuntingStageData defaultValue);
     /**
-     * <code>map&lt;uint32, .VintageHuntingStageData&gt; hunting_stage_map = 15;</code>
+     * <code>map&lt;uint32, .VintageHuntingStageData&gt; hunting_stage_map = 50001;</code>
      */
 
     emu.grasscutter.net.proto.VintageHuntingStageDataOuterClass.VintageHuntingStageData getHuntingStageMapOrThrow(
@@ -202,51 +202,7 @@ public final class VintageActivityDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 10: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                presentStageMap_ = com.google.protobuf.MapField.newMapField(
-                    PresentStageMapDefaultEntryHolder.defaultEntry);
-                mutable_bitField0_ |= 0x00000001;
-              }
-              com.google.protobuf.MapEntry<java.lang.Integer, emu.grasscutter.net.proto.VintagePresentStageDataOuterClass.VintagePresentStageData>
-              presentStageMap__ = input.readMessage(
-                  PresentStageMapDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
-              presentStageMap_.getMutableMap().put(
-                  presentStageMap__.getKey(), presentStageMap__.getValue());
-              break;
-            }
-            case 16: {
-
-              isContentClosed_ = input.readBool();
-              break;
-            }
-            case 66: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                campStageMap_ = com.google.protobuf.MapField.newMapField(
-                    CampStageMapDefaultEntryHolder.defaultEntry);
-                mutable_bitField0_ |= 0x00000002;
-              }
-              com.google.protobuf.MapEntry<java.lang.Integer, emu.grasscutter.net.proto.VintageCampChallengeStageDataOuterClass.VintageCampChallengeStageData>
-              campStageMap__ = input.readMessage(
-                  CampStageMapDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
-              campStageMap_.getMutableMap().put(
-                  campStageMap__.getKey(), campStageMap__.getValue());
-              break;
-            }
-            case 74: {
-              emu.grasscutter.net.proto.VintageMarketInfoOuterClass.VintageMarketInfo.Builder subBuilder = null;
-              if (marketInfo_ != null) {
-                subBuilder = marketInfo_.toBuilder();
-              }
-              marketInfo_ = input.readMessage(emu.grasscutter.net.proto.VintageMarketInfoOuterClass.VintageMarketInfo.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(marketInfo_);
-                marketInfo_ = subBuilder.buildPartial();
-              }
-
-              break;
-            }
-            case 98: {
+            case 18: {
               emu.grasscutter.net.proto.VintageBoothUsedItemDataOuterClass.VintageBoothUsedItemData.Builder subBuilder = null;
               if (boothData_ != null) {
                 subBuilder = boothData_.toBuilder();
@@ -259,7 +215,51 @@ public final class VintageActivityDetailInfoOuterClass {
 
               break;
             }
+            case 40: {
+
+              isContentClosed_ = input.readBool();
+              break;
+            }
+            case 114: {
+              emu.grasscutter.net.proto.VintageMarketInfoOuterClass.VintageMarketInfo.Builder subBuilder = null;
+              if (marketInfo_ != null) {
+                subBuilder = marketInfo_.toBuilder();
+              }
+              marketInfo_ = input.readMessage(emu.grasscutter.net.proto.VintageMarketInfoOuterClass.VintageMarketInfo.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(marketInfo_);
+                marketInfo_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
             case 122: {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                campStageMap_ = com.google.protobuf.MapField.newMapField(
+                    CampStageMapDefaultEntryHolder.defaultEntry);
+                mutable_bitField0_ |= 0x00000002;
+              }
+              com.google.protobuf.MapEntry<java.lang.Integer, emu.grasscutter.net.proto.VintageCampChallengeStageDataOuterClass.VintageCampChallengeStageData>
+              campStageMap__ = input.readMessage(
+                  CampStageMapDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
+              campStageMap_.getMutableMap().put(
+                  campStageMap__.getKey(), campStageMap__.getValue());
+              break;
+            }
+            case 400002: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                presentStageMap_ = com.google.protobuf.MapField.newMapField(
+                    PresentStageMapDefaultEntryHolder.defaultEntry);
+                mutable_bitField0_ |= 0x00000001;
+              }
+              com.google.protobuf.MapEntry<java.lang.Integer, emu.grasscutter.net.proto.VintagePresentStageDataOuterClass.VintagePresentStageData>
+              presentStageMap__ = input.readMessage(
+                  PresentStageMapDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
+              presentStageMap_.getMutableMap().put(
+                  presentStageMap__.getKey(), presentStageMap__.getValue());
+              break;
+            }
+            case 400010: {
               if (!((mutable_bitField0_ & 0x00000004) != 0)) {
                 huntingStageMap_ = com.google.protobuf.MapField.newMapField(
                     HuntingStageMapDefaultEntryHolder.defaultEntry);
@@ -301,11 +301,11 @@ public final class VintageActivityDetailInfoOuterClass {
     protected com.google.protobuf.MapField internalGetMapField(
         int number) {
       switch (number) {
-        case 1:
+        case 50000:
           return internalGetPresentStageMap();
-        case 8:
-          return internalGetCampStageMap();
         case 15:
+          return internalGetCampStageMap();
+        case 50001:
           return internalGetHuntingStageMap();
         default:
           throw new RuntimeException(
@@ -320,7 +320,7 @@ public final class VintageActivityDetailInfoOuterClass {
               emu.grasscutter.net.proto.VintageActivityDetailInfoOuterClass.VintageActivityDetailInfo.class, emu.grasscutter.net.proto.VintageActivityDetailInfoOuterClass.VintageActivityDetailInfo.Builder.class);
     }
 
-    public static final int PRESENT_STAGE_MAP_FIELD_NUMBER = 1;
+    public static final int PRESENT_STAGE_MAP_FIELD_NUMBER = 50000;
     private static final class PresentStageMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, emu.grasscutter.net.proto.VintagePresentStageDataOuterClass.VintagePresentStageData> defaultEntry =
@@ -347,7 +347,7 @@ public final class VintageActivityDetailInfoOuterClass {
       return internalGetPresentStageMap().getMap().size();
     }
     /**
-     * <code>map&lt;uint32, .VintagePresentStageData&gt; present_stage_map = 1;</code>
+     * <code>map&lt;uint32, .VintagePresentStageData&gt; present_stage_map = 50000;</code>
      */
 
     @java.lang.Override
@@ -365,7 +365,7 @@ public final class VintageActivityDetailInfoOuterClass {
       return getPresentStageMapMap();
     }
     /**
-     * <code>map&lt;uint32, .VintagePresentStageData&gt; present_stage_map = 1;</code>
+     * <code>map&lt;uint32, .VintagePresentStageData&gt; present_stage_map = 50000;</code>
      */
     @java.lang.Override
 
@@ -373,7 +373,7 @@ public final class VintageActivityDetailInfoOuterClass {
       return internalGetPresentStageMap().getMap();
     }
     /**
-     * <code>map&lt;uint32, .VintagePresentStageData&gt; present_stage_map = 1;</code>
+     * <code>map&lt;uint32, .VintagePresentStageData&gt; present_stage_map = 50000;</code>
      */
     @java.lang.Override
 
@@ -386,7 +386,7 @@ public final class VintageActivityDetailInfoOuterClass {
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
     /**
-     * <code>map&lt;uint32, .VintagePresentStageData&gt; present_stage_map = 1;</code>
+     * <code>map&lt;uint32, .VintagePresentStageData&gt; present_stage_map = 50000;</code>
      */
     @java.lang.Override
 
@@ -401,10 +401,10 @@ public final class VintageActivityDetailInfoOuterClass {
       return map.get(key);
     }
 
-    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 2;
+    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 5;
     private boolean isContentClosed_;
     /**
-     * <code>bool is_content_closed = 2;</code>
+     * <code>bool is_content_closed = 5;</code>
      * @return The isContentClosed.
      */
     @java.lang.Override
@@ -412,7 +412,7 @@ public final class VintageActivityDetailInfoOuterClass {
       return isContentClosed_;
     }
 
-    public static final int CAMP_STAGE_MAP_FIELD_NUMBER = 8;
+    public static final int CAMP_STAGE_MAP_FIELD_NUMBER = 15;
     private static final class CampStageMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, emu.grasscutter.net.proto.VintageCampChallengeStageDataOuterClass.VintageCampChallengeStageData> defaultEntry =
@@ -439,7 +439,7 @@ public final class VintageActivityDetailInfoOuterClass {
       return internalGetCampStageMap().getMap().size();
     }
     /**
-     * <code>map&lt;uint32, .VintageCampChallengeStageData&gt; camp_stage_map = 8;</code>
+     * <code>map&lt;uint32, .VintageCampChallengeStageData&gt; camp_stage_map = 15;</code>
      */
 
     @java.lang.Override
@@ -457,7 +457,7 @@ public final class VintageActivityDetailInfoOuterClass {
       return getCampStageMapMap();
     }
     /**
-     * <code>map&lt;uint32, .VintageCampChallengeStageData&gt; camp_stage_map = 8;</code>
+     * <code>map&lt;uint32, .VintageCampChallengeStageData&gt; camp_stage_map = 15;</code>
      */
     @java.lang.Override
 
@@ -465,7 +465,7 @@ public final class VintageActivityDetailInfoOuterClass {
       return internalGetCampStageMap().getMap();
     }
     /**
-     * <code>map&lt;uint32, .VintageCampChallengeStageData&gt; camp_stage_map = 8;</code>
+     * <code>map&lt;uint32, .VintageCampChallengeStageData&gt; camp_stage_map = 15;</code>
      */
     @java.lang.Override
 
@@ -478,7 +478,7 @@ public final class VintageActivityDetailInfoOuterClass {
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
     /**
-     * <code>map&lt;uint32, .VintageCampChallengeStageData&gt; camp_stage_map = 8;</code>
+     * <code>map&lt;uint32, .VintageCampChallengeStageData&gt; camp_stage_map = 15;</code>
      */
     @java.lang.Override
 
@@ -493,10 +493,10 @@ public final class VintageActivityDetailInfoOuterClass {
       return map.get(key);
     }
 
-    public static final int MARKET_INFO_FIELD_NUMBER = 9;
+    public static final int MARKET_INFO_FIELD_NUMBER = 14;
     private emu.grasscutter.net.proto.VintageMarketInfoOuterClass.VintageMarketInfo marketInfo_;
     /**
-     * <code>.VintageMarketInfo market_info = 9;</code>
+     * <code>.VintageMarketInfo market_info = 14;</code>
      * @return Whether the marketInfo field is set.
      */
     @java.lang.Override
@@ -504,7 +504,7 @@ public final class VintageActivityDetailInfoOuterClass {
       return marketInfo_ != null;
     }
     /**
-     * <code>.VintageMarketInfo market_info = 9;</code>
+     * <code>.VintageMarketInfo market_info = 14;</code>
      * @return The marketInfo.
      */
     @java.lang.Override
@@ -512,17 +512,17 @@ public final class VintageActivityDetailInfoOuterClass {
       return marketInfo_ == null ? emu.grasscutter.net.proto.VintageMarketInfoOuterClass.VintageMarketInfo.getDefaultInstance() : marketInfo_;
     }
     /**
-     * <code>.VintageMarketInfo market_info = 9;</code>
+     * <code>.VintageMarketInfo market_info = 14;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.VintageMarketInfoOuterClass.VintageMarketInfoOrBuilder getMarketInfoOrBuilder() {
       return getMarketInfo();
     }
 
-    public static final int BOOTH_DATA_FIELD_NUMBER = 12;
+    public static final int BOOTH_DATA_FIELD_NUMBER = 2;
     private emu.grasscutter.net.proto.VintageBoothUsedItemDataOuterClass.VintageBoothUsedItemData boothData_;
     /**
-     * <code>.VintageBoothUsedItemData booth_data = 12;</code>
+     * <code>.VintageBoothUsedItemData booth_data = 2;</code>
      * @return Whether the boothData field is set.
      */
     @java.lang.Override
@@ -530,7 +530,7 @@ public final class VintageActivityDetailInfoOuterClass {
       return boothData_ != null;
     }
     /**
-     * <code>.VintageBoothUsedItemData booth_data = 12;</code>
+     * <code>.VintageBoothUsedItemData booth_data = 2;</code>
      * @return The boothData.
      */
     @java.lang.Override
@@ -538,14 +538,14 @@ public final class VintageActivityDetailInfoOuterClass {
       return boothData_ == null ? emu.grasscutter.net.proto.VintageBoothUsedItemDataOuterClass.VintageBoothUsedItemData.getDefaultInstance() : boothData_;
     }
     /**
-     * <code>.VintageBoothUsedItemData booth_data = 12;</code>
+     * <code>.VintageBoothUsedItemData booth_data = 2;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.VintageBoothUsedItemDataOuterClass.VintageBoothUsedItemDataOrBuilder getBoothDataOrBuilder() {
       return getBoothData();
     }
 
-    public static final int HUNTING_STAGE_MAP_FIELD_NUMBER = 15;
+    public static final int HUNTING_STAGE_MAP_FIELD_NUMBER = 50001;
     private static final class HuntingStageMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, emu.grasscutter.net.proto.VintageHuntingStageDataOuterClass.VintageHuntingStageData> defaultEntry =
@@ -572,7 +572,7 @@ public final class VintageActivityDetailInfoOuterClass {
       return internalGetHuntingStageMap().getMap().size();
     }
     /**
-     * <code>map&lt;uint32, .VintageHuntingStageData&gt; hunting_stage_map = 15;</code>
+     * <code>map&lt;uint32, .VintageHuntingStageData&gt; hunting_stage_map = 50001;</code>
      */
 
     @java.lang.Override
@@ -590,7 +590,7 @@ public final class VintageActivityDetailInfoOuterClass {
       return getHuntingStageMapMap();
     }
     /**
-     * <code>map&lt;uint32, .VintageHuntingStageData&gt; hunting_stage_map = 15;</code>
+     * <code>map&lt;uint32, .VintageHuntingStageData&gt; hunting_stage_map = 50001;</code>
      */
     @java.lang.Override
 
@@ -598,7 +598,7 @@ public final class VintageActivityDetailInfoOuterClass {
       return internalGetHuntingStageMap().getMap();
     }
     /**
-     * <code>map&lt;uint32, .VintageHuntingStageData&gt; hunting_stage_map = 15;</code>
+     * <code>map&lt;uint32, .VintageHuntingStageData&gt; hunting_stage_map = 50001;</code>
      */
     @java.lang.Override
 
@@ -611,7 +611,7 @@ public final class VintageActivityDetailInfoOuterClass {
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
     /**
-     * <code>map&lt;uint32, .VintageHuntingStageData&gt; hunting_stage_map = 15;</code>
+     * <code>map&lt;uint32, .VintageHuntingStageData&gt; hunting_stage_map = 50001;</code>
      */
     @java.lang.Override
 
@@ -640,33 +640,33 @@ public final class VintageActivityDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      com.google.protobuf.GeneratedMessageV3
-        .serializeIntegerMapTo(
-          output,
-          internalGetPresentStageMap(),
-          PresentStageMapDefaultEntryHolder.defaultEntry,
-          1);
+      if (boothData_ != null) {
+        output.writeMessage(2, getBoothData());
+      }
       if (isContentClosed_ != false) {
-        output.writeBool(2, isContentClosed_);
+        output.writeBool(5, isContentClosed_);
+      }
+      if (marketInfo_ != null) {
+        output.writeMessage(14, getMarketInfo());
       }
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
           output,
           internalGetCampStageMap(),
           CampStageMapDefaultEntryHolder.defaultEntry,
-          8);
-      if (marketInfo_ != null) {
-        output.writeMessage(9, getMarketInfo());
-      }
-      if (boothData_ != null) {
-        output.writeMessage(12, getBoothData());
-      }
+          15);
+      com.google.protobuf.GeneratedMessageV3
+        .serializeIntegerMapTo(
+          output,
+          internalGetPresentStageMap(),
+          PresentStageMapDefaultEntryHolder.defaultEntry,
+          50000);
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
           output,
           internalGetHuntingStageMap(),
           HuntingStageMapDefaultEntryHolder.defaultEntry,
-          15);
+          50001);
       unknownFields.writeTo(output);
     }
 
@@ -676,19 +676,17 @@ public final class VintageActivityDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (java.util.Map.Entry<java.lang.Integer, emu.grasscutter.net.proto.VintagePresentStageDataOuterClass.VintagePresentStageData> entry
-           : internalGetPresentStageMap().getMap().entrySet()) {
-        com.google.protobuf.MapEntry<java.lang.Integer, emu.grasscutter.net.proto.VintagePresentStageDataOuterClass.VintagePresentStageData>
-        presentStageMap__ = PresentStageMapDefaultEntryHolder.defaultEntry.newBuilderForType()
-            .setKey(entry.getKey())
-            .setValue(entry.getValue())
-            .build();
+      if (boothData_ != null) {
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(1, presentStageMap__);
+          .computeMessageSize(2, getBoothData());
       }
       if (isContentClosed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(2, isContentClosed_);
+          .computeBoolSize(5, isContentClosed_);
+      }
+      if (marketInfo_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(14, getMarketInfo());
       }
       for (java.util.Map.Entry<java.lang.Integer, emu.grasscutter.net.proto.VintageCampChallengeStageDataOuterClass.VintageCampChallengeStageData> entry
            : internalGetCampStageMap().getMap().entrySet()) {
@@ -698,15 +696,17 @@ public final class VintageActivityDetailInfoOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(8, campStageMap__);
+            .computeMessageSize(15, campStageMap__);
       }
-      if (marketInfo_ != null) {
+      for (java.util.Map.Entry<java.lang.Integer, emu.grasscutter.net.proto.VintagePresentStageDataOuterClass.VintagePresentStageData> entry
+           : internalGetPresentStageMap().getMap().entrySet()) {
+        com.google.protobuf.MapEntry<java.lang.Integer, emu.grasscutter.net.proto.VintagePresentStageDataOuterClass.VintagePresentStageData>
+        presentStageMap__ = PresentStageMapDefaultEntryHolder.defaultEntry.newBuilderForType()
+            .setKey(entry.getKey())
+            .setValue(entry.getValue())
+            .build();
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, getMarketInfo());
-      }
-      if (boothData_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, getBoothData());
+            .computeMessageSize(50000, presentStageMap__);
       }
       for (java.util.Map.Entry<java.lang.Integer, emu.grasscutter.net.proto.VintageHuntingStageDataOuterClass.VintageHuntingStageData> entry
            : internalGetHuntingStageMap().getMap().entrySet()) {
@@ -716,7 +716,7 @@ public final class VintageActivityDetailInfoOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(15, huntingStageMap__);
+            .computeMessageSize(50001, huntingStageMap__);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -896,11 +896,11 @@ public final class VintageActivityDetailInfoOuterClass {
       protected com.google.protobuf.MapField internalGetMapField(
           int number) {
         switch (number) {
-          case 1:
+          case 50000:
             return internalGetPresentStageMap();
-          case 8:
-            return internalGetCampStageMap();
           case 15:
+            return internalGetCampStageMap();
+          case 50001:
             return internalGetHuntingStageMap();
           default:
             throw new RuntimeException(
@@ -911,11 +911,11 @@ public final class VintageActivityDetailInfoOuterClass {
       protected com.google.protobuf.MapField internalGetMutableMapField(
           int number) {
         switch (number) {
-          case 1:
+          case 50000:
             return internalGetMutablePresentStageMap();
-          case 8:
-            return internalGetMutableCampStageMap();
           case 15:
+            return internalGetMutableCampStageMap();
+          case 50001:
             return internalGetMutableHuntingStageMap();
           default:
             throw new RuntimeException(
@@ -1129,7 +1129,7 @@ public final class VintageActivityDetailInfoOuterClass {
         return internalGetPresentStageMap().getMap().size();
       }
       /**
-       * <code>map&lt;uint32, .VintagePresentStageData&gt; present_stage_map = 1;</code>
+       * <code>map&lt;uint32, .VintagePresentStageData&gt; present_stage_map = 50000;</code>
        */
 
       @java.lang.Override
@@ -1147,7 +1147,7 @@ public final class VintageActivityDetailInfoOuterClass {
         return getPresentStageMapMap();
       }
       /**
-       * <code>map&lt;uint32, .VintagePresentStageData&gt; present_stage_map = 1;</code>
+       * <code>map&lt;uint32, .VintagePresentStageData&gt; present_stage_map = 50000;</code>
        */
       @java.lang.Override
 
@@ -1155,7 +1155,7 @@ public final class VintageActivityDetailInfoOuterClass {
         return internalGetPresentStageMap().getMap();
       }
       /**
-       * <code>map&lt;uint32, .VintagePresentStageData&gt; present_stage_map = 1;</code>
+       * <code>map&lt;uint32, .VintagePresentStageData&gt; present_stage_map = 50000;</code>
        */
       @java.lang.Override
 
@@ -1168,7 +1168,7 @@ public final class VintageActivityDetailInfoOuterClass {
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
       /**
-       * <code>map&lt;uint32, .VintagePresentStageData&gt; present_stage_map = 1;</code>
+       * <code>map&lt;uint32, .VintagePresentStageData&gt; present_stage_map = 50000;</code>
        */
       @java.lang.Override
 
@@ -1189,7 +1189,7 @@ public final class VintageActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>map&lt;uint32, .VintagePresentStageData&gt; present_stage_map = 1;</code>
+       * <code>map&lt;uint32, .VintagePresentStageData&gt; present_stage_map = 50000;</code>
        */
 
       public Builder removePresentStageMap(
@@ -1208,7 +1208,7 @@ public final class VintageActivityDetailInfoOuterClass {
         return internalGetMutablePresentStageMap().getMutableMap();
       }
       /**
-       * <code>map&lt;uint32, .VintagePresentStageData&gt; present_stage_map = 1;</code>
+       * <code>map&lt;uint32, .VintagePresentStageData&gt; present_stage_map = 50000;</code>
        */
       public Builder putPresentStageMap(
           int key,
@@ -1220,7 +1220,7 @@ public final class VintageActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>map&lt;uint32, .VintagePresentStageData&gt; present_stage_map = 1;</code>
+       * <code>map&lt;uint32, .VintagePresentStageData&gt; present_stage_map = 50000;</code>
        */
 
       public Builder putAllPresentStageMap(
@@ -1232,7 +1232,7 @@ public final class VintageActivityDetailInfoOuterClass {
 
       private boolean isContentClosed_ ;
       /**
-       * <code>bool is_content_closed = 2;</code>
+       * <code>bool is_content_closed = 5;</code>
        * @return The isContentClosed.
        */
       @java.lang.Override
@@ -1240,7 +1240,7 @@ public final class VintageActivityDetailInfoOuterClass {
         return isContentClosed_;
       }
       /**
-       * <code>bool is_content_closed = 2;</code>
+       * <code>bool is_content_closed = 5;</code>
        * @param value The isContentClosed to set.
        * @return This builder for chaining.
        */
@@ -1251,7 +1251,7 @@ public final class VintageActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_content_closed = 2;</code>
+       * <code>bool is_content_closed = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsContentClosed() {
@@ -1288,7 +1288,7 @@ public final class VintageActivityDetailInfoOuterClass {
         return internalGetCampStageMap().getMap().size();
       }
       /**
-       * <code>map&lt;uint32, .VintageCampChallengeStageData&gt; camp_stage_map = 8;</code>
+       * <code>map&lt;uint32, .VintageCampChallengeStageData&gt; camp_stage_map = 15;</code>
        */
 
       @java.lang.Override
@@ -1306,7 +1306,7 @@ public final class VintageActivityDetailInfoOuterClass {
         return getCampStageMapMap();
       }
       /**
-       * <code>map&lt;uint32, .VintageCampChallengeStageData&gt; camp_stage_map = 8;</code>
+       * <code>map&lt;uint32, .VintageCampChallengeStageData&gt; camp_stage_map = 15;</code>
        */
       @java.lang.Override
 
@@ -1314,7 +1314,7 @@ public final class VintageActivityDetailInfoOuterClass {
         return internalGetCampStageMap().getMap();
       }
       /**
-       * <code>map&lt;uint32, .VintageCampChallengeStageData&gt; camp_stage_map = 8;</code>
+       * <code>map&lt;uint32, .VintageCampChallengeStageData&gt; camp_stage_map = 15;</code>
        */
       @java.lang.Override
 
@@ -1327,7 +1327,7 @@ public final class VintageActivityDetailInfoOuterClass {
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
       /**
-       * <code>map&lt;uint32, .VintageCampChallengeStageData&gt; camp_stage_map = 8;</code>
+       * <code>map&lt;uint32, .VintageCampChallengeStageData&gt; camp_stage_map = 15;</code>
        */
       @java.lang.Override
 
@@ -1348,7 +1348,7 @@ public final class VintageActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>map&lt;uint32, .VintageCampChallengeStageData&gt; camp_stage_map = 8;</code>
+       * <code>map&lt;uint32, .VintageCampChallengeStageData&gt; camp_stage_map = 15;</code>
        */
 
       public Builder removeCampStageMap(
@@ -1367,7 +1367,7 @@ public final class VintageActivityDetailInfoOuterClass {
         return internalGetMutableCampStageMap().getMutableMap();
       }
       /**
-       * <code>map&lt;uint32, .VintageCampChallengeStageData&gt; camp_stage_map = 8;</code>
+       * <code>map&lt;uint32, .VintageCampChallengeStageData&gt; camp_stage_map = 15;</code>
        */
       public Builder putCampStageMap(
           int key,
@@ -1379,7 +1379,7 @@ public final class VintageActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>map&lt;uint32, .VintageCampChallengeStageData&gt; camp_stage_map = 8;</code>
+       * <code>map&lt;uint32, .VintageCampChallengeStageData&gt; camp_stage_map = 15;</code>
        */
 
       public Builder putAllCampStageMap(
@@ -1393,14 +1393,14 @@ public final class VintageActivityDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VintageMarketInfoOuterClass.VintageMarketInfo, emu.grasscutter.net.proto.VintageMarketInfoOuterClass.VintageMarketInfo.Builder, emu.grasscutter.net.proto.VintageMarketInfoOuterClass.VintageMarketInfoOrBuilder> marketInfoBuilder_;
       /**
-       * <code>.VintageMarketInfo market_info = 9;</code>
+       * <code>.VintageMarketInfo market_info = 14;</code>
        * @return Whether the marketInfo field is set.
        */
       public boolean hasMarketInfo() {
         return marketInfoBuilder_ != null || marketInfo_ != null;
       }
       /**
-       * <code>.VintageMarketInfo market_info = 9;</code>
+       * <code>.VintageMarketInfo market_info = 14;</code>
        * @return The marketInfo.
        */
       public emu.grasscutter.net.proto.VintageMarketInfoOuterClass.VintageMarketInfo getMarketInfo() {
@@ -1411,7 +1411,7 @@ public final class VintageActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.VintageMarketInfo market_info = 9;</code>
+       * <code>.VintageMarketInfo market_info = 14;</code>
        */
       public Builder setMarketInfo(emu.grasscutter.net.proto.VintageMarketInfoOuterClass.VintageMarketInfo value) {
         if (marketInfoBuilder_ == null) {
@@ -1427,7 +1427,7 @@ public final class VintageActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.VintageMarketInfo market_info = 9;</code>
+       * <code>.VintageMarketInfo market_info = 14;</code>
        */
       public Builder setMarketInfo(
           emu.grasscutter.net.proto.VintageMarketInfoOuterClass.VintageMarketInfo.Builder builderForValue) {
@@ -1441,7 +1441,7 @@ public final class VintageActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.VintageMarketInfo market_info = 9;</code>
+       * <code>.VintageMarketInfo market_info = 14;</code>
        */
       public Builder mergeMarketInfo(emu.grasscutter.net.proto.VintageMarketInfoOuterClass.VintageMarketInfo value) {
         if (marketInfoBuilder_ == null) {
@@ -1459,7 +1459,7 @@ public final class VintageActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.VintageMarketInfo market_info = 9;</code>
+       * <code>.VintageMarketInfo market_info = 14;</code>
        */
       public Builder clearMarketInfo() {
         if (marketInfoBuilder_ == null) {
@@ -1473,7 +1473,7 @@ public final class VintageActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.VintageMarketInfo market_info = 9;</code>
+       * <code>.VintageMarketInfo market_info = 14;</code>
        */
       public emu.grasscutter.net.proto.VintageMarketInfoOuterClass.VintageMarketInfo.Builder getMarketInfoBuilder() {
         
@@ -1481,7 +1481,7 @@ public final class VintageActivityDetailInfoOuterClass {
         return getMarketInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>.VintageMarketInfo market_info = 9;</code>
+       * <code>.VintageMarketInfo market_info = 14;</code>
        */
       public emu.grasscutter.net.proto.VintageMarketInfoOuterClass.VintageMarketInfoOrBuilder getMarketInfoOrBuilder() {
         if (marketInfoBuilder_ != null) {
@@ -1492,7 +1492,7 @@ public final class VintageActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.VintageMarketInfo market_info = 9;</code>
+       * <code>.VintageMarketInfo market_info = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VintageMarketInfoOuterClass.VintageMarketInfo, emu.grasscutter.net.proto.VintageMarketInfoOuterClass.VintageMarketInfo.Builder, emu.grasscutter.net.proto.VintageMarketInfoOuterClass.VintageMarketInfoOrBuilder> 
@@ -1512,14 +1512,14 @@ public final class VintageActivityDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VintageBoothUsedItemDataOuterClass.VintageBoothUsedItemData, emu.grasscutter.net.proto.VintageBoothUsedItemDataOuterClass.VintageBoothUsedItemData.Builder, emu.grasscutter.net.proto.VintageBoothUsedItemDataOuterClass.VintageBoothUsedItemDataOrBuilder> boothDataBuilder_;
       /**
-       * <code>.VintageBoothUsedItemData booth_data = 12;</code>
+       * <code>.VintageBoothUsedItemData booth_data = 2;</code>
        * @return Whether the boothData field is set.
        */
       public boolean hasBoothData() {
         return boothDataBuilder_ != null || boothData_ != null;
       }
       /**
-       * <code>.VintageBoothUsedItemData booth_data = 12;</code>
+       * <code>.VintageBoothUsedItemData booth_data = 2;</code>
        * @return The boothData.
        */
       public emu.grasscutter.net.proto.VintageBoothUsedItemDataOuterClass.VintageBoothUsedItemData getBoothData() {
@@ -1530,7 +1530,7 @@ public final class VintageActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.VintageBoothUsedItemData booth_data = 12;</code>
+       * <code>.VintageBoothUsedItemData booth_data = 2;</code>
        */
       public Builder setBoothData(emu.grasscutter.net.proto.VintageBoothUsedItemDataOuterClass.VintageBoothUsedItemData value) {
         if (boothDataBuilder_ == null) {
@@ -1546,7 +1546,7 @@ public final class VintageActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.VintageBoothUsedItemData booth_data = 12;</code>
+       * <code>.VintageBoothUsedItemData booth_data = 2;</code>
        */
       public Builder setBoothData(
           emu.grasscutter.net.proto.VintageBoothUsedItemDataOuterClass.VintageBoothUsedItemData.Builder builderForValue) {
@@ -1560,7 +1560,7 @@ public final class VintageActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.VintageBoothUsedItemData booth_data = 12;</code>
+       * <code>.VintageBoothUsedItemData booth_data = 2;</code>
        */
       public Builder mergeBoothData(emu.grasscutter.net.proto.VintageBoothUsedItemDataOuterClass.VintageBoothUsedItemData value) {
         if (boothDataBuilder_ == null) {
@@ -1578,7 +1578,7 @@ public final class VintageActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.VintageBoothUsedItemData booth_data = 12;</code>
+       * <code>.VintageBoothUsedItemData booth_data = 2;</code>
        */
       public Builder clearBoothData() {
         if (boothDataBuilder_ == null) {
@@ -1592,7 +1592,7 @@ public final class VintageActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.VintageBoothUsedItemData booth_data = 12;</code>
+       * <code>.VintageBoothUsedItemData booth_data = 2;</code>
        */
       public emu.grasscutter.net.proto.VintageBoothUsedItemDataOuterClass.VintageBoothUsedItemData.Builder getBoothDataBuilder() {
         
@@ -1600,7 +1600,7 @@ public final class VintageActivityDetailInfoOuterClass {
         return getBoothDataFieldBuilder().getBuilder();
       }
       /**
-       * <code>.VintageBoothUsedItemData booth_data = 12;</code>
+       * <code>.VintageBoothUsedItemData booth_data = 2;</code>
        */
       public emu.grasscutter.net.proto.VintageBoothUsedItemDataOuterClass.VintageBoothUsedItemDataOrBuilder getBoothDataOrBuilder() {
         if (boothDataBuilder_ != null) {
@@ -1611,7 +1611,7 @@ public final class VintageActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.VintageBoothUsedItemData booth_data = 12;</code>
+       * <code>.VintageBoothUsedItemData booth_data = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VintageBoothUsedItemDataOuterClass.VintageBoothUsedItemData, emu.grasscutter.net.proto.VintageBoothUsedItemDataOuterClass.VintageBoothUsedItemData.Builder, emu.grasscutter.net.proto.VintageBoothUsedItemDataOuterClass.VintageBoothUsedItemDataOrBuilder> 
@@ -1654,7 +1654,7 @@ public final class VintageActivityDetailInfoOuterClass {
         return internalGetHuntingStageMap().getMap().size();
       }
       /**
-       * <code>map&lt;uint32, .VintageHuntingStageData&gt; hunting_stage_map = 15;</code>
+       * <code>map&lt;uint32, .VintageHuntingStageData&gt; hunting_stage_map = 50001;</code>
        */
 
       @java.lang.Override
@@ -1672,7 +1672,7 @@ public final class VintageActivityDetailInfoOuterClass {
         return getHuntingStageMapMap();
       }
       /**
-       * <code>map&lt;uint32, .VintageHuntingStageData&gt; hunting_stage_map = 15;</code>
+       * <code>map&lt;uint32, .VintageHuntingStageData&gt; hunting_stage_map = 50001;</code>
        */
       @java.lang.Override
 
@@ -1680,7 +1680,7 @@ public final class VintageActivityDetailInfoOuterClass {
         return internalGetHuntingStageMap().getMap();
       }
       /**
-       * <code>map&lt;uint32, .VintageHuntingStageData&gt; hunting_stage_map = 15;</code>
+       * <code>map&lt;uint32, .VintageHuntingStageData&gt; hunting_stage_map = 50001;</code>
        */
       @java.lang.Override
 
@@ -1693,7 +1693,7 @@ public final class VintageActivityDetailInfoOuterClass {
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
       /**
-       * <code>map&lt;uint32, .VintageHuntingStageData&gt; hunting_stage_map = 15;</code>
+       * <code>map&lt;uint32, .VintageHuntingStageData&gt; hunting_stage_map = 50001;</code>
        */
       @java.lang.Override
 
@@ -1714,7 +1714,7 @@ public final class VintageActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>map&lt;uint32, .VintageHuntingStageData&gt; hunting_stage_map = 15;</code>
+       * <code>map&lt;uint32, .VintageHuntingStageData&gt; hunting_stage_map = 50001;</code>
        */
 
       public Builder removeHuntingStageMap(
@@ -1733,7 +1733,7 @@ public final class VintageActivityDetailInfoOuterClass {
         return internalGetMutableHuntingStageMap().getMutableMap();
       }
       /**
-       * <code>map&lt;uint32, .VintageHuntingStageData&gt; hunting_stage_map = 15;</code>
+       * <code>map&lt;uint32, .VintageHuntingStageData&gt; hunting_stage_map = 50001;</code>
        */
       public Builder putHuntingStageMap(
           int key,
@@ -1745,7 +1745,7 @@ public final class VintageActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>map&lt;uint32, .VintageHuntingStageData&gt; hunting_stage_map = 15;</code>
+       * <code>map&lt;uint32, .VintageHuntingStageData&gt; hunting_stage_map = 50001;</code>
        */
 
       public Builder putAllHuntingStageMap(
@@ -1840,24 +1840,25 @@ public final class VintageActivityDetailInfoOuterClass {
       "geBoothUsedItemData.proto\032#VintageCampCh" +
       "allengeStageData.proto\032\035VintageHuntingSt" +
       "ageData.proto\032\027VintageMarketInfo.proto\032\035" +
-      "VintagePresentStageData.proto\"\345\004\n\031Vintag" +
-      "eActivityDetailInfo\022J\n\021present_stage_map" +
-      "\030\001 \003(\0132/.VintageActivityDetailInfo.Prese" +
-      "ntStageMapEntry\022\031\n\021is_content_closed\030\002 \001" +
-      "(\010\022D\n\016camp_stage_map\030\010 \003(\0132,.VintageActi" +
-      "vityDetailInfo.CampStageMapEntry\022\'\n\013mark" +
-      "et_info\030\t \001(\0132\022.VintageMarketInfo\022-\n\nboo" +
-      "th_data\030\014 \001(\0132\031.VintageBoothUsedItemData" +
-      "\022J\n\021hunting_stage_map\030\017 \003(\0132/.VintageAct" +
-      "ivityDetailInfo.HuntingStageMapEntry\032P\n\024" +
-      "PresentStageMapEntry\022\013\n\003key\030\001 \001(\r\022\'\n\005val" +
-      "ue\030\002 \001(\0132\030.VintagePresentStageData:\0028\001\032S" +
-      "\n\021CampStageMapEntry\022\013\n\003key\030\001 \001(\r\022-\n\005valu" +
-      "e\030\002 \001(\0132\036.VintageCampChallengeStageData:" +
-      "\0028\001\032P\n\024HuntingStageMapEntry\022\013\n\003key\030\001 \001(\r" +
-      "\022\'\n\005value\030\002 \001(\0132\030.VintageHuntingStageDat" +
-      "a:\0028\001B@\n\031emu.grasscutter.net.protoB#Vint" +
-      "ageActivityDetailInfoOuterClassb\006proto3"
+      "VintagePresentStageData.proto\"\351\004\n\031Vintag" +
+      "eActivityDetailInfo\022L\n\021present_stage_map" +
+      "\030\320\206\003 \003(\0132/.VintageActivityDetailInfo.Pre" +
+      "sentStageMapEntry\022\031\n\021is_content_closed\030\005" +
+      " \001(\010\022D\n\016camp_stage_map\030\017 \003(\0132,.VintageAc" +
+      "tivityDetailInfo.CampStageMapEntry\022\'\n\013ma" +
+      "rket_info\030\016 \001(\0132\022.VintageMarketInfo\022-\n\nb" +
+      "ooth_data\030\002 \001(\0132\031.VintageBoothUsedItemDa" +
+      "ta\022L\n\021hunting_stage_map\030\321\206\003 \003(\0132/.Vintag" +
+      "eActivityDetailInfo.HuntingStageMapEntry" +
+      "\032P\n\024PresentStageMapEntry\022\013\n\003key\030\001 \001(\r\022\'\n" +
+      "\005value\030\002 \001(\0132\030.VintagePresentStageData:\002" +
+      "8\001\032S\n\021CampStageMapEntry\022\013\n\003key\030\001 \001(\r\022-\n\005" +
+      "value\030\002 \001(\0132\036.VintageCampChallengeStageD" +
+      "ata:\0028\001\032P\n\024HuntingStageMapEntry\022\013\n\003key\030\001" +
+      " \001(\r\022\'\n\005value\030\002 \001(\0132\030.VintageHuntingStag" +
+      "eData:\0028\001B@\n\031emu.grasscutter.net.protoB#" +
+      "VintageActivityDetailInfoOuterClassb\006pro" +
+      "to3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

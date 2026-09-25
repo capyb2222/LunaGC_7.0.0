@@ -6,8 +6,8 @@ option java_outer_classname = "AsterMidDetailInfoOuterClass";
 import "AsterMidCampInfo.proto";
 
 message AsterMidDetailInfo {
-	uint32 collect_count = 1;
-	bool is_open = 8;
-	uint32 begin_time = 11;
-	repeated AsterMidCampInfo camp_list = 12;
+	uint32 collect_count = 15;
+	bool is_open = 6;
+	uint32 begin_time = 10;
+	repeated AsterMidCampInfo camp_list = 9;
 }

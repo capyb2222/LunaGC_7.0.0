@@ -4,8 +4,8 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "PotionLevelDataOuterClass";
 
 message PotionLevelData {
-	uint32 mode_id = 3;
-	uint32 score = 7;
-	uint32 level_id = 9;
-	uint32 difficulty_level = 12;
+	uint32 mode_id = 15;
+	uint32 score = 14;
+	uint32 level_id = 5;
+	uint32 difficulty_level = 4;
 }

@@ -6,7 +6,7 @@ option java_outer_classname = "_EquipStuffOuterClass";
 import "FPCEOEFHGOB.proto";
 
 message _EquipStuff {
-	bool MHDOFDCCPLH = 1;
-	bool BEKPAJHIHOJ = 2;
+	bool MHDOFDCCPLH = 50000;
+	bool BEKPAJHIHOJ = 50001;
 	repeated FPCEOEFHGOB IDAKLGDICPC = 3;
 }

@@ -6,10 +6,10 @@ option java_outer_classname = "VintageCampChallengeStageDataOuterClass";
 import "VintageCampChallengeLevelData.proto";
 
 message VintageCampChallengeStageData {
-	bool is_open = 1;
-	uint32 open_time = 3;
-	uint32 stage_id = 4;
-	bool is_finish = 13;
-	map<uint32, VintageCampChallengeLevelData> camp_level_map = 14;
+	bool is_open = 9;
+	uint32 open_time = 14;
+	uint32 stage_id = 3;
+	bool is_finish = 6;
+	map<uint32, VintageCampChallengeLevelData> camp_level_map = 13;
 	uint32 max_finished_level = 15;
 }

@@ -13,25 +13,25 @@ message _CooperateChallengeSettleInfo {
 		EACPNCPOKGE_SETTLE_REASON_PLAYER_NOT_ENOUGH = 2;
 	}
 	message FGCJMIDEKMB {
-		repeated uint32 uid_list = 4;
-		uint32 FAFDNMIEMEL = 6;
-		int32 EOAFEBOFEJB = 9;
+		repeated uint32 uid_list = 11;
+		uint32 FAFDNMIEMEL = 13;
+		int32 EOAFEBOFEJB = 12;
 	}
 	message JOPDICINNLJ {
-		uint32 uid = 2;
-		string online_id = 3;
-		ProfilePicture profile_picture = 6;
-		uint32 add_score = 7;
-		string _xbox_gamertag = 8;
+		uint32 uid = 12;
+		string online_id = 7;
+		ProfilePicture profile_picture = 2;
+		uint32 add_score = 1;
+		string _xbox_gamertag = 9;
 		repeated uint32 OFEHCJOPEIG = 10;
-		uint32 score = 11;
+		uint32 score = 3;
 		string nickname = 14;
-		repeated ExhibitionDisplayInfo card_list = 15;
+		repeated ExhibitionDisplayInfo card_list = 11;
 	}
-	uint32 IKLNEBCKENF = 3;
-	uint32 difficulty_id = 6;
-	repeated JOPDICINNLJ _settle_list = 9;
-	repeated FGCJMIDEKMB GMNBBBOLHDH = 12;
-	repeated uint32 MIFCBDAIKNH = 14;
-	EACPNCPOKGE EBGPHJCLGKC = 15;
+	uint32 IKLNEBCKENF = 4;
+	uint32 difficulty_id = 13;
+	repeated JOPDICINNLJ _settle_list = 2;
+	repeated FGCJMIDEKMB GMNBBBOLHDH = 3;
+	repeated uint32 MIFCBDAIKNH = 5;
+	EACPNCPOKGE EBGPHJCLGKC = 14;
 }

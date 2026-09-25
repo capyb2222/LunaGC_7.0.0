@@ -300,13 +300,13 @@ public final class LockedPersonallineDataOuterClass {
         com.google.protobuf.MessageOrBuilder {
 
       /**
-       * <code>uint32 chapter_id = 3;</code>
+       * <code>uint32 chapter_id = 1;</code>
        * @return The chapterId.
        */
       int getChapterId();
 
       /**
-       * <code>uint32 quest_id = 12;</code>
+       * <code>uint32 quest_id = 9;</code>
        * @return The questId.
        */
       int getQuestId();
@@ -356,12 +356,12 @@ public final class LockedPersonallineDataOuterClass {
               case 0:
                 done = true;
                 break;
-              case 24: {
+              case 8: {
 
                 chapterId_ = input.readUInt32();
                 break;
               }
-              case 96: {
+              case 72: {
 
                 questId_ = input.readUInt32();
                 break;
@@ -398,10 +398,10 @@ public final class LockedPersonallineDataOuterClass {
                 emu.grasscutter.net.proto.LockedPersonallineDataOuterClass.LockedPersonallineData._QuestParam.class, emu.grasscutter.net.proto.LockedPersonallineDataOuterClass.LockedPersonallineData._QuestParam.Builder.class);
       }
 
-      public static final int CHAPTER_ID_FIELD_NUMBER = 3;
+      public static final int CHAPTER_ID_FIELD_NUMBER = 1;
       private int chapterId_;
       /**
-       * <code>uint32 chapter_id = 3;</code>
+       * <code>uint32 chapter_id = 1;</code>
        * @return The chapterId.
        */
       @java.lang.Override
@@ -409,10 +409,10 @@ public final class LockedPersonallineDataOuterClass {
         return chapterId_;
       }
 
-      public static final int QUEST_ID_FIELD_NUMBER = 12;
+      public static final int QUEST_ID_FIELD_NUMBER = 9;
       private int questId_;
       /**
-       * <code>uint32 quest_id = 12;</code>
+       * <code>uint32 quest_id = 9;</code>
        * @return The questId.
        */
       @java.lang.Override
@@ -435,10 +435,10 @@ public final class LockedPersonallineDataOuterClass {
       public void writeTo(com.google.protobuf.CodedOutputStream output)
                           throws java.io.IOException {
         if (chapterId_ != 0) {
-          output.writeUInt32(3, chapterId_);
+          output.writeUInt32(1, chapterId_);
         }
         if (questId_ != 0) {
-          output.writeUInt32(12, questId_);
+          output.writeUInt32(9, questId_);
         }
         unknownFields.writeTo(output);
       }
@@ -451,11 +451,11 @@ public final class LockedPersonallineDataOuterClass {
         size = 0;
         if (chapterId_ != 0) {
           size += com.google.protobuf.CodedOutputStream
-            .computeUInt32Size(3, chapterId_);
+            .computeUInt32Size(1, chapterId_);
         }
         if (questId_ != 0) {
           size += com.google.protobuf.CodedOutputStream
-            .computeUInt32Size(12, questId_);
+            .computeUInt32Size(9, questId_);
         }
         size += unknownFields.getSerializedSize();
         memoizedSize = size;
@@ -741,7 +741,7 @@ public final class LockedPersonallineDataOuterClass {
 
         private int chapterId_ ;
         /**
-         * <code>uint32 chapter_id = 3;</code>
+         * <code>uint32 chapter_id = 1;</code>
          * @return The chapterId.
          */
         @java.lang.Override
@@ -749,7 +749,7 @@ public final class LockedPersonallineDataOuterClass {
           return chapterId_;
         }
         /**
-         * <code>uint32 chapter_id = 3;</code>
+         * <code>uint32 chapter_id = 1;</code>
          * @param value The chapterId to set.
          * @return This builder for chaining.
          */
@@ -760,7 +760,7 @@ public final class LockedPersonallineDataOuterClass {
           return this;
         }
         /**
-         * <code>uint32 chapter_id = 3;</code>
+         * <code>uint32 chapter_id = 1;</code>
          * @return This builder for chaining.
          */
         public Builder clearChapterId() {
@@ -772,7 +772,7 @@ public final class LockedPersonallineDataOuterClass {
 
         private int questId_ ;
         /**
-         * <code>uint32 quest_id = 12;</code>
+         * <code>uint32 quest_id = 9;</code>
          * @return The questId.
          */
         @java.lang.Override
@@ -780,7 +780,7 @@ public final class LockedPersonallineDataOuterClass {
           return questId_;
         }
         /**
-         * <code>uint32 quest_id = 12;</code>
+         * <code>uint32 quest_id = 9;</code>
          * @param value The questId to set.
          * @return This builder for chaining.
          */
@@ -791,7 +791,7 @@ public final class LockedPersonallineDataOuterClass {
           return this;
         }
         /**
-         * <code>uint32 quest_id = 12;</code>
+         * <code>uint32 quest_id = 9;</code>
          * @return This builder for chaining.
          */
         public Builder clearQuestId() {
@@ -1808,8 +1808,8 @@ public final class LockedPersonallineDataOuterClass {
       "\nchapter_id\030\007 \001(\rH\000\022\017\n\005level\030\n \001(\rH\000\022\030\n\020" +
       "personal_line_id\030\002 \001(\r\0227\n\013lock_reason\030\014 " +
       "\001(\0162\".LockedPersonallineData.LockReason\032" +
-      "3\n\013_QuestParam\022\022\n\nchapter_id\030\003 \001(\r\022\020\n\010qu" +
-      "est_id\030\014 \001(\r\"\"\n\nLockReason\022\t\n\005LEVEL\020\000\022\t\n" +
+      "3\n\013_QuestParam\022\022\n\nchapter_id\030\001 \001(\r\022\020\n\010qu" +
+      "est_id\030\t \001(\r\"\"\n\nLockReason\022\t\n\005LEVEL\020\000\022\t\n" +
       "\005QUEST\020\001B\007\n\005paramB=\n\031emu.grasscutter.net" +
       ".protoB LockedPersonallineDataOuterClass" +
       "b\006proto3"

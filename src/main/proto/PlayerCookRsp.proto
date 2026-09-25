@@ -7,10 +7,10 @@ import "CookRecipeData.proto";
 import "ItemParam.proto";
 
 message PlayerCookRsp {
-	int32 retcode = 2;
-	repeated ItemParam extral_item_list = 5;
-	uint32 cook_count = 7;
-	repeated ItemParam item_list = 12;
+	int32 retcode = 9;
+	repeated ItemParam extral_item_list = 10;
+	uint32 cook_count = 50000;
+	repeated ItemParam item_list = 11;
 	CookRecipeData recipe_data = 13;
-	uint32 qte_quality = 14;
+	uint32 qte_quality = 50001;
 }

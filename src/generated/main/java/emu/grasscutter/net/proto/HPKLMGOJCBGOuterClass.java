@@ -19,66 +19,66 @@ public final class HPKLMGOJCBGOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 JIKILCKLNBG = 1;</code>
+     * <code>repeated uint32 JIKILCKLNBG = 13;</code>
      * @return A list containing the jIKILCKLNBG.
      */
     java.util.List<java.lang.Integer> getJIKILCKLNBGList();
     /**
-     * <code>repeated uint32 JIKILCKLNBG = 1;</code>
+     * <code>repeated uint32 JIKILCKLNBG = 13;</code>
      * @return The count of jIKILCKLNBG.
      */
     int getJIKILCKLNBGCount();
     /**
-     * <code>repeated uint32 JIKILCKLNBG = 1;</code>
+     * <code>repeated uint32 JIKILCKLNBG = 13;</code>
      * @param index The index of the element to return.
      * @return The jIKILCKLNBG at the given index.
      */
     int getJIKILCKLNBG(int index);
 
     /**
-     * <code>repeated .CHOGKFOPCHI level_info_list = 5;</code>
+     * <code>repeated .CHOGKFOPCHI level_info_list = 11;</code>
      */
     java.util.List<emu.grasscutter.net.proto.CHOGKFOPCHIOuterClass.CHOGKFOPCHI> 
         getLevelInfoListList();
     /**
-     * <code>repeated .CHOGKFOPCHI level_info_list = 5;</code>
+     * <code>repeated .CHOGKFOPCHI level_info_list = 11;</code>
      */
     emu.grasscutter.net.proto.CHOGKFOPCHIOuterClass.CHOGKFOPCHI getLevelInfoList(int index);
     /**
-     * <code>repeated .CHOGKFOPCHI level_info_list = 5;</code>
+     * <code>repeated .CHOGKFOPCHI level_info_list = 11;</code>
      */
     int getLevelInfoListCount();
     /**
-     * <code>repeated .CHOGKFOPCHI level_info_list = 5;</code>
+     * <code>repeated .CHOGKFOPCHI level_info_list = 11;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.CHOGKFOPCHIOuterClass.CHOGKFOPCHIOrBuilder> 
         getLevelInfoListOrBuilderList();
     /**
-     * <code>repeated .CHOGKFOPCHI level_info_list = 5;</code>
+     * <code>repeated .CHOGKFOPCHI level_info_list = 11;</code>
      */
     emu.grasscutter.net.proto.CHOGKFOPCHIOuterClass.CHOGKFOPCHIOrBuilder getLevelInfoListOrBuilder(
         int index);
 
     /**
-     * <code>repeated .Uint32Pair DJAMIIDPPPJ = 12;</code>
+     * <code>repeated .Uint32Pair DJAMIIDPPPJ = 8;</code>
      */
     java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> 
         getDJAMIIDPPPJList();
     /**
-     * <code>repeated .Uint32Pair DJAMIIDPPPJ = 12;</code>
+     * <code>repeated .Uint32Pair DJAMIIDPPPJ = 8;</code>
      */
     emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getDJAMIIDPPPJ(int index);
     /**
-     * <code>repeated .Uint32Pair DJAMIIDPPPJ = 12;</code>
+     * <code>repeated .Uint32Pair DJAMIIDPPPJ = 8;</code>
      */
     int getDJAMIIDPPPJCount();
     /**
-     * <code>repeated .Uint32Pair DJAMIIDPPPJ = 12;</code>
+     * <code>repeated .Uint32Pair DJAMIIDPPPJ = 8;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
         getDJAMIIDPPPJOrBuilderList();
     /**
-     * <code>repeated .Uint32Pair DJAMIIDPPPJ = 12;</code>
+     * <code>repeated .Uint32Pair DJAMIIDPPPJ = 8;</code>
      */
     emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getDJAMIIDPPPJOrBuilder(
         int index);
@@ -132,7 +132,25 @@ public final class HPKLMGOJCBGOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 66: {
+              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
+                dJAMIIDPPPJ_ = new java.util.ArrayList<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair>();
+                mutable_bitField0_ |= 0x00000004;
+              }
+              dJAMIIDPPPJ_.add(
+                  input.readMessage(emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.parser(), extensionRegistry));
+              break;
+            }
+            case 90: {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                levelInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.CHOGKFOPCHIOuterClass.CHOGKFOPCHI>();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              levelInfoList_.add(
+                  input.readMessage(emu.grasscutter.net.proto.CHOGKFOPCHIOuterClass.CHOGKFOPCHI.parser(), extensionRegistry));
+              break;
+            }
+            case 104: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 jIKILCKLNBG_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -140,7 +158,7 @@ public final class HPKLMGOJCBGOuterClass {
               jIKILCKLNBG_.addInt(input.readUInt32());
               break;
             }
-            case 10: {
+            case 106: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -151,24 +169,6 @@ public final class HPKLMGOJCBGOuterClass {
                 jIKILCKLNBG_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
-              break;
-            }
-            case 42: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                levelInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.CHOGKFOPCHIOuterClass.CHOGKFOPCHI>();
-                mutable_bitField0_ |= 0x00000002;
-              }
-              levelInfoList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.CHOGKFOPCHIOuterClass.CHOGKFOPCHI.parser(), extensionRegistry));
-              break;
-            }
-            case 98: {
-              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
-                dJAMIIDPPPJ_ = new java.util.ArrayList<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair>();
-                mutable_bitField0_ |= 0x00000004;
-              }
-              dJAMIIDPPPJ_.add(
-                  input.readMessage(emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -186,14 +186,14 @@ public final class HPKLMGOJCBGOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          jIKILCKLNBG_.makeImmutable(); // C
+        if (((mutable_bitField0_ & 0x00000004) != 0)) {
+          dJAMIIDPPPJ_ = java.util.Collections.unmodifiableList(dJAMIIDPPPJ_);
         }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
           levelInfoList_ = java.util.Collections.unmodifiableList(levelInfoList_);
         }
-        if (((mutable_bitField0_ & 0x00000004) != 0)) {
-          dJAMIIDPPPJ_ = java.util.Collections.unmodifiableList(dJAMIIDPPPJ_);
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          jIKILCKLNBG_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -212,10 +212,10 @@ public final class HPKLMGOJCBGOuterClass {
               emu.grasscutter.net.proto.HPKLMGOJCBGOuterClass.HPKLMGOJCBG.class, emu.grasscutter.net.proto.HPKLMGOJCBGOuterClass.HPKLMGOJCBG.Builder.class);
     }
 
-    public static final int JIKILCKLNBG_FIELD_NUMBER = 1;
+    public static final int JIKILCKLNBG_FIELD_NUMBER = 13;
     private com.google.protobuf.Internal.IntList jIKILCKLNBG_;
     /**
-     * <code>repeated uint32 JIKILCKLNBG = 1;</code>
+     * <code>repeated uint32 JIKILCKLNBG = 13;</code>
      * @return A list containing the jIKILCKLNBG.
      */
     @java.lang.Override
@@ -224,14 +224,14 @@ public final class HPKLMGOJCBGOuterClass {
       return jIKILCKLNBG_;
     }
     /**
-     * <code>repeated uint32 JIKILCKLNBG = 1;</code>
+     * <code>repeated uint32 JIKILCKLNBG = 13;</code>
      * @return The count of jIKILCKLNBG.
      */
     public int getJIKILCKLNBGCount() {
       return jIKILCKLNBG_.size();
     }
     /**
-     * <code>repeated uint32 JIKILCKLNBG = 1;</code>
+     * <code>repeated uint32 JIKILCKLNBG = 13;</code>
      * @param index The index of the element to return.
      * @return The jIKILCKLNBG at the given index.
      */
@@ -240,17 +240,17 @@ public final class HPKLMGOJCBGOuterClass {
     }
     private int jIKILCKLNBGMemoizedSerializedSize = -1;
 
-    public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 5;
+    public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 11;
     private java.util.List<emu.grasscutter.net.proto.CHOGKFOPCHIOuterClass.CHOGKFOPCHI> levelInfoList_;
     /**
-     * <code>repeated .CHOGKFOPCHI level_info_list = 5;</code>
+     * <code>repeated .CHOGKFOPCHI level_info_list = 11;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.CHOGKFOPCHIOuterClass.CHOGKFOPCHI> getLevelInfoListList() {
       return levelInfoList_;
     }
     /**
-     * <code>repeated .CHOGKFOPCHI level_info_list = 5;</code>
+     * <code>repeated .CHOGKFOPCHI level_info_list = 11;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.CHOGKFOPCHIOuterClass.CHOGKFOPCHIOrBuilder> 
@@ -258,21 +258,21 @@ public final class HPKLMGOJCBGOuterClass {
       return levelInfoList_;
     }
     /**
-     * <code>repeated .CHOGKFOPCHI level_info_list = 5;</code>
+     * <code>repeated .CHOGKFOPCHI level_info_list = 11;</code>
      */
     @java.lang.Override
     public int getLevelInfoListCount() {
       return levelInfoList_.size();
     }
     /**
-     * <code>repeated .CHOGKFOPCHI level_info_list = 5;</code>
+     * <code>repeated .CHOGKFOPCHI level_info_list = 11;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.CHOGKFOPCHIOuterClass.CHOGKFOPCHI getLevelInfoList(int index) {
       return levelInfoList_.get(index);
     }
     /**
-     * <code>repeated .CHOGKFOPCHI level_info_list = 5;</code>
+     * <code>repeated .CHOGKFOPCHI level_info_list = 11;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.CHOGKFOPCHIOuterClass.CHOGKFOPCHIOrBuilder getLevelInfoListOrBuilder(
@@ -280,17 +280,17 @@ public final class HPKLMGOJCBGOuterClass {
       return levelInfoList_.get(index);
     }
 
-    public static final int DJAMIIDPPPJ_FIELD_NUMBER = 12;
+    public static final int DJAMIIDPPPJ_FIELD_NUMBER = 8;
     private java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> dJAMIIDPPPJ_;
     /**
-     * <code>repeated .Uint32Pair DJAMIIDPPPJ = 12;</code>
+     * <code>repeated .Uint32Pair DJAMIIDPPPJ = 8;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> getDJAMIIDPPPJList() {
       return dJAMIIDPPPJ_;
     }
     /**
-     * <code>repeated .Uint32Pair DJAMIIDPPPJ = 12;</code>
+     * <code>repeated .Uint32Pair DJAMIIDPPPJ = 8;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
@@ -298,21 +298,21 @@ public final class HPKLMGOJCBGOuterClass {
       return dJAMIIDPPPJ_;
     }
     /**
-     * <code>repeated .Uint32Pair DJAMIIDPPPJ = 12;</code>
+     * <code>repeated .Uint32Pair DJAMIIDPPPJ = 8;</code>
      */
     @java.lang.Override
     public int getDJAMIIDPPPJCount() {
       return dJAMIIDPPPJ_.size();
     }
     /**
-     * <code>repeated .Uint32Pair DJAMIIDPPPJ = 12;</code>
+     * <code>repeated .Uint32Pair DJAMIIDPPPJ = 8;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getDJAMIIDPPPJ(int index) {
       return dJAMIIDPPPJ_.get(index);
     }
     /**
-     * <code>repeated .Uint32Pair DJAMIIDPPPJ = 12;</code>
+     * <code>repeated .Uint32Pair DJAMIIDPPPJ = 8;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getDJAMIIDPPPJOrBuilder(
@@ -335,18 +335,18 @@ public final class HPKLMGOJCBGOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
+      for (int i = 0; i < dJAMIIDPPPJ_.size(); i++) {
+        output.writeMessage(8, dJAMIIDPPPJ_.get(i));
+      }
+      for (int i = 0; i < levelInfoList_.size(); i++) {
+        output.writeMessage(11, levelInfoList_.get(i));
+      }
       if (getJIKILCKLNBGList().size() > 0) {
-        output.writeUInt32NoTag(10);
+        output.writeUInt32NoTag(106);
         output.writeUInt32NoTag(jIKILCKLNBGMemoizedSerializedSize);
       }
       for (int i = 0; i < jIKILCKLNBG_.size(); i++) {
         output.writeUInt32NoTag(jIKILCKLNBG_.getInt(i));
-      }
-      for (int i = 0; i < levelInfoList_.size(); i++) {
-        output.writeMessage(5, levelInfoList_.get(i));
-      }
-      for (int i = 0; i < dJAMIIDPPPJ_.size(); i++) {
-        output.writeMessage(12, dJAMIIDPPPJ_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -357,6 +357,14 @@ public final class HPKLMGOJCBGOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      for (int i = 0; i < dJAMIIDPPPJ_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(8, dJAMIIDPPPJ_.get(i));
+      }
+      for (int i = 0; i < levelInfoList_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(11, levelInfoList_.get(i));
+      }
       {
         int dataSize = 0;
         for (int i = 0; i < jIKILCKLNBG_.size(); i++) {
@@ -370,14 +378,6 @@ public final class HPKLMGOJCBGOuterClass {
               .computeInt32SizeNoTag(dataSize);
         }
         jIKILCKLNBGMemoizedSerializedSize = dataSize;
-      }
-      for (int i = 0; i < levelInfoList_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, levelInfoList_.get(i));
-      }
-      for (int i = 0; i < dJAMIIDPPPJ_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, dJAMIIDPPPJ_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -770,7 +770,7 @@ public final class HPKLMGOJCBGOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 JIKILCKLNBG = 1;</code>
+       * <code>repeated uint32 JIKILCKLNBG = 13;</code>
        * @return A list containing the jIKILCKLNBG.
        */
       public java.util.List<java.lang.Integer>
@@ -779,14 +779,14 @@ public final class HPKLMGOJCBGOuterClass {
                  java.util.Collections.unmodifiableList(jIKILCKLNBG_) : jIKILCKLNBG_;
       }
       /**
-       * <code>repeated uint32 JIKILCKLNBG = 1;</code>
+       * <code>repeated uint32 JIKILCKLNBG = 13;</code>
        * @return The count of jIKILCKLNBG.
        */
       public int getJIKILCKLNBGCount() {
         return jIKILCKLNBG_.size();
       }
       /**
-       * <code>repeated uint32 JIKILCKLNBG = 1;</code>
+       * <code>repeated uint32 JIKILCKLNBG = 13;</code>
        * @param index The index of the element to return.
        * @return The jIKILCKLNBG at the given index.
        */
@@ -794,7 +794,7 @@ public final class HPKLMGOJCBGOuterClass {
         return jIKILCKLNBG_.getInt(index);
       }
       /**
-       * <code>repeated uint32 JIKILCKLNBG = 1;</code>
+       * <code>repeated uint32 JIKILCKLNBG = 13;</code>
        * @param index The index to set the value at.
        * @param value The jIKILCKLNBG to set.
        * @return This builder for chaining.
@@ -807,7 +807,7 @@ public final class HPKLMGOJCBGOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 JIKILCKLNBG = 1;</code>
+       * <code>repeated uint32 JIKILCKLNBG = 13;</code>
        * @param value The jIKILCKLNBG to add.
        * @return This builder for chaining.
        */
@@ -818,7 +818,7 @@ public final class HPKLMGOJCBGOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 JIKILCKLNBG = 1;</code>
+       * <code>repeated uint32 JIKILCKLNBG = 13;</code>
        * @param values The jIKILCKLNBG to add.
        * @return This builder for chaining.
        */
@@ -831,7 +831,7 @@ public final class HPKLMGOJCBGOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 JIKILCKLNBG = 1;</code>
+       * <code>repeated uint32 JIKILCKLNBG = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearJIKILCKLNBG() {
@@ -854,7 +854,7 @@ public final class HPKLMGOJCBGOuterClass {
           emu.grasscutter.net.proto.CHOGKFOPCHIOuterClass.CHOGKFOPCHI, emu.grasscutter.net.proto.CHOGKFOPCHIOuterClass.CHOGKFOPCHI.Builder, emu.grasscutter.net.proto.CHOGKFOPCHIOuterClass.CHOGKFOPCHIOrBuilder> levelInfoListBuilder_;
 
       /**
-       * <code>repeated .CHOGKFOPCHI level_info_list = 5;</code>
+       * <code>repeated .CHOGKFOPCHI level_info_list = 11;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.CHOGKFOPCHIOuterClass.CHOGKFOPCHI> getLevelInfoListList() {
         if (levelInfoListBuilder_ == null) {
@@ -864,7 +864,7 @@ public final class HPKLMGOJCBGOuterClass {
         }
       }
       /**
-       * <code>repeated .CHOGKFOPCHI level_info_list = 5;</code>
+       * <code>repeated .CHOGKFOPCHI level_info_list = 11;</code>
        */
       public int getLevelInfoListCount() {
         if (levelInfoListBuilder_ == null) {
@@ -874,7 +874,7 @@ public final class HPKLMGOJCBGOuterClass {
         }
       }
       /**
-       * <code>repeated .CHOGKFOPCHI level_info_list = 5;</code>
+       * <code>repeated .CHOGKFOPCHI level_info_list = 11;</code>
        */
       public emu.grasscutter.net.proto.CHOGKFOPCHIOuterClass.CHOGKFOPCHI getLevelInfoList(int index) {
         if (levelInfoListBuilder_ == null) {
@@ -884,7 +884,7 @@ public final class HPKLMGOJCBGOuterClass {
         }
       }
       /**
-       * <code>repeated .CHOGKFOPCHI level_info_list = 5;</code>
+       * <code>repeated .CHOGKFOPCHI level_info_list = 11;</code>
        */
       public Builder setLevelInfoList(
           int index, emu.grasscutter.net.proto.CHOGKFOPCHIOuterClass.CHOGKFOPCHI value) {
@@ -901,7 +901,7 @@ public final class HPKLMGOJCBGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CHOGKFOPCHI level_info_list = 5;</code>
+       * <code>repeated .CHOGKFOPCHI level_info_list = 11;</code>
        */
       public Builder setLevelInfoList(
           int index, emu.grasscutter.net.proto.CHOGKFOPCHIOuterClass.CHOGKFOPCHI.Builder builderForValue) {
@@ -915,7 +915,7 @@ public final class HPKLMGOJCBGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CHOGKFOPCHI level_info_list = 5;</code>
+       * <code>repeated .CHOGKFOPCHI level_info_list = 11;</code>
        */
       public Builder addLevelInfoList(emu.grasscutter.net.proto.CHOGKFOPCHIOuterClass.CHOGKFOPCHI value) {
         if (levelInfoListBuilder_ == null) {
@@ -931,7 +931,7 @@ public final class HPKLMGOJCBGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CHOGKFOPCHI level_info_list = 5;</code>
+       * <code>repeated .CHOGKFOPCHI level_info_list = 11;</code>
        */
       public Builder addLevelInfoList(
           int index, emu.grasscutter.net.proto.CHOGKFOPCHIOuterClass.CHOGKFOPCHI value) {
@@ -948,7 +948,7 @@ public final class HPKLMGOJCBGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CHOGKFOPCHI level_info_list = 5;</code>
+       * <code>repeated .CHOGKFOPCHI level_info_list = 11;</code>
        */
       public Builder addLevelInfoList(
           emu.grasscutter.net.proto.CHOGKFOPCHIOuterClass.CHOGKFOPCHI.Builder builderForValue) {
@@ -962,7 +962,7 @@ public final class HPKLMGOJCBGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CHOGKFOPCHI level_info_list = 5;</code>
+       * <code>repeated .CHOGKFOPCHI level_info_list = 11;</code>
        */
       public Builder addLevelInfoList(
           int index, emu.grasscutter.net.proto.CHOGKFOPCHIOuterClass.CHOGKFOPCHI.Builder builderForValue) {
@@ -976,7 +976,7 @@ public final class HPKLMGOJCBGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CHOGKFOPCHI level_info_list = 5;</code>
+       * <code>repeated .CHOGKFOPCHI level_info_list = 11;</code>
        */
       public Builder addAllLevelInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.CHOGKFOPCHIOuterClass.CHOGKFOPCHI> values) {
@@ -991,7 +991,7 @@ public final class HPKLMGOJCBGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CHOGKFOPCHI level_info_list = 5;</code>
+       * <code>repeated .CHOGKFOPCHI level_info_list = 11;</code>
        */
       public Builder clearLevelInfoList() {
         if (levelInfoListBuilder_ == null) {
@@ -1004,7 +1004,7 @@ public final class HPKLMGOJCBGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CHOGKFOPCHI level_info_list = 5;</code>
+       * <code>repeated .CHOGKFOPCHI level_info_list = 11;</code>
        */
       public Builder removeLevelInfoList(int index) {
         if (levelInfoListBuilder_ == null) {
@@ -1017,14 +1017,14 @@ public final class HPKLMGOJCBGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CHOGKFOPCHI level_info_list = 5;</code>
+       * <code>repeated .CHOGKFOPCHI level_info_list = 11;</code>
        */
       public emu.grasscutter.net.proto.CHOGKFOPCHIOuterClass.CHOGKFOPCHI.Builder getLevelInfoListBuilder(
           int index) {
         return getLevelInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .CHOGKFOPCHI level_info_list = 5;</code>
+       * <code>repeated .CHOGKFOPCHI level_info_list = 11;</code>
        */
       public emu.grasscutter.net.proto.CHOGKFOPCHIOuterClass.CHOGKFOPCHIOrBuilder getLevelInfoListOrBuilder(
           int index) {
@@ -1034,7 +1034,7 @@ public final class HPKLMGOJCBGOuterClass {
         }
       }
       /**
-       * <code>repeated .CHOGKFOPCHI level_info_list = 5;</code>
+       * <code>repeated .CHOGKFOPCHI level_info_list = 11;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.CHOGKFOPCHIOuterClass.CHOGKFOPCHIOrBuilder> 
            getLevelInfoListOrBuilderList() {
@@ -1045,14 +1045,14 @@ public final class HPKLMGOJCBGOuterClass {
         }
       }
       /**
-       * <code>repeated .CHOGKFOPCHI level_info_list = 5;</code>
+       * <code>repeated .CHOGKFOPCHI level_info_list = 11;</code>
        */
       public emu.grasscutter.net.proto.CHOGKFOPCHIOuterClass.CHOGKFOPCHI.Builder addLevelInfoListBuilder() {
         return getLevelInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.CHOGKFOPCHIOuterClass.CHOGKFOPCHI.getDefaultInstance());
       }
       /**
-       * <code>repeated .CHOGKFOPCHI level_info_list = 5;</code>
+       * <code>repeated .CHOGKFOPCHI level_info_list = 11;</code>
        */
       public emu.grasscutter.net.proto.CHOGKFOPCHIOuterClass.CHOGKFOPCHI.Builder addLevelInfoListBuilder(
           int index) {
@@ -1060,7 +1060,7 @@ public final class HPKLMGOJCBGOuterClass {
             index, emu.grasscutter.net.proto.CHOGKFOPCHIOuterClass.CHOGKFOPCHI.getDefaultInstance());
       }
       /**
-       * <code>repeated .CHOGKFOPCHI level_info_list = 5;</code>
+       * <code>repeated .CHOGKFOPCHI level_info_list = 11;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.CHOGKFOPCHIOuterClass.CHOGKFOPCHI.Builder> 
            getLevelInfoListBuilderList() {
@@ -1094,7 +1094,7 @@ public final class HPKLMGOJCBGOuterClass {
           emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> dJAMIIDPPPJBuilder_;
 
       /**
-       * <code>repeated .Uint32Pair DJAMIIDPPPJ = 12;</code>
+       * <code>repeated .Uint32Pair DJAMIIDPPPJ = 8;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> getDJAMIIDPPPJList() {
         if (dJAMIIDPPPJBuilder_ == null) {
@@ -1104,7 +1104,7 @@ public final class HPKLMGOJCBGOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair DJAMIIDPPPJ = 12;</code>
+       * <code>repeated .Uint32Pair DJAMIIDPPPJ = 8;</code>
        */
       public int getDJAMIIDPPPJCount() {
         if (dJAMIIDPPPJBuilder_ == null) {
@@ -1114,7 +1114,7 @@ public final class HPKLMGOJCBGOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair DJAMIIDPPPJ = 12;</code>
+       * <code>repeated .Uint32Pair DJAMIIDPPPJ = 8;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getDJAMIIDPPPJ(int index) {
         if (dJAMIIDPPPJBuilder_ == null) {
@@ -1124,7 +1124,7 @@ public final class HPKLMGOJCBGOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair DJAMIIDPPPJ = 12;</code>
+       * <code>repeated .Uint32Pair DJAMIIDPPPJ = 8;</code>
        */
       public Builder setDJAMIIDPPPJ(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
@@ -1141,7 +1141,7 @@ public final class HPKLMGOJCBGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair DJAMIIDPPPJ = 12;</code>
+       * <code>repeated .Uint32Pair DJAMIIDPPPJ = 8;</code>
        */
       public Builder setDJAMIIDPPPJ(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder builderForValue) {
@@ -1155,7 +1155,7 @@ public final class HPKLMGOJCBGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair DJAMIIDPPPJ = 12;</code>
+       * <code>repeated .Uint32Pair DJAMIIDPPPJ = 8;</code>
        */
       public Builder addDJAMIIDPPPJ(emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
         if (dJAMIIDPPPJBuilder_ == null) {
@@ -1171,7 +1171,7 @@ public final class HPKLMGOJCBGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair DJAMIIDPPPJ = 12;</code>
+       * <code>repeated .Uint32Pair DJAMIIDPPPJ = 8;</code>
        */
       public Builder addDJAMIIDPPPJ(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
@@ -1188,7 +1188,7 @@ public final class HPKLMGOJCBGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair DJAMIIDPPPJ = 12;</code>
+       * <code>repeated .Uint32Pair DJAMIIDPPPJ = 8;</code>
        */
       public Builder addDJAMIIDPPPJ(
           emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder builderForValue) {
@@ -1202,7 +1202,7 @@ public final class HPKLMGOJCBGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair DJAMIIDPPPJ = 12;</code>
+       * <code>repeated .Uint32Pair DJAMIIDPPPJ = 8;</code>
        */
       public Builder addDJAMIIDPPPJ(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder builderForValue) {
@@ -1216,7 +1216,7 @@ public final class HPKLMGOJCBGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair DJAMIIDPPPJ = 12;</code>
+       * <code>repeated .Uint32Pair DJAMIIDPPPJ = 8;</code>
        */
       public Builder addAllDJAMIIDPPPJ(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> values) {
@@ -1231,7 +1231,7 @@ public final class HPKLMGOJCBGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair DJAMIIDPPPJ = 12;</code>
+       * <code>repeated .Uint32Pair DJAMIIDPPPJ = 8;</code>
        */
       public Builder clearDJAMIIDPPPJ() {
         if (dJAMIIDPPPJBuilder_ == null) {
@@ -1244,7 +1244,7 @@ public final class HPKLMGOJCBGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair DJAMIIDPPPJ = 12;</code>
+       * <code>repeated .Uint32Pair DJAMIIDPPPJ = 8;</code>
        */
       public Builder removeDJAMIIDPPPJ(int index) {
         if (dJAMIIDPPPJBuilder_ == null) {
@@ -1257,14 +1257,14 @@ public final class HPKLMGOJCBGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair DJAMIIDPPPJ = 12;</code>
+       * <code>repeated .Uint32Pair DJAMIIDPPPJ = 8;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder getDJAMIIDPPPJBuilder(
           int index) {
         return getDJAMIIDPPPJFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .Uint32Pair DJAMIIDPPPJ = 12;</code>
+       * <code>repeated .Uint32Pair DJAMIIDPPPJ = 8;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getDJAMIIDPPPJOrBuilder(
           int index) {
@@ -1274,7 +1274,7 @@ public final class HPKLMGOJCBGOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair DJAMIIDPPPJ = 12;</code>
+       * <code>repeated .Uint32Pair DJAMIIDPPPJ = 8;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
            getDJAMIIDPPPJOrBuilderList() {
@@ -1285,14 +1285,14 @@ public final class HPKLMGOJCBGOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair DJAMIIDPPPJ = 12;</code>
+       * <code>repeated .Uint32Pair DJAMIIDPPPJ = 8;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder addDJAMIIDPPPJBuilder() {
         return getDJAMIIDPPPJFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.getDefaultInstance());
       }
       /**
-       * <code>repeated .Uint32Pair DJAMIIDPPPJ = 12;</code>
+       * <code>repeated .Uint32Pair DJAMIIDPPPJ = 8;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder addDJAMIIDPPPJBuilder(
           int index) {
@@ -1300,7 +1300,7 @@ public final class HPKLMGOJCBGOuterClass {
             index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.getDefaultInstance());
       }
       /**
-       * <code>repeated .Uint32Pair DJAMIIDPPPJ = 12;</code>
+       * <code>repeated .Uint32Pair DJAMIIDPPPJ = 8;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder> 
            getDJAMIIDPPPJBuilderList() {
@@ -1389,8 +1389,8 @@ public final class HPKLMGOJCBGOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021HPKLMGOJCBG.proto\032\021CHOGKFOPCHI.proto\032\020" +
       "Uint32Pair.proto\"k\n\013HPKLMGOJCBG\022\023\n\013JIKIL" +
-      "CKLNBG\030\001 \003(\r\022%\n\017level_info_list\030\005 \003(\0132\014." +
-      "CHOGKFOPCHI\022 \n\013DJAMIIDPPPJ\030\014 \003(\0132\013.Uint3" +
+      "CKLNBG\030\r \003(\r\022%\n\017level_info_list\030\013 \003(\0132\014." +
+      "CHOGKFOPCHI\022 \n\013DJAMIIDPPPJ\030\010 \003(\0132\013.Uint3" +
       "2PairB2\n\031emu.grasscutter.net.protoB\025HPKL" +
       "MGOJCBGOuterClassb\006proto3"
     };

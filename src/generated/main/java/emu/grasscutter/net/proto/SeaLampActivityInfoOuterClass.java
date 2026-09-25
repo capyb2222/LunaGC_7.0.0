@@ -19,73 +19,73 @@ public final class SeaLampActivityInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool LMIKLCAMJPN = 2;</code>
+     * <code>bool LMIKLCAMJPN = 50000;</code>
      * @return The lMIKLCAMJPN.
      */
     boolean getLMIKLCAMJPN();
 
     /**
-     * <code>uint32 jdedagmgmod = 4;</code>
+     * <code>uint32 jdedagmgmod = 50001;</code>
      * @return The jdedagmgmod.
      */
     int getJdedagmgmod();
 
     /**
-     * <code>uint32 opndpakbaeo = 5;</code>
+     * <code>uint32 opndpakbaeo = 50002;</code>
      * @return The opndpakbaeo.
      */
     int getOpndpakbaeo();
 
     /**
-     * <code>bool is_content_closed = 9;</code>
+     * <code>bool is_content_closed = 3;</code>
      * @return The isContentClosed.
      */
     boolean getIsContentClosed();
 
     /**
-     * <code>uint32 first_day_start_time = 10;</code>
+     * <code>uint32 first_day_start_time = 6;</code>
      * @return The firstDayStartTime.
      */
     int getFirstDayStartTime();
 
     /**
-     * <code>uint32 MLCKEOGNHMF = 11;</code>
+     * <code>uint32 MLCKEOGNHMF = 5;</code>
      * @return The mLCKEOGNHMF.
      */
     int getMLCKEOGNHMF();
 
     /**
-     * <code>uint32 day_index = 12;</code>
+     * <code>uint32 day_index = 11;</code>
      * @return The dayIndex.
      */
     int getDayIndex();
 
     /**
-     * <code>bool gbnhbmobhnh = 13;</code>
+     * <code>bool gbnhbmobhnh = 50003;</code>
      * @return The gbnhbmobhnh.
      */
     boolean getGbnhbmobhnh();
 
     /**
-     * <code>repeated .SeaLampSectionInfo section_info_list = 15;</code>
+     * <code>repeated .SeaLampSectionInfo section_info_list = 7;</code>
      */
     java.util.List<emu.grasscutter.net.proto.SeaLampSectionInfoOuterClass.SeaLampSectionInfo> 
         getSectionInfoListList();
     /**
-     * <code>repeated .SeaLampSectionInfo section_info_list = 15;</code>
+     * <code>repeated .SeaLampSectionInfo section_info_list = 7;</code>
      */
     emu.grasscutter.net.proto.SeaLampSectionInfoOuterClass.SeaLampSectionInfo getSectionInfoList(int index);
     /**
-     * <code>repeated .SeaLampSectionInfo section_info_list = 15;</code>
+     * <code>repeated .SeaLampSectionInfo section_info_list = 7;</code>
      */
     int getSectionInfoListCount();
     /**
-     * <code>repeated .SeaLampSectionInfo section_info_list = 15;</code>
+     * <code>repeated .SeaLampSectionInfo section_info_list = 7;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.SeaLampSectionInfoOuterClass.SeaLampSectionInfoOrBuilder> 
         getSectionInfoListOrBuilderList();
     /**
-     * <code>repeated .SeaLampSectionInfo section_info_list = 15;</code>
+     * <code>repeated .SeaLampSectionInfo section_info_list = 7;</code>
      */
     emu.grasscutter.net.proto.SeaLampSectionInfoOuterClass.SeaLampSectionInfoOrBuilder getSectionInfoListOrBuilder(
         int index);
@@ -137,53 +137,53 @@ public final class SeaLampActivityInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
-
-              lMIKLCAMJPN_ = input.readBool();
-              break;
-            }
-            case 32: {
-
-              jdedagmgmod_ = input.readUInt32();
-              break;
-            }
-            case 40: {
-
-              opndpakbaeo_ = input.readUInt32();
-              break;
-            }
-            case 72: {
+            case 24: {
 
               isContentClosed_ = input.readBool();
               break;
             }
-            case 80: {
-
-              firstDayStartTime_ = input.readUInt32();
-              break;
-            }
-            case 88: {
+            case 40: {
 
               mLCKEOGNHMF_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 48: {
 
-              dayIndex_ = input.readUInt32();
+              firstDayStartTime_ = input.readUInt32();
               break;
             }
-            case 104: {
-
-              gbnhbmobhnh_ = input.readBool();
-              break;
-            }
-            case 122: {
+            case 58: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 sectionInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.SeaLampSectionInfoOuterClass.SeaLampSectionInfo>();
                 mutable_bitField0_ |= 0x00000001;
               }
               sectionInfoList_.add(
                   input.readMessage(emu.grasscutter.net.proto.SeaLampSectionInfoOuterClass.SeaLampSectionInfo.parser(), extensionRegistry));
+              break;
+            }
+            case 88: {
+
+              dayIndex_ = input.readUInt32();
+              break;
+            }
+            case 400000: {
+
+              lMIKLCAMJPN_ = input.readBool();
+              break;
+            }
+            case 400008: {
+
+              jdedagmgmod_ = input.readUInt32();
+              break;
+            }
+            case 400016: {
+
+              opndpakbaeo_ = input.readUInt32();
+              break;
+            }
+            case 400024: {
+
+              gbnhbmobhnh_ = input.readBool();
               break;
             }
             default: {
@@ -221,10 +221,10 @@ public final class SeaLampActivityInfoOuterClass {
               emu.grasscutter.net.proto.SeaLampActivityInfoOuterClass.SeaLampActivityInfo.class, emu.grasscutter.net.proto.SeaLampActivityInfoOuterClass.SeaLampActivityInfo.Builder.class);
     }
 
-    public static final int LMIKLCAMJPN_FIELD_NUMBER = 2;
+    public static final int LMIKLCAMJPN_FIELD_NUMBER = 50000;
     private boolean lMIKLCAMJPN_;
     /**
-     * <code>bool LMIKLCAMJPN = 2;</code>
+     * <code>bool LMIKLCAMJPN = 50000;</code>
      * @return The lMIKLCAMJPN.
      */
     @java.lang.Override
@@ -232,10 +232,10 @@ public final class SeaLampActivityInfoOuterClass {
       return lMIKLCAMJPN_;
     }
 
-    public static final int JDEDAGMGMOD_FIELD_NUMBER = 4;
+    public static final int JDEDAGMGMOD_FIELD_NUMBER = 50001;
     private int jdedagmgmod_;
     /**
-     * <code>uint32 jdedagmgmod = 4;</code>
+     * <code>uint32 jdedagmgmod = 50001;</code>
      * @return The jdedagmgmod.
      */
     @java.lang.Override
@@ -243,10 +243,10 @@ public final class SeaLampActivityInfoOuterClass {
       return jdedagmgmod_;
     }
 
-    public static final int OPNDPAKBAEO_FIELD_NUMBER = 5;
+    public static final int OPNDPAKBAEO_FIELD_NUMBER = 50002;
     private int opndpakbaeo_;
     /**
-     * <code>uint32 opndpakbaeo = 5;</code>
+     * <code>uint32 opndpakbaeo = 50002;</code>
      * @return The opndpakbaeo.
      */
     @java.lang.Override
@@ -254,10 +254,10 @@ public final class SeaLampActivityInfoOuterClass {
       return opndpakbaeo_;
     }
 
-    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 9;
+    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 3;
     private boolean isContentClosed_;
     /**
-     * <code>bool is_content_closed = 9;</code>
+     * <code>bool is_content_closed = 3;</code>
      * @return The isContentClosed.
      */
     @java.lang.Override
@@ -265,10 +265,10 @@ public final class SeaLampActivityInfoOuterClass {
       return isContentClosed_;
     }
 
-    public static final int FIRST_DAY_START_TIME_FIELD_NUMBER = 10;
+    public static final int FIRST_DAY_START_TIME_FIELD_NUMBER = 6;
     private int firstDayStartTime_;
     /**
-     * <code>uint32 first_day_start_time = 10;</code>
+     * <code>uint32 first_day_start_time = 6;</code>
      * @return The firstDayStartTime.
      */
     @java.lang.Override
@@ -276,10 +276,10 @@ public final class SeaLampActivityInfoOuterClass {
       return firstDayStartTime_;
     }
 
-    public static final int MLCKEOGNHMF_FIELD_NUMBER = 11;
+    public static final int MLCKEOGNHMF_FIELD_NUMBER = 5;
     private int mLCKEOGNHMF_;
     /**
-     * <code>uint32 MLCKEOGNHMF = 11;</code>
+     * <code>uint32 MLCKEOGNHMF = 5;</code>
      * @return The mLCKEOGNHMF.
      */
     @java.lang.Override
@@ -287,10 +287,10 @@ public final class SeaLampActivityInfoOuterClass {
       return mLCKEOGNHMF_;
     }
 
-    public static final int DAY_INDEX_FIELD_NUMBER = 12;
+    public static final int DAY_INDEX_FIELD_NUMBER = 11;
     private int dayIndex_;
     /**
-     * <code>uint32 day_index = 12;</code>
+     * <code>uint32 day_index = 11;</code>
      * @return The dayIndex.
      */
     @java.lang.Override
@@ -298,10 +298,10 @@ public final class SeaLampActivityInfoOuterClass {
       return dayIndex_;
     }
 
-    public static final int GBNHBMOBHNH_FIELD_NUMBER = 13;
+    public static final int GBNHBMOBHNH_FIELD_NUMBER = 50003;
     private boolean gbnhbmobhnh_;
     /**
-     * <code>bool gbnhbmobhnh = 13;</code>
+     * <code>bool gbnhbmobhnh = 50003;</code>
      * @return The gbnhbmobhnh.
      */
     @java.lang.Override
@@ -309,17 +309,17 @@ public final class SeaLampActivityInfoOuterClass {
       return gbnhbmobhnh_;
     }
 
-    public static final int SECTION_INFO_LIST_FIELD_NUMBER = 15;
+    public static final int SECTION_INFO_LIST_FIELD_NUMBER = 7;
     private java.util.List<emu.grasscutter.net.proto.SeaLampSectionInfoOuterClass.SeaLampSectionInfo> sectionInfoList_;
     /**
-     * <code>repeated .SeaLampSectionInfo section_info_list = 15;</code>
+     * <code>repeated .SeaLampSectionInfo section_info_list = 7;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.SeaLampSectionInfoOuterClass.SeaLampSectionInfo> getSectionInfoListList() {
       return sectionInfoList_;
     }
     /**
-     * <code>repeated .SeaLampSectionInfo section_info_list = 15;</code>
+     * <code>repeated .SeaLampSectionInfo section_info_list = 7;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.SeaLampSectionInfoOuterClass.SeaLampSectionInfoOrBuilder> 
@@ -327,21 +327,21 @@ public final class SeaLampActivityInfoOuterClass {
       return sectionInfoList_;
     }
     /**
-     * <code>repeated .SeaLampSectionInfo section_info_list = 15;</code>
+     * <code>repeated .SeaLampSectionInfo section_info_list = 7;</code>
      */
     @java.lang.Override
     public int getSectionInfoListCount() {
       return sectionInfoList_.size();
     }
     /**
-     * <code>repeated .SeaLampSectionInfo section_info_list = 15;</code>
+     * <code>repeated .SeaLampSectionInfo section_info_list = 7;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.SeaLampSectionInfoOuterClass.SeaLampSectionInfo getSectionInfoList(int index) {
       return sectionInfoList_.get(index);
     }
     /**
-     * <code>repeated .SeaLampSectionInfo section_info_list = 15;</code>
+     * <code>repeated .SeaLampSectionInfo section_info_list = 7;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.SeaLampSectionInfoOuterClass.SeaLampSectionInfoOrBuilder getSectionInfoListOrBuilder(
@@ -363,32 +363,32 @@ public final class SeaLampActivityInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (lMIKLCAMJPN_ != false) {
-        output.writeBool(2, lMIKLCAMJPN_);
-      }
-      if (jdedagmgmod_ != 0) {
-        output.writeUInt32(4, jdedagmgmod_);
-      }
-      if (opndpakbaeo_ != 0) {
-        output.writeUInt32(5, opndpakbaeo_);
-      }
       if (isContentClosed_ != false) {
-        output.writeBool(9, isContentClosed_);
-      }
-      if (firstDayStartTime_ != 0) {
-        output.writeUInt32(10, firstDayStartTime_);
+        output.writeBool(3, isContentClosed_);
       }
       if (mLCKEOGNHMF_ != 0) {
-        output.writeUInt32(11, mLCKEOGNHMF_);
+        output.writeUInt32(5, mLCKEOGNHMF_);
       }
-      if (dayIndex_ != 0) {
-        output.writeUInt32(12, dayIndex_);
-      }
-      if (gbnhbmobhnh_ != false) {
-        output.writeBool(13, gbnhbmobhnh_);
+      if (firstDayStartTime_ != 0) {
+        output.writeUInt32(6, firstDayStartTime_);
       }
       for (int i = 0; i < sectionInfoList_.size(); i++) {
-        output.writeMessage(15, sectionInfoList_.get(i));
+        output.writeMessage(7, sectionInfoList_.get(i));
+      }
+      if (dayIndex_ != 0) {
+        output.writeUInt32(11, dayIndex_);
+      }
+      if (lMIKLCAMJPN_ != false) {
+        output.writeBool(50000, lMIKLCAMJPN_);
+      }
+      if (jdedagmgmod_ != 0) {
+        output.writeUInt32(50001, jdedagmgmod_);
+      }
+      if (opndpakbaeo_ != 0) {
+        output.writeUInt32(50002, opndpakbaeo_);
+      }
+      if (gbnhbmobhnh_ != false) {
+        output.writeBool(50003, gbnhbmobhnh_);
       }
       unknownFields.writeTo(output);
     }
@@ -399,41 +399,41 @@ public final class SeaLampActivityInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (lMIKLCAMJPN_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(2, lMIKLCAMJPN_);
-      }
-      if (jdedagmgmod_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, jdedagmgmod_);
-      }
-      if (opndpakbaeo_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, opndpakbaeo_);
-      }
       if (isContentClosed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, isContentClosed_);
-      }
-      if (firstDayStartTime_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, firstDayStartTime_);
+          .computeBoolSize(3, isContentClosed_);
       }
       if (mLCKEOGNHMF_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, mLCKEOGNHMF_);
+          .computeUInt32Size(5, mLCKEOGNHMF_);
       }
-      if (dayIndex_ != 0) {
+      if (firstDayStartTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, dayIndex_);
-      }
-      if (gbnhbmobhnh_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(13, gbnhbmobhnh_);
+          .computeUInt32Size(6, firstDayStartTime_);
       }
       for (int i = 0; i < sectionInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, sectionInfoList_.get(i));
+          .computeMessageSize(7, sectionInfoList_.get(i));
+      }
+      if (dayIndex_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(11, dayIndex_);
+      }
+      if (lMIKLCAMJPN_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(50000, lMIKLCAMJPN_);
+      }
+      if (jdedagmgmod_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50001, jdedagmgmod_);
+      }
+      if (opndpakbaeo_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50002, opndpakbaeo_);
+      }
+      if (gbnhbmobhnh_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(50003, gbnhbmobhnh_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -832,7 +832,7 @@ public final class SeaLampActivityInfoOuterClass {
 
       private boolean lMIKLCAMJPN_ ;
       /**
-       * <code>bool LMIKLCAMJPN = 2;</code>
+       * <code>bool LMIKLCAMJPN = 50000;</code>
        * @return The lMIKLCAMJPN.
        */
       @java.lang.Override
@@ -840,7 +840,7 @@ public final class SeaLampActivityInfoOuterClass {
         return lMIKLCAMJPN_;
       }
       /**
-       * <code>bool LMIKLCAMJPN = 2;</code>
+       * <code>bool LMIKLCAMJPN = 50000;</code>
        * @param value The lMIKLCAMJPN to set.
        * @return This builder for chaining.
        */
@@ -851,7 +851,7 @@ public final class SeaLampActivityInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool LMIKLCAMJPN = 2;</code>
+       * <code>bool LMIKLCAMJPN = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearLMIKLCAMJPN() {
@@ -863,7 +863,7 @@ public final class SeaLampActivityInfoOuterClass {
 
       private int jdedagmgmod_ ;
       /**
-       * <code>uint32 jdedagmgmod = 4;</code>
+       * <code>uint32 jdedagmgmod = 50001;</code>
        * @return The jdedagmgmod.
        */
       @java.lang.Override
@@ -871,7 +871,7 @@ public final class SeaLampActivityInfoOuterClass {
         return jdedagmgmod_;
       }
       /**
-       * <code>uint32 jdedagmgmod = 4;</code>
+       * <code>uint32 jdedagmgmod = 50001;</code>
        * @param value The jdedagmgmod to set.
        * @return This builder for chaining.
        */
@@ -882,7 +882,7 @@ public final class SeaLampActivityInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 jdedagmgmod = 4;</code>
+       * <code>uint32 jdedagmgmod = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearJdedagmgmod() {
@@ -894,7 +894,7 @@ public final class SeaLampActivityInfoOuterClass {
 
       private int opndpakbaeo_ ;
       /**
-       * <code>uint32 opndpakbaeo = 5;</code>
+       * <code>uint32 opndpakbaeo = 50002;</code>
        * @return The opndpakbaeo.
        */
       @java.lang.Override
@@ -902,7 +902,7 @@ public final class SeaLampActivityInfoOuterClass {
         return opndpakbaeo_;
       }
       /**
-       * <code>uint32 opndpakbaeo = 5;</code>
+       * <code>uint32 opndpakbaeo = 50002;</code>
        * @param value The opndpakbaeo to set.
        * @return This builder for chaining.
        */
@@ -913,7 +913,7 @@ public final class SeaLampActivityInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 opndpakbaeo = 5;</code>
+       * <code>uint32 opndpakbaeo = 50002;</code>
        * @return This builder for chaining.
        */
       public Builder clearOpndpakbaeo() {
@@ -925,7 +925,7 @@ public final class SeaLampActivityInfoOuterClass {
 
       private boolean isContentClosed_ ;
       /**
-       * <code>bool is_content_closed = 9;</code>
+       * <code>bool is_content_closed = 3;</code>
        * @return The isContentClosed.
        */
       @java.lang.Override
@@ -933,7 +933,7 @@ public final class SeaLampActivityInfoOuterClass {
         return isContentClosed_;
       }
       /**
-       * <code>bool is_content_closed = 9;</code>
+       * <code>bool is_content_closed = 3;</code>
        * @param value The isContentClosed to set.
        * @return This builder for chaining.
        */
@@ -944,7 +944,7 @@ public final class SeaLampActivityInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_content_closed = 9;</code>
+       * <code>bool is_content_closed = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsContentClosed() {
@@ -956,7 +956,7 @@ public final class SeaLampActivityInfoOuterClass {
 
       private int firstDayStartTime_ ;
       /**
-       * <code>uint32 first_day_start_time = 10;</code>
+       * <code>uint32 first_day_start_time = 6;</code>
        * @return The firstDayStartTime.
        */
       @java.lang.Override
@@ -964,7 +964,7 @@ public final class SeaLampActivityInfoOuterClass {
         return firstDayStartTime_;
       }
       /**
-       * <code>uint32 first_day_start_time = 10;</code>
+       * <code>uint32 first_day_start_time = 6;</code>
        * @param value The firstDayStartTime to set.
        * @return This builder for chaining.
        */
@@ -975,7 +975,7 @@ public final class SeaLampActivityInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 first_day_start_time = 10;</code>
+       * <code>uint32 first_day_start_time = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearFirstDayStartTime() {
@@ -987,7 +987,7 @@ public final class SeaLampActivityInfoOuterClass {
 
       private int mLCKEOGNHMF_ ;
       /**
-       * <code>uint32 MLCKEOGNHMF = 11;</code>
+       * <code>uint32 MLCKEOGNHMF = 5;</code>
        * @return The mLCKEOGNHMF.
        */
       @java.lang.Override
@@ -995,7 +995,7 @@ public final class SeaLampActivityInfoOuterClass {
         return mLCKEOGNHMF_;
       }
       /**
-       * <code>uint32 MLCKEOGNHMF = 11;</code>
+       * <code>uint32 MLCKEOGNHMF = 5;</code>
        * @param value The mLCKEOGNHMF to set.
        * @return This builder for chaining.
        */
@@ -1006,7 +1006,7 @@ public final class SeaLampActivityInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 MLCKEOGNHMF = 11;</code>
+       * <code>uint32 MLCKEOGNHMF = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearMLCKEOGNHMF() {
@@ -1018,7 +1018,7 @@ public final class SeaLampActivityInfoOuterClass {
 
       private int dayIndex_ ;
       /**
-       * <code>uint32 day_index = 12;</code>
+       * <code>uint32 day_index = 11;</code>
        * @return The dayIndex.
        */
       @java.lang.Override
@@ -1026,7 +1026,7 @@ public final class SeaLampActivityInfoOuterClass {
         return dayIndex_;
       }
       /**
-       * <code>uint32 day_index = 12;</code>
+       * <code>uint32 day_index = 11;</code>
        * @param value The dayIndex to set.
        * @return This builder for chaining.
        */
@@ -1037,7 +1037,7 @@ public final class SeaLampActivityInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 day_index = 12;</code>
+       * <code>uint32 day_index = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearDayIndex() {
@@ -1049,7 +1049,7 @@ public final class SeaLampActivityInfoOuterClass {
 
       private boolean gbnhbmobhnh_ ;
       /**
-       * <code>bool gbnhbmobhnh = 13;</code>
+       * <code>bool gbnhbmobhnh = 50003;</code>
        * @return The gbnhbmobhnh.
        */
       @java.lang.Override
@@ -1057,7 +1057,7 @@ public final class SeaLampActivityInfoOuterClass {
         return gbnhbmobhnh_;
       }
       /**
-       * <code>bool gbnhbmobhnh = 13;</code>
+       * <code>bool gbnhbmobhnh = 50003;</code>
        * @param value The gbnhbmobhnh to set.
        * @return This builder for chaining.
        */
@@ -1068,7 +1068,7 @@ public final class SeaLampActivityInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool gbnhbmobhnh = 13;</code>
+       * <code>bool gbnhbmobhnh = 50003;</code>
        * @return This builder for chaining.
        */
       public Builder clearGbnhbmobhnh() {
@@ -1091,7 +1091,7 @@ public final class SeaLampActivityInfoOuterClass {
           emu.grasscutter.net.proto.SeaLampSectionInfoOuterClass.SeaLampSectionInfo, emu.grasscutter.net.proto.SeaLampSectionInfoOuterClass.SeaLampSectionInfo.Builder, emu.grasscutter.net.proto.SeaLampSectionInfoOuterClass.SeaLampSectionInfoOrBuilder> sectionInfoListBuilder_;
 
       /**
-       * <code>repeated .SeaLampSectionInfo section_info_list = 15;</code>
+       * <code>repeated .SeaLampSectionInfo section_info_list = 7;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.SeaLampSectionInfoOuterClass.SeaLampSectionInfo> getSectionInfoListList() {
         if (sectionInfoListBuilder_ == null) {
@@ -1101,7 +1101,7 @@ public final class SeaLampActivityInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .SeaLampSectionInfo section_info_list = 15;</code>
+       * <code>repeated .SeaLampSectionInfo section_info_list = 7;</code>
        */
       public int getSectionInfoListCount() {
         if (sectionInfoListBuilder_ == null) {
@@ -1111,7 +1111,7 @@ public final class SeaLampActivityInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .SeaLampSectionInfo section_info_list = 15;</code>
+       * <code>repeated .SeaLampSectionInfo section_info_list = 7;</code>
        */
       public emu.grasscutter.net.proto.SeaLampSectionInfoOuterClass.SeaLampSectionInfo getSectionInfoList(int index) {
         if (sectionInfoListBuilder_ == null) {
@@ -1121,7 +1121,7 @@ public final class SeaLampActivityInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .SeaLampSectionInfo section_info_list = 15;</code>
+       * <code>repeated .SeaLampSectionInfo section_info_list = 7;</code>
        */
       public Builder setSectionInfoList(
           int index, emu.grasscutter.net.proto.SeaLampSectionInfoOuterClass.SeaLampSectionInfo value) {
@@ -1138,7 +1138,7 @@ public final class SeaLampActivityInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .SeaLampSectionInfo section_info_list = 15;</code>
+       * <code>repeated .SeaLampSectionInfo section_info_list = 7;</code>
        */
       public Builder setSectionInfoList(
           int index, emu.grasscutter.net.proto.SeaLampSectionInfoOuterClass.SeaLampSectionInfo.Builder builderForValue) {
@@ -1152,7 +1152,7 @@ public final class SeaLampActivityInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .SeaLampSectionInfo section_info_list = 15;</code>
+       * <code>repeated .SeaLampSectionInfo section_info_list = 7;</code>
        */
       public Builder addSectionInfoList(emu.grasscutter.net.proto.SeaLampSectionInfoOuterClass.SeaLampSectionInfo value) {
         if (sectionInfoListBuilder_ == null) {
@@ -1168,7 +1168,7 @@ public final class SeaLampActivityInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .SeaLampSectionInfo section_info_list = 15;</code>
+       * <code>repeated .SeaLampSectionInfo section_info_list = 7;</code>
        */
       public Builder addSectionInfoList(
           int index, emu.grasscutter.net.proto.SeaLampSectionInfoOuterClass.SeaLampSectionInfo value) {
@@ -1185,7 +1185,7 @@ public final class SeaLampActivityInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .SeaLampSectionInfo section_info_list = 15;</code>
+       * <code>repeated .SeaLampSectionInfo section_info_list = 7;</code>
        */
       public Builder addSectionInfoList(
           emu.grasscutter.net.proto.SeaLampSectionInfoOuterClass.SeaLampSectionInfo.Builder builderForValue) {
@@ -1199,7 +1199,7 @@ public final class SeaLampActivityInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .SeaLampSectionInfo section_info_list = 15;</code>
+       * <code>repeated .SeaLampSectionInfo section_info_list = 7;</code>
        */
       public Builder addSectionInfoList(
           int index, emu.grasscutter.net.proto.SeaLampSectionInfoOuterClass.SeaLampSectionInfo.Builder builderForValue) {
@@ -1213,7 +1213,7 @@ public final class SeaLampActivityInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .SeaLampSectionInfo section_info_list = 15;</code>
+       * <code>repeated .SeaLampSectionInfo section_info_list = 7;</code>
        */
       public Builder addAllSectionInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.SeaLampSectionInfoOuterClass.SeaLampSectionInfo> values) {
@@ -1228,7 +1228,7 @@ public final class SeaLampActivityInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .SeaLampSectionInfo section_info_list = 15;</code>
+       * <code>repeated .SeaLampSectionInfo section_info_list = 7;</code>
        */
       public Builder clearSectionInfoList() {
         if (sectionInfoListBuilder_ == null) {
@@ -1241,7 +1241,7 @@ public final class SeaLampActivityInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .SeaLampSectionInfo section_info_list = 15;</code>
+       * <code>repeated .SeaLampSectionInfo section_info_list = 7;</code>
        */
       public Builder removeSectionInfoList(int index) {
         if (sectionInfoListBuilder_ == null) {
@@ -1254,14 +1254,14 @@ public final class SeaLampActivityInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .SeaLampSectionInfo section_info_list = 15;</code>
+       * <code>repeated .SeaLampSectionInfo section_info_list = 7;</code>
        */
       public emu.grasscutter.net.proto.SeaLampSectionInfoOuterClass.SeaLampSectionInfo.Builder getSectionInfoListBuilder(
           int index) {
         return getSectionInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .SeaLampSectionInfo section_info_list = 15;</code>
+       * <code>repeated .SeaLampSectionInfo section_info_list = 7;</code>
        */
       public emu.grasscutter.net.proto.SeaLampSectionInfoOuterClass.SeaLampSectionInfoOrBuilder getSectionInfoListOrBuilder(
           int index) {
@@ -1271,7 +1271,7 @@ public final class SeaLampActivityInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .SeaLampSectionInfo section_info_list = 15;</code>
+       * <code>repeated .SeaLampSectionInfo section_info_list = 7;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.SeaLampSectionInfoOuterClass.SeaLampSectionInfoOrBuilder> 
            getSectionInfoListOrBuilderList() {
@@ -1282,14 +1282,14 @@ public final class SeaLampActivityInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .SeaLampSectionInfo section_info_list = 15;</code>
+       * <code>repeated .SeaLampSectionInfo section_info_list = 7;</code>
        */
       public emu.grasscutter.net.proto.SeaLampSectionInfoOuterClass.SeaLampSectionInfo.Builder addSectionInfoListBuilder() {
         return getSectionInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.SeaLampSectionInfoOuterClass.SeaLampSectionInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .SeaLampSectionInfo section_info_list = 15;</code>
+       * <code>repeated .SeaLampSectionInfo section_info_list = 7;</code>
        */
       public emu.grasscutter.net.proto.SeaLampSectionInfoOuterClass.SeaLampSectionInfo.Builder addSectionInfoListBuilder(
           int index) {
@@ -1297,7 +1297,7 @@ public final class SeaLampActivityInfoOuterClass {
             index, emu.grasscutter.net.proto.SeaLampSectionInfoOuterClass.SeaLampSectionInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .SeaLampSectionInfo section_info_list = 15;</code>
+       * <code>repeated .SeaLampSectionInfo section_info_list = 7;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.SeaLampSectionInfoOuterClass.SeaLampSectionInfo.Builder> 
            getSectionInfoListBuilderList() {
@@ -1385,15 +1385,15 @@ public final class SeaLampActivityInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\031SeaLampActivityInfo.proto\032\030SeaLampSect" +
-      "ionInfo.proto\"\372\001\n\023SeaLampActivityInfo\022\023\n" +
-      "\013LMIKLCAMJPN\030\002 \001(\010\022\023\n\013jdedagmgmod\030\004 \001(\r\022" +
-      "\023\n\013opndpakbaeo\030\005 \001(\r\022\031\n\021is_content_close" +
-      "d\030\t \001(\010\022\034\n\024first_day_start_time\030\n \001(\r\022\023\n" +
-      "\013MLCKEOGNHMF\030\013 \001(\r\022\021\n\tday_index\030\014 \001(\r\022\023\n" +
-      "\013gbnhbmobhnh\030\r \001(\010\022.\n\021section_info_list\030" +
-      "\017 \003(\0132\023.SeaLampSectionInfoB:\n\031emu.grassc" +
-      "utter.net.protoB\035SeaLampActivityInfoOute" +
-      "rClassb\006proto3"
+      "ionInfo.proto\"\202\002\n\023SeaLampActivityInfo\022\025\n" +
+      "\013LMIKLCAMJPN\030\320\206\003 \001(\010\022\025\n\013jdedagmgmod\030\321\206\003 " +
+      "\001(\r\022\025\n\013opndpakbaeo\030\322\206\003 \001(\r\022\031\n\021is_content" +
+      "_closed\030\003 \001(\010\022\034\n\024first_day_start_time\030\006 " +
+      "\001(\r\022\023\n\013MLCKEOGNHMF\030\005 \001(\r\022\021\n\tday_index\030\013 " +
+      "\001(\r\022\025\n\013gbnhbmobhnh\030\323\206\003 \001(\010\022.\n\021section_in" +
+      "fo_list\030\007 \003(\0132\023.SeaLampSectionInfoB:\n\031em" +
+      "u.grasscutter.net.protoB\035SeaLampActivity" +
+      "InfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

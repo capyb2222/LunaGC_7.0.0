@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "HomeModuleSeenRspOuterClass";
 
 message HomeModuleSeenRsp {
-	int32 retcode = 1;
-	repeated uint32 seen_module_id_list = 4;
+	int32 retcode = 2;
+	repeated uint32 seen_module_id_list = 9;
 }

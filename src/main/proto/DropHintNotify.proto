@@ -6,9 +6,9 @@ option java_outer_classname = "DropHintNotifyOuterClass";
 import "Vector.proto";
 
 message DropHintNotify {
-	repeated uint32 item_id_list = 3;
-	bool AJDBEGMCGKD = 5;
-	Vector position = 7;
-	Vector rotation = 10;
-	uint32 entity_id = 15;
+	repeated uint32 item_id_list = 15;
+	bool AJDBEGMCGKD = 1;
+	Vector position = 14;
+	Vector rotation = 3;
+	uint32 entity_id = 11;
 }

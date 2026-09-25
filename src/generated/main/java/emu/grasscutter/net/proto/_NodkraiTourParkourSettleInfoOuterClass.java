@@ -19,54 +19,54 @@ public final class _NodkraiTourParkourSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 IMONKEJDJCA = 3;</code>
+     * <code>uint32 IMONKEJDJCA = 50000;</code>
      * @return The iMONKEJDJCA.
      */
     int getIMONKEJDJCA();
 
     /**
-     * <code>uint32 _max_collect_num = 4;</code>
+     * <code>uint32 _max_collect_num = 8;</code>
      * @return The maxCollectNum.
      */
     int getMaxCollectNum();
 
     /**
-     * <code>bool is_new_record = 5;</code>
+     * <code>bool is_new_record = 9;</code>
      * @return The isNewRecord.
      */
     boolean getIsNewRecord();
 
     /**
-     * <code>uint32 collect_num = 6;</code>
+     * <code>uint32 collect_num = 12;</code>
      * @return The collectNum.
      */
     int getCollectNum();
 
     /**
-     * <code>.GalleryStopReason reason = 9;</code>
+     * <code>.GalleryStopReason reason = 7;</code>
      * @return The enum numeric value on the wire for reason.
      */
     int getReasonValue();
     /**
-     * <code>.GalleryStopReason reason = 9;</code>
+     * <code>.GalleryStopReason reason = 7;</code>
      * @return The reason.
      */
     emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason getReason();
 
     /**
-     * <code>uint32 use_time = 11;</code>
+     * <code>uint32 use_time = 13;</code>
      * @return The useTime.
      */
     int getUseTime();
 
     /**
-     * <code>uint32 CFLAKMKGAMO = 13;</code>
+     * <code>uint32 CFLAKMKGAMO = 50001;</code>
      * @return The cFLAKMKGAMO.
      */
     int getCFLAKMKGAMO();
 
     /**
-     * <code>uint32 score = 14;</code>
+     * <code>uint32 score = 15;</code>
      * @return The score.
      */
     int getScore();
@@ -117,45 +117,45 @@ public final class _NodkraiTourParkourSettleInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
-
-              iMONKEJDJCA_ = input.readUInt32();
-              break;
-            }
-            case 32: {
-
-              MaxCollectNum_ = input.readUInt32();
-              break;
-            }
-            case 40: {
-
-              isNewRecord_ = input.readBool();
-              break;
-            }
-            case 48: {
-
-              collectNum_ = input.readUInt32();
-              break;
-            }
-            case 72: {
+            case 56: {
               int rawValue = input.readEnum();
 
               reason_ = rawValue;
               break;
             }
-            case 88: {
+            case 64: {
 
-              useTime_ = input.readUInt32();
+              MaxCollectNum_ = input.readUInt32();
+              break;
+            }
+            case 72: {
+
+              isNewRecord_ = input.readBool();
+              break;
+            }
+            case 96: {
+
+              collectNum_ = input.readUInt32();
               break;
             }
             case 104: {
 
-              cFLAKMKGAMO_ = input.readUInt32();
+              useTime_ = input.readUInt32();
               break;
             }
-            case 112: {
+            case 120: {
 
               score_ = input.readUInt32();
+              break;
+            }
+            case 400000: {
+
+              iMONKEJDJCA_ = input.readUInt32();
+              break;
+            }
+            case 400008: {
+
+              cFLAKMKGAMO_ = input.readUInt32();
               break;
             }
             default: {
@@ -190,10 +190,10 @@ public final class _NodkraiTourParkourSettleInfoOuterClass {
               emu.grasscutter.net.proto._NodkraiTourParkourSettleInfoOuterClass._NodkraiTourParkourSettleInfo.class, emu.grasscutter.net.proto._NodkraiTourParkourSettleInfoOuterClass._NodkraiTourParkourSettleInfo.Builder.class);
     }
 
-    public static final int IMONKEJDJCA_FIELD_NUMBER = 3;
+    public static final int IMONKEJDJCA_FIELD_NUMBER = 50000;
     private int iMONKEJDJCA_;
     /**
-     * <code>uint32 IMONKEJDJCA = 3;</code>
+     * <code>uint32 IMONKEJDJCA = 50000;</code>
      * @return The iMONKEJDJCA.
      */
     @java.lang.Override
@@ -201,10 +201,10 @@ public final class _NodkraiTourParkourSettleInfoOuterClass {
       return iMONKEJDJCA_;
     }
 
-    public static final int _MAX_COLLECT_NUM_FIELD_NUMBER = 4;
+    public static final int _MAX_COLLECT_NUM_FIELD_NUMBER = 8;
     private int MaxCollectNum_;
     /**
-     * <code>uint32 _max_collect_num = 4;</code>
+     * <code>uint32 _max_collect_num = 8;</code>
      * @return The maxCollectNum.
      */
     @java.lang.Override
@@ -212,10 +212,10 @@ public final class _NodkraiTourParkourSettleInfoOuterClass {
       return MaxCollectNum_;
     }
 
-    public static final int IS_NEW_RECORD_FIELD_NUMBER = 5;
+    public static final int IS_NEW_RECORD_FIELD_NUMBER = 9;
     private boolean isNewRecord_;
     /**
-     * <code>bool is_new_record = 5;</code>
+     * <code>bool is_new_record = 9;</code>
      * @return The isNewRecord.
      */
     @java.lang.Override
@@ -223,10 +223,10 @@ public final class _NodkraiTourParkourSettleInfoOuterClass {
       return isNewRecord_;
     }
 
-    public static final int COLLECT_NUM_FIELD_NUMBER = 6;
+    public static final int COLLECT_NUM_FIELD_NUMBER = 12;
     private int collectNum_;
     /**
-     * <code>uint32 collect_num = 6;</code>
+     * <code>uint32 collect_num = 12;</code>
      * @return The collectNum.
      */
     @java.lang.Override
@@ -234,17 +234,17 @@ public final class _NodkraiTourParkourSettleInfoOuterClass {
       return collectNum_;
     }
 
-    public static final int REASON_FIELD_NUMBER = 9;
+    public static final int REASON_FIELD_NUMBER = 7;
     private int reason_;
     /**
-     * <code>.GalleryStopReason reason = 9;</code>
+     * <code>.GalleryStopReason reason = 7;</code>
      * @return The enum numeric value on the wire for reason.
      */
     @java.lang.Override public int getReasonValue() {
       return reason_;
     }
     /**
-     * <code>.GalleryStopReason reason = 9;</code>
+     * <code>.GalleryStopReason reason = 7;</code>
      * @return The reason.
      */
     @java.lang.Override public emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason getReason() {
@@ -253,10 +253,10 @@ public final class _NodkraiTourParkourSettleInfoOuterClass {
       return result == null ? emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason.UNRECOGNIZED : result;
     }
 
-    public static final int USE_TIME_FIELD_NUMBER = 11;
+    public static final int USE_TIME_FIELD_NUMBER = 13;
     private int useTime_;
     /**
-     * <code>uint32 use_time = 11;</code>
+     * <code>uint32 use_time = 13;</code>
      * @return The useTime.
      */
     @java.lang.Override
@@ -264,10 +264,10 @@ public final class _NodkraiTourParkourSettleInfoOuterClass {
       return useTime_;
     }
 
-    public static final int CFLAKMKGAMO_FIELD_NUMBER = 13;
+    public static final int CFLAKMKGAMO_FIELD_NUMBER = 50001;
     private int cFLAKMKGAMO_;
     /**
-     * <code>uint32 CFLAKMKGAMO = 13;</code>
+     * <code>uint32 CFLAKMKGAMO = 50001;</code>
      * @return The cFLAKMKGAMO.
      */
     @java.lang.Override
@@ -275,10 +275,10 @@ public final class _NodkraiTourParkourSettleInfoOuterClass {
       return cFLAKMKGAMO_;
     }
 
-    public static final int SCORE_FIELD_NUMBER = 14;
+    public static final int SCORE_FIELD_NUMBER = 15;
     private int score_;
     /**
-     * <code>uint32 score = 14;</code>
+     * <code>uint32 score = 15;</code>
      * @return The score.
      */
     @java.lang.Override
@@ -300,29 +300,29 @@ public final class _NodkraiTourParkourSettleInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (iMONKEJDJCA_ != 0) {
-        output.writeUInt32(3, iMONKEJDJCA_);
+      if (reason_ != emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason.GalleryStopReason_GALLERY_STOP_NONE.getNumber()) {
+        output.writeEnum(7, reason_);
       }
       if (MaxCollectNum_ != 0) {
-        output.writeUInt32(4, MaxCollectNum_);
+        output.writeUInt32(8, MaxCollectNum_);
       }
       if (isNewRecord_ != false) {
-        output.writeBool(5, isNewRecord_);
+        output.writeBool(9, isNewRecord_);
       }
       if (collectNum_ != 0) {
-        output.writeUInt32(6, collectNum_);
-      }
-      if (reason_ != emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason.GalleryStopReason_GALLERY_STOP_NONE.getNumber()) {
-        output.writeEnum(9, reason_);
+        output.writeUInt32(12, collectNum_);
       }
       if (useTime_ != 0) {
-        output.writeUInt32(11, useTime_);
-      }
-      if (cFLAKMKGAMO_ != 0) {
-        output.writeUInt32(13, cFLAKMKGAMO_);
+        output.writeUInt32(13, useTime_);
       }
       if (score_ != 0) {
-        output.writeUInt32(14, score_);
+        output.writeUInt32(15, score_);
+      }
+      if (iMONKEJDJCA_ != 0) {
+        output.writeUInt32(50000, iMONKEJDJCA_);
+      }
+      if (cFLAKMKGAMO_ != 0) {
+        output.writeUInt32(50001, cFLAKMKGAMO_);
       }
       unknownFields.writeTo(output);
     }
@@ -333,37 +333,37 @@ public final class _NodkraiTourParkourSettleInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (iMONKEJDJCA_ != 0) {
+      if (reason_ != emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason.GalleryStopReason_GALLERY_STOP_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, iMONKEJDJCA_);
+          .computeEnumSize(7, reason_);
       }
       if (MaxCollectNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, MaxCollectNum_);
+          .computeUInt32Size(8, MaxCollectNum_);
       }
       if (isNewRecord_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(5, isNewRecord_);
+          .computeBoolSize(9, isNewRecord_);
       }
       if (collectNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, collectNum_);
-      }
-      if (reason_ != emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason.GalleryStopReason_GALLERY_STOP_NONE.getNumber()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(9, reason_);
+          .computeUInt32Size(12, collectNum_);
       }
       if (useTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, useTime_);
-      }
-      if (cFLAKMKGAMO_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, cFLAKMKGAMO_);
+          .computeUInt32Size(13, useTime_);
       }
       if (score_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, score_);
+          .computeUInt32Size(15, score_);
+      }
+      if (iMONKEJDJCA_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50000, iMONKEJDJCA_);
+      }
+      if (cFLAKMKGAMO_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50001, cFLAKMKGAMO_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -709,7 +709,7 @@ public final class _NodkraiTourParkourSettleInfoOuterClass {
 
       private int iMONKEJDJCA_ ;
       /**
-       * <code>uint32 IMONKEJDJCA = 3;</code>
+       * <code>uint32 IMONKEJDJCA = 50000;</code>
        * @return The iMONKEJDJCA.
        */
       @java.lang.Override
@@ -717,7 +717,7 @@ public final class _NodkraiTourParkourSettleInfoOuterClass {
         return iMONKEJDJCA_;
       }
       /**
-       * <code>uint32 IMONKEJDJCA = 3;</code>
+       * <code>uint32 IMONKEJDJCA = 50000;</code>
        * @param value The iMONKEJDJCA to set.
        * @return This builder for chaining.
        */
@@ -728,7 +728,7 @@ public final class _NodkraiTourParkourSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 IMONKEJDJCA = 3;</code>
+       * <code>uint32 IMONKEJDJCA = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearIMONKEJDJCA() {
@@ -740,7 +740,7 @@ public final class _NodkraiTourParkourSettleInfoOuterClass {
 
       private int MaxCollectNum_ ;
       /**
-       * <code>uint32 _max_collect_num = 4;</code>
+       * <code>uint32 _max_collect_num = 8;</code>
        * @return The maxCollectNum.
        */
       @java.lang.Override
@@ -748,7 +748,7 @@ public final class _NodkraiTourParkourSettleInfoOuterClass {
         return MaxCollectNum_;
       }
       /**
-       * <code>uint32 _max_collect_num = 4;</code>
+       * <code>uint32 _max_collect_num = 8;</code>
        * @param value The maxCollectNum to set.
        * @return This builder for chaining.
        */
@@ -759,7 +759,7 @@ public final class _NodkraiTourParkourSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 _max_collect_num = 4;</code>
+       * <code>uint32 _max_collect_num = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearMaxCollectNum() {
@@ -771,7 +771,7 @@ public final class _NodkraiTourParkourSettleInfoOuterClass {
 
       private boolean isNewRecord_ ;
       /**
-       * <code>bool is_new_record = 5;</code>
+       * <code>bool is_new_record = 9;</code>
        * @return The isNewRecord.
        */
       @java.lang.Override
@@ -779,7 +779,7 @@ public final class _NodkraiTourParkourSettleInfoOuterClass {
         return isNewRecord_;
       }
       /**
-       * <code>bool is_new_record = 5;</code>
+       * <code>bool is_new_record = 9;</code>
        * @param value The isNewRecord to set.
        * @return This builder for chaining.
        */
@@ -790,7 +790,7 @@ public final class _NodkraiTourParkourSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_new_record = 5;</code>
+       * <code>bool is_new_record = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsNewRecord() {
@@ -802,7 +802,7 @@ public final class _NodkraiTourParkourSettleInfoOuterClass {
 
       private int collectNum_ ;
       /**
-       * <code>uint32 collect_num = 6;</code>
+       * <code>uint32 collect_num = 12;</code>
        * @return The collectNum.
        */
       @java.lang.Override
@@ -810,7 +810,7 @@ public final class _NodkraiTourParkourSettleInfoOuterClass {
         return collectNum_;
       }
       /**
-       * <code>uint32 collect_num = 6;</code>
+       * <code>uint32 collect_num = 12;</code>
        * @param value The collectNum to set.
        * @return This builder for chaining.
        */
@@ -821,7 +821,7 @@ public final class _NodkraiTourParkourSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 collect_num = 6;</code>
+       * <code>uint32 collect_num = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearCollectNum() {
@@ -833,14 +833,14 @@ public final class _NodkraiTourParkourSettleInfoOuterClass {
 
       private int reason_ = 0;
       /**
-       * <code>.GalleryStopReason reason = 9;</code>
+       * <code>.GalleryStopReason reason = 7;</code>
        * @return The enum numeric value on the wire for reason.
        */
       @java.lang.Override public int getReasonValue() {
         return reason_;
       }
       /**
-       * <code>.GalleryStopReason reason = 9;</code>
+       * <code>.GalleryStopReason reason = 7;</code>
        * @param value The enum numeric value on the wire for reason to set.
        * @return This builder for chaining.
        */
@@ -851,7 +851,7 @@ public final class _NodkraiTourParkourSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>.GalleryStopReason reason = 9;</code>
+       * <code>.GalleryStopReason reason = 7;</code>
        * @return The reason.
        */
       @java.lang.Override
@@ -861,7 +861,7 @@ public final class _NodkraiTourParkourSettleInfoOuterClass {
         return result == null ? emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason.UNRECOGNIZED : result;
       }
       /**
-       * <code>.GalleryStopReason reason = 9;</code>
+       * <code>.GalleryStopReason reason = 7;</code>
        * @param value The reason to set.
        * @return This builder for chaining.
        */
@@ -875,7 +875,7 @@ public final class _NodkraiTourParkourSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>.GalleryStopReason reason = 9;</code>
+       * <code>.GalleryStopReason reason = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearReason() {
@@ -887,7 +887,7 @@ public final class _NodkraiTourParkourSettleInfoOuterClass {
 
       private int useTime_ ;
       /**
-       * <code>uint32 use_time = 11;</code>
+       * <code>uint32 use_time = 13;</code>
        * @return The useTime.
        */
       @java.lang.Override
@@ -895,7 +895,7 @@ public final class _NodkraiTourParkourSettleInfoOuterClass {
         return useTime_;
       }
       /**
-       * <code>uint32 use_time = 11;</code>
+       * <code>uint32 use_time = 13;</code>
        * @param value The useTime to set.
        * @return This builder for chaining.
        */
@@ -906,7 +906,7 @@ public final class _NodkraiTourParkourSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 use_time = 11;</code>
+       * <code>uint32 use_time = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearUseTime() {
@@ -918,7 +918,7 @@ public final class _NodkraiTourParkourSettleInfoOuterClass {
 
       private int cFLAKMKGAMO_ ;
       /**
-       * <code>uint32 CFLAKMKGAMO = 13;</code>
+       * <code>uint32 CFLAKMKGAMO = 50001;</code>
        * @return The cFLAKMKGAMO.
        */
       @java.lang.Override
@@ -926,7 +926,7 @@ public final class _NodkraiTourParkourSettleInfoOuterClass {
         return cFLAKMKGAMO_;
       }
       /**
-       * <code>uint32 CFLAKMKGAMO = 13;</code>
+       * <code>uint32 CFLAKMKGAMO = 50001;</code>
        * @param value The cFLAKMKGAMO to set.
        * @return This builder for chaining.
        */
@@ -937,7 +937,7 @@ public final class _NodkraiTourParkourSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 CFLAKMKGAMO = 13;</code>
+       * <code>uint32 CFLAKMKGAMO = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearCFLAKMKGAMO() {
@@ -949,7 +949,7 @@ public final class _NodkraiTourParkourSettleInfoOuterClass {
 
       private int score_ ;
       /**
-       * <code>uint32 score = 14;</code>
+       * <code>uint32 score = 15;</code>
        * @return The score.
        */
       @java.lang.Override
@@ -957,7 +957,7 @@ public final class _NodkraiTourParkourSettleInfoOuterClass {
         return score_;
       }
       /**
-       * <code>uint32 score = 14;</code>
+       * <code>uint32 score = 15;</code>
        * @param value The score to set.
        * @return This builder for chaining.
        */
@@ -968,7 +968,7 @@ public final class _NodkraiTourParkourSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 score = 14;</code>
+       * <code>uint32 score = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearScore() {
@@ -1045,14 +1045,14 @@ public final class _NodkraiTourParkourSettleInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n#_NodkraiTourParkourSettleInfo.proto\032\027G" +
-      "alleryStopReason.proto\"\324\001\n\035_NodkraiTourP" +
-      "arkourSettleInfo\022\023\n\013IMONKEJDJCA\030\003 \001(\r\022\030\n" +
-      "\020_max_collect_num\030\004 \001(\r\022\025\n\ris_new_record" +
-      "\030\005 \001(\010\022\023\n\013collect_num\030\006 \001(\r\022\"\n\006reason\030\t " +
-      "\001(\0162\022.GalleryStopReason\022\020\n\010use_time\030\013 \001(" +
-      "\r\022\023\n\013CFLAKMKGAMO\030\r \001(\r\022\r\n\005score\030\016 \001(\rBD\n" +
-      "\031emu.grasscutter.net.protoB\'_NodkraiTour" +
-      "ParkourSettleInfoOuterClassb\006proto3"
+      "alleryStopReason.proto\"\330\001\n\035_NodkraiTourP" +
+      "arkourSettleInfo\022\025\n\013IMONKEJDJCA\030\320\206\003 \001(\r\022" +
+      "\030\n\020_max_collect_num\030\010 \001(\r\022\025\n\ris_new_reco" +
+      "rd\030\t \001(\010\022\023\n\013collect_num\030\014 \001(\r\022\"\n\006reason\030" +
+      "\007 \001(\0162\022.GalleryStopReason\022\020\n\010use_time\030\r " +
+      "\001(\r\022\025\n\013CFLAKMKGAMO\030\321\206\003 \001(\r\022\r\n\005score\030\017 \001(" +
+      "\rBD\n\031emu.grasscutter.net.protoB\'_Nodkrai" +
+      "TourParkourSettleInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

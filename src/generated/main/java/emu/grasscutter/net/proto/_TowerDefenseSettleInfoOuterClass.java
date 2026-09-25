@@ -19,49 +19,49 @@ public final class _TowerDefenseSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 _left_hp = 2;</code>
+     * <code>uint32 _left_hp = 9;</code>
      * @return The leftHp.
      */
     int getLeftHp();
 
     /**
-     * <code>bool is_new_record = 5;</code>
+     * <code>bool is_new_record = 13;</code>
      * @return The isNewRecord.
      */
     boolean getIsNewRecord();
 
     /**
-     * <code>uint32 kill_num = 6;</code>
+     * <code>uint32 kill_num = 15;</code>
      * @return The killNum.
      */
     int getKillNum();
 
     /**
-     * <code>uint32 _succ_wave = 7;</code>
+     * <code>uint32 _succ_wave = 5;</code>
      * @return The succWave.
      */
     int getSuccWave();
 
     /**
-     * <code>uint32 level_id = 8;</code>
+     * <code>uint32 level_id = 4;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>bool is_succ = 11;</code>
+     * <code>bool is_succ = 2;</code>
      * @return The isSucc.
      */
     boolean getIsSucc();
 
     /**
-     * <code>uint32 max_hp = 14;</code>
+     * <code>uint32 max_hp = 3;</code>
      * @return The maxHp.
      */
     int getMaxHp();
 
     /**
-     * <code>uint32 _max_wave = 15;</code>
+     * <code>uint32 _max_wave = 10;</code>
      * @return The maxWave.
      */
     int getMaxWave();
@@ -113,42 +113,42 @@ public final class _TowerDefenseSettleInfoOuterClass {
               break;
             case 16: {
 
-              LeftHp_ = input.readUInt32();
-              break;
-            }
-            case 40: {
-
-              isNewRecord_ = input.readBool();
-              break;
-            }
-            case 48: {
-
-              killNum_ = input.readUInt32();
-              break;
-            }
-            case 56: {
-
-              SuccWave_ = input.readUInt32();
-              break;
-            }
-            case 64: {
-
-              levelId_ = input.readUInt32();
-              break;
-            }
-            case 88: {
-
               isSucc_ = input.readBool();
               break;
             }
-            case 112: {
+            case 24: {
 
               maxHp_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 32: {
+
+              levelId_ = input.readUInt32();
+              break;
+            }
+            case 40: {
+
+              SuccWave_ = input.readUInt32();
+              break;
+            }
+            case 72: {
+
+              LeftHp_ = input.readUInt32();
+              break;
+            }
+            case 80: {
 
               MaxWave_ = input.readUInt32();
+              break;
+            }
+            case 104: {
+
+              isNewRecord_ = input.readBool();
+              break;
+            }
+            case 120: {
+
+              killNum_ = input.readUInt32();
               break;
             }
             default: {
@@ -183,10 +183,10 @@ public final class _TowerDefenseSettleInfoOuterClass {
               emu.grasscutter.net.proto._TowerDefenseSettleInfoOuterClass._TowerDefenseSettleInfo.class, emu.grasscutter.net.proto._TowerDefenseSettleInfoOuterClass._TowerDefenseSettleInfo.Builder.class);
     }
 
-    public static final int _LEFT_HP_FIELD_NUMBER = 2;
+    public static final int _LEFT_HP_FIELD_NUMBER = 9;
     private int LeftHp_;
     /**
-     * <code>uint32 _left_hp = 2;</code>
+     * <code>uint32 _left_hp = 9;</code>
      * @return The leftHp.
      */
     @java.lang.Override
@@ -194,10 +194,10 @@ public final class _TowerDefenseSettleInfoOuterClass {
       return LeftHp_;
     }
 
-    public static final int IS_NEW_RECORD_FIELD_NUMBER = 5;
+    public static final int IS_NEW_RECORD_FIELD_NUMBER = 13;
     private boolean isNewRecord_;
     /**
-     * <code>bool is_new_record = 5;</code>
+     * <code>bool is_new_record = 13;</code>
      * @return The isNewRecord.
      */
     @java.lang.Override
@@ -205,10 +205,10 @@ public final class _TowerDefenseSettleInfoOuterClass {
       return isNewRecord_;
     }
 
-    public static final int KILL_NUM_FIELD_NUMBER = 6;
+    public static final int KILL_NUM_FIELD_NUMBER = 15;
     private int killNum_;
     /**
-     * <code>uint32 kill_num = 6;</code>
+     * <code>uint32 kill_num = 15;</code>
      * @return The killNum.
      */
     @java.lang.Override
@@ -216,10 +216,10 @@ public final class _TowerDefenseSettleInfoOuterClass {
       return killNum_;
     }
 
-    public static final int _SUCC_WAVE_FIELD_NUMBER = 7;
+    public static final int _SUCC_WAVE_FIELD_NUMBER = 5;
     private int SuccWave_;
     /**
-     * <code>uint32 _succ_wave = 7;</code>
+     * <code>uint32 _succ_wave = 5;</code>
      * @return The succWave.
      */
     @java.lang.Override
@@ -227,10 +227,10 @@ public final class _TowerDefenseSettleInfoOuterClass {
       return SuccWave_;
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 8;
+    public static final int LEVEL_ID_FIELD_NUMBER = 4;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 8;</code>
+     * <code>uint32 level_id = 4;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -238,10 +238,10 @@ public final class _TowerDefenseSettleInfoOuterClass {
       return levelId_;
     }
 
-    public static final int IS_SUCC_FIELD_NUMBER = 11;
+    public static final int IS_SUCC_FIELD_NUMBER = 2;
     private boolean isSucc_;
     /**
-     * <code>bool is_succ = 11;</code>
+     * <code>bool is_succ = 2;</code>
      * @return The isSucc.
      */
     @java.lang.Override
@@ -249,10 +249,10 @@ public final class _TowerDefenseSettleInfoOuterClass {
       return isSucc_;
     }
 
-    public static final int MAX_HP_FIELD_NUMBER = 14;
+    public static final int MAX_HP_FIELD_NUMBER = 3;
     private int maxHp_;
     /**
-     * <code>uint32 max_hp = 14;</code>
+     * <code>uint32 max_hp = 3;</code>
      * @return The maxHp.
      */
     @java.lang.Override
@@ -260,10 +260,10 @@ public final class _TowerDefenseSettleInfoOuterClass {
       return maxHp_;
     }
 
-    public static final int _MAX_WAVE_FIELD_NUMBER = 15;
+    public static final int _MAX_WAVE_FIELD_NUMBER = 10;
     private int MaxWave_;
     /**
-     * <code>uint32 _max_wave = 15;</code>
+     * <code>uint32 _max_wave = 10;</code>
      * @return The maxWave.
      */
     @java.lang.Override
@@ -285,29 +285,29 @@ public final class _TowerDefenseSettleInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (LeftHp_ != 0) {
-        output.writeUInt32(2, LeftHp_);
-      }
-      if (isNewRecord_ != false) {
-        output.writeBool(5, isNewRecord_);
-      }
-      if (killNum_ != 0) {
-        output.writeUInt32(6, killNum_);
-      }
-      if (SuccWave_ != 0) {
-        output.writeUInt32(7, SuccWave_);
-      }
-      if (levelId_ != 0) {
-        output.writeUInt32(8, levelId_);
-      }
       if (isSucc_ != false) {
-        output.writeBool(11, isSucc_);
+        output.writeBool(2, isSucc_);
       }
       if (maxHp_ != 0) {
-        output.writeUInt32(14, maxHp_);
+        output.writeUInt32(3, maxHp_);
+      }
+      if (levelId_ != 0) {
+        output.writeUInt32(4, levelId_);
+      }
+      if (SuccWave_ != 0) {
+        output.writeUInt32(5, SuccWave_);
+      }
+      if (LeftHp_ != 0) {
+        output.writeUInt32(9, LeftHp_);
       }
       if (MaxWave_ != 0) {
-        output.writeUInt32(15, MaxWave_);
+        output.writeUInt32(10, MaxWave_);
+      }
+      if (isNewRecord_ != false) {
+        output.writeBool(13, isNewRecord_);
+      }
+      if (killNum_ != 0) {
+        output.writeUInt32(15, killNum_);
       }
       unknownFields.writeTo(output);
     }
@@ -318,37 +318,37 @@ public final class _TowerDefenseSettleInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (LeftHp_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, LeftHp_);
-      }
-      if (isNewRecord_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(5, isNewRecord_);
-      }
-      if (killNum_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, killNum_);
-      }
-      if (SuccWave_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, SuccWave_);
-      }
-      if (levelId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, levelId_);
-      }
       if (isSucc_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(11, isSucc_);
+          .computeBoolSize(2, isSucc_);
       }
       if (maxHp_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, maxHp_);
+          .computeUInt32Size(3, maxHp_);
+      }
+      if (levelId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(4, levelId_);
+      }
+      if (SuccWave_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(5, SuccWave_);
+      }
+      if (LeftHp_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(9, LeftHp_);
       }
       if (MaxWave_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, MaxWave_);
+          .computeUInt32Size(10, MaxWave_);
+      }
+      if (isNewRecord_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(13, isNewRecord_);
+      }
+      if (killNum_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(15, killNum_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -696,7 +696,7 @@ public final class _TowerDefenseSettleInfoOuterClass {
 
       private int LeftHp_ ;
       /**
-       * <code>uint32 _left_hp = 2;</code>
+       * <code>uint32 _left_hp = 9;</code>
        * @return The leftHp.
        */
       @java.lang.Override
@@ -704,7 +704,7 @@ public final class _TowerDefenseSettleInfoOuterClass {
         return LeftHp_;
       }
       /**
-       * <code>uint32 _left_hp = 2;</code>
+       * <code>uint32 _left_hp = 9;</code>
        * @param value The leftHp to set.
        * @return This builder for chaining.
        */
@@ -715,7 +715,7 @@ public final class _TowerDefenseSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 _left_hp = 2;</code>
+       * <code>uint32 _left_hp = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearLeftHp() {
@@ -727,7 +727,7 @@ public final class _TowerDefenseSettleInfoOuterClass {
 
       private boolean isNewRecord_ ;
       /**
-       * <code>bool is_new_record = 5;</code>
+       * <code>bool is_new_record = 13;</code>
        * @return The isNewRecord.
        */
       @java.lang.Override
@@ -735,7 +735,7 @@ public final class _TowerDefenseSettleInfoOuterClass {
         return isNewRecord_;
       }
       /**
-       * <code>bool is_new_record = 5;</code>
+       * <code>bool is_new_record = 13;</code>
        * @param value The isNewRecord to set.
        * @return This builder for chaining.
        */
@@ -746,7 +746,7 @@ public final class _TowerDefenseSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_new_record = 5;</code>
+       * <code>bool is_new_record = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsNewRecord() {
@@ -758,7 +758,7 @@ public final class _TowerDefenseSettleInfoOuterClass {
 
       private int killNum_ ;
       /**
-       * <code>uint32 kill_num = 6;</code>
+       * <code>uint32 kill_num = 15;</code>
        * @return The killNum.
        */
       @java.lang.Override
@@ -766,7 +766,7 @@ public final class _TowerDefenseSettleInfoOuterClass {
         return killNum_;
       }
       /**
-       * <code>uint32 kill_num = 6;</code>
+       * <code>uint32 kill_num = 15;</code>
        * @param value The killNum to set.
        * @return This builder for chaining.
        */
@@ -777,7 +777,7 @@ public final class _TowerDefenseSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 kill_num = 6;</code>
+       * <code>uint32 kill_num = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearKillNum() {
@@ -789,7 +789,7 @@ public final class _TowerDefenseSettleInfoOuterClass {
 
       private int SuccWave_ ;
       /**
-       * <code>uint32 _succ_wave = 7;</code>
+       * <code>uint32 _succ_wave = 5;</code>
        * @return The succWave.
        */
       @java.lang.Override
@@ -797,7 +797,7 @@ public final class _TowerDefenseSettleInfoOuterClass {
         return SuccWave_;
       }
       /**
-       * <code>uint32 _succ_wave = 7;</code>
+       * <code>uint32 _succ_wave = 5;</code>
        * @param value The succWave to set.
        * @return This builder for chaining.
        */
@@ -808,7 +808,7 @@ public final class _TowerDefenseSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 _succ_wave = 7;</code>
+       * <code>uint32 _succ_wave = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearSuccWave() {
@@ -820,7 +820,7 @@ public final class _TowerDefenseSettleInfoOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 8;</code>
+       * <code>uint32 level_id = 4;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -828,7 +828,7 @@ public final class _TowerDefenseSettleInfoOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 8;</code>
+       * <code>uint32 level_id = 4;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -839,7 +839,7 @@ public final class _TowerDefenseSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 8;</code>
+       * <code>uint32 level_id = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -851,7 +851,7 @@ public final class _TowerDefenseSettleInfoOuterClass {
 
       private boolean isSucc_ ;
       /**
-       * <code>bool is_succ = 11;</code>
+       * <code>bool is_succ = 2;</code>
        * @return The isSucc.
        */
       @java.lang.Override
@@ -859,7 +859,7 @@ public final class _TowerDefenseSettleInfoOuterClass {
         return isSucc_;
       }
       /**
-       * <code>bool is_succ = 11;</code>
+       * <code>bool is_succ = 2;</code>
        * @param value The isSucc to set.
        * @return This builder for chaining.
        */
@@ -870,7 +870,7 @@ public final class _TowerDefenseSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_succ = 11;</code>
+       * <code>bool is_succ = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsSucc() {
@@ -882,7 +882,7 @@ public final class _TowerDefenseSettleInfoOuterClass {
 
       private int maxHp_ ;
       /**
-       * <code>uint32 max_hp = 14;</code>
+       * <code>uint32 max_hp = 3;</code>
        * @return The maxHp.
        */
       @java.lang.Override
@@ -890,7 +890,7 @@ public final class _TowerDefenseSettleInfoOuterClass {
         return maxHp_;
       }
       /**
-       * <code>uint32 max_hp = 14;</code>
+       * <code>uint32 max_hp = 3;</code>
        * @param value The maxHp to set.
        * @return This builder for chaining.
        */
@@ -901,7 +901,7 @@ public final class _TowerDefenseSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 max_hp = 14;</code>
+       * <code>uint32 max_hp = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearMaxHp() {
@@ -913,7 +913,7 @@ public final class _TowerDefenseSettleInfoOuterClass {
 
       private int MaxWave_ ;
       /**
-       * <code>uint32 _max_wave = 15;</code>
+       * <code>uint32 _max_wave = 10;</code>
        * @return The maxWave.
        */
       @java.lang.Override
@@ -921,7 +921,7 @@ public final class _TowerDefenseSettleInfoOuterClass {
         return MaxWave_;
       }
       /**
-       * <code>uint32 _max_wave = 15;</code>
+       * <code>uint32 _max_wave = 10;</code>
        * @param value The maxWave to set.
        * @return This builder for chaining.
        */
@@ -932,7 +932,7 @@ public final class _TowerDefenseSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 _max_wave = 15;</code>
+       * <code>uint32 _max_wave = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearMaxWave() {
@@ -1009,11 +1009,11 @@ public final class _TowerDefenseSettleInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\035_TowerDefenseSettleInfo.proto\"\256\001\n\027_Tow" +
-      "erDefenseSettleInfo\022\020\n\010_left_hp\030\002 \001(\r\022\025\n" +
-      "\ris_new_record\030\005 \001(\010\022\020\n\010kill_num\030\006 \001(\r\022\022" +
-      "\n\n_succ_wave\030\007 \001(\r\022\020\n\010level_id\030\010 \001(\r\022\017\n\007" +
-      "is_succ\030\013 \001(\010\022\016\n\006max_hp\030\016 \001(\r\022\021\n\t_max_wa" +
-      "ve\030\017 \001(\rB>\n\031emu.grasscutter.net.protoB!_" +
+      "erDefenseSettleInfo\022\020\n\010_left_hp\030\t \001(\r\022\025\n" +
+      "\ris_new_record\030\r \001(\010\022\020\n\010kill_num\030\017 \001(\r\022\022" +
+      "\n\n_succ_wave\030\005 \001(\r\022\020\n\010level_id\030\004 \001(\r\022\017\n\007" +
+      "is_succ\030\002 \001(\010\022\016\n\006max_hp\030\003 \001(\r\022\021\n\t_max_wa" +
+      "ve\030\n \001(\rB>\n\031emu.grasscutter.net.protoB!_" +
       "TowerDefenseSettleInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

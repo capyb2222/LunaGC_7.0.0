@@ -19,23 +19,23 @@ public final class _RoleCombatSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool FBHFAMPKPPK = 1;</code>
+     * <code>bool FBHFAMPKPPK = 9;</code>
      * @return The fBHFAMPKPPK.
      */
     boolean getFBHFAMPKPPK();
 
     /**
-     * <code>.DIGMMKNOMJH NAMEIDCGGIF = 3;</code>
+     * <code>.DIGMMKNOMJH NAMEIDCGGIF = 13;</code>
      * @return Whether the nAMEIDCGGIF field is set.
      */
     boolean hasNAMEIDCGGIF();
     /**
-     * <code>.DIGMMKNOMJH NAMEIDCGGIF = 3;</code>
+     * <code>.DIGMMKNOMJH NAMEIDCGGIF = 13;</code>
      * @return The nAMEIDCGGIF.
      */
     emu.grasscutter.net.proto.DIGMMKNOMJHOuterClass.DIGMMKNOMJH getNAMEIDCGGIF();
     /**
-     * <code>.DIGMMKNOMJH NAMEIDCGGIF = 3;</code>
+     * <code>.DIGMMKNOMJH NAMEIDCGGIF = 13;</code>
      */
     emu.grasscutter.net.proto.DIGMMKNOMJHOuterClass.DIGMMKNOMJHOrBuilder getNAMEIDCGGIFOrBuilder();
 
@@ -46,110 +46,110 @@ public final class _RoleCombatSettleInfoOuterClass {
     int getCoinNum();
 
     /**
-     * <code>bool INIDHGHIOOO = 5;</code>
+     * <code>bool INIDHGHIOOO = 1;</code>
      * @return The iNIDHGHIOOO.
      */
     boolean getINIDHGHIOOO();
 
     /**
-     * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 6;</code>
+     * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 3;</code>
      */
     java.util.List<emu.grasscutter.net.proto.IGNEGGFGNHBOuterClass.IGNEGGFGNHB> 
         getHMINJJJIEBBList();
     /**
-     * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 6;</code>
+     * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 3;</code>
      */
     emu.grasscutter.net.proto.IGNEGGFGNHBOuterClass.IGNEGGFGNHB getHMINJJJIEBB(int index);
     /**
-     * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 6;</code>
+     * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 3;</code>
      */
     int getHMINJJJIEBBCount();
     /**
-     * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 6;</code>
+     * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 3;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.IGNEGGFGNHBOuterClass.IGNEGGFGNHBOrBuilder> 
         getHMINJJJIEBBOrBuilderList();
     /**
-     * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 6;</code>
+     * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 3;</code>
      */
     emu.grasscutter.net.proto.IGNEGGFGNHBOuterClass.IGNEGGFGNHBOrBuilder getHMINJJJIEBBOrBuilder(
         int index);
 
     /**
-     * <code>uint32 difficulty_id = 7;</code>
+     * <code>uint32 difficulty_id = 11;</code>
      * @return The difficultyId.
      */
     int getDifficultyId();
 
     /**
-     * <code>repeated uint32 KNCAOGIMIJJ = 8;</code>
+     * <code>repeated uint32 KNCAOGIMIJJ = 14;</code>
      * @return A list containing the kNCAOGIMIJJ.
      */
     java.util.List<java.lang.Integer> getKNCAOGIMIJJList();
     /**
-     * <code>repeated uint32 KNCAOGIMIJJ = 8;</code>
+     * <code>repeated uint32 KNCAOGIMIJJ = 14;</code>
      * @return The count of kNCAOGIMIJJ.
      */
     int getKNCAOGIMIJJCount();
     /**
-     * <code>repeated uint32 KNCAOGIMIJJ = 8;</code>
+     * <code>repeated uint32 KNCAOGIMIJJ = 14;</code>
      * @param index The index of the element to return.
      * @return The kNCAOGIMIJJ at the given index.
      */
     int getKNCAOGIMIJJ(int index);
 
     /**
-     * <code>uint32 GBNCKPFLFIM = 10;</code>
+     * <code>uint32 GBNCKPFLFIM = 15;</code>
      * @return The gBNCKPFLFIM.
      */
     int getGBNCKPFLFIM();
 
     /**
-     * <code>uint32 use_time = 11;</code>
+     * <code>uint32 use_time = 7;</code>
      * @return The useTime.
      */
     int getUseTime();
 
     /**
-     * <code>.NBMAFDLIACA PEENJAIFAEN = 13;</code>
+     * <code>.NBMAFDLIACA PEENJAIFAEN = 5;</code>
      * @return The enum numeric value on the wire for pEENJAIFAEN.
      */
     int getPEENJAIFAENValue();
     /**
-     * <code>.NBMAFDLIACA PEENJAIFAEN = 13;</code>
+     * <code>.NBMAFDLIACA PEENJAIFAEN = 5;</code>
      * @return The pEENJAIFAEN.
      */
     emu.grasscutter.net.proto.NBMAFDLIACAOuterClass.NBMAFDLIACA getPEENJAIFAEN();
 
     /**
-     * <code>repeated uint64 HFDHOLOKLJK = 14;</code>
+     * <code>repeated uint64 HFDHOLOKLJK = 12;</code>
      * @return A list containing the hFDHOLOKLJK.
      */
     java.util.List<java.lang.Long> getHFDHOLOKLJKList();
     /**
-     * <code>repeated uint64 HFDHOLOKLJK = 14;</code>
+     * <code>repeated uint64 HFDHOLOKLJK = 12;</code>
      * @return The count of hFDHOLOKLJK.
      */
     int getHFDHOLOKLJKCount();
     /**
-     * <code>repeated uint64 HFDHOLOKLJK = 14;</code>
+     * <code>repeated uint64 HFDHOLOKLJK = 12;</code>
      * @param index The index of the element to return.
      * @return The hFDHOLOKLJK at the given index.
      */
     long getHFDHOLOKLJK(int index);
 
     /**
-     * <code>repeated uint64 avatar_guid_list = 15;</code>
+     * <code>repeated uint64 avatar_guid_list = 8;</code>
      * @return A list containing the avatarGuidList.
      */
     java.util.List<java.lang.Long> getAvatarGuidListList();
     /**
-     * <code>repeated uint64 avatar_guid_list = 15;</code>
+     * <code>repeated uint64 avatar_guid_list = 8;</code>
      * @return The count of avatarGuidList.
      */
     int getAvatarGuidListCount();
     /**
-     * <code>repeated uint64 avatar_guid_list = 15;</code>
+     * <code>repeated uint64 avatar_guid_list = 8;</code>
      * @param index The index of the element to return.
      * @return The avatarGuidList at the given index.
      */
@@ -208,33 +208,10 @@ public final class _RoleCombatSettleInfoOuterClass {
               break;
             case 8: {
 
-              fBHFAMPKPPK_ = input.readBool();
-              break;
-            }
-            case 26: {
-              emu.grasscutter.net.proto.DIGMMKNOMJHOuterClass.DIGMMKNOMJH.Builder subBuilder = null;
-              if (nAMEIDCGGIF_ != null) {
-                subBuilder = nAMEIDCGGIF_.toBuilder();
-              }
-              nAMEIDCGGIF_ = input.readMessage(emu.grasscutter.net.proto.DIGMMKNOMJHOuterClass.DIGMMKNOMJH.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(nAMEIDCGGIF_);
-                nAMEIDCGGIF_ = subBuilder.buildPartial();
-              }
-
-              break;
-            }
-            case 32: {
-
-              coinNum_ = input.readUInt32();
-              break;
-            }
-            case 40: {
-
               iNIDHGHIOOO_ = input.readBool();
               break;
             }
-            case 50: {
+            case 26: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 hMINJJJIEBB_ = new java.util.ArrayList<emu.grasscutter.net.proto.IGNEGGFGNHBOuterClass.IGNEGGFGNHB>();
                 mutable_bitField0_ |= 0x00000001;
@@ -243,49 +220,54 @@ public final class _RoleCombatSettleInfoOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.IGNEGGFGNHBOuterClass.IGNEGGFGNHB.parser(), extensionRegistry));
               break;
             }
-            case 56: {
+            case 32: {
 
-              difficultyId_ = input.readUInt32();
+              coinNum_ = input.readUInt32();
               break;
             }
-            case 64: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                kNCAOGIMIJJ_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
-              }
-              kNCAOGIMIJJ_.addInt(input.readUInt32());
-              break;
-            }
-            case 66: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
-                kNCAOGIMIJJ_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                kNCAOGIMIJJ_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
-              break;
-            }
-            case 80: {
-
-              gBNCKPFLFIM_ = input.readUInt32();
-              break;
-            }
-            case 88: {
-
-              useTime_ = input.readUInt32();
-              break;
-            }
-            case 104: {
+            case 40: {
               int rawValue = input.readEnum();
 
               pEENJAIFAEN_ = rawValue;
               break;
             }
-            case 112: {
+            case 56: {
+
+              useTime_ = input.readUInt32();
+              break;
+            }
+            case 64: {
+              if (!((mutable_bitField0_ & 0x00000008) != 0)) {
+                avatarGuidList_ = newLongList();
+                mutable_bitField0_ |= 0x00000008;
+              }
+              avatarGuidList_.addLong(input.readUInt64());
+              break;
+            }
+            case 66: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000008) != 0) && input.getBytesUntilLimit() > 0) {
+                avatarGuidList_ = newLongList();
+                mutable_bitField0_ |= 0x00000008;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                avatarGuidList_.addLong(input.readUInt64());
+              }
+              input.popLimit(limit);
+              break;
+            }
+            case 72: {
+
+              fBHFAMPKPPK_ = input.readBool();
+              break;
+            }
+            case 88: {
+
+              difficultyId_ = input.readUInt32();
+              break;
+            }
+            case 96: {
               if (!((mutable_bitField0_ & 0x00000004) != 0)) {
                 hFDHOLOKLJK_ = newLongList();
                 mutable_bitField0_ |= 0x00000004;
@@ -293,7 +275,7 @@ public final class _RoleCombatSettleInfoOuterClass {
               hFDHOLOKLJK_.addLong(input.readUInt64());
               break;
             }
-            case 114: {
+            case 98: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000004) != 0) && input.getBytesUntilLimit() > 0) {
@@ -306,25 +288,43 @@ public final class _RoleCombatSettleInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 120: {
-              if (!((mutable_bitField0_ & 0x00000008) != 0)) {
-                avatarGuidList_ = newLongList();
-                mutable_bitField0_ |= 0x00000008;
+            case 106: {
+              emu.grasscutter.net.proto.DIGMMKNOMJHOuterClass.DIGMMKNOMJH.Builder subBuilder = null;
+              if (nAMEIDCGGIF_ != null) {
+                subBuilder = nAMEIDCGGIF_.toBuilder();
               }
-              avatarGuidList_.addLong(input.readUInt64());
+              nAMEIDCGGIF_ = input.readMessage(emu.grasscutter.net.proto.DIGMMKNOMJHOuterClass.DIGMMKNOMJH.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(nAMEIDCGGIF_);
+                nAMEIDCGGIF_ = subBuilder.buildPartial();
+              }
+
               break;
             }
-            case 122: {
+            case 112: {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                kNCAOGIMIJJ_ = newIntList();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              kNCAOGIMIJJ_.addInt(input.readUInt32());
+              break;
+            }
+            case 114: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000008) != 0) && input.getBytesUntilLimit() > 0) {
-                avatarGuidList_ = newLongList();
-                mutable_bitField0_ |= 0x00000008;
+              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
+                kNCAOGIMIJJ_ = newIntList();
+                mutable_bitField0_ |= 0x00000002;
               }
               while (input.getBytesUntilLimit() > 0) {
-                avatarGuidList_.addLong(input.readUInt64());
+                kNCAOGIMIJJ_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
+              break;
+            }
+            case 120: {
+
+              gBNCKPFLFIM_ = input.readUInt32();
               break;
             }
             default: {
@@ -345,14 +345,14 @@ public final class _RoleCombatSettleInfoOuterClass {
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
           hMINJJJIEBB_ = java.util.Collections.unmodifiableList(hMINJJJIEBB_);
         }
-        if (((mutable_bitField0_ & 0x00000002) != 0)) {
-          kNCAOGIMIJJ_.makeImmutable(); // C
+        if (((mutable_bitField0_ & 0x00000008) != 0)) {
+          avatarGuidList_.makeImmutable(); // C
         }
         if (((mutable_bitField0_ & 0x00000004) != 0)) {
           hFDHOLOKLJK_.makeImmutable(); // C
         }
-        if (((mutable_bitField0_ & 0x00000008) != 0)) {
-          avatarGuidList_.makeImmutable(); // C
+        if (((mutable_bitField0_ & 0x00000002) != 0)) {
+          kNCAOGIMIJJ_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -371,10 +371,10 @@ public final class _RoleCombatSettleInfoOuterClass {
               emu.grasscutter.net.proto._RoleCombatSettleInfoOuterClass._RoleCombatSettleInfo.class, emu.grasscutter.net.proto._RoleCombatSettleInfoOuterClass._RoleCombatSettleInfo.Builder.class);
     }
 
-    public static final int FBHFAMPKPPK_FIELD_NUMBER = 1;
+    public static final int FBHFAMPKPPK_FIELD_NUMBER = 9;
     private boolean fBHFAMPKPPK_;
     /**
-     * <code>bool FBHFAMPKPPK = 1;</code>
+     * <code>bool FBHFAMPKPPK = 9;</code>
      * @return The fBHFAMPKPPK.
      */
     @java.lang.Override
@@ -382,10 +382,10 @@ public final class _RoleCombatSettleInfoOuterClass {
       return fBHFAMPKPPK_;
     }
 
-    public static final int NAMEIDCGGIF_FIELD_NUMBER = 3;
+    public static final int NAMEIDCGGIF_FIELD_NUMBER = 13;
     private emu.grasscutter.net.proto.DIGMMKNOMJHOuterClass.DIGMMKNOMJH nAMEIDCGGIF_;
     /**
-     * <code>.DIGMMKNOMJH NAMEIDCGGIF = 3;</code>
+     * <code>.DIGMMKNOMJH NAMEIDCGGIF = 13;</code>
      * @return Whether the nAMEIDCGGIF field is set.
      */
     @java.lang.Override
@@ -393,7 +393,7 @@ public final class _RoleCombatSettleInfoOuterClass {
       return nAMEIDCGGIF_ != null;
     }
     /**
-     * <code>.DIGMMKNOMJH NAMEIDCGGIF = 3;</code>
+     * <code>.DIGMMKNOMJH NAMEIDCGGIF = 13;</code>
      * @return The nAMEIDCGGIF.
      */
     @java.lang.Override
@@ -401,7 +401,7 @@ public final class _RoleCombatSettleInfoOuterClass {
       return nAMEIDCGGIF_ == null ? emu.grasscutter.net.proto.DIGMMKNOMJHOuterClass.DIGMMKNOMJH.getDefaultInstance() : nAMEIDCGGIF_;
     }
     /**
-     * <code>.DIGMMKNOMJH NAMEIDCGGIF = 3;</code>
+     * <code>.DIGMMKNOMJH NAMEIDCGGIF = 13;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.DIGMMKNOMJHOuterClass.DIGMMKNOMJHOrBuilder getNAMEIDCGGIFOrBuilder() {
@@ -419,10 +419,10 @@ public final class _RoleCombatSettleInfoOuterClass {
       return coinNum_;
     }
 
-    public static final int INIDHGHIOOO_FIELD_NUMBER = 5;
+    public static final int INIDHGHIOOO_FIELD_NUMBER = 1;
     private boolean iNIDHGHIOOO_;
     /**
-     * <code>bool INIDHGHIOOO = 5;</code>
+     * <code>bool INIDHGHIOOO = 1;</code>
      * @return The iNIDHGHIOOO.
      */
     @java.lang.Override
@@ -430,17 +430,17 @@ public final class _RoleCombatSettleInfoOuterClass {
       return iNIDHGHIOOO_;
     }
 
-    public static final int HMINJJJIEBB_FIELD_NUMBER = 6;
+    public static final int HMINJJJIEBB_FIELD_NUMBER = 3;
     private java.util.List<emu.grasscutter.net.proto.IGNEGGFGNHBOuterClass.IGNEGGFGNHB> hMINJJJIEBB_;
     /**
-     * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 6;</code>
+     * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 3;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.IGNEGGFGNHBOuterClass.IGNEGGFGNHB> getHMINJJJIEBBList() {
       return hMINJJJIEBB_;
     }
     /**
-     * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 6;</code>
+     * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 3;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.IGNEGGFGNHBOuterClass.IGNEGGFGNHBOrBuilder> 
@@ -448,21 +448,21 @@ public final class _RoleCombatSettleInfoOuterClass {
       return hMINJJJIEBB_;
     }
     /**
-     * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 6;</code>
+     * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 3;</code>
      */
     @java.lang.Override
     public int getHMINJJJIEBBCount() {
       return hMINJJJIEBB_.size();
     }
     /**
-     * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 6;</code>
+     * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 3;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.IGNEGGFGNHBOuterClass.IGNEGGFGNHB getHMINJJJIEBB(int index) {
       return hMINJJJIEBB_.get(index);
     }
     /**
-     * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 6;</code>
+     * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 3;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.IGNEGGFGNHBOuterClass.IGNEGGFGNHBOrBuilder getHMINJJJIEBBOrBuilder(
@@ -470,10 +470,10 @@ public final class _RoleCombatSettleInfoOuterClass {
       return hMINJJJIEBB_.get(index);
     }
 
-    public static final int DIFFICULTY_ID_FIELD_NUMBER = 7;
+    public static final int DIFFICULTY_ID_FIELD_NUMBER = 11;
     private int difficultyId_;
     /**
-     * <code>uint32 difficulty_id = 7;</code>
+     * <code>uint32 difficulty_id = 11;</code>
      * @return The difficultyId.
      */
     @java.lang.Override
@@ -481,10 +481,10 @@ public final class _RoleCombatSettleInfoOuterClass {
       return difficultyId_;
     }
 
-    public static final int KNCAOGIMIJJ_FIELD_NUMBER = 8;
+    public static final int KNCAOGIMIJJ_FIELD_NUMBER = 14;
     private com.google.protobuf.Internal.IntList kNCAOGIMIJJ_;
     /**
-     * <code>repeated uint32 KNCAOGIMIJJ = 8;</code>
+     * <code>repeated uint32 KNCAOGIMIJJ = 14;</code>
      * @return A list containing the kNCAOGIMIJJ.
      */
     @java.lang.Override
@@ -493,14 +493,14 @@ public final class _RoleCombatSettleInfoOuterClass {
       return kNCAOGIMIJJ_;
     }
     /**
-     * <code>repeated uint32 KNCAOGIMIJJ = 8;</code>
+     * <code>repeated uint32 KNCAOGIMIJJ = 14;</code>
      * @return The count of kNCAOGIMIJJ.
      */
     public int getKNCAOGIMIJJCount() {
       return kNCAOGIMIJJ_.size();
     }
     /**
-     * <code>repeated uint32 KNCAOGIMIJJ = 8;</code>
+     * <code>repeated uint32 KNCAOGIMIJJ = 14;</code>
      * @param index The index of the element to return.
      * @return The kNCAOGIMIJJ at the given index.
      */
@@ -509,10 +509,10 @@ public final class _RoleCombatSettleInfoOuterClass {
     }
     private int kNCAOGIMIJJMemoizedSerializedSize = -1;
 
-    public static final int GBNCKPFLFIM_FIELD_NUMBER = 10;
+    public static final int GBNCKPFLFIM_FIELD_NUMBER = 15;
     private int gBNCKPFLFIM_;
     /**
-     * <code>uint32 GBNCKPFLFIM = 10;</code>
+     * <code>uint32 GBNCKPFLFIM = 15;</code>
      * @return The gBNCKPFLFIM.
      */
     @java.lang.Override
@@ -520,10 +520,10 @@ public final class _RoleCombatSettleInfoOuterClass {
       return gBNCKPFLFIM_;
     }
 
-    public static final int USE_TIME_FIELD_NUMBER = 11;
+    public static final int USE_TIME_FIELD_NUMBER = 7;
     private int useTime_;
     /**
-     * <code>uint32 use_time = 11;</code>
+     * <code>uint32 use_time = 7;</code>
      * @return The useTime.
      */
     @java.lang.Override
@@ -531,17 +531,17 @@ public final class _RoleCombatSettleInfoOuterClass {
       return useTime_;
     }
 
-    public static final int PEENJAIFAEN_FIELD_NUMBER = 13;
+    public static final int PEENJAIFAEN_FIELD_NUMBER = 5;
     private int pEENJAIFAEN_;
     /**
-     * <code>.NBMAFDLIACA PEENJAIFAEN = 13;</code>
+     * <code>.NBMAFDLIACA PEENJAIFAEN = 5;</code>
      * @return The enum numeric value on the wire for pEENJAIFAEN.
      */
     @java.lang.Override public int getPEENJAIFAENValue() {
       return pEENJAIFAEN_;
     }
     /**
-     * <code>.NBMAFDLIACA PEENJAIFAEN = 13;</code>
+     * <code>.NBMAFDLIACA PEENJAIFAEN = 5;</code>
      * @return The pEENJAIFAEN.
      */
     @java.lang.Override public emu.grasscutter.net.proto.NBMAFDLIACAOuterClass.NBMAFDLIACA getPEENJAIFAEN() {
@@ -550,10 +550,10 @@ public final class _RoleCombatSettleInfoOuterClass {
       return result == null ? emu.grasscutter.net.proto.NBMAFDLIACAOuterClass.NBMAFDLIACA.UNRECOGNIZED : result;
     }
 
-    public static final int HFDHOLOKLJK_FIELD_NUMBER = 14;
+    public static final int HFDHOLOKLJK_FIELD_NUMBER = 12;
     private com.google.protobuf.Internal.LongList hFDHOLOKLJK_;
     /**
-     * <code>repeated uint64 HFDHOLOKLJK = 14;</code>
+     * <code>repeated uint64 HFDHOLOKLJK = 12;</code>
      * @return A list containing the hFDHOLOKLJK.
      */
     @java.lang.Override
@@ -562,14 +562,14 @@ public final class _RoleCombatSettleInfoOuterClass {
       return hFDHOLOKLJK_;
     }
     /**
-     * <code>repeated uint64 HFDHOLOKLJK = 14;</code>
+     * <code>repeated uint64 HFDHOLOKLJK = 12;</code>
      * @return The count of hFDHOLOKLJK.
      */
     public int getHFDHOLOKLJKCount() {
       return hFDHOLOKLJK_.size();
     }
     /**
-     * <code>repeated uint64 HFDHOLOKLJK = 14;</code>
+     * <code>repeated uint64 HFDHOLOKLJK = 12;</code>
      * @param index The index of the element to return.
      * @return The hFDHOLOKLJK at the given index.
      */
@@ -578,10 +578,10 @@ public final class _RoleCombatSettleInfoOuterClass {
     }
     private int hFDHOLOKLJKMemoizedSerializedSize = -1;
 
-    public static final int AVATAR_GUID_LIST_FIELD_NUMBER = 15;
+    public static final int AVATAR_GUID_LIST_FIELD_NUMBER = 8;
     private com.google.protobuf.Internal.LongList avatarGuidList_;
     /**
-     * <code>repeated uint64 avatar_guid_list = 15;</code>
+     * <code>repeated uint64 avatar_guid_list = 8;</code>
      * @return A list containing the avatarGuidList.
      */
     @java.lang.Override
@@ -590,14 +590,14 @@ public final class _RoleCombatSettleInfoOuterClass {
       return avatarGuidList_;
     }
     /**
-     * <code>repeated uint64 avatar_guid_list = 15;</code>
+     * <code>repeated uint64 avatar_guid_list = 8;</code>
      * @return The count of avatarGuidList.
      */
     public int getAvatarGuidListCount() {
       return avatarGuidList_.size();
     }
     /**
-     * <code>repeated uint64 avatar_guid_list = 15;</code>
+     * <code>repeated uint64 avatar_guid_list = 8;</code>
      * @param index The index of the element to return.
      * @return The avatarGuidList at the given index.
      */
@@ -621,53 +621,53 @@ public final class _RoleCombatSettleInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (fBHFAMPKPPK_ != false) {
-        output.writeBool(1, fBHFAMPKPPK_);
+      if (iNIDHGHIOOO_ != false) {
+        output.writeBool(1, iNIDHGHIOOO_);
       }
-      if (nAMEIDCGGIF_ != null) {
-        output.writeMessage(3, getNAMEIDCGGIF());
+      for (int i = 0; i < hMINJJJIEBB_.size(); i++) {
+        output.writeMessage(3, hMINJJJIEBB_.get(i));
       }
       if (coinNum_ != 0) {
         output.writeUInt32(4, coinNum_);
       }
-      if (iNIDHGHIOOO_ != false) {
-        output.writeBool(5, iNIDHGHIOOO_);
+      if (pEENJAIFAEN_ != emu.grasscutter.net.proto.NBMAFDLIACAOuterClass.NBMAFDLIACA.NBMAFDLIACA_NONE.getNumber()) {
+        output.writeEnum(5, pEENJAIFAEN_);
       }
-      for (int i = 0; i < hMINJJJIEBB_.size(); i++) {
-        output.writeMessage(6, hMINJJJIEBB_.get(i));
+      if (useTime_ != 0) {
+        output.writeUInt32(7, useTime_);
+      }
+      if (getAvatarGuidListList().size() > 0) {
+        output.writeUInt32NoTag(66);
+        output.writeUInt32NoTag(avatarGuidListMemoizedSerializedSize);
+      }
+      for (int i = 0; i < avatarGuidList_.size(); i++) {
+        output.writeUInt64NoTag(avatarGuidList_.getLong(i));
+      }
+      if (fBHFAMPKPPK_ != false) {
+        output.writeBool(9, fBHFAMPKPPK_);
       }
       if (difficultyId_ != 0) {
-        output.writeUInt32(7, difficultyId_);
+        output.writeUInt32(11, difficultyId_);
+      }
+      if (getHFDHOLOKLJKList().size() > 0) {
+        output.writeUInt32NoTag(98);
+        output.writeUInt32NoTag(hFDHOLOKLJKMemoizedSerializedSize);
+      }
+      for (int i = 0; i < hFDHOLOKLJK_.size(); i++) {
+        output.writeUInt64NoTag(hFDHOLOKLJK_.getLong(i));
+      }
+      if (nAMEIDCGGIF_ != null) {
+        output.writeMessage(13, getNAMEIDCGGIF());
       }
       if (getKNCAOGIMIJJList().size() > 0) {
-        output.writeUInt32NoTag(66);
+        output.writeUInt32NoTag(114);
         output.writeUInt32NoTag(kNCAOGIMIJJMemoizedSerializedSize);
       }
       for (int i = 0; i < kNCAOGIMIJJ_.size(); i++) {
         output.writeUInt32NoTag(kNCAOGIMIJJ_.getInt(i));
       }
       if (gBNCKPFLFIM_ != 0) {
-        output.writeUInt32(10, gBNCKPFLFIM_);
-      }
-      if (useTime_ != 0) {
-        output.writeUInt32(11, useTime_);
-      }
-      if (pEENJAIFAEN_ != emu.grasscutter.net.proto.NBMAFDLIACAOuterClass.NBMAFDLIACA.NBMAFDLIACA_NONE.getNumber()) {
-        output.writeEnum(13, pEENJAIFAEN_);
-      }
-      if (getHFDHOLOKLJKList().size() > 0) {
-        output.writeUInt32NoTag(114);
-        output.writeUInt32NoTag(hFDHOLOKLJKMemoizedSerializedSize);
-      }
-      for (int i = 0; i < hFDHOLOKLJK_.size(); i++) {
-        output.writeUInt64NoTag(hFDHOLOKLJK_.getLong(i));
-      }
-      if (getAvatarGuidListList().size() > 0) {
-        output.writeUInt32NoTag(122);
-        output.writeUInt32NoTag(avatarGuidListMemoizedSerializedSize);
-      }
-      for (int i = 0; i < avatarGuidList_.size(); i++) {
-        output.writeUInt64NoTag(avatarGuidList_.getLong(i));
+        output.writeUInt32(15, gBNCKPFLFIM_);
       }
       unknownFields.writeTo(output);
     }
@@ -678,29 +678,65 @@ public final class _RoleCombatSettleInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (fBHFAMPKPPK_ != false) {
+      if (iNIDHGHIOOO_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1, fBHFAMPKPPK_);
+          .computeBoolSize(1, iNIDHGHIOOO_);
       }
-      if (nAMEIDCGGIF_ != null) {
+      for (int i = 0; i < hMINJJJIEBB_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, getNAMEIDCGGIF());
+          .computeMessageSize(3, hMINJJJIEBB_.get(i));
       }
       if (coinNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(4, coinNum_);
       }
-      if (iNIDHGHIOOO_ != false) {
+      if (pEENJAIFAEN_ != emu.grasscutter.net.proto.NBMAFDLIACAOuterClass.NBMAFDLIACA.NBMAFDLIACA_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(5, iNIDHGHIOOO_);
+          .computeEnumSize(5, pEENJAIFAEN_);
       }
-      for (int i = 0; i < hMINJJJIEBB_.size(); i++) {
+      if (useTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, hMINJJJIEBB_.get(i));
+          .computeUInt32Size(7, useTime_);
+      }
+      {
+        int dataSize = 0;
+        for (int i = 0; i < avatarGuidList_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeUInt64SizeNoTag(avatarGuidList_.getLong(i));
+        }
+        size += dataSize;
+        if (!getAvatarGuidListList().isEmpty()) {
+          size += 1;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        avatarGuidListMemoizedSerializedSize = dataSize;
+      }
+      if (fBHFAMPKPPK_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(9, fBHFAMPKPPK_);
       }
       if (difficultyId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, difficultyId_);
+          .computeUInt32Size(11, difficultyId_);
+      }
+      {
+        int dataSize = 0;
+        for (int i = 0; i < hFDHOLOKLJK_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeUInt64SizeNoTag(hFDHOLOKLJK_.getLong(i));
+        }
+        size += dataSize;
+        if (!getHFDHOLOKLJKList().isEmpty()) {
+          size += 1;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        hFDHOLOKLJKMemoizedSerializedSize = dataSize;
+      }
+      if (nAMEIDCGGIF_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(13, getNAMEIDCGGIF());
       }
       {
         int dataSize = 0;
@@ -718,43 +754,7 @@ public final class _RoleCombatSettleInfoOuterClass {
       }
       if (gBNCKPFLFIM_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, gBNCKPFLFIM_);
-      }
-      if (useTime_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, useTime_);
-      }
-      if (pEENJAIFAEN_ != emu.grasscutter.net.proto.NBMAFDLIACAOuterClass.NBMAFDLIACA.NBMAFDLIACA_NONE.getNumber()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(13, pEENJAIFAEN_);
-      }
-      {
-        int dataSize = 0;
-        for (int i = 0; i < hFDHOLOKLJK_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt64SizeNoTag(hFDHOLOKLJK_.getLong(i));
-        }
-        size += dataSize;
-        if (!getHFDHOLOKLJKList().isEmpty()) {
-          size += 1;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        hFDHOLOKLJKMemoizedSerializedSize = dataSize;
-      }
-      {
-        int dataSize = 0;
-        for (int i = 0; i < avatarGuidList_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt64SizeNoTag(avatarGuidList_.getLong(i));
-        }
-        size += dataSize;
-        if (!getAvatarGuidListList().isEmpty()) {
-          size += 1;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        avatarGuidListMemoizedSerializedSize = dataSize;
+          .computeUInt32Size(15, gBNCKPFLFIM_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1233,7 +1233,7 @@ public final class _RoleCombatSettleInfoOuterClass {
 
       private boolean fBHFAMPKPPK_ ;
       /**
-       * <code>bool FBHFAMPKPPK = 1;</code>
+       * <code>bool FBHFAMPKPPK = 9;</code>
        * @return The fBHFAMPKPPK.
        */
       @java.lang.Override
@@ -1241,7 +1241,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         return fBHFAMPKPPK_;
       }
       /**
-       * <code>bool FBHFAMPKPPK = 1;</code>
+       * <code>bool FBHFAMPKPPK = 9;</code>
        * @param value The fBHFAMPKPPK to set.
        * @return This builder for chaining.
        */
@@ -1252,7 +1252,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool FBHFAMPKPPK = 1;</code>
+       * <code>bool FBHFAMPKPPK = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearFBHFAMPKPPK() {
@@ -1266,14 +1266,14 @@ public final class _RoleCombatSettleInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.DIGMMKNOMJHOuterClass.DIGMMKNOMJH, emu.grasscutter.net.proto.DIGMMKNOMJHOuterClass.DIGMMKNOMJH.Builder, emu.grasscutter.net.proto.DIGMMKNOMJHOuterClass.DIGMMKNOMJHOrBuilder> nAMEIDCGGIFBuilder_;
       /**
-       * <code>.DIGMMKNOMJH NAMEIDCGGIF = 3;</code>
+       * <code>.DIGMMKNOMJH NAMEIDCGGIF = 13;</code>
        * @return Whether the nAMEIDCGGIF field is set.
        */
       public boolean hasNAMEIDCGGIF() {
         return nAMEIDCGGIFBuilder_ != null || nAMEIDCGGIF_ != null;
       }
       /**
-       * <code>.DIGMMKNOMJH NAMEIDCGGIF = 3;</code>
+       * <code>.DIGMMKNOMJH NAMEIDCGGIF = 13;</code>
        * @return The nAMEIDCGGIF.
        */
       public emu.grasscutter.net.proto.DIGMMKNOMJHOuterClass.DIGMMKNOMJH getNAMEIDCGGIF() {
@@ -1284,7 +1284,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         }
       }
       /**
-       * <code>.DIGMMKNOMJH NAMEIDCGGIF = 3;</code>
+       * <code>.DIGMMKNOMJH NAMEIDCGGIF = 13;</code>
        */
       public Builder setNAMEIDCGGIF(emu.grasscutter.net.proto.DIGMMKNOMJHOuterClass.DIGMMKNOMJH value) {
         if (nAMEIDCGGIFBuilder_ == null) {
@@ -1300,7 +1300,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>.DIGMMKNOMJH NAMEIDCGGIF = 3;</code>
+       * <code>.DIGMMKNOMJH NAMEIDCGGIF = 13;</code>
        */
       public Builder setNAMEIDCGGIF(
           emu.grasscutter.net.proto.DIGMMKNOMJHOuterClass.DIGMMKNOMJH.Builder builderForValue) {
@@ -1314,7 +1314,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>.DIGMMKNOMJH NAMEIDCGGIF = 3;</code>
+       * <code>.DIGMMKNOMJH NAMEIDCGGIF = 13;</code>
        */
       public Builder mergeNAMEIDCGGIF(emu.grasscutter.net.proto.DIGMMKNOMJHOuterClass.DIGMMKNOMJH value) {
         if (nAMEIDCGGIFBuilder_ == null) {
@@ -1332,7 +1332,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>.DIGMMKNOMJH NAMEIDCGGIF = 3;</code>
+       * <code>.DIGMMKNOMJH NAMEIDCGGIF = 13;</code>
        */
       public Builder clearNAMEIDCGGIF() {
         if (nAMEIDCGGIFBuilder_ == null) {
@@ -1346,7 +1346,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>.DIGMMKNOMJH NAMEIDCGGIF = 3;</code>
+       * <code>.DIGMMKNOMJH NAMEIDCGGIF = 13;</code>
        */
       public emu.grasscutter.net.proto.DIGMMKNOMJHOuterClass.DIGMMKNOMJH.Builder getNAMEIDCGGIFBuilder() {
         
@@ -1354,7 +1354,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         return getNAMEIDCGGIFFieldBuilder().getBuilder();
       }
       /**
-       * <code>.DIGMMKNOMJH NAMEIDCGGIF = 3;</code>
+       * <code>.DIGMMKNOMJH NAMEIDCGGIF = 13;</code>
        */
       public emu.grasscutter.net.proto.DIGMMKNOMJHOuterClass.DIGMMKNOMJHOrBuilder getNAMEIDCGGIFOrBuilder() {
         if (nAMEIDCGGIFBuilder_ != null) {
@@ -1365,7 +1365,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         }
       }
       /**
-       * <code>.DIGMMKNOMJH NAMEIDCGGIF = 3;</code>
+       * <code>.DIGMMKNOMJH NAMEIDCGGIF = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.DIGMMKNOMJHOuterClass.DIGMMKNOMJH, emu.grasscutter.net.proto.DIGMMKNOMJHOuterClass.DIGMMKNOMJH.Builder, emu.grasscutter.net.proto.DIGMMKNOMJHOuterClass.DIGMMKNOMJHOrBuilder> 
@@ -1414,7 +1414,7 @@ public final class _RoleCombatSettleInfoOuterClass {
 
       private boolean iNIDHGHIOOO_ ;
       /**
-       * <code>bool INIDHGHIOOO = 5;</code>
+       * <code>bool INIDHGHIOOO = 1;</code>
        * @return The iNIDHGHIOOO.
        */
       @java.lang.Override
@@ -1422,7 +1422,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         return iNIDHGHIOOO_;
       }
       /**
-       * <code>bool INIDHGHIOOO = 5;</code>
+       * <code>bool INIDHGHIOOO = 1;</code>
        * @param value The iNIDHGHIOOO to set.
        * @return This builder for chaining.
        */
@@ -1433,7 +1433,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool INIDHGHIOOO = 5;</code>
+       * <code>bool INIDHGHIOOO = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearINIDHGHIOOO() {
@@ -1456,7 +1456,7 @@ public final class _RoleCombatSettleInfoOuterClass {
           emu.grasscutter.net.proto.IGNEGGFGNHBOuterClass.IGNEGGFGNHB, emu.grasscutter.net.proto.IGNEGGFGNHBOuterClass.IGNEGGFGNHB.Builder, emu.grasscutter.net.proto.IGNEGGFGNHBOuterClass.IGNEGGFGNHBOrBuilder> hMINJJJIEBBBuilder_;
 
       /**
-       * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 6;</code>
+       * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 3;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.IGNEGGFGNHBOuterClass.IGNEGGFGNHB> getHMINJJJIEBBList() {
         if (hMINJJJIEBBBuilder_ == null) {
@@ -1466,7 +1466,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 6;</code>
+       * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 3;</code>
        */
       public int getHMINJJJIEBBCount() {
         if (hMINJJJIEBBBuilder_ == null) {
@@ -1476,7 +1476,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 6;</code>
+       * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 3;</code>
        */
       public emu.grasscutter.net.proto.IGNEGGFGNHBOuterClass.IGNEGGFGNHB getHMINJJJIEBB(int index) {
         if (hMINJJJIEBBBuilder_ == null) {
@@ -1486,7 +1486,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 6;</code>
+       * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 3;</code>
        */
       public Builder setHMINJJJIEBB(
           int index, emu.grasscutter.net.proto.IGNEGGFGNHBOuterClass.IGNEGGFGNHB value) {
@@ -1503,7 +1503,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 6;</code>
+       * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 3;</code>
        */
       public Builder setHMINJJJIEBB(
           int index, emu.grasscutter.net.proto.IGNEGGFGNHBOuterClass.IGNEGGFGNHB.Builder builderForValue) {
@@ -1517,7 +1517,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 6;</code>
+       * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 3;</code>
        */
       public Builder addHMINJJJIEBB(emu.grasscutter.net.proto.IGNEGGFGNHBOuterClass.IGNEGGFGNHB value) {
         if (hMINJJJIEBBBuilder_ == null) {
@@ -1533,7 +1533,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 6;</code>
+       * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 3;</code>
        */
       public Builder addHMINJJJIEBB(
           int index, emu.grasscutter.net.proto.IGNEGGFGNHBOuterClass.IGNEGGFGNHB value) {
@@ -1550,7 +1550,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 6;</code>
+       * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 3;</code>
        */
       public Builder addHMINJJJIEBB(
           emu.grasscutter.net.proto.IGNEGGFGNHBOuterClass.IGNEGGFGNHB.Builder builderForValue) {
@@ -1564,7 +1564,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 6;</code>
+       * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 3;</code>
        */
       public Builder addHMINJJJIEBB(
           int index, emu.grasscutter.net.proto.IGNEGGFGNHBOuterClass.IGNEGGFGNHB.Builder builderForValue) {
@@ -1578,7 +1578,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 6;</code>
+       * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 3;</code>
        */
       public Builder addAllHMINJJJIEBB(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.IGNEGGFGNHBOuterClass.IGNEGGFGNHB> values) {
@@ -1593,7 +1593,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 6;</code>
+       * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 3;</code>
        */
       public Builder clearHMINJJJIEBB() {
         if (hMINJJJIEBBBuilder_ == null) {
@@ -1606,7 +1606,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 6;</code>
+       * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 3;</code>
        */
       public Builder removeHMINJJJIEBB(int index) {
         if (hMINJJJIEBBBuilder_ == null) {
@@ -1619,14 +1619,14 @@ public final class _RoleCombatSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 6;</code>
+       * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 3;</code>
        */
       public emu.grasscutter.net.proto.IGNEGGFGNHBOuterClass.IGNEGGFGNHB.Builder getHMINJJJIEBBBuilder(
           int index) {
         return getHMINJJJIEBBFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 6;</code>
+       * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 3;</code>
        */
       public emu.grasscutter.net.proto.IGNEGGFGNHBOuterClass.IGNEGGFGNHBOrBuilder getHMINJJJIEBBOrBuilder(
           int index) {
@@ -1636,7 +1636,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 6;</code>
+       * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 3;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.IGNEGGFGNHBOuterClass.IGNEGGFGNHBOrBuilder> 
            getHMINJJJIEBBOrBuilderList() {
@@ -1647,14 +1647,14 @@ public final class _RoleCombatSettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 6;</code>
+       * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 3;</code>
        */
       public emu.grasscutter.net.proto.IGNEGGFGNHBOuterClass.IGNEGGFGNHB.Builder addHMINJJJIEBBBuilder() {
         return getHMINJJJIEBBFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.IGNEGGFGNHBOuterClass.IGNEGGFGNHB.getDefaultInstance());
       }
       /**
-       * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 6;</code>
+       * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 3;</code>
        */
       public emu.grasscutter.net.proto.IGNEGGFGNHBOuterClass.IGNEGGFGNHB.Builder addHMINJJJIEBBBuilder(
           int index) {
@@ -1662,7 +1662,7 @@ public final class _RoleCombatSettleInfoOuterClass {
             index, emu.grasscutter.net.proto.IGNEGGFGNHBOuterClass.IGNEGGFGNHB.getDefaultInstance());
       }
       /**
-       * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 6;</code>
+       * <code>repeated .IGNEGGFGNHB HMINJJJIEBB = 3;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.IGNEGGFGNHBOuterClass.IGNEGGFGNHB.Builder> 
            getHMINJJJIEBBBuilderList() {
@@ -1685,7 +1685,7 @@ public final class _RoleCombatSettleInfoOuterClass {
 
       private int difficultyId_ ;
       /**
-       * <code>uint32 difficulty_id = 7;</code>
+       * <code>uint32 difficulty_id = 11;</code>
        * @return The difficultyId.
        */
       @java.lang.Override
@@ -1693,7 +1693,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         return difficultyId_;
       }
       /**
-       * <code>uint32 difficulty_id = 7;</code>
+       * <code>uint32 difficulty_id = 11;</code>
        * @param value The difficultyId to set.
        * @return This builder for chaining.
        */
@@ -1704,7 +1704,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 difficulty_id = 7;</code>
+       * <code>uint32 difficulty_id = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearDifficultyId() {
@@ -1722,7 +1722,7 @@ public final class _RoleCombatSettleInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 KNCAOGIMIJJ = 8;</code>
+       * <code>repeated uint32 KNCAOGIMIJJ = 14;</code>
        * @return A list containing the kNCAOGIMIJJ.
        */
       public java.util.List<java.lang.Integer>
@@ -1731,14 +1731,14 @@ public final class _RoleCombatSettleInfoOuterClass {
                  java.util.Collections.unmodifiableList(kNCAOGIMIJJ_) : kNCAOGIMIJJ_;
       }
       /**
-       * <code>repeated uint32 KNCAOGIMIJJ = 8;</code>
+       * <code>repeated uint32 KNCAOGIMIJJ = 14;</code>
        * @return The count of kNCAOGIMIJJ.
        */
       public int getKNCAOGIMIJJCount() {
         return kNCAOGIMIJJ_.size();
       }
       /**
-       * <code>repeated uint32 KNCAOGIMIJJ = 8;</code>
+       * <code>repeated uint32 KNCAOGIMIJJ = 14;</code>
        * @param index The index of the element to return.
        * @return The kNCAOGIMIJJ at the given index.
        */
@@ -1746,7 +1746,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         return kNCAOGIMIJJ_.getInt(index);
       }
       /**
-       * <code>repeated uint32 KNCAOGIMIJJ = 8;</code>
+       * <code>repeated uint32 KNCAOGIMIJJ = 14;</code>
        * @param index The index to set the value at.
        * @param value The kNCAOGIMIJJ to set.
        * @return This builder for chaining.
@@ -1759,7 +1759,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 KNCAOGIMIJJ = 8;</code>
+       * <code>repeated uint32 KNCAOGIMIJJ = 14;</code>
        * @param value The kNCAOGIMIJJ to add.
        * @return This builder for chaining.
        */
@@ -1770,7 +1770,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 KNCAOGIMIJJ = 8;</code>
+       * <code>repeated uint32 KNCAOGIMIJJ = 14;</code>
        * @param values The kNCAOGIMIJJ to add.
        * @return This builder for chaining.
        */
@@ -1783,7 +1783,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 KNCAOGIMIJJ = 8;</code>
+       * <code>repeated uint32 KNCAOGIMIJJ = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearKNCAOGIMIJJ() {
@@ -1795,7 +1795,7 @@ public final class _RoleCombatSettleInfoOuterClass {
 
       private int gBNCKPFLFIM_ ;
       /**
-       * <code>uint32 GBNCKPFLFIM = 10;</code>
+       * <code>uint32 GBNCKPFLFIM = 15;</code>
        * @return The gBNCKPFLFIM.
        */
       @java.lang.Override
@@ -1803,7 +1803,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         return gBNCKPFLFIM_;
       }
       /**
-       * <code>uint32 GBNCKPFLFIM = 10;</code>
+       * <code>uint32 GBNCKPFLFIM = 15;</code>
        * @param value The gBNCKPFLFIM to set.
        * @return This builder for chaining.
        */
@@ -1814,7 +1814,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 GBNCKPFLFIM = 10;</code>
+       * <code>uint32 GBNCKPFLFIM = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearGBNCKPFLFIM() {
@@ -1826,7 +1826,7 @@ public final class _RoleCombatSettleInfoOuterClass {
 
       private int useTime_ ;
       /**
-       * <code>uint32 use_time = 11;</code>
+       * <code>uint32 use_time = 7;</code>
        * @return The useTime.
        */
       @java.lang.Override
@@ -1834,7 +1834,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         return useTime_;
       }
       /**
-       * <code>uint32 use_time = 11;</code>
+       * <code>uint32 use_time = 7;</code>
        * @param value The useTime to set.
        * @return This builder for chaining.
        */
@@ -1845,7 +1845,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 use_time = 11;</code>
+       * <code>uint32 use_time = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearUseTime() {
@@ -1857,14 +1857,14 @@ public final class _RoleCombatSettleInfoOuterClass {
 
       private int pEENJAIFAEN_ = 0;
       /**
-       * <code>.NBMAFDLIACA PEENJAIFAEN = 13;</code>
+       * <code>.NBMAFDLIACA PEENJAIFAEN = 5;</code>
        * @return The enum numeric value on the wire for pEENJAIFAEN.
        */
       @java.lang.Override public int getPEENJAIFAENValue() {
         return pEENJAIFAEN_;
       }
       /**
-       * <code>.NBMAFDLIACA PEENJAIFAEN = 13;</code>
+       * <code>.NBMAFDLIACA PEENJAIFAEN = 5;</code>
        * @param value The enum numeric value on the wire for pEENJAIFAEN to set.
        * @return This builder for chaining.
        */
@@ -1875,7 +1875,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>.NBMAFDLIACA PEENJAIFAEN = 13;</code>
+       * <code>.NBMAFDLIACA PEENJAIFAEN = 5;</code>
        * @return The pEENJAIFAEN.
        */
       @java.lang.Override
@@ -1885,7 +1885,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         return result == null ? emu.grasscutter.net.proto.NBMAFDLIACAOuterClass.NBMAFDLIACA.UNRECOGNIZED : result;
       }
       /**
-       * <code>.NBMAFDLIACA PEENJAIFAEN = 13;</code>
+       * <code>.NBMAFDLIACA PEENJAIFAEN = 5;</code>
        * @param value The pEENJAIFAEN to set.
        * @return This builder for chaining.
        */
@@ -1899,7 +1899,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>.NBMAFDLIACA PEENJAIFAEN = 13;</code>
+       * <code>.NBMAFDLIACA PEENJAIFAEN = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearPEENJAIFAEN() {
@@ -1917,7 +1917,7 @@ public final class _RoleCombatSettleInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint64 HFDHOLOKLJK = 14;</code>
+       * <code>repeated uint64 HFDHOLOKLJK = 12;</code>
        * @return A list containing the hFDHOLOKLJK.
        */
       public java.util.List<java.lang.Long>
@@ -1926,14 +1926,14 @@ public final class _RoleCombatSettleInfoOuterClass {
                  java.util.Collections.unmodifiableList(hFDHOLOKLJK_) : hFDHOLOKLJK_;
       }
       /**
-       * <code>repeated uint64 HFDHOLOKLJK = 14;</code>
+       * <code>repeated uint64 HFDHOLOKLJK = 12;</code>
        * @return The count of hFDHOLOKLJK.
        */
       public int getHFDHOLOKLJKCount() {
         return hFDHOLOKLJK_.size();
       }
       /**
-       * <code>repeated uint64 HFDHOLOKLJK = 14;</code>
+       * <code>repeated uint64 HFDHOLOKLJK = 12;</code>
        * @param index The index of the element to return.
        * @return The hFDHOLOKLJK at the given index.
        */
@@ -1941,7 +1941,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         return hFDHOLOKLJK_.getLong(index);
       }
       /**
-       * <code>repeated uint64 HFDHOLOKLJK = 14;</code>
+       * <code>repeated uint64 HFDHOLOKLJK = 12;</code>
        * @param index The index to set the value at.
        * @param value The hFDHOLOKLJK to set.
        * @return This builder for chaining.
@@ -1954,7 +1954,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint64 HFDHOLOKLJK = 14;</code>
+       * <code>repeated uint64 HFDHOLOKLJK = 12;</code>
        * @param value The hFDHOLOKLJK to add.
        * @return This builder for chaining.
        */
@@ -1965,7 +1965,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint64 HFDHOLOKLJK = 14;</code>
+       * <code>repeated uint64 HFDHOLOKLJK = 12;</code>
        * @param values The hFDHOLOKLJK to add.
        * @return This builder for chaining.
        */
@@ -1978,7 +1978,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint64 HFDHOLOKLJK = 14;</code>
+       * <code>repeated uint64 HFDHOLOKLJK = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearHFDHOLOKLJK() {
@@ -1996,7 +1996,7 @@ public final class _RoleCombatSettleInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint64 avatar_guid_list = 15;</code>
+       * <code>repeated uint64 avatar_guid_list = 8;</code>
        * @return A list containing the avatarGuidList.
        */
       public java.util.List<java.lang.Long>
@@ -2005,14 +2005,14 @@ public final class _RoleCombatSettleInfoOuterClass {
                  java.util.Collections.unmodifiableList(avatarGuidList_) : avatarGuidList_;
       }
       /**
-       * <code>repeated uint64 avatar_guid_list = 15;</code>
+       * <code>repeated uint64 avatar_guid_list = 8;</code>
        * @return The count of avatarGuidList.
        */
       public int getAvatarGuidListCount() {
         return avatarGuidList_.size();
       }
       /**
-       * <code>repeated uint64 avatar_guid_list = 15;</code>
+       * <code>repeated uint64 avatar_guid_list = 8;</code>
        * @param index The index of the element to return.
        * @return The avatarGuidList at the given index.
        */
@@ -2020,7 +2020,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         return avatarGuidList_.getLong(index);
       }
       /**
-       * <code>repeated uint64 avatar_guid_list = 15;</code>
+       * <code>repeated uint64 avatar_guid_list = 8;</code>
        * @param index The index to set the value at.
        * @param value The avatarGuidList to set.
        * @return This builder for chaining.
@@ -2033,7 +2033,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint64 avatar_guid_list = 15;</code>
+       * <code>repeated uint64 avatar_guid_list = 8;</code>
        * @param value The avatarGuidList to add.
        * @return This builder for chaining.
        */
@@ -2044,7 +2044,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint64 avatar_guid_list = 15;</code>
+       * <code>repeated uint64 avatar_guid_list = 8;</code>
        * @param values The avatarGuidList to add.
        * @return This builder for chaining.
        */
@@ -2057,7 +2057,7 @@ public final class _RoleCombatSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint64 avatar_guid_list = 15;</code>
+       * <code>repeated uint64 avatar_guid_list = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearAvatarGuidList() {
@@ -2136,14 +2136,14 @@ public final class _RoleCombatSettleInfoOuterClass {
       "\n\033_RoleCombatSettleInfo.proto\032\021DIGMMKNOM" +
       "JH.proto\032\021IGNEGGFGNHB.proto\032\021NBMAFDLIACA" +
       ".proto\"\276\002\n\025_RoleCombatSettleInfo\022\023\n\013FBHF" +
-      "AMPKPPK\030\001 \001(\010\022!\n\013NAMEIDCGGIF\030\003 \001(\0132\014.DIG" +
+      "AMPKPPK\030\t \001(\010\022!\n\013NAMEIDCGGIF\030\r \001(\0132\014.DIG" +
       "MMKNOMJH\022\020\n\010coin_num\030\004 \001(\r\022\023\n\013INIDHGHIOO" +
-      "O\030\005 \001(\010\022!\n\013HMINJJJIEBB\030\006 \003(\0132\014.IGNEGGFGN" +
-      "HB\022\025\n\rdifficulty_id\030\007 \001(\r\022\023\n\013KNCAOGIMIJJ" +
-      "\030\010 \003(\r\022\023\n\013GBNCKPFLFIM\030\n \001(\r\022\020\n\010use_time\030" +
-      "\013 \001(\r\022!\n\013PEENJAIFAEN\030\r \001(\0162\014.NBMAFDLIACA" +
-      "\022\023\n\013HFDHOLOKLJK\030\016 \003(\004\022\030\n\020avatar_guid_lis" +
-      "t\030\017 \003(\004B<\n\031emu.grasscutter.net.protoB\037_R" +
+      "O\030\001 \001(\010\022!\n\013HMINJJJIEBB\030\003 \003(\0132\014.IGNEGGFGN" +
+      "HB\022\025\n\rdifficulty_id\030\013 \001(\r\022\023\n\013KNCAOGIMIJJ" +
+      "\030\016 \003(\r\022\023\n\013GBNCKPFLFIM\030\017 \001(\r\022\020\n\010use_time\030" +
+      "\007 \001(\r\022!\n\013PEENJAIFAEN\030\005 \001(\0162\014.NBMAFDLIACA" +
+      "\022\023\n\013HFDHOLOKLJK\030\014 \003(\004\022\030\n\020avatar_guid_lis" +
+      "t\030\010 \003(\004B<\n\031emu.grasscutter.net.protoB\037_R" +
       "oleCombatSettleInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

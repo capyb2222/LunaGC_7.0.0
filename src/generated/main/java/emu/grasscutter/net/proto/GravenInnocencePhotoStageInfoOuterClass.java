@@ -19,19 +19,19 @@ public final class GravenInnocencePhotoStageInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 stage_id = 13;</code>
+     * <code>uint32 stage_id = 6;</code>
      * @return The stageId.
      */
     int getStageId();
 
     /**
-     * <code>bool is_finished = 14;</code>
+     * <code>bool is_finished = 2;</code>
      * @return The isFinished.
      */
     boolean getIsFinished();
 
     /**
-     * <code>bool is_open = 15;</code>
+     * <code>bool is_open = 1;</code>
      * @return The isOpen.
      */
     boolean getIsOpen();
@@ -81,19 +81,19 @@ public final class GravenInnocencePhotoStageInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 104: {
+            case 8: {
 
-              stageId_ = input.readUInt32();
+              isOpen_ = input.readBool();
               break;
             }
-            case 112: {
+            case 16: {
 
               isFinished_ = input.readBool();
               break;
             }
-            case 120: {
+            case 48: {
 
-              isOpen_ = input.readBool();
+              stageId_ = input.readUInt32();
               break;
             }
             default: {
@@ -128,10 +128,10 @@ public final class GravenInnocencePhotoStageInfoOuterClass {
               emu.grasscutter.net.proto.GravenInnocencePhotoStageInfoOuterClass.GravenInnocencePhotoStageInfo.class, emu.grasscutter.net.proto.GravenInnocencePhotoStageInfoOuterClass.GravenInnocencePhotoStageInfo.Builder.class);
     }
 
-    public static final int STAGE_ID_FIELD_NUMBER = 13;
+    public static final int STAGE_ID_FIELD_NUMBER = 6;
     private int stageId_;
     /**
-     * <code>uint32 stage_id = 13;</code>
+     * <code>uint32 stage_id = 6;</code>
      * @return The stageId.
      */
     @java.lang.Override
@@ -139,10 +139,10 @@ public final class GravenInnocencePhotoStageInfoOuterClass {
       return stageId_;
     }
 
-    public static final int IS_FINISHED_FIELD_NUMBER = 14;
+    public static final int IS_FINISHED_FIELD_NUMBER = 2;
     private boolean isFinished_;
     /**
-     * <code>bool is_finished = 14;</code>
+     * <code>bool is_finished = 2;</code>
      * @return The isFinished.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class GravenInnocencePhotoStageInfoOuterClass {
       return isFinished_;
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 15;
+    public static final int IS_OPEN_FIELD_NUMBER = 1;
     private boolean isOpen_;
     /**
-     * <code>bool is_open = 15;</code>
+     * <code>bool is_open = 1;</code>
      * @return The isOpen.
      */
     @java.lang.Override
@@ -175,14 +175,14 @@ public final class GravenInnocencePhotoStageInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (stageId_ != 0) {
-        output.writeUInt32(13, stageId_);
+      if (isOpen_ != false) {
+        output.writeBool(1, isOpen_);
       }
       if (isFinished_ != false) {
-        output.writeBool(14, isFinished_);
+        output.writeBool(2, isFinished_);
       }
-      if (isOpen_ != false) {
-        output.writeBool(15, isOpen_);
+      if (stageId_ != 0) {
+        output.writeUInt32(6, stageId_);
       }
       unknownFields.writeTo(output);
     }
@@ -193,17 +193,17 @@ public final class GravenInnocencePhotoStageInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (stageId_ != 0) {
+      if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, stageId_);
+          .computeBoolSize(1, isOpen_);
       }
       if (isFinished_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(14, isFinished_);
+          .computeBoolSize(2, isFinished_);
       }
-      if (isOpen_ != false) {
+      if (stageId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(15, isOpen_);
+          .computeUInt32Size(6, stageId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -501,7 +501,7 @@ public final class GravenInnocencePhotoStageInfoOuterClass {
 
       private int stageId_ ;
       /**
-       * <code>uint32 stage_id = 13;</code>
+       * <code>uint32 stage_id = 6;</code>
        * @return The stageId.
        */
       @java.lang.Override
@@ -509,7 +509,7 @@ public final class GravenInnocencePhotoStageInfoOuterClass {
         return stageId_;
       }
       /**
-       * <code>uint32 stage_id = 13;</code>
+       * <code>uint32 stage_id = 6;</code>
        * @param value The stageId to set.
        * @return This builder for chaining.
        */
@@ -520,7 +520,7 @@ public final class GravenInnocencePhotoStageInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 stage_id = 13;</code>
+       * <code>uint32 stage_id = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearStageId() {
@@ -532,7 +532,7 @@ public final class GravenInnocencePhotoStageInfoOuterClass {
 
       private boolean isFinished_ ;
       /**
-       * <code>bool is_finished = 14;</code>
+       * <code>bool is_finished = 2;</code>
        * @return The isFinished.
        */
       @java.lang.Override
@@ -540,7 +540,7 @@ public final class GravenInnocencePhotoStageInfoOuterClass {
         return isFinished_;
       }
       /**
-       * <code>bool is_finished = 14;</code>
+       * <code>bool is_finished = 2;</code>
        * @param value The isFinished to set.
        * @return This builder for chaining.
        */
@@ -551,7 +551,7 @@ public final class GravenInnocencePhotoStageInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_finished = 14;</code>
+       * <code>bool is_finished = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsFinished() {
@@ -563,7 +563,7 @@ public final class GravenInnocencePhotoStageInfoOuterClass {
 
       private boolean isOpen_ ;
       /**
-       * <code>bool is_open = 15;</code>
+       * <code>bool is_open = 1;</code>
        * @return The isOpen.
        */
       @java.lang.Override
@@ -571,7 +571,7 @@ public final class GravenInnocencePhotoStageInfoOuterClass {
         return isOpen_;
       }
       /**
-       * <code>bool is_open = 15;</code>
+       * <code>bool is_open = 1;</code>
        * @param value The isOpen to set.
        * @return This builder for chaining.
        */
@@ -582,7 +582,7 @@ public final class GravenInnocencePhotoStageInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_open = 15;</code>
+       * <code>bool is_open = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsOpen() {
@@ -660,8 +660,8 @@ public final class GravenInnocencePhotoStageInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n#GravenInnocencePhotoStageInfo.proto\"W\n" +
       "\035GravenInnocencePhotoStageInfo\022\020\n\010stage_" +
-      "id\030\r \001(\r\022\023\n\013is_finished\030\016 \001(\010\022\017\n\007is_open" +
-      "\030\017 \001(\010BD\n\031emu.grasscutter.net.protoB\'Gra" +
+      "id\030\006 \001(\r\022\023\n\013is_finished\030\002 \001(\010\022\017\n\007is_open" +
+      "\030\001 \001(\010BD\n\031emu.grasscutter.net.protoB\'Gra" +
       "venInnocencePhotoStageInfoOuterClassb\006pr" +
       "oto3"
     };

@@ -19,7 +19,7 @@ public final class CHOGKFOPCHIOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 level_id = 2;</code>
+     * <code>uint32 level_id = 11;</code>
      * @return The levelId.
      */
     int getLevelId();
@@ -31,7 +31,7 @@ public final class CHOGKFOPCHIOuterClass {
     boolean getIsOpen();
 
     /**
-     * <code>bool FBHFAMPKPPK = 13;</code>
+     * <code>bool FBHFAMPKPPK = 15;</code>
      * @return The fBHFAMPKPPK.
      */
     boolean getFBHFAMPKPPK();
@@ -81,17 +81,17 @@ public final class CHOGKFOPCHIOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
-
-              levelId_ = input.readUInt32();
-              break;
-            }
             case 80: {
 
               isOpen_ = input.readBool();
               break;
             }
-            case 104: {
+            case 88: {
+
+              levelId_ = input.readUInt32();
+              break;
+            }
+            case 120: {
 
               fBHFAMPKPPK_ = input.readBool();
               break;
@@ -128,10 +128,10 @@ public final class CHOGKFOPCHIOuterClass {
               emu.grasscutter.net.proto.CHOGKFOPCHIOuterClass.CHOGKFOPCHI.class, emu.grasscutter.net.proto.CHOGKFOPCHIOuterClass.CHOGKFOPCHI.Builder.class);
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 2;
+    public static final int LEVEL_ID_FIELD_NUMBER = 11;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 2;</code>
+     * <code>uint32 level_id = 11;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class CHOGKFOPCHIOuterClass {
       return isOpen_;
     }
 
-    public static final int FBHFAMPKPPK_FIELD_NUMBER = 13;
+    public static final int FBHFAMPKPPK_FIELD_NUMBER = 15;
     private boolean fBHFAMPKPPK_;
     /**
-     * <code>bool FBHFAMPKPPK = 13;</code>
+     * <code>bool FBHFAMPKPPK = 15;</code>
      * @return The fBHFAMPKPPK.
      */
     @java.lang.Override
@@ -175,14 +175,14 @@ public final class CHOGKFOPCHIOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (levelId_ != 0) {
-        output.writeUInt32(2, levelId_);
-      }
       if (isOpen_ != false) {
         output.writeBool(10, isOpen_);
       }
+      if (levelId_ != 0) {
+        output.writeUInt32(11, levelId_);
+      }
       if (fBHFAMPKPPK_ != false) {
-        output.writeBool(13, fBHFAMPKPPK_);
+        output.writeBool(15, fBHFAMPKPPK_);
       }
       unknownFields.writeTo(output);
     }
@@ -193,17 +193,17 @@ public final class CHOGKFOPCHIOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (levelId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, levelId_);
-      }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(10, isOpen_);
       }
+      if (levelId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(11, levelId_);
+      }
       if (fBHFAMPKPPK_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(13, fBHFAMPKPPK_);
+          .computeBoolSize(15, fBHFAMPKPPK_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -501,7 +501,7 @@ public final class CHOGKFOPCHIOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 2;</code>
+       * <code>uint32 level_id = 11;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -509,7 +509,7 @@ public final class CHOGKFOPCHIOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 2;</code>
+       * <code>uint32 level_id = 11;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -520,7 +520,7 @@ public final class CHOGKFOPCHIOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 2;</code>
+       * <code>uint32 level_id = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -563,7 +563,7 @@ public final class CHOGKFOPCHIOuterClass {
 
       private boolean fBHFAMPKPPK_ ;
       /**
-       * <code>bool FBHFAMPKPPK = 13;</code>
+       * <code>bool FBHFAMPKPPK = 15;</code>
        * @return The fBHFAMPKPPK.
        */
       @java.lang.Override
@@ -571,7 +571,7 @@ public final class CHOGKFOPCHIOuterClass {
         return fBHFAMPKPPK_;
       }
       /**
-       * <code>bool FBHFAMPKPPK = 13;</code>
+       * <code>bool FBHFAMPKPPK = 15;</code>
        * @param value The fBHFAMPKPPK to set.
        * @return This builder for chaining.
        */
@@ -582,7 +582,7 @@ public final class CHOGKFOPCHIOuterClass {
         return this;
       }
       /**
-       * <code>bool FBHFAMPKPPK = 13;</code>
+       * <code>bool FBHFAMPKPPK = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearFBHFAMPKPPK() {
@@ -659,8 +659,8 @@ public final class CHOGKFOPCHIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CHOGKFOPCHI.proto\"E\n\013CHOGKFOPCHI\022\020\n\010le" +
-      "vel_id\030\002 \001(\r\022\017\n\007is_open\030\n \001(\010\022\023\n\013FBHFAMP" +
-      "KPPK\030\r \001(\010B2\n\031emu.grasscutter.net.protoB" +
+      "vel_id\030\013 \001(\r\022\017\n\007is_open\030\n \001(\010\022\023\n\013FBHFAMP" +
+      "KPPK\030\017 \001(\010B2\n\031emu.grasscutter.net.protoB" +
       "\025CHOGKFOPCHIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

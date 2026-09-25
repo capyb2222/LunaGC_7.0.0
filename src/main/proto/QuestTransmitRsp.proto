@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "QuestTransmitRspOuterClass";
 
 message QuestTransmitRsp {
-	int32 retcode = 2;
-	uint32 quest_id = 3;
-	uint32 point_id = 12;
+	int32 retcode = 1;
+	uint32 quest_id = 11;
+	uint32 point_id = 4;
 }

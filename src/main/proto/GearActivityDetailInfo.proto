@@ -7,6 +7,6 @@ import "GearLevelData.proto";
 import "JigsawPictureData.proto";
 
 message GearActivityDetailInfo {
-	JigsawPictureData jigsaw_picture_data = 6;
-	repeated GearLevelData gear_level_data_list = 12;
+	JigsawPictureData jigsaw_picture_data = 14;
+	repeated GearLevelData gear_level_data_list = 6;
 }

@@ -15,13 +15,13 @@ message QueryPathReq {
 		OptionType_OPTION_FIRST_CAN_GO = 2;
 		OPTION_FIRST_CAN_GO_SUCCESS_ONLY = 3;
 	}
-	Vector source_pos = 1;
-	Vector3Int CPMFACKILJN = 3;
-	Vector3Int mebhbiiiind = 6;
-	repeated Vector destination_pos = 8;
-	QueryFilter filter = 9;
+	Vector source_pos = 4;
+	Vector3Int CPMFACKILJN = 50000;
+	Vector3Int mebhbiiiind = 50001;
+	repeated Vector destination_pos = 2;
+	QueryFilter filter = 8;
 	int32 query_id = 10;
-	OptionType query_type = 13;
-	uint32 scene_id = 14;
-	DICLKEBODEC FLFPHIAAGME = 15;
+	OptionType query_type = 15;
+	uint32 scene_id = 12;
+	DICLKEBODEC FLFPHIAAGME = 7;
 }

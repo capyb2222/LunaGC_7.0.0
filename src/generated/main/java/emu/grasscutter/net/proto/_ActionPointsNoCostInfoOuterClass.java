@@ -19,7 +19,7 @@ public final class _ActionPointsNoCostInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 action_type = 9;</code>
+     * <code>uint32 action_type = 11;</code>
      * @return The actionType.
      */
     int getActionType();
@@ -69,7 +69,7 @@ public final class _ActionPointsNoCostInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 72: {
+            case 88: {
 
               actionType_ = input.readUInt32();
               break;
@@ -106,10 +106,10 @@ public final class _ActionPointsNoCostInfoOuterClass {
               emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo.class, emu.grasscutter.net.proto._ActionPointsNoCostInfoOuterClass._ActionPointsNoCostInfo.Builder.class);
     }
 
-    public static final int ACTION_TYPE_FIELD_NUMBER = 9;
+    public static final int ACTION_TYPE_FIELD_NUMBER = 11;
     private int actionType_;
     /**
-     * <code>uint32 action_type = 9;</code>
+     * <code>uint32 action_type = 11;</code>
      * @return The actionType.
      */
     @java.lang.Override
@@ -132,7 +132,7 @@ public final class _ActionPointsNoCostInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (actionType_ != 0) {
-        output.writeUInt32(9, actionType_);
+        output.writeUInt32(11, actionType_);
       }
       unknownFields.writeTo(output);
     }
@@ -145,7 +145,7 @@ public final class _ActionPointsNoCostInfoOuterClass {
       size = 0;
       if (actionType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, actionType_);
+          .computeUInt32Size(11, actionType_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -421,7 +421,7 @@ public final class _ActionPointsNoCostInfoOuterClass {
 
       private int actionType_ ;
       /**
-       * <code>uint32 action_type = 9;</code>
+       * <code>uint32 action_type = 11;</code>
        * @return The actionType.
        */
       @java.lang.Override
@@ -429,7 +429,7 @@ public final class _ActionPointsNoCostInfoOuterClass {
         return actionType_;
       }
       /**
-       * <code>uint32 action_type = 9;</code>
+       * <code>uint32 action_type = 11;</code>
        * @param value The actionType to set.
        * @return This builder for chaining.
        */
@@ -440,7 +440,7 @@ public final class _ActionPointsNoCostInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 action_type = 9;</code>
+       * <code>uint32 action_type = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearActionType() {
@@ -517,7 +517,7 @@ public final class _ActionPointsNoCostInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\035_ActionPointsNoCostInfo.proto\".\n\027_Acti" +
-      "onPointsNoCostInfo\022\023\n\013action_type\030\t \001(\rB" +
+      "onPointsNoCostInfo\022\023\n\013action_type\030\013 \001(\rB" +
       ">\n\031emu.grasscutter.net.protoB!_ActionPoi" +
       "ntsNoCostInfoOuterClassb\006proto3"
     };

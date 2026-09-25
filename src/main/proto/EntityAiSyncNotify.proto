@@ -6,6 +6,6 @@ option java_outer_classname = "EntityAiSyncNotifyOuterClass";
 import "AiSyncInfo.proto";
 
 message EntityAiSyncNotify {
-	repeated uint32 local_avatar_alerted_monster_list = 4;
-	repeated AiSyncInfo info_list = 11;
+	repeated uint32 local_avatar_alerted_monster_list = 14;
+	repeated AiSyncInfo info_list = 4;
 }

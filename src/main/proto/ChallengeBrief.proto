@@ -4,8 +4,8 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "ChallengeBriefOuterClass";
 
 message ChallengeBrief {
-	uint32 challenge_index = 1;
-	uint32 challenge_id = 9;
-	bool is_success = 10;
-	uint32 cur_progress = 12;
+	uint32 challenge_index = 7;
+	uint32 challenge_id = 15;
+	bool is_success = 3;
+	uint32 cur_progress = 6;
 }

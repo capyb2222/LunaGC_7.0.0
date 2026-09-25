@@ -6,9 +6,9 @@ option java_outer_classname = "JDOHCNIHDEHOuterClass";
 import "EAOEICFJOBA.proto";
 
 message JDOHCNIHDEH {
-	uint32 level_id = 6;
-	bool is_open = 8;
-	bool HLPAFFCCGLF = 9;
-	bool is_finish = 12;
+	uint32 level_id = 13;
+	bool is_open = 3;
+	bool HLPAFFCCGLF = 8;
+	bool is_finish = 4;
 	repeated EAOEICFJOBA FECHNEFCAAC = 15;
 }

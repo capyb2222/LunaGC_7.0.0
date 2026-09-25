@@ -6,5 +6,5 @@ option java_outer_classname = "PrivateChatNotifyOuterClass";
 import "ChatInfo.proto";
 
 message PrivateChatNotify {
-	ChatInfo chat_info = 6;
+	ChatInfo chat_info = 8;
 }

@@ -4,8 +4,8 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "KODIFCAOMECOuterClass";
 
 message KODIFCAOMEC {
-	uint32 level_id = 3;
-	uint32 DEADDOKKEHM = 5;
-	uint32 CHJDGMGPDPE = 8;
-	bool is_open = 12;
+	uint32 level_id = 5;
+	uint32 DEADDOKKEHM = 4;
+	uint32 CHJDGMGPDPE = 11;
+	bool is_open = 8;
 }

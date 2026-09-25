@@ -6,8 +6,8 @@ option java_outer_classname = "_LostSamachurlSneakSettleInfoOuterClass";
 import "GalleryStopReason.proto";
 
 message _LostSamachurlSneakSettleInfo {
-	uint32 level_id = 3;
-	bool is_new_record = 4;
-	GalleryStopReason reason = 5;
-	uint32 cost_time = 9;
+	uint32 level_id = 11;
+	bool is_new_record = 1;
+	GalleryStopReason reason = 13;
+	uint32 cost_time = 8;
 }

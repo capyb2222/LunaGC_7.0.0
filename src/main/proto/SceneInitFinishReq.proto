@@ -4,5 +4,5 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "SceneInitFinishReqOuterClass";
 
 message SceneInitFinishReq {
-	uint32 enter_scene_token = 3;
+	uint32 enter_scene_token = 5;
 }

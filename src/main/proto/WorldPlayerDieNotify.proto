@@ -8,12 +8,12 @@ import "PlayerDieType.proto";
 
 message WorldPlayerDieNotify {
 	oneof entity {
-		uint32 monster_id = 9;
-		uint32 gadget_id = 14;
+		uint32 monster_id = 5;
+		uint32 gadget_id = 2;
 	}
-	PlayerDieType die_type = 3;
-	AbilityString cfadgphidli = 5;
-	uint32 OBOKABMLGHI = 8;
-	uint32 AOMDIHGJMNK = 11;
-	uint32 murderer_entity_id = 12;
+	PlayerDieType die_type = 1;
+	AbilityString cfadgphidli = 50000;
+	uint32 OBOKABMLGHI = 50001;
+	uint32 AOMDIHGJMNK = 50002;
+	uint32 murderer_entity_id = 50003;
 }

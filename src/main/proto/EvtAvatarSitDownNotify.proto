@@ -6,8 +6,8 @@ option java_outer_classname = "EvtAvatarSitDownNotifyOuterClass";
 import "Vector.proto";
 
 message EvtAvatarSitDownNotify {
-	uint64 chair_id = 2;
-	int32 direction = 8;
-	Vector position = 9;
-	uint32 entity_id = 15;
+	uint64 chair_id = 14;
+	int32 direction = 7;
+	Vector position = 2;
+	uint32 entity_id = 13;
 }

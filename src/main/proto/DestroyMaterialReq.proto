@@ -6,5 +6,5 @@ option java_outer_classname = "DestroyMaterialReqOuterClass";
 import "MaterialInfo.proto";
 
 message DestroyMaterialReq {
-	repeated MaterialInfo material_list = 11;
+	repeated MaterialInfo material_list = 13;
 }

@@ -7,10 +7,10 @@ import "DACMDDCLPNH.proto";
 import "MHJHCJJGOAD.proto";
 
 message LOAAPGCPMIO {
-	DACMDDCLPNH JJFAGNLJDMN = 2;
-	uint32 DEMNDDHDDKF = 5;
-	MHJHCJJGOAD OIIIOAEMICJ = 9;
-	uint32 progress = 10;
+	DACMDDCLPNH JJFAGNLJDMN = 7;
+	uint32 DEMNDDHDDKF = 2;
+	MHJHCJJGOAD OIIIOAEMICJ = 5;
+	uint32 progress = 4;
 	uint32 NJIAIJLAFEI = 14;
-	bool is_accept = 15;
+	bool is_accept = 6;
 }

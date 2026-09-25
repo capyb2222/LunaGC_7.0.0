@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "ChangeMpTeamAvatarRspOuterClass";
 
 message ChangeMpTeamAvatarRsp {
-	repeated uint64 avatar_guid_list = 8;
+	repeated uint64 avatar_guid_list = 2;
 	uint64 cur_avatar_guid = 10;
-	int32 retcode = 14;
+	int32 retcode = 4;
 }

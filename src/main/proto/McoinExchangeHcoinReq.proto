@@ -5,5 +5,5 @@ option java_outer_classname = "McoinExchangeHcoinReqOuterClass";
 
 message McoinExchangeHcoinReq {
 	uint32 hcoin = 8;
-	uint32 mcoin_cost = 14;
+	uint32 mcoin_cost = 1;
 }

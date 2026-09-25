@@ -6,5 +6,5 @@ option java_outer_classname = "GBPENPLJMNGOuterClass";
 import "IHFAIFNHCKD.proto";
 
 message GBPENPLJMNG {
-	repeated IHFAIFNHCKD GNLLBEEPFFJ = 12;
+	repeated IHFAIFNHCKD GNLLBEEPFFJ = 10;
 }

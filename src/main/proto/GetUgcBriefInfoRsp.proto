@@ -7,8 +7,8 @@ import "UgcMusicBriefInfo.proto";
 import "UgcType.proto";
 
 message GetUgcBriefInfoRsp {
-	optional UgcMusicBriefInfo music_brief_info = 6;
-	uint64 ugc_guid = 7;
+	optional UgcMusicBriefInfo music_brief_info = 11;
+	uint64 ugc_guid = 6;
 	UgcType ugc_type = 10;
-	int32 retcode = 13;
+	int32 retcode = 2;
 }

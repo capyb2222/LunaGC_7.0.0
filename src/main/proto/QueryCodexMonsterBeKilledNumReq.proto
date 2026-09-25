@@ -4,5 +4,5 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "QueryCodexMonsterBeKilledNumReqOuterClass";
 
 message QueryCodexMonsterBeKilledNumReq {
-	repeated uint32 codex_id_list = 1;
+	repeated uint32 codex_id_list = 5;
 }

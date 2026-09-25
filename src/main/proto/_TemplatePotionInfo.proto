@@ -6,18 +6,18 @@ option java_outer_classname = "_TemplatePotionInfoOuterClass";
 import "KDHFFAMFLKC.proto";
 
 message _TemplatePotionInfo {
-	bool GCFIADMJOCG = 1;
-	uint32 MMENCMAFAIF = 2;
-	uint32 ALAKKGOILIC = 3;
-	uint32 LODLLMHFMPP = 4;
-	repeated KDHFFAMFLKC LABCKNEKCBL = 5;
-	uint32 guid = 6;
-	bool GOEKPDMOLKD = 7;
-	repeated uint32 FEFKMIBCKAN = 9;
-	uint32 KEGBBBJKCGN = 10;
-	repeated uint32 tag_list = 11;
-	bool CIPDLHJCPAI = 12;
-	repeated uint32 NLGFFMHMMIC = 13;
-	uint32 level = 14;
-	uint32 rank = 15;
+	bool GCFIADMJOCG = 50000;
+	uint32 MMENCMAFAIF = 50001;
+	uint32 ALAKKGOILIC = 10;
+	uint32 LODLLMHFMPP = 50002;
+	repeated KDHFFAMFLKC LABCKNEKCBL = 11;
+	uint32 guid = 12;
+	bool GOEKPDMOLKD = 2;
+	repeated uint32 FEFKMIBCKAN = 8;
+	uint32 KEGBBBJKCGN = 50003;
+	repeated uint32 tag_list = 13;
+	bool CIPDLHJCPAI = 50004;
+	repeated uint32 NLGFFMHMMIC = 5;
+	uint32 level = 7;
+	uint32 rank = 3;
 }

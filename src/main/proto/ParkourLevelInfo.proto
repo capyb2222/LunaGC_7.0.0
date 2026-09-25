@@ -6,8 +6,8 @@ option java_outer_classname = "ParkourLevelInfoOuterClass";
 import "Vector.proto";
 
 message ParkourLevelInfo {
-	uint32 best_record = 1;
-	bool is_open = 4;
-	uint32 open_time = 8;
-	Vector pos = 11;
+	uint32 best_record = 3;
+	bool is_open = 7;
+	uint32 open_time = 4;
+	Vector pos = 1;
 }

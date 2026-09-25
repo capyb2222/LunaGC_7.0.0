@@ -11,15 +11,15 @@ import "ShopMcoinProduct.proto";
 import "_ShopBeyondMcoinProduct.proto";
 
 message Shop {
-	uint32 next_refresh_time = 1;
-	OLFKDMCHEDP FAEEGIJKFJP = 3;
-	repeated ShopCardProduct card_product_list = 4;
-	uint32 city_reputation_level = 5;
-	repeated _ShopBeyondMcoinProduct _beyond_mcoin_product_list = 6;
-	repeated ShopGoods goods_list = 8;
-	uint32 hogdkcckgap = 9;
-	uint32 city_id = 10;
-	repeated ShopConcertProduct concert_product_list = 11;
-	repeated ShopMcoinProduct mcoin_product_list = 13;
-	uint32 shop_type = 15;
+	uint32 next_refresh_time = 3;
+	OLFKDMCHEDP FAEEGIJKFJP = 2;
+	repeated ShopCardProduct card_product_list = 9;
+	uint32 city_reputation_level = 50000;
+	repeated _ShopBeyondMcoinProduct _beyond_mcoin_product_list = 50001;
+	repeated ShopGoods goods_list = 4;
+	uint32 hogdkcckgap = 50002;
+	uint32 city_id = 11;
+	repeated ShopConcertProduct concert_product_list = 12;
+	repeated ShopMcoinProduct mcoin_product_list = 1;
+	uint32 shop_type = 8;
 }

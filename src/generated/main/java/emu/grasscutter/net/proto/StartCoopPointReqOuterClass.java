@@ -19,7 +19,7 @@ public final class StartCoopPointReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 coop_point = 14;</code>
+     * <code>uint32 coop_point = 6;</code>
      * @return The coopPoint.
      */
     int getCoopPoint();
@@ -69,7 +69,7 @@ public final class StartCoopPointReqOuterClass {
             case 0:
               done = true;
               break;
-            case 112: {
+            case 48: {
 
               coopPoint_ = input.readUInt32();
               break;
@@ -106,10 +106,10 @@ public final class StartCoopPointReqOuterClass {
               emu.grasscutter.net.proto.StartCoopPointReqOuterClass.StartCoopPointReq.class, emu.grasscutter.net.proto.StartCoopPointReqOuterClass.StartCoopPointReq.Builder.class);
     }
 
-    public static final int COOP_POINT_FIELD_NUMBER = 14;
+    public static final int COOP_POINT_FIELD_NUMBER = 6;
     private int coopPoint_;
     /**
-     * <code>uint32 coop_point = 14;</code>
+     * <code>uint32 coop_point = 6;</code>
      * @return The coopPoint.
      */
     @java.lang.Override
@@ -132,7 +132,7 @@ public final class StartCoopPointReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (coopPoint_ != 0) {
-        output.writeUInt32(14, coopPoint_);
+        output.writeUInt32(6, coopPoint_);
       }
       unknownFields.writeTo(output);
     }
@@ -145,7 +145,7 @@ public final class StartCoopPointReqOuterClass {
       size = 0;
       if (coopPoint_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, coopPoint_);
+          .computeUInt32Size(6, coopPoint_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -421,7 +421,7 @@ public final class StartCoopPointReqOuterClass {
 
       private int coopPoint_ ;
       /**
-       * <code>uint32 coop_point = 14;</code>
+       * <code>uint32 coop_point = 6;</code>
        * @return The coopPoint.
        */
       @java.lang.Override
@@ -429,7 +429,7 @@ public final class StartCoopPointReqOuterClass {
         return coopPoint_;
       }
       /**
-       * <code>uint32 coop_point = 14;</code>
+       * <code>uint32 coop_point = 6;</code>
        * @param value The coopPoint to set.
        * @return This builder for chaining.
        */
@@ -440,7 +440,7 @@ public final class StartCoopPointReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 coop_point = 14;</code>
+       * <code>uint32 coop_point = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearCoopPoint() {
@@ -517,7 +517,7 @@ public final class StartCoopPointReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\027StartCoopPointReq.proto\"\'\n\021StartCoopPo" +
-      "intReq\022\022\n\ncoop_point\030\016 \001(\rB8\n\031emu.grassc" +
+      "intReq\022\022\n\ncoop_point\030\006 \001(\rB8\n\031emu.grassc" +
       "utter.net.protoB\033StartCoopPointReqOuterC" +
       "lassb\006proto3"
     };

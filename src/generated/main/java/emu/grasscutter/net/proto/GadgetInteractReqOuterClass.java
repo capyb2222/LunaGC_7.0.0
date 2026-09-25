@@ -19,89 +19,89 @@ public final class GadgetInteractReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool AJDBEGMCGKD = 1;</code>
+     * <code>bool AJDBEGMCGKD = 13;</code>
      * @return The aJDBEGMCGKD.
      */
     boolean getAJDBEGMCGKD();
 
     /**
-     * <code>.ResinCostType resin_cost_type = 2;</code>
+     * <code>.ResinCostType resin_cost_type = 7;</code>
      * @return The enum numeric value on the wire for resinCostType.
      */
     int getResinCostTypeValue();
     /**
-     * <code>.ResinCostType resin_cost_type = 2;</code>
+     * <code>.ResinCostType resin_cost_type = 7;</code>
      * @return The resinCostType.
      */
     emu.grasscutter.net.proto.ResinCostTypeOuterClass.ResinCostType getResinCostType();
 
     /**
-     * <code>uint32 EBEELPIEKEL = 3;</code>
+     * <code>uint32 EBEELPIEKEL = 14;</code>
      * @return The eBEELPIEKEL.
      */
     int getEBEELPIEKEL();
 
     /**
-     * <code>bool HDJABIODGCI = 4;</code>
+     * <code>bool HDJABIODGCI = 50000;</code>
      * @return The hDJABIODGCI.
      */
     boolean getHDJABIODGCI();
 
     /**
-     * <code>bool DOGHJJCHDLF = 5;</code>
+     * <code>bool DOGHJJCHDLF = 50001;</code>
      * @return The dOGHJJCHDLF.
      */
     boolean getDOGHJJCHDLF();
 
     /**
-     * <code>uint32 gadget_entity_id = 6;</code>
+     * <code>uint32 gadget_entity_id = 11;</code>
      * @return The gadgetEntityId.
      */
     int getGadgetEntityId();
 
     /**
-     * <code>bool LPCDPGNKGFL = 7;</code>
+     * <code>bool LPCDPGNKGFL = 50002;</code>
      * @return The lPCDPGNKGFL.
      */
     boolean getLPCDPGNKGFL();
 
     /**
-     * <code>uint32 gadget_id = 8;</code>
+     * <code>uint32 gadget_id = 4;</code>
      * @return The gadgetId.
      */
     int getGadgetId();
 
     /**
-     * <code>uint32 CJIPKAIPCIB = 11;</code>
+     * <code>uint32 CJIPKAIPCIB = 10;</code>
      * @return The cJIPKAIPCIB.
      */
     int getCJIPKAIPCIB();
 
     /**
-     * <code>bool IKMNHOHNBKJ = 12;</code>
+     * <code>bool IKMNHOHNBKJ = 50003;</code>
      * @return The iKMNHOHNBKJ.
      */
     boolean getIKMNHOHNBKJ();
 
     /**
-     * <code>bool IKDIFBEOEKM = 13;</code>
+     * <code>bool IKDIFBEOEKM = 50004;</code>
      * @return The iKDIFBEOEKM.
      */
     boolean getIKDIFBEOEKM();
 
     /**
-     * <code>.InterOpType op_type = 14;</code>
+     * <code>.InterOpType op_type = 9;</code>
      * @return The enum numeric value on the wire for opType.
      */
     int getOpTypeValue();
     /**
-     * <code>.InterOpType op_type = 14;</code>
+     * <code>.InterOpType op_type = 9;</code>
      * @return The opType.
      */
     emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType getOpType();
 
     /**
-     * <code>uint32 ALLPOOBNNPH = 15;</code>
+     * <code>uint32 ALLPOOBNNPH = 12;</code>
      * @return The aLLPOOBNNPH.
      */
     int getALLPOOBNNPH();
@@ -153,71 +153,71 @@ public final class GadgetInteractReqOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 32: {
 
-              aJDBEGMCGKD_ = input.readBool();
+              gadgetId_ = input.readUInt32();
               break;
             }
-            case 16: {
+            case 56: {
               int rawValue = input.readEnum();
 
               resinCostType_ = rawValue;
               break;
             }
-            case 24: {
-
-              eBEELPIEKEL_ = input.readUInt32();
-              break;
-            }
-            case 32: {
-
-              hDJABIODGCI_ = input.readBool();
-              break;
-            }
-            case 40: {
-
-              dOGHJJCHDLF_ = input.readBool();
-              break;
-            }
-            case 48: {
-
-              gadgetEntityId_ = input.readUInt32();
-              break;
-            }
-            case 56: {
-
-              lPCDPGNKGFL_ = input.readBool();
-              break;
-            }
-            case 64: {
-
-              gadgetId_ = input.readUInt32();
-              break;
-            }
-            case 88: {
-
-              cJIPKAIPCIB_ = input.readUInt32();
-              break;
-            }
-            case 96: {
-
-              iKMNHOHNBKJ_ = input.readBool();
-              break;
-            }
-            case 104: {
-
-              iKDIFBEOEKM_ = input.readBool();
-              break;
-            }
-            case 112: {
+            case 72: {
               int rawValue = input.readEnum();
 
               opType_ = rawValue;
               break;
             }
-            case 120: {
+            case 80: {
+
+              cJIPKAIPCIB_ = input.readUInt32();
+              break;
+            }
+            case 88: {
+
+              gadgetEntityId_ = input.readUInt32();
+              break;
+            }
+            case 96: {
 
               aLLPOOBNNPH_ = input.readUInt32();
+              break;
+            }
+            case 104: {
+
+              aJDBEGMCGKD_ = input.readBool();
+              break;
+            }
+            case 112: {
+
+              eBEELPIEKEL_ = input.readUInt32();
+              break;
+            }
+            case 400000: {
+
+              hDJABIODGCI_ = input.readBool();
+              break;
+            }
+            case 400008: {
+
+              dOGHJJCHDLF_ = input.readBool();
+              break;
+            }
+            case 400016: {
+
+              lPCDPGNKGFL_ = input.readBool();
+              break;
+            }
+            case 400024: {
+
+              iKMNHOHNBKJ_ = input.readBool();
+              break;
+            }
+            case 400032: {
+
+              iKDIFBEOEKM_ = input.readBool();
               break;
             }
             default: {
@@ -252,10 +252,10 @@ public final class GadgetInteractReqOuterClass {
               emu.grasscutter.net.proto.GadgetInteractReqOuterClass.GadgetInteractReq.class, emu.grasscutter.net.proto.GadgetInteractReqOuterClass.GadgetInteractReq.Builder.class);
     }
 
-    public static final int AJDBEGMCGKD_FIELD_NUMBER = 1;
+    public static final int AJDBEGMCGKD_FIELD_NUMBER = 13;
     private boolean aJDBEGMCGKD_;
     /**
-     * <code>bool AJDBEGMCGKD = 1;</code>
+     * <code>bool AJDBEGMCGKD = 13;</code>
      * @return The aJDBEGMCGKD.
      */
     @java.lang.Override
@@ -263,17 +263,17 @@ public final class GadgetInteractReqOuterClass {
       return aJDBEGMCGKD_;
     }
 
-    public static final int RESIN_COST_TYPE_FIELD_NUMBER = 2;
+    public static final int RESIN_COST_TYPE_FIELD_NUMBER = 7;
     private int resinCostType_;
     /**
-     * <code>.ResinCostType resin_cost_type = 2;</code>
+     * <code>.ResinCostType resin_cost_type = 7;</code>
      * @return The enum numeric value on the wire for resinCostType.
      */
     @java.lang.Override public int getResinCostTypeValue() {
       return resinCostType_;
     }
     /**
-     * <code>.ResinCostType resin_cost_type = 2;</code>
+     * <code>.ResinCostType resin_cost_type = 7;</code>
      * @return The resinCostType.
      */
     @java.lang.Override public emu.grasscutter.net.proto.ResinCostTypeOuterClass.ResinCostType getResinCostType() {
@@ -282,10 +282,10 @@ public final class GadgetInteractReqOuterClass {
       return result == null ? emu.grasscutter.net.proto.ResinCostTypeOuterClass.ResinCostType.UNRECOGNIZED : result;
     }
 
-    public static final int EBEELPIEKEL_FIELD_NUMBER = 3;
+    public static final int EBEELPIEKEL_FIELD_NUMBER = 14;
     private int eBEELPIEKEL_;
     /**
-     * <code>uint32 EBEELPIEKEL = 3;</code>
+     * <code>uint32 EBEELPIEKEL = 14;</code>
      * @return The eBEELPIEKEL.
      */
     @java.lang.Override
@@ -293,10 +293,10 @@ public final class GadgetInteractReqOuterClass {
       return eBEELPIEKEL_;
     }
 
-    public static final int HDJABIODGCI_FIELD_NUMBER = 4;
+    public static final int HDJABIODGCI_FIELD_NUMBER = 50000;
     private boolean hDJABIODGCI_;
     /**
-     * <code>bool HDJABIODGCI = 4;</code>
+     * <code>bool HDJABIODGCI = 50000;</code>
      * @return The hDJABIODGCI.
      */
     @java.lang.Override
@@ -304,10 +304,10 @@ public final class GadgetInteractReqOuterClass {
       return hDJABIODGCI_;
     }
 
-    public static final int DOGHJJCHDLF_FIELD_NUMBER = 5;
+    public static final int DOGHJJCHDLF_FIELD_NUMBER = 50001;
     private boolean dOGHJJCHDLF_;
     /**
-     * <code>bool DOGHJJCHDLF = 5;</code>
+     * <code>bool DOGHJJCHDLF = 50001;</code>
      * @return The dOGHJJCHDLF.
      */
     @java.lang.Override
@@ -315,10 +315,10 @@ public final class GadgetInteractReqOuterClass {
       return dOGHJJCHDLF_;
     }
 
-    public static final int GADGET_ENTITY_ID_FIELD_NUMBER = 6;
+    public static final int GADGET_ENTITY_ID_FIELD_NUMBER = 11;
     private int gadgetEntityId_;
     /**
-     * <code>uint32 gadget_entity_id = 6;</code>
+     * <code>uint32 gadget_entity_id = 11;</code>
      * @return The gadgetEntityId.
      */
     @java.lang.Override
@@ -326,10 +326,10 @@ public final class GadgetInteractReqOuterClass {
       return gadgetEntityId_;
     }
 
-    public static final int LPCDPGNKGFL_FIELD_NUMBER = 7;
+    public static final int LPCDPGNKGFL_FIELD_NUMBER = 50002;
     private boolean lPCDPGNKGFL_;
     /**
-     * <code>bool LPCDPGNKGFL = 7;</code>
+     * <code>bool LPCDPGNKGFL = 50002;</code>
      * @return The lPCDPGNKGFL.
      */
     @java.lang.Override
@@ -337,10 +337,10 @@ public final class GadgetInteractReqOuterClass {
       return lPCDPGNKGFL_;
     }
 
-    public static final int GADGET_ID_FIELD_NUMBER = 8;
+    public static final int GADGET_ID_FIELD_NUMBER = 4;
     private int gadgetId_;
     /**
-     * <code>uint32 gadget_id = 8;</code>
+     * <code>uint32 gadget_id = 4;</code>
      * @return The gadgetId.
      */
     @java.lang.Override
@@ -348,10 +348,10 @@ public final class GadgetInteractReqOuterClass {
       return gadgetId_;
     }
 
-    public static final int CJIPKAIPCIB_FIELD_NUMBER = 11;
+    public static final int CJIPKAIPCIB_FIELD_NUMBER = 10;
     private int cJIPKAIPCIB_;
     /**
-     * <code>uint32 CJIPKAIPCIB = 11;</code>
+     * <code>uint32 CJIPKAIPCIB = 10;</code>
      * @return The cJIPKAIPCIB.
      */
     @java.lang.Override
@@ -359,10 +359,10 @@ public final class GadgetInteractReqOuterClass {
       return cJIPKAIPCIB_;
     }
 
-    public static final int IKMNHOHNBKJ_FIELD_NUMBER = 12;
+    public static final int IKMNHOHNBKJ_FIELD_NUMBER = 50003;
     private boolean iKMNHOHNBKJ_;
     /**
-     * <code>bool IKMNHOHNBKJ = 12;</code>
+     * <code>bool IKMNHOHNBKJ = 50003;</code>
      * @return The iKMNHOHNBKJ.
      */
     @java.lang.Override
@@ -370,10 +370,10 @@ public final class GadgetInteractReqOuterClass {
       return iKMNHOHNBKJ_;
     }
 
-    public static final int IKDIFBEOEKM_FIELD_NUMBER = 13;
+    public static final int IKDIFBEOEKM_FIELD_NUMBER = 50004;
     private boolean iKDIFBEOEKM_;
     /**
-     * <code>bool IKDIFBEOEKM = 13;</code>
+     * <code>bool IKDIFBEOEKM = 50004;</code>
      * @return The iKDIFBEOEKM.
      */
     @java.lang.Override
@@ -381,17 +381,17 @@ public final class GadgetInteractReqOuterClass {
       return iKDIFBEOEKM_;
     }
 
-    public static final int OP_TYPE_FIELD_NUMBER = 14;
+    public static final int OP_TYPE_FIELD_NUMBER = 9;
     private int opType_;
     /**
-     * <code>.InterOpType op_type = 14;</code>
+     * <code>.InterOpType op_type = 9;</code>
      * @return The enum numeric value on the wire for opType.
      */
     @java.lang.Override public int getOpTypeValue() {
       return opType_;
     }
     /**
-     * <code>.InterOpType op_type = 14;</code>
+     * <code>.InterOpType op_type = 9;</code>
      * @return The opType.
      */
     @java.lang.Override public emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType getOpType() {
@@ -400,10 +400,10 @@ public final class GadgetInteractReqOuterClass {
       return result == null ? emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType.UNRECOGNIZED : result;
     }
 
-    public static final int ALLPOOBNNPH_FIELD_NUMBER = 15;
+    public static final int ALLPOOBNNPH_FIELD_NUMBER = 12;
     private int aLLPOOBNNPH_;
     /**
-     * <code>uint32 ALLPOOBNNPH = 15;</code>
+     * <code>uint32 ALLPOOBNNPH = 12;</code>
      * @return The aLLPOOBNNPH.
      */
     @java.lang.Override
@@ -425,44 +425,44 @@ public final class GadgetInteractReqOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (aJDBEGMCGKD_ != false) {
-        output.writeBool(1, aJDBEGMCGKD_);
+      if (gadgetId_ != 0) {
+        output.writeUInt32(4, gadgetId_);
       }
       if (resinCostType_ != emu.grasscutter.net.proto.ResinCostTypeOuterClass.ResinCostType.ResinCostType_NONE.getNumber()) {
-        output.writeEnum(2, resinCostType_);
-      }
-      if (eBEELPIEKEL_ != 0) {
-        output.writeUInt32(3, eBEELPIEKEL_);
-      }
-      if (hDJABIODGCI_ != false) {
-        output.writeBool(4, hDJABIODGCI_);
-      }
-      if (dOGHJJCHDLF_ != false) {
-        output.writeBool(5, dOGHJJCHDLF_);
-      }
-      if (gadgetEntityId_ != 0) {
-        output.writeUInt32(6, gadgetEntityId_);
-      }
-      if (lPCDPGNKGFL_ != false) {
-        output.writeBool(7, lPCDPGNKGFL_);
-      }
-      if (gadgetId_ != 0) {
-        output.writeUInt32(8, gadgetId_);
-      }
-      if (cJIPKAIPCIB_ != 0) {
-        output.writeUInt32(11, cJIPKAIPCIB_);
-      }
-      if (iKMNHOHNBKJ_ != false) {
-        output.writeBool(12, iKMNHOHNBKJ_);
-      }
-      if (iKDIFBEOEKM_ != false) {
-        output.writeBool(13, iKDIFBEOEKM_);
+        output.writeEnum(7, resinCostType_);
       }
       if (opType_ != emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType.InterOpType_INTER_OP_FINISH.getNumber()) {
-        output.writeEnum(14, opType_);
+        output.writeEnum(9, opType_);
+      }
+      if (cJIPKAIPCIB_ != 0) {
+        output.writeUInt32(10, cJIPKAIPCIB_);
+      }
+      if (gadgetEntityId_ != 0) {
+        output.writeUInt32(11, gadgetEntityId_);
       }
       if (aLLPOOBNNPH_ != 0) {
-        output.writeUInt32(15, aLLPOOBNNPH_);
+        output.writeUInt32(12, aLLPOOBNNPH_);
+      }
+      if (aJDBEGMCGKD_ != false) {
+        output.writeBool(13, aJDBEGMCGKD_);
+      }
+      if (eBEELPIEKEL_ != 0) {
+        output.writeUInt32(14, eBEELPIEKEL_);
+      }
+      if (hDJABIODGCI_ != false) {
+        output.writeBool(50000, hDJABIODGCI_);
+      }
+      if (dOGHJJCHDLF_ != false) {
+        output.writeBool(50001, dOGHJJCHDLF_);
+      }
+      if (lPCDPGNKGFL_ != false) {
+        output.writeBool(50002, lPCDPGNKGFL_);
+      }
+      if (iKMNHOHNBKJ_ != false) {
+        output.writeBool(50003, iKMNHOHNBKJ_);
+      }
+      if (iKDIFBEOEKM_ != false) {
+        output.writeBool(50004, iKDIFBEOEKM_);
       }
       unknownFields.writeTo(output);
     }
@@ -473,57 +473,57 @@ public final class GadgetInteractReqOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (aJDBEGMCGKD_ != false) {
+      if (gadgetId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1, aJDBEGMCGKD_);
+          .computeUInt32Size(4, gadgetId_);
       }
       if (resinCostType_ != emu.grasscutter.net.proto.ResinCostTypeOuterClass.ResinCostType.ResinCostType_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(2, resinCostType_);
-      }
-      if (eBEELPIEKEL_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, eBEELPIEKEL_);
-      }
-      if (hDJABIODGCI_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(4, hDJABIODGCI_);
-      }
-      if (dOGHJJCHDLF_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(5, dOGHJJCHDLF_);
-      }
-      if (gadgetEntityId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, gadgetEntityId_);
-      }
-      if (lPCDPGNKGFL_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(7, lPCDPGNKGFL_);
-      }
-      if (gadgetId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, gadgetId_);
-      }
-      if (cJIPKAIPCIB_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, cJIPKAIPCIB_);
-      }
-      if (iKMNHOHNBKJ_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, iKMNHOHNBKJ_);
-      }
-      if (iKDIFBEOEKM_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(13, iKDIFBEOEKM_);
+          .computeEnumSize(7, resinCostType_);
       }
       if (opType_ != emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType.InterOpType_INTER_OP_FINISH.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(14, opType_);
+          .computeEnumSize(9, opType_);
+      }
+      if (cJIPKAIPCIB_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(10, cJIPKAIPCIB_);
+      }
+      if (gadgetEntityId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(11, gadgetEntityId_);
       }
       if (aLLPOOBNNPH_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, aLLPOOBNNPH_);
+          .computeUInt32Size(12, aLLPOOBNNPH_);
+      }
+      if (aJDBEGMCGKD_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(13, aJDBEGMCGKD_);
+      }
+      if (eBEELPIEKEL_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(14, eBEELPIEKEL_);
+      }
+      if (hDJABIODGCI_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(50000, hDJABIODGCI_);
+      }
+      if (dOGHJJCHDLF_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(50001, dOGHJJCHDLF_);
+      }
+      if (lPCDPGNKGFL_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(50002, lPCDPGNKGFL_);
+      }
+      if (iKMNHOHNBKJ_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(50003, iKMNHOHNBKJ_);
+      }
+      if (iKDIFBEOEKM_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(50004, iKDIFBEOEKM_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -923,7 +923,7 @@ public final class GadgetInteractReqOuterClass {
 
       private boolean aJDBEGMCGKD_ ;
       /**
-       * <code>bool AJDBEGMCGKD = 1;</code>
+       * <code>bool AJDBEGMCGKD = 13;</code>
        * @return The aJDBEGMCGKD.
        */
       @java.lang.Override
@@ -931,7 +931,7 @@ public final class GadgetInteractReqOuterClass {
         return aJDBEGMCGKD_;
       }
       /**
-       * <code>bool AJDBEGMCGKD = 1;</code>
+       * <code>bool AJDBEGMCGKD = 13;</code>
        * @param value The aJDBEGMCGKD to set.
        * @return This builder for chaining.
        */
@@ -942,7 +942,7 @@ public final class GadgetInteractReqOuterClass {
         return this;
       }
       /**
-       * <code>bool AJDBEGMCGKD = 1;</code>
+       * <code>bool AJDBEGMCGKD = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearAJDBEGMCGKD() {
@@ -954,14 +954,14 @@ public final class GadgetInteractReqOuterClass {
 
       private int resinCostType_ = 0;
       /**
-       * <code>.ResinCostType resin_cost_type = 2;</code>
+       * <code>.ResinCostType resin_cost_type = 7;</code>
        * @return The enum numeric value on the wire for resinCostType.
        */
       @java.lang.Override public int getResinCostTypeValue() {
         return resinCostType_;
       }
       /**
-       * <code>.ResinCostType resin_cost_type = 2;</code>
+       * <code>.ResinCostType resin_cost_type = 7;</code>
        * @param value The enum numeric value on the wire for resinCostType to set.
        * @return This builder for chaining.
        */
@@ -972,7 +972,7 @@ public final class GadgetInteractReqOuterClass {
         return this;
       }
       /**
-       * <code>.ResinCostType resin_cost_type = 2;</code>
+       * <code>.ResinCostType resin_cost_type = 7;</code>
        * @return The resinCostType.
        */
       @java.lang.Override
@@ -982,7 +982,7 @@ public final class GadgetInteractReqOuterClass {
         return result == null ? emu.grasscutter.net.proto.ResinCostTypeOuterClass.ResinCostType.UNRECOGNIZED : result;
       }
       /**
-       * <code>.ResinCostType resin_cost_type = 2;</code>
+       * <code>.ResinCostType resin_cost_type = 7;</code>
        * @param value The resinCostType to set.
        * @return This builder for chaining.
        */
@@ -996,7 +996,7 @@ public final class GadgetInteractReqOuterClass {
         return this;
       }
       /**
-       * <code>.ResinCostType resin_cost_type = 2;</code>
+       * <code>.ResinCostType resin_cost_type = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearResinCostType() {
@@ -1008,7 +1008,7 @@ public final class GadgetInteractReqOuterClass {
 
       private int eBEELPIEKEL_ ;
       /**
-       * <code>uint32 EBEELPIEKEL = 3;</code>
+       * <code>uint32 EBEELPIEKEL = 14;</code>
        * @return The eBEELPIEKEL.
        */
       @java.lang.Override
@@ -1016,7 +1016,7 @@ public final class GadgetInteractReqOuterClass {
         return eBEELPIEKEL_;
       }
       /**
-       * <code>uint32 EBEELPIEKEL = 3;</code>
+       * <code>uint32 EBEELPIEKEL = 14;</code>
        * @param value The eBEELPIEKEL to set.
        * @return This builder for chaining.
        */
@@ -1027,7 +1027,7 @@ public final class GadgetInteractReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 EBEELPIEKEL = 3;</code>
+       * <code>uint32 EBEELPIEKEL = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearEBEELPIEKEL() {
@@ -1039,7 +1039,7 @@ public final class GadgetInteractReqOuterClass {
 
       private boolean hDJABIODGCI_ ;
       /**
-       * <code>bool HDJABIODGCI = 4;</code>
+       * <code>bool HDJABIODGCI = 50000;</code>
        * @return The hDJABIODGCI.
        */
       @java.lang.Override
@@ -1047,7 +1047,7 @@ public final class GadgetInteractReqOuterClass {
         return hDJABIODGCI_;
       }
       /**
-       * <code>bool HDJABIODGCI = 4;</code>
+       * <code>bool HDJABIODGCI = 50000;</code>
        * @param value The hDJABIODGCI to set.
        * @return This builder for chaining.
        */
@@ -1058,7 +1058,7 @@ public final class GadgetInteractReqOuterClass {
         return this;
       }
       /**
-       * <code>bool HDJABIODGCI = 4;</code>
+       * <code>bool HDJABIODGCI = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearHDJABIODGCI() {
@@ -1070,7 +1070,7 @@ public final class GadgetInteractReqOuterClass {
 
       private boolean dOGHJJCHDLF_ ;
       /**
-       * <code>bool DOGHJJCHDLF = 5;</code>
+       * <code>bool DOGHJJCHDLF = 50001;</code>
        * @return The dOGHJJCHDLF.
        */
       @java.lang.Override
@@ -1078,7 +1078,7 @@ public final class GadgetInteractReqOuterClass {
         return dOGHJJCHDLF_;
       }
       /**
-       * <code>bool DOGHJJCHDLF = 5;</code>
+       * <code>bool DOGHJJCHDLF = 50001;</code>
        * @param value The dOGHJJCHDLF to set.
        * @return This builder for chaining.
        */
@@ -1089,7 +1089,7 @@ public final class GadgetInteractReqOuterClass {
         return this;
       }
       /**
-       * <code>bool DOGHJJCHDLF = 5;</code>
+       * <code>bool DOGHJJCHDLF = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearDOGHJJCHDLF() {
@@ -1101,7 +1101,7 @@ public final class GadgetInteractReqOuterClass {
 
       private int gadgetEntityId_ ;
       /**
-       * <code>uint32 gadget_entity_id = 6;</code>
+       * <code>uint32 gadget_entity_id = 11;</code>
        * @return The gadgetEntityId.
        */
       @java.lang.Override
@@ -1109,7 +1109,7 @@ public final class GadgetInteractReqOuterClass {
         return gadgetEntityId_;
       }
       /**
-       * <code>uint32 gadget_entity_id = 6;</code>
+       * <code>uint32 gadget_entity_id = 11;</code>
        * @param value The gadgetEntityId to set.
        * @return This builder for chaining.
        */
@@ -1120,7 +1120,7 @@ public final class GadgetInteractReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 gadget_entity_id = 6;</code>
+       * <code>uint32 gadget_entity_id = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearGadgetEntityId() {
@@ -1132,7 +1132,7 @@ public final class GadgetInteractReqOuterClass {
 
       private boolean lPCDPGNKGFL_ ;
       /**
-       * <code>bool LPCDPGNKGFL = 7;</code>
+       * <code>bool LPCDPGNKGFL = 50002;</code>
        * @return The lPCDPGNKGFL.
        */
       @java.lang.Override
@@ -1140,7 +1140,7 @@ public final class GadgetInteractReqOuterClass {
         return lPCDPGNKGFL_;
       }
       /**
-       * <code>bool LPCDPGNKGFL = 7;</code>
+       * <code>bool LPCDPGNKGFL = 50002;</code>
        * @param value The lPCDPGNKGFL to set.
        * @return This builder for chaining.
        */
@@ -1151,7 +1151,7 @@ public final class GadgetInteractReqOuterClass {
         return this;
       }
       /**
-       * <code>bool LPCDPGNKGFL = 7;</code>
+       * <code>bool LPCDPGNKGFL = 50002;</code>
        * @return This builder for chaining.
        */
       public Builder clearLPCDPGNKGFL() {
@@ -1163,7 +1163,7 @@ public final class GadgetInteractReqOuterClass {
 
       private int gadgetId_ ;
       /**
-       * <code>uint32 gadget_id = 8;</code>
+       * <code>uint32 gadget_id = 4;</code>
        * @return The gadgetId.
        */
       @java.lang.Override
@@ -1171,7 +1171,7 @@ public final class GadgetInteractReqOuterClass {
         return gadgetId_;
       }
       /**
-       * <code>uint32 gadget_id = 8;</code>
+       * <code>uint32 gadget_id = 4;</code>
        * @param value The gadgetId to set.
        * @return This builder for chaining.
        */
@@ -1182,7 +1182,7 @@ public final class GadgetInteractReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 gadget_id = 8;</code>
+       * <code>uint32 gadget_id = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearGadgetId() {
@@ -1194,7 +1194,7 @@ public final class GadgetInteractReqOuterClass {
 
       private int cJIPKAIPCIB_ ;
       /**
-       * <code>uint32 CJIPKAIPCIB = 11;</code>
+       * <code>uint32 CJIPKAIPCIB = 10;</code>
        * @return The cJIPKAIPCIB.
        */
       @java.lang.Override
@@ -1202,7 +1202,7 @@ public final class GadgetInteractReqOuterClass {
         return cJIPKAIPCIB_;
       }
       /**
-       * <code>uint32 CJIPKAIPCIB = 11;</code>
+       * <code>uint32 CJIPKAIPCIB = 10;</code>
        * @param value The cJIPKAIPCIB to set.
        * @return This builder for chaining.
        */
@@ -1213,7 +1213,7 @@ public final class GadgetInteractReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 CJIPKAIPCIB = 11;</code>
+       * <code>uint32 CJIPKAIPCIB = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearCJIPKAIPCIB() {
@@ -1225,7 +1225,7 @@ public final class GadgetInteractReqOuterClass {
 
       private boolean iKMNHOHNBKJ_ ;
       /**
-       * <code>bool IKMNHOHNBKJ = 12;</code>
+       * <code>bool IKMNHOHNBKJ = 50003;</code>
        * @return The iKMNHOHNBKJ.
        */
       @java.lang.Override
@@ -1233,7 +1233,7 @@ public final class GadgetInteractReqOuterClass {
         return iKMNHOHNBKJ_;
       }
       /**
-       * <code>bool IKMNHOHNBKJ = 12;</code>
+       * <code>bool IKMNHOHNBKJ = 50003;</code>
        * @param value The iKMNHOHNBKJ to set.
        * @return This builder for chaining.
        */
@@ -1244,7 +1244,7 @@ public final class GadgetInteractReqOuterClass {
         return this;
       }
       /**
-       * <code>bool IKMNHOHNBKJ = 12;</code>
+       * <code>bool IKMNHOHNBKJ = 50003;</code>
        * @return This builder for chaining.
        */
       public Builder clearIKMNHOHNBKJ() {
@@ -1256,7 +1256,7 @@ public final class GadgetInteractReqOuterClass {
 
       private boolean iKDIFBEOEKM_ ;
       /**
-       * <code>bool IKDIFBEOEKM = 13;</code>
+       * <code>bool IKDIFBEOEKM = 50004;</code>
        * @return The iKDIFBEOEKM.
        */
       @java.lang.Override
@@ -1264,7 +1264,7 @@ public final class GadgetInteractReqOuterClass {
         return iKDIFBEOEKM_;
       }
       /**
-       * <code>bool IKDIFBEOEKM = 13;</code>
+       * <code>bool IKDIFBEOEKM = 50004;</code>
        * @param value The iKDIFBEOEKM to set.
        * @return This builder for chaining.
        */
@@ -1275,7 +1275,7 @@ public final class GadgetInteractReqOuterClass {
         return this;
       }
       /**
-       * <code>bool IKDIFBEOEKM = 13;</code>
+       * <code>bool IKDIFBEOEKM = 50004;</code>
        * @return This builder for chaining.
        */
       public Builder clearIKDIFBEOEKM() {
@@ -1287,14 +1287,14 @@ public final class GadgetInteractReqOuterClass {
 
       private int opType_ = 0;
       /**
-       * <code>.InterOpType op_type = 14;</code>
+       * <code>.InterOpType op_type = 9;</code>
        * @return The enum numeric value on the wire for opType.
        */
       @java.lang.Override public int getOpTypeValue() {
         return opType_;
       }
       /**
-       * <code>.InterOpType op_type = 14;</code>
+       * <code>.InterOpType op_type = 9;</code>
        * @param value The enum numeric value on the wire for opType to set.
        * @return This builder for chaining.
        */
@@ -1305,7 +1305,7 @@ public final class GadgetInteractReqOuterClass {
         return this;
       }
       /**
-       * <code>.InterOpType op_type = 14;</code>
+       * <code>.InterOpType op_type = 9;</code>
        * @return The opType.
        */
       @java.lang.Override
@@ -1315,7 +1315,7 @@ public final class GadgetInteractReqOuterClass {
         return result == null ? emu.grasscutter.net.proto.InterOpTypeOuterClass.InterOpType.UNRECOGNIZED : result;
       }
       /**
-       * <code>.InterOpType op_type = 14;</code>
+       * <code>.InterOpType op_type = 9;</code>
        * @param value The opType to set.
        * @return This builder for chaining.
        */
@@ -1329,7 +1329,7 @@ public final class GadgetInteractReqOuterClass {
         return this;
       }
       /**
-       * <code>.InterOpType op_type = 14;</code>
+       * <code>.InterOpType op_type = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearOpType() {
@@ -1341,7 +1341,7 @@ public final class GadgetInteractReqOuterClass {
 
       private int aLLPOOBNNPH_ ;
       /**
-       * <code>uint32 ALLPOOBNNPH = 15;</code>
+       * <code>uint32 ALLPOOBNNPH = 12;</code>
        * @return The aLLPOOBNNPH.
        */
       @java.lang.Override
@@ -1349,7 +1349,7 @@ public final class GadgetInteractReqOuterClass {
         return aLLPOOBNNPH_;
       }
       /**
-       * <code>uint32 ALLPOOBNNPH = 15;</code>
+       * <code>uint32 ALLPOOBNNPH = 12;</code>
        * @param value The aLLPOOBNNPH to set.
        * @return This builder for chaining.
        */
@@ -1360,7 +1360,7 @@ public final class GadgetInteractReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 ALLPOOBNNPH = 15;</code>
+       * <code>uint32 ALLPOOBNNPH = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearALLPOOBNNPH() {
@@ -1437,17 +1437,17 @@ public final class GadgetInteractReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\027GadgetInteractReq.proto\032\021InterOpType.p" +
-      "roto\032\023ResinCostType.proto\"\305\002\n\021GadgetInte" +
-      "ractReq\022\023\n\013AJDBEGMCGKD\030\001 \001(\010\022\'\n\017resin_co" +
-      "st_type\030\002 \001(\0162\016.ResinCostType\022\023\n\013EBEELPI" +
-      "EKEL\030\003 \001(\r\022\023\n\013HDJABIODGCI\030\004 \001(\010\022\023\n\013DOGHJ" +
-      "JCHDLF\030\005 \001(\010\022\030\n\020gadget_entity_id\030\006 \001(\r\022\023" +
-      "\n\013LPCDPGNKGFL\030\007 \001(\010\022\021\n\tgadget_id\030\010 \001(\r\022\023" +
-      "\n\013CJIPKAIPCIB\030\013 \001(\r\022\023\n\013IKMNHOHNBKJ\030\014 \001(\010" +
-      "\022\023\n\013IKDIFBEOEKM\030\r \001(\010\022\035\n\007op_type\030\016 \001(\0162\014" +
-      ".InterOpType\022\023\n\013ALLPOOBNNPH\030\017 \001(\rB8\n\031emu" +
-      ".grasscutter.net.protoB\033GadgetInteractRe" +
-      "qOuterClassb\006proto3"
+      "roto\032\023ResinCostType.proto\"\317\002\n\021GadgetInte" +
+      "ractReq\022\023\n\013AJDBEGMCGKD\030\r \001(\010\022\'\n\017resin_co" +
+      "st_type\030\007 \001(\0162\016.ResinCostType\022\023\n\013EBEELPI" +
+      "EKEL\030\016 \001(\r\022\025\n\013HDJABIODGCI\030\320\206\003 \001(\010\022\025\n\013DOG" +
+      "HJJCHDLF\030\321\206\003 \001(\010\022\030\n\020gadget_entity_id\030\013 \001" +
+      "(\r\022\025\n\013LPCDPGNKGFL\030\322\206\003 \001(\010\022\021\n\tgadget_id\030\004" +
+      " \001(\r\022\023\n\013CJIPKAIPCIB\030\n \001(\r\022\025\n\013IKMNHOHNBKJ" +
+      "\030\323\206\003 \001(\010\022\025\n\013IKDIFBEOEKM\030\324\206\003 \001(\010\022\035\n\007op_ty" +
+      "pe\030\t \001(\0162\014.InterOpType\022\023\n\013ALLPOOBNNPH\030\014 " +
+      "\001(\rB8\n\031emu.grasscutter.net.protoB\033Gadget" +
+      "InteractReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

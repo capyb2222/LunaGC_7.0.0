@@ -9,8 +9,8 @@ message LockedPersonallineData {
 		QUEST = 1;
 	}
 	message _QuestParam {
-		uint32 chapter_id = 3;
-		uint32 quest_id = 12;
+		uint32 chapter_id = 1;
+		uint32 quest_id = 9;
 	}
 	oneof param {
 		_QuestParam quest_param = 4;

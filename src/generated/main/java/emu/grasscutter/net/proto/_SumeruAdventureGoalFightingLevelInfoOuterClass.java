@@ -34,7 +34,7 @@ public final class _SumeruAdventureGoalFightingLevelInfoOuterClass {
     emu.grasscutter.net.proto.NOJCFCNEIMJOuterClass.NOJCFCNEIMJOrBuilder getMFJAFOAHPDAOrBuilder();
 
     /**
-     * <code>uint32 LLGCHCADBJF = 11;</code>
+     * <code>uint32 LLGCHCADBJF = 3;</code>
      * @return The lLGCHCADBJF.
      */
     int getLLGCHCADBJF();
@@ -84,6 +84,11 @@ public final class _SumeruAdventureGoalFightingLevelInfoOuterClass {
             case 0:
               done = true;
               break;
+            case 24: {
+
+              lLGCHCADBJF_ = input.readUInt32();
+              break;
+            }
             case 34: {
               emu.grasscutter.net.proto.NOJCFCNEIMJOuterClass.NOJCFCNEIMJ.Builder subBuilder = null;
               if (mFJAFOAHPDA_ != null) {
@@ -95,11 +100,6 @@ public final class _SumeruAdventureGoalFightingLevelInfoOuterClass {
                 mFJAFOAHPDA_ = subBuilder.buildPartial();
               }
 
-              break;
-            }
-            case 88: {
-
-              lLGCHCADBJF_ = input.readUInt32();
               break;
             }
             default: {
@@ -160,10 +160,10 @@ public final class _SumeruAdventureGoalFightingLevelInfoOuterClass {
       return getMFJAFOAHPDA();
     }
 
-    public static final int LLGCHCADBJF_FIELD_NUMBER = 11;
+    public static final int LLGCHCADBJF_FIELD_NUMBER = 3;
     private int lLGCHCADBJF_;
     /**
-     * <code>uint32 LLGCHCADBJF = 11;</code>
+     * <code>uint32 LLGCHCADBJF = 3;</code>
      * @return The lLGCHCADBJF.
      */
     @java.lang.Override
@@ -185,11 +185,11 @@ public final class _SumeruAdventureGoalFightingLevelInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (lLGCHCADBJF_ != 0) {
+        output.writeUInt32(3, lLGCHCADBJF_);
+      }
       if (mFJAFOAHPDA_ != null) {
         output.writeMessage(4, getMFJAFOAHPDA());
-      }
-      if (lLGCHCADBJF_ != 0) {
-        output.writeUInt32(11, lLGCHCADBJF_);
       }
       unknownFields.writeTo(output);
     }
@@ -200,13 +200,13 @@ public final class _SumeruAdventureGoalFightingLevelInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (lLGCHCADBJF_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(3, lLGCHCADBJF_);
+      }
       if (mFJAFOAHPDA_ != null) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, getMFJAFOAHPDA());
-      }
-      if (lLGCHCADBJF_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, lLGCHCADBJF_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -624,7 +624,7 @@ public final class _SumeruAdventureGoalFightingLevelInfoOuterClass {
 
       private int lLGCHCADBJF_ ;
       /**
-       * <code>uint32 LLGCHCADBJF = 11;</code>
+       * <code>uint32 LLGCHCADBJF = 3;</code>
        * @return The lLGCHCADBJF.
        */
       @java.lang.Override
@@ -632,7 +632,7 @@ public final class _SumeruAdventureGoalFightingLevelInfoOuterClass {
         return lLGCHCADBJF_;
       }
       /**
-       * <code>uint32 LLGCHCADBJF = 11;</code>
+       * <code>uint32 LLGCHCADBJF = 3;</code>
        * @param value The lLGCHCADBJF to set.
        * @return This builder for chaining.
        */
@@ -643,7 +643,7 @@ public final class _SumeruAdventureGoalFightingLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 LLGCHCADBJF = 11;</code>
+       * <code>uint32 LLGCHCADBJF = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearLLGCHCADBJF() {
@@ -722,7 +722,7 @@ public final class _SumeruAdventureGoalFightingLevelInfoOuterClass {
       "\n+_SumeruAdventureGoalFightingLevelInfo." +
       "proto\032\021NOJCFCNEIMJ.proto\"_\n%_SumeruAdven" +
       "tureGoalFightingLevelInfo\022!\n\013MFJAFOAHPDA" +
-      "\030\004 \001(\0132\014.NOJCFCNEIMJ\022\023\n\013LLGCHCADBJF\030\013 \001(" +
+      "\030\004 \001(\0132\014.NOJCFCNEIMJ\022\023\n\013LLGCHCADBJF\030\003 \001(" +
       "\rBL\n\031emu.grasscutter.net.protoB/_SumeruA" +
       "dventureGoalFightingLevelInfoOuterClassb" +
       "\006proto3"

@@ -19,25 +19,25 @@ public final class _MapMarkLevelInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 8;</code>
+     * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 11;</code>
      */
     java.util.List<emu.grasscutter.net.proto.DIIIBCMEKMPOuterClass.DIIIBCMEKMP> 
         getKDFMEPMGGHJList();
     /**
-     * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 8;</code>
+     * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 11;</code>
      */
     emu.grasscutter.net.proto.DIIIBCMEKMPOuterClass.DIIIBCMEKMP getKDFMEPMGGHJ(int index);
     /**
-     * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 8;</code>
+     * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 11;</code>
      */
     int getKDFMEPMGGHJCount();
     /**
-     * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 8;</code>
+     * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 11;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.DIIIBCMEKMPOuterClass.DIIIBCMEKMPOrBuilder> 
         getKDFMEPMGGHJOrBuilderList();
     /**
-     * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 8;</code>
+     * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 11;</code>
      */
     emu.grasscutter.net.proto.DIIIBCMEKMPOuterClass.DIIIBCMEKMPOrBuilder getKDFMEPMGGHJOrBuilder(
         int index);
@@ -89,7 +89,7 @@ public final class _MapMarkLevelInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 66: {
+            case 90: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 kDFMEPMGGHJ_ = new java.util.ArrayList<emu.grasscutter.net.proto.DIIIBCMEKMPOuterClass.DIIIBCMEKMP>();
                 mutable_bitField0_ |= 0x00000001;
@@ -133,17 +133,17 @@ public final class _MapMarkLevelInfoOuterClass {
               emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfo.class, emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfo.Builder.class);
     }
 
-    public static final int KDFMEPMGGHJ_FIELD_NUMBER = 8;
+    public static final int KDFMEPMGGHJ_FIELD_NUMBER = 11;
     private java.util.List<emu.grasscutter.net.proto.DIIIBCMEKMPOuterClass.DIIIBCMEKMP> kDFMEPMGGHJ_;
     /**
-     * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 8;</code>
+     * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 11;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.DIIIBCMEKMPOuterClass.DIIIBCMEKMP> getKDFMEPMGGHJList() {
       return kDFMEPMGGHJ_;
     }
     /**
-     * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 8;</code>
+     * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 11;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.DIIIBCMEKMPOuterClass.DIIIBCMEKMPOrBuilder> 
@@ -151,21 +151,21 @@ public final class _MapMarkLevelInfoOuterClass {
       return kDFMEPMGGHJ_;
     }
     /**
-     * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 8;</code>
+     * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 11;</code>
      */
     @java.lang.Override
     public int getKDFMEPMGGHJCount() {
       return kDFMEPMGGHJ_.size();
     }
     /**
-     * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 8;</code>
+     * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 11;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.DIIIBCMEKMPOuterClass.DIIIBCMEKMP getKDFMEPMGGHJ(int index) {
       return kDFMEPMGGHJ_.get(index);
     }
     /**
-     * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 8;</code>
+     * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 11;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.DIIIBCMEKMPOuterClass.DIIIBCMEKMPOrBuilder getKDFMEPMGGHJOrBuilder(
@@ -188,7 +188,7 @@ public final class _MapMarkLevelInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < kDFMEPMGGHJ_.size(); i++) {
-        output.writeMessage(8, kDFMEPMGGHJ_.get(i));
+        output.writeMessage(11, kDFMEPMGGHJ_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -201,7 +201,7 @@ public final class _MapMarkLevelInfoOuterClass {
       size = 0;
       for (int i = 0; i < kDFMEPMGGHJ_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, kDFMEPMGGHJ_.get(i));
+          .computeMessageSize(11, kDFMEPMGGHJ_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -528,7 +528,7 @@ public final class _MapMarkLevelInfoOuterClass {
           emu.grasscutter.net.proto.DIIIBCMEKMPOuterClass.DIIIBCMEKMP, emu.grasscutter.net.proto.DIIIBCMEKMPOuterClass.DIIIBCMEKMP.Builder, emu.grasscutter.net.proto.DIIIBCMEKMPOuterClass.DIIIBCMEKMPOrBuilder> kDFMEPMGGHJBuilder_;
 
       /**
-       * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 8;</code>
+       * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 11;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.DIIIBCMEKMPOuterClass.DIIIBCMEKMP> getKDFMEPMGGHJList() {
         if (kDFMEPMGGHJBuilder_ == null) {
@@ -538,7 +538,7 @@ public final class _MapMarkLevelInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 8;</code>
+       * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 11;</code>
        */
       public int getKDFMEPMGGHJCount() {
         if (kDFMEPMGGHJBuilder_ == null) {
@@ -548,7 +548,7 @@ public final class _MapMarkLevelInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 8;</code>
+       * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 11;</code>
        */
       public emu.grasscutter.net.proto.DIIIBCMEKMPOuterClass.DIIIBCMEKMP getKDFMEPMGGHJ(int index) {
         if (kDFMEPMGGHJBuilder_ == null) {
@@ -558,7 +558,7 @@ public final class _MapMarkLevelInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 8;</code>
+       * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 11;</code>
        */
       public Builder setKDFMEPMGGHJ(
           int index, emu.grasscutter.net.proto.DIIIBCMEKMPOuterClass.DIIIBCMEKMP value) {
@@ -575,7 +575,7 @@ public final class _MapMarkLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 8;</code>
+       * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 11;</code>
        */
       public Builder setKDFMEPMGGHJ(
           int index, emu.grasscutter.net.proto.DIIIBCMEKMPOuterClass.DIIIBCMEKMP.Builder builderForValue) {
@@ -589,7 +589,7 @@ public final class _MapMarkLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 8;</code>
+       * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 11;</code>
        */
       public Builder addKDFMEPMGGHJ(emu.grasscutter.net.proto.DIIIBCMEKMPOuterClass.DIIIBCMEKMP value) {
         if (kDFMEPMGGHJBuilder_ == null) {
@@ -605,7 +605,7 @@ public final class _MapMarkLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 8;</code>
+       * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 11;</code>
        */
       public Builder addKDFMEPMGGHJ(
           int index, emu.grasscutter.net.proto.DIIIBCMEKMPOuterClass.DIIIBCMEKMP value) {
@@ -622,7 +622,7 @@ public final class _MapMarkLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 8;</code>
+       * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 11;</code>
        */
       public Builder addKDFMEPMGGHJ(
           emu.grasscutter.net.proto.DIIIBCMEKMPOuterClass.DIIIBCMEKMP.Builder builderForValue) {
@@ -636,7 +636,7 @@ public final class _MapMarkLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 8;</code>
+       * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 11;</code>
        */
       public Builder addKDFMEPMGGHJ(
           int index, emu.grasscutter.net.proto.DIIIBCMEKMPOuterClass.DIIIBCMEKMP.Builder builderForValue) {
@@ -650,7 +650,7 @@ public final class _MapMarkLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 8;</code>
+       * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 11;</code>
        */
       public Builder addAllKDFMEPMGGHJ(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.DIIIBCMEKMPOuterClass.DIIIBCMEKMP> values) {
@@ -665,7 +665,7 @@ public final class _MapMarkLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 8;</code>
+       * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 11;</code>
        */
       public Builder clearKDFMEPMGGHJ() {
         if (kDFMEPMGGHJBuilder_ == null) {
@@ -678,7 +678,7 @@ public final class _MapMarkLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 8;</code>
+       * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 11;</code>
        */
       public Builder removeKDFMEPMGGHJ(int index) {
         if (kDFMEPMGGHJBuilder_ == null) {
@@ -691,14 +691,14 @@ public final class _MapMarkLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 8;</code>
+       * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 11;</code>
        */
       public emu.grasscutter.net.proto.DIIIBCMEKMPOuterClass.DIIIBCMEKMP.Builder getKDFMEPMGGHJBuilder(
           int index) {
         return getKDFMEPMGGHJFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 8;</code>
+       * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 11;</code>
        */
       public emu.grasscutter.net.proto.DIIIBCMEKMPOuterClass.DIIIBCMEKMPOrBuilder getKDFMEPMGGHJOrBuilder(
           int index) {
@@ -708,7 +708,7 @@ public final class _MapMarkLevelInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 8;</code>
+       * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 11;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.DIIIBCMEKMPOuterClass.DIIIBCMEKMPOrBuilder> 
            getKDFMEPMGGHJOrBuilderList() {
@@ -719,14 +719,14 @@ public final class _MapMarkLevelInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 8;</code>
+       * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 11;</code>
        */
       public emu.grasscutter.net.proto.DIIIBCMEKMPOuterClass.DIIIBCMEKMP.Builder addKDFMEPMGGHJBuilder() {
         return getKDFMEPMGGHJFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.DIIIBCMEKMPOuterClass.DIIIBCMEKMP.getDefaultInstance());
       }
       /**
-       * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 8;</code>
+       * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 11;</code>
        */
       public emu.grasscutter.net.proto.DIIIBCMEKMPOuterClass.DIIIBCMEKMP.Builder addKDFMEPMGGHJBuilder(
           int index) {
@@ -734,7 +734,7 @@ public final class _MapMarkLevelInfoOuterClass {
             index, emu.grasscutter.net.proto.DIIIBCMEKMPOuterClass.DIIIBCMEKMP.getDefaultInstance());
       }
       /**
-       * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 8;</code>
+       * <code>repeated .DIIIBCMEKMP KDFMEPMGGHJ = 11;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.DIIIBCMEKMPOuterClass.DIIIBCMEKMP.Builder> 
            getKDFMEPMGGHJBuilderList() {
@@ -823,7 +823,7 @@ public final class _MapMarkLevelInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\027_MapMarkLevelInfo.proto\032\021DIIIBCMEKMP.p" +
       "roto\"6\n\021_MapMarkLevelInfo\022!\n\013KDFMEPMGGHJ" +
-      "\030\010 \003(\0132\014.DIIIBCMEKMPB8\n\031emu.grasscutter." +
+      "\030\013 \003(\0132\014.DIIIBCMEKMPB8\n\031emu.grasscutter." +
       "net.protoB\033_MapMarkLevelInfoOuterClassb\006" +
       "proto3"
     };

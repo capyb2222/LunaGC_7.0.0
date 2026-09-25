@@ -5,6 +5,6 @@ option java_outer_classname = "FleurFairDungeonSectionInfoOuterClass";
 
 message FleurFairDungeonSectionInfo {
 	uint32 open_time = 1;
-	bool is_open = 2;
-	uint32 section_id = 6;
+	bool is_open = 14;
+	uint32 section_id = 4;
 }

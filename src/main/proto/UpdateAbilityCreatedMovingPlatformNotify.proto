@@ -9,6 +9,6 @@ message UpdateAbilityCreatedMovingPlatformNotify {
 		OP_ACTIVATE = 1;
 		OP_DEACTIVATE = 2;
 	}
-	OpType op_type = 2;
-	uint32 entity_id = 11;
+	OpType op_type = 14;
+	uint32 entity_id = 1;
 }

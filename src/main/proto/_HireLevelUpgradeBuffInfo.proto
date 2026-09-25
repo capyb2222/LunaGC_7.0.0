@@ -4,5 +4,5 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "_HireLevelUpgradeBuffInfoOuterClass";
 
 message _HireLevelUpgradeBuffInfo {
-	repeated uint32 MOLFPGIEHLM = 12;
+	repeated uint32 MOLFPGIEHLM = 9;
 }

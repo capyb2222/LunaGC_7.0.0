@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "BHJLAGLDHCOOuterClass";
 
 message BHJLAGLDHCO {
-	bool is_finish = 3;
+	bool is_finish = 1;
 	uint32 finish_time = 12;
-	uint32 BLCPLGCJEBJ = 13;
+	uint32 BLCPLGCJEBJ = 4;
 }

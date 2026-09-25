@@ -19,11 +19,11 @@ public final class _GCGPveInfiniteDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>map&lt;uint32, uint32&gt; ELGGPGHLKIH = 2;</code>
+     * <code>map&lt;uint32, uint32&gt; ELGGPGHLKIH = 3;</code>
      */
     int getELGGPGHLKIHCount();
     /**
-     * <code>map&lt;uint32, uint32&gt; ELGGPGHLKIH = 2;</code>
+     * <code>map&lt;uint32, uint32&gt; ELGGPGHLKIH = 3;</code>
      */
     boolean containsELGGPGHLKIH(
         int key);
@@ -34,26 +34,26 @@ public final class _GCGPveInfiniteDetailInfoOuterClass {
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getELGGPGHLKIH();
     /**
-     * <code>map&lt;uint32, uint32&gt; ELGGPGHLKIH = 2;</code>
+     * <code>map&lt;uint32, uint32&gt; ELGGPGHLKIH = 3;</code>
      */
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getELGGPGHLKIHMap();
     /**
-     * <code>map&lt;uint32, uint32&gt; ELGGPGHLKIH = 2;</code>
+     * <code>map&lt;uint32, uint32&gt; ELGGPGHLKIH = 3;</code>
      */
 
     int getELGGPGHLKIHOrDefault(
         int key,
         int defaultValue);
     /**
-     * <code>map&lt;uint32, uint32&gt; ELGGPGHLKIH = 2;</code>
+     * <code>map&lt;uint32, uint32&gt; ELGGPGHLKIH = 3;</code>
      */
 
     int getELGGPGHLKIHOrThrow(
         int key);
 
     /**
-     * <code>bool LFAFBLMLCKG = 6;</code>
+     * <code>bool LFAFBLMLCKG = 8;</code>
      * @return The lFAFBLMLCKG.
      */
     boolean getLFAFBLMLCKG();
@@ -104,7 +104,7 @@ public final class _GCGPveInfiniteDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 18: {
+            case 26: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 eLGGPGHLKIH_ = com.google.protobuf.MapField.newMapField(
                     ELGGPGHLKIHDefaultEntryHolder.defaultEntry);
@@ -117,7 +117,7 @@ public final class _GCGPveInfiniteDetailInfoOuterClass {
                   eLGGPGHLKIH__.getKey(), eLGGPGHLKIH__.getValue());
               break;
             }
-            case 48: {
+            case 64: {
 
               lFAFBLMLCKG_ = input.readBool();
               break;
@@ -151,7 +151,7 @@ public final class _GCGPveInfiniteDetailInfoOuterClass {
     protected com.google.protobuf.MapField internalGetMapField(
         int number) {
       switch (number) {
-        case 2:
+        case 3:
           return internalGetELGGPGHLKIH();
         default:
           throw new RuntimeException(
@@ -166,7 +166,7 @@ public final class _GCGPveInfiniteDetailInfoOuterClass {
               emu.grasscutter.net.proto._GCGPveInfiniteDetailInfoOuterClass._GCGPveInfiniteDetailInfo.class, emu.grasscutter.net.proto._GCGPveInfiniteDetailInfoOuterClass._GCGPveInfiniteDetailInfo.Builder.class);
     }
 
-    public static final int ELGGPGHLKIH_FIELD_NUMBER = 2;
+    public static final int ELGGPGHLKIH_FIELD_NUMBER = 3;
     private static final class ELGGPGHLKIHDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, java.lang.Integer> defaultEntry =
@@ -193,7 +193,7 @@ public final class _GCGPveInfiniteDetailInfoOuterClass {
       return internalGetELGGPGHLKIH().getMap().size();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; ELGGPGHLKIH = 2;</code>
+     * <code>map&lt;uint32, uint32&gt; ELGGPGHLKIH = 3;</code>
      */
 
     @java.lang.Override
@@ -211,7 +211,7 @@ public final class _GCGPveInfiniteDetailInfoOuterClass {
       return getELGGPGHLKIHMap();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; ELGGPGHLKIH = 2;</code>
+     * <code>map&lt;uint32, uint32&gt; ELGGPGHLKIH = 3;</code>
      */
     @java.lang.Override
 
@@ -219,7 +219,7 @@ public final class _GCGPveInfiniteDetailInfoOuterClass {
       return internalGetELGGPGHLKIH().getMap();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; ELGGPGHLKIH = 2;</code>
+     * <code>map&lt;uint32, uint32&gt; ELGGPGHLKIH = 3;</code>
      */
     @java.lang.Override
 
@@ -232,7 +232,7 @@ public final class _GCGPveInfiniteDetailInfoOuterClass {
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; ELGGPGHLKIH = 2;</code>
+     * <code>map&lt;uint32, uint32&gt; ELGGPGHLKIH = 3;</code>
      */
     @java.lang.Override
 
@@ -247,10 +247,10 @@ public final class _GCGPveInfiniteDetailInfoOuterClass {
       return map.get(key);
     }
 
-    public static final int LFAFBLMLCKG_FIELD_NUMBER = 6;
+    public static final int LFAFBLMLCKG_FIELD_NUMBER = 8;
     private boolean lFAFBLMLCKG_;
     /**
-     * <code>bool LFAFBLMLCKG = 6;</code>
+     * <code>bool LFAFBLMLCKG = 8;</code>
      * @return The lFAFBLMLCKG.
      */
     @java.lang.Override
@@ -277,9 +277,9 @@ public final class _GCGPveInfiniteDetailInfoOuterClass {
           output,
           internalGetELGGPGHLKIH(),
           ELGGPGHLKIHDefaultEntryHolder.defaultEntry,
-          2);
+          3);
       if (lFAFBLMLCKG_ != false) {
-        output.writeBool(6, lFAFBLMLCKG_);
+        output.writeBool(8, lFAFBLMLCKG_);
       }
       unknownFields.writeTo(output);
     }
@@ -298,11 +298,11 @@ public final class _GCGPveInfiniteDetailInfoOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(2, eLGGPGHLKIH__);
+            .computeMessageSize(3, eLGGPGHLKIH__);
       }
       if (lFAFBLMLCKG_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(6, lFAFBLMLCKG_);
+          .computeBoolSize(8, lFAFBLMLCKG_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -452,7 +452,7 @@ public final class _GCGPveInfiniteDetailInfoOuterClass {
       protected com.google.protobuf.MapField internalGetMapField(
           int number) {
         switch (number) {
-          case 2:
+          case 3:
             return internalGetELGGPGHLKIH();
           default:
             throw new RuntimeException(
@@ -463,7 +463,7 @@ public final class _GCGPveInfiniteDetailInfoOuterClass {
       protected com.google.protobuf.MapField internalGetMutableMapField(
           int number) {
         switch (number) {
-          case 2:
+          case 3:
             return internalGetMutableELGGPGHLKIH();
           default:
             throw new RuntimeException(
@@ -639,7 +639,7 @@ public final class _GCGPveInfiniteDetailInfoOuterClass {
         return internalGetELGGPGHLKIH().getMap().size();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; ELGGPGHLKIH = 2;</code>
+       * <code>map&lt;uint32, uint32&gt; ELGGPGHLKIH = 3;</code>
        */
 
       @java.lang.Override
@@ -657,7 +657,7 @@ public final class _GCGPveInfiniteDetailInfoOuterClass {
         return getELGGPGHLKIHMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; ELGGPGHLKIH = 2;</code>
+       * <code>map&lt;uint32, uint32&gt; ELGGPGHLKIH = 3;</code>
        */
       @java.lang.Override
 
@@ -665,7 +665,7 @@ public final class _GCGPveInfiniteDetailInfoOuterClass {
         return internalGetELGGPGHLKIH().getMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; ELGGPGHLKIH = 2;</code>
+       * <code>map&lt;uint32, uint32&gt; ELGGPGHLKIH = 3;</code>
        */
       @java.lang.Override
 
@@ -678,7 +678,7 @@ public final class _GCGPveInfiniteDetailInfoOuterClass {
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; ELGGPGHLKIH = 2;</code>
+       * <code>map&lt;uint32, uint32&gt; ELGGPGHLKIH = 3;</code>
        */
       @java.lang.Override
 
@@ -699,7 +699,7 @@ public final class _GCGPveInfiniteDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; ELGGPGHLKIH = 2;</code>
+       * <code>map&lt;uint32, uint32&gt; ELGGPGHLKIH = 3;</code>
        */
 
       public Builder removeELGGPGHLKIH(
@@ -718,7 +718,7 @@ public final class _GCGPveInfiniteDetailInfoOuterClass {
         return internalGetMutableELGGPGHLKIH().getMutableMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; ELGGPGHLKIH = 2;</code>
+       * <code>map&lt;uint32, uint32&gt; ELGGPGHLKIH = 3;</code>
        */
       public Builder putELGGPGHLKIH(
           int key,
@@ -730,7 +730,7 @@ public final class _GCGPveInfiniteDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; ELGGPGHLKIH = 2;</code>
+       * <code>map&lt;uint32, uint32&gt; ELGGPGHLKIH = 3;</code>
        */
 
       public Builder putAllELGGPGHLKIH(
@@ -742,7 +742,7 @@ public final class _GCGPveInfiniteDetailInfoOuterClass {
 
       private boolean lFAFBLMLCKG_ ;
       /**
-       * <code>bool LFAFBLMLCKG = 6;</code>
+       * <code>bool LFAFBLMLCKG = 8;</code>
        * @return The lFAFBLMLCKG.
        */
       @java.lang.Override
@@ -750,7 +750,7 @@ public final class _GCGPveInfiniteDetailInfoOuterClass {
         return lFAFBLMLCKG_;
       }
       /**
-       * <code>bool LFAFBLMLCKG = 6;</code>
+       * <code>bool LFAFBLMLCKG = 8;</code>
        * @param value The lFAFBLMLCKG to set.
        * @return This builder for chaining.
        */
@@ -761,7 +761,7 @@ public final class _GCGPveInfiniteDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool LFAFBLMLCKG = 6;</code>
+       * <code>bool LFAFBLMLCKG = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearLFAFBLMLCKG() {
@@ -843,9 +843,9 @@ public final class _GCGPveInfiniteDetailInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\037_GCGPveInfiniteDetailInfo.proto\"\246\001\n\031_G" +
-      "CGPveInfiniteDetailInfo\022@\n\013ELGGPGHLKIH\030\002" +
+      "CGPveInfiniteDetailInfo\022@\n\013ELGGPGHLKIH\030\003" +
       " \003(\0132+._GCGPveInfiniteDetailInfo.ELGGPGH" +
-      "LKIHEntry\022\023\n\013LFAFBLMLCKG\030\006 \001(\010\0322\n\020ELGGPG" +
+      "LKIHEntry\022\023\n\013LFAFBLMLCKG\030\010 \001(\010\0322\n\020ELGGPG" +
       "HLKIHEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\002" +
       "8\001B@\n\031emu.grasscutter.net.protoB#_GCGPve" +
       "InfiniteDetailInfoOuterClassb\006proto3"

@@ -19,35 +19,35 @@ public final class _AquariumDivingLevelEventOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 level_id = 1;</code>
+     * <code>uint32 level_id = 12;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>repeated uint32 _event_param_list = 6;</code>
+     * <code>repeated uint32 _event_param_list = 15;</code>
      * @return A list containing the eventParamList.
      */
     java.util.List<java.lang.Integer> getEventParamListList();
     /**
-     * <code>repeated uint32 _event_param_list = 6;</code>
+     * <code>repeated uint32 _event_param_list = 15;</code>
      * @return The count of eventParamList.
      */
     int getEventParamListCount();
     /**
-     * <code>repeated uint32 _event_param_list = 6;</code>
+     * <code>repeated uint32 _event_param_list = 15;</code>
      * @param index The index of the element to return.
      * @return The eventParamList at the given index.
      */
     int getEventParamList(int index);
 
     /**
-     * <code>._AquariumDivingLevelEventType event_type = 13;</code>
+     * <code>._AquariumDivingLevelEventType event_type = 1;</code>
      * @return The enum numeric value on the wire for eventType.
      */
     int getEventTypeValue();
     /**
-     * <code>._AquariumDivingLevelEventType event_type = 13;</code>
+     * <code>._AquariumDivingLevelEventType event_type = 1;</code>
      * @return The eventType.
      */
     emu.grasscutter.net.proto._AquariumDivingLevelEventTypeOuterClass._AquariumDivingLevelEventType getEventType();
@@ -101,11 +101,17 @@ public final class _AquariumDivingLevelEventOuterClass {
               done = true;
               break;
             case 8: {
+              int rawValue = input.readEnum();
+
+              eventType_ = rawValue;
+              break;
+            }
+            case 96: {
 
               levelId_ = input.readUInt32();
               break;
             }
-            case 48: {
+            case 120: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 EventParamList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -113,7 +119,7 @@ public final class _AquariumDivingLevelEventOuterClass {
               EventParamList_.addInt(input.readUInt32());
               break;
             }
-            case 50: {
+            case 122: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -124,12 +130,6 @@ public final class _AquariumDivingLevelEventOuterClass {
                 EventParamList_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
-              break;
-            }
-            case 104: {
-              int rawValue = input.readEnum();
-
-              eventType_ = rawValue;
               break;
             }
             default: {
@@ -167,10 +167,10 @@ public final class _AquariumDivingLevelEventOuterClass {
               emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent.class, emu.grasscutter.net.proto._AquariumDivingLevelEventOuterClass._AquariumDivingLevelEvent.Builder.class);
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 1;
+    public static final int LEVEL_ID_FIELD_NUMBER = 12;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 1;</code>
+     * <code>uint32 level_id = 12;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -178,10 +178,10 @@ public final class _AquariumDivingLevelEventOuterClass {
       return levelId_;
     }
 
-    public static final int _EVENT_PARAM_LIST_FIELD_NUMBER = 6;
+    public static final int _EVENT_PARAM_LIST_FIELD_NUMBER = 15;
     private com.google.protobuf.Internal.IntList EventParamList_;
     /**
-     * <code>repeated uint32 _event_param_list = 6;</code>
+     * <code>repeated uint32 _event_param_list = 15;</code>
      * @return A list containing the eventParamList.
      */
     @java.lang.Override
@@ -190,14 +190,14 @@ public final class _AquariumDivingLevelEventOuterClass {
       return EventParamList_;
     }
     /**
-     * <code>repeated uint32 _event_param_list = 6;</code>
+     * <code>repeated uint32 _event_param_list = 15;</code>
      * @return The count of eventParamList.
      */
     public int getEventParamListCount() {
       return EventParamList_.size();
     }
     /**
-     * <code>repeated uint32 _event_param_list = 6;</code>
+     * <code>repeated uint32 _event_param_list = 15;</code>
      * @param index The index of the element to return.
      * @return The eventParamList at the given index.
      */
@@ -206,17 +206,17 @@ public final class _AquariumDivingLevelEventOuterClass {
     }
     private int EventParamListMemoizedSerializedSize = -1;
 
-    public static final int EVENT_TYPE_FIELD_NUMBER = 13;
+    public static final int EVENT_TYPE_FIELD_NUMBER = 1;
     private int eventType_;
     /**
-     * <code>._AquariumDivingLevelEventType event_type = 13;</code>
+     * <code>._AquariumDivingLevelEventType event_type = 1;</code>
      * @return The enum numeric value on the wire for eventType.
      */
     @java.lang.Override public int getEventTypeValue() {
       return eventType_;
     }
     /**
-     * <code>._AquariumDivingLevelEventType event_type = 13;</code>
+     * <code>._AquariumDivingLevelEventType event_type = 1;</code>
      * @return The eventType.
      */
     @java.lang.Override public emu.grasscutter.net.proto._AquariumDivingLevelEventTypeOuterClass._AquariumDivingLevelEventType getEventType() {
@@ -240,18 +240,18 @@ public final class _AquariumDivingLevelEventOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
+      if (eventType_ != emu.grasscutter.net.proto._AquariumDivingLevelEventTypeOuterClass._AquariumDivingLevelEventType.AQUARIUM_DIVING_LEVEL_EVENT_NONE.getNumber()) {
+        output.writeEnum(1, eventType_);
+      }
       if (levelId_ != 0) {
-        output.writeUInt32(1, levelId_);
+        output.writeUInt32(12, levelId_);
       }
       if (getEventParamListList().size() > 0) {
-        output.writeUInt32NoTag(50);
+        output.writeUInt32NoTag(122);
         output.writeUInt32NoTag(EventParamListMemoizedSerializedSize);
       }
       for (int i = 0; i < EventParamList_.size(); i++) {
         output.writeUInt32NoTag(EventParamList_.getInt(i));
-      }
-      if (eventType_ != emu.grasscutter.net.proto._AquariumDivingLevelEventTypeOuterClass._AquariumDivingLevelEventType.AQUARIUM_DIVING_LEVEL_EVENT_NONE.getNumber()) {
-        output.writeEnum(13, eventType_);
       }
       unknownFields.writeTo(output);
     }
@@ -262,9 +262,13 @@ public final class _AquariumDivingLevelEventOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (eventType_ != emu.grasscutter.net.proto._AquariumDivingLevelEventTypeOuterClass._AquariumDivingLevelEventType.AQUARIUM_DIVING_LEVEL_EVENT_NONE.getNumber()) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeEnumSize(1, eventType_);
+      }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, levelId_);
+          .computeUInt32Size(12, levelId_);
       }
       {
         int dataSize = 0;
@@ -279,10 +283,6 @@ public final class _AquariumDivingLevelEventOuterClass {
               .computeInt32SizeNoTag(dataSize);
         }
         EventParamListMemoizedSerializedSize = dataSize;
-      }
-      if (eventType_ != emu.grasscutter.net.proto._AquariumDivingLevelEventTypeOuterClass._AquariumDivingLevelEventType.AQUARIUM_DIVING_LEVEL_EVENT_NONE.getNumber()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(13, eventType_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -592,7 +592,7 @@ public final class _AquariumDivingLevelEventOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 1;</code>
+       * <code>uint32 level_id = 12;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -600,7 +600,7 @@ public final class _AquariumDivingLevelEventOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 1;</code>
+       * <code>uint32 level_id = 12;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -611,7 +611,7 @@ public final class _AquariumDivingLevelEventOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 1;</code>
+       * <code>uint32 level_id = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -629,7 +629,7 @@ public final class _AquariumDivingLevelEventOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 _event_param_list = 6;</code>
+       * <code>repeated uint32 _event_param_list = 15;</code>
        * @return A list containing the eventParamList.
        */
       public java.util.List<java.lang.Integer>
@@ -638,14 +638,14 @@ public final class _AquariumDivingLevelEventOuterClass {
                  java.util.Collections.unmodifiableList(EventParamList_) : EventParamList_;
       }
       /**
-       * <code>repeated uint32 _event_param_list = 6;</code>
+       * <code>repeated uint32 _event_param_list = 15;</code>
        * @return The count of eventParamList.
        */
       public int getEventParamListCount() {
         return EventParamList_.size();
       }
       /**
-       * <code>repeated uint32 _event_param_list = 6;</code>
+       * <code>repeated uint32 _event_param_list = 15;</code>
        * @param index The index of the element to return.
        * @return The eventParamList at the given index.
        */
@@ -653,7 +653,7 @@ public final class _AquariumDivingLevelEventOuterClass {
         return EventParamList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 _event_param_list = 6;</code>
+       * <code>repeated uint32 _event_param_list = 15;</code>
        * @param index The index to set the value at.
        * @param value The eventParamList to set.
        * @return This builder for chaining.
@@ -666,7 +666,7 @@ public final class _AquariumDivingLevelEventOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 _event_param_list = 6;</code>
+       * <code>repeated uint32 _event_param_list = 15;</code>
        * @param value The eventParamList to add.
        * @return This builder for chaining.
        */
@@ -677,7 +677,7 @@ public final class _AquariumDivingLevelEventOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 _event_param_list = 6;</code>
+       * <code>repeated uint32 _event_param_list = 15;</code>
        * @param values The eventParamList to add.
        * @return This builder for chaining.
        */
@@ -690,7 +690,7 @@ public final class _AquariumDivingLevelEventOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 _event_param_list = 6;</code>
+       * <code>repeated uint32 _event_param_list = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearEventParamList() {
@@ -702,14 +702,14 @@ public final class _AquariumDivingLevelEventOuterClass {
 
       private int eventType_ = 0;
       /**
-       * <code>._AquariumDivingLevelEventType event_type = 13;</code>
+       * <code>._AquariumDivingLevelEventType event_type = 1;</code>
        * @return The enum numeric value on the wire for eventType.
        */
       @java.lang.Override public int getEventTypeValue() {
         return eventType_;
       }
       /**
-       * <code>._AquariumDivingLevelEventType event_type = 13;</code>
+       * <code>._AquariumDivingLevelEventType event_type = 1;</code>
        * @param value The enum numeric value on the wire for eventType to set.
        * @return This builder for chaining.
        */
@@ -720,7 +720,7 @@ public final class _AquariumDivingLevelEventOuterClass {
         return this;
       }
       /**
-       * <code>._AquariumDivingLevelEventType event_type = 13;</code>
+       * <code>._AquariumDivingLevelEventType event_type = 1;</code>
        * @return The eventType.
        */
       @java.lang.Override
@@ -730,7 +730,7 @@ public final class _AquariumDivingLevelEventOuterClass {
         return result == null ? emu.grasscutter.net.proto._AquariumDivingLevelEventTypeOuterClass._AquariumDivingLevelEventType.UNRECOGNIZED : result;
       }
       /**
-       * <code>._AquariumDivingLevelEventType event_type = 13;</code>
+       * <code>._AquariumDivingLevelEventType event_type = 1;</code>
        * @param value The eventType to set.
        * @return This builder for chaining.
        */
@@ -744,7 +744,7 @@ public final class _AquariumDivingLevelEventOuterClass {
         return this;
       }
       /**
-       * <code>._AquariumDivingLevelEventType event_type = 13;</code>
+       * <code>._AquariumDivingLevelEventType event_type = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearEventType() {
@@ -822,8 +822,8 @@ public final class _AquariumDivingLevelEventOuterClass {
     java.lang.String[] descriptorData = {
       "\n\037_AquariumDivingLevelEvent.proto\032#_Aqua" +
       "riumDivingLevelEventType.proto\"|\n\031_Aquar" +
-      "iumDivingLevelEvent\022\020\n\010level_id\030\001 \001(\r\022\031\n" +
-      "\021_event_param_list\030\006 \003(\r\0222\n\nevent_type\030\r" +
+      "iumDivingLevelEvent\022\020\n\010level_id\030\014 \001(\r\022\031\n" +
+      "\021_event_param_list\030\017 \003(\r\0222\n\nevent_type\030\001" +
       " \001(\0162\036._AquariumDivingLevelEventTypeB@\n\031" +
       "emu.grasscutter.net.protoB#_AquariumDivi" +
       "ngLevelEventOuterClassb\006proto3"

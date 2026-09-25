@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "GetFriendShowNameCardInfoRspOuterClass";
 
 message GetFriendShowNameCardInfoRsp {
-	repeated uint32 show_name_card_id_list = 8;
-	uint32 uid = 13;
-	int32 retcode = 14;
+	repeated uint32 show_name_card_id_list = 6;
+	uint32 uid = 14;
+	int32 retcode = 12;
 }

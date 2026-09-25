@@ -6,10 +6,10 @@ option java_outer_classname = "AbilityIdentifierOuterClass";
 import "LJGEHMILKEM.proto";
 
 message AbilityIdentifier {
-	int32 local_id = 2;
-	uint32 instanced_modifier_id = 3;
-	LJGEHMILKEM FPDAONBEBHK = 4;
-	uint32 NBHCDKPBBOI = 6;
-	uint32 DLLKGHINFBJ = 8;
-	uint32 instanced_ability_id = 12;
+	int32 local_id = 8;
+	uint32 instanced_modifier_id = 1;
+	LJGEHMILKEM FPDAONBEBHK = 10;
+	uint32 NBHCDKPBBOI = 15;
+	uint32 DLLKGHINFBJ = 3;
+	uint32 instanced_ability_id = 14;
 }

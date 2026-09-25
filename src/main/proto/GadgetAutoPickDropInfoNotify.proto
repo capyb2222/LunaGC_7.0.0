@@ -7,6 +7,6 @@ import "Item.proto";
 import "_ChestExtraItem.proto";
 
 message GadgetAutoPickDropInfoNotify {
-	repeated Item item_list = 7;
-	repeated _ChestExtraItem _chest_extra_item_list = 14;
+	repeated Item item_list = 2;
+	repeated _ChestExtraItem _chest_extra_item_list = 13;
 }

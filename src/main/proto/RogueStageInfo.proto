@@ -7,19 +7,19 @@ import "RogueShowAvatarTeamInfo.proto";
 import "RoguelikeRuneRecord.proto";
 
 message RogueStageInfo {
-	repeated RoguelikeRuneRecord rune_record_list = 1;
-	uint32 cur_level = 3;
-	bool is_taken_reward = 4;
-	bool is_open = 6;
-	uint32 KKJFEBAPLHL = 7;
-	uint32 LNLCFJGNECG = 8;
-	bool is_passed = 9;
-	RogueShowAvatarTeamInfo avatar_team = 10;
-	bool DHLBAPDOFMF = 11;
-	bool KAJLCAPNCFA = 12;
-	uint32 stage_id = 13;
-	uint32 JEEEJLIDCCN = 14;
-	uint32 JKCCEMMPJIO = 15;
-	uint32 CPDHCBHKOEC = 186;
-	uint32 revise_monster_level = 535;
+	repeated RoguelikeRuneRecord rune_record_list = 11;
+	uint32 cur_level = 12;
+	bool is_taken_reward = 6;
+	bool is_open = 8;
+	uint32 KKJFEBAPLHL = 50000;
+	uint32 LNLCFJGNECG = 50001;
+	bool is_passed = 3;
+	RogueShowAvatarTeamInfo avatar_team = 9;
+	bool DHLBAPDOFMF = 14;
+	bool KAJLCAPNCFA = 7;
+	uint32 stage_id = 1;
+	uint32 JEEEJLIDCCN = 50002;
+	uint32 JKCCEMMPJIO = 50003;
+	uint32 CPDHCBHKOEC = 50004;
+	uint32 revise_monster_level = 1812;
 }

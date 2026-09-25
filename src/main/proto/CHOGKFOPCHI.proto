@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "CHOGKFOPCHIOuterClass";
 
 message CHOGKFOPCHI {
-	uint32 level_id = 2;
+	uint32 level_id = 11;
 	bool is_open = 10;
-	bool FBHFAMPKPPK = 13;
+	bool FBHFAMPKPPK = 15;
 }

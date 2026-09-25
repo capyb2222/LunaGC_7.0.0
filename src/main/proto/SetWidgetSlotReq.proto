@@ -6,6 +6,6 @@ option java_outer_classname = "SetWidgetSlotReqOuterClass";
 import "WidgetSlotOp.proto";
 
 message SetWidgetSlotReq {
-	WidgetSlotOp op = 6;
-	uint32 material_id = 8;
+	WidgetSlotOp op = 2;
+	uint32 material_id = 12;
 }

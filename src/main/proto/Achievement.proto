@@ -10,9 +10,9 @@ message Achievement {
 		FINISHED = 2;
 		REWARD_TAKEN = 3;
 	}
-	uint32 finish_timestamp = 2;
-	uint32 id = 5;
-	uint32 cur_progress = 6;
-	Status status = 8;
-	uint32 total_progress = 9;
+	uint32 finish_timestamp = 14;
+	uint32 id = 11;
+	uint32 cur_progress = 12;
+	Status status = 3;
+	uint32 total_progress = 10;
 }

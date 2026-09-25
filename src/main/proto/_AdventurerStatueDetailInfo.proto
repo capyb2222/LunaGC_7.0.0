@@ -7,11 +7,11 @@ import "GAEECEOCDEJ.proto";
 import "ItemParam.proto";
 
 message _AdventurerStatueDetailInfo {
-	repeated ItemParam GPBHPMHGEIJ = 4;
-	repeated GAEECEOCDEJ ONPHKHNELAA = 8;
-	uint32 HAEEPFDNNIJ = 9;
-	uint32 MLJLLMKIAEK = 10;
-	repeated ItemParam LHPCAMJGPPN = 11;
-	uint32 DLKAPMLCIGN = 13;
-	repeated uint32 open_stage_list = 14;
+	repeated ItemParam GPBHPMHGEIJ = 50000;
+	repeated GAEECEOCDEJ ONPHKHNELAA = 50001;
+	uint32 HAEEPFDNNIJ = 50002;
+	uint32 MLJLLMKIAEK = 50003;
+	repeated ItemParam LHPCAMJGPPN = 50004;
+	uint32 DLKAPMLCIGN = 50005;
+	repeated uint32 open_stage_list = 15;
 }

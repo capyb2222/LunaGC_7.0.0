@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "AvatarRenameInfoOuterClass";
 
 message AvatarRenameInfo {
-	string avatar_name = 3;
-	uint32 avatar_id = 9;
+	string avatar_name = 1;
+	uint32 avatar_id = 2;
 }

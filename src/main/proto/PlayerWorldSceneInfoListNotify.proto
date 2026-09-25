@@ -7,5 +7,5 @@ import "PlayerWorldSceneInfo.proto";
 
 message PlayerWorldSceneInfoListNotify {
 	repeated PlayerWorldSceneInfo info_list = 5;
-	repeated uint32 unlocked_area_id_list = 1765;
+	repeated uint32 unlocked_area_id_list = 388;
 }

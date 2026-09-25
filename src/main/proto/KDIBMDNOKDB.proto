@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "KDIBMDNOKDBOuterClass";
 
 message KDIBMDNOKDB {
-	bool FBHFAMPKPPK = 1;
-	bool is_open = 8;
+	bool FBHFAMPKPPK = 6;
+	bool is_open = 15;
 	uint32 level_id = 11;
-	bool CLGJGGGKHBF = 14;
-	uint32 camp_id = 15;
+	bool CLGJGGGKHBF = 13;
+	uint32 camp_id = 1;
 }

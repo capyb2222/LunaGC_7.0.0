@@ -7,7 +7,7 @@ import "Uint32Pair.proto";
 import "_AquariumDivingTaskState.proto";
 
 message _AquariumDivingTaskInfo {
-	repeated Uint32Pair _task_progress_pair_list = 1;
-	_AquariumDivingTaskState _task_state = 5;
-	uint32 _aquarium_diving_task_id = 15;
+	repeated Uint32Pair _task_progress_pair_list = 14;
+	_AquariumDivingTaskState _task_state = 9;
+	uint32 _aquarium_diving_task_id = 1;
 }

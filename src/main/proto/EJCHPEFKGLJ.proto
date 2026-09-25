@@ -6,8 +6,8 @@ option java_outer_classname = "EJCHPEFKGLJOuterClass";
 import "CPKAFPOGJKN.proto";
 
 message EJCHPEFKGLJ {
-	repeated uint32 NOBECNCCHLA = 7;
-	repeated CPKAFPOGJKN PAEHFGOIMPA = 8;
-	bool AIFBNCGPEDK = 12;
-	uint32 DEIJOHMBMAO = 13;
+	repeated uint32 NOBECNCCHLA = 10;
+	repeated CPKAFPOGJKN PAEHFGOIMPA = 5;
+	bool AIFBNCGPEDK = 3;
+	uint32 DEIJOHMBMAO = 9;
 }

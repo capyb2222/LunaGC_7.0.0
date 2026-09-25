@@ -19,89 +19,89 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 KNDGADIAKME = 1;</code>
+     * <code>repeated uint32 KNDGADIAKME = 50000;</code>
      * @return A list containing the kNDGADIAKME.
      */
     java.util.List<java.lang.Integer> getKNDGADIAKMEList();
     /**
-     * <code>repeated uint32 KNDGADIAKME = 1;</code>
+     * <code>repeated uint32 KNDGADIAKME = 50000;</code>
      * @return The count of kNDGADIAKME.
      */
     int getKNDGADIAKMECount();
     /**
-     * <code>repeated uint32 KNDGADIAKME = 1;</code>
+     * <code>repeated uint32 KNDGADIAKME = 50000;</code>
      * @param index The index of the element to return.
      * @return The kNDGADIAKME at the given index.
      */
     int getKNDGADIAKME(int index);
 
     /**
-     * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 3;</code>
+     * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 50001;</code>
      */
     java.util.List<emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB> 
         getLINFLLHOJEEList();
     /**
-     * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 3;</code>
+     * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 50001;</code>
      */
     emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB getLINFLLHOJEE(int index);
     /**
-     * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 3;</code>
+     * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 50001;</code>
      */
     int getLINFLLHOJEECount();
     /**
-     * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 3;</code>
+     * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 50001;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFBOrBuilder> 
         getLINFLLHOJEEOrBuilderList();
     /**
-     * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 3;</code>
+     * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 50001;</code>
      */
     emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFBOrBuilder getLINFLLHOJEEOrBuilder(
         int index);
 
     /**
-     * <code>repeated uint32 BBKJJPHJADK = 5;</code>
+     * <code>repeated uint32 BBKJJPHJADK = 50002;</code>
      * @return A list containing the bBKJJPHJADK.
      */
     java.util.List<java.lang.Integer> getBBKJJPHJADKList();
     /**
-     * <code>repeated uint32 BBKJJPHJADK = 5;</code>
+     * <code>repeated uint32 BBKJJPHJADK = 50002;</code>
      * @return The count of bBKJJPHJADK.
      */
     int getBBKJJPHJADKCount();
     /**
-     * <code>repeated uint32 BBKJJPHJADK = 5;</code>
+     * <code>repeated uint32 BBKJJPHJADK = 50002;</code>
      * @param index The index of the element to return.
      * @return The bBKJJPHJADK at the given index.
      */
     int getBBKJJPHJADK(int index);
 
     /**
-     * <code>bool LBCGNOOJDIC = 7;</code>
+     * <code>bool LBCGNOOJDIC = 10;</code>
      * @return The lBCGNOOJDIC.
      */
     boolean getLBCGNOOJDIC();
 
     /**
-     * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 9;</code>
+     * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 50003;</code>
      */
     java.util.List<emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB> 
         getEDECCPJFDAFList();
     /**
-     * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 9;</code>
+     * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 50003;</code>
      */
     emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB getEDECCPJFDAF(int index);
     /**
-     * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 9;</code>
+     * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 50003;</code>
      */
     int getEDECCPJFDAFCount();
     /**
-     * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 9;</code>
+     * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 50003;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFBOrBuilder> 
         getEDECCPJFDAFOrBuilderList();
     /**
-     * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 9;</code>
+     * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 50003;</code>
      */
     emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFBOrBuilder getEDECCPJFDAFOrBuilder(
         int index);
@@ -156,7 +156,12 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 80: {
+
+              lBCGNOOJDIC_ = input.readBool();
+              break;
+            }
+            case 400000: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 kNDGADIAKME_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -164,7 +169,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
               kNDGADIAKME_.addInt(input.readUInt32());
               break;
             }
-            case 10: {
+            case 400002: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -177,7 +182,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 26: {
+            case 400010: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 lINFLLHOJEE_ = new java.util.ArrayList<emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB>();
                 mutable_bitField0_ |= 0x00000002;
@@ -186,7 +191,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB.parser(), extensionRegistry));
               break;
             }
-            case 40: {
+            case 400016: {
               if (!((mutable_bitField0_ & 0x00000004) != 0)) {
                 bBKJJPHJADK_ = newIntList();
                 mutable_bitField0_ |= 0x00000004;
@@ -194,7 +199,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
               bBKJJPHJADK_.addInt(input.readUInt32());
               break;
             }
-            case 42: {
+            case 400018: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000004) != 0) && input.getBytesUntilLimit() > 0) {
@@ -207,12 +212,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 56: {
-
-              lBCGNOOJDIC_ = input.readBool();
-              break;
-            }
-            case 74: {
+            case 400026: {
               if (!((mutable_bitField0_ & 0x00000008) != 0)) {
                 eDECCPJFDAF_ = new java.util.ArrayList<emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB>();
                 mutable_bitField0_ |= 0x00000008;
@@ -265,10 +265,10 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
               emu.grasscutter.net.proto._HideAndSeekV4ActivityDetailInfoOuterClass._HideAndSeekV4ActivityDetailInfo.class, emu.grasscutter.net.proto._HideAndSeekV4ActivityDetailInfoOuterClass._HideAndSeekV4ActivityDetailInfo.Builder.class);
     }
 
-    public static final int KNDGADIAKME_FIELD_NUMBER = 1;
+    public static final int KNDGADIAKME_FIELD_NUMBER = 50000;
     private com.google.protobuf.Internal.IntList kNDGADIAKME_;
     /**
-     * <code>repeated uint32 KNDGADIAKME = 1;</code>
+     * <code>repeated uint32 KNDGADIAKME = 50000;</code>
      * @return A list containing the kNDGADIAKME.
      */
     @java.lang.Override
@@ -277,14 +277,14 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
       return kNDGADIAKME_;
     }
     /**
-     * <code>repeated uint32 KNDGADIAKME = 1;</code>
+     * <code>repeated uint32 KNDGADIAKME = 50000;</code>
      * @return The count of kNDGADIAKME.
      */
     public int getKNDGADIAKMECount() {
       return kNDGADIAKME_.size();
     }
     /**
-     * <code>repeated uint32 KNDGADIAKME = 1;</code>
+     * <code>repeated uint32 KNDGADIAKME = 50000;</code>
      * @param index The index of the element to return.
      * @return The kNDGADIAKME at the given index.
      */
@@ -293,17 +293,17 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
     }
     private int kNDGADIAKMEMemoizedSerializedSize = -1;
 
-    public static final int LINFLLHOJEE_FIELD_NUMBER = 3;
+    public static final int LINFLLHOJEE_FIELD_NUMBER = 50001;
     private java.util.List<emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB> lINFLLHOJEE_;
     /**
-     * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 3;</code>
+     * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 50001;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB> getLINFLLHOJEEList() {
       return lINFLLHOJEE_;
     }
     /**
-     * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 3;</code>
+     * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 50001;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFBOrBuilder> 
@@ -311,21 +311,21 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
       return lINFLLHOJEE_;
     }
     /**
-     * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 3;</code>
+     * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 50001;</code>
      */
     @java.lang.Override
     public int getLINFLLHOJEECount() {
       return lINFLLHOJEE_.size();
     }
     /**
-     * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 3;</code>
+     * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 50001;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB getLINFLLHOJEE(int index) {
       return lINFLLHOJEE_.get(index);
     }
     /**
-     * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 3;</code>
+     * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 50001;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFBOrBuilder getLINFLLHOJEEOrBuilder(
@@ -333,10 +333,10 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
       return lINFLLHOJEE_.get(index);
     }
 
-    public static final int BBKJJPHJADK_FIELD_NUMBER = 5;
+    public static final int BBKJJPHJADK_FIELD_NUMBER = 50002;
     private com.google.protobuf.Internal.IntList bBKJJPHJADK_;
     /**
-     * <code>repeated uint32 BBKJJPHJADK = 5;</code>
+     * <code>repeated uint32 BBKJJPHJADK = 50002;</code>
      * @return A list containing the bBKJJPHJADK.
      */
     @java.lang.Override
@@ -345,14 +345,14 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
       return bBKJJPHJADK_;
     }
     /**
-     * <code>repeated uint32 BBKJJPHJADK = 5;</code>
+     * <code>repeated uint32 BBKJJPHJADK = 50002;</code>
      * @return The count of bBKJJPHJADK.
      */
     public int getBBKJJPHJADKCount() {
       return bBKJJPHJADK_.size();
     }
     /**
-     * <code>repeated uint32 BBKJJPHJADK = 5;</code>
+     * <code>repeated uint32 BBKJJPHJADK = 50002;</code>
      * @param index The index of the element to return.
      * @return The bBKJJPHJADK at the given index.
      */
@@ -361,10 +361,10 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
     }
     private int bBKJJPHJADKMemoizedSerializedSize = -1;
 
-    public static final int LBCGNOOJDIC_FIELD_NUMBER = 7;
+    public static final int LBCGNOOJDIC_FIELD_NUMBER = 10;
     private boolean lBCGNOOJDIC_;
     /**
-     * <code>bool LBCGNOOJDIC = 7;</code>
+     * <code>bool LBCGNOOJDIC = 10;</code>
      * @return The lBCGNOOJDIC.
      */
     @java.lang.Override
@@ -372,17 +372,17 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
       return lBCGNOOJDIC_;
     }
 
-    public static final int EDECCPJFDAF_FIELD_NUMBER = 9;
+    public static final int EDECCPJFDAF_FIELD_NUMBER = 50003;
     private java.util.List<emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB> eDECCPJFDAF_;
     /**
-     * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 9;</code>
+     * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 50003;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB> getEDECCPJFDAFList() {
       return eDECCPJFDAF_;
     }
     /**
-     * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 9;</code>
+     * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 50003;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFBOrBuilder> 
@@ -390,21 +390,21 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
       return eDECCPJFDAF_;
     }
     /**
-     * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 9;</code>
+     * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 50003;</code>
      */
     @java.lang.Override
     public int getEDECCPJFDAFCount() {
       return eDECCPJFDAF_.size();
     }
     /**
-     * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 9;</code>
+     * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 50003;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB getEDECCPJFDAF(int index) {
       return eDECCPJFDAF_.get(index);
     }
     /**
-     * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 9;</code>
+     * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 50003;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFBOrBuilder getEDECCPJFDAFOrBuilder(
@@ -427,28 +427,28 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
+      if (lBCGNOOJDIC_ != false) {
+        output.writeBool(10, lBCGNOOJDIC_);
+      }
       if (getKNDGADIAKMEList().size() > 0) {
-        output.writeUInt32NoTag(10);
+        output.writeUInt32NoTag(400002);
         output.writeUInt32NoTag(kNDGADIAKMEMemoizedSerializedSize);
       }
       for (int i = 0; i < kNDGADIAKME_.size(); i++) {
         output.writeUInt32NoTag(kNDGADIAKME_.getInt(i));
       }
       for (int i = 0; i < lINFLLHOJEE_.size(); i++) {
-        output.writeMessage(3, lINFLLHOJEE_.get(i));
+        output.writeMessage(50001, lINFLLHOJEE_.get(i));
       }
       if (getBBKJJPHJADKList().size() > 0) {
-        output.writeUInt32NoTag(42);
+        output.writeUInt32NoTag(400018);
         output.writeUInt32NoTag(bBKJJPHJADKMemoizedSerializedSize);
       }
       for (int i = 0; i < bBKJJPHJADK_.size(); i++) {
         output.writeUInt32NoTag(bBKJJPHJADK_.getInt(i));
       }
-      if (lBCGNOOJDIC_ != false) {
-        output.writeBool(7, lBCGNOOJDIC_);
-      }
       for (int i = 0; i < eDECCPJFDAF_.size(); i++) {
-        output.writeMessage(9, eDECCPJFDAF_.get(i));
+        output.writeMessage(50003, eDECCPJFDAF_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -459,6 +459,10 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (lBCGNOOJDIC_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(10, lBCGNOOJDIC_);
+      }
       {
         int dataSize = 0;
         for (int i = 0; i < kNDGADIAKME_.size(); i++) {
@@ -467,7 +471,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
         }
         size += dataSize;
         if (!getKNDGADIAKMEList().isEmpty()) {
-          size += 1;
+          size += 3;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
@@ -475,7 +479,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
       }
       for (int i = 0; i < lINFLLHOJEE_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, lINFLLHOJEE_.get(i));
+          .computeMessageSize(50001, lINFLLHOJEE_.get(i));
       }
       {
         int dataSize = 0;
@@ -485,19 +489,15 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
         }
         size += dataSize;
         if (!getBBKJJPHJADKList().isEmpty()) {
-          size += 1;
+          size += 3;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
         bBKJJPHJADKMemoizedSerializedSize = dataSize;
       }
-      if (lBCGNOOJDIC_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(7, lBCGNOOJDIC_);
-      }
       for (int i = 0; i < eDECCPJFDAF_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, eDECCPJFDAF_.get(i));
+          .computeMessageSize(50003, eDECCPJFDAF_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -924,7 +924,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 KNDGADIAKME = 1;</code>
+       * <code>repeated uint32 KNDGADIAKME = 50000;</code>
        * @return A list containing the kNDGADIAKME.
        */
       public java.util.List<java.lang.Integer>
@@ -933,14 +933,14 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
                  java.util.Collections.unmodifiableList(kNDGADIAKME_) : kNDGADIAKME_;
       }
       /**
-       * <code>repeated uint32 KNDGADIAKME = 1;</code>
+       * <code>repeated uint32 KNDGADIAKME = 50000;</code>
        * @return The count of kNDGADIAKME.
        */
       public int getKNDGADIAKMECount() {
         return kNDGADIAKME_.size();
       }
       /**
-       * <code>repeated uint32 KNDGADIAKME = 1;</code>
+       * <code>repeated uint32 KNDGADIAKME = 50000;</code>
        * @param index The index of the element to return.
        * @return The kNDGADIAKME at the given index.
        */
@@ -948,7 +948,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
         return kNDGADIAKME_.getInt(index);
       }
       /**
-       * <code>repeated uint32 KNDGADIAKME = 1;</code>
+       * <code>repeated uint32 KNDGADIAKME = 50000;</code>
        * @param index The index to set the value at.
        * @param value The kNDGADIAKME to set.
        * @return This builder for chaining.
@@ -961,7 +961,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 KNDGADIAKME = 1;</code>
+       * <code>repeated uint32 KNDGADIAKME = 50000;</code>
        * @param value The kNDGADIAKME to add.
        * @return This builder for chaining.
        */
@@ -972,7 +972,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 KNDGADIAKME = 1;</code>
+       * <code>repeated uint32 KNDGADIAKME = 50000;</code>
        * @param values The kNDGADIAKME to add.
        * @return This builder for chaining.
        */
@@ -985,7 +985,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 KNDGADIAKME = 1;</code>
+       * <code>repeated uint32 KNDGADIAKME = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearKNDGADIAKME() {
@@ -1008,7 +1008,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
           emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB, emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB.Builder, emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFBOrBuilder> lINFLLHOJEEBuilder_;
 
       /**
-       * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 3;</code>
+       * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 50001;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB> getLINFLLHOJEEList() {
         if (lINFLLHOJEEBuilder_ == null) {
@@ -1018,7 +1018,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 3;</code>
+       * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 50001;</code>
        */
       public int getLINFLLHOJEECount() {
         if (lINFLLHOJEEBuilder_ == null) {
@@ -1028,7 +1028,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 3;</code>
+       * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 50001;</code>
        */
       public emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB getLINFLLHOJEE(int index) {
         if (lINFLLHOJEEBuilder_ == null) {
@@ -1038,7 +1038,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 3;</code>
+       * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 50001;</code>
        */
       public Builder setLINFLLHOJEE(
           int index, emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB value) {
@@ -1055,7 +1055,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 3;</code>
+       * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 50001;</code>
        */
       public Builder setLINFLLHOJEE(
           int index, emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB.Builder builderForValue) {
@@ -1069,7 +1069,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 3;</code>
+       * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 50001;</code>
        */
       public Builder addLINFLLHOJEE(emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB value) {
         if (lINFLLHOJEEBuilder_ == null) {
@@ -1085,7 +1085,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 3;</code>
+       * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 50001;</code>
        */
       public Builder addLINFLLHOJEE(
           int index, emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB value) {
@@ -1102,7 +1102,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 3;</code>
+       * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 50001;</code>
        */
       public Builder addLINFLLHOJEE(
           emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB.Builder builderForValue) {
@@ -1116,7 +1116,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 3;</code>
+       * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 50001;</code>
        */
       public Builder addLINFLLHOJEE(
           int index, emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB.Builder builderForValue) {
@@ -1130,7 +1130,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 3;</code>
+       * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 50001;</code>
        */
       public Builder addAllLINFLLHOJEE(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB> values) {
@@ -1145,7 +1145,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 3;</code>
+       * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 50001;</code>
        */
       public Builder clearLINFLLHOJEE() {
         if (lINFLLHOJEEBuilder_ == null) {
@@ -1158,7 +1158,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 3;</code>
+       * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 50001;</code>
        */
       public Builder removeLINFLLHOJEE(int index) {
         if (lINFLLHOJEEBuilder_ == null) {
@@ -1171,14 +1171,14 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 3;</code>
+       * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 50001;</code>
        */
       public emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB.Builder getLINFLLHOJEEBuilder(
           int index) {
         return getLINFLLHOJEEFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 3;</code>
+       * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 50001;</code>
        */
       public emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFBOrBuilder getLINFLLHOJEEOrBuilder(
           int index) {
@@ -1188,7 +1188,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 3;</code>
+       * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 50001;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFBOrBuilder> 
            getLINFLLHOJEEOrBuilderList() {
@@ -1199,14 +1199,14 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 3;</code>
+       * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 50001;</code>
        */
       public emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB.Builder addLINFLLHOJEEBuilder() {
         return getLINFLLHOJEEFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB.getDefaultInstance());
       }
       /**
-       * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 3;</code>
+       * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 50001;</code>
        */
       public emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB.Builder addLINFLLHOJEEBuilder(
           int index) {
@@ -1214,7 +1214,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB.getDefaultInstance());
       }
       /**
-       * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 3;</code>
+       * <code>repeated .BCMGBIKCCFB LINFLLHOJEE = 50001;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB.Builder> 
            getLINFLLHOJEEBuilderList() {
@@ -1243,7 +1243,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 BBKJJPHJADK = 5;</code>
+       * <code>repeated uint32 BBKJJPHJADK = 50002;</code>
        * @return A list containing the bBKJJPHJADK.
        */
       public java.util.List<java.lang.Integer>
@@ -1252,14 +1252,14 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
                  java.util.Collections.unmodifiableList(bBKJJPHJADK_) : bBKJJPHJADK_;
       }
       /**
-       * <code>repeated uint32 BBKJJPHJADK = 5;</code>
+       * <code>repeated uint32 BBKJJPHJADK = 50002;</code>
        * @return The count of bBKJJPHJADK.
        */
       public int getBBKJJPHJADKCount() {
         return bBKJJPHJADK_.size();
       }
       /**
-       * <code>repeated uint32 BBKJJPHJADK = 5;</code>
+       * <code>repeated uint32 BBKJJPHJADK = 50002;</code>
        * @param index The index of the element to return.
        * @return The bBKJJPHJADK at the given index.
        */
@@ -1267,7 +1267,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
         return bBKJJPHJADK_.getInt(index);
       }
       /**
-       * <code>repeated uint32 BBKJJPHJADK = 5;</code>
+       * <code>repeated uint32 BBKJJPHJADK = 50002;</code>
        * @param index The index to set the value at.
        * @param value The bBKJJPHJADK to set.
        * @return This builder for chaining.
@@ -1280,7 +1280,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 BBKJJPHJADK = 5;</code>
+       * <code>repeated uint32 BBKJJPHJADK = 50002;</code>
        * @param value The bBKJJPHJADK to add.
        * @return This builder for chaining.
        */
@@ -1291,7 +1291,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 BBKJJPHJADK = 5;</code>
+       * <code>repeated uint32 BBKJJPHJADK = 50002;</code>
        * @param values The bBKJJPHJADK to add.
        * @return This builder for chaining.
        */
@@ -1304,7 +1304,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 BBKJJPHJADK = 5;</code>
+       * <code>repeated uint32 BBKJJPHJADK = 50002;</code>
        * @return This builder for chaining.
        */
       public Builder clearBBKJJPHJADK() {
@@ -1316,7 +1316,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
 
       private boolean lBCGNOOJDIC_ ;
       /**
-       * <code>bool LBCGNOOJDIC = 7;</code>
+       * <code>bool LBCGNOOJDIC = 10;</code>
        * @return The lBCGNOOJDIC.
        */
       @java.lang.Override
@@ -1324,7 +1324,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
         return lBCGNOOJDIC_;
       }
       /**
-       * <code>bool LBCGNOOJDIC = 7;</code>
+       * <code>bool LBCGNOOJDIC = 10;</code>
        * @param value The lBCGNOOJDIC to set.
        * @return This builder for chaining.
        */
@@ -1335,7 +1335,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool LBCGNOOJDIC = 7;</code>
+       * <code>bool LBCGNOOJDIC = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearLBCGNOOJDIC() {
@@ -1358,7 +1358,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
           emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB, emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB.Builder, emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFBOrBuilder> eDECCPJFDAFBuilder_;
 
       /**
-       * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 9;</code>
+       * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 50003;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB> getEDECCPJFDAFList() {
         if (eDECCPJFDAFBuilder_ == null) {
@@ -1368,7 +1368,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 9;</code>
+       * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 50003;</code>
        */
       public int getEDECCPJFDAFCount() {
         if (eDECCPJFDAFBuilder_ == null) {
@@ -1378,7 +1378,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 9;</code>
+       * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 50003;</code>
        */
       public emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB getEDECCPJFDAF(int index) {
         if (eDECCPJFDAFBuilder_ == null) {
@@ -1388,7 +1388,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 9;</code>
+       * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 50003;</code>
        */
       public Builder setEDECCPJFDAF(
           int index, emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB value) {
@@ -1405,7 +1405,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 9;</code>
+       * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 50003;</code>
        */
       public Builder setEDECCPJFDAF(
           int index, emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB.Builder builderForValue) {
@@ -1419,7 +1419,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 9;</code>
+       * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 50003;</code>
        */
       public Builder addEDECCPJFDAF(emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB value) {
         if (eDECCPJFDAFBuilder_ == null) {
@@ -1435,7 +1435,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 9;</code>
+       * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 50003;</code>
        */
       public Builder addEDECCPJFDAF(
           int index, emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB value) {
@@ -1452,7 +1452,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 9;</code>
+       * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 50003;</code>
        */
       public Builder addEDECCPJFDAF(
           emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB.Builder builderForValue) {
@@ -1466,7 +1466,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 9;</code>
+       * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 50003;</code>
        */
       public Builder addEDECCPJFDAF(
           int index, emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB.Builder builderForValue) {
@@ -1480,7 +1480,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 9;</code>
+       * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 50003;</code>
        */
       public Builder addAllEDECCPJFDAF(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB> values) {
@@ -1495,7 +1495,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 9;</code>
+       * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 50003;</code>
        */
       public Builder clearEDECCPJFDAF() {
         if (eDECCPJFDAFBuilder_ == null) {
@@ -1508,7 +1508,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 9;</code>
+       * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 50003;</code>
        */
       public Builder removeEDECCPJFDAF(int index) {
         if (eDECCPJFDAFBuilder_ == null) {
@@ -1521,14 +1521,14 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 9;</code>
+       * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 50003;</code>
        */
       public emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB.Builder getEDECCPJFDAFBuilder(
           int index) {
         return getEDECCPJFDAFFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 9;</code>
+       * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 50003;</code>
        */
       public emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFBOrBuilder getEDECCPJFDAFOrBuilder(
           int index) {
@@ -1538,7 +1538,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 9;</code>
+       * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 50003;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFBOrBuilder> 
            getEDECCPJFDAFOrBuilderList() {
@@ -1549,14 +1549,14 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 9;</code>
+       * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 50003;</code>
        */
       public emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB.Builder addEDECCPJFDAFBuilder() {
         return getEDECCPJFDAFFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB.getDefaultInstance());
       }
       /**
-       * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 9;</code>
+       * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 50003;</code>
        */
       public emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB.Builder addEDECCPJFDAFBuilder(
           int index) {
@@ -1564,7 +1564,7 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB.getDefaultInstance());
       }
       /**
-       * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 9;</code>
+       * <code>repeated .BCMGBIKCCFB EDECCPJFDAF = 50003;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.BCMGBIKCCFBOuterClass.BCMGBIKCCFB.Builder> 
            getEDECCPJFDAFBuilderList() {
@@ -1652,13 +1652,13 @@ public final class _HideAndSeekV4ActivityDetailInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n&_HideAndSeekV4ActivityDetailInfo.proto" +
-      "\032\021BCMGBIKCCFB.proto\"\247\001\n _HideAndSeekV4Ac" +
-      "tivityDetailInfo\022\023\n\013KNDGADIAKME\030\001 \003(\r\022!\n" +
-      "\013LINFLLHOJEE\030\003 \003(\0132\014.BCMGBIKCCFB\022\023\n\013BBKJ" +
-      "JPHJADK\030\005 \003(\r\022\023\n\013LBCGNOOJDIC\030\007 \001(\010\022!\n\013ED" +
-      "ECCPJFDAF\030\t \003(\0132\014.BCMGBIKCCFBBG\n\031emu.gra" +
-      "sscutter.net.protoB*_HideAndSeekV4Activi" +
-      "tyDetailInfoOuterClassb\006proto3"
+      "\032\021BCMGBIKCCFB.proto\"\257\001\n _HideAndSeekV4Ac" +
+      "tivityDetailInfo\022\025\n\013KNDGADIAKME\030\320\206\003 \003(\r\022" +
+      "#\n\013LINFLLHOJEE\030\321\206\003 \003(\0132\014.BCMGBIKCCFB\022\025\n\013" +
+      "BBKJJPHJADK\030\322\206\003 \003(\r\022\023\n\013LBCGNOOJDIC\030\n \001(\010" +
+      "\022#\n\013EDECCPJFDAF\030\323\206\003 \003(\0132\014.BCMGBIKCCFBBG\n" +
+      "\031emu.grasscutter.net.protoB*_HideAndSeek" +
+      "V4ActivityDetailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

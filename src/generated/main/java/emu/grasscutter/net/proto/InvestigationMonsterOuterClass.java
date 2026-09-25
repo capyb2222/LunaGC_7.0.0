@@ -19,48 +19,48 @@ public final class InvestigationMonsterOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 id = 2;</code>
+     * <code>uint32 id = 15;</code>
      * @return The id.
      */
     int getId();
 
     /**
-     * <code>.InvestigationMonster.LockState lock_state = 7;</code>
+     * <code>.InvestigationMonster.LockState lock_state = 3;</code>
      * @return The enum numeric value on the wire for lockState.
      */
     int getLockStateValue();
     /**
-     * <code>.InvestigationMonster.LockState lock_state = 7;</code>
+     * <code>.InvestigationMonster.LockState lock_state = 3;</code>
      * @return The lockState.
      */
     emu.grasscutter.net.proto.InvestigationMonsterOuterClass.InvestigationMonster.LockState getLockState();
 
     /**
-     * <code>uint32 city_id = 13;</code>
+     * <code>uint32 city_id = 9;</code>
      * @return The cityId.
      */
     int getCityId();
 
     /**
-     * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1167;</code>
+     * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1511;</code>
      */
     java.util.List<emu.grasscutter.net.proto._InvestigationMonsterDetailOuterClass._InvestigationMonsterDetail> 
         getInvestigationMonsterDetailListList();
     /**
-     * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1167;</code>
+     * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1511;</code>
      */
     emu.grasscutter.net.proto._InvestigationMonsterDetailOuterClass._InvestigationMonsterDetail getInvestigationMonsterDetailList(int index);
     /**
-     * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1167;</code>
+     * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1511;</code>
      */
     int getInvestigationMonsterDetailListCount();
     /**
-     * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1167;</code>
+     * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1511;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto._InvestigationMonsterDetailOuterClass._InvestigationMonsterDetailOrBuilder> 
         getInvestigationMonsterDetailListOrBuilderList();
     /**
-     * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1167;</code>
+     * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1511;</code>
      */
     emu.grasscutter.net.proto._InvestigationMonsterDetailOuterClass._InvestigationMonsterDetailOrBuilder getInvestigationMonsterDetailListOrBuilder(
         int index);
@@ -113,23 +113,23 @@ public final class InvestigationMonsterOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
-
-              id_ = input.readUInt32();
-              break;
-            }
-            case 56: {
+            case 24: {
               int rawValue = input.readEnum();
 
               lockState_ = rawValue;
               break;
             }
-            case 104: {
+            case 72: {
 
               cityId_ = input.readUInt32();
               break;
             }
-            case 9338: {
+            case 120: {
+
+              id_ = input.readUInt32();
+              break;
+            }
+            case 12090: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 InvestigationMonsterDetailList_ = new java.util.ArrayList<emu.grasscutter.net.proto._InvestigationMonsterDetailOuterClass._InvestigationMonsterDetail>();
                 mutable_bitField0_ |= 0x00000001;
@@ -281,10 +281,10 @@ public final class InvestigationMonsterOuterClass {
       // @@protoc_insertion_point(enum_scope:InvestigationMonster.LockState)
     }
 
-    public static final int ID_FIELD_NUMBER = 2;
+    public static final int ID_FIELD_NUMBER = 15;
     private int id_;
     /**
-     * <code>uint32 id = 2;</code>
+     * <code>uint32 id = 15;</code>
      * @return The id.
      */
     @java.lang.Override
@@ -292,17 +292,17 @@ public final class InvestigationMonsterOuterClass {
       return id_;
     }
 
-    public static final int LOCK_STATE_FIELD_NUMBER = 7;
+    public static final int LOCK_STATE_FIELD_NUMBER = 3;
     private int lockState_;
     /**
-     * <code>.InvestigationMonster.LockState lock_state = 7;</code>
+     * <code>.InvestigationMonster.LockState lock_state = 3;</code>
      * @return The enum numeric value on the wire for lockState.
      */
     @java.lang.Override public int getLockStateValue() {
       return lockState_;
     }
     /**
-     * <code>.InvestigationMonster.LockState lock_state = 7;</code>
+     * <code>.InvestigationMonster.LockState lock_state = 3;</code>
      * @return The lockState.
      */
     @java.lang.Override public emu.grasscutter.net.proto.InvestigationMonsterOuterClass.InvestigationMonster.LockState getLockState() {
@@ -311,10 +311,10 @@ public final class InvestigationMonsterOuterClass {
       return result == null ? emu.grasscutter.net.proto.InvestigationMonsterOuterClass.InvestigationMonster.LockState.UNRECOGNIZED : result;
     }
 
-    public static final int CITY_ID_FIELD_NUMBER = 13;
+    public static final int CITY_ID_FIELD_NUMBER = 9;
     private int cityId_;
     /**
-     * <code>uint32 city_id = 13;</code>
+     * <code>uint32 city_id = 9;</code>
      * @return The cityId.
      */
     @java.lang.Override
@@ -322,17 +322,17 @@ public final class InvestigationMonsterOuterClass {
       return cityId_;
     }
 
-    public static final int _INVESTIGATION_MONSTER_DETAIL_LIST_FIELD_NUMBER = 1167;
+    public static final int _INVESTIGATION_MONSTER_DETAIL_LIST_FIELD_NUMBER = 1511;
     private java.util.List<emu.grasscutter.net.proto._InvestigationMonsterDetailOuterClass._InvestigationMonsterDetail> InvestigationMonsterDetailList_;
     /**
-     * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1167;</code>
+     * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1511;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto._InvestigationMonsterDetailOuterClass._InvestigationMonsterDetail> getInvestigationMonsterDetailListList() {
       return InvestigationMonsterDetailList_;
     }
     /**
-     * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1167;</code>
+     * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1511;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto._InvestigationMonsterDetailOuterClass._InvestigationMonsterDetailOrBuilder> 
@@ -340,21 +340,21 @@ public final class InvestigationMonsterOuterClass {
       return InvestigationMonsterDetailList_;
     }
     /**
-     * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1167;</code>
+     * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1511;</code>
      */
     @java.lang.Override
     public int getInvestigationMonsterDetailListCount() {
       return InvestigationMonsterDetailList_.size();
     }
     /**
-     * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1167;</code>
+     * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1511;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._InvestigationMonsterDetailOuterClass._InvestigationMonsterDetail getInvestigationMonsterDetailList(int index) {
       return InvestigationMonsterDetailList_.get(index);
     }
     /**
-     * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1167;</code>
+     * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1511;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._InvestigationMonsterDetailOuterClass._InvestigationMonsterDetailOrBuilder getInvestigationMonsterDetailListOrBuilder(
@@ -376,17 +376,17 @@ public final class InvestigationMonsterOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (id_ != 0) {
-        output.writeUInt32(2, id_);
-      }
       if (lockState_ != emu.grasscutter.net.proto.InvestigationMonsterOuterClass.InvestigationMonster.LockState.LockState_LOCK_NONE.getNumber()) {
-        output.writeEnum(7, lockState_);
+        output.writeEnum(3, lockState_);
       }
       if (cityId_ != 0) {
-        output.writeUInt32(13, cityId_);
+        output.writeUInt32(9, cityId_);
+      }
+      if (id_ != 0) {
+        output.writeUInt32(15, id_);
       }
       for (int i = 0; i < InvestigationMonsterDetailList_.size(); i++) {
-        output.writeMessage(1167, InvestigationMonsterDetailList_.get(i));
+        output.writeMessage(1511, InvestigationMonsterDetailList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -397,21 +397,21 @@ public final class InvestigationMonsterOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (id_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, id_);
-      }
       if (lockState_ != emu.grasscutter.net.proto.InvestigationMonsterOuterClass.InvestigationMonster.LockState.LockState_LOCK_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(7, lockState_);
+          .computeEnumSize(3, lockState_);
       }
       if (cityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, cityId_);
+          .computeUInt32Size(9, cityId_);
+      }
+      if (id_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(15, id_);
       }
       for (int i = 0; i < InvestigationMonsterDetailList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1167, InvestigationMonsterDetailList_.get(i));
+          .computeMessageSize(1511, InvestigationMonsterDetailList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -756,7 +756,7 @@ public final class InvestigationMonsterOuterClass {
 
       private int id_ ;
       /**
-       * <code>uint32 id = 2;</code>
+       * <code>uint32 id = 15;</code>
        * @return The id.
        */
       @java.lang.Override
@@ -764,7 +764,7 @@ public final class InvestigationMonsterOuterClass {
         return id_;
       }
       /**
-       * <code>uint32 id = 2;</code>
+       * <code>uint32 id = 15;</code>
        * @param value The id to set.
        * @return This builder for chaining.
        */
@@ -775,7 +775,7 @@ public final class InvestigationMonsterOuterClass {
         return this;
       }
       /**
-       * <code>uint32 id = 2;</code>
+       * <code>uint32 id = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearId() {
@@ -787,14 +787,14 @@ public final class InvestigationMonsterOuterClass {
 
       private int lockState_ = 0;
       /**
-       * <code>.InvestigationMonster.LockState lock_state = 7;</code>
+       * <code>.InvestigationMonster.LockState lock_state = 3;</code>
        * @return The enum numeric value on the wire for lockState.
        */
       @java.lang.Override public int getLockStateValue() {
         return lockState_;
       }
       /**
-       * <code>.InvestigationMonster.LockState lock_state = 7;</code>
+       * <code>.InvestigationMonster.LockState lock_state = 3;</code>
        * @param value The enum numeric value on the wire for lockState to set.
        * @return This builder for chaining.
        */
@@ -805,7 +805,7 @@ public final class InvestigationMonsterOuterClass {
         return this;
       }
       /**
-       * <code>.InvestigationMonster.LockState lock_state = 7;</code>
+       * <code>.InvestigationMonster.LockState lock_state = 3;</code>
        * @return The lockState.
        */
       @java.lang.Override
@@ -815,7 +815,7 @@ public final class InvestigationMonsterOuterClass {
         return result == null ? emu.grasscutter.net.proto.InvestigationMonsterOuterClass.InvestigationMonster.LockState.UNRECOGNIZED : result;
       }
       /**
-       * <code>.InvestigationMonster.LockState lock_state = 7;</code>
+       * <code>.InvestigationMonster.LockState lock_state = 3;</code>
        * @param value The lockState to set.
        * @return This builder for chaining.
        */
@@ -829,7 +829,7 @@ public final class InvestigationMonsterOuterClass {
         return this;
       }
       /**
-       * <code>.InvestigationMonster.LockState lock_state = 7;</code>
+       * <code>.InvestigationMonster.LockState lock_state = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearLockState() {
@@ -841,7 +841,7 @@ public final class InvestigationMonsterOuterClass {
 
       private int cityId_ ;
       /**
-       * <code>uint32 city_id = 13;</code>
+       * <code>uint32 city_id = 9;</code>
        * @return The cityId.
        */
       @java.lang.Override
@@ -849,7 +849,7 @@ public final class InvestigationMonsterOuterClass {
         return cityId_;
       }
       /**
-       * <code>uint32 city_id = 13;</code>
+       * <code>uint32 city_id = 9;</code>
        * @param value The cityId to set.
        * @return This builder for chaining.
        */
@@ -860,7 +860,7 @@ public final class InvestigationMonsterOuterClass {
         return this;
       }
       /**
-       * <code>uint32 city_id = 13;</code>
+       * <code>uint32 city_id = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearCityId() {
@@ -883,7 +883,7 @@ public final class InvestigationMonsterOuterClass {
           emu.grasscutter.net.proto._InvestigationMonsterDetailOuterClass._InvestigationMonsterDetail, emu.grasscutter.net.proto._InvestigationMonsterDetailOuterClass._InvestigationMonsterDetail.Builder, emu.grasscutter.net.proto._InvestigationMonsterDetailOuterClass._InvestigationMonsterDetailOrBuilder> InvestigationMonsterDetailListBuilder_;
 
       /**
-       * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1167;</code>
+       * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1511;</code>
        */
       public java.util.List<emu.grasscutter.net.proto._InvestigationMonsterDetailOuterClass._InvestigationMonsterDetail> getInvestigationMonsterDetailListList() {
         if (InvestigationMonsterDetailListBuilder_ == null) {
@@ -893,7 +893,7 @@ public final class InvestigationMonsterOuterClass {
         }
       }
       /**
-       * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1167;</code>
+       * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1511;</code>
        */
       public int getInvestigationMonsterDetailListCount() {
         if (InvestigationMonsterDetailListBuilder_ == null) {
@@ -903,7 +903,7 @@ public final class InvestigationMonsterOuterClass {
         }
       }
       /**
-       * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1167;</code>
+       * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1511;</code>
        */
       public emu.grasscutter.net.proto._InvestigationMonsterDetailOuterClass._InvestigationMonsterDetail getInvestigationMonsterDetailList(int index) {
         if (InvestigationMonsterDetailListBuilder_ == null) {
@@ -913,7 +913,7 @@ public final class InvestigationMonsterOuterClass {
         }
       }
       /**
-       * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1167;</code>
+       * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1511;</code>
        */
       public Builder setInvestigationMonsterDetailList(
           int index, emu.grasscutter.net.proto._InvestigationMonsterDetailOuterClass._InvestigationMonsterDetail value) {
@@ -930,7 +930,7 @@ public final class InvestigationMonsterOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1167;</code>
+       * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1511;</code>
        */
       public Builder setInvestigationMonsterDetailList(
           int index, emu.grasscutter.net.proto._InvestigationMonsterDetailOuterClass._InvestigationMonsterDetail.Builder builderForValue) {
@@ -944,7 +944,7 @@ public final class InvestigationMonsterOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1167;</code>
+       * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1511;</code>
        */
       public Builder addInvestigationMonsterDetailList(emu.grasscutter.net.proto._InvestigationMonsterDetailOuterClass._InvestigationMonsterDetail value) {
         if (InvestigationMonsterDetailListBuilder_ == null) {
@@ -960,7 +960,7 @@ public final class InvestigationMonsterOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1167;</code>
+       * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1511;</code>
        */
       public Builder addInvestigationMonsterDetailList(
           int index, emu.grasscutter.net.proto._InvestigationMonsterDetailOuterClass._InvestigationMonsterDetail value) {
@@ -977,7 +977,7 @@ public final class InvestigationMonsterOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1167;</code>
+       * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1511;</code>
        */
       public Builder addInvestigationMonsterDetailList(
           emu.grasscutter.net.proto._InvestigationMonsterDetailOuterClass._InvestigationMonsterDetail.Builder builderForValue) {
@@ -991,7 +991,7 @@ public final class InvestigationMonsterOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1167;</code>
+       * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1511;</code>
        */
       public Builder addInvestigationMonsterDetailList(
           int index, emu.grasscutter.net.proto._InvestigationMonsterDetailOuterClass._InvestigationMonsterDetail.Builder builderForValue) {
@@ -1005,7 +1005,7 @@ public final class InvestigationMonsterOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1167;</code>
+       * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1511;</code>
        */
       public Builder addAllInvestigationMonsterDetailList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto._InvestigationMonsterDetailOuterClass._InvestigationMonsterDetail> values) {
@@ -1020,7 +1020,7 @@ public final class InvestigationMonsterOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1167;</code>
+       * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1511;</code>
        */
       public Builder clearInvestigationMonsterDetailList() {
         if (InvestigationMonsterDetailListBuilder_ == null) {
@@ -1033,7 +1033,7 @@ public final class InvestigationMonsterOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1167;</code>
+       * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1511;</code>
        */
       public Builder removeInvestigationMonsterDetailList(int index) {
         if (InvestigationMonsterDetailListBuilder_ == null) {
@@ -1046,14 +1046,14 @@ public final class InvestigationMonsterOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1167;</code>
+       * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1511;</code>
        */
       public emu.grasscutter.net.proto._InvestigationMonsterDetailOuterClass._InvestigationMonsterDetail.Builder getInvestigationMonsterDetailListBuilder(
           int index) {
         return getInvestigationMonsterDetailListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1167;</code>
+       * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1511;</code>
        */
       public emu.grasscutter.net.proto._InvestigationMonsterDetailOuterClass._InvestigationMonsterDetailOrBuilder getInvestigationMonsterDetailListOrBuilder(
           int index) {
@@ -1063,7 +1063,7 @@ public final class InvestigationMonsterOuterClass {
         }
       }
       /**
-       * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1167;</code>
+       * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1511;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto._InvestigationMonsterDetailOuterClass._InvestigationMonsterDetailOrBuilder> 
            getInvestigationMonsterDetailListOrBuilderList() {
@@ -1074,14 +1074,14 @@ public final class InvestigationMonsterOuterClass {
         }
       }
       /**
-       * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1167;</code>
+       * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1511;</code>
        */
       public emu.grasscutter.net.proto._InvestigationMonsterDetailOuterClass._InvestigationMonsterDetail.Builder addInvestigationMonsterDetailListBuilder() {
         return getInvestigationMonsterDetailListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto._InvestigationMonsterDetailOuterClass._InvestigationMonsterDetail.getDefaultInstance());
       }
       /**
-       * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1167;</code>
+       * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1511;</code>
        */
       public emu.grasscutter.net.proto._InvestigationMonsterDetailOuterClass._InvestigationMonsterDetail.Builder addInvestigationMonsterDetailListBuilder(
           int index) {
@@ -1089,7 +1089,7 @@ public final class InvestigationMonsterOuterClass {
             index, emu.grasscutter.net.proto._InvestigationMonsterDetailOuterClass._InvestigationMonsterDetail.getDefaultInstance());
       }
       /**
-       * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1167;</code>
+       * <code>repeated ._InvestigationMonsterDetail _investigation_monster_detail_list = 1511;</code>
        */
       public java.util.List<emu.grasscutter.net.proto._InvestigationMonsterDetailOuterClass._InvestigationMonsterDetail.Builder> 
            getInvestigationMonsterDetailListBuilderList() {
@@ -1178,10 +1178,10 @@ public final class InvestigationMonsterOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032InvestigationMonster.proto\032!_Investiga" +
       "tionMonsterDetail.proto\"\363\001\n\024Investigatio" +
-      "nMonster\022\n\n\002id\030\002 \001(\r\0223\n\nlock_state\030\007 \001(\016" +
+      "nMonster\022\n\n\002id\030\017 \001(\r\0223\n\nlock_state\030\003 \001(\016" +
       "2\037.InvestigationMonster.LockState\022\017\n\007cit" +
-      "y_id\030\r \001(\r\022I\n\"_investigation_monster_det" +
-      "ail_list\030\217\t \003(\0132\034._InvestigationMonsterD" +
+      "y_id\030\t \001(\r\022I\n\"_investigation_monster_det" +
+      "ail_list\030\347\013 \003(\0132\034._InvestigationMonsterD" +
       "etail\">\n\tLockState\022\027\n\023LockState_LOCK_NON" +
       "E\020\000\022\030\n\024LockState_LOCK_QUEST\020\001B;\n\031emu.gra" +
       "sscutter.net.protoB\036InvestigationMonster" +

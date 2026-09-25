@@ -4,5 +4,5 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "CutSceneExtraParamOuterClass";
 
 message CutSceneExtraParam {
-	repeated double detail_param_list = 9;
+	repeated double detail_param_list = 6;
 }

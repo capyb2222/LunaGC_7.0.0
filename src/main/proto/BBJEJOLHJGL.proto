@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "BBJEJOLHJGLOuterClass";
 
 message BBJEJOLHJGL {
-	uint32 uid = 6;
-	uint32 PIIOLOFCOLB = 11;
+	uint32 uid = 3;
+	uint32 PIIOLOFCOLB = 9;
 }

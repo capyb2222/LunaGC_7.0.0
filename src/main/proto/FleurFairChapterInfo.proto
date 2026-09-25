@@ -5,5 +5,5 @@ option java_outer_classname = "FleurFairChapterInfoOuterClass";
 
 message FleurFairChapterInfo {
 	uint32 open_time = 1;
-	uint32 chapter_id = 7;
+	uint32 chapter_id = 5;
 }

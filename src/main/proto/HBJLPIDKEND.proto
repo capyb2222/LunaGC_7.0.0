@@ -6,5 +6,5 @@ option java_outer_classname = "HBJLPIDKENDOuterClass";
 import "JJAAPEINGAC.proto";
 
 message HBJLPIDKEND {
-	JJAAPEINGAC MKKHNCMBLIG = 12;
+	JJAAPEINGAC MKKHNCMBLIG = 5;
 }

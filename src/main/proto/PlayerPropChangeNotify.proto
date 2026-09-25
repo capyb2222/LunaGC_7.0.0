@@ -5,5 +5,5 @@ option java_outer_classname = "PlayerPropChangeNotifyOuterClass";
 
 message PlayerPropChangeNotify {
 	uint32 prop_type = 4;
-	uint32 prop_delta = 8;
+	uint32 prop_delta = 1;
 }

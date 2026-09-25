@@ -7,5 +7,5 @@ import "WidgetSlotData.proto";
 
 message PlayerWidgetInfo {
 	uint32 uid = 7;
-	repeated WidgetSlotData slot_list = 12;
+	repeated WidgetSlotData slot_list = 10;
 }

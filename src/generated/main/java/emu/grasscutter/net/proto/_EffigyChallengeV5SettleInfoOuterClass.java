@@ -19,82 +19,82 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 difficulty_id = 1;</code>
+     * <code>uint32 difficulty_id = 2;</code>
      * @return The difficultyId.
      */
     int getDifficultyId();
 
     /**
-     * <code>uint32 cost_time = 2;</code>
+     * <code>uint32 cost_time = 6;</code>
      * @return The costTime.
      */
     int getCostTime();
 
     /**
-     * <code>bool is_new_record = 3;</code>
+     * <code>bool is_new_record = 13;</code>
      * @return The isNewRecord.
      */
     boolean getIsNewRecord();
 
     /**
-     * <code>repeated uint32 KEDLFHEGILH = 4;</code>
+     * <code>repeated uint32 KEDLFHEGILH = 8;</code>
      * @return A list containing the kEDLFHEGILH.
      */
     java.util.List<java.lang.Integer> getKEDLFHEGILHList();
     /**
-     * <code>repeated uint32 KEDLFHEGILH = 4;</code>
+     * <code>repeated uint32 KEDLFHEGILH = 8;</code>
      * @return The count of kEDLFHEGILH.
      */
     int getKEDLFHEGILHCount();
     /**
-     * <code>repeated uint32 KEDLFHEGILH = 4;</code>
+     * <code>repeated uint32 KEDLFHEGILH = 8;</code>
      * @param index The index of the element to return.
      * @return The kEDLFHEGILH at the given index.
      */
     int getKEDLFHEGILH(int index);
 
     /**
-     * <code>repeated uint32 player_uid_list = 6;</code>
+     * <code>repeated uint32 player_uid_list = 4;</code>
      * @return A list containing the playerUidList.
      */
     java.util.List<java.lang.Integer> getPlayerUidListList();
     /**
-     * <code>repeated uint32 player_uid_list = 6;</code>
+     * <code>repeated uint32 player_uid_list = 4;</code>
      * @return The count of playerUidList.
      */
     int getPlayerUidListCount();
     /**
-     * <code>repeated uint32 player_uid_list = 6;</code>
+     * <code>repeated uint32 player_uid_list = 4;</code>
      * @param index The index of the element to return.
      * @return The playerUidList at the given index.
      */
     int getPlayerUidList(int index);
 
     /**
-     * <code>bool EFNJOLKMIPC = 8;</code>
+     * <code>bool EFNJOLKMIPC = 7;</code>
      * @return The eFNJOLKMIPC.
      */
     boolean getEFNJOLKMIPC();
 
     /**
-     * <code>repeated uint32 IFHEFIJGEOA = 9;</code>
+     * <code>repeated uint32 IFHEFIJGEOA = 5;</code>
      * @return A list containing the iFHEFIJGEOA.
      */
     java.util.List<java.lang.Integer> getIFHEFIJGEOAList();
     /**
-     * <code>repeated uint32 IFHEFIJGEOA = 9;</code>
+     * <code>repeated uint32 IFHEFIJGEOA = 5;</code>
      * @return The count of iFHEFIJGEOA.
      */
     int getIFHEFIJGEOACount();
     /**
-     * <code>repeated uint32 IFHEFIJGEOA = 9;</code>
+     * <code>repeated uint32 IFHEFIJGEOA = 5;</code>
      * @param index The index of the element to return.
      * @return The iFHEFIJGEOA at the given index.
      */
     int getIFHEFIJGEOA(int index);
 
     /**
-     * <code>uint32 EKFJIIBDCEK = 13;</code>
+     * <code>uint32 EKFJIIBDCEK = 15;</code>
      * @return The eKFJIIBDCEK.
      */
     int getEKFJIIBDCEK();
@@ -148,43 +148,12 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 16: {
 
               difficultyId_ = input.readUInt32();
               break;
             }
-            case 16: {
-
-              costTime_ = input.readUInt32();
-              break;
-            }
-            case 24: {
-
-              isNewRecord_ = input.readBool();
-              break;
-            }
             case 32: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                kEDLFHEGILH_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              kEDLFHEGILH_.addInt(input.readUInt32());
-              break;
-            }
-            case 34: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                kEDLFHEGILH_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                kEDLFHEGILH_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
-              break;
-            }
-            case 48: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 playerUidList_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
@@ -192,7 +161,7 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
               playerUidList_.addInt(input.readUInt32());
               break;
             }
-            case 50: {
+            case 34: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
@@ -205,12 +174,7 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 64: {
-
-              eFNJOLKMIPC_ = input.readBool();
-              break;
-            }
-            case 72: {
+            case 40: {
               if (!((mutable_bitField0_ & 0x00000004) != 0)) {
                 iFHEFIJGEOA_ = newIntList();
                 mutable_bitField0_ |= 0x00000004;
@@ -218,7 +182,7 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
               iFHEFIJGEOA_.addInt(input.readUInt32());
               break;
             }
-            case 74: {
+            case 42: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000004) != 0) && input.getBytesUntilLimit() > 0) {
@@ -231,7 +195,43 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
               input.popLimit(limit);
               break;
             }
+            case 48: {
+
+              costTime_ = input.readUInt32();
+              break;
+            }
+            case 56: {
+
+              eFNJOLKMIPC_ = input.readBool();
+              break;
+            }
+            case 64: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                kEDLFHEGILH_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              kEDLFHEGILH_.addInt(input.readUInt32());
+              break;
+            }
+            case 66: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
+                kEDLFHEGILH_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                kEDLFHEGILH_.addInt(input.readUInt32());
+              }
+              input.popLimit(limit);
+              break;
+            }
             case 104: {
+
+              isNewRecord_ = input.readBool();
+              break;
+            }
+            case 120: {
 
               eKFJIIBDCEK_ = input.readUInt32();
               break;
@@ -251,14 +251,14 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          kEDLFHEGILH_.makeImmutable(); // C
-        }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
           playerUidList_.makeImmutable(); // C
         }
         if (((mutable_bitField0_ & 0x00000004) != 0)) {
           iFHEFIJGEOA_.makeImmutable(); // C
+        }
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          kEDLFHEGILH_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -277,10 +277,10 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
               emu.grasscutter.net.proto._EffigyChallengeV5SettleInfoOuterClass._EffigyChallengeV5SettleInfo.class, emu.grasscutter.net.proto._EffigyChallengeV5SettleInfoOuterClass._EffigyChallengeV5SettleInfo.Builder.class);
     }
 
-    public static final int DIFFICULTY_ID_FIELD_NUMBER = 1;
+    public static final int DIFFICULTY_ID_FIELD_NUMBER = 2;
     private int difficultyId_;
     /**
-     * <code>uint32 difficulty_id = 1;</code>
+     * <code>uint32 difficulty_id = 2;</code>
      * @return The difficultyId.
      */
     @java.lang.Override
@@ -288,10 +288,10 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
       return difficultyId_;
     }
 
-    public static final int COST_TIME_FIELD_NUMBER = 2;
+    public static final int COST_TIME_FIELD_NUMBER = 6;
     private int costTime_;
     /**
-     * <code>uint32 cost_time = 2;</code>
+     * <code>uint32 cost_time = 6;</code>
      * @return The costTime.
      */
     @java.lang.Override
@@ -299,10 +299,10 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
       return costTime_;
     }
 
-    public static final int IS_NEW_RECORD_FIELD_NUMBER = 3;
+    public static final int IS_NEW_RECORD_FIELD_NUMBER = 13;
     private boolean isNewRecord_;
     /**
-     * <code>bool is_new_record = 3;</code>
+     * <code>bool is_new_record = 13;</code>
      * @return The isNewRecord.
      */
     @java.lang.Override
@@ -310,10 +310,10 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
       return isNewRecord_;
     }
 
-    public static final int KEDLFHEGILH_FIELD_NUMBER = 4;
+    public static final int KEDLFHEGILH_FIELD_NUMBER = 8;
     private com.google.protobuf.Internal.IntList kEDLFHEGILH_;
     /**
-     * <code>repeated uint32 KEDLFHEGILH = 4;</code>
+     * <code>repeated uint32 KEDLFHEGILH = 8;</code>
      * @return A list containing the kEDLFHEGILH.
      */
     @java.lang.Override
@@ -322,14 +322,14 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
       return kEDLFHEGILH_;
     }
     /**
-     * <code>repeated uint32 KEDLFHEGILH = 4;</code>
+     * <code>repeated uint32 KEDLFHEGILH = 8;</code>
      * @return The count of kEDLFHEGILH.
      */
     public int getKEDLFHEGILHCount() {
       return kEDLFHEGILH_.size();
     }
     /**
-     * <code>repeated uint32 KEDLFHEGILH = 4;</code>
+     * <code>repeated uint32 KEDLFHEGILH = 8;</code>
      * @param index The index of the element to return.
      * @return The kEDLFHEGILH at the given index.
      */
@@ -338,10 +338,10 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
     }
     private int kEDLFHEGILHMemoizedSerializedSize = -1;
 
-    public static final int PLAYER_UID_LIST_FIELD_NUMBER = 6;
+    public static final int PLAYER_UID_LIST_FIELD_NUMBER = 4;
     private com.google.protobuf.Internal.IntList playerUidList_;
     /**
-     * <code>repeated uint32 player_uid_list = 6;</code>
+     * <code>repeated uint32 player_uid_list = 4;</code>
      * @return A list containing the playerUidList.
      */
     @java.lang.Override
@@ -350,14 +350,14 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
       return playerUidList_;
     }
     /**
-     * <code>repeated uint32 player_uid_list = 6;</code>
+     * <code>repeated uint32 player_uid_list = 4;</code>
      * @return The count of playerUidList.
      */
     public int getPlayerUidListCount() {
       return playerUidList_.size();
     }
     /**
-     * <code>repeated uint32 player_uid_list = 6;</code>
+     * <code>repeated uint32 player_uid_list = 4;</code>
      * @param index The index of the element to return.
      * @return The playerUidList at the given index.
      */
@@ -366,10 +366,10 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
     }
     private int playerUidListMemoizedSerializedSize = -1;
 
-    public static final int EFNJOLKMIPC_FIELD_NUMBER = 8;
+    public static final int EFNJOLKMIPC_FIELD_NUMBER = 7;
     private boolean eFNJOLKMIPC_;
     /**
-     * <code>bool EFNJOLKMIPC = 8;</code>
+     * <code>bool EFNJOLKMIPC = 7;</code>
      * @return The eFNJOLKMIPC.
      */
     @java.lang.Override
@@ -377,10 +377,10 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
       return eFNJOLKMIPC_;
     }
 
-    public static final int IFHEFIJGEOA_FIELD_NUMBER = 9;
+    public static final int IFHEFIJGEOA_FIELD_NUMBER = 5;
     private com.google.protobuf.Internal.IntList iFHEFIJGEOA_;
     /**
-     * <code>repeated uint32 IFHEFIJGEOA = 9;</code>
+     * <code>repeated uint32 IFHEFIJGEOA = 5;</code>
      * @return A list containing the iFHEFIJGEOA.
      */
     @java.lang.Override
@@ -389,14 +389,14 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
       return iFHEFIJGEOA_;
     }
     /**
-     * <code>repeated uint32 IFHEFIJGEOA = 9;</code>
+     * <code>repeated uint32 IFHEFIJGEOA = 5;</code>
      * @return The count of iFHEFIJGEOA.
      */
     public int getIFHEFIJGEOACount() {
       return iFHEFIJGEOA_.size();
     }
     /**
-     * <code>repeated uint32 IFHEFIJGEOA = 9;</code>
+     * <code>repeated uint32 IFHEFIJGEOA = 5;</code>
      * @param index The index of the element to return.
      * @return The iFHEFIJGEOA at the given index.
      */
@@ -405,10 +405,10 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
     }
     private int iFHEFIJGEOAMemoizedSerializedSize = -1;
 
-    public static final int EKFJIIBDCEK_FIELD_NUMBER = 13;
+    public static final int EKFJIIBDCEK_FIELD_NUMBER = 15;
     private int eKFJIIBDCEK_;
     /**
-     * <code>uint32 EKFJIIBDCEK = 13;</code>
+     * <code>uint32 EKFJIIBDCEK = 15;</code>
      * @return The eKFJIIBDCEK.
      */
     @java.lang.Override
@@ -432,40 +432,40 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (difficultyId_ != 0) {
-        output.writeUInt32(1, difficultyId_);
-      }
-      if (costTime_ != 0) {
-        output.writeUInt32(2, costTime_);
-      }
-      if (isNewRecord_ != false) {
-        output.writeBool(3, isNewRecord_);
-      }
-      if (getKEDLFHEGILHList().size() > 0) {
-        output.writeUInt32NoTag(34);
-        output.writeUInt32NoTag(kEDLFHEGILHMemoizedSerializedSize);
-      }
-      for (int i = 0; i < kEDLFHEGILH_.size(); i++) {
-        output.writeUInt32NoTag(kEDLFHEGILH_.getInt(i));
+        output.writeUInt32(2, difficultyId_);
       }
       if (getPlayerUidListList().size() > 0) {
-        output.writeUInt32NoTag(50);
+        output.writeUInt32NoTag(34);
         output.writeUInt32NoTag(playerUidListMemoizedSerializedSize);
       }
       for (int i = 0; i < playerUidList_.size(); i++) {
         output.writeUInt32NoTag(playerUidList_.getInt(i));
       }
-      if (eFNJOLKMIPC_ != false) {
-        output.writeBool(8, eFNJOLKMIPC_);
-      }
       if (getIFHEFIJGEOAList().size() > 0) {
-        output.writeUInt32NoTag(74);
+        output.writeUInt32NoTag(42);
         output.writeUInt32NoTag(iFHEFIJGEOAMemoizedSerializedSize);
       }
       for (int i = 0; i < iFHEFIJGEOA_.size(); i++) {
         output.writeUInt32NoTag(iFHEFIJGEOA_.getInt(i));
       }
+      if (costTime_ != 0) {
+        output.writeUInt32(6, costTime_);
+      }
+      if (eFNJOLKMIPC_ != false) {
+        output.writeBool(7, eFNJOLKMIPC_);
+      }
+      if (getKEDLFHEGILHList().size() > 0) {
+        output.writeUInt32NoTag(66);
+        output.writeUInt32NoTag(kEDLFHEGILHMemoizedSerializedSize);
+      }
+      for (int i = 0; i < kEDLFHEGILH_.size(); i++) {
+        output.writeUInt32NoTag(kEDLFHEGILH_.getInt(i));
+      }
+      if (isNewRecord_ != false) {
+        output.writeBool(13, isNewRecord_);
+      }
       if (eKFJIIBDCEK_ != 0) {
-        output.writeUInt32(13, eKFJIIBDCEK_);
+        output.writeUInt32(15, eKFJIIBDCEK_);
       }
       unknownFields.writeTo(output);
     }
@@ -478,29 +478,7 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
       size = 0;
       if (difficultyId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, difficultyId_);
-      }
-      if (costTime_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, costTime_);
-      }
-      if (isNewRecord_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(3, isNewRecord_);
-      }
-      {
-        int dataSize = 0;
-        for (int i = 0; i < kEDLFHEGILH_.size(); i++) {
-          dataSize += com.google.protobuf.CodedOutputStream
-            .computeUInt32SizeNoTag(kEDLFHEGILH_.getInt(i));
-        }
-        size += dataSize;
-        if (!getKEDLFHEGILHList().isEmpty()) {
-          size += 1;
-          size += com.google.protobuf.CodedOutputStream
-              .computeInt32SizeNoTag(dataSize);
-        }
-        kEDLFHEGILHMemoizedSerializedSize = dataSize;
+          .computeUInt32Size(2, difficultyId_);
       }
       {
         int dataSize = 0;
@@ -516,10 +494,6 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
         }
         playerUidListMemoizedSerializedSize = dataSize;
       }
-      if (eFNJOLKMIPC_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(8, eFNJOLKMIPC_);
-      }
       {
         int dataSize = 0;
         for (int i = 0; i < iFHEFIJGEOA_.size(); i++) {
@@ -534,9 +508,35 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
         }
         iFHEFIJGEOAMemoizedSerializedSize = dataSize;
       }
+      if (costTime_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(6, costTime_);
+      }
+      if (eFNJOLKMIPC_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(7, eFNJOLKMIPC_);
+      }
+      {
+        int dataSize = 0;
+        for (int i = 0; i < kEDLFHEGILH_.size(); i++) {
+          dataSize += com.google.protobuf.CodedOutputStream
+            .computeUInt32SizeNoTag(kEDLFHEGILH_.getInt(i));
+        }
+        size += dataSize;
+        if (!getKEDLFHEGILHList().isEmpty()) {
+          size += 1;
+          size += com.google.protobuf.CodedOutputStream
+              .computeInt32SizeNoTag(dataSize);
+        }
+        kEDLFHEGILHMemoizedSerializedSize = dataSize;
+      }
+      if (isNewRecord_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(13, isNewRecord_);
+      }
       if (eKFJIIBDCEK_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, eKFJIIBDCEK_);
+          .computeUInt32Size(15, eKFJIIBDCEK_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -925,7 +925,7 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
 
       private int difficultyId_ ;
       /**
-       * <code>uint32 difficulty_id = 1;</code>
+       * <code>uint32 difficulty_id = 2;</code>
        * @return The difficultyId.
        */
       @java.lang.Override
@@ -933,7 +933,7 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
         return difficultyId_;
       }
       /**
-       * <code>uint32 difficulty_id = 1;</code>
+       * <code>uint32 difficulty_id = 2;</code>
        * @param value The difficultyId to set.
        * @return This builder for chaining.
        */
@@ -944,7 +944,7 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 difficulty_id = 1;</code>
+       * <code>uint32 difficulty_id = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearDifficultyId() {
@@ -956,7 +956,7 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
 
       private int costTime_ ;
       /**
-       * <code>uint32 cost_time = 2;</code>
+       * <code>uint32 cost_time = 6;</code>
        * @return The costTime.
        */
       @java.lang.Override
@@ -964,7 +964,7 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
         return costTime_;
       }
       /**
-       * <code>uint32 cost_time = 2;</code>
+       * <code>uint32 cost_time = 6;</code>
        * @param value The costTime to set.
        * @return This builder for chaining.
        */
@@ -975,7 +975,7 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 cost_time = 2;</code>
+       * <code>uint32 cost_time = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearCostTime() {
@@ -987,7 +987,7 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
 
       private boolean isNewRecord_ ;
       /**
-       * <code>bool is_new_record = 3;</code>
+       * <code>bool is_new_record = 13;</code>
        * @return The isNewRecord.
        */
       @java.lang.Override
@@ -995,7 +995,7 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
         return isNewRecord_;
       }
       /**
-       * <code>bool is_new_record = 3;</code>
+       * <code>bool is_new_record = 13;</code>
        * @param value The isNewRecord to set.
        * @return This builder for chaining.
        */
@@ -1006,7 +1006,7 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_new_record = 3;</code>
+       * <code>bool is_new_record = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsNewRecord() {
@@ -1024,7 +1024,7 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 KEDLFHEGILH = 4;</code>
+       * <code>repeated uint32 KEDLFHEGILH = 8;</code>
        * @return A list containing the kEDLFHEGILH.
        */
       public java.util.List<java.lang.Integer>
@@ -1033,14 +1033,14 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
                  java.util.Collections.unmodifiableList(kEDLFHEGILH_) : kEDLFHEGILH_;
       }
       /**
-       * <code>repeated uint32 KEDLFHEGILH = 4;</code>
+       * <code>repeated uint32 KEDLFHEGILH = 8;</code>
        * @return The count of kEDLFHEGILH.
        */
       public int getKEDLFHEGILHCount() {
         return kEDLFHEGILH_.size();
       }
       /**
-       * <code>repeated uint32 KEDLFHEGILH = 4;</code>
+       * <code>repeated uint32 KEDLFHEGILH = 8;</code>
        * @param index The index of the element to return.
        * @return The kEDLFHEGILH at the given index.
        */
@@ -1048,7 +1048,7 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
         return kEDLFHEGILH_.getInt(index);
       }
       /**
-       * <code>repeated uint32 KEDLFHEGILH = 4;</code>
+       * <code>repeated uint32 KEDLFHEGILH = 8;</code>
        * @param index The index to set the value at.
        * @param value The kEDLFHEGILH to set.
        * @return This builder for chaining.
@@ -1061,7 +1061,7 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 KEDLFHEGILH = 4;</code>
+       * <code>repeated uint32 KEDLFHEGILH = 8;</code>
        * @param value The kEDLFHEGILH to add.
        * @return This builder for chaining.
        */
@@ -1072,7 +1072,7 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 KEDLFHEGILH = 4;</code>
+       * <code>repeated uint32 KEDLFHEGILH = 8;</code>
        * @param values The kEDLFHEGILH to add.
        * @return This builder for chaining.
        */
@@ -1085,7 +1085,7 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 KEDLFHEGILH = 4;</code>
+       * <code>repeated uint32 KEDLFHEGILH = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearKEDLFHEGILH() {
@@ -1103,7 +1103,7 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 player_uid_list = 6;</code>
+       * <code>repeated uint32 player_uid_list = 4;</code>
        * @return A list containing the playerUidList.
        */
       public java.util.List<java.lang.Integer>
@@ -1112,14 +1112,14 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
                  java.util.Collections.unmodifiableList(playerUidList_) : playerUidList_;
       }
       /**
-       * <code>repeated uint32 player_uid_list = 6;</code>
+       * <code>repeated uint32 player_uid_list = 4;</code>
        * @return The count of playerUidList.
        */
       public int getPlayerUidListCount() {
         return playerUidList_.size();
       }
       /**
-       * <code>repeated uint32 player_uid_list = 6;</code>
+       * <code>repeated uint32 player_uid_list = 4;</code>
        * @param index The index of the element to return.
        * @return The playerUidList at the given index.
        */
@@ -1127,7 +1127,7 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
         return playerUidList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 player_uid_list = 6;</code>
+       * <code>repeated uint32 player_uid_list = 4;</code>
        * @param index The index to set the value at.
        * @param value The playerUidList to set.
        * @return This builder for chaining.
@@ -1140,7 +1140,7 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 player_uid_list = 6;</code>
+       * <code>repeated uint32 player_uid_list = 4;</code>
        * @param value The playerUidList to add.
        * @return This builder for chaining.
        */
@@ -1151,7 +1151,7 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 player_uid_list = 6;</code>
+       * <code>repeated uint32 player_uid_list = 4;</code>
        * @param values The playerUidList to add.
        * @return This builder for chaining.
        */
@@ -1164,7 +1164,7 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 player_uid_list = 6;</code>
+       * <code>repeated uint32 player_uid_list = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearPlayerUidList() {
@@ -1176,7 +1176,7 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
 
       private boolean eFNJOLKMIPC_ ;
       /**
-       * <code>bool EFNJOLKMIPC = 8;</code>
+       * <code>bool EFNJOLKMIPC = 7;</code>
        * @return The eFNJOLKMIPC.
        */
       @java.lang.Override
@@ -1184,7 +1184,7 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
         return eFNJOLKMIPC_;
       }
       /**
-       * <code>bool EFNJOLKMIPC = 8;</code>
+       * <code>bool EFNJOLKMIPC = 7;</code>
        * @param value The eFNJOLKMIPC to set.
        * @return This builder for chaining.
        */
@@ -1195,7 +1195,7 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool EFNJOLKMIPC = 8;</code>
+       * <code>bool EFNJOLKMIPC = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearEFNJOLKMIPC() {
@@ -1213,7 +1213,7 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 IFHEFIJGEOA = 9;</code>
+       * <code>repeated uint32 IFHEFIJGEOA = 5;</code>
        * @return A list containing the iFHEFIJGEOA.
        */
       public java.util.List<java.lang.Integer>
@@ -1222,14 +1222,14 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
                  java.util.Collections.unmodifiableList(iFHEFIJGEOA_) : iFHEFIJGEOA_;
       }
       /**
-       * <code>repeated uint32 IFHEFIJGEOA = 9;</code>
+       * <code>repeated uint32 IFHEFIJGEOA = 5;</code>
        * @return The count of iFHEFIJGEOA.
        */
       public int getIFHEFIJGEOACount() {
         return iFHEFIJGEOA_.size();
       }
       /**
-       * <code>repeated uint32 IFHEFIJGEOA = 9;</code>
+       * <code>repeated uint32 IFHEFIJGEOA = 5;</code>
        * @param index The index of the element to return.
        * @return The iFHEFIJGEOA at the given index.
        */
@@ -1237,7 +1237,7 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
         return iFHEFIJGEOA_.getInt(index);
       }
       /**
-       * <code>repeated uint32 IFHEFIJGEOA = 9;</code>
+       * <code>repeated uint32 IFHEFIJGEOA = 5;</code>
        * @param index The index to set the value at.
        * @param value The iFHEFIJGEOA to set.
        * @return This builder for chaining.
@@ -1250,7 +1250,7 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 IFHEFIJGEOA = 9;</code>
+       * <code>repeated uint32 IFHEFIJGEOA = 5;</code>
        * @param value The iFHEFIJGEOA to add.
        * @return This builder for chaining.
        */
@@ -1261,7 +1261,7 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 IFHEFIJGEOA = 9;</code>
+       * <code>repeated uint32 IFHEFIJGEOA = 5;</code>
        * @param values The iFHEFIJGEOA to add.
        * @return This builder for chaining.
        */
@@ -1274,7 +1274,7 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 IFHEFIJGEOA = 9;</code>
+       * <code>repeated uint32 IFHEFIJGEOA = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearIFHEFIJGEOA() {
@@ -1286,7 +1286,7 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
 
       private int eKFJIIBDCEK_ ;
       /**
-       * <code>uint32 EKFJIIBDCEK = 13;</code>
+       * <code>uint32 EKFJIIBDCEK = 15;</code>
        * @return The eKFJIIBDCEK.
        */
       @java.lang.Override
@@ -1294,7 +1294,7 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
         return eKFJIIBDCEK_;
       }
       /**
-       * <code>uint32 EKFJIIBDCEK = 13;</code>
+       * <code>uint32 EKFJIIBDCEK = 15;</code>
        * @param value The eKFJIIBDCEK to set.
        * @return This builder for chaining.
        */
@@ -1305,7 +1305,7 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 EKFJIIBDCEK = 13;</code>
+       * <code>uint32 EKFJIIBDCEK = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearEKFJIIBDCEK() {
@@ -1383,10 +1383,10 @@ public final class _EffigyChallengeV5SettleInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\"_EffigyChallengeV5SettleInfo.proto\"\314\001\n" +
       "\034_EffigyChallengeV5SettleInfo\022\025\n\rdifficu" +
-      "lty_id\030\001 \001(\r\022\021\n\tcost_time\030\002 \001(\r\022\025\n\ris_ne" +
-      "w_record\030\003 \001(\010\022\023\n\013KEDLFHEGILH\030\004 \003(\r\022\027\n\017p" +
-      "layer_uid_list\030\006 \003(\r\022\023\n\013EFNJOLKMIPC\030\010 \001(" +
-      "\010\022\023\n\013IFHEFIJGEOA\030\t \003(\r\022\023\n\013EKFJIIBDCEK\030\r " +
+      "lty_id\030\002 \001(\r\022\021\n\tcost_time\030\006 \001(\r\022\025\n\ris_ne" +
+      "w_record\030\r \001(\010\022\023\n\013KEDLFHEGILH\030\010 \003(\r\022\027\n\017p" +
+      "layer_uid_list\030\004 \003(\r\022\023\n\013EFNJOLKMIPC\030\007 \001(" +
+      "\010\022\023\n\013IFHEFIJGEOA\030\005 \003(\r\022\023\n\013EKFJIIBDCEK\030\017 " +
       "\001(\rBC\n\031emu.grasscutter.net.protoB&_Effig" +
       "yChallengeV5SettleInfoOuterClassb\006proto3"
     };

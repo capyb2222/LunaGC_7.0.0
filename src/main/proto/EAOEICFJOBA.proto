@@ -6,7 +6,7 @@ option java_outer_classname = "EAOEICFJOBAOuterClass";
 import "Uint32Pair.proto";
 
 message EAOEICFJOBA {
-	bool KEHLBIHCOBB = 1;
-	repeated Uint32Pair BGKNOBGMOIP = 11;
-	uint32 finish_time = 13;
+	bool KEHLBIHCOBB = 13;
+	repeated Uint32Pair BGKNOBGMOIP = 8;
+	uint32 finish_time = 15;
 }

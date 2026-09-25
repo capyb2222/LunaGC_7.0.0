@@ -6,5 +6,5 @@ option java_outer_classname = "InstableSprayDetailInfoOuterClass";
 import "InstableSprayStageInfo.proto";
 
 message InstableSprayDetailInfo {
-	repeated InstableSprayStageInfo stage_info_list = 15;
+	repeated InstableSprayStageInfo stage_info_list = 13;
 }

@@ -6,12 +6,12 @@ option java_outer_classname = "StoreWeightLimitNotifyOuterClass";
 import "StoreType.proto";
 
 message StoreWeightLimitNotify {
-	uint32 DKIEKFJMMIH = 2;
-	uint32 KADABCKKMGA = 3;
-	uint32 reliquary_count_limit = 4;
-	uint32 OAJHCKBKFPP = 6;
-	StoreType store_type = 8;
-	uint32 weight_limit = 9;
-	uint32 furniture_count_limit = 14;
-	uint32 _beyond_hall_facility_count_limit = 15;
+	uint32 DKIEKFJMMIH = 50000;
+	uint32 KADABCKKMGA = 50001;
+	uint32 reliquary_count_limit = 50002;
+	uint32 OAJHCKBKFPP = 50003;
+	StoreType store_type = 5;
+	uint32 weight_limit = 6;
+	uint32 furniture_count_limit = 50004;
+	uint32 _beyond_hall_facility_count_limit = 50005;
 }

@@ -7,7 +7,7 @@ import "AvatarExpeditionInfo.proto";
 
 message AvatarExpeditionAllDataRsp {
 	uint32 expedition_count_limit = 4;
-	map<uint64, AvatarExpeditionInfo> expedition_info_map = 11;
-	int32 retcode = 12;
-	repeated uint32 open_expedition_list = 14;
+	map<uint64, AvatarExpeditionInfo> expedition_info_map = 9;
+	int32 retcode = 8;
+	repeated uint32 open_expedition_list = 11;
 }

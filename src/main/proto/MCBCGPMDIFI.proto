@@ -7,15 +7,15 @@ import "FNMMKAMBICN.proto";
 import "JPGDPIOHKOL.proto";
 
 message MCBCGPMDIFI {
-	repeated JPGDPIOHKOL level_info_list = 1;
-	bool GFMDMENKALA = 2;
-	repeated uint32 NGNKDNFOPDB = 3;
-	repeated uint32 MFKFEOAALPN = 5;
-	bool EIFNKICAKCO = 6;
-	uint32 IKBLLCLNBLH = 7;
-	repeated uint32 EMPMBEDABCD = 8;
-	uint32 IBNKIJCDIKK = 10;
-	repeated FNMMKAMBICN FECECFDPFBP = 11;
-	bool EFIHHNEAFAK = 14;
-	repeated uint32 OODMCABNGPE = 15;
+	repeated JPGDPIOHKOL level_info_list = 15;
+	bool GFMDMENKALA = 50000;
+	repeated uint32 NGNKDNFOPDB = 50001;
+	repeated uint32 MFKFEOAALPN = 50002;
+	bool EIFNKICAKCO = 50003;
+	uint32 IKBLLCLNBLH = 50004;
+	repeated uint32 EMPMBEDABCD = 50005;
+	uint32 IBNKIJCDIKK = 50006;
+	repeated FNMMKAMBICN FECECFDPFBP = 9;
+	bool EFIHHNEAFAK = 50007;
+	repeated uint32 OODMCABNGPE = 50008;
 }

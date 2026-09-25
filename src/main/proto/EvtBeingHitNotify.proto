@@ -7,6 +7,6 @@ import "EvtBeingHitInfo.proto";
 import "ForwardType.proto";
 
 message EvtBeingHitNotify {
-	ForwardType forward_type = 12;
-	EvtBeingHitInfo being_hit_info = 14;
+	ForwardType forward_type = 5;
+	EvtBeingHitInfo being_hit_info = 6;
 }

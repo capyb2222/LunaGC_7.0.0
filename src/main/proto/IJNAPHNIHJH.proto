@@ -6,5 +6,5 @@ option java_outer_classname = "IJNAPHNIHJHOuterClass";
 import "NOIFPHKJJDO.proto";
 
 message IJNAPHNIHJH {
-	repeated NOIFPHKJJDO BLDLLCMNKOI = 12;
+	repeated NOIFPHKJJDO BLDLLCMNKOI = 8;
 }

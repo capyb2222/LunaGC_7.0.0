@@ -8,13 +8,13 @@ import "AbilityInvokeEntryHead.proto";
 import "ForwardType.proto";
 
 message AbilityInvokeEntry {
-	uint32 event_id = 1;
-	double total_tick_time = 5;
-	AbilityInvokeEntryHead head = 6;
-	bool is_ignore_auth = 7;
+	uint32 event_id = 6;
+	double total_tick_time = 12;
+	AbilityInvokeEntryHead head = 9;
+	bool is_ignore_auth = 15;
 	bytes ability_data = 8;
-	AbilityInvokeArgument argument_type = 9;
-	uint32 entity_id = 10;
-	ForwardType forward_type = 12;
-	uint32 forward_peer = 15;
+	AbilityInvokeArgument argument_type = 10;
+	uint32 entity_id = 13;
+	ForwardType forward_type = 7;
+	uint32 forward_peer = 5;
 }

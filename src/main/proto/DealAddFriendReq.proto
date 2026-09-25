@@ -6,6 +6,6 @@ option java_outer_classname = "DealAddFriendReqOuterClass";
 import "DealAddFriendResultType.proto";
 
 message DealAddFriendReq {
-	uint32 target_uid = 3;
-	DealAddFriendResultType deal_add_friend_result = 15;
+	uint32 target_uid = 2;
+	DealAddFriendResultType deal_add_friend_result = 5;
 }

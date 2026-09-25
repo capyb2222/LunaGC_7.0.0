@@ -7,9 +7,9 @@ import "EPHKKEDNINE.proto";
 import "Uint32Pair.proto";
 
 message KLCNKCBIENB {
-	Uint32Pair progress = 4;
-	uint32 hp = 6;
-	uint32 HOAOJBKJFLE = 9;
-	uint32 max_hp = 14;
-	repeated EPHKKEDNINE CLKEEOEPJGB = 15;
+	Uint32Pair progress = 12;
+	uint32 hp = 5;
+	uint32 HOAOJBKJFLE = 6;
+	uint32 max_hp = 15;
+	repeated EPHKKEDNINE CLKEEOEPJGB = 11;
 }

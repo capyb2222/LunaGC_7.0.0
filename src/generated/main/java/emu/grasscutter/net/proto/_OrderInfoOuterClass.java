@@ -25,41 +25,41 @@ public final class _OrderInfoOuterClass {
     int getGCKDBLEMLNM();
 
     /**
-     * <code>bool LKIIDNBEBIM = 8;</code>
+     * <code>bool LKIIDNBEBIM = 7;</code>
      * @return The lKIIDNBEBIM.
      */
     boolean getLKIIDNBEBIM();
 
     /**
-     * <code>repeated uint32 npc_id_list = 9;</code>
+     * <code>repeated uint32 npc_id_list = 10;</code>
      * @return A list containing the npcIdList.
      */
     java.util.List<java.lang.Integer> getNpcIdListList();
     /**
-     * <code>repeated uint32 npc_id_list = 9;</code>
+     * <code>repeated uint32 npc_id_list = 10;</code>
      * @return The count of npcIdList.
      */
     int getNpcIdListCount();
     /**
-     * <code>repeated uint32 npc_id_list = 9;</code>
+     * <code>repeated uint32 npc_id_list = 10;</code>
      * @param index The index of the element to return.
      * @return The npcIdList at the given index.
      */
     int getNpcIdList(int index);
 
     /**
-     * <code>.FGJFGPAPOHE BHHGGMIGHHL = 10;</code>
+     * <code>.FGJFGPAPOHE BHHGGMIGHHL = 5;</code>
      * @return The enum numeric value on the wire for bHHGGMIGHHL.
      */
     int getBHHGGMIGHHLValue();
     /**
-     * <code>.FGJFGPAPOHE BHHGGMIGHHL = 10;</code>
+     * <code>.FGJFGPAPOHE BHHGGMIGHHL = 5;</code>
      * @return The bHHGGMIGHHL.
      */
     emu.grasscutter.net.proto.FGJFGPAPOHEOuterClass.FGJFGPAPOHE getBHHGGMIGHHL();
 
     /**
-     * <code>uint32 id = 11;</code>
+     * <code>uint32 id = 14;</code>
      * @return The id.
      */
     int getId();
@@ -117,12 +117,18 @@ public final class _OrderInfoOuterClass {
               gCKDBLEMLNM_ = input.readUInt32();
               break;
             }
-            case 64: {
+            case 40: {
+              int rawValue = input.readEnum();
+
+              bHHGGMIGHHL_ = rawValue;
+              break;
+            }
+            case 56: {
 
               lKIIDNBEBIM_ = input.readBool();
               break;
             }
-            case 72: {
+            case 80: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 npcIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -130,7 +136,7 @@ public final class _OrderInfoOuterClass {
               npcIdList_.addInt(input.readUInt32());
               break;
             }
-            case 74: {
+            case 82: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -143,13 +149,7 @@ public final class _OrderInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 80: {
-              int rawValue = input.readEnum();
-
-              bHHGGMIGHHL_ = rawValue;
-              break;
-            }
-            case 88: {
+            case 112: {
 
               id_ = input.readUInt32();
               break;
@@ -200,10 +200,10 @@ public final class _OrderInfoOuterClass {
       return gCKDBLEMLNM_;
     }
 
-    public static final int LKIIDNBEBIM_FIELD_NUMBER = 8;
+    public static final int LKIIDNBEBIM_FIELD_NUMBER = 7;
     private boolean lKIIDNBEBIM_;
     /**
-     * <code>bool LKIIDNBEBIM = 8;</code>
+     * <code>bool LKIIDNBEBIM = 7;</code>
      * @return The lKIIDNBEBIM.
      */
     @java.lang.Override
@@ -211,10 +211,10 @@ public final class _OrderInfoOuterClass {
       return lKIIDNBEBIM_;
     }
 
-    public static final int NPC_ID_LIST_FIELD_NUMBER = 9;
+    public static final int NPC_ID_LIST_FIELD_NUMBER = 10;
     private com.google.protobuf.Internal.IntList npcIdList_;
     /**
-     * <code>repeated uint32 npc_id_list = 9;</code>
+     * <code>repeated uint32 npc_id_list = 10;</code>
      * @return A list containing the npcIdList.
      */
     @java.lang.Override
@@ -223,14 +223,14 @@ public final class _OrderInfoOuterClass {
       return npcIdList_;
     }
     /**
-     * <code>repeated uint32 npc_id_list = 9;</code>
+     * <code>repeated uint32 npc_id_list = 10;</code>
      * @return The count of npcIdList.
      */
     public int getNpcIdListCount() {
       return npcIdList_.size();
     }
     /**
-     * <code>repeated uint32 npc_id_list = 9;</code>
+     * <code>repeated uint32 npc_id_list = 10;</code>
      * @param index The index of the element to return.
      * @return The npcIdList at the given index.
      */
@@ -239,17 +239,17 @@ public final class _OrderInfoOuterClass {
     }
     private int npcIdListMemoizedSerializedSize = -1;
 
-    public static final int BHHGGMIGHHL_FIELD_NUMBER = 10;
+    public static final int BHHGGMIGHHL_FIELD_NUMBER = 5;
     private int bHHGGMIGHHL_;
     /**
-     * <code>.FGJFGPAPOHE BHHGGMIGHHL = 10;</code>
+     * <code>.FGJFGPAPOHE BHHGGMIGHHL = 5;</code>
      * @return The enum numeric value on the wire for bHHGGMIGHHL.
      */
     @java.lang.Override public int getBHHGGMIGHHLValue() {
       return bHHGGMIGHHL_;
     }
     /**
-     * <code>.FGJFGPAPOHE BHHGGMIGHHL = 10;</code>
+     * <code>.FGJFGPAPOHE BHHGGMIGHHL = 5;</code>
      * @return The bHHGGMIGHHL.
      */
     @java.lang.Override public emu.grasscutter.net.proto.FGJFGPAPOHEOuterClass.FGJFGPAPOHE getBHHGGMIGHHL() {
@@ -258,10 +258,10 @@ public final class _OrderInfoOuterClass {
       return result == null ? emu.grasscutter.net.proto.FGJFGPAPOHEOuterClass.FGJFGPAPOHE.UNRECOGNIZED : result;
     }
 
-    public static final int ID_FIELD_NUMBER = 11;
+    public static final int ID_FIELD_NUMBER = 14;
     private int id_;
     /**
-     * <code>uint32 id = 11;</code>
+     * <code>uint32 id = 14;</code>
      * @return The id.
      */
     @java.lang.Override
@@ -287,21 +287,21 @@ public final class _OrderInfoOuterClass {
       if (gCKDBLEMLNM_ != 0) {
         output.writeUInt32(2, gCKDBLEMLNM_);
       }
+      if (bHHGGMIGHHL_ != emu.grasscutter.net.proto.FGJFGPAPOHEOuterClass.FGJFGPAPOHE.FGJFGPAPOHE_NONE.getNumber()) {
+        output.writeEnum(5, bHHGGMIGHHL_);
+      }
       if (lKIIDNBEBIM_ != false) {
-        output.writeBool(8, lKIIDNBEBIM_);
+        output.writeBool(7, lKIIDNBEBIM_);
       }
       if (getNpcIdListList().size() > 0) {
-        output.writeUInt32NoTag(74);
+        output.writeUInt32NoTag(82);
         output.writeUInt32NoTag(npcIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < npcIdList_.size(); i++) {
         output.writeUInt32NoTag(npcIdList_.getInt(i));
       }
-      if (bHHGGMIGHHL_ != emu.grasscutter.net.proto.FGJFGPAPOHEOuterClass.FGJFGPAPOHE.FGJFGPAPOHE_NONE.getNumber()) {
-        output.writeEnum(10, bHHGGMIGHHL_);
-      }
       if (id_ != 0) {
-        output.writeUInt32(11, id_);
+        output.writeUInt32(14, id_);
       }
       unknownFields.writeTo(output);
     }
@@ -316,9 +316,13 @@ public final class _OrderInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(2, gCKDBLEMLNM_);
       }
+      if (bHHGGMIGHHL_ != emu.grasscutter.net.proto.FGJFGPAPOHEOuterClass.FGJFGPAPOHE.FGJFGPAPOHE_NONE.getNumber()) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeEnumSize(5, bHHGGMIGHHL_);
+      }
       if (lKIIDNBEBIM_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(8, lKIIDNBEBIM_);
+          .computeBoolSize(7, lKIIDNBEBIM_);
       }
       {
         int dataSize = 0;
@@ -334,13 +338,9 @@ public final class _OrderInfoOuterClass {
         }
         npcIdListMemoizedSerializedSize = dataSize;
       }
-      if (bHHGGMIGHHL_ != emu.grasscutter.net.proto.FGJFGPAPOHEOuterClass.FGJFGPAPOHE.FGJFGPAPOHE_NONE.getNumber()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(10, bHHGGMIGHHL_);
-      }
       if (id_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, id_);
+          .computeUInt32Size(14, id_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -702,7 +702,7 @@ public final class _OrderInfoOuterClass {
 
       private boolean lKIIDNBEBIM_ ;
       /**
-       * <code>bool LKIIDNBEBIM = 8;</code>
+       * <code>bool LKIIDNBEBIM = 7;</code>
        * @return The lKIIDNBEBIM.
        */
       @java.lang.Override
@@ -710,7 +710,7 @@ public final class _OrderInfoOuterClass {
         return lKIIDNBEBIM_;
       }
       /**
-       * <code>bool LKIIDNBEBIM = 8;</code>
+       * <code>bool LKIIDNBEBIM = 7;</code>
        * @param value The lKIIDNBEBIM to set.
        * @return This builder for chaining.
        */
@@ -721,7 +721,7 @@ public final class _OrderInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool LKIIDNBEBIM = 8;</code>
+       * <code>bool LKIIDNBEBIM = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearLKIIDNBEBIM() {
@@ -739,7 +739,7 @@ public final class _OrderInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 npc_id_list = 9;</code>
+       * <code>repeated uint32 npc_id_list = 10;</code>
        * @return A list containing the npcIdList.
        */
       public java.util.List<java.lang.Integer>
@@ -748,14 +748,14 @@ public final class _OrderInfoOuterClass {
                  java.util.Collections.unmodifiableList(npcIdList_) : npcIdList_;
       }
       /**
-       * <code>repeated uint32 npc_id_list = 9;</code>
+       * <code>repeated uint32 npc_id_list = 10;</code>
        * @return The count of npcIdList.
        */
       public int getNpcIdListCount() {
         return npcIdList_.size();
       }
       /**
-       * <code>repeated uint32 npc_id_list = 9;</code>
+       * <code>repeated uint32 npc_id_list = 10;</code>
        * @param index The index of the element to return.
        * @return The npcIdList at the given index.
        */
@@ -763,7 +763,7 @@ public final class _OrderInfoOuterClass {
         return npcIdList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 npc_id_list = 9;</code>
+       * <code>repeated uint32 npc_id_list = 10;</code>
        * @param index The index to set the value at.
        * @param value The npcIdList to set.
        * @return This builder for chaining.
@@ -776,7 +776,7 @@ public final class _OrderInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 npc_id_list = 9;</code>
+       * <code>repeated uint32 npc_id_list = 10;</code>
        * @param value The npcIdList to add.
        * @return This builder for chaining.
        */
@@ -787,7 +787,7 @@ public final class _OrderInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 npc_id_list = 9;</code>
+       * <code>repeated uint32 npc_id_list = 10;</code>
        * @param values The npcIdList to add.
        * @return This builder for chaining.
        */
@@ -800,7 +800,7 @@ public final class _OrderInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 npc_id_list = 9;</code>
+       * <code>repeated uint32 npc_id_list = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearNpcIdList() {
@@ -812,14 +812,14 @@ public final class _OrderInfoOuterClass {
 
       private int bHHGGMIGHHL_ = 0;
       /**
-       * <code>.FGJFGPAPOHE BHHGGMIGHHL = 10;</code>
+       * <code>.FGJFGPAPOHE BHHGGMIGHHL = 5;</code>
        * @return The enum numeric value on the wire for bHHGGMIGHHL.
        */
       @java.lang.Override public int getBHHGGMIGHHLValue() {
         return bHHGGMIGHHL_;
       }
       /**
-       * <code>.FGJFGPAPOHE BHHGGMIGHHL = 10;</code>
+       * <code>.FGJFGPAPOHE BHHGGMIGHHL = 5;</code>
        * @param value The enum numeric value on the wire for bHHGGMIGHHL to set.
        * @return This builder for chaining.
        */
@@ -830,7 +830,7 @@ public final class _OrderInfoOuterClass {
         return this;
       }
       /**
-       * <code>.FGJFGPAPOHE BHHGGMIGHHL = 10;</code>
+       * <code>.FGJFGPAPOHE BHHGGMIGHHL = 5;</code>
        * @return The bHHGGMIGHHL.
        */
       @java.lang.Override
@@ -840,7 +840,7 @@ public final class _OrderInfoOuterClass {
         return result == null ? emu.grasscutter.net.proto.FGJFGPAPOHEOuterClass.FGJFGPAPOHE.UNRECOGNIZED : result;
       }
       /**
-       * <code>.FGJFGPAPOHE BHHGGMIGHHL = 10;</code>
+       * <code>.FGJFGPAPOHE BHHGGMIGHHL = 5;</code>
        * @param value The bHHGGMIGHHL to set.
        * @return This builder for chaining.
        */
@@ -854,7 +854,7 @@ public final class _OrderInfoOuterClass {
         return this;
       }
       /**
-       * <code>.FGJFGPAPOHE BHHGGMIGHHL = 10;</code>
+       * <code>.FGJFGPAPOHE BHHGGMIGHHL = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearBHHGGMIGHHL() {
@@ -866,7 +866,7 @@ public final class _OrderInfoOuterClass {
 
       private int id_ ;
       /**
-       * <code>uint32 id = 11;</code>
+       * <code>uint32 id = 14;</code>
        * @return The id.
        */
       @java.lang.Override
@@ -874,7 +874,7 @@ public final class _OrderInfoOuterClass {
         return id_;
       }
       /**
-       * <code>uint32 id = 11;</code>
+       * <code>uint32 id = 14;</code>
        * @param value The id to set.
        * @return This builder for chaining.
        */
@@ -885,7 +885,7 @@ public final class _OrderInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 id = 11;</code>
+       * <code>uint32 id = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearId() {
@@ -963,8 +963,8 @@ public final class _OrderInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\020_OrderInfo.proto\032\021FGJFGPAPOHE.proto\"z\n" +
       "\n_OrderInfo\022\023\n\013GCKDBLEMLNM\030\002 \001(\r\022\023\n\013LKII" +
-      "DNBEBIM\030\010 \001(\010\022\023\n\013npc_id_list\030\t \003(\r\022!\n\013BH" +
-      "HGGMIGHHL\030\n \001(\0162\014.FGJFGPAPOHE\022\n\n\002id\030\013 \001(" +
+      "DNBEBIM\030\007 \001(\010\022\023\n\013npc_id_list\030\n \003(\r\022!\n\013BH" +
+      "HGGMIGHHL\030\005 \001(\0162\014.FGJFGPAPOHE\022\n\n\002id\030\016 \001(" +
       "\rB1\n\031emu.grasscutter.net.protoB\024_OrderIn" +
       "foOuterClassb\006proto3"
     };

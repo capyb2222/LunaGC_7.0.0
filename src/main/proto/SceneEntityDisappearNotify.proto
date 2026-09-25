@@ -6,7 +6,7 @@ option java_outer_classname = "SceneEntityDisappearNotifyOuterClass";
 import "VisionType.proto";
 
 message SceneEntityDisappearNotify {
-	repeated uint32 entity_list = 3;
-	uint32 param = 12;
-	VisionType disappear_type = 14;
+	repeated uint32 entity_list = 12;
+	uint32 param = 1;
+	VisionType disappear_type = 5;
 }

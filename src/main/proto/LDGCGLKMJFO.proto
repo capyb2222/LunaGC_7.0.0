@@ -4,8 +4,8 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "LDGCGLKMJFOOuterClass";
 
 message LDGCGLKMJFO {
-	uint32 game_id = 3;
+	uint32 game_id = 2;
 	uint32 level_id = 4;
-	repeated uint32 affix_list = 5;
-	uint32 max_score = 9;
+	repeated uint32 affix_list = 7;
+	uint32 max_score = 1;
 }

@@ -6,7 +6,7 @@ option java_outer_classname = "IHNALHEKDIDOuterClass";
 import "EDDKANMEDNL.proto";
 
 message IHNALHEKDID {
-	EDDKANMEDNL source = 2;
-	uint32 NOMMHKJEGDK = 6;
-	uint32 avatar_id = 12;
+	EDDKANMEDNL source = 10;
+	uint32 NOMMHKJEGDK = 4;
+	uint32 avatar_id = 14;
 }

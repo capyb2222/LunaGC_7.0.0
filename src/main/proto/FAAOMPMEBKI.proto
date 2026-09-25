@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "FAAOMPMEBKIOuterClass";
 
 message FAAOMPMEBKI {
-	uint32 difficulty = 10;
-	uint32 AAKAOLKKNGC = 13;
-	repeated uint32 avatar_id_list = 15;
+	uint32 difficulty = 13;
+	uint32 AAKAOLKKNGC = 15;
+	repeated uint32 avatar_id_list = 14;
 }

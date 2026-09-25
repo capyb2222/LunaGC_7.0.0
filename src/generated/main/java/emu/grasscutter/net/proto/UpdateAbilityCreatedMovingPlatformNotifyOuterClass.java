@@ -19,18 +19,18 @@ public final class UpdateAbilityCreatedMovingPlatformNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.UpdateAbilityCreatedMovingPlatformNotify.OpType op_type = 2;</code>
+     * <code>.UpdateAbilityCreatedMovingPlatformNotify.OpType op_type = 14;</code>
      * @return The enum numeric value on the wire for opType.
      */
     int getOpTypeValue();
     /**
-     * <code>.UpdateAbilityCreatedMovingPlatformNotify.OpType op_type = 2;</code>
+     * <code>.UpdateAbilityCreatedMovingPlatformNotify.OpType op_type = 14;</code>
      * @return The opType.
      */
     emu.grasscutter.net.proto.UpdateAbilityCreatedMovingPlatformNotifyOuterClass.UpdateAbilityCreatedMovingPlatformNotify.OpType getOpType();
 
     /**
-     * <code>uint32 entity_id = 11;</code>
+     * <code>uint32 entity_id = 1;</code>
      * @return The entityId.
      */
     int getEntityId();
@@ -81,15 +81,15 @@ public final class UpdateAbilityCreatedMovingPlatformNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 8: {
+
+              entityId_ = input.readUInt32();
+              break;
+            }
+            case 112: {
               int rawValue = input.readEnum();
 
               opType_ = rawValue;
-              break;
-            }
-            case 88: {
-
-              entityId_ = input.readUInt32();
               break;
             }
             default: {
@@ -241,17 +241,17 @@ public final class UpdateAbilityCreatedMovingPlatformNotifyOuterClass {
       // @@protoc_insertion_point(enum_scope:UpdateAbilityCreatedMovingPlatformNotify.OpType)
     }
 
-    public static final int OP_TYPE_FIELD_NUMBER = 2;
+    public static final int OP_TYPE_FIELD_NUMBER = 14;
     private int opType_;
     /**
-     * <code>.UpdateAbilityCreatedMovingPlatformNotify.OpType op_type = 2;</code>
+     * <code>.UpdateAbilityCreatedMovingPlatformNotify.OpType op_type = 14;</code>
      * @return The enum numeric value on the wire for opType.
      */
     @java.lang.Override public int getOpTypeValue() {
       return opType_;
     }
     /**
-     * <code>.UpdateAbilityCreatedMovingPlatformNotify.OpType op_type = 2;</code>
+     * <code>.UpdateAbilityCreatedMovingPlatformNotify.OpType op_type = 14;</code>
      * @return The opType.
      */
     @java.lang.Override public emu.grasscutter.net.proto.UpdateAbilityCreatedMovingPlatformNotifyOuterClass.UpdateAbilityCreatedMovingPlatformNotify.OpType getOpType() {
@@ -260,10 +260,10 @@ public final class UpdateAbilityCreatedMovingPlatformNotifyOuterClass {
       return result == null ? emu.grasscutter.net.proto.UpdateAbilityCreatedMovingPlatformNotifyOuterClass.UpdateAbilityCreatedMovingPlatformNotify.OpType.UNRECOGNIZED : result;
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 11;
+    public static final int ENTITY_ID_FIELD_NUMBER = 1;
     private int entityId_;
     /**
-     * <code>uint32 entity_id = 11;</code>
+     * <code>uint32 entity_id = 1;</code>
      * @return The entityId.
      */
     @java.lang.Override
@@ -285,11 +285,11 @@ public final class UpdateAbilityCreatedMovingPlatformNotifyOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (opType_ != emu.grasscutter.net.proto.UpdateAbilityCreatedMovingPlatformNotifyOuterClass.UpdateAbilityCreatedMovingPlatformNotify.OpType.OP_NONE.getNumber()) {
-        output.writeEnum(2, opType_);
-      }
       if (entityId_ != 0) {
-        output.writeUInt32(11, entityId_);
+        output.writeUInt32(1, entityId_);
+      }
+      if (opType_ != emu.grasscutter.net.proto.UpdateAbilityCreatedMovingPlatformNotifyOuterClass.UpdateAbilityCreatedMovingPlatformNotify.OpType.OP_NONE.getNumber()) {
+        output.writeEnum(14, opType_);
       }
       unknownFields.writeTo(output);
     }
@@ -300,13 +300,13 @@ public final class UpdateAbilityCreatedMovingPlatformNotifyOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (opType_ != emu.grasscutter.net.proto.UpdateAbilityCreatedMovingPlatformNotifyOuterClass.UpdateAbilityCreatedMovingPlatformNotify.OpType.OP_NONE.getNumber()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(2, opType_);
-      }
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, entityId_);
+          .computeUInt32Size(1, entityId_);
+      }
+      if (opType_ != emu.grasscutter.net.proto.UpdateAbilityCreatedMovingPlatformNotifyOuterClass.UpdateAbilityCreatedMovingPlatformNotify.OpType.OP_NONE.getNumber()) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeEnumSize(14, opType_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -591,14 +591,14 @@ public final class UpdateAbilityCreatedMovingPlatformNotifyOuterClass {
 
       private int opType_ = 0;
       /**
-       * <code>.UpdateAbilityCreatedMovingPlatformNotify.OpType op_type = 2;</code>
+       * <code>.UpdateAbilityCreatedMovingPlatformNotify.OpType op_type = 14;</code>
        * @return The enum numeric value on the wire for opType.
        */
       @java.lang.Override public int getOpTypeValue() {
         return opType_;
       }
       /**
-       * <code>.UpdateAbilityCreatedMovingPlatformNotify.OpType op_type = 2;</code>
+       * <code>.UpdateAbilityCreatedMovingPlatformNotify.OpType op_type = 14;</code>
        * @param value The enum numeric value on the wire for opType to set.
        * @return This builder for chaining.
        */
@@ -609,7 +609,7 @@ public final class UpdateAbilityCreatedMovingPlatformNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.UpdateAbilityCreatedMovingPlatformNotify.OpType op_type = 2;</code>
+       * <code>.UpdateAbilityCreatedMovingPlatformNotify.OpType op_type = 14;</code>
        * @return The opType.
        */
       @java.lang.Override
@@ -619,7 +619,7 @@ public final class UpdateAbilityCreatedMovingPlatformNotifyOuterClass {
         return result == null ? emu.grasscutter.net.proto.UpdateAbilityCreatedMovingPlatformNotifyOuterClass.UpdateAbilityCreatedMovingPlatformNotify.OpType.UNRECOGNIZED : result;
       }
       /**
-       * <code>.UpdateAbilityCreatedMovingPlatformNotify.OpType op_type = 2;</code>
+       * <code>.UpdateAbilityCreatedMovingPlatformNotify.OpType op_type = 14;</code>
        * @param value The opType to set.
        * @return This builder for chaining.
        */
@@ -633,7 +633,7 @@ public final class UpdateAbilityCreatedMovingPlatformNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.UpdateAbilityCreatedMovingPlatformNotify.OpType op_type = 2;</code>
+       * <code>.UpdateAbilityCreatedMovingPlatformNotify.OpType op_type = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearOpType() {
@@ -645,7 +645,7 @@ public final class UpdateAbilityCreatedMovingPlatformNotifyOuterClass {
 
       private int entityId_ ;
       /**
-       * <code>uint32 entity_id = 11;</code>
+       * <code>uint32 entity_id = 1;</code>
        * @return The entityId.
        */
       @java.lang.Override
@@ -653,7 +653,7 @@ public final class UpdateAbilityCreatedMovingPlatformNotifyOuterClass {
         return entityId_;
       }
       /**
-       * <code>uint32 entity_id = 11;</code>
+       * <code>uint32 entity_id = 1;</code>
        * @param value The entityId to set.
        * @return This builder for chaining.
        */
@@ -664,7 +664,7 @@ public final class UpdateAbilityCreatedMovingPlatformNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 entity_id = 11;</code>
+       * <code>uint32 entity_id = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearEntityId() {
@@ -742,9 +742,9 @@ public final class UpdateAbilityCreatedMovingPlatformNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n.UpdateAbilityCreatedMovingPlatformNoti" +
       "fy.proto\"\273\001\n(UpdateAbilityCreatedMovingP" +
-      "latformNotify\022A\n\007op_type\030\002 \001(\01620.UpdateA" +
+      "latformNotify\022A\n\007op_type\030\016 \001(\01620.UpdateA" +
       "bilityCreatedMovingPlatformNotify.OpType" +
-      "\022\021\n\tentity_id\030\013 \001(\r\"9\n\006OpType\022\013\n\007OP_NONE" +
+      "\022\021\n\tentity_id\030\001 \001(\r\"9\n\006OpType\022\013\n\007OP_NONE" +
       "\020\000\022\017\n\013OP_ACTIVATE\020\001\022\021\n\rOP_DEACTIVATE\020\002BO" +
       "\n\031emu.grasscutter.net.protoB2UpdateAbili" +
       "tyCreatedMovingPlatformNotifyOuterClassb" +

@@ -14,8 +14,8 @@ message ChapterStateNotify {
 		bool LAJGHCIGKIN = 3;
 		uint32 AGMLNDOMFNC = 14;
 	}
-	EFFIIMIDMPP EHKKFCAGELK = 4;
-	uint32 chapter_id = 6;
-	ChapterState chapter_state = 10;
-	MDKJMILIFBA MLBMNAKEEOM = 11;
+	EFFIIMIDMPP EHKKFCAGELK = 50000;
+	uint32 chapter_id = 9;
+	ChapterState chapter_state = 50001;
+	MDKJMILIFBA MLBMNAKEEOM = 50002;
 }

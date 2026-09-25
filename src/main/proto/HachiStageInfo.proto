@@ -4,8 +4,8 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "HachiStageInfoOuterClass";
 
 message HachiStageInfo {
-	uint32 stage_id = 8;
-	bool is_finished = 10;
-	bool is_open = 12;
-	uint32 open_time = 13;
+	uint32 stage_id = 12;
+	bool is_finished = 6;
+	bool is_open = 5;
+	uint32 open_time = 7;
 }

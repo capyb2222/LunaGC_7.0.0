@@ -6,8 +6,8 @@ option java_outer_classname = "OLNDJCHOPMCOuterClass";
 import "Vector.proto";
 
 message OLNDJCHOPMC {
-	uint32 card_id = 3;
-	Vector rot = 7;
-	uint32 point_id = 8;
-	Vector pos = 12;
+	uint32 card_id = 2;
+	Vector rot = 13;
+	uint32 point_id = 9;
+	Vector pos = 10;
 }

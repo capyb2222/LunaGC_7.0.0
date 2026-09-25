@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "PlayerCompoundMaterialReqOuterClass";
 
 message PlayerCompoundMaterialReq {
-	uint32 compound_id = 1;
-	uint32 count = 4;
+	uint32 compound_id = 15;
+	uint32 count = 10;
 }

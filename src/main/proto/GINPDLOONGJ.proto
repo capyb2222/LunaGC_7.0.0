@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "GINPDLOONGJOuterClass";
 
 message GINPDLOONGJ {
-	uint32 min_finish_time = 3;
-	uint32 level_id = 10;
+	uint32 min_finish_time = 15;
+	uint32 level_id = 13;
 }

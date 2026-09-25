@@ -19,18 +19,18 @@ public final class WidgetCreatorInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 entity_id = 10;</code>
+     * <code>uint32 entity_id = 13;</code>
      * @return The entityId.
      */
     int getEntityId();
 
     /**
-     * <code>.WidgetCreatorOpType op_type = 11;</code>
+     * <code>.WidgetCreatorOpType op_type = 1;</code>
      * @return The enum numeric value on the wire for opType.
      */
     int getOpTypeValue();
     /**
-     * <code>.WidgetCreatorOpType op_type = 11;</code>
+     * <code>.WidgetCreatorOpType op_type = 1;</code>
      * @return The opType.
      */
     emu.grasscutter.net.proto.WidgetCreatorOpTypeOuterClass.WidgetCreatorOpType getOpType();
@@ -96,15 +96,15 @@ public final class WidgetCreatorInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 80: {
-
-              entityId_ = input.readUInt32();
-              break;
-            }
-            case 88: {
+            case 8: {
               int rawValue = input.readEnum();
 
               opType_ = rawValue;
+              break;
+            }
+            case 104: {
+
+              entityId_ = input.readUInt32();
               break;
             }
             case 122: {
@@ -152,10 +152,10 @@ public final class WidgetCreatorInfoOuterClass {
               emu.grasscutter.net.proto.WidgetCreatorInfoOuterClass.WidgetCreatorInfo.class, emu.grasscutter.net.proto.WidgetCreatorInfoOuterClass.WidgetCreatorInfo.Builder.class);
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 10;
+    public static final int ENTITY_ID_FIELD_NUMBER = 13;
     private int entityId_;
     /**
-     * <code>uint32 entity_id = 10;</code>
+     * <code>uint32 entity_id = 13;</code>
      * @return The entityId.
      */
     @java.lang.Override
@@ -163,17 +163,17 @@ public final class WidgetCreatorInfoOuterClass {
       return entityId_;
     }
 
-    public static final int OP_TYPE_FIELD_NUMBER = 11;
+    public static final int OP_TYPE_FIELD_NUMBER = 1;
     private int opType_;
     /**
-     * <code>.WidgetCreatorOpType op_type = 11;</code>
+     * <code>.WidgetCreatorOpType op_type = 1;</code>
      * @return The enum numeric value on the wire for opType.
      */
     @java.lang.Override public int getOpTypeValue() {
       return opType_;
     }
     /**
-     * <code>.WidgetCreatorOpType op_type = 11;</code>
+     * <code>.WidgetCreatorOpType op_type = 1;</code>
      * @return The opType.
      */
     @java.lang.Override public emu.grasscutter.net.proto.WidgetCreatorOpTypeOuterClass.WidgetCreatorOpType getOpType() {
@@ -222,11 +222,11 @@ public final class WidgetCreatorInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (entityId_ != 0) {
-        output.writeUInt32(10, entityId_);
-      }
       if (opType_ != emu.grasscutter.net.proto.WidgetCreatorOpTypeOuterClass.WidgetCreatorOpType.WIDGET_CREATOR_TYPE_NONE.getNumber()) {
-        output.writeEnum(11, opType_);
+        output.writeEnum(1, opType_);
+      }
+      if (entityId_ != 0) {
+        output.writeUInt32(13, entityId_);
       }
       if (locationInfo_ != null) {
         output.writeMessage(15, getLocationInfo());
@@ -240,13 +240,13 @@ public final class WidgetCreatorInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (entityId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, entityId_);
-      }
       if (opType_ != emu.grasscutter.net.proto.WidgetCreatorOpTypeOuterClass.WidgetCreatorOpType.WIDGET_CREATOR_TYPE_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(11, opType_);
+          .computeEnumSize(1, opType_);
+      }
+      if (entityId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(13, entityId_);
       }
       if (locationInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -558,7 +558,7 @@ public final class WidgetCreatorInfoOuterClass {
 
       private int entityId_ ;
       /**
-       * <code>uint32 entity_id = 10;</code>
+       * <code>uint32 entity_id = 13;</code>
        * @return The entityId.
        */
       @java.lang.Override
@@ -566,7 +566,7 @@ public final class WidgetCreatorInfoOuterClass {
         return entityId_;
       }
       /**
-       * <code>uint32 entity_id = 10;</code>
+       * <code>uint32 entity_id = 13;</code>
        * @param value The entityId to set.
        * @return This builder for chaining.
        */
@@ -577,7 +577,7 @@ public final class WidgetCreatorInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 entity_id = 10;</code>
+       * <code>uint32 entity_id = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearEntityId() {
@@ -589,14 +589,14 @@ public final class WidgetCreatorInfoOuterClass {
 
       private int opType_ = 0;
       /**
-       * <code>.WidgetCreatorOpType op_type = 11;</code>
+       * <code>.WidgetCreatorOpType op_type = 1;</code>
        * @return The enum numeric value on the wire for opType.
        */
       @java.lang.Override public int getOpTypeValue() {
         return opType_;
       }
       /**
-       * <code>.WidgetCreatorOpType op_type = 11;</code>
+       * <code>.WidgetCreatorOpType op_type = 1;</code>
        * @param value The enum numeric value on the wire for opType to set.
        * @return This builder for chaining.
        */
@@ -607,7 +607,7 @@ public final class WidgetCreatorInfoOuterClass {
         return this;
       }
       /**
-       * <code>.WidgetCreatorOpType op_type = 11;</code>
+       * <code>.WidgetCreatorOpType op_type = 1;</code>
        * @return The opType.
        */
       @java.lang.Override
@@ -617,7 +617,7 @@ public final class WidgetCreatorInfoOuterClass {
         return result == null ? emu.grasscutter.net.proto.WidgetCreatorOpTypeOuterClass.WidgetCreatorOpType.UNRECOGNIZED : result;
       }
       /**
-       * <code>.WidgetCreatorOpType op_type = 11;</code>
+       * <code>.WidgetCreatorOpType op_type = 1;</code>
        * @param value The opType to set.
        * @return This builder for chaining.
        */
@@ -631,7 +631,7 @@ public final class WidgetCreatorInfoOuterClass {
         return this;
       }
       /**
-       * <code>.WidgetCreatorOpType op_type = 11;</code>
+       * <code>.WidgetCreatorOpType op_type = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearOpType() {
@@ -828,8 +828,8 @@ public final class WidgetCreatorInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\027WidgetCreatorInfo.proto\032\036WidgetCreateL" +
       "ocationInfo.proto\032\031WidgetCreatorOpType.p" +
-      "roto\"\177\n\021WidgetCreatorInfo\022\021\n\tentity_id\030\n" +
-      " \001(\r\022%\n\007op_type\030\013 \001(\0162\024.WidgetCreatorOpT" +
+      "roto\"\177\n\021WidgetCreatorInfo\022\021\n\tentity_id\030\r" +
+      " \001(\r\022%\n\007op_type\030\001 \001(\0162\024.WidgetCreatorOpT" +
       "ype\0220\n\rlocation_info\030\017 \001(\0132\031.WidgetCreat" +
       "eLocationInfoB8\n\031emu.grasscutter.net.pro" +
       "toB\033WidgetCreatorInfoOuterClassb\006proto3"

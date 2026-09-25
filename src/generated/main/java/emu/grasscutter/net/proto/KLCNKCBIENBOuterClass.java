@@ -19,58 +19,58 @@ public final class KLCNKCBIENBOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.Uint32Pair progress = 4;</code>
+     * <code>.Uint32Pair progress = 12;</code>
      * @return Whether the progress field is set.
      */
     boolean hasProgress();
     /**
-     * <code>.Uint32Pair progress = 4;</code>
+     * <code>.Uint32Pair progress = 12;</code>
      * @return The progress.
      */
     emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getProgress();
     /**
-     * <code>.Uint32Pair progress = 4;</code>
+     * <code>.Uint32Pair progress = 12;</code>
      */
     emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getProgressOrBuilder();
 
     /**
-     * <code>uint32 hp = 6;</code>
+     * <code>uint32 hp = 5;</code>
      * @return The hp.
      */
     int getHp();
 
     /**
-     * <code>uint32 HOAOJBKJFLE = 9;</code>
+     * <code>uint32 HOAOJBKJFLE = 6;</code>
      * @return The hOAOJBKJFLE.
      */
     int getHOAOJBKJFLE();
 
     /**
-     * <code>uint32 max_hp = 14;</code>
+     * <code>uint32 max_hp = 15;</code>
      * @return The maxHp.
      */
     int getMaxHp();
 
     /**
-     * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 15;</code>
+     * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 11;</code>
      */
     java.util.List<emu.grasscutter.net.proto.EPHKKEDNINEOuterClass.EPHKKEDNINE> 
         getCLKEEOEPJGBList();
     /**
-     * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 15;</code>
+     * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 11;</code>
      */
     emu.grasscutter.net.proto.EPHKKEDNINEOuterClass.EPHKKEDNINE getCLKEEOEPJGB(int index);
     /**
-     * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 15;</code>
+     * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 11;</code>
      */
     int getCLKEEOEPJGBCount();
     /**
-     * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 15;</code>
+     * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 11;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.EPHKKEDNINEOuterClass.EPHKKEDNINEOrBuilder> 
         getCLKEEOEPJGBOrBuilderList();
     /**
-     * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 15;</code>
+     * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 11;</code>
      */
     emu.grasscutter.net.proto.EPHKKEDNINEOuterClass.EPHKKEDNINEOrBuilder getCLKEEOEPJGBOrBuilder(
         int index);
@@ -122,7 +122,26 @@ public final class KLCNKCBIENBOuterClass {
             case 0:
               done = true;
               break;
-            case 34: {
+            case 40: {
+
+              hp_ = input.readUInt32();
+              break;
+            }
+            case 48: {
+
+              hOAOJBKJFLE_ = input.readUInt32();
+              break;
+            }
+            case 90: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                cLKEEOEPJGB_ = new java.util.ArrayList<emu.grasscutter.net.proto.EPHKKEDNINEOuterClass.EPHKKEDNINE>();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              cLKEEOEPJGB_.add(
+                  input.readMessage(emu.grasscutter.net.proto.EPHKKEDNINEOuterClass.EPHKKEDNINE.parser(), extensionRegistry));
+              break;
+            }
+            case 98: {
               emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder subBuilder = null;
               if (progress_ != null) {
                 subBuilder = progress_.toBuilder();
@@ -135,28 +154,9 @@ public final class KLCNKCBIENBOuterClass {
 
               break;
             }
-            case 48: {
-
-              hp_ = input.readUInt32();
-              break;
-            }
-            case 72: {
-
-              hOAOJBKJFLE_ = input.readUInt32();
-              break;
-            }
-            case 112: {
+            case 120: {
 
               maxHp_ = input.readUInt32();
-              break;
-            }
-            case 122: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                cLKEEOEPJGB_ = new java.util.ArrayList<emu.grasscutter.net.proto.EPHKKEDNINEOuterClass.EPHKKEDNINE>();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              cLKEEOEPJGB_.add(
-                  input.readMessage(emu.grasscutter.net.proto.EPHKKEDNINEOuterClass.EPHKKEDNINE.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -194,10 +194,10 @@ public final class KLCNKCBIENBOuterClass {
               emu.grasscutter.net.proto.KLCNKCBIENBOuterClass.KLCNKCBIENB.class, emu.grasscutter.net.proto.KLCNKCBIENBOuterClass.KLCNKCBIENB.Builder.class);
     }
 
-    public static final int PROGRESS_FIELD_NUMBER = 4;
+    public static final int PROGRESS_FIELD_NUMBER = 12;
     private emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair progress_;
     /**
-     * <code>.Uint32Pair progress = 4;</code>
+     * <code>.Uint32Pair progress = 12;</code>
      * @return Whether the progress field is set.
      */
     @java.lang.Override
@@ -205,7 +205,7 @@ public final class KLCNKCBIENBOuterClass {
       return progress_ != null;
     }
     /**
-     * <code>.Uint32Pair progress = 4;</code>
+     * <code>.Uint32Pair progress = 12;</code>
      * @return The progress.
      */
     @java.lang.Override
@@ -213,17 +213,17 @@ public final class KLCNKCBIENBOuterClass {
       return progress_ == null ? emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.getDefaultInstance() : progress_;
     }
     /**
-     * <code>.Uint32Pair progress = 4;</code>
+     * <code>.Uint32Pair progress = 12;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getProgressOrBuilder() {
       return getProgress();
     }
 
-    public static final int HP_FIELD_NUMBER = 6;
+    public static final int HP_FIELD_NUMBER = 5;
     private int hp_;
     /**
-     * <code>uint32 hp = 6;</code>
+     * <code>uint32 hp = 5;</code>
      * @return The hp.
      */
     @java.lang.Override
@@ -231,10 +231,10 @@ public final class KLCNKCBIENBOuterClass {
       return hp_;
     }
 
-    public static final int HOAOJBKJFLE_FIELD_NUMBER = 9;
+    public static final int HOAOJBKJFLE_FIELD_NUMBER = 6;
     private int hOAOJBKJFLE_;
     /**
-     * <code>uint32 HOAOJBKJFLE = 9;</code>
+     * <code>uint32 HOAOJBKJFLE = 6;</code>
      * @return The hOAOJBKJFLE.
      */
     @java.lang.Override
@@ -242,10 +242,10 @@ public final class KLCNKCBIENBOuterClass {
       return hOAOJBKJFLE_;
     }
 
-    public static final int MAX_HP_FIELD_NUMBER = 14;
+    public static final int MAX_HP_FIELD_NUMBER = 15;
     private int maxHp_;
     /**
-     * <code>uint32 max_hp = 14;</code>
+     * <code>uint32 max_hp = 15;</code>
      * @return The maxHp.
      */
     @java.lang.Override
@@ -253,17 +253,17 @@ public final class KLCNKCBIENBOuterClass {
       return maxHp_;
     }
 
-    public static final int CLKEEOEPJGB_FIELD_NUMBER = 15;
+    public static final int CLKEEOEPJGB_FIELD_NUMBER = 11;
     private java.util.List<emu.grasscutter.net.proto.EPHKKEDNINEOuterClass.EPHKKEDNINE> cLKEEOEPJGB_;
     /**
-     * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 15;</code>
+     * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 11;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.EPHKKEDNINEOuterClass.EPHKKEDNINE> getCLKEEOEPJGBList() {
       return cLKEEOEPJGB_;
     }
     /**
-     * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 15;</code>
+     * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 11;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.EPHKKEDNINEOuterClass.EPHKKEDNINEOrBuilder> 
@@ -271,21 +271,21 @@ public final class KLCNKCBIENBOuterClass {
       return cLKEEOEPJGB_;
     }
     /**
-     * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 15;</code>
+     * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 11;</code>
      */
     @java.lang.Override
     public int getCLKEEOEPJGBCount() {
       return cLKEEOEPJGB_.size();
     }
     /**
-     * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 15;</code>
+     * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 11;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.EPHKKEDNINEOuterClass.EPHKKEDNINE getCLKEEOEPJGB(int index) {
       return cLKEEOEPJGB_.get(index);
     }
     /**
-     * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 15;</code>
+     * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 11;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.EPHKKEDNINEOuterClass.EPHKKEDNINEOrBuilder getCLKEEOEPJGBOrBuilder(
@@ -307,20 +307,20 @@ public final class KLCNKCBIENBOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (progress_ != null) {
-        output.writeMessage(4, getProgress());
-      }
       if (hp_ != 0) {
-        output.writeUInt32(6, hp_);
+        output.writeUInt32(5, hp_);
       }
       if (hOAOJBKJFLE_ != 0) {
-        output.writeUInt32(9, hOAOJBKJFLE_);
-      }
-      if (maxHp_ != 0) {
-        output.writeUInt32(14, maxHp_);
+        output.writeUInt32(6, hOAOJBKJFLE_);
       }
       for (int i = 0; i < cLKEEOEPJGB_.size(); i++) {
-        output.writeMessage(15, cLKEEOEPJGB_.get(i));
+        output.writeMessage(11, cLKEEOEPJGB_.get(i));
+      }
+      if (progress_ != null) {
+        output.writeMessage(12, getProgress());
+      }
+      if (maxHp_ != 0) {
+        output.writeUInt32(15, maxHp_);
       }
       unknownFields.writeTo(output);
     }
@@ -331,25 +331,25 @@ public final class KLCNKCBIENBOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (progress_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, getProgress());
-      }
       if (hp_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, hp_);
+          .computeUInt32Size(5, hp_);
       }
       if (hOAOJBKJFLE_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, hOAOJBKJFLE_);
-      }
-      if (maxHp_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, maxHp_);
+          .computeUInt32Size(6, hOAOJBKJFLE_);
       }
       for (int i = 0; i < cLKEEOEPJGB_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, cLKEEOEPJGB_.get(i));
+          .computeMessageSize(11, cLKEEOEPJGB_.get(i));
+      }
+      if (progress_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(12, getProgress());
+      }
+      if (maxHp_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(15, maxHp_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -720,14 +720,14 @@ public final class KLCNKCBIENBOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> progressBuilder_;
       /**
-       * <code>.Uint32Pair progress = 4;</code>
+       * <code>.Uint32Pair progress = 12;</code>
        * @return Whether the progress field is set.
        */
       public boolean hasProgress() {
         return progressBuilder_ != null || progress_ != null;
       }
       /**
-       * <code>.Uint32Pair progress = 4;</code>
+       * <code>.Uint32Pair progress = 12;</code>
        * @return The progress.
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getProgress() {
@@ -738,7 +738,7 @@ public final class KLCNKCBIENBOuterClass {
         }
       }
       /**
-       * <code>.Uint32Pair progress = 4;</code>
+       * <code>.Uint32Pair progress = 12;</code>
        */
       public Builder setProgress(emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
         if (progressBuilder_ == null) {
@@ -754,7 +754,7 @@ public final class KLCNKCBIENBOuterClass {
         return this;
       }
       /**
-       * <code>.Uint32Pair progress = 4;</code>
+       * <code>.Uint32Pair progress = 12;</code>
        */
       public Builder setProgress(
           emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder builderForValue) {
@@ -768,7 +768,7 @@ public final class KLCNKCBIENBOuterClass {
         return this;
       }
       /**
-       * <code>.Uint32Pair progress = 4;</code>
+       * <code>.Uint32Pair progress = 12;</code>
        */
       public Builder mergeProgress(emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
         if (progressBuilder_ == null) {
@@ -786,7 +786,7 @@ public final class KLCNKCBIENBOuterClass {
         return this;
       }
       /**
-       * <code>.Uint32Pair progress = 4;</code>
+       * <code>.Uint32Pair progress = 12;</code>
        */
       public Builder clearProgress() {
         if (progressBuilder_ == null) {
@@ -800,7 +800,7 @@ public final class KLCNKCBIENBOuterClass {
         return this;
       }
       /**
-       * <code>.Uint32Pair progress = 4;</code>
+       * <code>.Uint32Pair progress = 12;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder getProgressBuilder() {
         
@@ -808,7 +808,7 @@ public final class KLCNKCBIENBOuterClass {
         return getProgressFieldBuilder().getBuilder();
       }
       /**
-       * <code>.Uint32Pair progress = 4;</code>
+       * <code>.Uint32Pair progress = 12;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getProgressOrBuilder() {
         if (progressBuilder_ != null) {
@@ -819,7 +819,7 @@ public final class KLCNKCBIENBOuterClass {
         }
       }
       /**
-       * <code>.Uint32Pair progress = 4;</code>
+       * <code>.Uint32Pair progress = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
@@ -837,7 +837,7 @@ public final class KLCNKCBIENBOuterClass {
 
       private int hp_ ;
       /**
-       * <code>uint32 hp = 6;</code>
+       * <code>uint32 hp = 5;</code>
        * @return The hp.
        */
       @java.lang.Override
@@ -845,7 +845,7 @@ public final class KLCNKCBIENBOuterClass {
         return hp_;
       }
       /**
-       * <code>uint32 hp = 6;</code>
+       * <code>uint32 hp = 5;</code>
        * @param value The hp to set.
        * @return This builder for chaining.
        */
@@ -856,7 +856,7 @@ public final class KLCNKCBIENBOuterClass {
         return this;
       }
       /**
-       * <code>uint32 hp = 6;</code>
+       * <code>uint32 hp = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearHp() {
@@ -868,7 +868,7 @@ public final class KLCNKCBIENBOuterClass {
 
       private int hOAOJBKJFLE_ ;
       /**
-       * <code>uint32 HOAOJBKJFLE = 9;</code>
+       * <code>uint32 HOAOJBKJFLE = 6;</code>
        * @return The hOAOJBKJFLE.
        */
       @java.lang.Override
@@ -876,7 +876,7 @@ public final class KLCNKCBIENBOuterClass {
         return hOAOJBKJFLE_;
       }
       /**
-       * <code>uint32 HOAOJBKJFLE = 9;</code>
+       * <code>uint32 HOAOJBKJFLE = 6;</code>
        * @param value The hOAOJBKJFLE to set.
        * @return This builder for chaining.
        */
@@ -887,7 +887,7 @@ public final class KLCNKCBIENBOuterClass {
         return this;
       }
       /**
-       * <code>uint32 HOAOJBKJFLE = 9;</code>
+       * <code>uint32 HOAOJBKJFLE = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearHOAOJBKJFLE() {
@@ -899,7 +899,7 @@ public final class KLCNKCBIENBOuterClass {
 
       private int maxHp_ ;
       /**
-       * <code>uint32 max_hp = 14;</code>
+       * <code>uint32 max_hp = 15;</code>
        * @return The maxHp.
        */
       @java.lang.Override
@@ -907,7 +907,7 @@ public final class KLCNKCBIENBOuterClass {
         return maxHp_;
       }
       /**
-       * <code>uint32 max_hp = 14;</code>
+       * <code>uint32 max_hp = 15;</code>
        * @param value The maxHp to set.
        * @return This builder for chaining.
        */
@@ -918,7 +918,7 @@ public final class KLCNKCBIENBOuterClass {
         return this;
       }
       /**
-       * <code>uint32 max_hp = 14;</code>
+       * <code>uint32 max_hp = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearMaxHp() {
@@ -941,7 +941,7 @@ public final class KLCNKCBIENBOuterClass {
           emu.grasscutter.net.proto.EPHKKEDNINEOuterClass.EPHKKEDNINE, emu.grasscutter.net.proto.EPHKKEDNINEOuterClass.EPHKKEDNINE.Builder, emu.grasscutter.net.proto.EPHKKEDNINEOuterClass.EPHKKEDNINEOrBuilder> cLKEEOEPJGBBuilder_;
 
       /**
-       * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 15;</code>
+       * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 11;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.EPHKKEDNINEOuterClass.EPHKKEDNINE> getCLKEEOEPJGBList() {
         if (cLKEEOEPJGBBuilder_ == null) {
@@ -951,7 +951,7 @@ public final class KLCNKCBIENBOuterClass {
         }
       }
       /**
-       * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 15;</code>
+       * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 11;</code>
        */
       public int getCLKEEOEPJGBCount() {
         if (cLKEEOEPJGBBuilder_ == null) {
@@ -961,7 +961,7 @@ public final class KLCNKCBIENBOuterClass {
         }
       }
       /**
-       * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 15;</code>
+       * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 11;</code>
        */
       public emu.grasscutter.net.proto.EPHKKEDNINEOuterClass.EPHKKEDNINE getCLKEEOEPJGB(int index) {
         if (cLKEEOEPJGBBuilder_ == null) {
@@ -971,7 +971,7 @@ public final class KLCNKCBIENBOuterClass {
         }
       }
       /**
-       * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 15;</code>
+       * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 11;</code>
        */
       public Builder setCLKEEOEPJGB(
           int index, emu.grasscutter.net.proto.EPHKKEDNINEOuterClass.EPHKKEDNINE value) {
@@ -988,7 +988,7 @@ public final class KLCNKCBIENBOuterClass {
         return this;
       }
       /**
-       * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 15;</code>
+       * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 11;</code>
        */
       public Builder setCLKEEOEPJGB(
           int index, emu.grasscutter.net.proto.EPHKKEDNINEOuterClass.EPHKKEDNINE.Builder builderForValue) {
@@ -1002,7 +1002,7 @@ public final class KLCNKCBIENBOuterClass {
         return this;
       }
       /**
-       * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 15;</code>
+       * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 11;</code>
        */
       public Builder addCLKEEOEPJGB(emu.grasscutter.net.proto.EPHKKEDNINEOuterClass.EPHKKEDNINE value) {
         if (cLKEEOEPJGBBuilder_ == null) {
@@ -1018,7 +1018,7 @@ public final class KLCNKCBIENBOuterClass {
         return this;
       }
       /**
-       * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 15;</code>
+       * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 11;</code>
        */
       public Builder addCLKEEOEPJGB(
           int index, emu.grasscutter.net.proto.EPHKKEDNINEOuterClass.EPHKKEDNINE value) {
@@ -1035,7 +1035,7 @@ public final class KLCNKCBIENBOuterClass {
         return this;
       }
       /**
-       * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 15;</code>
+       * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 11;</code>
        */
       public Builder addCLKEEOEPJGB(
           emu.grasscutter.net.proto.EPHKKEDNINEOuterClass.EPHKKEDNINE.Builder builderForValue) {
@@ -1049,7 +1049,7 @@ public final class KLCNKCBIENBOuterClass {
         return this;
       }
       /**
-       * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 15;</code>
+       * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 11;</code>
        */
       public Builder addCLKEEOEPJGB(
           int index, emu.grasscutter.net.proto.EPHKKEDNINEOuterClass.EPHKKEDNINE.Builder builderForValue) {
@@ -1063,7 +1063,7 @@ public final class KLCNKCBIENBOuterClass {
         return this;
       }
       /**
-       * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 15;</code>
+       * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 11;</code>
        */
       public Builder addAllCLKEEOEPJGB(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.EPHKKEDNINEOuterClass.EPHKKEDNINE> values) {
@@ -1078,7 +1078,7 @@ public final class KLCNKCBIENBOuterClass {
         return this;
       }
       /**
-       * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 15;</code>
+       * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 11;</code>
        */
       public Builder clearCLKEEOEPJGB() {
         if (cLKEEOEPJGBBuilder_ == null) {
@@ -1091,7 +1091,7 @@ public final class KLCNKCBIENBOuterClass {
         return this;
       }
       /**
-       * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 15;</code>
+       * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 11;</code>
        */
       public Builder removeCLKEEOEPJGB(int index) {
         if (cLKEEOEPJGBBuilder_ == null) {
@@ -1104,14 +1104,14 @@ public final class KLCNKCBIENBOuterClass {
         return this;
       }
       /**
-       * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 15;</code>
+       * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 11;</code>
        */
       public emu.grasscutter.net.proto.EPHKKEDNINEOuterClass.EPHKKEDNINE.Builder getCLKEEOEPJGBBuilder(
           int index) {
         return getCLKEEOEPJGBFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 15;</code>
+       * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 11;</code>
        */
       public emu.grasscutter.net.proto.EPHKKEDNINEOuterClass.EPHKKEDNINEOrBuilder getCLKEEOEPJGBOrBuilder(
           int index) {
@@ -1121,7 +1121,7 @@ public final class KLCNKCBIENBOuterClass {
         }
       }
       /**
-       * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 15;</code>
+       * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 11;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.EPHKKEDNINEOuterClass.EPHKKEDNINEOrBuilder> 
            getCLKEEOEPJGBOrBuilderList() {
@@ -1132,14 +1132,14 @@ public final class KLCNKCBIENBOuterClass {
         }
       }
       /**
-       * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 15;</code>
+       * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 11;</code>
        */
       public emu.grasscutter.net.proto.EPHKKEDNINEOuterClass.EPHKKEDNINE.Builder addCLKEEOEPJGBBuilder() {
         return getCLKEEOEPJGBFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.EPHKKEDNINEOuterClass.EPHKKEDNINE.getDefaultInstance());
       }
       /**
-       * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 15;</code>
+       * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 11;</code>
        */
       public emu.grasscutter.net.proto.EPHKKEDNINEOuterClass.EPHKKEDNINE.Builder addCLKEEOEPJGBBuilder(
           int index) {
@@ -1147,7 +1147,7 @@ public final class KLCNKCBIENBOuterClass {
             index, emu.grasscutter.net.proto.EPHKKEDNINEOuterClass.EPHKKEDNINE.getDefaultInstance());
       }
       /**
-       * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 15;</code>
+       * <code>repeated .EPHKKEDNINE CLKEEOEPJGB = 11;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.EPHKKEDNINEOuterClass.EPHKKEDNINE.Builder> 
            getCLKEEOEPJGBBuilderList() {
@@ -1236,9 +1236,9 @@ public final class KLCNKCBIENBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021KLCNKCBIENB.proto\032\021EPHKKEDNINE.proto\032\020" +
       "Uint32Pair.proto\"\200\001\n\013KLCNKCBIENB\022\035\n\010prog" +
-      "ress\030\004 \001(\0132\013.Uint32Pair\022\n\n\002hp\030\006 \001(\r\022\023\n\013H" +
-      "OAOJBKJFLE\030\t \001(\r\022\016\n\006max_hp\030\016 \001(\r\022!\n\013CLKE" +
-      "EOEPJGB\030\017 \003(\0132\014.EPHKKEDNINEB2\n\031emu.grass" +
+      "ress\030\014 \001(\0132\013.Uint32Pair\022\n\n\002hp\030\005 \001(\r\022\023\n\013H" +
+      "OAOJBKJFLE\030\006 \001(\r\022\016\n\006max_hp\030\017 \001(\r\022!\n\013CLKE" +
+      "EOEPJGB\030\013 \003(\0132\014.EPHKKEDNINEB2\n\031emu.grass" +
       "cutter.net.protoB\025KLCNKCBIENBOuterClassb" +
       "\006proto3"
     };

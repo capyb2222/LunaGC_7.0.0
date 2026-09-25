@@ -19,55 +19,55 @@ public final class GetAuthkeyRspOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>string authkey = 1;</code>
+     * <code>string authkey = 3;</code>
      * @return The authkey.
      */
     java.lang.String getAuthkey();
     /**
-     * <code>string authkey = 1;</code>
+     * <code>string authkey = 3;</code>
      * @return The bytes for authkey.
      */
     com.google.protobuf.ByteString
         getAuthkeyBytes();
 
     /**
-     * <code>string game_biz = 5;</code>
+     * <code>string game_biz = 15;</code>
      * @return The gameBiz.
      */
     java.lang.String getGameBiz();
     /**
-     * <code>string game_biz = 5;</code>
+     * <code>string game_biz = 15;</code>
      * @return The bytes for gameBiz.
      */
     com.google.protobuf.ByteString
         getGameBizBytes();
 
     /**
-     * <code>string auth_appid = 7;</code>
+     * <code>string auth_appid = 5;</code>
      * @return The authAppid.
      */
     java.lang.String getAuthAppid();
     /**
-     * <code>string auth_appid = 7;</code>
+     * <code>string auth_appid = 5;</code>
      * @return The bytes for authAppid.
      */
     com.google.protobuf.ByteString
         getAuthAppidBytes();
 
     /**
-     * <code>int32 retcode = 10;</code>
+     * <code>int32 retcode = 6;</code>
      * @return The retcode.
      */
     int getRetcode();
 
     /**
-     * <code>uint32 authkey_ver = 11;</code>
+     * <code>uint32 authkey_ver = 50000;</code>
      * @return The authkeyVer.
      */
     int getAuthkeyVer();
 
     /**
-     * <code>uint32 sign_type = 14;</code>
+     * <code>uint32 sign_type = 50001;</code>
      * @return The signType.
      */
     int getSignType();
@@ -120,7 +120,7 @@ public final class GetAuthkeyRspOuterClass {
             case 0:
               done = true;
               break;
-            case 10: {
+            case 26: {
               java.lang.String s = input.readStringRequireUtf8();
 
               authkey_ = s;
@@ -129,26 +129,26 @@ public final class GetAuthkeyRspOuterClass {
             case 42: {
               java.lang.String s = input.readStringRequireUtf8();
 
-              gameBiz_ = s;
-              break;
-            }
-            case 58: {
-              java.lang.String s = input.readStringRequireUtf8();
-
               authAppid_ = s;
               break;
             }
-            case 80: {
+            case 48: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 88: {
+            case 122: {
+              java.lang.String s = input.readStringRequireUtf8();
+
+              gameBiz_ = s;
+              break;
+            }
+            case 400000: {
 
               authkeyVer_ = input.readUInt32();
               break;
             }
-            case 112: {
+            case 400008: {
 
               signType_ = input.readUInt32();
               break;
@@ -185,10 +185,10 @@ public final class GetAuthkeyRspOuterClass {
               emu.grasscutter.net.proto.GetAuthkeyRspOuterClass.GetAuthkeyRsp.class, emu.grasscutter.net.proto.GetAuthkeyRspOuterClass.GetAuthkeyRsp.Builder.class);
     }
 
-    public static final int AUTHKEY_FIELD_NUMBER = 1;
+    public static final int AUTHKEY_FIELD_NUMBER = 3;
     private volatile java.lang.Object authkey_;
     /**
-     * <code>string authkey = 1;</code>
+     * <code>string authkey = 3;</code>
      * @return The authkey.
      */
     @java.lang.Override
@@ -205,7 +205,7 @@ public final class GetAuthkeyRspOuterClass {
       }
     }
     /**
-     * <code>string authkey = 1;</code>
+     * <code>string authkey = 3;</code>
      * @return The bytes for authkey.
      */
     @java.lang.Override
@@ -223,10 +223,10 @@ public final class GetAuthkeyRspOuterClass {
       }
     }
 
-    public static final int GAME_BIZ_FIELD_NUMBER = 5;
+    public static final int GAME_BIZ_FIELD_NUMBER = 15;
     private volatile java.lang.Object gameBiz_;
     /**
-     * <code>string game_biz = 5;</code>
+     * <code>string game_biz = 15;</code>
      * @return The gameBiz.
      */
     @java.lang.Override
@@ -243,7 +243,7 @@ public final class GetAuthkeyRspOuterClass {
       }
     }
     /**
-     * <code>string game_biz = 5;</code>
+     * <code>string game_biz = 15;</code>
      * @return The bytes for gameBiz.
      */
     @java.lang.Override
@@ -261,10 +261,10 @@ public final class GetAuthkeyRspOuterClass {
       }
     }
 
-    public static final int AUTH_APPID_FIELD_NUMBER = 7;
+    public static final int AUTH_APPID_FIELD_NUMBER = 5;
     private volatile java.lang.Object authAppid_;
     /**
-     * <code>string auth_appid = 7;</code>
+     * <code>string auth_appid = 5;</code>
      * @return The authAppid.
      */
     @java.lang.Override
@@ -281,7 +281,7 @@ public final class GetAuthkeyRspOuterClass {
       }
     }
     /**
-     * <code>string auth_appid = 7;</code>
+     * <code>string auth_appid = 5;</code>
      * @return The bytes for authAppid.
      */
     @java.lang.Override
@@ -299,10 +299,10 @@ public final class GetAuthkeyRspOuterClass {
       }
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 10;
+    public static final int RETCODE_FIELD_NUMBER = 6;
     private int retcode_;
     /**
-     * <code>int32 retcode = 10;</code>
+     * <code>int32 retcode = 6;</code>
      * @return The retcode.
      */
     @java.lang.Override
@@ -310,10 +310,10 @@ public final class GetAuthkeyRspOuterClass {
       return retcode_;
     }
 
-    public static final int AUTHKEY_VER_FIELD_NUMBER = 11;
+    public static final int AUTHKEY_VER_FIELD_NUMBER = 50000;
     private int authkeyVer_;
     /**
-     * <code>uint32 authkey_ver = 11;</code>
+     * <code>uint32 authkey_ver = 50000;</code>
      * @return The authkeyVer.
      */
     @java.lang.Override
@@ -321,10 +321,10 @@ public final class GetAuthkeyRspOuterClass {
       return authkeyVer_;
     }
 
-    public static final int SIGN_TYPE_FIELD_NUMBER = 14;
+    public static final int SIGN_TYPE_FIELD_NUMBER = 50001;
     private int signType_;
     /**
-     * <code>uint32 sign_type = 14;</code>
+     * <code>uint32 sign_type = 50001;</code>
      * @return The signType.
      */
     @java.lang.Override
@@ -347,22 +347,22 @@ public final class GetAuthkeyRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(authkey_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 1, authkey_);
-      }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(gameBiz_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 5, gameBiz_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 3, authkey_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(authAppid_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 7, authAppid_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 5, authAppid_);
       }
       if (retcode_ != 0) {
-        output.writeInt32(10, retcode_);
+        output.writeInt32(6, retcode_);
+      }
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(gameBiz_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 15, gameBiz_);
       }
       if (authkeyVer_ != 0) {
-        output.writeUInt32(11, authkeyVer_);
+        output.writeUInt32(50000, authkeyVer_);
       }
       if (signType_ != 0) {
-        output.writeUInt32(14, signType_);
+        output.writeUInt32(50001, signType_);
       }
       unknownFields.writeTo(output);
     }
@@ -374,25 +374,25 @@ public final class GetAuthkeyRspOuterClass {
 
       size = 0;
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(authkey_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1, authkey_);
-      }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(gameBiz_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(5, gameBiz_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(3, authkey_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(authAppid_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(7, authAppid_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(5, authAppid_);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(10, retcode_);
+          .computeInt32Size(6, retcode_);
+      }
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(gameBiz_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(15, gameBiz_);
       }
       if (authkeyVer_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, authkeyVer_);
+          .computeUInt32Size(50000, authkeyVer_);
       }
       if (signType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, signType_);
+          .computeUInt32Size(50001, signType_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -721,7 +721,7 @@ public final class GetAuthkeyRspOuterClass {
 
       private java.lang.Object authkey_ = "";
       /**
-       * <code>string authkey = 1;</code>
+       * <code>string authkey = 3;</code>
        * @return The authkey.
        */
       public java.lang.String getAuthkey() {
@@ -737,7 +737,7 @@ public final class GetAuthkeyRspOuterClass {
         }
       }
       /**
-       * <code>string authkey = 1;</code>
+       * <code>string authkey = 3;</code>
        * @return The bytes for authkey.
        */
       public com.google.protobuf.ByteString
@@ -754,7 +754,7 @@ public final class GetAuthkeyRspOuterClass {
         }
       }
       /**
-       * <code>string authkey = 1;</code>
+       * <code>string authkey = 3;</code>
        * @param value The authkey to set.
        * @return This builder for chaining.
        */
@@ -769,7 +769,7 @@ public final class GetAuthkeyRspOuterClass {
         return this;
       }
       /**
-       * <code>string authkey = 1;</code>
+       * <code>string authkey = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearAuthkey() {
@@ -779,7 +779,7 @@ public final class GetAuthkeyRspOuterClass {
         return this;
       }
       /**
-       * <code>string authkey = 1;</code>
+       * <code>string authkey = 3;</code>
        * @param value The bytes for authkey to set.
        * @return This builder for chaining.
        */
@@ -797,7 +797,7 @@ public final class GetAuthkeyRspOuterClass {
 
       private java.lang.Object gameBiz_ = "";
       /**
-       * <code>string game_biz = 5;</code>
+       * <code>string game_biz = 15;</code>
        * @return The gameBiz.
        */
       public java.lang.String getGameBiz() {
@@ -813,7 +813,7 @@ public final class GetAuthkeyRspOuterClass {
         }
       }
       /**
-       * <code>string game_biz = 5;</code>
+       * <code>string game_biz = 15;</code>
        * @return The bytes for gameBiz.
        */
       public com.google.protobuf.ByteString
@@ -830,7 +830,7 @@ public final class GetAuthkeyRspOuterClass {
         }
       }
       /**
-       * <code>string game_biz = 5;</code>
+       * <code>string game_biz = 15;</code>
        * @param value The gameBiz to set.
        * @return This builder for chaining.
        */
@@ -845,7 +845,7 @@ public final class GetAuthkeyRspOuterClass {
         return this;
       }
       /**
-       * <code>string game_biz = 5;</code>
+       * <code>string game_biz = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearGameBiz() {
@@ -855,7 +855,7 @@ public final class GetAuthkeyRspOuterClass {
         return this;
       }
       /**
-       * <code>string game_biz = 5;</code>
+       * <code>string game_biz = 15;</code>
        * @param value The bytes for gameBiz to set.
        * @return This builder for chaining.
        */
@@ -873,7 +873,7 @@ public final class GetAuthkeyRspOuterClass {
 
       private java.lang.Object authAppid_ = "";
       /**
-       * <code>string auth_appid = 7;</code>
+       * <code>string auth_appid = 5;</code>
        * @return The authAppid.
        */
       public java.lang.String getAuthAppid() {
@@ -889,7 +889,7 @@ public final class GetAuthkeyRspOuterClass {
         }
       }
       /**
-       * <code>string auth_appid = 7;</code>
+       * <code>string auth_appid = 5;</code>
        * @return The bytes for authAppid.
        */
       public com.google.protobuf.ByteString
@@ -906,7 +906,7 @@ public final class GetAuthkeyRspOuterClass {
         }
       }
       /**
-       * <code>string auth_appid = 7;</code>
+       * <code>string auth_appid = 5;</code>
        * @param value The authAppid to set.
        * @return This builder for chaining.
        */
@@ -921,7 +921,7 @@ public final class GetAuthkeyRspOuterClass {
         return this;
       }
       /**
-       * <code>string auth_appid = 7;</code>
+       * <code>string auth_appid = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearAuthAppid() {
@@ -931,7 +931,7 @@ public final class GetAuthkeyRspOuterClass {
         return this;
       }
       /**
-       * <code>string auth_appid = 7;</code>
+       * <code>string auth_appid = 5;</code>
        * @param value The bytes for authAppid to set.
        * @return This builder for chaining.
        */
@@ -949,7 +949,7 @@ public final class GetAuthkeyRspOuterClass {
 
       private int retcode_ ;
       /**
-       * <code>int32 retcode = 10;</code>
+       * <code>int32 retcode = 6;</code>
        * @return The retcode.
        */
       @java.lang.Override
@@ -957,7 +957,7 @@ public final class GetAuthkeyRspOuterClass {
         return retcode_;
       }
       /**
-       * <code>int32 retcode = 10;</code>
+       * <code>int32 retcode = 6;</code>
        * @param value The retcode to set.
        * @return This builder for chaining.
        */
@@ -968,7 +968,7 @@ public final class GetAuthkeyRspOuterClass {
         return this;
       }
       /**
-       * <code>int32 retcode = 10;</code>
+       * <code>int32 retcode = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
@@ -980,7 +980,7 @@ public final class GetAuthkeyRspOuterClass {
 
       private int authkeyVer_ ;
       /**
-       * <code>uint32 authkey_ver = 11;</code>
+       * <code>uint32 authkey_ver = 50000;</code>
        * @return The authkeyVer.
        */
       @java.lang.Override
@@ -988,7 +988,7 @@ public final class GetAuthkeyRspOuterClass {
         return authkeyVer_;
       }
       /**
-       * <code>uint32 authkey_ver = 11;</code>
+       * <code>uint32 authkey_ver = 50000;</code>
        * @param value The authkeyVer to set.
        * @return This builder for chaining.
        */
@@ -999,7 +999,7 @@ public final class GetAuthkeyRspOuterClass {
         return this;
       }
       /**
-       * <code>uint32 authkey_ver = 11;</code>
+       * <code>uint32 authkey_ver = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearAuthkeyVer() {
@@ -1011,7 +1011,7 @@ public final class GetAuthkeyRspOuterClass {
 
       private int signType_ ;
       /**
-       * <code>uint32 sign_type = 14;</code>
+       * <code>uint32 sign_type = 50001;</code>
        * @return The signType.
        */
       @java.lang.Override
@@ -1019,7 +1019,7 @@ public final class GetAuthkeyRspOuterClass {
         return signType_;
       }
       /**
-       * <code>uint32 sign_type = 14;</code>
+       * <code>uint32 sign_type = 50001;</code>
        * @param value The signType to set.
        * @return This builder for chaining.
        */
@@ -1030,7 +1030,7 @@ public final class GetAuthkeyRspOuterClass {
         return this;
       }
       /**
-       * <code>uint32 sign_type = 14;</code>
+       * <code>uint32 sign_type = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearSignType() {
@@ -1106,12 +1106,12 @@ public final class GetAuthkeyRspOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\023GetAuthkeyRsp.proto\"\177\n\rGetAuthkeyRsp\022\017" +
-      "\n\007authkey\030\001 \001(\t\022\020\n\010game_biz\030\005 \001(\t\022\022\n\naut" +
-      "h_appid\030\007 \001(\t\022\017\n\007retcode\030\n \001(\005\022\023\n\013authke" +
-      "y_ver\030\013 \001(\r\022\021\n\tsign_type\030\016 \001(\rB4\n\031emu.gr" +
-      "asscutter.net.protoB\027GetAuthkeyRspOuterC" +
-      "lassb\006proto3"
+      "\n\023GetAuthkeyRsp.proto\"\203\001\n\rGetAuthkeyRsp\022" +
+      "\017\n\007authkey\030\003 \001(\t\022\020\n\010game_biz\030\017 \001(\t\022\022\n\nau" +
+      "th_appid\030\005 \001(\t\022\017\n\007retcode\030\006 \001(\005\022\025\n\013authk" +
+      "ey_ver\030\320\206\003 \001(\r\022\023\n\tsign_type\030\321\206\003 \001(\rB4\n\031e" +
+      "mu.grasscutter.net.protoB\027GetAuthkeyRspO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

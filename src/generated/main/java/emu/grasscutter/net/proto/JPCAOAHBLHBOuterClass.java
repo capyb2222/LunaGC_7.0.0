@@ -19,25 +19,25 @@ public final class JPCAOAHBLHBOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .NJOLOBINBLE level_info_list = 11;</code>
+     * <code>repeated .NJOLOBINBLE level_info_list = 15;</code>
      */
     java.util.List<emu.grasscutter.net.proto.NJOLOBINBLEOuterClass.NJOLOBINBLE> 
         getLevelInfoListList();
     /**
-     * <code>repeated .NJOLOBINBLE level_info_list = 11;</code>
+     * <code>repeated .NJOLOBINBLE level_info_list = 15;</code>
      */
     emu.grasscutter.net.proto.NJOLOBINBLEOuterClass.NJOLOBINBLE getLevelInfoList(int index);
     /**
-     * <code>repeated .NJOLOBINBLE level_info_list = 11;</code>
+     * <code>repeated .NJOLOBINBLE level_info_list = 15;</code>
      */
     int getLevelInfoListCount();
     /**
-     * <code>repeated .NJOLOBINBLE level_info_list = 11;</code>
+     * <code>repeated .NJOLOBINBLE level_info_list = 15;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.NJOLOBINBLEOuterClass.NJOLOBINBLEOrBuilder> 
         getLevelInfoListOrBuilderList();
     /**
-     * <code>repeated .NJOLOBINBLE level_info_list = 11;</code>
+     * <code>repeated .NJOLOBINBLE level_info_list = 15;</code>
      */
     emu.grasscutter.net.proto.NJOLOBINBLEOuterClass.NJOLOBINBLEOrBuilder getLevelInfoListOrBuilder(
         int index);
@@ -89,7 +89,7 @@ public final class JPCAOAHBLHBOuterClass {
             case 0:
               done = true;
               break;
-            case 90: {
+            case 122: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 levelInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.NJOLOBINBLEOuterClass.NJOLOBINBLE>();
                 mutable_bitField0_ |= 0x00000001;
@@ -133,17 +133,17 @@ public final class JPCAOAHBLHBOuterClass {
               emu.grasscutter.net.proto.JPCAOAHBLHBOuterClass.JPCAOAHBLHB.class, emu.grasscutter.net.proto.JPCAOAHBLHBOuterClass.JPCAOAHBLHB.Builder.class);
     }
 
-    public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 11;
+    public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 15;
     private java.util.List<emu.grasscutter.net.proto.NJOLOBINBLEOuterClass.NJOLOBINBLE> levelInfoList_;
     /**
-     * <code>repeated .NJOLOBINBLE level_info_list = 11;</code>
+     * <code>repeated .NJOLOBINBLE level_info_list = 15;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.NJOLOBINBLEOuterClass.NJOLOBINBLE> getLevelInfoListList() {
       return levelInfoList_;
     }
     /**
-     * <code>repeated .NJOLOBINBLE level_info_list = 11;</code>
+     * <code>repeated .NJOLOBINBLE level_info_list = 15;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.NJOLOBINBLEOuterClass.NJOLOBINBLEOrBuilder> 
@@ -151,21 +151,21 @@ public final class JPCAOAHBLHBOuterClass {
       return levelInfoList_;
     }
     /**
-     * <code>repeated .NJOLOBINBLE level_info_list = 11;</code>
+     * <code>repeated .NJOLOBINBLE level_info_list = 15;</code>
      */
     @java.lang.Override
     public int getLevelInfoListCount() {
       return levelInfoList_.size();
     }
     /**
-     * <code>repeated .NJOLOBINBLE level_info_list = 11;</code>
+     * <code>repeated .NJOLOBINBLE level_info_list = 15;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.NJOLOBINBLEOuterClass.NJOLOBINBLE getLevelInfoList(int index) {
       return levelInfoList_.get(index);
     }
     /**
-     * <code>repeated .NJOLOBINBLE level_info_list = 11;</code>
+     * <code>repeated .NJOLOBINBLE level_info_list = 15;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.NJOLOBINBLEOuterClass.NJOLOBINBLEOrBuilder getLevelInfoListOrBuilder(
@@ -188,7 +188,7 @@ public final class JPCAOAHBLHBOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < levelInfoList_.size(); i++) {
-        output.writeMessage(11, levelInfoList_.get(i));
+        output.writeMessage(15, levelInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -201,7 +201,7 @@ public final class JPCAOAHBLHBOuterClass {
       size = 0;
       for (int i = 0; i < levelInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, levelInfoList_.get(i));
+          .computeMessageSize(15, levelInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -528,7 +528,7 @@ public final class JPCAOAHBLHBOuterClass {
           emu.grasscutter.net.proto.NJOLOBINBLEOuterClass.NJOLOBINBLE, emu.grasscutter.net.proto.NJOLOBINBLEOuterClass.NJOLOBINBLE.Builder, emu.grasscutter.net.proto.NJOLOBINBLEOuterClass.NJOLOBINBLEOrBuilder> levelInfoListBuilder_;
 
       /**
-       * <code>repeated .NJOLOBINBLE level_info_list = 11;</code>
+       * <code>repeated .NJOLOBINBLE level_info_list = 15;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.NJOLOBINBLEOuterClass.NJOLOBINBLE> getLevelInfoListList() {
         if (levelInfoListBuilder_ == null) {
@@ -538,7 +538,7 @@ public final class JPCAOAHBLHBOuterClass {
         }
       }
       /**
-       * <code>repeated .NJOLOBINBLE level_info_list = 11;</code>
+       * <code>repeated .NJOLOBINBLE level_info_list = 15;</code>
        */
       public int getLevelInfoListCount() {
         if (levelInfoListBuilder_ == null) {
@@ -548,7 +548,7 @@ public final class JPCAOAHBLHBOuterClass {
         }
       }
       /**
-       * <code>repeated .NJOLOBINBLE level_info_list = 11;</code>
+       * <code>repeated .NJOLOBINBLE level_info_list = 15;</code>
        */
       public emu.grasscutter.net.proto.NJOLOBINBLEOuterClass.NJOLOBINBLE getLevelInfoList(int index) {
         if (levelInfoListBuilder_ == null) {
@@ -558,7 +558,7 @@ public final class JPCAOAHBLHBOuterClass {
         }
       }
       /**
-       * <code>repeated .NJOLOBINBLE level_info_list = 11;</code>
+       * <code>repeated .NJOLOBINBLE level_info_list = 15;</code>
        */
       public Builder setLevelInfoList(
           int index, emu.grasscutter.net.proto.NJOLOBINBLEOuterClass.NJOLOBINBLE value) {
@@ -575,7 +575,7 @@ public final class JPCAOAHBLHBOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NJOLOBINBLE level_info_list = 11;</code>
+       * <code>repeated .NJOLOBINBLE level_info_list = 15;</code>
        */
       public Builder setLevelInfoList(
           int index, emu.grasscutter.net.proto.NJOLOBINBLEOuterClass.NJOLOBINBLE.Builder builderForValue) {
@@ -589,7 +589,7 @@ public final class JPCAOAHBLHBOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NJOLOBINBLE level_info_list = 11;</code>
+       * <code>repeated .NJOLOBINBLE level_info_list = 15;</code>
        */
       public Builder addLevelInfoList(emu.grasscutter.net.proto.NJOLOBINBLEOuterClass.NJOLOBINBLE value) {
         if (levelInfoListBuilder_ == null) {
@@ -605,7 +605,7 @@ public final class JPCAOAHBLHBOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NJOLOBINBLE level_info_list = 11;</code>
+       * <code>repeated .NJOLOBINBLE level_info_list = 15;</code>
        */
       public Builder addLevelInfoList(
           int index, emu.grasscutter.net.proto.NJOLOBINBLEOuterClass.NJOLOBINBLE value) {
@@ -622,7 +622,7 @@ public final class JPCAOAHBLHBOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NJOLOBINBLE level_info_list = 11;</code>
+       * <code>repeated .NJOLOBINBLE level_info_list = 15;</code>
        */
       public Builder addLevelInfoList(
           emu.grasscutter.net.proto.NJOLOBINBLEOuterClass.NJOLOBINBLE.Builder builderForValue) {
@@ -636,7 +636,7 @@ public final class JPCAOAHBLHBOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NJOLOBINBLE level_info_list = 11;</code>
+       * <code>repeated .NJOLOBINBLE level_info_list = 15;</code>
        */
       public Builder addLevelInfoList(
           int index, emu.grasscutter.net.proto.NJOLOBINBLEOuterClass.NJOLOBINBLE.Builder builderForValue) {
@@ -650,7 +650,7 @@ public final class JPCAOAHBLHBOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NJOLOBINBLE level_info_list = 11;</code>
+       * <code>repeated .NJOLOBINBLE level_info_list = 15;</code>
        */
       public Builder addAllLevelInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.NJOLOBINBLEOuterClass.NJOLOBINBLE> values) {
@@ -665,7 +665,7 @@ public final class JPCAOAHBLHBOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NJOLOBINBLE level_info_list = 11;</code>
+       * <code>repeated .NJOLOBINBLE level_info_list = 15;</code>
        */
       public Builder clearLevelInfoList() {
         if (levelInfoListBuilder_ == null) {
@@ -678,7 +678,7 @@ public final class JPCAOAHBLHBOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NJOLOBINBLE level_info_list = 11;</code>
+       * <code>repeated .NJOLOBINBLE level_info_list = 15;</code>
        */
       public Builder removeLevelInfoList(int index) {
         if (levelInfoListBuilder_ == null) {
@@ -691,14 +691,14 @@ public final class JPCAOAHBLHBOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NJOLOBINBLE level_info_list = 11;</code>
+       * <code>repeated .NJOLOBINBLE level_info_list = 15;</code>
        */
       public emu.grasscutter.net.proto.NJOLOBINBLEOuterClass.NJOLOBINBLE.Builder getLevelInfoListBuilder(
           int index) {
         return getLevelInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .NJOLOBINBLE level_info_list = 11;</code>
+       * <code>repeated .NJOLOBINBLE level_info_list = 15;</code>
        */
       public emu.grasscutter.net.proto.NJOLOBINBLEOuterClass.NJOLOBINBLEOrBuilder getLevelInfoListOrBuilder(
           int index) {
@@ -708,7 +708,7 @@ public final class JPCAOAHBLHBOuterClass {
         }
       }
       /**
-       * <code>repeated .NJOLOBINBLE level_info_list = 11;</code>
+       * <code>repeated .NJOLOBINBLE level_info_list = 15;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.NJOLOBINBLEOuterClass.NJOLOBINBLEOrBuilder> 
            getLevelInfoListOrBuilderList() {
@@ -719,14 +719,14 @@ public final class JPCAOAHBLHBOuterClass {
         }
       }
       /**
-       * <code>repeated .NJOLOBINBLE level_info_list = 11;</code>
+       * <code>repeated .NJOLOBINBLE level_info_list = 15;</code>
        */
       public emu.grasscutter.net.proto.NJOLOBINBLEOuterClass.NJOLOBINBLE.Builder addLevelInfoListBuilder() {
         return getLevelInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.NJOLOBINBLEOuterClass.NJOLOBINBLE.getDefaultInstance());
       }
       /**
-       * <code>repeated .NJOLOBINBLE level_info_list = 11;</code>
+       * <code>repeated .NJOLOBINBLE level_info_list = 15;</code>
        */
       public emu.grasscutter.net.proto.NJOLOBINBLEOuterClass.NJOLOBINBLE.Builder addLevelInfoListBuilder(
           int index) {
@@ -734,7 +734,7 @@ public final class JPCAOAHBLHBOuterClass {
             index, emu.grasscutter.net.proto.NJOLOBINBLEOuterClass.NJOLOBINBLE.getDefaultInstance());
       }
       /**
-       * <code>repeated .NJOLOBINBLE level_info_list = 11;</code>
+       * <code>repeated .NJOLOBINBLE level_info_list = 15;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.NJOLOBINBLEOuterClass.NJOLOBINBLE.Builder> 
            getLevelInfoListBuilderList() {
@@ -822,7 +822,7 @@ public final class JPCAOAHBLHBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021JPCAOAHBLHB.proto\032\021NJOLOBINBLE.proto\"4" +
-      "\n\013JPCAOAHBLHB\022%\n\017level_info_list\030\013 \003(\0132\014" +
+      "\n\013JPCAOAHBLHB\022%\n\017level_info_list\030\017 \003(\0132\014" +
       ".NJOLOBINBLEB2\n\031emu.grasscutter.net.prot" +
       "oB\025JPCAOAHBLHBOuterClassb\006proto3"
     };

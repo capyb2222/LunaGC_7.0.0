@@ -6,6 +6,6 @@ option java_outer_classname = "SetEntityClientDataNotifyOuterClass";
 import "EntityClientData.proto";
 
 message SetEntityClientDataNotify {
-	uint32 entity_id = 3;
-	EntityClientData entity_client_data = 15;
+	uint32 entity_id = 2;
+	EntityClientData entity_client_data = 13;
 }

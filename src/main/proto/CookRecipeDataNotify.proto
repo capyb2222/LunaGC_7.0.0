@@ -6,5 +6,5 @@ option java_outer_classname = "CookRecipeDataNotifyOuterClass";
 import "CookRecipeData.proto";
 
 message CookRecipeDataNotify {
-	CookRecipeData recipe_data = 4;
+	CookRecipeData recipe_data = 13;
 }

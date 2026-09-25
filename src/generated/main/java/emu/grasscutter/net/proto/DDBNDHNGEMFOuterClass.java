@@ -19,75 +19,75 @@ public final class DDBNDHNGEMFOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.LNHPDECBPMO ILLJNLJAADM = 1;</code>
+     * <code>.LNHPDECBPMO ILLJNLJAADM = 10;</code>
      * @return Whether the iLLJNLJAADM field is set.
      */
     boolean hasILLJNLJAADM();
     /**
-     * <code>.LNHPDECBPMO ILLJNLJAADM = 1;</code>
+     * <code>.LNHPDECBPMO ILLJNLJAADM = 10;</code>
      * @return The iLLJNLJAADM.
      */
     emu.grasscutter.net.proto.LNHPDECBPMOOuterClass.LNHPDECBPMO getILLJNLJAADM();
     /**
-     * <code>.LNHPDECBPMO ILLJNLJAADM = 1;</code>
+     * <code>.LNHPDECBPMO ILLJNLJAADM = 10;</code>
      */
     emu.grasscutter.net.proto.LNHPDECBPMOOuterClass.LNHPDECBPMOOrBuilder getILLJNLJAADMOrBuilder();
 
     /**
-     * <code>repeated .JLHFIDHPJMF team_info_list = 2;</code>
+     * <code>repeated .JLHFIDHPJMF team_info_list = 15;</code>
      */
     java.util.List<emu.grasscutter.net.proto.JLHFIDHPJMFOuterClass.JLHFIDHPJMF> 
         getTeamInfoListList();
     /**
-     * <code>repeated .JLHFIDHPJMF team_info_list = 2;</code>
+     * <code>repeated .JLHFIDHPJMF team_info_list = 15;</code>
      */
     emu.grasscutter.net.proto.JLHFIDHPJMFOuterClass.JLHFIDHPJMF getTeamInfoList(int index);
     /**
-     * <code>repeated .JLHFIDHPJMF team_info_list = 2;</code>
+     * <code>repeated .JLHFIDHPJMF team_info_list = 15;</code>
      */
     int getTeamInfoListCount();
     /**
-     * <code>repeated .JLHFIDHPJMF team_info_list = 2;</code>
+     * <code>repeated .JLHFIDHPJMF team_info_list = 15;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.JLHFIDHPJMFOuterClass.JLHFIDHPJMFOrBuilder> 
         getTeamInfoListOrBuilderList();
     /**
-     * <code>repeated .JLHFIDHPJMF team_info_list = 2;</code>
+     * <code>repeated .JLHFIDHPJMF team_info_list = 15;</code>
      */
     emu.grasscutter.net.proto.JLHFIDHPJMFOuterClass.JLHFIDHPJMFOrBuilder getTeamInfoListOrBuilder(
         int index);
 
     /**
-     * <code>repeated uint64 equip_guid_list = 7;</code>
+     * <code>repeated uint64 equip_guid_list = 3;</code>
      * @return A list containing the equipGuidList.
      */
     java.util.List<java.lang.Long> getEquipGuidListList();
     /**
-     * <code>repeated uint64 equip_guid_list = 7;</code>
+     * <code>repeated uint64 equip_guid_list = 3;</code>
      * @return The count of equipGuidList.
      */
     int getEquipGuidListCount();
     /**
-     * <code>repeated uint64 equip_guid_list = 7;</code>
+     * <code>repeated uint64 equip_guid_list = 3;</code>
      * @param index The index of the element to return.
      * @return The equipGuidList at the given index.
      */
     long getEquipGuidList(int index);
 
     /**
-     * <code>uint32 cost_time = 8;</code>
+     * <code>uint32 cost_time = 1;</code>
      * @return The costTime.
      */
     int getCostTime();
 
     /**
-     * <code>bool is_finished = 12;</code>
+     * <code>bool is_finished = 9;</code>
      * @return The isFinished.
      */
     boolean getIsFinished();
 
     /**
-     * <code>uint32 AAKAOLKKNGC = 13;</code>
+     * <code>uint32 AAKAOLKKNGC = 14;</code>
      * @return The aAKAOLKKNGC.
      */
     int getAAKAOLKKNGC();
@@ -140,29 +140,12 @@ public final class DDBNDHNGEMFOuterClass {
             case 0:
               done = true;
               break;
-            case 10: {
-              emu.grasscutter.net.proto.LNHPDECBPMOOuterClass.LNHPDECBPMO.Builder subBuilder = null;
-              if (iLLJNLJAADM_ != null) {
-                subBuilder = iLLJNLJAADM_.toBuilder();
-              }
-              iLLJNLJAADM_ = input.readMessage(emu.grasscutter.net.proto.LNHPDECBPMOOuterClass.LNHPDECBPMO.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(iLLJNLJAADM_);
-                iLLJNLJAADM_ = subBuilder.buildPartial();
-              }
+            case 8: {
 
+              costTime_ = input.readUInt32();
               break;
             }
-            case 18: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                teamInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.JLHFIDHPJMFOuterClass.JLHFIDHPJMF>();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              teamInfoList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.JLHFIDHPJMFOuterClass.JLHFIDHPJMF.parser(), extensionRegistry));
-              break;
-            }
-            case 56: {
+            case 24: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 equipGuidList_ = newLongList();
                 mutable_bitField0_ |= 0x00000002;
@@ -170,7 +153,7 @@ public final class DDBNDHNGEMFOuterClass {
               equipGuidList_.addLong(input.readUInt64());
               break;
             }
-            case 58: {
+            case 26: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
@@ -183,19 +166,36 @@ public final class DDBNDHNGEMFOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 64: {
-
-              costTime_ = input.readUInt32();
-              break;
-            }
-            case 96: {
+            case 72: {
 
               isFinished_ = input.readBool();
               break;
             }
-            case 104: {
+            case 82: {
+              emu.grasscutter.net.proto.LNHPDECBPMOOuterClass.LNHPDECBPMO.Builder subBuilder = null;
+              if (iLLJNLJAADM_ != null) {
+                subBuilder = iLLJNLJAADM_.toBuilder();
+              }
+              iLLJNLJAADM_ = input.readMessage(emu.grasscutter.net.proto.LNHPDECBPMOOuterClass.LNHPDECBPMO.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(iLLJNLJAADM_);
+                iLLJNLJAADM_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 112: {
 
               aAKAOLKKNGC_ = input.readUInt32();
+              break;
+            }
+            case 122: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                teamInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.JLHFIDHPJMFOuterClass.JLHFIDHPJMF>();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              teamInfoList_.add(
+                  input.readMessage(emu.grasscutter.net.proto.JLHFIDHPJMFOuterClass.JLHFIDHPJMF.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -213,11 +213,11 @@ public final class DDBNDHNGEMFOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          teamInfoList_ = java.util.Collections.unmodifiableList(teamInfoList_);
-        }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
           equipGuidList_.makeImmutable(); // C
+        }
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          teamInfoList_ = java.util.Collections.unmodifiableList(teamInfoList_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -236,10 +236,10 @@ public final class DDBNDHNGEMFOuterClass {
               emu.grasscutter.net.proto.DDBNDHNGEMFOuterClass.DDBNDHNGEMF.class, emu.grasscutter.net.proto.DDBNDHNGEMFOuterClass.DDBNDHNGEMF.Builder.class);
     }
 
-    public static final int ILLJNLJAADM_FIELD_NUMBER = 1;
+    public static final int ILLJNLJAADM_FIELD_NUMBER = 10;
     private emu.grasscutter.net.proto.LNHPDECBPMOOuterClass.LNHPDECBPMO iLLJNLJAADM_;
     /**
-     * <code>.LNHPDECBPMO ILLJNLJAADM = 1;</code>
+     * <code>.LNHPDECBPMO ILLJNLJAADM = 10;</code>
      * @return Whether the iLLJNLJAADM field is set.
      */
     @java.lang.Override
@@ -247,7 +247,7 @@ public final class DDBNDHNGEMFOuterClass {
       return iLLJNLJAADM_ != null;
     }
     /**
-     * <code>.LNHPDECBPMO ILLJNLJAADM = 1;</code>
+     * <code>.LNHPDECBPMO ILLJNLJAADM = 10;</code>
      * @return The iLLJNLJAADM.
      */
     @java.lang.Override
@@ -255,24 +255,24 @@ public final class DDBNDHNGEMFOuterClass {
       return iLLJNLJAADM_ == null ? emu.grasscutter.net.proto.LNHPDECBPMOOuterClass.LNHPDECBPMO.getDefaultInstance() : iLLJNLJAADM_;
     }
     /**
-     * <code>.LNHPDECBPMO ILLJNLJAADM = 1;</code>
+     * <code>.LNHPDECBPMO ILLJNLJAADM = 10;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.LNHPDECBPMOOuterClass.LNHPDECBPMOOrBuilder getILLJNLJAADMOrBuilder() {
       return getILLJNLJAADM();
     }
 
-    public static final int TEAM_INFO_LIST_FIELD_NUMBER = 2;
+    public static final int TEAM_INFO_LIST_FIELD_NUMBER = 15;
     private java.util.List<emu.grasscutter.net.proto.JLHFIDHPJMFOuterClass.JLHFIDHPJMF> teamInfoList_;
     /**
-     * <code>repeated .JLHFIDHPJMF team_info_list = 2;</code>
+     * <code>repeated .JLHFIDHPJMF team_info_list = 15;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.JLHFIDHPJMFOuterClass.JLHFIDHPJMF> getTeamInfoListList() {
       return teamInfoList_;
     }
     /**
-     * <code>repeated .JLHFIDHPJMF team_info_list = 2;</code>
+     * <code>repeated .JLHFIDHPJMF team_info_list = 15;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.JLHFIDHPJMFOuterClass.JLHFIDHPJMFOrBuilder> 
@@ -280,21 +280,21 @@ public final class DDBNDHNGEMFOuterClass {
       return teamInfoList_;
     }
     /**
-     * <code>repeated .JLHFIDHPJMF team_info_list = 2;</code>
+     * <code>repeated .JLHFIDHPJMF team_info_list = 15;</code>
      */
     @java.lang.Override
     public int getTeamInfoListCount() {
       return teamInfoList_.size();
     }
     /**
-     * <code>repeated .JLHFIDHPJMF team_info_list = 2;</code>
+     * <code>repeated .JLHFIDHPJMF team_info_list = 15;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.JLHFIDHPJMFOuterClass.JLHFIDHPJMF getTeamInfoList(int index) {
       return teamInfoList_.get(index);
     }
     /**
-     * <code>repeated .JLHFIDHPJMF team_info_list = 2;</code>
+     * <code>repeated .JLHFIDHPJMF team_info_list = 15;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.JLHFIDHPJMFOuterClass.JLHFIDHPJMFOrBuilder getTeamInfoListOrBuilder(
@@ -302,10 +302,10 @@ public final class DDBNDHNGEMFOuterClass {
       return teamInfoList_.get(index);
     }
 
-    public static final int EQUIP_GUID_LIST_FIELD_NUMBER = 7;
+    public static final int EQUIP_GUID_LIST_FIELD_NUMBER = 3;
     private com.google.protobuf.Internal.LongList equipGuidList_;
     /**
-     * <code>repeated uint64 equip_guid_list = 7;</code>
+     * <code>repeated uint64 equip_guid_list = 3;</code>
      * @return A list containing the equipGuidList.
      */
     @java.lang.Override
@@ -314,14 +314,14 @@ public final class DDBNDHNGEMFOuterClass {
       return equipGuidList_;
     }
     /**
-     * <code>repeated uint64 equip_guid_list = 7;</code>
+     * <code>repeated uint64 equip_guid_list = 3;</code>
      * @return The count of equipGuidList.
      */
     public int getEquipGuidListCount() {
       return equipGuidList_.size();
     }
     /**
-     * <code>repeated uint64 equip_guid_list = 7;</code>
+     * <code>repeated uint64 equip_guid_list = 3;</code>
      * @param index The index of the element to return.
      * @return The equipGuidList at the given index.
      */
@@ -330,10 +330,10 @@ public final class DDBNDHNGEMFOuterClass {
     }
     private int equipGuidListMemoizedSerializedSize = -1;
 
-    public static final int COST_TIME_FIELD_NUMBER = 8;
+    public static final int COST_TIME_FIELD_NUMBER = 1;
     private int costTime_;
     /**
-     * <code>uint32 cost_time = 8;</code>
+     * <code>uint32 cost_time = 1;</code>
      * @return The costTime.
      */
     @java.lang.Override
@@ -341,10 +341,10 @@ public final class DDBNDHNGEMFOuterClass {
       return costTime_;
     }
 
-    public static final int IS_FINISHED_FIELD_NUMBER = 12;
+    public static final int IS_FINISHED_FIELD_NUMBER = 9;
     private boolean isFinished_;
     /**
-     * <code>bool is_finished = 12;</code>
+     * <code>bool is_finished = 9;</code>
      * @return The isFinished.
      */
     @java.lang.Override
@@ -352,10 +352,10 @@ public final class DDBNDHNGEMFOuterClass {
       return isFinished_;
     }
 
-    public static final int AAKAOLKKNGC_FIELD_NUMBER = 13;
+    public static final int AAKAOLKKNGC_FIELD_NUMBER = 14;
     private int aAKAOLKKNGC_;
     /**
-     * <code>uint32 AAKAOLKKNGC = 13;</code>
+     * <code>uint32 AAKAOLKKNGC = 14;</code>
      * @return The aAKAOLKKNGC.
      */
     @java.lang.Override
@@ -378,27 +378,27 @@ public final class DDBNDHNGEMFOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (iLLJNLJAADM_ != null) {
-        output.writeMessage(1, getILLJNLJAADM());
-      }
-      for (int i = 0; i < teamInfoList_.size(); i++) {
-        output.writeMessage(2, teamInfoList_.get(i));
+      if (costTime_ != 0) {
+        output.writeUInt32(1, costTime_);
       }
       if (getEquipGuidListList().size() > 0) {
-        output.writeUInt32NoTag(58);
+        output.writeUInt32NoTag(26);
         output.writeUInt32NoTag(equipGuidListMemoizedSerializedSize);
       }
       for (int i = 0; i < equipGuidList_.size(); i++) {
         output.writeUInt64NoTag(equipGuidList_.getLong(i));
       }
-      if (costTime_ != 0) {
-        output.writeUInt32(8, costTime_);
-      }
       if (isFinished_ != false) {
-        output.writeBool(12, isFinished_);
+        output.writeBool(9, isFinished_);
+      }
+      if (iLLJNLJAADM_ != null) {
+        output.writeMessage(10, getILLJNLJAADM());
       }
       if (aAKAOLKKNGC_ != 0) {
-        output.writeUInt32(13, aAKAOLKKNGC_);
+        output.writeUInt32(14, aAKAOLKKNGC_);
+      }
+      for (int i = 0; i < teamInfoList_.size(); i++) {
+        output.writeMessage(15, teamInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -409,13 +409,9 @@ public final class DDBNDHNGEMFOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (iLLJNLJAADM_ != null) {
+      if (costTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, getILLJNLJAADM());
-      }
-      for (int i = 0; i < teamInfoList_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, teamInfoList_.get(i));
+          .computeUInt32Size(1, costTime_);
       }
       {
         int dataSize = 0;
@@ -431,17 +427,21 @@ public final class DDBNDHNGEMFOuterClass {
         }
         equipGuidListMemoizedSerializedSize = dataSize;
       }
-      if (costTime_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, costTime_);
-      }
       if (isFinished_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, isFinished_);
+          .computeBoolSize(9, isFinished_);
+      }
+      if (iLLJNLJAADM_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(10, getILLJNLJAADM());
       }
       if (aAKAOLKKNGC_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, aAKAOLKKNGC_);
+          .computeUInt32Size(14, aAKAOLKKNGC_);
+      }
+      for (int i = 0; i < teamInfoList_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(15, teamInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -836,14 +836,14 @@ public final class DDBNDHNGEMFOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.LNHPDECBPMOOuterClass.LNHPDECBPMO, emu.grasscutter.net.proto.LNHPDECBPMOOuterClass.LNHPDECBPMO.Builder, emu.grasscutter.net.proto.LNHPDECBPMOOuterClass.LNHPDECBPMOOrBuilder> iLLJNLJAADMBuilder_;
       /**
-       * <code>.LNHPDECBPMO ILLJNLJAADM = 1;</code>
+       * <code>.LNHPDECBPMO ILLJNLJAADM = 10;</code>
        * @return Whether the iLLJNLJAADM field is set.
        */
       public boolean hasILLJNLJAADM() {
         return iLLJNLJAADMBuilder_ != null || iLLJNLJAADM_ != null;
       }
       /**
-       * <code>.LNHPDECBPMO ILLJNLJAADM = 1;</code>
+       * <code>.LNHPDECBPMO ILLJNLJAADM = 10;</code>
        * @return The iLLJNLJAADM.
        */
       public emu.grasscutter.net.proto.LNHPDECBPMOOuterClass.LNHPDECBPMO getILLJNLJAADM() {
@@ -854,7 +854,7 @@ public final class DDBNDHNGEMFOuterClass {
         }
       }
       /**
-       * <code>.LNHPDECBPMO ILLJNLJAADM = 1;</code>
+       * <code>.LNHPDECBPMO ILLJNLJAADM = 10;</code>
        */
       public Builder setILLJNLJAADM(emu.grasscutter.net.proto.LNHPDECBPMOOuterClass.LNHPDECBPMO value) {
         if (iLLJNLJAADMBuilder_ == null) {
@@ -870,7 +870,7 @@ public final class DDBNDHNGEMFOuterClass {
         return this;
       }
       /**
-       * <code>.LNHPDECBPMO ILLJNLJAADM = 1;</code>
+       * <code>.LNHPDECBPMO ILLJNLJAADM = 10;</code>
        */
       public Builder setILLJNLJAADM(
           emu.grasscutter.net.proto.LNHPDECBPMOOuterClass.LNHPDECBPMO.Builder builderForValue) {
@@ -884,7 +884,7 @@ public final class DDBNDHNGEMFOuterClass {
         return this;
       }
       /**
-       * <code>.LNHPDECBPMO ILLJNLJAADM = 1;</code>
+       * <code>.LNHPDECBPMO ILLJNLJAADM = 10;</code>
        */
       public Builder mergeILLJNLJAADM(emu.grasscutter.net.proto.LNHPDECBPMOOuterClass.LNHPDECBPMO value) {
         if (iLLJNLJAADMBuilder_ == null) {
@@ -902,7 +902,7 @@ public final class DDBNDHNGEMFOuterClass {
         return this;
       }
       /**
-       * <code>.LNHPDECBPMO ILLJNLJAADM = 1;</code>
+       * <code>.LNHPDECBPMO ILLJNLJAADM = 10;</code>
        */
       public Builder clearILLJNLJAADM() {
         if (iLLJNLJAADMBuilder_ == null) {
@@ -916,7 +916,7 @@ public final class DDBNDHNGEMFOuterClass {
         return this;
       }
       /**
-       * <code>.LNHPDECBPMO ILLJNLJAADM = 1;</code>
+       * <code>.LNHPDECBPMO ILLJNLJAADM = 10;</code>
        */
       public emu.grasscutter.net.proto.LNHPDECBPMOOuterClass.LNHPDECBPMO.Builder getILLJNLJAADMBuilder() {
         
@@ -924,7 +924,7 @@ public final class DDBNDHNGEMFOuterClass {
         return getILLJNLJAADMFieldBuilder().getBuilder();
       }
       /**
-       * <code>.LNHPDECBPMO ILLJNLJAADM = 1;</code>
+       * <code>.LNHPDECBPMO ILLJNLJAADM = 10;</code>
        */
       public emu.grasscutter.net.proto.LNHPDECBPMOOuterClass.LNHPDECBPMOOrBuilder getILLJNLJAADMOrBuilder() {
         if (iLLJNLJAADMBuilder_ != null) {
@@ -935,7 +935,7 @@ public final class DDBNDHNGEMFOuterClass {
         }
       }
       /**
-       * <code>.LNHPDECBPMO ILLJNLJAADM = 1;</code>
+       * <code>.LNHPDECBPMO ILLJNLJAADM = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.LNHPDECBPMOOuterClass.LNHPDECBPMO, emu.grasscutter.net.proto.LNHPDECBPMOOuterClass.LNHPDECBPMO.Builder, emu.grasscutter.net.proto.LNHPDECBPMOOuterClass.LNHPDECBPMOOrBuilder> 
@@ -964,7 +964,7 @@ public final class DDBNDHNGEMFOuterClass {
           emu.grasscutter.net.proto.JLHFIDHPJMFOuterClass.JLHFIDHPJMF, emu.grasscutter.net.proto.JLHFIDHPJMFOuterClass.JLHFIDHPJMF.Builder, emu.grasscutter.net.proto.JLHFIDHPJMFOuterClass.JLHFIDHPJMFOrBuilder> teamInfoListBuilder_;
 
       /**
-       * <code>repeated .JLHFIDHPJMF team_info_list = 2;</code>
+       * <code>repeated .JLHFIDHPJMF team_info_list = 15;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.JLHFIDHPJMFOuterClass.JLHFIDHPJMF> getTeamInfoListList() {
         if (teamInfoListBuilder_ == null) {
@@ -974,7 +974,7 @@ public final class DDBNDHNGEMFOuterClass {
         }
       }
       /**
-       * <code>repeated .JLHFIDHPJMF team_info_list = 2;</code>
+       * <code>repeated .JLHFIDHPJMF team_info_list = 15;</code>
        */
       public int getTeamInfoListCount() {
         if (teamInfoListBuilder_ == null) {
@@ -984,7 +984,7 @@ public final class DDBNDHNGEMFOuterClass {
         }
       }
       /**
-       * <code>repeated .JLHFIDHPJMF team_info_list = 2;</code>
+       * <code>repeated .JLHFIDHPJMF team_info_list = 15;</code>
        */
       public emu.grasscutter.net.proto.JLHFIDHPJMFOuterClass.JLHFIDHPJMF getTeamInfoList(int index) {
         if (teamInfoListBuilder_ == null) {
@@ -994,7 +994,7 @@ public final class DDBNDHNGEMFOuterClass {
         }
       }
       /**
-       * <code>repeated .JLHFIDHPJMF team_info_list = 2;</code>
+       * <code>repeated .JLHFIDHPJMF team_info_list = 15;</code>
        */
       public Builder setTeamInfoList(
           int index, emu.grasscutter.net.proto.JLHFIDHPJMFOuterClass.JLHFIDHPJMF value) {
@@ -1011,7 +1011,7 @@ public final class DDBNDHNGEMFOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JLHFIDHPJMF team_info_list = 2;</code>
+       * <code>repeated .JLHFIDHPJMF team_info_list = 15;</code>
        */
       public Builder setTeamInfoList(
           int index, emu.grasscutter.net.proto.JLHFIDHPJMFOuterClass.JLHFIDHPJMF.Builder builderForValue) {
@@ -1025,7 +1025,7 @@ public final class DDBNDHNGEMFOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JLHFIDHPJMF team_info_list = 2;</code>
+       * <code>repeated .JLHFIDHPJMF team_info_list = 15;</code>
        */
       public Builder addTeamInfoList(emu.grasscutter.net.proto.JLHFIDHPJMFOuterClass.JLHFIDHPJMF value) {
         if (teamInfoListBuilder_ == null) {
@@ -1041,7 +1041,7 @@ public final class DDBNDHNGEMFOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JLHFIDHPJMF team_info_list = 2;</code>
+       * <code>repeated .JLHFIDHPJMF team_info_list = 15;</code>
        */
       public Builder addTeamInfoList(
           int index, emu.grasscutter.net.proto.JLHFIDHPJMFOuterClass.JLHFIDHPJMF value) {
@@ -1058,7 +1058,7 @@ public final class DDBNDHNGEMFOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JLHFIDHPJMF team_info_list = 2;</code>
+       * <code>repeated .JLHFIDHPJMF team_info_list = 15;</code>
        */
       public Builder addTeamInfoList(
           emu.grasscutter.net.proto.JLHFIDHPJMFOuterClass.JLHFIDHPJMF.Builder builderForValue) {
@@ -1072,7 +1072,7 @@ public final class DDBNDHNGEMFOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JLHFIDHPJMF team_info_list = 2;</code>
+       * <code>repeated .JLHFIDHPJMF team_info_list = 15;</code>
        */
       public Builder addTeamInfoList(
           int index, emu.grasscutter.net.proto.JLHFIDHPJMFOuterClass.JLHFIDHPJMF.Builder builderForValue) {
@@ -1086,7 +1086,7 @@ public final class DDBNDHNGEMFOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JLHFIDHPJMF team_info_list = 2;</code>
+       * <code>repeated .JLHFIDHPJMF team_info_list = 15;</code>
        */
       public Builder addAllTeamInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.JLHFIDHPJMFOuterClass.JLHFIDHPJMF> values) {
@@ -1101,7 +1101,7 @@ public final class DDBNDHNGEMFOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JLHFIDHPJMF team_info_list = 2;</code>
+       * <code>repeated .JLHFIDHPJMF team_info_list = 15;</code>
        */
       public Builder clearTeamInfoList() {
         if (teamInfoListBuilder_ == null) {
@@ -1114,7 +1114,7 @@ public final class DDBNDHNGEMFOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JLHFIDHPJMF team_info_list = 2;</code>
+       * <code>repeated .JLHFIDHPJMF team_info_list = 15;</code>
        */
       public Builder removeTeamInfoList(int index) {
         if (teamInfoListBuilder_ == null) {
@@ -1127,14 +1127,14 @@ public final class DDBNDHNGEMFOuterClass {
         return this;
       }
       /**
-       * <code>repeated .JLHFIDHPJMF team_info_list = 2;</code>
+       * <code>repeated .JLHFIDHPJMF team_info_list = 15;</code>
        */
       public emu.grasscutter.net.proto.JLHFIDHPJMFOuterClass.JLHFIDHPJMF.Builder getTeamInfoListBuilder(
           int index) {
         return getTeamInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .JLHFIDHPJMF team_info_list = 2;</code>
+       * <code>repeated .JLHFIDHPJMF team_info_list = 15;</code>
        */
       public emu.grasscutter.net.proto.JLHFIDHPJMFOuterClass.JLHFIDHPJMFOrBuilder getTeamInfoListOrBuilder(
           int index) {
@@ -1144,7 +1144,7 @@ public final class DDBNDHNGEMFOuterClass {
         }
       }
       /**
-       * <code>repeated .JLHFIDHPJMF team_info_list = 2;</code>
+       * <code>repeated .JLHFIDHPJMF team_info_list = 15;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.JLHFIDHPJMFOuterClass.JLHFIDHPJMFOrBuilder> 
            getTeamInfoListOrBuilderList() {
@@ -1155,14 +1155,14 @@ public final class DDBNDHNGEMFOuterClass {
         }
       }
       /**
-       * <code>repeated .JLHFIDHPJMF team_info_list = 2;</code>
+       * <code>repeated .JLHFIDHPJMF team_info_list = 15;</code>
        */
       public emu.grasscutter.net.proto.JLHFIDHPJMFOuterClass.JLHFIDHPJMF.Builder addTeamInfoListBuilder() {
         return getTeamInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.JLHFIDHPJMFOuterClass.JLHFIDHPJMF.getDefaultInstance());
       }
       /**
-       * <code>repeated .JLHFIDHPJMF team_info_list = 2;</code>
+       * <code>repeated .JLHFIDHPJMF team_info_list = 15;</code>
        */
       public emu.grasscutter.net.proto.JLHFIDHPJMFOuterClass.JLHFIDHPJMF.Builder addTeamInfoListBuilder(
           int index) {
@@ -1170,7 +1170,7 @@ public final class DDBNDHNGEMFOuterClass {
             index, emu.grasscutter.net.proto.JLHFIDHPJMFOuterClass.JLHFIDHPJMF.getDefaultInstance());
       }
       /**
-       * <code>repeated .JLHFIDHPJMF team_info_list = 2;</code>
+       * <code>repeated .JLHFIDHPJMF team_info_list = 15;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.JLHFIDHPJMFOuterClass.JLHFIDHPJMF.Builder> 
            getTeamInfoListBuilderList() {
@@ -1199,7 +1199,7 @@ public final class DDBNDHNGEMFOuterClass {
          }
       }
       /**
-       * <code>repeated uint64 equip_guid_list = 7;</code>
+       * <code>repeated uint64 equip_guid_list = 3;</code>
        * @return A list containing the equipGuidList.
        */
       public java.util.List<java.lang.Long>
@@ -1208,14 +1208,14 @@ public final class DDBNDHNGEMFOuterClass {
                  java.util.Collections.unmodifiableList(equipGuidList_) : equipGuidList_;
       }
       /**
-       * <code>repeated uint64 equip_guid_list = 7;</code>
+       * <code>repeated uint64 equip_guid_list = 3;</code>
        * @return The count of equipGuidList.
        */
       public int getEquipGuidListCount() {
         return equipGuidList_.size();
       }
       /**
-       * <code>repeated uint64 equip_guid_list = 7;</code>
+       * <code>repeated uint64 equip_guid_list = 3;</code>
        * @param index The index of the element to return.
        * @return The equipGuidList at the given index.
        */
@@ -1223,7 +1223,7 @@ public final class DDBNDHNGEMFOuterClass {
         return equipGuidList_.getLong(index);
       }
       /**
-       * <code>repeated uint64 equip_guid_list = 7;</code>
+       * <code>repeated uint64 equip_guid_list = 3;</code>
        * @param index The index to set the value at.
        * @param value The equipGuidList to set.
        * @return This builder for chaining.
@@ -1236,7 +1236,7 @@ public final class DDBNDHNGEMFOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint64 equip_guid_list = 7;</code>
+       * <code>repeated uint64 equip_guid_list = 3;</code>
        * @param value The equipGuidList to add.
        * @return This builder for chaining.
        */
@@ -1247,7 +1247,7 @@ public final class DDBNDHNGEMFOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint64 equip_guid_list = 7;</code>
+       * <code>repeated uint64 equip_guid_list = 3;</code>
        * @param values The equipGuidList to add.
        * @return This builder for chaining.
        */
@@ -1260,7 +1260,7 @@ public final class DDBNDHNGEMFOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint64 equip_guid_list = 7;</code>
+       * <code>repeated uint64 equip_guid_list = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearEquipGuidList() {
@@ -1272,7 +1272,7 @@ public final class DDBNDHNGEMFOuterClass {
 
       private int costTime_ ;
       /**
-       * <code>uint32 cost_time = 8;</code>
+       * <code>uint32 cost_time = 1;</code>
        * @return The costTime.
        */
       @java.lang.Override
@@ -1280,7 +1280,7 @@ public final class DDBNDHNGEMFOuterClass {
         return costTime_;
       }
       /**
-       * <code>uint32 cost_time = 8;</code>
+       * <code>uint32 cost_time = 1;</code>
        * @param value The costTime to set.
        * @return This builder for chaining.
        */
@@ -1291,7 +1291,7 @@ public final class DDBNDHNGEMFOuterClass {
         return this;
       }
       /**
-       * <code>uint32 cost_time = 8;</code>
+       * <code>uint32 cost_time = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearCostTime() {
@@ -1303,7 +1303,7 @@ public final class DDBNDHNGEMFOuterClass {
 
       private boolean isFinished_ ;
       /**
-       * <code>bool is_finished = 12;</code>
+       * <code>bool is_finished = 9;</code>
        * @return The isFinished.
        */
       @java.lang.Override
@@ -1311,7 +1311,7 @@ public final class DDBNDHNGEMFOuterClass {
         return isFinished_;
       }
       /**
-       * <code>bool is_finished = 12;</code>
+       * <code>bool is_finished = 9;</code>
        * @param value The isFinished to set.
        * @return This builder for chaining.
        */
@@ -1322,7 +1322,7 @@ public final class DDBNDHNGEMFOuterClass {
         return this;
       }
       /**
-       * <code>bool is_finished = 12;</code>
+       * <code>bool is_finished = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsFinished() {
@@ -1334,7 +1334,7 @@ public final class DDBNDHNGEMFOuterClass {
 
       private int aAKAOLKKNGC_ ;
       /**
-       * <code>uint32 AAKAOLKKNGC = 13;</code>
+       * <code>uint32 AAKAOLKKNGC = 14;</code>
        * @return The aAKAOLKKNGC.
        */
       @java.lang.Override
@@ -1342,7 +1342,7 @@ public final class DDBNDHNGEMFOuterClass {
         return aAKAOLKKNGC_;
       }
       /**
-       * <code>uint32 AAKAOLKKNGC = 13;</code>
+       * <code>uint32 AAKAOLKKNGC = 14;</code>
        * @param value The aAKAOLKKNGC to set.
        * @return This builder for chaining.
        */
@@ -1353,7 +1353,7 @@ public final class DDBNDHNGEMFOuterClass {
         return this;
       }
       /**
-       * <code>uint32 AAKAOLKKNGC = 13;</code>
+       * <code>uint32 AAKAOLKKNGC = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearAAKAOLKKNGC() {
@@ -1431,10 +1431,10 @@ public final class DDBNDHNGEMFOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021DDBNDHNGEMF.proto\032\021JLHFIDHPJMF.proto\032\021" +
       "LNHPDECBPMO.proto\"\254\001\n\013DDBNDHNGEMF\022!\n\013ILL" +
-      "JNLJAADM\030\001 \001(\0132\014.LNHPDECBPMO\022$\n\016team_inf" +
-      "o_list\030\002 \003(\0132\014.JLHFIDHPJMF\022\027\n\017equip_guid" +
-      "_list\030\007 \003(\004\022\021\n\tcost_time\030\010 \001(\r\022\023\n\013is_fin" +
-      "ished\030\014 \001(\010\022\023\n\013AAKAOLKKNGC\030\r \001(\rB2\n\031emu." +
+      "JNLJAADM\030\n \001(\0132\014.LNHPDECBPMO\022$\n\016team_inf" +
+      "o_list\030\017 \003(\0132\014.JLHFIDHPJMF\022\027\n\017equip_guid" +
+      "_list\030\003 \003(\004\022\021\n\tcost_time\030\001 \001(\r\022\023\n\013is_fin" +
+      "ished\030\t \001(\010\022\023\n\013AAKAOLKKNGC\030\016 \001(\rB2\n\031emu." +
       "grasscutter.net.protoB\025DDBNDHNGEMFOuterC" +
       "lassb\006proto3"
     };

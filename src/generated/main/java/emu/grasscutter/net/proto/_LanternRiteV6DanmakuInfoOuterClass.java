@@ -19,47 +19,47 @@ public final class _LanternRiteV6DanmakuInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>._LanternRiteV6DanmakuRecord _danmaku_record = 10;</code>
+     * <code>._LanternRiteV6DanmakuRecord _danmaku_record = 2;</code>
      * @return Whether the danmakuRecord field is set.
      */
     boolean hasDanmakuRecord();
     /**
-     * <code>._LanternRiteV6DanmakuRecord _danmaku_record = 10;</code>
+     * <code>._LanternRiteV6DanmakuRecord _danmaku_record = 2;</code>
      * @return The danmakuRecord.
      */
     emu.grasscutter.net.proto._LanternRiteV6DanmakuRecordOuterClass._LanternRiteV6DanmakuRecord getDanmakuRecord();
     /**
-     * <code>._LanternRiteV6DanmakuRecord _danmaku_record = 10;</code>
+     * <code>._LanternRiteV6DanmakuRecord _danmaku_record = 2;</code>
      */
     emu.grasscutter.net.proto._LanternRiteV6DanmakuRecordOuterClass._LanternRiteV6DanmakuRecordOrBuilder getDanmakuRecordOrBuilder();
 
     /**
-     * <code>._LanternRiteV6DanmakuTechInfo _tech_info = 11;</code>
+     * <code>._LanternRiteV6DanmakuTechInfo _tech_info = 1;</code>
      * @return Whether the techInfo field is set.
      */
     boolean hasTechInfo();
     /**
-     * <code>._LanternRiteV6DanmakuTechInfo _tech_info = 11;</code>
+     * <code>._LanternRiteV6DanmakuTechInfo _tech_info = 1;</code>
      * @return The techInfo.
      */
     emu.grasscutter.net.proto._LanternRiteV6DanmakuTechInfoOuterClass._LanternRiteV6DanmakuTechInfo getTechInfo();
     /**
-     * <code>._LanternRiteV6DanmakuTechInfo _tech_info = 11;</code>
+     * <code>._LanternRiteV6DanmakuTechInfo _tech_info = 1;</code>
      */
     emu.grasscutter.net.proto._LanternRiteV6DanmakuTechInfoOuterClass._LanternRiteV6DanmakuTechInfoOrBuilder getTechInfoOrBuilder();
 
     /**
-     * <code>._LanternRiteV6DanmakuLevelInfo _cur_level_info = 13;</code>
+     * <code>._LanternRiteV6DanmakuLevelInfo _cur_level_info = 8;</code>
      * @return Whether the curLevelInfo field is set.
      */
     boolean hasCurLevelInfo();
     /**
-     * <code>._LanternRiteV6DanmakuLevelInfo _cur_level_info = 13;</code>
+     * <code>._LanternRiteV6DanmakuLevelInfo _cur_level_info = 8;</code>
      * @return The curLevelInfo.
      */
     emu.grasscutter.net.proto._LanternRiteV6DanmakuLevelInfoOuterClass._LanternRiteV6DanmakuLevelInfo getCurLevelInfo();
     /**
-     * <code>._LanternRiteV6DanmakuLevelInfo _cur_level_info = 13;</code>
+     * <code>._LanternRiteV6DanmakuLevelInfo _cur_level_info = 8;</code>
      */
     emu.grasscutter.net.proto._LanternRiteV6DanmakuLevelInfoOuterClass._LanternRiteV6DanmakuLevelInfoOrBuilder getCurLevelInfoOrBuilder();
   }
@@ -108,20 +108,7 @@ public final class _LanternRiteV6DanmakuInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 82: {
-              emu.grasscutter.net.proto._LanternRiteV6DanmakuRecordOuterClass._LanternRiteV6DanmakuRecord.Builder subBuilder = null;
-              if (DanmakuRecord_ != null) {
-                subBuilder = DanmakuRecord_.toBuilder();
-              }
-              DanmakuRecord_ = input.readMessage(emu.grasscutter.net.proto._LanternRiteV6DanmakuRecordOuterClass._LanternRiteV6DanmakuRecord.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(DanmakuRecord_);
-                DanmakuRecord_ = subBuilder.buildPartial();
-              }
-
-              break;
-            }
-            case 90: {
+            case 10: {
               emu.grasscutter.net.proto._LanternRiteV6DanmakuTechInfoOuterClass._LanternRiteV6DanmakuTechInfo.Builder subBuilder = null;
               if (TechInfo_ != null) {
                 subBuilder = TechInfo_.toBuilder();
@@ -134,7 +121,20 @@ public final class _LanternRiteV6DanmakuInfoOuterClass {
 
               break;
             }
-            case 106: {
+            case 18: {
+              emu.grasscutter.net.proto._LanternRiteV6DanmakuRecordOuterClass._LanternRiteV6DanmakuRecord.Builder subBuilder = null;
+              if (DanmakuRecord_ != null) {
+                subBuilder = DanmakuRecord_.toBuilder();
+              }
+              DanmakuRecord_ = input.readMessage(emu.grasscutter.net.proto._LanternRiteV6DanmakuRecordOuterClass._LanternRiteV6DanmakuRecord.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(DanmakuRecord_);
+                DanmakuRecord_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 66: {
               emu.grasscutter.net.proto._LanternRiteV6DanmakuLevelInfoOuterClass._LanternRiteV6DanmakuLevelInfo.Builder subBuilder = null;
               if (CurLevelInfo_ != null) {
                 subBuilder = CurLevelInfo_.toBuilder();
@@ -179,10 +179,10 @@ public final class _LanternRiteV6DanmakuInfoOuterClass {
               emu.grasscutter.net.proto._LanternRiteV6DanmakuInfoOuterClass._LanternRiteV6DanmakuInfo.class, emu.grasscutter.net.proto._LanternRiteV6DanmakuInfoOuterClass._LanternRiteV6DanmakuInfo.Builder.class);
     }
 
-    public static final int _DANMAKU_RECORD_FIELD_NUMBER = 10;
+    public static final int _DANMAKU_RECORD_FIELD_NUMBER = 2;
     private emu.grasscutter.net.proto._LanternRiteV6DanmakuRecordOuterClass._LanternRiteV6DanmakuRecord DanmakuRecord_;
     /**
-     * <code>._LanternRiteV6DanmakuRecord _danmaku_record = 10;</code>
+     * <code>._LanternRiteV6DanmakuRecord _danmaku_record = 2;</code>
      * @return Whether the danmakuRecord field is set.
      */
     @java.lang.Override
@@ -190,7 +190,7 @@ public final class _LanternRiteV6DanmakuInfoOuterClass {
       return DanmakuRecord_ != null;
     }
     /**
-     * <code>._LanternRiteV6DanmakuRecord _danmaku_record = 10;</code>
+     * <code>._LanternRiteV6DanmakuRecord _danmaku_record = 2;</code>
      * @return The danmakuRecord.
      */
     @java.lang.Override
@@ -198,17 +198,17 @@ public final class _LanternRiteV6DanmakuInfoOuterClass {
       return DanmakuRecord_ == null ? emu.grasscutter.net.proto._LanternRiteV6DanmakuRecordOuterClass._LanternRiteV6DanmakuRecord.getDefaultInstance() : DanmakuRecord_;
     }
     /**
-     * <code>._LanternRiteV6DanmakuRecord _danmaku_record = 10;</code>
+     * <code>._LanternRiteV6DanmakuRecord _danmaku_record = 2;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._LanternRiteV6DanmakuRecordOuterClass._LanternRiteV6DanmakuRecordOrBuilder getDanmakuRecordOrBuilder() {
       return getDanmakuRecord();
     }
 
-    public static final int _TECH_INFO_FIELD_NUMBER = 11;
+    public static final int _TECH_INFO_FIELD_NUMBER = 1;
     private emu.grasscutter.net.proto._LanternRiteV6DanmakuTechInfoOuterClass._LanternRiteV6DanmakuTechInfo TechInfo_;
     /**
-     * <code>._LanternRiteV6DanmakuTechInfo _tech_info = 11;</code>
+     * <code>._LanternRiteV6DanmakuTechInfo _tech_info = 1;</code>
      * @return Whether the techInfo field is set.
      */
     @java.lang.Override
@@ -216,7 +216,7 @@ public final class _LanternRiteV6DanmakuInfoOuterClass {
       return TechInfo_ != null;
     }
     /**
-     * <code>._LanternRiteV6DanmakuTechInfo _tech_info = 11;</code>
+     * <code>._LanternRiteV6DanmakuTechInfo _tech_info = 1;</code>
      * @return The techInfo.
      */
     @java.lang.Override
@@ -224,17 +224,17 @@ public final class _LanternRiteV6DanmakuInfoOuterClass {
       return TechInfo_ == null ? emu.grasscutter.net.proto._LanternRiteV6DanmakuTechInfoOuterClass._LanternRiteV6DanmakuTechInfo.getDefaultInstance() : TechInfo_;
     }
     /**
-     * <code>._LanternRiteV6DanmakuTechInfo _tech_info = 11;</code>
+     * <code>._LanternRiteV6DanmakuTechInfo _tech_info = 1;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._LanternRiteV6DanmakuTechInfoOuterClass._LanternRiteV6DanmakuTechInfoOrBuilder getTechInfoOrBuilder() {
       return getTechInfo();
     }
 
-    public static final int _CUR_LEVEL_INFO_FIELD_NUMBER = 13;
+    public static final int _CUR_LEVEL_INFO_FIELD_NUMBER = 8;
     private emu.grasscutter.net.proto._LanternRiteV6DanmakuLevelInfoOuterClass._LanternRiteV6DanmakuLevelInfo CurLevelInfo_;
     /**
-     * <code>._LanternRiteV6DanmakuLevelInfo _cur_level_info = 13;</code>
+     * <code>._LanternRiteV6DanmakuLevelInfo _cur_level_info = 8;</code>
      * @return Whether the curLevelInfo field is set.
      */
     @java.lang.Override
@@ -242,7 +242,7 @@ public final class _LanternRiteV6DanmakuInfoOuterClass {
       return CurLevelInfo_ != null;
     }
     /**
-     * <code>._LanternRiteV6DanmakuLevelInfo _cur_level_info = 13;</code>
+     * <code>._LanternRiteV6DanmakuLevelInfo _cur_level_info = 8;</code>
      * @return The curLevelInfo.
      */
     @java.lang.Override
@@ -250,7 +250,7 @@ public final class _LanternRiteV6DanmakuInfoOuterClass {
       return CurLevelInfo_ == null ? emu.grasscutter.net.proto._LanternRiteV6DanmakuLevelInfoOuterClass._LanternRiteV6DanmakuLevelInfo.getDefaultInstance() : CurLevelInfo_;
     }
     /**
-     * <code>._LanternRiteV6DanmakuLevelInfo _cur_level_info = 13;</code>
+     * <code>._LanternRiteV6DanmakuLevelInfo _cur_level_info = 8;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._LanternRiteV6DanmakuLevelInfoOuterClass._LanternRiteV6DanmakuLevelInfoOrBuilder getCurLevelInfoOrBuilder() {
@@ -271,14 +271,14 @@ public final class _LanternRiteV6DanmakuInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (DanmakuRecord_ != null) {
-        output.writeMessage(10, getDanmakuRecord());
-      }
       if (TechInfo_ != null) {
-        output.writeMessage(11, getTechInfo());
+        output.writeMessage(1, getTechInfo());
+      }
+      if (DanmakuRecord_ != null) {
+        output.writeMessage(2, getDanmakuRecord());
       }
       if (CurLevelInfo_ != null) {
-        output.writeMessage(13, getCurLevelInfo());
+        output.writeMessage(8, getCurLevelInfo());
       }
       unknownFields.writeTo(output);
     }
@@ -289,17 +289,17 @@ public final class _LanternRiteV6DanmakuInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (DanmakuRecord_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, getDanmakuRecord());
-      }
       if (TechInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, getTechInfo());
+          .computeMessageSize(1, getTechInfo());
+      }
+      if (DanmakuRecord_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(2, getDanmakuRecord());
       }
       if (CurLevelInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, getCurLevelInfo());
+          .computeMessageSize(8, getCurLevelInfo());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -636,14 +636,14 @@ public final class _LanternRiteV6DanmakuInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._LanternRiteV6DanmakuRecordOuterClass._LanternRiteV6DanmakuRecord, emu.grasscutter.net.proto._LanternRiteV6DanmakuRecordOuterClass._LanternRiteV6DanmakuRecord.Builder, emu.grasscutter.net.proto._LanternRiteV6DanmakuRecordOuterClass._LanternRiteV6DanmakuRecordOrBuilder> DanmakuRecordBuilder_;
       /**
-       * <code>._LanternRiteV6DanmakuRecord _danmaku_record = 10;</code>
+       * <code>._LanternRiteV6DanmakuRecord _danmaku_record = 2;</code>
        * @return Whether the danmakuRecord field is set.
        */
       public boolean hasDanmakuRecord() {
         return DanmakuRecordBuilder_ != null || DanmakuRecord_ != null;
       }
       /**
-       * <code>._LanternRiteV6DanmakuRecord _danmaku_record = 10;</code>
+       * <code>._LanternRiteV6DanmakuRecord _danmaku_record = 2;</code>
        * @return The danmakuRecord.
        */
       public emu.grasscutter.net.proto._LanternRiteV6DanmakuRecordOuterClass._LanternRiteV6DanmakuRecord getDanmakuRecord() {
@@ -654,7 +654,7 @@ public final class _LanternRiteV6DanmakuInfoOuterClass {
         }
       }
       /**
-       * <code>._LanternRiteV6DanmakuRecord _danmaku_record = 10;</code>
+       * <code>._LanternRiteV6DanmakuRecord _danmaku_record = 2;</code>
        */
       public Builder setDanmakuRecord(emu.grasscutter.net.proto._LanternRiteV6DanmakuRecordOuterClass._LanternRiteV6DanmakuRecord value) {
         if (DanmakuRecordBuilder_ == null) {
@@ -670,7 +670,7 @@ public final class _LanternRiteV6DanmakuInfoOuterClass {
         return this;
       }
       /**
-       * <code>._LanternRiteV6DanmakuRecord _danmaku_record = 10;</code>
+       * <code>._LanternRiteV6DanmakuRecord _danmaku_record = 2;</code>
        */
       public Builder setDanmakuRecord(
           emu.grasscutter.net.proto._LanternRiteV6DanmakuRecordOuterClass._LanternRiteV6DanmakuRecord.Builder builderForValue) {
@@ -684,7 +684,7 @@ public final class _LanternRiteV6DanmakuInfoOuterClass {
         return this;
       }
       /**
-       * <code>._LanternRiteV6DanmakuRecord _danmaku_record = 10;</code>
+       * <code>._LanternRiteV6DanmakuRecord _danmaku_record = 2;</code>
        */
       public Builder mergeDanmakuRecord(emu.grasscutter.net.proto._LanternRiteV6DanmakuRecordOuterClass._LanternRiteV6DanmakuRecord value) {
         if (DanmakuRecordBuilder_ == null) {
@@ -702,7 +702,7 @@ public final class _LanternRiteV6DanmakuInfoOuterClass {
         return this;
       }
       /**
-       * <code>._LanternRiteV6DanmakuRecord _danmaku_record = 10;</code>
+       * <code>._LanternRiteV6DanmakuRecord _danmaku_record = 2;</code>
        */
       public Builder clearDanmakuRecord() {
         if (DanmakuRecordBuilder_ == null) {
@@ -716,7 +716,7 @@ public final class _LanternRiteV6DanmakuInfoOuterClass {
         return this;
       }
       /**
-       * <code>._LanternRiteV6DanmakuRecord _danmaku_record = 10;</code>
+       * <code>._LanternRiteV6DanmakuRecord _danmaku_record = 2;</code>
        */
       public emu.grasscutter.net.proto._LanternRiteV6DanmakuRecordOuterClass._LanternRiteV6DanmakuRecord.Builder getDanmakuRecordBuilder() {
         
@@ -724,7 +724,7 @@ public final class _LanternRiteV6DanmakuInfoOuterClass {
         return getDanmakuRecordFieldBuilder().getBuilder();
       }
       /**
-       * <code>._LanternRiteV6DanmakuRecord _danmaku_record = 10;</code>
+       * <code>._LanternRiteV6DanmakuRecord _danmaku_record = 2;</code>
        */
       public emu.grasscutter.net.proto._LanternRiteV6DanmakuRecordOuterClass._LanternRiteV6DanmakuRecordOrBuilder getDanmakuRecordOrBuilder() {
         if (DanmakuRecordBuilder_ != null) {
@@ -735,7 +735,7 @@ public final class _LanternRiteV6DanmakuInfoOuterClass {
         }
       }
       /**
-       * <code>._LanternRiteV6DanmakuRecord _danmaku_record = 10;</code>
+       * <code>._LanternRiteV6DanmakuRecord _danmaku_record = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._LanternRiteV6DanmakuRecordOuterClass._LanternRiteV6DanmakuRecord, emu.grasscutter.net.proto._LanternRiteV6DanmakuRecordOuterClass._LanternRiteV6DanmakuRecord.Builder, emu.grasscutter.net.proto._LanternRiteV6DanmakuRecordOuterClass._LanternRiteV6DanmakuRecordOrBuilder> 
@@ -755,14 +755,14 @@ public final class _LanternRiteV6DanmakuInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._LanternRiteV6DanmakuTechInfoOuterClass._LanternRiteV6DanmakuTechInfo, emu.grasscutter.net.proto._LanternRiteV6DanmakuTechInfoOuterClass._LanternRiteV6DanmakuTechInfo.Builder, emu.grasscutter.net.proto._LanternRiteV6DanmakuTechInfoOuterClass._LanternRiteV6DanmakuTechInfoOrBuilder> TechInfoBuilder_;
       /**
-       * <code>._LanternRiteV6DanmakuTechInfo _tech_info = 11;</code>
+       * <code>._LanternRiteV6DanmakuTechInfo _tech_info = 1;</code>
        * @return Whether the techInfo field is set.
        */
       public boolean hasTechInfo() {
         return TechInfoBuilder_ != null || TechInfo_ != null;
       }
       /**
-       * <code>._LanternRiteV6DanmakuTechInfo _tech_info = 11;</code>
+       * <code>._LanternRiteV6DanmakuTechInfo _tech_info = 1;</code>
        * @return The techInfo.
        */
       public emu.grasscutter.net.proto._LanternRiteV6DanmakuTechInfoOuterClass._LanternRiteV6DanmakuTechInfo getTechInfo() {
@@ -773,7 +773,7 @@ public final class _LanternRiteV6DanmakuInfoOuterClass {
         }
       }
       /**
-       * <code>._LanternRiteV6DanmakuTechInfo _tech_info = 11;</code>
+       * <code>._LanternRiteV6DanmakuTechInfo _tech_info = 1;</code>
        */
       public Builder setTechInfo(emu.grasscutter.net.proto._LanternRiteV6DanmakuTechInfoOuterClass._LanternRiteV6DanmakuTechInfo value) {
         if (TechInfoBuilder_ == null) {
@@ -789,7 +789,7 @@ public final class _LanternRiteV6DanmakuInfoOuterClass {
         return this;
       }
       /**
-       * <code>._LanternRiteV6DanmakuTechInfo _tech_info = 11;</code>
+       * <code>._LanternRiteV6DanmakuTechInfo _tech_info = 1;</code>
        */
       public Builder setTechInfo(
           emu.grasscutter.net.proto._LanternRiteV6DanmakuTechInfoOuterClass._LanternRiteV6DanmakuTechInfo.Builder builderForValue) {
@@ -803,7 +803,7 @@ public final class _LanternRiteV6DanmakuInfoOuterClass {
         return this;
       }
       /**
-       * <code>._LanternRiteV6DanmakuTechInfo _tech_info = 11;</code>
+       * <code>._LanternRiteV6DanmakuTechInfo _tech_info = 1;</code>
        */
       public Builder mergeTechInfo(emu.grasscutter.net.proto._LanternRiteV6DanmakuTechInfoOuterClass._LanternRiteV6DanmakuTechInfo value) {
         if (TechInfoBuilder_ == null) {
@@ -821,7 +821,7 @@ public final class _LanternRiteV6DanmakuInfoOuterClass {
         return this;
       }
       /**
-       * <code>._LanternRiteV6DanmakuTechInfo _tech_info = 11;</code>
+       * <code>._LanternRiteV6DanmakuTechInfo _tech_info = 1;</code>
        */
       public Builder clearTechInfo() {
         if (TechInfoBuilder_ == null) {
@@ -835,7 +835,7 @@ public final class _LanternRiteV6DanmakuInfoOuterClass {
         return this;
       }
       /**
-       * <code>._LanternRiteV6DanmakuTechInfo _tech_info = 11;</code>
+       * <code>._LanternRiteV6DanmakuTechInfo _tech_info = 1;</code>
        */
       public emu.grasscutter.net.proto._LanternRiteV6DanmakuTechInfoOuterClass._LanternRiteV6DanmakuTechInfo.Builder getTechInfoBuilder() {
         
@@ -843,7 +843,7 @@ public final class _LanternRiteV6DanmakuInfoOuterClass {
         return getTechInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>._LanternRiteV6DanmakuTechInfo _tech_info = 11;</code>
+       * <code>._LanternRiteV6DanmakuTechInfo _tech_info = 1;</code>
        */
       public emu.grasscutter.net.proto._LanternRiteV6DanmakuTechInfoOuterClass._LanternRiteV6DanmakuTechInfoOrBuilder getTechInfoOrBuilder() {
         if (TechInfoBuilder_ != null) {
@@ -854,7 +854,7 @@ public final class _LanternRiteV6DanmakuInfoOuterClass {
         }
       }
       /**
-       * <code>._LanternRiteV6DanmakuTechInfo _tech_info = 11;</code>
+       * <code>._LanternRiteV6DanmakuTechInfo _tech_info = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._LanternRiteV6DanmakuTechInfoOuterClass._LanternRiteV6DanmakuTechInfo, emu.grasscutter.net.proto._LanternRiteV6DanmakuTechInfoOuterClass._LanternRiteV6DanmakuTechInfo.Builder, emu.grasscutter.net.proto._LanternRiteV6DanmakuTechInfoOuterClass._LanternRiteV6DanmakuTechInfoOrBuilder> 
@@ -874,14 +874,14 @@ public final class _LanternRiteV6DanmakuInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._LanternRiteV6DanmakuLevelInfoOuterClass._LanternRiteV6DanmakuLevelInfo, emu.grasscutter.net.proto._LanternRiteV6DanmakuLevelInfoOuterClass._LanternRiteV6DanmakuLevelInfo.Builder, emu.grasscutter.net.proto._LanternRiteV6DanmakuLevelInfoOuterClass._LanternRiteV6DanmakuLevelInfoOrBuilder> CurLevelInfoBuilder_;
       /**
-       * <code>._LanternRiteV6DanmakuLevelInfo _cur_level_info = 13;</code>
+       * <code>._LanternRiteV6DanmakuLevelInfo _cur_level_info = 8;</code>
        * @return Whether the curLevelInfo field is set.
        */
       public boolean hasCurLevelInfo() {
         return CurLevelInfoBuilder_ != null || CurLevelInfo_ != null;
       }
       /**
-       * <code>._LanternRiteV6DanmakuLevelInfo _cur_level_info = 13;</code>
+       * <code>._LanternRiteV6DanmakuLevelInfo _cur_level_info = 8;</code>
        * @return The curLevelInfo.
        */
       public emu.grasscutter.net.proto._LanternRiteV6DanmakuLevelInfoOuterClass._LanternRiteV6DanmakuLevelInfo getCurLevelInfo() {
@@ -892,7 +892,7 @@ public final class _LanternRiteV6DanmakuInfoOuterClass {
         }
       }
       /**
-       * <code>._LanternRiteV6DanmakuLevelInfo _cur_level_info = 13;</code>
+       * <code>._LanternRiteV6DanmakuLevelInfo _cur_level_info = 8;</code>
        */
       public Builder setCurLevelInfo(emu.grasscutter.net.proto._LanternRiteV6DanmakuLevelInfoOuterClass._LanternRiteV6DanmakuLevelInfo value) {
         if (CurLevelInfoBuilder_ == null) {
@@ -908,7 +908,7 @@ public final class _LanternRiteV6DanmakuInfoOuterClass {
         return this;
       }
       /**
-       * <code>._LanternRiteV6DanmakuLevelInfo _cur_level_info = 13;</code>
+       * <code>._LanternRiteV6DanmakuLevelInfo _cur_level_info = 8;</code>
        */
       public Builder setCurLevelInfo(
           emu.grasscutter.net.proto._LanternRiteV6DanmakuLevelInfoOuterClass._LanternRiteV6DanmakuLevelInfo.Builder builderForValue) {
@@ -922,7 +922,7 @@ public final class _LanternRiteV6DanmakuInfoOuterClass {
         return this;
       }
       /**
-       * <code>._LanternRiteV6DanmakuLevelInfo _cur_level_info = 13;</code>
+       * <code>._LanternRiteV6DanmakuLevelInfo _cur_level_info = 8;</code>
        */
       public Builder mergeCurLevelInfo(emu.grasscutter.net.proto._LanternRiteV6DanmakuLevelInfoOuterClass._LanternRiteV6DanmakuLevelInfo value) {
         if (CurLevelInfoBuilder_ == null) {
@@ -940,7 +940,7 @@ public final class _LanternRiteV6DanmakuInfoOuterClass {
         return this;
       }
       /**
-       * <code>._LanternRiteV6DanmakuLevelInfo _cur_level_info = 13;</code>
+       * <code>._LanternRiteV6DanmakuLevelInfo _cur_level_info = 8;</code>
        */
       public Builder clearCurLevelInfo() {
         if (CurLevelInfoBuilder_ == null) {
@@ -954,7 +954,7 @@ public final class _LanternRiteV6DanmakuInfoOuterClass {
         return this;
       }
       /**
-       * <code>._LanternRiteV6DanmakuLevelInfo _cur_level_info = 13;</code>
+       * <code>._LanternRiteV6DanmakuLevelInfo _cur_level_info = 8;</code>
        */
       public emu.grasscutter.net.proto._LanternRiteV6DanmakuLevelInfoOuterClass._LanternRiteV6DanmakuLevelInfo.Builder getCurLevelInfoBuilder() {
         
@@ -962,7 +962,7 @@ public final class _LanternRiteV6DanmakuInfoOuterClass {
         return getCurLevelInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>._LanternRiteV6DanmakuLevelInfo _cur_level_info = 13;</code>
+       * <code>._LanternRiteV6DanmakuLevelInfo _cur_level_info = 8;</code>
        */
       public emu.grasscutter.net.proto._LanternRiteV6DanmakuLevelInfoOuterClass._LanternRiteV6DanmakuLevelInfoOrBuilder getCurLevelInfoOrBuilder() {
         if (CurLevelInfoBuilder_ != null) {
@@ -973,7 +973,7 @@ public final class _LanternRiteV6DanmakuInfoOuterClass {
         }
       }
       /**
-       * <code>._LanternRiteV6DanmakuLevelInfo _cur_level_info = 13;</code>
+       * <code>._LanternRiteV6DanmakuLevelInfo _cur_level_info = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._LanternRiteV6DanmakuLevelInfoOuterClass._LanternRiteV6DanmakuLevelInfo, emu.grasscutter.net.proto._LanternRiteV6DanmakuLevelInfoOuterClass._LanternRiteV6DanmakuLevelInfo.Builder, emu.grasscutter.net.proto._LanternRiteV6DanmakuLevelInfoOuterClass._LanternRiteV6DanmakuLevelInfoOrBuilder> 
@@ -1059,10 +1059,10 @@ public final class _LanternRiteV6DanmakuInfoOuterClass {
       "ernRiteV6DanmakuLevelInfo.proto\032!_Lanter" +
       "nRiteV6DanmakuRecord.proto\032#_LanternRite" +
       "V6DanmakuTechInfo.proto\"\300\001\n\031_LanternRite" +
-      "V6DanmakuInfo\0225\n\017_danmaku_record\030\n \001(\0132\034" +
+      "V6DanmakuInfo\0225\n\017_danmaku_record\030\002 \001(\0132\034" +
       "._LanternRiteV6DanmakuRecord\0222\n\n_tech_in" +
-      "fo\030\013 \001(\0132\036._LanternRiteV6DanmakuTechInfo" +
-      "\0228\n\017_cur_level_info\030\r \001(\0132\037._LanternRite" +
+      "fo\030\001 \001(\0132\036._LanternRiteV6DanmakuTechInfo" +
+      "\0228\n\017_cur_level_info\030\010 \001(\0132\037._LanternRite" +
       "V6DanmakuLevelInfoB@\n\031emu.grasscutter.ne" +
       "t.protoB#_LanternRiteV6DanmakuInfoOuterC" +
       "lassb\006proto3"

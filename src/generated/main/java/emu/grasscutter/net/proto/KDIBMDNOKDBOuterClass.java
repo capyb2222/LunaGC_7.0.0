@@ -19,13 +19,13 @@ public final class KDIBMDNOKDBOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool FBHFAMPKPPK = 1;</code>
+     * <code>bool FBHFAMPKPPK = 6;</code>
      * @return The fBHFAMPKPPK.
      */
     boolean getFBHFAMPKPPK();
 
     /**
-     * <code>bool is_open = 8;</code>
+     * <code>bool is_open = 15;</code>
      * @return The isOpen.
      */
     boolean getIsOpen();
@@ -37,13 +37,13 @@ public final class KDIBMDNOKDBOuterClass {
     int getLevelId();
 
     /**
-     * <code>bool CLGJGGGKHBF = 14;</code>
+     * <code>bool CLGJGGGKHBF = 13;</code>
      * @return The cLGJGGGKHBF.
      */
     boolean getCLGJGGGKHBF();
 
     /**
-     * <code>uint32 camp_id = 15;</code>
+     * <code>uint32 camp_id = 1;</code>
      * @return The campId.
      */
     int getCampId();
@@ -95,12 +95,12 @@ public final class KDIBMDNOKDBOuterClass {
               break;
             case 8: {
 
-              fBHFAMPKPPK_ = input.readBool();
+              campId_ = input.readUInt32();
               break;
             }
-            case 64: {
+            case 48: {
 
-              isOpen_ = input.readBool();
+              fBHFAMPKPPK_ = input.readBool();
               break;
             }
             case 88: {
@@ -108,14 +108,14 @@ public final class KDIBMDNOKDBOuterClass {
               levelId_ = input.readUInt32();
               break;
             }
-            case 112: {
+            case 104: {
 
               cLGJGGGKHBF_ = input.readBool();
               break;
             }
             case 120: {
 
-              campId_ = input.readUInt32();
+              isOpen_ = input.readBool();
               break;
             }
             default: {
@@ -150,10 +150,10 @@ public final class KDIBMDNOKDBOuterClass {
               emu.grasscutter.net.proto.KDIBMDNOKDBOuterClass.KDIBMDNOKDB.class, emu.grasscutter.net.proto.KDIBMDNOKDBOuterClass.KDIBMDNOKDB.Builder.class);
     }
 
-    public static final int FBHFAMPKPPK_FIELD_NUMBER = 1;
+    public static final int FBHFAMPKPPK_FIELD_NUMBER = 6;
     private boolean fBHFAMPKPPK_;
     /**
-     * <code>bool FBHFAMPKPPK = 1;</code>
+     * <code>bool FBHFAMPKPPK = 6;</code>
      * @return The fBHFAMPKPPK.
      */
     @java.lang.Override
@@ -161,10 +161,10 @@ public final class KDIBMDNOKDBOuterClass {
       return fBHFAMPKPPK_;
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 8;
+    public static final int IS_OPEN_FIELD_NUMBER = 15;
     private boolean isOpen_;
     /**
-     * <code>bool is_open = 8;</code>
+     * <code>bool is_open = 15;</code>
      * @return The isOpen.
      */
     @java.lang.Override
@@ -183,10 +183,10 @@ public final class KDIBMDNOKDBOuterClass {
       return levelId_;
     }
 
-    public static final int CLGJGGGKHBF_FIELD_NUMBER = 14;
+    public static final int CLGJGGGKHBF_FIELD_NUMBER = 13;
     private boolean cLGJGGGKHBF_;
     /**
-     * <code>bool CLGJGGGKHBF = 14;</code>
+     * <code>bool CLGJGGGKHBF = 13;</code>
      * @return The cLGJGGGKHBF.
      */
     @java.lang.Override
@@ -194,10 +194,10 @@ public final class KDIBMDNOKDBOuterClass {
       return cLGJGGGKHBF_;
     }
 
-    public static final int CAMP_ID_FIELD_NUMBER = 15;
+    public static final int CAMP_ID_FIELD_NUMBER = 1;
     private int campId_;
     /**
-     * <code>uint32 camp_id = 15;</code>
+     * <code>uint32 camp_id = 1;</code>
      * @return The campId.
      */
     @java.lang.Override
@@ -219,20 +219,20 @@ public final class KDIBMDNOKDBOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (fBHFAMPKPPK_ != false) {
-        output.writeBool(1, fBHFAMPKPPK_);
+      if (campId_ != 0) {
+        output.writeUInt32(1, campId_);
       }
-      if (isOpen_ != false) {
-        output.writeBool(8, isOpen_);
+      if (fBHFAMPKPPK_ != false) {
+        output.writeBool(6, fBHFAMPKPPK_);
       }
       if (levelId_ != 0) {
         output.writeUInt32(11, levelId_);
       }
       if (cLGJGGGKHBF_ != false) {
-        output.writeBool(14, cLGJGGGKHBF_);
+        output.writeBool(13, cLGJGGGKHBF_);
       }
-      if (campId_ != 0) {
-        output.writeUInt32(15, campId_);
+      if (isOpen_ != false) {
+        output.writeBool(15, isOpen_);
       }
       unknownFields.writeTo(output);
     }
@@ -243,13 +243,13 @@ public final class KDIBMDNOKDBOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (campId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(1, campId_);
+      }
       if (fBHFAMPKPPK_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1, fBHFAMPKPPK_);
-      }
-      if (isOpen_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(8, isOpen_);
+          .computeBoolSize(6, fBHFAMPKPPK_);
       }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -257,11 +257,11 @@ public final class KDIBMDNOKDBOuterClass {
       }
       if (cLGJGGGKHBF_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(14, cLGJGGGKHBF_);
+          .computeBoolSize(13, cLGJGGGKHBF_);
       }
-      if (campId_ != 0) {
+      if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, campId_);
+          .computeBoolSize(15, isOpen_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -580,7 +580,7 @@ public final class KDIBMDNOKDBOuterClass {
 
       private boolean fBHFAMPKPPK_ ;
       /**
-       * <code>bool FBHFAMPKPPK = 1;</code>
+       * <code>bool FBHFAMPKPPK = 6;</code>
        * @return The fBHFAMPKPPK.
        */
       @java.lang.Override
@@ -588,7 +588,7 @@ public final class KDIBMDNOKDBOuterClass {
         return fBHFAMPKPPK_;
       }
       /**
-       * <code>bool FBHFAMPKPPK = 1;</code>
+       * <code>bool FBHFAMPKPPK = 6;</code>
        * @param value The fBHFAMPKPPK to set.
        * @return This builder for chaining.
        */
@@ -599,7 +599,7 @@ public final class KDIBMDNOKDBOuterClass {
         return this;
       }
       /**
-       * <code>bool FBHFAMPKPPK = 1;</code>
+       * <code>bool FBHFAMPKPPK = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearFBHFAMPKPPK() {
@@ -611,7 +611,7 @@ public final class KDIBMDNOKDBOuterClass {
 
       private boolean isOpen_ ;
       /**
-       * <code>bool is_open = 8;</code>
+       * <code>bool is_open = 15;</code>
        * @return The isOpen.
        */
       @java.lang.Override
@@ -619,7 +619,7 @@ public final class KDIBMDNOKDBOuterClass {
         return isOpen_;
       }
       /**
-       * <code>bool is_open = 8;</code>
+       * <code>bool is_open = 15;</code>
        * @param value The isOpen to set.
        * @return This builder for chaining.
        */
@@ -630,7 +630,7 @@ public final class KDIBMDNOKDBOuterClass {
         return this;
       }
       /**
-       * <code>bool is_open = 8;</code>
+       * <code>bool is_open = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsOpen() {
@@ -673,7 +673,7 @@ public final class KDIBMDNOKDBOuterClass {
 
       private boolean cLGJGGGKHBF_ ;
       /**
-       * <code>bool CLGJGGGKHBF = 14;</code>
+       * <code>bool CLGJGGGKHBF = 13;</code>
        * @return The cLGJGGGKHBF.
        */
       @java.lang.Override
@@ -681,7 +681,7 @@ public final class KDIBMDNOKDBOuterClass {
         return cLGJGGGKHBF_;
       }
       /**
-       * <code>bool CLGJGGGKHBF = 14;</code>
+       * <code>bool CLGJGGGKHBF = 13;</code>
        * @param value The cLGJGGGKHBF to set.
        * @return This builder for chaining.
        */
@@ -692,7 +692,7 @@ public final class KDIBMDNOKDBOuterClass {
         return this;
       }
       /**
-       * <code>bool CLGJGGGKHBF = 14;</code>
+       * <code>bool CLGJGGGKHBF = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearCLGJGGGKHBF() {
@@ -704,7 +704,7 @@ public final class KDIBMDNOKDBOuterClass {
 
       private int campId_ ;
       /**
-       * <code>uint32 camp_id = 15;</code>
+       * <code>uint32 camp_id = 1;</code>
        * @return The campId.
        */
       @java.lang.Override
@@ -712,7 +712,7 @@ public final class KDIBMDNOKDBOuterClass {
         return campId_;
       }
       /**
-       * <code>uint32 camp_id = 15;</code>
+       * <code>uint32 camp_id = 1;</code>
        * @param value The campId to set.
        * @return This builder for chaining.
        */
@@ -723,7 +723,7 @@ public final class KDIBMDNOKDBOuterClass {
         return this;
       }
       /**
-       * <code>uint32 camp_id = 15;</code>
+       * <code>uint32 camp_id = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearCampId() {
@@ -800,9 +800,9 @@ public final class KDIBMDNOKDBOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021KDIBMDNOKDB.proto\"k\n\013KDIBMDNOKDB\022\023\n\013FB" +
-      "HFAMPKPPK\030\001 \001(\010\022\017\n\007is_open\030\010 \001(\010\022\020\n\010leve" +
-      "l_id\030\013 \001(\r\022\023\n\013CLGJGGGKHBF\030\016 \001(\010\022\017\n\007camp_" +
-      "id\030\017 \001(\rB2\n\031emu.grasscutter.net.protoB\025K" +
+      "HFAMPKPPK\030\006 \001(\010\022\017\n\007is_open\030\017 \001(\010\022\020\n\010leve" +
+      "l_id\030\013 \001(\r\022\023\n\013CLGJGGGKHBF\030\r \001(\010\022\017\n\007camp_" +
+      "id\030\001 \001(\rB2\n\031emu.grasscutter.net.protoB\025K" +
       "DIBMDNOKDBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

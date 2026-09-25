@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "CombineFormulaDataNotifyOuterClass";
 
 message CombineFormulaDataNotify {
-	uint32 combine_id = 3;
-	bool is_locked = 9;
+	uint32 combine_id = 6;
+	bool is_locked = 4;
 }

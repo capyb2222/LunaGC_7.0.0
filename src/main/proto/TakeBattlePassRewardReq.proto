@@ -6,5 +6,5 @@ option java_outer_classname = "TakeBattlePassRewardReqOuterClass";
 import "BattlePassRewardTakeOption.proto";
 
 message TakeBattlePassRewardReq {
-	repeated BattlePassRewardTakeOption take_option_list = 10;
+	repeated BattlePassRewardTakeOption take_option_list = 6;
 }

@@ -6,7 +6,7 @@ option java_outer_classname = "DealAddFriendRspOuterClass";
 import "DealAddFriendResultType.proto";
 
 message DealAddFriendRsp {
-	int32 retcode = 3;
-	DealAddFriendResultType deal_add_friend_result = 6;
-	uint32 target_uid = 8;
+	int32 retcode = 14;
+	DealAddFriendResultType deal_add_friend_result = 1;
+	uint32 target_uid = 2;
 }

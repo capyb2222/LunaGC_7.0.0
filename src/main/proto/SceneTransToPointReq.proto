@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "SceneTransToPointReqOuterClass";
 
 message SceneTransToPointReq {
-	uint32 scene_id = 6;
-	uint32 point_id = 11;
+	uint32 scene_id = 4;
+	uint32 point_id = 10;
 }

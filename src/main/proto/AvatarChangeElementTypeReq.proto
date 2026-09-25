@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "AvatarChangeElementTypeReqOuterClass";
 
 message AvatarChangeElementTypeReq {
-	uint32 area_id = 6;
-	uint32 scene_id = 8;
+	uint32 area_id = 13;
+	uint32 scene_id = 2;
 }

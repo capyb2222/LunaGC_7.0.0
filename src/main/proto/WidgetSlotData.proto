@@ -6,8 +6,8 @@ option java_outer_classname = "WidgetSlotDataOuterClass";
 import "WidgetSlotTag.proto";
 
 message WidgetSlotData {
-	uint32 material_id = 2;
-	WidgetSlotTag tag = 5;
-	uint32 cd_over_time = 9;
-	bool is_active = 14;
+	uint32 material_id = 9;
+	WidgetSlotTag tag = 8;
+	uint32 cd_over_time = 14;
+	bool is_active = 7;
 }

@@ -19,47 +19,47 @@ public final class UseItemReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 option_idx = 1;</code>
+     * <code>uint32 option_idx = 15;</code>
      * @return The optionIdx.
      */
     int getOptionIdx();
 
     /**
-     * <code>uint32 count = 4;</code>
+     * <code>uint32 count = 9;</code>
      * @return The count.
      */
     int getCount();
 
     /**
-     * <code>uint64 target_guid = 6;</code>
+     * <code>uint64 target_guid = 14;</code>
      * @return The targetGuid.
      */
     long getTargetGuid();
 
     /**
-     * <code>uint64 guid = 7;</code>
+     * <code>uint64 guid = 3;</code>
      * @return The guid.
      */
     long getGuid();
 
     /**
-     * <code>bool is_enter_mp_dungeon_team = 8;</code>
+     * <code>bool is_enter_mp_dungeon_team = 1;</code>
      * @return The isEnterMpDungeonTeam.
      */
     boolean getIsEnterMpDungeonTeam();
 
     /**
-     * <code>repeated uint32 _option_idx_list = 15;</code>
+     * <code>repeated uint32 _option_idx_list = 7;</code>
      * @return A list containing the optionIdxList.
      */
     java.util.List<java.lang.Integer> getOptionIdxListList();
     /**
-     * <code>repeated uint32 _option_idx_list = 15;</code>
+     * <code>repeated uint32 _option_idx_list = 7;</code>
      * @return The count of optionIdxList.
      */
     int getOptionIdxListCount();
     /**
-     * <code>repeated uint32 _option_idx_list = 15;</code>
+     * <code>repeated uint32 _option_idx_list = 7;</code>
      * @param index The index of the element to return.
      * @return The optionIdxList at the given index.
      */
@@ -114,30 +114,15 @@ public final class UseItemReqOuterClass {
               break;
             case 8: {
 
-              optionIdx_ = input.readUInt32();
+              isEnterMpDungeonTeam_ = input.readBool();
               break;
             }
-            case 32: {
-
-              count_ = input.readUInt32();
-              break;
-            }
-            case 48: {
-
-              targetGuid_ = input.readUInt64();
-              break;
-            }
-            case 56: {
+            case 24: {
 
               guid_ = input.readUInt64();
               break;
             }
-            case 64: {
-
-              isEnterMpDungeonTeam_ = input.readBool();
-              break;
-            }
-            case 120: {
+            case 56: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 OptionIdxList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -145,7 +130,7 @@ public final class UseItemReqOuterClass {
               OptionIdxList_.addInt(input.readUInt32());
               break;
             }
-            case 122: {
+            case 58: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -156,6 +141,21 @@ public final class UseItemReqOuterClass {
                 OptionIdxList_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
+              break;
+            }
+            case 72: {
+
+              count_ = input.readUInt32();
+              break;
+            }
+            case 112: {
+
+              targetGuid_ = input.readUInt64();
+              break;
+            }
+            case 120: {
+
+              optionIdx_ = input.readUInt32();
               break;
             }
             default: {
@@ -193,10 +193,10 @@ public final class UseItemReqOuterClass {
               emu.grasscutter.net.proto.UseItemReqOuterClass.UseItemReq.class, emu.grasscutter.net.proto.UseItemReqOuterClass.UseItemReq.Builder.class);
     }
 
-    public static final int OPTION_IDX_FIELD_NUMBER = 1;
+    public static final int OPTION_IDX_FIELD_NUMBER = 15;
     private int optionIdx_;
     /**
-     * <code>uint32 option_idx = 1;</code>
+     * <code>uint32 option_idx = 15;</code>
      * @return The optionIdx.
      */
     @java.lang.Override
@@ -204,10 +204,10 @@ public final class UseItemReqOuterClass {
       return optionIdx_;
     }
 
-    public static final int COUNT_FIELD_NUMBER = 4;
+    public static final int COUNT_FIELD_NUMBER = 9;
     private int count_;
     /**
-     * <code>uint32 count = 4;</code>
+     * <code>uint32 count = 9;</code>
      * @return The count.
      */
     @java.lang.Override
@@ -215,10 +215,10 @@ public final class UseItemReqOuterClass {
       return count_;
     }
 
-    public static final int TARGET_GUID_FIELD_NUMBER = 6;
+    public static final int TARGET_GUID_FIELD_NUMBER = 14;
     private long targetGuid_;
     /**
-     * <code>uint64 target_guid = 6;</code>
+     * <code>uint64 target_guid = 14;</code>
      * @return The targetGuid.
      */
     @java.lang.Override
@@ -226,10 +226,10 @@ public final class UseItemReqOuterClass {
       return targetGuid_;
     }
 
-    public static final int GUID_FIELD_NUMBER = 7;
+    public static final int GUID_FIELD_NUMBER = 3;
     private long guid_;
     /**
-     * <code>uint64 guid = 7;</code>
+     * <code>uint64 guid = 3;</code>
      * @return The guid.
      */
     @java.lang.Override
@@ -237,10 +237,10 @@ public final class UseItemReqOuterClass {
       return guid_;
     }
 
-    public static final int IS_ENTER_MP_DUNGEON_TEAM_FIELD_NUMBER = 8;
+    public static final int IS_ENTER_MP_DUNGEON_TEAM_FIELD_NUMBER = 1;
     private boolean isEnterMpDungeonTeam_;
     /**
-     * <code>bool is_enter_mp_dungeon_team = 8;</code>
+     * <code>bool is_enter_mp_dungeon_team = 1;</code>
      * @return The isEnterMpDungeonTeam.
      */
     @java.lang.Override
@@ -248,10 +248,10 @@ public final class UseItemReqOuterClass {
       return isEnterMpDungeonTeam_;
     }
 
-    public static final int _OPTION_IDX_LIST_FIELD_NUMBER = 15;
+    public static final int _OPTION_IDX_LIST_FIELD_NUMBER = 7;
     private com.google.protobuf.Internal.IntList OptionIdxList_;
     /**
-     * <code>repeated uint32 _option_idx_list = 15;</code>
+     * <code>repeated uint32 _option_idx_list = 7;</code>
      * @return A list containing the optionIdxList.
      */
     @java.lang.Override
@@ -260,14 +260,14 @@ public final class UseItemReqOuterClass {
       return OptionIdxList_;
     }
     /**
-     * <code>repeated uint32 _option_idx_list = 15;</code>
+     * <code>repeated uint32 _option_idx_list = 7;</code>
      * @return The count of optionIdxList.
      */
     public int getOptionIdxListCount() {
       return OptionIdxList_.size();
     }
     /**
-     * <code>repeated uint32 _option_idx_list = 15;</code>
+     * <code>repeated uint32 _option_idx_list = 7;</code>
      * @param index The index of the element to return.
      * @return The optionIdxList at the given index.
      */
@@ -291,27 +291,27 @@ public final class UseItemReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (optionIdx_ != 0) {
-        output.writeUInt32(1, optionIdx_);
-      }
-      if (count_ != 0) {
-        output.writeUInt32(4, count_);
-      }
-      if (targetGuid_ != 0L) {
-        output.writeUInt64(6, targetGuid_);
+      if (isEnterMpDungeonTeam_ != false) {
+        output.writeBool(1, isEnterMpDungeonTeam_);
       }
       if (guid_ != 0L) {
-        output.writeUInt64(7, guid_);
-      }
-      if (isEnterMpDungeonTeam_ != false) {
-        output.writeBool(8, isEnterMpDungeonTeam_);
+        output.writeUInt64(3, guid_);
       }
       if (getOptionIdxListList().size() > 0) {
-        output.writeUInt32NoTag(122);
+        output.writeUInt32NoTag(58);
         output.writeUInt32NoTag(OptionIdxListMemoizedSerializedSize);
       }
       for (int i = 0; i < OptionIdxList_.size(); i++) {
         output.writeUInt32NoTag(OptionIdxList_.getInt(i));
+      }
+      if (count_ != 0) {
+        output.writeUInt32(9, count_);
+      }
+      if (targetGuid_ != 0L) {
+        output.writeUInt64(14, targetGuid_);
+      }
+      if (optionIdx_ != 0) {
+        output.writeUInt32(15, optionIdx_);
       }
       unknownFields.writeTo(output);
     }
@@ -322,25 +322,13 @@ public final class UseItemReqOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (optionIdx_ != 0) {
+      if (isEnterMpDungeonTeam_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, optionIdx_);
-      }
-      if (count_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, count_);
-      }
-      if (targetGuid_ != 0L) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(6, targetGuid_);
+          .computeBoolSize(1, isEnterMpDungeonTeam_);
       }
       if (guid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(7, guid_);
-      }
-      if (isEnterMpDungeonTeam_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(8, isEnterMpDungeonTeam_);
+          .computeUInt64Size(3, guid_);
       }
       {
         int dataSize = 0;
@@ -355,6 +343,18 @@ public final class UseItemReqOuterClass {
               .computeInt32SizeNoTag(dataSize);
         }
         OptionIdxListMemoizedSerializedSize = dataSize;
+      }
+      if (count_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(9, count_);
+      }
+      if (targetGuid_ != 0L) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt64Size(14, targetGuid_);
+      }
+      if (optionIdx_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(15, optionIdx_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -698,7 +698,7 @@ public final class UseItemReqOuterClass {
 
       private int optionIdx_ ;
       /**
-       * <code>uint32 option_idx = 1;</code>
+       * <code>uint32 option_idx = 15;</code>
        * @return The optionIdx.
        */
       @java.lang.Override
@@ -706,7 +706,7 @@ public final class UseItemReqOuterClass {
         return optionIdx_;
       }
       /**
-       * <code>uint32 option_idx = 1;</code>
+       * <code>uint32 option_idx = 15;</code>
        * @param value The optionIdx to set.
        * @return This builder for chaining.
        */
@@ -717,7 +717,7 @@ public final class UseItemReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 option_idx = 1;</code>
+       * <code>uint32 option_idx = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearOptionIdx() {
@@ -729,7 +729,7 @@ public final class UseItemReqOuterClass {
 
       private int count_ ;
       /**
-       * <code>uint32 count = 4;</code>
+       * <code>uint32 count = 9;</code>
        * @return The count.
        */
       @java.lang.Override
@@ -737,7 +737,7 @@ public final class UseItemReqOuterClass {
         return count_;
       }
       /**
-       * <code>uint32 count = 4;</code>
+       * <code>uint32 count = 9;</code>
        * @param value The count to set.
        * @return This builder for chaining.
        */
@@ -748,7 +748,7 @@ public final class UseItemReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 count = 4;</code>
+       * <code>uint32 count = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearCount() {
@@ -760,7 +760,7 @@ public final class UseItemReqOuterClass {
 
       private long targetGuid_ ;
       /**
-       * <code>uint64 target_guid = 6;</code>
+       * <code>uint64 target_guid = 14;</code>
        * @return The targetGuid.
        */
       @java.lang.Override
@@ -768,7 +768,7 @@ public final class UseItemReqOuterClass {
         return targetGuid_;
       }
       /**
-       * <code>uint64 target_guid = 6;</code>
+       * <code>uint64 target_guid = 14;</code>
        * @param value The targetGuid to set.
        * @return This builder for chaining.
        */
@@ -779,7 +779,7 @@ public final class UseItemReqOuterClass {
         return this;
       }
       /**
-       * <code>uint64 target_guid = 6;</code>
+       * <code>uint64 target_guid = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearTargetGuid() {
@@ -791,7 +791,7 @@ public final class UseItemReqOuterClass {
 
       private long guid_ ;
       /**
-       * <code>uint64 guid = 7;</code>
+       * <code>uint64 guid = 3;</code>
        * @return The guid.
        */
       @java.lang.Override
@@ -799,7 +799,7 @@ public final class UseItemReqOuterClass {
         return guid_;
       }
       /**
-       * <code>uint64 guid = 7;</code>
+       * <code>uint64 guid = 3;</code>
        * @param value The guid to set.
        * @return This builder for chaining.
        */
@@ -810,7 +810,7 @@ public final class UseItemReqOuterClass {
         return this;
       }
       /**
-       * <code>uint64 guid = 7;</code>
+       * <code>uint64 guid = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearGuid() {
@@ -822,7 +822,7 @@ public final class UseItemReqOuterClass {
 
       private boolean isEnterMpDungeonTeam_ ;
       /**
-       * <code>bool is_enter_mp_dungeon_team = 8;</code>
+       * <code>bool is_enter_mp_dungeon_team = 1;</code>
        * @return The isEnterMpDungeonTeam.
        */
       @java.lang.Override
@@ -830,7 +830,7 @@ public final class UseItemReqOuterClass {
         return isEnterMpDungeonTeam_;
       }
       /**
-       * <code>bool is_enter_mp_dungeon_team = 8;</code>
+       * <code>bool is_enter_mp_dungeon_team = 1;</code>
        * @param value The isEnterMpDungeonTeam to set.
        * @return This builder for chaining.
        */
@@ -841,7 +841,7 @@ public final class UseItemReqOuterClass {
         return this;
       }
       /**
-       * <code>bool is_enter_mp_dungeon_team = 8;</code>
+       * <code>bool is_enter_mp_dungeon_team = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsEnterMpDungeonTeam() {
@@ -859,7 +859,7 @@ public final class UseItemReqOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 _option_idx_list = 15;</code>
+       * <code>repeated uint32 _option_idx_list = 7;</code>
        * @return A list containing the optionIdxList.
        */
       public java.util.List<java.lang.Integer>
@@ -868,14 +868,14 @@ public final class UseItemReqOuterClass {
                  java.util.Collections.unmodifiableList(OptionIdxList_) : OptionIdxList_;
       }
       /**
-       * <code>repeated uint32 _option_idx_list = 15;</code>
+       * <code>repeated uint32 _option_idx_list = 7;</code>
        * @return The count of optionIdxList.
        */
       public int getOptionIdxListCount() {
         return OptionIdxList_.size();
       }
       /**
-       * <code>repeated uint32 _option_idx_list = 15;</code>
+       * <code>repeated uint32 _option_idx_list = 7;</code>
        * @param index The index of the element to return.
        * @return The optionIdxList at the given index.
        */
@@ -883,7 +883,7 @@ public final class UseItemReqOuterClass {
         return OptionIdxList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 _option_idx_list = 15;</code>
+       * <code>repeated uint32 _option_idx_list = 7;</code>
        * @param index The index to set the value at.
        * @param value The optionIdxList to set.
        * @return This builder for chaining.
@@ -896,7 +896,7 @@ public final class UseItemReqOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 _option_idx_list = 15;</code>
+       * <code>repeated uint32 _option_idx_list = 7;</code>
        * @param value The optionIdxList to add.
        * @return This builder for chaining.
        */
@@ -907,7 +907,7 @@ public final class UseItemReqOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 _option_idx_list = 15;</code>
+       * <code>repeated uint32 _option_idx_list = 7;</code>
        * @param values The optionIdxList to add.
        * @return This builder for chaining.
        */
@@ -920,7 +920,7 @@ public final class UseItemReqOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 _option_idx_list = 15;</code>
+       * <code>repeated uint32 _option_idx_list = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearOptionIdxList() {
@@ -997,9 +997,9 @@ public final class UseItemReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\020UseItemReq.proto\"\216\001\n\nUseItemReq\022\022\n\nopt" +
-      "ion_idx\030\001 \001(\r\022\r\n\005count\030\004 \001(\r\022\023\n\013target_g" +
-      "uid\030\006 \001(\004\022\014\n\004guid\030\007 \001(\004\022 \n\030is_enter_mp_d" +
-      "ungeon_team\030\010 \001(\010\022\030\n\020_option_idx_list\030\017 " +
+      "ion_idx\030\017 \001(\r\022\r\n\005count\030\t \001(\r\022\023\n\013target_g" +
+      "uid\030\016 \001(\004\022\014\n\004guid\030\003 \001(\004\022 \n\030is_enter_mp_d" +
+      "ungeon_team\030\001 \001(\010\022\030\n\020_option_idx_list\030\007 " +
       "\003(\rB1\n\031emu.grasscutter.net.protoB\024UseIte" +
       "mReqOuterClassb\006proto3"
     };

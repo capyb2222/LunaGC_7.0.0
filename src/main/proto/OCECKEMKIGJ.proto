@@ -4,12 +4,12 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "OCECKEMKIGJOuterClass";
 
 message OCECKEMKIGJ {
-	uint32 level_id = 2;
-	bool is_played = 4;
-	bool is_finished = 7;
-	uint32 IFFKFLBCHHL = 8;
-	uint32 ALNHCONFHHO = 9;
-	repeated uint32 EGCJHEIONKK = 12;
-	bool is_unlock = 13;
-	uint32 JPBOIPOIGNH = 15;
+	uint32 level_id = 6;
+	bool is_played = 10;
+	bool is_finished = 12;
+	uint32 IFFKFLBCHHL = 50000;
+	uint32 ALNHCONFHHO = 50001;
+	repeated uint32 EGCJHEIONKK = 3;
+	bool is_unlock = 9;
+	uint32 JPBOIPOIGNH = 50002;
 }

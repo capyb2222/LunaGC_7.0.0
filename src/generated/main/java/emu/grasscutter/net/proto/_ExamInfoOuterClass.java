@@ -19,76 +19,76 @@ public final class _ExamInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 CKBLJCHDKPO = 1;</code>
+     * <code>repeated uint32 CKBLJCHDKPO = 4;</code>
      * @return A list containing the cKBLJCHDKPO.
      */
     java.util.List<java.lang.Integer> getCKBLJCHDKPOList();
     /**
-     * <code>repeated uint32 CKBLJCHDKPO = 1;</code>
+     * <code>repeated uint32 CKBLJCHDKPO = 4;</code>
      * @return The count of cKBLJCHDKPO.
      */
     int getCKBLJCHDKPOCount();
     /**
-     * <code>repeated uint32 CKBLJCHDKPO = 1;</code>
+     * <code>repeated uint32 CKBLJCHDKPO = 4;</code>
      * @param index The index of the element to return.
      * @return The cKBLJCHDKPO at the given index.
      */
     int getCKBLJCHDKPO(int index);
 
     /**
-     * <code>uint32 FCOJGHNMIKK = 3;</code>
+     * <code>uint32 FCOJGHNMIKK = 5;</code>
      * @return The fCOJGHNMIKK.
      */
     int getFCOJGHNMIKK();
 
     /**
-     * <code>uint32 GCKDBLEMLNM = 4;</code>
+     * <code>uint32 GCKDBLEMLNM = 13;</code>
      * @return The gCKDBLEMLNM.
      */
     int getGCKDBLEMLNM();
 
     /**
-     * <code>repeated uint32 npc_id_list = 7;</code>
+     * <code>repeated uint32 npc_id_list = 8;</code>
      * @return A list containing the npcIdList.
      */
     java.util.List<java.lang.Integer> getNpcIdListList();
     /**
-     * <code>repeated uint32 npc_id_list = 7;</code>
+     * <code>repeated uint32 npc_id_list = 8;</code>
      * @return The count of npcIdList.
      */
     int getNpcIdListCount();
     /**
-     * <code>repeated uint32 npc_id_list = 7;</code>
+     * <code>repeated uint32 npc_id_list = 8;</code>
      * @param index The index of the element to return.
      * @return The npcIdList at the given index.
      */
     int getNpcIdList(int index);
 
     /**
-     * <code>.FGJFGPAPOHE BHHGGMIGHHL = 8;</code>
+     * <code>.FGJFGPAPOHE BHHGGMIGHHL = 3;</code>
      * @return The enum numeric value on the wire for bHHGGMIGHHL.
      */
     int getBHHGGMIGHHLValue();
     /**
-     * <code>.FGJFGPAPOHE BHHGGMIGHHL = 8;</code>
+     * <code>.FGJFGPAPOHE BHHGGMIGHHL = 3;</code>
      * @return The bHHGGMIGHHL.
      */
     emu.grasscutter.net.proto.FGJFGPAPOHEOuterClass.FGJFGPAPOHE getBHHGGMIGHHL();
 
     /**
-     * <code>bool LKIIDNBEBIM = 10;</code>
+     * <code>bool LKIIDNBEBIM = 2;</code>
      * @return The lKIIDNBEBIM.
      */
     boolean getLKIIDNBEBIM();
 
     /**
-     * <code>uint32 id = 11;</code>
+     * <code>uint32 id = 7;</code>
      * @return The id.
      */
     int getId();
 
     /**
-     * <code>bool LBIEHJGLEFK = 13;</code>
+     * <code>bool LBIEHJGLEFK = 9;</code>
      * @return The lBIEHJGLEFK.
      */
     boolean getLBIEHJGLEFK();
@@ -142,7 +142,18 @@ public final class _ExamInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 16: {
+
+              lKIIDNBEBIM_ = input.readBool();
+              break;
+            }
+            case 24: {
+              int rawValue = input.readEnum();
+
+              bHHGGMIGHHL_ = rawValue;
+              break;
+            }
+            case 32: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 cKBLJCHDKPO_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -150,7 +161,7 @@ public final class _ExamInfoOuterClass {
               cKBLJCHDKPO_.addInt(input.readUInt32());
               break;
             }
-            case 10: {
+            case 34: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -163,17 +174,17 @@ public final class _ExamInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 24: {
+            case 40: {
 
               fCOJGHNMIKK_ = input.readUInt32();
               break;
             }
-            case 32: {
+            case 56: {
 
-              gCKDBLEMLNM_ = input.readUInt32();
+              id_ = input.readUInt32();
               break;
             }
-            case 56: {
+            case 64: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 npcIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
@@ -181,7 +192,7 @@ public final class _ExamInfoOuterClass {
               npcIdList_.addInt(input.readUInt32());
               break;
             }
-            case 58: {
+            case 66: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
@@ -194,25 +205,14 @@ public final class _ExamInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 64: {
-              int rawValue = input.readEnum();
+            case 72: {
 
-              bHHGGMIGHHL_ = rawValue;
-              break;
-            }
-            case 80: {
-
-              lKIIDNBEBIM_ = input.readBool();
-              break;
-            }
-            case 88: {
-
-              id_ = input.readUInt32();
+              lBIEHJGLEFK_ = input.readBool();
               break;
             }
             case 104: {
 
-              lBIEHJGLEFK_ = input.readBool();
+              gCKDBLEMLNM_ = input.readUInt32();
               break;
             }
             default: {
@@ -253,10 +253,10 @@ public final class _ExamInfoOuterClass {
               emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfo.class, emu.grasscutter.net.proto._ExamInfoOuterClass._ExamInfo.Builder.class);
     }
 
-    public static final int CKBLJCHDKPO_FIELD_NUMBER = 1;
+    public static final int CKBLJCHDKPO_FIELD_NUMBER = 4;
     private com.google.protobuf.Internal.IntList cKBLJCHDKPO_;
     /**
-     * <code>repeated uint32 CKBLJCHDKPO = 1;</code>
+     * <code>repeated uint32 CKBLJCHDKPO = 4;</code>
      * @return A list containing the cKBLJCHDKPO.
      */
     @java.lang.Override
@@ -265,14 +265,14 @@ public final class _ExamInfoOuterClass {
       return cKBLJCHDKPO_;
     }
     /**
-     * <code>repeated uint32 CKBLJCHDKPO = 1;</code>
+     * <code>repeated uint32 CKBLJCHDKPO = 4;</code>
      * @return The count of cKBLJCHDKPO.
      */
     public int getCKBLJCHDKPOCount() {
       return cKBLJCHDKPO_.size();
     }
     /**
-     * <code>repeated uint32 CKBLJCHDKPO = 1;</code>
+     * <code>repeated uint32 CKBLJCHDKPO = 4;</code>
      * @param index The index of the element to return.
      * @return The cKBLJCHDKPO at the given index.
      */
@@ -281,10 +281,10 @@ public final class _ExamInfoOuterClass {
     }
     private int cKBLJCHDKPOMemoizedSerializedSize = -1;
 
-    public static final int FCOJGHNMIKK_FIELD_NUMBER = 3;
+    public static final int FCOJGHNMIKK_FIELD_NUMBER = 5;
     private int fCOJGHNMIKK_;
     /**
-     * <code>uint32 FCOJGHNMIKK = 3;</code>
+     * <code>uint32 FCOJGHNMIKK = 5;</code>
      * @return The fCOJGHNMIKK.
      */
     @java.lang.Override
@@ -292,10 +292,10 @@ public final class _ExamInfoOuterClass {
       return fCOJGHNMIKK_;
     }
 
-    public static final int GCKDBLEMLNM_FIELD_NUMBER = 4;
+    public static final int GCKDBLEMLNM_FIELD_NUMBER = 13;
     private int gCKDBLEMLNM_;
     /**
-     * <code>uint32 GCKDBLEMLNM = 4;</code>
+     * <code>uint32 GCKDBLEMLNM = 13;</code>
      * @return The gCKDBLEMLNM.
      */
     @java.lang.Override
@@ -303,10 +303,10 @@ public final class _ExamInfoOuterClass {
       return gCKDBLEMLNM_;
     }
 
-    public static final int NPC_ID_LIST_FIELD_NUMBER = 7;
+    public static final int NPC_ID_LIST_FIELD_NUMBER = 8;
     private com.google.protobuf.Internal.IntList npcIdList_;
     /**
-     * <code>repeated uint32 npc_id_list = 7;</code>
+     * <code>repeated uint32 npc_id_list = 8;</code>
      * @return A list containing the npcIdList.
      */
     @java.lang.Override
@@ -315,14 +315,14 @@ public final class _ExamInfoOuterClass {
       return npcIdList_;
     }
     /**
-     * <code>repeated uint32 npc_id_list = 7;</code>
+     * <code>repeated uint32 npc_id_list = 8;</code>
      * @return The count of npcIdList.
      */
     public int getNpcIdListCount() {
       return npcIdList_.size();
     }
     /**
-     * <code>repeated uint32 npc_id_list = 7;</code>
+     * <code>repeated uint32 npc_id_list = 8;</code>
      * @param index The index of the element to return.
      * @return The npcIdList at the given index.
      */
@@ -331,17 +331,17 @@ public final class _ExamInfoOuterClass {
     }
     private int npcIdListMemoizedSerializedSize = -1;
 
-    public static final int BHHGGMIGHHL_FIELD_NUMBER = 8;
+    public static final int BHHGGMIGHHL_FIELD_NUMBER = 3;
     private int bHHGGMIGHHL_;
     /**
-     * <code>.FGJFGPAPOHE BHHGGMIGHHL = 8;</code>
+     * <code>.FGJFGPAPOHE BHHGGMIGHHL = 3;</code>
      * @return The enum numeric value on the wire for bHHGGMIGHHL.
      */
     @java.lang.Override public int getBHHGGMIGHHLValue() {
       return bHHGGMIGHHL_;
     }
     /**
-     * <code>.FGJFGPAPOHE BHHGGMIGHHL = 8;</code>
+     * <code>.FGJFGPAPOHE BHHGGMIGHHL = 3;</code>
      * @return The bHHGGMIGHHL.
      */
     @java.lang.Override public emu.grasscutter.net.proto.FGJFGPAPOHEOuterClass.FGJFGPAPOHE getBHHGGMIGHHL() {
@@ -350,10 +350,10 @@ public final class _ExamInfoOuterClass {
       return result == null ? emu.grasscutter.net.proto.FGJFGPAPOHEOuterClass.FGJFGPAPOHE.UNRECOGNIZED : result;
     }
 
-    public static final int LKIIDNBEBIM_FIELD_NUMBER = 10;
+    public static final int LKIIDNBEBIM_FIELD_NUMBER = 2;
     private boolean lKIIDNBEBIM_;
     /**
-     * <code>bool LKIIDNBEBIM = 10;</code>
+     * <code>bool LKIIDNBEBIM = 2;</code>
      * @return The lKIIDNBEBIM.
      */
     @java.lang.Override
@@ -361,10 +361,10 @@ public final class _ExamInfoOuterClass {
       return lKIIDNBEBIM_;
     }
 
-    public static final int ID_FIELD_NUMBER = 11;
+    public static final int ID_FIELD_NUMBER = 7;
     private int id_;
     /**
-     * <code>uint32 id = 11;</code>
+     * <code>uint32 id = 7;</code>
      * @return The id.
      */
     @java.lang.Override
@@ -372,10 +372,10 @@ public final class _ExamInfoOuterClass {
       return id_;
     }
 
-    public static final int LBIEHJGLEFK_FIELD_NUMBER = 13;
+    public static final int LBIEHJGLEFK_FIELD_NUMBER = 9;
     private boolean lBIEHJGLEFK_;
     /**
-     * <code>bool LBIEHJGLEFK = 13;</code>
+     * <code>bool LBIEHJGLEFK = 9;</code>
      * @return The lBIEHJGLEFK.
      */
     @java.lang.Override
@@ -398,37 +398,37 @@ public final class _ExamInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
+      if (lKIIDNBEBIM_ != false) {
+        output.writeBool(2, lKIIDNBEBIM_);
+      }
+      if (bHHGGMIGHHL_ != emu.grasscutter.net.proto.FGJFGPAPOHEOuterClass.FGJFGPAPOHE.FGJFGPAPOHE_NONE.getNumber()) {
+        output.writeEnum(3, bHHGGMIGHHL_);
+      }
       if (getCKBLJCHDKPOList().size() > 0) {
-        output.writeUInt32NoTag(10);
+        output.writeUInt32NoTag(34);
         output.writeUInt32NoTag(cKBLJCHDKPOMemoizedSerializedSize);
       }
       for (int i = 0; i < cKBLJCHDKPO_.size(); i++) {
         output.writeUInt32NoTag(cKBLJCHDKPO_.getInt(i));
       }
       if (fCOJGHNMIKK_ != 0) {
-        output.writeUInt32(3, fCOJGHNMIKK_);
+        output.writeUInt32(5, fCOJGHNMIKK_);
       }
-      if (gCKDBLEMLNM_ != 0) {
-        output.writeUInt32(4, gCKDBLEMLNM_);
+      if (id_ != 0) {
+        output.writeUInt32(7, id_);
       }
       if (getNpcIdListList().size() > 0) {
-        output.writeUInt32NoTag(58);
+        output.writeUInt32NoTag(66);
         output.writeUInt32NoTag(npcIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < npcIdList_.size(); i++) {
         output.writeUInt32NoTag(npcIdList_.getInt(i));
       }
-      if (bHHGGMIGHHL_ != emu.grasscutter.net.proto.FGJFGPAPOHEOuterClass.FGJFGPAPOHE.FGJFGPAPOHE_NONE.getNumber()) {
-        output.writeEnum(8, bHHGGMIGHHL_);
-      }
-      if (lKIIDNBEBIM_ != false) {
-        output.writeBool(10, lKIIDNBEBIM_);
-      }
-      if (id_ != 0) {
-        output.writeUInt32(11, id_);
-      }
       if (lBIEHJGLEFK_ != false) {
-        output.writeBool(13, lBIEHJGLEFK_);
+        output.writeBool(9, lBIEHJGLEFK_);
+      }
+      if (gCKDBLEMLNM_ != 0) {
+        output.writeUInt32(13, gCKDBLEMLNM_);
       }
       unknownFields.writeTo(output);
     }
@@ -439,6 +439,14 @@ public final class _ExamInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (lKIIDNBEBIM_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(2, lKIIDNBEBIM_);
+      }
+      if (bHHGGMIGHHL_ != emu.grasscutter.net.proto.FGJFGPAPOHEOuterClass.FGJFGPAPOHE.FGJFGPAPOHE_NONE.getNumber()) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeEnumSize(3, bHHGGMIGHHL_);
+      }
       {
         int dataSize = 0;
         for (int i = 0; i < cKBLJCHDKPO_.size(); i++) {
@@ -455,11 +463,11 @@ public final class _ExamInfoOuterClass {
       }
       if (fCOJGHNMIKK_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, fCOJGHNMIKK_);
+          .computeUInt32Size(5, fCOJGHNMIKK_);
       }
-      if (gCKDBLEMLNM_ != 0) {
+      if (id_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, gCKDBLEMLNM_);
+          .computeUInt32Size(7, id_);
       }
       {
         int dataSize = 0;
@@ -475,21 +483,13 @@ public final class _ExamInfoOuterClass {
         }
         npcIdListMemoizedSerializedSize = dataSize;
       }
-      if (bHHGGMIGHHL_ != emu.grasscutter.net.proto.FGJFGPAPOHEOuterClass.FGJFGPAPOHE.FGJFGPAPOHE_NONE.getNumber()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(8, bHHGGMIGHHL_);
-      }
-      if (lKIIDNBEBIM_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(10, lKIIDNBEBIM_);
-      }
-      if (id_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, id_);
-      }
       if (lBIEHJGLEFK_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(13, lBIEHJGLEFK_);
+          .computeBoolSize(9, lBIEHJGLEFK_);
+      }
+      if (gCKDBLEMLNM_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(13, gCKDBLEMLNM_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -870,7 +870,7 @@ public final class _ExamInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 CKBLJCHDKPO = 1;</code>
+       * <code>repeated uint32 CKBLJCHDKPO = 4;</code>
        * @return A list containing the cKBLJCHDKPO.
        */
       public java.util.List<java.lang.Integer>
@@ -879,14 +879,14 @@ public final class _ExamInfoOuterClass {
                  java.util.Collections.unmodifiableList(cKBLJCHDKPO_) : cKBLJCHDKPO_;
       }
       /**
-       * <code>repeated uint32 CKBLJCHDKPO = 1;</code>
+       * <code>repeated uint32 CKBLJCHDKPO = 4;</code>
        * @return The count of cKBLJCHDKPO.
        */
       public int getCKBLJCHDKPOCount() {
         return cKBLJCHDKPO_.size();
       }
       /**
-       * <code>repeated uint32 CKBLJCHDKPO = 1;</code>
+       * <code>repeated uint32 CKBLJCHDKPO = 4;</code>
        * @param index The index of the element to return.
        * @return The cKBLJCHDKPO at the given index.
        */
@@ -894,7 +894,7 @@ public final class _ExamInfoOuterClass {
         return cKBLJCHDKPO_.getInt(index);
       }
       /**
-       * <code>repeated uint32 CKBLJCHDKPO = 1;</code>
+       * <code>repeated uint32 CKBLJCHDKPO = 4;</code>
        * @param index The index to set the value at.
        * @param value The cKBLJCHDKPO to set.
        * @return This builder for chaining.
@@ -907,7 +907,7 @@ public final class _ExamInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 CKBLJCHDKPO = 1;</code>
+       * <code>repeated uint32 CKBLJCHDKPO = 4;</code>
        * @param value The cKBLJCHDKPO to add.
        * @return This builder for chaining.
        */
@@ -918,7 +918,7 @@ public final class _ExamInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 CKBLJCHDKPO = 1;</code>
+       * <code>repeated uint32 CKBLJCHDKPO = 4;</code>
        * @param values The cKBLJCHDKPO to add.
        * @return This builder for chaining.
        */
@@ -931,7 +931,7 @@ public final class _ExamInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 CKBLJCHDKPO = 1;</code>
+       * <code>repeated uint32 CKBLJCHDKPO = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearCKBLJCHDKPO() {
@@ -943,7 +943,7 @@ public final class _ExamInfoOuterClass {
 
       private int fCOJGHNMIKK_ ;
       /**
-       * <code>uint32 FCOJGHNMIKK = 3;</code>
+       * <code>uint32 FCOJGHNMIKK = 5;</code>
        * @return The fCOJGHNMIKK.
        */
       @java.lang.Override
@@ -951,7 +951,7 @@ public final class _ExamInfoOuterClass {
         return fCOJGHNMIKK_;
       }
       /**
-       * <code>uint32 FCOJGHNMIKK = 3;</code>
+       * <code>uint32 FCOJGHNMIKK = 5;</code>
        * @param value The fCOJGHNMIKK to set.
        * @return This builder for chaining.
        */
@@ -962,7 +962,7 @@ public final class _ExamInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 FCOJGHNMIKK = 3;</code>
+       * <code>uint32 FCOJGHNMIKK = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearFCOJGHNMIKK() {
@@ -974,7 +974,7 @@ public final class _ExamInfoOuterClass {
 
       private int gCKDBLEMLNM_ ;
       /**
-       * <code>uint32 GCKDBLEMLNM = 4;</code>
+       * <code>uint32 GCKDBLEMLNM = 13;</code>
        * @return The gCKDBLEMLNM.
        */
       @java.lang.Override
@@ -982,7 +982,7 @@ public final class _ExamInfoOuterClass {
         return gCKDBLEMLNM_;
       }
       /**
-       * <code>uint32 GCKDBLEMLNM = 4;</code>
+       * <code>uint32 GCKDBLEMLNM = 13;</code>
        * @param value The gCKDBLEMLNM to set.
        * @return This builder for chaining.
        */
@@ -993,7 +993,7 @@ public final class _ExamInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 GCKDBLEMLNM = 4;</code>
+       * <code>uint32 GCKDBLEMLNM = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearGCKDBLEMLNM() {
@@ -1011,7 +1011,7 @@ public final class _ExamInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 npc_id_list = 7;</code>
+       * <code>repeated uint32 npc_id_list = 8;</code>
        * @return A list containing the npcIdList.
        */
       public java.util.List<java.lang.Integer>
@@ -1020,14 +1020,14 @@ public final class _ExamInfoOuterClass {
                  java.util.Collections.unmodifiableList(npcIdList_) : npcIdList_;
       }
       /**
-       * <code>repeated uint32 npc_id_list = 7;</code>
+       * <code>repeated uint32 npc_id_list = 8;</code>
        * @return The count of npcIdList.
        */
       public int getNpcIdListCount() {
         return npcIdList_.size();
       }
       /**
-       * <code>repeated uint32 npc_id_list = 7;</code>
+       * <code>repeated uint32 npc_id_list = 8;</code>
        * @param index The index of the element to return.
        * @return The npcIdList at the given index.
        */
@@ -1035,7 +1035,7 @@ public final class _ExamInfoOuterClass {
         return npcIdList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 npc_id_list = 7;</code>
+       * <code>repeated uint32 npc_id_list = 8;</code>
        * @param index The index to set the value at.
        * @param value The npcIdList to set.
        * @return This builder for chaining.
@@ -1048,7 +1048,7 @@ public final class _ExamInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 npc_id_list = 7;</code>
+       * <code>repeated uint32 npc_id_list = 8;</code>
        * @param value The npcIdList to add.
        * @return This builder for chaining.
        */
@@ -1059,7 +1059,7 @@ public final class _ExamInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 npc_id_list = 7;</code>
+       * <code>repeated uint32 npc_id_list = 8;</code>
        * @param values The npcIdList to add.
        * @return This builder for chaining.
        */
@@ -1072,7 +1072,7 @@ public final class _ExamInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 npc_id_list = 7;</code>
+       * <code>repeated uint32 npc_id_list = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearNpcIdList() {
@@ -1084,14 +1084,14 @@ public final class _ExamInfoOuterClass {
 
       private int bHHGGMIGHHL_ = 0;
       /**
-       * <code>.FGJFGPAPOHE BHHGGMIGHHL = 8;</code>
+       * <code>.FGJFGPAPOHE BHHGGMIGHHL = 3;</code>
        * @return The enum numeric value on the wire for bHHGGMIGHHL.
        */
       @java.lang.Override public int getBHHGGMIGHHLValue() {
         return bHHGGMIGHHL_;
       }
       /**
-       * <code>.FGJFGPAPOHE BHHGGMIGHHL = 8;</code>
+       * <code>.FGJFGPAPOHE BHHGGMIGHHL = 3;</code>
        * @param value The enum numeric value on the wire for bHHGGMIGHHL to set.
        * @return This builder for chaining.
        */
@@ -1102,7 +1102,7 @@ public final class _ExamInfoOuterClass {
         return this;
       }
       /**
-       * <code>.FGJFGPAPOHE BHHGGMIGHHL = 8;</code>
+       * <code>.FGJFGPAPOHE BHHGGMIGHHL = 3;</code>
        * @return The bHHGGMIGHHL.
        */
       @java.lang.Override
@@ -1112,7 +1112,7 @@ public final class _ExamInfoOuterClass {
         return result == null ? emu.grasscutter.net.proto.FGJFGPAPOHEOuterClass.FGJFGPAPOHE.UNRECOGNIZED : result;
       }
       /**
-       * <code>.FGJFGPAPOHE BHHGGMIGHHL = 8;</code>
+       * <code>.FGJFGPAPOHE BHHGGMIGHHL = 3;</code>
        * @param value The bHHGGMIGHHL to set.
        * @return This builder for chaining.
        */
@@ -1126,7 +1126,7 @@ public final class _ExamInfoOuterClass {
         return this;
       }
       /**
-       * <code>.FGJFGPAPOHE BHHGGMIGHHL = 8;</code>
+       * <code>.FGJFGPAPOHE BHHGGMIGHHL = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearBHHGGMIGHHL() {
@@ -1138,7 +1138,7 @@ public final class _ExamInfoOuterClass {
 
       private boolean lKIIDNBEBIM_ ;
       /**
-       * <code>bool LKIIDNBEBIM = 10;</code>
+       * <code>bool LKIIDNBEBIM = 2;</code>
        * @return The lKIIDNBEBIM.
        */
       @java.lang.Override
@@ -1146,7 +1146,7 @@ public final class _ExamInfoOuterClass {
         return lKIIDNBEBIM_;
       }
       /**
-       * <code>bool LKIIDNBEBIM = 10;</code>
+       * <code>bool LKIIDNBEBIM = 2;</code>
        * @param value The lKIIDNBEBIM to set.
        * @return This builder for chaining.
        */
@@ -1157,7 +1157,7 @@ public final class _ExamInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool LKIIDNBEBIM = 10;</code>
+       * <code>bool LKIIDNBEBIM = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearLKIIDNBEBIM() {
@@ -1169,7 +1169,7 @@ public final class _ExamInfoOuterClass {
 
       private int id_ ;
       /**
-       * <code>uint32 id = 11;</code>
+       * <code>uint32 id = 7;</code>
        * @return The id.
        */
       @java.lang.Override
@@ -1177,7 +1177,7 @@ public final class _ExamInfoOuterClass {
         return id_;
       }
       /**
-       * <code>uint32 id = 11;</code>
+       * <code>uint32 id = 7;</code>
        * @param value The id to set.
        * @return This builder for chaining.
        */
@@ -1188,7 +1188,7 @@ public final class _ExamInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 id = 11;</code>
+       * <code>uint32 id = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearId() {
@@ -1200,7 +1200,7 @@ public final class _ExamInfoOuterClass {
 
       private boolean lBIEHJGLEFK_ ;
       /**
-       * <code>bool LBIEHJGLEFK = 13;</code>
+       * <code>bool LBIEHJGLEFK = 9;</code>
        * @return The lBIEHJGLEFK.
        */
       @java.lang.Override
@@ -1208,7 +1208,7 @@ public final class _ExamInfoOuterClass {
         return lBIEHJGLEFK_;
       }
       /**
-       * <code>bool LBIEHJGLEFK = 13;</code>
+       * <code>bool LBIEHJGLEFK = 9;</code>
        * @param value The lBIEHJGLEFK to set.
        * @return This builder for chaining.
        */
@@ -1219,7 +1219,7 @@ public final class _ExamInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool LBIEHJGLEFK = 13;</code>
+       * <code>bool LBIEHJGLEFK = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearLBIEHJGLEFK() {
@@ -1296,11 +1296,11 @@ public final class _ExamInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\017_ExamInfo.proto\032\021FGJFGPAPOHE.proto\"\270\001\n" +
-      "\t_ExamInfo\022\023\n\013CKBLJCHDKPO\030\001 \003(\r\022\023\n\013FCOJG" +
-      "HNMIKK\030\003 \001(\r\022\023\n\013GCKDBLEMLNM\030\004 \001(\r\022\023\n\013npc" +
-      "_id_list\030\007 \003(\r\022!\n\013BHHGGMIGHHL\030\010 \001(\0162\014.FG" +
-      "JFGPAPOHE\022\023\n\013LKIIDNBEBIM\030\n \001(\010\022\n\n\002id\030\013 \001" +
-      "(\r\022\023\n\013LBIEHJGLEFK\030\r \001(\010B0\n\031emu.grasscutt" +
+      "\t_ExamInfo\022\023\n\013CKBLJCHDKPO\030\004 \003(\r\022\023\n\013FCOJG" +
+      "HNMIKK\030\005 \001(\r\022\023\n\013GCKDBLEMLNM\030\r \001(\r\022\023\n\013npc" +
+      "_id_list\030\010 \003(\r\022!\n\013BHHGGMIGHHL\030\003 \001(\0162\014.FG" +
+      "JFGPAPOHE\022\023\n\013LKIIDNBEBIM\030\002 \001(\010\022\n\n\002id\030\007 \001" +
+      "(\r\022\023\n\013LBIEHJGLEFK\030\t \001(\010B0\n\031emu.grasscutt" +
       "er.net.protoB\023_ExamInfoOuterClassb\006proto" +
       "3"
     };

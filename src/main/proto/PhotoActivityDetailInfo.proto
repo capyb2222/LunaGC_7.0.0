@@ -6,6 +6,6 @@ option java_outer_classname = "PhotoActivityDetailInfoOuterClass";
 import "PhotoPosData.proto";
 
 message PhotoActivityDetailInfo {
-	bool is_content_closed = 9;
-	repeated PhotoPosData photo_pos_data_list = 12;
+	bool is_content_closed = 1;
+	repeated PhotoPosData photo_pos_data_list = 15;
 }

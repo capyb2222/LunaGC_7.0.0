@@ -6,5 +6,5 @@ option java_outer_classname = "AvatarExpeditionStartReqOuterClass";
 import "_AvatarExpeditionBasicInfo.proto";
 
 message AvatarExpeditionStartReq {
-	repeated _AvatarExpeditionBasicInfo _basic_info_list = 9;
+	repeated _AvatarExpeditionBasicInfo _basic_info_list = 10;
 }

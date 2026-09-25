@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "AvatarSkillUpgradeReqOuterClass";
 
 message AvatarSkillUpgradeReq {
-	uint64 avatar_guid = 4;
-	uint32 avatar_skill_id = 8;
+	uint64 avatar_guid = 10;
+	uint32 avatar_skill_id = 3;
 	uint32 old_level = 13;
 }

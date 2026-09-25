@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "PlayerCookArgsRspOuterClass";
 
 message PlayerCookArgsRsp {
-	float qte_range_ratio = 1;
-	int32 retcode = 11;
+	float qte_range_ratio = 9;
+	int32 retcode = 12;
 }

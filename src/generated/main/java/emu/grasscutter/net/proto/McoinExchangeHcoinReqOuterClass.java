@@ -25,7 +25,7 @@ public final class McoinExchangeHcoinReqOuterClass {
     int getHcoin();
 
     /**
-     * <code>uint32 mcoin_cost = 14;</code>
+     * <code>uint32 mcoin_cost = 1;</code>
      * @return The mcoinCost.
      */
     int getMcoinCost();
@@ -75,14 +75,14 @@ public final class McoinExchangeHcoinReqOuterClass {
             case 0:
               done = true;
               break;
+            case 8: {
+
+              mcoinCost_ = input.readUInt32();
+              break;
+            }
             case 64: {
 
               hcoin_ = input.readUInt32();
-              break;
-            }
-            case 112: {
-
-              mcoinCost_ = input.readUInt32();
               break;
             }
             default: {
@@ -128,10 +128,10 @@ public final class McoinExchangeHcoinReqOuterClass {
       return hcoin_;
     }
 
-    public static final int MCOIN_COST_FIELD_NUMBER = 14;
+    public static final int MCOIN_COST_FIELD_NUMBER = 1;
     private int mcoinCost_;
     /**
-     * <code>uint32 mcoin_cost = 14;</code>
+     * <code>uint32 mcoin_cost = 1;</code>
      * @return The mcoinCost.
      */
     @java.lang.Override
@@ -153,11 +153,11 @@ public final class McoinExchangeHcoinReqOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (mcoinCost_ != 0) {
+        output.writeUInt32(1, mcoinCost_);
+      }
       if (hcoin_ != 0) {
         output.writeUInt32(8, hcoin_);
-      }
-      if (mcoinCost_ != 0) {
-        output.writeUInt32(14, mcoinCost_);
       }
       unknownFields.writeTo(output);
     }
@@ -168,13 +168,13 @@ public final class McoinExchangeHcoinReqOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (mcoinCost_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(1, mcoinCost_);
+      }
       if (hcoin_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(8, hcoin_);
-      }
-      if (mcoinCost_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, mcoinCost_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -491,7 +491,7 @@ public final class McoinExchangeHcoinReqOuterClass {
 
       private int mcoinCost_ ;
       /**
-       * <code>uint32 mcoin_cost = 14;</code>
+       * <code>uint32 mcoin_cost = 1;</code>
        * @return The mcoinCost.
        */
       @java.lang.Override
@@ -499,7 +499,7 @@ public final class McoinExchangeHcoinReqOuterClass {
         return mcoinCost_;
       }
       /**
-       * <code>uint32 mcoin_cost = 14;</code>
+       * <code>uint32 mcoin_cost = 1;</code>
        * @param value The mcoinCost to set.
        * @return This builder for chaining.
        */
@@ -510,7 +510,7 @@ public final class McoinExchangeHcoinReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 mcoin_cost = 14;</code>
+       * <code>uint32 mcoin_cost = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearMcoinCost() {
@@ -588,7 +588,7 @@ public final class McoinExchangeHcoinReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033McoinExchangeHcoinReq.proto\":\n\025McoinEx" +
       "changeHcoinReq\022\r\n\005hcoin\030\010 \001(\r\022\022\n\nmcoin_c" +
-      "ost\030\016 \001(\rB<\n\031emu.grasscutter.net.protoB\037" +
+      "ost\030\001 \001(\rB<\n\031emu.grasscutter.net.protoB\037" +
       "McoinExchangeHcoinReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

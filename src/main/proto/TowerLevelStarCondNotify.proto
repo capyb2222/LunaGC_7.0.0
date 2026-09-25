@@ -6,7 +6,7 @@ option java_outer_classname = "TowerLevelStarCondNotifyOuterClass";
 import "TowerLevelStarCondData.proto";
 
 message TowerLevelStarCondNotify {
-	repeated TowerLevelStarCondData cond_data_list = 1;
-	uint32 level_index = 3;
-	uint32 floor_id = 10;
+	repeated TowerLevelStarCondData cond_data_list = 3;
+	uint32 level_index = 2;
+	uint32 floor_id = 11;
 }

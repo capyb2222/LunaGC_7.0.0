@@ -6,8 +6,8 @@ option java_outer_classname = "BargainOfferPriceRspOuterClass";
 import "BargainResultType.proto";
 
 message BargainOfferPriceRsp {
-	int32 retcode = 1;
-	uint32 result_param = 3;
-	int32 cur_mood = 7;
-	BargainResultType bargain_result = 9;
+	int32 retcode = 12;
+	uint32 result_param = 7;
+	int32 cur_mood = 6;
+	BargainResultType bargain_result = 5;
 }

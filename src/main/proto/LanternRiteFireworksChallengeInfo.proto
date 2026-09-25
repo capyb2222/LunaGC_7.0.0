@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "LanternRiteFireworksChallengeInfoOuterClass";
 
 message LanternRiteFireworksChallengeInfo {
-	bool is_full_score = 4;
-	uint32 best_score = 6;
+	bool is_full_score = 6;
+	uint32 best_score = 13;
 	uint32 challenge_id = 11;
 }

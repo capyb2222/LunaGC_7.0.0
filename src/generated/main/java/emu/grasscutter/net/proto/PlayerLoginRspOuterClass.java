@@ -19,35 +19,35 @@ public final class PlayerLoginRspOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool is_relogin = 1;</code>
+     * <code>bool is_relogin = 14;</code>
      * @return The isRelogin.
      */
     boolean getIsRelogin();
 
     /**
-     * <code>bool GHAJDNKLEDA = 2;</code>
+     * <code>bool GHAJDNKLEDA = 50000;</code>
      * @return The gHAJDNKLEDA.
      */
     boolean getGHAJDNKLEDA();
 
     /**
-     * <code>uint32 ohmigaflnid = 3;</code>
+     * <code>uint32 ohmigaflnid = 50001;</code>
      * @return The ohmigaflnid.
      */
     int getOhmigaflnid();
 
     /**
-     * <code>uint64 login_rand = 4;</code>
+     * <code>uint64 login_rand = 7;</code>
      * @return The loginRand.
      */
     long getLoginRand();
 
     /**
-     * <code>map&lt;string, int32&gt; ability_hash_map = 5;</code>
+     * <code>map&lt;string, int32&gt; ability_hash_map = 8;</code>
      */
     int getAbilityHashMapCount();
     /**
-     * <code>map&lt;string, int32&gt; ability_hash_map = 5;</code>
+     * <code>map&lt;string, int32&gt; ability_hash_map = 8;</code>
      */
     boolean containsAbilityHashMap(
         java.lang.String key);
@@ -58,135 +58,135 @@ public final class PlayerLoginRspOuterClass {
     java.util.Map<java.lang.String, java.lang.Integer>
     getAbilityHashMap();
     /**
-     * <code>map&lt;string, int32&gt; ability_hash_map = 5;</code>
+     * <code>map&lt;string, int32&gt; ability_hash_map = 8;</code>
      */
     java.util.Map<java.lang.String, java.lang.Integer>
     getAbilityHashMapMap();
     /**
-     * <code>map&lt;string, int32&gt; ability_hash_map = 5;</code>
+     * <code>map&lt;string, int32&gt; ability_hash_map = 8;</code>
      */
 
     int getAbilityHashMapOrDefault(
         java.lang.String key,
         int defaultValue);
     /**
-     * <code>map&lt;string, int32&gt; ability_hash_map = 5;</code>
+     * <code>map&lt;string, int32&gt; ability_hash_map = 8;</code>
      */
 
     int getAbilityHashMapOrThrow(
         java.lang.String key);
 
     /**
-     * <code>string game_biz = 6;</code>
+     * <code>string game_biz = 11;</code>
      * @return The gameBiz.
      */
     java.lang.String getGameBiz();
     /**
-     * <code>string game_biz = 6;</code>
+     * <code>string game_biz = 11;</code>
      * @return The bytes for gameBiz.
      */
     com.google.protobuf.ByteString
         getGameBizBytes();
 
     /**
-     * <code>bool is_use_ability_hash = 7;</code>
+     * <code>bool is_use_ability_hash = 50002;</code>
      * @return The isUseAbilityHash.
      */
     boolean getIsUseAbilityHash();
 
     /**
-     * <code>uint32 client_data_version = 8;</code>
+     * <code>uint32 client_data_version = 13;</code>
      * @return The clientDataVersion.
      */
     int getClientDataVersion();
 
     /**
-     * <code>uint32 client_silence_data_version = 9;</code>
+     * <code>uint32 client_silence_data_version = 15;</code>
      * @return The clientSilenceDataVersion.
      */
     int getClientSilenceDataVersion();
 
     /**
-     * <code>uint32 target_uid = 11;</code>
+     * <code>uint32 target_uid = 4;</code>
      * @return The targetUid.
      */
     int getTargetUid();
 
     /**
-     * <code>int32 ability_hash_code = 13;</code>
+     * <code>int32 ability_hash_code = 10;</code>
      * @return The abilityHashCode.
      */
     int getAbilityHashCode();
 
     /**
-     * <code>bytes player_data = 14;</code>
+     * <code>bytes player_data = 3;</code>
      * @return The playerData.
      */
     com.google.protobuf.ByteString getPlayerData();
 
     /**
-     * <code>int32 retcode = 15;</code>
+     * <code>int32 retcode = 9;</code>
      * @return The retcode.
      */
     int getRetcode();
 
     /**
-     * <code>bool GICKBBGJGCK = 40;</code>
+     * <code>bool GICKBBGJGCK = 50003;</code>
      * @return The gICKBBGJGCK.
      */
     boolean getGICKBBGJGCK();
 
     /**
-     * <code>bytes sc_info = 57;</code>
+     * <code>bytes sc_info = 1743;</code>
      * @return The scInfo.
      */
     com.google.protobuf.ByteString getScInfo();
 
     /**
-     * <code>string client_version_suffix = 70;</code>
+     * <code>string client_version_suffix = 50004;</code>
      * @return The clientVersionSuffix.
      */
     java.lang.String getClientVersionSuffix();
     /**
-     * <code>string client_version_suffix = 70;</code>
+     * <code>string client_version_suffix = 50004;</code>
      * @return The bytes for clientVersionSuffix.
      */
     com.google.protobuf.ByteString
         getClientVersionSuffixBytes();
 
     /**
-     * <code>.ResVersionConfig next_res_version_config = 181;</code>
+     * <code>.ResVersionConfig next_res_version_config = 1984;</code>
      * @return Whether the nextResVersionConfig field is set.
      */
     boolean hasNextResVersionConfig();
     /**
-     * <code>.ResVersionConfig next_res_version_config = 181;</code>
+     * <code>.ResVersionConfig next_res_version_config = 1984;</code>
      * @return The nextResVersionConfig.
      */
     emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig getNextResVersionConfig();
     /**
-     * <code>.ResVersionConfig next_res_version_config = 181;</code>
+     * <code>.ResVersionConfig next_res_version_config = 1984;</code>
      */
     emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfigOrBuilder getNextResVersionConfigOrBuilder();
 
     /**
-     * <code>string birthday = 484;</code>
+     * <code>string birthday = 1312;</code>
      * @return The birthday.
      */
     java.lang.String getBirthday();
     /**
-     * <code>string birthday = 484;</code>
+     * <code>string birthday = 1312;</code>
      * @return The bytes for birthday.
      */
     com.google.protobuf.ByteString
         getBirthdayBytes();
 
     /**
-     * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 536;</code>
+     * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 1205;</code>
      */
     int getBlockInfoMapCount();
     /**
-     * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 536;</code>
+     * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 1205;</code>
      */
     boolean containsBlockInfoMap(
         int key);
@@ -197,60 +197,60 @@ public final class PlayerLoginRspOuterClass {
     java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.BlockInfoOuterClass.BlockInfo>
     getBlockInfoMap();
     /**
-     * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 536;</code>
+     * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 1205;</code>
      */
     java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.BlockInfoOuterClass.BlockInfo>
     getBlockInfoMapMap();
     /**
-     * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 536;</code>
+     * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 1205;</code>
      */
 
     emu.grasscutter.net.proto.BlockInfoOuterClass.BlockInfo getBlockInfoMapOrDefault(
         int key,
         emu.grasscutter.net.proto.BlockInfoOuterClass.BlockInfo defaultValue);
     /**
-     * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 536;</code>
+     * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 1205;</code>
      */
 
     emu.grasscutter.net.proto.BlockInfoOuterClass.BlockInfo getBlockInfoMapOrThrow(
         int key);
 
     /**
-     * <code>bool CGMBIAPFHGE = 592;</code>
+     * <code>bool CGMBIAPFHGE = 1508;</code>
      * @return The cGMBIAPFHGE.
      */
     boolean getCGMBIAPFHGE();
 
     /**
-     * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 631;</code>
+     * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 625;</code>
      */
     java.util.List<emu.grasscutter.net.proto.ShortAbilityHashPairOuterClass.ShortAbilityHashPair> 
         getShortAbilityHashMapList();
     /**
-     * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 631;</code>
+     * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 625;</code>
      */
     emu.grasscutter.net.proto.ShortAbilityHashPairOuterClass.ShortAbilityHashPair getShortAbilityHashMap(int index);
     /**
-     * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 631;</code>
+     * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 625;</code>
      */
     int getShortAbilityHashMapCount();
     /**
-     * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 631;</code>
+     * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 625;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.ShortAbilityHashPairOuterClass.ShortAbilityHashPairOrBuilder> 
         getShortAbilityHashMapOrBuilderList();
     /**
-     * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 631;</code>
+     * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 625;</code>
      */
     emu.grasscutter.net.proto.ShortAbilityHashPairOuterClass.ShortAbilityHashPairOrBuilder getShortAbilityHashMapOrBuilder(
         int index);
 
     /**
-     * <code>map&lt;uint64, .MPGPEKAFHJG&gt; KKNBKGBLHDM = 897;</code>
+     * <code>map&lt;uint64, .MPGPEKAFHJG&gt; KKNBKGBLHDM = 1549;</code>
      */
     int getKKNBKGBLHDMCount();
     /**
-     * <code>map&lt;uint64, .MPGPEKAFHJG&gt; KKNBKGBLHDM = 897;</code>
+     * <code>map&lt;uint64, .MPGPEKAFHJG&gt; KKNBKGBLHDM = 1549;</code>
      */
     boolean containsKKNBKGBLHDM(
         long key);
@@ -261,242 +261,242 @@ public final class PlayerLoginRspOuterClass {
     java.util.Map<java.lang.Long, emu.grasscutter.net.proto.MPGPEKAFHJGOuterClass.MPGPEKAFHJG>
     getKKNBKGBLHDM();
     /**
-     * <code>map&lt;uint64, .MPGPEKAFHJG&gt; KKNBKGBLHDM = 897;</code>
+     * <code>map&lt;uint64, .MPGPEKAFHJG&gt; KKNBKGBLHDM = 1549;</code>
      */
     java.util.Map<java.lang.Long, emu.grasscutter.net.proto.MPGPEKAFHJGOuterClass.MPGPEKAFHJG>
     getKKNBKGBLHDMMap();
     /**
-     * <code>map&lt;uint64, .MPGPEKAFHJG&gt; KKNBKGBLHDM = 897;</code>
+     * <code>map&lt;uint64, .MPGPEKAFHJG&gt; KKNBKGBLHDM = 1549;</code>
      */
 
     emu.grasscutter.net.proto.MPGPEKAFHJGOuterClass.MPGPEKAFHJG getKKNBKGBLHDMOrDefault(
         long key,
         emu.grasscutter.net.proto.MPGPEKAFHJGOuterClass.MPGPEKAFHJG defaultValue);
     /**
-     * <code>map&lt;uint64, .MPGPEKAFHJG&gt; KKNBKGBLHDM = 897;</code>
+     * <code>map&lt;uint64, .MPGPEKAFHJG&gt; KKNBKGBLHDM = 1549;</code>
      */
 
     emu.grasscutter.net.proto.MPGPEKAFHJGOuterClass.MPGPEKAFHJG getKKNBKGBLHDMOrThrow(
         long key);
 
     /**
-     * <code>uint32 AMBIGCMFEIM = 1092;</code>
+     * <code>uint32 AMBIGCMFEIM = 50005;</code>
      * @return The aMBIGCMFEIM.
      */
     int getAMBIGCMFEIM();
 
     /**
-     * <code>.ResVersionConfig res_version_config = 1140;</code>
+     * <code>.ResVersionConfig res_version_config = 1911;</code>
      * @return Whether the resVersionConfig field is set.
      */
     boolean hasResVersionConfig();
     /**
-     * <code>.ResVersionConfig res_version_config = 1140;</code>
+     * <code>.ResVersionConfig res_version_config = 1911;</code>
      * @return The resVersionConfig.
      */
     emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig getResVersionConfig();
     /**
-     * <code>.ResVersionConfig res_version_config = 1140;</code>
+     * <code>.ResVersionConfig res_version_config = 1911;</code>
      */
     emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfigOrBuilder getResVersionConfigOrBuilder();
 
     /**
-     * <code>.StopServerInfo nfachcnjogl = 1201;</code>
+     * <code>.StopServerInfo nfachcnjogl = 50006;</code>
      * @return Whether the nfachcnjogl field is set.
      */
     boolean hasNfachcnjogl();
     /**
-     * <code>.StopServerInfo nfachcnjogl = 1201;</code>
+     * <code>.StopServerInfo nfachcnjogl = 50006;</code>
      * @return The nfachcnjogl.
      */
     emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo getNfachcnjogl();
     /**
-     * <code>.StopServerInfo nfachcnjogl = 1201;</code>
+     * <code>.StopServerInfo nfachcnjogl = 50006;</code>
      */
     emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfoOrBuilder getNfachcnjoglOrBuilder();
 
     /**
-     * <code>string client_silence_version_suffix = 1205;</code>
+     * <code>string client_silence_version_suffix = 50007;</code>
      * @return The clientSilenceVersionSuffix.
      */
     java.lang.String getClientSilenceVersionSuffix();
     /**
-     * <code>string client_silence_version_suffix = 1205;</code>
+     * <code>string client_silence_version_suffix = 50007;</code>
      * @return The bytes for clientSilenceVersionSuffix.
      */
     com.google.protobuf.ByteString
         getClientSilenceVersionSuffixBytes();
 
     /**
-     * <code>bool is_sc_open = 1246;</code>
+     * <code>bool is_sc_open = 50008;</code>
      * @return The isScOpen.
      */
     boolean getIsScOpen();
 
     /**
-     * <code>bool OEMHPIKBDMB = 1297;</code>
+     * <code>bool OEMHPIKBDMB = 50009;</code>
      * @return The oEMHPIKBDMB.
      */
     boolean getOEMHPIKBDMB();
 
     /**
-     * <code>string register_cps = 1303;</code>
+     * <code>string register_cps = 790;</code>
      * @return The registerCps.
      */
     java.lang.String getRegisterCps();
     /**
-     * <code>string register_cps = 1303;</code>
+     * <code>string register_cps = 790;</code>
      * @return The bytes for registerCps.
      */
     com.google.protobuf.ByteString
         getRegisterCpsBytes();
 
     /**
-     * <code>string msg = 1316;</code>
+     * <code>string msg = 1066;</code>
      * @return The msg.
      */
     java.lang.String getMsg();
     /**
-     * <code>string msg = 1316;</code>
+     * <code>string msg = 1066;</code>
      * @return The bytes for msg.
      */
     com.google.protobuf.ByteString
         getMsgBytes();
 
     /**
-     * <code>.FNGEEAFJCDG KJEMCDAJINF = 1333;</code>
+     * <code>.FNGEEAFJCDG KJEMCDAJINF = 21;</code>
      * @return Whether the kJEMCDAJINF field is set.
      */
     boolean hasKJEMCDAJINF();
     /**
-     * <code>.FNGEEAFJCDG KJEMCDAJINF = 1333;</code>
+     * <code>.FNGEEAFJCDG KJEMCDAJINF = 21;</code>
      * @return The kJEMCDAJINF.
      */
     emu.grasscutter.net.proto.FNGEEAFJCDGOuterClass.FNGEEAFJCDG getKJEMCDAJINF();
     /**
-     * <code>.FNGEEAFJCDG KJEMCDAJINF = 1333;</code>
+     * <code>.FNGEEAFJCDG KJEMCDAJINF = 21;</code>
      */
     emu.grasscutter.net.proto.FNGEEAFJCDGOuterClass.FNGEEAFJCDGOrBuilder getKJEMCDAJINFOrBuilder();
 
     /**
-     * <code>string country_code = 1424;</code>
+     * <code>string country_code = 342;</code>
      * @return The countryCode.
      */
     java.lang.String getCountryCode();
     /**
-     * <code>string country_code = 1424;</code>
+     * <code>string country_code = 342;</code>
      * @return The bytes for countryCode.
      */
     com.google.protobuf.ByteString
         getCountryCodeBytes();
 
     /**
-     * <code>bool KLKDKMBAPGA = 1548;</code>
+     * <code>bool KLKDKMBAPGA = 50010;</code>
      * @return The kLKDKMBAPGA.
      */
     boolean getKLKDKMBAPGA();
 
     /**
-     * <code>string next_resource_url = 1556;</code>
+     * <code>string next_resource_url = 55;</code>
      * @return The nextResourceUrl.
      */
     java.lang.String getNextResourceUrl();
     /**
-     * <code>string next_resource_url = 1556;</code>
+     * <code>string next_resource_url = 55;</code>
      * @return The bytes for nextResourceUrl.
      */
     com.google.protobuf.ByteString
         getNextResourceUrlBytes();
 
     /**
-     * <code>string client_md5 = 1570;</code>
+     * <code>string client_md5 = 50011;</code>
      * @return The clientMd5.
      */
     java.lang.String getClientMd5();
     /**
-     * <code>string client_md5 = 1570;</code>
+     * <code>string client_md5 = 50011;</code>
      * @return The bytes for clientMd5.
      */
     com.google.protobuf.ByteString
         getClientMd5Bytes();
 
     /**
-     * <code>.NGKOPBGLDJM LPFKKMMLFOP = 1651;</code>
+     * <code>.NGKOPBGLDJM LPFKKMMLFOP = 368;</code>
      * @return Whether the lPFKKMMLFOP field is set.
      */
     boolean hasLPFKKMMLFOP();
     /**
-     * <code>.NGKOPBGLDJM LPFKKMMLFOP = 1651;</code>
+     * <code>.NGKOPBGLDJM LPFKKMMLFOP = 368;</code>
      * @return The lPFKKMMLFOP.
      */
     emu.grasscutter.net.proto.NGKOPBGLDJMOuterClass.NGKOPBGLDJM getLPFKKMMLFOP();
     /**
-     * <code>.NGKOPBGLDJM LPFKKMMLFOP = 1651;</code>
+     * <code>.NGKOPBGLDJM LPFKKMMLFOP = 368;</code>
      */
     emu.grasscutter.net.proto.NGKOPBGLDJMOuterClass.NGKOPBGLDJMOrBuilder getLPFKKMMLFOPOrBuilder();
 
     /**
-     * <code>uint32 ALMPHOAOJEC = 1744;</code>
+     * <code>uint32 ALMPHOAOJEC = 1123;</code>
      * @return The aLMPHOAOJEC.
      */
     int getALMPHOAOJEC();
 
     /**
-     * <code>bool is_audit = 1763;</code>
+     * <code>bool is_audit = 1329;</code>
      * @return The isAudit.
      */
     boolean getIsAudit();
 
     /**
-     * <code>repeated .FeatureBlockInfo feature_block_info_list = 1786;</code>
+     * <code>repeated .FeatureBlockInfo feature_block_info_list = 50012;</code>
      */
     java.util.List<emu.grasscutter.net.proto.FeatureBlockInfoOuterClass.FeatureBlockInfo> 
         getFeatureBlockInfoListList();
     /**
-     * <code>repeated .FeatureBlockInfo feature_block_info_list = 1786;</code>
+     * <code>repeated .FeatureBlockInfo feature_block_info_list = 50012;</code>
      */
     emu.grasscutter.net.proto.FeatureBlockInfoOuterClass.FeatureBlockInfo getFeatureBlockInfoList(int index);
     /**
-     * <code>repeated .FeatureBlockInfo feature_block_info_list = 1786;</code>
+     * <code>repeated .FeatureBlockInfo feature_block_info_list = 50012;</code>
      */
     int getFeatureBlockInfoListCount();
     /**
-     * <code>repeated .FeatureBlockInfo feature_block_info_list = 1786;</code>
+     * <code>repeated .FeatureBlockInfo feature_block_info_list = 50012;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.FeatureBlockInfoOuterClass.FeatureBlockInfoOrBuilder> 
         getFeatureBlockInfoListOrBuilderList();
     /**
-     * <code>repeated .FeatureBlockInfo feature_block_info_list = 1786;</code>
+     * <code>repeated .FeatureBlockInfo feature_block_info_list = 50012;</code>
      */
     emu.grasscutter.net.proto.FeatureBlockInfoOuterClass.FeatureBlockInfoOrBuilder getFeatureBlockInfoListOrBuilder(
         int index);
 
     /**
-     * <code>double total_tick_time = 1911;</code>
+     * <code>double total_tick_time = 755;</code>
      * @return The totalTickTime.
      */
     double getTotalTickTime();
 
     /**
-     * <code>uint32 platform_type = 1967;</code>
+     * <code>uint32 platform_type = 492;</code>
      * @return The platformType.
      */
     int getPlatformType();
 
     /**
-     * <code>string client_silence_md5 = 1974;</code>
+     * <code>string client_silence_md5 = 50013;</code>
      * @return The clientSilenceMd5.
      */
     java.lang.String getClientSilenceMd5();
     /**
-     * <code>string client_silence_md5 = 1974;</code>
+     * <code>string client_silence_md5 = 50013;</code>
      * @return The bytes for clientSilenceMd5.
      */
     com.google.protobuf.ByteString
         getClientSilenceMd5Bytes();
 
     /**
-     * <code>bool MBPNFGLAJOG = 1986;</code>
+     * <code>bool MBPNFGLAJOG = 653;</code>
      * @return The mBPNFGLAJOG.
      */
     boolean getMBPNFGLAJOG();
@@ -561,27 +561,22 @@ public final class PlayerLoginRspOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 26: {
 
-              isRelogin_ = input.readBool();
-              break;
-            }
-            case 16: {
-
-              gHAJDNKLEDA_ = input.readBool();
-              break;
-            }
-            case 24: {
-
-              ohmigaflnid_ = input.readUInt32();
+              playerData_ = input.readBytes();
               break;
             }
             case 32: {
 
+              targetUid_ = input.readUInt32();
+              break;
+            }
+            case 56: {
+
               loginRand_ = input.readUInt64();
               break;
             }
-            case 42: {
+            case 66: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 abilityHashMap_ = com.google.protobuf.MapField.newMapField(
                     AbilityHashMapDefaultEntryHolder.defaultEntry);
@@ -594,182 +589,38 @@ public final class PlayerLoginRspOuterClass {
                   abilityHashMap__.getKey(), abilityHashMap__.getValue());
               break;
             }
-            case 50: {
+            case 72: {
+
+              retcode_ = input.readInt32();
+              break;
+            }
+            case 80: {
+
+              abilityHashCode_ = input.readInt32();
+              break;
+            }
+            case 90: {
               java.lang.String s = input.readStringRequireUtf8();
 
               gameBiz_ = s;
               break;
             }
-            case 56: {
-
-              isUseAbilityHash_ = input.readBool();
-              break;
-            }
-            case 64: {
+            case 104: {
 
               clientDataVersion_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 112: {
 
-              clientSilenceDataVersion_ = input.readUInt32();
-              break;
-            }
-            case 88: {
-
-              targetUid_ = input.readUInt32();
-              break;
-            }
-            case 104: {
-
-              abilityHashCode_ = input.readInt32();
-              break;
-            }
-            case 114: {
-
-              playerData_ = input.readBytes();
+              isRelogin_ = input.readBool();
               break;
             }
             case 120: {
 
-              retcode_ = input.readInt32();
+              clientSilenceDataVersion_ = input.readUInt32();
               break;
             }
-            case 320: {
-
-              gICKBBGJGCK_ = input.readBool();
-              break;
-            }
-            case 458: {
-
-              scInfo_ = input.readBytes();
-              break;
-            }
-            case 562: {
-              java.lang.String s = input.readStringRequireUtf8();
-
-              clientVersionSuffix_ = s;
-              break;
-            }
-            case 1450: {
-              emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.Builder subBuilder = null;
-              if (nextResVersionConfig_ != null) {
-                subBuilder = nextResVersionConfig_.toBuilder();
-              }
-              nextResVersionConfig_ = input.readMessage(emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(nextResVersionConfig_);
-                nextResVersionConfig_ = subBuilder.buildPartial();
-              }
-
-              break;
-            }
-            case 3874: {
-              java.lang.String s = input.readStringRequireUtf8();
-
-              birthday_ = s;
-              break;
-            }
-            case 4290: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                blockInfoMap_ = com.google.protobuf.MapField.newMapField(
-                    BlockInfoMapDefaultEntryHolder.defaultEntry);
-                mutable_bitField0_ |= 0x00000002;
-              }
-              com.google.protobuf.MapEntry<java.lang.Integer, emu.grasscutter.net.proto.BlockInfoOuterClass.BlockInfo>
-              blockInfoMap__ = input.readMessage(
-                  BlockInfoMapDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
-              blockInfoMap_.getMutableMap().put(
-                  blockInfoMap__.getKey(), blockInfoMap__.getValue());
-              break;
-            }
-            case 4736: {
-
-              cGMBIAPFHGE_ = input.readBool();
-              break;
-            }
-            case 5050: {
-              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
-                shortAbilityHashMap_ = new java.util.ArrayList<emu.grasscutter.net.proto.ShortAbilityHashPairOuterClass.ShortAbilityHashPair>();
-                mutable_bitField0_ |= 0x00000004;
-              }
-              shortAbilityHashMap_.add(
-                  input.readMessage(emu.grasscutter.net.proto.ShortAbilityHashPairOuterClass.ShortAbilityHashPair.parser(), extensionRegistry));
-              break;
-            }
-            case 7178: {
-              if (!((mutable_bitField0_ & 0x00000008) != 0)) {
-                kKNBKGBLHDM_ = com.google.protobuf.MapField.newMapField(
-                    KKNBKGBLHDMDefaultEntryHolder.defaultEntry);
-                mutable_bitField0_ |= 0x00000008;
-              }
-              com.google.protobuf.MapEntry<java.lang.Long, emu.grasscutter.net.proto.MPGPEKAFHJGOuterClass.MPGPEKAFHJG>
-              kKNBKGBLHDM__ = input.readMessage(
-                  KKNBKGBLHDMDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
-              kKNBKGBLHDM_.getMutableMap().put(
-                  kKNBKGBLHDM__.getKey(), kKNBKGBLHDM__.getValue());
-              break;
-            }
-            case 8736: {
-
-              aMBIGCMFEIM_ = input.readUInt32();
-              break;
-            }
-            case 9122: {
-              emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.Builder subBuilder = null;
-              if (resVersionConfig_ != null) {
-                subBuilder = resVersionConfig_.toBuilder();
-              }
-              resVersionConfig_ = input.readMessage(emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(resVersionConfig_);
-                resVersionConfig_ = subBuilder.buildPartial();
-              }
-
-              break;
-            }
-            case 9610: {
-              emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.Builder subBuilder = null;
-              if (nfachcnjogl_ != null) {
-                subBuilder = nfachcnjogl_.toBuilder();
-              }
-              nfachcnjogl_ = input.readMessage(emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(nfachcnjogl_);
-                nfachcnjogl_ = subBuilder.buildPartial();
-              }
-
-              break;
-            }
-            case 9642: {
-              java.lang.String s = input.readStringRequireUtf8();
-
-              clientSilenceVersionSuffix_ = s;
-              break;
-            }
-            case 9968: {
-
-              isScOpen_ = input.readBool();
-              break;
-            }
-            case 10376: {
-
-              oEMHPIKBDMB_ = input.readBool();
-              break;
-            }
-            case 10426: {
-              java.lang.String s = input.readStringRequireUtf8();
-
-              registerCps_ = s;
-              break;
-            }
-            case 10530: {
-              java.lang.String s = input.readStringRequireUtf8();
-
-              msg_ = s;
-              break;
-            }
-            case 10666: {
+            case 170: {
               emu.grasscutter.net.proto.FNGEEAFJCDGOuterClass.FNGEEAFJCDG.Builder subBuilder = null;
               if (kJEMCDAJINF_ != null) {
                 subBuilder = kJEMCDAJINF_.toBuilder();
@@ -782,30 +633,19 @@ public final class PlayerLoginRspOuterClass {
 
               break;
             }
-            case 11394: {
-              java.lang.String s = input.readStringRequireUtf8();
-
-              countryCode_ = s;
-              break;
-            }
-            case 12384: {
-
-              kLKDKMBAPGA_ = input.readBool();
-              break;
-            }
-            case 12450: {
+            case 442: {
               java.lang.String s = input.readStringRequireUtf8();
 
               nextResourceUrl_ = s;
               break;
             }
-            case 12562: {
+            case 2738: {
               java.lang.String s = input.readStringRequireUtf8();
 
-              clientMd5_ = s;
+              countryCode_ = s;
               break;
             }
-            case 13210: {
+            case 2946: {
               emu.grasscutter.net.proto.NGKOPBGLDJMOuterClass.NGKOPBGLDJM.Builder subBuilder = null;
               if (lPFKKMMLFOP_ != null) {
                 subBuilder = lPFKKMMLFOP_.toBuilder();
@@ -818,17 +658,192 @@ public final class PlayerLoginRspOuterClass {
 
               break;
             }
-            case 13952: {
+            case 3936: {
+
+              platformType_ = input.readUInt32();
+              break;
+            }
+            case 5002: {
+              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
+                shortAbilityHashMap_ = new java.util.ArrayList<emu.grasscutter.net.proto.ShortAbilityHashPairOuterClass.ShortAbilityHashPair>();
+                mutable_bitField0_ |= 0x00000004;
+              }
+              shortAbilityHashMap_.add(
+                  input.readMessage(emu.grasscutter.net.proto.ShortAbilityHashPairOuterClass.ShortAbilityHashPair.parser(), extensionRegistry));
+              break;
+            }
+            case 5224: {
+
+              mBPNFGLAJOG_ = input.readBool();
+              break;
+            }
+            case 6041: {
+
+              totalTickTime_ = input.readDouble();
+              break;
+            }
+            case 6322: {
+              java.lang.String s = input.readStringRequireUtf8();
+
+              registerCps_ = s;
+              break;
+            }
+            case 8530: {
+              java.lang.String s = input.readStringRequireUtf8();
+
+              msg_ = s;
+              break;
+            }
+            case 8984: {
 
               aLMPHOAOJEC_ = input.readUInt32();
               break;
             }
-            case 14104: {
+            case 9642: {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                blockInfoMap_ = com.google.protobuf.MapField.newMapField(
+                    BlockInfoMapDefaultEntryHolder.defaultEntry);
+                mutable_bitField0_ |= 0x00000002;
+              }
+              com.google.protobuf.MapEntry<java.lang.Integer, emu.grasscutter.net.proto.BlockInfoOuterClass.BlockInfo>
+              blockInfoMap__ = input.readMessage(
+                  BlockInfoMapDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
+              blockInfoMap_.getMutableMap().put(
+                  blockInfoMap__.getKey(), blockInfoMap__.getValue());
+              break;
+            }
+            case 10498: {
+              java.lang.String s = input.readStringRequireUtf8();
+
+              birthday_ = s;
+              break;
+            }
+            case 10632: {
 
               isAudit_ = input.readBool();
               break;
             }
-            case 14290: {
+            case 12064: {
+
+              cGMBIAPFHGE_ = input.readBool();
+              break;
+            }
+            case 12394: {
+              if (!((mutable_bitField0_ & 0x00000008) != 0)) {
+                kKNBKGBLHDM_ = com.google.protobuf.MapField.newMapField(
+                    KKNBKGBLHDMDefaultEntryHolder.defaultEntry);
+                mutable_bitField0_ |= 0x00000008;
+              }
+              com.google.protobuf.MapEntry<java.lang.Long, emu.grasscutter.net.proto.MPGPEKAFHJGOuterClass.MPGPEKAFHJG>
+              kKNBKGBLHDM__ = input.readMessage(
+                  KKNBKGBLHDMDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
+              kKNBKGBLHDM_.getMutableMap().put(
+                  kKNBKGBLHDM__.getKey(), kKNBKGBLHDM__.getValue());
+              break;
+            }
+            case 13946: {
+
+              scInfo_ = input.readBytes();
+              break;
+            }
+            case 15290: {
+              emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.Builder subBuilder = null;
+              if (resVersionConfig_ != null) {
+                subBuilder = resVersionConfig_.toBuilder();
+              }
+              resVersionConfig_ = input.readMessage(emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(resVersionConfig_);
+                resVersionConfig_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 15874: {
+              emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.Builder subBuilder = null;
+              if (nextResVersionConfig_ != null) {
+                subBuilder = nextResVersionConfig_.toBuilder();
+              }
+              nextResVersionConfig_ = input.readMessage(emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(nextResVersionConfig_);
+                nextResVersionConfig_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 400000: {
+
+              gHAJDNKLEDA_ = input.readBool();
+              break;
+            }
+            case 400008: {
+
+              ohmigaflnid_ = input.readUInt32();
+              break;
+            }
+            case 400016: {
+
+              isUseAbilityHash_ = input.readBool();
+              break;
+            }
+            case 400024: {
+
+              gICKBBGJGCK_ = input.readBool();
+              break;
+            }
+            case 400034: {
+              java.lang.String s = input.readStringRequireUtf8();
+
+              clientVersionSuffix_ = s;
+              break;
+            }
+            case 400040: {
+
+              aMBIGCMFEIM_ = input.readUInt32();
+              break;
+            }
+            case 400050: {
+              emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.Builder subBuilder = null;
+              if (nfachcnjogl_ != null) {
+                subBuilder = nfachcnjogl_.toBuilder();
+              }
+              nfachcnjogl_ = input.readMessage(emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(nfachcnjogl_);
+                nfachcnjogl_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 400058: {
+              java.lang.String s = input.readStringRequireUtf8();
+
+              clientSilenceVersionSuffix_ = s;
+              break;
+            }
+            case 400064: {
+
+              isScOpen_ = input.readBool();
+              break;
+            }
+            case 400072: {
+
+              oEMHPIKBDMB_ = input.readBool();
+              break;
+            }
+            case 400080: {
+
+              kLKDKMBAPGA_ = input.readBool();
+              break;
+            }
+            case 400090: {
+              java.lang.String s = input.readStringRequireUtf8();
+
+              clientMd5_ = s;
+              break;
+            }
+            case 400098: {
               if (!((mutable_bitField0_ & 0x00000010) != 0)) {
                 featureBlockInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.FeatureBlockInfoOuterClass.FeatureBlockInfo>();
                 mutable_bitField0_ |= 0x00000010;
@@ -837,25 +852,10 @@ public final class PlayerLoginRspOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.FeatureBlockInfoOuterClass.FeatureBlockInfo.parser(), extensionRegistry));
               break;
             }
-            case 15289: {
-
-              totalTickTime_ = input.readDouble();
-              break;
-            }
-            case 15736: {
-
-              platformType_ = input.readUInt32();
-              break;
-            }
-            case 15794: {
+            case 400106: {
               java.lang.String s = input.readStringRequireUtf8();
 
               clientSilenceMd5_ = s;
-              break;
-            }
-            case 15888: {
-
-              mBPNFGLAJOG_ = input.readBool();
               break;
             }
             default: {
@@ -893,11 +893,11 @@ public final class PlayerLoginRspOuterClass {
     protected com.google.protobuf.MapField internalGetMapField(
         int number) {
       switch (number) {
-        case 5:
+        case 8:
           return internalGetAbilityHashMap();
-        case 536:
+        case 1205:
           return internalGetBlockInfoMap();
-        case 897:
+        case 1549:
           return internalGetKKNBKGBLHDM();
         default:
           throw new RuntimeException(
@@ -912,10 +912,10 @@ public final class PlayerLoginRspOuterClass {
               emu.grasscutter.net.proto.PlayerLoginRspOuterClass.PlayerLoginRsp.class, emu.grasscutter.net.proto.PlayerLoginRspOuterClass.PlayerLoginRsp.Builder.class);
     }
 
-    public static final int IS_RELOGIN_FIELD_NUMBER = 1;
+    public static final int IS_RELOGIN_FIELD_NUMBER = 14;
     private boolean isRelogin_;
     /**
-     * <code>bool is_relogin = 1;</code>
+     * <code>bool is_relogin = 14;</code>
      * @return The isRelogin.
      */
     @java.lang.Override
@@ -923,10 +923,10 @@ public final class PlayerLoginRspOuterClass {
       return isRelogin_;
     }
 
-    public static final int GHAJDNKLEDA_FIELD_NUMBER = 2;
+    public static final int GHAJDNKLEDA_FIELD_NUMBER = 50000;
     private boolean gHAJDNKLEDA_;
     /**
-     * <code>bool GHAJDNKLEDA = 2;</code>
+     * <code>bool GHAJDNKLEDA = 50000;</code>
      * @return The gHAJDNKLEDA.
      */
     @java.lang.Override
@@ -934,10 +934,10 @@ public final class PlayerLoginRspOuterClass {
       return gHAJDNKLEDA_;
     }
 
-    public static final int OHMIGAFLNID_FIELD_NUMBER = 3;
+    public static final int OHMIGAFLNID_FIELD_NUMBER = 50001;
     private int ohmigaflnid_;
     /**
-     * <code>uint32 ohmigaflnid = 3;</code>
+     * <code>uint32 ohmigaflnid = 50001;</code>
      * @return The ohmigaflnid.
      */
     @java.lang.Override
@@ -945,10 +945,10 @@ public final class PlayerLoginRspOuterClass {
       return ohmigaflnid_;
     }
 
-    public static final int LOGIN_RAND_FIELD_NUMBER = 4;
+    public static final int LOGIN_RAND_FIELD_NUMBER = 7;
     private long loginRand_;
     /**
-     * <code>uint64 login_rand = 4;</code>
+     * <code>uint64 login_rand = 7;</code>
      * @return The loginRand.
      */
     @java.lang.Override
@@ -956,7 +956,7 @@ public final class PlayerLoginRspOuterClass {
       return loginRand_;
     }
 
-    public static final int ABILITY_HASH_MAP_FIELD_NUMBER = 5;
+    public static final int ABILITY_HASH_MAP_FIELD_NUMBER = 8;
     private static final class AbilityHashMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.String, java.lang.Integer> defaultEntry =
@@ -983,7 +983,7 @@ public final class PlayerLoginRspOuterClass {
       return internalGetAbilityHashMap().getMap().size();
     }
     /**
-     * <code>map&lt;string, int32&gt; ability_hash_map = 5;</code>
+     * <code>map&lt;string, int32&gt; ability_hash_map = 8;</code>
      */
 
     @java.lang.Override
@@ -1001,7 +1001,7 @@ public final class PlayerLoginRspOuterClass {
       return getAbilityHashMapMap();
     }
     /**
-     * <code>map&lt;string, int32&gt; ability_hash_map = 5;</code>
+     * <code>map&lt;string, int32&gt; ability_hash_map = 8;</code>
      */
     @java.lang.Override
 
@@ -1009,7 +1009,7 @@ public final class PlayerLoginRspOuterClass {
       return internalGetAbilityHashMap().getMap();
     }
     /**
-     * <code>map&lt;string, int32&gt; ability_hash_map = 5;</code>
+     * <code>map&lt;string, int32&gt; ability_hash_map = 8;</code>
      */
     @java.lang.Override
 
@@ -1022,7 +1022,7 @@ public final class PlayerLoginRspOuterClass {
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
     /**
-     * <code>map&lt;string, int32&gt; ability_hash_map = 5;</code>
+     * <code>map&lt;string, int32&gt; ability_hash_map = 8;</code>
      */
     @java.lang.Override
 
@@ -1037,10 +1037,10 @@ public final class PlayerLoginRspOuterClass {
       return map.get(key);
     }
 
-    public static final int GAME_BIZ_FIELD_NUMBER = 6;
+    public static final int GAME_BIZ_FIELD_NUMBER = 11;
     private volatile java.lang.Object gameBiz_;
     /**
-     * <code>string game_biz = 6;</code>
+     * <code>string game_biz = 11;</code>
      * @return The gameBiz.
      */
     @java.lang.Override
@@ -1057,7 +1057,7 @@ public final class PlayerLoginRspOuterClass {
       }
     }
     /**
-     * <code>string game_biz = 6;</code>
+     * <code>string game_biz = 11;</code>
      * @return The bytes for gameBiz.
      */
     @java.lang.Override
@@ -1075,10 +1075,10 @@ public final class PlayerLoginRspOuterClass {
       }
     }
 
-    public static final int IS_USE_ABILITY_HASH_FIELD_NUMBER = 7;
+    public static final int IS_USE_ABILITY_HASH_FIELD_NUMBER = 50002;
     private boolean isUseAbilityHash_;
     /**
-     * <code>bool is_use_ability_hash = 7;</code>
+     * <code>bool is_use_ability_hash = 50002;</code>
      * @return The isUseAbilityHash.
      */
     @java.lang.Override
@@ -1086,10 +1086,10 @@ public final class PlayerLoginRspOuterClass {
       return isUseAbilityHash_;
     }
 
-    public static final int CLIENT_DATA_VERSION_FIELD_NUMBER = 8;
+    public static final int CLIENT_DATA_VERSION_FIELD_NUMBER = 13;
     private int clientDataVersion_;
     /**
-     * <code>uint32 client_data_version = 8;</code>
+     * <code>uint32 client_data_version = 13;</code>
      * @return The clientDataVersion.
      */
     @java.lang.Override
@@ -1097,10 +1097,10 @@ public final class PlayerLoginRspOuterClass {
       return clientDataVersion_;
     }
 
-    public static final int CLIENT_SILENCE_DATA_VERSION_FIELD_NUMBER = 9;
+    public static final int CLIENT_SILENCE_DATA_VERSION_FIELD_NUMBER = 15;
     private int clientSilenceDataVersion_;
     /**
-     * <code>uint32 client_silence_data_version = 9;</code>
+     * <code>uint32 client_silence_data_version = 15;</code>
      * @return The clientSilenceDataVersion.
      */
     @java.lang.Override
@@ -1108,10 +1108,10 @@ public final class PlayerLoginRspOuterClass {
       return clientSilenceDataVersion_;
     }
 
-    public static final int TARGET_UID_FIELD_NUMBER = 11;
+    public static final int TARGET_UID_FIELD_NUMBER = 4;
     private int targetUid_;
     /**
-     * <code>uint32 target_uid = 11;</code>
+     * <code>uint32 target_uid = 4;</code>
      * @return The targetUid.
      */
     @java.lang.Override
@@ -1119,10 +1119,10 @@ public final class PlayerLoginRspOuterClass {
       return targetUid_;
     }
 
-    public static final int ABILITY_HASH_CODE_FIELD_NUMBER = 13;
+    public static final int ABILITY_HASH_CODE_FIELD_NUMBER = 10;
     private int abilityHashCode_;
     /**
-     * <code>int32 ability_hash_code = 13;</code>
+     * <code>int32 ability_hash_code = 10;</code>
      * @return The abilityHashCode.
      */
     @java.lang.Override
@@ -1130,10 +1130,10 @@ public final class PlayerLoginRspOuterClass {
       return abilityHashCode_;
     }
 
-    public static final int PLAYER_DATA_FIELD_NUMBER = 14;
+    public static final int PLAYER_DATA_FIELD_NUMBER = 3;
     private com.google.protobuf.ByteString playerData_;
     /**
-     * <code>bytes player_data = 14;</code>
+     * <code>bytes player_data = 3;</code>
      * @return The playerData.
      */
     @java.lang.Override
@@ -1141,10 +1141,10 @@ public final class PlayerLoginRspOuterClass {
       return playerData_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 15;
+    public static final int RETCODE_FIELD_NUMBER = 9;
     private int retcode_;
     /**
-     * <code>int32 retcode = 15;</code>
+     * <code>int32 retcode = 9;</code>
      * @return The retcode.
      */
     @java.lang.Override
@@ -1152,10 +1152,10 @@ public final class PlayerLoginRspOuterClass {
       return retcode_;
     }
 
-    public static final int GICKBBGJGCK_FIELD_NUMBER = 40;
+    public static final int GICKBBGJGCK_FIELD_NUMBER = 50003;
     private boolean gICKBBGJGCK_;
     /**
-     * <code>bool GICKBBGJGCK = 40;</code>
+     * <code>bool GICKBBGJGCK = 50003;</code>
      * @return The gICKBBGJGCK.
      */
     @java.lang.Override
@@ -1163,10 +1163,10 @@ public final class PlayerLoginRspOuterClass {
       return gICKBBGJGCK_;
     }
 
-    public static final int SC_INFO_FIELD_NUMBER = 57;
+    public static final int SC_INFO_FIELD_NUMBER = 1743;
     private com.google.protobuf.ByteString scInfo_;
     /**
-     * <code>bytes sc_info = 57;</code>
+     * <code>bytes sc_info = 1743;</code>
      * @return The scInfo.
      */
     @java.lang.Override
@@ -1174,10 +1174,10 @@ public final class PlayerLoginRspOuterClass {
       return scInfo_;
     }
 
-    public static final int CLIENT_VERSION_SUFFIX_FIELD_NUMBER = 70;
+    public static final int CLIENT_VERSION_SUFFIX_FIELD_NUMBER = 50004;
     private volatile java.lang.Object clientVersionSuffix_;
     /**
-     * <code>string client_version_suffix = 70;</code>
+     * <code>string client_version_suffix = 50004;</code>
      * @return The clientVersionSuffix.
      */
     @java.lang.Override
@@ -1194,7 +1194,7 @@ public final class PlayerLoginRspOuterClass {
       }
     }
     /**
-     * <code>string client_version_suffix = 70;</code>
+     * <code>string client_version_suffix = 50004;</code>
      * @return The bytes for clientVersionSuffix.
      */
     @java.lang.Override
@@ -1212,10 +1212,10 @@ public final class PlayerLoginRspOuterClass {
       }
     }
 
-    public static final int NEXT_RES_VERSION_CONFIG_FIELD_NUMBER = 181;
+    public static final int NEXT_RES_VERSION_CONFIG_FIELD_NUMBER = 1984;
     private emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig nextResVersionConfig_;
     /**
-     * <code>.ResVersionConfig next_res_version_config = 181;</code>
+     * <code>.ResVersionConfig next_res_version_config = 1984;</code>
      * @return Whether the nextResVersionConfig field is set.
      */
     @java.lang.Override
@@ -1223,7 +1223,7 @@ public final class PlayerLoginRspOuterClass {
       return nextResVersionConfig_ != null;
     }
     /**
-     * <code>.ResVersionConfig next_res_version_config = 181;</code>
+     * <code>.ResVersionConfig next_res_version_config = 1984;</code>
      * @return The nextResVersionConfig.
      */
     @java.lang.Override
@@ -1231,17 +1231,17 @@ public final class PlayerLoginRspOuterClass {
       return nextResVersionConfig_ == null ? emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.getDefaultInstance() : nextResVersionConfig_;
     }
     /**
-     * <code>.ResVersionConfig next_res_version_config = 181;</code>
+     * <code>.ResVersionConfig next_res_version_config = 1984;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfigOrBuilder getNextResVersionConfigOrBuilder() {
       return getNextResVersionConfig();
     }
 
-    public static final int BIRTHDAY_FIELD_NUMBER = 484;
+    public static final int BIRTHDAY_FIELD_NUMBER = 1312;
     private volatile java.lang.Object birthday_;
     /**
-     * <code>string birthday = 484;</code>
+     * <code>string birthday = 1312;</code>
      * @return The birthday.
      */
     @java.lang.Override
@@ -1258,7 +1258,7 @@ public final class PlayerLoginRspOuterClass {
       }
     }
     /**
-     * <code>string birthday = 484;</code>
+     * <code>string birthday = 1312;</code>
      * @return The bytes for birthday.
      */
     @java.lang.Override
@@ -1276,7 +1276,7 @@ public final class PlayerLoginRspOuterClass {
       }
     }
 
-    public static final int BLOCK_INFO_MAP_FIELD_NUMBER = 536;
+    public static final int BLOCK_INFO_MAP_FIELD_NUMBER = 1205;
     private static final class BlockInfoMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, emu.grasscutter.net.proto.BlockInfoOuterClass.BlockInfo> defaultEntry =
@@ -1303,7 +1303,7 @@ public final class PlayerLoginRspOuterClass {
       return internalGetBlockInfoMap().getMap().size();
     }
     /**
-     * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 536;</code>
+     * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 1205;</code>
      */
 
     @java.lang.Override
@@ -1321,7 +1321,7 @@ public final class PlayerLoginRspOuterClass {
       return getBlockInfoMapMap();
     }
     /**
-     * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 536;</code>
+     * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 1205;</code>
      */
     @java.lang.Override
 
@@ -1329,7 +1329,7 @@ public final class PlayerLoginRspOuterClass {
       return internalGetBlockInfoMap().getMap();
     }
     /**
-     * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 536;</code>
+     * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 1205;</code>
      */
     @java.lang.Override
 
@@ -1342,7 +1342,7 @@ public final class PlayerLoginRspOuterClass {
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
     /**
-     * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 536;</code>
+     * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 1205;</code>
      */
     @java.lang.Override
 
@@ -1357,10 +1357,10 @@ public final class PlayerLoginRspOuterClass {
       return map.get(key);
     }
 
-    public static final int CGMBIAPFHGE_FIELD_NUMBER = 592;
+    public static final int CGMBIAPFHGE_FIELD_NUMBER = 1508;
     private boolean cGMBIAPFHGE_;
     /**
-     * <code>bool CGMBIAPFHGE = 592;</code>
+     * <code>bool CGMBIAPFHGE = 1508;</code>
      * @return The cGMBIAPFHGE.
      */
     @java.lang.Override
@@ -1368,17 +1368,17 @@ public final class PlayerLoginRspOuterClass {
       return cGMBIAPFHGE_;
     }
 
-    public static final int SHORT_ABILITY_HASH_MAP_FIELD_NUMBER = 631;
+    public static final int SHORT_ABILITY_HASH_MAP_FIELD_NUMBER = 625;
     private java.util.List<emu.grasscutter.net.proto.ShortAbilityHashPairOuterClass.ShortAbilityHashPair> shortAbilityHashMap_;
     /**
-     * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 631;</code>
+     * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 625;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.ShortAbilityHashPairOuterClass.ShortAbilityHashPair> getShortAbilityHashMapList() {
       return shortAbilityHashMap_;
     }
     /**
-     * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 631;</code>
+     * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 625;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.ShortAbilityHashPairOuterClass.ShortAbilityHashPairOrBuilder> 
@@ -1386,21 +1386,21 @@ public final class PlayerLoginRspOuterClass {
       return shortAbilityHashMap_;
     }
     /**
-     * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 631;</code>
+     * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 625;</code>
      */
     @java.lang.Override
     public int getShortAbilityHashMapCount() {
       return shortAbilityHashMap_.size();
     }
     /**
-     * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 631;</code>
+     * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 625;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ShortAbilityHashPairOuterClass.ShortAbilityHashPair getShortAbilityHashMap(int index) {
       return shortAbilityHashMap_.get(index);
     }
     /**
-     * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 631;</code>
+     * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 625;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ShortAbilityHashPairOuterClass.ShortAbilityHashPairOrBuilder getShortAbilityHashMapOrBuilder(
@@ -1408,7 +1408,7 @@ public final class PlayerLoginRspOuterClass {
       return shortAbilityHashMap_.get(index);
     }
 
-    public static final int KKNBKGBLHDM_FIELD_NUMBER = 897;
+    public static final int KKNBKGBLHDM_FIELD_NUMBER = 1549;
     private static final class KKNBKGBLHDMDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Long, emu.grasscutter.net.proto.MPGPEKAFHJGOuterClass.MPGPEKAFHJG> defaultEntry =
@@ -1435,7 +1435,7 @@ public final class PlayerLoginRspOuterClass {
       return internalGetKKNBKGBLHDM().getMap().size();
     }
     /**
-     * <code>map&lt;uint64, .MPGPEKAFHJG&gt; KKNBKGBLHDM = 897;</code>
+     * <code>map&lt;uint64, .MPGPEKAFHJG&gt; KKNBKGBLHDM = 1549;</code>
      */
 
     @java.lang.Override
@@ -1453,7 +1453,7 @@ public final class PlayerLoginRspOuterClass {
       return getKKNBKGBLHDMMap();
     }
     /**
-     * <code>map&lt;uint64, .MPGPEKAFHJG&gt; KKNBKGBLHDM = 897;</code>
+     * <code>map&lt;uint64, .MPGPEKAFHJG&gt; KKNBKGBLHDM = 1549;</code>
      */
     @java.lang.Override
 
@@ -1461,7 +1461,7 @@ public final class PlayerLoginRspOuterClass {
       return internalGetKKNBKGBLHDM().getMap();
     }
     /**
-     * <code>map&lt;uint64, .MPGPEKAFHJG&gt; KKNBKGBLHDM = 897;</code>
+     * <code>map&lt;uint64, .MPGPEKAFHJG&gt; KKNBKGBLHDM = 1549;</code>
      */
     @java.lang.Override
 
@@ -1474,7 +1474,7 @@ public final class PlayerLoginRspOuterClass {
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
     /**
-     * <code>map&lt;uint64, .MPGPEKAFHJG&gt; KKNBKGBLHDM = 897;</code>
+     * <code>map&lt;uint64, .MPGPEKAFHJG&gt; KKNBKGBLHDM = 1549;</code>
      */
     @java.lang.Override
 
@@ -1489,10 +1489,10 @@ public final class PlayerLoginRspOuterClass {
       return map.get(key);
     }
 
-    public static final int AMBIGCMFEIM_FIELD_NUMBER = 1092;
+    public static final int AMBIGCMFEIM_FIELD_NUMBER = 50005;
     private int aMBIGCMFEIM_;
     /**
-     * <code>uint32 AMBIGCMFEIM = 1092;</code>
+     * <code>uint32 AMBIGCMFEIM = 50005;</code>
      * @return The aMBIGCMFEIM.
      */
     @java.lang.Override
@@ -1500,10 +1500,10 @@ public final class PlayerLoginRspOuterClass {
       return aMBIGCMFEIM_;
     }
 
-    public static final int RES_VERSION_CONFIG_FIELD_NUMBER = 1140;
+    public static final int RES_VERSION_CONFIG_FIELD_NUMBER = 1911;
     private emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig resVersionConfig_;
     /**
-     * <code>.ResVersionConfig res_version_config = 1140;</code>
+     * <code>.ResVersionConfig res_version_config = 1911;</code>
      * @return Whether the resVersionConfig field is set.
      */
     @java.lang.Override
@@ -1511,7 +1511,7 @@ public final class PlayerLoginRspOuterClass {
       return resVersionConfig_ != null;
     }
     /**
-     * <code>.ResVersionConfig res_version_config = 1140;</code>
+     * <code>.ResVersionConfig res_version_config = 1911;</code>
      * @return The resVersionConfig.
      */
     @java.lang.Override
@@ -1519,17 +1519,17 @@ public final class PlayerLoginRspOuterClass {
       return resVersionConfig_ == null ? emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.getDefaultInstance() : resVersionConfig_;
     }
     /**
-     * <code>.ResVersionConfig res_version_config = 1140;</code>
+     * <code>.ResVersionConfig res_version_config = 1911;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfigOrBuilder getResVersionConfigOrBuilder() {
       return getResVersionConfig();
     }
 
-    public static final int NFACHCNJOGL_FIELD_NUMBER = 1201;
+    public static final int NFACHCNJOGL_FIELD_NUMBER = 50006;
     private emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo nfachcnjogl_;
     /**
-     * <code>.StopServerInfo nfachcnjogl = 1201;</code>
+     * <code>.StopServerInfo nfachcnjogl = 50006;</code>
      * @return Whether the nfachcnjogl field is set.
      */
     @java.lang.Override
@@ -1537,7 +1537,7 @@ public final class PlayerLoginRspOuterClass {
       return nfachcnjogl_ != null;
     }
     /**
-     * <code>.StopServerInfo nfachcnjogl = 1201;</code>
+     * <code>.StopServerInfo nfachcnjogl = 50006;</code>
      * @return The nfachcnjogl.
      */
     @java.lang.Override
@@ -1545,17 +1545,17 @@ public final class PlayerLoginRspOuterClass {
       return nfachcnjogl_ == null ? emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.getDefaultInstance() : nfachcnjogl_;
     }
     /**
-     * <code>.StopServerInfo nfachcnjogl = 1201;</code>
+     * <code>.StopServerInfo nfachcnjogl = 50006;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfoOrBuilder getNfachcnjoglOrBuilder() {
       return getNfachcnjogl();
     }
 
-    public static final int CLIENT_SILENCE_VERSION_SUFFIX_FIELD_NUMBER = 1205;
+    public static final int CLIENT_SILENCE_VERSION_SUFFIX_FIELD_NUMBER = 50007;
     private volatile java.lang.Object clientSilenceVersionSuffix_;
     /**
-     * <code>string client_silence_version_suffix = 1205;</code>
+     * <code>string client_silence_version_suffix = 50007;</code>
      * @return The clientSilenceVersionSuffix.
      */
     @java.lang.Override
@@ -1572,7 +1572,7 @@ public final class PlayerLoginRspOuterClass {
       }
     }
     /**
-     * <code>string client_silence_version_suffix = 1205;</code>
+     * <code>string client_silence_version_suffix = 50007;</code>
      * @return The bytes for clientSilenceVersionSuffix.
      */
     @java.lang.Override
@@ -1590,10 +1590,10 @@ public final class PlayerLoginRspOuterClass {
       }
     }
 
-    public static final int IS_SC_OPEN_FIELD_NUMBER = 1246;
+    public static final int IS_SC_OPEN_FIELD_NUMBER = 50008;
     private boolean isScOpen_;
     /**
-     * <code>bool is_sc_open = 1246;</code>
+     * <code>bool is_sc_open = 50008;</code>
      * @return The isScOpen.
      */
     @java.lang.Override
@@ -1601,10 +1601,10 @@ public final class PlayerLoginRspOuterClass {
       return isScOpen_;
     }
 
-    public static final int OEMHPIKBDMB_FIELD_NUMBER = 1297;
+    public static final int OEMHPIKBDMB_FIELD_NUMBER = 50009;
     private boolean oEMHPIKBDMB_;
     /**
-     * <code>bool OEMHPIKBDMB = 1297;</code>
+     * <code>bool OEMHPIKBDMB = 50009;</code>
      * @return The oEMHPIKBDMB.
      */
     @java.lang.Override
@@ -1612,10 +1612,10 @@ public final class PlayerLoginRspOuterClass {
       return oEMHPIKBDMB_;
     }
 
-    public static final int REGISTER_CPS_FIELD_NUMBER = 1303;
+    public static final int REGISTER_CPS_FIELD_NUMBER = 790;
     private volatile java.lang.Object registerCps_;
     /**
-     * <code>string register_cps = 1303;</code>
+     * <code>string register_cps = 790;</code>
      * @return The registerCps.
      */
     @java.lang.Override
@@ -1632,7 +1632,7 @@ public final class PlayerLoginRspOuterClass {
       }
     }
     /**
-     * <code>string register_cps = 1303;</code>
+     * <code>string register_cps = 790;</code>
      * @return The bytes for registerCps.
      */
     @java.lang.Override
@@ -1650,10 +1650,10 @@ public final class PlayerLoginRspOuterClass {
       }
     }
 
-    public static final int MSG_FIELD_NUMBER = 1316;
+    public static final int MSG_FIELD_NUMBER = 1066;
     private volatile java.lang.Object msg_;
     /**
-     * <code>string msg = 1316;</code>
+     * <code>string msg = 1066;</code>
      * @return The msg.
      */
     @java.lang.Override
@@ -1670,7 +1670,7 @@ public final class PlayerLoginRspOuterClass {
       }
     }
     /**
-     * <code>string msg = 1316;</code>
+     * <code>string msg = 1066;</code>
      * @return The bytes for msg.
      */
     @java.lang.Override
@@ -1688,10 +1688,10 @@ public final class PlayerLoginRspOuterClass {
       }
     }
 
-    public static final int KJEMCDAJINF_FIELD_NUMBER = 1333;
+    public static final int KJEMCDAJINF_FIELD_NUMBER = 21;
     private emu.grasscutter.net.proto.FNGEEAFJCDGOuterClass.FNGEEAFJCDG kJEMCDAJINF_;
     /**
-     * <code>.FNGEEAFJCDG KJEMCDAJINF = 1333;</code>
+     * <code>.FNGEEAFJCDG KJEMCDAJINF = 21;</code>
      * @return Whether the kJEMCDAJINF field is set.
      */
     @java.lang.Override
@@ -1699,7 +1699,7 @@ public final class PlayerLoginRspOuterClass {
       return kJEMCDAJINF_ != null;
     }
     /**
-     * <code>.FNGEEAFJCDG KJEMCDAJINF = 1333;</code>
+     * <code>.FNGEEAFJCDG KJEMCDAJINF = 21;</code>
      * @return The kJEMCDAJINF.
      */
     @java.lang.Override
@@ -1707,17 +1707,17 @@ public final class PlayerLoginRspOuterClass {
       return kJEMCDAJINF_ == null ? emu.grasscutter.net.proto.FNGEEAFJCDGOuterClass.FNGEEAFJCDG.getDefaultInstance() : kJEMCDAJINF_;
     }
     /**
-     * <code>.FNGEEAFJCDG KJEMCDAJINF = 1333;</code>
+     * <code>.FNGEEAFJCDG KJEMCDAJINF = 21;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.FNGEEAFJCDGOuterClass.FNGEEAFJCDGOrBuilder getKJEMCDAJINFOrBuilder() {
       return getKJEMCDAJINF();
     }
 
-    public static final int COUNTRY_CODE_FIELD_NUMBER = 1424;
+    public static final int COUNTRY_CODE_FIELD_NUMBER = 342;
     private volatile java.lang.Object countryCode_;
     /**
-     * <code>string country_code = 1424;</code>
+     * <code>string country_code = 342;</code>
      * @return The countryCode.
      */
     @java.lang.Override
@@ -1734,7 +1734,7 @@ public final class PlayerLoginRspOuterClass {
       }
     }
     /**
-     * <code>string country_code = 1424;</code>
+     * <code>string country_code = 342;</code>
      * @return The bytes for countryCode.
      */
     @java.lang.Override
@@ -1752,10 +1752,10 @@ public final class PlayerLoginRspOuterClass {
       }
     }
 
-    public static final int KLKDKMBAPGA_FIELD_NUMBER = 1548;
+    public static final int KLKDKMBAPGA_FIELD_NUMBER = 50010;
     private boolean kLKDKMBAPGA_;
     /**
-     * <code>bool KLKDKMBAPGA = 1548;</code>
+     * <code>bool KLKDKMBAPGA = 50010;</code>
      * @return The kLKDKMBAPGA.
      */
     @java.lang.Override
@@ -1763,10 +1763,10 @@ public final class PlayerLoginRspOuterClass {
       return kLKDKMBAPGA_;
     }
 
-    public static final int NEXT_RESOURCE_URL_FIELD_NUMBER = 1556;
+    public static final int NEXT_RESOURCE_URL_FIELD_NUMBER = 55;
     private volatile java.lang.Object nextResourceUrl_;
     /**
-     * <code>string next_resource_url = 1556;</code>
+     * <code>string next_resource_url = 55;</code>
      * @return The nextResourceUrl.
      */
     @java.lang.Override
@@ -1783,7 +1783,7 @@ public final class PlayerLoginRspOuterClass {
       }
     }
     /**
-     * <code>string next_resource_url = 1556;</code>
+     * <code>string next_resource_url = 55;</code>
      * @return The bytes for nextResourceUrl.
      */
     @java.lang.Override
@@ -1801,10 +1801,10 @@ public final class PlayerLoginRspOuterClass {
       }
     }
 
-    public static final int CLIENT_MD5_FIELD_NUMBER = 1570;
+    public static final int CLIENT_MD5_FIELD_NUMBER = 50011;
     private volatile java.lang.Object clientMd5_;
     /**
-     * <code>string client_md5 = 1570;</code>
+     * <code>string client_md5 = 50011;</code>
      * @return The clientMd5.
      */
     @java.lang.Override
@@ -1821,7 +1821,7 @@ public final class PlayerLoginRspOuterClass {
       }
     }
     /**
-     * <code>string client_md5 = 1570;</code>
+     * <code>string client_md5 = 50011;</code>
      * @return The bytes for clientMd5.
      */
     @java.lang.Override
@@ -1839,10 +1839,10 @@ public final class PlayerLoginRspOuterClass {
       }
     }
 
-    public static final int LPFKKMMLFOP_FIELD_NUMBER = 1651;
+    public static final int LPFKKMMLFOP_FIELD_NUMBER = 368;
     private emu.grasscutter.net.proto.NGKOPBGLDJMOuterClass.NGKOPBGLDJM lPFKKMMLFOP_;
     /**
-     * <code>.NGKOPBGLDJM LPFKKMMLFOP = 1651;</code>
+     * <code>.NGKOPBGLDJM LPFKKMMLFOP = 368;</code>
      * @return Whether the lPFKKMMLFOP field is set.
      */
     @java.lang.Override
@@ -1850,7 +1850,7 @@ public final class PlayerLoginRspOuterClass {
       return lPFKKMMLFOP_ != null;
     }
     /**
-     * <code>.NGKOPBGLDJM LPFKKMMLFOP = 1651;</code>
+     * <code>.NGKOPBGLDJM LPFKKMMLFOP = 368;</code>
      * @return The lPFKKMMLFOP.
      */
     @java.lang.Override
@@ -1858,17 +1858,17 @@ public final class PlayerLoginRspOuterClass {
       return lPFKKMMLFOP_ == null ? emu.grasscutter.net.proto.NGKOPBGLDJMOuterClass.NGKOPBGLDJM.getDefaultInstance() : lPFKKMMLFOP_;
     }
     /**
-     * <code>.NGKOPBGLDJM LPFKKMMLFOP = 1651;</code>
+     * <code>.NGKOPBGLDJM LPFKKMMLFOP = 368;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.NGKOPBGLDJMOuterClass.NGKOPBGLDJMOrBuilder getLPFKKMMLFOPOrBuilder() {
       return getLPFKKMMLFOP();
     }
 
-    public static final int ALMPHOAOJEC_FIELD_NUMBER = 1744;
+    public static final int ALMPHOAOJEC_FIELD_NUMBER = 1123;
     private int aLMPHOAOJEC_;
     /**
-     * <code>uint32 ALMPHOAOJEC = 1744;</code>
+     * <code>uint32 ALMPHOAOJEC = 1123;</code>
      * @return The aLMPHOAOJEC.
      */
     @java.lang.Override
@@ -1876,10 +1876,10 @@ public final class PlayerLoginRspOuterClass {
       return aLMPHOAOJEC_;
     }
 
-    public static final int IS_AUDIT_FIELD_NUMBER = 1763;
+    public static final int IS_AUDIT_FIELD_NUMBER = 1329;
     private boolean isAudit_;
     /**
-     * <code>bool is_audit = 1763;</code>
+     * <code>bool is_audit = 1329;</code>
      * @return The isAudit.
      */
     @java.lang.Override
@@ -1887,17 +1887,17 @@ public final class PlayerLoginRspOuterClass {
       return isAudit_;
     }
 
-    public static final int FEATURE_BLOCK_INFO_LIST_FIELD_NUMBER = 1786;
+    public static final int FEATURE_BLOCK_INFO_LIST_FIELD_NUMBER = 50012;
     private java.util.List<emu.grasscutter.net.proto.FeatureBlockInfoOuterClass.FeatureBlockInfo> featureBlockInfoList_;
     /**
-     * <code>repeated .FeatureBlockInfo feature_block_info_list = 1786;</code>
+     * <code>repeated .FeatureBlockInfo feature_block_info_list = 50012;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.FeatureBlockInfoOuterClass.FeatureBlockInfo> getFeatureBlockInfoListList() {
       return featureBlockInfoList_;
     }
     /**
-     * <code>repeated .FeatureBlockInfo feature_block_info_list = 1786;</code>
+     * <code>repeated .FeatureBlockInfo feature_block_info_list = 50012;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.FeatureBlockInfoOuterClass.FeatureBlockInfoOrBuilder> 
@@ -1905,21 +1905,21 @@ public final class PlayerLoginRspOuterClass {
       return featureBlockInfoList_;
     }
     /**
-     * <code>repeated .FeatureBlockInfo feature_block_info_list = 1786;</code>
+     * <code>repeated .FeatureBlockInfo feature_block_info_list = 50012;</code>
      */
     @java.lang.Override
     public int getFeatureBlockInfoListCount() {
       return featureBlockInfoList_.size();
     }
     /**
-     * <code>repeated .FeatureBlockInfo feature_block_info_list = 1786;</code>
+     * <code>repeated .FeatureBlockInfo feature_block_info_list = 50012;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.FeatureBlockInfoOuterClass.FeatureBlockInfo getFeatureBlockInfoList(int index) {
       return featureBlockInfoList_.get(index);
     }
     /**
-     * <code>repeated .FeatureBlockInfo feature_block_info_list = 1786;</code>
+     * <code>repeated .FeatureBlockInfo feature_block_info_list = 50012;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.FeatureBlockInfoOuterClass.FeatureBlockInfoOrBuilder getFeatureBlockInfoListOrBuilder(
@@ -1927,10 +1927,10 @@ public final class PlayerLoginRspOuterClass {
       return featureBlockInfoList_.get(index);
     }
 
-    public static final int TOTAL_TICK_TIME_FIELD_NUMBER = 1911;
+    public static final int TOTAL_TICK_TIME_FIELD_NUMBER = 755;
     private double totalTickTime_;
     /**
-     * <code>double total_tick_time = 1911;</code>
+     * <code>double total_tick_time = 755;</code>
      * @return The totalTickTime.
      */
     @java.lang.Override
@@ -1938,10 +1938,10 @@ public final class PlayerLoginRspOuterClass {
       return totalTickTime_;
     }
 
-    public static final int PLATFORM_TYPE_FIELD_NUMBER = 1967;
+    public static final int PLATFORM_TYPE_FIELD_NUMBER = 492;
     private int platformType_;
     /**
-     * <code>uint32 platform_type = 1967;</code>
+     * <code>uint32 platform_type = 492;</code>
      * @return The platformType.
      */
     @java.lang.Override
@@ -1949,10 +1949,10 @@ public final class PlayerLoginRspOuterClass {
       return platformType_;
     }
 
-    public static final int CLIENT_SILENCE_MD5_FIELD_NUMBER = 1974;
+    public static final int CLIENT_SILENCE_MD5_FIELD_NUMBER = 50013;
     private volatile java.lang.Object clientSilenceMd5_;
     /**
-     * <code>string client_silence_md5 = 1974;</code>
+     * <code>string client_silence_md5 = 50013;</code>
      * @return The clientSilenceMd5.
      */
     @java.lang.Override
@@ -1969,7 +1969,7 @@ public final class PlayerLoginRspOuterClass {
       }
     }
     /**
-     * <code>string client_silence_md5 = 1974;</code>
+     * <code>string client_silence_md5 = 50013;</code>
      * @return The bytes for clientSilenceMd5.
      */
     @java.lang.Override
@@ -1987,10 +1987,10 @@ public final class PlayerLoginRspOuterClass {
       }
     }
 
-    public static final int MBPNFGLAJOG_FIELD_NUMBER = 1986;
+    public static final int MBPNFGLAJOG_FIELD_NUMBER = 653;
     private boolean mBPNFGLAJOG_;
     /**
-     * <code>bool MBPNFGLAJOG = 1986;</code>
+     * <code>bool MBPNFGLAJOG = 653;</code>
      * @return The mBPNFGLAJOG.
      */
     @java.lang.Override
@@ -2012,143 +2012,143 @@ public final class PlayerLoginRspOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (isRelogin_ != false) {
-        output.writeBool(1, isRelogin_);
+      if (!playerData_.isEmpty()) {
+        output.writeBytes(3, playerData_);
       }
-      if (gHAJDNKLEDA_ != false) {
-        output.writeBool(2, gHAJDNKLEDA_);
-      }
-      if (ohmigaflnid_ != 0) {
-        output.writeUInt32(3, ohmigaflnid_);
+      if (targetUid_ != 0) {
+        output.writeUInt32(4, targetUid_);
       }
       if (loginRand_ != 0L) {
-        output.writeUInt64(4, loginRand_);
+        output.writeUInt64(7, loginRand_);
       }
       com.google.protobuf.GeneratedMessageV3
         .serializeStringMapTo(
           output,
           internalGetAbilityHashMap(),
           AbilityHashMapDefaultEntryHolder.defaultEntry,
-          5);
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(gameBiz_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 6, gameBiz_);
-      }
-      if (isUseAbilityHash_ != false) {
-        output.writeBool(7, isUseAbilityHash_);
-      }
-      if (clientDataVersion_ != 0) {
-        output.writeUInt32(8, clientDataVersion_);
-      }
-      if (clientSilenceDataVersion_ != 0) {
-        output.writeUInt32(9, clientSilenceDataVersion_);
-      }
-      if (targetUid_ != 0) {
-        output.writeUInt32(11, targetUid_);
+          8);
+      if (retcode_ != 0) {
+        output.writeInt32(9, retcode_);
       }
       if (abilityHashCode_ != 0) {
-        output.writeInt32(13, abilityHashCode_);
+        output.writeInt32(10, abilityHashCode_);
       }
-      if (!playerData_.isEmpty()) {
-        output.writeBytes(14, playerData_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(gameBiz_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 11, gameBiz_);
       }
-      if (retcode_ != 0) {
-        output.writeInt32(15, retcode_);
+      if (clientDataVersion_ != 0) {
+        output.writeUInt32(13, clientDataVersion_);
       }
-      if (gICKBBGJGCK_ != false) {
-        output.writeBool(40, gICKBBGJGCK_);
+      if (isRelogin_ != false) {
+        output.writeBool(14, isRelogin_);
       }
-      if (!scInfo_.isEmpty()) {
-        output.writeBytes(57, scInfo_);
+      if (clientSilenceDataVersion_ != 0) {
+        output.writeUInt32(15, clientSilenceDataVersion_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(clientVersionSuffix_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 70, clientVersionSuffix_);
+      if (kJEMCDAJINF_ != null) {
+        output.writeMessage(21, getKJEMCDAJINF());
       }
-      if (nextResVersionConfig_ != null) {
-        output.writeMessage(181, getNextResVersionConfig());
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(nextResourceUrl_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 55, nextResourceUrl_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(birthday_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 484, birthday_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(countryCode_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 342, countryCode_);
+      }
+      if (lPFKKMMLFOP_ != null) {
+        output.writeMessage(368, getLPFKKMMLFOP());
+      }
+      if (platformType_ != 0) {
+        output.writeUInt32(492, platformType_);
+      }
+      for (int i = 0; i < shortAbilityHashMap_.size(); i++) {
+        output.writeMessage(625, shortAbilityHashMap_.get(i));
+      }
+      if (mBPNFGLAJOG_ != false) {
+        output.writeBool(653, mBPNFGLAJOG_);
+      }
+      if (totalTickTime_ != 0D) {
+        output.writeDouble(755, totalTickTime_);
+      }
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(registerCps_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 790, registerCps_);
+      }
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(msg_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 1066, msg_);
+      }
+      if (aLMPHOAOJEC_ != 0) {
+        output.writeUInt32(1123, aLMPHOAOJEC_);
       }
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
           output,
           internalGetBlockInfoMap(),
           BlockInfoMapDefaultEntryHolder.defaultEntry,
-          536);
-      if (cGMBIAPFHGE_ != false) {
-        output.writeBool(592, cGMBIAPFHGE_);
+          1205);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(birthday_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 1312, birthday_);
       }
-      for (int i = 0; i < shortAbilityHashMap_.size(); i++) {
-        output.writeMessage(631, shortAbilityHashMap_.get(i));
+      if (isAudit_ != false) {
+        output.writeBool(1329, isAudit_);
+      }
+      if (cGMBIAPFHGE_ != false) {
+        output.writeBool(1508, cGMBIAPFHGE_);
       }
       com.google.protobuf.GeneratedMessageV3
         .serializeLongMapTo(
           output,
           internalGetKKNBKGBLHDM(),
           KKNBKGBLHDMDefaultEntryHolder.defaultEntry,
-          897);
-      if (aMBIGCMFEIM_ != 0) {
-        output.writeUInt32(1092, aMBIGCMFEIM_);
+          1549);
+      if (!scInfo_.isEmpty()) {
+        output.writeBytes(1743, scInfo_);
       }
       if (resVersionConfig_ != null) {
-        output.writeMessage(1140, getResVersionConfig());
+        output.writeMessage(1911, getResVersionConfig());
+      }
+      if (nextResVersionConfig_ != null) {
+        output.writeMessage(1984, getNextResVersionConfig());
+      }
+      if (gHAJDNKLEDA_ != false) {
+        output.writeBool(50000, gHAJDNKLEDA_);
+      }
+      if (ohmigaflnid_ != 0) {
+        output.writeUInt32(50001, ohmigaflnid_);
+      }
+      if (isUseAbilityHash_ != false) {
+        output.writeBool(50002, isUseAbilityHash_);
+      }
+      if (gICKBBGJGCK_ != false) {
+        output.writeBool(50003, gICKBBGJGCK_);
+      }
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(clientVersionSuffix_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 50004, clientVersionSuffix_);
+      }
+      if (aMBIGCMFEIM_ != 0) {
+        output.writeUInt32(50005, aMBIGCMFEIM_);
       }
       if (nfachcnjogl_ != null) {
-        output.writeMessage(1201, getNfachcnjogl());
+        output.writeMessage(50006, getNfachcnjogl());
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(clientSilenceVersionSuffix_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 1205, clientSilenceVersionSuffix_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 50007, clientSilenceVersionSuffix_);
       }
       if (isScOpen_ != false) {
-        output.writeBool(1246, isScOpen_);
+        output.writeBool(50008, isScOpen_);
       }
       if (oEMHPIKBDMB_ != false) {
-        output.writeBool(1297, oEMHPIKBDMB_);
-      }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(registerCps_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 1303, registerCps_);
-      }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(msg_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 1316, msg_);
-      }
-      if (kJEMCDAJINF_ != null) {
-        output.writeMessage(1333, getKJEMCDAJINF());
-      }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(countryCode_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 1424, countryCode_);
+        output.writeBool(50009, oEMHPIKBDMB_);
       }
       if (kLKDKMBAPGA_ != false) {
-        output.writeBool(1548, kLKDKMBAPGA_);
-      }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(nextResourceUrl_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 1556, nextResourceUrl_);
+        output.writeBool(50010, kLKDKMBAPGA_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(clientMd5_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 1570, clientMd5_);
-      }
-      if (lPFKKMMLFOP_ != null) {
-        output.writeMessage(1651, getLPFKKMMLFOP());
-      }
-      if (aLMPHOAOJEC_ != 0) {
-        output.writeUInt32(1744, aLMPHOAOJEC_);
-      }
-      if (isAudit_ != false) {
-        output.writeBool(1763, isAudit_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 50011, clientMd5_);
       }
       for (int i = 0; i < featureBlockInfoList_.size(); i++) {
-        output.writeMessage(1786, featureBlockInfoList_.get(i));
-      }
-      if (totalTickTime_ != 0D) {
-        output.writeDouble(1911, totalTickTime_);
-      }
-      if (platformType_ != 0) {
-        output.writeUInt32(1967, platformType_);
+        output.writeMessage(50012, featureBlockInfoList_.get(i));
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(clientSilenceMd5_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 1974, clientSilenceMd5_);
-      }
-      if (mBPNFGLAJOG_ != false) {
-        output.writeBool(1986, mBPNFGLAJOG_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 50013, clientSilenceMd5_);
       }
       unknownFields.writeTo(output);
     }
@@ -2159,21 +2159,17 @@ public final class PlayerLoginRspOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (isRelogin_ != false) {
+      if (!playerData_.isEmpty()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1, isRelogin_);
+          .computeBytesSize(3, playerData_);
       }
-      if (gHAJDNKLEDA_ != false) {
+      if (targetUid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(2, gHAJDNKLEDA_);
-      }
-      if (ohmigaflnid_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, ohmigaflnid_);
+          .computeUInt32Size(4, targetUid_);
       }
       if (loginRand_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(4, loginRand_);
+          .computeUInt64Size(7, loginRand_);
       }
       for (java.util.Map.Entry<java.lang.String, java.lang.Integer> entry
            : internalGetAbilityHashMap().getMap().entrySet()) {
@@ -2183,56 +2179,70 @@ public final class PlayerLoginRspOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(5, abilityHashMap__);
-      }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(gameBiz_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(6, gameBiz_);
-      }
-      if (isUseAbilityHash_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(7, isUseAbilityHash_);
-      }
-      if (clientDataVersion_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, clientDataVersion_);
-      }
-      if (clientSilenceDataVersion_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, clientSilenceDataVersion_);
-      }
-      if (targetUid_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, targetUid_);
-      }
-      if (abilityHashCode_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(13, abilityHashCode_);
-      }
-      if (!playerData_.isEmpty()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(14, playerData_);
+            .computeMessageSize(8, abilityHashMap__);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(15, retcode_);
+          .computeInt32Size(9, retcode_);
       }
-      if (gICKBBGJGCK_ != false) {
+      if (abilityHashCode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(40, gICKBBGJGCK_);
+          .computeInt32Size(10, abilityHashCode_);
       }
-      if (!scInfo_.isEmpty()) {
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(gameBiz_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(11, gameBiz_);
+      }
+      if (clientDataVersion_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBytesSize(57, scInfo_);
+          .computeUInt32Size(13, clientDataVersion_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(clientVersionSuffix_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(70, clientVersionSuffix_);
-      }
-      if (nextResVersionConfig_ != null) {
+      if (isRelogin_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(181, getNextResVersionConfig());
+          .computeBoolSize(14, isRelogin_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(birthday_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(484, birthday_);
+      if (clientSilenceDataVersion_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(15, clientSilenceDataVersion_);
+      }
+      if (kJEMCDAJINF_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(21, getKJEMCDAJINF());
+      }
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(nextResourceUrl_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(55, nextResourceUrl_);
+      }
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(countryCode_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(342, countryCode_);
+      }
+      if (lPFKKMMLFOP_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(368, getLPFKKMMLFOP());
+      }
+      if (platformType_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(492, platformType_);
+      }
+      for (int i = 0; i < shortAbilityHashMap_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(625, shortAbilityHashMap_.get(i));
+      }
+      if (mBPNFGLAJOG_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(653, mBPNFGLAJOG_);
+      }
+      if (totalTickTime_ != 0D) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeDoubleSize(755, totalTickTime_);
+      }
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(registerCps_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(790, registerCps_);
+      }
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(msg_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1066, msg_);
+      }
+      if (aLMPHOAOJEC_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(1123, aLMPHOAOJEC_);
       }
       for (java.util.Map.Entry<java.lang.Integer, emu.grasscutter.net.proto.BlockInfoOuterClass.BlockInfo> entry
            : internalGetBlockInfoMap().getMap().entrySet()) {
@@ -2242,15 +2252,18 @@ public final class PlayerLoginRspOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(536, blockInfoMap__);
+            .computeMessageSize(1205, blockInfoMap__);
+      }
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(birthday_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1312, birthday_);
+      }
+      if (isAudit_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(1329, isAudit_);
       }
       if (cGMBIAPFHGE_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(592, cGMBIAPFHGE_);
-      }
-      for (int i = 0; i < shortAbilityHashMap_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(631, shortAbilityHashMap_.get(i));
+          .computeBoolSize(1508, cGMBIAPFHGE_);
       }
       for (java.util.Map.Entry<java.lang.Long, emu.grasscutter.net.proto.MPGPEKAFHJGOuterClass.MPGPEKAFHJG> entry
            : internalGetKKNBKGBLHDM().getMap().entrySet()) {
@@ -2260,84 +2273,71 @@ public final class PlayerLoginRspOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(897, kKNBKGBLHDM__);
+            .computeMessageSize(1549, kKNBKGBLHDM__);
       }
-      if (aMBIGCMFEIM_ != 0) {
+      if (!scInfo_.isEmpty()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1092, aMBIGCMFEIM_);
+          .computeBytesSize(1743, scInfo_);
       }
       if (resVersionConfig_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1140, getResVersionConfig());
+          .computeMessageSize(1911, getResVersionConfig());
+      }
+      if (nextResVersionConfig_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(1984, getNextResVersionConfig());
+      }
+      if (gHAJDNKLEDA_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(50000, gHAJDNKLEDA_);
+      }
+      if (ohmigaflnid_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50001, ohmigaflnid_);
+      }
+      if (isUseAbilityHash_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(50002, isUseAbilityHash_);
+      }
+      if (gICKBBGJGCK_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(50003, gICKBBGJGCK_);
+      }
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(clientVersionSuffix_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(50004, clientVersionSuffix_);
+      }
+      if (aMBIGCMFEIM_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50005, aMBIGCMFEIM_);
       }
       if (nfachcnjogl_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1201, getNfachcnjogl());
+          .computeMessageSize(50006, getNfachcnjogl());
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(clientSilenceVersionSuffix_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1205, clientSilenceVersionSuffix_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(50007, clientSilenceVersionSuffix_);
       }
       if (isScOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1246, isScOpen_);
+          .computeBoolSize(50008, isScOpen_);
       }
       if (oEMHPIKBDMB_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1297, oEMHPIKBDMB_);
-      }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(registerCps_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1303, registerCps_);
-      }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(msg_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1316, msg_);
-      }
-      if (kJEMCDAJINF_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1333, getKJEMCDAJINF());
-      }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(countryCode_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1424, countryCode_);
+          .computeBoolSize(50009, oEMHPIKBDMB_);
       }
       if (kLKDKMBAPGA_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1548, kLKDKMBAPGA_);
-      }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(nextResourceUrl_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1556, nextResourceUrl_);
+          .computeBoolSize(50010, kLKDKMBAPGA_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(clientMd5_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1570, clientMd5_);
-      }
-      if (lPFKKMMLFOP_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1651, getLPFKKMMLFOP());
-      }
-      if (aLMPHOAOJEC_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1744, aLMPHOAOJEC_);
-      }
-      if (isAudit_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1763, isAudit_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(50011, clientMd5_);
       }
       for (int i = 0; i < featureBlockInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1786, featureBlockInfoList_.get(i));
-      }
-      if (totalTickTime_ != 0D) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeDoubleSize(1911, totalTickTime_);
-      }
-      if (platformType_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1967, platformType_);
+          .computeMessageSize(50012, featureBlockInfoList_.get(i));
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(clientSilenceMd5_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1974, clientSilenceMd5_);
-      }
-      if (mBPNFGLAJOG_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1986, mBPNFGLAJOG_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(50013, clientSilenceMd5_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -2696,11 +2696,11 @@ public final class PlayerLoginRspOuterClass {
       protected com.google.protobuf.MapField internalGetMapField(
           int number) {
         switch (number) {
-          case 5:
+          case 8:
             return internalGetAbilityHashMap();
-          case 536:
+          case 1205:
             return internalGetBlockInfoMap();
-          case 897:
+          case 1549:
             return internalGetKKNBKGBLHDM();
           default:
             throw new RuntimeException(
@@ -2711,11 +2711,11 @@ public final class PlayerLoginRspOuterClass {
       protected com.google.protobuf.MapField internalGetMutableMapField(
           int number) {
         switch (number) {
-          case 5:
+          case 8:
             return internalGetMutableAbilityHashMap();
-          case 536:
+          case 1205:
             return internalGetMutableBlockInfoMap();
-          case 897:
+          case 1549:
             return internalGetMutableKKNBKGBLHDM();
           default:
             throw new RuntimeException(
@@ -3232,7 +3232,7 @@ public final class PlayerLoginRspOuterClass {
 
       private boolean isRelogin_ ;
       /**
-       * <code>bool is_relogin = 1;</code>
+       * <code>bool is_relogin = 14;</code>
        * @return The isRelogin.
        */
       @java.lang.Override
@@ -3240,7 +3240,7 @@ public final class PlayerLoginRspOuterClass {
         return isRelogin_;
       }
       /**
-       * <code>bool is_relogin = 1;</code>
+       * <code>bool is_relogin = 14;</code>
        * @param value The isRelogin to set.
        * @return This builder for chaining.
        */
@@ -3251,7 +3251,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>bool is_relogin = 1;</code>
+       * <code>bool is_relogin = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsRelogin() {
@@ -3263,7 +3263,7 @@ public final class PlayerLoginRspOuterClass {
 
       private boolean gHAJDNKLEDA_ ;
       /**
-       * <code>bool GHAJDNKLEDA = 2;</code>
+       * <code>bool GHAJDNKLEDA = 50000;</code>
        * @return The gHAJDNKLEDA.
        */
       @java.lang.Override
@@ -3271,7 +3271,7 @@ public final class PlayerLoginRspOuterClass {
         return gHAJDNKLEDA_;
       }
       /**
-       * <code>bool GHAJDNKLEDA = 2;</code>
+       * <code>bool GHAJDNKLEDA = 50000;</code>
        * @param value The gHAJDNKLEDA to set.
        * @return This builder for chaining.
        */
@@ -3282,7 +3282,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>bool GHAJDNKLEDA = 2;</code>
+       * <code>bool GHAJDNKLEDA = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearGHAJDNKLEDA() {
@@ -3294,7 +3294,7 @@ public final class PlayerLoginRspOuterClass {
 
       private int ohmigaflnid_ ;
       /**
-       * <code>uint32 ohmigaflnid = 3;</code>
+       * <code>uint32 ohmigaflnid = 50001;</code>
        * @return The ohmigaflnid.
        */
       @java.lang.Override
@@ -3302,7 +3302,7 @@ public final class PlayerLoginRspOuterClass {
         return ohmigaflnid_;
       }
       /**
-       * <code>uint32 ohmigaflnid = 3;</code>
+       * <code>uint32 ohmigaflnid = 50001;</code>
        * @param value The ohmigaflnid to set.
        * @return This builder for chaining.
        */
@@ -3313,7 +3313,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>uint32 ohmigaflnid = 3;</code>
+       * <code>uint32 ohmigaflnid = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearOhmigaflnid() {
@@ -3325,7 +3325,7 @@ public final class PlayerLoginRspOuterClass {
 
       private long loginRand_ ;
       /**
-       * <code>uint64 login_rand = 4;</code>
+       * <code>uint64 login_rand = 7;</code>
        * @return The loginRand.
        */
       @java.lang.Override
@@ -3333,7 +3333,7 @@ public final class PlayerLoginRspOuterClass {
         return loginRand_;
       }
       /**
-       * <code>uint64 login_rand = 4;</code>
+       * <code>uint64 login_rand = 7;</code>
        * @param value The loginRand to set.
        * @return This builder for chaining.
        */
@@ -3344,7 +3344,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>uint64 login_rand = 4;</code>
+       * <code>uint64 login_rand = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearLoginRand() {
@@ -3381,7 +3381,7 @@ public final class PlayerLoginRspOuterClass {
         return internalGetAbilityHashMap().getMap().size();
       }
       /**
-       * <code>map&lt;string, int32&gt; ability_hash_map = 5;</code>
+       * <code>map&lt;string, int32&gt; ability_hash_map = 8;</code>
        */
 
       @java.lang.Override
@@ -3399,7 +3399,7 @@ public final class PlayerLoginRspOuterClass {
         return getAbilityHashMapMap();
       }
       /**
-       * <code>map&lt;string, int32&gt; ability_hash_map = 5;</code>
+       * <code>map&lt;string, int32&gt; ability_hash_map = 8;</code>
        */
       @java.lang.Override
 
@@ -3407,7 +3407,7 @@ public final class PlayerLoginRspOuterClass {
         return internalGetAbilityHashMap().getMap();
       }
       /**
-       * <code>map&lt;string, int32&gt; ability_hash_map = 5;</code>
+       * <code>map&lt;string, int32&gt; ability_hash_map = 8;</code>
        */
       @java.lang.Override
 
@@ -3420,7 +3420,7 @@ public final class PlayerLoginRspOuterClass {
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
       /**
-       * <code>map&lt;string, int32&gt; ability_hash_map = 5;</code>
+       * <code>map&lt;string, int32&gt; ability_hash_map = 8;</code>
        */
       @java.lang.Override
 
@@ -3441,7 +3441,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>map&lt;string, int32&gt; ability_hash_map = 5;</code>
+       * <code>map&lt;string, int32&gt; ability_hash_map = 8;</code>
        */
 
       public Builder removeAbilityHashMap(
@@ -3460,7 +3460,7 @@ public final class PlayerLoginRspOuterClass {
         return internalGetMutableAbilityHashMap().getMutableMap();
       }
       /**
-       * <code>map&lt;string, int32&gt; ability_hash_map = 5;</code>
+       * <code>map&lt;string, int32&gt; ability_hash_map = 8;</code>
        */
       public Builder putAbilityHashMap(
           java.lang.String key,
@@ -3472,7 +3472,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>map&lt;string, int32&gt; ability_hash_map = 5;</code>
+       * <code>map&lt;string, int32&gt; ability_hash_map = 8;</code>
        */
 
       public Builder putAllAbilityHashMap(
@@ -3484,7 +3484,7 @@ public final class PlayerLoginRspOuterClass {
 
       private java.lang.Object gameBiz_ = "";
       /**
-       * <code>string game_biz = 6;</code>
+       * <code>string game_biz = 11;</code>
        * @return The gameBiz.
        */
       public java.lang.String getGameBiz() {
@@ -3500,7 +3500,7 @@ public final class PlayerLoginRspOuterClass {
         }
       }
       /**
-       * <code>string game_biz = 6;</code>
+       * <code>string game_biz = 11;</code>
        * @return The bytes for gameBiz.
        */
       public com.google.protobuf.ByteString
@@ -3517,7 +3517,7 @@ public final class PlayerLoginRspOuterClass {
         }
       }
       /**
-       * <code>string game_biz = 6;</code>
+       * <code>string game_biz = 11;</code>
        * @param value The gameBiz to set.
        * @return This builder for chaining.
        */
@@ -3532,7 +3532,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>string game_biz = 6;</code>
+       * <code>string game_biz = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearGameBiz() {
@@ -3542,7 +3542,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>string game_biz = 6;</code>
+       * <code>string game_biz = 11;</code>
        * @param value The bytes for gameBiz to set.
        * @return This builder for chaining.
        */
@@ -3560,7 +3560,7 @@ public final class PlayerLoginRspOuterClass {
 
       private boolean isUseAbilityHash_ ;
       /**
-       * <code>bool is_use_ability_hash = 7;</code>
+       * <code>bool is_use_ability_hash = 50002;</code>
        * @return The isUseAbilityHash.
        */
       @java.lang.Override
@@ -3568,7 +3568,7 @@ public final class PlayerLoginRspOuterClass {
         return isUseAbilityHash_;
       }
       /**
-       * <code>bool is_use_ability_hash = 7;</code>
+       * <code>bool is_use_ability_hash = 50002;</code>
        * @param value The isUseAbilityHash to set.
        * @return This builder for chaining.
        */
@@ -3579,7 +3579,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>bool is_use_ability_hash = 7;</code>
+       * <code>bool is_use_ability_hash = 50002;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsUseAbilityHash() {
@@ -3591,7 +3591,7 @@ public final class PlayerLoginRspOuterClass {
 
       private int clientDataVersion_ ;
       /**
-       * <code>uint32 client_data_version = 8;</code>
+       * <code>uint32 client_data_version = 13;</code>
        * @return The clientDataVersion.
        */
       @java.lang.Override
@@ -3599,7 +3599,7 @@ public final class PlayerLoginRspOuterClass {
         return clientDataVersion_;
       }
       /**
-       * <code>uint32 client_data_version = 8;</code>
+       * <code>uint32 client_data_version = 13;</code>
        * @param value The clientDataVersion to set.
        * @return This builder for chaining.
        */
@@ -3610,7 +3610,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>uint32 client_data_version = 8;</code>
+       * <code>uint32 client_data_version = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearClientDataVersion() {
@@ -3622,7 +3622,7 @@ public final class PlayerLoginRspOuterClass {
 
       private int clientSilenceDataVersion_ ;
       /**
-       * <code>uint32 client_silence_data_version = 9;</code>
+       * <code>uint32 client_silence_data_version = 15;</code>
        * @return The clientSilenceDataVersion.
        */
       @java.lang.Override
@@ -3630,7 +3630,7 @@ public final class PlayerLoginRspOuterClass {
         return clientSilenceDataVersion_;
       }
       /**
-       * <code>uint32 client_silence_data_version = 9;</code>
+       * <code>uint32 client_silence_data_version = 15;</code>
        * @param value The clientSilenceDataVersion to set.
        * @return This builder for chaining.
        */
@@ -3641,7 +3641,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>uint32 client_silence_data_version = 9;</code>
+       * <code>uint32 client_silence_data_version = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearClientSilenceDataVersion() {
@@ -3653,7 +3653,7 @@ public final class PlayerLoginRspOuterClass {
 
       private int targetUid_ ;
       /**
-       * <code>uint32 target_uid = 11;</code>
+       * <code>uint32 target_uid = 4;</code>
        * @return The targetUid.
        */
       @java.lang.Override
@@ -3661,7 +3661,7 @@ public final class PlayerLoginRspOuterClass {
         return targetUid_;
       }
       /**
-       * <code>uint32 target_uid = 11;</code>
+       * <code>uint32 target_uid = 4;</code>
        * @param value The targetUid to set.
        * @return This builder for chaining.
        */
@@ -3672,7 +3672,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>uint32 target_uid = 11;</code>
+       * <code>uint32 target_uid = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearTargetUid() {
@@ -3684,7 +3684,7 @@ public final class PlayerLoginRspOuterClass {
 
       private int abilityHashCode_ ;
       /**
-       * <code>int32 ability_hash_code = 13;</code>
+       * <code>int32 ability_hash_code = 10;</code>
        * @return The abilityHashCode.
        */
       @java.lang.Override
@@ -3692,7 +3692,7 @@ public final class PlayerLoginRspOuterClass {
         return abilityHashCode_;
       }
       /**
-       * <code>int32 ability_hash_code = 13;</code>
+       * <code>int32 ability_hash_code = 10;</code>
        * @param value The abilityHashCode to set.
        * @return This builder for chaining.
        */
@@ -3703,7 +3703,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>int32 ability_hash_code = 13;</code>
+       * <code>int32 ability_hash_code = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearAbilityHashCode() {
@@ -3715,7 +3715,7 @@ public final class PlayerLoginRspOuterClass {
 
       private com.google.protobuf.ByteString playerData_ = com.google.protobuf.ByteString.EMPTY;
       /**
-       * <code>bytes player_data = 14;</code>
+       * <code>bytes player_data = 3;</code>
        * @return The playerData.
        */
       @java.lang.Override
@@ -3723,7 +3723,7 @@ public final class PlayerLoginRspOuterClass {
         return playerData_;
       }
       /**
-       * <code>bytes player_data = 14;</code>
+       * <code>bytes player_data = 3;</code>
        * @param value The playerData to set.
        * @return This builder for chaining.
        */
@@ -3737,7 +3737,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>bytes player_data = 14;</code>
+       * <code>bytes player_data = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearPlayerData() {
@@ -3749,7 +3749,7 @@ public final class PlayerLoginRspOuterClass {
 
       private int retcode_ ;
       /**
-       * <code>int32 retcode = 15;</code>
+       * <code>int32 retcode = 9;</code>
        * @return The retcode.
        */
       @java.lang.Override
@@ -3757,7 +3757,7 @@ public final class PlayerLoginRspOuterClass {
         return retcode_;
       }
       /**
-       * <code>int32 retcode = 15;</code>
+       * <code>int32 retcode = 9;</code>
        * @param value The retcode to set.
        * @return This builder for chaining.
        */
@@ -3768,7 +3768,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>int32 retcode = 15;</code>
+       * <code>int32 retcode = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
@@ -3780,7 +3780,7 @@ public final class PlayerLoginRspOuterClass {
 
       private boolean gICKBBGJGCK_ ;
       /**
-       * <code>bool GICKBBGJGCK = 40;</code>
+       * <code>bool GICKBBGJGCK = 50003;</code>
        * @return The gICKBBGJGCK.
        */
       @java.lang.Override
@@ -3788,7 +3788,7 @@ public final class PlayerLoginRspOuterClass {
         return gICKBBGJGCK_;
       }
       /**
-       * <code>bool GICKBBGJGCK = 40;</code>
+       * <code>bool GICKBBGJGCK = 50003;</code>
        * @param value The gICKBBGJGCK to set.
        * @return This builder for chaining.
        */
@@ -3799,7 +3799,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>bool GICKBBGJGCK = 40;</code>
+       * <code>bool GICKBBGJGCK = 50003;</code>
        * @return This builder for chaining.
        */
       public Builder clearGICKBBGJGCK() {
@@ -3811,7 +3811,7 @@ public final class PlayerLoginRspOuterClass {
 
       private com.google.protobuf.ByteString scInfo_ = com.google.protobuf.ByteString.EMPTY;
       /**
-       * <code>bytes sc_info = 57;</code>
+       * <code>bytes sc_info = 1743;</code>
        * @return The scInfo.
        */
       @java.lang.Override
@@ -3819,7 +3819,7 @@ public final class PlayerLoginRspOuterClass {
         return scInfo_;
       }
       /**
-       * <code>bytes sc_info = 57;</code>
+       * <code>bytes sc_info = 1743;</code>
        * @param value The scInfo to set.
        * @return This builder for chaining.
        */
@@ -3833,7 +3833,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>bytes sc_info = 57;</code>
+       * <code>bytes sc_info = 1743;</code>
        * @return This builder for chaining.
        */
       public Builder clearScInfo() {
@@ -3845,7 +3845,7 @@ public final class PlayerLoginRspOuterClass {
 
       private java.lang.Object clientVersionSuffix_ = "";
       /**
-       * <code>string client_version_suffix = 70;</code>
+       * <code>string client_version_suffix = 50004;</code>
        * @return The clientVersionSuffix.
        */
       public java.lang.String getClientVersionSuffix() {
@@ -3861,7 +3861,7 @@ public final class PlayerLoginRspOuterClass {
         }
       }
       /**
-       * <code>string client_version_suffix = 70;</code>
+       * <code>string client_version_suffix = 50004;</code>
        * @return The bytes for clientVersionSuffix.
        */
       public com.google.protobuf.ByteString
@@ -3878,7 +3878,7 @@ public final class PlayerLoginRspOuterClass {
         }
       }
       /**
-       * <code>string client_version_suffix = 70;</code>
+       * <code>string client_version_suffix = 50004;</code>
        * @param value The clientVersionSuffix to set.
        * @return This builder for chaining.
        */
@@ -3893,7 +3893,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>string client_version_suffix = 70;</code>
+       * <code>string client_version_suffix = 50004;</code>
        * @return This builder for chaining.
        */
       public Builder clearClientVersionSuffix() {
@@ -3903,7 +3903,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>string client_version_suffix = 70;</code>
+       * <code>string client_version_suffix = 50004;</code>
        * @param value The bytes for clientVersionSuffix to set.
        * @return This builder for chaining.
        */
@@ -3923,14 +3923,14 @@ public final class PlayerLoginRspOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig, emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.Builder, emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfigOrBuilder> nextResVersionConfigBuilder_;
       /**
-       * <code>.ResVersionConfig next_res_version_config = 181;</code>
+       * <code>.ResVersionConfig next_res_version_config = 1984;</code>
        * @return Whether the nextResVersionConfig field is set.
        */
       public boolean hasNextResVersionConfig() {
         return nextResVersionConfigBuilder_ != null || nextResVersionConfig_ != null;
       }
       /**
-       * <code>.ResVersionConfig next_res_version_config = 181;</code>
+       * <code>.ResVersionConfig next_res_version_config = 1984;</code>
        * @return The nextResVersionConfig.
        */
       public emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig getNextResVersionConfig() {
@@ -3941,7 +3941,7 @@ public final class PlayerLoginRspOuterClass {
         }
       }
       /**
-       * <code>.ResVersionConfig next_res_version_config = 181;</code>
+       * <code>.ResVersionConfig next_res_version_config = 1984;</code>
        */
       public Builder setNextResVersionConfig(emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig value) {
         if (nextResVersionConfigBuilder_ == null) {
@@ -3957,7 +3957,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>.ResVersionConfig next_res_version_config = 181;</code>
+       * <code>.ResVersionConfig next_res_version_config = 1984;</code>
        */
       public Builder setNextResVersionConfig(
           emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.Builder builderForValue) {
@@ -3971,7 +3971,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>.ResVersionConfig next_res_version_config = 181;</code>
+       * <code>.ResVersionConfig next_res_version_config = 1984;</code>
        */
       public Builder mergeNextResVersionConfig(emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig value) {
         if (nextResVersionConfigBuilder_ == null) {
@@ -3989,7 +3989,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>.ResVersionConfig next_res_version_config = 181;</code>
+       * <code>.ResVersionConfig next_res_version_config = 1984;</code>
        */
       public Builder clearNextResVersionConfig() {
         if (nextResVersionConfigBuilder_ == null) {
@@ -4003,7 +4003,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>.ResVersionConfig next_res_version_config = 181;</code>
+       * <code>.ResVersionConfig next_res_version_config = 1984;</code>
        */
       public emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.Builder getNextResVersionConfigBuilder() {
         
@@ -4011,7 +4011,7 @@ public final class PlayerLoginRspOuterClass {
         return getNextResVersionConfigFieldBuilder().getBuilder();
       }
       /**
-       * <code>.ResVersionConfig next_res_version_config = 181;</code>
+       * <code>.ResVersionConfig next_res_version_config = 1984;</code>
        */
       public emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfigOrBuilder getNextResVersionConfigOrBuilder() {
         if (nextResVersionConfigBuilder_ != null) {
@@ -4022,7 +4022,7 @@ public final class PlayerLoginRspOuterClass {
         }
       }
       /**
-       * <code>.ResVersionConfig next_res_version_config = 181;</code>
+       * <code>.ResVersionConfig next_res_version_config = 1984;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig, emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.Builder, emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfigOrBuilder> 
@@ -4040,7 +4040,7 @@ public final class PlayerLoginRspOuterClass {
 
       private java.lang.Object birthday_ = "";
       /**
-       * <code>string birthday = 484;</code>
+       * <code>string birthday = 1312;</code>
        * @return The birthday.
        */
       public java.lang.String getBirthday() {
@@ -4056,7 +4056,7 @@ public final class PlayerLoginRspOuterClass {
         }
       }
       /**
-       * <code>string birthday = 484;</code>
+       * <code>string birthday = 1312;</code>
        * @return The bytes for birthday.
        */
       public com.google.protobuf.ByteString
@@ -4073,7 +4073,7 @@ public final class PlayerLoginRspOuterClass {
         }
       }
       /**
-       * <code>string birthday = 484;</code>
+       * <code>string birthday = 1312;</code>
        * @param value The birthday to set.
        * @return This builder for chaining.
        */
@@ -4088,7 +4088,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>string birthday = 484;</code>
+       * <code>string birthday = 1312;</code>
        * @return This builder for chaining.
        */
       public Builder clearBirthday() {
@@ -4098,7 +4098,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>string birthday = 484;</code>
+       * <code>string birthday = 1312;</code>
        * @param value The bytes for birthday to set.
        * @return This builder for chaining.
        */
@@ -4141,7 +4141,7 @@ public final class PlayerLoginRspOuterClass {
         return internalGetBlockInfoMap().getMap().size();
       }
       /**
-       * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 536;</code>
+       * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 1205;</code>
        */
 
       @java.lang.Override
@@ -4159,7 +4159,7 @@ public final class PlayerLoginRspOuterClass {
         return getBlockInfoMapMap();
       }
       /**
-       * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 536;</code>
+       * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 1205;</code>
        */
       @java.lang.Override
 
@@ -4167,7 +4167,7 @@ public final class PlayerLoginRspOuterClass {
         return internalGetBlockInfoMap().getMap();
       }
       /**
-       * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 536;</code>
+       * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 1205;</code>
        */
       @java.lang.Override
 
@@ -4180,7 +4180,7 @@ public final class PlayerLoginRspOuterClass {
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
       /**
-       * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 536;</code>
+       * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 1205;</code>
        */
       @java.lang.Override
 
@@ -4201,7 +4201,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 536;</code>
+       * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 1205;</code>
        */
 
       public Builder removeBlockInfoMap(
@@ -4220,7 +4220,7 @@ public final class PlayerLoginRspOuterClass {
         return internalGetMutableBlockInfoMap().getMutableMap();
       }
       /**
-       * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 536;</code>
+       * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 1205;</code>
        */
       public Builder putBlockInfoMap(
           int key,
@@ -4232,7 +4232,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 536;</code>
+       * <code>map&lt;uint32, .BlockInfo&gt; block_info_map = 1205;</code>
        */
 
       public Builder putAllBlockInfoMap(
@@ -4244,7 +4244,7 @@ public final class PlayerLoginRspOuterClass {
 
       private boolean cGMBIAPFHGE_ ;
       /**
-       * <code>bool CGMBIAPFHGE = 592;</code>
+       * <code>bool CGMBIAPFHGE = 1508;</code>
        * @return The cGMBIAPFHGE.
        */
       @java.lang.Override
@@ -4252,7 +4252,7 @@ public final class PlayerLoginRspOuterClass {
         return cGMBIAPFHGE_;
       }
       /**
-       * <code>bool CGMBIAPFHGE = 592;</code>
+       * <code>bool CGMBIAPFHGE = 1508;</code>
        * @param value The cGMBIAPFHGE to set.
        * @return This builder for chaining.
        */
@@ -4263,7 +4263,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>bool CGMBIAPFHGE = 592;</code>
+       * <code>bool CGMBIAPFHGE = 1508;</code>
        * @return This builder for chaining.
        */
       public Builder clearCGMBIAPFHGE() {
@@ -4286,7 +4286,7 @@ public final class PlayerLoginRspOuterClass {
           emu.grasscutter.net.proto.ShortAbilityHashPairOuterClass.ShortAbilityHashPair, emu.grasscutter.net.proto.ShortAbilityHashPairOuterClass.ShortAbilityHashPair.Builder, emu.grasscutter.net.proto.ShortAbilityHashPairOuterClass.ShortAbilityHashPairOrBuilder> shortAbilityHashMapBuilder_;
 
       /**
-       * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 631;</code>
+       * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 625;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ShortAbilityHashPairOuterClass.ShortAbilityHashPair> getShortAbilityHashMapList() {
         if (shortAbilityHashMapBuilder_ == null) {
@@ -4296,7 +4296,7 @@ public final class PlayerLoginRspOuterClass {
         }
       }
       /**
-       * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 631;</code>
+       * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 625;</code>
        */
       public int getShortAbilityHashMapCount() {
         if (shortAbilityHashMapBuilder_ == null) {
@@ -4306,7 +4306,7 @@ public final class PlayerLoginRspOuterClass {
         }
       }
       /**
-       * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 631;</code>
+       * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 625;</code>
        */
       public emu.grasscutter.net.proto.ShortAbilityHashPairOuterClass.ShortAbilityHashPair getShortAbilityHashMap(int index) {
         if (shortAbilityHashMapBuilder_ == null) {
@@ -4316,7 +4316,7 @@ public final class PlayerLoginRspOuterClass {
         }
       }
       /**
-       * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 631;</code>
+       * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 625;</code>
        */
       public Builder setShortAbilityHashMap(
           int index, emu.grasscutter.net.proto.ShortAbilityHashPairOuterClass.ShortAbilityHashPair value) {
@@ -4333,7 +4333,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 631;</code>
+       * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 625;</code>
        */
       public Builder setShortAbilityHashMap(
           int index, emu.grasscutter.net.proto.ShortAbilityHashPairOuterClass.ShortAbilityHashPair.Builder builderForValue) {
@@ -4347,7 +4347,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 631;</code>
+       * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 625;</code>
        */
       public Builder addShortAbilityHashMap(emu.grasscutter.net.proto.ShortAbilityHashPairOuterClass.ShortAbilityHashPair value) {
         if (shortAbilityHashMapBuilder_ == null) {
@@ -4363,7 +4363,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 631;</code>
+       * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 625;</code>
        */
       public Builder addShortAbilityHashMap(
           int index, emu.grasscutter.net.proto.ShortAbilityHashPairOuterClass.ShortAbilityHashPair value) {
@@ -4380,7 +4380,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 631;</code>
+       * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 625;</code>
        */
       public Builder addShortAbilityHashMap(
           emu.grasscutter.net.proto.ShortAbilityHashPairOuterClass.ShortAbilityHashPair.Builder builderForValue) {
@@ -4394,7 +4394,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 631;</code>
+       * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 625;</code>
        */
       public Builder addShortAbilityHashMap(
           int index, emu.grasscutter.net.proto.ShortAbilityHashPairOuterClass.ShortAbilityHashPair.Builder builderForValue) {
@@ -4408,7 +4408,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 631;</code>
+       * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 625;</code>
        */
       public Builder addAllShortAbilityHashMap(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.ShortAbilityHashPairOuterClass.ShortAbilityHashPair> values) {
@@ -4423,7 +4423,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 631;</code>
+       * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 625;</code>
        */
       public Builder clearShortAbilityHashMap() {
         if (shortAbilityHashMapBuilder_ == null) {
@@ -4436,7 +4436,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 631;</code>
+       * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 625;</code>
        */
       public Builder removeShortAbilityHashMap(int index) {
         if (shortAbilityHashMapBuilder_ == null) {
@@ -4449,14 +4449,14 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 631;</code>
+       * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 625;</code>
        */
       public emu.grasscutter.net.proto.ShortAbilityHashPairOuterClass.ShortAbilityHashPair.Builder getShortAbilityHashMapBuilder(
           int index) {
         return getShortAbilityHashMapFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 631;</code>
+       * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 625;</code>
        */
       public emu.grasscutter.net.proto.ShortAbilityHashPairOuterClass.ShortAbilityHashPairOrBuilder getShortAbilityHashMapOrBuilder(
           int index) {
@@ -4466,7 +4466,7 @@ public final class PlayerLoginRspOuterClass {
         }
       }
       /**
-       * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 631;</code>
+       * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 625;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.ShortAbilityHashPairOuterClass.ShortAbilityHashPairOrBuilder> 
            getShortAbilityHashMapOrBuilderList() {
@@ -4477,14 +4477,14 @@ public final class PlayerLoginRspOuterClass {
         }
       }
       /**
-       * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 631;</code>
+       * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 625;</code>
        */
       public emu.grasscutter.net.proto.ShortAbilityHashPairOuterClass.ShortAbilityHashPair.Builder addShortAbilityHashMapBuilder() {
         return getShortAbilityHashMapFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.ShortAbilityHashPairOuterClass.ShortAbilityHashPair.getDefaultInstance());
       }
       /**
-       * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 631;</code>
+       * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 625;</code>
        */
       public emu.grasscutter.net.proto.ShortAbilityHashPairOuterClass.ShortAbilityHashPair.Builder addShortAbilityHashMapBuilder(
           int index) {
@@ -4492,7 +4492,7 @@ public final class PlayerLoginRspOuterClass {
             index, emu.grasscutter.net.proto.ShortAbilityHashPairOuterClass.ShortAbilityHashPair.getDefaultInstance());
       }
       /**
-       * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 631;</code>
+       * <code>repeated .ShortAbilityHashPair short_ability_hash_map = 625;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ShortAbilityHashPairOuterClass.ShortAbilityHashPair.Builder> 
            getShortAbilityHashMapBuilderList() {
@@ -4540,7 +4540,7 @@ public final class PlayerLoginRspOuterClass {
         return internalGetKKNBKGBLHDM().getMap().size();
       }
       /**
-       * <code>map&lt;uint64, .MPGPEKAFHJG&gt; KKNBKGBLHDM = 897;</code>
+       * <code>map&lt;uint64, .MPGPEKAFHJG&gt; KKNBKGBLHDM = 1549;</code>
        */
 
       @java.lang.Override
@@ -4558,7 +4558,7 @@ public final class PlayerLoginRspOuterClass {
         return getKKNBKGBLHDMMap();
       }
       /**
-       * <code>map&lt;uint64, .MPGPEKAFHJG&gt; KKNBKGBLHDM = 897;</code>
+       * <code>map&lt;uint64, .MPGPEKAFHJG&gt; KKNBKGBLHDM = 1549;</code>
        */
       @java.lang.Override
 
@@ -4566,7 +4566,7 @@ public final class PlayerLoginRspOuterClass {
         return internalGetKKNBKGBLHDM().getMap();
       }
       /**
-       * <code>map&lt;uint64, .MPGPEKAFHJG&gt; KKNBKGBLHDM = 897;</code>
+       * <code>map&lt;uint64, .MPGPEKAFHJG&gt; KKNBKGBLHDM = 1549;</code>
        */
       @java.lang.Override
 
@@ -4579,7 +4579,7 @@ public final class PlayerLoginRspOuterClass {
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
       /**
-       * <code>map&lt;uint64, .MPGPEKAFHJG&gt; KKNBKGBLHDM = 897;</code>
+       * <code>map&lt;uint64, .MPGPEKAFHJG&gt; KKNBKGBLHDM = 1549;</code>
        */
       @java.lang.Override
 
@@ -4600,7 +4600,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>map&lt;uint64, .MPGPEKAFHJG&gt; KKNBKGBLHDM = 897;</code>
+       * <code>map&lt;uint64, .MPGPEKAFHJG&gt; KKNBKGBLHDM = 1549;</code>
        */
 
       public Builder removeKKNBKGBLHDM(
@@ -4619,7 +4619,7 @@ public final class PlayerLoginRspOuterClass {
         return internalGetMutableKKNBKGBLHDM().getMutableMap();
       }
       /**
-       * <code>map&lt;uint64, .MPGPEKAFHJG&gt; KKNBKGBLHDM = 897;</code>
+       * <code>map&lt;uint64, .MPGPEKAFHJG&gt; KKNBKGBLHDM = 1549;</code>
        */
       public Builder putKKNBKGBLHDM(
           long key,
@@ -4631,7 +4631,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>map&lt;uint64, .MPGPEKAFHJG&gt; KKNBKGBLHDM = 897;</code>
+       * <code>map&lt;uint64, .MPGPEKAFHJG&gt; KKNBKGBLHDM = 1549;</code>
        */
 
       public Builder putAllKKNBKGBLHDM(
@@ -4643,7 +4643,7 @@ public final class PlayerLoginRspOuterClass {
 
       private int aMBIGCMFEIM_ ;
       /**
-       * <code>uint32 AMBIGCMFEIM = 1092;</code>
+       * <code>uint32 AMBIGCMFEIM = 50005;</code>
        * @return The aMBIGCMFEIM.
        */
       @java.lang.Override
@@ -4651,7 +4651,7 @@ public final class PlayerLoginRspOuterClass {
         return aMBIGCMFEIM_;
       }
       /**
-       * <code>uint32 AMBIGCMFEIM = 1092;</code>
+       * <code>uint32 AMBIGCMFEIM = 50005;</code>
        * @param value The aMBIGCMFEIM to set.
        * @return This builder for chaining.
        */
@@ -4662,7 +4662,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>uint32 AMBIGCMFEIM = 1092;</code>
+       * <code>uint32 AMBIGCMFEIM = 50005;</code>
        * @return This builder for chaining.
        */
       public Builder clearAMBIGCMFEIM() {
@@ -4676,14 +4676,14 @@ public final class PlayerLoginRspOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig, emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.Builder, emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfigOrBuilder> resVersionConfigBuilder_;
       /**
-       * <code>.ResVersionConfig res_version_config = 1140;</code>
+       * <code>.ResVersionConfig res_version_config = 1911;</code>
        * @return Whether the resVersionConfig field is set.
        */
       public boolean hasResVersionConfig() {
         return resVersionConfigBuilder_ != null || resVersionConfig_ != null;
       }
       /**
-       * <code>.ResVersionConfig res_version_config = 1140;</code>
+       * <code>.ResVersionConfig res_version_config = 1911;</code>
        * @return The resVersionConfig.
        */
       public emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig getResVersionConfig() {
@@ -4694,7 +4694,7 @@ public final class PlayerLoginRspOuterClass {
         }
       }
       /**
-       * <code>.ResVersionConfig res_version_config = 1140;</code>
+       * <code>.ResVersionConfig res_version_config = 1911;</code>
        */
       public Builder setResVersionConfig(emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig value) {
         if (resVersionConfigBuilder_ == null) {
@@ -4710,7 +4710,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>.ResVersionConfig res_version_config = 1140;</code>
+       * <code>.ResVersionConfig res_version_config = 1911;</code>
        */
       public Builder setResVersionConfig(
           emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.Builder builderForValue) {
@@ -4724,7 +4724,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>.ResVersionConfig res_version_config = 1140;</code>
+       * <code>.ResVersionConfig res_version_config = 1911;</code>
        */
       public Builder mergeResVersionConfig(emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig value) {
         if (resVersionConfigBuilder_ == null) {
@@ -4742,7 +4742,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>.ResVersionConfig res_version_config = 1140;</code>
+       * <code>.ResVersionConfig res_version_config = 1911;</code>
        */
       public Builder clearResVersionConfig() {
         if (resVersionConfigBuilder_ == null) {
@@ -4756,7 +4756,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>.ResVersionConfig res_version_config = 1140;</code>
+       * <code>.ResVersionConfig res_version_config = 1911;</code>
        */
       public emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.Builder getResVersionConfigBuilder() {
         
@@ -4764,7 +4764,7 @@ public final class PlayerLoginRspOuterClass {
         return getResVersionConfigFieldBuilder().getBuilder();
       }
       /**
-       * <code>.ResVersionConfig res_version_config = 1140;</code>
+       * <code>.ResVersionConfig res_version_config = 1911;</code>
        */
       public emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfigOrBuilder getResVersionConfigOrBuilder() {
         if (resVersionConfigBuilder_ != null) {
@@ -4775,7 +4775,7 @@ public final class PlayerLoginRspOuterClass {
         }
       }
       /**
-       * <code>.ResVersionConfig res_version_config = 1140;</code>
+       * <code>.ResVersionConfig res_version_config = 1911;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig, emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.Builder, emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfigOrBuilder> 
@@ -4795,14 +4795,14 @@ public final class PlayerLoginRspOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo, emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.Builder, emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfoOrBuilder> nfachcnjoglBuilder_;
       /**
-       * <code>.StopServerInfo nfachcnjogl = 1201;</code>
+       * <code>.StopServerInfo nfachcnjogl = 50006;</code>
        * @return Whether the nfachcnjogl field is set.
        */
       public boolean hasNfachcnjogl() {
         return nfachcnjoglBuilder_ != null || nfachcnjogl_ != null;
       }
       /**
-       * <code>.StopServerInfo nfachcnjogl = 1201;</code>
+       * <code>.StopServerInfo nfachcnjogl = 50006;</code>
        * @return The nfachcnjogl.
        */
       public emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo getNfachcnjogl() {
@@ -4813,7 +4813,7 @@ public final class PlayerLoginRspOuterClass {
         }
       }
       /**
-       * <code>.StopServerInfo nfachcnjogl = 1201;</code>
+       * <code>.StopServerInfo nfachcnjogl = 50006;</code>
        */
       public Builder setNfachcnjogl(emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo value) {
         if (nfachcnjoglBuilder_ == null) {
@@ -4829,7 +4829,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>.StopServerInfo nfachcnjogl = 1201;</code>
+       * <code>.StopServerInfo nfachcnjogl = 50006;</code>
        */
       public Builder setNfachcnjogl(
           emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.Builder builderForValue) {
@@ -4843,7 +4843,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>.StopServerInfo nfachcnjogl = 1201;</code>
+       * <code>.StopServerInfo nfachcnjogl = 50006;</code>
        */
       public Builder mergeNfachcnjogl(emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo value) {
         if (nfachcnjoglBuilder_ == null) {
@@ -4861,7 +4861,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>.StopServerInfo nfachcnjogl = 1201;</code>
+       * <code>.StopServerInfo nfachcnjogl = 50006;</code>
        */
       public Builder clearNfachcnjogl() {
         if (nfachcnjoglBuilder_ == null) {
@@ -4875,7 +4875,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>.StopServerInfo nfachcnjogl = 1201;</code>
+       * <code>.StopServerInfo nfachcnjogl = 50006;</code>
        */
       public emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.Builder getNfachcnjoglBuilder() {
         
@@ -4883,7 +4883,7 @@ public final class PlayerLoginRspOuterClass {
         return getNfachcnjoglFieldBuilder().getBuilder();
       }
       /**
-       * <code>.StopServerInfo nfachcnjogl = 1201;</code>
+       * <code>.StopServerInfo nfachcnjogl = 50006;</code>
        */
       public emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfoOrBuilder getNfachcnjoglOrBuilder() {
         if (nfachcnjoglBuilder_ != null) {
@@ -4894,7 +4894,7 @@ public final class PlayerLoginRspOuterClass {
         }
       }
       /**
-       * <code>.StopServerInfo nfachcnjogl = 1201;</code>
+       * <code>.StopServerInfo nfachcnjogl = 50006;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo, emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfo.Builder, emu.grasscutter.net.proto.StopServerInfoOuterClass.StopServerInfoOrBuilder> 
@@ -4912,7 +4912,7 @@ public final class PlayerLoginRspOuterClass {
 
       private java.lang.Object clientSilenceVersionSuffix_ = "";
       /**
-       * <code>string client_silence_version_suffix = 1205;</code>
+       * <code>string client_silence_version_suffix = 50007;</code>
        * @return The clientSilenceVersionSuffix.
        */
       public java.lang.String getClientSilenceVersionSuffix() {
@@ -4928,7 +4928,7 @@ public final class PlayerLoginRspOuterClass {
         }
       }
       /**
-       * <code>string client_silence_version_suffix = 1205;</code>
+       * <code>string client_silence_version_suffix = 50007;</code>
        * @return The bytes for clientSilenceVersionSuffix.
        */
       public com.google.protobuf.ByteString
@@ -4945,7 +4945,7 @@ public final class PlayerLoginRspOuterClass {
         }
       }
       /**
-       * <code>string client_silence_version_suffix = 1205;</code>
+       * <code>string client_silence_version_suffix = 50007;</code>
        * @param value The clientSilenceVersionSuffix to set.
        * @return This builder for chaining.
        */
@@ -4960,7 +4960,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>string client_silence_version_suffix = 1205;</code>
+       * <code>string client_silence_version_suffix = 50007;</code>
        * @return This builder for chaining.
        */
       public Builder clearClientSilenceVersionSuffix() {
@@ -4970,7 +4970,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>string client_silence_version_suffix = 1205;</code>
+       * <code>string client_silence_version_suffix = 50007;</code>
        * @param value The bytes for clientSilenceVersionSuffix to set.
        * @return This builder for chaining.
        */
@@ -4988,7 +4988,7 @@ public final class PlayerLoginRspOuterClass {
 
       private boolean isScOpen_ ;
       /**
-       * <code>bool is_sc_open = 1246;</code>
+       * <code>bool is_sc_open = 50008;</code>
        * @return The isScOpen.
        */
       @java.lang.Override
@@ -4996,7 +4996,7 @@ public final class PlayerLoginRspOuterClass {
         return isScOpen_;
       }
       /**
-       * <code>bool is_sc_open = 1246;</code>
+       * <code>bool is_sc_open = 50008;</code>
        * @param value The isScOpen to set.
        * @return This builder for chaining.
        */
@@ -5007,7 +5007,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>bool is_sc_open = 1246;</code>
+       * <code>bool is_sc_open = 50008;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsScOpen() {
@@ -5019,7 +5019,7 @@ public final class PlayerLoginRspOuterClass {
 
       private boolean oEMHPIKBDMB_ ;
       /**
-       * <code>bool OEMHPIKBDMB = 1297;</code>
+       * <code>bool OEMHPIKBDMB = 50009;</code>
        * @return The oEMHPIKBDMB.
        */
       @java.lang.Override
@@ -5027,7 +5027,7 @@ public final class PlayerLoginRspOuterClass {
         return oEMHPIKBDMB_;
       }
       /**
-       * <code>bool OEMHPIKBDMB = 1297;</code>
+       * <code>bool OEMHPIKBDMB = 50009;</code>
        * @param value The oEMHPIKBDMB to set.
        * @return This builder for chaining.
        */
@@ -5038,7 +5038,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>bool OEMHPIKBDMB = 1297;</code>
+       * <code>bool OEMHPIKBDMB = 50009;</code>
        * @return This builder for chaining.
        */
       public Builder clearOEMHPIKBDMB() {
@@ -5050,7 +5050,7 @@ public final class PlayerLoginRspOuterClass {
 
       private java.lang.Object registerCps_ = "";
       /**
-       * <code>string register_cps = 1303;</code>
+       * <code>string register_cps = 790;</code>
        * @return The registerCps.
        */
       public java.lang.String getRegisterCps() {
@@ -5066,7 +5066,7 @@ public final class PlayerLoginRspOuterClass {
         }
       }
       /**
-       * <code>string register_cps = 1303;</code>
+       * <code>string register_cps = 790;</code>
        * @return The bytes for registerCps.
        */
       public com.google.protobuf.ByteString
@@ -5083,7 +5083,7 @@ public final class PlayerLoginRspOuterClass {
         }
       }
       /**
-       * <code>string register_cps = 1303;</code>
+       * <code>string register_cps = 790;</code>
        * @param value The registerCps to set.
        * @return This builder for chaining.
        */
@@ -5098,7 +5098,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>string register_cps = 1303;</code>
+       * <code>string register_cps = 790;</code>
        * @return This builder for chaining.
        */
       public Builder clearRegisterCps() {
@@ -5108,7 +5108,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>string register_cps = 1303;</code>
+       * <code>string register_cps = 790;</code>
        * @param value The bytes for registerCps to set.
        * @return This builder for chaining.
        */
@@ -5126,7 +5126,7 @@ public final class PlayerLoginRspOuterClass {
 
       private java.lang.Object msg_ = "";
       /**
-       * <code>string msg = 1316;</code>
+       * <code>string msg = 1066;</code>
        * @return The msg.
        */
       public java.lang.String getMsg() {
@@ -5142,7 +5142,7 @@ public final class PlayerLoginRspOuterClass {
         }
       }
       /**
-       * <code>string msg = 1316;</code>
+       * <code>string msg = 1066;</code>
        * @return The bytes for msg.
        */
       public com.google.protobuf.ByteString
@@ -5159,7 +5159,7 @@ public final class PlayerLoginRspOuterClass {
         }
       }
       /**
-       * <code>string msg = 1316;</code>
+       * <code>string msg = 1066;</code>
        * @param value The msg to set.
        * @return This builder for chaining.
        */
@@ -5174,7 +5174,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>string msg = 1316;</code>
+       * <code>string msg = 1066;</code>
        * @return This builder for chaining.
        */
       public Builder clearMsg() {
@@ -5184,7 +5184,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>string msg = 1316;</code>
+       * <code>string msg = 1066;</code>
        * @param value The bytes for msg to set.
        * @return This builder for chaining.
        */
@@ -5204,14 +5204,14 @@ public final class PlayerLoginRspOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.FNGEEAFJCDGOuterClass.FNGEEAFJCDG, emu.grasscutter.net.proto.FNGEEAFJCDGOuterClass.FNGEEAFJCDG.Builder, emu.grasscutter.net.proto.FNGEEAFJCDGOuterClass.FNGEEAFJCDGOrBuilder> kJEMCDAJINFBuilder_;
       /**
-       * <code>.FNGEEAFJCDG KJEMCDAJINF = 1333;</code>
+       * <code>.FNGEEAFJCDG KJEMCDAJINF = 21;</code>
        * @return Whether the kJEMCDAJINF field is set.
        */
       public boolean hasKJEMCDAJINF() {
         return kJEMCDAJINFBuilder_ != null || kJEMCDAJINF_ != null;
       }
       /**
-       * <code>.FNGEEAFJCDG KJEMCDAJINF = 1333;</code>
+       * <code>.FNGEEAFJCDG KJEMCDAJINF = 21;</code>
        * @return The kJEMCDAJINF.
        */
       public emu.grasscutter.net.proto.FNGEEAFJCDGOuterClass.FNGEEAFJCDG getKJEMCDAJINF() {
@@ -5222,7 +5222,7 @@ public final class PlayerLoginRspOuterClass {
         }
       }
       /**
-       * <code>.FNGEEAFJCDG KJEMCDAJINF = 1333;</code>
+       * <code>.FNGEEAFJCDG KJEMCDAJINF = 21;</code>
        */
       public Builder setKJEMCDAJINF(emu.grasscutter.net.proto.FNGEEAFJCDGOuterClass.FNGEEAFJCDG value) {
         if (kJEMCDAJINFBuilder_ == null) {
@@ -5238,7 +5238,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>.FNGEEAFJCDG KJEMCDAJINF = 1333;</code>
+       * <code>.FNGEEAFJCDG KJEMCDAJINF = 21;</code>
        */
       public Builder setKJEMCDAJINF(
           emu.grasscutter.net.proto.FNGEEAFJCDGOuterClass.FNGEEAFJCDG.Builder builderForValue) {
@@ -5252,7 +5252,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>.FNGEEAFJCDG KJEMCDAJINF = 1333;</code>
+       * <code>.FNGEEAFJCDG KJEMCDAJINF = 21;</code>
        */
       public Builder mergeKJEMCDAJINF(emu.grasscutter.net.proto.FNGEEAFJCDGOuterClass.FNGEEAFJCDG value) {
         if (kJEMCDAJINFBuilder_ == null) {
@@ -5270,7 +5270,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>.FNGEEAFJCDG KJEMCDAJINF = 1333;</code>
+       * <code>.FNGEEAFJCDG KJEMCDAJINF = 21;</code>
        */
       public Builder clearKJEMCDAJINF() {
         if (kJEMCDAJINFBuilder_ == null) {
@@ -5284,7 +5284,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>.FNGEEAFJCDG KJEMCDAJINF = 1333;</code>
+       * <code>.FNGEEAFJCDG KJEMCDAJINF = 21;</code>
        */
       public emu.grasscutter.net.proto.FNGEEAFJCDGOuterClass.FNGEEAFJCDG.Builder getKJEMCDAJINFBuilder() {
         
@@ -5292,7 +5292,7 @@ public final class PlayerLoginRspOuterClass {
         return getKJEMCDAJINFFieldBuilder().getBuilder();
       }
       /**
-       * <code>.FNGEEAFJCDG KJEMCDAJINF = 1333;</code>
+       * <code>.FNGEEAFJCDG KJEMCDAJINF = 21;</code>
        */
       public emu.grasscutter.net.proto.FNGEEAFJCDGOuterClass.FNGEEAFJCDGOrBuilder getKJEMCDAJINFOrBuilder() {
         if (kJEMCDAJINFBuilder_ != null) {
@@ -5303,7 +5303,7 @@ public final class PlayerLoginRspOuterClass {
         }
       }
       /**
-       * <code>.FNGEEAFJCDG KJEMCDAJINF = 1333;</code>
+       * <code>.FNGEEAFJCDG KJEMCDAJINF = 21;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.FNGEEAFJCDGOuterClass.FNGEEAFJCDG, emu.grasscutter.net.proto.FNGEEAFJCDGOuterClass.FNGEEAFJCDG.Builder, emu.grasscutter.net.proto.FNGEEAFJCDGOuterClass.FNGEEAFJCDGOrBuilder> 
@@ -5321,7 +5321,7 @@ public final class PlayerLoginRspOuterClass {
 
       private java.lang.Object countryCode_ = "";
       /**
-       * <code>string country_code = 1424;</code>
+       * <code>string country_code = 342;</code>
        * @return The countryCode.
        */
       public java.lang.String getCountryCode() {
@@ -5337,7 +5337,7 @@ public final class PlayerLoginRspOuterClass {
         }
       }
       /**
-       * <code>string country_code = 1424;</code>
+       * <code>string country_code = 342;</code>
        * @return The bytes for countryCode.
        */
       public com.google.protobuf.ByteString
@@ -5354,7 +5354,7 @@ public final class PlayerLoginRspOuterClass {
         }
       }
       /**
-       * <code>string country_code = 1424;</code>
+       * <code>string country_code = 342;</code>
        * @param value The countryCode to set.
        * @return This builder for chaining.
        */
@@ -5369,7 +5369,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>string country_code = 1424;</code>
+       * <code>string country_code = 342;</code>
        * @return This builder for chaining.
        */
       public Builder clearCountryCode() {
@@ -5379,7 +5379,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>string country_code = 1424;</code>
+       * <code>string country_code = 342;</code>
        * @param value The bytes for countryCode to set.
        * @return This builder for chaining.
        */
@@ -5397,7 +5397,7 @@ public final class PlayerLoginRspOuterClass {
 
       private boolean kLKDKMBAPGA_ ;
       /**
-       * <code>bool KLKDKMBAPGA = 1548;</code>
+       * <code>bool KLKDKMBAPGA = 50010;</code>
        * @return The kLKDKMBAPGA.
        */
       @java.lang.Override
@@ -5405,7 +5405,7 @@ public final class PlayerLoginRspOuterClass {
         return kLKDKMBAPGA_;
       }
       /**
-       * <code>bool KLKDKMBAPGA = 1548;</code>
+       * <code>bool KLKDKMBAPGA = 50010;</code>
        * @param value The kLKDKMBAPGA to set.
        * @return This builder for chaining.
        */
@@ -5416,7 +5416,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>bool KLKDKMBAPGA = 1548;</code>
+       * <code>bool KLKDKMBAPGA = 50010;</code>
        * @return This builder for chaining.
        */
       public Builder clearKLKDKMBAPGA() {
@@ -5428,7 +5428,7 @@ public final class PlayerLoginRspOuterClass {
 
       private java.lang.Object nextResourceUrl_ = "";
       /**
-       * <code>string next_resource_url = 1556;</code>
+       * <code>string next_resource_url = 55;</code>
        * @return The nextResourceUrl.
        */
       public java.lang.String getNextResourceUrl() {
@@ -5444,7 +5444,7 @@ public final class PlayerLoginRspOuterClass {
         }
       }
       /**
-       * <code>string next_resource_url = 1556;</code>
+       * <code>string next_resource_url = 55;</code>
        * @return The bytes for nextResourceUrl.
        */
       public com.google.protobuf.ByteString
@@ -5461,7 +5461,7 @@ public final class PlayerLoginRspOuterClass {
         }
       }
       /**
-       * <code>string next_resource_url = 1556;</code>
+       * <code>string next_resource_url = 55;</code>
        * @param value The nextResourceUrl to set.
        * @return This builder for chaining.
        */
@@ -5476,7 +5476,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>string next_resource_url = 1556;</code>
+       * <code>string next_resource_url = 55;</code>
        * @return This builder for chaining.
        */
       public Builder clearNextResourceUrl() {
@@ -5486,7 +5486,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>string next_resource_url = 1556;</code>
+       * <code>string next_resource_url = 55;</code>
        * @param value The bytes for nextResourceUrl to set.
        * @return This builder for chaining.
        */
@@ -5504,7 +5504,7 @@ public final class PlayerLoginRspOuterClass {
 
       private java.lang.Object clientMd5_ = "";
       /**
-       * <code>string client_md5 = 1570;</code>
+       * <code>string client_md5 = 50011;</code>
        * @return The clientMd5.
        */
       public java.lang.String getClientMd5() {
@@ -5520,7 +5520,7 @@ public final class PlayerLoginRspOuterClass {
         }
       }
       /**
-       * <code>string client_md5 = 1570;</code>
+       * <code>string client_md5 = 50011;</code>
        * @return The bytes for clientMd5.
        */
       public com.google.protobuf.ByteString
@@ -5537,7 +5537,7 @@ public final class PlayerLoginRspOuterClass {
         }
       }
       /**
-       * <code>string client_md5 = 1570;</code>
+       * <code>string client_md5 = 50011;</code>
        * @param value The clientMd5 to set.
        * @return This builder for chaining.
        */
@@ -5552,7 +5552,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>string client_md5 = 1570;</code>
+       * <code>string client_md5 = 50011;</code>
        * @return This builder for chaining.
        */
       public Builder clearClientMd5() {
@@ -5562,7 +5562,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>string client_md5 = 1570;</code>
+       * <code>string client_md5 = 50011;</code>
        * @param value The bytes for clientMd5 to set.
        * @return This builder for chaining.
        */
@@ -5582,14 +5582,14 @@ public final class PlayerLoginRspOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.NGKOPBGLDJMOuterClass.NGKOPBGLDJM, emu.grasscutter.net.proto.NGKOPBGLDJMOuterClass.NGKOPBGLDJM.Builder, emu.grasscutter.net.proto.NGKOPBGLDJMOuterClass.NGKOPBGLDJMOrBuilder> lPFKKMMLFOPBuilder_;
       /**
-       * <code>.NGKOPBGLDJM LPFKKMMLFOP = 1651;</code>
+       * <code>.NGKOPBGLDJM LPFKKMMLFOP = 368;</code>
        * @return Whether the lPFKKMMLFOP field is set.
        */
       public boolean hasLPFKKMMLFOP() {
         return lPFKKMMLFOPBuilder_ != null || lPFKKMMLFOP_ != null;
       }
       /**
-       * <code>.NGKOPBGLDJM LPFKKMMLFOP = 1651;</code>
+       * <code>.NGKOPBGLDJM LPFKKMMLFOP = 368;</code>
        * @return The lPFKKMMLFOP.
        */
       public emu.grasscutter.net.proto.NGKOPBGLDJMOuterClass.NGKOPBGLDJM getLPFKKMMLFOP() {
@@ -5600,7 +5600,7 @@ public final class PlayerLoginRspOuterClass {
         }
       }
       /**
-       * <code>.NGKOPBGLDJM LPFKKMMLFOP = 1651;</code>
+       * <code>.NGKOPBGLDJM LPFKKMMLFOP = 368;</code>
        */
       public Builder setLPFKKMMLFOP(emu.grasscutter.net.proto.NGKOPBGLDJMOuterClass.NGKOPBGLDJM value) {
         if (lPFKKMMLFOPBuilder_ == null) {
@@ -5616,7 +5616,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>.NGKOPBGLDJM LPFKKMMLFOP = 1651;</code>
+       * <code>.NGKOPBGLDJM LPFKKMMLFOP = 368;</code>
        */
       public Builder setLPFKKMMLFOP(
           emu.grasscutter.net.proto.NGKOPBGLDJMOuterClass.NGKOPBGLDJM.Builder builderForValue) {
@@ -5630,7 +5630,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>.NGKOPBGLDJM LPFKKMMLFOP = 1651;</code>
+       * <code>.NGKOPBGLDJM LPFKKMMLFOP = 368;</code>
        */
       public Builder mergeLPFKKMMLFOP(emu.grasscutter.net.proto.NGKOPBGLDJMOuterClass.NGKOPBGLDJM value) {
         if (lPFKKMMLFOPBuilder_ == null) {
@@ -5648,7 +5648,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>.NGKOPBGLDJM LPFKKMMLFOP = 1651;</code>
+       * <code>.NGKOPBGLDJM LPFKKMMLFOP = 368;</code>
        */
       public Builder clearLPFKKMMLFOP() {
         if (lPFKKMMLFOPBuilder_ == null) {
@@ -5662,7 +5662,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>.NGKOPBGLDJM LPFKKMMLFOP = 1651;</code>
+       * <code>.NGKOPBGLDJM LPFKKMMLFOP = 368;</code>
        */
       public emu.grasscutter.net.proto.NGKOPBGLDJMOuterClass.NGKOPBGLDJM.Builder getLPFKKMMLFOPBuilder() {
         
@@ -5670,7 +5670,7 @@ public final class PlayerLoginRspOuterClass {
         return getLPFKKMMLFOPFieldBuilder().getBuilder();
       }
       /**
-       * <code>.NGKOPBGLDJM LPFKKMMLFOP = 1651;</code>
+       * <code>.NGKOPBGLDJM LPFKKMMLFOP = 368;</code>
        */
       public emu.grasscutter.net.proto.NGKOPBGLDJMOuterClass.NGKOPBGLDJMOrBuilder getLPFKKMMLFOPOrBuilder() {
         if (lPFKKMMLFOPBuilder_ != null) {
@@ -5681,7 +5681,7 @@ public final class PlayerLoginRspOuterClass {
         }
       }
       /**
-       * <code>.NGKOPBGLDJM LPFKKMMLFOP = 1651;</code>
+       * <code>.NGKOPBGLDJM LPFKKMMLFOP = 368;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.NGKOPBGLDJMOuterClass.NGKOPBGLDJM, emu.grasscutter.net.proto.NGKOPBGLDJMOuterClass.NGKOPBGLDJM.Builder, emu.grasscutter.net.proto.NGKOPBGLDJMOuterClass.NGKOPBGLDJMOrBuilder> 
@@ -5699,7 +5699,7 @@ public final class PlayerLoginRspOuterClass {
 
       private int aLMPHOAOJEC_ ;
       /**
-       * <code>uint32 ALMPHOAOJEC = 1744;</code>
+       * <code>uint32 ALMPHOAOJEC = 1123;</code>
        * @return The aLMPHOAOJEC.
        */
       @java.lang.Override
@@ -5707,7 +5707,7 @@ public final class PlayerLoginRspOuterClass {
         return aLMPHOAOJEC_;
       }
       /**
-       * <code>uint32 ALMPHOAOJEC = 1744;</code>
+       * <code>uint32 ALMPHOAOJEC = 1123;</code>
        * @param value The aLMPHOAOJEC to set.
        * @return This builder for chaining.
        */
@@ -5718,7 +5718,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>uint32 ALMPHOAOJEC = 1744;</code>
+       * <code>uint32 ALMPHOAOJEC = 1123;</code>
        * @return This builder for chaining.
        */
       public Builder clearALMPHOAOJEC() {
@@ -5730,7 +5730,7 @@ public final class PlayerLoginRspOuterClass {
 
       private boolean isAudit_ ;
       /**
-       * <code>bool is_audit = 1763;</code>
+       * <code>bool is_audit = 1329;</code>
        * @return The isAudit.
        */
       @java.lang.Override
@@ -5738,7 +5738,7 @@ public final class PlayerLoginRspOuterClass {
         return isAudit_;
       }
       /**
-       * <code>bool is_audit = 1763;</code>
+       * <code>bool is_audit = 1329;</code>
        * @param value The isAudit to set.
        * @return This builder for chaining.
        */
@@ -5749,7 +5749,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>bool is_audit = 1763;</code>
+       * <code>bool is_audit = 1329;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsAudit() {
@@ -5772,7 +5772,7 @@ public final class PlayerLoginRspOuterClass {
           emu.grasscutter.net.proto.FeatureBlockInfoOuterClass.FeatureBlockInfo, emu.grasscutter.net.proto.FeatureBlockInfoOuterClass.FeatureBlockInfo.Builder, emu.grasscutter.net.proto.FeatureBlockInfoOuterClass.FeatureBlockInfoOrBuilder> featureBlockInfoListBuilder_;
 
       /**
-       * <code>repeated .FeatureBlockInfo feature_block_info_list = 1786;</code>
+       * <code>repeated .FeatureBlockInfo feature_block_info_list = 50012;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.FeatureBlockInfoOuterClass.FeatureBlockInfo> getFeatureBlockInfoListList() {
         if (featureBlockInfoListBuilder_ == null) {
@@ -5782,7 +5782,7 @@ public final class PlayerLoginRspOuterClass {
         }
       }
       /**
-       * <code>repeated .FeatureBlockInfo feature_block_info_list = 1786;</code>
+       * <code>repeated .FeatureBlockInfo feature_block_info_list = 50012;</code>
        */
       public int getFeatureBlockInfoListCount() {
         if (featureBlockInfoListBuilder_ == null) {
@@ -5792,7 +5792,7 @@ public final class PlayerLoginRspOuterClass {
         }
       }
       /**
-       * <code>repeated .FeatureBlockInfo feature_block_info_list = 1786;</code>
+       * <code>repeated .FeatureBlockInfo feature_block_info_list = 50012;</code>
        */
       public emu.grasscutter.net.proto.FeatureBlockInfoOuterClass.FeatureBlockInfo getFeatureBlockInfoList(int index) {
         if (featureBlockInfoListBuilder_ == null) {
@@ -5802,7 +5802,7 @@ public final class PlayerLoginRspOuterClass {
         }
       }
       /**
-       * <code>repeated .FeatureBlockInfo feature_block_info_list = 1786;</code>
+       * <code>repeated .FeatureBlockInfo feature_block_info_list = 50012;</code>
        */
       public Builder setFeatureBlockInfoList(
           int index, emu.grasscutter.net.proto.FeatureBlockInfoOuterClass.FeatureBlockInfo value) {
@@ -5819,7 +5819,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FeatureBlockInfo feature_block_info_list = 1786;</code>
+       * <code>repeated .FeatureBlockInfo feature_block_info_list = 50012;</code>
        */
       public Builder setFeatureBlockInfoList(
           int index, emu.grasscutter.net.proto.FeatureBlockInfoOuterClass.FeatureBlockInfo.Builder builderForValue) {
@@ -5833,7 +5833,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FeatureBlockInfo feature_block_info_list = 1786;</code>
+       * <code>repeated .FeatureBlockInfo feature_block_info_list = 50012;</code>
        */
       public Builder addFeatureBlockInfoList(emu.grasscutter.net.proto.FeatureBlockInfoOuterClass.FeatureBlockInfo value) {
         if (featureBlockInfoListBuilder_ == null) {
@@ -5849,7 +5849,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FeatureBlockInfo feature_block_info_list = 1786;</code>
+       * <code>repeated .FeatureBlockInfo feature_block_info_list = 50012;</code>
        */
       public Builder addFeatureBlockInfoList(
           int index, emu.grasscutter.net.proto.FeatureBlockInfoOuterClass.FeatureBlockInfo value) {
@@ -5866,7 +5866,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FeatureBlockInfo feature_block_info_list = 1786;</code>
+       * <code>repeated .FeatureBlockInfo feature_block_info_list = 50012;</code>
        */
       public Builder addFeatureBlockInfoList(
           emu.grasscutter.net.proto.FeatureBlockInfoOuterClass.FeatureBlockInfo.Builder builderForValue) {
@@ -5880,7 +5880,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FeatureBlockInfo feature_block_info_list = 1786;</code>
+       * <code>repeated .FeatureBlockInfo feature_block_info_list = 50012;</code>
        */
       public Builder addFeatureBlockInfoList(
           int index, emu.grasscutter.net.proto.FeatureBlockInfoOuterClass.FeatureBlockInfo.Builder builderForValue) {
@@ -5894,7 +5894,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FeatureBlockInfo feature_block_info_list = 1786;</code>
+       * <code>repeated .FeatureBlockInfo feature_block_info_list = 50012;</code>
        */
       public Builder addAllFeatureBlockInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.FeatureBlockInfoOuterClass.FeatureBlockInfo> values) {
@@ -5909,7 +5909,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FeatureBlockInfo feature_block_info_list = 1786;</code>
+       * <code>repeated .FeatureBlockInfo feature_block_info_list = 50012;</code>
        */
       public Builder clearFeatureBlockInfoList() {
         if (featureBlockInfoListBuilder_ == null) {
@@ -5922,7 +5922,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FeatureBlockInfo feature_block_info_list = 1786;</code>
+       * <code>repeated .FeatureBlockInfo feature_block_info_list = 50012;</code>
        */
       public Builder removeFeatureBlockInfoList(int index) {
         if (featureBlockInfoListBuilder_ == null) {
@@ -5935,14 +5935,14 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FeatureBlockInfo feature_block_info_list = 1786;</code>
+       * <code>repeated .FeatureBlockInfo feature_block_info_list = 50012;</code>
        */
       public emu.grasscutter.net.proto.FeatureBlockInfoOuterClass.FeatureBlockInfo.Builder getFeatureBlockInfoListBuilder(
           int index) {
         return getFeatureBlockInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .FeatureBlockInfo feature_block_info_list = 1786;</code>
+       * <code>repeated .FeatureBlockInfo feature_block_info_list = 50012;</code>
        */
       public emu.grasscutter.net.proto.FeatureBlockInfoOuterClass.FeatureBlockInfoOrBuilder getFeatureBlockInfoListOrBuilder(
           int index) {
@@ -5952,7 +5952,7 @@ public final class PlayerLoginRspOuterClass {
         }
       }
       /**
-       * <code>repeated .FeatureBlockInfo feature_block_info_list = 1786;</code>
+       * <code>repeated .FeatureBlockInfo feature_block_info_list = 50012;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.FeatureBlockInfoOuterClass.FeatureBlockInfoOrBuilder> 
            getFeatureBlockInfoListOrBuilderList() {
@@ -5963,14 +5963,14 @@ public final class PlayerLoginRspOuterClass {
         }
       }
       /**
-       * <code>repeated .FeatureBlockInfo feature_block_info_list = 1786;</code>
+       * <code>repeated .FeatureBlockInfo feature_block_info_list = 50012;</code>
        */
       public emu.grasscutter.net.proto.FeatureBlockInfoOuterClass.FeatureBlockInfo.Builder addFeatureBlockInfoListBuilder() {
         return getFeatureBlockInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.FeatureBlockInfoOuterClass.FeatureBlockInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .FeatureBlockInfo feature_block_info_list = 1786;</code>
+       * <code>repeated .FeatureBlockInfo feature_block_info_list = 50012;</code>
        */
       public emu.grasscutter.net.proto.FeatureBlockInfoOuterClass.FeatureBlockInfo.Builder addFeatureBlockInfoListBuilder(
           int index) {
@@ -5978,7 +5978,7 @@ public final class PlayerLoginRspOuterClass {
             index, emu.grasscutter.net.proto.FeatureBlockInfoOuterClass.FeatureBlockInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .FeatureBlockInfo feature_block_info_list = 1786;</code>
+       * <code>repeated .FeatureBlockInfo feature_block_info_list = 50012;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.FeatureBlockInfoOuterClass.FeatureBlockInfo.Builder> 
            getFeatureBlockInfoListBuilderList() {
@@ -6001,7 +6001,7 @@ public final class PlayerLoginRspOuterClass {
 
       private double totalTickTime_ ;
       /**
-       * <code>double total_tick_time = 1911;</code>
+       * <code>double total_tick_time = 755;</code>
        * @return The totalTickTime.
        */
       @java.lang.Override
@@ -6009,7 +6009,7 @@ public final class PlayerLoginRspOuterClass {
         return totalTickTime_;
       }
       /**
-       * <code>double total_tick_time = 1911;</code>
+       * <code>double total_tick_time = 755;</code>
        * @param value The totalTickTime to set.
        * @return This builder for chaining.
        */
@@ -6020,7 +6020,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>double total_tick_time = 1911;</code>
+       * <code>double total_tick_time = 755;</code>
        * @return This builder for chaining.
        */
       public Builder clearTotalTickTime() {
@@ -6032,7 +6032,7 @@ public final class PlayerLoginRspOuterClass {
 
       private int platformType_ ;
       /**
-       * <code>uint32 platform_type = 1967;</code>
+       * <code>uint32 platform_type = 492;</code>
        * @return The platformType.
        */
       @java.lang.Override
@@ -6040,7 +6040,7 @@ public final class PlayerLoginRspOuterClass {
         return platformType_;
       }
       /**
-       * <code>uint32 platform_type = 1967;</code>
+       * <code>uint32 platform_type = 492;</code>
        * @param value The platformType to set.
        * @return This builder for chaining.
        */
@@ -6051,7 +6051,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>uint32 platform_type = 1967;</code>
+       * <code>uint32 platform_type = 492;</code>
        * @return This builder for chaining.
        */
       public Builder clearPlatformType() {
@@ -6063,7 +6063,7 @@ public final class PlayerLoginRspOuterClass {
 
       private java.lang.Object clientSilenceMd5_ = "";
       /**
-       * <code>string client_silence_md5 = 1974;</code>
+       * <code>string client_silence_md5 = 50013;</code>
        * @return The clientSilenceMd5.
        */
       public java.lang.String getClientSilenceMd5() {
@@ -6079,7 +6079,7 @@ public final class PlayerLoginRspOuterClass {
         }
       }
       /**
-       * <code>string client_silence_md5 = 1974;</code>
+       * <code>string client_silence_md5 = 50013;</code>
        * @return The bytes for clientSilenceMd5.
        */
       public com.google.protobuf.ByteString
@@ -6096,7 +6096,7 @@ public final class PlayerLoginRspOuterClass {
         }
       }
       /**
-       * <code>string client_silence_md5 = 1974;</code>
+       * <code>string client_silence_md5 = 50013;</code>
        * @param value The clientSilenceMd5 to set.
        * @return This builder for chaining.
        */
@@ -6111,7 +6111,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>string client_silence_md5 = 1974;</code>
+       * <code>string client_silence_md5 = 50013;</code>
        * @return This builder for chaining.
        */
       public Builder clearClientSilenceMd5() {
@@ -6121,7 +6121,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>string client_silence_md5 = 1974;</code>
+       * <code>string client_silence_md5 = 50013;</code>
        * @param value The bytes for clientSilenceMd5 to set.
        * @return This builder for chaining.
        */
@@ -6139,7 +6139,7 @@ public final class PlayerLoginRspOuterClass {
 
       private boolean mBPNFGLAJOG_ ;
       /**
-       * <code>bool MBPNFGLAJOG = 1986;</code>
+       * <code>bool MBPNFGLAJOG = 653;</code>
        * @return The mBPNFGLAJOG.
        */
       @java.lang.Override
@@ -6147,7 +6147,7 @@ public final class PlayerLoginRspOuterClass {
         return mBPNFGLAJOG_;
       }
       /**
-       * <code>bool MBPNFGLAJOG = 1986;</code>
+       * <code>bool MBPNFGLAJOG = 653;</code>
        * @param value The mBPNFGLAJOG to set.
        * @return This builder for chaining.
        */
@@ -6158,7 +6158,7 @@ public final class PlayerLoginRspOuterClass {
         return this;
       }
       /**
-       * <code>bool MBPNFGLAJOG = 1986;</code>
+       * <code>bool MBPNFGLAJOG = 653;</code>
        * @return This builder for chaining.
        */
       public Builder clearMBPNFGLAJOG() {
@@ -6253,46 +6253,46 @@ public final class PlayerLoginRspOuterClass {
       "\021FNGEEAFJCDG.proto\032\026FeatureBlockInfo.pro" +
       "to\032\021MPGPEKAFHJG.proto\032\021NGKOPBGLDJM.proto" +
       "\032\026ResVersionConfig.proto\032\032ShortAbilityHa" +
-      "shPair.proto\032\024StopServerInfo.proto\"\276\013\n\016P" +
-      "layerLoginRsp\022\022\n\nis_relogin\030\001 \001(\010\022\023\n\013GHA" +
-      "JDNKLEDA\030\002 \001(\010\022\023\n\013ohmigaflnid\030\003 \001(\r\022\022\n\nl" +
-      "ogin_rand\030\004 \001(\004\022=\n\020ability_hash_map\030\005 \003(" +
-      "\0132#.PlayerLoginRsp.AbilityHashMapEntry\022\020" +
-      "\n\010game_biz\030\006 \001(\t\022\033\n\023is_use_ability_hash\030" +
-      "\007 \001(\010\022\033\n\023client_data_version\030\010 \001(\r\022#\n\033cl" +
-      "ient_silence_data_version\030\t \001(\r\022\022\n\ntarge" +
-      "t_uid\030\013 \001(\r\022\031\n\021ability_hash_code\030\r \001(\005\022\023" +
-      "\n\013player_data\030\016 \001(\014\022\017\n\007retcode\030\017 \001(\005\022\023\n\013" +
-      "GICKBBGJGCK\030( \001(\010\022\017\n\007sc_info\0309 \001(\014\022\035\n\025cl" +
-      "ient_version_suffix\030F \001(\t\0223\n\027next_res_ve" +
-      "rsion_config\030\265\001 \001(\0132\021.ResVersionConfig\022\021" +
-      "\n\010birthday\030\344\003 \001(\t\022:\n\016block_info_map\030\230\004 \003" +
-      "(\0132!.PlayerLoginRsp.BlockInfoMapEntry\022\024\n" +
-      "\013CGMBIAPFHGE\030\320\004 \001(\010\0226\n\026short_ability_has" +
-      "h_map\030\367\004 \003(\0132\025.ShortAbilityHashPair\0226\n\013K" +
-      "KNBKGBLHDM\030\201\007 \003(\0132 .PlayerLoginRsp.KKNBK" +
-      "GBLHDMEntry\022\024\n\013AMBIGCMFEIM\030\304\010 \001(\r\022.\n\022res" +
-      "_version_config\030\364\010 \001(\0132\021.ResVersionConfi" +
-      "g\022%\n\013nfachcnjogl\030\261\t \001(\0132\017.StopServerInfo" +
-      "\022&\n\035client_silence_version_suffix\030\265\t \001(\t" +
-      "\022\023\n\nis_sc_open\030\336\t \001(\010\022\024\n\013OEMHPIKBDMB\030\221\n " +
-      "\001(\010\022\025\n\014register_cps\030\227\n \001(\t\022\014\n\003msg\030\244\n \001(\t" +
-      "\022\"\n\013KJEMCDAJINF\030\265\n \001(\0132\014.FNGEEAFJCDG\022\025\n\014" +
-      "country_code\030\220\013 \001(\t\022\024\n\013KLKDKMBAPGA\030\214\014 \001(" +
-      "\010\022\032\n\021next_resource_url\030\224\014 \001(\t\022\023\n\nclient_" +
-      "md5\030\242\014 \001(\t\022\"\n\013LPFKKMMLFOP\030\363\014 \001(\0132\014.NGKOP" +
-      "BGLDJM\022\024\n\013ALMPHOAOJEC\030\320\r \001(\r\022\021\n\010is_audit" +
-      "\030\343\r \001(\010\0223\n\027feature_block_info_list\030\372\r \003(" +
-      "\0132\021.FeatureBlockInfo\022\030\n\017total_tick_time\030" +
-      "\367\016 \001(\001\022\026\n\rplatform_type\030\257\017 \001(\r\022\033\n\022client" +
-      "_silence_md5\030\266\017 \001(\t\022\024\n\013MBPNFGLAJOG\030\302\017 \001(" +
-      "\010\0325\n\023AbilityHashMapEntry\022\013\n\003key\030\001 \001(\t\022\r\n" +
-      "\005value\030\002 \001(\005:\0028\001\032?\n\021BlockInfoMapEntry\022\013\n" +
-      "\003key\030\001 \001(\r\022\031\n\005value\030\002 \001(\0132\n.BlockInfo:\0028" +
-      "\001\032@\n\020KKNBKGBLHDMEntry\022\013\n\003key\030\001 \001(\004\022\033\n\005va" +
-      "lue\030\002 \001(\0132\014.MPGPEKAFHJG:\0028\001B5\n\031emu.grass" +
-      "cutter.net.protoB\030PlayerLoginRspOuterCla" +
-      "ssb\006proto3"
+      "shPair.proto\032\024StopServerInfo.proto\"\320\013\n\016P" +
+      "layerLoginRsp\022\022\n\nis_relogin\030\016 \001(\010\022\025\n\013GHA" +
+      "JDNKLEDA\030\320\206\003 \001(\010\022\025\n\013ohmigaflnid\030\321\206\003 \001(\r\022" +
+      "\022\n\nlogin_rand\030\007 \001(\004\022=\n\020ability_hash_map\030" +
+      "\010 \003(\0132#.PlayerLoginRsp.AbilityHashMapEnt" +
+      "ry\022\020\n\010game_biz\030\013 \001(\t\022\035\n\023is_use_ability_h" +
+      "ash\030\322\206\003 \001(\010\022\033\n\023client_data_version\030\r \001(\r" +
+      "\022#\n\033client_silence_data_version\030\017 \001(\r\022\022\n" +
+      "\ntarget_uid\030\004 \001(\r\022\031\n\021ability_hash_code\030\n" +
+      " \001(\005\022\023\n\013player_data\030\003 \001(\014\022\017\n\007retcode\030\t \001" +
+      "(\005\022\025\n\013GICKBBGJGCK\030\323\206\003 \001(\010\022\020\n\007sc_info\030\317\r " +
+      "\001(\014\022\037\n\025client_version_suffix\030\324\206\003 \001(\t\0223\n\027" +
+      "next_res_version_config\030\300\017 \001(\0132\021.ResVers" +
+      "ionConfig\022\021\n\010birthday\030\240\n \001(\t\022:\n\016block_in" +
+      "fo_map\030\265\t \003(\0132!.PlayerLoginRsp.BlockInfo" +
+      "MapEntry\022\024\n\013CGMBIAPFHGE\030\344\013 \001(\010\0226\n\026short_" +
+      "ability_hash_map\030\361\004 \003(\0132\025.ShortAbilityHa" +
+      "shPair\0226\n\013KKNBKGBLHDM\030\215\014 \003(\0132 .PlayerLog" +
+      "inRsp.KKNBKGBLHDMEntry\022\025\n\013AMBIGCMFEIM\030\325\206" +
+      "\003 \001(\r\022.\n\022res_version_config\030\367\016 \001(\0132\021.Res" +
+      "VersionConfig\022&\n\013nfachcnjogl\030\326\206\003 \001(\0132\017.S" +
+      "topServerInfo\022\'\n\035client_silence_version_" +
+      "suffix\030\327\206\003 \001(\t\022\024\n\nis_sc_open\030\330\206\003 \001(\010\022\025\n\013" +
+      "OEMHPIKBDMB\030\331\206\003 \001(\010\022\025\n\014register_cps\030\226\006 \001" +
+      "(\t\022\014\n\003msg\030\252\010 \001(\t\022!\n\013KJEMCDAJINF\030\025 \001(\0132\014." +
+      "FNGEEAFJCDG\022\025\n\014country_code\030\326\002 \001(\t\022\025\n\013KL" +
+      "KDKMBAPGA\030\332\206\003 \001(\010\022\031\n\021next_resource_url\0307" +
+      " \001(\t\022\024\n\nclient_md5\030\333\206\003 \001(\t\022\"\n\013LPFKKMMLFO" +
+      "P\030\360\002 \001(\0132\014.NGKOPBGLDJM\022\024\n\013ALMPHOAOJEC\030\343\010" +
+      " \001(\r\022\021\n\010is_audit\030\261\n \001(\010\0224\n\027feature_block" +
+      "_info_list\030\334\206\003 \003(\0132\021.FeatureBlockInfo\022\030\n" +
+      "\017total_tick_time\030\363\005 \001(\001\022\026\n\rplatform_type" +
+      "\030\354\003 \001(\r\022\034\n\022client_silence_md5\030\335\206\003 \001(\t\022\024\n" +
+      "\013MBPNFGLAJOG\030\215\005 \001(\010\0325\n\023AbilityHashMapEnt" +
+      "ry\022\013\n\003key\030\001 \001(\t\022\r\n\005value\030\002 \001(\005:\0028\001\032?\n\021Bl" +
+      "ockInfoMapEntry\022\013\n\003key\030\001 \001(\r\022\031\n\005value\030\002 " +
+      "\001(\0132\n.BlockInfo:\0028\001\032@\n\020KKNBKGBLHDMEntry\022" +
+      "\013\n\003key\030\001 \001(\004\022\033\n\005value\030\002 \001(\0132\014.MPGPEKAFHJ" +
+      "G:\0028\001B5\n\031emu.grasscutter.net.protoB\030Play" +
+      "erLoginRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

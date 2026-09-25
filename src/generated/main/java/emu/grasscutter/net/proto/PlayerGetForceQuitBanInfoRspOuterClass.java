@@ -19,7 +19,7 @@ public final class PlayerGetForceQuitBanInfoRspOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 expire_time = 3;</code>
+     * <code>uint32 expire_time = 11;</code>
      * @return The expireTime.
      */
     int getExpireTime();
@@ -31,7 +31,7 @@ public final class PlayerGetForceQuitBanInfoRspOuterClass {
     int getMatchId();
 
     /**
-     * <code>int32 retcode = 10;</code>
+     * <code>int32 retcode = 12;</code>
      * @return The retcode.
      */
     int getRetcode();
@@ -81,17 +81,17 @@ public final class PlayerGetForceQuitBanInfoRspOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
-
-              expireTime_ = input.readUInt32();
-              break;
-            }
             case 64: {
 
               matchId_ = input.readUInt32();
               break;
             }
-            case 80: {
+            case 88: {
+
+              expireTime_ = input.readUInt32();
+              break;
+            }
+            case 96: {
 
               retcode_ = input.readInt32();
               break;
@@ -128,10 +128,10 @@ public final class PlayerGetForceQuitBanInfoRspOuterClass {
               emu.grasscutter.net.proto.PlayerGetForceQuitBanInfoRspOuterClass.PlayerGetForceQuitBanInfoRsp.class, emu.grasscutter.net.proto.PlayerGetForceQuitBanInfoRspOuterClass.PlayerGetForceQuitBanInfoRsp.Builder.class);
     }
 
-    public static final int EXPIRE_TIME_FIELD_NUMBER = 3;
+    public static final int EXPIRE_TIME_FIELD_NUMBER = 11;
     private int expireTime_;
     /**
-     * <code>uint32 expire_time = 3;</code>
+     * <code>uint32 expire_time = 11;</code>
      * @return The expireTime.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class PlayerGetForceQuitBanInfoRspOuterClass {
       return matchId_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 10;
+    public static final int RETCODE_FIELD_NUMBER = 12;
     private int retcode_;
     /**
-     * <code>int32 retcode = 10;</code>
+     * <code>int32 retcode = 12;</code>
      * @return The retcode.
      */
     @java.lang.Override
@@ -175,14 +175,14 @@ public final class PlayerGetForceQuitBanInfoRspOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (expireTime_ != 0) {
-        output.writeUInt32(3, expireTime_);
-      }
       if (matchId_ != 0) {
         output.writeUInt32(8, matchId_);
       }
+      if (expireTime_ != 0) {
+        output.writeUInt32(11, expireTime_);
+      }
       if (retcode_ != 0) {
-        output.writeInt32(10, retcode_);
+        output.writeInt32(12, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -193,17 +193,17 @@ public final class PlayerGetForceQuitBanInfoRspOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (expireTime_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, expireTime_);
-      }
       if (matchId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(8, matchId_);
       }
+      if (expireTime_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(11, expireTime_);
+      }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(10, retcode_);
+          .computeInt32Size(12, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -499,7 +499,7 @@ public final class PlayerGetForceQuitBanInfoRspOuterClass {
 
       private int expireTime_ ;
       /**
-       * <code>uint32 expire_time = 3;</code>
+       * <code>uint32 expire_time = 11;</code>
        * @return The expireTime.
        */
       @java.lang.Override
@@ -507,7 +507,7 @@ public final class PlayerGetForceQuitBanInfoRspOuterClass {
         return expireTime_;
       }
       /**
-       * <code>uint32 expire_time = 3;</code>
+       * <code>uint32 expire_time = 11;</code>
        * @param value The expireTime to set.
        * @return This builder for chaining.
        */
@@ -518,7 +518,7 @@ public final class PlayerGetForceQuitBanInfoRspOuterClass {
         return this;
       }
       /**
-       * <code>uint32 expire_time = 3;</code>
+       * <code>uint32 expire_time = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearExpireTime() {
@@ -561,7 +561,7 @@ public final class PlayerGetForceQuitBanInfoRspOuterClass {
 
       private int retcode_ ;
       /**
-       * <code>int32 retcode = 10;</code>
+       * <code>int32 retcode = 12;</code>
        * @return The retcode.
        */
       @java.lang.Override
@@ -569,7 +569,7 @@ public final class PlayerGetForceQuitBanInfoRspOuterClass {
         return retcode_;
       }
       /**
-       * <code>int32 retcode = 10;</code>
+       * <code>int32 retcode = 12;</code>
        * @param value The retcode to set.
        * @return This builder for chaining.
        */
@@ -580,7 +580,7 @@ public final class PlayerGetForceQuitBanInfoRspOuterClass {
         return this;
       }
       /**
-       * <code>int32 retcode = 10;</code>
+       * <code>int32 retcode = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
@@ -658,7 +658,7 @@ public final class PlayerGetForceQuitBanInfoRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\"PlayerGetForceQuitBanInfoRsp.proto\"V\n\034" +
       "PlayerGetForceQuitBanInfoRsp\022\023\n\013expire_t" +
-      "ime\030\003 \001(\r\022\020\n\010match_id\030\010 \001(\r\022\017\n\007retcode\030\n" +
+      "ime\030\013 \001(\r\022\020\n\010match_id\030\010 \001(\r\022\017\n\007retcode\030\014" +
       " \001(\005BC\n\031emu.grasscutter.net.protoB&Playe" +
       "rGetForceQuitBanInfoRspOuterClassb\006proto" +
       "3"

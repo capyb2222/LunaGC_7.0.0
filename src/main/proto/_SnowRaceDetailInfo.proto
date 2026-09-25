@@ -6,6 +6,6 @@ option java_outer_classname = "_SnowRaceDetailInfoOuterClass";
 import "LKEKPAMJHDK.proto";
 
 message _SnowRaceDetailInfo {
-	uint32 EHDNIFLECDH = 7;
-	LKEKPAMJHDK NFFJFIEHDLH = 15;
+	uint32 EHDNIFLECDH = 2;
+	LKEKPAMJHDK NFFJFIEHDLH = 3;
 }

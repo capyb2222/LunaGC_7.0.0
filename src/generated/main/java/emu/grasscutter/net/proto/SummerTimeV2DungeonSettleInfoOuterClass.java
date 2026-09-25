@@ -19,19 +19,19 @@ public final class SummerTimeV2DungeonSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 cur_dungeon_reward_limit = 1;</code>
+     * <code>uint32 cur_dungeon_reward_limit = 4;</code>
      * @return The curDungeonRewardLimit.
      */
     int getCurDungeonRewardLimit();
 
     /**
-     * <code>uint32 taken_reward_count = 12;</code>
+     * <code>uint32 taken_reward_count = 3;</code>
      * @return The takenRewardCount.
      */
     int getTakenRewardCount();
 
     /**
-     * <code>bool is_success = 13;</code>
+     * <code>bool is_success = 1;</code>
      * @return The isSuccess.
      */
     boolean getIsSuccess();
@@ -83,17 +83,17 @@ public final class SummerTimeV2DungeonSettleInfoOuterClass {
               break;
             case 8: {
 
-              curDungeonRewardLimit_ = input.readUInt32();
+              isSuccess_ = input.readBool();
               break;
             }
-            case 96: {
+            case 24: {
 
               takenRewardCount_ = input.readUInt32();
               break;
             }
-            case 104: {
+            case 32: {
 
-              isSuccess_ = input.readBool();
+              curDungeonRewardLimit_ = input.readUInt32();
               break;
             }
             default: {
@@ -128,10 +128,10 @@ public final class SummerTimeV2DungeonSettleInfoOuterClass {
               emu.grasscutter.net.proto.SummerTimeV2DungeonSettleInfoOuterClass.SummerTimeV2DungeonSettleInfo.class, emu.grasscutter.net.proto.SummerTimeV2DungeonSettleInfoOuterClass.SummerTimeV2DungeonSettleInfo.Builder.class);
     }
 
-    public static final int CUR_DUNGEON_REWARD_LIMIT_FIELD_NUMBER = 1;
+    public static final int CUR_DUNGEON_REWARD_LIMIT_FIELD_NUMBER = 4;
     private int curDungeonRewardLimit_;
     /**
-     * <code>uint32 cur_dungeon_reward_limit = 1;</code>
+     * <code>uint32 cur_dungeon_reward_limit = 4;</code>
      * @return The curDungeonRewardLimit.
      */
     @java.lang.Override
@@ -139,10 +139,10 @@ public final class SummerTimeV2DungeonSettleInfoOuterClass {
       return curDungeonRewardLimit_;
     }
 
-    public static final int TAKEN_REWARD_COUNT_FIELD_NUMBER = 12;
+    public static final int TAKEN_REWARD_COUNT_FIELD_NUMBER = 3;
     private int takenRewardCount_;
     /**
-     * <code>uint32 taken_reward_count = 12;</code>
+     * <code>uint32 taken_reward_count = 3;</code>
      * @return The takenRewardCount.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class SummerTimeV2DungeonSettleInfoOuterClass {
       return takenRewardCount_;
     }
 
-    public static final int IS_SUCCESS_FIELD_NUMBER = 13;
+    public static final int IS_SUCCESS_FIELD_NUMBER = 1;
     private boolean isSuccess_;
     /**
-     * <code>bool is_success = 13;</code>
+     * <code>bool is_success = 1;</code>
      * @return The isSuccess.
      */
     @java.lang.Override
@@ -175,14 +175,14 @@ public final class SummerTimeV2DungeonSettleInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (curDungeonRewardLimit_ != 0) {
-        output.writeUInt32(1, curDungeonRewardLimit_);
+      if (isSuccess_ != false) {
+        output.writeBool(1, isSuccess_);
       }
       if (takenRewardCount_ != 0) {
-        output.writeUInt32(12, takenRewardCount_);
+        output.writeUInt32(3, takenRewardCount_);
       }
-      if (isSuccess_ != false) {
-        output.writeBool(13, isSuccess_);
+      if (curDungeonRewardLimit_ != 0) {
+        output.writeUInt32(4, curDungeonRewardLimit_);
       }
       unknownFields.writeTo(output);
     }
@@ -193,17 +193,17 @@ public final class SummerTimeV2DungeonSettleInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (curDungeonRewardLimit_ != 0) {
+      if (isSuccess_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, curDungeonRewardLimit_);
+          .computeBoolSize(1, isSuccess_);
       }
       if (takenRewardCount_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, takenRewardCount_);
+          .computeUInt32Size(3, takenRewardCount_);
       }
-      if (isSuccess_ != false) {
+      if (curDungeonRewardLimit_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(13, isSuccess_);
+          .computeUInt32Size(4, curDungeonRewardLimit_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -500,7 +500,7 @@ public final class SummerTimeV2DungeonSettleInfoOuterClass {
 
       private int curDungeonRewardLimit_ ;
       /**
-       * <code>uint32 cur_dungeon_reward_limit = 1;</code>
+       * <code>uint32 cur_dungeon_reward_limit = 4;</code>
        * @return The curDungeonRewardLimit.
        */
       @java.lang.Override
@@ -508,7 +508,7 @@ public final class SummerTimeV2DungeonSettleInfoOuterClass {
         return curDungeonRewardLimit_;
       }
       /**
-       * <code>uint32 cur_dungeon_reward_limit = 1;</code>
+       * <code>uint32 cur_dungeon_reward_limit = 4;</code>
        * @param value The curDungeonRewardLimit to set.
        * @return This builder for chaining.
        */
@@ -519,7 +519,7 @@ public final class SummerTimeV2DungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 cur_dungeon_reward_limit = 1;</code>
+       * <code>uint32 cur_dungeon_reward_limit = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearCurDungeonRewardLimit() {
@@ -531,7 +531,7 @@ public final class SummerTimeV2DungeonSettleInfoOuterClass {
 
       private int takenRewardCount_ ;
       /**
-       * <code>uint32 taken_reward_count = 12;</code>
+       * <code>uint32 taken_reward_count = 3;</code>
        * @return The takenRewardCount.
        */
       @java.lang.Override
@@ -539,7 +539,7 @@ public final class SummerTimeV2DungeonSettleInfoOuterClass {
         return takenRewardCount_;
       }
       /**
-       * <code>uint32 taken_reward_count = 12;</code>
+       * <code>uint32 taken_reward_count = 3;</code>
        * @param value The takenRewardCount to set.
        * @return This builder for chaining.
        */
@@ -550,7 +550,7 @@ public final class SummerTimeV2DungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 taken_reward_count = 12;</code>
+       * <code>uint32 taken_reward_count = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearTakenRewardCount() {
@@ -562,7 +562,7 @@ public final class SummerTimeV2DungeonSettleInfoOuterClass {
 
       private boolean isSuccess_ ;
       /**
-       * <code>bool is_success = 13;</code>
+       * <code>bool is_success = 1;</code>
        * @return The isSuccess.
        */
       @java.lang.Override
@@ -570,7 +570,7 @@ public final class SummerTimeV2DungeonSettleInfoOuterClass {
         return isSuccess_;
       }
       /**
-       * <code>bool is_success = 13;</code>
+       * <code>bool is_success = 1;</code>
        * @param value The isSuccess to set.
        * @return This builder for chaining.
        */
@@ -581,7 +581,7 @@ public final class SummerTimeV2DungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_success = 13;</code>
+       * <code>bool is_success = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsSuccess() {
@@ -659,8 +659,8 @@ public final class SummerTimeV2DungeonSettleInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n#SummerTimeV2DungeonSettleInfo.proto\"q\n" +
       "\035SummerTimeV2DungeonSettleInfo\022 \n\030cur_du" +
-      "ngeon_reward_limit\030\001 \001(\r\022\032\n\022taken_reward" +
-      "_count\030\014 \001(\r\022\022\n\nis_success\030\r \001(\010BD\n\031emu." +
+      "ngeon_reward_limit\030\004 \001(\r\022\032\n\022taken_reward" +
+      "_count\030\003 \001(\r\022\022\n\nis_success\030\001 \001(\010BD\n\031emu." +
       "grasscutter.net.protoB\'SummerTimeV2Dunge" +
       "onSettleInfoOuterClassb\006proto3"
     };

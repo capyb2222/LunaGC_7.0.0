@@ -19,40 +19,40 @@ public final class GAMGGAFDDNGOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 pos_id = 4;</code>
+     * <code>uint32 pos_id = 9;</code>
      * @return The posId.
      */
     int getPosId();
 
     /**
-     * <code>.Vector center = 5;</code>
+     * <code>.Vector center = 8;</code>
      * @return Whether the center field is set.
      */
     boolean hasCenter();
     /**
-     * <code>.Vector center = 5;</code>
+     * <code>.Vector center = 8;</code>
      * @return The center.
      */
     emu.grasscutter.net.proto.VectorOuterClass.Vector getCenter();
     /**
-     * <code>.Vector center = 5;</code>
+     * <code>.Vector center = 8;</code>
      */
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getCenterOrBuilder();
 
     /**
-     * <code>bool is_view = 9;</code>
+     * <code>bool is_view = 14;</code>
      * @return The isView.
      */
     boolean getIsView();
 
     /**
-     * <code>uint32 open_time = 12;</code>
+     * <code>uint32 open_time = 11;</code>
      * @return The openTime.
      */
     int getOpenTime();
 
     /**
-     * <code>bool is_open = 15;</code>
+     * <code>bool is_open = 7;</code>
      * @return The isOpen.
      */
     boolean getIsOpen();
@@ -102,12 +102,12 @@ public final class GAMGGAFDDNGOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 56: {
 
-              posId_ = input.readUInt32();
+              isOpen_ = input.readBool();
               break;
             }
-            case 42: {
+            case 66: {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder subBuilder = null;
               if (center_ != null) {
                 subBuilder = center_.toBuilder();
@@ -122,17 +122,17 @@ public final class GAMGGAFDDNGOuterClass {
             }
             case 72: {
 
-              isView_ = input.readBool();
+              posId_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 88: {
 
               openTime_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 112: {
 
-              isOpen_ = input.readBool();
+              isView_ = input.readBool();
               break;
             }
             default: {
@@ -167,10 +167,10 @@ public final class GAMGGAFDDNGOuterClass {
               emu.grasscutter.net.proto.GAMGGAFDDNGOuterClass.GAMGGAFDDNG.class, emu.grasscutter.net.proto.GAMGGAFDDNGOuterClass.GAMGGAFDDNG.Builder.class);
     }
 
-    public static final int POS_ID_FIELD_NUMBER = 4;
+    public static final int POS_ID_FIELD_NUMBER = 9;
     private int posId_;
     /**
-     * <code>uint32 pos_id = 4;</code>
+     * <code>uint32 pos_id = 9;</code>
      * @return The posId.
      */
     @java.lang.Override
@@ -178,10 +178,10 @@ public final class GAMGGAFDDNGOuterClass {
       return posId_;
     }
 
-    public static final int CENTER_FIELD_NUMBER = 5;
+    public static final int CENTER_FIELD_NUMBER = 8;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector center_;
     /**
-     * <code>.Vector center = 5;</code>
+     * <code>.Vector center = 8;</code>
      * @return Whether the center field is set.
      */
     @java.lang.Override
@@ -189,7 +189,7 @@ public final class GAMGGAFDDNGOuterClass {
       return center_ != null;
     }
     /**
-     * <code>.Vector center = 5;</code>
+     * <code>.Vector center = 8;</code>
      * @return The center.
      */
     @java.lang.Override
@@ -197,17 +197,17 @@ public final class GAMGGAFDDNGOuterClass {
       return center_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : center_;
     }
     /**
-     * <code>.Vector center = 5;</code>
+     * <code>.Vector center = 8;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getCenterOrBuilder() {
       return getCenter();
     }
 
-    public static final int IS_VIEW_FIELD_NUMBER = 9;
+    public static final int IS_VIEW_FIELD_NUMBER = 14;
     private boolean isView_;
     /**
-     * <code>bool is_view = 9;</code>
+     * <code>bool is_view = 14;</code>
      * @return The isView.
      */
     @java.lang.Override
@@ -215,10 +215,10 @@ public final class GAMGGAFDDNGOuterClass {
       return isView_;
     }
 
-    public static final int OPEN_TIME_FIELD_NUMBER = 12;
+    public static final int OPEN_TIME_FIELD_NUMBER = 11;
     private int openTime_;
     /**
-     * <code>uint32 open_time = 12;</code>
+     * <code>uint32 open_time = 11;</code>
      * @return The openTime.
      */
     @java.lang.Override
@@ -226,10 +226,10 @@ public final class GAMGGAFDDNGOuterClass {
       return openTime_;
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 15;
+    public static final int IS_OPEN_FIELD_NUMBER = 7;
     private boolean isOpen_;
     /**
-     * <code>bool is_open = 15;</code>
+     * <code>bool is_open = 7;</code>
      * @return The isOpen.
      */
     @java.lang.Override
@@ -251,20 +251,20 @@ public final class GAMGGAFDDNGOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (posId_ != 0) {
-        output.writeUInt32(4, posId_);
+      if (isOpen_ != false) {
+        output.writeBool(7, isOpen_);
       }
       if (center_ != null) {
-        output.writeMessage(5, getCenter());
+        output.writeMessage(8, getCenter());
       }
-      if (isView_ != false) {
-        output.writeBool(9, isView_);
+      if (posId_ != 0) {
+        output.writeUInt32(9, posId_);
       }
       if (openTime_ != 0) {
-        output.writeUInt32(12, openTime_);
+        output.writeUInt32(11, openTime_);
       }
-      if (isOpen_ != false) {
-        output.writeBool(15, isOpen_);
+      if (isView_ != false) {
+        output.writeBool(14, isView_);
       }
       unknownFields.writeTo(output);
     }
@@ -275,25 +275,25 @@ public final class GAMGGAFDDNGOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (posId_ != 0) {
+      if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, posId_);
+          .computeBoolSize(7, isOpen_);
       }
       if (center_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, getCenter());
+          .computeMessageSize(8, getCenter());
       }
-      if (isView_ != false) {
+      if (posId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, isView_);
+          .computeUInt32Size(9, posId_);
       }
       if (openTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, openTime_);
+          .computeUInt32Size(11, openTime_);
       }
-      if (isOpen_ != false) {
+      if (isView_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(15, isOpen_);
+          .computeBoolSize(14, isView_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -624,7 +624,7 @@ public final class GAMGGAFDDNGOuterClass {
 
       private int posId_ ;
       /**
-       * <code>uint32 pos_id = 4;</code>
+       * <code>uint32 pos_id = 9;</code>
        * @return The posId.
        */
       @java.lang.Override
@@ -632,7 +632,7 @@ public final class GAMGGAFDDNGOuterClass {
         return posId_;
       }
       /**
-       * <code>uint32 pos_id = 4;</code>
+       * <code>uint32 pos_id = 9;</code>
        * @param value The posId to set.
        * @return This builder for chaining.
        */
@@ -643,7 +643,7 @@ public final class GAMGGAFDDNGOuterClass {
         return this;
       }
       /**
-       * <code>uint32 pos_id = 4;</code>
+       * <code>uint32 pos_id = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearPosId() {
@@ -657,14 +657,14 @@ public final class GAMGGAFDDNGOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> centerBuilder_;
       /**
-       * <code>.Vector center = 5;</code>
+       * <code>.Vector center = 8;</code>
        * @return Whether the center field is set.
        */
       public boolean hasCenter() {
         return centerBuilder_ != null || center_ != null;
       }
       /**
-       * <code>.Vector center = 5;</code>
+       * <code>.Vector center = 8;</code>
        * @return The center.
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector getCenter() {
@@ -675,7 +675,7 @@ public final class GAMGGAFDDNGOuterClass {
         }
       }
       /**
-       * <code>.Vector center = 5;</code>
+       * <code>.Vector center = 8;</code>
        */
       public Builder setCenter(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (centerBuilder_ == null) {
@@ -691,7 +691,7 @@ public final class GAMGGAFDDNGOuterClass {
         return this;
       }
       /**
-       * <code>.Vector center = 5;</code>
+       * <code>.Vector center = 8;</code>
        */
       public Builder setCenter(
           emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
@@ -705,7 +705,7 @@ public final class GAMGGAFDDNGOuterClass {
         return this;
       }
       /**
-       * <code>.Vector center = 5;</code>
+       * <code>.Vector center = 8;</code>
        */
       public Builder mergeCenter(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (centerBuilder_ == null) {
@@ -723,7 +723,7 @@ public final class GAMGGAFDDNGOuterClass {
         return this;
       }
       /**
-       * <code>.Vector center = 5;</code>
+       * <code>.Vector center = 8;</code>
        */
       public Builder clearCenter() {
         if (centerBuilder_ == null) {
@@ -737,7 +737,7 @@ public final class GAMGGAFDDNGOuterClass {
         return this;
       }
       /**
-       * <code>.Vector center = 5;</code>
+       * <code>.Vector center = 8;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getCenterBuilder() {
         
@@ -745,7 +745,7 @@ public final class GAMGGAFDDNGOuterClass {
         return getCenterFieldBuilder().getBuilder();
       }
       /**
-       * <code>.Vector center = 5;</code>
+       * <code>.Vector center = 8;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getCenterOrBuilder() {
         if (centerBuilder_ != null) {
@@ -756,7 +756,7 @@ public final class GAMGGAFDDNGOuterClass {
         }
       }
       /**
-       * <code>.Vector center = 5;</code>
+       * <code>.Vector center = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
@@ -774,7 +774,7 @@ public final class GAMGGAFDDNGOuterClass {
 
       private boolean isView_ ;
       /**
-       * <code>bool is_view = 9;</code>
+       * <code>bool is_view = 14;</code>
        * @return The isView.
        */
       @java.lang.Override
@@ -782,7 +782,7 @@ public final class GAMGGAFDDNGOuterClass {
         return isView_;
       }
       /**
-       * <code>bool is_view = 9;</code>
+       * <code>bool is_view = 14;</code>
        * @param value The isView to set.
        * @return This builder for chaining.
        */
@@ -793,7 +793,7 @@ public final class GAMGGAFDDNGOuterClass {
         return this;
       }
       /**
-       * <code>bool is_view = 9;</code>
+       * <code>bool is_view = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsView() {
@@ -805,7 +805,7 @@ public final class GAMGGAFDDNGOuterClass {
 
       private int openTime_ ;
       /**
-       * <code>uint32 open_time = 12;</code>
+       * <code>uint32 open_time = 11;</code>
        * @return The openTime.
        */
       @java.lang.Override
@@ -813,7 +813,7 @@ public final class GAMGGAFDDNGOuterClass {
         return openTime_;
       }
       /**
-       * <code>uint32 open_time = 12;</code>
+       * <code>uint32 open_time = 11;</code>
        * @param value The openTime to set.
        * @return This builder for chaining.
        */
@@ -824,7 +824,7 @@ public final class GAMGGAFDDNGOuterClass {
         return this;
       }
       /**
-       * <code>uint32 open_time = 12;</code>
+       * <code>uint32 open_time = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearOpenTime() {
@@ -836,7 +836,7 @@ public final class GAMGGAFDDNGOuterClass {
 
       private boolean isOpen_ ;
       /**
-       * <code>bool is_open = 15;</code>
+       * <code>bool is_open = 7;</code>
        * @return The isOpen.
        */
       @java.lang.Override
@@ -844,7 +844,7 @@ public final class GAMGGAFDDNGOuterClass {
         return isOpen_;
       }
       /**
-       * <code>bool is_open = 15;</code>
+       * <code>bool is_open = 7;</code>
        * @param value The isOpen to set.
        * @return This builder for chaining.
        */
@@ -855,7 +855,7 @@ public final class GAMGGAFDDNGOuterClass {
         return this;
       }
       /**
-       * <code>bool is_open = 15;</code>
+       * <code>bool is_open = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsOpen() {
@@ -932,9 +932,9 @@ public final class GAMGGAFDDNGOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021GAMGGAFDDNG.proto\032\014Vector.proto\"k\n\013GAM" +
-      "GGAFDDNG\022\016\n\006pos_id\030\004 \001(\r\022\027\n\006center\030\005 \001(\013" +
-      "2\007.Vector\022\017\n\007is_view\030\t \001(\010\022\021\n\topen_time\030" +
-      "\014 \001(\r\022\017\n\007is_open\030\017 \001(\010B2\n\031emu.grasscutte" +
+      "GGAFDDNG\022\016\n\006pos_id\030\t \001(\r\022\027\n\006center\030\010 \001(\013" +
+      "2\007.Vector\022\017\n\007is_view\030\016 \001(\010\022\021\n\topen_time\030" +
+      "\013 \001(\r\022\017\n\007is_open\030\007 \001(\010B2\n\031emu.grasscutte" +
       "r.net.protoB\025GAMGGAFDDNGOuterClassb\006prot" +
       "o3"
     };

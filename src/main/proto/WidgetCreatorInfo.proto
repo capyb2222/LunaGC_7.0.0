@@ -7,7 +7,7 @@ import "WidgetCreateLocationInfo.proto";
 import "WidgetCreatorOpType.proto";
 
 message WidgetCreatorInfo {
-	uint32 entity_id = 10;
-	WidgetCreatorOpType op_type = 11;
+	uint32 entity_id = 13;
+	WidgetCreatorOpType op_type = 1;
 	WidgetCreateLocationInfo location_info = 15;
 }

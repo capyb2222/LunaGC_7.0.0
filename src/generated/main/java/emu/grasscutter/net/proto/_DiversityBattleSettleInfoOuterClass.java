@@ -19,36 +19,36 @@ public final class _DiversityBattleSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 difficulty_id = 4;</code>
+     * <code>uint32 difficulty_id = 3;</code>
      * @return The difficultyId.
      */
     int getDifficultyId();
 
     /**
-     * <code>repeated uint32 score_list = 5;</code>
+     * <code>repeated uint32 score_list = 10;</code>
      * @return A list containing the scoreList.
      */
     java.util.List<java.lang.Integer> getScoreListList();
     /**
-     * <code>repeated uint32 score_list = 5;</code>
+     * <code>repeated uint32 score_list = 10;</code>
      * @return The count of scoreList.
      */
     int getScoreListCount();
     /**
-     * <code>repeated uint32 score_list = 5;</code>
+     * <code>repeated uint32 score_list = 10;</code>
      * @param index The index of the element to return.
      * @return The scoreList at the given index.
      */
     int getScoreList(int index);
 
     /**
-     * <code>bool is_new_record = 10;</code>
+     * <code>bool is_new_record = 8;</code>
      * @return The isNewRecord.
      */
     boolean getIsNewRecord();
 
     /**
-     * <code>uint32 level_id = 14;</code>
+     * <code>uint32 level_id = 15;</code>
      * @return The levelId.
      */
     int getLevelId();
@@ -100,12 +100,17 @@ public final class _DiversityBattleSettleInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 24: {
 
               difficultyId_ = input.readUInt32();
               break;
             }
-            case 40: {
+            case 64: {
+
+              isNewRecord_ = input.readBool();
+              break;
+            }
+            case 80: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 scoreList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -113,7 +118,7 @@ public final class _DiversityBattleSettleInfoOuterClass {
               scoreList_.addInt(input.readUInt32());
               break;
             }
-            case 42: {
+            case 82: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -126,12 +131,7 @@ public final class _DiversityBattleSettleInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 80: {
-
-              isNewRecord_ = input.readBool();
-              break;
-            }
-            case 112: {
+            case 120: {
 
               levelId_ = input.readUInt32();
               break;
@@ -171,10 +171,10 @@ public final class _DiversityBattleSettleInfoOuterClass {
               emu.grasscutter.net.proto._DiversityBattleSettleInfoOuterClass._DiversityBattleSettleInfo.class, emu.grasscutter.net.proto._DiversityBattleSettleInfoOuterClass._DiversityBattleSettleInfo.Builder.class);
     }
 
-    public static final int DIFFICULTY_ID_FIELD_NUMBER = 4;
+    public static final int DIFFICULTY_ID_FIELD_NUMBER = 3;
     private int difficultyId_;
     /**
-     * <code>uint32 difficulty_id = 4;</code>
+     * <code>uint32 difficulty_id = 3;</code>
      * @return The difficultyId.
      */
     @java.lang.Override
@@ -182,10 +182,10 @@ public final class _DiversityBattleSettleInfoOuterClass {
       return difficultyId_;
     }
 
-    public static final int SCORE_LIST_FIELD_NUMBER = 5;
+    public static final int SCORE_LIST_FIELD_NUMBER = 10;
     private com.google.protobuf.Internal.IntList scoreList_;
     /**
-     * <code>repeated uint32 score_list = 5;</code>
+     * <code>repeated uint32 score_list = 10;</code>
      * @return A list containing the scoreList.
      */
     @java.lang.Override
@@ -194,14 +194,14 @@ public final class _DiversityBattleSettleInfoOuterClass {
       return scoreList_;
     }
     /**
-     * <code>repeated uint32 score_list = 5;</code>
+     * <code>repeated uint32 score_list = 10;</code>
      * @return The count of scoreList.
      */
     public int getScoreListCount() {
       return scoreList_.size();
     }
     /**
-     * <code>repeated uint32 score_list = 5;</code>
+     * <code>repeated uint32 score_list = 10;</code>
      * @param index The index of the element to return.
      * @return The scoreList at the given index.
      */
@@ -210,10 +210,10 @@ public final class _DiversityBattleSettleInfoOuterClass {
     }
     private int scoreListMemoizedSerializedSize = -1;
 
-    public static final int IS_NEW_RECORD_FIELD_NUMBER = 10;
+    public static final int IS_NEW_RECORD_FIELD_NUMBER = 8;
     private boolean isNewRecord_;
     /**
-     * <code>bool is_new_record = 10;</code>
+     * <code>bool is_new_record = 8;</code>
      * @return The isNewRecord.
      */
     @java.lang.Override
@@ -221,10 +221,10 @@ public final class _DiversityBattleSettleInfoOuterClass {
       return isNewRecord_;
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 14;
+    public static final int LEVEL_ID_FIELD_NUMBER = 15;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 14;</code>
+     * <code>uint32 level_id = 15;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -248,20 +248,20 @@ public final class _DiversityBattleSettleInfoOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (difficultyId_ != 0) {
-        output.writeUInt32(4, difficultyId_);
+        output.writeUInt32(3, difficultyId_);
+      }
+      if (isNewRecord_ != false) {
+        output.writeBool(8, isNewRecord_);
       }
       if (getScoreListList().size() > 0) {
-        output.writeUInt32NoTag(42);
+        output.writeUInt32NoTag(82);
         output.writeUInt32NoTag(scoreListMemoizedSerializedSize);
       }
       for (int i = 0; i < scoreList_.size(); i++) {
         output.writeUInt32NoTag(scoreList_.getInt(i));
       }
-      if (isNewRecord_ != false) {
-        output.writeBool(10, isNewRecord_);
-      }
       if (levelId_ != 0) {
-        output.writeUInt32(14, levelId_);
+        output.writeUInt32(15, levelId_);
       }
       unknownFields.writeTo(output);
     }
@@ -274,7 +274,11 @@ public final class _DiversityBattleSettleInfoOuterClass {
       size = 0;
       if (difficultyId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, difficultyId_);
+          .computeUInt32Size(3, difficultyId_);
+      }
+      if (isNewRecord_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(8, isNewRecord_);
       }
       {
         int dataSize = 0;
@@ -290,13 +294,9 @@ public final class _DiversityBattleSettleInfoOuterClass {
         }
         scoreListMemoizedSerializedSize = dataSize;
       }
-      if (isNewRecord_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(10, isNewRecord_);
-      }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, levelId_);
+          .computeUInt32Size(15, levelId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -618,7 +618,7 @@ public final class _DiversityBattleSettleInfoOuterClass {
 
       private int difficultyId_ ;
       /**
-       * <code>uint32 difficulty_id = 4;</code>
+       * <code>uint32 difficulty_id = 3;</code>
        * @return The difficultyId.
        */
       @java.lang.Override
@@ -626,7 +626,7 @@ public final class _DiversityBattleSettleInfoOuterClass {
         return difficultyId_;
       }
       /**
-       * <code>uint32 difficulty_id = 4;</code>
+       * <code>uint32 difficulty_id = 3;</code>
        * @param value The difficultyId to set.
        * @return This builder for chaining.
        */
@@ -637,7 +637,7 @@ public final class _DiversityBattleSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 difficulty_id = 4;</code>
+       * <code>uint32 difficulty_id = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearDifficultyId() {
@@ -655,7 +655,7 @@ public final class _DiversityBattleSettleInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 score_list = 5;</code>
+       * <code>repeated uint32 score_list = 10;</code>
        * @return A list containing the scoreList.
        */
       public java.util.List<java.lang.Integer>
@@ -664,14 +664,14 @@ public final class _DiversityBattleSettleInfoOuterClass {
                  java.util.Collections.unmodifiableList(scoreList_) : scoreList_;
       }
       /**
-       * <code>repeated uint32 score_list = 5;</code>
+       * <code>repeated uint32 score_list = 10;</code>
        * @return The count of scoreList.
        */
       public int getScoreListCount() {
         return scoreList_.size();
       }
       /**
-       * <code>repeated uint32 score_list = 5;</code>
+       * <code>repeated uint32 score_list = 10;</code>
        * @param index The index of the element to return.
        * @return The scoreList at the given index.
        */
@@ -679,7 +679,7 @@ public final class _DiversityBattleSettleInfoOuterClass {
         return scoreList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 score_list = 5;</code>
+       * <code>repeated uint32 score_list = 10;</code>
        * @param index The index to set the value at.
        * @param value The scoreList to set.
        * @return This builder for chaining.
@@ -692,7 +692,7 @@ public final class _DiversityBattleSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 score_list = 5;</code>
+       * <code>repeated uint32 score_list = 10;</code>
        * @param value The scoreList to add.
        * @return This builder for chaining.
        */
@@ -703,7 +703,7 @@ public final class _DiversityBattleSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 score_list = 5;</code>
+       * <code>repeated uint32 score_list = 10;</code>
        * @param values The scoreList to add.
        * @return This builder for chaining.
        */
@@ -716,7 +716,7 @@ public final class _DiversityBattleSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 score_list = 5;</code>
+       * <code>repeated uint32 score_list = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearScoreList() {
@@ -728,7 +728,7 @@ public final class _DiversityBattleSettleInfoOuterClass {
 
       private boolean isNewRecord_ ;
       /**
-       * <code>bool is_new_record = 10;</code>
+       * <code>bool is_new_record = 8;</code>
        * @return The isNewRecord.
        */
       @java.lang.Override
@@ -736,7 +736,7 @@ public final class _DiversityBattleSettleInfoOuterClass {
         return isNewRecord_;
       }
       /**
-       * <code>bool is_new_record = 10;</code>
+       * <code>bool is_new_record = 8;</code>
        * @param value The isNewRecord to set.
        * @return This builder for chaining.
        */
@@ -747,7 +747,7 @@ public final class _DiversityBattleSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_new_record = 10;</code>
+       * <code>bool is_new_record = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsNewRecord() {
@@ -759,7 +759,7 @@ public final class _DiversityBattleSettleInfoOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 14;</code>
+       * <code>uint32 level_id = 15;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -767,7 +767,7 @@ public final class _DiversityBattleSettleInfoOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 14;</code>
+       * <code>uint32 level_id = 15;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -778,7 +778,7 @@ public final class _DiversityBattleSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 14;</code>
+       * <code>uint32 level_id = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -856,8 +856,8 @@ public final class _DiversityBattleSettleInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n _DiversityBattleSettleInfo.proto\"p\n\032_D" +
       "iversityBattleSettleInfo\022\025\n\rdifficulty_i" +
-      "d\030\004 \001(\r\022\022\n\nscore_list\030\005 \003(\r\022\025\n\ris_new_re" +
-      "cord\030\n \001(\010\022\020\n\010level_id\030\016 \001(\rBA\n\031emu.gras" +
+      "d\030\003 \001(\r\022\022\n\nscore_list\030\n \003(\r\022\025\n\ris_new_re" +
+      "cord\030\010 \001(\010\022\020\n\010level_id\030\017 \001(\rBA\n\031emu.gras" +
       "scutter.net.protoB$_DiversityBattleSettl" +
       "eInfoOuterClassb\006proto3"
     };

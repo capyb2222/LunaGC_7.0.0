@@ -7,5 +7,5 @@ import "AvatarTeam.proto";
 
 message AvatarTeamUpdateNotify {
 	repeated uint64 temp_avatar_guid_list = 4;
-	map<uint32, AvatarTeam> avatar_team_map = 7;
+	map<uint32, AvatarTeam> avatar_team_map = 2;
 }

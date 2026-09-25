@@ -19,13 +19,13 @@ public final class UnlockAvatarTalentReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint64 avatar_guid = 2;</code>
+     * <code>uint64 avatar_guid = 8;</code>
      * @return The avatarGuid.
      */
     long getAvatarGuid();
 
     /**
-     * <code>uint32 talent_id = 8;</code>
+     * <code>uint32 talent_id = 13;</code>
      * @return The talentId.
      */
     int getTalentId();
@@ -75,12 +75,12 @@ public final class UnlockAvatarTalentReqOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 64: {
 
               avatarGuid_ = input.readUInt64();
               break;
             }
-            case 64: {
+            case 104: {
 
               talentId_ = input.readUInt32();
               break;
@@ -117,10 +117,10 @@ public final class UnlockAvatarTalentReqOuterClass {
               emu.grasscutter.net.proto.UnlockAvatarTalentReqOuterClass.UnlockAvatarTalentReq.class, emu.grasscutter.net.proto.UnlockAvatarTalentReqOuterClass.UnlockAvatarTalentReq.Builder.class);
     }
 
-    public static final int AVATAR_GUID_FIELD_NUMBER = 2;
+    public static final int AVATAR_GUID_FIELD_NUMBER = 8;
     private long avatarGuid_;
     /**
-     * <code>uint64 avatar_guid = 2;</code>
+     * <code>uint64 avatar_guid = 8;</code>
      * @return The avatarGuid.
      */
     @java.lang.Override
@@ -128,10 +128,10 @@ public final class UnlockAvatarTalentReqOuterClass {
       return avatarGuid_;
     }
 
-    public static final int TALENT_ID_FIELD_NUMBER = 8;
+    public static final int TALENT_ID_FIELD_NUMBER = 13;
     private int talentId_;
     /**
-     * <code>uint32 talent_id = 8;</code>
+     * <code>uint32 talent_id = 13;</code>
      * @return The talentId.
      */
     @java.lang.Override
@@ -154,10 +154,10 @@ public final class UnlockAvatarTalentReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (avatarGuid_ != 0L) {
-        output.writeUInt64(2, avatarGuid_);
+        output.writeUInt64(8, avatarGuid_);
       }
       if (talentId_ != 0) {
-        output.writeUInt32(8, talentId_);
+        output.writeUInt32(13, talentId_);
       }
       unknownFields.writeTo(output);
     }
@@ -170,11 +170,11 @@ public final class UnlockAvatarTalentReqOuterClass {
       size = 0;
       if (avatarGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(2, avatarGuid_);
+          .computeUInt64Size(8, avatarGuid_);
       }
       if (talentId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, talentId_);
+          .computeUInt32Size(13, talentId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -461,7 +461,7 @@ public final class UnlockAvatarTalentReqOuterClass {
 
       private long avatarGuid_ ;
       /**
-       * <code>uint64 avatar_guid = 2;</code>
+       * <code>uint64 avatar_guid = 8;</code>
        * @return The avatarGuid.
        */
       @java.lang.Override
@@ -469,7 +469,7 @@ public final class UnlockAvatarTalentReqOuterClass {
         return avatarGuid_;
       }
       /**
-       * <code>uint64 avatar_guid = 2;</code>
+       * <code>uint64 avatar_guid = 8;</code>
        * @param value The avatarGuid to set.
        * @return This builder for chaining.
        */
@@ -480,7 +480,7 @@ public final class UnlockAvatarTalentReqOuterClass {
         return this;
       }
       /**
-       * <code>uint64 avatar_guid = 2;</code>
+       * <code>uint64 avatar_guid = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearAvatarGuid() {
@@ -492,7 +492,7 @@ public final class UnlockAvatarTalentReqOuterClass {
 
       private int talentId_ ;
       /**
-       * <code>uint32 talent_id = 8;</code>
+       * <code>uint32 talent_id = 13;</code>
        * @return The talentId.
        */
       @java.lang.Override
@@ -500,7 +500,7 @@ public final class UnlockAvatarTalentReqOuterClass {
         return talentId_;
       }
       /**
-       * <code>uint32 talent_id = 8;</code>
+       * <code>uint32 talent_id = 13;</code>
        * @param value The talentId to set.
        * @return This builder for chaining.
        */
@@ -511,7 +511,7 @@ public final class UnlockAvatarTalentReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 talent_id = 8;</code>
+       * <code>uint32 talent_id = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearTalentId() {
@@ -588,8 +588,8 @@ public final class UnlockAvatarTalentReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\033UnlockAvatarTalentReq.proto\"?\n\025UnlockA" +
-      "vatarTalentReq\022\023\n\013avatar_guid\030\002 \001(\004\022\021\n\tt" +
-      "alent_id\030\010 \001(\rB<\n\031emu.grasscutter.net.pr" +
+      "vatarTalentReq\022\023\n\013avatar_guid\030\010 \001(\004\022\021\n\tt" +
+      "alent_id\030\r \001(\rB<\n\031emu.grasscutter.net.pr" +
       "otoB\037UnlockAvatarTalentReqOuterClassb\006pr" +
       "oto3"
     };

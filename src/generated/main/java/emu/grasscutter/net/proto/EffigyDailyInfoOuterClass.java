@@ -19,43 +19,43 @@ public final class EffigyDailyInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 challenge_max_score = 2;</code>
+     * <code>uint32 challenge_max_score = 6;</code>
      * @return The challengeMaxScore.
      */
     int getChallengeMaxScore();
 
     /**
-     * <code>uint32 challenge_id = 4;</code>
+     * <code>uint32 challenge_id = 9;</code>
      * @return The challengeId.
      */
     int getChallengeId();
 
     /**
-     * <code>uint32 kdllalbpple = 5;</code>
+     * <code>uint32 kdllalbpple = 50000;</code>
      * @return The kdllalbpple.
      */
     int getKdllalbpple();
 
     /**
-     * <code>uint32 day_index = 6;</code>
+     * <code>uint32 day_index = 7;</code>
      * @return The dayIndex.
      */
     int getDayIndex();
 
     /**
-     * <code>uint32 begin_time = 13;</code>
+     * <code>uint32 begin_time = 15;</code>
      * @return The beginTime.
      */
     int getBeginTime();
 
     /**
-     * <code>uint32 bojlbfloapn = 14;</code>
+     * <code>uint32 bojlbfloapn = 50001;</code>
      * @return The bojlbfloapn.
      */
     int getBojlbfloapn();
 
     /**
-     * <code>bool is_first_pass_reward_taken = 15;</code>
+     * <code>bool is_first_pass_reward_taken = 14;</code>
      * @return The isFirstPassRewardTaken.
      */
     boolean getIsFirstPassRewardTaken();
@@ -105,39 +105,39 @@ public final class EffigyDailyInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 48: {
 
               challengeMaxScore_ = input.readUInt32();
               break;
             }
-            case 32: {
-
-              challengeId_ = input.readUInt32();
-              break;
-            }
-            case 40: {
-
-              kdllalbpple_ = input.readUInt32();
-              break;
-            }
-            case 48: {
+            case 56: {
 
               dayIndex_ = input.readUInt32();
               break;
             }
-            case 104: {
+            case 72: {
 
-              beginTime_ = input.readUInt32();
+              challengeId_ = input.readUInt32();
               break;
             }
             case 112: {
 
-              bojlbfloapn_ = input.readUInt32();
+              isFirstPassRewardTaken_ = input.readBool();
               break;
             }
             case 120: {
 
-              isFirstPassRewardTaken_ = input.readBool();
+              beginTime_ = input.readUInt32();
+              break;
+            }
+            case 400000: {
+
+              kdllalbpple_ = input.readUInt32();
+              break;
+            }
+            case 400008: {
+
+              bojlbfloapn_ = input.readUInt32();
               break;
             }
             default: {
@@ -172,10 +172,10 @@ public final class EffigyDailyInfoOuterClass {
               emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfo.class, emu.grasscutter.net.proto.EffigyDailyInfoOuterClass.EffigyDailyInfo.Builder.class);
     }
 
-    public static final int CHALLENGE_MAX_SCORE_FIELD_NUMBER = 2;
+    public static final int CHALLENGE_MAX_SCORE_FIELD_NUMBER = 6;
     private int challengeMaxScore_;
     /**
-     * <code>uint32 challenge_max_score = 2;</code>
+     * <code>uint32 challenge_max_score = 6;</code>
      * @return The challengeMaxScore.
      */
     @java.lang.Override
@@ -183,10 +183,10 @@ public final class EffigyDailyInfoOuterClass {
       return challengeMaxScore_;
     }
 
-    public static final int CHALLENGE_ID_FIELD_NUMBER = 4;
+    public static final int CHALLENGE_ID_FIELD_NUMBER = 9;
     private int challengeId_;
     /**
-     * <code>uint32 challenge_id = 4;</code>
+     * <code>uint32 challenge_id = 9;</code>
      * @return The challengeId.
      */
     @java.lang.Override
@@ -194,10 +194,10 @@ public final class EffigyDailyInfoOuterClass {
       return challengeId_;
     }
 
-    public static final int KDLLALBPPLE_FIELD_NUMBER = 5;
+    public static final int KDLLALBPPLE_FIELD_NUMBER = 50000;
     private int kdllalbpple_;
     /**
-     * <code>uint32 kdllalbpple = 5;</code>
+     * <code>uint32 kdllalbpple = 50000;</code>
      * @return The kdllalbpple.
      */
     @java.lang.Override
@@ -205,10 +205,10 @@ public final class EffigyDailyInfoOuterClass {
       return kdllalbpple_;
     }
 
-    public static final int DAY_INDEX_FIELD_NUMBER = 6;
+    public static final int DAY_INDEX_FIELD_NUMBER = 7;
     private int dayIndex_;
     /**
-     * <code>uint32 day_index = 6;</code>
+     * <code>uint32 day_index = 7;</code>
      * @return The dayIndex.
      */
     @java.lang.Override
@@ -216,10 +216,10 @@ public final class EffigyDailyInfoOuterClass {
       return dayIndex_;
     }
 
-    public static final int BEGIN_TIME_FIELD_NUMBER = 13;
+    public static final int BEGIN_TIME_FIELD_NUMBER = 15;
     private int beginTime_;
     /**
-     * <code>uint32 begin_time = 13;</code>
+     * <code>uint32 begin_time = 15;</code>
      * @return The beginTime.
      */
     @java.lang.Override
@@ -227,10 +227,10 @@ public final class EffigyDailyInfoOuterClass {
       return beginTime_;
     }
 
-    public static final int BOJLBFLOAPN_FIELD_NUMBER = 14;
+    public static final int BOJLBFLOAPN_FIELD_NUMBER = 50001;
     private int bojlbfloapn_;
     /**
-     * <code>uint32 bojlbfloapn = 14;</code>
+     * <code>uint32 bojlbfloapn = 50001;</code>
      * @return The bojlbfloapn.
      */
     @java.lang.Override
@@ -238,10 +238,10 @@ public final class EffigyDailyInfoOuterClass {
       return bojlbfloapn_;
     }
 
-    public static final int IS_FIRST_PASS_REWARD_TAKEN_FIELD_NUMBER = 15;
+    public static final int IS_FIRST_PASS_REWARD_TAKEN_FIELD_NUMBER = 14;
     private boolean isFirstPassRewardTaken_;
     /**
-     * <code>bool is_first_pass_reward_taken = 15;</code>
+     * <code>bool is_first_pass_reward_taken = 14;</code>
      * @return The isFirstPassRewardTaken.
      */
     @java.lang.Override
@@ -264,25 +264,25 @@ public final class EffigyDailyInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (challengeMaxScore_ != 0) {
-        output.writeUInt32(2, challengeMaxScore_);
-      }
-      if (challengeId_ != 0) {
-        output.writeUInt32(4, challengeId_);
-      }
-      if (kdllalbpple_ != 0) {
-        output.writeUInt32(5, kdllalbpple_);
+        output.writeUInt32(6, challengeMaxScore_);
       }
       if (dayIndex_ != 0) {
-        output.writeUInt32(6, dayIndex_);
+        output.writeUInt32(7, dayIndex_);
       }
-      if (beginTime_ != 0) {
-        output.writeUInt32(13, beginTime_);
-      }
-      if (bojlbfloapn_ != 0) {
-        output.writeUInt32(14, bojlbfloapn_);
+      if (challengeId_ != 0) {
+        output.writeUInt32(9, challengeId_);
       }
       if (isFirstPassRewardTaken_ != false) {
-        output.writeBool(15, isFirstPassRewardTaken_);
+        output.writeBool(14, isFirstPassRewardTaken_);
+      }
+      if (beginTime_ != 0) {
+        output.writeUInt32(15, beginTime_);
+      }
+      if (kdllalbpple_ != 0) {
+        output.writeUInt32(50000, kdllalbpple_);
+      }
+      if (bojlbfloapn_ != 0) {
+        output.writeUInt32(50001, bojlbfloapn_);
       }
       unknownFields.writeTo(output);
     }
@@ -295,31 +295,31 @@ public final class EffigyDailyInfoOuterClass {
       size = 0;
       if (challengeMaxScore_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, challengeMaxScore_);
-      }
-      if (challengeId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, challengeId_);
-      }
-      if (kdllalbpple_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, kdllalbpple_);
+          .computeUInt32Size(6, challengeMaxScore_);
       }
       if (dayIndex_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, dayIndex_);
+          .computeUInt32Size(7, dayIndex_);
       }
-      if (beginTime_ != 0) {
+      if (challengeId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, beginTime_);
-      }
-      if (bojlbfloapn_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, bojlbfloapn_);
+          .computeUInt32Size(9, challengeId_);
       }
       if (isFirstPassRewardTaken_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(15, isFirstPassRewardTaken_);
+          .computeBoolSize(14, isFirstPassRewardTaken_);
+      }
+      if (beginTime_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(15, beginTime_);
+      }
+      if (kdllalbpple_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50000, kdllalbpple_);
+      }
+      if (bojlbfloapn_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50001, bojlbfloapn_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -656,7 +656,7 @@ public final class EffigyDailyInfoOuterClass {
 
       private int challengeMaxScore_ ;
       /**
-       * <code>uint32 challenge_max_score = 2;</code>
+       * <code>uint32 challenge_max_score = 6;</code>
        * @return The challengeMaxScore.
        */
       @java.lang.Override
@@ -664,7 +664,7 @@ public final class EffigyDailyInfoOuterClass {
         return challengeMaxScore_;
       }
       /**
-       * <code>uint32 challenge_max_score = 2;</code>
+       * <code>uint32 challenge_max_score = 6;</code>
        * @param value The challengeMaxScore to set.
        * @return This builder for chaining.
        */
@@ -675,7 +675,7 @@ public final class EffigyDailyInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 challenge_max_score = 2;</code>
+       * <code>uint32 challenge_max_score = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearChallengeMaxScore() {
@@ -687,7 +687,7 @@ public final class EffigyDailyInfoOuterClass {
 
       private int challengeId_ ;
       /**
-       * <code>uint32 challenge_id = 4;</code>
+       * <code>uint32 challenge_id = 9;</code>
        * @return The challengeId.
        */
       @java.lang.Override
@@ -695,7 +695,7 @@ public final class EffigyDailyInfoOuterClass {
         return challengeId_;
       }
       /**
-       * <code>uint32 challenge_id = 4;</code>
+       * <code>uint32 challenge_id = 9;</code>
        * @param value The challengeId to set.
        * @return This builder for chaining.
        */
@@ -706,7 +706,7 @@ public final class EffigyDailyInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 challenge_id = 4;</code>
+       * <code>uint32 challenge_id = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearChallengeId() {
@@ -718,7 +718,7 @@ public final class EffigyDailyInfoOuterClass {
 
       private int kdllalbpple_ ;
       /**
-       * <code>uint32 kdllalbpple = 5;</code>
+       * <code>uint32 kdllalbpple = 50000;</code>
        * @return The kdllalbpple.
        */
       @java.lang.Override
@@ -726,7 +726,7 @@ public final class EffigyDailyInfoOuterClass {
         return kdllalbpple_;
       }
       /**
-       * <code>uint32 kdllalbpple = 5;</code>
+       * <code>uint32 kdllalbpple = 50000;</code>
        * @param value The kdllalbpple to set.
        * @return This builder for chaining.
        */
@@ -737,7 +737,7 @@ public final class EffigyDailyInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 kdllalbpple = 5;</code>
+       * <code>uint32 kdllalbpple = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearKdllalbpple() {
@@ -749,7 +749,7 @@ public final class EffigyDailyInfoOuterClass {
 
       private int dayIndex_ ;
       /**
-       * <code>uint32 day_index = 6;</code>
+       * <code>uint32 day_index = 7;</code>
        * @return The dayIndex.
        */
       @java.lang.Override
@@ -757,7 +757,7 @@ public final class EffigyDailyInfoOuterClass {
         return dayIndex_;
       }
       /**
-       * <code>uint32 day_index = 6;</code>
+       * <code>uint32 day_index = 7;</code>
        * @param value The dayIndex to set.
        * @return This builder for chaining.
        */
@@ -768,7 +768,7 @@ public final class EffigyDailyInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 day_index = 6;</code>
+       * <code>uint32 day_index = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearDayIndex() {
@@ -780,7 +780,7 @@ public final class EffigyDailyInfoOuterClass {
 
       private int beginTime_ ;
       /**
-       * <code>uint32 begin_time = 13;</code>
+       * <code>uint32 begin_time = 15;</code>
        * @return The beginTime.
        */
       @java.lang.Override
@@ -788,7 +788,7 @@ public final class EffigyDailyInfoOuterClass {
         return beginTime_;
       }
       /**
-       * <code>uint32 begin_time = 13;</code>
+       * <code>uint32 begin_time = 15;</code>
        * @param value The beginTime to set.
        * @return This builder for chaining.
        */
@@ -799,7 +799,7 @@ public final class EffigyDailyInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 begin_time = 13;</code>
+       * <code>uint32 begin_time = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearBeginTime() {
@@ -811,7 +811,7 @@ public final class EffigyDailyInfoOuterClass {
 
       private int bojlbfloapn_ ;
       /**
-       * <code>uint32 bojlbfloapn = 14;</code>
+       * <code>uint32 bojlbfloapn = 50001;</code>
        * @return The bojlbfloapn.
        */
       @java.lang.Override
@@ -819,7 +819,7 @@ public final class EffigyDailyInfoOuterClass {
         return bojlbfloapn_;
       }
       /**
-       * <code>uint32 bojlbfloapn = 14;</code>
+       * <code>uint32 bojlbfloapn = 50001;</code>
        * @param value The bojlbfloapn to set.
        * @return This builder for chaining.
        */
@@ -830,7 +830,7 @@ public final class EffigyDailyInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 bojlbfloapn = 14;</code>
+       * <code>uint32 bojlbfloapn = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearBojlbfloapn() {
@@ -842,7 +842,7 @@ public final class EffigyDailyInfoOuterClass {
 
       private boolean isFirstPassRewardTaken_ ;
       /**
-       * <code>bool is_first_pass_reward_taken = 15;</code>
+       * <code>bool is_first_pass_reward_taken = 14;</code>
        * @return The isFirstPassRewardTaken.
        */
       @java.lang.Override
@@ -850,7 +850,7 @@ public final class EffigyDailyInfoOuterClass {
         return isFirstPassRewardTaken_;
       }
       /**
-       * <code>bool is_first_pass_reward_taken = 15;</code>
+       * <code>bool is_first_pass_reward_taken = 14;</code>
        * @param value The isFirstPassRewardTaken to set.
        * @return This builder for chaining.
        */
@@ -861,7 +861,7 @@ public final class EffigyDailyInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_first_pass_reward_taken = 15;</code>
+       * <code>bool is_first_pass_reward_taken = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsFirstPassRewardTaken() {
@@ -937,13 +937,13 @@ public final class EffigyDailyInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\025EffigyDailyInfo.proto\"\271\001\n\017EffigyDailyI" +
-      "nfo\022\033\n\023challenge_max_score\030\002 \001(\r\022\024\n\014chal" +
-      "lenge_id\030\004 \001(\r\022\023\n\013kdllalbpple\030\005 \001(\r\022\021\n\td" +
-      "ay_index\030\006 \001(\r\022\022\n\nbegin_time\030\r \001(\r\022\023\n\013bo" +
-      "jlbfloapn\030\016 \001(\r\022\"\n\032is_first_pass_reward_" +
-      "taken\030\017 \001(\010B6\n\031emu.grasscutter.net.proto" +
-      "B\031EffigyDailyInfoOuterClassb\006proto3"
+      "\n\025EffigyDailyInfo.proto\"\275\001\n\017EffigyDailyI" +
+      "nfo\022\033\n\023challenge_max_score\030\006 \001(\r\022\024\n\014chal" +
+      "lenge_id\030\t \001(\r\022\025\n\013kdllalbpple\030\320\206\003 \001(\r\022\021\n" +
+      "\tday_index\030\007 \001(\r\022\022\n\nbegin_time\030\017 \001(\r\022\025\n\013" +
+      "bojlbfloapn\030\321\206\003 \001(\r\022\"\n\032is_first_pass_rew" +
+      "ard_taken\030\016 \001(\010B6\n\031emu.grasscutter.net.p" +
+      "rotoB\031EffigyDailyInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

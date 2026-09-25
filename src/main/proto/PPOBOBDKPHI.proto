@@ -6,6 +6,6 @@ option java_outer_classname = "PPOBOBDKPHIOuterClass";
 import "KFBPPANOKHA.proto";
 
 message PPOBOBDKPHI {
-	repeated KFBPPANOKHA BFCKJBCPFLF = 2;
-	uint32 schedule_id = 8;
+	repeated KFBPPANOKHA BFCKJBCPFLF = 14;
+	uint32 schedule_id = 6;
 }
