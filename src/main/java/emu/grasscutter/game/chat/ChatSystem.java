@@ -235,6 +235,8 @@ public class ChatSystem implements ChatSystemHandler {
     private void sendServerWelcomeMessages(Player player) {
         var joinOptions = GAME_INFO.joinOptions;
 
+        player.sendPacket(new PacketGetPlayerFriendListRsp(player));
+
         if (joinOptions.welcomeEmotes != null && joinOptions.welcomeEmotes.length > 0) {
             this.sendPrivateMessageFromServer(
                     player.getUid(),

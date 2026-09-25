@@ -121,11 +121,15 @@ public class GameSession implements GameSessionManager.KcpChannel {
             return;
         }
 
+        if (packet.getOpcode() <= 0 && FanOut.send(this, packet)) {
+            return;
+        }
+
         if (packet.getOpcode() <= 0) {
             if (missingCmdIdReported.add(packet.getClass().getSimpleName())) {
                 Grasscutter.getLogger()
                         .warn(
-                                "{} has no 7.0 CmdId, so it is not being sent.",
+                                "{} has no CmdId in this version, so it is not being sent.",
                                 packet.getClass().getSimpleName());
             }
             return;

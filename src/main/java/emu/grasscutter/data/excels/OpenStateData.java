@@ -48,3 +48,4 @@ public class OpenStateData extends GameResource {
         private int param2;
     }
 }
+

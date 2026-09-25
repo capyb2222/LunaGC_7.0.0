@@ -6,6 +6,7 @@ import emu.grasscutter.*;
 import emu.grasscutter.database.DatabaseHelper;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.packet.*;
+import emu.grasscutter.net.proto.GetPlayerTokenReqOuterClass.GetPlayerTokenReq;
 import emu.grasscutter.server.event.game.PlayerCreationEvent;
 import emu.grasscutter.server.game.GameSession;
 import emu.grasscutter.server.game.GameSession.SessionState;
@@ -19,17 +20,13 @@ import javax.crypto.Cipher;
 @Opcodes(PacketOpcodes.GetPlayerTokenReq)
 public class HandlerGetPlayerTokenReq extends PacketHandler {
 
-    private static final int F_ACCOUNT_UID = 2; // 6.7: 2
-    private static final int F_ACCOUNT_TOKEN = 6; // 6.7: 3
-    private static final int F_KEY_ID = 588; // 6.7: 41
-    private static final int F_CLIENT_RAND_KEY = 932; // 6.7: 1475
-
     @Override
     public void handle(GameSession session, byte[] header, byte[] payload) throws Exception {
-        var accountId = ProtoRead.string(payload, F_ACCOUNT_UID);
-        var accountToken = ProtoRead.string(payload, F_ACCOUNT_TOKEN);
-        var clientRandKey = ProtoRead.string(payload, F_CLIENT_RAND_KEY);
-        var keyId = (int) ProtoRead.varint(payload, F_KEY_ID);
+        var req = GetPlayerTokenReq.parseFrom(payload);
+        var accountId = req.getAccountUid();
+        var accountToken = req.getAccountToken();
+        var clientRandKey = req.getClientRandKey();
+        var keyId = req.getKeyId();
 
         var account = DispatchUtils.authenticate(accountId, accountToken);
 

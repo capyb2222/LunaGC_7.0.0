@@ -4,6 +4,8 @@ import emu.grasscutter.data.GameData;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.packet.*;
 import emu.grasscutter.net.proto.GetScenePointRspOuterClass.GetScenePointRsp;
+import java.util.Collection;
+import java.util.TreeSet;
 
 public class PacketGetScenePointRsp extends BasePacket {
 
@@ -23,10 +25,18 @@ public class PacketGetScenePointRsp extends BasePacket {
             p.addAllUnhidePointList(unlockedPoints);
         }
 
-        for (int i = 1; i < 9; i++) {
-            p.addUnlockAreaList(i);
-        }
+        p.addAllUnlockAreaList(areas(player, sceneId));
 
         this.setData(p);
+    }
+
+    private static Collection<Integer> areas(Player player, int sceneId) {
+        var unlocked = player.getUnlockedSceneAreas(sceneId);
+        if (!unlocked.isEmpty()) return unlocked;
+        var all = new TreeSet<Integer>();
+        for (var area : GameData.getWorldAreaDataMap().values()) {
+            if (area.getSceneId() == sceneId && area.getChildArea() == 0) all.add(area.getParentArea());
+        }
+        return all;
     }
 }

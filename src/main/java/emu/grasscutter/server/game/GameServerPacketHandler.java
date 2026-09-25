@@ -49,6 +49,7 @@ public final class GameServerPacketHandler {
     public void handle(GameSession session, int opcode, byte[] header, byte[] payload) {
         PacketHandler handler = this.handlers.get(opcode);
 
+
         if (handler == null && unannounced.add(opcode)) {
             String fields;
             try {

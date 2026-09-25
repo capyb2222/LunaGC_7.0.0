@@ -242,7 +242,7 @@ public final class SetPropCommand implements CommandHandler {
 
                                     boolean forbidSimpleUnlock = pointData.isForbidSimpleUnlock();
                                     boolean sceneBuildingPointLocked =
-                                            pointData.getType().equals("SceneBuildingPoint") && !pointData.isUnlocked();
+                                            "SceneBuildingPoint".equals(pointData.getType()) && !pointData.isUnlocked();
 
                                     if (forbidSimpleUnlock || sceneBuildingPointLocked) scenePointsBackup.remove(p);
                                 }

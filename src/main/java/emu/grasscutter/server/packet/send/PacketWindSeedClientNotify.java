@@ -20,7 +20,10 @@ public class PacketWindSeedClientNotify extends BasePacket {
     }
 
     /** `payload` on 7.0's _PlayerNormalLuaShellNotify. 6.7 had it at 11, 6.6 at 8. */
-    private static final int DEFAULT_PAYLOAD_FIELD = 6;
+    private static final int DEFAULT_PAYLOAD_FIELD =
+            emu.grasscutter.net.proto.WindSeedType1NotifyOuterClass.WindSeedType1Notify.getDescriptor()
+                    .findFieldByName("_payload")
+                    .getNumber();
 
     public static boolean disabled() {
         return Configuration.GAME_OPTIONS.watermark.cmdId < 0;
@@ -63,11 +66,5 @@ public class PacketWindSeedClientNotify extends BasePacket {
     public PacketWindSeedClientNotify(byte[] data) {
         super(cmdId());
         this.setData(encode(data));
-    }
-
-    /** One candidate of a sweep: an explicit CmdId and payload field rather than the configured pair. */
-    public PacketWindSeedClientNotify(byte[] data, int cmdId, int payloadField) {
-        super(cmdId);
-        this.setData(encode(data, payloadField));
     }
 }

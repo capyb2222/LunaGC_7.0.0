@@ -19,6 +19,8 @@ public final class JsonUtils {
                     .setPrettyPrinting()
                     .registerTypeAdapter(DynamicFloat.class, new DynamicFloatAdapter())
                     .registerTypeAdapter(IntList.class, new IntListAdapter())
+                    .registerTypeAdapter(long.class, new UnsignedLongAdapter())
+                    .registerTypeAdapter(Long.class, new UnsignedLongAdapter())
                     .registerTypeAdapter(Position.class, new PositionAdapter())
                     .registerTypeAdapter(GridPosition.class, new GridPositionAdapter())
                     .registerTypeAdapter(byte[].class, new ByteArrayAdapter())

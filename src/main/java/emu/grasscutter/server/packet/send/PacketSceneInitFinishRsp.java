@@ -18,6 +18,6 @@ public class PacketSceneInitFinishRsp extends BasePacket {
                         .setRetcode(maskedRetcode)
                         .build();
 
-        this.setData(p.toByteArray());
+        this.setData(p);
     }
 }

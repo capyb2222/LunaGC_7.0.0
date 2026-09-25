@@ -362,7 +362,6 @@ public class ConfigContainer {
             /* Protobuf field number the Lua payload is written to, flat at the top level.
              * 0 uses the built-in default (6, which is `payload` on 7.0's message). */
             public int payloadField = 0;
-            public String[] sweep = {};
         }
 
         public static class BirthdayMailOptions {
@@ -438,7 +437,7 @@ public class ConfigContainer {
 
     public static class JoinOptions {
         public int[] welcomeEmotes = {2007, 1002, 4010};
-        public String welcomeMessage = "Welcome to LunaGC 7.0.0";
+        public String welcomeMessage = "Welcome to LunaGC " + emu.grasscutter.GameConstants.VERSION;
         public JoinOptions.Mail welcomeMail = new JoinOptions.Mail();
 
         public static class Mail {

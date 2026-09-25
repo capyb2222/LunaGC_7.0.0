@@ -20,8 +20,14 @@ public class TowerScheduleData extends GameResource {
     @Override
     public void onLoad() {
         super.onLoad();
+        if (this.schedules == null) {
+            this.schedules = List.of();
+            return;
+        }
         this.schedules =
-                this.schedules.stream().filter(item -> item.getFloorList().size() > 0).toList();
+                this.schedules.stream()
+                        .filter(item -> item.getFloorList() != null && !item.getFloorList().isEmpty())
+                        .toList();
     }
 
     public int getScheduleId() {

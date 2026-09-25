@@ -148,6 +148,31 @@ public interface JsonAdapters {
         }
     }
 
+    class UnsignedLongAdapter extends TypeAdapter<Long> {
+        @Override
+        public Long read(JsonReader reader) throws IOException {
+            if (reader.peek() == JsonToken.NULL) {
+                reader.nextNull();
+                return null;
+            }
+            val value = reader.nextString();
+            try {
+                return Long.parseLong(value);
+            } catch (NumberFormatException signed) {
+                try {
+                    return Long.parseUnsignedLong(value);
+                } catch (NumberFormatException unsigned) {
+                    throw new IOException("Invalid long - " + value);
+                }
+            }
+        }
+
+        @Override
+        public void write(JsonWriter writer, Long value) throws IOException {
+            writer.value(value);
+        }
+    }
+
     class IntListAdapter extends TypeAdapter<IntList> {
         @Override
         public IntList read(JsonReader reader) throws IOException {
