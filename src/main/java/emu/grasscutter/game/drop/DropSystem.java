@@ -221,9 +221,6 @@ public final class DropSystem extends BaseGameSystem {
         return amount;
     }
 
-    /**
-     * @param share Whether other players in the scene could see the drop items.
-     */
     private void dropItem(
             GameItem item, ActionReason reason, Player player, GameEntity bornFrom, boolean share) {
         DropMaterialData drop = GameData.getDropMaterialDataMap().get(item.getItemId());

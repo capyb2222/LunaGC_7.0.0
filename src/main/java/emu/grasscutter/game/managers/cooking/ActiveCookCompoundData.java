@@ -43,11 +43,6 @@ public class ActiveCookCompoundData {
         totalCount += count;
     }
 
-    /**
-     * Take away all finished compound.
-     *
-     * @return The number of finished items.
-     */
     public int takeCompound(int currentTime) {
         int count = getOutputCount(currentTime);
         startTime += costTime * count;

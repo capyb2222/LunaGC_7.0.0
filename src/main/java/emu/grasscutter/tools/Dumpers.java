@@ -16,13 +16,6 @@ import lombok.AllArgsConstructor;
 public interface Dumpers {
     // See `src/handbook/data/README.md` for attributions.
 
-    /**
-     * Fetches the description of a command.
-     *
-     * @param locale The locale to use.
-     * @param command The command to get the description of.
-     * @return The description of the command.
-     */
     private static String commandDescription(String locale, Command command) {
         try {
             // Get the language by the locale.
@@ -35,33 +28,16 @@ public interface Dumpers {
         }
     }
 
-    /**
-     * Encodes the dump into comma separated values.
-     *
-     * @param dump The dump to encode.
-     * @return The encoded dump.
-     */
     private static String miniEncode(Map<Integer, ?> dump) {
         return dump.entrySet().stream()
                 .map(entry -> entry.getKey() + "," + entry.getValue().toString())
                 .collect(Collectors.joining("\n"));
     }
 
-    /**
-     * Encodes the dump into comma separated values.
-     *
-     * @param dump The dump to encode.
-     * @return The encoded dump.
-     */
     private static String miniEncode(Map<Integer, ?> dump, String... headers) {
         return String.join(",", headers) + "\n" + Dumpers.miniEncode(dump);
     }
 
-    /**
-     * Dumps all commands to a JSON file.
-     *
-     * @param locale The language to dump the commands in.
-     */
     static void dumpCommands(String locale) {
         // Check that commands are registered.
         var commandMap = CommandMap.getInstance();
@@ -107,11 +83,6 @@ public interface Dumpers {
         }
     }
 
-    /**
-     * Dumps all avatars to a CSV file.
-     *
-     * @param locale The language to dump the avatars in.
-     */
     static void dumpAvatars(String locale) {
         // Reload resources.
         ResourceLoader.loadAll();
@@ -148,11 +119,6 @@ public interface Dumpers {
         }
     }
 
-    /**
-     * Dumps all items to a CSVv file.
-     *
-     * @param locale The language to dump the items in.
-     */
     static void dumpItems(String locale) {
         // Reload resources.
         ResourceLoader.loadAll();
@@ -226,11 +192,6 @@ public interface Dumpers {
         }
     }
 
-    /**
-     * Dumps all entities to a CSV file.
-     *
-     * @param locale The language to dump the entities in.
-     */
     static void dumpEntities(String locale) {
         // Reload resources.
         ResourceLoader.loadAll();
@@ -265,11 +226,6 @@ public interface Dumpers {
         }
     }
 
-    /**
-     * Dumps all quests to a JSON file.
-     *
-     * @param locale The language to dump the quests in.
-     */
     static void dumpQuests(String locale) {
         // Reload resources.
         ResourceLoader.loadAll();
@@ -331,11 +287,6 @@ public interface Dumpers {
         }
     }
 
-    /**
-     * Dumps all areas to a CSV file.
-     *
-     * @param locale The language to dump the areas in.
-     */
     static void dumpAreas(String locale) {
         // Reload resources.
         ResourceLoader.loadAll();
@@ -464,12 +415,6 @@ public interface Dumpers {
         COMMON,
         UNKNOWN;
 
-        /**
-         * Convert a rank level to a quality.
-         *
-         * @param rankLevel The rank level to convert.
-         * @return The quality.
-         */
         static Quality from(int rankLevel) {
             return switch (rankLevel) {
                 case 0 -> UNKNOWN;

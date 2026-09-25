@@ -87,9 +87,6 @@ public final class GameServer extends KcpServer implements Iterable<Player> {
 
     private ChatSystemHandler chatManager;
 
-    /**
-     * @return The URI for the dispatch server.
-     */
     @SneakyThrows
     public static URI getDispatchUrl() {
         return new URI(DISPATCH_INFO.dispatchUrl);
@@ -248,12 +245,6 @@ public final class GameServer extends KcpServer implements Iterable<Player> {
         return playerOpt.orElse(null);
     }
 
-    /**
-     * Tries to find a player with the matching IP address.
-     *
-     * @param ipAddress The IP address. This should just be numbers without a port.
-     * @return The player, or null if one could not be found.
-     */
     public Player getPlayerByIpAddress(String ipAddress) {
         return this.getPlayers().values().stream()
                 .map(Player::getSession)
@@ -304,9 +295,6 @@ public final class GameServer extends KcpServer implements Iterable<Player> {
     public synchronized void onTick() {
         var tickStart = Instant.now();
 
-        // Each of these is guarded on its own. One world or one player throwing used to abandon the
-        // whole tick, so everybody else's world stopped moving for reasons that had nothing to do
-        // with them - and the scheduler at the end never ran at all.
         this.worlds.removeIf(
                 world -> {
                     try {
@@ -359,9 +347,6 @@ public final class GameServer extends KcpServer implements Iterable<Player> {
             this.dispatchClient.connect();
         }
 
-        // Settle which Spiral Abyss rotation is live now that the resources are in. Doing it here
-        // rather than on the first abyss screen means a resource set that cannot build any rotation
-        // says so at boot, not to whoever opens the abyss first.
         this.announceTowerRotation();
 
         // Schedule game loop.

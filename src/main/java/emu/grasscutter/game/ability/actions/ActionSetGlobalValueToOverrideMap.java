@@ -35,9 +35,6 @@ public final class ActionSetGlobalValueToOverrideMap extends AbilityActionHandle
         }
 
         Float globalValue = entity.getGlobalAbilityValues().getOrDefault(globalValueKey, Float.valueOf(0.0f));
-        // Most actions name no formula at all. Reading it as one threw before the override map was
-        // ever written, so every ability that came through here - Xilonen's and Citlali's bullets,
-        // Mavuika's motorcycle - lost the value it was setting, not just the formula.
         if ("DummyThrowSpeed".equals(abilityFormula)) {
             globalValue = Float.valueOf(globalValue.floatValue() * 30.0f / ((float)Math.sin(0.9424778) * 100.0f) - 1.0f);
         }

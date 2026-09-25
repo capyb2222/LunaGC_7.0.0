@@ -68,11 +68,6 @@ public final class DatabaseManager {
         }
     }
 
-    /**
-     * Ensures the database indexes exist and rebuilds them if there is an error with them
-     *
-     * @param datastore The datastore to ensure indexes on
-     */
     private static void ensureIndexes(Datastore datastore) {
         try {
             datastore.ensureIndexes();

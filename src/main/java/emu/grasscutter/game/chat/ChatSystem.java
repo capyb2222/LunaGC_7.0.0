@@ -39,9 +39,6 @@ public class ChatSystem implements ChatSystemHandler {
         return true;
     }
 
-    /********************
-     * Chat history handling
-     ********************/
     private void putInHistory(int uid, int partnerId, ChatInfo info) {
         this.history
                 .computeIfAbsent(uid, x -> new HashMap<>())
@@ -69,10 +66,6 @@ public class ChatSystem implements ChatSystemHandler {
             this.sendServerWelcomeMessages(player);
         }
 
-        // For now, we send the list three messages from the server for the recent chat history.
-        // This matches the previous behavior, but ultimately, we should probably keep track of the last
-        // chat partner
-        // for every given player and return the last messages exchanged with that partner.
         int historyLength =
                 this.history.get(player.getUid()).get(GameConstants.SERVER_CONSOLE_UID).size();
         var messages =
@@ -83,9 +76,6 @@ public class ChatSystem implements ChatSystemHandler {
         player.sendPacket(new PacketPullRecentChatRsp(messages));
     }
 
-    /********************
-     * Sending messages
-     ********************/
     public void sendPrivateMessageFromServer(int targetUid, String message) {
         // Sanity checks.
         if (message == null || message.length() == 0) {
@@ -242,9 +232,6 @@ public class ChatSystem implements ChatSystemHandler {
         player.getWorld().broadcastPacket(new PacketPlayerChatNotify(player, channel, icon));
     }
 
-    /********************
-     * Welcome messages
-     ********************/
     private void sendServerWelcomeMessages(Player player) {
         var joinOptions = GAME_INFO.joinOptions;
 

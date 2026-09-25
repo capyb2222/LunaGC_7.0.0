@@ -9,17 +9,6 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-/**
- * Marks main quests finished for the CLIENT, with no quest data behind them.
- *
- * <p>The quest system can only finish a quest it has data for, and this server's resource set is
- * older than the client - the newest few hundred main quests, Snezhnaya's region gate among them,
- * are simply absent. `ParentQuest` needs nothing but an id and the finished flag for the client to
- * believe it, so the notify is forged directly.
- *
- * <p>The id list ships inside the jar for the same reason: depending on the resource set would
- * reintroduce exactly the gap this works around.
- */
 public final class ForcedQuests {
     private ForcedQuests() {}
 

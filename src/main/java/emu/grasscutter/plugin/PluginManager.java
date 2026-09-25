@@ -15,10 +15,6 @@ import lombok.*;
 
 /** Manages the server's plugins and the event system. */
 public final class PluginManager {
-    /*
-     * This should only be changed when a breaking change is made to the plugin API.
-     * A 'breaking change' is something which changes the existing logic of the API.
-     */
     @SuppressWarnings("FieldCanBeLocal")
     public static int API_VERSION = 2;
 
@@ -176,11 +172,6 @@ public final class PluginManager {
         }
     }
 
-    /**
-     * Load the specified plugin.
-     *
-     * @param plugin The plugin instance.
-     */
     private void loadPlugin(Plugin plugin, PluginIdentifier identifier, URLClassLoader classLoader) {
         Grasscutter.getLogger().info(translate("plugin.loading_plugin", identifier.name));
 
@@ -236,11 +227,6 @@ public final class PluginManager {
                 });
     }
 
-    /**
-     * Registers a plugin's event listener.
-     *
-     * @param listener The event listener.
-     */
     public void registerListener(EventHandler<? extends Event> listener) {
         // Check if the handlers map contains the event type.
         if (!this.handlers.containsKey(listener.handles()))
@@ -252,11 +238,6 @@ public final class PluginManager {
         this.sortListeners(); // Sort the listeners by priority.
     }
 
-    /**
-     * Removes all event listeners registered by the specified plugin.
-     *
-     * @param plugin The plugin.
-     */
     public void removeListeners(Plugin plugin) {
         var newMap = new HashMap<Class<? extends Event>, List<EventHandler<? extends Event>>>();
 
@@ -278,10 +259,6 @@ public final class PluginManager {
         this.handlers.putAll(newMap);
     }
 
-    /**
-     * Sorts the event listeners by priority. This method should be called after a listener has been
-     * registered.
-     */
     private void sortListeners() {
         // Create a new map to store the sorted listeners.
         var newMap = new HashMap<Class<? extends Event>, List<EventHandler<? extends Event>>>();
@@ -305,11 +282,6 @@ public final class PluginManager {
         this.handlers.putAll(newMap);
     }
 
-    /**
-     * Invoke the provided event on all registered event listeners.
-     *
-     * @param event The event to invoke.
-     */
     public void invokeEvent(Event event) {
         var handlers = this.handlers.get(event.getClass());
         if (handlers == null) return;
@@ -317,21 +289,10 @@ public final class PluginManager {
         handlers.forEach(handler -> this.invokeHandler(event, handler));
     }
 
-    /**
-     * Gets a plugin's instance by its name.
-     *
-     * @param name The name of the plugin.
-     * @return Either null, or the plugin's instance.
-     */
     @Nullable public Plugin getPlugin(String name) {
         return this.plugins.get(name);
     }
 
-    /**
-     * Enables a plugin.
-     *
-     * @param plugin The plugin to enable.
-     */
     public void enablePlugin(Plugin plugin) {
         try {
             // Call the plugin's onEnable method.
@@ -342,11 +303,6 @@ public final class PluginManager {
         }
     }
 
-    /**
-     * Disables a plugin.
-     *
-     * @param plugin The plugin to disable.
-     */
     public void disablePlugin(Plugin plugin) {
         try {
             // Call the plugin's onDisable method.
@@ -360,12 +316,6 @@ public final class PluginManager {
         this.removeListeners(plugin);
     }
 
-    /**
-     * Performs logic checks then invokes the provided event handler.
-     *
-     * @param event The event passed through to the handler.
-     * @param handler The handler to invoke.
-     */
     @SuppressWarnings("unchecked")
     private <T extends Event> void invokeHandler(Event event, EventHandler<T> handler) {
         if (!event.isCanceled() || (event.isCanceled() && handler.ignoresCanceled()))

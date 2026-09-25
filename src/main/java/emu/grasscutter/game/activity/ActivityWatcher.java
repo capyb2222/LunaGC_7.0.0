@@ -14,10 +14,6 @@ public abstract class ActivityWatcher {
 
     protected abstract boolean isMeet(String... param);
 
-    /**
-     * Progress increment contributed by a single matching trigger. Defaults to 1; subclasses that
-     * track a quantity (e.g. materials obtained) override this with the amount from the params.
-     */
     protected int getProgressDelta(String... param) {
         return 1;
     }

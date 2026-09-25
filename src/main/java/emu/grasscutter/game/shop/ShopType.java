@@ -1,10 +1,5 @@
 package emu.grasscutter.game.shop;
 
-/**
- * ShopTypes 0-1010 based on `ActivityShopOverallExcelConfigData.json` ShopTypes for activities are
- * partially guessed on the version, and partially tested ShopTypes 1011-1070 are mostly based of
- * `BinOutput/InterAction/Shop`
- */
 public enum ShopType {
     SHOP_TYPE_NONE(0),
     SHOP_TYPE_PAIMON(900),

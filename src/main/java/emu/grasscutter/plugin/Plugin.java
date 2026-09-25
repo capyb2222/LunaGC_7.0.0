@@ -20,13 +20,6 @@ public abstract class Plugin {
     private File dataFolder;
     private Logger logger;
 
-    /**
-     * This method is reflected into.
-     *
-     * <p>Set plugin variables.
-     *
-     * @param identifier The plugin's identifier.
-     */
     @SuppressWarnings("unused")
     private void initializePlugin(PluginIdentifier identifier, URLClassLoader classLoader) {
         if (this.identifier != null) {
@@ -49,11 +42,6 @@ public abstract class Plugin {
         }
     }
 
-    /**
-     * The plugin's identifier instance.
-     *
-     * @return An instance of {@link PluginIdentifier}.
-     */
     public final PluginIdentifier getIdentifier() {
         return this.identifier;
     }
@@ -73,48 +61,22 @@ public abstract class Plugin {
         return this.identifier.version;
     }
 
-    /**
-     * Returns the server that initialized the plugin.
-     *
-     * @return A server instance.
-     */
     public final GameServer getServer() {
         return this.server.getGameServer();
     }
 
-    /**
-     * Returns an input stream for a resource in the JAR file.
-     *
-     * @param resourceName The name of the resource.
-     * @return An input stream.
-     */
     public final InputStream getResource(String resourceName) {
         return this.classLoader.getResourceAsStream(resourceName);
     }
 
-    /**
-     * Returns a directory where plugins can store data files.
-     *
-     * @return A directory on the file system.
-     */
     public final File getDataFolder() {
         return this.dataFolder;
     }
 
-    /**
-     * Returns the server hook.
-     *
-     * @return A server hook singleton.
-     */
     public final ServerHelper getHandle() {
         return this.server;
     }
 
-    /**
-     * Returns the plugin's logger.
-     *
-     * @return A SLF4J logger.
-     */
     public final Logger getLogger() {
         return this.logger;
     }

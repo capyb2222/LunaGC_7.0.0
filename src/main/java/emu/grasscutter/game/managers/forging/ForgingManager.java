@@ -22,9 +22,6 @@ public final class ForgingManager extends BasePlayerManager {
         super(player);
     }
 
-    /**********
-     * Blueprint unlocking.
-     **********/
     public boolean unlockForgingBlueprint(int id) {
         // Tell the client that this blueprint is now unlocked and add the unlocked item to the player.
         if (!this.player.getUnlockedForgingBlueprints().add(id)) {
@@ -34,9 +31,6 @@ public final class ForgingManager extends BasePlayerManager {
         return true;
     }
 
-    /**********
-     * Communicate forging information to the client.
-     **********/
     private synchronized int determineNumberOfQueues() {
         int adventureRank = player.getLevel();
         return (adventureRank >= 15) ? 4 : (adventureRank >= 10) ? 3 : (adventureRank >= 5) ? 2 : 1;
@@ -86,9 +80,6 @@ public final class ForgingManager extends BasePlayerManager {
         this.player.sendPacket(new PacketForgeGetQueueDataRsp(Retcode.RET_SUCC, numQueues, queueData));
     }
 
-    /**********
-     * Initiate forging process.
-     **********/
     private synchronized void sendForgeQueueDataNotify() {
         var queueData = this.determineCurrentForgeQueueData();
         this.player.sendPacket(new PacketForgeQueueDataNotify(queueData, List.of()));
@@ -159,9 +150,6 @@ public final class ForgingManager extends BasePlayerManager {
         this.player.sendPacket(new PacketForgeStartRsp(Retcode.RET_SUCC));
     }
 
-    /**********
-     * Forge queue manipulation (obtaining results and cancelling forges).
-     **********/
     private synchronized void obtainItems(int queueId) {
         // Determine how many items are finished.
         int currentTime = Utils.getCurrentSeconds();
@@ -290,15 +278,9 @@ public final class ForgingManager extends BasePlayerManager {
         }
     }
 
-    /**********
-     * Periodic forging updates.
-     **********/
     public synchronized void sendPlayerForgingUpdate() {
         int currentTime = Utils.getCurrentSeconds();
 
-        // Determine if sending an update is necessary.
-        // We only send an update if there are forges in the forge queue
-        // that have changed since the last notification.
         if (this.player.getActiveForges().size() <= 0) {
             return;
         }

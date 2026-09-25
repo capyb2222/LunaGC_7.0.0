@@ -12,12 +12,6 @@ import lombok.*;
 @Entity
 @Builder
 public final class BargainRecord {
-    /**
-     * Provides an instance of a bargain record. Uses information from game resources.
-     *
-     * @param bargainId The ID of the bargain.
-     * @return An instance of a bargain record.
-     */
     public static BargainRecord resolve(int bargainId) {
         var bargainData = GameData.getBargainDataMap().get(bargainId);
         if (bargainData == null)
@@ -50,12 +44,6 @@ public final class BargainRecord {
         return this;
     }
 
-    /**
-     * Computes an offer's validity.
-     *
-     * @param offer The offer to compute.
-     * @return The result of the offer.
-     */
     public BargainResultType applyOffer(int offer) {
         if (offer < this.getLowestPrice()) {
             // Decrease the mood.
@@ -88,9 +76,6 @@ public final class BargainRecord {
         }
     }
 
-    /**
-     * @return A snapshot of this bargain record.
-     */
     public BargainSnapshot toSnapshot() {
         return BargainSnapshot.newBuilder()
                 .setBargainId(this.getBargainId())

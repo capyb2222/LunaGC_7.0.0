@@ -297,11 +297,6 @@ public final class DefaultAuthenticators {
                             + " dbKey=" + dbKey
                             + " account=" + (account != null));
 
-            // Get account from database.
-            // Check if account exists/token is valid.
-            // Lenient mode for private servers: if the stored session key differs (e.g. the
-            // client cached a token from another server/play session), adopt the client's
-            // token so the combo login succeeds instead of failing with a "session key error".
             if (account != null) {
                 var sk = account.getSessionKey();
                 if (sk == null || !sk.equals(loginData.token)) {

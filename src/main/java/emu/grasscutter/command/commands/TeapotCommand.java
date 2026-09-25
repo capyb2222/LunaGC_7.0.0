@@ -95,9 +95,6 @@ public final class TeapotCommand implements CommandHandler {
                     return;
                 }
 
-                // LunaGC stores realm arrangement state per outdoor scene id (realmId + 2000) rather
-                // than a single realmBlockMap, so clear both the outdoor scene and its attached main
-                // house so the module regenerates from defaults if unlocked again.
                 int outdoorSceneId = param + 2000;
                 targetPlayer.getHome().getSceneMap().remove(outdoorSceneId);
                 targetPlayer.getHome().getMainHouseMap().remove(outdoorSceneId);

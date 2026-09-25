@@ -13,10 +13,6 @@ public class PacketFinishedParentQuestNotify extends BasePacket {
 
         FinishedParentQuestNotify.Builder proto = FinishedParentQuestNotify.newBuilder();
 
-        // Despite the name this sends unfinished parents too, each one flagged not-finished. With
-        // questing off that is what makes an old account replay the opening Paimon talk: it still
-        // has fifty-odd chapters saved in PARENT_QUEST_STATE_NONE, so the client is told the
-        // prologue is live. A fresh account sends none of this, which is why only old ones broke.
         var questingEnabled = emu.grasscutter.config.Configuration.GAME_OPTIONS.questing.enabled;
 
         for (GameMainQuest mainQuest : player.getQuestManager().getMainQuests().values()) {

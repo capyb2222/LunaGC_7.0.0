@@ -22,9 +22,6 @@ public class GadgetChest extends GadgetContent {
         super(gadget);
     }
 
-    /**
-     * @return Whether we should remove the gadget.
-     */
     public boolean onInteract(Player player, GadgetInteractReq req) {
         // If bigWorldScript enabled,use new drop system.
         if (Grasscutter.getConfig().server.game.enableScriptInBigWorld) {
@@ -43,9 +40,6 @@ public class GadgetChest extends GadgetContent {
                                         InterOpType.InterOpType_INTER_OP_START));
                         return false;
                     }
-                    // TODO:check for take_num.(some boss rewards can only be claimed once a week.). Handle boss
-                    // respawn.
-                    // TODO:should return Retcode.RET_RESIN_NOT_ENOUGH ?
                     if (player.getResinManager().useResin(chest.boss_chest.resin)
                             && dropSystem.handleBossChestDrop(chest.drop_tag, player)) {
                         // Is it correct?

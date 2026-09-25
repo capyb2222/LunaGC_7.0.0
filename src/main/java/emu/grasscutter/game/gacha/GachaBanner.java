@@ -32,10 +32,6 @@ public class GachaBanner {
         11501, 11502, 12501, 12502, 13502, 13505, 14501, 14502, 15501, 15502
     }; // Default weapons
     static final int[] EMPTY_POOL = {}; // Used to remove a type of fallback
-    // Capturing Radiance (5.0+): chance in % for a lost coinflip to still hand out a featured item,
-    // indexed by how many coinflips were lost in a row before it. So the first 50/50 is a plain
-    // 50/50, the one after a single loss is 55/45, the one after two losses is 75/25, and a fourth
-    // loss in a row cannot happen. Character banners only.
     static final int[] DEFAULT_CAPTURING_RADIANCE = {0, 10, 50, 100};
     @Getter int scheduleId = -1;
     @Getter int sortId = -1;
@@ -85,10 +81,6 @@ public class GachaBanner {
     private int[][] poolBalanceWeights5 = {{1, 30}, {147, 150}, {181, 10230}};
     @Getter private int wishMaxProgress = 0;
 
-    // Deprecated fields that were tolerated in early May 2022 but have apparently still being
-    // circulating in new custom configs
-    // For now, throw up big scary errors on load telling people that they will be banned outright in
-    // a future version
     @Deprecated private int[] rateUpItems1 = {};
     @Deprecated private int[] rateUpItems2 = {};
     @Deprecated private int eventChance = -1;

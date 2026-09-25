@@ -5,13 +5,6 @@ import emu.grasscutter.game.world.Position;
 import java.util.*;
 import java.util.regex.Pattern;
 
-/**
- * Resolves an ability action's {@code otherTargets} block into the entities it points at.
- *
- * <p>Only {@code SelectTargetsByShape} is understood, which is what avatar summons use to look for
- * something to shoot at. Anything else returns null, meaning "no selector" - the caller then keeps
- * whatever target it already had.
- */
 public final class AbilityTargetSelector {
     /** Shape names encode their size, e.g. CircleR20H10 is a radius of 20 and a height of 10. */
     private static final Pattern RADIUS = Pattern.compile("R(\\d+(?:\\.\\d+)?)");
@@ -80,11 +73,6 @@ public final class AbilityTargetSelector {
         return false;
     }
 
-    /**
-     * Camps are only approximated: the caster's own avatars and the gadgets they spawned are not
-     * enemies, and everything else in the scene is. That is enough to tell "is there something to
-     * shoot at nearby" apart from "I am looking at my own bullets".
-     */
     private static boolean matchesCamp(GameEntity entity, String camp, Ability ability) {
         var player = ability != null ? ability.getPlayerOwner() : null;
         boolean own =

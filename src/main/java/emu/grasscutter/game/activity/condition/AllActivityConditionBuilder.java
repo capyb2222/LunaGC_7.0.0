@@ -6,18 +6,8 @@ import java.util.*;
 import java.util.stream.Collectors;
 import org.reflections.Reflections;
 
-/**
- * Class that used for scanning classpath, picking up all activity conditions (for
- * NewActivityCondExcelConfigData.json {@link ActivityCondExcelConfigData}) and saving them to map.
- * Check for more info {@link ActivityCondition}
- */
 public class AllActivityConditionBuilder {
 
-    /**
-     * Build activity conditions handlers
-     *
-     * @return map containing all condition handlers for NewActivityCondExcelConfigData.json
-     */
     public static Map<ActivityConditions, ActivityConditionBaseHandler> buildActivityConditions() {
         return new AllActivityConditionBuilder().initActivityConditions();
     }

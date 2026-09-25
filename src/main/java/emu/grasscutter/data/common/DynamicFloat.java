@@ -25,14 +25,6 @@ public class DynamicFloat {
         this.ops = List.of(new StackOp(key));
     }
 
-    /**
-     * A written boolean is just one or zero.
-     *
-     * <p>This used to hand the String constructor "true", which reads any unrecognised word as the
-     * name of a property to look up - so every {@code "value": true} in the ability configs resolved
-     * against a map that has no such key and came out as 0. All 429 animator bools that ship with a
-     * value were being broadcast false.
-     */
     public DynamicFloat(boolean b) {
         this.constant = b ? 1f : 0f;
     }

@@ -8,10 +8,6 @@ import emu.grasscutter.net.proto.OpenStateUpdateNotifyOuterClass.OpenStateUpdate
 
 import static emu.grasscutter.config.Configuration.GAME_OPTIONS;
 
-/*
-    Must be sent on login for openStates to work
-    Tells the client to update its openStateMap for the keys sent. value is irrelevant
- */
 public class PacketOpenStateUpdateNotify extends BasePacket {
 
     public PacketOpenStateUpdateNotify(Player player) {

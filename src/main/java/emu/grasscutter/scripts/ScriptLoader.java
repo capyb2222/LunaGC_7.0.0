@@ -45,13 +45,6 @@ public class ScriptLoader {
     /** How many scripts have gone missing under each folder, so far this run. */
     private static final Map<String, Integer> missingScripts = new ConcurrentHashMap<>();
 
-    /**
-     * Reports a script that is not on disk.
-     *
-     * <p>A scene whose group scripts were never shipped asks for hundreds of them, on every single
-     * load, and one error line each buried everything else in the log. The first miss in a folder
-     * says what is wrong; the rest repeat it, so they go to debug.
-     */
     private static void reportMissingScript(String path) {
         var cut = Math.max(path.lastIndexOf('/'), path.lastIndexOf('\\'));
         var folder = cut > 0 ? path.substring(0, cut) : path;
@@ -147,13 +140,6 @@ public class ScriptLoader {
         }
     }
 
-    /**
-     * Performs a smart evaluation. This allows for 'require' to work.
-     *
-     * @param script The script to evaluate.
-     * @param bindings The bindings to use.
-     * @return The result of the evaluation.
-     */
     public static Object eval(CompiledScript script, Bindings bindings) throws ScriptException {
         // Set the current bindings.
         currentBindings.set(bindings);
@@ -199,23 +185,10 @@ public class ScriptLoader {
         }
     }
 
-    /**
-     * Loads the sources of a script.
-     *
-     * @param path The path of the script.
-     * @return The sources of the script.
-     */
     public static String readScript(String path) {
         return readScript(path, false);
     }
 
-    /**
-     * Loads the sources of a script.
-     *
-     * @param path The path of the script.
-     * @param useAbsPath Use path as-is; don't look under Scripts resources.
-     * @return The sources of the script.
-     */
     public static String readScript(String path, boolean useAbsPath) {
         // Check if the path is cached.
         var cached = ScriptLoader.tryGet(ScriptLoader.scriptSources.get(path));
@@ -242,23 +215,10 @@ public class ScriptLoader {
         }
     }
 
-    /**
-     * Fetches a script and compiles it, or uses the cached varient.
-     *
-     * @param path The path of the script.
-     * @return The compiled script.
-     */
     public static CompiledScript getScript(String path) {
         return getScript(path, false);
     }
 
-    /**
-     * Fetches a script and compiles it, or uses the cached varient.
-     *
-     * @param path The path of the script.
-     * @param useAbsPath Use path as-is; don't look under Scripts resources.
-     * @return The compiled script.
-     */
     public static CompiledScript getScript(String path, boolean useAbsPath) {
         // Check if the script is cached.
         var sc = ScriptLoader.tryGet(ScriptLoader.scriptsCache.get(path));
@@ -267,9 +227,6 @@ public class ScriptLoader {
         }
 
         try {
-            // Load the script sources. fastRequire now only decides whether Common scripts are
-            // inlined - the compile path is shared, because a prototype is what lets each
-            // evaluation get its own environment.
             var sources = ScriptLoader.readScript(path, useAbsPath);
             if (sources == null) return null;
 
@@ -312,15 +269,6 @@ public class ScriptLoader {
         }
     }
 
-    /**
-     * Builds a private Lua environment for one set of bindings.
-     *
-     * <p>LuaJ's script engine keeps ONE Globals for every script and just re-points its metatable
-     * at whichever bindings ran last. Group scripts evaluated at different times therefore see each
-     * other's globals - `gadgets`, `monsters`, `defs` - and the loser fails with "attempt to index ?
-     * (a nil value)", nondeterministically, depending on load order. Each script gets its own copy
-     * of the template instead, with a metatable bound to its own bindings for good.
-     */
     private static Globals createScriptGlobals(Bindings bindings) {
         var globals = new Globals();
 

@@ -13,9 +13,6 @@ public class HandlerTowerAllDataReq extends PacketHandler {
     public void handle(GameSession session, byte[] header, byte[] payload) throws Exception {
         var towerManager = session.getPlayer().getTowerManager();
 
-        // Sent once, when the abyss screen is opened. Which floors the client will let you into is
-        // decided entirely from this reply, so a floor showing locked is either missing its record
-        // here or missing the entrance flag - turn this up to see which.
         if (Grasscutter.getLogger().isDebugEnabled()) {
             var stars = new TreeMap<Integer, Integer>();
             towerManager

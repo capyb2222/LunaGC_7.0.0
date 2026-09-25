@@ -162,11 +162,6 @@ public final class TeamManager extends BasePlayerDataManager {
     }
 
     public TeamInfo getCurrentTeamInfo() {
-        // The index and the list are both transient and set by different packets - the abyss picks
-        // teams in TowerTeamSelectReq and uses one in TowerEnterLevelReq - so a client that enters
-        // without selecting first, or that restarts a floor, can leave the index set with no list
-        // behind it. Falling through to the normal team is the right answer there; dereferencing is
-        // not.
         if (temporaryTeam != null
                 && useTemporarilyTeamIndex >= 0
                 && useTemporarilyTeamIndex < temporaryTeam.size()) {
@@ -707,10 +702,6 @@ public final class TeamManager extends BasePlayerDataManager {
             }
 
             if (rejected != null) {
-                // Keep the slot rather than dropping it. The abyss picks its second half by INDEX,
-                // so removing a rejected team renumbers the ones behind it and seats the wrong half
-                // - and an empty result falls back to the overworld team with nothing said. An
-                // empty slot leaves the previous team in place, same as before, but aligned.
                 Grasscutter.getLogger().warn("Temporary team {} rejected: {}", i + 1, rejected);
                 teams.add(new TeamInfo());
             } else {
@@ -751,10 +742,6 @@ public final class TeamManager extends BasePlayerDataManager {
             scene.removeEntity(previous);
         }
 
-        // Nothing else puts the new half into the scene: the chamber does not reload across the
-        // swap, and the team packet alone only tells the client who is on the team. Without an
-        // avatar entity actually in the world the client has nothing to drive - no skills, no
-        // burst, no switching - and the monsters have nothing to aim at.
         scene.spawnPlayer(this.getPlayer());
     }
 

@@ -26,11 +26,6 @@ public final class PlayerWishEvent extends PlayerEvent implements Cancellable {
         this.pity = pity;
     }
 
-    /**
-     * Should be invoked after items have been generated. This will recall the event.
-     *
-     * @param receivedItems The items received.
-     */
     public void finish(List<GameItem> receivedItems) {
         this.receivedItems = receivedItems;
         this.preItems = false;

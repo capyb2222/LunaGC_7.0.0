@@ -7,14 +7,6 @@ import emu.grasscutter.net.proto.GetPlayerTokenRspOuterClass.GetPlayerTokenRsp;
 import emu.grasscutter.server.game.GameSession;
 import emu.grasscutter.utils.Crypto;
 
-/**
- * GetPlayerTokenRsp for 7.0 (CmdId 6000).
- *
- * <p>Built from the regenerated proto rather than hand-packed. It was hand-packed for a while
- * because the tree had no 7.0 protos and the 6.7 generated class would have silently serialised 6.7
- * field numbers - `token` at 496, which is really `birthday`, and `sign` at 1477, which is really
- * `client_ip_str`. That is why the client received neither and the handshake never completed.
- */
 public class PacketGetPlayerTokenRsp extends BasePacket {
 
     /** No key exchange: the seed travels in the clear, the old pre-RSA way. */

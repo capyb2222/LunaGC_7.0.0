@@ -6,15 +6,6 @@ import emu.grasscutter.game.ability.Ability;
 import emu.grasscutter.game.entity.EntityGadget;
 import emu.grasscutter.game.entity.GameEntity;
 
-/**
- * Removes a gadget an ability asked to be rid of.
- *
- * <p>Deliberately narrow: only gadgets the caster itself summoned. The action names its target by
- * config id alone, and the same id can stand in the scene for reasons that have nothing to do with
- * this ability - scene furniture, another player's summon - so anything without a matching owner is
- * left where it is. That keeps a summon disappearing on cue from ever meaning the scene loses
- * something it needed.
- */
 @AbilityAction(AbilityModifierAction.Type.KillGadget)
 public final class ActionKillGadget extends AbilityActionHandler {
 

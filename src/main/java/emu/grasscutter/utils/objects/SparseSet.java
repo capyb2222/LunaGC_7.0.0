@@ -40,11 +40,6 @@ public final class SparseSet {
         return this.denseEntries.contains(i);
     }
 
-    /*
-     * A convenience class for constructing integer sets out of large ranges
-     * Designed to be fed literal strings from this project only -
-     * can and will throw exceptions to tell you to fix your code if you feed it garbage. :)
-     */
     private static class Range {
         private final int min, max;
 

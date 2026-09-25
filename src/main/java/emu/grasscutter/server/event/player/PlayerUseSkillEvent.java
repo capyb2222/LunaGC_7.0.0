@@ -19,9 +19,6 @@ public final class PlayerUseSkillEvent extends PlayerEvent implements Cancellabl
         this.avatar = avatar;
     }
 
-    /**
-     * @return {@code true} if the skill is an elemental burst.
-     */
     public boolean isElementalBurst() {
         return this.getSkillData().getCostElemVal() <= 0;
     }

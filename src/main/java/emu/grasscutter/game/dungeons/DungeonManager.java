@@ -24,10 +24,6 @@ import java.util.stream.*;
 import javax.annotation.Nullable;
 import lombok.*;
 
-/**
- * TODO handle time limits TODO handle respawn points TODO handle team wipes and respawns TODO check
- * monster level and levelConfigMap
- */
 public final class DungeonManager {
     @Getter private final Scene scene;
     @Getter private final DungeonData dungeonData;
@@ -69,9 +65,6 @@ public final class DungeonManager {
         }
 
         if (isFinishedSuccessfully()) {
-            // Set ended now because calling EVENT_DUNGEON_SETTLE
-            // during finishDungeon() may cause reentrance into
-            // this function, leading to double settles.
             ended = true;
             finishDungeon();
         }
@@ -84,9 +77,6 @@ public final class DungeonManager {
 
     public int getLevelForMonster(int id) {
         if (isTowerDungeon() && !scene.getPlayers().isEmpty()) {
-            // Tower dungeons have their own level setting in TowerLevelData. Monsters can be built
-            // while the scene has no players yet, so fall through to the dungeon level there
-            // instead of indexing an empty list.
             return scene.getPlayers().get(0).getTowerManager().getCurrentMonsterLevel();
         } else {
             // TODO should use levelConfigMap? and how?
@@ -190,9 +180,6 @@ public final class DungeonManager {
             return true;
         }
         if (useCondensed) {
-            // Check if condensed resin is usable here.
-            // For this, we use the following logic for now:
-            // The normal resin cost of the dungeon has to be 20.
             if (resinCost != 20) {
                 return false;
             }
@@ -231,13 +218,6 @@ public final class DungeonManager {
                     amount *= 2;
                 }
 
-                // Roll items for this group.
-                // Here, we have to handle stacking, or the client will not display results correctly.
-                // For now, we use the following logic: If the possible drop item are a list of multiple
-                // items,
-                // we roll them separately. If not, we stack them. This should work out in practice, at
-                // least
-                // for the currently existing set of dungeons.
                 if (entry.getItems().size() == 1) {
                     rewards.add(new GameItem(entry.getItems().get(0), amount));
                 } else {
@@ -360,13 +340,6 @@ public final class DungeonManager {
                 scene
                         .getScriptManager()
                         .callEvent(new ScriptArgs(0, EventType.EVENT_DUNGEON_SETTLE, successfully ? 1 : 0));
-        // Note: There is a possible race condition with calling
-        //       EVENT_DUNGEON_SETTLE here asynchronously:
-        // 1. EVENT_DUNGEON_SETTLE triggers some Lua-side logic,
-        //    which may happen after 2 (below) finishes.
-        // 2. Some DungeonSettleListener could be comparing some
-        //    Lua variable before its setting in 1 (above) finishes.
-        // For safety, ensure all events have finished before returning.
         try {
             future.get();
         } catch (Exception e) {

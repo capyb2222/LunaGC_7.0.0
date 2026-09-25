@@ -17,12 +17,6 @@ import java.util.*;
         targetRequirement = Command.TargetRequirement.NONE)
 public final class SendMailCommand implements CommandHandler {
 
-    // TODO: You should be able to do /sendmail and then just send subsequent messages until you
-    // finish
-    //  However, due to the current nature of the command system, I don't think this is possible
-    // without rewriting
-    //  the command system (again). For now this will do
-
     // Key = User that is constructing the mail.
     private static final HashMap<Integer, MailBuilder> mailBeingConstructed =
             new HashMap<Integer, MailBuilder>();

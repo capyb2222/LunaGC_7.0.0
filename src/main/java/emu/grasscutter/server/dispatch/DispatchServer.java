@@ -25,12 +25,6 @@ public final class DispatchServer extends WebSocketServer implements IDispatcher
 
     @Getter private final Map<Integer, List<Consumer<JsonElement>>> callbacks = new HashMap<>();
 
-    /**
-     * Constructs a new {@code DispatchServer} instance.
-     *
-     * @param address The address to bind to.
-     * @param port The port to bind to.
-     */
     public DispatchServer(String address, int port) {
         super(new InetSocketAddress(address, port));
 
@@ -40,12 +34,6 @@ public final class DispatchServer extends WebSocketServer implements IDispatcher
         this.registerHandler(PacketIds.ServerMessageNotify, ServerMessageEvent::invoke);
     }
 
-    /**
-     * Handles the login packet sent by the client.
-     *
-     * @param socket The socket the packet was received from.
-     * @param object The packet data.
-     */
     private void handleLogin(WebSocket socket, JsonElement object) {
         var dispatchKey = object.getAsString().replaceAll("\"", "");
 
@@ -60,12 +48,6 @@ public final class DispatchServer extends WebSocketServer implements IDispatcher
         }
     }
 
-    /**
-     * Handles the token validation packet sent by the client.
-     *
-     * @param socket The socket the packet was received from.
-     * @param object The packet data.
-     */
     private void validateToken(WebSocket socket, JsonElement object) {
         var message = IDispatcher.decode(object);
         var accountId = message.get("uid").getAsString();
@@ -83,12 +65,6 @@ public final class DispatchServer extends WebSocketServer implements IDispatcher
         this.sendMessage(socket, PacketIds.TokenValidateRsp, response);
     }
 
-    /**
-     * Fetches an account by its ID.
-     *
-     * @param socket The socket the packet was received from.
-     * @param object The packet data.
-     */
     private void fetchAccount(WebSocket socket, JsonElement object) {
         var message = IDispatcher.decode(object);
         var accountId = message.get("accountId").getAsString();
@@ -99,22 +75,11 @@ public final class DispatchServer extends WebSocketServer implements IDispatcher
         this.sendMessage(socket, PacketIds.GetAccountRsp, JSON.toJsonTree(account));
     }
 
-    /**
-     * Broadcasts an encrypted message to all connected clients.
-     *
-     * @param message The message to broadcast.
-     */
     public void sendMessage(int packetId, Object message) {
         var serverMessage = this.encodeMessage(packetId, message);
         this.getConnections().forEach(socket -> this.sendMessage(socket, serverMessage));
     }
 
-    /**
-     * Sends a serialized encrypted message to the client.
-     *
-     * @param socket The socket to send the message to.
-     * @param message The message to send.
-     */
     public void sendMessage(WebSocket socket, Object message) {
         // Serialize the message into JSON.
         var serialized = JSON.toJson(message).getBytes(StandardCharsets.UTF_8);
@@ -124,13 +89,6 @@ public final class DispatchServer extends WebSocketServer implements IDispatcher
         socket.send(serialized);
     }
 
-    /**
-     * Sends a serialized encrypted message to the client.
-     *
-     * @param socket The socket to send the message to.
-     * @param packetId The packet ID to send.
-     * @param message The message to send.
-     */
     public void sendMessage(WebSocket socket, int packetId, Object message) {
         this.sendMessage(socket, this.encodeMessage(packetId, message));
     }

@@ -66,30 +66,10 @@ public class DailyTaskManager {
 
     private List<DailyTask> dailyTasks = new ArrayList<>();
 
-    /*
-     * 1 = Mondstadt
-     *
-     * For the initial implementation we deliberately default to Mondstadt.
-     * Other cities can be selected through the debug command once their
-     * commission groups have been tested.
-     */
     private int cityId = DEFAULT_CITY_ID;
 
-    /*
-     * This is persisted separately from the four individual commission states.
-     * It represents the reward obtained after all four commissions are done.
-     */
     private boolean scoreRewardTaken;
 	
-	/*
-	 * Calendar day for which dailyTasks was generated.
-	 *
-	 * Stored as YYYYMMDD
-	 *
-	 * This is the authoritative quota marker for daily commissions.
-	 * A server restart must never generate another set while this value
-	 * still represents the current server-local calendar day.
-	 */
 	private int lastGenerationDate;
 
     public DailyTaskManager() {}
@@ -120,23 +100,8 @@ public class DailyTaskManager {
 			this.dailyTasks = new ArrayList<>();
 		}
 
-		/*
-		 * Make sure today's set exists.
-		 *
-		 * This method is date-aware. If today's set has already been generated,
-		 * it will NEVER reroll it merely because the server restarted.
-		 */
 		this.ensureDailyTasksForToday(false);
 
-		/*
-		 * Do not remove supposedly unsupported tasks here.
-		 *
-		 * Resource support is a generation-time concern. Once a daily set has
-		 * been issued, login must preserve it for the remainder of that day.
-		 *
-		 * If a stored set is ever genuinely corrupted, /dt reset remains the
-		 * explicit administrative repair mechanism.
-		 */
 		if (this.lastGenerationDate == getCurrentDateKey()
 				&& this.dailyTasks.size() != DAILY_TASK_COUNT) {
 			Grasscutter.getLogger()
@@ -152,11 +117,6 @@ public class DailyTaskManager {
 				new PacketDailyTaskDataNotify(this.player));
 	}
 
-	/**
-	 * Ensures that the player has a commission set for the current calendar day.
-	 *
-	 * This is the method automatic systems must use.
-	 */
 	public synchronized int ensureDailyTasksForToday() {
 		return this.ensureDailyTasksForToday(true);
 	}
@@ -174,12 +134,6 @@ public class DailyTaskManager {
 		int today =
 				getCurrentDateKey();
 
-		/*
-		 * This is the main quota guard.
-		 *
-		 * If a set was already generated today, absolutely nothing about
-		 * restarting/relogging may generate another one.
-		 */
 		if (this.lastGenerationDate == today) {
 			Grasscutter.getLogger()
 					.debug(
@@ -192,12 +146,6 @@ public class DailyTaskManager {
 			return this.dailyTasks.size();
 		}
 
-		/*
-		 * Migration for databases created before lastGenerationDate existed.
-		 *
-		 * If four commissions are already stored, preserve them rather than
-		 * rerolling them once just because this new field defaults to zero.
-		 */
 		if (this.lastGenerationDate == 0
 				&& this.dailyTasks.size() == DAILY_TASK_COUNT) {
 			this.lastGenerationDate = today;
@@ -219,21 +167,10 @@ public class DailyTaskManager {
 				today);
 	}
 
-	/**
-	 * Called by Player.doDailyReset().
-	 *
-	 * Despite Player already having lastDailyReset, DailyTaskManager performs
-	 * its own persisted date check as a second and authoritative safeguard.
-	 */
 	public synchronized int resetDailyTasksForNewDay() {
 		return this.ensureDailyTasksForToday(true);
 	}
 
-	/**
-	 * Explicit administrative reroll.
-	 *
-	 * /dt reset is intentionally allowed to replace today's existing set.
-	 */
 	public synchronized int resetDailyTasks() {
 		return this.generateDailyTasks(
 				true,
@@ -336,9 +273,6 @@ public class DailyTaskManager {
 	}
 
 	public synchronized boolean setCityIdAndReset(int newCityId) {
-		/*
-		 * 0 explicitly means Random.
-		 */
 		if (newCityId == RANDOM_CITY_ID) {
 			this.cityId = RANDOM_CITY_ID;
 
@@ -366,16 +300,6 @@ public class DailyTaskManager {
 				&& !data.getNewGroupVec().isEmpty();
 	}
 
-	/*
-	 * Group IDs encode their Scene 3 block in the middle digits.
-	 *
-	 * Examples:
-	 *
-	 * 133002267 -> block 3002
-	 * 133314321 -> block 3314
-	 * 133401348 -> block 3401
-	 * 133605146 -> block 3605
-	 */
 	private static int getBlockIdFromGroupId(int groupId) {
 		return (groupId / 1000) % 10000;
 	}
@@ -407,14 +331,6 @@ public class DailyTaskManager {
 			return false;
 		}
 
-		/*
-		 * Only verify that the block is declared in scene3.lua.
-		 *
-		 * IMPORTANT:
-		 * Do NOT call SceneBlock.load() here.
-		 * SceneBlock.load() mutates the shared SceneBlock and sets loaded=true,
-		 * which interferes with the actual Scene/SceneScriptManager loading path.
-		 */
 		if (!sceneMeta.blocks.containsKey(blockId)) {
 			Grasscutter.getLogger()
 					.debug(
@@ -440,11 +356,6 @@ public class DailyTaskManager {
 								TEYVAT_SCENE_ID,
 								groupId);
 
-		/*
-		 * File existence checks are enough for eligibility.
-		 *
-		 * The real scene loader will parse and instantiate the block/group later.
-		 */
 		if (!Files.isRegularFile(
 				FileUtils.getScriptPath(blockScript))) {
 			Grasscutter.getLogger()
@@ -475,10 +386,6 @@ public class DailyTaskManager {
 			return false;
 		}
 
-		/*
-		 * Every group required by the commission must actually be
-		 * representable by the current Lua world resources.
-		 */
 		return data.getNewGroupVec()
 				.stream()
 				.allMatch(DailyTaskManager::hasUsableGroupResources);
@@ -514,21 +421,11 @@ public class DailyTaskManager {
 			return RANDOM_CITY_ID;
 		}
 
-		/*
-		 * A positive cityId means the player/server explicitly requested
-		 * one region.
-		 */
 		if (this.cityId > RANDOM_CITY_ID
 				&& supportedCities.contains(this.cityId)) {
 			return this.cityId;
 		}
 
-		/*
-		 * cityId == 0 means Random.
-		 *
-		 * Pick one supported region for today's entire set of four
-		 * commissions, while leaving the stored filter at 0.
-		 */
 		return supportedCities.get(
 				ThreadLocalRandom.current()
 						.nextInt(supportedCities.size()));
@@ -748,10 +645,6 @@ public class DailyTaskManager {
             return 0;
         }
 
-        /*
-         * DailyTaskLevel IDs are 1..12 and each reward's dropVec contains
-         * the corresponding 12 entries in exactly that order.
-         */
         int rewardIndex = levelData.getId() - 1;
 
         if (rewardIndex < 0
@@ -833,10 +726,6 @@ public class DailyTaskManager {
 						scene,
 						task);
 			} else {
-				/*
-				 * Normally Lua will create/add subsequent waves itself.
-				 * Check two seconds later only in case that transition failed.
-				 */
 				this.scheduleStalledWaveRecovery(
 						scene,
 						task);
@@ -847,11 +736,6 @@ public class DailyTaskManager {
 			return;
 		}
 
-		/*
-		 * If this kill finished commission #4, award the daily completion
-		 * bonus immediately. Until the proper Katheryne/claim proto is
-		 * identified, this acts as the server-side equivalent of claiming it.
-		 */
 		this.tryAutoClaimScoreReward();
 
 		this.save();
@@ -870,12 +754,6 @@ public class DailyTaskManager {
 		int taskId =
 				task.getTaskId();
 
-		/*
-		 * Give the Lua ANY_MONSTER_DIE trigger plenty of opportunity
-		 * to create/add its next wave normally.
-		 *
-		 * This is a fallback, not the primary wave mechanism.
-		 */
 		Grasscutter.getGameServer()
 				.getScheduler()
 				.scheduleDelayedTask(
@@ -931,10 +809,6 @@ public class DailyTaskManager {
 			return;
 		}
 
-		/*
-		 * If Lua successfully produced another monster/wave,
-		 * there is nothing for us to repair.
-		 */
 		if (this.hasLivingMonsterForTask(
 				scene,
 				data)) {
@@ -958,15 +832,6 @@ public class DailyTaskManager {
 				continue;
 			}
 
-			/*
-			 * Do not interfere with random/alternative-suite groups.
-			 *
-			 * This fallback is ONLY for the obvious:
-			 *
-			 * suite 1 -> suite 2
-			 *
-			 * encounter layout.
-			 */
 			if (group.init_config == null
 					|| group.init_config.rand_suite
 					|| group.init_config.suite != 1
@@ -996,11 +861,6 @@ public class DailyTaskManager {
 				continue;
 			}
 
-			/*
-			 * We only want a group for which suite 1 cannot possibly
-			 * satisfy the commission by itself, but the two suites
-			 * together can.
-			 */
 			if (firstWaveCount >= task.getFinishProgress()) {
 				continue;
 			}
@@ -1010,10 +870,6 @@ public class DailyTaskManager {
 				continue;
 			}
 
-			/*
-			 * Don't spawn suite 2 before the player has actually
-			 * defeated the expected suite-1 population.
-			 */
 			if (task.getProgress() < firstWaveCount) {
 				continue;
 			}
@@ -1028,10 +884,6 @@ public class DailyTaskManager {
 							firstWaveCount,
 							secondWaveCount);
 
-			/*
-			 * This is the same underlying operation used by
-			 * ScriptLib.AddExtraGroupSuite().
-			 */
 			scriptManager.addGroupSuite(
 					instance,
 					secondSuite);
@@ -1073,10 +925,6 @@ public class DailyTaskManager {
 					task);
 		}
 
-		/*
-		 * /dt finish should behave exactly like a naturally completed
-		 * commission with regard to the four-task completion bonus.
-		 */
 		this.tryAutoClaimScoreReward();
 
 		this.save();
@@ -1134,11 +982,6 @@ public class DailyTaskManager {
 		return DAILY_TASK_COUNT;
 	}
 
-	/**
-	 * The items the four-commission bonus pays out. The reward is granted automatically the moment
-	 * the fourth commission is finished, but the client still asks for it and wants the list back to
-	 * show, so this reads the same preview the grant used.
-	 */
 	public List<ItemParamData> getScoreRewardItems() {
 		RewardPreviewData reward =
 				GameData.getRewardPreviewDataMap()
@@ -1197,10 +1040,6 @@ public class DailyTaskManager {
                         Arrays.asList(items),
                         reason);
 
-        /*
-         * Material inventory entries save themselves, but commission rewards
-         * also contain virtual items such as Primogems/Mora/Adventure EXP.
-         */
         this.player.save();
 
         return true;

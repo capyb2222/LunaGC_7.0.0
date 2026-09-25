@@ -25,10 +25,6 @@ public final class Phlogiston {
                         player.getTeamManager().getEntity().getId(), TEAM_KEY, value));
     }
 
-    /**
-     * A Saurian burns its own fuel, including once that fuel is gone - reading an empty tank as
-     * "this vehicle has none" is what used to hand the bill to the party instead.
-     */
     public static void change(EntityVehicle vehicle, float delta) {
         if (vehicle == null) return;
 

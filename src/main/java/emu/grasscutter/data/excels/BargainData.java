@@ -15,10 +15,6 @@ public final class BargainData extends GameResource {
     @SerializedName(value = "dialogId", alternate = {"dialog_id"})
     private List<Integer> dialogId;
 
-    /**
-     * This is a list of 2 integers. The first integer is the minimum value of the bargain. The second
-     * integer is the maximum value of the bargain.
-     */
     @SerializedName(value = "expectedValue", alternate = {"expected_value"})
     private List<Integer> expectedValue;
 
@@ -31,10 +27,6 @@ public final class BargainData extends GameResource {
     @SerializedName(value = "moodNpcId", alternate = {"mood_npc_id"})
     private int moodNpcId;
 
-    /**
-     * This is a list of 2 integers. The first integer is the minimum value of the mood. The second
-     * integer is the maximum value of the mood.
-     */
     @SerializedName(value = "randomMood", alternate = {"random_mood"})
     private List<Integer> randomMood;
 

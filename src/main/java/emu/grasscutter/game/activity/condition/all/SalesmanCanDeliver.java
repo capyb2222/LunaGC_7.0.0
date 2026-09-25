@@ -10,9 +10,6 @@ public class SalesmanCanDeliver extends ActivityConditionBaseHandler {
     @Override
     public boolean execute(
             PlayerActivityData activityData, ActivityConfigItem activityConfig, int... params) {
-        // TODO need to reverse engineer this logic.
-        // This condition appears only in one condition "condId": 5003001
-        // and this condition accept no params. I have no idea how to implement it
         return false;
     }
 }

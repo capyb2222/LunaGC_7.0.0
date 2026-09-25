@@ -32,87 +32,37 @@ public final class JObject {
         }
     }
 
-    /**
-     * Creates a new empty object.
-     *
-     * @return The new object.
-     */
     public static JObject c() {
         return new JObject();
     }
 
     private final LinkedTreeMap<String, JsonElement> members = new LinkedTreeMap<>();
 
-    /**
-     * Adds a member to this object.
-     *
-     * @param name The name of the member.
-     * @param value The value of the member.
-     * @return This object.
-     */
     public JObject add(String name, JsonElement value) {
         this.members.put(name, value);
         return this;
     }
 
-    /**
-     * Adds a member to this object.
-     *
-     * @param name The name of the member.
-     * @param value The value of the member.
-     * @return This object.
-     */
     public JObject add(String name, String value) {
         return this.add(name, value == null ? JsonNull.INSTANCE : new JsonPrimitive(value));
     }
 
-    /**
-     * Adds a member to this object.
-     *
-     * @param name The name of the member.
-     * @param value The value of the member.
-     * @return This object.
-     */
     public JObject add(String name, Number value) {
         return this.add(name, value == null ? JsonNull.INSTANCE : new JsonPrimitive(value));
     }
 
-    /**
-     * Adds a member to this object.
-     *
-     * @param name The name of the member.
-     * @param value The value of the member.
-     * @return This object.
-     */
     public JObject add(String name, Boolean value) {
         return this.add(name, value == null ? JsonNull.INSTANCE : new JsonPrimitive(value));
     }
 
-    /**
-     * Adds a member to this object.
-     *
-     * @param name The name of the member.
-     * @param value The value of the member.
-     * @return This object.
-     */
     public JObject add(String name, Character value) {
         return this.add(name, value == null ? JsonNull.INSTANCE : new JsonPrimitive(value));
     }
 
-    /**
-     * Adds a member to this object.
-     *
-     * @param name The name of the member.
-     * @param value The value of the member.
-     * @return This object.
-     */
     public JObject add(String name, Object[] value) {
         return this.add(name, value == null ? JsonNull.INSTANCE : JsonUtils.toJson(value));
     }
 
-    /**
-     * @return A {@link JsonObject} representation of this object.
-     */
     public JsonObject gson() {
         var object = new JsonObject();
         for (var entry : this.members.entrySet()) {
@@ -121,16 +71,10 @@ public final class JObject {
         return object;
     }
 
-    /**
-     * @return The property holder.
-     */
     public Object json() {
         return this.members;
     }
 
-    /**
-     * @return A string representation of this object.
-     */
     @Override
     public String toString() {
         return JsonUtils.encode(this.gson());

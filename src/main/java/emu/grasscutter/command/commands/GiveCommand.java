@@ -64,14 +64,6 @@ public final class GiveCommand implements CommandHandler {
         return avatar;
     }
 
-    /**
-     * Applies the given parameters to an avatar the player already owns.
-     *
-     * <p>{@link emu.grasscutter.game.avatar.AvatarStorage#addAvatar} refuses duplicates, so without
-     * this a /give aimed at an owned character reports success and changes nothing. Only the
-     * arguments actually passed are applied: a bare {@code /give <avatar> lv90} must not reset the
-     * character's constellations and talents to the parameter defaults.
-     */
     private static void updateAvatar(Player player, Avatar avatar, GiveItemParameters param) {
         if (param.lvlGiven) {
             avatar.setLevel(param.lvl);
@@ -218,10 +210,6 @@ public final class GiveCommand implements CommandHandler {
         try {
             return Integer.parseInt(substatText);
         } catch (NumberFormatException ignored) {
-            // If the argument was not an integer, we try to determine
-            // the append prop ID from the given text + artifact information.
-            // A substat string has the format `substat_tier`, with the
-            // `_tier` part being optional, defaulting to the maximum.
             String[] substatArgs = substatText.split("_");
             String substatType = substatArgs[0];
 
@@ -245,9 +233,6 @@ public final class GiveCommand implements CommandHandler {
 
     private static void parseRelicArgs(GiveItemParameters param, List<String> args)
             throws IllegalArgumentException {
-        // Get the main stat from the arguments.
-        // If the given argument is an integer, we use that.
-        // If not, we check if the argument string is in the main prop map.
         String mainPropIdString = args.remove(0);
 
         try {
@@ -368,10 +353,6 @@ public final class GiveCommand implements CommandHandler {
                 try {
                     param.id = Integer.parseInt(id);
                 } catch (NumberFormatException e) {
-                    // Not a number, so read it as a name - and keep taking words while they still
-                    // spell one, since "crystalline sword" arrives as two arguments. An artifact
-                    // asked for by set and slot is tried first: it is the more specific reading, and
-                    // several set names are also the name of a namecard.
                     param.setPieces = NameIndex.resolveRelicSet(id, args);
                     if (!param.setPieces.isEmpty()) param.id = param.setPieces.get(0);
                     else param.id = NameIndex.resolveRelic(id, args);
@@ -540,12 +521,6 @@ public final class GiveCommand implements CommandHandler {
         AVATARS
     }
 
-    /**
-     * Hands over one artifact per slot.
-     *
-     * <p>Main stats and substats are left to roll: they belong to a slot, so the ones typed for a
-     * single piece cannot mean anything sensible across all five.
-     */
     private static void giveWholeSet(Player sender, Player targetPlayer, GiveItemParameters param) {
         // Whatever stats were typed were read against the first piece's depot, and a flower cannot
         // carry a circlet's main stat. Let all five roll rather than force one slot's answer on the rest.
@@ -583,13 +558,6 @@ public final class GiveCommand implements CommandHandler {
         public AvatarData avatarData;
         public GiveAllType giveAllType = GiveAllType.NONE;
 
-        /**
-         * Whether the user actually passed the argument, as opposed to it holding the default
-         * above. {@link CommandHelpers#parseIntParameters} only calls a setter when that setter's
-         * regex matched an argument, so writing these by hand instead of letting Lombok generate
-         * them is enough to record it. {@link #updateAvatar} needs the distinction to leave
-         * unmentioned properties of an existing avatar alone.
-         */
         public boolean lvlGiven, constellationGiven, skillLevelGiven;
 
         public void setLvl(int lvl) {

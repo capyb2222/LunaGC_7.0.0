@@ -29,11 +29,6 @@ public final class ServerTask implements Runnable {
         Grasscutter.getGameServer().getScheduler().cancelTask(this.taskId);
     }
 
-    /**
-     * Checks if the task should run at the current tick.
-     *
-     * @return True if the task should run, false otherwise.
-     */
     public boolean shouldRun() {
         // Increase tick count.
         ++this.ticks;
@@ -48,11 +43,6 @@ public final class ServerTask implements Runnable {
         else return true;
     }
 
-    /**
-     * Checks if the task should be canceled.
-     *
-     * @return True if the task should be canceled, false otherwise.
-     */
     public boolean shouldCancel() {
         return this.period == -1 && ticks >= delay;
     }

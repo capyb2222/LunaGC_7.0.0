@@ -88,9 +88,6 @@ public final class UnlockAllCommand implements CommandHandler {
                                         .add(tag.getId()));
         targetPlayer.sendPacket(new PacketPlayerWorldSceneInfoListNotify(targetPlayer));
 
-        // Region access is quest-gated, and a region released after this server's resource set was
-        // cut has no quest data here at all - so the quest system cannot finish it and the client
-        // keeps the barrier up. Telling the client directly is the only lever available.
         var quests = emu.grasscutter.game.quest.ForcedQuests.allMainQuests();
         emu.grasscutter.game.quest.ForcedQuests.apply(targetPlayer, quests);
 

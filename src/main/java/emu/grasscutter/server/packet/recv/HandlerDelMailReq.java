@@ -28,14 +28,6 @@ public class HandlerDelMailReq extends PacketHandler {
         var mailHandler =
                 player.getMailHandler();
 
-        /*
-         * The client sends positive IDs:
-         *
-         * client ID 1 -> internal list index 0
-         * client ID 2 -> internal list index 1
-         *
-         * MailHandler.deleteMail(List) expects internal indexes.
-         */
         List<Integer> internalIndexes =
                 new ArrayList<>();
 
@@ -46,18 +38,10 @@ public class HandlerDelMailReq extends PacketHandler {
                     mailHandler.toInternalMailIndex(
                             clientMailId);
 
-            /*
-             * Ignore invalid IDs instead of allowing an invalid
-             * List.get(index) operation.
-             */
             if (internalIndex < 0) {
                 continue;
             }
 
-            /*
-             * Avoid processing the same mail twice if the client
-             * unexpectedly sends a duplicate ID.
-             */
             if (!internalIndexes.contains(
                     internalIndex)) {
 
@@ -66,14 +50,6 @@ public class HandlerDelMailReq extends PacketHandler {
             }
         }
 
-        /*
-         * MailHandler performs the deletion and sends:
-         *
-         * - PacketDelMailRsp
-         * - PacketMailChangeNotify
-         *
-         * Do not send those packets again from this handler.
-         */
         mailHandler.deleteMail(
                 internalIndexes);
     }

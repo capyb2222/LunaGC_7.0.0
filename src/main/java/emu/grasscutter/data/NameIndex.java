@@ -12,11 +12,6 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
 
-/**
- * Looks an avatar, item, monster or gadget up by the name it goes by.
- *
- * <p>Built once, on first use, so a server nobody types a name at never pays for it.
- */
 public final class NameIndex {
     /** What /give accepts: the things a player can be handed. */
     private static final Index THINGS = new Index();
@@ -31,14 +26,6 @@ public final class NameIndex {
 
     private NameIndex() {}
 
-    /**
-     * Resolves a name typed where an id was expected, taking as many following words as keep
-     * matching - "crystalline sword" is two arguments but one name.
-     *
-     * @param first the word that failed to parse as a number
-     * @param rest the arguments after it; the ones consumed are removed
-     * @return the id, or 0 if nothing goes by that name
-     */
     public static int resolve(String first, List<String> rest) {
         build();
         return THINGS.resolve(first, rest);
@@ -68,16 +55,6 @@ public final class NameIndex {
                     Map.entry("crown", EquipType.EQUIP_DRESS),
                     Map.entry("hat", EquipType.EQUIP_DRESS));
 
-    /**
-     * Resolves an artifact named by its set and slot - "gladiator's finale circlet" - to the piece
-     * itself.
-     *
-     * <p>Piece names work on their own, but nobody remembers that the Gladiator circlet is called
-     * Gladiator's Triumphal Sign; the set is what is on the wiki and in the head. Nothing is consumed
-     * unless a slot really follows a set, so a name that merely starts like one is left alone.
-     *
-     * @return the piece's id, or 0 if this is not a set followed by a slot
-     */
     public static int resolveRelic(String first, List<String> rest) {
         build();
 
@@ -106,11 +83,6 @@ public final class NameIndex {
     /** Words that mean "one of each" where a slot would go. */
     private static final Set<String> EVERY_SLOT = Set.of("all", "set", "full", "everything");
 
-    /**
-     * Resolves "gladiator's finale all" into one piece per slot.
-     *
-     * @return the five piece ids, or an empty list if this is not a set followed by all
-     */
     public static List<Integer> resolveRelicSet(String first, List<String> rest) {
         build();
 
@@ -130,12 +102,6 @@ public final class NameIndex {
         return pieces;
     }
 
-    /**
-     * How to write an id in a message people read: "Gladiator's Nostalgia (23414)".
-     *
-     * <p>Falls back to the bare id for anything unnamed, so a message never loses information by
-     * asking for this.
-     */
     public static String describe(int id) {
         build();
 
@@ -143,12 +109,6 @@ public final class NameIndex {
         return name == null || name.isBlank() ? String.valueOf(id) : name + " (" + id + ")";
     }
 
-    /**
-     * Everything whose name contains the given text, as "Name (id)".
-     *
-     * <p>For finding an id without leaving the game - the handbook this server would otherwise send
-     * you to is not built into the jar.
-     */
     public static List<String> search(String query, int limit) {
         build();
 
@@ -164,10 +124,6 @@ public final class NameIndex {
             }
         }
 
-        // Names the game would print come first - the rest are internal names, which are only worth
-        // reading once nothing real matches. Then whole-name matches over fragments buried in
-        // something longer, since alphabetical order alone puts "Anemo Slime-Swallowed Bamboo Shoots"
-        // above "Pyro Slime".
         matches.sort(
                 java.util.Comparator.comparingInt((Map.Entry<String, Integer> e) -> internal(e.getValue()))
                         .thenComparingInt(e -> rank(e.getKey(), needle))
@@ -207,14 +163,6 @@ public final class NameIndex {
         return gadget == null ? null : gadget.getJsonName();
     }
 
-    /**
-     * The piece of a set that fills one slot: the highest rarity it was made in, and among those the
-     * lowest id.
-     *
-     * <p>A slot has far more rows than pieces - Blizzard Strayer's plume alone has nineteen, five of
-     * them five star, the rest pre-rolled variants sitting in a much higher id range. The lowest is
-     * the one the game itself drops.
-     */
     private static int bestPiece(int setId, EquipType slot) {
         var best = 0;
         var bestRank = -1;
@@ -263,9 +211,6 @@ public final class NameIndex {
         GameData.getGadgetDataMap()
                 .forEach((id, gadget) -> ENTITIES.claim(gadget.getJsonName(), id, 2));
 
-        // A set is named by the bonus it grants rather than by any row of its own, and it points at
-        // the affix GROUP - while the affix map is keyed by the individual affixId, one per piece
-        // count. Index the group here so the set can find its way to a name.
         var affixNames = new HashMap<Integer, String>();
         GameData.getEquipAffixDataMap()
                 .forEach(

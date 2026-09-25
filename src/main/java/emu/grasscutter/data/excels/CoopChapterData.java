@@ -15,20 +15,7 @@ public class CoopChapterData extends GameResource {
     int id;
 
     int avatarId;
-    //    int chapterNameTextMapHash;
-    //    int coopPageTitleTextMapHash;
-    //    int chapterSortId;
-    //    int avatarSortId;
-    //    String chapterIcon;
     List<CoopCondition> unlockCond;
-    //    int [] unlockCondTips;
-    //    int openMaterialId;
-    //    int openMaterialNum;
-    //    String beginTimeStr;
-    //    int confidenceValue;
-    //    String pointGraphPath;
-    //    Double graphXRatio;
-    //    Double graphYRatio;
 
     @Data
     @FieldDefaults(level = AccessLevel.PRIVATE)

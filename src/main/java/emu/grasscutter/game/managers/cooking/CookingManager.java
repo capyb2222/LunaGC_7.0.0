@@ -33,9 +33,6 @@ public class CookingManager extends BasePlayerManager {
         }
     }
 
-    /********************
-     * Unlocking for recipies.
-     ********************/
     public boolean unlockRecipe(int id) {
         if (this.player.getUnlockedRecipies().containsKey(id)) {
             return false; // Recipe already unlocked
@@ -47,9 +44,6 @@ public class CookingManager extends BasePlayerManager {
         return true;
     }
 
-    /********************
-     * Perform cooking.
-     ********************/
     private double getSpecialtyChance(ItemData cookedItem) {
         // Chances taken from the Wiki.
         return switch (cookedItem.getRankLevel()) {
@@ -133,16 +127,10 @@ public class CookingManager extends BasePlayerManager {
                 new PacketPlayerCookRsp(cookResults, quality, count, recipeId, proficiency));
     }
 
-    /********************
-     * Cooking arguments.
-     ********************/
     public void handleCookArgsReq(PlayerCookArgsReq req) {
         this.player.sendPacket(new PacketPlayerCookArgsRsp());
     }
 
-    /********************
-     * Notify unlocked recipies.
-     ********************/
     private void addDefaultUnlocked() {
         // Get recipies that are already unlocked.
         var unlockedRecipies = this.player.getUnlockedRecipies();

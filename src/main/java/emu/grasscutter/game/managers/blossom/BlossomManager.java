@@ -125,10 +125,6 @@ public class BlossomManager {
                 .forEach(
                         (gridBlockId, spawnDataEntryList) -> {
                             int sceneId = gridBlockId.getSceneId();
-                            // The block list already holds every spawn bucketed into this block, so
-                            // walking out to each entry's whole group re-emitted the group once per
-                            // entry - and re-emitted spawns that belong to other blocks, which then
-                            // got listed again when those blocks came round.
                             spawnDataEntryList.stream()
                                     .filter(spawn -> !blossomConsumed.contains(spawn))
                                     .filter(spawn -> BlossomType.valueOf(spawn.getGadgetId()) != null)

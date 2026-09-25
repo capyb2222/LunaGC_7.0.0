@@ -132,11 +132,6 @@ public class EntityClientGadget extends EntityBaseGadget {
         super.onDeath(killerId);
     }
 
-    /**
-     * The client owns this entity's combat state, so nothing here is ever sent - {@link #toProto}
-     * builds its own pairs. It still has to be a map: an ability attached to one of these reads the
-     * whole {@code FightProperty} set off its owner, and a null threw right through the action.
-     */
     @Getter(onMethod_ = @Override, lazy = true)
     private final Int2FloatMap fightProperties = new Int2FloatOpenHashMap();
 

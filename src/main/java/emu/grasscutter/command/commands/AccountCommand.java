@@ -156,13 +156,6 @@ public final class AccountCommand implements CommandHandler {
         }
     }
 
-    /**
-     * Returns the UID of the player associated with the given account. If the player is not found,
-     * returns "no UID".
-     *
-     * @param account The account to get the UID of.
-     * @return The UID of the player associated with the given account.
-     */
     private String getPlayerUid(Account account) {
         var player = DatabaseHelper.getPlayerByAccount(account, Player.class);
         return player == null ? "no UID" : String.valueOf(player.getUid());

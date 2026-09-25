@@ -7,12 +7,6 @@ import java.lang.reflect.Field;
 import java.util.HashMap;
 
 public interface FieldFetch {
-    /**
-     * Fetches the specified fields. Serializes them into a JSON object.
-     *
-     * @param fields The fields to fetch.
-     * @return The JSON object containing the fields.
-     */
     default JsonObject fetchFields(String... fields) {
         // Prepare field properties.
         var fieldValues = new JsonObject();

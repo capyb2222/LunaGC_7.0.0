@@ -21,10 +21,6 @@ public final class HandbookHandler implements Router {
 
     private final Map<String, Integer> currentRequests = new ConcurrentHashMap<>();
 
-    /**
-     * Constructor for the handbook router. Enables serving the handbook if the handbook file is
-     * found.
-     */
     public HandbookHandler() {
         // The handbook is optional - it is skipped by -PskipHandbook - so read it without
         // FileUtils' "Failed to read resource" warning, which fired on every single start
@@ -80,19 +76,10 @@ public final class HandbookHandler implements Router {
         javalin.post("/handbook/spawn", this::spawnEntity);
     }
 
-    /**
-     * @return True if the server can execute handbook commands.
-     */
     private boolean controlSupported() {
         return HANDBOOK.enable && HANDBOOK.allowCommands;
     }
 
-    /**
-     * Checks the request against the normal request limits.
-     *
-     * @param ctx The Javalin request context.
-     * @return True if the request is within the normal limits.
-     */
     private boolean normalLimit(Context ctx) {
         var limits = HANDBOOK.limits;
         if (!limits.enabled) return true;
@@ -111,12 +98,6 @@ public final class HandbookHandler implements Router {
         return true;
     }
 
-    /**
-     * Serves the handbook if it is found.
-     *
-     * @route GET /handbook
-     * @param ctx The Javalin request context.
-     */
     private void serveHandbook(Context ctx) {
         if (!this.serve) {
             ctx.status(500).result("Handbook not found.");
@@ -125,12 +106,6 @@ public final class HandbookHandler implements Router {
         }
     }
 
-    /**
-     * Serves the handbook authentication page.
-     *
-     * @route GET /handbook/authenticate
-     * @param ctx The Javalin request context.
-     */
     private void authenticate(Context ctx) {
         if (!this.serve) {
             ctx.status(500).result("Handbook not found.");
@@ -142,12 +117,6 @@ public final class HandbookHandler implements Router {
         }
     }
 
-    /**
-     * Performs authentication for the handbook.
-     *
-     * @route POST /handbook/authenticate
-     * @param ctx The Javalin request context.
-     */
     private void performAuthentication(Context ctx) {
         if (!this.serve) {
             ctx.status(500).result("Handbook not found.");
@@ -167,12 +136,6 @@ public final class HandbookHandler implements Router {
         }
     }
 
-    /**
-     * Grants the avatar to the user.
-     *
-     * @route POST /handbook/avatar
-     * @param ctx The Javalin request context.
-     */
     private void grantAvatar(Context ctx) {
         if (!this.controlSupported()) {
             ctx.status(500).result("Handbook control not supported.");
@@ -190,12 +153,6 @@ public final class HandbookHandler implements Router {
         ctx.status(response.getStatus() > 100 ? response.getStatus() : 500).json(response);
     }
 
-    /**
-     * Gives an item to the user.
-     *
-     * @route POST /handbook/item
-     * @param ctx The Javalin request context.
-     */
     private void giveItem(Context ctx) {
         if (!this.controlSupported()) {
             ctx.status(500).result("Handbook control not supported.");
@@ -213,12 +170,6 @@ public final class HandbookHandler implements Router {
         ctx.status(response.getStatus() > 100 ? response.getStatus() : 500).json(response);
     }
 
-    /**
-     * Teleports the user to a location.
-     *
-     * @route POST /handbook/teleport
-     * @param ctx The Javalin request context.
-     */
     private void teleportTo(Context ctx) {
         if (!this.controlSupported()) {
             ctx.status(500).result("Handbook control not supported.");
@@ -236,12 +187,6 @@ public final class HandbookHandler implements Router {
         ctx.status(response.getStatus() > 100 ? response.getStatus() : 500).json(response);
     }
 
-    /**
-     * Spawns an entity in the world.
-     *
-     * @route POST /handbook/spawn
-     * @param ctx The Javalin request context.
-     */
     private void spawnEntity(Context ctx) {
         if (!this.controlSupported()) {
             ctx.status(500).result("Handbook control not supported.");

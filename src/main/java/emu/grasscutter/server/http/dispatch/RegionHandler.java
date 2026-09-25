@@ -40,11 +40,6 @@ public final class RegionHandler implements Router {
         }
     }
 
-    /**
-     * Determines the effective game-server address for a request.
-     * Priority: configured accessAddress -^ request host -^ bindAddress.
-     * This lets clients on localhost / LAN / public IP / domain all join.
-     */
     private static String getEffectiveGameAddress(Context ctx) {
         var configured = GAME_INFO.accessAddress;
         if (configured != null && !configured.isEmpty() && !configured.equals("0.0.0.0")) {
@@ -175,12 +170,6 @@ public final class RegionHandler implements Router {
         javalin.get("/query_server_address", RegionHandler::queryServerAddress);
     }
 
-    /**
-     * Handle query region list request.
-     *
-     * @param ctx The context object for handling the request.
-     * @route /query_region_list
-     */
     private static void queryRegionList(Context ctx) {
         // Get logger and query parameters.
         Logger logger = Grasscutter.getLogger();
@@ -211,13 +200,6 @@ public final class RegionHandler implements Router {
                 // Respond with the event result.
                 ctx.result(event.getRegionList());
             } else {
-                /*
-                 * String regionListResponse = "CP///////////wE=";
-                 * QueryAllRegionsEvent event = new QueryAllRegionsEvent(regionListResponse);
-                 * event.call();
-                 * ctx.result(event.getRegionList());
-                 * return;
-                 */
                 // Use the default region list.
                 QueryAllRegionsEvent event =
                         new QueryAllRegionsEvent(buildRegionListResponse(ctx, false));
@@ -240,9 +222,6 @@ public final class RegionHandler implements Router {
                 .info(String.format("[Dispatch] Client %s request: query_region_list", Utils.address(ctx)));
     }
 
-    /**
-     * @route /query_cur_region/{region}
-     */
     private static void queryCurrentRegion(Context ctx) {
         String versionName = ctx.queryParam("version");
 
@@ -392,11 +371,6 @@ public final class RegionHandler implements Router {
         }
     }
 
-    /**
-     * Gets the current region query.
-     *
-     * @return A {@link QueryCurrRegionHttpRsp} object.
-     */
     public static QueryCurrRegionHttpRsp getCurrentRegion() {
         return Grasscutter.getRunMode() == ServerRunMode.HYBRID
                 ? regions.get("os_usa").getRegionQuery()

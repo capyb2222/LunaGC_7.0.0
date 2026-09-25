@@ -8,13 +8,6 @@ import emu.grasscutter.game.ability.AbilityManager;
 import emu.grasscutter.game.entity.GameEntity;
 import java.util.concurrent.ThreadLocalRandom;
 
-/**
- * Takes one branch or the other, as often as the config says.
- *
- * <p>With no handler at all neither branch ever ran, so anything behind a chance simply never
- * happened. The branches are dispatched the same way a Predicated block's are, including the
- * restriction on what a chain the client did not ask for is allowed to do.
- */
 @AbilityAction(AbilityModifier.AbilityModifierAction.Type.Randomed)
 public final class ActionRandomed extends AbilityActionHandler {
 

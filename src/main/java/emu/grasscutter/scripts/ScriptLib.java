@@ -375,13 +375,6 @@ public class ScriptLib {
         return this.getSceneScriptManager().getScene().getWorld().isMultiplayer();
     }
 
-    /**
-     * Whether the entity with this config id is currently alive in this group.
-     *
-     * <p>Returns a boolean rather than the usual 0-for-success int: the scripts use it directly as a
-     * condition ({@code return not ScriptLib.CheckIsInGroup(...)}), and in Lua every number is
-     * truthy - a 0 would read as "yes it is there" and invert the check.
-     */
     public boolean CheckIsInGroup(int groupId, int configId) {
         logger.debug("[LUA] Call CheckIsInGroup with {},{}", groupId, configId);
         return getSceneScriptManager().getScene().getEntityByConfigId(configId, groupId) != null;

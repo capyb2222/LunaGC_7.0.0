@@ -17,9 +17,6 @@ public final class PlayerLevelAvatarEvent extends PlayerEvent {
         this.avatar = avatar;
     }
 
-    /**
-     * @return The avatar's new level.
-     */
     public int getNewLevel() {
         return this.getAvatar().getLevel();
     }

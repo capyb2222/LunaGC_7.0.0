@@ -15,9 +15,6 @@ import io.javalin.http.Context;
 
 /** Handles requests related to authentication. */
 public final class AuthenticationHandler implements Router {
-    /**
-     * @route /hk4e_global/mdk/shield/api/login
-     */
     private static void clientLogin(Context ctx) {
         // Parse body data.
         String rawBodyData = ctx.body();
@@ -39,9 +36,6 @@ public final class AuthenticationHandler implements Router {
                 .debug(translate("messages.dispatch.account.login_attempt", Utils.address(ctx)));
     }
 
-    /**
-     * @route /hk4e_global/mdk/shield/api/verify
-     */
     private static void tokenLogin(Context ctx) {
         // Parse body data.
         String rawBodyData = ctx.body();
@@ -63,9 +57,6 @@ public final class AuthenticationHandler implements Router {
                 .debug(translate("messages.dispatch.account.login_attempt", Utils.address(ctx)));
     }
 
-    /**
-     * @route /hk4e_global/combo/granter/login/v2/login
-     */
     private static void sessionKeyLogin(Context ctx) {
         // Parse body data.
         String rawBodyData = ctx.body();
@@ -90,10 +81,6 @@ public final class AuthenticationHandler implements Router {
                 .debug(translate("messages.dispatch.account.login_attempt", Utils.address(ctx)));
     }
 
-    /**
-     * @route /hk4e_global/account/ma-passport/api/appLoginByPassword
-     * @route /hk4e_cn/account/ma-passport/api/appLoginByPassword
-     */
     private static void maPassportLogin(Context ctx) {
         Grasscutter.getLogger().info("Ma-passport login request from: " + Utils.address(ctx));
         
@@ -119,10 +106,6 @@ public final class AuthenticationHandler implements Router {
         }
     }
 
-    /**
-     * @route /hk4e_global/account/ma-passport/token/verifySToken
-     * @route /hk4e_cn/account/ma-passport/token/verifySToken
-     */
     private static void maPassportVerify(Context ctx) {
         Grasscutter.getLogger().info("Ma-passport token verify request from: " + Utils.address(ctx));
         

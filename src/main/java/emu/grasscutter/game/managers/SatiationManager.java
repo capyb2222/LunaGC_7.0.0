@@ -12,9 +12,6 @@ public class SatiationManager extends BasePlayerManager {
         super(player);
     }
 
-    /********************
-     * Change satiation
-     ********************/
     public synchronized boolean addSatiation(Avatar avatar, float satiationIncrease, int itemId) {
 
         // Satiation is max 10000 but can go over in the case of overeating
@@ -94,9 +91,6 @@ public class SatiationManager extends BasePlayerManager {
                         });
     }
 
-    /********************
-     * Player Updates
-     ********************/
     public synchronized void updateSingleAvatar(Avatar avatar, float givenTime) {
         float time = (player.getClientTime() / 1000) + givenTime;
         player.getSession().send(new PacketAvatarPropNotify(avatar));

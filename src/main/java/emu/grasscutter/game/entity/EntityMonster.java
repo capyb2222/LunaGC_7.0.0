@@ -282,10 +282,6 @@ public class EntityMonster extends GameEntity {
             Optional.ofNullable(scriptManager.getScriptMonsterSpawnService())
                     .ifPresent(s -> s.onMonsterDead(this));
 
-            // Ensure each EVENT_ANY_MONSTER_DIE runs to completion.
-            // Multiple such events firing at the same time may cause
-            // the same lua trigger to fire multiple times, when it
-            // should happen only once.
             var future =
                     scriptManager.callEvent(
                             new ScriptArgs(
@@ -380,14 +376,7 @@ public class EntityMonster extends GameEntity {
                                         + (this.getFightProperty(c.getBase())
                                                 * (1f + this.getFightProperty(c.getPercent())))));
 
-        // If in tower, scale max hp by
-        //   +50%: Floors 3 – 7
-        //  +100%: Floors 8 – 11
-        //  +150%: Floor 12
         var dungeonManager = getScene().getDungeonManager();
-        // recalcStats() runs from the constructor, so a monster can be built while the scene has no
-        // players yet (scene setup, or the teardown window in DungeonSystem.restartDungeon).
-        // Resolve the tower manager lazily so an empty player list can't blow up an ordinary spawn.
         var players = getScene().getPlayers();
         var towerManager = players.isEmpty() ? null : players.get(0).getTowerManager();
         if (dungeonManager != null && dungeonManager.isTowerDungeon() && towerManager != null) {

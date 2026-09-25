@@ -111,11 +111,6 @@ public class World implements Iterable<Player> {
         return entity.getId();
     }
 
-    /**
-     * Gets the peer ID of the world's host.
-     *
-     * @return The peer ID of the world's host. 0 if the host is null.
-     */
     public int getHostPeerId() {
         return this.getHost() == null ? 0 : this.getHost().getPeerId();
     }
@@ -136,12 +131,6 @@ public class World implements Iterable<Player> {
         this.host = host;
     }
 
-    /**
-     * Gets an associated scene by ID. Creates a new instance of the scene if it doesn't exist.
-     *
-     * @param sceneId The scene ID.
-     * @return The scene.
-     */
     @Nullable public Scene getSceneById(int sceneId) {
         // Get scene normally
         var scene = this.getScenes().get(sceneId);
@@ -164,12 +153,6 @@ public class World implements Iterable<Player> {
         return this.players.size();
     }
 
-    /**
-     * Gets the next entity ID for the specified entity type.
-     *
-     * @param idType The entity type.
-     * @return The next entity ID.
-     */
     public synchronized int getNextEntityId(EntityIdType idType) {
         return (idType.getId() << GameConstants.ENTITY_ID_BIT_SHIFT) + ++this.nextEntityId;
     }
@@ -478,13 +461,6 @@ public class World implements Iterable<Player> {
 
             player.getTeamManager().applyAbilities(newScene);
 
-            // Dungeon
-            // Dungeon system is handling this already
-            // if(dungeonData!=null){
-            //     var dungeonManager = new DungeonManager(newScene, dungeonData);
-            //     dungeonManager.startDungeon();
-            // }
-
             SceneConfig config = newScene.getScriptManager().getConfig();
             if (teleportProperties.getTeleportTo() == null && config != null) {
                 if (config.born_pos != null) {
@@ -559,11 +535,6 @@ public class World implements Iterable<Player> {
         }
     }
 
-    /**
-     * Invoked every game tick.
-     *
-     * @return True if the world should be removed.
-     */
     public boolean onTick() {
         // Check if there are players in this world.
         if (this.getPlayerCount() == 0) return true;
@@ -629,9 +600,6 @@ public class World implements Iterable<Player> {
         return ConversionUtils.gameTimeToDays(getTotalGameTimeMinutes());
     }
 
-    /**
-     * Returns the total number of in game hours that got completed since the beginning of the game
-     */
     public long getTotalGameTimeHours() {
         return ConversionUtils.gameTimeToHours(getTotalGameTimeMinutes());
     }
@@ -641,11 +609,6 @@ public class World implements Iterable<Player> {
         return this.getWorldTime() / 1000;
     }
 
-    /**
-     * Sets the world's pause status. Updates players and scenes accordingly.
-     *
-     * @param paused True if the world should be paused.
-     */
     public void setPaused(boolean paused) {
         // Check if this world is a multiplayer world.
         if (this.isMultiplayer) return;
@@ -664,22 +627,11 @@ public class World implements Iterable<Player> {
         this.getScenes().forEach((key, scene) -> scene.setPaused(paused));
     }
 
-    /**
-     * Changes the game time of the world.
-     *
-     * @param gameTime The time in game minutes.
-     */
     public void changeTime(long gameTime) {
         this.currentWorldTime = gameTime;
         this.lastUpdateTime = System.currentTimeMillis();
     }
 
-    /**
-     * Changes the time of the world.
-     *
-     * @param time The new time in minutes.
-     * @param days The number of days to add.
-     */
     public void changeTime(int time, int days) {
         // Check if the time is locked.
         if (this.timeLocked) return;
@@ -704,11 +656,6 @@ public class World implements Iterable<Player> {
         this.getPlayers().forEach(p -> p.sendPacket(new PacketSceneTimeNotify(p)));
     }
 
-    /**
-     * Locks the world time.
-     *
-     * @param locked True if the world time should be locked.
-     */
     public void lockTime(boolean locked) {
         this.timeLocked = locked;
 

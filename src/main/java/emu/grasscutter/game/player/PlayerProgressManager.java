@@ -18,12 +18,6 @@ import java.util.stream.Collectors;
 
 // @Entity
 public final class PlayerProgressManager extends BasePlayerDataManager {
-    /******************************************************************************************************************
-     ******************************************************************************************************************
-     * OPEN STATES
-     ******************************************************************************************************************
-     *****************************************************************************************************************/
-
     // Set of open states that are never unlocked, whether they fulfill the conditions or not.
     public static final Set<Integer> BLACKLIST_OPEN_STATES = Set.of();
 
@@ -70,9 +64,6 @@ public final class PlayerProgressManager extends BasePlayerDataManager {
         super(player);
     }
 
-    /**********
-     * Handler for player login.
-     **********/
     public void onPlayerLogin() {
         // Try unlocking open states on player login. This handles accounts where unlock conditions were
         // already met before certain open state unlocks were implemented.
@@ -91,9 +82,6 @@ public final class PlayerProgressManager extends BasePlayerDataManager {
         }
     }
 
-    /**********
-     * Direct getters and setters for open states.
-     **********/
     public int getOpenState(int openState) {
         return this.player.getOpenStates().getOrDefault(openState, 0);
     }
@@ -118,9 +106,6 @@ public final class PlayerProgressManager extends BasePlayerDataManager {
         this.setOpenState(openState, value, true);
     }
 
-    /**********
-     * Condition checking for setting open states.
-     **********/
     private boolean areConditionsMet(OpenStateData openState) {
         // Check all conditions and test if at least one of them is violated.
         for (var condition : openState.getCond()) {
@@ -158,9 +143,6 @@ public final class PlayerProgressManager extends BasePlayerDataManager {
         return true;
     }
 
-    /**********
-     * Setting open states from the client (via `SetOpenStateReq`).
-     **********/
     public void setOpenStateFromClient(int openState, int value) {
         // Get the data for this open state.
         OpenStateData data = GameData.getOpenStateDataMap().get(openState);
@@ -186,9 +168,6 @@ public final class PlayerProgressManager extends BasePlayerDataManager {
         this.setOpenState(openState, value);
     }
 
-    /**********
-     * Triggered unlocking of open states (unlock states whose conditions have been met.)
-     **********/
     public void tryUnlockOpenStates(boolean sendNotify) {
         // Get list of open states that are not yet unlocked.
         var lockedStates =
@@ -198,10 +177,6 @@ public final class PlayerProgressManager extends BasePlayerDataManager {
 
         // Try unlocking all of them.
         for (var state : lockedStates) {
-            // To auto-unlock a state, it has to meet three conditions:
-            // * it can not be a state that is unlocked by the client,
-            // * it has to meet all its unlock conditions, and
-            // * it can not be in the blacklist.
             if (!state.isAllowClientOpen()
                     && this.areConditionsMet(state)
                     && !BLACKLIST_OPEN_STATES.contains(state.getId())
@@ -215,11 +190,6 @@ public final class PlayerProgressManager extends BasePlayerDataManager {
         this.tryUnlockOpenStates(true);
     }
 
-    /******************************************************************************************************************
-     ******************************************************************************************************************
-     * MAP AREAS AND POINTS
-     ******************************************************************************************************************
-     *****************************************************************************************************************/
     private void addStatueQuestsOnLogin() {
         // Get all currently existing subquests for the "unlock all statues" main quest.
         var statueMainQuest = GameData.getMainQuestDataMap().get(303);
@@ -255,10 +225,6 @@ public final class PlayerProgressManager extends BasePlayerDataManager {
         // Give primogems  and Adventure EXP for unlocking.
         this.player.getInventory().addItem(201, 5, ActionReason.UnlockPointReward);
         this.player.getInventory().addItem(102, isStatue ? 50 : 10, ActionReason.UnlockPointReward);
-
-        // this.player.sendPacket(new
-        // PacketPlayerPropChangeReasonNotify(this.player.getProperty(PlayerProperty.PROP_PLAYER_EXP),
-        // PlayerProperty.PROP_PLAYER_EXP, PropChangeReason.PROP_CHANGE_REASON_PLAYER_ADD_EXP));
 
         // Fire quest trigger for trans point unlock.
         this.player
@@ -313,11 +279,6 @@ public final class PlayerProgressManager extends BasePlayerDataManager {
         player.getQuestManager().queueEvent(QuestCond.QUEST_COND_HISTORY_GOT_ANY_ITEM, id, newCount);
     }
 
-    /******************************************************************************************************************
-     ******************************************************************************************************************
-     * SCENETAGS
-     ******************************************************************************************************************
-     *****************************************************************************************************************/
     public void addSceneTag(int sceneId, int sceneTagId) {
         player.getSceneTags().computeIfAbsent(sceneId, k -> new HashSet<>()).add(sceneTagId);
         player.sendPacket(new PacketPlayerWorldSceneInfoListNotify(player));

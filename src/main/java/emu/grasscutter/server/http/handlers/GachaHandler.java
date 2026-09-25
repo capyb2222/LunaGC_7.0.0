@@ -24,12 +24,6 @@ public final class GachaHandler implements Router {
     @Deprecated(forRemoval = true)
     public static final String gachaMappings = gachaMappingsPath.toString();
 
-    /**
-     * The client is told these two URLs through GachaInfo.gacha_record_url / gacha_prob_url. Which of
-     * the two 7.0 field numbers is which was only recoverable from one dump, so route on the query
-     * string instead of trusting it: the history page is the one asked for by gachaType, the details
-     * page the one asked for by scheduleId. A swapped pair then still lands on the right page.
-     */
     private static void gachaRecords(Context ctx) {
         if (ctx.queryParam("gachaType") == null && ctx.queryParam("scheduleId") != null) {
             gachaDetails(ctx);
@@ -155,14 +149,6 @@ public final class GachaHandler implements Router {
         ctx.result(template);
     }
 
-    /**
-     * Fetches the gacha records for the specified player.
-     *
-     * @param player The player to fetch the records for.
-     * @param response The response to write to.
-     * @param page The page to fetch.
-     * @param type The gacha type to fetch.
-     */
     public static void fetchGachaRecords(Player player, JsonObject response, int page, int type) {
         var playerId = player.getUid();
         var records = DatabaseHelper.getGachaRecords(playerId, page, type).toString();

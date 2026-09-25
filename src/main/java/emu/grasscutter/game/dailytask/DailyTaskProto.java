@@ -6,20 +6,6 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.util.List;
 
-/**
- * The wire shape of the daily task messages in 6.7.
- *
- * <p>None of these messages exist in this tree's generated protos, and the ones in the 6.6 fork they
- * were ported from carry 6.6 field numbers, so they are written by hand here instead.
- *
- * <p><b>Where the numbers come from.</b> The 6.7 dump is fully obfuscated, so the messages were
- * identified by shape: {@code DailyTaskInfo} is the only message in all 9402 that is both carried
- * repeatedly by a three-field notify and alone by a one-field notify, while itself holding one bool
- * and four uint32. That triple constraint has exactly one solution, which pins the two notifies and
- * their CmdIds. Within a message a field of a unique type is equally certain - the bool below is
- * one - but a run of same-typed fields is not, and those are marked. If the commission list shows
- * the wrong numbers in game, the marked ones are what to permute.
- */
 public final class DailyTaskProto {
     private DailyTaskProto() {}
 
@@ -29,12 +15,6 @@ public final class DailyTaskProto {
     /** {@code BMPPNHACCGI}, the only three-field carrier. */
     public static final int WORLD_OWNER_NOTIFY_CMD = 28030;
 
-    /**
-     * Two messages in the dump have the right shape for this one ({@code AGELMICOGOL} 24670 and
-     * {@code JHBIKPALCPF} 29075) and nothing offline separates them. This is the other candidate's
-     * twin, so if the commission count never appears, try 29075 with the numbers in the comment on
-     * {@link #dataNotify}.
-     */
     public static final int DATA_NOTIFY_CMD = 24670;
 
     // DailyTaskInfo, obf FILHKPEJJPM. The bool is alone in its type and so is certain; the four

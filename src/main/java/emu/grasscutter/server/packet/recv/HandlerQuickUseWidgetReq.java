@@ -9,14 +9,6 @@ import emu.grasscutter.server.game.GameSession;
 
 @Opcodes(PacketOpcodes.QuickUseWidgetReq)
 public class HandlerQuickUseWidgetReq extends PacketHandler {
-    /*
-     * WARNING: with the consuming of material widget ( Example: bomb ),
-     * this is just a implement designed to the decreasing of count
-     *
-     * ### Known Bug: No effects after using item but decrease. ###
-     *
-     * If you know which Packet could make the effects, feel free to contribute!
-     * */
     @Override
     public void handle(GameSession session, byte[] header, byte[] payload) throws Exception {
         QuickUseWidgetRsp.Builder proto = QuickUseWidgetRsp.newBuilder();

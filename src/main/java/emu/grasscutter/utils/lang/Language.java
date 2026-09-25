@@ -49,12 +49,6 @@ public final class Language {
         }
     }
 
-    /**
-     * Creates a language instance from a code.
-     *
-     * @param langCode The language code.
-     * @return A language instance.
-     */
     public static Language getLanguage(String langCode) {
         if (cachedLanguages.containsKey(langCode)) {
             return cachedLanguages.get(langCode);
@@ -76,13 +70,6 @@ public final class Language {
         return languageInst;
     }
 
-    /**
-     * Returns the translated value from the key while substituting arguments.
-     *
-     * @param key The key of the translated value to return.
-     * @param args The arguments to substitute.
-     * @return A translated value with arguments substituted.
-     */
     public static String translate(String key, Object... args) {
         String translated = Grasscutter.getLanguage().get(key);
 
@@ -105,14 +92,6 @@ public final class Language {
         }
     }
 
-    /**
-     * Returns the translated value from the key while substituting arguments.
-     *
-     * @param locale The locale to use.
-     * @param key The key of the translated value to return.
-     * @param args The arguments to substitute.
-     * @return A translated value with arguments substituted.
-     */
     public static String translate(Locale locale, String key, Object... args) {
         if (locale == null) {
             return translate(key, args);
@@ -140,14 +119,6 @@ public final class Language {
         }
     }
 
-    /**
-     * Returns the translated value from the key while substituting arguments.
-     *
-     * @param player Target player
-     * @param key The key of the translated value to return.
-     * @param args The arguments to substitute.
-     * @return A translated value with arguments substituted.
-     */
     public static String translate(Player player, String key, Object... args) {
         if (player == null) {
             return translate(key, args);
@@ -156,14 +127,6 @@ public final class Language {
         return translate(player.getAccount().getLocale(), key, args);
     }
 
-    /**
-     * Recursive helper function to flatten a Json tree Converts input like {"foo": {"bar": "baz"}} to
-     * {"foo.bar": "baz"}
-     *
-     * @param map The map to insert the keys into
-     * @param key The flattened key of the current element
-     * @param element The current element
-     */
     private static void putFlattenedKey(Map<String, String> map, String key, JsonElement element) {
         if (element.isJsonObject()) {
             element
@@ -179,12 +142,6 @@ public final class Language {
         }
     }
 
-    /**
-     * create a LanguageStreamDescription
-     *
-     * @param languageCode The name of the language code.
-     * @param fallbackLanguageCode The name of the fallback language code.
-     */
     private static LanguageStreamDescription getLanguageFileDescription(
             String languageCode, String fallbackLanguageCode) {
         var fileName = languageCode + ".json";
@@ -323,11 +280,6 @@ public final class Language {
         Language.loadTextMaps(false);
     }
 
-    /**
-     * Loads game language data (text maps).
-     *
-     * @param bypassCache Should the cache be bypassed?
-     */
     public static void loadTextMaps(boolean bypassCache) {
         // Check system timestamps on cache and resources
         if (!bypassCache)
@@ -426,21 +378,8 @@ public final class Language {
     /** Internal names that are not what the thing ended up being called. */
     private static final Map<String, String> RENAMED = Map.of("MarionetteNew", "Sandrone");
 
-    /**
-     * The shipped text maps and the excel tables come from different dumps, and the drift between
-     * them is a constant: two thirds of the names that look missing are sitting 512 hashes along.
-     */
     private static final int HASH_DRIFT = 512;
 
-    /**
-     * Gives a readable name to every avatar and item the text maps have no string for.
-     *
-     * <p>Only 61 of 157 avatars resolve on the nose - Diluc, Jean and the Traveler all read blank in
-     * the handbook and in command output, which makes them impossible to look up by name and
-     * impossible to tell apart from each other. Most are recovered by the drift; whatever is left
-     * falls back to the internal name in the icon path, since "Crystalline Sword" beats an empty
-     * row even where it is not the name the game itself would print.
-     */
     private static void nameWhatTheTextMapsMissed(Int2ObjectMap<TextStrings> strings) {
         var recovered = new int[2];
         for (var avatar : GameData.getAvatarDataMap().values()) {
@@ -480,10 +419,6 @@ public final class Language {
         recovered[1]++;
     }
 
-    /**
-     * A hash the files half-answered is still a blank row: the loader fills the languages it has no
-     * string for with "[N/A] <hash>", so that placeholder does not count as known.
-     */
     private static boolean known(TextStrings strings) {
         return strings != null && !strings.get(0).startsWith("[N/A]");
     }
@@ -515,12 +450,6 @@ public final class Language {
         return languageCode;
     }
 
-    /**
-     * Returns the value (as a string) from a nested key.
-     *
-     * @param key The key to look for.
-     * @return The value (as a string) from a nested key.
-     */
     public String get(String key) {
         if (translations.containsKey(key)) return translations.get(key);
         String valueNotFoundPattern = "This value does not exist. Please report this to the Discord: ";

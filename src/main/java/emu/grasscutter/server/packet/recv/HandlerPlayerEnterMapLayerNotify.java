@@ -7,8 +7,5 @@ import emu.grasscutter.server.game.GameSession;
 public final class HandlerPlayerEnterMapLayerNotify extends PacketHandler {
     @Override
     public void handle(GameSession session, byte[] header, byte[] payload) throws Exception {
-        // var packet = ACDCLDJFDFKOuterClass.ACDCLDJFDFK.parseFrom(payload);
-        // Grasscutter.getLogger()
-        //         .info("[DEBUG] Player found new map layer: id {}", packet.getLayerId());
     }
 }

@@ -8,10 +8,6 @@ import java.time.Instant;
 import java.util.List;
 
 public final class PacketGetAllMailResultNotify extends BasePacket {
-    /**
-     * @param player The player to fetch the mail for.
-     * @param gifts Is the mail for gifts?
-     */
     public PacketGetAllMailResultNotify(Player player, boolean gifts) {
         super(PacketOpcodes.GetAllMailResultNotify);
 

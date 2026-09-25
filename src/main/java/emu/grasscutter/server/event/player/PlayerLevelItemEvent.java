@@ -17,9 +17,6 @@ public final class PlayerLevelItemEvent extends PlayerEvent {
         this.item = item;
     }
 
-    /**
-     * @return The item's new level.
-     */
     public int getNewLevel() {
         return this.getItem().getLevel();
     }

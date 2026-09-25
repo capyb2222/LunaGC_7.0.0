@@ -64,16 +64,10 @@ public class DungeonData extends GameResource {
         return involveType;
     }
 
-    /**
-     * @return The position of the player when they enter the dungeon.
-     */
     public Position getStartPosition() {
         return SceneMeta.of(this.getSceneId()).config.born_pos;
     }
 
-    /**
-     * @return The rotation of the player when they enter the dungeon.
-     */
     public Position getStartRotation() {
         return SceneMeta.of(this.getSceneId()).config.born_rot;
     }

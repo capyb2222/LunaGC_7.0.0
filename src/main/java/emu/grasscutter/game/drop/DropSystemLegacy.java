@@ -55,9 +55,6 @@ public class DropSystemLegacy extends BaseGameSystem {
             if (target != null) {
                 target.getInventory().addItem(new GameItem(itemData, num), ActionReason.SubfieldDrop, true);
             } else {
-                // target is null if items will be added are shared. no one could pick it up because of the
-                // combination(give + shared)
-                // so it will be sent to all players' inventories directly.
                 dropScene
                         .getPlayers()
                         .forEach(

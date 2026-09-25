@@ -71,12 +71,6 @@ public interface StartupArguments {
                 }
             };
 
-    /**
-     * Parses the provided start-up arguments.
-     *
-     * @param args The application start-up arguments.
-     * @return If the application should exit.
-     */
     static boolean parse(String[] args) {
         boolean exitEarly = false;
 
@@ -95,23 +89,11 @@ public interface StartupArguments {
         return exitEarly;
     }
 
-    /**
-     * Prints the server version.
-     *
-     * @param parameter Additional parameters.
-     * @return True to exit early.
-     */
     private static boolean printVersion(String parameter) {
         System.out.println("Grasscutter version: " + BuildConfig.VERSION + "-" + BuildConfig.GIT_HASH);
         return true;
     }
 
-    /**
-     * Enables debug logging.
-     *
-     * @param parameter Additional parameters.
-     * @return False to continue execution.
-     */
     private static boolean enableDebug(String parameter) {
         if (parameter != null && parameter.equals("all")) {
             // Override default debug configs
@@ -138,12 +120,6 @@ public interface StartupArguments {
         return false;
     }
 
-    /**
-     * Dumps the specified information.
-     *
-     * @param parameter The parameter to dump.
-     * @return True to exit early.
-     */
     private static boolean dump(String parameter) {
         // Parse the parameter.
         if (!parameter.contains(",")) {

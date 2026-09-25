@@ -12,14 +12,6 @@ import emu.grasscutter.net.proto.AbilityActionCreateGadgetOuterClass.AbilityActi
 @AbilityAction(AbilityModifierAction.Type.CreateGadget)
 public class ActionCreateGadget extends AbilityActionHandler {
 
-    /**
-     * Whether the client is already running - and populating - the chain this creation hangs off, in
-     * which case a copy of ours is a second one the player can see.
-     *
-     * <p>Only chains rooted at a player's avatar count. A summon hanging off a monster is left alone:
-     * the reasoning here is about what the client spawns for its own character, and an enemy's
-     * mechanics are not that.
-     */
     private static boolean clientOwnsChain(GameEntity entity) {
         if (entity instanceof EntityClientGadget) return true;
 
@@ -38,17 +30,6 @@ public class ActionCreateGadget extends AbilityActionHandler {
         var entity = ability.getOwner();
         if (entity instanceof EntityClientGadget) return true;
 
-        // The client owns these chains and spawns its own copies, so ours are only ever duplicates -
-        // and duplicates the owner can see, since addEntity below broadcasts to everyone while a
-        // client-made gadget is deliberately not echoed back to its own client.
-        //
-        // Two shapes of it. A gadget the client created outright, which is Odette's shadows. And a
-        // summon spawning the next hop, which is Furina: her skill puts out an invisible Salon
-        // Solitaire controller, and that controller's own ability creates the singers. Those pile up
-        // rather than merely double, because every cast builds a fresh controller and the cleanup
-        // below only recognises summons belonging to the one controller it is standing on - so the
-        // previous cast's singers match nothing, and neither does the KillGadget that should retire
-        // them when the skill ends.
         if (clientOwnsChain(entity)) {
             return true;
         }
@@ -60,10 +41,6 @@ public class ActionCreateGadget extends AbilityActionHandler {
             return false;
         }
 
-        // The payload only carries a position when the action came from a real create-gadget
-        // invocation. Reached from a modifier being added it carries something else entirely, and
-        // taking its absent pos would strand the summon at the world origin - so fall back to
-        // whoever is summoning it.
         var pos =
                 createGadget.hasPos() ? new Position(createGadget.getPos()) : entity.getPosition().clone();
         var rot =

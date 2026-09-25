@@ -42,32 +42,14 @@ public final class DatabaseHelper {
                     FastThreadLocalThread::new,
                     new ThreadPoolExecutor.AbortPolicy());
 
-    /**
-     * Saves an object on the account datastore.
-     *
-     * @param object The object to save.
-     */
     public static void saveAccountAsync(Object object) {
         DatabaseHelper.eventExecutor.submit(() -> DatabaseManager.getAccountDatastore().save(object));
     }
 
-    /**
-     * Saves an object on the game datastore.
-     *
-     * @param object The object to save.
-     */
     public static void saveGameAsync(Object object) {
         DatabaseHelper.eventExecutor.submit(() -> saveWithRetry(object));
     }
 
-    /**
-     * Saves on the executor, retrying the two failures that are races rather than real errors.
-     *
-     * <p>An unguarded save swallows both: a duplicate key means something else inserted the entity
-     * first, and a ConcurrentModificationException means a player collection was being mutated on
-     * another thread while Morphia walked it - typically during login. Both used to lose the write
-     * silently, so progress simply disappeared.
-     */
     private static void saveWithRetry(Object object) {
         var name = object.getClass().getSimpleName();
         try {
@@ -106,21 +88,10 @@ public final class DatabaseHelper {
         }
     }
 
-    /**
-     * Runs a runnable on the event executor. Should be limited to database-related operations.
-     *
-     * @param runnable The runnable to run.
-     */
     public static void asyncOperation(Runnable runnable) {
         DatabaseHelper.eventExecutor.submit(runnable);
     }
 
-    /**
-     * Fetches an object asynchronously.
-     *
-     * @param task The task to run.
-     * @return The future.
-     */
     public static <T> CompletableFuture<T> fetchAsync(Returnable<T> task) {
         var future = new CompletableFuture<T>();
 
@@ -253,13 +224,6 @@ public final class DatabaseHelper {
     }
 
     public static synchronized void deleteAccount(Account target) {
-        // To delete an account, we need to also delete all the other documents in the database that
-        // reference the account.
-        // This should optimally be wrapped inside a transaction, to make sure an error thrown mid-way
-        // does not leave the
-        // database in an inconsistent state, but unfortunately Mongo only supports that when we have a
-        // replica set ...
-
         Player player = Grasscutter.getGameServer().getPlayerByAccountId(target.getId());
 
         // Close session first
@@ -288,9 +252,6 @@ public final class DatabaseHelper {
                             .getCollection("battlepass")
                             .deleteMany(eq("ownerUid", uid));
 
-                    // Delete friendships.
-                    // Here, we need to make sure to not only delete the deleted account's friendships,
-                    // but also all friendship entries for that account's friends.
                     DatabaseManager.getGameDatabase()
                             .getCollection("friendships")
                             .deleteMany(eq("ownerId", uid));
@@ -343,13 +304,6 @@ public final class DatabaseHelper {
                 .first();
     }
 
-    /**
-     * Use {@link DatabaseHelper#getPlayerByAccount(Account, Class)} for creating a real player. This
-     * method is used for fetching the player's data.
-     *
-     * @param accountId The account's ID.
-     * @return The player.
-     */
     public static Player getPlayerByAccount(String accountId) {
         return DatabaseManager.getGameDatastore()
                 .find(Player.class)
@@ -403,12 +357,6 @@ public final class DatabaseHelper {
         DatabaseHelper.saveGameAsync(avatar);
     }
 
-    /**
-     * Fetches all avatars of a player.
-     *
-     * @param player The player.
-     * @return The list of avatars.
-     */
     public static List<Avatar> getAvatars(Player player) {
         return DatabaseManager.getGameDatastore()
                 .find(Avatar.class)
@@ -425,12 +373,6 @@ public final class DatabaseHelper {
         DatabaseHelper.asyncOperation(() -> DatabaseManager.getGameDatastore().delete(item));
     }
 
-    /**
-     * Fetches all items of a player.
-     *
-     * @param player The player.
-     * @return The list of items.
-     */
     public static List<GameItem> getInventoryItems(Player player) {
         return DatabaseManager.getGameDatastore()
                 .find(GameItem.class)

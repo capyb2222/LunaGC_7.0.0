@@ -54,12 +54,6 @@ public final class Style {
 
     @Builder.Default private Color color = null;
 
-    /**
-     * Replaces detected sequences of &color with the specified text.
-     *
-     * @param input The input text.
-     * @return The replaced text.
-     */
     private String replaceUnity(String input) {
         // Thanks ChatGPT! (from ChatGPT)
         // Check if the input string is null or empty
@@ -109,12 +103,6 @@ public final class Style {
         return output.toString();
     }
 
-    /**
-     * Replaces detected sequences of &color with the specified text.
-     *
-     * @param input The input text.
-     * @return The replaced text.
-     */
     private String replaceTerminal(String input) {
         // Check if the input string is null or empty
         if (input == null || input.isEmpty()) {
@@ -163,12 +151,6 @@ public final class Style {
         return output.toString();
     }
 
-    /**
-     * Wraps the text in the style. Formatted for Unity clients.
-     *
-     * @param text The text to wrap.
-     * @return The wrapped text.
-     */
     public String toUnity(String text) {
         var builder = new StringBuilder();
 
@@ -205,12 +187,6 @@ public final class Style {
         return builder.toString();
     }
 
-    /**
-     * Wraps the text in the style. Formatted for terminal clients.
-     *
-     * @param text The text to wrap.
-     * @return The wrapped text.
-     */
     public String toTerminal(String text) {
         // Check for color.
         if (this.color == null) return this.replaceTerminal(text);

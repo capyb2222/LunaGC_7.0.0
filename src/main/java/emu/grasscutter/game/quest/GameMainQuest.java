@@ -188,12 +188,6 @@ public class GameMainQuest {
                         .addItemParamDatas(rewardData.getRewardItemList(), ActionReason.QuestReward);
             }
         }
-
-        // handoff main quest
-        // if (mainQuestData.getSuggestTrackMainQuestList() != null) {
-        //     Arrays.stream(mainQuestData.getSuggestTrackMainQuestList())
-        //         .forEach(getQuestManager()::startMainQuest);
-        // }
     }
     // TODO
     public void fail() {}
@@ -204,10 +198,6 @@ public class GameMainQuest {
         if (targetQuest == null || !targetQuest.rewind(notifyDelete)) {
             return null;
         }
-
-        // if(rewindPositions.isEmpty()){
-        //     this.addRewindPoints();
-        // }
 
         List<Position> posAndRot = new ArrayList<>();
         if (hasRewindPosition(targetQuest.getSubQuestId(), posAndRot)) {
@@ -310,15 +300,6 @@ public class GameMainQuest {
         return true;
     }
 
-    /**
-     * Checks if the quest has a teleport position. Returns true if it does and adds the target
-     * position and rotation to the list.
-     *
-     * @param subId The sub-quest ID.
-     * @param posAndRot A list which will contain the position and rotation if the quest has a
-     *     teleport.
-     * @return True if the quest has a teleport position. False otherwise.
-     */
     public boolean hasTeleportPosition(int subId, List<Position> posAndRot) {
         TeleportData questTransmit = GameData.getTeleportDataMap().get(subId);
         if (questTransmit == null) return false;

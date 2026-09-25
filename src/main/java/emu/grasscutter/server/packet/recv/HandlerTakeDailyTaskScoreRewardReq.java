@@ -8,15 +8,6 @@ import emu.grasscutter.server.game.GameSession;
 import emu.grasscutter.server.packet.send.PacketTakeDailyTaskScoreRewardRsp;
 import java.util.List;
 
-/**
- * Claims the bonus for finishing the day's four commissions.
- *
- * <p>DailyTaskManager already grants this on its own the moment the fourth commission is finished,
- * so by the time the player presses the button it has usually been paid. That makes {@code
- * claimScoreReward()} return false - "already taken" - which must NOT be reported as a failure, or
- * the button errors on a reward the player has. What the client is owed here is confirmation and the
- * item list, so success is decided by whether the four commissions are done, not by who paid.
- */
 @Opcodes(PacketOpcodes.TakeDailyTaskScoreRewardReq)
 public class HandlerTakeDailyTaskScoreRewardReq extends PacketHandler {
 

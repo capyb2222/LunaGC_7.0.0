@@ -45,13 +45,6 @@ public final class CommandMap {
         }
     }
 
-    /**
-     * Register a command handler.
-     *
-     * @param label The command label.
-     * @param command The command handler.
-     * @return Instance chaining.
-     */
     public CommandMap registerCommand(String label, CommandHandler command) {
         Grasscutter.getLogger().trace("Registered command: " + label);
         label = label.toLowerCase();
@@ -69,12 +62,6 @@ public final class CommandMap {
         return this;
     }
 
-    /**
-     * Removes a registered command handler.
-     *
-     * @param label The command label.
-     * @return Instance chaining.
-     */
     public CommandMap unregisterCommand(String label) {
         Grasscutter.getLogger().trace("Un-registered command: " + label);
 
@@ -102,11 +89,6 @@ public final class CommandMap {
         return new LinkedHashMap<>(this.annotations);
     }
 
-    /**
-     * Returns a list of all registered commands.
-     *
-     * @return All command handlers as a list.
-     */
     public List<CommandHandler> getHandlersAsList() {
         return new ArrayList<>(this.commands.values());
     }
@@ -115,12 +97,6 @@ public final class CommandMap {
         return this.commands;
     }
 
-    /**
-     * Returns a handler by label/alias.
-     *
-     * @param label The command label.
-     * @return The command handler.
-     */
     public CommandHandler getHandler(String label) {
         CommandHandler handler = this.commands.get(label);
         if (handler == null) {
@@ -138,9 +114,6 @@ public final class CommandMap {
             if (arg.startsWith("@")) {
                 arg = args.remove(i).substring(1);
                 if (arg.isEmpty()) {
-                    // This is a special case to target nothing, distinct from failing to assign a target.
-                    // This is specifically to allow in-game players to run a command without targeting
-                    // themselves or anyone else.
                     return null;
                 }
                 int uid = getUidFromString(arg);
@@ -211,12 +184,6 @@ public final class CommandMap {
         return true;
     }
 
-    /**
-     * Invoke a command handler with the given arguments.
-     *
-     * @param player The player invoking the command or null for the server console.
-     * @param rawMessage The messaged used to invoke the command.
-     */
     public void invoke(Player player, Player targetPlayer, String rawMessage) {
         // Invoke the ExecuteCommandEvent.
         var event = new ExecuteCommandEvent(player, targetPlayer, rawMessage);

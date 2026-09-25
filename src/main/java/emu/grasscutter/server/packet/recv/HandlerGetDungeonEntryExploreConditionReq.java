@@ -11,11 +11,6 @@ public class HandlerGetDungeonEntryExploreConditionReq extends PacketHandler {
     public void handle(GameSession session, byte[] header, byte[] payload) throws Exception {
         var req = GetDungeonEntryExploreConditionReq.parseFrom(payload);
 
-        // TODO Send GetDungeonEntryExploreConditionRsp if condition
-        // (adventurer rank or quest completion) is not met. Parse
-        // dungeon entry conditions from DungeonEntryExcelConfigData.json.
-        // session.send(new PacketGetDungeonEntryExploreConditionRsp(req.getDungeonEntryConfigId()));
-
         // For now, just unlock any domain the player touches.
         session.send(
                 new PacketDungeonEntryToBeExploreNotify(

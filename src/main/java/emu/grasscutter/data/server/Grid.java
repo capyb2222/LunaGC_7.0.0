@@ -26,9 +26,6 @@ public class Grid {
         }
     }
 
-    /**
-     * @return The correctly loaded grid map.
-     */
     public Map<GridPosition, Set<Integer>> getGrid() {
         return this.grid;
     }
@@ -51,9 +48,6 @@ public class Grid {
             return this.nearbyGroups;
         }
 
-        // Coarse grids with cells larger than the hard cap cannot guarantee that the
-        // entities they return are within 500m of the player. Skip them entirely so we
-        // never load distant REMOTE/SUPER groups.
         if (width > MAX_ENTITY_LOAD_RANGE) {
             return this.nearbyGroups;
         }

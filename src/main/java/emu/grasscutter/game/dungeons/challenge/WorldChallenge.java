@@ -32,16 +32,6 @@ public class WorldChallenge {
     private int startedAt;
     private int finishedTime;
 
-    /**
-     * @param scene The scene the challenge is in.
-     * @param group The group the challenge is in.
-     * @param challengeId The challenge's id.
-     * @param challengeIndex The challenge's index.
-     * @param paramList The challenge's parameters.
-     * @param timeLimit The challenge's time limit.
-     * @param goal The challenge's goal.
-     * @param challengeTriggers The challenge's triggers.
-     */
     public WorldChallenge(
             Scene scene,
             SceneGroup group,

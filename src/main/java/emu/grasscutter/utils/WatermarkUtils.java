@@ -4,14 +4,6 @@ import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Builds the compiled-Lua payload that retexts the client's beta watermark.
- *
- * <p>The blob is a Lua 5.1 chunk that resolves the GameObject {@code
- * /BetaWatermarkCanvas(Clone)/Panel/TxtUID}, takes its {@code Text} component and assigns {@code
- * .text}. Only the string constant in the middle varies, so the surrounding bytecode is kept as two
- * fixed halves and the caller's text is spliced between them.
- */
 public final class WatermarkUtils {
     private WatermarkUtils() {}
 
@@ -34,26 +26,12 @@ public final class WatermarkUtils {
         0, 0, 0, 5, 95, 69, 78, 86
     };
 
-    /**
-     * Maximum encoded string size. The length is written as a single byte, so the text plus its
-     * terminator cannot exceed the unsigned byte range.
-     */
     public static final int MAX_LENGTH = Byte.MAX_VALUE - Byte.MIN_VALUE;
 
-    /**
-     * @return true if the text fits in the single length byte the chunk format allows.
-     */
     public static boolean fits(String text) {
         return text != null && text.getBytes(StandardCharsets.UTF_8).length + 1 <= MAX_LENGTH;
     }
 
-    /**
-     * Compiles a watermark payload for the given text.
-     *
-     * @throws IllegalArgumentException if the text does not fit; callers should check {@link
-     *     #fits(String)} first. Silently truncating would emit a length byte that disagrees with the
-     *     bytes that follow, producing a chunk the client cannot load.
-     */
     public static byte[] buildLuac(String text) {
         var textBytes = text.getBytes(StandardCharsets.UTF_8);
         if (textBytes.length + 1 > MAX_LENGTH) {

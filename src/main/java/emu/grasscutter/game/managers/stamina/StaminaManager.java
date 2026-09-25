@@ -362,18 +362,6 @@ public class StaminaManager extends BasePlayerManager {
         if (currentAvatar.getAvatarData().getWeaponType() == WeaponType.WEAPON_CLAYMORE) {
             // Exclude claymore as their stamina cost starts when MixinStaminaCost gets in
         }
-        // TODO: Differentiate normal attacks from charged attacks and exclude
-        // TODO: Temporary: Exclude non-claymore attacks for now
-        /*
-        if (BowAvatars.contains(currentAvatarId)
-                || SwordAvatars.contains(currentAvatarId)
-                || PolearmAvatars.contains(currentAvatarId)
-                || CatalystAvatars.contains(currentAvatarId)
-        ) {
-            return;
-        }
-        */
-        //handleImmediateStamina(session, skillId);
     }
 
     public void handleMixinCostStamina(boolean isSwim) {
@@ -661,11 +649,6 @@ public class StaminaManager extends BasePlayerManager {
     }
 
     private Consumption getBowSustainedCost(int skillId) {
-        // Note that bow skills actually recovers stamina
-        // Character specific handling
-        // switch (skillId) {
-        //     // No known bow skills cost stamina
-        // }
         return new Consumption(ConsumptionType.FIGHT, +500);
     }
 

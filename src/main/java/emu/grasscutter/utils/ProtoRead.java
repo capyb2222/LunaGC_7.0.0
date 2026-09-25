@@ -2,19 +2,6 @@ package emu.grasscutter.utils;
 
 import java.nio.charset.StandardCharsets;
 
-/**
- * Reads single fields out of a protobuf payload by number, without a schema.
- *
- * <p>A generated class cannot read a payload from a newer client: a field it declares as a string
- * may now carry a varint, and {@code parseFrom} throws on the mismatch rather than returning the
- * parts that still line up. During a version bring-up the field numbers are known one at a time,
- * from a live capture, long before there is a proto to regenerate from - so the reader has to take
- * the number as an argument instead of baking it in. {@link ProtoSniff} finds the numbers; this
- * reads the values once they are known.
- *
- * <p>Temporary by design. When a dump for the version exists the generated classes come back and
- * the handlers should go back with them.
- */
 public final class ProtoRead {
 
     private ProtoRead() {}

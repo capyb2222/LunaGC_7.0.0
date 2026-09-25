@@ -14,14 +14,6 @@ public class PacketServerCondMeetQuestListUpdateNotify extends BasePacket {
 
         ServerCondMeetQuestListUpdateNotify.Builder proto = ServerCondMeetQuestListUpdateNotify.newBuilder();
 
-        /*
-        player.getQuestManager().forEachQuest(quest -> {
-            if (quest.getState().getValue() <= 2) {
-                proto.addAddQuestIdList(quest.getQuestId());
-            }
-        });
-        */
-
         this.setData(proto);
     }
 

@@ -66,10 +66,6 @@ public class EntityRegion extends GameEntity {
         return this.entityLeave;
     }
 
-    /**
-     * Nothing fights this entity, but an ability attached to one reads the whole FightProperty set
-     * off its owner, and a null threw right through the action instead of reading zeroes.
-     */
     @Override
     public Int2FloatMap getFightProperties() {
         return this.fightProperties;

@@ -42,11 +42,6 @@ public class HandlerSetPlayerBirthdayReq extends PacketHandler {
 
 		session.send(new PacketGetPlayerSocialDetailRsp(detail));
 		
-		/*
-		 * The player's daily reset may already have happened today.
-		 * Check immediately so selecting today's date does not cause the
-		 * current year's birthday gift to be missed.
-		 */
 		BirthdayMailSystem.checkAndSend(player);
     }
 

@@ -174,9 +174,6 @@ public final class SpawnCommand implements CommandHandler {
         } else {
             var gadget = new EntityGadget(param.scene, param.id, pos, param.rot);
 
-            // With a group and config given, attach the real SceneGadget from the map script so the
-            // gadget keeps its map identity - drop table, interaction, state - instead of spawning
-            // as a bare prop that cannot be opened.
             if (param.groupId != -1 && param.configId != -1) {
                 var group = SceneGroup.of(param.groupId).load(param.scene.getId());
                 if (group != null && group.gadgets != null) {

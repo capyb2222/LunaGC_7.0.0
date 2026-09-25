@@ -67,13 +67,6 @@ public enum LogicType {
         }
     }
 
-    /**
-     * Apply logic type to all predicates
-     *
-     * @param logicType type of logic that should be applied to predicates
-     * @param predicates list of predicates for which logicType will be applied
-     * @return result of applying logicType to predicates
-     */
     public static boolean calculate(@NotNull LogicType logicType, List<BooleanSupplier> predicates) {
         switch (logicType) {
             case LOGIC_AND -> {

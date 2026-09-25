@@ -631,27 +631,14 @@ public class Scene {
             return;
         }
 
-        // Every stage stands on its own. A scene whose scripts are incomplete used to throw on the
-        // way in and never reach the entity loop below, so nothing in the scene moved, died or
-        // despawned - and the player was left in a world that had quietly stopped.
         if (!isPaused) stage("the scheduler", () -> this.getScheduler().runTasks());
 
-        // Streaming does not need the full tick rate - it answers "which groups are near the
-        // player", and a player cannot outrun half a second of it. The timers and triggers below
-        // do need it, which is why only this part is throttled.
         var nowMs = System.currentTimeMillis();
         if (nowMs - this.lastStreamCheck >= 500L) {
             this.lastStreamCheck = nowMs;
             stage(
                 "loading groups",
                 () -> {
-                    // checkSpawns is the fallback for scenes that have no scripts, so it must not
-                    // run while the scripts are merely still loading - init() runs on its own
-                    // thread, and every spawn in Spawns.json/GadgetSpawns.json belongs to a scene
-                    // that does have scripts. Spawning during that window duplicated those
-                    // monsters and gadgets against the scripted copies, and nothing cleaned the
-                    // extras up: checkSpawns owns the removal pass, and it stops running the
-                    // moment checkGroups takes over.
                     if (this.getScriptManager().isInit()) this.checkGroups();
                     else if (this.getScriptManager().isInitAttempted()) this.checkSpawns();
                 });
@@ -701,12 +688,6 @@ public class Scene {
     /** Stages of a tick already reported as failing, so the log says each one once. */
     private final Set<String> reportedStages = ConcurrentHashMap.newKeySet();
 
-    /**
-     * Runs one stage of the tick, keeping a failure in it from stopping the others.
-     *
-     * <p>Reported once per stage per scene: a scene that throws does it every second, and the log is
-     * more useful with one copy of the reason than three thousand.
-     */
     private void stage(String name, Runnable body) {
         try {
             body.run();

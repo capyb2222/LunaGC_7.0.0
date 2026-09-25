@@ -19,16 +19,10 @@ public final class PlayerSwitchAvatarEvent extends PlayerEvent implements Cancel
         this.newAvatar = newAvatar;
     }
 
-    /**
-     * @return The previous avatar as an entity.
-     */
     public EntityAvatar getPreviousAvatarEntity() {
         return this.previousAvatar.getAsEntity();
     }
 
-    /**
-     * @return The new avatar as an entity.
-     */
     public EntityAvatar getNewAvatarEntity() {
         return this.newAvatar.getAsEntity();
     }

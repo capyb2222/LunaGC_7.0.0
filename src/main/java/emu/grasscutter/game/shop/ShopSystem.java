@@ -62,9 +62,6 @@ public class ShopSystem extends BaseGameSystem {
             }
 
             if (GAME_OPTIONS.enableShopItems) {
-                // Shop.json is the curated source and every one of its shops also exists in the
-                // excel data, so appending there would list those items twice. Fill only the
-                // shops it does not define.
                 GameData.getShopGoodsDataEntries()
                         .forEach(
                                 (k, v) -> {
@@ -113,10 +110,6 @@ public class ShopSystem extends BaseGameSystem {
         loadArtifactShop();
     }
 
-    /**
-     * Lists the 5-star artifacts. Called on its own after the resources finish loading, because the
-     * shop system is built before them and has no item data to work from yet.
-     */
     public synchronized void loadArtifactShop() {
         this.artifactShop.install(getShopData());
     }

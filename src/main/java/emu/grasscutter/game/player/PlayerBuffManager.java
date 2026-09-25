@@ -25,21 +25,10 @@ public final class PlayerBuffManager extends BasePlayerManager {
         this.pendingBuffs = new ArrayList<>();
     }
 
-    /**
-     * Gets a new uid for a server buff
-     *
-     * @return New integer buff uid
-     */
     private int getNextBuffUid() {
         return ++nextBuffUid;
     }
 
-    /**
-     * Returns true if the player has a buff with this group id
-     *
-     * @param groupId Buff group id
-     * @return True if a buff with this group id exists
-     */
     public synchronized boolean hasBuff(int groupId) {
         return this.buffs.containsKey(groupId);
     }
@@ -58,35 +47,14 @@ public final class PlayerBuffManager extends BasePlayerManager {
         this.buffs.clear();
     }
 
-    /**
-     * Adds a server buff to the player.
-     *
-     * @param buffId Server buff id
-     * @return True if a buff was added
-     */
     public boolean addBuff(int buffId) {
         return addBuff(buffId, -1f);
     }
 
-    /**
-     * Adds a server buff to the player.
-     *
-     * @param buffId Server buff id
-     * @param duration Duration of the buff in seconds. Set to 0 for an infinite buff.
-     * @return True if a buff was added
-     */
     public synchronized boolean addBuff(int buffId, float duration) {
         return addBuff(buffId, duration, null);
     }
 
-    /**
-     * Adds a server buff to the player.
-     *
-     * @param buffId Server buff id
-     * @param duration Duration of the buff in seconds. Set to 0 for an infinite buff.
-     * @param target Target avatar
-     * @return True if a buff was added
-     */
     public synchronized boolean addBuff(int buffId, float duration, Avatar target) {
         // Get buff excel data
         var buffData = GameData.getBuffDataMap().get(buffId);
@@ -147,12 +115,6 @@ public final class PlayerBuffManager extends BasePlayerManager {
         return true;
     }
 
-    /**
-     * Removes a buff by its group id
-     *
-     * @param buffGroupId Server buff group id
-     * @return True if a buff was remove
-     */
     public synchronized boolean removeBuff(int buffGroupId) {
         PlayerBuff buff = this.buffs.remove(buffGroupId);
 

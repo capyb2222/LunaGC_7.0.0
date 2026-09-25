@@ -28,9 +28,6 @@ public class TowerResult extends BaseDungeonResult {
         this.currentStars = currentStars;
     }
 
-    // 7.0 declares continue_state as a plain uint32 rather than the nested ContinueStateType enum
-    // the 6.7 protos had, so the constants are spelled out here. The values are the ones the 6.7
-    // generated enum carried, read back off it rather than assumed.
     private static final int CONTINUE_STATE_CAN_NOT_CONTINUE = 0;
     private static final int CONTINUE_STATE_CAN_ENTER_NEXT_LEVEL = 1;
     private static final int CONTINUE_STATE_CAN_ENTER_NEXT_FLOOR = 2;

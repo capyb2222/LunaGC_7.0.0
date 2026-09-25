@@ -113,10 +113,6 @@ public class GameQuest {
         this.save();
     }
 
-    /**
-     * Triggers events: 'QUEST_COND_STATE_EQUAL', 'QUEST_COND_STATE_NOT_EQUAL',
-     * 'QUEST_CONTENT_QUEST_STATE_EQUAL', 'QUEST_CONTENT_QUEST_STATE_NOT_EQUAL'
-     */
     public void triggerStateEvents() {
         var questManager = this.getOwner().getQuestManager();
         var questId = this.getSubQuestId();
@@ -308,11 +304,6 @@ public class GameQuest {
         return true;
     }
 
-    /**
-     * @return A list of dungeon IDs associated with the quest's 'QUEST_CONTENT_ENTER_DUNGEON'
-     *     triggers. The first element of the pair is the dungeon ID. The second element of the pair
-     *     is the dungeon's scene point.
-     */
     public List<IntIntImmutablePair> getDungeonIds() {
         // Check if this quest is active.
         if (this.state != QuestState.QUEST_STATE_UNFINISHED) return List.of();
@@ -322,9 +313,6 @@ public class GameQuest {
                 .map(
                         condition -> {
                             var params = condition.getParam();
-                            // The first parameter is the ID of the dungeon.
-                            // The second parameter is the dungeon entry's scene point.
-                            // ex. [1, 1] = dungeon ID 1, scene point 1 or 'KaeyaDungeon'.
                             return new IntIntImmutablePair(params[0], params[1]);
                         })
                 .toList();

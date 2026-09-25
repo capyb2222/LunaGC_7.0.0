@@ -23,9 +23,6 @@ public class PacketCoopDataNotify extends BasePacket {
                             var chapter = CoopChapterOuterClass.CoopChapter.newBuilder();
                             chapter.setId(i.getId());
 
-                            // TODO: implement: look at unlockCond to determine what state each chapter should be
-                            // in.
-                            // Set every chapter to "Accept" regardless of accept conditions.
                             chapter.setStateValue(3); // 3 == STATE_ACCEPT
 
                             var point = CoopPointOuterClass.CoopPoint.newBuilder();

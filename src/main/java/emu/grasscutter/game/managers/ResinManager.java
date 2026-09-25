@@ -18,9 +18,6 @@ public class ResinManager extends BasePlayerManager {
         super(player);
     }
 
-    /********************
-     * Change resin.
-     ********************/
     public synchronized boolean useResin(int amount) {
         // Check if resin enabled.
         if (!GAME_OPTIONS.resinOptions.resinUsage) {
@@ -83,9 +80,6 @@ public class ResinManager extends BasePlayerManager {
         this.player.sendPacket(new PacketResinChangeNotify(this.player));
     }
 
-    /********************
-     * Recharge resin.
-     ********************/
     public synchronized void rechargeResin() {
         // Check if resin enabled.
         if (!GAME_OPTIONS.resinOptions.resinUsage) {
@@ -106,9 +100,6 @@ public class ResinManager extends BasePlayerManager {
             return;
         }
 
-        // Calculate how much resin we need to refill and update player.
-        // Note that this can be more than one in case the player
-        // logged off with uncapped resin and is now logging in again.
         int recharge =
                 1
                         + (int)
@@ -133,9 +124,6 @@ public class ResinManager extends BasePlayerManager {
         this.player.sendPacket(new PacketResinChangeNotify(this.player));
     }
 
-    /********************
-     * Player login.
-     ********************/
     public synchronized void onPlayerLogin() {
         // If resin usage is disabled, set resin to cap.
         if (!GAME_OPTIONS.resinOptions.resinUsage) {

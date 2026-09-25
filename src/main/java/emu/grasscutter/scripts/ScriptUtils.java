@@ -23,12 +23,6 @@ public interface ScriptUtils {
         Grasscutter.getLogger().info(toMap(table).toString());
     }
 
-    /**
-     * Converts a position object into a Lua table.
-     *
-     * @param position The position object to convert.
-     * @return The Lua table.
-     */
     static LuaTable posToLua(Position position) {
         var result = new LuaTable();
         if (position != null) {
@@ -44,12 +38,6 @@ public interface ScriptUtils {
         return result;
     }
 
-    /**
-     * Converts a Lua table into a position object.
-     *
-     * @param position The Lua table to convert.
-     * @return The position object.
-     */
     static Position luaToPos(LuaValue position) {
         var result = new Position();
         if (position != null && !position.isnil()) {

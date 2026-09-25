@@ -63,9 +63,6 @@ public class SpawnDataEntry {
                 return results;
             }
 
-            // Only load grid blocks that can be within the 500m hard cap. Coarser scales
-            // (e.g. 1000m blocks) would pull in entities from far outside the player's
-            // surroundings and recreate the large scene-sync bursts behind client (1,1,2).
             final int maxEntityLoadRange = 500;
             int capacity = 0;
             for (int scale = 0; scale < GameDepot.BLOCK_SIZE.length; scale++) {

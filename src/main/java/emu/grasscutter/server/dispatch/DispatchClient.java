@@ -40,12 +40,6 @@ public final class DispatchClient extends WebSocketClient implements IDispatcher
         this.registerHandler(PacketIds.ServerMessageNotify, ServerMessageEvent::invoke);
     }
 
-    /**
-     * Handles the gacha history request packet sent by the client.
-     *
-     * @param socket The socket the packet was received from.
-     * @param object The packet data.
-     */
     private void fetchGachaHistory(WebSocket socket, JsonElement object) {
         var message = IDispatcher.decode(object);
         var accountId = message.get("accountId").getAsString();
@@ -70,12 +64,6 @@ public final class DispatchClient extends WebSocketClient implements IDispatcher
         this.sendMessage(PacketIds.GachaHistoryRsp, response);
     }
 
-    /**
-     * Handles the handbook action packet sent by the client.
-     *
-     * @param socket The socket the packet was received from.
-     * @param object The packet data.
-     */
     private void handleHandbookAction(WebSocket socket, JsonElement object) {
         var message = IDispatcher.decode(object);
         var actionStr = message.get("action").getAsString();
@@ -102,12 +90,6 @@ public final class DispatchClient extends WebSocketClient implements IDispatcher
         this.sendMessage(PacketIds.GmTalkRsp, response);
     }
 
-    /**
-     * Fetches the fields of a player.
-     *
-     * @param socket The socket the packet was received from.
-     * @param object The packet data.
-     */
     private void fetchPlayerFields(WebSocket socket, JsonElement object) {
         var message = IDispatcher.decode(object);
         var playerId = message.get("playerId").getAsInt();
@@ -126,12 +108,6 @@ public final class DispatchClient extends WebSocketClient implements IDispatcher
         this.sendMessage(PacketIds.GetPlayerFieldsRsp, DispatchUtils.getPlayerFields(playerId, fields));
     }
 
-    /**
-     * Fetches the fields of a player by the account.
-     *
-     * @param socket The socket the packet was received from.
-     * @param object The packet data.
-     */
     private void fetchPlayerByAccount(WebSocket socket, JsonElement object) {
         var message = IDispatcher.decode(object);
         var accountId = message.get("accountId").getAsString();
@@ -151,11 +127,6 @@ public final class DispatchClient extends WebSocketClient implements IDispatcher
                 PacketIds.GetPlayerByAccountRsp, DispatchUtils.getPlayerByAccount(accountId, fields));
     }
 
-    /**
-     * Sends a serialized encrypted message to the server.
-     *
-     * @param message The message to send.
-     */
     public void sendMessage(int packetId, Object message) {
         var serverMessage = this.encodeMessage(packetId, message);
         // Serialize the message into JSON.

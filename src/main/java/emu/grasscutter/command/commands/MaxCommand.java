@@ -11,17 +11,6 @@ import emu.grasscutter.server.packet.send.*;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Brings a character all the way up in one go - level, ascension, talents, constellations, passives,
- * friendship, and the weapon they are holding.
- *
- * <p>{@code /give avatar} can already do most of this, but only while handing you a new copy. This
- * works on the character you already have and are standing in, which is what you want when a
- * freshly granted character needs to be usable for a real fight.
- *
- * <p>Caps come from the resources rather than being written down here, so a three-star weapon stops
- * at its own ceiling instead of being pushed to a level it cannot reach.
- */
 @Command(
         label = "max",
         aliases = {"maxavatar", "maxchar"},
@@ -86,9 +75,6 @@ public final class MaxCommand implements CommandHandler {
         avatar.setLevel(MAX_AVATAR_LEVEL);
         avatar.setPromoteLevel(Avatar.getMinPromoteLevel(MAX_AVATAR_LEVEL));
 
-        // Talents. Constellations 3 and 5 add their +3 separately, as a bonus on top of the stored
-        // level, so the stored level wants the data's own ceiling and not a higher number - which
-        // setSkillLevel would reject anyway.
         var depot = avatar.getSkillDepot();
         if (depot != null) {
             depot

@@ -34,10 +34,6 @@ public class HandlerChangeMailStarNotify extends PacketHandler {
         List<Mail> updatedMail =
                 new ArrayList<>();
 
-        /*
-         * LunaGC stores starred mail as importance = 1 and unstarred
-         * mail as importance = 0.
-         */
         int requestedImportance =
                 req.getIsStar() ? 1 : 0;
 
@@ -60,10 +56,6 @@ public class HandlerChangeMailStarNotify extends PacketHandler {
                 continue;
             }
 
-            /*
-             * Avoid an unnecessary database write when the mail already
-             * has the requested star state.
-             */
             if (message.importance
                     == requestedImportance) {
 

@@ -289,22 +289,6 @@ public class InventorySystem extends BaseGameSystem {
                                     return exp * param.getCount();
                                 })
                         .sum();
-        // Optional::ofNullable version
-        // expGain += itemParamList.stream()
-        //     .mapToInt(param -> {
-        //         int exp = Optional.ofNullable(GameData.getItemDataMap().get(param.getItemId()))
-        //             .map(ItemData::getItemUseActions)
-        //             .map(actions -> {
-        //                 return actions.stream()
-        //                     .filter(action -> action.getItemUseOp() ==
-        // ItemUseOp.ITEM_USE_ADD_WEAPON_EXP)
-        //                     .mapToInt(action -> ((ItemUseAddWeaponExp) action).getExp())
-        //                     .sum();
-        //             })
-        //             .orElse(0);
-        //         return exp * param.getCount();
-        //     })
-        //     .sum();
 
         // Try
         int maxLevel = promoteData.getUnlockMaxLevel();

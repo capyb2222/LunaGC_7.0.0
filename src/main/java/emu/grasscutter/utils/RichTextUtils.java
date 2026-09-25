@@ -1,22 +1,11 @@
 package emu.grasscutter.utils;
 
-/**
- * Helpers for the rich-text markup the client renders in name and watermark fields.
- *
- * <p>Both {@code UnityEngine.UI.Text} (the beta watermark) and TextMeshPro (nicknames) accept
- * {@code <color=#RRGGBB>} tags, so the same markup drives both.
- */
 public final class RichTextUtils {
     private RichTextUtils() {}
 
     /** Bytes a single-character colour tag costs: {@code <color=#RRGGBB>} + char + {@code </color>}. */
     public static final int BYTES_PER_GRADIENT_CHAR = 24;
 
-    /**
-     * Parses #RRGGBB, #RGB shorthand, or either without the leading '#'.
-     *
-     * @return the packed 0xRRGGBB value, or -1 if it could not be parsed.
-     */
     public static int parseColor(String raw) {
         if (raw == null) return -1;
         var hex = raw.startsWith("#") ? raw.substring(1) : raw;

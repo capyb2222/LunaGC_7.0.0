@@ -32,22 +32,10 @@ public enum BagTab {
 
     @Getter private final int value;
 
-    /**
-     * Fetches the bag tab by its value.
-     *
-     * @param value The name of the bag tab.
-     * @return The bag tab.
-     */
     public static BagTab getTypeByValue(int value) {
         return map.getOrDefault(value, TAB_NONE);
     }
 
-    /**
-     * Fetches the bag tab by its name.
-     *
-     * @param name The name of the bag tab.
-     * @return The bag tab.
-     */
     public static BagTab getTypeByName(String name) {
         return stringMap.getOrDefault(name, TAB_NONE);
     }

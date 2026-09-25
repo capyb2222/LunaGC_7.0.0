@@ -8,9 +8,6 @@ import emu.grasscutter.auth.DefaultAuthenticators.*;
 import emu.grasscutter.game.Account;
 import emu.grasscutter.server.http.objects.*;
 
-/**
- * The default Grasscutter authentication implementation. Allows all users to access any account.
- */
 public final class DefaultAuthentication implements AuthenticationSystem {
     private final Authenticator<LoginResultJson> passwordAuthenticator;
     private final Authenticator<LoginResultJson> tokenAuthenticator = new TokenAuthenticator();

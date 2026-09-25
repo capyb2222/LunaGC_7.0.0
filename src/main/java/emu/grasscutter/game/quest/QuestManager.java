@@ -98,11 +98,6 @@ public final class QuestManager extends BasePlayerManager {
         return GAME_OPTIONS.questing.enabled;
     }
 
-    /**
-     * Attempts to add the giving action.
-     *
-     * @param givingId The giving action ID.
-     */
     public void addGiveItemAction(int givingId) throws IllegalStateException {
         var progress = this.player.getPlayerProgress();
         var givings = progress.getItemGivings();
@@ -116,11 +111,6 @@ public final class QuestManager extends BasePlayerManager {
         this.sendGivingRecords();
     }
 
-    /**
-     * Marks a giving action as completed.
-     *
-     * @param givingId The giving action ID.
-     */
     public void markCompleted(int givingId) {
         var progress = this.player.getPlayerProgress();
         var givings = progress.getItemGivings();
@@ -138,11 +128,6 @@ public final class QuestManager extends BasePlayerManager {
         this.sendGivingRecords();
     }
 
-    /**
-     * Attempts to remove the giving action.
-     *
-     * @param givingId The giving action ID.
-     */
     public void removeGivingItemAction(int givingId) {
         var progress = this.player.getPlayerProgress();
         var givings = progress.getItemGivings();
@@ -160,20 +145,12 @@ public final class QuestManager extends BasePlayerManager {
         this.sendGivingRecords();
     }
 
-    /**
-     * @return Serialized giving records to be used in a packet.
-     */
     public Collection<GivingRecord> getGivingRecords() {
         return this.getPlayer().getPlayerProgress().getItemGivings().values().stream()
                 .map(ItemGiveRecord::toProto)
                 .toList();
     }
 
-    /**
-     * Attempts to start the bargain.
-     *
-     * @param bargainId The bargain ID.
-     */
     public void startBargain(int bargainId) {
         var progress = this.player.getPlayerProgress();
         var bargains = progress.getBargains();
@@ -193,11 +170,6 @@ public final class QuestManager extends BasePlayerManager {
         this.player.sendPacket(new PacketBargainStartNotify(bargain));
     }
 
-    /**
-     * Attempts to stop the bargain.
-     *
-     * @param bargainId The bargain ID.
-     */
     public void stopBargain(int bargainId) {
         var progress = this.player.getPlayerProgress();
         var bargains = progress.getBargains();
@@ -311,20 +283,11 @@ public final class QuestManager extends BasePlayerManager {
         this.triggerEvent(QuestCond.QUEST_COND_PLAYER_LEVEL_EQUAL_GREATER, null, 1);
     }
 
-    /**
-     * Returns the default value of a global variable.
-     *
-     * @param variable The variable ID.
-     * @return The default value.
-     */
     public int getGlobalVarDefault(int variable) {
         var questGlobalVarData = GameData.getQuestGlobalVarDataMap().get(variable);
         return questGlobalVarData != null ? questGlobalVarData.getDefaultValue() : 0;
     }
 
-    /*
-     * Looking through mainQuests 72201-72208 and 72174, we can infer that a questGlobalVar's default value is 0
-     */
     public Integer getQuestGlobalVarValue(Integer variable) {
         return getPlayer()
                 .getQuestGlobalVariables()
@@ -465,13 +428,6 @@ public final class QuestManager extends BasePlayerManager {
                 .min(Comparator.comparingInt(MainQuestData.SubQuestData::getOrder))
                 .map(MainQuestData.SubQuestData::getSubId)
                 .ifPresent(this::addQuest);
-        // TODO find a better way then hardcoding to detect needed required quests
-        // if (mainQuestId == 355){
-        //     startMainQuest(361);
-        //     startMainQuest(418);
-        //     startMainQuest(423);
-        //     startMainQuest(20509);
-        // }
     }
 
     public void queueEvent(QuestCond condType, int... params) {
@@ -571,12 +527,6 @@ public final class QuestManager extends BasePlayerManager {
         }
     }
 
-    /**
-     * TODO maybe trigger them delayed to allow basic communication finish first TODO move content
-     * checks to use static informations where possible to allow direct already fulfilled checking
-     *
-     * @param quest The ID of the quest.
-     */
     public void checkQuestAlreadyFulfilled(GameQuest quest) {
         Grasscutter.getThreadPool()
                 .submit(
@@ -654,12 +604,6 @@ public final class QuestManager extends BasePlayerManager {
         return getMainQuests().values().stream().filter(p -> !p.isFinished()).toList();
     }
 
-    /**
-     * Fetches dungeon IDs for quests which have a dungeon.
-     *
-     * @param point The associated scene point of the dungeon.
-     * @return A list of dungeon IDs, or an empty list if none are found.
-     */
     public List<Integer> questsForDungeon(ScenePointEntry point) {
         var pointId = point.getPointData().getId();
         // Get the active quests.

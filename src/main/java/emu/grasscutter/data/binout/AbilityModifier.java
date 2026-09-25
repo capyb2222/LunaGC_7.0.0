@@ -421,15 +421,6 @@ public class AbilityModifier implements Serializable {
         @SerializedName(value = "ratio", alternate = "value")
         public DynamicFloat ratio = DynamicFloat.ONE;
 
-        /**
-         * The value an action writes, as opposed to the one it multiplies by.
-         *
-         * <p>The field is shared between both senses, so it defaults to one - right for a
-         * multiplier, wrong for a write. Gson builds a fresh instance whenever the config carries a
-         * value of its own, so still holding the shared default means it carried none, and none
-         * means zero. Without this a bare "clear this mark" set it, and 629 of the 1058 animator
-         * bools in the corpus - the ones shipped with no value - were broadcast as true.
-         */
         public DynamicFloat writtenValue() {
             return this.ratio == DynamicFloat.ONE ? DynamicFloat.ZERO : this.ratio;
         }

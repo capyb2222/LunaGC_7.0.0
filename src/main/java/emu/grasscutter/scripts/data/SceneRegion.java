@@ -21,9 +21,6 @@ public class SceneRegion {
 
     @EqualsAndHashCode.Exclude public transient SceneGroup group;
 
-    /**
-     * @return The group ID for this region.
-     */
     public int getGroupId() {
         return this.group == null ? -1 : this.group.id;
     }

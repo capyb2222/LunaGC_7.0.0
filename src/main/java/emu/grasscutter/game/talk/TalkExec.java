@@ -36,22 +36,10 @@ public enum TalkExec {
                         });
     }
 
-    /**
-     * Gets the talk execution condition by its value.
-     *
-     * @param value The integer value of the condition.
-     * @return The corresponding enum value.
-     */
     public static TalkExec getExecByValue(int value) {
         return execMap.getOrDefault(value, TALK_EXEC_NONE);
     }
 
-    /**
-     * Gets the talk execution by its name.
-     *
-     * @param name The string name of the condition.
-     * @return The corresponding enum value.
-     */
     public static TalkExec getExecByName(String name) {
         return execStringMap.getOrDefault(name, TALK_EXEC_NONE);
     }

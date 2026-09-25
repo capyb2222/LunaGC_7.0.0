@@ -19,11 +19,6 @@ public class ActionSummon extends AbilityActionHandler {
             Ability ability, AbilityModifierAction action, ByteString abilityData, GameEntity target) {
         AbilityActionSummon summonPosRot = null;
         try {
-            // In game version 4.0, summoned entity's
-            // position and rotation are packed in EPKDEHOJFLI.
-            // This is packet AbilityActionSummon and has two fields:
-            //  4: Vector pos
-            //  13: Vector rot
             summonPosRot = AbilityActionSummon.parseFrom(abilityData);
         } catch (InvalidProtocolBufferException e) {
             Grasscutter.getLogger()

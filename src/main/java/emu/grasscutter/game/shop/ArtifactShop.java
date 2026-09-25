@@ -15,12 +15,6 @@ import it.unimi.dsi.fastutil.ints.*;
 import java.util.*;
 import lombok.Getter;
 
-/**
- * Lists every official 5-star artifact piece as shop goods. Buying one hands out a freshly rolled
- * artifact rather than a fixed one: the main stat comes from the slot's real pool and the substats
- * from the excel affix table, so every number on the piece is one the game itself would print. The
- * odds are what is bent - towards crit, damage, and the higher end of each roll.
- */
 public class ArtifactShop {
     /** Well clear of the ~101,070,304 the excel goods ids reach. */
     private static final int GOODS_ID_BASE = 200_000_000;
@@ -37,13 +31,6 @@ public class ArtifactShop {
                     EquipType.EQUIP_RING,
                     EquipType.EQUIP_DRESS);
 
-    /**
-     * The main stat each slot can actually roll at 5 stars, with the game's own odds.
-     *
-     * <p>The pool has to be spelled out because the shipped ReliquaryMainPropExcelConfigData is
-     * flattened - every entry in every depot carries the same weight, and the depots hold stats the
-     * slot never rolls - so drawing from one straight gives you a Sands of Eon with flat HP on it.
-     */
     private static final Map<EquipType, Map<FightProperty, Double>> MAIN_STATS =
             Map.of(
                     EquipType.EQUIP_BRACER, Map.of(FightProperty.FIGHT_PROP_HP, 100d),
@@ -82,12 +69,6 @@ public class ArtifactShop {
     /** The piece behind each of our goods ids. Empty while the shop is switched off. */
     @Getter private final Int2ObjectMap<ItemData> goods = new Int2ObjectOpenHashMap<>();
 
-    /**
-     * Appends the artifact goods to the configured shop, replacing any listed by an earlier call.
-     *
-     * <p>Safe to call more than once, and it has to be: the shop system is built before the
-     * resources are loaded, so the first attempt finds no artifacts to list.
-     */
     public void install(Int2ObjectMap<List<ShopInfo>> shopData) {
         var options = GAME_OPTIONS.artifactShop;
         this.goods.clear();

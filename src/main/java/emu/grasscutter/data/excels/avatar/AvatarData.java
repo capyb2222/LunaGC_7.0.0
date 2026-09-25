@@ -161,9 +161,6 @@ public class AvatarData extends GameResource {
         this.buildEmbryo();
     }
 
-    /**
-     * Create ability embryos.
-     */
     public void buildEmbryo() {
         var split = this.iconName.split("_");
         if (split.length > 0) {
@@ -179,9 +176,6 @@ public class AvatarData extends GameResource {
             }
         }
 
-        // An avatar whose ability config is absent from the resource dump gets no embryo at all.
-        // TeamManager appends to this list without a null check, so hand back an empty one rather
-        // than null and let such an avatar simply have no abilities.
         if (this.abilities == null) {
             this.abilities = new IntArrayList();
         }

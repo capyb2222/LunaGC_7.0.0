@@ -60,15 +60,6 @@ public final class ActionServerLuaCall extends AbilityActionHandler {
         };
     }
 
-    /**
-     * Handles fetching and calling a function.
-     *
-     * @param bindings The bindings to fetch the function from.
-     * @param functionName The name of the function to call.
-     * @param ability The ability data.
-     * @param action The ability action data.
-     * @return Whether the function was called successfully.
-     */
     private static boolean callFunction(
         Bindings bindings, String functionName,
         Ability ability, AbilityModifierAction action

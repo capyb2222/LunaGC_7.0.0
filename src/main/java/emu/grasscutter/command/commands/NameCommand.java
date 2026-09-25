@@ -8,14 +8,6 @@ import emu.grasscutter.server.packet.send.PacketSetPlayerNameRsp;
 import emu.grasscutter.utils.RichTextUtils;
 import java.util.List;
 
-/**
- * Sets a player's nickname server-side, bypassing the client rename UI.
- *
- * <p>The client renders TextMeshPro rich text in name fields, so a nickname may contain markup such
- * as {@code <color=#0080FF>}. The in-game rename box will not accept those characters, and the
- * length a gradient needs (roughly 28 characters of markup per visible character) is far past what
- * it allows, so this exists to set the value directly.
- */
 @Command(
         label = "name",
         usage = {
@@ -30,16 +22,8 @@ import java.util.List;
 public final class NameCommand implements CommandHandler {
     private static final String DEFAULT_NICKNAME = "Traveler";
 
-    /**
-     * Visible characters allowed in a gradient. Each one costs ~28 characters of markup, and the
-     * nickname is echoed in the friend list, co-op and chat, so this keeps the stored value sane.
-     */
     private static final int MAX_GRADIENT_LENGTH = 32;
 
-    /**
-     * Hard cap on the stored value. A full 32-character gradient lands near 900, so this leaves room
-     * for hand-written markup while keeping an unbounded string out of every profile packet.
-     */
     private static final int MAX_STORED_LENGTH = 1024;
 
     @Override

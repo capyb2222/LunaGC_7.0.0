@@ -55,9 +55,6 @@ public class HandlerSceneInitFinishReq extends PacketHandler {
             sendSweep(session, sweep);
         } else {
             var packet = buildWatermarkPacket();
-            // Logged because the CmdId is being determined by trial: this line proves the handler
-            // ran and says exactly what went out, so a candidate that shows nothing in game can be
-            // told apart from one that was never sent.
             Grasscutter.getLogger()
                     .info(
                             "[watermark] sent cmdId={} payloadField={} bytes={}",
@@ -72,11 +69,6 @@ public class HandlerSceneInitFinishReq extends PacketHandler {
         player.getScene().playerSceneInitialized(player);
     }
 
-    /**
-     * Sends the watermark once under each "cmdId:payloadField" candidate, so a whole list can be
-     * tried in one login rather than one per restart. Candidates the client does not recognise are
-     * ignored by it, so at most one of these does anything.
-     */
     private static void sendSweep(GameSession session, String[] sweep) {
         var options = Configuration.GAME_OPTIONS.watermark;
         if (!options.enabled || options.text == null || options.text.isBlank()) {
@@ -121,11 +113,6 @@ public class HandlerSceneInitFinishReq extends PacketHandler {
         }
     }
 
-    /**
-     * The client resets its watermark on every scene init, so the server-wide text has to be re-sent
-     * here rather than once at login. Falls back to the stock UID watermark when disabled, unset, or
-     * too long for the payload's single length byte.
-     */
     private static BasePacket buildWatermarkPacket() {
         var options = Configuration.GAME_OPTIONS.watermark;
 

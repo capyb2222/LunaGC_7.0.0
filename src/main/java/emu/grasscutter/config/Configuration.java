@@ -6,16 +6,7 @@ import emu.grasscutter.utils.FileUtils;
 import java.nio.file.Path;
 import java.util.Locale;
 
-/**
- * A data container for the server's configuration.
- *
- * <p>Use `import static emu.grasscutter.Configuration.*;` to import all configuration constants.
- */
 public final class Configuration extends ConfigContainer {
-
-    /*
-     * Constants
-     */
 
     // 'c' is short for 'config' and makes code look 'cleaner'.
     public static final ConfigContainer c = config;
@@ -44,9 +35,6 @@ public final class Configuration extends ConfigContainer {
     private static final String SCRIPTS_FOLDER = config.folderStructure.scripts;
     private static final String PACKETS_FOLDER = config.folderStructure.packets;
 
-    /*
-     * Utilities
-     */
     @Deprecated(forRemoval = true)
     public static String DATA() {
         return DATA_FOLDER;
@@ -86,35 +74,14 @@ public final class Configuration extends ConfigContainer {
         return Path.of(PACKETS_FOLDER, path).toString();
     }
 
-    /**
-     * Fallback method.
-     *
-     * @param left Attempt to use.
-     * @param right Use if left is undefined.
-     * @return Left or right.
-     */
     public static <T> T lr(T left, T right) {
         return left == null ? right : left;
     }
 
-    /**
-     * {@link Configuration#lr(Object, Object)} for {@link String}s.
-     *
-     * @param left Attempt to use.
-     * @param right Use if left is empty.
-     * @return Left or right.
-     */
     public static String lr(String left, String right) {
         return left.isEmpty() ? right : left;
     }
 
-    /**
-     * {@link Configuration#lr(Object, Object)} for {@link Integer}s.
-     *
-     * @param left Attempt to use.
-     * @param right Use if left is 0.
-     * @return Left or right.
-     */
     public static int lr(int left, int right) {
         return left == 0 ? right : left;
     }

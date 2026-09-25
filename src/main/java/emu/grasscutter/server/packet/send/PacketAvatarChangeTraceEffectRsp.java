@@ -1,6 +1,3 @@
-/*
- * Decompiled with CFR 0.153-SNAPSHOT (d6f6758-dirty).
- */
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.net.packet.BasePacket;

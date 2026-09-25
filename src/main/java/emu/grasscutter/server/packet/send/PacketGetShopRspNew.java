@@ -32,11 +32,6 @@ public class PacketGetShopRspNew extends BasePacket {
         this.setData(rsp.build());
     }
     
-    /**
-     * Alt builder
-     * @param param Shop type being queried
-     * @param availableShops Custom list of available shop id
-     */
     public PacketGetShopRspNew(int param, List<Integer> availableShops) {
         super(PacketOpcodes.GetShopRspNew);
 

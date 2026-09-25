@@ -168,9 +168,6 @@ public class Avatar {
         return 0;
     }
 
-    /**
-     * @return True if the avatar is a main character.
-     */
     public boolean isMainCharacter() {
         return List.of(GameConstants.MAIN_CHARACTER_MALE, GameConstants.MAIN_CHARACTER_FEMALE)
                 .contains(this.getAvatarId());
@@ -232,17 +229,10 @@ public class Avatar {
         return this.getEquips().get(slotId);
     }
 
-    /**
-     * @return The avatar's equipped weapon.
-     */
     @Nullable public GameItem getWeapon() {
         return this.getEquipBySlot(EquipType.EQUIP_WEAPON);
     }
 
-    /**
-     * @return The avatar's equipped weapon.
-     * @throws NullPointerException If the avatar does not have a weapon.
-     */
     public GameItem getWeaponNotNull() {
         return Objects.requireNonNull(this.getWeapon(), "Avatar does not have a weapon.");
     }
@@ -252,21 +242,10 @@ public class Avatar {
         this.skillDepot = skillDepot; // Used while loading this from the database
     }
 
-    /**
-     * Changes this avatar's skill depot. Does not notify the player of the change.
-     *
-     * @param skillDepot The new skill depot.
-     */
     public void setSkillDepotData(AvatarSkillDepotData skillDepot) {
         this.setSkillDepotData(skillDepot, false);
     }
 
-    /**
-     * Changes this avatar's skill depot.
-     *
-     * @param skillDepot The new skill depot.
-     * @param notify Whether to notify the player of the change.
-     */
     public void setSkillDepotData(AvatarSkillDepotData skillDepot, boolean notify) {
         // Set id and depot
         this.skillDepotId = skillDepot.getId();
@@ -294,25 +273,10 @@ public class Avatar {
         }
     }
 
-    /**
-     * Changes the avatar's element to the target element. Only applies if the avatar has the element
-     * in its 'candSkillDepot's.
-     *
-     * @param newElement The new element to change to.
-     * @return True if the element was changed, false otherwise.
-     */
     public boolean changeElement(@Nonnull ElementType newElement) {
         return this.changeElement(newElement, true);
     }
 
-    /**
-     * Changes the avatar's element to the target element. Only applies if the avatar has the element
-     * in its 'candSkillDepot's.
-     *
-     * @param elementTypeToChange The new element to change to.
-     * @param notify Whether to notify the player of the change.
-     * @return True if the element was changed, false otherwise.
-     */
     public boolean changeElement(@Nonnull ElementType elementTypeToChange, boolean notify) {
         var candSkillDepotIdsList = this.getAvatarData().getCandSkillDepotIds();
         var candSkillDepotIndex = elementTypeToChange.getDepotIndex();
@@ -1201,14 +1165,6 @@ public class Avatar {
         return showAvatarInfo.build();
     }
 
-    /**
-     * Converts this avatar into a trial avatar.
-     *
-     * @param level The avatar's level.
-     * @param avatarId The ID of the avatar.
-     * @param grantReason The reason for granting the avatar.
-     * @param questId The ID of the quest that granted the avatar.
-     */
     public void setTrialAvatarInfo(
         int level, int avatarId, GrantReasonOuterClass.GrantReason grantReason, int questId) {
         this.setLevel(level);
@@ -1221,11 +1177,6 @@ public class Avatar {
         this.applyTrialItems();
     }
 
-    /**
-     * Gets the gear template based on the avatar's level.
-     *
-     * @return The avatar's template.
-     */
     private int getTrialTemplate() {
         return this.getLevel() <= 9
                 ? 1
@@ -1233,9 +1184,6 @@ public class Avatar {
                         (Math.floor(this.getLevel() / 10f) * 10); // round trial level to fit template levels
     }
 
-    /**
-     * @return The level to be used for the avatar's skills (talents).
-     */
     public int getTrialSkillLevel() {
         // Use default data if custom data not available.
         if (GameData.getTrialAvatarCustomData().isEmpty()) {
@@ -1259,9 +1207,6 @@ public class Avatar {
                 .forEach(skill -> this.setSkillLevel(skill, this.getTrialSkillLevel()));
     }
 
-    /**
-     * @return The weapon to use with the avatar.
-     */
     public int getTrialWeaponId() {
         // Use default data if custom data not available.
         if (GameData.getTrialAvatarCustomData().isEmpty()) {
@@ -1283,9 +1228,6 @@ public class Avatar {
                 : Integer.parseInt(trialCustomParams.get(1).split(";")[0]);
     }
 
-    /**
-     * @return A list of artifact IDs to use with the avatar.
-     */
     public List<Integer> getTrialReliquary() {
         // Use default data if custom data not available.
         if (GameData.getTrialAvatarCustomData().isEmpty()) {
@@ -1368,11 +1310,6 @@ public class Avatar {
                         });
     }
 
-    /**
-     * Converts this (trial) avatar into a trial info protocol buffer.
-     *
-     * @return The trial info protocol buffer.
-     */
     public TrialAvatarInfo toTrialInfo() {
         var trialAvatar =
                 TrialAvatarInfo.newBuilder()

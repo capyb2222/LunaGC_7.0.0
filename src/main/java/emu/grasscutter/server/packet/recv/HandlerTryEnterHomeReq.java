@@ -25,9 +25,6 @@ public class HandlerTryEnterHomeReq extends PacketHandler {
         var targetHome = session.getServer().getHomeWorldOrCreate(targetPlayer).getHome();
 
         if (req.getTargetUid() != session.getPlayer().getUid()) {
-            // I hope that tomorrow there will be a hero who can support multiplayer mode and write code
-            // like a poem
-            // A person who rote this comment, I DID IT!!!!!! by hamusuke.
             switch (targetHome.getEnterHomeOption()) {
                 case FriendEnterHomeOptionOuterClass.FriendEnterHomeOption
                         .FriendEnterHomeOption_NEED_CONFIRM_VALUE -> {

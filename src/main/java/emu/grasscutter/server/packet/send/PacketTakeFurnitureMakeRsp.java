@@ -17,11 +17,6 @@ public class PacketTakeFurnitureMakeRsp extends BasePacket {
 
         proto.setRetcode(ret).setMakeId(makeId);
 
-        // output_item_list is deliberately not sent: 7.0 leaves two `repeated ItemParam` fields here
-        // obfuscated (6 and 10) and 6.7 has two names for them, output_item_list and
-        // return_item_list, with nothing to say which way round they go. The furniture is already
-        // in the inventory, so this only costs the reward popup its contents.
-
         if (others != null) {
             proto.setFurnitureMakeSlot(
                     FurnitureMakeSlotOuterClass.FurnitureMakeSlot.newBuilder()

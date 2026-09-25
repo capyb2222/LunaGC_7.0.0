@@ -189,10 +189,6 @@ public final class TsvUtils {
         return cachedClassFieldMaps.computeIfAbsent(classType, TsvUtils::makeClassFieldMap);
     }
 
-    // Flat tab-separated value tables.
-    // Arrays are represented as arrayName.0, arrayName.1, etc. columns.
-    // Maps/POJOs are represented as objName.fieldOneName, objName.fieldTwoName, etc. columns.
-    // This is currently about 25x as slow as TSJ and Gson parsers, likely due to the tree spam.
     public static <T> List<T> loadTsvToListSetField(Path filename, Class<T> classType) {
         try (val fileReader = Files.newBufferedReader(filename, StandardCharsets.UTF_8)) {
             // val fieldMap = getClassFieldMap(classType);
@@ -200,9 +196,6 @@ public final class TsvUtils {
 
             val headerNames = nonRegexSplit(fileReader.readLine(), '\t');
             val columns = headerNames.size();
-            // If we just crawled through all fields to expand potential subobjects, we might hit
-            // recursive data structure explosions (e.g. if something has a Player object)
-            // So we'll only crawl through objects referenced by the header columns
             val stringTree = new StringTree();
             headerNames.forEach(stringTree::addPath);
 
@@ -235,13 +228,6 @@ public final class TsvUtils {
                                     Grasscutter.getLogger().warn("Header names are: " + headerNames);
                                     Grasscutter.getLogger().warn("Tokens are: " + tokens);
                                     Grasscutter.getLogger().warn("Stacktrace is: ", e);
-                                    // System.out.println("Error deserializing an instance of class
-                                    // "+classType.getCanonicalName());
-                                    // System.out.println("At token #"+t+" of #"+m);
-                                    // System.out.println("Header names are: "+headerNames.toString());
-                                    // System.out.println("Tokens are: "+tokens.toString());
-                                    // System.out.println("Json is: "+tree.toJson().toString());
-                                    // System.out.println("Stacktrace is: "+ e);
                                     return null;
                                 }
                             })
@@ -313,12 +299,6 @@ public final class TsvUtils {
         }
     }
 
-    // -----------------------------------------------------------------
-    // Everything below here is for the AllArgsConstructor TSJ parser
-    // -----------------------------------------------------------------
-    // Sadly, this is a little bit slower than the SetField version.
-    // I've left it in as an example of an optimization attempt that didn't work out, since the naive
-    // reflection version will tempt people to try things like this.
     @SuppressWarnings("unchecked")
     private static <T> Pair<Constructor<T>, String[]> getAllArgsConstructor(Class<T> classType) {
         for (var c : classType.getDeclaredConstructors()) {
@@ -548,10 +528,6 @@ public final class TsvUtils {
                 val elementType = ((ParameterizedType) type).getActualTypeArguments()[0];
                 return (T) this.toList(type2Class(elementType), elementType);
             } else if (Map.class.isAssignableFrom(classType)) {
-                // System.out.println("Class: "+classType+" \tClassTypeParams:
-                // "+Arrays.toString(classType.getTypeParameters())+" \tType: "+type+" \tTypeArguments:
-                // "+Arrays.toString(((ParameterizedType) type).getActualTypeArguments()));
-                // if (type instanceof ParameterizedType)
                 val keyType = ((ParameterizedType) type).getActualTypeArguments()[0];
                 val valueType = ((ParameterizedType) type).getActualTypeArguments()[1];
                 return (T) this.toMap(type2Class(keyType), type2Class(valueType), valueType);

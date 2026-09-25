@@ -11,12 +11,6 @@ import lombok.*;
 @Entity
 @Builder
 public final class ItemGiveRecord {
-    /**
-     * Provides a builder for an item give record. Uses information from game resources.
-     *
-     * @param givingId The ID of the giving action.
-     * @return A builder for an item give record.
-     */
     public static ItemGiveRecord resolve(int givingId) {
         var givingData = GameData.getGivingDataMap().get(givingId);
         if (givingData == null)
@@ -54,9 +48,6 @@ public final class ItemGiveRecord {
     private boolean finished;
     private Map<Integer, Integer> givenItems;
 
-    /**
-     * @return A serialized protobuf object.
-     */
     public GivingRecord toProto() {
         return GivingRecord.newBuilder()
                 .setGivingId(this.getGivingId())

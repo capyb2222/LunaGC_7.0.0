@@ -12,13 +12,6 @@ import java.util.List;
 import java.util.Set;
 import java.util.TreeMap;
 
-/**
- * Unlocks teleport waypoints, and nothing else.
- *
- * <p>{@code /unlockall} already does this, but it also walks every open state, flycloak and fetter,
- * which is the slow part and not what you want when all you are after is the map. This touches only
- * scene points, plus the areas those points sit in - a waypoint in a locked area does not show up.
- */
 @Command(
         label = "waypoints",
         aliases = {"wp", "unlockwp"},
@@ -90,10 +83,6 @@ public final class WaypointsCommand implements CommandHandler {
         int fresh = (int) points.stream().filter(p -> !alreadyUnlocked.contains(p)).count();
 
         alreadyUnlocked.addAll(points);
-        // A waypoint in a locked area stays hidden, and the map walls a locked area off entirely.
-        // Unlocking only the areas the chosen points sit in is not enough: the boundary between a
-        // reachable area and its locked neighbour is where the client puts the barrier. So open
-        // every area of the scene, which is what /unlockall does - it costs one packet either way.
         for (int area = 1; area < 1000; area++) areas.add(area);
         targetPlayer.getUnlockedSceneAreas(sceneId).addAll(areas);
         targetPlayer.save();

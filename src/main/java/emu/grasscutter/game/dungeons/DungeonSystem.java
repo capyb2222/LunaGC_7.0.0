@@ -53,12 +53,6 @@ public final class DungeonSystem extends BaseGameSystem {
         }
     }
 
-    /**
-     * Sends the entry info for the given dungeon point to the player.
-     *
-     * @param player The player to send the entry info to.
-     * @param pointId The dungeon point ID.
-     */
     public void sendEntryInfoFor(Player player, int pointId, int sceneId) {
         var entry = GameData.getScenePointEntryById(sceneId, pointId);
         if (entry == null) {
@@ -180,11 +174,6 @@ public final class DungeonSystem extends BaseGameSystem {
             dungeonManager.setTowerDungeon(false);
         }
 
-        // Transfer player back to world after a small delay.
-        // This wait is important for avoiding double teleports,
-        // which specifically happen when player quits a dungeon
-        // by teleporting to map waypoints.
-        // From testing, 200ms seem reasonable.
         player.getWorld().queueTransferPlayerToScene(player, prevScene, prevPos, 200);
     }
 

@@ -36,10 +36,6 @@ public class HandlerReadMailNotify extends PacketHandler {
         for (int clientMailId :
                 req.getMailIdListList()) {
 
-            /*
-             * Convert the ID shown to the client into the index used by
-             * LunaGC's internal List<Mail>.
-             */
             int internalIndex =
                     mailHandler.toInternalMailIndex(
                             clientMailId);
@@ -56,20 +52,12 @@ public class HandlerReadMailNotify extends PacketHandler {
                 continue;
             }
 
-            /*
-             * There is no need to rewrite and save mail that is already
-             * marked as read.
-             */
             if (message.isRead) {
                 continue;
             }
 
             message.isRead = true;
 
-            /*
-             * replaceMailByIndex expects the internal zero-based index.
-             * It also saves the modified Mail document.
-             */
             if (player.replaceMailByIndex(
                     internalIndex,
                     message)) {
@@ -79,11 +67,6 @@ public class HandlerReadMailNotify extends PacketHandler {
             }
         }
 
-        /*
-         * PacketMailChangeNotify's List<Mail> constructor should place
-         * these entries in change_mail_list, because they already exist
-         * in the client's mailbox.
-         */
         if (!updatedMail.isEmpty()) {
             session.send(
                     new PacketMailChangeNotify(

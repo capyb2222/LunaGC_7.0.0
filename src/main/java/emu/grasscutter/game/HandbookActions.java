@@ -13,13 +13,6 @@ import java.util.Objects;
 
 /** Commands executed by the handbook. */
 public interface HandbookActions {
-    /**
-     * Checks if the player is authenticated.
-     *
-     * @param player The player.
-     * @param token The player's unique session token.
-     * @return True if the player is authenticated.
-     */
     static boolean isAuthenticated(Player player, String token) {
         // Check properties.
         if (player == null || token == null) return false;
@@ -27,12 +20,6 @@ public interface HandbookActions {
         return player.getSessionKey().equals(token);
     }
 
-    /**
-     * Grants an avatar to the player.
-     *
-     * @param request The request object.
-     * @return The response object.
-     */
     static Response grantAvatar(GrantAvatar request) {
         // Validate the request.
         if (request.getPlayer() == null || request.getAvatar() == null) {
@@ -85,12 +72,6 @@ public interface HandbookActions {
         }
     }
 
-    /**
-     * Gives an item to the player.
-     *
-     * @param request The request object.
-     * @return The response object.
-     */
     static Response giveItem(GiveItem request) {
         // Validate the request.
         if (request.getPlayer() == null || request.getItem() == null) {
@@ -147,12 +128,6 @@ public interface HandbookActions {
         }
     }
 
-    /**
-     * Teleports the player to a location.
-     *
-     * @param request The request object.
-     * @return The response object.
-     */
     static Response teleportTo(TeleportTo request) {
         // Validate the request.
         if (request.getPlayer() == null || request.getScene() == null) {
@@ -200,12 +175,6 @@ public interface HandbookActions {
         }
     }
 
-    /**
-     * Spawns an entity(s) in the player's world.
-     *
-     * @param request The request object.
-     * @return The response object.
-     */
     static Response spawnEntity(SpawnEntity request) {
         // Validate the request.
         if (request.getPlayer() == null || request.getEntity() == null) {

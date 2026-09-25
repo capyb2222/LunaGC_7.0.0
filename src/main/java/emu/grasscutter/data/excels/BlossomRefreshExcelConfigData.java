@@ -29,10 +29,6 @@ public class BlossomRefreshExcelConfigData extends GameResource {
     @SerializedName(value = "DropVec", alternate = "dropVec")
     private Drop[] dropVec;
 
-    // Unknown details
-    // @Getter private int reviseLevel;
-    // @Getter private int campUpdateNeedCount;  // Always 1 if specified
-
     @Getter
     public static class Drop {
         int dropId;

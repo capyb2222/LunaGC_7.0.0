@@ -42,13 +42,7 @@ public final class QuestCommand implements CommandHandler {
         }
 
         switch (cmd) {
-            // Marks a main quest finished on the CLIENT only, for quests this server has no data
-            // for. Region barriers are quest-gated, and a region released after the resource set
-            // was cut cannot be reached with `finish`. Does not persist across a relog.
             case "forcefinish" -> {
-                // Marks main quests finished for the CLIENT. The quest system cannot finish what it
-                // has no data for, and this resource set is older than the client, so region gates
-                // like Snezhnaya's are unreachable any other way. Persisted and replayed on login.
                 var ids =
                         "all".equalsIgnoreCase(args.get(1))
                                 ? emu.grasscutter.game.quest.ForcedQuests.allMainQuests()

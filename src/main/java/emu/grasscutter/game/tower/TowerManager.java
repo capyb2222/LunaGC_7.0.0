@@ -73,23 +73,10 @@ public class TowerManager extends BasePlayerManager {
         inProgress = true;
         currentTimeLimit = challenge != null ? challenge.getTimeLimit() : 0;
 
-        // Skills are NOT re-enabled here: the floor's own Lua owns that. It holds them off across
-        // the chamber change and switches them back on from the worktop the player starts the half
-        // with (SetIsAllowUseSkill(1) in the EVENT_SELECT_OPTION action). Sending it from here
-        // races that and turns them on while the script means them off.
-
         // The abyss hands every character a full burst at the start of a chamber.
         this.fillTeamEnergy();
     }
 
-    /**
-     * Fills the burst gauge of everyone on the team, as entering a chamber does in the game.
-     *
-     * <p>Guarded at every step because this runs inside {@link
-     * emu.grasscutter.game.dungeons.challenge.WorldChallenge#start()}: throwing here would stop the
-     * challenge starting at all, which costs the whole chamber rather than one burst. A depot can be
-     * null, and so can its element - the element-less Traveler is the standing example.
-     */
     private void fillTeamEnergy() {
         player
                 .getTeamManager()
@@ -137,16 +124,6 @@ public class TowerManager extends BasePlayerManager {
         return recordMap;
     }
 
-    /**
-     * Hands over entrance floors 1-8 already cleared, so an account starts on the floors that
-     * actually rotate.
-     *
-     * <p>The schedule floors are gated twice: TowerAllDataRsp reports {@code
-     * is_finished_entrance_floor} from {@link #canEnterScheduleFloor()}, which wants six stars on
-     * the last entrance floor, and each floor's own {@code unlockStarCount} wants six stars on the
-     * one before it. Full nine-star records on every entrance floor satisfy both. Turn
-     * {@code game.tower.skipEntranceFloors} off to play floors 1-8 for real.
-     */
     private void grantEntranceFloors(Map<Integer, TowerLevelRecord> recordMap) {
         if (!GAME_OPTIONS.tower.skipEntranceFloors) return;
 
@@ -168,9 +145,6 @@ public class TowerManager extends BasePlayerManager {
                 record.setPassedLevelMap(new HashMap<>());
             }
 
-            // Drop chambers that do not belong to this floor. The old /setprop towerlevel faked the
-            // unlock by writing chamber id 0 with six stars, and a save that still carries it would
-            // report a chamber that does not exist to the client in passed_level_map.
             record
                     .getPassedLevelMap()
                     .keySet()
@@ -184,10 +158,6 @@ public class TowerManager extends BasePlayerManager {
             record.setFloorStarRewardProgress(STARS_PER_FLOOR);
         }
 
-        // Clearing a floor also opens the next one by giving it an empty record - that is what
-        // notifyCurLevelRecordChangeWhenDone does every time. Granting the stars without it leaves
-        // the floor after the corridor with no record at all, which is not a state the game can
-        // otherwise reach, and the client shows it locked.
         int firstScheduleFloor =
                 player
                         .getServer()
@@ -223,10 +193,6 @@ public class TowerManager extends BasePlayerManager {
             getTowerData().entryScene = player.getSceneId();
         }
 
-        // The teams the client picked are the whole point of this packet, and every way they can go
-        // missing looks identical in game - the overworld team just walks in instead. Say what
-        // arrived: no teams at all means the request did not carry them, whereas teams that arrive
-        // and then get refused are reported by setupTemporaryTeam.
         Grasscutter.getLogger()
                 .info(
                         "Tower team select on floor {}: {} team(s), sizes {}",
@@ -364,9 +330,6 @@ public class TowerManager extends BasePlayerManager {
         this.getTowerData().currentLevel++;
 
         if (!this.hasNextLevel()) {
-            // set up the next floor - but floor 12 is the last one, and getNextFloorId returns 0
-            // there. Recording floor 0 would put a bogus entry in the save and then report it back
-            // in TowerAllDataRsp as a real floor.
             var nextFloorId = this.getNextFloorId();
             if (nextFloorId > 0) {
                 recordMap.computeIfAbsent(nextFloorId, TowerLevelRecord::new);
@@ -418,9 +381,6 @@ public class TowerManager extends BasePlayerManager {
         player.getTeamManager().useTemporaryTeam(teamId);
         player.sendPacket(new PacketTowerMiddleLevelChangeTeamNotify());
 
-        // The second half starts with full bursts. Skills stay off until the player takes the
-        // worktop option the floor's Lua puts up right after this call - that is what turns them
-        // back on, and what spawns the second half's monsters.
         this.fillTeamEnergy();
     }
 }

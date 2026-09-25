@@ -7,9 +7,5 @@ import emu.grasscutter.server.game.GameSession;
 public final class HandlerPlayerEnterChildMapLayerNotify extends PacketHandler {
     @Override
     public void handle(GameSession session, byte[] header, byte[] payload) throws Exception {
-        // var packet = PlayerEnterChildMapLayerNotify.parseFrom(payload);
-        // probably
-        // Grasscutter.getLogger()
-        //         .info("player entered child map layer: id {}", packet.getLayerId());
     }
 }

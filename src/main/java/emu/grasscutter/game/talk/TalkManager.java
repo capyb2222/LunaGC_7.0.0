@@ -14,12 +14,6 @@ public final class TalkManager extends BasePlayerManager {
         super(player);
     }
 
-    /**
-     * Invoked when a talk is triggered.
-     *
-     * @param talkId The ID of the talk.
-     * @param npcEntityId The entity ID of the NPC being talked to.
-     */
     public void triggerTalkAction(int talkId, int npcEntityId) {
         var player = this.getPlayer();
 

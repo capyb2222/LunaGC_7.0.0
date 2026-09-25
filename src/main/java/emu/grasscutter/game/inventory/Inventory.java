@@ -61,12 +61,6 @@ public class Inventory extends BasePlayerManager implements Iterable<GameItem> {
         this.getInventoryTypes().put(type.getValue(), tab);
     }
 
-    /**
-     * Finds the first item in the inventory with the given item id.
-     *
-     * @param itemId The item id to search for.
-     * @return The first item found with the given item id, or null if no item was
-     */
     public GameItem getFirstItem(int itemId) {
         return this.getItems().values().stream()
                 .filter(item -> item.getItemId() == itemId)
@@ -189,27 +183,10 @@ public class Inventory extends BasePlayerManager implements Iterable<GameItem> {
         }
     }
 
-    /**
-     * Checks to see if the player has the item in their inventory. This will succeed if the player
-     * has at least the minimum count of the item.
-     *
-     * @param itemId The item id to check for.
-     * @param minCount The minimum count of the item to check for.
-     * @return True if the player has the item, false otherwise.
-     */
     public boolean hasItem(int itemId, int minCount) {
         return hasItem(itemId, minCount, false);
     }
 
-    /**
-     * Checks to see if the player has the item in their inventory.
-     *
-     * @param itemId The item id to check for.
-     * @param count The count of the item to check for.
-     * @param enforce If true, the player must have the exact amount. If false, the player must have
-     *     at least the amount.
-     * @return True if the player has the item, false otherwise.
-     */
     public boolean hasItem(int itemId, int count, boolean enforce) {
         var item = this.getFirstItem(itemId);
         if (item == null) return false;
@@ -217,12 +194,6 @@ public class Inventory extends BasePlayerManager implements Iterable<GameItem> {
         return enforce ? item.getCount() == count : item.getCount() >= count;
     }
 
-    /**
-     * Checks to see if the player has the item in their inventory. This is not exact.
-     *
-     * @param items A map of item game IDs to their count.
-     * @return True if the player has the items, false otherwise.
-     */
     public boolean hasAllItems(Collection<ItemParam> items) {
         for (var item : items) {
             if (!this.hasItem(item.getItemId(), item.getCount(), false)) return false;
@@ -521,11 +492,6 @@ public class Inventory extends BasePlayerManager implements Iterable<GameItem> {
         }
     }
 
-    /**
-     * Performs a bulk delete of items.
-     *
-     * @param items A map of item game IDs to the amount of items to remove.
-     */
     public void removeItems(Collection<ItemParam> items) {
         for (var entry : items) {
             this.removeItem(entry.getItemId(), entry.getCount());
@@ -536,14 +502,6 @@ public class Inventory extends BasePlayerManager implements Iterable<GameItem> {
         return removeItem(guid, 1);
     }
 
-    /**
-     * Removes an item from the player's inventory. This uses the item ID to find the first stack of
-     * the item's type.
-     *
-     * @param itemId The ID of the item to remove.
-     * @param count The amount of items to remove.
-     * @return True if the item was removed, false otherwise.
-     */
     public synchronized boolean removeItem(int itemId, int count) {
         var item = this.getItems().values().stream().filter(i -> i.getItemId() == itemId).findFirst();
 
@@ -561,13 +519,6 @@ public class Inventory extends BasePlayerManager implements Iterable<GameItem> {
         return removeItem(item, count);
     }
 
-    /**
-     * Removes an item by its item ID.
-     *
-     * @param itemId The ID of the item to remove.
-     * @param count The amount of items to remove.
-     * @return True if the item was removed, false otherwise.
-     */
     public synchronized boolean removeItemById(int itemId, int count) {
         var item = this.getItems().values().stream().filter(i -> i.getItemId() == itemId).findFirst();
 
@@ -607,9 +558,6 @@ public class Inventory extends BasePlayerManager implements Iterable<GameItem> {
             getPlayer().sendPacket(new PacketStoreItemChangeNotify(item));
         }
 
-        // Battle pass trigger
-        // Must be measured against the count from before the removal, otherwise this reports the
-        // leftover stack size (or a negative number) instead of how many were actually taken.
         int removeCount = Math.min(count, countBefore);
         this.triggerRemItemEvents(item, removeCount);
 

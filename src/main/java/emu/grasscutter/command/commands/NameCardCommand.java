@@ -71,9 +71,6 @@ public final class NameCardCommand implements CommandHandler {
             targetPlayer.sendPacket(new PacketUnlockNameCardNotify(nameCardId));
         }
 
-        /*
-         * Doing this directly instead of targetPlayer.setNameCard(...) so the command can force the change immediately after granting the card.
-         */
         targetPlayer.setNameCardId(nameCardId);
         targetPlayer.sendPacket(new PacketSetNameCardRsp(nameCardId));
         targetPlayer.save();
@@ -97,10 +94,6 @@ public final class NameCardCommand implements CommandHandler {
             return validNameCardIds.contains(nameCardId);
         }
 
-        /*
-         * Fallback if NameCardExcelConfigData.json cannot be loaded.
-         * Most namecard IDs are in the 210xxx range.
-         */
         return nameCardId >= 210000 && nameCardId <= 219999;
     }
 

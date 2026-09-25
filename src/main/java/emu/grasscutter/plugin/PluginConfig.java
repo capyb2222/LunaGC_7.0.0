@@ -8,11 +8,6 @@ public final class PluginConfig {
     public String[] authors;
     public String[] loadAfter;
 
-    /**
-     * Attempts to validate this config instance.
-     *
-     * @return True if the config is valid, false otherwise.
-     */
     @SuppressWarnings("BooleanMethodIsAlwaysInverted")
     public boolean validate() {
         return name != null && description != null && mainClass != null && api != null;

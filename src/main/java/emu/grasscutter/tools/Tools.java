@@ -26,27 +26,12 @@ import java.util.stream.*;
 import lombok.*;
 
 public final class Tools {
-    /**
-     * This generates the GM handbooks with a message by default.
-     *
-     * @throws Exception If an error occurs while generating the handbooks.
-     */
     public static void createGmHandbooks() throws Exception {
         Tools.createGmHandbooks(true);
     }
 
-    /**
-     * Generates a GM handbook for each language.
-     *
-     * @param message Should a message be printed to the console?
-     * @throws Exception If an error occurs while generating the handbooks.
-     */
     private static final String MISSING = "[N/A]";
 
-    /**
-     * Never null, so a hash no text map knows cannot stall the caller. getTextMapKey returns null
-     * for those, and reloading cannot conjure one - the resource set simply has no string for it.
-     */
     private static TextStrings translate(long hash) {
         val strings = getTextMapKey(hash);
         return strings != null
@@ -228,14 +213,6 @@ public final class Tools {
         if (message) Grasscutter.getLogger().info("GM Handbooks generated!");
     }
 
-    /**
-     * Maps an avatar id onto the id of the MATERIAL_AVATAR "card" item that the gacha actually hands
-     * out, which is what the wish history is keyed on.
-     *
-     * <p>Avatars 10000002-10000099 use 1002-1099, but the block ran out at Emilie, so everything from
-     * Kachina (10000100) on uses 4100+ instead. Assuming 1000+ for all of them made every character
-     * released since 5.0 show up as "[N/A]" in the wish history.
-     */
     private static int avatarCardId(int avatarId) {
         int index = avatarId % 1000;
         return index + (index >= 100 ? 4000 : 1000);
@@ -435,11 +412,6 @@ public final class Tools {
         return "EN";
     }
 
-    /**
-     * Parses the 'resources.info' file found in resources.
-     *
-     * @return A {@link ResourceInfo} object containing the parsed data.
-     */
     public static ResourceInfo resourcesInfo() {
         var file = FileUtils.getResourcePath("resources.info");
         try (var reader = Files.newBufferedReader(file, StandardCharsets.UTF_8)) {

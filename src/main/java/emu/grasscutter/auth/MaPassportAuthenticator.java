@@ -101,10 +101,6 @@ public class MaPassportAuthenticator {
                 return createTokenErrorResponse(-101, "For account safety, please log in again");
             }
             
-            // Check if the session key matches the provided stoken.
-            // Lenient mode for private servers: if the stored key differs (e.g. the client
-            // cached a token from another server), adopt the client's stoken so the session
-            // resume succeeds instead of failing with a "session key error".
             String accountSessionKey = account.getSessionKey();
             if (accountSessionKey == null || !accountSessionKey.equals(request.stoken)) {
                 Grasscutter.getLogger().info(

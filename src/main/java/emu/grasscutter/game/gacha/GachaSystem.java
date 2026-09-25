@@ -101,9 +101,6 @@ public class GachaSystem extends BaseGameSystem {
     }
 
     private synchronized int drawRoulette(int[] weights, int cutoff) {
-        // This follows the logic laid out in issue #183
-        // Simple weighted selection with an upper bound for the roll that cuts off trailing entries
-        // All weights must be >= 0
         int total = 0;
         for (int weight : weights) {
             if (weight < 0) {
@@ -166,10 +163,6 @@ public class GachaSystem extends BaseGameSystem {
         }
     }
 
-    /**
-     * The outcome of a single roll. {@code capturedRadiance} is set when a lost coinflip was turned
-     * into the featured item by Capturing Radiance, which the client shows its own animation for.
-     */
     private record PullResult(int itemId, boolean capturedRadiance) {}
 
     private synchronized PullResult doRarePull(

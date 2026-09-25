@@ -226,18 +226,10 @@ public final class Grasscutter {
         }
     }
 
-    /*
-     * Methods for the language system component.
-     */
-
     public static void loadLanguage() {
         var locale = config.language.language;
         language = Language.getLanguage(Utils.getLanguageCode(locale));
     }
-
-    /*
-     * Methods for the configuration system component.
-     */
 
     /** Attempts to load the configuration from a file. */
     public static void loadConfig() {
@@ -260,11 +252,6 @@ public final class Grasscutter {
         }
     }
 
-    /**
-     * Saves the provided server configuration.
-     *
-     * @param config The configuration to save, or null for a new one.
-     */
     public static void saveConfig(@Nullable ConfigContainer config) {
         if (config == null) config = new ConfigContainer();
 
@@ -276,10 +263,6 @@ public final class Grasscutter {
             logger.error("Unable to save config file.", e);
         }
     }
-
-    /*
-     * Getters for the various server components.
-     */
 
     public static Language getLanguage(String langCode) {
         return Language.getLanguage(langCode);
@@ -308,10 +291,6 @@ public final class Grasscutter {
 
         return consoleLineReader;
     }
-
-    /*
-     * Utility methods.
-     */
 
     public static void updateDayOfWeek() {
         Calendar calendar = Calendar.getInstance();
@@ -342,9 +321,6 @@ public final class Grasscutter {
                     Runtime.getRuntime().exit(0);
                 }
             } catch (EndOfFileException e) {
-                // Nothing is attached to stdin - a redirect, a service, a background launch. Asking
-                // again just returns EOF again, so the loop span the CPU and filled the log with its
-                // own complaints. Stop reading; the server's own threads keep it running.
                 logger.info("No console attached, running without commands.");
                 return;
             } catch (IOError e) {
@@ -361,10 +337,6 @@ public final class Grasscutter {
             }
         }
     }
-
-    /*
-     * Enums for the configuration.
-     */
 
     public enum ServerRunMode {
         HYBRID,

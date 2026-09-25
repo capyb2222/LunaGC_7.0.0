@@ -16,15 +16,8 @@ public class PlayerProgress {
     @Setter @Transient private Player player;
     private Map<Integer, ItemEntry> itemHistory;
 
-    /*
-     * A list of dungeon IDs which have been completed.
-     * This only applies to one-time dungeons.
-     */
     private IntArrayList completedDungeons;
 
-    // keep track of EXEC_ADD_QUEST_PROGRESS count, will be used in CONTENT_ADD_QUEST_PROGRESS
-    // not sure where to put this, this should be saved to DB but not to individual quest, since
-    // it will be hard to loop and compare
     private Map<String, Integer> questProgressCountMap;
 
     private Map<Integer, ItemGiveRecord> itemGivings;
@@ -38,11 +31,6 @@ public class PlayerProgress {
         this.bargains = new Int2ObjectOpenHashMap<>();
     }
 
-    /**
-     * Marks a dungeon as completed. Triggers the quest event.
-     *
-     * @param dungeonId The dungeon which was completed.
-     */
     public void markDungeonAsComplete(int dungeonId) {
         if (this.getCompletedDungeons().contains(dungeonId)) return;
 

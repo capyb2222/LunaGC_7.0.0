@@ -9,29 +9,10 @@ import lombok.val;
 
 public class DataLoader {
 
-    /**
-     * Load a data file by its name. If the file isn't found within the /data directory then it will
-     * fallback to the default within the jar resources
-     *
-     * @param resourcePath The path to the data file to be loaded.
-     * @return InputStream of the data file.
-     * @throws FileNotFoundException
-     * @see #load(String, boolean)
-     */
     public static InputStream load(String resourcePath) throws FileNotFoundException {
         return load(resourcePath, true);
     }
 
-    /**
-     * Creates an input stream reader for a data file. If the file isn't found within the /data
-     * directory then it will fallback to the default within the jar resources
-     *
-     * @param resourcePath The path to the data file to be loaded.
-     * @return InputStreamReader of the data file.
-     * @throws IOException
-     * @throws FileNotFoundException
-     * @see #load(String, boolean)
-     */
     public static InputStreamReader loadReader(String resourcePath)
             throws IOException, FileNotFoundException {
         try {
@@ -42,15 +23,6 @@ public class DataLoader {
         }
     }
 
-    /**
-     * Load a data file by its name.
-     *
-     * @param resourcePath The path to the data file to be loaded.
-     * @param useFallback If the file does not exist in the /data directory, should it use the default
-     *     file in the jar?
-     * @return InputStream of the data file.
-     * @throws FileNotFoundException
-     */
     public static InputStream load(String resourcePath, boolean useFallback)
             throws FileNotFoundException {
         Path path =

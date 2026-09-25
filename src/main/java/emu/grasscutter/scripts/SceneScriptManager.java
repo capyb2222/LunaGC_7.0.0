@@ -273,9 +273,6 @@ public class SceneScriptManager {
 
         this.addGroupSuite(groupInstance, suiteData, entitiesAdded);
 
-        // refreshGroup may be called by a trigger.
-        // If that trigger has been refreshed, ensure it does not get
-        // deregistered anyway when the trigger completes its invocation.
         for (var triggerSet : currentTriggers.values()) {
             var toSave = new HashSet<SceneTrigger>(triggerSet);
             toSave.retainAll(ongoingTriggers);
@@ -416,13 +413,6 @@ public class SceneScriptManager {
         return null;
     }
 
-    /**
-     * Looks a group up in the block metadata WITHOUT loading it.
-     *
-     * <p>getGroupById loads any group it finds that is not already instanced. Calling it from
-     * inside the load path therefore re-entered the load for the group being loaded, and every
-     * monster and chest in it was created twice.
-     */
     private SceneGroup findGroupById(int groupId) {
         for (var block : getBlocks().values()) {
             this.getScene().loadBlock(block);
@@ -487,10 +477,6 @@ public class SceneScriptManager {
         event.call();
 
         if (event.isOverride()) {
-            // Group grids should not be cached to disk when a scene
-            // group override is in effect. Otherwise, when the server
-            // next runs without that override, the cached content
-            // will not make sense.
             noCacheGroupGridsToDisk = true;
         }
 
@@ -664,11 +650,6 @@ public class SceneScriptManager {
         return isInit;
     }
 
-    /**
-     * Whether init() has finished, regardless of whether it found a scene meta. init() runs on its
-     * own thread, so isInit() alone cannot tell "this scene has no scripts" apart from "the scripts
-     * have not loaded yet" - and those two want opposite spawn behaviour.
-     */
     public boolean isInitAttempted() {
         return initAttempted;
     }
@@ -882,13 +863,6 @@ public class SceneScriptManager {
     }
 
     public Future<?> callEvent(@Nonnull ScriptArgs params) {
-        /**
-         * We use ThreadLocal to trans SceneScriptManager context to ScriptLib, to avoid eval script for
-         * every groups' trigger in every scene instances. But when callEvent is called in a ScriptLib
-         * func, it may cause NPE because the inner call cleans the ThreadLocal so that outer call could
-         * not get it. e.g. CallEvent -> set -> ScriptLib.xxx -> CallEvent -> set -> remove -> NPE ->
-         * (remove) So we use thread pool to clean the stack to avoid this new issue.
-         */
         return eventExecutor.submit(() -> this.realCallEvent(params));
     }
 
@@ -1332,20 +1306,10 @@ public class SceneScriptManager {
                         });
     }
 
-    /**
-     * Registers a new time axis for this scene. Starts the time axis after.
-     *
-     * @param timeAxis The time axis.
-     */
     public void initTimeAxis(SceneTimeAxis timeAxis) {
         this.timeAxis.put(timeAxis.getIdentifier(), timeAxis);
     }
 
-    /**
-     * Terminates a time axis.
-     *
-     * @param identifier The identifier of the time axis.
-     */
     public void stopTimeAxis(String identifier) {
         var timeAxis = this.timeAxis.get(identifier);
         if (timeAxis != null) {

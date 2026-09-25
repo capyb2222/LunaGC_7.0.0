@@ -77,10 +77,6 @@ public class GameDepot {
         return relicAffixDepot.get(depot);
     }
 
-    /**
-     * Every substat rolls one of a handful of fixed values - four of them at 5 stars. This is where
-     * an affix sits in that range, 0 being the lowest roll, so a caller can favour the good ones.
-     */
     public static int getRelicAffixValueTier(ReliquaryAffixData affix) {
         return relicAffixValueTier.get(affix.getId());
     }

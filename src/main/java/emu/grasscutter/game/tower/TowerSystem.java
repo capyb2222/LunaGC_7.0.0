@@ -11,15 +11,6 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.util.*;
 
-/**
- * Serves one Spiral Abyss rotation at a time.
- *
- * <p>The rotation is chosen from what the resources can actually build rather than from a fixed id.
- * A schedule names twelve floors, each floor three chambers, each chamber a dungeon, and each
- * dungeon a scene; if that scene has no group scripts the chamber opens onto an empty room with
- * nothing to fight. Most of the newer rotations in the excel are in exactly that state, so the
- * playable ones are worked out once and only those enter the cycle.
- */
 public class TowerSystem extends BaseGameSystem {
 
     /** Rotations change on the 1st and the 16th, at this hour, as they do in the game. */
@@ -27,11 +18,6 @@ public class TowerSystem extends BaseGameSystem {
 
     private TowerScheduleConfig towerScheduleConfig;
 
-    /**
-     * Rotations whose every chamber resolves to a scripted scene, ascending. Resolved on first use,
-     * never in the constructor: the game server is built before {@code ResourceLoader.loadAll()}
-     * runs, so the excel maps are still empty at that point.
-     */
     private List<Integer> playableSchedules;
 
     /** Answers per scene, since one rotation asks about the same scenes repeatedly. */

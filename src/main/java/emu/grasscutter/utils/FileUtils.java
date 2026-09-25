@@ -154,9 +154,6 @@ public final class FileUtils {
         return Files.exists(p) ? p : getTsjJsonTsv(RESOURCES_PATH.resolve("ExcelBinOutput"), filename);
     }
 
-    // Gets path of a resource.
-    // If multiple formats of it exist, priority is TSJ > JSON > TSV
-    // If none exist, return the TSJ path, in case it wants to create a file
     public static Path getTsjJsonTsv(Path root, String filename) {
         val name = getFilenameWithoutExtension(filename);
         for (val ext : TSJ_JSON_TSV) {

@@ -151,10 +151,6 @@ public class SotSManager extends BasePlayerManager {
     }
 
     public void refillSpringVolume() {
-        // Temporary: Max spring volume depends on level of the statues in Mondstadt and Liyue. Override
-        // until we have statue level.
-        // TODO: remove
-        // https://genshin-impact.fandom.com/wiki/Statue_of_The_Seven#:~:text=region%20of%20Inazuma.-,Statue%20Levels,-Upon%20first%20unlocking
         setMaxVolume(8500000);
         // Temporary: Auto enable 100% statue recovery until we can adjust statue settings in game
         // TODO: remove
@@ -189,12 +185,6 @@ public class SotSManager extends BasePlayerManager {
 
             if (getIsAutoRecoveryEnabled()) {
                 List<EntityAvatar> activeTeam = player.getTeamManager().getActiveTeam();
-                // When the statue does not have enough remaining volume:
-                //      Enhanced experience: Enable priority healing
-                //                              The current active character will get healed first, then
-                // sequential.
-                //      Vanilla experience: Disable priority healing
-                //                              Sequential healing based on character index.
                 int priorityIndex =
                         enablePriorityHealing ? player.getTeamManager().getCurrentCharacterIndex() : -1;
                 if (priorityIndex >= 0) {

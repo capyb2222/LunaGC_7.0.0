@@ -26,9 +26,6 @@ public class AvatarSkillDepotData extends GameResource {
     private List<String> extraAbilities;
     private List<Integer> talents;
 
-    // The obfuscated key for these two rotates every version, and the shipped resources are a mix of
-    // dumps (most rows are 6.6-era, the newest avatars come from a later one), so accept every key
-    // we have seen rather than a single name.
     @SerializedName(
             value = "inherentProudSkillOpens",
             alternate = {"BOIOJNENKHP"})

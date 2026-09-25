@@ -9,9 +9,6 @@ import java.util.List;
 
 public final class DungeonChallenge extends WorldChallenge {
 
-    /**
-     * has more challenge
-     */
     private boolean stage;
 
     public DungeonChallenge(Scene scene, SceneGroup group,
@@ -44,11 +41,6 @@ public final class DungeonChallenge extends WorldChallenge {
     private void settle() {
         if (!stage) {
             var scene = this.getScene();
-            /*if(this.isSuccess()){
-                scene.getDungeonManager().finishDungeon();
-            } else {
-                scene.getDungeonManager().failDungeon();
-            }*/
         }
     }
 

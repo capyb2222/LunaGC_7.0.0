@@ -16,20 +16,10 @@ import java.util.concurrent.*;
 import javax.annotation.Nullable;
 
 public interface DispatchUtils {
-    /**
-     * @return The dispatch URL.
-     */
     static String getDispatchUrl() {
         return DISPATCH_INFO.dispatchUrl;
     }
 
-    /**
-     * Validates an authentication request.
-     *
-     * @param accountId The account ID.
-     * @param token The token.
-     * @return {@code true} if the authentication request is valid, otherwise {@code false}.
-     */
     @Nullable static Account authenticate(String accountId, String token) {
         return switch (Grasscutter.getRunMode()) {
             case GAME_ONLY ->
@@ -51,12 +41,6 @@ public interface DispatchUtils {
         };
     }
 
-    /**
-     * Fetches the session key for the specified player ID.
-     *
-     * @param playerId The player ID.
-     * @return The session key.
-     */
     @Nullable static String fetchSessionKey(int playerId) {
         return switch (Grasscutter.getRunMode()) {
             case GAME_ONLY -> {
@@ -98,12 +82,6 @@ public interface DispatchUtils {
         };
     }
 
-    /**
-     * Fetches an account by its ID.
-     *
-     * @param accountId The account ID.
-     * @return The account.
-     */
     @Nullable static Account getAccountById(String accountId) {
         return switch (Grasscutter.getRunMode()) {
             case GAME_ONLY -> {
@@ -124,13 +102,6 @@ public interface DispatchUtils {
         };
     }
 
-    /**
-     * Fetches the values of fields for a player.
-     *
-     * @param playerId The player's ID.
-     * @param fields The fields to fetch.
-     * @return An object holding the field values.
-     */
     @Nullable static JsonObject getPlayerFields(int playerId, String... fields) {
         return switch (Grasscutter.getRunMode()) {
             case DISPATCH_ONLY -> {
@@ -158,14 +129,6 @@ public interface DispatchUtils {
         };
     }
 
-    /**
-     * Fetches the values of fields for a player. Uses an account to find the player. Similar to
-     * {@link DispatchUtils#getPlayerFields(int, String...)}
-     *
-     * @param accountId The account ID.
-     * @param fields The fields to fetch.
-     * @return An object holding the field values.
-     */
     @Nullable static JsonObject getPlayerByAccount(String accountId, String... fields) {
         return switch (Grasscutter.getRunMode()) {
             case DISPATCH_ONLY -> {
@@ -191,14 +154,6 @@ public interface DispatchUtils {
         };
     }
 
-    /**
-     * Fetches the gacha history for the specified account.
-     *
-     * @param accountId The account ID.
-     * @param page The page.
-     * @param gachaType The gacha type.
-     * @return The gacha history.
-     */
     static JsonObject fetchGachaRecords(String accountId, int page, int gachaType) {
         return switch (Grasscutter.getRunMode()) {
             case DISPATCH_ONLY -> {
@@ -245,13 +200,6 @@ public interface DispatchUtils {
         };
     }
 
-    /**
-     * Performs a handbook action.
-     *
-     * @param action The action.
-     * @param data The data.
-     * @return The response.
-     */
     static Response performHandbookAction(HandbookBody.Action action, Object data) {
         return switch (Grasscutter.getRunMode()) {
             case DISPATCH_ONLY -> {

@@ -745,22 +745,10 @@ public final class GameData {
         return shopGoods;
     }
 
-    /**
-     * Fetches the route data for a scene by ID.
-     *
-     * @param sceneId The ID of the scene to fetch the route data for.
-     * @return The route data for the scene, or an empty map if the scene has no route data.
-     */
     public static Int2ObjectMap<Route> getSceneRoutes(int sceneId) {
         return sceneRouteData.computeIfAbsent(sceneId, k -> new Int2ObjectOpenHashMap<>());
     }
 
-    /**
-     * Fetches the trial data
-     *
-     * @param trialAvatarIndexId
-     * @return
-     */
     @Nullable public static TrialAvatarActivityDataData getTrialAvatarActivityDataByAvatarIndex(
             int trialAvatarIndexId) {
         // prefer custom data over official data

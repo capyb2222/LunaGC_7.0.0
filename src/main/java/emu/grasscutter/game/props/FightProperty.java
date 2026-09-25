@@ -277,13 +277,6 @@ public enum FightProperty {
                     entry("health", FIGHT_PROP_HP),
                     entry("physical", FIGHT_PROP_PHYSICAL_ADD_HURT));
 
-    /**
-     * Reads a stat the way it was typed rather than the way it is spelled here.
-     *
-     * <p>Case, spaces and underscores are ignored, "percent" and a trailing "p" both mean "%", and a
-     * bare element means that element's damage bonus - so CR, atkp, ATK_PERCENT and pyro all land
-     * where they were meant to. Only ever finds MORE than the exact table did.
-     */
     public static FightProperty getPropByShortName(String name) {
         if (name == null) return FIGHT_PROP_NONE;
 

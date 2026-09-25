@@ -9,12 +9,6 @@ import java.util.*;
 
 public interface CommandHandler {
 
-    /**
-     * Send a message to the target.
-     *
-     * @param player The player to send the message to, or null for the server console.
-     * @param message The message to send.
-     */
     static void sendMessage(Player player, String message) {
         // Call command feedback event.
         ReceiveCommandFeedbackEvent event = new ReceiveCommandFeedbackEvent(player, message);
@@ -77,11 +71,5 @@ public interface CommandHandler {
         return translate(player, getDescriptionKey());
     }
 
-    /**
-     * Called when a player/console invokes a command.
-     *
-     * @param sender The player/console that invoked the command.
-     * @param args The arguments to the command.
-     */
     default void execute(Player sender, Player targetPlayer, List<String> args) {}
 }

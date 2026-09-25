@@ -30,10 +30,6 @@ public class HandlerBuyGoodsReq extends PacketHandler {
         // Don't trust your users' input
         var player = session.getPlayer();
 
-        // A non-positive count buys nothing and cannot be honest. Worse, it inverts the whole
-        // purchase: payItems checks `held < cost * count`, which is never true for a negative
-        // count, and payVirtualItem then subtracts that negative - handing out mora and
-        // primogems instead of taking them.
         int buyCount = buyGoodsReq.getBuyCount();
         if (buyCount <= 0) {
             session.send(new PacketBuyGoodsRsp(Retcode.RET_SVR_ERROR));

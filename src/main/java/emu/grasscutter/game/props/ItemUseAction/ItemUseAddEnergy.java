@@ -25,9 +25,6 @@ public abstract class ItemUseAddEnergy extends ItemUseAction {
             }
             case ITEM_USE_TARGET_CUR_TEAM -> {
                 var activeTeam = teamManager.getActiveTeam();
-                // On-field vs off-field multiplier.
-                // The on-field character gets full amount, off-field characters get less depending on the
-                // team size.
                 final float offFieldRatio =
                         switch (activeTeam.size()) {
                             case 2 -> 0.8f;
