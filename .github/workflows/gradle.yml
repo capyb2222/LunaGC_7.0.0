@@ -75,8 +75,6 @@ jobs:
         Automatic build of \`$BRANCH\` at $SHA.
 
         Download: [\`$JAR_NAME.jar\`](https://github.com/$REPO/releases/latest/download/$JAR_NAME.jar)
-
-        Resources are not bundled - put a \`resources/\` folder next to the jar before running it.
         EOF
         gh release delete latest --yes --cleanup-tag || true
         gh release create latest "$JAR_PATH" \
