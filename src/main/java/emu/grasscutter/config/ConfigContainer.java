@@ -275,12 +275,6 @@ public class ConfigContainer {
 
             /** The upgrade level the piece arrives at, 0 to 20. 20 is a fully levelled artifact. */
             public int artifactLevel = 20;
-
-            /** Weight multiplier for CRIT Rate and CRIT DMG. 1 rolls them as the game does. */
-            public double critWeight = 8;
-            /** Weight multiplier for ATK%, Elemental Mastery and the DMG bonuses. */
-            public double damageWeight = 3;
-            public double highRollBias = 3;
         }
 
         public NewAccountIntro newAccountIntro = new NewAccountIntro();

@@ -168,29 +168,21 @@ public class GameItem {
     }
 
     public void addAppendProp() {
-        this.addAppendProp(ArtifactRollBias.NONE);
-    }
-
-    public void addAppendProp(ArtifactRollBias bias) {
         if (this.appendPropIdList == null) {
             this.appendPropIdList = new ArrayList<>();
         }
 
         if (this.appendPropIdList.size() < 4) {
-            this.addNewAppendProp(bias);
+            this.addNewAppendProp();
         } else {
-            this.upgradeRandomAppendProp(bias);
+            this.upgradeRandomAppendProp();
         }
     }
 
     public void addAppendProps(int quantity) {
-        this.addAppendProps(quantity, ArtifactRollBias.NONE);
-    }
-
-    public void addAppendProps(int quantity, ArtifactRollBias bias) {
         int num = Math.max(quantity, 0);
         for (int i = 0; i < num; i++) {
-            this.addAppendProp(bias);
+            this.addAppendProp();
         }
     }
 
@@ -207,7 +199,7 @@ public class GameItem {
         return props;
     }
 
-    private void addNewAppendProp(ArtifactRollBias bias) {
+    private void addNewAppendProp() {
         List<ReliquaryAffixData> affixList =
                 GameDepot.getRelicAffixList(this.itemData.getAppendPropDepotId());
 
@@ -227,7 +219,7 @@ public class GameItem {
         WeightedList<ReliquaryAffixData> randomList = new WeightedList<>();
         for (ReliquaryAffixData affix : affixList) {
             if (!blacklist.contains(affix.getFightProp())) {
-                randomList.add(affix.getWeight() * bias.weigh(affix), affix);
+                randomList.add(GameDepot.getRelicAffixWeight(affix), affix);
             }
         }
 
@@ -240,7 +232,7 @@ public class GameItem {
         this.appendPropIdList.add(affixData.getId());
     }
 
-    private void upgradeRandomAppendProp(ArtifactRollBias bias) {
+    private void upgradeRandomAppendProp() {
         List<ReliquaryAffixData> affixList =
                 GameDepot.getRelicAffixList(this.itemData.getAppendPropDepotId());
 
@@ -255,7 +247,7 @@ public class GameItem {
         WeightedList<ReliquaryAffixData> randomList = new WeightedList<>();
         for (ReliquaryAffixData affix : affixList) {
             if (whitelist.contains(affix.getFightProp())) {
-                randomList.add(affix.getUpgradeWeight() * bias.weigh(affix), affix);
+                randomList.add(affix.getUpgradeWeight(), affix);
             }
         }
 

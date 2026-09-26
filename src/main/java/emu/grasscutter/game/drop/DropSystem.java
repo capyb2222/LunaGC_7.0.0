@@ -168,15 +168,7 @@ public final class DropSystem extends BaseGameSystem {
                     if (dropTable.containsKey(id)) {
                         processDrop(dropTable.get(id), amount, items);
                     } else {
-                        boolean flag = true;
-                        for (var j : items) {
-                            if (j.getItemId() == id) {
-                                j.setCount(j.getCount() + amount);
-                                flag = false;
-                                break;
-                            }
-                        }
-                        if (flag) items.add(new GameItem(id, amount));
+                        addDropped(items, id, amount);
                     }
                     break;
                 }
@@ -191,19 +183,28 @@ public final class DropSystem extends BaseGameSystem {
                     if (dropTable.containsKey(id)) {
                         processDrop(dropTable.get(id), amount, items);
                     } else {
-                        boolean flag = true;
-                        for (var j : items) {
-                            if (j.getItemId() == id) {
-                                j.setCount(j.getCount() + amount);
-                                flag = false;
-                                break;
-                            }
-                        }
-                        if (flag) items.add(new GameItem(id, amount));
+                        addDropped(items, id, amount);
                     }
                 }
             }
         }
+    }
+
+    private static void addDropped(List<GameItem> items, int id, int amount) {
+        var data = GameData.getItemDataMap().get(id);
+        if (data != null
+                && (data.getItemType() == ItemType.ITEM_RELIQUARY
+                        || data.getItemType() == ItemType.ITEM_WEAPON)) {
+            for (int n = 0; n < amount; n++) items.add(new GameItem(id, 1));
+            return;
+        }
+        for (var item : items) {
+            if (item.getItemId() == id) {
+                item.setCount(item.getCount() + amount);
+                return;
+            }
+        }
+        items.add(new GameItem(id, amount));
     }
 
     private int calculateDropAmount(DropItemData i) {

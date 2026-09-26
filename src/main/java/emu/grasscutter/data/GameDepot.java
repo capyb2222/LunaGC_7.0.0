@@ -3,6 +3,9 @@ package emu.grasscutter.data;
 import emu.grasscutter.Grasscutter;
 import emu.grasscutter.data.ResourceLoader.AvatarConfig;
 import emu.grasscutter.data.excels.reliquary.*;
+import emu.grasscutter.game.inventory.EquipType;
+import emu.grasscutter.game.inventory.ItemType;
+import emu.grasscutter.game.props.FightProperty;
 import emu.grasscutter.game.managers.blossom.BlossomConfig;
 import emu.grasscutter.game.world.SpawnDataEntry;
 import emu.grasscutter.utils.objects.WeightedList;
@@ -20,8 +23,8 @@ public class GameDepot {
             new Int2ObjectOpenHashMap<>();
     private static Int2ObjectMap<List<ReliquaryAffixData>> relicAffixDepot =
             new Int2ObjectOpenHashMap<>();
-    private static Int2IntMap relicAffixValueTier = new Int2IntOpenHashMap();
-    private static Int2IntMap relicAffixValueTierCount = new Int2IntOpenHashMap();
+    private static Int2IntMap relicAffixWeight = new Int2IntOpenHashMap();
+    @Getter private static double fourSubstatStartChance = 0.2;
 
     @Getter @Setter private static Map<String, AvatarConfig> playerAbilities = new HashMap<>();
 
@@ -31,28 +34,65 @@ public class GameDepot {
 
     @Getter @Setter private static BlossomConfig blossomConfig;
 
-    public static void load() {
-        for (ReliquaryMainPropData data : GameData.getReliquaryMainPropDataMap().values()) {
-            if (data.getWeight() <= 0 || data.getPropDepotId() <= 0) {
-                continue;
-            }
-            List<ReliquaryMainPropData> list =
-                    relicMainPropDepot.computeIfAbsent(data.getPropDepotId(), k -> new ArrayList<>());
-            list.add(data);
-            WeightedList<ReliquaryMainPropData> weightedList =
-                    relicRandomMainPropDepot.computeIfAbsent(
-                            data.getPropDepotId(), k -> new WeightedList<>());
-            weightedList.add(data.getWeight(), data);
+    @Getter
+    public static final class ArtifactRollOdds {
+        private Map<EquipType, Map<FightProperty, Integer>> mainStat = Map.of();
+        private Map<FightProperty, Integer> subStat = Map.of();
+        private double fourSubstatStartChance = 0.2;
+    }
+
+    private static ArtifactRollOdds loadArtifactRollOdds() {
+        try {
+            var odds = DataLoader.loadClass("ArtifactRollOdds.json", ArtifactRollOdds.class);
+            if (odds != null) return odds;
+        } catch (Exception e) {
+            Grasscutter.getLogger().warn("ArtifactRollOdds.json could not be read, using excel weights", e);
         }
+        return new ArtifactRollOdds();
+    }
+
+    public static void load() {
+        var odds = loadArtifactRollOdds();
+        fourSubstatStartChance = odds.getFourSubstatStartChance();
+        Int2ObjectMap<EquipType> depotSlots = new Int2ObjectOpenHashMap<>();
+        GameData.getItemDataMap().values().stream()
+                .filter(item -> item.getItemType() == ItemType.ITEM_RELIQUARY)
+                .filter(item -> item.getMainPropDepotId() > 0)
+                .forEach(item -> depotSlots.putIfAbsent(item.getMainPropDepotId(), item.getEquipType()));
+
+        GameData.getReliquaryMainPropDataMap().values().stream()
+                .filter(data -> data.getPropDepotId() > 0)
+                .collect(Collectors.groupingBy(ReliquaryMainPropData::getPropDepotId))
+                .forEach(
+                        (depot, entries) -> {
+                            var slotOdds = odds.getMainStat().get(depotSlots.get((int) depot));
+                            boolean useOdds =
+                                    slotOdds != null
+                                            && entries.stream()
+                                                    .anyMatch(e -> slotOdds.getOrDefault(e.getFightProp(), 0) > 0);
+                            for (var data : entries) {
+                                int weight =
+                                        useOdds
+                                                ? slotOdds.getOrDefault(data.getFightProp(), 0)
+                                                : data.getWeight();
+                                if (weight <= 0) continue;
+                                relicMainPropDepot.computeIfAbsent(depot, k -> new ArrayList<>()).add(data);
+                                relicRandomMainPropDepot
+                                        .computeIfAbsent(depot, k -> new WeightedList<>())
+                                        .add(weight, data);
+                            }
+                        });
+
         for (ReliquaryAffixData data : GameData.getReliquaryAffixDataMap().values()) {
-            if (data.getWeight() <= 0 || data.getDepotId() <= 0) {
+            int oddsWeight = odds.getSubStat().getOrDefault(data.getFightProp(), 0);
+            if ((data.getWeight() <= 0 && oddsWeight <= 0) || data.getDepotId() <= 0) {
                 continue;
             }
             List<ReliquaryAffixData> list =
                     relicAffixDepot.computeIfAbsent(data.getDepotId(), k -> new ArrayList<>());
             list.add(data);
         }
-        relicAffixDepot.values().forEach(GameDepot::rankAffixValues);
+        relicAffixDepot.values().forEach(depot -> weighAffixes(depot, odds.getSubStat()));
         // Let the server owner know if theyre missing weights
         if (relicMainPropDepot.size() == 0 || relicAffixDepot.size() == 0) {
             Grasscutter.getLogger()
@@ -77,27 +117,21 @@ public class GameDepot {
         return relicAffixDepot.get(depot);
     }
 
-    public static int getRelicAffixValueTier(ReliquaryAffixData affix) {
-        return relicAffixValueTier.get(affix.getId());
+    private static void weighAffixes(
+            List<ReliquaryAffixData> depot, Map<FightProperty, Integer> subStatOdds) {
+        boolean useOdds = depot.stream().anyMatch(a -> subStatOdds.getOrDefault(a.getFightProp(), 0) > 0);
+        var rolls = depot.stream().collect(Collectors.groupingBy(ReliquaryAffixData::getFightProp, Collectors.counting()));
+        for (var affix : depot) {
+            int weight =
+                    useOdds
+                            ? (int) (subStatOdds.getOrDefault(affix.getFightProp(), 0) * 1200 / rolls.get(affix.getFightProp()))
+                            : affix.getWeight();
+            relicAffixWeight.put(affix.getId(), weight);
+        }
     }
 
-    /** How many values the affix's stat can roll. See {@link #getRelicAffixValueTier}. */
-    public static int getRelicAffixValueTierCount(ReliquaryAffixData affix) {
-        return relicAffixValueTierCount.get(affix.getId());
-    }
-
-    private static void rankAffixValues(List<ReliquaryAffixData> depot) {
-        depot.stream()
-                .collect(Collectors.groupingBy(ReliquaryAffixData::getFightProp))
-                .values()
-                .forEach(
-                        rolls -> {
-                            rolls.sort(Comparator.comparingDouble(ReliquaryAffixData::getPropValue));
-                            for (int i = 0; i < rolls.size(); i++) {
-                                relicAffixValueTier.put(rolls.get(i).getId(), i);
-                                relicAffixValueTierCount.put(rolls.get(i).getId(), rolls.size());
-                            }
-                        });
+    public static int getRelicAffixWeight(ReliquaryAffixData affix) {
+        return relicAffixWeight.getOrDefault(affix.getId(), affix.getWeight());
     }
 
     public static void addSpawnListById(
