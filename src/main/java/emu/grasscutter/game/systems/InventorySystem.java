@@ -13,6 +13,7 @@ import emu.grasscutter.game.props.*;
 import emu.grasscutter.game.props.ItemUseAction.*;
 import emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam;
 import emu.grasscutter.net.proto.MaterialInfoOuterClass.MaterialInfo;
+import emu.grasscutter.net.proto.RetcodeOuterClass.Retcode;
 import emu.grasscutter.server.event.player.*;
 import emu.grasscutter.server.game.*;
 import emu.grasscutter.server.packet.send.*;
@@ -625,6 +626,39 @@ public class InventorySystem extends BaseGameSystem {
         // TODO Send entity prop update packet to world
         avatar.recalcStats(true);
         avatar.save();
+    }
+
+    public void upgradeAvatarExtraLevel(Player player, long guid) {
+        Avatar avatar = player.getAvatars().getAvatarByGuid(guid);
+        if (avatar == null) {
+            player.sendPacket(new PacketAvatarExtraLevelUpgradeRsp(guid, Retcode.RET_FAIL));
+            return;
+        }
+
+        int oldLevel = avatar.getLevel();
+        AvatarExtraLevelData extraLevel = GameData.getAvatarExtraLevelDataMap().get(oldLevel);
+        if (extraLevel == null || extraLevel.getMaxLevel() <= oldLevel) {
+            player.sendPacket(
+                    new PacketAvatarExtraLevelUpgradeRsp(guid, Retcode.RET_AVATAR_LIMIT_LEVEL_ERROR));
+            return;
+        }
+
+        if (!player.getInventory().payItems(extraLevel.getCostItems())) {
+            player.sendPacket(
+                    new PacketAvatarExtraLevelUpgradeRsp(guid, Retcode.RET_ITEM_COUNT_NOT_ENOUGH));
+            return;
+        }
+
+        avatar.setLevel(extraLevel.getMaxLevel());
+        avatar.setExp(0);
+        avatar.recalcStats(true);
+        avatar.save();
+
+        player.sendPacket(new PacketAvatarPropNotify(avatar));
+        player.sendPacket(new PacketAvatarExtraLevelNotify(avatar));
+        player.sendPacket(new PacketAvatarExtraLevelUpgradeRsp(avatar, oldLevel));
+
+        new PlayerLevelAvatarEvent(player, oldLevel, avatar).call();
     }
 
     // Old upgrade UI

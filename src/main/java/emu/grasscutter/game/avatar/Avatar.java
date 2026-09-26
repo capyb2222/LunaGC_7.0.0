@@ -1040,6 +1040,15 @@ public class Avatar {
         DatabaseHelper.saveAvatar(this);
     }
 
+    public int getExtraLevel() {
+        int level = this.getLevel();
+        var extraLevels = GameData.getAvatarExtraLevelDataMap();
+        boolean onExtraStep =
+                extraLevels.containsKey(level)
+                        || extraLevels.values().stream().anyMatch(data -> data.getMaxLevel() == level);
+        return onExtraStep ? level : 0;
+    }
+
     public AvatarInfo toProto() {
         int fetterLevel = this.getFetterLevel();
         AvatarFetterInfo.Builder avatarFetter = AvatarFetterInfo.newBuilder().setExpLevel(fetterLevel);
@@ -1080,7 +1089,8 @@ public class Avatar {
                         .setFetterInfo(avatarFetter)
                         .setWearingFlycloakId(this.getFlyCloak())
                         .setCostumeId(this.getCostume())
-                        .setTraceEffectId(this.getTraceEffect());
+                        .setTraceEffectId(this.getTraceEffect())
+                        .setExtraLevel(this.getExtraLevel());
 
         this.getSkillExtraChargeMap()
                 .forEach(

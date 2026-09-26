@@ -521,6 +521,10 @@ public final class GameData {
 
     private static final Int2ObjectMap<AvatarPromoteData> avatarPromoteDataMap =
             new Int2ObjectOpenHashMap<>();
+
+    @Getter
+    private static final Int2ObjectMap<AvatarExtraLevelData> avatarExtraLevelDataMap =
+            new Int2ObjectOpenHashMap<>();
     private static final Int2ObjectMap<FetterData> fetterDataMap = new Int2ObjectOpenHashMap<>();
     private static final Int2ObjectMap<ReliquaryLevelData> reliquaryLevelDataMap =
             new Int2ObjectOpenHashMap<>();

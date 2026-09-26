@@ -257,6 +257,14 @@ public class GachaSystem extends BaseGameSystem {
         };
     }
 
+    private static int ascensionLimitItemId() {
+        return GameData.getAvatarExtraLevelDataMap().values().stream()
+                .flatMap(data -> Arrays.stream(data.getCostItems()))
+                .mapToInt(ItemParamData::getId)
+                .findFirst()
+                .orElse(0);
+    }
+
     public synchronized void doPulls(Player player, int scheduleId, int times) {
         // Sanity check
         if (times != 10 && times != 1) {
@@ -319,7 +327,8 @@ public class GachaSystem extends BaseGameSystem {
         gachaInfo.addTotalPulls(times);
         BannerPools pools = new BannerPools(banner);
         List<GachaItem> list = new ArrayList<>();
-        int stardust = 0, starglitter = 0;
+        int stardust = 0, starglitter = 0, masterlessStella = 0;
+        int masterlessStellaId = ascensionLimitItemId();
 
         if (banner.isRemoveC6FromPool()) { // The ultimate form of pity (non-vanilla)
             pools.rateUpItems4 = removeC6FromPool(pools.rateUpItems4, player);
@@ -374,6 +383,15 @@ public class GachaSystem extends BaseGameSystem {
                 default:
                     if (constellation >= 6) { // C6, give consolation starglitter
                         addStarglitter = (itemData.getRankLevel() == 5) ? 25 : 5;
+                        if (itemData.getRankLevel() == 5 && masterlessStellaId > 0) {
+                            masterlessStella++;
+                            gachaItem.addTransferItems(
+                                    GachaTransferItem.newBuilder()
+                                            .setItem(ItemParam.newBuilder().setItemId(masterlessStellaId).setCount(1))
+                                            .setIsTransferItemNew(
+                                                    inventory.getInventoryTab(ItemType.ITEM_MATERIAL).getItemById(masterlessStellaId)
+                                                            == null));
+                        }
                     } else { // C0-C5, give constellation item
                         if (banner.isRemoveC6FromPool()
                                 && constellation
@@ -444,6 +462,9 @@ public class GachaSystem extends BaseGameSystem {
         }
         if (starglitter > 0) {
             inventory.addItem(starglitterId, starglitter);
+        }
+        if (masterlessStella > 0) {
+            inventory.addItem(masterlessStellaId, masterlessStella);
         }
 
         // Packets
