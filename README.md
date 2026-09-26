@@ -82,31 +82,13 @@ Contribute if you want/can...
 
 ## Artifact shop
 
-Every official 5-star artifact piece - 290 of them, the five slots of all 62 released sets - is on
-sale in the general goods store (Blanche's *Second Life*, next to the fountain in Mondstadt).
+You can buy artifacts (lvl 20) in Blanche's shop in Mondstadt. If you need Mora, you can use this command:
 
-Each purchase rolls the piece fresh rather than handing over a fixed copy, the way an artifact
-domain does: the main stat is drawn from the slot's real pool and the substats from the game's own
-affix table, so every number printed on the piece is one the game would print. It arrives at +20
-with nine substat rolls on it, and the odds are weighted towards CRIT Rate, CRIT DMG, ATK%,
-Elemental Mastery and the DMG bonuses, and towards the top end of each roll. Buying several at once
-gives you that many separately rolled pieces.
+```
+/give 202 x10000000
+```
 
-Tune it under `server.game.gameOptions.artifactShop` in `config.json`:
-
-| Option | Default | What it does |
-| --- | --- | --- |
-| `enabled` | `true` | Turns the listing off entirely. |
-| `shopId` | `1004` | Which shop carries it. `1001` is Paimon's Bargains, straight off the shop menu. |
-| `costMora` / `costPrimogems` | `20000` / `0` | Price per piece. |
-| `costItemId` / `costItemCount` | `0` / `0` | An item to charge on top of the currencies. |
-| `buyLimit` | `0` | Purchases per piece per player. `0` is unlimited. |
-| `artifactLevel` | `20` | The upgrade level pieces arrive at, `0`-`20`. |
-| `critWeight` | `8` | Weight multiplier for CRIT Rate and CRIT DMG. `1` rolls them as the game does. |
-| `damageWeight` | `3` | Weight multiplier for ATK%, Elemental Mastery and the DMG bonuses. |
-| `highRollBias` | `3` | How hard each stat leans towards the best of its four values. `0` rolls evenly. |
-
-Setting the last three to `1`, `1` and `0` gives you plain, unweighted domain rolls.
+The odds are now close to the official server, so the stats should be more accurate now.
 
 ## Troubleshooting
 
@@ -123,3 +105,7 @@ kitkat's [patch](https://github.com/capyb2222/animegamepatch)
 kitkat's [proto](https://gitlab.com/kitkat-multiverse/genshin-protocol)
 
 Terax for nt
+
+# Note
+
+If you use code from this project, please credit [capyb2222](https://github.com/capyb2222) somewhere in your project.

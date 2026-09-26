@@ -1219,8 +1219,12 @@ public class Scene {
         var owner = gadget.getOwner();
         owner.getTeamManager().getGadgets().remove(gadget);
 
-        this.broadcastPacket(
-                new PacketSceneEntityDisappearNotify(gadget, VisionType.VisionType_VISION_DIE));
+        for (var player : this.getPlayers()) {
+            if (player != owner) {
+                player.getSession()
+                        .send(new PacketSceneEntityDisappearNotify(gadget, VisionType.VisionType_VISION_DIE));
+            }
+        }
     }
 
     public void broadcastPacket(BasePacket packet) {
