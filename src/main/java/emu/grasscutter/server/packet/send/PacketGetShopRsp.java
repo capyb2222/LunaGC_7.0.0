@@ -12,14 +12,20 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class PacketGetShopRsp extends BasePacket {
+    private static void addCurrencyCost(ShopGoods.Builder goods, int itemId, int count) {
+        if (count <= 0) return;
+        goods.addCostItemList(
+                ItemParamOuterClass.ItemParam.newBuilder().setItemId(itemId).setCount(count).build());
+    }
+
     public PacketGetShopRsp(Player player, int shopType) {
         super(PacketOpcodes.GetShopRsp);
 
         Shop.Builder shop =
                 Shop.newBuilder()
                         .setShopType(shopType)
-                        .setCityId(1) // mock
-                        .setCityReputationLevel(10); // mock
+                        .setCityId(1)
+                        .setCityReputationLevel(10);
 
         ShopSystem manager = Grasscutter.getGameServer().getShopSystem();
         if (manager.getShopData().get(shopType) != null) {
@@ -54,7 +60,9 @@ public class PacketGetShopRsp extends BasePacket {
                                     .collect(Collectors.toList()));
                 }
 
-                // pre_goods_id_list is unnamed in the 7.0 ShopGoods, so it is not sent.
+                addCurrencyCost(goods, 202, info.getScoin());
+                addCurrencyCost(goods, 201, info.getHcoin());
+                addCurrencyCost(goods, 203, info.getMcoin());
 
                 int currentTs = Utils.getCurrentSeconds();
                 ShopLimit currentShopLimit = player.getGoodsLimit(info.getGoodsId());
