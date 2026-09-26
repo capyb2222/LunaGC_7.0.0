@@ -3,6 +3,7 @@ package emu.grasscutter.game.ability.actions;
 import com.google.protobuf.*;
 import emu.grasscutter.*;
 import emu.grasscutter.data.GameData;
+import emu.grasscutter.data.common.DynamicFloat;
 import emu.grasscutter.data.binout.AbilityModifier.AbilityModifierAction;
 import emu.grasscutter.data.binout.AbilityModifier.AbilityModifierAction.DropType;
 import emu.grasscutter.data.binout.config.ConfigLevelEntity;
@@ -43,7 +44,7 @@ public final class ActionGenerateElemBall extends AbilityActionHandler {
             }
         } // Else the drop is forced
 
-        var energy = action.baseEnergy.get(ability) * action.ratio.get(ability);
+        var energy = action.baseEnergy.get(ability) * ratioOf(ability, action.ratio);
         if (energy <= 0.0) return true;
 
         var itemData = GameData.getItemDataMap().get(action.configID);
@@ -96,5 +97,17 @@ public final class ActionGenerateElemBall extends AbilityActionHandler {
         }
 
         return true;
+    }
+
+    private static float ratioOf(Ability ability, DynamicFloat ratio) {
+        if (ratio.isDynamic() && ratio.getOps().size() == 1) {
+            var name = ratio.getOps().get(0).sValue;
+            if (name != null
+                    && name.endsWith("GetElementRatio")
+                    && !ability.getAbilitySpecials().containsKey(name)) {
+                return 1f;
+            }
+        }
+        return ratio.get(ability);
     }
 }

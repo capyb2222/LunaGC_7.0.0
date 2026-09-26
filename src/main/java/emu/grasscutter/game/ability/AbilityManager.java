@@ -469,6 +469,11 @@ public final class AbilityManager extends BasePlayerManager {
             ability = entity.getInstancedAbilities().get(head.getInstancedAbilityId() - 1);
         }
 
+        if (ability == null
+            && invoke.getArgumentType() == AbilityInvokeArgument.AbilityInvokeArgument_ABILITY_ACTION_GENERATE_ELEM_BALL) {
+            ability = this.findOwnerElemBallAbility(entity, head.getLocalId());
+        }
+
         if (ability == null) {
             Grasscutter.getLogger().trace(
                 "[InvokeMiss] ability not found: entity={} abilId={} modId={} listSize={}",
@@ -511,6 +516,29 @@ public final class AbilityManager extends BasePlayerManager {
             ability.getData().abilityName,
             ability.getData().localIdToAction.keySet(),
             ability.getData().localIdToMixin.keySet());
+    }
+
+    private Ability findOwnerElemBallAbility(GameEntity entity, int localId) {
+        GameEntity owner = entity;
+        for (int hops = 0; hops < 8 && owner instanceof EntityClientGadget gadget; hops++) {
+            owner = this.player.getScene().getEntityById(gadget.getOwnerEntityId());
+        }
+        if (!(owner instanceof EntityAvatar avatar)) return null;
+
+        var icon = avatar.getAvatar().getAvatarData().getIconName();
+        if (icon == null || icon.isEmpty()) return null;
+        var prefix = "Avatar_" + icon.substring(icon.lastIndexOf('_') + 1) + "_";
+
+        var matches =
+            GameData.getAbilityDataMap().values().stream()
+                .filter(data -> data.abilityName != null && data.abilityName.startsWith(prefix))
+                .filter(
+                    data -> {
+                        var action = data.localIdToAction.get(localId);
+                        return action != null && action.type == AbilityModifierAction.Type.GenerateElemBall;
+                    })
+                .toList();
+        return matches.size() == 1 ? new Ability(matches.get(0), avatar, this.player) : null;
     }
 
     public void onSkillStart(Player player, int skillId, int casterId) {
@@ -944,6 +972,7 @@ public final class AbilityManager extends BasePlayerManager {
 
     private void handleGenerateElemBall(AbilityInvokeEntry invoke)
         throws InvalidProtocolBufferException {
+        this.player.getEnergyManager().handleGenerateElemBall(invoke);
     }
 
     private void handleGlobalFloatValue(AbilityInvokeEntry invoke)
