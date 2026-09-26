@@ -19,7 +19,7 @@ public final class DoGachaRspOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 ten_cost_item_num = 50000;</code>
+     * <code>uint32 ten_cost_item_num = 10;</code>
      * @return The tenCostItemNum.
      */
     int getTenCostItemNum();
@@ -49,7 +49,7 @@ public final class DoGachaRspOuterClass {
     int getRetcode();
 
     /**
-     * <code>uint32 cost_item_id = 50003;</code>
+     * <code>uint32 cost_item_id = 14;</code>
      * @return The costItemId.
      */
     int getCostItemId();
@@ -73,7 +73,7 @@ public final class DoGachaRspOuterClass {
     int getWishProgress();
 
     /**
-     * <code>uint32 cost_item_num = 50005;</code>
+     * <code>uint32 cost_item_num = 7;</code>
      * @return The costItemNum.
      */
     int getCostItemNum();
@@ -223,6 +223,16 @@ public final class DoGachaRspOuterClass {
               gachaScheduleId_ = input.readUInt32();
               break;
             }
+            case 56: {
+
+              costItemNum_ = input.readUInt32();
+              break;
+            }
+            case 80: {
+
+              tenCostItemNum_ = input.readUInt32();
+              break;
+            }
             case 88: {
 
               gachaTimes_ = input.readUInt32();
@@ -237,14 +247,14 @@ public final class DoGachaRspOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.GachaItemOuterClass.GachaItem.parser(), extensionRegistry));
               break;
             }
+            case 112: {
+
+              costItemId_ = input.readUInt32();
+              break;
+            }
             case 11712: {
 
               dailyGachaTimes_ = input.readUInt32();
-              break;
-            }
-            case 400000: {
-
-              tenCostItemNum_ = input.readUInt32();
               break;
             }
             case 400008: {
@@ -257,19 +267,9 @@ public final class DoGachaRspOuterClass {
               gachaTimesLimit_ = input.readUInt32();
               break;
             }
-            case 400024: {
-
-              costItemId_ = input.readUInt32();
-              break;
-            }
             case 400032: {
 
               wishProgress_ = input.readUInt32();
-              break;
-            }
-            case 400040: {
-
-              costItemNum_ = input.readUInt32();
               break;
             }
             case 400048: {
@@ -342,10 +342,10 @@ public final class DoGachaRspOuterClass {
               emu.grasscutter.net.proto.DoGachaRspOuterClass.DoGachaRsp.class, emu.grasscutter.net.proto.DoGachaRspOuterClass.DoGachaRsp.Builder.class);
     }
 
-    public static final int TEN_COST_ITEM_NUM_FIELD_NUMBER = 50000;
+    public static final int TEN_COST_ITEM_NUM_FIELD_NUMBER = 10;
     private int tenCostItemNum_;
     /**
-     * <code>uint32 ten_cost_item_num = 50000;</code>
+     * <code>uint32 ten_cost_item_num = 10;</code>
      * @return The tenCostItemNum.
      */
     @java.lang.Override
@@ -397,10 +397,10 @@ public final class DoGachaRspOuterClass {
       return retcode_;
     }
 
-    public static final int COST_ITEM_ID_FIELD_NUMBER = 50003;
+    public static final int COST_ITEM_ID_FIELD_NUMBER = 14;
     private int costItemId_;
     /**
-     * <code>uint32 cost_item_id = 50003;</code>
+     * <code>uint32 cost_item_id = 14;</code>
      * @return The costItemId.
      */
     @java.lang.Override
@@ -441,10 +441,10 @@ public final class DoGachaRspOuterClass {
       return wishProgress_;
     }
 
-    public static final int COST_ITEM_NUM_FIELD_NUMBER = 50005;
+    public static final int COST_ITEM_NUM_FIELD_NUMBER = 7;
     private int costItemNum_;
     /**
-     * <code>uint32 cost_item_num = 50005;</code>
+     * <code>uint32 cost_item_num = 7;</code>
      * @return The costItemNum.
      */
     @java.lang.Override
@@ -617,17 +617,23 @@ public final class DoGachaRspOuterClass {
       if (gachaScheduleId_ != 0) {
         output.writeUInt32(6, gachaScheduleId_);
       }
+      if (costItemNum_ != 0) {
+        output.writeUInt32(7, costItemNum_);
+      }
+      if (tenCostItemNum_ != 0) {
+        output.writeUInt32(10, tenCostItemNum_);
+      }
       if (gachaTimes_ != 0) {
         output.writeUInt32(11, gachaTimes_);
       }
       for (int i = 0; i < gachaItemList_.size(); i++) {
         output.writeMessage(13, gachaItemList_.get(i));
       }
+      if (costItemId_ != 0) {
+        output.writeUInt32(14, costItemId_);
+      }
       if (dailyGachaTimes_ != 0) {
         output.writeUInt32(1464, dailyGachaTimes_);
-      }
-      if (tenCostItemNum_ != 0) {
-        output.writeUInt32(50000, tenCostItemNum_);
       }
       if (leftGachaTimes_ != 0) {
         output.writeUInt32(50001, leftGachaTimes_);
@@ -635,14 +641,8 @@ public final class DoGachaRspOuterClass {
       if (gachaTimesLimit_ != 0) {
         output.writeUInt32(50002, gachaTimesLimit_);
       }
-      if (costItemId_ != 0) {
-        output.writeUInt32(50003, costItemId_);
-      }
       if (wishProgress_ != 0) {
         output.writeUInt32(50004, wishProgress_);
-      }
-      if (costItemNum_ != 0) {
-        output.writeUInt32(50005, costItemNum_);
       }
       if (tenCostItemId_ != 0) {
         output.writeUInt32(50006, tenCostItemId_);
@@ -690,6 +690,14 @@ public final class DoGachaRspOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(6, gachaScheduleId_);
       }
+      if (costItemNum_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(7, costItemNum_);
+      }
+      if (tenCostItemNum_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(10, tenCostItemNum_);
+      }
       if (gachaTimes_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(11, gachaTimes_);
@@ -698,13 +706,13 @@ public final class DoGachaRspOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(13, gachaItemList_.get(i));
       }
+      if (costItemId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(14, costItemId_);
+      }
       if (dailyGachaTimes_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(1464, dailyGachaTimes_);
-      }
-      if (tenCostItemNum_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(50000, tenCostItemNum_);
       }
       if (leftGachaTimes_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -714,17 +722,9 @@ public final class DoGachaRspOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(50002, gachaTimesLimit_);
       }
-      if (costItemId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(50003, costItemId_);
-      }
       if (wishProgress_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(50004, wishProgress_);
-      }
-      if (costItemNum_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(50005, costItemNum_);
       }
       if (tenCostItemId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -1261,7 +1261,7 @@ public final class DoGachaRspOuterClass {
 
       private int tenCostItemNum_ ;
       /**
-       * <code>uint32 ten_cost_item_num = 50000;</code>
+       * <code>uint32 ten_cost_item_num = 10;</code>
        * @return The tenCostItemNum.
        */
       @java.lang.Override
@@ -1269,7 +1269,7 @@ public final class DoGachaRspOuterClass {
         return tenCostItemNum_;
       }
       /**
-       * <code>uint32 ten_cost_item_num = 50000;</code>
+       * <code>uint32 ten_cost_item_num = 10;</code>
        * @param value The tenCostItemNum to set.
        * @return This builder for chaining.
        */
@@ -1280,7 +1280,7 @@ public final class DoGachaRspOuterClass {
         return this;
       }
       /**
-       * <code>uint32 ten_cost_item_num = 50000;</code>
+       * <code>uint32 ten_cost_item_num = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearTenCostItemNum() {
@@ -1416,7 +1416,7 @@ public final class DoGachaRspOuterClass {
 
       private int costItemId_ ;
       /**
-       * <code>uint32 cost_item_id = 50003;</code>
+       * <code>uint32 cost_item_id = 14;</code>
        * @return The costItemId.
        */
       @java.lang.Override
@@ -1424,7 +1424,7 @@ public final class DoGachaRspOuterClass {
         return costItemId_;
       }
       /**
-       * <code>uint32 cost_item_id = 50003;</code>
+       * <code>uint32 cost_item_id = 14;</code>
        * @param value The costItemId to set.
        * @return This builder for chaining.
        */
@@ -1435,7 +1435,7 @@ public final class DoGachaRspOuterClass {
         return this;
       }
       /**
-       * <code>uint32 cost_item_id = 50003;</code>
+       * <code>uint32 cost_item_id = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearCostItemId() {
@@ -1540,7 +1540,7 @@ public final class DoGachaRspOuterClass {
 
       private int costItemNum_ ;
       /**
-       * <code>uint32 cost_item_num = 50005;</code>
+       * <code>uint32 cost_item_num = 7;</code>
        * @return The costItemNum.
        */
       @java.lang.Override
@@ -1548,7 +1548,7 @@ public final class DoGachaRspOuterClass {
         return costItemNum_;
       }
       /**
-       * <code>uint32 cost_item_num = 50005;</code>
+       * <code>uint32 cost_item_num = 7;</code>
        * @param value The costItemNum to set.
        * @return This builder for chaining.
        */
@@ -1559,7 +1559,7 @@ public final class DoGachaRspOuterClass {
         return this;
       }
       /**
-       * <code>uint32 cost_item_num = 50005;</code>
+       * <code>uint32 cost_item_num = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearCostItemNum() {
@@ -2154,23 +2154,23 @@ public final class DoGachaRspOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\020DoGachaRsp.proto\032\017GachaItem.proto\"\271\004\n\n" +
-      "DoGachaRsp\022\033\n\021ten_cost_item_num\030\320\206\003 \001(\r\022" +
-      "\032\n\020left_gacha_times\030\321\206\003 \001(\r\022\023\n\013gacha_tim" +
-      "es\030\013 \001(\r\022\033\n\021gacha_times_limit\030\322\206\003 \001(\r\022\017\n" +
-      "\007retcode\030\004 \001(\005\022\026\n\014cost_item_id\030\323\206\003 \001(\r\022\022" +
-      "\n\ngacha_type\030\001 \001(\r\022\031\n\021gacha_schedule_id\030" +
-      "\006 \001(\r\022\027\n\rwish_progress\030\324\206\003 \001(\r\022\027\n\rcost_i" +
-      "tem_num\030\325\206\003 \001(\r\022\032\n\020ten_cost_item_id\030\326\206\003 " +
-      "\001(\r\022\026\n\014wish_item_id\030\327\206\003 \001(\r\022#\n\017gacha_ite" +
-      "m_list\030\r \003(\0132\n.GachaItem\022\033\n\021wish_max_pro" +
-      "gress\030\330\206\003 \001(\r\022\030\n\020new_gacha_random\030\002 \001(\r\022" +
-      "(\n\036cur_schedule_daily_gacha_times\030\331\206\003 \001(" +
-      "\r\022\"\n\030is_under_minors_restrict\030\332\206\003 \001(\010\022#\n" +
-      "\031is_under_general_restrict\030\333\206\003 \001(\010\022\027\n\ris" +
-      "_epitomized\030\334\206\003 \001(\010\022\032\n\021daily_gacha_times" +
-      "\030\270\013 \001(\rB1\n\031emu.grasscutter.net.protoB\024Do" +
-      "GachaRspOuterClassb\006proto3"
+      "\n\020DoGachaRsp.proto\032\017GachaItem.proto\"\263\004\n\n" +
+      "DoGachaRsp\022\031\n\021ten_cost_item_num\030\n \001(\r\022\032\n" +
+      "\020left_gacha_times\030\321\206\003 \001(\r\022\023\n\013gacha_times" +
+      "\030\013 \001(\r\022\033\n\021gacha_times_limit\030\322\206\003 \001(\r\022\017\n\007r" +
+      "etcode\030\004 \001(\005\022\024\n\014cost_item_id\030\016 \001(\r\022\022\n\nga" +
+      "cha_type\030\001 \001(\r\022\031\n\021gacha_schedule_id\030\006 \001(" +
+      "\r\022\027\n\rwish_progress\030\324\206\003 \001(\r\022\025\n\rcost_item_" +
+      "num\030\007 \001(\r\022\032\n\020ten_cost_item_id\030\326\206\003 \001(\r\022\026\n" +
+      "\014wish_item_id\030\327\206\003 \001(\r\022#\n\017gacha_item_list" +
+      "\030\r \003(\0132\n.GachaItem\022\033\n\021wish_max_progress\030" +
+      "\330\206\003 \001(\r\022\030\n\020new_gacha_random\030\002 \001(\r\022(\n\036cur" +
+      "_schedule_daily_gacha_times\030\331\206\003 \001(\r\022\"\n\030i" +
+      "s_under_minors_restrict\030\332\206\003 \001(\010\022#\n\031is_un" +
+      "der_general_restrict\030\333\206\003 \001(\010\022\027\n\ris_epito" +
+      "mized\030\334\206\003 \001(\010\022\032\n\021daily_gacha_times\030\270\013 \001(" +
+      "\rB1\n\031emu.grasscutter.net.protoB\024DoGachaR" +
+      "spOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -173,7 +173,7 @@ public final class PacketOpcodes {
     public static final int AddNoGachaAvatarCardNotify = 26637;
     public static final int GachaWishReq = 1703;
     public static final int GachaWishRsp = 7862;
-    public static final int GetGachaInfoReq = -28; // no 7.1 entry
+    public static final int GetGachaInfoReq = 26788;
     public static final int GetGachaInfoRsp = 29811;
     public static final int DoGachaReq = 26017;
     public static final int DoGachaRsp = 21670;
