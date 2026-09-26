@@ -19,9 +19,7 @@ message AttackResult {
 	bool EPLABAAGCKE = 50002;
 	HitCollision hit_collision = 4;
 	int32 hit_retreat_angle_compat = 14;
-	// Field 14 was named defense_id by the de-obfuscation pass, but it carries 1 and -1 on the wire
-	// while this one carries the entity the hit resolves against
-	uint32 defense_id = 50003;
+	uint32 defense_id = 10;
 	AbilityIdentifier ability_identifier = 7;
 	AttackHitEffectResult hit_eff_result = 50004;
 	float damage = 2;

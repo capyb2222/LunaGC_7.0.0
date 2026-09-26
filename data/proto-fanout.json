@@ -82,34 +82,5 @@
     "quest_list": 15
    }
   }
- ],
- "SceneEntityAppearNotify": [
-  {
-   "cmdId": 27685,
-   "symbol": "KIIKIELOHOG",
-   "fields": {
-    "entity_list": 8,
-    "param": 3,
-    "appear_type": 10
-   }
-  },
-  {
-   "cmdId": 28129,
-   "symbol": "POLMCKBNLDF",
-   "fields": {
-    "entity_list": 14,
-    "param": 7,
-    "appear_type": 13
-   }
-  },
-  {
-   "cmdId": 29756,
-   "symbol": "IDOJBDCIAAE",
-   "fields": {
-    "entity_list": 15,
-    "param": 7,
-    "appear_type": 5
-   }
-  }
  ]
 }

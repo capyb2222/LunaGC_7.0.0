@@ -7,6 +7,7 @@ import ch.qos.logback.classic.*;
 import emu.grasscutter.auth.*;
 import emu.grasscutter.command.*;
 import emu.grasscutter.config.ConfigContainer;
+import emu.grasscutter.data.NameIndex;
 import emu.grasscutter.data.ResourceLoader;
 import emu.grasscutter.database.*;
 import emu.grasscutter.plugin.PluginManager;
@@ -159,6 +160,7 @@ public final class Grasscutter {
             // The game server, and with it the shop system, is built before the resources are, so
             // the shops that come out of the game data are listed now.
             if (gameServer != null) gameServer.getShopSystem().loadArtifactShop();
+            NameIndex.warmUpInBackground();
 
             // Generate handbooks.
             Tools.createGmHandbooks(false);

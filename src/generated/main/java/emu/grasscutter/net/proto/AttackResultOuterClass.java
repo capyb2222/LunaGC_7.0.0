@@ -79,12 +79,7 @@ public final class AttackResultOuterClass {
     int getHitRetreatAngleCompat();
 
     /**
-     * <pre>
-     * Field 14 was named defense_id by the de-obfuscation pass, but it carries 1 and -1 on the wire
-     * while this one carries the entity the hit resolves against
-     * </pre>
-     *
-     * <code>uint32 defense_id = 50003;</code>
+     * <code>uint32 defense_id = 10;</code>
      * @return The defenseId.
      */
     int getDefenseId();
@@ -447,6 +442,11 @@ public final class AttackResultOuterClass {
               attackerId_ = input.readUInt32();
               break;
             }
+            case 80: {
+
+              defenseId_ = input.readUInt32();
+              break;
+            }
             case 96: {
 
               aFPBFDHCDNK_ = input.readInt32();
@@ -558,11 +558,6 @@ public final class AttackResultOuterClass {
             case 400016: {
 
               ePLABAAGCKE_ = input.readBool();
-              break;
-            }
-            case 400024: {
-
-              defenseId_ = input.readUInt32();
               break;
             }
             case 400034: {
@@ -823,15 +818,10 @@ public final class AttackResultOuterClass {
       return hitRetreatAngleCompat_;
     }
 
-    public static final int DEFENSE_ID_FIELD_NUMBER = 50003;
+    public static final int DEFENSE_ID_FIELD_NUMBER = 10;
     private int defenseId_;
     /**
-     * <pre>
-     * Field 14 was named defense_id by the de-obfuscation pass, but it carries 1 and -1 on the wire
-     * while this one carries the entity the hit resolves against
-     * </pre>
-     *
-     * <code>uint32 defense_id = 50003;</code>
+     * <code>uint32 defense_id = 10;</code>
      * @return The defenseId.
      */
     @java.lang.Override
@@ -1358,6 +1348,9 @@ public final class AttackResultOuterClass {
       if (attackerId_ != 0) {
         output.writeUInt32(9, attackerId_);
       }
+      if (defenseId_ != 0) {
+        output.writeUInt32(10, defenseId_);
+      }
       if (aFPBFDHCDNK_ != 0) {
         output.writeInt32(12, aFPBFDHCDNK_);
       }
@@ -1400,9 +1393,6 @@ public final class AttackResultOuterClass {
       }
       if (ePLABAAGCKE_ != false) {
         output.writeBool(50002, ePLABAAGCKE_);
-      }
-      if (defenseId_ != 0) {
-        output.writeUInt32(50003, defenseId_);
       }
       if (hitEffResult_ != null) {
         output.writeMessage(50004, getHitEffResult());
@@ -1496,6 +1486,10 @@ public final class AttackResultOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(9, attackerId_);
       }
+      if (defenseId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(10, defenseId_);
+      }
       if (aFPBFDHCDNK_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt32Size(12, aFPBFDHCDNK_);
@@ -1557,10 +1551,6 @@ public final class AttackResultOuterClass {
       if (ePLABAAGCKE_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(50002, ePLABAAGCKE_);
-      }
-      if (defenseId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(50003, defenseId_);
       }
       if (hitEffResult_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -2836,12 +2826,7 @@ public final class AttackResultOuterClass {
 
       private int defenseId_ ;
       /**
-       * <pre>
-       * Field 14 was named defense_id by the de-obfuscation pass, but it carries 1 and -1 on the wire
-       * while this one carries the entity the hit resolves against
-       * </pre>
-       *
-       * <code>uint32 defense_id = 50003;</code>
+       * <code>uint32 defense_id = 10;</code>
        * @return The defenseId.
        */
       @java.lang.Override
@@ -2849,12 +2834,7 @@ public final class AttackResultOuterClass {
         return defenseId_;
       }
       /**
-       * <pre>
-       * Field 14 was named defense_id by the de-obfuscation pass, but it carries 1 and -1 on the wire
-       * while this one carries the entity the hit resolves against
-       * </pre>
-       *
-       * <code>uint32 defense_id = 50003;</code>
+       * <code>uint32 defense_id = 10;</code>
        * @param value The defenseId to set.
        * @return This builder for chaining.
        */
@@ -2865,12 +2845,7 @@ public final class AttackResultOuterClass {
         return this;
       }
       /**
-       * <pre>
-       * Field 14 was named defense_id by the de-obfuscation pass, but it carries 1 and -1 on the wire
-       * while this one carries the entity the hit resolves against
-       * </pre>
-       *
-       * <code>uint32 defense_id = 50003;</code>
+       * <code>uint32 defense_id = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearDefenseId() {
@@ -4563,34 +4538,34 @@ public final class AttackResultOuterClass {
       "proto\032\033AttackHitEffectResult.proto\032\021CIHE" +
       "NMDCMGJ.proto\032\021HIMBAGFLEHM.proto\032\022HitCol" +
       "lision.proto\032\021IFMIEJICEMA.proto\032\014Vector." +
-      "proto\"\233\010\n\014AttackResult\022\036\n\013NKCMIFFBMEN\030\320\206" +
+      "proto\"\231\010\n\014AttackResult\022\036\n\013NKCMIFFBMEN\030\320\206" +
       "\003 \001(\0132\007.Vector\022\023\n\013attacker_id\030\t \001(\r\022\025\n\013L" +
       "NFCPOINHKK\030\321\206\003 \001(\r\022\024\n\014element_type\030\001 \001(\r" +
       "\022\025\n\013EPLABAAGCKE\030\322\206\003 \001(\010\022$\n\rhit_collision" +
       "\030\004 \001(\0132\r.HitCollision\022 \n\030hit_retreat_ang" +
-      "le_compat\030\016 \001(\005\022\024\n\ndefense_id\030\323\206\003 \001(\r\022.\n" +
-      "\022ability_identifier\030\007 \001(\0132\022.AbilityIdent" +
-      "ifier\0220\n\016hit_eff_result\030\324\206\003 \001(\0132\026.Attack" +
-      "HitEffectResult\022\016\n\006damage\030\002 \001(\002\022\023\n\013AFPBF" +
-      "DHCDNK\030\014 \001(\005\022\025\n\ranim_event_id\030\005 \001(\t\022\024\n\013E" +
-      "KDNPKHMJIE\030\357\004 \001(\r\022\025\n\013OOFNGENKHKG\030\325\206\003 \001(\002" +
-      "\022\024\n\013OHPEIAGBOIK\030\241\n \003(\r\022\025\n\013GGAMPLOEPMG\030\326\206" +
-      "\003 \001(\010\022\024\n\013MDECMKGHDAK\030\360\003 \001(\002\022\"\n\013EFBFOAOJA" +
-      "DK\030\237\014 \001(\0132\014.CIHENMDCMGJ\022\024\n\013BNBBLJCDMPJ\030\267" +
-      "\017 \001(\r\022\025\n\013MDBPICGKMLB\030\327\206\003 \001(\002\022\025\n\013JCPDJCGG" +
-      "JCC\030\330\206\003 \001(\r\022\025\n\013FDEGAMMGNGI\030\331\206\003 \001(\r\022\025\n\013MH" +
-      "JDKCODNAA\030\332\206\003 \001(\r\022\025\n\013GMNALDFDANK\030\333\206\003 \001(\r" +
-      "\022\025\n\013NILAPFIGLLH\030\334\206\003 \001(\002\022\025\n\013PKOFLCBFEOA\030\335" +
-      "\206\003 \001(\010\022\025\n\013IFHJIFEBKAO\030\336\206\003 \001(\r\022\025\n\013CFKHDFP" +
-      "CHCL\030\337\206\003 \001(\r\022\025\n\013PLNPCMILPPD\030\340\206\003 \001(\r\022\025\n\013N" +
-      "JFMEBDIICN\030\341\206\003 \001(\002\022\"\n\013PGPBACPJGNM\030\251\003 \001(\013" +
-      "2\014.HIMBAGFLEHM\022\024\n\013JILIGGDCLDH\030\354\005 \001(\r\022\"\n\013" +
-      "EEDDIJJOCFM\030\357\r \001(\0132\014.IFMIEJICEMA\022\025\n\013DMIE" +
-      "AHDCHFA\030\342\206\003 \001(\010\022\036\n\013DNMDKFFCNPJ\030\343\206\003 \001(\0132\007" +
-      ".Vector\022\025\n\013OMJGKPMPFBI\030\344\206\003 \001(\010\022\025\n\013BJHAEP" +
-      "GOAKM\030\345\206\003 \001(\r\022\025\n\013MOEKEMAHBNN\030\346\206\003 \001(\r\022\025\n\013" +
-      "IDENIGMCBJB\030\347\206\003 \001(\rB3\n\031emu.grasscutter.n" +
-      "et.protoB\026AttackResultOuterClassb\006proto3"
+      "le_compat\030\016 \001(\005\022\022\n\ndefense_id\030\n \001(\r\022.\n\022a" +
+      "bility_identifier\030\007 \001(\0132\022.AbilityIdentif" +
+      "ier\0220\n\016hit_eff_result\030\324\206\003 \001(\0132\026.AttackHi" +
+      "tEffectResult\022\016\n\006damage\030\002 \001(\002\022\023\n\013AFPBFDH" +
+      "CDNK\030\014 \001(\005\022\025\n\ranim_event_id\030\005 \001(\t\022\024\n\013EKD" +
+      "NPKHMJIE\030\357\004 \001(\r\022\025\n\013OOFNGENKHKG\030\325\206\003 \001(\002\022\024" +
+      "\n\013OHPEIAGBOIK\030\241\n \003(\r\022\025\n\013GGAMPLOEPMG\030\326\206\003 " +
+      "\001(\010\022\024\n\013MDECMKGHDAK\030\360\003 \001(\002\022\"\n\013EFBFOAOJADK" +
+      "\030\237\014 \001(\0132\014.CIHENMDCMGJ\022\024\n\013BNBBLJCDMPJ\030\267\017 " +
+      "\001(\r\022\025\n\013MDBPICGKMLB\030\327\206\003 \001(\002\022\025\n\013JCPDJCGGJC" +
+      "C\030\330\206\003 \001(\r\022\025\n\013FDEGAMMGNGI\030\331\206\003 \001(\r\022\025\n\013MHJD" +
+      "KCODNAA\030\332\206\003 \001(\r\022\025\n\013GMNALDFDANK\030\333\206\003 \001(\r\022\025" +
+      "\n\013NILAPFIGLLH\030\334\206\003 \001(\002\022\025\n\013PKOFLCBFEOA\030\335\206\003" +
+      " \001(\010\022\025\n\013IFHJIFEBKAO\030\336\206\003 \001(\r\022\025\n\013CFKHDFPCH" +
+      "CL\030\337\206\003 \001(\r\022\025\n\013PLNPCMILPPD\030\340\206\003 \001(\r\022\025\n\013NJF" +
+      "MEBDIICN\030\341\206\003 \001(\002\022\"\n\013PGPBACPJGNM\030\251\003 \001(\0132\014" +
+      ".HIMBAGFLEHM\022\024\n\013JILIGGDCLDH\030\354\005 \001(\r\022\"\n\013EE" +
+      "DDIJJOCFM\030\357\r \001(\0132\014.IFMIEJICEMA\022\025\n\013DMIEAH" +
+      "DCHFA\030\342\206\003 \001(\010\022\036\n\013DNMDKFFCNPJ\030\343\206\003 \001(\0132\007.V" +
+      "ector\022\025\n\013OMJGKPMPFBI\030\344\206\003 \001(\010\022\025\n\013BJHAEPGO" +
+      "AKM\030\345\206\003 \001(\r\022\025\n\013MOEKEMAHBNN\030\346\206\003 \001(\r\022\025\n\013ID" +
+      "ENIGMCBJB\030\347\206\003 \001(\rB3\n\031emu.grasscutter.net" +
+      ".protoB\026AttackResultOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

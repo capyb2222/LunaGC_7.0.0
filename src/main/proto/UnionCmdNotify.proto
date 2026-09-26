@@ -6,5 +6,5 @@ option java_outer_classname = "UnionCmdNotifyOuterClass";
 import "UnionCmd.proto";
 
 message UnionCmdNotify {
-	repeated UnionCmd cmd_list = 11;
+	repeated UnionCmd cmd_list = 8;
 }

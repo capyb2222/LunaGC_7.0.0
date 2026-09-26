@@ -102,6 +102,12 @@ public final class NameIndex {
         return pieces;
     }
 
+    public static void warmUpInBackground() {
+        var thread = new Thread(NameIndex::build, "name-index");
+        thread.setDaemon(true);
+        thread.start();
+    }
+
     public static String describe(int id) {
         build();
 

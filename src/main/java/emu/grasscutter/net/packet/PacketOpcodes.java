@@ -42,7 +42,7 @@ public final class PacketOpcodes {
     public static final int SceneTeamUpdateNotify = 29245;
     public static final int AvatarDataNotify = 27799;
     public static final int PlayerDataNotify = 3272;
-    public static final int SceneEntityAppearNotify = -1; // no 7.1 entry
+    public static final int SceneEntityAppearNotify = 27685;
     public static final int SceneEntityDisappearNotify = 6253;
     public static final int OpenStateUpdateNotify = 20218;
     public static final int OpenStateChangeNotify = 7670;
@@ -104,7 +104,7 @@ public final class PacketOpcodes {
     public static final int GadgetAutoPickDropInfoNotify = 1636;
     public static final int ToTheMoonEnterSceneReq = 6200;
     public static final int ToTheMoonEnterSceneRsp = -8; // no 7.1 entry
-    public static final int UnionCmdNotify = -9; // no 7.1 entry
+    public static final int UnionCmdNotify = 2246;
     public static final int WearEquipReq = 26671;
     public static final int WearEquipRsp = 20967;
     public static final int WindSeedType1Notify = 29056;

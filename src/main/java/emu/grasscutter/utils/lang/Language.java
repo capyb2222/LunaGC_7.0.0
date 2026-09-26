@@ -285,24 +285,10 @@ public final class Language {
         if (!bypassCache)
             try {
                 long cacheModified = Files.getLastModifiedTime(TEXTMAP_CACHE_PATH).toMillis();
-                long textmapsModified;
-                try (var textmaps = Files.list(getResourcePath("TextMap"))) {
-                    textmapsModified =
-                        textmaps
-                                .filter(path -> path.toString().endsWith(".json"))
-                                .map(
-                                        path -> {
-                                            try {
-                                                return Files.getLastModifiedTime(path).toMillis();
-                                            } catch (Exception ignored) {
-                                                Grasscutter.getLogger()
-                                                        .debug("Exception while checking modified time: ", path);
-                                                return Long.MAX_VALUE; // Don't use cache, something has gone wrong
-                                            }
-                                        })
-                                .max(Long::compare)
-                                .get();
-                }
+                long textmapsModified =
+                        Math.max(
+                                newestJson(getResourcePath("TextMap")),
+                                newestJson(getResourcePath("ExcelBinOutput")));
 
                 Grasscutter.getLogger()
                         .debug(
@@ -312,6 +298,7 @@ public final class Language {
                     // Try loading from cache
                     Grasscutter.getLogger().debug("Loading cached 'TextMaps'...");
                     textMapStrings = loadTextMapsCache();
+                    scannedTextmaps = true;
                     return;
                 }
             } catch (NoSuchFileException ignored) {
@@ -372,6 +359,23 @@ public final class Language {
             saveTextMapsCache(textMapStrings);
         } catch (IOException e) {
             Grasscutter.getLogger().error("Failed to save TextMap cache: ", e);
+        }
+    }
+
+    private static long newestJson(Path dir) throws IOException {
+        try (var files = Files.list(dir)) {
+            return files
+                    .filter(path -> path.toString().endsWith(".json"))
+                    .mapToLong(
+                            path -> {
+                                try {
+                                    return Files.getLastModifiedTime(path).toMillis();
+                                } catch (IOException e) {
+                                    return Long.MAX_VALUE;
+                                }
+                            })
+                    .max()
+                    .orElse(Long.MAX_VALUE);
         }
     }
 

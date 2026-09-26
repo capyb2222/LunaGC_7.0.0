@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "UnionCmdOuterClass";
 
 message UnionCmd {
-	bytes body = 8;
-	uint32 message_id = 15;
+	bytes body = 6;
+	uint32 message_id = 13;
 }
