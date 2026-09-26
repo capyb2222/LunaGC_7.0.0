@@ -6,9 +6,9 @@ option java_outer_classname = "CCINMGMEJBNOuterClass";
 import "GBLGAGAPIFE.proto";
 
 message CCINMGMEJBN {
-	repeated GBLGAGAPIFE NBFDAIOLGFI = 2;
-	bool is_open = 5;
-	bool is_finish = 9;
-	uint32 stage_id = 10;
-	uint32 best_score = 12;
+	repeated GBLGAGAPIFE NBFDAIOLGFI = 10;
+	bool is_open = 14;
+	bool is_finish = 3;
+	uint32 stage_id = 12;
+	uint32 best_score = 9;
 }

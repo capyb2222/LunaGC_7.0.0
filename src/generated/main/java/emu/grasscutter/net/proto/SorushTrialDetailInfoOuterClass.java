@@ -19,45 +19,45 @@ public final class SorushTrialDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 BBFEAFFLOBA = 3;</code>
+     * <code>repeated uint32 BBFEAFFLOBA = 50000;</code>
      * @return A list containing the bBFEAFFLOBA.
      */
     java.util.List<java.lang.Integer> getBBFEAFFLOBAList();
     /**
-     * <code>repeated uint32 BBFEAFFLOBA = 3;</code>
+     * <code>repeated uint32 BBFEAFFLOBA = 50000;</code>
      * @return The count of bBFEAFFLOBA.
      */
     int getBBFEAFFLOBACount();
     /**
-     * <code>repeated uint32 BBFEAFFLOBA = 3;</code>
+     * <code>repeated uint32 BBFEAFFLOBA = 50000;</code>
      * @param index The index of the element to return.
      * @return The bBFEAFFLOBA at the given index.
      */
     int getBBFEAFFLOBA(int index);
 
     /**
-     * <code>repeated uint32 HOPCJHIJDDK = 6;</code>
+     * <code>repeated uint32 HOPCJHIJDDK = 50001;</code>
      * @return A list containing the hOPCJHIJDDK.
      */
     java.util.List<java.lang.Integer> getHOPCJHIJDDKList();
     /**
-     * <code>repeated uint32 HOPCJHIJDDK = 6;</code>
+     * <code>repeated uint32 HOPCJHIJDDK = 50001;</code>
      * @return The count of hOPCJHIJDDK.
      */
     int getHOPCJHIJDDKCount();
     /**
-     * <code>repeated uint32 HOPCJHIJDDK = 6;</code>
+     * <code>repeated uint32 HOPCJHIJDDK = 50001;</code>
      * @param index The index of the element to return.
      * @return The hOPCJHIJDDK at the given index.
      */
     int getHOPCJHIJDDK(int index);
 
     /**
-     * <code>map&lt;uint32, uint32&gt; KCGIACHFPOC = 8;</code>
+     * <code>map&lt;uint32, uint32&gt; KCGIACHFPOC = 9;</code>
      */
     int getKCGIACHFPOCCount();
     /**
-     * <code>map&lt;uint32, uint32&gt; KCGIACHFPOC = 8;</code>
+     * <code>map&lt;uint32, uint32&gt; KCGIACHFPOC = 9;</code>
      */
     boolean containsKCGIACHFPOC(
         int key);
@@ -68,36 +68,36 @@ public final class SorushTrialDetailInfoOuterClass {
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getKCGIACHFPOC();
     /**
-     * <code>map&lt;uint32, uint32&gt; KCGIACHFPOC = 8;</code>
+     * <code>map&lt;uint32, uint32&gt; KCGIACHFPOC = 9;</code>
      */
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getKCGIACHFPOCMap();
     /**
-     * <code>map&lt;uint32, uint32&gt; KCGIACHFPOC = 8;</code>
+     * <code>map&lt;uint32, uint32&gt; KCGIACHFPOC = 9;</code>
      */
 
     int getKCGIACHFPOCOrDefault(
         int key,
         int defaultValue);
     /**
-     * <code>map&lt;uint32, uint32&gt; KCGIACHFPOC = 8;</code>
+     * <code>map&lt;uint32, uint32&gt; KCGIACHFPOC = 9;</code>
      */
 
     int getKCGIACHFPOCOrThrow(
         int key);
 
     /**
-     * <code>repeated uint32 IIDDBDAEPKC = 11;</code>
+     * <code>repeated uint32 IIDDBDAEPKC = 50002;</code>
      * @return A list containing the iIDDBDAEPKC.
      */
     java.util.List<java.lang.Integer> getIIDDBDAEPKCList();
     /**
-     * <code>repeated uint32 IIDDBDAEPKC = 11;</code>
+     * <code>repeated uint32 IIDDBDAEPKC = 50002;</code>
      * @return The count of iIDDBDAEPKC.
      */
     int getIIDDBDAEPKCCount();
     /**
-     * <code>repeated uint32 IIDDBDAEPKC = 11;</code>
+     * <code>repeated uint32 IIDDBDAEPKC = 50002;</code>
      * @param index The index of the element to return.
      * @return The iIDDBDAEPKC at the given index.
      */
@@ -152,49 +152,7 @@ public final class SorushTrialDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                bBFEAFFLOBA_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              bBFEAFFLOBA_.addInt(input.readUInt32());
-              break;
-            }
-            case 26: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
-                bBFEAFFLOBA_ = newIntList();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                bBFEAFFLOBA_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
-              break;
-            }
-            case 48: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                hOPCJHIJDDK_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
-              }
-              hOPCJHIJDDK_.addInt(input.readUInt32());
-              break;
-            }
-            case 50: {
-              int length = input.readRawVarint32();
-              int limit = input.pushLimit(length);
-              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
-                hOPCJHIJDDK_ = newIntList();
-                mutable_bitField0_ |= 0x00000002;
-              }
-              while (input.getBytesUntilLimit() > 0) {
-                hOPCJHIJDDK_.addInt(input.readUInt32());
-              }
-              input.popLimit(limit);
-              break;
-            }
-            case 66: {
+            case 74: {
               if (!((mutable_bitField0_ & 0x00000004) != 0)) {
                 kCGIACHFPOC_ = com.google.protobuf.MapField.newMapField(
                     KCGIACHFPOCDefaultEntryHolder.defaultEntry);
@@ -207,7 +165,49 @@ public final class SorushTrialDetailInfoOuterClass {
                   kCGIACHFPOC__.getKey(), kCGIACHFPOC__.getValue());
               break;
             }
-            case 88: {
+            case 400000: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                bBFEAFFLOBA_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              bBFEAFFLOBA_.addInt(input.readUInt32());
+              break;
+            }
+            case 400002: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
+                bBFEAFFLOBA_ = newIntList();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                bBFEAFFLOBA_.addInt(input.readUInt32());
+              }
+              input.popLimit(limit);
+              break;
+            }
+            case 400008: {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                hOPCJHIJDDK_ = newIntList();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              hOPCJHIJDDK_.addInt(input.readUInt32());
+              break;
+            }
+            case 400010: {
+              int length = input.readRawVarint32();
+              int limit = input.pushLimit(length);
+              if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
+                hOPCJHIJDDK_ = newIntList();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              while (input.getBytesUntilLimit() > 0) {
+                hOPCJHIJDDK_.addInt(input.readUInt32());
+              }
+              input.popLimit(limit);
+              break;
+            }
+            case 400016: {
               if (!((mutable_bitField0_ & 0x00000008) != 0)) {
                 iIDDBDAEPKC_ = newIntList();
                 mutable_bitField0_ |= 0x00000008;
@@ -215,7 +215,7 @@ public final class SorushTrialDetailInfoOuterClass {
               iIDDBDAEPKC_.addInt(input.readUInt32());
               break;
             }
-            case 90: {
+            case 400018: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000008) != 0) && input.getBytesUntilLimit() > 0) {
@@ -266,7 +266,7 @@ public final class SorushTrialDetailInfoOuterClass {
     protected com.google.protobuf.MapField internalGetMapField(
         int number) {
       switch (number) {
-        case 8:
+        case 9:
           return internalGetKCGIACHFPOC();
         default:
           throw new RuntimeException(
@@ -281,10 +281,10 @@ public final class SorushTrialDetailInfoOuterClass {
               emu.grasscutter.net.proto.SorushTrialDetailInfoOuterClass.SorushTrialDetailInfo.class, emu.grasscutter.net.proto.SorushTrialDetailInfoOuterClass.SorushTrialDetailInfo.Builder.class);
     }
 
-    public static final int BBFEAFFLOBA_FIELD_NUMBER = 3;
+    public static final int BBFEAFFLOBA_FIELD_NUMBER = 50000;
     private com.google.protobuf.Internal.IntList bBFEAFFLOBA_;
     /**
-     * <code>repeated uint32 BBFEAFFLOBA = 3;</code>
+     * <code>repeated uint32 BBFEAFFLOBA = 50000;</code>
      * @return A list containing the bBFEAFFLOBA.
      */
     @java.lang.Override
@@ -293,14 +293,14 @@ public final class SorushTrialDetailInfoOuterClass {
       return bBFEAFFLOBA_;
     }
     /**
-     * <code>repeated uint32 BBFEAFFLOBA = 3;</code>
+     * <code>repeated uint32 BBFEAFFLOBA = 50000;</code>
      * @return The count of bBFEAFFLOBA.
      */
     public int getBBFEAFFLOBACount() {
       return bBFEAFFLOBA_.size();
     }
     /**
-     * <code>repeated uint32 BBFEAFFLOBA = 3;</code>
+     * <code>repeated uint32 BBFEAFFLOBA = 50000;</code>
      * @param index The index of the element to return.
      * @return The bBFEAFFLOBA at the given index.
      */
@@ -309,10 +309,10 @@ public final class SorushTrialDetailInfoOuterClass {
     }
     private int bBFEAFFLOBAMemoizedSerializedSize = -1;
 
-    public static final int HOPCJHIJDDK_FIELD_NUMBER = 6;
+    public static final int HOPCJHIJDDK_FIELD_NUMBER = 50001;
     private com.google.protobuf.Internal.IntList hOPCJHIJDDK_;
     /**
-     * <code>repeated uint32 HOPCJHIJDDK = 6;</code>
+     * <code>repeated uint32 HOPCJHIJDDK = 50001;</code>
      * @return A list containing the hOPCJHIJDDK.
      */
     @java.lang.Override
@@ -321,14 +321,14 @@ public final class SorushTrialDetailInfoOuterClass {
       return hOPCJHIJDDK_;
     }
     /**
-     * <code>repeated uint32 HOPCJHIJDDK = 6;</code>
+     * <code>repeated uint32 HOPCJHIJDDK = 50001;</code>
      * @return The count of hOPCJHIJDDK.
      */
     public int getHOPCJHIJDDKCount() {
       return hOPCJHIJDDK_.size();
     }
     /**
-     * <code>repeated uint32 HOPCJHIJDDK = 6;</code>
+     * <code>repeated uint32 HOPCJHIJDDK = 50001;</code>
      * @param index The index of the element to return.
      * @return The hOPCJHIJDDK at the given index.
      */
@@ -337,7 +337,7 @@ public final class SorushTrialDetailInfoOuterClass {
     }
     private int hOPCJHIJDDKMemoizedSerializedSize = -1;
 
-    public static final int KCGIACHFPOC_FIELD_NUMBER = 8;
+    public static final int KCGIACHFPOC_FIELD_NUMBER = 9;
     private static final class KCGIACHFPOCDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, java.lang.Integer> defaultEntry =
@@ -364,7 +364,7 @@ public final class SorushTrialDetailInfoOuterClass {
       return internalGetKCGIACHFPOC().getMap().size();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; KCGIACHFPOC = 8;</code>
+     * <code>map&lt;uint32, uint32&gt; KCGIACHFPOC = 9;</code>
      */
 
     @java.lang.Override
@@ -382,7 +382,7 @@ public final class SorushTrialDetailInfoOuterClass {
       return getKCGIACHFPOCMap();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; KCGIACHFPOC = 8;</code>
+     * <code>map&lt;uint32, uint32&gt; KCGIACHFPOC = 9;</code>
      */
     @java.lang.Override
 
@@ -390,7 +390,7 @@ public final class SorushTrialDetailInfoOuterClass {
       return internalGetKCGIACHFPOC().getMap();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; KCGIACHFPOC = 8;</code>
+     * <code>map&lt;uint32, uint32&gt; KCGIACHFPOC = 9;</code>
      */
     @java.lang.Override
 
@@ -403,7 +403,7 @@ public final class SorushTrialDetailInfoOuterClass {
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; KCGIACHFPOC = 8;</code>
+     * <code>map&lt;uint32, uint32&gt; KCGIACHFPOC = 9;</code>
      */
     @java.lang.Override
 
@@ -418,10 +418,10 @@ public final class SorushTrialDetailInfoOuterClass {
       return map.get(key);
     }
 
-    public static final int IIDDBDAEPKC_FIELD_NUMBER = 11;
+    public static final int IIDDBDAEPKC_FIELD_NUMBER = 50002;
     private com.google.protobuf.Internal.IntList iIDDBDAEPKC_;
     /**
-     * <code>repeated uint32 IIDDBDAEPKC = 11;</code>
+     * <code>repeated uint32 IIDDBDAEPKC = 50002;</code>
      * @return A list containing the iIDDBDAEPKC.
      */
     @java.lang.Override
@@ -430,14 +430,14 @@ public final class SorushTrialDetailInfoOuterClass {
       return iIDDBDAEPKC_;
     }
     /**
-     * <code>repeated uint32 IIDDBDAEPKC = 11;</code>
+     * <code>repeated uint32 IIDDBDAEPKC = 50002;</code>
      * @return The count of iIDDBDAEPKC.
      */
     public int getIIDDBDAEPKCCount() {
       return iIDDBDAEPKC_.size();
     }
     /**
-     * <code>repeated uint32 IIDDBDAEPKC = 11;</code>
+     * <code>repeated uint32 IIDDBDAEPKC = 50002;</code>
      * @param index The index of the element to return.
      * @return The iIDDBDAEPKC at the given index.
      */
@@ -461,28 +461,28 @@ public final class SorushTrialDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
+      com.google.protobuf.GeneratedMessageV3
+        .serializeIntegerMapTo(
+          output,
+          internalGetKCGIACHFPOC(),
+          KCGIACHFPOCDefaultEntryHolder.defaultEntry,
+          9);
       if (getBBFEAFFLOBAList().size() > 0) {
-        output.writeUInt32NoTag(26);
+        output.writeUInt32NoTag(400002);
         output.writeUInt32NoTag(bBFEAFFLOBAMemoizedSerializedSize);
       }
       for (int i = 0; i < bBFEAFFLOBA_.size(); i++) {
         output.writeUInt32NoTag(bBFEAFFLOBA_.getInt(i));
       }
       if (getHOPCJHIJDDKList().size() > 0) {
-        output.writeUInt32NoTag(50);
+        output.writeUInt32NoTag(400010);
         output.writeUInt32NoTag(hOPCJHIJDDKMemoizedSerializedSize);
       }
       for (int i = 0; i < hOPCJHIJDDK_.size(); i++) {
         output.writeUInt32NoTag(hOPCJHIJDDK_.getInt(i));
       }
-      com.google.protobuf.GeneratedMessageV3
-        .serializeIntegerMapTo(
-          output,
-          internalGetKCGIACHFPOC(),
-          KCGIACHFPOCDefaultEntryHolder.defaultEntry,
-          8);
       if (getIIDDBDAEPKCList().size() > 0) {
-        output.writeUInt32NoTag(90);
+        output.writeUInt32NoTag(400018);
         output.writeUInt32NoTag(iIDDBDAEPKCMemoizedSerializedSize);
       }
       for (int i = 0; i < iIDDBDAEPKC_.size(); i++) {
@@ -497,6 +497,16 @@ public final class SorushTrialDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      for (java.util.Map.Entry<java.lang.Integer, java.lang.Integer> entry
+           : internalGetKCGIACHFPOC().getMap().entrySet()) {
+        com.google.protobuf.MapEntry<java.lang.Integer, java.lang.Integer>
+        kCGIACHFPOC__ = KCGIACHFPOCDefaultEntryHolder.defaultEntry.newBuilderForType()
+            .setKey(entry.getKey())
+            .setValue(entry.getValue())
+            .build();
+        size += com.google.protobuf.CodedOutputStream
+            .computeMessageSize(9, kCGIACHFPOC__);
+      }
       {
         int dataSize = 0;
         for (int i = 0; i < bBFEAFFLOBA_.size(); i++) {
@@ -505,7 +515,7 @@ public final class SorushTrialDetailInfoOuterClass {
         }
         size += dataSize;
         if (!getBBFEAFFLOBAList().isEmpty()) {
-          size += 1;
+          size += 3;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
@@ -519,21 +529,11 @@ public final class SorushTrialDetailInfoOuterClass {
         }
         size += dataSize;
         if (!getHOPCJHIJDDKList().isEmpty()) {
-          size += 1;
+          size += 3;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
         hOPCJHIJDDKMemoizedSerializedSize = dataSize;
-      }
-      for (java.util.Map.Entry<java.lang.Integer, java.lang.Integer> entry
-           : internalGetKCGIACHFPOC().getMap().entrySet()) {
-        com.google.protobuf.MapEntry<java.lang.Integer, java.lang.Integer>
-        kCGIACHFPOC__ = KCGIACHFPOCDefaultEntryHolder.defaultEntry.newBuilderForType()
-            .setKey(entry.getKey())
-            .setValue(entry.getValue())
-            .build();
-        size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(8, kCGIACHFPOC__);
       }
       {
         int dataSize = 0;
@@ -543,7 +543,7 @@ public final class SorushTrialDetailInfoOuterClass {
         }
         size += dataSize;
         if (!getIIDDBDAEPKCList().isEmpty()) {
-          size += 1;
+          size += 3;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
@@ -710,7 +710,7 @@ public final class SorushTrialDetailInfoOuterClass {
       protected com.google.protobuf.MapField internalGetMapField(
           int number) {
         switch (number) {
-          case 8:
+          case 9:
             return internalGetKCGIACHFPOC();
           default:
             throw new RuntimeException(
@@ -721,7 +721,7 @@ public final class SorushTrialDetailInfoOuterClass {
       protected com.google.protobuf.MapField internalGetMutableMapField(
           int number) {
         switch (number) {
-          case 8:
+          case 9:
             return internalGetMutableKCGIACHFPOC();
           default:
             throw new RuntimeException(
@@ -923,7 +923,7 @@ public final class SorushTrialDetailInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 BBFEAFFLOBA = 3;</code>
+       * <code>repeated uint32 BBFEAFFLOBA = 50000;</code>
        * @return A list containing the bBFEAFFLOBA.
        */
       public java.util.List<java.lang.Integer>
@@ -932,14 +932,14 @@ public final class SorushTrialDetailInfoOuterClass {
                  java.util.Collections.unmodifiableList(bBFEAFFLOBA_) : bBFEAFFLOBA_;
       }
       /**
-       * <code>repeated uint32 BBFEAFFLOBA = 3;</code>
+       * <code>repeated uint32 BBFEAFFLOBA = 50000;</code>
        * @return The count of bBFEAFFLOBA.
        */
       public int getBBFEAFFLOBACount() {
         return bBFEAFFLOBA_.size();
       }
       /**
-       * <code>repeated uint32 BBFEAFFLOBA = 3;</code>
+       * <code>repeated uint32 BBFEAFFLOBA = 50000;</code>
        * @param index The index of the element to return.
        * @return The bBFEAFFLOBA at the given index.
        */
@@ -947,7 +947,7 @@ public final class SorushTrialDetailInfoOuterClass {
         return bBFEAFFLOBA_.getInt(index);
       }
       /**
-       * <code>repeated uint32 BBFEAFFLOBA = 3;</code>
+       * <code>repeated uint32 BBFEAFFLOBA = 50000;</code>
        * @param index The index to set the value at.
        * @param value The bBFEAFFLOBA to set.
        * @return This builder for chaining.
@@ -960,7 +960,7 @@ public final class SorushTrialDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 BBFEAFFLOBA = 3;</code>
+       * <code>repeated uint32 BBFEAFFLOBA = 50000;</code>
        * @param value The bBFEAFFLOBA to add.
        * @return This builder for chaining.
        */
@@ -971,7 +971,7 @@ public final class SorushTrialDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 BBFEAFFLOBA = 3;</code>
+       * <code>repeated uint32 BBFEAFFLOBA = 50000;</code>
        * @param values The bBFEAFFLOBA to add.
        * @return This builder for chaining.
        */
@@ -984,7 +984,7 @@ public final class SorushTrialDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 BBFEAFFLOBA = 3;</code>
+       * <code>repeated uint32 BBFEAFFLOBA = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearBBFEAFFLOBA() {
@@ -1002,7 +1002,7 @@ public final class SorushTrialDetailInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 HOPCJHIJDDK = 6;</code>
+       * <code>repeated uint32 HOPCJHIJDDK = 50001;</code>
        * @return A list containing the hOPCJHIJDDK.
        */
       public java.util.List<java.lang.Integer>
@@ -1011,14 +1011,14 @@ public final class SorushTrialDetailInfoOuterClass {
                  java.util.Collections.unmodifiableList(hOPCJHIJDDK_) : hOPCJHIJDDK_;
       }
       /**
-       * <code>repeated uint32 HOPCJHIJDDK = 6;</code>
+       * <code>repeated uint32 HOPCJHIJDDK = 50001;</code>
        * @return The count of hOPCJHIJDDK.
        */
       public int getHOPCJHIJDDKCount() {
         return hOPCJHIJDDK_.size();
       }
       /**
-       * <code>repeated uint32 HOPCJHIJDDK = 6;</code>
+       * <code>repeated uint32 HOPCJHIJDDK = 50001;</code>
        * @param index The index of the element to return.
        * @return The hOPCJHIJDDK at the given index.
        */
@@ -1026,7 +1026,7 @@ public final class SorushTrialDetailInfoOuterClass {
         return hOPCJHIJDDK_.getInt(index);
       }
       /**
-       * <code>repeated uint32 HOPCJHIJDDK = 6;</code>
+       * <code>repeated uint32 HOPCJHIJDDK = 50001;</code>
        * @param index The index to set the value at.
        * @param value The hOPCJHIJDDK to set.
        * @return This builder for chaining.
@@ -1039,7 +1039,7 @@ public final class SorushTrialDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 HOPCJHIJDDK = 6;</code>
+       * <code>repeated uint32 HOPCJHIJDDK = 50001;</code>
        * @param value The hOPCJHIJDDK to add.
        * @return This builder for chaining.
        */
@@ -1050,7 +1050,7 @@ public final class SorushTrialDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 HOPCJHIJDDK = 6;</code>
+       * <code>repeated uint32 HOPCJHIJDDK = 50001;</code>
        * @param values The hOPCJHIJDDK to add.
        * @return This builder for chaining.
        */
@@ -1063,7 +1063,7 @@ public final class SorushTrialDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 HOPCJHIJDDK = 6;</code>
+       * <code>repeated uint32 HOPCJHIJDDK = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearHOPCJHIJDDK() {
@@ -1100,7 +1100,7 @@ public final class SorushTrialDetailInfoOuterClass {
         return internalGetKCGIACHFPOC().getMap().size();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; KCGIACHFPOC = 8;</code>
+       * <code>map&lt;uint32, uint32&gt; KCGIACHFPOC = 9;</code>
        */
 
       @java.lang.Override
@@ -1118,7 +1118,7 @@ public final class SorushTrialDetailInfoOuterClass {
         return getKCGIACHFPOCMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; KCGIACHFPOC = 8;</code>
+       * <code>map&lt;uint32, uint32&gt; KCGIACHFPOC = 9;</code>
        */
       @java.lang.Override
 
@@ -1126,7 +1126,7 @@ public final class SorushTrialDetailInfoOuterClass {
         return internalGetKCGIACHFPOC().getMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; KCGIACHFPOC = 8;</code>
+       * <code>map&lt;uint32, uint32&gt; KCGIACHFPOC = 9;</code>
        */
       @java.lang.Override
 
@@ -1139,7 +1139,7 @@ public final class SorushTrialDetailInfoOuterClass {
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; KCGIACHFPOC = 8;</code>
+       * <code>map&lt;uint32, uint32&gt; KCGIACHFPOC = 9;</code>
        */
       @java.lang.Override
 
@@ -1160,7 +1160,7 @@ public final class SorushTrialDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; KCGIACHFPOC = 8;</code>
+       * <code>map&lt;uint32, uint32&gt; KCGIACHFPOC = 9;</code>
        */
 
       public Builder removeKCGIACHFPOC(
@@ -1179,7 +1179,7 @@ public final class SorushTrialDetailInfoOuterClass {
         return internalGetMutableKCGIACHFPOC().getMutableMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; KCGIACHFPOC = 8;</code>
+       * <code>map&lt;uint32, uint32&gt; KCGIACHFPOC = 9;</code>
        */
       public Builder putKCGIACHFPOC(
           int key,
@@ -1191,7 +1191,7 @@ public final class SorushTrialDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; KCGIACHFPOC = 8;</code>
+       * <code>map&lt;uint32, uint32&gt; KCGIACHFPOC = 9;</code>
        */
 
       public Builder putAllKCGIACHFPOC(
@@ -1209,7 +1209,7 @@ public final class SorushTrialDetailInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 IIDDBDAEPKC = 11;</code>
+       * <code>repeated uint32 IIDDBDAEPKC = 50002;</code>
        * @return A list containing the iIDDBDAEPKC.
        */
       public java.util.List<java.lang.Integer>
@@ -1218,14 +1218,14 @@ public final class SorushTrialDetailInfoOuterClass {
                  java.util.Collections.unmodifiableList(iIDDBDAEPKC_) : iIDDBDAEPKC_;
       }
       /**
-       * <code>repeated uint32 IIDDBDAEPKC = 11;</code>
+       * <code>repeated uint32 IIDDBDAEPKC = 50002;</code>
        * @return The count of iIDDBDAEPKC.
        */
       public int getIIDDBDAEPKCCount() {
         return iIDDBDAEPKC_.size();
       }
       /**
-       * <code>repeated uint32 IIDDBDAEPKC = 11;</code>
+       * <code>repeated uint32 IIDDBDAEPKC = 50002;</code>
        * @param index The index of the element to return.
        * @return The iIDDBDAEPKC at the given index.
        */
@@ -1233,7 +1233,7 @@ public final class SorushTrialDetailInfoOuterClass {
         return iIDDBDAEPKC_.getInt(index);
       }
       /**
-       * <code>repeated uint32 IIDDBDAEPKC = 11;</code>
+       * <code>repeated uint32 IIDDBDAEPKC = 50002;</code>
        * @param index The index to set the value at.
        * @param value The iIDDBDAEPKC to set.
        * @return This builder for chaining.
@@ -1246,7 +1246,7 @@ public final class SorushTrialDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 IIDDBDAEPKC = 11;</code>
+       * <code>repeated uint32 IIDDBDAEPKC = 50002;</code>
        * @param value The iIDDBDAEPKC to add.
        * @return This builder for chaining.
        */
@@ -1257,7 +1257,7 @@ public final class SorushTrialDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 IIDDBDAEPKC = 11;</code>
+       * <code>repeated uint32 IIDDBDAEPKC = 50002;</code>
        * @param values The iIDDBDAEPKC to add.
        * @return This builder for chaining.
        */
@@ -1270,7 +1270,7 @@ public final class SorushTrialDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 IIDDBDAEPKC = 11;</code>
+       * <code>repeated uint32 IIDDBDAEPKC = 50002;</code>
        * @return This builder for chaining.
        */
       public Builder clearIIDDBDAEPKC() {
@@ -1351,14 +1351,14 @@ public final class SorushTrialDetailInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\033SorushTrialDetailInfo.proto\"\310\001\n\025Sorush" +
-      "TrialDetailInfo\022\023\n\013BBFEAFFLOBA\030\003 \003(\r\022\023\n\013" +
-      "HOPCJHIJDDK\030\006 \003(\r\022<\n\013KCGIACHFPOC\030\010 \003(\0132\'" +
-      ".SorushTrialDetailInfo.KCGIACHFPOCEntry\022" +
-      "\023\n\013IIDDBDAEPKC\030\013 \003(\r\0322\n\020KCGIACHFPOCEntry" +
-      "\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B<\n\031emu." +
-      "grasscutter.net.protoB\037SorushTrialDetail" +
-      "InfoOuterClassb\006proto3"
+      "\n\033SorushTrialDetailInfo.proto\"\316\001\n\025Sorush" +
+      "TrialDetailInfo\022\025\n\013BBFEAFFLOBA\030\320\206\003 \003(\r\022\025" +
+      "\n\013HOPCJHIJDDK\030\321\206\003 \003(\r\022<\n\013KCGIACHFPOC\030\t \003" +
+      "(\0132\'.SorushTrialDetailInfo.KCGIACHFPOCEn" +
+      "try\022\025\n\013IIDDBDAEPKC\030\322\206\003 \003(\r\0322\n\020KCGIACHFPO" +
+      "CEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B<" +
+      "\n\031emu.grasscutter.net.protoB\037SorushTrial" +
+      "DetailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

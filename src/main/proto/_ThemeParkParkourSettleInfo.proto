@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "_ThemeParkParkourSettleInfoOuterClass";
 
 message _ThemeParkParkourSettleInfo {
-	bool OABFNCIAGMK = 1;
-	uint32 level_id = 8;
+	bool OABFNCIAGMK = 2;
+	uint32 level_id = 11;
 }

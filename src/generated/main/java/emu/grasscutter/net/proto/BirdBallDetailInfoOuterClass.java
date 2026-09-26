@@ -19,55 +19,55 @@ public final class BirdBallDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .CPAPGLMOHIO micfncjpgim = 2;</code>
+     * <code>repeated .CPAPGLMOHIO micfncjpgim = 50000;</code>
      */
     java.util.List<emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO> 
         getMicfncjpgimList();
     /**
-     * <code>repeated .CPAPGLMOHIO micfncjpgim = 2;</code>
+     * <code>repeated .CPAPGLMOHIO micfncjpgim = 50000;</code>
      */
     emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO getMicfncjpgim(int index);
     /**
-     * <code>repeated .CPAPGLMOHIO micfncjpgim = 2;</code>
+     * <code>repeated .CPAPGLMOHIO micfncjpgim = 50000;</code>
      */
     int getMicfncjpgimCount();
     /**
-     * <code>repeated .CPAPGLMOHIO micfncjpgim = 2;</code>
+     * <code>repeated .CPAPGLMOHIO micfncjpgim = 50000;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIOOrBuilder> 
         getMicfncjpgimOrBuilderList();
     /**
-     * <code>repeated .CPAPGLMOHIO micfncjpgim = 2;</code>
+     * <code>repeated .CPAPGLMOHIO micfncjpgim = 50000;</code>
      */
     emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIOOrBuilder getMicfncjpgimOrBuilder(
         int index);
 
     /**
-     * <code>uint32 ibhhmnemdlk = 12;</code>
+     * <code>uint32 ibhhmnemdlk = 8;</code>
      * @return The ibhhmnemdlk.
      */
     int getIbhhmnemdlk();
 
     /**
-     * <code>repeated .CPAPGLMOHIO inhailmbbld = 14;</code>
+     * <code>repeated .CPAPGLMOHIO inhailmbbld = 50001;</code>
      */
     java.util.List<emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO> 
         getInhailmbbldList();
     /**
-     * <code>repeated .CPAPGLMOHIO inhailmbbld = 14;</code>
+     * <code>repeated .CPAPGLMOHIO inhailmbbld = 50001;</code>
      */
     emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO getInhailmbbld(int index);
     /**
-     * <code>repeated .CPAPGLMOHIO inhailmbbld = 14;</code>
+     * <code>repeated .CPAPGLMOHIO inhailmbbld = 50001;</code>
      */
     int getInhailmbbldCount();
     /**
-     * <code>repeated .CPAPGLMOHIO inhailmbbld = 14;</code>
+     * <code>repeated .CPAPGLMOHIO inhailmbbld = 50001;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIOOrBuilder> 
         getInhailmbbldOrBuilderList();
     /**
-     * <code>repeated .CPAPGLMOHIO inhailmbbld = 14;</code>
+     * <code>repeated .CPAPGLMOHIO inhailmbbld = 50001;</code>
      */
     emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIOOrBuilder getInhailmbbldOrBuilder(
         int index);
@@ -120,7 +120,12 @@ public final class BirdBallDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 18: {
+            case 64: {
+
+              ibhhmnemdlk_ = input.readUInt32();
+              break;
+            }
+            case 400002: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 micfncjpgim_ = new java.util.ArrayList<emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO>();
                 mutable_bitField0_ |= 0x00000001;
@@ -129,12 +134,7 @@ public final class BirdBallDetailInfoOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO.parser(), extensionRegistry));
               break;
             }
-            case 96: {
-
-              ibhhmnemdlk_ = input.readUInt32();
-              break;
-            }
-            case 114: {
+            case 400010: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 inhailmbbld_ = new java.util.ArrayList<emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO>();
                 mutable_bitField0_ |= 0x00000002;
@@ -181,17 +181,17 @@ public final class BirdBallDetailInfoOuterClass {
               emu.grasscutter.net.proto.BirdBallDetailInfoOuterClass.BirdBallDetailInfo.class, emu.grasscutter.net.proto.BirdBallDetailInfoOuterClass.BirdBallDetailInfo.Builder.class);
     }
 
-    public static final int MICFNCJPGIM_FIELD_NUMBER = 2;
+    public static final int MICFNCJPGIM_FIELD_NUMBER = 50000;
     private java.util.List<emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO> micfncjpgim_;
     /**
-     * <code>repeated .CPAPGLMOHIO micfncjpgim = 2;</code>
+     * <code>repeated .CPAPGLMOHIO micfncjpgim = 50000;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO> getMicfncjpgimList() {
       return micfncjpgim_;
     }
     /**
-     * <code>repeated .CPAPGLMOHIO micfncjpgim = 2;</code>
+     * <code>repeated .CPAPGLMOHIO micfncjpgim = 50000;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIOOrBuilder> 
@@ -199,21 +199,21 @@ public final class BirdBallDetailInfoOuterClass {
       return micfncjpgim_;
     }
     /**
-     * <code>repeated .CPAPGLMOHIO micfncjpgim = 2;</code>
+     * <code>repeated .CPAPGLMOHIO micfncjpgim = 50000;</code>
      */
     @java.lang.Override
     public int getMicfncjpgimCount() {
       return micfncjpgim_.size();
     }
     /**
-     * <code>repeated .CPAPGLMOHIO micfncjpgim = 2;</code>
+     * <code>repeated .CPAPGLMOHIO micfncjpgim = 50000;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO getMicfncjpgim(int index) {
       return micfncjpgim_.get(index);
     }
     /**
-     * <code>repeated .CPAPGLMOHIO micfncjpgim = 2;</code>
+     * <code>repeated .CPAPGLMOHIO micfncjpgim = 50000;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIOOrBuilder getMicfncjpgimOrBuilder(
@@ -221,10 +221,10 @@ public final class BirdBallDetailInfoOuterClass {
       return micfncjpgim_.get(index);
     }
 
-    public static final int IBHHMNEMDLK_FIELD_NUMBER = 12;
+    public static final int IBHHMNEMDLK_FIELD_NUMBER = 8;
     private int ibhhmnemdlk_;
     /**
-     * <code>uint32 ibhhmnemdlk = 12;</code>
+     * <code>uint32 ibhhmnemdlk = 8;</code>
      * @return The ibhhmnemdlk.
      */
     @java.lang.Override
@@ -232,17 +232,17 @@ public final class BirdBallDetailInfoOuterClass {
       return ibhhmnemdlk_;
     }
 
-    public static final int INHAILMBBLD_FIELD_NUMBER = 14;
+    public static final int INHAILMBBLD_FIELD_NUMBER = 50001;
     private java.util.List<emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO> inhailmbbld_;
     /**
-     * <code>repeated .CPAPGLMOHIO inhailmbbld = 14;</code>
+     * <code>repeated .CPAPGLMOHIO inhailmbbld = 50001;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO> getInhailmbbldList() {
       return inhailmbbld_;
     }
     /**
-     * <code>repeated .CPAPGLMOHIO inhailmbbld = 14;</code>
+     * <code>repeated .CPAPGLMOHIO inhailmbbld = 50001;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIOOrBuilder> 
@@ -250,21 +250,21 @@ public final class BirdBallDetailInfoOuterClass {
       return inhailmbbld_;
     }
     /**
-     * <code>repeated .CPAPGLMOHIO inhailmbbld = 14;</code>
+     * <code>repeated .CPAPGLMOHIO inhailmbbld = 50001;</code>
      */
     @java.lang.Override
     public int getInhailmbbldCount() {
       return inhailmbbld_.size();
     }
     /**
-     * <code>repeated .CPAPGLMOHIO inhailmbbld = 14;</code>
+     * <code>repeated .CPAPGLMOHIO inhailmbbld = 50001;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO getInhailmbbld(int index) {
       return inhailmbbld_.get(index);
     }
     /**
-     * <code>repeated .CPAPGLMOHIO inhailmbbld = 14;</code>
+     * <code>repeated .CPAPGLMOHIO inhailmbbld = 50001;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIOOrBuilder getInhailmbbldOrBuilder(
@@ -286,14 +286,14 @@ public final class BirdBallDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      for (int i = 0; i < micfncjpgim_.size(); i++) {
-        output.writeMessage(2, micfncjpgim_.get(i));
-      }
       if (ibhhmnemdlk_ != 0) {
-        output.writeUInt32(12, ibhhmnemdlk_);
+        output.writeUInt32(8, ibhhmnemdlk_);
+      }
+      for (int i = 0; i < micfncjpgim_.size(); i++) {
+        output.writeMessage(50000, micfncjpgim_.get(i));
       }
       for (int i = 0; i < inhailmbbld_.size(); i++) {
-        output.writeMessage(14, inhailmbbld_.get(i));
+        output.writeMessage(50001, inhailmbbld_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -304,17 +304,17 @@ public final class BirdBallDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < micfncjpgim_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, micfncjpgim_.get(i));
-      }
       if (ibhhmnemdlk_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, ibhhmnemdlk_);
+          .computeUInt32Size(8, ibhhmnemdlk_);
+      }
+      for (int i = 0; i < micfncjpgim_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(50000, micfncjpgim_.get(i));
       }
       for (int i = 0; i < inhailmbbld_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, inhailmbbld_.get(i));
+          .computeMessageSize(50001, inhailmbbld_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -699,7 +699,7 @@ public final class BirdBallDetailInfoOuterClass {
           emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO, emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO.Builder, emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIOOrBuilder> micfncjpgimBuilder_;
 
       /**
-       * <code>repeated .CPAPGLMOHIO micfncjpgim = 2;</code>
+       * <code>repeated .CPAPGLMOHIO micfncjpgim = 50000;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO> getMicfncjpgimList() {
         if (micfncjpgimBuilder_ == null) {
@@ -709,7 +709,7 @@ public final class BirdBallDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .CPAPGLMOHIO micfncjpgim = 2;</code>
+       * <code>repeated .CPAPGLMOHIO micfncjpgim = 50000;</code>
        */
       public int getMicfncjpgimCount() {
         if (micfncjpgimBuilder_ == null) {
@@ -719,7 +719,7 @@ public final class BirdBallDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .CPAPGLMOHIO micfncjpgim = 2;</code>
+       * <code>repeated .CPAPGLMOHIO micfncjpgim = 50000;</code>
        */
       public emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO getMicfncjpgim(int index) {
         if (micfncjpgimBuilder_ == null) {
@@ -729,7 +729,7 @@ public final class BirdBallDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .CPAPGLMOHIO micfncjpgim = 2;</code>
+       * <code>repeated .CPAPGLMOHIO micfncjpgim = 50000;</code>
        */
       public Builder setMicfncjpgim(
           int index, emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO value) {
@@ -746,7 +746,7 @@ public final class BirdBallDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CPAPGLMOHIO micfncjpgim = 2;</code>
+       * <code>repeated .CPAPGLMOHIO micfncjpgim = 50000;</code>
        */
       public Builder setMicfncjpgim(
           int index, emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO.Builder builderForValue) {
@@ -760,7 +760,7 @@ public final class BirdBallDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CPAPGLMOHIO micfncjpgim = 2;</code>
+       * <code>repeated .CPAPGLMOHIO micfncjpgim = 50000;</code>
        */
       public Builder addMicfncjpgim(emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO value) {
         if (micfncjpgimBuilder_ == null) {
@@ -776,7 +776,7 @@ public final class BirdBallDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CPAPGLMOHIO micfncjpgim = 2;</code>
+       * <code>repeated .CPAPGLMOHIO micfncjpgim = 50000;</code>
        */
       public Builder addMicfncjpgim(
           int index, emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO value) {
@@ -793,7 +793,7 @@ public final class BirdBallDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CPAPGLMOHIO micfncjpgim = 2;</code>
+       * <code>repeated .CPAPGLMOHIO micfncjpgim = 50000;</code>
        */
       public Builder addMicfncjpgim(
           emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO.Builder builderForValue) {
@@ -807,7 +807,7 @@ public final class BirdBallDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CPAPGLMOHIO micfncjpgim = 2;</code>
+       * <code>repeated .CPAPGLMOHIO micfncjpgim = 50000;</code>
        */
       public Builder addMicfncjpgim(
           int index, emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO.Builder builderForValue) {
@@ -821,7 +821,7 @@ public final class BirdBallDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CPAPGLMOHIO micfncjpgim = 2;</code>
+       * <code>repeated .CPAPGLMOHIO micfncjpgim = 50000;</code>
        */
       public Builder addAllMicfncjpgim(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO> values) {
@@ -836,7 +836,7 @@ public final class BirdBallDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CPAPGLMOHIO micfncjpgim = 2;</code>
+       * <code>repeated .CPAPGLMOHIO micfncjpgim = 50000;</code>
        */
       public Builder clearMicfncjpgim() {
         if (micfncjpgimBuilder_ == null) {
@@ -849,7 +849,7 @@ public final class BirdBallDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CPAPGLMOHIO micfncjpgim = 2;</code>
+       * <code>repeated .CPAPGLMOHIO micfncjpgim = 50000;</code>
        */
       public Builder removeMicfncjpgim(int index) {
         if (micfncjpgimBuilder_ == null) {
@@ -862,14 +862,14 @@ public final class BirdBallDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CPAPGLMOHIO micfncjpgim = 2;</code>
+       * <code>repeated .CPAPGLMOHIO micfncjpgim = 50000;</code>
        */
       public emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO.Builder getMicfncjpgimBuilder(
           int index) {
         return getMicfncjpgimFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .CPAPGLMOHIO micfncjpgim = 2;</code>
+       * <code>repeated .CPAPGLMOHIO micfncjpgim = 50000;</code>
        */
       public emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIOOrBuilder getMicfncjpgimOrBuilder(
           int index) {
@@ -879,7 +879,7 @@ public final class BirdBallDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .CPAPGLMOHIO micfncjpgim = 2;</code>
+       * <code>repeated .CPAPGLMOHIO micfncjpgim = 50000;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIOOrBuilder> 
            getMicfncjpgimOrBuilderList() {
@@ -890,14 +890,14 @@ public final class BirdBallDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .CPAPGLMOHIO micfncjpgim = 2;</code>
+       * <code>repeated .CPAPGLMOHIO micfncjpgim = 50000;</code>
        */
       public emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO.Builder addMicfncjpgimBuilder() {
         return getMicfncjpgimFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO.getDefaultInstance());
       }
       /**
-       * <code>repeated .CPAPGLMOHIO micfncjpgim = 2;</code>
+       * <code>repeated .CPAPGLMOHIO micfncjpgim = 50000;</code>
        */
       public emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO.Builder addMicfncjpgimBuilder(
           int index) {
@@ -905,7 +905,7 @@ public final class BirdBallDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO.getDefaultInstance());
       }
       /**
-       * <code>repeated .CPAPGLMOHIO micfncjpgim = 2;</code>
+       * <code>repeated .CPAPGLMOHIO micfncjpgim = 50000;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO.Builder> 
            getMicfncjpgimBuilderList() {
@@ -928,7 +928,7 @@ public final class BirdBallDetailInfoOuterClass {
 
       private int ibhhmnemdlk_ ;
       /**
-       * <code>uint32 ibhhmnemdlk = 12;</code>
+       * <code>uint32 ibhhmnemdlk = 8;</code>
        * @return The ibhhmnemdlk.
        */
       @java.lang.Override
@@ -936,7 +936,7 @@ public final class BirdBallDetailInfoOuterClass {
         return ibhhmnemdlk_;
       }
       /**
-       * <code>uint32 ibhhmnemdlk = 12;</code>
+       * <code>uint32 ibhhmnemdlk = 8;</code>
        * @param value The ibhhmnemdlk to set.
        * @return This builder for chaining.
        */
@@ -947,7 +947,7 @@ public final class BirdBallDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 ibhhmnemdlk = 12;</code>
+       * <code>uint32 ibhhmnemdlk = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearIbhhmnemdlk() {
@@ -970,7 +970,7 @@ public final class BirdBallDetailInfoOuterClass {
           emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO, emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO.Builder, emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIOOrBuilder> inhailmbbldBuilder_;
 
       /**
-       * <code>repeated .CPAPGLMOHIO inhailmbbld = 14;</code>
+       * <code>repeated .CPAPGLMOHIO inhailmbbld = 50001;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO> getInhailmbbldList() {
         if (inhailmbbldBuilder_ == null) {
@@ -980,7 +980,7 @@ public final class BirdBallDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .CPAPGLMOHIO inhailmbbld = 14;</code>
+       * <code>repeated .CPAPGLMOHIO inhailmbbld = 50001;</code>
        */
       public int getInhailmbbldCount() {
         if (inhailmbbldBuilder_ == null) {
@@ -990,7 +990,7 @@ public final class BirdBallDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .CPAPGLMOHIO inhailmbbld = 14;</code>
+       * <code>repeated .CPAPGLMOHIO inhailmbbld = 50001;</code>
        */
       public emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO getInhailmbbld(int index) {
         if (inhailmbbldBuilder_ == null) {
@@ -1000,7 +1000,7 @@ public final class BirdBallDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .CPAPGLMOHIO inhailmbbld = 14;</code>
+       * <code>repeated .CPAPGLMOHIO inhailmbbld = 50001;</code>
        */
       public Builder setInhailmbbld(
           int index, emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO value) {
@@ -1017,7 +1017,7 @@ public final class BirdBallDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CPAPGLMOHIO inhailmbbld = 14;</code>
+       * <code>repeated .CPAPGLMOHIO inhailmbbld = 50001;</code>
        */
       public Builder setInhailmbbld(
           int index, emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO.Builder builderForValue) {
@@ -1031,7 +1031,7 @@ public final class BirdBallDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CPAPGLMOHIO inhailmbbld = 14;</code>
+       * <code>repeated .CPAPGLMOHIO inhailmbbld = 50001;</code>
        */
       public Builder addInhailmbbld(emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO value) {
         if (inhailmbbldBuilder_ == null) {
@@ -1047,7 +1047,7 @@ public final class BirdBallDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CPAPGLMOHIO inhailmbbld = 14;</code>
+       * <code>repeated .CPAPGLMOHIO inhailmbbld = 50001;</code>
        */
       public Builder addInhailmbbld(
           int index, emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO value) {
@@ -1064,7 +1064,7 @@ public final class BirdBallDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CPAPGLMOHIO inhailmbbld = 14;</code>
+       * <code>repeated .CPAPGLMOHIO inhailmbbld = 50001;</code>
        */
       public Builder addInhailmbbld(
           emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO.Builder builderForValue) {
@@ -1078,7 +1078,7 @@ public final class BirdBallDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CPAPGLMOHIO inhailmbbld = 14;</code>
+       * <code>repeated .CPAPGLMOHIO inhailmbbld = 50001;</code>
        */
       public Builder addInhailmbbld(
           int index, emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO.Builder builderForValue) {
@@ -1092,7 +1092,7 @@ public final class BirdBallDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CPAPGLMOHIO inhailmbbld = 14;</code>
+       * <code>repeated .CPAPGLMOHIO inhailmbbld = 50001;</code>
        */
       public Builder addAllInhailmbbld(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO> values) {
@@ -1107,7 +1107,7 @@ public final class BirdBallDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CPAPGLMOHIO inhailmbbld = 14;</code>
+       * <code>repeated .CPAPGLMOHIO inhailmbbld = 50001;</code>
        */
       public Builder clearInhailmbbld() {
         if (inhailmbbldBuilder_ == null) {
@@ -1120,7 +1120,7 @@ public final class BirdBallDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CPAPGLMOHIO inhailmbbld = 14;</code>
+       * <code>repeated .CPAPGLMOHIO inhailmbbld = 50001;</code>
        */
       public Builder removeInhailmbbld(int index) {
         if (inhailmbbldBuilder_ == null) {
@@ -1133,14 +1133,14 @@ public final class BirdBallDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CPAPGLMOHIO inhailmbbld = 14;</code>
+       * <code>repeated .CPAPGLMOHIO inhailmbbld = 50001;</code>
        */
       public emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO.Builder getInhailmbbldBuilder(
           int index) {
         return getInhailmbbldFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .CPAPGLMOHIO inhailmbbld = 14;</code>
+       * <code>repeated .CPAPGLMOHIO inhailmbbld = 50001;</code>
        */
       public emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIOOrBuilder getInhailmbbldOrBuilder(
           int index) {
@@ -1150,7 +1150,7 @@ public final class BirdBallDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .CPAPGLMOHIO inhailmbbld = 14;</code>
+       * <code>repeated .CPAPGLMOHIO inhailmbbld = 50001;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIOOrBuilder> 
            getInhailmbbldOrBuilderList() {
@@ -1161,14 +1161,14 @@ public final class BirdBallDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .CPAPGLMOHIO inhailmbbld = 14;</code>
+       * <code>repeated .CPAPGLMOHIO inhailmbbld = 50001;</code>
        */
       public emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO.Builder addInhailmbbldBuilder() {
         return getInhailmbbldFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO.getDefaultInstance());
       }
       /**
-       * <code>repeated .CPAPGLMOHIO inhailmbbld = 14;</code>
+       * <code>repeated .CPAPGLMOHIO inhailmbbld = 50001;</code>
        */
       public emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO.Builder addInhailmbbldBuilder(
           int index) {
@@ -1176,7 +1176,7 @@ public final class BirdBallDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO.getDefaultInstance());
       }
       /**
-       * <code>repeated .CPAPGLMOHIO inhailmbbld = 14;</code>
+       * <code>repeated .CPAPGLMOHIO inhailmbbld = 50001;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.CPAPGLMOHIOOuterClass.CPAPGLMOHIO.Builder> 
            getInhailmbbldBuilderList() {
@@ -1264,11 +1264,11 @@ public final class BirdBallDetailInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\030BirdBallDetailInfo.proto\032\021CPAPGLMOHIO." +
-      "proto\"o\n\022BirdBallDetailInfo\022!\n\013micfncjpg" +
-      "im\030\002 \003(\0132\014.CPAPGLMOHIO\022\023\n\013ibhhmnemdlk\030\014 " +
-      "\001(\r\022!\n\013inhailmbbld\030\016 \003(\0132\014.CPAPGLMOHIOB9" +
-      "\n\031emu.grasscutter.net.protoB\034BirdBallDet" +
-      "ailInfoOuterClassb\006proto3"
+      "proto\"s\n\022BirdBallDetailInfo\022#\n\013micfncjpg" +
+      "im\030\320\206\003 \003(\0132\014.CPAPGLMOHIO\022\023\n\013ibhhmnemdlk\030" +
+      "\010 \001(\r\022#\n\013inhailmbbld\030\321\206\003 \003(\0132\014.CPAPGLMOH" +
+      "IOB9\n\031emu.grasscutter.net.protoB\034BirdBal" +
+      "lDetailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

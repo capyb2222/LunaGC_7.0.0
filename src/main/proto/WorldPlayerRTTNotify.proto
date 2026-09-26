@@ -6,5 +6,5 @@ option java_outer_classname = "WorldPlayerRTTNotifyOuterClass";
 import "PlayerRTTInfo.proto";
 
 message WorldPlayerRTTNotify {
-	repeated PlayerRTTInfo player_rtt_list = 11;
+	repeated PlayerRTTInfo player_rtt_list = 4;
 }

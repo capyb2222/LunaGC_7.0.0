@@ -19,7 +19,7 @@ public final class _InazumaBadmintonLevelInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 ADIKAHFLJKL = 14;</code>
+     * <code>uint32 ADIKAHFLJKL = 4;</code>
      * @return The aDIKAHFLJKL.
      */
     int getADIKAHFLJKL();
@@ -69,7 +69,7 @@ public final class _InazumaBadmintonLevelInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 112: {
+            case 32: {
 
               aDIKAHFLJKL_ = input.readUInt32();
               break;
@@ -106,10 +106,10 @@ public final class _InazumaBadmintonLevelInfoOuterClass {
               emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfo.class, emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfo.Builder.class);
     }
 
-    public static final int ADIKAHFLJKL_FIELD_NUMBER = 14;
+    public static final int ADIKAHFLJKL_FIELD_NUMBER = 4;
     private int aDIKAHFLJKL_;
     /**
-     * <code>uint32 ADIKAHFLJKL = 14;</code>
+     * <code>uint32 ADIKAHFLJKL = 4;</code>
      * @return The aDIKAHFLJKL.
      */
     @java.lang.Override
@@ -132,7 +132,7 @@ public final class _InazumaBadmintonLevelInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (aDIKAHFLJKL_ != 0) {
-        output.writeUInt32(14, aDIKAHFLJKL_);
+        output.writeUInt32(4, aDIKAHFLJKL_);
       }
       unknownFields.writeTo(output);
     }
@@ -145,7 +145,7 @@ public final class _InazumaBadmintonLevelInfoOuterClass {
       size = 0;
       if (aDIKAHFLJKL_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, aDIKAHFLJKL_);
+          .computeUInt32Size(4, aDIKAHFLJKL_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -421,7 +421,7 @@ public final class _InazumaBadmintonLevelInfoOuterClass {
 
       private int aDIKAHFLJKL_ ;
       /**
-       * <code>uint32 ADIKAHFLJKL = 14;</code>
+       * <code>uint32 ADIKAHFLJKL = 4;</code>
        * @return The aDIKAHFLJKL.
        */
       @java.lang.Override
@@ -429,7 +429,7 @@ public final class _InazumaBadmintonLevelInfoOuterClass {
         return aDIKAHFLJKL_;
       }
       /**
-       * <code>uint32 ADIKAHFLJKL = 14;</code>
+       * <code>uint32 ADIKAHFLJKL = 4;</code>
        * @param value The aDIKAHFLJKL to set.
        * @return This builder for chaining.
        */
@@ -440,7 +440,7 @@ public final class _InazumaBadmintonLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 ADIKAHFLJKL = 14;</code>
+       * <code>uint32 ADIKAHFLJKL = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearADIKAHFLJKL() {
@@ -518,7 +518,7 @@ public final class _InazumaBadmintonLevelInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n _InazumaBadmintonLevelInfo.proto\"1\n\032_I" +
       "nazumaBadmintonLevelInfo\022\023\n\013ADIKAHFLJKL\030" +
-      "\016 \001(\rBA\n\031emu.grasscutter.net.protoB$_Ina" +
+      "\004 \001(\rBA\n\031emu.grasscutter.net.protoB$_Ina" +
       "zumaBadmintonLevelInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

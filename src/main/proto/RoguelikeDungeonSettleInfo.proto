@@ -6,11 +6,11 @@ option java_outer_classname = "RoguelikeDungeonSettleInfoOuterClass";
 import "RoguelikeSettleCoinInfo.proto";
 
 message RoguelikeDungeonSettleInfo {
-	bool CJKFLABGBBD = 1;
-	uint32 stage_id = 2;
-	map<uint32, RoguelikeSettleCoinInfo> finished_challenge_cell_num_map = 3;
-	uint32 cur_level = 5;
-	bool GIHIGJHFKGL = 6;
-	uint32 polcmmbaenp = 7;
-	uint32 focelgiaflm = 13;
+	bool CJKFLABGBBD = 50000;
+	uint32 stage_id = 10;
+	map<uint32, RoguelikeSettleCoinInfo> finished_challenge_cell_num_map = 14;
+	uint32 cur_level = 2;
+	bool GIHIGJHFKGL = 50001;
+	uint32 polcmmbaenp = 50002;
+	uint32 focelgiaflm = 50003;
 }

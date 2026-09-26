@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "NAOPGAHKGGGOuterClass";
 
 message NAOPGAHKGGG {
-	uint32 value = 1;
-	uint32 key = 15;
+	uint32 value = 7;
+	uint32 key = 13;
 }

@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "NIMJOPLLFCBOuterClass";
 
 message NIMJOPLLFCB {
-	uint32 level_id = 3;
-	bool is_finish = 11;
-	bool is_open = 12;
+	uint32 level_id = 4;
+	bool is_finish = 2;
+	bool is_open = 6;
 }

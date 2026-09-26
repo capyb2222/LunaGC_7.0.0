@@ -265,16 +265,16 @@ public final class GetPlayerTokenReqOuterClass {
         getGateTicketBytes();
 
     /**
-     * <code>string KONDBANCCAH = 1299;</code>
-     * @return The kONDBANCCAH.
+     * <code>string _client_version = 1299;</code>
+     * @return The clientVersion.
      */
-    java.lang.String getKONDBANCCAH();
+    java.lang.String getClientVersion();
     /**
-     * <code>string KONDBANCCAH = 1299;</code>
-     * @return The bytes for kONDBANCCAH.
+     * <code>string _client_version = 1299;</code>
+     * @return The bytes for clientVersion.
      */
     com.google.protobuf.ByteString
-        getKONDBANCCAHBytes();
+        getClientVersionBytes();
 
     /**
      * <code>uint32 minors_reg_min_age = 2036;</code>
@@ -310,7 +310,7 @@ public final class GetPlayerTokenReqOuterClass {
       clientRandKey_ = "";
       Xuid_ = "";
       GateTicket_ = "";
-      kONDBANCCAH_ = "";
+      ClientVersion_ = "";
     }
 
     @java.lang.Override
@@ -425,7 +425,7 @@ public final class GetPlayerTokenReqOuterClass {
             case 10394: {
               java.lang.String s = input.readStringRequireUtf8();
 
-              kONDBANCCAH_ = s;
+              ClientVersion_ = s;
               break;
             }
             case 14170: {
@@ -1222,38 +1222,38 @@ public final class GetPlayerTokenReqOuterClass {
       }
     }
 
-    public static final int KONDBANCCAH_FIELD_NUMBER = 1299;
-    private volatile java.lang.Object kONDBANCCAH_;
+    public static final int _CLIENT_VERSION_FIELD_NUMBER = 1299;
+    private volatile java.lang.Object ClientVersion_;
     /**
-     * <code>string KONDBANCCAH = 1299;</code>
-     * @return The kONDBANCCAH.
+     * <code>string _client_version = 1299;</code>
+     * @return The clientVersion.
      */
     @java.lang.Override
-    public java.lang.String getKONDBANCCAH() {
-      java.lang.Object ref = kONDBANCCAH_;
+    public java.lang.String getClientVersion() {
+      java.lang.Object ref = ClientVersion_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
         com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
-        kONDBANCCAH_ = s;
+        ClientVersion_ = s;
         return s;
       }
     }
     /**
-     * <code>string KONDBANCCAH = 1299;</code>
-     * @return The bytes for kONDBANCCAH.
+     * <code>string _client_version = 1299;</code>
+     * @return The bytes for clientVersion.
      */
     @java.lang.Override
     public com.google.protobuf.ByteString
-        getKONDBANCCAHBytes() {
-      java.lang.Object ref = kONDBANCCAH_;
+        getClientVersionBytes() {
+      java.lang.Object ref = ClientVersion_;
       if (ref instanceof java.lang.String) {
         com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
-        kONDBANCCAH_ = b;
+        ClientVersion_ = b;
         return b;
       } else {
         return (com.google.protobuf.ByteString) ref;
@@ -1327,8 +1327,8 @@ public final class GetPlayerTokenReqOuterClass {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(Xuid_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 838, Xuid_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(kONDBANCCAH_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 1299, kONDBANCCAH_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(ClientVersion_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 1299, ClientVersion_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(bKIICHHOJAF_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 1771, bKIICHHOJAF_);
@@ -1425,8 +1425,8 @@ public final class GetPlayerTokenReqOuterClass {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(Xuid_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(838, Xuid_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(kONDBANCCAH_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1299, kONDBANCCAH_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(ClientVersion_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1299, ClientVersion_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(bKIICHHOJAF_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1771, bKIICHHOJAF_);
@@ -1541,8 +1541,8 @@ public final class GetPlayerTokenReqOuterClass {
           .equals(other.getXuid())) return false;
       if (!getGateTicket()
           .equals(other.getGateTicket())) return false;
-      if (!getKONDBANCCAH()
-          .equals(other.getKONDBANCCAH())) return false;
+      if (!getClientVersion()
+          .equals(other.getClientVersion())) return false;
       if (getMinorsRegMinAge()
           != other.getMinorsRegMinAge()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -1609,8 +1609,8 @@ public final class GetPlayerTokenReqOuterClass {
       hash = (53 * hash) + getXuid().hashCode();
       hash = (37 * hash) + _GATE_TICKET_FIELD_NUMBER;
       hash = (53 * hash) + getGateTicket().hashCode();
-      hash = (37 * hash) + KONDBANCCAH_FIELD_NUMBER;
-      hash = (53 * hash) + getKONDBANCCAH().hashCode();
+      hash = (37 * hash) + _CLIENT_VERSION_FIELD_NUMBER;
+      hash = (53 * hash) + getClientVersion().hashCode();
       hash = (37 * hash) + MINORS_REG_MIN_AGE_FIELD_NUMBER;
       hash = (53 * hash) + getMinorsRegMinAge();
       hash = (29 * hash) + unknownFields.hashCode();
@@ -1798,7 +1798,7 @@ public final class GetPlayerTokenReqOuterClass {
 
         GateTicket_ = "";
 
-        kONDBANCCAH_ = "";
+        ClientVersion_ = "";
 
         minorsRegMinAge_ = 0;
 
@@ -1854,7 +1854,7 @@ public final class GetPlayerTokenReqOuterClass {
         result.clientRandKey_ = clientRandKey_;
         result.Xuid_ = Xuid_;
         result.GateTicket_ = GateTicket_;
-        result.kONDBANCCAH_ = kONDBANCCAH_;
+        result.ClientVersion_ = ClientVersion_;
         result.minorsRegMinAge_ = minorsRegMinAge_;
         onBuilt();
         return result;
@@ -1997,8 +1997,8 @@ public final class GetPlayerTokenReqOuterClass {
           GateTicket_ = other.GateTicket_;
           onChanged();
         }
-        if (!other.getKONDBANCCAH().isEmpty()) {
-          kONDBANCCAH_ = other.kONDBANCCAH_;
+        if (!other.getClientVersion().isEmpty()) {
+          ClientVersion_ = other.ClientVersion_;
           onChanged();
         }
         if (other.getMinorsRegMinAge() != 0) {
@@ -3514,78 +3514,78 @@ public final class GetPlayerTokenReqOuterClass {
         return this;
       }
 
-      private java.lang.Object kONDBANCCAH_ = "";
+      private java.lang.Object ClientVersion_ = "";
       /**
-       * <code>string KONDBANCCAH = 1299;</code>
-       * @return The kONDBANCCAH.
+       * <code>string _client_version = 1299;</code>
+       * @return The clientVersion.
        */
-      public java.lang.String getKONDBANCCAH() {
-        java.lang.Object ref = kONDBANCCAH_;
+      public java.lang.String getClientVersion() {
+        java.lang.Object ref = ClientVersion_;
         if (!(ref instanceof java.lang.String)) {
           com.google.protobuf.ByteString bs =
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
-          kONDBANCCAH_ = s;
+          ClientVersion_ = s;
           return s;
         } else {
           return (java.lang.String) ref;
         }
       }
       /**
-       * <code>string KONDBANCCAH = 1299;</code>
-       * @return The bytes for kONDBANCCAH.
+       * <code>string _client_version = 1299;</code>
+       * @return The bytes for clientVersion.
        */
       public com.google.protobuf.ByteString
-          getKONDBANCCAHBytes() {
-        java.lang.Object ref = kONDBANCCAH_;
+          getClientVersionBytes() {
+        java.lang.Object ref = ClientVersion_;
         if (ref instanceof String) {
           com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
-          kONDBANCCAH_ = b;
+          ClientVersion_ = b;
           return b;
         } else {
           return (com.google.protobuf.ByteString) ref;
         }
       }
       /**
-       * <code>string KONDBANCCAH = 1299;</code>
-       * @param value The kONDBANCCAH to set.
+       * <code>string _client_version = 1299;</code>
+       * @param value The clientVersion to set.
        * @return This builder for chaining.
        */
-      public Builder setKONDBANCCAH(
+      public Builder setClientVersion(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
   
-        kONDBANCCAH_ = value;
+        ClientVersion_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>string KONDBANCCAH = 1299;</code>
+       * <code>string _client_version = 1299;</code>
        * @return This builder for chaining.
        */
-      public Builder clearKONDBANCCAH() {
+      public Builder clearClientVersion() {
         
-        kONDBANCCAH_ = getDefaultInstance().getKONDBANCCAH();
+        ClientVersion_ = getDefaultInstance().getClientVersion();
         onChanged();
         return this;
       }
       /**
-       * <code>string KONDBANCCAH = 1299;</code>
-       * @param value The bytes for kONDBANCCAH to set.
+       * <code>string _client_version = 1299;</code>
+       * @param value The bytes for clientVersion to set.
        * @return This builder for chaining.
        */
-      public Builder setKONDBANCCAHBytes(
+      public Builder setClientVersionBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
         
-        kONDBANCCAH_ = value;
+        ClientVersion_ = value;
         onChanged();
         return this;
       }
@@ -3687,7 +3687,7 @@ public final class GetPlayerTokenReqOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\027GetPlayerTokenReq.proto\"\352\004\n\021GetPlayerT" +
+      "\n\027GetPlayerTokenReq.proto\"\356\004\n\021GetPlayerT" +
       "okenReq\022\021\n\tonline_id\030\006 \001(\t\022\023\n\013account_ui" +
       "d\030\n \001(\t\022\025\n\rplatform_type\030\r \001(\r\022\016\n\006psn_id" +
       "\030\014 \001(\t\022\027\n\017cloud_client_ip\030\004 \001(\r\022\025\n\raccou" +
@@ -3701,10 +3701,10 @@ public final class GetPlayerTokenReqOuterClass {
       "HHOJAF\030\353\r \001(\t\022\023\n\tsign_type\030\324\206\003 \001(\r\022\025\n\013au" +
       "thkey_ver\030\325\206\003 \001(\r\022\017\n\006key_id\030\223\016 \001(\r\022\r\n\004la" +
       "ng\030\265\017 \001(\r\022\030\n\017client_rand_key\030\213\005 \001(\t\022\016\n\005_" +
-      "xuid\030\306\006 \001(\t\022\026\n\014_gate_ticket\030\326\206\003 \001(\t\022\024\n\013K" +
-      "ONDBANCCAH\030\223\n \001(\t\022\033\n\022minors_reg_min_age\030" +
-      "\364\017 \001(\rB8\n\031emu.grasscutter.net.protoB\033Get" +
-      "PlayerTokenReqOuterClassb\006proto3"
+      "xuid\030\306\006 \001(\t\022\026\n\014_gate_ticket\030\326\206\003 \001(\t\022\030\n\017_" +
+      "client_version\030\223\n \001(\t\022\033\n\022minors_reg_min_" +
+      "age\030\364\017 \001(\rB8\n\031emu.grasscutter.net.protoB" +
+      "\033GetPlayerTokenReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -3715,7 +3715,7 @@ public final class GetPlayerTokenReqOuterClass {
     internal_static_GetPlayerTokenReq_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GetPlayerTokenReq_descriptor,
-        new java.lang.String[] { "OnlineId", "AccountUid", "PlatformType", "PsnId", "CloudClientIp", "AccountToken", "AccountType", "SubChannelId", "ChannelId", "ClientIpStr", "CountryCode", "Uid", "PCIMGFGDICO", "FDCECMCNKGC", "IsGuest", "AuthAppid", "Birthday", "XboxGamertag", "BKIICHHOJAF", "SignType", "AuthkeyVer", "KeyId", "Lang", "ClientRandKey", "Xuid", "GateTicket", "KONDBANCCAH", "MinorsRegMinAge", });
+        new java.lang.String[] { "OnlineId", "AccountUid", "PlatformType", "PsnId", "CloudClientIp", "AccountToken", "AccountType", "SubChannelId", "ChannelId", "ClientIpStr", "CountryCode", "Uid", "PCIMGFGDICO", "FDCECMCNKGC", "IsGuest", "AuthAppid", "Birthday", "XboxGamertag", "BKIICHHOJAF", "SignType", "AuthkeyVer", "KeyId", "Lang", "ClientRandKey", "Xuid", "GateTicket", "ClientVersion", "MinorsRegMinAge", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

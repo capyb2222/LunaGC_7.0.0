@@ -19,25 +19,25 @@ public final class _SlimeCannonSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 DDEJMMAOCJG = 3;</code>
+     * <code>uint32 DDEJMMAOCJG = 50000;</code>
      * @return The dDEJMMAOCJG.
      */
     int getDDEJMMAOCJG();
 
     /**
-     * <code>uint32 GANHHPBJJIK = 5;</code>
+     * <code>uint32 GANHHPBJJIK = 50001;</code>
      * @return The gANHHPBJJIK.
      */
     int getGANHHPBJJIK();
 
     /**
-     * <code>uint32 HFDJKLDGLML = 7;</code>
+     * <code>uint32 HFDJKLDGLML = 50002;</code>
      * @return The hFDJKLDGLML.
      */
     int getHFDJKLDGLML();
 
     /**
-     * <code>uint32 level_id = 9;</code>
+     * <code>uint32 level_id = 15;</code>
      * @return The levelId.
      */
     int getLevelId();
@@ -49,7 +49,7 @@ public final class _SlimeCannonSettleInfoOuterClass {
     int getKillNum();
 
     /**
-     * <code>uint32 life_num = 12;</code>
+     * <code>uint32 life_num = 50003;</code>
      * @return The lifeNum.
      */
     int getLifeNum();
@@ -99,32 +99,32 @@ public final class _SlimeCannonSettleInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
-
-              dDEJMMAOCJG_ = input.readUInt32();
-              break;
-            }
-            case 40: {
-
-              gANHHPBJJIK_ = input.readUInt32();
-              break;
-            }
-            case 56: {
-
-              hFDJKLDGLML_ = input.readUInt32();
-              break;
-            }
-            case 72: {
-
-              levelId_ = input.readUInt32();
-              break;
-            }
             case 88: {
 
               killNum_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 120: {
+
+              levelId_ = input.readUInt32();
+              break;
+            }
+            case 400000: {
+
+              dDEJMMAOCJG_ = input.readUInt32();
+              break;
+            }
+            case 400008: {
+
+              gANHHPBJJIK_ = input.readUInt32();
+              break;
+            }
+            case 400016: {
+
+              hFDJKLDGLML_ = input.readUInt32();
+              break;
+            }
+            case 400024: {
 
               lifeNum_ = input.readUInt32();
               break;
@@ -161,10 +161,10 @@ public final class _SlimeCannonSettleInfoOuterClass {
               emu.grasscutter.net.proto._SlimeCannonSettleInfoOuterClass._SlimeCannonSettleInfo.class, emu.grasscutter.net.proto._SlimeCannonSettleInfoOuterClass._SlimeCannonSettleInfo.Builder.class);
     }
 
-    public static final int DDEJMMAOCJG_FIELD_NUMBER = 3;
+    public static final int DDEJMMAOCJG_FIELD_NUMBER = 50000;
     private int dDEJMMAOCJG_;
     /**
-     * <code>uint32 DDEJMMAOCJG = 3;</code>
+     * <code>uint32 DDEJMMAOCJG = 50000;</code>
      * @return The dDEJMMAOCJG.
      */
     @java.lang.Override
@@ -172,10 +172,10 @@ public final class _SlimeCannonSettleInfoOuterClass {
       return dDEJMMAOCJG_;
     }
 
-    public static final int GANHHPBJJIK_FIELD_NUMBER = 5;
+    public static final int GANHHPBJJIK_FIELD_NUMBER = 50001;
     private int gANHHPBJJIK_;
     /**
-     * <code>uint32 GANHHPBJJIK = 5;</code>
+     * <code>uint32 GANHHPBJJIK = 50001;</code>
      * @return The gANHHPBJJIK.
      */
     @java.lang.Override
@@ -183,10 +183,10 @@ public final class _SlimeCannonSettleInfoOuterClass {
       return gANHHPBJJIK_;
     }
 
-    public static final int HFDJKLDGLML_FIELD_NUMBER = 7;
+    public static final int HFDJKLDGLML_FIELD_NUMBER = 50002;
     private int hFDJKLDGLML_;
     /**
-     * <code>uint32 HFDJKLDGLML = 7;</code>
+     * <code>uint32 HFDJKLDGLML = 50002;</code>
      * @return The hFDJKLDGLML.
      */
     @java.lang.Override
@@ -194,10 +194,10 @@ public final class _SlimeCannonSettleInfoOuterClass {
       return hFDJKLDGLML_;
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 9;
+    public static final int LEVEL_ID_FIELD_NUMBER = 15;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 9;</code>
+     * <code>uint32 level_id = 15;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -216,10 +216,10 @@ public final class _SlimeCannonSettleInfoOuterClass {
       return killNum_;
     }
 
-    public static final int LIFE_NUM_FIELD_NUMBER = 12;
+    public static final int LIFE_NUM_FIELD_NUMBER = 50003;
     private int lifeNum_;
     /**
-     * <code>uint32 life_num = 12;</code>
+     * <code>uint32 life_num = 50003;</code>
      * @return The lifeNum.
      */
     @java.lang.Override
@@ -241,23 +241,23 @@ public final class _SlimeCannonSettleInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (dDEJMMAOCJG_ != 0) {
-        output.writeUInt32(3, dDEJMMAOCJG_);
-      }
-      if (gANHHPBJJIK_ != 0) {
-        output.writeUInt32(5, gANHHPBJJIK_);
-      }
-      if (hFDJKLDGLML_ != 0) {
-        output.writeUInt32(7, hFDJKLDGLML_);
-      }
-      if (levelId_ != 0) {
-        output.writeUInt32(9, levelId_);
-      }
       if (killNum_ != 0) {
         output.writeUInt32(11, killNum_);
       }
+      if (levelId_ != 0) {
+        output.writeUInt32(15, levelId_);
+      }
+      if (dDEJMMAOCJG_ != 0) {
+        output.writeUInt32(50000, dDEJMMAOCJG_);
+      }
+      if (gANHHPBJJIK_ != 0) {
+        output.writeUInt32(50001, gANHHPBJJIK_);
+      }
+      if (hFDJKLDGLML_ != 0) {
+        output.writeUInt32(50002, hFDJKLDGLML_);
+      }
       if (lifeNum_ != 0) {
-        output.writeUInt32(12, lifeNum_);
+        output.writeUInt32(50003, lifeNum_);
       }
       unknownFields.writeTo(output);
     }
@@ -268,29 +268,29 @@ public final class _SlimeCannonSettleInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (dDEJMMAOCJG_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, dDEJMMAOCJG_);
-      }
-      if (gANHHPBJJIK_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, gANHHPBJJIK_);
-      }
-      if (hFDJKLDGLML_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, hFDJKLDGLML_);
-      }
-      if (levelId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, levelId_);
-      }
       if (killNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(11, killNum_);
       }
+      if (levelId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(15, levelId_);
+      }
+      if (dDEJMMAOCJG_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50000, dDEJMMAOCJG_);
+      }
+      if (gANHHPBJJIK_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50001, gANHHPBJJIK_);
+      }
+      if (hFDJKLDGLML_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50002, hFDJKLDGLML_);
+      }
       if (lifeNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, lifeNum_);
+          .computeUInt32Size(50003, lifeNum_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -616,7 +616,7 @@ public final class _SlimeCannonSettleInfoOuterClass {
 
       private int dDEJMMAOCJG_ ;
       /**
-       * <code>uint32 DDEJMMAOCJG = 3;</code>
+       * <code>uint32 DDEJMMAOCJG = 50000;</code>
        * @return The dDEJMMAOCJG.
        */
       @java.lang.Override
@@ -624,7 +624,7 @@ public final class _SlimeCannonSettleInfoOuterClass {
         return dDEJMMAOCJG_;
       }
       /**
-       * <code>uint32 DDEJMMAOCJG = 3;</code>
+       * <code>uint32 DDEJMMAOCJG = 50000;</code>
        * @param value The dDEJMMAOCJG to set.
        * @return This builder for chaining.
        */
@@ -635,7 +635,7 @@ public final class _SlimeCannonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 DDEJMMAOCJG = 3;</code>
+       * <code>uint32 DDEJMMAOCJG = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearDDEJMMAOCJG() {
@@ -647,7 +647,7 @@ public final class _SlimeCannonSettleInfoOuterClass {
 
       private int gANHHPBJJIK_ ;
       /**
-       * <code>uint32 GANHHPBJJIK = 5;</code>
+       * <code>uint32 GANHHPBJJIK = 50001;</code>
        * @return The gANHHPBJJIK.
        */
       @java.lang.Override
@@ -655,7 +655,7 @@ public final class _SlimeCannonSettleInfoOuterClass {
         return gANHHPBJJIK_;
       }
       /**
-       * <code>uint32 GANHHPBJJIK = 5;</code>
+       * <code>uint32 GANHHPBJJIK = 50001;</code>
        * @param value The gANHHPBJJIK to set.
        * @return This builder for chaining.
        */
@@ -666,7 +666,7 @@ public final class _SlimeCannonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 GANHHPBJJIK = 5;</code>
+       * <code>uint32 GANHHPBJJIK = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearGANHHPBJJIK() {
@@ -678,7 +678,7 @@ public final class _SlimeCannonSettleInfoOuterClass {
 
       private int hFDJKLDGLML_ ;
       /**
-       * <code>uint32 HFDJKLDGLML = 7;</code>
+       * <code>uint32 HFDJKLDGLML = 50002;</code>
        * @return The hFDJKLDGLML.
        */
       @java.lang.Override
@@ -686,7 +686,7 @@ public final class _SlimeCannonSettleInfoOuterClass {
         return hFDJKLDGLML_;
       }
       /**
-       * <code>uint32 HFDJKLDGLML = 7;</code>
+       * <code>uint32 HFDJKLDGLML = 50002;</code>
        * @param value The hFDJKLDGLML to set.
        * @return This builder for chaining.
        */
@@ -697,7 +697,7 @@ public final class _SlimeCannonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 HFDJKLDGLML = 7;</code>
+       * <code>uint32 HFDJKLDGLML = 50002;</code>
        * @return This builder for chaining.
        */
       public Builder clearHFDJKLDGLML() {
@@ -709,7 +709,7 @@ public final class _SlimeCannonSettleInfoOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 9;</code>
+       * <code>uint32 level_id = 15;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -717,7 +717,7 @@ public final class _SlimeCannonSettleInfoOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 9;</code>
+       * <code>uint32 level_id = 15;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -728,7 +728,7 @@ public final class _SlimeCannonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 9;</code>
+       * <code>uint32 level_id = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -771,7 +771,7 @@ public final class _SlimeCannonSettleInfoOuterClass {
 
       private int lifeNum_ ;
       /**
-       * <code>uint32 life_num = 12;</code>
+       * <code>uint32 life_num = 50003;</code>
        * @return The lifeNum.
        */
       @java.lang.Override
@@ -779,7 +779,7 @@ public final class _SlimeCannonSettleInfoOuterClass {
         return lifeNum_;
       }
       /**
-       * <code>uint32 life_num = 12;</code>
+       * <code>uint32 life_num = 50003;</code>
        * @param value The lifeNum to set.
        * @return This builder for chaining.
        */
@@ -790,7 +790,7 @@ public final class _SlimeCannonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 life_num = 12;</code>
+       * <code>uint32 life_num = 50003;</code>
        * @return This builder for chaining.
        */
       public Builder clearLifeNum() {
@@ -866,13 +866,13 @@ public final class _SlimeCannonSettleInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\034_SlimeCannonSettleInfo.proto\"\215\001\n\026_Slim" +
-      "eCannonSettleInfo\022\023\n\013DDEJMMAOCJG\030\003 \001(\r\022\023" +
-      "\n\013GANHHPBJJIK\030\005 \001(\r\022\023\n\013HFDJKLDGLML\030\007 \001(\r" +
-      "\022\020\n\010level_id\030\t \001(\r\022\020\n\010kill_num\030\013 \001(\r\022\020\n\010" +
-      "life_num\030\014 \001(\rB=\n\031emu.grasscutter.net.pr" +
-      "otoB _SlimeCannonSettleInfoOuterClassb\006p" +
-      "roto3"
+      "\n\034_SlimeCannonSettleInfo.proto\"\225\001\n\026_Slim" +
+      "eCannonSettleInfo\022\025\n\013DDEJMMAOCJG\030\320\206\003 \001(\r" +
+      "\022\025\n\013GANHHPBJJIK\030\321\206\003 \001(\r\022\025\n\013HFDJKLDGLML\030\322" +
+      "\206\003 \001(\r\022\020\n\010level_id\030\017 \001(\r\022\020\n\010kill_num\030\013 \001" +
+      "(\r\022\022\n\010life_num\030\323\206\003 \001(\rB=\n\031emu.grasscutte" +
+      "r.net.protoB _SlimeCannonSettleInfoOuter" +
+      "Classb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

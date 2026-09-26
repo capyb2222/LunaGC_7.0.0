@@ -43,13 +43,13 @@ public final class DragonSpineActivityDetailInfoOuterClass {
     int getContentFinishTime();
 
     /**
-     * <code>uint32 weapon_enhance_level = 50002;</code>
+     * <code>uint32 weapon_enhance_level = 11;</code>
      * @return The weaponEnhanceLevel.
      */
     int getWeaponEnhanceLevel();
 
     /**
-     * <code>uint32 GNADEDJKAJM = 50003;</code>
+     * <code>uint32 GNADEDJKAJM = 50002;</code>
      * @return The gNADEDJKAJM.
      */
     int getGNADEDJKAJM();
@@ -144,6 +144,11 @@ public final class DragonSpineActivityDetailInfoOuterClass {
               isContentClosed_ = input.readBool();
               break;
             }
+            case 88: {
+
+              weaponEnhanceLevel_ = input.readUInt32();
+              break;
+            }
             case 400000: {
 
               dnodgcmpoan_ = input.readUInt32();
@@ -155,11 +160,6 @@ public final class DragonSpineActivityDetailInfoOuterClass {
               break;
             }
             case 400016: {
-
-              weaponEnhanceLevel_ = input.readUInt32();
-              break;
-            }
-            case 400024: {
 
               gNADEDJKAJM_ = input.readUInt32();
               break;
@@ -243,10 +243,10 @@ public final class DragonSpineActivityDetailInfoOuterClass {
       return contentFinishTime_;
     }
 
-    public static final int WEAPON_ENHANCE_LEVEL_FIELD_NUMBER = 50002;
+    public static final int WEAPON_ENHANCE_LEVEL_FIELD_NUMBER = 11;
     private int weaponEnhanceLevel_;
     /**
-     * <code>uint32 weapon_enhance_level = 50002;</code>
+     * <code>uint32 weapon_enhance_level = 11;</code>
      * @return The weaponEnhanceLevel.
      */
     @java.lang.Override
@@ -254,10 +254,10 @@ public final class DragonSpineActivityDetailInfoOuterClass {
       return weaponEnhanceLevel_;
     }
 
-    public static final int GNADEDJKAJM_FIELD_NUMBER = 50003;
+    public static final int GNADEDJKAJM_FIELD_NUMBER = 50002;
     private int gNADEDJKAJM_;
     /**
-     * <code>uint32 GNADEDJKAJM = 50003;</code>
+     * <code>uint32 GNADEDJKAJM = 50002;</code>
      * @return The gNADEDJKAJM.
      */
     @java.lang.Override
@@ -328,17 +328,17 @@ public final class DragonSpineActivityDetailInfoOuterClass {
       if (isContentClosed_ != false) {
         output.writeBool(9, isContentClosed_);
       }
+      if (weaponEnhanceLevel_ != 0) {
+        output.writeUInt32(11, weaponEnhanceLevel_);
+      }
       if (dnodgcmpoan_ != 0) {
         output.writeUInt32(50000, dnodgcmpoan_);
       }
       if (aBBFOLNPGNE_ != 0) {
         output.writeUInt32(50001, aBBFOLNPGNE_);
       }
-      if (weaponEnhanceLevel_ != 0) {
-        output.writeUInt32(50002, weaponEnhanceLevel_);
-      }
       if (gNADEDJKAJM_ != 0) {
-        output.writeUInt32(50003, gNADEDJKAJM_);
+        output.writeUInt32(50002, gNADEDJKAJM_);
       }
       unknownFields.writeTo(output);
     }
@@ -361,6 +361,10 @@ public final class DragonSpineActivityDetailInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(9, isContentClosed_);
       }
+      if (weaponEnhanceLevel_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(11, weaponEnhanceLevel_);
+      }
       if (dnodgcmpoan_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(50000, dnodgcmpoan_);
@@ -369,13 +373,9 @@ public final class DragonSpineActivityDetailInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(50001, aBBFOLNPGNE_);
       }
-      if (weaponEnhanceLevel_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(50002, weaponEnhanceLevel_);
-      }
       if (gNADEDJKAJM_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(50003, gNADEDJKAJM_);
+          .computeUInt32Size(50002, gNADEDJKAJM_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -876,7 +876,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
 
       private int weaponEnhanceLevel_ ;
       /**
-       * <code>uint32 weapon_enhance_level = 50002;</code>
+       * <code>uint32 weapon_enhance_level = 11;</code>
        * @return The weaponEnhanceLevel.
        */
       @java.lang.Override
@@ -884,7 +884,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
         return weaponEnhanceLevel_;
       }
       /**
-       * <code>uint32 weapon_enhance_level = 50002;</code>
+       * <code>uint32 weapon_enhance_level = 11;</code>
        * @param value The weaponEnhanceLevel to set.
        * @return This builder for chaining.
        */
@@ -895,7 +895,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 weapon_enhance_level = 50002;</code>
+       * <code>uint32 weapon_enhance_level = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearWeaponEnhanceLevel() {
@@ -907,7 +907,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
 
       private int gNADEDJKAJM_ ;
       /**
-       * <code>uint32 GNADEDJKAJM = 50003;</code>
+       * <code>uint32 GNADEDJKAJM = 50002;</code>
        * @return The gNADEDJKAJM.
        */
       @java.lang.Override
@@ -915,7 +915,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
         return gNADEDJKAJM_;
       }
       /**
-       * <code>uint32 GNADEDJKAJM = 50003;</code>
+       * <code>uint32 GNADEDJKAJM = 50002;</code>
        * @param value The gNADEDJKAJM to set.
        * @return This builder for chaining.
        */
@@ -926,7 +926,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 GNADEDJKAJM = 50003;</code>
+       * <code>uint32 GNADEDJKAJM = 50002;</code>
        * @return This builder for chaining.
        */
       public Builder clearGNADEDJKAJM() {
@@ -1243,15 +1243,15 @@ public final class DragonSpineActivityDetailInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n#DragonSpineActivityDetailInfo.proto\032\034D" +
-      "ragonSpineChapterInfo.proto\"\360\001\n\035DragonSp" +
+      "ragonSpineChapterInfo.proto\"\356\001\n\035DragonSp" +
       "ineActivityDetailInfo\022\025\n\013dnodgcmpoan\030\320\206\003" +
       " \001(\r\022\025\n\013ABBFOLNPGNE\030\321\206\003 \001(\r\022\031\n\021is_conten" +
       "t_closed\030\t \001(\010\022\033\n\023content_finish_time\030\003 " +
-      "\001(\r\022\036\n\024weapon_enhance_level\030\322\206\003 \001(\r\022\025\n\013G" +
-      "NADEDJKAJM\030\323\206\003 \001(\r\0222\n\021chapter_info_list\030" +
-      "\006 \003(\0132\027.DragonSpineChapterInfoBD\n\031emu.gr" +
-      "asscutter.net.protoB\'DragonSpineActivity" +
-      "DetailInfoOuterClassb\006proto3"
+      "\001(\r\022\034\n\024weapon_enhance_level\030\013 \001(\r\022\025\n\013GNA" +
+      "DEDJKAJM\030\322\206\003 \001(\r\0222\n\021chapter_info_list\030\006 " +
+      "\003(\0132\027.DragonSpineChapterInfoBD\n\031emu.gras" +
+      "scutter.net.protoB\'DragonSpineActivityDe" +
+      "tailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

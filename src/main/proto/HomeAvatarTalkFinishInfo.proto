@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "HomeAvatarTalkFinishInfoOuterClass";
 
 message HomeAvatarTalkFinishInfo {
-	repeated uint32 finish_talk_id_list = 5;
-	uint32 avatar_id = 12;
+	repeated uint32 finish_talk_id_list = 2;
+	uint32 avatar_id = 15;
 }

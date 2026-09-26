@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "_BladeHeartLevelInfoOuterClass";
 
 message _BladeHeartLevelInfo {
-	bool is_perfect = 8;
-	bool _is_cutscene_viewed = 11;
+	bool is_perfect = 4;
+	bool _is_cutscene_viewed = 6;
 }

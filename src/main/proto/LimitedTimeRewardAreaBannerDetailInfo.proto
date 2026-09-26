@@ -6,5 +6,5 @@ option java_outer_classname = "LimitedTimeRewardAreaBannerDetailInfoOuterClass";
 import "Uint32Pair.proto";
 
 message LimitedTimeRewardAreaBannerDetailInfo {
-	repeated Uint32Pair mhkebjmfmcj = 8;
+	repeated Uint32Pair mhkebjmfmcj = 14;
 }

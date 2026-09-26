@@ -19,51 +19,51 @@ public final class MapLayerInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 _unlock_map_layer_list = 10;</code>
+     * <code>repeated uint32 _unlock_map_layer_list = 50000;</code>
      * @return A list containing the unlockMapLayerList.
      */
     java.util.List<java.lang.Integer> getUnlockMapLayerListList();
     /**
-     * <code>repeated uint32 _unlock_map_layer_list = 10;</code>
+     * <code>repeated uint32 _unlock_map_layer_list = 50000;</code>
      * @return The count of unlockMapLayerList.
      */
     int getUnlockMapLayerListCount();
     /**
-     * <code>repeated uint32 _unlock_map_layer_list = 10;</code>
+     * <code>repeated uint32 _unlock_map_layer_list = 50000;</code>
      * @param index The index of the element to return.
      * @return The unlockMapLayerList at the given index.
      */
     int getUnlockMapLayerList(int index);
 
     /**
-     * <code>repeated uint32 CGAHBCDBIGF = 11;</code>
+     * <code>repeated uint32 CGAHBCDBIGF = 50001;</code>
      * @return A list containing the cGAHBCDBIGF.
      */
     java.util.List<java.lang.Integer> getCGAHBCDBIGFList();
     /**
-     * <code>repeated uint32 CGAHBCDBIGF = 11;</code>
+     * <code>repeated uint32 CGAHBCDBIGF = 50001;</code>
      * @return The count of cGAHBCDBIGF.
      */
     int getCGAHBCDBIGFCount();
     /**
-     * <code>repeated uint32 CGAHBCDBIGF = 11;</code>
+     * <code>repeated uint32 CGAHBCDBIGF = 50001;</code>
      * @param index The index of the element to return.
      * @return The cGAHBCDBIGF at the given index.
      */
     int getCGAHBCDBIGF(int index);
 
     /**
-     * <code>repeated uint32 _unlock_map_layer_group_list = 15;</code>
+     * <code>repeated uint32 _unlock_map_layer_group_list = 50002;</code>
      * @return A list containing the unlockMapLayerGroupList.
      */
     java.util.List<java.lang.Integer> getUnlockMapLayerGroupListList();
     /**
-     * <code>repeated uint32 _unlock_map_layer_group_list = 15;</code>
+     * <code>repeated uint32 _unlock_map_layer_group_list = 50002;</code>
      * @return The count of unlockMapLayerGroupList.
      */
     int getUnlockMapLayerGroupListCount();
     /**
-     * <code>repeated uint32 _unlock_map_layer_group_list = 15;</code>
+     * <code>repeated uint32 _unlock_map_layer_group_list = 50002;</code>
      * @param index The index of the element to return.
      * @return The unlockMapLayerGroupList at the given index.
      */
@@ -118,7 +118,7 @@ public final class MapLayerInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 80: {
+            case 400000: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 UnlockMapLayerList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -126,7 +126,7 @@ public final class MapLayerInfoOuterClass {
               UnlockMapLayerList_.addInt(input.readUInt32());
               break;
             }
-            case 82: {
+            case 400002: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -139,7 +139,7 @@ public final class MapLayerInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 88: {
+            case 400008: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 cGAHBCDBIGF_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
@@ -147,7 +147,7 @@ public final class MapLayerInfoOuterClass {
               cGAHBCDBIGF_.addInt(input.readUInt32());
               break;
             }
-            case 90: {
+            case 400010: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
@@ -160,7 +160,7 @@ public final class MapLayerInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 120: {
+            case 400016: {
               if (!((mutable_bitField0_ & 0x00000004) != 0)) {
                 UnlockMapLayerGroupList_ = newIntList();
                 mutable_bitField0_ |= 0x00000004;
@@ -168,7 +168,7 @@ public final class MapLayerInfoOuterClass {
               UnlockMapLayerGroupList_.addInt(input.readUInt32());
               break;
             }
-            case 122: {
+            case 400018: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000004) != 0) && input.getBytesUntilLimit() > 0) {
@@ -222,10 +222,10 @@ public final class MapLayerInfoOuterClass {
               emu.grasscutter.net.proto.MapLayerInfoOuterClass.MapLayerInfo.class, emu.grasscutter.net.proto.MapLayerInfoOuterClass.MapLayerInfo.Builder.class);
     }
 
-    public static final int _UNLOCK_MAP_LAYER_LIST_FIELD_NUMBER = 10;
+    public static final int _UNLOCK_MAP_LAYER_LIST_FIELD_NUMBER = 50000;
     private com.google.protobuf.Internal.IntList UnlockMapLayerList_;
     /**
-     * <code>repeated uint32 _unlock_map_layer_list = 10;</code>
+     * <code>repeated uint32 _unlock_map_layer_list = 50000;</code>
      * @return A list containing the unlockMapLayerList.
      */
     @java.lang.Override
@@ -234,14 +234,14 @@ public final class MapLayerInfoOuterClass {
       return UnlockMapLayerList_;
     }
     /**
-     * <code>repeated uint32 _unlock_map_layer_list = 10;</code>
+     * <code>repeated uint32 _unlock_map_layer_list = 50000;</code>
      * @return The count of unlockMapLayerList.
      */
     public int getUnlockMapLayerListCount() {
       return UnlockMapLayerList_.size();
     }
     /**
-     * <code>repeated uint32 _unlock_map_layer_list = 10;</code>
+     * <code>repeated uint32 _unlock_map_layer_list = 50000;</code>
      * @param index The index of the element to return.
      * @return The unlockMapLayerList at the given index.
      */
@@ -250,10 +250,10 @@ public final class MapLayerInfoOuterClass {
     }
     private int UnlockMapLayerListMemoizedSerializedSize = -1;
 
-    public static final int CGAHBCDBIGF_FIELD_NUMBER = 11;
+    public static final int CGAHBCDBIGF_FIELD_NUMBER = 50001;
     private com.google.protobuf.Internal.IntList cGAHBCDBIGF_;
     /**
-     * <code>repeated uint32 CGAHBCDBIGF = 11;</code>
+     * <code>repeated uint32 CGAHBCDBIGF = 50001;</code>
      * @return A list containing the cGAHBCDBIGF.
      */
     @java.lang.Override
@@ -262,14 +262,14 @@ public final class MapLayerInfoOuterClass {
       return cGAHBCDBIGF_;
     }
     /**
-     * <code>repeated uint32 CGAHBCDBIGF = 11;</code>
+     * <code>repeated uint32 CGAHBCDBIGF = 50001;</code>
      * @return The count of cGAHBCDBIGF.
      */
     public int getCGAHBCDBIGFCount() {
       return cGAHBCDBIGF_.size();
     }
     /**
-     * <code>repeated uint32 CGAHBCDBIGF = 11;</code>
+     * <code>repeated uint32 CGAHBCDBIGF = 50001;</code>
      * @param index The index of the element to return.
      * @return The cGAHBCDBIGF at the given index.
      */
@@ -278,10 +278,10 @@ public final class MapLayerInfoOuterClass {
     }
     private int cGAHBCDBIGFMemoizedSerializedSize = -1;
 
-    public static final int _UNLOCK_MAP_LAYER_GROUP_LIST_FIELD_NUMBER = 15;
+    public static final int _UNLOCK_MAP_LAYER_GROUP_LIST_FIELD_NUMBER = 50002;
     private com.google.protobuf.Internal.IntList UnlockMapLayerGroupList_;
     /**
-     * <code>repeated uint32 _unlock_map_layer_group_list = 15;</code>
+     * <code>repeated uint32 _unlock_map_layer_group_list = 50002;</code>
      * @return A list containing the unlockMapLayerGroupList.
      */
     @java.lang.Override
@@ -290,14 +290,14 @@ public final class MapLayerInfoOuterClass {
       return UnlockMapLayerGroupList_;
     }
     /**
-     * <code>repeated uint32 _unlock_map_layer_group_list = 15;</code>
+     * <code>repeated uint32 _unlock_map_layer_group_list = 50002;</code>
      * @return The count of unlockMapLayerGroupList.
      */
     public int getUnlockMapLayerGroupListCount() {
       return UnlockMapLayerGroupList_.size();
     }
     /**
-     * <code>repeated uint32 _unlock_map_layer_group_list = 15;</code>
+     * <code>repeated uint32 _unlock_map_layer_group_list = 50002;</code>
      * @param index The index of the element to return.
      * @return The unlockMapLayerGroupList at the given index.
      */
@@ -322,21 +322,21 @@ public final class MapLayerInfoOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getUnlockMapLayerListList().size() > 0) {
-        output.writeUInt32NoTag(82);
+        output.writeUInt32NoTag(400002);
         output.writeUInt32NoTag(UnlockMapLayerListMemoizedSerializedSize);
       }
       for (int i = 0; i < UnlockMapLayerList_.size(); i++) {
         output.writeUInt32NoTag(UnlockMapLayerList_.getInt(i));
       }
       if (getCGAHBCDBIGFList().size() > 0) {
-        output.writeUInt32NoTag(90);
+        output.writeUInt32NoTag(400010);
         output.writeUInt32NoTag(cGAHBCDBIGFMemoizedSerializedSize);
       }
       for (int i = 0; i < cGAHBCDBIGF_.size(); i++) {
         output.writeUInt32NoTag(cGAHBCDBIGF_.getInt(i));
       }
       if (getUnlockMapLayerGroupListList().size() > 0) {
-        output.writeUInt32NoTag(122);
+        output.writeUInt32NoTag(400018);
         output.writeUInt32NoTag(UnlockMapLayerGroupListMemoizedSerializedSize);
       }
       for (int i = 0; i < UnlockMapLayerGroupList_.size(); i++) {
@@ -359,7 +359,7 @@ public final class MapLayerInfoOuterClass {
         }
         size += dataSize;
         if (!getUnlockMapLayerListList().isEmpty()) {
-          size += 1;
+          size += 3;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
@@ -373,7 +373,7 @@ public final class MapLayerInfoOuterClass {
         }
         size += dataSize;
         if (!getCGAHBCDBIGFList().isEmpty()) {
-          size += 1;
+          size += 3;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
@@ -387,7 +387,7 @@ public final class MapLayerInfoOuterClass {
         }
         size += dataSize;
         if (!getUnlockMapLayerGroupListList().isEmpty()) {
-          size += 1;
+          size += 3;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
@@ -734,7 +734,7 @@ public final class MapLayerInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 _unlock_map_layer_list = 10;</code>
+       * <code>repeated uint32 _unlock_map_layer_list = 50000;</code>
        * @return A list containing the unlockMapLayerList.
        */
       public java.util.List<java.lang.Integer>
@@ -743,14 +743,14 @@ public final class MapLayerInfoOuterClass {
                  java.util.Collections.unmodifiableList(UnlockMapLayerList_) : UnlockMapLayerList_;
       }
       /**
-       * <code>repeated uint32 _unlock_map_layer_list = 10;</code>
+       * <code>repeated uint32 _unlock_map_layer_list = 50000;</code>
        * @return The count of unlockMapLayerList.
        */
       public int getUnlockMapLayerListCount() {
         return UnlockMapLayerList_.size();
       }
       /**
-       * <code>repeated uint32 _unlock_map_layer_list = 10;</code>
+       * <code>repeated uint32 _unlock_map_layer_list = 50000;</code>
        * @param index The index of the element to return.
        * @return The unlockMapLayerList at the given index.
        */
@@ -758,7 +758,7 @@ public final class MapLayerInfoOuterClass {
         return UnlockMapLayerList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 _unlock_map_layer_list = 10;</code>
+       * <code>repeated uint32 _unlock_map_layer_list = 50000;</code>
        * @param index The index to set the value at.
        * @param value The unlockMapLayerList to set.
        * @return This builder for chaining.
@@ -771,7 +771,7 @@ public final class MapLayerInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 _unlock_map_layer_list = 10;</code>
+       * <code>repeated uint32 _unlock_map_layer_list = 50000;</code>
        * @param value The unlockMapLayerList to add.
        * @return This builder for chaining.
        */
@@ -782,7 +782,7 @@ public final class MapLayerInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 _unlock_map_layer_list = 10;</code>
+       * <code>repeated uint32 _unlock_map_layer_list = 50000;</code>
        * @param values The unlockMapLayerList to add.
        * @return This builder for chaining.
        */
@@ -795,7 +795,7 @@ public final class MapLayerInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 _unlock_map_layer_list = 10;</code>
+       * <code>repeated uint32 _unlock_map_layer_list = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearUnlockMapLayerList() {
@@ -813,7 +813,7 @@ public final class MapLayerInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 CGAHBCDBIGF = 11;</code>
+       * <code>repeated uint32 CGAHBCDBIGF = 50001;</code>
        * @return A list containing the cGAHBCDBIGF.
        */
       public java.util.List<java.lang.Integer>
@@ -822,14 +822,14 @@ public final class MapLayerInfoOuterClass {
                  java.util.Collections.unmodifiableList(cGAHBCDBIGF_) : cGAHBCDBIGF_;
       }
       /**
-       * <code>repeated uint32 CGAHBCDBIGF = 11;</code>
+       * <code>repeated uint32 CGAHBCDBIGF = 50001;</code>
        * @return The count of cGAHBCDBIGF.
        */
       public int getCGAHBCDBIGFCount() {
         return cGAHBCDBIGF_.size();
       }
       /**
-       * <code>repeated uint32 CGAHBCDBIGF = 11;</code>
+       * <code>repeated uint32 CGAHBCDBIGF = 50001;</code>
        * @param index The index of the element to return.
        * @return The cGAHBCDBIGF at the given index.
        */
@@ -837,7 +837,7 @@ public final class MapLayerInfoOuterClass {
         return cGAHBCDBIGF_.getInt(index);
       }
       /**
-       * <code>repeated uint32 CGAHBCDBIGF = 11;</code>
+       * <code>repeated uint32 CGAHBCDBIGF = 50001;</code>
        * @param index The index to set the value at.
        * @param value The cGAHBCDBIGF to set.
        * @return This builder for chaining.
@@ -850,7 +850,7 @@ public final class MapLayerInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 CGAHBCDBIGF = 11;</code>
+       * <code>repeated uint32 CGAHBCDBIGF = 50001;</code>
        * @param value The cGAHBCDBIGF to add.
        * @return This builder for chaining.
        */
@@ -861,7 +861,7 @@ public final class MapLayerInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 CGAHBCDBIGF = 11;</code>
+       * <code>repeated uint32 CGAHBCDBIGF = 50001;</code>
        * @param values The cGAHBCDBIGF to add.
        * @return This builder for chaining.
        */
@@ -874,7 +874,7 @@ public final class MapLayerInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 CGAHBCDBIGF = 11;</code>
+       * <code>repeated uint32 CGAHBCDBIGF = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearCGAHBCDBIGF() {
@@ -892,7 +892,7 @@ public final class MapLayerInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 _unlock_map_layer_group_list = 15;</code>
+       * <code>repeated uint32 _unlock_map_layer_group_list = 50002;</code>
        * @return A list containing the unlockMapLayerGroupList.
        */
       public java.util.List<java.lang.Integer>
@@ -901,14 +901,14 @@ public final class MapLayerInfoOuterClass {
                  java.util.Collections.unmodifiableList(UnlockMapLayerGroupList_) : UnlockMapLayerGroupList_;
       }
       /**
-       * <code>repeated uint32 _unlock_map_layer_group_list = 15;</code>
+       * <code>repeated uint32 _unlock_map_layer_group_list = 50002;</code>
        * @return The count of unlockMapLayerGroupList.
        */
       public int getUnlockMapLayerGroupListCount() {
         return UnlockMapLayerGroupList_.size();
       }
       /**
-       * <code>repeated uint32 _unlock_map_layer_group_list = 15;</code>
+       * <code>repeated uint32 _unlock_map_layer_group_list = 50002;</code>
        * @param index The index of the element to return.
        * @return The unlockMapLayerGroupList at the given index.
        */
@@ -916,7 +916,7 @@ public final class MapLayerInfoOuterClass {
         return UnlockMapLayerGroupList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 _unlock_map_layer_group_list = 15;</code>
+       * <code>repeated uint32 _unlock_map_layer_group_list = 50002;</code>
        * @param index The index to set the value at.
        * @param value The unlockMapLayerGroupList to set.
        * @return This builder for chaining.
@@ -929,7 +929,7 @@ public final class MapLayerInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 _unlock_map_layer_group_list = 15;</code>
+       * <code>repeated uint32 _unlock_map_layer_group_list = 50002;</code>
        * @param value The unlockMapLayerGroupList to add.
        * @return This builder for chaining.
        */
@@ -940,7 +940,7 @@ public final class MapLayerInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 _unlock_map_layer_group_list = 15;</code>
+       * <code>repeated uint32 _unlock_map_layer_group_list = 50002;</code>
        * @param values The unlockMapLayerGroupList to add.
        * @return This builder for chaining.
        */
@@ -953,7 +953,7 @@ public final class MapLayerInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 _unlock_map_layer_group_list = 15;</code>
+       * <code>repeated uint32 _unlock_map_layer_group_list = 50002;</code>
        * @return This builder for chaining.
        */
       public Builder clearUnlockMapLayerGroupList() {
@@ -1029,11 +1029,11 @@ public final class MapLayerInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\022MapLayerInfo.proto\"i\n\014MapLayerInfo\022\036\n\026" +
-      "_unlock_map_layer_list\030\n \003(\r\022\023\n\013CGAHBCDB" +
-      "IGF\030\013 \003(\r\022$\n\034_unlock_map_layer_group_lis" +
-      "t\030\017 \003(\rB3\n\031emu.grasscutter.net.protoB\026Ma" +
-      "pLayerInfoOuterClassb\006proto3"
+      "\n\022MapLayerInfo.proto\"o\n\014MapLayerInfo\022 \n\026" +
+      "_unlock_map_layer_list\030\320\206\003 \003(\r\022\025\n\013CGAHBC" +
+      "DBIGF\030\321\206\003 \003(\r\022&\n\034_unlock_map_layer_group" +
+      "_list\030\322\206\003 \003(\rB3\n\031emu.grasscutter.net.pro" +
+      "toB\026MapLayerInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

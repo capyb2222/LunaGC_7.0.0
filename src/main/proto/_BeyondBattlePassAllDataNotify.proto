@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_BeyondBattlePassAllDataNotifyOuterClass";
+
+import "_BeyondBattlePassMission.proto";
+import "_BeyondBattlePassSchedule.proto";
+
+message _BeyondBattlePassAllDataNotify {
+	_BeyondBattlePassSchedule cur_schedule = 4;
+	bool _have_cur_beyond_schedule = 1;
+	repeated _BeyondBattlePassMission mission_list = 7;
+}

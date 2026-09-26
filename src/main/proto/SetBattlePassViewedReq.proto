@@ -4,5 +4,5 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "SetBattlePassViewedReqOuterClass";
 
 message SetBattlePassViewedReq {
-	uint32 schedule_id = 2;
+	uint32 schedule_id = 1;
 }

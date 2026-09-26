@@ -19,37 +19,37 @@ public final class _UpgradeToBonusFacilityRevenueBuffInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 MPPNKBJHBOK = 1;</code>
+     * <code>uint32 MPPNKBJHBOK = 2;</code>
      * @return The mPPNKBJHBOK.
      */
     int getMPPNKBJHBOK();
 
     /**
-     * <code>bool NHLOILJDDIP = 4;</code>
+     * <code>bool NHLOILJDDIP = 3;</code>
      * @return The nHLOILJDDIP.
      */
     boolean getNHLOILJDDIP();
 
     /**
-     * <code>repeated .Uint32Pair ICLJFFNOEHF = 13;</code>
+     * <code>repeated .Uint32Pair ICLJFFNOEHF = 14;</code>
      */
     java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> 
         getICLJFFNOEHFList();
     /**
-     * <code>repeated .Uint32Pair ICLJFFNOEHF = 13;</code>
+     * <code>repeated .Uint32Pair ICLJFFNOEHF = 14;</code>
      */
     emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getICLJFFNOEHF(int index);
     /**
-     * <code>repeated .Uint32Pair ICLJFFNOEHF = 13;</code>
+     * <code>repeated .Uint32Pair ICLJFFNOEHF = 14;</code>
      */
     int getICLJFFNOEHFCount();
     /**
-     * <code>repeated .Uint32Pair ICLJFFNOEHF = 13;</code>
+     * <code>repeated .Uint32Pair ICLJFFNOEHF = 14;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
         getICLJFFNOEHFOrBuilderList();
     /**
-     * <code>repeated .Uint32Pair ICLJFFNOEHF = 13;</code>
+     * <code>repeated .Uint32Pair ICLJFFNOEHF = 14;</code>
      */
     emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getICLJFFNOEHFOrBuilder(
         int index);
@@ -101,17 +101,17 @@ public final class _UpgradeToBonusFacilityRevenueBuffInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 16: {
 
               mPPNKBJHBOK_ = input.readUInt32();
               break;
             }
-            case 32: {
+            case 24: {
 
               nHLOILJDDIP_ = input.readBool();
               break;
             }
-            case 106: {
+            case 114: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 iCLJFFNOEHF_ = new java.util.ArrayList<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair>();
                 mutable_bitField0_ |= 0x00000001;
@@ -155,10 +155,10 @@ public final class _UpgradeToBonusFacilityRevenueBuffInfoOuterClass {
               emu.grasscutter.net.proto._UpgradeToBonusFacilityRevenueBuffInfoOuterClass._UpgradeToBonusFacilityRevenueBuffInfo.class, emu.grasscutter.net.proto._UpgradeToBonusFacilityRevenueBuffInfoOuterClass._UpgradeToBonusFacilityRevenueBuffInfo.Builder.class);
     }
 
-    public static final int MPPNKBJHBOK_FIELD_NUMBER = 1;
+    public static final int MPPNKBJHBOK_FIELD_NUMBER = 2;
     private int mPPNKBJHBOK_;
     /**
-     * <code>uint32 MPPNKBJHBOK = 1;</code>
+     * <code>uint32 MPPNKBJHBOK = 2;</code>
      * @return The mPPNKBJHBOK.
      */
     @java.lang.Override
@@ -166,10 +166,10 @@ public final class _UpgradeToBonusFacilityRevenueBuffInfoOuterClass {
       return mPPNKBJHBOK_;
     }
 
-    public static final int NHLOILJDDIP_FIELD_NUMBER = 4;
+    public static final int NHLOILJDDIP_FIELD_NUMBER = 3;
     private boolean nHLOILJDDIP_;
     /**
-     * <code>bool NHLOILJDDIP = 4;</code>
+     * <code>bool NHLOILJDDIP = 3;</code>
      * @return The nHLOILJDDIP.
      */
     @java.lang.Override
@@ -177,17 +177,17 @@ public final class _UpgradeToBonusFacilityRevenueBuffInfoOuterClass {
       return nHLOILJDDIP_;
     }
 
-    public static final int ICLJFFNOEHF_FIELD_NUMBER = 13;
+    public static final int ICLJFFNOEHF_FIELD_NUMBER = 14;
     private java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> iCLJFFNOEHF_;
     /**
-     * <code>repeated .Uint32Pair ICLJFFNOEHF = 13;</code>
+     * <code>repeated .Uint32Pair ICLJFFNOEHF = 14;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> getICLJFFNOEHFList() {
       return iCLJFFNOEHF_;
     }
     /**
-     * <code>repeated .Uint32Pair ICLJFFNOEHF = 13;</code>
+     * <code>repeated .Uint32Pair ICLJFFNOEHF = 14;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
@@ -195,21 +195,21 @@ public final class _UpgradeToBonusFacilityRevenueBuffInfoOuterClass {
       return iCLJFFNOEHF_;
     }
     /**
-     * <code>repeated .Uint32Pair ICLJFFNOEHF = 13;</code>
+     * <code>repeated .Uint32Pair ICLJFFNOEHF = 14;</code>
      */
     @java.lang.Override
     public int getICLJFFNOEHFCount() {
       return iCLJFFNOEHF_.size();
     }
     /**
-     * <code>repeated .Uint32Pair ICLJFFNOEHF = 13;</code>
+     * <code>repeated .Uint32Pair ICLJFFNOEHF = 14;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getICLJFFNOEHF(int index) {
       return iCLJFFNOEHF_.get(index);
     }
     /**
-     * <code>repeated .Uint32Pair ICLJFFNOEHF = 13;</code>
+     * <code>repeated .Uint32Pair ICLJFFNOEHF = 14;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getICLJFFNOEHFOrBuilder(
@@ -232,13 +232,13 @@ public final class _UpgradeToBonusFacilityRevenueBuffInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (mPPNKBJHBOK_ != 0) {
-        output.writeUInt32(1, mPPNKBJHBOK_);
+        output.writeUInt32(2, mPPNKBJHBOK_);
       }
       if (nHLOILJDDIP_ != false) {
-        output.writeBool(4, nHLOILJDDIP_);
+        output.writeBool(3, nHLOILJDDIP_);
       }
       for (int i = 0; i < iCLJFFNOEHF_.size(); i++) {
-        output.writeMessage(13, iCLJFFNOEHF_.get(i));
+        output.writeMessage(14, iCLJFFNOEHF_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -251,15 +251,15 @@ public final class _UpgradeToBonusFacilityRevenueBuffInfoOuterClass {
       size = 0;
       if (mPPNKBJHBOK_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, mPPNKBJHBOK_);
+          .computeUInt32Size(2, mPPNKBJHBOK_);
       }
       if (nHLOILJDDIP_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(4, nHLOILJDDIP_);
+          .computeBoolSize(3, nHLOILJDDIP_);
       }
       for (int i = 0; i < iCLJFFNOEHF_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, iCLJFFNOEHF_.get(i));
+          .computeMessageSize(14, iCLJFFNOEHF_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -596,7 +596,7 @@ public final class _UpgradeToBonusFacilityRevenueBuffInfoOuterClass {
 
       private int mPPNKBJHBOK_ ;
       /**
-       * <code>uint32 MPPNKBJHBOK = 1;</code>
+       * <code>uint32 MPPNKBJHBOK = 2;</code>
        * @return The mPPNKBJHBOK.
        */
       @java.lang.Override
@@ -604,7 +604,7 @@ public final class _UpgradeToBonusFacilityRevenueBuffInfoOuterClass {
         return mPPNKBJHBOK_;
       }
       /**
-       * <code>uint32 MPPNKBJHBOK = 1;</code>
+       * <code>uint32 MPPNKBJHBOK = 2;</code>
        * @param value The mPPNKBJHBOK to set.
        * @return This builder for chaining.
        */
@@ -615,7 +615,7 @@ public final class _UpgradeToBonusFacilityRevenueBuffInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 MPPNKBJHBOK = 1;</code>
+       * <code>uint32 MPPNKBJHBOK = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearMPPNKBJHBOK() {
@@ -627,7 +627,7 @@ public final class _UpgradeToBonusFacilityRevenueBuffInfoOuterClass {
 
       private boolean nHLOILJDDIP_ ;
       /**
-       * <code>bool NHLOILJDDIP = 4;</code>
+       * <code>bool NHLOILJDDIP = 3;</code>
        * @return The nHLOILJDDIP.
        */
       @java.lang.Override
@@ -635,7 +635,7 @@ public final class _UpgradeToBonusFacilityRevenueBuffInfoOuterClass {
         return nHLOILJDDIP_;
       }
       /**
-       * <code>bool NHLOILJDDIP = 4;</code>
+       * <code>bool NHLOILJDDIP = 3;</code>
        * @param value The nHLOILJDDIP to set.
        * @return This builder for chaining.
        */
@@ -646,7 +646,7 @@ public final class _UpgradeToBonusFacilityRevenueBuffInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool NHLOILJDDIP = 4;</code>
+       * <code>bool NHLOILJDDIP = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearNHLOILJDDIP() {
@@ -669,7 +669,7 @@ public final class _UpgradeToBonusFacilityRevenueBuffInfoOuterClass {
           emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> iCLJFFNOEHFBuilder_;
 
       /**
-       * <code>repeated .Uint32Pair ICLJFFNOEHF = 13;</code>
+       * <code>repeated .Uint32Pair ICLJFFNOEHF = 14;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> getICLJFFNOEHFList() {
         if (iCLJFFNOEHFBuilder_ == null) {
@@ -679,7 +679,7 @@ public final class _UpgradeToBonusFacilityRevenueBuffInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair ICLJFFNOEHF = 13;</code>
+       * <code>repeated .Uint32Pair ICLJFFNOEHF = 14;</code>
        */
       public int getICLJFFNOEHFCount() {
         if (iCLJFFNOEHFBuilder_ == null) {
@@ -689,7 +689,7 @@ public final class _UpgradeToBonusFacilityRevenueBuffInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair ICLJFFNOEHF = 13;</code>
+       * <code>repeated .Uint32Pair ICLJFFNOEHF = 14;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getICLJFFNOEHF(int index) {
         if (iCLJFFNOEHFBuilder_ == null) {
@@ -699,7 +699,7 @@ public final class _UpgradeToBonusFacilityRevenueBuffInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair ICLJFFNOEHF = 13;</code>
+       * <code>repeated .Uint32Pair ICLJFFNOEHF = 14;</code>
        */
       public Builder setICLJFFNOEHF(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
@@ -716,7 +716,7 @@ public final class _UpgradeToBonusFacilityRevenueBuffInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair ICLJFFNOEHF = 13;</code>
+       * <code>repeated .Uint32Pair ICLJFFNOEHF = 14;</code>
        */
       public Builder setICLJFFNOEHF(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder builderForValue) {
@@ -730,7 +730,7 @@ public final class _UpgradeToBonusFacilityRevenueBuffInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair ICLJFFNOEHF = 13;</code>
+       * <code>repeated .Uint32Pair ICLJFFNOEHF = 14;</code>
        */
       public Builder addICLJFFNOEHF(emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
         if (iCLJFFNOEHFBuilder_ == null) {
@@ -746,7 +746,7 @@ public final class _UpgradeToBonusFacilityRevenueBuffInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair ICLJFFNOEHF = 13;</code>
+       * <code>repeated .Uint32Pair ICLJFFNOEHF = 14;</code>
        */
       public Builder addICLJFFNOEHF(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
@@ -763,7 +763,7 @@ public final class _UpgradeToBonusFacilityRevenueBuffInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair ICLJFFNOEHF = 13;</code>
+       * <code>repeated .Uint32Pair ICLJFFNOEHF = 14;</code>
        */
       public Builder addICLJFFNOEHF(
           emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder builderForValue) {
@@ -777,7 +777,7 @@ public final class _UpgradeToBonusFacilityRevenueBuffInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair ICLJFFNOEHF = 13;</code>
+       * <code>repeated .Uint32Pair ICLJFFNOEHF = 14;</code>
        */
       public Builder addICLJFFNOEHF(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder builderForValue) {
@@ -791,7 +791,7 @@ public final class _UpgradeToBonusFacilityRevenueBuffInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair ICLJFFNOEHF = 13;</code>
+       * <code>repeated .Uint32Pair ICLJFFNOEHF = 14;</code>
        */
       public Builder addAllICLJFFNOEHF(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> values) {
@@ -806,7 +806,7 @@ public final class _UpgradeToBonusFacilityRevenueBuffInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair ICLJFFNOEHF = 13;</code>
+       * <code>repeated .Uint32Pair ICLJFFNOEHF = 14;</code>
        */
       public Builder clearICLJFFNOEHF() {
         if (iCLJFFNOEHFBuilder_ == null) {
@@ -819,7 +819,7 @@ public final class _UpgradeToBonusFacilityRevenueBuffInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair ICLJFFNOEHF = 13;</code>
+       * <code>repeated .Uint32Pair ICLJFFNOEHF = 14;</code>
        */
       public Builder removeICLJFFNOEHF(int index) {
         if (iCLJFFNOEHFBuilder_ == null) {
@@ -832,14 +832,14 @@ public final class _UpgradeToBonusFacilityRevenueBuffInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair ICLJFFNOEHF = 13;</code>
+       * <code>repeated .Uint32Pair ICLJFFNOEHF = 14;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder getICLJFFNOEHFBuilder(
           int index) {
         return getICLJFFNOEHFFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .Uint32Pair ICLJFFNOEHF = 13;</code>
+       * <code>repeated .Uint32Pair ICLJFFNOEHF = 14;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getICLJFFNOEHFOrBuilder(
           int index) {
@@ -849,7 +849,7 @@ public final class _UpgradeToBonusFacilityRevenueBuffInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair ICLJFFNOEHF = 13;</code>
+       * <code>repeated .Uint32Pair ICLJFFNOEHF = 14;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
            getICLJFFNOEHFOrBuilderList() {
@@ -860,14 +860,14 @@ public final class _UpgradeToBonusFacilityRevenueBuffInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair ICLJFFNOEHF = 13;</code>
+       * <code>repeated .Uint32Pair ICLJFFNOEHF = 14;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder addICLJFFNOEHFBuilder() {
         return getICLJFFNOEHFFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.getDefaultInstance());
       }
       /**
-       * <code>repeated .Uint32Pair ICLJFFNOEHF = 13;</code>
+       * <code>repeated .Uint32Pair ICLJFFNOEHF = 14;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder addICLJFFNOEHFBuilder(
           int index) {
@@ -875,7 +875,7 @@ public final class _UpgradeToBonusFacilityRevenueBuffInfoOuterClass {
             index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.getDefaultInstance());
       }
       /**
-       * <code>repeated .Uint32Pair ICLJFFNOEHF = 13;</code>
+       * <code>repeated .Uint32Pair ICLJFFNOEHF = 14;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder> 
            getICLJFFNOEHFBuilderList() {
@@ -965,8 +965,8 @@ public final class _UpgradeToBonusFacilityRevenueBuffInfoOuterClass {
       "\n,_UpgradeToBonusFacilityRevenueBuffInfo" +
       ".proto\032\020Uint32Pair.proto\"t\n&_UpgradeToBo" +
       "nusFacilityRevenueBuffInfo\022\023\n\013MPPNKBJHBO" +
-      "K\030\001 \001(\r\022\023\n\013NHLOILJDDIP\030\004 \001(\010\022 \n\013ICLJFFNO" +
-      "EHF\030\r \003(\0132\013.Uint32PairBM\n\031emu.grasscutte" +
+      "K\030\002 \001(\r\022\023\n\013NHLOILJDDIP\030\003 \001(\010\022 \n\013ICLJFFNO" +
+      "EHF\030\016 \003(\0132\013.Uint32PairBM\n\031emu.grasscutte" +
       "r.net.protoB0_UpgradeToBonusFacilityReve" +
       "nueBuffInfoOuterClassb\006proto3"
     };

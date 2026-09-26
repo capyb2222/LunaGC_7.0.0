@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "EIHOFHPLHMHOuterClass";
 
 message EIHOFHPLHMH {
-	uint32 avatar_id = 4;
+	uint32 avatar_id = 15;
 	bool is_trial = 12;
 }

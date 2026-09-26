@@ -25,13 +25,13 @@ public final class ActivityShopSheetInfoOuterClass {
     int getBeginTime();
 
     /**
-     * <code>uint32 sheet_id = 11;</code>
+     * <code>uint32 sheet_id = 4;</code>
      * @return The sheetId.
      */
     int getSheetId();
 
     /**
-     * <code>uint32 end_time = 14;</code>
+     * <code>uint32 end_time = 15;</code>
      * @return The endTime.
      */
     int getEndTime();
@@ -81,17 +81,17 @@ public final class ActivityShopSheetInfoOuterClass {
             case 0:
               done = true;
               break;
+            case 32: {
+
+              sheetId_ = input.readUInt32();
+              break;
+            }
             case 48: {
 
               beginTime_ = input.readUInt32();
               break;
             }
-            case 88: {
-
-              sheetId_ = input.readUInt32();
-              break;
-            }
-            case 112: {
+            case 120: {
 
               endTime_ = input.readUInt32();
               break;
@@ -139,10 +139,10 @@ public final class ActivityShopSheetInfoOuterClass {
       return beginTime_;
     }
 
-    public static final int SHEET_ID_FIELD_NUMBER = 11;
+    public static final int SHEET_ID_FIELD_NUMBER = 4;
     private int sheetId_;
     /**
-     * <code>uint32 sheet_id = 11;</code>
+     * <code>uint32 sheet_id = 4;</code>
      * @return The sheetId.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class ActivityShopSheetInfoOuterClass {
       return sheetId_;
     }
 
-    public static final int END_TIME_FIELD_NUMBER = 14;
+    public static final int END_TIME_FIELD_NUMBER = 15;
     private int endTime_;
     /**
-     * <code>uint32 end_time = 14;</code>
+     * <code>uint32 end_time = 15;</code>
      * @return The endTime.
      */
     @java.lang.Override
@@ -175,14 +175,14 @@ public final class ActivityShopSheetInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (sheetId_ != 0) {
+        output.writeUInt32(4, sheetId_);
+      }
       if (beginTime_ != 0) {
         output.writeUInt32(6, beginTime_);
       }
-      if (sheetId_ != 0) {
-        output.writeUInt32(11, sheetId_);
-      }
       if (endTime_ != 0) {
-        output.writeUInt32(14, endTime_);
+        output.writeUInt32(15, endTime_);
       }
       unknownFields.writeTo(output);
     }
@@ -193,17 +193,17 @@ public final class ActivityShopSheetInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (sheetId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(4, sheetId_);
+      }
       if (beginTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(6, beginTime_);
       }
-      if (sheetId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, sheetId_);
-      }
       if (endTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, endTime_);
+          .computeUInt32Size(15, endTime_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -530,7 +530,7 @@ public final class ActivityShopSheetInfoOuterClass {
 
       private int sheetId_ ;
       /**
-       * <code>uint32 sheet_id = 11;</code>
+       * <code>uint32 sheet_id = 4;</code>
        * @return The sheetId.
        */
       @java.lang.Override
@@ -538,7 +538,7 @@ public final class ActivityShopSheetInfoOuterClass {
         return sheetId_;
       }
       /**
-       * <code>uint32 sheet_id = 11;</code>
+       * <code>uint32 sheet_id = 4;</code>
        * @param value The sheetId to set.
        * @return This builder for chaining.
        */
@@ -549,7 +549,7 @@ public final class ActivityShopSheetInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 sheet_id = 11;</code>
+       * <code>uint32 sheet_id = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearSheetId() {
@@ -561,7 +561,7 @@ public final class ActivityShopSheetInfoOuterClass {
 
       private int endTime_ ;
       /**
-       * <code>uint32 end_time = 14;</code>
+       * <code>uint32 end_time = 15;</code>
        * @return The endTime.
        */
       @java.lang.Override
@@ -569,7 +569,7 @@ public final class ActivityShopSheetInfoOuterClass {
         return endTime_;
       }
       /**
-       * <code>uint32 end_time = 14;</code>
+       * <code>uint32 end_time = 15;</code>
        * @param value The endTime to set.
        * @return This builder for chaining.
        */
@@ -580,7 +580,7 @@ public final class ActivityShopSheetInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 end_time = 14;</code>
+       * <code>uint32 end_time = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearEndTime() {
@@ -658,7 +658,7 @@ public final class ActivityShopSheetInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033ActivityShopSheetInfo.proto\"O\n\025Activit" +
       "yShopSheetInfo\022\022\n\nbegin_time\030\006 \001(\r\022\020\n\010sh" +
-      "eet_id\030\013 \001(\r\022\020\n\010end_time\030\016 \001(\rB<\n\031emu.gr" +
+      "eet_id\030\004 \001(\r\022\020\n\010end_time\030\017 \001(\rB<\n\031emu.gr" +
       "asscutter.net.protoB\037ActivityShopSheetIn" +
       "foOuterClassb\006proto3"
     };

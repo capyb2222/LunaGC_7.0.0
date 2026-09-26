@@ -7,5 +7,5 @@ import "Shop.proto";
 
 message GetShopRsp {
 	int32 retcode = 2;
-	Shop shop = 12;
+	Shop shop = 9;
 }

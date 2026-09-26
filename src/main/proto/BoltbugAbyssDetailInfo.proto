@@ -6,5 +6,5 @@ option java_outer_classname = "BoltbugAbyssDetailInfoOuterClass";
 import "MNKIILLGHDC.proto";
 
 message BoltbugAbyssDetailInfo {
-	repeated MNKIILLGHDC level_info_list = 14;
+	repeated MNKIILLGHDC level_info_list = 15;
 }

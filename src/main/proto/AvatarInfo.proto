@@ -42,7 +42,7 @@ message AvatarInfo {
 	AvatarExcelInfo excel_info = 26;
 	uint32 anim_hash = 27;
 	MirrorAvatarInfo mirror_avatar_info = 28;
-	uint32 dpeciabdbpg = 29;
+	uint32 _extra_level = 29;
 	uint32 eigifnbdicm = 30;
 	uint32 _trace_effect_id = 31;
 	uint32 _weapon_skin_id = 32;

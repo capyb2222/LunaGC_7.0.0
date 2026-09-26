@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "_MonsterSnapSettleInfoOuterClass";
 
 message _MonsterSnapSettleInfo {
-	uint32 score = 1;
-	uint32 level_id = 3;
-	bool is_new_record = 12;
+	uint32 score = 8;
+	uint32 level_id = 6;
+	bool is_new_record = 13;
 }

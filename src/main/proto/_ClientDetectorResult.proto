@@ -5,5 +5,5 @@ option java_outer_classname = "_ClientDetectorResultOuterClass";
 
 message _ClientDetectorResult {
 	repeated uint32 DCGOIJMIJMG = 3;
-	bool GJFFLCIHPIN = 14;
+	bool GJFFLCIHPIN = 15;
 }

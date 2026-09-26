@@ -1,13 +1,14 @@
 package emu.grasscutter.server.packet.send;
 
 import emu.grasscutter.game.dailytask.DailyTask;
-import emu.grasscutter.game.dailytask.DailyTaskProto;
 import emu.grasscutter.net.packet.BasePacket;
+import emu.grasscutter.net.packet.PacketOpcodes;
+import emu.grasscutter.net.proto.DailyTaskProgressNotifyOuterClass.DailyTaskProgressNotify;
 
 public class PacketDailyTaskProgressNotify extends BasePacket {
     public PacketDailyTaskProgressNotify(DailyTask task) {
-        super(DailyTaskProto.PROGRESS_NOTIFY_CMD);
+        super(PacketOpcodes.DailyTaskProgressNotify);
 
-        this.setData(DailyTaskProto.progressNotify(task));
+        this.setData(DailyTaskProgressNotify.newBuilder().setInfo(task.toProto()));
     }
 }

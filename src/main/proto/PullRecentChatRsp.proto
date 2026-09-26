@@ -6,6 +6,6 @@ option java_outer_classname = "PullRecentChatRspOuterClass";
 import "ChatInfo.proto";
 
 message PullRecentChatRsp {
-	int32 retcode = 8;
-	repeated ChatInfo chat_info = 11;
+	int32 retcode = 7;
+	repeated ChatInfo chat_info = 3;
 }

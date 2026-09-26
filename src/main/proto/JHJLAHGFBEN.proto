@@ -6,5 +6,5 @@ option java_outer_classname = "JHJLAHGFBENOuterClass";
 import "KFFBNCLNHOA.proto";
 
 message JHJLAHGFBEN {
-	repeated KFFBNCLNHOA AAOIJKNFGGE = 3;
+	repeated KFFBNCLNHOA AAOIJKNFGGE = 15;
 }

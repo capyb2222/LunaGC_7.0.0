@@ -19,25 +19,25 @@ public final class SandwormCannonDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .CAHKNHJEHKB habjccaecjc = 1;</code>
+     * <code>repeated .CAHKNHJEHKB habjccaecjc = 10;</code>
      */
     java.util.List<emu.grasscutter.net.proto.CAHKNHJEHKBOuterClass.CAHKNHJEHKB> 
         getHabjccaecjcList();
     /**
-     * <code>repeated .CAHKNHJEHKB habjccaecjc = 1;</code>
+     * <code>repeated .CAHKNHJEHKB habjccaecjc = 10;</code>
      */
     emu.grasscutter.net.proto.CAHKNHJEHKBOuterClass.CAHKNHJEHKB getHabjccaecjc(int index);
     /**
-     * <code>repeated .CAHKNHJEHKB habjccaecjc = 1;</code>
+     * <code>repeated .CAHKNHJEHKB habjccaecjc = 10;</code>
      */
     int getHabjccaecjcCount();
     /**
-     * <code>repeated .CAHKNHJEHKB habjccaecjc = 1;</code>
+     * <code>repeated .CAHKNHJEHKB habjccaecjc = 10;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.CAHKNHJEHKBOuterClass.CAHKNHJEHKBOrBuilder> 
         getHabjccaecjcOrBuilderList();
     /**
-     * <code>repeated .CAHKNHJEHKB habjccaecjc = 1;</code>
+     * <code>repeated .CAHKNHJEHKB habjccaecjc = 10;</code>
      */
     emu.grasscutter.net.proto.CAHKNHJEHKBOuterClass.CAHKNHJEHKBOrBuilder getHabjccaecjcOrBuilder(
         int index);
@@ -89,7 +89,7 @@ public final class SandwormCannonDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 10: {
+            case 82: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 habjccaecjc_ = new java.util.ArrayList<emu.grasscutter.net.proto.CAHKNHJEHKBOuterClass.CAHKNHJEHKB>();
                 mutable_bitField0_ |= 0x00000001;
@@ -133,17 +133,17 @@ public final class SandwormCannonDetailInfoOuterClass {
               emu.grasscutter.net.proto.SandwormCannonDetailInfoOuterClass.SandwormCannonDetailInfo.class, emu.grasscutter.net.proto.SandwormCannonDetailInfoOuterClass.SandwormCannonDetailInfo.Builder.class);
     }
 
-    public static final int HABJCCAECJC_FIELD_NUMBER = 1;
+    public static final int HABJCCAECJC_FIELD_NUMBER = 10;
     private java.util.List<emu.grasscutter.net.proto.CAHKNHJEHKBOuterClass.CAHKNHJEHKB> habjccaecjc_;
     /**
-     * <code>repeated .CAHKNHJEHKB habjccaecjc = 1;</code>
+     * <code>repeated .CAHKNHJEHKB habjccaecjc = 10;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.CAHKNHJEHKBOuterClass.CAHKNHJEHKB> getHabjccaecjcList() {
       return habjccaecjc_;
     }
     /**
-     * <code>repeated .CAHKNHJEHKB habjccaecjc = 1;</code>
+     * <code>repeated .CAHKNHJEHKB habjccaecjc = 10;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.CAHKNHJEHKBOuterClass.CAHKNHJEHKBOrBuilder> 
@@ -151,21 +151,21 @@ public final class SandwormCannonDetailInfoOuterClass {
       return habjccaecjc_;
     }
     /**
-     * <code>repeated .CAHKNHJEHKB habjccaecjc = 1;</code>
+     * <code>repeated .CAHKNHJEHKB habjccaecjc = 10;</code>
      */
     @java.lang.Override
     public int getHabjccaecjcCount() {
       return habjccaecjc_.size();
     }
     /**
-     * <code>repeated .CAHKNHJEHKB habjccaecjc = 1;</code>
+     * <code>repeated .CAHKNHJEHKB habjccaecjc = 10;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.CAHKNHJEHKBOuterClass.CAHKNHJEHKB getHabjccaecjc(int index) {
       return habjccaecjc_.get(index);
     }
     /**
-     * <code>repeated .CAHKNHJEHKB habjccaecjc = 1;</code>
+     * <code>repeated .CAHKNHJEHKB habjccaecjc = 10;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.CAHKNHJEHKBOuterClass.CAHKNHJEHKBOrBuilder getHabjccaecjcOrBuilder(
@@ -188,7 +188,7 @@ public final class SandwormCannonDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < habjccaecjc_.size(); i++) {
-        output.writeMessage(1, habjccaecjc_.get(i));
+        output.writeMessage(10, habjccaecjc_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -201,7 +201,7 @@ public final class SandwormCannonDetailInfoOuterClass {
       size = 0;
       for (int i = 0; i < habjccaecjc_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, habjccaecjc_.get(i));
+          .computeMessageSize(10, habjccaecjc_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -528,7 +528,7 @@ public final class SandwormCannonDetailInfoOuterClass {
           emu.grasscutter.net.proto.CAHKNHJEHKBOuterClass.CAHKNHJEHKB, emu.grasscutter.net.proto.CAHKNHJEHKBOuterClass.CAHKNHJEHKB.Builder, emu.grasscutter.net.proto.CAHKNHJEHKBOuterClass.CAHKNHJEHKBOrBuilder> habjccaecjcBuilder_;
 
       /**
-       * <code>repeated .CAHKNHJEHKB habjccaecjc = 1;</code>
+       * <code>repeated .CAHKNHJEHKB habjccaecjc = 10;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.CAHKNHJEHKBOuterClass.CAHKNHJEHKB> getHabjccaecjcList() {
         if (habjccaecjcBuilder_ == null) {
@@ -538,7 +538,7 @@ public final class SandwormCannonDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .CAHKNHJEHKB habjccaecjc = 1;</code>
+       * <code>repeated .CAHKNHJEHKB habjccaecjc = 10;</code>
        */
       public int getHabjccaecjcCount() {
         if (habjccaecjcBuilder_ == null) {
@@ -548,7 +548,7 @@ public final class SandwormCannonDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .CAHKNHJEHKB habjccaecjc = 1;</code>
+       * <code>repeated .CAHKNHJEHKB habjccaecjc = 10;</code>
        */
       public emu.grasscutter.net.proto.CAHKNHJEHKBOuterClass.CAHKNHJEHKB getHabjccaecjc(int index) {
         if (habjccaecjcBuilder_ == null) {
@@ -558,7 +558,7 @@ public final class SandwormCannonDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .CAHKNHJEHKB habjccaecjc = 1;</code>
+       * <code>repeated .CAHKNHJEHKB habjccaecjc = 10;</code>
        */
       public Builder setHabjccaecjc(
           int index, emu.grasscutter.net.proto.CAHKNHJEHKBOuterClass.CAHKNHJEHKB value) {
@@ -575,7 +575,7 @@ public final class SandwormCannonDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CAHKNHJEHKB habjccaecjc = 1;</code>
+       * <code>repeated .CAHKNHJEHKB habjccaecjc = 10;</code>
        */
       public Builder setHabjccaecjc(
           int index, emu.grasscutter.net.proto.CAHKNHJEHKBOuterClass.CAHKNHJEHKB.Builder builderForValue) {
@@ -589,7 +589,7 @@ public final class SandwormCannonDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CAHKNHJEHKB habjccaecjc = 1;</code>
+       * <code>repeated .CAHKNHJEHKB habjccaecjc = 10;</code>
        */
       public Builder addHabjccaecjc(emu.grasscutter.net.proto.CAHKNHJEHKBOuterClass.CAHKNHJEHKB value) {
         if (habjccaecjcBuilder_ == null) {
@@ -605,7 +605,7 @@ public final class SandwormCannonDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CAHKNHJEHKB habjccaecjc = 1;</code>
+       * <code>repeated .CAHKNHJEHKB habjccaecjc = 10;</code>
        */
       public Builder addHabjccaecjc(
           int index, emu.grasscutter.net.proto.CAHKNHJEHKBOuterClass.CAHKNHJEHKB value) {
@@ -622,7 +622,7 @@ public final class SandwormCannonDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CAHKNHJEHKB habjccaecjc = 1;</code>
+       * <code>repeated .CAHKNHJEHKB habjccaecjc = 10;</code>
        */
       public Builder addHabjccaecjc(
           emu.grasscutter.net.proto.CAHKNHJEHKBOuterClass.CAHKNHJEHKB.Builder builderForValue) {
@@ -636,7 +636,7 @@ public final class SandwormCannonDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CAHKNHJEHKB habjccaecjc = 1;</code>
+       * <code>repeated .CAHKNHJEHKB habjccaecjc = 10;</code>
        */
       public Builder addHabjccaecjc(
           int index, emu.grasscutter.net.proto.CAHKNHJEHKBOuterClass.CAHKNHJEHKB.Builder builderForValue) {
@@ -650,7 +650,7 @@ public final class SandwormCannonDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CAHKNHJEHKB habjccaecjc = 1;</code>
+       * <code>repeated .CAHKNHJEHKB habjccaecjc = 10;</code>
        */
       public Builder addAllHabjccaecjc(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.CAHKNHJEHKBOuterClass.CAHKNHJEHKB> values) {
@@ -665,7 +665,7 @@ public final class SandwormCannonDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CAHKNHJEHKB habjccaecjc = 1;</code>
+       * <code>repeated .CAHKNHJEHKB habjccaecjc = 10;</code>
        */
       public Builder clearHabjccaecjc() {
         if (habjccaecjcBuilder_ == null) {
@@ -678,7 +678,7 @@ public final class SandwormCannonDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CAHKNHJEHKB habjccaecjc = 1;</code>
+       * <code>repeated .CAHKNHJEHKB habjccaecjc = 10;</code>
        */
       public Builder removeHabjccaecjc(int index) {
         if (habjccaecjcBuilder_ == null) {
@@ -691,14 +691,14 @@ public final class SandwormCannonDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CAHKNHJEHKB habjccaecjc = 1;</code>
+       * <code>repeated .CAHKNHJEHKB habjccaecjc = 10;</code>
        */
       public emu.grasscutter.net.proto.CAHKNHJEHKBOuterClass.CAHKNHJEHKB.Builder getHabjccaecjcBuilder(
           int index) {
         return getHabjccaecjcFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .CAHKNHJEHKB habjccaecjc = 1;</code>
+       * <code>repeated .CAHKNHJEHKB habjccaecjc = 10;</code>
        */
       public emu.grasscutter.net.proto.CAHKNHJEHKBOuterClass.CAHKNHJEHKBOrBuilder getHabjccaecjcOrBuilder(
           int index) {
@@ -708,7 +708,7 @@ public final class SandwormCannonDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .CAHKNHJEHKB habjccaecjc = 1;</code>
+       * <code>repeated .CAHKNHJEHKB habjccaecjc = 10;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.CAHKNHJEHKBOuterClass.CAHKNHJEHKBOrBuilder> 
            getHabjccaecjcOrBuilderList() {
@@ -719,14 +719,14 @@ public final class SandwormCannonDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .CAHKNHJEHKB habjccaecjc = 1;</code>
+       * <code>repeated .CAHKNHJEHKB habjccaecjc = 10;</code>
        */
       public emu.grasscutter.net.proto.CAHKNHJEHKBOuterClass.CAHKNHJEHKB.Builder addHabjccaecjcBuilder() {
         return getHabjccaecjcFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.CAHKNHJEHKBOuterClass.CAHKNHJEHKB.getDefaultInstance());
       }
       /**
-       * <code>repeated .CAHKNHJEHKB habjccaecjc = 1;</code>
+       * <code>repeated .CAHKNHJEHKB habjccaecjc = 10;</code>
        */
       public emu.grasscutter.net.proto.CAHKNHJEHKBOuterClass.CAHKNHJEHKB.Builder addHabjccaecjcBuilder(
           int index) {
@@ -734,7 +734,7 @@ public final class SandwormCannonDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.CAHKNHJEHKBOuterClass.CAHKNHJEHKB.getDefaultInstance());
       }
       /**
-       * <code>repeated .CAHKNHJEHKB habjccaecjc = 1;</code>
+       * <code>repeated .CAHKNHJEHKB habjccaecjc = 10;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.CAHKNHJEHKBOuterClass.CAHKNHJEHKB.Builder> 
            getHabjccaecjcBuilderList() {
@@ -823,7 +823,7 @@ public final class SandwormCannonDetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036SandwormCannonDetailInfo.proto\032\021CAHKNH" +
       "JEHKB.proto\"=\n\030SandwormCannonDetailInfo\022" +
-      "!\n\013habjccaecjc\030\001 \003(\0132\014.CAHKNHJEHKBB?\n\031em" +
+      "!\n\013habjccaecjc\030\n \003(\0132\014.CAHKNHJEHKBB?\n\031em" +
       "u.grasscutter.net.protoB\"SandwormCannonD" +
       "etailInfoOuterClassb\006proto3"
     };

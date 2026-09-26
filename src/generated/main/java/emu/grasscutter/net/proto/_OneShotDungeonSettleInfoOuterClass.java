@@ -19,37 +19,37 @@ public final class _OneShotDungeonSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 level_id = 1;</code>
+     * <code>uint32 level_id = 11;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>uint32 score = 3;</code>
+     * <code>uint32 score = 1;</code>
      * @return The score.
      */
     int getScore();
 
     /**
-     * <code>uint32 AHMFDCPCCGF = 7;</code>
+     * <code>uint32 AHMFDCPCCGF = 50000;</code>
      * @return The aHMFDCPCCGF.
      */
     int getAHMFDCPCCGF();
 
     /**
-     * <code>uint32 GAMLOHOKPAJ = 8;</code>
+     * <code>uint32 GAMLOHOKPAJ = 50001;</code>
      * @return The gAMLOHOKPAJ.
      */
     int getGAMLOHOKPAJ();
 
     /**
-     * <code>uint32 MGGJPDGCECM = 11;</code>
+     * <code>uint32 MGGJPDGCECM = 50002;</code>
      * @return The mGGJPDGCECM.
      */
     int getMGGJPDGCECM();
 
     /**
-     * <code>bool is_new_record = 12;</code>
+     * <code>bool is_new_record = 5;</code>
      * @return The isNewRecord.
      */
     boolean getIsNewRecord();
@@ -101,32 +101,32 @@ public final class _OneShotDungeonSettleInfoOuterClass {
               break;
             case 8: {
 
-              levelId_ = input.readUInt32();
-              break;
-            }
-            case 24: {
-
               score_ = input.readUInt32();
               break;
             }
-            case 56: {
+            case 40: {
 
-              aHMFDCPCCGF_ = input.readUInt32();
-              break;
-            }
-            case 64: {
-
-              gAMLOHOKPAJ_ = input.readUInt32();
+              isNewRecord_ = input.readBool();
               break;
             }
             case 88: {
 
-              mGGJPDGCECM_ = input.readUInt32();
+              levelId_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 400000: {
 
-              isNewRecord_ = input.readBool();
+              aHMFDCPCCGF_ = input.readUInt32();
+              break;
+            }
+            case 400008: {
+
+              gAMLOHOKPAJ_ = input.readUInt32();
+              break;
+            }
+            case 400016: {
+
+              mGGJPDGCECM_ = input.readUInt32();
               break;
             }
             default: {
@@ -161,10 +161,10 @@ public final class _OneShotDungeonSettleInfoOuterClass {
               emu.grasscutter.net.proto._OneShotDungeonSettleInfoOuterClass._OneShotDungeonSettleInfo.class, emu.grasscutter.net.proto._OneShotDungeonSettleInfoOuterClass._OneShotDungeonSettleInfo.Builder.class);
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 1;
+    public static final int LEVEL_ID_FIELD_NUMBER = 11;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 1;</code>
+     * <code>uint32 level_id = 11;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -172,10 +172,10 @@ public final class _OneShotDungeonSettleInfoOuterClass {
       return levelId_;
     }
 
-    public static final int SCORE_FIELD_NUMBER = 3;
+    public static final int SCORE_FIELD_NUMBER = 1;
     private int score_;
     /**
-     * <code>uint32 score = 3;</code>
+     * <code>uint32 score = 1;</code>
      * @return The score.
      */
     @java.lang.Override
@@ -183,10 +183,10 @@ public final class _OneShotDungeonSettleInfoOuterClass {
       return score_;
     }
 
-    public static final int AHMFDCPCCGF_FIELD_NUMBER = 7;
+    public static final int AHMFDCPCCGF_FIELD_NUMBER = 50000;
     private int aHMFDCPCCGF_;
     /**
-     * <code>uint32 AHMFDCPCCGF = 7;</code>
+     * <code>uint32 AHMFDCPCCGF = 50000;</code>
      * @return The aHMFDCPCCGF.
      */
     @java.lang.Override
@@ -194,10 +194,10 @@ public final class _OneShotDungeonSettleInfoOuterClass {
       return aHMFDCPCCGF_;
     }
 
-    public static final int GAMLOHOKPAJ_FIELD_NUMBER = 8;
+    public static final int GAMLOHOKPAJ_FIELD_NUMBER = 50001;
     private int gAMLOHOKPAJ_;
     /**
-     * <code>uint32 GAMLOHOKPAJ = 8;</code>
+     * <code>uint32 GAMLOHOKPAJ = 50001;</code>
      * @return The gAMLOHOKPAJ.
      */
     @java.lang.Override
@@ -205,10 +205,10 @@ public final class _OneShotDungeonSettleInfoOuterClass {
       return gAMLOHOKPAJ_;
     }
 
-    public static final int MGGJPDGCECM_FIELD_NUMBER = 11;
+    public static final int MGGJPDGCECM_FIELD_NUMBER = 50002;
     private int mGGJPDGCECM_;
     /**
-     * <code>uint32 MGGJPDGCECM = 11;</code>
+     * <code>uint32 MGGJPDGCECM = 50002;</code>
      * @return The mGGJPDGCECM.
      */
     @java.lang.Override
@@ -216,10 +216,10 @@ public final class _OneShotDungeonSettleInfoOuterClass {
       return mGGJPDGCECM_;
     }
 
-    public static final int IS_NEW_RECORD_FIELD_NUMBER = 12;
+    public static final int IS_NEW_RECORD_FIELD_NUMBER = 5;
     private boolean isNewRecord_;
     /**
-     * <code>bool is_new_record = 12;</code>
+     * <code>bool is_new_record = 5;</code>
      * @return The isNewRecord.
      */
     @java.lang.Override
@@ -241,23 +241,23 @@ public final class _OneShotDungeonSettleInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (levelId_ != 0) {
-        output.writeUInt32(1, levelId_);
-      }
       if (score_ != 0) {
-        output.writeUInt32(3, score_);
-      }
-      if (aHMFDCPCCGF_ != 0) {
-        output.writeUInt32(7, aHMFDCPCCGF_);
-      }
-      if (gAMLOHOKPAJ_ != 0) {
-        output.writeUInt32(8, gAMLOHOKPAJ_);
-      }
-      if (mGGJPDGCECM_ != 0) {
-        output.writeUInt32(11, mGGJPDGCECM_);
+        output.writeUInt32(1, score_);
       }
       if (isNewRecord_ != false) {
-        output.writeBool(12, isNewRecord_);
+        output.writeBool(5, isNewRecord_);
+      }
+      if (levelId_ != 0) {
+        output.writeUInt32(11, levelId_);
+      }
+      if (aHMFDCPCCGF_ != 0) {
+        output.writeUInt32(50000, aHMFDCPCCGF_);
+      }
+      if (gAMLOHOKPAJ_ != 0) {
+        output.writeUInt32(50001, gAMLOHOKPAJ_);
+      }
+      if (mGGJPDGCECM_ != 0) {
+        output.writeUInt32(50002, mGGJPDGCECM_);
       }
       unknownFields.writeTo(output);
     }
@@ -268,29 +268,29 @@ public final class _OneShotDungeonSettleInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (levelId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, levelId_);
-      }
       if (score_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, score_);
-      }
-      if (aHMFDCPCCGF_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, aHMFDCPCCGF_);
-      }
-      if (gAMLOHOKPAJ_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, gAMLOHOKPAJ_);
-      }
-      if (mGGJPDGCECM_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, mGGJPDGCECM_);
+          .computeUInt32Size(1, score_);
       }
       if (isNewRecord_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, isNewRecord_);
+          .computeBoolSize(5, isNewRecord_);
+      }
+      if (levelId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(11, levelId_);
+      }
+      if (aHMFDCPCCGF_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50000, aHMFDCPCCGF_);
+      }
+      if (gAMLOHOKPAJ_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50001, gAMLOHOKPAJ_);
+      }
+      if (mGGJPDGCECM_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50002, mGGJPDGCECM_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -617,7 +617,7 @@ public final class _OneShotDungeonSettleInfoOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 1;</code>
+       * <code>uint32 level_id = 11;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -625,7 +625,7 @@ public final class _OneShotDungeonSettleInfoOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 1;</code>
+       * <code>uint32 level_id = 11;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -636,7 +636,7 @@ public final class _OneShotDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 1;</code>
+       * <code>uint32 level_id = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -648,7 +648,7 @@ public final class _OneShotDungeonSettleInfoOuterClass {
 
       private int score_ ;
       /**
-       * <code>uint32 score = 3;</code>
+       * <code>uint32 score = 1;</code>
        * @return The score.
        */
       @java.lang.Override
@@ -656,7 +656,7 @@ public final class _OneShotDungeonSettleInfoOuterClass {
         return score_;
       }
       /**
-       * <code>uint32 score = 3;</code>
+       * <code>uint32 score = 1;</code>
        * @param value The score to set.
        * @return This builder for chaining.
        */
@@ -667,7 +667,7 @@ public final class _OneShotDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 score = 3;</code>
+       * <code>uint32 score = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearScore() {
@@ -679,7 +679,7 @@ public final class _OneShotDungeonSettleInfoOuterClass {
 
       private int aHMFDCPCCGF_ ;
       /**
-       * <code>uint32 AHMFDCPCCGF = 7;</code>
+       * <code>uint32 AHMFDCPCCGF = 50000;</code>
        * @return The aHMFDCPCCGF.
        */
       @java.lang.Override
@@ -687,7 +687,7 @@ public final class _OneShotDungeonSettleInfoOuterClass {
         return aHMFDCPCCGF_;
       }
       /**
-       * <code>uint32 AHMFDCPCCGF = 7;</code>
+       * <code>uint32 AHMFDCPCCGF = 50000;</code>
        * @param value The aHMFDCPCCGF to set.
        * @return This builder for chaining.
        */
@@ -698,7 +698,7 @@ public final class _OneShotDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 AHMFDCPCCGF = 7;</code>
+       * <code>uint32 AHMFDCPCCGF = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearAHMFDCPCCGF() {
@@ -710,7 +710,7 @@ public final class _OneShotDungeonSettleInfoOuterClass {
 
       private int gAMLOHOKPAJ_ ;
       /**
-       * <code>uint32 GAMLOHOKPAJ = 8;</code>
+       * <code>uint32 GAMLOHOKPAJ = 50001;</code>
        * @return The gAMLOHOKPAJ.
        */
       @java.lang.Override
@@ -718,7 +718,7 @@ public final class _OneShotDungeonSettleInfoOuterClass {
         return gAMLOHOKPAJ_;
       }
       /**
-       * <code>uint32 GAMLOHOKPAJ = 8;</code>
+       * <code>uint32 GAMLOHOKPAJ = 50001;</code>
        * @param value The gAMLOHOKPAJ to set.
        * @return This builder for chaining.
        */
@@ -729,7 +729,7 @@ public final class _OneShotDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 GAMLOHOKPAJ = 8;</code>
+       * <code>uint32 GAMLOHOKPAJ = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearGAMLOHOKPAJ() {
@@ -741,7 +741,7 @@ public final class _OneShotDungeonSettleInfoOuterClass {
 
       private int mGGJPDGCECM_ ;
       /**
-       * <code>uint32 MGGJPDGCECM = 11;</code>
+       * <code>uint32 MGGJPDGCECM = 50002;</code>
        * @return The mGGJPDGCECM.
        */
       @java.lang.Override
@@ -749,7 +749,7 @@ public final class _OneShotDungeonSettleInfoOuterClass {
         return mGGJPDGCECM_;
       }
       /**
-       * <code>uint32 MGGJPDGCECM = 11;</code>
+       * <code>uint32 MGGJPDGCECM = 50002;</code>
        * @param value The mGGJPDGCECM to set.
        * @return This builder for chaining.
        */
@@ -760,7 +760,7 @@ public final class _OneShotDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 MGGJPDGCECM = 11;</code>
+       * <code>uint32 MGGJPDGCECM = 50002;</code>
        * @return This builder for chaining.
        */
       public Builder clearMGGJPDGCECM() {
@@ -772,7 +772,7 @@ public final class _OneShotDungeonSettleInfoOuterClass {
 
       private boolean isNewRecord_ ;
       /**
-       * <code>bool is_new_record = 12;</code>
+       * <code>bool is_new_record = 5;</code>
        * @return The isNewRecord.
        */
       @java.lang.Override
@@ -780,7 +780,7 @@ public final class _OneShotDungeonSettleInfoOuterClass {
         return isNewRecord_;
       }
       /**
-       * <code>bool is_new_record = 12;</code>
+       * <code>bool is_new_record = 5;</code>
        * @param value The isNewRecord to set.
        * @return This builder for chaining.
        */
@@ -791,7 +791,7 @@ public final class _OneShotDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_new_record = 12;</code>
+       * <code>bool is_new_record = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsNewRecord() {
@@ -867,13 +867,13 @@ public final class _OneShotDungeonSettleInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\037_OneShotDungeonSettleInfo.proto\"\222\001\n\031_O" +
-      "neShotDungeonSettleInfo\022\020\n\010level_id\030\001 \001(" +
-      "\r\022\r\n\005score\030\003 \001(\r\022\023\n\013AHMFDCPCCGF\030\007 \001(\r\022\023\n" +
-      "\013GAMLOHOKPAJ\030\010 \001(\r\022\023\n\013MGGJPDGCECM\030\013 \001(\r\022" +
-      "\025\n\ris_new_record\030\014 \001(\010B@\n\031emu.grasscutte" +
-      "r.net.protoB#_OneShotDungeonSettleInfoOu" +
-      "terClassb\006proto3"
+      "\n\037_OneShotDungeonSettleInfo.proto\"\230\001\n\031_O" +
+      "neShotDungeonSettleInfo\022\020\n\010level_id\030\013 \001(" +
+      "\r\022\r\n\005score\030\001 \001(\r\022\025\n\013AHMFDCPCCGF\030\320\206\003 \001(\r\022" +
+      "\025\n\013GAMLOHOKPAJ\030\321\206\003 \001(\r\022\025\n\013MGGJPDGCECM\030\322\206" +
+      "\003 \001(\r\022\025\n\ris_new_record\030\005 \001(\010B@\n\031emu.gras" +
+      "scutter.net.protoB#_OneShotDungeonSettle" +
+      "InfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "WidgetGadgetDataOuterClass";
 
 message WidgetGadgetData {
-	repeated uint32 gadget_entity_id_list = 9;
-	uint32 gadget_id = 14;
+	repeated uint32 gadget_entity_id_list = 14;
+	uint32 gadget_id = 13;
 }

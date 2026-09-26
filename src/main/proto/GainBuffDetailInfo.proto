@@ -7,5 +7,5 @@ import "HPIBBLDNIME.proto";
 
 message GainBuffDetailInfo {
 	repeated HPIBBLDNIME level_info_list = 3;
-	uint32 difficulty = 14;
+	uint32 difficulty = 15;
 }

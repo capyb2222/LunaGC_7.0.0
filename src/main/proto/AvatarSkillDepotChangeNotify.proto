@@ -6,12 +6,12 @@ option java_outer_classname = "AvatarSkillDepotChangeNotifyOuterClass";
 message AvatarSkillDepotChangeNotify {
 	uint32 core_proud_skill_level = 9;
 	uint64 avatar_guid = 3;
-	map<uint32, uint32> proud_skill_extra_level_map = 50000;
-	map<uint32, uint32> skill_level_map = 50001;
-	repeated uint32 talent_id_list = 50002;
+	map<uint32, uint32> proud_skill_extra_level_map = 12;
+	map<uint32, uint32> skill_level_map = 2;
+	repeated uint32 talent_id_list = 11;
 	uint32 entity_id = 14;
 	uint32 skill_depot_id = 4;
 	repeated uint32 _unlocked_skill_depot_id_list = 13;
-	repeated uint32 _special_proud_skill_list = 50003;
+	repeated uint32 _special_proud_skill_list = 15;
 	repeated uint32 proud_skill_list = 8;
 }

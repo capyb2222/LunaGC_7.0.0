@@ -19,22 +19,22 @@ public final class _ChestExtraItemOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.Item item = 2;</code>
+     * <code>.Item item = 10;</code>
      * @return Whether the item field is set.
      */
     boolean hasItem();
     /**
-     * <code>.Item item = 2;</code>
+     * <code>.Item item = 10;</code>
      * @return The item.
      */
     emu.grasscutter.net.proto.ItemOuterClass.Item getItem();
     /**
-     * <code>.Item item = 2;</code>
+     * <code>.Item item = 10;</code>
      */
     emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder getItemOrBuilder();
 
     /**
-     * <code>uint32 reason = 13;</code>
+     * <code>uint32 reason = 2;</code>
      * @return The reason.
      */
     int getReason();
@@ -84,7 +84,12 @@ public final class _ChestExtraItemOuterClass {
             case 0:
               done = true;
               break;
-            case 18: {
+            case 16: {
+
+              reason_ = input.readUInt32();
+              break;
+            }
+            case 82: {
               emu.grasscutter.net.proto.ItemOuterClass.Item.Builder subBuilder = null;
               if (item_ != null) {
                 subBuilder = item_.toBuilder();
@@ -95,11 +100,6 @@ public final class _ChestExtraItemOuterClass {
                 item_ = subBuilder.buildPartial();
               }
 
-              break;
-            }
-            case 104: {
-
-              reason_ = input.readUInt32();
               break;
             }
             default: {
@@ -134,10 +134,10 @@ public final class _ChestExtraItemOuterClass {
               emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItem.class, emu.grasscutter.net.proto._ChestExtraItemOuterClass._ChestExtraItem.Builder.class);
     }
 
-    public static final int ITEM_FIELD_NUMBER = 2;
+    public static final int ITEM_FIELD_NUMBER = 10;
     private emu.grasscutter.net.proto.ItemOuterClass.Item item_;
     /**
-     * <code>.Item item = 2;</code>
+     * <code>.Item item = 10;</code>
      * @return Whether the item field is set.
      */
     @java.lang.Override
@@ -145,7 +145,7 @@ public final class _ChestExtraItemOuterClass {
       return item_ != null;
     }
     /**
-     * <code>.Item item = 2;</code>
+     * <code>.Item item = 10;</code>
      * @return The item.
      */
     @java.lang.Override
@@ -153,17 +153,17 @@ public final class _ChestExtraItemOuterClass {
       return item_ == null ? emu.grasscutter.net.proto.ItemOuterClass.Item.getDefaultInstance() : item_;
     }
     /**
-     * <code>.Item item = 2;</code>
+     * <code>.Item item = 10;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder getItemOrBuilder() {
       return getItem();
     }
 
-    public static final int REASON_FIELD_NUMBER = 13;
+    public static final int REASON_FIELD_NUMBER = 2;
     private int reason_;
     /**
-     * <code>uint32 reason = 13;</code>
+     * <code>uint32 reason = 2;</code>
      * @return The reason.
      */
     @java.lang.Override
@@ -185,11 +185,11 @@ public final class _ChestExtraItemOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (item_ != null) {
-        output.writeMessage(2, getItem());
-      }
       if (reason_ != 0) {
-        output.writeUInt32(13, reason_);
+        output.writeUInt32(2, reason_);
+      }
+      if (item_ != null) {
+        output.writeMessage(10, getItem());
       }
       unknownFields.writeTo(output);
     }
@@ -200,13 +200,13 @@ public final class _ChestExtraItemOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (item_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, getItem());
-      }
       if (reason_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, reason_);
+          .computeUInt32Size(2, reason_);
+      }
+      if (item_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(10, getItem());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -507,14 +507,14 @@ public final class _ChestExtraItemOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ItemOuterClass.Item, emu.grasscutter.net.proto.ItemOuterClass.Item.Builder, emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder> itemBuilder_;
       /**
-       * <code>.Item item = 2;</code>
+       * <code>.Item item = 10;</code>
        * @return Whether the item field is set.
        */
       public boolean hasItem() {
         return itemBuilder_ != null || item_ != null;
       }
       /**
-       * <code>.Item item = 2;</code>
+       * <code>.Item item = 10;</code>
        * @return The item.
        */
       public emu.grasscutter.net.proto.ItemOuterClass.Item getItem() {
@@ -525,7 +525,7 @@ public final class _ChestExtraItemOuterClass {
         }
       }
       /**
-       * <code>.Item item = 2;</code>
+       * <code>.Item item = 10;</code>
        */
       public Builder setItem(emu.grasscutter.net.proto.ItemOuterClass.Item value) {
         if (itemBuilder_ == null) {
@@ -541,7 +541,7 @@ public final class _ChestExtraItemOuterClass {
         return this;
       }
       /**
-       * <code>.Item item = 2;</code>
+       * <code>.Item item = 10;</code>
        */
       public Builder setItem(
           emu.grasscutter.net.proto.ItemOuterClass.Item.Builder builderForValue) {
@@ -555,7 +555,7 @@ public final class _ChestExtraItemOuterClass {
         return this;
       }
       /**
-       * <code>.Item item = 2;</code>
+       * <code>.Item item = 10;</code>
        */
       public Builder mergeItem(emu.grasscutter.net.proto.ItemOuterClass.Item value) {
         if (itemBuilder_ == null) {
@@ -573,7 +573,7 @@ public final class _ChestExtraItemOuterClass {
         return this;
       }
       /**
-       * <code>.Item item = 2;</code>
+       * <code>.Item item = 10;</code>
        */
       public Builder clearItem() {
         if (itemBuilder_ == null) {
@@ -587,7 +587,7 @@ public final class _ChestExtraItemOuterClass {
         return this;
       }
       /**
-       * <code>.Item item = 2;</code>
+       * <code>.Item item = 10;</code>
        */
       public emu.grasscutter.net.proto.ItemOuterClass.Item.Builder getItemBuilder() {
         
@@ -595,7 +595,7 @@ public final class _ChestExtraItemOuterClass {
         return getItemFieldBuilder().getBuilder();
       }
       /**
-       * <code>.Item item = 2;</code>
+       * <code>.Item item = 10;</code>
        */
       public emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder getItemOrBuilder() {
         if (itemBuilder_ != null) {
@@ -606,7 +606,7 @@ public final class _ChestExtraItemOuterClass {
         }
       }
       /**
-       * <code>.Item item = 2;</code>
+       * <code>.Item item = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ItemOuterClass.Item, emu.grasscutter.net.proto.ItemOuterClass.Item.Builder, emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder> 
@@ -624,7 +624,7 @@ public final class _ChestExtraItemOuterClass {
 
       private int reason_ ;
       /**
-       * <code>uint32 reason = 13;</code>
+       * <code>uint32 reason = 2;</code>
        * @return The reason.
        */
       @java.lang.Override
@@ -632,7 +632,7 @@ public final class _ChestExtraItemOuterClass {
         return reason_;
       }
       /**
-       * <code>uint32 reason = 13;</code>
+       * <code>uint32 reason = 2;</code>
        * @param value The reason to set.
        * @return This builder for chaining.
        */
@@ -643,7 +643,7 @@ public final class _ChestExtraItemOuterClass {
         return this;
       }
       /**
-       * <code>uint32 reason = 13;</code>
+       * <code>uint32 reason = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearReason() {
@@ -720,8 +720,8 @@ public final class _ChestExtraItemOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\025_ChestExtraItem.proto\032\nItem.proto\"6\n\017_" +
-      "ChestExtraItem\022\023\n\004item\030\002 \001(\0132\005.Item\022\016\n\006r" +
-      "eason\030\r \001(\rB6\n\031emu.grasscutter.net.proto" +
+      "ChestExtraItem\022\023\n\004item\030\n \001(\0132\005.Item\022\016\n\006r" +
+      "eason\030\002 \001(\rB6\n\031emu.grasscutter.net.proto" +
       "B\031_ChestExtraItemOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

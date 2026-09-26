@@ -4,5 +4,5 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "GetActivityShopSheetInfoReqOuterClass";
 
 message GetActivityShopSheetInfoReq {
-	uint32 shop_type = 12;
+	uint32 shop_type = 15;
 }

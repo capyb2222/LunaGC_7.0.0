@@ -19,25 +19,25 @@ public final class QuickTimeCombatDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .ANLGBIKALMF stage_info_list = 5;</code>
+     * <code>repeated .ANLGBIKALMF stage_info_list = 8;</code>
      */
     java.util.List<emu.grasscutter.net.proto.ANLGBIKALMFOuterClass.ANLGBIKALMF> 
         getStageInfoListList();
     /**
-     * <code>repeated .ANLGBIKALMF stage_info_list = 5;</code>
+     * <code>repeated .ANLGBIKALMF stage_info_list = 8;</code>
      */
     emu.grasscutter.net.proto.ANLGBIKALMFOuterClass.ANLGBIKALMF getStageInfoList(int index);
     /**
-     * <code>repeated .ANLGBIKALMF stage_info_list = 5;</code>
+     * <code>repeated .ANLGBIKALMF stage_info_list = 8;</code>
      */
     int getStageInfoListCount();
     /**
-     * <code>repeated .ANLGBIKALMF stage_info_list = 5;</code>
+     * <code>repeated .ANLGBIKALMF stage_info_list = 8;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.ANLGBIKALMFOuterClass.ANLGBIKALMFOrBuilder> 
         getStageInfoListOrBuilderList();
     /**
-     * <code>repeated .ANLGBIKALMF stage_info_list = 5;</code>
+     * <code>repeated .ANLGBIKALMF stage_info_list = 8;</code>
      */
     emu.grasscutter.net.proto.ANLGBIKALMFOuterClass.ANLGBIKALMFOrBuilder getStageInfoListOrBuilder(
         int index);
@@ -89,7 +89,7 @@ public final class QuickTimeCombatDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 42: {
+            case 66: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 stageInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ANLGBIKALMFOuterClass.ANLGBIKALMF>();
                 mutable_bitField0_ |= 0x00000001;
@@ -133,17 +133,17 @@ public final class QuickTimeCombatDetailInfoOuterClass {
               emu.grasscutter.net.proto.QuickTimeCombatDetailInfoOuterClass.QuickTimeCombatDetailInfo.class, emu.grasscutter.net.proto.QuickTimeCombatDetailInfoOuterClass.QuickTimeCombatDetailInfo.Builder.class);
     }
 
-    public static final int STAGE_INFO_LIST_FIELD_NUMBER = 5;
+    public static final int STAGE_INFO_LIST_FIELD_NUMBER = 8;
     private java.util.List<emu.grasscutter.net.proto.ANLGBIKALMFOuterClass.ANLGBIKALMF> stageInfoList_;
     /**
-     * <code>repeated .ANLGBIKALMF stage_info_list = 5;</code>
+     * <code>repeated .ANLGBIKALMF stage_info_list = 8;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.ANLGBIKALMFOuterClass.ANLGBIKALMF> getStageInfoListList() {
       return stageInfoList_;
     }
     /**
-     * <code>repeated .ANLGBIKALMF stage_info_list = 5;</code>
+     * <code>repeated .ANLGBIKALMF stage_info_list = 8;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.ANLGBIKALMFOuterClass.ANLGBIKALMFOrBuilder> 
@@ -151,21 +151,21 @@ public final class QuickTimeCombatDetailInfoOuterClass {
       return stageInfoList_;
     }
     /**
-     * <code>repeated .ANLGBIKALMF stage_info_list = 5;</code>
+     * <code>repeated .ANLGBIKALMF stage_info_list = 8;</code>
      */
     @java.lang.Override
     public int getStageInfoListCount() {
       return stageInfoList_.size();
     }
     /**
-     * <code>repeated .ANLGBIKALMF stage_info_list = 5;</code>
+     * <code>repeated .ANLGBIKALMF stage_info_list = 8;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ANLGBIKALMFOuterClass.ANLGBIKALMF getStageInfoList(int index) {
       return stageInfoList_.get(index);
     }
     /**
-     * <code>repeated .ANLGBIKALMF stage_info_list = 5;</code>
+     * <code>repeated .ANLGBIKALMF stage_info_list = 8;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ANLGBIKALMFOuterClass.ANLGBIKALMFOrBuilder getStageInfoListOrBuilder(
@@ -188,7 +188,7 @@ public final class QuickTimeCombatDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < stageInfoList_.size(); i++) {
-        output.writeMessage(5, stageInfoList_.get(i));
+        output.writeMessage(8, stageInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -201,7 +201,7 @@ public final class QuickTimeCombatDetailInfoOuterClass {
       size = 0;
       for (int i = 0; i < stageInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, stageInfoList_.get(i));
+          .computeMessageSize(8, stageInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -528,7 +528,7 @@ public final class QuickTimeCombatDetailInfoOuterClass {
           emu.grasscutter.net.proto.ANLGBIKALMFOuterClass.ANLGBIKALMF, emu.grasscutter.net.proto.ANLGBIKALMFOuterClass.ANLGBIKALMF.Builder, emu.grasscutter.net.proto.ANLGBIKALMFOuterClass.ANLGBIKALMFOrBuilder> stageInfoListBuilder_;
 
       /**
-       * <code>repeated .ANLGBIKALMF stage_info_list = 5;</code>
+       * <code>repeated .ANLGBIKALMF stage_info_list = 8;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ANLGBIKALMFOuterClass.ANLGBIKALMF> getStageInfoListList() {
         if (stageInfoListBuilder_ == null) {
@@ -538,7 +538,7 @@ public final class QuickTimeCombatDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ANLGBIKALMF stage_info_list = 5;</code>
+       * <code>repeated .ANLGBIKALMF stage_info_list = 8;</code>
        */
       public int getStageInfoListCount() {
         if (stageInfoListBuilder_ == null) {
@@ -548,7 +548,7 @@ public final class QuickTimeCombatDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ANLGBIKALMF stage_info_list = 5;</code>
+       * <code>repeated .ANLGBIKALMF stage_info_list = 8;</code>
        */
       public emu.grasscutter.net.proto.ANLGBIKALMFOuterClass.ANLGBIKALMF getStageInfoList(int index) {
         if (stageInfoListBuilder_ == null) {
@@ -558,7 +558,7 @@ public final class QuickTimeCombatDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ANLGBIKALMF stage_info_list = 5;</code>
+       * <code>repeated .ANLGBIKALMF stage_info_list = 8;</code>
        */
       public Builder setStageInfoList(
           int index, emu.grasscutter.net.proto.ANLGBIKALMFOuterClass.ANLGBIKALMF value) {
@@ -575,7 +575,7 @@ public final class QuickTimeCombatDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ANLGBIKALMF stage_info_list = 5;</code>
+       * <code>repeated .ANLGBIKALMF stage_info_list = 8;</code>
        */
       public Builder setStageInfoList(
           int index, emu.grasscutter.net.proto.ANLGBIKALMFOuterClass.ANLGBIKALMF.Builder builderForValue) {
@@ -589,7 +589,7 @@ public final class QuickTimeCombatDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ANLGBIKALMF stage_info_list = 5;</code>
+       * <code>repeated .ANLGBIKALMF stage_info_list = 8;</code>
        */
       public Builder addStageInfoList(emu.grasscutter.net.proto.ANLGBIKALMFOuterClass.ANLGBIKALMF value) {
         if (stageInfoListBuilder_ == null) {
@@ -605,7 +605,7 @@ public final class QuickTimeCombatDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ANLGBIKALMF stage_info_list = 5;</code>
+       * <code>repeated .ANLGBIKALMF stage_info_list = 8;</code>
        */
       public Builder addStageInfoList(
           int index, emu.grasscutter.net.proto.ANLGBIKALMFOuterClass.ANLGBIKALMF value) {
@@ -622,7 +622,7 @@ public final class QuickTimeCombatDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ANLGBIKALMF stage_info_list = 5;</code>
+       * <code>repeated .ANLGBIKALMF stage_info_list = 8;</code>
        */
       public Builder addStageInfoList(
           emu.grasscutter.net.proto.ANLGBIKALMFOuterClass.ANLGBIKALMF.Builder builderForValue) {
@@ -636,7 +636,7 @@ public final class QuickTimeCombatDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ANLGBIKALMF stage_info_list = 5;</code>
+       * <code>repeated .ANLGBIKALMF stage_info_list = 8;</code>
        */
       public Builder addStageInfoList(
           int index, emu.grasscutter.net.proto.ANLGBIKALMFOuterClass.ANLGBIKALMF.Builder builderForValue) {
@@ -650,7 +650,7 @@ public final class QuickTimeCombatDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ANLGBIKALMF stage_info_list = 5;</code>
+       * <code>repeated .ANLGBIKALMF stage_info_list = 8;</code>
        */
       public Builder addAllStageInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.ANLGBIKALMFOuterClass.ANLGBIKALMF> values) {
@@ -665,7 +665,7 @@ public final class QuickTimeCombatDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ANLGBIKALMF stage_info_list = 5;</code>
+       * <code>repeated .ANLGBIKALMF stage_info_list = 8;</code>
        */
       public Builder clearStageInfoList() {
         if (stageInfoListBuilder_ == null) {
@@ -678,7 +678,7 @@ public final class QuickTimeCombatDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ANLGBIKALMF stage_info_list = 5;</code>
+       * <code>repeated .ANLGBIKALMF stage_info_list = 8;</code>
        */
       public Builder removeStageInfoList(int index) {
         if (stageInfoListBuilder_ == null) {
@@ -691,14 +691,14 @@ public final class QuickTimeCombatDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ANLGBIKALMF stage_info_list = 5;</code>
+       * <code>repeated .ANLGBIKALMF stage_info_list = 8;</code>
        */
       public emu.grasscutter.net.proto.ANLGBIKALMFOuterClass.ANLGBIKALMF.Builder getStageInfoListBuilder(
           int index) {
         return getStageInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .ANLGBIKALMF stage_info_list = 5;</code>
+       * <code>repeated .ANLGBIKALMF stage_info_list = 8;</code>
        */
       public emu.grasscutter.net.proto.ANLGBIKALMFOuterClass.ANLGBIKALMFOrBuilder getStageInfoListOrBuilder(
           int index) {
@@ -708,7 +708,7 @@ public final class QuickTimeCombatDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ANLGBIKALMF stage_info_list = 5;</code>
+       * <code>repeated .ANLGBIKALMF stage_info_list = 8;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.ANLGBIKALMFOuterClass.ANLGBIKALMFOrBuilder> 
            getStageInfoListOrBuilderList() {
@@ -719,14 +719,14 @@ public final class QuickTimeCombatDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ANLGBIKALMF stage_info_list = 5;</code>
+       * <code>repeated .ANLGBIKALMF stage_info_list = 8;</code>
        */
       public emu.grasscutter.net.proto.ANLGBIKALMFOuterClass.ANLGBIKALMF.Builder addStageInfoListBuilder() {
         return getStageInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.ANLGBIKALMFOuterClass.ANLGBIKALMF.getDefaultInstance());
       }
       /**
-       * <code>repeated .ANLGBIKALMF stage_info_list = 5;</code>
+       * <code>repeated .ANLGBIKALMF stage_info_list = 8;</code>
        */
       public emu.grasscutter.net.proto.ANLGBIKALMFOuterClass.ANLGBIKALMF.Builder addStageInfoListBuilder(
           int index) {
@@ -734,7 +734,7 @@ public final class QuickTimeCombatDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.ANLGBIKALMFOuterClass.ANLGBIKALMF.getDefaultInstance());
       }
       /**
-       * <code>repeated .ANLGBIKALMF stage_info_list = 5;</code>
+       * <code>repeated .ANLGBIKALMF stage_info_list = 8;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ANLGBIKALMFOuterClass.ANLGBIKALMF.Builder> 
            getStageInfoListBuilderList() {
@@ -823,7 +823,7 @@ public final class QuickTimeCombatDetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\037QuickTimeCombatDetailInfo.proto\032\021ANLGB" +
       "IKALMF.proto\"B\n\031QuickTimeCombatDetailInf" +
-      "o\022%\n\017stage_info_list\030\005 \003(\0132\014.ANLGBIKALMF" +
+      "o\022%\n\017stage_info_list\030\010 \003(\0132\014.ANLGBIKALMF" +
       "B@\n\031emu.grasscutter.net.protoB#QuickTime" +
       "CombatDetailInfoOuterClassb\006proto3"
     };

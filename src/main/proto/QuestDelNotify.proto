@@ -4,5 +4,5 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "QuestDelNotifyOuterClass";
 
 message QuestDelNotify {
-	uint32 quest_id = 6;
+	uint32 quest_id = 8;
 }

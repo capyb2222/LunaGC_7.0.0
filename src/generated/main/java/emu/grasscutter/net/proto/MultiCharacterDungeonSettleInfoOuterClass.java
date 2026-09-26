@@ -19,7 +19,7 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 level_id = 3;</code>
+     * <code>uint32 level_id = 1;</code>
      * @return The levelId.
      */
     int getLevelId();
@@ -31,54 +31,54 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
     int getStageId();
 
     /**
-     * <code>repeated uint32 ajfidjinpll = 5;</code>
+     * <code>repeated uint32 ajfidjinpll = 15;</code>
      * @return A list containing the ajfidjinpll.
      */
     java.util.List<java.lang.Integer> getAjfidjinpllList();
     /**
-     * <code>repeated uint32 ajfidjinpll = 5;</code>
+     * <code>repeated uint32 ajfidjinpll = 15;</code>
      * @return The count of ajfidjinpll.
      */
     int getAjfidjinpllCount();
     /**
-     * <code>repeated uint32 ajfidjinpll = 5;</code>
+     * <code>repeated uint32 ajfidjinpll = 15;</code>
      * @param index The index of the element to return.
      * @return The ajfidjinpll at the given index.
      */
     int getAjfidjinpll(int index);
 
     /**
-     * <code>repeated .IEDLOHFOJJB team_info_list = 7;</code>
+     * <code>repeated .IEDLOHFOJJB team_info_list = 11;</code>
      */
     java.util.List<emu.grasscutter.net.proto.IEDLOHFOJJBOuterClass.IEDLOHFOJJB> 
         getTeamInfoListList();
     /**
-     * <code>repeated .IEDLOHFOJJB team_info_list = 7;</code>
+     * <code>repeated .IEDLOHFOJJB team_info_list = 11;</code>
      */
     emu.grasscutter.net.proto.IEDLOHFOJJBOuterClass.IEDLOHFOJJB getTeamInfoList(int index);
     /**
-     * <code>repeated .IEDLOHFOJJB team_info_list = 7;</code>
+     * <code>repeated .IEDLOHFOJJB team_info_list = 11;</code>
      */
     int getTeamInfoListCount();
     /**
-     * <code>repeated .IEDLOHFOJJB team_info_list = 7;</code>
+     * <code>repeated .IEDLOHFOJJB team_info_list = 11;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.IEDLOHFOJJBOuterClass.IEDLOHFOJJBOrBuilder> 
         getTeamInfoListOrBuilderList();
     /**
-     * <code>repeated .IEDLOHFOJJB team_info_list = 7;</code>
+     * <code>repeated .IEDLOHFOJJB team_info_list = 11;</code>
      */
     emu.grasscutter.net.proto.IEDLOHFOJJBOuterClass.IEDLOHFOJJBOrBuilder getTeamInfoListOrBuilder(
         int index);
 
     /**
-     * <code>uint32 difficulty = 9;</code>
+     * <code>uint32 difficulty = 10;</code>
      * @return The difficulty.
      */
     int getDifficulty();
 
     /**
-     * <code>bool is_new_record = 14;</code>
+     * <code>bool is_new_record = 7;</code>
      * @return The isNewRecord.
      */
     boolean getIsNewRecord();
@@ -131,7 +131,7 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 8: {
 
               levelId_ = input.readUInt32();
               break;
@@ -141,7 +141,26 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
               stageId_ = input.readUInt32();
               break;
             }
-            case 40: {
+            case 56: {
+
+              isNewRecord_ = input.readBool();
+              break;
+            }
+            case 80: {
+
+              difficulty_ = input.readUInt32();
+              break;
+            }
+            case 90: {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                teamInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.IEDLOHFOJJBOuterClass.IEDLOHFOJJB>();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              teamInfoList_.add(
+                  input.readMessage(emu.grasscutter.net.proto.IEDLOHFOJJBOuterClass.IEDLOHFOJJB.parser(), extensionRegistry));
+              break;
+            }
+            case 120: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 ajfidjinpll_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -149,7 +168,7 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
               ajfidjinpll_.addInt(input.readUInt32());
               break;
             }
-            case 42: {
+            case 122: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -160,25 +179,6 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
                 ajfidjinpll_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
-              break;
-            }
-            case 58: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                teamInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.IEDLOHFOJJBOuterClass.IEDLOHFOJJB>();
-                mutable_bitField0_ |= 0x00000002;
-              }
-              teamInfoList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.IEDLOHFOJJBOuterClass.IEDLOHFOJJB.parser(), extensionRegistry));
-              break;
-            }
-            case 72: {
-
-              difficulty_ = input.readUInt32();
-              break;
-            }
-            case 112: {
-
-              isNewRecord_ = input.readBool();
               break;
             }
             default: {
@@ -196,11 +196,11 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          ajfidjinpll_.makeImmutable(); // C
-        }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
           teamInfoList_ = java.util.Collections.unmodifiableList(teamInfoList_);
+        }
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          ajfidjinpll_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -219,10 +219,10 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
               emu.grasscutter.net.proto.MultiCharacterDungeonSettleInfoOuterClass.MultiCharacterDungeonSettleInfo.class, emu.grasscutter.net.proto.MultiCharacterDungeonSettleInfoOuterClass.MultiCharacterDungeonSettleInfo.Builder.class);
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 3;
+    public static final int LEVEL_ID_FIELD_NUMBER = 1;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 3;</code>
+     * <code>uint32 level_id = 1;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -241,10 +241,10 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
       return stageId_;
     }
 
-    public static final int AJFIDJINPLL_FIELD_NUMBER = 5;
+    public static final int AJFIDJINPLL_FIELD_NUMBER = 15;
     private com.google.protobuf.Internal.IntList ajfidjinpll_;
     /**
-     * <code>repeated uint32 ajfidjinpll = 5;</code>
+     * <code>repeated uint32 ajfidjinpll = 15;</code>
      * @return A list containing the ajfidjinpll.
      */
     @java.lang.Override
@@ -253,14 +253,14 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
       return ajfidjinpll_;
     }
     /**
-     * <code>repeated uint32 ajfidjinpll = 5;</code>
+     * <code>repeated uint32 ajfidjinpll = 15;</code>
      * @return The count of ajfidjinpll.
      */
     public int getAjfidjinpllCount() {
       return ajfidjinpll_.size();
     }
     /**
-     * <code>repeated uint32 ajfidjinpll = 5;</code>
+     * <code>repeated uint32 ajfidjinpll = 15;</code>
      * @param index The index of the element to return.
      * @return The ajfidjinpll at the given index.
      */
@@ -269,17 +269,17 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
     }
     private int ajfidjinpllMemoizedSerializedSize = -1;
 
-    public static final int TEAM_INFO_LIST_FIELD_NUMBER = 7;
+    public static final int TEAM_INFO_LIST_FIELD_NUMBER = 11;
     private java.util.List<emu.grasscutter.net.proto.IEDLOHFOJJBOuterClass.IEDLOHFOJJB> teamInfoList_;
     /**
-     * <code>repeated .IEDLOHFOJJB team_info_list = 7;</code>
+     * <code>repeated .IEDLOHFOJJB team_info_list = 11;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.IEDLOHFOJJBOuterClass.IEDLOHFOJJB> getTeamInfoListList() {
       return teamInfoList_;
     }
     /**
-     * <code>repeated .IEDLOHFOJJB team_info_list = 7;</code>
+     * <code>repeated .IEDLOHFOJJB team_info_list = 11;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.IEDLOHFOJJBOuterClass.IEDLOHFOJJBOrBuilder> 
@@ -287,21 +287,21 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
       return teamInfoList_;
     }
     /**
-     * <code>repeated .IEDLOHFOJJB team_info_list = 7;</code>
+     * <code>repeated .IEDLOHFOJJB team_info_list = 11;</code>
      */
     @java.lang.Override
     public int getTeamInfoListCount() {
       return teamInfoList_.size();
     }
     /**
-     * <code>repeated .IEDLOHFOJJB team_info_list = 7;</code>
+     * <code>repeated .IEDLOHFOJJB team_info_list = 11;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.IEDLOHFOJJBOuterClass.IEDLOHFOJJB getTeamInfoList(int index) {
       return teamInfoList_.get(index);
     }
     /**
-     * <code>repeated .IEDLOHFOJJB team_info_list = 7;</code>
+     * <code>repeated .IEDLOHFOJJB team_info_list = 11;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.IEDLOHFOJJBOuterClass.IEDLOHFOJJBOrBuilder getTeamInfoListOrBuilder(
@@ -309,10 +309,10 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
       return teamInfoList_.get(index);
     }
 
-    public static final int DIFFICULTY_FIELD_NUMBER = 9;
+    public static final int DIFFICULTY_FIELD_NUMBER = 10;
     private int difficulty_;
     /**
-     * <code>uint32 difficulty = 9;</code>
+     * <code>uint32 difficulty = 10;</code>
      * @return The difficulty.
      */
     @java.lang.Override
@@ -320,10 +320,10 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
       return difficulty_;
     }
 
-    public static final int IS_NEW_RECORD_FIELD_NUMBER = 14;
+    public static final int IS_NEW_RECORD_FIELD_NUMBER = 7;
     private boolean isNewRecord_;
     /**
-     * <code>bool is_new_record = 14;</code>
+     * <code>bool is_new_record = 7;</code>
      * @return The isNewRecord.
      */
     @java.lang.Override
@@ -347,26 +347,26 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (levelId_ != 0) {
-        output.writeUInt32(3, levelId_);
+        output.writeUInt32(1, levelId_);
       }
       if (stageId_ != 0) {
         output.writeUInt32(4, stageId_);
       }
+      if (isNewRecord_ != false) {
+        output.writeBool(7, isNewRecord_);
+      }
+      if (difficulty_ != 0) {
+        output.writeUInt32(10, difficulty_);
+      }
+      for (int i = 0; i < teamInfoList_.size(); i++) {
+        output.writeMessage(11, teamInfoList_.get(i));
+      }
       if (getAjfidjinpllList().size() > 0) {
-        output.writeUInt32NoTag(42);
+        output.writeUInt32NoTag(122);
         output.writeUInt32NoTag(ajfidjinpllMemoizedSerializedSize);
       }
       for (int i = 0; i < ajfidjinpll_.size(); i++) {
         output.writeUInt32NoTag(ajfidjinpll_.getInt(i));
-      }
-      for (int i = 0; i < teamInfoList_.size(); i++) {
-        output.writeMessage(7, teamInfoList_.get(i));
-      }
-      if (difficulty_ != 0) {
-        output.writeUInt32(9, difficulty_);
-      }
-      if (isNewRecord_ != false) {
-        output.writeBool(14, isNewRecord_);
       }
       unknownFields.writeTo(output);
     }
@@ -379,11 +379,23 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
       size = 0;
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, levelId_);
+          .computeUInt32Size(1, levelId_);
       }
       if (stageId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(4, stageId_);
+      }
+      if (isNewRecord_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(7, isNewRecord_);
+      }
+      if (difficulty_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(10, difficulty_);
+      }
+      for (int i = 0; i < teamInfoList_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(11, teamInfoList_.get(i));
       }
       {
         int dataSize = 0;
@@ -398,18 +410,6 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
               .computeInt32SizeNoTag(dataSize);
         }
         ajfidjinpllMemoizedSerializedSize = dataSize;
-      }
-      for (int i = 0; i < teamInfoList_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, teamInfoList_.get(i));
-      }
-      if (difficulty_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, difficulty_);
-      }
-      if (isNewRecord_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(14, isNewRecord_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -789,7 +789,7 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 3;</code>
+       * <code>uint32 level_id = 1;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -797,7 +797,7 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 3;</code>
+       * <code>uint32 level_id = 1;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -808,7 +808,7 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 3;</code>
+       * <code>uint32 level_id = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -857,7 +857,7 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 ajfidjinpll = 5;</code>
+       * <code>repeated uint32 ajfidjinpll = 15;</code>
        * @return A list containing the ajfidjinpll.
        */
       public java.util.List<java.lang.Integer>
@@ -866,14 +866,14 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
                  java.util.Collections.unmodifiableList(ajfidjinpll_) : ajfidjinpll_;
       }
       /**
-       * <code>repeated uint32 ajfidjinpll = 5;</code>
+       * <code>repeated uint32 ajfidjinpll = 15;</code>
        * @return The count of ajfidjinpll.
        */
       public int getAjfidjinpllCount() {
         return ajfidjinpll_.size();
       }
       /**
-       * <code>repeated uint32 ajfidjinpll = 5;</code>
+       * <code>repeated uint32 ajfidjinpll = 15;</code>
        * @param index The index of the element to return.
        * @return The ajfidjinpll at the given index.
        */
@@ -881,7 +881,7 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
         return ajfidjinpll_.getInt(index);
       }
       /**
-       * <code>repeated uint32 ajfidjinpll = 5;</code>
+       * <code>repeated uint32 ajfidjinpll = 15;</code>
        * @param index The index to set the value at.
        * @param value The ajfidjinpll to set.
        * @return This builder for chaining.
@@ -894,7 +894,7 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 ajfidjinpll = 5;</code>
+       * <code>repeated uint32 ajfidjinpll = 15;</code>
        * @param value The ajfidjinpll to add.
        * @return This builder for chaining.
        */
@@ -905,7 +905,7 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 ajfidjinpll = 5;</code>
+       * <code>repeated uint32 ajfidjinpll = 15;</code>
        * @param values The ajfidjinpll to add.
        * @return This builder for chaining.
        */
@@ -918,7 +918,7 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 ajfidjinpll = 5;</code>
+       * <code>repeated uint32 ajfidjinpll = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearAjfidjinpll() {
@@ -941,7 +941,7 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
           emu.grasscutter.net.proto.IEDLOHFOJJBOuterClass.IEDLOHFOJJB, emu.grasscutter.net.proto.IEDLOHFOJJBOuterClass.IEDLOHFOJJB.Builder, emu.grasscutter.net.proto.IEDLOHFOJJBOuterClass.IEDLOHFOJJBOrBuilder> teamInfoListBuilder_;
 
       /**
-       * <code>repeated .IEDLOHFOJJB team_info_list = 7;</code>
+       * <code>repeated .IEDLOHFOJJB team_info_list = 11;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.IEDLOHFOJJBOuterClass.IEDLOHFOJJB> getTeamInfoListList() {
         if (teamInfoListBuilder_ == null) {
@@ -951,7 +951,7 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .IEDLOHFOJJB team_info_list = 7;</code>
+       * <code>repeated .IEDLOHFOJJB team_info_list = 11;</code>
        */
       public int getTeamInfoListCount() {
         if (teamInfoListBuilder_ == null) {
@@ -961,7 +961,7 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .IEDLOHFOJJB team_info_list = 7;</code>
+       * <code>repeated .IEDLOHFOJJB team_info_list = 11;</code>
        */
       public emu.grasscutter.net.proto.IEDLOHFOJJBOuterClass.IEDLOHFOJJB getTeamInfoList(int index) {
         if (teamInfoListBuilder_ == null) {
@@ -971,7 +971,7 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .IEDLOHFOJJB team_info_list = 7;</code>
+       * <code>repeated .IEDLOHFOJJB team_info_list = 11;</code>
        */
       public Builder setTeamInfoList(
           int index, emu.grasscutter.net.proto.IEDLOHFOJJBOuterClass.IEDLOHFOJJB value) {
@@ -988,7 +988,7 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IEDLOHFOJJB team_info_list = 7;</code>
+       * <code>repeated .IEDLOHFOJJB team_info_list = 11;</code>
        */
       public Builder setTeamInfoList(
           int index, emu.grasscutter.net.proto.IEDLOHFOJJBOuterClass.IEDLOHFOJJB.Builder builderForValue) {
@@ -1002,7 +1002,7 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IEDLOHFOJJB team_info_list = 7;</code>
+       * <code>repeated .IEDLOHFOJJB team_info_list = 11;</code>
        */
       public Builder addTeamInfoList(emu.grasscutter.net.proto.IEDLOHFOJJBOuterClass.IEDLOHFOJJB value) {
         if (teamInfoListBuilder_ == null) {
@@ -1018,7 +1018,7 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IEDLOHFOJJB team_info_list = 7;</code>
+       * <code>repeated .IEDLOHFOJJB team_info_list = 11;</code>
        */
       public Builder addTeamInfoList(
           int index, emu.grasscutter.net.proto.IEDLOHFOJJBOuterClass.IEDLOHFOJJB value) {
@@ -1035,7 +1035,7 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IEDLOHFOJJB team_info_list = 7;</code>
+       * <code>repeated .IEDLOHFOJJB team_info_list = 11;</code>
        */
       public Builder addTeamInfoList(
           emu.grasscutter.net.proto.IEDLOHFOJJBOuterClass.IEDLOHFOJJB.Builder builderForValue) {
@@ -1049,7 +1049,7 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IEDLOHFOJJB team_info_list = 7;</code>
+       * <code>repeated .IEDLOHFOJJB team_info_list = 11;</code>
        */
       public Builder addTeamInfoList(
           int index, emu.grasscutter.net.proto.IEDLOHFOJJBOuterClass.IEDLOHFOJJB.Builder builderForValue) {
@@ -1063,7 +1063,7 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IEDLOHFOJJB team_info_list = 7;</code>
+       * <code>repeated .IEDLOHFOJJB team_info_list = 11;</code>
        */
       public Builder addAllTeamInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.IEDLOHFOJJBOuterClass.IEDLOHFOJJB> values) {
@@ -1078,7 +1078,7 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IEDLOHFOJJB team_info_list = 7;</code>
+       * <code>repeated .IEDLOHFOJJB team_info_list = 11;</code>
        */
       public Builder clearTeamInfoList() {
         if (teamInfoListBuilder_ == null) {
@@ -1091,7 +1091,7 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IEDLOHFOJJB team_info_list = 7;</code>
+       * <code>repeated .IEDLOHFOJJB team_info_list = 11;</code>
        */
       public Builder removeTeamInfoList(int index) {
         if (teamInfoListBuilder_ == null) {
@@ -1104,14 +1104,14 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IEDLOHFOJJB team_info_list = 7;</code>
+       * <code>repeated .IEDLOHFOJJB team_info_list = 11;</code>
        */
       public emu.grasscutter.net.proto.IEDLOHFOJJBOuterClass.IEDLOHFOJJB.Builder getTeamInfoListBuilder(
           int index) {
         return getTeamInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .IEDLOHFOJJB team_info_list = 7;</code>
+       * <code>repeated .IEDLOHFOJJB team_info_list = 11;</code>
        */
       public emu.grasscutter.net.proto.IEDLOHFOJJBOuterClass.IEDLOHFOJJBOrBuilder getTeamInfoListOrBuilder(
           int index) {
@@ -1121,7 +1121,7 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .IEDLOHFOJJB team_info_list = 7;</code>
+       * <code>repeated .IEDLOHFOJJB team_info_list = 11;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.IEDLOHFOJJBOuterClass.IEDLOHFOJJBOrBuilder> 
            getTeamInfoListOrBuilderList() {
@@ -1132,14 +1132,14 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .IEDLOHFOJJB team_info_list = 7;</code>
+       * <code>repeated .IEDLOHFOJJB team_info_list = 11;</code>
        */
       public emu.grasscutter.net.proto.IEDLOHFOJJBOuterClass.IEDLOHFOJJB.Builder addTeamInfoListBuilder() {
         return getTeamInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.IEDLOHFOJJBOuterClass.IEDLOHFOJJB.getDefaultInstance());
       }
       /**
-       * <code>repeated .IEDLOHFOJJB team_info_list = 7;</code>
+       * <code>repeated .IEDLOHFOJJB team_info_list = 11;</code>
        */
       public emu.grasscutter.net.proto.IEDLOHFOJJBOuterClass.IEDLOHFOJJB.Builder addTeamInfoListBuilder(
           int index) {
@@ -1147,7 +1147,7 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
             index, emu.grasscutter.net.proto.IEDLOHFOJJBOuterClass.IEDLOHFOJJB.getDefaultInstance());
       }
       /**
-       * <code>repeated .IEDLOHFOJJB team_info_list = 7;</code>
+       * <code>repeated .IEDLOHFOJJB team_info_list = 11;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.IEDLOHFOJJBOuterClass.IEDLOHFOJJB.Builder> 
            getTeamInfoListBuilderList() {
@@ -1170,7 +1170,7 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
 
       private int difficulty_ ;
       /**
-       * <code>uint32 difficulty = 9;</code>
+       * <code>uint32 difficulty = 10;</code>
        * @return The difficulty.
        */
       @java.lang.Override
@@ -1178,7 +1178,7 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
         return difficulty_;
       }
       /**
-       * <code>uint32 difficulty = 9;</code>
+       * <code>uint32 difficulty = 10;</code>
        * @param value The difficulty to set.
        * @return This builder for chaining.
        */
@@ -1189,7 +1189,7 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 difficulty = 9;</code>
+       * <code>uint32 difficulty = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearDifficulty() {
@@ -1201,7 +1201,7 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
 
       private boolean isNewRecord_ ;
       /**
-       * <code>bool is_new_record = 14;</code>
+       * <code>bool is_new_record = 7;</code>
        * @return The isNewRecord.
        */
       @java.lang.Override
@@ -1209,7 +1209,7 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
         return isNewRecord_;
       }
       /**
-       * <code>bool is_new_record = 14;</code>
+       * <code>bool is_new_record = 7;</code>
        * @param value The isNewRecord to set.
        * @return This builder for chaining.
        */
@@ -1220,7 +1220,7 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_new_record = 14;</code>
+       * <code>bool is_new_record = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsNewRecord() {
@@ -1298,10 +1298,10 @@ public final class MultiCharacterDungeonSettleInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n%MultiCharacterDungeonSettleInfo.proto\032" +
       "\021IEDLOHFOJJB.proto\"\253\001\n\037MultiCharacterDun" +
-      "geonSettleInfo\022\020\n\010level_id\030\003 \001(\r\022\020\n\010stag" +
-      "e_id\030\004 \001(\r\022\023\n\013ajfidjinpll\030\005 \003(\r\022$\n\016team_" +
-      "info_list\030\007 \003(\0132\014.IEDLOHFOJJB\022\022\n\ndifficu" +
-      "lty\030\t \001(\r\022\025\n\ris_new_record\030\016 \001(\010BF\n\031emu." +
+      "geonSettleInfo\022\020\n\010level_id\030\001 \001(\r\022\020\n\010stag" +
+      "e_id\030\004 \001(\r\022\023\n\013ajfidjinpll\030\017 \003(\r\022$\n\016team_" +
+      "info_list\030\013 \003(\0132\014.IEDLOHFOJJB\022\022\n\ndifficu" +
+      "lty\030\n \001(\r\022\025\n\ris_new_record\030\007 \001(\010BF\n\031emu." +
       "grasscutter.net.protoB)MultiCharacterDun" +
       "geonSettleInfoOuterClassb\006proto3"
     };

@@ -19,11 +19,11 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>map&lt;uint32, uint32&gt; search_time_map = 6;</code>
+     * <code>map&lt;uint32, uint32&gt; search_time_map = 7;</code>
      */
     int getSearchTimeMapCount();
     /**
-     * <code>map&lt;uint32, uint32&gt; search_time_map = 6;</code>
+     * <code>map&lt;uint32, uint32&gt; search_time_map = 7;</code>
      */
     boolean containsSearchTimeMap(
         int key);
@@ -34,32 +34,32 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getSearchTimeMap();
     /**
-     * <code>map&lt;uint32, uint32&gt; search_time_map = 6;</code>
+     * <code>map&lt;uint32, uint32&gt; search_time_map = 7;</code>
      */
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getSearchTimeMapMap();
     /**
-     * <code>map&lt;uint32, uint32&gt; search_time_map = 6;</code>
+     * <code>map&lt;uint32, uint32&gt; search_time_map = 7;</code>
      */
 
     int getSearchTimeMapOrDefault(
         int key,
         int defaultValue);
     /**
-     * <code>map&lt;uint32, uint32&gt; search_time_map = 6;</code>
+     * <code>map&lt;uint32, uint32&gt; search_time_map = 7;</code>
      */
 
     int getSearchTimeMapOrThrow(
         int key);
 
     /**
-     * <code>uint32 mp_play_id = 13;</code>
+     * <code>uint32 mp_play_id = 6;</code>
      * @return The mpPlayId.
      */
     int getMpPlayId();
 
     /**
-     * <code>uint32 region_search_id = 15;</code>
+     * <code>uint32 region_search_id = 2;</code>
      * @return The regionSearchId.
      */
     int getRegionSearchId();
@@ -110,7 +110,17 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 50: {
+            case 16: {
+
+              regionSearchId_ = input.readUInt32();
+              break;
+            }
+            case 48: {
+
+              mpPlayId_ = input.readUInt32();
+              break;
+            }
+            case 58: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 searchTimeMap_ = com.google.protobuf.MapField.newMapField(
                     SearchTimeMapDefaultEntryHolder.defaultEntry);
@@ -121,16 +131,6 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
                   SearchTimeMapDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
               searchTimeMap_.getMutableMap().put(
                   searchTimeMap__.getKey(), searchTimeMap__.getValue());
-              break;
-            }
-            case 104: {
-
-              mpPlayId_ = input.readUInt32();
-              break;
-            }
-            case 120: {
-
-              regionSearchId_ = input.readUInt32();
               break;
             }
             default: {
@@ -162,7 +162,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
     protected com.google.protobuf.MapField internalGetMapField(
         int number) {
       switch (number) {
-        case 6:
+        case 7:
           return internalGetSearchTimeMap();
         default:
           throw new RuntimeException(
@@ -177,7 +177,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
               emu.grasscutter.net.proto.WaterSpiritActivityDetailInfoOuterClass.WaterSpiritActivityDetailInfo.class, emu.grasscutter.net.proto.WaterSpiritActivityDetailInfoOuterClass.WaterSpiritActivityDetailInfo.Builder.class);
     }
 
-    public static final int SEARCH_TIME_MAP_FIELD_NUMBER = 6;
+    public static final int SEARCH_TIME_MAP_FIELD_NUMBER = 7;
     private static final class SearchTimeMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, java.lang.Integer> defaultEntry =
@@ -204,7 +204,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
       return internalGetSearchTimeMap().getMap().size();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; search_time_map = 6;</code>
+     * <code>map&lt;uint32, uint32&gt; search_time_map = 7;</code>
      */
 
     @java.lang.Override
@@ -222,7 +222,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
       return getSearchTimeMapMap();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; search_time_map = 6;</code>
+     * <code>map&lt;uint32, uint32&gt; search_time_map = 7;</code>
      */
     @java.lang.Override
 
@@ -230,7 +230,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
       return internalGetSearchTimeMap().getMap();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; search_time_map = 6;</code>
+     * <code>map&lt;uint32, uint32&gt; search_time_map = 7;</code>
      */
     @java.lang.Override
 
@@ -243,7 +243,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; search_time_map = 6;</code>
+     * <code>map&lt;uint32, uint32&gt; search_time_map = 7;</code>
      */
     @java.lang.Override
 
@@ -258,10 +258,10 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
       return map.get(key);
     }
 
-    public static final int MP_PLAY_ID_FIELD_NUMBER = 13;
+    public static final int MP_PLAY_ID_FIELD_NUMBER = 6;
     private int mpPlayId_;
     /**
-     * <code>uint32 mp_play_id = 13;</code>
+     * <code>uint32 mp_play_id = 6;</code>
      * @return The mpPlayId.
      */
     @java.lang.Override
@@ -269,10 +269,10 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
       return mpPlayId_;
     }
 
-    public static final int REGION_SEARCH_ID_FIELD_NUMBER = 15;
+    public static final int REGION_SEARCH_ID_FIELD_NUMBER = 2;
     private int regionSearchId_;
     /**
-     * <code>uint32 region_search_id = 15;</code>
+     * <code>uint32 region_search_id = 2;</code>
      * @return The regionSearchId.
      */
     @java.lang.Override
@@ -294,18 +294,18 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (regionSearchId_ != 0) {
+        output.writeUInt32(2, regionSearchId_);
+      }
+      if (mpPlayId_ != 0) {
+        output.writeUInt32(6, mpPlayId_);
+      }
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
           output,
           internalGetSearchTimeMap(),
           SearchTimeMapDefaultEntryHolder.defaultEntry,
-          6);
-      if (mpPlayId_ != 0) {
-        output.writeUInt32(13, mpPlayId_);
-      }
-      if (regionSearchId_ != 0) {
-        output.writeUInt32(15, regionSearchId_);
-      }
+          7);
       unknownFields.writeTo(output);
     }
 
@@ -315,6 +315,14 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (regionSearchId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(2, regionSearchId_);
+      }
+      if (mpPlayId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(6, mpPlayId_);
+      }
       for (java.util.Map.Entry<java.lang.Integer, java.lang.Integer> entry
            : internalGetSearchTimeMap().getMap().entrySet()) {
         com.google.protobuf.MapEntry<java.lang.Integer, java.lang.Integer>
@@ -323,15 +331,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(6, searchTimeMap__);
-      }
-      if (mpPlayId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, mpPlayId_);
-      }
-      if (regionSearchId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, regionSearchId_);
+            .computeMessageSize(7, searchTimeMap__);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -484,7 +484,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
       protected com.google.protobuf.MapField internalGetMapField(
           int number) {
         switch (number) {
-          case 6:
+          case 7:
             return internalGetSearchTimeMap();
           default:
             throw new RuntimeException(
@@ -495,7 +495,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
       protected com.google.protobuf.MapField internalGetMutableMapField(
           int number) {
         switch (number) {
-          case 6:
+          case 7:
             return internalGetMutableSearchTimeMap();
           default:
             throw new RuntimeException(
@@ -677,7 +677,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
         return internalGetSearchTimeMap().getMap().size();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; search_time_map = 6;</code>
+       * <code>map&lt;uint32, uint32&gt; search_time_map = 7;</code>
        */
 
       @java.lang.Override
@@ -695,7 +695,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
         return getSearchTimeMapMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; search_time_map = 6;</code>
+       * <code>map&lt;uint32, uint32&gt; search_time_map = 7;</code>
        */
       @java.lang.Override
 
@@ -703,7 +703,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
         return internalGetSearchTimeMap().getMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; search_time_map = 6;</code>
+       * <code>map&lt;uint32, uint32&gt; search_time_map = 7;</code>
        */
       @java.lang.Override
 
@@ -716,7 +716,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; search_time_map = 6;</code>
+       * <code>map&lt;uint32, uint32&gt; search_time_map = 7;</code>
        */
       @java.lang.Override
 
@@ -737,7 +737,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; search_time_map = 6;</code>
+       * <code>map&lt;uint32, uint32&gt; search_time_map = 7;</code>
        */
 
       public Builder removeSearchTimeMap(
@@ -756,7 +756,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
         return internalGetMutableSearchTimeMap().getMutableMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; search_time_map = 6;</code>
+       * <code>map&lt;uint32, uint32&gt; search_time_map = 7;</code>
        */
       public Builder putSearchTimeMap(
           int key,
@@ -768,7 +768,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; search_time_map = 6;</code>
+       * <code>map&lt;uint32, uint32&gt; search_time_map = 7;</code>
        */
 
       public Builder putAllSearchTimeMap(
@@ -780,7 +780,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
 
       private int mpPlayId_ ;
       /**
-       * <code>uint32 mp_play_id = 13;</code>
+       * <code>uint32 mp_play_id = 6;</code>
        * @return The mpPlayId.
        */
       @java.lang.Override
@@ -788,7 +788,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
         return mpPlayId_;
       }
       /**
-       * <code>uint32 mp_play_id = 13;</code>
+       * <code>uint32 mp_play_id = 6;</code>
        * @param value The mpPlayId to set.
        * @return This builder for chaining.
        */
@@ -799,7 +799,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 mp_play_id = 13;</code>
+       * <code>uint32 mp_play_id = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearMpPlayId() {
@@ -811,7 +811,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
 
       private int regionSearchId_ ;
       /**
-       * <code>uint32 region_search_id = 15;</code>
+       * <code>uint32 region_search_id = 2;</code>
        * @return The regionSearchId.
        */
       @java.lang.Override
@@ -819,7 +819,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
         return regionSearchId_;
       }
       /**
-       * <code>uint32 region_search_id = 15;</code>
+       * <code>uint32 region_search_id = 2;</code>
        * @param value The regionSearchId to set.
        * @return This builder for chaining.
        */
@@ -830,7 +830,7 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 region_search_id = 15;</code>
+       * <code>uint32 region_search_id = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearRegionSearchId() {
@@ -913,9 +913,9 @@ public final class WaterSpiritActivityDetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n#WaterSpiritActivityDetailInfo.proto\"\317\001" +
       "\n\035WaterSpiritActivityDetailInfo\022J\n\017searc" +
-      "h_time_map\030\006 \003(\01321.WaterSpiritActivityDe" +
+      "h_time_map\030\007 \003(\01321.WaterSpiritActivityDe" +
       "tailInfo.SearchTimeMapEntry\022\022\n\nmp_play_i" +
-      "d\030\r \001(\r\022\030\n\020region_search_id\030\017 \001(\r\0324\n\022Sea" +
+      "d\030\006 \001(\r\022\030\n\020region_search_id\030\002 \001(\r\0324\n\022Sea" +
       "rchTimeMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 " +
       "\001(\r:\0028\001BD\n\031emu.grasscutter.net.protoB\'Wa" +
       "terSpiritActivityDetailInfoOuterClassb\006p" +

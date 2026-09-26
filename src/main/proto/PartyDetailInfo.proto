@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "PartyDetailInfoOuterClass";
 
 message PartyDetailInfo {
-	bool moclfelkkhb = 2;
-	bool jnodmgmbncm = 10;
+	bool moclfelkkhb = 50000;
+	bool jnodmgmbncm = 50001;
 }

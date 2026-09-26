@@ -6,7 +6,7 @@ option java_outer_classname = "AbilityActionCreateGadgetOuterClass";
 import "Vector.proto";
 
 message AbilityActionCreateGadget {
-	uint32 room_id = 4;
-	Vector rot = 11;
-	Vector pos = 13;
+	uint32 room_id = 14;
+	Vector rot = 7;
+	Vector pos = 9;
 }

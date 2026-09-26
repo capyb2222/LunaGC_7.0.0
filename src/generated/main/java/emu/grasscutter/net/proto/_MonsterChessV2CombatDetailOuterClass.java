@@ -19,43 +19,43 @@ public final class _MonsterChessV2CombatDetailOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 NOMLLIOOACN = 1;</code>
+     * <code>uint32 NOMLLIOOACN = 50000;</code>
      * @return The nOMLLIOOACN.
      */
     int getNOMLLIOOACN();
 
     /**
-     * <code>uint32 HOBDHKJKLEG = 2;</code>
+     * <code>uint32 HOBDHKJKLEG = 50001;</code>
      * @return The hOBDHKJKLEG.
      */
     int getHOBDHKJKLEG();
 
     /**
-     * <code>bool _is_infinite = 3;</code>
+     * <code>bool _is_infinite = 10;</code>
      * @return The isInfinite.
      */
     boolean getIsInfinite();
 
     /**
-     * <code>uint32 BMOMAEIJNKG = 8;</code>
+     * <code>uint32 BMOMAEIJNKG = 50002;</code>
      * @return The bMOMAEIJNKG.
      */
     int getBMOMAEIJNKG();
 
     /**
-     * <code>uint32 DBMMFDFAHHL = 9;</code>
+     * <code>uint32 DBMMFDFAHHL = 50003;</code>
      * @return The dBMMFDFAHHL.
      */
     int getDBMMFDFAHHL();
 
     /**
-     * <code>uint32 _cur_round_num = 14;</code>
+     * <code>uint32 _cur_round_num = 7;</code>
      * @return The curRoundNum.
      */
     int getCurRoundNum();
 
     /**
-     * <code>uint32 MBCDJGNPNIL = 15;</code>
+     * <code>uint32 MBCDJGNPNIL = 50004;</code>
      * @return The mBCDJGNPNIL.
      */
     int getMBCDJGNPNIL();
@@ -105,37 +105,37 @@ public final class _MonsterChessV2CombatDetailOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
-
-              nOMLLIOOACN_ = input.readUInt32();
-              break;
-            }
-            case 16: {
-
-              hOBDHKJKLEG_ = input.readUInt32();
-              break;
-            }
-            case 24: {
-
-              IsInfinite_ = input.readBool();
-              break;
-            }
-            case 64: {
-
-              bMOMAEIJNKG_ = input.readUInt32();
-              break;
-            }
-            case 72: {
-
-              dBMMFDFAHHL_ = input.readUInt32();
-              break;
-            }
-            case 112: {
+            case 56: {
 
               CurRoundNum_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 80: {
+
+              IsInfinite_ = input.readBool();
+              break;
+            }
+            case 400000: {
+
+              nOMLLIOOACN_ = input.readUInt32();
+              break;
+            }
+            case 400008: {
+
+              hOBDHKJKLEG_ = input.readUInt32();
+              break;
+            }
+            case 400016: {
+
+              bMOMAEIJNKG_ = input.readUInt32();
+              break;
+            }
+            case 400024: {
+
+              dBMMFDFAHHL_ = input.readUInt32();
+              break;
+            }
+            case 400032: {
 
               mBCDJGNPNIL_ = input.readUInt32();
               break;
@@ -172,10 +172,10 @@ public final class _MonsterChessV2CombatDetailOuterClass {
               emu.grasscutter.net.proto._MonsterChessV2CombatDetailOuterClass._MonsterChessV2CombatDetail.class, emu.grasscutter.net.proto._MonsterChessV2CombatDetailOuterClass._MonsterChessV2CombatDetail.Builder.class);
     }
 
-    public static final int NOMLLIOOACN_FIELD_NUMBER = 1;
+    public static final int NOMLLIOOACN_FIELD_NUMBER = 50000;
     private int nOMLLIOOACN_;
     /**
-     * <code>uint32 NOMLLIOOACN = 1;</code>
+     * <code>uint32 NOMLLIOOACN = 50000;</code>
      * @return The nOMLLIOOACN.
      */
     @java.lang.Override
@@ -183,10 +183,10 @@ public final class _MonsterChessV2CombatDetailOuterClass {
       return nOMLLIOOACN_;
     }
 
-    public static final int HOBDHKJKLEG_FIELD_NUMBER = 2;
+    public static final int HOBDHKJKLEG_FIELD_NUMBER = 50001;
     private int hOBDHKJKLEG_;
     /**
-     * <code>uint32 HOBDHKJKLEG = 2;</code>
+     * <code>uint32 HOBDHKJKLEG = 50001;</code>
      * @return The hOBDHKJKLEG.
      */
     @java.lang.Override
@@ -194,10 +194,10 @@ public final class _MonsterChessV2CombatDetailOuterClass {
       return hOBDHKJKLEG_;
     }
 
-    public static final int _IS_INFINITE_FIELD_NUMBER = 3;
+    public static final int _IS_INFINITE_FIELD_NUMBER = 10;
     private boolean IsInfinite_;
     /**
-     * <code>bool _is_infinite = 3;</code>
+     * <code>bool _is_infinite = 10;</code>
      * @return The isInfinite.
      */
     @java.lang.Override
@@ -205,10 +205,10 @@ public final class _MonsterChessV2CombatDetailOuterClass {
       return IsInfinite_;
     }
 
-    public static final int BMOMAEIJNKG_FIELD_NUMBER = 8;
+    public static final int BMOMAEIJNKG_FIELD_NUMBER = 50002;
     private int bMOMAEIJNKG_;
     /**
-     * <code>uint32 BMOMAEIJNKG = 8;</code>
+     * <code>uint32 BMOMAEIJNKG = 50002;</code>
      * @return The bMOMAEIJNKG.
      */
     @java.lang.Override
@@ -216,10 +216,10 @@ public final class _MonsterChessV2CombatDetailOuterClass {
       return bMOMAEIJNKG_;
     }
 
-    public static final int DBMMFDFAHHL_FIELD_NUMBER = 9;
+    public static final int DBMMFDFAHHL_FIELD_NUMBER = 50003;
     private int dBMMFDFAHHL_;
     /**
-     * <code>uint32 DBMMFDFAHHL = 9;</code>
+     * <code>uint32 DBMMFDFAHHL = 50003;</code>
      * @return The dBMMFDFAHHL.
      */
     @java.lang.Override
@@ -227,10 +227,10 @@ public final class _MonsterChessV2CombatDetailOuterClass {
       return dBMMFDFAHHL_;
     }
 
-    public static final int _CUR_ROUND_NUM_FIELD_NUMBER = 14;
+    public static final int _CUR_ROUND_NUM_FIELD_NUMBER = 7;
     private int CurRoundNum_;
     /**
-     * <code>uint32 _cur_round_num = 14;</code>
+     * <code>uint32 _cur_round_num = 7;</code>
      * @return The curRoundNum.
      */
     @java.lang.Override
@@ -238,10 +238,10 @@ public final class _MonsterChessV2CombatDetailOuterClass {
       return CurRoundNum_;
     }
 
-    public static final int MBCDJGNPNIL_FIELD_NUMBER = 15;
+    public static final int MBCDJGNPNIL_FIELD_NUMBER = 50004;
     private int mBCDJGNPNIL_;
     /**
-     * <code>uint32 MBCDJGNPNIL = 15;</code>
+     * <code>uint32 MBCDJGNPNIL = 50004;</code>
      * @return The mBCDJGNPNIL.
      */
     @java.lang.Override
@@ -263,26 +263,26 @@ public final class _MonsterChessV2CombatDetailOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (nOMLLIOOACN_ != 0) {
-        output.writeUInt32(1, nOMLLIOOACN_);
-      }
-      if (hOBDHKJKLEG_ != 0) {
-        output.writeUInt32(2, hOBDHKJKLEG_);
+      if (CurRoundNum_ != 0) {
+        output.writeUInt32(7, CurRoundNum_);
       }
       if (IsInfinite_ != false) {
-        output.writeBool(3, IsInfinite_);
+        output.writeBool(10, IsInfinite_);
+      }
+      if (nOMLLIOOACN_ != 0) {
+        output.writeUInt32(50000, nOMLLIOOACN_);
+      }
+      if (hOBDHKJKLEG_ != 0) {
+        output.writeUInt32(50001, hOBDHKJKLEG_);
       }
       if (bMOMAEIJNKG_ != 0) {
-        output.writeUInt32(8, bMOMAEIJNKG_);
+        output.writeUInt32(50002, bMOMAEIJNKG_);
       }
       if (dBMMFDFAHHL_ != 0) {
-        output.writeUInt32(9, dBMMFDFAHHL_);
-      }
-      if (CurRoundNum_ != 0) {
-        output.writeUInt32(14, CurRoundNum_);
+        output.writeUInt32(50003, dBMMFDFAHHL_);
       }
       if (mBCDJGNPNIL_ != 0) {
-        output.writeUInt32(15, mBCDJGNPNIL_);
+        output.writeUInt32(50004, mBCDJGNPNIL_);
       }
       unknownFields.writeTo(output);
     }
@@ -293,33 +293,33 @@ public final class _MonsterChessV2CombatDetailOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (nOMLLIOOACN_ != 0) {
+      if (CurRoundNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, nOMLLIOOACN_);
-      }
-      if (hOBDHKJKLEG_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, hOBDHKJKLEG_);
+          .computeUInt32Size(7, CurRoundNum_);
       }
       if (IsInfinite_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(3, IsInfinite_);
+          .computeBoolSize(10, IsInfinite_);
+      }
+      if (nOMLLIOOACN_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50000, nOMLLIOOACN_);
+      }
+      if (hOBDHKJKLEG_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50001, hOBDHKJKLEG_);
       }
       if (bMOMAEIJNKG_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, bMOMAEIJNKG_);
+          .computeUInt32Size(50002, bMOMAEIJNKG_);
       }
       if (dBMMFDFAHHL_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, dBMMFDFAHHL_);
-      }
-      if (CurRoundNum_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, CurRoundNum_);
+          .computeUInt32Size(50003, dBMMFDFAHHL_);
       }
       if (mBCDJGNPNIL_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, mBCDJGNPNIL_);
+          .computeUInt32Size(50004, mBCDJGNPNIL_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -656,7 +656,7 @@ public final class _MonsterChessV2CombatDetailOuterClass {
 
       private int nOMLLIOOACN_ ;
       /**
-       * <code>uint32 NOMLLIOOACN = 1;</code>
+       * <code>uint32 NOMLLIOOACN = 50000;</code>
        * @return The nOMLLIOOACN.
        */
       @java.lang.Override
@@ -664,7 +664,7 @@ public final class _MonsterChessV2CombatDetailOuterClass {
         return nOMLLIOOACN_;
       }
       /**
-       * <code>uint32 NOMLLIOOACN = 1;</code>
+       * <code>uint32 NOMLLIOOACN = 50000;</code>
        * @param value The nOMLLIOOACN to set.
        * @return This builder for chaining.
        */
@@ -675,7 +675,7 @@ public final class _MonsterChessV2CombatDetailOuterClass {
         return this;
       }
       /**
-       * <code>uint32 NOMLLIOOACN = 1;</code>
+       * <code>uint32 NOMLLIOOACN = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearNOMLLIOOACN() {
@@ -687,7 +687,7 @@ public final class _MonsterChessV2CombatDetailOuterClass {
 
       private int hOBDHKJKLEG_ ;
       /**
-       * <code>uint32 HOBDHKJKLEG = 2;</code>
+       * <code>uint32 HOBDHKJKLEG = 50001;</code>
        * @return The hOBDHKJKLEG.
        */
       @java.lang.Override
@@ -695,7 +695,7 @@ public final class _MonsterChessV2CombatDetailOuterClass {
         return hOBDHKJKLEG_;
       }
       /**
-       * <code>uint32 HOBDHKJKLEG = 2;</code>
+       * <code>uint32 HOBDHKJKLEG = 50001;</code>
        * @param value The hOBDHKJKLEG to set.
        * @return This builder for chaining.
        */
@@ -706,7 +706,7 @@ public final class _MonsterChessV2CombatDetailOuterClass {
         return this;
       }
       /**
-       * <code>uint32 HOBDHKJKLEG = 2;</code>
+       * <code>uint32 HOBDHKJKLEG = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearHOBDHKJKLEG() {
@@ -718,7 +718,7 @@ public final class _MonsterChessV2CombatDetailOuterClass {
 
       private boolean IsInfinite_ ;
       /**
-       * <code>bool _is_infinite = 3;</code>
+       * <code>bool _is_infinite = 10;</code>
        * @return The isInfinite.
        */
       @java.lang.Override
@@ -726,7 +726,7 @@ public final class _MonsterChessV2CombatDetailOuterClass {
         return IsInfinite_;
       }
       /**
-       * <code>bool _is_infinite = 3;</code>
+       * <code>bool _is_infinite = 10;</code>
        * @param value The isInfinite to set.
        * @return This builder for chaining.
        */
@@ -737,7 +737,7 @@ public final class _MonsterChessV2CombatDetailOuterClass {
         return this;
       }
       /**
-       * <code>bool _is_infinite = 3;</code>
+       * <code>bool _is_infinite = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsInfinite() {
@@ -749,7 +749,7 @@ public final class _MonsterChessV2CombatDetailOuterClass {
 
       private int bMOMAEIJNKG_ ;
       /**
-       * <code>uint32 BMOMAEIJNKG = 8;</code>
+       * <code>uint32 BMOMAEIJNKG = 50002;</code>
        * @return The bMOMAEIJNKG.
        */
       @java.lang.Override
@@ -757,7 +757,7 @@ public final class _MonsterChessV2CombatDetailOuterClass {
         return bMOMAEIJNKG_;
       }
       /**
-       * <code>uint32 BMOMAEIJNKG = 8;</code>
+       * <code>uint32 BMOMAEIJNKG = 50002;</code>
        * @param value The bMOMAEIJNKG to set.
        * @return This builder for chaining.
        */
@@ -768,7 +768,7 @@ public final class _MonsterChessV2CombatDetailOuterClass {
         return this;
       }
       /**
-       * <code>uint32 BMOMAEIJNKG = 8;</code>
+       * <code>uint32 BMOMAEIJNKG = 50002;</code>
        * @return This builder for chaining.
        */
       public Builder clearBMOMAEIJNKG() {
@@ -780,7 +780,7 @@ public final class _MonsterChessV2CombatDetailOuterClass {
 
       private int dBMMFDFAHHL_ ;
       /**
-       * <code>uint32 DBMMFDFAHHL = 9;</code>
+       * <code>uint32 DBMMFDFAHHL = 50003;</code>
        * @return The dBMMFDFAHHL.
        */
       @java.lang.Override
@@ -788,7 +788,7 @@ public final class _MonsterChessV2CombatDetailOuterClass {
         return dBMMFDFAHHL_;
       }
       /**
-       * <code>uint32 DBMMFDFAHHL = 9;</code>
+       * <code>uint32 DBMMFDFAHHL = 50003;</code>
        * @param value The dBMMFDFAHHL to set.
        * @return This builder for chaining.
        */
@@ -799,7 +799,7 @@ public final class _MonsterChessV2CombatDetailOuterClass {
         return this;
       }
       /**
-       * <code>uint32 DBMMFDFAHHL = 9;</code>
+       * <code>uint32 DBMMFDFAHHL = 50003;</code>
        * @return This builder for chaining.
        */
       public Builder clearDBMMFDFAHHL() {
@@ -811,7 +811,7 @@ public final class _MonsterChessV2CombatDetailOuterClass {
 
       private int CurRoundNum_ ;
       /**
-       * <code>uint32 _cur_round_num = 14;</code>
+       * <code>uint32 _cur_round_num = 7;</code>
        * @return The curRoundNum.
        */
       @java.lang.Override
@@ -819,7 +819,7 @@ public final class _MonsterChessV2CombatDetailOuterClass {
         return CurRoundNum_;
       }
       /**
-       * <code>uint32 _cur_round_num = 14;</code>
+       * <code>uint32 _cur_round_num = 7;</code>
        * @param value The curRoundNum to set.
        * @return This builder for chaining.
        */
@@ -830,7 +830,7 @@ public final class _MonsterChessV2CombatDetailOuterClass {
         return this;
       }
       /**
-       * <code>uint32 _cur_round_num = 14;</code>
+       * <code>uint32 _cur_round_num = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearCurRoundNum() {
@@ -842,7 +842,7 @@ public final class _MonsterChessV2CombatDetailOuterClass {
 
       private int mBCDJGNPNIL_ ;
       /**
-       * <code>uint32 MBCDJGNPNIL = 15;</code>
+       * <code>uint32 MBCDJGNPNIL = 50004;</code>
        * @return The mBCDJGNPNIL.
        */
       @java.lang.Override
@@ -850,7 +850,7 @@ public final class _MonsterChessV2CombatDetailOuterClass {
         return mBCDJGNPNIL_;
       }
       /**
-       * <code>uint32 MBCDJGNPNIL = 15;</code>
+       * <code>uint32 MBCDJGNPNIL = 50004;</code>
        * @param value The mBCDJGNPNIL to set.
        * @return This builder for chaining.
        */
@@ -861,7 +861,7 @@ public final class _MonsterChessV2CombatDetailOuterClass {
         return this;
       }
       /**
-       * <code>uint32 MBCDJGNPNIL = 15;</code>
+       * <code>uint32 MBCDJGNPNIL = 50004;</code>
        * @return This builder for chaining.
        */
       public Builder clearMBCDJGNPNIL() {
@@ -937,14 +937,14 @@ public final class _MonsterChessV2CombatDetailOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n!_MonsterChessV2CombatDetail.proto\"\264\001\n\033" +
-      "_MonsterChessV2CombatDetail\022\023\n\013NOMLLIOOA" +
-      "CN\030\001 \001(\r\022\023\n\013HOBDHKJKLEG\030\002 \001(\r\022\024\n\014_is_inf" +
-      "inite\030\003 \001(\010\022\023\n\013BMOMAEIJNKG\030\010 \001(\r\022\023\n\013DBMM" +
-      "FDFAHHL\030\t \001(\r\022\026\n\016_cur_round_num\030\016 \001(\r\022\023\n" +
-      "\013MBCDJGNPNIL\030\017 \001(\rBB\n\031emu.grasscutter.ne" +
-      "t.protoB%_MonsterChessV2CombatDetailOute" +
-      "rClassb\006proto3"
+      "\n!_MonsterChessV2CombatDetail.proto\"\276\001\n\033" +
+      "_MonsterChessV2CombatDetail\022\025\n\013NOMLLIOOA" +
+      "CN\030\320\206\003 \001(\r\022\025\n\013HOBDHKJKLEG\030\321\206\003 \001(\r\022\024\n\014_is" +
+      "_infinite\030\n \001(\010\022\025\n\013BMOMAEIJNKG\030\322\206\003 \001(\r\022\025" +
+      "\n\013DBMMFDFAHHL\030\323\206\003 \001(\r\022\026\n\016_cur_round_num\030" +
+      "\007 \001(\r\022\025\n\013MBCDJGNPNIL\030\324\206\003 \001(\rBB\n\031emu.gras" +
+      "scutter.net.protoB%_MonsterChessV2Combat" +
+      "DetailOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

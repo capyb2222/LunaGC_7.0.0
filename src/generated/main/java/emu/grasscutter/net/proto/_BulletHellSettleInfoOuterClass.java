@@ -19,37 +19,37 @@ public final class _BulletHellSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 level_id = 1;</code>
+     * <code>uint32 level_id = 15;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>bool is_new_record = 2;</code>
+     * <code>bool is_new_record = 14;</code>
      * @return The isNewRecord.
      */
     boolean getIsNewRecord();
 
     /**
-     * <code>uint32 GMCOKCLLBCL = 3;</code>
+     * <code>uint32 GMCOKCLLBCL = 50000;</code>
      * @return The gMCOKCLLBCL.
      */
     int getGMCOKCLLBCL();
 
     /**
-     * <code>uint32 NGJGHEBLBHN = 4;</code>
+     * <code>uint32 NGJGHEBLBHN = 50001;</code>
      * @return The nGJGHEBLBHN.
      */
     int getNGJGHEBLBHN();
 
     /**
-     * <code>uint32 MMKMPGFBOIL = 9;</code>
+     * <code>uint32 MMKMPGFBOIL = 50002;</code>
      * @return The mMKMPGFBOIL.
      */
     int getMMKMPGFBOIL();
 
     /**
-     * <code>uint32 score = 13;</code>
+     * <code>uint32 score = 6;</code>
      * @return The score.
      */
     int getScore();
@@ -99,34 +99,34 @@ public final class _BulletHellSettleInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 48: {
 
-              levelId_ = input.readUInt32();
+              score_ = input.readUInt32();
               break;
             }
-            case 16: {
+            case 112: {
 
               isNewRecord_ = input.readBool();
               break;
             }
-            case 24: {
+            case 120: {
+
+              levelId_ = input.readUInt32();
+              break;
+            }
+            case 400000: {
 
               gMCOKCLLBCL_ = input.readUInt32();
               break;
             }
-            case 32: {
+            case 400008: {
 
               nGJGHEBLBHN_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 400016: {
 
               mMKMPGFBOIL_ = input.readUInt32();
-              break;
-            }
-            case 104: {
-
-              score_ = input.readUInt32();
               break;
             }
             default: {
@@ -161,10 +161,10 @@ public final class _BulletHellSettleInfoOuterClass {
               emu.grasscutter.net.proto._BulletHellSettleInfoOuterClass._BulletHellSettleInfo.class, emu.grasscutter.net.proto._BulletHellSettleInfoOuterClass._BulletHellSettleInfo.Builder.class);
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 1;
+    public static final int LEVEL_ID_FIELD_NUMBER = 15;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 1;</code>
+     * <code>uint32 level_id = 15;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -172,10 +172,10 @@ public final class _BulletHellSettleInfoOuterClass {
       return levelId_;
     }
 
-    public static final int IS_NEW_RECORD_FIELD_NUMBER = 2;
+    public static final int IS_NEW_RECORD_FIELD_NUMBER = 14;
     private boolean isNewRecord_;
     /**
-     * <code>bool is_new_record = 2;</code>
+     * <code>bool is_new_record = 14;</code>
      * @return The isNewRecord.
      */
     @java.lang.Override
@@ -183,10 +183,10 @@ public final class _BulletHellSettleInfoOuterClass {
       return isNewRecord_;
     }
 
-    public static final int GMCOKCLLBCL_FIELD_NUMBER = 3;
+    public static final int GMCOKCLLBCL_FIELD_NUMBER = 50000;
     private int gMCOKCLLBCL_;
     /**
-     * <code>uint32 GMCOKCLLBCL = 3;</code>
+     * <code>uint32 GMCOKCLLBCL = 50000;</code>
      * @return The gMCOKCLLBCL.
      */
     @java.lang.Override
@@ -194,10 +194,10 @@ public final class _BulletHellSettleInfoOuterClass {
       return gMCOKCLLBCL_;
     }
 
-    public static final int NGJGHEBLBHN_FIELD_NUMBER = 4;
+    public static final int NGJGHEBLBHN_FIELD_NUMBER = 50001;
     private int nGJGHEBLBHN_;
     /**
-     * <code>uint32 NGJGHEBLBHN = 4;</code>
+     * <code>uint32 NGJGHEBLBHN = 50001;</code>
      * @return The nGJGHEBLBHN.
      */
     @java.lang.Override
@@ -205,10 +205,10 @@ public final class _BulletHellSettleInfoOuterClass {
       return nGJGHEBLBHN_;
     }
 
-    public static final int MMKMPGFBOIL_FIELD_NUMBER = 9;
+    public static final int MMKMPGFBOIL_FIELD_NUMBER = 50002;
     private int mMKMPGFBOIL_;
     /**
-     * <code>uint32 MMKMPGFBOIL = 9;</code>
+     * <code>uint32 MMKMPGFBOIL = 50002;</code>
      * @return The mMKMPGFBOIL.
      */
     @java.lang.Override
@@ -216,10 +216,10 @@ public final class _BulletHellSettleInfoOuterClass {
       return mMKMPGFBOIL_;
     }
 
-    public static final int SCORE_FIELD_NUMBER = 13;
+    public static final int SCORE_FIELD_NUMBER = 6;
     private int score_;
     /**
-     * <code>uint32 score = 13;</code>
+     * <code>uint32 score = 6;</code>
      * @return The score.
      */
     @java.lang.Override
@@ -241,23 +241,23 @@ public final class _BulletHellSettleInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (levelId_ != 0) {
-        output.writeUInt32(1, levelId_);
+      if (score_ != 0) {
+        output.writeUInt32(6, score_);
       }
       if (isNewRecord_ != false) {
-        output.writeBool(2, isNewRecord_);
+        output.writeBool(14, isNewRecord_);
+      }
+      if (levelId_ != 0) {
+        output.writeUInt32(15, levelId_);
       }
       if (gMCOKCLLBCL_ != 0) {
-        output.writeUInt32(3, gMCOKCLLBCL_);
+        output.writeUInt32(50000, gMCOKCLLBCL_);
       }
       if (nGJGHEBLBHN_ != 0) {
-        output.writeUInt32(4, nGJGHEBLBHN_);
+        output.writeUInt32(50001, nGJGHEBLBHN_);
       }
       if (mMKMPGFBOIL_ != 0) {
-        output.writeUInt32(9, mMKMPGFBOIL_);
-      }
-      if (score_ != 0) {
-        output.writeUInt32(13, score_);
+        output.writeUInt32(50002, mMKMPGFBOIL_);
       }
       unknownFields.writeTo(output);
     }
@@ -268,29 +268,29 @@ public final class _BulletHellSettleInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (levelId_ != 0) {
+      if (score_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, levelId_);
+          .computeUInt32Size(6, score_);
       }
       if (isNewRecord_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(2, isNewRecord_);
+          .computeBoolSize(14, isNewRecord_);
+      }
+      if (levelId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(15, levelId_);
       }
       if (gMCOKCLLBCL_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, gMCOKCLLBCL_);
+          .computeUInt32Size(50000, gMCOKCLLBCL_);
       }
       if (nGJGHEBLBHN_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, nGJGHEBLBHN_);
+          .computeUInt32Size(50001, nGJGHEBLBHN_);
       }
       if (mMKMPGFBOIL_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, mMKMPGFBOIL_);
-      }
-      if (score_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, score_);
+          .computeUInt32Size(50002, mMKMPGFBOIL_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -617,7 +617,7 @@ public final class _BulletHellSettleInfoOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 1;</code>
+       * <code>uint32 level_id = 15;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -625,7 +625,7 @@ public final class _BulletHellSettleInfoOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 1;</code>
+       * <code>uint32 level_id = 15;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -636,7 +636,7 @@ public final class _BulletHellSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 1;</code>
+       * <code>uint32 level_id = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -648,7 +648,7 @@ public final class _BulletHellSettleInfoOuterClass {
 
       private boolean isNewRecord_ ;
       /**
-       * <code>bool is_new_record = 2;</code>
+       * <code>bool is_new_record = 14;</code>
        * @return The isNewRecord.
        */
       @java.lang.Override
@@ -656,7 +656,7 @@ public final class _BulletHellSettleInfoOuterClass {
         return isNewRecord_;
       }
       /**
-       * <code>bool is_new_record = 2;</code>
+       * <code>bool is_new_record = 14;</code>
        * @param value The isNewRecord to set.
        * @return This builder for chaining.
        */
@@ -667,7 +667,7 @@ public final class _BulletHellSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_new_record = 2;</code>
+       * <code>bool is_new_record = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsNewRecord() {
@@ -679,7 +679,7 @@ public final class _BulletHellSettleInfoOuterClass {
 
       private int gMCOKCLLBCL_ ;
       /**
-       * <code>uint32 GMCOKCLLBCL = 3;</code>
+       * <code>uint32 GMCOKCLLBCL = 50000;</code>
        * @return The gMCOKCLLBCL.
        */
       @java.lang.Override
@@ -687,7 +687,7 @@ public final class _BulletHellSettleInfoOuterClass {
         return gMCOKCLLBCL_;
       }
       /**
-       * <code>uint32 GMCOKCLLBCL = 3;</code>
+       * <code>uint32 GMCOKCLLBCL = 50000;</code>
        * @param value The gMCOKCLLBCL to set.
        * @return This builder for chaining.
        */
@@ -698,7 +698,7 @@ public final class _BulletHellSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 GMCOKCLLBCL = 3;</code>
+       * <code>uint32 GMCOKCLLBCL = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearGMCOKCLLBCL() {
@@ -710,7 +710,7 @@ public final class _BulletHellSettleInfoOuterClass {
 
       private int nGJGHEBLBHN_ ;
       /**
-       * <code>uint32 NGJGHEBLBHN = 4;</code>
+       * <code>uint32 NGJGHEBLBHN = 50001;</code>
        * @return The nGJGHEBLBHN.
        */
       @java.lang.Override
@@ -718,7 +718,7 @@ public final class _BulletHellSettleInfoOuterClass {
         return nGJGHEBLBHN_;
       }
       /**
-       * <code>uint32 NGJGHEBLBHN = 4;</code>
+       * <code>uint32 NGJGHEBLBHN = 50001;</code>
        * @param value The nGJGHEBLBHN to set.
        * @return This builder for chaining.
        */
@@ -729,7 +729,7 @@ public final class _BulletHellSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 NGJGHEBLBHN = 4;</code>
+       * <code>uint32 NGJGHEBLBHN = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearNGJGHEBLBHN() {
@@ -741,7 +741,7 @@ public final class _BulletHellSettleInfoOuterClass {
 
       private int mMKMPGFBOIL_ ;
       /**
-       * <code>uint32 MMKMPGFBOIL = 9;</code>
+       * <code>uint32 MMKMPGFBOIL = 50002;</code>
        * @return The mMKMPGFBOIL.
        */
       @java.lang.Override
@@ -749,7 +749,7 @@ public final class _BulletHellSettleInfoOuterClass {
         return mMKMPGFBOIL_;
       }
       /**
-       * <code>uint32 MMKMPGFBOIL = 9;</code>
+       * <code>uint32 MMKMPGFBOIL = 50002;</code>
        * @param value The mMKMPGFBOIL to set.
        * @return This builder for chaining.
        */
@@ -760,7 +760,7 @@ public final class _BulletHellSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 MMKMPGFBOIL = 9;</code>
+       * <code>uint32 MMKMPGFBOIL = 50002;</code>
        * @return This builder for chaining.
        */
       public Builder clearMMKMPGFBOIL() {
@@ -772,7 +772,7 @@ public final class _BulletHellSettleInfoOuterClass {
 
       private int score_ ;
       /**
-       * <code>uint32 score = 13;</code>
+       * <code>uint32 score = 6;</code>
        * @return The score.
        */
       @java.lang.Override
@@ -780,7 +780,7 @@ public final class _BulletHellSettleInfoOuterClass {
         return score_;
       }
       /**
-       * <code>uint32 score = 13;</code>
+       * <code>uint32 score = 6;</code>
        * @param value The score to set.
        * @return This builder for chaining.
        */
@@ -791,7 +791,7 @@ public final class _BulletHellSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 score = 13;</code>
+       * <code>uint32 score = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearScore() {
@@ -867,13 +867,13 @@ public final class _BulletHellSettleInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\033_BulletHellSettleInfo.proto\"\216\001\n\025_Bulle" +
-      "tHellSettleInfo\022\020\n\010level_id\030\001 \001(\r\022\025\n\ris_" +
-      "new_record\030\002 \001(\010\022\023\n\013GMCOKCLLBCL\030\003 \001(\r\022\023\n" +
-      "\013NGJGHEBLBHN\030\004 \001(\r\022\023\n\013MMKMPGFBOIL\030\t \001(\r\022" +
-      "\r\n\005score\030\r \001(\rB<\n\031emu.grasscutter.net.pr" +
-      "otoB\037_BulletHellSettleInfoOuterClassb\006pr" +
-      "oto3"
+      "\n\033_BulletHellSettleInfo.proto\"\224\001\n\025_Bulle" +
+      "tHellSettleInfo\022\020\n\010level_id\030\017 \001(\r\022\025\n\ris_" +
+      "new_record\030\016 \001(\010\022\025\n\013GMCOKCLLBCL\030\320\206\003 \001(\r\022" +
+      "\025\n\013NGJGHEBLBHN\030\321\206\003 \001(\r\022\025\n\013MMKMPGFBOIL\030\322\206" +
+      "\003 \001(\r\022\r\n\005score\030\006 \001(\rB<\n\031emu.grasscutter." +
+      "net.protoB\037_BulletHellSettleInfoOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

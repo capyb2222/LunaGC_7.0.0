@@ -19,49 +19,49 @@ public final class _CatcafeDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 11;</code>
+     * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 50000;</code>
      */
     java.util.List<emu.grasscutter.net.proto.PIPGMGPIKIPOuterClass.PIPGMGPIKIP> 
         getEBPDFPJCIGEList();
     /**
-     * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 11;</code>
+     * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 50000;</code>
      */
     emu.grasscutter.net.proto.PIPGMGPIKIPOuterClass.PIPGMGPIKIP getEBPDFPJCIGE(int index);
     /**
-     * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 11;</code>
+     * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 50000;</code>
      */
     int getEBPDFPJCIGECount();
     /**
-     * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 11;</code>
+     * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 50000;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.PIPGMGPIKIPOuterClass.PIPGMGPIKIPOrBuilder> 
         getEBPDFPJCIGEOrBuilderList();
     /**
-     * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 11;</code>
+     * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 50000;</code>
      */
     emu.grasscutter.net.proto.PIPGMGPIKIPOuterClass.PIPGMGPIKIPOrBuilder getEBPDFPJCIGEOrBuilder(
         int index);
 
     /**
-     * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 13;</code>
+     * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 50001;</code>
      */
     java.util.List<emu.grasscutter.net.proto.HKGHMIFOALHOuterClass.HKGHMIFOALH> 
         getFIOPDPIHANOList();
     /**
-     * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 13;</code>
+     * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 50001;</code>
      */
     emu.grasscutter.net.proto.HKGHMIFOALHOuterClass.HKGHMIFOALH getFIOPDPIHANO(int index);
     /**
-     * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 13;</code>
+     * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 50001;</code>
      */
     int getFIOPDPIHANOCount();
     /**
-     * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 13;</code>
+     * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 50001;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.HKGHMIFOALHOuterClass.HKGHMIFOALHOrBuilder> 
         getFIOPDPIHANOOrBuilderList();
     /**
-     * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 13;</code>
+     * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 50001;</code>
      */
     emu.grasscutter.net.proto.HKGHMIFOALHOuterClass.HKGHMIFOALHOrBuilder getFIOPDPIHANOOrBuilder(
         int index);
@@ -114,7 +114,7 @@ public final class _CatcafeDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 90: {
+            case 400002: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 eBPDFPJCIGE_ = new java.util.ArrayList<emu.grasscutter.net.proto.PIPGMGPIKIPOuterClass.PIPGMGPIKIP>();
                 mutable_bitField0_ |= 0x00000001;
@@ -123,7 +123,7 @@ public final class _CatcafeDetailInfoOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.PIPGMGPIKIPOuterClass.PIPGMGPIKIP.parser(), extensionRegistry));
               break;
             }
-            case 106: {
+            case 400010: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 fIOPDPIHANO_ = new java.util.ArrayList<emu.grasscutter.net.proto.HKGHMIFOALHOuterClass.HKGHMIFOALH>();
                 mutable_bitField0_ |= 0x00000002;
@@ -170,17 +170,17 @@ public final class _CatcafeDetailInfoOuterClass {
               emu.grasscutter.net.proto._CatcafeDetailInfoOuterClass._CatcafeDetailInfo.class, emu.grasscutter.net.proto._CatcafeDetailInfoOuterClass._CatcafeDetailInfo.Builder.class);
     }
 
-    public static final int EBPDFPJCIGE_FIELD_NUMBER = 11;
+    public static final int EBPDFPJCIGE_FIELD_NUMBER = 50000;
     private java.util.List<emu.grasscutter.net.proto.PIPGMGPIKIPOuterClass.PIPGMGPIKIP> eBPDFPJCIGE_;
     /**
-     * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 11;</code>
+     * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 50000;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.PIPGMGPIKIPOuterClass.PIPGMGPIKIP> getEBPDFPJCIGEList() {
       return eBPDFPJCIGE_;
     }
     /**
-     * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 11;</code>
+     * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 50000;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.PIPGMGPIKIPOuterClass.PIPGMGPIKIPOrBuilder> 
@@ -188,21 +188,21 @@ public final class _CatcafeDetailInfoOuterClass {
       return eBPDFPJCIGE_;
     }
     /**
-     * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 11;</code>
+     * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 50000;</code>
      */
     @java.lang.Override
     public int getEBPDFPJCIGECount() {
       return eBPDFPJCIGE_.size();
     }
     /**
-     * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 11;</code>
+     * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 50000;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.PIPGMGPIKIPOuterClass.PIPGMGPIKIP getEBPDFPJCIGE(int index) {
       return eBPDFPJCIGE_.get(index);
     }
     /**
-     * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 11;</code>
+     * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 50000;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.PIPGMGPIKIPOuterClass.PIPGMGPIKIPOrBuilder getEBPDFPJCIGEOrBuilder(
@@ -210,17 +210,17 @@ public final class _CatcafeDetailInfoOuterClass {
       return eBPDFPJCIGE_.get(index);
     }
 
-    public static final int FIOPDPIHANO_FIELD_NUMBER = 13;
+    public static final int FIOPDPIHANO_FIELD_NUMBER = 50001;
     private java.util.List<emu.grasscutter.net.proto.HKGHMIFOALHOuterClass.HKGHMIFOALH> fIOPDPIHANO_;
     /**
-     * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 13;</code>
+     * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 50001;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.HKGHMIFOALHOuterClass.HKGHMIFOALH> getFIOPDPIHANOList() {
       return fIOPDPIHANO_;
     }
     /**
-     * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 13;</code>
+     * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 50001;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.HKGHMIFOALHOuterClass.HKGHMIFOALHOrBuilder> 
@@ -228,21 +228,21 @@ public final class _CatcafeDetailInfoOuterClass {
       return fIOPDPIHANO_;
     }
     /**
-     * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 13;</code>
+     * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 50001;</code>
      */
     @java.lang.Override
     public int getFIOPDPIHANOCount() {
       return fIOPDPIHANO_.size();
     }
     /**
-     * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 13;</code>
+     * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 50001;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.HKGHMIFOALHOuterClass.HKGHMIFOALH getFIOPDPIHANO(int index) {
       return fIOPDPIHANO_.get(index);
     }
     /**
-     * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 13;</code>
+     * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 50001;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.HKGHMIFOALHOuterClass.HKGHMIFOALHOrBuilder getFIOPDPIHANOOrBuilder(
@@ -265,10 +265,10 @@ public final class _CatcafeDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < eBPDFPJCIGE_.size(); i++) {
-        output.writeMessage(11, eBPDFPJCIGE_.get(i));
+        output.writeMessage(50000, eBPDFPJCIGE_.get(i));
       }
       for (int i = 0; i < fIOPDPIHANO_.size(); i++) {
-        output.writeMessage(13, fIOPDPIHANO_.get(i));
+        output.writeMessage(50001, fIOPDPIHANO_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -281,11 +281,11 @@ public final class _CatcafeDetailInfoOuterClass {
       size = 0;
       for (int i = 0; i < eBPDFPJCIGE_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, eBPDFPJCIGE_.get(i));
+          .computeMessageSize(50000, eBPDFPJCIGE_.get(i));
       }
       for (int i = 0; i < fIOPDPIHANO_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, fIOPDPIHANO_.get(i));
+          .computeMessageSize(50001, fIOPDPIHANO_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -660,7 +660,7 @@ public final class _CatcafeDetailInfoOuterClass {
           emu.grasscutter.net.proto.PIPGMGPIKIPOuterClass.PIPGMGPIKIP, emu.grasscutter.net.proto.PIPGMGPIKIPOuterClass.PIPGMGPIKIP.Builder, emu.grasscutter.net.proto.PIPGMGPIKIPOuterClass.PIPGMGPIKIPOrBuilder> eBPDFPJCIGEBuilder_;
 
       /**
-       * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 11;</code>
+       * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 50000;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.PIPGMGPIKIPOuterClass.PIPGMGPIKIP> getEBPDFPJCIGEList() {
         if (eBPDFPJCIGEBuilder_ == null) {
@@ -670,7 +670,7 @@ public final class _CatcafeDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 11;</code>
+       * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 50000;</code>
        */
       public int getEBPDFPJCIGECount() {
         if (eBPDFPJCIGEBuilder_ == null) {
@@ -680,7 +680,7 @@ public final class _CatcafeDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 11;</code>
+       * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 50000;</code>
        */
       public emu.grasscutter.net.proto.PIPGMGPIKIPOuterClass.PIPGMGPIKIP getEBPDFPJCIGE(int index) {
         if (eBPDFPJCIGEBuilder_ == null) {
@@ -690,7 +690,7 @@ public final class _CatcafeDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 11;</code>
+       * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 50000;</code>
        */
       public Builder setEBPDFPJCIGE(
           int index, emu.grasscutter.net.proto.PIPGMGPIKIPOuterClass.PIPGMGPIKIP value) {
@@ -707,7 +707,7 @@ public final class _CatcafeDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 11;</code>
+       * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 50000;</code>
        */
       public Builder setEBPDFPJCIGE(
           int index, emu.grasscutter.net.proto.PIPGMGPIKIPOuterClass.PIPGMGPIKIP.Builder builderForValue) {
@@ -721,7 +721,7 @@ public final class _CatcafeDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 11;</code>
+       * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 50000;</code>
        */
       public Builder addEBPDFPJCIGE(emu.grasscutter.net.proto.PIPGMGPIKIPOuterClass.PIPGMGPIKIP value) {
         if (eBPDFPJCIGEBuilder_ == null) {
@@ -737,7 +737,7 @@ public final class _CatcafeDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 11;</code>
+       * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 50000;</code>
        */
       public Builder addEBPDFPJCIGE(
           int index, emu.grasscutter.net.proto.PIPGMGPIKIPOuterClass.PIPGMGPIKIP value) {
@@ -754,7 +754,7 @@ public final class _CatcafeDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 11;</code>
+       * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 50000;</code>
        */
       public Builder addEBPDFPJCIGE(
           emu.grasscutter.net.proto.PIPGMGPIKIPOuterClass.PIPGMGPIKIP.Builder builderForValue) {
@@ -768,7 +768,7 @@ public final class _CatcafeDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 11;</code>
+       * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 50000;</code>
        */
       public Builder addEBPDFPJCIGE(
           int index, emu.grasscutter.net.proto.PIPGMGPIKIPOuterClass.PIPGMGPIKIP.Builder builderForValue) {
@@ -782,7 +782,7 @@ public final class _CatcafeDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 11;</code>
+       * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 50000;</code>
        */
       public Builder addAllEBPDFPJCIGE(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.PIPGMGPIKIPOuterClass.PIPGMGPIKIP> values) {
@@ -797,7 +797,7 @@ public final class _CatcafeDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 11;</code>
+       * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 50000;</code>
        */
       public Builder clearEBPDFPJCIGE() {
         if (eBPDFPJCIGEBuilder_ == null) {
@@ -810,7 +810,7 @@ public final class _CatcafeDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 11;</code>
+       * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 50000;</code>
        */
       public Builder removeEBPDFPJCIGE(int index) {
         if (eBPDFPJCIGEBuilder_ == null) {
@@ -823,14 +823,14 @@ public final class _CatcafeDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 11;</code>
+       * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 50000;</code>
        */
       public emu.grasscutter.net.proto.PIPGMGPIKIPOuterClass.PIPGMGPIKIP.Builder getEBPDFPJCIGEBuilder(
           int index) {
         return getEBPDFPJCIGEFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 11;</code>
+       * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 50000;</code>
        */
       public emu.grasscutter.net.proto.PIPGMGPIKIPOuterClass.PIPGMGPIKIPOrBuilder getEBPDFPJCIGEOrBuilder(
           int index) {
@@ -840,7 +840,7 @@ public final class _CatcafeDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 11;</code>
+       * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 50000;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.PIPGMGPIKIPOuterClass.PIPGMGPIKIPOrBuilder> 
            getEBPDFPJCIGEOrBuilderList() {
@@ -851,14 +851,14 @@ public final class _CatcafeDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 11;</code>
+       * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 50000;</code>
        */
       public emu.grasscutter.net.proto.PIPGMGPIKIPOuterClass.PIPGMGPIKIP.Builder addEBPDFPJCIGEBuilder() {
         return getEBPDFPJCIGEFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.PIPGMGPIKIPOuterClass.PIPGMGPIKIP.getDefaultInstance());
       }
       /**
-       * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 11;</code>
+       * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 50000;</code>
        */
       public emu.grasscutter.net.proto.PIPGMGPIKIPOuterClass.PIPGMGPIKIP.Builder addEBPDFPJCIGEBuilder(
           int index) {
@@ -866,7 +866,7 @@ public final class _CatcafeDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.PIPGMGPIKIPOuterClass.PIPGMGPIKIP.getDefaultInstance());
       }
       /**
-       * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 11;</code>
+       * <code>repeated .PIPGMGPIKIP EBPDFPJCIGE = 50000;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.PIPGMGPIKIPOuterClass.PIPGMGPIKIP.Builder> 
            getEBPDFPJCIGEBuilderList() {
@@ -900,7 +900,7 @@ public final class _CatcafeDetailInfoOuterClass {
           emu.grasscutter.net.proto.HKGHMIFOALHOuterClass.HKGHMIFOALH, emu.grasscutter.net.proto.HKGHMIFOALHOuterClass.HKGHMIFOALH.Builder, emu.grasscutter.net.proto.HKGHMIFOALHOuterClass.HKGHMIFOALHOrBuilder> fIOPDPIHANOBuilder_;
 
       /**
-       * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 13;</code>
+       * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 50001;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.HKGHMIFOALHOuterClass.HKGHMIFOALH> getFIOPDPIHANOList() {
         if (fIOPDPIHANOBuilder_ == null) {
@@ -910,7 +910,7 @@ public final class _CatcafeDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 13;</code>
+       * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 50001;</code>
        */
       public int getFIOPDPIHANOCount() {
         if (fIOPDPIHANOBuilder_ == null) {
@@ -920,7 +920,7 @@ public final class _CatcafeDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 13;</code>
+       * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 50001;</code>
        */
       public emu.grasscutter.net.proto.HKGHMIFOALHOuterClass.HKGHMIFOALH getFIOPDPIHANO(int index) {
         if (fIOPDPIHANOBuilder_ == null) {
@@ -930,7 +930,7 @@ public final class _CatcafeDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 13;</code>
+       * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 50001;</code>
        */
       public Builder setFIOPDPIHANO(
           int index, emu.grasscutter.net.proto.HKGHMIFOALHOuterClass.HKGHMIFOALH value) {
@@ -947,7 +947,7 @@ public final class _CatcafeDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 13;</code>
+       * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 50001;</code>
        */
       public Builder setFIOPDPIHANO(
           int index, emu.grasscutter.net.proto.HKGHMIFOALHOuterClass.HKGHMIFOALH.Builder builderForValue) {
@@ -961,7 +961,7 @@ public final class _CatcafeDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 13;</code>
+       * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 50001;</code>
        */
       public Builder addFIOPDPIHANO(emu.grasscutter.net.proto.HKGHMIFOALHOuterClass.HKGHMIFOALH value) {
         if (fIOPDPIHANOBuilder_ == null) {
@@ -977,7 +977,7 @@ public final class _CatcafeDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 13;</code>
+       * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 50001;</code>
        */
       public Builder addFIOPDPIHANO(
           int index, emu.grasscutter.net.proto.HKGHMIFOALHOuterClass.HKGHMIFOALH value) {
@@ -994,7 +994,7 @@ public final class _CatcafeDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 13;</code>
+       * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 50001;</code>
        */
       public Builder addFIOPDPIHANO(
           emu.grasscutter.net.proto.HKGHMIFOALHOuterClass.HKGHMIFOALH.Builder builderForValue) {
@@ -1008,7 +1008,7 @@ public final class _CatcafeDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 13;</code>
+       * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 50001;</code>
        */
       public Builder addFIOPDPIHANO(
           int index, emu.grasscutter.net.proto.HKGHMIFOALHOuterClass.HKGHMIFOALH.Builder builderForValue) {
@@ -1022,7 +1022,7 @@ public final class _CatcafeDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 13;</code>
+       * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 50001;</code>
        */
       public Builder addAllFIOPDPIHANO(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.HKGHMIFOALHOuterClass.HKGHMIFOALH> values) {
@@ -1037,7 +1037,7 @@ public final class _CatcafeDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 13;</code>
+       * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 50001;</code>
        */
       public Builder clearFIOPDPIHANO() {
         if (fIOPDPIHANOBuilder_ == null) {
@@ -1050,7 +1050,7 @@ public final class _CatcafeDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 13;</code>
+       * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 50001;</code>
        */
       public Builder removeFIOPDPIHANO(int index) {
         if (fIOPDPIHANOBuilder_ == null) {
@@ -1063,14 +1063,14 @@ public final class _CatcafeDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 13;</code>
+       * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 50001;</code>
        */
       public emu.grasscutter.net.proto.HKGHMIFOALHOuterClass.HKGHMIFOALH.Builder getFIOPDPIHANOBuilder(
           int index) {
         return getFIOPDPIHANOFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 13;</code>
+       * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 50001;</code>
        */
       public emu.grasscutter.net.proto.HKGHMIFOALHOuterClass.HKGHMIFOALHOrBuilder getFIOPDPIHANOOrBuilder(
           int index) {
@@ -1080,7 +1080,7 @@ public final class _CatcafeDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 13;</code>
+       * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 50001;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.HKGHMIFOALHOuterClass.HKGHMIFOALHOrBuilder> 
            getFIOPDPIHANOOrBuilderList() {
@@ -1091,14 +1091,14 @@ public final class _CatcafeDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 13;</code>
+       * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 50001;</code>
        */
       public emu.grasscutter.net.proto.HKGHMIFOALHOuterClass.HKGHMIFOALH.Builder addFIOPDPIHANOBuilder() {
         return getFIOPDPIHANOFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.HKGHMIFOALHOuterClass.HKGHMIFOALH.getDefaultInstance());
       }
       /**
-       * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 13;</code>
+       * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 50001;</code>
        */
       public emu.grasscutter.net.proto.HKGHMIFOALHOuterClass.HKGHMIFOALH.Builder addFIOPDPIHANOBuilder(
           int index) {
@@ -1106,7 +1106,7 @@ public final class _CatcafeDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.HKGHMIFOALHOuterClass.HKGHMIFOALH.getDefaultInstance());
       }
       /**
-       * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 13;</code>
+       * <code>repeated .HKGHMIFOALH FIOPDPIHANO = 50001;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.HKGHMIFOALHOuterClass.HKGHMIFOALH.Builder> 
            getFIOPDPIHANOBuilderList() {
@@ -1194,11 +1194,11 @@ public final class _CatcafeDetailInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\030_CatcafeDetailInfo.proto\032\021HKGHMIFOALH." +
-      "proto\032\021PIPGMGPIKIP.proto\"Z\n\022_CatcafeDeta" +
-      "ilInfo\022!\n\013EBPDFPJCIGE\030\013 \003(\0132\014.PIPGMGPIKI" +
-      "P\022!\n\013FIOPDPIHANO\030\r \003(\0132\014.HKGHMIFOALHB9\n\031" +
-      "emu.grasscutter.net.protoB\034_CatcafeDetai" +
-      "lInfoOuterClassb\006proto3"
+      "proto\032\021PIPGMGPIKIP.proto\"^\n\022_CatcafeDeta" +
+      "ilInfo\022#\n\013EBPDFPJCIGE\030\320\206\003 \003(\0132\014.PIPGMGPI" +
+      "KIP\022#\n\013FIOPDPIHANO\030\321\206\003 \003(\0132\014.HKGHMIFOALH" +
+      "B9\n\031emu.grasscutter.net.protoB\034_CatcafeD" +
+      "etailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

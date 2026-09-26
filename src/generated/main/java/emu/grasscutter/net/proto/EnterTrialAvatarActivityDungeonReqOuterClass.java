@@ -19,7 +19,7 @@ public final class EnterTrialAvatarActivityDungeonReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 enter_point_id = 50000;</code>
+     * <code>uint32 enter_point_id = 2;</code>
      * @return The enterPointId.
      */
     int getEnterPointId();
@@ -31,7 +31,7 @@ public final class EnterTrialAvatarActivityDungeonReqOuterClass {
     int getActivityId();
 
     /**
-     * <code>uint32 _enter_training_step = 50001;</code>
+     * <code>uint32 _enter_training_step = 6;</code>
      * @return The enterTrainingStep.
      */
     int getEnterTrainingStep();
@@ -87,6 +87,16 @@ public final class EnterTrialAvatarActivityDungeonReqOuterClass {
             case 0:
               done = true;
               break;
+            case 16: {
+
+              enterPointId_ = input.readUInt32();
+              break;
+            }
+            case 48: {
+
+              EnterTrainingStep_ = input.readUInt32();
+              break;
+            }
             case 64: {
 
               trialAvatarIndexId_ = input.readUInt32();
@@ -95,16 +105,6 @@ public final class EnterTrialAvatarActivityDungeonReqOuterClass {
             case 112: {
 
               activityId_ = input.readUInt32();
-              break;
-            }
-            case 400000: {
-
-              enterPointId_ = input.readUInt32();
-              break;
-            }
-            case 400008: {
-
-              EnterTrainingStep_ = input.readUInt32();
               break;
             }
             default: {
@@ -139,10 +139,10 @@ public final class EnterTrialAvatarActivityDungeonReqOuterClass {
               emu.grasscutter.net.proto.EnterTrialAvatarActivityDungeonReqOuterClass.EnterTrialAvatarActivityDungeonReq.class, emu.grasscutter.net.proto.EnterTrialAvatarActivityDungeonReqOuterClass.EnterTrialAvatarActivityDungeonReq.Builder.class);
     }
 
-    public static final int ENTER_POINT_ID_FIELD_NUMBER = 50000;
+    public static final int ENTER_POINT_ID_FIELD_NUMBER = 2;
     private int enterPointId_;
     /**
-     * <code>uint32 enter_point_id = 50000;</code>
+     * <code>uint32 enter_point_id = 2;</code>
      * @return The enterPointId.
      */
     @java.lang.Override
@@ -161,10 +161,10 @@ public final class EnterTrialAvatarActivityDungeonReqOuterClass {
       return activityId_;
     }
 
-    public static final int _ENTER_TRAINING_STEP_FIELD_NUMBER = 50001;
+    public static final int _ENTER_TRAINING_STEP_FIELD_NUMBER = 6;
     private int EnterTrainingStep_;
     /**
-     * <code>uint32 _enter_training_step = 50001;</code>
+     * <code>uint32 _enter_training_step = 6;</code>
      * @return The enterTrainingStep.
      */
     @java.lang.Override
@@ -197,17 +197,17 @@ public final class EnterTrialAvatarActivityDungeonReqOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (enterPointId_ != 0) {
+        output.writeUInt32(2, enterPointId_);
+      }
+      if (EnterTrainingStep_ != 0) {
+        output.writeUInt32(6, EnterTrainingStep_);
+      }
       if (trialAvatarIndexId_ != 0) {
         output.writeUInt32(8, trialAvatarIndexId_);
       }
       if (activityId_ != 0) {
         output.writeUInt32(14, activityId_);
-      }
-      if (enterPointId_ != 0) {
-        output.writeUInt32(50000, enterPointId_);
-      }
-      if (EnterTrainingStep_ != 0) {
-        output.writeUInt32(50001, EnterTrainingStep_);
       }
       unknownFields.writeTo(output);
     }
@@ -218,6 +218,14 @@ public final class EnterTrialAvatarActivityDungeonReqOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (enterPointId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(2, enterPointId_);
+      }
+      if (EnterTrainingStep_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(6, EnterTrainingStep_);
+      }
       if (trialAvatarIndexId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(8, trialAvatarIndexId_);
@@ -225,14 +233,6 @@ public final class EnterTrialAvatarActivityDungeonReqOuterClass {
       if (activityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(14, activityId_);
-      }
-      if (enterPointId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(50000, enterPointId_);
-      }
-      if (EnterTrainingStep_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(50001, EnterTrainingStep_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -538,7 +538,7 @@ public final class EnterTrialAvatarActivityDungeonReqOuterClass {
 
       private int enterPointId_ ;
       /**
-       * <code>uint32 enter_point_id = 50000;</code>
+       * <code>uint32 enter_point_id = 2;</code>
        * @return The enterPointId.
        */
       @java.lang.Override
@@ -546,7 +546,7 @@ public final class EnterTrialAvatarActivityDungeonReqOuterClass {
         return enterPointId_;
       }
       /**
-       * <code>uint32 enter_point_id = 50000;</code>
+       * <code>uint32 enter_point_id = 2;</code>
        * @param value The enterPointId to set.
        * @return This builder for chaining.
        */
@@ -557,7 +557,7 @@ public final class EnterTrialAvatarActivityDungeonReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 enter_point_id = 50000;</code>
+       * <code>uint32 enter_point_id = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearEnterPointId() {
@@ -600,7 +600,7 @@ public final class EnterTrialAvatarActivityDungeonReqOuterClass {
 
       private int EnterTrainingStep_ ;
       /**
-       * <code>uint32 _enter_training_step = 50001;</code>
+       * <code>uint32 _enter_training_step = 6;</code>
        * @return The enterTrainingStep.
        */
       @java.lang.Override
@@ -608,7 +608,7 @@ public final class EnterTrialAvatarActivityDungeonReqOuterClass {
         return EnterTrainingStep_;
       }
       /**
-       * <code>uint32 _enter_training_step = 50001;</code>
+       * <code>uint32 _enter_training_step = 6;</code>
        * @param value The enterTrainingStep to set.
        * @return This builder for chaining.
        */
@@ -619,7 +619,7 @@ public final class EnterTrialAvatarActivityDungeonReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 _enter_training_step = 50001;</code>
+       * <code>uint32 _enter_training_step = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearEnterTrainingStep() {
@@ -727,12 +727,12 @@ public final class EnterTrialAvatarActivityDungeonReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n(EnterTrialAvatarActivityDungeonReq.pro" +
-      "to\"\222\001\n\"EnterTrialAvatarActivityDungeonRe" +
-      "q\022\030\n\016enter_point_id\030\320\206\003 \001(\r\022\023\n\013activity_" +
-      "id\030\016 \001(\r\022\036\n\024_enter_training_step\030\321\206\003 \001(\r" +
-      "\022\035\n\025trial_avatar_index_id\030\010 \001(\rBI\n\031emu.g" +
-      "rasscutter.net.protoB,EnterTrialAvatarAc" +
-      "tivityDungeonReqOuterClassb\006proto3"
+      "to\"\216\001\n\"EnterTrialAvatarActivityDungeonRe" +
+      "q\022\026\n\016enter_point_id\030\002 \001(\r\022\023\n\013activity_id" +
+      "\030\016 \001(\r\022\034\n\024_enter_training_step\030\006 \001(\r\022\035\n\025" +
+      "trial_avatar_index_id\030\010 \001(\rBI\n\031emu.grass" +
+      "cutter.net.protoB,EnterTrialAvatarActivi" +
+      "tyDungeonReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

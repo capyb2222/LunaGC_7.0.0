@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "MKADIBABGKHOuterClass";
 
 message MKADIBABGKH {
-	repeated uint32 CKPHABNPOOH = 3;
-	repeated uint32 EPOIJJBNCAI = 7;
-	uint32 difficulty = 11;
+	repeated uint32 CKPHABNPOOH = 50000;
+	repeated uint32 EPOIJJBNCAI = 50001;
+	uint32 difficulty = 8;
 }

@@ -25,7 +25,7 @@ public final class ArenaChallengeMonsterLevelOuterClass {
     int getBLCPLGCJEBJ();
 
     /**
-     * <code>uint32 KHJHFLNMNPC = 15;</code>
+     * <code>uint32 KHJHFLNMNPC = 2;</code>
      * @return The kHJHFLNMNPC.
      */
     int getKHJHFLNMNPC();
@@ -75,14 +75,14 @@ public final class ArenaChallengeMonsterLevelOuterClass {
             case 0:
               done = true;
               break;
+            case 16: {
+
+              kHJHFLNMNPC_ = input.readUInt32();
+              break;
+            }
             case 64: {
 
               bLCPLGCJEBJ_ = input.readUInt32();
-              break;
-            }
-            case 120: {
-
-              kHJHFLNMNPC_ = input.readUInt32();
               break;
             }
             default: {
@@ -128,10 +128,10 @@ public final class ArenaChallengeMonsterLevelOuterClass {
       return bLCPLGCJEBJ_;
     }
 
-    public static final int KHJHFLNMNPC_FIELD_NUMBER = 15;
+    public static final int KHJHFLNMNPC_FIELD_NUMBER = 2;
     private int kHJHFLNMNPC_;
     /**
-     * <code>uint32 KHJHFLNMNPC = 15;</code>
+     * <code>uint32 KHJHFLNMNPC = 2;</code>
      * @return The kHJHFLNMNPC.
      */
     @java.lang.Override
@@ -153,11 +153,11 @@ public final class ArenaChallengeMonsterLevelOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (kHJHFLNMNPC_ != 0) {
+        output.writeUInt32(2, kHJHFLNMNPC_);
+      }
       if (bLCPLGCJEBJ_ != 0) {
         output.writeUInt32(8, bLCPLGCJEBJ_);
-      }
-      if (kHJHFLNMNPC_ != 0) {
-        output.writeUInt32(15, kHJHFLNMNPC_);
       }
       unknownFields.writeTo(output);
     }
@@ -168,13 +168,13 @@ public final class ArenaChallengeMonsterLevelOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (kHJHFLNMNPC_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(2, kHJHFLNMNPC_);
+      }
       if (bLCPLGCJEBJ_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(8, bLCPLGCJEBJ_);
-      }
-      if (kHJHFLNMNPC_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, kHJHFLNMNPC_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -491,7 +491,7 @@ public final class ArenaChallengeMonsterLevelOuterClass {
 
       private int kHJHFLNMNPC_ ;
       /**
-       * <code>uint32 KHJHFLNMNPC = 15;</code>
+       * <code>uint32 KHJHFLNMNPC = 2;</code>
        * @return The kHJHFLNMNPC.
        */
       @java.lang.Override
@@ -499,7 +499,7 @@ public final class ArenaChallengeMonsterLevelOuterClass {
         return kHJHFLNMNPC_;
       }
       /**
-       * <code>uint32 KHJHFLNMNPC = 15;</code>
+       * <code>uint32 KHJHFLNMNPC = 2;</code>
        * @param value The kHJHFLNMNPC to set.
        * @return This builder for chaining.
        */
@@ -510,7 +510,7 @@ public final class ArenaChallengeMonsterLevelOuterClass {
         return this;
       }
       /**
-       * <code>uint32 KHJHFLNMNPC = 15;</code>
+       * <code>uint32 KHJHFLNMNPC = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearKHJHFLNMNPC() {
@@ -588,7 +588,7 @@ public final class ArenaChallengeMonsterLevelOuterClass {
     java.lang.String[] descriptorData = {
       "\n ArenaChallengeMonsterLevel.proto\"F\n\032Ar" +
       "enaChallengeMonsterLevel\022\023\n\013BLCPLGCJEBJ\030" +
-      "\010 \001(\r\022\023\n\013KHJHFLNMNPC\030\017 \001(\rBA\n\031emu.grassc" +
+      "\010 \001(\r\022\023\n\013KHJHFLNMNPC\030\002 \001(\rBA\n\031emu.grassc" +
       "utter.net.protoB$ArenaChallengeMonsterLe" +
       "velOuterClassb\006proto3"
     };

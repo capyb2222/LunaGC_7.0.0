@@ -19,49 +19,49 @@ public final class PhotoUnderseaDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .FPKKPDDNKHE object_info_list = 8;</code>
+     * <code>repeated .FPKKPDDNKHE object_info_list = 10;</code>
      */
     java.util.List<emu.grasscutter.net.proto.FPKKPDDNKHEOuterClass.FPKKPDDNKHE> 
         getObjectInfoListList();
     /**
-     * <code>repeated .FPKKPDDNKHE object_info_list = 8;</code>
+     * <code>repeated .FPKKPDDNKHE object_info_list = 10;</code>
      */
     emu.grasscutter.net.proto.FPKKPDDNKHEOuterClass.FPKKPDDNKHE getObjectInfoList(int index);
     /**
-     * <code>repeated .FPKKPDDNKHE object_info_list = 8;</code>
+     * <code>repeated .FPKKPDDNKHE object_info_list = 10;</code>
      */
     int getObjectInfoListCount();
     /**
-     * <code>repeated .FPKKPDDNKHE object_info_list = 8;</code>
+     * <code>repeated .FPKKPDDNKHE object_info_list = 10;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.FPKKPDDNKHEOuterClass.FPKKPDDNKHEOrBuilder> 
         getObjectInfoListOrBuilderList();
     /**
-     * <code>repeated .FPKKPDDNKHE object_info_list = 8;</code>
+     * <code>repeated .FPKKPDDNKHE object_info_list = 10;</code>
      */
     emu.grasscutter.net.proto.FPKKPDDNKHEOuterClass.FPKKPDDNKHEOrBuilder getObjectInfoListOrBuilder(
         int index);
 
     /**
-     * <code>repeated .BKGHEPDLIKH level_info_list = 10;</code>
+     * <code>repeated .BKGHEPDLIKH level_info_list = 8;</code>
      */
     java.util.List<emu.grasscutter.net.proto.BKGHEPDLIKHOuterClass.BKGHEPDLIKH> 
         getLevelInfoListList();
     /**
-     * <code>repeated .BKGHEPDLIKH level_info_list = 10;</code>
+     * <code>repeated .BKGHEPDLIKH level_info_list = 8;</code>
      */
     emu.grasscutter.net.proto.BKGHEPDLIKHOuterClass.BKGHEPDLIKH getLevelInfoList(int index);
     /**
-     * <code>repeated .BKGHEPDLIKH level_info_list = 10;</code>
+     * <code>repeated .BKGHEPDLIKH level_info_list = 8;</code>
      */
     int getLevelInfoListCount();
     /**
-     * <code>repeated .BKGHEPDLIKH level_info_list = 10;</code>
+     * <code>repeated .BKGHEPDLIKH level_info_list = 8;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.BKGHEPDLIKHOuterClass.BKGHEPDLIKHOrBuilder> 
         getLevelInfoListOrBuilderList();
     /**
-     * <code>repeated .BKGHEPDLIKH level_info_list = 10;</code>
+     * <code>repeated .BKGHEPDLIKH level_info_list = 8;</code>
      */
     emu.grasscutter.net.proto.BKGHEPDLIKHOuterClass.BKGHEPDLIKHOrBuilder getLevelInfoListOrBuilder(
         int index);
@@ -115,21 +115,21 @@ public final class PhotoUnderseaDetailInfoOuterClass {
               done = true;
               break;
             case 66: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                objectInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.FPKKPDDNKHEOuterClass.FPKKPDDNKHE>();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              objectInfoList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.FPKKPDDNKHEOuterClass.FPKKPDDNKHE.parser(), extensionRegistry));
-              break;
-            }
-            case 82: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 levelInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.BKGHEPDLIKHOuterClass.BKGHEPDLIKH>();
                 mutable_bitField0_ |= 0x00000002;
               }
               levelInfoList_.add(
                   input.readMessage(emu.grasscutter.net.proto.BKGHEPDLIKHOuterClass.BKGHEPDLIKH.parser(), extensionRegistry));
+              break;
+            }
+            case 82: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                objectInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.FPKKPDDNKHEOuterClass.FPKKPDDNKHE>();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              objectInfoList_.add(
+                  input.readMessage(emu.grasscutter.net.proto.FPKKPDDNKHEOuterClass.FPKKPDDNKHE.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -147,11 +147,11 @@ public final class PhotoUnderseaDetailInfoOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          objectInfoList_ = java.util.Collections.unmodifiableList(objectInfoList_);
-        }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
           levelInfoList_ = java.util.Collections.unmodifiableList(levelInfoList_);
+        }
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          objectInfoList_ = java.util.Collections.unmodifiableList(objectInfoList_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -170,17 +170,17 @@ public final class PhotoUnderseaDetailInfoOuterClass {
               emu.grasscutter.net.proto.PhotoUnderseaDetailInfoOuterClass.PhotoUnderseaDetailInfo.class, emu.grasscutter.net.proto.PhotoUnderseaDetailInfoOuterClass.PhotoUnderseaDetailInfo.Builder.class);
     }
 
-    public static final int OBJECT_INFO_LIST_FIELD_NUMBER = 8;
+    public static final int OBJECT_INFO_LIST_FIELD_NUMBER = 10;
     private java.util.List<emu.grasscutter.net.proto.FPKKPDDNKHEOuterClass.FPKKPDDNKHE> objectInfoList_;
     /**
-     * <code>repeated .FPKKPDDNKHE object_info_list = 8;</code>
+     * <code>repeated .FPKKPDDNKHE object_info_list = 10;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.FPKKPDDNKHEOuterClass.FPKKPDDNKHE> getObjectInfoListList() {
       return objectInfoList_;
     }
     /**
-     * <code>repeated .FPKKPDDNKHE object_info_list = 8;</code>
+     * <code>repeated .FPKKPDDNKHE object_info_list = 10;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.FPKKPDDNKHEOuterClass.FPKKPDDNKHEOrBuilder> 
@@ -188,21 +188,21 @@ public final class PhotoUnderseaDetailInfoOuterClass {
       return objectInfoList_;
     }
     /**
-     * <code>repeated .FPKKPDDNKHE object_info_list = 8;</code>
+     * <code>repeated .FPKKPDDNKHE object_info_list = 10;</code>
      */
     @java.lang.Override
     public int getObjectInfoListCount() {
       return objectInfoList_.size();
     }
     /**
-     * <code>repeated .FPKKPDDNKHE object_info_list = 8;</code>
+     * <code>repeated .FPKKPDDNKHE object_info_list = 10;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.FPKKPDDNKHEOuterClass.FPKKPDDNKHE getObjectInfoList(int index) {
       return objectInfoList_.get(index);
     }
     /**
-     * <code>repeated .FPKKPDDNKHE object_info_list = 8;</code>
+     * <code>repeated .FPKKPDDNKHE object_info_list = 10;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.FPKKPDDNKHEOuterClass.FPKKPDDNKHEOrBuilder getObjectInfoListOrBuilder(
@@ -210,17 +210,17 @@ public final class PhotoUnderseaDetailInfoOuterClass {
       return objectInfoList_.get(index);
     }
 
-    public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 10;
+    public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 8;
     private java.util.List<emu.grasscutter.net.proto.BKGHEPDLIKHOuterClass.BKGHEPDLIKH> levelInfoList_;
     /**
-     * <code>repeated .BKGHEPDLIKH level_info_list = 10;</code>
+     * <code>repeated .BKGHEPDLIKH level_info_list = 8;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.BKGHEPDLIKHOuterClass.BKGHEPDLIKH> getLevelInfoListList() {
       return levelInfoList_;
     }
     /**
-     * <code>repeated .BKGHEPDLIKH level_info_list = 10;</code>
+     * <code>repeated .BKGHEPDLIKH level_info_list = 8;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.BKGHEPDLIKHOuterClass.BKGHEPDLIKHOrBuilder> 
@@ -228,21 +228,21 @@ public final class PhotoUnderseaDetailInfoOuterClass {
       return levelInfoList_;
     }
     /**
-     * <code>repeated .BKGHEPDLIKH level_info_list = 10;</code>
+     * <code>repeated .BKGHEPDLIKH level_info_list = 8;</code>
      */
     @java.lang.Override
     public int getLevelInfoListCount() {
       return levelInfoList_.size();
     }
     /**
-     * <code>repeated .BKGHEPDLIKH level_info_list = 10;</code>
+     * <code>repeated .BKGHEPDLIKH level_info_list = 8;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.BKGHEPDLIKHOuterClass.BKGHEPDLIKH getLevelInfoList(int index) {
       return levelInfoList_.get(index);
     }
     /**
-     * <code>repeated .BKGHEPDLIKH level_info_list = 10;</code>
+     * <code>repeated .BKGHEPDLIKH level_info_list = 8;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.BKGHEPDLIKHOuterClass.BKGHEPDLIKHOrBuilder getLevelInfoListOrBuilder(
@@ -264,11 +264,11 @@ public final class PhotoUnderseaDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      for (int i = 0; i < objectInfoList_.size(); i++) {
-        output.writeMessage(8, objectInfoList_.get(i));
-      }
       for (int i = 0; i < levelInfoList_.size(); i++) {
-        output.writeMessage(10, levelInfoList_.get(i));
+        output.writeMessage(8, levelInfoList_.get(i));
+      }
+      for (int i = 0; i < objectInfoList_.size(); i++) {
+        output.writeMessage(10, objectInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -279,13 +279,13 @@ public final class PhotoUnderseaDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < objectInfoList_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, objectInfoList_.get(i));
-      }
       for (int i = 0; i < levelInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, levelInfoList_.get(i));
+          .computeMessageSize(8, levelInfoList_.get(i));
+      }
+      for (int i = 0; i < objectInfoList_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(10, objectInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -660,7 +660,7 @@ public final class PhotoUnderseaDetailInfoOuterClass {
           emu.grasscutter.net.proto.FPKKPDDNKHEOuterClass.FPKKPDDNKHE, emu.grasscutter.net.proto.FPKKPDDNKHEOuterClass.FPKKPDDNKHE.Builder, emu.grasscutter.net.proto.FPKKPDDNKHEOuterClass.FPKKPDDNKHEOrBuilder> objectInfoListBuilder_;
 
       /**
-       * <code>repeated .FPKKPDDNKHE object_info_list = 8;</code>
+       * <code>repeated .FPKKPDDNKHE object_info_list = 10;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.FPKKPDDNKHEOuterClass.FPKKPDDNKHE> getObjectInfoListList() {
         if (objectInfoListBuilder_ == null) {
@@ -670,7 +670,7 @@ public final class PhotoUnderseaDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .FPKKPDDNKHE object_info_list = 8;</code>
+       * <code>repeated .FPKKPDDNKHE object_info_list = 10;</code>
        */
       public int getObjectInfoListCount() {
         if (objectInfoListBuilder_ == null) {
@@ -680,7 +680,7 @@ public final class PhotoUnderseaDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .FPKKPDDNKHE object_info_list = 8;</code>
+       * <code>repeated .FPKKPDDNKHE object_info_list = 10;</code>
        */
       public emu.grasscutter.net.proto.FPKKPDDNKHEOuterClass.FPKKPDDNKHE getObjectInfoList(int index) {
         if (objectInfoListBuilder_ == null) {
@@ -690,7 +690,7 @@ public final class PhotoUnderseaDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .FPKKPDDNKHE object_info_list = 8;</code>
+       * <code>repeated .FPKKPDDNKHE object_info_list = 10;</code>
        */
       public Builder setObjectInfoList(
           int index, emu.grasscutter.net.proto.FPKKPDDNKHEOuterClass.FPKKPDDNKHE value) {
@@ -707,7 +707,7 @@ public final class PhotoUnderseaDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FPKKPDDNKHE object_info_list = 8;</code>
+       * <code>repeated .FPKKPDDNKHE object_info_list = 10;</code>
        */
       public Builder setObjectInfoList(
           int index, emu.grasscutter.net.proto.FPKKPDDNKHEOuterClass.FPKKPDDNKHE.Builder builderForValue) {
@@ -721,7 +721,7 @@ public final class PhotoUnderseaDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FPKKPDDNKHE object_info_list = 8;</code>
+       * <code>repeated .FPKKPDDNKHE object_info_list = 10;</code>
        */
       public Builder addObjectInfoList(emu.grasscutter.net.proto.FPKKPDDNKHEOuterClass.FPKKPDDNKHE value) {
         if (objectInfoListBuilder_ == null) {
@@ -737,7 +737,7 @@ public final class PhotoUnderseaDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FPKKPDDNKHE object_info_list = 8;</code>
+       * <code>repeated .FPKKPDDNKHE object_info_list = 10;</code>
        */
       public Builder addObjectInfoList(
           int index, emu.grasscutter.net.proto.FPKKPDDNKHEOuterClass.FPKKPDDNKHE value) {
@@ -754,7 +754,7 @@ public final class PhotoUnderseaDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FPKKPDDNKHE object_info_list = 8;</code>
+       * <code>repeated .FPKKPDDNKHE object_info_list = 10;</code>
        */
       public Builder addObjectInfoList(
           emu.grasscutter.net.proto.FPKKPDDNKHEOuterClass.FPKKPDDNKHE.Builder builderForValue) {
@@ -768,7 +768,7 @@ public final class PhotoUnderseaDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FPKKPDDNKHE object_info_list = 8;</code>
+       * <code>repeated .FPKKPDDNKHE object_info_list = 10;</code>
        */
       public Builder addObjectInfoList(
           int index, emu.grasscutter.net.proto.FPKKPDDNKHEOuterClass.FPKKPDDNKHE.Builder builderForValue) {
@@ -782,7 +782,7 @@ public final class PhotoUnderseaDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FPKKPDDNKHE object_info_list = 8;</code>
+       * <code>repeated .FPKKPDDNKHE object_info_list = 10;</code>
        */
       public Builder addAllObjectInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.FPKKPDDNKHEOuterClass.FPKKPDDNKHE> values) {
@@ -797,7 +797,7 @@ public final class PhotoUnderseaDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FPKKPDDNKHE object_info_list = 8;</code>
+       * <code>repeated .FPKKPDDNKHE object_info_list = 10;</code>
        */
       public Builder clearObjectInfoList() {
         if (objectInfoListBuilder_ == null) {
@@ -810,7 +810,7 @@ public final class PhotoUnderseaDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FPKKPDDNKHE object_info_list = 8;</code>
+       * <code>repeated .FPKKPDDNKHE object_info_list = 10;</code>
        */
       public Builder removeObjectInfoList(int index) {
         if (objectInfoListBuilder_ == null) {
@@ -823,14 +823,14 @@ public final class PhotoUnderseaDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FPKKPDDNKHE object_info_list = 8;</code>
+       * <code>repeated .FPKKPDDNKHE object_info_list = 10;</code>
        */
       public emu.grasscutter.net.proto.FPKKPDDNKHEOuterClass.FPKKPDDNKHE.Builder getObjectInfoListBuilder(
           int index) {
         return getObjectInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .FPKKPDDNKHE object_info_list = 8;</code>
+       * <code>repeated .FPKKPDDNKHE object_info_list = 10;</code>
        */
       public emu.grasscutter.net.proto.FPKKPDDNKHEOuterClass.FPKKPDDNKHEOrBuilder getObjectInfoListOrBuilder(
           int index) {
@@ -840,7 +840,7 @@ public final class PhotoUnderseaDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .FPKKPDDNKHE object_info_list = 8;</code>
+       * <code>repeated .FPKKPDDNKHE object_info_list = 10;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.FPKKPDDNKHEOuterClass.FPKKPDDNKHEOrBuilder> 
            getObjectInfoListOrBuilderList() {
@@ -851,14 +851,14 @@ public final class PhotoUnderseaDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .FPKKPDDNKHE object_info_list = 8;</code>
+       * <code>repeated .FPKKPDDNKHE object_info_list = 10;</code>
        */
       public emu.grasscutter.net.proto.FPKKPDDNKHEOuterClass.FPKKPDDNKHE.Builder addObjectInfoListBuilder() {
         return getObjectInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.FPKKPDDNKHEOuterClass.FPKKPDDNKHE.getDefaultInstance());
       }
       /**
-       * <code>repeated .FPKKPDDNKHE object_info_list = 8;</code>
+       * <code>repeated .FPKKPDDNKHE object_info_list = 10;</code>
        */
       public emu.grasscutter.net.proto.FPKKPDDNKHEOuterClass.FPKKPDDNKHE.Builder addObjectInfoListBuilder(
           int index) {
@@ -866,7 +866,7 @@ public final class PhotoUnderseaDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.FPKKPDDNKHEOuterClass.FPKKPDDNKHE.getDefaultInstance());
       }
       /**
-       * <code>repeated .FPKKPDDNKHE object_info_list = 8;</code>
+       * <code>repeated .FPKKPDDNKHE object_info_list = 10;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.FPKKPDDNKHEOuterClass.FPKKPDDNKHE.Builder> 
            getObjectInfoListBuilderList() {
@@ -900,7 +900,7 @@ public final class PhotoUnderseaDetailInfoOuterClass {
           emu.grasscutter.net.proto.BKGHEPDLIKHOuterClass.BKGHEPDLIKH, emu.grasscutter.net.proto.BKGHEPDLIKHOuterClass.BKGHEPDLIKH.Builder, emu.grasscutter.net.proto.BKGHEPDLIKHOuterClass.BKGHEPDLIKHOrBuilder> levelInfoListBuilder_;
 
       /**
-       * <code>repeated .BKGHEPDLIKH level_info_list = 10;</code>
+       * <code>repeated .BKGHEPDLIKH level_info_list = 8;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.BKGHEPDLIKHOuterClass.BKGHEPDLIKH> getLevelInfoListList() {
         if (levelInfoListBuilder_ == null) {
@@ -910,7 +910,7 @@ public final class PhotoUnderseaDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BKGHEPDLIKH level_info_list = 10;</code>
+       * <code>repeated .BKGHEPDLIKH level_info_list = 8;</code>
        */
       public int getLevelInfoListCount() {
         if (levelInfoListBuilder_ == null) {
@@ -920,7 +920,7 @@ public final class PhotoUnderseaDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BKGHEPDLIKH level_info_list = 10;</code>
+       * <code>repeated .BKGHEPDLIKH level_info_list = 8;</code>
        */
       public emu.grasscutter.net.proto.BKGHEPDLIKHOuterClass.BKGHEPDLIKH getLevelInfoList(int index) {
         if (levelInfoListBuilder_ == null) {
@@ -930,7 +930,7 @@ public final class PhotoUnderseaDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BKGHEPDLIKH level_info_list = 10;</code>
+       * <code>repeated .BKGHEPDLIKH level_info_list = 8;</code>
        */
       public Builder setLevelInfoList(
           int index, emu.grasscutter.net.proto.BKGHEPDLIKHOuterClass.BKGHEPDLIKH value) {
@@ -947,7 +947,7 @@ public final class PhotoUnderseaDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BKGHEPDLIKH level_info_list = 10;</code>
+       * <code>repeated .BKGHEPDLIKH level_info_list = 8;</code>
        */
       public Builder setLevelInfoList(
           int index, emu.grasscutter.net.proto.BKGHEPDLIKHOuterClass.BKGHEPDLIKH.Builder builderForValue) {
@@ -961,7 +961,7 @@ public final class PhotoUnderseaDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BKGHEPDLIKH level_info_list = 10;</code>
+       * <code>repeated .BKGHEPDLIKH level_info_list = 8;</code>
        */
       public Builder addLevelInfoList(emu.grasscutter.net.proto.BKGHEPDLIKHOuterClass.BKGHEPDLIKH value) {
         if (levelInfoListBuilder_ == null) {
@@ -977,7 +977,7 @@ public final class PhotoUnderseaDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BKGHEPDLIKH level_info_list = 10;</code>
+       * <code>repeated .BKGHEPDLIKH level_info_list = 8;</code>
        */
       public Builder addLevelInfoList(
           int index, emu.grasscutter.net.proto.BKGHEPDLIKHOuterClass.BKGHEPDLIKH value) {
@@ -994,7 +994,7 @@ public final class PhotoUnderseaDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BKGHEPDLIKH level_info_list = 10;</code>
+       * <code>repeated .BKGHEPDLIKH level_info_list = 8;</code>
        */
       public Builder addLevelInfoList(
           emu.grasscutter.net.proto.BKGHEPDLIKHOuterClass.BKGHEPDLIKH.Builder builderForValue) {
@@ -1008,7 +1008,7 @@ public final class PhotoUnderseaDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BKGHEPDLIKH level_info_list = 10;</code>
+       * <code>repeated .BKGHEPDLIKH level_info_list = 8;</code>
        */
       public Builder addLevelInfoList(
           int index, emu.grasscutter.net.proto.BKGHEPDLIKHOuterClass.BKGHEPDLIKH.Builder builderForValue) {
@@ -1022,7 +1022,7 @@ public final class PhotoUnderseaDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BKGHEPDLIKH level_info_list = 10;</code>
+       * <code>repeated .BKGHEPDLIKH level_info_list = 8;</code>
        */
       public Builder addAllLevelInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.BKGHEPDLIKHOuterClass.BKGHEPDLIKH> values) {
@@ -1037,7 +1037,7 @@ public final class PhotoUnderseaDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BKGHEPDLIKH level_info_list = 10;</code>
+       * <code>repeated .BKGHEPDLIKH level_info_list = 8;</code>
        */
       public Builder clearLevelInfoList() {
         if (levelInfoListBuilder_ == null) {
@@ -1050,7 +1050,7 @@ public final class PhotoUnderseaDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BKGHEPDLIKH level_info_list = 10;</code>
+       * <code>repeated .BKGHEPDLIKH level_info_list = 8;</code>
        */
       public Builder removeLevelInfoList(int index) {
         if (levelInfoListBuilder_ == null) {
@@ -1063,14 +1063,14 @@ public final class PhotoUnderseaDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BKGHEPDLIKH level_info_list = 10;</code>
+       * <code>repeated .BKGHEPDLIKH level_info_list = 8;</code>
        */
       public emu.grasscutter.net.proto.BKGHEPDLIKHOuterClass.BKGHEPDLIKH.Builder getLevelInfoListBuilder(
           int index) {
         return getLevelInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .BKGHEPDLIKH level_info_list = 10;</code>
+       * <code>repeated .BKGHEPDLIKH level_info_list = 8;</code>
        */
       public emu.grasscutter.net.proto.BKGHEPDLIKHOuterClass.BKGHEPDLIKHOrBuilder getLevelInfoListOrBuilder(
           int index) {
@@ -1080,7 +1080,7 @@ public final class PhotoUnderseaDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BKGHEPDLIKH level_info_list = 10;</code>
+       * <code>repeated .BKGHEPDLIKH level_info_list = 8;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.BKGHEPDLIKHOuterClass.BKGHEPDLIKHOrBuilder> 
            getLevelInfoListOrBuilderList() {
@@ -1091,14 +1091,14 @@ public final class PhotoUnderseaDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BKGHEPDLIKH level_info_list = 10;</code>
+       * <code>repeated .BKGHEPDLIKH level_info_list = 8;</code>
        */
       public emu.grasscutter.net.proto.BKGHEPDLIKHOuterClass.BKGHEPDLIKH.Builder addLevelInfoListBuilder() {
         return getLevelInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.BKGHEPDLIKHOuterClass.BKGHEPDLIKH.getDefaultInstance());
       }
       /**
-       * <code>repeated .BKGHEPDLIKH level_info_list = 10;</code>
+       * <code>repeated .BKGHEPDLIKH level_info_list = 8;</code>
        */
       public emu.grasscutter.net.proto.BKGHEPDLIKHOuterClass.BKGHEPDLIKH.Builder addLevelInfoListBuilder(
           int index) {
@@ -1106,7 +1106,7 @@ public final class PhotoUnderseaDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.BKGHEPDLIKHOuterClass.BKGHEPDLIKH.getDefaultInstance());
       }
       /**
-       * <code>repeated .BKGHEPDLIKH level_info_list = 10;</code>
+       * <code>repeated .BKGHEPDLIKH level_info_list = 8;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.BKGHEPDLIKHOuterClass.BKGHEPDLIKH.Builder> 
            getLevelInfoListBuilderList() {
@@ -1195,8 +1195,8 @@ public final class PhotoUnderseaDetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\035PhotoUnderseaDetailInfo.proto\032\021BKGHEPD" +
       "LIKH.proto\032\021FPKKPDDNKHE.proto\"h\n\027PhotoUn" +
-      "derseaDetailInfo\022&\n\020object_info_list\030\010 \003" +
-      "(\0132\014.FPKKPDDNKHE\022%\n\017level_info_list\030\n \003(" +
+      "derseaDetailInfo\022&\n\020object_info_list\030\n \003" +
+      "(\0132\014.FPKKPDDNKHE\022%\n\017level_info_list\030\010 \003(" +
       "\0132\014.BKGHEPDLIKHB>\n\031emu.grasscutter.net.p" +
       "rotoB!PhotoUnderseaDetailInfoOuterClassb" +
       "\006proto3"

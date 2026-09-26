@@ -19,47 +19,47 @@ public final class CeremonyDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.MHENKMCEHHJ battle_info = 5;</code>
+     * <code>.MHENKMCEHHJ battle_info = 2;</code>
      * @return Whether the battleInfo field is set.
      */
     boolean hasBattleInfo();
     /**
-     * <code>.MHENKMCEHHJ battle_info = 5;</code>
+     * <code>.MHENKMCEHHJ battle_info = 2;</code>
      * @return The battleInfo.
      */
     emu.grasscutter.net.proto.MHENKMCEHHJOuterClass.MHENKMCEHHJ getBattleInfo();
     /**
-     * <code>.MHENKMCEHHJ battle_info = 5;</code>
+     * <code>.MHENKMCEHHJ battle_info = 2;</code>
      */
     emu.grasscutter.net.proto.MHENKMCEHHJOuterClass.MHENKMCEHHJOrBuilder getBattleInfoOrBuilder();
 
     /**
-     * <code>.PDKKLGIEJCN PMPNJDABMKM = 7;</code>
+     * <code>.PDKKLGIEJCN PMPNJDABMKM = 50000;</code>
      * @return Whether the pMPNJDABMKM field is set.
      */
     boolean hasPMPNJDABMKM();
     /**
-     * <code>.PDKKLGIEJCN PMPNJDABMKM = 7;</code>
+     * <code>.PDKKLGIEJCN PMPNJDABMKM = 50000;</code>
      * @return The pMPNJDABMKM.
      */
     emu.grasscutter.net.proto.PDKKLGIEJCNOuterClass.PDKKLGIEJCN getPMPNJDABMKM();
     /**
-     * <code>.PDKKLGIEJCN PMPNJDABMKM = 7;</code>
+     * <code>.PDKKLGIEJCN PMPNJDABMKM = 50000;</code>
      */
     emu.grasscutter.net.proto.PDKKLGIEJCNOuterClass.PDKKLGIEJCNOrBuilder getPMPNJDABMKMOrBuilder();
 
     /**
-     * <code>.EJIGDIIFDBI MFNFNCFKEHO = 10;</code>
+     * <code>.EJIGDIIFDBI MFNFNCFKEHO = 50001;</code>
      * @return Whether the mFNFNCFKEHO field is set.
      */
     boolean hasMFNFNCFKEHO();
     /**
-     * <code>.EJIGDIIFDBI MFNFNCFKEHO = 10;</code>
+     * <code>.EJIGDIIFDBI MFNFNCFKEHO = 50001;</code>
      * @return The mFNFNCFKEHO.
      */
     emu.grasscutter.net.proto.EJIGDIIFDBIOuterClass.EJIGDIIFDBI getMFNFNCFKEHO();
     /**
-     * <code>.EJIGDIIFDBI MFNFNCFKEHO = 10;</code>
+     * <code>.EJIGDIIFDBI MFNFNCFKEHO = 50001;</code>
      */
     emu.grasscutter.net.proto.EJIGDIIFDBIOuterClass.EJIGDIIFDBIOrBuilder getMFNFNCFKEHOOrBuilder();
   }
@@ -108,7 +108,7 @@ public final class CeremonyDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 42: {
+            case 18: {
               emu.grasscutter.net.proto.MHENKMCEHHJOuterClass.MHENKMCEHHJ.Builder subBuilder = null;
               if (battleInfo_ != null) {
                 subBuilder = battleInfo_.toBuilder();
@@ -121,7 +121,7 @@ public final class CeremonyDetailInfoOuterClass {
 
               break;
             }
-            case 58: {
+            case 400002: {
               emu.grasscutter.net.proto.PDKKLGIEJCNOuterClass.PDKKLGIEJCN.Builder subBuilder = null;
               if (pMPNJDABMKM_ != null) {
                 subBuilder = pMPNJDABMKM_.toBuilder();
@@ -134,7 +134,7 @@ public final class CeremonyDetailInfoOuterClass {
 
               break;
             }
-            case 82: {
+            case 400010: {
               emu.grasscutter.net.proto.EJIGDIIFDBIOuterClass.EJIGDIIFDBI.Builder subBuilder = null;
               if (mFNFNCFKEHO_ != null) {
                 subBuilder = mFNFNCFKEHO_.toBuilder();
@@ -179,10 +179,10 @@ public final class CeremonyDetailInfoOuterClass {
               emu.grasscutter.net.proto.CeremonyDetailInfoOuterClass.CeremonyDetailInfo.class, emu.grasscutter.net.proto.CeremonyDetailInfoOuterClass.CeremonyDetailInfo.Builder.class);
     }
 
-    public static final int BATTLE_INFO_FIELD_NUMBER = 5;
+    public static final int BATTLE_INFO_FIELD_NUMBER = 2;
     private emu.grasscutter.net.proto.MHENKMCEHHJOuterClass.MHENKMCEHHJ battleInfo_;
     /**
-     * <code>.MHENKMCEHHJ battle_info = 5;</code>
+     * <code>.MHENKMCEHHJ battle_info = 2;</code>
      * @return Whether the battleInfo field is set.
      */
     @java.lang.Override
@@ -190,7 +190,7 @@ public final class CeremonyDetailInfoOuterClass {
       return battleInfo_ != null;
     }
     /**
-     * <code>.MHENKMCEHHJ battle_info = 5;</code>
+     * <code>.MHENKMCEHHJ battle_info = 2;</code>
      * @return The battleInfo.
      */
     @java.lang.Override
@@ -198,17 +198,17 @@ public final class CeremonyDetailInfoOuterClass {
       return battleInfo_ == null ? emu.grasscutter.net.proto.MHENKMCEHHJOuterClass.MHENKMCEHHJ.getDefaultInstance() : battleInfo_;
     }
     /**
-     * <code>.MHENKMCEHHJ battle_info = 5;</code>
+     * <code>.MHENKMCEHHJ battle_info = 2;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.MHENKMCEHHJOuterClass.MHENKMCEHHJOrBuilder getBattleInfoOrBuilder() {
       return getBattleInfo();
     }
 
-    public static final int PMPNJDABMKM_FIELD_NUMBER = 7;
+    public static final int PMPNJDABMKM_FIELD_NUMBER = 50000;
     private emu.grasscutter.net.proto.PDKKLGIEJCNOuterClass.PDKKLGIEJCN pMPNJDABMKM_;
     /**
-     * <code>.PDKKLGIEJCN PMPNJDABMKM = 7;</code>
+     * <code>.PDKKLGIEJCN PMPNJDABMKM = 50000;</code>
      * @return Whether the pMPNJDABMKM field is set.
      */
     @java.lang.Override
@@ -216,7 +216,7 @@ public final class CeremonyDetailInfoOuterClass {
       return pMPNJDABMKM_ != null;
     }
     /**
-     * <code>.PDKKLGIEJCN PMPNJDABMKM = 7;</code>
+     * <code>.PDKKLGIEJCN PMPNJDABMKM = 50000;</code>
      * @return The pMPNJDABMKM.
      */
     @java.lang.Override
@@ -224,17 +224,17 @@ public final class CeremonyDetailInfoOuterClass {
       return pMPNJDABMKM_ == null ? emu.grasscutter.net.proto.PDKKLGIEJCNOuterClass.PDKKLGIEJCN.getDefaultInstance() : pMPNJDABMKM_;
     }
     /**
-     * <code>.PDKKLGIEJCN PMPNJDABMKM = 7;</code>
+     * <code>.PDKKLGIEJCN PMPNJDABMKM = 50000;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.PDKKLGIEJCNOuterClass.PDKKLGIEJCNOrBuilder getPMPNJDABMKMOrBuilder() {
       return getPMPNJDABMKM();
     }
 
-    public static final int MFNFNCFKEHO_FIELD_NUMBER = 10;
+    public static final int MFNFNCFKEHO_FIELD_NUMBER = 50001;
     private emu.grasscutter.net.proto.EJIGDIIFDBIOuterClass.EJIGDIIFDBI mFNFNCFKEHO_;
     /**
-     * <code>.EJIGDIIFDBI MFNFNCFKEHO = 10;</code>
+     * <code>.EJIGDIIFDBI MFNFNCFKEHO = 50001;</code>
      * @return Whether the mFNFNCFKEHO field is set.
      */
     @java.lang.Override
@@ -242,7 +242,7 @@ public final class CeremonyDetailInfoOuterClass {
       return mFNFNCFKEHO_ != null;
     }
     /**
-     * <code>.EJIGDIIFDBI MFNFNCFKEHO = 10;</code>
+     * <code>.EJIGDIIFDBI MFNFNCFKEHO = 50001;</code>
      * @return The mFNFNCFKEHO.
      */
     @java.lang.Override
@@ -250,7 +250,7 @@ public final class CeremonyDetailInfoOuterClass {
       return mFNFNCFKEHO_ == null ? emu.grasscutter.net.proto.EJIGDIIFDBIOuterClass.EJIGDIIFDBI.getDefaultInstance() : mFNFNCFKEHO_;
     }
     /**
-     * <code>.EJIGDIIFDBI MFNFNCFKEHO = 10;</code>
+     * <code>.EJIGDIIFDBI MFNFNCFKEHO = 50001;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.EJIGDIIFDBIOuterClass.EJIGDIIFDBIOrBuilder getMFNFNCFKEHOOrBuilder() {
@@ -272,13 +272,13 @@ public final class CeremonyDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (battleInfo_ != null) {
-        output.writeMessage(5, getBattleInfo());
+        output.writeMessage(2, getBattleInfo());
       }
       if (pMPNJDABMKM_ != null) {
-        output.writeMessage(7, getPMPNJDABMKM());
+        output.writeMessage(50000, getPMPNJDABMKM());
       }
       if (mFNFNCFKEHO_ != null) {
-        output.writeMessage(10, getMFNFNCFKEHO());
+        output.writeMessage(50001, getMFNFNCFKEHO());
       }
       unknownFields.writeTo(output);
     }
@@ -291,15 +291,15 @@ public final class CeremonyDetailInfoOuterClass {
       size = 0;
       if (battleInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, getBattleInfo());
+          .computeMessageSize(2, getBattleInfo());
       }
       if (pMPNJDABMKM_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, getPMPNJDABMKM());
+          .computeMessageSize(50000, getPMPNJDABMKM());
       }
       if (mFNFNCFKEHO_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, getMFNFNCFKEHO());
+          .computeMessageSize(50001, getMFNFNCFKEHO());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -636,14 +636,14 @@ public final class CeremonyDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.MHENKMCEHHJOuterClass.MHENKMCEHHJ, emu.grasscutter.net.proto.MHENKMCEHHJOuterClass.MHENKMCEHHJ.Builder, emu.grasscutter.net.proto.MHENKMCEHHJOuterClass.MHENKMCEHHJOrBuilder> battleInfoBuilder_;
       /**
-       * <code>.MHENKMCEHHJ battle_info = 5;</code>
+       * <code>.MHENKMCEHHJ battle_info = 2;</code>
        * @return Whether the battleInfo field is set.
        */
       public boolean hasBattleInfo() {
         return battleInfoBuilder_ != null || battleInfo_ != null;
       }
       /**
-       * <code>.MHENKMCEHHJ battle_info = 5;</code>
+       * <code>.MHENKMCEHHJ battle_info = 2;</code>
        * @return The battleInfo.
        */
       public emu.grasscutter.net.proto.MHENKMCEHHJOuterClass.MHENKMCEHHJ getBattleInfo() {
@@ -654,7 +654,7 @@ public final class CeremonyDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.MHENKMCEHHJ battle_info = 5;</code>
+       * <code>.MHENKMCEHHJ battle_info = 2;</code>
        */
       public Builder setBattleInfo(emu.grasscutter.net.proto.MHENKMCEHHJOuterClass.MHENKMCEHHJ value) {
         if (battleInfoBuilder_ == null) {
@@ -670,7 +670,7 @@ public final class CeremonyDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.MHENKMCEHHJ battle_info = 5;</code>
+       * <code>.MHENKMCEHHJ battle_info = 2;</code>
        */
       public Builder setBattleInfo(
           emu.grasscutter.net.proto.MHENKMCEHHJOuterClass.MHENKMCEHHJ.Builder builderForValue) {
@@ -684,7 +684,7 @@ public final class CeremonyDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.MHENKMCEHHJ battle_info = 5;</code>
+       * <code>.MHENKMCEHHJ battle_info = 2;</code>
        */
       public Builder mergeBattleInfo(emu.grasscutter.net.proto.MHENKMCEHHJOuterClass.MHENKMCEHHJ value) {
         if (battleInfoBuilder_ == null) {
@@ -702,7 +702,7 @@ public final class CeremonyDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.MHENKMCEHHJ battle_info = 5;</code>
+       * <code>.MHENKMCEHHJ battle_info = 2;</code>
        */
       public Builder clearBattleInfo() {
         if (battleInfoBuilder_ == null) {
@@ -716,7 +716,7 @@ public final class CeremonyDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.MHENKMCEHHJ battle_info = 5;</code>
+       * <code>.MHENKMCEHHJ battle_info = 2;</code>
        */
       public emu.grasscutter.net.proto.MHENKMCEHHJOuterClass.MHENKMCEHHJ.Builder getBattleInfoBuilder() {
         
@@ -724,7 +724,7 @@ public final class CeremonyDetailInfoOuterClass {
         return getBattleInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>.MHENKMCEHHJ battle_info = 5;</code>
+       * <code>.MHENKMCEHHJ battle_info = 2;</code>
        */
       public emu.grasscutter.net.proto.MHENKMCEHHJOuterClass.MHENKMCEHHJOrBuilder getBattleInfoOrBuilder() {
         if (battleInfoBuilder_ != null) {
@@ -735,7 +735,7 @@ public final class CeremonyDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.MHENKMCEHHJ battle_info = 5;</code>
+       * <code>.MHENKMCEHHJ battle_info = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.MHENKMCEHHJOuterClass.MHENKMCEHHJ, emu.grasscutter.net.proto.MHENKMCEHHJOuterClass.MHENKMCEHHJ.Builder, emu.grasscutter.net.proto.MHENKMCEHHJOuterClass.MHENKMCEHHJOrBuilder> 
@@ -755,14 +755,14 @@ public final class CeremonyDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.PDKKLGIEJCNOuterClass.PDKKLGIEJCN, emu.grasscutter.net.proto.PDKKLGIEJCNOuterClass.PDKKLGIEJCN.Builder, emu.grasscutter.net.proto.PDKKLGIEJCNOuterClass.PDKKLGIEJCNOrBuilder> pMPNJDABMKMBuilder_;
       /**
-       * <code>.PDKKLGIEJCN PMPNJDABMKM = 7;</code>
+       * <code>.PDKKLGIEJCN PMPNJDABMKM = 50000;</code>
        * @return Whether the pMPNJDABMKM field is set.
        */
       public boolean hasPMPNJDABMKM() {
         return pMPNJDABMKMBuilder_ != null || pMPNJDABMKM_ != null;
       }
       /**
-       * <code>.PDKKLGIEJCN PMPNJDABMKM = 7;</code>
+       * <code>.PDKKLGIEJCN PMPNJDABMKM = 50000;</code>
        * @return The pMPNJDABMKM.
        */
       public emu.grasscutter.net.proto.PDKKLGIEJCNOuterClass.PDKKLGIEJCN getPMPNJDABMKM() {
@@ -773,7 +773,7 @@ public final class CeremonyDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.PDKKLGIEJCN PMPNJDABMKM = 7;</code>
+       * <code>.PDKKLGIEJCN PMPNJDABMKM = 50000;</code>
        */
       public Builder setPMPNJDABMKM(emu.grasscutter.net.proto.PDKKLGIEJCNOuterClass.PDKKLGIEJCN value) {
         if (pMPNJDABMKMBuilder_ == null) {
@@ -789,7 +789,7 @@ public final class CeremonyDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.PDKKLGIEJCN PMPNJDABMKM = 7;</code>
+       * <code>.PDKKLGIEJCN PMPNJDABMKM = 50000;</code>
        */
       public Builder setPMPNJDABMKM(
           emu.grasscutter.net.proto.PDKKLGIEJCNOuterClass.PDKKLGIEJCN.Builder builderForValue) {
@@ -803,7 +803,7 @@ public final class CeremonyDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.PDKKLGIEJCN PMPNJDABMKM = 7;</code>
+       * <code>.PDKKLGIEJCN PMPNJDABMKM = 50000;</code>
        */
       public Builder mergePMPNJDABMKM(emu.grasscutter.net.proto.PDKKLGIEJCNOuterClass.PDKKLGIEJCN value) {
         if (pMPNJDABMKMBuilder_ == null) {
@@ -821,7 +821,7 @@ public final class CeremonyDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.PDKKLGIEJCN PMPNJDABMKM = 7;</code>
+       * <code>.PDKKLGIEJCN PMPNJDABMKM = 50000;</code>
        */
       public Builder clearPMPNJDABMKM() {
         if (pMPNJDABMKMBuilder_ == null) {
@@ -835,7 +835,7 @@ public final class CeremonyDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.PDKKLGIEJCN PMPNJDABMKM = 7;</code>
+       * <code>.PDKKLGIEJCN PMPNJDABMKM = 50000;</code>
        */
       public emu.grasscutter.net.proto.PDKKLGIEJCNOuterClass.PDKKLGIEJCN.Builder getPMPNJDABMKMBuilder() {
         
@@ -843,7 +843,7 @@ public final class CeremonyDetailInfoOuterClass {
         return getPMPNJDABMKMFieldBuilder().getBuilder();
       }
       /**
-       * <code>.PDKKLGIEJCN PMPNJDABMKM = 7;</code>
+       * <code>.PDKKLGIEJCN PMPNJDABMKM = 50000;</code>
        */
       public emu.grasscutter.net.proto.PDKKLGIEJCNOuterClass.PDKKLGIEJCNOrBuilder getPMPNJDABMKMOrBuilder() {
         if (pMPNJDABMKMBuilder_ != null) {
@@ -854,7 +854,7 @@ public final class CeremonyDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.PDKKLGIEJCN PMPNJDABMKM = 7;</code>
+       * <code>.PDKKLGIEJCN PMPNJDABMKM = 50000;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.PDKKLGIEJCNOuterClass.PDKKLGIEJCN, emu.grasscutter.net.proto.PDKKLGIEJCNOuterClass.PDKKLGIEJCN.Builder, emu.grasscutter.net.proto.PDKKLGIEJCNOuterClass.PDKKLGIEJCNOrBuilder> 
@@ -874,14 +874,14 @@ public final class CeremonyDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.EJIGDIIFDBIOuterClass.EJIGDIIFDBI, emu.grasscutter.net.proto.EJIGDIIFDBIOuterClass.EJIGDIIFDBI.Builder, emu.grasscutter.net.proto.EJIGDIIFDBIOuterClass.EJIGDIIFDBIOrBuilder> mFNFNCFKEHOBuilder_;
       /**
-       * <code>.EJIGDIIFDBI MFNFNCFKEHO = 10;</code>
+       * <code>.EJIGDIIFDBI MFNFNCFKEHO = 50001;</code>
        * @return Whether the mFNFNCFKEHO field is set.
        */
       public boolean hasMFNFNCFKEHO() {
         return mFNFNCFKEHOBuilder_ != null || mFNFNCFKEHO_ != null;
       }
       /**
-       * <code>.EJIGDIIFDBI MFNFNCFKEHO = 10;</code>
+       * <code>.EJIGDIIFDBI MFNFNCFKEHO = 50001;</code>
        * @return The mFNFNCFKEHO.
        */
       public emu.grasscutter.net.proto.EJIGDIIFDBIOuterClass.EJIGDIIFDBI getMFNFNCFKEHO() {
@@ -892,7 +892,7 @@ public final class CeremonyDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.EJIGDIIFDBI MFNFNCFKEHO = 10;</code>
+       * <code>.EJIGDIIFDBI MFNFNCFKEHO = 50001;</code>
        */
       public Builder setMFNFNCFKEHO(emu.grasscutter.net.proto.EJIGDIIFDBIOuterClass.EJIGDIIFDBI value) {
         if (mFNFNCFKEHOBuilder_ == null) {
@@ -908,7 +908,7 @@ public final class CeremonyDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.EJIGDIIFDBI MFNFNCFKEHO = 10;</code>
+       * <code>.EJIGDIIFDBI MFNFNCFKEHO = 50001;</code>
        */
       public Builder setMFNFNCFKEHO(
           emu.grasscutter.net.proto.EJIGDIIFDBIOuterClass.EJIGDIIFDBI.Builder builderForValue) {
@@ -922,7 +922,7 @@ public final class CeremonyDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.EJIGDIIFDBI MFNFNCFKEHO = 10;</code>
+       * <code>.EJIGDIIFDBI MFNFNCFKEHO = 50001;</code>
        */
       public Builder mergeMFNFNCFKEHO(emu.grasscutter.net.proto.EJIGDIIFDBIOuterClass.EJIGDIIFDBI value) {
         if (mFNFNCFKEHOBuilder_ == null) {
@@ -940,7 +940,7 @@ public final class CeremonyDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.EJIGDIIFDBI MFNFNCFKEHO = 10;</code>
+       * <code>.EJIGDIIFDBI MFNFNCFKEHO = 50001;</code>
        */
       public Builder clearMFNFNCFKEHO() {
         if (mFNFNCFKEHOBuilder_ == null) {
@@ -954,7 +954,7 @@ public final class CeremonyDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.EJIGDIIFDBI MFNFNCFKEHO = 10;</code>
+       * <code>.EJIGDIIFDBI MFNFNCFKEHO = 50001;</code>
        */
       public emu.grasscutter.net.proto.EJIGDIIFDBIOuterClass.EJIGDIIFDBI.Builder getMFNFNCFKEHOBuilder() {
         
@@ -962,7 +962,7 @@ public final class CeremonyDetailInfoOuterClass {
         return getMFNFNCFKEHOFieldBuilder().getBuilder();
       }
       /**
-       * <code>.EJIGDIIFDBI MFNFNCFKEHO = 10;</code>
+       * <code>.EJIGDIIFDBI MFNFNCFKEHO = 50001;</code>
        */
       public emu.grasscutter.net.proto.EJIGDIIFDBIOuterClass.EJIGDIIFDBIOrBuilder getMFNFNCFKEHOOrBuilder() {
         if (mFNFNCFKEHOBuilder_ != null) {
@@ -973,7 +973,7 @@ public final class CeremonyDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.EJIGDIIFDBI MFNFNCFKEHO = 10;</code>
+       * <code>.EJIGDIIFDBI MFNFNCFKEHO = 50001;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.EJIGDIIFDBIOuterClass.EJIGDIIFDBI, emu.grasscutter.net.proto.EJIGDIIFDBIOuterClass.EJIGDIIFDBI.Builder, emu.grasscutter.net.proto.EJIGDIIFDBIOuterClass.EJIGDIIFDBIOrBuilder> 
@@ -1057,11 +1057,12 @@ public final class CeremonyDetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\030CeremonyDetailInfo.proto\032\021EJIGDIIFDBI." +
       "proto\032\021MHENKMCEHHJ.proto\032\021PDKKLGIEJCN.pr" +
-      "oto\"}\n\022CeremonyDetailInfo\022!\n\013battle_info" +
-      "\030\005 \001(\0132\014.MHENKMCEHHJ\022!\n\013PMPNJDABMKM\030\007 \001(" +
-      "\0132\014.PDKKLGIEJCN\022!\n\013MFNFNCFKEHO\030\n \001(\0132\014.E" +
-      "JIGDIIFDBIB9\n\031emu.grasscutter.net.protoB" +
-      "\034CeremonyDetailInfoOuterClassb\006proto3"
+      "oto\"\201\001\n\022CeremonyDetailInfo\022!\n\013battle_inf" +
+      "o\030\002 \001(\0132\014.MHENKMCEHHJ\022#\n\013PMPNJDABMKM\030\320\206\003" +
+      " \001(\0132\014.PDKKLGIEJCN\022#\n\013MFNFNCFKEHO\030\321\206\003 \001(" +
+      "\0132\014.EJIGDIIFDBIB9\n\031emu.grasscutter.net.p" +
+      "rotoB\034CeremonyDetailInfoOuterClassb\006prot" +
+      "o3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

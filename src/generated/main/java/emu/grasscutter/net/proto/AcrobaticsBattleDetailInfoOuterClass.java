@@ -19,25 +19,25 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .NDPGIKHKOHF stage_info_list = 15;</code>
+     * <code>repeated .NDPGIKHKOHF stage_info_list = 5;</code>
      */
     java.util.List<emu.grasscutter.net.proto.NDPGIKHKOHFOuterClass.NDPGIKHKOHF> 
         getStageInfoListList();
     /**
-     * <code>repeated .NDPGIKHKOHF stage_info_list = 15;</code>
+     * <code>repeated .NDPGIKHKOHF stage_info_list = 5;</code>
      */
     emu.grasscutter.net.proto.NDPGIKHKOHFOuterClass.NDPGIKHKOHF getStageInfoList(int index);
     /**
-     * <code>repeated .NDPGIKHKOHF stage_info_list = 15;</code>
+     * <code>repeated .NDPGIKHKOHF stage_info_list = 5;</code>
      */
     int getStageInfoListCount();
     /**
-     * <code>repeated .NDPGIKHKOHF stage_info_list = 15;</code>
+     * <code>repeated .NDPGIKHKOHF stage_info_list = 5;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.NDPGIKHKOHFOuterClass.NDPGIKHKOHFOrBuilder> 
         getStageInfoListOrBuilderList();
     /**
-     * <code>repeated .NDPGIKHKOHF stage_info_list = 15;</code>
+     * <code>repeated .NDPGIKHKOHF stage_info_list = 5;</code>
      */
     emu.grasscutter.net.proto.NDPGIKHKOHFOuterClass.NDPGIKHKOHFOrBuilder getStageInfoListOrBuilder(
         int index);
@@ -89,7 +89,7 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 122: {
+            case 42: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 stageInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.NDPGIKHKOHFOuterClass.NDPGIKHKOHF>();
                 mutable_bitField0_ |= 0x00000001;
@@ -133,17 +133,17 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
               emu.grasscutter.net.proto.AcrobaticsBattleDetailInfoOuterClass.AcrobaticsBattleDetailInfo.class, emu.grasscutter.net.proto.AcrobaticsBattleDetailInfoOuterClass.AcrobaticsBattleDetailInfo.Builder.class);
     }
 
-    public static final int STAGE_INFO_LIST_FIELD_NUMBER = 15;
+    public static final int STAGE_INFO_LIST_FIELD_NUMBER = 5;
     private java.util.List<emu.grasscutter.net.proto.NDPGIKHKOHFOuterClass.NDPGIKHKOHF> stageInfoList_;
     /**
-     * <code>repeated .NDPGIKHKOHF stage_info_list = 15;</code>
+     * <code>repeated .NDPGIKHKOHF stage_info_list = 5;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.NDPGIKHKOHFOuterClass.NDPGIKHKOHF> getStageInfoListList() {
       return stageInfoList_;
     }
     /**
-     * <code>repeated .NDPGIKHKOHF stage_info_list = 15;</code>
+     * <code>repeated .NDPGIKHKOHF stage_info_list = 5;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.NDPGIKHKOHFOuterClass.NDPGIKHKOHFOrBuilder> 
@@ -151,21 +151,21 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
       return stageInfoList_;
     }
     /**
-     * <code>repeated .NDPGIKHKOHF stage_info_list = 15;</code>
+     * <code>repeated .NDPGIKHKOHF stage_info_list = 5;</code>
      */
     @java.lang.Override
     public int getStageInfoListCount() {
       return stageInfoList_.size();
     }
     /**
-     * <code>repeated .NDPGIKHKOHF stage_info_list = 15;</code>
+     * <code>repeated .NDPGIKHKOHF stage_info_list = 5;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.NDPGIKHKOHFOuterClass.NDPGIKHKOHF getStageInfoList(int index) {
       return stageInfoList_.get(index);
     }
     /**
-     * <code>repeated .NDPGIKHKOHF stage_info_list = 15;</code>
+     * <code>repeated .NDPGIKHKOHF stage_info_list = 5;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.NDPGIKHKOHFOuterClass.NDPGIKHKOHFOrBuilder getStageInfoListOrBuilder(
@@ -188,7 +188,7 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < stageInfoList_.size(); i++) {
-        output.writeMessage(15, stageInfoList_.get(i));
+        output.writeMessage(5, stageInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -201,7 +201,7 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
       size = 0;
       for (int i = 0; i < stageInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, stageInfoList_.get(i));
+          .computeMessageSize(5, stageInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -528,7 +528,7 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
           emu.grasscutter.net.proto.NDPGIKHKOHFOuterClass.NDPGIKHKOHF, emu.grasscutter.net.proto.NDPGIKHKOHFOuterClass.NDPGIKHKOHF.Builder, emu.grasscutter.net.proto.NDPGIKHKOHFOuterClass.NDPGIKHKOHFOrBuilder> stageInfoListBuilder_;
 
       /**
-       * <code>repeated .NDPGIKHKOHF stage_info_list = 15;</code>
+       * <code>repeated .NDPGIKHKOHF stage_info_list = 5;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.NDPGIKHKOHFOuterClass.NDPGIKHKOHF> getStageInfoListList() {
         if (stageInfoListBuilder_ == null) {
@@ -538,7 +538,7 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .NDPGIKHKOHF stage_info_list = 15;</code>
+       * <code>repeated .NDPGIKHKOHF stage_info_list = 5;</code>
        */
       public int getStageInfoListCount() {
         if (stageInfoListBuilder_ == null) {
@@ -548,7 +548,7 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .NDPGIKHKOHF stage_info_list = 15;</code>
+       * <code>repeated .NDPGIKHKOHF stage_info_list = 5;</code>
        */
       public emu.grasscutter.net.proto.NDPGIKHKOHFOuterClass.NDPGIKHKOHF getStageInfoList(int index) {
         if (stageInfoListBuilder_ == null) {
@@ -558,7 +558,7 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .NDPGIKHKOHF stage_info_list = 15;</code>
+       * <code>repeated .NDPGIKHKOHF stage_info_list = 5;</code>
        */
       public Builder setStageInfoList(
           int index, emu.grasscutter.net.proto.NDPGIKHKOHFOuterClass.NDPGIKHKOHF value) {
@@ -575,7 +575,7 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NDPGIKHKOHF stage_info_list = 15;</code>
+       * <code>repeated .NDPGIKHKOHF stage_info_list = 5;</code>
        */
       public Builder setStageInfoList(
           int index, emu.grasscutter.net.proto.NDPGIKHKOHFOuterClass.NDPGIKHKOHF.Builder builderForValue) {
@@ -589,7 +589,7 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NDPGIKHKOHF stage_info_list = 15;</code>
+       * <code>repeated .NDPGIKHKOHF stage_info_list = 5;</code>
        */
       public Builder addStageInfoList(emu.grasscutter.net.proto.NDPGIKHKOHFOuterClass.NDPGIKHKOHF value) {
         if (stageInfoListBuilder_ == null) {
@@ -605,7 +605,7 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NDPGIKHKOHF stage_info_list = 15;</code>
+       * <code>repeated .NDPGIKHKOHF stage_info_list = 5;</code>
        */
       public Builder addStageInfoList(
           int index, emu.grasscutter.net.proto.NDPGIKHKOHFOuterClass.NDPGIKHKOHF value) {
@@ -622,7 +622,7 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NDPGIKHKOHF stage_info_list = 15;</code>
+       * <code>repeated .NDPGIKHKOHF stage_info_list = 5;</code>
        */
       public Builder addStageInfoList(
           emu.grasscutter.net.proto.NDPGIKHKOHFOuterClass.NDPGIKHKOHF.Builder builderForValue) {
@@ -636,7 +636,7 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NDPGIKHKOHF stage_info_list = 15;</code>
+       * <code>repeated .NDPGIKHKOHF stage_info_list = 5;</code>
        */
       public Builder addStageInfoList(
           int index, emu.grasscutter.net.proto.NDPGIKHKOHFOuterClass.NDPGIKHKOHF.Builder builderForValue) {
@@ -650,7 +650,7 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NDPGIKHKOHF stage_info_list = 15;</code>
+       * <code>repeated .NDPGIKHKOHF stage_info_list = 5;</code>
        */
       public Builder addAllStageInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.NDPGIKHKOHFOuterClass.NDPGIKHKOHF> values) {
@@ -665,7 +665,7 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NDPGIKHKOHF stage_info_list = 15;</code>
+       * <code>repeated .NDPGIKHKOHF stage_info_list = 5;</code>
        */
       public Builder clearStageInfoList() {
         if (stageInfoListBuilder_ == null) {
@@ -678,7 +678,7 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NDPGIKHKOHF stage_info_list = 15;</code>
+       * <code>repeated .NDPGIKHKOHF stage_info_list = 5;</code>
        */
       public Builder removeStageInfoList(int index) {
         if (stageInfoListBuilder_ == null) {
@@ -691,14 +691,14 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NDPGIKHKOHF stage_info_list = 15;</code>
+       * <code>repeated .NDPGIKHKOHF stage_info_list = 5;</code>
        */
       public emu.grasscutter.net.proto.NDPGIKHKOHFOuterClass.NDPGIKHKOHF.Builder getStageInfoListBuilder(
           int index) {
         return getStageInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .NDPGIKHKOHF stage_info_list = 15;</code>
+       * <code>repeated .NDPGIKHKOHF stage_info_list = 5;</code>
        */
       public emu.grasscutter.net.proto.NDPGIKHKOHFOuterClass.NDPGIKHKOHFOrBuilder getStageInfoListOrBuilder(
           int index) {
@@ -708,7 +708,7 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .NDPGIKHKOHF stage_info_list = 15;</code>
+       * <code>repeated .NDPGIKHKOHF stage_info_list = 5;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.NDPGIKHKOHFOuterClass.NDPGIKHKOHFOrBuilder> 
            getStageInfoListOrBuilderList() {
@@ -719,14 +719,14 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .NDPGIKHKOHF stage_info_list = 15;</code>
+       * <code>repeated .NDPGIKHKOHF stage_info_list = 5;</code>
        */
       public emu.grasscutter.net.proto.NDPGIKHKOHFOuterClass.NDPGIKHKOHF.Builder addStageInfoListBuilder() {
         return getStageInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.NDPGIKHKOHFOuterClass.NDPGIKHKOHF.getDefaultInstance());
       }
       /**
-       * <code>repeated .NDPGIKHKOHF stage_info_list = 15;</code>
+       * <code>repeated .NDPGIKHKOHF stage_info_list = 5;</code>
        */
       public emu.grasscutter.net.proto.NDPGIKHKOHFOuterClass.NDPGIKHKOHF.Builder addStageInfoListBuilder(
           int index) {
@@ -734,7 +734,7 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.NDPGIKHKOHFOuterClass.NDPGIKHKOHF.getDefaultInstance());
       }
       /**
-       * <code>repeated .NDPGIKHKOHF stage_info_list = 15;</code>
+       * <code>repeated .NDPGIKHKOHF stage_info_list = 5;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.NDPGIKHKOHFOuterClass.NDPGIKHKOHF.Builder> 
            getStageInfoListBuilderList() {
@@ -823,7 +823,7 @@ public final class AcrobaticsBattleDetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n AcrobaticsBattleDetailInfo.proto\032\021NDPG" +
       "IKHKOHF.proto\"C\n\032AcrobaticsBattleDetailI" +
-      "nfo\022%\n\017stage_info_list\030\017 \003(\0132\014.NDPGIKHKO" +
+      "nfo\022%\n\017stage_info_list\030\005 \003(\0132\014.NDPGIKHKO" +
       "HFBA\n\031emu.grasscutter.net.protoB$Acrobat" +
       "icsBattleDetailInfoOuterClassb\006proto3"
     };

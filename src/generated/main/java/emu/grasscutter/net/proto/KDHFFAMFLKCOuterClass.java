@@ -19,25 +19,25 @@ public final class KDHFFAMFLKCOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 DNIBBKLBBJE = 1;</code>
+     * <code>uint32 DNIBBKLBBJE = 4;</code>
      * @return The dNIBBKLBBJE.
      */
     int getDNIBBKLBBJE();
 
     /**
-     * <code>uint32 rotation = 5;</code>
+     * <code>uint32 rotation = 14;</code>
      * @return The rotation.
      */
     int getRotation();
 
     /**
-     * <code>uint32 LAPJDMHDDIP = 8;</code>
+     * <code>uint32 LAPJDMHDDIP = 50000;</code>
      * @return The lAPJDMHDDIP.
      */
     int getLAPJDMHDDIP();
 
     /**
-     * <code>uint32 MHFDNNEMNJB = 12;</code>
+     * <code>uint32 MHFDNNEMNJB = 50001;</code>
      * @return The mHFDNNEMNJB.
      */
     int getMHFDNNEMNJB();
@@ -87,22 +87,22 @@ public final class KDHFFAMFLKCOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 32: {
 
               dNIBBKLBBJE_ = input.readUInt32();
               break;
             }
-            case 40: {
+            case 112: {
 
               rotation_ = input.readUInt32();
               break;
             }
-            case 64: {
+            case 400000: {
 
               lAPJDMHDDIP_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 400008: {
 
               mHFDNNEMNJB_ = input.readUInt32();
               break;
@@ -139,10 +139,10 @@ public final class KDHFFAMFLKCOuterClass {
               emu.grasscutter.net.proto.KDHFFAMFLKCOuterClass.KDHFFAMFLKC.class, emu.grasscutter.net.proto.KDHFFAMFLKCOuterClass.KDHFFAMFLKC.Builder.class);
     }
 
-    public static final int DNIBBKLBBJE_FIELD_NUMBER = 1;
+    public static final int DNIBBKLBBJE_FIELD_NUMBER = 4;
     private int dNIBBKLBBJE_;
     /**
-     * <code>uint32 DNIBBKLBBJE = 1;</code>
+     * <code>uint32 DNIBBKLBBJE = 4;</code>
      * @return The dNIBBKLBBJE.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class KDHFFAMFLKCOuterClass {
       return dNIBBKLBBJE_;
     }
 
-    public static final int ROTATION_FIELD_NUMBER = 5;
+    public static final int ROTATION_FIELD_NUMBER = 14;
     private int rotation_;
     /**
-     * <code>uint32 rotation = 5;</code>
+     * <code>uint32 rotation = 14;</code>
      * @return The rotation.
      */
     @java.lang.Override
@@ -161,10 +161,10 @@ public final class KDHFFAMFLKCOuterClass {
       return rotation_;
     }
 
-    public static final int LAPJDMHDDIP_FIELD_NUMBER = 8;
+    public static final int LAPJDMHDDIP_FIELD_NUMBER = 50000;
     private int lAPJDMHDDIP_;
     /**
-     * <code>uint32 LAPJDMHDDIP = 8;</code>
+     * <code>uint32 LAPJDMHDDIP = 50000;</code>
      * @return The lAPJDMHDDIP.
      */
     @java.lang.Override
@@ -172,10 +172,10 @@ public final class KDHFFAMFLKCOuterClass {
       return lAPJDMHDDIP_;
     }
 
-    public static final int MHFDNNEMNJB_FIELD_NUMBER = 12;
+    public static final int MHFDNNEMNJB_FIELD_NUMBER = 50001;
     private int mHFDNNEMNJB_;
     /**
-     * <code>uint32 MHFDNNEMNJB = 12;</code>
+     * <code>uint32 MHFDNNEMNJB = 50001;</code>
      * @return The mHFDNNEMNJB.
      */
     @java.lang.Override
@@ -198,16 +198,16 @@ public final class KDHFFAMFLKCOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (dNIBBKLBBJE_ != 0) {
-        output.writeUInt32(1, dNIBBKLBBJE_);
+        output.writeUInt32(4, dNIBBKLBBJE_);
       }
       if (rotation_ != 0) {
-        output.writeUInt32(5, rotation_);
+        output.writeUInt32(14, rotation_);
       }
       if (lAPJDMHDDIP_ != 0) {
-        output.writeUInt32(8, lAPJDMHDDIP_);
+        output.writeUInt32(50000, lAPJDMHDDIP_);
       }
       if (mHFDNNEMNJB_ != 0) {
-        output.writeUInt32(12, mHFDNNEMNJB_);
+        output.writeUInt32(50001, mHFDNNEMNJB_);
       }
       unknownFields.writeTo(output);
     }
@@ -220,19 +220,19 @@ public final class KDHFFAMFLKCOuterClass {
       size = 0;
       if (dNIBBKLBBJE_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, dNIBBKLBBJE_);
+          .computeUInt32Size(4, dNIBBKLBBJE_);
       }
       if (rotation_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, rotation_);
+          .computeUInt32Size(14, rotation_);
       }
       if (lAPJDMHDDIP_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, lAPJDMHDDIP_);
+          .computeUInt32Size(50000, lAPJDMHDDIP_);
       }
       if (mHFDNNEMNJB_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, mHFDNNEMNJB_);
+          .computeUInt32Size(50001, mHFDNNEMNJB_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -538,7 +538,7 @@ public final class KDHFFAMFLKCOuterClass {
 
       private int dNIBBKLBBJE_ ;
       /**
-       * <code>uint32 DNIBBKLBBJE = 1;</code>
+       * <code>uint32 DNIBBKLBBJE = 4;</code>
        * @return The dNIBBKLBBJE.
        */
       @java.lang.Override
@@ -546,7 +546,7 @@ public final class KDHFFAMFLKCOuterClass {
         return dNIBBKLBBJE_;
       }
       /**
-       * <code>uint32 DNIBBKLBBJE = 1;</code>
+       * <code>uint32 DNIBBKLBBJE = 4;</code>
        * @param value The dNIBBKLBBJE to set.
        * @return This builder for chaining.
        */
@@ -557,7 +557,7 @@ public final class KDHFFAMFLKCOuterClass {
         return this;
       }
       /**
-       * <code>uint32 DNIBBKLBBJE = 1;</code>
+       * <code>uint32 DNIBBKLBBJE = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearDNIBBKLBBJE() {
@@ -569,7 +569,7 @@ public final class KDHFFAMFLKCOuterClass {
 
       private int rotation_ ;
       /**
-       * <code>uint32 rotation = 5;</code>
+       * <code>uint32 rotation = 14;</code>
        * @return The rotation.
        */
       @java.lang.Override
@@ -577,7 +577,7 @@ public final class KDHFFAMFLKCOuterClass {
         return rotation_;
       }
       /**
-       * <code>uint32 rotation = 5;</code>
+       * <code>uint32 rotation = 14;</code>
        * @param value The rotation to set.
        * @return This builder for chaining.
        */
@@ -588,7 +588,7 @@ public final class KDHFFAMFLKCOuterClass {
         return this;
       }
       /**
-       * <code>uint32 rotation = 5;</code>
+       * <code>uint32 rotation = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearRotation() {
@@ -600,7 +600,7 @@ public final class KDHFFAMFLKCOuterClass {
 
       private int lAPJDMHDDIP_ ;
       /**
-       * <code>uint32 LAPJDMHDDIP = 8;</code>
+       * <code>uint32 LAPJDMHDDIP = 50000;</code>
        * @return The lAPJDMHDDIP.
        */
       @java.lang.Override
@@ -608,7 +608,7 @@ public final class KDHFFAMFLKCOuterClass {
         return lAPJDMHDDIP_;
       }
       /**
-       * <code>uint32 LAPJDMHDDIP = 8;</code>
+       * <code>uint32 LAPJDMHDDIP = 50000;</code>
        * @param value The lAPJDMHDDIP to set.
        * @return This builder for chaining.
        */
@@ -619,7 +619,7 @@ public final class KDHFFAMFLKCOuterClass {
         return this;
       }
       /**
-       * <code>uint32 LAPJDMHDDIP = 8;</code>
+       * <code>uint32 LAPJDMHDDIP = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearLAPJDMHDDIP() {
@@ -631,7 +631,7 @@ public final class KDHFFAMFLKCOuterClass {
 
       private int mHFDNNEMNJB_ ;
       /**
-       * <code>uint32 MHFDNNEMNJB = 12;</code>
+       * <code>uint32 MHFDNNEMNJB = 50001;</code>
        * @return The mHFDNNEMNJB.
        */
       @java.lang.Override
@@ -639,7 +639,7 @@ public final class KDHFFAMFLKCOuterClass {
         return mHFDNNEMNJB_;
       }
       /**
-       * <code>uint32 MHFDNNEMNJB = 12;</code>
+       * <code>uint32 MHFDNNEMNJB = 50001;</code>
        * @param value The mHFDNNEMNJB to set.
        * @return This builder for chaining.
        */
@@ -650,7 +650,7 @@ public final class KDHFFAMFLKCOuterClass {
         return this;
       }
       /**
-       * <code>uint32 MHFDNNEMNJB = 12;</code>
+       * <code>uint32 MHFDNNEMNJB = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearMHFDNNEMNJB() {
@@ -726,11 +726,11 @@ public final class KDHFFAMFLKCOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021KDHFFAMFLKC.proto\"^\n\013KDHFFAMFLKC\022\023\n\013DN" +
-      "IBBKLBBJE\030\001 \001(\r\022\020\n\010rotation\030\005 \001(\r\022\023\n\013LAP" +
-      "JDMHDDIP\030\010 \001(\r\022\023\n\013MHFDNNEMNJB\030\014 \001(\rB2\n\031e" +
-      "mu.grasscutter.net.protoB\025KDHFFAMFLKCOut" +
-      "erClassb\006proto3"
+      "\n\021KDHFFAMFLKC.proto\"b\n\013KDHFFAMFLKC\022\023\n\013DN" +
+      "IBBKLBBJE\030\004 \001(\r\022\020\n\010rotation\030\016 \001(\r\022\025\n\013LAP" +
+      "JDMHDDIP\030\320\206\003 \001(\r\022\025\n\013MHFDNNEMNJB\030\321\206\003 \001(\rB" +
+      "2\n\031emu.grasscutter.net.protoB\025KDHFFAMFLK" +
+      "COuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

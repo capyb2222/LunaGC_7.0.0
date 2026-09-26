@@ -19,287 +19,287 @@ public final class _ClientPlayDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>._RankedMatchTrainLevelInfo ranked_match_train_level_info = 3228;</code>
+     * <code>._RankedMatchTrainLevelInfo ranked_match_train_level_info = 11517;</code>
      * @return Whether the rankedMatchTrainLevelInfo field is set.
      */
     boolean hasRankedMatchTrainLevelInfo();
     /**
-     * <code>._RankedMatchTrainLevelInfo ranked_match_train_level_info = 3228;</code>
+     * <code>._RankedMatchTrainLevelInfo ranked_match_train_level_info = 11517;</code>
      * @return The rankedMatchTrainLevelInfo.
      */
     emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfo getRankedMatchTrainLevelInfo();
     /**
-     * <code>._RankedMatchTrainLevelInfo ranked_match_train_level_info = 3228;</code>
+     * <code>._RankedMatchTrainLevelInfo ranked_match_train_level_info = 11517;</code>
      */
     emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfoOrBuilder getRankedMatchTrainLevelInfoOrBuilder();
 
     /**
-     * <code>._AutochessLevelInfo autochess_level_info = 4424;</code>
+     * <code>._AutochessLevelInfo autochess_level_info = 12372;</code>
      * @return Whether the autochessLevelInfo field is set.
      */
     boolean hasAutochessLevelInfo();
     /**
-     * <code>._AutochessLevelInfo autochess_level_info = 4424;</code>
+     * <code>._AutochessLevelInfo autochess_level_info = 12372;</code>
      * @return The autochessLevelInfo.
      */
     emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfo getAutochessLevelInfo();
     /**
-     * <code>._AutochessLevelInfo autochess_level_info = 4424;</code>
+     * <code>._AutochessLevelInfo autochess_level_info = 12372;</code>
      */
     emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfoOrBuilder getAutochessLevelInfoOrBuilder();
 
     /**
-     * <code>._HolidayResortSniperLevelInfo holiday_resort_sniper_level_info = 4862;</code>
+     * <code>._HolidayResortSniperLevelInfo holiday_resort_sniper_level_info = 6963;</code>
      * @return Whether the holidayResortSniperLevelInfo field is set.
      */
     boolean hasHolidayResortSniperLevelInfo();
     /**
-     * <code>._HolidayResortSniperLevelInfo holiday_resort_sniper_level_info = 4862;</code>
+     * <code>._HolidayResortSniperLevelInfo holiday_resort_sniper_level_info = 6963;</code>
      * @return The holidayResortSniperLevelInfo.
      */
     emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfo getHolidayResortSniperLevelInfo();
     /**
-     * <code>._HolidayResortSniperLevelInfo holiday_resort_sniper_level_info = 4862;</code>
+     * <code>._HolidayResortSniperLevelInfo holiday_resort_sniper_level_info = 6963;</code>
      */
     emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfoOrBuilder getHolidayResortSniperLevelInfoOrBuilder();
 
     /**
-     * <code>._TowerDefenseLevelInfo tower_defense_level_info = 6393;</code>
+     * <code>._TowerDefenseLevelInfo tower_defense_level_info = 7731;</code>
      * @return Whether the towerDefenseLevelInfo field is set.
      */
     boolean hasTowerDefenseLevelInfo();
     /**
-     * <code>._TowerDefenseLevelInfo tower_defense_level_info = 6393;</code>
+     * <code>._TowerDefenseLevelInfo tower_defense_level_info = 7731;</code>
      * @return The towerDefenseLevelInfo.
      */
     emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfo getTowerDefenseLevelInfo();
     /**
-     * <code>._TowerDefenseLevelInfo tower_defense_level_info = 6393;</code>
+     * <code>._TowerDefenseLevelInfo tower_defense_level_info = 7731;</code>
      */
     emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfoOrBuilder getTowerDefenseLevelInfoOrBuilder();
 
     /**
-     * <code>._MapMarkLevelInfo map_mark_level_info = 7133;</code>
+     * <code>._MapMarkLevelInfo map_mark_level_info = 9169;</code>
      * @return Whether the mapMarkLevelInfo field is set.
      */
     boolean hasMapMarkLevelInfo();
     /**
-     * <code>._MapMarkLevelInfo map_mark_level_info = 7133;</code>
+     * <code>._MapMarkLevelInfo map_mark_level_info = 9169;</code>
      * @return The mapMarkLevelInfo.
      */
     emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfo getMapMarkLevelInfo();
     /**
-     * <code>._MapMarkLevelInfo map_mark_level_info = 7133;</code>
+     * <code>._MapMarkLevelInfo map_mark_level_info = 9169;</code>
      */
     emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfoOrBuilder getMapMarkLevelInfoOrBuilder();
 
     /**
-     * <code>._NatlanDrillBattleLevelInfo natlan_drill_battle_level_info = 7860;</code>
+     * <code>._NatlanDrillBattleLevelInfo natlan_drill_battle_level_info = 15906;</code>
      * @return Whether the natlanDrillBattleLevelInfo field is set.
      */
     boolean hasNatlanDrillBattleLevelInfo();
     /**
-     * <code>._NatlanDrillBattleLevelInfo natlan_drill_battle_level_info = 7860;</code>
+     * <code>._NatlanDrillBattleLevelInfo natlan_drill_battle_level_info = 15906;</code>
      * @return The natlanDrillBattleLevelInfo.
      */
     emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfo getNatlanDrillBattleLevelInfo();
     /**
-     * <code>._NatlanDrillBattleLevelInfo natlan_drill_battle_level_info = 7860;</code>
+     * <code>._NatlanDrillBattleLevelInfo natlan_drill_battle_level_info = 15906;</code>
      */
     emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfoOrBuilder getNatlanDrillBattleLevelInfoOrBuilder();
 
     /**
-     * <code>._LoliJumpLevelInfo loli_jump_level_info = 8493;</code>
+     * <code>._LoliJumpLevelInfo loli_jump_level_info = 4911;</code>
      * @return Whether the loliJumpLevelInfo field is set.
      */
     boolean hasLoliJumpLevelInfo();
     /**
-     * <code>._LoliJumpLevelInfo loli_jump_level_info = 8493;</code>
+     * <code>._LoliJumpLevelInfo loli_jump_level_info = 4911;</code>
      * @return The loliJumpLevelInfo.
      */
     emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfo getLoliJumpLevelInfo();
     /**
-     * <code>._LoliJumpLevelInfo loli_jump_level_info = 8493;</code>
+     * <code>._LoliJumpLevelInfo loli_jump_level_info = 4911;</code>
      */
     emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfoOrBuilder getLoliJumpLevelInfoOrBuilder();
 
     /**
-     * <code>._BladeHeartLevelInfo blade_heart_level_info = 10385;</code>
+     * <code>._BladeHeartLevelInfo blade_heart_level_info = 5775;</code>
      * @return Whether the bladeHeartLevelInfo field is set.
      */
     boolean hasBladeHeartLevelInfo();
     /**
-     * <code>._BladeHeartLevelInfo blade_heart_level_info = 10385;</code>
+     * <code>._BladeHeartLevelInfo blade_heart_level_info = 5775;</code>
      * @return The bladeHeartLevelInfo.
      */
     emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfo getBladeHeartLevelInfo();
     /**
-     * <code>._BladeHeartLevelInfo blade_heart_level_info = 10385;</code>
+     * <code>._BladeHeartLevelInfo blade_heart_level_info = 5775;</code>
      */
     emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfoOrBuilder getBladeHeartLevelInfoOrBuilder();
 
     /**
-     * <code>._HolidayResortBattleLevelInfo holiday_resort_battle_level_info = 10504;</code>
+     * <code>._HolidayResortBattleLevelInfo holiday_resort_battle_level_info = 15244;</code>
      * @return Whether the holidayResortBattleLevelInfo field is set.
      */
     boolean hasHolidayResortBattleLevelInfo();
     /**
-     * <code>._HolidayResortBattleLevelInfo holiday_resort_battle_level_info = 10504;</code>
+     * <code>._HolidayResortBattleLevelInfo holiday_resort_battle_level_info = 15244;</code>
      * @return The holidayResortBattleLevelInfo.
      */
     emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfo getHolidayResortBattleLevelInfo();
     /**
-     * <code>._HolidayResortBattleLevelInfo holiday_resort_battle_level_info = 10504;</code>
+     * <code>._HolidayResortBattleLevelInfo holiday_resort_battle_level_info = 15244;</code>
      */
     emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfoOrBuilder getHolidayResortBattleLevelInfoOrBuilder();
 
     /**
-     * <code>._HolidayResortGraffitiLevelInfo holiday_resort_graffiti_level_info = 13156;</code>
+     * <code>._HolidayResortGraffitiLevelInfo holiday_resort_graffiti_level_info = 3559;</code>
      * @return Whether the holidayResortGraffitiLevelInfo field is set.
      */
     boolean hasHolidayResortGraffitiLevelInfo();
     /**
-     * <code>._HolidayResortGraffitiLevelInfo holiday_resort_graffiti_level_info = 13156;</code>
+     * <code>._HolidayResortGraffitiLevelInfo holiday_resort_graffiti_level_info = 3559;</code>
      * @return The holidayResortGraffitiLevelInfo.
      */
     emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfo getHolidayResortGraffitiLevelInfo();
     /**
-     * <code>._HolidayResortGraffitiLevelInfo holiday_resort_graffiti_level_info = 13156;</code>
+     * <code>._HolidayResortGraffitiLevelInfo holiday_resort_graffiti_level_info = 3559;</code>
      */
     emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfoOrBuilder getHolidayResortGraffitiLevelInfoOrBuilder();
 
     /**
-     * <code>._HolidayResortAdventureLevelInfo holiday_resort_adventure_level_info = 13427;</code>
+     * <code>._HolidayResortAdventureLevelInfo holiday_resort_adventure_level_info = 16985;</code>
      * @return Whether the holidayResortAdventureLevelInfo field is set.
      */
     boolean hasHolidayResortAdventureLevelInfo();
     /**
-     * <code>._HolidayResortAdventureLevelInfo holiday_resort_adventure_level_info = 13427;</code>
+     * <code>._HolidayResortAdventureLevelInfo holiday_resort_adventure_level_info = 16985;</code>
      * @return The holidayResortAdventureLevelInfo.
      */
     emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfo getHolidayResortAdventureLevelInfo();
     /**
-     * <code>._HolidayResortAdventureLevelInfo holiday_resort_adventure_level_info = 13427;</code>
+     * <code>._HolidayResortAdventureLevelInfo holiday_resort_adventure_level_info = 16985;</code>
      */
     emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfoOrBuilder getHolidayResortAdventureLevelInfoOrBuilder();
 
     /**
-     * <code>._DiversityBattleLevelInfo diversity_battle_level_info = 13523;</code>
+     * <code>._DiversityBattleLevelInfo diversity_battle_level_info = 13714;</code>
      * @return Whether the diversityBattleLevelInfo field is set.
      */
     boolean hasDiversityBattleLevelInfo();
     /**
-     * <code>._DiversityBattleLevelInfo diversity_battle_level_info = 13523;</code>
+     * <code>._DiversityBattleLevelInfo diversity_battle_level_info = 13714;</code>
      * @return The diversityBattleLevelInfo.
      */
     emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfo getDiversityBattleLevelInfo();
     /**
-     * <code>._DiversityBattleLevelInfo diversity_battle_level_info = 13523;</code>
+     * <code>._DiversityBattleLevelInfo diversity_battle_level_info = 13714;</code>
      */
     emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfoOrBuilder getDiversityBattleLevelInfoOrBuilder();
 
     /**
-     * <code>._InazumaBadmintonLevelInfo inazuma_badminton_level_info = 15324;</code>
+     * <code>._InazumaBadmintonLevelInfo inazuma_badminton_level_info = 7244;</code>
      * @return Whether the inazumaBadmintonLevelInfo field is set.
      */
     boolean hasInazumaBadmintonLevelInfo();
     /**
-     * <code>._InazumaBadmintonLevelInfo inazuma_badminton_level_info = 15324;</code>
+     * <code>._InazumaBadmintonLevelInfo inazuma_badminton_level_info = 7244;</code>
      * @return The inazumaBadmintonLevelInfo.
      */
     emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfo getInazumaBadmintonLevelInfo();
     /**
-     * <code>._InazumaBadmintonLevelInfo inazuma_badminton_level_info = 15324;</code>
+     * <code>._InazumaBadmintonLevelInfo inazuma_badminton_level_info = 7244;</code>
      */
     emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfoOrBuilder getInazumaBadmintonLevelInfoOrBuilder();
 
     /**
-     * <code>._PartyLevelInfo party_level_info = 15619;</code>
+     * <code>._PartyLevelInfo party_level_info = 12362;</code>
      * @return Whether the partyLevelInfo field is set.
      */
     boolean hasPartyLevelInfo();
     /**
-     * <code>._PartyLevelInfo party_level_info = 15619;</code>
+     * <code>._PartyLevelInfo party_level_info = 12362;</code>
      * @return The partyLevelInfo.
      */
     emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfo getPartyLevelInfo();
     /**
-     * <code>._PartyLevelInfo party_level_info = 15619;</code>
+     * <code>._PartyLevelInfo party_level_info = 12362;</code>
      */
     emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfoOrBuilder getPartyLevelInfoOrBuilder();
 
     /**
-     * <code>._OneShotLevelInfo one_shot_level_info = 16358;</code>
+     * <code>._OneShotLevelInfo one_shot_level_info = 2497;</code>
      * @return Whether the oneShotLevelInfo field is set.
      */
     boolean hasOneShotLevelInfo();
     /**
-     * <code>._OneShotLevelInfo one_shot_level_info = 16358;</code>
+     * <code>._OneShotLevelInfo one_shot_level_info = 2497;</code>
      * @return The oneShotLevelInfo.
      */
     emu.grasscutter.net.proto._OneShotLevelInfoOuterClass._OneShotLevelInfo getOneShotLevelInfo();
     /**
-     * <code>._OneShotLevelInfo one_shot_level_info = 16358;</code>
+     * <code>._OneShotLevelInfo one_shot_level_info = 2497;</code>
      */
     emu.grasscutter.net.proto._OneShotLevelInfoOuterClass._OneShotLevelInfoOrBuilder getOneShotLevelInfoOrBuilder();
 
     /**
-     * <code>._DoppelgangerPuzzleLevelInfo doppelganger_puzzle_level_info = 16864;</code>
+     * <code>._DoppelgangerPuzzleLevelInfo doppelganger_puzzle_level_info = 6059;</code>
      * @return Whether the doppelgangerPuzzleLevelInfo field is set.
      */
     boolean hasDoppelgangerPuzzleLevelInfo();
     /**
-     * <code>._DoppelgangerPuzzleLevelInfo doppelganger_puzzle_level_info = 16864;</code>
+     * <code>._DoppelgangerPuzzleLevelInfo doppelganger_puzzle_level_info = 6059;</code>
      * @return The doppelgangerPuzzleLevelInfo.
      */
     emu.grasscutter.net.proto._DoppelgangerPuzzleLevelInfoOuterClass._DoppelgangerPuzzleLevelInfo getDoppelgangerPuzzleLevelInfo();
     /**
-     * <code>._DoppelgangerPuzzleLevelInfo doppelganger_puzzle_level_info = 16864;</code>
+     * <code>._DoppelgangerPuzzleLevelInfo doppelganger_puzzle_level_info = 6059;</code>
      */
     emu.grasscutter.net.proto._DoppelgangerPuzzleLevelInfoOuterClass._DoppelgangerPuzzleLevelInfoOrBuilder getDoppelgangerPuzzleLevelInfoOrBuilder();
 
     /**
-     * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
+     * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 13791;</code>
      * @return Whether the bubbleDramaPhotoLevelInfo field is set.
      */
     boolean hasBubbleDramaPhotoLevelInfo();
     /**
-     * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
+     * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 13791;</code>
      * @return The bubbleDramaPhotoLevelInfo.
      */
     emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo getBubbleDramaPhotoLevelInfo();
     /**
-     * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
+     * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 13791;</code>
      */
     emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfoOrBuilder getBubbleDramaPhotoLevelInfoOrBuilder();
 
     /**
-     * <code>._DreamSwitchingLevelInfo dream_switching_level_info = 17851;</code>
+     * <code>._DreamSwitchingLevelInfo dream_switching_level_info = 12236;</code>
      * @return Whether the dreamSwitchingLevelInfo field is set.
      */
     boolean hasDreamSwitchingLevelInfo();
     /**
-     * <code>._DreamSwitchingLevelInfo dream_switching_level_info = 17851;</code>
+     * <code>._DreamSwitchingLevelInfo dream_switching_level_info = 12236;</code>
      * @return The dreamSwitchingLevelInfo.
      */
     emu.grasscutter.net.proto._DreamSwitchingLevelInfoOuterClass._DreamSwitchingLevelInfo getDreamSwitchingLevelInfo();
     /**
-     * <code>._DreamSwitchingLevelInfo dream_switching_level_info = 17851;</code>
+     * <code>._DreamSwitchingLevelInfo dream_switching_level_info = 12236;</code>
      */
     emu.grasscutter.net.proto._DreamSwitchingLevelInfoOuterClass._DreamSwitchingLevelInfoOrBuilder getDreamSwitchingLevelInfoOrBuilder();
 
     /**
-     * <code>._SumeruAdventureGoalFightingLevelInfo sumeru_adventure_goal_fighting_level_info = 18549;</code>
+     * <code>._SumeruAdventureGoalFightingLevelInfo sumeru_adventure_goal_fighting_level_info = 18078;</code>
      * @return Whether the sumeruAdventureGoalFightingLevelInfo field is set.
      */
     boolean hasSumeruAdventureGoalFightingLevelInfo();
     /**
-     * <code>._SumeruAdventureGoalFightingLevelInfo sumeru_adventure_goal_fighting_level_info = 18549;</code>
+     * <code>._SumeruAdventureGoalFightingLevelInfo sumeru_adventure_goal_fighting_level_info = 18078;</code>
      * @return The sumeruAdventureGoalFightingLevelInfo.
      */
     emu.grasscutter.net.proto._SumeruAdventureGoalFightingLevelInfoOuterClass._SumeruAdventureGoalFightingLevelInfo getSumeruAdventureGoalFightingLevelInfo();
     /**
-     * <code>._SumeruAdventureGoalFightingLevelInfo sumeru_adventure_goal_fighting_level_info = 18549;</code>
+     * <code>._SumeruAdventureGoalFightingLevelInfo sumeru_adventure_goal_fighting_level_info = 18078;</code>
      */
     emu.grasscutter.net.proto._SumeruAdventureGoalFightingLevelInfoOuterClass._SumeruAdventureGoalFightingLevelInfoOrBuilder getSumeruAdventureGoalFightingLevelInfoOrBuilder();
 
@@ -350,205 +350,9 @@ public final class _ClientPlayDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 25826: {
-              emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfo.Builder subBuilder = null;
-              if (detailCase_ == 3228) {
-                subBuilder = ((emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfo) detail_).toBuilder();
-              }
-              detail_ =
-                  input.readMessage(emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfo.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfo) detail_);
-                detail_ = subBuilder.buildPartial();
-              }
-              detailCase_ = 3228;
-              break;
-            }
-            case 35394: {
-              emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfo.Builder subBuilder = null;
-              if (detailCase_ == 4424) {
-                subBuilder = ((emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfo) detail_).toBuilder();
-              }
-              detail_ =
-                  input.readMessage(emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfo.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfo) detail_);
-                detail_ = subBuilder.buildPartial();
-              }
-              detailCase_ = 4424;
-              break;
-            }
-            case 38898: {
-              emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfo.Builder subBuilder = null;
-              if (detailCase_ == 4862) {
-                subBuilder = ((emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfo) detail_).toBuilder();
-              }
-              detail_ =
-                  input.readMessage(emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfo.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfo) detail_);
-                detail_ = subBuilder.buildPartial();
-              }
-              detailCase_ = 4862;
-              break;
-            }
-            case 51146: {
-              emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfo.Builder subBuilder = null;
-              if (detailCase_ == 6393) {
-                subBuilder = ((emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfo) detail_).toBuilder();
-              }
-              detail_ =
-                  input.readMessage(emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfo.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfo) detail_);
-                detail_ = subBuilder.buildPartial();
-              }
-              detailCase_ = 6393;
-              break;
-            }
-            case 57066: {
-              emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfo.Builder subBuilder = null;
-              if (detailCase_ == 7133) {
-                subBuilder = ((emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfo) detail_).toBuilder();
-              }
-              detail_ =
-                  input.readMessage(emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfo.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfo) detail_);
-                detail_ = subBuilder.buildPartial();
-              }
-              detailCase_ = 7133;
-              break;
-            }
-            case 62882: {
-              emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfo.Builder subBuilder = null;
-              if (detailCase_ == 7860) {
-                subBuilder = ((emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfo) detail_).toBuilder();
-              }
-              detail_ =
-                  input.readMessage(emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfo.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfo) detail_);
-                detail_ = subBuilder.buildPartial();
-              }
-              detailCase_ = 7860;
-              break;
-            }
-            case 67946: {
-              emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfo.Builder subBuilder = null;
-              if (detailCase_ == 8493) {
-                subBuilder = ((emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfo) detail_).toBuilder();
-              }
-              detail_ =
-                  input.readMessage(emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfo.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfo) detail_);
-                detail_ = subBuilder.buildPartial();
-              }
-              detailCase_ = 8493;
-              break;
-            }
-            case 83082: {
-              emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfo.Builder subBuilder = null;
-              if (detailCase_ == 10385) {
-                subBuilder = ((emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfo) detail_).toBuilder();
-              }
-              detail_ =
-                  input.readMessage(emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfo.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfo) detail_);
-                detail_ = subBuilder.buildPartial();
-              }
-              detailCase_ = 10385;
-              break;
-            }
-            case 84034: {
-              emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfo.Builder subBuilder = null;
-              if (detailCase_ == 10504) {
-                subBuilder = ((emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfo) detail_).toBuilder();
-              }
-              detail_ =
-                  input.readMessage(emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfo.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfo) detail_);
-                detail_ = subBuilder.buildPartial();
-              }
-              detailCase_ = 10504;
-              break;
-            }
-            case 105250: {
-              emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfo.Builder subBuilder = null;
-              if (detailCase_ == 13156) {
-                subBuilder = ((emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfo) detail_).toBuilder();
-              }
-              detail_ =
-                  input.readMessage(emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfo.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfo) detail_);
-                detail_ = subBuilder.buildPartial();
-              }
-              detailCase_ = 13156;
-              break;
-            }
-            case 107418: {
-              emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfo.Builder subBuilder = null;
-              if (detailCase_ == 13427) {
-                subBuilder = ((emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfo) detail_).toBuilder();
-              }
-              detail_ =
-                  input.readMessage(emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfo.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfo) detail_);
-                detail_ = subBuilder.buildPartial();
-              }
-              detailCase_ = 13427;
-              break;
-            }
-            case 108186: {
-              emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfo.Builder subBuilder = null;
-              if (detailCase_ == 13523) {
-                subBuilder = ((emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfo) detail_).toBuilder();
-              }
-              detail_ =
-                  input.readMessage(emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfo.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfo) detail_);
-                detail_ = subBuilder.buildPartial();
-              }
-              detailCase_ = 13523;
-              break;
-            }
-            case 122594: {
-              emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfo.Builder subBuilder = null;
-              if (detailCase_ == 15324) {
-                subBuilder = ((emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfo) detail_).toBuilder();
-              }
-              detail_ =
-                  input.readMessage(emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfo.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfo) detail_);
-                detail_ = subBuilder.buildPartial();
-              }
-              detailCase_ = 15324;
-              break;
-            }
-            case 124954: {
-              emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfo.Builder subBuilder = null;
-              if (detailCase_ == 15619) {
-                subBuilder = ((emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfo) detail_).toBuilder();
-              }
-              detail_ =
-                  input.readMessage(emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfo.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfo) detail_);
-                detail_ = subBuilder.buildPartial();
-              }
-              detailCase_ = 15619;
-              break;
-            }
-            case 130866: {
+            case 19978: {
               emu.grasscutter.net.proto._OneShotLevelInfoOuterClass._OneShotLevelInfo.Builder subBuilder = null;
-              if (detailCase_ == 16358) {
+              if (detailCase_ == 2497) {
                 subBuilder = ((emu.grasscutter.net.proto._OneShotLevelInfoOuterClass._OneShotLevelInfo) detail_).toBuilder();
               }
               detail_ =
@@ -557,12 +361,54 @@ public final class _ClientPlayDetailInfoOuterClass {
                 subBuilder.mergeFrom((emu.grasscutter.net.proto._OneShotLevelInfoOuterClass._OneShotLevelInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
-              detailCase_ = 16358;
+              detailCase_ = 2497;
               break;
             }
-            case 134914: {
+            case 28474: {
+              emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfo.Builder subBuilder = null;
+              if (detailCase_ == 3559) {
+                subBuilder = ((emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfo) detail_).toBuilder();
+              }
+              detail_ =
+                  input.readMessage(emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfo.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfo) detail_);
+                detail_ = subBuilder.buildPartial();
+              }
+              detailCase_ = 3559;
+              break;
+            }
+            case 39290: {
+              emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfo.Builder subBuilder = null;
+              if (detailCase_ == 4911) {
+                subBuilder = ((emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfo) detail_).toBuilder();
+              }
+              detail_ =
+                  input.readMessage(emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfo.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfo) detail_);
+                detail_ = subBuilder.buildPartial();
+              }
+              detailCase_ = 4911;
+              break;
+            }
+            case 46202: {
+              emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfo.Builder subBuilder = null;
+              if (detailCase_ == 5775) {
+                subBuilder = ((emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfo) detail_).toBuilder();
+              }
+              detail_ =
+                  input.readMessage(emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfo.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfo) detail_);
+                detail_ = subBuilder.buildPartial();
+              }
+              detailCase_ = 5775;
+              break;
+            }
+            case 48474: {
               emu.grasscutter.net.proto._DoppelgangerPuzzleLevelInfoOuterClass._DoppelgangerPuzzleLevelInfo.Builder subBuilder = null;
-              if (detailCase_ == 16864) {
+              if (detailCase_ == 6059) {
                 subBuilder = ((emu.grasscutter.net.proto._DoppelgangerPuzzleLevelInfoOuterClass._DoppelgangerPuzzleLevelInfo) detail_).toBuilder();
               }
               detail_ =
@@ -571,26 +417,82 @@ public final class _ClientPlayDetailInfoOuterClass {
                 subBuilder.mergeFrom((emu.grasscutter.net.proto._DoppelgangerPuzzleLevelInfoOuterClass._DoppelgangerPuzzleLevelInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
-              detailCase_ = 16864;
+              detailCase_ = 6059;
               break;
             }
-            case 139410: {
-              emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo.Builder subBuilder = null;
-              if (detailCase_ == 17426) {
-                subBuilder = ((emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo) detail_).toBuilder();
+            case 55706: {
+              emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfo.Builder subBuilder = null;
+              if (detailCase_ == 6963) {
+                subBuilder = ((emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
-              detailCase_ = 17426;
+              detailCase_ = 6963;
               break;
             }
-            case 142810: {
+            case 57954: {
+              emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfo.Builder subBuilder = null;
+              if (detailCase_ == 7244) {
+                subBuilder = ((emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfo) detail_).toBuilder();
+              }
+              detail_ =
+                  input.readMessage(emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfo.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfo) detail_);
+                detail_ = subBuilder.buildPartial();
+              }
+              detailCase_ = 7244;
+              break;
+            }
+            case 61850: {
+              emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfo.Builder subBuilder = null;
+              if (detailCase_ == 7731) {
+                subBuilder = ((emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfo) detail_).toBuilder();
+              }
+              detail_ =
+                  input.readMessage(emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfo.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfo) detail_);
+                detail_ = subBuilder.buildPartial();
+              }
+              detailCase_ = 7731;
+              break;
+            }
+            case 73354: {
+              emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfo.Builder subBuilder = null;
+              if (detailCase_ == 9169) {
+                subBuilder = ((emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfo) detail_).toBuilder();
+              }
+              detail_ =
+                  input.readMessage(emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfo.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfo) detail_);
+                detail_ = subBuilder.buildPartial();
+              }
+              detailCase_ = 9169;
+              break;
+            }
+            case 92138: {
+              emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfo.Builder subBuilder = null;
+              if (detailCase_ == 11517) {
+                subBuilder = ((emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfo) detail_).toBuilder();
+              }
+              detail_ =
+                  input.readMessage(emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfo.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfo) detail_);
+                detail_ = subBuilder.buildPartial();
+              }
+              detailCase_ = 11517;
+              break;
+            }
+            case 97890: {
               emu.grasscutter.net.proto._DreamSwitchingLevelInfoOuterClass._DreamSwitchingLevelInfo.Builder subBuilder = null;
-              if (detailCase_ == 17851) {
+              if (detailCase_ == 12236) {
                 subBuilder = ((emu.grasscutter.net.proto._DreamSwitchingLevelInfoOuterClass._DreamSwitchingLevelInfo) detail_).toBuilder();
               }
               detail_ =
@@ -599,12 +501,110 @@ public final class _ClientPlayDetailInfoOuterClass {
                 subBuilder.mergeFrom((emu.grasscutter.net.proto._DreamSwitchingLevelInfoOuterClass._DreamSwitchingLevelInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
-              detailCase_ = 17851;
+              detailCase_ = 12236;
               break;
             }
-            case 148394: {
+            case 98898: {
+              emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfo.Builder subBuilder = null;
+              if (detailCase_ == 12362) {
+                subBuilder = ((emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfo) detail_).toBuilder();
+              }
+              detail_ =
+                  input.readMessage(emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfo.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfo) detail_);
+                detail_ = subBuilder.buildPartial();
+              }
+              detailCase_ = 12362;
+              break;
+            }
+            case 98978: {
+              emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfo.Builder subBuilder = null;
+              if (detailCase_ == 12372) {
+                subBuilder = ((emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfo) detail_).toBuilder();
+              }
+              detail_ =
+                  input.readMessage(emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfo.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfo) detail_);
+                detail_ = subBuilder.buildPartial();
+              }
+              detailCase_ = 12372;
+              break;
+            }
+            case 109714: {
+              emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfo.Builder subBuilder = null;
+              if (detailCase_ == 13714) {
+                subBuilder = ((emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfo) detail_).toBuilder();
+              }
+              detail_ =
+                  input.readMessage(emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfo.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfo) detail_);
+                detail_ = subBuilder.buildPartial();
+              }
+              detailCase_ = 13714;
+              break;
+            }
+            case 110330: {
+              emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo.Builder subBuilder = null;
+              if (detailCase_ == 13791) {
+                subBuilder = ((emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo) detail_).toBuilder();
+              }
+              detail_ =
+                  input.readMessage(emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo) detail_);
+                detail_ = subBuilder.buildPartial();
+              }
+              detailCase_ = 13791;
+              break;
+            }
+            case 121954: {
+              emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfo.Builder subBuilder = null;
+              if (detailCase_ == 15244) {
+                subBuilder = ((emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfo) detail_).toBuilder();
+              }
+              detail_ =
+                  input.readMessage(emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfo.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfo) detail_);
+                detail_ = subBuilder.buildPartial();
+              }
+              detailCase_ = 15244;
+              break;
+            }
+            case 127250: {
+              emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfo.Builder subBuilder = null;
+              if (detailCase_ == 15906) {
+                subBuilder = ((emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfo) detail_).toBuilder();
+              }
+              detail_ =
+                  input.readMessage(emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfo.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfo) detail_);
+                detail_ = subBuilder.buildPartial();
+              }
+              detailCase_ = 15906;
+              break;
+            }
+            case 135882: {
+              emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfo.Builder subBuilder = null;
+              if (detailCase_ == 16985) {
+                subBuilder = ((emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfo) detail_).toBuilder();
+              }
+              detail_ =
+                  input.readMessage(emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfo.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfo) detail_);
+                detail_ = subBuilder.buildPartial();
+              }
+              detailCase_ = 16985;
+              break;
+            }
+            case 144626: {
               emu.grasscutter.net.proto._SumeruAdventureGoalFightingLevelInfoOuterClass._SumeruAdventureGoalFightingLevelInfo.Builder subBuilder = null;
-              if (detailCase_ == 18549) {
+              if (detailCase_ == 18078) {
                 subBuilder = ((emu.grasscutter.net.proto._SumeruAdventureGoalFightingLevelInfoOuterClass._SumeruAdventureGoalFightingLevelInfo) detail_).toBuilder();
               }
               detail_ =
@@ -613,7 +613,7 @@ public final class _ClientPlayDetailInfoOuterClass {
                 subBuilder.mergeFrom((emu.grasscutter.net.proto._SumeruAdventureGoalFightingLevelInfoOuterClass._SumeruAdventureGoalFightingLevelInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
-              detailCase_ = 18549;
+              detailCase_ = 18078;
               break;
             }
             default: {
@@ -653,25 +653,25 @@ public final class _ClientPlayDetailInfoOuterClass {
     public enum DetailCase
         implements com.google.protobuf.Internal.EnumLite,
             com.google.protobuf.AbstractMessage.InternalOneOfEnum {
-      RANKED_MATCH_TRAIN_LEVEL_INFO(3228),
-      AUTOCHESS_LEVEL_INFO(4424),
-      HOLIDAY_RESORT_SNIPER_LEVEL_INFO(4862),
-      TOWER_DEFENSE_LEVEL_INFO(6393),
-      MAP_MARK_LEVEL_INFO(7133),
-      NATLAN_DRILL_BATTLE_LEVEL_INFO(7860),
-      LOLI_JUMP_LEVEL_INFO(8493),
-      BLADE_HEART_LEVEL_INFO(10385),
-      HOLIDAY_RESORT_BATTLE_LEVEL_INFO(10504),
-      HOLIDAY_RESORT_GRAFFITI_LEVEL_INFO(13156),
-      HOLIDAY_RESORT_ADVENTURE_LEVEL_INFO(13427),
-      DIVERSITY_BATTLE_LEVEL_INFO(13523),
-      INAZUMA_BADMINTON_LEVEL_INFO(15324),
-      PARTY_LEVEL_INFO(15619),
-      ONE_SHOT_LEVEL_INFO(16358),
-      DOPPELGANGER_PUZZLE_LEVEL_INFO(16864),
-      BUBBLE_DRAMA_PHOTO_LEVEL_INFO(17426),
-      DREAM_SWITCHING_LEVEL_INFO(17851),
-      SUMERU_ADVENTURE_GOAL_FIGHTING_LEVEL_INFO(18549),
+      RANKED_MATCH_TRAIN_LEVEL_INFO(11517),
+      AUTOCHESS_LEVEL_INFO(12372),
+      HOLIDAY_RESORT_SNIPER_LEVEL_INFO(6963),
+      TOWER_DEFENSE_LEVEL_INFO(7731),
+      MAP_MARK_LEVEL_INFO(9169),
+      NATLAN_DRILL_BATTLE_LEVEL_INFO(15906),
+      LOLI_JUMP_LEVEL_INFO(4911),
+      BLADE_HEART_LEVEL_INFO(5775),
+      HOLIDAY_RESORT_BATTLE_LEVEL_INFO(15244),
+      HOLIDAY_RESORT_GRAFFITI_LEVEL_INFO(3559),
+      HOLIDAY_RESORT_ADVENTURE_LEVEL_INFO(16985),
+      DIVERSITY_BATTLE_LEVEL_INFO(13714),
+      INAZUMA_BADMINTON_LEVEL_INFO(7244),
+      PARTY_LEVEL_INFO(12362),
+      ONE_SHOT_LEVEL_INFO(2497),
+      DOPPELGANGER_PUZZLE_LEVEL_INFO(6059),
+      BUBBLE_DRAMA_PHOTO_LEVEL_INFO(13791),
+      DREAM_SWITCHING_LEVEL_INFO(12236),
+      SUMERU_ADVENTURE_GOAL_FIGHTING_LEVEL_INFO(18078),
       DETAIL_NOT_SET(0);
       private final int value;
       private DetailCase(int value) {
@@ -689,25 +689,25 @@ public final class _ClientPlayDetailInfoOuterClass {
 
       public static DetailCase forNumber(int value) {
         switch (value) {
-          case 3228: return RANKED_MATCH_TRAIN_LEVEL_INFO;
-          case 4424: return AUTOCHESS_LEVEL_INFO;
-          case 4862: return HOLIDAY_RESORT_SNIPER_LEVEL_INFO;
-          case 6393: return TOWER_DEFENSE_LEVEL_INFO;
-          case 7133: return MAP_MARK_LEVEL_INFO;
-          case 7860: return NATLAN_DRILL_BATTLE_LEVEL_INFO;
-          case 8493: return LOLI_JUMP_LEVEL_INFO;
-          case 10385: return BLADE_HEART_LEVEL_INFO;
-          case 10504: return HOLIDAY_RESORT_BATTLE_LEVEL_INFO;
-          case 13156: return HOLIDAY_RESORT_GRAFFITI_LEVEL_INFO;
-          case 13427: return HOLIDAY_RESORT_ADVENTURE_LEVEL_INFO;
-          case 13523: return DIVERSITY_BATTLE_LEVEL_INFO;
-          case 15324: return INAZUMA_BADMINTON_LEVEL_INFO;
-          case 15619: return PARTY_LEVEL_INFO;
-          case 16358: return ONE_SHOT_LEVEL_INFO;
-          case 16864: return DOPPELGANGER_PUZZLE_LEVEL_INFO;
-          case 17426: return BUBBLE_DRAMA_PHOTO_LEVEL_INFO;
-          case 17851: return DREAM_SWITCHING_LEVEL_INFO;
-          case 18549: return SUMERU_ADVENTURE_GOAL_FIGHTING_LEVEL_INFO;
+          case 11517: return RANKED_MATCH_TRAIN_LEVEL_INFO;
+          case 12372: return AUTOCHESS_LEVEL_INFO;
+          case 6963: return HOLIDAY_RESORT_SNIPER_LEVEL_INFO;
+          case 7731: return TOWER_DEFENSE_LEVEL_INFO;
+          case 9169: return MAP_MARK_LEVEL_INFO;
+          case 15906: return NATLAN_DRILL_BATTLE_LEVEL_INFO;
+          case 4911: return LOLI_JUMP_LEVEL_INFO;
+          case 5775: return BLADE_HEART_LEVEL_INFO;
+          case 15244: return HOLIDAY_RESORT_BATTLE_LEVEL_INFO;
+          case 3559: return HOLIDAY_RESORT_GRAFFITI_LEVEL_INFO;
+          case 16985: return HOLIDAY_RESORT_ADVENTURE_LEVEL_INFO;
+          case 13714: return DIVERSITY_BATTLE_LEVEL_INFO;
+          case 7244: return INAZUMA_BADMINTON_LEVEL_INFO;
+          case 12362: return PARTY_LEVEL_INFO;
+          case 2497: return ONE_SHOT_LEVEL_INFO;
+          case 6059: return DOPPELGANGER_PUZZLE_LEVEL_INFO;
+          case 13791: return BUBBLE_DRAMA_PHOTO_LEVEL_INFO;
+          case 12236: return DREAM_SWITCHING_LEVEL_INFO;
+          case 18078: return SUMERU_ADVENTURE_GOAL_FIGHTING_LEVEL_INFO;
           case 0: return DETAIL_NOT_SET;
           default: return null;
         }
@@ -723,590 +723,590 @@ public final class _ClientPlayDetailInfoOuterClass {
           detailCase_);
     }
 
-    public static final int RANKED_MATCH_TRAIN_LEVEL_INFO_FIELD_NUMBER = 3228;
+    public static final int RANKED_MATCH_TRAIN_LEVEL_INFO_FIELD_NUMBER = 11517;
     /**
-     * <code>._RankedMatchTrainLevelInfo ranked_match_train_level_info = 3228;</code>
+     * <code>._RankedMatchTrainLevelInfo ranked_match_train_level_info = 11517;</code>
      * @return Whether the rankedMatchTrainLevelInfo field is set.
      */
     @java.lang.Override
     public boolean hasRankedMatchTrainLevelInfo() {
-      return detailCase_ == 3228;
+      return detailCase_ == 11517;
     }
     /**
-     * <code>._RankedMatchTrainLevelInfo ranked_match_train_level_info = 3228;</code>
+     * <code>._RankedMatchTrainLevelInfo ranked_match_train_level_info = 11517;</code>
      * @return The rankedMatchTrainLevelInfo.
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfo getRankedMatchTrainLevelInfo() {
-      if (detailCase_ == 3228) {
+      if (detailCase_ == 11517) {
          return (emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfo) detail_;
       }
       return emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfo.getDefaultInstance();
     }
     /**
-     * <code>._RankedMatchTrainLevelInfo ranked_match_train_level_info = 3228;</code>
+     * <code>._RankedMatchTrainLevelInfo ranked_match_train_level_info = 11517;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfoOrBuilder getRankedMatchTrainLevelInfoOrBuilder() {
-      if (detailCase_ == 3228) {
+      if (detailCase_ == 11517) {
          return (emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfo) detail_;
       }
       return emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfo.getDefaultInstance();
     }
 
-    public static final int AUTOCHESS_LEVEL_INFO_FIELD_NUMBER = 4424;
+    public static final int AUTOCHESS_LEVEL_INFO_FIELD_NUMBER = 12372;
     /**
-     * <code>._AutochessLevelInfo autochess_level_info = 4424;</code>
+     * <code>._AutochessLevelInfo autochess_level_info = 12372;</code>
      * @return Whether the autochessLevelInfo field is set.
      */
     @java.lang.Override
     public boolean hasAutochessLevelInfo() {
-      return detailCase_ == 4424;
+      return detailCase_ == 12372;
     }
     /**
-     * <code>._AutochessLevelInfo autochess_level_info = 4424;</code>
+     * <code>._AutochessLevelInfo autochess_level_info = 12372;</code>
      * @return The autochessLevelInfo.
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfo getAutochessLevelInfo() {
-      if (detailCase_ == 4424) {
+      if (detailCase_ == 12372) {
          return (emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfo) detail_;
       }
       return emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfo.getDefaultInstance();
     }
     /**
-     * <code>._AutochessLevelInfo autochess_level_info = 4424;</code>
+     * <code>._AutochessLevelInfo autochess_level_info = 12372;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfoOrBuilder getAutochessLevelInfoOrBuilder() {
-      if (detailCase_ == 4424) {
+      if (detailCase_ == 12372) {
          return (emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfo) detail_;
       }
       return emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfo.getDefaultInstance();
     }
 
-    public static final int HOLIDAY_RESORT_SNIPER_LEVEL_INFO_FIELD_NUMBER = 4862;
+    public static final int HOLIDAY_RESORT_SNIPER_LEVEL_INFO_FIELD_NUMBER = 6963;
     /**
-     * <code>._HolidayResortSniperLevelInfo holiday_resort_sniper_level_info = 4862;</code>
+     * <code>._HolidayResortSniperLevelInfo holiday_resort_sniper_level_info = 6963;</code>
      * @return Whether the holidayResortSniperLevelInfo field is set.
      */
     @java.lang.Override
     public boolean hasHolidayResortSniperLevelInfo() {
-      return detailCase_ == 4862;
+      return detailCase_ == 6963;
     }
     /**
-     * <code>._HolidayResortSniperLevelInfo holiday_resort_sniper_level_info = 4862;</code>
+     * <code>._HolidayResortSniperLevelInfo holiday_resort_sniper_level_info = 6963;</code>
      * @return The holidayResortSniperLevelInfo.
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfo getHolidayResortSniperLevelInfo() {
-      if (detailCase_ == 4862) {
+      if (detailCase_ == 6963) {
          return (emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfo) detail_;
       }
       return emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfo.getDefaultInstance();
     }
     /**
-     * <code>._HolidayResortSniperLevelInfo holiday_resort_sniper_level_info = 4862;</code>
+     * <code>._HolidayResortSniperLevelInfo holiday_resort_sniper_level_info = 6963;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfoOrBuilder getHolidayResortSniperLevelInfoOrBuilder() {
-      if (detailCase_ == 4862) {
+      if (detailCase_ == 6963) {
          return (emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfo) detail_;
       }
       return emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfo.getDefaultInstance();
     }
 
-    public static final int TOWER_DEFENSE_LEVEL_INFO_FIELD_NUMBER = 6393;
+    public static final int TOWER_DEFENSE_LEVEL_INFO_FIELD_NUMBER = 7731;
     /**
-     * <code>._TowerDefenseLevelInfo tower_defense_level_info = 6393;</code>
+     * <code>._TowerDefenseLevelInfo tower_defense_level_info = 7731;</code>
      * @return Whether the towerDefenseLevelInfo field is set.
      */
     @java.lang.Override
     public boolean hasTowerDefenseLevelInfo() {
-      return detailCase_ == 6393;
+      return detailCase_ == 7731;
     }
     /**
-     * <code>._TowerDefenseLevelInfo tower_defense_level_info = 6393;</code>
+     * <code>._TowerDefenseLevelInfo tower_defense_level_info = 7731;</code>
      * @return The towerDefenseLevelInfo.
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfo getTowerDefenseLevelInfo() {
-      if (detailCase_ == 6393) {
+      if (detailCase_ == 7731) {
          return (emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfo) detail_;
       }
       return emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfo.getDefaultInstance();
     }
     /**
-     * <code>._TowerDefenseLevelInfo tower_defense_level_info = 6393;</code>
+     * <code>._TowerDefenseLevelInfo tower_defense_level_info = 7731;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfoOrBuilder getTowerDefenseLevelInfoOrBuilder() {
-      if (detailCase_ == 6393) {
+      if (detailCase_ == 7731) {
          return (emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfo) detail_;
       }
       return emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfo.getDefaultInstance();
     }
 
-    public static final int MAP_MARK_LEVEL_INFO_FIELD_NUMBER = 7133;
+    public static final int MAP_MARK_LEVEL_INFO_FIELD_NUMBER = 9169;
     /**
-     * <code>._MapMarkLevelInfo map_mark_level_info = 7133;</code>
+     * <code>._MapMarkLevelInfo map_mark_level_info = 9169;</code>
      * @return Whether the mapMarkLevelInfo field is set.
      */
     @java.lang.Override
     public boolean hasMapMarkLevelInfo() {
-      return detailCase_ == 7133;
+      return detailCase_ == 9169;
     }
     /**
-     * <code>._MapMarkLevelInfo map_mark_level_info = 7133;</code>
+     * <code>._MapMarkLevelInfo map_mark_level_info = 9169;</code>
      * @return The mapMarkLevelInfo.
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfo getMapMarkLevelInfo() {
-      if (detailCase_ == 7133) {
+      if (detailCase_ == 9169) {
          return (emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfo) detail_;
       }
       return emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfo.getDefaultInstance();
     }
     /**
-     * <code>._MapMarkLevelInfo map_mark_level_info = 7133;</code>
+     * <code>._MapMarkLevelInfo map_mark_level_info = 9169;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfoOrBuilder getMapMarkLevelInfoOrBuilder() {
-      if (detailCase_ == 7133) {
+      if (detailCase_ == 9169) {
          return (emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfo) detail_;
       }
       return emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfo.getDefaultInstance();
     }
 
-    public static final int NATLAN_DRILL_BATTLE_LEVEL_INFO_FIELD_NUMBER = 7860;
+    public static final int NATLAN_DRILL_BATTLE_LEVEL_INFO_FIELD_NUMBER = 15906;
     /**
-     * <code>._NatlanDrillBattleLevelInfo natlan_drill_battle_level_info = 7860;</code>
+     * <code>._NatlanDrillBattleLevelInfo natlan_drill_battle_level_info = 15906;</code>
      * @return Whether the natlanDrillBattleLevelInfo field is set.
      */
     @java.lang.Override
     public boolean hasNatlanDrillBattleLevelInfo() {
-      return detailCase_ == 7860;
+      return detailCase_ == 15906;
     }
     /**
-     * <code>._NatlanDrillBattleLevelInfo natlan_drill_battle_level_info = 7860;</code>
+     * <code>._NatlanDrillBattleLevelInfo natlan_drill_battle_level_info = 15906;</code>
      * @return The natlanDrillBattleLevelInfo.
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfo getNatlanDrillBattleLevelInfo() {
-      if (detailCase_ == 7860) {
+      if (detailCase_ == 15906) {
          return (emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfo) detail_;
       }
       return emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfo.getDefaultInstance();
     }
     /**
-     * <code>._NatlanDrillBattleLevelInfo natlan_drill_battle_level_info = 7860;</code>
+     * <code>._NatlanDrillBattleLevelInfo natlan_drill_battle_level_info = 15906;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfoOrBuilder getNatlanDrillBattleLevelInfoOrBuilder() {
-      if (detailCase_ == 7860) {
+      if (detailCase_ == 15906) {
          return (emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfo) detail_;
       }
       return emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfo.getDefaultInstance();
     }
 
-    public static final int LOLI_JUMP_LEVEL_INFO_FIELD_NUMBER = 8493;
+    public static final int LOLI_JUMP_LEVEL_INFO_FIELD_NUMBER = 4911;
     /**
-     * <code>._LoliJumpLevelInfo loli_jump_level_info = 8493;</code>
+     * <code>._LoliJumpLevelInfo loli_jump_level_info = 4911;</code>
      * @return Whether the loliJumpLevelInfo field is set.
      */
     @java.lang.Override
     public boolean hasLoliJumpLevelInfo() {
-      return detailCase_ == 8493;
+      return detailCase_ == 4911;
     }
     /**
-     * <code>._LoliJumpLevelInfo loli_jump_level_info = 8493;</code>
+     * <code>._LoliJumpLevelInfo loli_jump_level_info = 4911;</code>
      * @return The loliJumpLevelInfo.
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfo getLoliJumpLevelInfo() {
-      if (detailCase_ == 8493) {
+      if (detailCase_ == 4911) {
          return (emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfo) detail_;
       }
       return emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfo.getDefaultInstance();
     }
     /**
-     * <code>._LoliJumpLevelInfo loli_jump_level_info = 8493;</code>
+     * <code>._LoliJumpLevelInfo loli_jump_level_info = 4911;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfoOrBuilder getLoliJumpLevelInfoOrBuilder() {
-      if (detailCase_ == 8493) {
+      if (detailCase_ == 4911) {
          return (emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfo) detail_;
       }
       return emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfo.getDefaultInstance();
     }
 
-    public static final int BLADE_HEART_LEVEL_INFO_FIELD_NUMBER = 10385;
+    public static final int BLADE_HEART_LEVEL_INFO_FIELD_NUMBER = 5775;
     /**
-     * <code>._BladeHeartLevelInfo blade_heart_level_info = 10385;</code>
+     * <code>._BladeHeartLevelInfo blade_heart_level_info = 5775;</code>
      * @return Whether the bladeHeartLevelInfo field is set.
      */
     @java.lang.Override
     public boolean hasBladeHeartLevelInfo() {
-      return detailCase_ == 10385;
+      return detailCase_ == 5775;
     }
     /**
-     * <code>._BladeHeartLevelInfo blade_heart_level_info = 10385;</code>
+     * <code>._BladeHeartLevelInfo blade_heart_level_info = 5775;</code>
      * @return The bladeHeartLevelInfo.
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfo getBladeHeartLevelInfo() {
-      if (detailCase_ == 10385) {
+      if (detailCase_ == 5775) {
          return (emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfo) detail_;
       }
       return emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfo.getDefaultInstance();
     }
     /**
-     * <code>._BladeHeartLevelInfo blade_heart_level_info = 10385;</code>
+     * <code>._BladeHeartLevelInfo blade_heart_level_info = 5775;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfoOrBuilder getBladeHeartLevelInfoOrBuilder() {
-      if (detailCase_ == 10385) {
+      if (detailCase_ == 5775) {
          return (emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfo) detail_;
       }
       return emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfo.getDefaultInstance();
     }
 
-    public static final int HOLIDAY_RESORT_BATTLE_LEVEL_INFO_FIELD_NUMBER = 10504;
+    public static final int HOLIDAY_RESORT_BATTLE_LEVEL_INFO_FIELD_NUMBER = 15244;
     /**
-     * <code>._HolidayResortBattleLevelInfo holiday_resort_battle_level_info = 10504;</code>
+     * <code>._HolidayResortBattleLevelInfo holiday_resort_battle_level_info = 15244;</code>
      * @return Whether the holidayResortBattleLevelInfo field is set.
      */
     @java.lang.Override
     public boolean hasHolidayResortBattleLevelInfo() {
-      return detailCase_ == 10504;
+      return detailCase_ == 15244;
     }
     /**
-     * <code>._HolidayResortBattleLevelInfo holiday_resort_battle_level_info = 10504;</code>
+     * <code>._HolidayResortBattleLevelInfo holiday_resort_battle_level_info = 15244;</code>
      * @return The holidayResortBattleLevelInfo.
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfo getHolidayResortBattleLevelInfo() {
-      if (detailCase_ == 10504) {
+      if (detailCase_ == 15244) {
          return (emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfo) detail_;
       }
       return emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfo.getDefaultInstance();
     }
     /**
-     * <code>._HolidayResortBattleLevelInfo holiday_resort_battle_level_info = 10504;</code>
+     * <code>._HolidayResortBattleLevelInfo holiday_resort_battle_level_info = 15244;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfoOrBuilder getHolidayResortBattleLevelInfoOrBuilder() {
-      if (detailCase_ == 10504) {
+      if (detailCase_ == 15244) {
          return (emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfo) detail_;
       }
       return emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfo.getDefaultInstance();
     }
 
-    public static final int HOLIDAY_RESORT_GRAFFITI_LEVEL_INFO_FIELD_NUMBER = 13156;
+    public static final int HOLIDAY_RESORT_GRAFFITI_LEVEL_INFO_FIELD_NUMBER = 3559;
     /**
-     * <code>._HolidayResortGraffitiLevelInfo holiday_resort_graffiti_level_info = 13156;</code>
+     * <code>._HolidayResortGraffitiLevelInfo holiday_resort_graffiti_level_info = 3559;</code>
      * @return Whether the holidayResortGraffitiLevelInfo field is set.
      */
     @java.lang.Override
     public boolean hasHolidayResortGraffitiLevelInfo() {
-      return detailCase_ == 13156;
+      return detailCase_ == 3559;
     }
     /**
-     * <code>._HolidayResortGraffitiLevelInfo holiday_resort_graffiti_level_info = 13156;</code>
+     * <code>._HolidayResortGraffitiLevelInfo holiday_resort_graffiti_level_info = 3559;</code>
      * @return The holidayResortGraffitiLevelInfo.
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfo getHolidayResortGraffitiLevelInfo() {
-      if (detailCase_ == 13156) {
+      if (detailCase_ == 3559) {
          return (emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfo) detail_;
       }
       return emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfo.getDefaultInstance();
     }
     /**
-     * <code>._HolidayResortGraffitiLevelInfo holiday_resort_graffiti_level_info = 13156;</code>
+     * <code>._HolidayResortGraffitiLevelInfo holiday_resort_graffiti_level_info = 3559;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfoOrBuilder getHolidayResortGraffitiLevelInfoOrBuilder() {
-      if (detailCase_ == 13156) {
+      if (detailCase_ == 3559) {
          return (emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfo) detail_;
       }
       return emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfo.getDefaultInstance();
     }
 
-    public static final int HOLIDAY_RESORT_ADVENTURE_LEVEL_INFO_FIELD_NUMBER = 13427;
+    public static final int HOLIDAY_RESORT_ADVENTURE_LEVEL_INFO_FIELD_NUMBER = 16985;
     /**
-     * <code>._HolidayResortAdventureLevelInfo holiday_resort_adventure_level_info = 13427;</code>
+     * <code>._HolidayResortAdventureLevelInfo holiday_resort_adventure_level_info = 16985;</code>
      * @return Whether the holidayResortAdventureLevelInfo field is set.
      */
     @java.lang.Override
     public boolean hasHolidayResortAdventureLevelInfo() {
-      return detailCase_ == 13427;
+      return detailCase_ == 16985;
     }
     /**
-     * <code>._HolidayResortAdventureLevelInfo holiday_resort_adventure_level_info = 13427;</code>
+     * <code>._HolidayResortAdventureLevelInfo holiday_resort_adventure_level_info = 16985;</code>
      * @return The holidayResortAdventureLevelInfo.
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfo getHolidayResortAdventureLevelInfo() {
-      if (detailCase_ == 13427) {
+      if (detailCase_ == 16985) {
          return (emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfo) detail_;
       }
       return emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfo.getDefaultInstance();
     }
     /**
-     * <code>._HolidayResortAdventureLevelInfo holiday_resort_adventure_level_info = 13427;</code>
+     * <code>._HolidayResortAdventureLevelInfo holiday_resort_adventure_level_info = 16985;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfoOrBuilder getHolidayResortAdventureLevelInfoOrBuilder() {
-      if (detailCase_ == 13427) {
+      if (detailCase_ == 16985) {
          return (emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfo) detail_;
       }
       return emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfo.getDefaultInstance();
     }
 
-    public static final int DIVERSITY_BATTLE_LEVEL_INFO_FIELD_NUMBER = 13523;
+    public static final int DIVERSITY_BATTLE_LEVEL_INFO_FIELD_NUMBER = 13714;
     /**
-     * <code>._DiversityBattleLevelInfo diversity_battle_level_info = 13523;</code>
+     * <code>._DiversityBattleLevelInfo diversity_battle_level_info = 13714;</code>
      * @return Whether the diversityBattleLevelInfo field is set.
      */
     @java.lang.Override
     public boolean hasDiversityBattleLevelInfo() {
-      return detailCase_ == 13523;
+      return detailCase_ == 13714;
     }
     /**
-     * <code>._DiversityBattleLevelInfo diversity_battle_level_info = 13523;</code>
+     * <code>._DiversityBattleLevelInfo diversity_battle_level_info = 13714;</code>
      * @return The diversityBattleLevelInfo.
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfo getDiversityBattleLevelInfo() {
-      if (detailCase_ == 13523) {
+      if (detailCase_ == 13714) {
          return (emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfo) detail_;
       }
       return emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfo.getDefaultInstance();
     }
     /**
-     * <code>._DiversityBattleLevelInfo diversity_battle_level_info = 13523;</code>
+     * <code>._DiversityBattleLevelInfo diversity_battle_level_info = 13714;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfoOrBuilder getDiversityBattleLevelInfoOrBuilder() {
-      if (detailCase_ == 13523) {
+      if (detailCase_ == 13714) {
          return (emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfo) detail_;
       }
       return emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfo.getDefaultInstance();
     }
 
-    public static final int INAZUMA_BADMINTON_LEVEL_INFO_FIELD_NUMBER = 15324;
+    public static final int INAZUMA_BADMINTON_LEVEL_INFO_FIELD_NUMBER = 7244;
     /**
-     * <code>._InazumaBadmintonLevelInfo inazuma_badminton_level_info = 15324;</code>
+     * <code>._InazumaBadmintonLevelInfo inazuma_badminton_level_info = 7244;</code>
      * @return Whether the inazumaBadmintonLevelInfo field is set.
      */
     @java.lang.Override
     public boolean hasInazumaBadmintonLevelInfo() {
-      return detailCase_ == 15324;
+      return detailCase_ == 7244;
     }
     /**
-     * <code>._InazumaBadmintonLevelInfo inazuma_badminton_level_info = 15324;</code>
+     * <code>._InazumaBadmintonLevelInfo inazuma_badminton_level_info = 7244;</code>
      * @return The inazumaBadmintonLevelInfo.
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfo getInazumaBadmintonLevelInfo() {
-      if (detailCase_ == 15324) {
+      if (detailCase_ == 7244) {
          return (emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfo) detail_;
       }
       return emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfo.getDefaultInstance();
     }
     /**
-     * <code>._InazumaBadmintonLevelInfo inazuma_badminton_level_info = 15324;</code>
+     * <code>._InazumaBadmintonLevelInfo inazuma_badminton_level_info = 7244;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfoOrBuilder getInazumaBadmintonLevelInfoOrBuilder() {
-      if (detailCase_ == 15324) {
+      if (detailCase_ == 7244) {
          return (emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfo) detail_;
       }
       return emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfo.getDefaultInstance();
     }
 
-    public static final int PARTY_LEVEL_INFO_FIELD_NUMBER = 15619;
+    public static final int PARTY_LEVEL_INFO_FIELD_NUMBER = 12362;
     /**
-     * <code>._PartyLevelInfo party_level_info = 15619;</code>
+     * <code>._PartyLevelInfo party_level_info = 12362;</code>
      * @return Whether the partyLevelInfo field is set.
      */
     @java.lang.Override
     public boolean hasPartyLevelInfo() {
-      return detailCase_ == 15619;
+      return detailCase_ == 12362;
     }
     /**
-     * <code>._PartyLevelInfo party_level_info = 15619;</code>
+     * <code>._PartyLevelInfo party_level_info = 12362;</code>
      * @return The partyLevelInfo.
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfo getPartyLevelInfo() {
-      if (detailCase_ == 15619) {
+      if (detailCase_ == 12362) {
          return (emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfo) detail_;
       }
       return emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfo.getDefaultInstance();
     }
     /**
-     * <code>._PartyLevelInfo party_level_info = 15619;</code>
+     * <code>._PartyLevelInfo party_level_info = 12362;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfoOrBuilder getPartyLevelInfoOrBuilder() {
-      if (detailCase_ == 15619) {
+      if (detailCase_ == 12362) {
          return (emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfo) detail_;
       }
       return emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfo.getDefaultInstance();
     }
 
-    public static final int ONE_SHOT_LEVEL_INFO_FIELD_NUMBER = 16358;
+    public static final int ONE_SHOT_LEVEL_INFO_FIELD_NUMBER = 2497;
     /**
-     * <code>._OneShotLevelInfo one_shot_level_info = 16358;</code>
+     * <code>._OneShotLevelInfo one_shot_level_info = 2497;</code>
      * @return Whether the oneShotLevelInfo field is set.
      */
     @java.lang.Override
     public boolean hasOneShotLevelInfo() {
-      return detailCase_ == 16358;
+      return detailCase_ == 2497;
     }
     /**
-     * <code>._OneShotLevelInfo one_shot_level_info = 16358;</code>
+     * <code>._OneShotLevelInfo one_shot_level_info = 2497;</code>
      * @return The oneShotLevelInfo.
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._OneShotLevelInfoOuterClass._OneShotLevelInfo getOneShotLevelInfo() {
-      if (detailCase_ == 16358) {
+      if (detailCase_ == 2497) {
          return (emu.grasscutter.net.proto._OneShotLevelInfoOuterClass._OneShotLevelInfo) detail_;
       }
       return emu.grasscutter.net.proto._OneShotLevelInfoOuterClass._OneShotLevelInfo.getDefaultInstance();
     }
     /**
-     * <code>._OneShotLevelInfo one_shot_level_info = 16358;</code>
+     * <code>._OneShotLevelInfo one_shot_level_info = 2497;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._OneShotLevelInfoOuterClass._OneShotLevelInfoOrBuilder getOneShotLevelInfoOrBuilder() {
-      if (detailCase_ == 16358) {
+      if (detailCase_ == 2497) {
          return (emu.grasscutter.net.proto._OneShotLevelInfoOuterClass._OneShotLevelInfo) detail_;
       }
       return emu.grasscutter.net.proto._OneShotLevelInfoOuterClass._OneShotLevelInfo.getDefaultInstance();
     }
 
-    public static final int DOPPELGANGER_PUZZLE_LEVEL_INFO_FIELD_NUMBER = 16864;
+    public static final int DOPPELGANGER_PUZZLE_LEVEL_INFO_FIELD_NUMBER = 6059;
     /**
-     * <code>._DoppelgangerPuzzleLevelInfo doppelganger_puzzle_level_info = 16864;</code>
+     * <code>._DoppelgangerPuzzleLevelInfo doppelganger_puzzle_level_info = 6059;</code>
      * @return Whether the doppelgangerPuzzleLevelInfo field is set.
      */
     @java.lang.Override
     public boolean hasDoppelgangerPuzzleLevelInfo() {
-      return detailCase_ == 16864;
+      return detailCase_ == 6059;
     }
     /**
-     * <code>._DoppelgangerPuzzleLevelInfo doppelganger_puzzle_level_info = 16864;</code>
+     * <code>._DoppelgangerPuzzleLevelInfo doppelganger_puzzle_level_info = 6059;</code>
      * @return The doppelgangerPuzzleLevelInfo.
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._DoppelgangerPuzzleLevelInfoOuterClass._DoppelgangerPuzzleLevelInfo getDoppelgangerPuzzleLevelInfo() {
-      if (detailCase_ == 16864) {
+      if (detailCase_ == 6059) {
          return (emu.grasscutter.net.proto._DoppelgangerPuzzleLevelInfoOuterClass._DoppelgangerPuzzleLevelInfo) detail_;
       }
       return emu.grasscutter.net.proto._DoppelgangerPuzzleLevelInfoOuterClass._DoppelgangerPuzzleLevelInfo.getDefaultInstance();
     }
     /**
-     * <code>._DoppelgangerPuzzleLevelInfo doppelganger_puzzle_level_info = 16864;</code>
+     * <code>._DoppelgangerPuzzleLevelInfo doppelganger_puzzle_level_info = 6059;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._DoppelgangerPuzzleLevelInfoOuterClass._DoppelgangerPuzzleLevelInfoOrBuilder getDoppelgangerPuzzleLevelInfoOrBuilder() {
-      if (detailCase_ == 16864) {
+      if (detailCase_ == 6059) {
          return (emu.grasscutter.net.proto._DoppelgangerPuzzleLevelInfoOuterClass._DoppelgangerPuzzleLevelInfo) detail_;
       }
       return emu.grasscutter.net.proto._DoppelgangerPuzzleLevelInfoOuterClass._DoppelgangerPuzzleLevelInfo.getDefaultInstance();
     }
 
-    public static final int BUBBLE_DRAMA_PHOTO_LEVEL_INFO_FIELD_NUMBER = 17426;
+    public static final int BUBBLE_DRAMA_PHOTO_LEVEL_INFO_FIELD_NUMBER = 13791;
     /**
-     * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
+     * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 13791;</code>
      * @return Whether the bubbleDramaPhotoLevelInfo field is set.
      */
     @java.lang.Override
     public boolean hasBubbleDramaPhotoLevelInfo() {
-      return detailCase_ == 17426;
+      return detailCase_ == 13791;
     }
     /**
-     * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
+     * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 13791;</code>
      * @return The bubbleDramaPhotoLevelInfo.
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo getBubbleDramaPhotoLevelInfo() {
-      if (detailCase_ == 17426) {
+      if (detailCase_ == 13791) {
          return (emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo) detail_;
       }
       return emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo.getDefaultInstance();
     }
     /**
-     * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
+     * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 13791;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfoOrBuilder getBubbleDramaPhotoLevelInfoOrBuilder() {
-      if (detailCase_ == 17426) {
+      if (detailCase_ == 13791) {
          return (emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo) detail_;
       }
       return emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo.getDefaultInstance();
     }
 
-    public static final int DREAM_SWITCHING_LEVEL_INFO_FIELD_NUMBER = 17851;
+    public static final int DREAM_SWITCHING_LEVEL_INFO_FIELD_NUMBER = 12236;
     /**
-     * <code>._DreamSwitchingLevelInfo dream_switching_level_info = 17851;</code>
+     * <code>._DreamSwitchingLevelInfo dream_switching_level_info = 12236;</code>
      * @return Whether the dreamSwitchingLevelInfo field is set.
      */
     @java.lang.Override
     public boolean hasDreamSwitchingLevelInfo() {
-      return detailCase_ == 17851;
+      return detailCase_ == 12236;
     }
     /**
-     * <code>._DreamSwitchingLevelInfo dream_switching_level_info = 17851;</code>
+     * <code>._DreamSwitchingLevelInfo dream_switching_level_info = 12236;</code>
      * @return The dreamSwitchingLevelInfo.
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._DreamSwitchingLevelInfoOuterClass._DreamSwitchingLevelInfo getDreamSwitchingLevelInfo() {
-      if (detailCase_ == 17851) {
+      if (detailCase_ == 12236) {
          return (emu.grasscutter.net.proto._DreamSwitchingLevelInfoOuterClass._DreamSwitchingLevelInfo) detail_;
       }
       return emu.grasscutter.net.proto._DreamSwitchingLevelInfoOuterClass._DreamSwitchingLevelInfo.getDefaultInstance();
     }
     /**
-     * <code>._DreamSwitchingLevelInfo dream_switching_level_info = 17851;</code>
+     * <code>._DreamSwitchingLevelInfo dream_switching_level_info = 12236;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._DreamSwitchingLevelInfoOuterClass._DreamSwitchingLevelInfoOrBuilder getDreamSwitchingLevelInfoOrBuilder() {
-      if (detailCase_ == 17851) {
+      if (detailCase_ == 12236) {
          return (emu.grasscutter.net.proto._DreamSwitchingLevelInfoOuterClass._DreamSwitchingLevelInfo) detail_;
       }
       return emu.grasscutter.net.proto._DreamSwitchingLevelInfoOuterClass._DreamSwitchingLevelInfo.getDefaultInstance();
     }
 
-    public static final int SUMERU_ADVENTURE_GOAL_FIGHTING_LEVEL_INFO_FIELD_NUMBER = 18549;
+    public static final int SUMERU_ADVENTURE_GOAL_FIGHTING_LEVEL_INFO_FIELD_NUMBER = 18078;
     /**
-     * <code>._SumeruAdventureGoalFightingLevelInfo sumeru_adventure_goal_fighting_level_info = 18549;</code>
+     * <code>._SumeruAdventureGoalFightingLevelInfo sumeru_adventure_goal_fighting_level_info = 18078;</code>
      * @return Whether the sumeruAdventureGoalFightingLevelInfo field is set.
      */
     @java.lang.Override
     public boolean hasSumeruAdventureGoalFightingLevelInfo() {
-      return detailCase_ == 18549;
+      return detailCase_ == 18078;
     }
     /**
-     * <code>._SumeruAdventureGoalFightingLevelInfo sumeru_adventure_goal_fighting_level_info = 18549;</code>
+     * <code>._SumeruAdventureGoalFightingLevelInfo sumeru_adventure_goal_fighting_level_info = 18078;</code>
      * @return The sumeruAdventureGoalFightingLevelInfo.
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._SumeruAdventureGoalFightingLevelInfoOuterClass._SumeruAdventureGoalFightingLevelInfo getSumeruAdventureGoalFightingLevelInfo() {
-      if (detailCase_ == 18549) {
+      if (detailCase_ == 18078) {
          return (emu.grasscutter.net.proto._SumeruAdventureGoalFightingLevelInfoOuterClass._SumeruAdventureGoalFightingLevelInfo) detail_;
       }
       return emu.grasscutter.net.proto._SumeruAdventureGoalFightingLevelInfoOuterClass._SumeruAdventureGoalFightingLevelInfo.getDefaultInstance();
     }
     /**
-     * <code>._SumeruAdventureGoalFightingLevelInfo sumeru_adventure_goal_fighting_level_info = 18549;</code>
+     * <code>._SumeruAdventureGoalFightingLevelInfo sumeru_adventure_goal_fighting_level_info = 18078;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._SumeruAdventureGoalFightingLevelInfoOuterClass._SumeruAdventureGoalFightingLevelInfoOrBuilder getSumeruAdventureGoalFightingLevelInfoOrBuilder() {
-      if (detailCase_ == 18549) {
+      if (detailCase_ == 18078) {
          return (emu.grasscutter.net.proto._SumeruAdventureGoalFightingLevelInfoOuterClass._SumeruAdventureGoalFightingLevelInfo) detail_;
       }
       return emu.grasscutter.net.proto._SumeruAdventureGoalFightingLevelInfoOuterClass._SumeruAdventureGoalFightingLevelInfo.getDefaultInstance();
@@ -1326,62 +1326,62 @@ public final class _ClientPlayDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (detailCase_ == 3228) {
-        output.writeMessage(3228, (emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfo) detail_);
+      if (detailCase_ == 2497) {
+        output.writeMessage(2497, (emu.grasscutter.net.proto._OneShotLevelInfoOuterClass._OneShotLevelInfo) detail_);
       }
-      if (detailCase_ == 4424) {
-        output.writeMessage(4424, (emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfo) detail_);
+      if (detailCase_ == 3559) {
+        output.writeMessage(3559, (emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfo) detail_);
       }
-      if (detailCase_ == 4862) {
-        output.writeMessage(4862, (emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfo) detail_);
+      if (detailCase_ == 4911) {
+        output.writeMessage(4911, (emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfo) detail_);
       }
-      if (detailCase_ == 6393) {
-        output.writeMessage(6393, (emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfo) detail_);
+      if (detailCase_ == 5775) {
+        output.writeMessage(5775, (emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfo) detail_);
       }
-      if (detailCase_ == 7133) {
-        output.writeMessage(7133, (emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfo) detail_);
+      if (detailCase_ == 6059) {
+        output.writeMessage(6059, (emu.grasscutter.net.proto._DoppelgangerPuzzleLevelInfoOuterClass._DoppelgangerPuzzleLevelInfo) detail_);
       }
-      if (detailCase_ == 7860) {
-        output.writeMessage(7860, (emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfo) detail_);
+      if (detailCase_ == 6963) {
+        output.writeMessage(6963, (emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfo) detail_);
       }
-      if (detailCase_ == 8493) {
-        output.writeMessage(8493, (emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfo) detail_);
+      if (detailCase_ == 7244) {
+        output.writeMessage(7244, (emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfo) detail_);
       }
-      if (detailCase_ == 10385) {
-        output.writeMessage(10385, (emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfo) detail_);
+      if (detailCase_ == 7731) {
+        output.writeMessage(7731, (emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfo) detail_);
       }
-      if (detailCase_ == 10504) {
-        output.writeMessage(10504, (emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfo) detail_);
+      if (detailCase_ == 9169) {
+        output.writeMessage(9169, (emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfo) detail_);
       }
-      if (detailCase_ == 13156) {
-        output.writeMessage(13156, (emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfo) detail_);
+      if (detailCase_ == 11517) {
+        output.writeMessage(11517, (emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfo) detail_);
       }
-      if (detailCase_ == 13427) {
-        output.writeMessage(13427, (emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfo) detail_);
+      if (detailCase_ == 12236) {
+        output.writeMessage(12236, (emu.grasscutter.net.proto._DreamSwitchingLevelInfoOuterClass._DreamSwitchingLevelInfo) detail_);
       }
-      if (detailCase_ == 13523) {
-        output.writeMessage(13523, (emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfo) detail_);
+      if (detailCase_ == 12362) {
+        output.writeMessage(12362, (emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfo) detail_);
       }
-      if (detailCase_ == 15324) {
-        output.writeMessage(15324, (emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfo) detail_);
+      if (detailCase_ == 12372) {
+        output.writeMessage(12372, (emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfo) detail_);
       }
-      if (detailCase_ == 15619) {
-        output.writeMessage(15619, (emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfo) detail_);
+      if (detailCase_ == 13714) {
+        output.writeMessage(13714, (emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfo) detail_);
       }
-      if (detailCase_ == 16358) {
-        output.writeMessage(16358, (emu.grasscutter.net.proto._OneShotLevelInfoOuterClass._OneShotLevelInfo) detail_);
+      if (detailCase_ == 13791) {
+        output.writeMessage(13791, (emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo) detail_);
       }
-      if (detailCase_ == 16864) {
-        output.writeMessage(16864, (emu.grasscutter.net.proto._DoppelgangerPuzzleLevelInfoOuterClass._DoppelgangerPuzzleLevelInfo) detail_);
+      if (detailCase_ == 15244) {
+        output.writeMessage(15244, (emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfo) detail_);
       }
-      if (detailCase_ == 17426) {
-        output.writeMessage(17426, (emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo) detail_);
+      if (detailCase_ == 15906) {
+        output.writeMessage(15906, (emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfo) detail_);
       }
-      if (detailCase_ == 17851) {
-        output.writeMessage(17851, (emu.grasscutter.net.proto._DreamSwitchingLevelInfoOuterClass._DreamSwitchingLevelInfo) detail_);
+      if (detailCase_ == 16985) {
+        output.writeMessage(16985, (emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfo) detail_);
       }
-      if (detailCase_ == 18549) {
-        output.writeMessage(18549, (emu.grasscutter.net.proto._SumeruAdventureGoalFightingLevelInfoOuterClass._SumeruAdventureGoalFightingLevelInfo) detail_);
+      if (detailCase_ == 18078) {
+        output.writeMessage(18078, (emu.grasscutter.net.proto._SumeruAdventureGoalFightingLevelInfoOuterClass._SumeruAdventureGoalFightingLevelInfo) detail_);
       }
       unknownFields.writeTo(output);
     }
@@ -1392,81 +1392,81 @@ public final class _ClientPlayDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (detailCase_ == 3228) {
+      if (detailCase_ == 2497) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3228, (emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfo) detail_);
+          .computeMessageSize(2497, (emu.grasscutter.net.proto._OneShotLevelInfoOuterClass._OneShotLevelInfo) detail_);
       }
-      if (detailCase_ == 4424) {
+      if (detailCase_ == 3559) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4424, (emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfo) detail_);
+          .computeMessageSize(3559, (emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfo) detail_);
       }
-      if (detailCase_ == 4862) {
+      if (detailCase_ == 4911) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4862, (emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfo) detail_);
+          .computeMessageSize(4911, (emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfo) detail_);
       }
-      if (detailCase_ == 6393) {
+      if (detailCase_ == 5775) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6393, (emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfo) detail_);
+          .computeMessageSize(5775, (emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfo) detail_);
       }
-      if (detailCase_ == 7133) {
+      if (detailCase_ == 6059) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7133, (emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfo) detail_);
+          .computeMessageSize(6059, (emu.grasscutter.net.proto._DoppelgangerPuzzleLevelInfoOuterClass._DoppelgangerPuzzleLevelInfo) detail_);
       }
-      if (detailCase_ == 7860) {
+      if (detailCase_ == 6963) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7860, (emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfo) detail_);
+          .computeMessageSize(6963, (emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfo) detail_);
       }
-      if (detailCase_ == 8493) {
+      if (detailCase_ == 7244) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8493, (emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfo) detail_);
+          .computeMessageSize(7244, (emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfo) detail_);
       }
-      if (detailCase_ == 10385) {
+      if (detailCase_ == 7731) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10385, (emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfo) detail_);
+          .computeMessageSize(7731, (emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfo) detail_);
       }
-      if (detailCase_ == 10504) {
+      if (detailCase_ == 9169) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10504, (emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfo) detail_);
+          .computeMessageSize(9169, (emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfo) detail_);
       }
-      if (detailCase_ == 13156) {
+      if (detailCase_ == 11517) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13156, (emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfo) detail_);
+          .computeMessageSize(11517, (emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfo) detail_);
       }
-      if (detailCase_ == 13427) {
+      if (detailCase_ == 12236) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13427, (emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfo) detail_);
+          .computeMessageSize(12236, (emu.grasscutter.net.proto._DreamSwitchingLevelInfoOuterClass._DreamSwitchingLevelInfo) detail_);
       }
-      if (detailCase_ == 13523) {
+      if (detailCase_ == 12362) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13523, (emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfo) detail_);
+          .computeMessageSize(12362, (emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfo) detail_);
       }
-      if (detailCase_ == 15324) {
+      if (detailCase_ == 12372) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15324, (emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfo) detail_);
+          .computeMessageSize(12372, (emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfo) detail_);
       }
-      if (detailCase_ == 15619) {
+      if (detailCase_ == 13714) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15619, (emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfo) detail_);
+          .computeMessageSize(13714, (emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfo) detail_);
       }
-      if (detailCase_ == 16358) {
+      if (detailCase_ == 13791) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(16358, (emu.grasscutter.net.proto._OneShotLevelInfoOuterClass._OneShotLevelInfo) detail_);
+          .computeMessageSize(13791, (emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo) detail_);
       }
-      if (detailCase_ == 16864) {
+      if (detailCase_ == 15244) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(16864, (emu.grasscutter.net.proto._DoppelgangerPuzzleLevelInfoOuterClass._DoppelgangerPuzzleLevelInfo) detail_);
+          .computeMessageSize(15244, (emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfo) detail_);
       }
-      if (detailCase_ == 17426) {
+      if (detailCase_ == 15906) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(17426, (emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo) detail_);
+          .computeMessageSize(15906, (emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfo) detail_);
       }
-      if (detailCase_ == 17851) {
+      if (detailCase_ == 16985) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(17851, (emu.grasscutter.net.proto._DreamSwitchingLevelInfoOuterClass._DreamSwitchingLevelInfo) detail_);
+          .computeMessageSize(16985, (emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfo) detail_);
       }
-      if (detailCase_ == 18549) {
+      if (detailCase_ == 18078) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(18549, (emu.grasscutter.net.proto._SumeruAdventureGoalFightingLevelInfoOuterClass._SumeruAdventureGoalFightingLevelInfo) detail_);
+          .computeMessageSize(18078, (emu.grasscutter.net.proto._SumeruAdventureGoalFightingLevelInfoOuterClass._SumeruAdventureGoalFightingLevelInfo) detail_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1485,79 +1485,79 @@ public final class _ClientPlayDetailInfoOuterClass {
 
       if (!getDetailCase().equals(other.getDetailCase())) return false;
       switch (detailCase_) {
-        case 3228:
+        case 11517:
           if (!getRankedMatchTrainLevelInfo()
               .equals(other.getRankedMatchTrainLevelInfo())) return false;
           break;
-        case 4424:
+        case 12372:
           if (!getAutochessLevelInfo()
               .equals(other.getAutochessLevelInfo())) return false;
           break;
-        case 4862:
+        case 6963:
           if (!getHolidayResortSniperLevelInfo()
               .equals(other.getHolidayResortSniperLevelInfo())) return false;
           break;
-        case 6393:
+        case 7731:
           if (!getTowerDefenseLevelInfo()
               .equals(other.getTowerDefenseLevelInfo())) return false;
           break;
-        case 7133:
+        case 9169:
           if (!getMapMarkLevelInfo()
               .equals(other.getMapMarkLevelInfo())) return false;
           break;
-        case 7860:
+        case 15906:
           if (!getNatlanDrillBattleLevelInfo()
               .equals(other.getNatlanDrillBattleLevelInfo())) return false;
           break;
-        case 8493:
+        case 4911:
           if (!getLoliJumpLevelInfo()
               .equals(other.getLoliJumpLevelInfo())) return false;
           break;
-        case 10385:
+        case 5775:
           if (!getBladeHeartLevelInfo()
               .equals(other.getBladeHeartLevelInfo())) return false;
           break;
-        case 10504:
+        case 15244:
           if (!getHolidayResortBattleLevelInfo()
               .equals(other.getHolidayResortBattleLevelInfo())) return false;
           break;
-        case 13156:
+        case 3559:
           if (!getHolidayResortGraffitiLevelInfo()
               .equals(other.getHolidayResortGraffitiLevelInfo())) return false;
           break;
-        case 13427:
+        case 16985:
           if (!getHolidayResortAdventureLevelInfo()
               .equals(other.getHolidayResortAdventureLevelInfo())) return false;
           break;
-        case 13523:
+        case 13714:
           if (!getDiversityBattleLevelInfo()
               .equals(other.getDiversityBattleLevelInfo())) return false;
           break;
-        case 15324:
+        case 7244:
           if (!getInazumaBadmintonLevelInfo()
               .equals(other.getInazumaBadmintonLevelInfo())) return false;
           break;
-        case 15619:
+        case 12362:
           if (!getPartyLevelInfo()
               .equals(other.getPartyLevelInfo())) return false;
           break;
-        case 16358:
+        case 2497:
           if (!getOneShotLevelInfo()
               .equals(other.getOneShotLevelInfo())) return false;
           break;
-        case 16864:
+        case 6059:
           if (!getDoppelgangerPuzzleLevelInfo()
               .equals(other.getDoppelgangerPuzzleLevelInfo())) return false;
           break;
-        case 17426:
+        case 13791:
           if (!getBubbleDramaPhotoLevelInfo()
               .equals(other.getBubbleDramaPhotoLevelInfo())) return false;
           break;
-        case 17851:
+        case 12236:
           if (!getDreamSwitchingLevelInfo()
               .equals(other.getDreamSwitchingLevelInfo())) return false;
           break;
-        case 18549:
+        case 18078:
           if (!getSumeruAdventureGoalFightingLevelInfo()
               .equals(other.getSumeruAdventureGoalFightingLevelInfo())) return false;
           break;
@@ -1576,79 +1576,79 @@ public final class _ClientPlayDetailInfoOuterClass {
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
       switch (detailCase_) {
-        case 3228:
+        case 11517:
           hash = (37 * hash) + RANKED_MATCH_TRAIN_LEVEL_INFO_FIELD_NUMBER;
           hash = (53 * hash) + getRankedMatchTrainLevelInfo().hashCode();
           break;
-        case 4424:
+        case 12372:
           hash = (37 * hash) + AUTOCHESS_LEVEL_INFO_FIELD_NUMBER;
           hash = (53 * hash) + getAutochessLevelInfo().hashCode();
           break;
-        case 4862:
+        case 6963:
           hash = (37 * hash) + HOLIDAY_RESORT_SNIPER_LEVEL_INFO_FIELD_NUMBER;
           hash = (53 * hash) + getHolidayResortSniperLevelInfo().hashCode();
           break;
-        case 6393:
+        case 7731:
           hash = (37 * hash) + TOWER_DEFENSE_LEVEL_INFO_FIELD_NUMBER;
           hash = (53 * hash) + getTowerDefenseLevelInfo().hashCode();
           break;
-        case 7133:
+        case 9169:
           hash = (37 * hash) + MAP_MARK_LEVEL_INFO_FIELD_NUMBER;
           hash = (53 * hash) + getMapMarkLevelInfo().hashCode();
           break;
-        case 7860:
+        case 15906:
           hash = (37 * hash) + NATLAN_DRILL_BATTLE_LEVEL_INFO_FIELD_NUMBER;
           hash = (53 * hash) + getNatlanDrillBattleLevelInfo().hashCode();
           break;
-        case 8493:
+        case 4911:
           hash = (37 * hash) + LOLI_JUMP_LEVEL_INFO_FIELD_NUMBER;
           hash = (53 * hash) + getLoliJumpLevelInfo().hashCode();
           break;
-        case 10385:
+        case 5775:
           hash = (37 * hash) + BLADE_HEART_LEVEL_INFO_FIELD_NUMBER;
           hash = (53 * hash) + getBladeHeartLevelInfo().hashCode();
           break;
-        case 10504:
+        case 15244:
           hash = (37 * hash) + HOLIDAY_RESORT_BATTLE_LEVEL_INFO_FIELD_NUMBER;
           hash = (53 * hash) + getHolidayResortBattleLevelInfo().hashCode();
           break;
-        case 13156:
+        case 3559:
           hash = (37 * hash) + HOLIDAY_RESORT_GRAFFITI_LEVEL_INFO_FIELD_NUMBER;
           hash = (53 * hash) + getHolidayResortGraffitiLevelInfo().hashCode();
           break;
-        case 13427:
+        case 16985:
           hash = (37 * hash) + HOLIDAY_RESORT_ADVENTURE_LEVEL_INFO_FIELD_NUMBER;
           hash = (53 * hash) + getHolidayResortAdventureLevelInfo().hashCode();
           break;
-        case 13523:
+        case 13714:
           hash = (37 * hash) + DIVERSITY_BATTLE_LEVEL_INFO_FIELD_NUMBER;
           hash = (53 * hash) + getDiversityBattleLevelInfo().hashCode();
           break;
-        case 15324:
+        case 7244:
           hash = (37 * hash) + INAZUMA_BADMINTON_LEVEL_INFO_FIELD_NUMBER;
           hash = (53 * hash) + getInazumaBadmintonLevelInfo().hashCode();
           break;
-        case 15619:
+        case 12362:
           hash = (37 * hash) + PARTY_LEVEL_INFO_FIELD_NUMBER;
           hash = (53 * hash) + getPartyLevelInfo().hashCode();
           break;
-        case 16358:
+        case 2497:
           hash = (37 * hash) + ONE_SHOT_LEVEL_INFO_FIELD_NUMBER;
           hash = (53 * hash) + getOneShotLevelInfo().hashCode();
           break;
-        case 16864:
+        case 6059:
           hash = (37 * hash) + DOPPELGANGER_PUZZLE_LEVEL_INFO_FIELD_NUMBER;
           hash = (53 * hash) + getDoppelgangerPuzzleLevelInfo().hashCode();
           break;
-        case 17426:
+        case 13791:
           hash = (37 * hash) + BUBBLE_DRAMA_PHOTO_LEVEL_INFO_FIELD_NUMBER;
           hash = (53 * hash) + getBubbleDramaPhotoLevelInfo().hashCode();
           break;
-        case 17851:
+        case 12236:
           hash = (37 * hash) + DREAM_SWITCHING_LEVEL_INFO_FIELD_NUMBER;
           hash = (53 * hash) + getDreamSwitchingLevelInfo().hashCode();
           break;
-        case 18549:
+        case 18078:
           hash = (37 * hash) + SUMERU_ADVENTURE_GOAL_FIGHTING_LEVEL_INFO_FIELD_NUMBER;
           hash = (53 * hash) + getSumeruAdventureGoalFightingLevelInfo().hashCode();
           break;
@@ -1816,133 +1816,133 @@ public final class _ClientPlayDetailInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto._ClientPlayDetailInfoOuterClass._ClientPlayDetailInfo buildPartial() {
         emu.grasscutter.net.proto._ClientPlayDetailInfoOuterClass._ClientPlayDetailInfo result = new emu.grasscutter.net.proto._ClientPlayDetailInfoOuterClass._ClientPlayDetailInfo(this);
-        if (detailCase_ == 3228) {
+        if (detailCase_ == 11517) {
           if (rankedMatchTrainLevelInfoBuilder_ == null) {
             result.detail_ = detail_;
           } else {
             result.detail_ = rankedMatchTrainLevelInfoBuilder_.build();
           }
         }
-        if (detailCase_ == 4424) {
+        if (detailCase_ == 12372) {
           if (autochessLevelInfoBuilder_ == null) {
             result.detail_ = detail_;
           } else {
             result.detail_ = autochessLevelInfoBuilder_.build();
           }
         }
-        if (detailCase_ == 4862) {
+        if (detailCase_ == 6963) {
           if (holidayResortSniperLevelInfoBuilder_ == null) {
             result.detail_ = detail_;
           } else {
             result.detail_ = holidayResortSniperLevelInfoBuilder_.build();
           }
         }
-        if (detailCase_ == 6393) {
+        if (detailCase_ == 7731) {
           if (towerDefenseLevelInfoBuilder_ == null) {
             result.detail_ = detail_;
           } else {
             result.detail_ = towerDefenseLevelInfoBuilder_.build();
           }
         }
-        if (detailCase_ == 7133) {
+        if (detailCase_ == 9169) {
           if (mapMarkLevelInfoBuilder_ == null) {
             result.detail_ = detail_;
           } else {
             result.detail_ = mapMarkLevelInfoBuilder_.build();
           }
         }
-        if (detailCase_ == 7860) {
+        if (detailCase_ == 15906) {
           if (natlanDrillBattleLevelInfoBuilder_ == null) {
             result.detail_ = detail_;
           } else {
             result.detail_ = natlanDrillBattleLevelInfoBuilder_.build();
           }
         }
-        if (detailCase_ == 8493) {
+        if (detailCase_ == 4911) {
           if (loliJumpLevelInfoBuilder_ == null) {
             result.detail_ = detail_;
           } else {
             result.detail_ = loliJumpLevelInfoBuilder_.build();
           }
         }
-        if (detailCase_ == 10385) {
+        if (detailCase_ == 5775) {
           if (bladeHeartLevelInfoBuilder_ == null) {
             result.detail_ = detail_;
           } else {
             result.detail_ = bladeHeartLevelInfoBuilder_.build();
           }
         }
-        if (detailCase_ == 10504) {
+        if (detailCase_ == 15244) {
           if (holidayResortBattleLevelInfoBuilder_ == null) {
             result.detail_ = detail_;
           } else {
             result.detail_ = holidayResortBattleLevelInfoBuilder_.build();
           }
         }
-        if (detailCase_ == 13156) {
+        if (detailCase_ == 3559) {
           if (holidayResortGraffitiLevelInfoBuilder_ == null) {
             result.detail_ = detail_;
           } else {
             result.detail_ = holidayResortGraffitiLevelInfoBuilder_.build();
           }
         }
-        if (detailCase_ == 13427) {
+        if (detailCase_ == 16985) {
           if (holidayResortAdventureLevelInfoBuilder_ == null) {
             result.detail_ = detail_;
           } else {
             result.detail_ = holidayResortAdventureLevelInfoBuilder_.build();
           }
         }
-        if (detailCase_ == 13523) {
+        if (detailCase_ == 13714) {
           if (diversityBattleLevelInfoBuilder_ == null) {
             result.detail_ = detail_;
           } else {
             result.detail_ = diversityBattleLevelInfoBuilder_.build();
           }
         }
-        if (detailCase_ == 15324) {
+        if (detailCase_ == 7244) {
           if (inazumaBadmintonLevelInfoBuilder_ == null) {
             result.detail_ = detail_;
           } else {
             result.detail_ = inazumaBadmintonLevelInfoBuilder_.build();
           }
         }
-        if (detailCase_ == 15619) {
+        if (detailCase_ == 12362) {
           if (partyLevelInfoBuilder_ == null) {
             result.detail_ = detail_;
           } else {
             result.detail_ = partyLevelInfoBuilder_.build();
           }
         }
-        if (detailCase_ == 16358) {
+        if (detailCase_ == 2497) {
           if (oneShotLevelInfoBuilder_ == null) {
             result.detail_ = detail_;
           } else {
             result.detail_ = oneShotLevelInfoBuilder_.build();
           }
         }
-        if (detailCase_ == 16864) {
+        if (detailCase_ == 6059) {
           if (doppelgangerPuzzleLevelInfoBuilder_ == null) {
             result.detail_ = detail_;
           } else {
             result.detail_ = doppelgangerPuzzleLevelInfoBuilder_.build();
           }
         }
-        if (detailCase_ == 17426) {
+        if (detailCase_ == 13791) {
           if (bubbleDramaPhotoLevelInfoBuilder_ == null) {
             result.detail_ = detail_;
           } else {
             result.detail_ = bubbleDramaPhotoLevelInfoBuilder_.build();
           }
         }
-        if (detailCase_ == 17851) {
+        if (detailCase_ == 12236) {
           if (dreamSwitchingLevelInfoBuilder_ == null) {
             result.detail_ = detail_;
           } else {
             result.detail_ = dreamSwitchingLevelInfoBuilder_.build();
           }
         }
-        if (detailCase_ == 18549) {
+        if (detailCase_ == 18078) {
           if (sumeruAdventureGoalFightingLevelInfoBuilder_ == null) {
             result.detail_ = detail_;
           } else {
@@ -2126,33 +2126,33 @@ public final class _ClientPlayDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfo, emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfo.Builder, emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfoOrBuilder> rankedMatchTrainLevelInfoBuilder_;
       /**
-       * <code>._RankedMatchTrainLevelInfo ranked_match_train_level_info = 3228;</code>
+       * <code>._RankedMatchTrainLevelInfo ranked_match_train_level_info = 11517;</code>
        * @return Whether the rankedMatchTrainLevelInfo field is set.
        */
       @java.lang.Override
       public boolean hasRankedMatchTrainLevelInfo() {
-        return detailCase_ == 3228;
+        return detailCase_ == 11517;
       }
       /**
-       * <code>._RankedMatchTrainLevelInfo ranked_match_train_level_info = 3228;</code>
+       * <code>._RankedMatchTrainLevelInfo ranked_match_train_level_info = 11517;</code>
        * @return The rankedMatchTrainLevelInfo.
        */
       @java.lang.Override
       public emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfo getRankedMatchTrainLevelInfo() {
         if (rankedMatchTrainLevelInfoBuilder_ == null) {
-          if (detailCase_ == 3228) {
+          if (detailCase_ == 11517) {
             return (emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfo) detail_;
           }
           return emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfo.getDefaultInstance();
         } else {
-          if (detailCase_ == 3228) {
+          if (detailCase_ == 11517) {
             return rankedMatchTrainLevelInfoBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._RankedMatchTrainLevelInfo ranked_match_train_level_info = 3228;</code>
+       * <code>._RankedMatchTrainLevelInfo ranked_match_train_level_info = 11517;</code>
        */
       public Builder setRankedMatchTrainLevelInfo(emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfo value) {
         if (rankedMatchTrainLevelInfoBuilder_ == null) {
@@ -2164,11 +2164,11 @@ public final class _ClientPlayDetailInfoOuterClass {
         } else {
           rankedMatchTrainLevelInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 3228;
+        detailCase_ = 11517;
         return this;
       }
       /**
-       * <code>._RankedMatchTrainLevelInfo ranked_match_train_level_info = 3228;</code>
+       * <code>._RankedMatchTrainLevelInfo ranked_match_train_level_info = 11517;</code>
        */
       public Builder setRankedMatchTrainLevelInfo(
           emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfo.Builder builderForValue) {
@@ -2178,15 +2178,15 @@ public final class _ClientPlayDetailInfoOuterClass {
         } else {
           rankedMatchTrainLevelInfoBuilder_.setMessage(builderForValue.build());
         }
-        detailCase_ = 3228;
+        detailCase_ = 11517;
         return this;
       }
       /**
-       * <code>._RankedMatchTrainLevelInfo ranked_match_train_level_info = 3228;</code>
+       * <code>._RankedMatchTrainLevelInfo ranked_match_train_level_info = 11517;</code>
        */
       public Builder mergeRankedMatchTrainLevelInfo(emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfo value) {
         if (rankedMatchTrainLevelInfoBuilder_ == null) {
-          if (detailCase_ == 3228 &&
+          if (detailCase_ == 11517 &&
               detail_ != emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfo.getDefaultInstance()) {
             detail_ = emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfo.newBuilder((emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfo) detail_)
                 .mergeFrom(value).buildPartial();
@@ -2195,26 +2195,26 @@ public final class _ClientPlayDetailInfoOuterClass {
           }
           onChanged();
         } else {
-          if (detailCase_ == 3228) {
+          if (detailCase_ == 11517) {
             rankedMatchTrainLevelInfoBuilder_.mergeFrom(value);
           }
           rankedMatchTrainLevelInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 3228;
+        detailCase_ = 11517;
         return this;
       }
       /**
-       * <code>._RankedMatchTrainLevelInfo ranked_match_train_level_info = 3228;</code>
+       * <code>._RankedMatchTrainLevelInfo ranked_match_train_level_info = 11517;</code>
        */
       public Builder clearRankedMatchTrainLevelInfo() {
         if (rankedMatchTrainLevelInfoBuilder_ == null) {
-          if (detailCase_ == 3228) {
+          if (detailCase_ == 11517) {
             detailCase_ = 0;
             detail_ = null;
             onChanged();
           }
         } else {
-          if (detailCase_ == 3228) {
+          if (detailCase_ == 11517) {
             detailCase_ = 0;
             detail_ = null;
           }
@@ -2223,33 +2223,33 @@ public final class _ClientPlayDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>._RankedMatchTrainLevelInfo ranked_match_train_level_info = 3228;</code>
+       * <code>._RankedMatchTrainLevelInfo ranked_match_train_level_info = 11517;</code>
        */
       public emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfo.Builder getRankedMatchTrainLevelInfoBuilder() {
         return getRankedMatchTrainLevelInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>._RankedMatchTrainLevelInfo ranked_match_train_level_info = 3228;</code>
+       * <code>._RankedMatchTrainLevelInfo ranked_match_train_level_info = 11517;</code>
        */
       @java.lang.Override
       public emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfoOrBuilder getRankedMatchTrainLevelInfoOrBuilder() {
-        if ((detailCase_ == 3228) && (rankedMatchTrainLevelInfoBuilder_ != null)) {
+        if ((detailCase_ == 11517) && (rankedMatchTrainLevelInfoBuilder_ != null)) {
           return rankedMatchTrainLevelInfoBuilder_.getMessageOrBuilder();
         } else {
-          if (detailCase_ == 3228) {
+          if (detailCase_ == 11517) {
             return (emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfo) detail_;
           }
           return emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._RankedMatchTrainLevelInfo ranked_match_train_level_info = 3228;</code>
+       * <code>._RankedMatchTrainLevelInfo ranked_match_train_level_info = 11517;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfo, emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfo.Builder, emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfoOrBuilder> 
           getRankedMatchTrainLevelInfoFieldBuilder() {
         if (rankedMatchTrainLevelInfoBuilder_ == null) {
-          if (!(detailCase_ == 3228)) {
+          if (!(detailCase_ == 11517)) {
             detail_ = emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfo.getDefaultInstance();
           }
           rankedMatchTrainLevelInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2259,7 +2259,7 @@ public final class _ClientPlayDetailInfoOuterClass {
                   isClean());
           detail_ = null;
         }
-        detailCase_ = 3228;
+        detailCase_ = 11517;
         onChanged();;
         return rankedMatchTrainLevelInfoBuilder_;
       }
@@ -2267,33 +2267,33 @@ public final class _ClientPlayDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfo, emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfo.Builder, emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfoOrBuilder> autochessLevelInfoBuilder_;
       /**
-       * <code>._AutochessLevelInfo autochess_level_info = 4424;</code>
+       * <code>._AutochessLevelInfo autochess_level_info = 12372;</code>
        * @return Whether the autochessLevelInfo field is set.
        */
       @java.lang.Override
       public boolean hasAutochessLevelInfo() {
-        return detailCase_ == 4424;
+        return detailCase_ == 12372;
       }
       /**
-       * <code>._AutochessLevelInfo autochess_level_info = 4424;</code>
+       * <code>._AutochessLevelInfo autochess_level_info = 12372;</code>
        * @return The autochessLevelInfo.
        */
       @java.lang.Override
       public emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfo getAutochessLevelInfo() {
         if (autochessLevelInfoBuilder_ == null) {
-          if (detailCase_ == 4424) {
+          if (detailCase_ == 12372) {
             return (emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfo) detail_;
           }
           return emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfo.getDefaultInstance();
         } else {
-          if (detailCase_ == 4424) {
+          if (detailCase_ == 12372) {
             return autochessLevelInfoBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._AutochessLevelInfo autochess_level_info = 4424;</code>
+       * <code>._AutochessLevelInfo autochess_level_info = 12372;</code>
        */
       public Builder setAutochessLevelInfo(emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfo value) {
         if (autochessLevelInfoBuilder_ == null) {
@@ -2305,11 +2305,11 @@ public final class _ClientPlayDetailInfoOuterClass {
         } else {
           autochessLevelInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 4424;
+        detailCase_ = 12372;
         return this;
       }
       /**
-       * <code>._AutochessLevelInfo autochess_level_info = 4424;</code>
+       * <code>._AutochessLevelInfo autochess_level_info = 12372;</code>
        */
       public Builder setAutochessLevelInfo(
           emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfo.Builder builderForValue) {
@@ -2319,15 +2319,15 @@ public final class _ClientPlayDetailInfoOuterClass {
         } else {
           autochessLevelInfoBuilder_.setMessage(builderForValue.build());
         }
-        detailCase_ = 4424;
+        detailCase_ = 12372;
         return this;
       }
       /**
-       * <code>._AutochessLevelInfo autochess_level_info = 4424;</code>
+       * <code>._AutochessLevelInfo autochess_level_info = 12372;</code>
        */
       public Builder mergeAutochessLevelInfo(emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfo value) {
         if (autochessLevelInfoBuilder_ == null) {
-          if (detailCase_ == 4424 &&
+          if (detailCase_ == 12372 &&
               detail_ != emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfo.getDefaultInstance()) {
             detail_ = emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfo.newBuilder((emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfo) detail_)
                 .mergeFrom(value).buildPartial();
@@ -2336,26 +2336,26 @@ public final class _ClientPlayDetailInfoOuterClass {
           }
           onChanged();
         } else {
-          if (detailCase_ == 4424) {
+          if (detailCase_ == 12372) {
             autochessLevelInfoBuilder_.mergeFrom(value);
           }
           autochessLevelInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 4424;
+        detailCase_ = 12372;
         return this;
       }
       /**
-       * <code>._AutochessLevelInfo autochess_level_info = 4424;</code>
+       * <code>._AutochessLevelInfo autochess_level_info = 12372;</code>
        */
       public Builder clearAutochessLevelInfo() {
         if (autochessLevelInfoBuilder_ == null) {
-          if (detailCase_ == 4424) {
+          if (detailCase_ == 12372) {
             detailCase_ = 0;
             detail_ = null;
             onChanged();
           }
         } else {
-          if (detailCase_ == 4424) {
+          if (detailCase_ == 12372) {
             detailCase_ = 0;
             detail_ = null;
           }
@@ -2364,33 +2364,33 @@ public final class _ClientPlayDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>._AutochessLevelInfo autochess_level_info = 4424;</code>
+       * <code>._AutochessLevelInfo autochess_level_info = 12372;</code>
        */
       public emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfo.Builder getAutochessLevelInfoBuilder() {
         return getAutochessLevelInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>._AutochessLevelInfo autochess_level_info = 4424;</code>
+       * <code>._AutochessLevelInfo autochess_level_info = 12372;</code>
        */
       @java.lang.Override
       public emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfoOrBuilder getAutochessLevelInfoOrBuilder() {
-        if ((detailCase_ == 4424) && (autochessLevelInfoBuilder_ != null)) {
+        if ((detailCase_ == 12372) && (autochessLevelInfoBuilder_ != null)) {
           return autochessLevelInfoBuilder_.getMessageOrBuilder();
         } else {
-          if (detailCase_ == 4424) {
+          if (detailCase_ == 12372) {
             return (emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfo) detail_;
           }
           return emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._AutochessLevelInfo autochess_level_info = 4424;</code>
+       * <code>._AutochessLevelInfo autochess_level_info = 12372;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfo, emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfo.Builder, emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfoOrBuilder> 
           getAutochessLevelInfoFieldBuilder() {
         if (autochessLevelInfoBuilder_ == null) {
-          if (!(detailCase_ == 4424)) {
+          if (!(detailCase_ == 12372)) {
             detail_ = emu.grasscutter.net.proto._AutochessLevelInfoOuterClass._AutochessLevelInfo.getDefaultInstance();
           }
           autochessLevelInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2400,7 +2400,7 @@ public final class _ClientPlayDetailInfoOuterClass {
                   isClean());
           detail_ = null;
         }
-        detailCase_ = 4424;
+        detailCase_ = 12372;
         onChanged();;
         return autochessLevelInfoBuilder_;
       }
@@ -2408,33 +2408,33 @@ public final class _ClientPlayDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfo, emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfo.Builder, emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfoOrBuilder> holidayResortSniperLevelInfoBuilder_;
       /**
-       * <code>._HolidayResortSniperLevelInfo holiday_resort_sniper_level_info = 4862;</code>
+       * <code>._HolidayResortSniperLevelInfo holiday_resort_sniper_level_info = 6963;</code>
        * @return Whether the holidayResortSniperLevelInfo field is set.
        */
       @java.lang.Override
       public boolean hasHolidayResortSniperLevelInfo() {
-        return detailCase_ == 4862;
+        return detailCase_ == 6963;
       }
       /**
-       * <code>._HolidayResortSniperLevelInfo holiday_resort_sniper_level_info = 4862;</code>
+       * <code>._HolidayResortSniperLevelInfo holiday_resort_sniper_level_info = 6963;</code>
        * @return The holidayResortSniperLevelInfo.
        */
       @java.lang.Override
       public emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfo getHolidayResortSniperLevelInfo() {
         if (holidayResortSniperLevelInfoBuilder_ == null) {
-          if (detailCase_ == 4862) {
+          if (detailCase_ == 6963) {
             return (emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfo) detail_;
           }
           return emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfo.getDefaultInstance();
         } else {
-          if (detailCase_ == 4862) {
+          if (detailCase_ == 6963) {
             return holidayResortSniperLevelInfoBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._HolidayResortSniperLevelInfo holiday_resort_sniper_level_info = 4862;</code>
+       * <code>._HolidayResortSniperLevelInfo holiday_resort_sniper_level_info = 6963;</code>
        */
       public Builder setHolidayResortSniperLevelInfo(emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfo value) {
         if (holidayResortSniperLevelInfoBuilder_ == null) {
@@ -2446,11 +2446,11 @@ public final class _ClientPlayDetailInfoOuterClass {
         } else {
           holidayResortSniperLevelInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 4862;
+        detailCase_ = 6963;
         return this;
       }
       /**
-       * <code>._HolidayResortSniperLevelInfo holiday_resort_sniper_level_info = 4862;</code>
+       * <code>._HolidayResortSniperLevelInfo holiday_resort_sniper_level_info = 6963;</code>
        */
       public Builder setHolidayResortSniperLevelInfo(
           emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfo.Builder builderForValue) {
@@ -2460,15 +2460,15 @@ public final class _ClientPlayDetailInfoOuterClass {
         } else {
           holidayResortSniperLevelInfoBuilder_.setMessage(builderForValue.build());
         }
-        detailCase_ = 4862;
+        detailCase_ = 6963;
         return this;
       }
       /**
-       * <code>._HolidayResortSniperLevelInfo holiday_resort_sniper_level_info = 4862;</code>
+       * <code>._HolidayResortSniperLevelInfo holiday_resort_sniper_level_info = 6963;</code>
        */
       public Builder mergeHolidayResortSniperLevelInfo(emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfo value) {
         if (holidayResortSniperLevelInfoBuilder_ == null) {
-          if (detailCase_ == 4862 &&
+          if (detailCase_ == 6963 &&
               detail_ != emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfo.getDefaultInstance()) {
             detail_ = emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfo.newBuilder((emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfo) detail_)
                 .mergeFrom(value).buildPartial();
@@ -2477,26 +2477,26 @@ public final class _ClientPlayDetailInfoOuterClass {
           }
           onChanged();
         } else {
-          if (detailCase_ == 4862) {
+          if (detailCase_ == 6963) {
             holidayResortSniperLevelInfoBuilder_.mergeFrom(value);
           }
           holidayResortSniperLevelInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 4862;
+        detailCase_ = 6963;
         return this;
       }
       /**
-       * <code>._HolidayResortSniperLevelInfo holiday_resort_sniper_level_info = 4862;</code>
+       * <code>._HolidayResortSniperLevelInfo holiday_resort_sniper_level_info = 6963;</code>
        */
       public Builder clearHolidayResortSniperLevelInfo() {
         if (holidayResortSniperLevelInfoBuilder_ == null) {
-          if (detailCase_ == 4862) {
+          if (detailCase_ == 6963) {
             detailCase_ = 0;
             detail_ = null;
             onChanged();
           }
         } else {
-          if (detailCase_ == 4862) {
+          if (detailCase_ == 6963) {
             detailCase_ = 0;
             detail_ = null;
           }
@@ -2505,33 +2505,33 @@ public final class _ClientPlayDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>._HolidayResortSniperLevelInfo holiday_resort_sniper_level_info = 4862;</code>
+       * <code>._HolidayResortSniperLevelInfo holiday_resort_sniper_level_info = 6963;</code>
        */
       public emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfo.Builder getHolidayResortSniperLevelInfoBuilder() {
         return getHolidayResortSniperLevelInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>._HolidayResortSniperLevelInfo holiday_resort_sniper_level_info = 4862;</code>
+       * <code>._HolidayResortSniperLevelInfo holiday_resort_sniper_level_info = 6963;</code>
        */
       @java.lang.Override
       public emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfoOrBuilder getHolidayResortSniperLevelInfoOrBuilder() {
-        if ((detailCase_ == 4862) && (holidayResortSniperLevelInfoBuilder_ != null)) {
+        if ((detailCase_ == 6963) && (holidayResortSniperLevelInfoBuilder_ != null)) {
           return holidayResortSniperLevelInfoBuilder_.getMessageOrBuilder();
         } else {
-          if (detailCase_ == 4862) {
+          if (detailCase_ == 6963) {
             return (emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfo) detail_;
           }
           return emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._HolidayResortSniperLevelInfo holiday_resort_sniper_level_info = 4862;</code>
+       * <code>._HolidayResortSniperLevelInfo holiday_resort_sniper_level_info = 6963;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfo, emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfo.Builder, emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfoOrBuilder> 
           getHolidayResortSniperLevelInfoFieldBuilder() {
         if (holidayResortSniperLevelInfoBuilder_ == null) {
-          if (!(detailCase_ == 4862)) {
+          if (!(detailCase_ == 6963)) {
             detail_ = emu.grasscutter.net.proto._HolidayResortSniperLevelInfoOuterClass._HolidayResortSniperLevelInfo.getDefaultInstance();
           }
           holidayResortSniperLevelInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2541,7 +2541,7 @@ public final class _ClientPlayDetailInfoOuterClass {
                   isClean());
           detail_ = null;
         }
-        detailCase_ = 4862;
+        detailCase_ = 6963;
         onChanged();;
         return holidayResortSniperLevelInfoBuilder_;
       }
@@ -2549,33 +2549,33 @@ public final class _ClientPlayDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfo, emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfo.Builder, emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfoOrBuilder> towerDefenseLevelInfoBuilder_;
       /**
-       * <code>._TowerDefenseLevelInfo tower_defense_level_info = 6393;</code>
+       * <code>._TowerDefenseLevelInfo tower_defense_level_info = 7731;</code>
        * @return Whether the towerDefenseLevelInfo field is set.
        */
       @java.lang.Override
       public boolean hasTowerDefenseLevelInfo() {
-        return detailCase_ == 6393;
+        return detailCase_ == 7731;
       }
       /**
-       * <code>._TowerDefenseLevelInfo tower_defense_level_info = 6393;</code>
+       * <code>._TowerDefenseLevelInfo tower_defense_level_info = 7731;</code>
        * @return The towerDefenseLevelInfo.
        */
       @java.lang.Override
       public emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfo getTowerDefenseLevelInfo() {
         if (towerDefenseLevelInfoBuilder_ == null) {
-          if (detailCase_ == 6393) {
+          if (detailCase_ == 7731) {
             return (emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfo) detail_;
           }
           return emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfo.getDefaultInstance();
         } else {
-          if (detailCase_ == 6393) {
+          if (detailCase_ == 7731) {
             return towerDefenseLevelInfoBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._TowerDefenseLevelInfo tower_defense_level_info = 6393;</code>
+       * <code>._TowerDefenseLevelInfo tower_defense_level_info = 7731;</code>
        */
       public Builder setTowerDefenseLevelInfo(emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfo value) {
         if (towerDefenseLevelInfoBuilder_ == null) {
@@ -2587,11 +2587,11 @@ public final class _ClientPlayDetailInfoOuterClass {
         } else {
           towerDefenseLevelInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 6393;
+        detailCase_ = 7731;
         return this;
       }
       /**
-       * <code>._TowerDefenseLevelInfo tower_defense_level_info = 6393;</code>
+       * <code>._TowerDefenseLevelInfo tower_defense_level_info = 7731;</code>
        */
       public Builder setTowerDefenseLevelInfo(
           emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfo.Builder builderForValue) {
@@ -2601,15 +2601,15 @@ public final class _ClientPlayDetailInfoOuterClass {
         } else {
           towerDefenseLevelInfoBuilder_.setMessage(builderForValue.build());
         }
-        detailCase_ = 6393;
+        detailCase_ = 7731;
         return this;
       }
       /**
-       * <code>._TowerDefenseLevelInfo tower_defense_level_info = 6393;</code>
+       * <code>._TowerDefenseLevelInfo tower_defense_level_info = 7731;</code>
        */
       public Builder mergeTowerDefenseLevelInfo(emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfo value) {
         if (towerDefenseLevelInfoBuilder_ == null) {
-          if (detailCase_ == 6393 &&
+          if (detailCase_ == 7731 &&
               detail_ != emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfo.getDefaultInstance()) {
             detail_ = emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfo.newBuilder((emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfo) detail_)
                 .mergeFrom(value).buildPartial();
@@ -2618,26 +2618,26 @@ public final class _ClientPlayDetailInfoOuterClass {
           }
           onChanged();
         } else {
-          if (detailCase_ == 6393) {
+          if (detailCase_ == 7731) {
             towerDefenseLevelInfoBuilder_.mergeFrom(value);
           }
           towerDefenseLevelInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 6393;
+        detailCase_ = 7731;
         return this;
       }
       /**
-       * <code>._TowerDefenseLevelInfo tower_defense_level_info = 6393;</code>
+       * <code>._TowerDefenseLevelInfo tower_defense_level_info = 7731;</code>
        */
       public Builder clearTowerDefenseLevelInfo() {
         if (towerDefenseLevelInfoBuilder_ == null) {
-          if (detailCase_ == 6393) {
+          if (detailCase_ == 7731) {
             detailCase_ = 0;
             detail_ = null;
             onChanged();
           }
         } else {
-          if (detailCase_ == 6393) {
+          if (detailCase_ == 7731) {
             detailCase_ = 0;
             detail_ = null;
           }
@@ -2646,33 +2646,33 @@ public final class _ClientPlayDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>._TowerDefenseLevelInfo tower_defense_level_info = 6393;</code>
+       * <code>._TowerDefenseLevelInfo tower_defense_level_info = 7731;</code>
        */
       public emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfo.Builder getTowerDefenseLevelInfoBuilder() {
         return getTowerDefenseLevelInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>._TowerDefenseLevelInfo tower_defense_level_info = 6393;</code>
+       * <code>._TowerDefenseLevelInfo tower_defense_level_info = 7731;</code>
        */
       @java.lang.Override
       public emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfoOrBuilder getTowerDefenseLevelInfoOrBuilder() {
-        if ((detailCase_ == 6393) && (towerDefenseLevelInfoBuilder_ != null)) {
+        if ((detailCase_ == 7731) && (towerDefenseLevelInfoBuilder_ != null)) {
           return towerDefenseLevelInfoBuilder_.getMessageOrBuilder();
         } else {
-          if (detailCase_ == 6393) {
+          if (detailCase_ == 7731) {
             return (emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfo) detail_;
           }
           return emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._TowerDefenseLevelInfo tower_defense_level_info = 6393;</code>
+       * <code>._TowerDefenseLevelInfo tower_defense_level_info = 7731;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfo, emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfo.Builder, emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfoOrBuilder> 
           getTowerDefenseLevelInfoFieldBuilder() {
         if (towerDefenseLevelInfoBuilder_ == null) {
-          if (!(detailCase_ == 6393)) {
+          if (!(detailCase_ == 7731)) {
             detail_ = emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfo.getDefaultInstance();
           }
           towerDefenseLevelInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2682,7 +2682,7 @@ public final class _ClientPlayDetailInfoOuterClass {
                   isClean());
           detail_ = null;
         }
-        detailCase_ = 6393;
+        detailCase_ = 7731;
         onChanged();;
         return towerDefenseLevelInfoBuilder_;
       }
@@ -2690,33 +2690,33 @@ public final class _ClientPlayDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfo, emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfo.Builder, emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfoOrBuilder> mapMarkLevelInfoBuilder_;
       /**
-       * <code>._MapMarkLevelInfo map_mark_level_info = 7133;</code>
+       * <code>._MapMarkLevelInfo map_mark_level_info = 9169;</code>
        * @return Whether the mapMarkLevelInfo field is set.
        */
       @java.lang.Override
       public boolean hasMapMarkLevelInfo() {
-        return detailCase_ == 7133;
+        return detailCase_ == 9169;
       }
       /**
-       * <code>._MapMarkLevelInfo map_mark_level_info = 7133;</code>
+       * <code>._MapMarkLevelInfo map_mark_level_info = 9169;</code>
        * @return The mapMarkLevelInfo.
        */
       @java.lang.Override
       public emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfo getMapMarkLevelInfo() {
         if (mapMarkLevelInfoBuilder_ == null) {
-          if (detailCase_ == 7133) {
+          if (detailCase_ == 9169) {
             return (emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfo) detail_;
           }
           return emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfo.getDefaultInstance();
         } else {
-          if (detailCase_ == 7133) {
+          if (detailCase_ == 9169) {
             return mapMarkLevelInfoBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._MapMarkLevelInfo map_mark_level_info = 7133;</code>
+       * <code>._MapMarkLevelInfo map_mark_level_info = 9169;</code>
        */
       public Builder setMapMarkLevelInfo(emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfo value) {
         if (mapMarkLevelInfoBuilder_ == null) {
@@ -2728,11 +2728,11 @@ public final class _ClientPlayDetailInfoOuterClass {
         } else {
           mapMarkLevelInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 7133;
+        detailCase_ = 9169;
         return this;
       }
       /**
-       * <code>._MapMarkLevelInfo map_mark_level_info = 7133;</code>
+       * <code>._MapMarkLevelInfo map_mark_level_info = 9169;</code>
        */
       public Builder setMapMarkLevelInfo(
           emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfo.Builder builderForValue) {
@@ -2742,15 +2742,15 @@ public final class _ClientPlayDetailInfoOuterClass {
         } else {
           mapMarkLevelInfoBuilder_.setMessage(builderForValue.build());
         }
-        detailCase_ = 7133;
+        detailCase_ = 9169;
         return this;
       }
       /**
-       * <code>._MapMarkLevelInfo map_mark_level_info = 7133;</code>
+       * <code>._MapMarkLevelInfo map_mark_level_info = 9169;</code>
        */
       public Builder mergeMapMarkLevelInfo(emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfo value) {
         if (mapMarkLevelInfoBuilder_ == null) {
-          if (detailCase_ == 7133 &&
+          if (detailCase_ == 9169 &&
               detail_ != emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfo.getDefaultInstance()) {
             detail_ = emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfo.newBuilder((emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfo) detail_)
                 .mergeFrom(value).buildPartial();
@@ -2759,26 +2759,26 @@ public final class _ClientPlayDetailInfoOuterClass {
           }
           onChanged();
         } else {
-          if (detailCase_ == 7133) {
+          if (detailCase_ == 9169) {
             mapMarkLevelInfoBuilder_.mergeFrom(value);
           }
           mapMarkLevelInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 7133;
+        detailCase_ = 9169;
         return this;
       }
       /**
-       * <code>._MapMarkLevelInfo map_mark_level_info = 7133;</code>
+       * <code>._MapMarkLevelInfo map_mark_level_info = 9169;</code>
        */
       public Builder clearMapMarkLevelInfo() {
         if (mapMarkLevelInfoBuilder_ == null) {
-          if (detailCase_ == 7133) {
+          if (detailCase_ == 9169) {
             detailCase_ = 0;
             detail_ = null;
             onChanged();
           }
         } else {
-          if (detailCase_ == 7133) {
+          if (detailCase_ == 9169) {
             detailCase_ = 0;
             detail_ = null;
           }
@@ -2787,33 +2787,33 @@ public final class _ClientPlayDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>._MapMarkLevelInfo map_mark_level_info = 7133;</code>
+       * <code>._MapMarkLevelInfo map_mark_level_info = 9169;</code>
        */
       public emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfo.Builder getMapMarkLevelInfoBuilder() {
         return getMapMarkLevelInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>._MapMarkLevelInfo map_mark_level_info = 7133;</code>
+       * <code>._MapMarkLevelInfo map_mark_level_info = 9169;</code>
        */
       @java.lang.Override
       public emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfoOrBuilder getMapMarkLevelInfoOrBuilder() {
-        if ((detailCase_ == 7133) && (mapMarkLevelInfoBuilder_ != null)) {
+        if ((detailCase_ == 9169) && (mapMarkLevelInfoBuilder_ != null)) {
           return mapMarkLevelInfoBuilder_.getMessageOrBuilder();
         } else {
-          if (detailCase_ == 7133) {
+          if (detailCase_ == 9169) {
             return (emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfo) detail_;
           }
           return emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._MapMarkLevelInfo map_mark_level_info = 7133;</code>
+       * <code>._MapMarkLevelInfo map_mark_level_info = 9169;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfo, emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfo.Builder, emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfoOrBuilder> 
           getMapMarkLevelInfoFieldBuilder() {
         if (mapMarkLevelInfoBuilder_ == null) {
-          if (!(detailCase_ == 7133)) {
+          if (!(detailCase_ == 9169)) {
             detail_ = emu.grasscutter.net.proto._MapMarkLevelInfoOuterClass._MapMarkLevelInfo.getDefaultInstance();
           }
           mapMarkLevelInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2823,7 +2823,7 @@ public final class _ClientPlayDetailInfoOuterClass {
                   isClean());
           detail_ = null;
         }
-        detailCase_ = 7133;
+        detailCase_ = 9169;
         onChanged();;
         return mapMarkLevelInfoBuilder_;
       }
@@ -2831,33 +2831,33 @@ public final class _ClientPlayDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfo, emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfo.Builder, emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfoOrBuilder> natlanDrillBattleLevelInfoBuilder_;
       /**
-       * <code>._NatlanDrillBattleLevelInfo natlan_drill_battle_level_info = 7860;</code>
+       * <code>._NatlanDrillBattleLevelInfo natlan_drill_battle_level_info = 15906;</code>
        * @return Whether the natlanDrillBattleLevelInfo field is set.
        */
       @java.lang.Override
       public boolean hasNatlanDrillBattleLevelInfo() {
-        return detailCase_ == 7860;
+        return detailCase_ == 15906;
       }
       /**
-       * <code>._NatlanDrillBattleLevelInfo natlan_drill_battle_level_info = 7860;</code>
+       * <code>._NatlanDrillBattleLevelInfo natlan_drill_battle_level_info = 15906;</code>
        * @return The natlanDrillBattleLevelInfo.
        */
       @java.lang.Override
       public emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfo getNatlanDrillBattleLevelInfo() {
         if (natlanDrillBattleLevelInfoBuilder_ == null) {
-          if (detailCase_ == 7860) {
+          if (detailCase_ == 15906) {
             return (emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfo) detail_;
           }
           return emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfo.getDefaultInstance();
         } else {
-          if (detailCase_ == 7860) {
+          if (detailCase_ == 15906) {
             return natlanDrillBattleLevelInfoBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._NatlanDrillBattleLevelInfo natlan_drill_battle_level_info = 7860;</code>
+       * <code>._NatlanDrillBattleLevelInfo natlan_drill_battle_level_info = 15906;</code>
        */
       public Builder setNatlanDrillBattleLevelInfo(emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfo value) {
         if (natlanDrillBattleLevelInfoBuilder_ == null) {
@@ -2869,11 +2869,11 @@ public final class _ClientPlayDetailInfoOuterClass {
         } else {
           natlanDrillBattleLevelInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 7860;
+        detailCase_ = 15906;
         return this;
       }
       /**
-       * <code>._NatlanDrillBattleLevelInfo natlan_drill_battle_level_info = 7860;</code>
+       * <code>._NatlanDrillBattleLevelInfo natlan_drill_battle_level_info = 15906;</code>
        */
       public Builder setNatlanDrillBattleLevelInfo(
           emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfo.Builder builderForValue) {
@@ -2883,15 +2883,15 @@ public final class _ClientPlayDetailInfoOuterClass {
         } else {
           natlanDrillBattleLevelInfoBuilder_.setMessage(builderForValue.build());
         }
-        detailCase_ = 7860;
+        detailCase_ = 15906;
         return this;
       }
       /**
-       * <code>._NatlanDrillBattleLevelInfo natlan_drill_battle_level_info = 7860;</code>
+       * <code>._NatlanDrillBattleLevelInfo natlan_drill_battle_level_info = 15906;</code>
        */
       public Builder mergeNatlanDrillBattleLevelInfo(emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfo value) {
         if (natlanDrillBattleLevelInfoBuilder_ == null) {
-          if (detailCase_ == 7860 &&
+          if (detailCase_ == 15906 &&
               detail_ != emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfo.getDefaultInstance()) {
             detail_ = emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfo.newBuilder((emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfo) detail_)
                 .mergeFrom(value).buildPartial();
@@ -2900,26 +2900,26 @@ public final class _ClientPlayDetailInfoOuterClass {
           }
           onChanged();
         } else {
-          if (detailCase_ == 7860) {
+          if (detailCase_ == 15906) {
             natlanDrillBattleLevelInfoBuilder_.mergeFrom(value);
           }
           natlanDrillBattleLevelInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 7860;
+        detailCase_ = 15906;
         return this;
       }
       /**
-       * <code>._NatlanDrillBattleLevelInfo natlan_drill_battle_level_info = 7860;</code>
+       * <code>._NatlanDrillBattleLevelInfo natlan_drill_battle_level_info = 15906;</code>
        */
       public Builder clearNatlanDrillBattleLevelInfo() {
         if (natlanDrillBattleLevelInfoBuilder_ == null) {
-          if (detailCase_ == 7860) {
+          if (detailCase_ == 15906) {
             detailCase_ = 0;
             detail_ = null;
             onChanged();
           }
         } else {
-          if (detailCase_ == 7860) {
+          if (detailCase_ == 15906) {
             detailCase_ = 0;
             detail_ = null;
           }
@@ -2928,33 +2928,33 @@ public final class _ClientPlayDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>._NatlanDrillBattleLevelInfo natlan_drill_battle_level_info = 7860;</code>
+       * <code>._NatlanDrillBattleLevelInfo natlan_drill_battle_level_info = 15906;</code>
        */
       public emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfo.Builder getNatlanDrillBattleLevelInfoBuilder() {
         return getNatlanDrillBattleLevelInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>._NatlanDrillBattleLevelInfo natlan_drill_battle_level_info = 7860;</code>
+       * <code>._NatlanDrillBattleLevelInfo natlan_drill_battle_level_info = 15906;</code>
        */
       @java.lang.Override
       public emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfoOrBuilder getNatlanDrillBattleLevelInfoOrBuilder() {
-        if ((detailCase_ == 7860) && (natlanDrillBattleLevelInfoBuilder_ != null)) {
+        if ((detailCase_ == 15906) && (natlanDrillBattleLevelInfoBuilder_ != null)) {
           return natlanDrillBattleLevelInfoBuilder_.getMessageOrBuilder();
         } else {
-          if (detailCase_ == 7860) {
+          if (detailCase_ == 15906) {
             return (emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfo) detail_;
           }
           return emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._NatlanDrillBattleLevelInfo natlan_drill_battle_level_info = 7860;</code>
+       * <code>._NatlanDrillBattleLevelInfo natlan_drill_battle_level_info = 15906;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfo, emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfo.Builder, emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfoOrBuilder> 
           getNatlanDrillBattleLevelInfoFieldBuilder() {
         if (natlanDrillBattleLevelInfoBuilder_ == null) {
-          if (!(detailCase_ == 7860)) {
+          if (!(detailCase_ == 15906)) {
             detail_ = emu.grasscutter.net.proto._NatlanDrillBattleLevelInfoOuterClass._NatlanDrillBattleLevelInfo.getDefaultInstance();
           }
           natlanDrillBattleLevelInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2964,7 +2964,7 @@ public final class _ClientPlayDetailInfoOuterClass {
                   isClean());
           detail_ = null;
         }
-        detailCase_ = 7860;
+        detailCase_ = 15906;
         onChanged();;
         return natlanDrillBattleLevelInfoBuilder_;
       }
@@ -2972,33 +2972,33 @@ public final class _ClientPlayDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfo, emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfo.Builder, emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfoOrBuilder> loliJumpLevelInfoBuilder_;
       /**
-       * <code>._LoliJumpLevelInfo loli_jump_level_info = 8493;</code>
+       * <code>._LoliJumpLevelInfo loli_jump_level_info = 4911;</code>
        * @return Whether the loliJumpLevelInfo field is set.
        */
       @java.lang.Override
       public boolean hasLoliJumpLevelInfo() {
-        return detailCase_ == 8493;
+        return detailCase_ == 4911;
       }
       /**
-       * <code>._LoliJumpLevelInfo loli_jump_level_info = 8493;</code>
+       * <code>._LoliJumpLevelInfo loli_jump_level_info = 4911;</code>
        * @return The loliJumpLevelInfo.
        */
       @java.lang.Override
       public emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfo getLoliJumpLevelInfo() {
         if (loliJumpLevelInfoBuilder_ == null) {
-          if (detailCase_ == 8493) {
+          if (detailCase_ == 4911) {
             return (emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfo) detail_;
           }
           return emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfo.getDefaultInstance();
         } else {
-          if (detailCase_ == 8493) {
+          if (detailCase_ == 4911) {
             return loliJumpLevelInfoBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._LoliJumpLevelInfo loli_jump_level_info = 8493;</code>
+       * <code>._LoliJumpLevelInfo loli_jump_level_info = 4911;</code>
        */
       public Builder setLoliJumpLevelInfo(emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfo value) {
         if (loliJumpLevelInfoBuilder_ == null) {
@@ -3010,11 +3010,11 @@ public final class _ClientPlayDetailInfoOuterClass {
         } else {
           loliJumpLevelInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 8493;
+        detailCase_ = 4911;
         return this;
       }
       /**
-       * <code>._LoliJumpLevelInfo loli_jump_level_info = 8493;</code>
+       * <code>._LoliJumpLevelInfo loli_jump_level_info = 4911;</code>
        */
       public Builder setLoliJumpLevelInfo(
           emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfo.Builder builderForValue) {
@@ -3024,15 +3024,15 @@ public final class _ClientPlayDetailInfoOuterClass {
         } else {
           loliJumpLevelInfoBuilder_.setMessage(builderForValue.build());
         }
-        detailCase_ = 8493;
+        detailCase_ = 4911;
         return this;
       }
       /**
-       * <code>._LoliJumpLevelInfo loli_jump_level_info = 8493;</code>
+       * <code>._LoliJumpLevelInfo loli_jump_level_info = 4911;</code>
        */
       public Builder mergeLoliJumpLevelInfo(emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfo value) {
         if (loliJumpLevelInfoBuilder_ == null) {
-          if (detailCase_ == 8493 &&
+          if (detailCase_ == 4911 &&
               detail_ != emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfo.getDefaultInstance()) {
             detail_ = emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfo.newBuilder((emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfo) detail_)
                 .mergeFrom(value).buildPartial();
@@ -3041,26 +3041,26 @@ public final class _ClientPlayDetailInfoOuterClass {
           }
           onChanged();
         } else {
-          if (detailCase_ == 8493) {
+          if (detailCase_ == 4911) {
             loliJumpLevelInfoBuilder_.mergeFrom(value);
           }
           loliJumpLevelInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 8493;
+        detailCase_ = 4911;
         return this;
       }
       /**
-       * <code>._LoliJumpLevelInfo loli_jump_level_info = 8493;</code>
+       * <code>._LoliJumpLevelInfo loli_jump_level_info = 4911;</code>
        */
       public Builder clearLoliJumpLevelInfo() {
         if (loliJumpLevelInfoBuilder_ == null) {
-          if (detailCase_ == 8493) {
+          if (detailCase_ == 4911) {
             detailCase_ = 0;
             detail_ = null;
             onChanged();
           }
         } else {
-          if (detailCase_ == 8493) {
+          if (detailCase_ == 4911) {
             detailCase_ = 0;
             detail_ = null;
           }
@@ -3069,33 +3069,33 @@ public final class _ClientPlayDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>._LoliJumpLevelInfo loli_jump_level_info = 8493;</code>
+       * <code>._LoliJumpLevelInfo loli_jump_level_info = 4911;</code>
        */
       public emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfo.Builder getLoliJumpLevelInfoBuilder() {
         return getLoliJumpLevelInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>._LoliJumpLevelInfo loli_jump_level_info = 8493;</code>
+       * <code>._LoliJumpLevelInfo loli_jump_level_info = 4911;</code>
        */
       @java.lang.Override
       public emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfoOrBuilder getLoliJumpLevelInfoOrBuilder() {
-        if ((detailCase_ == 8493) && (loliJumpLevelInfoBuilder_ != null)) {
+        if ((detailCase_ == 4911) && (loliJumpLevelInfoBuilder_ != null)) {
           return loliJumpLevelInfoBuilder_.getMessageOrBuilder();
         } else {
-          if (detailCase_ == 8493) {
+          if (detailCase_ == 4911) {
             return (emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfo) detail_;
           }
           return emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._LoliJumpLevelInfo loli_jump_level_info = 8493;</code>
+       * <code>._LoliJumpLevelInfo loli_jump_level_info = 4911;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfo, emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfo.Builder, emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfoOrBuilder> 
           getLoliJumpLevelInfoFieldBuilder() {
         if (loliJumpLevelInfoBuilder_ == null) {
-          if (!(detailCase_ == 8493)) {
+          if (!(detailCase_ == 4911)) {
             detail_ = emu.grasscutter.net.proto._LoliJumpLevelInfoOuterClass._LoliJumpLevelInfo.getDefaultInstance();
           }
           loliJumpLevelInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -3105,7 +3105,7 @@ public final class _ClientPlayDetailInfoOuterClass {
                   isClean());
           detail_ = null;
         }
-        detailCase_ = 8493;
+        detailCase_ = 4911;
         onChanged();;
         return loliJumpLevelInfoBuilder_;
       }
@@ -3113,33 +3113,33 @@ public final class _ClientPlayDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfo, emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfo.Builder, emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfoOrBuilder> bladeHeartLevelInfoBuilder_;
       /**
-       * <code>._BladeHeartLevelInfo blade_heart_level_info = 10385;</code>
+       * <code>._BladeHeartLevelInfo blade_heart_level_info = 5775;</code>
        * @return Whether the bladeHeartLevelInfo field is set.
        */
       @java.lang.Override
       public boolean hasBladeHeartLevelInfo() {
-        return detailCase_ == 10385;
+        return detailCase_ == 5775;
       }
       /**
-       * <code>._BladeHeartLevelInfo blade_heart_level_info = 10385;</code>
+       * <code>._BladeHeartLevelInfo blade_heart_level_info = 5775;</code>
        * @return The bladeHeartLevelInfo.
        */
       @java.lang.Override
       public emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfo getBladeHeartLevelInfo() {
         if (bladeHeartLevelInfoBuilder_ == null) {
-          if (detailCase_ == 10385) {
+          if (detailCase_ == 5775) {
             return (emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfo) detail_;
           }
           return emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfo.getDefaultInstance();
         } else {
-          if (detailCase_ == 10385) {
+          if (detailCase_ == 5775) {
             return bladeHeartLevelInfoBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._BladeHeartLevelInfo blade_heart_level_info = 10385;</code>
+       * <code>._BladeHeartLevelInfo blade_heart_level_info = 5775;</code>
        */
       public Builder setBladeHeartLevelInfo(emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfo value) {
         if (bladeHeartLevelInfoBuilder_ == null) {
@@ -3151,11 +3151,11 @@ public final class _ClientPlayDetailInfoOuterClass {
         } else {
           bladeHeartLevelInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 10385;
+        detailCase_ = 5775;
         return this;
       }
       /**
-       * <code>._BladeHeartLevelInfo blade_heart_level_info = 10385;</code>
+       * <code>._BladeHeartLevelInfo blade_heart_level_info = 5775;</code>
        */
       public Builder setBladeHeartLevelInfo(
           emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfo.Builder builderForValue) {
@@ -3165,15 +3165,15 @@ public final class _ClientPlayDetailInfoOuterClass {
         } else {
           bladeHeartLevelInfoBuilder_.setMessage(builderForValue.build());
         }
-        detailCase_ = 10385;
+        detailCase_ = 5775;
         return this;
       }
       /**
-       * <code>._BladeHeartLevelInfo blade_heart_level_info = 10385;</code>
+       * <code>._BladeHeartLevelInfo blade_heart_level_info = 5775;</code>
        */
       public Builder mergeBladeHeartLevelInfo(emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfo value) {
         if (bladeHeartLevelInfoBuilder_ == null) {
-          if (detailCase_ == 10385 &&
+          if (detailCase_ == 5775 &&
               detail_ != emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfo.getDefaultInstance()) {
             detail_ = emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfo.newBuilder((emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfo) detail_)
                 .mergeFrom(value).buildPartial();
@@ -3182,26 +3182,26 @@ public final class _ClientPlayDetailInfoOuterClass {
           }
           onChanged();
         } else {
-          if (detailCase_ == 10385) {
+          if (detailCase_ == 5775) {
             bladeHeartLevelInfoBuilder_.mergeFrom(value);
           }
           bladeHeartLevelInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 10385;
+        detailCase_ = 5775;
         return this;
       }
       /**
-       * <code>._BladeHeartLevelInfo blade_heart_level_info = 10385;</code>
+       * <code>._BladeHeartLevelInfo blade_heart_level_info = 5775;</code>
        */
       public Builder clearBladeHeartLevelInfo() {
         if (bladeHeartLevelInfoBuilder_ == null) {
-          if (detailCase_ == 10385) {
+          if (detailCase_ == 5775) {
             detailCase_ = 0;
             detail_ = null;
             onChanged();
           }
         } else {
-          if (detailCase_ == 10385) {
+          if (detailCase_ == 5775) {
             detailCase_ = 0;
             detail_ = null;
           }
@@ -3210,33 +3210,33 @@ public final class _ClientPlayDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>._BladeHeartLevelInfo blade_heart_level_info = 10385;</code>
+       * <code>._BladeHeartLevelInfo blade_heart_level_info = 5775;</code>
        */
       public emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfo.Builder getBladeHeartLevelInfoBuilder() {
         return getBladeHeartLevelInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>._BladeHeartLevelInfo blade_heart_level_info = 10385;</code>
+       * <code>._BladeHeartLevelInfo blade_heart_level_info = 5775;</code>
        */
       @java.lang.Override
       public emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfoOrBuilder getBladeHeartLevelInfoOrBuilder() {
-        if ((detailCase_ == 10385) && (bladeHeartLevelInfoBuilder_ != null)) {
+        if ((detailCase_ == 5775) && (bladeHeartLevelInfoBuilder_ != null)) {
           return bladeHeartLevelInfoBuilder_.getMessageOrBuilder();
         } else {
-          if (detailCase_ == 10385) {
+          if (detailCase_ == 5775) {
             return (emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfo) detail_;
           }
           return emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._BladeHeartLevelInfo blade_heart_level_info = 10385;</code>
+       * <code>._BladeHeartLevelInfo blade_heart_level_info = 5775;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfo, emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfo.Builder, emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfoOrBuilder> 
           getBladeHeartLevelInfoFieldBuilder() {
         if (bladeHeartLevelInfoBuilder_ == null) {
-          if (!(detailCase_ == 10385)) {
+          if (!(detailCase_ == 5775)) {
             detail_ = emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfo.getDefaultInstance();
           }
           bladeHeartLevelInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -3246,7 +3246,7 @@ public final class _ClientPlayDetailInfoOuterClass {
                   isClean());
           detail_ = null;
         }
-        detailCase_ = 10385;
+        detailCase_ = 5775;
         onChanged();;
         return bladeHeartLevelInfoBuilder_;
       }
@@ -3254,33 +3254,33 @@ public final class _ClientPlayDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfo, emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfo.Builder, emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfoOrBuilder> holidayResortBattleLevelInfoBuilder_;
       /**
-       * <code>._HolidayResortBattleLevelInfo holiday_resort_battle_level_info = 10504;</code>
+       * <code>._HolidayResortBattleLevelInfo holiday_resort_battle_level_info = 15244;</code>
        * @return Whether the holidayResortBattleLevelInfo field is set.
        */
       @java.lang.Override
       public boolean hasHolidayResortBattleLevelInfo() {
-        return detailCase_ == 10504;
+        return detailCase_ == 15244;
       }
       /**
-       * <code>._HolidayResortBattleLevelInfo holiday_resort_battle_level_info = 10504;</code>
+       * <code>._HolidayResortBattleLevelInfo holiday_resort_battle_level_info = 15244;</code>
        * @return The holidayResortBattleLevelInfo.
        */
       @java.lang.Override
       public emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfo getHolidayResortBattleLevelInfo() {
         if (holidayResortBattleLevelInfoBuilder_ == null) {
-          if (detailCase_ == 10504) {
+          if (detailCase_ == 15244) {
             return (emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfo) detail_;
           }
           return emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfo.getDefaultInstance();
         } else {
-          if (detailCase_ == 10504) {
+          if (detailCase_ == 15244) {
             return holidayResortBattleLevelInfoBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._HolidayResortBattleLevelInfo holiday_resort_battle_level_info = 10504;</code>
+       * <code>._HolidayResortBattleLevelInfo holiday_resort_battle_level_info = 15244;</code>
        */
       public Builder setHolidayResortBattleLevelInfo(emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfo value) {
         if (holidayResortBattleLevelInfoBuilder_ == null) {
@@ -3292,11 +3292,11 @@ public final class _ClientPlayDetailInfoOuterClass {
         } else {
           holidayResortBattleLevelInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 10504;
+        detailCase_ = 15244;
         return this;
       }
       /**
-       * <code>._HolidayResortBattleLevelInfo holiday_resort_battle_level_info = 10504;</code>
+       * <code>._HolidayResortBattleLevelInfo holiday_resort_battle_level_info = 15244;</code>
        */
       public Builder setHolidayResortBattleLevelInfo(
           emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfo.Builder builderForValue) {
@@ -3306,15 +3306,15 @@ public final class _ClientPlayDetailInfoOuterClass {
         } else {
           holidayResortBattleLevelInfoBuilder_.setMessage(builderForValue.build());
         }
-        detailCase_ = 10504;
+        detailCase_ = 15244;
         return this;
       }
       /**
-       * <code>._HolidayResortBattleLevelInfo holiday_resort_battle_level_info = 10504;</code>
+       * <code>._HolidayResortBattleLevelInfo holiday_resort_battle_level_info = 15244;</code>
        */
       public Builder mergeHolidayResortBattleLevelInfo(emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfo value) {
         if (holidayResortBattleLevelInfoBuilder_ == null) {
-          if (detailCase_ == 10504 &&
+          if (detailCase_ == 15244 &&
               detail_ != emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfo.getDefaultInstance()) {
             detail_ = emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfo.newBuilder((emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfo) detail_)
                 .mergeFrom(value).buildPartial();
@@ -3323,26 +3323,26 @@ public final class _ClientPlayDetailInfoOuterClass {
           }
           onChanged();
         } else {
-          if (detailCase_ == 10504) {
+          if (detailCase_ == 15244) {
             holidayResortBattleLevelInfoBuilder_.mergeFrom(value);
           }
           holidayResortBattleLevelInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 10504;
+        detailCase_ = 15244;
         return this;
       }
       /**
-       * <code>._HolidayResortBattleLevelInfo holiday_resort_battle_level_info = 10504;</code>
+       * <code>._HolidayResortBattleLevelInfo holiday_resort_battle_level_info = 15244;</code>
        */
       public Builder clearHolidayResortBattleLevelInfo() {
         if (holidayResortBattleLevelInfoBuilder_ == null) {
-          if (detailCase_ == 10504) {
+          if (detailCase_ == 15244) {
             detailCase_ = 0;
             detail_ = null;
             onChanged();
           }
         } else {
-          if (detailCase_ == 10504) {
+          if (detailCase_ == 15244) {
             detailCase_ = 0;
             detail_ = null;
           }
@@ -3351,33 +3351,33 @@ public final class _ClientPlayDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>._HolidayResortBattleLevelInfo holiday_resort_battle_level_info = 10504;</code>
+       * <code>._HolidayResortBattleLevelInfo holiday_resort_battle_level_info = 15244;</code>
        */
       public emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfo.Builder getHolidayResortBattleLevelInfoBuilder() {
         return getHolidayResortBattleLevelInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>._HolidayResortBattleLevelInfo holiday_resort_battle_level_info = 10504;</code>
+       * <code>._HolidayResortBattleLevelInfo holiday_resort_battle_level_info = 15244;</code>
        */
       @java.lang.Override
       public emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfoOrBuilder getHolidayResortBattleLevelInfoOrBuilder() {
-        if ((detailCase_ == 10504) && (holidayResortBattleLevelInfoBuilder_ != null)) {
+        if ((detailCase_ == 15244) && (holidayResortBattleLevelInfoBuilder_ != null)) {
           return holidayResortBattleLevelInfoBuilder_.getMessageOrBuilder();
         } else {
-          if (detailCase_ == 10504) {
+          if (detailCase_ == 15244) {
             return (emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfo) detail_;
           }
           return emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._HolidayResortBattleLevelInfo holiday_resort_battle_level_info = 10504;</code>
+       * <code>._HolidayResortBattleLevelInfo holiday_resort_battle_level_info = 15244;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfo, emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfo.Builder, emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfoOrBuilder> 
           getHolidayResortBattleLevelInfoFieldBuilder() {
         if (holidayResortBattleLevelInfoBuilder_ == null) {
-          if (!(detailCase_ == 10504)) {
+          if (!(detailCase_ == 15244)) {
             detail_ = emu.grasscutter.net.proto._HolidayResortBattleLevelInfoOuterClass._HolidayResortBattleLevelInfo.getDefaultInstance();
           }
           holidayResortBattleLevelInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -3387,7 +3387,7 @@ public final class _ClientPlayDetailInfoOuterClass {
                   isClean());
           detail_ = null;
         }
-        detailCase_ = 10504;
+        detailCase_ = 15244;
         onChanged();;
         return holidayResortBattleLevelInfoBuilder_;
       }
@@ -3395,33 +3395,33 @@ public final class _ClientPlayDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfo, emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfo.Builder, emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfoOrBuilder> holidayResortGraffitiLevelInfoBuilder_;
       /**
-       * <code>._HolidayResortGraffitiLevelInfo holiday_resort_graffiti_level_info = 13156;</code>
+       * <code>._HolidayResortGraffitiLevelInfo holiday_resort_graffiti_level_info = 3559;</code>
        * @return Whether the holidayResortGraffitiLevelInfo field is set.
        */
       @java.lang.Override
       public boolean hasHolidayResortGraffitiLevelInfo() {
-        return detailCase_ == 13156;
+        return detailCase_ == 3559;
       }
       /**
-       * <code>._HolidayResortGraffitiLevelInfo holiday_resort_graffiti_level_info = 13156;</code>
+       * <code>._HolidayResortGraffitiLevelInfo holiday_resort_graffiti_level_info = 3559;</code>
        * @return The holidayResortGraffitiLevelInfo.
        */
       @java.lang.Override
       public emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfo getHolidayResortGraffitiLevelInfo() {
         if (holidayResortGraffitiLevelInfoBuilder_ == null) {
-          if (detailCase_ == 13156) {
+          if (detailCase_ == 3559) {
             return (emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfo) detail_;
           }
           return emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfo.getDefaultInstance();
         } else {
-          if (detailCase_ == 13156) {
+          if (detailCase_ == 3559) {
             return holidayResortGraffitiLevelInfoBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._HolidayResortGraffitiLevelInfo holiday_resort_graffiti_level_info = 13156;</code>
+       * <code>._HolidayResortGraffitiLevelInfo holiday_resort_graffiti_level_info = 3559;</code>
        */
       public Builder setHolidayResortGraffitiLevelInfo(emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfo value) {
         if (holidayResortGraffitiLevelInfoBuilder_ == null) {
@@ -3433,11 +3433,11 @@ public final class _ClientPlayDetailInfoOuterClass {
         } else {
           holidayResortGraffitiLevelInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 13156;
+        detailCase_ = 3559;
         return this;
       }
       /**
-       * <code>._HolidayResortGraffitiLevelInfo holiday_resort_graffiti_level_info = 13156;</code>
+       * <code>._HolidayResortGraffitiLevelInfo holiday_resort_graffiti_level_info = 3559;</code>
        */
       public Builder setHolidayResortGraffitiLevelInfo(
           emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfo.Builder builderForValue) {
@@ -3447,15 +3447,15 @@ public final class _ClientPlayDetailInfoOuterClass {
         } else {
           holidayResortGraffitiLevelInfoBuilder_.setMessage(builderForValue.build());
         }
-        detailCase_ = 13156;
+        detailCase_ = 3559;
         return this;
       }
       /**
-       * <code>._HolidayResortGraffitiLevelInfo holiday_resort_graffiti_level_info = 13156;</code>
+       * <code>._HolidayResortGraffitiLevelInfo holiday_resort_graffiti_level_info = 3559;</code>
        */
       public Builder mergeHolidayResortGraffitiLevelInfo(emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfo value) {
         if (holidayResortGraffitiLevelInfoBuilder_ == null) {
-          if (detailCase_ == 13156 &&
+          if (detailCase_ == 3559 &&
               detail_ != emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfo.getDefaultInstance()) {
             detail_ = emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfo.newBuilder((emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfo) detail_)
                 .mergeFrom(value).buildPartial();
@@ -3464,26 +3464,26 @@ public final class _ClientPlayDetailInfoOuterClass {
           }
           onChanged();
         } else {
-          if (detailCase_ == 13156) {
+          if (detailCase_ == 3559) {
             holidayResortGraffitiLevelInfoBuilder_.mergeFrom(value);
           }
           holidayResortGraffitiLevelInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 13156;
+        detailCase_ = 3559;
         return this;
       }
       /**
-       * <code>._HolidayResortGraffitiLevelInfo holiday_resort_graffiti_level_info = 13156;</code>
+       * <code>._HolidayResortGraffitiLevelInfo holiday_resort_graffiti_level_info = 3559;</code>
        */
       public Builder clearHolidayResortGraffitiLevelInfo() {
         if (holidayResortGraffitiLevelInfoBuilder_ == null) {
-          if (detailCase_ == 13156) {
+          if (detailCase_ == 3559) {
             detailCase_ = 0;
             detail_ = null;
             onChanged();
           }
         } else {
-          if (detailCase_ == 13156) {
+          if (detailCase_ == 3559) {
             detailCase_ = 0;
             detail_ = null;
           }
@@ -3492,33 +3492,33 @@ public final class _ClientPlayDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>._HolidayResortGraffitiLevelInfo holiday_resort_graffiti_level_info = 13156;</code>
+       * <code>._HolidayResortGraffitiLevelInfo holiday_resort_graffiti_level_info = 3559;</code>
        */
       public emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfo.Builder getHolidayResortGraffitiLevelInfoBuilder() {
         return getHolidayResortGraffitiLevelInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>._HolidayResortGraffitiLevelInfo holiday_resort_graffiti_level_info = 13156;</code>
+       * <code>._HolidayResortGraffitiLevelInfo holiday_resort_graffiti_level_info = 3559;</code>
        */
       @java.lang.Override
       public emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfoOrBuilder getHolidayResortGraffitiLevelInfoOrBuilder() {
-        if ((detailCase_ == 13156) && (holidayResortGraffitiLevelInfoBuilder_ != null)) {
+        if ((detailCase_ == 3559) && (holidayResortGraffitiLevelInfoBuilder_ != null)) {
           return holidayResortGraffitiLevelInfoBuilder_.getMessageOrBuilder();
         } else {
-          if (detailCase_ == 13156) {
+          if (detailCase_ == 3559) {
             return (emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfo) detail_;
           }
           return emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._HolidayResortGraffitiLevelInfo holiday_resort_graffiti_level_info = 13156;</code>
+       * <code>._HolidayResortGraffitiLevelInfo holiday_resort_graffiti_level_info = 3559;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfo, emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfo.Builder, emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfoOrBuilder> 
           getHolidayResortGraffitiLevelInfoFieldBuilder() {
         if (holidayResortGraffitiLevelInfoBuilder_ == null) {
-          if (!(detailCase_ == 13156)) {
+          if (!(detailCase_ == 3559)) {
             detail_ = emu.grasscutter.net.proto._HolidayResortGraffitiLevelInfoOuterClass._HolidayResortGraffitiLevelInfo.getDefaultInstance();
           }
           holidayResortGraffitiLevelInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -3528,7 +3528,7 @@ public final class _ClientPlayDetailInfoOuterClass {
                   isClean());
           detail_ = null;
         }
-        detailCase_ = 13156;
+        detailCase_ = 3559;
         onChanged();;
         return holidayResortGraffitiLevelInfoBuilder_;
       }
@@ -3536,33 +3536,33 @@ public final class _ClientPlayDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfo, emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfo.Builder, emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfoOrBuilder> holidayResortAdventureLevelInfoBuilder_;
       /**
-       * <code>._HolidayResortAdventureLevelInfo holiday_resort_adventure_level_info = 13427;</code>
+       * <code>._HolidayResortAdventureLevelInfo holiday_resort_adventure_level_info = 16985;</code>
        * @return Whether the holidayResortAdventureLevelInfo field is set.
        */
       @java.lang.Override
       public boolean hasHolidayResortAdventureLevelInfo() {
-        return detailCase_ == 13427;
+        return detailCase_ == 16985;
       }
       /**
-       * <code>._HolidayResortAdventureLevelInfo holiday_resort_adventure_level_info = 13427;</code>
+       * <code>._HolidayResortAdventureLevelInfo holiday_resort_adventure_level_info = 16985;</code>
        * @return The holidayResortAdventureLevelInfo.
        */
       @java.lang.Override
       public emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfo getHolidayResortAdventureLevelInfo() {
         if (holidayResortAdventureLevelInfoBuilder_ == null) {
-          if (detailCase_ == 13427) {
+          if (detailCase_ == 16985) {
             return (emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfo) detail_;
           }
           return emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfo.getDefaultInstance();
         } else {
-          if (detailCase_ == 13427) {
+          if (detailCase_ == 16985) {
             return holidayResortAdventureLevelInfoBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._HolidayResortAdventureLevelInfo holiday_resort_adventure_level_info = 13427;</code>
+       * <code>._HolidayResortAdventureLevelInfo holiday_resort_adventure_level_info = 16985;</code>
        */
       public Builder setHolidayResortAdventureLevelInfo(emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfo value) {
         if (holidayResortAdventureLevelInfoBuilder_ == null) {
@@ -3574,11 +3574,11 @@ public final class _ClientPlayDetailInfoOuterClass {
         } else {
           holidayResortAdventureLevelInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 13427;
+        detailCase_ = 16985;
         return this;
       }
       /**
-       * <code>._HolidayResortAdventureLevelInfo holiday_resort_adventure_level_info = 13427;</code>
+       * <code>._HolidayResortAdventureLevelInfo holiday_resort_adventure_level_info = 16985;</code>
        */
       public Builder setHolidayResortAdventureLevelInfo(
           emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfo.Builder builderForValue) {
@@ -3588,15 +3588,15 @@ public final class _ClientPlayDetailInfoOuterClass {
         } else {
           holidayResortAdventureLevelInfoBuilder_.setMessage(builderForValue.build());
         }
-        detailCase_ = 13427;
+        detailCase_ = 16985;
         return this;
       }
       /**
-       * <code>._HolidayResortAdventureLevelInfo holiday_resort_adventure_level_info = 13427;</code>
+       * <code>._HolidayResortAdventureLevelInfo holiday_resort_adventure_level_info = 16985;</code>
        */
       public Builder mergeHolidayResortAdventureLevelInfo(emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfo value) {
         if (holidayResortAdventureLevelInfoBuilder_ == null) {
-          if (detailCase_ == 13427 &&
+          if (detailCase_ == 16985 &&
               detail_ != emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfo.getDefaultInstance()) {
             detail_ = emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfo.newBuilder((emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfo) detail_)
                 .mergeFrom(value).buildPartial();
@@ -3605,26 +3605,26 @@ public final class _ClientPlayDetailInfoOuterClass {
           }
           onChanged();
         } else {
-          if (detailCase_ == 13427) {
+          if (detailCase_ == 16985) {
             holidayResortAdventureLevelInfoBuilder_.mergeFrom(value);
           }
           holidayResortAdventureLevelInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 13427;
+        detailCase_ = 16985;
         return this;
       }
       /**
-       * <code>._HolidayResortAdventureLevelInfo holiday_resort_adventure_level_info = 13427;</code>
+       * <code>._HolidayResortAdventureLevelInfo holiday_resort_adventure_level_info = 16985;</code>
        */
       public Builder clearHolidayResortAdventureLevelInfo() {
         if (holidayResortAdventureLevelInfoBuilder_ == null) {
-          if (detailCase_ == 13427) {
+          if (detailCase_ == 16985) {
             detailCase_ = 0;
             detail_ = null;
             onChanged();
           }
         } else {
-          if (detailCase_ == 13427) {
+          if (detailCase_ == 16985) {
             detailCase_ = 0;
             detail_ = null;
           }
@@ -3633,33 +3633,33 @@ public final class _ClientPlayDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>._HolidayResortAdventureLevelInfo holiday_resort_adventure_level_info = 13427;</code>
+       * <code>._HolidayResortAdventureLevelInfo holiday_resort_adventure_level_info = 16985;</code>
        */
       public emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfo.Builder getHolidayResortAdventureLevelInfoBuilder() {
         return getHolidayResortAdventureLevelInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>._HolidayResortAdventureLevelInfo holiday_resort_adventure_level_info = 13427;</code>
+       * <code>._HolidayResortAdventureLevelInfo holiday_resort_adventure_level_info = 16985;</code>
        */
       @java.lang.Override
       public emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfoOrBuilder getHolidayResortAdventureLevelInfoOrBuilder() {
-        if ((detailCase_ == 13427) && (holidayResortAdventureLevelInfoBuilder_ != null)) {
+        if ((detailCase_ == 16985) && (holidayResortAdventureLevelInfoBuilder_ != null)) {
           return holidayResortAdventureLevelInfoBuilder_.getMessageOrBuilder();
         } else {
-          if (detailCase_ == 13427) {
+          if (detailCase_ == 16985) {
             return (emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfo) detail_;
           }
           return emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._HolidayResortAdventureLevelInfo holiday_resort_adventure_level_info = 13427;</code>
+       * <code>._HolidayResortAdventureLevelInfo holiday_resort_adventure_level_info = 16985;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfo, emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfo.Builder, emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfoOrBuilder> 
           getHolidayResortAdventureLevelInfoFieldBuilder() {
         if (holidayResortAdventureLevelInfoBuilder_ == null) {
-          if (!(detailCase_ == 13427)) {
+          if (!(detailCase_ == 16985)) {
             detail_ = emu.grasscutter.net.proto._HolidayResortAdventureLevelInfoOuterClass._HolidayResortAdventureLevelInfo.getDefaultInstance();
           }
           holidayResortAdventureLevelInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -3669,7 +3669,7 @@ public final class _ClientPlayDetailInfoOuterClass {
                   isClean());
           detail_ = null;
         }
-        detailCase_ = 13427;
+        detailCase_ = 16985;
         onChanged();;
         return holidayResortAdventureLevelInfoBuilder_;
       }
@@ -3677,33 +3677,33 @@ public final class _ClientPlayDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfo, emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfo.Builder, emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfoOrBuilder> diversityBattleLevelInfoBuilder_;
       /**
-       * <code>._DiversityBattleLevelInfo diversity_battle_level_info = 13523;</code>
+       * <code>._DiversityBattleLevelInfo diversity_battle_level_info = 13714;</code>
        * @return Whether the diversityBattleLevelInfo field is set.
        */
       @java.lang.Override
       public boolean hasDiversityBattleLevelInfo() {
-        return detailCase_ == 13523;
+        return detailCase_ == 13714;
       }
       /**
-       * <code>._DiversityBattleLevelInfo diversity_battle_level_info = 13523;</code>
+       * <code>._DiversityBattleLevelInfo diversity_battle_level_info = 13714;</code>
        * @return The diversityBattleLevelInfo.
        */
       @java.lang.Override
       public emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfo getDiversityBattleLevelInfo() {
         if (diversityBattleLevelInfoBuilder_ == null) {
-          if (detailCase_ == 13523) {
+          if (detailCase_ == 13714) {
             return (emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfo) detail_;
           }
           return emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfo.getDefaultInstance();
         } else {
-          if (detailCase_ == 13523) {
+          if (detailCase_ == 13714) {
             return diversityBattleLevelInfoBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._DiversityBattleLevelInfo diversity_battle_level_info = 13523;</code>
+       * <code>._DiversityBattleLevelInfo diversity_battle_level_info = 13714;</code>
        */
       public Builder setDiversityBattleLevelInfo(emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfo value) {
         if (diversityBattleLevelInfoBuilder_ == null) {
@@ -3715,11 +3715,11 @@ public final class _ClientPlayDetailInfoOuterClass {
         } else {
           diversityBattleLevelInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 13523;
+        detailCase_ = 13714;
         return this;
       }
       /**
-       * <code>._DiversityBattleLevelInfo diversity_battle_level_info = 13523;</code>
+       * <code>._DiversityBattleLevelInfo diversity_battle_level_info = 13714;</code>
        */
       public Builder setDiversityBattleLevelInfo(
           emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfo.Builder builderForValue) {
@@ -3729,15 +3729,15 @@ public final class _ClientPlayDetailInfoOuterClass {
         } else {
           diversityBattleLevelInfoBuilder_.setMessage(builderForValue.build());
         }
-        detailCase_ = 13523;
+        detailCase_ = 13714;
         return this;
       }
       /**
-       * <code>._DiversityBattleLevelInfo diversity_battle_level_info = 13523;</code>
+       * <code>._DiversityBattleLevelInfo diversity_battle_level_info = 13714;</code>
        */
       public Builder mergeDiversityBattleLevelInfo(emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfo value) {
         if (diversityBattleLevelInfoBuilder_ == null) {
-          if (detailCase_ == 13523 &&
+          if (detailCase_ == 13714 &&
               detail_ != emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfo.getDefaultInstance()) {
             detail_ = emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfo.newBuilder((emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfo) detail_)
                 .mergeFrom(value).buildPartial();
@@ -3746,26 +3746,26 @@ public final class _ClientPlayDetailInfoOuterClass {
           }
           onChanged();
         } else {
-          if (detailCase_ == 13523) {
+          if (detailCase_ == 13714) {
             diversityBattleLevelInfoBuilder_.mergeFrom(value);
           }
           diversityBattleLevelInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 13523;
+        detailCase_ = 13714;
         return this;
       }
       /**
-       * <code>._DiversityBattleLevelInfo diversity_battle_level_info = 13523;</code>
+       * <code>._DiversityBattleLevelInfo diversity_battle_level_info = 13714;</code>
        */
       public Builder clearDiversityBattleLevelInfo() {
         if (diversityBattleLevelInfoBuilder_ == null) {
-          if (detailCase_ == 13523) {
+          if (detailCase_ == 13714) {
             detailCase_ = 0;
             detail_ = null;
             onChanged();
           }
         } else {
-          if (detailCase_ == 13523) {
+          if (detailCase_ == 13714) {
             detailCase_ = 0;
             detail_ = null;
           }
@@ -3774,33 +3774,33 @@ public final class _ClientPlayDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>._DiversityBattleLevelInfo diversity_battle_level_info = 13523;</code>
+       * <code>._DiversityBattleLevelInfo diversity_battle_level_info = 13714;</code>
        */
       public emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfo.Builder getDiversityBattleLevelInfoBuilder() {
         return getDiversityBattleLevelInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>._DiversityBattleLevelInfo diversity_battle_level_info = 13523;</code>
+       * <code>._DiversityBattleLevelInfo diversity_battle_level_info = 13714;</code>
        */
       @java.lang.Override
       public emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfoOrBuilder getDiversityBattleLevelInfoOrBuilder() {
-        if ((detailCase_ == 13523) && (diversityBattleLevelInfoBuilder_ != null)) {
+        if ((detailCase_ == 13714) && (diversityBattleLevelInfoBuilder_ != null)) {
           return diversityBattleLevelInfoBuilder_.getMessageOrBuilder();
         } else {
-          if (detailCase_ == 13523) {
+          if (detailCase_ == 13714) {
             return (emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfo) detail_;
           }
           return emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._DiversityBattleLevelInfo diversity_battle_level_info = 13523;</code>
+       * <code>._DiversityBattleLevelInfo diversity_battle_level_info = 13714;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfo, emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfo.Builder, emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfoOrBuilder> 
           getDiversityBattleLevelInfoFieldBuilder() {
         if (diversityBattleLevelInfoBuilder_ == null) {
-          if (!(detailCase_ == 13523)) {
+          if (!(detailCase_ == 13714)) {
             detail_ = emu.grasscutter.net.proto._DiversityBattleLevelInfoOuterClass._DiversityBattleLevelInfo.getDefaultInstance();
           }
           diversityBattleLevelInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -3810,7 +3810,7 @@ public final class _ClientPlayDetailInfoOuterClass {
                   isClean());
           detail_ = null;
         }
-        detailCase_ = 13523;
+        detailCase_ = 13714;
         onChanged();;
         return diversityBattleLevelInfoBuilder_;
       }
@@ -3818,33 +3818,33 @@ public final class _ClientPlayDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfo, emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfo.Builder, emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfoOrBuilder> inazumaBadmintonLevelInfoBuilder_;
       /**
-       * <code>._InazumaBadmintonLevelInfo inazuma_badminton_level_info = 15324;</code>
+       * <code>._InazumaBadmintonLevelInfo inazuma_badminton_level_info = 7244;</code>
        * @return Whether the inazumaBadmintonLevelInfo field is set.
        */
       @java.lang.Override
       public boolean hasInazumaBadmintonLevelInfo() {
-        return detailCase_ == 15324;
+        return detailCase_ == 7244;
       }
       /**
-       * <code>._InazumaBadmintonLevelInfo inazuma_badminton_level_info = 15324;</code>
+       * <code>._InazumaBadmintonLevelInfo inazuma_badminton_level_info = 7244;</code>
        * @return The inazumaBadmintonLevelInfo.
        */
       @java.lang.Override
       public emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfo getInazumaBadmintonLevelInfo() {
         if (inazumaBadmintonLevelInfoBuilder_ == null) {
-          if (detailCase_ == 15324) {
+          if (detailCase_ == 7244) {
             return (emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfo) detail_;
           }
           return emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfo.getDefaultInstance();
         } else {
-          if (detailCase_ == 15324) {
+          if (detailCase_ == 7244) {
             return inazumaBadmintonLevelInfoBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._InazumaBadmintonLevelInfo inazuma_badminton_level_info = 15324;</code>
+       * <code>._InazumaBadmintonLevelInfo inazuma_badminton_level_info = 7244;</code>
        */
       public Builder setInazumaBadmintonLevelInfo(emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfo value) {
         if (inazumaBadmintonLevelInfoBuilder_ == null) {
@@ -3856,11 +3856,11 @@ public final class _ClientPlayDetailInfoOuterClass {
         } else {
           inazumaBadmintonLevelInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 15324;
+        detailCase_ = 7244;
         return this;
       }
       /**
-       * <code>._InazumaBadmintonLevelInfo inazuma_badminton_level_info = 15324;</code>
+       * <code>._InazumaBadmintonLevelInfo inazuma_badminton_level_info = 7244;</code>
        */
       public Builder setInazumaBadmintonLevelInfo(
           emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfo.Builder builderForValue) {
@@ -3870,15 +3870,15 @@ public final class _ClientPlayDetailInfoOuterClass {
         } else {
           inazumaBadmintonLevelInfoBuilder_.setMessage(builderForValue.build());
         }
-        detailCase_ = 15324;
+        detailCase_ = 7244;
         return this;
       }
       /**
-       * <code>._InazumaBadmintonLevelInfo inazuma_badminton_level_info = 15324;</code>
+       * <code>._InazumaBadmintonLevelInfo inazuma_badminton_level_info = 7244;</code>
        */
       public Builder mergeInazumaBadmintonLevelInfo(emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfo value) {
         if (inazumaBadmintonLevelInfoBuilder_ == null) {
-          if (detailCase_ == 15324 &&
+          if (detailCase_ == 7244 &&
               detail_ != emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfo.getDefaultInstance()) {
             detail_ = emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfo.newBuilder((emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfo) detail_)
                 .mergeFrom(value).buildPartial();
@@ -3887,26 +3887,26 @@ public final class _ClientPlayDetailInfoOuterClass {
           }
           onChanged();
         } else {
-          if (detailCase_ == 15324) {
+          if (detailCase_ == 7244) {
             inazumaBadmintonLevelInfoBuilder_.mergeFrom(value);
           }
           inazumaBadmintonLevelInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 15324;
+        detailCase_ = 7244;
         return this;
       }
       /**
-       * <code>._InazumaBadmintonLevelInfo inazuma_badminton_level_info = 15324;</code>
+       * <code>._InazumaBadmintonLevelInfo inazuma_badminton_level_info = 7244;</code>
        */
       public Builder clearInazumaBadmintonLevelInfo() {
         if (inazumaBadmintonLevelInfoBuilder_ == null) {
-          if (detailCase_ == 15324) {
+          if (detailCase_ == 7244) {
             detailCase_ = 0;
             detail_ = null;
             onChanged();
           }
         } else {
-          if (detailCase_ == 15324) {
+          if (detailCase_ == 7244) {
             detailCase_ = 0;
             detail_ = null;
           }
@@ -3915,33 +3915,33 @@ public final class _ClientPlayDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>._InazumaBadmintonLevelInfo inazuma_badminton_level_info = 15324;</code>
+       * <code>._InazumaBadmintonLevelInfo inazuma_badminton_level_info = 7244;</code>
        */
       public emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfo.Builder getInazumaBadmintonLevelInfoBuilder() {
         return getInazumaBadmintonLevelInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>._InazumaBadmintonLevelInfo inazuma_badminton_level_info = 15324;</code>
+       * <code>._InazumaBadmintonLevelInfo inazuma_badminton_level_info = 7244;</code>
        */
       @java.lang.Override
       public emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfoOrBuilder getInazumaBadmintonLevelInfoOrBuilder() {
-        if ((detailCase_ == 15324) && (inazumaBadmintonLevelInfoBuilder_ != null)) {
+        if ((detailCase_ == 7244) && (inazumaBadmintonLevelInfoBuilder_ != null)) {
           return inazumaBadmintonLevelInfoBuilder_.getMessageOrBuilder();
         } else {
-          if (detailCase_ == 15324) {
+          if (detailCase_ == 7244) {
             return (emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfo) detail_;
           }
           return emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._InazumaBadmintonLevelInfo inazuma_badminton_level_info = 15324;</code>
+       * <code>._InazumaBadmintonLevelInfo inazuma_badminton_level_info = 7244;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfo, emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfo.Builder, emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfoOrBuilder> 
           getInazumaBadmintonLevelInfoFieldBuilder() {
         if (inazumaBadmintonLevelInfoBuilder_ == null) {
-          if (!(detailCase_ == 15324)) {
+          if (!(detailCase_ == 7244)) {
             detail_ = emu.grasscutter.net.proto._InazumaBadmintonLevelInfoOuterClass._InazumaBadmintonLevelInfo.getDefaultInstance();
           }
           inazumaBadmintonLevelInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -3951,7 +3951,7 @@ public final class _ClientPlayDetailInfoOuterClass {
                   isClean());
           detail_ = null;
         }
-        detailCase_ = 15324;
+        detailCase_ = 7244;
         onChanged();;
         return inazumaBadmintonLevelInfoBuilder_;
       }
@@ -3959,33 +3959,33 @@ public final class _ClientPlayDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfo, emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfo.Builder, emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfoOrBuilder> partyLevelInfoBuilder_;
       /**
-       * <code>._PartyLevelInfo party_level_info = 15619;</code>
+       * <code>._PartyLevelInfo party_level_info = 12362;</code>
        * @return Whether the partyLevelInfo field is set.
        */
       @java.lang.Override
       public boolean hasPartyLevelInfo() {
-        return detailCase_ == 15619;
+        return detailCase_ == 12362;
       }
       /**
-       * <code>._PartyLevelInfo party_level_info = 15619;</code>
+       * <code>._PartyLevelInfo party_level_info = 12362;</code>
        * @return The partyLevelInfo.
        */
       @java.lang.Override
       public emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfo getPartyLevelInfo() {
         if (partyLevelInfoBuilder_ == null) {
-          if (detailCase_ == 15619) {
+          if (detailCase_ == 12362) {
             return (emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfo) detail_;
           }
           return emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfo.getDefaultInstance();
         } else {
-          if (detailCase_ == 15619) {
+          if (detailCase_ == 12362) {
             return partyLevelInfoBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._PartyLevelInfo party_level_info = 15619;</code>
+       * <code>._PartyLevelInfo party_level_info = 12362;</code>
        */
       public Builder setPartyLevelInfo(emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfo value) {
         if (partyLevelInfoBuilder_ == null) {
@@ -3997,11 +3997,11 @@ public final class _ClientPlayDetailInfoOuterClass {
         } else {
           partyLevelInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 15619;
+        detailCase_ = 12362;
         return this;
       }
       /**
-       * <code>._PartyLevelInfo party_level_info = 15619;</code>
+       * <code>._PartyLevelInfo party_level_info = 12362;</code>
        */
       public Builder setPartyLevelInfo(
           emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfo.Builder builderForValue) {
@@ -4011,15 +4011,15 @@ public final class _ClientPlayDetailInfoOuterClass {
         } else {
           partyLevelInfoBuilder_.setMessage(builderForValue.build());
         }
-        detailCase_ = 15619;
+        detailCase_ = 12362;
         return this;
       }
       /**
-       * <code>._PartyLevelInfo party_level_info = 15619;</code>
+       * <code>._PartyLevelInfo party_level_info = 12362;</code>
        */
       public Builder mergePartyLevelInfo(emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfo value) {
         if (partyLevelInfoBuilder_ == null) {
-          if (detailCase_ == 15619 &&
+          if (detailCase_ == 12362 &&
               detail_ != emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfo.getDefaultInstance()) {
             detail_ = emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfo.newBuilder((emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfo) detail_)
                 .mergeFrom(value).buildPartial();
@@ -4028,26 +4028,26 @@ public final class _ClientPlayDetailInfoOuterClass {
           }
           onChanged();
         } else {
-          if (detailCase_ == 15619) {
+          if (detailCase_ == 12362) {
             partyLevelInfoBuilder_.mergeFrom(value);
           }
           partyLevelInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 15619;
+        detailCase_ = 12362;
         return this;
       }
       /**
-       * <code>._PartyLevelInfo party_level_info = 15619;</code>
+       * <code>._PartyLevelInfo party_level_info = 12362;</code>
        */
       public Builder clearPartyLevelInfo() {
         if (partyLevelInfoBuilder_ == null) {
-          if (detailCase_ == 15619) {
+          if (detailCase_ == 12362) {
             detailCase_ = 0;
             detail_ = null;
             onChanged();
           }
         } else {
-          if (detailCase_ == 15619) {
+          if (detailCase_ == 12362) {
             detailCase_ = 0;
             detail_ = null;
           }
@@ -4056,33 +4056,33 @@ public final class _ClientPlayDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>._PartyLevelInfo party_level_info = 15619;</code>
+       * <code>._PartyLevelInfo party_level_info = 12362;</code>
        */
       public emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfo.Builder getPartyLevelInfoBuilder() {
         return getPartyLevelInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>._PartyLevelInfo party_level_info = 15619;</code>
+       * <code>._PartyLevelInfo party_level_info = 12362;</code>
        */
       @java.lang.Override
       public emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfoOrBuilder getPartyLevelInfoOrBuilder() {
-        if ((detailCase_ == 15619) && (partyLevelInfoBuilder_ != null)) {
+        if ((detailCase_ == 12362) && (partyLevelInfoBuilder_ != null)) {
           return partyLevelInfoBuilder_.getMessageOrBuilder();
         } else {
-          if (detailCase_ == 15619) {
+          if (detailCase_ == 12362) {
             return (emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfo) detail_;
           }
           return emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._PartyLevelInfo party_level_info = 15619;</code>
+       * <code>._PartyLevelInfo party_level_info = 12362;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfo, emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfo.Builder, emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfoOrBuilder> 
           getPartyLevelInfoFieldBuilder() {
         if (partyLevelInfoBuilder_ == null) {
-          if (!(detailCase_ == 15619)) {
+          if (!(detailCase_ == 12362)) {
             detail_ = emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfo.getDefaultInstance();
           }
           partyLevelInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -4092,7 +4092,7 @@ public final class _ClientPlayDetailInfoOuterClass {
                   isClean());
           detail_ = null;
         }
-        detailCase_ = 15619;
+        detailCase_ = 12362;
         onChanged();;
         return partyLevelInfoBuilder_;
       }
@@ -4100,33 +4100,33 @@ public final class _ClientPlayDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._OneShotLevelInfoOuterClass._OneShotLevelInfo, emu.grasscutter.net.proto._OneShotLevelInfoOuterClass._OneShotLevelInfo.Builder, emu.grasscutter.net.proto._OneShotLevelInfoOuterClass._OneShotLevelInfoOrBuilder> oneShotLevelInfoBuilder_;
       /**
-       * <code>._OneShotLevelInfo one_shot_level_info = 16358;</code>
+       * <code>._OneShotLevelInfo one_shot_level_info = 2497;</code>
        * @return Whether the oneShotLevelInfo field is set.
        */
       @java.lang.Override
       public boolean hasOneShotLevelInfo() {
-        return detailCase_ == 16358;
+        return detailCase_ == 2497;
       }
       /**
-       * <code>._OneShotLevelInfo one_shot_level_info = 16358;</code>
+       * <code>._OneShotLevelInfo one_shot_level_info = 2497;</code>
        * @return The oneShotLevelInfo.
        */
       @java.lang.Override
       public emu.grasscutter.net.proto._OneShotLevelInfoOuterClass._OneShotLevelInfo getOneShotLevelInfo() {
         if (oneShotLevelInfoBuilder_ == null) {
-          if (detailCase_ == 16358) {
+          if (detailCase_ == 2497) {
             return (emu.grasscutter.net.proto._OneShotLevelInfoOuterClass._OneShotLevelInfo) detail_;
           }
           return emu.grasscutter.net.proto._OneShotLevelInfoOuterClass._OneShotLevelInfo.getDefaultInstance();
         } else {
-          if (detailCase_ == 16358) {
+          if (detailCase_ == 2497) {
             return oneShotLevelInfoBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto._OneShotLevelInfoOuterClass._OneShotLevelInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._OneShotLevelInfo one_shot_level_info = 16358;</code>
+       * <code>._OneShotLevelInfo one_shot_level_info = 2497;</code>
        */
       public Builder setOneShotLevelInfo(emu.grasscutter.net.proto._OneShotLevelInfoOuterClass._OneShotLevelInfo value) {
         if (oneShotLevelInfoBuilder_ == null) {
@@ -4138,11 +4138,11 @@ public final class _ClientPlayDetailInfoOuterClass {
         } else {
           oneShotLevelInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 16358;
+        detailCase_ = 2497;
         return this;
       }
       /**
-       * <code>._OneShotLevelInfo one_shot_level_info = 16358;</code>
+       * <code>._OneShotLevelInfo one_shot_level_info = 2497;</code>
        */
       public Builder setOneShotLevelInfo(
           emu.grasscutter.net.proto._OneShotLevelInfoOuterClass._OneShotLevelInfo.Builder builderForValue) {
@@ -4152,15 +4152,15 @@ public final class _ClientPlayDetailInfoOuterClass {
         } else {
           oneShotLevelInfoBuilder_.setMessage(builderForValue.build());
         }
-        detailCase_ = 16358;
+        detailCase_ = 2497;
         return this;
       }
       /**
-       * <code>._OneShotLevelInfo one_shot_level_info = 16358;</code>
+       * <code>._OneShotLevelInfo one_shot_level_info = 2497;</code>
        */
       public Builder mergeOneShotLevelInfo(emu.grasscutter.net.proto._OneShotLevelInfoOuterClass._OneShotLevelInfo value) {
         if (oneShotLevelInfoBuilder_ == null) {
-          if (detailCase_ == 16358 &&
+          if (detailCase_ == 2497 &&
               detail_ != emu.grasscutter.net.proto._OneShotLevelInfoOuterClass._OneShotLevelInfo.getDefaultInstance()) {
             detail_ = emu.grasscutter.net.proto._OneShotLevelInfoOuterClass._OneShotLevelInfo.newBuilder((emu.grasscutter.net.proto._OneShotLevelInfoOuterClass._OneShotLevelInfo) detail_)
                 .mergeFrom(value).buildPartial();
@@ -4169,26 +4169,26 @@ public final class _ClientPlayDetailInfoOuterClass {
           }
           onChanged();
         } else {
-          if (detailCase_ == 16358) {
+          if (detailCase_ == 2497) {
             oneShotLevelInfoBuilder_.mergeFrom(value);
           }
           oneShotLevelInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 16358;
+        detailCase_ = 2497;
         return this;
       }
       /**
-       * <code>._OneShotLevelInfo one_shot_level_info = 16358;</code>
+       * <code>._OneShotLevelInfo one_shot_level_info = 2497;</code>
        */
       public Builder clearOneShotLevelInfo() {
         if (oneShotLevelInfoBuilder_ == null) {
-          if (detailCase_ == 16358) {
+          if (detailCase_ == 2497) {
             detailCase_ = 0;
             detail_ = null;
             onChanged();
           }
         } else {
-          if (detailCase_ == 16358) {
+          if (detailCase_ == 2497) {
             detailCase_ = 0;
             detail_ = null;
           }
@@ -4197,33 +4197,33 @@ public final class _ClientPlayDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>._OneShotLevelInfo one_shot_level_info = 16358;</code>
+       * <code>._OneShotLevelInfo one_shot_level_info = 2497;</code>
        */
       public emu.grasscutter.net.proto._OneShotLevelInfoOuterClass._OneShotLevelInfo.Builder getOneShotLevelInfoBuilder() {
         return getOneShotLevelInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>._OneShotLevelInfo one_shot_level_info = 16358;</code>
+       * <code>._OneShotLevelInfo one_shot_level_info = 2497;</code>
        */
       @java.lang.Override
       public emu.grasscutter.net.proto._OneShotLevelInfoOuterClass._OneShotLevelInfoOrBuilder getOneShotLevelInfoOrBuilder() {
-        if ((detailCase_ == 16358) && (oneShotLevelInfoBuilder_ != null)) {
+        if ((detailCase_ == 2497) && (oneShotLevelInfoBuilder_ != null)) {
           return oneShotLevelInfoBuilder_.getMessageOrBuilder();
         } else {
-          if (detailCase_ == 16358) {
+          if (detailCase_ == 2497) {
             return (emu.grasscutter.net.proto._OneShotLevelInfoOuterClass._OneShotLevelInfo) detail_;
           }
           return emu.grasscutter.net.proto._OneShotLevelInfoOuterClass._OneShotLevelInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._OneShotLevelInfo one_shot_level_info = 16358;</code>
+       * <code>._OneShotLevelInfo one_shot_level_info = 2497;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._OneShotLevelInfoOuterClass._OneShotLevelInfo, emu.grasscutter.net.proto._OneShotLevelInfoOuterClass._OneShotLevelInfo.Builder, emu.grasscutter.net.proto._OneShotLevelInfoOuterClass._OneShotLevelInfoOrBuilder> 
           getOneShotLevelInfoFieldBuilder() {
         if (oneShotLevelInfoBuilder_ == null) {
-          if (!(detailCase_ == 16358)) {
+          if (!(detailCase_ == 2497)) {
             detail_ = emu.grasscutter.net.proto._OneShotLevelInfoOuterClass._OneShotLevelInfo.getDefaultInstance();
           }
           oneShotLevelInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -4233,7 +4233,7 @@ public final class _ClientPlayDetailInfoOuterClass {
                   isClean());
           detail_ = null;
         }
-        detailCase_ = 16358;
+        detailCase_ = 2497;
         onChanged();;
         return oneShotLevelInfoBuilder_;
       }
@@ -4241,33 +4241,33 @@ public final class _ClientPlayDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._DoppelgangerPuzzleLevelInfoOuterClass._DoppelgangerPuzzleLevelInfo, emu.grasscutter.net.proto._DoppelgangerPuzzleLevelInfoOuterClass._DoppelgangerPuzzleLevelInfo.Builder, emu.grasscutter.net.proto._DoppelgangerPuzzleLevelInfoOuterClass._DoppelgangerPuzzleLevelInfoOrBuilder> doppelgangerPuzzleLevelInfoBuilder_;
       /**
-       * <code>._DoppelgangerPuzzleLevelInfo doppelganger_puzzle_level_info = 16864;</code>
+       * <code>._DoppelgangerPuzzleLevelInfo doppelganger_puzzle_level_info = 6059;</code>
        * @return Whether the doppelgangerPuzzleLevelInfo field is set.
        */
       @java.lang.Override
       public boolean hasDoppelgangerPuzzleLevelInfo() {
-        return detailCase_ == 16864;
+        return detailCase_ == 6059;
       }
       /**
-       * <code>._DoppelgangerPuzzleLevelInfo doppelganger_puzzle_level_info = 16864;</code>
+       * <code>._DoppelgangerPuzzleLevelInfo doppelganger_puzzle_level_info = 6059;</code>
        * @return The doppelgangerPuzzleLevelInfo.
        */
       @java.lang.Override
       public emu.grasscutter.net.proto._DoppelgangerPuzzleLevelInfoOuterClass._DoppelgangerPuzzleLevelInfo getDoppelgangerPuzzleLevelInfo() {
         if (doppelgangerPuzzleLevelInfoBuilder_ == null) {
-          if (detailCase_ == 16864) {
+          if (detailCase_ == 6059) {
             return (emu.grasscutter.net.proto._DoppelgangerPuzzleLevelInfoOuterClass._DoppelgangerPuzzleLevelInfo) detail_;
           }
           return emu.grasscutter.net.proto._DoppelgangerPuzzleLevelInfoOuterClass._DoppelgangerPuzzleLevelInfo.getDefaultInstance();
         } else {
-          if (detailCase_ == 16864) {
+          if (detailCase_ == 6059) {
             return doppelgangerPuzzleLevelInfoBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto._DoppelgangerPuzzleLevelInfoOuterClass._DoppelgangerPuzzleLevelInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._DoppelgangerPuzzleLevelInfo doppelganger_puzzle_level_info = 16864;</code>
+       * <code>._DoppelgangerPuzzleLevelInfo doppelganger_puzzle_level_info = 6059;</code>
        */
       public Builder setDoppelgangerPuzzleLevelInfo(emu.grasscutter.net.proto._DoppelgangerPuzzleLevelInfoOuterClass._DoppelgangerPuzzleLevelInfo value) {
         if (doppelgangerPuzzleLevelInfoBuilder_ == null) {
@@ -4279,11 +4279,11 @@ public final class _ClientPlayDetailInfoOuterClass {
         } else {
           doppelgangerPuzzleLevelInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 16864;
+        detailCase_ = 6059;
         return this;
       }
       /**
-       * <code>._DoppelgangerPuzzleLevelInfo doppelganger_puzzle_level_info = 16864;</code>
+       * <code>._DoppelgangerPuzzleLevelInfo doppelganger_puzzle_level_info = 6059;</code>
        */
       public Builder setDoppelgangerPuzzleLevelInfo(
           emu.grasscutter.net.proto._DoppelgangerPuzzleLevelInfoOuterClass._DoppelgangerPuzzleLevelInfo.Builder builderForValue) {
@@ -4293,15 +4293,15 @@ public final class _ClientPlayDetailInfoOuterClass {
         } else {
           doppelgangerPuzzleLevelInfoBuilder_.setMessage(builderForValue.build());
         }
-        detailCase_ = 16864;
+        detailCase_ = 6059;
         return this;
       }
       /**
-       * <code>._DoppelgangerPuzzleLevelInfo doppelganger_puzzle_level_info = 16864;</code>
+       * <code>._DoppelgangerPuzzleLevelInfo doppelganger_puzzle_level_info = 6059;</code>
        */
       public Builder mergeDoppelgangerPuzzleLevelInfo(emu.grasscutter.net.proto._DoppelgangerPuzzleLevelInfoOuterClass._DoppelgangerPuzzleLevelInfo value) {
         if (doppelgangerPuzzleLevelInfoBuilder_ == null) {
-          if (detailCase_ == 16864 &&
+          if (detailCase_ == 6059 &&
               detail_ != emu.grasscutter.net.proto._DoppelgangerPuzzleLevelInfoOuterClass._DoppelgangerPuzzleLevelInfo.getDefaultInstance()) {
             detail_ = emu.grasscutter.net.proto._DoppelgangerPuzzleLevelInfoOuterClass._DoppelgangerPuzzleLevelInfo.newBuilder((emu.grasscutter.net.proto._DoppelgangerPuzzleLevelInfoOuterClass._DoppelgangerPuzzleLevelInfo) detail_)
                 .mergeFrom(value).buildPartial();
@@ -4310,26 +4310,26 @@ public final class _ClientPlayDetailInfoOuterClass {
           }
           onChanged();
         } else {
-          if (detailCase_ == 16864) {
+          if (detailCase_ == 6059) {
             doppelgangerPuzzleLevelInfoBuilder_.mergeFrom(value);
           }
           doppelgangerPuzzleLevelInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 16864;
+        detailCase_ = 6059;
         return this;
       }
       /**
-       * <code>._DoppelgangerPuzzleLevelInfo doppelganger_puzzle_level_info = 16864;</code>
+       * <code>._DoppelgangerPuzzleLevelInfo doppelganger_puzzle_level_info = 6059;</code>
        */
       public Builder clearDoppelgangerPuzzleLevelInfo() {
         if (doppelgangerPuzzleLevelInfoBuilder_ == null) {
-          if (detailCase_ == 16864) {
+          if (detailCase_ == 6059) {
             detailCase_ = 0;
             detail_ = null;
             onChanged();
           }
         } else {
-          if (detailCase_ == 16864) {
+          if (detailCase_ == 6059) {
             detailCase_ = 0;
             detail_ = null;
           }
@@ -4338,33 +4338,33 @@ public final class _ClientPlayDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>._DoppelgangerPuzzleLevelInfo doppelganger_puzzle_level_info = 16864;</code>
+       * <code>._DoppelgangerPuzzleLevelInfo doppelganger_puzzle_level_info = 6059;</code>
        */
       public emu.grasscutter.net.proto._DoppelgangerPuzzleLevelInfoOuterClass._DoppelgangerPuzzleLevelInfo.Builder getDoppelgangerPuzzleLevelInfoBuilder() {
         return getDoppelgangerPuzzleLevelInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>._DoppelgangerPuzzleLevelInfo doppelganger_puzzle_level_info = 16864;</code>
+       * <code>._DoppelgangerPuzzleLevelInfo doppelganger_puzzle_level_info = 6059;</code>
        */
       @java.lang.Override
       public emu.grasscutter.net.proto._DoppelgangerPuzzleLevelInfoOuterClass._DoppelgangerPuzzleLevelInfoOrBuilder getDoppelgangerPuzzleLevelInfoOrBuilder() {
-        if ((detailCase_ == 16864) && (doppelgangerPuzzleLevelInfoBuilder_ != null)) {
+        if ((detailCase_ == 6059) && (doppelgangerPuzzleLevelInfoBuilder_ != null)) {
           return doppelgangerPuzzleLevelInfoBuilder_.getMessageOrBuilder();
         } else {
-          if (detailCase_ == 16864) {
+          if (detailCase_ == 6059) {
             return (emu.grasscutter.net.proto._DoppelgangerPuzzleLevelInfoOuterClass._DoppelgangerPuzzleLevelInfo) detail_;
           }
           return emu.grasscutter.net.proto._DoppelgangerPuzzleLevelInfoOuterClass._DoppelgangerPuzzleLevelInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._DoppelgangerPuzzleLevelInfo doppelganger_puzzle_level_info = 16864;</code>
+       * <code>._DoppelgangerPuzzleLevelInfo doppelganger_puzzle_level_info = 6059;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._DoppelgangerPuzzleLevelInfoOuterClass._DoppelgangerPuzzleLevelInfo, emu.grasscutter.net.proto._DoppelgangerPuzzleLevelInfoOuterClass._DoppelgangerPuzzleLevelInfo.Builder, emu.grasscutter.net.proto._DoppelgangerPuzzleLevelInfoOuterClass._DoppelgangerPuzzleLevelInfoOrBuilder> 
           getDoppelgangerPuzzleLevelInfoFieldBuilder() {
         if (doppelgangerPuzzleLevelInfoBuilder_ == null) {
-          if (!(detailCase_ == 16864)) {
+          if (!(detailCase_ == 6059)) {
             detail_ = emu.grasscutter.net.proto._DoppelgangerPuzzleLevelInfoOuterClass._DoppelgangerPuzzleLevelInfo.getDefaultInstance();
           }
           doppelgangerPuzzleLevelInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -4374,7 +4374,7 @@ public final class _ClientPlayDetailInfoOuterClass {
                   isClean());
           detail_ = null;
         }
-        detailCase_ = 16864;
+        detailCase_ = 6059;
         onChanged();;
         return doppelgangerPuzzleLevelInfoBuilder_;
       }
@@ -4382,33 +4382,33 @@ public final class _ClientPlayDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo, emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo.Builder, emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfoOrBuilder> bubbleDramaPhotoLevelInfoBuilder_;
       /**
-       * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
+       * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 13791;</code>
        * @return Whether the bubbleDramaPhotoLevelInfo field is set.
        */
       @java.lang.Override
       public boolean hasBubbleDramaPhotoLevelInfo() {
-        return detailCase_ == 17426;
+        return detailCase_ == 13791;
       }
       /**
-       * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
+       * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 13791;</code>
        * @return The bubbleDramaPhotoLevelInfo.
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo getBubbleDramaPhotoLevelInfo() {
         if (bubbleDramaPhotoLevelInfoBuilder_ == null) {
-          if (detailCase_ == 17426) {
+          if (detailCase_ == 13791) {
             return (emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo) detail_;
           }
           return emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo.getDefaultInstance();
         } else {
-          if (detailCase_ == 17426) {
+          if (detailCase_ == 13791) {
             return bubbleDramaPhotoLevelInfoBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
+       * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 13791;</code>
        */
       public Builder setBubbleDramaPhotoLevelInfo(emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo value) {
         if (bubbleDramaPhotoLevelInfoBuilder_ == null) {
@@ -4420,11 +4420,11 @@ public final class _ClientPlayDetailInfoOuterClass {
         } else {
           bubbleDramaPhotoLevelInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 17426;
+        detailCase_ = 13791;
         return this;
       }
       /**
-       * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
+       * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 13791;</code>
        */
       public Builder setBubbleDramaPhotoLevelInfo(
           emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo.Builder builderForValue) {
@@ -4434,15 +4434,15 @@ public final class _ClientPlayDetailInfoOuterClass {
         } else {
           bubbleDramaPhotoLevelInfoBuilder_.setMessage(builderForValue.build());
         }
-        detailCase_ = 17426;
+        detailCase_ = 13791;
         return this;
       }
       /**
-       * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
+       * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 13791;</code>
        */
       public Builder mergeBubbleDramaPhotoLevelInfo(emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo value) {
         if (bubbleDramaPhotoLevelInfoBuilder_ == null) {
-          if (detailCase_ == 17426 &&
+          if (detailCase_ == 13791 &&
               detail_ != emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo.getDefaultInstance()) {
             detail_ = emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo.newBuilder((emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo) detail_)
                 .mergeFrom(value).buildPartial();
@@ -4451,26 +4451,26 @@ public final class _ClientPlayDetailInfoOuterClass {
           }
           onChanged();
         } else {
-          if (detailCase_ == 17426) {
+          if (detailCase_ == 13791) {
             bubbleDramaPhotoLevelInfoBuilder_.mergeFrom(value);
           }
           bubbleDramaPhotoLevelInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 17426;
+        detailCase_ = 13791;
         return this;
       }
       /**
-       * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
+       * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 13791;</code>
        */
       public Builder clearBubbleDramaPhotoLevelInfo() {
         if (bubbleDramaPhotoLevelInfoBuilder_ == null) {
-          if (detailCase_ == 17426) {
+          if (detailCase_ == 13791) {
             detailCase_ = 0;
             detail_ = null;
             onChanged();
           }
         } else {
-          if (detailCase_ == 17426) {
+          if (detailCase_ == 13791) {
             detailCase_ = 0;
             detail_ = null;
           }
@@ -4479,33 +4479,33 @@ public final class _ClientPlayDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
+       * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 13791;</code>
        */
       public emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo.Builder getBubbleDramaPhotoLevelInfoBuilder() {
         return getBubbleDramaPhotoLevelInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
+       * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 13791;</code>
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfoOrBuilder getBubbleDramaPhotoLevelInfoOrBuilder() {
-        if ((detailCase_ == 17426) && (bubbleDramaPhotoLevelInfoBuilder_ != null)) {
+        if ((detailCase_ == 13791) && (bubbleDramaPhotoLevelInfoBuilder_ != null)) {
           return bubbleDramaPhotoLevelInfoBuilder_.getMessageOrBuilder();
         } else {
-          if (detailCase_ == 17426) {
+          if (detailCase_ == 13791) {
             return (emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo) detail_;
           }
           return emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17426;</code>
+       * <code>.BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 13791;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo, emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo.Builder, emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfoOrBuilder> 
           getBubbleDramaPhotoLevelInfoFieldBuilder() {
         if (bubbleDramaPhotoLevelInfoBuilder_ == null) {
-          if (!(detailCase_ == 17426)) {
+          if (!(detailCase_ == 13791)) {
             detail_ = emu.grasscutter.net.proto.BubbleDramaPhotoLevelInfoOuterClass.BubbleDramaPhotoLevelInfo.getDefaultInstance();
           }
           bubbleDramaPhotoLevelInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -4515,7 +4515,7 @@ public final class _ClientPlayDetailInfoOuterClass {
                   isClean());
           detail_ = null;
         }
-        detailCase_ = 17426;
+        detailCase_ = 13791;
         onChanged();;
         return bubbleDramaPhotoLevelInfoBuilder_;
       }
@@ -4523,33 +4523,33 @@ public final class _ClientPlayDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._DreamSwitchingLevelInfoOuterClass._DreamSwitchingLevelInfo, emu.grasscutter.net.proto._DreamSwitchingLevelInfoOuterClass._DreamSwitchingLevelInfo.Builder, emu.grasscutter.net.proto._DreamSwitchingLevelInfoOuterClass._DreamSwitchingLevelInfoOrBuilder> dreamSwitchingLevelInfoBuilder_;
       /**
-       * <code>._DreamSwitchingLevelInfo dream_switching_level_info = 17851;</code>
+       * <code>._DreamSwitchingLevelInfo dream_switching_level_info = 12236;</code>
        * @return Whether the dreamSwitchingLevelInfo field is set.
        */
       @java.lang.Override
       public boolean hasDreamSwitchingLevelInfo() {
-        return detailCase_ == 17851;
+        return detailCase_ == 12236;
       }
       /**
-       * <code>._DreamSwitchingLevelInfo dream_switching_level_info = 17851;</code>
+       * <code>._DreamSwitchingLevelInfo dream_switching_level_info = 12236;</code>
        * @return The dreamSwitchingLevelInfo.
        */
       @java.lang.Override
       public emu.grasscutter.net.proto._DreamSwitchingLevelInfoOuterClass._DreamSwitchingLevelInfo getDreamSwitchingLevelInfo() {
         if (dreamSwitchingLevelInfoBuilder_ == null) {
-          if (detailCase_ == 17851) {
+          if (detailCase_ == 12236) {
             return (emu.grasscutter.net.proto._DreamSwitchingLevelInfoOuterClass._DreamSwitchingLevelInfo) detail_;
           }
           return emu.grasscutter.net.proto._DreamSwitchingLevelInfoOuterClass._DreamSwitchingLevelInfo.getDefaultInstance();
         } else {
-          if (detailCase_ == 17851) {
+          if (detailCase_ == 12236) {
             return dreamSwitchingLevelInfoBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto._DreamSwitchingLevelInfoOuterClass._DreamSwitchingLevelInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._DreamSwitchingLevelInfo dream_switching_level_info = 17851;</code>
+       * <code>._DreamSwitchingLevelInfo dream_switching_level_info = 12236;</code>
        */
       public Builder setDreamSwitchingLevelInfo(emu.grasscutter.net.proto._DreamSwitchingLevelInfoOuterClass._DreamSwitchingLevelInfo value) {
         if (dreamSwitchingLevelInfoBuilder_ == null) {
@@ -4561,11 +4561,11 @@ public final class _ClientPlayDetailInfoOuterClass {
         } else {
           dreamSwitchingLevelInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 17851;
+        detailCase_ = 12236;
         return this;
       }
       /**
-       * <code>._DreamSwitchingLevelInfo dream_switching_level_info = 17851;</code>
+       * <code>._DreamSwitchingLevelInfo dream_switching_level_info = 12236;</code>
        */
       public Builder setDreamSwitchingLevelInfo(
           emu.grasscutter.net.proto._DreamSwitchingLevelInfoOuterClass._DreamSwitchingLevelInfo.Builder builderForValue) {
@@ -4575,15 +4575,15 @@ public final class _ClientPlayDetailInfoOuterClass {
         } else {
           dreamSwitchingLevelInfoBuilder_.setMessage(builderForValue.build());
         }
-        detailCase_ = 17851;
+        detailCase_ = 12236;
         return this;
       }
       /**
-       * <code>._DreamSwitchingLevelInfo dream_switching_level_info = 17851;</code>
+       * <code>._DreamSwitchingLevelInfo dream_switching_level_info = 12236;</code>
        */
       public Builder mergeDreamSwitchingLevelInfo(emu.grasscutter.net.proto._DreamSwitchingLevelInfoOuterClass._DreamSwitchingLevelInfo value) {
         if (dreamSwitchingLevelInfoBuilder_ == null) {
-          if (detailCase_ == 17851 &&
+          if (detailCase_ == 12236 &&
               detail_ != emu.grasscutter.net.proto._DreamSwitchingLevelInfoOuterClass._DreamSwitchingLevelInfo.getDefaultInstance()) {
             detail_ = emu.grasscutter.net.proto._DreamSwitchingLevelInfoOuterClass._DreamSwitchingLevelInfo.newBuilder((emu.grasscutter.net.proto._DreamSwitchingLevelInfoOuterClass._DreamSwitchingLevelInfo) detail_)
                 .mergeFrom(value).buildPartial();
@@ -4592,26 +4592,26 @@ public final class _ClientPlayDetailInfoOuterClass {
           }
           onChanged();
         } else {
-          if (detailCase_ == 17851) {
+          if (detailCase_ == 12236) {
             dreamSwitchingLevelInfoBuilder_.mergeFrom(value);
           }
           dreamSwitchingLevelInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 17851;
+        detailCase_ = 12236;
         return this;
       }
       /**
-       * <code>._DreamSwitchingLevelInfo dream_switching_level_info = 17851;</code>
+       * <code>._DreamSwitchingLevelInfo dream_switching_level_info = 12236;</code>
        */
       public Builder clearDreamSwitchingLevelInfo() {
         if (dreamSwitchingLevelInfoBuilder_ == null) {
-          if (detailCase_ == 17851) {
+          if (detailCase_ == 12236) {
             detailCase_ = 0;
             detail_ = null;
             onChanged();
           }
         } else {
-          if (detailCase_ == 17851) {
+          if (detailCase_ == 12236) {
             detailCase_ = 0;
             detail_ = null;
           }
@@ -4620,33 +4620,33 @@ public final class _ClientPlayDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>._DreamSwitchingLevelInfo dream_switching_level_info = 17851;</code>
+       * <code>._DreamSwitchingLevelInfo dream_switching_level_info = 12236;</code>
        */
       public emu.grasscutter.net.proto._DreamSwitchingLevelInfoOuterClass._DreamSwitchingLevelInfo.Builder getDreamSwitchingLevelInfoBuilder() {
         return getDreamSwitchingLevelInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>._DreamSwitchingLevelInfo dream_switching_level_info = 17851;</code>
+       * <code>._DreamSwitchingLevelInfo dream_switching_level_info = 12236;</code>
        */
       @java.lang.Override
       public emu.grasscutter.net.proto._DreamSwitchingLevelInfoOuterClass._DreamSwitchingLevelInfoOrBuilder getDreamSwitchingLevelInfoOrBuilder() {
-        if ((detailCase_ == 17851) && (dreamSwitchingLevelInfoBuilder_ != null)) {
+        if ((detailCase_ == 12236) && (dreamSwitchingLevelInfoBuilder_ != null)) {
           return dreamSwitchingLevelInfoBuilder_.getMessageOrBuilder();
         } else {
-          if (detailCase_ == 17851) {
+          if (detailCase_ == 12236) {
             return (emu.grasscutter.net.proto._DreamSwitchingLevelInfoOuterClass._DreamSwitchingLevelInfo) detail_;
           }
           return emu.grasscutter.net.proto._DreamSwitchingLevelInfoOuterClass._DreamSwitchingLevelInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._DreamSwitchingLevelInfo dream_switching_level_info = 17851;</code>
+       * <code>._DreamSwitchingLevelInfo dream_switching_level_info = 12236;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._DreamSwitchingLevelInfoOuterClass._DreamSwitchingLevelInfo, emu.grasscutter.net.proto._DreamSwitchingLevelInfoOuterClass._DreamSwitchingLevelInfo.Builder, emu.grasscutter.net.proto._DreamSwitchingLevelInfoOuterClass._DreamSwitchingLevelInfoOrBuilder> 
           getDreamSwitchingLevelInfoFieldBuilder() {
         if (dreamSwitchingLevelInfoBuilder_ == null) {
-          if (!(detailCase_ == 17851)) {
+          if (!(detailCase_ == 12236)) {
             detail_ = emu.grasscutter.net.proto._DreamSwitchingLevelInfoOuterClass._DreamSwitchingLevelInfo.getDefaultInstance();
           }
           dreamSwitchingLevelInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -4656,7 +4656,7 @@ public final class _ClientPlayDetailInfoOuterClass {
                   isClean());
           detail_ = null;
         }
-        detailCase_ = 17851;
+        detailCase_ = 12236;
         onChanged();;
         return dreamSwitchingLevelInfoBuilder_;
       }
@@ -4664,33 +4664,33 @@ public final class _ClientPlayDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._SumeruAdventureGoalFightingLevelInfoOuterClass._SumeruAdventureGoalFightingLevelInfo, emu.grasscutter.net.proto._SumeruAdventureGoalFightingLevelInfoOuterClass._SumeruAdventureGoalFightingLevelInfo.Builder, emu.grasscutter.net.proto._SumeruAdventureGoalFightingLevelInfoOuterClass._SumeruAdventureGoalFightingLevelInfoOrBuilder> sumeruAdventureGoalFightingLevelInfoBuilder_;
       /**
-       * <code>._SumeruAdventureGoalFightingLevelInfo sumeru_adventure_goal_fighting_level_info = 18549;</code>
+       * <code>._SumeruAdventureGoalFightingLevelInfo sumeru_adventure_goal_fighting_level_info = 18078;</code>
        * @return Whether the sumeruAdventureGoalFightingLevelInfo field is set.
        */
       @java.lang.Override
       public boolean hasSumeruAdventureGoalFightingLevelInfo() {
-        return detailCase_ == 18549;
+        return detailCase_ == 18078;
       }
       /**
-       * <code>._SumeruAdventureGoalFightingLevelInfo sumeru_adventure_goal_fighting_level_info = 18549;</code>
+       * <code>._SumeruAdventureGoalFightingLevelInfo sumeru_adventure_goal_fighting_level_info = 18078;</code>
        * @return The sumeruAdventureGoalFightingLevelInfo.
        */
       @java.lang.Override
       public emu.grasscutter.net.proto._SumeruAdventureGoalFightingLevelInfoOuterClass._SumeruAdventureGoalFightingLevelInfo getSumeruAdventureGoalFightingLevelInfo() {
         if (sumeruAdventureGoalFightingLevelInfoBuilder_ == null) {
-          if (detailCase_ == 18549) {
+          if (detailCase_ == 18078) {
             return (emu.grasscutter.net.proto._SumeruAdventureGoalFightingLevelInfoOuterClass._SumeruAdventureGoalFightingLevelInfo) detail_;
           }
           return emu.grasscutter.net.proto._SumeruAdventureGoalFightingLevelInfoOuterClass._SumeruAdventureGoalFightingLevelInfo.getDefaultInstance();
         } else {
-          if (detailCase_ == 18549) {
+          if (detailCase_ == 18078) {
             return sumeruAdventureGoalFightingLevelInfoBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto._SumeruAdventureGoalFightingLevelInfoOuterClass._SumeruAdventureGoalFightingLevelInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._SumeruAdventureGoalFightingLevelInfo sumeru_adventure_goal_fighting_level_info = 18549;</code>
+       * <code>._SumeruAdventureGoalFightingLevelInfo sumeru_adventure_goal_fighting_level_info = 18078;</code>
        */
       public Builder setSumeruAdventureGoalFightingLevelInfo(emu.grasscutter.net.proto._SumeruAdventureGoalFightingLevelInfoOuterClass._SumeruAdventureGoalFightingLevelInfo value) {
         if (sumeruAdventureGoalFightingLevelInfoBuilder_ == null) {
@@ -4702,11 +4702,11 @@ public final class _ClientPlayDetailInfoOuterClass {
         } else {
           sumeruAdventureGoalFightingLevelInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 18549;
+        detailCase_ = 18078;
         return this;
       }
       /**
-       * <code>._SumeruAdventureGoalFightingLevelInfo sumeru_adventure_goal_fighting_level_info = 18549;</code>
+       * <code>._SumeruAdventureGoalFightingLevelInfo sumeru_adventure_goal_fighting_level_info = 18078;</code>
        */
       public Builder setSumeruAdventureGoalFightingLevelInfo(
           emu.grasscutter.net.proto._SumeruAdventureGoalFightingLevelInfoOuterClass._SumeruAdventureGoalFightingLevelInfo.Builder builderForValue) {
@@ -4716,15 +4716,15 @@ public final class _ClientPlayDetailInfoOuterClass {
         } else {
           sumeruAdventureGoalFightingLevelInfoBuilder_.setMessage(builderForValue.build());
         }
-        detailCase_ = 18549;
+        detailCase_ = 18078;
         return this;
       }
       /**
-       * <code>._SumeruAdventureGoalFightingLevelInfo sumeru_adventure_goal_fighting_level_info = 18549;</code>
+       * <code>._SumeruAdventureGoalFightingLevelInfo sumeru_adventure_goal_fighting_level_info = 18078;</code>
        */
       public Builder mergeSumeruAdventureGoalFightingLevelInfo(emu.grasscutter.net.proto._SumeruAdventureGoalFightingLevelInfoOuterClass._SumeruAdventureGoalFightingLevelInfo value) {
         if (sumeruAdventureGoalFightingLevelInfoBuilder_ == null) {
-          if (detailCase_ == 18549 &&
+          if (detailCase_ == 18078 &&
               detail_ != emu.grasscutter.net.proto._SumeruAdventureGoalFightingLevelInfoOuterClass._SumeruAdventureGoalFightingLevelInfo.getDefaultInstance()) {
             detail_ = emu.grasscutter.net.proto._SumeruAdventureGoalFightingLevelInfoOuterClass._SumeruAdventureGoalFightingLevelInfo.newBuilder((emu.grasscutter.net.proto._SumeruAdventureGoalFightingLevelInfoOuterClass._SumeruAdventureGoalFightingLevelInfo) detail_)
                 .mergeFrom(value).buildPartial();
@@ -4733,26 +4733,26 @@ public final class _ClientPlayDetailInfoOuterClass {
           }
           onChanged();
         } else {
-          if (detailCase_ == 18549) {
+          if (detailCase_ == 18078) {
             sumeruAdventureGoalFightingLevelInfoBuilder_.mergeFrom(value);
           }
           sumeruAdventureGoalFightingLevelInfoBuilder_.setMessage(value);
         }
-        detailCase_ = 18549;
+        detailCase_ = 18078;
         return this;
       }
       /**
-       * <code>._SumeruAdventureGoalFightingLevelInfo sumeru_adventure_goal_fighting_level_info = 18549;</code>
+       * <code>._SumeruAdventureGoalFightingLevelInfo sumeru_adventure_goal_fighting_level_info = 18078;</code>
        */
       public Builder clearSumeruAdventureGoalFightingLevelInfo() {
         if (sumeruAdventureGoalFightingLevelInfoBuilder_ == null) {
-          if (detailCase_ == 18549) {
+          if (detailCase_ == 18078) {
             detailCase_ = 0;
             detail_ = null;
             onChanged();
           }
         } else {
-          if (detailCase_ == 18549) {
+          if (detailCase_ == 18078) {
             detailCase_ = 0;
             detail_ = null;
           }
@@ -4761,33 +4761,33 @@ public final class _ClientPlayDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>._SumeruAdventureGoalFightingLevelInfo sumeru_adventure_goal_fighting_level_info = 18549;</code>
+       * <code>._SumeruAdventureGoalFightingLevelInfo sumeru_adventure_goal_fighting_level_info = 18078;</code>
        */
       public emu.grasscutter.net.proto._SumeruAdventureGoalFightingLevelInfoOuterClass._SumeruAdventureGoalFightingLevelInfo.Builder getSumeruAdventureGoalFightingLevelInfoBuilder() {
         return getSumeruAdventureGoalFightingLevelInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>._SumeruAdventureGoalFightingLevelInfo sumeru_adventure_goal_fighting_level_info = 18549;</code>
+       * <code>._SumeruAdventureGoalFightingLevelInfo sumeru_adventure_goal_fighting_level_info = 18078;</code>
        */
       @java.lang.Override
       public emu.grasscutter.net.proto._SumeruAdventureGoalFightingLevelInfoOuterClass._SumeruAdventureGoalFightingLevelInfoOrBuilder getSumeruAdventureGoalFightingLevelInfoOrBuilder() {
-        if ((detailCase_ == 18549) && (sumeruAdventureGoalFightingLevelInfoBuilder_ != null)) {
+        if ((detailCase_ == 18078) && (sumeruAdventureGoalFightingLevelInfoBuilder_ != null)) {
           return sumeruAdventureGoalFightingLevelInfoBuilder_.getMessageOrBuilder();
         } else {
-          if (detailCase_ == 18549) {
+          if (detailCase_ == 18078) {
             return (emu.grasscutter.net.proto._SumeruAdventureGoalFightingLevelInfoOuterClass._SumeruAdventureGoalFightingLevelInfo) detail_;
           }
           return emu.grasscutter.net.proto._SumeruAdventureGoalFightingLevelInfoOuterClass._SumeruAdventureGoalFightingLevelInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>._SumeruAdventureGoalFightingLevelInfo sumeru_adventure_goal_fighting_level_info = 18549;</code>
+       * <code>._SumeruAdventureGoalFightingLevelInfo sumeru_adventure_goal_fighting_level_info = 18078;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._SumeruAdventureGoalFightingLevelInfoOuterClass._SumeruAdventureGoalFightingLevelInfo, emu.grasscutter.net.proto._SumeruAdventureGoalFightingLevelInfoOuterClass._SumeruAdventureGoalFightingLevelInfo.Builder, emu.grasscutter.net.proto._SumeruAdventureGoalFightingLevelInfoOuterClass._SumeruAdventureGoalFightingLevelInfoOrBuilder> 
           getSumeruAdventureGoalFightingLevelInfoFieldBuilder() {
         if (sumeruAdventureGoalFightingLevelInfoBuilder_ == null) {
-          if (!(detailCase_ == 18549)) {
+          if (!(detailCase_ == 18078)) {
             detail_ = emu.grasscutter.net.proto._SumeruAdventureGoalFightingLevelInfoOuterClass._SumeruAdventureGoalFightingLevelInfo.getDefaultInstance();
           }
           sumeruAdventureGoalFightingLevelInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -4797,7 +4797,7 @@ public final class _ClientPlayDetailInfoOuterClass {
                   isClean());
           detail_ = null;
         }
-        detailCase_ = 18549;
+        detailCase_ = 18078;
         onChanged();;
         return sumeruAdventureGoalFightingLevelInfoBuilder_;
       }
@@ -4884,42 +4884,41 @@ public final class _ClientPlayDetailInfoOuterClass {
       "artyLevelInfo.proto\032 _RankedMatchTrainLe" +
       "velInfo.proto\032+_SumeruAdventureGoalFight" +
       "ingLevelInfo.proto\032\034_TowerDefenseLevelIn" +
-      "fo.proto\"\251\n\n\025_ClientPlayDetailInfo\022E\n\035ra" +
-      "nked_match_train_level_info\030\234\031 \001(\0132\033._Ra" +
+      "fo.proto\"\247\n\n\025_ClientPlayDetailInfo\022E\n\035ra" +
+      "nked_match_train_level_info\030\375Y \001(\0132\033._Ra" +
       "nkedMatchTrainLevelInfoH\000\0225\n\024autochess_l" +
-      "evel_info\030\310\" \001(\0132\024._AutochessLevelInfoH\000" +
-      "\022K\n holiday_resort_sniper_level_info\030\376% " +
+      "evel_info\030\324` \001(\0132\024._AutochessLevelInfoH\000" +
+      "\022K\n holiday_resort_sniper_level_info\030\2636 " +
       "\001(\0132\036._HolidayResortSniperLevelInfoH\000\022<\n" +
-      "\030tower_defense_level_info\030\3711 \001(\0132\027._Towe" +
+      "\030tower_defense_level_info\030\263< \001(\0132\027._Towe" +
       "rDefenseLevelInfoH\000\0222\n\023map_mark_level_in" +
-      "fo\030\3357 \001(\0132\022._MapMarkLevelInfoH\000\022G\n\036natla" +
-      "n_drill_battle_level_info\030\264= \001(\0132\034._Natl" +
+      "fo\030\321G \001(\0132\022._MapMarkLevelInfoH\000\022G\n\036natla" +
+      "n_drill_battle_level_info\030\242| \001(\0132\034._Natl" +
       "anDrillBattleLevelInfoH\000\0224\n\024loli_jump_le" +
-      "vel_info\030\255B \001(\0132\023._LoliJumpLevelInfoH\000\0228" +
-      "\n\026blade_heart_level_info\030\221Q \001(\0132\025._Blade" +
+      "vel_info\030\257& \001(\0132\023._LoliJumpLevelInfoH\000\0228" +
+      "\n\026blade_heart_level_info\030\217- \001(\0132\025._Blade" +
       "HeartLevelInfoH\000\022K\n holiday_resort_battl" +
-      "e_level_info\030\210R \001(\0132\036._HolidayResortBatt" +
+      "e_level_info\030\214w \001(\0132\036._HolidayResortBatt" +
       "leLevelInfoH\000\022O\n\"holiday_resort_graffiti" +
-      "_level_info\030\344f \001(\0132 ._HolidayResortGraff" +
-      "itiLevelInfoH\000\022Q\n#holiday_resort_adventu" +
-      "re_level_info\030\363h \001(\0132!._HolidayResortAdv" +
-      "entureLevelInfoH\000\022B\n\033diversity_battle_le" +
-      "vel_info\030\323i \001(\0132\032._DiversityBattleLevelI" +
-      "nfoH\000\022D\n\034inazuma_badminton_level_info\030\334w" +
-      " \001(\0132\033._InazumaBadmintonLevelInfoH\000\022-\n\020p" +
-      "arty_level_info\030\203z \001(\0132\020._PartyLevelInfo" +
-      "H\000\0222\n\023one_shot_level_info\030\346\177 \001(\0132\022._OneS" +
-      "hotLevelInfoH\000\022I\n\036doppelganger_puzzle_le" +
-      "vel_info\030\340\203\001 \001(\0132\035._DoppelgangerPuzzleLe" +
-      "velInfoH\000\022E\n\035bubble_drama_photo_level_in" +
-      "fo\030\222\210\001 \001(\0132\032.BubbleDramaPhotoLevelInfoH\000" +
-      "\022A\n\032dream_switching_level_info\030\273\213\001 \001(\0132\031" +
-      "._DreamSwitchingLevelInfoH\000\022]\n)sumeru_ad" +
-      "venture_goal_fighting_level_info\030\365\220\001 \001(\013" +
-      "2&._SumeruAdventureGoalFightingLevelInfo" +
-      "H\000B\010\n\006detailB<\n\031emu.grasscutter.net.prot" +
-      "oB\037_ClientPlayDetailInfoOuterClassb\006prot" +
-      "o3"
+      "_level_info\030\347\033 \001(\0132 ._HolidayResortGraff" +
+      "itiLevelInfoH\000\022R\n#holiday_resort_adventu" +
+      "re_level_info\030\331\204\001 \001(\0132!._HolidayResortAd" +
+      "ventureLevelInfoH\000\022B\n\033diversity_battle_l" +
+      "evel_info\030\222k \001(\0132\032._DiversityBattleLevel" +
+      "InfoH\000\022D\n\034inazuma_badminton_level_info\030\314" +
+      "8 \001(\0132\033._InazumaBadmintonLevelInfoH\000\022-\n\020" +
+      "party_level_info\030\312` \001(\0132\020._PartyLevelInf" +
+      "oH\000\0222\n\023one_shot_level_info\030\301\023 \001(\0132\022._One" +
+      "ShotLevelInfoH\000\022H\n\036doppelganger_puzzle_l" +
+      "evel_info\030\253/ \001(\0132\035._DoppelgangerPuzzleLe" +
+      "velInfoH\000\022D\n\035bubble_drama_photo_level_in" +
+      "fo\030\337k \001(\0132\032.BubbleDramaPhotoLevelInfoH\000\022" +
+      "@\n\032dream_switching_level_info\030\314_ \001(\0132\031._" +
+      "DreamSwitchingLevelInfoH\000\022]\n)sumeru_adve" +
+      "nture_goal_fighting_level_info\030\236\215\001 \001(\0132&" +
+      "._SumeruAdventureGoalFightingLevelInfoH\000" +
+      "B\010\n\006detailB<\n\031emu.grasscutter.net.protoB" +
+      "\037_ClientPlayDetailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -25,7 +25,7 @@ public final class PlayerEnterDungeonRspOuterClass {
     int getDungeonId();
 
     /**
-     * <code>int32 retcode = 8;</code>
+     * <code>int32 retcode = 6;</code>
      * @return The retcode.
      */
     int getRetcode();
@@ -86,7 +86,7 @@ public final class PlayerEnterDungeonRspOuterClass {
               dungeonId_ = input.readUInt32();
               break;
             }
-            case 64: {
+            case 48: {
 
               retcode_ = input.readInt32();
               break;
@@ -139,10 +139,10 @@ public final class PlayerEnterDungeonRspOuterClass {
       return dungeonId_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 8;
+    public static final int RETCODE_FIELD_NUMBER = 6;
     private int retcode_;
     /**
-     * <code>int32 retcode = 8;</code>
+     * <code>int32 retcode = 6;</code>
      * @return The retcode.
      */
     @java.lang.Override
@@ -179,7 +179,7 @@ public final class PlayerEnterDungeonRspOuterClass {
         output.writeUInt32(2, dungeonId_);
       }
       if (retcode_ != 0) {
-        output.writeInt32(8, retcode_);
+        output.writeInt32(6, retcode_);
       }
       if (pointId_ != 0) {
         output.writeUInt32(15, pointId_);
@@ -199,7 +199,7 @@ public final class PlayerEnterDungeonRspOuterClass {
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(8, retcode_);
+          .computeInt32Size(6, retcode_);
       }
       if (pointId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -530,7 +530,7 @@ public final class PlayerEnterDungeonRspOuterClass {
 
       private int retcode_ ;
       /**
-       * <code>int32 retcode = 8;</code>
+       * <code>int32 retcode = 6;</code>
        * @return The retcode.
        */
       @java.lang.Override
@@ -538,7 +538,7 @@ public final class PlayerEnterDungeonRspOuterClass {
         return retcode_;
       }
       /**
-       * <code>int32 retcode = 8;</code>
+       * <code>int32 retcode = 6;</code>
        * @param value The retcode to set.
        * @return This builder for chaining.
        */
@@ -549,7 +549,7 @@ public final class PlayerEnterDungeonRspOuterClass {
         return this;
       }
       /**
-       * <code>int32 retcode = 8;</code>
+       * <code>int32 retcode = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
@@ -658,7 +658,7 @@ public final class PlayerEnterDungeonRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033PlayerEnterDungeonRsp.proto\"N\n\025PlayerE" +
       "nterDungeonRsp\022\022\n\ndungeon_id\030\002 \001(\r\022\017\n\007re" +
-      "tcode\030\010 \001(\005\022\020\n\010point_id\030\017 \001(\rB<\n\031emu.gra" +
+      "tcode\030\006 \001(\005\022\020\n\010point_id\030\017 \001(\rB<\n\031emu.gra" +
       "sscutter.net.protoB\037PlayerEnterDungeonRs" +
       "pOuterClassb\006proto3"
     };

@@ -435,10 +435,10 @@ public final class AvatarInfoOuterClass {
     emu.grasscutter.net.proto.MirrorAvatarInfoOuterClass.MirrorAvatarInfoOrBuilder getMirrorAvatarInfoOrBuilder();
 
     /**
-     * <code>uint32 dpeciabdbpg = 29;</code>
-     * @return The dpeciabdbpg.
+     * <code>uint32 _extra_level = 29;</code>
+     * @return The extraLevel.
      */
-    int getDpeciabdbpg();
+    int getExtraLevel();
 
     /**
      * <code>uint32 eigifnbdicm = 30;</code>
@@ -887,7 +887,7 @@ public final class AvatarInfoOuterClass {
             }
             case 232: {
 
-              dpeciabdbpg_ = input.readUInt32();
+              ExtraLevel_ = input.readUInt32();
               break;
             }
             case 240: {
@@ -1882,15 +1882,15 @@ public final class AvatarInfoOuterClass {
       return getMirrorAvatarInfo();
     }
 
-    public static final int DPECIABDBPG_FIELD_NUMBER = 29;
-    private int dpeciabdbpg_;
+    public static final int _EXTRA_LEVEL_FIELD_NUMBER = 29;
+    private int ExtraLevel_;
     /**
-     * <code>uint32 dpeciabdbpg = 29;</code>
-     * @return The dpeciabdbpg.
+     * <code>uint32 _extra_level = 29;</code>
+     * @return The extraLevel.
      */
     @java.lang.Override
-    public int getDpeciabdbpg() {
-      return dpeciabdbpg_;
+    public int getExtraLevel() {
+      return ExtraLevel_;
     }
 
     public static final int EIGIFNBDICM_FIELD_NUMBER = 30;
@@ -2190,8 +2190,8 @@ public final class AvatarInfoOuterClass {
       if (mirrorAvatarInfo_ != null) {
         output.writeMessage(28, getMirrorAvatarInfo());
       }
-      if (dpeciabdbpg_ != 0) {
-        output.writeUInt32(29, dpeciabdbpg_);
+      if (ExtraLevel_ != 0) {
+        output.writeUInt32(29, ExtraLevel_);
       }
       if (eigifnbdicm_ != 0) {
         output.writeUInt32(30, eigifnbdicm_);
@@ -2422,9 +2422,9 @@ public final class AvatarInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(28, getMirrorAvatarInfo());
       }
-      if (dpeciabdbpg_ != 0) {
+      if (ExtraLevel_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(29, dpeciabdbpg_);
+          .computeUInt32Size(29, ExtraLevel_);
       }
       if (eigifnbdicm_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -2558,8 +2558,8 @@ public final class AvatarInfoOuterClass {
         if (!getMirrorAvatarInfo()
             .equals(other.getMirrorAvatarInfo())) return false;
       }
-      if (getDpeciabdbpg()
-          != other.getDpeciabdbpg()) return false;
+      if (getExtraLevel()
+          != other.getExtraLevel()) return false;
       if (getEigifnbdicm()
           != other.getEigifnbdicm()) return false;
       if (getTraceEffectId()
@@ -2676,8 +2676,8 @@ public final class AvatarInfoOuterClass {
         hash = (37 * hash) + MIRROR_AVATAR_INFO_FIELD_NUMBER;
         hash = (53 * hash) + getMirrorAvatarInfo().hashCode();
       }
-      hash = (37 * hash) + DPECIABDBPG_FIELD_NUMBER;
-      hash = (53 * hash) + getDpeciabdbpg();
+      hash = (37 * hash) + _EXTRA_LEVEL_FIELD_NUMBER;
+      hash = (53 * hash) + getExtraLevel();
       hash = (37 * hash) + EIGIFNBDICM_FIELD_NUMBER;
       hash = (53 * hash) + getEigifnbdicm();
       hash = (37 * hash) + _TRACE_EFFECT_ID_FIELD_NUMBER;
@@ -2944,7 +2944,7 @@ public final class AvatarInfoOuterClass {
           mirrorAvatarInfo_ = null;
           mirrorAvatarInfoBuilder_ = null;
         }
-        dpeciabdbpg_ = 0;
+        ExtraLevel_ = 0;
 
         eigifnbdicm_ = 0;
 
@@ -3073,7 +3073,7 @@ public final class AvatarInfoOuterClass {
         } else {
           result.mirrorAvatarInfo_ = mirrorAvatarInfoBuilder_.build();
         }
-        result.dpeciabdbpg_ = dpeciabdbpg_;
+        result.ExtraLevel_ = ExtraLevel_;
         result.eigifnbdicm_ = eigifnbdicm_;
         result.TraceEffectId_ = TraceEffectId_;
         result.WeaponSkinId_ = WeaponSkinId_;
@@ -3284,8 +3284,8 @@ public final class AvatarInfoOuterClass {
         if (other.hasMirrorAvatarInfo()) {
           mergeMirrorAvatarInfo(other.getMirrorAvatarInfo());
         }
-        if (other.getDpeciabdbpg() != 0) {
-          setDpeciabdbpg(other.getDpeciabdbpg());
+        if (other.getExtraLevel() != 0) {
+          setExtraLevel(other.getExtraLevel());
         }
         if (other.getEigifnbdicm() != 0) {
           setEigifnbdicm(other.getEigifnbdicm());
@@ -5524,33 +5524,33 @@ public final class AvatarInfoOuterClass {
         return mirrorAvatarInfoBuilder_;
       }
 
-      private int dpeciabdbpg_ ;
+      private int ExtraLevel_ ;
       /**
-       * <code>uint32 dpeciabdbpg = 29;</code>
-       * @return The dpeciabdbpg.
+       * <code>uint32 _extra_level = 29;</code>
+       * @return The extraLevel.
        */
       @java.lang.Override
-      public int getDpeciabdbpg() {
-        return dpeciabdbpg_;
+      public int getExtraLevel() {
+        return ExtraLevel_;
       }
       /**
-       * <code>uint32 dpeciabdbpg = 29;</code>
-       * @param value The dpeciabdbpg to set.
+       * <code>uint32 _extra_level = 29;</code>
+       * @param value The extraLevel to set.
        * @return This builder for chaining.
        */
-      public Builder setDpeciabdbpg(int value) {
+      public Builder setExtraLevel(int value) {
         
-        dpeciabdbpg_ = value;
+        ExtraLevel_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 dpeciabdbpg = 29;</code>
+       * <code>uint32 _extra_level = 29;</code>
        * @return This builder for chaining.
        */
-      public Builder clearDpeciabdbpg() {
+      public Builder clearExtraLevel() {
         
-        dpeciabdbpg_ = 0;
+        ExtraLevel_ = 0;
         onChanged();
         return this;
       }
@@ -6293,7 +6293,7 @@ public final class AvatarInfoOuterClass {
       "to\032\025AvatarSkillInfo.proto\032\026MirrorAvatarI" +
       "nfo.proto\032\017PropValue.proto\032\025SceneWeaponI" +
       "nfo.proto\032\025TrialAvatarInfo.proto\032\033_Beyon" +
-      "dCostumeSetInfo.proto\"\363\013\n\nAvatarInfo\022\021\n\t" +
+      "dCostumeSetInfo.proto\"\364\013\n\nAvatarInfo\022\021\n\t" +
       "avatar_id\030\001 \001(\r\022\014\n\004guid\030\002 \001(\004\022*\n\010prop_ma" +
       "p\030\003 \003(\0132\030.AvatarInfo.PropMapEntry\022\022\n\nlif" +
       "e_state\030\004 \001(\r\022\027\n\017equip_guid_list\030\005 \003(\004\022\026" +
@@ -6317,23 +6317,23 @@ public final class AvatarInfoOuterClass {
       "t\030\030 \003(\r\022\022\n\ncostume_id\030\031 \001(\r\022$\n\nexcel_inf" +
       "o\030\032 \001(\0132\020.AvatarExcelInfo\022\021\n\tanim_hash\030\033" +
       " \001(\r\022-\n\022mirror_avatar_info\030\034 \001(\0132\021.Mirro" +
-      "rAvatarInfo\022\023\n\013dpeciabdbpg\030\035 \001(\r\022\023\n\013eigi" +
-      "fnbdicm\030\036 \001(\r\022\030\n\020_trace_effect_id\030\037 \001(\r\022" +
-      "\027\n\017_weapon_skin_id\030  \001(\r\0223\n\023_avatar_cost" +
-      "ume_set\030! \001(\0132\026._BeyondCostumeSetInfo\022\021\n" +
-      "\t_voice_id\030\" \001(\r\022!\n\031_special_proud_skill" +
-      "_list\030# \003(\r\022%\n\035_unlocked_skill_depot_id_" +
-      "list\030$ \003(\r\022%\n\013KPJFLNKEFBC\030% \003(\0132\020.SceneW" +
-      "eaponInfo\032:\n\014PropMapEntry\022\013\n\003key\030\001 \001(\r\022\031" +
-      "\n\005value\030\002 \001(\0132\n.PropValue:\0028\001\0323\n\021FightPr" +
-      "opMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\002:\002" +
-      "8\001\032A\n\rSkillMapEntry\022\013\n\003key\030\001 \001(\r\022\037\n\005valu" +
-      "e\030\002 \001(\0132\020.AvatarSkillInfo:\0028\001\0324\n\022SkillLe" +
-      "velMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:" +
-      "\0028\001\032>\n\034ProudSkillExtraLevelMapEntry\022\013\n\003k" +
-      "ey\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B1\n\031emu.grass" +
-      "cutter.net.protoB\024AvatarInfoOuterClassb\006" +
-      "proto3"
+      "rAvatarInfo\022\024\n\014_extra_level\030\035 \001(\r\022\023\n\013eig" +
+      "ifnbdicm\030\036 \001(\r\022\030\n\020_trace_effect_id\030\037 \001(\r" +
+      "\022\027\n\017_weapon_skin_id\030  \001(\r\0223\n\023_avatar_cos" +
+      "tume_set\030! \001(\0132\026._BeyondCostumeSetInfo\022\021" +
+      "\n\t_voice_id\030\" \001(\r\022!\n\031_special_proud_skil" +
+      "l_list\030# \003(\r\022%\n\035_unlocked_skill_depot_id" +
+      "_list\030$ \003(\r\022%\n\013KPJFLNKEFBC\030% \003(\0132\020.Scene" +
+      "WeaponInfo\032:\n\014PropMapEntry\022\013\n\003key\030\001 \001(\r\022" +
+      "\031\n\005value\030\002 \001(\0132\n.PropValue:\0028\001\0323\n\021FightP" +
+      "ropMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\002:" +
+      "\0028\001\032A\n\rSkillMapEntry\022\013\n\003key\030\001 \001(\r\022\037\n\005val" +
+      "ue\030\002 \001(\0132\020.AvatarSkillInfo:\0028\001\0324\n\022SkillL" +
+      "evelMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r" +
+      ":\0028\001\032>\n\034ProudSkillExtraLevelMapEntry\022\013\n\003" +
+      "key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B1\n\031emu.gras" +
+      "scutter.net.protoB\024AvatarInfoOuterClassb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -6354,7 +6354,7 @@ public final class AvatarInfoOuterClass {
     internal_static_AvatarInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AvatarInfo_descriptor,
-        new java.lang.String[] { "AvatarId", "Guid", "PropMap", "LifeState", "EquipGuidList", "TalentIdList", "FightPropMap", "TrialAvatarInfo", "SkillMap", "SkillDepotId", "FetterInfo", "CoreProudSkillLevel", "InherentProudSkillList", "SkillLevelMap", "ExpeditionState", "ProudSkillExtraLevelMap", "IsFocus", "AvatarType", "TeamResonanceList", "WearingFlycloakId", "EquipAffixList", "BornTime", "PendingPromoteRewardList", "CostumeId", "ExcelInfo", "AnimHash", "MirrorAvatarInfo", "Dpeciabdbpg", "Eigifnbdicm", "TraceEffectId", "WeaponSkinId", "AvatarCostumeSet", "VoiceId", "SpecialProudSkillList", "UnlockedSkillDepotIdList", "KPJFLNKEFBC", });
+        new java.lang.String[] { "AvatarId", "Guid", "PropMap", "LifeState", "EquipGuidList", "TalentIdList", "FightPropMap", "TrialAvatarInfo", "SkillMap", "SkillDepotId", "FetterInfo", "CoreProudSkillLevel", "InherentProudSkillList", "SkillLevelMap", "ExpeditionState", "ProudSkillExtraLevelMap", "IsFocus", "AvatarType", "TeamResonanceList", "WearingFlycloakId", "EquipAffixList", "BornTime", "PendingPromoteRewardList", "CostumeId", "ExcelInfo", "AnimHash", "MirrorAvatarInfo", "ExtraLevel", "Eigifnbdicm", "TraceEffectId", "WeaponSkinId", "AvatarCostumeSet", "VoiceId", "SpecialProudSkillList", "UnlockedSkillDepotIdList", "KPJFLNKEFBC", });
     internal_static_AvatarInfo_PropMapEntry_descriptor =
       internal_static_AvatarInfo_descriptor.getNestedTypes().get(0);
     internal_static_AvatarInfo_PropMapEntry_fieldAccessorTable = new

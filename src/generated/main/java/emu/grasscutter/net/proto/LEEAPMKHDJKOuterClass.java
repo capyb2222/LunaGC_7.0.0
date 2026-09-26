@@ -19,43 +19,43 @@ public final class LEEAPMKHDJKOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 MEBODADIOBO = 3;</code>
+     * <code>uint32 MEBODADIOBO = 7;</code>
      * @return The mEBODADIOBO.
      */
     int getMEBODADIOBO();
 
     /**
-     * <code>uint32 OOFPCLDDCCL = 5;</code>
+     * <code>uint32 OOFPCLDDCCL = 50000;</code>
      * @return The oOFPCLDDCCL.
      */
     int getOOFPCLDDCCL();
 
     /**
-     * <code>uint32 HANJNFCBFCJ = 9;</code>
+     * <code>uint32 HANJNFCBFCJ = 50001;</code>
      * @return The hANJNFCBFCJ.
      */
     int getHANJNFCBFCJ();
 
     /**
-     * <code>repeated .EBPIBIFOEFF avatar_list = 15;</code>
+     * <code>repeated .EBPIBIFOEFF avatar_list = 3;</code>
      */
     java.util.List<emu.grasscutter.net.proto.EBPIBIFOEFFOuterClass.EBPIBIFOEFF> 
         getAvatarListList();
     /**
-     * <code>repeated .EBPIBIFOEFF avatar_list = 15;</code>
+     * <code>repeated .EBPIBIFOEFF avatar_list = 3;</code>
      */
     emu.grasscutter.net.proto.EBPIBIFOEFFOuterClass.EBPIBIFOEFF getAvatarList(int index);
     /**
-     * <code>repeated .EBPIBIFOEFF avatar_list = 15;</code>
+     * <code>repeated .EBPIBIFOEFF avatar_list = 3;</code>
      */
     int getAvatarListCount();
     /**
-     * <code>repeated .EBPIBIFOEFF avatar_list = 15;</code>
+     * <code>repeated .EBPIBIFOEFF avatar_list = 3;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.EBPIBIFOEFFOuterClass.EBPIBIFOEFFOrBuilder> 
         getAvatarListOrBuilderList();
     /**
-     * <code>repeated .EBPIBIFOEFF avatar_list = 15;</code>
+     * <code>repeated .EBPIBIFOEFF avatar_list = 3;</code>
      */
     emu.grasscutter.net.proto.EBPIBIFOEFFOuterClass.EBPIBIFOEFFOrBuilder getAvatarListOrBuilder(
         int index);
@@ -107,28 +107,28 @@ public final class LEEAPMKHDJKOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
-
-              mEBODADIOBO_ = input.readUInt32();
-              break;
-            }
-            case 40: {
-
-              oOFPCLDDCCL_ = input.readUInt32();
-              break;
-            }
-            case 72: {
-
-              hANJNFCBFCJ_ = input.readUInt32();
-              break;
-            }
-            case 122: {
+            case 26: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 avatarList_ = new java.util.ArrayList<emu.grasscutter.net.proto.EBPIBIFOEFFOuterClass.EBPIBIFOEFF>();
                 mutable_bitField0_ |= 0x00000001;
               }
               avatarList_.add(
                   input.readMessage(emu.grasscutter.net.proto.EBPIBIFOEFFOuterClass.EBPIBIFOEFF.parser(), extensionRegistry));
+              break;
+            }
+            case 56: {
+
+              mEBODADIOBO_ = input.readUInt32();
+              break;
+            }
+            case 400000: {
+
+              oOFPCLDDCCL_ = input.readUInt32();
+              break;
+            }
+            case 400008: {
+
+              hANJNFCBFCJ_ = input.readUInt32();
               break;
             }
             default: {
@@ -166,10 +166,10 @@ public final class LEEAPMKHDJKOuterClass {
               emu.grasscutter.net.proto.LEEAPMKHDJKOuterClass.LEEAPMKHDJK.class, emu.grasscutter.net.proto.LEEAPMKHDJKOuterClass.LEEAPMKHDJK.Builder.class);
     }
 
-    public static final int MEBODADIOBO_FIELD_NUMBER = 3;
+    public static final int MEBODADIOBO_FIELD_NUMBER = 7;
     private int mEBODADIOBO_;
     /**
-     * <code>uint32 MEBODADIOBO = 3;</code>
+     * <code>uint32 MEBODADIOBO = 7;</code>
      * @return The mEBODADIOBO.
      */
     @java.lang.Override
@@ -177,10 +177,10 @@ public final class LEEAPMKHDJKOuterClass {
       return mEBODADIOBO_;
     }
 
-    public static final int OOFPCLDDCCL_FIELD_NUMBER = 5;
+    public static final int OOFPCLDDCCL_FIELD_NUMBER = 50000;
     private int oOFPCLDDCCL_;
     /**
-     * <code>uint32 OOFPCLDDCCL = 5;</code>
+     * <code>uint32 OOFPCLDDCCL = 50000;</code>
      * @return The oOFPCLDDCCL.
      */
     @java.lang.Override
@@ -188,10 +188,10 @@ public final class LEEAPMKHDJKOuterClass {
       return oOFPCLDDCCL_;
     }
 
-    public static final int HANJNFCBFCJ_FIELD_NUMBER = 9;
+    public static final int HANJNFCBFCJ_FIELD_NUMBER = 50001;
     private int hANJNFCBFCJ_;
     /**
-     * <code>uint32 HANJNFCBFCJ = 9;</code>
+     * <code>uint32 HANJNFCBFCJ = 50001;</code>
      * @return The hANJNFCBFCJ.
      */
     @java.lang.Override
@@ -199,17 +199,17 @@ public final class LEEAPMKHDJKOuterClass {
       return hANJNFCBFCJ_;
     }
 
-    public static final int AVATAR_LIST_FIELD_NUMBER = 15;
+    public static final int AVATAR_LIST_FIELD_NUMBER = 3;
     private java.util.List<emu.grasscutter.net.proto.EBPIBIFOEFFOuterClass.EBPIBIFOEFF> avatarList_;
     /**
-     * <code>repeated .EBPIBIFOEFF avatar_list = 15;</code>
+     * <code>repeated .EBPIBIFOEFF avatar_list = 3;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.EBPIBIFOEFFOuterClass.EBPIBIFOEFF> getAvatarListList() {
       return avatarList_;
     }
     /**
-     * <code>repeated .EBPIBIFOEFF avatar_list = 15;</code>
+     * <code>repeated .EBPIBIFOEFF avatar_list = 3;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.EBPIBIFOEFFOuterClass.EBPIBIFOEFFOrBuilder> 
@@ -217,21 +217,21 @@ public final class LEEAPMKHDJKOuterClass {
       return avatarList_;
     }
     /**
-     * <code>repeated .EBPIBIFOEFF avatar_list = 15;</code>
+     * <code>repeated .EBPIBIFOEFF avatar_list = 3;</code>
      */
     @java.lang.Override
     public int getAvatarListCount() {
       return avatarList_.size();
     }
     /**
-     * <code>repeated .EBPIBIFOEFF avatar_list = 15;</code>
+     * <code>repeated .EBPIBIFOEFF avatar_list = 3;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.EBPIBIFOEFFOuterClass.EBPIBIFOEFF getAvatarList(int index) {
       return avatarList_.get(index);
     }
     /**
-     * <code>repeated .EBPIBIFOEFF avatar_list = 15;</code>
+     * <code>repeated .EBPIBIFOEFF avatar_list = 3;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.EBPIBIFOEFFOuterClass.EBPIBIFOEFFOrBuilder getAvatarListOrBuilder(
@@ -253,17 +253,17 @@ public final class LEEAPMKHDJKOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      for (int i = 0; i < avatarList_.size(); i++) {
+        output.writeMessage(3, avatarList_.get(i));
+      }
       if (mEBODADIOBO_ != 0) {
-        output.writeUInt32(3, mEBODADIOBO_);
+        output.writeUInt32(7, mEBODADIOBO_);
       }
       if (oOFPCLDDCCL_ != 0) {
-        output.writeUInt32(5, oOFPCLDDCCL_);
+        output.writeUInt32(50000, oOFPCLDDCCL_);
       }
       if (hANJNFCBFCJ_ != 0) {
-        output.writeUInt32(9, hANJNFCBFCJ_);
-      }
-      for (int i = 0; i < avatarList_.size(); i++) {
-        output.writeMessage(15, avatarList_.get(i));
+        output.writeUInt32(50001, hANJNFCBFCJ_);
       }
       unknownFields.writeTo(output);
     }
@@ -274,21 +274,21 @@ public final class LEEAPMKHDJKOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      for (int i = 0; i < avatarList_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(3, avatarList_.get(i));
+      }
       if (mEBODADIOBO_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, mEBODADIOBO_);
+          .computeUInt32Size(7, mEBODADIOBO_);
       }
       if (oOFPCLDDCCL_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, oOFPCLDDCCL_);
+          .computeUInt32Size(50000, oOFPCLDDCCL_);
       }
       if (hANJNFCBFCJ_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, hANJNFCBFCJ_);
-      }
-      for (int i = 0; i < avatarList_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, avatarList_.get(i));
+          .computeUInt32Size(50001, hANJNFCBFCJ_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -634,7 +634,7 @@ public final class LEEAPMKHDJKOuterClass {
 
       private int mEBODADIOBO_ ;
       /**
-       * <code>uint32 MEBODADIOBO = 3;</code>
+       * <code>uint32 MEBODADIOBO = 7;</code>
        * @return The mEBODADIOBO.
        */
       @java.lang.Override
@@ -642,7 +642,7 @@ public final class LEEAPMKHDJKOuterClass {
         return mEBODADIOBO_;
       }
       /**
-       * <code>uint32 MEBODADIOBO = 3;</code>
+       * <code>uint32 MEBODADIOBO = 7;</code>
        * @param value The mEBODADIOBO to set.
        * @return This builder for chaining.
        */
@@ -653,7 +653,7 @@ public final class LEEAPMKHDJKOuterClass {
         return this;
       }
       /**
-       * <code>uint32 MEBODADIOBO = 3;</code>
+       * <code>uint32 MEBODADIOBO = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearMEBODADIOBO() {
@@ -665,7 +665,7 @@ public final class LEEAPMKHDJKOuterClass {
 
       private int oOFPCLDDCCL_ ;
       /**
-       * <code>uint32 OOFPCLDDCCL = 5;</code>
+       * <code>uint32 OOFPCLDDCCL = 50000;</code>
        * @return The oOFPCLDDCCL.
        */
       @java.lang.Override
@@ -673,7 +673,7 @@ public final class LEEAPMKHDJKOuterClass {
         return oOFPCLDDCCL_;
       }
       /**
-       * <code>uint32 OOFPCLDDCCL = 5;</code>
+       * <code>uint32 OOFPCLDDCCL = 50000;</code>
        * @param value The oOFPCLDDCCL to set.
        * @return This builder for chaining.
        */
@@ -684,7 +684,7 @@ public final class LEEAPMKHDJKOuterClass {
         return this;
       }
       /**
-       * <code>uint32 OOFPCLDDCCL = 5;</code>
+       * <code>uint32 OOFPCLDDCCL = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearOOFPCLDDCCL() {
@@ -696,7 +696,7 @@ public final class LEEAPMKHDJKOuterClass {
 
       private int hANJNFCBFCJ_ ;
       /**
-       * <code>uint32 HANJNFCBFCJ = 9;</code>
+       * <code>uint32 HANJNFCBFCJ = 50001;</code>
        * @return The hANJNFCBFCJ.
        */
       @java.lang.Override
@@ -704,7 +704,7 @@ public final class LEEAPMKHDJKOuterClass {
         return hANJNFCBFCJ_;
       }
       /**
-       * <code>uint32 HANJNFCBFCJ = 9;</code>
+       * <code>uint32 HANJNFCBFCJ = 50001;</code>
        * @param value The hANJNFCBFCJ to set.
        * @return This builder for chaining.
        */
@@ -715,7 +715,7 @@ public final class LEEAPMKHDJKOuterClass {
         return this;
       }
       /**
-       * <code>uint32 HANJNFCBFCJ = 9;</code>
+       * <code>uint32 HANJNFCBFCJ = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearHANJNFCBFCJ() {
@@ -738,7 +738,7 @@ public final class LEEAPMKHDJKOuterClass {
           emu.grasscutter.net.proto.EBPIBIFOEFFOuterClass.EBPIBIFOEFF, emu.grasscutter.net.proto.EBPIBIFOEFFOuterClass.EBPIBIFOEFF.Builder, emu.grasscutter.net.proto.EBPIBIFOEFFOuterClass.EBPIBIFOEFFOrBuilder> avatarListBuilder_;
 
       /**
-       * <code>repeated .EBPIBIFOEFF avatar_list = 15;</code>
+       * <code>repeated .EBPIBIFOEFF avatar_list = 3;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.EBPIBIFOEFFOuterClass.EBPIBIFOEFF> getAvatarListList() {
         if (avatarListBuilder_ == null) {
@@ -748,7 +748,7 @@ public final class LEEAPMKHDJKOuterClass {
         }
       }
       /**
-       * <code>repeated .EBPIBIFOEFF avatar_list = 15;</code>
+       * <code>repeated .EBPIBIFOEFF avatar_list = 3;</code>
        */
       public int getAvatarListCount() {
         if (avatarListBuilder_ == null) {
@@ -758,7 +758,7 @@ public final class LEEAPMKHDJKOuterClass {
         }
       }
       /**
-       * <code>repeated .EBPIBIFOEFF avatar_list = 15;</code>
+       * <code>repeated .EBPIBIFOEFF avatar_list = 3;</code>
        */
       public emu.grasscutter.net.proto.EBPIBIFOEFFOuterClass.EBPIBIFOEFF getAvatarList(int index) {
         if (avatarListBuilder_ == null) {
@@ -768,7 +768,7 @@ public final class LEEAPMKHDJKOuterClass {
         }
       }
       /**
-       * <code>repeated .EBPIBIFOEFF avatar_list = 15;</code>
+       * <code>repeated .EBPIBIFOEFF avatar_list = 3;</code>
        */
       public Builder setAvatarList(
           int index, emu.grasscutter.net.proto.EBPIBIFOEFFOuterClass.EBPIBIFOEFF value) {
@@ -785,7 +785,7 @@ public final class LEEAPMKHDJKOuterClass {
         return this;
       }
       /**
-       * <code>repeated .EBPIBIFOEFF avatar_list = 15;</code>
+       * <code>repeated .EBPIBIFOEFF avatar_list = 3;</code>
        */
       public Builder setAvatarList(
           int index, emu.grasscutter.net.proto.EBPIBIFOEFFOuterClass.EBPIBIFOEFF.Builder builderForValue) {
@@ -799,7 +799,7 @@ public final class LEEAPMKHDJKOuterClass {
         return this;
       }
       /**
-       * <code>repeated .EBPIBIFOEFF avatar_list = 15;</code>
+       * <code>repeated .EBPIBIFOEFF avatar_list = 3;</code>
        */
       public Builder addAvatarList(emu.grasscutter.net.proto.EBPIBIFOEFFOuterClass.EBPIBIFOEFF value) {
         if (avatarListBuilder_ == null) {
@@ -815,7 +815,7 @@ public final class LEEAPMKHDJKOuterClass {
         return this;
       }
       /**
-       * <code>repeated .EBPIBIFOEFF avatar_list = 15;</code>
+       * <code>repeated .EBPIBIFOEFF avatar_list = 3;</code>
        */
       public Builder addAvatarList(
           int index, emu.grasscutter.net.proto.EBPIBIFOEFFOuterClass.EBPIBIFOEFF value) {
@@ -832,7 +832,7 @@ public final class LEEAPMKHDJKOuterClass {
         return this;
       }
       /**
-       * <code>repeated .EBPIBIFOEFF avatar_list = 15;</code>
+       * <code>repeated .EBPIBIFOEFF avatar_list = 3;</code>
        */
       public Builder addAvatarList(
           emu.grasscutter.net.proto.EBPIBIFOEFFOuterClass.EBPIBIFOEFF.Builder builderForValue) {
@@ -846,7 +846,7 @@ public final class LEEAPMKHDJKOuterClass {
         return this;
       }
       /**
-       * <code>repeated .EBPIBIFOEFF avatar_list = 15;</code>
+       * <code>repeated .EBPIBIFOEFF avatar_list = 3;</code>
        */
       public Builder addAvatarList(
           int index, emu.grasscutter.net.proto.EBPIBIFOEFFOuterClass.EBPIBIFOEFF.Builder builderForValue) {
@@ -860,7 +860,7 @@ public final class LEEAPMKHDJKOuterClass {
         return this;
       }
       /**
-       * <code>repeated .EBPIBIFOEFF avatar_list = 15;</code>
+       * <code>repeated .EBPIBIFOEFF avatar_list = 3;</code>
        */
       public Builder addAllAvatarList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.EBPIBIFOEFFOuterClass.EBPIBIFOEFF> values) {
@@ -875,7 +875,7 @@ public final class LEEAPMKHDJKOuterClass {
         return this;
       }
       /**
-       * <code>repeated .EBPIBIFOEFF avatar_list = 15;</code>
+       * <code>repeated .EBPIBIFOEFF avatar_list = 3;</code>
        */
       public Builder clearAvatarList() {
         if (avatarListBuilder_ == null) {
@@ -888,7 +888,7 @@ public final class LEEAPMKHDJKOuterClass {
         return this;
       }
       /**
-       * <code>repeated .EBPIBIFOEFF avatar_list = 15;</code>
+       * <code>repeated .EBPIBIFOEFF avatar_list = 3;</code>
        */
       public Builder removeAvatarList(int index) {
         if (avatarListBuilder_ == null) {
@@ -901,14 +901,14 @@ public final class LEEAPMKHDJKOuterClass {
         return this;
       }
       /**
-       * <code>repeated .EBPIBIFOEFF avatar_list = 15;</code>
+       * <code>repeated .EBPIBIFOEFF avatar_list = 3;</code>
        */
       public emu.grasscutter.net.proto.EBPIBIFOEFFOuterClass.EBPIBIFOEFF.Builder getAvatarListBuilder(
           int index) {
         return getAvatarListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .EBPIBIFOEFF avatar_list = 15;</code>
+       * <code>repeated .EBPIBIFOEFF avatar_list = 3;</code>
        */
       public emu.grasscutter.net.proto.EBPIBIFOEFFOuterClass.EBPIBIFOEFFOrBuilder getAvatarListOrBuilder(
           int index) {
@@ -918,7 +918,7 @@ public final class LEEAPMKHDJKOuterClass {
         }
       }
       /**
-       * <code>repeated .EBPIBIFOEFF avatar_list = 15;</code>
+       * <code>repeated .EBPIBIFOEFF avatar_list = 3;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.EBPIBIFOEFFOuterClass.EBPIBIFOEFFOrBuilder> 
            getAvatarListOrBuilderList() {
@@ -929,14 +929,14 @@ public final class LEEAPMKHDJKOuterClass {
         }
       }
       /**
-       * <code>repeated .EBPIBIFOEFF avatar_list = 15;</code>
+       * <code>repeated .EBPIBIFOEFF avatar_list = 3;</code>
        */
       public emu.grasscutter.net.proto.EBPIBIFOEFFOuterClass.EBPIBIFOEFF.Builder addAvatarListBuilder() {
         return getAvatarListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.EBPIBIFOEFFOuterClass.EBPIBIFOEFF.getDefaultInstance());
       }
       /**
-       * <code>repeated .EBPIBIFOEFF avatar_list = 15;</code>
+       * <code>repeated .EBPIBIFOEFF avatar_list = 3;</code>
        */
       public emu.grasscutter.net.proto.EBPIBIFOEFFOuterClass.EBPIBIFOEFF.Builder addAvatarListBuilder(
           int index) {
@@ -944,7 +944,7 @@ public final class LEEAPMKHDJKOuterClass {
             index, emu.grasscutter.net.proto.EBPIBIFOEFFOuterClass.EBPIBIFOEFF.getDefaultInstance());
       }
       /**
-       * <code>repeated .EBPIBIFOEFF avatar_list = 15;</code>
+       * <code>repeated .EBPIBIFOEFF avatar_list = 3;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.EBPIBIFOEFFOuterClass.EBPIBIFOEFF.Builder> 
            getAvatarListBuilderList() {
@@ -1031,12 +1031,12 @@ public final class LEEAPMKHDJKOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021LEEAPMKHDJK.proto\032\021EBPIBIFOEFF.proto\"o" +
-      "\n\013LEEAPMKHDJK\022\023\n\013MEBODADIOBO\030\003 \001(\r\022\023\n\013OO" +
-      "FPCLDDCCL\030\005 \001(\r\022\023\n\013HANJNFCBFCJ\030\t \001(\r\022!\n\013" +
-      "avatar_list\030\017 \003(\0132\014.EBPIBIFOEFFB2\n\031emu.g" +
-      "rasscutter.net.protoB\025LEEAPMKHDJKOuterCl" +
-      "assb\006proto3"
+      "\n\021LEEAPMKHDJK.proto\032\021EBPIBIFOEFF.proto\"s" +
+      "\n\013LEEAPMKHDJK\022\023\n\013MEBODADIOBO\030\007 \001(\r\022\025\n\013OO" +
+      "FPCLDDCCL\030\320\206\003 \001(\r\022\025\n\013HANJNFCBFCJ\030\321\206\003 \001(\r" +
+      "\022!\n\013avatar_list\030\003 \003(\0132\014.EBPIBIFOEFFB2\n\031e" +
+      "mu.grasscutter.net.protoB\025LEEAPMKHDJKOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

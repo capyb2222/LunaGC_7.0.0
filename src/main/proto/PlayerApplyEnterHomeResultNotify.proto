@@ -19,8 +19,8 @@ message PlayerApplyEnterHomeResultNotify {
 		XBOX_ONLY = 11;
 		SCENE_CANNOT_ENTER = 12;
 	}
-	string target_nickname = 3;
-	uint32 target_uid = 9;
-	Reason reason = 10;
-	bool is_agreed = 14;
+	string target_nickname = 14;
+	uint32 target_uid = 4;
+	Reason reason = 8;
+	bool is_agreed = 12;
 }

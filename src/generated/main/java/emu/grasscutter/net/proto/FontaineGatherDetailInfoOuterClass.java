@@ -19,25 +19,25 @@ public final class FontaineGatherDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .HGLMBIEIGIN stage_info_list = 6;</code>
+     * <code>repeated .HGLMBIEIGIN stage_info_list = 12;</code>
      */
     java.util.List<emu.grasscutter.net.proto.HGLMBIEIGINOuterClass.HGLMBIEIGIN> 
         getStageInfoListList();
     /**
-     * <code>repeated .HGLMBIEIGIN stage_info_list = 6;</code>
+     * <code>repeated .HGLMBIEIGIN stage_info_list = 12;</code>
      */
     emu.grasscutter.net.proto.HGLMBIEIGINOuterClass.HGLMBIEIGIN getStageInfoList(int index);
     /**
-     * <code>repeated .HGLMBIEIGIN stage_info_list = 6;</code>
+     * <code>repeated .HGLMBIEIGIN stage_info_list = 12;</code>
      */
     int getStageInfoListCount();
     /**
-     * <code>repeated .HGLMBIEIGIN stage_info_list = 6;</code>
+     * <code>repeated .HGLMBIEIGIN stage_info_list = 12;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.HGLMBIEIGINOuterClass.HGLMBIEIGINOrBuilder> 
         getStageInfoListOrBuilderList();
     /**
-     * <code>repeated .HGLMBIEIGIN stage_info_list = 6;</code>
+     * <code>repeated .HGLMBIEIGIN stage_info_list = 12;</code>
      */
     emu.grasscutter.net.proto.HGLMBIEIGINOuterClass.HGLMBIEIGINOrBuilder getStageInfoListOrBuilder(
         int index);
@@ -89,7 +89,7 @@ public final class FontaineGatherDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 50: {
+            case 98: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 stageInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.HGLMBIEIGINOuterClass.HGLMBIEIGIN>();
                 mutable_bitField0_ |= 0x00000001;
@@ -133,17 +133,17 @@ public final class FontaineGatherDetailInfoOuterClass {
               emu.grasscutter.net.proto.FontaineGatherDetailInfoOuterClass.FontaineGatherDetailInfo.class, emu.grasscutter.net.proto.FontaineGatherDetailInfoOuterClass.FontaineGatherDetailInfo.Builder.class);
     }
 
-    public static final int STAGE_INFO_LIST_FIELD_NUMBER = 6;
+    public static final int STAGE_INFO_LIST_FIELD_NUMBER = 12;
     private java.util.List<emu.grasscutter.net.proto.HGLMBIEIGINOuterClass.HGLMBIEIGIN> stageInfoList_;
     /**
-     * <code>repeated .HGLMBIEIGIN stage_info_list = 6;</code>
+     * <code>repeated .HGLMBIEIGIN stage_info_list = 12;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.HGLMBIEIGINOuterClass.HGLMBIEIGIN> getStageInfoListList() {
       return stageInfoList_;
     }
     /**
-     * <code>repeated .HGLMBIEIGIN stage_info_list = 6;</code>
+     * <code>repeated .HGLMBIEIGIN stage_info_list = 12;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.HGLMBIEIGINOuterClass.HGLMBIEIGINOrBuilder> 
@@ -151,21 +151,21 @@ public final class FontaineGatherDetailInfoOuterClass {
       return stageInfoList_;
     }
     /**
-     * <code>repeated .HGLMBIEIGIN stage_info_list = 6;</code>
+     * <code>repeated .HGLMBIEIGIN stage_info_list = 12;</code>
      */
     @java.lang.Override
     public int getStageInfoListCount() {
       return stageInfoList_.size();
     }
     /**
-     * <code>repeated .HGLMBIEIGIN stage_info_list = 6;</code>
+     * <code>repeated .HGLMBIEIGIN stage_info_list = 12;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.HGLMBIEIGINOuterClass.HGLMBIEIGIN getStageInfoList(int index) {
       return stageInfoList_.get(index);
     }
     /**
-     * <code>repeated .HGLMBIEIGIN stage_info_list = 6;</code>
+     * <code>repeated .HGLMBIEIGIN stage_info_list = 12;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.HGLMBIEIGINOuterClass.HGLMBIEIGINOrBuilder getStageInfoListOrBuilder(
@@ -188,7 +188,7 @@ public final class FontaineGatherDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < stageInfoList_.size(); i++) {
-        output.writeMessage(6, stageInfoList_.get(i));
+        output.writeMessage(12, stageInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -201,7 +201,7 @@ public final class FontaineGatherDetailInfoOuterClass {
       size = 0;
       for (int i = 0; i < stageInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, stageInfoList_.get(i));
+          .computeMessageSize(12, stageInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -528,7 +528,7 @@ public final class FontaineGatherDetailInfoOuterClass {
           emu.grasscutter.net.proto.HGLMBIEIGINOuterClass.HGLMBIEIGIN, emu.grasscutter.net.proto.HGLMBIEIGINOuterClass.HGLMBIEIGIN.Builder, emu.grasscutter.net.proto.HGLMBIEIGINOuterClass.HGLMBIEIGINOrBuilder> stageInfoListBuilder_;
 
       /**
-       * <code>repeated .HGLMBIEIGIN stage_info_list = 6;</code>
+       * <code>repeated .HGLMBIEIGIN stage_info_list = 12;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.HGLMBIEIGINOuterClass.HGLMBIEIGIN> getStageInfoListList() {
         if (stageInfoListBuilder_ == null) {
@@ -538,7 +538,7 @@ public final class FontaineGatherDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .HGLMBIEIGIN stage_info_list = 6;</code>
+       * <code>repeated .HGLMBIEIGIN stage_info_list = 12;</code>
        */
       public int getStageInfoListCount() {
         if (stageInfoListBuilder_ == null) {
@@ -548,7 +548,7 @@ public final class FontaineGatherDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .HGLMBIEIGIN stage_info_list = 6;</code>
+       * <code>repeated .HGLMBIEIGIN stage_info_list = 12;</code>
        */
       public emu.grasscutter.net.proto.HGLMBIEIGINOuterClass.HGLMBIEIGIN getStageInfoList(int index) {
         if (stageInfoListBuilder_ == null) {
@@ -558,7 +558,7 @@ public final class FontaineGatherDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .HGLMBIEIGIN stage_info_list = 6;</code>
+       * <code>repeated .HGLMBIEIGIN stage_info_list = 12;</code>
        */
       public Builder setStageInfoList(
           int index, emu.grasscutter.net.proto.HGLMBIEIGINOuterClass.HGLMBIEIGIN value) {
@@ -575,7 +575,7 @@ public final class FontaineGatherDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .HGLMBIEIGIN stage_info_list = 6;</code>
+       * <code>repeated .HGLMBIEIGIN stage_info_list = 12;</code>
        */
       public Builder setStageInfoList(
           int index, emu.grasscutter.net.proto.HGLMBIEIGINOuterClass.HGLMBIEIGIN.Builder builderForValue) {
@@ -589,7 +589,7 @@ public final class FontaineGatherDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .HGLMBIEIGIN stage_info_list = 6;</code>
+       * <code>repeated .HGLMBIEIGIN stage_info_list = 12;</code>
        */
       public Builder addStageInfoList(emu.grasscutter.net.proto.HGLMBIEIGINOuterClass.HGLMBIEIGIN value) {
         if (stageInfoListBuilder_ == null) {
@@ -605,7 +605,7 @@ public final class FontaineGatherDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .HGLMBIEIGIN stage_info_list = 6;</code>
+       * <code>repeated .HGLMBIEIGIN stage_info_list = 12;</code>
        */
       public Builder addStageInfoList(
           int index, emu.grasscutter.net.proto.HGLMBIEIGINOuterClass.HGLMBIEIGIN value) {
@@ -622,7 +622,7 @@ public final class FontaineGatherDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .HGLMBIEIGIN stage_info_list = 6;</code>
+       * <code>repeated .HGLMBIEIGIN stage_info_list = 12;</code>
        */
       public Builder addStageInfoList(
           emu.grasscutter.net.proto.HGLMBIEIGINOuterClass.HGLMBIEIGIN.Builder builderForValue) {
@@ -636,7 +636,7 @@ public final class FontaineGatherDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .HGLMBIEIGIN stage_info_list = 6;</code>
+       * <code>repeated .HGLMBIEIGIN stage_info_list = 12;</code>
        */
       public Builder addStageInfoList(
           int index, emu.grasscutter.net.proto.HGLMBIEIGINOuterClass.HGLMBIEIGIN.Builder builderForValue) {
@@ -650,7 +650,7 @@ public final class FontaineGatherDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .HGLMBIEIGIN stage_info_list = 6;</code>
+       * <code>repeated .HGLMBIEIGIN stage_info_list = 12;</code>
        */
       public Builder addAllStageInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.HGLMBIEIGINOuterClass.HGLMBIEIGIN> values) {
@@ -665,7 +665,7 @@ public final class FontaineGatherDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .HGLMBIEIGIN stage_info_list = 6;</code>
+       * <code>repeated .HGLMBIEIGIN stage_info_list = 12;</code>
        */
       public Builder clearStageInfoList() {
         if (stageInfoListBuilder_ == null) {
@@ -678,7 +678,7 @@ public final class FontaineGatherDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .HGLMBIEIGIN stage_info_list = 6;</code>
+       * <code>repeated .HGLMBIEIGIN stage_info_list = 12;</code>
        */
       public Builder removeStageInfoList(int index) {
         if (stageInfoListBuilder_ == null) {
@@ -691,14 +691,14 @@ public final class FontaineGatherDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .HGLMBIEIGIN stage_info_list = 6;</code>
+       * <code>repeated .HGLMBIEIGIN stage_info_list = 12;</code>
        */
       public emu.grasscutter.net.proto.HGLMBIEIGINOuterClass.HGLMBIEIGIN.Builder getStageInfoListBuilder(
           int index) {
         return getStageInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .HGLMBIEIGIN stage_info_list = 6;</code>
+       * <code>repeated .HGLMBIEIGIN stage_info_list = 12;</code>
        */
       public emu.grasscutter.net.proto.HGLMBIEIGINOuterClass.HGLMBIEIGINOrBuilder getStageInfoListOrBuilder(
           int index) {
@@ -708,7 +708,7 @@ public final class FontaineGatherDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .HGLMBIEIGIN stage_info_list = 6;</code>
+       * <code>repeated .HGLMBIEIGIN stage_info_list = 12;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.HGLMBIEIGINOuterClass.HGLMBIEIGINOrBuilder> 
            getStageInfoListOrBuilderList() {
@@ -719,14 +719,14 @@ public final class FontaineGatherDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .HGLMBIEIGIN stage_info_list = 6;</code>
+       * <code>repeated .HGLMBIEIGIN stage_info_list = 12;</code>
        */
       public emu.grasscutter.net.proto.HGLMBIEIGINOuterClass.HGLMBIEIGIN.Builder addStageInfoListBuilder() {
         return getStageInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.HGLMBIEIGINOuterClass.HGLMBIEIGIN.getDefaultInstance());
       }
       /**
-       * <code>repeated .HGLMBIEIGIN stage_info_list = 6;</code>
+       * <code>repeated .HGLMBIEIGIN stage_info_list = 12;</code>
        */
       public emu.grasscutter.net.proto.HGLMBIEIGINOuterClass.HGLMBIEIGIN.Builder addStageInfoListBuilder(
           int index) {
@@ -734,7 +734,7 @@ public final class FontaineGatherDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.HGLMBIEIGINOuterClass.HGLMBIEIGIN.getDefaultInstance());
       }
       /**
-       * <code>repeated .HGLMBIEIGIN stage_info_list = 6;</code>
+       * <code>repeated .HGLMBIEIGIN stage_info_list = 12;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.HGLMBIEIGINOuterClass.HGLMBIEIGIN.Builder> 
            getStageInfoListBuilderList() {
@@ -823,7 +823,7 @@ public final class FontaineGatherDetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036FontaineGatherDetailInfo.proto\032\021HGLMBI" +
       "EIGIN.proto\"A\n\030FontaineGatherDetailInfo\022" +
-      "%\n\017stage_info_list\030\006 \003(\0132\014.HGLMBIEIGINB?" +
+      "%\n\017stage_info_list\030\014 \003(\0132\014.HGLMBIEIGINB?" +
       "\n\031emu.grasscutter.net.protoB\"FontaineGat" +
       "herDetailInfoOuterClassb\006proto3"
     };

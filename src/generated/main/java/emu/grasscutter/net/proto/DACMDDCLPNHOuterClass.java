@@ -19,31 +19,31 @@ public final class DACMDDCLPNHOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 GLDFCOELCLJ = 3;</code>
+     * <code>uint32 GLDFCOELCLJ = 50000;</code>
      * @return The gLDFCOELCLJ.
      */
     int getGLDFCOELCLJ();
 
     /**
-     * <code>uint32 DOEJNJLAHAI = 6;</code>
+     * <code>uint32 DOEJNJLAHAI = 50001;</code>
      * @return The dOEJNJLAHAI.
      */
     int getDOEJNJLAHAI();
 
     /**
-     * <code>bool FNPLMFCNBML = 8;</code>
+     * <code>bool FNPLMFCNBML = 9;</code>
      * @return The fNPLMFCNBML.
      */
     boolean getFNPLMFCNBML();
 
     /**
-     * <code>uint32 JKPKJODEEEN = 11;</code>
+     * <code>uint32 JKPKJODEEEN = 50002;</code>
      * @return The jKPKJODEEEN.
      */
     int getJKPKJODEEEN();
 
     /**
-     * <code>uint32 BGLEEKPNKCB = 13;</code>
+     * <code>uint32 BGLEEKPNKCB = 4;</code>
      * @return The bGLEEKPNKCB.
      */
     int getBGLEEKPNKCB();
@@ -93,29 +93,29 @@ public final class DACMDDCLPNHOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 32: {
 
-              gLDFCOELCLJ_ = input.readUInt32();
+              bGLEEKPNKCB_ = input.readUInt32();
               break;
             }
-            case 48: {
-
-              dOEJNJLAHAI_ = input.readUInt32();
-              break;
-            }
-            case 64: {
+            case 72: {
 
               fNPLMFCNBML_ = input.readBool();
               break;
             }
-            case 88: {
+            case 400000: {
 
-              jKPKJODEEEN_ = input.readUInt32();
+              gLDFCOELCLJ_ = input.readUInt32();
               break;
             }
-            case 104: {
+            case 400008: {
 
-              bGLEEKPNKCB_ = input.readUInt32();
+              dOEJNJLAHAI_ = input.readUInt32();
+              break;
+            }
+            case 400016: {
+
+              jKPKJODEEEN_ = input.readUInt32();
               break;
             }
             default: {
@@ -150,10 +150,10 @@ public final class DACMDDCLPNHOuterClass {
               emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNH.class, emu.grasscutter.net.proto.DACMDDCLPNHOuterClass.DACMDDCLPNH.Builder.class);
     }
 
-    public static final int GLDFCOELCLJ_FIELD_NUMBER = 3;
+    public static final int GLDFCOELCLJ_FIELD_NUMBER = 50000;
     private int gLDFCOELCLJ_;
     /**
-     * <code>uint32 GLDFCOELCLJ = 3;</code>
+     * <code>uint32 GLDFCOELCLJ = 50000;</code>
      * @return The gLDFCOELCLJ.
      */
     @java.lang.Override
@@ -161,10 +161,10 @@ public final class DACMDDCLPNHOuterClass {
       return gLDFCOELCLJ_;
     }
 
-    public static final int DOEJNJLAHAI_FIELD_NUMBER = 6;
+    public static final int DOEJNJLAHAI_FIELD_NUMBER = 50001;
     private int dOEJNJLAHAI_;
     /**
-     * <code>uint32 DOEJNJLAHAI = 6;</code>
+     * <code>uint32 DOEJNJLAHAI = 50001;</code>
      * @return The dOEJNJLAHAI.
      */
     @java.lang.Override
@@ -172,10 +172,10 @@ public final class DACMDDCLPNHOuterClass {
       return dOEJNJLAHAI_;
     }
 
-    public static final int FNPLMFCNBML_FIELD_NUMBER = 8;
+    public static final int FNPLMFCNBML_FIELD_NUMBER = 9;
     private boolean fNPLMFCNBML_;
     /**
-     * <code>bool FNPLMFCNBML = 8;</code>
+     * <code>bool FNPLMFCNBML = 9;</code>
      * @return The fNPLMFCNBML.
      */
     @java.lang.Override
@@ -183,10 +183,10 @@ public final class DACMDDCLPNHOuterClass {
       return fNPLMFCNBML_;
     }
 
-    public static final int JKPKJODEEEN_FIELD_NUMBER = 11;
+    public static final int JKPKJODEEEN_FIELD_NUMBER = 50002;
     private int jKPKJODEEEN_;
     /**
-     * <code>uint32 JKPKJODEEEN = 11;</code>
+     * <code>uint32 JKPKJODEEEN = 50002;</code>
      * @return The jKPKJODEEEN.
      */
     @java.lang.Override
@@ -194,10 +194,10 @@ public final class DACMDDCLPNHOuterClass {
       return jKPKJODEEEN_;
     }
 
-    public static final int BGLEEKPNKCB_FIELD_NUMBER = 13;
+    public static final int BGLEEKPNKCB_FIELD_NUMBER = 4;
     private int bGLEEKPNKCB_;
     /**
-     * <code>uint32 BGLEEKPNKCB = 13;</code>
+     * <code>uint32 BGLEEKPNKCB = 4;</code>
      * @return The bGLEEKPNKCB.
      */
     @java.lang.Override
@@ -219,20 +219,20 @@ public final class DACMDDCLPNHOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (gLDFCOELCLJ_ != 0) {
-        output.writeUInt32(3, gLDFCOELCLJ_);
-      }
-      if (dOEJNJLAHAI_ != 0) {
-        output.writeUInt32(6, dOEJNJLAHAI_);
+      if (bGLEEKPNKCB_ != 0) {
+        output.writeUInt32(4, bGLEEKPNKCB_);
       }
       if (fNPLMFCNBML_ != false) {
-        output.writeBool(8, fNPLMFCNBML_);
+        output.writeBool(9, fNPLMFCNBML_);
+      }
+      if (gLDFCOELCLJ_ != 0) {
+        output.writeUInt32(50000, gLDFCOELCLJ_);
+      }
+      if (dOEJNJLAHAI_ != 0) {
+        output.writeUInt32(50001, dOEJNJLAHAI_);
       }
       if (jKPKJODEEEN_ != 0) {
-        output.writeUInt32(11, jKPKJODEEEN_);
-      }
-      if (bGLEEKPNKCB_ != 0) {
-        output.writeUInt32(13, bGLEEKPNKCB_);
+        output.writeUInt32(50002, jKPKJODEEEN_);
       }
       unknownFields.writeTo(output);
     }
@@ -243,25 +243,25 @@ public final class DACMDDCLPNHOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (gLDFCOELCLJ_ != 0) {
+      if (bGLEEKPNKCB_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, gLDFCOELCLJ_);
-      }
-      if (dOEJNJLAHAI_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, dOEJNJLAHAI_);
+          .computeUInt32Size(4, bGLEEKPNKCB_);
       }
       if (fNPLMFCNBML_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(8, fNPLMFCNBML_);
+          .computeBoolSize(9, fNPLMFCNBML_);
+      }
+      if (gLDFCOELCLJ_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50000, gLDFCOELCLJ_);
+      }
+      if (dOEJNJLAHAI_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50001, dOEJNJLAHAI_);
       }
       if (jKPKJODEEEN_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, jKPKJODEEEN_);
-      }
-      if (bGLEEKPNKCB_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, bGLEEKPNKCB_);
+          .computeUInt32Size(50002, jKPKJODEEEN_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -578,7 +578,7 @@ public final class DACMDDCLPNHOuterClass {
 
       private int gLDFCOELCLJ_ ;
       /**
-       * <code>uint32 GLDFCOELCLJ = 3;</code>
+       * <code>uint32 GLDFCOELCLJ = 50000;</code>
        * @return The gLDFCOELCLJ.
        */
       @java.lang.Override
@@ -586,7 +586,7 @@ public final class DACMDDCLPNHOuterClass {
         return gLDFCOELCLJ_;
       }
       /**
-       * <code>uint32 GLDFCOELCLJ = 3;</code>
+       * <code>uint32 GLDFCOELCLJ = 50000;</code>
        * @param value The gLDFCOELCLJ to set.
        * @return This builder for chaining.
        */
@@ -597,7 +597,7 @@ public final class DACMDDCLPNHOuterClass {
         return this;
       }
       /**
-       * <code>uint32 GLDFCOELCLJ = 3;</code>
+       * <code>uint32 GLDFCOELCLJ = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearGLDFCOELCLJ() {
@@ -609,7 +609,7 @@ public final class DACMDDCLPNHOuterClass {
 
       private int dOEJNJLAHAI_ ;
       /**
-       * <code>uint32 DOEJNJLAHAI = 6;</code>
+       * <code>uint32 DOEJNJLAHAI = 50001;</code>
        * @return The dOEJNJLAHAI.
        */
       @java.lang.Override
@@ -617,7 +617,7 @@ public final class DACMDDCLPNHOuterClass {
         return dOEJNJLAHAI_;
       }
       /**
-       * <code>uint32 DOEJNJLAHAI = 6;</code>
+       * <code>uint32 DOEJNJLAHAI = 50001;</code>
        * @param value The dOEJNJLAHAI to set.
        * @return This builder for chaining.
        */
@@ -628,7 +628,7 @@ public final class DACMDDCLPNHOuterClass {
         return this;
       }
       /**
-       * <code>uint32 DOEJNJLAHAI = 6;</code>
+       * <code>uint32 DOEJNJLAHAI = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearDOEJNJLAHAI() {
@@ -640,7 +640,7 @@ public final class DACMDDCLPNHOuterClass {
 
       private boolean fNPLMFCNBML_ ;
       /**
-       * <code>bool FNPLMFCNBML = 8;</code>
+       * <code>bool FNPLMFCNBML = 9;</code>
        * @return The fNPLMFCNBML.
        */
       @java.lang.Override
@@ -648,7 +648,7 @@ public final class DACMDDCLPNHOuterClass {
         return fNPLMFCNBML_;
       }
       /**
-       * <code>bool FNPLMFCNBML = 8;</code>
+       * <code>bool FNPLMFCNBML = 9;</code>
        * @param value The fNPLMFCNBML to set.
        * @return This builder for chaining.
        */
@@ -659,7 +659,7 @@ public final class DACMDDCLPNHOuterClass {
         return this;
       }
       /**
-       * <code>bool FNPLMFCNBML = 8;</code>
+       * <code>bool FNPLMFCNBML = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearFNPLMFCNBML() {
@@ -671,7 +671,7 @@ public final class DACMDDCLPNHOuterClass {
 
       private int jKPKJODEEEN_ ;
       /**
-       * <code>uint32 JKPKJODEEEN = 11;</code>
+       * <code>uint32 JKPKJODEEEN = 50002;</code>
        * @return The jKPKJODEEEN.
        */
       @java.lang.Override
@@ -679,7 +679,7 @@ public final class DACMDDCLPNHOuterClass {
         return jKPKJODEEEN_;
       }
       /**
-       * <code>uint32 JKPKJODEEEN = 11;</code>
+       * <code>uint32 JKPKJODEEEN = 50002;</code>
        * @param value The jKPKJODEEEN to set.
        * @return This builder for chaining.
        */
@@ -690,7 +690,7 @@ public final class DACMDDCLPNHOuterClass {
         return this;
       }
       /**
-       * <code>uint32 JKPKJODEEEN = 11;</code>
+       * <code>uint32 JKPKJODEEEN = 50002;</code>
        * @return This builder for chaining.
        */
       public Builder clearJKPKJODEEEN() {
@@ -702,7 +702,7 @@ public final class DACMDDCLPNHOuterClass {
 
       private int bGLEEKPNKCB_ ;
       /**
-       * <code>uint32 BGLEEKPNKCB = 13;</code>
+       * <code>uint32 BGLEEKPNKCB = 4;</code>
        * @return The bGLEEKPNKCB.
        */
       @java.lang.Override
@@ -710,7 +710,7 @@ public final class DACMDDCLPNHOuterClass {
         return bGLEEKPNKCB_;
       }
       /**
-       * <code>uint32 BGLEEKPNKCB = 13;</code>
+       * <code>uint32 BGLEEKPNKCB = 4;</code>
        * @param value The bGLEEKPNKCB to set.
        * @return This builder for chaining.
        */
@@ -721,7 +721,7 @@ public final class DACMDDCLPNHOuterClass {
         return this;
       }
       /**
-       * <code>uint32 BGLEEKPNKCB = 13;</code>
+       * <code>uint32 BGLEEKPNKCB = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearBGLEEKPNKCB() {
@@ -797,11 +797,12 @@ public final class DACMDDCLPNHOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021DACMDDCLPNH.proto\"v\n\013DACMDDCLPNH\022\023\n\013GL" +
-      "DFCOELCLJ\030\003 \001(\r\022\023\n\013DOEJNJLAHAI\030\006 \001(\r\022\023\n\013" +
-      "FNPLMFCNBML\030\010 \001(\010\022\023\n\013JKPKJODEEEN\030\013 \001(\r\022\023" +
-      "\n\013BGLEEKPNKCB\030\r \001(\rB2\n\031emu.grasscutter.n" +
-      "et.protoB\025DACMDDCLPNHOuterClassb\006proto3"
+      "\n\021DACMDDCLPNH.proto\"|\n\013DACMDDCLPNH\022\025\n\013GL" +
+      "DFCOELCLJ\030\320\206\003 \001(\r\022\025\n\013DOEJNJLAHAI\030\321\206\003 \001(\r" +
+      "\022\023\n\013FNPLMFCNBML\030\t \001(\010\022\025\n\013JKPKJODEEEN\030\322\206\003" +
+      " \001(\r\022\023\n\013BGLEEKPNKCB\030\004 \001(\rB2\n\031emu.grasscu" +
+      "tter.net.protoB\025DACMDDCLPNHOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

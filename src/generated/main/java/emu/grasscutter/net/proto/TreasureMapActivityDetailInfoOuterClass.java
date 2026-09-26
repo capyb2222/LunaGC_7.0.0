@@ -31,13 +31,13 @@ public final class TreasureMapActivityDetailInfoOuterClass {
     int getKDGCGILDGOH();
 
     /**
-     * <code>uint32 preview_reward_id = 50000;</code>
+     * <code>uint32 preview_reward_id = 5;</code>
      * @return The previewRewardId.
      */
     int getPreviewRewardId();
 
     /**
-     * <code>uint32 FMCDPDEMHLH = 50001;</code>
+     * <code>uint32 FMCDPDEMHLH = 50000;</code>
      * @return The fMCDPDEMHLH.
      */
     int getFMCDPDEMHLH();
@@ -97,7 +97,7 @@ public final class TreasureMapActivityDetailInfoOuterClass {
         int index);
 
     /**
-     * <code>uint32 fjeocgnlcej = 50002;</code>
+     * <code>uint32 fjeocgnlcej = 50001;</code>
      * @return The fjeocgnlcej.
      */
     int getFjeocgnlcej();
@@ -174,6 +174,11 @@ public final class TreasureMapActivityDetailInfoOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.TreasureMapBonusChallengeInfoOuterClass.TreasureMapBonusChallengeInfo.parser(), extensionRegistry));
               break;
             }
+            case 40: {
+
+              previewRewardId_ = input.readUInt32();
+              break;
+            }
             case 56: {
 
               isMpChallengeTouched_ = input.readBool();
@@ -196,15 +201,10 @@ public final class TreasureMapActivityDetailInfoOuterClass {
             }
             case 400000: {
 
-              previewRewardId_ = input.readUInt32();
-              break;
-            }
-            case 400008: {
-
               fMCDPDEMHLH_ = input.readUInt32();
               break;
             }
-            case 400016: {
+            case 400008: {
 
               fjeocgnlcej_ = input.readUInt32();
               break;
@@ -269,10 +269,10 @@ public final class TreasureMapActivityDetailInfoOuterClass {
       return kDGCGILDGOH_;
     }
 
-    public static final int PREVIEW_REWARD_ID_FIELD_NUMBER = 50000;
+    public static final int PREVIEW_REWARD_ID_FIELD_NUMBER = 5;
     private int previewRewardId_;
     /**
-     * <code>uint32 preview_reward_id = 50000;</code>
+     * <code>uint32 preview_reward_id = 5;</code>
      * @return The previewRewardId.
      */
     @java.lang.Override
@@ -280,10 +280,10 @@ public final class TreasureMapActivityDetailInfoOuterClass {
       return previewRewardId_;
     }
 
-    public static final int FMCDPDEMHLH_FIELD_NUMBER = 50001;
+    public static final int FMCDPDEMHLH_FIELD_NUMBER = 50000;
     private int fMCDPDEMHLH_;
     /**
-     * <code>uint32 FMCDPDEMHLH = 50001;</code>
+     * <code>uint32 FMCDPDEMHLH = 50000;</code>
      * @return The fMCDPDEMHLH.
      */
     @java.lang.Override
@@ -382,10 +382,10 @@ public final class TreasureMapActivityDetailInfoOuterClass {
       return bonusChallengeList_.get(index);
     }
 
-    public static final int FJEOCGNLCEJ_FIELD_NUMBER = 50002;
+    public static final int FJEOCGNLCEJ_FIELD_NUMBER = 50001;
     private int fjeocgnlcej_;
     /**
-     * <code>uint32 fjeocgnlcej = 50002;</code>
+     * <code>uint32 fjeocgnlcej = 50001;</code>
      * @return The fjeocgnlcej.
      */
     @java.lang.Override
@@ -424,6 +424,9 @@ public final class TreasureMapActivityDetailInfoOuterClass {
       for (int i = 0; i < bonusChallengeList_.size(); i++) {
         output.writeMessage(4, bonusChallengeList_.get(i));
       }
+      if (previewRewardId_ != 0) {
+        output.writeUInt32(5, previewRewardId_);
+      }
       if (isMpChallengeTouched_ != false) {
         output.writeBool(7, isMpChallengeTouched_);
       }
@@ -436,14 +439,11 @@ public final class TreasureMapActivityDetailInfoOuterClass {
       if (treasureCloseTime_ != 0) {
         output.writeUInt32(13, treasureCloseTime_);
       }
-      if (previewRewardId_ != 0) {
-        output.writeUInt32(50000, previewRewardId_);
-      }
       if (fMCDPDEMHLH_ != 0) {
-        output.writeUInt32(50001, fMCDPDEMHLH_);
+        output.writeUInt32(50000, fMCDPDEMHLH_);
       }
       if (fjeocgnlcej_ != 0) {
-        output.writeUInt32(50002, fjeocgnlcej_);
+        output.writeUInt32(50001, fjeocgnlcej_);
       }
       unknownFields.writeTo(output);
     }
@@ -462,6 +462,10 @@ public final class TreasureMapActivityDetailInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(4, bonusChallengeList_.get(i));
       }
+      if (previewRewardId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(5, previewRewardId_);
+      }
       if (isMpChallengeTouched_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(7, isMpChallengeTouched_);
@@ -478,17 +482,13 @@ public final class TreasureMapActivityDetailInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(13, treasureCloseTime_);
       }
-      if (previewRewardId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(50000, previewRewardId_);
-      }
       if (fMCDPDEMHLH_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(50001, fMCDPDEMHLH_);
+          .computeUInt32Size(50000, fMCDPDEMHLH_);
       }
       if (fjeocgnlcej_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(50002, fjeocgnlcej_);
+          .computeUInt32Size(50001, fjeocgnlcej_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -985,7 +985,7 @@ public final class TreasureMapActivityDetailInfoOuterClass {
 
       private int previewRewardId_ ;
       /**
-       * <code>uint32 preview_reward_id = 50000;</code>
+       * <code>uint32 preview_reward_id = 5;</code>
        * @return The previewRewardId.
        */
       @java.lang.Override
@@ -993,7 +993,7 @@ public final class TreasureMapActivityDetailInfoOuterClass {
         return previewRewardId_;
       }
       /**
-       * <code>uint32 preview_reward_id = 50000;</code>
+       * <code>uint32 preview_reward_id = 5;</code>
        * @param value The previewRewardId to set.
        * @return This builder for chaining.
        */
@@ -1004,7 +1004,7 @@ public final class TreasureMapActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 preview_reward_id = 50000;</code>
+       * <code>uint32 preview_reward_id = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearPreviewRewardId() {
@@ -1016,7 +1016,7 @@ public final class TreasureMapActivityDetailInfoOuterClass {
 
       private int fMCDPDEMHLH_ ;
       /**
-       * <code>uint32 FMCDPDEMHLH = 50001;</code>
+       * <code>uint32 FMCDPDEMHLH = 50000;</code>
        * @return The fMCDPDEMHLH.
        */
       @java.lang.Override
@@ -1024,7 +1024,7 @@ public final class TreasureMapActivityDetailInfoOuterClass {
         return fMCDPDEMHLH_;
       }
       /**
-       * <code>uint32 FMCDPDEMHLH = 50001;</code>
+       * <code>uint32 FMCDPDEMHLH = 50000;</code>
        * @param value The fMCDPDEMHLH to set.
        * @return This builder for chaining.
        */
@@ -1035,7 +1035,7 @@ public final class TreasureMapActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 FMCDPDEMHLH = 50001;</code>
+       * <code>uint32 FMCDPDEMHLH = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearFMCDPDEMHLH() {
@@ -1558,7 +1558,7 @@ public final class TreasureMapActivityDetailInfoOuterClass {
 
       private int fjeocgnlcej_ ;
       /**
-       * <code>uint32 fjeocgnlcej = 50002;</code>
+       * <code>uint32 fjeocgnlcej = 50001;</code>
        * @return The fjeocgnlcej.
        */
       @java.lang.Override
@@ -1566,7 +1566,7 @@ public final class TreasureMapActivityDetailInfoOuterClass {
         return fjeocgnlcej_;
       }
       /**
-       * <code>uint32 fjeocgnlcej = 50002;</code>
+       * <code>uint32 fjeocgnlcej = 50001;</code>
        * @param value The fjeocgnlcej to set.
        * @return This builder for chaining.
        */
@@ -1577,7 +1577,7 @@ public final class TreasureMapActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 fjeocgnlcej = 50002;</code>
+       * <code>uint32 fjeocgnlcej = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearFjeocgnlcej() {
@@ -1686,17 +1686,17 @@ public final class TreasureMapActivityDetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n#TreasureMapActivityDetailInfo.proto\032#T" +
       "reasureMapBonusChallengeInfo.proto\032\033Trea" +
-      "sureMapRegionInfo.proto\"\314\002\n\035TreasureMapA" +
+      "sureMapRegionInfo.proto\"\312\002\n\035TreasureMapA" +
       "ctivityDetailInfo\022\035\n\025min_open_player_lev" +
-      "el\030\t \001(\r\022\023\n\013KDGCGILDGOH\030\013 \001(\r\022\033\n\021preview" +
-      "_reward_id\030\320\206\003 \001(\r\022\025\n\013FMCDPDEMHLH\030\321\206\003 \001(" +
-      "\r\0220\n\020region_info_list\030\003 \003(\0132\026.TreasureMa" +
-      "pRegionInfo\022\037\n\027is_mp_challenge_touched\030\007" +
-      " \001(\010\022<\n\024bonus_challenge_list\030\004 \003(\0132\036.Tre" +
-      "asureMapBonusChallengeInfo\022\025\n\013fjeocgnlce" +
-      "j\030\322\206\003 \001(\r\022\033\n\023treasure_close_time\030\r \001(\rBD" +
-      "\n\031emu.grasscutter.net.protoB\'TreasureMap" +
-      "ActivityDetailInfoOuterClassb\006proto3"
+      "el\030\t \001(\r\022\023\n\013KDGCGILDGOH\030\013 \001(\r\022\031\n\021preview" +
+      "_reward_id\030\005 \001(\r\022\025\n\013FMCDPDEMHLH\030\320\206\003 \001(\r\022" +
+      "0\n\020region_info_list\030\003 \003(\0132\026.TreasureMapR" +
+      "egionInfo\022\037\n\027is_mp_challenge_touched\030\007 \001" +
+      "(\010\022<\n\024bonus_challenge_list\030\004 \003(\0132\036.Treas" +
+      "ureMapBonusChallengeInfo\022\025\n\013fjeocgnlcej\030" +
+      "\321\206\003 \001(\r\022\033\n\023treasure_close_time\030\r \001(\rBD\n\031" +
+      "emu.grasscutter.net.protoB\'TreasureMapAc" +
+      "tivityDetailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

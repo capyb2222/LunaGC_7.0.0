@@ -4,5 +4,5 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "AvatarGainTraceEffectNotifyOuterClass";
 
 message AvatarGainTraceEffectNotify {
-	uint32 _trace_effect_id = 13;
+	uint32 _trace_effect_id = 14;
 }

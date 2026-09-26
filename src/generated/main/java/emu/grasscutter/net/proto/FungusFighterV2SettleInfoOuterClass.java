@@ -19,13 +19,13 @@ public final class FungusFighterV2SettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 PEOBIBCPNAL = 2;</code>
+     * <code>uint32 PEOBIBCPNAL = 50000;</code>
      * @return The pEOBIBCPNAL.
      */
     int getPEOBIBCPNAL();
 
     /**
-     * <code>uint32 cost_time = 7;</code>
+     * <code>uint32 cost_time = 2;</code>
      * @return The costTime.
      */
     int getCostTime();
@@ -37,19 +37,19 @@ public final class FungusFighterV2SettleInfoOuterClass {
     int getLevelId();
 
     /**
-     * <code>uint32 gojkocdimeo = 11;</code>
+     * <code>uint32 gojkocdimeo = 50001;</code>
      * @return The gojkocdimeo.
      */
     int getGojkocdimeo();
 
     /**
-     * <code>uint32 CODAHBOBNAC = 12;</code>
+     * <code>uint32 CODAHBOBNAC = 50002;</code>
      * @return The cODAHBOBNAC.
      */
     int getCODAHBOBNAC();
 
     /**
-     * <code>bool is_new_record = 13;</code>
+     * <code>bool is_new_record = 6;</code>
      * @return The isNewRecord.
      */
     boolean getIsNewRecord();
@@ -101,12 +101,12 @@ public final class FungusFighterV2SettleInfoOuterClass {
               break;
             case 16: {
 
-              pEOBIBCPNAL_ = input.readUInt32();
+              costTime_ = input.readUInt32();
               break;
             }
-            case 56: {
+            case 48: {
 
-              costTime_ = input.readUInt32();
+              isNewRecord_ = input.readBool();
               break;
             }
             case 80: {
@@ -114,19 +114,19 @@ public final class FungusFighterV2SettleInfoOuterClass {
               levelId_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 400000: {
+
+              pEOBIBCPNAL_ = input.readUInt32();
+              break;
+            }
+            case 400008: {
 
               gojkocdimeo_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 400016: {
 
               cODAHBOBNAC_ = input.readUInt32();
-              break;
-            }
-            case 104: {
-
-              isNewRecord_ = input.readBool();
               break;
             }
             default: {
@@ -161,10 +161,10 @@ public final class FungusFighterV2SettleInfoOuterClass {
               emu.grasscutter.net.proto.FungusFighterV2SettleInfoOuterClass.FungusFighterV2SettleInfo.class, emu.grasscutter.net.proto.FungusFighterV2SettleInfoOuterClass.FungusFighterV2SettleInfo.Builder.class);
     }
 
-    public static final int PEOBIBCPNAL_FIELD_NUMBER = 2;
+    public static final int PEOBIBCPNAL_FIELD_NUMBER = 50000;
     private int pEOBIBCPNAL_;
     /**
-     * <code>uint32 PEOBIBCPNAL = 2;</code>
+     * <code>uint32 PEOBIBCPNAL = 50000;</code>
      * @return The pEOBIBCPNAL.
      */
     @java.lang.Override
@@ -172,10 +172,10 @@ public final class FungusFighterV2SettleInfoOuterClass {
       return pEOBIBCPNAL_;
     }
 
-    public static final int COST_TIME_FIELD_NUMBER = 7;
+    public static final int COST_TIME_FIELD_NUMBER = 2;
     private int costTime_;
     /**
-     * <code>uint32 cost_time = 7;</code>
+     * <code>uint32 cost_time = 2;</code>
      * @return The costTime.
      */
     @java.lang.Override
@@ -194,10 +194,10 @@ public final class FungusFighterV2SettleInfoOuterClass {
       return levelId_;
     }
 
-    public static final int GOJKOCDIMEO_FIELD_NUMBER = 11;
+    public static final int GOJKOCDIMEO_FIELD_NUMBER = 50001;
     private int gojkocdimeo_;
     /**
-     * <code>uint32 gojkocdimeo = 11;</code>
+     * <code>uint32 gojkocdimeo = 50001;</code>
      * @return The gojkocdimeo.
      */
     @java.lang.Override
@@ -205,10 +205,10 @@ public final class FungusFighterV2SettleInfoOuterClass {
       return gojkocdimeo_;
     }
 
-    public static final int CODAHBOBNAC_FIELD_NUMBER = 12;
+    public static final int CODAHBOBNAC_FIELD_NUMBER = 50002;
     private int cODAHBOBNAC_;
     /**
-     * <code>uint32 CODAHBOBNAC = 12;</code>
+     * <code>uint32 CODAHBOBNAC = 50002;</code>
      * @return The cODAHBOBNAC.
      */
     @java.lang.Override
@@ -216,10 +216,10 @@ public final class FungusFighterV2SettleInfoOuterClass {
       return cODAHBOBNAC_;
     }
 
-    public static final int IS_NEW_RECORD_FIELD_NUMBER = 13;
+    public static final int IS_NEW_RECORD_FIELD_NUMBER = 6;
     private boolean isNewRecord_;
     /**
-     * <code>bool is_new_record = 13;</code>
+     * <code>bool is_new_record = 6;</code>
      * @return The isNewRecord.
      */
     @java.lang.Override
@@ -241,23 +241,23 @@ public final class FungusFighterV2SettleInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (pEOBIBCPNAL_ != 0) {
-        output.writeUInt32(2, pEOBIBCPNAL_);
-      }
       if (costTime_ != 0) {
-        output.writeUInt32(7, costTime_);
+        output.writeUInt32(2, costTime_);
+      }
+      if (isNewRecord_ != false) {
+        output.writeBool(6, isNewRecord_);
       }
       if (levelId_ != 0) {
         output.writeUInt32(10, levelId_);
       }
+      if (pEOBIBCPNAL_ != 0) {
+        output.writeUInt32(50000, pEOBIBCPNAL_);
+      }
       if (gojkocdimeo_ != 0) {
-        output.writeUInt32(11, gojkocdimeo_);
+        output.writeUInt32(50001, gojkocdimeo_);
       }
       if (cODAHBOBNAC_ != 0) {
-        output.writeUInt32(12, cODAHBOBNAC_);
-      }
-      if (isNewRecord_ != false) {
-        output.writeBool(13, isNewRecord_);
+        output.writeUInt32(50002, cODAHBOBNAC_);
       }
       unknownFields.writeTo(output);
     }
@@ -268,29 +268,29 @@ public final class FungusFighterV2SettleInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (pEOBIBCPNAL_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, pEOBIBCPNAL_);
-      }
       if (costTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, costTime_);
+          .computeUInt32Size(2, costTime_);
+      }
+      if (isNewRecord_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(6, isNewRecord_);
       }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(10, levelId_);
       }
+      if (pEOBIBCPNAL_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50000, pEOBIBCPNAL_);
+      }
       if (gojkocdimeo_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, gojkocdimeo_);
+          .computeUInt32Size(50001, gojkocdimeo_);
       }
       if (cODAHBOBNAC_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, cODAHBOBNAC_);
-      }
-      if (isNewRecord_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(13, isNewRecord_);
+          .computeUInt32Size(50002, cODAHBOBNAC_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -617,7 +617,7 @@ public final class FungusFighterV2SettleInfoOuterClass {
 
       private int pEOBIBCPNAL_ ;
       /**
-       * <code>uint32 PEOBIBCPNAL = 2;</code>
+       * <code>uint32 PEOBIBCPNAL = 50000;</code>
        * @return The pEOBIBCPNAL.
        */
       @java.lang.Override
@@ -625,7 +625,7 @@ public final class FungusFighterV2SettleInfoOuterClass {
         return pEOBIBCPNAL_;
       }
       /**
-       * <code>uint32 PEOBIBCPNAL = 2;</code>
+       * <code>uint32 PEOBIBCPNAL = 50000;</code>
        * @param value The pEOBIBCPNAL to set.
        * @return This builder for chaining.
        */
@@ -636,7 +636,7 @@ public final class FungusFighterV2SettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 PEOBIBCPNAL = 2;</code>
+       * <code>uint32 PEOBIBCPNAL = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearPEOBIBCPNAL() {
@@ -648,7 +648,7 @@ public final class FungusFighterV2SettleInfoOuterClass {
 
       private int costTime_ ;
       /**
-       * <code>uint32 cost_time = 7;</code>
+       * <code>uint32 cost_time = 2;</code>
        * @return The costTime.
        */
       @java.lang.Override
@@ -656,7 +656,7 @@ public final class FungusFighterV2SettleInfoOuterClass {
         return costTime_;
       }
       /**
-       * <code>uint32 cost_time = 7;</code>
+       * <code>uint32 cost_time = 2;</code>
        * @param value The costTime to set.
        * @return This builder for chaining.
        */
@@ -667,7 +667,7 @@ public final class FungusFighterV2SettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 cost_time = 7;</code>
+       * <code>uint32 cost_time = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearCostTime() {
@@ -710,7 +710,7 @@ public final class FungusFighterV2SettleInfoOuterClass {
 
       private int gojkocdimeo_ ;
       /**
-       * <code>uint32 gojkocdimeo = 11;</code>
+       * <code>uint32 gojkocdimeo = 50001;</code>
        * @return The gojkocdimeo.
        */
       @java.lang.Override
@@ -718,7 +718,7 @@ public final class FungusFighterV2SettleInfoOuterClass {
         return gojkocdimeo_;
       }
       /**
-       * <code>uint32 gojkocdimeo = 11;</code>
+       * <code>uint32 gojkocdimeo = 50001;</code>
        * @param value The gojkocdimeo to set.
        * @return This builder for chaining.
        */
@@ -729,7 +729,7 @@ public final class FungusFighterV2SettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 gojkocdimeo = 11;</code>
+       * <code>uint32 gojkocdimeo = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearGojkocdimeo() {
@@ -741,7 +741,7 @@ public final class FungusFighterV2SettleInfoOuterClass {
 
       private int cODAHBOBNAC_ ;
       /**
-       * <code>uint32 CODAHBOBNAC = 12;</code>
+       * <code>uint32 CODAHBOBNAC = 50002;</code>
        * @return The cODAHBOBNAC.
        */
       @java.lang.Override
@@ -749,7 +749,7 @@ public final class FungusFighterV2SettleInfoOuterClass {
         return cODAHBOBNAC_;
       }
       /**
-       * <code>uint32 CODAHBOBNAC = 12;</code>
+       * <code>uint32 CODAHBOBNAC = 50002;</code>
        * @param value The cODAHBOBNAC to set.
        * @return This builder for chaining.
        */
@@ -760,7 +760,7 @@ public final class FungusFighterV2SettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 CODAHBOBNAC = 12;</code>
+       * <code>uint32 CODAHBOBNAC = 50002;</code>
        * @return This builder for chaining.
        */
       public Builder clearCODAHBOBNAC() {
@@ -772,7 +772,7 @@ public final class FungusFighterV2SettleInfoOuterClass {
 
       private boolean isNewRecord_ ;
       /**
-       * <code>bool is_new_record = 13;</code>
+       * <code>bool is_new_record = 6;</code>
        * @return The isNewRecord.
        */
       @java.lang.Override
@@ -780,7 +780,7 @@ public final class FungusFighterV2SettleInfoOuterClass {
         return isNewRecord_;
       }
       /**
-       * <code>bool is_new_record = 13;</code>
+       * <code>bool is_new_record = 6;</code>
        * @param value The isNewRecord to set.
        * @return This builder for chaining.
        */
@@ -791,7 +791,7 @@ public final class FungusFighterV2SettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_new_record = 13;</code>
+       * <code>bool is_new_record = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsNewRecord() {
@@ -867,13 +867,13 @@ public final class FungusFighterV2SettleInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\037FungusFighterV2SettleInfo.proto\"\226\001\n\031Fu" +
-      "ngusFighterV2SettleInfo\022\023\n\013PEOBIBCPNAL\030\002" +
-      " \001(\r\022\021\n\tcost_time\030\007 \001(\r\022\020\n\010level_id\030\n \001(" +
-      "\r\022\023\n\013gojkocdimeo\030\013 \001(\r\022\023\n\013CODAHBOBNAC\030\014 " +
-      "\001(\r\022\025\n\ris_new_record\030\r \001(\010B@\n\031emu.grassc" +
-      "utter.net.protoB#FungusFighterV2SettleIn" +
-      "foOuterClassb\006proto3"
+      "\n\037FungusFighterV2SettleInfo.proto\"\234\001\n\031Fu" +
+      "ngusFighterV2SettleInfo\022\025\n\013PEOBIBCPNAL\030\320" +
+      "\206\003 \001(\r\022\021\n\tcost_time\030\002 \001(\r\022\020\n\010level_id\030\n " +
+      "\001(\r\022\025\n\013gojkocdimeo\030\321\206\003 \001(\r\022\025\n\013CODAHBOBNA" +
+      "C\030\322\206\003 \001(\r\022\025\n\ris_new_record\030\006 \001(\010B@\n\031emu." +
+      "grasscutter.net.protoB#FungusFighterV2Se" +
+      "ttleInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

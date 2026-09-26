@@ -6,5 +6,5 @@ option java_outer_classname = "FontaineGatherDetailInfoOuterClass";
 import "HGLMBIEIGIN.proto";
 
 message FontaineGatherDetailInfo {
-	repeated HGLMBIEIGIN stage_info_list = 6;
+	repeated HGLMBIEIGIN stage_info_list = 12;
 }

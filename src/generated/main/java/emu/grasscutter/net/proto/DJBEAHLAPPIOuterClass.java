@@ -19,19 +19,19 @@ public final class DJBEAHLAPPIOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 level_id = 5;</code>
+     * <code>uint32 level_id = 7;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>uint32 max_score = 10;</code>
+     * <code>uint32 max_score = 2;</code>
      * @return The maxScore.
      */
     int getMaxScore();
 
     /**
-     * <code>bool is_open = 12;</code>
+     * <code>bool is_open = 6;</code>
      * @return The isOpen.
      */
     boolean getIsOpen();
@@ -81,19 +81,19 @@ public final class DJBEAHLAPPIOuterClass {
             case 0:
               done = true;
               break;
-            case 40: {
-
-              levelId_ = input.readUInt32();
-              break;
-            }
-            case 80: {
+            case 16: {
 
               maxScore_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 48: {
 
               isOpen_ = input.readBool();
+              break;
+            }
+            case 56: {
+
+              levelId_ = input.readUInt32();
               break;
             }
             default: {
@@ -128,10 +128,10 @@ public final class DJBEAHLAPPIOuterClass {
               emu.grasscutter.net.proto.DJBEAHLAPPIOuterClass.DJBEAHLAPPI.class, emu.grasscutter.net.proto.DJBEAHLAPPIOuterClass.DJBEAHLAPPI.Builder.class);
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 5;
+    public static final int LEVEL_ID_FIELD_NUMBER = 7;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 5;</code>
+     * <code>uint32 level_id = 7;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -139,10 +139,10 @@ public final class DJBEAHLAPPIOuterClass {
       return levelId_;
     }
 
-    public static final int MAX_SCORE_FIELD_NUMBER = 10;
+    public static final int MAX_SCORE_FIELD_NUMBER = 2;
     private int maxScore_;
     /**
-     * <code>uint32 max_score = 10;</code>
+     * <code>uint32 max_score = 2;</code>
      * @return The maxScore.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class DJBEAHLAPPIOuterClass {
       return maxScore_;
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 12;
+    public static final int IS_OPEN_FIELD_NUMBER = 6;
     private boolean isOpen_;
     /**
-     * <code>bool is_open = 12;</code>
+     * <code>bool is_open = 6;</code>
      * @return The isOpen.
      */
     @java.lang.Override
@@ -175,14 +175,14 @@ public final class DJBEAHLAPPIOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (levelId_ != 0) {
-        output.writeUInt32(5, levelId_);
-      }
       if (maxScore_ != 0) {
-        output.writeUInt32(10, maxScore_);
+        output.writeUInt32(2, maxScore_);
       }
       if (isOpen_ != false) {
-        output.writeBool(12, isOpen_);
+        output.writeBool(6, isOpen_);
+      }
+      if (levelId_ != 0) {
+        output.writeUInt32(7, levelId_);
       }
       unknownFields.writeTo(output);
     }
@@ -193,17 +193,17 @@ public final class DJBEAHLAPPIOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (levelId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, levelId_);
-      }
       if (maxScore_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, maxScore_);
+          .computeUInt32Size(2, maxScore_);
       }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, isOpen_);
+          .computeBoolSize(6, isOpen_);
+      }
+      if (levelId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(7, levelId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -500,7 +500,7 @@ public final class DJBEAHLAPPIOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 5;</code>
+       * <code>uint32 level_id = 7;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -508,7 +508,7 @@ public final class DJBEAHLAPPIOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 5;</code>
+       * <code>uint32 level_id = 7;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -519,7 +519,7 @@ public final class DJBEAHLAPPIOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 5;</code>
+       * <code>uint32 level_id = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -531,7 +531,7 @@ public final class DJBEAHLAPPIOuterClass {
 
       private int maxScore_ ;
       /**
-       * <code>uint32 max_score = 10;</code>
+       * <code>uint32 max_score = 2;</code>
        * @return The maxScore.
        */
       @java.lang.Override
@@ -539,7 +539,7 @@ public final class DJBEAHLAPPIOuterClass {
         return maxScore_;
       }
       /**
-       * <code>uint32 max_score = 10;</code>
+       * <code>uint32 max_score = 2;</code>
        * @param value The maxScore to set.
        * @return This builder for chaining.
        */
@@ -550,7 +550,7 @@ public final class DJBEAHLAPPIOuterClass {
         return this;
       }
       /**
-       * <code>uint32 max_score = 10;</code>
+       * <code>uint32 max_score = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearMaxScore() {
@@ -562,7 +562,7 @@ public final class DJBEAHLAPPIOuterClass {
 
       private boolean isOpen_ ;
       /**
-       * <code>bool is_open = 12;</code>
+       * <code>bool is_open = 6;</code>
        * @return The isOpen.
        */
       @java.lang.Override
@@ -570,7 +570,7 @@ public final class DJBEAHLAPPIOuterClass {
         return isOpen_;
       }
       /**
-       * <code>bool is_open = 12;</code>
+       * <code>bool is_open = 6;</code>
        * @param value The isOpen to set.
        * @return This builder for chaining.
        */
@@ -581,7 +581,7 @@ public final class DJBEAHLAPPIOuterClass {
         return this;
       }
       /**
-       * <code>bool is_open = 12;</code>
+       * <code>bool is_open = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsOpen() {
@@ -658,8 +658,8 @@ public final class DJBEAHLAPPIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021DJBEAHLAPPI.proto\"C\n\013DJBEAHLAPPI\022\020\n\010le" +
-      "vel_id\030\005 \001(\r\022\021\n\tmax_score\030\n \001(\r\022\017\n\007is_op" +
-      "en\030\014 \001(\010B2\n\031emu.grasscutter.net.protoB\025D" +
+      "vel_id\030\007 \001(\r\022\021\n\tmax_score\030\002 \001(\r\022\017\n\007is_op" +
+      "en\030\006 \001(\010B2\n\031emu.grasscutter.net.protoB\025D" +
       "JBEAHLAPPIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

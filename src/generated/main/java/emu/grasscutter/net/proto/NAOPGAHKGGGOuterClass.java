@@ -19,13 +19,13 @@ public final class NAOPGAHKGGGOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 value = 1;</code>
+     * <code>uint32 value = 7;</code>
      * @return The value.
      */
     int getValue();
 
     /**
-     * <code>uint32 key = 15;</code>
+     * <code>uint32 key = 13;</code>
      * @return The key.
      */
     int getKey();
@@ -75,12 +75,12 @@ public final class NAOPGAHKGGGOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 56: {
 
               value_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 104: {
 
               key_ = input.readUInt32();
               break;
@@ -117,10 +117,10 @@ public final class NAOPGAHKGGGOuterClass {
               emu.grasscutter.net.proto.NAOPGAHKGGGOuterClass.NAOPGAHKGGG.class, emu.grasscutter.net.proto.NAOPGAHKGGGOuterClass.NAOPGAHKGGG.Builder.class);
     }
 
-    public static final int VALUE_FIELD_NUMBER = 1;
+    public static final int VALUE_FIELD_NUMBER = 7;
     private int value_;
     /**
-     * <code>uint32 value = 1;</code>
+     * <code>uint32 value = 7;</code>
      * @return The value.
      */
     @java.lang.Override
@@ -128,10 +128,10 @@ public final class NAOPGAHKGGGOuterClass {
       return value_;
     }
 
-    public static final int KEY_FIELD_NUMBER = 15;
+    public static final int KEY_FIELD_NUMBER = 13;
     private int key_;
     /**
-     * <code>uint32 key = 15;</code>
+     * <code>uint32 key = 13;</code>
      * @return The key.
      */
     @java.lang.Override
@@ -154,10 +154,10 @@ public final class NAOPGAHKGGGOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (value_ != 0) {
-        output.writeUInt32(1, value_);
+        output.writeUInt32(7, value_);
       }
       if (key_ != 0) {
-        output.writeUInt32(15, key_);
+        output.writeUInt32(13, key_);
       }
       unknownFields.writeTo(output);
     }
@@ -170,11 +170,11 @@ public final class NAOPGAHKGGGOuterClass {
       size = 0;
       if (value_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, value_);
+          .computeUInt32Size(7, value_);
       }
       if (key_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, key_);
+          .computeUInt32Size(13, key_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -460,7 +460,7 @@ public final class NAOPGAHKGGGOuterClass {
 
       private int value_ ;
       /**
-       * <code>uint32 value = 1;</code>
+       * <code>uint32 value = 7;</code>
        * @return The value.
        */
       @java.lang.Override
@@ -468,7 +468,7 @@ public final class NAOPGAHKGGGOuterClass {
         return value_;
       }
       /**
-       * <code>uint32 value = 1;</code>
+       * <code>uint32 value = 7;</code>
        * @param value The value to set.
        * @return This builder for chaining.
        */
@@ -479,7 +479,7 @@ public final class NAOPGAHKGGGOuterClass {
         return this;
       }
       /**
-       * <code>uint32 value = 1;</code>
+       * <code>uint32 value = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearValue() {
@@ -491,7 +491,7 @@ public final class NAOPGAHKGGGOuterClass {
 
       private int key_ ;
       /**
-       * <code>uint32 key = 15;</code>
+       * <code>uint32 key = 13;</code>
        * @return The key.
        */
       @java.lang.Override
@@ -499,7 +499,7 @@ public final class NAOPGAHKGGGOuterClass {
         return key_;
       }
       /**
-       * <code>uint32 key = 15;</code>
+       * <code>uint32 key = 13;</code>
        * @param value The key to set.
        * @return This builder for chaining.
        */
@@ -510,7 +510,7 @@ public final class NAOPGAHKGGGOuterClass {
         return this;
       }
       /**
-       * <code>uint32 key = 15;</code>
+       * <code>uint32 key = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearKey() {
@@ -587,7 +587,7 @@ public final class NAOPGAHKGGGOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NAOPGAHKGGG.proto\")\n\013NAOPGAHKGGG\022\r\n\005va" +
-      "lue\030\001 \001(\r\022\013\n\003key\030\017 \001(\rB2\n\031emu.grasscutte" +
+      "lue\030\007 \001(\r\022\013\n\003key\030\r \001(\rB2\n\031emu.grasscutte" +
       "r.net.protoB\025NAOPGAHKGGGOuterClassb\006prot" +
       "o3"
     };

@@ -19,19 +19,19 @@ public final class RoguelikeSettleCoinInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 PBNGPNDHIJK = 4;</code>
+     * <code>uint32 PBNGPNDHIJK = 50000;</code>
      * @return The pBNGPNDHIJK.
      */
     int getPBNGPNDHIJK();
 
     /**
-     * <code>uint32 OKGEBIHDJOM = 12;</code>
+     * <code>uint32 OKGEBIHDJOM = 50001;</code>
      * @return The oKGEBIHDJOM.
      */
     int getOKGEBIHDJOM();
 
     /**
-     * <code>uint32 fehaakffenc = 13;</code>
+     * <code>uint32 fehaakffenc = 50002;</code>
      * @return The fehaakffenc.
      */
     int getFehaakffenc();
@@ -81,17 +81,17 @@ public final class RoguelikeSettleCoinInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 400000: {
 
               pBNGPNDHIJK_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 400008: {
 
               oKGEBIHDJOM_ = input.readUInt32();
               break;
             }
-            case 104: {
+            case 400016: {
 
               fehaakffenc_ = input.readUInt32();
               break;
@@ -128,10 +128,10 @@ public final class RoguelikeSettleCoinInfoOuterClass {
               emu.grasscutter.net.proto.RoguelikeSettleCoinInfoOuterClass.RoguelikeSettleCoinInfo.class, emu.grasscutter.net.proto.RoguelikeSettleCoinInfoOuterClass.RoguelikeSettleCoinInfo.Builder.class);
     }
 
-    public static final int PBNGPNDHIJK_FIELD_NUMBER = 4;
+    public static final int PBNGPNDHIJK_FIELD_NUMBER = 50000;
     private int pBNGPNDHIJK_;
     /**
-     * <code>uint32 PBNGPNDHIJK = 4;</code>
+     * <code>uint32 PBNGPNDHIJK = 50000;</code>
      * @return The pBNGPNDHIJK.
      */
     @java.lang.Override
@@ -139,10 +139,10 @@ public final class RoguelikeSettleCoinInfoOuterClass {
       return pBNGPNDHIJK_;
     }
 
-    public static final int OKGEBIHDJOM_FIELD_NUMBER = 12;
+    public static final int OKGEBIHDJOM_FIELD_NUMBER = 50001;
     private int oKGEBIHDJOM_;
     /**
-     * <code>uint32 OKGEBIHDJOM = 12;</code>
+     * <code>uint32 OKGEBIHDJOM = 50001;</code>
      * @return The oKGEBIHDJOM.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class RoguelikeSettleCoinInfoOuterClass {
       return oKGEBIHDJOM_;
     }
 
-    public static final int FEHAAKFFENC_FIELD_NUMBER = 13;
+    public static final int FEHAAKFFENC_FIELD_NUMBER = 50002;
     private int fehaakffenc_;
     /**
-     * <code>uint32 fehaakffenc = 13;</code>
+     * <code>uint32 fehaakffenc = 50002;</code>
      * @return The fehaakffenc.
      */
     @java.lang.Override
@@ -176,13 +176,13 @@ public final class RoguelikeSettleCoinInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (pBNGPNDHIJK_ != 0) {
-        output.writeUInt32(4, pBNGPNDHIJK_);
+        output.writeUInt32(50000, pBNGPNDHIJK_);
       }
       if (oKGEBIHDJOM_ != 0) {
-        output.writeUInt32(12, oKGEBIHDJOM_);
+        output.writeUInt32(50001, oKGEBIHDJOM_);
       }
       if (fehaakffenc_ != 0) {
-        output.writeUInt32(13, fehaakffenc_);
+        output.writeUInt32(50002, fehaakffenc_);
       }
       unknownFields.writeTo(output);
     }
@@ -195,15 +195,15 @@ public final class RoguelikeSettleCoinInfoOuterClass {
       size = 0;
       if (pBNGPNDHIJK_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, pBNGPNDHIJK_);
+          .computeUInt32Size(50000, pBNGPNDHIJK_);
       }
       if (oKGEBIHDJOM_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, oKGEBIHDJOM_);
+          .computeUInt32Size(50001, oKGEBIHDJOM_);
       }
       if (fehaakffenc_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, fehaakffenc_);
+          .computeUInt32Size(50002, fehaakffenc_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -499,7 +499,7 @@ public final class RoguelikeSettleCoinInfoOuterClass {
 
       private int pBNGPNDHIJK_ ;
       /**
-       * <code>uint32 PBNGPNDHIJK = 4;</code>
+       * <code>uint32 PBNGPNDHIJK = 50000;</code>
        * @return The pBNGPNDHIJK.
        */
       @java.lang.Override
@@ -507,7 +507,7 @@ public final class RoguelikeSettleCoinInfoOuterClass {
         return pBNGPNDHIJK_;
       }
       /**
-       * <code>uint32 PBNGPNDHIJK = 4;</code>
+       * <code>uint32 PBNGPNDHIJK = 50000;</code>
        * @param value The pBNGPNDHIJK to set.
        * @return This builder for chaining.
        */
@@ -518,7 +518,7 @@ public final class RoguelikeSettleCoinInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 PBNGPNDHIJK = 4;</code>
+       * <code>uint32 PBNGPNDHIJK = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearPBNGPNDHIJK() {
@@ -530,7 +530,7 @@ public final class RoguelikeSettleCoinInfoOuterClass {
 
       private int oKGEBIHDJOM_ ;
       /**
-       * <code>uint32 OKGEBIHDJOM = 12;</code>
+       * <code>uint32 OKGEBIHDJOM = 50001;</code>
        * @return The oKGEBIHDJOM.
        */
       @java.lang.Override
@@ -538,7 +538,7 @@ public final class RoguelikeSettleCoinInfoOuterClass {
         return oKGEBIHDJOM_;
       }
       /**
-       * <code>uint32 OKGEBIHDJOM = 12;</code>
+       * <code>uint32 OKGEBIHDJOM = 50001;</code>
        * @param value The oKGEBIHDJOM to set.
        * @return This builder for chaining.
        */
@@ -549,7 +549,7 @@ public final class RoguelikeSettleCoinInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 OKGEBIHDJOM = 12;</code>
+       * <code>uint32 OKGEBIHDJOM = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearOKGEBIHDJOM() {
@@ -561,7 +561,7 @@ public final class RoguelikeSettleCoinInfoOuterClass {
 
       private int fehaakffenc_ ;
       /**
-       * <code>uint32 fehaakffenc = 13;</code>
+       * <code>uint32 fehaakffenc = 50002;</code>
        * @return The fehaakffenc.
        */
       @java.lang.Override
@@ -569,7 +569,7 @@ public final class RoguelikeSettleCoinInfoOuterClass {
         return fehaakffenc_;
       }
       /**
-       * <code>uint32 fehaakffenc = 13;</code>
+       * <code>uint32 fehaakffenc = 50002;</code>
        * @param value The fehaakffenc to set.
        * @return This builder for chaining.
        */
@@ -580,7 +580,7 @@ public final class RoguelikeSettleCoinInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 fehaakffenc = 13;</code>
+       * <code>uint32 fehaakffenc = 50002;</code>
        * @return This builder for chaining.
        */
       public Builder clearFehaakffenc() {
@@ -656,11 +656,11 @@ public final class RoguelikeSettleCoinInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\035RoguelikeSettleCoinInfo.proto\"X\n\027Rogue" +
-      "likeSettleCoinInfo\022\023\n\013PBNGPNDHIJK\030\004 \001(\r\022" +
-      "\023\n\013OKGEBIHDJOM\030\014 \001(\r\022\023\n\013fehaakffenc\030\r \001(" +
-      "\rB>\n\031emu.grasscutter.net.protoB!Roguelik" +
-      "eSettleCoinInfoOuterClassb\006proto3"
+      "\n\035RoguelikeSettleCoinInfo.proto\"^\n\027Rogue" +
+      "likeSettleCoinInfo\022\025\n\013PBNGPNDHIJK\030\320\206\003 \001(" +
+      "\r\022\025\n\013OKGEBIHDJOM\030\321\206\003 \001(\r\022\025\n\013fehaakffenc\030" +
+      "\322\206\003 \001(\rB>\n\031emu.grasscutter.net.protoB!Ro" +
+      "guelikeSettleCoinInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

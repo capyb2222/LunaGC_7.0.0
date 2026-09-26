@@ -4,5 +4,5 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "GCGFestivalDetailInfoOuterClass";
 
 message GCGFestivalDetailInfo {
-	bool is_gcg_festival_mode_open = 14;
+	bool is_gcg_festival_mode_open = 10;
 }

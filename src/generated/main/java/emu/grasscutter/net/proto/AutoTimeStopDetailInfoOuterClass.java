@@ -19,25 +19,25 @@ public final class AutoTimeStopDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .AJKHPLDCLEO level_info_list = 13;</code>
+     * <code>repeated .AJKHPLDCLEO level_info_list = 3;</code>
      */
     java.util.List<emu.grasscutter.net.proto.AJKHPLDCLEOOuterClass.AJKHPLDCLEO> 
         getLevelInfoListList();
     /**
-     * <code>repeated .AJKHPLDCLEO level_info_list = 13;</code>
+     * <code>repeated .AJKHPLDCLEO level_info_list = 3;</code>
      */
     emu.grasscutter.net.proto.AJKHPLDCLEOOuterClass.AJKHPLDCLEO getLevelInfoList(int index);
     /**
-     * <code>repeated .AJKHPLDCLEO level_info_list = 13;</code>
+     * <code>repeated .AJKHPLDCLEO level_info_list = 3;</code>
      */
     int getLevelInfoListCount();
     /**
-     * <code>repeated .AJKHPLDCLEO level_info_list = 13;</code>
+     * <code>repeated .AJKHPLDCLEO level_info_list = 3;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.AJKHPLDCLEOOuterClass.AJKHPLDCLEOOrBuilder> 
         getLevelInfoListOrBuilderList();
     /**
-     * <code>repeated .AJKHPLDCLEO level_info_list = 13;</code>
+     * <code>repeated .AJKHPLDCLEO level_info_list = 3;</code>
      */
     emu.grasscutter.net.proto.AJKHPLDCLEOOuterClass.AJKHPLDCLEOOrBuilder getLevelInfoListOrBuilder(
         int index);
@@ -89,7 +89,7 @@ public final class AutoTimeStopDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 106: {
+            case 26: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 levelInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.AJKHPLDCLEOOuterClass.AJKHPLDCLEO>();
                 mutable_bitField0_ |= 0x00000001;
@@ -133,17 +133,17 @@ public final class AutoTimeStopDetailInfoOuterClass {
               emu.grasscutter.net.proto.AutoTimeStopDetailInfoOuterClass.AutoTimeStopDetailInfo.class, emu.grasscutter.net.proto.AutoTimeStopDetailInfoOuterClass.AutoTimeStopDetailInfo.Builder.class);
     }
 
-    public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 13;
+    public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 3;
     private java.util.List<emu.grasscutter.net.proto.AJKHPLDCLEOOuterClass.AJKHPLDCLEO> levelInfoList_;
     /**
-     * <code>repeated .AJKHPLDCLEO level_info_list = 13;</code>
+     * <code>repeated .AJKHPLDCLEO level_info_list = 3;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.AJKHPLDCLEOOuterClass.AJKHPLDCLEO> getLevelInfoListList() {
       return levelInfoList_;
     }
     /**
-     * <code>repeated .AJKHPLDCLEO level_info_list = 13;</code>
+     * <code>repeated .AJKHPLDCLEO level_info_list = 3;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.AJKHPLDCLEOOuterClass.AJKHPLDCLEOOrBuilder> 
@@ -151,21 +151,21 @@ public final class AutoTimeStopDetailInfoOuterClass {
       return levelInfoList_;
     }
     /**
-     * <code>repeated .AJKHPLDCLEO level_info_list = 13;</code>
+     * <code>repeated .AJKHPLDCLEO level_info_list = 3;</code>
      */
     @java.lang.Override
     public int getLevelInfoListCount() {
       return levelInfoList_.size();
     }
     /**
-     * <code>repeated .AJKHPLDCLEO level_info_list = 13;</code>
+     * <code>repeated .AJKHPLDCLEO level_info_list = 3;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.AJKHPLDCLEOOuterClass.AJKHPLDCLEO getLevelInfoList(int index) {
       return levelInfoList_.get(index);
     }
     /**
-     * <code>repeated .AJKHPLDCLEO level_info_list = 13;</code>
+     * <code>repeated .AJKHPLDCLEO level_info_list = 3;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.AJKHPLDCLEOOuterClass.AJKHPLDCLEOOrBuilder getLevelInfoListOrBuilder(
@@ -188,7 +188,7 @@ public final class AutoTimeStopDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < levelInfoList_.size(); i++) {
-        output.writeMessage(13, levelInfoList_.get(i));
+        output.writeMessage(3, levelInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -201,7 +201,7 @@ public final class AutoTimeStopDetailInfoOuterClass {
       size = 0;
       for (int i = 0; i < levelInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, levelInfoList_.get(i));
+          .computeMessageSize(3, levelInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -528,7 +528,7 @@ public final class AutoTimeStopDetailInfoOuterClass {
           emu.grasscutter.net.proto.AJKHPLDCLEOOuterClass.AJKHPLDCLEO, emu.grasscutter.net.proto.AJKHPLDCLEOOuterClass.AJKHPLDCLEO.Builder, emu.grasscutter.net.proto.AJKHPLDCLEOOuterClass.AJKHPLDCLEOOrBuilder> levelInfoListBuilder_;
 
       /**
-       * <code>repeated .AJKHPLDCLEO level_info_list = 13;</code>
+       * <code>repeated .AJKHPLDCLEO level_info_list = 3;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.AJKHPLDCLEOOuterClass.AJKHPLDCLEO> getLevelInfoListList() {
         if (levelInfoListBuilder_ == null) {
@@ -538,7 +538,7 @@ public final class AutoTimeStopDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .AJKHPLDCLEO level_info_list = 13;</code>
+       * <code>repeated .AJKHPLDCLEO level_info_list = 3;</code>
        */
       public int getLevelInfoListCount() {
         if (levelInfoListBuilder_ == null) {
@@ -548,7 +548,7 @@ public final class AutoTimeStopDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .AJKHPLDCLEO level_info_list = 13;</code>
+       * <code>repeated .AJKHPLDCLEO level_info_list = 3;</code>
        */
       public emu.grasscutter.net.proto.AJKHPLDCLEOOuterClass.AJKHPLDCLEO getLevelInfoList(int index) {
         if (levelInfoListBuilder_ == null) {
@@ -558,7 +558,7 @@ public final class AutoTimeStopDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .AJKHPLDCLEO level_info_list = 13;</code>
+       * <code>repeated .AJKHPLDCLEO level_info_list = 3;</code>
        */
       public Builder setLevelInfoList(
           int index, emu.grasscutter.net.proto.AJKHPLDCLEOOuterClass.AJKHPLDCLEO value) {
@@ -575,7 +575,7 @@ public final class AutoTimeStopDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .AJKHPLDCLEO level_info_list = 13;</code>
+       * <code>repeated .AJKHPLDCLEO level_info_list = 3;</code>
        */
       public Builder setLevelInfoList(
           int index, emu.grasscutter.net.proto.AJKHPLDCLEOOuterClass.AJKHPLDCLEO.Builder builderForValue) {
@@ -589,7 +589,7 @@ public final class AutoTimeStopDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .AJKHPLDCLEO level_info_list = 13;</code>
+       * <code>repeated .AJKHPLDCLEO level_info_list = 3;</code>
        */
       public Builder addLevelInfoList(emu.grasscutter.net.proto.AJKHPLDCLEOOuterClass.AJKHPLDCLEO value) {
         if (levelInfoListBuilder_ == null) {
@@ -605,7 +605,7 @@ public final class AutoTimeStopDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .AJKHPLDCLEO level_info_list = 13;</code>
+       * <code>repeated .AJKHPLDCLEO level_info_list = 3;</code>
        */
       public Builder addLevelInfoList(
           int index, emu.grasscutter.net.proto.AJKHPLDCLEOOuterClass.AJKHPLDCLEO value) {
@@ -622,7 +622,7 @@ public final class AutoTimeStopDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .AJKHPLDCLEO level_info_list = 13;</code>
+       * <code>repeated .AJKHPLDCLEO level_info_list = 3;</code>
        */
       public Builder addLevelInfoList(
           emu.grasscutter.net.proto.AJKHPLDCLEOOuterClass.AJKHPLDCLEO.Builder builderForValue) {
@@ -636,7 +636,7 @@ public final class AutoTimeStopDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .AJKHPLDCLEO level_info_list = 13;</code>
+       * <code>repeated .AJKHPLDCLEO level_info_list = 3;</code>
        */
       public Builder addLevelInfoList(
           int index, emu.grasscutter.net.proto.AJKHPLDCLEOOuterClass.AJKHPLDCLEO.Builder builderForValue) {
@@ -650,7 +650,7 @@ public final class AutoTimeStopDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .AJKHPLDCLEO level_info_list = 13;</code>
+       * <code>repeated .AJKHPLDCLEO level_info_list = 3;</code>
        */
       public Builder addAllLevelInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.AJKHPLDCLEOOuterClass.AJKHPLDCLEO> values) {
@@ -665,7 +665,7 @@ public final class AutoTimeStopDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .AJKHPLDCLEO level_info_list = 13;</code>
+       * <code>repeated .AJKHPLDCLEO level_info_list = 3;</code>
        */
       public Builder clearLevelInfoList() {
         if (levelInfoListBuilder_ == null) {
@@ -678,7 +678,7 @@ public final class AutoTimeStopDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .AJKHPLDCLEO level_info_list = 13;</code>
+       * <code>repeated .AJKHPLDCLEO level_info_list = 3;</code>
        */
       public Builder removeLevelInfoList(int index) {
         if (levelInfoListBuilder_ == null) {
@@ -691,14 +691,14 @@ public final class AutoTimeStopDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .AJKHPLDCLEO level_info_list = 13;</code>
+       * <code>repeated .AJKHPLDCLEO level_info_list = 3;</code>
        */
       public emu.grasscutter.net.proto.AJKHPLDCLEOOuterClass.AJKHPLDCLEO.Builder getLevelInfoListBuilder(
           int index) {
         return getLevelInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .AJKHPLDCLEO level_info_list = 13;</code>
+       * <code>repeated .AJKHPLDCLEO level_info_list = 3;</code>
        */
       public emu.grasscutter.net.proto.AJKHPLDCLEOOuterClass.AJKHPLDCLEOOrBuilder getLevelInfoListOrBuilder(
           int index) {
@@ -708,7 +708,7 @@ public final class AutoTimeStopDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .AJKHPLDCLEO level_info_list = 13;</code>
+       * <code>repeated .AJKHPLDCLEO level_info_list = 3;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.AJKHPLDCLEOOuterClass.AJKHPLDCLEOOrBuilder> 
            getLevelInfoListOrBuilderList() {
@@ -719,14 +719,14 @@ public final class AutoTimeStopDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .AJKHPLDCLEO level_info_list = 13;</code>
+       * <code>repeated .AJKHPLDCLEO level_info_list = 3;</code>
        */
       public emu.grasscutter.net.proto.AJKHPLDCLEOOuterClass.AJKHPLDCLEO.Builder addLevelInfoListBuilder() {
         return getLevelInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.AJKHPLDCLEOOuterClass.AJKHPLDCLEO.getDefaultInstance());
       }
       /**
-       * <code>repeated .AJKHPLDCLEO level_info_list = 13;</code>
+       * <code>repeated .AJKHPLDCLEO level_info_list = 3;</code>
        */
       public emu.grasscutter.net.proto.AJKHPLDCLEOOuterClass.AJKHPLDCLEO.Builder addLevelInfoListBuilder(
           int index) {
@@ -734,7 +734,7 @@ public final class AutoTimeStopDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.AJKHPLDCLEOOuterClass.AJKHPLDCLEO.getDefaultInstance());
       }
       /**
-       * <code>repeated .AJKHPLDCLEO level_info_list = 13;</code>
+       * <code>repeated .AJKHPLDCLEO level_info_list = 3;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.AJKHPLDCLEOOuterClass.AJKHPLDCLEO.Builder> 
            getLevelInfoListBuilderList() {
@@ -823,7 +823,7 @@ public final class AutoTimeStopDetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034AutoTimeStopDetailInfo.proto\032\021AJKHPLDC" +
       "LEO.proto\"?\n\026AutoTimeStopDetailInfo\022%\n\017l" +
-      "evel_info_list\030\r \003(\0132\014.AJKHPLDCLEOB=\n\031em" +
+      "evel_info_list\030\003 \003(\0132\014.AJKHPLDCLEOB=\n\031em" +
       "u.grasscutter.net.protoB AutoTimeStopDet" +
       "ailInfoOuterClassb\006proto3"
     };

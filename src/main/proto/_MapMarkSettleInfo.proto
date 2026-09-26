@@ -4,8 +4,8 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "_MapMarkSettleInfoOuterClass";
 
 message _MapMarkSettleInfo {
-	uint32 score = 8;
-	bool is_new_record = 9;
-	bool is_succ = 11;
-	uint32 level_id = 15;
+	uint32 score = 4;
+	bool is_new_record = 14;
+	bool is_succ = 15;
+	uint32 level_id = 3;
 }

@@ -19,11 +19,11 @@ public final class _MistTrialSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>map&lt;uint32, uint32&gt; LMDBPHELBDM = 7;</code>
+     * <code>map&lt;uint32, uint32&gt; LMDBPHELBDM = 1;</code>
      */
     int getLMDBPHELBDMCount();
     /**
-     * <code>map&lt;uint32, uint32&gt; LMDBPHELBDM = 7;</code>
+     * <code>map&lt;uint32, uint32&gt; LMDBPHELBDM = 1;</code>
      */
     boolean containsLMDBPHELBDM(
         int key);
@@ -34,19 +34,19 @@ public final class _MistTrialSettleInfoOuterClass {
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getLMDBPHELBDM();
     /**
-     * <code>map&lt;uint32, uint32&gt; LMDBPHELBDM = 7;</code>
+     * <code>map&lt;uint32, uint32&gt; LMDBPHELBDM = 1;</code>
      */
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getLMDBPHELBDMMap();
     /**
-     * <code>map&lt;uint32, uint32&gt; LMDBPHELBDM = 7;</code>
+     * <code>map&lt;uint32, uint32&gt; LMDBPHELBDM = 1;</code>
      */
 
     int getLMDBPHELBDMOrDefault(
         int key,
         int defaultValue);
     /**
-     * <code>map&lt;uint32, uint32&gt; LMDBPHELBDM = 7;</code>
+     * <code>map&lt;uint32, uint32&gt; LMDBPHELBDM = 1;</code>
      */
 
     int getLMDBPHELBDMOrThrow(
@@ -98,7 +98,7 @@ public final class _MistTrialSettleInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 58: {
+            case 10: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 lMDBPHELBDM_ = com.google.protobuf.MapField.newMapField(
                     LMDBPHELBDMDefaultEntryHolder.defaultEntry);
@@ -140,7 +140,7 @@ public final class _MistTrialSettleInfoOuterClass {
     protected com.google.protobuf.MapField internalGetMapField(
         int number) {
       switch (number) {
-        case 7:
+        case 1:
           return internalGetLMDBPHELBDM();
         default:
           throw new RuntimeException(
@@ -155,7 +155,7 @@ public final class _MistTrialSettleInfoOuterClass {
               emu.grasscutter.net.proto._MistTrialSettleInfoOuterClass._MistTrialSettleInfo.class, emu.grasscutter.net.proto._MistTrialSettleInfoOuterClass._MistTrialSettleInfo.Builder.class);
     }
 
-    public static final int LMDBPHELBDM_FIELD_NUMBER = 7;
+    public static final int LMDBPHELBDM_FIELD_NUMBER = 1;
     private static final class LMDBPHELBDMDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, java.lang.Integer> defaultEntry =
@@ -182,7 +182,7 @@ public final class _MistTrialSettleInfoOuterClass {
       return internalGetLMDBPHELBDM().getMap().size();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; LMDBPHELBDM = 7;</code>
+     * <code>map&lt;uint32, uint32&gt; LMDBPHELBDM = 1;</code>
      */
 
     @java.lang.Override
@@ -200,7 +200,7 @@ public final class _MistTrialSettleInfoOuterClass {
       return getLMDBPHELBDMMap();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; LMDBPHELBDM = 7;</code>
+     * <code>map&lt;uint32, uint32&gt; LMDBPHELBDM = 1;</code>
      */
     @java.lang.Override
 
@@ -208,7 +208,7 @@ public final class _MistTrialSettleInfoOuterClass {
       return internalGetLMDBPHELBDM().getMap();
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; LMDBPHELBDM = 7;</code>
+     * <code>map&lt;uint32, uint32&gt; LMDBPHELBDM = 1;</code>
      */
     @java.lang.Override
 
@@ -221,7 +221,7 @@ public final class _MistTrialSettleInfoOuterClass {
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
     /**
-     * <code>map&lt;uint32, uint32&gt; LMDBPHELBDM = 7;</code>
+     * <code>map&lt;uint32, uint32&gt; LMDBPHELBDM = 1;</code>
      */
     @java.lang.Override
 
@@ -255,7 +255,7 @@ public final class _MistTrialSettleInfoOuterClass {
           output,
           internalGetLMDBPHELBDM(),
           LMDBPHELBDMDefaultEntryHolder.defaultEntry,
-          7);
+          1);
       unknownFields.writeTo(output);
     }
 
@@ -273,7 +273,7 @@ public final class _MistTrialSettleInfoOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(7, lMDBPHELBDM__);
+            .computeMessageSize(1, lMDBPHELBDM__);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -418,7 +418,7 @@ public final class _MistTrialSettleInfoOuterClass {
       protected com.google.protobuf.MapField internalGetMapField(
           int number) {
         switch (number) {
-          case 7:
+          case 1:
             return internalGetLMDBPHELBDM();
           default:
             throw new RuntimeException(
@@ -429,7 +429,7 @@ public final class _MistTrialSettleInfoOuterClass {
       protected com.google.protobuf.MapField internalGetMutableMapField(
           int number) {
         switch (number) {
-          case 7:
+          case 1:
             return internalGetMutableLMDBPHELBDM();
           default:
             throw new RuntimeException(
@@ -599,7 +599,7 @@ public final class _MistTrialSettleInfoOuterClass {
         return internalGetLMDBPHELBDM().getMap().size();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; LMDBPHELBDM = 7;</code>
+       * <code>map&lt;uint32, uint32&gt; LMDBPHELBDM = 1;</code>
        */
 
       @java.lang.Override
@@ -617,7 +617,7 @@ public final class _MistTrialSettleInfoOuterClass {
         return getLMDBPHELBDMMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; LMDBPHELBDM = 7;</code>
+       * <code>map&lt;uint32, uint32&gt; LMDBPHELBDM = 1;</code>
        */
       @java.lang.Override
 
@@ -625,7 +625,7 @@ public final class _MistTrialSettleInfoOuterClass {
         return internalGetLMDBPHELBDM().getMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; LMDBPHELBDM = 7;</code>
+       * <code>map&lt;uint32, uint32&gt; LMDBPHELBDM = 1;</code>
        */
       @java.lang.Override
 
@@ -638,7 +638,7 @@ public final class _MistTrialSettleInfoOuterClass {
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; LMDBPHELBDM = 7;</code>
+       * <code>map&lt;uint32, uint32&gt; LMDBPHELBDM = 1;</code>
        */
       @java.lang.Override
 
@@ -659,7 +659,7 @@ public final class _MistTrialSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; LMDBPHELBDM = 7;</code>
+       * <code>map&lt;uint32, uint32&gt; LMDBPHELBDM = 1;</code>
        */
 
       public Builder removeLMDBPHELBDM(
@@ -678,7 +678,7 @@ public final class _MistTrialSettleInfoOuterClass {
         return internalGetMutableLMDBPHELBDM().getMutableMap();
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; LMDBPHELBDM = 7;</code>
+       * <code>map&lt;uint32, uint32&gt; LMDBPHELBDM = 1;</code>
        */
       public Builder putLMDBPHELBDM(
           int key,
@@ -690,7 +690,7 @@ public final class _MistTrialSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>map&lt;uint32, uint32&gt; LMDBPHELBDM = 7;</code>
+       * <code>map&lt;uint32, uint32&gt; LMDBPHELBDM = 1;</code>
        */
 
       public Builder putAllLMDBPHELBDM(
@@ -772,7 +772,7 @@ public final class _MistTrialSettleInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\032_MistTrialSettleInfo.proto\"\207\001\n\024_MistTr" +
-      "ialSettleInfo\022;\n\013LMDBPHELBDM\030\007 \003(\0132&._Mi" +
+      "ialSettleInfo\022;\n\013LMDBPHELBDM\030\001 \003(\0132&._Mi" +
       "stTrialSettleInfo.LMDBPHELBDMEntry\0322\n\020LM" +
       "DBPHELBDMEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001" +
       "(\r:\0028\001B;\n\031emu.grasscutter.net.protoB\036_Mi" +

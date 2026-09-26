@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "H5ActivityIdsNotifyOuterClass";
 
 message H5ActivityIdsNotify {
-	map<uint32, uint32> h5_activity_map = 2;
-	uint32 client_red_dot_timestamp = 3;
+	map<uint32, uint32> h5_activity_map = 12;
+	uint32 client_red_dot_timestamp = 5;
 }

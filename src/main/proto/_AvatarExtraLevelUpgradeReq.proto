@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_AvatarExtraLevelUpgradeReqOuterClass";
+
+message _AvatarExtraLevelUpgradeReq {
+	uint32 NEHEPKIDOJF = 8;
+	uint64 avatar_guid = 12;
+}

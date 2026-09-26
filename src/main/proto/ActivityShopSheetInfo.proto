@@ -5,6 +5,6 @@ option java_outer_classname = "ActivityShopSheetInfoOuterClass";
 
 message ActivityShopSheetInfo {
 	uint32 begin_time = 6;
-	uint32 sheet_id = 11;
-	uint32 end_time = 14;
+	uint32 sheet_id = 4;
+	uint32 end_time = 15;
 }

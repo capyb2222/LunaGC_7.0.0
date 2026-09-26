@@ -25,13 +25,13 @@ public final class ChangeGameTimeRspOuterClass {
     int getRetcode();
 
     /**
-     * <code>uint32 cur_game_time = 50000;</code>
+     * <code>uint32 cur_game_time = 9;</code>
      * @return The curGameTime.
      */
     int getCurGameTime();
 
     /**
-     * <code>uint32 extra_days = 50001;</code>
+     * <code>uint32 extra_days = 12;</code>
      * @return The extraDays.
      */
     int getExtraDays();
@@ -86,12 +86,12 @@ public final class ChangeGameTimeRspOuterClass {
               retcode_ = input.readInt32();
               break;
             }
-            case 400000: {
+            case 72: {
 
               curGameTime_ = input.readUInt32();
               break;
             }
-            case 400008: {
+            case 96: {
 
               extraDays_ = input.readUInt32();
               break;
@@ -139,10 +139,10 @@ public final class ChangeGameTimeRspOuterClass {
       return retcode_;
     }
 
-    public static final int CUR_GAME_TIME_FIELD_NUMBER = 50000;
+    public static final int CUR_GAME_TIME_FIELD_NUMBER = 9;
     private int curGameTime_;
     /**
-     * <code>uint32 cur_game_time = 50000;</code>
+     * <code>uint32 cur_game_time = 9;</code>
      * @return The curGameTime.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class ChangeGameTimeRspOuterClass {
       return curGameTime_;
     }
 
-    public static final int EXTRA_DAYS_FIELD_NUMBER = 50001;
+    public static final int EXTRA_DAYS_FIELD_NUMBER = 12;
     private int extraDays_;
     /**
-     * <code>uint32 extra_days = 50001;</code>
+     * <code>uint32 extra_days = 12;</code>
      * @return The extraDays.
      */
     @java.lang.Override
@@ -179,10 +179,10 @@ public final class ChangeGameTimeRspOuterClass {
         output.writeInt32(8, retcode_);
       }
       if (curGameTime_ != 0) {
-        output.writeUInt32(50000, curGameTime_);
+        output.writeUInt32(9, curGameTime_);
       }
       if (extraDays_ != 0) {
-        output.writeUInt32(50001, extraDays_);
+        output.writeUInt32(12, extraDays_);
       }
       unknownFields.writeTo(output);
     }
@@ -199,11 +199,11 @@ public final class ChangeGameTimeRspOuterClass {
       }
       if (curGameTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(50000, curGameTime_);
+          .computeUInt32Size(9, curGameTime_);
       }
       if (extraDays_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(50001, extraDays_);
+          .computeUInt32Size(12, extraDays_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -530,7 +530,7 @@ public final class ChangeGameTimeRspOuterClass {
 
       private int curGameTime_ ;
       /**
-       * <code>uint32 cur_game_time = 50000;</code>
+       * <code>uint32 cur_game_time = 9;</code>
        * @return The curGameTime.
        */
       @java.lang.Override
@@ -538,7 +538,7 @@ public final class ChangeGameTimeRspOuterClass {
         return curGameTime_;
       }
       /**
-       * <code>uint32 cur_game_time = 50000;</code>
+       * <code>uint32 cur_game_time = 9;</code>
        * @param value The curGameTime to set.
        * @return This builder for chaining.
        */
@@ -549,7 +549,7 @@ public final class ChangeGameTimeRspOuterClass {
         return this;
       }
       /**
-       * <code>uint32 cur_game_time = 50000;</code>
+       * <code>uint32 cur_game_time = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearCurGameTime() {
@@ -561,7 +561,7 @@ public final class ChangeGameTimeRspOuterClass {
 
       private int extraDays_ ;
       /**
-       * <code>uint32 extra_days = 50001;</code>
+       * <code>uint32 extra_days = 12;</code>
        * @return The extraDays.
        */
       @java.lang.Override
@@ -569,7 +569,7 @@ public final class ChangeGameTimeRspOuterClass {
         return extraDays_;
       }
       /**
-       * <code>uint32 extra_days = 50001;</code>
+       * <code>uint32 extra_days = 12;</code>
        * @param value The extraDays to set.
        * @return This builder for chaining.
        */
@@ -580,7 +580,7 @@ public final class ChangeGameTimeRspOuterClass {
         return this;
       }
       /**
-       * <code>uint32 extra_days = 50001;</code>
+       * <code>uint32 extra_days = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearExtraDays() {
@@ -656,11 +656,11 @@ public final class ChangeGameTimeRspOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\027ChangeGameTimeRsp.proto\"S\n\021ChangeGameT" +
-      "imeRsp\022\017\n\007retcode\030\010 \001(\005\022\027\n\rcur_game_time" +
-      "\030\320\206\003 \001(\r\022\024\n\nextra_days\030\321\206\003 \001(\rB8\n\031emu.gr" +
-      "asscutter.net.protoB\033ChangeGameTimeRspOu" +
-      "terClassb\006proto3"
+      "\n\027ChangeGameTimeRsp.proto\"O\n\021ChangeGameT" +
+      "imeRsp\022\017\n\007retcode\030\010 \001(\005\022\025\n\rcur_game_time" +
+      "\030\t \001(\r\022\022\n\nextra_days\030\014 \001(\rB8\n\031emu.grassc" +
+      "utter.net.protoB\033ChangeGameTimeRspOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

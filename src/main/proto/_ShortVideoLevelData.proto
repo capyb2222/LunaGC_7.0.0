@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "_ShortVideoLevelDataOuterClass";
 
 message _ShortVideoLevelData {
-	uint32 level_id = 13;
-	repeated uint64 _short_video_guid_list = 14;
+	uint32 level_id = 5;
+	repeated uint64 _short_video_guid_list = 15;
 }

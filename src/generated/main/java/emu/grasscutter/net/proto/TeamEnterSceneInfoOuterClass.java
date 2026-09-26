@@ -49,10 +49,10 @@ public final class TeamEnterSceneInfoOuterClass {
     emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder getTeamAbilityInfoOrBuilder();
 
     /**
-     * <code>float FOMPMBNENPH = 8;</code>
-     * @return The fOMPMBNENPH.
+     * <code>float _value = 8;</code>
+     * @return The value.
      */
-    float getFOMPMBNENPH();
+    float getValue();
 
     /**
      * <code>repeated .IDAKPKNODGC JFAHOBMFLFE = 11;</code>
@@ -179,7 +179,7 @@ public final class TeamEnterSceneInfoOuterClass {
             }
             case 69: {
 
-              fOMPMBNENPH_ = input.readFloat();
+              Value_ = input.readFloat();
               break;
             }
             case 82: {
@@ -291,15 +291,15 @@ public final class TeamEnterSceneInfoOuterClass {
       return getTeamAbilityInfo();
     }
 
-    public static final int FOMPMBNENPH_FIELD_NUMBER = 8;
-    private float fOMPMBNENPH_;
+    public static final int _VALUE_FIELD_NUMBER = 8;
+    private float Value_;
     /**
-     * <code>float FOMPMBNENPH = 8;</code>
-     * @return The fOMPMBNENPH.
+     * <code>float _value = 8;</code>
+     * @return The value.
      */
     @java.lang.Override
-    public float getFOMPMBNENPH() {
-      return fOMPMBNENPH_;
+    public float getValue() {
+      return Value_;
     }
 
     public static final int JFAHOBMFLFE_FIELD_NUMBER = 11;
@@ -402,8 +402,8 @@ public final class TeamEnterSceneInfoOuterClass {
       if (abilityControlBlock_ != null) {
         output.writeMessage(5, getAbilityControlBlock());
       }
-      if (fOMPMBNENPH_ != 0F) {
-        output.writeFloat(8, fOMPMBNENPH_);
+      if (Value_ != 0F) {
+        output.writeFloat(8, Value_);
       }
       if (teamAbilityInfo_ != null) {
         output.writeMessage(10, getTeamAbilityInfo());
@@ -432,9 +432,9 @@ public final class TeamEnterSceneInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(5, getAbilityControlBlock());
       }
-      if (fOMPMBNENPH_ != 0F) {
+      if (Value_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(8, fOMPMBNENPH_);
+          .computeFloatSize(8, Value_);
       }
       if (teamAbilityInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -469,9 +469,9 @@ public final class TeamEnterSceneInfoOuterClass {
         if (!getTeamAbilityInfo()
             .equals(other.getTeamAbilityInfo())) return false;
       }
-      if (java.lang.Float.floatToIntBits(getFOMPMBNENPH())
+      if (java.lang.Float.floatToIntBits(getValue())
           != java.lang.Float.floatToIntBits(
-              other.getFOMPMBNENPH())) return false;
+              other.getValue())) return false;
       if (!getJFAHOBMFLFEList()
           .equals(other.getJFAHOBMFLFEList())) return false;
       if (hasKAHECAKOMLD() != other.hasKAHECAKOMLD()) return false;
@@ -500,9 +500,9 @@ public final class TeamEnterSceneInfoOuterClass {
         hash = (37 * hash) + TEAM_ABILITY_INFO_FIELD_NUMBER;
         hash = (53 * hash) + getTeamAbilityInfo().hashCode();
       }
-      hash = (37 * hash) + FOMPMBNENPH_FIELD_NUMBER;
+      hash = (37 * hash) + _VALUE_FIELD_NUMBER;
       hash = (53 * hash) + java.lang.Float.floatToIntBits(
-          getFOMPMBNENPH());
+          getValue());
       if (getJFAHOBMFLFECount() > 0) {
         hash = (37 * hash) + JFAHOBMFLFE_FIELD_NUMBER;
         hash = (53 * hash) + getJFAHOBMFLFEList().hashCode();
@@ -659,7 +659,7 @@ public final class TeamEnterSceneInfoOuterClass {
           teamAbilityInfo_ = null;
           teamAbilityInfoBuilder_ = null;
         }
-        fOMPMBNENPH_ = 0F;
+        Value_ = 0F;
 
         if (jFAHOBMFLFEBuilder_ == null) {
           jFAHOBMFLFE_ = java.util.Collections.emptyList();
@@ -712,7 +712,7 @@ public final class TeamEnterSceneInfoOuterClass {
         } else {
           result.teamAbilityInfo_ = teamAbilityInfoBuilder_.build();
         }
-        result.fOMPMBNENPH_ = fOMPMBNENPH_;
+        result.Value_ = Value_;
         if (jFAHOBMFLFEBuilder_ == null) {
           if (((bitField0_ & 0x00000001) != 0)) {
             jFAHOBMFLFE_ = java.util.Collections.unmodifiableList(jFAHOBMFLFE_);
@@ -782,8 +782,8 @@ public final class TeamEnterSceneInfoOuterClass {
         if (other.hasTeamAbilityInfo()) {
           mergeTeamAbilityInfo(other.getTeamAbilityInfo());
         }
-        if (other.getFOMPMBNENPH() != 0F) {
-          setFOMPMBNENPH(other.getFOMPMBNENPH());
+        if (other.getValue() != 0F) {
+          setValue(other.getValue());
         }
         if (jFAHOBMFLFEBuilder_ == null) {
           if (!other.jFAHOBMFLFE_.isEmpty()) {
@@ -1085,33 +1085,33 @@ public final class TeamEnterSceneInfoOuterClass {
         return teamAbilityInfoBuilder_;
       }
 
-      private float fOMPMBNENPH_ ;
+      private float Value_ ;
       /**
-       * <code>float FOMPMBNENPH = 8;</code>
-       * @return The fOMPMBNENPH.
+       * <code>float _value = 8;</code>
+       * @return The value.
        */
       @java.lang.Override
-      public float getFOMPMBNENPH() {
-        return fOMPMBNENPH_;
+      public float getValue() {
+        return Value_;
       }
       /**
-       * <code>float FOMPMBNENPH = 8;</code>
-       * @param value The fOMPMBNENPH to set.
+       * <code>float _value = 8;</code>
+       * @param value The value to set.
        * @return This builder for chaining.
        */
-      public Builder setFOMPMBNENPH(float value) {
+      public Builder setValue(float value) {
         
-        fOMPMBNENPH_ = value;
+        Value_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>float FOMPMBNENPH = 8;</code>
+       * <code>float _value = 8;</code>
        * @return This builder for chaining.
        */
-      public Builder clearFOMPMBNENPH() {
+      public Builder clearValue() {
         
-        fOMPMBNENPH_ = 0F;
+        Value_ = 0F;
         onChanged();
         return this;
       }
@@ -1575,14 +1575,14 @@ public final class TeamEnterSceneInfoOuterClass {
       "\n\030TeamEnterSceneInfo.proto\032\031AbilityContr" +
       "olBlock.proto\032\032AbilitySyncStateInfo.prot" +
       "o\032\021IDAKPKNODGC.proto\032\021ILFPMCGGMOA.proto\"" +
-      "\356\001\n\022TeamEnterSceneInfo\0223\n\025ability_contro" +
+      "\351\001\n\022TeamEnterSceneInfo\0223\n\025ability_contro" +
       "l_block\030\005 \001(\0132\024.AbilityControlBlock\0220\n\021t" +
       "eam_ability_info\030\n \001(\0132\025.AbilitySyncStat" +
-      "eInfo\022\023\n\013FOMPMBNENPH\030\010 \001(\002\022!\n\013JFAHOBMFLF" +
-      "E\030\013 \003(\0132\014.IDAKPKNODGC\022!\n\013KAHECAKOMLD\030\002 \001" +
-      "(\0132\014.ILFPMCGGMOA\022\026\n\016team_entity_id\030\003 \001(\r" +
-      "B9\n\031emu.grasscutter.net.protoB\034TeamEnter" +
-      "SceneInfoOuterClassb\006proto3"
+      "eInfo\022\016\n\006_value\030\010 \001(\002\022!\n\013JFAHOBMFLFE\030\013 \003" +
+      "(\0132\014.IDAKPKNODGC\022!\n\013KAHECAKOMLD\030\002 \001(\0132\014." +
+      "ILFPMCGGMOA\022\026\n\016team_entity_id\030\003 \001(\rB9\n\031e" +
+      "mu.grasscutter.net.protoB\034TeamEnterScene" +
+      "InfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1597,7 +1597,7 @@ public final class TeamEnterSceneInfoOuterClass {
     internal_static_TeamEnterSceneInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_TeamEnterSceneInfo_descriptor,
-        new java.lang.String[] { "AbilityControlBlock", "TeamAbilityInfo", "FOMPMBNENPH", "JFAHOBMFLFE", "KAHECAKOMLD", "TeamEntityId", });
+        new java.lang.String[] { "AbilityControlBlock", "TeamAbilityInfo", "Value", "JFAHOBMFLFE", "KAHECAKOMLD", "TeamEntityId", });
     emu.grasscutter.net.proto.AbilityControlBlockOuterClass.getDescriptor();
     emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto.IDAKPKNODGCOuterClass.getDescriptor();

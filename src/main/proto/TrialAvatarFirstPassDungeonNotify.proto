@@ -4,5 +4,5 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "TrialAvatarFirstPassDungeonNotifyOuterClass";
 
 message TrialAvatarFirstPassDungeonNotify {
-	uint32 trial_avatar_index_id = 10;
+	uint32 trial_avatar_index_id = 2;
 }

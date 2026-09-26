@@ -19,31 +19,31 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
+     * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 2;</code>
      */
     java.util.List<emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo> 
         getFishingItemInfoListList();
     /**
-     * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
+     * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 2;</code>
      */
     emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo getFishingItemInfoList(int index);
     /**
-     * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
+     * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 2;</code>
      */
     int getFishingItemInfoListCount();
     /**
-     * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
+     * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 2;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfoOrBuilder> 
         getFishingItemInfoListOrBuilderList();
     /**
-     * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
+     * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 2;</code>
      */
     emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfoOrBuilder getFishingItemInfoListOrBuilder(
         int index);
 
     /**
-     * <code>uint32 KGPKNPNCMHA = 15;</code>
+     * <code>uint32 KGPKNPNCMHA = 13;</code>
      * @return The kGPKNPNCMHA.
      */
     int getKGPKNPNCMHA();
@@ -95,7 +95,7 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 66: {
+            case 18: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 FishingItemInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo>();
                 mutable_bitField0_ |= 0x00000001;
@@ -104,7 +104,7 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
                   input.readMessage(emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo.parser(), extensionRegistry));
               break;
             }
-            case 120: {
+            case 104: {
 
               kGPKNPNCMHA_ = input.readUInt32();
               break;
@@ -144,17 +144,17 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
               emu.grasscutter.net.proto._AquariumFishingDungeonSettleInfoOuterClass._AquariumFishingDungeonSettleInfo.class, emu.grasscutter.net.proto._AquariumFishingDungeonSettleInfoOuterClass._AquariumFishingDungeonSettleInfo.Builder.class);
     }
 
-    public static final int _FISHING_ITEM_INFO_LIST_FIELD_NUMBER = 8;
+    public static final int _FISHING_ITEM_INFO_LIST_FIELD_NUMBER = 2;
     private java.util.List<emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo> FishingItemInfoList_;
     /**
-     * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
+     * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 2;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo> getFishingItemInfoListList() {
       return FishingItemInfoList_;
     }
     /**
-     * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
+     * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 2;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfoOrBuilder> 
@@ -162,21 +162,21 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
       return FishingItemInfoList_;
     }
     /**
-     * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
+     * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 2;</code>
      */
     @java.lang.Override
     public int getFishingItemInfoListCount() {
       return FishingItemInfoList_.size();
     }
     /**
-     * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
+     * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 2;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo getFishingItemInfoList(int index) {
       return FishingItemInfoList_.get(index);
     }
     /**
-     * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
+     * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 2;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfoOrBuilder getFishingItemInfoListOrBuilder(
@@ -184,10 +184,10 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
       return FishingItemInfoList_.get(index);
     }
 
-    public static final int KGPKNPNCMHA_FIELD_NUMBER = 15;
+    public static final int KGPKNPNCMHA_FIELD_NUMBER = 13;
     private int kGPKNPNCMHA_;
     /**
-     * <code>uint32 KGPKNPNCMHA = 15;</code>
+     * <code>uint32 KGPKNPNCMHA = 13;</code>
      * @return The kGPKNPNCMHA.
      */
     @java.lang.Override
@@ -210,10 +210,10 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < FishingItemInfoList_.size(); i++) {
-        output.writeMessage(8, FishingItemInfoList_.get(i));
+        output.writeMessage(2, FishingItemInfoList_.get(i));
       }
       if (kGPKNPNCMHA_ != 0) {
-        output.writeUInt32(15, kGPKNPNCMHA_);
+        output.writeUInt32(13, kGPKNPNCMHA_);
       }
       unknownFields.writeTo(output);
     }
@@ -226,11 +226,11 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
       size = 0;
       for (int i = 0; i < FishingItemInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, FishingItemInfoList_.get(i));
+          .computeMessageSize(2, FishingItemInfoList_.get(i));
       }
       if (kGPKNPNCMHA_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, kGPKNPNCMHA_);
+          .computeUInt32Size(13, kGPKNPNCMHA_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -567,7 +567,7 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
           emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo, emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo.Builder, emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfoOrBuilder> FishingItemInfoListBuilder_;
 
       /**
-       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
+       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 2;</code>
        */
       public java.util.List<emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo> getFishingItemInfoListList() {
         if (FishingItemInfoListBuilder_ == null) {
@@ -577,7 +577,7 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
+       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 2;</code>
        */
       public int getFishingItemInfoListCount() {
         if (FishingItemInfoListBuilder_ == null) {
@@ -587,7 +587,7 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
+       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 2;</code>
        */
       public emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo getFishingItemInfoList(int index) {
         if (FishingItemInfoListBuilder_ == null) {
@@ -597,7 +597,7 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
+       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 2;</code>
        */
       public Builder setFishingItemInfoList(
           int index, emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo value) {
@@ -614,7 +614,7 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
+       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 2;</code>
        */
       public Builder setFishingItemInfoList(
           int index, emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo.Builder builderForValue) {
@@ -628,7 +628,7 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
+       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 2;</code>
        */
       public Builder addFishingItemInfoList(emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo value) {
         if (FishingItemInfoListBuilder_ == null) {
@@ -644,7 +644,7 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
+       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 2;</code>
        */
       public Builder addFishingItemInfoList(
           int index, emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo value) {
@@ -661,7 +661,7 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
+       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 2;</code>
        */
       public Builder addFishingItemInfoList(
           emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo.Builder builderForValue) {
@@ -675,7 +675,7 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
+       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 2;</code>
        */
       public Builder addFishingItemInfoList(
           int index, emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo.Builder builderForValue) {
@@ -689,7 +689,7 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
+       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 2;</code>
        */
       public Builder addAllFishingItemInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo> values) {
@@ -704,7 +704,7 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
+       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 2;</code>
        */
       public Builder clearFishingItemInfoList() {
         if (FishingItemInfoListBuilder_ == null) {
@@ -717,7 +717,7 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
+       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 2;</code>
        */
       public Builder removeFishingItemInfoList(int index) {
         if (FishingItemInfoListBuilder_ == null) {
@@ -730,14 +730,14 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
+       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 2;</code>
        */
       public emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo.Builder getFishingItemInfoListBuilder(
           int index) {
         return getFishingItemInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
+       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 2;</code>
        */
       public emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfoOrBuilder getFishingItemInfoListOrBuilder(
           int index) {
@@ -747,7 +747,7 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
+       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 2;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfoOrBuilder> 
            getFishingItemInfoListOrBuilderList() {
@@ -758,14 +758,14 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
+       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 2;</code>
        */
       public emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo.Builder addFishingItemInfoListBuilder() {
         return getFishingItemInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
+       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 2;</code>
        */
       public emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo.Builder addFishingItemInfoListBuilder(
           int index) {
@@ -773,7 +773,7 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
             index, emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 8;</code>
+       * <code>repeated ._AquariumFishingItemInfo _fishing_item_info_list = 2;</code>
        */
       public java.util.List<emu.grasscutter.net.proto._AquariumFishingItemInfoOuterClass._AquariumFishingItemInfo.Builder> 
            getFishingItemInfoListBuilderList() {
@@ -796,7 +796,7 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
 
       private int kGPKNPNCMHA_ ;
       /**
-       * <code>uint32 KGPKNPNCMHA = 15;</code>
+       * <code>uint32 KGPKNPNCMHA = 13;</code>
        * @return The kGPKNPNCMHA.
        */
       @java.lang.Override
@@ -804,7 +804,7 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
         return kGPKNPNCMHA_;
       }
       /**
-       * <code>uint32 KGPKNPNCMHA = 15;</code>
+       * <code>uint32 KGPKNPNCMHA = 13;</code>
        * @param value The kGPKNPNCMHA to set.
        * @return This builder for chaining.
        */
@@ -815,7 +815,7 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 KGPKNPNCMHA = 15;</code>
+       * <code>uint32 KGPKNPNCMHA = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearKGPKNPNCMHA() {
@@ -894,8 +894,8 @@ public final class _AquariumFishingDungeonSettleInfoOuterClass {
       "\n\'_AquariumFishingDungeonSettleInfo.prot" +
       "o\032\036_AquariumFishingItemInfo.proto\"t\n!_Aq" +
       "uariumFishingDungeonSettleInfo\022:\n\027_fishi" +
-      "ng_item_info_list\030\010 \003(\0132\031._AquariumFishi" +
-      "ngItemInfo\022\023\n\013KGPKNPNCMHA\030\017 \001(\rBH\n\031emu.g" +
+      "ng_item_info_list\030\002 \003(\0132\031._AquariumFishi" +
+      "ngItemInfo\022\023\n\013KGPKNPNCMHA\030\r \001(\rBH\n\031emu.g" +
       "rasscutter.net.protoB+_AquariumFishingDu" +
       "ngeonSettleInfoOuterClassb\006proto3"
     };

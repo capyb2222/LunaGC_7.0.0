@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "MichiaeMatsuriStageOuterClass";
 
 message MichiaeMatsuriStage {
-	bool is_open = 1;
-	uint32 open_time = 7;
-	uint32 stage_id = 13;
+	bool is_open = 5;
+	uint32 open_time = 3;
+	uint32 stage_id = 10;
 }

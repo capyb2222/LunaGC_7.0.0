@@ -331,19 +331,19 @@ public final class SceneEntityInfoOuterClass {
     emu.grasscutter.net.proto.ILFPMCGGMOAOuterClass.ILFPMCGGMOAOrBuilder getKCKNNKCAFCEOrBuilder();
 
     /**
-     * <code>.IFMIEJICEMA EEDDIJJOCFM = 25;</code>
-     * @return Whether the eEDDIJJOCFM field is set.
+     * <code>._EntityIntMotionInfo _int_motion_info = 25;</code>
+     * @return Whether the intMotionInfo field is set.
      */
-    boolean hasEEDDIJJOCFM();
+    boolean hasIntMotionInfo();
     /**
-     * <code>.IFMIEJICEMA EEDDIJJOCFM = 25;</code>
-     * @return The eEDDIJJOCFM.
+     * <code>._EntityIntMotionInfo _int_motion_info = 25;</code>
+     * @return The intMotionInfo.
      */
-    emu.grasscutter.net.proto.IFMIEJICEMAOuterClass.IFMIEJICEMA getEEDDIJJOCFM();
+    emu.grasscutter.net.proto._EntityIntMotionInfoOuterClass._EntityIntMotionInfo getIntMotionInfo();
     /**
-     * <code>.IFMIEJICEMA EEDDIJJOCFM = 25;</code>
+     * <code>._EntityIntMotionInfo _int_motion_info = 25;</code>
      */
-    emu.grasscutter.net.proto.IFMIEJICEMAOuterClass.IFMIEJICEMAOrBuilder getEEDDIJJOCFMOrBuilder();
+    emu.grasscutter.net.proto._EntityIntMotionInfoOuterClass._EntityIntMotionInfoOrBuilder getIntMotionInfoOrBuilder();
 
     /**
      * <code>uint32 LDAODDFLPGB = 26;</code>
@@ -617,14 +617,14 @@ public final class SceneEntityInfoOuterClass {
               break;
             }
             case 202: {
-              emu.grasscutter.net.proto.IFMIEJICEMAOuterClass.IFMIEJICEMA.Builder subBuilder = null;
-              if (eEDDIJJOCFM_ != null) {
-                subBuilder = eEDDIJJOCFM_.toBuilder();
+              emu.grasscutter.net.proto._EntityIntMotionInfoOuterClass._EntityIntMotionInfo.Builder subBuilder = null;
+              if (IntMotionInfo_ != null) {
+                subBuilder = IntMotionInfo_.toBuilder();
               }
-              eEDDIJJOCFM_ = input.readMessage(emu.grasscutter.net.proto.IFMIEJICEMAOuterClass.IFMIEJICEMA.parser(), extensionRegistry);
+              IntMotionInfo_ = input.readMessage(emu.grasscutter.net.proto._EntityIntMotionInfoOuterClass._EntityIntMotionInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom(eEDDIJJOCFM_);
-                eEDDIJJOCFM_ = subBuilder.buildPartial();
+                subBuilder.mergeFrom(IntMotionInfo_);
+                IntMotionInfo_ = subBuilder.buildPartial();
               }
 
               break;
@@ -1306,30 +1306,30 @@ public final class SceneEntityInfoOuterClass {
       return getKCKNNKCAFCE();
     }
 
-    public static final int EEDDIJJOCFM_FIELD_NUMBER = 25;
-    private emu.grasscutter.net.proto.IFMIEJICEMAOuterClass.IFMIEJICEMA eEDDIJJOCFM_;
+    public static final int _INT_MOTION_INFO_FIELD_NUMBER = 25;
+    private emu.grasscutter.net.proto._EntityIntMotionInfoOuterClass._EntityIntMotionInfo IntMotionInfo_;
     /**
-     * <code>.IFMIEJICEMA EEDDIJJOCFM = 25;</code>
-     * @return Whether the eEDDIJJOCFM field is set.
+     * <code>._EntityIntMotionInfo _int_motion_info = 25;</code>
+     * @return Whether the intMotionInfo field is set.
      */
     @java.lang.Override
-    public boolean hasEEDDIJJOCFM() {
-      return eEDDIJJOCFM_ != null;
+    public boolean hasIntMotionInfo() {
+      return IntMotionInfo_ != null;
     }
     /**
-     * <code>.IFMIEJICEMA EEDDIJJOCFM = 25;</code>
-     * @return The eEDDIJJOCFM.
+     * <code>._EntityIntMotionInfo _int_motion_info = 25;</code>
+     * @return The intMotionInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.IFMIEJICEMAOuterClass.IFMIEJICEMA getEEDDIJJOCFM() {
-      return eEDDIJJOCFM_ == null ? emu.grasscutter.net.proto.IFMIEJICEMAOuterClass.IFMIEJICEMA.getDefaultInstance() : eEDDIJJOCFM_;
+    public emu.grasscutter.net.proto._EntityIntMotionInfoOuterClass._EntityIntMotionInfo getIntMotionInfo() {
+      return IntMotionInfo_ == null ? emu.grasscutter.net.proto._EntityIntMotionInfoOuterClass._EntityIntMotionInfo.getDefaultInstance() : IntMotionInfo_;
     }
     /**
-     * <code>.IFMIEJICEMA EEDDIJJOCFM = 25;</code>
+     * <code>._EntityIntMotionInfo _int_motion_info = 25;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.IFMIEJICEMAOuterClass.IFMIEJICEMAOrBuilder getEEDDIJJOCFMOrBuilder() {
-      return getEEDDIJJOCFM();
+    public emu.grasscutter.net.proto._EntityIntMotionInfoOuterClass._EntityIntMotionInfoOrBuilder getIntMotionInfoOrBuilder() {
+      return getIntMotionInfo();
     }
 
     public static final int LDAODDFLPGB_FIELD_NUMBER = 26;
@@ -1443,8 +1443,8 @@ public final class SceneEntityInfoOuterClass {
       if (kCKNNKCAFCE_ != null) {
         output.writeMessage(24, getKCKNNKCAFCE());
       }
-      if (eEDDIJJOCFM_ != null) {
-        output.writeMessage(25, getEEDDIJJOCFM());
+      if (IntMotionInfo_ != null) {
+        output.writeMessage(25, getIntMotionInfo());
       }
       if (lDAODDFLPGB_ != 0) {
         output.writeUInt32(26, lDAODDFLPGB_);
@@ -1544,9 +1544,9 @@ public final class SceneEntityInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(24, getKCKNNKCAFCE());
       }
-      if (eEDDIJJOCFM_ != null) {
+      if (IntMotionInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(25, getEEDDIJJOCFM());
+          .computeMessageSize(25, getIntMotionInfo());
       }
       if (lDAODDFLPGB_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -1614,10 +1614,10 @@ public final class SceneEntityInfoOuterClass {
         if (!getKCKNNKCAFCE()
             .equals(other.getKCKNNKCAFCE())) return false;
       }
-      if (hasEEDDIJJOCFM() != other.hasEEDDIJJOCFM()) return false;
-      if (hasEEDDIJJOCFM()) {
-        if (!getEEDDIJJOCFM()
-            .equals(other.getEEDDIJJOCFM())) return false;
+      if (hasIntMotionInfo() != other.hasIntMotionInfo()) return false;
+      if (hasIntMotionInfo()) {
+        if (!getIntMotionInfo()
+            .equals(other.getIntMotionInfo())) return false;
       }
       if (getLDAODDFLPGB()
           != other.getLDAODDFLPGB()) return false;
@@ -1710,9 +1710,9 @@ public final class SceneEntityInfoOuterClass {
         hash = (37 * hash) + KCKNNKCAFCE_FIELD_NUMBER;
         hash = (53 * hash) + getKCKNNKCAFCE().hashCode();
       }
-      if (hasEEDDIJJOCFM()) {
-        hash = (37 * hash) + EEDDIJJOCFM_FIELD_NUMBER;
-        hash = (53 * hash) + getEEDDIJJOCFM().hashCode();
+      if (hasIntMotionInfo()) {
+        hash = (37 * hash) + _INT_MOTION_INFO_FIELD_NUMBER;
+        hash = (53 * hash) + getIntMotionInfo().hashCode();
       }
       hash = (37 * hash) + LDAODDFLPGB_FIELD_NUMBER;
       hash = (53 * hash) + getLDAODDFLPGB();
@@ -1946,11 +1946,11 @@ public final class SceneEntityInfoOuterClass {
           kCKNNKCAFCE_ = null;
           kCKNNKCAFCEBuilder_ = null;
         }
-        if (eEDDIJJOCFMBuilder_ == null) {
-          eEDDIJJOCFM_ = null;
+        if (IntMotionInfoBuilder_ == null) {
+          IntMotionInfo_ = null;
         } else {
-          eEDDIJJOCFM_ = null;
-          eEDDIJJOCFMBuilder_ = null;
+          IntMotionInfo_ = null;
+          IntMotionInfoBuilder_ = null;
         }
         lDAODDFLPGB_ = 0;
 
@@ -2093,10 +2093,10 @@ public final class SceneEntityInfoOuterClass {
         } else {
           result.kCKNNKCAFCE_ = kCKNNKCAFCEBuilder_.build();
         }
-        if (eEDDIJJOCFMBuilder_ == null) {
-          result.eEDDIJJOCFM_ = eEDDIJJOCFM_;
+        if (IntMotionInfoBuilder_ == null) {
+          result.IntMotionInfo_ = IntMotionInfo_;
         } else {
-          result.eEDDIJJOCFM_ = eEDDIJJOCFMBuilder_.build();
+          result.IntMotionInfo_ = IntMotionInfoBuilder_.build();
         }
         result.lDAODDFLPGB_ = lDAODDFLPGB_;
         if (dGACEKDBNKCBuilder_ == null) {
@@ -2324,8 +2324,8 @@ public final class SceneEntityInfoOuterClass {
         if (other.hasKCKNNKCAFCE()) {
           mergeKCKNNKCAFCE(other.getKCKNNKCAFCE());
         }
-        if (other.hasEEDDIJJOCFM()) {
-          mergeEEDDIJJOCFM(other.getEEDDIJJOCFM());
+        if (other.hasIntMotionInfo()) {
+          mergeIntMotionInfo(other.getIntMotionInfo());
         }
         if (other.getLDAODDFLPGB() != 0) {
           setLDAODDFLPGB(other.getLDAODDFLPGB());
@@ -5003,123 +5003,123 @@ public final class SceneEntityInfoOuterClass {
         return kCKNNKCAFCEBuilder_;
       }
 
-      private emu.grasscutter.net.proto.IFMIEJICEMAOuterClass.IFMIEJICEMA eEDDIJJOCFM_;
+      private emu.grasscutter.net.proto._EntityIntMotionInfoOuterClass._EntityIntMotionInfo IntMotionInfo_;
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.IFMIEJICEMAOuterClass.IFMIEJICEMA, emu.grasscutter.net.proto.IFMIEJICEMAOuterClass.IFMIEJICEMA.Builder, emu.grasscutter.net.proto.IFMIEJICEMAOuterClass.IFMIEJICEMAOrBuilder> eEDDIJJOCFMBuilder_;
+          emu.grasscutter.net.proto._EntityIntMotionInfoOuterClass._EntityIntMotionInfo, emu.grasscutter.net.proto._EntityIntMotionInfoOuterClass._EntityIntMotionInfo.Builder, emu.grasscutter.net.proto._EntityIntMotionInfoOuterClass._EntityIntMotionInfoOrBuilder> IntMotionInfoBuilder_;
       /**
-       * <code>.IFMIEJICEMA EEDDIJJOCFM = 25;</code>
-       * @return Whether the eEDDIJJOCFM field is set.
+       * <code>._EntityIntMotionInfo _int_motion_info = 25;</code>
+       * @return Whether the intMotionInfo field is set.
        */
-      public boolean hasEEDDIJJOCFM() {
-        return eEDDIJJOCFMBuilder_ != null || eEDDIJJOCFM_ != null;
+      public boolean hasIntMotionInfo() {
+        return IntMotionInfoBuilder_ != null || IntMotionInfo_ != null;
       }
       /**
-       * <code>.IFMIEJICEMA EEDDIJJOCFM = 25;</code>
-       * @return The eEDDIJJOCFM.
+       * <code>._EntityIntMotionInfo _int_motion_info = 25;</code>
+       * @return The intMotionInfo.
        */
-      public emu.grasscutter.net.proto.IFMIEJICEMAOuterClass.IFMIEJICEMA getEEDDIJJOCFM() {
-        if (eEDDIJJOCFMBuilder_ == null) {
-          return eEDDIJJOCFM_ == null ? emu.grasscutter.net.proto.IFMIEJICEMAOuterClass.IFMIEJICEMA.getDefaultInstance() : eEDDIJJOCFM_;
+      public emu.grasscutter.net.proto._EntityIntMotionInfoOuterClass._EntityIntMotionInfo getIntMotionInfo() {
+        if (IntMotionInfoBuilder_ == null) {
+          return IntMotionInfo_ == null ? emu.grasscutter.net.proto._EntityIntMotionInfoOuterClass._EntityIntMotionInfo.getDefaultInstance() : IntMotionInfo_;
         } else {
-          return eEDDIJJOCFMBuilder_.getMessage();
+          return IntMotionInfoBuilder_.getMessage();
         }
       }
       /**
-       * <code>.IFMIEJICEMA EEDDIJJOCFM = 25;</code>
+       * <code>._EntityIntMotionInfo _int_motion_info = 25;</code>
        */
-      public Builder setEEDDIJJOCFM(emu.grasscutter.net.proto.IFMIEJICEMAOuterClass.IFMIEJICEMA value) {
-        if (eEDDIJJOCFMBuilder_ == null) {
+      public Builder setIntMotionInfo(emu.grasscutter.net.proto._EntityIntMotionInfoOuterClass._EntityIntMotionInfo value) {
+        if (IntMotionInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
           }
-          eEDDIJJOCFM_ = value;
+          IntMotionInfo_ = value;
           onChanged();
         } else {
-          eEDDIJJOCFMBuilder_.setMessage(value);
+          IntMotionInfoBuilder_.setMessage(value);
         }
 
         return this;
       }
       /**
-       * <code>.IFMIEJICEMA EEDDIJJOCFM = 25;</code>
+       * <code>._EntityIntMotionInfo _int_motion_info = 25;</code>
        */
-      public Builder setEEDDIJJOCFM(
-          emu.grasscutter.net.proto.IFMIEJICEMAOuterClass.IFMIEJICEMA.Builder builderForValue) {
-        if (eEDDIJJOCFMBuilder_ == null) {
-          eEDDIJJOCFM_ = builderForValue.build();
+      public Builder setIntMotionInfo(
+          emu.grasscutter.net.proto._EntityIntMotionInfoOuterClass._EntityIntMotionInfo.Builder builderForValue) {
+        if (IntMotionInfoBuilder_ == null) {
+          IntMotionInfo_ = builderForValue.build();
           onChanged();
         } else {
-          eEDDIJJOCFMBuilder_.setMessage(builderForValue.build());
+          IntMotionInfoBuilder_.setMessage(builderForValue.build());
         }
 
         return this;
       }
       /**
-       * <code>.IFMIEJICEMA EEDDIJJOCFM = 25;</code>
+       * <code>._EntityIntMotionInfo _int_motion_info = 25;</code>
        */
-      public Builder mergeEEDDIJJOCFM(emu.grasscutter.net.proto.IFMIEJICEMAOuterClass.IFMIEJICEMA value) {
-        if (eEDDIJJOCFMBuilder_ == null) {
-          if (eEDDIJJOCFM_ != null) {
-            eEDDIJJOCFM_ =
-              emu.grasscutter.net.proto.IFMIEJICEMAOuterClass.IFMIEJICEMA.newBuilder(eEDDIJJOCFM_).mergeFrom(value).buildPartial();
+      public Builder mergeIntMotionInfo(emu.grasscutter.net.proto._EntityIntMotionInfoOuterClass._EntityIntMotionInfo value) {
+        if (IntMotionInfoBuilder_ == null) {
+          if (IntMotionInfo_ != null) {
+            IntMotionInfo_ =
+              emu.grasscutter.net.proto._EntityIntMotionInfoOuterClass._EntityIntMotionInfo.newBuilder(IntMotionInfo_).mergeFrom(value).buildPartial();
           } else {
-            eEDDIJJOCFM_ = value;
+            IntMotionInfo_ = value;
           }
           onChanged();
         } else {
-          eEDDIJJOCFMBuilder_.mergeFrom(value);
+          IntMotionInfoBuilder_.mergeFrom(value);
         }
 
         return this;
       }
       /**
-       * <code>.IFMIEJICEMA EEDDIJJOCFM = 25;</code>
+       * <code>._EntityIntMotionInfo _int_motion_info = 25;</code>
        */
-      public Builder clearEEDDIJJOCFM() {
-        if (eEDDIJJOCFMBuilder_ == null) {
-          eEDDIJJOCFM_ = null;
+      public Builder clearIntMotionInfo() {
+        if (IntMotionInfoBuilder_ == null) {
+          IntMotionInfo_ = null;
           onChanged();
         } else {
-          eEDDIJJOCFM_ = null;
-          eEDDIJJOCFMBuilder_ = null;
+          IntMotionInfo_ = null;
+          IntMotionInfoBuilder_ = null;
         }
 
         return this;
       }
       /**
-       * <code>.IFMIEJICEMA EEDDIJJOCFM = 25;</code>
+       * <code>._EntityIntMotionInfo _int_motion_info = 25;</code>
        */
-      public emu.grasscutter.net.proto.IFMIEJICEMAOuterClass.IFMIEJICEMA.Builder getEEDDIJJOCFMBuilder() {
+      public emu.grasscutter.net.proto._EntityIntMotionInfoOuterClass._EntityIntMotionInfo.Builder getIntMotionInfoBuilder() {
         
         onChanged();
-        return getEEDDIJJOCFMFieldBuilder().getBuilder();
+        return getIntMotionInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>.IFMIEJICEMA EEDDIJJOCFM = 25;</code>
+       * <code>._EntityIntMotionInfo _int_motion_info = 25;</code>
        */
-      public emu.grasscutter.net.proto.IFMIEJICEMAOuterClass.IFMIEJICEMAOrBuilder getEEDDIJJOCFMOrBuilder() {
-        if (eEDDIJJOCFMBuilder_ != null) {
-          return eEDDIJJOCFMBuilder_.getMessageOrBuilder();
+      public emu.grasscutter.net.proto._EntityIntMotionInfoOuterClass._EntityIntMotionInfoOrBuilder getIntMotionInfoOrBuilder() {
+        if (IntMotionInfoBuilder_ != null) {
+          return IntMotionInfoBuilder_.getMessageOrBuilder();
         } else {
-          return eEDDIJJOCFM_ == null ?
-              emu.grasscutter.net.proto.IFMIEJICEMAOuterClass.IFMIEJICEMA.getDefaultInstance() : eEDDIJJOCFM_;
+          return IntMotionInfo_ == null ?
+              emu.grasscutter.net.proto._EntityIntMotionInfoOuterClass._EntityIntMotionInfo.getDefaultInstance() : IntMotionInfo_;
         }
       }
       /**
-       * <code>.IFMIEJICEMA EEDDIJJOCFM = 25;</code>
+       * <code>._EntityIntMotionInfo _int_motion_info = 25;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.IFMIEJICEMAOuterClass.IFMIEJICEMA, emu.grasscutter.net.proto.IFMIEJICEMAOuterClass.IFMIEJICEMA.Builder, emu.grasscutter.net.proto.IFMIEJICEMAOuterClass.IFMIEJICEMAOrBuilder> 
-          getEEDDIJJOCFMFieldBuilder() {
-        if (eEDDIJJOCFMBuilder_ == null) {
-          eEDDIJJOCFMBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.IFMIEJICEMAOuterClass.IFMIEJICEMA, emu.grasscutter.net.proto.IFMIEJICEMAOuterClass.IFMIEJICEMA.Builder, emu.grasscutter.net.proto.IFMIEJICEMAOuterClass.IFMIEJICEMAOrBuilder>(
-                  getEEDDIJJOCFM(),
+          emu.grasscutter.net.proto._EntityIntMotionInfoOuterClass._EntityIntMotionInfo, emu.grasscutter.net.proto._EntityIntMotionInfoOuterClass._EntityIntMotionInfo.Builder, emu.grasscutter.net.proto._EntityIntMotionInfoOuterClass._EntityIntMotionInfoOrBuilder> 
+          getIntMotionInfoFieldBuilder() {
+        if (IntMotionInfoBuilder_ == null) {
+          IntMotionInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              emu.grasscutter.net.proto._EntityIntMotionInfoOuterClass._EntityIntMotionInfo, emu.grasscutter.net.proto._EntityIntMotionInfoOuterClass._EntityIntMotionInfo.Builder, emu.grasscutter.net.proto._EntityIntMotionInfoOuterClass._EntityIntMotionInfoOrBuilder>(
+                  getIntMotionInfo(),
                   getParentForChildren(),
                   isClean());
-          eEDDIJJOCFM_ = null;
+          IntMotionInfo_ = null;
         }
-        return eEDDIJJOCFMBuilder_;
+        return IntMotionInfoBuilder_;
       }
 
       private int lDAODDFLPGB_ ;
@@ -5342,35 +5342,35 @@ public final class SceneEntityInfoOuterClass {
       "erValueInfoPair.proto\032\031EntityAuthorityIn" +
       "fo.proto\032\026EntityClientData.proto\032\033Entity" +
       "EnvironmentInfo.proto\032\023FightPropPair.pro" +
-      "to\032\021IFMIEJICEMA.proto\032\021ILFPMCGGMOA.proto" +
-      "\032\021JCCEBIEEGFL.proto\032\020MotionInfo.proto\032\016P" +
-      "ropPair.proto\032\024ProtEntityType.proto\032\025Sce" +
-      "neAvatarInfo.proto\032\025SceneGadgetInfo.prot" +
-      "o\032\026SceneMonsterInfo.proto\032\022SceneNpcInfo." +
-      "proto\032\020ServerBuff.proto\"\302\006\n\017SceneEntityI" +
-      "nfo\022\"\n\006avatar\030\n \001(\0132\020.SceneAvatarInfoH\000\022" +
-      "$\n\007monster\030\013 \001(\0132\021.SceneMonsterInfoH\000\022\034\n" +
-      "\003npc\030\014 \001(\0132\r.SceneNpcInfoH\000\022\"\n\006gadget\030\r " +
-      "\001(\0132\020.SceneGadgetInfoH\000\022$\n\013entity_type\030\001" +
-      " \001(\0162\017.ProtEntityType\022\021\n\tentity_id\030\002 \001(\r" +
-      "\022\014\n\004name\030\003 \001(\t\022 \n\013motion_info\030\004 \001(\0132\013.Mo" +
-      "tionInfo\022\034\n\tprop_list\030\005 \003(\0132\t.PropPair\022\'" +
-      "\n\017fight_prop_list\030\006 \003(\0132\016.FightPropPair\022" +
-      "\022\n\nlife_state\030\007 \001(\r\022;\n\022animator_para_lis" +
-      "t\030\t \003(\0132\037.AnimatorParameterValueInfoPair" +
-      "\022\037\n\027last_move_scene_time_ms\030\021 \001(\r\022\036\n\026las" +
-      "t_move_reliable_seq\030\022 \001(\r\022-\n\022entity_clie" +
-      "nt_data\030\023 \001(\0132\021.EntityClientData\022<\n\034enti" +
-      "ty_environment_info_list\030\024 \003(\0132\026.EntityE" +
-      "nvironmentInfo\0223\n\025entity_authority_info\030" +
-      "\025 \001(\0132\024.EntityAuthorityInfo\022\020\n\010tag_list\030" +
-      "\026 \003(\t\022%\n\020server_buff_list\030\027 \003(\0132\013.Server" +
-      "Buff\022!\n\013KCKNNKCAFCE\030\030 \001(\0132\014.ILFPMCGGMOA\022" +
-      "!\n\013EEDDIJJOCFM\030\031 \001(\0132\014.IFMIEJICEMA\022\023\n\013LD" +
-      "AODDFLPGB\030\032 \001(\r\022!\n\013DGACEKDBNKC\030\033 \001(\0132\014.J" +
-      "CCEBIEEGFLB\010\n\006entityB6\n\031emu.grasscutter." +
-      "net.protoB\031SceneEntityInfoOuterClassb\006pr" +
-      "oto3"
+      "to\032\032_EntityIntMotionInfo.proto\032\021ILFPMCGG" +
+      "MOA.proto\032\021JCCEBIEEGFL.proto\032\020MotionInfo" +
+      ".proto\032\016PropPair.proto\032\024ProtEntityType.p" +
+      "roto\032\025SceneAvatarInfo.proto\032\025SceneGadget" +
+      "Info.proto\032\026SceneMonsterInfo.proto\032\022Scen" +
+      "eNpcInfo.proto\032\020ServerBuff.proto\"\320\006\n\017Sce" +
+      "neEntityInfo\022\"\n\006avatar\030\n \001(\0132\020.SceneAvat" +
+      "arInfoH\000\022$\n\007monster\030\013 \001(\0132\021.SceneMonster" +
+      "InfoH\000\022\034\n\003npc\030\014 \001(\0132\r.SceneNpcInfoH\000\022\"\n\006" +
+      "gadget\030\r \001(\0132\020.SceneGadgetInfoH\000\022$\n\013enti" +
+      "ty_type\030\001 \001(\0162\017.ProtEntityType\022\021\n\tentity" +
+      "_id\030\002 \001(\r\022\014\n\004name\030\003 \001(\t\022 \n\013motion_info\030\004" +
+      " \001(\0132\013.MotionInfo\022\034\n\tprop_list\030\005 \003(\0132\t.P" +
+      "ropPair\022\'\n\017fight_prop_list\030\006 \003(\0132\016.Fight" +
+      "PropPair\022\022\n\nlife_state\030\007 \001(\r\022;\n\022animator" +
+      "_para_list\030\t \003(\0132\037.AnimatorParameterValu" +
+      "eInfoPair\022\037\n\027last_move_scene_time_ms\030\021 \001" +
+      "(\r\022\036\n\026last_move_reliable_seq\030\022 \001(\r\022-\n\022en" +
+      "tity_client_data\030\023 \001(\0132\021.EntityClientDat" +
+      "a\022<\n\034entity_environment_info_list\030\024 \003(\0132" +
+      "\026.EntityEnvironmentInfo\0223\n\025entity_author" +
+      "ity_info\030\025 \001(\0132\024.EntityAuthorityInfo\022\020\n\010" +
+      "tag_list\030\026 \003(\t\022%\n\020server_buff_list\030\027 \003(\013" +
+      "2\013.ServerBuff\022!\n\013KCKNNKCAFCE\030\030 \001(\0132\014.ILF" +
+      "PMCGGMOA\022/\n\020_int_motion_info\030\031 \001(\0132\025._En" +
+      "tityIntMotionInfo\022\023\n\013LDAODDFLPGB\030\032 \001(\r\022!" +
+      "\n\013DGACEKDBNKC\030\033 \001(\0132\014.JCCEBIEEGFLB\010\n\006ent" +
+      "ityB6\n\031emu.grasscutter.net.protoB\031SceneE" +
+      "ntityInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -5380,7 +5380,7 @@ public final class SceneEntityInfoOuterClass {
           emu.grasscutter.net.proto.EntityClientDataOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.EntityEnvironmentInfoOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.FightPropPairOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.IFMIEJICEMAOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto._EntityIntMotionInfoOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.ILFPMCGGMOAOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.JCCEBIEEGFLOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.MotionInfoOuterClass.getDescriptor(),
@@ -5397,13 +5397,13 @@ public final class SceneEntityInfoOuterClass {
     internal_static_SceneEntityInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_SceneEntityInfo_descriptor,
-        new java.lang.String[] { "Avatar", "Monster", "Npc", "Gadget", "EntityType", "EntityId", "Name", "MotionInfo", "PropList", "FightPropList", "LifeState", "AnimatorParaList", "LastMoveSceneTimeMs", "LastMoveReliableSeq", "EntityClientData", "EntityEnvironmentInfoList", "EntityAuthorityInfo", "TagList", "ServerBuffList", "KCKNNKCAFCE", "EEDDIJJOCFM", "LDAODDFLPGB", "DGACEKDBNKC", "Entity", });
+        new java.lang.String[] { "Avatar", "Monster", "Npc", "Gadget", "EntityType", "EntityId", "Name", "MotionInfo", "PropList", "FightPropList", "LifeState", "AnimatorParaList", "LastMoveSceneTimeMs", "LastMoveReliableSeq", "EntityClientData", "EntityEnvironmentInfoList", "EntityAuthorityInfo", "TagList", "ServerBuffList", "KCKNNKCAFCE", "IntMotionInfo", "LDAODDFLPGB", "DGACEKDBNKC", "Entity", });
     emu.grasscutter.net.proto.AnimatorParameterValueInfoPairOuterClass.getDescriptor();
     emu.grasscutter.net.proto.EntityAuthorityInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto.EntityClientDataOuterClass.getDescriptor();
     emu.grasscutter.net.proto.EntityEnvironmentInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto.FightPropPairOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.IFMIEJICEMAOuterClass.getDescriptor();
+    emu.grasscutter.net.proto._EntityIntMotionInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto.ILFPMCGGMOAOuterClass.getDescriptor();
     emu.grasscutter.net.proto.JCCEBIEEGFLOuterClass.getDescriptor();
     emu.grasscutter.net.proto.MotionInfoOuterClass.getDescriptor();

@@ -8,8 +8,8 @@ import "FMNPNEKAICI.proto";
 import "NPLDPCGLKMK.proto";
 
 message FilmfestDetailInfo {
-	repeated DKKMKBDDLOJ fgflpokjjkh = 5;
-	bool cpaagmfkcao = 9;
-	repeated NPLDPCGLKMK OFIOKIABKNN = 11;
-	repeated FMNPNEKAICI HGNLKDCGLBO = 12;
+	repeated DKKMKBDDLOJ fgflpokjjkh = 8;
+	bool cpaagmfkcao = 1;
+	repeated NPLDPCGLKMK OFIOKIABKNN = 14;
+	repeated FMNPNEKAICI HGNLKDCGLBO = 4;
 }

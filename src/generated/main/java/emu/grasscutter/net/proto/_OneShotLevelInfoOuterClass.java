@@ -19,7 +19,7 @@ public final class _OneShotLevelInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 IDCILBFEFIF = 6;</code>
+     * <code>uint32 IDCILBFEFIF = 5;</code>
      * @return The iDCILBFEFIF.
      */
     int getIDCILBFEFIF();
@@ -69,7 +69,7 @@ public final class _OneShotLevelInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
+            case 40: {
 
               iDCILBFEFIF_ = input.readUInt32();
               break;
@@ -106,10 +106,10 @@ public final class _OneShotLevelInfoOuterClass {
               emu.grasscutter.net.proto._OneShotLevelInfoOuterClass._OneShotLevelInfo.class, emu.grasscutter.net.proto._OneShotLevelInfoOuterClass._OneShotLevelInfo.Builder.class);
     }
 
-    public static final int IDCILBFEFIF_FIELD_NUMBER = 6;
+    public static final int IDCILBFEFIF_FIELD_NUMBER = 5;
     private int iDCILBFEFIF_;
     /**
-     * <code>uint32 IDCILBFEFIF = 6;</code>
+     * <code>uint32 IDCILBFEFIF = 5;</code>
      * @return The iDCILBFEFIF.
      */
     @java.lang.Override
@@ -132,7 +132,7 @@ public final class _OneShotLevelInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (iDCILBFEFIF_ != 0) {
-        output.writeUInt32(6, iDCILBFEFIF_);
+        output.writeUInt32(5, iDCILBFEFIF_);
       }
       unknownFields.writeTo(output);
     }
@@ -145,7 +145,7 @@ public final class _OneShotLevelInfoOuterClass {
       size = 0;
       if (iDCILBFEFIF_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, iDCILBFEFIF_);
+          .computeUInt32Size(5, iDCILBFEFIF_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -421,7 +421,7 @@ public final class _OneShotLevelInfoOuterClass {
 
       private int iDCILBFEFIF_ ;
       /**
-       * <code>uint32 IDCILBFEFIF = 6;</code>
+       * <code>uint32 IDCILBFEFIF = 5;</code>
        * @return The iDCILBFEFIF.
        */
       @java.lang.Override
@@ -429,7 +429,7 @@ public final class _OneShotLevelInfoOuterClass {
         return iDCILBFEFIF_;
       }
       /**
-       * <code>uint32 IDCILBFEFIF = 6;</code>
+       * <code>uint32 IDCILBFEFIF = 5;</code>
        * @param value The iDCILBFEFIF to set.
        * @return This builder for chaining.
        */
@@ -440,7 +440,7 @@ public final class _OneShotLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 IDCILBFEFIF = 6;</code>
+       * <code>uint32 IDCILBFEFIF = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearIDCILBFEFIF() {
@@ -517,7 +517,7 @@ public final class _OneShotLevelInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\027_OneShotLevelInfo.proto\"(\n\021_OneShotLev" +
-      "elInfo\022\023\n\013IDCILBFEFIF\030\006 \001(\rB8\n\031emu.grass" +
+      "elInfo\022\023\n\013IDCILBFEFIF\030\005 \001(\rB8\n\031emu.grass" +
       "cutter.net.protoB\033_OneShotLevelInfoOuter" +
       "Classb\006proto3"
     };

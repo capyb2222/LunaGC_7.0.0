@@ -6,7 +6,7 @@ option java_outer_classname = "BirdBallDetailInfoOuterClass";
 import "CPAPGLMOHIO.proto";
 
 message BirdBallDetailInfo {
-	repeated CPAPGLMOHIO micfncjpgim = 2;
-	uint32 ibhhmnemdlk = 12;
-	repeated CPAPGLMOHIO inhailmbbld = 14;
+	repeated CPAPGLMOHIO micfncjpgim = 50000;
+	uint32 ibhhmnemdlk = 8;
+	repeated CPAPGLMOHIO inhailmbbld = 50001;
 }

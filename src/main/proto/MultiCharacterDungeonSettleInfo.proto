@@ -6,10 +6,10 @@ option java_outer_classname = "MultiCharacterDungeonSettleInfoOuterClass";
 import "IEDLOHFOJJB.proto";
 
 message MultiCharacterDungeonSettleInfo {
-	uint32 level_id = 3;
+	uint32 level_id = 1;
 	uint32 stage_id = 4;
-	repeated uint32 ajfidjinpll = 5;
-	repeated IEDLOHFOJJB team_info_list = 7;
-	uint32 difficulty = 9;
-	bool is_new_record = 14;
+	repeated uint32 ajfidjinpll = 15;
+	repeated IEDLOHFOJJB team_info_list = 11;
+	uint32 difficulty = 10;
+	bool is_new_record = 7;
 }

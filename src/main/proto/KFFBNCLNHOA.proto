@@ -6,6 +6,6 @@ option java_outer_classname = "KFFBNCLNHOAOuterClass";
 import "SocialShowAvatarInfo.proto";
 
 message KFFBNCLNHOA {
-	uint32 trial_avatar_id = 7;
-	SocialShowAvatarInfo FGGLBLAFNLD = 14;
+	uint32 trial_avatar_id = 1;
+	SocialShowAvatarInfo FGGLBLAFNLD = 10;
 }

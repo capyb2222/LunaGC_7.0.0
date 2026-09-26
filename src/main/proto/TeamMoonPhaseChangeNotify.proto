@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "TeamMoonPhaseChangeNotifyOuterClass";
 
 message TeamMoonPhaseChangeNotify {
-	uint32 LIAGEGINEPH = 2;
-	uint32 _moon_phase_level = 4;
-	bool _is_activate_damselette_free_moon_phase = 8;
-	uint32 _moon_phase_type = 10;
-	uint64 LHLFHFACGNL = 12;
+	uint32 LIAGEGINEPH = 50000;
+	uint32 _moon_phase_level = 50001;
+	bool _is_activate_damselette_free_moon_phase = 3;
+	uint32 _moon_phase_type = 50002;
+	uint64 LHLFHFACGNL = 8;
 }

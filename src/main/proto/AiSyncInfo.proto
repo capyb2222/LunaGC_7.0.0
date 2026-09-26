@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "AiSyncInfoOuterClass";
 
 message AiSyncInfo {
-	bool COFJBBPPANA = 7;
-	uint32 entity_id = 10;
-	bool MBNNMNHEDAB = 14;
+	bool COFJBBPPANA = 50000;
+	uint32 entity_id = 13;
+	bool MBNNMNHEDAB = 50001;
 }

@@ -25,25 +25,25 @@ public final class CookDataNotifyOuterClass {
     int getGrade();
 
     /**
-     * <code>repeated .CookRecipeData recipe_data_list = 6;</code>
+     * <code>repeated .CookRecipeData recipe_data_list = 14;</code>
      */
     java.util.List<emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData> 
         getRecipeDataListList();
     /**
-     * <code>repeated .CookRecipeData recipe_data_list = 6;</code>
+     * <code>repeated .CookRecipeData recipe_data_list = 14;</code>
      */
     emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData getRecipeDataList(int index);
     /**
-     * <code>repeated .CookRecipeData recipe_data_list = 6;</code>
+     * <code>repeated .CookRecipeData recipe_data_list = 14;</code>
      */
     int getRecipeDataListCount();
     /**
-     * <code>repeated .CookRecipeData recipe_data_list = 6;</code>
+     * <code>repeated .CookRecipeData recipe_data_list = 14;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeDataOrBuilder> 
         getRecipeDataListOrBuilderList();
     /**
-     * <code>repeated .CookRecipeData recipe_data_list = 6;</code>
+     * <code>repeated .CookRecipeData recipe_data_list = 14;</code>
      */
     emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeDataOrBuilder getRecipeDataListOrBuilder(
         int index);
@@ -100,7 +100,7 @@ public final class CookDataNotifyOuterClass {
               grade_ = input.readUInt32();
               break;
             }
-            case 50: {
+            case 114: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 recipeDataList_ = new java.util.ArrayList<emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData>();
                 mutable_bitField0_ |= 0x00000001;
@@ -155,17 +155,17 @@ public final class CookDataNotifyOuterClass {
       return grade_;
     }
 
-    public static final int RECIPE_DATA_LIST_FIELD_NUMBER = 6;
+    public static final int RECIPE_DATA_LIST_FIELD_NUMBER = 14;
     private java.util.List<emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData> recipeDataList_;
     /**
-     * <code>repeated .CookRecipeData recipe_data_list = 6;</code>
+     * <code>repeated .CookRecipeData recipe_data_list = 14;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData> getRecipeDataListList() {
       return recipeDataList_;
     }
     /**
-     * <code>repeated .CookRecipeData recipe_data_list = 6;</code>
+     * <code>repeated .CookRecipeData recipe_data_list = 14;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeDataOrBuilder> 
@@ -173,21 +173,21 @@ public final class CookDataNotifyOuterClass {
       return recipeDataList_;
     }
     /**
-     * <code>repeated .CookRecipeData recipe_data_list = 6;</code>
+     * <code>repeated .CookRecipeData recipe_data_list = 14;</code>
      */
     @java.lang.Override
     public int getRecipeDataListCount() {
       return recipeDataList_.size();
     }
     /**
-     * <code>repeated .CookRecipeData recipe_data_list = 6;</code>
+     * <code>repeated .CookRecipeData recipe_data_list = 14;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData getRecipeDataList(int index) {
       return recipeDataList_.get(index);
     }
     /**
-     * <code>repeated .CookRecipeData recipe_data_list = 6;</code>
+     * <code>repeated .CookRecipeData recipe_data_list = 14;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeDataOrBuilder getRecipeDataListOrBuilder(
@@ -213,7 +213,7 @@ public final class CookDataNotifyOuterClass {
         output.writeUInt32(1, grade_);
       }
       for (int i = 0; i < recipeDataList_.size(); i++) {
-        output.writeMessage(6, recipeDataList_.get(i));
+        output.writeMessage(14, recipeDataList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -230,7 +230,7 @@ public final class CookDataNotifyOuterClass {
       }
       for (int i = 0; i < recipeDataList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, recipeDataList_.get(i));
+          .computeMessageSize(14, recipeDataList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -598,7 +598,7 @@ public final class CookDataNotifyOuterClass {
           emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData, emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData.Builder, emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeDataOrBuilder> recipeDataListBuilder_;
 
       /**
-       * <code>repeated .CookRecipeData recipe_data_list = 6;</code>
+       * <code>repeated .CookRecipeData recipe_data_list = 14;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData> getRecipeDataListList() {
         if (recipeDataListBuilder_ == null) {
@@ -608,7 +608,7 @@ public final class CookDataNotifyOuterClass {
         }
       }
       /**
-       * <code>repeated .CookRecipeData recipe_data_list = 6;</code>
+       * <code>repeated .CookRecipeData recipe_data_list = 14;</code>
        */
       public int getRecipeDataListCount() {
         if (recipeDataListBuilder_ == null) {
@@ -618,7 +618,7 @@ public final class CookDataNotifyOuterClass {
         }
       }
       /**
-       * <code>repeated .CookRecipeData recipe_data_list = 6;</code>
+       * <code>repeated .CookRecipeData recipe_data_list = 14;</code>
        */
       public emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData getRecipeDataList(int index) {
         if (recipeDataListBuilder_ == null) {
@@ -628,7 +628,7 @@ public final class CookDataNotifyOuterClass {
         }
       }
       /**
-       * <code>repeated .CookRecipeData recipe_data_list = 6;</code>
+       * <code>repeated .CookRecipeData recipe_data_list = 14;</code>
        */
       public Builder setRecipeDataList(
           int index, emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData value) {
@@ -645,7 +645,7 @@ public final class CookDataNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CookRecipeData recipe_data_list = 6;</code>
+       * <code>repeated .CookRecipeData recipe_data_list = 14;</code>
        */
       public Builder setRecipeDataList(
           int index, emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData.Builder builderForValue) {
@@ -659,7 +659,7 @@ public final class CookDataNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CookRecipeData recipe_data_list = 6;</code>
+       * <code>repeated .CookRecipeData recipe_data_list = 14;</code>
        */
       public Builder addRecipeDataList(emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData value) {
         if (recipeDataListBuilder_ == null) {
@@ -675,7 +675,7 @@ public final class CookDataNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CookRecipeData recipe_data_list = 6;</code>
+       * <code>repeated .CookRecipeData recipe_data_list = 14;</code>
        */
       public Builder addRecipeDataList(
           int index, emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData value) {
@@ -692,7 +692,7 @@ public final class CookDataNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CookRecipeData recipe_data_list = 6;</code>
+       * <code>repeated .CookRecipeData recipe_data_list = 14;</code>
        */
       public Builder addRecipeDataList(
           emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData.Builder builderForValue) {
@@ -706,7 +706,7 @@ public final class CookDataNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CookRecipeData recipe_data_list = 6;</code>
+       * <code>repeated .CookRecipeData recipe_data_list = 14;</code>
        */
       public Builder addRecipeDataList(
           int index, emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData.Builder builderForValue) {
@@ -720,7 +720,7 @@ public final class CookDataNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CookRecipeData recipe_data_list = 6;</code>
+       * <code>repeated .CookRecipeData recipe_data_list = 14;</code>
        */
       public Builder addAllRecipeDataList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData> values) {
@@ -735,7 +735,7 @@ public final class CookDataNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CookRecipeData recipe_data_list = 6;</code>
+       * <code>repeated .CookRecipeData recipe_data_list = 14;</code>
        */
       public Builder clearRecipeDataList() {
         if (recipeDataListBuilder_ == null) {
@@ -748,7 +748,7 @@ public final class CookDataNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CookRecipeData recipe_data_list = 6;</code>
+       * <code>repeated .CookRecipeData recipe_data_list = 14;</code>
        */
       public Builder removeRecipeDataList(int index) {
         if (recipeDataListBuilder_ == null) {
@@ -761,14 +761,14 @@ public final class CookDataNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CookRecipeData recipe_data_list = 6;</code>
+       * <code>repeated .CookRecipeData recipe_data_list = 14;</code>
        */
       public emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData.Builder getRecipeDataListBuilder(
           int index) {
         return getRecipeDataListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .CookRecipeData recipe_data_list = 6;</code>
+       * <code>repeated .CookRecipeData recipe_data_list = 14;</code>
        */
       public emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeDataOrBuilder getRecipeDataListOrBuilder(
           int index) {
@@ -778,7 +778,7 @@ public final class CookDataNotifyOuterClass {
         }
       }
       /**
-       * <code>repeated .CookRecipeData recipe_data_list = 6;</code>
+       * <code>repeated .CookRecipeData recipe_data_list = 14;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeDataOrBuilder> 
            getRecipeDataListOrBuilderList() {
@@ -789,14 +789,14 @@ public final class CookDataNotifyOuterClass {
         }
       }
       /**
-       * <code>repeated .CookRecipeData recipe_data_list = 6;</code>
+       * <code>repeated .CookRecipeData recipe_data_list = 14;</code>
        */
       public emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData.Builder addRecipeDataListBuilder() {
         return getRecipeDataListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData.getDefaultInstance());
       }
       /**
-       * <code>repeated .CookRecipeData recipe_data_list = 6;</code>
+       * <code>repeated .CookRecipeData recipe_data_list = 14;</code>
        */
       public emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData.Builder addRecipeDataListBuilder(
           int index) {
@@ -804,7 +804,7 @@ public final class CookDataNotifyOuterClass {
             index, emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData.getDefaultInstance());
       }
       /**
-       * <code>repeated .CookRecipeData recipe_data_list = 6;</code>
+       * <code>repeated .CookRecipeData recipe_data_list = 14;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.CookRecipeDataOuterClass.CookRecipeData.Builder> 
            getRecipeDataListBuilderList() {
@@ -893,7 +893,7 @@ public final class CookDataNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\024CookDataNotify.proto\032\024CookRecipeData.p" +
       "roto\"J\n\016CookDataNotify\022\r\n\005grade\030\001 \001(\r\022)\n" +
-      "\020recipe_data_list\030\006 \003(\0132\017.CookRecipeData" +
+      "\020recipe_data_list\030\016 \003(\0132\017.CookRecipeData" +
       "B5\n\031emu.grasscutter.net.protoB\030CookDataN" +
       "otifyOuterClassb\006proto3"
     };

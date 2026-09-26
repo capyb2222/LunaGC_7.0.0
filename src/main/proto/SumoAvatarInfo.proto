@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "SumoAvatarInfoOuterClass";
 
 message SumoAvatarInfo {
-	bool is_trial = 5;
-	uint64 avatar_id = 7;
+	bool is_trial = 9;
+	uint64 avatar_id = 2;
 }

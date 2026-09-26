@@ -6,5 +6,5 @@ option java_outer_classname = "WidgetGadgetAllDataNotifyOuterClass";
 import "WidgetGadgetData.proto";
 
 message WidgetGadgetAllDataNotify {
-	repeated WidgetGadgetData widget_gadget_data = 1;
+	repeated WidgetGadgetData widget_gadget_data = 6;
 }

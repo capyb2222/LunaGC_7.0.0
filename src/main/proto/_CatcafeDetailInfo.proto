@@ -7,6 +7,6 @@ import "HKGHMIFOALH.proto";
 import "PIPGMGPIKIP.proto";
 
 message _CatcafeDetailInfo {
-	repeated PIPGMGPIKIP EBPDFPJCIGE = 11;
-	repeated HKGHMIFOALH FIOPDPIHANO = 13;
+	repeated PIPGMGPIKIP EBPDFPJCIGE = 50000;
+	repeated HKGHMIFOALH FIOPDPIHANO = 50001;
 }

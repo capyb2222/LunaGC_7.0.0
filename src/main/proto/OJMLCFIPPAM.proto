@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "OJMLCFIPPAMOuterClass";
 
 message OJMLCFIPPAM {
-	bool is_open = 3;
-	uint32 level_id = 5;
-	bool is_finish = 7;
+	bool is_open = 15;
+	uint32 level_id = 2;
+	bool is_finish = 3;
 }

@@ -19,31 +19,31 @@ public final class _MusicPartySettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 1;</code>
+     * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 12;</code>
      */
     java.util.List<emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfo> 
         getSettleInfoListList();
     /**
-     * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 1;</code>
+     * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 12;</code>
      */
     emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfo getSettleInfoList(int index);
     /**
-     * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 1;</code>
+     * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 12;</code>
      */
     int getSettleInfoListCount();
     /**
-     * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 1;</code>
+     * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 12;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfoOrBuilder> 
         getSettleInfoListOrBuilderList();
     /**
-     * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 1;</code>
+     * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 12;</code>
      */
     emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfoOrBuilder getSettleInfoListOrBuilder(
         int index);
 
     /**
-     * <code>uint32 score = 3;</code>
+     * <code>uint32 score = 7;</code>
      * @return The score.
      */
     int getScore();
@@ -66,31 +66,31 @@ public final class _MusicPartySettleInfoOuterClass {
     int getWinnerUidList(int index);
 
     /**
-     * <code>uint32 LLCEEFFOGBH = 11;</code>
+     * <code>uint32 LLCEEFFOGBH = 13;</code>
      * @return The lLCEEFFOGBH.
      */
     int getLLCEEFFOGBH();
 
     /**
-     * <code>repeated .ExhibitionDisplayInfo score_list = 12;</code>
+     * <code>repeated .ExhibitionDisplayInfo score_list = 4;</code>
      */
     java.util.List<emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo> 
         getScoreListList();
     /**
-     * <code>repeated .ExhibitionDisplayInfo score_list = 12;</code>
+     * <code>repeated .ExhibitionDisplayInfo score_list = 4;</code>
      */
     emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo getScoreList(int index);
     /**
-     * <code>repeated .ExhibitionDisplayInfo score_list = 12;</code>
+     * <code>repeated .ExhibitionDisplayInfo score_list = 4;</code>
      */
     int getScoreListCount();
     /**
-     * <code>repeated .ExhibitionDisplayInfo score_list = 12;</code>
+     * <code>repeated .ExhibitionDisplayInfo score_list = 4;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfoOrBuilder> 
         getScoreListOrBuilderList();
     /**
-     * <code>repeated .ExhibitionDisplayInfo score_list = 12;</code>
+     * <code>repeated .ExhibitionDisplayInfo score_list = 4;</code>
      */
     emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfoOrBuilder getScoreListOrBuilder(
         int index);
@@ -144,16 +144,16 @@ public final class _MusicPartySettleInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 10: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                settleInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfo>();
-                mutable_bitField0_ |= 0x00000001;
+            case 34: {
+              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
+                scoreList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo>();
+                mutable_bitField0_ |= 0x00000004;
               }
-              settleInfoList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfo.parser(), extensionRegistry));
+              scoreList_.add(
+                  input.readMessage(emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo.parser(), extensionRegistry));
               break;
             }
-            case 24: {
+            case 56: {
 
               score_ = input.readUInt32();
               break;
@@ -179,18 +179,18 @@ public final class _MusicPartySettleInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 88: {
-
-              lLCEEFFOGBH_ = input.readUInt32();
+            case 98: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                settleInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfo>();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              settleInfoList_.add(
+                  input.readMessage(emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfo.parser(), extensionRegistry));
               break;
             }
-            case 98: {
-              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
-                scoreList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo>();
-                mutable_bitField0_ |= 0x00000004;
-              }
-              scoreList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo.parser(), extensionRegistry));
+            case 104: {
+
+              lLCEEFFOGBH_ = input.readUInt32();
               break;
             }
             default: {
@@ -208,14 +208,14 @@ public final class _MusicPartySettleInfoOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          settleInfoList_ = java.util.Collections.unmodifiableList(settleInfoList_);
+        if (((mutable_bitField0_ & 0x00000004) != 0)) {
+          scoreList_ = java.util.Collections.unmodifiableList(scoreList_);
         }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
           winnerUidList_.makeImmutable(); // C
         }
-        if (((mutable_bitField0_ & 0x00000004) != 0)) {
-          scoreList_ = java.util.Collections.unmodifiableList(scoreList_);
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          settleInfoList_ = java.util.Collections.unmodifiableList(settleInfoList_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -234,17 +234,17 @@ public final class _MusicPartySettleInfoOuterClass {
               emu.grasscutter.net.proto._MusicPartySettleInfoOuterClass._MusicPartySettleInfo.class, emu.grasscutter.net.proto._MusicPartySettleInfoOuterClass._MusicPartySettleInfo.Builder.class);
     }
 
-    public static final int SETTLE_INFO_LIST_FIELD_NUMBER = 1;
+    public static final int SETTLE_INFO_LIST_FIELD_NUMBER = 12;
     private java.util.List<emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfo> settleInfoList_;
     /**
-     * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 1;</code>
+     * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 12;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfo> getSettleInfoListList() {
       return settleInfoList_;
     }
     /**
-     * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 1;</code>
+     * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 12;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfoOrBuilder> 
@@ -252,21 +252,21 @@ public final class _MusicPartySettleInfoOuterClass {
       return settleInfoList_;
     }
     /**
-     * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 1;</code>
+     * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 12;</code>
      */
     @java.lang.Override
     public int getSettleInfoListCount() {
       return settleInfoList_.size();
     }
     /**
-     * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 1;</code>
+     * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 12;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfo getSettleInfoList(int index) {
       return settleInfoList_.get(index);
     }
     /**
-     * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 1;</code>
+     * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 12;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfoOrBuilder getSettleInfoListOrBuilder(
@@ -274,10 +274,10 @@ public final class _MusicPartySettleInfoOuterClass {
       return settleInfoList_.get(index);
     }
 
-    public static final int SCORE_FIELD_NUMBER = 3;
+    public static final int SCORE_FIELD_NUMBER = 7;
     private int score_;
     /**
-     * <code>uint32 score = 3;</code>
+     * <code>uint32 score = 7;</code>
      * @return The score.
      */
     @java.lang.Override
@@ -313,10 +313,10 @@ public final class _MusicPartySettleInfoOuterClass {
     }
     private int winnerUidListMemoizedSerializedSize = -1;
 
-    public static final int LLCEEFFOGBH_FIELD_NUMBER = 11;
+    public static final int LLCEEFFOGBH_FIELD_NUMBER = 13;
     private int lLCEEFFOGBH_;
     /**
-     * <code>uint32 LLCEEFFOGBH = 11;</code>
+     * <code>uint32 LLCEEFFOGBH = 13;</code>
      * @return The lLCEEFFOGBH.
      */
     @java.lang.Override
@@ -324,17 +324,17 @@ public final class _MusicPartySettleInfoOuterClass {
       return lLCEEFFOGBH_;
     }
 
-    public static final int SCORE_LIST_FIELD_NUMBER = 12;
+    public static final int SCORE_LIST_FIELD_NUMBER = 4;
     private java.util.List<emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo> scoreList_;
     /**
-     * <code>repeated .ExhibitionDisplayInfo score_list = 12;</code>
+     * <code>repeated .ExhibitionDisplayInfo score_list = 4;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo> getScoreListList() {
       return scoreList_;
     }
     /**
-     * <code>repeated .ExhibitionDisplayInfo score_list = 12;</code>
+     * <code>repeated .ExhibitionDisplayInfo score_list = 4;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfoOrBuilder> 
@@ -342,21 +342,21 @@ public final class _MusicPartySettleInfoOuterClass {
       return scoreList_;
     }
     /**
-     * <code>repeated .ExhibitionDisplayInfo score_list = 12;</code>
+     * <code>repeated .ExhibitionDisplayInfo score_list = 4;</code>
      */
     @java.lang.Override
     public int getScoreListCount() {
       return scoreList_.size();
     }
     /**
-     * <code>repeated .ExhibitionDisplayInfo score_list = 12;</code>
+     * <code>repeated .ExhibitionDisplayInfo score_list = 4;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo getScoreList(int index) {
       return scoreList_.get(index);
     }
     /**
-     * <code>repeated .ExhibitionDisplayInfo score_list = 12;</code>
+     * <code>repeated .ExhibitionDisplayInfo score_list = 4;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfoOrBuilder getScoreListOrBuilder(
@@ -379,11 +379,11 @@ public final class _MusicPartySettleInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      for (int i = 0; i < settleInfoList_.size(); i++) {
-        output.writeMessage(1, settleInfoList_.get(i));
+      for (int i = 0; i < scoreList_.size(); i++) {
+        output.writeMessage(4, scoreList_.get(i));
       }
       if (score_ != 0) {
-        output.writeUInt32(3, score_);
+        output.writeUInt32(7, score_);
       }
       if (getWinnerUidListList().size() > 0) {
         output.writeUInt32NoTag(74);
@@ -392,11 +392,11 @@ public final class _MusicPartySettleInfoOuterClass {
       for (int i = 0; i < winnerUidList_.size(); i++) {
         output.writeUInt32NoTag(winnerUidList_.getInt(i));
       }
-      if (lLCEEFFOGBH_ != 0) {
-        output.writeUInt32(11, lLCEEFFOGBH_);
+      for (int i = 0; i < settleInfoList_.size(); i++) {
+        output.writeMessage(12, settleInfoList_.get(i));
       }
-      for (int i = 0; i < scoreList_.size(); i++) {
-        output.writeMessage(12, scoreList_.get(i));
+      if (lLCEEFFOGBH_ != 0) {
+        output.writeUInt32(13, lLCEEFFOGBH_);
       }
       unknownFields.writeTo(output);
     }
@@ -407,13 +407,13 @@ public final class _MusicPartySettleInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < settleInfoList_.size(); i++) {
+      for (int i = 0; i < scoreList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, settleInfoList_.get(i));
+          .computeMessageSize(4, scoreList_.get(i));
       }
       if (score_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, score_);
+          .computeUInt32Size(7, score_);
       }
       {
         int dataSize = 0;
@@ -429,13 +429,13 @@ public final class _MusicPartySettleInfoOuterClass {
         }
         winnerUidListMemoizedSerializedSize = dataSize;
       }
+      for (int i = 0; i < settleInfoList_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(12, settleInfoList_.get(i));
+      }
       if (lLCEEFFOGBH_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, lLCEEFFOGBH_);
-      }
-      for (int i = 0; i < scoreList_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, scoreList_.get(i));
+          .computeUInt32Size(13, lLCEEFFOGBH_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -853,7 +853,7 @@ public final class _MusicPartySettleInfoOuterClass {
           emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfo, emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfo.Builder, emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfoOrBuilder> settleInfoListBuilder_;
 
       /**
-       * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 1;</code>
+       * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 12;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfo> getSettleInfoListList() {
         if (settleInfoListBuilder_ == null) {
@@ -863,7 +863,7 @@ public final class _MusicPartySettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 1;</code>
+       * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 12;</code>
        */
       public int getSettleInfoListCount() {
         if (settleInfoListBuilder_ == null) {
@@ -873,7 +873,7 @@ public final class _MusicPartySettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 1;</code>
+       * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 12;</code>
        */
       public emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfo getSettleInfoList(int index) {
         if (settleInfoListBuilder_ == null) {
@@ -883,7 +883,7 @@ public final class _MusicPartySettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 1;</code>
+       * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 12;</code>
        */
       public Builder setSettleInfoList(
           int index, emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfo value) {
@@ -900,7 +900,7 @@ public final class _MusicPartySettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 1;</code>
+       * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 12;</code>
        */
       public Builder setSettleInfoList(
           int index, emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfo.Builder builderForValue) {
@@ -914,7 +914,7 @@ public final class _MusicPartySettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 1;</code>
+       * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 12;</code>
        */
       public Builder addSettleInfoList(emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfo value) {
         if (settleInfoListBuilder_ == null) {
@@ -930,7 +930,7 @@ public final class _MusicPartySettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 1;</code>
+       * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 12;</code>
        */
       public Builder addSettleInfoList(
           int index, emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfo value) {
@@ -947,7 +947,7 @@ public final class _MusicPartySettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 1;</code>
+       * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 12;</code>
        */
       public Builder addSettleInfoList(
           emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfo.Builder builderForValue) {
@@ -961,7 +961,7 @@ public final class _MusicPartySettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 1;</code>
+       * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 12;</code>
        */
       public Builder addSettleInfoList(
           int index, emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfo.Builder builderForValue) {
@@ -975,7 +975,7 @@ public final class _MusicPartySettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 1;</code>
+       * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 12;</code>
        */
       public Builder addAllSettleInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfo> values) {
@@ -990,7 +990,7 @@ public final class _MusicPartySettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 1;</code>
+       * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 12;</code>
        */
       public Builder clearSettleInfoList() {
         if (settleInfoListBuilder_ == null) {
@@ -1003,7 +1003,7 @@ public final class _MusicPartySettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 1;</code>
+       * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 12;</code>
        */
       public Builder removeSettleInfoList(int index) {
         if (settleInfoListBuilder_ == null) {
@@ -1016,14 +1016,14 @@ public final class _MusicPartySettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 1;</code>
+       * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 12;</code>
        */
       public emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfo.Builder getSettleInfoListBuilder(
           int index) {
         return getSettleInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 1;</code>
+       * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 12;</code>
        */
       public emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfoOrBuilder getSettleInfoListOrBuilder(
           int index) {
@@ -1033,7 +1033,7 @@ public final class _MusicPartySettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 1;</code>
+       * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 12;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfoOrBuilder> 
            getSettleInfoListOrBuilderList() {
@@ -1044,14 +1044,14 @@ public final class _MusicPartySettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 1;</code>
+       * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 12;</code>
        */
       public emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfo.Builder addSettleInfoListBuilder() {
         return getSettleInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 1;</code>
+       * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 12;</code>
        */
       public emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfo.Builder addSettleInfoListBuilder(
           int index) {
@@ -1059,7 +1059,7 @@ public final class _MusicPartySettleInfoOuterClass {
             index, emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 1;</code>
+       * <code>repeated .DungeonSettleExhibitionInfo settle_info_list = 12;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.DungeonSettleExhibitionInfoOuterClass.DungeonSettleExhibitionInfo.Builder> 
            getSettleInfoListBuilderList() {
@@ -1082,7 +1082,7 @@ public final class _MusicPartySettleInfoOuterClass {
 
       private int score_ ;
       /**
-       * <code>uint32 score = 3;</code>
+       * <code>uint32 score = 7;</code>
        * @return The score.
        */
       @java.lang.Override
@@ -1090,7 +1090,7 @@ public final class _MusicPartySettleInfoOuterClass {
         return score_;
       }
       /**
-       * <code>uint32 score = 3;</code>
+       * <code>uint32 score = 7;</code>
        * @param value The score to set.
        * @return This builder for chaining.
        */
@@ -1101,7 +1101,7 @@ public final class _MusicPartySettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 score = 3;</code>
+       * <code>uint32 score = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearScore() {
@@ -1192,7 +1192,7 @@ public final class _MusicPartySettleInfoOuterClass {
 
       private int lLCEEFFOGBH_ ;
       /**
-       * <code>uint32 LLCEEFFOGBH = 11;</code>
+       * <code>uint32 LLCEEFFOGBH = 13;</code>
        * @return The lLCEEFFOGBH.
        */
       @java.lang.Override
@@ -1200,7 +1200,7 @@ public final class _MusicPartySettleInfoOuterClass {
         return lLCEEFFOGBH_;
       }
       /**
-       * <code>uint32 LLCEEFFOGBH = 11;</code>
+       * <code>uint32 LLCEEFFOGBH = 13;</code>
        * @param value The lLCEEFFOGBH to set.
        * @return This builder for chaining.
        */
@@ -1211,7 +1211,7 @@ public final class _MusicPartySettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 LLCEEFFOGBH = 11;</code>
+       * <code>uint32 LLCEEFFOGBH = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearLLCEEFFOGBH() {
@@ -1234,7 +1234,7 @@ public final class _MusicPartySettleInfoOuterClass {
           emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo, emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo.Builder, emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfoOrBuilder> scoreListBuilder_;
 
       /**
-       * <code>repeated .ExhibitionDisplayInfo score_list = 12;</code>
+       * <code>repeated .ExhibitionDisplayInfo score_list = 4;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo> getScoreListList() {
         if (scoreListBuilder_ == null) {
@@ -1244,7 +1244,7 @@ public final class _MusicPartySettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ExhibitionDisplayInfo score_list = 12;</code>
+       * <code>repeated .ExhibitionDisplayInfo score_list = 4;</code>
        */
       public int getScoreListCount() {
         if (scoreListBuilder_ == null) {
@@ -1254,7 +1254,7 @@ public final class _MusicPartySettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ExhibitionDisplayInfo score_list = 12;</code>
+       * <code>repeated .ExhibitionDisplayInfo score_list = 4;</code>
        */
       public emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo getScoreList(int index) {
         if (scoreListBuilder_ == null) {
@@ -1264,7 +1264,7 @@ public final class _MusicPartySettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ExhibitionDisplayInfo score_list = 12;</code>
+       * <code>repeated .ExhibitionDisplayInfo score_list = 4;</code>
        */
       public Builder setScoreList(
           int index, emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo value) {
@@ -1281,7 +1281,7 @@ public final class _MusicPartySettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ExhibitionDisplayInfo score_list = 12;</code>
+       * <code>repeated .ExhibitionDisplayInfo score_list = 4;</code>
        */
       public Builder setScoreList(
           int index, emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo.Builder builderForValue) {
@@ -1295,7 +1295,7 @@ public final class _MusicPartySettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ExhibitionDisplayInfo score_list = 12;</code>
+       * <code>repeated .ExhibitionDisplayInfo score_list = 4;</code>
        */
       public Builder addScoreList(emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo value) {
         if (scoreListBuilder_ == null) {
@@ -1311,7 +1311,7 @@ public final class _MusicPartySettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ExhibitionDisplayInfo score_list = 12;</code>
+       * <code>repeated .ExhibitionDisplayInfo score_list = 4;</code>
        */
       public Builder addScoreList(
           int index, emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo value) {
@@ -1328,7 +1328,7 @@ public final class _MusicPartySettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ExhibitionDisplayInfo score_list = 12;</code>
+       * <code>repeated .ExhibitionDisplayInfo score_list = 4;</code>
        */
       public Builder addScoreList(
           emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo.Builder builderForValue) {
@@ -1342,7 +1342,7 @@ public final class _MusicPartySettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ExhibitionDisplayInfo score_list = 12;</code>
+       * <code>repeated .ExhibitionDisplayInfo score_list = 4;</code>
        */
       public Builder addScoreList(
           int index, emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo.Builder builderForValue) {
@@ -1356,7 +1356,7 @@ public final class _MusicPartySettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ExhibitionDisplayInfo score_list = 12;</code>
+       * <code>repeated .ExhibitionDisplayInfo score_list = 4;</code>
        */
       public Builder addAllScoreList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo> values) {
@@ -1371,7 +1371,7 @@ public final class _MusicPartySettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ExhibitionDisplayInfo score_list = 12;</code>
+       * <code>repeated .ExhibitionDisplayInfo score_list = 4;</code>
        */
       public Builder clearScoreList() {
         if (scoreListBuilder_ == null) {
@@ -1384,7 +1384,7 @@ public final class _MusicPartySettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ExhibitionDisplayInfo score_list = 12;</code>
+       * <code>repeated .ExhibitionDisplayInfo score_list = 4;</code>
        */
       public Builder removeScoreList(int index) {
         if (scoreListBuilder_ == null) {
@@ -1397,14 +1397,14 @@ public final class _MusicPartySettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ExhibitionDisplayInfo score_list = 12;</code>
+       * <code>repeated .ExhibitionDisplayInfo score_list = 4;</code>
        */
       public emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo.Builder getScoreListBuilder(
           int index) {
         return getScoreListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .ExhibitionDisplayInfo score_list = 12;</code>
+       * <code>repeated .ExhibitionDisplayInfo score_list = 4;</code>
        */
       public emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfoOrBuilder getScoreListOrBuilder(
           int index) {
@@ -1414,7 +1414,7 @@ public final class _MusicPartySettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ExhibitionDisplayInfo score_list = 12;</code>
+       * <code>repeated .ExhibitionDisplayInfo score_list = 4;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfoOrBuilder> 
            getScoreListOrBuilderList() {
@@ -1425,14 +1425,14 @@ public final class _MusicPartySettleInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ExhibitionDisplayInfo score_list = 12;</code>
+       * <code>repeated .ExhibitionDisplayInfo score_list = 4;</code>
        */
       public emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo.Builder addScoreListBuilder() {
         return getScoreListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .ExhibitionDisplayInfo score_list = 12;</code>
+       * <code>repeated .ExhibitionDisplayInfo score_list = 4;</code>
        */
       public emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo.Builder addScoreListBuilder(
           int index) {
@@ -1440,7 +1440,7 @@ public final class _MusicPartySettleInfoOuterClass {
             index, emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo.getDefaultInstance());
       }
       /**
-       * <code>repeated .ExhibitionDisplayInfo score_list = 12;</code>
+       * <code>repeated .ExhibitionDisplayInfo score_list = 4;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ExhibitionDisplayInfoOuterClass.ExhibitionDisplayInfo.Builder> 
            getScoreListBuilderList() {
@@ -1530,10 +1530,10 @@ public final class _MusicPartySettleInfoOuterClass {
       "\n\033_MusicPartySettleInfo.proto\032!DungeonSe" +
       "ttleExhibitionInfo.proto\032\033ExhibitionDisp" +
       "layInfo.proto\"\270\001\n\025_MusicPartySettleInfo\022" +
-      "6\n\020settle_info_list\030\001 \003(\0132\034.DungeonSettl" +
-      "eExhibitionInfo\022\r\n\005score\030\003 \001(\r\022\027\n\017winner" +
-      "_uid_list\030\t \003(\r\022\023\n\013LLCEEFFOGBH\030\013 \001(\r\022*\n\n" +
-      "score_list\030\014 \003(\0132\026.ExhibitionDisplayInfo" +
+      "6\n\020settle_info_list\030\014 \003(\0132\034.DungeonSettl" +
+      "eExhibitionInfo\022\r\n\005score\030\007 \001(\r\022\027\n\017winner" +
+      "_uid_list\030\t \003(\r\022\023\n\013LLCEEFFOGBH\030\r \001(\r\022*\n\n" +
+      "score_list\030\004 \003(\0132\026.ExhibitionDisplayInfo" +
       "B<\n\031emu.grasscutter.net.protoB\037_MusicPar" +
       "tySettleInfoOuterClassb\006proto3"
     };

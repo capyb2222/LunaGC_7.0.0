@@ -70,25 +70,25 @@ public final class ShopOuterClass {
     int getCityReputationLevel();
 
     /**
-     * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 50001;</code>
+     * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 13;</code>
      */
     java.util.List<emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct> 
         getBeyondMcoinProductListList();
     /**
-     * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 50001;</code>
+     * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 13;</code>
      */
     emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct getBeyondMcoinProductList(int index);
     /**
-     * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 50001;</code>
+     * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 13;</code>
      */
     int getBeyondMcoinProductListCount();
     /**
-     * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 50001;</code>
+     * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 13;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProductOrBuilder> 
         getBeyondMcoinProductListOrBuilderList();
     /**
-     * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 50001;</code>
+     * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 13;</code>
      */
     emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProductOrBuilder getBeyondMcoinProductListOrBuilder(
         int index);
@@ -118,7 +118,7 @@ public final class ShopOuterClass {
         int index);
 
     /**
-     * <code>uint32 hogdkcckgap = 50002;</code>
+     * <code>uint32 hogdkcckgap = 50001;</code>
      * @return The hogdkcckgap.
      */
     int getHogdkcckgap();
@@ -298,12 +298,7 @@ public final class ShopOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.ShopConcertProductOuterClass.ShopConcertProduct.parser(), extensionRegistry));
               break;
             }
-            case 400000: {
-
-              cityReputationLevel_ = input.readUInt32();
-              break;
-            }
-            case 400010: {
+            case 106: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 BeyondMcoinProductList_ = new java.util.ArrayList<emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct>();
                 mutable_bitField0_ |= 0x00000002;
@@ -312,7 +307,12 @@ public final class ShopOuterClass {
                   input.readMessage(emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct.parser(), extensionRegistry));
               break;
             }
-            case 400016: {
+            case 400000: {
+
+              cityReputationLevel_ = input.readUInt32();
+              break;
+            }
+            case 400008: {
 
               hogdkcckgap_ = input.readUInt32();
               break;
@@ -452,17 +452,17 @@ public final class ShopOuterClass {
       return cityReputationLevel_;
     }
 
-    public static final int _BEYOND_MCOIN_PRODUCT_LIST_FIELD_NUMBER = 50001;
+    public static final int _BEYOND_MCOIN_PRODUCT_LIST_FIELD_NUMBER = 13;
     private java.util.List<emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct> BeyondMcoinProductList_;
     /**
-     * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 50001;</code>
+     * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 13;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct> getBeyondMcoinProductListList() {
       return BeyondMcoinProductList_;
     }
     /**
-     * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 50001;</code>
+     * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 13;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProductOrBuilder> 
@@ -470,21 +470,21 @@ public final class ShopOuterClass {
       return BeyondMcoinProductList_;
     }
     /**
-     * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 50001;</code>
+     * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 13;</code>
      */
     @java.lang.Override
     public int getBeyondMcoinProductListCount() {
       return BeyondMcoinProductList_.size();
     }
     /**
-     * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 50001;</code>
+     * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 13;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct getBeyondMcoinProductList(int index) {
       return BeyondMcoinProductList_.get(index);
     }
     /**
-     * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 50001;</code>
+     * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 13;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProductOrBuilder getBeyondMcoinProductListOrBuilder(
@@ -532,10 +532,10 @@ public final class ShopOuterClass {
       return goodsList_.get(index);
     }
 
-    public static final int HOGDKCCKGAP_FIELD_NUMBER = 50002;
+    public static final int HOGDKCCKGAP_FIELD_NUMBER = 50001;
     private int hogdkcckgap_;
     /**
-     * <code>uint32 hogdkcckgap = 50002;</code>
+     * <code>uint32 hogdkcckgap = 50001;</code>
      * @return The hogdkcckgap.
      */
     @java.lang.Override
@@ -683,14 +683,14 @@ public final class ShopOuterClass {
       for (int i = 0; i < concertProductList_.size(); i++) {
         output.writeMessage(12, concertProductList_.get(i));
       }
+      for (int i = 0; i < BeyondMcoinProductList_.size(); i++) {
+        output.writeMessage(13, BeyondMcoinProductList_.get(i));
+      }
       if (cityReputationLevel_ != 0) {
         output.writeUInt32(50000, cityReputationLevel_);
       }
-      for (int i = 0; i < BeyondMcoinProductList_.size(); i++) {
-        output.writeMessage(50001, BeyondMcoinProductList_.get(i));
-      }
       if (hogdkcckgap_ != 0) {
-        output.writeUInt32(50002, hogdkcckgap_);
+        output.writeUInt32(50001, hogdkcckgap_);
       }
       unknownFields.writeTo(output);
     }
@@ -733,17 +733,17 @@ public final class ShopOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(12, concertProductList_.get(i));
       }
+      for (int i = 0; i < BeyondMcoinProductList_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(13, BeyondMcoinProductList_.get(i));
+      }
       if (cityReputationLevel_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(50000, cityReputationLevel_);
       }
-      for (int i = 0; i < BeyondMcoinProductList_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(50001, BeyondMcoinProductList_.get(i));
-      }
       if (hogdkcckgap_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(50002, hogdkcckgap_);
+          .computeUInt32Size(50001, hogdkcckgap_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1756,7 +1756,7 @@ public final class ShopOuterClass {
           emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct, emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct.Builder, emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProductOrBuilder> BeyondMcoinProductListBuilder_;
 
       /**
-       * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 50001;</code>
+       * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 13;</code>
        */
       public java.util.List<emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct> getBeyondMcoinProductListList() {
         if (BeyondMcoinProductListBuilder_ == null) {
@@ -1766,7 +1766,7 @@ public final class ShopOuterClass {
         }
       }
       /**
-       * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 50001;</code>
+       * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 13;</code>
        */
       public int getBeyondMcoinProductListCount() {
         if (BeyondMcoinProductListBuilder_ == null) {
@@ -1776,7 +1776,7 @@ public final class ShopOuterClass {
         }
       }
       /**
-       * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 50001;</code>
+       * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 13;</code>
        */
       public emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct getBeyondMcoinProductList(int index) {
         if (BeyondMcoinProductListBuilder_ == null) {
@@ -1786,7 +1786,7 @@ public final class ShopOuterClass {
         }
       }
       /**
-       * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 50001;</code>
+       * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 13;</code>
        */
       public Builder setBeyondMcoinProductList(
           int index, emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct value) {
@@ -1803,7 +1803,7 @@ public final class ShopOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 50001;</code>
+       * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 13;</code>
        */
       public Builder setBeyondMcoinProductList(
           int index, emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct.Builder builderForValue) {
@@ -1817,7 +1817,7 @@ public final class ShopOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 50001;</code>
+       * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 13;</code>
        */
       public Builder addBeyondMcoinProductList(emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct value) {
         if (BeyondMcoinProductListBuilder_ == null) {
@@ -1833,7 +1833,7 @@ public final class ShopOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 50001;</code>
+       * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 13;</code>
        */
       public Builder addBeyondMcoinProductList(
           int index, emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct value) {
@@ -1850,7 +1850,7 @@ public final class ShopOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 50001;</code>
+       * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 13;</code>
        */
       public Builder addBeyondMcoinProductList(
           emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct.Builder builderForValue) {
@@ -1864,7 +1864,7 @@ public final class ShopOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 50001;</code>
+       * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 13;</code>
        */
       public Builder addBeyondMcoinProductList(
           int index, emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct.Builder builderForValue) {
@@ -1878,7 +1878,7 @@ public final class ShopOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 50001;</code>
+       * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 13;</code>
        */
       public Builder addAllBeyondMcoinProductList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct> values) {
@@ -1893,7 +1893,7 @@ public final class ShopOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 50001;</code>
+       * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 13;</code>
        */
       public Builder clearBeyondMcoinProductList() {
         if (BeyondMcoinProductListBuilder_ == null) {
@@ -1906,7 +1906,7 @@ public final class ShopOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 50001;</code>
+       * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 13;</code>
        */
       public Builder removeBeyondMcoinProductList(int index) {
         if (BeyondMcoinProductListBuilder_ == null) {
@@ -1919,14 +1919,14 @@ public final class ShopOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 50001;</code>
+       * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 13;</code>
        */
       public emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct.Builder getBeyondMcoinProductListBuilder(
           int index) {
         return getBeyondMcoinProductListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 50001;</code>
+       * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 13;</code>
        */
       public emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProductOrBuilder getBeyondMcoinProductListOrBuilder(
           int index) {
@@ -1936,7 +1936,7 @@ public final class ShopOuterClass {
         }
       }
       /**
-       * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 50001;</code>
+       * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 13;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProductOrBuilder> 
            getBeyondMcoinProductListOrBuilderList() {
@@ -1947,14 +1947,14 @@ public final class ShopOuterClass {
         }
       }
       /**
-       * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 50001;</code>
+       * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 13;</code>
        */
       public emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct.Builder addBeyondMcoinProductListBuilder() {
         return getBeyondMcoinProductListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct.getDefaultInstance());
       }
       /**
-       * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 50001;</code>
+       * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 13;</code>
        */
       public emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct.Builder addBeyondMcoinProductListBuilder(
           int index) {
@@ -1962,7 +1962,7 @@ public final class ShopOuterClass {
             index, emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct.getDefaultInstance());
       }
       /**
-       * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 50001;</code>
+       * <code>repeated ._ShopBeyondMcoinProduct _beyond_mcoin_product_list = 13;</code>
        */
       public java.util.List<emu.grasscutter.net.proto._ShopBeyondMcoinProductOuterClass._ShopBeyondMcoinProduct.Builder> 
            getBeyondMcoinProductListBuilderList() {
@@ -2225,7 +2225,7 @@ public final class ShopOuterClass {
 
       private int hogdkcckgap_ ;
       /**
-       * <code>uint32 hogdkcckgap = 50002;</code>
+       * <code>uint32 hogdkcckgap = 50001;</code>
        * @return The hogdkcckgap.
        */
       @java.lang.Override
@@ -2233,7 +2233,7 @@ public final class ShopOuterClass {
         return hogdkcckgap_;
       }
       /**
-       * <code>uint32 hogdkcckgap = 50002;</code>
+       * <code>uint32 hogdkcckgap = 50001;</code>
        * @param value The hogdkcckgap to set.
        * @return This builder for chaining.
        */
@@ -2244,7 +2244,7 @@ public final class ShopOuterClass {
         return this;
       }
       /**
-       * <code>uint32 hogdkcckgap = 50002;</code>
+       * <code>uint32 hogdkcckgap = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearHogdkcckgap() {
@@ -2865,19 +2865,19 @@ public final class ShopOuterClass {
       "\n\nShop.proto\032\021OLFKDMCHEDP.proto\032\025ShopCar" +
       "dProduct.proto\032\030ShopConcertProduct.proto" +
       "\032\017ShopGoods.proto\032\026ShopMcoinProduct.prot" +
-      "o\032\035_ShopBeyondMcoinProduct.proto\"\217\003\n\004Sho" +
+      "o\032\035_ShopBeyondMcoinProduct.proto\"\215\003\n\004Sho" +
       "p\022\031\n\021next_refresh_time\030\003 \001(\r\022!\n\013FAEEGIJK" +
       "FJP\030\002 \001(\0132\014.OLFKDMCHEDP\022+\n\021card_product_" +
       "list\030\t \003(\0132\020.ShopCardProduct\022\037\n\025city_rep" +
-      "utation_level\030\320\206\003 \001(\r\022>\n\032_beyond_mcoin_p" +
-      "roduct_list\030\321\206\003 \003(\0132\030._ShopBeyondMcoinPr" +
-      "oduct\022\036\n\ngoods_list\030\004 \003(\0132\n.ShopGoods\022\025\n" +
-      "\013hogdkcckgap\030\322\206\003 \001(\r\022\017\n\007city_id\030\013 \001(\r\0221\n" +
-      "\024concert_product_list\030\014 \003(\0132\023.ShopConcer" +
-      "tProduct\022-\n\022mcoin_product_list\030\001 \003(\0132\021.S" +
-      "hopMcoinProduct\022\021\n\tshop_type\030\010 \001(\rB+\n\031em" +
-      "u.grasscutter.net.protoB\016ShopOuterClassb" +
-      "\006proto3"
+      "utation_level\030\320\206\003 \001(\r\022<\n\032_beyond_mcoin_p" +
+      "roduct_list\030\r \003(\0132\030._ShopBeyondMcoinProd" +
+      "uct\022\036\n\ngoods_list\030\004 \003(\0132\n.ShopGoods\022\025\n\013h" +
+      "ogdkcckgap\030\321\206\003 \001(\r\022\017\n\007city_id\030\013 \001(\r\0221\n\024c" +
+      "oncert_product_list\030\014 \003(\0132\023.ShopConcertP" +
+      "roduct\022-\n\022mcoin_product_list\030\001 \003(\0132\021.Sho" +
+      "pMcoinProduct\022\021\n\tshop_type\030\010 \001(\rB+\n\031emu." +
+      "grasscutter.net.protoB\016ShopOuterClassb\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

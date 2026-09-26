@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "ReliquaryDecomposeReqOuterClass";
 
 message ReliquaryDecomposeReq {
-	uint32 target_count = 6;
-	uint32 config_id = 8;
-	repeated uint64 guid_list = 10;
+	uint32 target_count = 15;
+	uint32 config_id = 2;
+	repeated uint64 guid_list = 14;
 }

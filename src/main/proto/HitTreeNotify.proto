@@ -7,6 +7,6 @@ import "Vector.proto";
 
 message HitTreeNotify {
 	uint32 tree_type = 5;
-	Vector tree_pos = 50000;
-	Vector drop_pos = 50001;
+	Vector tree_pos = 12;
+	Vector drop_pos = 13;
 }

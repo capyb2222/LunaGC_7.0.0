@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "InstableSprayAvatarInfoOuterClass";
 
 message InstableSprayAvatarInfo {
-	bool is_trial = 11;
+	bool is_trial = 6;
 	uint64 avatar_id = 13;
 }

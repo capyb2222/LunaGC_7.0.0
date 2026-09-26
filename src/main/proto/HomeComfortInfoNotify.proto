@@ -6,5 +6,5 @@ option java_outer_classname = "HomeComfortInfoNotifyOuterClass";
 import "HomeModuleComfortInfo.proto";
 
 message HomeComfortInfoNotify {
-	repeated HomeModuleComfortInfo module_info_list = 4;
+	repeated HomeModuleComfortInfo module_info_list = 10;
 }

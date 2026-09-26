@@ -19,49 +19,49 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .MLLGCECGGME level_info_list = 2;</code>
+     * <code>repeated .MLLGCECGGME level_info_list = 10;</code>
      */
     java.util.List<emu.grasscutter.net.proto.MLLGCECGGMEOuterClass.MLLGCECGGME> 
         getLevelInfoListList();
     /**
-     * <code>repeated .MLLGCECGGME level_info_list = 2;</code>
+     * <code>repeated .MLLGCECGGME level_info_list = 10;</code>
      */
     emu.grasscutter.net.proto.MLLGCECGGMEOuterClass.MLLGCECGGME getLevelInfoList(int index);
     /**
-     * <code>repeated .MLLGCECGGME level_info_list = 2;</code>
+     * <code>repeated .MLLGCECGGME level_info_list = 10;</code>
      */
     int getLevelInfoListCount();
     /**
-     * <code>repeated .MLLGCECGGME level_info_list = 2;</code>
+     * <code>repeated .MLLGCECGGME level_info_list = 10;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.MLLGCECGGMEOuterClass.MLLGCECGGMEOrBuilder> 
         getLevelInfoListOrBuilderList();
     /**
-     * <code>repeated .MLLGCECGGME level_info_list = 2;</code>
+     * <code>repeated .MLLGCECGGME level_info_list = 10;</code>
      */
     emu.grasscutter.net.proto.MLLGCECGGMEOuterClass.MLLGCECGGMEOrBuilder getLevelInfoListOrBuilder(
         int index);
 
     /**
-     * <code>repeated .DPEEOGGEECK level_list = 7;</code>
+     * <code>repeated .DPEEOGGEECK level_list = 9;</code>
      */
     java.util.List<emu.grasscutter.net.proto.DPEEOGGEECKOuterClass.DPEEOGGEECK> 
         getLevelListList();
     /**
-     * <code>repeated .DPEEOGGEECK level_list = 7;</code>
+     * <code>repeated .DPEEOGGEECK level_list = 9;</code>
      */
     emu.grasscutter.net.proto.DPEEOGGEECKOuterClass.DPEEOGGEECK getLevelList(int index);
     /**
-     * <code>repeated .DPEEOGGEECK level_list = 7;</code>
+     * <code>repeated .DPEEOGGEECK level_list = 9;</code>
      */
     int getLevelListCount();
     /**
-     * <code>repeated .DPEEOGGEECK level_list = 7;</code>
+     * <code>repeated .DPEEOGGEECK level_list = 9;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.DPEEOGGEECKOuterClass.DPEEOGGEECKOrBuilder> 
         getLevelListOrBuilderList();
     /**
-     * <code>repeated .DPEEOGGEECK level_list = 7;</code>
+     * <code>repeated .DPEEOGGEECK level_list = 9;</code>
      */
     emu.grasscutter.net.proto.DPEEOGGEECKOuterClass.DPEEOGGEECKOrBuilder getLevelListOrBuilder(
         int index);
@@ -114,22 +114,22 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 18: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                levelInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.MLLGCECGGMEOuterClass.MLLGCECGGME>();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              levelInfoList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.MLLGCECGGMEOuterClass.MLLGCECGGME.parser(), extensionRegistry));
-              break;
-            }
-            case 58: {
+            case 74: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 levelList_ = new java.util.ArrayList<emu.grasscutter.net.proto.DPEEOGGEECKOuterClass.DPEEOGGEECK>();
                 mutable_bitField0_ |= 0x00000002;
               }
               levelList_.add(
                   input.readMessage(emu.grasscutter.net.proto.DPEEOGGEECKOuterClass.DPEEOGGEECK.parser(), extensionRegistry));
+              break;
+            }
+            case 82: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                levelInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.MLLGCECGGMEOuterClass.MLLGCECGGME>();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              levelInfoList_.add(
+                  input.readMessage(emu.grasscutter.net.proto.MLLGCECGGMEOuterClass.MLLGCECGGME.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -147,11 +147,11 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          levelInfoList_ = java.util.Collections.unmodifiableList(levelInfoList_);
-        }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
           levelList_ = java.util.Collections.unmodifiableList(levelList_);
+        }
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          levelInfoList_ = java.util.Collections.unmodifiableList(levelInfoList_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -170,17 +170,17 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
               emu.grasscutter.net.proto.ArenaChallengeV5DetailInfoOuterClass.ArenaChallengeV5DetailInfo.class, emu.grasscutter.net.proto.ArenaChallengeV5DetailInfoOuterClass.ArenaChallengeV5DetailInfo.Builder.class);
     }
 
-    public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 2;
+    public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 10;
     private java.util.List<emu.grasscutter.net.proto.MLLGCECGGMEOuterClass.MLLGCECGGME> levelInfoList_;
     /**
-     * <code>repeated .MLLGCECGGME level_info_list = 2;</code>
+     * <code>repeated .MLLGCECGGME level_info_list = 10;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.MLLGCECGGMEOuterClass.MLLGCECGGME> getLevelInfoListList() {
       return levelInfoList_;
     }
     /**
-     * <code>repeated .MLLGCECGGME level_info_list = 2;</code>
+     * <code>repeated .MLLGCECGGME level_info_list = 10;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.MLLGCECGGMEOuterClass.MLLGCECGGMEOrBuilder> 
@@ -188,21 +188,21 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
       return levelInfoList_;
     }
     /**
-     * <code>repeated .MLLGCECGGME level_info_list = 2;</code>
+     * <code>repeated .MLLGCECGGME level_info_list = 10;</code>
      */
     @java.lang.Override
     public int getLevelInfoListCount() {
       return levelInfoList_.size();
     }
     /**
-     * <code>repeated .MLLGCECGGME level_info_list = 2;</code>
+     * <code>repeated .MLLGCECGGME level_info_list = 10;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.MLLGCECGGMEOuterClass.MLLGCECGGME getLevelInfoList(int index) {
       return levelInfoList_.get(index);
     }
     /**
-     * <code>repeated .MLLGCECGGME level_info_list = 2;</code>
+     * <code>repeated .MLLGCECGGME level_info_list = 10;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.MLLGCECGGMEOuterClass.MLLGCECGGMEOrBuilder getLevelInfoListOrBuilder(
@@ -210,17 +210,17 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
       return levelInfoList_.get(index);
     }
 
-    public static final int LEVEL_LIST_FIELD_NUMBER = 7;
+    public static final int LEVEL_LIST_FIELD_NUMBER = 9;
     private java.util.List<emu.grasscutter.net.proto.DPEEOGGEECKOuterClass.DPEEOGGEECK> levelList_;
     /**
-     * <code>repeated .DPEEOGGEECK level_list = 7;</code>
+     * <code>repeated .DPEEOGGEECK level_list = 9;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.DPEEOGGEECKOuterClass.DPEEOGGEECK> getLevelListList() {
       return levelList_;
     }
     /**
-     * <code>repeated .DPEEOGGEECK level_list = 7;</code>
+     * <code>repeated .DPEEOGGEECK level_list = 9;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.DPEEOGGEECKOuterClass.DPEEOGGEECKOrBuilder> 
@@ -228,21 +228,21 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
       return levelList_;
     }
     /**
-     * <code>repeated .DPEEOGGEECK level_list = 7;</code>
+     * <code>repeated .DPEEOGGEECK level_list = 9;</code>
      */
     @java.lang.Override
     public int getLevelListCount() {
       return levelList_.size();
     }
     /**
-     * <code>repeated .DPEEOGGEECK level_list = 7;</code>
+     * <code>repeated .DPEEOGGEECK level_list = 9;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.DPEEOGGEECKOuterClass.DPEEOGGEECK getLevelList(int index) {
       return levelList_.get(index);
     }
     /**
-     * <code>repeated .DPEEOGGEECK level_list = 7;</code>
+     * <code>repeated .DPEEOGGEECK level_list = 9;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.DPEEOGGEECKOuterClass.DPEEOGGEECKOrBuilder getLevelListOrBuilder(
@@ -264,11 +264,11 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      for (int i = 0; i < levelInfoList_.size(); i++) {
-        output.writeMessage(2, levelInfoList_.get(i));
-      }
       for (int i = 0; i < levelList_.size(); i++) {
-        output.writeMessage(7, levelList_.get(i));
+        output.writeMessage(9, levelList_.get(i));
+      }
+      for (int i = 0; i < levelInfoList_.size(); i++) {
+        output.writeMessage(10, levelInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -279,13 +279,13 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < levelInfoList_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, levelInfoList_.get(i));
-      }
       for (int i = 0; i < levelList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, levelList_.get(i));
+          .computeMessageSize(9, levelList_.get(i));
+      }
+      for (int i = 0; i < levelInfoList_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(10, levelInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -660,7 +660,7 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
           emu.grasscutter.net.proto.MLLGCECGGMEOuterClass.MLLGCECGGME, emu.grasscutter.net.proto.MLLGCECGGMEOuterClass.MLLGCECGGME.Builder, emu.grasscutter.net.proto.MLLGCECGGMEOuterClass.MLLGCECGGMEOrBuilder> levelInfoListBuilder_;
 
       /**
-       * <code>repeated .MLLGCECGGME level_info_list = 2;</code>
+       * <code>repeated .MLLGCECGGME level_info_list = 10;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.MLLGCECGGMEOuterClass.MLLGCECGGME> getLevelInfoListList() {
         if (levelInfoListBuilder_ == null) {
@@ -670,7 +670,7 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .MLLGCECGGME level_info_list = 2;</code>
+       * <code>repeated .MLLGCECGGME level_info_list = 10;</code>
        */
       public int getLevelInfoListCount() {
         if (levelInfoListBuilder_ == null) {
@@ -680,7 +680,7 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .MLLGCECGGME level_info_list = 2;</code>
+       * <code>repeated .MLLGCECGGME level_info_list = 10;</code>
        */
       public emu.grasscutter.net.proto.MLLGCECGGMEOuterClass.MLLGCECGGME getLevelInfoList(int index) {
         if (levelInfoListBuilder_ == null) {
@@ -690,7 +690,7 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .MLLGCECGGME level_info_list = 2;</code>
+       * <code>repeated .MLLGCECGGME level_info_list = 10;</code>
        */
       public Builder setLevelInfoList(
           int index, emu.grasscutter.net.proto.MLLGCECGGMEOuterClass.MLLGCECGGME value) {
@@ -707,7 +707,7 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .MLLGCECGGME level_info_list = 2;</code>
+       * <code>repeated .MLLGCECGGME level_info_list = 10;</code>
        */
       public Builder setLevelInfoList(
           int index, emu.grasscutter.net.proto.MLLGCECGGMEOuterClass.MLLGCECGGME.Builder builderForValue) {
@@ -721,7 +721,7 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .MLLGCECGGME level_info_list = 2;</code>
+       * <code>repeated .MLLGCECGGME level_info_list = 10;</code>
        */
       public Builder addLevelInfoList(emu.grasscutter.net.proto.MLLGCECGGMEOuterClass.MLLGCECGGME value) {
         if (levelInfoListBuilder_ == null) {
@@ -737,7 +737,7 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .MLLGCECGGME level_info_list = 2;</code>
+       * <code>repeated .MLLGCECGGME level_info_list = 10;</code>
        */
       public Builder addLevelInfoList(
           int index, emu.grasscutter.net.proto.MLLGCECGGMEOuterClass.MLLGCECGGME value) {
@@ -754,7 +754,7 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .MLLGCECGGME level_info_list = 2;</code>
+       * <code>repeated .MLLGCECGGME level_info_list = 10;</code>
        */
       public Builder addLevelInfoList(
           emu.grasscutter.net.proto.MLLGCECGGMEOuterClass.MLLGCECGGME.Builder builderForValue) {
@@ -768,7 +768,7 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .MLLGCECGGME level_info_list = 2;</code>
+       * <code>repeated .MLLGCECGGME level_info_list = 10;</code>
        */
       public Builder addLevelInfoList(
           int index, emu.grasscutter.net.proto.MLLGCECGGMEOuterClass.MLLGCECGGME.Builder builderForValue) {
@@ -782,7 +782,7 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .MLLGCECGGME level_info_list = 2;</code>
+       * <code>repeated .MLLGCECGGME level_info_list = 10;</code>
        */
       public Builder addAllLevelInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.MLLGCECGGMEOuterClass.MLLGCECGGME> values) {
@@ -797,7 +797,7 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .MLLGCECGGME level_info_list = 2;</code>
+       * <code>repeated .MLLGCECGGME level_info_list = 10;</code>
        */
       public Builder clearLevelInfoList() {
         if (levelInfoListBuilder_ == null) {
@@ -810,7 +810,7 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .MLLGCECGGME level_info_list = 2;</code>
+       * <code>repeated .MLLGCECGGME level_info_list = 10;</code>
        */
       public Builder removeLevelInfoList(int index) {
         if (levelInfoListBuilder_ == null) {
@@ -823,14 +823,14 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .MLLGCECGGME level_info_list = 2;</code>
+       * <code>repeated .MLLGCECGGME level_info_list = 10;</code>
        */
       public emu.grasscutter.net.proto.MLLGCECGGMEOuterClass.MLLGCECGGME.Builder getLevelInfoListBuilder(
           int index) {
         return getLevelInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .MLLGCECGGME level_info_list = 2;</code>
+       * <code>repeated .MLLGCECGGME level_info_list = 10;</code>
        */
       public emu.grasscutter.net.proto.MLLGCECGGMEOuterClass.MLLGCECGGMEOrBuilder getLevelInfoListOrBuilder(
           int index) {
@@ -840,7 +840,7 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .MLLGCECGGME level_info_list = 2;</code>
+       * <code>repeated .MLLGCECGGME level_info_list = 10;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.MLLGCECGGMEOuterClass.MLLGCECGGMEOrBuilder> 
            getLevelInfoListOrBuilderList() {
@@ -851,14 +851,14 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .MLLGCECGGME level_info_list = 2;</code>
+       * <code>repeated .MLLGCECGGME level_info_list = 10;</code>
        */
       public emu.grasscutter.net.proto.MLLGCECGGMEOuterClass.MLLGCECGGME.Builder addLevelInfoListBuilder() {
         return getLevelInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.MLLGCECGGMEOuterClass.MLLGCECGGME.getDefaultInstance());
       }
       /**
-       * <code>repeated .MLLGCECGGME level_info_list = 2;</code>
+       * <code>repeated .MLLGCECGGME level_info_list = 10;</code>
        */
       public emu.grasscutter.net.proto.MLLGCECGGMEOuterClass.MLLGCECGGME.Builder addLevelInfoListBuilder(
           int index) {
@@ -866,7 +866,7 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
             index, emu.grasscutter.net.proto.MLLGCECGGMEOuterClass.MLLGCECGGME.getDefaultInstance());
       }
       /**
-       * <code>repeated .MLLGCECGGME level_info_list = 2;</code>
+       * <code>repeated .MLLGCECGGME level_info_list = 10;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.MLLGCECGGMEOuterClass.MLLGCECGGME.Builder> 
            getLevelInfoListBuilderList() {
@@ -900,7 +900,7 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
           emu.grasscutter.net.proto.DPEEOGGEECKOuterClass.DPEEOGGEECK, emu.grasscutter.net.proto.DPEEOGGEECKOuterClass.DPEEOGGEECK.Builder, emu.grasscutter.net.proto.DPEEOGGEECKOuterClass.DPEEOGGEECKOrBuilder> levelListBuilder_;
 
       /**
-       * <code>repeated .DPEEOGGEECK level_list = 7;</code>
+       * <code>repeated .DPEEOGGEECK level_list = 9;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.DPEEOGGEECKOuterClass.DPEEOGGEECK> getLevelListList() {
         if (levelListBuilder_ == null) {
@@ -910,7 +910,7 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .DPEEOGGEECK level_list = 7;</code>
+       * <code>repeated .DPEEOGGEECK level_list = 9;</code>
        */
       public int getLevelListCount() {
         if (levelListBuilder_ == null) {
@@ -920,7 +920,7 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .DPEEOGGEECK level_list = 7;</code>
+       * <code>repeated .DPEEOGGEECK level_list = 9;</code>
        */
       public emu.grasscutter.net.proto.DPEEOGGEECKOuterClass.DPEEOGGEECK getLevelList(int index) {
         if (levelListBuilder_ == null) {
@@ -930,7 +930,7 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .DPEEOGGEECK level_list = 7;</code>
+       * <code>repeated .DPEEOGGEECK level_list = 9;</code>
        */
       public Builder setLevelList(
           int index, emu.grasscutter.net.proto.DPEEOGGEECKOuterClass.DPEEOGGEECK value) {
@@ -947,7 +947,7 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DPEEOGGEECK level_list = 7;</code>
+       * <code>repeated .DPEEOGGEECK level_list = 9;</code>
        */
       public Builder setLevelList(
           int index, emu.grasscutter.net.proto.DPEEOGGEECKOuterClass.DPEEOGGEECK.Builder builderForValue) {
@@ -961,7 +961,7 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DPEEOGGEECK level_list = 7;</code>
+       * <code>repeated .DPEEOGGEECK level_list = 9;</code>
        */
       public Builder addLevelList(emu.grasscutter.net.proto.DPEEOGGEECKOuterClass.DPEEOGGEECK value) {
         if (levelListBuilder_ == null) {
@@ -977,7 +977,7 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DPEEOGGEECK level_list = 7;</code>
+       * <code>repeated .DPEEOGGEECK level_list = 9;</code>
        */
       public Builder addLevelList(
           int index, emu.grasscutter.net.proto.DPEEOGGEECKOuterClass.DPEEOGGEECK value) {
@@ -994,7 +994,7 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DPEEOGGEECK level_list = 7;</code>
+       * <code>repeated .DPEEOGGEECK level_list = 9;</code>
        */
       public Builder addLevelList(
           emu.grasscutter.net.proto.DPEEOGGEECKOuterClass.DPEEOGGEECK.Builder builderForValue) {
@@ -1008,7 +1008,7 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DPEEOGGEECK level_list = 7;</code>
+       * <code>repeated .DPEEOGGEECK level_list = 9;</code>
        */
       public Builder addLevelList(
           int index, emu.grasscutter.net.proto.DPEEOGGEECKOuterClass.DPEEOGGEECK.Builder builderForValue) {
@@ -1022,7 +1022,7 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DPEEOGGEECK level_list = 7;</code>
+       * <code>repeated .DPEEOGGEECK level_list = 9;</code>
        */
       public Builder addAllLevelList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.DPEEOGGEECKOuterClass.DPEEOGGEECK> values) {
@@ -1037,7 +1037,7 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DPEEOGGEECK level_list = 7;</code>
+       * <code>repeated .DPEEOGGEECK level_list = 9;</code>
        */
       public Builder clearLevelList() {
         if (levelListBuilder_ == null) {
@@ -1050,7 +1050,7 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DPEEOGGEECK level_list = 7;</code>
+       * <code>repeated .DPEEOGGEECK level_list = 9;</code>
        */
       public Builder removeLevelList(int index) {
         if (levelListBuilder_ == null) {
@@ -1063,14 +1063,14 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DPEEOGGEECK level_list = 7;</code>
+       * <code>repeated .DPEEOGGEECK level_list = 9;</code>
        */
       public emu.grasscutter.net.proto.DPEEOGGEECKOuterClass.DPEEOGGEECK.Builder getLevelListBuilder(
           int index) {
         return getLevelListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .DPEEOGGEECK level_list = 7;</code>
+       * <code>repeated .DPEEOGGEECK level_list = 9;</code>
        */
       public emu.grasscutter.net.proto.DPEEOGGEECKOuterClass.DPEEOGGEECKOrBuilder getLevelListOrBuilder(
           int index) {
@@ -1080,7 +1080,7 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .DPEEOGGEECK level_list = 7;</code>
+       * <code>repeated .DPEEOGGEECK level_list = 9;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.DPEEOGGEECKOuterClass.DPEEOGGEECKOrBuilder> 
            getLevelListOrBuilderList() {
@@ -1091,14 +1091,14 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .DPEEOGGEECK level_list = 7;</code>
+       * <code>repeated .DPEEOGGEECK level_list = 9;</code>
        */
       public emu.grasscutter.net.proto.DPEEOGGEECKOuterClass.DPEEOGGEECK.Builder addLevelListBuilder() {
         return getLevelListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.DPEEOGGEECKOuterClass.DPEEOGGEECK.getDefaultInstance());
       }
       /**
-       * <code>repeated .DPEEOGGEECK level_list = 7;</code>
+       * <code>repeated .DPEEOGGEECK level_list = 9;</code>
        */
       public emu.grasscutter.net.proto.DPEEOGGEECKOuterClass.DPEEOGGEECK.Builder addLevelListBuilder(
           int index) {
@@ -1106,7 +1106,7 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
             index, emu.grasscutter.net.proto.DPEEOGGEECKOuterClass.DPEEOGGEECK.getDefaultInstance());
       }
       /**
-       * <code>repeated .DPEEOGGEECK level_list = 7;</code>
+       * <code>repeated .DPEEOGGEECK level_list = 9;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.DPEEOGGEECKOuterClass.DPEEOGGEECK.Builder> 
            getLevelListBuilderList() {
@@ -1196,7 +1196,7 @@ public final class ArenaChallengeV5DetailInfoOuterClass {
       "\n ArenaChallengeV5DetailInfo.proto\032\021DPEE" +
       "OGGEECK.proto\032\021MLLGCECGGME.proto\"e\n\032Aren" +
       "aChallengeV5DetailInfo\022%\n\017level_info_lis" +
-      "t\030\002 \003(\0132\014.MLLGCECGGME\022 \n\nlevel_list\030\007 \003(" +
+      "t\030\n \003(\0132\014.MLLGCECGGME\022 \n\nlevel_list\030\t \003(" +
       "\0132\014.DPEEOGGEECKBA\n\031emu.grasscutter.net.p" +
       "rotoB$ArenaChallengeV5DetailInfoOuterCla" +
       "ssb\006proto3"

@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "RoguelikeSettleCoinInfoOuterClass";
 
 message RoguelikeSettleCoinInfo {
-	uint32 PBNGPNDHIJK = 4;
-	uint32 OKGEBIHDJOM = 12;
-	uint32 fehaakffenc = 13;
+	uint32 PBNGPNDHIJK = 50000;
+	uint32 OKGEBIHDJOM = 50001;
+	uint32 fehaakffenc = 50002;
 }

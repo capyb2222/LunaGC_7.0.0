@@ -19,7 +19,7 @@ public final class _LoliFriendDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 CEDBOCOCINO = 7;</code>
+     * <code>uint32 CEDBOCOCINO = 6;</code>
      * @return The cEDBOCOCINO.
      */
     int getCEDBOCOCINO();
@@ -69,7 +69,7 @@ public final class _LoliFriendDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 56: {
+            case 48: {
 
               cEDBOCOCINO_ = input.readUInt32();
               break;
@@ -106,10 +106,10 @@ public final class _LoliFriendDetailInfoOuterClass {
               emu.grasscutter.net.proto._LoliFriendDetailInfoOuterClass._LoliFriendDetailInfo.class, emu.grasscutter.net.proto._LoliFriendDetailInfoOuterClass._LoliFriendDetailInfo.Builder.class);
     }
 
-    public static final int CEDBOCOCINO_FIELD_NUMBER = 7;
+    public static final int CEDBOCOCINO_FIELD_NUMBER = 6;
     private int cEDBOCOCINO_;
     /**
-     * <code>uint32 CEDBOCOCINO = 7;</code>
+     * <code>uint32 CEDBOCOCINO = 6;</code>
      * @return The cEDBOCOCINO.
      */
     @java.lang.Override
@@ -132,7 +132,7 @@ public final class _LoliFriendDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (cEDBOCOCINO_ != 0) {
-        output.writeUInt32(7, cEDBOCOCINO_);
+        output.writeUInt32(6, cEDBOCOCINO_);
       }
       unknownFields.writeTo(output);
     }
@@ -145,7 +145,7 @@ public final class _LoliFriendDetailInfoOuterClass {
       size = 0;
       if (cEDBOCOCINO_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, cEDBOCOCINO_);
+          .computeUInt32Size(6, cEDBOCOCINO_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -421,7 +421,7 @@ public final class _LoliFriendDetailInfoOuterClass {
 
       private int cEDBOCOCINO_ ;
       /**
-       * <code>uint32 CEDBOCOCINO = 7;</code>
+       * <code>uint32 CEDBOCOCINO = 6;</code>
        * @return The cEDBOCOCINO.
        */
       @java.lang.Override
@@ -429,7 +429,7 @@ public final class _LoliFriendDetailInfoOuterClass {
         return cEDBOCOCINO_;
       }
       /**
-       * <code>uint32 CEDBOCOCINO = 7;</code>
+       * <code>uint32 CEDBOCOCINO = 6;</code>
        * @param value The cEDBOCOCINO to set.
        * @return This builder for chaining.
        */
@@ -440,7 +440,7 @@ public final class _LoliFriendDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 CEDBOCOCINO = 7;</code>
+       * <code>uint32 CEDBOCOCINO = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearCEDBOCOCINO() {
@@ -517,7 +517,7 @@ public final class _LoliFriendDetailInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\033_LoliFriendDetailInfo.proto\",\n\025_LoliFr" +
-      "iendDetailInfo\022\023\n\013CEDBOCOCINO\030\007 \001(\rB<\n\031e" +
+      "iendDetailInfo\022\023\n\013CEDBOCOCINO\030\006 \001(\rB<\n\031e" +
       "mu.grasscutter.net.protoB\037_LoliFriendDet" +
       "ailInfoOuterClassb\006proto3"
     };

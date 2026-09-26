@@ -16,6 +16,6 @@ message ChapterStateNotify {
 	}
 	EFFIIMIDMPP EHKKFCAGELK = 50000;
 	uint32 chapter_id = 9;
-	ChapterState chapter_state = 50001;
-	MDKJMILIFBA MLBMNAKEEOM = 50002;
+	ChapterState chapter_state = 4;
+	MDKJMILIFBA MLBMNAKEEOM = 50001;
 }

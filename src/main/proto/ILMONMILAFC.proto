@@ -5,5 +5,5 @@ option java_outer_classname = "ILMONMILAFCOuterClass";
 
 message ILMONMILAFC {
 	uint32 avatar_id = 2;
-	bool is_trial_avatar = 15;
+	bool is_trial_avatar = 13;
 }

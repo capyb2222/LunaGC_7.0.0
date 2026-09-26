@@ -4,5 +4,5 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "_GalleryContextEntryOuterClass";
 
 message _GalleryContextEntry {
-	map<string, string> GHONGHOHFCC = 9;
+	map<string, string> GHONGHOHFCC = 15;
 }

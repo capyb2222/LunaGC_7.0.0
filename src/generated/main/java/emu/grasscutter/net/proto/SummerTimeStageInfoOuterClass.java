@@ -19,19 +19,19 @@ public final class SummerTimeStageInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool is_open = 11;</code>
+     * <code>bool is_open = 14;</code>
      * @return The isOpen.
      */
     boolean getIsOpen();
 
     /**
-     * <code>uint32 stage_id = 14;</code>
+     * <code>uint32 stage_id = 13;</code>
      * @return The stageId.
      */
     int getStageId();
 
     /**
-     * <code>uint32 open_time = 15;</code>
+     * <code>uint32 open_time = 12;</code>
      * @return The openTime.
      */
     int getOpenTime();
@@ -81,19 +81,19 @@ public final class SummerTimeStageInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 88: {
+            case 96: {
 
-              isOpen_ = input.readBool();
+              openTime_ = input.readUInt32();
               break;
             }
-            case 112: {
+            case 104: {
 
               stageId_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 112: {
 
-              openTime_ = input.readUInt32();
+              isOpen_ = input.readBool();
               break;
             }
             default: {
@@ -128,10 +128,10 @@ public final class SummerTimeStageInfoOuterClass {
               emu.grasscutter.net.proto.SummerTimeStageInfoOuterClass.SummerTimeStageInfo.class, emu.grasscutter.net.proto.SummerTimeStageInfoOuterClass.SummerTimeStageInfo.Builder.class);
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 11;
+    public static final int IS_OPEN_FIELD_NUMBER = 14;
     private boolean isOpen_;
     /**
-     * <code>bool is_open = 11;</code>
+     * <code>bool is_open = 14;</code>
      * @return The isOpen.
      */
     @java.lang.Override
@@ -139,10 +139,10 @@ public final class SummerTimeStageInfoOuterClass {
       return isOpen_;
     }
 
-    public static final int STAGE_ID_FIELD_NUMBER = 14;
+    public static final int STAGE_ID_FIELD_NUMBER = 13;
     private int stageId_;
     /**
-     * <code>uint32 stage_id = 14;</code>
+     * <code>uint32 stage_id = 13;</code>
      * @return The stageId.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class SummerTimeStageInfoOuterClass {
       return stageId_;
     }
 
-    public static final int OPEN_TIME_FIELD_NUMBER = 15;
+    public static final int OPEN_TIME_FIELD_NUMBER = 12;
     private int openTime_;
     /**
-     * <code>uint32 open_time = 15;</code>
+     * <code>uint32 open_time = 12;</code>
      * @return The openTime.
      */
     @java.lang.Override
@@ -175,14 +175,14 @@ public final class SummerTimeStageInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (isOpen_ != false) {
-        output.writeBool(11, isOpen_);
+      if (openTime_ != 0) {
+        output.writeUInt32(12, openTime_);
       }
       if (stageId_ != 0) {
-        output.writeUInt32(14, stageId_);
+        output.writeUInt32(13, stageId_);
       }
-      if (openTime_ != 0) {
-        output.writeUInt32(15, openTime_);
+      if (isOpen_ != false) {
+        output.writeBool(14, isOpen_);
       }
       unknownFields.writeTo(output);
     }
@@ -193,17 +193,17 @@ public final class SummerTimeStageInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (isOpen_ != false) {
+      if (openTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(11, isOpen_);
+          .computeUInt32Size(12, openTime_);
       }
       if (stageId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, stageId_);
+          .computeUInt32Size(13, stageId_);
       }
-      if (openTime_ != 0) {
+      if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, openTime_);
+          .computeBoolSize(14, isOpen_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -500,7 +500,7 @@ public final class SummerTimeStageInfoOuterClass {
 
       private boolean isOpen_ ;
       /**
-       * <code>bool is_open = 11;</code>
+       * <code>bool is_open = 14;</code>
        * @return The isOpen.
        */
       @java.lang.Override
@@ -508,7 +508,7 @@ public final class SummerTimeStageInfoOuterClass {
         return isOpen_;
       }
       /**
-       * <code>bool is_open = 11;</code>
+       * <code>bool is_open = 14;</code>
        * @param value The isOpen to set.
        * @return This builder for chaining.
        */
@@ -519,7 +519,7 @@ public final class SummerTimeStageInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_open = 11;</code>
+       * <code>bool is_open = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsOpen() {
@@ -531,7 +531,7 @@ public final class SummerTimeStageInfoOuterClass {
 
       private int stageId_ ;
       /**
-       * <code>uint32 stage_id = 14;</code>
+       * <code>uint32 stage_id = 13;</code>
        * @return The stageId.
        */
       @java.lang.Override
@@ -539,7 +539,7 @@ public final class SummerTimeStageInfoOuterClass {
         return stageId_;
       }
       /**
-       * <code>uint32 stage_id = 14;</code>
+       * <code>uint32 stage_id = 13;</code>
        * @param value The stageId to set.
        * @return This builder for chaining.
        */
@@ -550,7 +550,7 @@ public final class SummerTimeStageInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 stage_id = 14;</code>
+       * <code>uint32 stage_id = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearStageId() {
@@ -562,7 +562,7 @@ public final class SummerTimeStageInfoOuterClass {
 
       private int openTime_ ;
       /**
-       * <code>uint32 open_time = 15;</code>
+       * <code>uint32 open_time = 12;</code>
        * @return The openTime.
        */
       @java.lang.Override
@@ -570,7 +570,7 @@ public final class SummerTimeStageInfoOuterClass {
         return openTime_;
       }
       /**
-       * <code>uint32 open_time = 15;</code>
+       * <code>uint32 open_time = 12;</code>
        * @param value The openTime to set.
        * @return This builder for chaining.
        */
@@ -581,7 +581,7 @@ public final class SummerTimeStageInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 open_time = 15;</code>
+       * <code>uint32 open_time = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearOpenTime() {
@@ -658,8 +658,8 @@ public final class SummerTimeStageInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\031SummerTimeStageInfo.proto\"K\n\023SummerTim" +
-      "eStageInfo\022\017\n\007is_open\030\013 \001(\010\022\020\n\010stage_id\030" +
-      "\016 \001(\r\022\021\n\topen_time\030\017 \001(\rB:\n\031emu.grasscut" +
+      "eStageInfo\022\017\n\007is_open\030\016 \001(\010\022\020\n\010stage_id\030" +
+      "\r \001(\r\022\021\n\topen_time\030\014 \001(\rB:\n\031emu.grasscut" +
       "ter.net.protoB\035SummerTimeStageInfoOuterC" +
       "lassb\006proto3"
     };

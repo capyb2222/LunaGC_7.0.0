@@ -6,5 +6,5 @@ option java_outer_classname = "AcrobaticsBattleDetailInfoOuterClass";
 import "NDPGIKHKOHF.proto";
 
 message AcrobaticsBattleDetailInfo {
-	repeated NDPGIKHKOHF stage_info_list = 15;
+	repeated NDPGIKHKOHF stage_info_list = 5;
 }

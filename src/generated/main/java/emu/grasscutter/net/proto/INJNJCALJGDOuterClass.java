@@ -19,19 +19,19 @@ public final class INJNJCALJGDOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 CMNDIKJCLOH = 1;</code>
+     * <code>uint32 CMNDIKJCLOH = 50000;</code>
      * @return The cMNDIKJCLOH.
      */
     int getCMNDIKJCLOH();
 
     /**
-     * <code>uint32 rotation = 4;</code>
+     * <code>uint32 rotation = 5;</code>
      * @return The rotation.
      */
     int getRotation();
 
     /**
-     * <code>uint32 JLAIKBAJKAG = 11;</code>
+     * <code>uint32 JLAIKBAJKAG = 50001;</code>
      * @return The jLAIKBAJKAG.
      */
     int getJLAIKBAJKAG();
@@ -81,17 +81,17 @@ public final class INJNJCALJGDOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
-
-              cMNDIKJCLOH_ = input.readUInt32();
-              break;
-            }
-            case 32: {
+            case 40: {
 
               rotation_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 400000: {
+
+              cMNDIKJCLOH_ = input.readUInt32();
+              break;
+            }
+            case 400008: {
 
               jLAIKBAJKAG_ = input.readUInt32();
               break;
@@ -128,10 +128,10 @@ public final class INJNJCALJGDOuterClass {
               emu.grasscutter.net.proto.INJNJCALJGDOuterClass.INJNJCALJGD.class, emu.grasscutter.net.proto.INJNJCALJGDOuterClass.INJNJCALJGD.Builder.class);
     }
 
-    public static final int CMNDIKJCLOH_FIELD_NUMBER = 1;
+    public static final int CMNDIKJCLOH_FIELD_NUMBER = 50000;
     private int cMNDIKJCLOH_;
     /**
-     * <code>uint32 CMNDIKJCLOH = 1;</code>
+     * <code>uint32 CMNDIKJCLOH = 50000;</code>
      * @return The cMNDIKJCLOH.
      */
     @java.lang.Override
@@ -139,10 +139,10 @@ public final class INJNJCALJGDOuterClass {
       return cMNDIKJCLOH_;
     }
 
-    public static final int ROTATION_FIELD_NUMBER = 4;
+    public static final int ROTATION_FIELD_NUMBER = 5;
     private int rotation_;
     /**
-     * <code>uint32 rotation = 4;</code>
+     * <code>uint32 rotation = 5;</code>
      * @return The rotation.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class INJNJCALJGDOuterClass {
       return rotation_;
     }
 
-    public static final int JLAIKBAJKAG_FIELD_NUMBER = 11;
+    public static final int JLAIKBAJKAG_FIELD_NUMBER = 50001;
     private int jLAIKBAJKAG_;
     /**
-     * <code>uint32 JLAIKBAJKAG = 11;</code>
+     * <code>uint32 JLAIKBAJKAG = 50001;</code>
      * @return The jLAIKBAJKAG.
      */
     @java.lang.Override
@@ -175,14 +175,14 @@ public final class INJNJCALJGDOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (cMNDIKJCLOH_ != 0) {
-        output.writeUInt32(1, cMNDIKJCLOH_);
-      }
       if (rotation_ != 0) {
-        output.writeUInt32(4, rotation_);
+        output.writeUInt32(5, rotation_);
+      }
+      if (cMNDIKJCLOH_ != 0) {
+        output.writeUInt32(50000, cMNDIKJCLOH_);
       }
       if (jLAIKBAJKAG_ != 0) {
-        output.writeUInt32(11, jLAIKBAJKAG_);
+        output.writeUInt32(50001, jLAIKBAJKAG_);
       }
       unknownFields.writeTo(output);
     }
@@ -193,17 +193,17 @@ public final class INJNJCALJGDOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (cMNDIKJCLOH_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, cMNDIKJCLOH_);
-      }
       if (rotation_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, rotation_);
+          .computeUInt32Size(5, rotation_);
+      }
+      if (cMNDIKJCLOH_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50000, cMNDIKJCLOH_);
       }
       if (jLAIKBAJKAG_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, jLAIKBAJKAG_);
+          .computeUInt32Size(50001, jLAIKBAJKAG_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -499,7 +499,7 @@ public final class INJNJCALJGDOuterClass {
 
       private int cMNDIKJCLOH_ ;
       /**
-       * <code>uint32 CMNDIKJCLOH = 1;</code>
+       * <code>uint32 CMNDIKJCLOH = 50000;</code>
        * @return The cMNDIKJCLOH.
        */
       @java.lang.Override
@@ -507,7 +507,7 @@ public final class INJNJCALJGDOuterClass {
         return cMNDIKJCLOH_;
       }
       /**
-       * <code>uint32 CMNDIKJCLOH = 1;</code>
+       * <code>uint32 CMNDIKJCLOH = 50000;</code>
        * @param value The cMNDIKJCLOH to set.
        * @return This builder for chaining.
        */
@@ -518,7 +518,7 @@ public final class INJNJCALJGDOuterClass {
         return this;
       }
       /**
-       * <code>uint32 CMNDIKJCLOH = 1;</code>
+       * <code>uint32 CMNDIKJCLOH = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearCMNDIKJCLOH() {
@@ -530,7 +530,7 @@ public final class INJNJCALJGDOuterClass {
 
       private int rotation_ ;
       /**
-       * <code>uint32 rotation = 4;</code>
+       * <code>uint32 rotation = 5;</code>
        * @return The rotation.
        */
       @java.lang.Override
@@ -538,7 +538,7 @@ public final class INJNJCALJGDOuterClass {
         return rotation_;
       }
       /**
-       * <code>uint32 rotation = 4;</code>
+       * <code>uint32 rotation = 5;</code>
        * @param value The rotation to set.
        * @return This builder for chaining.
        */
@@ -549,7 +549,7 @@ public final class INJNJCALJGDOuterClass {
         return this;
       }
       /**
-       * <code>uint32 rotation = 4;</code>
+       * <code>uint32 rotation = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearRotation() {
@@ -561,7 +561,7 @@ public final class INJNJCALJGDOuterClass {
 
       private int jLAIKBAJKAG_ ;
       /**
-       * <code>uint32 JLAIKBAJKAG = 11;</code>
+       * <code>uint32 JLAIKBAJKAG = 50001;</code>
        * @return The jLAIKBAJKAG.
        */
       @java.lang.Override
@@ -569,7 +569,7 @@ public final class INJNJCALJGDOuterClass {
         return jLAIKBAJKAG_;
       }
       /**
-       * <code>uint32 JLAIKBAJKAG = 11;</code>
+       * <code>uint32 JLAIKBAJKAG = 50001;</code>
        * @param value The jLAIKBAJKAG to set.
        * @return This builder for chaining.
        */
@@ -580,7 +580,7 @@ public final class INJNJCALJGDOuterClass {
         return this;
       }
       /**
-       * <code>uint32 JLAIKBAJKAG = 11;</code>
+       * <code>uint32 JLAIKBAJKAG = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearJLAIKBAJKAG() {
@@ -656,10 +656,10 @@ public final class INJNJCALJGDOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021INJNJCALJGD.proto\"I\n\013INJNJCALJGD\022\023\n\013CM" +
-      "NDIKJCLOH\030\001 \001(\r\022\020\n\010rotation\030\004 \001(\r\022\023\n\013JLA" +
-      "IKBAJKAG\030\013 \001(\rB2\n\031emu.grasscutter.net.pr" +
-      "otoB\025INJNJCALJGDOuterClassb\006proto3"
+      "\n\021INJNJCALJGD.proto\"M\n\013INJNJCALJGD\022\025\n\013CM" +
+      "NDIKJCLOH\030\320\206\003 \001(\r\022\020\n\010rotation\030\005 \001(\r\022\025\n\013J" +
+      "LAIKBAJKAG\030\321\206\003 \001(\rB2\n\031emu.grasscutter.ne" +
+      "t.protoB\025INJNJCALJGDOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

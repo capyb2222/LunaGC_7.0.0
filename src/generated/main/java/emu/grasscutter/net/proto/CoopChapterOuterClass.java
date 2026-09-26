@@ -181,25 +181,25 @@ public final class CoopChapterOuterClass {
         int index);
 
     /**
-     * <code>repeated .CoopReward coop_reward_list = 50005;</code>
+     * <code>repeated .CoopReward coop_reward_list = 9;</code>
      */
     java.util.List<emu.grasscutter.net.proto.CoopRewardOuterClass.CoopReward> 
         getCoopRewardListList();
     /**
-     * <code>repeated .CoopReward coop_reward_list = 50005;</code>
+     * <code>repeated .CoopReward coop_reward_list = 9;</code>
      */
     emu.grasscutter.net.proto.CoopRewardOuterClass.CoopReward getCoopRewardList(int index);
     /**
-     * <code>repeated .CoopReward coop_reward_list = 50005;</code>
+     * <code>repeated .CoopReward coop_reward_list = 9;</code>
      */
     int getCoopRewardListCount();
     /**
-     * <code>repeated .CoopReward coop_reward_list = 50005;</code>
+     * <code>repeated .CoopReward coop_reward_list = 9;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.CoopRewardOuterClass.CoopRewardOrBuilder> 
         getCoopRewardListOrBuilderList();
     /**
-     * <code>repeated .CoopReward coop_reward_list = 50005;</code>
+     * <code>repeated .CoopReward coop_reward_list = 9;</code>
      */
     emu.grasscutter.net.proto.CoopRewardOuterClass.CoopRewardOrBuilder getCoopRewardListOrBuilder(
         int index);
@@ -279,6 +279,15 @@ public final class CoopChapterOuterClass {
               }
               coopPointList_.add(
                   input.readMessage(emu.grasscutter.net.proto.CoopPointOuterClass.CoopPoint.parser(), extensionRegistry));
+              break;
+            }
+            case 74: {
+              if (!((mutable_bitField0_ & 0x00000040) != 0)) {
+                coopRewardList_ = new java.util.ArrayList<emu.grasscutter.net.proto.CoopRewardOuterClass.CoopReward>();
+                mutable_bitField0_ |= 0x00000040;
+              }
+              coopRewardList_.add(
+                  input.readMessage(emu.grasscutter.net.proto.CoopRewardOuterClass.CoopReward.parser(), extensionRegistry));
               break;
             }
             case 80: {
@@ -372,15 +381,6 @@ public final class CoopChapterOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 400042: {
-              if (!((mutable_bitField0_ & 0x00000040) != 0)) {
-                coopRewardList_ = new java.util.ArrayList<emu.grasscutter.net.proto.CoopRewardOuterClass.CoopReward>();
-                mutable_bitField0_ |= 0x00000040;
-              }
-              coopRewardList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.CoopRewardOuterClass.CoopReward.parser(), extensionRegistry));
-              break;
-            }
             default: {
               if (!parseUnknownField(
                   input, unknownFields, extensionRegistry, tag)) {
@@ -402,6 +402,9 @@ public final class CoopChapterOuterClass {
         if (((mutable_bitField0_ & 0x00000010) != 0)) {
           coopPointList_ = java.util.Collections.unmodifiableList(coopPointList_);
         }
+        if (((mutable_bitField0_ & 0x00000040) != 0)) {
+          coopRewardList_ = java.util.Collections.unmodifiableList(coopRewardList_);
+        }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
           oDECGJCJBAB_.makeImmutable(); // C
         }
@@ -410,9 +413,6 @@ public final class CoopChapterOuterClass {
         }
         if (((mutable_bitField0_ & 0x00000008) != 0)) {
           lockReasonList_.makeImmutable(); // C
-        }
-        if (((mutable_bitField0_ & 0x00000040) != 0)) {
-          coopRewardList_ = java.util.Collections.unmodifiableList(coopRewardList_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -866,17 +866,17 @@ public final class CoopChapterOuterClass {
       return coopCgList_.get(index);
     }
 
-    public static final int COOP_REWARD_LIST_FIELD_NUMBER = 50005;
+    public static final int COOP_REWARD_LIST_FIELD_NUMBER = 9;
     private java.util.List<emu.grasscutter.net.proto.CoopRewardOuterClass.CoopReward> coopRewardList_;
     /**
-     * <code>repeated .CoopReward coop_reward_list = 50005;</code>
+     * <code>repeated .CoopReward coop_reward_list = 9;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.CoopRewardOuterClass.CoopReward> getCoopRewardListList() {
       return coopRewardList_;
     }
     /**
-     * <code>repeated .CoopReward coop_reward_list = 50005;</code>
+     * <code>repeated .CoopReward coop_reward_list = 9;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.CoopRewardOuterClass.CoopRewardOrBuilder> 
@@ -884,21 +884,21 @@ public final class CoopChapterOuterClass {
       return coopRewardList_;
     }
     /**
-     * <code>repeated .CoopReward coop_reward_list = 50005;</code>
+     * <code>repeated .CoopReward coop_reward_list = 9;</code>
      */
     @java.lang.Override
     public int getCoopRewardListCount() {
       return coopRewardList_.size();
     }
     /**
-     * <code>repeated .CoopReward coop_reward_list = 50005;</code>
+     * <code>repeated .CoopReward coop_reward_list = 9;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.CoopRewardOuterClass.CoopReward getCoopRewardList(int index) {
       return coopRewardList_.get(index);
     }
     /**
-     * <code>repeated .CoopReward coop_reward_list = 50005;</code>
+     * <code>repeated .CoopReward coop_reward_list = 9;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.CoopRewardOuterClass.CoopRewardOrBuilder getCoopRewardListOrBuilder(
@@ -929,6 +929,9 @@ public final class CoopChapterOuterClass {
       }
       for (int i = 0; i < coopPointList_.size(); i++) {
         output.writeMessage(8, coopPointList_.get(i));
+      }
+      for (int i = 0; i < coopRewardList_.size(); i++) {
+        output.writeMessage(9, coopRewardList_.get(i));
       }
       if (id_ != 0) {
         output.writeUInt32(10, id_);
@@ -966,9 +969,6 @@ public final class CoopChapterOuterClass {
       for (int i = 0; i < lockReasonList_.size(); i++) {
         output.writeUInt32NoTag(lockReasonList_.getInt(i));
       }
-      for (int i = 0; i < coopRewardList_.size(); i++) {
-        output.writeMessage(50005, coopRewardList_.get(i));
-      }
       unknownFields.writeTo(output);
     }
 
@@ -989,6 +989,10 @@ public final class CoopChapterOuterClass {
       for (int i = 0; i < coopPointList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(8, coopPointList_.get(i));
+      }
+      for (int i = 0; i < coopRewardList_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(9, coopRewardList_.get(i));
       }
       if (id_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -1053,10 +1057,6 @@ public final class CoopChapterOuterClass {
               .computeInt32SizeNoTag(dataSize);
         }
         lockReasonListMemoizedSerializedSize = dataSize;
-      }
-      for (int i = 0; i < coopRewardList_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(50005, coopRewardList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -2612,7 +2612,7 @@ public final class CoopChapterOuterClass {
           emu.grasscutter.net.proto.CoopRewardOuterClass.CoopReward, emu.grasscutter.net.proto.CoopRewardOuterClass.CoopReward.Builder, emu.grasscutter.net.proto.CoopRewardOuterClass.CoopRewardOrBuilder> coopRewardListBuilder_;
 
       /**
-       * <code>repeated .CoopReward coop_reward_list = 50005;</code>
+       * <code>repeated .CoopReward coop_reward_list = 9;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.CoopRewardOuterClass.CoopReward> getCoopRewardListList() {
         if (coopRewardListBuilder_ == null) {
@@ -2622,7 +2622,7 @@ public final class CoopChapterOuterClass {
         }
       }
       /**
-       * <code>repeated .CoopReward coop_reward_list = 50005;</code>
+       * <code>repeated .CoopReward coop_reward_list = 9;</code>
        */
       public int getCoopRewardListCount() {
         if (coopRewardListBuilder_ == null) {
@@ -2632,7 +2632,7 @@ public final class CoopChapterOuterClass {
         }
       }
       /**
-       * <code>repeated .CoopReward coop_reward_list = 50005;</code>
+       * <code>repeated .CoopReward coop_reward_list = 9;</code>
        */
       public emu.grasscutter.net.proto.CoopRewardOuterClass.CoopReward getCoopRewardList(int index) {
         if (coopRewardListBuilder_ == null) {
@@ -2642,7 +2642,7 @@ public final class CoopChapterOuterClass {
         }
       }
       /**
-       * <code>repeated .CoopReward coop_reward_list = 50005;</code>
+       * <code>repeated .CoopReward coop_reward_list = 9;</code>
        */
       public Builder setCoopRewardList(
           int index, emu.grasscutter.net.proto.CoopRewardOuterClass.CoopReward value) {
@@ -2659,7 +2659,7 @@ public final class CoopChapterOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CoopReward coop_reward_list = 50005;</code>
+       * <code>repeated .CoopReward coop_reward_list = 9;</code>
        */
       public Builder setCoopRewardList(
           int index, emu.grasscutter.net.proto.CoopRewardOuterClass.CoopReward.Builder builderForValue) {
@@ -2673,7 +2673,7 @@ public final class CoopChapterOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CoopReward coop_reward_list = 50005;</code>
+       * <code>repeated .CoopReward coop_reward_list = 9;</code>
        */
       public Builder addCoopRewardList(emu.grasscutter.net.proto.CoopRewardOuterClass.CoopReward value) {
         if (coopRewardListBuilder_ == null) {
@@ -2689,7 +2689,7 @@ public final class CoopChapterOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CoopReward coop_reward_list = 50005;</code>
+       * <code>repeated .CoopReward coop_reward_list = 9;</code>
        */
       public Builder addCoopRewardList(
           int index, emu.grasscutter.net.proto.CoopRewardOuterClass.CoopReward value) {
@@ -2706,7 +2706,7 @@ public final class CoopChapterOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CoopReward coop_reward_list = 50005;</code>
+       * <code>repeated .CoopReward coop_reward_list = 9;</code>
        */
       public Builder addCoopRewardList(
           emu.grasscutter.net.proto.CoopRewardOuterClass.CoopReward.Builder builderForValue) {
@@ -2720,7 +2720,7 @@ public final class CoopChapterOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CoopReward coop_reward_list = 50005;</code>
+       * <code>repeated .CoopReward coop_reward_list = 9;</code>
        */
       public Builder addCoopRewardList(
           int index, emu.grasscutter.net.proto.CoopRewardOuterClass.CoopReward.Builder builderForValue) {
@@ -2734,7 +2734,7 @@ public final class CoopChapterOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CoopReward coop_reward_list = 50005;</code>
+       * <code>repeated .CoopReward coop_reward_list = 9;</code>
        */
       public Builder addAllCoopRewardList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.CoopRewardOuterClass.CoopReward> values) {
@@ -2749,7 +2749,7 @@ public final class CoopChapterOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CoopReward coop_reward_list = 50005;</code>
+       * <code>repeated .CoopReward coop_reward_list = 9;</code>
        */
       public Builder clearCoopRewardList() {
         if (coopRewardListBuilder_ == null) {
@@ -2762,7 +2762,7 @@ public final class CoopChapterOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CoopReward coop_reward_list = 50005;</code>
+       * <code>repeated .CoopReward coop_reward_list = 9;</code>
        */
       public Builder removeCoopRewardList(int index) {
         if (coopRewardListBuilder_ == null) {
@@ -2775,14 +2775,14 @@ public final class CoopChapterOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CoopReward coop_reward_list = 50005;</code>
+       * <code>repeated .CoopReward coop_reward_list = 9;</code>
        */
       public emu.grasscutter.net.proto.CoopRewardOuterClass.CoopReward.Builder getCoopRewardListBuilder(
           int index) {
         return getCoopRewardListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .CoopReward coop_reward_list = 50005;</code>
+       * <code>repeated .CoopReward coop_reward_list = 9;</code>
        */
       public emu.grasscutter.net.proto.CoopRewardOuterClass.CoopRewardOrBuilder getCoopRewardListOrBuilder(
           int index) {
@@ -2792,7 +2792,7 @@ public final class CoopChapterOuterClass {
         }
       }
       /**
-       * <code>repeated .CoopReward coop_reward_list = 50005;</code>
+       * <code>repeated .CoopReward coop_reward_list = 9;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.CoopRewardOuterClass.CoopRewardOrBuilder> 
            getCoopRewardListOrBuilderList() {
@@ -2803,14 +2803,14 @@ public final class CoopChapterOuterClass {
         }
       }
       /**
-       * <code>repeated .CoopReward coop_reward_list = 50005;</code>
+       * <code>repeated .CoopReward coop_reward_list = 9;</code>
        */
       public emu.grasscutter.net.proto.CoopRewardOuterClass.CoopReward.Builder addCoopRewardListBuilder() {
         return getCoopRewardListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.CoopRewardOuterClass.CoopReward.getDefaultInstance());
       }
       /**
-       * <code>repeated .CoopReward coop_reward_list = 50005;</code>
+       * <code>repeated .CoopReward coop_reward_list = 9;</code>
        */
       public emu.grasscutter.net.proto.CoopRewardOuterClass.CoopReward.Builder addCoopRewardListBuilder(
           int index) {
@@ -2818,7 +2818,7 @@ public final class CoopChapterOuterClass {
             index, emu.grasscutter.net.proto.CoopRewardOuterClass.CoopReward.getDefaultInstance());
       }
       /**
-       * <code>repeated .CoopReward coop_reward_list = 50005;</code>
+       * <code>repeated .CoopReward coop_reward_list = 9;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.CoopRewardOuterClass.CoopReward.Builder> 
            getCoopRewardListBuilderList() {
@@ -2911,7 +2911,7 @@ public final class CoopChapterOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021CoopChapter.proto\032\014CoopCg.proto\032\017CoopP" +
-      "oint.proto\032\020CoopReward.proto\"\366\003\n\013CoopCha" +
+      "oint.proto\032\020CoopReward.proto\"\364\003\n\013CoopCha" +
       "pter\0228\n\017seen_ending_map\030\014 \003(\0132\037.CoopChap" +
       "ter.SeenEndingMapEntry\022\025\n\013ODECGJCJBAB\030\320\206" +
       "\003 \003(\r\022\031\n\017total_end_count\030\321\206\003 \001(\r\022!\n\005stat" +
@@ -2919,13 +2919,13 @@ public final class CoopChapterOuterClass {
       "end_count\030\322\206\003 \001(\r\022\n\n\002id\030\n \001(\r\022\025\n\013JKAGGEG" +
       "DKOH\030\323\206\003 \003(\r\022\032\n\020lock_reason_list\030\324\206\003 \003(\r" +
       "\022#\n\017coop_point_list\030\010 \003(\0132\n.CoopPoint\022\035\n" +
-      "\014coop_cg_list\030\004 \003(\0132\007.CoopCg\022\'\n\020coop_rew" +
-      "ard_list\030\325\206\003 \003(\0132\013.CoopReward\0324\n\022SeenEnd" +
-      "ingMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:" +
-      "\0028\001\"X\n\005State\022\017\n\013STATE_CLOSE\020\000\022\027\n\023STATE_C" +
-      "OND_NOT_MEET\020\001\022\023\n\017STATE_COND_MEET\020\002\022\020\n\014S" +
-      "TATE_ACCEPT\020\003B2\n\031emu.grasscutter.net.pro" +
-      "toB\025CoopChapterOuterClassb\006proto3"
+      "\014coop_cg_list\030\004 \003(\0132\007.CoopCg\022%\n\020coop_rew" +
+      "ard_list\030\t \003(\0132\013.CoopReward\0324\n\022SeenEndin" +
+      "gMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028" +
+      "\001\"X\n\005State\022\017\n\013STATE_CLOSE\020\000\022\027\n\023STATE_CON" +
+      "D_NOT_MEET\020\001\022\023\n\017STATE_COND_MEET\020\002\022\020\n\014STA" +
+      "TE_ACCEPT\020\003B2\n\031emu.grasscutter.net.proto" +
+      "B\025CoopChapterOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

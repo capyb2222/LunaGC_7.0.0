@@ -4,8 +4,8 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "IKJLKLMCEHMOuterClass";
 
 message IKJLKLMCEHM {
-	bool is_finish = 2;
-	uint32 level_id = 3;
-	bool is_open = 5;
+	bool is_finish = 1;
+	uint32 level_id = 4;
+	bool is_open = 11;
 	uint32 score = 10;
 }

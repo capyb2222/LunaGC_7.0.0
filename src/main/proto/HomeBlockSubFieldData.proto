@@ -6,6 +6,6 @@ option java_outer_classname = "HomeBlockSubFieldDataOuterClass";
 import "Vector.proto";
 
 message HomeBlockSubFieldData {
-	Vector rot = 1;
-	Vector pos = 15;
+	Vector rot = 3;
+	Vector pos = 14;
 }

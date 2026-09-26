@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "WindFieldStageInfoOuterClass";
 
 message WindFieldStageInfo {
-	uint32 stage_id = 1;
-	uint32 open_time = 2;
-	bool is_open = 13;
+	uint32 stage_id = 14;
+	uint32 open_time = 13;
+	bool is_open = 2;
 }

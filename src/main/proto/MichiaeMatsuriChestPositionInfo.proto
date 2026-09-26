@@ -6,7 +6,7 @@ option java_outer_classname = "MichiaeMatsuriChestPositionInfoOuterClass";
 import "Vector.proto";
 
 message MichiaeMatsuriChestPositionInfo {
-	Vector pos = 3;
-	uint32 config_id = 7;
-	uint32 group_id = 9;
+	Vector pos = 14;
+	uint32 config_id = 5;
+	uint32 group_id = 6;
 }

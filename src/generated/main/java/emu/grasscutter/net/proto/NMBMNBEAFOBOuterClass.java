@@ -19,13 +19,13 @@ public final class NMBMNBEAFOBOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 LOGADODHKOG = 3;</code>
+     * <code>uint32 LOGADODHKOG = 50000;</code>
      * @return The lOGADODHKOG.
      */
     int getLOGADODHKOG();
 
     /**
-     * <code>uint32 JAECPMNDFGP = 12;</code>
+     * <code>uint32 JAECPMNDFGP = 50001;</code>
      * @return The jAECPMNDFGP.
      */
     int getJAECPMNDFGP();
@@ -75,12 +75,12 @@ public final class NMBMNBEAFOBOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 400000: {
 
               lOGADODHKOG_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 400008: {
 
               jAECPMNDFGP_ = input.readUInt32();
               break;
@@ -117,10 +117,10 @@ public final class NMBMNBEAFOBOuterClass {
               emu.grasscutter.net.proto.NMBMNBEAFOBOuterClass.NMBMNBEAFOB.class, emu.grasscutter.net.proto.NMBMNBEAFOBOuterClass.NMBMNBEAFOB.Builder.class);
     }
 
-    public static final int LOGADODHKOG_FIELD_NUMBER = 3;
+    public static final int LOGADODHKOG_FIELD_NUMBER = 50000;
     private int lOGADODHKOG_;
     /**
-     * <code>uint32 LOGADODHKOG = 3;</code>
+     * <code>uint32 LOGADODHKOG = 50000;</code>
      * @return The lOGADODHKOG.
      */
     @java.lang.Override
@@ -128,10 +128,10 @@ public final class NMBMNBEAFOBOuterClass {
       return lOGADODHKOG_;
     }
 
-    public static final int JAECPMNDFGP_FIELD_NUMBER = 12;
+    public static final int JAECPMNDFGP_FIELD_NUMBER = 50001;
     private int jAECPMNDFGP_;
     /**
-     * <code>uint32 JAECPMNDFGP = 12;</code>
+     * <code>uint32 JAECPMNDFGP = 50001;</code>
      * @return The jAECPMNDFGP.
      */
     @java.lang.Override
@@ -154,10 +154,10 @@ public final class NMBMNBEAFOBOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (lOGADODHKOG_ != 0) {
-        output.writeUInt32(3, lOGADODHKOG_);
+        output.writeUInt32(50000, lOGADODHKOG_);
       }
       if (jAECPMNDFGP_ != 0) {
-        output.writeUInt32(12, jAECPMNDFGP_);
+        output.writeUInt32(50001, jAECPMNDFGP_);
       }
       unknownFields.writeTo(output);
     }
@@ -170,11 +170,11 @@ public final class NMBMNBEAFOBOuterClass {
       size = 0;
       if (lOGADODHKOG_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, lOGADODHKOG_);
+          .computeUInt32Size(50000, lOGADODHKOG_);
       }
       if (jAECPMNDFGP_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, jAECPMNDFGP_);
+          .computeUInt32Size(50001, jAECPMNDFGP_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -460,7 +460,7 @@ public final class NMBMNBEAFOBOuterClass {
 
       private int lOGADODHKOG_ ;
       /**
-       * <code>uint32 LOGADODHKOG = 3;</code>
+       * <code>uint32 LOGADODHKOG = 50000;</code>
        * @return The lOGADODHKOG.
        */
       @java.lang.Override
@@ -468,7 +468,7 @@ public final class NMBMNBEAFOBOuterClass {
         return lOGADODHKOG_;
       }
       /**
-       * <code>uint32 LOGADODHKOG = 3;</code>
+       * <code>uint32 LOGADODHKOG = 50000;</code>
        * @param value The lOGADODHKOG to set.
        * @return This builder for chaining.
        */
@@ -479,7 +479,7 @@ public final class NMBMNBEAFOBOuterClass {
         return this;
       }
       /**
-       * <code>uint32 LOGADODHKOG = 3;</code>
+       * <code>uint32 LOGADODHKOG = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearLOGADODHKOG() {
@@ -491,7 +491,7 @@ public final class NMBMNBEAFOBOuterClass {
 
       private int jAECPMNDFGP_ ;
       /**
-       * <code>uint32 JAECPMNDFGP = 12;</code>
+       * <code>uint32 JAECPMNDFGP = 50001;</code>
        * @return The jAECPMNDFGP.
        */
       @java.lang.Override
@@ -499,7 +499,7 @@ public final class NMBMNBEAFOBOuterClass {
         return jAECPMNDFGP_;
       }
       /**
-       * <code>uint32 JAECPMNDFGP = 12;</code>
+       * <code>uint32 JAECPMNDFGP = 50001;</code>
        * @param value The jAECPMNDFGP to set.
        * @return This builder for chaining.
        */
@@ -510,7 +510,7 @@ public final class NMBMNBEAFOBOuterClass {
         return this;
       }
       /**
-       * <code>uint32 JAECPMNDFGP = 12;</code>
+       * <code>uint32 JAECPMNDFGP = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearJAECPMNDFGP() {
@@ -586,10 +586,10 @@ public final class NMBMNBEAFOBOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021NMBMNBEAFOB.proto\"7\n\013NMBMNBEAFOB\022\023\n\013LO" +
-      "GADODHKOG\030\003 \001(\r\022\023\n\013JAECPMNDFGP\030\014 \001(\rB2\n\031" +
-      "emu.grasscutter.net.protoB\025NMBMNBEAFOBOu" +
-      "terClassb\006proto3"
+      "\n\021NMBMNBEAFOB.proto\";\n\013NMBMNBEAFOB\022\025\n\013LO" +
+      "GADODHKOG\030\320\206\003 \001(\r\022\025\n\013JAECPMNDFGP\030\321\206\003 \001(\r" +
+      "B2\n\031emu.grasscutter.net.protoB\025NMBMNBEAF" +
+      "OBOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

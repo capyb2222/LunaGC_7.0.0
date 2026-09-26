@@ -19,13 +19,13 @@ public final class _TowerDefenseLevelInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint64 _first_pass_time_ms = 6;</code>
+     * <code>uint64 _first_pass_time_ms = 7;</code>
      * @return The firstPassTimeMs.
      */
     long getFirstPassTimeMs();
 
     /**
-     * <code>bool _is_perfect_defense = 9;</code>
+     * <code>bool _is_perfect_defense = 4;</code>
      * @return The isPerfectDefense.
      */
     boolean getIsPerfectDefense();
@@ -75,14 +75,14 @@ public final class _TowerDefenseLevelInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
-
-              FirstPassTimeMs_ = input.readUInt64();
-              break;
-            }
-            case 72: {
+            case 32: {
 
               IsPerfectDefense_ = input.readBool();
+              break;
+            }
+            case 56: {
+
+              FirstPassTimeMs_ = input.readUInt64();
               break;
             }
             default: {
@@ -117,10 +117,10 @@ public final class _TowerDefenseLevelInfoOuterClass {
               emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfo.class, emu.grasscutter.net.proto._TowerDefenseLevelInfoOuterClass._TowerDefenseLevelInfo.Builder.class);
     }
 
-    public static final int _FIRST_PASS_TIME_MS_FIELD_NUMBER = 6;
+    public static final int _FIRST_PASS_TIME_MS_FIELD_NUMBER = 7;
     private long FirstPassTimeMs_;
     /**
-     * <code>uint64 _first_pass_time_ms = 6;</code>
+     * <code>uint64 _first_pass_time_ms = 7;</code>
      * @return The firstPassTimeMs.
      */
     @java.lang.Override
@@ -128,10 +128,10 @@ public final class _TowerDefenseLevelInfoOuterClass {
       return FirstPassTimeMs_;
     }
 
-    public static final int _IS_PERFECT_DEFENSE_FIELD_NUMBER = 9;
+    public static final int _IS_PERFECT_DEFENSE_FIELD_NUMBER = 4;
     private boolean IsPerfectDefense_;
     /**
-     * <code>bool _is_perfect_defense = 9;</code>
+     * <code>bool _is_perfect_defense = 4;</code>
      * @return The isPerfectDefense.
      */
     @java.lang.Override
@@ -153,11 +153,11 @@ public final class _TowerDefenseLevelInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (FirstPassTimeMs_ != 0L) {
-        output.writeUInt64(6, FirstPassTimeMs_);
-      }
       if (IsPerfectDefense_ != false) {
-        output.writeBool(9, IsPerfectDefense_);
+        output.writeBool(4, IsPerfectDefense_);
+      }
+      if (FirstPassTimeMs_ != 0L) {
+        output.writeUInt64(7, FirstPassTimeMs_);
       }
       unknownFields.writeTo(output);
     }
@@ -168,13 +168,13 @@ public final class _TowerDefenseLevelInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (FirstPassTimeMs_ != 0L) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(6, FirstPassTimeMs_);
-      }
       if (IsPerfectDefense_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, IsPerfectDefense_);
+          .computeBoolSize(4, IsPerfectDefense_);
+      }
+      if (FirstPassTimeMs_ != 0L) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt64Size(7, FirstPassTimeMs_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -462,7 +462,7 @@ public final class _TowerDefenseLevelInfoOuterClass {
 
       private long FirstPassTimeMs_ ;
       /**
-       * <code>uint64 _first_pass_time_ms = 6;</code>
+       * <code>uint64 _first_pass_time_ms = 7;</code>
        * @return The firstPassTimeMs.
        */
       @java.lang.Override
@@ -470,7 +470,7 @@ public final class _TowerDefenseLevelInfoOuterClass {
         return FirstPassTimeMs_;
       }
       /**
-       * <code>uint64 _first_pass_time_ms = 6;</code>
+       * <code>uint64 _first_pass_time_ms = 7;</code>
        * @param value The firstPassTimeMs to set.
        * @return This builder for chaining.
        */
@@ -481,7 +481,7 @@ public final class _TowerDefenseLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint64 _first_pass_time_ms = 6;</code>
+       * <code>uint64 _first_pass_time_ms = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearFirstPassTimeMs() {
@@ -493,7 +493,7 @@ public final class _TowerDefenseLevelInfoOuterClass {
 
       private boolean IsPerfectDefense_ ;
       /**
-       * <code>bool _is_perfect_defense = 9;</code>
+       * <code>bool _is_perfect_defense = 4;</code>
        * @return The isPerfectDefense.
        */
       @java.lang.Override
@@ -501,7 +501,7 @@ public final class _TowerDefenseLevelInfoOuterClass {
         return IsPerfectDefense_;
       }
       /**
-       * <code>bool _is_perfect_defense = 9;</code>
+       * <code>bool _is_perfect_defense = 4;</code>
        * @param value The isPerfectDefense to set.
        * @return This builder for chaining.
        */
@@ -512,7 +512,7 @@ public final class _TowerDefenseLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool _is_perfect_defense = 9;</code>
+       * <code>bool _is_perfect_defense = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsPerfectDefense() {
@@ -590,7 +590,7 @@ public final class _TowerDefenseLevelInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034_TowerDefenseLevelInfo.proto\"R\n\026_Tower" +
       "DefenseLevelInfo\022\033\n\023_first_pass_time_ms\030" +
-      "\006 \001(\004\022\033\n\023_is_perfect_defense\030\t \001(\010B=\n\031em" +
+      "\007 \001(\004\022\033\n\023_is_perfect_defense\030\004 \001(\010B=\n\031em" +
       "u.grasscutter.net.protoB _TowerDefenseLe" +
       "velInfoOuterClassb\006proto3"
     };

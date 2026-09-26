@@ -25,19 +25,19 @@ public final class GravenInnocenceCampStageInfoOuterClass {
     int getLevelId();
 
     /**
-     * <code>uint32 stage_id = 2;</code>
+     * <code>uint32 stage_id = 6;</code>
      * @return The stageId.
      */
     int getStageId();
 
     /**
-     * <code>bool is_open = 5;</code>
+     * <code>bool is_open = 7;</code>
      * @return The isOpen.
      */
     boolean getIsOpen();
 
     /**
-     * <code>bool is_finished = 10;</code>
+     * <code>bool is_finished = 12;</code>
      * @return The isFinished.
      */
     boolean getIsFinished();
@@ -92,17 +92,17 @@ public final class GravenInnocenceCampStageInfoOuterClass {
               levelId_ = input.readUInt32();
               break;
             }
-            case 16: {
+            case 48: {
 
               stageId_ = input.readUInt32();
               break;
             }
-            case 40: {
+            case 56: {
 
               isOpen_ = input.readBool();
               break;
             }
-            case 80: {
+            case 96: {
 
               isFinished_ = input.readBool();
               break;
@@ -150,10 +150,10 @@ public final class GravenInnocenceCampStageInfoOuterClass {
       return levelId_;
     }
 
-    public static final int STAGE_ID_FIELD_NUMBER = 2;
+    public static final int STAGE_ID_FIELD_NUMBER = 6;
     private int stageId_;
     /**
-     * <code>uint32 stage_id = 2;</code>
+     * <code>uint32 stage_id = 6;</code>
      * @return The stageId.
      */
     @java.lang.Override
@@ -161,10 +161,10 @@ public final class GravenInnocenceCampStageInfoOuterClass {
       return stageId_;
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 5;
+    public static final int IS_OPEN_FIELD_NUMBER = 7;
     private boolean isOpen_;
     /**
-     * <code>bool is_open = 5;</code>
+     * <code>bool is_open = 7;</code>
      * @return The isOpen.
      */
     @java.lang.Override
@@ -172,10 +172,10 @@ public final class GravenInnocenceCampStageInfoOuterClass {
       return isOpen_;
     }
 
-    public static final int IS_FINISHED_FIELD_NUMBER = 10;
+    public static final int IS_FINISHED_FIELD_NUMBER = 12;
     private boolean isFinished_;
     /**
-     * <code>bool is_finished = 10;</code>
+     * <code>bool is_finished = 12;</code>
      * @return The isFinished.
      */
     @java.lang.Override
@@ -201,13 +201,13 @@ public final class GravenInnocenceCampStageInfoOuterClass {
         output.writeUInt32(1, levelId_);
       }
       if (stageId_ != 0) {
-        output.writeUInt32(2, stageId_);
+        output.writeUInt32(6, stageId_);
       }
       if (isOpen_ != false) {
-        output.writeBool(5, isOpen_);
+        output.writeBool(7, isOpen_);
       }
       if (isFinished_ != false) {
-        output.writeBool(10, isFinished_);
+        output.writeBool(12, isFinished_);
       }
       unknownFields.writeTo(output);
     }
@@ -224,15 +224,15 @@ public final class GravenInnocenceCampStageInfoOuterClass {
       }
       if (stageId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, stageId_);
+          .computeUInt32Size(6, stageId_);
       }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(5, isOpen_);
+          .computeBoolSize(7, isOpen_);
       }
       if (isFinished_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(10, isFinished_);
+          .computeBoolSize(12, isFinished_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -571,7 +571,7 @@ public final class GravenInnocenceCampStageInfoOuterClass {
 
       private int stageId_ ;
       /**
-       * <code>uint32 stage_id = 2;</code>
+       * <code>uint32 stage_id = 6;</code>
        * @return The stageId.
        */
       @java.lang.Override
@@ -579,7 +579,7 @@ public final class GravenInnocenceCampStageInfoOuterClass {
         return stageId_;
       }
       /**
-       * <code>uint32 stage_id = 2;</code>
+       * <code>uint32 stage_id = 6;</code>
        * @param value The stageId to set.
        * @return This builder for chaining.
        */
@@ -590,7 +590,7 @@ public final class GravenInnocenceCampStageInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 stage_id = 2;</code>
+       * <code>uint32 stage_id = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearStageId() {
@@ -602,7 +602,7 @@ public final class GravenInnocenceCampStageInfoOuterClass {
 
       private boolean isOpen_ ;
       /**
-       * <code>bool is_open = 5;</code>
+       * <code>bool is_open = 7;</code>
        * @return The isOpen.
        */
       @java.lang.Override
@@ -610,7 +610,7 @@ public final class GravenInnocenceCampStageInfoOuterClass {
         return isOpen_;
       }
       /**
-       * <code>bool is_open = 5;</code>
+       * <code>bool is_open = 7;</code>
        * @param value The isOpen to set.
        * @return This builder for chaining.
        */
@@ -621,7 +621,7 @@ public final class GravenInnocenceCampStageInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_open = 5;</code>
+       * <code>bool is_open = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsOpen() {
@@ -633,7 +633,7 @@ public final class GravenInnocenceCampStageInfoOuterClass {
 
       private boolean isFinished_ ;
       /**
-       * <code>bool is_finished = 10;</code>
+       * <code>bool is_finished = 12;</code>
        * @return The isFinished.
        */
       @java.lang.Override
@@ -641,7 +641,7 @@ public final class GravenInnocenceCampStageInfoOuterClass {
         return isFinished_;
       }
       /**
-       * <code>bool is_finished = 10;</code>
+       * <code>bool is_finished = 12;</code>
        * @param value The isFinished to set.
        * @return This builder for chaining.
        */
@@ -652,7 +652,7 @@ public final class GravenInnocenceCampStageInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_finished = 10;</code>
+       * <code>bool is_finished = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsFinished() {
@@ -730,8 +730,8 @@ public final class GravenInnocenceCampStageInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\"GravenInnocenceCampStageInfo.proto\"h\n\034" +
       "GravenInnocenceCampStageInfo\022\020\n\010level_id" +
-      "\030\001 \001(\r\022\020\n\010stage_id\030\002 \001(\r\022\017\n\007is_open\030\005 \001(" +
-      "\010\022\023\n\013is_finished\030\n \001(\010BC\n\031emu.grasscutte" +
+      "\030\001 \001(\r\022\020\n\010stage_id\030\006 \001(\r\022\017\n\007is_open\030\007 \001(" +
+      "\010\022\023\n\013is_finished\030\014 \001(\010BC\n\031emu.grasscutte" +
       "r.net.protoB&GravenInnocenceCampStageInf" +
       "oOuterClassb\006proto3"
     };

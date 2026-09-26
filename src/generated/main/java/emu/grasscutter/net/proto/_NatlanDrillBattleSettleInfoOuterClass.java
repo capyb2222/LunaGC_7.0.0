@@ -19,25 +19,25 @@ public final class _NatlanDrillBattleSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool is_new_record = 4;</code>
+     * <code>bool is_new_record = 1;</code>
      * @return The isNewRecord.
      */
     boolean getIsNewRecord();
 
     /**
-     * <code>uint32 level_id = 5;</code>
+     * <code>uint32 level_id = 8;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>uint32 difficulty = 6;</code>
+     * <code>uint32 difficulty = 9;</code>
      * @return The difficulty.
      */
     int getDifficulty();
 
     /**
-     * <code>uint32 cost_time = 8;</code>
+     * <code>uint32 cost_time = 6;</code>
      * @return The costTime.
      */
     int getCostTime();
@@ -60,7 +60,7 @@ public final class _NatlanDrillBattleSettleInfoOuterClass {
     int getDLDAJAHOKNI(int index);
 
     /**
-     * <code>uint32 CJNILLPKODC = 15;</code>
+     * <code>uint32 CJNILLPKODC = 14;</code>
      * @return The cJNILLPKODC.
      */
     int getCJNILLPKODC();
@@ -112,24 +112,24 @@ public final class _NatlanDrillBattleSettleInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 8: {
 
               isNewRecord_ = input.readBool();
               break;
             }
-            case 40: {
-
-              levelId_ = input.readUInt32();
-              break;
-            }
             case 48: {
 
-              difficulty_ = input.readUInt32();
+              costTime_ = input.readUInt32();
               break;
             }
             case 64: {
 
-              costTime_ = input.readUInt32();
+              levelId_ = input.readUInt32();
+              break;
+            }
+            case 72: {
+
+              difficulty_ = input.readUInt32();
               break;
             }
             case 104: {
@@ -153,7 +153,7 @@ public final class _NatlanDrillBattleSettleInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 120: {
+            case 112: {
 
               cJNILLPKODC_ = input.readUInt32();
               break;
@@ -193,10 +193,10 @@ public final class _NatlanDrillBattleSettleInfoOuterClass {
               emu.grasscutter.net.proto._NatlanDrillBattleSettleInfoOuterClass._NatlanDrillBattleSettleInfo.class, emu.grasscutter.net.proto._NatlanDrillBattleSettleInfoOuterClass._NatlanDrillBattleSettleInfo.Builder.class);
     }
 
-    public static final int IS_NEW_RECORD_FIELD_NUMBER = 4;
+    public static final int IS_NEW_RECORD_FIELD_NUMBER = 1;
     private boolean isNewRecord_;
     /**
-     * <code>bool is_new_record = 4;</code>
+     * <code>bool is_new_record = 1;</code>
      * @return The isNewRecord.
      */
     @java.lang.Override
@@ -204,10 +204,10 @@ public final class _NatlanDrillBattleSettleInfoOuterClass {
       return isNewRecord_;
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 5;
+    public static final int LEVEL_ID_FIELD_NUMBER = 8;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 5;</code>
+     * <code>uint32 level_id = 8;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -215,10 +215,10 @@ public final class _NatlanDrillBattleSettleInfoOuterClass {
       return levelId_;
     }
 
-    public static final int DIFFICULTY_FIELD_NUMBER = 6;
+    public static final int DIFFICULTY_FIELD_NUMBER = 9;
     private int difficulty_;
     /**
-     * <code>uint32 difficulty = 6;</code>
+     * <code>uint32 difficulty = 9;</code>
      * @return The difficulty.
      */
     @java.lang.Override
@@ -226,10 +226,10 @@ public final class _NatlanDrillBattleSettleInfoOuterClass {
       return difficulty_;
     }
 
-    public static final int COST_TIME_FIELD_NUMBER = 8;
+    public static final int COST_TIME_FIELD_NUMBER = 6;
     private int costTime_;
     /**
-     * <code>uint32 cost_time = 8;</code>
+     * <code>uint32 cost_time = 6;</code>
      * @return The costTime.
      */
     @java.lang.Override
@@ -265,10 +265,10 @@ public final class _NatlanDrillBattleSettleInfoOuterClass {
     }
     private int dLDAJAHOKNIMemoizedSerializedSize = -1;
 
-    public static final int CJNILLPKODC_FIELD_NUMBER = 15;
+    public static final int CJNILLPKODC_FIELD_NUMBER = 14;
     private int cJNILLPKODC_;
     /**
-     * <code>uint32 CJNILLPKODC = 15;</code>
+     * <code>uint32 CJNILLPKODC = 14;</code>
      * @return The cJNILLPKODC.
      */
     @java.lang.Override
@@ -292,16 +292,16 @@ public final class _NatlanDrillBattleSettleInfoOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (isNewRecord_ != false) {
-        output.writeBool(4, isNewRecord_);
-      }
-      if (levelId_ != 0) {
-        output.writeUInt32(5, levelId_);
-      }
-      if (difficulty_ != 0) {
-        output.writeUInt32(6, difficulty_);
+        output.writeBool(1, isNewRecord_);
       }
       if (costTime_ != 0) {
-        output.writeUInt32(8, costTime_);
+        output.writeUInt32(6, costTime_);
+      }
+      if (levelId_ != 0) {
+        output.writeUInt32(8, levelId_);
+      }
+      if (difficulty_ != 0) {
+        output.writeUInt32(9, difficulty_);
       }
       if (getDLDAJAHOKNIList().size() > 0) {
         output.writeUInt32NoTag(106);
@@ -311,7 +311,7 @@ public final class _NatlanDrillBattleSettleInfoOuterClass {
         output.writeUInt32NoTag(dLDAJAHOKNI_.getInt(i));
       }
       if (cJNILLPKODC_ != 0) {
-        output.writeUInt32(15, cJNILLPKODC_);
+        output.writeUInt32(14, cJNILLPKODC_);
       }
       unknownFields.writeTo(output);
     }
@@ -324,19 +324,19 @@ public final class _NatlanDrillBattleSettleInfoOuterClass {
       size = 0;
       if (isNewRecord_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(4, isNewRecord_);
-      }
-      if (levelId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, levelId_);
-      }
-      if (difficulty_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, difficulty_);
+          .computeBoolSize(1, isNewRecord_);
       }
       if (costTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, costTime_);
+          .computeUInt32Size(6, costTime_);
+      }
+      if (levelId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(8, levelId_);
+      }
+      if (difficulty_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(9, difficulty_);
       }
       {
         int dataSize = 0;
@@ -354,7 +354,7 @@ public final class _NatlanDrillBattleSettleInfoOuterClass {
       }
       if (cJNILLPKODC_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, cJNILLPKODC_);
+          .computeUInt32Size(14, cJNILLPKODC_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -696,7 +696,7 @@ public final class _NatlanDrillBattleSettleInfoOuterClass {
 
       private boolean isNewRecord_ ;
       /**
-       * <code>bool is_new_record = 4;</code>
+       * <code>bool is_new_record = 1;</code>
        * @return The isNewRecord.
        */
       @java.lang.Override
@@ -704,7 +704,7 @@ public final class _NatlanDrillBattleSettleInfoOuterClass {
         return isNewRecord_;
       }
       /**
-       * <code>bool is_new_record = 4;</code>
+       * <code>bool is_new_record = 1;</code>
        * @param value The isNewRecord to set.
        * @return This builder for chaining.
        */
@@ -715,7 +715,7 @@ public final class _NatlanDrillBattleSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_new_record = 4;</code>
+       * <code>bool is_new_record = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsNewRecord() {
@@ -727,7 +727,7 @@ public final class _NatlanDrillBattleSettleInfoOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 5;</code>
+       * <code>uint32 level_id = 8;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -735,7 +735,7 @@ public final class _NatlanDrillBattleSettleInfoOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 5;</code>
+       * <code>uint32 level_id = 8;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -746,7 +746,7 @@ public final class _NatlanDrillBattleSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 5;</code>
+       * <code>uint32 level_id = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -758,7 +758,7 @@ public final class _NatlanDrillBattleSettleInfoOuterClass {
 
       private int difficulty_ ;
       /**
-       * <code>uint32 difficulty = 6;</code>
+       * <code>uint32 difficulty = 9;</code>
        * @return The difficulty.
        */
       @java.lang.Override
@@ -766,7 +766,7 @@ public final class _NatlanDrillBattleSettleInfoOuterClass {
         return difficulty_;
       }
       /**
-       * <code>uint32 difficulty = 6;</code>
+       * <code>uint32 difficulty = 9;</code>
        * @param value The difficulty to set.
        * @return This builder for chaining.
        */
@@ -777,7 +777,7 @@ public final class _NatlanDrillBattleSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 difficulty = 6;</code>
+       * <code>uint32 difficulty = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearDifficulty() {
@@ -789,7 +789,7 @@ public final class _NatlanDrillBattleSettleInfoOuterClass {
 
       private int costTime_ ;
       /**
-       * <code>uint32 cost_time = 8;</code>
+       * <code>uint32 cost_time = 6;</code>
        * @return The costTime.
        */
       @java.lang.Override
@@ -797,7 +797,7 @@ public final class _NatlanDrillBattleSettleInfoOuterClass {
         return costTime_;
       }
       /**
-       * <code>uint32 cost_time = 8;</code>
+       * <code>uint32 cost_time = 6;</code>
        * @param value The costTime to set.
        * @return This builder for chaining.
        */
@@ -808,7 +808,7 @@ public final class _NatlanDrillBattleSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 cost_time = 8;</code>
+       * <code>uint32 cost_time = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearCostTime() {
@@ -899,7 +899,7 @@ public final class _NatlanDrillBattleSettleInfoOuterClass {
 
       private int cJNILLPKODC_ ;
       /**
-       * <code>uint32 CJNILLPKODC = 15;</code>
+       * <code>uint32 CJNILLPKODC = 14;</code>
        * @return The cJNILLPKODC.
        */
       @java.lang.Override
@@ -907,7 +907,7 @@ public final class _NatlanDrillBattleSettleInfoOuterClass {
         return cJNILLPKODC_;
       }
       /**
-       * <code>uint32 CJNILLPKODC = 15;</code>
+       * <code>uint32 CJNILLPKODC = 14;</code>
        * @param value The cJNILLPKODC to set.
        * @return This builder for chaining.
        */
@@ -918,7 +918,7 @@ public final class _NatlanDrillBattleSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 CJNILLPKODC = 15;</code>
+       * <code>uint32 CJNILLPKODC = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearCJNILLPKODC() {
@@ -996,9 +996,9 @@ public final class _NatlanDrillBattleSettleInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\"_NatlanDrillBattleSettleInfo.proto\"\230\001\n" +
       "\034_NatlanDrillBattleSettleInfo\022\025\n\ris_new_" +
-      "record\030\004 \001(\010\022\020\n\010level_id\030\005 \001(\r\022\022\n\ndiffic" +
-      "ulty\030\006 \001(\r\022\021\n\tcost_time\030\010 \001(\r\022\023\n\013DLDAJAH" +
-      "OKNI\030\r \003(\r\022\023\n\013CJNILLPKODC\030\017 \001(\rBC\n\031emu.g" +
+      "record\030\001 \001(\010\022\020\n\010level_id\030\010 \001(\r\022\022\n\ndiffic" +
+      "ulty\030\t \001(\r\022\021\n\tcost_time\030\006 \001(\r\022\023\n\013DLDAJAH" +
+      "OKNI\030\r \003(\r\022\023\n\013CJNILLPKODC\030\016 \001(\rBC\n\031emu.g" +
       "rasscutter.net.protoB&_NatlanDrillBattle" +
       "SettleInfoOuterClassb\006proto3"
     };

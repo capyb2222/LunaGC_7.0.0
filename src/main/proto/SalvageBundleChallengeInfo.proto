@@ -4,5 +4,5 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "SalvageBundleChallengeInfoOuterClass";
 
 message SalvageBundleChallengeInfo {
-	repeated uint32 finished_bundle_list = 8;
+	repeated uint32 finished_bundle_list = 11;
 }

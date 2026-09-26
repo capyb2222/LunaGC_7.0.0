@@ -19,13 +19,13 @@ public final class _PlatformKeyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 group_id = 11;</code>
+     * <code>uint32 group_id = 14;</code>
      * @return The groupId.
      */
     int getGroupId();
 
     /**
-     * <code>uint32 FKNIADPEMCJ = 14;</code>
+     * <code>uint32 FKNIADPEMCJ = 9;</code>
      * @return The fKNIADPEMCJ.
      */
     int getFKNIADPEMCJ();
@@ -75,14 +75,14 @@ public final class _PlatformKeyOuterClass {
             case 0:
               done = true;
               break;
-            case 88: {
+            case 72: {
 
-              groupId_ = input.readUInt32();
+              fKNIADPEMCJ_ = input.readUInt32();
               break;
             }
             case 112: {
 
-              fKNIADPEMCJ_ = input.readUInt32();
+              groupId_ = input.readUInt32();
               break;
             }
             default: {
@@ -117,10 +117,10 @@ public final class _PlatformKeyOuterClass {
               emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey.class, emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey.Builder.class);
     }
 
-    public static final int GROUP_ID_FIELD_NUMBER = 11;
+    public static final int GROUP_ID_FIELD_NUMBER = 14;
     private int groupId_;
     /**
-     * <code>uint32 group_id = 11;</code>
+     * <code>uint32 group_id = 14;</code>
      * @return The groupId.
      */
     @java.lang.Override
@@ -128,10 +128,10 @@ public final class _PlatformKeyOuterClass {
       return groupId_;
     }
 
-    public static final int FKNIADPEMCJ_FIELD_NUMBER = 14;
+    public static final int FKNIADPEMCJ_FIELD_NUMBER = 9;
     private int fKNIADPEMCJ_;
     /**
-     * <code>uint32 FKNIADPEMCJ = 14;</code>
+     * <code>uint32 FKNIADPEMCJ = 9;</code>
      * @return The fKNIADPEMCJ.
      */
     @java.lang.Override
@@ -153,11 +153,11 @@ public final class _PlatformKeyOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (groupId_ != 0) {
-        output.writeUInt32(11, groupId_);
-      }
       if (fKNIADPEMCJ_ != 0) {
-        output.writeUInt32(14, fKNIADPEMCJ_);
+        output.writeUInt32(9, fKNIADPEMCJ_);
+      }
+      if (groupId_ != 0) {
+        output.writeUInt32(14, groupId_);
       }
       unknownFields.writeTo(output);
     }
@@ -168,13 +168,13 @@ public final class _PlatformKeyOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (groupId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, groupId_);
-      }
       if (fKNIADPEMCJ_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, fKNIADPEMCJ_);
+          .computeUInt32Size(9, fKNIADPEMCJ_);
+      }
+      if (groupId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(14, groupId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -460,7 +460,7 @@ public final class _PlatformKeyOuterClass {
 
       private int groupId_ ;
       /**
-       * <code>uint32 group_id = 11;</code>
+       * <code>uint32 group_id = 14;</code>
        * @return The groupId.
        */
       @java.lang.Override
@@ -468,7 +468,7 @@ public final class _PlatformKeyOuterClass {
         return groupId_;
       }
       /**
-       * <code>uint32 group_id = 11;</code>
+       * <code>uint32 group_id = 14;</code>
        * @param value The groupId to set.
        * @return This builder for chaining.
        */
@@ -479,7 +479,7 @@ public final class _PlatformKeyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 group_id = 11;</code>
+       * <code>uint32 group_id = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearGroupId() {
@@ -491,7 +491,7 @@ public final class _PlatformKeyOuterClass {
 
       private int fKNIADPEMCJ_ ;
       /**
-       * <code>uint32 FKNIADPEMCJ = 14;</code>
+       * <code>uint32 FKNIADPEMCJ = 9;</code>
        * @return The fKNIADPEMCJ.
        */
       @java.lang.Override
@@ -499,7 +499,7 @@ public final class _PlatformKeyOuterClass {
         return fKNIADPEMCJ_;
       }
       /**
-       * <code>uint32 FKNIADPEMCJ = 14;</code>
+       * <code>uint32 FKNIADPEMCJ = 9;</code>
        * @param value The fKNIADPEMCJ to set.
        * @return This builder for chaining.
        */
@@ -510,7 +510,7 @@ public final class _PlatformKeyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 FKNIADPEMCJ = 14;</code>
+       * <code>uint32 FKNIADPEMCJ = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearFKNIADPEMCJ() {
@@ -587,7 +587,7 @@ public final class _PlatformKeyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\022_PlatformKey.proto\"5\n\014_PlatformKey\022\020\n\010" +
-      "group_id\030\013 \001(\r\022\023\n\013FKNIADPEMCJ\030\016 \001(\rB3\n\031e" +
+      "group_id\030\016 \001(\r\022\023\n\013FKNIADPEMCJ\030\t \001(\rB3\n\031e" +
       "mu.grasscutter.net.protoB\026_PlatformKeyOu" +
       "terClassb\006proto3"
     };

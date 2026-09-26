@@ -43,7 +43,7 @@ public final class GainBuffDetailInfoOuterClass {
         int index);
 
     /**
-     * <code>uint32 difficulty = 14;</code>
+     * <code>uint32 difficulty = 15;</code>
      * @return The difficulty.
      */
     int getDifficulty();
@@ -104,7 +104,7 @@ public final class GainBuffDetailInfoOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.HPIBBLDNIMEOuterClass.HPIBBLDNIME.parser(), extensionRegistry));
               break;
             }
-            case 112: {
+            case 120: {
 
               difficulty_ = input.readUInt32();
               break;
@@ -184,10 +184,10 @@ public final class GainBuffDetailInfoOuterClass {
       return levelInfoList_.get(index);
     }
 
-    public static final int DIFFICULTY_FIELD_NUMBER = 14;
+    public static final int DIFFICULTY_FIELD_NUMBER = 15;
     private int difficulty_;
     /**
-     * <code>uint32 difficulty = 14;</code>
+     * <code>uint32 difficulty = 15;</code>
      * @return The difficulty.
      */
     @java.lang.Override
@@ -213,7 +213,7 @@ public final class GainBuffDetailInfoOuterClass {
         output.writeMessage(3, levelInfoList_.get(i));
       }
       if (difficulty_ != 0) {
-        output.writeUInt32(14, difficulty_);
+        output.writeUInt32(15, difficulty_);
       }
       unknownFields.writeTo(output);
     }
@@ -230,7 +230,7 @@ public final class GainBuffDetailInfoOuterClass {
       }
       if (difficulty_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, difficulty_);
+          .computeUInt32Size(15, difficulty_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -796,7 +796,7 @@ public final class GainBuffDetailInfoOuterClass {
 
       private int difficulty_ ;
       /**
-       * <code>uint32 difficulty = 14;</code>
+       * <code>uint32 difficulty = 15;</code>
        * @return The difficulty.
        */
       @java.lang.Override
@@ -804,7 +804,7 @@ public final class GainBuffDetailInfoOuterClass {
         return difficulty_;
       }
       /**
-       * <code>uint32 difficulty = 14;</code>
+       * <code>uint32 difficulty = 15;</code>
        * @param value The difficulty to set.
        * @return This builder for chaining.
        */
@@ -815,7 +815,7 @@ public final class GainBuffDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 difficulty = 14;</code>
+       * <code>uint32 difficulty = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearDifficulty() {
@@ -894,7 +894,7 @@ public final class GainBuffDetailInfoOuterClass {
       "\n\030GainBuffDetailInfo.proto\032\021HPIBBLDNIME." +
       "proto\"O\n\022GainBuffDetailInfo\022%\n\017level_inf" +
       "o_list\030\003 \003(\0132\014.HPIBBLDNIME\022\022\n\ndifficulty" +
-      "\030\016 \001(\rB9\n\031emu.grasscutter.net.protoB\034Gai" +
+      "\030\017 \001(\rB9\n\031emu.grasscutter.net.protoB\034Gai" +
       "nBuffDetailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

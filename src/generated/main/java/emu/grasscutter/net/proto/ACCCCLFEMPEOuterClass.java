@@ -19,36 +19,36 @@ public final class ACCCCLFEMPEOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 level_id = 1;</code>
+     * <code>uint32 level_id = 6;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>repeated uint32 NBPIEMDDNDB = 6;</code>
+     * <code>repeated uint32 NBPIEMDDNDB = 2;</code>
      * @return A list containing the nBPIEMDDNDB.
      */
     java.util.List<java.lang.Integer> getNBPIEMDDNDBList();
     /**
-     * <code>repeated uint32 NBPIEMDDNDB = 6;</code>
+     * <code>repeated uint32 NBPIEMDDNDB = 2;</code>
      * @return The count of nBPIEMDDNDB.
      */
     int getNBPIEMDDNDBCount();
     /**
-     * <code>repeated uint32 NBPIEMDDNDB = 6;</code>
+     * <code>repeated uint32 NBPIEMDDNDB = 2;</code>
      * @param index The index of the element to return.
      * @return The nBPIEMDDNDB at the given index.
      */
     int getNBPIEMDDNDB(int index);
 
     /**
-     * <code>bool is_open = 13;</code>
+     * <code>bool is_open = 1;</code>
      * @return The isOpen.
      */
     boolean getIsOpen();
 
     /**
-     * <code>bool is_finish = 15;</code>
+     * <code>bool is_finish = 14;</code>
      * @return The isFinish.
      */
     boolean getIsFinish();
@@ -102,10 +102,10 @@ public final class ACCCCLFEMPEOuterClass {
               break;
             case 8: {
 
-              levelId_ = input.readUInt32();
+              isOpen_ = input.readBool();
               break;
             }
-            case 48: {
+            case 16: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 nBPIEMDDNDB_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -113,7 +113,7 @@ public final class ACCCCLFEMPEOuterClass {
               nBPIEMDDNDB_.addInt(input.readUInt32());
               break;
             }
-            case 50: {
+            case 18: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -126,12 +126,12 @@ public final class ACCCCLFEMPEOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 104: {
+            case 48: {
 
-              isOpen_ = input.readBool();
+              levelId_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 112: {
 
               isFinish_ = input.readBool();
               break;
@@ -171,10 +171,10 @@ public final class ACCCCLFEMPEOuterClass {
               emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPE.class, emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPE.Builder.class);
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 1;
+    public static final int LEVEL_ID_FIELD_NUMBER = 6;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 1;</code>
+     * <code>uint32 level_id = 6;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -182,10 +182,10 @@ public final class ACCCCLFEMPEOuterClass {
       return levelId_;
     }
 
-    public static final int NBPIEMDDNDB_FIELD_NUMBER = 6;
+    public static final int NBPIEMDDNDB_FIELD_NUMBER = 2;
     private com.google.protobuf.Internal.IntList nBPIEMDDNDB_;
     /**
-     * <code>repeated uint32 NBPIEMDDNDB = 6;</code>
+     * <code>repeated uint32 NBPIEMDDNDB = 2;</code>
      * @return A list containing the nBPIEMDDNDB.
      */
     @java.lang.Override
@@ -194,14 +194,14 @@ public final class ACCCCLFEMPEOuterClass {
       return nBPIEMDDNDB_;
     }
     /**
-     * <code>repeated uint32 NBPIEMDDNDB = 6;</code>
+     * <code>repeated uint32 NBPIEMDDNDB = 2;</code>
      * @return The count of nBPIEMDDNDB.
      */
     public int getNBPIEMDDNDBCount() {
       return nBPIEMDDNDB_.size();
     }
     /**
-     * <code>repeated uint32 NBPIEMDDNDB = 6;</code>
+     * <code>repeated uint32 NBPIEMDDNDB = 2;</code>
      * @param index The index of the element to return.
      * @return The nBPIEMDDNDB at the given index.
      */
@@ -210,10 +210,10 @@ public final class ACCCCLFEMPEOuterClass {
     }
     private int nBPIEMDDNDBMemoizedSerializedSize = -1;
 
-    public static final int IS_OPEN_FIELD_NUMBER = 13;
+    public static final int IS_OPEN_FIELD_NUMBER = 1;
     private boolean isOpen_;
     /**
-     * <code>bool is_open = 13;</code>
+     * <code>bool is_open = 1;</code>
      * @return The isOpen.
      */
     @java.lang.Override
@@ -221,10 +221,10 @@ public final class ACCCCLFEMPEOuterClass {
       return isOpen_;
     }
 
-    public static final int IS_FINISH_FIELD_NUMBER = 15;
+    public static final int IS_FINISH_FIELD_NUMBER = 14;
     private boolean isFinish_;
     /**
-     * <code>bool is_finish = 15;</code>
+     * <code>bool is_finish = 14;</code>
      * @return The isFinish.
      */
     @java.lang.Override
@@ -247,21 +247,21 @@ public final class ACCCCLFEMPEOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (levelId_ != 0) {
-        output.writeUInt32(1, levelId_);
+      if (isOpen_ != false) {
+        output.writeBool(1, isOpen_);
       }
       if (getNBPIEMDDNDBList().size() > 0) {
-        output.writeUInt32NoTag(50);
+        output.writeUInt32NoTag(18);
         output.writeUInt32NoTag(nBPIEMDDNDBMemoizedSerializedSize);
       }
       for (int i = 0; i < nBPIEMDDNDB_.size(); i++) {
         output.writeUInt32NoTag(nBPIEMDDNDB_.getInt(i));
       }
-      if (isOpen_ != false) {
-        output.writeBool(13, isOpen_);
+      if (levelId_ != 0) {
+        output.writeUInt32(6, levelId_);
       }
       if (isFinish_ != false) {
-        output.writeBool(15, isFinish_);
+        output.writeBool(14, isFinish_);
       }
       unknownFields.writeTo(output);
     }
@@ -272,9 +272,9 @@ public final class ACCCCLFEMPEOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (levelId_ != 0) {
+      if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, levelId_);
+          .computeBoolSize(1, isOpen_);
       }
       {
         int dataSize = 0;
@@ -290,13 +290,13 @@ public final class ACCCCLFEMPEOuterClass {
         }
         nBPIEMDDNDBMemoizedSerializedSize = dataSize;
       }
-      if (isOpen_ != false) {
+      if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(13, isOpen_);
+          .computeUInt32Size(6, levelId_);
       }
       if (isFinish_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(15, isFinish_);
+          .computeBoolSize(14, isFinish_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -619,7 +619,7 @@ public final class ACCCCLFEMPEOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 1;</code>
+       * <code>uint32 level_id = 6;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -627,7 +627,7 @@ public final class ACCCCLFEMPEOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 1;</code>
+       * <code>uint32 level_id = 6;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -638,7 +638,7 @@ public final class ACCCCLFEMPEOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 1;</code>
+       * <code>uint32 level_id = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -656,7 +656,7 @@ public final class ACCCCLFEMPEOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 NBPIEMDDNDB = 6;</code>
+       * <code>repeated uint32 NBPIEMDDNDB = 2;</code>
        * @return A list containing the nBPIEMDDNDB.
        */
       public java.util.List<java.lang.Integer>
@@ -665,14 +665,14 @@ public final class ACCCCLFEMPEOuterClass {
                  java.util.Collections.unmodifiableList(nBPIEMDDNDB_) : nBPIEMDDNDB_;
       }
       /**
-       * <code>repeated uint32 NBPIEMDDNDB = 6;</code>
+       * <code>repeated uint32 NBPIEMDDNDB = 2;</code>
        * @return The count of nBPIEMDDNDB.
        */
       public int getNBPIEMDDNDBCount() {
         return nBPIEMDDNDB_.size();
       }
       /**
-       * <code>repeated uint32 NBPIEMDDNDB = 6;</code>
+       * <code>repeated uint32 NBPIEMDDNDB = 2;</code>
        * @param index The index of the element to return.
        * @return The nBPIEMDDNDB at the given index.
        */
@@ -680,7 +680,7 @@ public final class ACCCCLFEMPEOuterClass {
         return nBPIEMDDNDB_.getInt(index);
       }
       /**
-       * <code>repeated uint32 NBPIEMDDNDB = 6;</code>
+       * <code>repeated uint32 NBPIEMDDNDB = 2;</code>
        * @param index The index to set the value at.
        * @param value The nBPIEMDDNDB to set.
        * @return This builder for chaining.
@@ -693,7 +693,7 @@ public final class ACCCCLFEMPEOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 NBPIEMDDNDB = 6;</code>
+       * <code>repeated uint32 NBPIEMDDNDB = 2;</code>
        * @param value The nBPIEMDDNDB to add.
        * @return This builder for chaining.
        */
@@ -704,7 +704,7 @@ public final class ACCCCLFEMPEOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 NBPIEMDDNDB = 6;</code>
+       * <code>repeated uint32 NBPIEMDDNDB = 2;</code>
        * @param values The nBPIEMDDNDB to add.
        * @return This builder for chaining.
        */
@@ -717,7 +717,7 @@ public final class ACCCCLFEMPEOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 NBPIEMDDNDB = 6;</code>
+       * <code>repeated uint32 NBPIEMDDNDB = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearNBPIEMDDNDB() {
@@ -729,7 +729,7 @@ public final class ACCCCLFEMPEOuterClass {
 
       private boolean isOpen_ ;
       /**
-       * <code>bool is_open = 13;</code>
+       * <code>bool is_open = 1;</code>
        * @return The isOpen.
        */
       @java.lang.Override
@@ -737,7 +737,7 @@ public final class ACCCCLFEMPEOuterClass {
         return isOpen_;
       }
       /**
-       * <code>bool is_open = 13;</code>
+       * <code>bool is_open = 1;</code>
        * @param value The isOpen to set.
        * @return This builder for chaining.
        */
@@ -748,7 +748,7 @@ public final class ACCCCLFEMPEOuterClass {
         return this;
       }
       /**
-       * <code>bool is_open = 13;</code>
+       * <code>bool is_open = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsOpen() {
@@ -760,7 +760,7 @@ public final class ACCCCLFEMPEOuterClass {
 
       private boolean isFinish_ ;
       /**
-       * <code>bool is_finish = 15;</code>
+       * <code>bool is_finish = 14;</code>
        * @return The isFinish.
        */
       @java.lang.Override
@@ -768,7 +768,7 @@ public final class ACCCCLFEMPEOuterClass {
         return isFinish_;
       }
       /**
-       * <code>bool is_finish = 15;</code>
+       * <code>bool is_finish = 14;</code>
        * @param value The isFinish to set.
        * @return This builder for chaining.
        */
@@ -779,7 +779,7 @@ public final class ACCCCLFEMPEOuterClass {
         return this;
       }
       /**
-       * <code>bool is_finish = 15;</code>
+       * <code>bool is_finish = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsFinish() {
@@ -856,8 +856,8 @@ public final class ACCCCLFEMPEOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021ACCCCLFEMPE.proto\"X\n\013ACCCCLFEMPE\022\020\n\010le" +
-      "vel_id\030\001 \001(\r\022\023\n\013NBPIEMDDNDB\030\006 \003(\r\022\017\n\007is_" +
-      "open\030\r \001(\010\022\021\n\tis_finish\030\017 \001(\010B2\n\031emu.gra" +
+      "vel_id\030\006 \001(\r\022\023\n\013NBPIEMDDNDB\030\002 \003(\r\022\017\n\007is_" +
+      "open\030\001 \001(\010\022\021\n\tis_finish\030\016 \001(\010B2\n\031emu.gra" +
       "sscutter.net.protoB\025ACCCCLFEMPEOuterClas" +
       "sb\006proto3"
     };

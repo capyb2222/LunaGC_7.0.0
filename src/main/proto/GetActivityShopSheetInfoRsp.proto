@@ -6,7 +6,7 @@ option java_outer_classname = "GetActivityShopSheetInfoRspOuterClass";
 import "ActivityShopSheetInfo.proto";
 
 message GetActivityShopSheetInfoRsp {
-	uint32 shop_type = 7;
-	repeated ActivityShopSheetInfo sheet_info_list = 50000;
-	int32 retcode = 2;
+	uint32 shop_type = 3;
+	repeated ActivityShopSheetInfo sheet_info_list = 11;
+	int32 retcode = 6;
 }

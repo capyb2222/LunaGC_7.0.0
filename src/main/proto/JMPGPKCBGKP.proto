@@ -6,5 +6,5 @@ option java_outer_classname = "JMPGPKCBGKPOuterClass";
 import "DetailAbilityInfo.proto";
 
 message JMPGPKCBGKP {
-	optional DetailAbilityInfo detail_ability_info = 11;
+	optional DetailAbilityInfo detail_ability_info = 5;
 }

@@ -19,7 +19,7 @@ public final class _LanV5CardSocialOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 like_num = 2;</code>
+     * <code>uint32 like_num = 7;</code>
      * @return The likeNum.
      */
     int getLikeNum();
@@ -69,7 +69,7 @@ public final class _LanV5CardSocialOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 56: {
 
               likeNum_ = input.readUInt32();
               break;
@@ -106,10 +106,10 @@ public final class _LanV5CardSocialOuterClass {
               emu.grasscutter.net.proto._LanV5CardSocialOuterClass._LanV5CardSocial.class, emu.grasscutter.net.proto._LanV5CardSocialOuterClass._LanV5CardSocial.Builder.class);
     }
 
-    public static final int LIKE_NUM_FIELD_NUMBER = 2;
+    public static final int LIKE_NUM_FIELD_NUMBER = 7;
     private int likeNum_;
     /**
-     * <code>uint32 like_num = 2;</code>
+     * <code>uint32 like_num = 7;</code>
      * @return The likeNum.
      */
     @java.lang.Override
@@ -132,7 +132,7 @@ public final class _LanV5CardSocialOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (likeNum_ != 0) {
-        output.writeUInt32(2, likeNum_);
+        output.writeUInt32(7, likeNum_);
       }
       unknownFields.writeTo(output);
     }
@@ -145,7 +145,7 @@ public final class _LanV5CardSocialOuterClass {
       size = 0;
       if (likeNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, likeNum_);
+          .computeUInt32Size(7, likeNum_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -421,7 +421,7 @@ public final class _LanV5CardSocialOuterClass {
 
       private int likeNum_ ;
       /**
-       * <code>uint32 like_num = 2;</code>
+       * <code>uint32 like_num = 7;</code>
        * @return The likeNum.
        */
       @java.lang.Override
@@ -429,7 +429,7 @@ public final class _LanV5CardSocialOuterClass {
         return likeNum_;
       }
       /**
-       * <code>uint32 like_num = 2;</code>
+       * <code>uint32 like_num = 7;</code>
        * @param value The likeNum to set.
        * @return This builder for chaining.
        */
@@ -440,7 +440,7 @@ public final class _LanV5CardSocialOuterClass {
         return this;
       }
       /**
-       * <code>uint32 like_num = 2;</code>
+       * <code>uint32 like_num = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearLikeNum() {
@@ -517,7 +517,7 @@ public final class _LanV5CardSocialOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\026_LanV5CardSocial.proto\"$\n\020_LanV5CardSo" +
-      "cial\022\020\n\010like_num\030\002 \001(\rB7\n\031emu.grasscutte" +
+      "cial\022\020\n\010like_num\030\007 \001(\rB7\n\031emu.grasscutte" +
       "r.net.protoB\032_LanV5CardSocialOuterClassb" +
       "\006proto3"
     };

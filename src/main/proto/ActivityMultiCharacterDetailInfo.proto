@@ -6,5 +6,5 @@ option java_outer_classname = "ActivityMultiCharacterDetailInfoOuterClass";
 import "BPCBGKJBBMO.proto";
 
 message ActivityMultiCharacterDetailInfo {
-	repeated BPCBGKJBBMO stage_info_list = 12;
+	repeated BPCBGKJBBMO stage_info_list = 1;
 }

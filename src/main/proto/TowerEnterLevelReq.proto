@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "TowerEnterLevelReqOuterClass";
 
 message TowerEnterLevelReq {
-	uint32 enter_point_id = 10;
-	bool _is_restart_floor = 11;
+	uint32 enter_point_id = 15;
+	bool _is_restart_floor = 4;
 }

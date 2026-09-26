@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "QuestGlobalVarOuterClass";
 
 message QuestGlobalVar {
-	int32 value = 1;
-	uint32 key = 14;
+	int32 value = 6;
+	uint32 key = 15;
 }

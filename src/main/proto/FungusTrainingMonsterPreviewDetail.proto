@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "FungusTrainingMonsterPreviewDetailOuterClass";
 
 message FungusTrainingMonsterPreviewDetail {
-	uint32 monster_id = 3;
-	repeated uint32 affix_list = 11;
-	uint32 level = 13;
+	uint32 monster_id = 11;
+	repeated uint32 affix_list = 15;
+	uint32 level = 10;
 }

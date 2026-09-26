@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "AvatarPromoteRspOuterClass";
 
 message AvatarPromoteRsp {
-	int32 retcode = 4;
-	uint64 guid = 13;
+	int32 retcode = 8;
+	uint64 guid = 15;
 }

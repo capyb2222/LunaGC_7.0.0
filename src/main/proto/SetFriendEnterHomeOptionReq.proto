@@ -6,5 +6,5 @@ option java_outer_classname = "SetFriendEnterHomeOptionReqOuterClass";
 import "FriendEnterHomeOption.proto";
 
 message SetFriendEnterHomeOptionReq {
-	FriendEnterHomeOption option_ = 6;
+	FriendEnterHomeOption option_ = 13;
 }

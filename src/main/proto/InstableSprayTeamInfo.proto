@@ -6,5 +6,5 @@ option java_outer_classname = "InstableSprayTeamInfoOuterClass";
 import "InstableSprayAvatarInfo.proto";
 
 message InstableSprayTeamInfo {
-	repeated InstableSprayAvatarInfo avatar_info_list = 11;
+	repeated InstableSprayAvatarInfo avatar_info_list = 1;
 }

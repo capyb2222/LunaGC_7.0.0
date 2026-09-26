@@ -31,7 +31,7 @@ public final class SeaLampV3RaceLevelInfoOuterClass {
     boolean getIsOpen();
 
     /**
-     * <code>uint32 level_id = 15;</code>
+     * <code>uint32 level_id = 8;</code>
      * @return The levelId.
      */
     int getLevelId();
@@ -86,14 +86,14 @@ public final class SeaLampV3RaceLevelInfoOuterClass {
               maxScore_ = input.readUInt32();
               break;
             }
+            case 64: {
+
+              levelId_ = input.readUInt32();
+              break;
+            }
             case 80: {
 
               isOpen_ = input.readBool();
-              break;
-            }
-            case 120: {
-
-              levelId_ = input.readUInt32();
               break;
             }
             default: {
@@ -150,10 +150,10 @@ public final class SeaLampV3RaceLevelInfoOuterClass {
       return isOpen_;
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 15;
+    public static final int LEVEL_ID_FIELD_NUMBER = 8;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 15;</code>
+     * <code>uint32 level_id = 8;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -178,11 +178,11 @@ public final class SeaLampV3RaceLevelInfoOuterClass {
       if (maxScore_ != 0) {
         output.writeUInt32(5, maxScore_);
       }
+      if (levelId_ != 0) {
+        output.writeUInt32(8, levelId_);
+      }
       if (isOpen_ != false) {
         output.writeBool(10, isOpen_);
-      }
-      if (levelId_ != 0) {
-        output.writeUInt32(15, levelId_);
       }
       unknownFields.writeTo(output);
     }
@@ -197,13 +197,13 @@ public final class SeaLampV3RaceLevelInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(5, maxScore_);
       }
+      if (levelId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(8, levelId_);
+      }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(10, isOpen_);
-      }
-      if (levelId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, levelId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -562,7 +562,7 @@ public final class SeaLampV3RaceLevelInfoOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 15;</code>
+       * <code>uint32 level_id = 8;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -570,7 +570,7 @@ public final class SeaLampV3RaceLevelInfoOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 15;</code>
+       * <code>uint32 level_id = 8;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -581,7 +581,7 @@ public final class SeaLampV3RaceLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 15;</code>
+       * <code>uint32 level_id = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -659,7 +659,7 @@ public final class SeaLampV3RaceLevelInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034SeaLampV3RaceLevelInfo.proto\"N\n\026SeaLam" +
       "pV3RaceLevelInfo\022\021\n\tmax_score\030\005 \001(\r\022\017\n\007i" +
-      "s_open\030\n \001(\010\022\020\n\010level_id\030\017 \001(\rB=\n\031emu.gr" +
+      "s_open\030\n \001(\010\022\020\n\010level_id\030\010 \001(\rB=\n\031emu.gr" +
       "asscutter.net.protoB SeaLampV3RaceLevelI" +
       "nfoOuterClassb\006proto3"
     };

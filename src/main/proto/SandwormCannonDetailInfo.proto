@@ -6,5 +6,5 @@ option java_outer_classname = "SandwormCannonDetailInfoOuterClass";
 import "CAHKNHJEHKB.proto";
 
 message SandwormCannonDetailInfo {
-	repeated CAHKNHJEHKB habjccaecjc = 1;
+	repeated CAHKNHJEHKB habjccaecjc = 10;
 }

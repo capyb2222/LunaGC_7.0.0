@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "CrystalLinkBuffInfoOuterClass";
 
 message CrystalLinkBuffInfo {
-	uint32 MCKPIIMDKMI = 1;
-	uint32 DFFHKNBEIJK = 5;
+	uint32 MCKPIIMDKMI = 50000;
+	uint32 DFFHKNBEIJK = 50001;
 }

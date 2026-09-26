@@ -4,8 +4,8 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "SummerTimeV2DungeonStageInfoOuterClass";
 
 message SummerTimeV2DungeonStageInfo {
-	uint32 open_time = 6;
-	uint32 stage_id = 8;
-	bool is_open = 11;
-	bool is_prev_dungeon_succeed = 15;
+	uint32 open_time = 15;
+	uint32 stage_id = 12;
+	bool is_open = 14;
+	bool is_prev_dungeon_succeed = 8;
 }

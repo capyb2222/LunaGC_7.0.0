@@ -19,19 +19,19 @@ public final class GravenInnocenceRaceLevelInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 level_id = 2;</code>
+     * <code>uint32 level_id = 4;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>uint32 max_score = 8;</code>
+     * <code>uint32 max_score = 9;</code>
      * @return The maxScore.
      */
     int getMaxScore();
 
     /**
-     * <code>bool is_open = 13;</code>
+     * <code>bool is_open = 2;</code>
      * @return The isOpen.
      */
     boolean getIsOpen();
@@ -83,17 +83,17 @@ public final class GravenInnocenceRaceLevelInfoOuterClass {
               break;
             case 16: {
 
+              isOpen_ = input.readBool();
+              break;
+            }
+            case 32: {
+
               levelId_ = input.readUInt32();
               break;
             }
-            case 64: {
+            case 72: {
 
               maxScore_ = input.readUInt32();
-              break;
-            }
-            case 104: {
-
-              isOpen_ = input.readBool();
               break;
             }
             default: {
@@ -128,10 +128,10 @@ public final class GravenInnocenceRaceLevelInfoOuterClass {
               emu.grasscutter.net.proto.GravenInnocenceRaceLevelInfoOuterClass.GravenInnocenceRaceLevelInfo.class, emu.grasscutter.net.proto.GravenInnocenceRaceLevelInfoOuterClass.GravenInnocenceRaceLevelInfo.Builder.class);
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 2;
+    public static final int LEVEL_ID_FIELD_NUMBER = 4;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 2;</code>
+     * <code>uint32 level_id = 4;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -139,10 +139,10 @@ public final class GravenInnocenceRaceLevelInfoOuterClass {
       return levelId_;
     }
 
-    public static final int MAX_SCORE_FIELD_NUMBER = 8;
+    public static final int MAX_SCORE_FIELD_NUMBER = 9;
     private int maxScore_;
     /**
-     * <code>uint32 max_score = 8;</code>
+     * <code>uint32 max_score = 9;</code>
      * @return The maxScore.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class GravenInnocenceRaceLevelInfoOuterClass {
       return maxScore_;
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 13;
+    public static final int IS_OPEN_FIELD_NUMBER = 2;
     private boolean isOpen_;
     /**
-     * <code>bool is_open = 13;</code>
+     * <code>bool is_open = 2;</code>
      * @return The isOpen.
      */
     @java.lang.Override
@@ -175,14 +175,14 @@ public final class GravenInnocenceRaceLevelInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (isOpen_ != false) {
+        output.writeBool(2, isOpen_);
+      }
       if (levelId_ != 0) {
-        output.writeUInt32(2, levelId_);
+        output.writeUInt32(4, levelId_);
       }
       if (maxScore_ != 0) {
-        output.writeUInt32(8, maxScore_);
-      }
-      if (isOpen_ != false) {
-        output.writeBool(13, isOpen_);
+        output.writeUInt32(9, maxScore_);
       }
       unknownFields.writeTo(output);
     }
@@ -193,17 +193,17 @@ public final class GravenInnocenceRaceLevelInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (isOpen_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(2, isOpen_);
+      }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, levelId_);
+          .computeUInt32Size(4, levelId_);
       }
       if (maxScore_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, maxScore_);
-      }
-      if (isOpen_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(13, isOpen_);
+          .computeUInt32Size(9, maxScore_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -500,7 +500,7 @@ public final class GravenInnocenceRaceLevelInfoOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 2;</code>
+       * <code>uint32 level_id = 4;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -508,7 +508,7 @@ public final class GravenInnocenceRaceLevelInfoOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 2;</code>
+       * <code>uint32 level_id = 4;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -519,7 +519,7 @@ public final class GravenInnocenceRaceLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 2;</code>
+       * <code>uint32 level_id = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -531,7 +531,7 @@ public final class GravenInnocenceRaceLevelInfoOuterClass {
 
       private int maxScore_ ;
       /**
-       * <code>uint32 max_score = 8;</code>
+       * <code>uint32 max_score = 9;</code>
        * @return The maxScore.
        */
       @java.lang.Override
@@ -539,7 +539,7 @@ public final class GravenInnocenceRaceLevelInfoOuterClass {
         return maxScore_;
       }
       /**
-       * <code>uint32 max_score = 8;</code>
+       * <code>uint32 max_score = 9;</code>
        * @param value The maxScore to set.
        * @return This builder for chaining.
        */
@@ -550,7 +550,7 @@ public final class GravenInnocenceRaceLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 max_score = 8;</code>
+       * <code>uint32 max_score = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearMaxScore() {
@@ -562,7 +562,7 @@ public final class GravenInnocenceRaceLevelInfoOuterClass {
 
       private boolean isOpen_ ;
       /**
-       * <code>bool is_open = 13;</code>
+       * <code>bool is_open = 2;</code>
        * @return The isOpen.
        */
       @java.lang.Override
@@ -570,7 +570,7 @@ public final class GravenInnocenceRaceLevelInfoOuterClass {
         return isOpen_;
       }
       /**
-       * <code>bool is_open = 13;</code>
+       * <code>bool is_open = 2;</code>
        * @param value The isOpen to set.
        * @return This builder for chaining.
        */
@@ -581,7 +581,7 @@ public final class GravenInnocenceRaceLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_open = 13;</code>
+       * <code>bool is_open = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsOpen() {
@@ -659,7 +659,7 @@ public final class GravenInnocenceRaceLevelInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\"GravenInnocenceRaceLevelInfo.proto\"T\n\034" +
       "GravenInnocenceRaceLevelInfo\022\020\n\010level_id" +
-      "\030\002 \001(\r\022\021\n\tmax_score\030\010 \001(\r\022\017\n\007is_open\030\r \001" +
+      "\030\004 \001(\r\022\021\n\tmax_score\030\t \001(\r\022\017\n\007is_open\030\002 \001" +
       "(\010BC\n\031emu.grasscutter.net.protoB&GravenI" +
       "nnocenceRaceLevelInfoOuterClassb\006proto3"
     };

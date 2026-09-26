@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "PlayerRTTInfoOuterClass";
 
 message PlayerRTTInfo {
-	uint32 rtt = 3;
+	uint32 rtt = 1;
 	uint32 uid = 11;
 }

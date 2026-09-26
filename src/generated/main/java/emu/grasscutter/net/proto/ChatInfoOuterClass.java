@@ -189,17 +189,17 @@ public final class ChatInfoOuterClass {
     emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallRecruitingInvitationOrBuilder getHallRecruitingInvitationOrBuilder();
 
     /**
-     * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 50000;</code>
+     * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 192;</code>
      * @return Whether the beyondGachaGift field is set.
      */
     boolean hasBeyondGachaGift();
     /**
-     * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 50000;</code>
+     * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 192;</code>
      * @return The beyondGachaGift.
      */
     emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift getBeyondGachaGift();
     /**
-     * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 50000;</code>
+     * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 192;</code>
      */
     emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGiftOrBuilder getBeyondGachaGiftOrBuilder();
 
@@ -398,6 +398,20 @@ public final class ChatInfoOuterClass {
               contentCase_ = 188;
               break;
             }
+            case 1538: {
+              emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift.Builder subBuilder = null;
+              if (contentCase_ == 192) {
+                subBuilder = ((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift) content_).toBuilder();
+              }
+              content_ =
+                  input.readMessage(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift) content_);
+                content_ = subBuilder.buildPartial();
+              }
+              contentCase_ = 192;
+              break;
+            }
             case 4202: {
               emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplication.Builder subBuilder = null;
               if (contentCase_ == 525) {
@@ -519,20 +533,6 @@ public final class ChatInfoOuterClass {
               java.lang.String s = input.readStringRequireUtf8();
               contentCase_ = 1985;
               content_ = s;
-              break;
-            }
-            case 400002: {
-              emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift.Builder subBuilder = null;
-              if (contentCase_ == 50000) {
-                subBuilder = ((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift) content_).toBuilder();
-              }
-              content_ =
-                  input.readMessage(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift) content_);
-                content_ = subBuilder.buildPartial();
-              }
-              contentCase_ = 50000;
               break;
             }
             default: {
@@ -7876,7 +7876,7 @@ public final class ChatInfoOuterClass {
       TEXT(1985),
       BEYOND_TEAM_APPLICATION(525),
       HALL_RECRUITING_INVITATION(770),
-      BEYOND_GACHA_GIFT(50000),
+      BEYOND_GACHA_GIFT(192),
       BEYOND_TEAM_INVITATION(1953),
       CONTENT_NOT_SET(0);
       private final int value;
@@ -7905,7 +7905,7 @@ public final class ChatInfoOuterClass {
           case 1985: return TEXT;
           case 525: return BEYOND_TEAM_APPLICATION;
           case 770: return HALL_RECRUITING_INVITATION;
-          case 50000: return BEYOND_GACHA_GIFT;
+          case 192: return BEYOND_GACHA_GIFT;
           case 1953: return BEYOND_TEAM_INVITATION;
           case 0: return CONTENT_NOT_SET;
           default: return null;
@@ -8285,32 +8285,32 @@ public final class ChatInfoOuterClass {
       return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._HallRecruitingInvitation.getDefaultInstance();
     }
 
-    public static final int BEYOND_GACHA_GIFT_FIELD_NUMBER = 50000;
+    public static final int BEYOND_GACHA_GIFT_FIELD_NUMBER = 192;
     /**
-     * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 50000;</code>
+     * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 192;</code>
      * @return Whether the beyondGachaGift field is set.
      */
     @java.lang.Override
     public boolean hasBeyondGachaGift() {
-      return contentCase_ == 50000;
+      return contentCase_ == 192;
     }
     /**
-     * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 50000;</code>
+     * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 192;</code>
      * @return The beyondGachaGift.
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift getBeyondGachaGift() {
-      if (contentCase_ == 50000) {
+      if (contentCase_ == 192) {
          return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift) content_;
       }
       return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift.getDefaultInstance();
     }
     /**
-     * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 50000;</code>
+     * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 192;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGiftOrBuilder getBeyondGachaGiftOrBuilder() {
-      if (contentCase_ == 50000) {
+      if (contentCase_ == 192) {
          return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift) content_;
       }
       return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift.getDefaultInstance();
@@ -8525,6 +8525,9 @@ public final class ChatInfoOuterClass {
       if (contentCase_ == 188) {
         output.writeMessage(188, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCollectionNewCaptain) content_);
       }
+      if (contentCase_ == 192) {
+        output.writeMessage(192, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift) content_);
+      }
       if (contentCase_ == 525) {
         output.writeMessage(525, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplication) content_);
       }
@@ -8555,9 +8558,6 @@ public final class ChatInfoOuterClass {
       }
       if (contentCase_ == 1985) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 1985, content_);
-      }
-      if (contentCase_ == 50000) {
-        output.writeMessage(50000, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift) content_);
       }
       unknownFields.writeTo(output);
     }
@@ -8617,6 +8617,10 @@ public final class ChatInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(188, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondCollectionNewCaptain) content_);
       }
+      if (contentCase_ == 192) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(192, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift) content_);
+      }
       if (contentCase_ == 525) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(525, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondTeamApplication) content_);
@@ -8656,10 +8660,6 @@ public final class ChatInfoOuterClass {
       }
       if (contentCase_ == 1985) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1985, content_);
-      }
-      if (contentCase_ == 50000) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(50000, (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift) content_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -8749,7 +8749,7 @@ public final class ChatInfoOuterClass {
           if (!getHallRecruitingInvitation()
               .equals(other.getHallRecruitingInvitation())) return false;
           break;
-        case 50000:
+        case 192:
           if (!getBeyondGachaGift()
               .equals(other.getBeyondGachaGift())) return false;
           break;
@@ -8845,7 +8845,7 @@ public final class ChatInfoOuterClass {
           hash = (37 * hash) + HALL_RECRUITING_INVITATION_FIELD_NUMBER;
           hash = (53 * hash) + getHallRecruitingInvitation().hashCode();
           break;
-        case 50000:
+        case 192:
           hash = (37 * hash) + BEYOND_GACHA_GIFT_FIELD_NUMBER;
           hash = (53 * hash) + getBeyondGachaGift().hashCode();
           break;
@@ -9105,7 +9105,7 @@ public final class ChatInfoOuterClass {
             result.content_ = hallRecruitingInvitationBuilder_.build();
           }
         }
-        if (contentCase_ == 50000) {
+        if (contentCase_ == 192) {
           if (beyondGachaGiftBuilder_ == null) {
             result.content_ = content_;
           } else {
@@ -10684,33 +10684,33 @@ public final class ChatInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift.Builder, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGiftOrBuilder> beyondGachaGiftBuilder_;
       /**
-       * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 50000;</code>
+       * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 192;</code>
        * @return Whether the beyondGachaGift field is set.
        */
       @java.lang.Override
       public boolean hasBeyondGachaGift() {
-        return contentCase_ == 50000;
+        return contentCase_ == 192;
       }
       /**
-       * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 50000;</code>
+       * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 192;</code>
        * @return The beyondGachaGift.
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift getBeyondGachaGift() {
         if (beyondGachaGiftBuilder_ == null) {
-          if (contentCase_ == 50000) {
+          if (contentCase_ == 192) {
             return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift) content_;
           }
           return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift.getDefaultInstance();
         } else {
-          if (contentCase_ == 50000) {
+          if (contentCase_ == 192) {
             return beyondGachaGiftBuilder_.getMessage();
           }
           return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift.getDefaultInstance();
         }
       }
       /**
-       * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 50000;</code>
+       * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 192;</code>
        */
       public Builder setBeyondGachaGift(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift value) {
         if (beyondGachaGiftBuilder_ == null) {
@@ -10722,11 +10722,11 @@ public final class ChatInfoOuterClass {
         } else {
           beyondGachaGiftBuilder_.setMessage(value);
         }
-        contentCase_ = 50000;
+        contentCase_ = 192;
         return this;
       }
       /**
-       * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 50000;</code>
+       * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 192;</code>
        */
       public Builder setBeyondGachaGift(
           emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift.Builder builderForValue) {
@@ -10736,15 +10736,15 @@ public final class ChatInfoOuterClass {
         } else {
           beyondGachaGiftBuilder_.setMessage(builderForValue.build());
         }
-        contentCase_ = 50000;
+        contentCase_ = 192;
         return this;
       }
       /**
-       * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 50000;</code>
+       * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 192;</code>
        */
       public Builder mergeBeyondGachaGift(emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift value) {
         if (beyondGachaGiftBuilder_ == null) {
-          if (contentCase_ == 50000 &&
+          if (contentCase_ == 192 &&
               content_ != emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift.getDefaultInstance()) {
             content_ = emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift.newBuilder((emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift) content_)
                 .mergeFrom(value).buildPartial();
@@ -10753,26 +10753,26 @@ public final class ChatInfoOuterClass {
           }
           onChanged();
         } else {
-          if (contentCase_ == 50000) {
+          if (contentCase_ == 192) {
             beyondGachaGiftBuilder_.mergeFrom(value);
           }
           beyondGachaGiftBuilder_.setMessage(value);
         }
-        contentCase_ = 50000;
+        contentCase_ = 192;
         return this;
       }
       /**
-       * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 50000;</code>
+       * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 192;</code>
        */
       public Builder clearBeyondGachaGift() {
         if (beyondGachaGiftBuilder_ == null) {
-          if (contentCase_ == 50000) {
+          if (contentCase_ == 192) {
             contentCase_ = 0;
             content_ = null;
             onChanged();
           }
         } else {
-          if (contentCase_ == 50000) {
+          if (contentCase_ == 192) {
             contentCase_ = 0;
             content_ = null;
           }
@@ -10781,33 +10781,33 @@ public final class ChatInfoOuterClass {
         return this;
       }
       /**
-       * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 50000;</code>
+       * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 192;</code>
        */
       public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift.Builder getBeyondGachaGiftBuilder() {
         return getBeyondGachaGiftFieldBuilder().getBuilder();
       }
       /**
-       * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 50000;</code>
+       * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 192;</code>
        */
       @java.lang.Override
       public emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGiftOrBuilder getBeyondGachaGiftOrBuilder() {
-        if ((contentCase_ == 50000) && (beyondGachaGiftBuilder_ != null)) {
+        if ((contentCase_ == 192) && (beyondGachaGiftBuilder_ != null)) {
           return beyondGachaGiftBuilder_.getMessageOrBuilder();
         } else {
-          if (contentCase_ == 50000) {
+          if (contentCase_ == 192) {
             return (emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift) content_;
           }
           return emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift.getDefaultInstance();
         }
       }
       /**
-       * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 50000;</code>
+       * <code>.ChatInfo._BeyondGachaGift beyond_gacha_gift = 192;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift.Builder, emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGiftOrBuilder> 
           getBeyondGachaGiftFieldBuilder() {
         if (beyondGachaGiftBuilder_ == null) {
-          if (!(contentCase_ == 50000)) {
+          if (!(contentCase_ == 192)) {
             content_ = emu.grasscutter.net.proto.ChatInfoOuterClass.ChatInfo._BeyondGachaGift.getDefaultInstance();
           }
           beyondGachaGiftBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -10817,7 +10817,7 @@ public final class ChatInfoOuterClass {
                   isClean());
           content_ = null;
         }
-        contentCase_ = 50000;
+        contentCase_ = 192;
         onChanged();;
         return beyondGachaGiftBuilder_;
       }
@@ -11403,7 +11403,7 @@ public final class ChatInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\016ChatInfo.proto\"\217\017\n\010ChatInfo\022\030\n\016is_ment" +
+      "\n\016ChatInfo.proto\"\216\017\n\010ChatInfo\022\030\n\016is_ment" +
       "ion_all\030\002 \001(\010H\000\022\027\n\rmentioned_uid\030\014 \001(\rH\000" +
       "\022D\n\027beyond_team_recruitment\030\256\005 \001(\0132 .Cha" +
       "tInfo._BeyondTeamRecruitmentH\001\022G\n\031beyond" +
@@ -11419,41 +11419,41 @@ public final class ChatInfoOuterClass {
       "am_application\030\215\004 \001(\0132 .ChatInfo._Beyond" +
       "TeamApplicationH\001\022J\n\032hall_recruiting_inv" +
       "itation\030\202\006 \001(\0132#.ChatInfo._HallRecruitin" +
-      "gInvitationH\001\0229\n\021beyond_gacha_gift\030\320\206\003 \001" +
-      "(\0132\032.ChatInfo._BeyondGachaGiftH\001\022B\n\026beyo" +
-      "nd_team_invitation\030\241\017 \001(\0132\037.ChatInfo._Be" +
-      "yondTeamInvitationH\001\022\r\n\005_xuid\030\r \001(\t\022\016\n\006t" +
-      "o_uid\030\t \001(\r\022\023\n\013ALKIPKCAPFL\030\010 \001(\r\022\025\n\rplat" +
-      "form_type\030\004 \001(\r\022\013\n\003uid\030\005 \001(\r\022\014\n\004time\030\001 \001" +
-      "(\r\022\023\n\013OIEHJMHHCFB\030\017 \001(\004\022\017\n\007is_read\030\003 \001(\010" +
-      "\022\020\n\010sequence\030\006 \001(\r\032,\n\nSystemHint\022\014\n\004type" +
-      "\030\005 \001(\r\022\020\n\010uid_list\030\006 \003(\r\032\\\n\033_BeyondColle" +
-      "ctionNewCaptain\022\023\n\013PCLIOFOLGJG\030\010 \001(\t\022\023\n\013" +
-      "PIIDPLPGDOJ\030\013 \001(\r\022\023\n\013OHANCMMCDHI\030\014 \001(\r\032\244" +
-      "\001\n\017_HallInvitation\022\023\n\013DGNNJCJPGEO\030\016 \001(\r\022" +
-      "\023\n\013BJFFLGDNMPL\030\001 \001(\004\022\023\n\013CFPLKFNPNAM\030\007 \003(" +
-      "\r\022\023\n\013GHNMBPLBBFN\030\005 \001(\r\022\023\n\013BOJNPHONGMP\030\014 " +
-      "\001(\004\022\023\n\013CNFEBIOPANP\030\003 \001(\r\022\023\n\013EPHGOMPBKJA\030" +
-      "\t \001(\r\032k\n\025_BeyondTeamInvitation\022\023\n\013EPHGOM" +
-      "PBKJA\030\007 \001(\r\022\023\n\013BOJNPHONGMP\030\010 \001(\004\022\023\n\013GHNM" +
-      "BPLBBFN\030\n \001(\r\022\023\n\013CNFEBIOPANP\030\001 \001(\r\032k\n\026_B" +
-      "eyondTeamApplication\022\023\n\013MIHICCAEFOM\030\014 \001(" +
-      "\004\022\023\n\013GJNLFEJCKPA\030\002 \001(\r\022\022\n\ntarget_uid\030\016 \001" +
-      "(\r\022\023\n\013HDMBGALJFMK\030\n \001(\r\032W\n\026_BeyondTeamRe" +
-      "cruitment\022\023\n\013OJDIIPKINNL\030\006 \001(\r\022\023\n\013FDIFPE" +
-      "HDKFD\030\n \001(\r\022\023\n\013EILHBPNLEFB\030\016 \001(\r\032\200\001\n\025_Be" +
-      "yondRoomInvitation\022\023\n\013GHNMBPLBBFN\030\002 \001(\r\022" +
-      "\023\n\013BOJNPHONGMP\030\006 \001(\004\022\023\n\013NMAOGMMKNBG\030\010 \001(" +
-      "\004\022\023\n\013CNFEBIOPANP\030\013 \001(\r\022\023\n\013EPHGOMPBKJA\030\014 " +
-      "\001(\r\032\'\n\020_BeyondGachaGift\022\023\n\013transaction\030\004" +
-      " \001(\t\032.\n\027_BeyondCostumeShareCode\022\023\n\013FEPAF" +
-      "ANMNLK\030\007 \001(\014\032\235\001\n\031_HallRecruitingInvitati" +
-      "on\022\023\n\013DKLMLPNMIHN\030\016 \001(\004\022\025\n\013DELCBHHBDCJ\030\320" +
-      "\206\003 \001(\r\022\025\n\013EILHBPNLEFB\030\321\206\003 \001(\r\022\023\n\013LMNLLOE" +
-      "FBOM\030\017 \001(\r\022\023\n\013GOFEPGIPJNF\030\007 \003(\r\022\023\n\013OJDII" +
-      "PKINNL\030\005 \001(\004B\t\n\007mentionB\t\n\007contentB/\n\031em" +
-      "u.grasscutter.net.protoB\022ChatInfoOuterCl" +
-      "assb\006proto3"
+      "gInvitationH\001\0228\n\021beyond_gacha_gift\030\300\001 \001(" +
+      "\0132\032.ChatInfo._BeyondGachaGiftH\001\022B\n\026beyon" +
+      "d_team_invitation\030\241\017 \001(\0132\037.ChatInfo._Bey" +
+      "ondTeamInvitationH\001\022\r\n\005_xuid\030\r \001(\t\022\016\n\006to" +
+      "_uid\030\t \001(\r\022\023\n\013ALKIPKCAPFL\030\010 \001(\r\022\025\n\rplatf" +
+      "orm_type\030\004 \001(\r\022\013\n\003uid\030\005 \001(\r\022\014\n\004time\030\001 \001(" +
+      "\r\022\023\n\013OIEHJMHHCFB\030\017 \001(\004\022\017\n\007is_read\030\003 \001(\010\022" +
+      "\020\n\010sequence\030\006 \001(\r\032,\n\nSystemHint\022\014\n\004type\030" +
+      "\005 \001(\r\022\020\n\010uid_list\030\006 \003(\r\032\\\n\033_BeyondCollec" +
+      "tionNewCaptain\022\023\n\013PCLIOFOLGJG\030\010 \001(\t\022\023\n\013P" +
+      "IIDPLPGDOJ\030\013 \001(\r\022\023\n\013OHANCMMCDHI\030\014 \001(\r\032\244\001" +
+      "\n\017_HallInvitation\022\023\n\013DGNNJCJPGEO\030\016 \001(\r\022\023" +
+      "\n\013BJFFLGDNMPL\030\001 \001(\004\022\023\n\013CFPLKFNPNAM\030\007 \003(\r" +
+      "\022\023\n\013GHNMBPLBBFN\030\005 \001(\r\022\023\n\013BOJNPHONGMP\030\014 \001" +
+      "(\004\022\023\n\013CNFEBIOPANP\030\003 \001(\r\022\023\n\013EPHGOMPBKJA\030\t" +
+      " \001(\r\032k\n\025_BeyondTeamInvitation\022\023\n\013EPHGOMP" +
+      "BKJA\030\007 \001(\r\022\023\n\013BOJNPHONGMP\030\010 \001(\004\022\023\n\013GHNMB" +
+      "PLBBFN\030\n \001(\r\022\023\n\013CNFEBIOPANP\030\001 \001(\r\032k\n\026_Be" +
+      "yondTeamApplication\022\023\n\013MIHICCAEFOM\030\014 \001(\004" +
+      "\022\023\n\013GJNLFEJCKPA\030\002 \001(\r\022\022\n\ntarget_uid\030\016 \001(" +
+      "\r\022\023\n\013HDMBGALJFMK\030\n \001(\r\032W\n\026_BeyondTeamRec" +
+      "ruitment\022\023\n\013OJDIIPKINNL\030\006 \001(\r\022\023\n\013FDIFPEH" +
+      "DKFD\030\n \001(\r\022\023\n\013EILHBPNLEFB\030\016 \001(\r\032\200\001\n\025_Bey" +
+      "ondRoomInvitation\022\023\n\013GHNMBPLBBFN\030\002 \001(\r\022\023" +
+      "\n\013BOJNPHONGMP\030\006 \001(\004\022\023\n\013NMAOGMMKNBG\030\010 \001(\004" +
+      "\022\023\n\013CNFEBIOPANP\030\013 \001(\r\022\023\n\013EPHGOMPBKJA\030\014 \001" +
+      "(\r\032\'\n\020_BeyondGachaGift\022\023\n\013transaction\030\004 " +
+      "\001(\t\032.\n\027_BeyondCostumeShareCode\022\023\n\013FEPAFA" +
+      "NMNLK\030\007 \001(\014\032\235\001\n\031_HallRecruitingInvitatio" +
+      "n\022\023\n\013DKLMLPNMIHN\030\016 \001(\004\022\025\n\013DELCBHHBDCJ\030\320\206" +
+      "\003 \001(\r\022\025\n\013EILHBPNLEFB\030\321\206\003 \001(\r\022\023\n\013LMNLLOEF" +
+      "BOM\030\017 \001(\r\022\023\n\013GOFEPGIPJNF\030\007 \003(\r\022\023\n\013OJDIIP" +
+      "KINNL\030\005 \001(\004B\t\n\007mentionB\t\n\007contentB/\n\031emu" +
+      ".grasscutter.net.protoB\022ChatInfoOuterCla" +
+      "ssb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

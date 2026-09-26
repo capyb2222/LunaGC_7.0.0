@@ -6,5 +6,5 @@ option java_outer_classname = "GravenInnocenceCampInfoOuterClass";
 import "GravenInnocenceCampStageInfo.proto";
 
 message GravenInnocenceCampInfo {
-	repeated GravenInnocenceCampStageInfo stage_info_list = 12;
+	repeated GravenInnocenceCampStageInfo stage_info_list = 10;
 }

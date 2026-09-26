@@ -82,12 +82,12 @@ public class HandlerSetPlayerBornDataReq extends PacketHandler {
         // Default mail
         var welcomeMail = GAME_INFO.joinOptions.welcomeMail;
         MailBuilder mailBuilder = new MailBuilder(player.getUid(), new Mail());
-        mailBuilder.mail.mailContent.title = welcomeMail.title;
+        mailBuilder.mail.mailContent.title = welcomeMail.title.replace("{version}", GameConstants.VERSION);
         mailBuilder.mail.mailContent.sender = welcomeMail.sender;
         // Please credit Grasscutter if changing something here. We don't condone commercial use of the
         // project.
         mailBuilder.mail.mailContent.content =
-                welcomeMail.content
+                welcomeMail.content.replace("{version}", GameConstants.VERSION)
                         + "\n<type=\"browser\" text=\"GitHub\" href=\"https://github.com/Grasscutters/Grasscutter\"/>";
         mailBuilder.mail.itemList.addAll(Arrays.asList(welcomeMail.items));
         mailBuilder.mail.importance = 1;

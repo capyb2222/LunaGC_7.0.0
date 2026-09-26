@@ -91,25 +91,25 @@ public final class OMNMAIIHHDJOuterClass {
         int index);
 
     /**
-     * <code>repeated .Uint32Pair AABFCMMGMKE = 50002;</code>
+     * <code>repeated .Uint32Pair AABFCMMGMKE = 9;</code>
      */
     java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> 
         getAABFCMMGMKEList();
     /**
-     * <code>repeated .Uint32Pair AABFCMMGMKE = 50002;</code>
+     * <code>repeated .Uint32Pair AABFCMMGMKE = 9;</code>
      */
     emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getAABFCMMGMKE(int index);
     /**
-     * <code>repeated .Uint32Pair AABFCMMGMKE = 50002;</code>
+     * <code>repeated .Uint32Pair AABFCMMGMKE = 9;</code>
      */
     int getAABFCMMGMKECount();
     /**
-     * <code>repeated .Uint32Pair AABFCMMGMKE = 50002;</code>
+     * <code>repeated .Uint32Pair AABFCMMGMKE = 9;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
         getAABFCMMGMKEOrBuilderList();
     /**
-     * <code>repeated .Uint32Pair AABFCMMGMKE = 50002;</code>
+     * <code>repeated .Uint32Pair AABFCMMGMKE = 9;</code>
      */
     emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getAABFCMMGMKEOrBuilder(
         int index);
@@ -237,6 +237,15 @@ public final class OMNMAIIHHDJOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.OLNDJCHOPMCOuterClass.OLNDJCHOPMC.parser(), extensionRegistry));
               break;
             }
+            case 74: {
+              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
+                aABFCMMGMKE_ = new java.util.ArrayList<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair>();
+                mutable_bitField0_ |= 0x00000004;
+              }
+              aABFCMMGMKE_.add(
+                  input.readMessage(emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.parser(), extensionRegistry));
+              break;
+            }
             case 104: {
 
               isOpen_ = input.readBool();
@@ -255,15 +264,6 @@ public final class OMNMAIIHHDJOuterClass {
             case 400008: {
 
               iKADJGPFNOI_ = input.readUInt32();
-              break;
-            }
-            case 400018: {
-              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
-                aABFCMMGMKE_ = new java.util.ArrayList<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair>();
-                mutable_bitField0_ |= 0x00000004;
-              }
-              aABFCMMGMKE_.add(
-                  input.readMessage(emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -434,17 +434,17 @@ public final class OMNMAIIHHDJOuterClass {
       return kEJAEGGMIBJ_.get(index);
     }
 
-    public static final int AABFCMMGMKE_FIELD_NUMBER = 50002;
+    public static final int AABFCMMGMKE_FIELD_NUMBER = 9;
     private java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> aABFCMMGMKE_;
     /**
-     * <code>repeated .Uint32Pair AABFCMMGMKE = 50002;</code>
+     * <code>repeated .Uint32Pair AABFCMMGMKE = 9;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> getAABFCMMGMKEList() {
       return aABFCMMGMKE_;
     }
     /**
-     * <code>repeated .Uint32Pair AABFCMMGMKE = 50002;</code>
+     * <code>repeated .Uint32Pair AABFCMMGMKE = 9;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
@@ -452,21 +452,21 @@ public final class OMNMAIIHHDJOuterClass {
       return aABFCMMGMKE_;
     }
     /**
-     * <code>repeated .Uint32Pair AABFCMMGMKE = 50002;</code>
+     * <code>repeated .Uint32Pair AABFCMMGMKE = 9;</code>
      */
     @java.lang.Override
     public int getAABFCMMGMKECount() {
       return aABFCMMGMKE_.size();
     }
     /**
-     * <code>repeated .Uint32Pair AABFCMMGMKE = 50002;</code>
+     * <code>repeated .Uint32Pair AABFCMMGMKE = 9;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getAABFCMMGMKE(int index) {
       return aABFCMMGMKE_.get(index);
     }
     /**
-     * <code>repeated .Uint32Pair AABFCMMGMKE = 50002;</code>
+     * <code>repeated .Uint32Pair AABFCMMGMKE = 9;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getAABFCMMGMKEOrBuilder(
@@ -565,6 +565,9 @@ public final class OMNMAIIHHDJOuterClass {
       for (int i = 0; i < pDNALAKIIKL_.size(); i++) {
         output.writeMessage(8, pDNALAKIIKL_.get(i));
       }
+      for (int i = 0; i < aABFCMMGMKE_.size(); i++) {
+        output.writeMessage(9, aABFCMMGMKE_.get(i));
+      }
       if (isOpen_ != false) {
         output.writeBool(13, isOpen_);
       }
@@ -576,9 +579,6 @@ public final class OMNMAIIHHDJOuterClass {
       }
       if (iKADJGPFNOI_ != 0) {
         output.writeUInt32(50001, iKADJGPFNOI_);
-      }
-      for (int i = 0; i < aABFCMMGMKE_.size(); i++) {
-        output.writeMessage(50002, aABFCMMGMKE_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -609,6 +609,10 @@ public final class OMNMAIIHHDJOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(8, pDNALAKIIKL_.get(i));
       }
+      for (int i = 0; i < aABFCMMGMKE_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(9, aABFCMMGMKE_.get(i));
+      }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(13, isOpen_);
@@ -624,10 +628,6 @@ public final class OMNMAIIHHDJOuterClass {
       if (iKADJGPFNOI_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(50001, iKADJGPFNOI_);
-      }
-      for (int i = 0; i < aABFCMMGMKE_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(50002, aABFCMMGMKE_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1765,7 +1765,7 @@ public final class OMNMAIIHHDJOuterClass {
           emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> aABFCMMGMKEBuilder_;
 
       /**
-       * <code>repeated .Uint32Pair AABFCMMGMKE = 50002;</code>
+       * <code>repeated .Uint32Pair AABFCMMGMKE = 9;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> getAABFCMMGMKEList() {
         if (aABFCMMGMKEBuilder_ == null) {
@@ -1775,7 +1775,7 @@ public final class OMNMAIIHHDJOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair AABFCMMGMKE = 50002;</code>
+       * <code>repeated .Uint32Pair AABFCMMGMKE = 9;</code>
        */
       public int getAABFCMMGMKECount() {
         if (aABFCMMGMKEBuilder_ == null) {
@@ -1785,7 +1785,7 @@ public final class OMNMAIIHHDJOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair AABFCMMGMKE = 50002;</code>
+       * <code>repeated .Uint32Pair AABFCMMGMKE = 9;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getAABFCMMGMKE(int index) {
         if (aABFCMMGMKEBuilder_ == null) {
@@ -1795,7 +1795,7 @@ public final class OMNMAIIHHDJOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair AABFCMMGMKE = 50002;</code>
+       * <code>repeated .Uint32Pair AABFCMMGMKE = 9;</code>
        */
       public Builder setAABFCMMGMKE(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
@@ -1812,7 +1812,7 @@ public final class OMNMAIIHHDJOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair AABFCMMGMKE = 50002;</code>
+       * <code>repeated .Uint32Pair AABFCMMGMKE = 9;</code>
        */
       public Builder setAABFCMMGMKE(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder builderForValue) {
@@ -1826,7 +1826,7 @@ public final class OMNMAIIHHDJOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair AABFCMMGMKE = 50002;</code>
+       * <code>repeated .Uint32Pair AABFCMMGMKE = 9;</code>
        */
       public Builder addAABFCMMGMKE(emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
         if (aABFCMMGMKEBuilder_ == null) {
@@ -1842,7 +1842,7 @@ public final class OMNMAIIHHDJOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair AABFCMMGMKE = 50002;</code>
+       * <code>repeated .Uint32Pair AABFCMMGMKE = 9;</code>
        */
       public Builder addAABFCMMGMKE(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
@@ -1859,7 +1859,7 @@ public final class OMNMAIIHHDJOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair AABFCMMGMKE = 50002;</code>
+       * <code>repeated .Uint32Pair AABFCMMGMKE = 9;</code>
        */
       public Builder addAABFCMMGMKE(
           emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder builderForValue) {
@@ -1873,7 +1873,7 @@ public final class OMNMAIIHHDJOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair AABFCMMGMKE = 50002;</code>
+       * <code>repeated .Uint32Pair AABFCMMGMKE = 9;</code>
        */
       public Builder addAABFCMMGMKE(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder builderForValue) {
@@ -1887,7 +1887,7 @@ public final class OMNMAIIHHDJOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair AABFCMMGMKE = 50002;</code>
+       * <code>repeated .Uint32Pair AABFCMMGMKE = 9;</code>
        */
       public Builder addAllAABFCMMGMKE(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> values) {
@@ -1902,7 +1902,7 @@ public final class OMNMAIIHHDJOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair AABFCMMGMKE = 50002;</code>
+       * <code>repeated .Uint32Pair AABFCMMGMKE = 9;</code>
        */
       public Builder clearAABFCMMGMKE() {
         if (aABFCMMGMKEBuilder_ == null) {
@@ -1915,7 +1915,7 @@ public final class OMNMAIIHHDJOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair AABFCMMGMKE = 50002;</code>
+       * <code>repeated .Uint32Pair AABFCMMGMKE = 9;</code>
        */
       public Builder removeAABFCMMGMKE(int index) {
         if (aABFCMMGMKEBuilder_ == null) {
@@ -1928,14 +1928,14 @@ public final class OMNMAIIHHDJOuterClass {
         return this;
       }
       /**
-       * <code>repeated .Uint32Pair AABFCMMGMKE = 50002;</code>
+       * <code>repeated .Uint32Pair AABFCMMGMKE = 9;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder getAABFCMMGMKEBuilder(
           int index) {
         return getAABFCMMGMKEFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .Uint32Pair AABFCMMGMKE = 50002;</code>
+       * <code>repeated .Uint32Pair AABFCMMGMKE = 9;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getAABFCMMGMKEOrBuilder(
           int index) {
@@ -1945,7 +1945,7 @@ public final class OMNMAIIHHDJOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair AABFCMMGMKE = 50002;</code>
+       * <code>repeated .Uint32Pair AABFCMMGMKE = 9;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
            getAABFCMMGMKEOrBuilderList() {
@@ -1956,14 +1956,14 @@ public final class OMNMAIIHHDJOuterClass {
         }
       }
       /**
-       * <code>repeated .Uint32Pair AABFCMMGMKE = 50002;</code>
+       * <code>repeated .Uint32Pair AABFCMMGMKE = 9;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder addAABFCMMGMKEBuilder() {
         return getAABFCMMGMKEFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.getDefaultInstance());
       }
       /**
-       * <code>repeated .Uint32Pair AABFCMMGMKE = 50002;</code>
+       * <code>repeated .Uint32Pair AABFCMMGMKE = 9;</code>
        */
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder addAABFCMMGMKEBuilder(
           int index) {
@@ -1971,7 +1971,7 @@ public final class OMNMAIIHHDJOuterClass {
             index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.getDefaultInstance());
       }
       /**
-       * <code>repeated .Uint32Pair AABFCMMGMKE = 50002;</code>
+       * <code>repeated .Uint32Pair AABFCMMGMKE = 9;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder> 
            getAABFCMMGMKEBuilderList() {
@@ -2361,16 +2361,16 @@ public final class OMNMAIIHHDJOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021OMNMAIIHHDJ.proto\032\021FIIHDNCNDHH.proto\032\021" +
-      "OLNDJCHOPMC.proto\032\020Uint32Pair.proto\"\227\002\n\013" +
+      "OLNDJCHOPMC.proto\032\020Uint32Pair.proto\"\225\002\n\013" +
       "OMNMAIIHHDJ\022\023\n\013FHIOEKBKAJF\030\001 \001(\010\022\023\n\013HALO" +
       "GJLKGLB\030\006 \001(\004\022!\n\013record_list\030\002 \003(\0132\014.FII" +
       "HDNCNDHH\022\025\n\013PDDGCIDOLBL\030\320\206\003 \001(\r\022\025\n\013IKADJ" +
       "GPFNOI\030\321\206\003 \001(\r\022 \n\013KEJAEGGMIBJ\030\005 \003(\0132\013.Ui" +
-      "nt32Pair\022\"\n\013AABFCMMGMKE\030\322\206\003 \003(\0132\013.Uint32" +
-      "Pair\022\017\n\007is_open\030\r \001(\010\022\023\n\013HBCLKADPLED\030\017 \001" +
-      "(\r\022!\n\013PDNALAKIIKL\030\010 \003(\0132\014.OLNDJCHOPMCB2\n" +
-      "\031emu.grasscutter.net.protoB\025OMNMAIIHHDJO" +
-      "uterClassb\006proto3"
+      "nt32Pair\022 \n\013AABFCMMGMKE\030\t \003(\0132\013.Uint32Pa" +
+      "ir\022\017\n\007is_open\030\r \001(\010\022\023\n\013HBCLKADPLED\030\017 \001(\r" +
+      "\022!\n\013PDNALAKIIKL\030\010 \003(\0132\014.OLNDJCHOPMCB2\n\031e" +
+      "mu.grasscutter.net.protoB\025OMNMAIIHHDJOut" +
+      "erClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

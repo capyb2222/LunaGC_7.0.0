@@ -19,7 +19,7 @@ public final class NatlanRaceDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool is_special_reward_taken = 6;</code>
+     * <code>bool is_special_reward_taken = 1;</code>
      * @return The isSpecialRewardTaken.
      */
     boolean getIsSpecialRewardTaken();
@@ -95,7 +95,7 @@ public final class NatlanRaceDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
+            case 8: {
 
               isSpecialRewardTaken_ = input.readBool();
               break;
@@ -144,10 +144,10 @@ public final class NatlanRaceDetailInfoOuterClass {
               emu.grasscutter.net.proto.NatlanRaceDetailInfoOuterClass.NatlanRaceDetailInfo.class, emu.grasscutter.net.proto.NatlanRaceDetailInfoOuterClass.NatlanRaceDetailInfo.Builder.class);
     }
 
-    public static final int IS_SPECIAL_REWARD_TAKEN_FIELD_NUMBER = 6;
+    public static final int IS_SPECIAL_REWARD_TAKEN_FIELD_NUMBER = 1;
     private boolean isSpecialRewardTaken_;
     /**
-     * <code>bool is_special_reward_taken = 6;</code>
+     * <code>bool is_special_reward_taken = 1;</code>
      * @return The isSpecialRewardTaken.
      */
     @java.lang.Override
@@ -210,7 +210,7 @@ public final class NatlanRaceDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (isSpecialRewardTaken_ != false) {
-        output.writeBool(6, isSpecialRewardTaken_);
+        output.writeBool(1, isSpecialRewardTaken_);
       }
       for (int i = 0; i < levelInfoList_.size(); i++) {
         output.writeMessage(14, levelInfoList_.get(i));
@@ -226,7 +226,7 @@ public final class NatlanRaceDetailInfoOuterClass {
       size = 0;
       if (isSpecialRewardTaken_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(6, isSpecialRewardTaken_);
+          .computeBoolSize(1, isSpecialRewardTaken_);
       }
       for (int i = 0; i < levelInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
@@ -557,7 +557,7 @@ public final class NatlanRaceDetailInfoOuterClass {
 
       private boolean isSpecialRewardTaken_ ;
       /**
-       * <code>bool is_special_reward_taken = 6;</code>
+       * <code>bool is_special_reward_taken = 1;</code>
        * @return The isSpecialRewardTaken.
        */
       @java.lang.Override
@@ -565,7 +565,7 @@ public final class NatlanRaceDetailInfoOuterClass {
         return isSpecialRewardTaken_;
       }
       /**
-       * <code>bool is_special_reward_taken = 6;</code>
+       * <code>bool is_special_reward_taken = 1;</code>
        * @param value The isSpecialRewardTaken to set.
        * @return This builder for chaining.
        */
@@ -576,7 +576,7 @@ public final class NatlanRaceDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_special_reward_taken = 6;</code>
+       * <code>bool is_special_reward_taken = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsSpecialRewardTaken() {
@@ -894,7 +894,7 @@ public final class NatlanRaceDetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032NatlanRaceDetailInfo.proto\032\021GMBNGIKAPM" +
       "N.proto\"^\n\024NatlanRaceDetailInfo\022\037\n\027is_sp" +
-      "ecial_reward_taken\030\006 \001(\010\022%\n\017level_info_l" +
+      "ecial_reward_taken\030\001 \001(\010\022%\n\017level_info_l" +
       "ist\030\016 \003(\0132\014.GMBNGIKAPMNB;\n\031emu.grasscutt" +
       "er.net.protoB\036NatlanRaceDetailInfoOuterC" +
       "lassb\006proto3"

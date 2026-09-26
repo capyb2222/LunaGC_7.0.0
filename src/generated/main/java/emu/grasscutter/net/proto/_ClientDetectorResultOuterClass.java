@@ -36,7 +36,7 @@ public final class _ClientDetectorResultOuterClass {
     int getDCGOIJMIJMG(int index);
 
     /**
-     * <code>bool GJFFLCIHPIN = 14;</code>
+     * <code>bool GJFFLCIHPIN = 15;</code>
      * @return The gJFFLCIHPIN.
      */
     boolean getGJFFLCIHPIN();
@@ -109,7 +109,7 @@ public final class _ClientDetectorResultOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 112: {
+            case 120: {
 
               gJFFLCIHPIN_ = input.readBool();
               break;
@@ -177,10 +177,10 @@ public final class _ClientDetectorResultOuterClass {
     }
     private int dCGOIJMIJMGMemoizedSerializedSize = -1;
 
-    public static final int GJFFLCIHPIN_FIELD_NUMBER = 14;
+    public static final int GJFFLCIHPIN_FIELD_NUMBER = 15;
     private boolean gJFFLCIHPIN_;
     /**
-     * <code>bool GJFFLCIHPIN = 14;</code>
+     * <code>bool GJFFLCIHPIN = 15;</code>
      * @return The gJFFLCIHPIN.
      */
     @java.lang.Override
@@ -211,7 +211,7 @@ public final class _ClientDetectorResultOuterClass {
         output.writeUInt32NoTag(dCGOIJMIJMG_.getInt(i));
       }
       if (gJFFLCIHPIN_ != false) {
-        output.writeBool(14, gJFFLCIHPIN_);
+        output.writeBool(15, gJFFLCIHPIN_);
       }
       unknownFields.writeTo(output);
     }
@@ -238,7 +238,7 @@ public final class _ClientDetectorResultOuterClass {
       }
       if (gJFFLCIHPIN_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(14, gJFFLCIHPIN_);
+          .computeBoolSize(15, gJFFLCIHPIN_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -619,7 +619,7 @@ public final class _ClientDetectorResultOuterClass {
 
       private boolean gJFFLCIHPIN_ ;
       /**
-       * <code>bool GJFFLCIHPIN = 14;</code>
+       * <code>bool GJFFLCIHPIN = 15;</code>
        * @return The gJFFLCIHPIN.
        */
       @java.lang.Override
@@ -627,7 +627,7 @@ public final class _ClientDetectorResultOuterClass {
         return gJFFLCIHPIN_;
       }
       /**
-       * <code>bool GJFFLCIHPIN = 14;</code>
+       * <code>bool GJFFLCIHPIN = 15;</code>
        * @param value The gJFFLCIHPIN to set.
        * @return This builder for chaining.
        */
@@ -638,7 +638,7 @@ public final class _ClientDetectorResultOuterClass {
         return this;
       }
       /**
-       * <code>bool GJFFLCIHPIN = 14;</code>
+       * <code>bool GJFFLCIHPIN = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearGJFFLCIHPIN() {
@@ -716,7 +716,7 @@ public final class _ClientDetectorResultOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033_ClientDetectorResult.proto\"A\n\025_Client" +
       "DetectorResult\022\023\n\013DCGOIJMIJMG\030\003 \003(\r\022\023\n\013G" +
-      "JFFLCIHPIN\030\016 \001(\010B<\n\031emu.grasscutter.net." +
+      "JFFLCIHPIN\030\017 \001(\010B<\n\031emu.grasscutter.net." +
       "protoB\037_ClientDetectorResultOuterClassb\006" +
       "proto3"
     };

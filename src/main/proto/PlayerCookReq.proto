@@ -5,9 +5,9 @@ option java_outer_classname = "PlayerCookReqOuterClass";
 
 message PlayerCookReq {
 	uint32 KLACBPCPCMJ = 50000;
-	uint32 assist_avatar = 50001;
-	uint32 DDACKLBMIKL = 50002;
-	uint32 recipe_id = 50003;
-	uint32 OLLOPKLIIAC = 50004;
-	uint32 JJPABEHGMCH = 50005;
+	uint32 assist_avatar = 6;
+	uint32 DDACKLBMIKL = 50001;
+	uint32 recipe_id = 14;
+	uint32 OLLOPKLIIAC = 50002;
+	uint32 JJPABEHGMCH = 50003;
 }

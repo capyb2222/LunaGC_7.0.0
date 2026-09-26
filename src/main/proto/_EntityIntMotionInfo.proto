@@ -1,12 +1,12 @@
 syntax = "proto3";
 
 option java_package = "emu.grasscutter.net.proto";
-option java_outer_classname = "IFMIEJICEMAOuterClass";
+option java_outer_classname = "_EntityIntMotionInfoOuterClass";
 
 import "MotionState.proto";
 import "Vector3Int.proto";
 
-message IFMIEJICEMA {
+message _EntityIntMotionInfo {
 	uint32 entity_id = 1;
 	Vector3Int pos = 2;
 	Vector3Int rot = 3;

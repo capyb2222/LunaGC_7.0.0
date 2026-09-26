@@ -7,8 +7,8 @@ import "ItemParam.proto";
 
 message ShopCardProduct {
 	message ResinCard {
-		repeated ItemParam base_item_list = 50000;
-		repeated ItemParam per_day_item_list = 50001;
+		repeated ItemParam base_item_list = 1;
+		repeated ItemParam per_day_item_list = 2;
 	}
 	optional ResinCard resin_card = 101;
 	string product_id = 1;

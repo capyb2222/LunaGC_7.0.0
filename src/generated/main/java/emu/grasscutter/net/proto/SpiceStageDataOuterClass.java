@@ -19,19 +19,19 @@ public final class SpiceStageDataOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 stage_id = 6;</code>
+     * <code>uint32 stage_id = 15;</code>
      * @return The stageId.
      */
     int getStageId();
 
     /**
-     * <code>bool is_open = 11;</code>
+     * <code>bool is_open = 7;</code>
      * @return The isOpen.
      */
     boolean getIsOpen();
 
     /**
-     * <code>uint32 success_times = 14;</code>
+     * <code>uint32 success_times = 5;</code>
      * @return The successTimes.
      */
     int getSuccessTimes();
@@ -81,19 +81,19 @@ public final class SpiceStageDataOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
+            case 40: {
 
-              stageId_ = input.readUInt32();
+              successTimes_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 56: {
 
               isOpen_ = input.readBool();
               break;
             }
-            case 112: {
+            case 120: {
 
-              successTimes_ = input.readUInt32();
+              stageId_ = input.readUInt32();
               break;
             }
             default: {
@@ -128,10 +128,10 @@ public final class SpiceStageDataOuterClass {
               emu.grasscutter.net.proto.SpiceStageDataOuterClass.SpiceStageData.class, emu.grasscutter.net.proto.SpiceStageDataOuterClass.SpiceStageData.Builder.class);
     }
 
-    public static final int STAGE_ID_FIELD_NUMBER = 6;
+    public static final int STAGE_ID_FIELD_NUMBER = 15;
     private int stageId_;
     /**
-     * <code>uint32 stage_id = 6;</code>
+     * <code>uint32 stage_id = 15;</code>
      * @return The stageId.
      */
     @java.lang.Override
@@ -139,10 +139,10 @@ public final class SpiceStageDataOuterClass {
       return stageId_;
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 11;
+    public static final int IS_OPEN_FIELD_NUMBER = 7;
     private boolean isOpen_;
     /**
-     * <code>bool is_open = 11;</code>
+     * <code>bool is_open = 7;</code>
      * @return The isOpen.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class SpiceStageDataOuterClass {
       return isOpen_;
     }
 
-    public static final int SUCCESS_TIMES_FIELD_NUMBER = 14;
+    public static final int SUCCESS_TIMES_FIELD_NUMBER = 5;
     private int successTimes_;
     /**
-     * <code>uint32 success_times = 14;</code>
+     * <code>uint32 success_times = 5;</code>
      * @return The successTimes.
      */
     @java.lang.Override
@@ -175,14 +175,14 @@ public final class SpiceStageDataOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (stageId_ != 0) {
-        output.writeUInt32(6, stageId_);
+      if (successTimes_ != 0) {
+        output.writeUInt32(5, successTimes_);
       }
       if (isOpen_ != false) {
-        output.writeBool(11, isOpen_);
+        output.writeBool(7, isOpen_);
       }
-      if (successTimes_ != 0) {
-        output.writeUInt32(14, successTimes_);
+      if (stageId_ != 0) {
+        output.writeUInt32(15, stageId_);
       }
       unknownFields.writeTo(output);
     }
@@ -193,17 +193,17 @@ public final class SpiceStageDataOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (stageId_ != 0) {
+      if (successTimes_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, stageId_);
+          .computeUInt32Size(5, successTimes_);
       }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(11, isOpen_);
+          .computeBoolSize(7, isOpen_);
       }
-      if (successTimes_ != 0) {
+      if (stageId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, successTimes_);
+          .computeUInt32Size(15, stageId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -500,7 +500,7 @@ public final class SpiceStageDataOuterClass {
 
       private int stageId_ ;
       /**
-       * <code>uint32 stage_id = 6;</code>
+       * <code>uint32 stage_id = 15;</code>
        * @return The stageId.
        */
       @java.lang.Override
@@ -508,7 +508,7 @@ public final class SpiceStageDataOuterClass {
         return stageId_;
       }
       /**
-       * <code>uint32 stage_id = 6;</code>
+       * <code>uint32 stage_id = 15;</code>
        * @param value The stageId to set.
        * @return This builder for chaining.
        */
@@ -519,7 +519,7 @@ public final class SpiceStageDataOuterClass {
         return this;
       }
       /**
-       * <code>uint32 stage_id = 6;</code>
+       * <code>uint32 stage_id = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearStageId() {
@@ -531,7 +531,7 @@ public final class SpiceStageDataOuterClass {
 
       private boolean isOpen_ ;
       /**
-       * <code>bool is_open = 11;</code>
+       * <code>bool is_open = 7;</code>
        * @return The isOpen.
        */
       @java.lang.Override
@@ -539,7 +539,7 @@ public final class SpiceStageDataOuterClass {
         return isOpen_;
       }
       /**
-       * <code>bool is_open = 11;</code>
+       * <code>bool is_open = 7;</code>
        * @param value The isOpen to set.
        * @return This builder for chaining.
        */
@@ -550,7 +550,7 @@ public final class SpiceStageDataOuterClass {
         return this;
       }
       /**
-       * <code>bool is_open = 11;</code>
+       * <code>bool is_open = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsOpen() {
@@ -562,7 +562,7 @@ public final class SpiceStageDataOuterClass {
 
       private int successTimes_ ;
       /**
-       * <code>uint32 success_times = 14;</code>
+       * <code>uint32 success_times = 5;</code>
        * @return The successTimes.
        */
       @java.lang.Override
@@ -570,7 +570,7 @@ public final class SpiceStageDataOuterClass {
         return successTimes_;
       }
       /**
-       * <code>uint32 success_times = 14;</code>
+       * <code>uint32 success_times = 5;</code>
        * @param value The successTimes to set.
        * @return This builder for chaining.
        */
@@ -581,7 +581,7 @@ public final class SpiceStageDataOuterClass {
         return this;
       }
       /**
-       * <code>uint32 success_times = 14;</code>
+       * <code>uint32 success_times = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearSuccessTimes() {
@@ -658,8 +658,8 @@ public final class SpiceStageDataOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\024SpiceStageData.proto\"J\n\016SpiceStageData" +
-      "\022\020\n\010stage_id\030\006 \001(\r\022\017\n\007is_open\030\013 \001(\010\022\025\n\rs" +
-      "uccess_times\030\016 \001(\rB5\n\031emu.grasscutter.ne" +
+      "\022\020\n\010stage_id\030\017 \001(\r\022\017\n\007is_open\030\007 \001(\010\022\025\n\rs" +
+      "uccess_times\030\005 \001(\rB5\n\031emu.grasscutter.ne" +
       "t.protoB\030SpiceStageDataOuterClassb\006proto" +
       "3"
     };

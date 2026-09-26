@@ -4,5 +4,5 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "ServerAnnounceRevokeNotifyOuterClass";
 
 message ServerAnnounceRevokeNotify {
-	repeated uint32 config_id_list = 11;
+	repeated uint32 config_id_list = 4;
 }

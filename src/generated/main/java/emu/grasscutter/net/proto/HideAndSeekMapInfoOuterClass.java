@@ -19,17 +19,17 @@ public final class HideAndSeekMapInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 match_lock_reason_list = 3;</code>
+     * <code>repeated uint32 match_lock_reason_list = 5;</code>
      * @return A list containing the matchLockReasonList.
      */
     java.util.List<java.lang.Integer> getMatchLockReasonListList();
     /**
-     * <code>repeated uint32 match_lock_reason_list = 3;</code>
+     * <code>repeated uint32 match_lock_reason_list = 5;</code>
      * @return The count of matchLockReasonList.
      */
     int getMatchLockReasonListCount();
     /**
-     * <code>repeated uint32 match_lock_reason_list = 3;</code>
+     * <code>repeated uint32 match_lock_reason_list = 5;</code>
      * @param index The index of the element to return.
      * @return The matchLockReasonList at the given index.
      */
@@ -88,7 +88,7 @@ public final class HideAndSeekMapInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 40: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 matchLockReasonList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -96,7 +96,7 @@ public final class HideAndSeekMapInfoOuterClass {
               matchLockReasonList_.addInt(input.readUInt32());
               break;
             }
-            case 26: {
+            case 42: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -149,10 +149,10 @@ public final class HideAndSeekMapInfoOuterClass {
               emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfo.class, emu.grasscutter.net.proto.HideAndSeekMapInfoOuterClass.HideAndSeekMapInfo.Builder.class);
     }
 
-    public static final int MATCH_LOCK_REASON_LIST_FIELD_NUMBER = 3;
+    public static final int MATCH_LOCK_REASON_LIST_FIELD_NUMBER = 5;
     private com.google.protobuf.Internal.IntList matchLockReasonList_;
     /**
-     * <code>repeated uint32 match_lock_reason_list = 3;</code>
+     * <code>repeated uint32 match_lock_reason_list = 5;</code>
      * @return A list containing the matchLockReasonList.
      */
     @java.lang.Override
@@ -161,14 +161,14 @@ public final class HideAndSeekMapInfoOuterClass {
       return matchLockReasonList_;
     }
     /**
-     * <code>repeated uint32 match_lock_reason_list = 3;</code>
+     * <code>repeated uint32 match_lock_reason_list = 5;</code>
      * @return The count of matchLockReasonList.
      */
     public int getMatchLockReasonListCount() {
       return matchLockReasonList_.size();
     }
     /**
-     * <code>repeated uint32 match_lock_reason_list = 3;</code>
+     * <code>repeated uint32 match_lock_reason_list = 5;</code>
      * @param index The index of the element to return.
      * @return The matchLockReasonList at the given index.
      */
@@ -204,7 +204,7 @@ public final class HideAndSeekMapInfoOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getMatchLockReasonListList().size() > 0) {
-        output.writeUInt32NoTag(26);
+        output.writeUInt32NoTag(42);
         output.writeUInt32NoTag(matchLockReasonListMemoizedSerializedSize);
       }
       for (int i = 0; i < matchLockReasonList_.size(); i++) {
@@ -545,7 +545,7 @@ public final class HideAndSeekMapInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 match_lock_reason_list = 3;</code>
+       * <code>repeated uint32 match_lock_reason_list = 5;</code>
        * @return A list containing the matchLockReasonList.
        */
       public java.util.List<java.lang.Integer>
@@ -554,14 +554,14 @@ public final class HideAndSeekMapInfoOuterClass {
                  java.util.Collections.unmodifiableList(matchLockReasonList_) : matchLockReasonList_;
       }
       /**
-       * <code>repeated uint32 match_lock_reason_list = 3;</code>
+       * <code>repeated uint32 match_lock_reason_list = 5;</code>
        * @return The count of matchLockReasonList.
        */
       public int getMatchLockReasonListCount() {
         return matchLockReasonList_.size();
       }
       /**
-       * <code>repeated uint32 match_lock_reason_list = 3;</code>
+       * <code>repeated uint32 match_lock_reason_list = 5;</code>
        * @param index The index of the element to return.
        * @return The matchLockReasonList at the given index.
        */
@@ -569,7 +569,7 @@ public final class HideAndSeekMapInfoOuterClass {
         return matchLockReasonList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 match_lock_reason_list = 3;</code>
+       * <code>repeated uint32 match_lock_reason_list = 5;</code>
        * @param index The index to set the value at.
        * @param value The matchLockReasonList to set.
        * @return This builder for chaining.
@@ -582,7 +582,7 @@ public final class HideAndSeekMapInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 match_lock_reason_list = 3;</code>
+       * <code>repeated uint32 match_lock_reason_list = 5;</code>
        * @param value The matchLockReasonList to add.
        * @return This builder for chaining.
        */
@@ -593,7 +593,7 @@ public final class HideAndSeekMapInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 match_lock_reason_list = 3;</code>
+       * <code>repeated uint32 match_lock_reason_list = 5;</code>
        * @param values The matchLockReasonList to add.
        * @return This builder for chaining.
        */
@@ -606,7 +606,7 @@ public final class HideAndSeekMapInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 match_lock_reason_list = 3;</code>
+       * <code>repeated uint32 match_lock_reason_list = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearMatchLockReasonList() {
@@ -714,7 +714,7 @@ public final class HideAndSeekMapInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\030HideAndSeekMapInfo.proto\"@\n\022HideAndSee" +
-      "kMapInfo\022\036\n\026match_lock_reason_list\030\003 \003(\r" +
+      "kMapInfo\022\036\n\026match_lock_reason_list\030\005 \003(\r" +
       "\022\n\n\002id\030\013 \001(\rB9\n\031emu.grasscutter.net.prot" +
       "oB\034HideAndSeekMapInfoOuterClassb\006proto3"
     };

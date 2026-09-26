@@ -15,9 +15,9 @@ message Shop {
 	OLFKDMCHEDP FAEEGIJKFJP = 2;
 	repeated ShopCardProduct card_product_list = 9;
 	uint32 city_reputation_level = 50000;
-	repeated _ShopBeyondMcoinProduct _beyond_mcoin_product_list = 50001;
+	repeated _ShopBeyondMcoinProduct _beyond_mcoin_product_list = 13;
 	repeated ShopGoods goods_list = 4;
-	uint32 hogdkcckgap = 50002;
+	uint32 hogdkcckgap = 50001;
 	uint32 city_id = 11;
 	repeated ShopConcertProduct concert_product_list = 12;
 	repeated ShopMcoinProduct mcoin_product_list = 1;

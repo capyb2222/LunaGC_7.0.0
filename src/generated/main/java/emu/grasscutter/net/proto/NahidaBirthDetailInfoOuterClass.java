@@ -19,47 +19,47 @@ public final class NahidaBirthDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.HFNONNBFKOE PHGKJLCIBMG = 7;</code>
+     * <code>.HFNONNBFKOE PHGKJLCIBMG = 50000;</code>
      * @return Whether the pHGKJLCIBMG field is set.
      */
     boolean hasPHGKJLCIBMG();
     /**
-     * <code>.HFNONNBFKOE PHGKJLCIBMG = 7;</code>
+     * <code>.HFNONNBFKOE PHGKJLCIBMG = 50000;</code>
      * @return The pHGKJLCIBMG.
      */
     emu.grasscutter.net.proto.HFNONNBFKOEOuterClass.HFNONNBFKOE getPHGKJLCIBMG();
     /**
-     * <code>.HFNONNBFKOE PHGKJLCIBMG = 7;</code>
+     * <code>.HFNONNBFKOE PHGKJLCIBMG = 50000;</code>
      */
     emu.grasscutter.net.proto.HFNONNBFKOEOuterClass.HFNONNBFKOEOrBuilder getPHGKJLCIBMGOrBuilder();
 
     /**
-     * <code>.BBIBJKCJINF POKCBHFGDLE = 8;</code>
+     * <code>.BBIBJKCJINF POKCBHFGDLE = 50001;</code>
      * @return Whether the pOKCBHFGDLE field is set.
      */
     boolean hasPOKCBHFGDLE();
     /**
-     * <code>.BBIBJKCJINF POKCBHFGDLE = 8;</code>
+     * <code>.BBIBJKCJINF POKCBHFGDLE = 50001;</code>
      * @return The pOKCBHFGDLE.
      */
     emu.grasscutter.net.proto.BBIBJKCJINFOuterClass.BBIBJKCJINF getPOKCBHFGDLE();
     /**
-     * <code>.BBIBJKCJINF POKCBHFGDLE = 8;</code>
+     * <code>.BBIBJKCJINF POKCBHFGDLE = 50001;</code>
      */
     emu.grasscutter.net.proto.BBIBJKCJINFOuterClass.BBIBJKCJINFOrBuilder getPOKCBHFGDLEOrBuilder();
 
     /**
-     * <code>.LLINKLDMOCF MEDJFGIIACB = 11;</code>
+     * <code>.LLINKLDMOCF MEDJFGIIACB = 13;</code>
      * @return Whether the mEDJFGIIACB field is set.
      */
     boolean hasMEDJFGIIACB();
     /**
-     * <code>.LLINKLDMOCF MEDJFGIIACB = 11;</code>
+     * <code>.LLINKLDMOCF MEDJFGIIACB = 13;</code>
      * @return The mEDJFGIIACB.
      */
     emu.grasscutter.net.proto.LLINKLDMOCFOuterClass.LLINKLDMOCF getMEDJFGIIACB();
     /**
-     * <code>.LLINKLDMOCF MEDJFGIIACB = 11;</code>
+     * <code>.LLINKLDMOCF MEDJFGIIACB = 13;</code>
      */
     emu.grasscutter.net.proto.LLINKLDMOCFOuterClass.LLINKLDMOCFOrBuilder getMEDJFGIIACBOrBuilder();
   }
@@ -108,7 +108,20 @@ public final class NahidaBirthDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 58: {
+            case 106: {
+              emu.grasscutter.net.proto.LLINKLDMOCFOuterClass.LLINKLDMOCF.Builder subBuilder = null;
+              if (mEDJFGIIACB_ != null) {
+                subBuilder = mEDJFGIIACB_.toBuilder();
+              }
+              mEDJFGIIACB_ = input.readMessage(emu.grasscutter.net.proto.LLINKLDMOCFOuterClass.LLINKLDMOCF.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(mEDJFGIIACB_);
+                mEDJFGIIACB_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 400002: {
               emu.grasscutter.net.proto.HFNONNBFKOEOuterClass.HFNONNBFKOE.Builder subBuilder = null;
               if (pHGKJLCIBMG_ != null) {
                 subBuilder = pHGKJLCIBMG_.toBuilder();
@@ -121,7 +134,7 @@ public final class NahidaBirthDetailInfoOuterClass {
 
               break;
             }
-            case 66: {
+            case 400010: {
               emu.grasscutter.net.proto.BBIBJKCJINFOuterClass.BBIBJKCJINF.Builder subBuilder = null;
               if (pOKCBHFGDLE_ != null) {
                 subBuilder = pOKCBHFGDLE_.toBuilder();
@@ -130,19 +143,6 @@ public final class NahidaBirthDetailInfoOuterClass {
               if (subBuilder != null) {
                 subBuilder.mergeFrom(pOKCBHFGDLE_);
                 pOKCBHFGDLE_ = subBuilder.buildPartial();
-              }
-
-              break;
-            }
-            case 90: {
-              emu.grasscutter.net.proto.LLINKLDMOCFOuterClass.LLINKLDMOCF.Builder subBuilder = null;
-              if (mEDJFGIIACB_ != null) {
-                subBuilder = mEDJFGIIACB_.toBuilder();
-              }
-              mEDJFGIIACB_ = input.readMessage(emu.grasscutter.net.proto.LLINKLDMOCFOuterClass.LLINKLDMOCF.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(mEDJFGIIACB_);
-                mEDJFGIIACB_ = subBuilder.buildPartial();
               }
 
               break;
@@ -179,10 +179,10 @@ public final class NahidaBirthDetailInfoOuterClass {
               emu.grasscutter.net.proto.NahidaBirthDetailInfoOuterClass.NahidaBirthDetailInfo.class, emu.grasscutter.net.proto.NahidaBirthDetailInfoOuterClass.NahidaBirthDetailInfo.Builder.class);
     }
 
-    public static final int PHGKJLCIBMG_FIELD_NUMBER = 7;
+    public static final int PHGKJLCIBMG_FIELD_NUMBER = 50000;
     private emu.grasscutter.net.proto.HFNONNBFKOEOuterClass.HFNONNBFKOE pHGKJLCIBMG_;
     /**
-     * <code>.HFNONNBFKOE PHGKJLCIBMG = 7;</code>
+     * <code>.HFNONNBFKOE PHGKJLCIBMG = 50000;</code>
      * @return Whether the pHGKJLCIBMG field is set.
      */
     @java.lang.Override
@@ -190,7 +190,7 @@ public final class NahidaBirthDetailInfoOuterClass {
       return pHGKJLCIBMG_ != null;
     }
     /**
-     * <code>.HFNONNBFKOE PHGKJLCIBMG = 7;</code>
+     * <code>.HFNONNBFKOE PHGKJLCIBMG = 50000;</code>
      * @return The pHGKJLCIBMG.
      */
     @java.lang.Override
@@ -198,17 +198,17 @@ public final class NahidaBirthDetailInfoOuterClass {
       return pHGKJLCIBMG_ == null ? emu.grasscutter.net.proto.HFNONNBFKOEOuterClass.HFNONNBFKOE.getDefaultInstance() : pHGKJLCIBMG_;
     }
     /**
-     * <code>.HFNONNBFKOE PHGKJLCIBMG = 7;</code>
+     * <code>.HFNONNBFKOE PHGKJLCIBMG = 50000;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.HFNONNBFKOEOuterClass.HFNONNBFKOEOrBuilder getPHGKJLCIBMGOrBuilder() {
       return getPHGKJLCIBMG();
     }
 
-    public static final int POKCBHFGDLE_FIELD_NUMBER = 8;
+    public static final int POKCBHFGDLE_FIELD_NUMBER = 50001;
     private emu.grasscutter.net.proto.BBIBJKCJINFOuterClass.BBIBJKCJINF pOKCBHFGDLE_;
     /**
-     * <code>.BBIBJKCJINF POKCBHFGDLE = 8;</code>
+     * <code>.BBIBJKCJINF POKCBHFGDLE = 50001;</code>
      * @return Whether the pOKCBHFGDLE field is set.
      */
     @java.lang.Override
@@ -216,7 +216,7 @@ public final class NahidaBirthDetailInfoOuterClass {
       return pOKCBHFGDLE_ != null;
     }
     /**
-     * <code>.BBIBJKCJINF POKCBHFGDLE = 8;</code>
+     * <code>.BBIBJKCJINF POKCBHFGDLE = 50001;</code>
      * @return The pOKCBHFGDLE.
      */
     @java.lang.Override
@@ -224,17 +224,17 @@ public final class NahidaBirthDetailInfoOuterClass {
       return pOKCBHFGDLE_ == null ? emu.grasscutter.net.proto.BBIBJKCJINFOuterClass.BBIBJKCJINF.getDefaultInstance() : pOKCBHFGDLE_;
     }
     /**
-     * <code>.BBIBJKCJINF POKCBHFGDLE = 8;</code>
+     * <code>.BBIBJKCJINF POKCBHFGDLE = 50001;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.BBIBJKCJINFOuterClass.BBIBJKCJINFOrBuilder getPOKCBHFGDLEOrBuilder() {
       return getPOKCBHFGDLE();
     }
 
-    public static final int MEDJFGIIACB_FIELD_NUMBER = 11;
+    public static final int MEDJFGIIACB_FIELD_NUMBER = 13;
     private emu.grasscutter.net.proto.LLINKLDMOCFOuterClass.LLINKLDMOCF mEDJFGIIACB_;
     /**
-     * <code>.LLINKLDMOCF MEDJFGIIACB = 11;</code>
+     * <code>.LLINKLDMOCF MEDJFGIIACB = 13;</code>
      * @return Whether the mEDJFGIIACB field is set.
      */
     @java.lang.Override
@@ -242,7 +242,7 @@ public final class NahidaBirthDetailInfoOuterClass {
       return mEDJFGIIACB_ != null;
     }
     /**
-     * <code>.LLINKLDMOCF MEDJFGIIACB = 11;</code>
+     * <code>.LLINKLDMOCF MEDJFGIIACB = 13;</code>
      * @return The mEDJFGIIACB.
      */
     @java.lang.Override
@@ -250,7 +250,7 @@ public final class NahidaBirthDetailInfoOuterClass {
       return mEDJFGIIACB_ == null ? emu.grasscutter.net.proto.LLINKLDMOCFOuterClass.LLINKLDMOCF.getDefaultInstance() : mEDJFGIIACB_;
     }
     /**
-     * <code>.LLINKLDMOCF MEDJFGIIACB = 11;</code>
+     * <code>.LLINKLDMOCF MEDJFGIIACB = 13;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.LLINKLDMOCFOuterClass.LLINKLDMOCFOrBuilder getMEDJFGIIACBOrBuilder() {
@@ -271,14 +271,14 @@ public final class NahidaBirthDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (mEDJFGIIACB_ != null) {
+        output.writeMessage(13, getMEDJFGIIACB());
+      }
       if (pHGKJLCIBMG_ != null) {
-        output.writeMessage(7, getPHGKJLCIBMG());
+        output.writeMessage(50000, getPHGKJLCIBMG());
       }
       if (pOKCBHFGDLE_ != null) {
-        output.writeMessage(8, getPOKCBHFGDLE());
-      }
-      if (mEDJFGIIACB_ != null) {
-        output.writeMessage(11, getMEDJFGIIACB());
+        output.writeMessage(50001, getPOKCBHFGDLE());
       }
       unknownFields.writeTo(output);
     }
@@ -289,17 +289,17 @@ public final class NahidaBirthDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (mEDJFGIIACB_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(13, getMEDJFGIIACB());
+      }
       if (pHGKJLCIBMG_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, getPHGKJLCIBMG());
+          .computeMessageSize(50000, getPHGKJLCIBMG());
       }
       if (pOKCBHFGDLE_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, getPOKCBHFGDLE());
-      }
-      if (mEDJFGIIACB_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, getMEDJFGIIACB());
+          .computeMessageSize(50001, getPOKCBHFGDLE());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -636,14 +636,14 @@ public final class NahidaBirthDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.HFNONNBFKOEOuterClass.HFNONNBFKOE, emu.grasscutter.net.proto.HFNONNBFKOEOuterClass.HFNONNBFKOE.Builder, emu.grasscutter.net.proto.HFNONNBFKOEOuterClass.HFNONNBFKOEOrBuilder> pHGKJLCIBMGBuilder_;
       /**
-       * <code>.HFNONNBFKOE PHGKJLCIBMG = 7;</code>
+       * <code>.HFNONNBFKOE PHGKJLCIBMG = 50000;</code>
        * @return Whether the pHGKJLCIBMG field is set.
        */
       public boolean hasPHGKJLCIBMG() {
         return pHGKJLCIBMGBuilder_ != null || pHGKJLCIBMG_ != null;
       }
       /**
-       * <code>.HFNONNBFKOE PHGKJLCIBMG = 7;</code>
+       * <code>.HFNONNBFKOE PHGKJLCIBMG = 50000;</code>
        * @return The pHGKJLCIBMG.
        */
       public emu.grasscutter.net.proto.HFNONNBFKOEOuterClass.HFNONNBFKOE getPHGKJLCIBMG() {
@@ -654,7 +654,7 @@ public final class NahidaBirthDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.HFNONNBFKOE PHGKJLCIBMG = 7;</code>
+       * <code>.HFNONNBFKOE PHGKJLCIBMG = 50000;</code>
        */
       public Builder setPHGKJLCIBMG(emu.grasscutter.net.proto.HFNONNBFKOEOuterClass.HFNONNBFKOE value) {
         if (pHGKJLCIBMGBuilder_ == null) {
@@ -670,7 +670,7 @@ public final class NahidaBirthDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.HFNONNBFKOE PHGKJLCIBMG = 7;</code>
+       * <code>.HFNONNBFKOE PHGKJLCIBMG = 50000;</code>
        */
       public Builder setPHGKJLCIBMG(
           emu.grasscutter.net.proto.HFNONNBFKOEOuterClass.HFNONNBFKOE.Builder builderForValue) {
@@ -684,7 +684,7 @@ public final class NahidaBirthDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.HFNONNBFKOE PHGKJLCIBMG = 7;</code>
+       * <code>.HFNONNBFKOE PHGKJLCIBMG = 50000;</code>
        */
       public Builder mergePHGKJLCIBMG(emu.grasscutter.net.proto.HFNONNBFKOEOuterClass.HFNONNBFKOE value) {
         if (pHGKJLCIBMGBuilder_ == null) {
@@ -702,7 +702,7 @@ public final class NahidaBirthDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.HFNONNBFKOE PHGKJLCIBMG = 7;</code>
+       * <code>.HFNONNBFKOE PHGKJLCIBMG = 50000;</code>
        */
       public Builder clearPHGKJLCIBMG() {
         if (pHGKJLCIBMGBuilder_ == null) {
@@ -716,7 +716,7 @@ public final class NahidaBirthDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.HFNONNBFKOE PHGKJLCIBMG = 7;</code>
+       * <code>.HFNONNBFKOE PHGKJLCIBMG = 50000;</code>
        */
       public emu.grasscutter.net.proto.HFNONNBFKOEOuterClass.HFNONNBFKOE.Builder getPHGKJLCIBMGBuilder() {
         
@@ -724,7 +724,7 @@ public final class NahidaBirthDetailInfoOuterClass {
         return getPHGKJLCIBMGFieldBuilder().getBuilder();
       }
       /**
-       * <code>.HFNONNBFKOE PHGKJLCIBMG = 7;</code>
+       * <code>.HFNONNBFKOE PHGKJLCIBMG = 50000;</code>
        */
       public emu.grasscutter.net.proto.HFNONNBFKOEOuterClass.HFNONNBFKOEOrBuilder getPHGKJLCIBMGOrBuilder() {
         if (pHGKJLCIBMGBuilder_ != null) {
@@ -735,7 +735,7 @@ public final class NahidaBirthDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.HFNONNBFKOE PHGKJLCIBMG = 7;</code>
+       * <code>.HFNONNBFKOE PHGKJLCIBMG = 50000;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.HFNONNBFKOEOuterClass.HFNONNBFKOE, emu.grasscutter.net.proto.HFNONNBFKOEOuterClass.HFNONNBFKOE.Builder, emu.grasscutter.net.proto.HFNONNBFKOEOuterClass.HFNONNBFKOEOrBuilder> 
@@ -755,14 +755,14 @@ public final class NahidaBirthDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.BBIBJKCJINFOuterClass.BBIBJKCJINF, emu.grasscutter.net.proto.BBIBJKCJINFOuterClass.BBIBJKCJINF.Builder, emu.grasscutter.net.proto.BBIBJKCJINFOuterClass.BBIBJKCJINFOrBuilder> pOKCBHFGDLEBuilder_;
       /**
-       * <code>.BBIBJKCJINF POKCBHFGDLE = 8;</code>
+       * <code>.BBIBJKCJINF POKCBHFGDLE = 50001;</code>
        * @return Whether the pOKCBHFGDLE field is set.
        */
       public boolean hasPOKCBHFGDLE() {
         return pOKCBHFGDLEBuilder_ != null || pOKCBHFGDLE_ != null;
       }
       /**
-       * <code>.BBIBJKCJINF POKCBHFGDLE = 8;</code>
+       * <code>.BBIBJKCJINF POKCBHFGDLE = 50001;</code>
        * @return The pOKCBHFGDLE.
        */
       public emu.grasscutter.net.proto.BBIBJKCJINFOuterClass.BBIBJKCJINF getPOKCBHFGDLE() {
@@ -773,7 +773,7 @@ public final class NahidaBirthDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.BBIBJKCJINF POKCBHFGDLE = 8;</code>
+       * <code>.BBIBJKCJINF POKCBHFGDLE = 50001;</code>
        */
       public Builder setPOKCBHFGDLE(emu.grasscutter.net.proto.BBIBJKCJINFOuterClass.BBIBJKCJINF value) {
         if (pOKCBHFGDLEBuilder_ == null) {
@@ -789,7 +789,7 @@ public final class NahidaBirthDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.BBIBJKCJINF POKCBHFGDLE = 8;</code>
+       * <code>.BBIBJKCJINF POKCBHFGDLE = 50001;</code>
        */
       public Builder setPOKCBHFGDLE(
           emu.grasscutter.net.proto.BBIBJKCJINFOuterClass.BBIBJKCJINF.Builder builderForValue) {
@@ -803,7 +803,7 @@ public final class NahidaBirthDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.BBIBJKCJINF POKCBHFGDLE = 8;</code>
+       * <code>.BBIBJKCJINF POKCBHFGDLE = 50001;</code>
        */
       public Builder mergePOKCBHFGDLE(emu.grasscutter.net.proto.BBIBJKCJINFOuterClass.BBIBJKCJINF value) {
         if (pOKCBHFGDLEBuilder_ == null) {
@@ -821,7 +821,7 @@ public final class NahidaBirthDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.BBIBJKCJINF POKCBHFGDLE = 8;</code>
+       * <code>.BBIBJKCJINF POKCBHFGDLE = 50001;</code>
        */
       public Builder clearPOKCBHFGDLE() {
         if (pOKCBHFGDLEBuilder_ == null) {
@@ -835,7 +835,7 @@ public final class NahidaBirthDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.BBIBJKCJINF POKCBHFGDLE = 8;</code>
+       * <code>.BBIBJKCJINF POKCBHFGDLE = 50001;</code>
        */
       public emu.grasscutter.net.proto.BBIBJKCJINFOuterClass.BBIBJKCJINF.Builder getPOKCBHFGDLEBuilder() {
         
@@ -843,7 +843,7 @@ public final class NahidaBirthDetailInfoOuterClass {
         return getPOKCBHFGDLEFieldBuilder().getBuilder();
       }
       /**
-       * <code>.BBIBJKCJINF POKCBHFGDLE = 8;</code>
+       * <code>.BBIBJKCJINF POKCBHFGDLE = 50001;</code>
        */
       public emu.grasscutter.net.proto.BBIBJKCJINFOuterClass.BBIBJKCJINFOrBuilder getPOKCBHFGDLEOrBuilder() {
         if (pOKCBHFGDLEBuilder_ != null) {
@@ -854,7 +854,7 @@ public final class NahidaBirthDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.BBIBJKCJINF POKCBHFGDLE = 8;</code>
+       * <code>.BBIBJKCJINF POKCBHFGDLE = 50001;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.BBIBJKCJINFOuterClass.BBIBJKCJINF, emu.grasscutter.net.proto.BBIBJKCJINFOuterClass.BBIBJKCJINF.Builder, emu.grasscutter.net.proto.BBIBJKCJINFOuterClass.BBIBJKCJINFOrBuilder> 
@@ -874,14 +874,14 @@ public final class NahidaBirthDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.LLINKLDMOCFOuterClass.LLINKLDMOCF, emu.grasscutter.net.proto.LLINKLDMOCFOuterClass.LLINKLDMOCF.Builder, emu.grasscutter.net.proto.LLINKLDMOCFOuterClass.LLINKLDMOCFOrBuilder> mEDJFGIIACBBuilder_;
       /**
-       * <code>.LLINKLDMOCF MEDJFGIIACB = 11;</code>
+       * <code>.LLINKLDMOCF MEDJFGIIACB = 13;</code>
        * @return Whether the mEDJFGIIACB field is set.
        */
       public boolean hasMEDJFGIIACB() {
         return mEDJFGIIACBBuilder_ != null || mEDJFGIIACB_ != null;
       }
       /**
-       * <code>.LLINKLDMOCF MEDJFGIIACB = 11;</code>
+       * <code>.LLINKLDMOCF MEDJFGIIACB = 13;</code>
        * @return The mEDJFGIIACB.
        */
       public emu.grasscutter.net.proto.LLINKLDMOCFOuterClass.LLINKLDMOCF getMEDJFGIIACB() {
@@ -892,7 +892,7 @@ public final class NahidaBirthDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.LLINKLDMOCF MEDJFGIIACB = 11;</code>
+       * <code>.LLINKLDMOCF MEDJFGIIACB = 13;</code>
        */
       public Builder setMEDJFGIIACB(emu.grasscutter.net.proto.LLINKLDMOCFOuterClass.LLINKLDMOCF value) {
         if (mEDJFGIIACBBuilder_ == null) {
@@ -908,7 +908,7 @@ public final class NahidaBirthDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.LLINKLDMOCF MEDJFGIIACB = 11;</code>
+       * <code>.LLINKLDMOCF MEDJFGIIACB = 13;</code>
        */
       public Builder setMEDJFGIIACB(
           emu.grasscutter.net.proto.LLINKLDMOCFOuterClass.LLINKLDMOCF.Builder builderForValue) {
@@ -922,7 +922,7 @@ public final class NahidaBirthDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.LLINKLDMOCF MEDJFGIIACB = 11;</code>
+       * <code>.LLINKLDMOCF MEDJFGIIACB = 13;</code>
        */
       public Builder mergeMEDJFGIIACB(emu.grasscutter.net.proto.LLINKLDMOCFOuterClass.LLINKLDMOCF value) {
         if (mEDJFGIIACBBuilder_ == null) {
@@ -940,7 +940,7 @@ public final class NahidaBirthDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.LLINKLDMOCF MEDJFGIIACB = 11;</code>
+       * <code>.LLINKLDMOCF MEDJFGIIACB = 13;</code>
        */
       public Builder clearMEDJFGIIACB() {
         if (mEDJFGIIACBBuilder_ == null) {
@@ -954,7 +954,7 @@ public final class NahidaBirthDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.LLINKLDMOCF MEDJFGIIACB = 11;</code>
+       * <code>.LLINKLDMOCF MEDJFGIIACB = 13;</code>
        */
       public emu.grasscutter.net.proto.LLINKLDMOCFOuterClass.LLINKLDMOCF.Builder getMEDJFGIIACBBuilder() {
         
@@ -962,7 +962,7 @@ public final class NahidaBirthDetailInfoOuterClass {
         return getMEDJFGIIACBFieldBuilder().getBuilder();
       }
       /**
-       * <code>.LLINKLDMOCF MEDJFGIIACB = 11;</code>
+       * <code>.LLINKLDMOCF MEDJFGIIACB = 13;</code>
        */
       public emu.grasscutter.net.proto.LLINKLDMOCFOuterClass.LLINKLDMOCFOrBuilder getMEDJFGIIACBOrBuilder() {
         if (mEDJFGIIACBBuilder_ != null) {
@@ -973,7 +973,7 @@ public final class NahidaBirthDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.LLINKLDMOCF MEDJFGIIACB = 11;</code>
+       * <code>.LLINKLDMOCF MEDJFGIIACB = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.LLINKLDMOCFOuterClass.LLINKLDMOCF, emu.grasscutter.net.proto.LLINKLDMOCFOuterClass.LLINKLDMOCF.Builder, emu.grasscutter.net.proto.LLINKLDMOCFOuterClass.LLINKLDMOCFOrBuilder> 
@@ -1057,12 +1057,12 @@ public final class NahidaBirthDetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033NahidaBirthDetailInfo.proto\032\021BBIBJKCJI" +
       "NF.proto\032\021HFNONNBFKOE.proto\032\021LLINKLDMOCF" +
-      ".proto\"\200\001\n\025NahidaBirthDetailInfo\022!\n\013PHGK" +
-      "JLCIBMG\030\007 \001(\0132\014.HFNONNBFKOE\022!\n\013POKCBHFGD" +
-      "LE\030\010 \001(\0132\014.BBIBJKCJINF\022!\n\013MEDJFGIIACB\030\013 " +
-      "\001(\0132\014.LLINKLDMOCFB<\n\031emu.grasscutter.net" +
-      ".protoB\037NahidaBirthDetailInfoOuterClassb" +
-      "\006proto3"
+      ".proto\"\204\001\n\025NahidaBirthDetailInfo\022#\n\013PHGK" +
+      "JLCIBMG\030\320\206\003 \001(\0132\014.HFNONNBFKOE\022#\n\013POKCBHF" +
+      "GDLE\030\321\206\003 \001(\0132\014.BBIBJKCJINF\022!\n\013MEDJFGIIAC" +
+      "B\030\r \001(\0132\014.LLINKLDMOCFB<\n\031emu.grasscutter" +
+      ".net.protoB\037NahidaBirthDetailInfoOuterCl" +
+      "assb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "MaterialInfoOuterClass";
 
 message MaterialInfo {
-	uint32 count = 2;
-	uint64 guid = 14;
+	uint32 count = 6;
+	uint64 guid = 1;
 }

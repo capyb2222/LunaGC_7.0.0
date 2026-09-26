@@ -30,6 +30,6 @@ message GetPlayerTokenReq {
 	string client_rand_key = 651;
 	string _xuid = 838;
 	string _gate_ticket = 50006;
-	string KONDBANCCAH = 1299;
+	string _client_version = 1299;
 	uint32 minors_reg_min_age = 2036;
 }

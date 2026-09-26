@@ -7,6 +7,6 @@ import "DPEEOGGEECK.proto";
 import "MLLGCECGGME.proto";
 
 message ArenaChallengeV5DetailInfo {
-	repeated MLLGCECGGME level_info_list = 2;
-	repeated DPEEOGGEECK level_list = 7;
+	repeated MLLGCECGGME level_info_list = 10;
+	repeated DPEEOGGEECK level_list = 9;
 }

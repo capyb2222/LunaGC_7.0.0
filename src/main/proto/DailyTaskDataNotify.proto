@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "DailyTaskDataNotifyOuterClass";
+
+import "Uint32Pair.proto";
+
+message DailyTaskDataNotify {
+	repeated Uint32Pair _finished_uid_daily_task_list = 5;
+	uint32 score_reward_id = 4;
+	uint32 finished_num = 3;
+	bool is_taken_score_reward = 9;
+}

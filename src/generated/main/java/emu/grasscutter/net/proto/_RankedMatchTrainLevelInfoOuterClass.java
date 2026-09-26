@@ -19,13 +19,13 @@ public final class _RankedMatchTrainLevelInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 HKJNCMDJGNF = 4;</code>
+     * <code>uint32 HKJNCMDJGNF = 50000;</code>
      * @return The hKJNCMDJGNF.
      */
     int getHKJNCMDJGNF();
 
     /**
-     * <code>uint32 ADIKAHFLJKL = 14;</code>
+     * <code>uint32 ADIKAHFLJKL = 50001;</code>
      * @return The aDIKAHFLJKL.
      */
     int getADIKAHFLJKL();
@@ -75,12 +75,12 @@ public final class _RankedMatchTrainLevelInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 400000: {
 
               hKJNCMDJGNF_ = input.readUInt32();
               break;
             }
-            case 112: {
+            case 400008: {
 
               aDIKAHFLJKL_ = input.readUInt32();
               break;
@@ -117,10 +117,10 @@ public final class _RankedMatchTrainLevelInfoOuterClass {
               emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfo.class, emu.grasscutter.net.proto._RankedMatchTrainLevelInfoOuterClass._RankedMatchTrainLevelInfo.Builder.class);
     }
 
-    public static final int HKJNCMDJGNF_FIELD_NUMBER = 4;
+    public static final int HKJNCMDJGNF_FIELD_NUMBER = 50000;
     private int hKJNCMDJGNF_;
     /**
-     * <code>uint32 HKJNCMDJGNF = 4;</code>
+     * <code>uint32 HKJNCMDJGNF = 50000;</code>
      * @return The hKJNCMDJGNF.
      */
     @java.lang.Override
@@ -128,10 +128,10 @@ public final class _RankedMatchTrainLevelInfoOuterClass {
       return hKJNCMDJGNF_;
     }
 
-    public static final int ADIKAHFLJKL_FIELD_NUMBER = 14;
+    public static final int ADIKAHFLJKL_FIELD_NUMBER = 50001;
     private int aDIKAHFLJKL_;
     /**
-     * <code>uint32 ADIKAHFLJKL = 14;</code>
+     * <code>uint32 ADIKAHFLJKL = 50001;</code>
      * @return The aDIKAHFLJKL.
      */
     @java.lang.Override
@@ -154,10 +154,10 @@ public final class _RankedMatchTrainLevelInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (hKJNCMDJGNF_ != 0) {
-        output.writeUInt32(4, hKJNCMDJGNF_);
+        output.writeUInt32(50000, hKJNCMDJGNF_);
       }
       if (aDIKAHFLJKL_ != 0) {
-        output.writeUInt32(14, aDIKAHFLJKL_);
+        output.writeUInt32(50001, aDIKAHFLJKL_);
       }
       unknownFields.writeTo(output);
     }
@@ -170,11 +170,11 @@ public final class _RankedMatchTrainLevelInfoOuterClass {
       size = 0;
       if (hKJNCMDJGNF_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, hKJNCMDJGNF_);
+          .computeUInt32Size(50000, hKJNCMDJGNF_);
       }
       if (aDIKAHFLJKL_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, aDIKAHFLJKL_);
+          .computeUInt32Size(50001, aDIKAHFLJKL_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -460,7 +460,7 @@ public final class _RankedMatchTrainLevelInfoOuterClass {
 
       private int hKJNCMDJGNF_ ;
       /**
-       * <code>uint32 HKJNCMDJGNF = 4;</code>
+       * <code>uint32 HKJNCMDJGNF = 50000;</code>
        * @return The hKJNCMDJGNF.
        */
       @java.lang.Override
@@ -468,7 +468,7 @@ public final class _RankedMatchTrainLevelInfoOuterClass {
         return hKJNCMDJGNF_;
       }
       /**
-       * <code>uint32 HKJNCMDJGNF = 4;</code>
+       * <code>uint32 HKJNCMDJGNF = 50000;</code>
        * @param value The hKJNCMDJGNF to set.
        * @return This builder for chaining.
        */
@@ -479,7 +479,7 @@ public final class _RankedMatchTrainLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 HKJNCMDJGNF = 4;</code>
+       * <code>uint32 HKJNCMDJGNF = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearHKJNCMDJGNF() {
@@ -491,7 +491,7 @@ public final class _RankedMatchTrainLevelInfoOuterClass {
 
       private int aDIKAHFLJKL_ ;
       /**
-       * <code>uint32 ADIKAHFLJKL = 14;</code>
+       * <code>uint32 ADIKAHFLJKL = 50001;</code>
        * @return The aDIKAHFLJKL.
        */
       @java.lang.Override
@@ -499,7 +499,7 @@ public final class _RankedMatchTrainLevelInfoOuterClass {
         return aDIKAHFLJKL_;
       }
       /**
-       * <code>uint32 ADIKAHFLJKL = 14;</code>
+       * <code>uint32 ADIKAHFLJKL = 50001;</code>
        * @param value The aDIKAHFLJKL to set.
        * @return This builder for chaining.
        */
@@ -510,7 +510,7 @@ public final class _RankedMatchTrainLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 ADIKAHFLJKL = 14;</code>
+       * <code>uint32 ADIKAHFLJKL = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearADIKAHFLJKL() {
@@ -586,11 +586,11 @@ public final class _RankedMatchTrainLevelInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n _RankedMatchTrainLevelInfo.proto\"F\n\032_R" +
-      "ankedMatchTrainLevelInfo\022\023\n\013HKJNCMDJGNF\030" +
-      "\004 \001(\r\022\023\n\013ADIKAHFLJKL\030\016 \001(\rBA\n\031emu.grassc" +
-      "utter.net.protoB$_RankedMatchTrainLevelI" +
-      "nfoOuterClassb\006proto3"
+      "\n _RankedMatchTrainLevelInfo.proto\"J\n\032_R" +
+      "ankedMatchTrainLevelInfo\022\025\n\013HKJNCMDJGNF\030" +
+      "\320\206\003 \001(\r\022\025\n\013ADIKAHFLJKL\030\321\206\003 \001(\rBA\n\031emu.gr" +
+      "asscutter.net.protoB$_RankedMatchTrainLe" +
+      "velInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

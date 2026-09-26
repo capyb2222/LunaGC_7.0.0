@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "PlayerApplyEnterMpRspOuterClass";
 
 message PlayerApplyEnterMpRsp {
-	int32 retcode = 4;
-	uint32 target_uid = 6;
-	uint32 param = 12;
+	int32 retcode = 14;
+	uint32 target_uid = 2;
+	uint32 param = 10;
 }

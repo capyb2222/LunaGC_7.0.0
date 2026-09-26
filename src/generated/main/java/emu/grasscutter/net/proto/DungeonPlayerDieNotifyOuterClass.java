@@ -64,17 +64,17 @@ public final class DungeonPlayerDieNotifyOuterClass {
     int getAOMDIHGJMNK();
 
     /**
-     * <code>.AbilityString cfadgphidli = 50002;</code>
+     * <code>.AbilityString cfadgphidli = 14;</code>
      * @return Whether the cfadgphidli field is set.
      */
     boolean hasCfadgphidli();
     /**
-     * <code>.AbilityString cfadgphidli = 50002;</code>
+     * <code>.AbilityString cfadgphidli = 14;</code>
      * @return The cfadgphidli.
      */
     emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString getCfadgphidli();
     /**
-     * <code>.AbilityString cfadgphidli = 50002;</code>
+     * <code>.AbilityString cfadgphidli = 14;</code>
      */
     emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder getCfadgphidliOrBuilder();
 
@@ -119,7 +119,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
         int key);
 
     /**
-     * <code>uint32 OBOKABMLGHI = 50003;</code>
+     * <code>uint32 OBOKABMLGHI = 50002;</code>
      * @return The oBOKABMLGHI.
      */
     int getOBOKABMLGHI();
@@ -229,17 +229,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
               reviveCount_ = input.readUInt32();
               break;
             }
-            case 400000: {
-
-              murdererEntityId_ = input.readUInt32();
-              break;
-            }
-            case 400008: {
-
-              aOMDIHGJMNK_ = input.readUInt32();
-              break;
-            }
-            case 400018: {
+            case 114: {
               emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder subBuilder = null;
               if (cfadgphidli_ != null) {
                 subBuilder = cfadgphidli_.toBuilder();
@@ -252,7 +242,17 @@ public final class DungeonPlayerDieNotifyOuterClass {
 
               break;
             }
-            case 400024: {
+            case 400000: {
+
+              murdererEntityId_ = input.readUInt32();
+              break;
+            }
+            case 400008: {
+
+              aOMDIHGJMNK_ = input.readUInt32();
+              break;
+            }
+            case 400016: {
 
               oBOKABMLGHI_ = input.readUInt32();
               break;
@@ -425,10 +425,10 @@ public final class DungeonPlayerDieNotifyOuterClass {
       return aOMDIHGJMNK_;
     }
 
-    public static final int CFADGPHIDLI_FIELD_NUMBER = 50002;
+    public static final int CFADGPHIDLI_FIELD_NUMBER = 14;
     private emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString cfadgphidli_;
     /**
-     * <code>.AbilityString cfadgphidli = 50002;</code>
+     * <code>.AbilityString cfadgphidli = 14;</code>
      * @return Whether the cfadgphidli field is set.
      */
     @java.lang.Override
@@ -436,7 +436,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
       return cfadgphidli_ != null;
     }
     /**
-     * <code>.AbilityString cfadgphidli = 50002;</code>
+     * <code>.AbilityString cfadgphidli = 14;</code>
      * @return The cfadgphidli.
      */
     @java.lang.Override
@@ -444,7 +444,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
       return cfadgphidli_ == null ? emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.getDefaultInstance() : cfadgphidli_;
     }
     /**
-     * <code>.AbilityString cfadgphidli = 50002;</code>
+     * <code>.AbilityString cfadgphidli = 14;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder getCfadgphidliOrBuilder() {
@@ -543,10 +543,10 @@ public final class DungeonPlayerDieNotifyOuterClass {
       return map.get(key);
     }
 
-    public static final int OBOKABMLGHI_FIELD_NUMBER = 50003;
+    public static final int OBOKABMLGHI_FIELD_NUMBER = 50002;
     private int oBOKABMLGHI_;
     /**
-     * <code>uint32 OBOKABMLGHI = 50003;</code>
+     * <code>uint32 OBOKABMLGHI = 50002;</code>
      * @return The oBOKABMLGHI.
      */
     @java.lang.Override
@@ -616,17 +616,17 @@ public final class DungeonPlayerDieNotifyOuterClass {
       if (reviveCount_ != 0) {
         output.writeUInt32(12, reviveCount_);
       }
+      if (cfadgphidli_ != null) {
+        output.writeMessage(14, getCfadgphidli());
+      }
       if (murdererEntityId_ != 0) {
         output.writeUInt32(50000, murdererEntityId_);
       }
       if (aOMDIHGJMNK_ != 0) {
         output.writeUInt32(50001, aOMDIHGJMNK_);
       }
-      if (cfadgphidli_ != null) {
-        output.writeMessage(50002, getCfadgphidli());
-      }
       if (oBOKABMLGHI_ != 0) {
-        output.writeUInt32(50003, oBOKABMLGHI_);
+        output.writeUInt32(50002, oBOKABMLGHI_);
       }
       unknownFields.writeTo(output);
     }
@@ -673,6 +673,10 @@ public final class DungeonPlayerDieNotifyOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(12, reviveCount_);
       }
+      if (cfadgphidli_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(14, getCfadgphidli());
+      }
       if (murdererEntityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(50000, murdererEntityId_);
@@ -681,13 +685,9 @@ public final class DungeonPlayerDieNotifyOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(50001, aOMDIHGJMNK_);
       }
-      if (cfadgphidli_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(50002, getCfadgphidli());
-      }
       if (oBOKABMLGHI_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(50003, oBOKABMLGHI_);
+          .computeUInt32Size(50002, oBOKABMLGHI_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1342,14 +1342,14 @@ public final class DungeonPlayerDieNotifyOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder> cfadgphidliBuilder_;
       /**
-       * <code>.AbilityString cfadgphidli = 50002;</code>
+       * <code>.AbilityString cfadgphidli = 14;</code>
        * @return Whether the cfadgphidli field is set.
        */
       public boolean hasCfadgphidli() {
         return cfadgphidliBuilder_ != null || cfadgphidli_ != null;
       }
       /**
-       * <code>.AbilityString cfadgphidli = 50002;</code>
+       * <code>.AbilityString cfadgphidli = 14;</code>
        * @return The cfadgphidli.
        */
       public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString getCfadgphidli() {
@@ -1360,7 +1360,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
         }
       }
       /**
-       * <code>.AbilityString cfadgphidli = 50002;</code>
+       * <code>.AbilityString cfadgphidli = 14;</code>
        */
       public Builder setCfadgphidli(emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString value) {
         if (cfadgphidliBuilder_ == null) {
@@ -1376,7 +1376,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.AbilityString cfadgphidli = 50002;</code>
+       * <code>.AbilityString cfadgphidli = 14;</code>
        */
       public Builder setCfadgphidli(
           emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder builderForValue) {
@@ -1390,7 +1390,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.AbilityString cfadgphidli = 50002;</code>
+       * <code>.AbilityString cfadgphidli = 14;</code>
        */
       public Builder mergeCfadgphidli(emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString value) {
         if (cfadgphidliBuilder_ == null) {
@@ -1408,7 +1408,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.AbilityString cfadgphidli = 50002;</code>
+       * <code>.AbilityString cfadgphidli = 14;</code>
        */
       public Builder clearCfadgphidli() {
         if (cfadgphidliBuilder_ == null) {
@@ -1422,7 +1422,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.AbilityString cfadgphidli = 50002;</code>
+       * <code>.AbilityString cfadgphidli = 14;</code>
        */
       public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder getCfadgphidliBuilder() {
         
@@ -1430,7 +1430,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
         return getCfadgphidliFieldBuilder().getBuilder();
       }
       /**
-       * <code>.AbilityString cfadgphidli = 50002;</code>
+       * <code>.AbilityString cfadgphidli = 14;</code>
        */
       public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder getCfadgphidliOrBuilder() {
         if (cfadgphidliBuilder_ != null) {
@@ -1441,7 +1441,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
         }
       }
       /**
-       * <code>.AbilityString cfadgphidli = 50002;</code>
+       * <code>.AbilityString cfadgphidli = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder> 
@@ -1618,7 +1618,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
 
       private int oBOKABMLGHI_ ;
       /**
-       * <code>uint32 OBOKABMLGHI = 50003;</code>
+       * <code>uint32 OBOKABMLGHI = 50002;</code>
        * @return The oBOKABMLGHI.
        */
       @java.lang.Override
@@ -1626,7 +1626,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
         return oBOKABMLGHI_;
       }
       /**
-       * <code>uint32 OBOKABMLGHI = 50003;</code>
+       * <code>uint32 OBOKABMLGHI = 50002;</code>
        * @param value The oBOKABMLGHI to set.
        * @return This builder for chaining.
        */
@@ -1637,7 +1637,7 @@ public final class DungeonPlayerDieNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 OBOKABMLGHI = 50003;</code>
+       * <code>uint32 OBOKABMLGHI = 50002;</code>
        * @return This builder for chaining.
        */
       public Builder clearOBOKABMLGHI() {
@@ -1782,20 +1782,20 @@ public final class DungeonPlayerDieNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034DungeonPlayerDieNotify.proto\032\023AbilityS" +
       "tring.proto\032\023PlayerDieType.proto\032\031Streng" +
-      "thenPointData.proto\"\314\003\n\026DungeonPlayerDie" +
+      "thenPointData.proto\"\312\003\n\026DungeonPlayerDie" +
       "Notify\022\023\n\tgadget_id\030\013 \001(\rH\000\022\024\n\nmonster_i" +
       "d\030\005 \001(\rH\000\022 \n\010die_type\030\t \001(\0162\016.PlayerDieT" +
       "ype\022\034\n\022murderer_entity_id\030\320\206\003 \001(\r\022\025\n\013AOM" +
-      "DIHGJMNK\030\321\206\003 \001(\r\022%\n\013cfadgphidli\030\322\206\003 \001(\0132" +
-      "\016.AbilityString\022\024\n\014revive_count\030\014 \001(\r\022V\n" +
-      "\031strengthen_point_data_map\030\006 \003(\01323.Dunge" +
-      "onPlayerDieNotify.StrengthenPointDataMap" +
-      "Entry\022\025\n\013OBOKABMLGHI\030\323\206\003 \001(\r\022\022\n\ndungeon_" +
-      "id\030\002 \001(\r\022\021\n\twait_time\030\007 \001(\r\032S\n\033Strengthe" +
-      "nPointDataMapEntry\022\013\n\003key\030\001 \001(\r\022#\n\005value" +
-      "\030\002 \001(\0132\024.StrengthenPointData:\0028\001B\010\n\006enti" +
-      "tyB=\n\031emu.grasscutter.net.protoB Dungeon" +
-      "PlayerDieNotifyOuterClassb\006proto3"
+      "DIHGJMNK\030\321\206\003 \001(\r\022#\n\013cfadgphidli\030\016 \001(\0132\016." +
+      "AbilityString\022\024\n\014revive_count\030\014 \001(\r\022V\n\031s" +
+      "trengthen_point_data_map\030\006 \003(\01323.Dungeon" +
+      "PlayerDieNotify.StrengthenPointDataMapEn" +
+      "try\022\025\n\013OBOKABMLGHI\030\322\206\003 \001(\r\022\022\n\ndungeon_id" +
+      "\030\002 \001(\r\022\021\n\twait_time\030\007 \001(\r\032S\n\033StrengthenP" +
+      "ointDataMapEntry\022\013\n\003key\030\001 \001(\r\022#\n\005value\030\002" +
+      " \001(\0132\024.StrengthenPointData:\0028\001B\010\n\006entity" +
+      "B=\n\031emu.grasscutter.net.protoB DungeonPl" +
+      "ayerDieNotifyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

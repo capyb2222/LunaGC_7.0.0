@@ -19,79 +19,79 @@ public final class FilmfestDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 5;</code>
+     * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 8;</code>
      */
     java.util.List<emu.grasscutter.net.proto.DKKMKBDDLOJOuterClass.DKKMKBDDLOJ> 
         getFgflpokjjkhList();
     /**
-     * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 5;</code>
+     * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 8;</code>
      */
     emu.grasscutter.net.proto.DKKMKBDDLOJOuterClass.DKKMKBDDLOJ getFgflpokjjkh(int index);
     /**
-     * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 5;</code>
+     * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 8;</code>
      */
     int getFgflpokjjkhCount();
     /**
-     * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 5;</code>
+     * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 8;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.DKKMKBDDLOJOuterClass.DKKMKBDDLOJOrBuilder> 
         getFgflpokjjkhOrBuilderList();
     /**
-     * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 5;</code>
+     * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 8;</code>
      */
     emu.grasscutter.net.proto.DKKMKBDDLOJOuterClass.DKKMKBDDLOJOrBuilder getFgflpokjjkhOrBuilder(
         int index);
 
     /**
-     * <code>bool cpaagmfkcao = 9;</code>
+     * <code>bool cpaagmfkcao = 1;</code>
      * @return The cpaagmfkcao.
      */
     boolean getCpaagmfkcao();
 
     /**
-     * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 11;</code>
+     * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 14;</code>
      */
     java.util.List<emu.grasscutter.net.proto.NPLDPCGLKMKOuterClass.NPLDPCGLKMK> 
         getOFIOKIABKNNList();
     /**
-     * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 11;</code>
+     * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 14;</code>
      */
     emu.grasscutter.net.proto.NPLDPCGLKMKOuterClass.NPLDPCGLKMK getOFIOKIABKNN(int index);
     /**
-     * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 11;</code>
+     * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 14;</code>
      */
     int getOFIOKIABKNNCount();
     /**
-     * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 11;</code>
+     * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 14;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.NPLDPCGLKMKOuterClass.NPLDPCGLKMKOrBuilder> 
         getOFIOKIABKNNOrBuilderList();
     /**
-     * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 11;</code>
+     * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 14;</code>
      */
     emu.grasscutter.net.proto.NPLDPCGLKMKOuterClass.NPLDPCGLKMKOrBuilder getOFIOKIABKNNOrBuilder(
         int index);
 
     /**
-     * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 12;</code>
+     * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 4;</code>
      */
     java.util.List<emu.grasscutter.net.proto.FMNPNEKAICIOuterClass.FMNPNEKAICI> 
         getHGNLKDCGLBOList();
     /**
-     * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 12;</code>
+     * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 4;</code>
      */
     emu.grasscutter.net.proto.FMNPNEKAICIOuterClass.FMNPNEKAICI getHGNLKDCGLBO(int index);
     /**
-     * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 12;</code>
+     * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 4;</code>
      */
     int getHGNLKDCGLBOCount();
     /**
-     * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 12;</code>
+     * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 4;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.FMNPNEKAICIOuterClass.FMNPNEKAICIOrBuilder> 
         getHGNLKDCGLBOOrBuilderList();
     /**
-     * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 12;</code>
+     * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 4;</code>
      */
     emu.grasscutter.net.proto.FMNPNEKAICIOuterClass.FMNPNEKAICIOrBuilder getHGNLKDCGLBOOrBuilder(
         int index);
@@ -145,7 +145,21 @@ public final class FilmfestDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 42: {
+            case 8: {
+
+              cpaagmfkcao_ = input.readBool();
+              break;
+            }
+            case 34: {
+              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
+                hGNLKDCGLBO_ = new java.util.ArrayList<emu.grasscutter.net.proto.FMNPNEKAICIOuterClass.FMNPNEKAICI>();
+                mutable_bitField0_ |= 0x00000004;
+              }
+              hGNLKDCGLBO_.add(
+                  input.readMessage(emu.grasscutter.net.proto.FMNPNEKAICIOuterClass.FMNPNEKAICI.parser(), extensionRegistry));
+              break;
+            }
+            case 66: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 fgflpokjjkh_ = new java.util.ArrayList<emu.grasscutter.net.proto.DKKMKBDDLOJOuterClass.DKKMKBDDLOJ>();
                 mutable_bitField0_ |= 0x00000001;
@@ -154,27 +168,13 @@ public final class FilmfestDetailInfoOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.DKKMKBDDLOJOuterClass.DKKMKBDDLOJ.parser(), extensionRegistry));
               break;
             }
-            case 72: {
-
-              cpaagmfkcao_ = input.readBool();
-              break;
-            }
-            case 90: {
+            case 114: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 oFIOKIABKNN_ = new java.util.ArrayList<emu.grasscutter.net.proto.NPLDPCGLKMKOuterClass.NPLDPCGLKMK>();
                 mutable_bitField0_ |= 0x00000002;
               }
               oFIOKIABKNN_.add(
                   input.readMessage(emu.grasscutter.net.proto.NPLDPCGLKMKOuterClass.NPLDPCGLKMK.parser(), extensionRegistry));
-              break;
-            }
-            case 98: {
-              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
-                hGNLKDCGLBO_ = new java.util.ArrayList<emu.grasscutter.net.proto.FMNPNEKAICIOuterClass.FMNPNEKAICI>();
-                mutable_bitField0_ |= 0x00000004;
-              }
-              hGNLKDCGLBO_.add(
-                  input.readMessage(emu.grasscutter.net.proto.FMNPNEKAICIOuterClass.FMNPNEKAICI.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -192,14 +192,14 @@ public final class FilmfestDetailInfoOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
+        if (((mutable_bitField0_ & 0x00000004) != 0)) {
+          hGNLKDCGLBO_ = java.util.Collections.unmodifiableList(hGNLKDCGLBO_);
+        }
         if (((mutable_bitField0_ & 0x00000001) != 0)) {
           fgflpokjjkh_ = java.util.Collections.unmodifiableList(fgflpokjjkh_);
         }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
           oFIOKIABKNN_ = java.util.Collections.unmodifiableList(oFIOKIABKNN_);
-        }
-        if (((mutable_bitField0_ & 0x00000004) != 0)) {
-          hGNLKDCGLBO_ = java.util.Collections.unmodifiableList(hGNLKDCGLBO_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -218,17 +218,17 @@ public final class FilmfestDetailInfoOuterClass {
               emu.grasscutter.net.proto.FilmfestDetailInfoOuterClass.FilmfestDetailInfo.class, emu.grasscutter.net.proto.FilmfestDetailInfoOuterClass.FilmfestDetailInfo.Builder.class);
     }
 
-    public static final int FGFLPOKJJKH_FIELD_NUMBER = 5;
+    public static final int FGFLPOKJJKH_FIELD_NUMBER = 8;
     private java.util.List<emu.grasscutter.net.proto.DKKMKBDDLOJOuterClass.DKKMKBDDLOJ> fgflpokjjkh_;
     /**
-     * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 5;</code>
+     * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 8;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.DKKMKBDDLOJOuterClass.DKKMKBDDLOJ> getFgflpokjjkhList() {
       return fgflpokjjkh_;
     }
     /**
-     * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 5;</code>
+     * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 8;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.DKKMKBDDLOJOuterClass.DKKMKBDDLOJOrBuilder> 
@@ -236,21 +236,21 @@ public final class FilmfestDetailInfoOuterClass {
       return fgflpokjjkh_;
     }
     /**
-     * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 5;</code>
+     * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 8;</code>
      */
     @java.lang.Override
     public int getFgflpokjjkhCount() {
       return fgflpokjjkh_.size();
     }
     /**
-     * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 5;</code>
+     * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 8;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.DKKMKBDDLOJOuterClass.DKKMKBDDLOJ getFgflpokjjkh(int index) {
       return fgflpokjjkh_.get(index);
     }
     /**
-     * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 5;</code>
+     * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 8;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.DKKMKBDDLOJOuterClass.DKKMKBDDLOJOrBuilder getFgflpokjjkhOrBuilder(
@@ -258,10 +258,10 @@ public final class FilmfestDetailInfoOuterClass {
       return fgflpokjjkh_.get(index);
     }
 
-    public static final int CPAAGMFKCAO_FIELD_NUMBER = 9;
+    public static final int CPAAGMFKCAO_FIELD_NUMBER = 1;
     private boolean cpaagmfkcao_;
     /**
-     * <code>bool cpaagmfkcao = 9;</code>
+     * <code>bool cpaagmfkcao = 1;</code>
      * @return The cpaagmfkcao.
      */
     @java.lang.Override
@@ -269,17 +269,17 @@ public final class FilmfestDetailInfoOuterClass {
       return cpaagmfkcao_;
     }
 
-    public static final int OFIOKIABKNN_FIELD_NUMBER = 11;
+    public static final int OFIOKIABKNN_FIELD_NUMBER = 14;
     private java.util.List<emu.grasscutter.net.proto.NPLDPCGLKMKOuterClass.NPLDPCGLKMK> oFIOKIABKNN_;
     /**
-     * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 11;</code>
+     * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 14;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.NPLDPCGLKMKOuterClass.NPLDPCGLKMK> getOFIOKIABKNNList() {
       return oFIOKIABKNN_;
     }
     /**
-     * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 11;</code>
+     * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 14;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.NPLDPCGLKMKOuterClass.NPLDPCGLKMKOrBuilder> 
@@ -287,21 +287,21 @@ public final class FilmfestDetailInfoOuterClass {
       return oFIOKIABKNN_;
     }
     /**
-     * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 11;</code>
+     * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 14;</code>
      */
     @java.lang.Override
     public int getOFIOKIABKNNCount() {
       return oFIOKIABKNN_.size();
     }
     /**
-     * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 11;</code>
+     * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 14;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.NPLDPCGLKMKOuterClass.NPLDPCGLKMK getOFIOKIABKNN(int index) {
       return oFIOKIABKNN_.get(index);
     }
     /**
-     * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 11;</code>
+     * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 14;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.NPLDPCGLKMKOuterClass.NPLDPCGLKMKOrBuilder getOFIOKIABKNNOrBuilder(
@@ -309,17 +309,17 @@ public final class FilmfestDetailInfoOuterClass {
       return oFIOKIABKNN_.get(index);
     }
 
-    public static final int HGNLKDCGLBO_FIELD_NUMBER = 12;
+    public static final int HGNLKDCGLBO_FIELD_NUMBER = 4;
     private java.util.List<emu.grasscutter.net.proto.FMNPNEKAICIOuterClass.FMNPNEKAICI> hGNLKDCGLBO_;
     /**
-     * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 12;</code>
+     * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 4;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.FMNPNEKAICIOuterClass.FMNPNEKAICI> getHGNLKDCGLBOList() {
       return hGNLKDCGLBO_;
     }
     /**
-     * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 12;</code>
+     * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 4;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.FMNPNEKAICIOuterClass.FMNPNEKAICIOrBuilder> 
@@ -327,21 +327,21 @@ public final class FilmfestDetailInfoOuterClass {
       return hGNLKDCGLBO_;
     }
     /**
-     * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 12;</code>
+     * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 4;</code>
      */
     @java.lang.Override
     public int getHGNLKDCGLBOCount() {
       return hGNLKDCGLBO_.size();
     }
     /**
-     * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 12;</code>
+     * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 4;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.FMNPNEKAICIOuterClass.FMNPNEKAICI getHGNLKDCGLBO(int index) {
       return hGNLKDCGLBO_.get(index);
     }
     /**
-     * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 12;</code>
+     * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 4;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.FMNPNEKAICIOuterClass.FMNPNEKAICIOrBuilder getHGNLKDCGLBOOrBuilder(
@@ -363,17 +363,17 @@ public final class FilmfestDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      for (int i = 0; i < fgflpokjjkh_.size(); i++) {
-        output.writeMessage(5, fgflpokjjkh_.get(i));
-      }
       if (cpaagmfkcao_ != false) {
-        output.writeBool(9, cpaagmfkcao_);
-      }
-      for (int i = 0; i < oFIOKIABKNN_.size(); i++) {
-        output.writeMessage(11, oFIOKIABKNN_.get(i));
+        output.writeBool(1, cpaagmfkcao_);
       }
       for (int i = 0; i < hGNLKDCGLBO_.size(); i++) {
-        output.writeMessage(12, hGNLKDCGLBO_.get(i));
+        output.writeMessage(4, hGNLKDCGLBO_.get(i));
+      }
+      for (int i = 0; i < fgflpokjjkh_.size(); i++) {
+        output.writeMessage(8, fgflpokjjkh_.get(i));
+      }
+      for (int i = 0; i < oFIOKIABKNN_.size(); i++) {
+        output.writeMessage(14, oFIOKIABKNN_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -384,21 +384,21 @@ public final class FilmfestDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < fgflpokjjkh_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, fgflpokjjkh_.get(i));
-      }
       if (cpaagmfkcao_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, cpaagmfkcao_);
-      }
-      for (int i = 0; i < oFIOKIABKNN_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, oFIOKIABKNN_.get(i));
+          .computeBoolSize(1, cpaagmfkcao_);
       }
       for (int i = 0; i < hGNLKDCGLBO_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, hGNLKDCGLBO_.get(i));
+          .computeMessageSize(4, hGNLKDCGLBO_.get(i));
+      }
+      for (int i = 0; i < fgflpokjjkh_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(8, fgflpokjjkh_.get(i));
+      }
+      for (int i = 0; i < oFIOKIABKNN_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(14, oFIOKIABKNN_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -832,7 +832,7 @@ public final class FilmfestDetailInfoOuterClass {
           emu.grasscutter.net.proto.DKKMKBDDLOJOuterClass.DKKMKBDDLOJ, emu.grasscutter.net.proto.DKKMKBDDLOJOuterClass.DKKMKBDDLOJ.Builder, emu.grasscutter.net.proto.DKKMKBDDLOJOuterClass.DKKMKBDDLOJOrBuilder> fgflpokjjkhBuilder_;
 
       /**
-       * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 5;</code>
+       * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 8;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.DKKMKBDDLOJOuterClass.DKKMKBDDLOJ> getFgflpokjjkhList() {
         if (fgflpokjjkhBuilder_ == null) {
@@ -842,7 +842,7 @@ public final class FilmfestDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 5;</code>
+       * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 8;</code>
        */
       public int getFgflpokjjkhCount() {
         if (fgflpokjjkhBuilder_ == null) {
@@ -852,7 +852,7 @@ public final class FilmfestDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 5;</code>
+       * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 8;</code>
        */
       public emu.grasscutter.net.proto.DKKMKBDDLOJOuterClass.DKKMKBDDLOJ getFgflpokjjkh(int index) {
         if (fgflpokjjkhBuilder_ == null) {
@@ -862,7 +862,7 @@ public final class FilmfestDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 5;</code>
+       * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 8;</code>
        */
       public Builder setFgflpokjjkh(
           int index, emu.grasscutter.net.proto.DKKMKBDDLOJOuterClass.DKKMKBDDLOJ value) {
@@ -879,7 +879,7 @@ public final class FilmfestDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 5;</code>
+       * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 8;</code>
        */
       public Builder setFgflpokjjkh(
           int index, emu.grasscutter.net.proto.DKKMKBDDLOJOuterClass.DKKMKBDDLOJ.Builder builderForValue) {
@@ -893,7 +893,7 @@ public final class FilmfestDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 5;</code>
+       * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 8;</code>
        */
       public Builder addFgflpokjjkh(emu.grasscutter.net.proto.DKKMKBDDLOJOuterClass.DKKMKBDDLOJ value) {
         if (fgflpokjjkhBuilder_ == null) {
@@ -909,7 +909,7 @@ public final class FilmfestDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 5;</code>
+       * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 8;</code>
        */
       public Builder addFgflpokjjkh(
           int index, emu.grasscutter.net.proto.DKKMKBDDLOJOuterClass.DKKMKBDDLOJ value) {
@@ -926,7 +926,7 @@ public final class FilmfestDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 5;</code>
+       * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 8;</code>
        */
       public Builder addFgflpokjjkh(
           emu.grasscutter.net.proto.DKKMKBDDLOJOuterClass.DKKMKBDDLOJ.Builder builderForValue) {
@@ -940,7 +940,7 @@ public final class FilmfestDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 5;</code>
+       * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 8;</code>
        */
       public Builder addFgflpokjjkh(
           int index, emu.grasscutter.net.proto.DKKMKBDDLOJOuterClass.DKKMKBDDLOJ.Builder builderForValue) {
@@ -954,7 +954,7 @@ public final class FilmfestDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 5;</code>
+       * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 8;</code>
        */
       public Builder addAllFgflpokjjkh(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.DKKMKBDDLOJOuterClass.DKKMKBDDLOJ> values) {
@@ -969,7 +969,7 @@ public final class FilmfestDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 5;</code>
+       * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 8;</code>
        */
       public Builder clearFgflpokjjkh() {
         if (fgflpokjjkhBuilder_ == null) {
@@ -982,7 +982,7 @@ public final class FilmfestDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 5;</code>
+       * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 8;</code>
        */
       public Builder removeFgflpokjjkh(int index) {
         if (fgflpokjjkhBuilder_ == null) {
@@ -995,14 +995,14 @@ public final class FilmfestDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 5;</code>
+       * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 8;</code>
        */
       public emu.grasscutter.net.proto.DKKMKBDDLOJOuterClass.DKKMKBDDLOJ.Builder getFgflpokjjkhBuilder(
           int index) {
         return getFgflpokjjkhFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 5;</code>
+       * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 8;</code>
        */
       public emu.grasscutter.net.proto.DKKMKBDDLOJOuterClass.DKKMKBDDLOJOrBuilder getFgflpokjjkhOrBuilder(
           int index) {
@@ -1012,7 +1012,7 @@ public final class FilmfestDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 5;</code>
+       * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 8;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.DKKMKBDDLOJOuterClass.DKKMKBDDLOJOrBuilder> 
            getFgflpokjjkhOrBuilderList() {
@@ -1023,14 +1023,14 @@ public final class FilmfestDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 5;</code>
+       * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 8;</code>
        */
       public emu.grasscutter.net.proto.DKKMKBDDLOJOuterClass.DKKMKBDDLOJ.Builder addFgflpokjjkhBuilder() {
         return getFgflpokjjkhFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.DKKMKBDDLOJOuterClass.DKKMKBDDLOJ.getDefaultInstance());
       }
       /**
-       * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 5;</code>
+       * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 8;</code>
        */
       public emu.grasscutter.net.proto.DKKMKBDDLOJOuterClass.DKKMKBDDLOJ.Builder addFgflpokjjkhBuilder(
           int index) {
@@ -1038,7 +1038,7 @@ public final class FilmfestDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.DKKMKBDDLOJOuterClass.DKKMKBDDLOJ.getDefaultInstance());
       }
       /**
-       * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 5;</code>
+       * <code>repeated .DKKMKBDDLOJ fgflpokjjkh = 8;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.DKKMKBDDLOJOuterClass.DKKMKBDDLOJ.Builder> 
            getFgflpokjjkhBuilderList() {
@@ -1061,7 +1061,7 @@ public final class FilmfestDetailInfoOuterClass {
 
       private boolean cpaagmfkcao_ ;
       /**
-       * <code>bool cpaagmfkcao = 9;</code>
+       * <code>bool cpaagmfkcao = 1;</code>
        * @return The cpaagmfkcao.
        */
       @java.lang.Override
@@ -1069,7 +1069,7 @@ public final class FilmfestDetailInfoOuterClass {
         return cpaagmfkcao_;
       }
       /**
-       * <code>bool cpaagmfkcao = 9;</code>
+       * <code>bool cpaagmfkcao = 1;</code>
        * @param value The cpaagmfkcao to set.
        * @return This builder for chaining.
        */
@@ -1080,7 +1080,7 @@ public final class FilmfestDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool cpaagmfkcao = 9;</code>
+       * <code>bool cpaagmfkcao = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearCpaagmfkcao() {
@@ -1103,7 +1103,7 @@ public final class FilmfestDetailInfoOuterClass {
           emu.grasscutter.net.proto.NPLDPCGLKMKOuterClass.NPLDPCGLKMK, emu.grasscutter.net.proto.NPLDPCGLKMKOuterClass.NPLDPCGLKMK.Builder, emu.grasscutter.net.proto.NPLDPCGLKMKOuterClass.NPLDPCGLKMKOrBuilder> oFIOKIABKNNBuilder_;
 
       /**
-       * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 11;</code>
+       * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 14;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.NPLDPCGLKMKOuterClass.NPLDPCGLKMK> getOFIOKIABKNNList() {
         if (oFIOKIABKNNBuilder_ == null) {
@@ -1113,7 +1113,7 @@ public final class FilmfestDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 11;</code>
+       * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 14;</code>
        */
       public int getOFIOKIABKNNCount() {
         if (oFIOKIABKNNBuilder_ == null) {
@@ -1123,7 +1123,7 @@ public final class FilmfestDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 11;</code>
+       * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 14;</code>
        */
       public emu.grasscutter.net.proto.NPLDPCGLKMKOuterClass.NPLDPCGLKMK getOFIOKIABKNN(int index) {
         if (oFIOKIABKNNBuilder_ == null) {
@@ -1133,7 +1133,7 @@ public final class FilmfestDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 11;</code>
+       * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 14;</code>
        */
       public Builder setOFIOKIABKNN(
           int index, emu.grasscutter.net.proto.NPLDPCGLKMKOuterClass.NPLDPCGLKMK value) {
@@ -1150,7 +1150,7 @@ public final class FilmfestDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 11;</code>
+       * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 14;</code>
        */
       public Builder setOFIOKIABKNN(
           int index, emu.grasscutter.net.proto.NPLDPCGLKMKOuterClass.NPLDPCGLKMK.Builder builderForValue) {
@@ -1164,7 +1164,7 @@ public final class FilmfestDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 11;</code>
+       * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 14;</code>
        */
       public Builder addOFIOKIABKNN(emu.grasscutter.net.proto.NPLDPCGLKMKOuterClass.NPLDPCGLKMK value) {
         if (oFIOKIABKNNBuilder_ == null) {
@@ -1180,7 +1180,7 @@ public final class FilmfestDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 11;</code>
+       * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 14;</code>
        */
       public Builder addOFIOKIABKNN(
           int index, emu.grasscutter.net.proto.NPLDPCGLKMKOuterClass.NPLDPCGLKMK value) {
@@ -1197,7 +1197,7 @@ public final class FilmfestDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 11;</code>
+       * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 14;</code>
        */
       public Builder addOFIOKIABKNN(
           emu.grasscutter.net.proto.NPLDPCGLKMKOuterClass.NPLDPCGLKMK.Builder builderForValue) {
@@ -1211,7 +1211,7 @@ public final class FilmfestDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 11;</code>
+       * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 14;</code>
        */
       public Builder addOFIOKIABKNN(
           int index, emu.grasscutter.net.proto.NPLDPCGLKMKOuterClass.NPLDPCGLKMK.Builder builderForValue) {
@@ -1225,7 +1225,7 @@ public final class FilmfestDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 11;</code>
+       * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 14;</code>
        */
       public Builder addAllOFIOKIABKNN(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.NPLDPCGLKMKOuterClass.NPLDPCGLKMK> values) {
@@ -1240,7 +1240,7 @@ public final class FilmfestDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 11;</code>
+       * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 14;</code>
        */
       public Builder clearOFIOKIABKNN() {
         if (oFIOKIABKNNBuilder_ == null) {
@@ -1253,7 +1253,7 @@ public final class FilmfestDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 11;</code>
+       * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 14;</code>
        */
       public Builder removeOFIOKIABKNN(int index) {
         if (oFIOKIABKNNBuilder_ == null) {
@@ -1266,14 +1266,14 @@ public final class FilmfestDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 11;</code>
+       * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 14;</code>
        */
       public emu.grasscutter.net.proto.NPLDPCGLKMKOuterClass.NPLDPCGLKMK.Builder getOFIOKIABKNNBuilder(
           int index) {
         return getOFIOKIABKNNFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 11;</code>
+       * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 14;</code>
        */
       public emu.grasscutter.net.proto.NPLDPCGLKMKOuterClass.NPLDPCGLKMKOrBuilder getOFIOKIABKNNOrBuilder(
           int index) {
@@ -1283,7 +1283,7 @@ public final class FilmfestDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 11;</code>
+       * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 14;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.NPLDPCGLKMKOuterClass.NPLDPCGLKMKOrBuilder> 
            getOFIOKIABKNNOrBuilderList() {
@@ -1294,14 +1294,14 @@ public final class FilmfestDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 11;</code>
+       * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 14;</code>
        */
       public emu.grasscutter.net.proto.NPLDPCGLKMKOuterClass.NPLDPCGLKMK.Builder addOFIOKIABKNNBuilder() {
         return getOFIOKIABKNNFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.NPLDPCGLKMKOuterClass.NPLDPCGLKMK.getDefaultInstance());
       }
       /**
-       * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 11;</code>
+       * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 14;</code>
        */
       public emu.grasscutter.net.proto.NPLDPCGLKMKOuterClass.NPLDPCGLKMK.Builder addOFIOKIABKNNBuilder(
           int index) {
@@ -1309,7 +1309,7 @@ public final class FilmfestDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.NPLDPCGLKMKOuterClass.NPLDPCGLKMK.getDefaultInstance());
       }
       /**
-       * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 11;</code>
+       * <code>repeated .NPLDPCGLKMK OFIOKIABKNN = 14;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.NPLDPCGLKMKOuterClass.NPLDPCGLKMK.Builder> 
            getOFIOKIABKNNBuilderList() {
@@ -1343,7 +1343,7 @@ public final class FilmfestDetailInfoOuterClass {
           emu.grasscutter.net.proto.FMNPNEKAICIOuterClass.FMNPNEKAICI, emu.grasscutter.net.proto.FMNPNEKAICIOuterClass.FMNPNEKAICI.Builder, emu.grasscutter.net.proto.FMNPNEKAICIOuterClass.FMNPNEKAICIOrBuilder> hGNLKDCGLBOBuilder_;
 
       /**
-       * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 12;</code>
+       * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 4;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.FMNPNEKAICIOuterClass.FMNPNEKAICI> getHGNLKDCGLBOList() {
         if (hGNLKDCGLBOBuilder_ == null) {
@@ -1353,7 +1353,7 @@ public final class FilmfestDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 12;</code>
+       * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 4;</code>
        */
       public int getHGNLKDCGLBOCount() {
         if (hGNLKDCGLBOBuilder_ == null) {
@@ -1363,7 +1363,7 @@ public final class FilmfestDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 12;</code>
+       * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 4;</code>
        */
       public emu.grasscutter.net.proto.FMNPNEKAICIOuterClass.FMNPNEKAICI getHGNLKDCGLBO(int index) {
         if (hGNLKDCGLBOBuilder_ == null) {
@@ -1373,7 +1373,7 @@ public final class FilmfestDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 12;</code>
+       * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 4;</code>
        */
       public Builder setHGNLKDCGLBO(
           int index, emu.grasscutter.net.proto.FMNPNEKAICIOuterClass.FMNPNEKAICI value) {
@@ -1390,7 +1390,7 @@ public final class FilmfestDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 12;</code>
+       * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 4;</code>
        */
       public Builder setHGNLKDCGLBO(
           int index, emu.grasscutter.net.proto.FMNPNEKAICIOuterClass.FMNPNEKAICI.Builder builderForValue) {
@@ -1404,7 +1404,7 @@ public final class FilmfestDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 12;</code>
+       * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 4;</code>
        */
       public Builder addHGNLKDCGLBO(emu.grasscutter.net.proto.FMNPNEKAICIOuterClass.FMNPNEKAICI value) {
         if (hGNLKDCGLBOBuilder_ == null) {
@@ -1420,7 +1420,7 @@ public final class FilmfestDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 12;</code>
+       * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 4;</code>
        */
       public Builder addHGNLKDCGLBO(
           int index, emu.grasscutter.net.proto.FMNPNEKAICIOuterClass.FMNPNEKAICI value) {
@@ -1437,7 +1437,7 @@ public final class FilmfestDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 12;</code>
+       * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 4;</code>
        */
       public Builder addHGNLKDCGLBO(
           emu.grasscutter.net.proto.FMNPNEKAICIOuterClass.FMNPNEKAICI.Builder builderForValue) {
@@ -1451,7 +1451,7 @@ public final class FilmfestDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 12;</code>
+       * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 4;</code>
        */
       public Builder addHGNLKDCGLBO(
           int index, emu.grasscutter.net.proto.FMNPNEKAICIOuterClass.FMNPNEKAICI.Builder builderForValue) {
@@ -1465,7 +1465,7 @@ public final class FilmfestDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 12;</code>
+       * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 4;</code>
        */
       public Builder addAllHGNLKDCGLBO(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.FMNPNEKAICIOuterClass.FMNPNEKAICI> values) {
@@ -1480,7 +1480,7 @@ public final class FilmfestDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 12;</code>
+       * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 4;</code>
        */
       public Builder clearHGNLKDCGLBO() {
         if (hGNLKDCGLBOBuilder_ == null) {
@@ -1493,7 +1493,7 @@ public final class FilmfestDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 12;</code>
+       * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 4;</code>
        */
       public Builder removeHGNLKDCGLBO(int index) {
         if (hGNLKDCGLBOBuilder_ == null) {
@@ -1506,14 +1506,14 @@ public final class FilmfestDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 12;</code>
+       * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 4;</code>
        */
       public emu.grasscutter.net.proto.FMNPNEKAICIOuterClass.FMNPNEKAICI.Builder getHGNLKDCGLBOBuilder(
           int index) {
         return getHGNLKDCGLBOFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 12;</code>
+       * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 4;</code>
        */
       public emu.grasscutter.net.proto.FMNPNEKAICIOuterClass.FMNPNEKAICIOrBuilder getHGNLKDCGLBOOrBuilder(
           int index) {
@@ -1523,7 +1523,7 @@ public final class FilmfestDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 12;</code>
+       * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 4;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.FMNPNEKAICIOuterClass.FMNPNEKAICIOrBuilder> 
            getHGNLKDCGLBOOrBuilderList() {
@@ -1534,14 +1534,14 @@ public final class FilmfestDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 12;</code>
+       * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 4;</code>
        */
       public emu.grasscutter.net.proto.FMNPNEKAICIOuterClass.FMNPNEKAICI.Builder addHGNLKDCGLBOBuilder() {
         return getHGNLKDCGLBOFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.FMNPNEKAICIOuterClass.FMNPNEKAICI.getDefaultInstance());
       }
       /**
-       * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 12;</code>
+       * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 4;</code>
        */
       public emu.grasscutter.net.proto.FMNPNEKAICIOuterClass.FMNPNEKAICI.Builder addHGNLKDCGLBOBuilder(
           int index) {
@@ -1549,7 +1549,7 @@ public final class FilmfestDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.FMNPNEKAICIOuterClass.FMNPNEKAICI.getDefaultInstance());
       }
       /**
-       * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 12;</code>
+       * <code>repeated .FMNPNEKAICI HGNLKDCGLBO = 4;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.FMNPNEKAICIOuterClass.FMNPNEKAICI.Builder> 
            getHGNLKDCGLBOBuilderList() {
@@ -1639,9 +1639,9 @@ public final class FilmfestDetailInfoOuterClass {
       "\n\030FilmfestDetailInfo.proto\032\021DKKMKBDDLOJ." +
       "proto\032\021FMNPNEKAICI.proto\032\021NPLDPCGLKMK.pr" +
       "oto\"\222\001\n\022FilmfestDetailInfo\022!\n\013fgflpokjjk" +
-      "h\030\005 \003(\0132\014.DKKMKBDDLOJ\022\023\n\013cpaagmfkcao\030\t \001" +
-      "(\010\022!\n\013OFIOKIABKNN\030\013 \003(\0132\014.NPLDPCGLKMK\022!\n" +
-      "\013HGNLKDCGLBO\030\014 \003(\0132\014.FMNPNEKAICIB9\n\031emu." +
+      "h\030\010 \003(\0132\014.DKKMKBDDLOJ\022\023\n\013cpaagmfkcao\030\001 \001" +
+      "(\010\022!\n\013OFIOKIABKNN\030\016 \003(\0132\014.NPLDPCGLKMK\022!\n" +
+      "\013HGNLKDCGLBO\030\004 \003(\0132\014.FMNPNEKAICIB9\n\031emu." +
       "grasscutter.net.protoB\034FilmfestDetailInf" +
       "oOuterClassb\006proto3"
     };

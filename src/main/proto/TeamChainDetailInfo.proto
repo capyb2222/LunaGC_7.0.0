@@ -6,6 +6,6 @@ option java_outer_classname = "TeamChainDetailInfoOuterClass";
 import "TeamChainStageData.proto";
 
 message TeamChainDetailInfo {
-	bool is_token_costume_reward = 4;
-	repeated TeamChainStageData stage_data_list = 15;
+	bool is_token_costume_reward = 8;
+	repeated TeamChainStageData stage_data_list = 9;
 }

@@ -6,6 +6,6 @@ option java_outer_classname = "GetDungeonEntryExploreConditionRspOuterClass";
 import "DungeonEntryCond.proto";
 
 message GetDungeonEntryExploreConditionRsp {
-	int32 retcode = 2;
+	int32 retcode = 7;
 	DungeonEntryCond dungeon_entry_cond = 11;
 }

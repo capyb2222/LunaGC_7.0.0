@@ -19,7 +19,7 @@ public final class _TradeShowDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 CEDBOCOCINO = 7;</code>
+     * <code>uint32 CEDBOCOCINO = 13;</code>
      * @return The cEDBOCOCINO.
      */
     int getCEDBOCOCINO();
@@ -69,7 +69,7 @@ public final class _TradeShowDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 56: {
+            case 104: {
 
               cEDBOCOCINO_ = input.readUInt32();
               break;
@@ -106,10 +106,10 @@ public final class _TradeShowDetailInfoOuterClass {
               emu.grasscutter.net.proto._TradeShowDetailInfoOuterClass._TradeShowDetailInfo.class, emu.grasscutter.net.proto._TradeShowDetailInfoOuterClass._TradeShowDetailInfo.Builder.class);
     }
 
-    public static final int CEDBOCOCINO_FIELD_NUMBER = 7;
+    public static final int CEDBOCOCINO_FIELD_NUMBER = 13;
     private int cEDBOCOCINO_;
     /**
-     * <code>uint32 CEDBOCOCINO = 7;</code>
+     * <code>uint32 CEDBOCOCINO = 13;</code>
      * @return The cEDBOCOCINO.
      */
     @java.lang.Override
@@ -132,7 +132,7 @@ public final class _TradeShowDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (cEDBOCOCINO_ != 0) {
-        output.writeUInt32(7, cEDBOCOCINO_);
+        output.writeUInt32(13, cEDBOCOCINO_);
       }
       unknownFields.writeTo(output);
     }
@@ -145,7 +145,7 @@ public final class _TradeShowDetailInfoOuterClass {
       size = 0;
       if (cEDBOCOCINO_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, cEDBOCOCINO_);
+          .computeUInt32Size(13, cEDBOCOCINO_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -421,7 +421,7 @@ public final class _TradeShowDetailInfoOuterClass {
 
       private int cEDBOCOCINO_ ;
       /**
-       * <code>uint32 CEDBOCOCINO = 7;</code>
+       * <code>uint32 CEDBOCOCINO = 13;</code>
        * @return The cEDBOCOCINO.
        */
       @java.lang.Override
@@ -429,7 +429,7 @@ public final class _TradeShowDetailInfoOuterClass {
         return cEDBOCOCINO_;
       }
       /**
-       * <code>uint32 CEDBOCOCINO = 7;</code>
+       * <code>uint32 CEDBOCOCINO = 13;</code>
        * @param value The cEDBOCOCINO to set.
        * @return This builder for chaining.
        */
@@ -440,7 +440,7 @@ public final class _TradeShowDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 CEDBOCOCINO = 7;</code>
+       * <code>uint32 CEDBOCOCINO = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearCEDBOCOCINO() {
@@ -517,7 +517,7 @@ public final class _TradeShowDetailInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\032_TradeShowDetailInfo.proto\"+\n\024_TradeSh" +
-      "owDetailInfo\022\023\n\013CEDBOCOCINO\030\007 \001(\rB;\n\031emu" +
+      "owDetailInfo\022\023\n\013CEDBOCOCINO\030\r \001(\rB;\n\031emu" +
       ".grasscutter.net.protoB\036_TradeShowDetail" +
       "InfoOuterClassb\006proto3"
     };

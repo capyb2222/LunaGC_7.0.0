@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "FMCJAEEPDAEOuterClass";
 
 message FMCJAEEPDAE {
-	bool is_open = 1;
-	bool is_finish = 8;
-	uint32 level_id = 11;
+	bool is_open = 12;
+	bool is_finish = 10;
+	uint32 level_id = 5;
 }

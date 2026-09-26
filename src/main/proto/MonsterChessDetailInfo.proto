@@ -6,5 +6,5 @@ option java_outer_classname = "MonsterChessDetailInfoOuterClass";
 import "_MonsterChessRecordInfo.proto";
 
 message MonsterChessDetailInfo {
-	repeated _MonsterChessRecordInfo _monster_chess_record_info = 3;
+	repeated _MonsterChessRecordInfo _monster_chess_record_info = 4;
 }

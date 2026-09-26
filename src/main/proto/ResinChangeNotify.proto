@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "ResinChangeNotifyOuterClass";
 
 message ResinChangeNotify {
-	uint32 cur_buy_count = 3;
-	uint32 next_add_timestamp = 4;
-	uint32 cur_value = 8;
+	uint32 cur_buy_count = 50000;
+	uint32 next_add_timestamp = 50001;
+	uint32 cur_value = 10;
 }

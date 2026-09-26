@@ -19,43 +19,43 @@ public final class DBKDCMPAGEGOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 difficulty = 1;</code>
+     * <code>uint32 difficulty = 2;</code>
      * @return The difficulty.
      */
     int getDifficulty();
 
     /**
-     * <code>repeated .LEEAPMKHDJK team_list = 9;</code>
+     * <code>repeated .LEEAPMKHDJK team_list = 5;</code>
      */
     java.util.List<emu.grasscutter.net.proto.LEEAPMKHDJKOuterClass.LEEAPMKHDJK> 
         getTeamListList();
     /**
-     * <code>repeated .LEEAPMKHDJK team_list = 9;</code>
+     * <code>repeated .LEEAPMKHDJK team_list = 5;</code>
      */
     emu.grasscutter.net.proto.LEEAPMKHDJKOuterClass.LEEAPMKHDJK getTeamList(int index);
     /**
-     * <code>repeated .LEEAPMKHDJK team_list = 9;</code>
+     * <code>repeated .LEEAPMKHDJK team_list = 5;</code>
      */
     int getTeamListCount();
     /**
-     * <code>repeated .LEEAPMKHDJK team_list = 9;</code>
+     * <code>repeated .LEEAPMKHDJK team_list = 5;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.LEEAPMKHDJKOuterClass.LEEAPMKHDJKOrBuilder> 
         getTeamListOrBuilderList();
     /**
-     * <code>repeated .LEEAPMKHDJK team_list = 9;</code>
+     * <code>repeated .LEEAPMKHDJK team_list = 5;</code>
      */
     emu.grasscutter.net.proto.LEEAPMKHDJKOuterClass.LEEAPMKHDJKOrBuilder getTeamListOrBuilder(
         int index);
 
     /**
-     * <code>uint32 BOJBEECJFDL = 12;</code>
+     * <code>uint32 BOJBEECJFDL = 50000;</code>
      * @return The bOJBEECJFDL.
      */
     int getBOJBEECJFDL();
 
     /**
-     * <code>uint32 ONEMANNIKIH = 14;</code>
+     * <code>uint32 ONEMANNIKIH = 50001;</code>
      * @return The oNEMANNIKIH.
      */
     int getONEMANNIKIH();
@@ -107,12 +107,12 @@ public final class DBKDCMPAGEGOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 16: {
 
               difficulty_ = input.readUInt32();
               break;
             }
-            case 74: {
+            case 42: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 teamList_ = new java.util.ArrayList<emu.grasscutter.net.proto.LEEAPMKHDJKOuterClass.LEEAPMKHDJK>();
                 mutable_bitField0_ |= 0x00000001;
@@ -121,12 +121,12 @@ public final class DBKDCMPAGEGOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.LEEAPMKHDJKOuterClass.LEEAPMKHDJK.parser(), extensionRegistry));
               break;
             }
-            case 96: {
+            case 400000: {
 
               bOJBEECJFDL_ = input.readUInt32();
               break;
             }
-            case 112: {
+            case 400008: {
 
               oNEMANNIKIH_ = input.readUInt32();
               break;
@@ -166,10 +166,10 @@ public final class DBKDCMPAGEGOuterClass {
               emu.grasscutter.net.proto.DBKDCMPAGEGOuterClass.DBKDCMPAGEG.class, emu.grasscutter.net.proto.DBKDCMPAGEGOuterClass.DBKDCMPAGEG.Builder.class);
     }
 
-    public static final int DIFFICULTY_FIELD_NUMBER = 1;
+    public static final int DIFFICULTY_FIELD_NUMBER = 2;
     private int difficulty_;
     /**
-     * <code>uint32 difficulty = 1;</code>
+     * <code>uint32 difficulty = 2;</code>
      * @return The difficulty.
      */
     @java.lang.Override
@@ -177,17 +177,17 @@ public final class DBKDCMPAGEGOuterClass {
       return difficulty_;
     }
 
-    public static final int TEAM_LIST_FIELD_NUMBER = 9;
+    public static final int TEAM_LIST_FIELD_NUMBER = 5;
     private java.util.List<emu.grasscutter.net.proto.LEEAPMKHDJKOuterClass.LEEAPMKHDJK> teamList_;
     /**
-     * <code>repeated .LEEAPMKHDJK team_list = 9;</code>
+     * <code>repeated .LEEAPMKHDJK team_list = 5;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.LEEAPMKHDJKOuterClass.LEEAPMKHDJK> getTeamListList() {
       return teamList_;
     }
     /**
-     * <code>repeated .LEEAPMKHDJK team_list = 9;</code>
+     * <code>repeated .LEEAPMKHDJK team_list = 5;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.LEEAPMKHDJKOuterClass.LEEAPMKHDJKOrBuilder> 
@@ -195,21 +195,21 @@ public final class DBKDCMPAGEGOuterClass {
       return teamList_;
     }
     /**
-     * <code>repeated .LEEAPMKHDJK team_list = 9;</code>
+     * <code>repeated .LEEAPMKHDJK team_list = 5;</code>
      */
     @java.lang.Override
     public int getTeamListCount() {
       return teamList_.size();
     }
     /**
-     * <code>repeated .LEEAPMKHDJK team_list = 9;</code>
+     * <code>repeated .LEEAPMKHDJK team_list = 5;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.LEEAPMKHDJKOuterClass.LEEAPMKHDJK getTeamList(int index) {
       return teamList_.get(index);
     }
     /**
-     * <code>repeated .LEEAPMKHDJK team_list = 9;</code>
+     * <code>repeated .LEEAPMKHDJK team_list = 5;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.LEEAPMKHDJKOuterClass.LEEAPMKHDJKOrBuilder getTeamListOrBuilder(
@@ -217,10 +217,10 @@ public final class DBKDCMPAGEGOuterClass {
       return teamList_.get(index);
     }
 
-    public static final int BOJBEECJFDL_FIELD_NUMBER = 12;
+    public static final int BOJBEECJFDL_FIELD_NUMBER = 50000;
     private int bOJBEECJFDL_;
     /**
-     * <code>uint32 BOJBEECJFDL = 12;</code>
+     * <code>uint32 BOJBEECJFDL = 50000;</code>
      * @return The bOJBEECJFDL.
      */
     @java.lang.Override
@@ -228,10 +228,10 @@ public final class DBKDCMPAGEGOuterClass {
       return bOJBEECJFDL_;
     }
 
-    public static final int ONEMANNIKIH_FIELD_NUMBER = 14;
+    public static final int ONEMANNIKIH_FIELD_NUMBER = 50001;
     private int oNEMANNIKIH_;
     /**
-     * <code>uint32 ONEMANNIKIH = 14;</code>
+     * <code>uint32 ONEMANNIKIH = 50001;</code>
      * @return The oNEMANNIKIH.
      */
     @java.lang.Override
@@ -254,16 +254,16 @@ public final class DBKDCMPAGEGOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (difficulty_ != 0) {
-        output.writeUInt32(1, difficulty_);
+        output.writeUInt32(2, difficulty_);
       }
       for (int i = 0; i < teamList_.size(); i++) {
-        output.writeMessage(9, teamList_.get(i));
+        output.writeMessage(5, teamList_.get(i));
       }
       if (bOJBEECJFDL_ != 0) {
-        output.writeUInt32(12, bOJBEECJFDL_);
+        output.writeUInt32(50000, bOJBEECJFDL_);
       }
       if (oNEMANNIKIH_ != 0) {
-        output.writeUInt32(14, oNEMANNIKIH_);
+        output.writeUInt32(50001, oNEMANNIKIH_);
       }
       unknownFields.writeTo(output);
     }
@@ -276,19 +276,19 @@ public final class DBKDCMPAGEGOuterClass {
       size = 0;
       if (difficulty_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, difficulty_);
+          .computeUInt32Size(2, difficulty_);
       }
       for (int i = 0; i < teamList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, teamList_.get(i));
+          .computeMessageSize(5, teamList_.get(i));
       }
       if (bOJBEECJFDL_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, bOJBEECJFDL_);
+          .computeUInt32Size(50000, bOJBEECJFDL_);
       }
       if (oNEMANNIKIH_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, oNEMANNIKIH_);
+          .computeUInt32Size(50001, oNEMANNIKIH_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -634,7 +634,7 @@ public final class DBKDCMPAGEGOuterClass {
 
       private int difficulty_ ;
       /**
-       * <code>uint32 difficulty = 1;</code>
+       * <code>uint32 difficulty = 2;</code>
        * @return The difficulty.
        */
       @java.lang.Override
@@ -642,7 +642,7 @@ public final class DBKDCMPAGEGOuterClass {
         return difficulty_;
       }
       /**
-       * <code>uint32 difficulty = 1;</code>
+       * <code>uint32 difficulty = 2;</code>
        * @param value The difficulty to set.
        * @return This builder for chaining.
        */
@@ -653,7 +653,7 @@ public final class DBKDCMPAGEGOuterClass {
         return this;
       }
       /**
-       * <code>uint32 difficulty = 1;</code>
+       * <code>uint32 difficulty = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearDifficulty() {
@@ -676,7 +676,7 @@ public final class DBKDCMPAGEGOuterClass {
           emu.grasscutter.net.proto.LEEAPMKHDJKOuterClass.LEEAPMKHDJK, emu.grasscutter.net.proto.LEEAPMKHDJKOuterClass.LEEAPMKHDJK.Builder, emu.grasscutter.net.proto.LEEAPMKHDJKOuterClass.LEEAPMKHDJKOrBuilder> teamListBuilder_;
 
       /**
-       * <code>repeated .LEEAPMKHDJK team_list = 9;</code>
+       * <code>repeated .LEEAPMKHDJK team_list = 5;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.LEEAPMKHDJKOuterClass.LEEAPMKHDJK> getTeamListList() {
         if (teamListBuilder_ == null) {
@@ -686,7 +686,7 @@ public final class DBKDCMPAGEGOuterClass {
         }
       }
       /**
-       * <code>repeated .LEEAPMKHDJK team_list = 9;</code>
+       * <code>repeated .LEEAPMKHDJK team_list = 5;</code>
        */
       public int getTeamListCount() {
         if (teamListBuilder_ == null) {
@@ -696,7 +696,7 @@ public final class DBKDCMPAGEGOuterClass {
         }
       }
       /**
-       * <code>repeated .LEEAPMKHDJK team_list = 9;</code>
+       * <code>repeated .LEEAPMKHDJK team_list = 5;</code>
        */
       public emu.grasscutter.net.proto.LEEAPMKHDJKOuterClass.LEEAPMKHDJK getTeamList(int index) {
         if (teamListBuilder_ == null) {
@@ -706,7 +706,7 @@ public final class DBKDCMPAGEGOuterClass {
         }
       }
       /**
-       * <code>repeated .LEEAPMKHDJK team_list = 9;</code>
+       * <code>repeated .LEEAPMKHDJK team_list = 5;</code>
        */
       public Builder setTeamList(
           int index, emu.grasscutter.net.proto.LEEAPMKHDJKOuterClass.LEEAPMKHDJK value) {
@@ -723,7 +723,7 @@ public final class DBKDCMPAGEGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LEEAPMKHDJK team_list = 9;</code>
+       * <code>repeated .LEEAPMKHDJK team_list = 5;</code>
        */
       public Builder setTeamList(
           int index, emu.grasscutter.net.proto.LEEAPMKHDJKOuterClass.LEEAPMKHDJK.Builder builderForValue) {
@@ -737,7 +737,7 @@ public final class DBKDCMPAGEGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LEEAPMKHDJK team_list = 9;</code>
+       * <code>repeated .LEEAPMKHDJK team_list = 5;</code>
        */
       public Builder addTeamList(emu.grasscutter.net.proto.LEEAPMKHDJKOuterClass.LEEAPMKHDJK value) {
         if (teamListBuilder_ == null) {
@@ -753,7 +753,7 @@ public final class DBKDCMPAGEGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LEEAPMKHDJK team_list = 9;</code>
+       * <code>repeated .LEEAPMKHDJK team_list = 5;</code>
        */
       public Builder addTeamList(
           int index, emu.grasscutter.net.proto.LEEAPMKHDJKOuterClass.LEEAPMKHDJK value) {
@@ -770,7 +770,7 @@ public final class DBKDCMPAGEGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LEEAPMKHDJK team_list = 9;</code>
+       * <code>repeated .LEEAPMKHDJK team_list = 5;</code>
        */
       public Builder addTeamList(
           emu.grasscutter.net.proto.LEEAPMKHDJKOuterClass.LEEAPMKHDJK.Builder builderForValue) {
@@ -784,7 +784,7 @@ public final class DBKDCMPAGEGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LEEAPMKHDJK team_list = 9;</code>
+       * <code>repeated .LEEAPMKHDJK team_list = 5;</code>
        */
       public Builder addTeamList(
           int index, emu.grasscutter.net.proto.LEEAPMKHDJKOuterClass.LEEAPMKHDJK.Builder builderForValue) {
@@ -798,7 +798,7 @@ public final class DBKDCMPAGEGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LEEAPMKHDJK team_list = 9;</code>
+       * <code>repeated .LEEAPMKHDJK team_list = 5;</code>
        */
       public Builder addAllTeamList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.LEEAPMKHDJKOuterClass.LEEAPMKHDJK> values) {
@@ -813,7 +813,7 @@ public final class DBKDCMPAGEGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LEEAPMKHDJK team_list = 9;</code>
+       * <code>repeated .LEEAPMKHDJK team_list = 5;</code>
        */
       public Builder clearTeamList() {
         if (teamListBuilder_ == null) {
@@ -826,7 +826,7 @@ public final class DBKDCMPAGEGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LEEAPMKHDJK team_list = 9;</code>
+       * <code>repeated .LEEAPMKHDJK team_list = 5;</code>
        */
       public Builder removeTeamList(int index) {
         if (teamListBuilder_ == null) {
@@ -839,14 +839,14 @@ public final class DBKDCMPAGEGOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LEEAPMKHDJK team_list = 9;</code>
+       * <code>repeated .LEEAPMKHDJK team_list = 5;</code>
        */
       public emu.grasscutter.net.proto.LEEAPMKHDJKOuterClass.LEEAPMKHDJK.Builder getTeamListBuilder(
           int index) {
         return getTeamListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .LEEAPMKHDJK team_list = 9;</code>
+       * <code>repeated .LEEAPMKHDJK team_list = 5;</code>
        */
       public emu.grasscutter.net.proto.LEEAPMKHDJKOuterClass.LEEAPMKHDJKOrBuilder getTeamListOrBuilder(
           int index) {
@@ -856,7 +856,7 @@ public final class DBKDCMPAGEGOuterClass {
         }
       }
       /**
-       * <code>repeated .LEEAPMKHDJK team_list = 9;</code>
+       * <code>repeated .LEEAPMKHDJK team_list = 5;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.LEEAPMKHDJKOuterClass.LEEAPMKHDJKOrBuilder> 
            getTeamListOrBuilderList() {
@@ -867,14 +867,14 @@ public final class DBKDCMPAGEGOuterClass {
         }
       }
       /**
-       * <code>repeated .LEEAPMKHDJK team_list = 9;</code>
+       * <code>repeated .LEEAPMKHDJK team_list = 5;</code>
        */
       public emu.grasscutter.net.proto.LEEAPMKHDJKOuterClass.LEEAPMKHDJK.Builder addTeamListBuilder() {
         return getTeamListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.LEEAPMKHDJKOuterClass.LEEAPMKHDJK.getDefaultInstance());
       }
       /**
-       * <code>repeated .LEEAPMKHDJK team_list = 9;</code>
+       * <code>repeated .LEEAPMKHDJK team_list = 5;</code>
        */
       public emu.grasscutter.net.proto.LEEAPMKHDJKOuterClass.LEEAPMKHDJK.Builder addTeamListBuilder(
           int index) {
@@ -882,7 +882,7 @@ public final class DBKDCMPAGEGOuterClass {
             index, emu.grasscutter.net.proto.LEEAPMKHDJKOuterClass.LEEAPMKHDJK.getDefaultInstance());
       }
       /**
-       * <code>repeated .LEEAPMKHDJK team_list = 9;</code>
+       * <code>repeated .LEEAPMKHDJK team_list = 5;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.LEEAPMKHDJKOuterClass.LEEAPMKHDJK.Builder> 
            getTeamListBuilderList() {
@@ -905,7 +905,7 @@ public final class DBKDCMPAGEGOuterClass {
 
       private int bOJBEECJFDL_ ;
       /**
-       * <code>uint32 BOJBEECJFDL = 12;</code>
+       * <code>uint32 BOJBEECJFDL = 50000;</code>
        * @return The bOJBEECJFDL.
        */
       @java.lang.Override
@@ -913,7 +913,7 @@ public final class DBKDCMPAGEGOuterClass {
         return bOJBEECJFDL_;
       }
       /**
-       * <code>uint32 BOJBEECJFDL = 12;</code>
+       * <code>uint32 BOJBEECJFDL = 50000;</code>
        * @param value The bOJBEECJFDL to set.
        * @return This builder for chaining.
        */
@@ -924,7 +924,7 @@ public final class DBKDCMPAGEGOuterClass {
         return this;
       }
       /**
-       * <code>uint32 BOJBEECJFDL = 12;</code>
+       * <code>uint32 BOJBEECJFDL = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearBOJBEECJFDL() {
@@ -936,7 +936,7 @@ public final class DBKDCMPAGEGOuterClass {
 
       private int oNEMANNIKIH_ ;
       /**
-       * <code>uint32 ONEMANNIKIH = 14;</code>
+       * <code>uint32 ONEMANNIKIH = 50001;</code>
        * @return The oNEMANNIKIH.
        */
       @java.lang.Override
@@ -944,7 +944,7 @@ public final class DBKDCMPAGEGOuterClass {
         return oNEMANNIKIH_;
       }
       /**
-       * <code>uint32 ONEMANNIKIH = 14;</code>
+       * <code>uint32 ONEMANNIKIH = 50001;</code>
        * @param value The oNEMANNIKIH to set.
        * @return This builder for chaining.
        */
@@ -955,7 +955,7 @@ public final class DBKDCMPAGEGOuterClass {
         return this;
       }
       /**
-       * <code>uint32 ONEMANNIKIH = 14;</code>
+       * <code>uint32 ONEMANNIKIH = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearONEMANNIKIH() {
@@ -1031,12 +1031,12 @@ public final class DBKDCMPAGEGOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021DBKDCMPAGEG.proto\032\021LEEAPMKHDJK.proto\"l" +
-      "\n\013DBKDCMPAGEG\022\022\n\ndifficulty\030\001 \001(\r\022\037\n\ttea" +
-      "m_list\030\t \003(\0132\014.LEEAPMKHDJK\022\023\n\013BOJBEECJFD" +
-      "L\030\014 \001(\r\022\023\n\013ONEMANNIKIH\030\016 \001(\rB2\n\031emu.gras" +
-      "scutter.net.protoB\025DBKDCMPAGEGOuterClass" +
-      "b\006proto3"
+      "\n\021DBKDCMPAGEG.proto\032\021LEEAPMKHDJK.proto\"p" +
+      "\n\013DBKDCMPAGEG\022\022\n\ndifficulty\030\002 \001(\r\022\037\n\ttea" +
+      "m_list\030\005 \003(\0132\014.LEEAPMKHDJK\022\025\n\013BOJBEECJFD" +
+      "L\030\320\206\003 \001(\r\022\025\n\013ONEMANNIKIH\030\321\206\003 \001(\rB2\n\031emu." +
+      "grasscutter.net.protoB\025DBKDCMPAGEGOuterC" +
+      "lassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

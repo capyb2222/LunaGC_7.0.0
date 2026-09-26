@@ -4,8 +4,8 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "BPENFBMNKMPOuterClass";
 
 message BPENFBMNKMP {
-	uint32 level_id = 1;
-	uint32 NHEFNKONPEI = 3;
-	bool is_level_open = 7;
-	bool is_finished = 9;
+	uint32 level_id = 4;
+	uint32 NHEFNKONPEI = 7;
+	bool is_level_open = 15;
+	bool is_finished = 1;
 }

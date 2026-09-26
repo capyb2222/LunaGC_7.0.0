@@ -19,13 +19,13 @@ public final class _BladeHeartLevelInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool is_perfect = 8;</code>
+     * <code>bool is_perfect = 4;</code>
      * @return The isPerfect.
      */
     boolean getIsPerfect();
 
     /**
-     * <code>bool _is_cutscene_viewed = 11;</code>
+     * <code>bool _is_cutscene_viewed = 6;</code>
      * @return The isCutsceneViewed.
      */
     boolean getIsCutsceneViewed();
@@ -75,12 +75,12 @@ public final class _BladeHeartLevelInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 64: {
+            case 32: {
 
               isPerfect_ = input.readBool();
               break;
             }
-            case 88: {
+            case 48: {
 
               IsCutsceneViewed_ = input.readBool();
               break;
@@ -117,10 +117,10 @@ public final class _BladeHeartLevelInfoOuterClass {
               emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfo.class, emu.grasscutter.net.proto._BladeHeartLevelInfoOuterClass._BladeHeartLevelInfo.Builder.class);
     }
 
-    public static final int IS_PERFECT_FIELD_NUMBER = 8;
+    public static final int IS_PERFECT_FIELD_NUMBER = 4;
     private boolean isPerfect_;
     /**
-     * <code>bool is_perfect = 8;</code>
+     * <code>bool is_perfect = 4;</code>
      * @return The isPerfect.
      */
     @java.lang.Override
@@ -128,10 +128,10 @@ public final class _BladeHeartLevelInfoOuterClass {
       return isPerfect_;
     }
 
-    public static final int _IS_CUTSCENE_VIEWED_FIELD_NUMBER = 11;
+    public static final int _IS_CUTSCENE_VIEWED_FIELD_NUMBER = 6;
     private boolean IsCutsceneViewed_;
     /**
-     * <code>bool _is_cutscene_viewed = 11;</code>
+     * <code>bool _is_cutscene_viewed = 6;</code>
      * @return The isCutsceneViewed.
      */
     @java.lang.Override
@@ -154,10 +154,10 @@ public final class _BladeHeartLevelInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (isPerfect_ != false) {
-        output.writeBool(8, isPerfect_);
+        output.writeBool(4, isPerfect_);
       }
       if (IsCutsceneViewed_ != false) {
-        output.writeBool(11, IsCutsceneViewed_);
+        output.writeBool(6, IsCutsceneViewed_);
       }
       unknownFields.writeTo(output);
     }
@@ -170,11 +170,11 @@ public final class _BladeHeartLevelInfoOuterClass {
       size = 0;
       if (isPerfect_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(8, isPerfect_);
+          .computeBoolSize(4, isPerfect_);
       }
       if (IsCutsceneViewed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(11, IsCutsceneViewed_);
+          .computeBoolSize(6, IsCutsceneViewed_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -462,7 +462,7 @@ public final class _BladeHeartLevelInfoOuterClass {
 
       private boolean isPerfect_ ;
       /**
-       * <code>bool is_perfect = 8;</code>
+       * <code>bool is_perfect = 4;</code>
        * @return The isPerfect.
        */
       @java.lang.Override
@@ -470,7 +470,7 @@ public final class _BladeHeartLevelInfoOuterClass {
         return isPerfect_;
       }
       /**
-       * <code>bool is_perfect = 8;</code>
+       * <code>bool is_perfect = 4;</code>
        * @param value The isPerfect to set.
        * @return This builder for chaining.
        */
@@ -481,7 +481,7 @@ public final class _BladeHeartLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_perfect = 8;</code>
+       * <code>bool is_perfect = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsPerfect() {
@@ -493,7 +493,7 @@ public final class _BladeHeartLevelInfoOuterClass {
 
       private boolean IsCutsceneViewed_ ;
       /**
-       * <code>bool _is_cutscene_viewed = 11;</code>
+       * <code>bool _is_cutscene_viewed = 6;</code>
        * @return The isCutsceneViewed.
        */
       @java.lang.Override
@@ -501,7 +501,7 @@ public final class _BladeHeartLevelInfoOuterClass {
         return IsCutsceneViewed_;
       }
       /**
-       * <code>bool _is_cutscene_viewed = 11;</code>
+       * <code>bool _is_cutscene_viewed = 6;</code>
        * @param value The isCutsceneViewed to set.
        * @return This builder for chaining.
        */
@@ -512,7 +512,7 @@ public final class _BladeHeartLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool _is_cutscene_viewed = 11;</code>
+       * <code>bool _is_cutscene_viewed = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsCutsceneViewed() {
@@ -589,8 +589,8 @@ public final class _BladeHeartLevelInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\032_BladeHeartLevelInfo.proto\"G\n\024_BladeHe" +
-      "artLevelInfo\022\022\n\nis_perfect\030\010 \001(\010\022\033\n\023_is_" +
-      "cutscene_viewed\030\013 \001(\010B;\n\031emu.grasscutter" +
+      "artLevelInfo\022\022\n\nis_perfect\030\004 \001(\010\022\033\n\023_is_" +
+      "cutscene_viewed\030\006 \001(\010B;\n\031emu.grasscutter" +
       ".net.protoB\036_BladeHeartLevelInfoOuterCla" +
       "ssb\006proto3"
     };

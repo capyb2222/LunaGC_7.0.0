@@ -6,5 +6,5 @@ option java_outer_classname = "AnimalViewDetailInfoOuterClass";
 import "ACCCCLFEMPE.proto";
 
 message AnimalViewDetailInfo {
-	repeated ACCCCLFEMPE edjfjkebkko = 11;
+	repeated ACCCCLFEMPE edjfjkebkko = 15;
 }

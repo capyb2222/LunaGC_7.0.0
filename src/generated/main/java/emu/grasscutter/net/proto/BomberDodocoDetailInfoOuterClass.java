@@ -19,25 +19,25 @@ public final class BomberDodocoDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .FMCJAEEPDAE level_info_list = 12;</code>
+     * <code>repeated .FMCJAEEPDAE level_info_list = 6;</code>
      */
     java.util.List<emu.grasscutter.net.proto.FMCJAEEPDAEOuterClass.FMCJAEEPDAE> 
         getLevelInfoListList();
     /**
-     * <code>repeated .FMCJAEEPDAE level_info_list = 12;</code>
+     * <code>repeated .FMCJAEEPDAE level_info_list = 6;</code>
      */
     emu.grasscutter.net.proto.FMCJAEEPDAEOuterClass.FMCJAEEPDAE getLevelInfoList(int index);
     /**
-     * <code>repeated .FMCJAEEPDAE level_info_list = 12;</code>
+     * <code>repeated .FMCJAEEPDAE level_info_list = 6;</code>
      */
     int getLevelInfoListCount();
     /**
-     * <code>repeated .FMCJAEEPDAE level_info_list = 12;</code>
+     * <code>repeated .FMCJAEEPDAE level_info_list = 6;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.FMCJAEEPDAEOuterClass.FMCJAEEPDAEOrBuilder> 
         getLevelInfoListOrBuilderList();
     /**
-     * <code>repeated .FMCJAEEPDAE level_info_list = 12;</code>
+     * <code>repeated .FMCJAEEPDAE level_info_list = 6;</code>
      */
     emu.grasscutter.net.proto.FMCJAEEPDAEOuterClass.FMCJAEEPDAEOrBuilder getLevelInfoListOrBuilder(
         int index);
@@ -89,7 +89,7 @@ public final class BomberDodocoDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 98: {
+            case 50: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 levelInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.FMCJAEEPDAEOuterClass.FMCJAEEPDAE>();
                 mutable_bitField0_ |= 0x00000001;
@@ -133,17 +133,17 @@ public final class BomberDodocoDetailInfoOuterClass {
               emu.grasscutter.net.proto.BomberDodocoDetailInfoOuterClass.BomberDodocoDetailInfo.class, emu.grasscutter.net.proto.BomberDodocoDetailInfoOuterClass.BomberDodocoDetailInfo.Builder.class);
     }
 
-    public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 12;
+    public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 6;
     private java.util.List<emu.grasscutter.net.proto.FMCJAEEPDAEOuterClass.FMCJAEEPDAE> levelInfoList_;
     /**
-     * <code>repeated .FMCJAEEPDAE level_info_list = 12;</code>
+     * <code>repeated .FMCJAEEPDAE level_info_list = 6;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.FMCJAEEPDAEOuterClass.FMCJAEEPDAE> getLevelInfoListList() {
       return levelInfoList_;
     }
     /**
-     * <code>repeated .FMCJAEEPDAE level_info_list = 12;</code>
+     * <code>repeated .FMCJAEEPDAE level_info_list = 6;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.FMCJAEEPDAEOuterClass.FMCJAEEPDAEOrBuilder> 
@@ -151,21 +151,21 @@ public final class BomberDodocoDetailInfoOuterClass {
       return levelInfoList_;
     }
     /**
-     * <code>repeated .FMCJAEEPDAE level_info_list = 12;</code>
+     * <code>repeated .FMCJAEEPDAE level_info_list = 6;</code>
      */
     @java.lang.Override
     public int getLevelInfoListCount() {
       return levelInfoList_.size();
     }
     /**
-     * <code>repeated .FMCJAEEPDAE level_info_list = 12;</code>
+     * <code>repeated .FMCJAEEPDAE level_info_list = 6;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.FMCJAEEPDAEOuterClass.FMCJAEEPDAE getLevelInfoList(int index) {
       return levelInfoList_.get(index);
     }
     /**
-     * <code>repeated .FMCJAEEPDAE level_info_list = 12;</code>
+     * <code>repeated .FMCJAEEPDAE level_info_list = 6;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.FMCJAEEPDAEOuterClass.FMCJAEEPDAEOrBuilder getLevelInfoListOrBuilder(
@@ -188,7 +188,7 @@ public final class BomberDodocoDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < levelInfoList_.size(); i++) {
-        output.writeMessage(12, levelInfoList_.get(i));
+        output.writeMessage(6, levelInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -201,7 +201,7 @@ public final class BomberDodocoDetailInfoOuterClass {
       size = 0;
       for (int i = 0; i < levelInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, levelInfoList_.get(i));
+          .computeMessageSize(6, levelInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -528,7 +528,7 @@ public final class BomberDodocoDetailInfoOuterClass {
           emu.grasscutter.net.proto.FMCJAEEPDAEOuterClass.FMCJAEEPDAE, emu.grasscutter.net.proto.FMCJAEEPDAEOuterClass.FMCJAEEPDAE.Builder, emu.grasscutter.net.proto.FMCJAEEPDAEOuterClass.FMCJAEEPDAEOrBuilder> levelInfoListBuilder_;
 
       /**
-       * <code>repeated .FMCJAEEPDAE level_info_list = 12;</code>
+       * <code>repeated .FMCJAEEPDAE level_info_list = 6;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.FMCJAEEPDAEOuterClass.FMCJAEEPDAE> getLevelInfoListList() {
         if (levelInfoListBuilder_ == null) {
@@ -538,7 +538,7 @@ public final class BomberDodocoDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .FMCJAEEPDAE level_info_list = 12;</code>
+       * <code>repeated .FMCJAEEPDAE level_info_list = 6;</code>
        */
       public int getLevelInfoListCount() {
         if (levelInfoListBuilder_ == null) {
@@ -548,7 +548,7 @@ public final class BomberDodocoDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .FMCJAEEPDAE level_info_list = 12;</code>
+       * <code>repeated .FMCJAEEPDAE level_info_list = 6;</code>
        */
       public emu.grasscutter.net.proto.FMCJAEEPDAEOuterClass.FMCJAEEPDAE getLevelInfoList(int index) {
         if (levelInfoListBuilder_ == null) {
@@ -558,7 +558,7 @@ public final class BomberDodocoDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .FMCJAEEPDAE level_info_list = 12;</code>
+       * <code>repeated .FMCJAEEPDAE level_info_list = 6;</code>
        */
       public Builder setLevelInfoList(
           int index, emu.grasscutter.net.proto.FMCJAEEPDAEOuterClass.FMCJAEEPDAE value) {
@@ -575,7 +575,7 @@ public final class BomberDodocoDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FMCJAEEPDAE level_info_list = 12;</code>
+       * <code>repeated .FMCJAEEPDAE level_info_list = 6;</code>
        */
       public Builder setLevelInfoList(
           int index, emu.grasscutter.net.proto.FMCJAEEPDAEOuterClass.FMCJAEEPDAE.Builder builderForValue) {
@@ -589,7 +589,7 @@ public final class BomberDodocoDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FMCJAEEPDAE level_info_list = 12;</code>
+       * <code>repeated .FMCJAEEPDAE level_info_list = 6;</code>
        */
       public Builder addLevelInfoList(emu.grasscutter.net.proto.FMCJAEEPDAEOuterClass.FMCJAEEPDAE value) {
         if (levelInfoListBuilder_ == null) {
@@ -605,7 +605,7 @@ public final class BomberDodocoDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FMCJAEEPDAE level_info_list = 12;</code>
+       * <code>repeated .FMCJAEEPDAE level_info_list = 6;</code>
        */
       public Builder addLevelInfoList(
           int index, emu.grasscutter.net.proto.FMCJAEEPDAEOuterClass.FMCJAEEPDAE value) {
@@ -622,7 +622,7 @@ public final class BomberDodocoDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FMCJAEEPDAE level_info_list = 12;</code>
+       * <code>repeated .FMCJAEEPDAE level_info_list = 6;</code>
        */
       public Builder addLevelInfoList(
           emu.grasscutter.net.proto.FMCJAEEPDAEOuterClass.FMCJAEEPDAE.Builder builderForValue) {
@@ -636,7 +636,7 @@ public final class BomberDodocoDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FMCJAEEPDAE level_info_list = 12;</code>
+       * <code>repeated .FMCJAEEPDAE level_info_list = 6;</code>
        */
       public Builder addLevelInfoList(
           int index, emu.grasscutter.net.proto.FMCJAEEPDAEOuterClass.FMCJAEEPDAE.Builder builderForValue) {
@@ -650,7 +650,7 @@ public final class BomberDodocoDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FMCJAEEPDAE level_info_list = 12;</code>
+       * <code>repeated .FMCJAEEPDAE level_info_list = 6;</code>
        */
       public Builder addAllLevelInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.FMCJAEEPDAEOuterClass.FMCJAEEPDAE> values) {
@@ -665,7 +665,7 @@ public final class BomberDodocoDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FMCJAEEPDAE level_info_list = 12;</code>
+       * <code>repeated .FMCJAEEPDAE level_info_list = 6;</code>
        */
       public Builder clearLevelInfoList() {
         if (levelInfoListBuilder_ == null) {
@@ -678,7 +678,7 @@ public final class BomberDodocoDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FMCJAEEPDAE level_info_list = 12;</code>
+       * <code>repeated .FMCJAEEPDAE level_info_list = 6;</code>
        */
       public Builder removeLevelInfoList(int index) {
         if (levelInfoListBuilder_ == null) {
@@ -691,14 +691,14 @@ public final class BomberDodocoDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FMCJAEEPDAE level_info_list = 12;</code>
+       * <code>repeated .FMCJAEEPDAE level_info_list = 6;</code>
        */
       public emu.grasscutter.net.proto.FMCJAEEPDAEOuterClass.FMCJAEEPDAE.Builder getLevelInfoListBuilder(
           int index) {
         return getLevelInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .FMCJAEEPDAE level_info_list = 12;</code>
+       * <code>repeated .FMCJAEEPDAE level_info_list = 6;</code>
        */
       public emu.grasscutter.net.proto.FMCJAEEPDAEOuterClass.FMCJAEEPDAEOrBuilder getLevelInfoListOrBuilder(
           int index) {
@@ -708,7 +708,7 @@ public final class BomberDodocoDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .FMCJAEEPDAE level_info_list = 12;</code>
+       * <code>repeated .FMCJAEEPDAE level_info_list = 6;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.FMCJAEEPDAEOuterClass.FMCJAEEPDAEOrBuilder> 
            getLevelInfoListOrBuilderList() {
@@ -719,14 +719,14 @@ public final class BomberDodocoDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .FMCJAEEPDAE level_info_list = 12;</code>
+       * <code>repeated .FMCJAEEPDAE level_info_list = 6;</code>
        */
       public emu.grasscutter.net.proto.FMCJAEEPDAEOuterClass.FMCJAEEPDAE.Builder addLevelInfoListBuilder() {
         return getLevelInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.FMCJAEEPDAEOuterClass.FMCJAEEPDAE.getDefaultInstance());
       }
       /**
-       * <code>repeated .FMCJAEEPDAE level_info_list = 12;</code>
+       * <code>repeated .FMCJAEEPDAE level_info_list = 6;</code>
        */
       public emu.grasscutter.net.proto.FMCJAEEPDAEOuterClass.FMCJAEEPDAE.Builder addLevelInfoListBuilder(
           int index) {
@@ -734,7 +734,7 @@ public final class BomberDodocoDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.FMCJAEEPDAEOuterClass.FMCJAEEPDAE.getDefaultInstance());
       }
       /**
-       * <code>repeated .FMCJAEEPDAE level_info_list = 12;</code>
+       * <code>repeated .FMCJAEEPDAE level_info_list = 6;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.FMCJAEEPDAEOuterClass.FMCJAEEPDAE.Builder> 
            getLevelInfoListBuilderList() {
@@ -823,7 +823,7 @@ public final class BomberDodocoDetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034BomberDodocoDetailInfo.proto\032\021FMCJAEEP" +
       "DAE.proto\"?\n\026BomberDodocoDetailInfo\022%\n\017l" +
-      "evel_info_list\030\014 \003(\0132\014.FMCJAEEPDAEB=\n\031em" +
+      "evel_info_list\030\006 \003(\0132\014.FMCJAEEPDAEB=\n\031em" +
       "u.grasscutter.net.protoB BomberDodocoDet" +
       "ailInfoOuterClassb\006proto3"
     };

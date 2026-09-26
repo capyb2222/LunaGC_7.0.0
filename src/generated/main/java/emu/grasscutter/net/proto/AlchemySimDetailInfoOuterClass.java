@@ -19,155 +19,155 @@ public final class AlchemySimDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.GIMNDGBLHNL hpmkggonkgp = 1;</code>
+     * <code>.GIMNDGBLHNL hpmkggonkgp = 50000;</code>
      * @return Whether the hpmkggonkgp field is set.
      */
     boolean hasHpmkggonkgp();
     /**
-     * <code>.GIMNDGBLHNL hpmkggonkgp = 1;</code>
+     * <code>.GIMNDGBLHNL hpmkggonkgp = 50000;</code>
      * @return The hpmkggonkgp.
      */
     emu.grasscutter.net.proto.GIMNDGBLHNLOuterClass.GIMNDGBLHNL getHpmkggonkgp();
     /**
-     * <code>.GIMNDGBLHNL hpmkggonkgp = 1;</code>
+     * <code>.GIMNDGBLHNL hpmkggonkgp = 50000;</code>
      */
     emu.grasscutter.net.proto.GIMNDGBLHNLOuterClass.GIMNDGBLHNLOrBuilder getHpmkggonkgpOrBuilder();
 
     /**
-     * <code>.GJFNDOODMCB hkkinpgdepc = 2;</code>
+     * <code>.GJFNDOODMCB hkkinpgdepc = 50001;</code>
      * @return Whether the hkkinpgdepc field is set.
      */
     boolean hasHkkinpgdepc();
     /**
-     * <code>.GJFNDOODMCB hkkinpgdepc = 2;</code>
+     * <code>.GJFNDOODMCB hkkinpgdepc = 50001;</code>
      * @return The hkkinpgdepc.
      */
     emu.grasscutter.net.proto.GJFNDOODMCBOuterClass.GJFNDOODMCB getHkkinpgdepc();
     /**
-     * <code>.GJFNDOODMCB hkkinpgdepc = 2;</code>
+     * <code>.GJFNDOODMCB hkkinpgdepc = 50001;</code>
      */
     emu.grasscutter.net.proto.GJFNDOODMCBOuterClass.GJFNDOODMCBOrBuilder getHkkinpgdepcOrBuilder();
 
     /**
-     * <code>.MKJLLPCIMCM BJLMKGHFMDA = 4;</code>
+     * <code>.MKJLLPCIMCM BJLMKGHFMDA = 15;</code>
      * @return Whether the bJLMKGHFMDA field is set.
      */
     boolean hasBJLMKGHFMDA();
     /**
-     * <code>.MKJLLPCIMCM BJLMKGHFMDA = 4;</code>
+     * <code>.MKJLLPCIMCM BJLMKGHFMDA = 15;</code>
      * @return The bJLMKGHFMDA.
      */
     emu.grasscutter.net.proto.MKJLLPCIMCMOuterClass.MKJLLPCIMCM getBJLMKGHFMDA();
     /**
-     * <code>.MKJLLPCIMCM BJLMKGHFMDA = 4;</code>
+     * <code>.MKJLLPCIMCM BJLMKGHFMDA = 15;</code>
      */
     emu.grasscutter.net.proto.MKJLLPCIMCMOuterClass.MKJLLPCIMCMOrBuilder getBJLMKGHFMDAOrBuilder();
 
     /**
-     * <code>.CKFHELMIGOP PMMPDHCPONP = 5;</code>
+     * <code>.CKFHELMIGOP PMMPDHCPONP = 14;</code>
      * @return Whether the pMMPDHCPONP field is set.
      */
     boolean hasPMMPDHCPONP();
     /**
-     * <code>.CKFHELMIGOP PMMPDHCPONP = 5;</code>
+     * <code>.CKFHELMIGOP PMMPDHCPONP = 14;</code>
      * @return The pMMPDHCPONP.
      */
     emu.grasscutter.net.proto.CKFHELMIGOPOuterClass.CKFHELMIGOP getPMMPDHCPONP();
     /**
-     * <code>.CKFHELMIGOP PMMPDHCPONP = 5;</code>
+     * <code>.CKFHELMIGOP PMMPDHCPONP = 14;</code>
      */
     emu.grasscutter.net.proto.CKFHELMIGOPOuterClass.CKFHELMIGOPOrBuilder getPMMPDHCPONPOrBuilder();
 
     /**
-     * <code>.BBCHHKCMIOJ basic_info = 6;</code>
+     * <code>.BBCHHKCMIOJ basic_info = 11;</code>
      * @return Whether the basicInfo field is set.
      */
     boolean hasBasicInfo();
     /**
-     * <code>.BBCHHKCMIOJ basic_info = 6;</code>
+     * <code>.BBCHHKCMIOJ basic_info = 11;</code>
      * @return The basicInfo.
      */
     emu.grasscutter.net.proto.BBCHHKCMIOJOuterClass.BBCHHKCMIOJ getBasicInfo();
     /**
-     * <code>.BBCHHKCMIOJ basic_info = 6;</code>
+     * <code>.BBCHHKCMIOJ basic_info = 11;</code>
      */
     emu.grasscutter.net.proto.BBCHHKCMIOJOuterClass.BBCHHKCMIOJOrBuilder getBasicInfoOrBuilder();
 
     /**
-     * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 7;</code>
+     * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 50002;</code>
      */
     java.util.List<emu.grasscutter.net.proto.LGNCGIEICJJOuterClass.LGNCGIEICJJ> 
         getNLKBEFDOFKNList();
     /**
-     * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 7;</code>
+     * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 50002;</code>
      */
     emu.grasscutter.net.proto.LGNCGIEICJJOuterClass.LGNCGIEICJJ getNLKBEFDOFKN(int index);
     /**
-     * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 7;</code>
+     * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 50002;</code>
      */
     int getNLKBEFDOFKNCount();
     /**
-     * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 7;</code>
+     * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 50002;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.LGNCGIEICJJOuterClass.LGNCGIEICJJOrBuilder> 
         getNLKBEFDOFKNOrBuilderList();
     /**
-     * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 7;</code>
+     * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 50002;</code>
      */
     emu.grasscutter.net.proto.LGNCGIEICJJOuterClass.LGNCGIEICJJOrBuilder getNLKBEFDOFKNOrBuilder(
         int index);
 
     /**
-     * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 8;</code>
+     * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 2;</code>
      */
     java.util.List<emu.grasscutter.net.proto.CDOHBLNEKCJOuterClass.CDOHBLNEKCJ> 
         getCCKABEMPMAPList();
     /**
-     * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 8;</code>
+     * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 2;</code>
      */
     emu.grasscutter.net.proto.CDOHBLNEKCJOuterClass.CDOHBLNEKCJ getCCKABEMPMAP(int index);
     /**
-     * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 8;</code>
+     * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 2;</code>
      */
     int getCCKABEMPMAPCount();
     /**
-     * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 8;</code>
+     * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 2;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.CDOHBLNEKCJOuterClass.CDOHBLNEKCJOrBuilder> 
         getCCKABEMPMAPOrBuilderList();
     /**
-     * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 8;</code>
+     * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 2;</code>
      */
     emu.grasscutter.net.proto.CDOHBLNEKCJOuterClass.CDOHBLNEKCJOrBuilder getCCKABEMPMAPOrBuilder(
         int index);
 
     /**
-     * <code>.INNBIIAMPIJ hahnbkedick = 11;</code>
+     * <code>.INNBIIAMPIJ hahnbkedick = 50003;</code>
      * @return Whether the hahnbkedick field is set.
      */
     boolean hasHahnbkedick();
     /**
-     * <code>.INNBIIAMPIJ hahnbkedick = 11;</code>
+     * <code>.INNBIIAMPIJ hahnbkedick = 50003;</code>
      * @return The hahnbkedick.
      */
     emu.grasscutter.net.proto.INNBIIAMPIJOuterClass.INNBIIAMPIJ getHahnbkedick();
     /**
-     * <code>.INNBIIAMPIJ hahnbkedick = 11;</code>
+     * <code>.INNBIIAMPIJ hahnbkedick = 50003;</code>
      */
     emu.grasscutter.net.proto.INNBIIAMPIJOuterClass.INNBIIAMPIJOrBuilder getHahnbkedickOrBuilder();
 
     /**
-     * <code>.HMNAKLDLGGF KLIJBFPJEDF = 12;</code>
+     * <code>.HMNAKLDLGGF KLIJBFPJEDF = 50004;</code>
      * @return Whether the kLIJBFPJEDF field is set.
      */
     boolean hasKLIJBFPJEDF();
     /**
-     * <code>.HMNAKLDLGGF KLIJBFPJEDF = 12;</code>
+     * <code>.HMNAKLDLGGF KLIJBFPJEDF = 50004;</code>
      * @return The kLIJBFPJEDF.
      */
     emu.grasscutter.net.proto.HMNAKLDLGGFOuterClass.HMNAKLDLGGF getKLIJBFPJEDF();
     /**
-     * <code>.HMNAKLDLGGF KLIJBFPJEDF = 12;</code>
+     * <code>.HMNAKLDLGGF KLIJBFPJEDF = 50004;</code>
      */
     emu.grasscutter.net.proto.HMNAKLDLGGFOuterClass.HMNAKLDLGGFOrBuilder getKLIJBFPJEDFOrBuilder();
   }
@@ -219,59 +219,16 @@ public final class AlchemySimDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 10: {
-              emu.grasscutter.net.proto.GIMNDGBLHNLOuterClass.GIMNDGBLHNL.Builder subBuilder = null;
-              if (hpmkggonkgp_ != null) {
-                subBuilder = hpmkggonkgp_.toBuilder();
-              }
-              hpmkggonkgp_ = input.readMessage(emu.grasscutter.net.proto.GIMNDGBLHNLOuterClass.GIMNDGBLHNL.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(hpmkggonkgp_);
-                hpmkggonkgp_ = subBuilder.buildPartial();
-              }
-
-              break;
-            }
             case 18: {
-              emu.grasscutter.net.proto.GJFNDOODMCBOuterClass.GJFNDOODMCB.Builder subBuilder = null;
-              if (hkkinpgdepc_ != null) {
-                subBuilder = hkkinpgdepc_.toBuilder();
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                cCKABEMPMAP_ = new java.util.ArrayList<emu.grasscutter.net.proto.CDOHBLNEKCJOuterClass.CDOHBLNEKCJ>();
+                mutable_bitField0_ |= 0x00000002;
               }
-              hkkinpgdepc_ = input.readMessage(emu.grasscutter.net.proto.GJFNDOODMCBOuterClass.GJFNDOODMCB.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(hkkinpgdepc_);
-                hkkinpgdepc_ = subBuilder.buildPartial();
-              }
-
+              cCKABEMPMAP_.add(
+                  input.readMessage(emu.grasscutter.net.proto.CDOHBLNEKCJOuterClass.CDOHBLNEKCJ.parser(), extensionRegistry));
               break;
             }
-            case 34: {
-              emu.grasscutter.net.proto.MKJLLPCIMCMOuterClass.MKJLLPCIMCM.Builder subBuilder = null;
-              if (bJLMKGHFMDA_ != null) {
-                subBuilder = bJLMKGHFMDA_.toBuilder();
-              }
-              bJLMKGHFMDA_ = input.readMessage(emu.grasscutter.net.proto.MKJLLPCIMCMOuterClass.MKJLLPCIMCM.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(bJLMKGHFMDA_);
-                bJLMKGHFMDA_ = subBuilder.buildPartial();
-              }
-
-              break;
-            }
-            case 42: {
-              emu.grasscutter.net.proto.CKFHELMIGOPOuterClass.CKFHELMIGOP.Builder subBuilder = null;
-              if (pMMPDHCPONP_ != null) {
-                subBuilder = pMMPDHCPONP_.toBuilder();
-              }
-              pMMPDHCPONP_ = input.readMessage(emu.grasscutter.net.proto.CKFHELMIGOPOuterClass.CKFHELMIGOP.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(pMMPDHCPONP_);
-                pMMPDHCPONP_ = subBuilder.buildPartial();
-              }
-
-              break;
-            }
-            case 50: {
+            case 90: {
               emu.grasscutter.net.proto.BBCHHKCMIOJOuterClass.BBCHHKCMIOJ.Builder subBuilder = null;
               if (basicInfo_ != null) {
                 subBuilder = basicInfo_.toBuilder();
@@ -284,7 +241,59 @@ public final class AlchemySimDetailInfoOuterClass {
 
               break;
             }
-            case 58: {
+            case 114: {
+              emu.grasscutter.net.proto.CKFHELMIGOPOuterClass.CKFHELMIGOP.Builder subBuilder = null;
+              if (pMMPDHCPONP_ != null) {
+                subBuilder = pMMPDHCPONP_.toBuilder();
+              }
+              pMMPDHCPONP_ = input.readMessage(emu.grasscutter.net.proto.CKFHELMIGOPOuterClass.CKFHELMIGOP.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(pMMPDHCPONP_);
+                pMMPDHCPONP_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 122: {
+              emu.grasscutter.net.proto.MKJLLPCIMCMOuterClass.MKJLLPCIMCM.Builder subBuilder = null;
+              if (bJLMKGHFMDA_ != null) {
+                subBuilder = bJLMKGHFMDA_.toBuilder();
+              }
+              bJLMKGHFMDA_ = input.readMessage(emu.grasscutter.net.proto.MKJLLPCIMCMOuterClass.MKJLLPCIMCM.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(bJLMKGHFMDA_);
+                bJLMKGHFMDA_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 400002: {
+              emu.grasscutter.net.proto.GIMNDGBLHNLOuterClass.GIMNDGBLHNL.Builder subBuilder = null;
+              if (hpmkggonkgp_ != null) {
+                subBuilder = hpmkggonkgp_.toBuilder();
+              }
+              hpmkggonkgp_ = input.readMessage(emu.grasscutter.net.proto.GIMNDGBLHNLOuterClass.GIMNDGBLHNL.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(hpmkggonkgp_);
+                hpmkggonkgp_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 400010: {
+              emu.grasscutter.net.proto.GJFNDOODMCBOuterClass.GJFNDOODMCB.Builder subBuilder = null;
+              if (hkkinpgdepc_ != null) {
+                subBuilder = hkkinpgdepc_.toBuilder();
+              }
+              hkkinpgdepc_ = input.readMessage(emu.grasscutter.net.proto.GJFNDOODMCBOuterClass.GJFNDOODMCB.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(hkkinpgdepc_);
+                hkkinpgdepc_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 400018: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 nLKBEFDOFKN_ = new java.util.ArrayList<emu.grasscutter.net.proto.LGNCGIEICJJOuterClass.LGNCGIEICJJ>();
                 mutable_bitField0_ |= 0x00000001;
@@ -293,16 +302,7 @@ public final class AlchemySimDetailInfoOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.LGNCGIEICJJOuterClass.LGNCGIEICJJ.parser(), extensionRegistry));
               break;
             }
-            case 66: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                cCKABEMPMAP_ = new java.util.ArrayList<emu.grasscutter.net.proto.CDOHBLNEKCJOuterClass.CDOHBLNEKCJ>();
-                mutable_bitField0_ |= 0x00000002;
-              }
-              cCKABEMPMAP_.add(
-                  input.readMessage(emu.grasscutter.net.proto.CDOHBLNEKCJOuterClass.CDOHBLNEKCJ.parser(), extensionRegistry));
-              break;
-            }
-            case 90: {
+            case 400026: {
               emu.grasscutter.net.proto.INNBIIAMPIJOuterClass.INNBIIAMPIJ.Builder subBuilder = null;
               if (hahnbkedick_ != null) {
                 subBuilder = hahnbkedick_.toBuilder();
@@ -315,7 +315,7 @@ public final class AlchemySimDetailInfoOuterClass {
 
               break;
             }
-            case 98: {
+            case 400034: {
               emu.grasscutter.net.proto.HMNAKLDLGGFOuterClass.HMNAKLDLGGF.Builder subBuilder = null;
               if (kLIJBFPJEDF_ != null) {
                 subBuilder = kLIJBFPJEDF_.toBuilder();
@@ -343,11 +343,11 @@ public final class AlchemySimDetailInfoOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          nLKBEFDOFKN_ = java.util.Collections.unmodifiableList(nLKBEFDOFKN_);
-        }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
           cCKABEMPMAP_ = java.util.Collections.unmodifiableList(cCKABEMPMAP_);
+        }
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          nLKBEFDOFKN_ = java.util.Collections.unmodifiableList(nLKBEFDOFKN_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -366,10 +366,10 @@ public final class AlchemySimDetailInfoOuterClass {
               emu.grasscutter.net.proto.AlchemySimDetailInfoOuterClass.AlchemySimDetailInfo.class, emu.grasscutter.net.proto.AlchemySimDetailInfoOuterClass.AlchemySimDetailInfo.Builder.class);
     }
 
-    public static final int HPMKGGONKGP_FIELD_NUMBER = 1;
+    public static final int HPMKGGONKGP_FIELD_NUMBER = 50000;
     private emu.grasscutter.net.proto.GIMNDGBLHNLOuterClass.GIMNDGBLHNL hpmkggonkgp_;
     /**
-     * <code>.GIMNDGBLHNL hpmkggonkgp = 1;</code>
+     * <code>.GIMNDGBLHNL hpmkggonkgp = 50000;</code>
      * @return Whether the hpmkggonkgp field is set.
      */
     @java.lang.Override
@@ -377,7 +377,7 @@ public final class AlchemySimDetailInfoOuterClass {
       return hpmkggonkgp_ != null;
     }
     /**
-     * <code>.GIMNDGBLHNL hpmkggonkgp = 1;</code>
+     * <code>.GIMNDGBLHNL hpmkggonkgp = 50000;</code>
      * @return The hpmkggonkgp.
      */
     @java.lang.Override
@@ -385,17 +385,17 @@ public final class AlchemySimDetailInfoOuterClass {
       return hpmkggonkgp_ == null ? emu.grasscutter.net.proto.GIMNDGBLHNLOuterClass.GIMNDGBLHNL.getDefaultInstance() : hpmkggonkgp_;
     }
     /**
-     * <code>.GIMNDGBLHNL hpmkggonkgp = 1;</code>
+     * <code>.GIMNDGBLHNL hpmkggonkgp = 50000;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.GIMNDGBLHNLOuterClass.GIMNDGBLHNLOrBuilder getHpmkggonkgpOrBuilder() {
       return getHpmkggonkgp();
     }
 
-    public static final int HKKINPGDEPC_FIELD_NUMBER = 2;
+    public static final int HKKINPGDEPC_FIELD_NUMBER = 50001;
     private emu.grasscutter.net.proto.GJFNDOODMCBOuterClass.GJFNDOODMCB hkkinpgdepc_;
     /**
-     * <code>.GJFNDOODMCB hkkinpgdepc = 2;</code>
+     * <code>.GJFNDOODMCB hkkinpgdepc = 50001;</code>
      * @return Whether the hkkinpgdepc field is set.
      */
     @java.lang.Override
@@ -403,7 +403,7 @@ public final class AlchemySimDetailInfoOuterClass {
       return hkkinpgdepc_ != null;
     }
     /**
-     * <code>.GJFNDOODMCB hkkinpgdepc = 2;</code>
+     * <code>.GJFNDOODMCB hkkinpgdepc = 50001;</code>
      * @return The hkkinpgdepc.
      */
     @java.lang.Override
@@ -411,17 +411,17 @@ public final class AlchemySimDetailInfoOuterClass {
       return hkkinpgdepc_ == null ? emu.grasscutter.net.proto.GJFNDOODMCBOuterClass.GJFNDOODMCB.getDefaultInstance() : hkkinpgdepc_;
     }
     /**
-     * <code>.GJFNDOODMCB hkkinpgdepc = 2;</code>
+     * <code>.GJFNDOODMCB hkkinpgdepc = 50001;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.GJFNDOODMCBOuterClass.GJFNDOODMCBOrBuilder getHkkinpgdepcOrBuilder() {
       return getHkkinpgdepc();
     }
 
-    public static final int BJLMKGHFMDA_FIELD_NUMBER = 4;
+    public static final int BJLMKGHFMDA_FIELD_NUMBER = 15;
     private emu.grasscutter.net.proto.MKJLLPCIMCMOuterClass.MKJLLPCIMCM bJLMKGHFMDA_;
     /**
-     * <code>.MKJLLPCIMCM BJLMKGHFMDA = 4;</code>
+     * <code>.MKJLLPCIMCM BJLMKGHFMDA = 15;</code>
      * @return Whether the bJLMKGHFMDA field is set.
      */
     @java.lang.Override
@@ -429,7 +429,7 @@ public final class AlchemySimDetailInfoOuterClass {
       return bJLMKGHFMDA_ != null;
     }
     /**
-     * <code>.MKJLLPCIMCM BJLMKGHFMDA = 4;</code>
+     * <code>.MKJLLPCIMCM BJLMKGHFMDA = 15;</code>
      * @return The bJLMKGHFMDA.
      */
     @java.lang.Override
@@ -437,17 +437,17 @@ public final class AlchemySimDetailInfoOuterClass {
       return bJLMKGHFMDA_ == null ? emu.grasscutter.net.proto.MKJLLPCIMCMOuterClass.MKJLLPCIMCM.getDefaultInstance() : bJLMKGHFMDA_;
     }
     /**
-     * <code>.MKJLLPCIMCM BJLMKGHFMDA = 4;</code>
+     * <code>.MKJLLPCIMCM BJLMKGHFMDA = 15;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.MKJLLPCIMCMOuterClass.MKJLLPCIMCMOrBuilder getBJLMKGHFMDAOrBuilder() {
       return getBJLMKGHFMDA();
     }
 
-    public static final int PMMPDHCPONP_FIELD_NUMBER = 5;
+    public static final int PMMPDHCPONP_FIELD_NUMBER = 14;
     private emu.grasscutter.net.proto.CKFHELMIGOPOuterClass.CKFHELMIGOP pMMPDHCPONP_;
     /**
-     * <code>.CKFHELMIGOP PMMPDHCPONP = 5;</code>
+     * <code>.CKFHELMIGOP PMMPDHCPONP = 14;</code>
      * @return Whether the pMMPDHCPONP field is set.
      */
     @java.lang.Override
@@ -455,7 +455,7 @@ public final class AlchemySimDetailInfoOuterClass {
       return pMMPDHCPONP_ != null;
     }
     /**
-     * <code>.CKFHELMIGOP PMMPDHCPONP = 5;</code>
+     * <code>.CKFHELMIGOP PMMPDHCPONP = 14;</code>
      * @return The pMMPDHCPONP.
      */
     @java.lang.Override
@@ -463,17 +463,17 @@ public final class AlchemySimDetailInfoOuterClass {
       return pMMPDHCPONP_ == null ? emu.grasscutter.net.proto.CKFHELMIGOPOuterClass.CKFHELMIGOP.getDefaultInstance() : pMMPDHCPONP_;
     }
     /**
-     * <code>.CKFHELMIGOP PMMPDHCPONP = 5;</code>
+     * <code>.CKFHELMIGOP PMMPDHCPONP = 14;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.CKFHELMIGOPOuterClass.CKFHELMIGOPOrBuilder getPMMPDHCPONPOrBuilder() {
       return getPMMPDHCPONP();
     }
 
-    public static final int BASIC_INFO_FIELD_NUMBER = 6;
+    public static final int BASIC_INFO_FIELD_NUMBER = 11;
     private emu.grasscutter.net.proto.BBCHHKCMIOJOuterClass.BBCHHKCMIOJ basicInfo_;
     /**
-     * <code>.BBCHHKCMIOJ basic_info = 6;</code>
+     * <code>.BBCHHKCMIOJ basic_info = 11;</code>
      * @return Whether the basicInfo field is set.
      */
     @java.lang.Override
@@ -481,7 +481,7 @@ public final class AlchemySimDetailInfoOuterClass {
       return basicInfo_ != null;
     }
     /**
-     * <code>.BBCHHKCMIOJ basic_info = 6;</code>
+     * <code>.BBCHHKCMIOJ basic_info = 11;</code>
      * @return The basicInfo.
      */
     @java.lang.Override
@@ -489,24 +489,24 @@ public final class AlchemySimDetailInfoOuterClass {
       return basicInfo_ == null ? emu.grasscutter.net.proto.BBCHHKCMIOJOuterClass.BBCHHKCMIOJ.getDefaultInstance() : basicInfo_;
     }
     /**
-     * <code>.BBCHHKCMIOJ basic_info = 6;</code>
+     * <code>.BBCHHKCMIOJ basic_info = 11;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.BBCHHKCMIOJOuterClass.BBCHHKCMIOJOrBuilder getBasicInfoOrBuilder() {
       return getBasicInfo();
     }
 
-    public static final int NLKBEFDOFKN_FIELD_NUMBER = 7;
+    public static final int NLKBEFDOFKN_FIELD_NUMBER = 50002;
     private java.util.List<emu.grasscutter.net.proto.LGNCGIEICJJOuterClass.LGNCGIEICJJ> nLKBEFDOFKN_;
     /**
-     * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 7;</code>
+     * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 50002;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.LGNCGIEICJJOuterClass.LGNCGIEICJJ> getNLKBEFDOFKNList() {
       return nLKBEFDOFKN_;
     }
     /**
-     * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 7;</code>
+     * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 50002;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.LGNCGIEICJJOuterClass.LGNCGIEICJJOrBuilder> 
@@ -514,21 +514,21 @@ public final class AlchemySimDetailInfoOuterClass {
       return nLKBEFDOFKN_;
     }
     /**
-     * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 7;</code>
+     * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 50002;</code>
      */
     @java.lang.Override
     public int getNLKBEFDOFKNCount() {
       return nLKBEFDOFKN_.size();
     }
     /**
-     * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 7;</code>
+     * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 50002;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.LGNCGIEICJJOuterClass.LGNCGIEICJJ getNLKBEFDOFKN(int index) {
       return nLKBEFDOFKN_.get(index);
     }
     /**
-     * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 7;</code>
+     * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 50002;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.LGNCGIEICJJOuterClass.LGNCGIEICJJOrBuilder getNLKBEFDOFKNOrBuilder(
@@ -536,17 +536,17 @@ public final class AlchemySimDetailInfoOuterClass {
       return nLKBEFDOFKN_.get(index);
     }
 
-    public static final int CCKABEMPMAP_FIELD_NUMBER = 8;
+    public static final int CCKABEMPMAP_FIELD_NUMBER = 2;
     private java.util.List<emu.grasscutter.net.proto.CDOHBLNEKCJOuterClass.CDOHBLNEKCJ> cCKABEMPMAP_;
     /**
-     * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 8;</code>
+     * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 2;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.CDOHBLNEKCJOuterClass.CDOHBLNEKCJ> getCCKABEMPMAPList() {
       return cCKABEMPMAP_;
     }
     /**
-     * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 8;</code>
+     * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 2;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.CDOHBLNEKCJOuterClass.CDOHBLNEKCJOrBuilder> 
@@ -554,21 +554,21 @@ public final class AlchemySimDetailInfoOuterClass {
       return cCKABEMPMAP_;
     }
     /**
-     * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 8;</code>
+     * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 2;</code>
      */
     @java.lang.Override
     public int getCCKABEMPMAPCount() {
       return cCKABEMPMAP_.size();
     }
     /**
-     * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 8;</code>
+     * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 2;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.CDOHBLNEKCJOuterClass.CDOHBLNEKCJ getCCKABEMPMAP(int index) {
       return cCKABEMPMAP_.get(index);
     }
     /**
-     * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 8;</code>
+     * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 2;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.CDOHBLNEKCJOuterClass.CDOHBLNEKCJOrBuilder getCCKABEMPMAPOrBuilder(
@@ -576,10 +576,10 @@ public final class AlchemySimDetailInfoOuterClass {
       return cCKABEMPMAP_.get(index);
     }
 
-    public static final int HAHNBKEDICK_FIELD_NUMBER = 11;
+    public static final int HAHNBKEDICK_FIELD_NUMBER = 50003;
     private emu.grasscutter.net.proto.INNBIIAMPIJOuterClass.INNBIIAMPIJ hahnbkedick_;
     /**
-     * <code>.INNBIIAMPIJ hahnbkedick = 11;</code>
+     * <code>.INNBIIAMPIJ hahnbkedick = 50003;</code>
      * @return Whether the hahnbkedick field is set.
      */
     @java.lang.Override
@@ -587,7 +587,7 @@ public final class AlchemySimDetailInfoOuterClass {
       return hahnbkedick_ != null;
     }
     /**
-     * <code>.INNBIIAMPIJ hahnbkedick = 11;</code>
+     * <code>.INNBIIAMPIJ hahnbkedick = 50003;</code>
      * @return The hahnbkedick.
      */
     @java.lang.Override
@@ -595,17 +595,17 @@ public final class AlchemySimDetailInfoOuterClass {
       return hahnbkedick_ == null ? emu.grasscutter.net.proto.INNBIIAMPIJOuterClass.INNBIIAMPIJ.getDefaultInstance() : hahnbkedick_;
     }
     /**
-     * <code>.INNBIIAMPIJ hahnbkedick = 11;</code>
+     * <code>.INNBIIAMPIJ hahnbkedick = 50003;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.INNBIIAMPIJOuterClass.INNBIIAMPIJOrBuilder getHahnbkedickOrBuilder() {
       return getHahnbkedick();
     }
 
-    public static final int KLIJBFPJEDF_FIELD_NUMBER = 12;
+    public static final int KLIJBFPJEDF_FIELD_NUMBER = 50004;
     private emu.grasscutter.net.proto.HMNAKLDLGGFOuterClass.HMNAKLDLGGF kLIJBFPJEDF_;
     /**
-     * <code>.HMNAKLDLGGF KLIJBFPJEDF = 12;</code>
+     * <code>.HMNAKLDLGGF KLIJBFPJEDF = 50004;</code>
      * @return Whether the kLIJBFPJEDF field is set.
      */
     @java.lang.Override
@@ -613,7 +613,7 @@ public final class AlchemySimDetailInfoOuterClass {
       return kLIJBFPJEDF_ != null;
     }
     /**
-     * <code>.HMNAKLDLGGF KLIJBFPJEDF = 12;</code>
+     * <code>.HMNAKLDLGGF KLIJBFPJEDF = 50004;</code>
      * @return The kLIJBFPJEDF.
      */
     @java.lang.Override
@@ -621,7 +621,7 @@ public final class AlchemySimDetailInfoOuterClass {
       return kLIJBFPJEDF_ == null ? emu.grasscutter.net.proto.HMNAKLDLGGFOuterClass.HMNAKLDLGGF.getDefaultInstance() : kLIJBFPJEDF_;
     }
     /**
-     * <code>.HMNAKLDLGGF KLIJBFPJEDF = 12;</code>
+     * <code>.HMNAKLDLGGF KLIJBFPJEDF = 50004;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.HMNAKLDLGGFOuterClass.HMNAKLDLGGFOrBuilder getKLIJBFPJEDFOrBuilder() {
@@ -642,32 +642,32 @@ public final class AlchemySimDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (hpmkggonkgp_ != null) {
-        output.writeMessage(1, getHpmkggonkgp());
-      }
-      if (hkkinpgdepc_ != null) {
-        output.writeMessage(2, getHkkinpgdepc());
-      }
-      if (bJLMKGHFMDA_ != null) {
-        output.writeMessage(4, getBJLMKGHFMDA());
-      }
-      if (pMMPDHCPONP_ != null) {
-        output.writeMessage(5, getPMMPDHCPONP());
+      for (int i = 0; i < cCKABEMPMAP_.size(); i++) {
+        output.writeMessage(2, cCKABEMPMAP_.get(i));
       }
       if (basicInfo_ != null) {
-        output.writeMessage(6, getBasicInfo());
+        output.writeMessage(11, getBasicInfo());
+      }
+      if (pMMPDHCPONP_ != null) {
+        output.writeMessage(14, getPMMPDHCPONP());
+      }
+      if (bJLMKGHFMDA_ != null) {
+        output.writeMessage(15, getBJLMKGHFMDA());
+      }
+      if (hpmkggonkgp_ != null) {
+        output.writeMessage(50000, getHpmkggonkgp());
+      }
+      if (hkkinpgdepc_ != null) {
+        output.writeMessage(50001, getHkkinpgdepc());
       }
       for (int i = 0; i < nLKBEFDOFKN_.size(); i++) {
-        output.writeMessage(7, nLKBEFDOFKN_.get(i));
-      }
-      for (int i = 0; i < cCKABEMPMAP_.size(); i++) {
-        output.writeMessage(8, cCKABEMPMAP_.get(i));
+        output.writeMessage(50002, nLKBEFDOFKN_.get(i));
       }
       if (hahnbkedick_ != null) {
-        output.writeMessage(11, getHahnbkedick());
+        output.writeMessage(50003, getHahnbkedick());
       }
       if (kLIJBFPJEDF_ != null) {
-        output.writeMessage(12, getKLIJBFPJEDF());
+        output.writeMessage(50004, getKLIJBFPJEDF());
       }
       unknownFields.writeTo(output);
     }
@@ -678,41 +678,41 @@ public final class AlchemySimDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (hpmkggonkgp_ != null) {
+      for (int i = 0; i < cCKABEMPMAP_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, getHpmkggonkgp());
-      }
-      if (hkkinpgdepc_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, getHkkinpgdepc());
-      }
-      if (bJLMKGHFMDA_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, getBJLMKGHFMDA());
-      }
-      if (pMMPDHCPONP_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, getPMMPDHCPONP());
+          .computeMessageSize(2, cCKABEMPMAP_.get(i));
       }
       if (basicInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, getBasicInfo());
+          .computeMessageSize(11, getBasicInfo());
+      }
+      if (pMMPDHCPONP_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(14, getPMMPDHCPONP());
+      }
+      if (bJLMKGHFMDA_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(15, getBJLMKGHFMDA());
+      }
+      if (hpmkggonkgp_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(50000, getHpmkggonkgp());
+      }
+      if (hkkinpgdepc_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(50001, getHkkinpgdepc());
       }
       for (int i = 0; i < nLKBEFDOFKN_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, nLKBEFDOFKN_.get(i));
-      }
-      for (int i = 0; i < cCKABEMPMAP_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, cCKABEMPMAP_.get(i));
+          .computeMessageSize(50002, nLKBEFDOFKN_.get(i));
       }
       if (hahnbkedick_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, getHahnbkedick());
+          .computeMessageSize(50003, getHahnbkedick());
       }
       if (kLIJBFPJEDF_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, getKLIJBFPJEDF());
+          .computeMessageSize(50004, getKLIJBFPJEDF());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1239,14 +1239,14 @@ public final class AlchemySimDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.GIMNDGBLHNLOuterClass.GIMNDGBLHNL, emu.grasscutter.net.proto.GIMNDGBLHNLOuterClass.GIMNDGBLHNL.Builder, emu.grasscutter.net.proto.GIMNDGBLHNLOuterClass.GIMNDGBLHNLOrBuilder> hpmkggonkgpBuilder_;
       /**
-       * <code>.GIMNDGBLHNL hpmkggonkgp = 1;</code>
+       * <code>.GIMNDGBLHNL hpmkggonkgp = 50000;</code>
        * @return Whether the hpmkggonkgp field is set.
        */
       public boolean hasHpmkggonkgp() {
         return hpmkggonkgpBuilder_ != null || hpmkggonkgp_ != null;
       }
       /**
-       * <code>.GIMNDGBLHNL hpmkggonkgp = 1;</code>
+       * <code>.GIMNDGBLHNL hpmkggonkgp = 50000;</code>
        * @return The hpmkggonkgp.
        */
       public emu.grasscutter.net.proto.GIMNDGBLHNLOuterClass.GIMNDGBLHNL getHpmkggonkgp() {
@@ -1257,7 +1257,7 @@ public final class AlchemySimDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.GIMNDGBLHNL hpmkggonkgp = 1;</code>
+       * <code>.GIMNDGBLHNL hpmkggonkgp = 50000;</code>
        */
       public Builder setHpmkggonkgp(emu.grasscutter.net.proto.GIMNDGBLHNLOuterClass.GIMNDGBLHNL value) {
         if (hpmkggonkgpBuilder_ == null) {
@@ -1273,7 +1273,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.GIMNDGBLHNL hpmkggonkgp = 1;</code>
+       * <code>.GIMNDGBLHNL hpmkggonkgp = 50000;</code>
        */
       public Builder setHpmkggonkgp(
           emu.grasscutter.net.proto.GIMNDGBLHNLOuterClass.GIMNDGBLHNL.Builder builderForValue) {
@@ -1287,7 +1287,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.GIMNDGBLHNL hpmkggonkgp = 1;</code>
+       * <code>.GIMNDGBLHNL hpmkggonkgp = 50000;</code>
        */
       public Builder mergeHpmkggonkgp(emu.grasscutter.net.proto.GIMNDGBLHNLOuterClass.GIMNDGBLHNL value) {
         if (hpmkggonkgpBuilder_ == null) {
@@ -1305,7 +1305,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.GIMNDGBLHNL hpmkggonkgp = 1;</code>
+       * <code>.GIMNDGBLHNL hpmkggonkgp = 50000;</code>
        */
       public Builder clearHpmkggonkgp() {
         if (hpmkggonkgpBuilder_ == null) {
@@ -1319,7 +1319,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.GIMNDGBLHNL hpmkggonkgp = 1;</code>
+       * <code>.GIMNDGBLHNL hpmkggonkgp = 50000;</code>
        */
       public emu.grasscutter.net.proto.GIMNDGBLHNLOuterClass.GIMNDGBLHNL.Builder getHpmkggonkgpBuilder() {
         
@@ -1327,7 +1327,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return getHpmkggonkgpFieldBuilder().getBuilder();
       }
       /**
-       * <code>.GIMNDGBLHNL hpmkggonkgp = 1;</code>
+       * <code>.GIMNDGBLHNL hpmkggonkgp = 50000;</code>
        */
       public emu.grasscutter.net.proto.GIMNDGBLHNLOuterClass.GIMNDGBLHNLOrBuilder getHpmkggonkgpOrBuilder() {
         if (hpmkggonkgpBuilder_ != null) {
@@ -1338,7 +1338,7 @@ public final class AlchemySimDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.GIMNDGBLHNL hpmkggonkgp = 1;</code>
+       * <code>.GIMNDGBLHNL hpmkggonkgp = 50000;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.GIMNDGBLHNLOuterClass.GIMNDGBLHNL, emu.grasscutter.net.proto.GIMNDGBLHNLOuterClass.GIMNDGBLHNL.Builder, emu.grasscutter.net.proto.GIMNDGBLHNLOuterClass.GIMNDGBLHNLOrBuilder> 
@@ -1358,14 +1358,14 @@ public final class AlchemySimDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.GJFNDOODMCBOuterClass.GJFNDOODMCB, emu.grasscutter.net.proto.GJFNDOODMCBOuterClass.GJFNDOODMCB.Builder, emu.grasscutter.net.proto.GJFNDOODMCBOuterClass.GJFNDOODMCBOrBuilder> hkkinpgdepcBuilder_;
       /**
-       * <code>.GJFNDOODMCB hkkinpgdepc = 2;</code>
+       * <code>.GJFNDOODMCB hkkinpgdepc = 50001;</code>
        * @return Whether the hkkinpgdepc field is set.
        */
       public boolean hasHkkinpgdepc() {
         return hkkinpgdepcBuilder_ != null || hkkinpgdepc_ != null;
       }
       /**
-       * <code>.GJFNDOODMCB hkkinpgdepc = 2;</code>
+       * <code>.GJFNDOODMCB hkkinpgdepc = 50001;</code>
        * @return The hkkinpgdepc.
        */
       public emu.grasscutter.net.proto.GJFNDOODMCBOuterClass.GJFNDOODMCB getHkkinpgdepc() {
@@ -1376,7 +1376,7 @@ public final class AlchemySimDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.GJFNDOODMCB hkkinpgdepc = 2;</code>
+       * <code>.GJFNDOODMCB hkkinpgdepc = 50001;</code>
        */
       public Builder setHkkinpgdepc(emu.grasscutter.net.proto.GJFNDOODMCBOuterClass.GJFNDOODMCB value) {
         if (hkkinpgdepcBuilder_ == null) {
@@ -1392,7 +1392,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.GJFNDOODMCB hkkinpgdepc = 2;</code>
+       * <code>.GJFNDOODMCB hkkinpgdepc = 50001;</code>
        */
       public Builder setHkkinpgdepc(
           emu.grasscutter.net.proto.GJFNDOODMCBOuterClass.GJFNDOODMCB.Builder builderForValue) {
@@ -1406,7 +1406,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.GJFNDOODMCB hkkinpgdepc = 2;</code>
+       * <code>.GJFNDOODMCB hkkinpgdepc = 50001;</code>
        */
       public Builder mergeHkkinpgdepc(emu.grasscutter.net.proto.GJFNDOODMCBOuterClass.GJFNDOODMCB value) {
         if (hkkinpgdepcBuilder_ == null) {
@@ -1424,7 +1424,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.GJFNDOODMCB hkkinpgdepc = 2;</code>
+       * <code>.GJFNDOODMCB hkkinpgdepc = 50001;</code>
        */
       public Builder clearHkkinpgdepc() {
         if (hkkinpgdepcBuilder_ == null) {
@@ -1438,7 +1438,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.GJFNDOODMCB hkkinpgdepc = 2;</code>
+       * <code>.GJFNDOODMCB hkkinpgdepc = 50001;</code>
        */
       public emu.grasscutter.net.proto.GJFNDOODMCBOuterClass.GJFNDOODMCB.Builder getHkkinpgdepcBuilder() {
         
@@ -1446,7 +1446,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return getHkkinpgdepcFieldBuilder().getBuilder();
       }
       /**
-       * <code>.GJFNDOODMCB hkkinpgdepc = 2;</code>
+       * <code>.GJFNDOODMCB hkkinpgdepc = 50001;</code>
        */
       public emu.grasscutter.net.proto.GJFNDOODMCBOuterClass.GJFNDOODMCBOrBuilder getHkkinpgdepcOrBuilder() {
         if (hkkinpgdepcBuilder_ != null) {
@@ -1457,7 +1457,7 @@ public final class AlchemySimDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.GJFNDOODMCB hkkinpgdepc = 2;</code>
+       * <code>.GJFNDOODMCB hkkinpgdepc = 50001;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.GJFNDOODMCBOuterClass.GJFNDOODMCB, emu.grasscutter.net.proto.GJFNDOODMCBOuterClass.GJFNDOODMCB.Builder, emu.grasscutter.net.proto.GJFNDOODMCBOuterClass.GJFNDOODMCBOrBuilder> 
@@ -1477,14 +1477,14 @@ public final class AlchemySimDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.MKJLLPCIMCMOuterClass.MKJLLPCIMCM, emu.grasscutter.net.proto.MKJLLPCIMCMOuterClass.MKJLLPCIMCM.Builder, emu.grasscutter.net.proto.MKJLLPCIMCMOuterClass.MKJLLPCIMCMOrBuilder> bJLMKGHFMDABuilder_;
       /**
-       * <code>.MKJLLPCIMCM BJLMKGHFMDA = 4;</code>
+       * <code>.MKJLLPCIMCM BJLMKGHFMDA = 15;</code>
        * @return Whether the bJLMKGHFMDA field is set.
        */
       public boolean hasBJLMKGHFMDA() {
         return bJLMKGHFMDABuilder_ != null || bJLMKGHFMDA_ != null;
       }
       /**
-       * <code>.MKJLLPCIMCM BJLMKGHFMDA = 4;</code>
+       * <code>.MKJLLPCIMCM BJLMKGHFMDA = 15;</code>
        * @return The bJLMKGHFMDA.
        */
       public emu.grasscutter.net.proto.MKJLLPCIMCMOuterClass.MKJLLPCIMCM getBJLMKGHFMDA() {
@@ -1495,7 +1495,7 @@ public final class AlchemySimDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.MKJLLPCIMCM BJLMKGHFMDA = 4;</code>
+       * <code>.MKJLLPCIMCM BJLMKGHFMDA = 15;</code>
        */
       public Builder setBJLMKGHFMDA(emu.grasscutter.net.proto.MKJLLPCIMCMOuterClass.MKJLLPCIMCM value) {
         if (bJLMKGHFMDABuilder_ == null) {
@@ -1511,7 +1511,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.MKJLLPCIMCM BJLMKGHFMDA = 4;</code>
+       * <code>.MKJLLPCIMCM BJLMKGHFMDA = 15;</code>
        */
       public Builder setBJLMKGHFMDA(
           emu.grasscutter.net.proto.MKJLLPCIMCMOuterClass.MKJLLPCIMCM.Builder builderForValue) {
@@ -1525,7 +1525,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.MKJLLPCIMCM BJLMKGHFMDA = 4;</code>
+       * <code>.MKJLLPCIMCM BJLMKGHFMDA = 15;</code>
        */
       public Builder mergeBJLMKGHFMDA(emu.grasscutter.net.proto.MKJLLPCIMCMOuterClass.MKJLLPCIMCM value) {
         if (bJLMKGHFMDABuilder_ == null) {
@@ -1543,7 +1543,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.MKJLLPCIMCM BJLMKGHFMDA = 4;</code>
+       * <code>.MKJLLPCIMCM BJLMKGHFMDA = 15;</code>
        */
       public Builder clearBJLMKGHFMDA() {
         if (bJLMKGHFMDABuilder_ == null) {
@@ -1557,7 +1557,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.MKJLLPCIMCM BJLMKGHFMDA = 4;</code>
+       * <code>.MKJLLPCIMCM BJLMKGHFMDA = 15;</code>
        */
       public emu.grasscutter.net.proto.MKJLLPCIMCMOuterClass.MKJLLPCIMCM.Builder getBJLMKGHFMDABuilder() {
         
@@ -1565,7 +1565,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return getBJLMKGHFMDAFieldBuilder().getBuilder();
       }
       /**
-       * <code>.MKJLLPCIMCM BJLMKGHFMDA = 4;</code>
+       * <code>.MKJLLPCIMCM BJLMKGHFMDA = 15;</code>
        */
       public emu.grasscutter.net.proto.MKJLLPCIMCMOuterClass.MKJLLPCIMCMOrBuilder getBJLMKGHFMDAOrBuilder() {
         if (bJLMKGHFMDABuilder_ != null) {
@@ -1576,7 +1576,7 @@ public final class AlchemySimDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.MKJLLPCIMCM BJLMKGHFMDA = 4;</code>
+       * <code>.MKJLLPCIMCM BJLMKGHFMDA = 15;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.MKJLLPCIMCMOuterClass.MKJLLPCIMCM, emu.grasscutter.net.proto.MKJLLPCIMCMOuterClass.MKJLLPCIMCM.Builder, emu.grasscutter.net.proto.MKJLLPCIMCMOuterClass.MKJLLPCIMCMOrBuilder> 
@@ -1596,14 +1596,14 @@ public final class AlchemySimDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.CKFHELMIGOPOuterClass.CKFHELMIGOP, emu.grasscutter.net.proto.CKFHELMIGOPOuterClass.CKFHELMIGOP.Builder, emu.grasscutter.net.proto.CKFHELMIGOPOuterClass.CKFHELMIGOPOrBuilder> pMMPDHCPONPBuilder_;
       /**
-       * <code>.CKFHELMIGOP PMMPDHCPONP = 5;</code>
+       * <code>.CKFHELMIGOP PMMPDHCPONP = 14;</code>
        * @return Whether the pMMPDHCPONP field is set.
        */
       public boolean hasPMMPDHCPONP() {
         return pMMPDHCPONPBuilder_ != null || pMMPDHCPONP_ != null;
       }
       /**
-       * <code>.CKFHELMIGOP PMMPDHCPONP = 5;</code>
+       * <code>.CKFHELMIGOP PMMPDHCPONP = 14;</code>
        * @return The pMMPDHCPONP.
        */
       public emu.grasscutter.net.proto.CKFHELMIGOPOuterClass.CKFHELMIGOP getPMMPDHCPONP() {
@@ -1614,7 +1614,7 @@ public final class AlchemySimDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.CKFHELMIGOP PMMPDHCPONP = 5;</code>
+       * <code>.CKFHELMIGOP PMMPDHCPONP = 14;</code>
        */
       public Builder setPMMPDHCPONP(emu.grasscutter.net.proto.CKFHELMIGOPOuterClass.CKFHELMIGOP value) {
         if (pMMPDHCPONPBuilder_ == null) {
@@ -1630,7 +1630,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.CKFHELMIGOP PMMPDHCPONP = 5;</code>
+       * <code>.CKFHELMIGOP PMMPDHCPONP = 14;</code>
        */
       public Builder setPMMPDHCPONP(
           emu.grasscutter.net.proto.CKFHELMIGOPOuterClass.CKFHELMIGOP.Builder builderForValue) {
@@ -1644,7 +1644,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.CKFHELMIGOP PMMPDHCPONP = 5;</code>
+       * <code>.CKFHELMIGOP PMMPDHCPONP = 14;</code>
        */
       public Builder mergePMMPDHCPONP(emu.grasscutter.net.proto.CKFHELMIGOPOuterClass.CKFHELMIGOP value) {
         if (pMMPDHCPONPBuilder_ == null) {
@@ -1662,7 +1662,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.CKFHELMIGOP PMMPDHCPONP = 5;</code>
+       * <code>.CKFHELMIGOP PMMPDHCPONP = 14;</code>
        */
       public Builder clearPMMPDHCPONP() {
         if (pMMPDHCPONPBuilder_ == null) {
@@ -1676,7 +1676,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.CKFHELMIGOP PMMPDHCPONP = 5;</code>
+       * <code>.CKFHELMIGOP PMMPDHCPONP = 14;</code>
        */
       public emu.grasscutter.net.proto.CKFHELMIGOPOuterClass.CKFHELMIGOP.Builder getPMMPDHCPONPBuilder() {
         
@@ -1684,7 +1684,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return getPMMPDHCPONPFieldBuilder().getBuilder();
       }
       /**
-       * <code>.CKFHELMIGOP PMMPDHCPONP = 5;</code>
+       * <code>.CKFHELMIGOP PMMPDHCPONP = 14;</code>
        */
       public emu.grasscutter.net.proto.CKFHELMIGOPOuterClass.CKFHELMIGOPOrBuilder getPMMPDHCPONPOrBuilder() {
         if (pMMPDHCPONPBuilder_ != null) {
@@ -1695,7 +1695,7 @@ public final class AlchemySimDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.CKFHELMIGOP PMMPDHCPONP = 5;</code>
+       * <code>.CKFHELMIGOP PMMPDHCPONP = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.CKFHELMIGOPOuterClass.CKFHELMIGOP, emu.grasscutter.net.proto.CKFHELMIGOPOuterClass.CKFHELMIGOP.Builder, emu.grasscutter.net.proto.CKFHELMIGOPOuterClass.CKFHELMIGOPOrBuilder> 
@@ -1715,14 +1715,14 @@ public final class AlchemySimDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.BBCHHKCMIOJOuterClass.BBCHHKCMIOJ, emu.grasscutter.net.proto.BBCHHKCMIOJOuterClass.BBCHHKCMIOJ.Builder, emu.grasscutter.net.proto.BBCHHKCMIOJOuterClass.BBCHHKCMIOJOrBuilder> basicInfoBuilder_;
       /**
-       * <code>.BBCHHKCMIOJ basic_info = 6;</code>
+       * <code>.BBCHHKCMIOJ basic_info = 11;</code>
        * @return Whether the basicInfo field is set.
        */
       public boolean hasBasicInfo() {
         return basicInfoBuilder_ != null || basicInfo_ != null;
       }
       /**
-       * <code>.BBCHHKCMIOJ basic_info = 6;</code>
+       * <code>.BBCHHKCMIOJ basic_info = 11;</code>
        * @return The basicInfo.
        */
       public emu.grasscutter.net.proto.BBCHHKCMIOJOuterClass.BBCHHKCMIOJ getBasicInfo() {
@@ -1733,7 +1733,7 @@ public final class AlchemySimDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.BBCHHKCMIOJ basic_info = 6;</code>
+       * <code>.BBCHHKCMIOJ basic_info = 11;</code>
        */
       public Builder setBasicInfo(emu.grasscutter.net.proto.BBCHHKCMIOJOuterClass.BBCHHKCMIOJ value) {
         if (basicInfoBuilder_ == null) {
@@ -1749,7 +1749,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.BBCHHKCMIOJ basic_info = 6;</code>
+       * <code>.BBCHHKCMIOJ basic_info = 11;</code>
        */
       public Builder setBasicInfo(
           emu.grasscutter.net.proto.BBCHHKCMIOJOuterClass.BBCHHKCMIOJ.Builder builderForValue) {
@@ -1763,7 +1763,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.BBCHHKCMIOJ basic_info = 6;</code>
+       * <code>.BBCHHKCMIOJ basic_info = 11;</code>
        */
       public Builder mergeBasicInfo(emu.grasscutter.net.proto.BBCHHKCMIOJOuterClass.BBCHHKCMIOJ value) {
         if (basicInfoBuilder_ == null) {
@@ -1781,7 +1781,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.BBCHHKCMIOJ basic_info = 6;</code>
+       * <code>.BBCHHKCMIOJ basic_info = 11;</code>
        */
       public Builder clearBasicInfo() {
         if (basicInfoBuilder_ == null) {
@@ -1795,7 +1795,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.BBCHHKCMIOJ basic_info = 6;</code>
+       * <code>.BBCHHKCMIOJ basic_info = 11;</code>
        */
       public emu.grasscutter.net.proto.BBCHHKCMIOJOuterClass.BBCHHKCMIOJ.Builder getBasicInfoBuilder() {
         
@@ -1803,7 +1803,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return getBasicInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>.BBCHHKCMIOJ basic_info = 6;</code>
+       * <code>.BBCHHKCMIOJ basic_info = 11;</code>
        */
       public emu.grasscutter.net.proto.BBCHHKCMIOJOuterClass.BBCHHKCMIOJOrBuilder getBasicInfoOrBuilder() {
         if (basicInfoBuilder_ != null) {
@@ -1814,7 +1814,7 @@ public final class AlchemySimDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.BBCHHKCMIOJ basic_info = 6;</code>
+       * <code>.BBCHHKCMIOJ basic_info = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.BBCHHKCMIOJOuterClass.BBCHHKCMIOJ, emu.grasscutter.net.proto.BBCHHKCMIOJOuterClass.BBCHHKCMIOJ.Builder, emu.grasscutter.net.proto.BBCHHKCMIOJOuterClass.BBCHHKCMIOJOrBuilder> 
@@ -1843,7 +1843,7 @@ public final class AlchemySimDetailInfoOuterClass {
           emu.grasscutter.net.proto.LGNCGIEICJJOuterClass.LGNCGIEICJJ, emu.grasscutter.net.proto.LGNCGIEICJJOuterClass.LGNCGIEICJJ.Builder, emu.grasscutter.net.proto.LGNCGIEICJJOuterClass.LGNCGIEICJJOrBuilder> nLKBEFDOFKNBuilder_;
 
       /**
-       * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 7;</code>
+       * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 50002;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.LGNCGIEICJJOuterClass.LGNCGIEICJJ> getNLKBEFDOFKNList() {
         if (nLKBEFDOFKNBuilder_ == null) {
@@ -1853,7 +1853,7 @@ public final class AlchemySimDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 7;</code>
+       * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 50002;</code>
        */
       public int getNLKBEFDOFKNCount() {
         if (nLKBEFDOFKNBuilder_ == null) {
@@ -1863,7 +1863,7 @@ public final class AlchemySimDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 7;</code>
+       * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 50002;</code>
        */
       public emu.grasscutter.net.proto.LGNCGIEICJJOuterClass.LGNCGIEICJJ getNLKBEFDOFKN(int index) {
         if (nLKBEFDOFKNBuilder_ == null) {
@@ -1873,7 +1873,7 @@ public final class AlchemySimDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 7;</code>
+       * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 50002;</code>
        */
       public Builder setNLKBEFDOFKN(
           int index, emu.grasscutter.net.proto.LGNCGIEICJJOuterClass.LGNCGIEICJJ value) {
@@ -1890,7 +1890,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 7;</code>
+       * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 50002;</code>
        */
       public Builder setNLKBEFDOFKN(
           int index, emu.grasscutter.net.proto.LGNCGIEICJJOuterClass.LGNCGIEICJJ.Builder builderForValue) {
@@ -1904,7 +1904,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 7;</code>
+       * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 50002;</code>
        */
       public Builder addNLKBEFDOFKN(emu.grasscutter.net.proto.LGNCGIEICJJOuterClass.LGNCGIEICJJ value) {
         if (nLKBEFDOFKNBuilder_ == null) {
@@ -1920,7 +1920,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 7;</code>
+       * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 50002;</code>
        */
       public Builder addNLKBEFDOFKN(
           int index, emu.grasscutter.net.proto.LGNCGIEICJJOuterClass.LGNCGIEICJJ value) {
@@ -1937,7 +1937,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 7;</code>
+       * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 50002;</code>
        */
       public Builder addNLKBEFDOFKN(
           emu.grasscutter.net.proto.LGNCGIEICJJOuterClass.LGNCGIEICJJ.Builder builderForValue) {
@@ -1951,7 +1951,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 7;</code>
+       * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 50002;</code>
        */
       public Builder addNLKBEFDOFKN(
           int index, emu.grasscutter.net.proto.LGNCGIEICJJOuterClass.LGNCGIEICJJ.Builder builderForValue) {
@@ -1965,7 +1965,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 7;</code>
+       * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 50002;</code>
        */
       public Builder addAllNLKBEFDOFKN(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.LGNCGIEICJJOuterClass.LGNCGIEICJJ> values) {
@@ -1980,7 +1980,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 7;</code>
+       * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 50002;</code>
        */
       public Builder clearNLKBEFDOFKN() {
         if (nLKBEFDOFKNBuilder_ == null) {
@@ -1993,7 +1993,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 7;</code>
+       * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 50002;</code>
        */
       public Builder removeNLKBEFDOFKN(int index) {
         if (nLKBEFDOFKNBuilder_ == null) {
@@ -2006,14 +2006,14 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 7;</code>
+       * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 50002;</code>
        */
       public emu.grasscutter.net.proto.LGNCGIEICJJOuterClass.LGNCGIEICJJ.Builder getNLKBEFDOFKNBuilder(
           int index) {
         return getNLKBEFDOFKNFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 7;</code>
+       * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 50002;</code>
        */
       public emu.grasscutter.net.proto.LGNCGIEICJJOuterClass.LGNCGIEICJJOrBuilder getNLKBEFDOFKNOrBuilder(
           int index) {
@@ -2023,7 +2023,7 @@ public final class AlchemySimDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 7;</code>
+       * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 50002;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.LGNCGIEICJJOuterClass.LGNCGIEICJJOrBuilder> 
            getNLKBEFDOFKNOrBuilderList() {
@@ -2034,14 +2034,14 @@ public final class AlchemySimDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 7;</code>
+       * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 50002;</code>
        */
       public emu.grasscutter.net.proto.LGNCGIEICJJOuterClass.LGNCGIEICJJ.Builder addNLKBEFDOFKNBuilder() {
         return getNLKBEFDOFKNFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.LGNCGIEICJJOuterClass.LGNCGIEICJJ.getDefaultInstance());
       }
       /**
-       * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 7;</code>
+       * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 50002;</code>
        */
       public emu.grasscutter.net.proto.LGNCGIEICJJOuterClass.LGNCGIEICJJ.Builder addNLKBEFDOFKNBuilder(
           int index) {
@@ -2049,7 +2049,7 @@ public final class AlchemySimDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.LGNCGIEICJJOuterClass.LGNCGIEICJJ.getDefaultInstance());
       }
       /**
-       * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 7;</code>
+       * <code>repeated .LGNCGIEICJJ NLKBEFDOFKN = 50002;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.LGNCGIEICJJOuterClass.LGNCGIEICJJ.Builder> 
            getNLKBEFDOFKNBuilderList() {
@@ -2083,7 +2083,7 @@ public final class AlchemySimDetailInfoOuterClass {
           emu.grasscutter.net.proto.CDOHBLNEKCJOuterClass.CDOHBLNEKCJ, emu.grasscutter.net.proto.CDOHBLNEKCJOuterClass.CDOHBLNEKCJ.Builder, emu.grasscutter.net.proto.CDOHBLNEKCJOuterClass.CDOHBLNEKCJOrBuilder> cCKABEMPMAPBuilder_;
 
       /**
-       * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 8;</code>
+       * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 2;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.CDOHBLNEKCJOuterClass.CDOHBLNEKCJ> getCCKABEMPMAPList() {
         if (cCKABEMPMAPBuilder_ == null) {
@@ -2093,7 +2093,7 @@ public final class AlchemySimDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 8;</code>
+       * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 2;</code>
        */
       public int getCCKABEMPMAPCount() {
         if (cCKABEMPMAPBuilder_ == null) {
@@ -2103,7 +2103,7 @@ public final class AlchemySimDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 8;</code>
+       * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 2;</code>
        */
       public emu.grasscutter.net.proto.CDOHBLNEKCJOuterClass.CDOHBLNEKCJ getCCKABEMPMAP(int index) {
         if (cCKABEMPMAPBuilder_ == null) {
@@ -2113,7 +2113,7 @@ public final class AlchemySimDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 8;</code>
+       * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 2;</code>
        */
       public Builder setCCKABEMPMAP(
           int index, emu.grasscutter.net.proto.CDOHBLNEKCJOuterClass.CDOHBLNEKCJ value) {
@@ -2130,7 +2130,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 8;</code>
+       * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 2;</code>
        */
       public Builder setCCKABEMPMAP(
           int index, emu.grasscutter.net.proto.CDOHBLNEKCJOuterClass.CDOHBLNEKCJ.Builder builderForValue) {
@@ -2144,7 +2144,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 8;</code>
+       * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 2;</code>
        */
       public Builder addCCKABEMPMAP(emu.grasscutter.net.proto.CDOHBLNEKCJOuterClass.CDOHBLNEKCJ value) {
         if (cCKABEMPMAPBuilder_ == null) {
@@ -2160,7 +2160,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 8;</code>
+       * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 2;</code>
        */
       public Builder addCCKABEMPMAP(
           int index, emu.grasscutter.net.proto.CDOHBLNEKCJOuterClass.CDOHBLNEKCJ value) {
@@ -2177,7 +2177,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 8;</code>
+       * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 2;</code>
        */
       public Builder addCCKABEMPMAP(
           emu.grasscutter.net.proto.CDOHBLNEKCJOuterClass.CDOHBLNEKCJ.Builder builderForValue) {
@@ -2191,7 +2191,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 8;</code>
+       * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 2;</code>
        */
       public Builder addCCKABEMPMAP(
           int index, emu.grasscutter.net.proto.CDOHBLNEKCJOuterClass.CDOHBLNEKCJ.Builder builderForValue) {
@@ -2205,7 +2205,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 8;</code>
+       * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 2;</code>
        */
       public Builder addAllCCKABEMPMAP(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.CDOHBLNEKCJOuterClass.CDOHBLNEKCJ> values) {
@@ -2220,7 +2220,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 8;</code>
+       * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 2;</code>
        */
       public Builder clearCCKABEMPMAP() {
         if (cCKABEMPMAPBuilder_ == null) {
@@ -2233,7 +2233,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 8;</code>
+       * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 2;</code>
        */
       public Builder removeCCKABEMPMAP(int index) {
         if (cCKABEMPMAPBuilder_ == null) {
@@ -2246,14 +2246,14 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 8;</code>
+       * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 2;</code>
        */
       public emu.grasscutter.net.proto.CDOHBLNEKCJOuterClass.CDOHBLNEKCJ.Builder getCCKABEMPMAPBuilder(
           int index) {
         return getCCKABEMPMAPFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 8;</code>
+       * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 2;</code>
        */
       public emu.grasscutter.net.proto.CDOHBLNEKCJOuterClass.CDOHBLNEKCJOrBuilder getCCKABEMPMAPOrBuilder(
           int index) {
@@ -2263,7 +2263,7 @@ public final class AlchemySimDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 8;</code>
+       * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 2;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.CDOHBLNEKCJOuterClass.CDOHBLNEKCJOrBuilder> 
            getCCKABEMPMAPOrBuilderList() {
@@ -2274,14 +2274,14 @@ public final class AlchemySimDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 8;</code>
+       * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 2;</code>
        */
       public emu.grasscutter.net.proto.CDOHBLNEKCJOuterClass.CDOHBLNEKCJ.Builder addCCKABEMPMAPBuilder() {
         return getCCKABEMPMAPFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.CDOHBLNEKCJOuterClass.CDOHBLNEKCJ.getDefaultInstance());
       }
       /**
-       * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 8;</code>
+       * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 2;</code>
        */
       public emu.grasscutter.net.proto.CDOHBLNEKCJOuterClass.CDOHBLNEKCJ.Builder addCCKABEMPMAPBuilder(
           int index) {
@@ -2289,7 +2289,7 @@ public final class AlchemySimDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.CDOHBLNEKCJOuterClass.CDOHBLNEKCJ.getDefaultInstance());
       }
       /**
-       * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 8;</code>
+       * <code>repeated .CDOHBLNEKCJ CCKABEMPMAP = 2;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.CDOHBLNEKCJOuterClass.CDOHBLNEKCJ.Builder> 
            getCCKABEMPMAPBuilderList() {
@@ -2314,14 +2314,14 @@ public final class AlchemySimDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.INNBIIAMPIJOuterClass.INNBIIAMPIJ, emu.grasscutter.net.proto.INNBIIAMPIJOuterClass.INNBIIAMPIJ.Builder, emu.grasscutter.net.proto.INNBIIAMPIJOuterClass.INNBIIAMPIJOrBuilder> hahnbkedickBuilder_;
       /**
-       * <code>.INNBIIAMPIJ hahnbkedick = 11;</code>
+       * <code>.INNBIIAMPIJ hahnbkedick = 50003;</code>
        * @return Whether the hahnbkedick field is set.
        */
       public boolean hasHahnbkedick() {
         return hahnbkedickBuilder_ != null || hahnbkedick_ != null;
       }
       /**
-       * <code>.INNBIIAMPIJ hahnbkedick = 11;</code>
+       * <code>.INNBIIAMPIJ hahnbkedick = 50003;</code>
        * @return The hahnbkedick.
        */
       public emu.grasscutter.net.proto.INNBIIAMPIJOuterClass.INNBIIAMPIJ getHahnbkedick() {
@@ -2332,7 +2332,7 @@ public final class AlchemySimDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.INNBIIAMPIJ hahnbkedick = 11;</code>
+       * <code>.INNBIIAMPIJ hahnbkedick = 50003;</code>
        */
       public Builder setHahnbkedick(emu.grasscutter.net.proto.INNBIIAMPIJOuterClass.INNBIIAMPIJ value) {
         if (hahnbkedickBuilder_ == null) {
@@ -2348,7 +2348,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.INNBIIAMPIJ hahnbkedick = 11;</code>
+       * <code>.INNBIIAMPIJ hahnbkedick = 50003;</code>
        */
       public Builder setHahnbkedick(
           emu.grasscutter.net.proto.INNBIIAMPIJOuterClass.INNBIIAMPIJ.Builder builderForValue) {
@@ -2362,7 +2362,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.INNBIIAMPIJ hahnbkedick = 11;</code>
+       * <code>.INNBIIAMPIJ hahnbkedick = 50003;</code>
        */
       public Builder mergeHahnbkedick(emu.grasscutter.net.proto.INNBIIAMPIJOuterClass.INNBIIAMPIJ value) {
         if (hahnbkedickBuilder_ == null) {
@@ -2380,7 +2380,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.INNBIIAMPIJ hahnbkedick = 11;</code>
+       * <code>.INNBIIAMPIJ hahnbkedick = 50003;</code>
        */
       public Builder clearHahnbkedick() {
         if (hahnbkedickBuilder_ == null) {
@@ -2394,7 +2394,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.INNBIIAMPIJ hahnbkedick = 11;</code>
+       * <code>.INNBIIAMPIJ hahnbkedick = 50003;</code>
        */
       public emu.grasscutter.net.proto.INNBIIAMPIJOuterClass.INNBIIAMPIJ.Builder getHahnbkedickBuilder() {
         
@@ -2402,7 +2402,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return getHahnbkedickFieldBuilder().getBuilder();
       }
       /**
-       * <code>.INNBIIAMPIJ hahnbkedick = 11;</code>
+       * <code>.INNBIIAMPIJ hahnbkedick = 50003;</code>
        */
       public emu.grasscutter.net.proto.INNBIIAMPIJOuterClass.INNBIIAMPIJOrBuilder getHahnbkedickOrBuilder() {
         if (hahnbkedickBuilder_ != null) {
@@ -2413,7 +2413,7 @@ public final class AlchemySimDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.INNBIIAMPIJ hahnbkedick = 11;</code>
+       * <code>.INNBIIAMPIJ hahnbkedick = 50003;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.INNBIIAMPIJOuterClass.INNBIIAMPIJ, emu.grasscutter.net.proto.INNBIIAMPIJOuterClass.INNBIIAMPIJ.Builder, emu.grasscutter.net.proto.INNBIIAMPIJOuterClass.INNBIIAMPIJOrBuilder> 
@@ -2433,14 +2433,14 @@ public final class AlchemySimDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.HMNAKLDLGGFOuterClass.HMNAKLDLGGF, emu.grasscutter.net.proto.HMNAKLDLGGFOuterClass.HMNAKLDLGGF.Builder, emu.grasscutter.net.proto.HMNAKLDLGGFOuterClass.HMNAKLDLGGFOrBuilder> kLIJBFPJEDFBuilder_;
       /**
-       * <code>.HMNAKLDLGGF KLIJBFPJEDF = 12;</code>
+       * <code>.HMNAKLDLGGF KLIJBFPJEDF = 50004;</code>
        * @return Whether the kLIJBFPJEDF field is set.
        */
       public boolean hasKLIJBFPJEDF() {
         return kLIJBFPJEDFBuilder_ != null || kLIJBFPJEDF_ != null;
       }
       /**
-       * <code>.HMNAKLDLGGF KLIJBFPJEDF = 12;</code>
+       * <code>.HMNAKLDLGGF KLIJBFPJEDF = 50004;</code>
        * @return The kLIJBFPJEDF.
        */
       public emu.grasscutter.net.proto.HMNAKLDLGGFOuterClass.HMNAKLDLGGF getKLIJBFPJEDF() {
@@ -2451,7 +2451,7 @@ public final class AlchemySimDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.HMNAKLDLGGF KLIJBFPJEDF = 12;</code>
+       * <code>.HMNAKLDLGGF KLIJBFPJEDF = 50004;</code>
        */
       public Builder setKLIJBFPJEDF(emu.grasscutter.net.proto.HMNAKLDLGGFOuterClass.HMNAKLDLGGF value) {
         if (kLIJBFPJEDFBuilder_ == null) {
@@ -2467,7 +2467,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.HMNAKLDLGGF KLIJBFPJEDF = 12;</code>
+       * <code>.HMNAKLDLGGF KLIJBFPJEDF = 50004;</code>
        */
       public Builder setKLIJBFPJEDF(
           emu.grasscutter.net.proto.HMNAKLDLGGFOuterClass.HMNAKLDLGGF.Builder builderForValue) {
@@ -2481,7 +2481,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.HMNAKLDLGGF KLIJBFPJEDF = 12;</code>
+       * <code>.HMNAKLDLGGF KLIJBFPJEDF = 50004;</code>
        */
       public Builder mergeKLIJBFPJEDF(emu.grasscutter.net.proto.HMNAKLDLGGFOuterClass.HMNAKLDLGGF value) {
         if (kLIJBFPJEDFBuilder_ == null) {
@@ -2499,7 +2499,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.HMNAKLDLGGF KLIJBFPJEDF = 12;</code>
+       * <code>.HMNAKLDLGGF KLIJBFPJEDF = 50004;</code>
        */
       public Builder clearKLIJBFPJEDF() {
         if (kLIJBFPJEDFBuilder_ == null) {
@@ -2513,7 +2513,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.HMNAKLDLGGF KLIJBFPJEDF = 12;</code>
+       * <code>.HMNAKLDLGGF KLIJBFPJEDF = 50004;</code>
        */
       public emu.grasscutter.net.proto.HMNAKLDLGGFOuterClass.HMNAKLDLGGF.Builder getKLIJBFPJEDFBuilder() {
         
@@ -2521,7 +2521,7 @@ public final class AlchemySimDetailInfoOuterClass {
         return getKLIJBFPJEDFFieldBuilder().getBuilder();
       }
       /**
-       * <code>.HMNAKLDLGGF KLIJBFPJEDF = 12;</code>
+       * <code>.HMNAKLDLGGF KLIJBFPJEDF = 50004;</code>
        */
       public emu.grasscutter.net.proto.HMNAKLDLGGFOuterClass.HMNAKLDLGGFOrBuilder getKLIJBFPJEDFOrBuilder() {
         if (kLIJBFPJEDFBuilder_ != null) {
@@ -2532,7 +2532,7 @@ public final class AlchemySimDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.HMNAKLDLGGF KLIJBFPJEDF = 12;</code>
+       * <code>.HMNAKLDLGGF KLIJBFPJEDF = 50004;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.HMNAKLDLGGFOuterClass.HMNAKLDLGGF, emu.grasscutter.net.proto.HMNAKLDLGGFOuterClass.HMNAKLDLGGF.Builder, emu.grasscutter.net.proto.HMNAKLDLGGFOuterClass.HMNAKLDLGGFOrBuilder> 
@@ -2619,17 +2619,17 @@ public final class AlchemySimDetailInfoOuterClass {
       "proto\032\021GIMNDGBLHNL.proto\032\021GJFNDOODMCB.pr" +
       "oto\032\021HMNAKLDLGGF.proto\032\021INNBIIAMPIJ.prot" +
       "o\032\021LGNCGIEICJJ.proto\032\021MKJLLPCIMCM.proto\"" +
-      "\320\002\n\024AlchemySimDetailInfo\022!\n\013hpmkggonkgp\030" +
-      "\001 \001(\0132\014.GIMNDGBLHNL\022!\n\013hkkinpgdepc\030\002 \001(\013" +
-      "2\014.GJFNDOODMCB\022!\n\013BJLMKGHFMDA\030\004 \001(\0132\014.MK" +
-      "JLLPCIMCM\022!\n\013PMMPDHCPONP\030\005 \001(\0132\014.CKFHELM" +
-      "IGOP\022 \n\nbasic_info\030\006 \001(\0132\014.BBCHHKCMIOJ\022!" +
-      "\n\013NLKBEFDOFKN\030\007 \003(\0132\014.LGNCGIEICJJ\022!\n\013CCK" +
-      "ABEMPMAP\030\010 \003(\0132\014.CDOHBLNEKCJ\022!\n\013hahnbked" +
-      "ick\030\013 \001(\0132\014.INNBIIAMPIJ\022!\n\013KLIJBFPJEDF\030\014" +
-      " \001(\0132\014.HMNAKLDLGGFB;\n\031emu.grasscutter.ne" +
-      "t.protoB\036AlchemySimDetailInfoOuterClassb" +
-      "\006proto3"
+      "\332\002\n\024AlchemySimDetailInfo\022#\n\013hpmkggonkgp\030" +
+      "\320\206\003 \001(\0132\014.GIMNDGBLHNL\022#\n\013hkkinpgdepc\030\321\206\003" +
+      " \001(\0132\014.GJFNDOODMCB\022!\n\013BJLMKGHFMDA\030\017 \001(\0132" +
+      "\014.MKJLLPCIMCM\022!\n\013PMMPDHCPONP\030\016 \001(\0132\014.CKF" +
+      "HELMIGOP\022 \n\nbasic_info\030\013 \001(\0132\014.BBCHHKCMI" +
+      "OJ\022#\n\013NLKBEFDOFKN\030\322\206\003 \003(\0132\014.LGNCGIEICJJ\022" +
+      "!\n\013CCKABEMPMAP\030\002 \003(\0132\014.CDOHBLNEKCJ\022#\n\013ha" +
+      "hnbkedick\030\323\206\003 \001(\0132\014.INNBIIAMPIJ\022#\n\013KLIJB" +
+      "FPJEDF\030\324\206\003 \001(\0132\014.HMNAKLDLGGFB;\n\031emu.gras" +
+      "scutter.net.protoB\036AlchemySimDetailInfoO" +
+      "uterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

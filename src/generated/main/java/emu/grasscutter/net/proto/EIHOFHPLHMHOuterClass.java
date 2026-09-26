@@ -19,7 +19,7 @@ public final class EIHOFHPLHMHOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 avatar_id = 4;</code>
+     * <code>uint32 avatar_id = 15;</code>
      * @return The avatarId.
      */
     int getAvatarId();
@@ -75,14 +75,14 @@ public final class EIHOFHPLHMHOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
-
-              avatarId_ = input.readUInt32();
-              break;
-            }
             case 96: {
 
               isTrial_ = input.readBool();
+              break;
+            }
+            case 120: {
+
+              avatarId_ = input.readUInt32();
               break;
             }
             default: {
@@ -117,10 +117,10 @@ public final class EIHOFHPLHMHOuterClass {
               emu.grasscutter.net.proto.EIHOFHPLHMHOuterClass.EIHOFHPLHMH.class, emu.grasscutter.net.proto.EIHOFHPLHMHOuterClass.EIHOFHPLHMH.Builder.class);
     }
 
-    public static final int AVATAR_ID_FIELD_NUMBER = 4;
+    public static final int AVATAR_ID_FIELD_NUMBER = 15;
     private int avatarId_;
     /**
-     * <code>uint32 avatar_id = 4;</code>
+     * <code>uint32 avatar_id = 15;</code>
      * @return The avatarId.
      */
     @java.lang.Override
@@ -153,11 +153,11 @@ public final class EIHOFHPLHMHOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (avatarId_ != 0) {
-        output.writeUInt32(4, avatarId_);
-      }
       if (isTrial_ != false) {
         output.writeBool(12, isTrial_);
+      }
+      if (avatarId_ != 0) {
+        output.writeUInt32(15, avatarId_);
       }
       unknownFields.writeTo(output);
     }
@@ -168,13 +168,13 @@ public final class EIHOFHPLHMHOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (avatarId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, avatarId_);
-      }
       if (isTrial_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(12, isTrial_);
+      }
+      if (avatarId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(15, avatarId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -461,7 +461,7 @@ public final class EIHOFHPLHMHOuterClass {
 
       private int avatarId_ ;
       /**
-       * <code>uint32 avatar_id = 4;</code>
+       * <code>uint32 avatar_id = 15;</code>
        * @return The avatarId.
        */
       @java.lang.Override
@@ -469,7 +469,7 @@ public final class EIHOFHPLHMHOuterClass {
         return avatarId_;
       }
       /**
-       * <code>uint32 avatar_id = 4;</code>
+       * <code>uint32 avatar_id = 15;</code>
        * @param value The avatarId to set.
        * @return This builder for chaining.
        */
@@ -480,7 +480,7 @@ public final class EIHOFHPLHMHOuterClass {
         return this;
       }
       /**
-       * <code>uint32 avatar_id = 4;</code>
+       * <code>uint32 avatar_id = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearAvatarId() {
@@ -588,7 +588,7 @@ public final class EIHOFHPLHMHOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021EIHOFHPLHMH.proto\"2\n\013EIHOFHPLHMH\022\021\n\tav" +
-      "atar_id\030\004 \001(\r\022\020\n\010is_trial\030\014 \001(\010B2\n\031emu.g" +
+      "atar_id\030\017 \001(\r\022\020\n\010is_trial\030\014 \001(\010B2\n\031emu.g" +
       "rasscutter.net.protoB\025EIHOFHPLHMHOuterCl" +
       "assb\006proto3"
     };

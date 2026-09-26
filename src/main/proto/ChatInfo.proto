@@ -75,7 +75,7 @@ message ChatInfo {
 		string text = 1985;
 		_BeyondTeamApplication beyond_team_application = 525;
 		_HallRecruitingInvitation hall_recruiting_invitation = 770;
-		_BeyondGachaGift beyond_gacha_gift = 50000;
+		_BeyondGachaGift beyond_gacha_gift = 192;
 		_BeyondTeamInvitation beyond_team_invitation = 1953;
 	}
 	string _xuid = 13;

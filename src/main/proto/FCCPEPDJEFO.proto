@@ -4,8 +4,8 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "FCCPEPDJEFOOuterClass";
 
 message FCCPEPDJEFO {
-	bool is_finished = 3;
-	bool is_level_open = 5;
-	uint32 level_id = 7;
-	uint32 NHEFNKONPEI = 10;
+	bool is_finished = 10;
+	bool is_level_open = 2;
+	uint32 level_id = 8;
+	uint32 NHEFNKONPEI = 14;
 }

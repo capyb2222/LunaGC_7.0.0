@@ -10,10 +10,10 @@ import "FungusTrainingProgressDetail.proto";
 
 message FungusFighterDetailInfo {
 	repeated uint32 CLAIGDOBHKL = 50000;
-	repeated FungusPlotStageDetail plot_stage_detail_list = 50001;
-	repeated FungusDetail fungus_detail_list = 50002;
-	repeated uint32 KPNKIKPCPPM = 50003;
+	repeated FungusPlotStageDetail plot_stage_detail_list = 11;
+	repeated FungusDetail fungus_detail_list = 2;
+	repeated uint32 KPNKIKPCPPM = 50001;
 	repeated FungusTrainingProgressDetail training_dungeon_progress_detail_list = 5;
-	repeated uint32 OBINCBHLGCD = 50004;
+	repeated uint32 OBINCBHLGCD = 50002;
 	repeated FungusTrainingDungeonDetail training_dungeon_detail_list = 3;
 }

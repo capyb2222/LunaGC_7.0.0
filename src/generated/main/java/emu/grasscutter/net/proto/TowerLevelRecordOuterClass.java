@@ -19,24 +19,24 @@ public final class TowerLevelRecordOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 satisfied_cond_list = 4;</code>
+     * <code>repeated uint32 satisfied_cond_list = 13;</code>
      * @return A list containing the satisfiedCondList.
      */
     java.util.List<java.lang.Integer> getSatisfiedCondListList();
     /**
-     * <code>repeated uint32 satisfied_cond_list = 4;</code>
+     * <code>repeated uint32 satisfied_cond_list = 13;</code>
      * @return The count of satisfiedCondList.
      */
     int getSatisfiedCondListCount();
     /**
-     * <code>repeated uint32 satisfied_cond_list = 4;</code>
+     * <code>repeated uint32 satisfied_cond_list = 13;</code>
      * @param index The index of the element to return.
      * @return The satisfiedCondList at the given index.
      */
     int getSatisfiedCondList(int index);
 
     /**
-     * <code>uint32 level_id = 5;</code>
+     * <code>uint32 level_id = 4;</code>
      * @return The levelId.
      */
     int getLevelId();
@@ -89,6 +89,11 @@ public final class TowerLevelRecordOuterClass {
               done = true;
               break;
             case 32: {
+
+              levelId_ = input.readUInt32();
+              break;
+            }
+            case 104: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 satisfiedCondList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -96,7 +101,7 @@ public final class TowerLevelRecordOuterClass {
               satisfiedCondList_.addInt(input.readUInt32());
               break;
             }
-            case 34: {
+            case 106: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -107,11 +112,6 @@ public final class TowerLevelRecordOuterClass {
                 satisfiedCondList_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
-              break;
-            }
-            case 40: {
-
-              levelId_ = input.readUInt32();
               break;
             }
             default: {
@@ -149,10 +149,10 @@ public final class TowerLevelRecordOuterClass {
               emu.grasscutter.net.proto.TowerLevelRecordOuterClass.TowerLevelRecord.class, emu.grasscutter.net.proto.TowerLevelRecordOuterClass.TowerLevelRecord.Builder.class);
     }
 
-    public static final int SATISFIED_COND_LIST_FIELD_NUMBER = 4;
+    public static final int SATISFIED_COND_LIST_FIELD_NUMBER = 13;
     private com.google.protobuf.Internal.IntList satisfiedCondList_;
     /**
-     * <code>repeated uint32 satisfied_cond_list = 4;</code>
+     * <code>repeated uint32 satisfied_cond_list = 13;</code>
      * @return A list containing the satisfiedCondList.
      */
     @java.lang.Override
@@ -161,14 +161,14 @@ public final class TowerLevelRecordOuterClass {
       return satisfiedCondList_;
     }
     /**
-     * <code>repeated uint32 satisfied_cond_list = 4;</code>
+     * <code>repeated uint32 satisfied_cond_list = 13;</code>
      * @return The count of satisfiedCondList.
      */
     public int getSatisfiedCondListCount() {
       return satisfiedCondList_.size();
     }
     /**
-     * <code>repeated uint32 satisfied_cond_list = 4;</code>
+     * <code>repeated uint32 satisfied_cond_list = 13;</code>
      * @param index The index of the element to return.
      * @return The satisfiedCondList at the given index.
      */
@@ -177,10 +177,10 @@ public final class TowerLevelRecordOuterClass {
     }
     private int satisfiedCondListMemoizedSerializedSize = -1;
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 5;
+    public static final int LEVEL_ID_FIELD_NUMBER = 4;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 5;</code>
+     * <code>uint32 level_id = 4;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -203,15 +203,15 @@ public final class TowerLevelRecordOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
+      if (levelId_ != 0) {
+        output.writeUInt32(4, levelId_);
+      }
       if (getSatisfiedCondListList().size() > 0) {
-        output.writeUInt32NoTag(34);
+        output.writeUInt32NoTag(106);
         output.writeUInt32NoTag(satisfiedCondListMemoizedSerializedSize);
       }
       for (int i = 0; i < satisfiedCondList_.size(); i++) {
         output.writeUInt32NoTag(satisfiedCondList_.getInt(i));
-      }
-      if (levelId_ != 0) {
-        output.writeUInt32(5, levelId_);
       }
       unknownFields.writeTo(output);
     }
@@ -222,6 +222,10 @@ public final class TowerLevelRecordOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (levelId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(4, levelId_);
+      }
       {
         int dataSize = 0;
         for (int i = 0; i < satisfiedCondList_.size(); i++) {
@@ -235,10 +239,6 @@ public final class TowerLevelRecordOuterClass {
               .computeInt32SizeNoTag(dataSize);
         }
         satisfiedCondListMemoizedSerializedSize = dataSize;
-      }
-      if (levelId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, levelId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -545,7 +545,7 @@ public final class TowerLevelRecordOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 satisfied_cond_list = 4;</code>
+       * <code>repeated uint32 satisfied_cond_list = 13;</code>
        * @return A list containing the satisfiedCondList.
        */
       public java.util.List<java.lang.Integer>
@@ -554,14 +554,14 @@ public final class TowerLevelRecordOuterClass {
                  java.util.Collections.unmodifiableList(satisfiedCondList_) : satisfiedCondList_;
       }
       /**
-       * <code>repeated uint32 satisfied_cond_list = 4;</code>
+       * <code>repeated uint32 satisfied_cond_list = 13;</code>
        * @return The count of satisfiedCondList.
        */
       public int getSatisfiedCondListCount() {
         return satisfiedCondList_.size();
       }
       /**
-       * <code>repeated uint32 satisfied_cond_list = 4;</code>
+       * <code>repeated uint32 satisfied_cond_list = 13;</code>
        * @param index The index of the element to return.
        * @return The satisfiedCondList at the given index.
        */
@@ -569,7 +569,7 @@ public final class TowerLevelRecordOuterClass {
         return satisfiedCondList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 satisfied_cond_list = 4;</code>
+       * <code>repeated uint32 satisfied_cond_list = 13;</code>
        * @param index The index to set the value at.
        * @param value The satisfiedCondList to set.
        * @return This builder for chaining.
@@ -582,7 +582,7 @@ public final class TowerLevelRecordOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 satisfied_cond_list = 4;</code>
+       * <code>repeated uint32 satisfied_cond_list = 13;</code>
        * @param value The satisfiedCondList to add.
        * @return This builder for chaining.
        */
@@ -593,7 +593,7 @@ public final class TowerLevelRecordOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 satisfied_cond_list = 4;</code>
+       * <code>repeated uint32 satisfied_cond_list = 13;</code>
        * @param values The satisfiedCondList to add.
        * @return This builder for chaining.
        */
@@ -606,7 +606,7 @@ public final class TowerLevelRecordOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 satisfied_cond_list = 4;</code>
+       * <code>repeated uint32 satisfied_cond_list = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearSatisfiedCondList() {
@@ -618,7 +618,7 @@ public final class TowerLevelRecordOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 5;</code>
+       * <code>uint32 level_id = 4;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -626,7 +626,7 @@ public final class TowerLevelRecordOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 5;</code>
+       * <code>uint32 level_id = 4;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -637,7 +637,7 @@ public final class TowerLevelRecordOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 5;</code>
+       * <code>uint32 level_id = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -714,8 +714,8 @@ public final class TowerLevelRecordOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\026TowerLevelRecord.proto\"A\n\020TowerLevelRe" +
-      "cord\022\033\n\023satisfied_cond_list\030\004 \003(\r\022\020\n\010lev" +
-      "el_id\030\005 \001(\rB7\n\031emu.grasscutter.net.proto" +
+      "cord\022\033\n\023satisfied_cond_list\030\r \003(\r\022\020\n\010lev" +
+      "el_id\030\004 \001(\rB7\n\031emu.grasscutter.net.proto" +
       "B\032TowerLevelRecordOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

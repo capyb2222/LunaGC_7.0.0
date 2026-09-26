@@ -6,8 +6,8 @@ option java_outer_classname = "AttackHitEffectResultOuterClass";
 message AttackHitEffectResult {
 	uint32 dgedhlmbpca = 1;
 	float APDAHHOOLAA = 2;
-	float OPGJOJGJHCJ = 5;
-	uint32 JKKNMKKLHMD = 7;
-	float MBGEPHDJINB = 12;
-	float klfhecelkoe = 15;
+	float OPGJOJGJHCJ = 50000;
+	uint32 JKKNMKKLHMD = 50001;
+	float MBGEPHDJINB = 50002;
+	float klfhecelkoe = 50003;
 }

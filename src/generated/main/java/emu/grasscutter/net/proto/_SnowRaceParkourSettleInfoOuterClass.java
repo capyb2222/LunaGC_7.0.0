@@ -19,18 +19,18 @@ public final class _SnowRaceParkourSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 level_id = 2;</code>
+     * <code>uint32 level_id = 14;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>.GalleryStopReason reason = 3;</code>
+     * <code>.GalleryStopReason reason = 6;</code>
      * @return The enum numeric value on the wire for reason.
      */
     int getReasonValue();
     /**
-     * <code>.GalleryStopReason reason = 3;</code>
+     * <code>.GalleryStopReason reason = 6;</code>
      * @return The reason.
      */
     emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason getReason();
@@ -42,13 +42,13 @@ public final class _SnowRaceParkourSettleInfoOuterClass {
     boolean getIsNewRecord();
 
     /**
-     * <code>uint32 _max_collect_num = 6;</code>
+     * <code>uint32 _max_collect_num = 4;</code>
      * @return The maxCollectNum.
      */
     int getMaxCollectNum();
 
     /**
-     * <code>uint32 use_time = 9;</code>
+     * <code>uint32 use_time = 1;</code>
      * @return The useTime.
      */
     int getUseTime();
@@ -60,7 +60,7 @@ public final class _SnowRaceParkourSettleInfoOuterClass {
     int getScore();
 
     /**
-     * <code>uint32 collect_num = 14;</code>
+     * <code>uint32 collect_num = 13;</code>
      * @return The collectNum.
      */
     int getCollectNum();
@@ -111,15 +111,14 @@ public final class _SnowRaceParkourSettleInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 8: {
 
-              levelId_ = input.readUInt32();
+              useTime_ = input.readUInt32();
               break;
             }
-            case 24: {
-              int rawValue = input.readEnum();
+            case 32: {
 
-              reason_ = rawValue;
+              MaxCollectNum_ = input.readUInt32();
               break;
             }
             case 40: {
@@ -128,13 +127,9 @@ public final class _SnowRaceParkourSettleInfoOuterClass {
               break;
             }
             case 48: {
+              int rawValue = input.readEnum();
 
-              MaxCollectNum_ = input.readUInt32();
-              break;
-            }
-            case 72: {
-
-              useTime_ = input.readUInt32();
+              reason_ = rawValue;
               break;
             }
             case 80: {
@@ -142,9 +137,14 @@ public final class _SnowRaceParkourSettleInfoOuterClass {
               score_ = input.readUInt32();
               break;
             }
-            case 112: {
+            case 104: {
 
               collectNum_ = input.readUInt32();
+              break;
+            }
+            case 112: {
+
+              levelId_ = input.readUInt32();
               break;
             }
             default: {
@@ -179,10 +179,10 @@ public final class _SnowRaceParkourSettleInfoOuterClass {
               emu.grasscutter.net.proto._SnowRaceParkourSettleInfoOuterClass._SnowRaceParkourSettleInfo.class, emu.grasscutter.net.proto._SnowRaceParkourSettleInfoOuterClass._SnowRaceParkourSettleInfo.Builder.class);
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 2;
+    public static final int LEVEL_ID_FIELD_NUMBER = 14;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 2;</code>
+     * <code>uint32 level_id = 14;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -190,17 +190,17 @@ public final class _SnowRaceParkourSettleInfoOuterClass {
       return levelId_;
     }
 
-    public static final int REASON_FIELD_NUMBER = 3;
+    public static final int REASON_FIELD_NUMBER = 6;
     private int reason_;
     /**
-     * <code>.GalleryStopReason reason = 3;</code>
+     * <code>.GalleryStopReason reason = 6;</code>
      * @return The enum numeric value on the wire for reason.
      */
     @java.lang.Override public int getReasonValue() {
       return reason_;
     }
     /**
-     * <code>.GalleryStopReason reason = 3;</code>
+     * <code>.GalleryStopReason reason = 6;</code>
      * @return The reason.
      */
     @java.lang.Override public emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason getReason() {
@@ -220,10 +220,10 @@ public final class _SnowRaceParkourSettleInfoOuterClass {
       return isNewRecord_;
     }
 
-    public static final int _MAX_COLLECT_NUM_FIELD_NUMBER = 6;
+    public static final int _MAX_COLLECT_NUM_FIELD_NUMBER = 4;
     private int MaxCollectNum_;
     /**
-     * <code>uint32 _max_collect_num = 6;</code>
+     * <code>uint32 _max_collect_num = 4;</code>
      * @return The maxCollectNum.
      */
     @java.lang.Override
@@ -231,10 +231,10 @@ public final class _SnowRaceParkourSettleInfoOuterClass {
       return MaxCollectNum_;
     }
 
-    public static final int USE_TIME_FIELD_NUMBER = 9;
+    public static final int USE_TIME_FIELD_NUMBER = 1;
     private int useTime_;
     /**
-     * <code>uint32 use_time = 9;</code>
+     * <code>uint32 use_time = 1;</code>
      * @return The useTime.
      */
     @java.lang.Override
@@ -253,10 +253,10 @@ public final class _SnowRaceParkourSettleInfoOuterClass {
       return score_;
     }
 
-    public static final int COLLECT_NUM_FIELD_NUMBER = 14;
+    public static final int COLLECT_NUM_FIELD_NUMBER = 13;
     private int collectNum_;
     /**
-     * <code>uint32 collect_num = 14;</code>
+     * <code>uint32 collect_num = 13;</code>
      * @return The collectNum.
      */
     @java.lang.Override
@@ -278,26 +278,26 @@ public final class _SnowRaceParkourSettleInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (levelId_ != 0) {
-        output.writeUInt32(2, levelId_);
+      if (useTime_ != 0) {
+        output.writeUInt32(1, useTime_);
       }
-      if (reason_ != emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason.GalleryStopReason_GALLERY_STOP_NONE.getNumber()) {
-        output.writeEnum(3, reason_);
+      if (MaxCollectNum_ != 0) {
+        output.writeUInt32(4, MaxCollectNum_);
       }
       if (isNewRecord_ != false) {
         output.writeBool(5, isNewRecord_);
       }
-      if (MaxCollectNum_ != 0) {
-        output.writeUInt32(6, MaxCollectNum_);
-      }
-      if (useTime_ != 0) {
-        output.writeUInt32(9, useTime_);
+      if (reason_ != emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason.GalleryStopReason_GALLERY_STOP_NONE.getNumber()) {
+        output.writeEnum(6, reason_);
       }
       if (score_ != 0) {
         output.writeUInt32(10, score_);
       }
       if (collectNum_ != 0) {
-        output.writeUInt32(14, collectNum_);
+        output.writeUInt32(13, collectNum_);
+      }
+      if (levelId_ != 0) {
+        output.writeUInt32(14, levelId_);
       }
       unknownFields.writeTo(output);
     }
@@ -308,25 +308,21 @@ public final class _SnowRaceParkourSettleInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (levelId_ != 0) {
+      if (useTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, levelId_);
+          .computeUInt32Size(1, useTime_);
       }
-      if (reason_ != emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason.GalleryStopReason_GALLERY_STOP_NONE.getNumber()) {
+      if (MaxCollectNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(3, reason_);
+          .computeUInt32Size(4, MaxCollectNum_);
       }
       if (isNewRecord_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(5, isNewRecord_);
       }
-      if (MaxCollectNum_ != 0) {
+      if (reason_ != emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason.GalleryStopReason_GALLERY_STOP_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, MaxCollectNum_);
-      }
-      if (useTime_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, useTime_);
+          .computeEnumSize(6, reason_);
       }
       if (score_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -334,7 +330,11 @@ public final class _SnowRaceParkourSettleInfoOuterClass {
       }
       if (collectNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, collectNum_);
+          .computeUInt32Size(13, collectNum_);
+      }
+      if (levelId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(14, levelId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -670,7 +670,7 @@ public final class _SnowRaceParkourSettleInfoOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 2;</code>
+       * <code>uint32 level_id = 14;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -678,7 +678,7 @@ public final class _SnowRaceParkourSettleInfoOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 2;</code>
+       * <code>uint32 level_id = 14;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -689,7 +689,7 @@ public final class _SnowRaceParkourSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 2;</code>
+       * <code>uint32 level_id = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -701,14 +701,14 @@ public final class _SnowRaceParkourSettleInfoOuterClass {
 
       private int reason_ = 0;
       /**
-       * <code>.GalleryStopReason reason = 3;</code>
+       * <code>.GalleryStopReason reason = 6;</code>
        * @return The enum numeric value on the wire for reason.
        */
       @java.lang.Override public int getReasonValue() {
         return reason_;
       }
       /**
-       * <code>.GalleryStopReason reason = 3;</code>
+       * <code>.GalleryStopReason reason = 6;</code>
        * @param value The enum numeric value on the wire for reason to set.
        * @return This builder for chaining.
        */
@@ -719,7 +719,7 @@ public final class _SnowRaceParkourSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>.GalleryStopReason reason = 3;</code>
+       * <code>.GalleryStopReason reason = 6;</code>
        * @return The reason.
        */
       @java.lang.Override
@@ -729,7 +729,7 @@ public final class _SnowRaceParkourSettleInfoOuterClass {
         return result == null ? emu.grasscutter.net.proto.GalleryStopReasonOuterClass.GalleryStopReason.UNRECOGNIZED : result;
       }
       /**
-       * <code>.GalleryStopReason reason = 3;</code>
+       * <code>.GalleryStopReason reason = 6;</code>
        * @param value The reason to set.
        * @return This builder for chaining.
        */
@@ -743,7 +743,7 @@ public final class _SnowRaceParkourSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>.GalleryStopReason reason = 3;</code>
+       * <code>.GalleryStopReason reason = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearReason() {
@@ -786,7 +786,7 @@ public final class _SnowRaceParkourSettleInfoOuterClass {
 
       private int MaxCollectNum_ ;
       /**
-       * <code>uint32 _max_collect_num = 6;</code>
+       * <code>uint32 _max_collect_num = 4;</code>
        * @return The maxCollectNum.
        */
       @java.lang.Override
@@ -794,7 +794,7 @@ public final class _SnowRaceParkourSettleInfoOuterClass {
         return MaxCollectNum_;
       }
       /**
-       * <code>uint32 _max_collect_num = 6;</code>
+       * <code>uint32 _max_collect_num = 4;</code>
        * @param value The maxCollectNum to set.
        * @return This builder for chaining.
        */
@@ -805,7 +805,7 @@ public final class _SnowRaceParkourSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 _max_collect_num = 6;</code>
+       * <code>uint32 _max_collect_num = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearMaxCollectNum() {
@@ -817,7 +817,7 @@ public final class _SnowRaceParkourSettleInfoOuterClass {
 
       private int useTime_ ;
       /**
-       * <code>uint32 use_time = 9;</code>
+       * <code>uint32 use_time = 1;</code>
        * @return The useTime.
        */
       @java.lang.Override
@@ -825,7 +825,7 @@ public final class _SnowRaceParkourSettleInfoOuterClass {
         return useTime_;
       }
       /**
-       * <code>uint32 use_time = 9;</code>
+       * <code>uint32 use_time = 1;</code>
        * @param value The useTime to set.
        * @return This builder for chaining.
        */
@@ -836,7 +836,7 @@ public final class _SnowRaceParkourSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 use_time = 9;</code>
+       * <code>uint32 use_time = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearUseTime() {
@@ -879,7 +879,7 @@ public final class _SnowRaceParkourSettleInfoOuterClass {
 
       private int collectNum_ ;
       /**
-       * <code>uint32 collect_num = 14;</code>
+       * <code>uint32 collect_num = 13;</code>
        * @return The collectNum.
        */
       @java.lang.Override
@@ -887,7 +887,7 @@ public final class _SnowRaceParkourSettleInfoOuterClass {
         return collectNum_;
       }
       /**
-       * <code>uint32 collect_num = 14;</code>
+       * <code>uint32 collect_num = 13;</code>
        * @param value The collectNum to set.
        * @return This builder for chaining.
        */
@@ -898,7 +898,7 @@ public final class _SnowRaceParkourSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 collect_num = 14;</code>
+       * <code>uint32 collect_num = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearCollectNum() {
@@ -976,11 +976,11 @@ public final class _SnowRaceParkourSettleInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n _SnowRaceParkourSettleInfo.proto\032\027Gall" +
       "eryStopReason.proto\"\271\001\n\032_SnowRaceParkour" +
-      "SettleInfo\022\020\n\010level_id\030\002 \001(\r\022\"\n\006reason\030\003" +
+      "SettleInfo\022\020\n\010level_id\030\016 \001(\r\022\"\n\006reason\030\006" +
       " \001(\0162\022.GalleryStopReason\022\025\n\ris_new_recor" +
-      "d\030\005 \001(\010\022\030\n\020_max_collect_num\030\006 \001(\r\022\020\n\010use" +
-      "_time\030\t \001(\r\022\r\n\005score\030\n \001(\r\022\023\n\013collect_nu" +
-      "m\030\016 \001(\rBA\n\031emu.grasscutter.net.protoB$_S" +
+      "d\030\005 \001(\010\022\030\n\020_max_collect_num\030\004 \001(\r\022\020\n\010use" +
+      "_time\030\001 \001(\r\022\r\n\005score\030\n \001(\r\022\023\n\013collect_nu" +
+      "m\030\r \001(\rBA\n\031emu.grasscutter.net.protoB$_S" +
       "nowRaceParkourSettleInfoOuterClassb\006prot" +
       "o3"
     };

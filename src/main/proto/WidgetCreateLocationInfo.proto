@@ -6,6 +6,6 @@ option java_outer_classname = "WidgetCreateLocationInfoOuterClass";
 import "Vector.proto";
 
 message WidgetCreateLocationInfo {
-	Vector rot = 11;
-	Vector pos = 14;
+	Vector rot = 12;
+	Vector pos = 2;
 }

@@ -19,29 +19,29 @@ public final class HomeModuleComfortInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 module_id = 4;</code>
+     * <code>uint32 module_id = 13;</code>
      * @return The moduleId.
      */
     int getModuleId();
 
     /**
-     * <code>uint32 room_scene_comfort_value = 12;</code>
+     * <code>uint32 room_scene_comfort_value = 2;</code>
      * @return The roomSceneComfortValue.
      */
     int getRoomSceneComfortValue();
 
     /**
-     * <code>repeated uint32 world_scene_block_comfort_value_list = 15;</code>
+     * <code>repeated uint32 world_scene_block_comfort_value_list = 11;</code>
      * @return A list containing the worldSceneBlockComfortValueList.
      */
     java.util.List<java.lang.Integer> getWorldSceneBlockComfortValueListList();
     /**
-     * <code>repeated uint32 world_scene_block_comfort_value_list = 15;</code>
+     * <code>repeated uint32 world_scene_block_comfort_value_list = 11;</code>
      * @return The count of worldSceneBlockComfortValueList.
      */
     int getWorldSceneBlockComfortValueListCount();
     /**
-     * <code>repeated uint32 world_scene_block_comfort_value_list = 15;</code>
+     * <code>repeated uint32 world_scene_block_comfort_value_list = 11;</code>
      * @param index The index of the element to return.
      * @return The worldSceneBlockComfortValueList at the given index.
      */
@@ -94,17 +94,12 @@ public final class HomeModuleComfortInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
-
-              moduleId_ = input.readUInt32();
-              break;
-            }
-            case 96: {
+            case 16: {
 
               roomSceneComfortValue_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 88: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 worldSceneBlockComfortValueList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -112,7 +107,7 @@ public final class HomeModuleComfortInfoOuterClass {
               worldSceneBlockComfortValueList_.addInt(input.readUInt32());
               break;
             }
-            case 122: {
+            case 90: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -123,6 +118,11 @@ public final class HomeModuleComfortInfoOuterClass {
                 worldSceneBlockComfortValueList_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
+              break;
+            }
+            case 104: {
+
+              moduleId_ = input.readUInt32();
               break;
             }
             default: {
@@ -160,10 +160,10 @@ public final class HomeModuleComfortInfoOuterClass {
               emu.grasscutter.net.proto.HomeModuleComfortInfoOuterClass.HomeModuleComfortInfo.class, emu.grasscutter.net.proto.HomeModuleComfortInfoOuterClass.HomeModuleComfortInfo.Builder.class);
     }
 
-    public static final int MODULE_ID_FIELD_NUMBER = 4;
+    public static final int MODULE_ID_FIELD_NUMBER = 13;
     private int moduleId_;
     /**
-     * <code>uint32 module_id = 4;</code>
+     * <code>uint32 module_id = 13;</code>
      * @return The moduleId.
      */
     @java.lang.Override
@@ -171,10 +171,10 @@ public final class HomeModuleComfortInfoOuterClass {
       return moduleId_;
     }
 
-    public static final int ROOM_SCENE_COMFORT_VALUE_FIELD_NUMBER = 12;
+    public static final int ROOM_SCENE_COMFORT_VALUE_FIELD_NUMBER = 2;
     private int roomSceneComfortValue_;
     /**
-     * <code>uint32 room_scene_comfort_value = 12;</code>
+     * <code>uint32 room_scene_comfort_value = 2;</code>
      * @return The roomSceneComfortValue.
      */
     @java.lang.Override
@@ -182,10 +182,10 @@ public final class HomeModuleComfortInfoOuterClass {
       return roomSceneComfortValue_;
     }
 
-    public static final int WORLD_SCENE_BLOCK_COMFORT_VALUE_LIST_FIELD_NUMBER = 15;
+    public static final int WORLD_SCENE_BLOCK_COMFORT_VALUE_LIST_FIELD_NUMBER = 11;
     private com.google.protobuf.Internal.IntList worldSceneBlockComfortValueList_;
     /**
-     * <code>repeated uint32 world_scene_block_comfort_value_list = 15;</code>
+     * <code>repeated uint32 world_scene_block_comfort_value_list = 11;</code>
      * @return A list containing the worldSceneBlockComfortValueList.
      */
     @java.lang.Override
@@ -194,14 +194,14 @@ public final class HomeModuleComfortInfoOuterClass {
       return worldSceneBlockComfortValueList_;
     }
     /**
-     * <code>repeated uint32 world_scene_block_comfort_value_list = 15;</code>
+     * <code>repeated uint32 world_scene_block_comfort_value_list = 11;</code>
      * @return The count of worldSceneBlockComfortValueList.
      */
     public int getWorldSceneBlockComfortValueListCount() {
       return worldSceneBlockComfortValueList_.size();
     }
     /**
-     * <code>repeated uint32 world_scene_block_comfort_value_list = 15;</code>
+     * <code>repeated uint32 world_scene_block_comfort_value_list = 11;</code>
      * @param index The index of the element to return.
      * @return The worldSceneBlockComfortValueList at the given index.
      */
@@ -225,18 +225,18 @@ public final class HomeModuleComfortInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (moduleId_ != 0) {
-        output.writeUInt32(4, moduleId_);
-      }
       if (roomSceneComfortValue_ != 0) {
-        output.writeUInt32(12, roomSceneComfortValue_);
+        output.writeUInt32(2, roomSceneComfortValue_);
       }
       if (getWorldSceneBlockComfortValueListList().size() > 0) {
-        output.writeUInt32NoTag(122);
+        output.writeUInt32NoTag(90);
         output.writeUInt32NoTag(worldSceneBlockComfortValueListMemoizedSerializedSize);
       }
       for (int i = 0; i < worldSceneBlockComfortValueList_.size(); i++) {
         output.writeUInt32NoTag(worldSceneBlockComfortValueList_.getInt(i));
+      }
+      if (moduleId_ != 0) {
+        output.writeUInt32(13, moduleId_);
       }
       unknownFields.writeTo(output);
     }
@@ -247,13 +247,9 @@ public final class HomeModuleComfortInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (moduleId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, moduleId_);
-      }
       if (roomSceneComfortValue_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, roomSceneComfortValue_);
+          .computeUInt32Size(2, roomSceneComfortValue_);
       }
       {
         int dataSize = 0;
@@ -268,6 +264,10 @@ public final class HomeModuleComfortInfoOuterClass {
               .computeInt32SizeNoTag(dataSize);
         }
         worldSceneBlockComfortValueListMemoizedSerializedSize = dataSize;
+      }
+      if (moduleId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(13, moduleId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -578,7 +578,7 @@ public final class HomeModuleComfortInfoOuterClass {
 
       private int moduleId_ ;
       /**
-       * <code>uint32 module_id = 4;</code>
+       * <code>uint32 module_id = 13;</code>
        * @return The moduleId.
        */
       @java.lang.Override
@@ -586,7 +586,7 @@ public final class HomeModuleComfortInfoOuterClass {
         return moduleId_;
       }
       /**
-       * <code>uint32 module_id = 4;</code>
+       * <code>uint32 module_id = 13;</code>
        * @param value The moduleId to set.
        * @return This builder for chaining.
        */
@@ -597,7 +597,7 @@ public final class HomeModuleComfortInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 module_id = 4;</code>
+       * <code>uint32 module_id = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearModuleId() {
@@ -609,7 +609,7 @@ public final class HomeModuleComfortInfoOuterClass {
 
       private int roomSceneComfortValue_ ;
       /**
-       * <code>uint32 room_scene_comfort_value = 12;</code>
+       * <code>uint32 room_scene_comfort_value = 2;</code>
        * @return The roomSceneComfortValue.
        */
       @java.lang.Override
@@ -617,7 +617,7 @@ public final class HomeModuleComfortInfoOuterClass {
         return roomSceneComfortValue_;
       }
       /**
-       * <code>uint32 room_scene_comfort_value = 12;</code>
+       * <code>uint32 room_scene_comfort_value = 2;</code>
        * @param value The roomSceneComfortValue to set.
        * @return This builder for chaining.
        */
@@ -628,7 +628,7 @@ public final class HomeModuleComfortInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 room_scene_comfort_value = 12;</code>
+       * <code>uint32 room_scene_comfort_value = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearRoomSceneComfortValue() {
@@ -646,7 +646,7 @@ public final class HomeModuleComfortInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 world_scene_block_comfort_value_list = 15;</code>
+       * <code>repeated uint32 world_scene_block_comfort_value_list = 11;</code>
        * @return A list containing the worldSceneBlockComfortValueList.
        */
       public java.util.List<java.lang.Integer>
@@ -655,14 +655,14 @@ public final class HomeModuleComfortInfoOuterClass {
                  java.util.Collections.unmodifiableList(worldSceneBlockComfortValueList_) : worldSceneBlockComfortValueList_;
       }
       /**
-       * <code>repeated uint32 world_scene_block_comfort_value_list = 15;</code>
+       * <code>repeated uint32 world_scene_block_comfort_value_list = 11;</code>
        * @return The count of worldSceneBlockComfortValueList.
        */
       public int getWorldSceneBlockComfortValueListCount() {
         return worldSceneBlockComfortValueList_.size();
       }
       /**
-       * <code>repeated uint32 world_scene_block_comfort_value_list = 15;</code>
+       * <code>repeated uint32 world_scene_block_comfort_value_list = 11;</code>
        * @param index The index of the element to return.
        * @return The worldSceneBlockComfortValueList at the given index.
        */
@@ -670,7 +670,7 @@ public final class HomeModuleComfortInfoOuterClass {
         return worldSceneBlockComfortValueList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 world_scene_block_comfort_value_list = 15;</code>
+       * <code>repeated uint32 world_scene_block_comfort_value_list = 11;</code>
        * @param index The index to set the value at.
        * @param value The worldSceneBlockComfortValueList to set.
        * @return This builder for chaining.
@@ -683,7 +683,7 @@ public final class HomeModuleComfortInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 world_scene_block_comfort_value_list = 15;</code>
+       * <code>repeated uint32 world_scene_block_comfort_value_list = 11;</code>
        * @param value The worldSceneBlockComfortValueList to add.
        * @return This builder for chaining.
        */
@@ -694,7 +694,7 @@ public final class HomeModuleComfortInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 world_scene_block_comfort_value_list = 15;</code>
+       * <code>repeated uint32 world_scene_block_comfort_value_list = 11;</code>
        * @param values The worldSceneBlockComfortValueList to add.
        * @return This builder for chaining.
        */
@@ -707,7 +707,7 @@ public final class HomeModuleComfortInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 world_scene_block_comfort_value_list = 15;</code>
+       * <code>repeated uint32 world_scene_block_comfort_value_list = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearWorldSceneBlockComfortValueList() {
@@ -784,9 +784,9 @@ public final class HomeModuleComfortInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\033HomeModuleComfortInfo.proto\"z\n\025HomeMod" +
-      "uleComfortInfo\022\021\n\tmodule_id\030\004 \001(\r\022 \n\030roo" +
-      "m_scene_comfort_value\030\014 \001(\r\022,\n$world_sce" +
-      "ne_block_comfort_value_list\030\017 \003(\rB<\n\031emu" +
+      "uleComfortInfo\022\021\n\tmodule_id\030\r \001(\r\022 \n\030roo" +
+      "m_scene_comfort_value\030\002 \001(\r\022,\n$world_sce" +
+      "ne_block_comfort_value_list\030\013 \003(\rB<\n\031emu" +
       ".grasscutter.net.protoB\037HomeModuleComfor" +
       "tInfoOuterClassb\006proto3"
     };

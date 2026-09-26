@@ -19,13 +19,13 @@ public final class _ThemeParkTriathlonSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool OABFNCIAGMK = 13;</code>
+     * <code>bool OABFNCIAGMK = 12;</code>
      * @return The oABFNCIAGMK.
      */
     boolean getOABFNCIAGMK();
 
     /**
-     * <code>uint32 level_id = 14;</code>
+     * <code>uint32 level_id = 13;</code>
      * @return The levelId.
      */
     int getLevelId();
@@ -75,12 +75,12 @@ public final class _ThemeParkTriathlonSettleInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 104: {
+            case 96: {
 
               oABFNCIAGMK_ = input.readBool();
               break;
             }
-            case 112: {
+            case 104: {
 
               levelId_ = input.readUInt32();
               break;
@@ -117,10 +117,10 @@ public final class _ThemeParkTriathlonSettleInfoOuterClass {
               emu.grasscutter.net.proto._ThemeParkTriathlonSettleInfoOuterClass._ThemeParkTriathlonSettleInfo.class, emu.grasscutter.net.proto._ThemeParkTriathlonSettleInfoOuterClass._ThemeParkTriathlonSettleInfo.Builder.class);
     }
 
-    public static final int OABFNCIAGMK_FIELD_NUMBER = 13;
+    public static final int OABFNCIAGMK_FIELD_NUMBER = 12;
     private boolean oABFNCIAGMK_;
     /**
-     * <code>bool OABFNCIAGMK = 13;</code>
+     * <code>bool OABFNCIAGMK = 12;</code>
      * @return The oABFNCIAGMK.
      */
     @java.lang.Override
@@ -128,10 +128,10 @@ public final class _ThemeParkTriathlonSettleInfoOuterClass {
       return oABFNCIAGMK_;
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 14;
+    public static final int LEVEL_ID_FIELD_NUMBER = 13;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 14;</code>
+     * <code>uint32 level_id = 13;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -154,10 +154,10 @@ public final class _ThemeParkTriathlonSettleInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (oABFNCIAGMK_ != false) {
-        output.writeBool(13, oABFNCIAGMK_);
+        output.writeBool(12, oABFNCIAGMK_);
       }
       if (levelId_ != 0) {
-        output.writeUInt32(14, levelId_);
+        output.writeUInt32(13, levelId_);
       }
       unknownFields.writeTo(output);
     }
@@ -170,11 +170,11 @@ public final class _ThemeParkTriathlonSettleInfoOuterClass {
       size = 0;
       if (oABFNCIAGMK_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(13, oABFNCIAGMK_);
+          .computeBoolSize(12, oABFNCIAGMK_);
       }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, levelId_);
+          .computeUInt32Size(13, levelId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -461,7 +461,7 @@ public final class _ThemeParkTriathlonSettleInfoOuterClass {
 
       private boolean oABFNCIAGMK_ ;
       /**
-       * <code>bool OABFNCIAGMK = 13;</code>
+       * <code>bool OABFNCIAGMK = 12;</code>
        * @return The oABFNCIAGMK.
        */
       @java.lang.Override
@@ -469,7 +469,7 @@ public final class _ThemeParkTriathlonSettleInfoOuterClass {
         return oABFNCIAGMK_;
       }
       /**
-       * <code>bool OABFNCIAGMK = 13;</code>
+       * <code>bool OABFNCIAGMK = 12;</code>
        * @param value The oABFNCIAGMK to set.
        * @return This builder for chaining.
        */
@@ -480,7 +480,7 @@ public final class _ThemeParkTriathlonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool OABFNCIAGMK = 13;</code>
+       * <code>bool OABFNCIAGMK = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearOABFNCIAGMK() {
@@ -492,7 +492,7 @@ public final class _ThemeParkTriathlonSettleInfoOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 14;</code>
+       * <code>uint32 level_id = 13;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -500,7 +500,7 @@ public final class _ThemeParkTriathlonSettleInfoOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 14;</code>
+       * <code>uint32 level_id = 13;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -511,7 +511,7 @@ public final class _ThemeParkTriathlonSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 14;</code>
+       * <code>uint32 level_id = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -589,7 +589,7 @@ public final class _ThemeParkTriathlonSettleInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n#_ThemeParkTriathlonSettleInfo.proto\"F\n" +
       "\035_ThemeParkTriathlonSettleInfo\022\023\n\013OABFNC" +
-      "IAGMK\030\r \001(\010\022\020\n\010level_id\030\016 \001(\rBD\n\031emu.gra" +
+      "IAGMK\030\014 \001(\010\022\020\n\010level_id\030\r \001(\rBD\n\031emu.gra" +
       "sscutter.net.protoB\'_ThemeParkTriathlonS" +
       "ettleInfoOuterClassb\006proto3"
     };

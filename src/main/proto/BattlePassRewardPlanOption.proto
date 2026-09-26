@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "BattlePassRewardPlanOptionOuterClass";
 
 message BattlePassRewardPlanOption {
-	uint32 _battle_pass_plan = 4;
-	bool bajoajbladk = 5;
-	uint32 FBHFDJJIDBD = 15;
+	uint32 _battle_pass_plan = 15;
+	bool bajoajbladk = 2;
+	uint32 FBHFDJJIDBD = 6;
 }

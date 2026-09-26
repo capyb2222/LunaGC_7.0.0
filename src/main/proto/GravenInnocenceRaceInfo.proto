@@ -6,5 +6,5 @@ option java_outer_classname = "GravenInnocenceRaceInfoOuterClass";
 import "GravenInnocenceRaceLevelInfo.proto";
 
 message GravenInnocenceRaceInfo {
-	repeated GravenInnocenceRaceLevelInfo level_info_list = 8;
+	repeated GravenInnocenceRaceLevelInfo level_info_list = 5;
 }

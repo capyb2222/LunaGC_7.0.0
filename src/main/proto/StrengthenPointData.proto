@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "StrengthenPointDataOuterClass";
 
 message StrengthenPointData {
-	uint32 GPCEEMPGCGO = 4;
-	uint32 LDNJNMPHLFD = 9;
+	uint32 GPCEEMPGCGO = 50000;
+	uint32 LDNJNMPHLFD = 50001;
 }

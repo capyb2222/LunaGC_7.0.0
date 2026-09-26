@@ -4,5 +4,5 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "BubbleDramaDetailInfoOuterClass";
 
 message BubbleDramaDetailInfo {
-	uint32 quest_state = 5;
+	uint32 quest_state = 8;
 }

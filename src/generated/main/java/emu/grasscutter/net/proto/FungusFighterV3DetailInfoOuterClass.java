@@ -19,25 +19,25 @@ public final class FungusFighterV3DetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .BPENFBMNKMP level_info_list = 14;</code>
+     * <code>repeated .BPENFBMNKMP level_info_list = 1;</code>
      */
     java.util.List<emu.grasscutter.net.proto.BPENFBMNKMPOuterClass.BPENFBMNKMP> 
         getLevelInfoListList();
     /**
-     * <code>repeated .BPENFBMNKMP level_info_list = 14;</code>
+     * <code>repeated .BPENFBMNKMP level_info_list = 1;</code>
      */
     emu.grasscutter.net.proto.BPENFBMNKMPOuterClass.BPENFBMNKMP getLevelInfoList(int index);
     /**
-     * <code>repeated .BPENFBMNKMP level_info_list = 14;</code>
+     * <code>repeated .BPENFBMNKMP level_info_list = 1;</code>
      */
     int getLevelInfoListCount();
     /**
-     * <code>repeated .BPENFBMNKMP level_info_list = 14;</code>
+     * <code>repeated .BPENFBMNKMP level_info_list = 1;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.BPENFBMNKMPOuterClass.BPENFBMNKMPOrBuilder> 
         getLevelInfoListOrBuilderList();
     /**
-     * <code>repeated .BPENFBMNKMP level_info_list = 14;</code>
+     * <code>repeated .BPENFBMNKMP level_info_list = 1;</code>
      */
     emu.grasscutter.net.proto.BPENFBMNKMPOuterClass.BPENFBMNKMPOrBuilder getLevelInfoListOrBuilder(
         int index);
@@ -89,7 +89,7 @@ public final class FungusFighterV3DetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 114: {
+            case 10: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 levelInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.BPENFBMNKMPOuterClass.BPENFBMNKMP>();
                 mutable_bitField0_ |= 0x00000001;
@@ -133,17 +133,17 @@ public final class FungusFighterV3DetailInfoOuterClass {
               emu.grasscutter.net.proto.FungusFighterV3DetailInfoOuterClass.FungusFighterV3DetailInfo.class, emu.grasscutter.net.proto.FungusFighterV3DetailInfoOuterClass.FungusFighterV3DetailInfo.Builder.class);
     }
 
-    public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 14;
+    public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 1;
     private java.util.List<emu.grasscutter.net.proto.BPENFBMNKMPOuterClass.BPENFBMNKMP> levelInfoList_;
     /**
-     * <code>repeated .BPENFBMNKMP level_info_list = 14;</code>
+     * <code>repeated .BPENFBMNKMP level_info_list = 1;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.BPENFBMNKMPOuterClass.BPENFBMNKMP> getLevelInfoListList() {
       return levelInfoList_;
     }
     /**
-     * <code>repeated .BPENFBMNKMP level_info_list = 14;</code>
+     * <code>repeated .BPENFBMNKMP level_info_list = 1;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.BPENFBMNKMPOuterClass.BPENFBMNKMPOrBuilder> 
@@ -151,21 +151,21 @@ public final class FungusFighterV3DetailInfoOuterClass {
       return levelInfoList_;
     }
     /**
-     * <code>repeated .BPENFBMNKMP level_info_list = 14;</code>
+     * <code>repeated .BPENFBMNKMP level_info_list = 1;</code>
      */
     @java.lang.Override
     public int getLevelInfoListCount() {
       return levelInfoList_.size();
     }
     /**
-     * <code>repeated .BPENFBMNKMP level_info_list = 14;</code>
+     * <code>repeated .BPENFBMNKMP level_info_list = 1;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.BPENFBMNKMPOuterClass.BPENFBMNKMP getLevelInfoList(int index) {
       return levelInfoList_.get(index);
     }
     /**
-     * <code>repeated .BPENFBMNKMP level_info_list = 14;</code>
+     * <code>repeated .BPENFBMNKMP level_info_list = 1;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.BPENFBMNKMPOuterClass.BPENFBMNKMPOrBuilder getLevelInfoListOrBuilder(
@@ -188,7 +188,7 @@ public final class FungusFighterV3DetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < levelInfoList_.size(); i++) {
-        output.writeMessage(14, levelInfoList_.get(i));
+        output.writeMessage(1, levelInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -201,7 +201,7 @@ public final class FungusFighterV3DetailInfoOuterClass {
       size = 0;
       for (int i = 0; i < levelInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, levelInfoList_.get(i));
+          .computeMessageSize(1, levelInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -528,7 +528,7 @@ public final class FungusFighterV3DetailInfoOuterClass {
           emu.grasscutter.net.proto.BPENFBMNKMPOuterClass.BPENFBMNKMP, emu.grasscutter.net.proto.BPENFBMNKMPOuterClass.BPENFBMNKMP.Builder, emu.grasscutter.net.proto.BPENFBMNKMPOuterClass.BPENFBMNKMPOrBuilder> levelInfoListBuilder_;
 
       /**
-       * <code>repeated .BPENFBMNKMP level_info_list = 14;</code>
+       * <code>repeated .BPENFBMNKMP level_info_list = 1;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.BPENFBMNKMPOuterClass.BPENFBMNKMP> getLevelInfoListList() {
         if (levelInfoListBuilder_ == null) {
@@ -538,7 +538,7 @@ public final class FungusFighterV3DetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BPENFBMNKMP level_info_list = 14;</code>
+       * <code>repeated .BPENFBMNKMP level_info_list = 1;</code>
        */
       public int getLevelInfoListCount() {
         if (levelInfoListBuilder_ == null) {
@@ -548,7 +548,7 @@ public final class FungusFighterV3DetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BPENFBMNKMP level_info_list = 14;</code>
+       * <code>repeated .BPENFBMNKMP level_info_list = 1;</code>
        */
       public emu.grasscutter.net.proto.BPENFBMNKMPOuterClass.BPENFBMNKMP getLevelInfoList(int index) {
         if (levelInfoListBuilder_ == null) {
@@ -558,7 +558,7 @@ public final class FungusFighterV3DetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BPENFBMNKMP level_info_list = 14;</code>
+       * <code>repeated .BPENFBMNKMP level_info_list = 1;</code>
        */
       public Builder setLevelInfoList(
           int index, emu.grasscutter.net.proto.BPENFBMNKMPOuterClass.BPENFBMNKMP value) {
@@ -575,7 +575,7 @@ public final class FungusFighterV3DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BPENFBMNKMP level_info_list = 14;</code>
+       * <code>repeated .BPENFBMNKMP level_info_list = 1;</code>
        */
       public Builder setLevelInfoList(
           int index, emu.grasscutter.net.proto.BPENFBMNKMPOuterClass.BPENFBMNKMP.Builder builderForValue) {
@@ -589,7 +589,7 @@ public final class FungusFighterV3DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BPENFBMNKMP level_info_list = 14;</code>
+       * <code>repeated .BPENFBMNKMP level_info_list = 1;</code>
        */
       public Builder addLevelInfoList(emu.grasscutter.net.proto.BPENFBMNKMPOuterClass.BPENFBMNKMP value) {
         if (levelInfoListBuilder_ == null) {
@@ -605,7 +605,7 @@ public final class FungusFighterV3DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BPENFBMNKMP level_info_list = 14;</code>
+       * <code>repeated .BPENFBMNKMP level_info_list = 1;</code>
        */
       public Builder addLevelInfoList(
           int index, emu.grasscutter.net.proto.BPENFBMNKMPOuterClass.BPENFBMNKMP value) {
@@ -622,7 +622,7 @@ public final class FungusFighterV3DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BPENFBMNKMP level_info_list = 14;</code>
+       * <code>repeated .BPENFBMNKMP level_info_list = 1;</code>
        */
       public Builder addLevelInfoList(
           emu.grasscutter.net.proto.BPENFBMNKMPOuterClass.BPENFBMNKMP.Builder builderForValue) {
@@ -636,7 +636,7 @@ public final class FungusFighterV3DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BPENFBMNKMP level_info_list = 14;</code>
+       * <code>repeated .BPENFBMNKMP level_info_list = 1;</code>
        */
       public Builder addLevelInfoList(
           int index, emu.grasscutter.net.proto.BPENFBMNKMPOuterClass.BPENFBMNKMP.Builder builderForValue) {
@@ -650,7 +650,7 @@ public final class FungusFighterV3DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BPENFBMNKMP level_info_list = 14;</code>
+       * <code>repeated .BPENFBMNKMP level_info_list = 1;</code>
        */
       public Builder addAllLevelInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.BPENFBMNKMPOuterClass.BPENFBMNKMP> values) {
@@ -665,7 +665,7 @@ public final class FungusFighterV3DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BPENFBMNKMP level_info_list = 14;</code>
+       * <code>repeated .BPENFBMNKMP level_info_list = 1;</code>
        */
       public Builder clearLevelInfoList() {
         if (levelInfoListBuilder_ == null) {
@@ -678,7 +678,7 @@ public final class FungusFighterV3DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BPENFBMNKMP level_info_list = 14;</code>
+       * <code>repeated .BPENFBMNKMP level_info_list = 1;</code>
        */
       public Builder removeLevelInfoList(int index) {
         if (levelInfoListBuilder_ == null) {
@@ -691,14 +691,14 @@ public final class FungusFighterV3DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BPENFBMNKMP level_info_list = 14;</code>
+       * <code>repeated .BPENFBMNKMP level_info_list = 1;</code>
        */
       public emu.grasscutter.net.proto.BPENFBMNKMPOuterClass.BPENFBMNKMP.Builder getLevelInfoListBuilder(
           int index) {
         return getLevelInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .BPENFBMNKMP level_info_list = 14;</code>
+       * <code>repeated .BPENFBMNKMP level_info_list = 1;</code>
        */
       public emu.grasscutter.net.proto.BPENFBMNKMPOuterClass.BPENFBMNKMPOrBuilder getLevelInfoListOrBuilder(
           int index) {
@@ -708,7 +708,7 @@ public final class FungusFighterV3DetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BPENFBMNKMP level_info_list = 14;</code>
+       * <code>repeated .BPENFBMNKMP level_info_list = 1;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.BPENFBMNKMPOuterClass.BPENFBMNKMPOrBuilder> 
            getLevelInfoListOrBuilderList() {
@@ -719,14 +719,14 @@ public final class FungusFighterV3DetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BPENFBMNKMP level_info_list = 14;</code>
+       * <code>repeated .BPENFBMNKMP level_info_list = 1;</code>
        */
       public emu.grasscutter.net.proto.BPENFBMNKMPOuterClass.BPENFBMNKMP.Builder addLevelInfoListBuilder() {
         return getLevelInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.BPENFBMNKMPOuterClass.BPENFBMNKMP.getDefaultInstance());
       }
       /**
-       * <code>repeated .BPENFBMNKMP level_info_list = 14;</code>
+       * <code>repeated .BPENFBMNKMP level_info_list = 1;</code>
        */
       public emu.grasscutter.net.proto.BPENFBMNKMPOuterClass.BPENFBMNKMP.Builder addLevelInfoListBuilder(
           int index) {
@@ -734,7 +734,7 @@ public final class FungusFighterV3DetailInfoOuterClass {
             index, emu.grasscutter.net.proto.BPENFBMNKMPOuterClass.BPENFBMNKMP.getDefaultInstance());
       }
       /**
-       * <code>repeated .BPENFBMNKMP level_info_list = 14;</code>
+       * <code>repeated .BPENFBMNKMP level_info_list = 1;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.BPENFBMNKMPOuterClass.BPENFBMNKMP.Builder> 
            getLevelInfoListBuilderList() {
@@ -823,7 +823,7 @@ public final class FungusFighterV3DetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\037FungusFighterV3DetailInfo.proto\032\021BPENF" +
       "BMNKMP.proto\"B\n\031FungusFighterV3DetailInf" +
-      "o\022%\n\017level_info_list\030\016 \003(\0132\014.BPENFBMNKMP" +
+      "o\022%\n\017level_info_list\030\001 \003(\0132\014.BPENFBMNKMP" +
       "B@\n\031emu.grasscutter.net.protoB#FungusFig" +
       "hterV3DetailInfoOuterClassb\006proto3"
     };

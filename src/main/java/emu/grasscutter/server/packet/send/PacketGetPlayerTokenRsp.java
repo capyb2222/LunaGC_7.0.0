@@ -65,7 +65,7 @@ public class PacketGetPlayerTokenRsp extends BasePacket {
                 .setClientVersionRandomKey("c25-314dd05b0b5f")
                 .setClientIpStr(session.getAddress().getAddress().getHostAddress())
                 .setAuthAppid("csc")
-                .setKONDBANCCAH("OSRELWin" + GameConstants.VERSION);
+                .setClientVersion("OSRELWin" + GameConstants.VERSION);
 
         if (serverRandKey != null && !serverRandKey.isEmpty()) {
             // The negotiated path: the client decrypts the seed with its own private key, so the

@@ -19,43 +19,43 @@ public final class HGLMBIEIGINOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool is_finished = 12;</code>
+     * <code>bool is_finished = 4;</code>
      * @return The isFinished.
      */
     boolean getIsFinished();
 
     /**
-     * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 13;</code>
+     * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 15;</code>
      */
     java.util.List<emu.grasscutter.net.proto.ICELADLJBHMOuterClass.ICELADLJBHM> 
         getGBPNNKAHOEMList();
     /**
-     * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 13;</code>
+     * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 15;</code>
      */
     emu.grasscutter.net.proto.ICELADLJBHMOuterClass.ICELADLJBHM getGBPNNKAHOEM(int index);
     /**
-     * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 13;</code>
+     * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 15;</code>
      */
     int getGBPNNKAHOEMCount();
     /**
-     * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 13;</code>
+     * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 15;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.ICELADLJBHMOuterClass.ICELADLJBHMOrBuilder> 
         getGBPNNKAHOEMOrBuilderList();
     /**
-     * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 13;</code>
+     * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 15;</code>
      */
     emu.grasscutter.net.proto.ICELADLJBHMOuterClass.ICELADLJBHMOrBuilder getGBPNNKAHOEMOrBuilder(
         int index);
 
     /**
-     * <code>bool is_open = 14;</code>
+     * <code>bool is_open = 9;</code>
      * @return The isOpen.
      */
     boolean getIsOpen();
 
     /**
-     * <code>uint32 stage_id = 15;</code>
+     * <code>uint32 stage_id = 13;</code>
      * @return The stageId.
      */
     int getStageId();
@@ -107,28 +107,28 @@ public final class HGLMBIEIGINOuterClass {
             case 0:
               done = true;
               break;
-            case 96: {
+            case 32: {
 
               isFinished_ = input.readBool();
               break;
             }
-            case 106: {
+            case 72: {
+
+              isOpen_ = input.readBool();
+              break;
+            }
+            case 104: {
+
+              stageId_ = input.readUInt32();
+              break;
+            }
+            case 122: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 gBPNNKAHOEM_ = new java.util.ArrayList<emu.grasscutter.net.proto.ICELADLJBHMOuterClass.ICELADLJBHM>();
                 mutable_bitField0_ |= 0x00000001;
               }
               gBPNNKAHOEM_.add(
                   input.readMessage(emu.grasscutter.net.proto.ICELADLJBHMOuterClass.ICELADLJBHM.parser(), extensionRegistry));
-              break;
-            }
-            case 112: {
-
-              isOpen_ = input.readBool();
-              break;
-            }
-            case 120: {
-
-              stageId_ = input.readUInt32();
               break;
             }
             default: {
@@ -166,10 +166,10 @@ public final class HGLMBIEIGINOuterClass {
               emu.grasscutter.net.proto.HGLMBIEIGINOuterClass.HGLMBIEIGIN.class, emu.grasscutter.net.proto.HGLMBIEIGINOuterClass.HGLMBIEIGIN.Builder.class);
     }
 
-    public static final int IS_FINISHED_FIELD_NUMBER = 12;
+    public static final int IS_FINISHED_FIELD_NUMBER = 4;
     private boolean isFinished_;
     /**
-     * <code>bool is_finished = 12;</code>
+     * <code>bool is_finished = 4;</code>
      * @return The isFinished.
      */
     @java.lang.Override
@@ -177,17 +177,17 @@ public final class HGLMBIEIGINOuterClass {
       return isFinished_;
     }
 
-    public static final int GBPNNKAHOEM_FIELD_NUMBER = 13;
+    public static final int GBPNNKAHOEM_FIELD_NUMBER = 15;
     private java.util.List<emu.grasscutter.net.proto.ICELADLJBHMOuterClass.ICELADLJBHM> gBPNNKAHOEM_;
     /**
-     * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 13;</code>
+     * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 15;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.ICELADLJBHMOuterClass.ICELADLJBHM> getGBPNNKAHOEMList() {
       return gBPNNKAHOEM_;
     }
     /**
-     * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 13;</code>
+     * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 15;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.ICELADLJBHMOuterClass.ICELADLJBHMOrBuilder> 
@@ -195,21 +195,21 @@ public final class HGLMBIEIGINOuterClass {
       return gBPNNKAHOEM_;
     }
     /**
-     * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 13;</code>
+     * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 15;</code>
      */
     @java.lang.Override
     public int getGBPNNKAHOEMCount() {
       return gBPNNKAHOEM_.size();
     }
     /**
-     * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 13;</code>
+     * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 15;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ICELADLJBHMOuterClass.ICELADLJBHM getGBPNNKAHOEM(int index) {
       return gBPNNKAHOEM_.get(index);
     }
     /**
-     * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 13;</code>
+     * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 15;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ICELADLJBHMOuterClass.ICELADLJBHMOrBuilder getGBPNNKAHOEMOrBuilder(
@@ -217,10 +217,10 @@ public final class HGLMBIEIGINOuterClass {
       return gBPNNKAHOEM_.get(index);
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 14;
+    public static final int IS_OPEN_FIELD_NUMBER = 9;
     private boolean isOpen_;
     /**
-     * <code>bool is_open = 14;</code>
+     * <code>bool is_open = 9;</code>
      * @return The isOpen.
      */
     @java.lang.Override
@@ -228,10 +228,10 @@ public final class HGLMBIEIGINOuterClass {
       return isOpen_;
     }
 
-    public static final int STAGE_ID_FIELD_NUMBER = 15;
+    public static final int STAGE_ID_FIELD_NUMBER = 13;
     private int stageId_;
     /**
-     * <code>uint32 stage_id = 15;</code>
+     * <code>uint32 stage_id = 13;</code>
      * @return The stageId.
      */
     @java.lang.Override
@@ -254,16 +254,16 @@ public final class HGLMBIEIGINOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (isFinished_ != false) {
-        output.writeBool(12, isFinished_);
-      }
-      for (int i = 0; i < gBPNNKAHOEM_.size(); i++) {
-        output.writeMessage(13, gBPNNKAHOEM_.get(i));
+        output.writeBool(4, isFinished_);
       }
       if (isOpen_ != false) {
-        output.writeBool(14, isOpen_);
+        output.writeBool(9, isOpen_);
       }
       if (stageId_ != 0) {
-        output.writeUInt32(15, stageId_);
+        output.writeUInt32(13, stageId_);
+      }
+      for (int i = 0; i < gBPNNKAHOEM_.size(); i++) {
+        output.writeMessage(15, gBPNNKAHOEM_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -276,19 +276,19 @@ public final class HGLMBIEIGINOuterClass {
       size = 0;
       if (isFinished_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, isFinished_);
-      }
-      for (int i = 0; i < gBPNNKAHOEM_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, gBPNNKAHOEM_.get(i));
+          .computeBoolSize(4, isFinished_);
       }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(14, isOpen_);
+          .computeBoolSize(9, isOpen_);
       }
       if (stageId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, stageId_);
+          .computeUInt32Size(13, stageId_);
+      }
+      for (int i = 0; i < gBPNNKAHOEM_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(15, gBPNNKAHOEM_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -636,7 +636,7 @@ public final class HGLMBIEIGINOuterClass {
 
       private boolean isFinished_ ;
       /**
-       * <code>bool is_finished = 12;</code>
+       * <code>bool is_finished = 4;</code>
        * @return The isFinished.
        */
       @java.lang.Override
@@ -644,7 +644,7 @@ public final class HGLMBIEIGINOuterClass {
         return isFinished_;
       }
       /**
-       * <code>bool is_finished = 12;</code>
+       * <code>bool is_finished = 4;</code>
        * @param value The isFinished to set.
        * @return This builder for chaining.
        */
@@ -655,7 +655,7 @@ public final class HGLMBIEIGINOuterClass {
         return this;
       }
       /**
-       * <code>bool is_finished = 12;</code>
+       * <code>bool is_finished = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsFinished() {
@@ -678,7 +678,7 @@ public final class HGLMBIEIGINOuterClass {
           emu.grasscutter.net.proto.ICELADLJBHMOuterClass.ICELADLJBHM, emu.grasscutter.net.proto.ICELADLJBHMOuterClass.ICELADLJBHM.Builder, emu.grasscutter.net.proto.ICELADLJBHMOuterClass.ICELADLJBHMOrBuilder> gBPNNKAHOEMBuilder_;
 
       /**
-       * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 13;</code>
+       * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 15;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ICELADLJBHMOuterClass.ICELADLJBHM> getGBPNNKAHOEMList() {
         if (gBPNNKAHOEMBuilder_ == null) {
@@ -688,7 +688,7 @@ public final class HGLMBIEIGINOuterClass {
         }
       }
       /**
-       * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 13;</code>
+       * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 15;</code>
        */
       public int getGBPNNKAHOEMCount() {
         if (gBPNNKAHOEMBuilder_ == null) {
@@ -698,7 +698,7 @@ public final class HGLMBIEIGINOuterClass {
         }
       }
       /**
-       * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 13;</code>
+       * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 15;</code>
        */
       public emu.grasscutter.net.proto.ICELADLJBHMOuterClass.ICELADLJBHM getGBPNNKAHOEM(int index) {
         if (gBPNNKAHOEMBuilder_ == null) {
@@ -708,7 +708,7 @@ public final class HGLMBIEIGINOuterClass {
         }
       }
       /**
-       * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 13;</code>
+       * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 15;</code>
        */
       public Builder setGBPNNKAHOEM(
           int index, emu.grasscutter.net.proto.ICELADLJBHMOuterClass.ICELADLJBHM value) {
@@ -725,7 +725,7 @@ public final class HGLMBIEIGINOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 13;</code>
+       * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 15;</code>
        */
       public Builder setGBPNNKAHOEM(
           int index, emu.grasscutter.net.proto.ICELADLJBHMOuterClass.ICELADLJBHM.Builder builderForValue) {
@@ -739,7 +739,7 @@ public final class HGLMBIEIGINOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 13;</code>
+       * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 15;</code>
        */
       public Builder addGBPNNKAHOEM(emu.grasscutter.net.proto.ICELADLJBHMOuterClass.ICELADLJBHM value) {
         if (gBPNNKAHOEMBuilder_ == null) {
@@ -755,7 +755,7 @@ public final class HGLMBIEIGINOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 13;</code>
+       * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 15;</code>
        */
       public Builder addGBPNNKAHOEM(
           int index, emu.grasscutter.net.proto.ICELADLJBHMOuterClass.ICELADLJBHM value) {
@@ -772,7 +772,7 @@ public final class HGLMBIEIGINOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 13;</code>
+       * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 15;</code>
        */
       public Builder addGBPNNKAHOEM(
           emu.grasscutter.net.proto.ICELADLJBHMOuterClass.ICELADLJBHM.Builder builderForValue) {
@@ -786,7 +786,7 @@ public final class HGLMBIEIGINOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 13;</code>
+       * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 15;</code>
        */
       public Builder addGBPNNKAHOEM(
           int index, emu.grasscutter.net.proto.ICELADLJBHMOuterClass.ICELADLJBHM.Builder builderForValue) {
@@ -800,7 +800,7 @@ public final class HGLMBIEIGINOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 13;</code>
+       * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 15;</code>
        */
       public Builder addAllGBPNNKAHOEM(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.ICELADLJBHMOuterClass.ICELADLJBHM> values) {
@@ -815,7 +815,7 @@ public final class HGLMBIEIGINOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 13;</code>
+       * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 15;</code>
        */
       public Builder clearGBPNNKAHOEM() {
         if (gBPNNKAHOEMBuilder_ == null) {
@@ -828,7 +828,7 @@ public final class HGLMBIEIGINOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 13;</code>
+       * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 15;</code>
        */
       public Builder removeGBPNNKAHOEM(int index) {
         if (gBPNNKAHOEMBuilder_ == null) {
@@ -841,14 +841,14 @@ public final class HGLMBIEIGINOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 13;</code>
+       * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 15;</code>
        */
       public emu.grasscutter.net.proto.ICELADLJBHMOuterClass.ICELADLJBHM.Builder getGBPNNKAHOEMBuilder(
           int index) {
         return getGBPNNKAHOEMFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 13;</code>
+       * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 15;</code>
        */
       public emu.grasscutter.net.proto.ICELADLJBHMOuterClass.ICELADLJBHMOrBuilder getGBPNNKAHOEMOrBuilder(
           int index) {
@@ -858,7 +858,7 @@ public final class HGLMBIEIGINOuterClass {
         }
       }
       /**
-       * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 13;</code>
+       * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 15;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.ICELADLJBHMOuterClass.ICELADLJBHMOrBuilder> 
            getGBPNNKAHOEMOrBuilderList() {
@@ -869,14 +869,14 @@ public final class HGLMBIEIGINOuterClass {
         }
       }
       /**
-       * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 13;</code>
+       * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 15;</code>
        */
       public emu.grasscutter.net.proto.ICELADLJBHMOuterClass.ICELADLJBHM.Builder addGBPNNKAHOEMBuilder() {
         return getGBPNNKAHOEMFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.ICELADLJBHMOuterClass.ICELADLJBHM.getDefaultInstance());
       }
       /**
-       * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 13;</code>
+       * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 15;</code>
        */
       public emu.grasscutter.net.proto.ICELADLJBHMOuterClass.ICELADLJBHM.Builder addGBPNNKAHOEMBuilder(
           int index) {
@@ -884,7 +884,7 @@ public final class HGLMBIEIGINOuterClass {
             index, emu.grasscutter.net.proto.ICELADLJBHMOuterClass.ICELADLJBHM.getDefaultInstance());
       }
       /**
-       * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 13;</code>
+       * <code>repeated .ICELADLJBHM GBPNNKAHOEM = 15;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ICELADLJBHMOuterClass.ICELADLJBHM.Builder> 
            getGBPNNKAHOEMBuilderList() {
@@ -907,7 +907,7 @@ public final class HGLMBIEIGINOuterClass {
 
       private boolean isOpen_ ;
       /**
-       * <code>bool is_open = 14;</code>
+       * <code>bool is_open = 9;</code>
        * @return The isOpen.
        */
       @java.lang.Override
@@ -915,7 +915,7 @@ public final class HGLMBIEIGINOuterClass {
         return isOpen_;
       }
       /**
-       * <code>bool is_open = 14;</code>
+       * <code>bool is_open = 9;</code>
        * @param value The isOpen to set.
        * @return This builder for chaining.
        */
@@ -926,7 +926,7 @@ public final class HGLMBIEIGINOuterClass {
         return this;
       }
       /**
-       * <code>bool is_open = 14;</code>
+       * <code>bool is_open = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsOpen() {
@@ -938,7 +938,7 @@ public final class HGLMBIEIGINOuterClass {
 
       private int stageId_ ;
       /**
-       * <code>uint32 stage_id = 15;</code>
+       * <code>uint32 stage_id = 13;</code>
        * @return The stageId.
        */
       @java.lang.Override
@@ -946,7 +946,7 @@ public final class HGLMBIEIGINOuterClass {
         return stageId_;
       }
       /**
-       * <code>uint32 stage_id = 15;</code>
+       * <code>uint32 stage_id = 13;</code>
        * @param value The stageId to set.
        * @return This builder for chaining.
        */
@@ -957,7 +957,7 @@ public final class HGLMBIEIGINOuterClass {
         return this;
       }
       /**
-       * <code>uint32 stage_id = 15;</code>
+       * <code>uint32 stage_id = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearStageId() {
@@ -1034,9 +1034,9 @@ public final class HGLMBIEIGINOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021HGLMBIEIGIN.proto\032\021ICELADLJBHM.proto\"h" +
-      "\n\013HGLMBIEIGIN\022\023\n\013is_finished\030\014 \001(\010\022!\n\013GB" +
-      "PNNKAHOEM\030\r \003(\0132\014.ICELADLJBHM\022\017\n\007is_open" +
-      "\030\016 \001(\010\022\020\n\010stage_id\030\017 \001(\rB2\n\031emu.grasscut" +
+      "\n\013HGLMBIEIGIN\022\023\n\013is_finished\030\004 \001(\010\022!\n\013GB" +
+      "PNNKAHOEM\030\017 \003(\0132\014.ICELADLJBHM\022\017\n\007is_open" +
+      "\030\t \001(\010\022\020\n\010stage_id\030\r \001(\rB2\n\031emu.grasscut" +
       "ter.net.protoB\025HGLMBIEIGINOuterClassb\006pr" +
       "oto3"
     };

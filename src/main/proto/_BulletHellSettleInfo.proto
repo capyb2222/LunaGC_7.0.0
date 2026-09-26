@@ -4,10 +4,10 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "_BulletHellSettleInfoOuterClass";
 
 message _BulletHellSettleInfo {
-	uint32 level_id = 1;
-	bool is_new_record = 2;
-	uint32 GMCOKCLLBCL = 3;
-	uint32 NGJGHEBLBHN = 4;
-	uint32 MMKMPGFBOIL = 9;
-	uint32 score = 13;
+	uint32 level_id = 15;
+	bool is_new_record = 14;
+	uint32 GMCOKCLLBCL = 50000;
+	uint32 NGJGHEBLBHN = 50001;
+	uint32 MMKMPGFBOIL = 50002;
+	uint32 score = 6;
 }

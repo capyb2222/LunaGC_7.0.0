@@ -10,8 +10,8 @@ message FungusTrainingProgressDetail {
 	repeated uint32 BJKNGIJCKOE = 50000;
 	uint32 dungeon_id = 11;
 	uint32 total_used_time = 12;
-	repeated FungusTrainingPoolPreviewDetail monster_pool_preview_list = 50001;
+	repeated FungusTrainingPoolPreviewDetail monster_pool_preview_list = 6;
 	uint32 cur_round = 15;
-	repeated uint32 HLMGKMNFOOF = 50002;
-	repeated FungusFighterMonsterDetail monster_detail_list = 50003;
+	repeated uint32 HLMGKMNFOOF = 50001;
+	repeated FungusFighterMonsterDetail monster_detail_list = 8;
 }

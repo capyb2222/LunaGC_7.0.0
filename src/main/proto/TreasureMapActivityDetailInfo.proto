@@ -9,11 +9,11 @@ import "TreasureMapRegionInfo.proto";
 message TreasureMapActivityDetailInfo {
 	uint32 min_open_player_level = 9;
 	uint32 KDGCGILDGOH = 11;
-	uint32 preview_reward_id = 50000;
-	uint32 FMCDPDEMHLH = 50001;
+	uint32 preview_reward_id = 5;
+	uint32 FMCDPDEMHLH = 50000;
 	repeated TreasureMapRegionInfo region_info_list = 3;
 	bool is_mp_challenge_touched = 7;
 	repeated TreasureMapBonusChallengeInfo bonus_challenge_list = 4;
-	uint32 fjeocgnlcej = 50002;
+	uint32 fjeocgnlcej = 50001;
 	uint32 treasure_close_time = 13;
 }

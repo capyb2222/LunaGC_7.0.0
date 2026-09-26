@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "HomeModuleComfortInfoOuterClass";
 
 message HomeModuleComfortInfo {
-	uint32 module_id = 4;
-	uint32 room_scene_comfort_value = 12;
-	repeated uint32 world_scene_block_comfort_value_list = 15;
+	uint32 module_id = 13;
+	uint32 room_scene_comfort_value = 2;
+	repeated uint32 world_scene_block_comfort_value_list = 11;
 }

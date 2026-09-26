@@ -5,5 +5,5 @@ option java_outer_classname = "BKGHEPDLIKHOuterClass";
 
 message BKGHEPDLIKH {
 	bool is_open = 7;
-	uint32 level_id = 14;
+	uint32 level_id = 11;
 }

@@ -5,6 +5,6 @@ option java_outer_classname = "GetAreaExplorePointRspOuterClass";
 
 message GetAreaExplorePointRsp {
 	int32 retcode = 15;
-	repeated uint32 area_id_list = 50000;
-	repeated uint32 explore_point_list = 50001;
+	repeated uint32 area_id_list = 4;
+	repeated uint32 explore_point_list = 10;
 }

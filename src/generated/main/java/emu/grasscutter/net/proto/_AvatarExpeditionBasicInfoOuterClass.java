@@ -25,13 +25,13 @@ public final class _AvatarExpeditionBasicInfoOuterClass {
     float getShortenRatio();
 
     /**
-     * <code>uint32 hour_time = 50000;</code>
+     * <code>uint32 hour_time = 3;</code>
      * @return The hourTime.
      */
     int getHourTime();
 
     /**
-     * <code>uint32 exp_id = 50001;</code>
+     * <code>uint32 exp_id = 2;</code>
      * @return The expId.
      */
     int getExpId();
@@ -87,6 +87,16 @@ public final class _AvatarExpeditionBasicInfoOuterClass {
             case 0:
               done = true;
               break;
+            case 16: {
+
+              expId_ = input.readUInt32();
+              break;
+            }
+            case 24: {
+
+              hourTime_ = input.readUInt32();
+              break;
+            }
             case 40: {
 
               avatarGuid_ = input.readUInt64();
@@ -95,16 +105,6 @@ public final class _AvatarExpeditionBasicInfoOuterClass {
             case 85: {
 
               shortenRatio_ = input.readFloat();
-              break;
-            }
-            case 400000: {
-
-              hourTime_ = input.readUInt32();
-              break;
-            }
-            case 400008: {
-
-              expId_ = input.readUInt32();
               break;
             }
             default: {
@@ -150,10 +150,10 @@ public final class _AvatarExpeditionBasicInfoOuterClass {
       return shortenRatio_;
     }
 
-    public static final int HOUR_TIME_FIELD_NUMBER = 50000;
+    public static final int HOUR_TIME_FIELD_NUMBER = 3;
     private int hourTime_;
     /**
-     * <code>uint32 hour_time = 50000;</code>
+     * <code>uint32 hour_time = 3;</code>
      * @return The hourTime.
      */
     @java.lang.Override
@@ -161,10 +161,10 @@ public final class _AvatarExpeditionBasicInfoOuterClass {
       return hourTime_;
     }
 
-    public static final int EXP_ID_FIELD_NUMBER = 50001;
+    public static final int EXP_ID_FIELD_NUMBER = 2;
     private int expId_;
     /**
-     * <code>uint32 exp_id = 50001;</code>
+     * <code>uint32 exp_id = 2;</code>
      * @return The expId.
      */
     @java.lang.Override
@@ -197,17 +197,17 @@ public final class _AvatarExpeditionBasicInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (expId_ != 0) {
+        output.writeUInt32(2, expId_);
+      }
+      if (hourTime_ != 0) {
+        output.writeUInt32(3, hourTime_);
+      }
       if (avatarGuid_ != 0L) {
         output.writeUInt64(5, avatarGuid_);
       }
       if (shortenRatio_ != 0F) {
         output.writeFloat(10, shortenRatio_);
-      }
-      if (hourTime_ != 0) {
-        output.writeUInt32(50000, hourTime_);
-      }
-      if (expId_ != 0) {
-        output.writeUInt32(50001, expId_);
       }
       unknownFields.writeTo(output);
     }
@@ -218,6 +218,14 @@ public final class _AvatarExpeditionBasicInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (expId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(2, expId_);
+      }
+      if (hourTime_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(3, hourTime_);
+      }
       if (avatarGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt64Size(5, avatarGuid_);
@@ -225,14 +233,6 @@ public final class _AvatarExpeditionBasicInfoOuterClass {
       if (shortenRatio_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
           .computeFloatSize(10, shortenRatio_);
-      }
-      if (hourTime_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(50000, hourTime_);
-      }
-      if (expId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(50001, expId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -572,7 +572,7 @@ public final class _AvatarExpeditionBasicInfoOuterClass {
 
       private int hourTime_ ;
       /**
-       * <code>uint32 hour_time = 50000;</code>
+       * <code>uint32 hour_time = 3;</code>
        * @return The hourTime.
        */
       @java.lang.Override
@@ -580,7 +580,7 @@ public final class _AvatarExpeditionBasicInfoOuterClass {
         return hourTime_;
       }
       /**
-       * <code>uint32 hour_time = 50000;</code>
+       * <code>uint32 hour_time = 3;</code>
        * @param value The hourTime to set.
        * @return This builder for chaining.
        */
@@ -591,7 +591,7 @@ public final class _AvatarExpeditionBasicInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 hour_time = 50000;</code>
+       * <code>uint32 hour_time = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearHourTime() {
@@ -603,7 +603,7 @@ public final class _AvatarExpeditionBasicInfoOuterClass {
 
       private int expId_ ;
       /**
-       * <code>uint32 exp_id = 50001;</code>
+       * <code>uint32 exp_id = 2;</code>
        * @return The expId.
        */
       @java.lang.Override
@@ -611,7 +611,7 @@ public final class _AvatarExpeditionBasicInfoOuterClass {
         return expId_;
       }
       /**
-       * <code>uint32 exp_id = 50001;</code>
+       * <code>uint32 exp_id = 2;</code>
        * @param value The expId to set.
        * @return This builder for chaining.
        */
@@ -622,7 +622,7 @@ public final class _AvatarExpeditionBasicInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 exp_id = 50001;</code>
+       * <code>uint32 exp_id = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearExpId() {
@@ -729,12 +729,12 @@ public final class _AvatarExpeditionBasicInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n _AvatarExpeditionBasicInfo.proto\"o\n\032_A" +
+      "\n _AvatarExpeditionBasicInfo.proto\"k\n\032_A" +
       "vatarExpeditionBasicInfo\022\025\n\rshorten_rati" +
-      "o\030\n \001(\002\022\023\n\thour_time\030\320\206\003 \001(\r\022\020\n\006exp_id\030\321" +
-      "\206\003 \001(\r\022\023\n\013avatar_guid\030\005 \001(\004BA\n\031emu.grass" +
-      "cutter.net.protoB$_AvatarExpeditionBasic" +
-      "InfoOuterClassb\006proto3"
+      "o\030\n \001(\002\022\021\n\thour_time\030\003 \001(\r\022\016\n\006exp_id\030\002 \001" +
+      "(\r\022\023\n\013avatar_guid\030\005 \001(\004BA\n\031emu.grasscutt" +
+      "er.net.protoB$_AvatarExpeditionBasicInfo" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

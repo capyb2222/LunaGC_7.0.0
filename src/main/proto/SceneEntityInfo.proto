@@ -8,7 +8,7 @@ import "EntityAuthorityInfo.proto";
 import "EntityClientData.proto";
 import "EntityEnvironmentInfo.proto";
 import "FightPropPair.proto";
-import "IFMIEJICEMA.proto";
+import "_EntityIntMotionInfo.proto";
 import "ILFPMCGGMOA.proto";
 import "JCCEBIEEGFL.proto";
 import "MotionInfo.proto";
@@ -43,7 +43,7 @@ message SceneEntityInfo {
 	repeated string tag_list = 22;
 	repeated ServerBuff server_buff_list = 23;
 	ILFPMCGGMOA KCKNNKCAFCE = 24;
-	IFMIEJICEMA EEDDIJJOCFM = 25;
+	_EntityIntMotionInfo _int_motion_info = 25;
 	uint32 LDAODDFLPGB = 26;
 	JCCEBIEEGFL DGACEKDBNKC = 27;
 }

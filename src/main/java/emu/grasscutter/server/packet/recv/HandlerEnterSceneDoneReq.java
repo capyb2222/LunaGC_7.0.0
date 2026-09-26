@@ -58,6 +58,7 @@ public class HandlerEnterSceneDoneReq extends PacketHandler {
         var dailyTaskManager = player.getDailyTaskManager();
         if (dailyTaskManager != null) {
             dailyTaskManager.loadActiveGroups(player.getScene());
+            dailyTaskManager.syncAll();
         }
 
         // Reset timer for sending player locations

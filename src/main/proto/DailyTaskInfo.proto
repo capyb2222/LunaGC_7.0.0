@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "DailyTaskInfoOuterClass";
+
+message DailyTaskInfo {
+	uint32 reward_id = 11;
+	uint32 finish_progress = 7;
+	bool is_finished = 1;
+	uint32 progress = 10;
+	uint32 daily_task_id = 14;
+}

@@ -4,10 +4,10 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "EffigyChallengeV2SettleInfoOuterClass";
 
 message EffigyChallengeV2SettleInfo {
-	bool CIKPIBCMPMB = 3;
-	uint32 EEKKHPMNEJO = 5;
-	uint32 MMBMGOKCLJI = 7;
-	uint32 JGOODOMJLLJ = 8;
-	bool DACBILBGHCK = 12;
-	uint32 challenge_mode_difficulty = 14;
+	bool CIKPIBCMPMB = 50000;
+	uint32 EEKKHPMNEJO = 50001;
+	uint32 MMBMGOKCLJI = 50002;
+	uint32 JGOODOMJLLJ = 50003;
+	bool DACBILBGHCK = 50004;
+	uint32 challenge_mode_difficulty = 7;
 }

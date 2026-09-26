@@ -7,6 +7,6 @@ import "BKGHEPDLIKH.proto";
 import "FPKKPDDNKHE.proto";
 
 message PhotoUnderseaDetailInfo {
-	repeated FPKKPDDNKHE object_info_list = 8;
-	repeated BKGHEPDLIKH level_info_list = 10;
+	repeated FPKKPDDNKHE object_info_list = 10;
+	repeated BKGHEPDLIKH level_info_list = 8;
 }

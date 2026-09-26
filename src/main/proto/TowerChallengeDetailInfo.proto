@@ -6,5 +6,5 @@ option java_outer_classname = "TowerChallengeDetailInfoOuterClass";
 import "MLHLODGBHKM.proto";
 
 message TowerChallengeDetailInfo {
-	repeated MLHLODGBHKM level_info_list = 8;
+	repeated MLHLODGBHKM level_info_list = 6;
 }

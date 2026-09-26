@@ -25,25 +25,25 @@ public final class _MonsterChessV2RecordTeamInfoOuterClass {
     int getFlagId();
 
     /**
-     * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 14;</code>
+     * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 10;</code>
      */
     java.util.List<emu.grasscutter.net.proto._MonsterChessV2RecordCardDetailOuterClass._MonsterChessV2RecordCardDetail> 
         getMonsterCardListList();
     /**
-     * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 14;</code>
+     * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 10;</code>
      */
     emu.grasscutter.net.proto._MonsterChessV2RecordCardDetailOuterClass._MonsterChessV2RecordCardDetail getMonsterCardList(int index);
     /**
-     * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 14;</code>
+     * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 10;</code>
      */
     int getMonsterCardListCount();
     /**
-     * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 14;</code>
+     * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 10;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto._MonsterChessV2RecordCardDetailOuterClass._MonsterChessV2RecordCardDetailOrBuilder> 
         getMonsterCardListOrBuilderList();
     /**
-     * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 14;</code>
+     * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 10;</code>
      */
     emu.grasscutter.net.proto._MonsterChessV2RecordCardDetailOuterClass._MonsterChessV2RecordCardDetailOrBuilder getMonsterCardListOrBuilder(
         int index);
@@ -100,7 +100,7 @@ public final class _MonsterChessV2RecordTeamInfoOuterClass {
               FlagId_ = input.readUInt32();
               break;
             }
-            case 114: {
+            case 82: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 MonsterCardList_ = new java.util.ArrayList<emu.grasscutter.net.proto._MonsterChessV2RecordCardDetailOuterClass._MonsterChessV2RecordCardDetail>();
                 mutable_bitField0_ |= 0x00000001;
@@ -155,17 +155,17 @@ public final class _MonsterChessV2RecordTeamInfoOuterClass {
       return FlagId_;
     }
 
-    public static final int _MONSTER_CARD_LIST_FIELD_NUMBER = 14;
+    public static final int _MONSTER_CARD_LIST_FIELD_NUMBER = 10;
     private java.util.List<emu.grasscutter.net.proto._MonsterChessV2RecordCardDetailOuterClass._MonsterChessV2RecordCardDetail> MonsterCardList_;
     /**
-     * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 14;</code>
+     * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 10;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto._MonsterChessV2RecordCardDetailOuterClass._MonsterChessV2RecordCardDetail> getMonsterCardListList() {
       return MonsterCardList_;
     }
     /**
-     * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 14;</code>
+     * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 10;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto._MonsterChessV2RecordCardDetailOuterClass._MonsterChessV2RecordCardDetailOrBuilder> 
@@ -173,21 +173,21 @@ public final class _MonsterChessV2RecordTeamInfoOuterClass {
       return MonsterCardList_;
     }
     /**
-     * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 14;</code>
+     * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 10;</code>
      */
     @java.lang.Override
     public int getMonsterCardListCount() {
       return MonsterCardList_.size();
     }
     /**
-     * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 14;</code>
+     * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 10;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._MonsterChessV2RecordCardDetailOuterClass._MonsterChessV2RecordCardDetail getMonsterCardList(int index) {
       return MonsterCardList_.get(index);
     }
     /**
-     * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 14;</code>
+     * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 10;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._MonsterChessV2RecordCardDetailOuterClass._MonsterChessV2RecordCardDetailOrBuilder getMonsterCardListOrBuilder(
@@ -213,7 +213,7 @@ public final class _MonsterChessV2RecordTeamInfoOuterClass {
         output.writeUInt32(6, FlagId_);
       }
       for (int i = 0; i < MonsterCardList_.size(); i++) {
-        output.writeMessage(14, MonsterCardList_.get(i));
+        output.writeMessage(10, MonsterCardList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -230,7 +230,7 @@ public final class _MonsterChessV2RecordTeamInfoOuterClass {
       }
       for (int i = 0; i < MonsterCardList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, MonsterCardList_.get(i));
+          .computeMessageSize(10, MonsterCardList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -598,7 +598,7 @@ public final class _MonsterChessV2RecordTeamInfoOuterClass {
           emu.grasscutter.net.proto._MonsterChessV2RecordCardDetailOuterClass._MonsterChessV2RecordCardDetail, emu.grasscutter.net.proto._MonsterChessV2RecordCardDetailOuterClass._MonsterChessV2RecordCardDetail.Builder, emu.grasscutter.net.proto._MonsterChessV2RecordCardDetailOuterClass._MonsterChessV2RecordCardDetailOrBuilder> MonsterCardListBuilder_;
 
       /**
-       * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 14;</code>
+       * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 10;</code>
        */
       public java.util.List<emu.grasscutter.net.proto._MonsterChessV2RecordCardDetailOuterClass._MonsterChessV2RecordCardDetail> getMonsterCardListList() {
         if (MonsterCardListBuilder_ == null) {
@@ -608,7 +608,7 @@ public final class _MonsterChessV2RecordTeamInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 14;</code>
+       * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 10;</code>
        */
       public int getMonsterCardListCount() {
         if (MonsterCardListBuilder_ == null) {
@@ -618,7 +618,7 @@ public final class _MonsterChessV2RecordTeamInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 14;</code>
+       * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 10;</code>
        */
       public emu.grasscutter.net.proto._MonsterChessV2RecordCardDetailOuterClass._MonsterChessV2RecordCardDetail getMonsterCardList(int index) {
         if (MonsterCardListBuilder_ == null) {
@@ -628,7 +628,7 @@ public final class _MonsterChessV2RecordTeamInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 14;</code>
+       * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 10;</code>
        */
       public Builder setMonsterCardList(
           int index, emu.grasscutter.net.proto._MonsterChessV2RecordCardDetailOuterClass._MonsterChessV2RecordCardDetail value) {
@@ -645,7 +645,7 @@ public final class _MonsterChessV2RecordTeamInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 14;</code>
+       * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 10;</code>
        */
       public Builder setMonsterCardList(
           int index, emu.grasscutter.net.proto._MonsterChessV2RecordCardDetailOuterClass._MonsterChessV2RecordCardDetail.Builder builderForValue) {
@@ -659,7 +659,7 @@ public final class _MonsterChessV2RecordTeamInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 14;</code>
+       * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 10;</code>
        */
       public Builder addMonsterCardList(emu.grasscutter.net.proto._MonsterChessV2RecordCardDetailOuterClass._MonsterChessV2RecordCardDetail value) {
         if (MonsterCardListBuilder_ == null) {
@@ -675,7 +675,7 @@ public final class _MonsterChessV2RecordTeamInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 14;</code>
+       * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 10;</code>
        */
       public Builder addMonsterCardList(
           int index, emu.grasscutter.net.proto._MonsterChessV2RecordCardDetailOuterClass._MonsterChessV2RecordCardDetail value) {
@@ -692,7 +692,7 @@ public final class _MonsterChessV2RecordTeamInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 14;</code>
+       * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 10;</code>
        */
       public Builder addMonsterCardList(
           emu.grasscutter.net.proto._MonsterChessV2RecordCardDetailOuterClass._MonsterChessV2RecordCardDetail.Builder builderForValue) {
@@ -706,7 +706,7 @@ public final class _MonsterChessV2RecordTeamInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 14;</code>
+       * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 10;</code>
        */
       public Builder addMonsterCardList(
           int index, emu.grasscutter.net.proto._MonsterChessV2RecordCardDetailOuterClass._MonsterChessV2RecordCardDetail.Builder builderForValue) {
@@ -720,7 +720,7 @@ public final class _MonsterChessV2RecordTeamInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 14;</code>
+       * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 10;</code>
        */
       public Builder addAllMonsterCardList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto._MonsterChessV2RecordCardDetailOuterClass._MonsterChessV2RecordCardDetail> values) {
@@ -735,7 +735,7 @@ public final class _MonsterChessV2RecordTeamInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 14;</code>
+       * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 10;</code>
        */
       public Builder clearMonsterCardList() {
         if (MonsterCardListBuilder_ == null) {
@@ -748,7 +748,7 @@ public final class _MonsterChessV2RecordTeamInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 14;</code>
+       * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 10;</code>
        */
       public Builder removeMonsterCardList(int index) {
         if (MonsterCardListBuilder_ == null) {
@@ -761,14 +761,14 @@ public final class _MonsterChessV2RecordTeamInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 14;</code>
+       * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 10;</code>
        */
       public emu.grasscutter.net.proto._MonsterChessV2RecordCardDetailOuterClass._MonsterChessV2RecordCardDetail.Builder getMonsterCardListBuilder(
           int index) {
         return getMonsterCardListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 14;</code>
+       * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 10;</code>
        */
       public emu.grasscutter.net.proto._MonsterChessV2RecordCardDetailOuterClass._MonsterChessV2RecordCardDetailOrBuilder getMonsterCardListOrBuilder(
           int index) {
@@ -778,7 +778,7 @@ public final class _MonsterChessV2RecordTeamInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 14;</code>
+       * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 10;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto._MonsterChessV2RecordCardDetailOuterClass._MonsterChessV2RecordCardDetailOrBuilder> 
            getMonsterCardListOrBuilderList() {
@@ -789,14 +789,14 @@ public final class _MonsterChessV2RecordTeamInfoOuterClass {
         }
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 14;</code>
+       * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 10;</code>
        */
       public emu.grasscutter.net.proto._MonsterChessV2RecordCardDetailOuterClass._MonsterChessV2RecordCardDetail.Builder addMonsterCardListBuilder() {
         return getMonsterCardListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto._MonsterChessV2RecordCardDetailOuterClass._MonsterChessV2RecordCardDetail.getDefaultInstance());
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 14;</code>
+       * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 10;</code>
        */
       public emu.grasscutter.net.proto._MonsterChessV2RecordCardDetailOuterClass._MonsterChessV2RecordCardDetail.Builder addMonsterCardListBuilder(
           int index) {
@@ -804,7 +804,7 @@ public final class _MonsterChessV2RecordTeamInfoOuterClass {
             index, emu.grasscutter.net.proto._MonsterChessV2RecordCardDetailOuterClass._MonsterChessV2RecordCardDetail.getDefaultInstance());
       }
       /**
-       * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 14;</code>
+       * <code>repeated ._MonsterChessV2RecordCardDetail _monster_card_list = 10;</code>
        */
       public java.util.List<emu.grasscutter.net.proto._MonsterChessV2RecordCardDetailOuterClass._MonsterChessV2RecordCardDetail.Builder> 
            getMonsterCardListBuilderList() {
@@ -894,7 +894,7 @@ public final class _MonsterChessV2RecordTeamInfoOuterClass {
       "\n#_MonsterChessV2RecordTeamInfo.proto\032%_" +
       "MonsterChessV2RecordCardDetail.proto\"o\n\035" +
       "_MonsterChessV2RecordTeamInfo\022\020\n\010_flag_i" +
-      "d\030\006 \001(\r\022<\n\022_monster_card_list\030\016 \003(\0132 ._M" +
+      "d\030\006 \001(\r\022<\n\022_monster_card_list\030\n \003(\0132 ._M" +
       "onsterChessV2RecordCardDetailBD\n\031emu.gra" +
       "sscutter.net.protoB\'_MonsterChessV2Recor" +
       "dTeamInfoOuterClassb\006proto3"

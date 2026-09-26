@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "_RankedMatchDetailInfoOuterClass";
 
 message _RankedMatchDetailInfo {
-	uint32 NFIMEMMGEDE = 1;
+	uint32 NFIMEMMGEDE = 50000;
 	uint32 JDHBFLPNNFK = 4;
-	uint32 LOGCPKHCCHA = 8;
+	uint32 LOGCPKHCCHA = 50001;
 }

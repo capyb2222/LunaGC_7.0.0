@@ -4,5 +4,5 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "FleurFairFallInfoOuterClass";
 
 message FleurFairFallInfo {
-	uint32 best_score = 4;
+	uint32 best_score = 5;
 }

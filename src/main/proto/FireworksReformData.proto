@@ -6,6 +6,6 @@ option java_outer_classname = "FireworksReformDataOuterClass";
 import "FireworksReformParam.proto";
 
 message FireworksReformData {
-	repeated FireworksReformParam reform_param_list = 1;
-	uint32 id = 13;
+	repeated FireworksReformParam reform_param_list = 11;
+	uint32 id = 12;
 }

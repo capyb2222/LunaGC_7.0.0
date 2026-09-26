@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "MuqadasPotionLevelDataOuterClass";
 
 message MuqadasPotionLevelData {
-	uint32 level_id = 1;
-	uint32 max_score = 3;
-	bool is_open = 7;
+	uint32 level_id = 3;
+	uint32 max_score = 5;
+	bool is_open = 14;
 }

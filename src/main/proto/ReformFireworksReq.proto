@@ -6,5 +6,5 @@ option java_outer_classname = "ReformFireworksReqOuterClass";
 import "FireworksReformData.proto";
 
 message ReformFireworksReq {
-	FireworksReformData fireworks_reform_data = 13;
+	FireworksReformData fireworks_reform_data = 7;
 }

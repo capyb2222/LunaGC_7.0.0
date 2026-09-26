@@ -6,6 +6,6 @@ option java_outer_classname = "PlayerWorldLocationInfoOuterClass";
 import "PlayerLocationInfo.proto";
 
 message PlayerWorldLocationInfo {
-	uint32 scene_id = 3;
-	PlayerLocationInfo player_loc = 12;
+	uint32 scene_id = 4;
+	PlayerLocationInfo player_loc = 10;
 }

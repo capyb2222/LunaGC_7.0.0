@@ -19,36 +19,36 @@ public final class _AddTotalRevenueAfterActionsExecBuffInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .NGGGDAFGJDL action_list = 1;</code>
+     * <code>repeated .NGGGDAFGJDL action_list = 8;</code>
      * @return A list containing the actionList.
      */
     java.util.List<emu.grasscutter.net.proto.NGGGDAFGJDLOuterClass.NGGGDAFGJDL> getActionListList();
     /**
-     * <code>repeated .NGGGDAFGJDL action_list = 1;</code>
+     * <code>repeated .NGGGDAFGJDL action_list = 8;</code>
      * @return The count of actionList.
      */
     int getActionListCount();
     /**
-     * <code>repeated .NGGGDAFGJDL action_list = 1;</code>
+     * <code>repeated .NGGGDAFGJDL action_list = 8;</code>
      * @param index The index of the element to return.
      * @return The actionList at the given index.
      */
     emu.grasscutter.net.proto.NGGGDAFGJDLOuterClass.NGGGDAFGJDL getActionList(int index);
     /**
-     * <code>repeated .NGGGDAFGJDL action_list = 1;</code>
+     * <code>repeated .NGGGDAFGJDL action_list = 8;</code>
      * @return A list containing the enum numeric values on the wire for actionList.
      */
     java.util.List<java.lang.Integer>
     getActionListValueList();
     /**
-     * <code>repeated .NGGGDAFGJDL action_list = 1;</code>
+     * <code>repeated .NGGGDAFGJDL action_list = 8;</code>
      * @param index The index of the value to return.
      * @return The enum numeric value on the wire of actionList at the given index.
      */
     int getActionListValue(int index);
 
     /**
-     * <code>bool NHLOILJDDIP = 6;</code>
+     * <code>bool NHLOILJDDIP = 10;</code>
      * @return The nHLOILJDDIP.
      */
     boolean getNHLOILJDDIP();
@@ -100,7 +100,7 @@ public final class _AddTotalRevenueAfterActionsExecBuffInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 64: {
               int rawValue = input.readEnum();
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 actionList_ = new java.util.ArrayList<java.lang.Integer>();
@@ -109,7 +109,7 @@ public final class _AddTotalRevenueAfterActionsExecBuffInfoOuterClass {
               actionList_.add(rawValue);
               break;
             }
-            case 10: {
+            case 66: {
               int length = input.readRawVarint32();
               int oldLimit = input.pushLimit(length);
               while(input.getBytesUntilLimit() > 0) {
@@ -123,7 +123,7 @@ public final class _AddTotalRevenueAfterActionsExecBuffInfoOuterClass {
               input.popLimit(oldLimit);
               break;
             }
-            case 48: {
+            case 80: {
 
               nHLOILJDDIP_ = input.readBool();
               break;
@@ -163,7 +163,7 @@ public final class _AddTotalRevenueAfterActionsExecBuffInfoOuterClass {
               emu.grasscutter.net.proto._AddTotalRevenueAfterActionsExecBuffInfoOuterClass._AddTotalRevenueAfterActionsExecBuffInfo.class, emu.grasscutter.net.proto._AddTotalRevenueAfterActionsExecBuffInfoOuterClass._AddTotalRevenueAfterActionsExecBuffInfo.Builder.class);
     }
 
-    public static final int ACTION_LIST_FIELD_NUMBER = 1;
+    public static final int ACTION_LIST_FIELD_NUMBER = 8;
     private java.util.List<java.lang.Integer> actionList_;
     private static final com.google.protobuf.Internal.ListAdapter.Converter<
         java.lang.Integer, emu.grasscutter.net.proto.NGGGDAFGJDLOuterClass.NGGGDAFGJDL> actionList_converter_ =
@@ -176,7 +176,7 @@ public final class _AddTotalRevenueAfterActionsExecBuffInfoOuterClass {
               }
             };
     /**
-     * <code>repeated .NGGGDAFGJDL action_list = 1;</code>
+     * <code>repeated .NGGGDAFGJDL action_list = 8;</code>
      * @return A list containing the actionList.
      */
     @java.lang.Override
@@ -185,7 +185,7 @@ public final class _AddTotalRevenueAfterActionsExecBuffInfoOuterClass {
           java.lang.Integer, emu.grasscutter.net.proto.NGGGDAFGJDLOuterClass.NGGGDAFGJDL>(actionList_, actionList_converter_);
     }
     /**
-     * <code>repeated .NGGGDAFGJDL action_list = 1;</code>
+     * <code>repeated .NGGGDAFGJDL action_list = 8;</code>
      * @return The count of actionList.
      */
     @java.lang.Override
@@ -193,7 +193,7 @@ public final class _AddTotalRevenueAfterActionsExecBuffInfoOuterClass {
       return actionList_.size();
     }
     /**
-     * <code>repeated .NGGGDAFGJDL action_list = 1;</code>
+     * <code>repeated .NGGGDAFGJDL action_list = 8;</code>
      * @param index The index of the element to return.
      * @return The actionList at the given index.
      */
@@ -202,7 +202,7 @@ public final class _AddTotalRevenueAfterActionsExecBuffInfoOuterClass {
       return actionList_converter_.convert(actionList_.get(index));
     }
     /**
-     * <code>repeated .NGGGDAFGJDL action_list = 1;</code>
+     * <code>repeated .NGGGDAFGJDL action_list = 8;</code>
      * @return A list containing the enum numeric values on the wire for actionList.
      */
     @java.lang.Override
@@ -211,7 +211,7 @@ public final class _AddTotalRevenueAfterActionsExecBuffInfoOuterClass {
       return actionList_;
     }
     /**
-     * <code>repeated .NGGGDAFGJDL action_list = 1;</code>
+     * <code>repeated .NGGGDAFGJDL action_list = 8;</code>
      * @param index The index of the value to return.
      * @return The enum numeric value on the wire of actionList at the given index.
      */
@@ -221,10 +221,10 @@ public final class _AddTotalRevenueAfterActionsExecBuffInfoOuterClass {
     }
     private int actionListMemoizedSerializedSize;
 
-    public static final int NHLOILJDDIP_FIELD_NUMBER = 6;
+    public static final int NHLOILJDDIP_FIELD_NUMBER = 10;
     private boolean nHLOILJDDIP_;
     /**
-     * <code>bool NHLOILJDDIP = 6;</code>
+     * <code>bool NHLOILJDDIP = 10;</code>
      * @return The nHLOILJDDIP.
      */
     @java.lang.Override
@@ -248,14 +248,14 @@ public final class _AddTotalRevenueAfterActionsExecBuffInfoOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getActionListList().size() > 0) {
-        output.writeUInt32NoTag(10);
+        output.writeUInt32NoTag(66);
         output.writeUInt32NoTag(actionListMemoizedSerializedSize);
       }
       for (int i = 0; i < actionList_.size(); i++) {
         output.writeEnumNoTag(actionList_.get(i));
       }
       if (nHLOILJDDIP_ != false) {
-        output.writeBool(6, nHLOILJDDIP_);
+        output.writeBool(10, nHLOILJDDIP_);
       }
       unknownFields.writeTo(output);
     }
@@ -280,7 +280,7 @@ public final class _AddTotalRevenueAfterActionsExecBuffInfoOuterClass {
       }
       if (nHLOILJDDIP_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(6, nHLOILJDDIP_);
+          .computeBoolSize(10, nHLOILJDDIP_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -588,7 +588,7 @@ public final class _AddTotalRevenueAfterActionsExecBuffInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .NGGGDAFGJDL action_list = 1;</code>
+       * <code>repeated .NGGGDAFGJDL action_list = 8;</code>
        * @return A list containing the actionList.
        */
       public java.util.List<emu.grasscutter.net.proto.NGGGDAFGJDLOuterClass.NGGGDAFGJDL> getActionListList() {
@@ -596,14 +596,14 @@ public final class _AddTotalRevenueAfterActionsExecBuffInfoOuterClass {
             java.lang.Integer, emu.grasscutter.net.proto.NGGGDAFGJDLOuterClass.NGGGDAFGJDL>(actionList_, actionList_converter_);
       }
       /**
-       * <code>repeated .NGGGDAFGJDL action_list = 1;</code>
+       * <code>repeated .NGGGDAFGJDL action_list = 8;</code>
        * @return The count of actionList.
        */
       public int getActionListCount() {
         return actionList_.size();
       }
       /**
-       * <code>repeated .NGGGDAFGJDL action_list = 1;</code>
+       * <code>repeated .NGGGDAFGJDL action_list = 8;</code>
        * @param index The index of the element to return.
        * @return The actionList at the given index.
        */
@@ -611,7 +611,7 @@ public final class _AddTotalRevenueAfterActionsExecBuffInfoOuterClass {
         return actionList_converter_.convert(actionList_.get(index));
       }
       /**
-       * <code>repeated .NGGGDAFGJDL action_list = 1;</code>
+       * <code>repeated .NGGGDAFGJDL action_list = 8;</code>
        * @param index The index to set the value at.
        * @param value The actionList to set.
        * @return This builder for chaining.
@@ -627,7 +627,7 @@ public final class _AddTotalRevenueAfterActionsExecBuffInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NGGGDAFGJDL action_list = 1;</code>
+       * <code>repeated .NGGGDAFGJDL action_list = 8;</code>
        * @param value The actionList to add.
        * @return This builder for chaining.
        */
@@ -641,7 +641,7 @@ public final class _AddTotalRevenueAfterActionsExecBuffInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NGGGDAFGJDL action_list = 1;</code>
+       * <code>repeated .NGGGDAFGJDL action_list = 8;</code>
        * @param values The actionList to add.
        * @return This builder for chaining.
        */
@@ -655,7 +655,7 @@ public final class _AddTotalRevenueAfterActionsExecBuffInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NGGGDAFGJDL action_list = 1;</code>
+       * <code>repeated .NGGGDAFGJDL action_list = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearActionList() {
@@ -665,7 +665,7 @@ public final class _AddTotalRevenueAfterActionsExecBuffInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NGGGDAFGJDL action_list = 1;</code>
+       * <code>repeated .NGGGDAFGJDL action_list = 8;</code>
        * @return A list containing the enum numeric values on the wire for actionList.
        */
       public java.util.List<java.lang.Integer>
@@ -673,7 +673,7 @@ public final class _AddTotalRevenueAfterActionsExecBuffInfoOuterClass {
         return java.util.Collections.unmodifiableList(actionList_);
       }
       /**
-       * <code>repeated .NGGGDAFGJDL action_list = 1;</code>
+       * <code>repeated .NGGGDAFGJDL action_list = 8;</code>
        * @param index The index of the value to return.
        * @return The enum numeric value on the wire of actionList at the given index.
        */
@@ -681,7 +681,7 @@ public final class _AddTotalRevenueAfterActionsExecBuffInfoOuterClass {
         return actionList_.get(index);
       }
       /**
-       * <code>repeated .NGGGDAFGJDL action_list = 1;</code>
+       * <code>repeated .NGGGDAFGJDL action_list = 8;</code>
        * @param index The index of the value to return.
        * @return The enum numeric value on the wire of actionList at the given index.
        * @return This builder for chaining.
@@ -694,7 +694,7 @@ public final class _AddTotalRevenueAfterActionsExecBuffInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NGGGDAFGJDL action_list = 1;</code>
+       * <code>repeated .NGGGDAFGJDL action_list = 8;</code>
        * @param value The enum numeric value on the wire for actionList to add.
        * @return This builder for chaining.
        */
@@ -705,7 +705,7 @@ public final class _AddTotalRevenueAfterActionsExecBuffInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NGGGDAFGJDL action_list = 1;</code>
+       * <code>repeated .NGGGDAFGJDL action_list = 8;</code>
        * @param values The enum numeric values on the wire for actionList to add.
        * @return This builder for chaining.
        */
@@ -721,7 +721,7 @@ public final class _AddTotalRevenueAfterActionsExecBuffInfoOuterClass {
 
       private boolean nHLOILJDDIP_ ;
       /**
-       * <code>bool NHLOILJDDIP = 6;</code>
+       * <code>bool NHLOILJDDIP = 10;</code>
        * @return The nHLOILJDDIP.
        */
       @java.lang.Override
@@ -729,7 +729,7 @@ public final class _AddTotalRevenueAfterActionsExecBuffInfoOuterClass {
         return nHLOILJDDIP_;
       }
       /**
-       * <code>bool NHLOILJDDIP = 6;</code>
+       * <code>bool NHLOILJDDIP = 10;</code>
        * @param value The nHLOILJDDIP to set.
        * @return This builder for chaining.
        */
@@ -740,7 +740,7 @@ public final class _AddTotalRevenueAfterActionsExecBuffInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool NHLOILJDDIP = 6;</code>
+       * <code>bool NHLOILJDDIP = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearNHLOILJDDIP() {
@@ -819,8 +819,8 @@ public final class _AddTotalRevenueAfterActionsExecBuffInfoOuterClass {
       "\n._AddTotalRevenueAfterActionsExecBuffIn" +
       "fo.proto\032\021NGGGDAFGJDL.proto\"b\n(_AddTotal" +
       "RevenueAfterActionsExecBuffInfo\022!\n\013actio" +
-      "n_list\030\001 \003(\0162\014.NGGGDAFGJDL\022\023\n\013NHLOILJDDI" +
-      "P\030\006 \001(\010BO\n\031emu.grasscutter.net.protoB2_A" +
+      "n_list\030\010 \003(\0162\014.NGGGDAFGJDL\022\023\n\013NHLOILJDDI" +
+      "P\030\n \001(\010BO\n\031emu.grasscutter.net.protoB2_A" +
       "ddTotalRevenueAfterActionsExecBuffInfoOu" +
       "terClassb\006proto3"
     };

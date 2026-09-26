@@ -6,6 +6,6 @@ option java_outer_classname = "PlayerChatReqOuterClass";
 import "ChatInfo.proto";
 
 message PlayerChatReq {
-	uint32 channel_id = 6;
-	ChatInfo chat_info = 10;
+	uint32 channel_id = 3;
+	ChatInfo chat_info = 6;
 }

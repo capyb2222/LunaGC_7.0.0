@@ -6,5 +6,5 @@ option java_outer_classname = "FurnitureCurModuleArrangeCountNotifyOuterClass";
 import "Uint32Pair.proto";
 
 message FurnitureCurModuleArrangeCountNotify {
-	repeated Uint32Pair furniture_arrange_count_list = 6;
+	repeated Uint32Pair furniture_arrange_count_list = 5;
 }

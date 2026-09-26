@@ -19,7 +19,7 @@ public final class _PartyLevelInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 FMKDPBIJNIM = 14;</code>
+     * <code>uint32 FMKDPBIJNIM = 7;</code>
      * @return The fMKDPBIJNIM.
      */
     int getFMKDPBIJNIM();
@@ -69,7 +69,7 @@ public final class _PartyLevelInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 112: {
+            case 56: {
 
               fMKDPBIJNIM_ = input.readUInt32();
               break;
@@ -106,10 +106,10 @@ public final class _PartyLevelInfoOuterClass {
               emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfo.class, emu.grasscutter.net.proto._PartyLevelInfoOuterClass._PartyLevelInfo.Builder.class);
     }
 
-    public static final int FMKDPBIJNIM_FIELD_NUMBER = 14;
+    public static final int FMKDPBIJNIM_FIELD_NUMBER = 7;
     private int fMKDPBIJNIM_;
     /**
-     * <code>uint32 FMKDPBIJNIM = 14;</code>
+     * <code>uint32 FMKDPBIJNIM = 7;</code>
      * @return The fMKDPBIJNIM.
      */
     @java.lang.Override
@@ -132,7 +132,7 @@ public final class _PartyLevelInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (fMKDPBIJNIM_ != 0) {
-        output.writeUInt32(14, fMKDPBIJNIM_);
+        output.writeUInt32(7, fMKDPBIJNIM_);
       }
       unknownFields.writeTo(output);
     }
@@ -145,7 +145,7 @@ public final class _PartyLevelInfoOuterClass {
       size = 0;
       if (fMKDPBIJNIM_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, fMKDPBIJNIM_);
+          .computeUInt32Size(7, fMKDPBIJNIM_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -421,7 +421,7 @@ public final class _PartyLevelInfoOuterClass {
 
       private int fMKDPBIJNIM_ ;
       /**
-       * <code>uint32 FMKDPBIJNIM = 14;</code>
+       * <code>uint32 FMKDPBIJNIM = 7;</code>
        * @return The fMKDPBIJNIM.
        */
       @java.lang.Override
@@ -429,7 +429,7 @@ public final class _PartyLevelInfoOuterClass {
         return fMKDPBIJNIM_;
       }
       /**
-       * <code>uint32 FMKDPBIJNIM = 14;</code>
+       * <code>uint32 FMKDPBIJNIM = 7;</code>
        * @param value The fMKDPBIJNIM to set.
        * @return This builder for chaining.
        */
@@ -440,7 +440,7 @@ public final class _PartyLevelInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 FMKDPBIJNIM = 14;</code>
+       * <code>uint32 FMKDPBIJNIM = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearFMKDPBIJNIM() {
@@ -517,7 +517,7 @@ public final class _PartyLevelInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\025_PartyLevelInfo.proto\"&\n\017_PartyLevelIn" +
-      "fo\022\023\n\013FMKDPBIJNIM\030\016 \001(\rB6\n\031emu.grasscutt" +
+      "fo\022\023\n\013FMKDPBIJNIM\030\007 \001(\rB6\n\031emu.grasscutt" +
       "er.net.protoB\031_PartyLevelInfoOuterClassb" +
       "\006proto3"
     };

@@ -6,5 +6,5 @@ option java_outer_classname = "SlimeCannonDetailInfoOuterClass";
 import "_SlimeCannonLevelInfo.proto";
 
 message SlimeCannonDetailInfo {
-	repeated _SlimeCannonLevelInfo level_info_list = 15;
+	repeated _SlimeCannonLevelInfo level_info_list = 9;
 }

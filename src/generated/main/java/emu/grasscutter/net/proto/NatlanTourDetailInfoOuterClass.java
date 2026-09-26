@@ -19,47 +19,47 @@ public final class NatlanTourDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.MJDAGPDBODL DJIOGHINDGP = 3;</code>
+     * <code>.MJDAGPDBODL DJIOGHINDGP = 15;</code>
      * @return Whether the dJIOGHINDGP field is set.
      */
     boolean hasDJIOGHINDGP();
     /**
-     * <code>.MJDAGPDBODL DJIOGHINDGP = 3;</code>
+     * <code>.MJDAGPDBODL DJIOGHINDGP = 15;</code>
      * @return The dJIOGHINDGP.
      */
     emu.grasscutter.net.proto.MJDAGPDBODLOuterClass.MJDAGPDBODL getDJIOGHINDGP();
     /**
-     * <code>.MJDAGPDBODL DJIOGHINDGP = 3;</code>
+     * <code>.MJDAGPDBODL DJIOGHINDGP = 15;</code>
      */
     emu.grasscutter.net.proto.MJDAGPDBODLOuterClass.MJDAGPDBODLOrBuilder getDJIOGHINDGPOrBuilder();
 
     /**
-     * <code>.OOHHKGLNCIN JKJHPFMHOGJ = 10;</code>
+     * <code>.OOHHKGLNCIN JKJHPFMHOGJ = 2;</code>
      * @return Whether the jKJHPFMHOGJ field is set.
      */
     boolean hasJKJHPFMHOGJ();
     /**
-     * <code>.OOHHKGLNCIN JKJHPFMHOGJ = 10;</code>
+     * <code>.OOHHKGLNCIN JKJHPFMHOGJ = 2;</code>
      * @return The jKJHPFMHOGJ.
      */
     emu.grasscutter.net.proto.OOHHKGLNCINOuterClass.OOHHKGLNCIN getJKJHPFMHOGJ();
     /**
-     * <code>.OOHHKGLNCIN JKJHPFMHOGJ = 10;</code>
+     * <code>.OOHHKGLNCIN JKJHPFMHOGJ = 2;</code>
      */
     emu.grasscutter.net.proto.OOHHKGLNCINOuterClass.OOHHKGLNCINOrBuilder getJKJHPFMHOGJOrBuilder();
 
     /**
-     * <code>.HPKLMGOJCBG explore_info = 13;</code>
+     * <code>.HPKLMGOJCBG explore_info = 12;</code>
      * @return Whether the exploreInfo field is set.
      */
     boolean hasExploreInfo();
     /**
-     * <code>.HPKLMGOJCBG explore_info = 13;</code>
+     * <code>.HPKLMGOJCBG explore_info = 12;</code>
      * @return The exploreInfo.
      */
     emu.grasscutter.net.proto.HPKLMGOJCBGOuterClass.HPKLMGOJCBG getExploreInfo();
     /**
-     * <code>.HPKLMGOJCBG explore_info = 13;</code>
+     * <code>.HPKLMGOJCBG explore_info = 12;</code>
      */
     emu.grasscutter.net.proto.HPKLMGOJCBGOuterClass.HPKLMGOJCBGOrBuilder getExploreInfoOrBuilder();
   }
@@ -108,20 +108,7 @@ public final class NatlanTourDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 26: {
-              emu.grasscutter.net.proto.MJDAGPDBODLOuterClass.MJDAGPDBODL.Builder subBuilder = null;
-              if (dJIOGHINDGP_ != null) {
-                subBuilder = dJIOGHINDGP_.toBuilder();
-              }
-              dJIOGHINDGP_ = input.readMessage(emu.grasscutter.net.proto.MJDAGPDBODLOuterClass.MJDAGPDBODL.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(dJIOGHINDGP_);
-                dJIOGHINDGP_ = subBuilder.buildPartial();
-              }
-
-              break;
-            }
-            case 82: {
+            case 18: {
               emu.grasscutter.net.proto.OOHHKGLNCINOuterClass.OOHHKGLNCIN.Builder subBuilder = null;
               if (jKJHPFMHOGJ_ != null) {
                 subBuilder = jKJHPFMHOGJ_.toBuilder();
@@ -134,7 +121,7 @@ public final class NatlanTourDetailInfoOuterClass {
 
               break;
             }
-            case 106: {
+            case 98: {
               emu.grasscutter.net.proto.HPKLMGOJCBGOuterClass.HPKLMGOJCBG.Builder subBuilder = null;
               if (exploreInfo_ != null) {
                 subBuilder = exploreInfo_.toBuilder();
@@ -143,6 +130,19 @@ public final class NatlanTourDetailInfoOuterClass {
               if (subBuilder != null) {
                 subBuilder.mergeFrom(exploreInfo_);
                 exploreInfo_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 122: {
+              emu.grasscutter.net.proto.MJDAGPDBODLOuterClass.MJDAGPDBODL.Builder subBuilder = null;
+              if (dJIOGHINDGP_ != null) {
+                subBuilder = dJIOGHINDGP_.toBuilder();
+              }
+              dJIOGHINDGP_ = input.readMessage(emu.grasscutter.net.proto.MJDAGPDBODLOuterClass.MJDAGPDBODL.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(dJIOGHINDGP_);
+                dJIOGHINDGP_ = subBuilder.buildPartial();
               }
 
               break;
@@ -179,10 +179,10 @@ public final class NatlanTourDetailInfoOuterClass {
               emu.grasscutter.net.proto.NatlanTourDetailInfoOuterClass.NatlanTourDetailInfo.class, emu.grasscutter.net.proto.NatlanTourDetailInfoOuterClass.NatlanTourDetailInfo.Builder.class);
     }
 
-    public static final int DJIOGHINDGP_FIELD_NUMBER = 3;
+    public static final int DJIOGHINDGP_FIELD_NUMBER = 15;
     private emu.grasscutter.net.proto.MJDAGPDBODLOuterClass.MJDAGPDBODL dJIOGHINDGP_;
     /**
-     * <code>.MJDAGPDBODL DJIOGHINDGP = 3;</code>
+     * <code>.MJDAGPDBODL DJIOGHINDGP = 15;</code>
      * @return Whether the dJIOGHINDGP field is set.
      */
     @java.lang.Override
@@ -190,7 +190,7 @@ public final class NatlanTourDetailInfoOuterClass {
       return dJIOGHINDGP_ != null;
     }
     /**
-     * <code>.MJDAGPDBODL DJIOGHINDGP = 3;</code>
+     * <code>.MJDAGPDBODL DJIOGHINDGP = 15;</code>
      * @return The dJIOGHINDGP.
      */
     @java.lang.Override
@@ -198,17 +198,17 @@ public final class NatlanTourDetailInfoOuterClass {
       return dJIOGHINDGP_ == null ? emu.grasscutter.net.proto.MJDAGPDBODLOuterClass.MJDAGPDBODL.getDefaultInstance() : dJIOGHINDGP_;
     }
     /**
-     * <code>.MJDAGPDBODL DJIOGHINDGP = 3;</code>
+     * <code>.MJDAGPDBODL DJIOGHINDGP = 15;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.MJDAGPDBODLOuterClass.MJDAGPDBODLOrBuilder getDJIOGHINDGPOrBuilder() {
       return getDJIOGHINDGP();
     }
 
-    public static final int JKJHPFMHOGJ_FIELD_NUMBER = 10;
+    public static final int JKJHPFMHOGJ_FIELD_NUMBER = 2;
     private emu.grasscutter.net.proto.OOHHKGLNCINOuterClass.OOHHKGLNCIN jKJHPFMHOGJ_;
     /**
-     * <code>.OOHHKGLNCIN JKJHPFMHOGJ = 10;</code>
+     * <code>.OOHHKGLNCIN JKJHPFMHOGJ = 2;</code>
      * @return Whether the jKJHPFMHOGJ field is set.
      */
     @java.lang.Override
@@ -216,7 +216,7 @@ public final class NatlanTourDetailInfoOuterClass {
       return jKJHPFMHOGJ_ != null;
     }
     /**
-     * <code>.OOHHKGLNCIN JKJHPFMHOGJ = 10;</code>
+     * <code>.OOHHKGLNCIN JKJHPFMHOGJ = 2;</code>
      * @return The jKJHPFMHOGJ.
      */
     @java.lang.Override
@@ -224,17 +224,17 @@ public final class NatlanTourDetailInfoOuterClass {
       return jKJHPFMHOGJ_ == null ? emu.grasscutter.net.proto.OOHHKGLNCINOuterClass.OOHHKGLNCIN.getDefaultInstance() : jKJHPFMHOGJ_;
     }
     /**
-     * <code>.OOHHKGLNCIN JKJHPFMHOGJ = 10;</code>
+     * <code>.OOHHKGLNCIN JKJHPFMHOGJ = 2;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.OOHHKGLNCINOuterClass.OOHHKGLNCINOrBuilder getJKJHPFMHOGJOrBuilder() {
       return getJKJHPFMHOGJ();
     }
 
-    public static final int EXPLORE_INFO_FIELD_NUMBER = 13;
+    public static final int EXPLORE_INFO_FIELD_NUMBER = 12;
     private emu.grasscutter.net.proto.HPKLMGOJCBGOuterClass.HPKLMGOJCBG exploreInfo_;
     /**
-     * <code>.HPKLMGOJCBG explore_info = 13;</code>
+     * <code>.HPKLMGOJCBG explore_info = 12;</code>
      * @return Whether the exploreInfo field is set.
      */
     @java.lang.Override
@@ -242,7 +242,7 @@ public final class NatlanTourDetailInfoOuterClass {
       return exploreInfo_ != null;
     }
     /**
-     * <code>.HPKLMGOJCBG explore_info = 13;</code>
+     * <code>.HPKLMGOJCBG explore_info = 12;</code>
      * @return The exploreInfo.
      */
     @java.lang.Override
@@ -250,7 +250,7 @@ public final class NatlanTourDetailInfoOuterClass {
       return exploreInfo_ == null ? emu.grasscutter.net.proto.HPKLMGOJCBGOuterClass.HPKLMGOJCBG.getDefaultInstance() : exploreInfo_;
     }
     /**
-     * <code>.HPKLMGOJCBG explore_info = 13;</code>
+     * <code>.HPKLMGOJCBG explore_info = 12;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.HPKLMGOJCBGOuterClass.HPKLMGOJCBGOrBuilder getExploreInfoOrBuilder() {
@@ -271,14 +271,14 @@ public final class NatlanTourDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (dJIOGHINDGP_ != null) {
-        output.writeMessage(3, getDJIOGHINDGP());
-      }
       if (jKJHPFMHOGJ_ != null) {
-        output.writeMessage(10, getJKJHPFMHOGJ());
+        output.writeMessage(2, getJKJHPFMHOGJ());
       }
       if (exploreInfo_ != null) {
-        output.writeMessage(13, getExploreInfo());
+        output.writeMessage(12, getExploreInfo());
+      }
+      if (dJIOGHINDGP_ != null) {
+        output.writeMessage(15, getDJIOGHINDGP());
       }
       unknownFields.writeTo(output);
     }
@@ -289,17 +289,17 @@ public final class NatlanTourDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (dJIOGHINDGP_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(3, getDJIOGHINDGP());
-      }
       if (jKJHPFMHOGJ_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, getJKJHPFMHOGJ());
+          .computeMessageSize(2, getJKJHPFMHOGJ());
       }
       if (exploreInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, getExploreInfo());
+          .computeMessageSize(12, getExploreInfo());
+      }
+      if (dJIOGHINDGP_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(15, getDJIOGHINDGP());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -636,14 +636,14 @@ public final class NatlanTourDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.MJDAGPDBODLOuterClass.MJDAGPDBODL, emu.grasscutter.net.proto.MJDAGPDBODLOuterClass.MJDAGPDBODL.Builder, emu.grasscutter.net.proto.MJDAGPDBODLOuterClass.MJDAGPDBODLOrBuilder> dJIOGHINDGPBuilder_;
       /**
-       * <code>.MJDAGPDBODL DJIOGHINDGP = 3;</code>
+       * <code>.MJDAGPDBODL DJIOGHINDGP = 15;</code>
        * @return Whether the dJIOGHINDGP field is set.
        */
       public boolean hasDJIOGHINDGP() {
         return dJIOGHINDGPBuilder_ != null || dJIOGHINDGP_ != null;
       }
       /**
-       * <code>.MJDAGPDBODL DJIOGHINDGP = 3;</code>
+       * <code>.MJDAGPDBODL DJIOGHINDGP = 15;</code>
        * @return The dJIOGHINDGP.
        */
       public emu.grasscutter.net.proto.MJDAGPDBODLOuterClass.MJDAGPDBODL getDJIOGHINDGP() {
@@ -654,7 +654,7 @@ public final class NatlanTourDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.MJDAGPDBODL DJIOGHINDGP = 3;</code>
+       * <code>.MJDAGPDBODL DJIOGHINDGP = 15;</code>
        */
       public Builder setDJIOGHINDGP(emu.grasscutter.net.proto.MJDAGPDBODLOuterClass.MJDAGPDBODL value) {
         if (dJIOGHINDGPBuilder_ == null) {
@@ -670,7 +670,7 @@ public final class NatlanTourDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.MJDAGPDBODL DJIOGHINDGP = 3;</code>
+       * <code>.MJDAGPDBODL DJIOGHINDGP = 15;</code>
        */
       public Builder setDJIOGHINDGP(
           emu.grasscutter.net.proto.MJDAGPDBODLOuterClass.MJDAGPDBODL.Builder builderForValue) {
@@ -684,7 +684,7 @@ public final class NatlanTourDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.MJDAGPDBODL DJIOGHINDGP = 3;</code>
+       * <code>.MJDAGPDBODL DJIOGHINDGP = 15;</code>
        */
       public Builder mergeDJIOGHINDGP(emu.grasscutter.net.proto.MJDAGPDBODLOuterClass.MJDAGPDBODL value) {
         if (dJIOGHINDGPBuilder_ == null) {
@@ -702,7 +702,7 @@ public final class NatlanTourDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.MJDAGPDBODL DJIOGHINDGP = 3;</code>
+       * <code>.MJDAGPDBODL DJIOGHINDGP = 15;</code>
        */
       public Builder clearDJIOGHINDGP() {
         if (dJIOGHINDGPBuilder_ == null) {
@@ -716,7 +716,7 @@ public final class NatlanTourDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.MJDAGPDBODL DJIOGHINDGP = 3;</code>
+       * <code>.MJDAGPDBODL DJIOGHINDGP = 15;</code>
        */
       public emu.grasscutter.net.proto.MJDAGPDBODLOuterClass.MJDAGPDBODL.Builder getDJIOGHINDGPBuilder() {
         
@@ -724,7 +724,7 @@ public final class NatlanTourDetailInfoOuterClass {
         return getDJIOGHINDGPFieldBuilder().getBuilder();
       }
       /**
-       * <code>.MJDAGPDBODL DJIOGHINDGP = 3;</code>
+       * <code>.MJDAGPDBODL DJIOGHINDGP = 15;</code>
        */
       public emu.grasscutter.net.proto.MJDAGPDBODLOuterClass.MJDAGPDBODLOrBuilder getDJIOGHINDGPOrBuilder() {
         if (dJIOGHINDGPBuilder_ != null) {
@@ -735,7 +735,7 @@ public final class NatlanTourDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.MJDAGPDBODL DJIOGHINDGP = 3;</code>
+       * <code>.MJDAGPDBODL DJIOGHINDGP = 15;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.MJDAGPDBODLOuterClass.MJDAGPDBODL, emu.grasscutter.net.proto.MJDAGPDBODLOuterClass.MJDAGPDBODL.Builder, emu.grasscutter.net.proto.MJDAGPDBODLOuterClass.MJDAGPDBODLOrBuilder> 
@@ -755,14 +755,14 @@ public final class NatlanTourDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.OOHHKGLNCINOuterClass.OOHHKGLNCIN, emu.grasscutter.net.proto.OOHHKGLNCINOuterClass.OOHHKGLNCIN.Builder, emu.grasscutter.net.proto.OOHHKGLNCINOuterClass.OOHHKGLNCINOrBuilder> jKJHPFMHOGJBuilder_;
       /**
-       * <code>.OOHHKGLNCIN JKJHPFMHOGJ = 10;</code>
+       * <code>.OOHHKGLNCIN JKJHPFMHOGJ = 2;</code>
        * @return Whether the jKJHPFMHOGJ field is set.
        */
       public boolean hasJKJHPFMHOGJ() {
         return jKJHPFMHOGJBuilder_ != null || jKJHPFMHOGJ_ != null;
       }
       /**
-       * <code>.OOHHKGLNCIN JKJHPFMHOGJ = 10;</code>
+       * <code>.OOHHKGLNCIN JKJHPFMHOGJ = 2;</code>
        * @return The jKJHPFMHOGJ.
        */
       public emu.grasscutter.net.proto.OOHHKGLNCINOuterClass.OOHHKGLNCIN getJKJHPFMHOGJ() {
@@ -773,7 +773,7 @@ public final class NatlanTourDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.OOHHKGLNCIN JKJHPFMHOGJ = 10;</code>
+       * <code>.OOHHKGLNCIN JKJHPFMHOGJ = 2;</code>
        */
       public Builder setJKJHPFMHOGJ(emu.grasscutter.net.proto.OOHHKGLNCINOuterClass.OOHHKGLNCIN value) {
         if (jKJHPFMHOGJBuilder_ == null) {
@@ -789,7 +789,7 @@ public final class NatlanTourDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.OOHHKGLNCIN JKJHPFMHOGJ = 10;</code>
+       * <code>.OOHHKGLNCIN JKJHPFMHOGJ = 2;</code>
        */
       public Builder setJKJHPFMHOGJ(
           emu.grasscutter.net.proto.OOHHKGLNCINOuterClass.OOHHKGLNCIN.Builder builderForValue) {
@@ -803,7 +803,7 @@ public final class NatlanTourDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.OOHHKGLNCIN JKJHPFMHOGJ = 10;</code>
+       * <code>.OOHHKGLNCIN JKJHPFMHOGJ = 2;</code>
        */
       public Builder mergeJKJHPFMHOGJ(emu.grasscutter.net.proto.OOHHKGLNCINOuterClass.OOHHKGLNCIN value) {
         if (jKJHPFMHOGJBuilder_ == null) {
@@ -821,7 +821,7 @@ public final class NatlanTourDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.OOHHKGLNCIN JKJHPFMHOGJ = 10;</code>
+       * <code>.OOHHKGLNCIN JKJHPFMHOGJ = 2;</code>
        */
       public Builder clearJKJHPFMHOGJ() {
         if (jKJHPFMHOGJBuilder_ == null) {
@@ -835,7 +835,7 @@ public final class NatlanTourDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.OOHHKGLNCIN JKJHPFMHOGJ = 10;</code>
+       * <code>.OOHHKGLNCIN JKJHPFMHOGJ = 2;</code>
        */
       public emu.grasscutter.net.proto.OOHHKGLNCINOuterClass.OOHHKGLNCIN.Builder getJKJHPFMHOGJBuilder() {
         
@@ -843,7 +843,7 @@ public final class NatlanTourDetailInfoOuterClass {
         return getJKJHPFMHOGJFieldBuilder().getBuilder();
       }
       /**
-       * <code>.OOHHKGLNCIN JKJHPFMHOGJ = 10;</code>
+       * <code>.OOHHKGLNCIN JKJHPFMHOGJ = 2;</code>
        */
       public emu.grasscutter.net.proto.OOHHKGLNCINOuterClass.OOHHKGLNCINOrBuilder getJKJHPFMHOGJOrBuilder() {
         if (jKJHPFMHOGJBuilder_ != null) {
@@ -854,7 +854,7 @@ public final class NatlanTourDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.OOHHKGLNCIN JKJHPFMHOGJ = 10;</code>
+       * <code>.OOHHKGLNCIN JKJHPFMHOGJ = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.OOHHKGLNCINOuterClass.OOHHKGLNCIN, emu.grasscutter.net.proto.OOHHKGLNCINOuterClass.OOHHKGLNCIN.Builder, emu.grasscutter.net.proto.OOHHKGLNCINOuterClass.OOHHKGLNCINOrBuilder> 
@@ -874,14 +874,14 @@ public final class NatlanTourDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.HPKLMGOJCBGOuterClass.HPKLMGOJCBG, emu.grasscutter.net.proto.HPKLMGOJCBGOuterClass.HPKLMGOJCBG.Builder, emu.grasscutter.net.proto.HPKLMGOJCBGOuterClass.HPKLMGOJCBGOrBuilder> exploreInfoBuilder_;
       /**
-       * <code>.HPKLMGOJCBG explore_info = 13;</code>
+       * <code>.HPKLMGOJCBG explore_info = 12;</code>
        * @return Whether the exploreInfo field is set.
        */
       public boolean hasExploreInfo() {
         return exploreInfoBuilder_ != null || exploreInfo_ != null;
       }
       /**
-       * <code>.HPKLMGOJCBG explore_info = 13;</code>
+       * <code>.HPKLMGOJCBG explore_info = 12;</code>
        * @return The exploreInfo.
        */
       public emu.grasscutter.net.proto.HPKLMGOJCBGOuterClass.HPKLMGOJCBG getExploreInfo() {
@@ -892,7 +892,7 @@ public final class NatlanTourDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.HPKLMGOJCBG explore_info = 13;</code>
+       * <code>.HPKLMGOJCBG explore_info = 12;</code>
        */
       public Builder setExploreInfo(emu.grasscutter.net.proto.HPKLMGOJCBGOuterClass.HPKLMGOJCBG value) {
         if (exploreInfoBuilder_ == null) {
@@ -908,7 +908,7 @@ public final class NatlanTourDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.HPKLMGOJCBG explore_info = 13;</code>
+       * <code>.HPKLMGOJCBG explore_info = 12;</code>
        */
       public Builder setExploreInfo(
           emu.grasscutter.net.proto.HPKLMGOJCBGOuterClass.HPKLMGOJCBG.Builder builderForValue) {
@@ -922,7 +922,7 @@ public final class NatlanTourDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.HPKLMGOJCBG explore_info = 13;</code>
+       * <code>.HPKLMGOJCBG explore_info = 12;</code>
        */
       public Builder mergeExploreInfo(emu.grasscutter.net.proto.HPKLMGOJCBGOuterClass.HPKLMGOJCBG value) {
         if (exploreInfoBuilder_ == null) {
@@ -940,7 +940,7 @@ public final class NatlanTourDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.HPKLMGOJCBG explore_info = 13;</code>
+       * <code>.HPKLMGOJCBG explore_info = 12;</code>
        */
       public Builder clearExploreInfo() {
         if (exploreInfoBuilder_ == null) {
@@ -954,7 +954,7 @@ public final class NatlanTourDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.HPKLMGOJCBG explore_info = 13;</code>
+       * <code>.HPKLMGOJCBG explore_info = 12;</code>
        */
       public emu.grasscutter.net.proto.HPKLMGOJCBGOuterClass.HPKLMGOJCBG.Builder getExploreInfoBuilder() {
         
@@ -962,7 +962,7 @@ public final class NatlanTourDetailInfoOuterClass {
         return getExploreInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>.HPKLMGOJCBG explore_info = 13;</code>
+       * <code>.HPKLMGOJCBG explore_info = 12;</code>
        */
       public emu.grasscutter.net.proto.HPKLMGOJCBGOuterClass.HPKLMGOJCBGOrBuilder getExploreInfoOrBuilder() {
         if (exploreInfoBuilder_ != null) {
@@ -973,7 +973,7 @@ public final class NatlanTourDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.HPKLMGOJCBG explore_info = 13;</code>
+       * <code>.HPKLMGOJCBG explore_info = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.HPKLMGOJCBGOuterClass.HPKLMGOJCBG, emu.grasscutter.net.proto.HPKLMGOJCBGOuterClass.HPKLMGOJCBG.Builder, emu.grasscutter.net.proto.HPKLMGOJCBGOuterClass.HPKLMGOJCBGOrBuilder> 
@@ -1058,8 +1058,8 @@ public final class NatlanTourDetailInfoOuterClass {
       "\n\032NatlanTourDetailInfo.proto\032\021HPKLMGOJCB" +
       "G.proto\032\021MJDAGPDBODL.proto\032\021OOHHKGLNCIN." +
       "proto\"\200\001\n\024NatlanTourDetailInfo\022!\n\013DJIOGH" +
-      "INDGP\030\003 \001(\0132\014.MJDAGPDBODL\022!\n\013JKJHPFMHOGJ" +
-      "\030\n \001(\0132\014.OOHHKGLNCIN\022\"\n\014explore_info\030\r \001" +
+      "INDGP\030\017 \001(\0132\014.MJDAGPDBODL\022!\n\013JKJHPFMHOGJ" +
+      "\030\002 \001(\0132\014.OOHHKGLNCIN\022\"\n\014explore_info\030\014 \001" +
       "(\0132\014.HPKLMGOJCBGB;\n\031emu.grasscutter.net." +
       "protoB\036NatlanTourDetailInfoOuterClassb\006p" +
       "roto3"

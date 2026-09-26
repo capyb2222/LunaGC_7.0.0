@@ -5,6 +5,6 @@ option java_outer_classname = "FishingJoyDetailInfoOuterClass";
 
 message FishingJoyDetailInfo {
 	uint32 jejkilgbcol = 2;
-	bool FPKBKGBKGEG = 5;
-	bool LBCGNOOJDIC = 13;
+	bool FPKBKGBKGEG = 15;
+	bool LBCGNOOJDIC = 12;
 }

@@ -6,5 +6,5 @@ option java_outer_classname = "SummerTimeSprintBoatInfoOuterClass";
 import "SummerTimeSprintBoatRecord.proto";
 
 message SummerTimeSprintBoatInfo {
-	repeated SummerTimeSprintBoatRecord record_list = 1;
+	repeated SummerTimeSprintBoatRecord record_list = 2;
 }

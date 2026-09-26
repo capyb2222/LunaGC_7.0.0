@@ -6,11 +6,11 @@ option java_outer_classname = "_LanternRiteV6ParkourSettleInfoOuterClass";
 import "GalleryStopReason.proto";
 
 message _LanternRiteV6ParkourSettleInfo {
-	uint32 collect_num = 4;
-	uint32 _max_collect_num = 7;
-	uint32 level_id = 9;
-	GalleryStopReason reason = 10;
-	bool is_new_record = 11;
-	uint32 score = 13;
-	uint32 use_time = 15;
+	uint32 collect_num = 3;
+	uint32 _max_collect_num = 15;
+	uint32 level_id = 5;
+	GalleryStopReason reason = 8;
+	bool is_new_record = 10;
+	uint32 score = 4;
+	uint32 use_time = 1;
 }

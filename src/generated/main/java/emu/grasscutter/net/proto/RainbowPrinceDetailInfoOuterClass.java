@@ -19,49 +19,49 @@ public final class RainbowPrinceDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 2;</code>
+     * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 15;</code>
      */
     java.util.List<emu.grasscutter.net.proto.LBGHHNDLACNOuterClass.LBGHHNDLACN> 
         getHGNLKDCGLBOList();
     /**
-     * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 2;</code>
+     * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 15;</code>
      */
     emu.grasscutter.net.proto.LBGHHNDLACNOuterClass.LBGHHNDLACN getHGNLKDCGLBO(int index);
     /**
-     * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 2;</code>
+     * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 15;</code>
      */
     int getHGNLKDCGLBOCount();
     /**
-     * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 2;</code>
+     * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 15;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.LBGHHNDLACNOuterClass.LBGHHNDLACNOrBuilder> 
         getHGNLKDCGLBOOrBuilderList();
     /**
-     * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 2;</code>
+     * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 15;</code>
      */
     emu.grasscutter.net.proto.LBGHHNDLACNOuterClass.LBGHHNDLACNOrBuilder getHGNLKDCGLBOOrBuilder(
         int index);
 
     /**
-     * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 6;</code>
+     * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 3;</code>
      */
     java.util.List<emu.grasscutter.net.proto.HEEIDHNNCDMOuterClass.HEEIDHNNCDM> 
         getNBALJIPCLAFList();
     /**
-     * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 6;</code>
+     * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 3;</code>
      */
     emu.grasscutter.net.proto.HEEIDHNNCDMOuterClass.HEEIDHNNCDM getNBALJIPCLAF(int index);
     /**
-     * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 6;</code>
+     * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 3;</code>
      */
     int getNBALJIPCLAFCount();
     /**
-     * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 6;</code>
+     * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 3;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.HEEIDHNNCDMOuterClass.HEEIDHNNCDMOrBuilder> 
         getNBALJIPCLAFOrBuilderList();
     /**
-     * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 6;</code>
+     * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 3;</code>
      */
     emu.grasscutter.net.proto.HEEIDHNNCDMOuterClass.HEEIDHNNCDMOrBuilder getNBALJIPCLAFOrBuilder(
         int index);
@@ -114,22 +114,22 @@ public final class RainbowPrinceDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 18: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                hGNLKDCGLBO_ = new java.util.ArrayList<emu.grasscutter.net.proto.LBGHHNDLACNOuterClass.LBGHHNDLACN>();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              hGNLKDCGLBO_.add(
-                  input.readMessage(emu.grasscutter.net.proto.LBGHHNDLACNOuterClass.LBGHHNDLACN.parser(), extensionRegistry));
-              break;
-            }
-            case 50: {
+            case 26: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 nBALJIPCLAF_ = new java.util.ArrayList<emu.grasscutter.net.proto.HEEIDHNNCDMOuterClass.HEEIDHNNCDM>();
                 mutable_bitField0_ |= 0x00000002;
               }
               nBALJIPCLAF_.add(
                   input.readMessage(emu.grasscutter.net.proto.HEEIDHNNCDMOuterClass.HEEIDHNNCDM.parser(), extensionRegistry));
+              break;
+            }
+            case 122: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                hGNLKDCGLBO_ = new java.util.ArrayList<emu.grasscutter.net.proto.LBGHHNDLACNOuterClass.LBGHHNDLACN>();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              hGNLKDCGLBO_.add(
+                  input.readMessage(emu.grasscutter.net.proto.LBGHHNDLACNOuterClass.LBGHHNDLACN.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -147,11 +147,11 @@ public final class RainbowPrinceDetailInfoOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          hGNLKDCGLBO_ = java.util.Collections.unmodifiableList(hGNLKDCGLBO_);
-        }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
           nBALJIPCLAF_ = java.util.Collections.unmodifiableList(nBALJIPCLAF_);
+        }
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          hGNLKDCGLBO_ = java.util.Collections.unmodifiableList(hGNLKDCGLBO_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -170,17 +170,17 @@ public final class RainbowPrinceDetailInfoOuterClass {
               emu.grasscutter.net.proto.RainbowPrinceDetailInfoOuterClass.RainbowPrinceDetailInfo.class, emu.grasscutter.net.proto.RainbowPrinceDetailInfoOuterClass.RainbowPrinceDetailInfo.Builder.class);
     }
 
-    public static final int HGNLKDCGLBO_FIELD_NUMBER = 2;
+    public static final int HGNLKDCGLBO_FIELD_NUMBER = 15;
     private java.util.List<emu.grasscutter.net.proto.LBGHHNDLACNOuterClass.LBGHHNDLACN> hGNLKDCGLBO_;
     /**
-     * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 2;</code>
+     * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 15;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.LBGHHNDLACNOuterClass.LBGHHNDLACN> getHGNLKDCGLBOList() {
       return hGNLKDCGLBO_;
     }
     /**
-     * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 2;</code>
+     * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 15;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.LBGHHNDLACNOuterClass.LBGHHNDLACNOrBuilder> 
@@ -188,21 +188,21 @@ public final class RainbowPrinceDetailInfoOuterClass {
       return hGNLKDCGLBO_;
     }
     /**
-     * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 2;</code>
+     * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 15;</code>
      */
     @java.lang.Override
     public int getHGNLKDCGLBOCount() {
       return hGNLKDCGLBO_.size();
     }
     /**
-     * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 2;</code>
+     * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 15;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.LBGHHNDLACNOuterClass.LBGHHNDLACN getHGNLKDCGLBO(int index) {
       return hGNLKDCGLBO_.get(index);
     }
     /**
-     * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 2;</code>
+     * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 15;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.LBGHHNDLACNOuterClass.LBGHHNDLACNOrBuilder getHGNLKDCGLBOOrBuilder(
@@ -210,17 +210,17 @@ public final class RainbowPrinceDetailInfoOuterClass {
       return hGNLKDCGLBO_.get(index);
     }
 
-    public static final int NBALJIPCLAF_FIELD_NUMBER = 6;
+    public static final int NBALJIPCLAF_FIELD_NUMBER = 3;
     private java.util.List<emu.grasscutter.net.proto.HEEIDHNNCDMOuterClass.HEEIDHNNCDM> nBALJIPCLAF_;
     /**
-     * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 6;</code>
+     * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 3;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.HEEIDHNNCDMOuterClass.HEEIDHNNCDM> getNBALJIPCLAFList() {
       return nBALJIPCLAF_;
     }
     /**
-     * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 6;</code>
+     * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 3;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.HEEIDHNNCDMOuterClass.HEEIDHNNCDMOrBuilder> 
@@ -228,21 +228,21 @@ public final class RainbowPrinceDetailInfoOuterClass {
       return nBALJIPCLAF_;
     }
     /**
-     * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 6;</code>
+     * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 3;</code>
      */
     @java.lang.Override
     public int getNBALJIPCLAFCount() {
       return nBALJIPCLAF_.size();
     }
     /**
-     * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 6;</code>
+     * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 3;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.HEEIDHNNCDMOuterClass.HEEIDHNNCDM getNBALJIPCLAF(int index) {
       return nBALJIPCLAF_.get(index);
     }
     /**
-     * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 6;</code>
+     * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 3;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.HEEIDHNNCDMOuterClass.HEEIDHNNCDMOrBuilder getNBALJIPCLAFOrBuilder(
@@ -264,11 +264,11 @@ public final class RainbowPrinceDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      for (int i = 0; i < hGNLKDCGLBO_.size(); i++) {
-        output.writeMessage(2, hGNLKDCGLBO_.get(i));
-      }
       for (int i = 0; i < nBALJIPCLAF_.size(); i++) {
-        output.writeMessage(6, nBALJIPCLAF_.get(i));
+        output.writeMessage(3, nBALJIPCLAF_.get(i));
+      }
+      for (int i = 0; i < hGNLKDCGLBO_.size(); i++) {
+        output.writeMessage(15, hGNLKDCGLBO_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -279,13 +279,13 @@ public final class RainbowPrinceDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < hGNLKDCGLBO_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, hGNLKDCGLBO_.get(i));
-      }
       for (int i = 0; i < nBALJIPCLAF_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, nBALJIPCLAF_.get(i));
+          .computeMessageSize(3, nBALJIPCLAF_.get(i));
+      }
+      for (int i = 0; i < hGNLKDCGLBO_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(15, hGNLKDCGLBO_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -660,7 +660,7 @@ public final class RainbowPrinceDetailInfoOuterClass {
           emu.grasscutter.net.proto.LBGHHNDLACNOuterClass.LBGHHNDLACN, emu.grasscutter.net.proto.LBGHHNDLACNOuterClass.LBGHHNDLACN.Builder, emu.grasscutter.net.proto.LBGHHNDLACNOuterClass.LBGHHNDLACNOrBuilder> hGNLKDCGLBOBuilder_;
 
       /**
-       * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 2;</code>
+       * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 15;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.LBGHHNDLACNOuterClass.LBGHHNDLACN> getHGNLKDCGLBOList() {
         if (hGNLKDCGLBOBuilder_ == null) {
@@ -670,7 +670,7 @@ public final class RainbowPrinceDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 2;</code>
+       * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 15;</code>
        */
       public int getHGNLKDCGLBOCount() {
         if (hGNLKDCGLBOBuilder_ == null) {
@@ -680,7 +680,7 @@ public final class RainbowPrinceDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 2;</code>
+       * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 15;</code>
        */
       public emu.grasscutter.net.proto.LBGHHNDLACNOuterClass.LBGHHNDLACN getHGNLKDCGLBO(int index) {
         if (hGNLKDCGLBOBuilder_ == null) {
@@ -690,7 +690,7 @@ public final class RainbowPrinceDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 2;</code>
+       * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 15;</code>
        */
       public Builder setHGNLKDCGLBO(
           int index, emu.grasscutter.net.proto.LBGHHNDLACNOuterClass.LBGHHNDLACN value) {
@@ -707,7 +707,7 @@ public final class RainbowPrinceDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 2;</code>
+       * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 15;</code>
        */
       public Builder setHGNLKDCGLBO(
           int index, emu.grasscutter.net.proto.LBGHHNDLACNOuterClass.LBGHHNDLACN.Builder builderForValue) {
@@ -721,7 +721,7 @@ public final class RainbowPrinceDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 2;</code>
+       * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 15;</code>
        */
       public Builder addHGNLKDCGLBO(emu.grasscutter.net.proto.LBGHHNDLACNOuterClass.LBGHHNDLACN value) {
         if (hGNLKDCGLBOBuilder_ == null) {
@@ -737,7 +737,7 @@ public final class RainbowPrinceDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 2;</code>
+       * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 15;</code>
        */
       public Builder addHGNLKDCGLBO(
           int index, emu.grasscutter.net.proto.LBGHHNDLACNOuterClass.LBGHHNDLACN value) {
@@ -754,7 +754,7 @@ public final class RainbowPrinceDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 2;</code>
+       * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 15;</code>
        */
       public Builder addHGNLKDCGLBO(
           emu.grasscutter.net.proto.LBGHHNDLACNOuterClass.LBGHHNDLACN.Builder builderForValue) {
@@ -768,7 +768,7 @@ public final class RainbowPrinceDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 2;</code>
+       * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 15;</code>
        */
       public Builder addHGNLKDCGLBO(
           int index, emu.grasscutter.net.proto.LBGHHNDLACNOuterClass.LBGHHNDLACN.Builder builderForValue) {
@@ -782,7 +782,7 @@ public final class RainbowPrinceDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 2;</code>
+       * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 15;</code>
        */
       public Builder addAllHGNLKDCGLBO(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.LBGHHNDLACNOuterClass.LBGHHNDLACN> values) {
@@ -797,7 +797,7 @@ public final class RainbowPrinceDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 2;</code>
+       * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 15;</code>
        */
       public Builder clearHGNLKDCGLBO() {
         if (hGNLKDCGLBOBuilder_ == null) {
@@ -810,7 +810,7 @@ public final class RainbowPrinceDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 2;</code>
+       * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 15;</code>
        */
       public Builder removeHGNLKDCGLBO(int index) {
         if (hGNLKDCGLBOBuilder_ == null) {
@@ -823,14 +823,14 @@ public final class RainbowPrinceDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 2;</code>
+       * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 15;</code>
        */
       public emu.grasscutter.net.proto.LBGHHNDLACNOuterClass.LBGHHNDLACN.Builder getHGNLKDCGLBOBuilder(
           int index) {
         return getHGNLKDCGLBOFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 2;</code>
+       * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 15;</code>
        */
       public emu.grasscutter.net.proto.LBGHHNDLACNOuterClass.LBGHHNDLACNOrBuilder getHGNLKDCGLBOOrBuilder(
           int index) {
@@ -840,7 +840,7 @@ public final class RainbowPrinceDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 2;</code>
+       * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 15;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.LBGHHNDLACNOuterClass.LBGHHNDLACNOrBuilder> 
            getHGNLKDCGLBOOrBuilderList() {
@@ -851,14 +851,14 @@ public final class RainbowPrinceDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 2;</code>
+       * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 15;</code>
        */
       public emu.grasscutter.net.proto.LBGHHNDLACNOuterClass.LBGHHNDLACN.Builder addHGNLKDCGLBOBuilder() {
         return getHGNLKDCGLBOFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.LBGHHNDLACNOuterClass.LBGHHNDLACN.getDefaultInstance());
       }
       /**
-       * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 2;</code>
+       * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 15;</code>
        */
       public emu.grasscutter.net.proto.LBGHHNDLACNOuterClass.LBGHHNDLACN.Builder addHGNLKDCGLBOBuilder(
           int index) {
@@ -866,7 +866,7 @@ public final class RainbowPrinceDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.LBGHHNDLACNOuterClass.LBGHHNDLACN.getDefaultInstance());
       }
       /**
-       * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 2;</code>
+       * <code>repeated .LBGHHNDLACN HGNLKDCGLBO = 15;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.LBGHHNDLACNOuterClass.LBGHHNDLACN.Builder> 
            getHGNLKDCGLBOBuilderList() {
@@ -900,7 +900,7 @@ public final class RainbowPrinceDetailInfoOuterClass {
           emu.grasscutter.net.proto.HEEIDHNNCDMOuterClass.HEEIDHNNCDM, emu.grasscutter.net.proto.HEEIDHNNCDMOuterClass.HEEIDHNNCDM.Builder, emu.grasscutter.net.proto.HEEIDHNNCDMOuterClass.HEEIDHNNCDMOrBuilder> nBALJIPCLAFBuilder_;
 
       /**
-       * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 6;</code>
+       * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 3;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.HEEIDHNNCDMOuterClass.HEEIDHNNCDM> getNBALJIPCLAFList() {
         if (nBALJIPCLAFBuilder_ == null) {
@@ -910,7 +910,7 @@ public final class RainbowPrinceDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 6;</code>
+       * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 3;</code>
        */
       public int getNBALJIPCLAFCount() {
         if (nBALJIPCLAFBuilder_ == null) {
@@ -920,7 +920,7 @@ public final class RainbowPrinceDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 6;</code>
+       * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 3;</code>
        */
       public emu.grasscutter.net.proto.HEEIDHNNCDMOuterClass.HEEIDHNNCDM getNBALJIPCLAF(int index) {
         if (nBALJIPCLAFBuilder_ == null) {
@@ -930,7 +930,7 @@ public final class RainbowPrinceDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 6;</code>
+       * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 3;</code>
        */
       public Builder setNBALJIPCLAF(
           int index, emu.grasscutter.net.proto.HEEIDHNNCDMOuterClass.HEEIDHNNCDM value) {
@@ -947,7 +947,7 @@ public final class RainbowPrinceDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 6;</code>
+       * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 3;</code>
        */
       public Builder setNBALJIPCLAF(
           int index, emu.grasscutter.net.proto.HEEIDHNNCDMOuterClass.HEEIDHNNCDM.Builder builderForValue) {
@@ -961,7 +961,7 @@ public final class RainbowPrinceDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 6;</code>
+       * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 3;</code>
        */
       public Builder addNBALJIPCLAF(emu.grasscutter.net.proto.HEEIDHNNCDMOuterClass.HEEIDHNNCDM value) {
         if (nBALJIPCLAFBuilder_ == null) {
@@ -977,7 +977,7 @@ public final class RainbowPrinceDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 6;</code>
+       * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 3;</code>
        */
       public Builder addNBALJIPCLAF(
           int index, emu.grasscutter.net.proto.HEEIDHNNCDMOuterClass.HEEIDHNNCDM value) {
@@ -994,7 +994,7 @@ public final class RainbowPrinceDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 6;</code>
+       * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 3;</code>
        */
       public Builder addNBALJIPCLAF(
           emu.grasscutter.net.proto.HEEIDHNNCDMOuterClass.HEEIDHNNCDM.Builder builderForValue) {
@@ -1008,7 +1008,7 @@ public final class RainbowPrinceDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 6;</code>
+       * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 3;</code>
        */
       public Builder addNBALJIPCLAF(
           int index, emu.grasscutter.net.proto.HEEIDHNNCDMOuterClass.HEEIDHNNCDM.Builder builderForValue) {
@@ -1022,7 +1022,7 @@ public final class RainbowPrinceDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 6;</code>
+       * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 3;</code>
        */
       public Builder addAllNBALJIPCLAF(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.HEEIDHNNCDMOuterClass.HEEIDHNNCDM> values) {
@@ -1037,7 +1037,7 @@ public final class RainbowPrinceDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 6;</code>
+       * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 3;</code>
        */
       public Builder clearNBALJIPCLAF() {
         if (nBALJIPCLAFBuilder_ == null) {
@@ -1050,7 +1050,7 @@ public final class RainbowPrinceDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 6;</code>
+       * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 3;</code>
        */
       public Builder removeNBALJIPCLAF(int index) {
         if (nBALJIPCLAFBuilder_ == null) {
@@ -1063,14 +1063,14 @@ public final class RainbowPrinceDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 6;</code>
+       * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 3;</code>
        */
       public emu.grasscutter.net.proto.HEEIDHNNCDMOuterClass.HEEIDHNNCDM.Builder getNBALJIPCLAFBuilder(
           int index) {
         return getNBALJIPCLAFFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 6;</code>
+       * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 3;</code>
        */
       public emu.grasscutter.net.proto.HEEIDHNNCDMOuterClass.HEEIDHNNCDMOrBuilder getNBALJIPCLAFOrBuilder(
           int index) {
@@ -1080,7 +1080,7 @@ public final class RainbowPrinceDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 6;</code>
+       * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 3;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.HEEIDHNNCDMOuterClass.HEEIDHNNCDMOrBuilder> 
            getNBALJIPCLAFOrBuilderList() {
@@ -1091,14 +1091,14 @@ public final class RainbowPrinceDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 6;</code>
+       * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 3;</code>
        */
       public emu.grasscutter.net.proto.HEEIDHNNCDMOuterClass.HEEIDHNNCDM.Builder addNBALJIPCLAFBuilder() {
         return getNBALJIPCLAFFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.HEEIDHNNCDMOuterClass.HEEIDHNNCDM.getDefaultInstance());
       }
       /**
-       * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 6;</code>
+       * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 3;</code>
        */
       public emu.grasscutter.net.proto.HEEIDHNNCDMOuterClass.HEEIDHNNCDM.Builder addNBALJIPCLAFBuilder(
           int index) {
@@ -1106,7 +1106,7 @@ public final class RainbowPrinceDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.HEEIDHNNCDMOuterClass.HEEIDHNNCDM.getDefaultInstance());
       }
       /**
-       * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 6;</code>
+       * <code>repeated .HEEIDHNNCDM NBALJIPCLAF = 3;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.HEEIDHNNCDMOuterClass.HEEIDHNNCDM.Builder> 
            getNBALJIPCLAFBuilderList() {
@@ -1195,8 +1195,8 @@ public final class RainbowPrinceDetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\035RainbowPrinceDetailInfo.proto\032\021HEEIDHN" +
       "NCDM.proto\032\021LBGHHNDLACN.proto\"_\n\027Rainbow" +
-      "PrinceDetailInfo\022!\n\013HGNLKDCGLBO\030\002 \003(\0132\014." +
-      "LBGHHNDLACN\022!\n\013NBALJIPCLAF\030\006 \003(\0132\014.HEEID" +
+      "PrinceDetailInfo\022!\n\013HGNLKDCGLBO\030\017 \003(\0132\014." +
+      "LBGHHNDLACN\022!\n\013NBALJIPCLAF\030\003 \003(\0132\014.HEEID" +
       "HNNCDMB>\n\031emu.grasscutter.net.protoB!Rai" +
       "nbowPrinceDetailInfoOuterClassb\006proto3"
     };

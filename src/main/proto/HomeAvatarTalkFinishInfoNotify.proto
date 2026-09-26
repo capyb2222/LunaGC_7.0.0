@@ -6,5 +6,5 @@ option java_outer_classname = "HomeAvatarTalkFinishInfoNotifyOuterClass";
 import "HomeAvatarTalkFinishInfo.proto";
 
 message HomeAvatarTalkFinishInfoNotify {
-	repeated HomeAvatarTalkFinishInfo avatar_talk_info_list = 11;
+	repeated HomeAvatarTalkFinishInfo avatar_talk_info_list = 4;
 }

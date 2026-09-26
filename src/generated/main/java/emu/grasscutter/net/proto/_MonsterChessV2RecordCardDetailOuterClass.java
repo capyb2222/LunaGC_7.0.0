@@ -19,19 +19,19 @@ public final class _MonsterChessV2RecordCardDetailOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 _card_star_num = 1;</code>
+     * <code>uint32 _card_star_num = 50000;</code>
      * @return The cardStarNum.
      */
     int getCardStarNum();
 
     /**
-     * <code>uint32 card_id = 4;</code>
+     * <code>uint32 card_id = 7;</code>
      * @return The cardId.
      */
     int getCardId();
 
     /**
-     * <code>uint32 extra_level = 15;</code>
+     * <code>uint32 extra_level = 50001;</code>
      * @return The extraLevel.
      */
     int getExtraLevel();
@@ -81,17 +81,17 @@ public final class _MonsterChessV2RecordCardDetailOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
-
-              CardStarNum_ = input.readUInt32();
-              break;
-            }
-            case 32: {
+            case 56: {
 
               cardId_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 400000: {
+
+              CardStarNum_ = input.readUInt32();
+              break;
+            }
+            case 400008: {
 
               extraLevel_ = input.readUInt32();
               break;
@@ -128,10 +128,10 @@ public final class _MonsterChessV2RecordCardDetailOuterClass {
               emu.grasscutter.net.proto._MonsterChessV2RecordCardDetailOuterClass._MonsterChessV2RecordCardDetail.class, emu.grasscutter.net.proto._MonsterChessV2RecordCardDetailOuterClass._MonsterChessV2RecordCardDetail.Builder.class);
     }
 
-    public static final int _CARD_STAR_NUM_FIELD_NUMBER = 1;
+    public static final int _CARD_STAR_NUM_FIELD_NUMBER = 50000;
     private int CardStarNum_;
     /**
-     * <code>uint32 _card_star_num = 1;</code>
+     * <code>uint32 _card_star_num = 50000;</code>
      * @return The cardStarNum.
      */
     @java.lang.Override
@@ -139,10 +139,10 @@ public final class _MonsterChessV2RecordCardDetailOuterClass {
       return CardStarNum_;
     }
 
-    public static final int CARD_ID_FIELD_NUMBER = 4;
+    public static final int CARD_ID_FIELD_NUMBER = 7;
     private int cardId_;
     /**
-     * <code>uint32 card_id = 4;</code>
+     * <code>uint32 card_id = 7;</code>
      * @return The cardId.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class _MonsterChessV2RecordCardDetailOuterClass {
       return cardId_;
     }
 
-    public static final int EXTRA_LEVEL_FIELD_NUMBER = 15;
+    public static final int EXTRA_LEVEL_FIELD_NUMBER = 50001;
     private int extraLevel_;
     /**
-     * <code>uint32 extra_level = 15;</code>
+     * <code>uint32 extra_level = 50001;</code>
      * @return The extraLevel.
      */
     @java.lang.Override
@@ -175,14 +175,14 @@ public final class _MonsterChessV2RecordCardDetailOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (CardStarNum_ != 0) {
-        output.writeUInt32(1, CardStarNum_);
-      }
       if (cardId_ != 0) {
-        output.writeUInt32(4, cardId_);
+        output.writeUInt32(7, cardId_);
+      }
+      if (CardStarNum_ != 0) {
+        output.writeUInt32(50000, CardStarNum_);
       }
       if (extraLevel_ != 0) {
-        output.writeUInt32(15, extraLevel_);
+        output.writeUInt32(50001, extraLevel_);
       }
       unknownFields.writeTo(output);
     }
@@ -193,17 +193,17 @@ public final class _MonsterChessV2RecordCardDetailOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (CardStarNum_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, CardStarNum_);
-      }
       if (cardId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, cardId_);
+          .computeUInt32Size(7, cardId_);
+      }
+      if (CardStarNum_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50000, CardStarNum_);
       }
       if (extraLevel_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, extraLevel_);
+          .computeUInt32Size(50001, extraLevel_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -499,7 +499,7 @@ public final class _MonsterChessV2RecordCardDetailOuterClass {
 
       private int CardStarNum_ ;
       /**
-       * <code>uint32 _card_star_num = 1;</code>
+       * <code>uint32 _card_star_num = 50000;</code>
        * @return The cardStarNum.
        */
       @java.lang.Override
@@ -507,7 +507,7 @@ public final class _MonsterChessV2RecordCardDetailOuterClass {
         return CardStarNum_;
       }
       /**
-       * <code>uint32 _card_star_num = 1;</code>
+       * <code>uint32 _card_star_num = 50000;</code>
        * @param value The cardStarNum to set.
        * @return This builder for chaining.
        */
@@ -518,7 +518,7 @@ public final class _MonsterChessV2RecordCardDetailOuterClass {
         return this;
       }
       /**
-       * <code>uint32 _card_star_num = 1;</code>
+       * <code>uint32 _card_star_num = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearCardStarNum() {
@@ -530,7 +530,7 @@ public final class _MonsterChessV2RecordCardDetailOuterClass {
 
       private int cardId_ ;
       /**
-       * <code>uint32 card_id = 4;</code>
+       * <code>uint32 card_id = 7;</code>
        * @return The cardId.
        */
       @java.lang.Override
@@ -538,7 +538,7 @@ public final class _MonsterChessV2RecordCardDetailOuterClass {
         return cardId_;
       }
       /**
-       * <code>uint32 card_id = 4;</code>
+       * <code>uint32 card_id = 7;</code>
        * @param value The cardId to set.
        * @return This builder for chaining.
        */
@@ -549,7 +549,7 @@ public final class _MonsterChessV2RecordCardDetailOuterClass {
         return this;
       }
       /**
-       * <code>uint32 card_id = 4;</code>
+       * <code>uint32 card_id = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearCardId() {
@@ -561,7 +561,7 @@ public final class _MonsterChessV2RecordCardDetailOuterClass {
 
       private int extraLevel_ ;
       /**
-       * <code>uint32 extra_level = 15;</code>
+       * <code>uint32 extra_level = 50001;</code>
        * @return The extraLevel.
        */
       @java.lang.Override
@@ -569,7 +569,7 @@ public final class _MonsterChessV2RecordCardDetailOuterClass {
         return extraLevel_;
       }
       /**
-       * <code>uint32 extra_level = 15;</code>
+       * <code>uint32 extra_level = 50001;</code>
        * @param value The extraLevel to set.
        * @return This builder for chaining.
        */
@@ -580,7 +580,7 @@ public final class _MonsterChessV2RecordCardDetailOuterClass {
         return this;
       }
       /**
-       * <code>uint32 extra_level = 15;</code>
+       * <code>uint32 extra_level = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearExtraLevel() {
@@ -657,11 +657,11 @@ public final class _MonsterChessV2RecordCardDetailOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n%_MonsterChessV2RecordCardDetail.proto\"" +
-      "_\n\037_MonsterChessV2RecordCardDetail\022\026\n\016_c" +
-      "ard_star_num\030\001 \001(\r\022\017\n\007card_id\030\004 \001(\r\022\023\n\013e" +
-      "xtra_level\030\017 \001(\rBF\n\031emu.grasscutter.net." +
-      "protoB)_MonsterChessV2RecordCardDetailOu" +
-      "terClassb\006proto3"
+      "c\n\037_MonsterChessV2RecordCardDetail\022\030\n\016_c" +
+      "ard_star_num\030\320\206\003 \001(\r\022\017\n\007card_id\030\007 \001(\r\022\025\n" +
+      "\013extra_level\030\321\206\003 \001(\rBF\n\031emu.grasscutter." +
+      "net.protoB)_MonsterChessV2RecordCardDeta" +
+      "ilOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

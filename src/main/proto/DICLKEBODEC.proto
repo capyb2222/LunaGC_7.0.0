@@ -6,5 +6,5 @@ option java_outer_classname = "DICLKEBODECOuterClass";
 import "_PlatformKey.proto";
 
 message DICLKEBODEC {
-	optional _PlatformKey platform_key = 9;
+	optional _PlatformKey platform_key = 8;
 }

@@ -25,12 +25,12 @@ public final class CAHKNHJEHKBOuterClass {
     int getLevelId();
 
     /**
-     * <code>.DONBNKJAIDH JLOKHDKLJEE = 15;</code>
+     * <code>.DONBNKJAIDH JLOKHDKLJEE = 5;</code>
      * @return The enum numeric value on the wire for jLOKHDKLJEE.
      */
     int getJLOKHDKLJEEValue();
     /**
-     * <code>.DONBNKJAIDH JLOKHDKLJEE = 15;</code>
+     * <code>.DONBNKJAIDH JLOKHDKLJEE = 5;</code>
      * @return The jLOKHDKLJEE.
      */
     emu.grasscutter.net.proto.DONBNKJAIDHOuterClass.DONBNKJAIDH getJLOKHDKLJEE();
@@ -86,7 +86,7 @@ public final class CAHKNHJEHKBOuterClass {
               levelId_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 40: {
               int rawValue = input.readEnum();
 
               jLOKHDKLJEE_ = rawValue;
@@ -135,17 +135,17 @@ public final class CAHKNHJEHKBOuterClass {
       return levelId_;
     }
 
-    public static final int JLOKHDKLJEE_FIELD_NUMBER = 15;
+    public static final int JLOKHDKLJEE_FIELD_NUMBER = 5;
     private int jLOKHDKLJEE_;
     /**
-     * <code>.DONBNKJAIDH JLOKHDKLJEE = 15;</code>
+     * <code>.DONBNKJAIDH JLOKHDKLJEE = 5;</code>
      * @return The enum numeric value on the wire for jLOKHDKLJEE.
      */
     @java.lang.Override public int getJLOKHDKLJEEValue() {
       return jLOKHDKLJEE_;
     }
     /**
-     * <code>.DONBNKJAIDH JLOKHDKLJEE = 15;</code>
+     * <code>.DONBNKJAIDH JLOKHDKLJEE = 5;</code>
      * @return The jLOKHDKLJEE.
      */
     @java.lang.Override public emu.grasscutter.net.proto.DONBNKJAIDHOuterClass.DONBNKJAIDH getJLOKHDKLJEE() {
@@ -172,7 +172,7 @@ public final class CAHKNHJEHKBOuterClass {
         output.writeUInt32(2, levelId_);
       }
       if (jLOKHDKLJEE_ != emu.grasscutter.net.proto.DONBNKJAIDHOuterClass.DONBNKJAIDH.DONBNKJAIDH_SANDWORM_LEVEL_NOT_OPEN.getNumber()) {
-        output.writeEnum(15, jLOKHDKLJEE_);
+        output.writeEnum(5, jLOKHDKLJEE_);
       }
       unknownFields.writeTo(output);
     }
@@ -189,7 +189,7 @@ public final class CAHKNHJEHKBOuterClass {
       }
       if (jLOKHDKLJEE_ != emu.grasscutter.net.proto.DONBNKJAIDHOuterClass.DONBNKJAIDH.DONBNKJAIDH_SANDWORM_LEVEL_NOT_OPEN.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(15, jLOKHDKLJEE_);
+          .computeEnumSize(5, jLOKHDKLJEE_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -505,14 +505,14 @@ public final class CAHKNHJEHKBOuterClass {
 
       private int jLOKHDKLJEE_ = 0;
       /**
-       * <code>.DONBNKJAIDH JLOKHDKLJEE = 15;</code>
+       * <code>.DONBNKJAIDH JLOKHDKLJEE = 5;</code>
        * @return The enum numeric value on the wire for jLOKHDKLJEE.
        */
       @java.lang.Override public int getJLOKHDKLJEEValue() {
         return jLOKHDKLJEE_;
       }
       /**
-       * <code>.DONBNKJAIDH JLOKHDKLJEE = 15;</code>
+       * <code>.DONBNKJAIDH JLOKHDKLJEE = 5;</code>
        * @param value The enum numeric value on the wire for jLOKHDKLJEE to set.
        * @return This builder for chaining.
        */
@@ -523,7 +523,7 @@ public final class CAHKNHJEHKBOuterClass {
         return this;
       }
       /**
-       * <code>.DONBNKJAIDH JLOKHDKLJEE = 15;</code>
+       * <code>.DONBNKJAIDH JLOKHDKLJEE = 5;</code>
        * @return The jLOKHDKLJEE.
        */
       @java.lang.Override
@@ -533,7 +533,7 @@ public final class CAHKNHJEHKBOuterClass {
         return result == null ? emu.grasscutter.net.proto.DONBNKJAIDHOuterClass.DONBNKJAIDH.UNRECOGNIZED : result;
       }
       /**
-       * <code>.DONBNKJAIDH JLOKHDKLJEE = 15;</code>
+       * <code>.DONBNKJAIDH JLOKHDKLJEE = 5;</code>
        * @param value The jLOKHDKLJEE to set.
        * @return This builder for chaining.
        */
@@ -547,7 +547,7 @@ public final class CAHKNHJEHKBOuterClass {
         return this;
       }
       /**
-       * <code>.DONBNKJAIDH JLOKHDKLJEE = 15;</code>
+       * <code>.DONBNKJAIDH JLOKHDKLJEE = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearJLOKHDKLJEE() {
@@ -625,7 +625,7 @@ public final class CAHKNHJEHKBOuterClass {
     java.lang.String[] descriptorData = {
       "\n\021CAHKNHJEHKB.proto\032\021DONBNKJAIDH.proto\"B" +
       "\n\013CAHKNHJEHKB\022\020\n\010level_id\030\002 \001(\r\022!\n\013JLOKH" +
-      "DKLJEE\030\017 \001(\0162\014.DONBNKJAIDHB2\n\031emu.grassc" +
+      "DKLJEE\030\005 \001(\0162\014.DONBNKJAIDHB2\n\031emu.grassc" +
       "utter.net.protoB\025CAHKNHJEHKBOuterClassb\006" +
       "proto3"
     };

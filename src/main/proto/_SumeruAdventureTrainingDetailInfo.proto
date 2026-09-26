@@ -4,5 +4,5 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "_SumeruAdventureTrainingDetailInfoOuterClass";
 
 message _SumeruAdventureTrainingDetailInfo {
-	uint32 NCIGAJNBCHN = 11;
+	uint32 NCIGAJNBCHN = 6;
 }

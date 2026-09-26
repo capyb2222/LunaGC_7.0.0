@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "AskAddFriendRspOuterClass";
 
 message AskAddFriendRsp {
-	uint32 target_uid = 2;
-	uint32 param = 7;
-	int32 retcode = 13;
+	uint32 target_uid = 15;
+	uint32 param = 14;
+	int32 retcode = 12;
 }

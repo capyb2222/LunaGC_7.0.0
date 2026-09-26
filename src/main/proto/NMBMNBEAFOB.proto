@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "NMBMNBEAFOBOuterClass";
 
 message NMBMNBEAFOB {
-	uint32 LOGADODHKOG = 3;
-	uint32 JAECPMNDFGP = 12;
+	uint32 LOGADODHKOG = 50000;
+	uint32 JAECPMNDFGP = 50001;
 }

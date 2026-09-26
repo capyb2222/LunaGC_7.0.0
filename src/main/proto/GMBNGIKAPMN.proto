@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "GMBNGIKAPMNOuterClass";
 
 message GMBNGIKAPMN {
-	bool is_open = 1;
-	uint32 level_id = 10;
-	bool is_finish = 14;
+	bool is_open = 15;
+	uint32 level_id = 14;
+	bool is_finish = 9;
 }

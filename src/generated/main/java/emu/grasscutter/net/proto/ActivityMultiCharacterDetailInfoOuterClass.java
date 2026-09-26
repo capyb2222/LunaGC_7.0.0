@@ -19,25 +19,25 @@ public final class ActivityMultiCharacterDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .BPCBGKJBBMO stage_info_list = 12;</code>
+     * <code>repeated .BPCBGKJBBMO stage_info_list = 1;</code>
      */
     java.util.List<emu.grasscutter.net.proto.BPCBGKJBBMOOuterClass.BPCBGKJBBMO> 
         getStageInfoListList();
     /**
-     * <code>repeated .BPCBGKJBBMO stage_info_list = 12;</code>
+     * <code>repeated .BPCBGKJBBMO stage_info_list = 1;</code>
      */
     emu.grasscutter.net.proto.BPCBGKJBBMOOuterClass.BPCBGKJBBMO getStageInfoList(int index);
     /**
-     * <code>repeated .BPCBGKJBBMO stage_info_list = 12;</code>
+     * <code>repeated .BPCBGKJBBMO stage_info_list = 1;</code>
      */
     int getStageInfoListCount();
     /**
-     * <code>repeated .BPCBGKJBBMO stage_info_list = 12;</code>
+     * <code>repeated .BPCBGKJBBMO stage_info_list = 1;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.BPCBGKJBBMOOuterClass.BPCBGKJBBMOOrBuilder> 
         getStageInfoListOrBuilderList();
     /**
-     * <code>repeated .BPCBGKJBBMO stage_info_list = 12;</code>
+     * <code>repeated .BPCBGKJBBMO stage_info_list = 1;</code>
      */
     emu.grasscutter.net.proto.BPCBGKJBBMOOuterClass.BPCBGKJBBMOOrBuilder getStageInfoListOrBuilder(
         int index);
@@ -89,7 +89,7 @@ public final class ActivityMultiCharacterDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 98: {
+            case 10: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 stageInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.BPCBGKJBBMOOuterClass.BPCBGKJBBMO>();
                 mutable_bitField0_ |= 0x00000001;
@@ -133,17 +133,17 @@ public final class ActivityMultiCharacterDetailInfoOuterClass {
               emu.grasscutter.net.proto.ActivityMultiCharacterDetailInfoOuterClass.ActivityMultiCharacterDetailInfo.class, emu.grasscutter.net.proto.ActivityMultiCharacterDetailInfoOuterClass.ActivityMultiCharacterDetailInfo.Builder.class);
     }
 
-    public static final int STAGE_INFO_LIST_FIELD_NUMBER = 12;
+    public static final int STAGE_INFO_LIST_FIELD_NUMBER = 1;
     private java.util.List<emu.grasscutter.net.proto.BPCBGKJBBMOOuterClass.BPCBGKJBBMO> stageInfoList_;
     /**
-     * <code>repeated .BPCBGKJBBMO stage_info_list = 12;</code>
+     * <code>repeated .BPCBGKJBBMO stage_info_list = 1;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.BPCBGKJBBMOOuterClass.BPCBGKJBBMO> getStageInfoListList() {
       return stageInfoList_;
     }
     /**
-     * <code>repeated .BPCBGKJBBMO stage_info_list = 12;</code>
+     * <code>repeated .BPCBGKJBBMO stage_info_list = 1;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.BPCBGKJBBMOOuterClass.BPCBGKJBBMOOrBuilder> 
@@ -151,21 +151,21 @@ public final class ActivityMultiCharacterDetailInfoOuterClass {
       return stageInfoList_;
     }
     /**
-     * <code>repeated .BPCBGKJBBMO stage_info_list = 12;</code>
+     * <code>repeated .BPCBGKJBBMO stage_info_list = 1;</code>
      */
     @java.lang.Override
     public int getStageInfoListCount() {
       return stageInfoList_.size();
     }
     /**
-     * <code>repeated .BPCBGKJBBMO stage_info_list = 12;</code>
+     * <code>repeated .BPCBGKJBBMO stage_info_list = 1;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.BPCBGKJBBMOOuterClass.BPCBGKJBBMO getStageInfoList(int index) {
       return stageInfoList_.get(index);
     }
     /**
-     * <code>repeated .BPCBGKJBBMO stage_info_list = 12;</code>
+     * <code>repeated .BPCBGKJBBMO stage_info_list = 1;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.BPCBGKJBBMOOuterClass.BPCBGKJBBMOOrBuilder getStageInfoListOrBuilder(
@@ -188,7 +188,7 @@ public final class ActivityMultiCharacterDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < stageInfoList_.size(); i++) {
-        output.writeMessage(12, stageInfoList_.get(i));
+        output.writeMessage(1, stageInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -201,7 +201,7 @@ public final class ActivityMultiCharacterDetailInfoOuterClass {
       size = 0;
       for (int i = 0; i < stageInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, stageInfoList_.get(i));
+          .computeMessageSize(1, stageInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -528,7 +528,7 @@ public final class ActivityMultiCharacterDetailInfoOuterClass {
           emu.grasscutter.net.proto.BPCBGKJBBMOOuterClass.BPCBGKJBBMO, emu.grasscutter.net.proto.BPCBGKJBBMOOuterClass.BPCBGKJBBMO.Builder, emu.grasscutter.net.proto.BPCBGKJBBMOOuterClass.BPCBGKJBBMOOrBuilder> stageInfoListBuilder_;
 
       /**
-       * <code>repeated .BPCBGKJBBMO stage_info_list = 12;</code>
+       * <code>repeated .BPCBGKJBBMO stage_info_list = 1;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.BPCBGKJBBMOOuterClass.BPCBGKJBBMO> getStageInfoListList() {
         if (stageInfoListBuilder_ == null) {
@@ -538,7 +538,7 @@ public final class ActivityMultiCharacterDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BPCBGKJBBMO stage_info_list = 12;</code>
+       * <code>repeated .BPCBGKJBBMO stage_info_list = 1;</code>
        */
       public int getStageInfoListCount() {
         if (stageInfoListBuilder_ == null) {
@@ -548,7 +548,7 @@ public final class ActivityMultiCharacterDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BPCBGKJBBMO stage_info_list = 12;</code>
+       * <code>repeated .BPCBGKJBBMO stage_info_list = 1;</code>
        */
       public emu.grasscutter.net.proto.BPCBGKJBBMOOuterClass.BPCBGKJBBMO getStageInfoList(int index) {
         if (stageInfoListBuilder_ == null) {
@@ -558,7 +558,7 @@ public final class ActivityMultiCharacterDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BPCBGKJBBMO stage_info_list = 12;</code>
+       * <code>repeated .BPCBGKJBBMO stage_info_list = 1;</code>
        */
       public Builder setStageInfoList(
           int index, emu.grasscutter.net.proto.BPCBGKJBBMOOuterClass.BPCBGKJBBMO value) {
@@ -575,7 +575,7 @@ public final class ActivityMultiCharacterDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BPCBGKJBBMO stage_info_list = 12;</code>
+       * <code>repeated .BPCBGKJBBMO stage_info_list = 1;</code>
        */
       public Builder setStageInfoList(
           int index, emu.grasscutter.net.proto.BPCBGKJBBMOOuterClass.BPCBGKJBBMO.Builder builderForValue) {
@@ -589,7 +589,7 @@ public final class ActivityMultiCharacterDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BPCBGKJBBMO stage_info_list = 12;</code>
+       * <code>repeated .BPCBGKJBBMO stage_info_list = 1;</code>
        */
       public Builder addStageInfoList(emu.grasscutter.net.proto.BPCBGKJBBMOOuterClass.BPCBGKJBBMO value) {
         if (stageInfoListBuilder_ == null) {
@@ -605,7 +605,7 @@ public final class ActivityMultiCharacterDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BPCBGKJBBMO stage_info_list = 12;</code>
+       * <code>repeated .BPCBGKJBBMO stage_info_list = 1;</code>
        */
       public Builder addStageInfoList(
           int index, emu.grasscutter.net.proto.BPCBGKJBBMOOuterClass.BPCBGKJBBMO value) {
@@ -622,7 +622,7 @@ public final class ActivityMultiCharacterDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BPCBGKJBBMO stage_info_list = 12;</code>
+       * <code>repeated .BPCBGKJBBMO stage_info_list = 1;</code>
        */
       public Builder addStageInfoList(
           emu.grasscutter.net.proto.BPCBGKJBBMOOuterClass.BPCBGKJBBMO.Builder builderForValue) {
@@ -636,7 +636,7 @@ public final class ActivityMultiCharacterDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BPCBGKJBBMO stage_info_list = 12;</code>
+       * <code>repeated .BPCBGKJBBMO stage_info_list = 1;</code>
        */
       public Builder addStageInfoList(
           int index, emu.grasscutter.net.proto.BPCBGKJBBMOOuterClass.BPCBGKJBBMO.Builder builderForValue) {
@@ -650,7 +650,7 @@ public final class ActivityMultiCharacterDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BPCBGKJBBMO stage_info_list = 12;</code>
+       * <code>repeated .BPCBGKJBBMO stage_info_list = 1;</code>
        */
       public Builder addAllStageInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.BPCBGKJBBMOOuterClass.BPCBGKJBBMO> values) {
@@ -665,7 +665,7 @@ public final class ActivityMultiCharacterDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BPCBGKJBBMO stage_info_list = 12;</code>
+       * <code>repeated .BPCBGKJBBMO stage_info_list = 1;</code>
        */
       public Builder clearStageInfoList() {
         if (stageInfoListBuilder_ == null) {
@@ -678,7 +678,7 @@ public final class ActivityMultiCharacterDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BPCBGKJBBMO stage_info_list = 12;</code>
+       * <code>repeated .BPCBGKJBBMO stage_info_list = 1;</code>
        */
       public Builder removeStageInfoList(int index) {
         if (stageInfoListBuilder_ == null) {
@@ -691,14 +691,14 @@ public final class ActivityMultiCharacterDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .BPCBGKJBBMO stage_info_list = 12;</code>
+       * <code>repeated .BPCBGKJBBMO stage_info_list = 1;</code>
        */
       public emu.grasscutter.net.proto.BPCBGKJBBMOOuterClass.BPCBGKJBBMO.Builder getStageInfoListBuilder(
           int index) {
         return getStageInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .BPCBGKJBBMO stage_info_list = 12;</code>
+       * <code>repeated .BPCBGKJBBMO stage_info_list = 1;</code>
        */
       public emu.grasscutter.net.proto.BPCBGKJBBMOOuterClass.BPCBGKJBBMOOrBuilder getStageInfoListOrBuilder(
           int index) {
@@ -708,7 +708,7 @@ public final class ActivityMultiCharacterDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BPCBGKJBBMO stage_info_list = 12;</code>
+       * <code>repeated .BPCBGKJBBMO stage_info_list = 1;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.BPCBGKJBBMOOuterClass.BPCBGKJBBMOOrBuilder> 
            getStageInfoListOrBuilderList() {
@@ -719,14 +719,14 @@ public final class ActivityMultiCharacterDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .BPCBGKJBBMO stage_info_list = 12;</code>
+       * <code>repeated .BPCBGKJBBMO stage_info_list = 1;</code>
        */
       public emu.grasscutter.net.proto.BPCBGKJBBMOOuterClass.BPCBGKJBBMO.Builder addStageInfoListBuilder() {
         return getStageInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.BPCBGKJBBMOOuterClass.BPCBGKJBBMO.getDefaultInstance());
       }
       /**
-       * <code>repeated .BPCBGKJBBMO stage_info_list = 12;</code>
+       * <code>repeated .BPCBGKJBBMO stage_info_list = 1;</code>
        */
       public emu.grasscutter.net.proto.BPCBGKJBBMOOuterClass.BPCBGKJBBMO.Builder addStageInfoListBuilder(
           int index) {
@@ -734,7 +734,7 @@ public final class ActivityMultiCharacterDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.BPCBGKJBBMOOuterClass.BPCBGKJBBMO.getDefaultInstance());
       }
       /**
-       * <code>repeated .BPCBGKJBBMO stage_info_list = 12;</code>
+       * <code>repeated .BPCBGKJBBMO stage_info_list = 1;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.BPCBGKJBBMOOuterClass.BPCBGKJBBMO.Builder> 
            getStageInfoListBuilderList() {
@@ -823,7 +823,7 @@ public final class ActivityMultiCharacterDetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n&ActivityMultiCharacterDetailInfo.proto" +
       "\032\021BPCBGKJBBMO.proto\"I\n ActivityMultiChar" +
-      "acterDetailInfo\022%\n\017stage_info_list\030\014 \003(\013" +
+      "acterDetailInfo\022%\n\017stage_info_list\030\001 \003(\013" +
       "2\014.BPCBGKJBBMOBG\n\031emu.grasscutter.net.pr" +
       "otoB*ActivityMultiCharacterDetailInfoOut" +
       "erClassb\006proto3"

@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "_NoQuestApCostAfterQuestFinishBuffInfoOuterClass";
 
 message _NoQuestApCostAfterQuestFinishBuffInfo {
-	bool NHLOILJDDIP = 11;
-	uint32 progress = 13;
+	bool NHLOILJDDIP = 13;
+	uint32 progress = 10;
 }

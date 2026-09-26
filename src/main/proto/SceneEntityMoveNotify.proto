@@ -3,12 +3,12 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "SceneEntityMoveNotifyOuterClass";
 
-import "IFMIEJICEMA.proto";
+import "_EntityIntMotionInfo.proto";
 import "MotionInfo.proto";
 
 message SceneEntityMoveNotify {
 	MotionInfo motion_info = 15;
-	IFMIEJICEMA EEDDIJJOCFM = 2;
+	_EntityIntMotionInfo _int_motion_info = 2;
 	uint32 entity_id = 5;
 	uint32 reliable_seq = 10;
 	uint32 scene_time = 14;

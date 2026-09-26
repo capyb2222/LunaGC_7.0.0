@@ -6,5 +6,5 @@ option java_outer_classname = "AutoTimeStopDetailInfoOuterClass";
 import "AJKHPLDCLEO.proto";
 
 message AutoTimeStopDetailInfo {
-	repeated AJKHPLDCLEO level_info_list = 13;
+	repeated AJKHPLDCLEO level_info_list = 3;
 }

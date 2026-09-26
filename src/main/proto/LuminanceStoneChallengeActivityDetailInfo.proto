@@ -4,8 +4,8 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "LuminanceStoneChallengeActivityDetailInfoOuterClass";
 
 message LuminanceStoneChallengeActivityDetailInfo {
-	bool is_content_closed = 1;
-	uint32 best_score = 6;
-	bool is_final_gallery_complete = 10;
-	uint32 current_stage_id = 15;
+	bool is_content_closed = 13;
+	uint32 best_score = 4;
+	bool is_final_gallery_complete = 1;
+	uint32 current_stage_id = 2;
 }

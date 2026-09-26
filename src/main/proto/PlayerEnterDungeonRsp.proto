@@ -5,6 +5,6 @@ option java_outer_classname = "PlayerEnterDungeonRspOuterClass";
 
 message PlayerEnterDungeonRsp {
 	uint32 dungeon_id = 2;
-	int32 retcode = 8;
+	int32 retcode = 6;
 	uint32 point_id = 15;
 }

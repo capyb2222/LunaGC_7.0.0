@@ -19,25 +19,25 @@ public final class BulletHellDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .IKJLKLMCEHM level_info_list = 7;</code>
+     * <code>repeated .IKJLKLMCEHM level_info_list = 11;</code>
      */
     java.util.List<emu.grasscutter.net.proto.IKJLKLMCEHMOuterClass.IKJLKLMCEHM> 
         getLevelInfoListList();
     /**
-     * <code>repeated .IKJLKLMCEHM level_info_list = 7;</code>
+     * <code>repeated .IKJLKLMCEHM level_info_list = 11;</code>
      */
     emu.grasscutter.net.proto.IKJLKLMCEHMOuterClass.IKJLKLMCEHM getLevelInfoList(int index);
     /**
-     * <code>repeated .IKJLKLMCEHM level_info_list = 7;</code>
+     * <code>repeated .IKJLKLMCEHM level_info_list = 11;</code>
      */
     int getLevelInfoListCount();
     /**
-     * <code>repeated .IKJLKLMCEHM level_info_list = 7;</code>
+     * <code>repeated .IKJLKLMCEHM level_info_list = 11;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.IKJLKLMCEHMOuterClass.IKJLKLMCEHMOrBuilder> 
         getLevelInfoListOrBuilderList();
     /**
-     * <code>repeated .IKJLKLMCEHM level_info_list = 7;</code>
+     * <code>repeated .IKJLKLMCEHM level_info_list = 11;</code>
      */
     emu.grasscutter.net.proto.IKJLKLMCEHMOuterClass.IKJLKLMCEHMOrBuilder getLevelInfoListOrBuilder(
         int index);
@@ -89,7 +89,7 @@ public final class BulletHellDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 58: {
+            case 90: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 levelInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.IKJLKLMCEHMOuterClass.IKJLKLMCEHM>();
                 mutable_bitField0_ |= 0x00000001;
@@ -133,17 +133,17 @@ public final class BulletHellDetailInfoOuterClass {
               emu.grasscutter.net.proto.BulletHellDetailInfoOuterClass.BulletHellDetailInfo.class, emu.grasscutter.net.proto.BulletHellDetailInfoOuterClass.BulletHellDetailInfo.Builder.class);
     }
 
-    public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 7;
+    public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 11;
     private java.util.List<emu.grasscutter.net.proto.IKJLKLMCEHMOuterClass.IKJLKLMCEHM> levelInfoList_;
     /**
-     * <code>repeated .IKJLKLMCEHM level_info_list = 7;</code>
+     * <code>repeated .IKJLKLMCEHM level_info_list = 11;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.IKJLKLMCEHMOuterClass.IKJLKLMCEHM> getLevelInfoListList() {
       return levelInfoList_;
     }
     /**
-     * <code>repeated .IKJLKLMCEHM level_info_list = 7;</code>
+     * <code>repeated .IKJLKLMCEHM level_info_list = 11;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.IKJLKLMCEHMOuterClass.IKJLKLMCEHMOrBuilder> 
@@ -151,21 +151,21 @@ public final class BulletHellDetailInfoOuterClass {
       return levelInfoList_;
     }
     /**
-     * <code>repeated .IKJLKLMCEHM level_info_list = 7;</code>
+     * <code>repeated .IKJLKLMCEHM level_info_list = 11;</code>
      */
     @java.lang.Override
     public int getLevelInfoListCount() {
       return levelInfoList_.size();
     }
     /**
-     * <code>repeated .IKJLKLMCEHM level_info_list = 7;</code>
+     * <code>repeated .IKJLKLMCEHM level_info_list = 11;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.IKJLKLMCEHMOuterClass.IKJLKLMCEHM getLevelInfoList(int index) {
       return levelInfoList_.get(index);
     }
     /**
-     * <code>repeated .IKJLKLMCEHM level_info_list = 7;</code>
+     * <code>repeated .IKJLKLMCEHM level_info_list = 11;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.IKJLKLMCEHMOuterClass.IKJLKLMCEHMOrBuilder getLevelInfoListOrBuilder(
@@ -188,7 +188,7 @@ public final class BulletHellDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < levelInfoList_.size(); i++) {
-        output.writeMessage(7, levelInfoList_.get(i));
+        output.writeMessage(11, levelInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -201,7 +201,7 @@ public final class BulletHellDetailInfoOuterClass {
       size = 0;
       for (int i = 0; i < levelInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(7, levelInfoList_.get(i));
+          .computeMessageSize(11, levelInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -528,7 +528,7 @@ public final class BulletHellDetailInfoOuterClass {
           emu.grasscutter.net.proto.IKJLKLMCEHMOuterClass.IKJLKLMCEHM, emu.grasscutter.net.proto.IKJLKLMCEHMOuterClass.IKJLKLMCEHM.Builder, emu.grasscutter.net.proto.IKJLKLMCEHMOuterClass.IKJLKLMCEHMOrBuilder> levelInfoListBuilder_;
 
       /**
-       * <code>repeated .IKJLKLMCEHM level_info_list = 7;</code>
+       * <code>repeated .IKJLKLMCEHM level_info_list = 11;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.IKJLKLMCEHMOuterClass.IKJLKLMCEHM> getLevelInfoListList() {
         if (levelInfoListBuilder_ == null) {
@@ -538,7 +538,7 @@ public final class BulletHellDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .IKJLKLMCEHM level_info_list = 7;</code>
+       * <code>repeated .IKJLKLMCEHM level_info_list = 11;</code>
        */
       public int getLevelInfoListCount() {
         if (levelInfoListBuilder_ == null) {
@@ -548,7 +548,7 @@ public final class BulletHellDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .IKJLKLMCEHM level_info_list = 7;</code>
+       * <code>repeated .IKJLKLMCEHM level_info_list = 11;</code>
        */
       public emu.grasscutter.net.proto.IKJLKLMCEHMOuterClass.IKJLKLMCEHM getLevelInfoList(int index) {
         if (levelInfoListBuilder_ == null) {
@@ -558,7 +558,7 @@ public final class BulletHellDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .IKJLKLMCEHM level_info_list = 7;</code>
+       * <code>repeated .IKJLKLMCEHM level_info_list = 11;</code>
        */
       public Builder setLevelInfoList(
           int index, emu.grasscutter.net.proto.IKJLKLMCEHMOuterClass.IKJLKLMCEHM value) {
@@ -575,7 +575,7 @@ public final class BulletHellDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IKJLKLMCEHM level_info_list = 7;</code>
+       * <code>repeated .IKJLKLMCEHM level_info_list = 11;</code>
        */
       public Builder setLevelInfoList(
           int index, emu.grasscutter.net.proto.IKJLKLMCEHMOuterClass.IKJLKLMCEHM.Builder builderForValue) {
@@ -589,7 +589,7 @@ public final class BulletHellDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IKJLKLMCEHM level_info_list = 7;</code>
+       * <code>repeated .IKJLKLMCEHM level_info_list = 11;</code>
        */
       public Builder addLevelInfoList(emu.grasscutter.net.proto.IKJLKLMCEHMOuterClass.IKJLKLMCEHM value) {
         if (levelInfoListBuilder_ == null) {
@@ -605,7 +605,7 @@ public final class BulletHellDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IKJLKLMCEHM level_info_list = 7;</code>
+       * <code>repeated .IKJLKLMCEHM level_info_list = 11;</code>
        */
       public Builder addLevelInfoList(
           int index, emu.grasscutter.net.proto.IKJLKLMCEHMOuterClass.IKJLKLMCEHM value) {
@@ -622,7 +622,7 @@ public final class BulletHellDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IKJLKLMCEHM level_info_list = 7;</code>
+       * <code>repeated .IKJLKLMCEHM level_info_list = 11;</code>
        */
       public Builder addLevelInfoList(
           emu.grasscutter.net.proto.IKJLKLMCEHMOuterClass.IKJLKLMCEHM.Builder builderForValue) {
@@ -636,7 +636,7 @@ public final class BulletHellDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IKJLKLMCEHM level_info_list = 7;</code>
+       * <code>repeated .IKJLKLMCEHM level_info_list = 11;</code>
        */
       public Builder addLevelInfoList(
           int index, emu.grasscutter.net.proto.IKJLKLMCEHMOuterClass.IKJLKLMCEHM.Builder builderForValue) {
@@ -650,7 +650,7 @@ public final class BulletHellDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IKJLKLMCEHM level_info_list = 7;</code>
+       * <code>repeated .IKJLKLMCEHM level_info_list = 11;</code>
        */
       public Builder addAllLevelInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.IKJLKLMCEHMOuterClass.IKJLKLMCEHM> values) {
@@ -665,7 +665,7 @@ public final class BulletHellDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IKJLKLMCEHM level_info_list = 7;</code>
+       * <code>repeated .IKJLKLMCEHM level_info_list = 11;</code>
        */
       public Builder clearLevelInfoList() {
         if (levelInfoListBuilder_ == null) {
@@ -678,7 +678,7 @@ public final class BulletHellDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IKJLKLMCEHM level_info_list = 7;</code>
+       * <code>repeated .IKJLKLMCEHM level_info_list = 11;</code>
        */
       public Builder removeLevelInfoList(int index) {
         if (levelInfoListBuilder_ == null) {
@@ -691,14 +691,14 @@ public final class BulletHellDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .IKJLKLMCEHM level_info_list = 7;</code>
+       * <code>repeated .IKJLKLMCEHM level_info_list = 11;</code>
        */
       public emu.grasscutter.net.proto.IKJLKLMCEHMOuterClass.IKJLKLMCEHM.Builder getLevelInfoListBuilder(
           int index) {
         return getLevelInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .IKJLKLMCEHM level_info_list = 7;</code>
+       * <code>repeated .IKJLKLMCEHM level_info_list = 11;</code>
        */
       public emu.grasscutter.net.proto.IKJLKLMCEHMOuterClass.IKJLKLMCEHMOrBuilder getLevelInfoListOrBuilder(
           int index) {
@@ -708,7 +708,7 @@ public final class BulletHellDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .IKJLKLMCEHM level_info_list = 7;</code>
+       * <code>repeated .IKJLKLMCEHM level_info_list = 11;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.IKJLKLMCEHMOuterClass.IKJLKLMCEHMOrBuilder> 
            getLevelInfoListOrBuilderList() {
@@ -719,14 +719,14 @@ public final class BulletHellDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .IKJLKLMCEHM level_info_list = 7;</code>
+       * <code>repeated .IKJLKLMCEHM level_info_list = 11;</code>
        */
       public emu.grasscutter.net.proto.IKJLKLMCEHMOuterClass.IKJLKLMCEHM.Builder addLevelInfoListBuilder() {
         return getLevelInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.IKJLKLMCEHMOuterClass.IKJLKLMCEHM.getDefaultInstance());
       }
       /**
-       * <code>repeated .IKJLKLMCEHM level_info_list = 7;</code>
+       * <code>repeated .IKJLKLMCEHM level_info_list = 11;</code>
        */
       public emu.grasscutter.net.proto.IKJLKLMCEHMOuterClass.IKJLKLMCEHM.Builder addLevelInfoListBuilder(
           int index) {
@@ -734,7 +734,7 @@ public final class BulletHellDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.IKJLKLMCEHMOuterClass.IKJLKLMCEHM.getDefaultInstance());
       }
       /**
-       * <code>repeated .IKJLKLMCEHM level_info_list = 7;</code>
+       * <code>repeated .IKJLKLMCEHM level_info_list = 11;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.IKJLKLMCEHMOuterClass.IKJLKLMCEHM.Builder> 
            getLevelInfoListBuilderList() {
@@ -823,7 +823,7 @@ public final class BulletHellDetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032BulletHellDetailInfo.proto\032\021IKJLKLMCEH" +
       "M.proto\"=\n\024BulletHellDetailInfo\022%\n\017level" +
-      "_info_list\030\007 \003(\0132\014.IKJLKLMCEHMB;\n\031emu.gr" +
+      "_info_list\030\013 \003(\0132\014.IKJLKLMCEHMB;\n\031emu.gr" +
       "asscutter.net.protoB\036BulletHellDetailInf" +
       "oOuterClassb\006proto3"
     };

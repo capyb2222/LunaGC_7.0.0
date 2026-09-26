@@ -19,17 +19,17 @@ public final class _TowerDefenseDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 _unlocked_skill_id_list = 10;</code>
+     * <code>repeated uint32 _unlocked_skill_id_list = 15;</code>
      * @return A list containing the unlockedSkillIdList.
      */
     java.util.List<java.lang.Integer> getUnlockedSkillIdListList();
     /**
-     * <code>repeated uint32 _unlocked_skill_id_list = 10;</code>
+     * <code>repeated uint32 _unlocked_skill_id_list = 15;</code>
      * @return The count of unlockedSkillIdList.
      */
     int getUnlockedSkillIdListCount();
     /**
-     * <code>repeated uint32 _unlocked_skill_id_list = 10;</code>
+     * <code>repeated uint32 _unlocked_skill_id_list = 15;</code>
      * @param index The index of the element to return.
      * @return The unlockedSkillIdList at the given index.
      */
@@ -82,7 +82,7 @@ public final class _TowerDefenseDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 80: {
+            case 120: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 UnlockedSkillIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -90,7 +90,7 @@ public final class _TowerDefenseDetailInfoOuterClass {
               UnlockedSkillIdList_.addInt(input.readUInt32());
               break;
             }
-            case 82: {
+            case 122: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -138,10 +138,10 @@ public final class _TowerDefenseDetailInfoOuterClass {
               emu.grasscutter.net.proto._TowerDefenseDetailInfoOuterClass._TowerDefenseDetailInfo.class, emu.grasscutter.net.proto._TowerDefenseDetailInfoOuterClass._TowerDefenseDetailInfo.Builder.class);
     }
 
-    public static final int _UNLOCKED_SKILL_ID_LIST_FIELD_NUMBER = 10;
+    public static final int _UNLOCKED_SKILL_ID_LIST_FIELD_NUMBER = 15;
     private com.google.protobuf.Internal.IntList UnlockedSkillIdList_;
     /**
-     * <code>repeated uint32 _unlocked_skill_id_list = 10;</code>
+     * <code>repeated uint32 _unlocked_skill_id_list = 15;</code>
      * @return A list containing the unlockedSkillIdList.
      */
     @java.lang.Override
@@ -150,14 +150,14 @@ public final class _TowerDefenseDetailInfoOuterClass {
       return UnlockedSkillIdList_;
     }
     /**
-     * <code>repeated uint32 _unlocked_skill_id_list = 10;</code>
+     * <code>repeated uint32 _unlocked_skill_id_list = 15;</code>
      * @return The count of unlockedSkillIdList.
      */
     public int getUnlockedSkillIdListCount() {
       return UnlockedSkillIdList_.size();
     }
     /**
-     * <code>repeated uint32 _unlocked_skill_id_list = 10;</code>
+     * <code>repeated uint32 _unlocked_skill_id_list = 15;</code>
      * @param index The index of the element to return.
      * @return The unlockedSkillIdList at the given index.
      */
@@ -182,7 +182,7 @@ public final class _TowerDefenseDetailInfoOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getUnlockedSkillIdListList().size() > 0) {
-        output.writeUInt32NoTag(82);
+        output.writeUInt32NoTag(122);
         output.writeUInt32NoTag(UnlockedSkillIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < UnlockedSkillIdList_.size(); i++) {
@@ -506,7 +506,7 @@ public final class _TowerDefenseDetailInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 _unlocked_skill_id_list = 10;</code>
+       * <code>repeated uint32 _unlocked_skill_id_list = 15;</code>
        * @return A list containing the unlockedSkillIdList.
        */
       public java.util.List<java.lang.Integer>
@@ -515,14 +515,14 @@ public final class _TowerDefenseDetailInfoOuterClass {
                  java.util.Collections.unmodifiableList(UnlockedSkillIdList_) : UnlockedSkillIdList_;
       }
       /**
-       * <code>repeated uint32 _unlocked_skill_id_list = 10;</code>
+       * <code>repeated uint32 _unlocked_skill_id_list = 15;</code>
        * @return The count of unlockedSkillIdList.
        */
       public int getUnlockedSkillIdListCount() {
         return UnlockedSkillIdList_.size();
       }
       /**
-       * <code>repeated uint32 _unlocked_skill_id_list = 10;</code>
+       * <code>repeated uint32 _unlocked_skill_id_list = 15;</code>
        * @param index The index of the element to return.
        * @return The unlockedSkillIdList at the given index.
        */
@@ -530,7 +530,7 @@ public final class _TowerDefenseDetailInfoOuterClass {
         return UnlockedSkillIdList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 _unlocked_skill_id_list = 10;</code>
+       * <code>repeated uint32 _unlocked_skill_id_list = 15;</code>
        * @param index The index to set the value at.
        * @param value The unlockedSkillIdList to set.
        * @return This builder for chaining.
@@ -543,7 +543,7 @@ public final class _TowerDefenseDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 _unlocked_skill_id_list = 10;</code>
+       * <code>repeated uint32 _unlocked_skill_id_list = 15;</code>
        * @param value The unlockedSkillIdList to add.
        * @return This builder for chaining.
        */
@@ -554,7 +554,7 @@ public final class _TowerDefenseDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 _unlocked_skill_id_list = 10;</code>
+       * <code>repeated uint32 _unlocked_skill_id_list = 15;</code>
        * @param values The unlockedSkillIdList to add.
        * @return This builder for chaining.
        */
@@ -567,7 +567,7 @@ public final class _TowerDefenseDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 _unlocked_skill_id_list = 10;</code>
+       * <code>repeated uint32 _unlocked_skill_id_list = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearUnlockedSkillIdList() {
@@ -645,7 +645,7 @@ public final class _TowerDefenseDetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\035_TowerDefenseDetailInfo.proto\":\n\027_Towe" +
       "rDefenseDetailInfo\022\037\n\027_unlocked_skill_id" +
-      "_list\030\n \003(\rB>\n\031emu.grasscutter.net.proto" +
+      "_list\030\017 \003(\rB>\n\031emu.grasscutter.net.proto" +
       "B!_TowerDefenseDetailInfoOuterClassb\006pro" +
       "to3"
     };

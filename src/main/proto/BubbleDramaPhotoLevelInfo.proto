@@ -6,5 +6,5 @@ option java_outer_classname = "BubbleDramaPhotoLevelInfoOuterClass";
 import "BubbleDramaActivityAvatar.proto";
 
 message BubbleDramaPhotoLevelInfo {
-	repeated BubbleDramaActivityAvatar activity_avatar = 12;
+	repeated BubbleDramaActivityAvatar activity_avatar = 7;
 }

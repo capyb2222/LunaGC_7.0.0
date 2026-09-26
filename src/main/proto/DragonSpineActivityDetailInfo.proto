@@ -10,7 +10,7 @@ message DragonSpineActivityDetailInfo {
 	uint32 ABBFOLNPGNE = 50001;
 	bool is_content_closed = 9;
 	uint32 content_finish_time = 3;
-	uint32 weapon_enhance_level = 50002;
-	uint32 GNADEDJKAJM = 50003;
+	uint32 weapon_enhance_level = 11;
+	uint32 GNADEDJKAJM = 50002;
 	repeated DragonSpineChapterInfo chapter_info_list = 6;
 }

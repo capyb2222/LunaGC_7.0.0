@@ -6,5 +6,5 @@ option java_outer_classname = "LaunchFireworksReqOuterClass";
 import "FireworksLaunchSchemeData.proto";
 
 message LaunchFireworksReq {
-	FireworksLaunchSchemeData scheme_data = 4;
+	FireworksLaunchSchemeData scheme_data = 13;
 }

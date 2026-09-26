@@ -357,16 +357,16 @@ public final class GetPlayerTokenRspOuterClass {
         getAuthkeyBytes();
 
     /**
-     * <code>string KONDBANCCAH = 1856;</code>
-     * @return The kONDBANCCAH.
+     * <code>string _client_version = 1856;</code>
+     * @return The clientVersion.
      */
-    java.lang.String getKONDBANCCAH();
+    java.lang.String getClientVersion();
     /**
-     * <code>string KONDBANCCAH = 1856;</code>
-     * @return The bytes for kONDBANCCAH.
+     * <code>string _client_version = 1856;</code>
+     * @return The bytes for clientVersion.
      */
     com.google.protobuf.ByteString
-        getKONDBANCCAHBytes();
+        getClientVersionBytes();
 
     /**
      * <code>uint32 key_id = 427;</code>
@@ -412,7 +412,7 @@ public final class GetPlayerTokenRspOuterClass {
       clientIpStr_ = "";
       gameBiz_ = "";
       authkey_ = "";
-      kONDBANCCAH_ = "";
+      ClientVersion_ = "";
     }
 
     @java.lang.Override
@@ -617,7 +617,7 @@ public final class GetPlayerTokenRspOuterClass {
             case 14850: {
               java.lang.String s = input.readStringRequireUtf8();
 
-              kONDBANCCAH_ = s;
+              ClientVersion_ = s;
               break;
             }
             case 15304: {
@@ -1581,38 +1581,38 @@ public final class GetPlayerTokenRspOuterClass {
       }
     }
 
-    public static final int KONDBANCCAH_FIELD_NUMBER = 1856;
-    private volatile java.lang.Object kONDBANCCAH_;
+    public static final int _CLIENT_VERSION_FIELD_NUMBER = 1856;
+    private volatile java.lang.Object ClientVersion_;
     /**
-     * <code>string KONDBANCCAH = 1856;</code>
-     * @return The kONDBANCCAH.
+     * <code>string _client_version = 1856;</code>
+     * @return The clientVersion.
      */
     @java.lang.Override
-    public java.lang.String getKONDBANCCAH() {
-      java.lang.Object ref = kONDBANCCAH_;
+    public java.lang.String getClientVersion() {
+      java.lang.Object ref = ClientVersion_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
         com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
-        kONDBANCCAH_ = s;
+        ClientVersion_ = s;
         return s;
       }
     }
     /**
-     * <code>string KONDBANCCAH = 1856;</code>
-     * @return The bytes for kONDBANCCAH.
+     * <code>string _client_version = 1856;</code>
+     * @return The bytes for clientVersion.
      */
     @java.lang.Override
     public com.google.protobuf.ByteString
-        getKONDBANCCAHBytes() {
-      java.lang.Object ref = kONDBANCCAH_;
+        getClientVersionBytes() {
+      java.lang.Object ref = ClientVersion_;
       if (ref instanceof java.lang.String) {
         com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
-        kONDBANCCAH_ = b;
+        ClientVersion_ = b;
         return b;
       } else {
         return (com.google.protobuf.ByteString) ref;
@@ -1738,8 +1738,8 @@ public final class GetPlayerTokenRspOuterClass {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(countryCode_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 1817, countryCode_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(kONDBANCCAH_)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 1856, kONDBANCCAH_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(ClientVersion_)) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 1856, ClientVersion_);
       }
       if (minorsRegMinAge_ != 0) {
         output.writeUInt32(1913, minorsRegMinAge_);
@@ -1892,8 +1892,8 @@ public final class GetPlayerTokenRspOuterClass {
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(countryCode_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1817, countryCode_);
       }
-      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(kONDBANCCAH_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1856, kONDBANCCAH_);
+      if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(ClientVersion_)) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1856, ClientVersion_);
       }
       if (minorsRegMinAge_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -2044,8 +2044,8 @@ public final class GetPlayerTokenRspOuterClass {
           .equals(other.getGameBiz())) return false;
       if (!getAuthkey()
           .equals(other.getAuthkey())) return false;
-      if (!getKONDBANCCAH()
-          .equals(other.getKONDBANCCAH())) return false;
+      if (!getClientVersion()
+          .equals(other.getClientVersion())) return false;
       if (getKeyId()
           != other.getKeyId()) return false;
       if (getSignType()
@@ -2147,8 +2147,8 @@ public final class GetPlayerTokenRspOuterClass {
       hash = (53 * hash) + getGameBiz().hashCode();
       hash = (37 * hash) + AUTHKEY_FIELD_NUMBER;
       hash = (53 * hash) + getAuthkey().hashCode();
-      hash = (37 * hash) + KONDBANCCAH_FIELD_NUMBER;
-      hash = (53 * hash) + getKONDBANCCAH().hashCode();
+      hash = (37 * hash) + _CLIENT_VERSION_FIELD_NUMBER;
+      hash = (53 * hash) + getClientVersion().hashCode();
       hash = (37 * hash) + KEY_ID_FIELD_NUMBER;
       hash = (53 * hash) + getKeyId();
       hash = (37 * hash) + SIGN_TYPE_FIELD_NUMBER;
@@ -2366,7 +2366,7 @@ public final class GetPlayerTokenRspOuterClass {
 
         authkey_ = "";
 
-        kONDBANCCAH_ = "";
+        ClientVersion_ = "";
 
         keyId_ = 0;
 
@@ -2445,7 +2445,7 @@ public final class GetPlayerTokenRspOuterClass {
         result.clientIpStr_ = clientIpStr_;
         result.gameBiz_ = gameBiz_;
         result.authkey_ = authkey_;
-        result.kONDBANCCAH_ = kONDBANCCAH_;
+        result.ClientVersion_ = ClientVersion_;
         result.keyId_ = keyId_;
         result.signType_ = signType_;
         onBuilt();
@@ -2632,8 +2632,8 @@ public final class GetPlayerTokenRspOuterClass {
           authkey_ = other.authkey_;
           onChanged();
         }
-        if (!other.getKONDBANCCAH().isEmpty()) {
-          kONDBANCCAH_ = other.kONDBANCCAH_;
+        if (!other.getClientVersion().isEmpty()) {
+          ClientVersion_ = other.ClientVersion_;
           onChanged();
         }
         if (other.getKeyId() != 0) {
@@ -4670,78 +4670,78 @@ public final class GetPlayerTokenRspOuterClass {
         return this;
       }
 
-      private java.lang.Object kONDBANCCAH_ = "";
+      private java.lang.Object ClientVersion_ = "";
       /**
-       * <code>string KONDBANCCAH = 1856;</code>
-       * @return The kONDBANCCAH.
+       * <code>string _client_version = 1856;</code>
+       * @return The clientVersion.
        */
-      public java.lang.String getKONDBANCCAH() {
-        java.lang.Object ref = kONDBANCCAH_;
+      public java.lang.String getClientVersion() {
+        java.lang.Object ref = ClientVersion_;
         if (!(ref instanceof java.lang.String)) {
           com.google.protobuf.ByteString bs =
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
-          kONDBANCCAH_ = s;
+          ClientVersion_ = s;
           return s;
         } else {
           return (java.lang.String) ref;
         }
       }
       /**
-       * <code>string KONDBANCCAH = 1856;</code>
-       * @return The bytes for kONDBANCCAH.
+       * <code>string _client_version = 1856;</code>
+       * @return The bytes for clientVersion.
        */
       public com.google.protobuf.ByteString
-          getKONDBANCCAHBytes() {
-        java.lang.Object ref = kONDBANCCAH_;
+          getClientVersionBytes() {
+        java.lang.Object ref = ClientVersion_;
         if (ref instanceof String) {
           com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
-          kONDBANCCAH_ = b;
+          ClientVersion_ = b;
           return b;
         } else {
           return (com.google.protobuf.ByteString) ref;
         }
       }
       /**
-       * <code>string KONDBANCCAH = 1856;</code>
-       * @param value The kONDBANCCAH to set.
+       * <code>string _client_version = 1856;</code>
+       * @param value The clientVersion to set.
        * @return This builder for chaining.
        */
-      public Builder setKONDBANCCAH(
+      public Builder setClientVersion(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
   
-        kONDBANCCAH_ = value;
+        ClientVersion_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>string KONDBANCCAH = 1856;</code>
+       * <code>string _client_version = 1856;</code>
        * @return This builder for chaining.
        */
-      public Builder clearKONDBANCCAH() {
+      public Builder clearClientVersion() {
         
-        kONDBANCCAH_ = getDefaultInstance().getKONDBANCCAH();
+        ClientVersion_ = getDefaultInstance().getClientVersion();
         onChanged();
         return this;
       }
       /**
-       * <code>string KONDBANCCAH = 1856;</code>
-       * @param value The bytes for kONDBANCCAH to set.
+       * <code>string _client_version = 1856;</code>
+       * @param value The bytes for clientVersion to set.
        * @return This builder for chaining.
        */
-      public Builder setKONDBANCCAHBytes(
+      public Builder setClientVersionBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
         
-        kONDBANCCAH_ = value;
+        ClientVersion_ = value;
         onChanged();
         return this;
       }
@@ -4875,7 +4875,7 @@ public final class GetPlayerTokenRspOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\027GetPlayerTokenRsp.proto\032\024StopServerInf" +
-      "o.proto\"\256\007\n\021GetPlayerTokenRsp\022\035\n\023securit" +
+      "o.proto\"\262\007\n\021GetPlayerTokenRsp\022\035\n\023securit" +
       "y_cmd_buffer\030\320\206\003 \001(\014\022\013\n\003msg\030\013 \001(\t\022\023\n\013acc" +
       "ount_uid\030\002 \001(\t\022\013\n\003uid\030\r \001(\r\022\017\n\007retcode\030\n" +
       " \001(\005\022\026\n\016extra_bin_data\030\t \001(\014\022\020\n\006gm_uid\030\321" +
@@ -4897,10 +4897,10 @@ public final class GetPlayerTokenRspOuterClass {
       "n_id\030\251\002 \001(\t\022\023\n\nchannel_id\030\260\010 \001(\r\022%\n\013stop" +
       "_server\030\335\013 \001(\0132\017.StopServerInfo\022\026\n\rclien" +
       "t_ip_str\030\303\014 \001(\t\022\021\n\010game_biz\030\256\t \001(\t\022\020\n\007au" +
-      "thkey\030\314\006 \001(\t\022\024\n\013KONDBANCCAH\030\300\016 \001(\t\022\017\n\006ke" +
-      "y_id\030\253\003 \001(\r\022\023\n\tsign_type\030\333\206\003 \001(\rB8\n\031emu." +
-      "grasscutter.net.protoB\033GetPlayerTokenRsp" +
-      "OuterClassb\006proto3"
+      "thkey\030\314\006 \001(\t\022\030\n\017_client_version\030\300\016 \001(\t\022\017" +
+      "\n\006key_id\030\253\003 \001(\r\022\023\n\tsign_type\030\333\206\003 \001(\rB8\n\031" +
+      "emu.grasscutter.net.protoB\033GetPlayerToke" +
+      "nRspOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -4912,7 +4912,7 @@ public final class GetPlayerTokenRspOuterClass {
     internal_static_GetPlayerTokenRsp_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GetPlayerTokenRsp_descriptor,
-        new java.lang.String[] { "SecurityCmdBuffer", "Msg", "AccountUid", "Uid", "Retcode", "ExtraBinData", "GmUid", "PlatformType", "Token", "SecretKey", "IsProficientPlayer", "BlackUidEndTime", "AccountType", "IsGuest", "SecretKeySeed", "RegPlatform", "ServerRandKey", "CGPIOKGGDPB", "Xuid", "Birthday", "Tag", "AuthkeyVer", "MinorsRegMinAge", "SubChannelId", "AuthAppid", "SecurityFile", "Sign", "KONAINKDJCN", "ClientVersionRandomKey", "MGNAAEGCEDL", "FinishCollectionIdList", "CountryCode", "PsnId", "ChannelId", "StopServer", "ClientIpStr", "GameBiz", "Authkey", "KONDBANCCAH", "KeyId", "SignType", });
+        new java.lang.String[] { "SecurityCmdBuffer", "Msg", "AccountUid", "Uid", "Retcode", "ExtraBinData", "GmUid", "PlatformType", "Token", "SecretKey", "IsProficientPlayer", "BlackUidEndTime", "AccountType", "IsGuest", "SecretKeySeed", "RegPlatform", "ServerRandKey", "CGPIOKGGDPB", "Xuid", "Birthday", "Tag", "AuthkeyVer", "MinorsRegMinAge", "SubChannelId", "AuthAppid", "SecurityFile", "Sign", "KONAINKDJCN", "ClientVersionRandomKey", "MGNAAEGCEDL", "FinishCollectionIdList", "CountryCode", "PsnId", "ChannelId", "StopServer", "ClientIpStr", "GameBiz", "Authkey", "ClientVersion", "KeyId", "SignType", });
     emu.grasscutter.net.proto.StopServerInfoOuterClass.getDescriptor();
   }
 

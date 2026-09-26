@@ -6,7 +6,7 @@ option java_outer_classname = "FireworksLaunchSchemeDataOuterClass";
 import "FireworksLaunchParam.proto";
 
 message FireworksLaunchSchemeData {
-	repeated uint32 fireworks_id_list = 3;
-	repeated FireworksLaunchParam launch_param_list = 6;
-	uint32 scheme_id = 14;
+	repeated uint32 fireworks_id_list = 5;
+	repeated FireworksLaunchParam launch_param_list = 8;
+	uint32 scheme_id = 7;
 }

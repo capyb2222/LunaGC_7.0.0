@@ -5,5 +5,5 @@ option java_outer_classname = "DPEEOGGEECKOuterClass";
 
 message DPEEOGGEECK {
 	uint32 BLCPLGCJEBJ = 4;
-	uint32 KHJHFLNMNPC = 10;
+	uint32 KHJHFLNMNPC = 8;
 }

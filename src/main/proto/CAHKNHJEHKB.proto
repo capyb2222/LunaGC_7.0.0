@@ -7,5 +7,5 @@ import "DONBNKJAIDH.proto";
 
 message CAHKNHJEHKB {
 	uint32 level_id = 2;
-	DONBNKJAIDH JLOKHDKLJEE = 15;
+	DONBNKJAIDH JLOKHDKLJEE = 5;
 }

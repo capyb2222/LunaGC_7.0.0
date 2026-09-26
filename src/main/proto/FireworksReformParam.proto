@@ -6,6 +6,6 @@ option java_outer_classname = "FireworksReformParamOuterClass";
 import "FireworksReformParamType.proto";
 
 message FireworksReformParam {
-	int32 value = 3;
-	FireworksReformParamType type = 4;
+	int32 value = 15;
+	FireworksReformParamType type = 5;
 }

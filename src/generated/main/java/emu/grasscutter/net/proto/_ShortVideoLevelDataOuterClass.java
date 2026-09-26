@@ -19,23 +19,23 @@ public final class _ShortVideoLevelDataOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 level_id = 13;</code>
+     * <code>uint32 level_id = 5;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>repeated uint64 _short_video_guid_list = 14;</code>
+     * <code>repeated uint64 _short_video_guid_list = 15;</code>
      * @return A list containing the shortVideoGuidList.
      */
     java.util.List<java.lang.Long> getShortVideoGuidListList();
     /**
-     * <code>repeated uint64 _short_video_guid_list = 14;</code>
+     * <code>repeated uint64 _short_video_guid_list = 15;</code>
      * @return The count of shortVideoGuidList.
      */
     int getShortVideoGuidListCount();
     /**
-     * <code>repeated uint64 _short_video_guid_list = 14;</code>
+     * <code>repeated uint64 _short_video_guid_list = 15;</code>
      * @param index The index of the element to return.
      * @return The shortVideoGuidList at the given index.
      */
@@ -88,12 +88,12 @@ public final class _ShortVideoLevelDataOuterClass {
             case 0:
               done = true;
               break;
-            case 104: {
+            case 40: {
 
               levelId_ = input.readUInt32();
               break;
             }
-            case 112: {
+            case 120: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 ShortVideoGuidList_ = newLongList();
                 mutable_bitField0_ |= 0x00000001;
@@ -101,7 +101,7 @@ public final class _ShortVideoLevelDataOuterClass {
               ShortVideoGuidList_.addLong(input.readUInt64());
               break;
             }
-            case 114: {
+            case 122: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -149,10 +149,10 @@ public final class _ShortVideoLevelDataOuterClass {
               emu.grasscutter.net.proto._ShortVideoLevelDataOuterClass._ShortVideoLevelData.class, emu.grasscutter.net.proto._ShortVideoLevelDataOuterClass._ShortVideoLevelData.Builder.class);
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 13;
+    public static final int LEVEL_ID_FIELD_NUMBER = 5;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 13;</code>
+     * <code>uint32 level_id = 5;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -160,10 +160,10 @@ public final class _ShortVideoLevelDataOuterClass {
       return levelId_;
     }
 
-    public static final int _SHORT_VIDEO_GUID_LIST_FIELD_NUMBER = 14;
+    public static final int _SHORT_VIDEO_GUID_LIST_FIELD_NUMBER = 15;
     private com.google.protobuf.Internal.LongList ShortVideoGuidList_;
     /**
-     * <code>repeated uint64 _short_video_guid_list = 14;</code>
+     * <code>repeated uint64 _short_video_guid_list = 15;</code>
      * @return A list containing the shortVideoGuidList.
      */
     @java.lang.Override
@@ -172,14 +172,14 @@ public final class _ShortVideoLevelDataOuterClass {
       return ShortVideoGuidList_;
     }
     /**
-     * <code>repeated uint64 _short_video_guid_list = 14;</code>
+     * <code>repeated uint64 _short_video_guid_list = 15;</code>
      * @return The count of shortVideoGuidList.
      */
     public int getShortVideoGuidListCount() {
       return ShortVideoGuidList_.size();
     }
     /**
-     * <code>repeated uint64 _short_video_guid_list = 14;</code>
+     * <code>repeated uint64 _short_video_guid_list = 15;</code>
      * @param index The index of the element to return.
      * @return The shortVideoGuidList at the given index.
      */
@@ -204,10 +204,10 @@ public final class _ShortVideoLevelDataOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (levelId_ != 0) {
-        output.writeUInt32(13, levelId_);
+        output.writeUInt32(5, levelId_);
       }
       if (getShortVideoGuidListList().size() > 0) {
-        output.writeUInt32NoTag(114);
+        output.writeUInt32NoTag(122);
         output.writeUInt32NoTag(ShortVideoGuidListMemoizedSerializedSize);
       }
       for (int i = 0; i < ShortVideoGuidList_.size(); i++) {
@@ -224,7 +224,7 @@ public final class _ShortVideoLevelDataOuterClass {
       size = 0;
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, levelId_);
+          .computeUInt32Size(5, levelId_);
       }
       {
         int dataSize = 0;
@@ -539,7 +539,7 @@ public final class _ShortVideoLevelDataOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 13;</code>
+       * <code>uint32 level_id = 5;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -547,7 +547,7 @@ public final class _ShortVideoLevelDataOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 13;</code>
+       * <code>uint32 level_id = 5;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -558,7 +558,7 @@ public final class _ShortVideoLevelDataOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 13;</code>
+       * <code>uint32 level_id = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -576,7 +576,7 @@ public final class _ShortVideoLevelDataOuterClass {
          }
       }
       /**
-       * <code>repeated uint64 _short_video_guid_list = 14;</code>
+       * <code>repeated uint64 _short_video_guid_list = 15;</code>
        * @return A list containing the shortVideoGuidList.
        */
       public java.util.List<java.lang.Long>
@@ -585,14 +585,14 @@ public final class _ShortVideoLevelDataOuterClass {
                  java.util.Collections.unmodifiableList(ShortVideoGuidList_) : ShortVideoGuidList_;
       }
       /**
-       * <code>repeated uint64 _short_video_guid_list = 14;</code>
+       * <code>repeated uint64 _short_video_guid_list = 15;</code>
        * @return The count of shortVideoGuidList.
        */
       public int getShortVideoGuidListCount() {
         return ShortVideoGuidList_.size();
       }
       /**
-       * <code>repeated uint64 _short_video_guid_list = 14;</code>
+       * <code>repeated uint64 _short_video_guid_list = 15;</code>
        * @param index The index of the element to return.
        * @return The shortVideoGuidList at the given index.
        */
@@ -600,7 +600,7 @@ public final class _ShortVideoLevelDataOuterClass {
         return ShortVideoGuidList_.getLong(index);
       }
       /**
-       * <code>repeated uint64 _short_video_guid_list = 14;</code>
+       * <code>repeated uint64 _short_video_guid_list = 15;</code>
        * @param index The index to set the value at.
        * @param value The shortVideoGuidList to set.
        * @return This builder for chaining.
@@ -613,7 +613,7 @@ public final class _ShortVideoLevelDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint64 _short_video_guid_list = 14;</code>
+       * <code>repeated uint64 _short_video_guid_list = 15;</code>
        * @param value The shortVideoGuidList to add.
        * @return This builder for chaining.
        */
@@ -624,7 +624,7 @@ public final class _ShortVideoLevelDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint64 _short_video_guid_list = 14;</code>
+       * <code>repeated uint64 _short_video_guid_list = 15;</code>
        * @param values The shortVideoGuidList to add.
        * @return This builder for chaining.
        */
@@ -637,7 +637,7 @@ public final class _ShortVideoLevelDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint64 _short_video_guid_list = 14;</code>
+       * <code>repeated uint64 _short_video_guid_list = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearShortVideoGuidList() {
@@ -714,8 +714,8 @@ public final class _ShortVideoLevelDataOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\032_ShortVideoLevelData.proto\"H\n\024_ShortVi" +
-      "deoLevelData\022\020\n\010level_id\030\r \001(\r\022\036\n\026_short" +
-      "_video_guid_list\030\016 \003(\004B;\n\031emu.grasscutte" +
+      "deoLevelData\022\020\n\010level_id\030\005 \001(\r\022\036\n\026_short" +
+      "_video_guid_list\030\017 \003(\004B;\n\031emu.grasscutte" +
       "r.net.protoB\036_ShortVideoLevelDataOuterCl" +
       "assb\006proto3"
     };

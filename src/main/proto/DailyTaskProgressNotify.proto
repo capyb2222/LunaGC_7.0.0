@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "DailyTaskProgressNotifyOuterClass";
+
+import "DailyTaskInfo.proto";
+
+message DailyTaskProgressNotify {
+	DailyTaskInfo info = 5;
+}

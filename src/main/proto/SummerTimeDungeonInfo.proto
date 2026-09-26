@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "SummerTimeDungeonInfoOuterClass";
 
 message SummerTimeDungeonInfo {
-	uint32 BPILIIIJIJL = 1;
-	uint32 dungeon_id = 5;
-	uint32 DDPIBNHIGFB = 7;
-	uint32 jcmplckooef = 8;
-	uint32 ABPEECMBMLJ = 9;
+	uint32 BPILIIIJIJL = 50000;
+	uint32 dungeon_id = 15;
+	uint32 DDPIBNHIGFB = 50001;
+	uint32 jcmplckooef = 50002;
+	uint32 ABPEECMBMLJ = 50003;
 }

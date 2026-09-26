@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "_RankedMatchTrainLevelInfoOuterClass";
 
 message _RankedMatchTrainLevelInfo {
-	uint32 HKJNCMDJGNF = 4;
-	uint32 ADIKAHFLJKL = 14;
+	uint32 HKJNCMDJGNF = 50000;
+	uint32 ADIKAHFLJKL = 50001;
 }

@@ -6,6 +6,6 @@ option java_outer_classname = "ActivityPushTipsDataOuterClass";
 import "ActivityPushTipsState.proto";
 
 message ActivityPushTipsData {
-	ActivityPushTipsState state = 4;
-	uint32 activity_push_tips_id = 8;
+	ActivityPushTipsState state = 11;
+	uint32 activity_push_tips_id = 3;
 }

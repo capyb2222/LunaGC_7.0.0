@@ -19,13 +19,13 @@ public final class TowerEnterLevelReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 enter_point_id = 10;</code>
+     * <code>uint32 enter_point_id = 15;</code>
      * @return The enterPointId.
      */
     int getEnterPointId();
 
     /**
-     * <code>bool _is_restart_floor = 11;</code>
+     * <code>bool _is_restart_floor = 4;</code>
      * @return The isRestartFloor.
      */
     boolean getIsRestartFloor();
@@ -75,14 +75,14 @@ public final class TowerEnterLevelReqOuterClass {
             case 0:
               done = true;
               break;
-            case 80: {
-
-              enterPointId_ = input.readUInt32();
-              break;
-            }
-            case 88: {
+            case 32: {
 
               IsRestartFloor_ = input.readBool();
+              break;
+            }
+            case 120: {
+
+              enterPointId_ = input.readUInt32();
               break;
             }
             default: {
@@ -117,10 +117,10 @@ public final class TowerEnterLevelReqOuterClass {
               emu.grasscutter.net.proto.TowerEnterLevelReqOuterClass.TowerEnterLevelReq.class, emu.grasscutter.net.proto.TowerEnterLevelReqOuterClass.TowerEnterLevelReq.Builder.class);
     }
 
-    public static final int ENTER_POINT_ID_FIELD_NUMBER = 10;
+    public static final int ENTER_POINT_ID_FIELD_NUMBER = 15;
     private int enterPointId_;
     /**
-     * <code>uint32 enter_point_id = 10;</code>
+     * <code>uint32 enter_point_id = 15;</code>
      * @return The enterPointId.
      */
     @java.lang.Override
@@ -128,10 +128,10 @@ public final class TowerEnterLevelReqOuterClass {
       return enterPointId_;
     }
 
-    public static final int _IS_RESTART_FLOOR_FIELD_NUMBER = 11;
+    public static final int _IS_RESTART_FLOOR_FIELD_NUMBER = 4;
     private boolean IsRestartFloor_;
     /**
-     * <code>bool _is_restart_floor = 11;</code>
+     * <code>bool _is_restart_floor = 4;</code>
      * @return The isRestartFloor.
      */
     @java.lang.Override
@@ -153,11 +153,11 @@ public final class TowerEnterLevelReqOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (enterPointId_ != 0) {
-        output.writeUInt32(10, enterPointId_);
-      }
       if (IsRestartFloor_ != false) {
-        output.writeBool(11, IsRestartFloor_);
+        output.writeBool(4, IsRestartFloor_);
+      }
+      if (enterPointId_ != 0) {
+        output.writeUInt32(15, enterPointId_);
       }
       unknownFields.writeTo(output);
     }
@@ -168,13 +168,13 @@ public final class TowerEnterLevelReqOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (enterPointId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, enterPointId_);
-      }
       if (IsRestartFloor_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(11, IsRestartFloor_);
+          .computeBoolSize(4, IsRestartFloor_);
+      }
+      if (enterPointId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(15, enterPointId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -461,7 +461,7 @@ public final class TowerEnterLevelReqOuterClass {
 
       private int enterPointId_ ;
       /**
-       * <code>uint32 enter_point_id = 10;</code>
+       * <code>uint32 enter_point_id = 15;</code>
        * @return The enterPointId.
        */
       @java.lang.Override
@@ -469,7 +469,7 @@ public final class TowerEnterLevelReqOuterClass {
         return enterPointId_;
       }
       /**
-       * <code>uint32 enter_point_id = 10;</code>
+       * <code>uint32 enter_point_id = 15;</code>
        * @param value The enterPointId to set.
        * @return This builder for chaining.
        */
@@ -480,7 +480,7 @@ public final class TowerEnterLevelReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 enter_point_id = 10;</code>
+       * <code>uint32 enter_point_id = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearEnterPointId() {
@@ -492,7 +492,7 @@ public final class TowerEnterLevelReqOuterClass {
 
       private boolean IsRestartFloor_ ;
       /**
-       * <code>bool _is_restart_floor = 11;</code>
+       * <code>bool _is_restart_floor = 4;</code>
        * @return The isRestartFloor.
        */
       @java.lang.Override
@@ -500,7 +500,7 @@ public final class TowerEnterLevelReqOuterClass {
         return IsRestartFloor_;
       }
       /**
-       * <code>bool _is_restart_floor = 11;</code>
+       * <code>bool _is_restart_floor = 4;</code>
        * @param value The isRestartFloor to set.
        * @return This builder for chaining.
        */
@@ -511,7 +511,7 @@ public final class TowerEnterLevelReqOuterClass {
         return this;
       }
       /**
-       * <code>bool _is_restart_floor = 11;</code>
+       * <code>bool _is_restart_floor = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsRestartFloor() {
@@ -588,8 +588,8 @@ public final class TowerEnterLevelReqOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\030TowerEnterLevelReq.proto\"G\n\022TowerEnter" +
-      "LevelReq\022\026\n\016enter_point_id\030\n \001(\r\022\031\n\021_is_" +
-      "restart_floor\030\013 \001(\010B9\n\031emu.grasscutter.n" +
+      "LevelReq\022\026\n\016enter_point_id\030\017 \001(\r\022\031\n\021_is_" +
+      "restart_floor\030\004 \001(\010B9\n\031emu.grasscutter.n" +
       "et.protoB\034TowerEnterLevelReqOuterClassb\006" +
       "proto3"
     };

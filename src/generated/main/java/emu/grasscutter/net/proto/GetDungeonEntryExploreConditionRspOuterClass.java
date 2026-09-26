@@ -19,7 +19,7 @@ public final class GetDungeonEntryExploreConditionRspOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>int32 retcode = 2;</code>
+     * <code>int32 retcode = 7;</code>
      * @return The retcode.
      */
     int getRetcode();
@@ -84,7 +84,7 @@ public final class GetDungeonEntryExploreConditionRspOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 56: {
 
               retcode_ = input.readInt32();
               break;
@@ -134,10 +134,10 @@ public final class GetDungeonEntryExploreConditionRspOuterClass {
               emu.grasscutter.net.proto.GetDungeonEntryExploreConditionRspOuterClass.GetDungeonEntryExploreConditionRsp.class, emu.grasscutter.net.proto.GetDungeonEntryExploreConditionRspOuterClass.GetDungeonEntryExploreConditionRsp.Builder.class);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 2;
+    public static final int RETCODE_FIELD_NUMBER = 7;
     private int retcode_;
     /**
-     * <code>int32 retcode = 2;</code>
+     * <code>int32 retcode = 7;</code>
      * @return The retcode.
      */
     @java.lang.Override
@@ -186,7 +186,7 @@ public final class GetDungeonEntryExploreConditionRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (retcode_ != 0) {
-        output.writeInt32(2, retcode_);
+        output.writeInt32(7, retcode_);
       }
       if (dungeonEntryCond_ != null) {
         output.writeMessage(11, getDungeonEntryCond());
@@ -202,7 +202,7 @@ public final class GetDungeonEntryExploreConditionRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(2, retcode_);
+          .computeInt32Size(7, retcode_);
       }
       if (dungeonEntryCond_ != null) {
         size += com.google.protobuf.CodedOutputStream
@@ -505,7 +505,7 @@ public final class GetDungeonEntryExploreConditionRspOuterClass {
 
       private int retcode_ ;
       /**
-       * <code>int32 retcode = 2;</code>
+       * <code>int32 retcode = 7;</code>
        * @return The retcode.
        */
       @java.lang.Override
@@ -513,7 +513,7 @@ public final class GetDungeonEntryExploreConditionRspOuterClass {
         return retcode_;
       }
       /**
-       * <code>int32 retcode = 2;</code>
+       * <code>int32 retcode = 7;</code>
        * @param value The retcode to set.
        * @return This builder for chaining.
        */
@@ -524,7 +524,7 @@ public final class GetDungeonEntryExploreConditionRspOuterClass {
         return this;
       }
       /**
-       * <code>int32 retcode = 2;</code>
+       * <code>int32 retcode = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
@@ -721,7 +721,7 @@ public final class GetDungeonEntryExploreConditionRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n(GetDungeonEntryExploreConditionRsp.pro" +
       "to\032\026DungeonEntryCond.proto\"d\n\"GetDungeon" +
-      "EntryExploreConditionRsp\022\017\n\007retcode\030\002 \001(" +
+      "EntryExploreConditionRsp\022\017\n\007retcode\030\007 \001(" +
       "\005\022-\n\022dungeon_entry_cond\030\013 \001(\0132\021.DungeonE" +
       "ntryCondBI\n\031emu.grasscutter.net.protoB,G" +
       "etDungeonEntryExploreConditionRspOuterCl" +

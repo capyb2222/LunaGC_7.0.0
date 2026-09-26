@@ -5,5 +5,5 @@ option java_outer_classname = "ArenaChallengeMonsterLevelOuterClass";
 
 message ArenaChallengeMonsterLevel {
 	uint32 BLCPLGCJEBJ = 8;
-	uint32 KHJHFLNMNPC = 15;
+	uint32 KHJHFLNMNPC = 2;
 }

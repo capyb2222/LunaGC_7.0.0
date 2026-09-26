@@ -6,5 +6,5 @@ option java_outer_classname = "WindFieldDetailInfoOuterClass";
 import "WindFieldStageInfo.proto";
 
 message WindFieldDetailInfo {
-	repeated WindFieldStageInfo stage_info_list = 3;
+	repeated WindFieldStageInfo stage_info_list = 14;
 }

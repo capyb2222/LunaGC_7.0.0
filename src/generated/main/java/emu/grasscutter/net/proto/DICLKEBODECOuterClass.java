@@ -19,17 +19,17 @@ public final class DICLKEBODECOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>optional ._PlatformKey platform_key = 9;</code>
+     * <code>optional ._PlatformKey platform_key = 8;</code>
      * @return Whether the platformKey field is set.
      */
     boolean hasPlatformKey();
     /**
-     * <code>optional ._PlatformKey platform_key = 9;</code>
+     * <code>optional ._PlatformKey platform_key = 8;</code>
      * @return The platformKey.
      */
     emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey getPlatformKey();
     /**
-     * <code>optional ._PlatformKey platform_key = 9;</code>
+     * <code>optional ._PlatformKey platform_key = 8;</code>
      */
     emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKeyOrBuilder getPlatformKeyOrBuilder();
   }
@@ -79,7 +79,7 @@ public final class DICLKEBODECOuterClass {
             case 0:
               done = true;
               break;
-            case 74: {
+            case 66: {
               emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey.Builder subBuilder = null;
               if (((bitField0_ & 0x00000001) != 0)) {
                 subBuilder = platformKey_.toBuilder();
@@ -125,10 +125,10 @@ public final class DICLKEBODECOuterClass {
     }
 
     private int bitField0_;
-    public static final int PLATFORM_KEY_FIELD_NUMBER = 9;
+    public static final int PLATFORM_KEY_FIELD_NUMBER = 8;
     private emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey platformKey_;
     /**
-     * <code>optional ._PlatformKey platform_key = 9;</code>
+     * <code>optional ._PlatformKey platform_key = 8;</code>
      * @return Whether the platformKey field is set.
      */
     @java.lang.Override
@@ -136,7 +136,7 @@ public final class DICLKEBODECOuterClass {
       return ((bitField0_ & 0x00000001) != 0);
     }
     /**
-     * <code>optional ._PlatformKey platform_key = 9;</code>
+     * <code>optional ._PlatformKey platform_key = 8;</code>
      * @return The platformKey.
      */
     @java.lang.Override
@@ -144,7 +144,7 @@ public final class DICLKEBODECOuterClass {
       return platformKey_ == null ? emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey.getDefaultInstance() : platformKey_;
     }
     /**
-     * <code>optional ._PlatformKey platform_key = 9;</code>
+     * <code>optional ._PlatformKey platform_key = 8;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKeyOrBuilder getPlatformKeyOrBuilder() {
@@ -166,7 +166,7 @@ public final class DICLKEBODECOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (((bitField0_ & 0x00000001) != 0)) {
-        output.writeMessage(9, getPlatformKey());
+        output.writeMessage(8, getPlatformKey());
       }
       unknownFields.writeTo(output);
     }
@@ -179,7 +179,7 @@ public final class DICLKEBODECOuterClass {
       size = 0;
       if (((bitField0_ & 0x00000001) != 0)) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(9, getPlatformKey());
+          .computeMessageSize(8, getPlatformKey());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -478,14 +478,14 @@ public final class DICLKEBODECOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey, emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey.Builder, emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKeyOrBuilder> platformKeyBuilder_;
       /**
-       * <code>optional ._PlatformKey platform_key = 9;</code>
+       * <code>optional ._PlatformKey platform_key = 8;</code>
        * @return Whether the platformKey field is set.
        */
       public boolean hasPlatformKey() {
         return ((bitField0_ & 0x00000001) != 0);
       }
       /**
-       * <code>optional ._PlatformKey platform_key = 9;</code>
+       * <code>optional ._PlatformKey platform_key = 8;</code>
        * @return The platformKey.
        */
       public emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey getPlatformKey() {
@@ -496,7 +496,7 @@ public final class DICLKEBODECOuterClass {
         }
       }
       /**
-       * <code>optional ._PlatformKey platform_key = 9;</code>
+       * <code>optional ._PlatformKey platform_key = 8;</code>
        */
       public Builder setPlatformKey(emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey value) {
         if (platformKeyBuilder_ == null) {
@@ -512,7 +512,7 @@ public final class DICLKEBODECOuterClass {
         return this;
       }
       /**
-       * <code>optional ._PlatformKey platform_key = 9;</code>
+       * <code>optional ._PlatformKey platform_key = 8;</code>
        */
       public Builder setPlatformKey(
           emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey.Builder builderForValue) {
@@ -526,7 +526,7 @@ public final class DICLKEBODECOuterClass {
         return this;
       }
       /**
-       * <code>optional ._PlatformKey platform_key = 9;</code>
+       * <code>optional ._PlatformKey platform_key = 8;</code>
        */
       public Builder mergePlatformKey(emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey value) {
         if (platformKeyBuilder_ == null) {
@@ -546,7 +546,7 @@ public final class DICLKEBODECOuterClass {
         return this;
       }
       /**
-       * <code>optional ._PlatformKey platform_key = 9;</code>
+       * <code>optional ._PlatformKey platform_key = 8;</code>
        */
       public Builder clearPlatformKey() {
         if (platformKeyBuilder_ == null) {
@@ -559,7 +559,7 @@ public final class DICLKEBODECOuterClass {
         return this;
       }
       /**
-       * <code>optional ._PlatformKey platform_key = 9;</code>
+       * <code>optional ._PlatformKey platform_key = 8;</code>
        */
       public emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey.Builder getPlatformKeyBuilder() {
         bitField0_ |= 0x00000001;
@@ -567,7 +567,7 @@ public final class DICLKEBODECOuterClass {
         return getPlatformKeyFieldBuilder().getBuilder();
       }
       /**
-       * <code>optional ._PlatformKey platform_key = 9;</code>
+       * <code>optional ._PlatformKey platform_key = 8;</code>
        */
       public emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKeyOrBuilder getPlatformKeyOrBuilder() {
         if (platformKeyBuilder_ != null) {
@@ -578,7 +578,7 @@ public final class DICLKEBODECOuterClass {
         }
       }
       /**
-       * <code>optional ._PlatformKey platform_key = 9;</code>
+       * <code>optional ._PlatformKey platform_key = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey, emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKey.Builder, emu.grasscutter.net.proto._PlatformKeyOuterClass._PlatformKeyOrBuilder> 
@@ -661,7 +661,7 @@ public final class DICLKEBODECOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021DICLKEBODEC.proto\032\022_PlatformKey.proto\"" +
-      "H\n\013DICLKEBODEC\022(\n\014platform_key\030\t \001(\0132\r._" +
+      "H\n\013DICLKEBODEC\022(\n\014platform_key\030\010 \001(\0132\r._" +
       "PlatformKeyH\000\210\001\001B\017\n\r_platform_keyB2\n\031emu" +
       ".grasscutter.net.protoB\025DICLKEBODECOuter" +
       "Classb\006proto3"

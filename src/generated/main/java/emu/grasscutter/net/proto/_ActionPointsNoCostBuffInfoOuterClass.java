@@ -19,12 +19,12 @@ public final class _ActionPointsNoCostBuffInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.NGGGDAFGJDL NKCFBBKIHHC = 12;</code>
+     * <code>.NGGGDAFGJDL NKCFBBKIHHC = 6;</code>
      * @return The enum numeric value on the wire for nKCFBBKIHHC.
      */
     int getNKCFBBKIHHCValue();
     /**
-     * <code>.NGGGDAFGJDL NKCFBBKIHHC = 12;</code>
+     * <code>.NGGGDAFGJDL NKCFBBKIHHC = 6;</code>
      * @return The nKCFBBKIHHC.
      */
     emu.grasscutter.net.proto.NGGGDAFGJDLOuterClass.NGGGDAFGJDL getNKCFBBKIHHC();
@@ -75,7 +75,7 @@ public final class _ActionPointsNoCostBuffInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 96: {
+            case 48: {
               int rawValue = input.readEnum();
 
               nKCFBBKIHHC_ = rawValue;
@@ -113,17 +113,17 @@ public final class _ActionPointsNoCostBuffInfoOuterClass {
               emu.grasscutter.net.proto._ActionPointsNoCostBuffInfoOuterClass._ActionPointsNoCostBuffInfo.class, emu.grasscutter.net.proto._ActionPointsNoCostBuffInfoOuterClass._ActionPointsNoCostBuffInfo.Builder.class);
     }
 
-    public static final int NKCFBBKIHHC_FIELD_NUMBER = 12;
+    public static final int NKCFBBKIHHC_FIELD_NUMBER = 6;
     private int nKCFBBKIHHC_;
     /**
-     * <code>.NGGGDAFGJDL NKCFBBKIHHC = 12;</code>
+     * <code>.NGGGDAFGJDL NKCFBBKIHHC = 6;</code>
      * @return The enum numeric value on the wire for nKCFBBKIHHC.
      */
     @java.lang.Override public int getNKCFBBKIHHCValue() {
       return nKCFBBKIHHC_;
     }
     /**
-     * <code>.NGGGDAFGJDL NKCFBBKIHHC = 12;</code>
+     * <code>.NGGGDAFGJDL NKCFBBKIHHC = 6;</code>
      * @return The nKCFBBKIHHC.
      */
     @java.lang.Override public emu.grasscutter.net.proto.NGGGDAFGJDLOuterClass.NGGGDAFGJDL getNKCFBBKIHHC() {
@@ -147,7 +147,7 @@ public final class _ActionPointsNoCostBuffInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (nKCFBBKIHHC_ != emu.grasscutter.net.proto.NGGGDAFGJDLOuterClass.NGGGDAFGJDL.NGGGDAFGJDL_THEME_PARK_SIM_ACTION_NONE.getNumber()) {
-        output.writeEnum(12, nKCFBBKIHHC_);
+        output.writeEnum(6, nKCFBBKIHHC_);
       }
       unknownFields.writeTo(output);
     }
@@ -160,7 +160,7 @@ public final class _ActionPointsNoCostBuffInfoOuterClass {
       size = 0;
       if (nKCFBBKIHHC_ != emu.grasscutter.net.proto.NGGGDAFGJDLOuterClass.NGGGDAFGJDL.NGGGDAFGJDL_THEME_PARK_SIM_ACTION_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(12, nKCFBBKIHHC_);
+          .computeEnumSize(6, nKCFBBKIHHC_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -435,14 +435,14 @@ public final class _ActionPointsNoCostBuffInfoOuterClass {
 
       private int nKCFBBKIHHC_ = 0;
       /**
-       * <code>.NGGGDAFGJDL NKCFBBKIHHC = 12;</code>
+       * <code>.NGGGDAFGJDL NKCFBBKIHHC = 6;</code>
        * @return The enum numeric value on the wire for nKCFBBKIHHC.
        */
       @java.lang.Override public int getNKCFBBKIHHCValue() {
         return nKCFBBKIHHC_;
       }
       /**
-       * <code>.NGGGDAFGJDL NKCFBBKIHHC = 12;</code>
+       * <code>.NGGGDAFGJDL NKCFBBKIHHC = 6;</code>
        * @param value The enum numeric value on the wire for nKCFBBKIHHC to set.
        * @return This builder for chaining.
        */
@@ -453,7 +453,7 @@ public final class _ActionPointsNoCostBuffInfoOuterClass {
         return this;
       }
       /**
-       * <code>.NGGGDAFGJDL NKCFBBKIHHC = 12;</code>
+       * <code>.NGGGDAFGJDL NKCFBBKIHHC = 6;</code>
        * @return The nKCFBBKIHHC.
        */
       @java.lang.Override
@@ -463,7 +463,7 @@ public final class _ActionPointsNoCostBuffInfoOuterClass {
         return result == null ? emu.grasscutter.net.proto.NGGGDAFGJDLOuterClass.NGGGDAFGJDL.UNRECOGNIZED : result;
       }
       /**
-       * <code>.NGGGDAFGJDL NKCFBBKIHHC = 12;</code>
+       * <code>.NGGGDAFGJDL NKCFBBKIHHC = 6;</code>
        * @param value The nKCFBBKIHHC to set.
        * @return This builder for chaining.
        */
@@ -477,7 +477,7 @@ public final class _ActionPointsNoCostBuffInfoOuterClass {
         return this;
       }
       /**
-       * <code>.NGGGDAFGJDL NKCFBBKIHHC = 12;</code>
+       * <code>.NGGGDAFGJDL NKCFBBKIHHC = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearNKCFBBKIHHC() {
@@ -555,7 +555,7 @@ public final class _ActionPointsNoCostBuffInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n!_ActionPointsNoCostBuffInfo.proto\032\021NGG" +
       "GDAFGJDL.proto\"@\n\033_ActionPointsNoCostBuf" +
-      "fInfo\022!\n\013NKCFBBKIHHC\030\014 \001(\0162\014.NGGGDAFGJDL" +
+      "fInfo\022!\n\013NKCFBBKIHHC\030\006 \001(\0162\014.NGGGDAFGJDL" +
       "BB\n\031emu.grasscutter.net.protoB%_ActionPo" +
       "intsNoCostBuffInfoOuterClassb\006proto3"
     };

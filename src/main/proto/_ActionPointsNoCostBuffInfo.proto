@@ -6,5 +6,5 @@ option java_outer_classname = "_ActionPointsNoCostBuffInfoOuterClass";
 import "NGGGDAFGJDL.proto";
 
 message _ActionPointsNoCostBuffInfo {
-	NGGGDAFGJDL NKCFBBKIHHC = 12;
+	NGGGDAFGJDL NKCFBBKIHHC = 6;
 }

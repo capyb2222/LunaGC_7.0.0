@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "BrickBreakerActivityStageInfoOuterClass";
 
 message BrickBreakerActivityStageInfo {
-	uint32 stage_id = 4;
-	bool KEJPBFGPNLE = 8;
-	bool HLENJPJHOHL = 14;
+	uint32 stage_id = 9;
+	bool KEJPBFGPNLE = 50000;
+	bool HLENJPJHOHL = 50001;
 }

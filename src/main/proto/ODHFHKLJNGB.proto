@@ -4,8 +4,8 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "ODHFHKLJNGBOuterClass";
 
 message ODHFHKLJNGB {
-	uint32 score = 4;
-	bool is_open = 8;
-	uint32 level_id = 10;
-	bool is_finish = 14;
+	uint32 score = 15;
+	bool is_open = 1;
+	uint32 level_id = 3;
+	bool is_finish = 6;
 }

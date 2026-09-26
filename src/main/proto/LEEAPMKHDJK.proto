@@ -6,8 +6,8 @@ option java_outer_classname = "LEEAPMKHDJKOuterClass";
 import "EBPIBIFOEFF.proto";
 
 message LEEAPMKHDJK {
-	uint32 MEBODADIOBO = 3;
-	uint32 OOFPCLDDCCL = 5;
-	uint32 HANJNFCBFCJ = 9;
-	repeated EBPIBIFOEFF avatar_list = 15;
+	uint32 MEBODADIOBO = 7;
+	uint32 OOFPCLDDCCL = 50000;
+	uint32 HANJNFCBFCJ = 50001;
+	repeated EBPIBIFOEFF avatar_list = 3;
 }

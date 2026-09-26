@@ -6,8 +6,8 @@ option java_outer_classname = "_LanternRiteV6DanmakuRecordOuterClass";
 import "Uint32Pair.proto";
 
 message _LanternRiteV6DanmakuRecord {
-	uint32 FAMHJPHJKPE = 3;
-	uint32 IJGJCFGFPFE = 5;
-	uint32 BGFHONDHLIF = 10;
-	repeated Uint32Pair _level_record_time_list = 13;
+	uint32 FAMHJPHJKPE = 50000;
+	uint32 IJGJCFGFPFE = 50001;
+	uint32 BGFHONDHLIF = 50002;
+	repeated Uint32Pair _level_record_time_list = 9;
 }

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "EvtBeingHealedNotifyOuterClass";
+
+message EvtBeingHealedNotify {
+	string JONDCAMLJOF = 4;
+	uint32 target_id = 5;
+	uint32 source_id = 3;
+	float heal_amount = 8;
+	bool AFAHAOFIJJO = 15;
+	float real_heal_amount = 14;
+}

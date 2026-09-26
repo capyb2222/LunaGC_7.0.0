@@ -6,7 +6,7 @@ option java_outer_classname = "SpiceActivityDetailInfoOuterClass";
 import "SpiceStageData.proto";
 
 message SpiceActivityDetailInfo {
-	repeated SpiceStageData spice_stage_data_list = 2;
-	uint32 OIIKKGLKPAE = 5;
-	uint32 IGHPCKKBJHK = 15;
+	repeated SpiceStageData spice_stage_data_list = 5;
+	uint32 OIIKKGLKPAE = 50000;
+	uint32 IGHPCKKBJHK = 50001;
 }

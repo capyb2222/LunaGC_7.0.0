@@ -244,7 +244,8 @@ public class ChatSystem implements ChatSystemHandler {
         }
 
         if (joinOptions.welcomeMessage != null && joinOptions.welcomeMessage.length() > 0) {
-            this.sendPrivateMessageFromServer(player.getUid(), joinOptions.welcomeMessage);
+            this.sendPrivateMessageFromServer(
+                    player.getUid(), joinOptions.welcomeMessage.replace("{version}", GameConstants.VERSION));
         }
     }
 }

@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "SalvageScoreChallengeInfoOuterClass";
 
 message SalvageScoreChallengeInfo {
-	uint32 max_score = 1;
-	uint32 salvage_challenge_id = 7;
+	uint32 max_score = 3;
+	uint32 salvage_challenge_id = 1;
 }

@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "MNKIILLGHDCOuterClass";
 
 message MNKIILLGHDC {
-	uint32 min_finish_time = 2;
-	uint32 level_id = 4;
-	bool is_open = 7;
+	uint32 min_finish_time = 1;
+	uint32 level_id = 6;
+	bool is_open = 8;
 }

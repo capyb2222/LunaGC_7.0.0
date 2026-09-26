@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "_TowerDefenseLevelInfoOuterClass";
 
 message _TowerDefenseLevelInfo {
-	uint64 _first_pass_time_ms = 6;
-	bool _is_perfect_defense = 9;
+	uint64 _first_pass_time_ms = 7;
+	bool _is_perfect_defense = 4;
 }

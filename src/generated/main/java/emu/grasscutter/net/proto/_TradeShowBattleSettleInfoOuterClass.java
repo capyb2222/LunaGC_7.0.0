@@ -19,25 +19,25 @@ public final class _TradeShowBattleSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 level_id = 3;</code>
+     * <code>uint32 level_id = 15;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>uint32 GBHMBBOAMLK = 4;</code>
+     * <code>uint32 GBHMBBOAMLK = 50000;</code>
      * @return The gBHMBBOAMLK.
      */
     int getGBHMBBOAMLK();
 
     /**
-     * <code>uint32 score = 5;</code>
+     * <code>uint32 score = 4;</code>
      * @return The score.
      */
     int getScore();
 
     /**
-     * <code>uint32 difficulty_id = 6;</code>
+     * <code>uint32 difficulty_id = 2;</code>
      * @return The difficultyId.
      */
     int getDifficultyId();
@@ -49,7 +49,7 @@ public final class _TradeShowBattleSettleInfoOuterClass {
     boolean getIsNewRecord();
 
     /**
-     * <code>uint32 NKMECOILMIO = 14;</code>
+     * <code>uint32 NKMECOILMIO = 50001;</code>
      * @return The nKMECOILMIO.
      */
     int getNKMECOILMIO();
@@ -99,24 +99,14 @@ public final class _TradeShowBattleSettleInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 16: {
 
-              levelId_ = input.readUInt32();
+              difficultyId_ = input.readUInt32();
               break;
             }
             case 32: {
 
-              gBHMBBOAMLK_ = input.readUInt32();
-              break;
-            }
-            case 40: {
-
               score_ = input.readUInt32();
-              break;
-            }
-            case 48: {
-
-              difficultyId_ = input.readUInt32();
               break;
             }
             case 88: {
@@ -124,7 +114,17 @@ public final class _TradeShowBattleSettleInfoOuterClass {
               isNewRecord_ = input.readBool();
               break;
             }
-            case 112: {
+            case 120: {
+
+              levelId_ = input.readUInt32();
+              break;
+            }
+            case 400000: {
+
+              gBHMBBOAMLK_ = input.readUInt32();
+              break;
+            }
+            case 400008: {
 
               nKMECOILMIO_ = input.readUInt32();
               break;
@@ -161,10 +161,10 @@ public final class _TradeShowBattleSettleInfoOuterClass {
               emu.grasscutter.net.proto._TradeShowBattleSettleInfoOuterClass._TradeShowBattleSettleInfo.class, emu.grasscutter.net.proto._TradeShowBattleSettleInfoOuterClass._TradeShowBattleSettleInfo.Builder.class);
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 3;
+    public static final int LEVEL_ID_FIELD_NUMBER = 15;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 3;</code>
+     * <code>uint32 level_id = 15;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -172,10 +172,10 @@ public final class _TradeShowBattleSettleInfoOuterClass {
       return levelId_;
     }
 
-    public static final int GBHMBBOAMLK_FIELD_NUMBER = 4;
+    public static final int GBHMBBOAMLK_FIELD_NUMBER = 50000;
     private int gBHMBBOAMLK_;
     /**
-     * <code>uint32 GBHMBBOAMLK = 4;</code>
+     * <code>uint32 GBHMBBOAMLK = 50000;</code>
      * @return The gBHMBBOAMLK.
      */
     @java.lang.Override
@@ -183,10 +183,10 @@ public final class _TradeShowBattleSettleInfoOuterClass {
       return gBHMBBOAMLK_;
     }
 
-    public static final int SCORE_FIELD_NUMBER = 5;
+    public static final int SCORE_FIELD_NUMBER = 4;
     private int score_;
     /**
-     * <code>uint32 score = 5;</code>
+     * <code>uint32 score = 4;</code>
      * @return The score.
      */
     @java.lang.Override
@@ -194,10 +194,10 @@ public final class _TradeShowBattleSettleInfoOuterClass {
       return score_;
     }
 
-    public static final int DIFFICULTY_ID_FIELD_NUMBER = 6;
+    public static final int DIFFICULTY_ID_FIELD_NUMBER = 2;
     private int difficultyId_;
     /**
-     * <code>uint32 difficulty_id = 6;</code>
+     * <code>uint32 difficulty_id = 2;</code>
      * @return The difficultyId.
      */
     @java.lang.Override
@@ -216,10 +216,10 @@ public final class _TradeShowBattleSettleInfoOuterClass {
       return isNewRecord_;
     }
 
-    public static final int NKMECOILMIO_FIELD_NUMBER = 14;
+    public static final int NKMECOILMIO_FIELD_NUMBER = 50001;
     private int nKMECOILMIO_;
     /**
-     * <code>uint32 NKMECOILMIO = 14;</code>
+     * <code>uint32 NKMECOILMIO = 50001;</code>
      * @return The nKMECOILMIO.
      */
     @java.lang.Override
@@ -241,23 +241,23 @@ public final class _TradeShowBattleSettleInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (levelId_ != 0) {
-        output.writeUInt32(3, levelId_);
-      }
-      if (gBHMBBOAMLK_ != 0) {
-        output.writeUInt32(4, gBHMBBOAMLK_);
+      if (difficultyId_ != 0) {
+        output.writeUInt32(2, difficultyId_);
       }
       if (score_ != 0) {
-        output.writeUInt32(5, score_);
-      }
-      if (difficultyId_ != 0) {
-        output.writeUInt32(6, difficultyId_);
+        output.writeUInt32(4, score_);
       }
       if (isNewRecord_ != false) {
         output.writeBool(11, isNewRecord_);
       }
+      if (levelId_ != 0) {
+        output.writeUInt32(15, levelId_);
+      }
+      if (gBHMBBOAMLK_ != 0) {
+        output.writeUInt32(50000, gBHMBBOAMLK_);
+      }
       if (nKMECOILMIO_ != 0) {
-        output.writeUInt32(14, nKMECOILMIO_);
+        output.writeUInt32(50001, nKMECOILMIO_);
       }
       unknownFields.writeTo(output);
     }
@@ -268,29 +268,29 @@ public final class _TradeShowBattleSettleInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (levelId_ != 0) {
+      if (difficultyId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, levelId_);
-      }
-      if (gBHMBBOAMLK_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, gBHMBBOAMLK_);
+          .computeUInt32Size(2, difficultyId_);
       }
       if (score_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, score_);
-      }
-      if (difficultyId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, difficultyId_);
+          .computeUInt32Size(4, score_);
       }
       if (isNewRecord_ != false) {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(11, isNewRecord_);
       }
+      if (levelId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(15, levelId_);
+      }
+      if (gBHMBBOAMLK_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50000, gBHMBBOAMLK_);
+      }
       if (nKMECOILMIO_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, nKMECOILMIO_);
+          .computeUInt32Size(50001, nKMECOILMIO_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -617,7 +617,7 @@ public final class _TradeShowBattleSettleInfoOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 3;</code>
+       * <code>uint32 level_id = 15;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -625,7 +625,7 @@ public final class _TradeShowBattleSettleInfoOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 3;</code>
+       * <code>uint32 level_id = 15;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -636,7 +636,7 @@ public final class _TradeShowBattleSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 3;</code>
+       * <code>uint32 level_id = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -648,7 +648,7 @@ public final class _TradeShowBattleSettleInfoOuterClass {
 
       private int gBHMBBOAMLK_ ;
       /**
-       * <code>uint32 GBHMBBOAMLK = 4;</code>
+       * <code>uint32 GBHMBBOAMLK = 50000;</code>
        * @return The gBHMBBOAMLK.
        */
       @java.lang.Override
@@ -656,7 +656,7 @@ public final class _TradeShowBattleSettleInfoOuterClass {
         return gBHMBBOAMLK_;
       }
       /**
-       * <code>uint32 GBHMBBOAMLK = 4;</code>
+       * <code>uint32 GBHMBBOAMLK = 50000;</code>
        * @param value The gBHMBBOAMLK to set.
        * @return This builder for chaining.
        */
@@ -667,7 +667,7 @@ public final class _TradeShowBattleSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 GBHMBBOAMLK = 4;</code>
+       * <code>uint32 GBHMBBOAMLK = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearGBHMBBOAMLK() {
@@ -679,7 +679,7 @@ public final class _TradeShowBattleSettleInfoOuterClass {
 
       private int score_ ;
       /**
-       * <code>uint32 score = 5;</code>
+       * <code>uint32 score = 4;</code>
        * @return The score.
        */
       @java.lang.Override
@@ -687,7 +687,7 @@ public final class _TradeShowBattleSettleInfoOuterClass {
         return score_;
       }
       /**
-       * <code>uint32 score = 5;</code>
+       * <code>uint32 score = 4;</code>
        * @param value The score to set.
        * @return This builder for chaining.
        */
@@ -698,7 +698,7 @@ public final class _TradeShowBattleSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 score = 5;</code>
+       * <code>uint32 score = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearScore() {
@@ -710,7 +710,7 @@ public final class _TradeShowBattleSettleInfoOuterClass {
 
       private int difficultyId_ ;
       /**
-       * <code>uint32 difficulty_id = 6;</code>
+       * <code>uint32 difficulty_id = 2;</code>
        * @return The difficultyId.
        */
       @java.lang.Override
@@ -718,7 +718,7 @@ public final class _TradeShowBattleSettleInfoOuterClass {
         return difficultyId_;
       }
       /**
-       * <code>uint32 difficulty_id = 6;</code>
+       * <code>uint32 difficulty_id = 2;</code>
        * @param value The difficultyId to set.
        * @return This builder for chaining.
        */
@@ -729,7 +729,7 @@ public final class _TradeShowBattleSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 difficulty_id = 6;</code>
+       * <code>uint32 difficulty_id = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearDifficultyId() {
@@ -772,7 +772,7 @@ public final class _TradeShowBattleSettleInfoOuterClass {
 
       private int nKMECOILMIO_ ;
       /**
-       * <code>uint32 NKMECOILMIO = 14;</code>
+       * <code>uint32 NKMECOILMIO = 50001;</code>
        * @return The nKMECOILMIO.
        */
       @java.lang.Override
@@ -780,7 +780,7 @@ public final class _TradeShowBattleSettleInfoOuterClass {
         return nKMECOILMIO_;
       }
       /**
-       * <code>uint32 NKMECOILMIO = 14;</code>
+       * <code>uint32 NKMECOILMIO = 50001;</code>
        * @param value The nKMECOILMIO to set.
        * @return This builder for chaining.
        */
@@ -791,7 +791,7 @@ public final class _TradeShowBattleSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 NKMECOILMIO = 14;</code>
+       * <code>uint32 NKMECOILMIO = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearNKMECOILMIO() {
@@ -867,13 +867,13 @@ public final class _TradeShowBattleSettleInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n _TradeShowBattleSettleInfo.proto\"\225\001\n\032_" +
-      "TradeShowBattleSettleInfo\022\020\n\010level_id\030\003 " +
-      "\001(\r\022\023\n\013GBHMBBOAMLK\030\004 \001(\r\022\r\n\005score\030\005 \001(\r\022" +
-      "\025\n\rdifficulty_id\030\006 \001(\r\022\025\n\ris_new_record\030" +
-      "\013 \001(\010\022\023\n\013NKMECOILMIO\030\016 \001(\rBA\n\031emu.grassc" +
-      "utter.net.protoB$_TradeShowBattleSettleI" +
-      "nfoOuterClassb\006proto3"
+      "\n _TradeShowBattleSettleInfo.proto\"\231\001\n\032_" +
+      "TradeShowBattleSettleInfo\022\020\n\010level_id\030\017 " +
+      "\001(\r\022\025\n\013GBHMBBOAMLK\030\320\206\003 \001(\r\022\r\n\005score\030\004 \001(" +
+      "\r\022\025\n\rdifficulty_id\030\002 \001(\r\022\025\n\ris_new_recor" +
+      "d\030\013 \001(\010\022\025\n\013NKMECOILMIO\030\321\206\003 \001(\rBA\n\031emu.gr" +
+      "asscutter.net.protoB$_TradeShowBattleSet" +
+      "tleInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

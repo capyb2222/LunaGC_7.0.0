@@ -6,10 +6,10 @@ option java_outer_classname = "AvatarFetterInfoOuterClass";
 import "FetterData.proto";
 
 message AvatarFetterInfo {
-	uint32 exp_number = 50000;
-	uint32 exp_level = 50001;
-	repeated uint32 open_id_list = 50002;
-	repeated uint32 finish_id_list = 50003;
-	repeated uint32 rewarded_fetter_level_list = 50004;
+	uint32 exp_number = 1;
+	uint32 exp_level = 2;
+	repeated uint32 open_id_list = 3;
+	repeated uint32 finish_id_list = 4;
+	repeated uint32 rewarded_fetter_level_list = 5;
 	repeated FetterData fetter_list = 6;
 }

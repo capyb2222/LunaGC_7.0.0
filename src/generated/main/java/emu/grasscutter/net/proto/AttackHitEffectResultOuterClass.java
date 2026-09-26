@@ -31,25 +31,25 @@ public final class AttackHitEffectResultOuterClass {
     float getAPDAHHOOLAA();
 
     /**
-     * <code>float OPGJOJGJHCJ = 5;</code>
+     * <code>float OPGJOJGJHCJ = 50000;</code>
      * @return The oPGJOJGJHCJ.
      */
     float getOPGJOJGJHCJ();
 
     /**
-     * <code>uint32 JKKNMKKLHMD = 7;</code>
+     * <code>uint32 JKKNMKKLHMD = 50001;</code>
      * @return The jKKNMKKLHMD.
      */
     int getJKKNMKKLHMD();
 
     /**
-     * <code>float MBGEPHDJINB = 12;</code>
+     * <code>float MBGEPHDJINB = 50002;</code>
      * @return The mBGEPHDJINB.
      */
     float getMBGEPHDJINB();
 
     /**
-     * <code>float klfhecelkoe = 15;</code>
+     * <code>float klfhecelkoe = 50003;</code>
      * @return The klfhecelkoe.
      */
     float getKlfhecelkoe();
@@ -109,22 +109,22 @@ public final class AttackHitEffectResultOuterClass {
               aPDAHHOOLAA_ = input.readFloat();
               break;
             }
-            case 45: {
+            case 400005: {
 
               oPGJOJGJHCJ_ = input.readFloat();
               break;
             }
-            case 56: {
+            case 400008: {
 
               jKKNMKKLHMD_ = input.readUInt32();
               break;
             }
-            case 101: {
+            case 400021: {
 
               mBGEPHDJINB_ = input.readFloat();
               break;
             }
-            case 125: {
+            case 400029: {
 
               klfhecelkoe_ = input.readFloat();
               break;
@@ -183,10 +183,10 @@ public final class AttackHitEffectResultOuterClass {
       return aPDAHHOOLAA_;
     }
 
-    public static final int OPGJOJGJHCJ_FIELD_NUMBER = 5;
+    public static final int OPGJOJGJHCJ_FIELD_NUMBER = 50000;
     private float oPGJOJGJHCJ_;
     /**
-     * <code>float OPGJOJGJHCJ = 5;</code>
+     * <code>float OPGJOJGJHCJ = 50000;</code>
      * @return The oPGJOJGJHCJ.
      */
     @java.lang.Override
@@ -194,10 +194,10 @@ public final class AttackHitEffectResultOuterClass {
       return oPGJOJGJHCJ_;
     }
 
-    public static final int JKKNMKKLHMD_FIELD_NUMBER = 7;
+    public static final int JKKNMKKLHMD_FIELD_NUMBER = 50001;
     private int jKKNMKKLHMD_;
     /**
-     * <code>uint32 JKKNMKKLHMD = 7;</code>
+     * <code>uint32 JKKNMKKLHMD = 50001;</code>
      * @return The jKKNMKKLHMD.
      */
     @java.lang.Override
@@ -205,10 +205,10 @@ public final class AttackHitEffectResultOuterClass {
       return jKKNMKKLHMD_;
     }
 
-    public static final int MBGEPHDJINB_FIELD_NUMBER = 12;
+    public static final int MBGEPHDJINB_FIELD_NUMBER = 50002;
     private float mBGEPHDJINB_;
     /**
-     * <code>float MBGEPHDJINB = 12;</code>
+     * <code>float MBGEPHDJINB = 50002;</code>
      * @return The mBGEPHDJINB.
      */
     @java.lang.Override
@@ -216,10 +216,10 @@ public final class AttackHitEffectResultOuterClass {
       return mBGEPHDJINB_;
     }
 
-    public static final int KLFHECELKOE_FIELD_NUMBER = 15;
+    public static final int KLFHECELKOE_FIELD_NUMBER = 50003;
     private float klfhecelkoe_;
     /**
-     * <code>float klfhecelkoe = 15;</code>
+     * <code>float klfhecelkoe = 50003;</code>
      * @return The klfhecelkoe.
      */
     @java.lang.Override
@@ -248,16 +248,16 @@ public final class AttackHitEffectResultOuterClass {
         output.writeFloat(2, aPDAHHOOLAA_);
       }
       if (oPGJOJGJHCJ_ != 0F) {
-        output.writeFloat(5, oPGJOJGJHCJ_);
+        output.writeFloat(50000, oPGJOJGJHCJ_);
       }
       if (jKKNMKKLHMD_ != 0) {
-        output.writeUInt32(7, jKKNMKKLHMD_);
+        output.writeUInt32(50001, jKKNMKKLHMD_);
       }
       if (mBGEPHDJINB_ != 0F) {
-        output.writeFloat(12, mBGEPHDJINB_);
+        output.writeFloat(50002, mBGEPHDJINB_);
       }
       if (klfhecelkoe_ != 0F) {
-        output.writeFloat(15, klfhecelkoe_);
+        output.writeFloat(50003, klfhecelkoe_);
       }
       unknownFields.writeTo(output);
     }
@@ -278,19 +278,19 @@ public final class AttackHitEffectResultOuterClass {
       }
       if (oPGJOJGJHCJ_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(5, oPGJOJGJHCJ_);
+          .computeFloatSize(50000, oPGJOJGJHCJ_);
       }
       if (jKKNMKKLHMD_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, jKKNMKKLHMD_);
+          .computeUInt32Size(50001, jKKNMKKLHMD_);
       }
       if (mBGEPHDJINB_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(12, mBGEPHDJINB_);
+          .computeFloatSize(50002, mBGEPHDJINB_);
       }
       if (klfhecelkoe_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(15, klfhecelkoe_);
+          .computeFloatSize(50003, klfhecelkoe_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -686,7 +686,7 @@ public final class AttackHitEffectResultOuterClass {
 
       private float oPGJOJGJHCJ_ ;
       /**
-       * <code>float OPGJOJGJHCJ = 5;</code>
+       * <code>float OPGJOJGJHCJ = 50000;</code>
        * @return The oPGJOJGJHCJ.
        */
       @java.lang.Override
@@ -694,7 +694,7 @@ public final class AttackHitEffectResultOuterClass {
         return oPGJOJGJHCJ_;
       }
       /**
-       * <code>float OPGJOJGJHCJ = 5;</code>
+       * <code>float OPGJOJGJHCJ = 50000;</code>
        * @param value The oPGJOJGJHCJ to set.
        * @return This builder for chaining.
        */
@@ -705,7 +705,7 @@ public final class AttackHitEffectResultOuterClass {
         return this;
       }
       /**
-       * <code>float OPGJOJGJHCJ = 5;</code>
+       * <code>float OPGJOJGJHCJ = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearOPGJOJGJHCJ() {
@@ -717,7 +717,7 @@ public final class AttackHitEffectResultOuterClass {
 
       private int jKKNMKKLHMD_ ;
       /**
-       * <code>uint32 JKKNMKKLHMD = 7;</code>
+       * <code>uint32 JKKNMKKLHMD = 50001;</code>
        * @return The jKKNMKKLHMD.
        */
       @java.lang.Override
@@ -725,7 +725,7 @@ public final class AttackHitEffectResultOuterClass {
         return jKKNMKKLHMD_;
       }
       /**
-       * <code>uint32 JKKNMKKLHMD = 7;</code>
+       * <code>uint32 JKKNMKKLHMD = 50001;</code>
        * @param value The jKKNMKKLHMD to set.
        * @return This builder for chaining.
        */
@@ -736,7 +736,7 @@ public final class AttackHitEffectResultOuterClass {
         return this;
       }
       /**
-       * <code>uint32 JKKNMKKLHMD = 7;</code>
+       * <code>uint32 JKKNMKKLHMD = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearJKKNMKKLHMD() {
@@ -748,7 +748,7 @@ public final class AttackHitEffectResultOuterClass {
 
       private float mBGEPHDJINB_ ;
       /**
-       * <code>float MBGEPHDJINB = 12;</code>
+       * <code>float MBGEPHDJINB = 50002;</code>
        * @return The mBGEPHDJINB.
        */
       @java.lang.Override
@@ -756,7 +756,7 @@ public final class AttackHitEffectResultOuterClass {
         return mBGEPHDJINB_;
       }
       /**
-       * <code>float MBGEPHDJINB = 12;</code>
+       * <code>float MBGEPHDJINB = 50002;</code>
        * @param value The mBGEPHDJINB to set.
        * @return This builder for chaining.
        */
@@ -767,7 +767,7 @@ public final class AttackHitEffectResultOuterClass {
         return this;
       }
       /**
-       * <code>float MBGEPHDJINB = 12;</code>
+       * <code>float MBGEPHDJINB = 50002;</code>
        * @return This builder for chaining.
        */
       public Builder clearMBGEPHDJINB() {
@@ -779,7 +779,7 @@ public final class AttackHitEffectResultOuterClass {
 
       private float klfhecelkoe_ ;
       /**
-       * <code>float klfhecelkoe = 15;</code>
+       * <code>float klfhecelkoe = 50003;</code>
        * @return The klfhecelkoe.
        */
       @java.lang.Override
@@ -787,7 +787,7 @@ public final class AttackHitEffectResultOuterClass {
         return klfhecelkoe_;
       }
       /**
-       * <code>float klfhecelkoe = 15;</code>
+       * <code>float klfhecelkoe = 50003;</code>
        * @param value The klfhecelkoe to set.
        * @return This builder for chaining.
        */
@@ -798,7 +798,7 @@ public final class AttackHitEffectResultOuterClass {
         return this;
       }
       /**
-       * <code>float klfhecelkoe = 15;</code>
+       * <code>float klfhecelkoe = 50003;</code>
        * @return This builder for chaining.
        */
       public Builder clearKlfhecelkoe() {
@@ -874,13 +874,13 @@ public final class AttackHitEffectResultOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\033AttackHitEffectResult.proto\"\225\001\n\025Attack" +
+      "\n\033AttackHitEffectResult.proto\"\235\001\n\025Attack" +
       "HitEffectResult\022\023\n\013dgedhlmbpca\030\001 \001(\r\022\023\n\013" +
-      "APDAHHOOLAA\030\002 \001(\002\022\023\n\013OPGJOJGJHCJ\030\005 \001(\002\022\023" +
-      "\n\013JKKNMKKLHMD\030\007 \001(\r\022\023\n\013MBGEPHDJINB\030\014 \001(\002" +
-      "\022\023\n\013klfhecelkoe\030\017 \001(\002B<\n\031emu.grasscutter" +
-      ".net.protoB\037AttackHitEffectResultOuterCl" +
-      "assb\006proto3"
+      "APDAHHOOLAA\030\002 \001(\002\022\025\n\013OPGJOJGJHCJ\030\320\206\003 \001(\002" +
+      "\022\025\n\013JKKNMKKLHMD\030\321\206\003 \001(\r\022\025\n\013MBGEPHDJINB\030\322" +
+      "\206\003 \001(\002\022\025\n\013klfhecelkoe\030\323\206\003 \001(\002B<\n\031emu.gra" +
+      "sscutter.net.protoB\037AttackHitEffectResul" +
+      "tOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -4,8 +4,8 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "_TowerChallengeSettleInfoOuterClass";
 
 message _TowerChallengeSettleInfo {
-	uint32 finish_time = 2;
-	uint32 IJFBANKCHKM = 5;
-	uint32 LJNKIOBAHKB = 9;
-	uint32 level_id = 11;
+	uint32 finish_time = 15;
+	uint32 IJFBANKCHKM = 50000;
+	uint32 LJNKIOBAHKB = 50001;
+	uint32 level_id = 7;
 }

@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "UpdatePlayerShowAvatarListReqOuterClass";
 
 message UpdatePlayerShowAvatarListReq {
-	bool is_show_constellation_num = 50000;
-	bool is_show_avatar = 50001;
+	bool is_show_constellation_num = 5;
+	bool is_show_avatar = 2;
 	repeated uint32 show_avatar_id_list = 10;
 }

@@ -6,6 +6,6 @@ option java_outer_classname = "PlayerChatNotifyOuterClass";
 import "ChatInfo.proto";
 
 message PlayerChatNotify {
-	uint32 channel_id = 2;
-	ChatInfo chat_info = 5;
+	uint32 channel_id = 15;
+	ChatInfo chat_info = 4;
 }

@@ -25,8 +25,8 @@ message PlayerApplyEnterMpResultNotify {
 		Reason_PLAYER_OFFLINE = 17;
 		Reason_XBOX_ONLY = 18;
 	}
-	uint32 target_uid = 2;
-	Reason reason = 4;
-	bool is_agreed = 5;
-	string target_nickname = 15;
+	uint32 target_uid = 13;
+	Reason reason = 2;
+	bool is_agreed = 14;
+	string target_nickname = 11;
 }

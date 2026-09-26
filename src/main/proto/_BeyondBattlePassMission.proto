@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "_BeyondBattlePassMissionOuterClass";
+
+message _BeyondBattlePassMission {
+	enum _BeyondMissionStatus {
+		MISSION_INVALID = 0;
+		MISSION_UNFINISHED = 1;
+		MISSION_FINISHED = 2;
+		MISSION_POINT_TAKEN = 3;
+	}
+
+	uint32 cur_progress = 8;
+	uint32 mission_id = 4;
+	uint32 total_progress = 11;
+	_BeyondMissionStatus mission_status = 3;
+	uint32 reward_battle_pass_point = 50000;
+	uint32 mission_type = 50001;
+}

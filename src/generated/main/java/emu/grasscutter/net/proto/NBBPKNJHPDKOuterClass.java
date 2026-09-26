@@ -19,25 +19,25 @@ public final class NBBPKNJHPDKOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 level_id = 2;</code>
+     * <code>uint32 level_id = 7;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>bool is_open = 3;</code>
+     * <code>bool is_open = 9;</code>
      * @return The isOpen.
      */
     boolean getIsOpen();
 
     /**
-     * <code>bool is_finish = 10;</code>
+     * <code>bool is_finish = 14;</code>
      * @return The isFinish.
      */
     boolean getIsFinish();
 
     /**
-     * <code>uint32 max_score = 12;</code>
+     * <code>uint32 max_score = 8;</code>
      * @return The maxScore.
      */
     int getMaxScore();
@@ -87,24 +87,24 @@ public final class NBBPKNJHPDKOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 56: {
 
               levelId_ = input.readUInt32();
               break;
             }
-            case 24: {
+            case 64: {
+
+              maxScore_ = input.readUInt32();
+              break;
+            }
+            case 72: {
 
               isOpen_ = input.readBool();
               break;
             }
-            case 80: {
+            case 112: {
 
               isFinish_ = input.readBool();
-              break;
-            }
-            case 96: {
-
-              maxScore_ = input.readUInt32();
               break;
             }
             default: {
@@ -139,10 +139,10 @@ public final class NBBPKNJHPDKOuterClass {
               emu.grasscutter.net.proto.NBBPKNJHPDKOuterClass.NBBPKNJHPDK.class, emu.grasscutter.net.proto.NBBPKNJHPDKOuterClass.NBBPKNJHPDK.Builder.class);
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 2;
+    public static final int LEVEL_ID_FIELD_NUMBER = 7;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 2;</code>
+     * <code>uint32 level_id = 7;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class NBBPKNJHPDKOuterClass {
       return levelId_;
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 3;
+    public static final int IS_OPEN_FIELD_NUMBER = 9;
     private boolean isOpen_;
     /**
-     * <code>bool is_open = 3;</code>
+     * <code>bool is_open = 9;</code>
      * @return The isOpen.
      */
     @java.lang.Override
@@ -161,10 +161,10 @@ public final class NBBPKNJHPDKOuterClass {
       return isOpen_;
     }
 
-    public static final int IS_FINISH_FIELD_NUMBER = 10;
+    public static final int IS_FINISH_FIELD_NUMBER = 14;
     private boolean isFinish_;
     /**
-     * <code>bool is_finish = 10;</code>
+     * <code>bool is_finish = 14;</code>
      * @return The isFinish.
      */
     @java.lang.Override
@@ -172,10 +172,10 @@ public final class NBBPKNJHPDKOuterClass {
       return isFinish_;
     }
 
-    public static final int MAX_SCORE_FIELD_NUMBER = 12;
+    public static final int MAX_SCORE_FIELD_NUMBER = 8;
     private int maxScore_;
     /**
-     * <code>uint32 max_score = 12;</code>
+     * <code>uint32 max_score = 8;</code>
      * @return The maxScore.
      */
     @java.lang.Override
@@ -198,16 +198,16 @@ public final class NBBPKNJHPDKOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (levelId_ != 0) {
-        output.writeUInt32(2, levelId_);
-      }
-      if (isOpen_ != false) {
-        output.writeBool(3, isOpen_);
-      }
-      if (isFinish_ != false) {
-        output.writeBool(10, isFinish_);
+        output.writeUInt32(7, levelId_);
       }
       if (maxScore_ != 0) {
-        output.writeUInt32(12, maxScore_);
+        output.writeUInt32(8, maxScore_);
+      }
+      if (isOpen_ != false) {
+        output.writeBool(9, isOpen_);
+      }
+      if (isFinish_ != false) {
+        output.writeBool(14, isFinish_);
       }
       unknownFields.writeTo(output);
     }
@@ -220,19 +220,19 @@ public final class NBBPKNJHPDKOuterClass {
       size = 0;
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, levelId_);
-      }
-      if (isOpen_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(3, isOpen_);
-      }
-      if (isFinish_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(10, isFinish_);
+          .computeUInt32Size(7, levelId_);
       }
       if (maxScore_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, maxScore_);
+          .computeUInt32Size(8, maxScore_);
+      }
+      if (isOpen_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(9, isOpen_);
+      }
+      if (isFinish_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(14, isFinish_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -540,7 +540,7 @@ public final class NBBPKNJHPDKOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 2;</code>
+       * <code>uint32 level_id = 7;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -548,7 +548,7 @@ public final class NBBPKNJHPDKOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 2;</code>
+       * <code>uint32 level_id = 7;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -559,7 +559,7 @@ public final class NBBPKNJHPDKOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 2;</code>
+       * <code>uint32 level_id = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -571,7 +571,7 @@ public final class NBBPKNJHPDKOuterClass {
 
       private boolean isOpen_ ;
       /**
-       * <code>bool is_open = 3;</code>
+       * <code>bool is_open = 9;</code>
        * @return The isOpen.
        */
       @java.lang.Override
@@ -579,7 +579,7 @@ public final class NBBPKNJHPDKOuterClass {
         return isOpen_;
       }
       /**
-       * <code>bool is_open = 3;</code>
+       * <code>bool is_open = 9;</code>
        * @param value The isOpen to set.
        * @return This builder for chaining.
        */
@@ -590,7 +590,7 @@ public final class NBBPKNJHPDKOuterClass {
         return this;
       }
       /**
-       * <code>bool is_open = 3;</code>
+       * <code>bool is_open = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsOpen() {
@@ -602,7 +602,7 @@ public final class NBBPKNJHPDKOuterClass {
 
       private boolean isFinish_ ;
       /**
-       * <code>bool is_finish = 10;</code>
+       * <code>bool is_finish = 14;</code>
        * @return The isFinish.
        */
       @java.lang.Override
@@ -610,7 +610,7 @@ public final class NBBPKNJHPDKOuterClass {
         return isFinish_;
       }
       /**
-       * <code>bool is_finish = 10;</code>
+       * <code>bool is_finish = 14;</code>
        * @param value The isFinish to set.
        * @return This builder for chaining.
        */
@@ -621,7 +621,7 @@ public final class NBBPKNJHPDKOuterClass {
         return this;
       }
       /**
-       * <code>bool is_finish = 10;</code>
+       * <code>bool is_finish = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsFinish() {
@@ -633,7 +633,7 @@ public final class NBBPKNJHPDKOuterClass {
 
       private int maxScore_ ;
       /**
-       * <code>uint32 max_score = 12;</code>
+       * <code>uint32 max_score = 8;</code>
        * @return The maxScore.
        */
       @java.lang.Override
@@ -641,7 +641,7 @@ public final class NBBPKNJHPDKOuterClass {
         return maxScore_;
       }
       /**
-       * <code>uint32 max_score = 12;</code>
+       * <code>uint32 max_score = 8;</code>
        * @param value The maxScore to set.
        * @return This builder for chaining.
        */
@@ -652,7 +652,7 @@ public final class NBBPKNJHPDKOuterClass {
         return this;
       }
       /**
-       * <code>uint32 max_score = 12;</code>
+       * <code>uint32 max_score = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearMaxScore() {
@@ -729,8 +729,8 @@ public final class NBBPKNJHPDKOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021NBBPKNJHPDK.proto\"V\n\013NBBPKNJHPDK\022\020\n\010le" +
-      "vel_id\030\002 \001(\r\022\017\n\007is_open\030\003 \001(\010\022\021\n\tis_fini" +
-      "sh\030\n \001(\010\022\021\n\tmax_score\030\014 \001(\rB2\n\031emu.grass" +
+      "vel_id\030\007 \001(\r\022\017\n\007is_open\030\t \001(\010\022\021\n\tis_fini" +
+      "sh\030\016 \001(\010\022\021\n\tmax_score\030\010 \001(\rB2\n\031emu.grass" +
       "cutter.net.protoB\025NBBPKNJHPDKOuterClassb" +
       "\006proto3"
     };

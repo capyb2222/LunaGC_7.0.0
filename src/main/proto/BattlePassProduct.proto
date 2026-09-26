@@ -4,9 +4,9 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "BattlePassProductOuterClass";
 
 message BattlePassProduct {
-	string normal_product_id = 3;
-	string extra_product_id = 4;
+	string normal_product_id = 50000;
+	string extra_product_id = 50001;
 	string upgrade_product_id = 5;
-	string LJKGANJLFNJ = 9;
+	string LJKGANJLFNJ = 50002;
 	string LGOGOFAFJBK = 10;
 }

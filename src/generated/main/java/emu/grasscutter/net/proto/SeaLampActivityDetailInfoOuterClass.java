@@ -19,65 +19,65 @@ public final class SeaLampActivityDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 PLOPGFGAFLJ = 1;</code>
+     * <code>uint32 PLOPGFGAFLJ = 50000;</code>
      * @return The pLOPGFGAFLJ.
      */
     int getPLOPGFGAFLJ();
 
     /**
-     * <code>uint32 phase_id = 3;</code>
+     * <code>uint32 phase_id = 12;</code>
      * @return The phaseId.
      */
     int getPhaseId();
 
     /**
-     * <code>repeated uint32 ICNIKLDGHJA = 4;</code>
+     * <code>repeated uint32 ICNIKLDGHJA = 50001;</code>
      * @return A list containing the iCNIKLDGHJA.
      */
     java.util.List<java.lang.Integer> getICNIKLDGHJAList();
     /**
-     * <code>repeated uint32 ICNIKLDGHJA = 4;</code>
+     * <code>repeated uint32 ICNIKLDGHJA = 50001;</code>
      * @return The count of iCNIKLDGHJA.
      */
     int getICNIKLDGHJACount();
     /**
-     * <code>repeated uint32 ICNIKLDGHJA = 4;</code>
+     * <code>repeated uint32 ICNIKLDGHJA = 50001;</code>
      * @param index The index of the element to return.
      * @return The iCNIKLDGHJA at the given index.
      */
     int getICNIKLDGHJA(int index);
 
     /**
-     * <code>uint32 progress = 6;</code>
+     * <code>uint32 progress = 2;</code>
      * @return The progress.
      */
     int getProgress();
 
     /**
-     * <code>uint32 AEBFOBBJKLH = 8;</code>
+     * <code>uint32 AEBFOBBJKLH = 50002;</code>
      * @return The aEBFOBBJKLH.
      */
     int getAEBFOBBJKLH();
 
     /**
-     * <code>repeated uint32 MGKPFINDMBE = 10;</code>
+     * <code>repeated uint32 MGKPFINDMBE = 50003;</code>
      * @return A list containing the mGKPFINDMBE.
      */
     java.util.List<java.lang.Integer> getMGKPFINDMBEList();
     /**
-     * <code>repeated uint32 MGKPFINDMBE = 10;</code>
+     * <code>repeated uint32 MGKPFINDMBE = 50003;</code>
      * @return The count of mGKPFINDMBE.
      */
     int getMGKPFINDMBECount();
     /**
-     * <code>repeated uint32 MGKPFINDMBE = 10;</code>
+     * <code>repeated uint32 MGKPFINDMBE = 50003;</code>
      * @param index The index of the element to return.
      * @return The mGKPFINDMBE at the given index.
      */
     int getMGKPFINDMBE(int index);
 
     /**
-     * <code>uint32 days = 13;</code>
+     * <code>uint32 days = 7;</code>
      * @return The days.
      */
     int getDays();
@@ -130,17 +130,27 @@ public final class SeaLampActivityDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 16: {
 
-              pLOPGFGAFLJ_ = input.readUInt32();
+              progress_ = input.readUInt32();
               break;
             }
-            case 24: {
+            case 56: {
+
+              days_ = input.readUInt32();
+              break;
+            }
+            case 96: {
 
               phaseId_ = input.readUInt32();
               break;
             }
-            case 32: {
+            case 400000: {
+
+              pLOPGFGAFLJ_ = input.readUInt32();
+              break;
+            }
+            case 400008: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 iCNIKLDGHJA_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -148,7 +158,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
               iCNIKLDGHJA_.addInt(input.readUInt32());
               break;
             }
-            case 34: {
+            case 400010: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -161,17 +171,12 @@ public final class SeaLampActivityDetailInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 48: {
-
-              progress_ = input.readUInt32();
-              break;
-            }
-            case 64: {
+            case 400016: {
 
               aEBFOBBJKLH_ = input.readUInt32();
               break;
             }
-            case 80: {
+            case 400024: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 mGKPFINDMBE_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
@@ -179,7 +184,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
               mGKPFINDMBE_.addInt(input.readUInt32());
               break;
             }
-            case 82: {
+            case 400026: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
@@ -190,11 +195,6 @@ public final class SeaLampActivityDetailInfoOuterClass {
                 mGKPFINDMBE_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
-              break;
-            }
-            case 104: {
-
-              days_ = input.readUInt32();
               break;
             }
             default: {
@@ -235,10 +235,10 @@ public final class SeaLampActivityDetailInfoOuterClass {
               emu.grasscutter.net.proto.SeaLampActivityDetailInfoOuterClass.SeaLampActivityDetailInfo.class, emu.grasscutter.net.proto.SeaLampActivityDetailInfoOuterClass.SeaLampActivityDetailInfo.Builder.class);
     }
 
-    public static final int PLOPGFGAFLJ_FIELD_NUMBER = 1;
+    public static final int PLOPGFGAFLJ_FIELD_NUMBER = 50000;
     private int pLOPGFGAFLJ_;
     /**
-     * <code>uint32 PLOPGFGAFLJ = 1;</code>
+     * <code>uint32 PLOPGFGAFLJ = 50000;</code>
      * @return The pLOPGFGAFLJ.
      */
     @java.lang.Override
@@ -246,10 +246,10 @@ public final class SeaLampActivityDetailInfoOuterClass {
       return pLOPGFGAFLJ_;
     }
 
-    public static final int PHASE_ID_FIELD_NUMBER = 3;
+    public static final int PHASE_ID_FIELD_NUMBER = 12;
     private int phaseId_;
     /**
-     * <code>uint32 phase_id = 3;</code>
+     * <code>uint32 phase_id = 12;</code>
      * @return The phaseId.
      */
     @java.lang.Override
@@ -257,10 +257,10 @@ public final class SeaLampActivityDetailInfoOuterClass {
       return phaseId_;
     }
 
-    public static final int ICNIKLDGHJA_FIELD_NUMBER = 4;
+    public static final int ICNIKLDGHJA_FIELD_NUMBER = 50001;
     private com.google.protobuf.Internal.IntList iCNIKLDGHJA_;
     /**
-     * <code>repeated uint32 ICNIKLDGHJA = 4;</code>
+     * <code>repeated uint32 ICNIKLDGHJA = 50001;</code>
      * @return A list containing the iCNIKLDGHJA.
      */
     @java.lang.Override
@@ -269,14 +269,14 @@ public final class SeaLampActivityDetailInfoOuterClass {
       return iCNIKLDGHJA_;
     }
     /**
-     * <code>repeated uint32 ICNIKLDGHJA = 4;</code>
+     * <code>repeated uint32 ICNIKLDGHJA = 50001;</code>
      * @return The count of iCNIKLDGHJA.
      */
     public int getICNIKLDGHJACount() {
       return iCNIKLDGHJA_.size();
     }
     /**
-     * <code>repeated uint32 ICNIKLDGHJA = 4;</code>
+     * <code>repeated uint32 ICNIKLDGHJA = 50001;</code>
      * @param index The index of the element to return.
      * @return The iCNIKLDGHJA at the given index.
      */
@@ -285,10 +285,10 @@ public final class SeaLampActivityDetailInfoOuterClass {
     }
     private int iCNIKLDGHJAMemoizedSerializedSize = -1;
 
-    public static final int PROGRESS_FIELD_NUMBER = 6;
+    public static final int PROGRESS_FIELD_NUMBER = 2;
     private int progress_;
     /**
-     * <code>uint32 progress = 6;</code>
+     * <code>uint32 progress = 2;</code>
      * @return The progress.
      */
     @java.lang.Override
@@ -296,10 +296,10 @@ public final class SeaLampActivityDetailInfoOuterClass {
       return progress_;
     }
 
-    public static final int AEBFOBBJKLH_FIELD_NUMBER = 8;
+    public static final int AEBFOBBJKLH_FIELD_NUMBER = 50002;
     private int aEBFOBBJKLH_;
     /**
-     * <code>uint32 AEBFOBBJKLH = 8;</code>
+     * <code>uint32 AEBFOBBJKLH = 50002;</code>
      * @return The aEBFOBBJKLH.
      */
     @java.lang.Override
@@ -307,10 +307,10 @@ public final class SeaLampActivityDetailInfoOuterClass {
       return aEBFOBBJKLH_;
     }
 
-    public static final int MGKPFINDMBE_FIELD_NUMBER = 10;
+    public static final int MGKPFINDMBE_FIELD_NUMBER = 50003;
     private com.google.protobuf.Internal.IntList mGKPFINDMBE_;
     /**
-     * <code>repeated uint32 MGKPFINDMBE = 10;</code>
+     * <code>repeated uint32 MGKPFINDMBE = 50003;</code>
      * @return A list containing the mGKPFINDMBE.
      */
     @java.lang.Override
@@ -319,14 +319,14 @@ public final class SeaLampActivityDetailInfoOuterClass {
       return mGKPFINDMBE_;
     }
     /**
-     * <code>repeated uint32 MGKPFINDMBE = 10;</code>
+     * <code>repeated uint32 MGKPFINDMBE = 50003;</code>
      * @return The count of mGKPFINDMBE.
      */
     public int getMGKPFINDMBECount() {
       return mGKPFINDMBE_.size();
     }
     /**
-     * <code>repeated uint32 MGKPFINDMBE = 10;</code>
+     * <code>repeated uint32 MGKPFINDMBE = 50003;</code>
      * @param index The index of the element to return.
      * @return The mGKPFINDMBE at the given index.
      */
@@ -335,10 +335,10 @@ public final class SeaLampActivityDetailInfoOuterClass {
     }
     private int mGKPFINDMBEMemoizedSerializedSize = -1;
 
-    public static final int DAYS_FIELD_NUMBER = 13;
+    public static final int DAYS_FIELD_NUMBER = 7;
     private int days_;
     /**
-     * <code>uint32 days = 13;</code>
+     * <code>uint32 days = 7;</code>
      * @return The days.
      */
     @java.lang.Override
@@ -361,34 +361,34 @@ public final class SeaLampActivityDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (pLOPGFGAFLJ_ != 0) {
-        output.writeUInt32(1, pLOPGFGAFLJ_);
+      if (progress_ != 0) {
+        output.writeUInt32(2, progress_);
+      }
+      if (days_ != 0) {
+        output.writeUInt32(7, days_);
       }
       if (phaseId_ != 0) {
-        output.writeUInt32(3, phaseId_);
+        output.writeUInt32(12, phaseId_);
+      }
+      if (pLOPGFGAFLJ_ != 0) {
+        output.writeUInt32(50000, pLOPGFGAFLJ_);
       }
       if (getICNIKLDGHJAList().size() > 0) {
-        output.writeUInt32NoTag(34);
+        output.writeUInt32NoTag(400010);
         output.writeUInt32NoTag(iCNIKLDGHJAMemoizedSerializedSize);
       }
       for (int i = 0; i < iCNIKLDGHJA_.size(); i++) {
         output.writeUInt32NoTag(iCNIKLDGHJA_.getInt(i));
       }
-      if (progress_ != 0) {
-        output.writeUInt32(6, progress_);
-      }
       if (aEBFOBBJKLH_ != 0) {
-        output.writeUInt32(8, aEBFOBBJKLH_);
+        output.writeUInt32(50002, aEBFOBBJKLH_);
       }
       if (getMGKPFINDMBEList().size() > 0) {
-        output.writeUInt32NoTag(82);
+        output.writeUInt32NoTag(400026);
         output.writeUInt32NoTag(mGKPFINDMBEMemoizedSerializedSize);
       }
       for (int i = 0; i < mGKPFINDMBE_.size(); i++) {
         output.writeUInt32NoTag(mGKPFINDMBE_.getInt(i));
-      }
-      if (days_ != 0) {
-        output.writeUInt32(13, days_);
       }
       unknownFields.writeTo(output);
     }
@@ -399,13 +399,21 @@ public final class SeaLampActivityDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (pLOPGFGAFLJ_ != 0) {
+      if (progress_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, pLOPGFGAFLJ_);
+          .computeUInt32Size(2, progress_);
+      }
+      if (days_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(7, days_);
       }
       if (phaseId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, phaseId_);
+          .computeUInt32Size(12, phaseId_);
+      }
+      if (pLOPGFGAFLJ_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50000, pLOPGFGAFLJ_);
       }
       {
         int dataSize = 0;
@@ -415,19 +423,15 @@ public final class SeaLampActivityDetailInfoOuterClass {
         }
         size += dataSize;
         if (!getICNIKLDGHJAList().isEmpty()) {
-          size += 1;
+          size += 3;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
         iCNIKLDGHJAMemoizedSerializedSize = dataSize;
       }
-      if (progress_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, progress_);
-      }
       if (aEBFOBBJKLH_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, aEBFOBBJKLH_);
+          .computeUInt32Size(50002, aEBFOBBJKLH_);
       }
       {
         int dataSize = 0;
@@ -437,15 +441,11 @@ public final class SeaLampActivityDetailInfoOuterClass {
         }
         size += dataSize;
         if (!getMGKPFINDMBEList().isEmpty()) {
-          size += 1;
+          size += 3;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
         mGKPFINDMBEMemoizedSerializedSize = dataSize;
-      }
-      if (days_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, days_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -809,7 +809,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
 
       private int pLOPGFGAFLJ_ ;
       /**
-       * <code>uint32 PLOPGFGAFLJ = 1;</code>
+       * <code>uint32 PLOPGFGAFLJ = 50000;</code>
        * @return The pLOPGFGAFLJ.
        */
       @java.lang.Override
@@ -817,7 +817,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
         return pLOPGFGAFLJ_;
       }
       /**
-       * <code>uint32 PLOPGFGAFLJ = 1;</code>
+       * <code>uint32 PLOPGFGAFLJ = 50000;</code>
        * @param value The pLOPGFGAFLJ to set.
        * @return This builder for chaining.
        */
@@ -828,7 +828,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 PLOPGFGAFLJ = 1;</code>
+       * <code>uint32 PLOPGFGAFLJ = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearPLOPGFGAFLJ() {
@@ -840,7 +840,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
 
       private int phaseId_ ;
       /**
-       * <code>uint32 phase_id = 3;</code>
+       * <code>uint32 phase_id = 12;</code>
        * @return The phaseId.
        */
       @java.lang.Override
@@ -848,7 +848,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
         return phaseId_;
       }
       /**
-       * <code>uint32 phase_id = 3;</code>
+       * <code>uint32 phase_id = 12;</code>
        * @param value The phaseId to set.
        * @return This builder for chaining.
        */
@@ -859,7 +859,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 phase_id = 3;</code>
+       * <code>uint32 phase_id = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearPhaseId() {
@@ -877,7 +877,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 ICNIKLDGHJA = 4;</code>
+       * <code>repeated uint32 ICNIKLDGHJA = 50001;</code>
        * @return A list containing the iCNIKLDGHJA.
        */
       public java.util.List<java.lang.Integer>
@@ -886,14 +886,14 @@ public final class SeaLampActivityDetailInfoOuterClass {
                  java.util.Collections.unmodifiableList(iCNIKLDGHJA_) : iCNIKLDGHJA_;
       }
       /**
-       * <code>repeated uint32 ICNIKLDGHJA = 4;</code>
+       * <code>repeated uint32 ICNIKLDGHJA = 50001;</code>
        * @return The count of iCNIKLDGHJA.
        */
       public int getICNIKLDGHJACount() {
         return iCNIKLDGHJA_.size();
       }
       /**
-       * <code>repeated uint32 ICNIKLDGHJA = 4;</code>
+       * <code>repeated uint32 ICNIKLDGHJA = 50001;</code>
        * @param index The index of the element to return.
        * @return The iCNIKLDGHJA at the given index.
        */
@@ -901,7 +901,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
         return iCNIKLDGHJA_.getInt(index);
       }
       /**
-       * <code>repeated uint32 ICNIKLDGHJA = 4;</code>
+       * <code>repeated uint32 ICNIKLDGHJA = 50001;</code>
        * @param index The index to set the value at.
        * @param value The iCNIKLDGHJA to set.
        * @return This builder for chaining.
@@ -914,7 +914,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 ICNIKLDGHJA = 4;</code>
+       * <code>repeated uint32 ICNIKLDGHJA = 50001;</code>
        * @param value The iCNIKLDGHJA to add.
        * @return This builder for chaining.
        */
@@ -925,7 +925,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 ICNIKLDGHJA = 4;</code>
+       * <code>repeated uint32 ICNIKLDGHJA = 50001;</code>
        * @param values The iCNIKLDGHJA to add.
        * @return This builder for chaining.
        */
@@ -938,7 +938,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 ICNIKLDGHJA = 4;</code>
+       * <code>repeated uint32 ICNIKLDGHJA = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearICNIKLDGHJA() {
@@ -950,7 +950,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
 
       private int progress_ ;
       /**
-       * <code>uint32 progress = 6;</code>
+       * <code>uint32 progress = 2;</code>
        * @return The progress.
        */
       @java.lang.Override
@@ -958,7 +958,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
         return progress_;
       }
       /**
-       * <code>uint32 progress = 6;</code>
+       * <code>uint32 progress = 2;</code>
        * @param value The progress to set.
        * @return This builder for chaining.
        */
@@ -969,7 +969,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 progress = 6;</code>
+       * <code>uint32 progress = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearProgress() {
@@ -981,7 +981,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
 
       private int aEBFOBBJKLH_ ;
       /**
-       * <code>uint32 AEBFOBBJKLH = 8;</code>
+       * <code>uint32 AEBFOBBJKLH = 50002;</code>
        * @return The aEBFOBBJKLH.
        */
       @java.lang.Override
@@ -989,7 +989,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
         return aEBFOBBJKLH_;
       }
       /**
-       * <code>uint32 AEBFOBBJKLH = 8;</code>
+       * <code>uint32 AEBFOBBJKLH = 50002;</code>
        * @param value The aEBFOBBJKLH to set.
        * @return This builder for chaining.
        */
@@ -1000,7 +1000,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 AEBFOBBJKLH = 8;</code>
+       * <code>uint32 AEBFOBBJKLH = 50002;</code>
        * @return This builder for chaining.
        */
       public Builder clearAEBFOBBJKLH() {
@@ -1018,7 +1018,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 MGKPFINDMBE = 10;</code>
+       * <code>repeated uint32 MGKPFINDMBE = 50003;</code>
        * @return A list containing the mGKPFINDMBE.
        */
       public java.util.List<java.lang.Integer>
@@ -1027,14 +1027,14 @@ public final class SeaLampActivityDetailInfoOuterClass {
                  java.util.Collections.unmodifiableList(mGKPFINDMBE_) : mGKPFINDMBE_;
       }
       /**
-       * <code>repeated uint32 MGKPFINDMBE = 10;</code>
+       * <code>repeated uint32 MGKPFINDMBE = 50003;</code>
        * @return The count of mGKPFINDMBE.
        */
       public int getMGKPFINDMBECount() {
         return mGKPFINDMBE_.size();
       }
       /**
-       * <code>repeated uint32 MGKPFINDMBE = 10;</code>
+       * <code>repeated uint32 MGKPFINDMBE = 50003;</code>
        * @param index The index of the element to return.
        * @return The mGKPFINDMBE at the given index.
        */
@@ -1042,7 +1042,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
         return mGKPFINDMBE_.getInt(index);
       }
       /**
-       * <code>repeated uint32 MGKPFINDMBE = 10;</code>
+       * <code>repeated uint32 MGKPFINDMBE = 50003;</code>
        * @param index The index to set the value at.
        * @param value The mGKPFINDMBE to set.
        * @return This builder for chaining.
@@ -1055,7 +1055,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 MGKPFINDMBE = 10;</code>
+       * <code>repeated uint32 MGKPFINDMBE = 50003;</code>
        * @param value The mGKPFINDMBE to add.
        * @return This builder for chaining.
        */
@@ -1066,7 +1066,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 MGKPFINDMBE = 10;</code>
+       * <code>repeated uint32 MGKPFINDMBE = 50003;</code>
        * @param values The mGKPFINDMBE to add.
        * @return This builder for chaining.
        */
@@ -1079,7 +1079,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 MGKPFINDMBE = 10;</code>
+       * <code>repeated uint32 MGKPFINDMBE = 50003;</code>
        * @return This builder for chaining.
        */
       public Builder clearMGKPFINDMBE() {
@@ -1091,7 +1091,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
 
       private int days_ ;
       /**
-       * <code>uint32 days = 13;</code>
+       * <code>uint32 days = 7;</code>
        * @return The days.
        */
       @java.lang.Override
@@ -1099,7 +1099,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
         return days_;
       }
       /**
-       * <code>uint32 days = 13;</code>
+       * <code>uint32 days = 7;</code>
        * @param value The days to set.
        * @return This builder for chaining.
        */
@@ -1110,7 +1110,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 days = 13;</code>
+       * <code>uint32 days = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearDays() {
@@ -1186,13 +1186,13 @@ public final class SeaLampActivityDetailInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\037SeaLampActivityDetailInfo.proto\"\241\001\n\031Se" +
-      "aLampActivityDetailInfo\022\023\n\013PLOPGFGAFLJ\030\001" +
-      " \001(\r\022\020\n\010phase_id\030\003 \001(\r\022\023\n\013ICNIKLDGHJA\030\004 " +
-      "\003(\r\022\020\n\010progress\030\006 \001(\r\022\023\n\013AEBFOBBJKLH\030\010 \001" +
-      "(\r\022\023\n\013MGKPFINDMBE\030\n \003(\r\022\014\n\004days\030\r \001(\rB@\n" +
-      "\031emu.grasscutter.net.protoB#SeaLampActiv" +
-      "ityDetailInfoOuterClassb\006proto3"
+      "\n\037SeaLampActivityDetailInfo.proto\"\251\001\n\031Se" +
+      "aLampActivityDetailInfo\022\025\n\013PLOPGFGAFLJ\030\320" +
+      "\206\003 \001(\r\022\020\n\010phase_id\030\014 \001(\r\022\025\n\013ICNIKLDGHJA\030" +
+      "\321\206\003 \003(\r\022\020\n\010progress\030\002 \001(\r\022\025\n\013AEBFOBBJKLH" +
+      "\030\322\206\003 \001(\r\022\025\n\013MGKPFINDMBE\030\323\206\003 \003(\r\022\014\n\004days\030" +
+      "\007 \001(\rB@\n\031emu.grasscutter.net.protoB#SeaL" +
+      "ampActivityDetailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

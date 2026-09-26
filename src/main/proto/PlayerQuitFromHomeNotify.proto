@@ -13,5 +13,5 @@ message PlayerQuitFromHomeNotify {
 		BY_MUIP = 5;
 		CUR_MODULE_CLOSED = 6;
 	}
-	QuitReason reason = 6;
+	QuitReason reason = 4;
 }

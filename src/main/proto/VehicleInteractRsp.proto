@@ -9,13 +9,13 @@ import "VehicleInteractType.proto";
 import "VehicleMember.proto";
 
 message VehicleInteractRsp {
-	Vector _vehicle_rot = 50000;
+	Vector _vehicle_rot = 5;
 	VehicleInteractType interact_type = 15;
-	PKEOGNLGCPJ GAADBAPDACI = 50001;
+	PKEOGNLGCPJ GAADBAPDACI = 3;
 	VehicleMember member = 6;
 	uint32 _vehicle_type = 12;
 	int32 retcode = 7;
 	uint32 gadget_id = 13;
 	uint32 entity_id = 9;
-	Vector _vehicle_pos = 50002;
+	Vector _vehicle_pos = 8;
 }

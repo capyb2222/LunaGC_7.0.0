@@ -19,25 +19,25 @@ public final class EffigyChallengeV4DetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .LBINOBBOACO jnadpfjobhi = 1;</code>
+     * <code>repeated .LBINOBBOACO jnadpfjobhi = 6;</code>
      */
     java.util.List<emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO> 
         getJnadpfjobhiList();
     /**
-     * <code>repeated .LBINOBBOACO jnadpfjobhi = 1;</code>
+     * <code>repeated .LBINOBBOACO jnadpfjobhi = 6;</code>
      */
     emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO getJnadpfjobhi(int index);
     /**
-     * <code>repeated .LBINOBBOACO jnadpfjobhi = 1;</code>
+     * <code>repeated .LBINOBBOACO jnadpfjobhi = 6;</code>
      */
     int getJnadpfjobhiCount();
     /**
-     * <code>repeated .LBINOBBOACO jnadpfjobhi = 1;</code>
+     * <code>repeated .LBINOBBOACO jnadpfjobhi = 6;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACOOrBuilder> 
         getJnadpfjobhiOrBuilderList();
     /**
-     * <code>repeated .LBINOBBOACO jnadpfjobhi = 1;</code>
+     * <code>repeated .LBINOBBOACO jnadpfjobhi = 6;</code>
      */
     emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACOOrBuilder getJnadpfjobhiOrBuilder(
         int index);
@@ -89,7 +89,7 @@ public final class EffigyChallengeV4DetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 10: {
+            case 50: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 jnadpfjobhi_ = new java.util.ArrayList<emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO>();
                 mutable_bitField0_ |= 0x00000001;
@@ -133,17 +133,17 @@ public final class EffigyChallengeV4DetailInfoOuterClass {
               emu.grasscutter.net.proto.EffigyChallengeV4DetailInfoOuterClass.EffigyChallengeV4DetailInfo.class, emu.grasscutter.net.proto.EffigyChallengeV4DetailInfoOuterClass.EffigyChallengeV4DetailInfo.Builder.class);
     }
 
-    public static final int JNADPFJOBHI_FIELD_NUMBER = 1;
+    public static final int JNADPFJOBHI_FIELD_NUMBER = 6;
     private java.util.List<emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO> jnadpfjobhi_;
     /**
-     * <code>repeated .LBINOBBOACO jnadpfjobhi = 1;</code>
+     * <code>repeated .LBINOBBOACO jnadpfjobhi = 6;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO> getJnadpfjobhiList() {
       return jnadpfjobhi_;
     }
     /**
-     * <code>repeated .LBINOBBOACO jnadpfjobhi = 1;</code>
+     * <code>repeated .LBINOBBOACO jnadpfjobhi = 6;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACOOrBuilder> 
@@ -151,21 +151,21 @@ public final class EffigyChallengeV4DetailInfoOuterClass {
       return jnadpfjobhi_;
     }
     /**
-     * <code>repeated .LBINOBBOACO jnadpfjobhi = 1;</code>
+     * <code>repeated .LBINOBBOACO jnadpfjobhi = 6;</code>
      */
     @java.lang.Override
     public int getJnadpfjobhiCount() {
       return jnadpfjobhi_.size();
     }
     /**
-     * <code>repeated .LBINOBBOACO jnadpfjobhi = 1;</code>
+     * <code>repeated .LBINOBBOACO jnadpfjobhi = 6;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO getJnadpfjobhi(int index) {
       return jnadpfjobhi_.get(index);
     }
     /**
-     * <code>repeated .LBINOBBOACO jnadpfjobhi = 1;</code>
+     * <code>repeated .LBINOBBOACO jnadpfjobhi = 6;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACOOrBuilder getJnadpfjobhiOrBuilder(
@@ -188,7 +188,7 @@ public final class EffigyChallengeV4DetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < jnadpfjobhi_.size(); i++) {
-        output.writeMessage(1, jnadpfjobhi_.get(i));
+        output.writeMessage(6, jnadpfjobhi_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -201,7 +201,7 @@ public final class EffigyChallengeV4DetailInfoOuterClass {
       size = 0;
       for (int i = 0; i < jnadpfjobhi_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1, jnadpfjobhi_.get(i));
+          .computeMessageSize(6, jnadpfjobhi_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -528,7 +528,7 @@ public final class EffigyChallengeV4DetailInfoOuterClass {
           emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO, emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO.Builder, emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACOOrBuilder> jnadpfjobhiBuilder_;
 
       /**
-       * <code>repeated .LBINOBBOACO jnadpfjobhi = 1;</code>
+       * <code>repeated .LBINOBBOACO jnadpfjobhi = 6;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO> getJnadpfjobhiList() {
         if (jnadpfjobhiBuilder_ == null) {
@@ -538,7 +538,7 @@ public final class EffigyChallengeV4DetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .LBINOBBOACO jnadpfjobhi = 1;</code>
+       * <code>repeated .LBINOBBOACO jnadpfjobhi = 6;</code>
        */
       public int getJnadpfjobhiCount() {
         if (jnadpfjobhiBuilder_ == null) {
@@ -548,7 +548,7 @@ public final class EffigyChallengeV4DetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .LBINOBBOACO jnadpfjobhi = 1;</code>
+       * <code>repeated .LBINOBBOACO jnadpfjobhi = 6;</code>
        */
       public emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO getJnadpfjobhi(int index) {
         if (jnadpfjobhiBuilder_ == null) {
@@ -558,7 +558,7 @@ public final class EffigyChallengeV4DetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .LBINOBBOACO jnadpfjobhi = 1;</code>
+       * <code>repeated .LBINOBBOACO jnadpfjobhi = 6;</code>
        */
       public Builder setJnadpfjobhi(
           int index, emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO value) {
@@ -575,7 +575,7 @@ public final class EffigyChallengeV4DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LBINOBBOACO jnadpfjobhi = 1;</code>
+       * <code>repeated .LBINOBBOACO jnadpfjobhi = 6;</code>
        */
       public Builder setJnadpfjobhi(
           int index, emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO.Builder builderForValue) {
@@ -589,7 +589,7 @@ public final class EffigyChallengeV4DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LBINOBBOACO jnadpfjobhi = 1;</code>
+       * <code>repeated .LBINOBBOACO jnadpfjobhi = 6;</code>
        */
       public Builder addJnadpfjobhi(emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO value) {
         if (jnadpfjobhiBuilder_ == null) {
@@ -605,7 +605,7 @@ public final class EffigyChallengeV4DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LBINOBBOACO jnadpfjobhi = 1;</code>
+       * <code>repeated .LBINOBBOACO jnadpfjobhi = 6;</code>
        */
       public Builder addJnadpfjobhi(
           int index, emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO value) {
@@ -622,7 +622,7 @@ public final class EffigyChallengeV4DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LBINOBBOACO jnadpfjobhi = 1;</code>
+       * <code>repeated .LBINOBBOACO jnadpfjobhi = 6;</code>
        */
       public Builder addJnadpfjobhi(
           emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO.Builder builderForValue) {
@@ -636,7 +636,7 @@ public final class EffigyChallengeV4DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LBINOBBOACO jnadpfjobhi = 1;</code>
+       * <code>repeated .LBINOBBOACO jnadpfjobhi = 6;</code>
        */
       public Builder addJnadpfjobhi(
           int index, emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO.Builder builderForValue) {
@@ -650,7 +650,7 @@ public final class EffigyChallengeV4DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LBINOBBOACO jnadpfjobhi = 1;</code>
+       * <code>repeated .LBINOBBOACO jnadpfjobhi = 6;</code>
        */
       public Builder addAllJnadpfjobhi(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO> values) {
@@ -665,7 +665,7 @@ public final class EffigyChallengeV4DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LBINOBBOACO jnadpfjobhi = 1;</code>
+       * <code>repeated .LBINOBBOACO jnadpfjobhi = 6;</code>
        */
       public Builder clearJnadpfjobhi() {
         if (jnadpfjobhiBuilder_ == null) {
@@ -678,7 +678,7 @@ public final class EffigyChallengeV4DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LBINOBBOACO jnadpfjobhi = 1;</code>
+       * <code>repeated .LBINOBBOACO jnadpfjobhi = 6;</code>
        */
       public Builder removeJnadpfjobhi(int index) {
         if (jnadpfjobhiBuilder_ == null) {
@@ -691,14 +691,14 @@ public final class EffigyChallengeV4DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .LBINOBBOACO jnadpfjobhi = 1;</code>
+       * <code>repeated .LBINOBBOACO jnadpfjobhi = 6;</code>
        */
       public emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO.Builder getJnadpfjobhiBuilder(
           int index) {
         return getJnadpfjobhiFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .LBINOBBOACO jnadpfjobhi = 1;</code>
+       * <code>repeated .LBINOBBOACO jnadpfjobhi = 6;</code>
        */
       public emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACOOrBuilder getJnadpfjobhiOrBuilder(
           int index) {
@@ -708,7 +708,7 @@ public final class EffigyChallengeV4DetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .LBINOBBOACO jnadpfjobhi = 1;</code>
+       * <code>repeated .LBINOBBOACO jnadpfjobhi = 6;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACOOrBuilder> 
            getJnadpfjobhiOrBuilderList() {
@@ -719,14 +719,14 @@ public final class EffigyChallengeV4DetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .LBINOBBOACO jnadpfjobhi = 1;</code>
+       * <code>repeated .LBINOBBOACO jnadpfjobhi = 6;</code>
        */
       public emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO.Builder addJnadpfjobhiBuilder() {
         return getJnadpfjobhiFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO.getDefaultInstance());
       }
       /**
-       * <code>repeated .LBINOBBOACO jnadpfjobhi = 1;</code>
+       * <code>repeated .LBINOBBOACO jnadpfjobhi = 6;</code>
        */
       public emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO.Builder addJnadpfjobhiBuilder(
           int index) {
@@ -734,7 +734,7 @@ public final class EffigyChallengeV4DetailInfoOuterClass {
             index, emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO.getDefaultInstance());
       }
       /**
-       * <code>repeated .LBINOBBOACO jnadpfjobhi = 1;</code>
+       * <code>repeated .LBINOBBOACO jnadpfjobhi = 6;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.LBINOBBOACOOuterClass.LBINOBBOACO.Builder> 
            getJnadpfjobhiBuilderList() {
@@ -823,7 +823,7 @@ public final class EffigyChallengeV4DetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n!EffigyChallengeV4DetailInfo.proto\032\021LBI" +
       "NOBBOACO.proto\"@\n\033EffigyChallengeV4Detai" +
-      "lInfo\022!\n\013jnadpfjobhi\030\001 \003(\0132\014.LBINOBBOACO" +
+      "lInfo\022!\n\013jnadpfjobhi\030\006 \003(\0132\014.LBINOBBOACO" +
       "BB\n\031emu.grasscutter.net.protoB%EffigyCha" +
       "llengeV4DetailInfoOuterClassb\006proto3"
     };

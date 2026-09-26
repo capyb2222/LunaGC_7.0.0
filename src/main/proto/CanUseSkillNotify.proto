@@ -4,5 +4,5 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "CanUseSkillNotifyOuterClass";
 
 message CanUseSkillNotify {
-	bool is_can_use_skill = 10;
+	bool is_can_use_skill = 12;
 }

@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "GetAllUnlockNameCardRspOuterClass";
 
 message GetAllUnlockNameCardRsp {
-	repeated uint32 name_card_list = 8;
-	int32 retcode = 9;
+	repeated uint32 name_card_list = 7;
+	int32 retcode = 12;
 }

@@ -8,7 +8,7 @@ import "MJDAGPDBODL.proto";
 import "OOHHKGLNCIN.proto";
 
 message NatlanTourDetailInfo {
-	MJDAGPDBODL DJIOGHINDGP = 3;
-	OOHHKGLNCIN JKJHPFMHOGJ = 10;
-	HPKLMGOJCBG explore_info = 13;
+	MJDAGPDBODL DJIOGHINDGP = 15;
+	OOHHKGLNCIN JKJHPFMHOGJ = 2;
+	HPKLMGOJCBG explore_info = 12;
 }

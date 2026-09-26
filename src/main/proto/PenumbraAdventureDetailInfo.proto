@@ -10,9 +10,9 @@ import "_PenumbraAdventureFlightGearInfo.proto";
 import "_PenumbraAdventureTargetShootingInfo.proto";
 
 message PenumbraAdventureDetailInfo {
-	_PenumbraAdventureFlightGearInfo _flight_gear_info = 3;
-	APGNMMCFCPD CLJOHONMNEH = 5;
-	HFLCFLBGIKI lkjafjofkjf = 6;
-	_PenumbraAdventureTargetShootingInfo _target_shooting_info = 7;
-	GBAOLFCECGM LLHAEBMBODJ = 13;
+	_PenumbraAdventureFlightGearInfo _flight_gear_info = 13;
+	APGNMMCFCPD CLJOHONMNEH = 50000;
+	HFLCFLBGIKI lkjafjofkjf = 50001;
+	_PenumbraAdventureTargetShootingInfo _target_shooting_info = 9;
+	GBAOLFCECGM LLHAEBMBODJ = 11;
 }

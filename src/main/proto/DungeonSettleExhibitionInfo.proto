@@ -7,6 +7,6 @@ import "ExhibitionDisplayInfo.proto";
 import "OnlinePlayerInfo.proto";
 
 message DungeonSettleExhibitionInfo {
-	repeated ExhibitionDisplayInfo card_list = 7;
-	OnlinePlayerInfo player_info = 12;
+	repeated ExhibitionDisplayInfo card_list = 14;
+	OnlinePlayerInfo player_info = 6;
 }

@@ -19,48 +19,48 @@ public final class FireworksLaunchSchemeDataOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 fireworks_id_list = 3;</code>
+     * <code>repeated uint32 fireworks_id_list = 5;</code>
      * @return A list containing the fireworksIdList.
      */
     java.util.List<java.lang.Integer> getFireworksIdListList();
     /**
-     * <code>repeated uint32 fireworks_id_list = 3;</code>
+     * <code>repeated uint32 fireworks_id_list = 5;</code>
      * @return The count of fireworksIdList.
      */
     int getFireworksIdListCount();
     /**
-     * <code>repeated uint32 fireworks_id_list = 3;</code>
+     * <code>repeated uint32 fireworks_id_list = 5;</code>
      * @param index The index of the element to return.
      * @return The fireworksIdList at the given index.
      */
     int getFireworksIdList(int index);
 
     /**
-     * <code>repeated .FireworksLaunchParam launch_param_list = 6;</code>
+     * <code>repeated .FireworksLaunchParam launch_param_list = 8;</code>
      */
     java.util.List<emu.grasscutter.net.proto.FireworksLaunchParamOuterClass.FireworksLaunchParam> 
         getLaunchParamListList();
     /**
-     * <code>repeated .FireworksLaunchParam launch_param_list = 6;</code>
+     * <code>repeated .FireworksLaunchParam launch_param_list = 8;</code>
      */
     emu.grasscutter.net.proto.FireworksLaunchParamOuterClass.FireworksLaunchParam getLaunchParamList(int index);
     /**
-     * <code>repeated .FireworksLaunchParam launch_param_list = 6;</code>
+     * <code>repeated .FireworksLaunchParam launch_param_list = 8;</code>
      */
     int getLaunchParamListCount();
     /**
-     * <code>repeated .FireworksLaunchParam launch_param_list = 6;</code>
+     * <code>repeated .FireworksLaunchParam launch_param_list = 8;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.FireworksLaunchParamOuterClass.FireworksLaunchParamOrBuilder> 
         getLaunchParamListOrBuilderList();
     /**
-     * <code>repeated .FireworksLaunchParam launch_param_list = 6;</code>
+     * <code>repeated .FireworksLaunchParam launch_param_list = 8;</code>
      */
     emu.grasscutter.net.proto.FireworksLaunchParamOuterClass.FireworksLaunchParamOrBuilder getLaunchParamListOrBuilder(
         int index);
 
     /**
-     * <code>uint32 scheme_id = 14;</code>
+     * <code>uint32 scheme_id = 7;</code>
      * @return The schemeId.
      */
     int getSchemeId();
@@ -113,7 +113,7 @@ public final class FireworksLaunchSchemeDataOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 40: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 fireworksIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -121,7 +121,7 @@ public final class FireworksLaunchSchemeDataOuterClass {
               fireworksIdList_.addInt(input.readUInt32());
               break;
             }
-            case 26: {
+            case 42: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -134,18 +134,18 @@ public final class FireworksLaunchSchemeDataOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 50: {
+            case 56: {
+
+              schemeId_ = input.readUInt32();
+              break;
+            }
+            case 66: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 launchParamList_ = new java.util.ArrayList<emu.grasscutter.net.proto.FireworksLaunchParamOuterClass.FireworksLaunchParam>();
                 mutable_bitField0_ |= 0x00000002;
               }
               launchParamList_.add(
                   input.readMessage(emu.grasscutter.net.proto.FireworksLaunchParamOuterClass.FireworksLaunchParam.parser(), extensionRegistry));
-              break;
-            }
-            case 112: {
-
-              schemeId_ = input.readUInt32();
               break;
             }
             default: {
@@ -186,10 +186,10 @@ public final class FireworksLaunchSchemeDataOuterClass {
               emu.grasscutter.net.proto.FireworksLaunchSchemeDataOuterClass.FireworksLaunchSchemeData.class, emu.grasscutter.net.proto.FireworksLaunchSchemeDataOuterClass.FireworksLaunchSchemeData.Builder.class);
     }
 
-    public static final int FIREWORKS_ID_LIST_FIELD_NUMBER = 3;
+    public static final int FIREWORKS_ID_LIST_FIELD_NUMBER = 5;
     private com.google.protobuf.Internal.IntList fireworksIdList_;
     /**
-     * <code>repeated uint32 fireworks_id_list = 3;</code>
+     * <code>repeated uint32 fireworks_id_list = 5;</code>
      * @return A list containing the fireworksIdList.
      */
     @java.lang.Override
@@ -198,14 +198,14 @@ public final class FireworksLaunchSchemeDataOuterClass {
       return fireworksIdList_;
     }
     /**
-     * <code>repeated uint32 fireworks_id_list = 3;</code>
+     * <code>repeated uint32 fireworks_id_list = 5;</code>
      * @return The count of fireworksIdList.
      */
     public int getFireworksIdListCount() {
       return fireworksIdList_.size();
     }
     /**
-     * <code>repeated uint32 fireworks_id_list = 3;</code>
+     * <code>repeated uint32 fireworks_id_list = 5;</code>
      * @param index The index of the element to return.
      * @return The fireworksIdList at the given index.
      */
@@ -214,17 +214,17 @@ public final class FireworksLaunchSchemeDataOuterClass {
     }
     private int fireworksIdListMemoizedSerializedSize = -1;
 
-    public static final int LAUNCH_PARAM_LIST_FIELD_NUMBER = 6;
+    public static final int LAUNCH_PARAM_LIST_FIELD_NUMBER = 8;
     private java.util.List<emu.grasscutter.net.proto.FireworksLaunchParamOuterClass.FireworksLaunchParam> launchParamList_;
     /**
-     * <code>repeated .FireworksLaunchParam launch_param_list = 6;</code>
+     * <code>repeated .FireworksLaunchParam launch_param_list = 8;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.FireworksLaunchParamOuterClass.FireworksLaunchParam> getLaunchParamListList() {
       return launchParamList_;
     }
     /**
-     * <code>repeated .FireworksLaunchParam launch_param_list = 6;</code>
+     * <code>repeated .FireworksLaunchParam launch_param_list = 8;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.FireworksLaunchParamOuterClass.FireworksLaunchParamOrBuilder> 
@@ -232,21 +232,21 @@ public final class FireworksLaunchSchemeDataOuterClass {
       return launchParamList_;
     }
     /**
-     * <code>repeated .FireworksLaunchParam launch_param_list = 6;</code>
+     * <code>repeated .FireworksLaunchParam launch_param_list = 8;</code>
      */
     @java.lang.Override
     public int getLaunchParamListCount() {
       return launchParamList_.size();
     }
     /**
-     * <code>repeated .FireworksLaunchParam launch_param_list = 6;</code>
+     * <code>repeated .FireworksLaunchParam launch_param_list = 8;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.FireworksLaunchParamOuterClass.FireworksLaunchParam getLaunchParamList(int index) {
       return launchParamList_.get(index);
     }
     /**
-     * <code>repeated .FireworksLaunchParam launch_param_list = 6;</code>
+     * <code>repeated .FireworksLaunchParam launch_param_list = 8;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.FireworksLaunchParamOuterClass.FireworksLaunchParamOrBuilder getLaunchParamListOrBuilder(
@@ -254,10 +254,10 @@ public final class FireworksLaunchSchemeDataOuterClass {
       return launchParamList_.get(index);
     }
 
-    public static final int SCHEME_ID_FIELD_NUMBER = 14;
+    public static final int SCHEME_ID_FIELD_NUMBER = 7;
     private int schemeId_;
     /**
-     * <code>uint32 scheme_id = 14;</code>
+     * <code>uint32 scheme_id = 7;</code>
      * @return The schemeId.
      */
     @java.lang.Override
@@ -281,17 +281,17 @@ public final class FireworksLaunchSchemeDataOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getFireworksIdListList().size() > 0) {
-        output.writeUInt32NoTag(26);
+        output.writeUInt32NoTag(42);
         output.writeUInt32NoTag(fireworksIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < fireworksIdList_.size(); i++) {
         output.writeUInt32NoTag(fireworksIdList_.getInt(i));
       }
-      for (int i = 0; i < launchParamList_.size(); i++) {
-        output.writeMessage(6, launchParamList_.get(i));
-      }
       if (schemeId_ != 0) {
-        output.writeUInt32(14, schemeId_);
+        output.writeUInt32(7, schemeId_);
+      }
+      for (int i = 0; i < launchParamList_.size(); i++) {
+        output.writeMessage(8, launchParamList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -316,13 +316,13 @@ public final class FireworksLaunchSchemeDataOuterClass {
         }
         fireworksIdListMemoizedSerializedSize = dataSize;
       }
-      for (int i = 0; i < launchParamList_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(6, launchParamList_.get(i));
-      }
       if (schemeId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, schemeId_);
+          .computeUInt32Size(7, schemeId_);
+      }
+      for (int i = 0; i < launchParamList_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(8, launchParamList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -677,7 +677,7 @@ public final class FireworksLaunchSchemeDataOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 fireworks_id_list = 3;</code>
+       * <code>repeated uint32 fireworks_id_list = 5;</code>
        * @return A list containing the fireworksIdList.
        */
       public java.util.List<java.lang.Integer>
@@ -686,14 +686,14 @@ public final class FireworksLaunchSchemeDataOuterClass {
                  java.util.Collections.unmodifiableList(fireworksIdList_) : fireworksIdList_;
       }
       /**
-       * <code>repeated uint32 fireworks_id_list = 3;</code>
+       * <code>repeated uint32 fireworks_id_list = 5;</code>
        * @return The count of fireworksIdList.
        */
       public int getFireworksIdListCount() {
         return fireworksIdList_.size();
       }
       /**
-       * <code>repeated uint32 fireworks_id_list = 3;</code>
+       * <code>repeated uint32 fireworks_id_list = 5;</code>
        * @param index The index of the element to return.
        * @return The fireworksIdList at the given index.
        */
@@ -701,7 +701,7 @@ public final class FireworksLaunchSchemeDataOuterClass {
         return fireworksIdList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 fireworks_id_list = 3;</code>
+       * <code>repeated uint32 fireworks_id_list = 5;</code>
        * @param index The index to set the value at.
        * @param value The fireworksIdList to set.
        * @return This builder for chaining.
@@ -714,7 +714,7 @@ public final class FireworksLaunchSchemeDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 fireworks_id_list = 3;</code>
+       * <code>repeated uint32 fireworks_id_list = 5;</code>
        * @param value The fireworksIdList to add.
        * @return This builder for chaining.
        */
@@ -725,7 +725,7 @@ public final class FireworksLaunchSchemeDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 fireworks_id_list = 3;</code>
+       * <code>repeated uint32 fireworks_id_list = 5;</code>
        * @param values The fireworksIdList to add.
        * @return This builder for chaining.
        */
@@ -738,7 +738,7 @@ public final class FireworksLaunchSchemeDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 fireworks_id_list = 3;</code>
+       * <code>repeated uint32 fireworks_id_list = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearFireworksIdList() {
@@ -761,7 +761,7 @@ public final class FireworksLaunchSchemeDataOuterClass {
           emu.grasscutter.net.proto.FireworksLaunchParamOuterClass.FireworksLaunchParam, emu.grasscutter.net.proto.FireworksLaunchParamOuterClass.FireworksLaunchParam.Builder, emu.grasscutter.net.proto.FireworksLaunchParamOuterClass.FireworksLaunchParamOrBuilder> launchParamListBuilder_;
 
       /**
-       * <code>repeated .FireworksLaunchParam launch_param_list = 6;</code>
+       * <code>repeated .FireworksLaunchParam launch_param_list = 8;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.FireworksLaunchParamOuterClass.FireworksLaunchParam> getLaunchParamListList() {
         if (launchParamListBuilder_ == null) {
@@ -771,7 +771,7 @@ public final class FireworksLaunchSchemeDataOuterClass {
         }
       }
       /**
-       * <code>repeated .FireworksLaunchParam launch_param_list = 6;</code>
+       * <code>repeated .FireworksLaunchParam launch_param_list = 8;</code>
        */
       public int getLaunchParamListCount() {
         if (launchParamListBuilder_ == null) {
@@ -781,7 +781,7 @@ public final class FireworksLaunchSchemeDataOuterClass {
         }
       }
       /**
-       * <code>repeated .FireworksLaunchParam launch_param_list = 6;</code>
+       * <code>repeated .FireworksLaunchParam launch_param_list = 8;</code>
        */
       public emu.grasscutter.net.proto.FireworksLaunchParamOuterClass.FireworksLaunchParam getLaunchParamList(int index) {
         if (launchParamListBuilder_ == null) {
@@ -791,7 +791,7 @@ public final class FireworksLaunchSchemeDataOuterClass {
         }
       }
       /**
-       * <code>repeated .FireworksLaunchParam launch_param_list = 6;</code>
+       * <code>repeated .FireworksLaunchParam launch_param_list = 8;</code>
        */
       public Builder setLaunchParamList(
           int index, emu.grasscutter.net.proto.FireworksLaunchParamOuterClass.FireworksLaunchParam value) {
@@ -808,7 +808,7 @@ public final class FireworksLaunchSchemeDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FireworksLaunchParam launch_param_list = 6;</code>
+       * <code>repeated .FireworksLaunchParam launch_param_list = 8;</code>
        */
       public Builder setLaunchParamList(
           int index, emu.grasscutter.net.proto.FireworksLaunchParamOuterClass.FireworksLaunchParam.Builder builderForValue) {
@@ -822,7 +822,7 @@ public final class FireworksLaunchSchemeDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FireworksLaunchParam launch_param_list = 6;</code>
+       * <code>repeated .FireworksLaunchParam launch_param_list = 8;</code>
        */
       public Builder addLaunchParamList(emu.grasscutter.net.proto.FireworksLaunchParamOuterClass.FireworksLaunchParam value) {
         if (launchParamListBuilder_ == null) {
@@ -838,7 +838,7 @@ public final class FireworksLaunchSchemeDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FireworksLaunchParam launch_param_list = 6;</code>
+       * <code>repeated .FireworksLaunchParam launch_param_list = 8;</code>
        */
       public Builder addLaunchParamList(
           int index, emu.grasscutter.net.proto.FireworksLaunchParamOuterClass.FireworksLaunchParam value) {
@@ -855,7 +855,7 @@ public final class FireworksLaunchSchemeDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FireworksLaunchParam launch_param_list = 6;</code>
+       * <code>repeated .FireworksLaunchParam launch_param_list = 8;</code>
        */
       public Builder addLaunchParamList(
           emu.grasscutter.net.proto.FireworksLaunchParamOuterClass.FireworksLaunchParam.Builder builderForValue) {
@@ -869,7 +869,7 @@ public final class FireworksLaunchSchemeDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FireworksLaunchParam launch_param_list = 6;</code>
+       * <code>repeated .FireworksLaunchParam launch_param_list = 8;</code>
        */
       public Builder addLaunchParamList(
           int index, emu.grasscutter.net.proto.FireworksLaunchParamOuterClass.FireworksLaunchParam.Builder builderForValue) {
@@ -883,7 +883,7 @@ public final class FireworksLaunchSchemeDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FireworksLaunchParam launch_param_list = 6;</code>
+       * <code>repeated .FireworksLaunchParam launch_param_list = 8;</code>
        */
       public Builder addAllLaunchParamList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.FireworksLaunchParamOuterClass.FireworksLaunchParam> values) {
@@ -898,7 +898,7 @@ public final class FireworksLaunchSchemeDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FireworksLaunchParam launch_param_list = 6;</code>
+       * <code>repeated .FireworksLaunchParam launch_param_list = 8;</code>
        */
       public Builder clearLaunchParamList() {
         if (launchParamListBuilder_ == null) {
@@ -911,7 +911,7 @@ public final class FireworksLaunchSchemeDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FireworksLaunchParam launch_param_list = 6;</code>
+       * <code>repeated .FireworksLaunchParam launch_param_list = 8;</code>
        */
       public Builder removeLaunchParamList(int index) {
         if (launchParamListBuilder_ == null) {
@@ -924,14 +924,14 @@ public final class FireworksLaunchSchemeDataOuterClass {
         return this;
       }
       /**
-       * <code>repeated .FireworksLaunchParam launch_param_list = 6;</code>
+       * <code>repeated .FireworksLaunchParam launch_param_list = 8;</code>
        */
       public emu.grasscutter.net.proto.FireworksLaunchParamOuterClass.FireworksLaunchParam.Builder getLaunchParamListBuilder(
           int index) {
         return getLaunchParamListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .FireworksLaunchParam launch_param_list = 6;</code>
+       * <code>repeated .FireworksLaunchParam launch_param_list = 8;</code>
        */
       public emu.grasscutter.net.proto.FireworksLaunchParamOuterClass.FireworksLaunchParamOrBuilder getLaunchParamListOrBuilder(
           int index) {
@@ -941,7 +941,7 @@ public final class FireworksLaunchSchemeDataOuterClass {
         }
       }
       /**
-       * <code>repeated .FireworksLaunchParam launch_param_list = 6;</code>
+       * <code>repeated .FireworksLaunchParam launch_param_list = 8;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.FireworksLaunchParamOuterClass.FireworksLaunchParamOrBuilder> 
            getLaunchParamListOrBuilderList() {
@@ -952,14 +952,14 @@ public final class FireworksLaunchSchemeDataOuterClass {
         }
       }
       /**
-       * <code>repeated .FireworksLaunchParam launch_param_list = 6;</code>
+       * <code>repeated .FireworksLaunchParam launch_param_list = 8;</code>
        */
       public emu.grasscutter.net.proto.FireworksLaunchParamOuterClass.FireworksLaunchParam.Builder addLaunchParamListBuilder() {
         return getLaunchParamListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.FireworksLaunchParamOuterClass.FireworksLaunchParam.getDefaultInstance());
       }
       /**
-       * <code>repeated .FireworksLaunchParam launch_param_list = 6;</code>
+       * <code>repeated .FireworksLaunchParam launch_param_list = 8;</code>
        */
       public emu.grasscutter.net.proto.FireworksLaunchParamOuterClass.FireworksLaunchParam.Builder addLaunchParamListBuilder(
           int index) {
@@ -967,7 +967,7 @@ public final class FireworksLaunchSchemeDataOuterClass {
             index, emu.grasscutter.net.proto.FireworksLaunchParamOuterClass.FireworksLaunchParam.getDefaultInstance());
       }
       /**
-       * <code>repeated .FireworksLaunchParam launch_param_list = 6;</code>
+       * <code>repeated .FireworksLaunchParam launch_param_list = 8;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.FireworksLaunchParamOuterClass.FireworksLaunchParam.Builder> 
            getLaunchParamListBuilderList() {
@@ -990,7 +990,7 @@ public final class FireworksLaunchSchemeDataOuterClass {
 
       private int schemeId_ ;
       /**
-       * <code>uint32 scheme_id = 14;</code>
+       * <code>uint32 scheme_id = 7;</code>
        * @return The schemeId.
        */
       @java.lang.Override
@@ -998,7 +998,7 @@ public final class FireworksLaunchSchemeDataOuterClass {
         return schemeId_;
       }
       /**
-       * <code>uint32 scheme_id = 14;</code>
+       * <code>uint32 scheme_id = 7;</code>
        * @param value The schemeId to set.
        * @return This builder for chaining.
        */
@@ -1009,7 +1009,7 @@ public final class FireworksLaunchSchemeDataOuterClass {
         return this;
       }
       /**
-       * <code>uint32 scheme_id = 14;</code>
+       * <code>uint32 scheme_id = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearSchemeId() {
@@ -1087,9 +1087,9 @@ public final class FireworksLaunchSchemeDataOuterClass {
     java.lang.String[] descriptorData = {
       "\n\037FireworksLaunchSchemeData.proto\032\032Firew" +
       "orksLaunchParam.proto\"{\n\031FireworksLaunch" +
-      "SchemeData\022\031\n\021fireworks_id_list\030\003 \003(\r\0220\n" +
-      "\021launch_param_list\030\006 \003(\0132\025.FireworksLaun" +
-      "chParam\022\021\n\tscheme_id\030\016 \001(\rB@\n\031emu.grassc" +
+      "SchemeData\022\031\n\021fireworks_id_list\030\005 \003(\r\0220\n" +
+      "\021launch_param_list\030\010 \003(\0132\025.FireworksLaun" +
+      "chParam\022\021\n\tscheme_id\030\007 \001(\rB@\n\031emu.grassc" +
       "utter.net.protoB#FireworksLaunchSchemeDa" +
       "taOuterClassb\006proto3"
     };

@@ -4,5 +4,5 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "_MistTrialSettleInfoOuterClass";
 
 message _MistTrialSettleInfo {
-	map<uint32, uint32> LMDBPHELBDM = 7;
+	map<uint32, uint32> LMDBPHELBDM = 1;
 }

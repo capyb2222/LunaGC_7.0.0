@@ -19,47 +19,47 @@ public final class ToyBattleDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.OGPKLKFOKMA camp_info = 5;</code>
+     * <code>.OGPKLKFOKMA camp_info = 15;</code>
      * @return Whether the campInfo field is set.
      */
     boolean hasCampInfo();
     /**
-     * <code>.OGPKLKFOKMA camp_info = 5;</code>
+     * <code>.OGPKLKFOKMA camp_info = 15;</code>
      * @return The campInfo.
      */
     emu.grasscutter.net.proto.OGPKLKFOKMAOuterClass.OGPKLKFOKMA getCampInfo();
     /**
-     * <code>.OGPKLKFOKMA camp_info = 5;</code>
+     * <code>.OGPKLKFOKMA camp_info = 15;</code>
      */
     emu.grasscutter.net.proto.OGPKLKFOKMAOuterClass.OGPKLKFOKMAOrBuilder getCampInfoOrBuilder();
 
     /**
-     * <code>.MDCLJNPDHKG LPJNDCOPMLF = 8;</code>
+     * <code>.MDCLJNPDHKG LPJNDCOPMLF = 7;</code>
      * @return Whether the lPJNDCOPMLF field is set.
      */
     boolean hasLPJNDCOPMLF();
     /**
-     * <code>.MDCLJNPDHKG LPJNDCOPMLF = 8;</code>
+     * <code>.MDCLJNPDHKG LPJNDCOPMLF = 7;</code>
      * @return The lPJNDCOPMLF.
      */
     emu.grasscutter.net.proto.MDCLJNPDHKGOuterClass.MDCLJNPDHKG getLPJNDCOPMLF();
     /**
-     * <code>.MDCLJNPDHKG LPJNDCOPMLF = 8;</code>
+     * <code>.MDCLJNPDHKG LPJNDCOPMLF = 7;</code>
      */
     emu.grasscutter.net.proto.MDCLJNPDHKGOuterClass.MDCLJNPDHKGOrBuilder getLPJNDCOPMLFOrBuilder();
 
     /**
-     * <code>.EBPGBJPNECE ECIAOICLCLC = 13;</code>
+     * <code>.EBPGBJPNECE ECIAOICLCLC = 11;</code>
      * @return Whether the eCIAOICLCLC field is set.
      */
     boolean hasECIAOICLCLC();
     /**
-     * <code>.EBPGBJPNECE ECIAOICLCLC = 13;</code>
+     * <code>.EBPGBJPNECE ECIAOICLCLC = 11;</code>
      * @return The eCIAOICLCLC.
      */
     emu.grasscutter.net.proto.EBPGBJPNECEOuterClass.EBPGBJPNECE getECIAOICLCLC();
     /**
-     * <code>.EBPGBJPNECE ECIAOICLCLC = 13;</code>
+     * <code>.EBPGBJPNECE ECIAOICLCLC = 11;</code>
      */
     emu.grasscutter.net.proto.EBPGBJPNECEOuterClass.EBPGBJPNECEOrBuilder getECIAOICLCLCOrBuilder();
   }
@@ -108,20 +108,7 @@ public final class ToyBattleDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 42: {
-              emu.grasscutter.net.proto.OGPKLKFOKMAOuterClass.OGPKLKFOKMA.Builder subBuilder = null;
-              if (campInfo_ != null) {
-                subBuilder = campInfo_.toBuilder();
-              }
-              campInfo_ = input.readMessage(emu.grasscutter.net.proto.OGPKLKFOKMAOuterClass.OGPKLKFOKMA.parser(), extensionRegistry);
-              if (subBuilder != null) {
-                subBuilder.mergeFrom(campInfo_);
-                campInfo_ = subBuilder.buildPartial();
-              }
-
-              break;
-            }
-            case 66: {
+            case 58: {
               emu.grasscutter.net.proto.MDCLJNPDHKGOuterClass.MDCLJNPDHKG.Builder subBuilder = null;
               if (lPJNDCOPMLF_ != null) {
                 subBuilder = lPJNDCOPMLF_.toBuilder();
@@ -134,7 +121,7 @@ public final class ToyBattleDetailInfoOuterClass {
 
               break;
             }
-            case 106: {
+            case 90: {
               emu.grasscutter.net.proto.EBPGBJPNECEOuterClass.EBPGBJPNECE.Builder subBuilder = null;
               if (eCIAOICLCLC_ != null) {
                 subBuilder = eCIAOICLCLC_.toBuilder();
@@ -143,6 +130,19 @@ public final class ToyBattleDetailInfoOuterClass {
               if (subBuilder != null) {
                 subBuilder.mergeFrom(eCIAOICLCLC_);
                 eCIAOICLCLC_ = subBuilder.buildPartial();
+              }
+
+              break;
+            }
+            case 122: {
+              emu.grasscutter.net.proto.OGPKLKFOKMAOuterClass.OGPKLKFOKMA.Builder subBuilder = null;
+              if (campInfo_ != null) {
+                subBuilder = campInfo_.toBuilder();
+              }
+              campInfo_ = input.readMessage(emu.grasscutter.net.proto.OGPKLKFOKMAOuterClass.OGPKLKFOKMA.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(campInfo_);
+                campInfo_ = subBuilder.buildPartial();
               }
 
               break;
@@ -179,10 +179,10 @@ public final class ToyBattleDetailInfoOuterClass {
               emu.grasscutter.net.proto.ToyBattleDetailInfoOuterClass.ToyBattleDetailInfo.class, emu.grasscutter.net.proto.ToyBattleDetailInfoOuterClass.ToyBattleDetailInfo.Builder.class);
     }
 
-    public static final int CAMP_INFO_FIELD_NUMBER = 5;
+    public static final int CAMP_INFO_FIELD_NUMBER = 15;
     private emu.grasscutter.net.proto.OGPKLKFOKMAOuterClass.OGPKLKFOKMA campInfo_;
     /**
-     * <code>.OGPKLKFOKMA camp_info = 5;</code>
+     * <code>.OGPKLKFOKMA camp_info = 15;</code>
      * @return Whether the campInfo field is set.
      */
     @java.lang.Override
@@ -190,7 +190,7 @@ public final class ToyBattleDetailInfoOuterClass {
       return campInfo_ != null;
     }
     /**
-     * <code>.OGPKLKFOKMA camp_info = 5;</code>
+     * <code>.OGPKLKFOKMA camp_info = 15;</code>
      * @return The campInfo.
      */
     @java.lang.Override
@@ -198,17 +198,17 @@ public final class ToyBattleDetailInfoOuterClass {
       return campInfo_ == null ? emu.grasscutter.net.proto.OGPKLKFOKMAOuterClass.OGPKLKFOKMA.getDefaultInstance() : campInfo_;
     }
     /**
-     * <code>.OGPKLKFOKMA camp_info = 5;</code>
+     * <code>.OGPKLKFOKMA camp_info = 15;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.OGPKLKFOKMAOuterClass.OGPKLKFOKMAOrBuilder getCampInfoOrBuilder() {
       return getCampInfo();
     }
 
-    public static final int LPJNDCOPMLF_FIELD_NUMBER = 8;
+    public static final int LPJNDCOPMLF_FIELD_NUMBER = 7;
     private emu.grasscutter.net.proto.MDCLJNPDHKGOuterClass.MDCLJNPDHKG lPJNDCOPMLF_;
     /**
-     * <code>.MDCLJNPDHKG LPJNDCOPMLF = 8;</code>
+     * <code>.MDCLJNPDHKG LPJNDCOPMLF = 7;</code>
      * @return Whether the lPJNDCOPMLF field is set.
      */
     @java.lang.Override
@@ -216,7 +216,7 @@ public final class ToyBattleDetailInfoOuterClass {
       return lPJNDCOPMLF_ != null;
     }
     /**
-     * <code>.MDCLJNPDHKG LPJNDCOPMLF = 8;</code>
+     * <code>.MDCLJNPDHKG LPJNDCOPMLF = 7;</code>
      * @return The lPJNDCOPMLF.
      */
     @java.lang.Override
@@ -224,17 +224,17 @@ public final class ToyBattleDetailInfoOuterClass {
       return lPJNDCOPMLF_ == null ? emu.grasscutter.net.proto.MDCLJNPDHKGOuterClass.MDCLJNPDHKG.getDefaultInstance() : lPJNDCOPMLF_;
     }
     /**
-     * <code>.MDCLJNPDHKG LPJNDCOPMLF = 8;</code>
+     * <code>.MDCLJNPDHKG LPJNDCOPMLF = 7;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.MDCLJNPDHKGOuterClass.MDCLJNPDHKGOrBuilder getLPJNDCOPMLFOrBuilder() {
       return getLPJNDCOPMLF();
     }
 
-    public static final int ECIAOICLCLC_FIELD_NUMBER = 13;
+    public static final int ECIAOICLCLC_FIELD_NUMBER = 11;
     private emu.grasscutter.net.proto.EBPGBJPNECEOuterClass.EBPGBJPNECE eCIAOICLCLC_;
     /**
-     * <code>.EBPGBJPNECE ECIAOICLCLC = 13;</code>
+     * <code>.EBPGBJPNECE ECIAOICLCLC = 11;</code>
      * @return Whether the eCIAOICLCLC field is set.
      */
     @java.lang.Override
@@ -242,7 +242,7 @@ public final class ToyBattleDetailInfoOuterClass {
       return eCIAOICLCLC_ != null;
     }
     /**
-     * <code>.EBPGBJPNECE ECIAOICLCLC = 13;</code>
+     * <code>.EBPGBJPNECE ECIAOICLCLC = 11;</code>
      * @return The eCIAOICLCLC.
      */
     @java.lang.Override
@@ -250,7 +250,7 @@ public final class ToyBattleDetailInfoOuterClass {
       return eCIAOICLCLC_ == null ? emu.grasscutter.net.proto.EBPGBJPNECEOuterClass.EBPGBJPNECE.getDefaultInstance() : eCIAOICLCLC_;
     }
     /**
-     * <code>.EBPGBJPNECE ECIAOICLCLC = 13;</code>
+     * <code>.EBPGBJPNECE ECIAOICLCLC = 11;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.EBPGBJPNECEOuterClass.EBPGBJPNECEOrBuilder getECIAOICLCLCOrBuilder() {
@@ -271,14 +271,14 @@ public final class ToyBattleDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (campInfo_ != null) {
-        output.writeMessage(5, getCampInfo());
-      }
       if (lPJNDCOPMLF_ != null) {
-        output.writeMessage(8, getLPJNDCOPMLF());
+        output.writeMessage(7, getLPJNDCOPMLF());
       }
       if (eCIAOICLCLC_ != null) {
-        output.writeMessage(13, getECIAOICLCLC());
+        output.writeMessage(11, getECIAOICLCLC());
+      }
+      if (campInfo_ != null) {
+        output.writeMessage(15, getCampInfo());
       }
       unknownFields.writeTo(output);
     }
@@ -289,17 +289,17 @@ public final class ToyBattleDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (campInfo_ != null) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, getCampInfo());
-      }
       if (lPJNDCOPMLF_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, getLPJNDCOPMLF());
+          .computeMessageSize(7, getLPJNDCOPMLF());
       }
       if (eCIAOICLCLC_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, getECIAOICLCLC());
+          .computeMessageSize(11, getECIAOICLCLC());
+      }
+      if (campInfo_ != null) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(15, getCampInfo());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -636,14 +636,14 @@ public final class ToyBattleDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.OGPKLKFOKMAOuterClass.OGPKLKFOKMA, emu.grasscutter.net.proto.OGPKLKFOKMAOuterClass.OGPKLKFOKMA.Builder, emu.grasscutter.net.proto.OGPKLKFOKMAOuterClass.OGPKLKFOKMAOrBuilder> campInfoBuilder_;
       /**
-       * <code>.OGPKLKFOKMA camp_info = 5;</code>
+       * <code>.OGPKLKFOKMA camp_info = 15;</code>
        * @return Whether the campInfo field is set.
        */
       public boolean hasCampInfo() {
         return campInfoBuilder_ != null || campInfo_ != null;
       }
       /**
-       * <code>.OGPKLKFOKMA camp_info = 5;</code>
+       * <code>.OGPKLKFOKMA camp_info = 15;</code>
        * @return The campInfo.
        */
       public emu.grasscutter.net.proto.OGPKLKFOKMAOuterClass.OGPKLKFOKMA getCampInfo() {
@@ -654,7 +654,7 @@ public final class ToyBattleDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.OGPKLKFOKMA camp_info = 5;</code>
+       * <code>.OGPKLKFOKMA camp_info = 15;</code>
        */
       public Builder setCampInfo(emu.grasscutter.net.proto.OGPKLKFOKMAOuterClass.OGPKLKFOKMA value) {
         if (campInfoBuilder_ == null) {
@@ -670,7 +670,7 @@ public final class ToyBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.OGPKLKFOKMA camp_info = 5;</code>
+       * <code>.OGPKLKFOKMA camp_info = 15;</code>
        */
       public Builder setCampInfo(
           emu.grasscutter.net.proto.OGPKLKFOKMAOuterClass.OGPKLKFOKMA.Builder builderForValue) {
@@ -684,7 +684,7 @@ public final class ToyBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.OGPKLKFOKMA camp_info = 5;</code>
+       * <code>.OGPKLKFOKMA camp_info = 15;</code>
        */
       public Builder mergeCampInfo(emu.grasscutter.net.proto.OGPKLKFOKMAOuterClass.OGPKLKFOKMA value) {
         if (campInfoBuilder_ == null) {
@@ -702,7 +702,7 @@ public final class ToyBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.OGPKLKFOKMA camp_info = 5;</code>
+       * <code>.OGPKLKFOKMA camp_info = 15;</code>
        */
       public Builder clearCampInfo() {
         if (campInfoBuilder_ == null) {
@@ -716,7 +716,7 @@ public final class ToyBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.OGPKLKFOKMA camp_info = 5;</code>
+       * <code>.OGPKLKFOKMA camp_info = 15;</code>
        */
       public emu.grasscutter.net.proto.OGPKLKFOKMAOuterClass.OGPKLKFOKMA.Builder getCampInfoBuilder() {
         
@@ -724,7 +724,7 @@ public final class ToyBattleDetailInfoOuterClass {
         return getCampInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>.OGPKLKFOKMA camp_info = 5;</code>
+       * <code>.OGPKLKFOKMA camp_info = 15;</code>
        */
       public emu.grasscutter.net.proto.OGPKLKFOKMAOuterClass.OGPKLKFOKMAOrBuilder getCampInfoOrBuilder() {
         if (campInfoBuilder_ != null) {
@@ -735,7 +735,7 @@ public final class ToyBattleDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.OGPKLKFOKMA camp_info = 5;</code>
+       * <code>.OGPKLKFOKMA camp_info = 15;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.OGPKLKFOKMAOuterClass.OGPKLKFOKMA, emu.grasscutter.net.proto.OGPKLKFOKMAOuterClass.OGPKLKFOKMA.Builder, emu.grasscutter.net.proto.OGPKLKFOKMAOuterClass.OGPKLKFOKMAOrBuilder> 
@@ -755,14 +755,14 @@ public final class ToyBattleDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.MDCLJNPDHKGOuterClass.MDCLJNPDHKG, emu.grasscutter.net.proto.MDCLJNPDHKGOuterClass.MDCLJNPDHKG.Builder, emu.grasscutter.net.proto.MDCLJNPDHKGOuterClass.MDCLJNPDHKGOrBuilder> lPJNDCOPMLFBuilder_;
       /**
-       * <code>.MDCLJNPDHKG LPJNDCOPMLF = 8;</code>
+       * <code>.MDCLJNPDHKG LPJNDCOPMLF = 7;</code>
        * @return Whether the lPJNDCOPMLF field is set.
        */
       public boolean hasLPJNDCOPMLF() {
         return lPJNDCOPMLFBuilder_ != null || lPJNDCOPMLF_ != null;
       }
       /**
-       * <code>.MDCLJNPDHKG LPJNDCOPMLF = 8;</code>
+       * <code>.MDCLJNPDHKG LPJNDCOPMLF = 7;</code>
        * @return The lPJNDCOPMLF.
        */
       public emu.grasscutter.net.proto.MDCLJNPDHKGOuterClass.MDCLJNPDHKG getLPJNDCOPMLF() {
@@ -773,7 +773,7 @@ public final class ToyBattleDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.MDCLJNPDHKG LPJNDCOPMLF = 8;</code>
+       * <code>.MDCLJNPDHKG LPJNDCOPMLF = 7;</code>
        */
       public Builder setLPJNDCOPMLF(emu.grasscutter.net.proto.MDCLJNPDHKGOuterClass.MDCLJNPDHKG value) {
         if (lPJNDCOPMLFBuilder_ == null) {
@@ -789,7 +789,7 @@ public final class ToyBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.MDCLJNPDHKG LPJNDCOPMLF = 8;</code>
+       * <code>.MDCLJNPDHKG LPJNDCOPMLF = 7;</code>
        */
       public Builder setLPJNDCOPMLF(
           emu.grasscutter.net.proto.MDCLJNPDHKGOuterClass.MDCLJNPDHKG.Builder builderForValue) {
@@ -803,7 +803,7 @@ public final class ToyBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.MDCLJNPDHKG LPJNDCOPMLF = 8;</code>
+       * <code>.MDCLJNPDHKG LPJNDCOPMLF = 7;</code>
        */
       public Builder mergeLPJNDCOPMLF(emu.grasscutter.net.proto.MDCLJNPDHKGOuterClass.MDCLJNPDHKG value) {
         if (lPJNDCOPMLFBuilder_ == null) {
@@ -821,7 +821,7 @@ public final class ToyBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.MDCLJNPDHKG LPJNDCOPMLF = 8;</code>
+       * <code>.MDCLJNPDHKG LPJNDCOPMLF = 7;</code>
        */
       public Builder clearLPJNDCOPMLF() {
         if (lPJNDCOPMLFBuilder_ == null) {
@@ -835,7 +835,7 @@ public final class ToyBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.MDCLJNPDHKG LPJNDCOPMLF = 8;</code>
+       * <code>.MDCLJNPDHKG LPJNDCOPMLF = 7;</code>
        */
       public emu.grasscutter.net.proto.MDCLJNPDHKGOuterClass.MDCLJNPDHKG.Builder getLPJNDCOPMLFBuilder() {
         
@@ -843,7 +843,7 @@ public final class ToyBattleDetailInfoOuterClass {
         return getLPJNDCOPMLFFieldBuilder().getBuilder();
       }
       /**
-       * <code>.MDCLJNPDHKG LPJNDCOPMLF = 8;</code>
+       * <code>.MDCLJNPDHKG LPJNDCOPMLF = 7;</code>
        */
       public emu.grasscutter.net.proto.MDCLJNPDHKGOuterClass.MDCLJNPDHKGOrBuilder getLPJNDCOPMLFOrBuilder() {
         if (lPJNDCOPMLFBuilder_ != null) {
@@ -854,7 +854,7 @@ public final class ToyBattleDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.MDCLJNPDHKG LPJNDCOPMLF = 8;</code>
+       * <code>.MDCLJNPDHKG LPJNDCOPMLF = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.MDCLJNPDHKGOuterClass.MDCLJNPDHKG, emu.grasscutter.net.proto.MDCLJNPDHKGOuterClass.MDCLJNPDHKG.Builder, emu.grasscutter.net.proto.MDCLJNPDHKGOuterClass.MDCLJNPDHKGOrBuilder> 
@@ -874,14 +874,14 @@ public final class ToyBattleDetailInfoOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.EBPGBJPNECEOuterClass.EBPGBJPNECE, emu.grasscutter.net.proto.EBPGBJPNECEOuterClass.EBPGBJPNECE.Builder, emu.grasscutter.net.proto.EBPGBJPNECEOuterClass.EBPGBJPNECEOrBuilder> eCIAOICLCLCBuilder_;
       /**
-       * <code>.EBPGBJPNECE ECIAOICLCLC = 13;</code>
+       * <code>.EBPGBJPNECE ECIAOICLCLC = 11;</code>
        * @return Whether the eCIAOICLCLC field is set.
        */
       public boolean hasECIAOICLCLC() {
         return eCIAOICLCLCBuilder_ != null || eCIAOICLCLC_ != null;
       }
       /**
-       * <code>.EBPGBJPNECE ECIAOICLCLC = 13;</code>
+       * <code>.EBPGBJPNECE ECIAOICLCLC = 11;</code>
        * @return The eCIAOICLCLC.
        */
       public emu.grasscutter.net.proto.EBPGBJPNECEOuterClass.EBPGBJPNECE getECIAOICLCLC() {
@@ -892,7 +892,7 @@ public final class ToyBattleDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.EBPGBJPNECE ECIAOICLCLC = 13;</code>
+       * <code>.EBPGBJPNECE ECIAOICLCLC = 11;</code>
        */
       public Builder setECIAOICLCLC(emu.grasscutter.net.proto.EBPGBJPNECEOuterClass.EBPGBJPNECE value) {
         if (eCIAOICLCLCBuilder_ == null) {
@@ -908,7 +908,7 @@ public final class ToyBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.EBPGBJPNECE ECIAOICLCLC = 13;</code>
+       * <code>.EBPGBJPNECE ECIAOICLCLC = 11;</code>
        */
       public Builder setECIAOICLCLC(
           emu.grasscutter.net.proto.EBPGBJPNECEOuterClass.EBPGBJPNECE.Builder builderForValue) {
@@ -922,7 +922,7 @@ public final class ToyBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.EBPGBJPNECE ECIAOICLCLC = 13;</code>
+       * <code>.EBPGBJPNECE ECIAOICLCLC = 11;</code>
        */
       public Builder mergeECIAOICLCLC(emu.grasscutter.net.proto.EBPGBJPNECEOuterClass.EBPGBJPNECE value) {
         if (eCIAOICLCLCBuilder_ == null) {
@@ -940,7 +940,7 @@ public final class ToyBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.EBPGBJPNECE ECIAOICLCLC = 13;</code>
+       * <code>.EBPGBJPNECE ECIAOICLCLC = 11;</code>
        */
       public Builder clearECIAOICLCLC() {
         if (eCIAOICLCLCBuilder_ == null) {
@@ -954,7 +954,7 @@ public final class ToyBattleDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>.EBPGBJPNECE ECIAOICLCLC = 13;</code>
+       * <code>.EBPGBJPNECE ECIAOICLCLC = 11;</code>
        */
       public emu.grasscutter.net.proto.EBPGBJPNECEOuterClass.EBPGBJPNECE.Builder getECIAOICLCLCBuilder() {
         
@@ -962,7 +962,7 @@ public final class ToyBattleDetailInfoOuterClass {
         return getECIAOICLCLCFieldBuilder().getBuilder();
       }
       /**
-       * <code>.EBPGBJPNECE ECIAOICLCLC = 13;</code>
+       * <code>.EBPGBJPNECE ECIAOICLCLC = 11;</code>
        */
       public emu.grasscutter.net.proto.EBPGBJPNECEOuterClass.EBPGBJPNECEOrBuilder getECIAOICLCLCOrBuilder() {
         if (eCIAOICLCLCBuilder_ != null) {
@@ -973,7 +973,7 @@ public final class ToyBattleDetailInfoOuterClass {
         }
       }
       /**
-       * <code>.EBPGBJPNECE ECIAOICLCLC = 13;</code>
+       * <code>.EBPGBJPNECE ECIAOICLCLC = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.EBPGBJPNECEOuterClass.EBPGBJPNECE, emu.grasscutter.net.proto.EBPGBJPNECEOuterClass.EBPGBJPNECE.Builder, emu.grasscutter.net.proto.EBPGBJPNECEOuterClass.EBPGBJPNECEOrBuilder> 
@@ -1058,8 +1058,8 @@ public final class ToyBattleDetailInfoOuterClass {
       "\n\031ToyBattleDetailInfo.proto\032\021EBPGBJPNECE" +
       ".proto\032\021MDCLJNPDHKG.proto\032\021OGPKLKFOKMA.p" +
       "roto\"|\n\023ToyBattleDetailInfo\022\037\n\tcamp_info" +
-      "\030\005 \001(\0132\014.OGPKLKFOKMA\022!\n\013LPJNDCOPMLF\030\010 \001(" +
-      "\0132\014.MDCLJNPDHKG\022!\n\013ECIAOICLCLC\030\r \001(\0132\014.E" +
+      "\030\017 \001(\0132\014.OGPKLKFOKMA\022!\n\013LPJNDCOPMLF\030\007 \001(" +
+      "\0132\014.MDCLJNPDHKG\022!\n\013ECIAOICLCLC\030\013 \001(\0132\014.E" +
       "BPGBJPNECEB:\n\031emu.grasscutter.net.protoB" +
       "\035ToyBattleDetailInfoOuterClassb\006proto3"
     };

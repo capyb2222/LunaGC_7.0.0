@@ -3,6 +3,7 @@ package emu.grasscutter.game.dailytask;
 import dev.morphia.annotations.Entity;
 import emu.grasscutter.data.GameData;
 import emu.grasscutter.game.player.Player;
+import emu.grasscutter.net.proto.DailyTaskInfoOuterClass.DailyTaskInfo;
 import javax.annotation.Nullable;
 import lombok.Getter;
 
@@ -79,13 +80,13 @@ public class DailyTask {
         return true;
     }
 
-    /** This tree has no generated class for the message, so it is written by hand. */
-    public byte[] toProto() {
-        return DailyTaskProto.info(this);
-    }
-
-    /** Named as the message names it, for {@link DailyTaskProto}. */
-    public int getDailyTaskId() {
-        return this.taskId;
+    public DailyTaskInfo toProto() {
+        return DailyTaskInfo.newBuilder()
+                .setRewardId(this.rewardId)
+                .setDailyTaskId(this.taskId)
+                .setFinishProgress(this.finishProgress)
+                .setProgress(this.progress)
+                .setIsFinished(this.finished)
+                .build();
     }
 }

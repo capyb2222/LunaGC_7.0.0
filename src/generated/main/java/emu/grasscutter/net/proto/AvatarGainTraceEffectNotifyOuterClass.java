@@ -19,7 +19,7 @@ public final class AvatarGainTraceEffectNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 _trace_effect_id = 13;</code>
+     * <code>uint32 _trace_effect_id = 14;</code>
      * @return The traceEffectId.
      */
     int getTraceEffectId();
@@ -69,7 +69,7 @@ public final class AvatarGainTraceEffectNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 104: {
+            case 112: {
 
               TraceEffectId_ = input.readUInt32();
               break;
@@ -106,10 +106,10 @@ public final class AvatarGainTraceEffectNotifyOuterClass {
               emu.grasscutter.net.proto.AvatarGainTraceEffectNotifyOuterClass.AvatarGainTraceEffectNotify.class, emu.grasscutter.net.proto.AvatarGainTraceEffectNotifyOuterClass.AvatarGainTraceEffectNotify.Builder.class);
     }
 
-    public static final int _TRACE_EFFECT_ID_FIELD_NUMBER = 13;
+    public static final int _TRACE_EFFECT_ID_FIELD_NUMBER = 14;
     private int TraceEffectId_;
     /**
-     * <code>uint32 _trace_effect_id = 13;</code>
+     * <code>uint32 _trace_effect_id = 14;</code>
      * @return The traceEffectId.
      */
     @java.lang.Override
@@ -132,7 +132,7 @@ public final class AvatarGainTraceEffectNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (TraceEffectId_ != 0) {
-        output.writeUInt32(13, TraceEffectId_);
+        output.writeUInt32(14, TraceEffectId_);
       }
       unknownFields.writeTo(output);
     }
@@ -145,7 +145,7 @@ public final class AvatarGainTraceEffectNotifyOuterClass {
       size = 0;
       if (TraceEffectId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, TraceEffectId_);
+          .computeUInt32Size(14, TraceEffectId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -421,7 +421,7 @@ public final class AvatarGainTraceEffectNotifyOuterClass {
 
       private int TraceEffectId_ ;
       /**
-       * <code>uint32 _trace_effect_id = 13;</code>
+       * <code>uint32 _trace_effect_id = 14;</code>
        * @return The traceEffectId.
        */
       @java.lang.Override
@@ -429,7 +429,7 @@ public final class AvatarGainTraceEffectNotifyOuterClass {
         return TraceEffectId_;
       }
       /**
-       * <code>uint32 _trace_effect_id = 13;</code>
+       * <code>uint32 _trace_effect_id = 14;</code>
        * @param value The traceEffectId to set.
        * @return This builder for chaining.
        */
@@ -440,7 +440,7 @@ public final class AvatarGainTraceEffectNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 _trace_effect_id = 13;</code>
+       * <code>uint32 _trace_effect_id = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearTraceEffectId() {
@@ -518,7 +518,7 @@ public final class AvatarGainTraceEffectNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n!AvatarGainTraceEffectNotify.proto\"7\n\033A" +
       "vatarGainTraceEffectNotify\022\030\n\020_trace_eff" +
-      "ect_id\030\r \001(\rBB\n\031emu.grasscutter.net.prot" +
+      "ect_id\030\016 \001(\rBB\n\031emu.grasscutter.net.prot" +
       "oB%AvatarGainTraceEffectNotifyOuterClass" +
       "b\006proto3"
     };

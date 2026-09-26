@@ -19,25 +19,25 @@ public final class _MapMarkSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 score = 8;</code>
+     * <code>uint32 score = 4;</code>
      * @return The score.
      */
     int getScore();
 
     /**
-     * <code>bool is_new_record = 9;</code>
+     * <code>bool is_new_record = 14;</code>
      * @return The isNewRecord.
      */
     boolean getIsNewRecord();
 
     /**
-     * <code>bool is_succ = 11;</code>
+     * <code>bool is_succ = 15;</code>
      * @return The isSucc.
      */
     boolean getIsSucc();
 
     /**
-     * <code>uint32 level_id = 15;</code>
+     * <code>uint32 level_id = 3;</code>
      * @return The levelId.
      */
     int getLevelId();
@@ -87,24 +87,24 @@ public final class _MapMarkSettleInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 64: {
+            case 24: {
+
+              levelId_ = input.readUInt32();
+              break;
+            }
+            case 32: {
 
               score_ = input.readUInt32();
               break;
             }
-            case 72: {
+            case 112: {
 
               isNewRecord_ = input.readBool();
               break;
             }
-            case 88: {
-
-              isSucc_ = input.readBool();
-              break;
-            }
             case 120: {
 
-              levelId_ = input.readUInt32();
+              isSucc_ = input.readBool();
               break;
             }
             default: {
@@ -139,10 +139,10 @@ public final class _MapMarkSettleInfoOuterClass {
               emu.grasscutter.net.proto._MapMarkSettleInfoOuterClass._MapMarkSettleInfo.class, emu.grasscutter.net.proto._MapMarkSettleInfoOuterClass._MapMarkSettleInfo.Builder.class);
     }
 
-    public static final int SCORE_FIELD_NUMBER = 8;
+    public static final int SCORE_FIELD_NUMBER = 4;
     private int score_;
     /**
-     * <code>uint32 score = 8;</code>
+     * <code>uint32 score = 4;</code>
      * @return The score.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class _MapMarkSettleInfoOuterClass {
       return score_;
     }
 
-    public static final int IS_NEW_RECORD_FIELD_NUMBER = 9;
+    public static final int IS_NEW_RECORD_FIELD_NUMBER = 14;
     private boolean isNewRecord_;
     /**
-     * <code>bool is_new_record = 9;</code>
+     * <code>bool is_new_record = 14;</code>
      * @return The isNewRecord.
      */
     @java.lang.Override
@@ -161,10 +161,10 @@ public final class _MapMarkSettleInfoOuterClass {
       return isNewRecord_;
     }
 
-    public static final int IS_SUCC_FIELD_NUMBER = 11;
+    public static final int IS_SUCC_FIELD_NUMBER = 15;
     private boolean isSucc_;
     /**
-     * <code>bool is_succ = 11;</code>
+     * <code>bool is_succ = 15;</code>
      * @return The isSucc.
      */
     @java.lang.Override
@@ -172,10 +172,10 @@ public final class _MapMarkSettleInfoOuterClass {
       return isSucc_;
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 15;
+    public static final int LEVEL_ID_FIELD_NUMBER = 3;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 15;</code>
+     * <code>uint32 level_id = 3;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -197,17 +197,17 @@ public final class _MapMarkSettleInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (levelId_ != 0) {
+        output.writeUInt32(3, levelId_);
+      }
       if (score_ != 0) {
-        output.writeUInt32(8, score_);
+        output.writeUInt32(4, score_);
       }
       if (isNewRecord_ != false) {
-        output.writeBool(9, isNewRecord_);
+        output.writeBool(14, isNewRecord_);
       }
       if (isSucc_ != false) {
-        output.writeBool(11, isSucc_);
-      }
-      if (levelId_ != 0) {
-        output.writeUInt32(15, levelId_);
+        output.writeBool(15, isSucc_);
       }
       unknownFields.writeTo(output);
     }
@@ -218,21 +218,21 @@ public final class _MapMarkSettleInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (levelId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(3, levelId_);
+      }
       if (score_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, score_);
+          .computeUInt32Size(4, score_);
       }
       if (isNewRecord_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, isNewRecord_);
+          .computeBoolSize(14, isNewRecord_);
       }
       if (isSucc_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(11, isSucc_);
-      }
-      if (levelId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, levelId_);
+          .computeBoolSize(15, isSucc_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -540,7 +540,7 @@ public final class _MapMarkSettleInfoOuterClass {
 
       private int score_ ;
       /**
-       * <code>uint32 score = 8;</code>
+       * <code>uint32 score = 4;</code>
        * @return The score.
        */
       @java.lang.Override
@@ -548,7 +548,7 @@ public final class _MapMarkSettleInfoOuterClass {
         return score_;
       }
       /**
-       * <code>uint32 score = 8;</code>
+       * <code>uint32 score = 4;</code>
        * @param value The score to set.
        * @return This builder for chaining.
        */
@@ -559,7 +559,7 @@ public final class _MapMarkSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 score = 8;</code>
+       * <code>uint32 score = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearScore() {
@@ -571,7 +571,7 @@ public final class _MapMarkSettleInfoOuterClass {
 
       private boolean isNewRecord_ ;
       /**
-       * <code>bool is_new_record = 9;</code>
+       * <code>bool is_new_record = 14;</code>
        * @return The isNewRecord.
        */
       @java.lang.Override
@@ -579,7 +579,7 @@ public final class _MapMarkSettleInfoOuterClass {
         return isNewRecord_;
       }
       /**
-       * <code>bool is_new_record = 9;</code>
+       * <code>bool is_new_record = 14;</code>
        * @param value The isNewRecord to set.
        * @return This builder for chaining.
        */
@@ -590,7 +590,7 @@ public final class _MapMarkSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_new_record = 9;</code>
+       * <code>bool is_new_record = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsNewRecord() {
@@ -602,7 +602,7 @@ public final class _MapMarkSettleInfoOuterClass {
 
       private boolean isSucc_ ;
       /**
-       * <code>bool is_succ = 11;</code>
+       * <code>bool is_succ = 15;</code>
        * @return The isSucc.
        */
       @java.lang.Override
@@ -610,7 +610,7 @@ public final class _MapMarkSettleInfoOuterClass {
         return isSucc_;
       }
       /**
-       * <code>bool is_succ = 11;</code>
+       * <code>bool is_succ = 15;</code>
        * @param value The isSucc to set.
        * @return This builder for chaining.
        */
@@ -621,7 +621,7 @@ public final class _MapMarkSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_succ = 11;</code>
+       * <code>bool is_succ = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsSucc() {
@@ -633,7 +633,7 @@ public final class _MapMarkSettleInfoOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 15;</code>
+       * <code>uint32 level_id = 3;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -641,7 +641,7 @@ public final class _MapMarkSettleInfoOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 15;</code>
+       * <code>uint32 level_id = 3;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -652,7 +652,7 @@ public final class _MapMarkSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 15;</code>
+       * <code>uint32 level_id = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -729,8 +729,8 @@ public final class _MapMarkSettleInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\030_MapMarkSettleInfo.proto\"]\n\022_MapMarkSe" +
-      "ttleInfo\022\r\n\005score\030\010 \001(\r\022\025\n\ris_new_record" +
-      "\030\t \001(\010\022\017\n\007is_succ\030\013 \001(\010\022\020\n\010level_id\030\017 \001(" +
+      "ttleInfo\022\r\n\005score\030\004 \001(\r\022\025\n\ris_new_record" +
+      "\030\016 \001(\010\022\017\n\007is_succ\030\017 \001(\010\022\020\n\010level_id\030\003 \001(" +
       "\rB9\n\031emu.grasscutter.net.protoB\034_MapMark" +
       "SettleInfoOuterClassb\006proto3"
     };

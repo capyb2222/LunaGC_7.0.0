@@ -12,8 +12,8 @@ message WorldPlayerDieNotify {
 		uint32 gadget_id = 2;
 	}
 	PlayerDieType die_type = 1;
-	AbilityString cfadgphidli = 50000;
-	uint32 OBOKABMLGHI = 50001;
-	uint32 AOMDIHGJMNK = 50002;
-	uint32 murderer_entity_id = 50003;
+	AbilityString cfadgphidli = 15;
+	uint32 OBOKABMLGHI = 50000;
+	uint32 AOMDIHGJMNK = 50001;
+	uint32 murderer_entity_id = 50002;
 }

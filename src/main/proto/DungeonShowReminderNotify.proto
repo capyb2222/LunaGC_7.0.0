@@ -4,5 +4,5 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "DungeonShowReminderNotifyOuterClass";
 
 message DungeonShowReminderNotify {
-	uint32 reminder_id = 8;
+	uint32 reminder_id = 15;
 }

@@ -19,25 +19,25 @@ public final class AnimalViewDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .ACCCCLFEMPE edjfjkebkko = 11;</code>
+     * <code>repeated .ACCCCLFEMPE edjfjkebkko = 15;</code>
      */
     java.util.List<emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPE> 
         getEdjfjkebkkoList();
     /**
-     * <code>repeated .ACCCCLFEMPE edjfjkebkko = 11;</code>
+     * <code>repeated .ACCCCLFEMPE edjfjkebkko = 15;</code>
      */
     emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPE getEdjfjkebkko(int index);
     /**
-     * <code>repeated .ACCCCLFEMPE edjfjkebkko = 11;</code>
+     * <code>repeated .ACCCCLFEMPE edjfjkebkko = 15;</code>
      */
     int getEdjfjkebkkoCount();
     /**
-     * <code>repeated .ACCCCLFEMPE edjfjkebkko = 11;</code>
+     * <code>repeated .ACCCCLFEMPE edjfjkebkko = 15;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPEOrBuilder> 
         getEdjfjkebkkoOrBuilderList();
     /**
-     * <code>repeated .ACCCCLFEMPE edjfjkebkko = 11;</code>
+     * <code>repeated .ACCCCLFEMPE edjfjkebkko = 15;</code>
      */
     emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPEOrBuilder getEdjfjkebkkoOrBuilder(
         int index);
@@ -89,7 +89,7 @@ public final class AnimalViewDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 90: {
+            case 122: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 edjfjkebkko_ = new java.util.ArrayList<emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPE>();
                 mutable_bitField0_ |= 0x00000001;
@@ -133,17 +133,17 @@ public final class AnimalViewDetailInfoOuterClass {
               emu.grasscutter.net.proto.AnimalViewDetailInfoOuterClass.AnimalViewDetailInfo.class, emu.grasscutter.net.proto.AnimalViewDetailInfoOuterClass.AnimalViewDetailInfo.Builder.class);
     }
 
-    public static final int EDJFJKEBKKO_FIELD_NUMBER = 11;
+    public static final int EDJFJKEBKKO_FIELD_NUMBER = 15;
     private java.util.List<emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPE> edjfjkebkko_;
     /**
-     * <code>repeated .ACCCCLFEMPE edjfjkebkko = 11;</code>
+     * <code>repeated .ACCCCLFEMPE edjfjkebkko = 15;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPE> getEdjfjkebkkoList() {
       return edjfjkebkko_;
     }
     /**
-     * <code>repeated .ACCCCLFEMPE edjfjkebkko = 11;</code>
+     * <code>repeated .ACCCCLFEMPE edjfjkebkko = 15;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPEOrBuilder> 
@@ -151,21 +151,21 @@ public final class AnimalViewDetailInfoOuterClass {
       return edjfjkebkko_;
     }
     /**
-     * <code>repeated .ACCCCLFEMPE edjfjkebkko = 11;</code>
+     * <code>repeated .ACCCCLFEMPE edjfjkebkko = 15;</code>
      */
     @java.lang.Override
     public int getEdjfjkebkkoCount() {
       return edjfjkebkko_.size();
     }
     /**
-     * <code>repeated .ACCCCLFEMPE edjfjkebkko = 11;</code>
+     * <code>repeated .ACCCCLFEMPE edjfjkebkko = 15;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPE getEdjfjkebkko(int index) {
       return edjfjkebkko_.get(index);
     }
     /**
-     * <code>repeated .ACCCCLFEMPE edjfjkebkko = 11;</code>
+     * <code>repeated .ACCCCLFEMPE edjfjkebkko = 15;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPEOrBuilder getEdjfjkebkkoOrBuilder(
@@ -188,7 +188,7 @@ public final class AnimalViewDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < edjfjkebkko_.size(); i++) {
-        output.writeMessage(11, edjfjkebkko_.get(i));
+        output.writeMessage(15, edjfjkebkko_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -201,7 +201,7 @@ public final class AnimalViewDetailInfoOuterClass {
       size = 0;
       for (int i = 0; i < edjfjkebkko_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, edjfjkebkko_.get(i));
+          .computeMessageSize(15, edjfjkebkko_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -528,7 +528,7 @@ public final class AnimalViewDetailInfoOuterClass {
           emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPE, emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPE.Builder, emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPEOrBuilder> edjfjkebkkoBuilder_;
 
       /**
-       * <code>repeated .ACCCCLFEMPE edjfjkebkko = 11;</code>
+       * <code>repeated .ACCCCLFEMPE edjfjkebkko = 15;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPE> getEdjfjkebkkoList() {
         if (edjfjkebkkoBuilder_ == null) {
@@ -538,7 +538,7 @@ public final class AnimalViewDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ACCCCLFEMPE edjfjkebkko = 11;</code>
+       * <code>repeated .ACCCCLFEMPE edjfjkebkko = 15;</code>
        */
       public int getEdjfjkebkkoCount() {
         if (edjfjkebkkoBuilder_ == null) {
@@ -548,7 +548,7 @@ public final class AnimalViewDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ACCCCLFEMPE edjfjkebkko = 11;</code>
+       * <code>repeated .ACCCCLFEMPE edjfjkebkko = 15;</code>
        */
       public emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPE getEdjfjkebkko(int index) {
         if (edjfjkebkkoBuilder_ == null) {
@@ -558,7 +558,7 @@ public final class AnimalViewDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ACCCCLFEMPE edjfjkebkko = 11;</code>
+       * <code>repeated .ACCCCLFEMPE edjfjkebkko = 15;</code>
        */
       public Builder setEdjfjkebkko(
           int index, emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPE value) {
@@ -575,7 +575,7 @@ public final class AnimalViewDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ACCCCLFEMPE edjfjkebkko = 11;</code>
+       * <code>repeated .ACCCCLFEMPE edjfjkebkko = 15;</code>
        */
       public Builder setEdjfjkebkko(
           int index, emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPE.Builder builderForValue) {
@@ -589,7 +589,7 @@ public final class AnimalViewDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ACCCCLFEMPE edjfjkebkko = 11;</code>
+       * <code>repeated .ACCCCLFEMPE edjfjkebkko = 15;</code>
        */
       public Builder addEdjfjkebkko(emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPE value) {
         if (edjfjkebkkoBuilder_ == null) {
@@ -605,7 +605,7 @@ public final class AnimalViewDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ACCCCLFEMPE edjfjkebkko = 11;</code>
+       * <code>repeated .ACCCCLFEMPE edjfjkebkko = 15;</code>
        */
       public Builder addEdjfjkebkko(
           int index, emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPE value) {
@@ -622,7 +622,7 @@ public final class AnimalViewDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ACCCCLFEMPE edjfjkebkko = 11;</code>
+       * <code>repeated .ACCCCLFEMPE edjfjkebkko = 15;</code>
        */
       public Builder addEdjfjkebkko(
           emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPE.Builder builderForValue) {
@@ -636,7 +636,7 @@ public final class AnimalViewDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ACCCCLFEMPE edjfjkebkko = 11;</code>
+       * <code>repeated .ACCCCLFEMPE edjfjkebkko = 15;</code>
        */
       public Builder addEdjfjkebkko(
           int index, emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPE.Builder builderForValue) {
@@ -650,7 +650,7 @@ public final class AnimalViewDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ACCCCLFEMPE edjfjkebkko = 11;</code>
+       * <code>repeated .ACCCCLFEMPE edjfjkebkko = 15;</code>
        */
       public Builder addAllEdjfjkebkko(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPE> values) {
@@ -665,7 +665,7 @@ public final class AnimalViewDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ACCCCLFEMPE edjfjkebkko = 11;</code>
+       * <code>repeated .ACCCCLFEMPE edjfjkebkko = 15;</code>
        */
       public Builder clearEdjfjkebkko() {
         if (edjfjkebkkoBuilder_ == null) {
@@ -678,7 +678,7 @@ public final class AnimalViewDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ACCCCLFEMPE edjfjkebkko = 11;</code>
+       * <code>repeated .ACCCCLFEMPE edjfjkebkko = 15;</code>
        */
       public Builder removeEdjfjkebkko(int index) {
         if (edjfjkebkkoBuilder_ == null) {
@@ -691,14 +691,14 @@ public final class AnimalViewDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .ACCCCLFEMPE edjfjkebkko = 11;</code>
+       * <code>repeated .ACCCCLFEMPE edjfjkebkko = 15;</code>
        */
       public emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPE.Builder getEdjfjkebkkoBuilder(
           int index) {
         return getEdjfjkebkkoFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .ACCCCLFEMPE edjfjkebkko = 11;</code>
+       * <code>repeated .ACCCCLFEMPE edjfjkebkko = 15;</code>
        */
       public emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPEOrBuilder getEdjfjkebkkoOrBuilder(
           int index) {
@@ -708,7 +708,7 @@ public final class AnimalViewDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ACCCCLFEMPE edjfjkebkko = 11;</code>
+       * <code>repeated .ACCCCLFEMPE edjfjkebkko = 15;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPEOrBuilder> 
            getEdjfjkebkkoOrBuilderList() {
@@ -719,14 +719,14 @@ public final class AnimalViewDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .ACCCCLFEMPE edjfjkebkko = 11;</code>
+       * <code>repeated .ACCCCLFEMPE edjfjkebkko = 15;</code>
        */
       public emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPE.Builder addEdjfjkebkkoBuilder() {
         return getEdjfjkebkkoFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPE.getDefaultInstance());
       }
       /**
-       * <code>repeated .ACCCCLFEMPE edjfjkebkko = 11;</code>
+       * <code>repeated .ACCCCLFEMPE edjfjkebkko = 15;</code>
        */
       public emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPE.Builder addEdjfjkebkkoBuilder(
           int index) {
@@ -734,7 +734,7 @@ public final class AnimalViewDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPE.getDefaultInstance());
       }
       /**
-       * <code>repeated .ACCCCLFEMPE edjfjkebkko = 11;</code>
+       * <code>repeated .ACCCCLFEMPE edjfjkebkko = 15;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ACCCCLFEMPEOuterClass.ACCCCLFEMPE.Builder> 
            getEdjfjkebkkoBuilderList() {
@@ -823,7 +823,7 @@ public final class AnimalViewDetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032AnimalViewDetailInfo.proto\032\021ACCCCLFEMP" +
       "E.proto\"9\n\024AnimalViewDetailInfo\022!\n\013edjfj" +
-      "kebkko\030\013 \003(\0132\014.ACCCCLFEMPEB;\n\031emu.grassc" +
+      "kebkko\030\017 \003(\0132\014.ACCCCLFEMPEB;\n\031emu.grassc" +
       "utter.net.protoB\036AnimalViewDetailInfoOut" +
       "erClassb\006proto3"
     };

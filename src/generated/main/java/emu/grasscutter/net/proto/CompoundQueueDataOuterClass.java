@@ -19,25 +19,25 @@ public final class CompoundQueueDataOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 ECICJPBDGOC = 1;</code>
+     * <code>uint32 ECICJPBDGOC = 50000;</code>
      * @return The eCICJPBDGOC.
      */
     int getECICJPBDGOC();
 
     /**
-     * <code>uint32 LINALGNMBCF = 7;</code>
+     * <code>uint32 LINALGNMBCF = 50001;</code>
      * @return The lINALGNMBCF.
      */
     int getLINALGNMBCF();
 
     /**
-     * <code>uint32 compound_id = 13;</code>
+     * <code>uint32 compound_id = 10;</code>
      * @return The compoundId.
      */
     int getCompoundId();
 
     /**
-     * <code>uint32 waitCount = 15;</code>
+     * <code>uint32 waitCount = 50002;</code>
      * @return The waitCount.
      */
     int getWaitCount();
@@ -87,22 +87,22 @@ public final class CompoundQueueDataOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
-
-              eCICJPBDGOC_ = input.readUInt32();
-              break;
-            }
-            case 56: {
-
-              lINALGNMBCF_ = input.readUInt32();
-              break;
-            }
-            case 104: {
+            case 80: {
 
               compoundId_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 400000: {
+
+              eCICJPBDGOC_ = input.readUInt32();
+              break;
+            }
+            case 400008: {
+
+              lINALGNMBCF_ = input.readUInt32();
+              break;
+            }
+            case 400016: {
 
               waitCount_ = input.readUInt32();
               break;
@@ -139,10 +139,10 @@ public final class CompoundQueueDataOuterClass {
               emu.grasscutter.net.proto.CompoundQueueDataOuterClass.CompoundQueueData.class, emu.grasscutter.net.proto.CompoundQueueDataOuterClass.CompoundQueueData.Builder.class);
     }
 
-    public static final int ECICJPBDGOC_FIELD_NUMBER = 1;
+    public static final int ECICJPBDGOC_FIELD_NUMBER = 50000;
     private int eCICJPBDGOC_;
     /**
-     * <code>uint32 ECICJPBDGOC = 1;</code>
+     * <code>uint32 ECICJPBDGOC = 50000;</code>
      * @return The eCICJPBDGOC.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class CompoundQueueDataOuterClass {
       return eCICJPBDGOC_;
     }
 
-    public static final int LINALGNMBCF_FIELD_NUMBER = 7;
+    public static final int LINALGNMBCF_FIELD_NUMBER = 50001;
     private int lINALGNMBCF_;
     /**
-     * <code>uint32 LINALGNMBCF = 7;</code>
+     * <code>uint32 LINALGNMBCF = 50001;</code>
      * @return The lINALGNMBCF.
      */
     @java.lang.Override
@@ -161,10 +161,10 @@ public final class CompoundQueueDataOuterClass {
       return lINALGNMBCF_;
     }
 
-    public static final int COMPOUND_ID_FIELD_NUMBER = 13;
+    public static final int COMPOUND_ID_FIELD_NUMBER = 10;
     private int compoundId_;
     /**
-     * <code>uint32 compound_id = 13;</code>
+     * <code>uint32 compound_id = 10;</code>
      * @return The compoundId.
      */
     @java.lang.Override
@@ -172,10 +172,10 @@ public final class CompoundQueueDataOuterClass {
       return compoundId_;
     }
 
-    public static final int WAITCOUNT_FIELD_NUMBER = 15;
+    public static final int WAITCOUNT_FIELD_NUMBER = 50002;
     private int waitCount_;
     /**
-     * <code>uint32 waitCount = 15;</code>
+     * <code>uint32 waitCount = 50002;</code>
      * @return The waitCount.
      */
     @java.lang.Override
@@ -197,17 +197,17 @@ public final class CompoundQueueDataOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (compoundId_ != 0) {
+        output.writeUInt32(10, compoundId_);
+      }
       if (eCICJPBDGOC_ != 0) {
-        output.writeUInt32(1, eCICJPBDGOC_);
+        output.writeUInt32(50000, eCICJPBDGOC_);
       }
       if (lINALGNMBCF_ != 0) {
-        output.writeUInt32(7, lINALGNMBCF_);
-      }
-      if (compoundId_ != 0) {
-        output.writeUInt32(13, compoundId_);
+        output.writeUInt32(50001, lINALGNMBCF_);
       }
       if (waitCount_ != 0) {
-        output.writeUInt32(15, waitCount_);
+        output.writeUInt32(50002, waitCount_);
       }
       unknownFields.writeTo(output);
     }
@@ -218,21 +218,21 @@ public final class CompoundQueueDataOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (compoundId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(10, compoundId_);
+      }
       if (eCICJPBDGOC_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, eCICJPBDGOC_);
+          .computeUInt32Size(50000, eCICJPBDGOC_);
       }
       if (lINALGNMBCF_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, lINALGNMBCF_);
-      }
-      if (compoundId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, compoundId_);
+          .computeUInt32Size(50001, lINALGNMBCF_);
       }
       if (waitCount_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, waitCount_);
+          .computeUInt32Size(50002, waitCount_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -538,7 +538,7 @@ public final class CompoundQueueDataOuterClass {
 
       private int eCICJPBDGOC_ ;
       /**
-       * <code>uint32 ECICJPBDGOC = 1;</code>
+       * <code>uint32 ECICJPBDGOC = 50000;</code>
        * @return The eCICJPBDGOC.
        */
       @java.lang.Override
@@ -546,7 +546,7 @@ public final class CompoundQueueDataOuterClass {
         return eCICJPBDGOC_;
       }
       /**
-       * <code>uint32 ECICJPBDGOC = 1;</code>
+       * <code>uint32 ECICJPBDGOC = 50000;</code>
        * @param value The eCICJPBDGOC to set.
        * @return This builder for chaining.
        */
@@ -557,7 +557,7 @@ public final class CompoundQueueDataOuterClass {
         return this;
       }
       /**
-       * <code>uint32 ECICJPBDGOC = 1;</code>
+       * <code>uint32 ECICJPBDGOC = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearECICJPBDGOC() {
@@ -569,7 +569,7 @@ public final class CompoundQueueDataOuterClass {
 
       private int lINALGNMBCF_ ;
       /**
-       * <code>uint32 LINALGNMBCF = 7;</code>
+       * <code>uint32 LINALGNMBCF = 50001;</code>
        * @return The lINALGNMBCF.
        */
       @java.lang.Override
@@ -577,7 +577,7 @@ public final class CompoundQueueDataOuterClass {
         return lINALGNMBCF_;
       }
       /**
-       * <code>uint32 LINALGNMBCF = 7;</code>
+       * <code>uint32 LINALGNMBCF = 50001;</code>
        * @param value The lINALGNMBCF to set.
        * @return This builder for chaining.
        */
@@ -588,7 +588,7 @@ public final class CompoundQueueDataOuterClass {
         return this;
       }
       /**
-       * <code>uint32 LINALGNMBCF = 7;</code>
+       * <code>uint32 LINALGNMBCF = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearLINALGNMBCF() {
@@ -600,7 +600,7 @@ public final class CompoundQueueDataOuterClass {
 
       private int compoundId_ ;
       /**
-       * <code>uint32 compound_id = 13;</code>
+       * <code>uint32 compound_id = 10;</code>
        * @return The compoundId.
        */
       @java.lang.Override
@@ -608,7 +608,7 @@ public final class CompoundQueueDataOuterClass {
         return compoundId_;
       }
       /**
-       * <code>uint32 compound_id = 13;</code>
+       * <code>uint32 compound_id = 10;</code>
        * @param value The compoundId to set.
        * @return This builder for chaining.
        */
@@ -619,7 +619,7 @@ public final class CompoundQueueDataOuterClass {
         return this;
       }
       /**
-       * <code>uint32 compound_id = 13;</code>
+       * <code>uint32 compound_id = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearCompoundId() {
@@ -631,7 +631,7 @@ public final class CompoundQueueDataOuterClass {
 
       private int waitCount_ ;
       /**
-       * <code>uint32 waitCount = 15;</code>
+       * <code>uint32 waitCount = 50002;</code>
        * @return The waitCount.
        */
       @java.lang.Override
@@ -639,7 +639,7 @@ public final class CompoundQueueDataOuterClass {
         return waitCount_;
       }
       /**
-       * <code>uint32 waitCount = 15;</code>
+       * <code>uint32 waitCount = 50002;</code>
        * @param value The waitCount to set.
        * @return This builder for chaining.
        */
@@ -650,7 +650,7 @@ public final class CompoundQueueDataOuterClass {
         return this;
       }
       /**
-       * <code>uint32 waitCount = 15;</code>
+       * <code>uint32 waitCount = 50002;</code>
        * @return This builder for chaining.
        */
       public Builder clearWaitCount() {
@@ -726,11 +726,11 @@ public final class CompoundQueueDataOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\027CompoundQueueData.proto\"e\n\021CompoundQue" +
-      "ueData\022\023\n\013ECICJPBDGOC\030\001 \001(\r\022\023\n\013LINALGNMB" +
-      "CF\030\007 \001(\r\022\023\n\013compound_id\030\r \001(\r\022\021\n\twaitCou" +
-      "nt\030\017 \001(\rB8\n\031emu.grasscutter.net.protoB\033C" +
-      "ompoundQueueDataOuterClassb\006proto3"
+      "\n\027CompoundQueueData.proto\"k\n\021CompoundQue" +
+      "ueData\022\025\n\013ECICJPBDGOC\030\320\206\003 \001(\r\022\025\n\013LINALGN" +
+      "MBCF\030\321\206\003 \001(\r\022\023\n\013compound_id\030\n \001(\r\022\023\n\twai" +
+      "tCount\030\322\206\003 \001(\rB8\n\031emu.grasscutter.net.pr" +
+      "otoB\033CompoundQueueDataOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

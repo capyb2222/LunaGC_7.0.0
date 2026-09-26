@@ -53,13 +53,13 @@ public final class SumoActivityDetailInfoOuterClass {
         int key);
 
     /**
-     * <code>uint32 last_stage_id = 6;</code>
+     * <code>uint32 last_stage_id = 11;</code>
      * @return The lastStageId.
      */
     int getLastStageId();
 
     /**
-     * <code>uint32 difficulty_id = 15;</code>
+     * <code>uint32 difficulty_id = 13;</code>
      * @return The difficultyId.
      */
     int getDifficultyId();
@@ -123,12 +123,12 @@ public final class SumoActivityDetailInfoOuterClass {
                   sumoStageMap__.getKey(), sumoStageMap__.getValue());
               break;
             }
-            case 48: {
+            case 88: {
 
               lastStageId_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 104: {
 
               difficultyId_ = input.readUInt32();
               break;
@@ -258,10 +258,10 @@ public final class SumoActivityDetailInfoOuterClass {
       return map.get(key);
     }
 
-    public static final int LAST_STAGE_ID_FIELD_NUMBER = 6;
+    public static final int LAST_STAGE_ID_FIELD_NUMBER = 11;
     private int lastStageId_;
     /**
-     * <code>uint32 last_stage_id = 6;</code>
+     * <code>uint32 last_stage_id = 11;</code>
      * @return The lastStageId.
      */
     @java.lang.Override
@@ -269,10 +269,10 @@ public final class SumoActivityDetailInfoOuterClass {
       return lastStageId_;
     }
 
-    public static final int DIFFICULTY_ID_FIELD_NUMBER = 15;
+    public static final int DIFFICULTY_ID_FIELD_NUMBER = 13;
     private int difficultyId_;
     /**
-     * <code>uint32 difficulty_id = 15;</code>
+     * <code>uint32 difficulty_id = 13;</code>
      * @return The difficultyId.
      */
     @java.lang.Override
@@ -301,10 +301,10 @@ public final class SumoActivityDetailInfoOuterClass {
           SumoStageMapDefaultEntryHolder.defaultEntry,
           4);
       if (lastStageId_ != 0) {
-        output.writeUInt32(6, lastStageId_);
+        output.writeUInt32(11, lastStageId_);
       }
       if (difficultyId_ != 0) {
-        output.writeUInt32(15, difficultyId_);
+        output.writeUInt32(13, difficultyId_);
       }
       unknownFields.writeTo(output);
     }
@@ -327,11 +327,11 @@ public final class SumoActivityDetailInfoOuterClass {
       }
       if (lastStageId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, lastStageId_);
+          .computeUInt32Size(11, lastStageId_);
       }
       if (difficultyId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, difficultyId_);
+          .computeUInt32Size(13, difficultyId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -780,7 +780,7 @@ public final class SumoActivityDetailInfoOuterClass {
 
       private int lastStageId_ ;
       /**
-       * <code>uint32 last_stage_id = 6;</code>
+       * <code>uint32 last_stage_id = 11;</code>
        * @return The lastStageId.
        */
       @java.lang.Override
@@ -788,7 +788,7 @@ public final class SumoActivityDetailInfoOuterClass {
         return lastStageId_;
       }
       /**
-       * <code>uint32 last_stage_id = 6;</code>
+       * <code>uint32 last_stage_id = 11;</code>
        * @param value The lastStageId to set.
        * @return This builder for chaining.
        */
@@ -799,7 +799,7 @@ public final class SumoActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 last_stage_id = 6;</code>
+       * <code>uint32 last_stage_id = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearLastStageId() {
@@ -811,7 +811,7 @@ public final class SumoActivityDetailInfoOuterClass {
 
       private int difficultyId_ ;
       /**
-       * <code>uint32 difficulty_id = 15;</code>
+       * <code>uint32 difficulty_id = 13;</code>
        * @return The difficultyId.
        */
       @java.lang.Override
@@ -819,7 +819,7 @@ public final class SumoActivityDetailInfoOuterClass {
         return difficultyId_;
       }
       /**
-       * <code>uint32 difficulty_id = 15;</code>
+       * <code>uint32 difficulty_id = 13;</code>
        * @param value The difficultyId to set.
        * @return This builder for chaining.
        */
@@ -830,7 +830,7 @@ public final class SumoActivityDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 difficulty_id = 15;</code>
+       * <code>uint32 difficulty_id = 13;</code>
        * @return This builder for chaining.
        */
       public Builder clearDifficultyId() {
@@ -915,7 +915,7 @@ public final class SumoActivityDetailInfoOuterClass {
       "eData.proto\"\316\001\n\026SumoActivityDetailInfo\022A" +
       "\n\016sumo_stage_map\030\004 \003(\0132).SumoActivityDet" +
       "ailInfo.SumoStageMapEntry\022\025\n\rlast_stage_" +
-      "id\030\006 \001(\r\022\025\n\rdifficulty_id\030\017 \001(\r\032C\n\021SumoS" +
+      "id\030\013 \001(\r\022\025\n\rdifficulty_id\030\r \001(\r\032C\n\021SumoS" +
       "tageMapEntry\022\013\n\003key\030\001 \001(\r\022\035\n\005value\030\002 \001(\013" +
       "2\016.SumoStageData:\0028\001B=\n\031emu.grasscutter." +
       "net.protoB SumoActivityDetailInfoOuterCl" +

@@ -6,5 +6,5 @@ option java_outer_classname = "BattlePassMissionUpdateNotifyOuterClass";
 import "BattlePassMission.proto";
 
 message BattlePassMissionUpdateNotify {
-	repeated BattlePassMission mission_list = 4;
+	repeated BattlePassMission mission_list = 11;
 }

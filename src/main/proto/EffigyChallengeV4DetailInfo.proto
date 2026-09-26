@@ -6,5 +6,5 @@ option java_outer_classname = "EffigyChallengeV4DetailInfoOuterClass";
 import "LBINOBBOACO.proto";
 
 message EffigyChallengeV4DetailInfo {
-	repeated LBINOBBOACO jnadpfjobhi = 1;
+	repeated LBINOBBOACO jnadpfjobhi = 6;
 }

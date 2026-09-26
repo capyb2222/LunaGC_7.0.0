@@ -19,19 +19,19 @@ public final class _BadgetBattleSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 difficulty = 4;</code>
+     * <code>uint32 difficulty = 15;</code>
      * @return The difficulty.
      */
     int getDifficulty();
 
     /**
-     * <code>bool is_new_record = 7;</code>
+     * <code>bool is_new_record = 3;</code>
      * @return The isNewRecord.
      */
     boolean getIsNewRecord();
 
     /**
-     * <code>uint32 level_id = 9;</code>
+     * <code>uint32 level_id = 6;</code>
      * @return The levelId.
      */
     int getLevelId();
@@ -54,7 +54,7 @@ public final class _BadgetBattleSettleInfoOuterClass {
     int getLLDFKPKHFFB(int index);
 
     /**
-     * <code>uint32 score = 13;</code>
+     * <code>uint32 score = 8;</code>
      * @return The score.
      */
     int getScore();
@@ -106,19 +106,19 @@ public final class _BadgetBattleSettleInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
-
-              difficulty_ = input.readUInt32();
-              break;
-            }
-            case 56: {
+            case 24: {
 
               isNewRecord_ = input.readBool();
               break;
             }
-            case 72: {
+            case 48: {
 
               levelId_ = input.readUInt32();
+              break;
+            }
+            case 64: {
+
+              score_ = input.readUInt32();
               break;
             }
             case 96: {
@@ -142,9 +142,9 @@ public final class _BadgetBattleSettleInfoOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 104: {
+            case 120: {
 
-              score_ = input.readUInt32();
+              difficulty_ = input.readUInt32();
               break;
             }
             default: {
@@ -182,10 +182,10 @@ public final class _BadgetBattleSettleInfoOuterClass {
               emu.grasscutter.net.proto._BadgetBattleSettleInfoOuterClass._BadgetBattleSettleInfo.class, emu.grasscutter.net.proto._BadgetBattleSettleInfoOuterClass._BadgetBattleSettleInfo.Builder.class);
     }
 
-    public static final int DIFFICULTY_FIELD_NUMBER = 4;
+    public static final int DIFFICULTY_FIELD_NUMBER = 15;
     private int difficulty_;
     /**
-     * <code>uint32 difficulty = 4;</code>
+     * <code>uint32 difficulty = 15;</code>
      * @return The difficulty.
      */
     @java.lang.Override
@@ -193,10 +193,10 @@ public final class _BadgetBattleSettleInfoOuterClass {
       return difficulty_;
     }
 
-    public static final int IS_NEW_RECORD_FIELD_NUMBER = 7;
+    public static final int IS_NEW_RECORD_FIELD_NUMBER = 3;
     private boolean isNewRecord_;
     /**
-     * <code>bool is_new_record = 7;</code>
+     * <code>bool is_new_record = 3;</code>
      * @return The isNewRecord.
      */
     @java.lang.Override
@@ -204,10 +204,10 @@ public final class _BadgetBattleSettleInfoOuterClass {
       return isNewRecord_;
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 9;
+    public static final int LEVEL_ID_FIELD_NUMBER = 6;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 9;</code>
+     * <code>uint32 level_id = 6;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -243,10 +243,10 @@ public final class _BadgetBattleSettleInfoOuterClass {
     }
     private int lLDFKPKHFFBMemoizedSerializedSize = -1;
 
-    public static final int SCORE_FIELD_NUMBER = 13;
+    public static final int SCORE_FIELD_NUMBER = 8;
     private int score_;
     /**
-     * <code>uint32 score = 13;</code>
+     * <code>uint32 score = 8;</code>
      * @return The score.
      */
     @java.lang.Override
@@ -269,14 +269,14 @@ public final class _BadgetBattleSettleInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
-      if (difficulty_ != 0) {
-        output.writeUInt32(4, difficulty_);
-      }
       if (isNewRecord_ != false) {
-        output.writeBool(7, isNewRecord_);
+        output.writeBool(3, isNewRecord_);
       }
       if (levelId_ != 0) {
-        output.writeUInt32(9, levelId_);
+        output.writeUInt32(6, levelId_);
+      }
+      if (score_ != 0) {
+        output.writeUInt32(8, score_);
       }
       if (getLLDFKPKHFFBList().size() > 0) {
         output.writeUInt32NoTag(98);
@@ -285,8 +285,8 @@ public final class _BadgetBattleSettleInfoOuterClass {
       for (int i = 0; i < lLDFKPKHFFB_.size(); i++) {
         output.writeUInt32NoTag(lLDFKPKHFFB_.getInt(i));
       }
-      if (score_ != 0) {
-        output.writeUInt32(13, score_);
+      if (difficulty_ != 0) {
+        output.writeUInt32(15, difficulty_);
       }
       unknownFields.writeTo(output);
     }
@@ -297,17 +297,17 @@ public final class _BadgetBattleSettleInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (difficulty_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, difficulty_);
-      }
       if (isNewRecord_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(7, isNewRecord_);
+          .computeBoolSize(3, isNewRecord_);
       }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, levelId_);
+          .computeUInt32Size(6, levelId_);
+      }
+      if (score_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(8, score_);
       }
       {
         int dataSize = 0;
@@ -323,9 +323,9 @@ public final class _BadgetBattleSettleInfoOuterClass {
         }
         lLDFKPKHFFBMemoizedSerializedSize = dataSize;
       }
-      if (score_ != 0) {
+      if (difficulty_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, score_);
+          .computeUInt32Size(15, difficulty_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -657,7 +657,7 @@ public final class _BadgetBattleSettleInfoOuterClass {
 
       private int difficulty_ ;
       /**
-       * <code>uint32 difficulty = 4;</code>
+       * <code>uint32 difficulty = 15;</code>
        * @return The difficulty.
        */
       @java.lang.Override
@@ -665,7 +665,7 @@ public final class _BadgetBattleSettleInfoOuterClass {
         return difficulty_;
       }
       /**
-       * <code>uint32 difficulty = 4;</code>
+       * <code>uint32 difficulty = 15;</code>
        * @param value The difficulty to set.
        * @return This builder for chaining.
        */
@@ -676,7 +676,7 @@ public final class _BadgetBattleSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 difficulty = 4;</code>
+       * <code>uint32 difficulty = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearDifficulty() {
@@ -688,7 +688,7 @@ public final class _BadgetBattleSettleInfoOuterClass {
 
       private boolean isNewRecord_ ;
       /**
-       * <code>bool is_new_record = 7;</code>
+       * <code>bool is_new_record = 3;</code>
        * @return The isNewRecord.
        */
       @java.lang.Override
@@ -696,7 +696,7 @@ public final class _BadgetBattleSettleInfoOuterClass {
         return isNewRecord_;
       }
       /**
-       * <code>bool is_new_record = 7;</code>
+       * <code>bool is_new_record = 3;</code>
        * @param value The isNewRecord to set.
        * @return This builder for chaining.
        */
@@ -707,7 +707,7 @@ public final class _BadgetBattleSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_new_record = 7;</code>
+       * <code>bool is_new_record = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsNewRecord() {
@@ -719,7 +719,7 @@ public final class _BadgetBattleSettleInfoOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 9;</code>
+       * <code>uint32 level_id = 6;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -727,7 +727,7 @@ public final class _BadgetBattleSettleInfoOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 9;</code>
+       * <code>uint32 level_id = 6;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -738,7 +738,7 @@ public final class _BadgetBattleSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 9;</code>
+       * <code>uint32 level_id = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -829,7 +829,7 @@ public final class _BadgetBattleSettleInfoOuterClass {
 
       private int score_ ;
       /**
-       * <code>uint32 score = 13;</code>
+       * <code>uint32 score = 8;</code>
        * @return The score.
        */
       @java.lang.Override
@@ -837,7 +837,7 @@ public final class _BadgetBattleSettleInfoOuterClass {
         return score_;
       }
       /**
-       * <code>uint32 score = 13;</code>
+       * <code>uint32 score = 8;</code>
        * @param value The score to set.
        * @return This builder for chaining.
        */
@@ -848,7 +848,7 @@ public final class _BadgetBattleSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 score = 13;</code>
+       * <code>uint32 score = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearScore() {
@@ -925,9 +925,9 @@ public final class _BadgetBattleSettleInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\035_BadgetBattleSettleInfo.proto\"z\n\027_Badg" +
-      "etBattleSettleInfo\022\022\n\ndifficulty\030\004 \001(\r\022\025" +
-      "\n\ris_new_record\030\007 \001(\010\022\020\n\010level_id\030\t \001(\r\022" +
-      "\023\n\013LLDFKPKHFFB\030\014 \003(\r\022\r\n\005score\030\r \001(\rB>\n\031e" +
+      "etBattleSettleInfo\022\022\n\ndifficulty\030\017 \001(\r\022\025" +
+      "\n\ris_new_record\030\003 \001(\010\022\020\n\010level_id\030\006 \001(\r\022" +
+      "\023\n\013LLDFKPKHFFB\030\014 \003(\r\022\r\n\005score\030\010 \001(\rB>\n\031e" +
       "mu.grasscutter.net.protoB!_BadgetBattleS" +
       "ettleInfoOuterClassb\006proto3"
     };

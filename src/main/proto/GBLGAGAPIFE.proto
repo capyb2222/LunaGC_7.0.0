@@ -6,5 +6,5 @@ option java_outer_classname = "GBLGAGAPIFEOuterClass";
 import "ILMONMILAFC.proto";
 
 message GBLGAGAPIFE {
-	repeated ILMONMILAFC avatar_list = 11;
+	repeated ILMONMILAFC avatar_list = 4;
 }

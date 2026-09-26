@@ -6,5 +6,5 @@ option java_outer_classname = "FleurFairMusicGameInfoOuterClass";
 import "FleurFairMusicRecord.proto";
 
 message FleurFairMusicGameInfo {
-	map<uint32, FleurFairMusicRecord> music_record_map = 2;
+	map<uint32, FleurFairMusicRecord> music_record_map = 15;
 }

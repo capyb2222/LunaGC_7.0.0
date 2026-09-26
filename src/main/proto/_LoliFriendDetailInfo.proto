@@ -4,5 +4,5 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "_LoliFriendDetailInfoOuterClass";
 
 message _LoliFriendDetailInfo {
-	uint32 CEDBOCOCINO = 7;
+	uint32 CEDBOCOCINO = 6;
 }

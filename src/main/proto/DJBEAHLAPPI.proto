@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "DJBEAHLAPPIOuterClass";
 
 message DJBEAHLAPPI {
-	uint32 level_id = 5;
-	uint32 max_score = 10;
-	bool is_open = 12;
+	uint32 level_id = 7;
+	uint32 max_score = 2;
+	bool is_open = 6;
 }

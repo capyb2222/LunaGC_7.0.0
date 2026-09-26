@@ -19,13 +19,13 @@ public final class CrystalLinkBuffInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 MCKPIIMDKMI = 1;</code>
+     * <code>uint32 MCKPIIMDKMI = 50000;</code>
      * @return The mCKPIIMDKMI.
      */
     int getMCKPIIMDKMI();
 
     /**
-     * <code>uint32 DFFHKNBEIJK = 5;</code>
+     * <code>uint32 DFFHKNBEIJK = 50001;</code>
      * @return The dFFHKNBEIJK.
      */
     int getDFFHKNBEIJK();
@@ -75,12 +75,12 @@ public final class CrystalLinkBuffInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 400000: {
 
               mCKPIIMDKMI_ = input.readUInt32();
               break;
             }
-            case 40: {
+            case 400008: {
 
               dFFHKNBEIJK_ = input.readUInt32();
               break;
@@ -117,10 +117,10 @@ public final class CrystalLinkBuffInfoOuterClass {
               emu.grasscutter.net.proto.CrystalLinkBuffInfoOuterClass.CrystalLinkBuffInfo.class, emu.grasscutter.net.proto.CrystalLinkBuffInfoOuterClass.CrystalLinkBuffInfo.Builder.class);
     }
 
-    public static final int MCKPIIMDKMI_FIELD_NUMBER = 1;
+    public static final int MCKPIIMDKMI_FIELD_NUMBER = 50000;
     private int mCKPIIMDKMI_;
     /**
-     * <code>uint32 MCKPIIMDKMI = 1;</code>
+     * <code>uint32 MCKPIIMDKMI = 50000;</code>
      * @return The mCKPIIMDKMI.
      */
     @java.lang.Override
@@ -128,10 +128,10 @@ public final class CrystalLinkBuffInfoOuterClass {
       return mCKPIIMDKMI_;
     }
 
-    public static final int DFFHKNBEIJK_FIELD_NUMBER = 5;
+    public static final int DFFHKNBEIJK_FIELD_NUMBER = 50001;
     private int dFFHKNBEIJK_;
     /**
-     * <code>uint32 DFFHKNBEIJK = 5;</code>
+     * <code>uint32 DFFHKNBEIJK = 50001;</code>
      * @return The dFFHKNBEIJK.
      */
     @java.lang.Override
@@ -154,10 +154,10 @@ public final class CrystalLinkBuffInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (mCKPIIMDKMI_ != 0) {
-        output.writeUInt32(1, mCKPIIMDKMI_);
+        output.writeUInt32(50000, mCKPIIMDKMI_);
       }
       if (dFFHKNBEIJK_ != 0) {
-        output.writeUInt32(5, dFFHKNBEIJK_);
+        output.writeUInt32(50001, dFFHKNBEIJK_);
       }
       unknownFields.writeTo(output);
     }
@@ -170,11 +170,11 @@ public final class CrystalLinkBuffInfoOuterClass {
       size = 0;
       if (mCKPIIMDKMI_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, mCKPIIMDKMI_);
+          .computeUInt32Size(50000, mCKPIIMDKMI_);
       }
       if (dFFHKNBEIJK_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, dFFHKNBEIJK_);
+          .computeUInt32Size(50001, dFFHKNBEIJK_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -460,7 +460,7 @@ public final class CrystalLinkBuffInfoOuterClass {
 
       private int mCKPIIMDKMI_ ;
       /**
-       * <code>uint32 MCKPIIMDKMI = 1;</code>
+       * <code>uint32 MCKPIIMDKMI = 50000;</code>
        * @return The mCKPIIMDKMI.
        */
       @java.lang.Override
@@ -468,7 +468,7 @@ public final class CrystalLinkBuffInfoOuterClass {
         return mCKPIIMDKMI_;
       }
       /**
-       * <code>uint32 MCKPIIMDKMI = 1;</code>
+       * <code>uint32 MCKPIIMDKMI = 50000;</code>
        * @param value The mCKPIIMDKMI to set.
        * @return This builder for chaining.
        */
@@ -479,7 +479,7 @@ public final class CrystalLinkBuffInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 MCKPIIMDKMI = 1;</code>
+       * <code>uint32 MCKPIIMDKMI = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearMCKPIIMDKMI() {
@@ -491,7 +491,7 @@ public final class CrystalLinkBuffInfoOuterClass {
 
       private int dFFHKNBEIJK_ ;
       /**
-       * <code>uint32 DFFHKNBEIJK = 5;</code>
+       * <code>uint32 DFFHKNBEIJK = 50001;</code>
        * @return The dFFHKNBEIJK.
        */
       @java.lang.Override
@@ -499,7 +499,7 @@ public final class CrystalLinkBuffInfoOuterClass {
         return dFFHKNBEIJK_;
       }
       /**
-       * <code>uint32 DFFHKNBEIJK = 5;</code>
+       * <code>uint32 DFFHKNBEIJK = 50001;</code>
        * @param value The dFFHKNBEIJK to set.
        * @return This builder for chaining.
        */
@@ -510,7 +510,7 @@ public final class CrystalLinkBuffInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 DFFHKNBEIJK = 5;</code>
+       * <code>uint32 DFFHKNBEIJK = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearDFFHKNBEIJK() {
@@ -586,10 +586,11 @@ public final class CrystalLinkBuffInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\031CrystalLinkBuffInfo.proto\"?\n\023CrystalLi" +
-      "nkBuffInfo\022\023\n\013MCKPIIMDKMI\030\001 \001(\r\022\023\n\013DFFHK" +
-      "NBEIJK\030\005 \001(\rB:\n\031emu.grasscutter.net.prot" +
-      "oB\035CrystalLinkBuffInfoOuterClassb\006proto3"
+      "\n\031CrystalLinkBuffInfo.proto\"C\n\023CrystalLi" +
+      "nkBuffInfo\022\025\n\013MCKPIIMDKMI\030\320\206\003 \001(\r\022\025\n\013DFF" +
+      "HKNBEIJK\030\321\206\003 \001(\rB:\n\031emu.grasscutter.net." +
+      "protoB\035CrystalLinkBuffInfoOuterClassb\006pr" +
+      "oto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

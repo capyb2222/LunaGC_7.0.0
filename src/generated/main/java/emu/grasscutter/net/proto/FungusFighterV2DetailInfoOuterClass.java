@@ -19,25 +19,25 @@ public final class FungusFighterV2DetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .OMLPFJJBOEP level_data_list = 11;</code>
+     * <code>repeated .OMLPFJJBOEP level_data_list = 9;</code>
      */
     java.util.List<emu.grasscutter.net.proto.OMLPFJJBOEPOuterClass.OMLPFJJBOEP> 
         getLevelDataListList();
     /**
-     * <code>repeated .OMLPFJJBOEP level_data_list = 11;</code>
+     * <code>repeated .OMLPFJJBOEP level_data_list = 9;</code>
      */
     emu.grasscutter.net.proto.OMLPFJJBOEPOuterClass.OMLPFJJBOEP getLevelDataList(int index);
     /**
-     * <code>repeated .OMLPFJJBOEP level_data_list = 11;</code>
+     * <code>repeated .OMLPFJJBOEP level_data_list = 9;</code>
      */
     int getLevelDataListCount();
     /**
-     * <code>repeated .OMLPFJJBOEP level_data_list = 11;</code>
+     * <code>repeated .OMLPFJJBOEP level_data_list = 9;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.OMLPFJJBOEPOuterClass.OMLPFJJBOEPOrBuilder> 
         getLevelDataListOrBuilderList();
     /**
-     * <code>repeated .OMLPFJJBOEP level_data_list = 11;</code>
+     * <code>repeated .OMLPFJJBOEP level_data_list = 9;</code>
      */
     emu.grasscutter.net.proto.OMLPFJJBOEPOuterClass.OMLPFJJBOEPOrBuilder getLevelDataListOrBuilder(
         int index);
@@ -89,7 +89,7 @@ public final class FungusFighterV2DetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 90: {
+            case 74: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 levelDataList_ = new java.util.ArrayList<emu.grasscutter.net.proto.OMLPFJJBOEPOuterClass.OMLPFJJBOEP>();
                 mutable_bitField0_ |= 0x00000001;
@@ -133,17 +133,17 @@ public final class FungusFighterV2DetailInfoOuterClass {
               emu.grasscutter.net.proto.FungusFighterV2DetailInfoOuterClass.FungusFighterV2DetailInfo.class, emu.grasscutter.net.proto.FungusFighterV2DetailInfoOuterClass.FungusFighterV2DetailInfo.Builder.class);
     }
 
-    public static final int LEVEL_DATA_LIST_FIELD_NUMBER = 11;
+    public static final int LEVEL_DATA_LIST_FIELD_NUMBER = 9;
     private java.util.List<emu.grasscutter.net.proto.OMLPFJJBOEPOuterClass.OMLPFJJBOEP> levelDataList_;
     /**
-     * <code>repeated .OMLPFJJBOEP level_data_list = 11;</code>
+     * <code>repeated .OMLPFJJBOEP level_data_list = 9;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.OMLPFJJBOEPOuterClass.OMLPFJJBOEP> getLevelDataListList() {
       return levelDataList_;
     }
     /**
-     * <code>repeated .OMLPFJJBOEP level_data_list = 11;</code>
+     * <code>repeated .OMLPFJJBOEP level_data_list = 9;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.OMLPFJJBOEPOuterClass.OMLPFJJBOEPOrBuilder> 
@@ -151,21 +151,21 @@ public final class FungusFighterV2DetailInfoOuterClass {
       return levelDataList_;
     }
     /**
-     * <code>repeated .OMLPFJJBOEP level_data_list = 11;</code>
+     * <code>repeated .OMLPFJJBOEP level_data_list = 9;</code>
      */
     @java.lang.Override
     public int getLevelDataListCount() {
       return levelDataList_.size();
     }
     /**
-     * <code>repeated .OMLPFJJBOEP level_data_list = 11;</code>
+     * <code>repeated .OMLPFJJBOEP level_data_list = 9;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.OMLPFJJBOEPOuterClass.OMLPFJJBOEP getLevelDataList(int index) {
       return levelDataList_.get(index);
     }
     /**
-     * <code>repeated .OMLPFJJBOEP level_data_list = 11;</code>
+     * <code>repeated .OMLPFJJBOEP level_data_list = 9;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.OMLPFJJBOEPOuterClass.OMLPFJJBOEPOrBuilder getLevelDataListOrBuilder(
@@ -188,7 +188,7 @@ public final class FungusFighterV2DetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < levelDataList_.size(); i++) {
-        output.writeMessage(11, levelDataList_.get(i));
+        output.writeMessage(9, levelDataList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -201,7 +201,7 @@ public final class FungusFighterV2DetailInfoOuterClass {
       size = 0;
       for (int i = 0; i < levelDataList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(11, levelDataList_.get(i));
+          .computeMessageSize(9, levelDataList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -528,7 +528,7 @@ public final class FungusFighterV2DetailInfoOuterClass {
           emu.grasscutter.net.proto.OMLPFJJBOEPOuterClass.OMLPFJJBOEP, emu.grasscutter.net.proto.OMLPFJJBOEPOuterClass.OMLPFJJBOEP.Builder, emu.grasscutter.net.proto.OMLPFJJBOEPOuterClass.OMLPFJJBOEPOrBuilder> levelDataListBuilder_;
 
       /**
-       * <code>repeated .OMLPFJJBOEP level_data_list = 11;</code>
+       * <code>repeated .OMLPFJJBOEP level_data_list = 9;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.OMLPFJJBOEPOuterClass.OMLPFJJBOEP> getLevelDataListList() {
         if (levelDataListBuilder_ == null) {
@@ -538,7 +538,7 @@ public final class FungusFighterV2DetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .OMLPFJJBOEP level_data_list = 11;</code>
+       * <code>repeated .OMLPFJJBOEP level_data_list = 9;</code>
        */
       public int getLevelDataListCount() {
         if (levelDataListBuilder_ == null) {
@@ -548,7 +548,7 @@ public final class FungusFighterV2DetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .OMLPFJJBOEP level_data_list = 11;</code>
+       * <code>repeated .OMLPFJJBOEP level_data_list = 9;</code>
        */
       public emu.grasscutter.net.proto.OMLPFJJBOEPOuterClass.OMLPFJJBOEP getLevelDataList(int index) {
         if (levelDataListBuilder_ == null) {
@@ -558,7 +558,7 @@ public final class FungusFighterV2DetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .OMLPFJJBOEP level_data_list = 11;</code>
+       * <code>repeated .OMLPFJJBOEP level_data_list = 9;</code>
        */
       public Builder setLevelDataList(
           int index, emu.grasscutter.net.proto.OMLPFJJBOEPOuterClass.OMLPFJJBOEP value) {
@@ -575,7 +575,7 @@ public final class FungusFighterV2DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .OMLPFJJBOEP level_data_list = 11;</code>
+       * <code>repeated .OMLPFJJBOEP level_data_list = 9;</code>
        */
       public Builder setLevelDataList(
           int index, emu.grasscutter.net.proto.OMLPFJJBOEPOuterClass.OMLPFJJBOEP.Builder builderForValue) {
@@ -589,7 +589,7 @@ public final class FungusFighterV2DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .OMLPFJJBOEP level_data_list = 11;</code>
+       * <code>repeated .OMLPFJJBOEP level_data_list = 9;</code>
        */
       public Builder addLevelDataList(emu.grasscutter.net.proto.OMLPFJJBOEPOuterClass.OMLPFJJBOEP value) {
         if (levelDataListBuilder_ == null) {
@@ -605,7 +605,7 @@ public final class FungusFighterV2DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .OMLPFJJBOEP level_data_list = 11;</code>
+       * <code>repeated .OMLPFJJBOEP level_data_list = 9;</code>
        */
       public Builder addLevelDataList(
           int index, emu.grasscutter.net.proto.OMLPFJJBOEPOuterClass.OMLPFJJBOEP value) {
@@ -622,7 +622,7 @@ public final class FungusFighterV2DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .OMLPFJJBOEP level_data_list = 11;</code>
+       * <code>repeated .OMLPFJJBOEP level_data_list = 9;</code>
        */
       public Builder addLevelDataList(
           emu.grasscutter.net.proto.OMLPFJJBOEPOuterClass.OMLPFJJBOEP.Builder builderForValue) {
@@ -636,7 +636,7 @@ public final class FungusFighterV2DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .OMLPFJJBOEP level_data_list = 11;</code>
+       * <code>repeated .OMLPFJJBOEP level_data_list = 9;</code>
        */
       public Builder addLevelDataList(
           int index, emu.grasscutter.net.proto.OMLPFJJBOEPOuterClass.OMLPFJJBOEP.Builder builderForValue) {
@@ -650,7 +650,7 @@ public final class FungusFighterV2DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .OMLPFJJBOEP level_data_list = 11;</code>
+       * <code>repeated .OMLPFJJBOEP level_data_list = 9;</code>
        */
       public Builder addAllLevelDataList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.OMLPFJJBOEPOuterClass.OMLPFJJBOEP> values) {
@@ -665,7 +665,7 @@ public final class FungusFighterV2DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .OMLPFJJBOEP level_data_list = 11;</code>
+       * <code>repeated .OMLPFJJBOEP level_data_list = 9;</code>
        */
       public Builder clearLevelDataList() {
         if (levelDataListBuilder_ == null) {
@@ -678,7 +678,7 @@ public final class FungusFighterV2DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .OMLPFJJBOEP level_data_list = 11;</code>
+       * <code>repeated .OMLPFJJBOEP level_data_list = 9;</code>
        */
       public Builder removeLevelDataList(int index) {
         if (levelDataListBuilder_ == null) {
@@ -691,14 +691,14 @@ public final class FungusFighterV2DetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .OMLPFJJBOEP level_data_list = 11;</code>
+       * <code>repeated .OMLPFJJBOEP level_data_list = 9;</code>
        */
       public emu.grasscutter.net.proto.OMLPFJJBOEPOuterClass.OMLPFJJBOEP.Builder getLevelDataListBuilder(
           int index) {
         return getLevelDataListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .OMLPFJJBOEP level_data_list = 11;</code>
+       * <code>repeated .OMLPFJJBOEP level_data_list = 9;</code>
        */
       public emu.grasscutter.net.proto.OMLPFJJBOEPOuterClass.OMLPFJJBOEPOrBuilder getLevelDataListOrBuilder(
           int index) {
@@ -708,7 +708,7 @@ public final class FungusFighterV2DetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .OMLPFJJBOEP level_data_list = 11;</code>
+       * <code>repeated .OMLPFJJBOEP level_data_list = 9;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.OMLPFJJBOEPOuterClass.OMLPFJJBOEPOrBuilder> 
            getLevelDataListOrBuilderList() {
@@ -719,14 +719,14 @@ public final class FungusFighterV2DetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .OMLPFJJBOEP level_data_list = 11;</code>
+       * <code>repeated .OMLPFJJBOEP level_data_list = 9;</code>
        */
       public emu.grasscutter.net.proto.OMLPFJJBOEPOuterClass.OMLPFJJBOEP.Builder addLevelDataListBuilder() {
         return getLevelDataListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.OMLPFJJBOEPOuterClass.OMLPFJJBOEP.getDefaultInstance());
       }
       /**
-       * <code>repeated .OMLPFJJBOEP level_data_list = 11;</code>
+       * <code>repeated .OMLPFJJBOEP level_data_list = 9;</code>
        */
       public emu.grasscutter.net.proto.OMLPFJJBOEPOuterClass.OMLPFJJBOEP.Builder addLevelDataListBuilder(
           int index) {
@@ -734,7 +734,7 @@ public final class FungusFighterV2DetailInfoOuterClass {
             index, emu.grasscutter.net.proto.OMLPFJJBOEPOuterClass.OMLPFJJBOEP.getDefaultInstance());
       }
       /**
-       * <code>repeated .OMLPFJJBOEP level_data_list = 11;</code>
+       * <code>repeated .OMLPFJJBOEP level_data_list = 9;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.OMLPFJJBOEPOuterClass.OMLPFJJBOEP.Builder> 
            getLevelDataListBuilderList() {
@@ -823,7 +823,7 @@ public final class FungusFighterV2DetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\037FungusFighterV2DetailInfo.proto\032\021OMLPF" +
       "JJBOEP.proto\"B\n\031FungusFighterV2DetailInf" +
-      "o\022%\n\017level_data_list\030\013 \003(\0132\014.OMLPFJJBOEP" +
+      "o\022%\n\017level_data_list\030\t \003(\0132\014.OMLPFJJBOEP" +
       "B@\n\031emu.grasscutter.net.protoB#FungusFig" +
       "hterV2DetailInfoOuterClassb\006proto3"
     };

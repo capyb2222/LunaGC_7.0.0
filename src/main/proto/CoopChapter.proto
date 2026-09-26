@@ -24,5 +24,5 @@ message CoopChapter {
 	repeated uint32 lock_reason_list = 50004;
 	repeated CoopPoint coop_point_list = 8;
 	repeated CoopCg coop_cg_list = 4;
-	repeated CoopReward coop_reward_list = 50005;
+	repeated CoopReward coop_reward_list = 9;
 }

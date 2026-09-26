@@ -6,5 +6,5 @@ option java_outer_classname = "FinishedParentQuestNotifyOuterClass";
 import "ParentQuest.proto";
 
 message FinishedParentQuestNotify {
-	repeated ParentQuest parent_quest_list = 12;
+	repeated ParentQuest parent_quest_list = 4;
 }

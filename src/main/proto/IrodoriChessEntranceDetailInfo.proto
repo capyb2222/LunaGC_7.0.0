@@ -6,5 +6,5 @@ option java_outer_classname = "IrodoriChessEntranceDetailInfoOuterClass";
 import "IrodoriChessEntranceInfo.proto";
 
 message IrodoriChessEntranceDetailInfo {
-	repeated IrodoriChessEntranceInfo info_list = 3;
+	repeated IrodoriChessEntranceInfo info_list = 10;
 }

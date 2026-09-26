@@ -40,28 +40,28 @@ public final class ChapterStateNotifyOuterClass {
     int getChapterId();
 
     /**
-     * <code>.ChapterState chapter_state = 50001;</code>
+     * <code>.ChapterState chapter_state = 4;</code>
      * @return The enum numeric value on the wire for chapterState.
      */
     int getChapterStateValue();
     /**
-     * <code>.ChapterState chapter_state = 50001;</code>
+     * <code>.ChapterState chapter_state = 4;</code>
      * @return The chapterState.
      */
     emu.grasscutter.net.proto.ChapterStateOuterClass.ChapterState getChapterState();
 
     /**
-     * <code>.ChapterStateNotify.MDKJMILIFBA MLBMNAKEEOM = 50002;</code>
+     * <code>.ChapterStateNotify.MDKJMILIFBA MLBMNAKEEOM = 50001;</code>
      * @return Whether the mLBMNAKEEOM field is set.
      */
     boolean hasMLBMNAKEEOM();
     /**
-     * <code>.ChapterStateNotify.MDKJMILIFBA MLBMNAKEEOM = 50002;</code>
+     * <code>.ChapterStateNotify.MDKJMILIFBA MLBMNAKEEOM = 50001;</code>
      * @return The mLBMNAKEEOM.
      */
     emu.grasscutter.net.proto.ChapterStateNotifyOuterClass.ChapterStateNotify.MDKJMILIFBA getMLBMNAKEEOM();
     /**
-     * <code>.ChapterStateNotify.MDKJMILIFBA MLBMNAKEEOM = 50002;</code>
+     * <code>.ChapterStateNotify.MDKJMILIFBA MLBMNAKEEOM = 50001;</code>
      */
     emu.grasscutter.net.proto.ChapterStateNotifyOuterClass.ChapterStateNotify.MDKJMILIFBAOrBuilder getMLBMNAKEEOMOrBuilder();
   }
@@ -111,6 +111,12 @@ public final class ChapterStateNotifyOuterClass {
             case 0:
               done = true;
               break;
+            case 32: {
+              int rawValue = input.readEnum();
+
+              chapterState_ = rawValue;
+              break;
+            }
             case 72: {
 
               chapterId_ = input.readUInt32();
@@ -129,13 +135,7 @@ public final class ChapterStateNotifyOuterClass {
 
               break;
             }
-            case 400008: {
-              int rawValue = input.readEnum();
-
-              chapterState_ = rawValue;
-              break;
-            }
-            case 400018: {
+            case 400010: {
               emu.grasscutter.net.proto.ChapterStateNotifyOuterClass.ChapterStateNotify.MDKJMILIFBA.Builder subBuilder = null;
               if (mLBMNAKEEOM_ != null) {
                 subBuilder = mLBMNAKEEOM_.toBuilder();
@@ -1335,17 +1335,17 @@ public final class ChapterStateNotifyOuterClass {
       return chapterId_;
     }
 
-    public static final int CHAPTER_STATE_FIELD_NUMBER = 50001;
+    public static final int CHAPTER_STATE_FIELD_NUMBER = 4;
     private int chapterState_;
     /**
-     * <code>.ChapterState chapter_state = 50001;</code>
+     * <code>.ChapterState chapter_state = 4;</code>
      * @return The enum numeric value on the wire for chapterState.
      */
     @java.lang.Override public int getChapterStateValue() {
       return chapterState_;
     }
     /**
-     * <code>.ChapterState chapter_state = 50001;</code>
+     * <code>.ChapterState chapter_state = 4;</code>
      * @return The chapterState.
      */
     @java.lang.Override public emu.grasscutter.net.proto.ChapterStateOuterClass.ChapterState getChapterState() {
@@ -1354,10 +1354,10 @@ public final class ChapterStateNotifyOuterClass {
       return result == null ? emu.grasscutter.net.proto.ChapterStateOuterClass.ChapterState.UNRECOGNIZED : result;
     }
 
-    public static final int MLBMNAKEEOM_FIELD_NUMBER = 50002;
+    public static final int MLBMNAKEEOM_FIELD_NUMBER = 50001;
     private emu.grasscutter.net.proto.ChapterStateNotifyOuterClass.ChapterStateNotify.MDKJMILIFBA mLBMNAKEEOM_;
     /**
-     * <code>.ChapterStateNotify.MDKJMILIFBA MLBMNAKEEOM = 50002;</code>
+     * <code>.ChapterStateNotify.MDKJMILIFBA MLBMNAKEEOM = 50001;</code>
      * @return Whether the mLBMNAKEEOM field is set.
      */
     @java.lang.Override
@@ -1365,7 +1365,7 @@ public final class ChapterStateNotifyOuterClass {
       return mLBMNAKEEOM_ != null;
     }
     /**
-     * <code>.ChapterStateNotify.MDKJMILIFBA MLBMNAKEEOM = 50002;</code>
+     * <code>.ChapterStateNotify.MDKJMILIFBA MLBMNAKEEOM = 50001;</code>
      * @return The mLBMNAKEEOM.
      */
     @java.lang.Override
@@ -1373,7 +1373,7 @@ public final class ChapterStateNotifyOuterClass {
       return mLBMNAKEEOM_ == null ? emu.grasscutter.net.proto.ChapterStateNotifyOuterClass.ChapterStateNotify.MDKJMILIFBA.getDefaultInstance() : mLBMNAKEEOM_;
     }
     /**
-     * <code>.ChapterStateNotify.MDKJMILIFBA MLBMNAKEEOM = 50002;</code>
+     * <code>.ChapterStateNotify.MDKJMILIFBA MLBMNAKEEOM = 50001;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.ChapterStateNotifyOuterClass.ChapterStateNotify.MDKJMILIFBAOrBuilder getMLBMNAKEEOMOrBuilder() {
@@ -1394,17 +1394,17 @@ public final class ChapterStateNotifyOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (chapterState_ != emu.grasscutter.net.proto.ChapterStateOuterClass.ChapterState.CHAPTER_STATE_INVALID.getNumber()) {
+        output.writeEnum(4, chapterState_);
+      }
       if (chapterId_ != 0) {
         output.writeUInt32(9, chapterId_);
       }
       if (eHKKFCAGELK_ != null) {
         output.writeMessage(50000, getEHKKFCAGELK());
       }
-      if (chapterState_ != emu.grasscutter.net.proto.ChapterStateOuterClass.ChapterState.CHAPTER_STATE_INVALID.getNumber()) {
-        output.writeEnum(50001, chapterState_);
-      }
       if (mLBMNAKEEOM_ != null) {
-        output.writeMessage(50002, getMLBMNAKEEOM());
+        output.writeMessage(50001, getMLBMNAKEEOM());
       }
       unknownFields.writeTo(output);
     }
@@ -1415,6 +1415,10 @@ public final class ChapterStateNotifyOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (chapterState_ != emu.grasscutter.net.proto.ChapterStateOuterClass.ChapterState.CHAPTER_STATE_INVALID.getNumber()) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeEnumSize(4, chapterState_);
+      }
       if (chapterId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(9, chapterId_);
@@ -1423,13 +1427,9 @@ public final class ChapterStateNotifyOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(50000, getEHKKFCAGELK());
       }
-      if (chapterState_ != emu.grasscutter.net.proto.ChapterStateOuterClass.ChapterState.CHAPTER_STATE_INVALID.getNumber()) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(50001, chapterState_);
-      }
       if (mLBMNAKEEOM_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(50002, getMLBMNAKEEOM());
+          .computeMessageSize(50001, getMLBMNAKEEOM());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1910,14 +1910,14 @@ public final class ChapterStateNotifyOuterClass {
 
       private int chapterState_ = 0;
       /**
-       * <code>.ChapterState chapter_state = 50001;</code>
+       * <code>.ChapterState chapter_state = 4;</code>
        * @return The enum numeric value on the wire for chapterState.
        */
       @java.lang.Override public int getChapterStateValue() {
         return chapterState_;
       }
       /**
-       * <code>.ChapterState chapter_state = 50001;</code>
+       * <code>.ChapterState chapter_state = 4;</code>
        * @param value The enum numeric value on the wire for chapterState to set.
        * @return This builder for chaining.
        */
@@ -1928,7 +1928,7 @@ public final class ChapterStateNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.ChapterState chapter_state = 50001;</code>
+       * <code>.ChapterState chapter_state = 4;</code>
        * @return The chapterState.
        */
       @java.lang.Override
@@ -1938,7 +1938,7 @@ public final class ChapterStateNotifyOuterClass {
         return result == null ? emu.grasscutter.net.proto.ChapterStateOuterClass.ChapterState.UNRECOGNIZED : result;
       }
       /**
-       * <code>.ChapterState chapter_state = 50001;</code>
+       * <code>.ChapterState chapter_state = 4;</code>
        * @param value The chapterState to set.
        * @return This builder for chaining.
        */
@@ -1952,7 +1952,7 @@ public final class ChapterStateNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.ChapterState chapter_state = 50001;</code>
+       * <code>.ChapterState chapter_state = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearChapterState() {
@@ -1966,14 +1966,14 @@ public final class ChapterStateNotifyOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ChapterStateNotifyOuterClass.ChapterStateNotify.MDKJMILIFBA, emu.grasscutter.net.proto.ChapterStateNotifyOuterClass.ChapterStateNotify.MDKJMILIFBA.Builder, emu.grasscutter.net.proto.ChapterStateNotifyOuterClass.ChapterStateNotify.MDKJMILIFBAOrBuilder> mLBMNAKEEOMBuilder_;
       /**
-       * <code>.ChapterStateNotify.MDKJMILIFBA MLBMNAKEEOM = 50002;</code>
+       * <code>.ChapterStateNotify.MDKJMILIFBA MLBMNAKEEOM = 50001;</code>
        * @return Whether the mLBMNAKEEOM field is set.
        */
       public boolean hasMLBMNAKEEOM() {
         return mLBMNAKEEOMBuilder_ != null || mLBMNAKEEOM_ != null;
       }
       /**
-       * <code>.ChapterStateNotify.MDKJMILIFBA MLBMNAKEEOM = 50002;</code>
+       * <code>.ChapterStateNotify.MDKJMILIFBA MLBMNAKEEOM = 50001;</code>
        * @return The mLBMNAKEEOM.
        */
       public emu.grasscutter.net.proto.ChapterStateNotifyOuterClass.ChapterStateNotify.MDKJMILIFBA getMLBMNAKEEOM() {
@@ -1984,7 +1984,7 @@ public final class ChapterStateNotifyOuterClass {
         }
       }
       /**
-       * <code>.ChapterStateNotify.MDKJMILIFBA MLBMNAKEEOM = 50002;</code>
+       * <code>.ChapterStateNotify.MDKJMILIFBA MLBMNAKEEOM = 50001;</code>
        */
       public Builder setMLBMNAKEEOM(emu.grasscutter.net.proto.ChapterStateNotifyOuterClass.ChapterStateNotify.MDKJMILIFBA value) {
         if (mLBMNAKEEOMBuilder_ == null) {
@@ -2000,7 +2000,7 @@ public final class ChapterStateNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.ChapterStateNotify.MDKJMILIFBA MLBMNAKEEOM = 50002;</code>
+       * <code>.ChapterStateNotify.MDKJMILIFBA MLBMNAKEEOM = 50001;</code>
        */
       public Builder setMLBMNAKEEOM(
           emu.grasscutter.net.proto.ChapterStateNotifyOuterClass.ChapterStateNotify.MDKJMILIFBA.Builder builderForValue) {
@@ -2014,7 +2014,7 @@ public final class ChapterStateNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.ChapterStateNotify.MDKJMILIFBA MLBMNAKEEOM = 50002;</code>
+       * <code>.ChapterStateNotify.MDKJMILIFBA MLBMNAKEEOM = 50001;</code>
        */
       public Builder mergeMLBMNAKEEOM(emu.grasscutter.net.proto.ChapterStateNotifyOuterClass.ChapterStateNotify.MDKJMILIFBA value) {
         if (mLBMNAKEEOMBuilder_ == null) {
@@ -2032,7 +2032,7 @@ public final class ChapterStateNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.ChapterStateNotify.MDKJMILIFBA MLBMNAKEEOM = 50002;</code>
+       * <code>.ChapterStateNotify.MDKJMILIFBA MLBMNAKEEOM = 50001;</code>
        */
       public Builder clearMLBMNAKEEOM() {
         if (mLBMNAKEEOMBuilder_ == null) {
@@ -2046,7 +2046,7 @@ public final class ChapterStateNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.ChapterStateNotify.MDKJMILIFBA MLBMNAKEEOM = 50002;</code>
+       * <code>.ChapterStateNotify.MDKJMILIFBA MLBMNAKEEOM = 50001;</code>
        */
       public emu.grasscutter.net.proto.ChapterStateNotifyOuterClass.ChapterStateNotify.MDKJMILIFBA.Builder getMLBMNAKEEOMBuilder() {
         
@@ -2054,7 +2054,7 @@ public final class ChapterStateNotifyOuterClass {
         return getMLBMNAKEEOMFieldBuilder().getBuilder();
       }
       /**
-       * <code>.ChapterStateNotify.MDKJMILIFBA MLBMNAKEEOM = 50002;</code>
+       * <code>.ChapterStateNotify.MDKJMILIFBA MLBMNAKEEOM = 50001;</code>
        */
       public emu.grasscutter.net.proto.ChapterStateNotifyOuterClass.ChapterStateNotify.MDKJMILIFBAOrBuilder getMLBMNAKEEOMOrBuilder() {
         if (mLBMNAKEEOMBuilder_ != null) {
@@ -2065,7 +2065,7 @@ public final class ChapterStateNotifyOuterClass {
         }
       }
       /**
-       * <code>.ChapterStateNotify.MDKJMILIFBA MLBMNAKEEOM = 50002;</code>
+       * <code>.ChapterStateNotify.MDKJMILIFBA MLBMNAKEEOM = 50001;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ChapterStateNotifyOuterClass.ChapterStateNotify.MDKJMILIFBA, emu.grasscutter.net.proto.ChapterStateNotifyOuterClass.ChapterStateNotify.MDKJMILIFBA.Builder, emu.grasscutter.net.proto.ChapterStateNotifyOuterClass.ChapterStateNotify.MDKJMILIFBAOrBuilder> 
@@ -2158,16 +2158,16 @@ public final class ChapterStateNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\030ChapterStateNotify.proto\032\022ChapterState" +
-      ".proto\"\262\002\n\022ChapterStateNotify\0226\n\013EHKKFCA" +
+      ".proto\"\260\002\n\022ChapterStateNotify\0226\n\013EHKKFCA" +
       "GELK\030\320\206\003 \001(\0132\037.ChapterStateNotify.EFFIIM" +
-      "IDMPP\022\022\n\nchapter_id\030\t \001(\r\022&\n\rchapter_sta" +
-      "te\030\321\206\003 \001(\0162\r.ChapterState\0226\n\013MLBMNAKEEOM" +
-      "\030\322\206\003 \001(\0132\037.ChapterStateNotify.MDKJMILIFB" +
-      "A\0327\n\013MDKJMILIFBA\022\023\n\013ACHHOKJICHO\030\t \001(\r\022\023\n" +
-      "\013LAJGHCIGKIN\030\n \001(\010\0327\n\013EFFIIMIDMPP\022\023\n\013LAJ" +
-      "GHCIGKIN\030\003 \001(\010\022\023\n\013AGMLNDOMFNC\030\016 \001(\rB9\n\031e" +
-      "mu.grasscutter.net.protoB\034ChapterStateNo" +
-      "tifyOuterClassb\006proto3"
+      "IDMPP\022\022\n\nchapter_id\030\t \001(\r\022$\n\rchapter_sta" +
+      "te\030\004 \001(\0162\r.ChapterState\0226\n\013MLBMNAKEEOM\030\321" +
+      "\206\003 \001(\0132\037.ChapterStateNotify.MDKJMILIFBA\032" +
+      "7\n\013MDKJMILIFBA\022\023\n\013ACHHOKJICHO\030\t \001(\r\022\023\n\013L" +
+      "AJGHCIGKIN\030\n \001(\010\0327\n\013EFFIIMIDMPP\022\023\n\013LAJGH" +
+      "CIGKIN\030\003 \001(\010\022\023\n\013AGMLNDOMFNC\030\016 \001(\rB9\n\031emu" +
+      ".grasscutter.net.protoB\034ChapterStateNoti" +
+      "fyOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

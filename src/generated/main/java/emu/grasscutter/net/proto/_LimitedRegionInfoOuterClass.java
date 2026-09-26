@@ -19,17 +19,17 @@ public final class _LimitedRegionInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated uint32 _limited_region_list = 4;</code>
+     * <code>repeated uint32 _limited_region_list = 11;</code>
      * @return A list containing the limitedRegionList.
      */
     java.util.List<java.lang.Integer> getLimitedRegionListList();
     /**
-     * <code>repeated uint32 _limited_region_list = 4;</code>
+     * <code>repeated uint32 _limited_region_list = 11;</code>
      * @return The count of limitedRegionList.
      */
     int getLimitedRegionListCount();
     /**
-     * <code>repeated uint32 _limited_region_list = 4;</code>
+     * <code>repeated uint32 _limited_region_list = 11;</code>
      * @param index The index of the element to return.
      * @return The limitedRegionList at the given index.
      */
@@ -82,7 +82,7 @@ public final class _LimitedRegionInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 88: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 LimitedRegionList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -90,7 +90,7 @@ public final class _LimitedRegionInfoOuterClass {
               LimitedRegionList_.addInt(input.readUInt32());
               break;
             }
-            case 34: {
+            case 90: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -138,10 +138,10 @@ public final class _LimitedRegionInfoOuterClass {
               emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo.class, emu.grasscutter.net.proto._LimitedRegionInfoOuterClass._LimitedRegionInfo.Builder.class);
     }
 
-    public static final int _LIMITED_REGION_LIST_FIELD_NUMBER = 4;
+    public static final int _LIMITED_REGION_LIST_FIELD_NUMBER = 11;
     private com.google.protobuf.Internal.IntList LimitedRegionList_;
     /**
-     * <code>repeated uint32 _limited_region_list = 4;</code>
+     * <code>repeated uint32 _limited_region_list = 11;</code>
      * @return A list containing the limitedRegionList.
      */
     @java.lang.Override
@@ -150,14 +150,14 @@ public final class _LimitedRegionInfoOuterClass {
       return LimitedRegionList_;
     }
     /**
-     * <code>repeated uint32 _limited_region_list = 4;</code>
+     * <code>repeated uint32 _limited_region_list = 11;</code>
      * @return The count of limitedRegionList.
      */
     public int getLimitedRegionListCount() {
       return LimitedRegionList_.size();
     }
     /**
-     * <code>repeated uint32 _limited_region_list = 4;</code>
+     * <code>repeated uint32 _limited_region_list = 11;</code>
      * @param index The index of the element to return.
      * @return The limitedRegionList at the given index.
      */
@@ -182,7 +182,7 @@ public final class _LimitedRegionInfoOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (getLimitedRegionListList().size() > 0) {
-        output.writeUInt32NoTag(34);
+        output.writeUInt32NoTag(90);
         output.writeUInt32NoTag(LimitedRegionListMemoizedSerializedSize);
       }
       for (int i = 0; i < LimitedRegionList_.size(); i++) {
@@ -506,7 +506,7 @@ public final class _LimitedRegionInfoOuterClass {
          }
       }
       /**
-       * <code>repeated uint32 _limited_region_list = 4;</code>
+       * <code>repeated uint32 _limited_region_list = 11;</code>
        * @return A list containing the limitedRegionList.
        */
       public java.util.List<java.lang.Integer>
@@ -515,14 +515,14 @@ public final class _LimitedRegionInfoOuterClass {
                  java.util.Collections.unmodifiableList(LimitedRegionList_) : LimitedRegionList_;
       }
       /**
-       * <code>repeated uint32 _limited_region_list = 4;</code>
+       * <code>repeated uint32 _limited_region_list = 11;</code>
        * @return The count of limitedRegionList.
        */
       public int getLimitedRegionListCount() {
         return LimitedRegionList_.size();
       }
       /**
-       * <code>repeated uint32 _limited_region_list = 4;</code>
+       * <code>repeated uint32 _limited_region_list = 11;</code>
        * @param index The index of the element to return.
        * @return The limitedRegionList at the given index.
        */
@@ -530,7 +530,7 @@ public final class _LimitedRegionInfoOuterClass {
         return LimitedRegionList_.getInt(index);
       }
       /**
-       * <code>repeated uint32 _limited_region_list = 4;</code>
+       * <code>repeated uint32 _limited_region_list = 11;</code>
        * @param index The index to set the value at.
        * @param value The limitedRegionList to set.
        * @return This builder for chaining.
@@ -543,7 +543,7 @@ public final class _LimitedRegionInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 _limited_region_list = 4;</code>
+       * <code>repeated uint32 _limited_region_list = 11;</code>
        * @param value The limitedRegionList to add.
        * @return This builder for chaining.
        */
@@ -554,7 +554,7 @@ public final class _LimitedRegionInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 _limited_region_list = 4;</code>
+       * <code>repeated uint32 _limited_region_list = 11;</code>
        * @param values The limitedRegionList to add.
        * @return This builder for chaining.
        */
@@ -567,7 +567,7 @@ public final class _LimitedRegionInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated uint32 _limited_region_list = 4;</code>
+       * <code>repeated uint32 _limited_region_list = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearLimitedRegionList() {
@@ -644,7 +644,7 @@ public final class _LimitedRegionInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\030_LimitedRegionInfo.proto\"2\n\022_LimitedRe" +
-      "gionInfo\022\034\n\024_limited_region_list\030\004 \003(\rB9" +
+      "gionInfo\022\034\n\024_limited_region_list\030\013 \003(\rB9" +
       "\n\031emu.grasscutter.net.protoB\034_LimitedReg" +
       "ionInfoOuterClassb\006proto3"
     };

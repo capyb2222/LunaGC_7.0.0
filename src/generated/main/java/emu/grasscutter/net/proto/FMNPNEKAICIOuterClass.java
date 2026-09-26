@@ -19,25 +19,25 @@ public final class FMNPNEKAICIOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 level_id = 1;</code>
+     * <code>uint32 level_id = 7;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>bool ODDFFNIOBLN = 4;</code>
+     * <code>bool ODDFFNIOBLN = 50000;</code>
      * @return The oDDFFNIOBLN.
      */
     boolean getODDFFNIOBLN();
 
     /**
-     * <code>bool KLGNBKEEEIE = 7;</code>
+     * <code>bool KLGNBKEEEIE = 50001;</code>
      * @return The kLGNBKEEEIE.
      */
     boolean getKLGNBKEEEIE();
 
     /**
-     * <code>uint32 best_score = 11;</code>
+     * <code>uint32 best_score = 4;</code>
      * @return The bestScore.
      */
     int getBestScore();
@@ -87,24 +87,24 @@ public final class FMNPNEKAICIOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
-
-              levelId_ = input.readUInt32();
-              break;
-            }
             case 32: {
 
-              oDDFFNIOBLN_ = input.readBool();
+              bestScore_ = input.readUInt32();
               break;
             }
             case 56: {
 
-              kLGNBKEEEIE_ = input.readBool();
+              levelId_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 400000: {
 
-              bestScore_ = input.readUInt32();
+              oDDFFNIOBLN_ = input.readBool();
+              break;
+            }
+            case 400008: {
+
+              kLGNBKEEEIE_ = input.readBool();
               break;
             }
             default: {
@@ -139,10 +139,10 @@ public final class FMNPNEKAICIOuterClass {
               emu.grasscutter.net.proto.FMNPNEKAICIOuterClass.FMNPNEKAICI.class, emu.grasscutter.net.proto.FMNPNEKAICIOuterClass.FMNPNEKAICI.Builder.class);
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 1;
+    public static final int LEVEL_ID_FIELD_NUMBER = 7;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 1;</code>
+     * <code>uint32 level_id = 7;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class FMNPNEKAICIOuterClass {
       return levelId_;
     }
 
-    public static final int ODDFFNIOBLN_FIELD_NUMBER = 4;
+    public static final int ODDFFNIOBLN_FIELD_NUMBER = 50000;
     private boolean oDDFFNIOBLN_;
     /**
-     * <code>bool ODDFFNIOBLN = 4;</code>
+     * <code>bool ODDFFNIOBLN = 50000;</code>
      * @return The oDDFFNIOBLN.
      */
     @java.lang.Override
@@ -161,10 +161,10 @@ public final class FMNPNEKAICIOuterClass {
       return oDDFFNIOBLN_;
     }
 
-    public static final int KLGNBKEEEIE_FIELD_NUMBER = 7;
+    public static final int KLGNBKEEEIE_FIELD_NUMBER = 50001;
     private boolean kLGNBKEEEIE_;
     /**
-     * <code>bool KLGNBKEEEIE = 7;</code>
+     * <code>bool KLGNBKEEEIE = 50001;</code>
      * @return The kLGNBKEEEIE.
      */
     @java.lang.Override
@@ -172,10 +172,10 @@ public final class FMNPNEKAICIOuterClass {
       return kLGNBKEEEIE_;
     }
 
-    public static final int BEST_SCORE_FIELD_NUMBER = 11;
+    public static final int BEST_SCORE_FIELD_NUMBER = 4;
     private int bestScore_;
     /**
-     * <code>uint32 best_score = 11;</code>
+     * <code>uint32 best_score = 4;</code>
      * @return The bestScore.
      */
     @java.lang.Override
@@ -197,17 +197,17 @@ public final class FMNPNEKAICIOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (bestScore_ != 0) {
+        output.writeUInt32(4, bestScore_);
+      }
       if (levelId_ != 0) {
-        output.writeUInt32(1, levelId_);
+        output.writeUInt32(7, levelId_);
       }
       if (oDDFFNIOBLN_ != false) {
-        output.writeBool(4, oDDFFNIOBLN_);
+        output.writeBool(50000, oDDFFNIOBLN_);
       }
       if (kLGNBKEEEIE_ != false) {
-        output.writeBool(7, kLGNBKEEEIE_);
-      }
-      if (bestScore_ != 0) {
-        output.writeUInt32(11, bestScore_);
+        output.writeBool(50001, kLGNBKEEEIE_);
       }
       unknownFields.writeTo(output);
     }
@@ -218,21 +218,21 @@ public final class FMNPNEKAICIOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (bestScore_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(4, bestScore_);
+      }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, levelId_);
+          .computeUInt32Size(7, levelId_);
       }
       if (oDDFFNIOBLN_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(4, oDDFFNIOBLN_);
+          .computeBoolSize(50000, oDDFFNIOBLN_);
       }
       if (kLGNBKEEEIE_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(7, kLGNBKEEEIE_);
-      }
-      if (bestScore_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, bestScore_);
+          .computeBoolSize(50001, kLGNBKEEEIE_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -540,7 +540,7 @@ public final class FMNPNEKAICIOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 1;</code>
+       * <code>uint32 level_id = 7;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -548,7 +548,7 @@ public final class FMNPNEKAICIOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 1;</code>
+       * <code>uint32 level_id = 7;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -559,7 +559,7 @@ public final class FMNPNEKAICIOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 1;</code>
+       * <code>uint32 level_id = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -571,7 +571,7 @@ public final class FMNPNEKAICIOuterClass {
 
       private boolean oDDFFNIOBLN_ ;
       /**
-       * <code>bool ODDFFNIOBLN = 4;</code>
+       * <code>bool ODDFFNIOBLN = 50000;</code>
        * @return The oDDFFNIOBLN.
        */
       @java.lang.Override
@@ -579,7 +579,7 @@ public final class FMNPNEKAICIOuterClass {
         return oDDFFNIOBLN_;
       }
       /**
-       * <code>bool ODDFFNIOBLN = 4;</code>
+       * <code>bool ODDFFNIOBLN = 50000;</code>
        * @param value The oDDFFNIOBLN to set.
        * @return This builder for chaining.
        */
@@ -590,7 +590,7 @@ public final class FMNPNEKAICIOuterClass {
         return this;
       }
       /**
-       * <code>bool ODDFFNIOBLN = 4;</code>
+       * <code>bool ODDFFNIOBLN = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearODDFFNIOBLN() {
@@ -602,7 +602,7 @@ public final class FMNPNEKAICIOuterClass {
 
       private boolean kLGNBKEEEIE_ ;
       /**
-       * <code>bool KLGNBKEEEIE = 7;</code>
+       * <code>bool KLGNBKEEEIE = 50001;</code>
        * @return The kLGNBKEEEIE.
        */
       @java.lang.Override
@@ -610,7 +610,7 @@ public final class FMNPNEKAICIOuterClass {
         return kLGNBKEEEIE_;
       }
       /**
-       * <code>bool KLGNBKEEEIE = 7;</code>
+       * <code>bool KLGNBKEEEIE = 50001;</code>
        * @param value The kLGNBKEEEIE to set.
        * @return This builder for chaining.
        */
@@ -621,7 +621,7 @@ public final class FMNPNEKAICIOuterClass {
         return this;
       }
       /**
-       * <code>bool KLGNBKEEEIE = 7;</code>
+       * <code>bool KLGNBKEEEIE = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearKLGNBKEEEIE() {
@@ -633,7 +633,7 @@ public final class FMNPNEKAICIOuterClass {
 
       private int bestScore_ ;
       /**
-       * <code>uint32 best_score = 11;</code>
+       * <code>uint32 best_score = 4;</code>
        * @return The bestScore.
        */
       @java.lang.Override
@@ -641,7 +641,7 @@ public final class FMNPNEKAICIOuterClass {
         return bestScore_;
       }
       /**
-       * <code>uint32 best_score = 11;</code>
+       * <code>uint32 best_score = 4;</code>
        * @param value The bestScore to set.
        * @return This builder for chaining.
        */
@@ -652,7 +652,7 @@ public final class FMNPNEKAICIOuterClass {
         return this;
       }
       /**
-       * <code>uint32 best_score = 11;</code>
+       * <code>uint32 best_score = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearBestScore() {
@@ -728,11 +728,11 @@ public final class FMNPNEKAICIOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\021FMNPNEKAICI.proto\"]\n\013FMNPNEKAICI\022\020\n\010le" +
-      "vel_id\030\001 \001(\r\022\023\n\013ODDFFNIOBLN\030\004 \001(\010\022\023\n\013KLG" +
-      "NBKEEEIE\030\007 \001(\010\022\022\n\nbest_score\030\013 \001(\rB2\n\031em" +
-      "u.grasscutter.net.protoB\025FMNPNEKAICIOute" +
-      "rClassb\006proto3"
+      "\n\021FMNPNEKAICI.proto\"a\n\013FMNPNEKAICI\022\020\n\010le" +
+      "vel_id\030\007 \001(\r\022\025\n\013ODDFFNIOBLN\030\320\206\003 \001(\010\022\025\n\013K" +
+      "LGNBKEEEIE\030\321\206\003 \001(\010\022\022\n\nbest_score\030\004 \001(\rB2" +
+      "\n\031emu.grasscutter.net.protoB\025FMNPNEKAICI" +
+      "OuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

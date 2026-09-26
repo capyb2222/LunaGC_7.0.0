@@ -6,5 +6,5 @@ option java_outer_classname = "QuickTimeCombatDetailInfoOuterClass";
 import "ANLGBIKALMF.proto";
 
 message QuickTimeCombatDetailInfo {
-	repeated ANLGBIKALMF stage_info_list = 5;
+	repeated ANLGBIKALMF stage_info_list = 8;
 }

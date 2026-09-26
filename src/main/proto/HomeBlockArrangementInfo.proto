@@ -16,7 +16,7 @@ import "WeekendDjinnInfo.proto";
 message HomeBlockArrangementInfo {
 	repeated HomeFurnitureData persistent_furniture_list = 50000;
 	repeated HomeFurnitureGroupData furniture_group_list = 11;
-	repeated WeekendDjinnInfo weekend_djinn_info_list = 50001;
+	repeated WeekendDjinnInfo weekend_djinn_info_list = 1;
 	repeated HomeNpcData deploy_npc_list = 5;
 	repeated HomeFurnitureSuiteData furniture_suite_list = 13;
 	repeated HomeFurnitureCustomSuiteData furniture_custom_suite_list = 14;
@@ -25,6 +25,6 @@ message HomeBlockArrangementInfo {
 	repeated HomeBlockFieldData field_list = 12;
 	repeated HomeBlockDotPattern dot_pattern_list = 6;
 	repeated HomeAnimalData deploy_animal_list = 9;
-	repeated HomeFurnitureData deploy_furniure_list = 50002;
+	repeated HomeFurnitureData deploy_furniure_list = 50001;
 	uint32 block_id = 15;
 }

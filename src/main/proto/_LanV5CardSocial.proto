@@ -4,5 +4,5 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "_LanV5CardSocialOuterClass";
 
 message _LanV5CardSocial {
-	uint32 like_num = 2;
+	uint32 like_num = 7;
 }

@@ -19,25 +19,25 @@ public final class StaminaFightDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .KODIFCAOMEC level_info_list = 8;</code>
+     * <code>repeated .KODIFCAOMEC level_info_list = 9;</code>
      */
     java.util.List<emu.grasscutter.net.proto.KODIFCAOMECOuterClass.KODIFCAOMEC> 
         getLevelInfoListList();
     /**
-     * <code>repeated .KODIFCAOMEC level_info_list = 8;</code>
+     * <code>repeated .KODIFCAOMEC level_info_list = 9;</code>
      */
     emu.grasscutter.net.proto.KODIFCAOMECOuterClass.KODIFCAOMEC getLevelInfoList(int index);
     /**
-     * <code>repeated .KODIFCAOMEC level_info_list = 8;</code>
+     * <code>repeated .KODIFCAOMEC level_info_list = 9;</code>
      */
     int getLevelInfoListCount();
     /**
-     * <code>repeated .KODIFCAOMEC level_info_list = 8;</code>
+     * <code>repeated .KODIFCAOMEC level_info_list = 9;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.KODIFCAOMECOuterClass.KODIFCAOMECOrBuilder> 
         getLevelInfoListOrBuilderList();
     /**
-     * <code>repeated .KODIFCAOMEC level_info_list = 8;</code>
+     * <code>repeated .KODIFCAOMEC level_info_list = 9;</code>
      */
     emu.grasscutter.net.proto.KODIFCAOMECOuterClass.KODIFCAOMECOrBuilder getLevelInfoListOrBuilder(
         int index);
@@ -89,7 +89,7 @@ public final class StaminaFightDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 66: {
+            case 74: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 levelInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.KODIFCAOMECOuterClass.KODIFCAOMEC>();
                 mutable_bitField0_ |= 0x00000001;
@@ -133,17 +133,17 @@ public final class StaminaFightDetailInfoOuterClass {
               emu.grasscutter.net.proto.StaminaFightDetailInfoOuterClass.StaminaFightDetailInfo.class, emu.grasscutter.net.proto.StaminaFightDetailInfoOuterClass.StaminaFightDetailInfo.Builder.class);
     }
 
-    public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 8;
+    public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 9;
     private java.util.List<emu.grasscutter.net.proto.KODIFCAOMECOuterClass.KODIFCAOMEC> levelInfoList_;
     /**
-     * <code>repeated .KODIFCAOMEC level_info_list = 8;</code>
+     * <code>repeated .KODIFCAOMEC level_info_list = 9;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.KODIFCAOMECOuterClass.KODIFCAOMEC> getLevelInfoListList() {
       return levelInfoList_;
     }
     /**
-     * <code>repeated .KODIFCAOMEC level_info_list = 8;</code>
+     * <code>repeated .KODIFCAOMEC level_info_list = 9;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.KODIFCAOMECOuterClass.KODIFCAOMECOrBuilder> 
@@ -151,21 +151,21 @@ public final class StaminaFightDetailInfoOuterClass {
       return levelInfoList_;
     }
     /**
-     * <code>repeated .KODIFCAOMEC level_info_list = 8;</code>
+     * <code>repeated .KODIFCAOMEC level_info_list = 9;</code>
      */
     @java.lang.Override
     public int getLevelInfoListCount() {
       return levelInfoList_.size();
     }
     /**
-     * <code>repeated .KODIFCAOMEC level_info_list = 8;</code>
+     * <code>repeated .KODIFCAOMEC level_info_list = 9;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.KODIFCAOMECOuterClass.KODIFCAOMEC getLevelInfoList(int index) {
       return levelInfoList_.get(index);
     }
     /**
-     * <code>repeated .KODIFCAOMEC level_info_list = 8;</code>
+     * <code>repeated .KODIFCAOMEC level_info_list = 9;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.KODIFCAOMECOuterClass.KODIFCAOMECOrBuilder getLevelInfoListOrBuilder(
@@ -188,7 +188,7 @@ public final class StaminaFightDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < levelInfoList_.size(); i++) {
-        output.writeMessage(8, levelInfoList_.get(i));
+        output.writeMessage(9, levelInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -201,7 +201,7 @@ public final class StaminaFightDetailInfoOuterClass {
       size = 0;
       for (int i = 0; i < levelInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(8, levelInfoList_.get(i));
+          .computeMessageSize(9, levelInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -528,7 +528,7 @@ public final class StaminaFightDetailInfoOuterClass {
           emu.grasscutter.net.proto.KODIFCAOMECOuterClass.KODIFCAOMEC, emu.grasscutter.net.proto.KODIFCAOMECOuterClass.KODIFCAOMEC.Builder, emu.grasscutter.net.proto.KODIFCAOMECOuterClass.KODIFCAOMECOrBuilder> levelInfoListBuilder_;
 
       /**
-       * <code>repeated .KODIFCAOMEC level_info_list = 8;</code>
+       * <code>repeated .KODIFCAOMEC level_info_list = 9;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.KODIFCAOMECOuterClass.KODIFCAOMEC> getLevelInfoListList() {
         if (levelInfoListBuilder_ == null) {
@@ -538,7 +538,7 @@ public final class StaminaFightDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .KODIFCAOMEC level_info_list = 8;</code>
+       * <code>repeated .KODIFCAOMEC level_info_list = 9;</code>
        */
       public int getLevelInfoListCount() {
         if (levelInfoListBuilder_ == null) {
@@ -548,7 +548,7 @@ public final class StaminaFightDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .KODIFCAOMEC level_info_list = 8;</code>
+       * <code>repeated .KODIFCAOMEC level_info_list = 9;</code>
        */
       public emu.grasscutter.net.proto.KODIFCAOMECOuterClass.KODIFCAOMEC getLevelInfoList(int index) {
         if (levelInfoListBuilder_ == null) {
@@ -558,7 +558,7 @@ public final class StaminaFightDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .KODIFCAOMEC level_info_list = 8;</code>
+       * <code>repeated .KODIFCAOMEC level_info_list = 9;</code>
        */
       public Builder setLevelInfoList(
           int index, emu.grasscutter.net.proto.KODIFCAOMECOuterClass.KODIFCAOMEC value) {
@@ -575,7 +575,7 @@ public final class StaminaFightDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .KODIFCAOMEC level_info_list = 8;</code>
+       * <code>repeated .KODIFCAOMEC level_info_list = 9;</code>
        */
       public Builder setLevelInfoList(
           int index, emu.grasscutter.net.proto.KODIFCAOMECOuterClass.KODIFCAOMEC.Builder builderForValue) {
@@ -589,7 +589,7 @@ public final class StaminaFightDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .KODIFCAOMEC level_info_list = 8;</code>
+       * <code>repeated .KODIFCAOMEC level_info_list = 9;</code>
        */
       public Builder addLevelInfoList(emu.grasscutter.net.proto.KODIFCAOMECOuterClass.KODIFCAOMEC value) {
         if (levelInfoListBuilder_ == null) {
@@ -605,7 +605,7 @@ public final class StaminaFightDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .KODIFCAOMEC level_info_list = 8;</code>
+       * <code>repeated .KODIFCAOMEC level_info_list = 9;</code>
        */
       public Builder addLevelInfoList(
           int index, emu.grasscutter.net.proto.KODIFCAOMECOuterClass.KODIFCAOMEC value) {
@@ -622,7 +622,7 @@ public final class StaminaFightDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .KODIFCAOMEC level_info_list = 8;</code>
+       * <code>repeated .KODIFCAOMEC level_info_list = 9;</code>
        */
       public Builder addLevelInfoList(
           emu.grasscutter.net.proto.KODIFCAOMECOuterClass.KODIFCAOMEC.Builder builderForValue) {
@@ -636,7 +636,7 @@ public final class StaminaFightDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .KODIFCAOMEC level_info_list = 8;</code>
+       * <code>repeated .KODIFCAOMEC level_info_list = 9;</code>
        */
       public Builder addLevelInfoList(
           int index, emu.grasscutter.net.proto.KODIFCAOMECOuterClass.KODIFCAOMEC.Builder builderForValue) {
@@ -650,7 +650,7 @@ public final class StaminaFightDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .KODIFCAOMEC level_info_list = 8;</code>
+       * <code>repeated .KODIFCAOMEC level_info_list = 9;</code>
        */
       public Builder addAllLevelInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.KODIFCAOMECOuterClass.KODIFCAOMEC> values) {
@@ -665,7 +665,7 @@ public final class StaminaFightDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .KODIFCAOMEC level_info_list = 8;</code>
+       * <code>repeated .KODIFCAOMEC level_info_list = 9;</code>
        */
       public Builder clearLevelInfoList() {
         if (levelInfoListBuilder_ == null) {
@@ -678,7 +678,7 @@ public final class StaminaFightDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .KODIFCAOMEC level_info_list = 8;</code>
+       * <code>repeated .KODIFCAOMEC level_info_list = 9;</code>
        */
       public Builder removeLevelInfoList(int index) {
         if (levelInfoListBuilder_ == null) {
@@ -691,14 +691,14 @@ public final class StaminaFightDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .KODIFCAOMEC level_info_list = 8;</code>
+       * <code>repeated .KODIFCAOMEC level_info_list = 9;</code>
        */
       public emu.grasscutter.net.proto.KODIFCAOMECOuterClass.KODIFCAOMEC.Builder getLevelInfoListBuilder(
           int index) {
         return getLevelInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .KODIFCAOMEC level_info_list = 8;</code>
+       * <code>repeated .KODIFCAOMEC level_info_list = 9;</code>
        */
       public emu.grasscutter.net.proto.KODIFCAOMECOuterClass.KODIFCAOMECOrBuilder getLevelInfoListOrBuilder(
           int index) {
@@ -708,7 +708,7 @@ public final class StaminaFightDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .KODIFCAOMEC level_info_list = 8;</code>
+       * <code>repeated .KODIFCAOMEC level_info_list = 9;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.KODIFCAOMECOuterClass.KODIFCAOMECOrBuilder> 
            getLevelInfoListOrBuilderList() {
@@ -719,14 +719,14 @@ public final class StaminaFightDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .KODIFCAOMEC level_info_list = 8;</code>
+       * <code>repeated .KODIFCAOMEC level_info_list = 9;</code>
        */
       public emu.grasscutter.net.proto.KODIFCAOMECOuterClass.KODIFCAOMEC.Builder addLevelInfoListBuilder() {
         return getLevelInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.KODIFCAOMECOuterClass.KODIFCAOMEC.getDefaultInstance());
       }
       /**
-       * <code>repeated .KODIFCAOMEC level_info_list = 8;</code>
+       * <code>repeated .KODIFCAOMEC level_info_list = 9;</code>
        */
       public emu.grasscutter.net.proto.KODIFCAOMECOuterClass.KODIFCAOMEC.Builder addLevelInfoListBuilder(
           int index) {
@@ -734,7 +734,7 @@ public final class StaminaFightDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.KODIFCAOMECOuterClass.KODIFCAOMEC.getDefaultInstance());
       }
       /**
-       * <code>repeated .KODIFCAOMEC level_info_list = 8;</code>
+       * <code>repeated .KODIFCAOMEC level_info_list = 9;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.KODIFCAOMECOuterClass.KODIFCAOMEC.Builder> 
            getLevelInfoListBuilderList() {
@@ -823,7 +823,7 @@ public final class StaminaFightDetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034StaminaFightDetailInfo.proto\032\021KODIFCAO" +
       "MEC.proto\"?\n\026StaminaFightDetailInfo\022%\n\017l" +
-      "evel_info_list\030\010 \003(\0132\014.KODIFCAOMECB=\n\031em" +
+      "evel_info_list\030\t \003(\0132\014.KODIFCAOMECB=\n\031em" +
       "u.grasscutter.net.protoB StaminaFightDet" +
       "ailInfoOuterClassb\006proto3"
     };

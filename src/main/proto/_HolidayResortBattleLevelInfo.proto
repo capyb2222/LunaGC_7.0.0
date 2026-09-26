@@ -6,5 +6,5 @@ option java_outer_classname = "_HolidayResortBattleLevelInfoOuterClass";
 import "_ActivityAvatarInfo.proto";
 
 message _HolidayResortBattleLevelInfo {
-	repeated _ActivityAvatarInfo avatar_list = 10;
+	repeated _ActivityAvatarInfo avatar_list = 9;
 }

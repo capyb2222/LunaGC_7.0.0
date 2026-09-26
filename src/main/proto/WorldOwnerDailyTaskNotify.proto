@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+option java_outer_classname = "WorldOwnerDailyTaskNotifyOuterClass";
+
+import "DailyTaskInfo.proto";
+
+message WorldOwnerDailyTaskNotify {
+	repeated DailyTaskInfo task_list = 3;
+	uint32 filter_city_id = 15;
+	uint32 finished_daily_task_num = 5;
+}

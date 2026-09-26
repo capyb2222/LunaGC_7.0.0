@@ -19,19 +19,19 @@ public final class DungeonEntryToBeExploreNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 dungeon_entry_config_id = 4;</code>
+     * <code>uint32 dungeon_entry_config_id = 3;</code>
      * @return The dungeonEntryConfigId.
      */
     int getDungeonEntryConfigId();
 
     /**
-     * <code>uint32 scene_id = 5;</code>
+     * <code>uint32 scene_id = 10;</code>
      * @return The sceneId.
      */
     int getSceneId();
 
     /**
-     * <code>uint32 dungeon_entry_scene_point_id = 6;</code>
+     * <code>uint32 dungeon_entry_scene_point_id = 11;</code>
      * @return The dungeonEntryScenePointId.
      */
     int getDungeonEntryScenePointId();
@@ -81,17 +81,17 @@ public final class DungeonEntryToBeExploreNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 24: {
 
               dungeonEntryConfigId_ = input.readUInt32();
               break;
             }
-            case 40: {
+            case 80: {
 
               sceneId_ = input.readUInt32();
               break;
             }
-            case 48: {
+            case 88: {
 
               dungeonEntryScenePointId_ = input.readUInt32();
               break;
@@ -128,10 +128,10 @@ public final class DungeonEntryToBeExploreNotifyOuterClass {
               emu.grasscutter.net.proto.DungeonEntryToBeExploreNotifyOuterClass.DungeonEntryToBeExploreNotify.class, emu.grasscutter.net.proto.DungeonEntryToBeExploreNotifyOuterClass.DungeonEntryToBeExploreNotify.Builder.class);
     }
 
-    public static final int DUNGEON_ENTRY_CONFIG_ID_FIELD_NUMBER = 4;
+    public static final int DUNGEON_ENTRY_CONFIG_ID_FIELD_NUMBER = 3;
     private int dungeonEntryConfigId_;
     /**
-     * <code>uint32 dungeon_entry_config_id = 4;</code>
+     * <code>uint32 dungeon_entry_config_id = 3;</code>
      * @return The dungeonEntryConfigId.
      */
     @java.lang.Override
@@ -139,10 +139,10 @@ public final class DungeonEntryToBeExploreNotifyOuterClass {
       return dungeonEntryConfigId_;
     }
 
-    public static final int SCENE_ID_FIELD_NUMBER = 5;
+    public static final int SCENE_ID_FIELD_NUMBER = 10;
     private int sceneId_;
     /**
-     * <code>uint32 scene_id = 5;</code>
+     * <code>uint32 scene_id = 10;</code>
      * @return The sceneId.
      */
     @java.lang.Override
@@ -150,10 +150,10 @@ public final class DungeonEntryToBeExploreNotifyOuterClass {
       return sceneId_;
     }
 
-    public static final int DUNGEON_ENTRY_SCENE_POINT_ID_FIELD_NUMBER = 6;
+    public static final int DUNGEON_ENTRY_SCENE_POINT_ID_FIELD_NUMBER = 11;
     private int dungeonEntryScenePointId_;
     /**
-     * <code>uint32 dungeon_entry_scene_point_id = 6;</code>
+     * <code>uint32 dungeon_entry_scene_point_id = 11;</code>
      * @return The dungeonEntryScenePointId.
      */
     @java.lang.Override
@@ -176,13 +176,13 @@ public final class DungeonEntryToBeExploreNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (dungeonEntryConfigId_ != 0) {
-        output.writeUInt32(4, dungeonEntryConfigId_);
+        output.writeUInt32(3, dungeonEntryConfigId_);
       }
       if (sceneId_ != 0) {
-        output.writeUInt32(5, sceneId_);
+        output.writeUInt32(10, sceneId_);
       }
       if (dungeonEntryScenePointId_ != 0) {
-        output.writeUInt32(6, dungeonEntryScenePointId_);
+        output.writeUInt32(11, dungeonEntryScenePointId_);
       }
       unknownFields.writeTo(output);
     }
@@ -195,15 +195,15 @@ public final class DungeonEntryToBeExploreNotifyOuterClass {
       size = 0;
       if (dungeonEntryConfigId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, dungeonEntryConfigId_);
+          .computeUInt32Size(3, dungeonEntryConfigId_);
       }
       if (sceneId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, sceneId_);
+          .computeUInt32Size(10, sceneId_);
       }
       if (dungeonEntryScenePointId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, dungeonEntryScenePointId_);
+          .computeUInt32Size(11, dungeonEntryScenePointId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -499,7 +499,7 @@ public final class DungeonEntryToBeExploreNotifyOuterClass {
 
       private int dungeonEntryConfigId_ ;
       /**
-       * <code>uint32 dungeon_entry_config_id = 4;</code>
+       * <code>uint32 dungeon_entry_config_id = 3;</code>
        * @return The dungeonEntryConfigId.
        */
       @java.lang.Override
@@ -507,7 +507,7 @@ public final class DungeonEntryToBeExploreNotifyOuterClass {
         return dungeonEntryConfigId_;
       }
       /**
-       * <code>uint32 dungeon_entry_config_id = 4;</code>
+       * <code>uint32 dungeon_entry_config_id = 3;</code>
        * @param value The dungeonEntryConfigId to set.
        * @return This builder for chaining.
        */
@@ -518,7 +518,7 @@ public final class DungeonEntryToBeExploreNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 dungeon_entry_config_id = 4;</code>
+       * <code>uint32 dungeon_entry_config_id = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearDungeonEntryConfigId() {
@@ -530,7 +530,7 @@ public final class DungeonEntryToBeExploreNotifyOuterClass {
 
       private int sceneId_ ;
       /**
-       * <code>uint32 scene_id = 5;</code>
+       * <code>uint32 scene_id = 10;</code>
        * @return The sceneId.
        */
       @java.lang.Override
@@ -538,7 +538,7 @@ public final class DungeonEntryToBeExploreNotifyOuterClass {
         return sceneId_;
       }
       /**
-       * <code>uint32 scene_id = 5;</code>
+       * <code>uint32 scene_id = 10;</code>
        * @param value The sceneId to set.
        * @return This builder for chaining.
        */
@@ -549,7 +549,7 @@ public final class DungeonEntryToBeExploreNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 scene_id = 5;</code>
+       * <code>uint32 scene_id = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearSceneId() {
@@ -561,7 +561,7 @@ public final class DungeonEntryToBeExploreNotifyOuterClass {
 
       private int dungeonEntryScenePointId_ ;
       /**
-       * <code>uint32 dungeon_entry_scene_point_id = 6;</code>
+       * <code>uint32 dungeon_entry_scene_point_id = 11;</code>
        * @return The dungeonEntryScenePointId.
        */
       @java.lang.Override
@@ -569,7 +569,7 @@ public final class DungeonEntryToBeExploreNotifyOuterClass {
         return dungeonEntryScenePointId_;
       }
       /**
-       * <code>uint32 dungeon_entry_scene_point_id = 6;</code>
+       * <code>uint32 dungeon_entry_scene_point_id = 11;</code>
        * @param value The dungeonEntryScenePointId to set.
        * @return This builder for chaining.
        */
@@ -580,7 +580,7 @@ public final class DungeonEntryToBeExploreNotifyOuterClass {
         return this;
       }
       /**
-       * <code>uint32 dungeon_entry_scene_point_id = 6;</code>
+       * <code>uint32 dungeon_entry_scene_point_id = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearDungeonEntryScenePointId() {
@@ -658,8 +658,8 @@ public final class DungeonEntryToBeExploreNotifyOuterClass {
     java.lang.String[] descriptorData = {
       "\n#DungeonEntryToBeExploreNotify.proto\"x\n" +
       "\035DungeonEntryToBeExploreNotify\022\037\n\027dungeo" +
-      "n_entry_config_id\030\004 \001(\r\022\020\n\010scene_id\030\005 \001(" +
-      "\r\022$\n\034dungeon_entry_scene_point_id\030\006 \001(\rB" +
+      "n_entry_config_id\030\003 \001(\r\022\020\n\010scene_id\030\n \001(" +
+      "\r\022$\n\034dungeon_entry_scene_point_id\030\013 \001(\rB" +
       "D\n\031emu.grasscutter.net.protoB\'DungeonEnt" +
       "ryToBeExploreNotifyOuterClassb\006proto3"
     };

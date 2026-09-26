@@ -6,5 +6,5 @@ option java_outer_classname = "AbilityMetaReInitOverrideMapOuterClass";
 import "AbilityScalarValueEntry.proto";
 
 message AbilityMetaReInitOverrideMap {
-	repeated AbilityScalarValueEntry override_map = 8;
+	repeated AbilityScalarValueEntry override_map = 13;
 }

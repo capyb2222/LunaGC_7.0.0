@@ -19,7 +19,7 @@ public final class FIEHCAPFKFIOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 npc_id = 8;</code>
+     * <code>uint32 npc_id = 10;</code>
      * @return The npcId.
      */
     int getNpcId();
@@ -69,7 +69,7 @@ public final class FIEHCAPFKFIOuterClass {
             case 0:
               done = true;
               break;
-            case 64: {
+            case 80: {
 
               npcId_ = input.readUInt32();
               break;
@@ -106,10 +106,10 @@ public final class FIEHCAPFKFIOuterClass {
               emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFI.class, emu.grasscutter.net.proto.FIEHCAPFKFIOuterClass.FIEHCAPFKFI.Builder.class);
     }
 
-    public static final int NPC_ID_FIELD_NUMBER = 8;
+    public static final int NPC_ID_FIELD_NUMBER = 10;
     private int npcId_;
     /**
-     * <code>uint32 npc_id = 8;</code>
+     * <code>uint32 npc_id = 10;</code>
      * @return The npcId.
      */
     @java.lang.Override
@@ -132,7 +132,7 @@ public final class FIEHCAPFKFIOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (npcId_ != 0) {
-        output.writeUInt32(8, npcId_);
+        output.writeUInt32(10, npcId_);
       }
       unknownFields.writeTo(output);
     }
@@ -145,7 +145,7 @@ public final class FIEHCAPFKFIOuterClass {
       size = 0;
       if (npcId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, npcId_);
+          .computeUInt32Size(10, npcId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -421,7 +421,7 @@ public final class FIEHCAPFKFIOuterClass {
 
       private int npcId_ ;
       /**
-       * <code>uint32 npc_id = 8;</code>
+       * <code>uint32 npc_id = 10;</code>
        * @return The npcId.
        */
       @java.lang.Override
@@ -429,7 +429,7 @@ public final class FIEHCAPFKFIOuterClass {
         return npcId_;
       }
       /**
-       * <code>uint32 npc_id = 8;</code>
+       * <code>uint32 npc_id = 10;</code>
        * @param value The npcId to set.
        * @return This builder for chaining.
        */
@@ -440,7 +440,7 @@ public final class FIEHCAPFKFIOuterClass {
         return this;
       }
       /**
-       * <code>uint32 npc_id = 8;</code>
+       * <code>uint32 npc_id = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearNpcId() {
@@ -517,7 +517,7 @@ public final class FIEHCAPFKFIOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\021FIEHCAPFKFI.proto\"\035\n\013FIEHCAPFKFI\022\016\n\006np" +
-      "c_id\030\010 \001(\rB2\n\031emu.grasscutter.net.protoB" +
+      "c_id\030\n \001(\rB2\n\031emu.grasscutter.net.protoB" +
       "\025FIEHCAPFKFIOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

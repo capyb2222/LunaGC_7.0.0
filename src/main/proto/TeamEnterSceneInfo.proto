@@ -11,7 +11,7 @@ import "ILFPMCGGMOA.proto";
 message TeamEnterSceneInfo {
 	AbilityControlBlock ability_control_block = 5;
 	AbilitySyncStateInfo team_ability_info = 10;
-	float FOMPMBNENPH = 8;
+	float _value = 8;
 	repeated IDAKPKNODGC JFAHOBMFLFE = 11;
 	ILFPMCGGMOA KAHECAKOMLD = 2;
 	uint32 team_entity_id = 3;

@@ -17,5 +17,5 @@ message AsterActivityDetailInfo {
 	uint32 DGBIKMCIGLN = 50001;
 	AsterLargeDetailInfo aster_large = 6;
 	bool is_content_closed = 11;
-	AsterProgressDetailInfo aster_progress = 50002;
+	AsterProgressDetailInfo aster_progress = 15;
 }

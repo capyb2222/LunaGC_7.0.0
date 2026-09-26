@@ -4,5 +4,5 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "_LimitedRegionInfoOuterClass";
 
 message _LimitedRegionInfo {
-	repeated uint32 _limited_region_list = 4;
+	repeated uint32 _limited_region_list = 11;
 }

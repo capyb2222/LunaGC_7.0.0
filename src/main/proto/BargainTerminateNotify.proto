@@ -4,5 +4,5 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "BargainTerminateNotifyOuterClass";
 
 message BargainTerminateNotify {
-	uint32 bargain_id = 13;
+	uint32 bargain_id = 12;
 }

@@ -7,8 +7,8 @@ import "DBKDCMPAGEG.proto";
 
 message NHCBLLBBFMI {
 	uint32 level_id = 1;
-	bool is_finish = 5;
-	bool is_open = 8;
-	uint32 score = 11;
-	DBKDCMPAGEG BFLGEJHJKKC = 15;
+	bool is_finish = 8;
+	bool is_open = 7;
+	uint32 score = 15;
+	DBKDCMPAGEG BFLGEJHJKKC = 2;
 }

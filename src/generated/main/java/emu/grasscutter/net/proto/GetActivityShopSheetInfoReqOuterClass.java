@@ -19,7 +19,7 @@ public final class GetActivityShopSheetInfoReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 shop_type = 12;</code>
+     * <code>uint32 shop_type = 15;</code>
      * @return The shopType.
      */
     int getShopType();
@@ -69,7 +69,7 @@ public final class GetActivityShopSheetInfoReqOuterClass {
             case 0:
               done = true;
               break;
-            case 96: {
+            case 120: {
 
               shopType_ = input.readUInt32();
               break;
@@ -106,10 +106,10 @@ public final class GetActivityShopSheetInfoReqOuterClass {
               emu.grasscutter.net.proto.GetActivityShopSheetInfoReqOuterClass.GetActivityShopSheetInfoReq.class, emu.grasscutter.net.proto.GetActivityShopSheetInfoReqOuterClass.GetActivityShopSheetInfoReq.Builder.class);
     }
 
-    public static final int SHOP_TYPE_FIELD_NUMBER = 12;
+    public static final int SHOP_TYPE_FIELD_NUMBER = 15;
     private int shopType_;
     /**
-     * <code>uint32 shop_type = 12;</code>
+     * <code>uint32 shop_type = 15;</code>
      * @return The shopType.
      */
     @java.lang.Override
@@ -132,7 +132,7 @@ public final class GetActivityShopSheetInfoReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (shopType_ != 0) {
-        output.writeUInt32(12, shopType_);
+        output.writeUInt32(15, shopType_);
       }
       unknownFields.writeTo(output);
     }
@@ -145,7 +145,7 @@ public final class GetActivityShopSheetInfoReqOuterClass {
       size = 0;
       if (shopType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, shopType_);
+          .computeUInt32Size(15, shopType_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -421,7 +421,7 @@ public final class GetActivityShopSheetInfoReqOuterClass {
 
       private int shopType_ ;
       /**
-       * <code>uint32 shop_type = 12;</code>
+       * <code>uint32 shop_type = 15;</code>
        * @return The shopType.
        */
       @java.lang.Override
@@ -429,7 +429,7 @@ public final class GetActivityShopSheetInfoReqOuterClass {
         return shopType_;
       }
       /**
-       * <code>uint32 shop_type = 12;</code>
+       * <code>uint32 shop_type = 15;</code>
        * @param value The shopType to set.
        * @return This builder for chaining.
        */
@@ -440,7 +440,7 @@ public final class GetActivityShopSheetInfoReqOuterClass {
         return this;
       }
       /**
-       * <code>uint32 shop_type = 12;</code>
+       * <code>uint32 shop_type = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearShopType() {
@@ -518,7 +518,7 @@ public final class GetActivityShopSheetInfoReqOuterClass {
     java.lang.String[] descriptorData = {
       "\n!GetActivityShopSheetInfoReq.proto\"0\n\033G" +
       "etActivityShopSheetInfoReq\022\021\n\tshop_type\030" +
-      "\014 \001(\rBB\n\031emu.grasscutter.net.protoB%GetA" +
+      "\017 \001(\rBB\n\031emu.grasscutter.net.protoB%GetA" +
       "ctivityShopSheetInfoReqOuterClassb\006proto" +
       "3"
     };

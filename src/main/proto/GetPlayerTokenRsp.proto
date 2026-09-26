@@ -44,7 +44,7 @@ message GetPlayerTokenRsp {
 	string client_ip_str = 1603;
 	string game_biz = 1198;
 	string authkey = 844;
-	string KONDBANCCAH = 1856;
+	string _client_version = 1856;
 	uint32 key_id = 427;
 	uint32 sign_type = 50011;
 }

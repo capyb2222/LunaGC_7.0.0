@@ -19,31 +19,31 @@ public final class _GoalChallengeDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 AFLBMHKMOEF = 2;</code>
+     * <code>uint32 AFLBMHKMOEF = 12;</code>
      * @return The aFLBMHKMOEF.
      */
     int getAFLBMHKMOEF();
 
     /**
-     * <code>repeated .CCINMGMEJBN stage_info_list = 15;</code>
+     * <code>repeated .CCINMGMEJBN stage_info_list = 7;</code>
      */
     java.util.List<emu.grasscutter.net.proto.CCINMGMEJBNOuterClass.CCINMGMEJBN> 
         getStageInfoListList();
     /**
-     * <code>repeated .CCINMGMEJBN stage_info_list = 15;</code>
+     * <code>repeated .CCINMGMEJBN stage_info_list = 7;</code>
      */
     emu.grasscutter.net.proto.CCINMGMEJBNOuterClass.CCINMGMEJBN getStageInfoList(int index);
     /**
-     * <code>repeated .CCINMGMEJBN stage_info_list = 15;</code>
+     * <code>repeated .CCINMGMEJBN stage_info_list = 7;</code>
      */
     int getStageInfoListCount();
     /**
-     * <code>repeated .CCINMGMEJBN stage_info_list = 15;</code>
+     * <code>repeated .CCINMGMEJBN stage_info_list = 7;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.CCINMGMEJBNOuterClass.CCINMGMEJBNOrBuilder> 
         getStageInfoListOrBuilderList();
     /**
-     * <code>repeated .CCINMGMEJBN stage_info_list = 15;</code>
+     * <code>repeated .CCINMGMEJBN stage_info_list = 7;</code>
      */
     emu.grasscutter.net.proto.CCINMGMEJBNOuterClass.CCINMGMEJBNOrBuilder getStageInfoListOrBuilder(
         int index);
@@ -95,18 +95,18 @@ public final class _GoalChallengeDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
-
-              aFLBMHKMOEF_ = input.readUInt32();
-              break;
-            }
-            case 122: {
+            case 58: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 stageInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.CCINMGMEJBNOuterClass.CCINMGMEJBN>();
                 mutable_bitField0_ |= 0x00000001;
               }
               stageInfoList_.add(
                   input.readMessage(emu.grasscutter.net.proto.CCINMGMEJBNOuterClass.CCINMGMEJBN.parser(), extensionRegistry));
+              break;
+            }
+            case 96: {
+
+              aFLBMHKMOEF_ = input.readUInt32();
               break;
             }
             default: {
@@ -144,10 +144,10 @@ public final class _GoalChallengeDetailInfoOuterClass {
               emu.grasscutter.net.proto._GoalChallengeDetailInfoOuterClass._GoalChallengeDetailInfo.class, emu.grasscutter.net.proto._GoalChallengeDetailInfoOuterClass._GoalChallengeDetailInfo.Builder.class);
     }
 
-    public static final int AFLBMHKMOEF_FIELD_NUMBER = 2;
+    public static final int AFLBMHKMOEF_FIELD_NUMBER = 12;
     private int aFLBMHKMOEF_;
     /**
-     * <code>uint32 AFLBMHKMOEF = 2;</code>
+     * <code>uint32 AFLBMHKMOEF = 12;</code>
      * @return The aFLBMHKMOEF.
      */
     @java.lang.Override
@@ -155,17 +155,17 @@ public final class _GoalChallengeDetailInfoOuterClass {
       return aFLBMHKMOEF_;
     }
 
-    public static final int STAGE_INFO_LIST_FIELD_NUMBER = 15;
+    public static final int STAGE_INFO_LIST_FIELD_NUMBER = 7;
     private java.util.List<emu.grasscutter.net.proto.CCINMGMEJBNOuterClass.CCINMGMEJBN> stageInfoList_;
     /**
-     * <code>repeated .CCINMGMEJBN stage_info_list = 15;</code>
+     * <code>repeated .CCINMGMEJBN stage_info_list = 7;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.CCINMGMEJBNOuterClass.CCINMGMEJBN> getStageInfoListList() {
       return stageInfoList_;
     }
     /**
-     * <code>repeated .CCINMGMEJBN stage_info_list = 15;</code>
+     * <code>repeated .CCINMGMEJBN stage_info_list = 7;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.CCINMGMEJBNOuterClass.CCINMGMEJBNOrBuilder> 
@@ -173,21 +173,21 @@ public final class _GoalChallengeDetailInfoOuterClass {
       return stageInfoList_;
     }
     /**
-     * <code>repeated .CCINMGMEJBN stage_info_list = 15;</code>
+     * <code>repeated .CCINMGMEJBN stage_info_list = 7;</code>
      */
     @java.lang.Override
     public int getStageInfoListCount() {
       return stageInfoList_.size();
     }
     /**
-     * <code>repeated .CCINMGMEJBN stage_info_list = 15;</code>
+     * <code>repeated .CCINMGMEJBN stage_info_list = 7;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.CCINMGMEJBNOuterClass.CCINMGMEJBN getStageInfoList(int index) {
       return stageInfoList_.get(index);
     }
     /**
-     * <code>repeated .CCINMGMEJBN stage_info_list = 15;</code>
+     * <code>repeated .CCINMGMEJBN stage_info_list = 7;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.CCINMGMEJBNOuterClass.CCINMGMEJBNOrBuilder getStageInfoListOrBuilder(
@@ -209,11 +209,11 @@ public final class _GoalChallengeDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (aFLBMHKMOEF_ != 0) {
-        output.writeUInt32(2, aFLBMHKMOEF_);
-      }
       for (int i = 0; i < stageInfoList_.size(); i++) {
-        output.writeMessage(15, stageInfoList_.get(i));
+        output.writeMessage(7, stageInfoList_.get(i));
+      }
+      if (aFLBMHKMOEF_ != 0) {
+        output.writeUInt32(12, aFLBMHKMOEF_);
       }
       unknownFields.writeTo(output);
     }
@@ -224,13 +224,13 @@ public final class _GoalChallengeDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (aFLBMHKMOEF_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, aFLBMHKMOEF_);
-      }
       for (int i = 0; i < stageInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, stageInfoList_.get(i));
+          .computeMessageSize(7, stageInfoList_.get(i));
+      }
+      if (aFLBMHKMOEF_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(12, aFLBMHKMOEF_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -556,7 +556,7 @@ public final class _GoalChallengeDetailInfoOuterClass {
 
       private int aFLBMHKMOEF_ ;
       /**
-       * <code>uint32 AFLBMHKMOEF = 2;</code>
+       * <code>uint32 AFLBMHKMOEF = 12;</code>
        * @return The aFLBMHKMOEF.
        */
       @java.lang.Override
@@ -564,7 +564,7 @@ public final class _GoalChallengeDetailInfoOuterClass {
         return aFLBMHKMOEF_;
       }
       /**
-       * <code>uint32 AFLBMHKMOEF = 2;</code>
+       * <code>uint32 AFLBMHKMOEF = 12;</code>
        * @param value The aFLBMHKMOEF to set.
        * @return This builder for chaining.
        */
@@ -575,7 +575,7 @@ public final class _GoalChallengeDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 AFLBMHKMOEF = 2;</code>
+       * <code>uint32 AFLBMHKMOEF = 12;</code>
        * @return This builder for chaining.
        */
       public Builder clearAFLBMHKMOEF() {
@@ -598,7 +598,7 @@ public final class _GoalChallengeDetailInfoOuterClass {
           emu.grasscutter.net.proto.CCINMGMEJBNOuterClass.CCINMGMEJBN, emu.grasscutter.net.proto.CCINMGMEJBNOuterClass.CCINMGMEJBN.Builder, emu.grasscutter.net.proto.CCINMGMEJBNOuterClass.CCINMGMEJBNOrBuilder> stageInfoListBuilder_;
 
       /**
-       * <code>repeated .CCINMGMEJBN stage_info_list = 15;</code>
+       * <code>repeated .CCINMGMEJBN stage_info_list = 7;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.CCINMGMEJBNOuterClass.CCINMGMEJBN> getStageInfoListList() {
         if (stageInfoListBuilder_ == null) {
@@ -608,7 +608,7 @@ public final class _GoalChallengeDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .CCINMGMEJBN stage_info_list = 15;</code>
+       * <code>repeated .CCINMGMEJBN stage_info_list = 7;</code>
        */
       public int getStageInfoListCount() {
         if (stageInfoListBuilder_ == null) {
@@ -618,7 +618,7 @@ public final class _GoalChallengeDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .CCINMGMEJBN stage_info_list = 15;</code>
+       * <code>repeated .CCINMGMEJBN stage_info_list = 7;</code>
        */
       public emu.grasscutter.net.proto.CCINMGMEJBNOuterClass.CCINMGMEJBN getStageInfoList(int index) {
         if (stageInfoListBuilder_ == null) {
@@ -628,7 +628,7 @@ public final class _GoalChallengeDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .CCINMGMEJBN stage_info_list = 15;</code>
+       * <code>repeated .CCINMGMEJBN stage_info_list = 7;</code>
        */
       public Builder setStageInfoList(
           int index, emu.grasscutter.net.proto.CCINMGMEJBNOuterClass.CCINMGMEJBN value) {
@@ -645,7 +645,7 @@ public final class _GoalChallengeDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CCINMGMEJBN stage_info_list = 15;</code>
+       * <code>repeated .CCINMGMEJBN stage_info_list = 7;</code>
        */
       public Builder setStageInfoList(
           int index, emu.grasscutter.net.proto.CCINMGMEJBNOuterClass.CCINMGMEJBN.Builder builderForValue) {
@@ -659,7 +659,7 @@ public final class _GoalChallengeDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CCINMGMEJBN stage_info_list = 15;</code>
+       * <code>repeated .CCINMGMEJBN stage_info_list = 7;</code>
        */
       public Builder addStageInfoList(emu.grasscutter.net.proto.CCINMGMEJBNOuterClass.CCINMGMEJBN value) {
         if (stageInfoListBuilder_ == null) {
@@ -675,7 +675,7 @@ public final class _GoalChallengeDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CCINMGMEJBN stage_info_list = 15;</code>
+       * <code>repeated .CCINMGMEJBN stage_info_list = 7;</code>
        */
       public Builder addStageInfoList(
           int index, emu.grasscutter.net.proto.CCINMGMEJBNOuterClass.CCINMGMEJBN value) {
@@ -692,7 +692,7 @@ public final class _GoalChallengeDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CCINMGMEJBN stage_info_list = 15;</code>
+       * <code>repeated .CCINMGMEJBN stage_info_list = 7;</code>
        */
       public Builder addStageInfoList(
           emu.grasscutter.net.proto.CCINMGMEJBNOuterClass.CCINMGMEJBN.Builder builderForValue) {
@@ -706,7 +706,7 @@ public final class _GoalChallengeDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CCINMGMEJBN stage_info_list = 15;</code>
+       * <code>repeated .CCINMGMEJBN stage_info_list = 7;</code>
        */
       public Builder addStageInfoList(
           int index, emu.grasscutter.net.proto.CCINMGMEJBNOuterClass.CCINMGMEJBN.Builder builderForValue) {
@@ -720,7 +720,7 @@ public final class _GoalChallengeDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CCINMGMEJBN stage_info_list = 15;</code>
+       * <code>repeated .CCINMGMEJBN stage_info_list = 7;</code>
        */
       public Builder addAllStageInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.CCINMGMEJBNOuterClass.CCINMGMEJBN> values) {
@@ -735,7 +735,7 @@ public final class _GoalChallengeDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CCINMGMEJBN stage_info_list = 15;</code>
+       * <code>repeated .CCINMGMEJBN stage_info_list = 7;</code>
        */
       public Builder clearStageInfoList() {
         if (stageInfoListBuilder_ == null) {
@@ -748,7 +748,7 @@ public final class _GoalChallengeDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CCINMGMEJBN stage_info_list = 15;</code>
+       * <code>repeated .CCINMGMEJBN stage_info_list = 7;</code>
        */
       public Builder removeStageInfoList(int index) {
         if (stageInfoListBuilder_ == null) {
@@ -761,14 +761,14 @@ public final class _GoalChallengeDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .CCINMGMEJBN stage_info_list = 15;</code>
+       * <code>repeated .CCINMGMEJBN stage_info_list = 7;</code>
        */
       public emu.grasscutter.net.proto.CCINMGMEJBNOuterClass.CCINMGMEJBN.Builder getStageInfoListBuilder(
           int index) {
         return getStageInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .CCINMGMEJBN stage_info_list = 15;</code>
+       * <code>repeated .CCINMGMEJBN stage_info_list = 7;</code>
        */
       public emu.grasscutter.net.proto.CCINMGMEJBNOuterClass.CCINMGMEJBNOrBuilder getStageInfoListOrBuilder(
           int index) {
@@ -778,7 +778,7 @@ public final class _GoalChallengeDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .CCINMGMEJBN stage_info_list = 15;</code>
+       * <code>repeated .CCINMGMEJBN stage_info_list = 7;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.CCINMGMEJBNOuterClass.CCINMGMEJBNOrBuilder> 
            getStageInfoListOrBuilderList() {
@@ -789,14 +789,14 @@ public final class _GoalChallengeDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .CCINMGMEJBN stage_info_list = 15;</code>
+       * <code>repeated .CCINMGMEJBN stage_info_list = 7;</code>
        */
       public emu.grasscutter.net.proto.CCINMGMEJBNOuterClass.CCINMGMEJBN.Builder addStageInfoListBuilder() {
         return getStageInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.CCINMGMEJBNOuterClass.CCINMGMEJBN.getDefaultInstance());
       }
       /**
-       * <code>repeated .CCINMGMEJBN stage_info_list = 15;</code>
+       * <code>repeated .CCINMGMEJBN stage_info_list = 7;</code>
        */
       public emu.grasscutter.net.proto.CCINMGMEJBNOuterClass.CCINMGMEJBN.Builder addStageInfoListBuilder(
           int index) {
@@ -804,7 +804,7 @@ public final class _GoalChallengeDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.CCINMGMEJBNOuterClass.CCINMGMEJBN.getDefaultInstance());
       }
       /**
-       * <code>repeated .CCINMGMEJBN stage_info_list = 15;</code>
+       * <code>repeated .CCINMGMEJBN stage_info_list = 7;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.CCINMGMEJBNOuterClass.CCINMGMEJBN.Builder> 
            getStageInfoListBuilderList() {
@@ -893,8 +893,8 @@ public final class _GoalChallengeDetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\036_GoalChallengeDetailInfo.proto\032\021CCINMG" +
       "MEJBN.proto\"V\n\030_GoalChallengeDetailInfo\022" +
-      "\023\n\013AFLBMHKMOEF\030\002 \001(\r\022%\n\017stage_info_list\030" +
-      "\017 \003(\0132\014.CCINMGMEJBNB?\n\031emu.grasscutter.n" +
+      "\023\n\013AFLBMHKMOEF\030\014 \001(\r\022%\n\017stage_info_list\030" +
+      "\007 \003(\0132\014.CCINMGMEJBNB?\n\031emu.grasscutter.n" +
       "et.protoB\"_GoalChallengeDetailInfoOuterC" +
       "lassb\006proto3"
     };

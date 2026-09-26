@@ -19,25 +19,25 @@ public final class BoltbugAbyssDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .MNKIILLGHDC level_info_list = 14;</code>
+     * <code>repeated .MNKIILLGHDC level_info_list = 15;</code>
      */
     java.util.List<emu.grasscutter.net.proto.MNKIILLGHDCOuterClass.MNKIILLGHDC> 
         getLevelInfoListList();
     /**
-     * <code>repeated .MNKIILLGHDC level_info_list = 14;</code>
+     * <code>repeated .MNKIILLGHDC level_info_list = 15;</code>
      */
     emu.grasscutter.net.proto.MNKIILLGHDCOuterClass.MNKIILLGHDC getLevelInfoList(int index);
     /**
-     * <code>repeated .MNKIILLGHDC level_info_list = 14;</code>
+     * <code>repeated .MNKIILLGHDC level_info_list = 15;</code>
      */
     int getLevelInfoListCount();
     /**
-     * <code>repeated .MNKIILLGHDC level_info_list = 14;</code>
+     * <code>repeated .MNKIILLGHDC level_info_list = 15;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.MNKIILLGHDCOuterClass.MNKIILLGHDCOrBuilder> 
         getLevelInfoListOrBuilderList();
     /**
-     * <code>repeated .MNKIILLGHDC level_info_list = 14;</code>
+     * <code>repeated .MNKIILLGHDC level_info_list = 15;</code>
      */
     emu.grasscutter.net.proto.MNKIILLGHDCOuterClass.MNKIILLGHDCOrBuilder getLevelInfoListOrBuilder(
         int index);
@@ -89,7 +89,7 @@ public final class BoltbugAbyssDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 114: {
+            case 122: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 levelInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.MNKIILLGHDCOuterClass.MNKIILLGHDC>();
                 mutable_bitField0_ |= 0x00000001;
@@ -133,17 +133,17 @@ public final class BoltbugAbyssDetailInfoOuterClass {
               emu.grasscutter.net.proto.BoltbugAbyssDetailInfoOuterClass.BoltbugAbyssDetailInfo.class, emu.grasscutter.net.proto.BoltbugAbyssDetailInfoOuterClass.BoltbugAbyssDetailInfo.Builder.class);
     }
 
-    public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 14;
+    public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 15;
     private java.util.List<emu.grasscutter.net.proto.MNKIILLGHDCOuterClass.MNKIILLGHDC> levelInfoList_;
     /**
-     * <code>repeated .MNKIILLGHDC level_info_list = 14;</code>
+     * <code>repeated .MNKIILLGHDC level_info_list = 15;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.MNKIILLGHDCOuterClass.MNKIILLGHDC> getLevelInfoListList() {
       return levelInfoList_;
     }
     /**
-     * <code>repeated .MNKIILLGHDC level_info_list = 14;</code>
+     * <code>repeated .MNKIILLGHDC level_info_list = 15;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.MNKIILLGHDCOuterClass.MNKIILLGHDCOrBuilder> 
@@ -151,21 +151,21 @@ public final class BoltbugAbyssDetailInfoOuterClass {
       return levelInfoList_;
     }
     /**
-     * <code>repeated .MNKIILLGHDC level_info_list = 14;</code>
+     * <code>repeated .MNKIILLGHDC level_info_list = 15;</code>
      */
     @java.lang.Override
     public int getLevelInfoListCount() {
       return levelInfoList_.size();
     }
     /**
-     * <code>repeated .MNKIILLGHDC level_info_list = 14;</code>
+     * <code>repeated .MNKIILLGHDC level_info_list = 15;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.MNKIILLGHDCOuterClass.MNKIILLGHDC getLevelInfoList(int index) {
       return levelInfoList_.get(index);
     }
     /**
-     * <code>repeated .MNKIILLGHDC level_info_list = 14;</code>
+     * <code>repeated .MNKIILLGHDC level_info_list = 15;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.MNKIILLGHDCOuterClass.MNKIILLGHDCOrBuilder getLevelInfoListOrBuilder(
@@ -188,7 +188,7 @@ public final class BoltbugAbyssDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < levelInfoList_.size(); i++) {
-        output.writeMessage(14, levelInfoList_.get(i));
+        output.writeMessage(15, levelInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -201,7 +201,7 @@ public final class BoltbugAbyssDetailInfoOuterClass {
       size = 0;
       for (int i = 0; i < levelInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, levelInfoList_.get(i));
+          .computeMessageSize(15, levelInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -528,7 +528,7 @@ public final class BoltbugAbyssDetailInfoOuterClass {
           emu.grasscutter.net.proto.MNKIILLGHDCOuterClass.MNKIILLGHDC, emu.grasscutter.net.proto.MNKIILLGHDCOuterClass.MNKIILLGHDC.Builder, emu.grasscutter.net.proto.MNKIILLGHDCOuterClass.MNKIILLGHDCOrBuilder> levelInfoListBuilder_;
 
       /**
-       * <code>repeated .MNKIILLGHDC level_info_list = 14;</code>
+       * <code>repeated .MNKIILLGHDC level_info_list = 15;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.MNKIILLGHDCOuterClass.MNKIILLGHDC> getLevelInfoListList() {
         if (levelInfoListBuilder_ == null) {
@@ -538,7 +538,7 @@ public final class BoltbugAbyssDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .MNKIILLGHDC level_info_list = 14;</code>
+       * <code>repeated .MNKIILLGHDC level_info_list = 15;</code>
        */
       public int getLevelInfoListCount() {
         if (levelInfoListBuilder_ == null) {
@@ -548,7 +548,7 @@ public final class BoltbugAbyssDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .MNKIILLGHDC level_info_list = 14;</code>
+       * <code>repeated .MNKIILLGHDC level_info_list = 15;</code>
        */
       public emu.grasscutter.net.proto.MNKIILLGHDCOuterClass.MNKIILLGHDC getLevelInfoList(int index) {
         if (levelInfoListBuilder_ == null) {
@@ -558,7 +558,7 @@ public final class BoltbugAbyssDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .MNKIILLGHDC level_info_list = 14;</code>
+       * <code>repeated .MNKIILLGHDC level_info_list = 15;</code>
        */
       public Builder setLevelInfoList(
           int index, emu.grasscutter.net.proto.MNKIILLGHDCOuterClass.MNKIILLGHDC value) {
@@ -575,7 +575,7 @@ public final class BoltbugAbyssDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .MNKIILLGHDC level_info_list = 14;</code>
+       * <code>repeated .MNKIILLGHDC level_info_list = 15;</code>
        */
       public Builder setLevelInfoList(
           int index, emu.grasscutter.net.proto.MNKIILLGHDCOuterClass.MNKIILLGHDC.Builder builderForValue) {
@@ -589,7 +589,7 @@ public final class BoltbugAbyssDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .MNKIILLGHDC level_info_list = 14;</code>
+       * <code>repeated .MNKIILLGHDC level_info_list = 15;</code>
        */
       public Builder addLevelInfoList(emu.grasscutter.net.proto.MNKIILLGHDCOuterClass.MNKIILLGHDC value) {
         if (levelInfoListBuilder_ == null) {
@@ -605,7 +605,7 @@ public final class BoltbugAbyssDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .MNKIILLGHDC level_info_list = 14;</code>
+       * <code>repeated .MNKIILLGHDC level_info_list = 15;</code>
        */
       public Builder addLevelInfoList(
           int index, emu.grasscutter.net.proto.MNKIILLGHDCOuterClass.MNKIILLGHDC value) {
@@ -622,7 +622,7 @@ public final class BoltbugAbyssDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .MNKIILLGHDC level_info_list = 14;</code>
+       * <code>repeated .MNKIILLGHDC level_info_list = 15;</code>
        */
       public Builder addLevelInfoList(
           emu.grasscutter.net.proto.MNKIILLGHDCOuterClass.MNKIILLGHDC.Builder builderForValue) {
@@ -636,7 +636,7 @@ public final class BoltbugAbyssDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .MNKIILLGHDC level_info_list = 14;</code>
+       * <code>repeated .MNKIILLGHDC level_info_list = 15;</code>
        */
       public Builder addLevelInfoList(
           int index, emu.grasscutter.net.proto.MNKIILLGHDCOuterClass.MNKIILLGHDC.Builder builderForValue) {
@@ -650,7 +650,7 @@ public final class BoltbugAbyssDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .MNKIILLGHDC level_info_list = 14;</code>
+       * <code>repeated .MNKIILLGHDC level_info_list = 15;</code>
        */
       public Builder addAllLevelInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.MNKIILLGHDCOuterClass.MNKIILLGHDC> values) {
@@ -665,7 +665,7 @@ public final class BoltbugAbyssDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .MNKIILLGHDC level_info_list = 14;</code>
+       * <code>repeated .MNKIILLGHDC level_info_list = 15;</code>
        */
       public Builder clearLevelInfoList() {
         if (levelInfoListBuilder_ == null) {
@@ -678,7 +678,7 @@ public final class BoltbugAbyssDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .MNKIILLGHDC level_info_list = 14;</code>
+       * <code>repeated .MNKIILLGHDC level_info_list = 15;</code>
        */
       public Builder removeLevelInfoList(int index) {
         if (levelInfoListBuilder_ == null) {
@@ -691,14 +691,14 @@ public final class BoltbugAbyssDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .MNKIILLGHDC level_info_list = 14;</code>
+       * <code>repeated .MNKIILLGHDC level_info_list = 15;</code>
        */
       public emu.grasscutter.net.proto.MNKIILLGHDCOuterClass.MNKIILLGHDC.Builder getLevelInfoListBuilder(
           int index) {
         return getLevelInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .MNKIILLGHDC level_info_list = 14;</code>
+       * <code>repeated .MNKIILLGHDC level_info_list = 15;</code>
        */
       public emu.grasscutter.net.proto.MNKIILLGHDCOuterClass.MNKIILLGHDCOrBuilder getLevelInfoListOrBuilder(
           int index) {
@@ -708,7 +708,7 @@ public final class BoltbugAbyssDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .MNKIILLGHDC level_info_list = 14;</code>
+       * <code>repeated .MNKIILLGHDC level_info_list = 15;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.MNKIILLGHDCOuterClass.MNKIILLGHDCOrBuilder> 
            getLevelInfoListOrBuilderList() {
@@ -719,14 +719,14 @@ public final class BoltbugAbyssDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .MNKIILLGHDC level_info_list = 14;</code>
+       * <code>repeated .MNKIILLGHDC level_info_list = 15;</code>
        */
       public emu.grasscutter.net.proto.MNKIILLGHDCOuterClass.MNKIILLGHDC.Builder addLevelInfoListBuilder() {
         return getLevelInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.MNKIILLGHDCOuterClass.MNKIILLGHDC.getDefaultInstance());
       }
       /**
-       * <code>repeated .MNKIILLGHDC level_info_list = 14;</code>
+       * <code>repeated .MNKIILLGHDC level_info_list = 15;</code>
        */
       public emu.grasscutter.net.proto.MNKIILLGHDCOuterClass.MNKIILLGHDC.Builder addLevelInfoListBuilder(
           int index) {
@@ -734,7 +734,7 @@ public final class BoltbugAbyssDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.MNKIILLGHDCOuterClass.MNKIILLGHDC.getDefaultInstance());
       }
       /**
-       * <code>repeated .MNKIILLGHDC level_info_list = 14;</code>
+       * <code>repeated .MNKIILLGHDC level_info_list = 15;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.MNKIILLGHDCOuterClass.MNKIILLGHDC.Builder> 
            getLevelInfoListBuilderList() {
@@ -823,7 +823,7 @@ public final class BoltbugAbyssDetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034BoltbugAbyssDetailInfo.proto\032\021MNKIILLG" +
       "HDC.proto\"?\n\026BoltbugAbyssDetailInfo\022%\n\017l" +
-      "evel_info_list\030\016 \003(\0132\014.MNKIILLGHDCB=\n\031em" +
+      "evel_info_list\030\017 \003(\0132\014.MNKIILLGHDCB=\n\031em" +
       "u.grasscutter.net.protoB BoltbugAbyssDet" +
       "ailInfoOuterClassb\006proto3"
     };

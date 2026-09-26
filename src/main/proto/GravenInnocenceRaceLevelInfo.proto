@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "GravenInnocenceRaceLevelInfoOuterClass";
 
 message GravenInnocenceRaceLevelInfo {
-	uint32 level_id = 2;
-	uint32 max_score = 8;
-	bool is_open = 13;
+	uint32 level_id = 4;
+	uint32 max_score = 9;
+	bool is_open = 2;
 }

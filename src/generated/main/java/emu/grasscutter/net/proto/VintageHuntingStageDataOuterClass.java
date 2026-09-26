@@ -19,31 +19,31 @@ public final class VintageHuntingStageDataOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool is_open = 6;</code>
+     * <code>bool is_open = 8;</code>
      * @return The isOpen.
      */
     boolean getIsOpen();
 
     /**
-     * <code>bool is_finish = 8;</code>
+     * <code>bool is_finish = 9;</code>
      * @return The isFinish.
      */
     boolean getIsFinish();
 
     /**
-     * <code>uint32 record_value = 9;</code>
+     * <code>uint32 record_value = 14;</code>
      * @return The recordValue.
      */
     int getRecordValue();
 
     /**
-     * <code>uint32 open_time = 11;</code>
+     * <code>uint32 open_time = 15;</code>
      * @return The openTime.
      */
     int getOpenTime();
 
     /**
-     * <code>uint32 stage_id = 12;</code>
+     * <code>uint32 stage_id = 5;</code>
      * @return The stageId.
      */
     int getStageId();
@@ -93,29 +93,29 @@ public final class VintageHuntingStageDataOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
+            case 40: {
 
-              isOpen_ = input.readBool();
+              stageId_ = input.readUInt32();
               break;
             }
             case 64: {
 
-              isFinish_ = input.readBool();
+              isOpen_ = input.readBool();
               break;
             }
             case 72: {
 
+              isFinish_ = input.readBool();
+              break;
+            }
+            case 112: {
+
               recordValue_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 120: {
 
               openTime_ = input.readUInt32();
-              break;
-            }
-            case 96: {
-
-              stageId_ = input.readUInt32();
               break;
             }
             default: {
@@ -150,10 +150,10 @@ public final class VintageHuntingStageDataOuterClass {
               emu.grasscutter.net.proto.VintageHuntingStageDataOuterClass.VintageHuntingStageData.class, emu.grasscutter.net.proto.VintageHuntingStageDataOuterClass.VintageHuntingStageData.Builder.class);
     }
 
-    public static final int IS_OPEN_FIELD_NUMBER = 6;
+    public static final int IS_OPEN_FIELD_NUMBER = 8;
     private boolean isOpen_;
     /**
-     * <code>bool is_open = 6;</code>
+     * <code>bool is_open = 8;</code>
      * @return The isOpen.
      */
     @java.lang.Override
@@ -161,10 +161,10 @@ public final class VintageHuntingStageDataOuterClass {
       return isOpen_;
     }
 
-    public static final int IS_FINISH_FIELD_NUMBER = 8;
+    public static final int IS_FINISH_FIELD_NUMBER = 9;
     private boolean isFinish_;
     /**
-     * <code>bool is_finish = 8;</code>
+     * <code>bool is_finish = 9;</code>
      * @return The isFinish.
      */
     @java.lang.Override
@@ -172,10 +172,10 @@ public final class VintageHuntingStageDataOuterClass {
       return isFinish_;
     }
 
-    public static final int RECORD_VALUE_FIELD_NUMBER = 9;
+    public static final int RECORD_VALUE_FIELD_NUMBER = 14;
     private int recordValue_;
     /**
-     * <code>uint32 record_value = 9;</code>
+     * <code>uint32 record_value = 14;</code>
      * @return The recordValue.
      */
     @java.lang.Override
@@ -183,10 +183,10 @@ public final class VintageHuntingStageDataOuterClass {
       return recordValue_;
     }
 
-    public static final int OPEN_TIME_FIELD_NUMBER = 11;
+    public static final int OPEN_TIME_FIELD_NUMBER = 15;
     private int openTime_;
     /**
-     * <code>uint32 open_time = 11;</code>
+     * <code>uint32 open_time = 15;</code>
      * @return The openTime.
      */
     @java.lang.Override
@@ -194,10 +194,10 @@ public final class VintageHuntingStageDataOuterClass {
       return openTime_;
     }
 
-    public static final int STAGE_ID_FIELD_NUMBER = 12;
+    public static final int STAGE_ID_FIELD_NUMBER = 5;
     private int stageId_;
     /**
-     * <code>uint32 stage_id = 12;</code>
+     * <code>uint32 stage_id = 5;</code>
      * @return The stageId.
      */
     @java.lang.Override
@@ -219,20 +219,20 @@ public final class VintageHuntingStageDataOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (stageId_ != 0) {
+        output.writeUInt32(5, stageId_);
+      }
       if (isOpen_ != false) {
-        output.writeBool(6, isOpen_);
+        output.writeBool(8, isOpen_);
       }
       if (isFinish_ != false) {
-        output.writeBool(8, isFinish_);
+        output.writeBool(9, isFinish_);
       }
       if (recordValue_ != 0) {
-        output.writeUInt32(9, recordValue_);
+        output.writeUInt32(14, recordValue_);
       }
       if (openTime_ != 0) {
-        output.writeUInt32(11, openTime_);
-      }
-      if (stageId_ != 0) {
-        output.writeUInt32(12, stageId_);
+        output.writeUInt32(15, openTime_);
       }
       unknownFields.writeTo(output);
     }
@@ -243,25 +243,25 @@ public final class VintageHuntingStageDataOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (stageId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(5, stageId_);
+      }
       if (isOpen_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(6, isOpen_);
+          .computeBoolSize(8, isOpen_);
       }
       if (isFinish_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(8, isFinish_);
+          .computeBoolSize(9, isFinish_);
       }
       if (recordValue_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, recordValue_);
+          .computeUInt32Size(14, recordValue_);
       }
       if (openTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, openTime_);
-      }
-      if (stageId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, stageId_);
+          .computeUInt32Size(15, openTime_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -579,7 +579,7 @@ public final class VintageHuntingStageDataOuterClass {
 
       private boolean isOpen_ ;
       /**
-       * <code>bool is_open = 6;</code>
+       * <code>bool is_open = 8;</code>
        * @return The isOpen.
        */
       @java.lang.Override
@@ -587,7 +587,7 @@ public final class VintageHuntingStageDataOuterClass {
         return isOpen_;
       }
       /**
-       * <code>bool is_open = 6;</code>
+       * <code>bool is_open = 8;</code>
        * @param value The isOpen to set.
        * @return This builder for chaining.
        */
@@ -598,7 +598,7 @@ public final class VintageHuntingStageDataOuterClass {
         return this;
       }
       /**
-       * <code>bool is_open = 6;</code>
+       * <code>bool is_open = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsOpen() {
@@ -610,7 +610,7 @@ public final class VintageHuntingStageDataOuterClass {
 
       private boolean isFinish_ ;
       /**
-       * <code>bool is_finish = 8;</code>
+       * <code>bool is_finish = 9;</code>
        * @return The isFinish.
        */
       @java.lang.Override
@@ -618,7 +618,7 @@ public final class VintageHuntingStageDataOuterClass {
         return isFinish_;
       }
       /**
-       * <code>bool is_finish = 8;</code>
+       * <code>bool is_finish = 9;</code>
        * @param value The isFinish to set.
        * @return This builder for chaining.
        */
@@ -629,7 +629,7 @@ public final class VintageHuntingStageDataOuterClass {
         return this;
       }
       /**
-       * <code>bool is_finish = 8;</code>
+       * <code>bool is_finish = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsFinish() {
@@ -641,7 +641,7 @@ public final class VintageHuntingStageDataOuterClass {
 
       private int recordValue_ ;
       /**
-       * <code>uint32 record_value = 9;</code>
+       * <code>uint32 record_value = 14;</code>
        * @return The recordValue.
        */
       @java.lang.Override
@@ -649,7 +649,7 @@ public final class VintageHuntingStageDataOuterClass {
         return recordValue_;
       }
       /**
-       * <code>uint32 record_value = 9;</code>
+       * <code>uint32 record_value = 14;</code>
        * @param value The recordValue to set.
        * @return This builder for chaining.
        */
@@ -660,7 +660,7 @@ public final class VintageHuntingStageDataOuterClass {
         return this;
       }
       /**
-       * <code>uint32 record_value = 9;</code>
+       * <code>uint32 record_value = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearRecordValue() {
@@ -672,7 +672,7 @@ public final class VintageHuntingStageDataOuterClass {
 
       private int openTime_ ;
       /**
-       * <code>uint32 open_time = 11;</code>
+       * <code>uint32 open_time = 15;</code>
        * @return The openTime.
        */
       @java.lang.Override
@@ -680,7 +680,7 @@ public final class VintageHuntingStageDataOuterClass {
         return openTime_;
       }
       /**
-       * <code>uint32 open_time = 11;</code>
+       * <code>uint32 open_time = 15;</code>
        * @param value The openTime to set.
        * @return This builder for chaining.
        */
@@ -691,7 +691,7 @@ public final class VintageHuntingStageDataOuterClass {
         return this;
       }
       /**
-       * <code>uint32 open_time = 11;</code>
+       * <code>uint32 open_time = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearOpenTime() {
@@ -703,7 +703,7 @@ public final class VintageHuntingStageDataOuterClass {
 
       private int stageId_ ;
       /**
-       * <code>uint32 stage_id = 12;</code>
+       * <code>uint32 stage_id = 5;</code>
        * @return The stageId.
        */
       @java.lang.Override
@@ -711,7 +711,7 @@ public final class VintageHuntingStageDataOuterClass {
         return stageId_;
       }
       /**
-       * <code>uint32 stage_id = 12;</code>
+       * <code>uint32 stage_id = 5;</code>
        * @param value The stageId to set.
        * @return This builder for chaining.
        */
@@ -722,7 +722,7 @@ public final class VintageHuntingStageDataOuterClass {
         return this;
       }
       /**
-       * <code>uint32 stage_id = 12;</code>
+       * <code>uint32 stage_id = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearStageId() {
@@ -799,9 +799,9 @@ public final class VintageHuntingStageDataOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\035VintageHuntingStageData.proto\"x\n\027Vinta" +
-      "geHuntingStageData\022\017\n\007is_open\030\006 \001(\010\022\021\n\ti" +
-      "s_finish\030\010 \001(\010\022\024\n\014record_value\030\t \001(\r\022\021\n\t" +
-      "open_time\030\013 \001(\r\022\020\n\010stage_id\030\014 \001(\rB>\n\031emu" +
+      "geHuntingStageData\022\017\n\007is_open\030\010 \001(\010\022\021\n\ti" +
+      "s_finish\030\t \001(\010\022\024\n\014record_value\030\016 \001(\r\022\021\n\t" +
+      "open_time\030\017 \001(\r\022\020\n\010stage_id\030\005 \001(\rB>\n\031emu" +
       ".grasscutter.net.protoB!VintageHuntingSt" +
       "ageDataOuterClassb\006proto3"
     };

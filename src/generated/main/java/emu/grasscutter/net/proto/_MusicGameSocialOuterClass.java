@@ -19,31 +19,31 @@ public final class _MusicGameSocialOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 AAJNACIIKAD = 4;</code>
+     * <code>uint32 AAJNACIIKAD = 50000;</code>
      * @return The aAJNACIIKAD.
      */
     int getAAJNACIIKAD();
 
     /**
-     * <code>uint32 IILNHLANPGC = 5;</code>
+     * <code>uint32 IILNHLANPGC = 50001;</code>
      * @return The iILNHLANPGC.
      */
     int getIILNHLANPGC();
 
     /**
-     * <code>uint32 like_num = 9;</code>
+     * <code>uint32 like_num = 15;</code>
      * @return The likeNum.
      */
     int getLikeNum();
 
     /**
-     * <code>uint32 GLEEDODENBP = 11;</code>
+     * <code>uint32 GLEEDODENBP = 50002;</code>
      * @return The gLEEDODENBP.
      */
     int getGLEEDODENBP();
 
     /**
-     * <code>uint32 play_num = 15;</code>
+     * <code>uint32 play_num = 50003;</code>
      * @return The playNum.
      */
     int getPlayNum();
@@ -93,27 +93,27 @@ public final class _MusicGameSocialOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
-
-              aAJNACIIKAD_ = input.readUInt32();
-              break;
-            }
-            case 40: {
-
-              iILNHLANPGC_ = input.readUInt32();
-              break;
-            }
-            case 72: {
+            case 120: {
 
               likeNum_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 400000: {
+
+              aAJNACIIKAD_ = input.readUInt32();
+              break;
+            }
+            case 400008: {
+
+              iILNHLANPGC_ = input.readUInt32();
+              break;
+            }
+            case 400016: {
 
               gLEEDODENBP_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 400024: {
 
               playNum_ = input.readUInt32();
               break;
@@ -150,10 +150,10 @@ public final class _MusicGameSocialOuterClass {
               emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial.class, emu.grasscutter.net.proto._MusicGameSocialOuterClass._MusicGameSocial.Builder.class);
     }
 
-    public static final int AAJNACIIKAD_FIELD_NUMBER = 4;
+    public static final int AAJNACIIKAD_FIELD_NUMBER = 50000;
     private int aAJNACIIKAD_;
     /**
-     * <code>uint32 AAJNACIIKAD = 4;</code>
+     * <code>uint32 AAJNACIIKAD = 50000;</code>
      * @return The aAJNACIIKAD.
      */
     @java.lang.Override
@@ -161,10 +161,10 @@ public final class _MusicGameSocialOuterClass {
       return aAJNACIIKAD_;
     }
 
-    public static final int IILNHLANPGC_FIELD_NUMBER = 5;
+    public static final int IILNHLANPGC_FIELD_NUMBER = 50001;
     private int iILNHLANPGC_;
     /**
-     * <code>uint32 IILNHLANPGC = 5;</code>
+     * <code>uint32 IILNHLANPGC = 50001;</code>
      * @return The iILNHLANPGC.
      */
     @java.lang.Override
@@ -172,10 +172,10 @@ public final class _MusicGameSocialOuterClass {
       return iILNHLANPGC_;
     }
 
-    public static final int LIKE_NUM_FIELD_NUMBER = 9;
+    public static final int LIKE_NUM_FIELD_NUMBER = 15;
     private int likeNum_;
     /**
-     * <code>uint32 like_num = 9;</code>
+     * <code>uint32 like_num = 15;</code>
      * @return The likeNum.
      */
     @java.lang.Override
@@ -183,10 +183,10 @@ public final class _MusicGameSocialOuterClass {
       return likeNum_;
     }
 
-    public static final int GLEEDODENBP_FIELD_NUMBER = 11;
+    public static final int GLEEDODENBP_FIELD_NUMBER = 50002;
     private int gLEEDODENBP_;
     /**
-     * <code>uint32 GLEEDODENBP = 11;</code>
+     * <code>uint32 GLEEDODENBP = 50002;</code>
      * @return The gLEEDODENBP.
      */
     @java.lang.Override
@@ -194,10 +194,10 @@ public final class _MusicGameSocialOuterClass {
       return gLEEDODENBP_;
     }
 
-    public static final int PLAY_NUM_FIELD_NUMBER = 15;
+    public static final int PLAY_NUM_FIELD_NUMBER = 50003;
     private int playNum_;
     /**
-     * <code>uint32 play_num = 15;</code>
+     * <code>uint32 play_num = 50003;</code>
      * @return The playNum.
      */
     @java.lang.Override
@@ -219,20 +219,20 @@ public final class _MusicGameSocialOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (likeNum_ != 0) {
+        output.writeUInt32(15, likeNum_);
+      }
       if (aAJNACIIKAD_ != 0) {
-        output.writeUInt32(4, aAJNACIIKAD_);
+        output.writeUInt32(50000, aAJNACIIKAD_);
       }
       if (iILNHLANPGC_ != 0) {
-        output.writeUInt32(5, iILNHLANPGC_);
-      }
-      if (likeNum_ != 0) {
-        output.writeUInt32(9, likeNum_);
+        output.writeUInt32(50001, iILNHLANPGC_);
       }
       if (gLEEDODENBP_ != 0) {
-        output.writeUInt32(11, gLEEDODENBP_);
+        output.writeUInt32(50002, gLEEDODENBP_);
       }
       if (playNum_ != 0) {
-        output.writeUInt32(15, playNum_);
+        output.writeUInt32(50003, playNum_);
       }
       unknownFields.writeTo(output);
     }
@@ -243,25 +243,25 @@ public final class _MusicGameSocialOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (likeNum_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(15, likeNum_);
+      }
       if (aAJNACIIKAD_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, aAJNACIIKAD_);
+          .computeUInt32Size(50000, aAJNACIIKAD_);
       }
       if (iILNHLANPGC_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, iILNHLANPGC_);
-      }
-      if (likeNum_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, likeNum_);
+          .computeUInt32Size(50001, iILNHLANPGC_);
       }
       if (gLEEDODENBP_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, gLEEDODENBP_);
+          .computeUInt32Size(50002, gLEEDODENBP_);
       }
       if (playNum_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, playNum_);
+          .computeUInt32Size(50003, playNum_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -577,7 +577,7 @@ public final class _MusicGameSocialOuterClass {
 
       private int aAJNACIIKAD_ ;
       /**
-       * <code>uint32 AAJNACIIKAD = 4;</code>
+       * <code>uint32 AAJNACIIKAD = 50000;</code>
        * @return The aAJNACIIKAD.
        */
       @java.lang.Override
@@ -585,7 +585,7 @@ public final class _MusicGameSocialOuterClass {
         return aAJNACIIKAD_;
       }
       /**
-       * <code>uint32 AAJNACIIKAD = 4;</code>
+       * <code>uint32 AAJNACIIKAD = 50000;</code>
        * @param value The aAJNACIIKAD to set.
        * @return This builder for chaining.
        */
@@ -596,7 +596,7 @@ public final class _MusicGameSocialOuterClass {
         return this;
       }
       /**
-       * <code>uint32 AAJNACIIKAD = 4;</code>
+       * <code>uint32 AAJNACIIKAD = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearAAJNACIIKAD() {
@@ -608,7 +608,7 @@ public final class _MusicGameSocialOuterClass {
 
       private int iILNHLANPGC_ ;
       /**
-       * <code>uint32 IILNHLANPGC = 5;</code>
+       * <code>uint32 IILNHLANPGC = 50001;</code>
        * @return The iILNHLANPGC.
        */
       @java.lang.Override
@@ -616,7 +616,7 @@ public final class _MusicGameSocialOuterClass {
         return iILNHLANPGC_;
       }
       /**
-       * <code>uint32 IILNHLANPGC = 5;</code>
+       * <code>uint32 IILNHLANPGC = 50001;</code>
        * @param value The iILNHLANPGC to set.
        * @return This builder for chaining.
        */
@@ -627,7 +627,7 @@ public final class _MusicGameSocialOuterClass {
         return this;
       }
       /**
-       * <code>uint32 IILNHLANPGC = 5;</code>
+       * <code>uint32 IILNHLANPGC = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearIILNHLANPGC() {
@@ -639,7 +639,7 @@ public final class _MusicGameSocialOuterClass {
 
       private int likeNum_ ;
       /**
-       * <code>uint32 like_num = 9;</code>
+       * <code>uint32 like_num = 15;</code>
        * @return The likeNum.
        */
       @java.lang.Override
@@ -647,7 +647,7 @@ public final class _MusicGameSocialOuterClass {
         return likeNum_;
       }
       /**
-       * <code>uint32 like_num = 9;</code>
+       * <code>uint32 like_num = 15;</code>
        * @param value The likeNum to set.
        * @return This builder for chaining.
        */
@@ -658,7 +658,7 @@ public final class _MusicGameSocialOuterClass {
         return this;
       }
       /**
-       * <code>uint32 like_num = 9;</code>
+       * <code>uint32 like_num = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearLikeNum() {
@@ -670,7 +670,7 @@ public final class _MusicGameSocialOuterClass {
 
       private int gLEEDODENBP_ ;
       /**
-       * <code>uint32 GLEEDODENBP = 11;</code>
+       * <code>uint32 GLEEDODENBP = 50002;</code>
        * @return The gLEEDODENBP.
        */
       @java.lang.Override
@@ -678,7 +678,7 @@ public final class _MusicGameSocialOuterClass {
         return gLEEDODENBP_;
       }
       /**
-       * <code>uint32 GLEEDODENBP = 11;</code>
+       * <code>uint32 GLEEDODENBP = 50002;</code>
        * @param value The gLEEDODENBP to set.
        * @return This builder for chaining.
        */
@@ -689,7 +689,7 @@ public final class _MusicGameSocialOuterClass {
         return this;
       }
       /**
-       * <code>uint32 GLEEDODENBP = 11;</code>
+       * <code>uint32 GLEEDODENBP = 50002;</code>
        * @return This builder for chaining.
        */
       public Builder clearGLEEDODENBP() {
@@ -701,7 +701,7 @@ public final class _MusicGameSocialOuterClass {
 
       private int playNum_ ;
       /**
-       * <code>uint32 play_num = 15;</code>
+       * <code>uint32 play_num = 50003;</code>
        * @return The playNum.
        */
       @java.lang.Override
@@ -709,7 +709,7 @@ public final class _MusicGameSocialOuterClass {
         return playNum_;
       }
       /**
-       * <code>uint32 play_num = 15;</code>
+       * <code>uint32 play_num = 50003;</code>
        * @param value The playNum to set.
        * @return This builder for chaining.
        */
@@ -720,7 +720,7 @@ public final class _MusicGameSocialOuterClass {
         return this;
       }
       /**
-       * <code>uint32 play_num = 15;</code>
+       * <code>uint32 play_num = 50003;</code>
        * @return This builder for chaining.
        */
       public Builder clearPlayNum() {
@@ -796,12 +796,12 @@ public final class _MusicGameSocialOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\026_MusicGameSocial.proto\"u\n\020_MusicGameSo" +
-      "cial\022\023\n\013AAJNACIIKAD\030\004 \001(\r\022\023\n\013IILNHLANPGC" +
-      "\030\005 \001(\r\022\020\n\010like_num\030\t \001(\r\022\023\n\013GLEEDODENBP\030" +
-      "\013 \001(\r\022\020\n\010play_num\030\017 \001(\rB7\n\031emu.grasscutt" +
-      "er.net.protoB\032_MusicGameSocialOuterClass" +
-      "b\006proto3"
+      "\n\026_MusicGameSocial.proto\"}\n\020_MusicGameSo" +
+      "cial\022\025\n\013AAJNACIIKAD\030\320\206\003 \001(\r\022\025\n\013IILNHLANP" +
+      "GC\030\321\206\003 \001(\r\022\020\n\010like_num\030\017 \001(\r\022\025\n\013GLEEDODE" +
+      "NBP\030\322\206\003 \001(\r\022\022\n\010play_num\030\323\206\003 \001(\rB7\n\031emu.g" +
+      "rasscutter.net.protoB\032_MusicGameSocialOu" +
+      "terClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -19,13 +19,13 @@ public final class _RevenueBonusBuffInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 PBAEBPEGLFB = 6;</code>
+     * <code>uint32 PBAEBPEGLFB = 50000;</code>
      * @return The pBAEBPEGLFB.
      */
     int getPBAEBPEGLFB();
 
     /**
-     * <code>uint32 PCBLBGGHLFH = 8;</code>
+     * <code>uint32 PCBLBGGHLFH = 50001;</code>
      * @return The pCBLBGGHLFH.
      */
     int getPCBLBGGHLFH();
@@ -81,19 +81,19 @@ public final class _RevenueBonusBuffInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
+            case 112: {
+
+              fLCOAFFDMEG_ = input.readUInt32();
+              break;
+            }
+            case 400000: {
 
               pBAEBPEGLFB_ = input.readUInt32();
               break;
             }
-            case 64: {
+            case 400008: {
 
               pCBLBGGHLFH_ = input.readUInt32();
-              break;
-            }
-            case 112: {
-
-              fLCOAFFDMEG_ = input.readUInt32();
               break;
             }
             default: {
@@ -128,10 +128,10 @@ public final class _RevenueBonusBuffInfoOuterClass {
               emu.grasscutter.net.proto._RevenueBonusBuffInfoOuterClass._RevenueBonusBuffInfo.class, emu.grasscutter.net.proto._RevenueBonusBuffInfoOuterClass._RevenueBonusBuffInfo.Builder.class);
     }
 
-    public static final int PBAEBPEGLFB_FIELD_NUMBER = 6;
+    public static final int PBAEBPEGLFB_FIELD_NUMBER = 50000;
     private int pBAEBPEGLFB_;
     /**
-     * <code>uint32 PBAEBPEGLFB = 6;</code>
+     * <code>uint32 PBAEBPEGLFB = 50000;</code>
      * @return The pBAEBPEGLFB.
      */
     @java.lang.Override
@@ -139,10 +139,10 @@ public final class _RevenueBonusBuffInfoOuterClass {
       return pBAEBPEGLFB_;
     }
 
-    public static final int PCBLBGGHLFH_FIELD_NUMBER = 8;
+    public static final int PCBLBGGHLFH_FIELD_NUMBER = 50001;
     private int pCBLBGGHLFH_;
     /**
-     * <code>uint32 PCBLBGGHLFH = 8;</code>
+     * <code>uint32 PCBLBGGHLFH = 50001;</code>
      * @return The pCBLBGGHLFH.
      */
     @java.lang.Override
@@ -175,14 +175,14 @@ public final class _RevenueBonusBuffInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (pBAEBPEGLFB_ != 0) {
-        output.writeUInt32(6, pBAEBPEGLFB_);
-      }
-      if (pCBLBGGHLFH_ != 0) {
-        output.writeUInt32(8, pCBLBGGHLFH_);
-      }
       if (fLCOAFFDMEG_ != 0) {
         output.writeUInt32(14, fLCOAFFDMEG_);
+      }
+      if (pBAEBPEGLFB_ != 0) {
+        output.writeUInt32(50000, pBAEBPEGLFB_);
+      }
+      if (pCBLBGGHLFH_ != 0) {
+        output.writeUInt32(50001, pCBLBGGHLFH_);
       }
       unknownFields.writeTo(output);
     }
@@ -193,17 +193,17 @@ public final class _RevenueBonusBuffInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (pBAEBPEGLFB_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, pBAEBPEGLFB_);
-      }
-      if (pCBLBGGHLFH_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, pCBLBGGHLFH_);
-      }
       if (fLCOAFFDMEG_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(14, fLCOAFFDMEG_);
+      }
+      if (pBAEBPEGLFB_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50000, pBAEBPEGLFB_);
+      }
+      if (pCBLBGGHLFH_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(50001, pCBLBGGHLFH_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -499,7 +499,7 @@ public final class _RevenueBonusBuffInfoOuterClass {
 
       private int pBAEBPEGLFB_ ;
       /**
-       * <code>uint32 PBAEBPEGLFB = 6;</code>
+       * <code>uint32 PBAEBPEGLFB = 50000;</code>
        * @return The pBAEBPEGLFB.
        */
       @java.lang.Override
@@ -507,7 +507,7 @@ public final class _RevenueBonusBuffInfoOuterClass {
         return pBAEBPEGLFB_;
       }
       /**
-       * <code>uint32 PBAEBPEGLFB = 6;</code>
+       * <code>uint32 PBAEBPEGLFB = 50000;</code>
        * @param value The pBAEBPEGLFB to set.
        * @return This builder for chaining.
        */
@@ -518,7 +518,7 @@ public final class _RevenueBonusBuffInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 PBAEBPEGLFB = 6;</code>
+       * <code>uint32 PBAEBPEGLFB = 50000;</code>
        * @return This builder for chaining.
        */
       public Builder clearPBAEBPEGLFB() {
@@ -530,7 +530,7 @@ public final class _RevenueBonusBuffInfoOuterClass {
 
       private int pCBLBGGHLFH_ ;
       /**
-       * <code>uint32 PCBLBGGHLFH = 8;</code>
+       * <code>uint32 PCBLBGGHLFH = 50001;</code>
        * @return The pCBLBGGHLFH.
        */
       @java.lang.Override
@@ -538,7 +538,7 @@ public final class _RevenueBonusBuffInfoOuterClass {
         return pCBLBGGHLFH_;
       }
       /**
-       * <code>uint32 PCBLBGGHLFH = 8;</code>
+       * <code>uint32 PCBLBGGHLFH = 50001;</code>
        * @param value The pCBLBGGHLFH to set.
        * @return This builder for chaining.
        */
@@ -549,7 +549,7 @@ public final class _RevenueBonusBuffInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 PCBLBGGHLFH = 8;</code>
+       * <code>uint32 PCBLBGGHLFH = 50001;</code>
        * @return This builder for chaining.
        */
       public Builder clearPCBLBGGHLFH() {
@@ -656,11 +656,11 @@ public final class _RevenueBonusBuffInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\033_RevenueBonusBuffInfo.proto\"V\n\025_Revenu" +
-      "eBonusBuffInfo\022\023\n\013PBAEBPEGLFB\030\006 \001(\r\022\023\n\013P" +
-      "CBLBGGHLFH\030\010 \001(\r\022\023\n\013FLCOAFFDMEG\030\016 \001(\rB<\n" +
-      "\031emu.grasscutter.net.protoB\037_RevenueBonu" +
-      "sBuffInfoOuterClassb\006proto3"
+      "\n\033_RevenueBonusBuffInfo.proto\"Z\n\025_Revenu" +
+      "eBonusBuffInfo\022\025\n\013PBAEBPEGLFB\030\320\206\003 \001(\r\022\025\n" +
+      "\013PCBLBGGHLFH\030\321\206\003 \001(\r\022\023\n\013FLCOAFFDMEG\030\016 \001(" +
+      "\rB<\n\031emu.grasscutter.net.protoB\037_Revenue" +
+      "BonusBuffInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

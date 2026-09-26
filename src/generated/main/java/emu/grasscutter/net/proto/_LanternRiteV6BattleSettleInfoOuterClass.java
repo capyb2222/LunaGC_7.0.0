@@ -19,31 +19,31 @@ public final class _LanternRiteV6BattleSettleInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 level_id = 1;</code>
+     * <code>uint32 level_id = 8;</code>
      * @return The levelId.
      */
     int getLevelId();
 
     /**
-     * <code>uint32 score = 3;</code>
+     * <code>uint32 score = 15;</code>
      * @return The score.
      */
     int getScore();
 
     /**
-     * <code>uint32 difficulty = 6;</code>
+     * <code>uint32 difficulty = 14;</code>
      * @return The difficulty.
      */
     int getDifficulty();
 
     /**
-     * <code>uint32 use_time = 11;</code>
+     * <code>uint32 use_time = 1;</code>
      * @return The useTime.
      */
     int getUseTime();
 
     /**
-     * <code>bool is_new_record = 13;</code>
+     * <code>bool is_new_record = 10;</code>
      * @return The isNewRecord.
      */
     boolean getIsNewRecord();
@@ -95,27 +95,27 @@ public final class _LanternRiteV6BattleSettleInfoOuterClass {
               break;
             case 8: {
 
+              useTime_ = input.readUInt32();
+              break;
+            }
+            case 64: {
+
               levelId_ = input.readUInt32();
               break;
             }
-            case 24: {
+            case 80: {
 
-              score_ = input.readUInt32();
+              isNewRecord_ = input.readBool();
               break;
             }
-            case 48: {
+            case 112: {
 
               difficulty_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 120: {
 
-              useTime_ = input.readUInt32();
-              break;
-            }
-            case 104: {
-
-              isNewRecord_ = input.readBool();
+              score_ = input.readUInt32();
               break;
             }
             default: {
@@ -150,10 +150,10 @@ public final class _LanternRiteV6BattleSettleInfoOuterClass {
               emu.grasscutter.net.proto._LanternRiteV6BattleSettleInfoOuterClass._LanternRiteV6BattleSettleInfo.class, emu.grasscutter.net.proto._LanternRiteV6BattleSettleInfoOuterClass._LanternRiteV6BattleSettleInfo.Builder.class);
     }
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 1;
+    public static final int LEVEL_ID_FIELD_NUMBER = 8;
     private int levelId_;
     /**
-     * <code>uint32 level_id = 1;</code>
+     * <code>uint32 level_id = 8;</code>
      * @return The levelId.
      */
     @java.lang.Override
@@ -161,10 +161,10 @@ public final class _LanternRiteV6BattleSettleInfoOuterClass {
       return levelId_;
     }
 
-    public static final int SCORE_FIELD_NUMBER = 3;
+    public static final int SCORE_FIELD_NUMBER = 15;
     private int score_;
     /**
-     * <code>uint32 score = 3;</code>
+     * <code>uint32 score = 15;</code>
      * @return The score.
      */
     @java.lang.Override
@@ -172,10 +172,10 @@ public final class _LanternRiteV6BattleSettleInfoOuterClass {
       return score_;
     }
 
-    public static final int DIFFICULTY_FIELD_NUMBER = 6;
+    public static final int DIFFICULTY_FIELD_NUMBER = 14;
     private int difficulty_;
     /**
-     * <code>uint32 difficulty = 6;</code>
+     * <code>uint32 difficulty = 14;</code>
      * @return The difficulty.
      */
     @java.lang.Override
@@ -183,10 +183,10 @@ public final class _LanternRiteV6BattleSettleInfoOuterClass {
       return difficulty_;
     }
 
-    public static final int USE_TIME_FIELD_NUMBER = 11;
+    public static final int USE_TIME_FIELD_NUMBER = 1;
     private int useTime_;
     /**
-     * <code>uint32 use_time = 11;</code>
+     * <code>uint32 use_time = 1;</code>
      * @return The useTime.
      */
     @java.lang.Override
@@ -194,10 +194,10 @@ public final class _LanternRiteV6BattleSettleInfoOuterClass {
       return useTime_;
     }
 
-    public static final int IS_NEW_RECORD_FIELD_NUMBER = 13;
+    public static final int IS_NEW_RECORD_FIELD_NUMBER = 10;
     private boolean isNewRecord_;
     /**
-     * <code>bool is_new_record = 13;</code>
+     * <code>bool is_new_record = 10;</code>
      * @return The isNewRecord.
      */
     @java.lang.Override
@@ -219,20 +219,20 @@ public final class _LanternRiteV6BattleSettleInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (levelId_ != 0) {
-        output.writeUInt32(1, levelId_);
-      }
-      if (score_ != 0) {
-        output.writeUInt32(3, score_);
-      }
-      if (difficulty_ != 0) {
-        output.writeUInt32(6, difficulty_);
-      }
       if (useTime_ != 0) {
-        output.writeUInt32(11, useTime_);
+        output.writeUInt32(1, useTime_);
+      }
+      if (levelId_ != 0) {
+        output.writeUInt32(8, levelId_);
       }
       if (isNewRecord_ != false) {
-        output.writeBool(13, isNewRecord_);
+        output.writeBool(10, isNewRecord_);
+      }
+      if (difficulty_ != 0) {
+        output.writeUInt32(14, difficulty_);
+      }
+      if (score_ != 0) {
+        output.writeUInt32(15, score_);
       }
       unknownFields.writeTo(output);
     }
@@ -243,25 +243,25 @@ public final class _LanternRiteV6BattleSettleInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (levelId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, levelId_);
-      }
-      if (score_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, score_);
-      }
-      if (difficulty_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, difficulty_);
-      }
       if (useTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, useTime_);
+          .computeUInt32Size(1, useTime_);
+      }
+      if (levelId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(8, levelId_);
       }
       if (isNewRecord_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(13, isNewRecord_);
+          .computeBoolSize(10, isNewRecord_);
+      }
+      if (difficulty_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(14, difficulty_);
+      }
+      if (score_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(15, score_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -578,7 +578,7 @@ public final class _LanternRiteV6BattleSettleInfoOuterClass {
 
       private int levelId_ ;
       /**
-       * <code>uint32 level_id = 1;</code>
+       * <code>uint32 level_id = 8;</code>
        * @return The levelId.
        */
       @java.lang.Override
@@ -586,7 +586,7 @@ public final class _LanternRiteV6BattleSettleInfoOuterClass {
         return levelId_;
       }
       /**
-       * <code>uint32 level_id = 1;</code>
+       * <code>uint32 level_id = 8;</code>
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
@@ -597,7 +597,7 @@ public final class _LanternRiteV6BattleSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 level_id = 1;</code>
+       * <code>uint32 level_id = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearLevelId() {
@@ -609,7 +609,7 @@ public final class _LanternRiteV6BattleSettleInfoOuterClass {
 
       private int score_ ;
       /**
-       * <code>uint32 score = 3;</code>
+       * <code>uint32 score = 15;</code>
        * @return The score.
        */
       @java.lang.Override
@@ -617,7 +617,7 @@ public final class _LanternRiteV6BattleSettleInfoOuterClass {
         return score_;
       }
       /**
-       * <code>uint32 score = 3;</code>
+       * <code>uint32 score = 15;</code>
        * @param value The score to set.
        * @return This builder for chaining.
        */
@@ -628,7 +628,7 @@ public final class _LanternRiteV6BattleSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 score = 3;</code>
+       * <code>uint32 score = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearScore() {
@@ -640,7 +640,7 @@ public final class _LanternRiteV6BattleSettleInfoOuterClass {
 
       private int difficulty_ ;
       /**
-       * <code>uint32 difficulty = 6;</code>
+       * <code>uint32 difficulty = 14;</code>
        * @return The difficulty.
        */
       @java.lang.Override
@@ -648,7 +648,7 @@ public final class _LanternRiteV6BattleSettleInfoOuterClass {
         return difficulty_;
       }
       /**
-       * <code>uint32 difficulty = 6;</code>
+       * <code>uint32 difficulty = 14;</code>
        * @param value The difficulty to set.
        * @return This builder for chaining.
        */
@@ -659,7 +659,7 @@ public final class _LanternRiteV6BattleSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 difficulty = 6;</code>
+       * <code>uint32 difficulty = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearDifficulty() {
@@ -671,7 +671,7 @@ public final class _LanternRiteV6BattleSettleInfoOuterClass {
 
       private int useTime_ ;
       /**
-       * <code>uint32 use_time = 11;</code>
+       * <code>uint32 use_time = 1;</code>
        * @return The useTime.
        */
       @java.lang.Override
@@ -679,7 +679,7 @@ public final class _LanternRiteV6BattleSettleInfoOuterClass {
         return useTime_;
       }
       /**
-       * <code>uint32 use_time = 11;</code>
+       * <code>uint32 use_time = 1;</code>
        * @param value The useTime to set.
        * @return This builder for chaining.
        */
@@ -690,7 +690,7 @@ public final class _LanternRiteV6BattleSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 use_time = 11;</code>
+       * <code>uint32 use_time = 1;</code>
        * @return This builder for chaining.
        */
       public Builder clearUseTime() {
@@ -702,7 +702,7 @@ public final class _LanternRiteV6BattleSettleInfoOuterClass {
 
       private boolean isNewRecord_ ;
       /**
-       * <code>bool is_new_record = 13;</code>
+       * <code>bool is_new_record = 10;</code>
        * @return The isNewRecord.
        */
       @java.lang.Override
@@ -710,7 +710,7 @@ public final class _LanternRiteV6BattleSettleInfoOuterClass {
         return isNewRecord_;
       }
       /**
-       * <code>bool is_new_record = 13;</code>
+       * <code>bool is_new_record = 10;</code>
        * @param value The isNewRecord to set.
        * @return This builder for chaining.
        */
@@ -721,7 +721,7 @@ public final class _LanternRiteV6BattleSettleInfoOuterClass {
         return this;
       }
       /**
-       * <code>bool is_new_record = 13;</code>
+       * <code>bool is_new_record = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsNewRecord() {
@@ -799,9 +799,9 @@ public final class _LanternRiteV6BattleSettleInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n$_LanternRiteV6BattleSettleInfo.proto\"~" +
       "\n\036_LanternRiteV6BattleSettleInfo\022\020\n\010leve" +
-      "l_id\030\001 \001(\r\022\r\n\005score\030\003 \001(\r\022\022\n\ndifficulty\030" +
-      "\006 \001(\r\022\020\n\010use_time\030\013 \001(\r\022\025\n\ris_new_record" +
-      "\030\r \001(\010BE\n\031emu.grasscutter.net.protoB(_La" +
+      "l_id\030\010 \001(\r\022\r\n\005score\030\017 \001(\r\022\022\n\ndifficulty\030" +
+      "\016 \001(\r\022\020\n\010use_time\030\001 \001(\r\022\025\n\ris_new_record" +
+      "\030\n \001(\010BE\n\031emu.grasscutter.net.protoB(_La" +
       "nternRiteV6BattleSettleInfoOuterClassb\006p" +
       "roto3"
     };

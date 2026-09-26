@@ -1,20 +1,22 @@
 package emu.grasscutter.server.packet.send;
 
-import emu.grasscutter.game.dailytask.DailyTaskProto;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.net.packet.BasePacket;
+import emu.grasscutter.net.packet.PacketOpcodes;
+import emu.grasscutter.net.proto.DailyTaskDataNotifyOuterClass.DailyTaskDataNotify;
 
 public class PacketDailyTaskDataNotify extends BasePacket {
     public PacketDailyTaskDataNotify(Player player) {
-        super(DailyTaskProto.DATA_NOTIFY_CMD);
+        super(PacketOpcodes.DailyTaskDataNotify);
 
+        var proto = DailyTaskDataNotify.newBuilder();
         var manager = player.getDailyTaskManager();
-        this.setData(
-                manager == null
-                        ? DailyTaskProto.dataNotify(0, 0, false)
-                        : DailyTaskProto.dataNotify(
-                                manager.getFinishedCount(),
-                                manager.getScoreRewardId(),
-                                manager.isScoreRewardTaken()));
+        if (manager != null) {
+            proto.setFinishedNum(manager.getFinishedCount())
+                    .setScoreRewardId(manager.getScoreRewardId())
+                    .setIsTakenScoreReward(manager.isScoreRewardTaken());
+        }
+
+        this.setData(proto);
     }
 }

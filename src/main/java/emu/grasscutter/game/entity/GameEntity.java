@@ -16,6 +16,8 @@ import emu.grasscutter.net.proto.MotionInfoOuterClass.MotionInfo;
 import emu.grasscutter.net.proto.MotionStateOuterClass.MotionState;
 import emu.grasscutter.net.proto.PropChangeReasonOuterClass.PropChangeReason;
 import emu.grasscutter.net.proto.SceneEntityInfoOuterClass.SceneEntityInfo;
+import emu.grasscutter.net.proto.Vector3IntOuterClass.Vector3Int;
+import emu.grasscutter.net.proto._EntityIntMotionInfoOuterClass._EntityIntMotionInfo;
 import emu.grasscutter.net.proto.VectorOuterClass.Vector;
 import emu.grasscutter.scripts.data.controller.EntityController;
 import emu.grasscutter.net.proto.DetailAbilityInfoOuterClass.DetailAbilityInfo;
@@ -29,14 +31,8 @@ import it.unimi.dsi.fastutil.objects.*;
 import emu.grasscutter.*;
 import emu.grasscutter.data.GameData;
 
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
-
-import com.google.protobuf.ByteString;
-import com.google.protobuf.CodedOutputStream;
-import com.google.protobuf.UnknownFieldSet;
 
 import lombok.*;
 
@@ -256,49 +252,24 @@ public abstract class GameEntity {
     }
 
     protected void injectIntMotionInfo(SceneEntityInfo.Builder entityInfo) {
-        try {
-            Position pos = this.getPosition();
-            Position rot = this.getRotation();
-            if (pos == null || rot == null) return;
+        Position pos = this.getPosition();
+        Position rot = this.getRotation();
+        if (pos == null || rot == null) return;
 
-            int px = Math.round(pos.getX() * 1000f);
-            int py = Math.round(pos.getY() * 1000f);
-            int pz = Math.round(pos.getZ() * 1000f);
-            int rx = Math.round(rot.getX() * 1000f);
-            int ry = Math.round(rot.getY() * 1000f);
-            int rz = Math.round(rot.getZ() * 1000f);
+        entityInfo.setIntMotionInfo(
+                _EntityIntMotionInfo.newBuilder()
+                        .setEntityId(this.getId())
+                        .setPos(toMilli(pos))
+                        .setRot(toMilli(rot))
+                        .setState(this.getMotionState()));
+    }
 
-            ByteArrayOutputStream posOut = new ByteArrayOutputStream();
-            CodedOutputStream posCos = CodedOutputStream.newInstance(posOut);
-            posCos.writeInt32(1, px);
-            posCos.writeInt32(2, py);
-            posCos.writeInt32(3, pz);
-            posCos.flush();
-
-            ByteArrayOutputStream rotOut = new ByteArrayOutputStream();
-            CodedOutputStream rotCos = CodedOutputStream.newInstance(rotOut);
-            rotCos.writeInt32(1, rx);
-            rotCos.writeInt32(2, ry);
-            rotCos.writeInt32(3, rz);
-            rotCos.flush();
-
-            ByteArrayOutputStream msgOut = new ByteArrayOutputStream();
-            CodedOutputStream msgCos = CodedOutputStream.newInstance(msgOut);
-            msgCos.writeUInt32(1, this.getId());
-            msgCos.writeBytes(2, ByteString.copyFrom(posOut.toByteArray()));
-            msgCos.writeBytes(3, ByteString.copyFrom(rotOut.toByteArray()));
-            msgCos.writeEnum(4, this.getMotionState().getNumber());
-            msgCos.flush();
-
-            entityInfo.mergeUnknownFields(
-                UnknownFieldSet.newBuilder()
-                    .addField(25, UnknownFieldSet.Field.newBuilder()
-                        .addLengthDelimited(ByteString.copyFrom(msgOut.toByteArray()))
-                        .build())
-                    .build());
-        } catch (Exception e) {
-            Grasscutter.getLogger().error("Failed to inject EntityIntMotionInfo", e);
-        }
+    private static Vector3Int toMilli(Position p) {
+        return Vector3Int.newBuilder()
+                .setX(Math.round(p.getX() * 1000f))
+                .setY(Math.round(p.getY() * 1000f))
+                .setZ(Math.round(p.getZ() * 1000f))
+                .build();
     }
 
     public float heal(float amount) {

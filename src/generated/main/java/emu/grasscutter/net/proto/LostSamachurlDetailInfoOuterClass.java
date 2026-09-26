@@ -19,25 +19,25 @@ public final class LostSamachurlDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .EKCCNKGEJPN dacllbeooic = 2;</code>
+     * <code>repeated .EKCCNKGEJPN dacllbeooic = 50000;</code>
      */
     java.util.List<emu.grasscutter.net.proto.EKCCNKGEJPNOuterClass.EKCCNKGEJPN> 
         getDacllbeooicList();
     /**
-     * <code>repeated .EKCCNKGEJPN dacllbeooic = 2;</code>
+     * <code>repeated .EKCCNKGEJPN dacllbeooic = 50000;</code>
      */
     emu.grasscutter.net.proto.EKCCNKGEJPNOuterClass.EKCCNKGEJPN getDacllbeooic(int index);
     /**
-     * <code>repeated .EKCCNKGEJPN dacllbeooic = 2;</code>
+     * <code>repeated .EKCCNKGEJPN dacllbeooic = 50000;</code>
      */
     int getDacllbeooicCount();
     /**
-     * <code>repeated .EKCCNKGEJPN dacllbeooic = 2;</code>
+     * <code>repeated .EKCCNKGEJPN dacllbeooic = 50000;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.EKCCNKGEJPNOuterClass.EKCCNKGEJPNOrBuilder> 
         getDacllbeooicOrBuilderList();
     /**
-     * <code>repeated .EKCCNKGEJPN dacllbeooic = 2;</code>
+     * <code>repeated .EKCCNKGEJPN dacllbeooic = 50000;</code>
      */
     emu.grasscutter.net.proto.EKCCNKGEJPNOuterClass.EKCCNKGEJPNOrBuilder getDacllbeooicOrBuilder(
         int index);
@@ -114,15 +114,6 @@ public final class LostSamachurlDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 18: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                dacllbeooic_ = new java.util.ArrayList<emu.grasscutter.net.proto.EKCCNKGEJPNOuterClass.EKCCNKGEJPN>();
-                mutable_bitField0_ |= 0x00000001;
-              }
-              dacllbeooic_.add(
-                  input.readMessage(emu.grasscutter.net.proto.EKCCNKGEJPNOuterClass.EKCCNKGEJPN.parser(), extensionRegistry));
-              break;
-            }
             case 122: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 fffjlckmddf_ = new java.util.ArrayList<emu.grasscutter.net.proto.GMBMFLHFBNGOuterClass.GMBMFLHFBNG>();
@@ -130,6 +121,15 @@ public final class LostSamachurlDetailInfoOuterClass {
               }
               fffjlckmddf_.add(
                   input.readMessage(emu.grasscutter.net.proto.GMBMFLHFBNGOuterClass.GMBMFLHFBNG.parser(), extensionRegistry));
+              break;
+            }
+            case 400002: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                dacllbeooic_ = new java.util.ArrayList<emu.grasscutter.net.proto.EKCCNKGEJPNOuterClass.EKCCNKGEJPN>();
+                mutable_bitField0_ |= 0x00000001;
+              }
+              dacllbeooic_.add(
+                  input.readMessage(emu.grasscutter.net.proto.EKCCNKGEJPNOuterClass.EKCCNKGEJPN.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -147,11 +147,11 @@ public final class LostSamachurlDetailInfoOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          dacllbeooic_ = java.util.Collections.unmodifiableList(dacllbeooic_);
-        }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
           fffjlckmddf_ = java.util.Collections.unmodifiableList(fffjlckmddf_);
+        }
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          dacllbeooic_ = java.util.Collections.unmodifiableList(dacllbeooic_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -170,17 +170,17 @@ public final class LostSamachurlDetailInfoOuterClass {
               emu.grasscutter.net.proto.LostSamachurlDetailInfoOuterClass.LostSamachurlDetailInfo.class, emu.grasscutter.net.proto.LostSamachurlDetailInfoOuterClass.LostSamachurlDetailInfo.Builder.class);
     }
 
-    public static final int DACLLBEOOIC_FIELD_NUMBER = 2;
+    public static final int DACLLBEOOIC_FIELD_NUMBER = 50000;
     private java.util.List<emu.grasscutter.net.proto.EKCCNKGEJPNOuterClass.EKCCNKGEJPN> dacllbeooic_;
     /**
-     * <code>repeated .EKCCNKGEJPN dacllbeooic = 2;</code>
+     * <code>repeated .EKCCNKGEJPN dacllbeooic = 50000;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.EKCCNKGEJPNOuterClass.EKCCNKGEJPN> getDacllbeooicList() {
       return dacllbeooic_;
     }
     /**
-     * <code>repeated .EKCCNKGEJPN dacllbeooic = 2;</code>
+     * <code>repeated .EKCCNKGEJPN dacllbeooic = 50000;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.EKCCNKGEJPNOuterClass.EKCCNKGEJPNOrBuilder> 
@@ -188,21 +188,21 @@ public final class LostSamachurlDetailInfoOuterClass {
       return dacllbeooic_;
     }
     /**
-     * <code>repeated .EKCCNKGEJPN dacllbeooic = 2;</code>
+     * <code>repeated .EKCCNKGEJPN dacllbeooic = 50000;</code>
      */
     @java.lang.Override
     public int getDacllbeooicCount() {
       return dacllbeooic_.size();
     }
     /**
-     * <code>repeated .EKCCNKGEJPN dacllbeooic = 2;</code>
+     * <code>repeated .EKCCNKGEJPN dacllbeooic = 50000;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.EKCCNKGEJPNOuterClass.EKCCNKGEJPN getDacllbeooic(int index) {
       return dacllbeooic_.get(index);
     }
     /**
-     * <code>repeated .EKCCNKGEJPN dacllbeooic = 2;</code>
+     * <code>repeated .EKCCNKGEJPN dacllbeooic = 50000;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.EKCCNKGEJPNOuterClass.EKCCNKGEJPNOrBuilder getDacllbeooicOrBuilder(
@@ -264,11 +264,11 @@ public final class LostSamachurlDetailInfoOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      for (int i = 0; i < dacllbeooic_.size(); i++) {
-        output.writeMessage(2, dacllbeooic_.get(i));
-      }
       for (int i = 0; i < fffjlckmddf_.size(); i++) {
         output.writeMessage(15, fffjlckmddf_.get(i));
+      }
+      for (int i = 0; i < dacllbeooic_.size(); i++) {
+        output.writeMessage(50000, dacllbeooic_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -279,13 +279,13 @@ public final class LostSamachurlDetailInfoOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      for (int i = 0; i < dacllbeooic_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, dacllbeooic_.get(i));
-      }
       for (int i = 0; i < fffjlckmddf_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(15, fffjlckmddf_.get(i));
+      }
+      for (int i = 0; i < dacllbeooic_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(50000, dacllbeooic_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -660,7 +660,7 @@ public final class LostSamachurlDetailInfoOuterClass {
           emu.grasscutter.net.proto.EKCCNKGEJPNOuterClass.EKCCNKGEJPN, emu.grasscutter.net.proto.EKCCNKGEJPNOuterClass.EKCCNKGEJPN.Builder, emu.grasscutter.net.proto.EKCCNKGEJPNOuterClass.EKCCNKGEJPNOrBuilder> dacllbeooicBuilder_;
 
       /**
-       * <code>repeated .EKCCNKGEJPN dacllbeooic = 2;</code>
+       * <code>repeated .EKCCNKGEJPN dacllbeooic = 50000;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.EKCCNKGEJPNOuterClass.EKCCNKGEJPN> getDacllbeooicList() {
         if (dacllbeooicBuilder_ == null) {
@@ -670,7 +670,7 @@ public final class LostSamachurlDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .EKCCNKGEJPN dacllbeooic = 2;</code>
+       * <code>repeated .EKCCNKGEJPN dacllbeooic = 50000;</code>
        */
       public int getDacllbeooicCount() {
         if (dacllbeooicBuilder_ == null) {
@@ -680,7 +680,7 @@ public final class LostSamachurlDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .EKCCNKGEJPN dacllbeooic = 2;</code>
+       * <code>repeated .EKCCNKGEJPN dacllbeooic = 50000;</code>
        */
       public emu.grasscutter.net.proto.EKCCNKGEJPNOuterClass.EKCCNKGEJPN getDacllbeooic(int index) {
         if (dacllbeooicBuilder_ == null) {
@@ -690,7 +690,7 @@ public final class LostSamachurlDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .EKCCNKGEJPN dacllbeooic = 2;</code>
+       * <code>repeated .EKCCNKGEJPN dacllbeooic = 50000;</code>
        */
       public Builder setDacllbeooic(
           int index, emu.grasscutter.net.proto.EKCCNKGEJPNOuterClass.EKCCNKGEJPN value) {
@@ -707,7 +707,7 @@ public final class LostSamachurlDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .EKCCNKGEJPN dacllbeooic = 2;</code>
+       * <code>repeated .EKCCNKGEJPN dacllbeooic = 50000;</code>
        */
       public Builder setDacllbeooic(
           int index, emu.grasscutter.net.proto.EKCCNKGEJPNOuterClass.EKCCNKGEJPN.Builder builderForValue) {
@@ -721,7 +721,7 @@ public final class LostSamachurlDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .EKCCNKGEJPN dacllbeooic = 2;</code>
+       * <code>repeated .EKCCNKGEJPN dacllbeooic = 50000;</code>
        */
       public Builder addDacllbeooic(emu.grasscutter.net.proto.EKCCNKGEJPNOuterClass.EKCCNKGEJPN value) {
         if (dacllbeooicBuilder_ == null) {
@@ -737,7 +737,7 @@ public final class LostSamachurlDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .EKCCNKGEJPN dacllbeooic = 2;</code>
+       * <code>repeated .EKCCNKGEJPN dacllbeooic = 50000;</code>
        */
       public Builder addDacllbeooic(
           int index, emu.grasscutter.net.proto.EKCCNKGEJPNOuterClass.EKCCNKGEJPN value) {
@@ -754,7 +754,7 @@ public final class LostSamachurlDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .EKCCNKGEJPN dacllbeooic = 2;</code>
+       * <code>repeated .EKCCNKGEJPN dacllbeooic = 50000;</code>
        */
       public Builder addDacllbeooic(
           emu.grasscutter.net.proto.EKCCNKGEJPNOuterClass.EKCCNKGEJPN.Builder builderForValue) {
@@ -768,7 +768,7 @@ public final class LostSamachurlDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .EKCCNKGEJPN dacllbeooic = 2;</code>
+       * <code>repeated .EKCCNKGEJPN dacllbeooic = 50000;</code>
        */
       public Builder addDacllbeooic(
           int index, emu.grasscutter.net.proto.EKCCNKGEJPNOuterClass.EKCCNKGEJPN.Builder builderForValue) {
@@ -782,7 +782,7 @@ public final class LostSamachurlDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .EKCCNKGEJPN dacllbeooic = 2;</code>
+       * <code>repeated .EKCCNKGEJPN dacllbeooic = 50000;</code>
        */
       public Builder addAllDacllbeooic(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.EKCCNKGEJPNOuterClass.EKCCNKGEJPN> values) {
@@ -797,7 +797,7 @@ public final class LostSamachurlDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .EKCCNKGEJPN dacllbeooic = 2;</code>
+       * <code>repeated .EKCCNKGEJPN dacllbeooic = 50000;</code>
        */
       public Builder clearDacllbeooic() {
         if (dacllbeooicBuilder_ == null) {
@@ -810,7 +810,7 @@ public final class LostSamachurlDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .EKCCNKGEJPN dacllbeooic = 2;</code>
+       * <code>repeated .EKCCNKGEJPN dacllbeooic = 50000;</code>
        */
       public Builder removeDacllbeooic(int index) {
         if (dacllbeooicBuilder_ == null) {
@@ -823,14 +823,14 @@ public final class LostSamachurlDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .EKCCNKGEJPN dacllbeooic = 2;</code>
+       * <code>repeated .EKCCNKGEJPN dacllbeooic = 50000;</code>
        */
       public emu.grasscutter.net.proto.EKCCNKGEJPNOuterClass.EKCCNKGEJPN.Builder getDacllbeooicBuilder(
           int index) {
         return getDacllbeooicFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .EKCCNKGEJPN dacllbeooic = 2;</code>
+       * <code>repeated .EKCCNKGEJPN dacllbeooic = 50000;</code>
        */
       public emu.grasscutter.net.proto.EKCCNKGEJPNOuterClass.EKCCNKGEJPNOrBuilder getDacllbeooicOrBuilder(
           int index) {
@@ -840,7 +840,7 @@ public final class LostSamachurlDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .EKCCNKGEJPN dacllbeooic = 2;</code>
+       * <code>repeated .EKCCNKGEJPN dacllbeooic = 50000;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.EKCCNKGEJPNOuterClass.EKCCNKGEJPNOrBuilder> 
            getDacllbeooicOrBuilderList() {
@@ -851,14 +851,14 @@ public final class LostSamachurlDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .EKCCNKGEJPN dacllbeooic = 2;</code>
+       * <code>repeated .EKCCNKGEJPN dacllbeooic = 50000;</code>
        */
       public emu.grasscutter.net.proto.EKCCNKGEJPNOuterClass.EKCCNKGEJPN.Builder addDacllbeooicBuilder() {
         return getDacllbeooicFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.EKCCNKGEJPNOuterClass.EKCCNKGEJPN.getDefaultInstance());
       }
       /**
-       * <code>repeated .EKCCNKGEJPN dacllbeooic = 2;</code>
+       * <code>repeated .EKCCNKGEJPN dacllbeooic = 50000;</code>
        */
       public emu.grasscutter.net.proto.EKCCNKGEJPNOuterClass.EKCCNKGEJPN.Builder addDacllbeooicBuilder(
           int index) {
@@ -866,7 +866,7 @@ public final class LostSamachurlDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.EKCCNKGEJPNOuterClass.EKCCNKGEJPN.getDefaultInstance());
       }
       /**
-       * <code>repeated .EKCCNKGEJPN dacllbeooic = 2;</code>
+       * <code>repeated .EKCCNKGEJPN dacllbeooic = 50000;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.EKCCNKGEJPNOuterClass.EKCCNKGEJPN.Builder> 
            getDacllbeooicBuilderList() {
@@ -1194,11 +1194,11 @@ public final class LostSamachurlDetailInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\035LostSamachurlDetailInfo.proto\032\021EKCCNKG" +
-      "EJPN.proto\032\021GMBMFLHFBNG.proto\"_\n\027LostSam" +
-      "achurlDetailInfo\022!\n\013dacllbeooic\030\002 \003(\0132\014." +
-      "EKCCNKGEJPN\022!\n\013fffjlckmddf\030\017 \003(\0132\014.GMBMF" +
-      "LHFBNGB>\n\031emu.grasscutter.net.protoB!Los" +
-      "tSamachurlDetailInfoOuterClassb\006proto3"
+      "EJPN.proto\032\021GMBMFLHFBNG.proto\"a\n\027LostSam" +
+      "achurlDetailInfo\022#\n\013dacllbeooic\030\320\206\003 \003(\0132" +
+      "\014.EKCCNKGEJPN\022!\n\013fffjlckmddf\030\017 \003(\0132\014.GMB" +
+      "MFLHFBNGB>\n\031emu.grasscutter.net.protoB!L" +
+      "ostSamachurlDetailInfoOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

@@ -7,6 +7,6 @@ import "FlightDailyRecord.proto";
 
 message FlightActivityDetailInfo {
 	repeated FlightDailyRecord daily_record_list = 8;
-	uint32 preview_reward_id = 9;
-	uint32 min_open_player_level = 12;
+	uint32 preview_reward_id = 10;
+	uint32 min_open_player_level = 15;
 }

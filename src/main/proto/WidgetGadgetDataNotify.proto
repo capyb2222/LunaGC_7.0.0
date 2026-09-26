@@ -6,5 +6,5 @@ option java_outer_classname = "WidgetGadgetDataNotifyOuterClass";
 import "WidgetGadgetData.proto";
 
 message WidgetGadgetDataNotify {
-	WidgetGadgetData widget_gadget_data = 10;
+	WidgetGadgetData widget_gadget_data = 8;
 }

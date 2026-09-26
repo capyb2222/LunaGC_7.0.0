@@ -19,25 +19,25 @@ public final class RechargeDiskDetailInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .NHCBLLBBFMI level_info_list = 5;</code>
+     * <code>repeated .NHCBLLBBFMI level_info_list = 7;</code>
      */
     java.util.List<emu.grasscutter.net.proto.NHCBLLBBFMIOuterClass.NHCBLLBBFMI> 
         getLevelInfoListList();
     /**
-     * <code>repeated .NHCBLLBBFMI level_info_list = 5;</code>
+     * <code>repeated .NHCBLLBBFMI level_info_list = 7;</code>
      */
     emu.grasscutter.net.proto.NHCBLLBBFMIOuterClass.NHCBLLBBFMI getLevelInfoList(int index);
     /**
-     * <code>repeated .NHCBLLBBFMI level_info_list = 5;</code>
+     * <code>repeated .NHCBLLBBFMI level_info_list = 7;</code>
      */
     int getLevelInfoListCount();
     /**
-     * <code>repeated .NHCBLLBBFMI level_info_list = 5;</code>
+     * <code>repeated .NHCBLLBBFMI level_info_list = 7;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.NHCBLLBBFMIOuterClass.NHCBLLBBFMIOrBuilder> 
         getLevelInfoListOrBuilderList();
     /**
-     * <code>repeated .NHCBLLBBFMI level_info_list = 5;</code>
+     * <code>repeated .NHCBLLBBFMI level_info_list = 7;</code>
      */
     emu.grasscutter.net.proto.NHCBLLBBFMIOuterClass.NHCBLLBBFMIOrBuilder getLevelInfoListOrBuilder(
         int index);
@@ -89,7 +89,7 @@ public final class RechargeDiskDetailInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 42: {
+            case 58: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 levelInfoList_ = new java.util.ArrayList<emu.grasscutter.net.proto.NHCBLLBBFMIOuterClass.NHCBLLBBFMI>();
                 mutable_bitField0_ |= 0x00000001;
@@ -133,17 +133,17 @@ public final class RechargeDiskDetailInfoOuterClass {
               emu.grasscutter.net.proto.RechargeDiskDetailInfoOuterClass.RechargeDiskDetailInfo.class, emu.grasscutter.net.proto.RechargeDiskDetailInfoOuterClass.RechargeDiskDetailInfo.Builder.class);
     }
 
-    public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 5;
+    public static final int LEVEL_INFO_LIST_FIELD_NUMBER = 7;
     private java.util.List<emu.grasscutter.net.proto.NHCBLLBBFMIOuterClass.NHCBLLBBFMI> levelInfoList_;
     /**
-     * <code>repeated .NHCBLLBBFMI level_info_list = 5;</code>
+     * <code>repeated .NHCBLLBBFMI level_info_list = 7;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.NHCBLLBBFMIOuterClass.NHCBLLBBFMI> getLevelInfoListList() {
       return levelInfoList_;
     }
     /**
-     * <code>repeated .NHCBLLBBFMI level_info_list = 5;</code>
+     * <code>repeated .NHCBLLBBFMI level_info_list = 7;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.NHCBLLBBFMIOuterClass.NHCBLLBBFMIOrBuilder> 
@@ -151,21 +151,21 @@ public final class RechargeDiskDetailInfoOuterClass {
       return levelInfoList_;
     }
     /**
-     * <code>repeated .NHCBLLBBFMI level_info_list = 5;</code>
+     * <code>repeated .NHCBLLBBFMI level_info_list = 7;</code>
      */
     @java.lang.Override
     public int getLevelInfoListCount() {
       return levelInfoList_.size();
     }
     /**
-     * <code>repeated .NHCBLLBBFMI level_info_list = 5;</code>
+     * <code>repeated .NHCBLLBBFMI level_info_list = 7;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.NHCBLLBBFMIOuterClass.NHCBLLBBFMI getLevelInfoList(int index) {
       return levelInfoList_.get(index);
     }
     /**
-     * <code>repeated .NHCBLLBBFMI level_info_list = 5;</code>
+     * <code>repeated .NHCBLLBBFMI level_info_list = 7;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.NHCBLLBBFMIOuterClass.NHCBLLBBFMIOrBuilder getLevelInfoListOrBuilder(
@@ -188,7 +188,7 @@ public final class RechargeDiskDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < levelInfoList_.size(); i++) {
-        output.writeMessage(5, levelInfoList_.get(i));
+        output.writeMessage(7, levelInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -201,7 +201,7 @@ public final class RechargeDiskDetailInfoOuterClass {
       size = 0;
       for (int i = 0; i < levelInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(5, levelInfoList_.get(i));
+          .computeMessageSize(7, levelInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -528,7 +528,7 @@ public final class RechargeDiskDetailInfoOuterClass {
           emu.grasscutter.net.proto.NHCBLLBBFMIOuterClass.NHCBLLBBFMI, emu.grasscutter.net.proto.NHCBLLBBFMIOuterClass.NHCBLLBBFMI.Builder, emu.grasscutter.net.proto.NHCBLLBBFMIOuterClass.NHCBLLBBFMIOrBuilder> levelInfoListBuilder_;
 
       /**
-       * <code>repeated .NHCBLLBBFMI level_info_list = 5;</code>
+       * <code>repeated .NHCBLLBBFMI level_info_list = 7;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.NHCBLLBBFMIOuterClass.NHCBLLBBFMI> getLevelInfoListList() {
         if (levelInfoListBuilder_ == null) {
@@ -538,7 +538,7 @@ public final class RechargeDiskDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .NHCBLLBBFMI level_info_list = 5;</code>
+       * <code>repeated .NHCBLLBBFMI level_info_list = 7;</code>
        */
       public int getLevelInfoListCount() {
         if (levelInfoListBuilder_ == null) {
@@ -548,7 +548,7 @@ public final class RechargeDiskDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .NHCBLLBBFMI level_info_list = 5;</code>
+       * <code>repeated .NHCBLLBBFMI level_info_list = 7;</code>
        */
       public emu.grasscutter.net.proto.NHCBLLBBFMIOuterClass.NHCBLLBBFMI getLevelInfoList(int index) {
         if (levelInfoListBuilder_ == null) {
@@ -558,7 +558,7 @@ public final class RechargeDiskDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .NHCBLLBBFMI level_info_list = 5;</code>
+       * <code>repeated .NHCBLLBBFMI level_info_list = 7;</code>
        */
       public Builder setLevelInfoList(
           int index, emu.grasscutter.net.proto.NHCBLLBBFMIOuterClass.NHCBLLBBFMI value) {
@@ -575,7 +575,7 @@ public final class RechargeDiskDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NHCBLLBBFMI level_info_list = 5;</code>
+       * <code>repeated .NHCBLLBBFMI level_info_list = 7;</code>
        */
       public Builder setLevelInfoList(
           int index, emu.grasscutter.net.proto.NHCBLLBBFMIOuterClass.NHCBLLBBFMI.Builder builderForValue) {
@@ -589,7 +589,7 @@ public final class RechargeDiskDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NHCBLLBBFMI level_info_list = 5;</code>
+       * <code>repeated .NHCBLLBBFMI level_info_list = 7;</code>
        */
       public Builder addLevelInfoList(emu.grasscutter.net.proto.NHCBLLBBFMIOuterClass.NHCBLLBBFMI value) {
         if (levelInfoListBuilder_ == null) {
@@ -605,7 +605,7 @@ public final class RechargeDiskDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NHCBLLBBFMI level_info_list = 5;</code>
+       * <code>repeated .NHCBLLBBFMI level_info_list = 7;</code>
        */
       public Builder addLevelInfoList(
           int index, emu.grasscutter.net.proto.NHCBLLBBFMIOuterClass.NHCBLLBBFMI value) {
@@ -622,7 +622,7 @@ public final class RechargeDiskDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NHCBLLBBFMI level_info_list = 5;</code>
+       * <code>repeated .NHCBLLBBFMI level_info_list = 7;</code>
        */
       public Builder addLevelInfoList(
           emu.grasscutter.net.proto.NHCBLLBBFMIOuterClass.NHCBLLBBFMI.Builder builderForValue) {
@@ -636,7 +636,7 @@ public final class RechargeDiskDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NHCBLLBBFMI level_info_list = 5;</code>
+       * <code>repeated .NHCBLLBBFMI level_info_list = 7;</code>
        */
       public Builder addLevelInfoList(
           int index, emu.grasscutter.net.proto.NHCBLLBBFMIOuterClass.NHCBLLBBFMI.Builder builderForValue) {
@@ -650,7 +650,7 @@ public final class RechargeDiskDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NHCBLLBBFMI level_info_list = 5;</code>
+       * <code>repeated .NHCBLLBBFMI level_info_list = 7;</code>
        */
       public Builder addAllLevelInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.NHCBLLBBFMIOuterClass.NHCBLLBBFMI> values) {
@@ -665,7 +665,7 @@ public final class RechargeDiskDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NHCBLLBBFMI level_info_list = 5;</code>
+       * <code>repeated .NHCBLLBBFMI level_info_list = 7;</code>
        */
       public Builder clearLevelInfoList() {
         if (levelInfoListBuilder_ == null) {
@@ -678,7 +678,7 @@ public final class RechargeDiskDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NHCBLLBBFMI level_info_list = 5;</code>
+       * <code>repeated .NHCBLLBBFMI level_info_list = 7;</code>
        */
       public Builder removeLevelInfoList(int index) {
         if (levelInfoListBuilder_ == null) {
@@ -691,14 +691,14 @@ public final class RechargeDiskDetailInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .NHCBLLBBFMI level_info_list = 5;</code>
+       * <code>repeated .NHCBLLBBFMI level_info_list = 7;</code>
        */
       public emu.grasscutter.net.proto.NHCBLLBBFMIOuterClass.NHCBLLBBFMI.Builder getLevelInfoListBuilder(
           int index) {
         return getLevelInfoListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .NHCBLLBBFMI level_info_list = 5;</code>
+       * <code>repeated .NHCBLLBBFMI level_info_list = 7;</code>
        */
       public emu.grasscutter.net.proto.NHCBLLBBFMIOuterClass.NHCBLLBBFMIOrBuilder getLevelInfoListOrBuilder(
           int index) {
@@ -708,7 +708,7 @@ public final class RechargeDiskDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .NHCBLLBBFMI level_info_list = 5;</code>
+       * <code>repeated .NHCBLLBBFMI level_info_list = 7;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.NHCBLLBBFMIOuterClass.NHCBLLBBFMIOrBuilder> 
            getLevelInfoListOrBuilderList() {
@@ -719,14 +719,14 @@ public final class RechargeDiskDetailInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .NHCBLLBBFMI level_info_list = 5;</code>
+       * <code>repeated .NHCBLLBBFMI level_info_list = 7;</code>
        */
       public emu.grasscutter.net.proto.NHCBLLBBFMIOuterClass.NHCBLLBBFMI.Builder addLevelInfoListBuilder() {
         return getLevelInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.NHCBLLBBFMIOuterClass.NHCBLLBBFMI.getDefaultInstance());
       }
       /**
-       * <code>repeated .NHCBLLBBFMI level_info_list = 5;</code>
+       * <code>repeated .NHCBLLBBFMI level_info_list = 7;</code>
        */
       public emu.grasscutter.net.proto.NHCBLLBBFMIOuterClass.NHCBLLBBFMI.Builder addLevelInfoListBuilder(
           int index) {
@@ -734,7 +734,7 @@ public final class RechargeDiskDetailInfoOuterClass {
             index, emu.grasscutter.net.proto.NHCBLLBBFMIOuterClass.NHCBLLBBFMI.getDefaultInstance());
       }
       /**
-       * <code>repeated .NHCBLLBBFMI level_info_list = 5;</code>
+       * <code>repeated .NHCBLLBBFMI level_info_list = 7;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.NHCBLLBBFMIOuterClass.NHCBLLBBFMI.Builder> 
            getLevelInfoListBuilderList() {
@@ -823,7 +823,7 @@ public final class RechargeDiskDetailInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\034RechargeDiskDetailInfo.proto\032\021NHCBLLBB" +
       "FMI.proto\"?\n\026RechargeDiskDetailInfo\022%\n\017l" +
-      "evel_info_list\030\005 \003(\0132\014.NHCBLLBBFMIB=\n\031em" +
+      "evel_info_list\030\007 \003(\0132\014.NHCBLLBBFMIB=\n\031em" +
       "u.grasscutter.net.protoB RechargeDiskDet" +
       "ailInfoOuterClassb\006proto3"
     };

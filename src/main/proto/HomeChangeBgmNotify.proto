@@ -4,5 +4,5 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "HomeChangeBgmNotifyOuterClass";
 
 message HomeChangeBgmNotify {
-	uint32 bgm_id = 7;
+	uint32 bgm_id = 5;
 }

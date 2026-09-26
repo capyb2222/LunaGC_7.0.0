@@ -19,13 +19,13 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>bool is_show_constellation_num = 50000;</code>
+     * <code>bool is_show_constellation_num = 5;</code>
      * @return The isShowConstellationNum.
      */
     boolean getIsShowConstellationNum();
 
     /**
-     * <code>bool is_show_avatar = 50001;</code>
+     * <code>bool is_show_avatar = 2;</code>
      * @return The isShowAvatar.
      */
     boolean getIsShowAvatar();
@@ -94,6 +94,16 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
             case 0:
               done = true;
               break;
+            case 16: {
+
+              isShowAvatar_ = input.readBool();
+              break;
+            }
+            case 40: {
+
+              isShowConstellationNum_ = input.readBool();
+              break;
+            }
             case 80: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 showAvatarIdList_ = newIntList();
@@ -113,16 +123,6 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
                 showAvatarIdList_.addInt(input.readUInt32());
               }
               input.popLimit(limit);
-              break;
-            }
-            case 400000: {
-
-              isShowConstellationNum_ = input.readBool();
-              break;
-            }
-            case 400008: {
-
-              isShowAvatar_ = input.readBool();
               break;
             }
             default: {
@@ -160,10 +160,10 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
               emu.grasscutter.net.proto.UpdatePlayerShowAvatarListReqOuterClass.UpdatePlayerShowAvatarListReq.class, emu.grasscutter.net.proto.UpdatePlayerShowAvatarListReqOuterClass.UpdatePlayerShowAvatarListReq.Builder.class);
     }
 
-    public static final int IS_SHOW_CONSTELLATION_NUM_FIELD_NUMBER = 50000;
+    public static final int IS_SHOW_CONSTELLATION_NUM_FIELD_NUMBER = 5;
     private boolean isShowConstellationNum_;
     /**
-     * <code>bool is_show_constellation_num = 50000;</code>
+     * <code>bool is_show_constellation_num = 5;</code>
      * @return The isShowConstellationNum.
      */
     @java.lang.Override
@@ -171,10 +171,10 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
       return isShowConstellationNum_;
     }
 
-    public static final int IS_SHOW_AVATAR_FIELD_NUMBER = 50001;
+    public static final int IS_SHOW_AVATAR_FIELD_NUMBER = 2;
     private boolean isShowAvatar_;
     /**
-     * <code>bool is_show_avatar = 50001;</code>
+     * <code>bool is_show_avatar = 2;</code>
      * @return The isShowAvatar.
      */
     @java.lang.Override
@@ -225,18 +225,18 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
+      if (isShowAvatar_ != false) {
+        output.writeBool(2, isShowAvatar_);
+      }
+      if (isShowConstellationNum_ != false) {
+        output.writeBool(5, isShowConstellationNum_);
+      }
       if (getShowAvatarIdListList().size() > 0) {
         output.writeUInt32NoTag(82);
         output.writeUInt32NoTag(showAvatarIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < showAvatarIdList_.size(); i++) {
         output.writeUInt32NoTag(showAvatarIdList_.getInt(i));
-      }
-      if (isShowConstellationNum_ != false) {
-        output.writeBool(50000, isShowConstellationNum_);
-      }
-      if (isShowAvatar_ != false) {
-        output.writeBool(50001, isShowAvatar_);
       }
       unknownFields.writeTo(output);
     }
@@ -247,6 +247,14 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      if (isShowAvatar_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(2, isShowAvatar_);
+      }
+      if (isShowConstellationNum_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(5, isShowConstellationNum_);
+      }
       {
         int dataSize = 0;
         for (int i = 0; i < showAvatarIdList_.size(); i++) {
@@ -260,14 +268,6 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
               .computeInt32SizeNoTag(dataSize);
         }
         showAvatarIdListMemoizedSerializedSize = dataSize;
-      }
-      if (isShowConstellationNum_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(50000, isShowConstellationNum_);
-      }
-      if (isShowAvatar_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(50001, isShowAvatar_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -580,7 +580,7 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
 
       private boolean isShowConstellationNum_ ;
       /**
-       * <code>bool is_show_constellation_num = 50000;</code>
+       * <code>bool is_show_constellation_num = 5;</code>
        * @return The isShowConstellationNum.
        */
       @java.lang.Override
@@ -588,7 +588,7 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
         return isShowConstellationNum_;
       }
       /**
-       * <code>bool is_show_constellation_num = 50000;</code>
+       * <code>bool is_show_constellation_num = 5;</code>
        * @param value The isShowConstellationNum to set.
        * @return This builder for chaining.
        */
@@ -599,7 +599,7 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
         return this;
       }
       /**
-       * <code>bool is_show_constellation_num = 50000;</code>
+       * <code>bool is_show_constellation_num = 5;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsShowConstellationNum() {
@@ -611,7 +611,7 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
 
       private boolean isShowAvatar_ ;
       /**
-       * <code>bool is_show_avatar = 50001;</code>
+       * <code>bool is_show_avatar = 2;</code>
        * @return The isShowAvatar.
        */
       @java.lang.Override
@@ -619,7 +619,7 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
         return isShowAvatar_;
       }
       /**
-       * <code>bool is_show_avatar = 50001;</code>
+       * <code>bool is_show_avatar = 2;</code>
        * @param value The isShowAvatar to set.
        * @return This builder for chaining.
        */
@@ -630,7 +630,7 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
         return this;
       }
       /**
-       * <code>bool is_show_avatar = 50001;</code>
+       * <code>bool is_show_avatar = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsShowAvatar() {
@@ -785,12 +785,12 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n#UpdatePlayerShowAvatarListReq.proto\"{\n" +
-      "\035UpdatePlayerShowAvatarListReq\022#\n\031is_sho" +
-      "w_constellation_num\030\320\206\003 \001(\010\022\030\n\016is_show_a" +
-      "vatar\030\321\206\003 \001(\010\022\033\n\023show_avatar_id_list\030\n \003" +
-      "(\rBD\n\031emu.grasscutter.net.protoB\'UpdateP" +
-      "layerShowAvatarListReqOuterClassb\006proto3"
+      "\n#UpdatePlayerShowAvatarListReq.proto\"w\n" +
+      "\035UpdatePlayerShowAvatarListReq\022!\n\031is_sho" +
+      "w_constellation_num\030\005 \001(\010\022\026\n\016is_show_ava" +
+      "tar\030\002 \001(\010\022\033\n\023show_avatar_id_list\030\n \003(\rBD" +
+      "\n\031emu.grasscutter.net.protoB\'UpdatePlaye" +
+      "rShowAvatarListReqOuterClassb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

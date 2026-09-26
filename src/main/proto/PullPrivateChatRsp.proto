@@ -6,6 +6,6 @@ option java_outer_classname = "PullPrivateChatRspOuterClass";
 import "ChatInfo.proto";
 
 message PullPrivateChatRsp {
-	int32 retcode = 4;
-	repeated ChatInfo chat_info = 7;
+	int32 retcode = 3;
+	repeated ChatInfo chat_info = 4;
 }

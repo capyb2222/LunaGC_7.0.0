@@ -4,6 +4,6 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "_ExpandToReduceUpgradeCostBuffInfoOuterClass";
 
 message _ExpandToReduceUpgradeCostBuffInfo {
-	bool NHLOILJDDIP = 3;
-	uint32 MPPNKBJHBOK = 4;
+	bool NHLOILJDDIP = 5;
+	uint32 MPPNKBJHBOK = 12;
 }

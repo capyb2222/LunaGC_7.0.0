@@ -424,7 +424,7 @@ public final class AbilityManager extends BasePlayerManager {
         var entity = this.player.getScene().getEntityById(invoke.getEntityId());
         if (entity == null) entity = this.player.getTeamManager().getEntity();
 
-        entity.getGlobalAbilityValues().put(TeamManager.VERDANT_DEW, update.getFOMPMBNENPH());
+        entity.getGlobalAbilityValues().put(TeamManager.VERDANT_DEW, update.getValue());
         entity.onAbilityValueUpdate();
     }
 

@@ -13,10 +13,10 @@ message LockedPersonallineData {
 		uint32 quest_id = 9;
 	}
 	oneof param {
-		_QuestParam quest_param = 4;
-		uint32 chapter_id = 7;
-		uint32 level = 10;
+		_QuestParam quest_param = 11;
+		uint32 chapter_id = 6;
+		uint32 level = 2;
 	}
-	uint32 personal_line_id = 2;
-	LockReason lock_reason = 12;
+	uint32 personal_line_id = 8;
+	LockReason lock_reason = 3;
 }

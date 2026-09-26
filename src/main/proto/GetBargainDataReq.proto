@@ -4,5 +4,5 @@ option java_package = "emu.grasscutter.net.proto";
 option java_outer_classname = "GetBargainDataReqOuterClass";
 
 message GetBargainDataReq {
-	uint32 bargain_id = 12;
+	uint32 bargain_id = 11;
 }
